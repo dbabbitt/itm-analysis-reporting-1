@@ -1,13 +1,5 @@
 #### itm-analysis-reporting
 
-# Executive Summary
-
- 
-
-Version 1.0 of the First Responder Virtual Reality Simulator (FRVRS) logger does not provide a moment-by-moment record of the whereabouts of the first responder trainee (DM), nor an indication of which patient is being observed. Therefore, we are unable to accurately model a theory of mind with respect to the DM's decisions. It is recommended in later versions that DM_GAZE, PATIENT_ENGAGEMENT_END and DM_LOCATION be added to the action types that the logger tracks.
-
- 
-
 # Introduction
 
  
