@@ -1,0 +1,179 @@
+
+# C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\.gitignore
+
+# Ignore files that contain harddrive-specific information
+
+# exclude everything except personal directories
+/*
+!.gitignore
+!/builders
+!/data
+!/explorations
+!/ipynb
+!/py
+!/saves
+!/visualizations
+!README.md
+
+# Ignore whole folders
+**/.git/
+
+# Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
+# push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
+# Git Large File Storage (Git LFS) as part of your workflow.
+saves/pkl/all_transactions_itemsets_df.pkl
+saves/pkl/clean_csvs_df.pkl
+
+# Exclude secrets
+**/json/*_secrets.json
+
+# Exclude pickles and backups
+#*.pkl
+*.bak
+
+# Exclude Mac, Jupyter, R, and Octave admin files
+**/.Rproj.user/
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/octave-workspace
+
+# Exclude Byte-compiled / optimized / DLL files
+*$py.class
+*.py[cod]
+__pycache__/
+
+# Exclude C extensions
+*.so
+
+# Exclude Distribution / packaging
+*.egg
+*.egg-info/
+.Python
+.eggs/
+.installed.cfg
+MANIFEST
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+env/
+lib/
+lib64/
+parts/
+pip-wheel-metadata/
+sdist/
+share/python-wheels/
+var/
+wheels/
+
+# Exclude PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Exclude Installer logs
+pip-delete-this-directory.txt
+pip-log.txt
+
+# Exclude Unit test / coverage reports
+*.cover
+*.py,cover
+.cache
+.coverage
+.coverage.*
+.hypothesis/
+.nox/
+.pytest_cache/
+.tox/
+coverage.xml
+htmlcov/
+nosetests.xml
+
+# Exclude Translations
+*.mo
+*.pot
+
+# Exclude Django stuff:
+*.log
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+
+# Exclude Flask stuff:
+.webassets-cache
+instance/
+
+# Exclude Scrapy stuff:
+.scrapy
+
+# Exclude Sphinx documentation
+docs/_build/
+
+# Exclude PyBuilder
+target/
+
+# Exclude Jupyter Notebook
+.ipynb_checkpoints
+
+# Exclude IPython
+ipython_config.py
+profile_default/
+
+# Exclude pyenv
+.python-version
+
+# Exclude pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# Exclude PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Exclude Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# Exclude SageMath parsed files
+*.sage.py
+
+# Exclude Environments
+.env
+.venv
+ENV/
+env.bak/
+env/
+venv.bak/
+venv/
+
+# Exclude Spyder project settings
+.spyderproject
+.spyproject
+
+# Exclude Rope project settings
+.ropeproject
+
+# Exclude mkdocs documentation
+/site
+
+# Exclude mypy
+.dmypy.json
+.mypy_cache/
+dmypy.json
+
+# Exclude Pyre type checker
+.pyre/
+
+# package directories
+jspm_packages
+node_modules
+
+# Serverless directories
+.serverless
+package-lock.json
+package.json
+serverless.yml
