@@ -17,6 +17,7 @@
 
 # Ignore whole folders
 **/.git/
+**/logs/
 
 # Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
 # push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
@@ -27,8 +28,7 @@ saves/pkl/clean_csvs_df.pkl
 # Exclude secrets
 **/json/*_secrets.json
 
-# Exclude pickles and backups
-#*.pkl
+# Exclude backups
 *.bak
 
 # Exclude Mac, Jupyter, R, and Octave admin files
