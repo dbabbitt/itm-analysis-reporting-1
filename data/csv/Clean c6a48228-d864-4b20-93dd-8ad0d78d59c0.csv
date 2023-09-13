@@ -1,0 +1,22 @@
+PATIENT_DEMOTED,40336,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Bob_0 Root,"(-1.4, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,40621,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Bob_0 Root,"(-1.5, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+PATIENT_DEMOTED,40739,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Gary_1 Root,"(1.6, 0.0, 7.4)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,41577,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Lily_2 Root,"(2.8, 0.0, 4.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+PATIENT_DEMOTED,42158,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,0,Gary_3 Root,"(0.4, 0.0, 1.6)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+PATIENT_DEMOTED,42717,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,43631,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Mike_5 Root,"(2.4, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,44124,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Gloria_6 Root,"(-1.1, 0.0, 2.9)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,44860,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Mike_7 Root,"(1.7, 0.0, 3.8)","(0.0, 0.1, 0.0, 1.0)",IMMEDIATE,waver,fast,normal,normal,upset,sittingGround
+PATIENT_DEMOTED,45203,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,100,Infinity,Mike_7 Root,"(1.0, 0.0, 3.7)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+VOICE_CAPTURE,46013,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,You're running steam,NA,,,,,,,,,,
+PULSE_TAKEN,49095,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_fast,Mike_7 Root,,,,,,,,,,
+PULSE_TAKEN,50681,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_fast,Lily_4 Root,,,,,,,,,,
+PULSE_TAKEN,50817,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_faint,Gary_3 Root,,,,,,,,,,
+VOICE_CAPTURE,51323,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,no no don't close that close the other one close the one to the left of it,NA,,,,,,,,,,
+PULSE_TAKEN,66717,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_fast,Mike_7 Root,,,,,,,,,,
+PULSE_TAKEN,66924,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_faint,Gary_3 Root,,,,,,,,,,
+PULSE_TAKEN,72981,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_faint,Gary_3 Root,,,,,,,,,,
+PULSE_TAKEN,73859,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_fast,Mike_7 Root,,,,,,,,,,
+PULSE_TAKEN,75002,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_faint,Gary_3 Root,,,,,,,,,,
+PULSE_TAKEN,80379,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_faint,Gary_3 Root,,,,,,,,,,
+PULSE_TAKEN,80418,5/16/2023 14:04,c6a48228-d864-4b20-93dd-8ad0d78d59c0,pulse_faint,Gary_3 Root,,,,,,,,,,

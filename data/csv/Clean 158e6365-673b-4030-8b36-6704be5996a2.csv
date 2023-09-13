@@ -1,0 +1,57 @@
+VOICE_CAPTURE,12464,3/8/2023 14:22,158e6365-673b-4030-8b36-6704be5996a2,**** *** **** it,NA,,,,,,,,,,
+PATIENT_DEMOTED,17971,3/8/2023 14:22,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Bob_0 Root,"(-1.4, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,18177,3/8/2023 14:22,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Bob_0 Root,"(-1.5, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+PATIENT_DEMOTED,18309,3/8/2023 14:22,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Gary_1 Root,"(1.7, 0.0, 7.4)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,19036,3/8/2023 14:22,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Lily_2 Root,"(2.8, 0.0, 4.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+PATIENT_DEMOTED,19713,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,0,Gary_3 Root,"(0.3, 0.0, 1.6)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+PATIENT_DEMOTED,20303,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,21144,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Mike_5 Root,"(2.4, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,21685,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Gloria_6 Root,"(-1.0, 0.0, 2.9)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,22390,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Mike_7 Root,"(1.7, 0.0, 3.9)","(0.0, 0.1, 0.0, 1.0)",IMMEDIATE,waver,fast,normal,normal,upset,sittingGround
+PATIENT_DEMOTED,22762,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Mike_7 Root,"(1.0, 0.0, 3.7)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+SESSION_START,25713,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,,,,,,,,,,,,
+PATIENT_RECORD,25714,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Bob_0 Root,"(-1.7, 0.0, 5.7)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+INJURY_RECORD,25714,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,Face Shrapnel,Bob_0 Root,airway,high,head,FALSE,FALSE,"(-1.8, 1.7, 5.6)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Wrist Amputation,Bob_0 Root,tourniquet,high,leftArm,FALSE,FALSE,"(-1.8, 1.4, 6.3)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Chest Collapse,Bob_0 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Stomach Puncture,Bob_0 Root,woundpack,high,abdomen,FALSE,FALSE,"(-1.6, 1.1, 5.7)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Shin Amputation,Bob_0 Root,tourniquet,high,rightLeg,FALSE,FALSE,"(-1.7, 0.4, 5.6)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Thigh Laceration,Bob_0 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(-1.6, 0.7, 5.8)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Gary_1 Root,"(1.6, 0.0, 7.6)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,none,restricted,none,unresponsive,supine
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,Face Shrapnel,Gary_1 Root,airway,high,head,FALSE,FALSE,"(1.6, 1.7, 7.7)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Lily_2 Root,"(3.0, 0.0, 4.5)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Shin Amputation,Lily_2 Root,tourniquet,high,rightLeg,FALSE,FALSE,"(2.9, 0.4, 4.5)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,0,Gary_3 Root,"(0.4, 0.0, 1.7)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Chest Collapse,Gary_3 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.2)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Side Puncture,Lily_4 Root,woundpack,medium,abdomen,FALSE,FALSE,"(1.3, 1.0, 6.2)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Mike_5 Root,"(2.7, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Side Puncture,Mike_5 Root,woundpack,medium,abdomen,FALSE,FALSE,"(2.6, 1.1, 2.2)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Thigh Laceration,Mike_5 Root,tourniquet,medium,rightLeg,FALSE,FALSE,"(2.5, 0.6, 2.2)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Gloria_6 Root,"(-1.2, 0.0, 3.1)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Calf Shrapnel,Gloria_6 Root,gauzePressure,medium,rightLeg,FALSE,FALSE,"(-1.1, 0.3, 3.0)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Mike_7 Root,"(1.3, 0.0, 3.4)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Thigh Puncture,Mike_7 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(1.3, 0.6, 3.5)",,,,
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,R Calf Laceration,Mike_7 Root,gauzePressure,low,rightLeg,FALSE,FALSE,"(1.4, 0.3, 3.4)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Gloria_8 Root,"(3.7, 0.0, 6.0)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,normal,upset,sittingGround
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,L Forearm Laceration,Gloria_8 Root,gauzePressure,low,leftArm,FALSE,FALSE,"(4.2, 1.3, 6.0)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,0,Gary_9 Root,"(3.5, 0.0, 9.5)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,limited,calm,standing
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,Ear Bleed,Gary_9 Root,none,low,head,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PATIENT_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,100,Infinity,Helga_10 Root,"(3.9, 0.0, 8.0)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,normal,calm,sittingGround
+INJURY_RECORD,25715,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,Forehead Scrape,Helga_10 Root,none,low,head,FALSE,FALSE,"(4.0, 1.6, 8.0)",,,,
+TELEPORT,32835,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(0.8, 0.0, -2.3)",,,,,,,,,,,
+TELEPORT,33571,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(0.8, 0.0, -2.3)",,,,,,,,,,,
+TELEPORT,34421,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.6, 0.0, 0.3)",,,,,,,,,,,
+TELEPORT,35107,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(2.0, 0.0, 3.5)",,,,,,,,,,,
+TELEPORT,37163,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.5, 0.0, 8.7)",,,,,,,,,,,
+TELEPORT,40079,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.6, 0.0, 8.7)",,,,,,,,,,,
+TELEPORT,40645,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.8, 0.0, 8.5)",,,,,,,,,,,
+TELEPORT,43477,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.9, 0.0, 8.4)",,,,,,,,,,,
+TELEPORT,45775,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(2.2, 0.0, 5.4)",,,,,,,,,,,
+TELEPORT,46509,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(0.3, 0.0, -4.2)",,,,,,,,,,,
+TELEPORT,46877,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(0.3, 0.0, -4.3)",,,,,,,,,,,
+TELEPORT,49601,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(0.7, 0.0, -11.7)",,,,,,,,,,,
+TELEPORT,50471,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(0.8, 0.0, -6.0)",,,,,,,,,,,
+TELEPORT,53840,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.7, 0.0, -1.5)",,,,,,,,,,,
+TELEPORT,53983,3/8/2023 14:23,158e6365-673b-4030-8b36-6704be5996a2,"(1.7, 0.0, -1.5)",,,,,,,,,,,
+SESSION_END,92398,3/8/2023 14:24,158e6365-673b-4030-8b36-6704be5996a2,,,,,,,,,,,,

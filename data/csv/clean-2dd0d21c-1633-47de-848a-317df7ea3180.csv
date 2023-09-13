@@ -1,0 +1,18 @@
+PULSE_TAKEN,1413,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,pulse_normal,Mike Root,,,,,,,,,,
+PULSE_TAKEN,1474,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,pulse_normal,Mike Root,,,,,,,,,,
+PATIENT_DEMOTED,10034,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,Infinity,Mike_1 Root,"(2.7, 0.0, 0.1)","(0.0, 0.7, 0.0, -0.7)",DELAYED,waver,normal,normal,normal,upset,recovery
+PATIENT_DEMOTED,10685,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,Infinity,Mike_2 Root,"(2.6, 0.0, 2.4)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,walker,fast,normal,normal,upset,sittingGround
+PATIENT_DEMOTED,11348,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,128,Mike_3 Root,"(2.9, 0.0, 4.3)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+SESSION_START,19131,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,,,,,,,,,,,,
+PATIENT_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,Infinity,Mike_0 Root,"(2.6, 0.0, -1.4)","(0.0, 0.7, 0.0, -0.7)",MINIMAL,walker,normal,normal,normal,upset,sittingGround
+INJURY_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,R Forearm Laceration,Mike_0 Root,gauzePressure,low,rightArm,FALSE,FALSE,"(2.7, 1.4, -0.9)",,,,
+PATIENT_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,Infinity,Mike_1 Root,"(2.9, 0.0, 0.1)","(0.0, 0.7, 0.0, -0.7)",DELAYED,waver,normal,normal,normal,upset,recovery
+INJURY_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,L Thigh Laceration,Mike_1 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(2.9, 0.7, -0.1)",,,,
+PATIENT_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,Infinity,Mike_2 Root,"(3.1, 0.0, 2.2)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,walker,fast,normal,normal,upset,sittingGround
+INJURY_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,L Shoulder Puncture,Mike_2 Root,woundpack,medium,chest,FALSE,FALSE,"(3.1, 1.5, 2.1)",,,,
+PATIENT_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,100,128,Mike_3 Root,"(3.1, 0.0, 4.4)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+INJURY_RECORD,19132,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,R Chest Collapse,Mike_3 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PULSE_TAKEN,44475,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,pulse_normal,Mike_0 Root,,,,,,,,,,
+PULSE_TAKEN,45274,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,pulse_normal,Mike_1 Root,,,,,,,,,,
+PULSE_TAKEN,45310,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,pulse_normal,Mike_1 Root,,,,,,,,,,
+PULSE_TAKEN,45334,6/23/2023 10:52,2dd0d21c-1633-47de-848a-317df7ea3180,pulse_normal,Mike_1 Root,,,,,,,,,,

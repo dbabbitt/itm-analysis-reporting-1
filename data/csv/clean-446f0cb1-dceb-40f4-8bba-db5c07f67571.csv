@@ -1,0 +1,32 @@
+VOICE_CAPTURE,6985,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,I'm standing up now thank you,NA,,,,,,,,,,
+VOICE_COMMAND,6985,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,stand up,I'm standing up now thank you,,,,,,,,,,
+PATIENT_DEMOTED,8232,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,Infinity,Mike_1 Root,"(2.6, 0.0, 0.1)","(0.0, 0.7, 0.0, -0.7)",DELAYED,waver,normal,normal,normal,upset,recovery
+VOICE_CAPTURE,8412,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,OK,NA,,,,,,,,,,
+PATIENT_DEMOTED,8882,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,Infinity,Mike_2 Root,"(2.6, 0.0, 2.4)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,walker,fast,normal,normal,upset,sittingGround
+PATIENT_DEMOTED,9547,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,128,Mike_3 Root,"(3.0, 0.0, 4.3)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+SESSION_START,12295,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,,,,,,,,,,,,
+PATIENT_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,Infinity,Mike_0 Root,"(2.6, 0.0, -1.4)","(0.0, 0.7, 0.0, -0.7)",MINIMAL,walker,normal,normal,normal,upset,sittingGround
+INJURY_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,R Forearm Laceration,Mike_0 Root,gauzePressure,low,rightArm,FALSE,FALSE,"(2.7, 1.4, -0.9)",,,,
+PATIENT_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,Infinity,Mike_1 Root,"(2.9, 0.0, 0.1)","(0.0, 0.7, 0.0, -0.7)",DELAYED,waver,normal,normal,normal,upset,recovery
+INJURY_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,L Thigh Laceration,Mike_1 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(2.8, 0.7, -0.1)",,,,
+PATIENT_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,Infinity,Mike_2 Root,"(3.1, 0.0, 2.2)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,walker,fast,normal,normal,upset,sittingGround
+INJURY_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,L Shoulder Puncture,Mike_2 Root,woundpack,medium,chest,FALSE,FALSE,"(3.1, 1.5, 2.1)",,,,
+PATIENT_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,100,128,Mike_3 Root,"(3.2, 0.0, 4.3)","(0.0, 0.7, 0.0, -0.7)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+INJURY_RECORD,12296,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,R Chest Collapse,Mike_3 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+TELEPORT,14398,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,"(0.8, 0.0, -3.4)",,,,,,,,,,,
+BAG_ACCESS,17327,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,"(2.8, 0.7, 3.1)",,,,,,,,,,,
+BAG_CLOSED,18510,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,"(2.8, 0.7, 3.1)",,,,,,,,,,,
+TELEPORT,18510,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,"(2.7, 0.0, 3.2)",,,,,,,,,,,
+BAG_ACCESS,21359,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,"(3.8, 0.7, 4.3)",,,,,,,,,,,
+TOOL_HOVER,22032,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22049,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22065,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22082,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22098,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22115,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22132,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22148,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_HOVER,22165,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,999,,,,,,,,,,
+TOOL_SELECTED,22169,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle,998,,,,,,,,,,
+INJURY_TREATED,23918,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,R Chest Collapse,Mike_3 Root,decompress,high,chest,TRUE,FALSE,"(0.0, 0.0, 0.0)",,,,
+TOOL_APPLIED,23918,5/9/2023 8:04,446f0cb1-dceb-40f4-8bba-db5c07f67571,Needle_Decomp(Clone),Needle,RChest_Breathe1 (UnityEngine.GameObject),cath_needle (UnityEngine.GameObject),right_chest,Needle_Decomp(Clone) (UnityEngine.GameObject),AppliedDecompNeedle,,,,,

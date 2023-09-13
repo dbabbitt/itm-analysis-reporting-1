@@ -1,0 +1,105 @@
+VOICE_CAPTURE,6924,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,If you can hear my voice testing 1-2,NA,,,,,,,,,,
+VOICE_CAPTURE,10302,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,voice recognition is working,NA,,,,,,,,,,
+VOICE_CAPTURE,14292,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,put me in the put me in first 11,NA,,,,,,,,,,
+VOICE_CAPTURE,17382,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,or you wanna put me in the big one,NA,,,,,,,,,,
+PATIENT_DEMOTED,23196,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Bob_0 Root,"(-1.4, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,23340,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Bob_0 Root,"(-1.4, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+PATIENT_DEMOTED,23578,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Gary_1 Root,"(1.6, 0.0, 7.4)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,24195,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Lily_2 Root,"(2.8, 0.0, 4.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+PATIENT_DEMOTED,24843,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,0,Gary_3 Root,"(0.4, 0.0, 1.6)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+PATIENT_DEMOTED,25441,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,26274,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Mike_5 Root,"(2.4, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,26827,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Gloria_6 Root,"(-1.0, 0.0, 2.9)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,27552,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Mike_7 Root,"(1.7, 0.0, 3.9)","(0.0, 0.1, 0.0, 1.0)",IMMEDIATE,waver,fast,normal,normal,upset,sittingGround
+PATIENT_DEMOTED,27928,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Mike_7 Root,"(1.0, 0.0, 3.7)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+SESSION_START,31924,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,,,,,,,,,,,,
+PATIENT_RECORD,31924,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Bob_0 Root,"(-1.7, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+INJURY_RECORD,31924,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Face Shrapnel,Bob_0 Root,airway,high,head,FALSE,FALSE,"(-1.8, 1.7, 5.6)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Wrist Amputation,Bob_0 Root,tourniquet,high,leftArm,FALSE,FALSE,"(-1.7, 1.4, 6.3)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Chest Collapse,Bob_0 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Stomach Puncture,Bob_0 Root,woundpack,high,abdomen,FALSE,FALSE,"(-1.6, 1.1, 5.7)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Shin Amputation,Bob_0 Root,tourniquet,high,rightLeg,FALSE,FALSE,"(-1.7, 0.4, 5.5)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Thigh Laceration,Bob_0 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(-1.6, 0.7, 5.8)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Gary_1 Root,"(1.6, 0.0, 7.6)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,none,restricted,none,unresponsive,supine
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Face Shrapnel,Gary_1 Root,airway,high,head,FALSE,FALSE,"(1.6, 1.7, 7.7)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Lily_2 Root,"(3.0, 0.0, 4.5)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Shin Amputation,Lily_2 Root,tourniquet,high,rightLeg,FALSE,FALSE,"(2.9, 0.4, 4.5)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,0,Gary_3 Root,"(0.4, 0.0, 1.7)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Chest Collapse,Gary_3 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.2)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Side Puncture,Lily_4 Root,woundpack,medium,abdomen,FALSE,FALSE,"(1.3, 1.0, 6.2)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Mike_5 Root,"(2.7, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Side Puncture,Mike_5 Root,woundpack,medium,abdomen,FALSE,FALSE,"(2.6, 1.1, 2.2)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Thigh Laceration,Mike_5 Root,tourniquet,medium,rightLeg,FALSE,FALSE,"(2.6, 0.6, 2.3)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Gloria_6 Root,"(-1.2, 0.0, 3.1)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Calf Shrapnel,Gloria_6 Root,gauzePressure,medium,rightLeg,FALSE,FALSE,"(-1.1, 0.3, 3.0)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Mike_7 Root,"(1.3, 0.0, 3.4)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Thigh Puncture,Mike_7 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(1.3, 0.6, 3.5)",,,,
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Calf Laceration,Mike_7 Root,gauzePressure,low,rightLeg,FALSE,FALSE,"(1.4, 0.3, 3.4)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Gloria_8 Root,"(3.7, 0.0, 6.0)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,normal,upset,sittingGround
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Forearm Laceration,Gloria_8 Root,gauzePressure,low,leftArm,FALSE,FALSE,"(4.2, 1.3, 6.0)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,0,Gary_9 Root,"(3.5, 0.0, 9.5)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,limited,calm,standing
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Ear Bleed,Gary_9 Root,none,low,head,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PATIENT_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Helga_10 Root,"(3.9, 0.0, 8.0)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,normal,calm,sittingGround
+INJURY_RECORD,31925,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Forehead Scrape,Helga_10 Root,none,low,head,FALSE,FALSE,"(4.0, 1.6, 7.9)",,,,
+VOICE_CAPTURE,33140,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,turn the volume all the way up,NA,,,,,,,,,,
+VOICE_CAPTURE,45190,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,if you can hear my voice I want you to walk to the safe zone,NA,,,,,,,,,,
+VOICE_COMMAND,45190,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,walk to the safe area,if you can hear my voice I want you to walk to the safe zone,,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(3.0, 0.0, 4.5)",walkIfCan,Lily_2 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(1.2, 0.0, 6.2)",walkIfCan,Lily_4 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(2.7, 0.0, 2.3)",walkIfCan,Mike_5 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(-1.2, 0.0, 3.1)",walkIfCan,Gloria_6 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(1.3, 0.0, 3.4)",walkIfCan,Mike_7 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(3.7, 0.0, 6.0)",walkIfCan,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WALKED,45211,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(3.7, 0.0, 6.0)",walked,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,45212,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(3.9, 0.0, 8.0)",walkIfCan,Helga_10 Root,,,,,,,,,
+S_A_L_T_WALKED,45212,5/16/2023 13:46,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(3.9, 0.0, 8.0)",walked,Helga_10 Root,,,,,,,,,
+TELEPORT,66704,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(0.8, 0.0, -2.3)",,,,,,,,,,,
+BAG_ACCESS,77256,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(2.5, 0.7, 0.5)",,,,,,,,,,,
+TOOL_HOVER,77790,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77805,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77821,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77838,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77856,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77872,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77890,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77907,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77922,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77939,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,77957,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,999,,,,,,,,,,
+TOOL_SELECTED,77960,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Tourniquet,998,,,,,,,,,,
+PATIENT_ENGAGED,78090,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Mike_5 Root,"(2.7, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_TREATED,79480,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,R Thigh Laceration,Mike_5 Root,tourniquet,medium,rightLeg,TRUE,FALSE,"(3.0, 0.3, 2.2)",,,,
+TOOL_APPLIED,79480,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Mike_5 Root,Tourniquet,RightUpLeg (UnityEngine.GameObject),tor_ring (1) (UnityEngine.GameObject),tourniquet(Clone) (UnityEngine.GameObject),AppliedTourniquet,,,,,,
+BAG_CLOSED,95708,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(2.5, 0.7, 0.5)",,,,,,,,,,,
+TELEPORT,95708,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(2.3, 0.0, 0.5)",,,,,,,,,,,
+TELEPORT,99064,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(1.2, 0.0, 5.7)",,,,,,,,,,,
+PATIENT_ENGAGED,100334,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Gary_1 Root,"(1.6, 0.0, 7.6)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,none,restricted,none,unresponsive,supine
+BAG_ACCESS,102106,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(0.9, 0.7, 7.2)",,,,,,,,,,,
+PULSE_TAKEN,102589,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,pulse_none,Gary_1 Root,,,,,,,,,,
+TAG_SELECTED,104914,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,gray,,,,,,,,,,,
+TAG_APPLIED,105647,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Gary_1 Root,gray,,,,,,,,,,
+BAG_CLOSED,109823,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(0.9, 0.7, 7.2)",,,,,,,,,,,
+TELEPORT,109824,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(1.3, 0.0, 6.0)",,,,,,,,,,,
+TELEPORT,111930,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(-0.2, 0.0, 4.1)",,,,,,,,,,,
+PATIENT_ENGAGED,118293,5/16/2023 13:47,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Bob_0 Root,"(-1.7, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+PULSE_TAKEN,143149,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,pulse_none,Bob_0 Root,,,,,,,,,,
+TELEPORT,146090,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(-1.1, 0.0, 4.0)",,,,,,,,,,,
+PATIENT_ENGAGED,148299,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.2)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+BAG_ACCESS,155263,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(0.3, 0.5, 6.0)",,,,,,,,,,,
+TOOL_HOVER,156388,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156404,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156422,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156437,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156454,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156471,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156488,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156503,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_HOVER,156520,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,999,,,,,,,,,,
+TOOL_SELECTED,156522,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,998,,,,,,,,,,
+TOOL_DISCARDED,158798,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Hemostatic Gauze,998,"(0.9, 0.3, 6.5)",,,,,,,,,
+INJURY_TREATED,158800,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,L Side Puncture,Lily_4 Root,woundpack,medium,abdomen,TRUE,FALSE,"(0.9, 0.2, 6.5)",,,,
+TOOL_APPLIED,158800,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,Lily_4 Root,Gauze_Pack,skinCollider_BodyLOD (UnityEngine.GameObject),null,null,AppliedPackingGauze,,,,,,
+PULSE_TAKEN,163752,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,pulse_fast,Lily_4 Root,,,,,,,,,,
+BAG_CLOSED,175709,5/16/2023 13:48,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,"(0.3, 0.5, 6.0)",,,,,,,,,,,
+SESSION_END,194918,5/16/2023 13:49,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,,,,,,,,,,,,

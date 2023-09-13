@@ -1,0 +1,89 @@
+VOICE_CAPTURE,8014,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Testing 1-2 speech recognition testing 1-2,NA,,,,,,,,,,
+PATIENT_ENGAGED,12744,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,128,Mike Root,"(3.1, 0.0, -1.0)","(0.0, 0.3, 0.0, -1.0)",MINIMAL,walker,normal,normal,normal,calm,standing
+PATIENT_DEMOTED,19052,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Bob_0 Root,"(-1.4, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,19247,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Bob_0 Root,"(-1.5, 0.0, 5.6)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+PATIENT_DEMOTED,19379,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Gary_1 Root,"(1.7, 0.0, 7.4)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,faint,restricted,none,unresponsive,supine
+PATIENT_DEMOTED,20110,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Lily_2 Root,"(2.8, 0.0, 4.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+PATIENT_DEMOTED,20775,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,0,Gary_3 Root,"(0.3, 0.0, 1.6)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+PATIENT_DEMOTED,21353,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,22191,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Mike_5 Root,"(2.4, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,22742,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Gloria_6 Root,"(-1.0, 0.0, 2.9)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+PATIENT_DEMOTED,23446,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Mike_7 Root,"(1.7, 0.0, 3.9)","(0.0, 0.1, 0.0, 1.0)",IMMEDIATE,waver,fast,normal,normal,upset,sittingGround
+PATIENT_DEMOTED,23818,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Mike_7 Root,"(1.0, 0.0, 3.7)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+SESSION_START,28370,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,,,,,,,,,,,,
+PATIENT_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Bob_0 Root,"(-1.7, 0.0, 5.7)","(0.0, 0.7, 0.0, 0.7)",DEAD,still,none,none,none,dead,supine
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Face Shrapnel,Bob_0 Root,airway,high,head,FALSE,FALSE,"(-1.8, 1.7, 5.6)",,,,
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Wrist Amputation,Bob_0 Root,tourniquet,high,leftArm,FALSE,FALSE,"(-1.8, 1.4, 6.3)",,,,
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Chest Collapse,Bob_0 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Stomach Puncture,Bob_0 Root,woundpack,high,abdomen,FALSE,FALSE,"(-1.6, 1.1, 5.7)",,,,
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Shin Amputation,Bob_0 Root,tourniquet,high,rightLeg,FALSE,FALSE,"(-1.7, 0.4, 5.6)",,,,
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Thigh Laceration,Bob_0 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(-1.6, 0.7, 5.8)",,,,
+PATIENT_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Gary_1 Root,"(1.6, 0.0, 7.6)","(0.0, 1.0, 0.0, 0.0)",EXPECTANT,still,none,restricted,none,unresponsive,supine
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Face Shrapnel,Gary_1 Root,airway,high,head,FALSE,FALSE,"(1.6, 1.7, 7.7)",,,,
+PATIENT_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Lily_2 Root,"(3.0, 0.0, 4.5)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Shin Amputation,Lily_2 Root,tourniquet,high,rightLeg,FALSE,FALSE,"(2.9, 0.4, 4.5)",,,,
+PATIENT_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,0,Gary_3 Root,"(0.4, 0.0, 1.7)","(0.0, 0.0, 0.0, 1.0)",IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+INJURY_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Chest Collapse,Gary_3 Root,decompress,high,chest,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PATIENT_RECORD,28371,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Lily_4 Root,"(1.2, 0.0, 6.2)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Side Puncture,Lily_4 Root,woundpack,medium,abdomen,FALSE,FALSE,"(1.3, 1.0, 6.2)",,,,
+PATIENT_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Mike_5 Root,"(2.7, 0.0, 2.3)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Side Puncture,Mike_5 Root,woundpack,medium,abdomen,FALSE,FALSE,"(2.6, 1.1, 2.2)",,,,
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Thigh Laceration,Mike_5 Root,tourniquet,medium,rightLeg,FALSE,FALSE,"(2.5, 0.6, 2.2)",,,,
+PATIENT_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Gloria_6 Root,"(-1.2, 0.0, 3.1)","(0.0, 0.4, 0.0, 0.9)",DELAYED,waver,fast,normal,normal,upset,fetal
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Calf Shrapnel,Gloria_6 Root,gauzePressure,medium,rightLeg,FALSE,FALSE,"(-1.1, 0.3, 3.0)",,,,
+PATIENT_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Mike_7 Root,"(1.3, 0.0, 3.4)","(0.0, 0.1, 0.0, 1.0)",DELAYED,waver,fast,normal,normal,upset,sittingGround
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Thigh Puncture,Mike_7 Root,tourniquet,medium,leftLeg,FALSE,FALSE,"(1.3, 0.6, 3.5)",,,,
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Calf Laceration,Mike_7 Root,gauzePressure,low,rightLeg,FALSE,FALSE,"(1.4, 0.3, 3.4)",,,,
+PATIENT_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Gloria_8 Root,"(3.7, 0.0, 6.0)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,normal,upset,sittingGround
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,L Forearm Laceration,Gloria_8 Root,gauzePressure,low,leftArm,FALSE,FALSE,"(4.2, 1.2, 6.0)",,,,
+PATIENT_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,0,Gary_9 Root,"(3.5, 0.0, 9.5)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,limited,calm,standing
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Ear Bleed,Gary_9 Root,none,low,head,FALSE,FALSE,"(0.0, 0.0, 0.0)",,,,
+PATIENT_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Helga_10 Root,"(3.9, 0.0, 8.0)","(0.0, 1.0, 0.0, 0.0)",MINIMAL,walker,normal,normal,normal,calm,sittingGround
+INJURY_RECORD,28372,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Forehead Scrape,Helga_10 Root,none,low,head,FALSE,FALSE,"(4.0, 1.5, 7.9)",,,,
+VOICE_CAPTURE,37937,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,If you can hear my voice I want you to walk to the safe zone if you can hear my voice walk to the safe zone,NA,,,,,,,,,,
+VOICE_COMMAND,37937,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,walk to the safe area,If you can hear my voice I want you to walk to the safe zone if you can hear my voice walk to the safe zone,,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37939,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.0, 0.0, 4.5)",walkIfCan,Lily_2 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37939,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.2, 0.0, 6.2)",walkIfCan,Lily_4 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37939,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.7, 0.0, 2.3)",walkIfCan,Mike_5 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37939,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(-1.2, 0.0, 3.1)",walkIfCan,Gloria_6 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37939,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.3, 0.0, 3.4)",walkIfCan,Mike_7 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37939,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.7, 0.0, 6.0)",walkIfCan,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WALKED,37940,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.7, 0.0, 6.0)",walked,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,37940,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.9, 0.0, 8.0)",walkIfCan,Helga_10 Root,,,,,,,,,
+S_A_L_T_WALKED,37940,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.9, 0.0, 8.0)",walked,Helga_10 Root,,,,,,,,,
+VOICE_CAPTURE,44458,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,if you can hear my voice I want you to wave wave to me,NA,,,,,,,,,,
+VOICE_COMMAND,44458,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,wave if you can,if you can hear my voice I want you to wave wave to me,,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44460,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.0, 0.0, 4.5)",waveIfCan,Lily_2 Root,,,,,,,,,
+S_A_L_T_WAVED,44460,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.0, 0.0, 4.5)",waved,Lily_2 Root,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.2, 0.0, 6.2)",waveIfCan,Lily_4 Root,,,,,,,,,
+S_A_L_T_WAVED,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.2, 0.0, 6.2)",waved,Lily_4 Root,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.7, 0.0, 2.3)",waveIfCan,Mike_5 Root,,,,,,,,,
+S_A_L_T_WAVED,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.7, 0.0, 2.3)",waved,Mike_5 Root,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(-1.2, 0.0, 3.1)",waveIfCan,Gloria_6 Root,,,,,,,,,
+S_A_L_T_WAVED,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(-1.2, 0.0, 3.1)",waved,Gloria_6 Root,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.3, 0.0, 3.4)",waveIfCan,Mike_7 Root,,,,,,,,,
+S_A_L_T_WAVED,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.3, 0.0, 3.4)",waved,Mike_7 Root,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(4.3, 0.0, 1.5)",waveIfCan,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WAVE_IF_CAN,44461,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.3, 0.0, 3.3)",waveIfCan,Helga_10 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,44488,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(1.2, 0.0, 6.2)",walkIfCan,Lily_4 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,44488,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(4.3, 0.0, 1.4)",walkIfCan,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WALKED,44488,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(4.3, 0.0, 1.4)",walked,Gloria_8 Root,,,,,,,,,
+S_A_L_T_WALK_IF_CAN,44488,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.3, 0.0, 3.2)",walkIfCan,Helga_10 Root,,,,,,,,,
+S_A_L_T_WALKED,44488,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.3, 0.0, 3.2)",walked,Helga_10 Root,,,,,,,,,
+TELEPORT,49494,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(0.8, 0.0, -2.3)",,,,,,,,,,,
+VOICE_CAPTURE,49800,5/12/2023 17:13,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,OK we'll be right with you,NA,,,,,,,,,,
+TELEPORT,155230,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(2.8, 0.0, 1.0)",,,,,,,,,,,
+BAG_ACCESS,158470,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.1, 0.7, 3.4)",,,,,,,,,,,
+TOOL_HOVER,159116,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,159133,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,159149,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,159166,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,159183,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,159204,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_HOVER,159223,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,999,,,,,,,,,,
+TOOL_SELECTED,159227,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Tourniquet,998,,,,,,,,,,
+PATIENT_ENGAGED,160729,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,100,Infinity,Lily_2 Root,"(3.0, 0.0, 4.5)","(0.0, 1.0, 0.0, 0.0)",IMMEDIATE,waver,fast,fast,normal,agony,fetal
+INJURY_TREATED,162581,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,R Shin Amputation,Lily_2 Root,tourniquet,high,rightLeg,TRUE,FALSE,"(3.3, 0.1, 4.2)",,,,
+TOOL_APPLIED,162581,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,Lily_2 Root,Tourniquet,RightLeg (UnityEngine.GameObject),tor_ring (1) (UnityEngine.GameObject),tourniquet(Clone) (UnityEngine.GameObject),AppliedTourniquet,,,,,,
+BAG_CLOSED,173682,5/12/2023 17:15,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,"(3.1, 0.7, 3.4)",,,,,,,,,,,
+SESSION_END,180304,5/12/2023 17:16,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,,,,,,,,,,,,
