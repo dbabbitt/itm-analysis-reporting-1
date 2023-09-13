@@ -4,4 +4,4 @@ The First Responder Virtual Reality Simulator (FRVRS) is a high-fidelity, fully 
 
 ![Latest Screenshot](https://github.com/NextCenturyCorporation/itm-analysis-reporting/assets/6145699/001cd6a5-6f79-4955-9bfe-fda717728623)
 
-The purpose of the FRVRS Logs Dataset Analysis Report (FLDAR) is to provide TA1 with a dataset of Doug Danforth’s FRVRS logs in addition to anything useful to be found in analyzing the decisions taken by the first responder trainees (DMs) of the FRVRS.
+The purpose of the FRVRS Logs Dataset Analysis Report (FLDAR) is to provide TA1 with a dataset of Doug Danforth’s FRVRS logs in addition to anything useful to be found in analyzing the decisions taken by the first responder trainees (DMs) of the FRVRS. The purpose of this repository is to share the analysis code and its outputs.
