@@ -635,7 +635,7 @@ class NotebookUtilities(object):
                     plt.annotate(label, (x, y), textcoords='offset points', xytext=(0, -8), ha='center', va='center')
                     break
             
-            # Visualize locations or teleportations
+            # Visualize locations
             x_dim = []; z_dim = []; label = ''
             mask_series = (frvrs_logs_df.action_type == 'PLAYER_LOCATION') & session_mask
             locations_df = frvrs_logs_df[mask_series]
@@ -647,17 +647,25 @@ class NotebookUtilities(object):
                     x_dim.append(player_location_location[0])
                     z_dim.append(player_location_location[2])
                 if verbose: print(x_dim, z_dim)
+            
+            # Chain or, maybe, ball
+            if (len(x_dim) < 2):
+                ax.scatter(x_dim, z_dim, alpha=1.0, label=label)
             else:
+                ax.plot(x_dim, z_dim, alpha=1.0, label=label)
+            
+            # Visualize teleportations
+            x_dim = []; z_dim = []; label = ''
+            mask_series = (frvrs_logs_df.action_type == 'TELEPORT') & session_mask
+            teleports_df = frvrs_logs_df[mask_series]
+            if teleports_df.shape[0]:
                 label = 'teleportations'
-                mask_series = (frvrs_logs_df.action_type == 'TELEPORT') & session_mask
-                teleports_df = frvrs_logs_df[mask_series]
-                if teleports_df.shape[0]:
-                    teleports_df = teleports_df.sort_values(['elapsed_time'])
-                    for teleport_location in teleports_df.teleport_location:
-                        teleport_location = eval(teleport_location)
-                        x_dim.append(teleport_location[0])
-                        z_dim.append(teleport_location[2])
-                    if verbose: print(x_dim, z_dim)
+                teleports_df = teleports_df.sort_values(['elapsed_time'])
+                for teleport_location in teleports_df.teleport_location:
+                    teleport_location = eval(teleport_location)
+                    x_dim.append(teleport_location[0])
+                    z_dim.append(teleport_location[2])
+                if verbose: print(x_dim, z_dim)
             
             # Chain or, maybe, ball
             if (len(x_dim) < 2):
