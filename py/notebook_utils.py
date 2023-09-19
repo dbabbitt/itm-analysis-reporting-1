@@ -567,3 +567,117 @@ class NotebookUtilities(object):
             color_cycler = cycler('color', plt.cm.tab20(np.linspace(0, 1, n)))
         
         return color_cycler
+    
+    def get_session_groupby(self, frvrs_logs_df=None, mask_series=None, extra_column=None):
+        if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
+        if (mask_series is None) and (extra_column is None):
+            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid'])
+        elif (mask_series is None) and (extra_column is not None):
+            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
+        elif (mask_series is not None) and (extra_column is None):
+            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid'])
+        elif (mask_series is not None) and (extra_column is not None):
+            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
+    
+        return gb
+    
+    def visualize_player_movement(self, session_mask, title=None, save_only=False, frvrs_logs_df=None, verbose=False):
+        if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
+        if save_only:
+            assert title is not None, "To save, you need a title"
+            file_path = os.path.join(self.saves_folder, 'png', re.sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
+            filter = not os.path.exists(file_path)
+        else:
+            filter = True
+        if filter:
+            import matplotlib.pyplot as plt
+            import textwrap
+            if save_only: plt.ioff()
+            ax = plt.figure(figsize=(18, 9)).add_subplot()
+            
+            # Show the positions of patients recorded and engaged at our time group and session UUID
+            color_cycler = self.get_color_cycler(frvrs_logs_df[session_mask].groupby('patient_id').size().shape[0])
+            location_cns_list = [
+                'patient_demoted_position', 'patient_engaged_position', 'patient_record_position', 'player_gaze_location'
+            ]
+            for (patient_id, df1), face_color_dict in zip(frvrs_logs_df[session_mask].sort_values(['elapsed_time']).groupby([
+                'patient_id'
+            ]), color_cycler()):
+                x_dim = []; y_dim = []; z_dim = []
+                for location_cn in location_cns_list:
+                    mask_series = df1[location_cn].isnull()
+                    srs = df1[~mask_series][location_cn].map(lambda x: eval(x))
+                    x_dim.extend(srs.map(lambda x: x[0]).values)
+                    y_dim.extend(srs.map(lambda x: x[1]).values)
+                    z_dim.extend(srs.map(lambda x: x[2]).values)
+                face_color = face_color_dict['color']
+                
+                # Pick from among the sort columns whichever value is not null and use that in the label
+                columns_list = ['patient_demoted_sort', 'patient_engaged_sort', 'patient_record_sort']
+                srs = df1[columns_list].apply(pd.Series.notnull, axis=1).sum()
+                mask_series = (srs > 0)
+                cn = srs[mask_series].index.tolist()[0]
+                if (type(patient_id) == tuple): patient_id = patient_id[0]
+                label = patient_id.replace(' Root', ' (') + df1[cn].dropna().tolist()[-1] + ')'
+                label = '\n'.join(textwrap.wrap(label, width=20))
+            
+                # Ball and chain
+                ax.plot(x_dim, z_dim, color=face_color, alpha=1.0, label=label)
+                ax.scatter(x_dim, z_dim, color=face_color, alpha=1.0)
+                
+                # Get the first of the movement coordinates and label the patient there
+                coords_set = set()
+                for x, z in zip(x_dim, z_dim):
+                    coords_tuple = (x, z)
+                    coords_set.add(coords_tuple)
+                for coords_tuple in coords_set:
+                    x, y = coords_tuple
+                    plt.annotate(label, (x, y), textcoords='offset points', xytext=(0, -8), ha='center', va='center')
+                    break
+            
+            # Visualize locations or teleportations
+            x_dim = []; z_dim = []; label = ''
+            mask_series = (frvrs_logs_df.action_type == 'PLAYER_LOCATION') & session_mask
+            locations_df = frvrs_logs_df[mask_series]
+            if locations_df.shape[0]:
+                label = 'locations'
+                locations_df = locations_df.sort_values(['elapsed_time'])
+                for player_location_location in locations_df.player_location_location:
+                    player_location_location = eval(player_location_location)
+                    x_dim.append(player_location_location[0])
+                    z_dim.append(player_location_location[2])
+                if verbose: print(x_dim, z_dim)
+            else:
+                label = 'teleportations'
+                mask_series = (frvrs_logs_df.action_type == 'TELEPORT') & session_mask
+                teleports_df = frvrs_logs_df[mask_series]
+                if teleports_df.shape[0]:
+                    teleports_df = teleports_df.sort_values(['elapsed_time'])
+                    for teleport_location in teleports_df.teleport_location:
+                        teleport_location = eval(teleport_location)
+                        x_dim.append(teleport_location[0])
+                        z_dim.append(teleport_location[2])
+                    if verbose: print(x_dim, z_dim)
+            
+            # Chain or, maybe, ball
+            if (len(x_dim) < 2):
+                ax.scatter(x_dim, z_dim, alpha=1.0, label=label)
+            else:
+                ax.plot(x_dim, z_dim, alpha=1.0, label=label)
+            
+            # Add labels
+            ax.set_xlabel('X')
+            ax.set_ylabel('Z')
+
+            # Move the left and right borders to make room for the legend
+            left_lim, right_lim = ax.get_xlim()
+            xlim_tuple = ax.set_xlim(left_lim-1.5, right_lim+1.5)
+            ax.legend(loc='best')
+            
+            # Add title, if any
+            if title is not None: ax.set_title(title)
+            
+            # Save the figure to PNG
+            if save_only:
+                plt.savefig(file_path, bbox_inches='tight')
+                plt.ion()

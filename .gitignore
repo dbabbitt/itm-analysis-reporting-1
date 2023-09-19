@@ -24,6 +24,7 @@ data/logs/
 # Git Large File Storage (Git LFS) as part of your workflow.
 saves/pkl/all_transactions_itemsets_df.pkl
 saves/pkl/clean_csvs_df.pkl
+saves/pkl/frvrs_logs_df.pkl
 
 # Exclude secrets
 **/json/*_secrets.json
