@@ -10,6 +10,7 @@
 !/data
 !/explorations
 !/ipynb
+!/metrics
 !/py
 !/saves
 !/visualizations
@@ -18,6 +19,7 @@
 # Ignore whole folders
 **/.git/
 data/logs/
+saves/rename/
 
 # Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
 # push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing

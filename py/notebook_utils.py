@@ -689,3 +689,38 @@ class NotebookUtilities(object):
             if save_only:
                 plt.savefig(file_path, bbox_inches='tight')
                 plt.ion()
+    
+    def visualize_extreme_player_movement(
+        self, df, sorting_column, mask_series=None, is_ascending=True, humanize_type='precisedelta',
+        title_str='slowest action to control time', frvrs_logs_df=None, verbose=False
+    ):
+        '''
+        Get time group with some edge case and visualize the player movement there
+        '''
+        
+        if mask_series is None: mask_series = [True] * df.shape[0]
+        df1 = df[mask_series].sort_values(
+            [sorting_column], ascending=[is_ascending]
+        ).head(1)
+        if df1.shape[0]:
+            session_uuid = df1.session_uuid.squeeze()
+            time_group = df1.time_group.squeeze()
+            if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
+            base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.time_group == time_group)
+            
+            import humanize
+            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(time_group+1)} Session)'
+            title += f' showing trainee with the {title_str} ('
+            if is_ascending:
+                column_value = df1[sorting_column].min()
+            else:
+                column_value = df1[sorting_column].max()
+            if verbose: display(column_value)
+            if (humanize_type == 'precisedelta'):
+                from datetime import timedelta
+                title += humanize.precisedelta(timedelta(milliseconds=column_value)) + ')'
+            elif (humanize_type == 'percentage'):
+                title += str(100 * column_value) + '%)'
+            elif (humanize_type == 'intword'):
+                title += humanize.intword(column_value) + ')'
+            self.visualize_player_movement(base_mask_series, title=title, frvrs_logs_df=frvrs_logs_df)
