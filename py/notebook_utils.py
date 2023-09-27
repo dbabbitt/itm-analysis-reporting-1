@@ -13,12 +13,13 @@ try: import dill as pickle
 except:
     try: import pickle5 as pickle
     except: import pickle
-import pandas as pd
+import csv
+import math
 import os
 import os.path as osp
-import sys
+import pandas as pd
 import subprocess
-import csv
+import sys
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -94,6 +95,8 @@ class NotebookUtilities(object):
 
         # Handy list of the different types of encodings
         self.encoding_type = ['latin1', 'iso8859-1', 'utf-8'][2]
+        
+        self.facebook_aspect_ratio = 1.91
     
     def similar(self, a: str, b: str) -> float:
         """
@@ -619,7 +622,7 @@ class NotebookUtilities(object):
     
     def get_color_cycler(self, n):
         """
-        color_cycler = nu.get_color_cycler(len(possible_cause_list))
+        color_cycler = self.get_color_cycler(len(possible_cause_list))
         for possible_cause, face_color_dict in zip(possible_cause_list, color_cycler()):
             face_color = face_color_dict['color']
         """
@@ -652,18 +655,48 @@ class NotebookUtilities(object):
         return gb
     
     def visualize_player_movement(self, session_mask, title=None, save_only=False, frvrs_logs_df=None, verbose=False):
+        """
+        Visualizes the player movement for the given session mask in a 2D plot.
+    
+        Args:
+            session_mask (pandas.Series): A boolean mask indicating which rows of the frvrs_logs_df DataFrame belong to the current session.
+            title (str, optional): The title of the plot, if saving.
+            save_only (bool, optional): Whether to only save the plot to a PNG file and not display it.
+            frvrs_logs_df (pandas.DataFrame, optional): A DataFrame containing the FRVRS logs.
+                If `None`, the DataFrame will be loaded from the disk.
+            verbose (bool, optional): Whether to print verbose output.
+    
+        Returns:
+            None: The function either displays the plot or saves it to a file.
+    
+        Note:
+        - This function visualizes player movement based on data in the DataFrame `frvrs_logs_df`.
+        - It can display player positions, locations, and teleportations.
+        - Use `session_mask` to filter the data for a specific session.
+        - Set `save_only` to True to save the plot as a PNG file with the specified `title`.
+        - Set `verbose` to True to enable verbose printing.
+        """
+    
+        # Load the FRVRS logs if not provided.
         if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
+    
+        # Check if saving to a file is requested
         if save_only:
             assert title is not None, "To save, you need a title"
             file_path = os.path.join(self.saves_folder, 'png', re.sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
             filter = not os.path.exists(file_path)
-        else:
-            filter = True
+        else: filter = True
+    
+        # If the filter is True, then visualize the player movement
         if filter:
             import matplotlib.pyplot as plt
             import textwrap
+    
+            # Turn off interactive plotting if saving to a file
             if save_only: plt.ioff()
-            ax = plt.figure(figsize=(18, 9)).add_subplot()
+    
+            # Create a figure and add a subplot
+            fig, ax = plt.subplots(figsize=(18, 9))
             
             # Show the positions of patients recorded and engaged at our time group and session UUID
             color_cycler = self.get_color_cycler(frvrs_logs_df[session_mask].groupby('patient_id').size().shape[0])
@@ -680,6 +713,7 @@ class NotebookUtilities(object):
                     x_dim.extend(srs.map(lambda x: x[0]).values)
                     y_dim.extend(srs.map(lambda x: x[1]).values)
                     z_dim.extend(srs.map(lambda x: x[2]).values)
+    
                 face_color = face_color_dict['color']
                 
                 # Pick from among the sort columns whichever value is not null and use that in the label
@@ -688,10 +722,12 @@ class NotebookUtilities(object):
                 mask_series = (srs > 0)
                 cn = srs[mask_series].index.tolist()[0]
                 if (type(patient_id) == tuple): patient_id = patient_id[0]
+    
+                # Generate a wrapped label
                 label = patient_id.replace(' Root', ' (') + df1[cn].dropna().tolist()[-1] + ')'
                 label = '\n'.join(textwrap.wrap(label, width=20))
-            
-                # Ball and chain
+    
+                # Plot the ball and chain
                 ax.plot(x_dim, z_dim, color=face_color, alpha=1.0, label=label)
                 ax.scatter(x_dim, z_dim, color=face_color, alpha=1.0)
                 
@@ -700,6 +736,7 @@ class NotebookUtilities(object):
                 for x, z in zip(x_dim, z_dim):
                     coords_tuple = (x, z)
                     coords_set.add(coords_tuple)
+    
                 for coords_tuple in coords_set:
                     x, y = coords_tuple
                     plt.annotate(label, (x, y), textcoords='offset points', xytext=(0, -8), ha='center', va='center')
@@ -719,10 +756,8 @@ class NotebookUtilities(object):
                 if verbose: print(x_dim, z_dim)
             
             # Chain or, maybe, ball
-            if (len(x_dim) < 2):
-                ax.scatter(x_dim, z_dim, alpha=1.0, label=label)
-            else:
-                ax.plot(x_dim, z_dim, alpha=1.0, label=label)
+            if (len(x_dim) < 2): ax.scatter(x_dim, z_dim, alpha=1.0, label=label)
+            else: ax.plot(x_dim, z_dim, alpha=1.0, label=label)
             
             # Visualize teleportations
             x_dim = []; z_dim = []; label = ''
@@ -738,10 +773,8 @@ class NotebookUtilities(object):
                 if verbose: print(x_dim, z_dim)
             
             # Chain or, maybe, ball
-            if (len(x_dim) < 2):
-                ax.scatter(x_dim, z_dim, alpha=1.0, label=label)
-            else:
-                ax.plot(x_dim, z_dim, alpha=1.0, label=label)
+            if (len(x_dim) < 2): ax.scatter(x_dim, z_dim, alpha=1.0, label=label)
+            else: ax.plot(x_dim, z_dim, alpha=1.0, label=label)
             
             # Add labels
             ax.set_xlabel('X')
@@ -794,3 +827,248 @@ class NotebookUtilities(object):
             elif (humanize_type == 'intword'):
                 title += humanize.intword(column_value) + ')'
             self.visualize_player_movement(base_mask_series, title=title, frvrs_logs_df=frvrs_logs_df)
+    
+    def get_coordinates(self, second_point, first_point=None):
+        """
+        Get the coordinates of two 3D points.
+    
+        Parameters
+        ----------
+        second_point : str
+            The coordinates of the second point as a string.
+        first_point : str, optional
+            The coordinates of the first point as a string. If not provided, the default values (0, 0, 0) will be used.
+    
+        Returns
+        -------
+        tuple of float
+            The coordinates of the two points.
+    
+        """
+        if first_point is None:
+            x1 = 0.0  # The x-coordinate of the first point
+            y1 = 0.0  # The y-coordinate of the first point
+            z1 = 0.0  # The z-coordinate of the first point
+        else:
+            location_tuple = eval(first_point)
+            x1 = location_tuple[0]  # The x-coordinate of the first point
+            y1 = location_tuple[1]  # The y-coordinate of the first point
+            z1 = location_tuple[2]  # The z-coordinate of the first point
+        location_tuple = eval(second_point)
+        x2 = location_tuple[0]  # The x-coordinate of the second point
+        y2 = location_tuple[1]  # The y-coordinate of the second point
+        z2 = location_tuple[2]  # The z-coordinate of the second point
+    
+        return x1, x2, y1, y2, z1, z2
+    
+    def get_euclidean_distance(self, second_point, first_point=None):
+        """
+        Calculates the Euclidean distance between two 3D points.
+    
+        Returns:
+            float: The Euclidean distance between the two points.
+        """
+        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
+    
+        return math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
+    
+    def get_absolute_position(self, second_point, first_point=None):
+        """
+        Calculates the absolute position of a point relative to another point.
+    
+        Parameters
+        ----------
+        second_point : tuple
+            The coordinates of the second point.
+        first_point : tuple, optional
+            The coordinates of the first point. If not specified,
+            the origin is retrieved from get_coordinates.
+    
+        Returns
+        -------
+        tuple
+            The absolute coordinates of the second point.
+        """
+        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
+    
+        return (round(x1 + x2, 1), round(y1 + y2, 1), round(z1 + z2, 1))
+    
+    def first_order_linear_scatterplot(self, df, xname, yname,
+                                       xlabel_str='Overall Capitalism (explanatory variable)',
+                                       ylabel_str='World Bank Gini % (response variable)',
+                                       x_adj='capitalist', y_adj='unequal',
+                                       title='"Wealth inequality is huge in the capitalist societies"',
+                                       idx_reference='United States', annot_reference='most evil',
+                                       aspect_ratio=None,
+                                       least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
+                                       least_y_xytext=(-200, -10), most_y_xytext=(45, 0),
+                                       reference_xytext=(-75, 25), color_list=None):
+        """
+        Create a first-order (linear) scatter plot assuming the data frame
+        has an index labeled with strings.
+        
+        Parameters
+        ----------
+        df : pandas.DataFrame
+            The data frame to be plotted.
+        xname : str
+            The name of the x-axis variable.
+        yname : str
+            The name of the y-axis variable.
+        xlabel_str : str, optional
+            The label for the x-axis. Defaults to 'Overall Capitalism (explanatory variable)'.
+        ylabel_str : str, optional
+            The label for the y-axis. Defaults to 'World Bank Gini % (response variable)'.
+        x_adj : str, optional
+            The adjective to use for the x-axis variable in the annotations. Default is 'capitalist'.
+        y_adj : str, optional
+            The adjective to use for the y-axis variable in the annotations. Default is 'unequal'.
+        title : str, optional
+            The title of the plot. Defaults to '"Wealth inequality is huge in the capitalist societies"'.
+        idx_reference : str, optional
+            The index of the data point to be used as the reference point for the annotations. Default is 'United States'.
+        annot_reference : str, optional
+            The reference text to be used for the annotation of the reference point. Default is 'most evil'.
+        aspect_ratio : float, optional
+            The aspect ratio of the plot. Default is the Facebook aspect ratio (1.91).
+        least_x_xytext : tuple[float, float], optional
+            The xytext position for the annotation of the least x-value data point. Default is (40, -10).
+        most_x_xytext : tuple[float, float], optional
+            The xytext position for the annotation of the most x-value data point. Default is (-150, 55).
+        least_y_xytext : tuple[float, float], optional
+            The xytext position for the annotation of the least y-value data point. Default is (-200, -10).
+        most_y_xytext : tuple[float, float], optional
+            The xytext position for the annotation of the most y-value data point. Default is (45, 0).
+        reference_xytext : tuple[float, float], optional
+            The xytext position for the annotation of the reference point. Default is (-75, 25).
+        color_list : list[str], optional
+            The list of colors to be used for the scatter plot. Default is None, which will use a default color scheme.
+    
+        Returns
+        -------
+        figure: matplotlib.figure.Figure
+            The figure object for the generated scatter plot.
+        """
+    
+        if aspect_ratio is None: aspect_ratio = self.facebook_aspect_ratio
+        fig_width = 18
+        fig_height = fig_width / aspect_ratio
+        import matplotlib.pyplot as plt
+        fig = plt.figure(figsize=(fig_width, fig_height))
+        ax = fig.add_subplot(111, autoscale_on=True)
+        line_kws = dict(color='k', zorder=1, alpha=.25)
+    
+        if color_list is None: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
+        else: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2, color=color_list)
+    
+        import seaborn as sns
+        merge_axes_subplot = sns.regplot(x=xname, y=yname, scatter=True, data=df, ax=ax,
+                                         scatter_kws=scatter_kws, line_kws=line_kws)
+    
+        if not xlabel_str.endswith(' (explanatory variable)'): xlabel_str = f'{xlabel_str} (explanatory variable)'
+        xlabel_text = plt.xlabel(xlabel_str)
+    
+        if not ylabel_str.endswith(' (response variable)'): ylabel_str = f'{ylabel_str} (response variable)'
+        ylabel_text = plt.ylabel(ylabel_str)
+    
+        kwargs = dict(textcoords='offset points', ha='left', va='bottom',
+                      bbox=dict(boxstyle='round,pad=0.5', fc='yellow', alpha=0.5),
+                      arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0'))
+        
+        xdata = df[xname].values
+        least_x = xdata.min()
+        most_x = xdata.max()
+        
+        ydata = df[yname].values
+        most_y = ydata.max()
+        least_y = ydata.min()
+        
+        least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
+    
+        for label, x, y in zip(df.index, xdata, ydata):
+            if (x == least_x) and not least_x_tried:
+                annotation = plt.annotate('{} (least {})'.format(label, x_adj),
+                                          xy=(x, y), xytext=least_x_xytext, **kwargs)
+                least_x_tried = True
+            elif (x == most_x) and not most_x_tried:
+                annotation = plt.annotate('{} (most {})'.format(label, x_adj),
+                                          xy=(x, y), xytext=most_x_xytext, **kwargs)
+                most_x_tried = True
+            elif (y == least_y) and not least_y_tried:
+                annotation = plt.annotate('{} (least {})'.format(label, y_adj),
+                                          xy=(x, y), xytext=least_y_xytext, **kwargs)
+                least_y_tried = True
+            elif (y == most_y) and not most_y_tried:
+                annotation = plt.annotate('{} (most {})'.format(label, y_adj),
+                                          xy=(x, y), xytext=most_y_xytext, **kwargs)
+                most_y_tried = True
+            elif (label == idx_reference):
+                annotation = plt.annotate('{} ({})'.format(label, annot_reference),
+                                          xy=(x, y), xytext=reference_xytext, **kwargs)
+    
+        title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
+        
+        # Get r squared value
+        inf_nan_mask = self.get_inf_nan_mask(xdata, ydata)
+        from scipy.stats import pearsonr
+        pearsonr_tuple = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
+        pearson_r = pearsonr_tuple[0]
+        pearsonr_statement = str('%.2f' % pearson_r)
+        coefficient_of_determination_statement = str('%.2f' % pearson_r**2)
+        p_value = pearsonr_tuple[1]
+    
+        if p_value < 0.0001: pvalue_statement = '<0.0001'
+        else: pvalue_statement = '=' + str('%.4f' % p_value)
+    
+        s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
+        text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
+        
+        return fig
+    
+    def get_inf_nan_mask(self, x_list, y_list):
+        """
+        Returns a mask indicating which elements of x_list and y_list are not inf or nan.
+        
+        Args:
+        x_list: A list of numbers.
+        y_list: A list of numbers.
+        
+        Returns:
+        A numpy array of booleans, where True indicates that the corresponding element
+        of x_list and y_list is not inf or nan.
+        """
+        
+        import numpy as np
+        
+        # Check if the input lists are empty.
+        if not x_list or not y_list: return np.array([], dtype=bool)
+        
+        # Create masks indicating which elements of x_list and y_list are not inf or nan.
+        x_mask = np.logical_and(np.logical_not(np.isinf(x_list)), np.logical_not(np.isnan(x_list)))
+        y_mask = np.logical_and(np.logical_not(np.isinf(y_list)), np.logical_not(np.isnan(y_list)))
+        
+        # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
+        return np.logical_and(x_mask, y_mask)
+    
+    def get_minority_combinations(self, sample_df, groupby_columns):
+        """
+        Get the minority combinations of a DataFrame.
+        
+        Args:
+            sample_df: A Pandas DataFrame.
+            groupby_columns: A list of column names to group by.
+        
+        Returns:
+            A Pandas DataFrame containing a single sample row of each of the four smallest groups.
+        """
+        df = pd.DataFrame([], columns=sample_df.columns)
+        for bool_tuple in sample_df.groupby(groupby_columns).size().sort_values().index.tolist()[:4]:
+            
+            # Filter the name in the column to the corresponding value of the tuple
+            mask_series = True
+            for cn, cv in zip(groupby_columns, bool_tuple): mask_series &= (sample_df[cn] == cv)
+            
+            # Append a random single record from the filtered data frame
+            df = pd.concat([df, sample_df[mask_series].sample(1)], axis='index')
+        
+        return df
