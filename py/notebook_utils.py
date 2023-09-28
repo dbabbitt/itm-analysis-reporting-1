@@ -14,7 +14,9 @@ except:
     try: import pickle5 as pickle
     except: import pickle
 import csv
+import humanize
 import math
+import matplotlib.pyplot as plt
 import os
 import os.path as osp
 import pandas as pd
@@ -628,7 +630,6 @@ class NotebookUtilities(object):
         """
         color_cycler = None
         from cycler import cycler
-        import matplotlib.pyplot as plt
         import numpy as np
         if n < 9:
             color_cycler = cycler('color', plt.cm.Accent(np.linspace(0, 1, n)))
@@ -689,7 +690,6 @@ class NotebookUtilities(object):
     
         # If the filter is True, then visualize the player movement
         if filter:
-            import matplotlib.pyplot as plt
             import textwrap
     
             # Turn off interactive plotting if saving to a file
@@ -811,7 +811,6 @@ class NotebookUtilities(object):
             if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
             base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.time_group == time_group)
             
-            import humanize
             title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(time_group+1)} Session)'
             title += f' showing trainee with the {title_str} ('
             if is_ascending:
@@ -953,7 +952,6 @@ class NotebookUtilities(object):
         if aspect_ratio is None: aspect_ratio = self.facebook_aspect_ratio
         fig_width = 18
         fig_height = fig_width / aspect_ratio
-        import matplotlib.pyplot as plt
         fig = plt.figure(figsize=(fig_width, fig_height))
         ax = fig.add_subplot(111, autoscale_on=True)
         line_kws = dict(color='k', zorder=1, alpha=.25)
@@ -1072,3 +1070,74 @@ class NotebookUtilities(object):
             df = pd.concat([df, sample_df[mask_series].sample(1)], axis='index')
         
         return df
+    
+    def plot_line_with_error_bars(self, df, xname, xlabel, xtick_text_fn, yname, ylabel, ytick_text_fn, title):
+        
+        # Drop rows with NaN values, group by patient ranking, and calculate mean and standard deviation
+        groupby_list = [xname]
+        columns_list = [xname, yname]
+        aggs_list = ['mean', 'std']
+        df = df.dropna(subset=columns_list).groupby(groupby_list)[yname].agg(aggs_list).reset_index()
+        
+        # Create the figure and subplot
+        fig, ax = plt.subplots(figsize=(18, 9))
+        
+        # Plot the line with error bars
+        ax.errorbar(
+            x=df[xname],
+            y=df['mean'],
+            yerr=df['std'],
+            label=ylabel,
+            fmt='-o',  # Line style with markers
+        )
+        
+        # Set plot title and labels
+        ax.set_title(title)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel(ylabel)
+        
+        # Humanize x tick labels
+        xticklabels_list = []
+        for text_obj in ax.get_xticklabels():
+            text_obj.set_text(xtick_text_fn(text_obj))
+            xticklabels_list.append(text_obj)
+        ax.set_xticklabels(xticklabels_list)
+        
+        # Humanize y tick labels
+        yticklabels_list = []
+        for text_obj in ax.get_yticklabels():
+            text_obj.set_text(ytick_text_fn(text_obj))
+            yticklabels_list.append(text_obj)
+        ax.set_yticklabels(yticklabels_list);
+    
+    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title):
+        
+        # Create the figure and subplot
+        fig, ax = plt.subplots(figsize=(18, 9))
+        
+        # Plot the histogram with centered bars
+        df[xname].hist(ax=ax, bins=100, align='mid', edgecolor='black')
+        
+        # Set the title and labels
+        ax.set_title(title)
+        ax.set_xlabel(xlabel)
+        ax.set_ylabel('Count of Instances in Bin')
+        
+        # Humanize x tick labels
+        xticklabels_list = []
+        for text_obj in ax.get_xticklabels():
+            text_obj.set_text(xtick_text_fn(text_obj))
+            xticklabels_list.append(text_obj)
+        ax.set_xticklabels(xticklabels_list)
+        
+        # Humanize y tick labels
+        yticklabels_list = []
+        for text_obj in ax.get_yticklabels():
+            text_obj.set_text(
+                humanize.intword(int(text_obj.get_position()[1]))
+            )
+            yticklabels_list.append(text_obj)
+        ax.set_yticklabels(yticklabels_list)
+        
+        # Turn the grid off
+        plt.grid(False);
