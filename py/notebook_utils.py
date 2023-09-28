@@ -811,7 +811,7 @@ class NotebookUtilities(object):
             if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
             base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.time_group == time_group)
             
-            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(time_group+1)} Session)'
+            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(time_group+1)} Scene)'
             title += f' showing trainee with the {title_str} ('
             if is_ascending:
                 column_value = df1[sorting_column].min()
