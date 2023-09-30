@@ -7,21 +7,29 @@
 
 # Soli Deo gloria
 
+from bs4 import BeautifulSoup as bs
 from difflib import SequenceMatcher
+from pathlib import Path
 from typing import List, Optional
+from urllib.request import urlretrieve
+import csv
+import humanize
+import io
+import math
+import matplotlib.pyplot as plt
+import numpy as np
+import os
+import os.path as osp
+import pandas as pd
+import random
+import re
+import subprocess
+import sys
+import urllib
 try: import dill as pickle
 except:
     try: import pickle5 as pickle
     except: import pickle
-import csv
-import humanize
-import math
-import matplotlib.pyplot as plt
-import os
-import os.path as osp
-import pandas as pd
-import subprocess
-import sys
 
 import warnings
 warnings.filterwarnings("ignore")
@@ -99,7 +107,13 @@ class NotebookUtilities(object):
         # Handy list of the different types of encodings
         self.encoding_type = ['latin1', 'iso8859-1', 'utf-8'][2]
         
+        # Determine URL from file path
+        self.url_regex = re.compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', re.IGNORECASE)
+        self.filepath_regex = re.compile(r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])', re.IGNORECASE)
+        
+        # Various aspect ratios
         self.facebook_aspect_ratio = 1.91
+        self.twitter_aspect_ratio = 16/9
 
     ### String Functions ###
     
@@ -136,6 +150,44 @@ class NotebookUtilities(object):
         else: list_str = ''
         
         return list_str
+
+    def check_4_doubles(self, item_list, verbose=False):
+        if verbose: t0 = time.time()
+        rows_list = []
+        n = len(item_list)
+        for i in range(n-1):
+            first_item = item_list[i]
+            max_similarity = 0.0
+            max_item = first_item
+            for j in range(i+1, n):
+                second_item = item_list[j]
+
+                # Assume the first item is never identical to the second item
+                this_similarity = self.similar(str(first_item), str(second_item))
+
+                if this_similarity > max_similarity:
+                    max_similarity = this_similarity
+                    max_item = second_item
+
+            # Get input row in dictionary format; key = col_name
+            row_dict = {}
+            row_dict['first_item'] = first_item
+            row_dict['second_item'] = max_item
+            row_dict['first_bytes'] = '-'.join(str(x) for x in bytearray(str(first_item),
+                                                                         encoding=self.encoding, errors="replace"))
+            row_dict['second_bytes'] = '-'.join(str(x) for x in bytearray(str(max_item),
+                                                                          encoding=self.encoding, errors="replace"))
+            row_dict['max_similarity'] = max_similarity
+
+            rows_list.append(row_dict)
+
+        column_list = ['first_item', 'second_item', 'first_bytes', 'second_bytes', 'max_similarity']
+        item_similarities_df = pd.DataFrame(rows_list, columns=column_list)
+        if verbose:
+            t1 = time.time()
+            print(t1-t0, time.ctime(t1))
+
+        return item_similarities_df
 
     ### Storage Functions ###
 
@@ -407,7 +459,7 @@ class NotebookUtilities(object):
         # Remove the importlib object variable name
         dirred_set = set([fn.replace('module_obj', module_name) for fn in dirred_set])
         
-        return dirred_set
+        return sorted(dirred_set)
     
     def update_modules_list(self, modules_list: Optional[List[str]] = None, verbose: bool = False) -> None:
         """
@@ -478,6 +530,51 @@ class NotebookUtilities(object):
         if exist_ok or (not osp.isfile(file_path)):
             import urllib
             urllib.request.urlretrieve(url, file_path)
+    
+    def get_page_soup(self, page_url_or_filepath, verbose=True):
+        match_obj = self.url_regex.search(page_url_or_filepath)
+        if match_obj:
+            with urllib.request.urlopen(page_url_or_filepath) as response: page_html = response.read()
+        else:
+            with open(page_url_or_filepath, 'r', encoding='utf-8') as f: page_html = f.read()
+        page_soup = bs(page_html, 'html.parser')
+
+        return page_soup
+    
+    def get_wiki_tables(self, tables_url_or_filepath, verbose=True):
+        table_dfs_list = []
+        try:
+            page_soup = self.get_page_soup(tables_url_or_filepath, verbose=verbose)
+            table_soups_list = page_soup.find_all('table', attrs={'class': 'wikitable'})
+            table_dfs_list = []
+            for table_soup in table_soups_list: table_dfs_list += self.get_page_tables(str(table_soup), verbose=False)
+            if verbose: print(sorted([(i, df.shape) for (i, df) in enumerate(table_dfs_list)], key=lambda x: x[1][0]*x[1][1], reverse=True))
+        except Exception as e:
+            if verbose: print(str(e).strip())
+            table_dfs_list = self.get_page_tables(tables_url_or_filepath, verbose=verbose)
+
+        return table_dfs_list
+
+    def get_page_tables(self, tables_url_or_filepath, verbose=True):
+        '''
+        import sys
+        sys.path.insert(1, '../py')
+        from notebook_utils import NotebookUtilities
+        import os
+        nu = NotebookUtilities(data_folder_path=os.path.abspath('../data'))
+        tables_url = 'https://en.wikipedia.org/wiki/Provinces_of_Afghanistan'
+        page_tables_list = nu.get_page_tables(tables_url)
+        '''
+        if self.url_regex.fullmatch(tables_url_or_filepath) or self.filepath_regex.fullmatch(tables_url_or_filepath):
+            tables_df_list = pd.read_html(tables_url_or_filepath)
+        else:
+            f = io.StringIO(tables_url_or_filepath)
+            tables_df_list = pd.read_html(f)
+        if verbose:
+            print(sorted([(i, df.shape) for (i, df) in enumerate(tables_df_list)],
+                         key=lambda x: x[1][0]*x[1][1], reverse=True))
+
+        return tables_df_list
     
     ### Pandas Functions ###
     
