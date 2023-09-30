@@ -29,18 +29,18 @@ warnings.filterwarnings("ignore")
 class NotebookUtilities(object):
     """
     This class implements the core of the utility
-    functions needed to install and run GPTs to 
-    common to running Jupyter notebooks.
+    functions needed to install and run GPTs and 
+    also what is common to running Jupyter notebooks.
     
     Examples
     --------
     
     import sys
-    import os
+    import os.path as osp
     sys.path.insert(1, osp.abspath('../py'))
     from notebook_utils import NotebookUtilities
     
-    tu = NotebookUtilities(
+    nu = NotebookUtilities(
         data_folder_path=osp.abspath('../data'),
         saves_folder_path=osp.abspath('../saves')
     )
@@ -86,7 +86,8 @@ class NotebookUtilities(object):
         self.lora_path = osp.abspath(osp.join(self.bin_folder, 'gpt4all-lora-quantized.bin'))
         self.gpt4all_model_path = osp.abspath(osp.join(self.bin_folder, 'gpt4all-lora-q-converted.bin'))
         self.ggjt_model_path = osp.abspath(osp.join(
-            self.cache_folder, 'models--LLukas22--gpt4all-lora-quantized-ggjt', 'snapshots', '2e7367a8557085b8267e1f3b27c209e272b8fe6c', 'ggjt-model.bin'
+            self.cache_folder, 'models--LLukas22--gpt4all-lora-quantized-ggjt', 'snapshots', '2e7367a8557085b8267e1f3b27c209e272b8fe6c',
+            'ggjt-model.bin'
         ))
         
         # Ensure the Scripts folder is in PATH
@@ -99,6 +100,8 @@ class NotebookUtilities(object):
         self.encoding_type = ['latin1', 'iso8859-1', 'utf-8'][2]
         
         self.facebook_aspect_ratio = 1.91
+
+    ### String Functions ###
     
     def similar(self, a: str, b: str) -> float:
         """
@@ -118,140 +121,23 @@ class NotebookUtilities(object):
         """
 
         return SequenceMatcher(None, str(a), str(b)).ratio()
-    
-    def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
-        '''
-        This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened dictionary from it, where
-        keys are made up of the keys/indices of nested dictionaries and lists. The keys are constructed with a key_prefix
-        (which is updated as the function traverses the value_obj) to ensure uniqueness. The flattened dictionary is stored in the
-        row_dict argument, which is updated at each step of the function.
 
-        Parameters
-        ----------
-        value_obj : dict, list, scalar value
-            The object to be flattened into a dictionary.
-        row_dict : dict, optional
-            The dictionary to store the flattened object.
-        key_prefix : str, optional
-            The prefix for constructing the keys in the row_dict.
+    ### List Functions ###
+    
+    def conjunctify_nouns(self, noun_list, and_or='and', verbose=False):
+        if (noun_list is None): return ''
+        if (type(noun_list) != list): noun_list = list(noun_list)
+        if (len(noun_list) > 2):
+            last_noun_str = noun_list[-1]
+            but_last_nouns_str = ', '.join(noun_list[:-1])
+            list_str = f', {and_or} '.join([but_last_nouns_str, last_noun_str])
+        elif (len(noun_list) == 2): list_str = f' {and_or} '.join(noun_list)
+        elif (len(noun_list) == 1): list_str = noun_list[0]
+        else: list_str = ''
+        
+        return list_str
 
-        Returns
-        ----------
-        row_dict : dict
-            The flattened dictionary representation of the value_obj.
-        '''
-        
-        # Check if the value is a dictionary
-        if type(value_obj) == dict:
-            
-            # Iterate through the dictionary 
-            for k, v, in value_obj.items():
-                
-                # Recursively call get_row_dictionary() with the dictionary key as part of the prefix
-                row_dict = get_row_dictionary(
-                    v, row_dict=row_dict, key_prefix=f'{key_prefix}_{k}'
-                )
-                
-        # Check if the value is a list
-        elif type(value_obj) == list:
-            
-            # Get the minimum number of digits in the list length
-            list_length = len(value_obj)
-            digits_count = min(len(str(list_length)), 2)
-            
-            # Iterate through the list
-            for i, v in enumerate(value_obj):
-                
-                # Add leading zeros to the index
-                if (i == 0) and (list_length == 1):
-                    i = ''
-                else:
-                    i = str(i).zfill(digits_count)
-                
-                # Recursively call get_row_dictionary() with the list index as part of the prefix
-                row_dict = get_row_dictionary(
-                    v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
-                )
-                
-        # If value is neither a dictionary nor a list
-        else:
-            
-            # Add the value to the row dictionary
-            if key_prefix.startswith('_') and (key_prefix[1:] not in row_dict):
-                key_prefix = key_prefix[1:]
-            row_dict[key_prefix] = value_obj
-        
-        return row_dict
-    
-    def get_dir_tree(self, module_name, contains_str=None, not_contains_str=None, verbose=False):
-        """
-        Gets a list of all attributes in a given module.
-        
-        Parameters:
-        -----------
-        module_name : str
-            The name of the module to get the directory list for.
-        contains_str : str, optional
-            If provided, only print attributes containing this substring (case-insensitive).
-        not_contains_str : str, optional
-            If provided, exclude printing attributes containing this substring (case-insensitive).
-        verbose : bool, optional
-            If True, print additional information during processing.
-        
-        Returns:
-        --------
-        list[str]
-            A list of attributes in the module that match the filtering criteria.
-        """
-    
-        # Initialize sets for processed attributes and their suffixes
-        dirred_set = set([module_name])
-        suffix_set = set([module_name])
-    
-        # Initialize an unprocessed set of all attributes in the module_name module that don't start with an underscore
-        import importlib
-        module_obj = importlib.import_module(module_name)
-        undirred_set = set([f'module_obj.{fn}' for fn in dir(module_obj) if not fn.startswith('_')])
-    
-        # Continue processing until the unprocessed set is empty
-        while undirred_set:
-    
-            # Pop the next function or submodule
-            fn = undirred_set.pop()
-    
-            # Extract the suffix of the function or submodule
-            fn_suffix = fn.split('.')[-1]
-    
-            # Check if the suffix has not been processed yet
-            if fn_suffix not in suffix_set:
-                
-                # Add it to processed and suffix sets
-                dirred_set.add(fn)
-                suffix_set.add(fn_suffix)
-    
-                try:
-                    
-                    # Evaluate the 'dir()' function for the attribute and update the unprocessed set with its function or submodule
-                    dir_list = eval(f'dir({fn})')
-    
-                    # Add all of the submodules of the function or submodule to undirred_set if they haven't been processed yet
-                    undirred_set.update([f'{fn}.{fn1}' for fn1 in dir_list if not fn1.startswith('_')])
-    
-                # If there is an error getting the dir() of the function or submodule, just continue to the next iteration
-                except: continue
-                
-        # Apply filtering criteria if provided
-        if (not bool(contains_str)) and bool(not_contains_str):
-            dirred_set = [fn for fn in dirred_set if (not_contains_str not in fn.lower())]
-        elif bool(contains_str) and (not bool(not_contains_str)):
-            dirred_set = [fn for fn in dirred_set if (contains_str in fn.lower())]
-        elif bool(contains_str) and bool(not_contains_str):
-            dirred_set = [fn for fn in dirred_set if (contains_str in fn.lower()) and (not_contains_str not in fn.lower())]
-        
-        # Remove the importlib object variable name
-        dirred_set = set([fn.replace('module_obj', module_name) for fn in dirred_set])
-        
-        return dirred_set
+    ### Storage Functions ###
 
     def csv_exists(self, csv_name, folder_path=None, verbose=False):
         if folder_path is None:
@@ -451,6 +337,78 @@ class NotebookUtilities(object):
             if verbose: print(e, ": Couldn't save {:,} cells as a pickle.".format(df.shape[0]*df.shape[1]), flush=True)
             if raise_exception: raise
     
+    ### Module Functions ###
+    
+    def get_dir_tree(self, module_name, contains_str=None, not_contains_str=None, verbose=False):
+        """
+        Gets a list of all attributes in a given module.
+        
+        Parameters:
+        -----------
+        module_name : str
+            The name of the module to get the directory list for.
+        contains_str : str, optional
+            If provided, only print attributes containing this substring (case-insensitive).
+        not_contains_str : str, optional
+            If provided, exclude printing attributes containing this substring (case-insensitive).
+        verbose : bool, optional
+            If True, print additional information during processing.
+        
+        Returns:
+        --------
+        list[str]
+            A list of attributes in the module that match the filtering criteria.
+        """
+    
+        # Initialize sets for processed attributes and their suffixes
+        dirred_set = set([module_name])
+        suffix_set = set([module_name])
+    
+        # Initialize an unprocessed set of all attributes in the module_name module that don't start with an underscore
+        import importlib
+        module_obj = importlib.import_module(module_name)
+        undirred_set = set([f'module_obj.{fn}' for fn in dir(module_obj) if not fn.startswith('_')])
+    
+        # Continue processing until the unprocessed set is empty
+        while undirred_set:
+    
+            # Pop the next function or submodule
+            fn = undirred_set.pop()
+    
+            # Extract the suffix of the function or submodule
+            fn_suffix = fn.split('.')[-1]
+    
+            # Check if the suffix has not been processed yet
+            if fn_suffix not in suffix_set:
+                
+                # Add it to processed and suffix sets
+                dirred_set.add(fn)
+                suffix_set.add(fn_suffix)
+    
+                try:
+                    
+                    # Evaluate the 'dir()' function for the attribute and update the unprocessed set with its function or submodule
+                    dir_list = eval(f'dir({fn})')
+    
+                    # Add all of the submodules of the function or submodule to undirred_set if they haven't been processed yet
+                    undirred_set.update([f'{fn}.{fn1}' for fn1 in dir_list if not fn1.startswith('_')])
+    
+                # If there is an error getting the dir() of the function or submodule, just continue to the next iteration
+                except: continue
+                
+        # Apply filtering criteria if provided
+        if (not bool(contains_str)) and bool(not_contains_str):
+            dirred_set = [fn for fn in dirred_set if (not_contains_str not in fn.lower())]
+        elif bool(contains_str) and (not bool(not_contains_str)):
+            dirred_set = [fn for fn in dirred_set if (contains_str in fn.lower())]
+        elif bool(contains_str) and bool(not_contains_str):
+            dirred_set = [fn for fn in dirred_set if (contains_str in fn.lower()) and (not_contains_str not in fn.lower())]
+        
+        # Remove the importlib object variable name
+        dirred_set = set([fn.replace('module_obj', module_name) for fn in dirred_set])
+        
+        return dirred_set
+    
     def update_modules_list(self, modules_list: Optional[List[str]] = None, verbose: bool = False) -> None:
         """
         Updates the list of modules that are installed.
@@ -467,8 +425,9 @@ class NotebookUtilities(object):
         None
         """
 
-        if modules_list is None:
-            self.modules_list = [o.decode().split(' ')[0] for o in subprocess.check_output(f'{self.pip_command_str} list'.split(' ')).splitlines()[2:]]
+        if modules_list is None: self.modules_list = [
+            o.decode().split(' ')[0] for o in subprocess.check_output(f'{self.pip_command_str} list'.split(' ')).splitlines()[2:]
+            ]
         else: self.modules_list = modules_list
 
         if verbose: print('Updated modules list to {}'.format(self.modules_list), flush=True)
@@ -501,6 +460,8 @@ class NotebookUtilities(object):
                 for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
             self.update_modules_list(verbose=verbose)
     
+    ### URL Functions ###
+    
     def get_filename_from_url(self, url, verbose=False):
         import urllib
         file_name = urllib.parse.urlparse(url).path.split('/')[-1]
@@ -518,30 +479,71 @@ class NotebookUtilities(object):
             import urllib
             urllib.request.urlretrieve(url, file_path)
     
-    def download_lora_model(self, verbose=False):
-        if not osp.exists(self.lora_path):
-            download_url = f'https://the-eye.eu/public/AI/models/downloadnomic-ai/gpt4all/{osp.basename(self.lora_path)}'
-            
-            # Download the file from the URL using requests
-            import requests
-            response = requests.get(download_url)
-            
-            # Create the necessary directories if they don't exist
-            os.makedirs(osp.dirname(self.lora_path), exist_ok=True)
-
-            # Save the downloaded file to disk
-            with open(self.lora_path, 'wb') as f:
-                f.write(response.content)
+    ### Pandas Functions ###
     
-    def convert_lora_model_to_gpt4all(self, verbose=False):
-        if not osp.exists(self.gpt4all_model_path):
-            converter_path = osp.abspath(osp.join(self.scripts_folder, 'pyllamacpp-convert-gpt4all.exe'))
-            llama_file = osp.abspath(osp.join(llama_folder, 'tokenizer.model'))
-            command_str = f'{converter_path} {self.lora_path} {llama_file} {self.gpt4all_model_path}'
-            if verbose: print(command_str, flush=True)
-            output_str = subprocess.check_output(command_str.split(' '))
-            if verbose:
-                for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
+    def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
+        '''
+        This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened dictionary from it, where
+        keys are made up of the keys/indices of nested dictionaries and lists. The keys are constructed with a key_prefix
+        (which is updated as the function traverses the value_obj) to ensure uniqueness. The flattened dictionary is stored in the
+        row_dict argument, which is updated at each step of the function.
+
+        Parameters
+        ----------
+        value_obj : dict, list, scalar value
+            The object to be flattened into a dictionary.
+        row_dict : dict, optional
+            The dictionary to store the flattened object.
+        key_prefix : str, optional
+            The prefix for constructing the keys in the row_dict.
+
+        Returns
+        ----------
+        row_dict : dict
+            The flattened dictionary representation of the value_obj.
+        '''
+        
+        # Check if the value is a dictionary
+        if type(value_obj) == dict:
+            
+            # Iterate through the dictionary 
+            for k, v, in value_obj.items():
+                
+                # Recursively call get_row_dictionary() with the dictionary key as part of the prefix
+                row_dict = get_row_dictionary(
+                    v, row_dict=row_dict, key_prefix=f'{key_prefix}_{k}'
+                )
+                
+        # Check if the value is a list
+        elif type(value_obj) == list:
+            
+            # Get the minimum number of digits in the list length
+            list_length = len(value_obj)
+            digits_count = min(len(str(list_length)), 2)
+            
+            # Iterate through the list
+            for i, v in enumerate(value_obj):
+                
+                # Add leading zeros to the index
+                if (i == 0) and (list_length == 1):
+                    i = ''
+                else:
+                    i = str(i).zfill(digits_count)
+                
+                # Recursively call get_row_dictionary() with the list index as part of the prefix
+                row_dict = get_row_dictionary(
+                    v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
+                )
+                
+        # If value is neither a dictionary nor a list
+        else:
+            
+            # Add the value to the row dictionary
+            if key_prefix.startswith('_') and (key_prefix[1:] not in row_dict):
+                key_prefix = key_prefix[1:]
+            row_dict[key_prefix] = value_obj
+        
+        return row_dict
     
     def get_column_descriptions(self, df, column_list=None, verbose=False):
         
@@ -603,45 +605,6 @@ class NotebookUtilities(object):
         
         return(blank_ranking_df)
     
-    def conjunctify_nouns(self, noun_list, and_or='and', verbose=False):
-        if noun_list is None:
-            
-            return ''
-        if type(noun_list) != list:
-            noun_list = list(noun_list)
-        if len(noun_list) > 2:
-            last_noun_str = noun_list[-1]
-            but_last_nouns_str = ', '.join(noun_list[:-1])
-            list_str = f', {and_or} '.join([but_last_nouns_str, last_noun_str])
-        elif len(noun_list) == 2:
-            list_str = f' {and_or} '.join(noun_list)
-        elif len(noun_list) == 1:
-            list_str = noun_list[0]
-        else:
-            list_str = ''
-        
-        return list_str
-    
-    def get_color_cycler(self, n):
-        """
-        color_cycler = self.get_color_cycler(len(possible_cause_list))
-        for possible_cause, face_color_dict in zip(possible_cause_list, color_cycler()):
-            face_color = face_color_dict['color']
-        """
-        color_cycler = None
-        from cycler import cycler
-        import numpy as np
-        if n < 9:
-            color_cycler = cycler('color', plt.cm.Accent(np.linspace(0, 1, n)))
-        elif n < 11:
-            color_cycler = cycler('color', plt.cm.tab10(np.linspace(0, 1, n)))
-        elif n < 13:
-            color_cycler = cycler('color', plt.cm.Paired(np.linspace(0, 1, n)))
-        else:
-            color_cycler = cycler('color', plt.cm.tab20(np.linspace(0, 1, n)))
-        
-        return color_cycler
-    
     def get_session_groupby(self, frvrs_logs_df=None, mask_series=None, extra_column=None):
         if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
         if (mask_series is None) and (extra_column is None):
@@ -654,6 +617,161 @@ class NotebookUtilities(object):
             gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
     
         return gb
+    
+    def get_inf_nan_mask(self, x_list, y_list):
+        """
+        Returns a mask indicating which elements of x_list and y_list are not inf or nan.
+        
+        Args:
+        x_list: A list of numbers.
+        y_list: A list of numbers.
+        
+        Returns:
+        A numpy array of booleans, where True indicates that the corresponding element
+        of x_list and y_list is not inf or nan.
+        """
+        
+        import numpy as np
+        
+        # Check if the input lists are empty.
+        if not x_list or not y_list: return np.array([], dtype=bool)
+        
+        # Create masks indicating which elements of x_list and y_list are not inf or nan.
+        x_mask = np.logical_and(np.logical_not(np.isinf(x_list)), np.logical_not(np.isnan(x_list)))
+        y_mask = np.logical_and(np.logical_not(np.isinf(y_list)), np.logical_not(np.isnan(y_list)))
+        
+        # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
+        return np.logical_and(x_mask, y_mask)
+    
+    ### LLM Functions ###
+    
+    def download_lora_model(self, verbose=False):
+        if not osp.exists(self.lora_path):
+            download_url = f'https://the-eye.eu/public/AI/models/downloadnomic-ai/gpt4all/{osp.basename(self.lora_path)}'
+            
+            # Download the file from the URL using requests
+            import requests
+            response = requests.get(download_url)
+            
+            # Create the necessary directories if they don't exist
+            os.makedirs(osp.dirname(self.lora_path), exist_ok=True)
+
+            # Save the downloaded file to disk
+            with open(self.lora_path, 'wb') as f:
+                f.write(response.content)
+    
+    def convert_lora_model_to_gpt4all(self, verbose=False):
+        if not osp.exists(self.gpt4all_model_path):
+            converter_path = osp.abspath(osp.join(self.scripts_folder, 'pyllamacpp-convert-gpt4all.exe'))
+            llama_file = osp.abspath(osp.join(llama_folder, 'tokenizer.model'))
+            command_str = f'{converter_path} {self.lora_path} {llama_file} {self.gpt4all_model_path}'
+            if verbose: print(command_str, flush=True)
+            output_str = subprocess.check_output(command_str.split(' '))
+            if verbose:
+                for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
+    
+    ### 3D Point Functions ###
+    
+    def get_coordinates(self, second_point, first_point=None):
+        """
+        Get the coordinates of two 3D points.
+    
+        Parameters
+        ----------
+        second_point : str
+            The coordinates of the second point as a string.
+        first_point : str, optional
+            The coordinates of the first point as a string. If not provided, the default values (0, 0, 0) will be used.
+    
+        Returns
+        -------
+        tuple of float
+            The coordinates of the two points.
+    
+        """
+        if first_point is None:
+            x1 = 0.0  # The x-coordinate of the first point
+            y1 = 0.0  # The y-coordinate of the first point
+            z1 = 0.0  # The z-coordinate of the first point
+        else:
+            location_tuple = eval(first_point)
+            x1 = location_tuple[0]  # The x-coordinate of the first point
+            y1 = location_tuple[1]  # The y-coordinate of the first point
+            z1 = location_tuple[2]  # The z-coordinate of the first point
+        location_tuple = eval(second_point)
+        x2 = location_tuple[0]  # The x-coordinate of the second point
+        y2 = location_tuple[1]  # The y-coordinate of the second point
+        z2 = location_tuple[2]  # The z-coordinate of the second point
+    
+        return x1, x2, y1, y2, z1, z2
+    
+    def get_euclidean_distance(self, second_point, first_point=None):
+        """
+        Calculates the Euclidean distance between two 3D points.
+    
+        Returns:
+            float: The Euclidean distance between the two points.
+        """
+        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
+    
+        return math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
+    
+    def get_absolute_position(self, second_point, first_point=None):
+        """
+        Calculates the absolute position of a point relative to another point.
+    
+        Parameters
+        ----------
+        second_point : tuple
+            The coordinates of the second point.
+        first_point : tuple, optional
+            The coordinates of the first point. If not specified,
+            the origin is retrieved from get_coordinates.
+    
+        Returns
+        -------
+        tuple
+            The absolute coordinates of the second point.
+        """
+        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
+    
+        return (round(x1 + x2, 1), round(y1 + y2, 1), round(z1 + z2, 1))
+    
+    ### Sub-sampling Functions ###
+    
+    def get_minority_combinations(self, sample_df, groupby_columns):
+        """
+        Get the minority combinations of a DataFrame.
+        
+        Args:
+            sample_df: A Pandas DataFrame.
+            groupby_columns: A list of column names to group by.
+        
+        Returns:
+            A Pandas DataFrame containing a single sample row of each of the four smallest groups.
+        """
+        df = pd.DataFrame([], columns=sample_df.columns)
+        for bool_tuple in sample_df.groupby(groupby_columns).size().sort_values().index.tolist()[:4]:
+            
+            # Filter the name in the column to the corresponding value of the tuple
+            mask_series = True
+            for cn, cv in zip(groupby_columns, bool_tuple): mask_series &= (sample_df[cn] == cv)
+            
+            # Append a random single record from the filtered data frame
+            df = pd.concat([df, sample_df[mask_series].sample(1)], axis='index')
+        
+        return df
+    
+    def get_random_subdictionary(self, super_dict, n=5):
+        keys = list(super_dict.keys())
+        import random
+        random_keys = random.sample(keys, n)
+        sub_dict = {}
+        for key in random_keys: sub_dict[key] = super_dict[key]
+            
+        return sub_dict
+    
+    ### Plotting Functions ###
     
     def visualize_player_movement(self, session_mask, title=None, save_only=False, frvrs_logs_df=None, verbose=False):
         """
@@ -827,70 +945,25 @@ class NotebookUtilities(object):
                 title += humanize.intword(column_value) + ')'
             self.visualize_player_movement(base_mask_series, title=title, frvrs_logs_df=frvrs_logs_df)
     
-    def get_coordinates(self, second_point, first_point=None):
+    def get_color_cycler(self, n):
         """
-        Get the coordinates of two 3D points.
-    
-        Parameters
-        ----------
-        second_point : str
-            The coordinates of the second point as a string.
-        first_point : str, optional
-            The coordinates of the first point as a string. If not provided, the default values (0, 0, 0) will be used.
-    
-        Returns
-        -------
-        tuple of float
-            The coordinates of the two points.
-    
+        color_cycler = self.get_color_cycler(len(possible_cause_list))
+        for possible_cause, face_color_dict in zip(possible_cause_list, color_cycler()):
+            face_color = face_color_dict['color']
         """
-        if first_point is None:
-            x1 = 0.0  # The x-coordinate of the first point
-            y1 = 0.0  # The y-coordinate of the first point
-            z1 = 0.0  # The z-coordinate of the first point
+        color_cycler = None
+        from cycler import cycler
+        import numpy as np
+        if n < 9:
+            color_cycler = cycler('color', plt.cm.Accent(np.linspace(0, 1, n)))
+        elif n < 11:
+            color_cycler = cycler('color', plt.cm.tab10(np.linspace(0, 1, n)))
+        elif n < 13:
+            color_cycler = cycler('color', plt.cm.Paired(np.linspace(0, 1, n)))
         else:
-            location_tuple = eval(first_point)
-            x1 = location_tuple[0]  # The x-coordinate of the first point
-            y1 = location_tuple[1]  # The y-coordinate of the first point
-            z1 = location_tuple[2]  # The z-coordinate of the first point
-        location_tuple = eval(second_point)
-        x2 = location_tuple[0]  # The x-coordinate of the second point
-        y2 = location_tuple[1]  # The y-coordinate of the second point
-        z2 = location_tuple[2]  # The z-coordinate of the second point
-    
-        return x1, x2, y1, y2, z1, z2
-    
-    def get_euclidean_distance(self, second_point, first_point=None):
-        """
-        Calculates the Euclidean distance between two 3D points.
-    
-        Returns:
-            float: The Euclidean distance between the two points.
-        """
-        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
-    
-        return math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
-    
-    def get_absolute_position(self, second_point, first_point=None):
-        """
-        Calculates the absolute position of a point relative to another point.
-    
-        Parameters
-        ----------
-        second_point : tuple
-            The coordinates of the second point.
-        first_point : tuple, optional
-            The coordinates of the first point. If not specified,
-            the origin is retrieved from get_coordinates.
-    
-        Returns
-        -------
-        tuple
-            The absolute coordinates of the second point.
-        """
-        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
-    
-        return (round(x1 + x2, 1), round(y1 + y2, 1), round(z1 + z2, 1))
+            color_cycler = cycler('color', plt.cm.tab20(np.linspace(0, 1, n)))
+        
+        return color_cycler
     
     def first_order_linear_scatterplot(self, df, xname, yname,
                                        xlabel_str='Overall Capitalism (explanatory variable)',
@@ -1007,7 +1080,7 @@ class NotebookUtilities(object):
         title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
         
         # Get r squared value
-        inf_nan_mask = self.get_inf_nan_mask(xdata, ydata)
+        inf_nan_mask = self.get_inf_nan_mask(xdata.tolist(), ydata.tolist())
         from scipy.stats import pearsonr
         pearsonr_tuple = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
         pearson_r = pearsonr_tuple[0]
@@ -1022,54 +1095,6 @@ class NotebookUtilities(object):
         text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
         
         return fig
-    
-    def get_inf_nan_mask(self, x_list, y_list):
-        """
-        Returns a mask indicating which elements of x_list and y_list are not inf or nan.
-        
-        Args:
-        x_list: A list of numbers.
-        y_list: A list of numbers.
-        
-        Returns:
-        A numpy array of booleans, where True indicates that the corresponding element
-        of x_list and y_list is not inf or nan.
-        """
-        
-        import numpy as np
-        
-        # Check if the input lists are empty.
-        if not x_list or not y_list: return np.array([], dtype=bool)
-        
-        # Create masks indicating which elements of x_list and y_list are not inf or nan.
-        x_mask = np.logical_and(np.logical_not(np.isinf(x_list)), np.logical_not(np.isnan(x_list)))
-        y_mask = np.logical_and(np.logical_not(np.isinf(y_list)), np.logical_not(np.isnan(y_list)))
-        
-        # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
-        return np.logical_and(x_mask, y_mask)
-    
-    def get_minority_combinations(self, sample_df, groupby_columns):
-        """
-        Get the minority combinations of a DataFrame.
-        
-        Args:
-            sample_df: A Pandas DataFrame.
-            groupby_columns: A list of column names to group by.
-        
-        Returns:
-            A Pandas DataFrame containing a single sample row of each of the four smallest groups.
-        """
-        df = pd.DataFrame([], columns=sample_df.columns)
-        for bool_tuple in sample_df.groupby(groupby_columns).size().sort_values().index.tolist()[:4]:
-            
-            # Filter the name in the column to the corresponding value of the tuple
-            mask_series = True
-            for cn, cv in zip(groupby_columns, bool_tuple): mask_series &= (sample_df[cn] == cv)
-            
-            # Append a random single record from the filtered data frame
-            df = pd.concat([df, sample_df[mask_series].sample(1)], axis='index')
-        
-        return df
     
     def plot_line_with_error_bars(self, df, xname, xlabel, xtick_text_fn, yname, ylabel, ytick_text_fn, title):
         
@@ -1110,10 +1135,10 @@ class NotebookUtilities(object):
             yticklabels_list.append(text_obj)
         ax.set_yticklabels(yticklabels_list);
     
-    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title):
+    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title, ax=None):
         
         # Create the figure and subplot
-        fig, ax = plt.subplots(figsize=(18, 9))
+        if ax is None: fig, ax = plt.subplots(figsize=(18, 9))
         
         # Plot the histogram with centered bars
         df[xname].hist(ax=ax, bins=100, align='mid', edgecolor='black')
