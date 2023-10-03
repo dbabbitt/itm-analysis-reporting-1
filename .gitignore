@@ -31,6 +31,7 @@ saves/pkl/frvrs_logs_df.pkl
 
 # Exclude secrets
 **/json/*_secrets.json
+ipynb/Censor_Audio_Files.ipynb
 
 # Exclude backups
 *.bak
@@ -182,4 +183,3 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
-ipynb/Censor_Audio_Files.ipynb
