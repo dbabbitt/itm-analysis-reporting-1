@@ -333,10 +333,30 @@ class NotebookUtilities(object):
         return(object)
     
     def save_dataframes(self, include_index=False, verbose=True, **kwargs):
+        """
+        Saves dataframes to CSV files.
+
+        Args:
+            include_index: Whether to include the index in the CSV files.
+            verbose: Whether to print information about the saved files.
+            **kwargs: A dictionary of dataframes to save. The keys of the dictionary
+                      are the names of the CSV files to save the dataframes to.
+
+        Returns:
+            None
+        """
+
+        # Iterate over the dataframes in the kwargs dictionary and save them to CSV files
         for frame_name in kwargs:
             if isinstance(kwargs[frame_name], pd.DataFrame):
+                
+                # Generate the path to the CSV file
                 csv_path = osp.join(self.saves_csv_folder, '{}.csv'.format(frame_name))
+
+                # Print a message about the saved file if verbose is True
                 if verbose: print('Saving to {}'.format(osp.abspath(csv_path)), flush=True)
+
+                # Save the dataframe to a CSV file
                 kwargs[frame_name].to_csv(csv_path, sep=',', encoding=self.encoding_type,
                                           index=include_index)
     
@@ -534,44 +554,141 @@ class NotebookUtilities(object):
     ### URL Functions ###
     
     def get_filename_from_url(self, url, verbose=False):
+        """
+        Extracts the filename from a given URL.
+
+        Parameters:
+        -----------
+        url : str
+            The URL from which to extract the filename.
+        verbose : bool, optional
+            If True, print additional information (default is False).
+
+        Returns:
+        --------
+        str
+            The extracted filename from the URL.
+        """
+
+        # Import the urllib module for URL parsing
         import urllib
+
+        # Parse the URL and extract the filename from the path
         file_name = urllib.parse.urlparse(url).path.split('/')[-1]
         
+        # Print verbose information if verbose flag is True
+        if verbose: print(f"Extracted filename from '{url}': '{file_name}'")
+
         return file_name
     
     def download_file(self, url, download_dir=None, exist_ok=False, verbose=False):
-        '''Download a file from the internet'''
+        """
+        Downloads a file from the internet.
+
+        Args:
+            url: The URL of the file to download.
+            download_dir: The directory to download the file to. If None, the file
+                          will be downloaded to the `downloads` subdirectory of the data folder.
+            exist_ok: If True, the function will not raise an error if the file
+                      already exists.
+            verbose: If True, the function will print progress information to the
+                     console.
+
+        Returns:
+            The path to the downloaded file.
+        """
+
+        # Get the file name from the URL
         file_name = self.get_filename_from_url(url, verbose=verbose)
-        if download_dir is None:
-            download_dir = osp.join(self.data_folder, 'downloads')
+
+        # If the download directory is not specified, use the downloads subdirectory
+        if download_dir is None: download_dir = osp.join(self.data_folder, 'downloads')
+
+        # Create the download directory if it does not exist
         os.makedirs(download_dir, exist_ok=True)
+
+        # Compute the path to the downloaded file
         file_path = osp.join(download_dir, file_name)
+
+        # If the file does not exist or if exist_ok is True, download the file
         if exist_ok or (not osp.isfile(file_path)):
             import urllib
             urllib.request.urlretrieve(url, file_path)
     
+        return file_path
+
     def get_page_soup(self, page_url_or_filepath, verbose=True):
+        """
+        Gets the BeautifulSoup soup object for a given page URL or filepath.
+
+        Args:
+            page_url_or_filepath (str): The URL or filepath of the page to get the soup object for.
+            verbose (bool, optional): Whether to print verbose output. Defaults to True.
+
+        Returns:
+            BeautifulSoup: The BeautifulSoup soup object for the given page.
+        """
+
+        # Check if the page URL or filepath is a URL
         match_obj = self.url_regex.search(page_url_or_filepath)
         if match_obj:
+
+            # If the page URL or filepath is a URL, open it using urllib.request.urlopen()
             with urllib.request.urlopen(page_url_or_filepath) as response: page_html = response.read()
+
         else:
+
+            # If the page URL or filepath is not a URL, open it using open()
             with open(page_url_or_filepath, 'r', encoding='utf-8') as f: page_html = f.read()
+
+        # Parse the page HTML using BeautifulSoup
         page_soup = bs(page_html, 'html.parser')
 
+        # If verbose output is enabled, print the page URL or filepath
+        if verbose: print(f'Getting soup object for: {page_url_or_filepath}')
+
+        # Return the page soup object
         return page_soup
     
     def get_wiki_tables(self, tables_url_or_filepath, verbose=True):
+        """
+        Gets a list of DataFrames from Wikipedia tables.
+
+        Args:
+            tables_url_or_filepath: The URL or filepath to the Wikipedia page containing the tables.
+            verbose: Whether to print verbose output.
+
+        Returns:
+            A list of DataFrames containing the data from the Wikipedia tables.
+
+        Raises:
+            Exception: If there is an error getting the Wikipedia page or the tables from the page.
+        """
         table_dfs_list = []
         try:
+
+            # Get the BeautifulSoup object for the Wikipedia page
             page_soup = self.get_page_soup(tables_url_or_filepath, verbose=verbose)
+
+            # Find all the tables on the Wikipedia page
             table_soups_list = page_soup.find_all('table', attrs={'class': 'wikitable'})
+
+            # Recursively get the DataFrames for all the tables on the Wikipedia page
             table_dfs_list = []
             for table_soup in table_soups_list: table_dfs_list += self.get_page_tables(str(table_soup), verbose=False)
-            if verbose: print(sorted([(i, df.shape) for (i, df) in enumerate(table_dfs_list)], key=lambda x: x[1][0]*x[1][1], reverse=True))
-        except Exception as e:
-            if verbose: print(str(e).strip())
-            table_dfs_list = self.get_page_tables(tables_url_or_filepath, verbose=verbose)
 
+            # If verbose is True, print a sorted list of the tables by their number of rows and columns
+            if verbose: print(sorted([(i, df.shape) for (i, df) in enumerate(table_dfs_list)], key=lambda x: x[1][0]*x[1][1], reverse=True))
+
+        except Exception as e:
+
+            # If there is an error, print the error message
+            if verbose: print(str(e).strip())
+
+            # Recursively get the DataFrames for the tables on the Wikipedia page again, but with verbose=False
+            table_dfs_list = self.get_page_tables(tables_url_or_filepath, verbose=False)
+
+        # Return the list of DataFrames
         return table_dfs_list
 
     def get_page_tables(self, tables_url_or_filepath, verbose=True):
