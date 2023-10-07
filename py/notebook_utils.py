@@ -8,6 +8,7 @@
 # Soli Deo gloria
 
 from bs4 import BeautifulSoup as bs
+from datetime import timedelta
 from difflib import SequenceMatcher
 from pathlib import Path
 from typing import List, Optional
@@ -135,6 +136,24 @@ class NotebookUtilities(object):
         """
 
         return SequenceMatcher(None, str(a), str(b)).ratio()
+    
+    def format_timedelta(self, timedelta):
+        """
+        Formats a timedelta object to a string in the format '0, 30, 1 min, 1:30, 2 min, etc'.
+        
+        Args:
+          timedelta: A timedelta object.
+        
+        Returns:
+          A string in the format '0, 30, 1 min, 1:30, 2 min, etc'.
+        """
+        seconds = timedelta.total_seconds()
+        minutes = int(seconds // 60)
+        seconds = int(seconds % 60)
+        
+        if minutes == 0: return str(seconds)
+        elif seconds > 0: return f'{minutes}:{seconds:02}'
+        else: return f'{minutes} min'
 
     ### List Functions ###
     
@@ -884,6 +903,27 @@ class NotebookUtilities(object):
             if verbose:
                 for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
     
+    def get_statistics(self, columns_list, describable_df):
+        df = describable_df.describe().rename(index={'std': 'SD'})
+        
+        # Append the mode row dictionary to the df DataFrame
+        row_dict = {cn: describable_df[cn].mode().tolist()[0] for cn in columns_list}
+        df = df.append(pd.Series(row_dict, name='mode'), ignore_index=False)
+        
+        # Append the median row dictionary to the df DataFrame
+        row_dict = {cn: describable_df[cn].median() for cn in columns_list}
+        df = df.append(pd.Series(row_dict, name='median'), ignore_index=False)
+        
+        index_list = ['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
+        mask_series = df.index.isin(index_list)
+        
+        return df[mask_series].reindex(index_list)
+    
+    def show_time_statistics(self, columns_list, describable_df):
+        df = self.get_statistics(columns_list, describable_df).applymap(lambda x: self.format_timedelta(timedelta(milliseconds=int(x))), na_action='ignore').T
+        df.SD = df.SD.map(lambda x: '±' + str(x))
+        display(df)
+    
     ### 3D Point Functions ###
     
     def get_coordinates(self, second_point, first_point=None):
@@ -1151,7 +1191,6 @@ class NotebookUtilities(object):
                 column_value = df1[sorting_column].max()
             if verbose: display(column_value)
             if (humanize_type == 'precisedelta'):
-                from datetime import timedelta
                 title += humanize.precisedelta(timedelta(milliseconds=column_value)) + ')'
             elif (humanize_type == 'percentage'):
                 title += str(100 * column_value) + '%)'
@@ -1349,7 +1388,23 @@ class NotebookUtilities(object):
             yticklabels_list.append(text_obj)
         ax.set_yticklabels(yticklabels_list);
     
-    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title, ax=None):
+    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title, ylabel=None, xticks_are_temporal=False, ax=None):
+        """
+        Plots a histogram of a DataFrame column.
+        
+        Args:
+            df: A Pandas DataFrame.
+            xname: The name of the column to plot the histogram of.
+            xlabel: The label for the x-axis.
+            xtick_text_fn: A function that takes a text object as input and returns a new
+            text object to be used as the tick label.
+            title: The title of the plot.
+            ylabel: The label for the y-axis.
+            ax: A matplotlib axis object. If None, a new figure and axis will be created.
+        
+        Returns:
+            A matplotlib axis object.
+        """
         
         # Create the figure and subplot
         if ax is None: fig, ax = plt.subplots(figsize=(18, 9))
@@ -1357,26 +1412,49 @@ class NotebookUtilities(object):
         # Plot the histogram with centered bars
         df[xname].hist(ax=ax, bins=100, align='mid', edgecolor='black')
         
-        # Set the title and labels
+        # Set the grid, title and labels
+        plt.grid(False)
         ax.set_title(title)
         ax.set_xlabel(xlabel)
-        ax.set_ylabel('Count of Instances in Bin')
+        if ylabel is None: ylabel = 'Count of Instances in Bin'
+        ax.set_ylabel(ylabel)
+
+        if xticks_are_temporal:
+        
+            # Set the minor x-axis tick labels to every 30 seconds
+            thirty_seconds = 1_000 * 30
+            minor_ticks = np.arange(0, df[xname].max() + thirty_seconds, thirty_seconds)
+            ax.set_xticks(minor_ticks, minor=True)
+            
+            # Set the major x-axis tick labels to every 5 minutes
+            if (len(minor_ticks) > 84):
+                five_minutes = 1_000 * 60 * 5
+                major_ticks = np.arange(0, df[xname].max() + five_minutes, five_minutes)
+                ax.set_xticks(major_ticks)
+            
+            # Set the major x-axis tick labels to every 60 seconds
+            else:
+                sixty_seconds = 1_000 * 60
+                major_ticks = np.arange(0, df[xname].max() + sixty_seconds, sixty_seconds)
+                ax.set_xticks(major_ticks)
         
         # Humanize x tick labels
         xticklabels_list = []
         for text_obj in ax.get_xticklabels():
+            
+            # Call the xtick text function to convert numerical values into minutes and seconds format
             text_obj.set_text(xtick_text_fn(text_obj))
+            
             xticklabels_list.append(text_obj)
-        ax.set_xticklabels(xticklabels_list)
+        # print(len(xticklabels_list))
+        if (len(xticklabels_list) > 17): ax.set_xticklabels(xticklabels_list, rotation=90)
+        else: ax.set_xticklabels(xticklabels_list)
         
         # Humanize y tick labels
         yticklabels_list = []
         for text_obj in ax.get_yticklabels():
-            text_obj.set_text(
-                humanize.intword(int(text_obj.get_position()[1]))
-            )
+            text_obj.set_text(humanize.intword(int(text_obj.get_position()[1])))
             yticklabels_list.append(text_obj)
         ax.set_yticklabels(yticklabels_list)
         
-        # Turn the grid off
-        plt.grid(False);
+        return ax
