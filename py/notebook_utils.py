@@ -9,7 +9,6 @@
 
 from bs4 import BeautifulSoup as bs
 from datetime import timedelta
-from difflib import SequenceMatcher
 from pathlib import Path
 from typing import List, Optional
 from urllib.request import urlretrieve
@@ -110,7 +109,9 @@ class NotebookUtilities(object):
         
         # Determine URL from file path
         self.url_regex = re.compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', re.IGNORECASE)
-        self.filepath_regex = re.compile(r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])', re.IGNORECASE)
+        self.filepath_regex = re.compile(
+            r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])', re.IGNORECASE
+        )
         
         # Various aspect ratios
         self.facebook_aspect_ratio = 1.91
@@ -118,7 +119,7 @@ class NotebookUtilities(object):
 
     ### String Functions ###
     
-    def similar(self, a: str, b: str) -> float:
+    def compute_similarity(self, a: str, b: str) -> float:
         """
         Compute the similarity between two strings.
 
@@ -134,6 +135,7 @@ class NotebookUtilities(object):
         float
             The similarity between the two strings, as a float between 0 and 1.
         """
+        from difflib import SequenceMatcher
 
         return SequenceMatcher(None, str(a), str(b)).ratio()
     
@@ -158,8 +160,31 @@ class NotebookUtilities(object):
     ### List Functions ###
     
     def conjunctify_nouns(self, noun_list, and_or='and', verbose=False):
+        """
+        Concatenates a list of nouns into a grammatically correct string with specified conjunctions.
+        
+        Parameters:
+            noun_list (list or str): A list of nouns to be concatenated.
+            and_or (str, optional): The conjunction used to join the nouns. Default is 'and'.
+            verbose (bool, optional): If True, prints verbose output. Default is False.
+        
+        Returns:
+            str: A string containing the concatenated nouns with appropriate conjunctions.
+        
+        Example:
+            noun_list = ['apples', 'oranges', 'bananas']
+            conjunction = 'and'
+            result = conjunctify_nouns(noun_list, and_or=conjunction)
+            print(result)
+            Output: 'apples, oranges, and bananas'
+        """
+        
+        # Handle special cases where noun_list is None or not a list
         if (noun_list is None): return ''
         if (type(noun_list) != list): noun_list = list(noun_list)
+        
+        # If there are more than two nouns in the list, join the last two nouns with `and_or`
+        # Otherwise, join all of the nouns with `and_or`
         if (len(noun_list) > 2):
             last_noun_str = noun_list[-1]
             but_last_nouns_str = ', '.join(noun_list[:-1])
@@ -168,7 +193,12 @@ class NotebookUtilities(object):
         elif (len(noun_list) == 1): list_str = noun_list[0]
         else: list_str = ''
         
+        # Print verbose output if requested
+        if verbose: print(f'Conjunctified noun list: {list_str}')
+        
+        # Return the conjuncted noun list
         return list_str
+
 
     def check_4_doubles(self, item_list, verbose=False):
         if verbose: t0 = time.time()
@@ -182,7 +212,7 @@ class NotebookUtilities(object):
                 second_item = item_list[j]
 
                 # Assume the first item is never identical to the second item
-                this_similarity = self.similar(str(first_item), str(second_item))
+                this_similarity = self.compute_similarity(str(first_item), str(second_item))
 
                 if this_similarity > max_similarity:
                     max_similarity = this_similarity
