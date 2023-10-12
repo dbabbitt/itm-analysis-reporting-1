@@ -254,7 +254,7 @@ class NotebookUtilities(object):
 
         return osp.isfile(pickle_path)
 
-    def load_dataframes(self, **kwargs):
+    def load_data_frames(self, **kwargs):
         frame_dict = {}
         for frame_name in kwargs:
             pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(frame_name))
@@ -332,21 +332,21 @@ class NotebookUtilities(object):
 
         return(object)
     
-    def save_dataframes(self, include_index=False, verbose=True, **kwargs):
+    def save_data_frames(self, include_index=False, verbose=True, **kwargs):
         """
-        Saves dataframes to CSV files.
+        Saves data frames to CSV files.
 
         Args:
             include_index: Whether to include the index in the CSV files.
             verbose: Whether to print information about the saved files.
-            **kwargs: A dictionary of dataframes to save. The keys of the dictionary
-                      are the names of the CSV files to save the dataframes to.
+            **kwargs: A dictionary of data frames to save. The keys of the dictionary
+                      are the names of the CSV files to save the data frames to.
 
         Returns:
             None
         """
 
-        # Iterate over the dataframes in the kwargs dictionary and save them to CSV files
+        # Iterate over the data frames in the kwargs dictionary and save them to CSV files
         for frame_name in kwargs:
             if isinstance(kwargs[frame_name], pd.DataFrame):
                 
@@ -356,7 +356,7 @@ class NotebookUtilities(object):
                 # Print a message about the saved file if verbose is True
                 if verbose: print('Saving to {}'.format(osp.abspath(csv_path)), flush=True)
 
-                # Save the dataframe to a CSV file
+                # Save the data frame to a CSV file
                 kwargs[frame_name].to_csv(csv_path, sep=',', encoding=self.encoding_type,
                                           index=include_index)
     
@@ -1388,7 +1388,7 @@ class NotebookUtilities(object):
             yticklabels_list.append(text_obj)
         ax.set_yticklabels(yticklabels_list);
     
-    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title, ylabel=None, xticks_are_temporal=False, ax=None):
+    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title, ylabel=None, xticks_are_temporal=False, ax=None, color=None, bins=100):
         """
         Plots a histogram of a DataFrame column.
         
@@ -1410,7 +1410,7 @@ class NotebookUtilities(object):
         if ax is None: fig, ax = plt.subplots(figsize=(18, 9))
         
         # Plot the histogram with centered bars
-        df[xname].hist(ax=ax, bins=100, align='mid', edgecolor='black')
+        df[xname].hist(ax=ax, bins=bins, align='mid', edgecolor='black', color=color)
         
         # Set the grid, title and labels
         plt.grid(False)

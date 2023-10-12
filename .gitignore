@@ -28,6 +28,8 @@ saves/csv/frvrs_logs_df.csv
 saves/pkl/all_transactions_itemsets_df.pkl
 saves/pkl/clean_csvs_df.pkl
 saves/pkl/frvrs_logs_df.pkl
+saves/pkl/one_hot_encode_df.pkl
+saves/pkl/patient_history_df.pkl
 
 # Exclude secrets
 **/json/*_secrets.json
@@ -183,4 +185,3 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
-saves/pkl/patient_history_df.pkl
