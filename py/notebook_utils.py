@@ -238,6 +238,85 @@ class NotebookUtilities(object):
 
         return item_similarities_df
 
+    ### File Functions ###
+    
+    def get_file_path(self, func):
+        """
+        Returns the relative or absolute file path where the function is stored.
+
+        Args:
+            func: A Python function.
+
+        Returns:
+            A string representing the relative or absolute file path where the function is stored.
+
+        Example:
+            def my_function(): pass
+            file_path = nu.get_file_path(my_function)
+            print(os.path.abspath(file_path))
+        """
+        import inspect
+        file_path = inspect.getfile(func)
+
+        # If the function is defined in a Jupyter notebook, return the absolute file path
+        if file_path.startswith('<stdin>'): return os.path.abspath(file_path)
+
+        # Otherwise, return the relative file path
+        else: return os.path.relpath(file_path)
+    
+    def show_duplicated_util_fns_search_string(self, util_path=None, github_folder=None):
+        """
+        Search for duplicate utility function definitions in Jupyter notebooks within a specified GitHub repository folder.
+        The function identifies rogue utility function definitions in Jupyter notebooks and prints a regular expression
+        pattern to search for instances of these definitions. The intention is to replace these calls with the
+        corresponding `nu.` equivalent and remove the duplicates.
+
+        Parameters:
+            util_path (str, optional): The path to the utilities file to check for existing utility function definitions.
+                                       Defaults to `../py/notebook_utils.py`.
+            github_folder (str, optional): The path of the root folder of the GitHub repository containing the notebooks.
+                                           Defaults to the parent directory of the current working directory.
+
+        Returns:
+            None: The function prints the regular expression pattern to identify rogue utility function definitions.
+        """
+
+        # Get a list of rogue functions already in utilities file
+        if util_path is None: util_path = '../py/notebook_utils.py'
+        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
+        with open(util_path, 'r', encoding='utf-8') as f:
+            lines_list = f.readlines()
+            utils_set = set()
+            for line in lines_list:
+                match_obj = utils_regex.search(line)
+                if match_obj:
+                    scraping_util = match_obj.group(1)
+                    utils_set.add(scraping_util)
+
+        # Make a set of rogue util functions
+        fn_regex = re.compile(r'\s+"def ([a-z0-9_]+)\(')
+        black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
+        rows_list = []
+        if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
+        rogue_fns_set = set()
+        for sub_directory, directories_list, files_list in os.walk(github_folder):
+            if all(map(lambda x: x not in sub_directory, black_list)):
+                for file_name in files_list:
+                    if file_name.endswith('.ipynb'):
+                        file_path = osp.join(sub_directory, file_name)
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            lines_list = f.readlines()
+                            for line in lines_list:
+                                match_obj = fn_regex.search(line)
+                                if match_obj:
+                                    fn = match_obj.group(1)
+                                    if fn in utils_set: rogue_fns_set.add(fn)
+        
+        if rogue_fns_set:
+            print(f'Search for *.ipynb; file masks in the {github_folder} folder for this pattern:')
+            print('\\s+"def (' + '|'.join(rogue_fns_set) + ')\(')
+            print('Replace each of the calls to these definitions with calls the the nu. equivalent (and delete the definitions).')
+
     ### Storage Functions ###
 
     def csv_exists(self, csv_name, folder_path=None, verbose=False):
@@ -581,7 +660,7 @@ class NotebookUtilities(object):
                 for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
             self.update_modules_list(verbose=verbose)
     
-    ### URL Functions ###
+    ### URL and Soup Functions ###
     
     def get_filename_from_url(self, url, verbose=False):
         """
