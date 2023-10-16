@@ -141,13 +141,13 @@ class NotebookUtilities(object):
     
     def format_timedelta(self, timedelta):
         """
-        Formats a timedelta object to a string in the format '0, 30, 1 min, 1:30, 2 min, etc'.
+        Formats a timedelta object to a string in the format '0', '30', '1 min', '1:30', '2 min', etc.
         
         Args:
           timedelta: A timedelta object.
         
         Returns:
-          A string in the format '0, 30, 1 min, 1:30, 2 min, etc'.
+          A string in the format '0', '30', '1 min', '1:30', '2 min', etc.
         """
         seconds = timedelta.total_seconds()
         minutes = int(seconds // 60)
