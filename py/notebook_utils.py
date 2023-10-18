@@ -984,6 +984,55 @@ class NotebookUtilities(object):
         
         # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
         return np.logical_and(x_mask, y_mask)
+
+    def get_statistics(self, describable_df, columns_list):
+        df = describable_df.describe().rename(index={'std': 'SD'})
+        
+        if ('mode' not in df.index):
+            
+            # Create the mode row dictionary
+            row_dict = {cn: describable_df[cn].mode().tolist()[0] for cn in columns_list}
+            
+            # Convert the row dictionary to a data frame to match the df structure
+            row_df = pd.DataFrame([row_dict], index=['mode'])
+            
+            # Append the row data frame to the df data frame
+            df = pd.concat([df, row_df], axis='index', ignore_index=False)
+        
+        if ('median' not in df.index):
+            
+            # Create the median row dictionary
+            row_dict = {cn: describable_df[cn].median() for cn in columns_list}
+            
+            # Convert the row dictionary to a data frame to match the df structure
+            row_df = pd.DataFrame([row_dict], index=['median'])
+            
+            # Append the row data frame to the df data frame
+            df = pd.concat([df, row_df], axis='index', ignore_index=False)
+        
+        index_list = ['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
+        mask_series = df.index.isin(index_list)
+        
+        return df[mask_series].reindex(index_list)
+    
+    def show_time_statistics(self, describable_df, columns_list):
+        df = self.get_statistics(describable_df, columns_list).applymap(lambda x: self.format_timedelta(timedelta(milliseconds=int(x))), na_action='ignore').T
+        df.SD = df.SD.map(lambda x: '±' + str(x))
+        display(df)
+    
+    def modalize_columns(self, frvrs_logs_df, columns_list, new_column_):
+        columns_list= [
+            'injury_record_id', 'injury_treated_id'
+        ]
+        mask_series = (frvrs_logs_df[columns_list].apply(pd.Series.nunique, axis='columns') == 1)
+        frvrs_logs_df.loc[~mask_series, 'injury_id'] = np.nan
+        def f(srs):
+            cn = srs.first_valid_index()
+            
+            return srs[cn]
+        frvrs_logs_df.loc[mask_series, 'injury_id'] = frvrs_logs_df[mask_series][columns_list].apply(f, axis='columns')
+    
+        return frvrs_logs_df
     
     ### LLM Functions ###
     
@@ -1011,27 +1060,6 @@ class NotebookUtilities(object):
             output_str = subprocess.check_output(command_str.split(' '))
             if verbose:
                 for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
-    
-    def get_statistics(self, columns_list, describable_df):
-        df = describable_df.describe().rename(index={'std': 'SD'})
-        
-        # Append the mode row dictionary to the df DataFrame
-        row_dict = {cn: describable_df[cn].mode().tolist()[0] for cn in columns_list}
-        df = df.append(pd.Series(row_dict, name='mode'), ignore_index=False)
-        
-        # Append the median row dictionary to the df DataFrame
-        row_dict = {cn: describable_df[cn].median() for cn in columns_list}
-        df = df.append(pd.Series(row_dict, name='median'), ignore_index=False)
-        
-        index_list = ['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
-        mask_series = df.index.isin(index_list)
-        
-        return df[mask_series].reindex(index_list)
-    
-    def show_time_statistics(self, columns_list, describable_df):
-        df = self.get_statistics(columns_list, describable_df).applymap(lambda x: self.format_timedelta(timedelta(milliseconds=int(x))), na_action='ignore').T
-        df.SD = df.SD.map(lambda x: '±' + str(x))
-        display(df)
     
     ### 3D Point Functions ###
     
@@ -1567,3 +1595,45 @@ class NotebookUtilities(object):
         ax.set_yticklabels(yticklabels_list)
         
         return ax
+    
+    def plot_grouped_box_and_whiskers(self, transformable_df, x_column_name, y_column_name, x_label, y_label, transformer_name='min', is_y_temporal=True):    
+        import seaborn as sns
+        
+        # Get the transformed data frame
+        if transformer_name is None: transformed_df = transformable_df
+        else:
+            groupby_columns = ['session_uuid', 'scene_index']
+            transformed_df = transformable_df.groupby(groupby_columns).filter(
+                lambda df: not df[y_column_name].isnull().any()
+            ).groupby(groupby_columns).transform(transformer_name).reset_index(drop=False).sort_values(y_column_name)
+        
+        # Create a figure and subplots
+        fig, ax = plt.subplots(1, 1, figsize=(9, 9))
+        
+        # Create a box plot of the y column grouped by the x column
+        sns.boxplot(
+            x=x_column_name,
+            y=y_column_name,
+            showmeans=True,
+            data=transformed_df,
+            ax=ax
+        )
+        
+        # Rotate the x-axis labels to prevent overlapping
+        plt.xticks(rotation=45)
+        
+        # Label the x- and y-axis
+        ax.set_xlabel(x_label)
+        ax.set_ylabel(y_label)
+        
+        # Humanize y tick labels
+        if is_y_temporal:
+            yticklabels_list = []
+            for text_obj in ax.get_yticklabels():
+                text_obj.set_text(
+                    humanize.precisedelta(timedelta(milliseconds=text_obj.get_position()[1])).replace(', ', ',\n').replace(' and ', ' and\n')
+                )
+                yticklabels_list.append(text_obj)
+            ax.set_yticklabels(yticklabels_list);
+        
+        plt.show()
