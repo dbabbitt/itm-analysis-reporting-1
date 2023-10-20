@@ -24,7 +24,7 @@ saves/rename/
 # Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
 # push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
 # Git Large File Storage (Git LFS) as part of your workflow.
-saves/csv/frvrs_logs_df.csv
+*_df.csv
 saves/pkl/all_transactions_itemsets_df.pkl
 saves/pkl/clean_csvs_df.pkl
 saves/pkl/frvrs_logs_df.pkl

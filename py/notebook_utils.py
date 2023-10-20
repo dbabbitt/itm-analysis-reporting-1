@@ -10,6 +10,7 @@
 from bs4 import BeautifulSoup as bs
 from datetime import timedelta
 from pathlib import Path
+from pysan.elements import get_alphabet
 from typing import List, Optional
 from urllib.request import urlretrieve
 import csv
@@ -116,6 +117,24 @@ class NotebookUtilities(object):
         # Various aspect ratios
         self.facebook_aspect_ratio = 1.91
         self.twitter_aspect_ratio = 16/9
+
+        # FRVRS log constants
+        
+        # List of action types to consider as user actions
+        self.action_types_list = [
+            'TELEPORT', 'S_A_L_T_WALK_IF_CAN', 'S_A_L_T_WAVE_IF_CAN', 'PATIENT_ENGAGED', 'PULSE_TAKEN', 'BAG_ACCESS',
+            'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
+            'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
+        ]
+
+        # List of command messages to consider as user actions
+        self.command_messages_list = [
+            'walk to the safe area', 'wave if you can', 'are you hurt', 'reveal injury', 'lay down', 'where are you',
+            'can you hear', 'anywhere else', 'what is your name', 'hold still', 'sit up/down', 'stand up'
+        ]
+
+        # List of action types that assume 1-to-1 interaction
+        self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED', 'PLAYER_GAZE']
 
     ### String Functions ###
     
@@ -238,6 +257,33 @@ class NotebookUtilities(object):
 
         return item_similarities_df
 
+
+    def convert_strings_to_integers(self, sequence, alphabet_list=None):
+        '''
+        Converts a sequence of strings to a sequence of integers.
+        
+        Args:
+            sequence: A sequence of strings.
+            alphabet_list: A list of the unique elements of sequence.
+        
+        Returns:
+            A sequence of integers.
+            A string to integer map as dictionary.
+        '''
+        if alphabet_list is None: alphabet_list = list(get_alphabet(sequence))
+        
+        # Create a dictionary to map strings to integers
+        string_to_integer_map = {}
+    
+        # Create a new integer array with the same length as sequence but with no elements in it
+        new_sequence = np.zeros_like(sequence, dtype=int)
+        
+        for i, string in enumerate(sequence):
+            if string not in string_to_integer_map: string_to_integer_map[string] = alphabet_list.index(string)
+            new_sequence[i] = string_to_integer_map[string]
+        
+        return new_sequence.astype(int), string_to_integer_map
+
     ### File Functions ###
     
     def get_file_path(self, func):
@@ -316,6 +362,21 @@ class NotebookUtilities(object):
             print(f'Search for *.ipynb; file masks in the {github_folder} folder for this pattern:')
             print('\\s+"def (' + '|'.join(rogue_fns_set) + ')\(')
             print('Replace each of the calls to these definitions with calls the the nu. equivalent (and delete the definitions).')
+
+    def get_new_file_name(self, old_file_name):
+        from datetime import datetime
+        old_file_path = '../data/logs/' + old_file_name
+        with open(old_file_path, 'r') as f:
+            reader = csv.reader(f, delimiter=',', quotechar='"')
+            for values_list in reader:
+                date_str = values_list[2]
+                break
+            try: date_obj = datetime.strptime(date_str, '%m/%d/%Y %H:%M')
+            except ValueError: date_obj = datetime.strptime(date_str, '%m/%d/%Y %I:%M:%S %p')
+            new_file_name = date_obj.strftime('%y.%m.%d.%H%M.csv')
+            new_file_path = old_file_name.replace(old_file_name.split('/')[-1], new_file_name)
+    
+            return new_file_path
 
     ### Storage Functions ###
 
@@ -986,7 +1047,7 @@ class NotebookUtilities(object):
         return np.logical_and(x_mask, y_mask)
 
     def get_statistics(self, describable_df, columns_list):
-        df = describable_df.describe().rename(index={'std': 'SD'})
+        df = describable_df[columns_list].describe().rename(index={'std': 'SD'})
         
         if ('mode' not in df.index):
             
@@ -1020,19 +1081,16 @@ class NotebookUtilities(object):
         df.SD = df.SD.map(lambda x: '±' + str(x))
         display(df)
     
-    def modalize_columns(self, frvrs_logs_df, columns_list, new_column_):
-        columns_list= [
-            'injury_record_id', 'injury_treated_id'
-        ]
-        mask_series = (frvrs_logs_df[columns_list].apply(pd.Series.nunique, axis='columns') == 1)
-        frvrs_logs_df.loc[~mask_series, 'injury_id'] = np.nan
+    def modalize_columns(self, df, columns_list, new_column):
+        mask_series = (df[columns_list].apply(pd.Series.nunique, axis='columns') == 1)
+        df.loc[~mask_series, new_column] = np.nan
         def f(srs):
             cn = srs.first_valid_index()
             
             return srs[cn]
-        frvrs_logs_df.loc[mask_series, 'injury_id'] = frvrs_logs_df[mask_series][columns_list].apply(f, axis='columns')
+        df.loc[mask_series, new_column] = df[mask_series][columns_list].apply(f, axis='columns')
     
-        return frvrs_logs_df
+        return df
     
     ### LLM Functions ###
     
@@ -1203,7 +1261,7 @@ class NotebookUtilities(object):
     
             # Turn off interactive plotting if saving to a file
             if save_only: plt.ioff()
-    
+            
             # Create a figure and add a subplot
             fig, ax = plt.subplots(figsize=(18, 9))
             
@@ -1637,3 +1695,72 @@ class NotebookUtilities(object):
             ax.set_yticklabels(yticklabels_list);
         
         plt.show()
+    
+    def plot_sequence(self, sequence, highlighted_ngrams=[], suptitle=None, verbose=False):
+        '''
+        Creates a standard sequence plot where each element corresponds to a position on the y-axis.
+        The optional highlighted_ngrams parameter can be one or more n-grams to be outlined in a red box.
+        '''
+        # from pysan.core import plot_sequence
+        np_sequence = np.array(sequence)
+        alphabet_list = list(get_alphabet(np_sequence.tolist()+highlighted_ngrams))
+        alphabet_len = len(alphabet_list)
+        int_sequence, _ = self.convert_strings_to_integers(np_sequence)
+        _, string_to_integer_map = self.convert_strings_to_integers(sequence+highlighted_ngrams)
+        if (np_sequence.dtype.str not in ['<U21', '<U11']): int_sequence = np_sequence
+    
+        fig = plt.figure(figsize=[len(sequence)*0.3, alphabet_len * 0.3])
+        
+        # Force the xticks to land on integers only
+        plt.xticks(range(len(sequence)), range(len(sequence)), minor=False)
+        
+        # Extend the edges of the plot
+        plt.xlim([-0.5, len(sequence)-0.5])
+    
+        for i, value in enumerate(alphabet_list):
+            if verbose: print(i, value)
+            points = np.where(np_sequence == value, i, np.nan)
+            if verbose: print(range(len(np_sequence)))
+            if verbose: print(points)
+            plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35)
+    
+        plt.yticks(range(alphabet_len), [value for value in alphabet_list])
+        plt.ylim(-1, alphabet_len)
+    
+        # highlight any of the n-grams given
+        if highlighted_ngrams != []:
+            if verbose: display(highlighted_ngrams)
+    
+            def highlight_ngram(ngram):
+                if verbose: display(ngram)
+                n = len(ngram)
+                match_positions = []
+                for x in range(len(int_sequence) -  n + 1):
+                    this_ngram = list(int_sequence[x:x + n])
+                    if verbose: print(str(this_ngram), str(ngram))
+                    if str(this_ngram) == str(ngram): match_positions.append(x)
+    
+                for position in match_positions:
+                    bot = min(ngram) - 0.5
+                    top = max(ngram) + 0.5
+                    left = position - 0.5
+                    right = left + n
+    
+                    line_width = 1
+                    plt.plot([left,right], [bot,bot], color='red', linewidth=line_width)
+                    plt.plot([left,right], [top,top], color='red', linewidth=line_width)
+                    plt.plot([left,left], [bot,top], color='red', linewidth=line_width)
+                    plt.plot([right,right], [bot,top], color='red', linewidth=line_width)
+    
+            # check if only one n-gram has been supplied
+            if type(highlighted_ngrams[0]) is str: highlight_ngram([string_to_integer_map[x] for x in highlighted_ngrams])
+            elif type(highlighted_ngrams[0]) is int: highlight_ngram(highlighted_ngrams)
+    
+            # multiple n-gram's found
+            else:
+                for ngram in highlighted_ngrams:
+                    if type(ngram[0]) is str: highlight_ngram([string_to_integer_map[x] for x in highlighted_ngrams])
+        
+        if suptitle is not None: fig.suptitle(suptitle, y=1.2)
+        
+        return fig
