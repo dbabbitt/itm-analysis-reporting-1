@@ -136,6 +136,62 @@ class NotebookUtilities(object):
         # List of action types that assume 1-to-1 interaction
         self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED', 'PLAYER_GAZE']
 
+    def count_ngrams(self, actions_list, highlighted_ngrams):
+        '''
+        Counts how many times a given sequence of elements occurs in a list.
+        
+        Args:
+            actions_list: A list of elements.
+            highlighted_ngrams: A sequence of elements to count.
+        
+        Returns:
+            The number of times the given sequence of elements occurs in the list.
+        '''
+        count = 0
+        for i in range(len(actions_list) - len(highlighted_ngrams) + 1):
+            if (actions_list[i:i + len(highlighted_ngrams)] == highlighted_ngrams): count += 1
+            
+        return count
+    
+    def get_sequences_by_count(self, tg_dict, count=4):
+        
+        # Count the lengths of sequences in the dictionary to convert the sequence lengths list
+        # into a pandas series to get the value counts of unique sequence lengths
+        value_counts = pd.Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
+        
+        # Filter value counts to show only counts of count to get the desired sequence length of exactly count sequences from the dictionary
+        value_counts_list = value_counts[value_counts == count].index.tolist()
+        assert value_counts_list, f"You don't have exactly {count} sequences of the same length in the dictionary"
+        sequences = [
+            actions_list for actions_list in tg_dict.values() if (len(actions_list) == value_counts_list[0])
+        ]
+    
+        return sequences
+    
+    def get_shape(self, list_of_lists):
+        '''
+        Returns the shape of a list of lists, assuming the sublists are all of the same length.
+        
+        Args:
+            list_of_lists: A list of lists.
+        
+        Returns:
+            A tuple representing the shape of the list of lists.
+        '''
+        
+        # Check if the list of lists is empty.
+        if not list_of_lists: return ()
+        
+        # Get the length of the first sublist.
+        num_cols = len(list_of_lists[0])
+        
+        # Check if all of the sublists are the same length.
+        for sublist in list_of_lists:
+            if len(sublist) != num_cols: raise ValueError('All of the sublists must be the same length.')
+        
+        # Return a tuple representing the shape of the list of lists.
+        return (len(list_of_lists), num_cols)
+
     ### String Functions ###
     
     def compute_similarity(self, a: str, b: str) -> float:
@@ -1696,19 +1752,46 @@ class NotebookUtilities(object):
         
         plt.show()
     
-    def plot_sequence(self, sequence, highlighted_ngrams=[], suptitle=None, verbose=False):
+    def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, verbose=False):
         '''
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
         The optional highlighted_ngrams parameter can be one or more n-grams to be outlined in a red box.
+        
+        Args:
+            sequence: A list of strings or integers representing the sequence to plot.
+            highlighted_ngrams: A list of n-grams to be outlined in a red box.
+            color_dict: An optional dictionary whose keys are the alphabet list and whose values are
+                        a single color format string to allow consistent visualization between calls.
+            suptitle: An optional title for the plot.
+            verbose: A boolean indicating whether to print verbose output.
+        
+        Returns:
+            A matplotlib figure object.
         '''
-        # from pysan.core import plot_sequence
-        np_sequence = np.array(sequence)
-        alphabet_list = list(get_alphabet(np_sequence.tolist()+highlighted_ngrams))
-        alphabet_len = len(alphabet_list)
-        int_sequence, _ = self.convert_strings_to_integers(np_sequence)
-        _, string_to_integer_map = self.convert_strings_to_integers(sequence+highlighted_ngrams)
-        if (np_sequence.dtype.str not in ['<U21', '<U11']): int_sequence = np_sequence
     
+        # Convert the sequence to a NumPy array
+        np_sequence = np.array(sequence)
+        
+        # Get the unique characters in the sequence and potentially use them to set up the color dictionary
+        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list): alphabet_list = list(get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
+        else: alphabet_list = list(get_alphabet(sequence+highlighted_ngrams))
+        if color_dict is None: color_dict = {a: None for a in alphabet_list}
+        
+        # Get the length of the alphabet
+        alphabet_len = len(alphabet_list)
+        
+        # Convert the sequence to integers
+        int_sequence, _ = self.convert_strings_to_integers(np_sequence)
+        
+        # Create a string-to-integer map
+        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list):
+            _, string_to_integer_map = self.convert_strings_to_integers(sequence+[el for sublist in highlighted_ngrams for el in sublist])
+        else: _, string_to_integer_map = self.convert_strings_to_integers(sequence+highlighted_ngrams)
+        
+        # If the sequence is not already in integer format, convert it
+        if (np_sequence.dtype.str not in ['<U21', '<U11']): int_sequence = np_sequence
+        
+        # Create a figure
         fig = plt.figure(figsize=[len(sequence)*0.3, alphabet_len * 0.3])
         
         # Force the xticks to land on integers only
@@ -1716,36 +1799,65 @@ class NotebookUtilities(object):
         
         # Extend the edges of the plot
         plt.xlim([-0.5, len(sequence)-0.5])
-    
+        
+        # Iterate over the alphabet and plot the points for each character
         for i, value in enumerate(alphabet_list):
+            
+            # Print verbose output if requested
             if verbose: print(i, value)
+            
+            # Get the positions of the current character in the sequence
             points = np.where(np_sequence == value, i, np.nan)
+            
+            # Print verbose output if requested
             if verbose: print(range(len(np_sequence)))
             if verbose: print(points)
-            plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35)
-    
+            
+            # Plot the points
+            plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35, color=color_dict[value])
+            if verbose:
+                color_cycle = plt.rcParams['axes.prop_cycle']
+                print('\nPrinting the colors in the color cycle:')
+                for color in color_cycle: print(color)
+                print()
+        
+        # Set the yticks
         plt.yticks(range(alphabet_len), [value for value in alphabet_list])
+        
+        # Set the y limits
         plt.ylim(-1, alphabet_len)
-    
-        # highlight any of the n-grams given
+        
+        # Highlight any of the n-grams given
         if highlighted_ngrams != []:
+            
+            # Print verbose output if requested
             if verbose: display(highlighted_ngrams)
-    
+            
             def highlight_ngram(ngram):
+                
+                # Print verbose output if requested
                 if verbose: display(ngram)
+                
+                # Get the length of the n-gram
                 n = len(ngram)
+                
+                # Find all matches of the n-gram in the sequence
                 match_positions = []
-                for x in range(len(int_sequence) -  n + 1):
+                for x in range(len(int_sequence) - n + 1):
                     this_ngram = list(int_sequence[x:x + n])
+                    
+                    # Print verbose output if requested
                     if verbose: print(str(this_ngram), str(ngram))
+                    
                     if str(this_ngram) == str(ngram): match_positions.append(x)
-    
+                
+                # Draw a red box around each match
                 for position in match_positions:
                     bot = min(ngram) - 0.5
                     top = max(ngram) + 0.5
-                    left = position - 0.5
-                    right = left + n
-    
+                    left = position - 0.25
+                    right = left + n - 0.5
+                    
                     line_width = 1
                     plt.plot([left,right], [bot,bot], color='red', linewidth=line_width)
                     plt.plot([left,right], [top,top], color='red', linewidth=line_width)
@@ -1759,7 +1871,7 @@ class NotebookUtilities(object):
             # multiple n-gram's found
             else:
                 for ngram in highlighted_ngrams:
-                    if type(ngram[0]) is str: highlight_ngram([string_to_integer_map[x] for x in highlighted_ngrams])
+                    if type(ngram[0]) is str: highlight_ngram([string_to_integer_map[x] for x in ngram])
         
         if suptitle is not None: fig.suptitle(suptitle, y=1.2)
         
