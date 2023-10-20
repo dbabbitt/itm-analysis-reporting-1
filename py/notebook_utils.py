@@ -136,62 +136,6 @@ class NotebookUtilities(object):
         # List of action types that assume 1-to-1 interaction
         self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED', 'PLAYER_GAZE']
 
-    def count_ngrams(self, actions_list, highlighted_ngrams):
-        '''
-        Counts how many times a given sequence of elements occurs in a list.
-        
-        Args:
-            actions_list: A list of elements.
-            highlighted_ngrams: A sequence of elements to count.
-        
-        Returns:
-            The number of times the given sequence of elements occurs in the list.
-        '''
-        count = 0
-        for i in range(len(actions_list) - len(highlighted_ngrams) + 1):
-            if (actions_list[i:i + len(highlighted_ngrams)] == highlighted_ngrams): count += 1
-            
-        return count
-    
-    def get_sequences_by_count(self, tg_dict, count=4):
-        
-        # Count the lengths of sequences in the dictionary to convert the sequence lengths list
-        # into a pandas series to get the value counts of unique sequence lengths
-        value_counts = pd.Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
-        
-        # Filter value counts to show only counts of count to get the desired sequence length of exactly count sequences from the dictionary
-        value_counts_list = value_counts[value_counts == count].index.tolist()
-        assert value_counts_list, f"You don't have exactly {count} sequences of the same length in the dictionary"
-        sequences = [
-            actions_list for actions_list in tg_dict.values() if (len(actions_list) == value_counts_list[0])
-        ]
-    
-        return sequences
-    
-    def get_shape(self, list_of_lists):
-        '''
-        Returns the shape of a list of lists, assuming the sublists are all of the same length.
-        
-        Args:
-            list_of_lists: A list of lists.
-        
-        Returns:
-            A tuple representing the shape of the list of lists.
-        '''
-        
-        # Check if the list of lists is empty.
-        if not list_of_lists: return ()
-        
-        # Get the length of the first sublist.
-        num_cols = len(list_of_lists[0])
-        
-        # Check if all of the sublists are the same length.
-        for sublist in list_of_lists:
-            if len(sublist) != num_cols: raise ValueError('All of the sublists must be the same length.')
-        
-        # Return a tuple representing the shape of the list of lists.
-        return (len(list_of_lists), num_cols)
-
     ### String Functions ###
     
     def compute_similarity(self, a: str, b: str) -> float:
@@ -231,8 +175,10 @@ class NotebookUtilities(object):
         if minutes == 0: return str(seconds)
         elif seconds > 0: return f'{minutes}:{seconds:02}'
         else: return f'{minutes} min'
-
+    
+    
     ### List Functions ###
+    
     
     def conjunctify_nouns(self, noun_list, and_or='and', verbose=False):
         """
@@ -312,8 +258,8 @@ class NotebookUtilities(object):
             print(t1-t0, time.ctime(t1))
 
         return item_similarities_df
-
-
+    
+    
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
         '''
         Converts a sequence of strings to a sequence of integers.
@@ -339,8 +285,69 @@ class NotebookUtilities(object):
             new_sequence[i] = string_to_integer_map[string]
         
         return new_sequence.astype(int), string_to_integer_map
-
+    
+    
+    def count_ngrams(self, actions_list, highlighted_ngrams):
+        '''
+        Counts how many times a given sequence of elements occurs in a list.
+        
+        Args:
+            actions_list: A list of elements.
+            highlighted_ngrams: A sequence of elements to count.
+        
+        Returns:
+            The number of times the given sequence of elements occurs in the list.
+        '''
+        count = 0
+        for i in range(len(actions_list) - len(highlighted_ngrams) + 1):
+            if (actions_list[i:i + len(highlighted_ngrams)] == highlighted_ngrams): count += 1
+            
+        return count
+    
+    
+    def get_sequences_by_count(self, tg_dict, count=4):
+        
+        # Count the lengths of sequences in the dictionary to convert the sequence lengths list
+        # into a pandas series to get the value counts of unique sequence lengths
+        value_counts = pd.Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
+        
+        # Filter value counts to show only counts of count to get the desired sequence length of exactly count sequences from the dictionary
+        value_counts_list = value_counts[value_counts == count].index.tolist()
+        assert value_counts_list, f"You don't have exactly {count} sequences of the same length in the dictionary"
+        sequences = [
+            actions_list for actions_list in tg_dict.values() if (len(actions_list) == value_counts_list[0])
+        ]
+    
+        return sequences
+    
+    
+    def get_shape(self, list_of_lists):
+        '''
+        Returns the shape of a list of lists, assuming the sublists are all of the same length.
+        
+        Args:
+            list_of_lists: A list of lists.
+        
+        Returns:
+            A tuple representing the shape of the list of lists.
+        '''
+        
+        # Check if the list of lists is empty.
+        if not list_of_lists: return ()
+        
+        # Get the length of the first sublist.
+        num_cols = len(list_of_lists[0])
+        
+        # Check if all of the sublists are the same length.
+        for sublist in list_of_lists:
+            if len(sublist) != num_cols: raise ValueError('All of the sublists must be the same length.')
+        
+        # Return a tuple representing the shape of the list of lists.
+        return (len(list_of_lists), num_cols)
+    
+    
     ### File Functions ###
+    
     
     def get_file_path(self, func):
         """
@@ -1795,7 +1802,9 @@ class NotebookUtilities(object):
         fig = plt.figure(figsize=[len(sequence)*0.3, alphabet_len * 0.3])
         
         # Force the xticks to land on integers only
-        plt.xticks(range(len(sequence)), range(len(sequence)), minor=False)
+        xtick_locations = range(len(sequence))
+        xtick_labels = [n+1 for n in xtick_locations]
+        plt.xticks(ticks=xtick_locations, labels=xtick_labels, minor=False)
         
         # Extend the edges of the plot
         plt.xlim([-0.5, len(sequence)-0.5])
@@ -1876,3 +1885,48 @@ class NotebookUtilities(object):
         if suptitle is not None: fig.suptitle(suptitle, y=1.2)
         
         return fig
+    
+    def plot_sequences(self, sequences, gap=True):
+        '''
+        Creates a scatter-style sequence plot for a collection of sequences.
+        '''
+        max_sequence_length = max([len(s) for s in sequences])
+        plt.figure(figsize=[max_sequence_length*0.3,0.3 * len(sequences)])
+        
+        for y, sequence in enumerate(sequences):
+            np_sequence = np.array(sequence)
+            alphabet_len = len(get_alphabet(sequence))
+            
+            plt.gca().set_prop_cycle(None)
+            unique_values = get_alphabet(sequence)
+            for i, value in enumerate(unique_values):
+                
+                if gap:
+                    points = np.where(np_sequence == value, y + 1, np.nan)
+                    plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=100)
+                else:
+                    points = np.where(np_sequence == value, 1, np.nan)
+                    plt.bar(range(len(points)), points, bottom=[y for x in range(len(points))], width=1, align='edge', label=value)
+        
+        if gap:
+            plt.ylim(0.4, len(sequences) + 0.6)
+            plt.xlim(-0.6, max_sequence_length - 0.4)
+        else:
+            plt.ylim(0, len(sequences))
+            plt.xlim(0, max_sequence_length)
+        
+        # Force the xticks to land on integers only (assume all sequences are of equal length)
+        xtick_locations = range(len(sequences[0]))
+        xtick_labels = [n+1 for n in xtick_locations]
+        plt.xticks(ticks=xtick_locations, labels=xtick_labels, minor=False)
+        
+        handles, labels = plt.gca().get_legend_handles_labels()
+        by_label = dict(zip(labels, handles))
+        plt.legend(by_label.values(), by_label.keys(), bbox_to_anchor=(1.0, 1.1), loc='upper left')
+        plt.tick_params(
+            axis='y',
+            which='both',
+            left=False,
+            labelleft=False)
+        
+        return plt
