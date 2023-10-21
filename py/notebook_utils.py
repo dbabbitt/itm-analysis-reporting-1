@@ -160,19 +160,21 @@ class NotebookUtilities(object):
     
     def format_timedelta(self, timedelta):
         """
-        Formats a timedelta object to a string in the format '0', '30', '1 min', '1:30', '2 min', etc.
+        Formats a timedelta object to a string in the
+        format '0 sec', '30 sec', '1 min', '1:30', '2 min', etc.
         
         Args:
           timedelta: A timedelta object.
         
         Returns:
-          A string in the format '0', '30', '1 min', '1:30', '2 min', etc.
+          A string in the format '0 sec', '30 sec', '1 min',
+          '1:30', '2 min', etc.
         """
         seconds = timedelta.total_seconds()
         minutes = int(seconds // 60)
         seconds = int(seconds % 60)
         
-        if minutes == 0: return str(seconds)
+        if minutes == 0: return f'{seconds} sec'
         elif seconds > 0: return f'{minutes}:{seconds:02}'
         else: return f'{minutes} min'
     
@@ -222,6 +224,16 @@ class NotebookUtilities(object):
 
 
     def check_4_doubles(self, item_list, verbose=False):
+        """
+        Check for similar items in the given list.
+
+        Parameters:
+            item_list (list): List of items to be compared.
+            verbose (bool, optional): If True, print the execution time. Default is False.
+
+        Returns:
+            pandas.DataFrame: DataFrame containing similar item pairs and their similarities.
+        """
         if verbose: t0 = time.time()
         rows_list = []
         n = len(item_list)
@@ -255,13 +267,13 @@ class NotebookUtilities(object):
         item_similarities_df = pd.DataFrame(rows_list, columns=column_list)
         if verbose:
             t1 = time.time()
-            print(t1-t0, time.ctime(t1))
+            print(t1 - t0, time.ctime(t1))
 
         return item_similarities_df
     
     
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
-        '''
+        """
         Converts a sequence of strings to a sequence of integers.
         
         Args:
@@ -271,7 +283,7 @@ class NotebookUtilities(object):
         Returns:
             A sequence of integers.
             A string to integer map as dictionary.
-        '''
+        """
         if alphabet_list is None: alphabet_list = list(get_alphabet(sequence))
         
         # Create a dictionary to map strings to integers
@@ -288,7 +300,7 @@ class NotebookUtilities(object):
     
     
     def count_ngrams(self, actions_list, highlighted_ngrams):
-        '''
+        """
         Counts how many times a given sequence of elements occurs in a list.
         
         Args:
@@ -297,7 +309,7 @@ class NotebookUtilities(object):
         
         Returns:
             The number of times the given sequence of elements occurs in the list.
-        '''
+        """
         count = 0
         for i in range(len(actions_list) - len(highlighted_ngrams) + 1):
             if (actions_list[i:i + len(highlighted_ngrams)] == highlighted_ngrams): count += 1
@@ -306,7 +318,20 @@ class NotebookUtilities(object):
     
     
     def get_sequences_by_count(self, tg_dict, count=4):
+        """
+        Get sequences from the input dictionary based on a specific sequence length.
+
+        Parameters:
+            tg_dict (dict): Dictionary containing sequences.
+            count (int, optional): Desired length of sequences to filter. Default is 4.
+
+        Returns:
+            list: List of sequences with the specified length.
         
+        Raises:
+            AssertionError: If no sequences of the specified length are found in the dictionary.
+        """
+
         # Count the lengths of sequences in the dictionary to convert the sequence lengths list
         # into a pandas series to get the value counts of unique sequence lengths
         value_counts = pd.Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
@@ -322,7 +347,7 @@ class NotebookUtilities(object):
     
     
     def get_shape(self, list_of_lists):
-        '''
+        """
         Returns the shape of a list of lists, assuming the sublists are all of the same length.
         
         Args:
@@ -330,7 +355,7 @@ class NotebookUtilities(object):
         
         Returns:
             A tuple representing the shape of the list of lists.
-        '''
+        """
         
         # Check if the list of lists is empty.
         if not list_of_lists: return ()
@@ -344,6 +369,50 @@ class NotebookUtilities(object):
         
         # Return a tuple representing the shape of the list of lists.
         return (len(list_of_lists), num_cols)
+    
+    
+    def split_row_indexes_list(self, splitting_indexes_list, large_indexes_list):
+        split_list = []
+        current_list = []
+        for i in range(len(splittin_indexes_list)):
+            current_idx = splittin_indexes_list[i]
+            if current_idx not in large_indexes_list:
+                current_list.append(current_idx)
+            else:
+                if current_list:
+                    split_list.append(current_list)
+                split_list.append([current_idx])
+                current_list = []
+        if current_list:
+            split_list.append(current_list)
+        
+        return split_list
+    
+    
+    def replace_consecutive_elements(self, actions_list, element='PATIENT_ENGAGED'):
+        """
+        Replaces consecutive elements in a list with a count of how many there are in a row.
+        
+        Args:
+            list1: A list of elements.
+            element: The element to replace consecutive occurrences of.
+        
+        Returns:
+            A list with the consecutive elements replaced with a count of how many there are in a row.
+        """
+        result = []
+        count = 0
+        for i in range(len(actions_list)):
+            if (actions_list[i] == element): count += 1
+            else:
+                if (count > 0): result.append(f'{element} x{str(count)}')
+                result.append(actions_list[i])
+                count = 0
+        
+        # Handle the last element
+        if (count > 0): result.append(f'{element} x{str(count)}')
+        
+        return(result)
     
     
     ### File Functions ###
@@ -372,6 +441,57 @@ class NotebookUtilities(object):
 
         # Otherwise, return the relative file path
         else: return os.path.relpath(file_path)
+    
+    
+    def get_notebook_functions_dictionary(self, github_folder=None):
+        """
+        Gets a dictionary of all functions defined within notebooks in the github folder,
+        with the key being the function name,
+        and the value being the count of how many times the function has been defined.
+
+        Parameters:
+            github_folder (str, optional): The path of the root folder of the GitHub repository containing the notebooks.
+                                           Defaults to the parent directory of the current working directory.
+
+        Returns:
+            dict: The dictionary of function definitions with the count of their occurances.
+        """
+        fn_regex = re.compile(r'\s+"def ([a-z0-9_]+)\(')
+        black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
+        if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
+        rogue_fns_dict = {}
+        for sub_directory, directories_list, files_list in os.walk(github_folder):
+            if all(map(lambda x: x not in sub_directory, black_list)):
+                for file_name in files_list:
+                    if file_name.endswith('.ipynb') and not ('Attic' in file_name):
+                        file_path = osp.join(sub_directory, file_name)
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            lines_list = f.readlines()
+                            for line in lines_list:
+                                match_obj = fn_regex.search(line)
+                                if match_obj:
+                                    fn = match_obj.group(1)
+                                    rogue_fns_dict[fn] = rogue_fns_dict.get(fn, 0) + 1
+        
+        return rogue_fns_dict
+    
+    
+    def get_notebook_functions_set(self, github_folder=None):
+        """
+        Gets a set of all functions defined within notebooks in the github folder.
+
+        Parameters:
+            github_folder (str, optional): The path of the root folder of the GitHub repository containing the notebooks.
+                                           Defaults to the parent directory of the current working directory.
+
+        Returns:
+            set: The set of function definitions.
+        """
+        if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
+        rogue_fns_set = set([k for k in self.get_notebook_functions_dictionary(github_folder=github_folder).keys()])
+        
+        return rogue_fns_set
+    
     
     def show_duplicated_util_fns_search_string(self, util_path=None, github_folder=None):
         """
@@ -403,29 +523,15 @@ class NotebookUtilities(object):
                     utils_set.add(scraping_util)
 
         # Make a set of rogue util functions
-        fn_regex = re.compile(r'\s+"def ([a-z0-9_]+)\(')
-        black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
-        rows_list = []
         if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
-        rogue_fns_set = set()
-        for sub_directory, directories_list, files_list in os.walk(github_folder):
-            if all(map(lambda x: x not in sub_directory, black_list)):
-                for file_name in files_list:
-                    if file_name.endswith('.ipynb'):
-                        file_path = osp.join(sub_directory, file_name)
-                        with open(file_path, 'r', encoding='utf-8') as f:
-                            lines_list = f.readlines()
-                            for line in lines_list:
-                                match_obj = fn_regex.search(line)
-                                if match_obj:
-                                    fn = match_obj.group(1)
-                                    if fn in utils_set: rogue_fns_set.add(fn)
+        rogue_fns_list = [fn for fn in self.get_notebook_functions_dictionary(github_folder=github_folder).keys() if fn in utils_set]
         
-        if rogue_fns_set:
+        if rogue_fns_list:
             print(f'Search for *.ipynb; file masks in the {github_folder} folder for this pattern:')
-            print('\\s+"def (' + '|'.join(rogue_fns_set) + ')\(')
+            print('\\s+"def (' + '|'.join(rogue_fns_list) + ')\(')
             print('Replace each of the calls to these definitions with calls the the nu. equivalent (and delete the definitions).')
-
+    
+    
     def get_new_file_name(self, old_file_name):
         from datetime import datetime
         old_file_path = '../data/logs/' + old_file_name
@@ -925,7 +1031,7 @@ class NotebookUtilities(object):
         return table_dfs_list
 
     def get_page_tables(self, tables_url_or_filepath, verbose=True):
-        '''
+        """
         import sys
         sys.path.insert(1, '../py')
         from notebook_utils import NotebookUtilities
@@ -933,7 +1039,7 @@ class NotebookUtilities(object):
         nu = NotebookUtilities(data_folder_path=os.path.abspath('../data'))
         tables_url = 'https://en.wikipedia.org/wiki/Provinces_of_Afghanistan'
         page_tables_list = nu.get_page_tables(tables_url)
-        '''
+        """
         if self.url_regex.fullmatch(tables_url_or_filepath) or self.filepath_regex.fullmatch(tables_url_or_filepath):
             tables_df_list = pd.read_html(tables_url_or_filepath)
         else:
@@ -948,7 +1054,7 @@ class NotebookUtilities(object):
     ### Pandas Functions ###
     
     def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
-        '''
+        """
         This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened dictionary from it, where
         keys are made up of the keys/indices of nested dictionaries and lists. The keys are constructed with a key_prefix
         (which is updated as the function traverses the value_obj) to ensure uniqueness. The flattened dictionary is stored in the
@@ -967,7 +1073,7 @@ class NotebookUtilities(object):
         ----------
         row_dict : dict
             The flattened dictionary representation of the value_obj.
-        '''
+        """
         
         # Check if the value is a dictionary
         if type(value_obj) == dict:
@@ -1071,19 +1177,6 @@ class NotebookUtilities(object):
         
         return(blank_ranking_df)
     
-    def get_session_groupby(self, frvrs_logs_df=None, mask_series=None, extra_column=None):
-        if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
-        if (mask_series is None) and (extra_column is None):
-            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid'])
-        elif (mask_series is None) and (extra_column is not None):
-            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
-        elif (mask_series is not None) and (extra_column is None):
-            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid'])
-        elif (mask_series is not None) and (extra_column is not None):
-            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
-    
-        return gb
-    
     def get_inf_nan_mask(self, x_list, y_list):
         """
         Returns a mask indicating which elements of x_list and y_list are not inf or nan.
@@ -1147,13 +1240,317 @@ class NotebookUtilities(object):
     def modalize_columns(self, df, columns_list, new_column):
         mask_series = (df[columns_list].apply(pd.Series.nunique, axis='columns') == 1)
         df.loc[~mask_series, new_column] = np.nan
-        def f(srs):
-            cn = srs.first_valid_index()
-            
-            return srs[cn]
+        f = lambda srs: srs[srs.first_valid_index()]
         df.loc[mask_series, new_column] = df[mask_series][columns_list].apply(f, axis='columns')
     
         return df
+    
+    def convert_to_df(self, row_index, row_series, verbose=True):
+        if verbose and (type(row_index) != int): print(type(row_index))
+        df = DataFrame(data=row_series.to_dict(), index=[row_index])
+        
+        return df
+    
+    def get_session_groupby(self, frvrs_logs_df=None, mask_series=None, extra_column=None):
+        if frvrs_logs_df is None: frvrs_logs_df = self.load_object('frvrs_logs_df')
+        if (mask_series is None) and (extra_column is None):
+            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid'])
+        elif (mask_series is None) and (extra_column is not None):
+            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
+        elif (mask_series is not None) and (extra_column is None):
+            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid'])
+        elif (mask_series is not None) and (extra_column is not None):
+            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
+    
+        return gb
+    
+    def set_time_groups(self, df):
+        """
+        Section off player actions by session start and end.
+        
+        Args:
+            df: A Pandas DataFrame containing the player action data with its index reset.
+        
+        Returns:
+            A Pandas DataFrame with the `scene_index` column added.
+        """
+    
+        # Set the whole file to zero first
+        df = df.sort_values('elapsed_time')
+        scene_index = 0
+        df['scene_index'] = scene_index
+        
+        # Delineate runs by the session end below them
+        mask_series = (df.action_type == 'SESSION_END')
+        lesser_idx = df[mask_series].index.min()
+        mask_series &= (df.index > lesser_idx)
+        while df[mask_series].shape[0]:
+            
+            # Find this session end as the bottom
+            greater_idx = df[mask_series].index.min()
+            
+            # Add everything above that to this run
+            mask_series = (df.index > lesser_idx) & (df.index <= greater_idx)
+            scene_index += 1
+            df.loc[mask_series, 'scene_index'] = scene_index
+            
+            # Delineate runs by the session end below them
+            lesser_idx = greater_idx
+            mask_series = (df.action_type == 'SESSION_END') & (df.index > lesser_idx)
+        
+        # Find the last session start
+        mask_series = (df.action_type == 'SESSION_START')
+        lesser_idx = df[mask_series].index.max()
+        
+        # Add everything below that to the last run
+        mask_series = (df.index >= lesser_idx)
+        df.loc[mask_series, 'scene_index'] = scene_index
+        
+        # Convert the scene index column to int64
+        df.scene_index = df.scene_index.astype('int64')
+        
+        return df
+    
+    def set_mcivr_metrics_types(self, action_type, df, row_index, row_series):
+        """
+        Set the MCI-VR metrics types for a given action type and row series.
+    
+        Args:
+            action_type: The action type.
+            df: The DataFrame containing the MCI-VR metrics.
+            row_index: The index of the row in the DataFrame to set the metrics for.
+            row_series: The row series containing the MCI-VR metrics.
+    
+        Returns:
+            The DataFrame containing the MCI-VR metrics with new columns.
+        """
+    
+        # Set the metrics types for each action type
+        if (action_type == 'BAG_ACCESS'): # BagAccess
+            df.loc[row_index, 'bag_access_location'] = row_series[4] # Location
+        elif (action_type == 'BAG_CLOSED'): # BagClosed
+            df.loc[row_index, 'bag_closed_location'] = row_series[4] # Location
+        elif (action_type == 'INJURY_RECORD'): # InjuryRecord
+            df.loc[row_index, 'injury_record_id'] = row_series[4] # Id
+            df.loc[row_index, 'injury_record_patient_id'] = row_series[5] # patientId
+            df.loc[row_index, 'injury_record_required_procedure'] = row_series[6] # requiredProcedure
+            df.loc[row_index, 'injury_record_severity'] = row_series[7] # severity
+            df.loc[row_index, 'injury_record_body_region'] = row_series[8] # bodyRegion
+            df.loc[row_index, 'injury_record_injury_treated'] = row_series[9] # injuryTreated
+            df.loc[row_index, 'injury_record_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
+            df.loc[row_index, 'injury_record_injury_injury_locator'] = row_series[11] # injuryLocator
+        elif (action_type == 'INJURY_TREATED'): # InjuryTreated
+            df.loc[row_index, 'injury_treated_id'] = row_series[4] # Id
+            df.loc[row_index, 'injury_treated_patient_id'] = row_series[5] # patientId
+            df.loc[row_index, 'injury_treated_required_procedure'] = row_series[6] # requiredProcedure
+            df.loc[row_index, 'injury_treated_severity'] = row_series[7] # severity
+            df.loc[row_index, 'injury_treated_body_region'] = row_series[8] # bodyRegion
+            df.loc[row_index, 'injury_treated_injury_treated'] = row_series[9] # injuryTreated
+            df.loc[row_index, 'injury_treated_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
+            df.loc[row_index, 'injury_treated_injury_injury_locator'] = row_series[11] # injuryLocator
+        elif (action_type == 'PATIENT_DEMOTED'): # PatientDemoted
+            df.loc[row_index, 'patient_demoted_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_demoted_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_demoted_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_demoted_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_demoted_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_demoted_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_demoted_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_demoted_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_demoted_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_demoted_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_demoted_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_demoted_pose'] = row_series[15] # pose
+        elif (action_type == 'PATIENT_ENGAGED'): # PatientEngaged
+            df.loc[row_index, 'patient_engaged_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_engaged_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_engaged_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_engaged_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_engaged_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_engaged_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_engaged_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_engaged_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_engaged_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_engaged_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_engaged_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
+        elif (action_type == 'PATIENT_RECORD'): # PatientRecord
+            df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_record_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_record_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_record_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_record_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_record_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_record_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_record_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_record_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_record_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_record_pose'] = row_series[15] # pose
+        elif (action_type == 'PULSE_TAKEN'): # PulseTaken
+            df.loc[row_index, 'pulse_taken_pulse_name'] = row_series[4] # pulseName
+            df.loc[row_index, 'pulse_taken_patient_id'] = row_series[5] # patientId
+        elif (action_type == 'S_A_L_T_WALKED'): # SALTWalked
+            df.loc[row_index, 's_a_l_t_walked_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_walked_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_walked_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'S_A_L_T_WALK_IF_CAN'): # SALTWalkIfCan
+            df.loc[row_index, 's_a_l_t_walk_if_can_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_walk_if_can_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_walk_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'S_A_L_T_WAVED'): # SALTWave
+            df.loc[row_index, 's_a_l_t_waved_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_waved_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_waved_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'S_A_L_T_WAVE_IF_CAN'): # SALTWaveIfCan
+            df.loc[row_index, 's_a_l_t_wave_if_can_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_wave_if_can_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_wave_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TAG_APPLIED'): # TagApplied
+            df.loc[row_index, 'tag_applied_patient_id'] = row_series[4] # patientId
+            df.loc[row_index, 'tag_applied_type'] = row_series[5] # type
+        elif (action_type == 'TAG_DISCARDED'): # TagDiscarded
+            df.loc[row_index, 'tag_discarded_type'] = row_series[4] # Type
+            df.loc[row_index, 'tag_discarded_location'] = row_series[5] # Location
+        elif (action_type == 'TAG_SELECTED'): # TagSelected
+            df.loc[row_index, 'tag_selected_type'] = row_series[4] # Type
+        elif (action_type == 'TELEPORT'): # Teleport
+            df.loc[row_index, 'teleport_location'] = row_series[4] # Location
+        elif (action_type == 'TOOL_APPLIED'): # ToolApplied
+            tool_applied_patient_id = row_series[4]
+            if ' Root' in tool_applied_patient_id:
+                df.loc[row_index, 'tool_applied_patient_id'] = tool_applied_patient_id # patientId
+            df.loc[row_index, 'tool_applied_type'] = row_series[5] # type
+            df.loc[row_index, 'tool_applied_attachment_point'] = row_series[6] # attachmentPoint
+            df.loc[row_index, 'tool_applied_tool_location'] = row_series[7] # toolLocation
+            df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
+            df.loc[row_index, 'tool_applied_sender'] = row_series[9] # sender
+            df.loc[row_index, 'tool_applied_attach_message'] = row_series[10] # attachMessage
+        elif (action_type == 'TOOL_DISCARDED'): # ToolDiscarded
+            df.loc[row_index, 'tool_discarded_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_discarded_count'] = row_series[5] # Count
+            df.loc[row_index, 'tool_discarded_location'] = row_series[6] # Location
+        elif (action_type == 'TOOL_HOVER'): # ToolHover
+            df.loc[row_index, 'tool_hover_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_hover_count'] = row_series[5] # Count
+        elif (action_type == 'TOOL_SELECTED'): # ToolSelected
+            df.loc[row_index, 'tool_selected_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_selected_count'] = row_series[5] # Count
+        elif (action_type == 'VOICE_CAPTURE'): # VoiceCapture
+            df.loc[row_index, 'voice_capture_message'] = row_series[4] # Message
+            df.loc[row_index, 'voice_capture_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'VOICE_COMMAND'): # VoiceCommand
+            df.loc[row_index, 'voice_command_message'] = row_series[4] # Message
+            df.loc[row_index, 'voice_command_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'PLAYER_LOCATION'): # PlayerLocation
+            df.loc[row_index, 'player_location_location'] = row_series[4] # Location (x,y,z)
+            df.loc[row_index, 'player_location_left_hand_location'] = row_series[5] # Left Hand Location (x,y,z); deactivated in v1.3
+            df.loc[row_index, 'player_location_right_hand_location'] = row_series[6] # Right Hand Location (x,y,z); deactivated in v1.3
+        elif (action_type == 'PLAYER_GAZE'): # PlayerGaze
+            if ' Root' in row_series[4]:
+                df.loc[row_index, 'player_gaze_patient_id'] = row_series[4] # PatientID
+                df.loc[row_index, 'player_gaze_location'] = row_series[5] # Location (x,y,z)
+            elif ' Root' in row_series[5]:
+                df.loc[row_index, 'player_gaze_location'] = row_series[4] # Location (x,y,z)
+                df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # PatientID
+            else:
+                print(row_series); raise
+            df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
+            df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
+    
+        return df
+    
+    def process_files(self, sub_directory_df, sub_directory, file_name):
+        file_path = os.path.join(sub_directory, file_name)
+        try:
+            version_number = '1.0'
+            file_df = pd.read_csv(file_path, header=None, index_col=False)
+        except:
+            version_number = '1.3'
+            rows_list = []
+            with open(file_path, 'r') as f:
+                import csv
+                reader = csv.reader(f, delimiter=',', quotechar='"')
+                for values_list in reader:
+                    if (values_list[-1] == ''): values_list.pop(-1)
+                    rows_list.append({i: v for i, v in enumerate(values_list)})
+            file_df = DataFrame(rows_list)
+        
+        # Find the columns that look like they have nothing but a version number in them
+        VERSION_REGEX = re.compile(r'^\d\.\d$')
+        is_version_there = lambda x: re.match(VERSION_REGEX, str(x)) is not None
+        srs = file_df.applymap(is_version_there, na_action='ignore').sum()
+        columns_list = srs[srs == file_df.shape[0]].index.tolist()
+        
+        # Remove column 4 and rename all the numbered colums above that
+        if 4 in columns_list:
+            version_number = file_df[4].unique().item()
+            file_df.drop(4, axis=1, inplace=True)
+            file_df.columns = list(range(file_df.shape[1]))
+        
+        # Add the file name and logger version to the data frame
+        file_df['file_name'] = '/'.join(sub_directory.split(os.sep)[1:]) + '/' + file_name
+        if is_version_there(version_number): file_df['logger_version'] = float(version_number)
+        else: file_df['logger_version'] = 1.0
+        
+        # Name the global columns
+        columns_list = ['action_type', 'elapsed_time', 'event_time', 'session_uuid']
+        file_df.columns = columns_list + file_df.columns.tolist()[len(columns_list):]
+        
+        # Parse the third column as a date column
+        if ('event_time' in file_df.columns):
+            if sub_directory.endswith('v.1.0'): file_df['event_time'] = pd.to_datetime(file_df['event_time'], format='%m/%d/%Y %H:%M')
+            # elif sub_directory.endswith('v.1.3'): file_df['event_time'] = pd.to_datetime(file_df['event_time'], format='%m/%d/%Y %I:%M:%S %p')
+            else: file_df['event_time'] = pd.to_datetime(file_df['event_time'], format='mixed')
+        
+        # Set the MCIVR metrics types
+        for row_index, row_series in file_df.iterrows(): file_df = nu.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
+        
+        # Section off player actions by session start and end
+        file_df = nu.set_time_groups(file_df)
+        
+        # Append the data frame for the current file to the data frame for the current subdirectory
+        sub_directory_df = pd.concat([sub_directory_df, file_df], axis='index')
+    
+        return sub_directory_df
+    
+    def split_df_by_teleport(self, df, verbose=False):
+        print(teleport_rows, df.index.tolist()); raise
+        split_dfs = []
+        current_df = DataFrame()
+        for row_index, row_series in df.iterrows():
+            if row_index in teleport_rows:
+                if current_df.shape[0] > 0: split_dfs.append(current_df)
+                current_df = DataFrame()
+            if verbose: print(row_index); display(row_series); display(nu.convert_to_df(row_index, row_series)); raise
+            current_df = pd.concat([current_df, nu.convert_to_df(row_index, row_series)], axis='index')
+        if current_df.shape[0] > 0:
+            split_dfs.append(current_df)
+        
+        return split_dfs
+    
+    def show_long_runs(self, df, column_name, milliseconds, delta_fn, description):
+        delta = delta_fn(milliseconds)
+        print(f'\nThese files have {description} than {delta}:')
+        mask_series = (df[column_name] > milliseconds)
+        session_uuid_list = df[mask_series].session_uuid.tolist()
+        mask_series = frvrs_logs_df.session_uuid.isin(session_uuid_list)
+        logs_folder = '../data/logs'
+        import csv
+        from datetime import datetime
+        for old_file_name in frvrs_logs_df[mask_series].file_name.unique():
+            old_file_path = os.path.join(logs_folder, old_file_name)
+            with open(old_file_path, 'r') as f:
+                reader = csv.reader(f, delimiter=',', quotechar='"')
+                for values_list in reader:
+                    date_str = values_list[2]
+                    break
+                try: date_obj = datetime.strptime(date_str, '%m/%d/%Y %H:%M')
+                except ValueError: date_obj = datetime.strptime(date_str, '%m/%d/%Y %I:%M:%S %p')
+                new_file_name = date_obj.strftime('%y.%m.%d.%H%M.csv')
+                new_sub_directory = old_file_name.split('/')[0]
+                new_file_path = new_sub_directory + '/' + new_file_name
+                print(f'{old_file_name} (or {new_file_path})')
     
     ### LLM Functions ###
     
@@ -1276,7 +1673,6 @@ class NotebookUtilities(object):
     
     def get_random_subdictionary(self, super_dict, n=5):
         keys = list(super_dict.keys())
-        import random
         random_keys = random.sample(keys, n)
         sub_dict = {}
         for key in random_keys: sub_dict[key] = super_dict[key]
@@ -1427,9 +1823,9 @@ class NotebookUtilities(object):
         self, df, sorting_column, mask_series=None, is_ascending=True, humanize_type='precisedelta',
         title_str='slowest action to control time', frvrs_logs_df=None, verbose=False
     ):
-        '''
+        """
         Get time group with some edge case and visualize the player movement there
-        '''
+        """
         
         if mask_series is None: mask_series = [True] * df.shape[0]
         df1 = df[mask_series].sort_values(
@@ -1760,7 +2156,7 @@ class NotebookUtilities(object):
         plt.show()
     
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, verbose=False):
-        '''
+        """
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
         The optional highlighted_ngrams parameter can be one or more n-grams to be outlined in a red box.
         
@@ -1774,7 +2170,7 @@ class NotebookUtilities(object):
         
         Returns:
             A matplotlib figure object.
-        '''
+        """
     
         # Convert the sequence to a NumPy array
         np_sequence = np.array(sequence)
@@ -1887,9 +2283,9 @@ class NotebookUtilities(object):
         return fig
     
     def plot_sequences(self, sequences, gap=True):
-        '''
+        """
         Creates a scatter-style sequence plot for a collection of sequences.
-        '''
+        """
         max_sequence_length = max([len(s) for s in sequences])
         plt.figure(figsize=[max_sequence_length*0.3,0.3 * len(sequences)])
         
@@ -1930,3 +2326,113 @@ class NotebookUtilities(object):
             labelleft=False)
         
         return plt
+    
+    def show_timelines(self, random_session_uuid=None, random_time_group=None, captured_patient_id='Gary_3 Root', verbose=False):
+        
+        # Get a random session
+        if random_session_uuid is None:
+            random_session_uuid = random.choice(clean_csvs_df.session_uuid.unique())
+        
+        # Get a random scene from within the session
+        if random_time_group is None:
+            mask_series = (clean_csvs_df.session_uuid == random_session_uuid)
+            random_time_group = random.choice(clean_csvs_df[mask_series].scene_index.unique())
+        
+        # Get the event time and elapsed time of each person engaged
+        mask_series = (clean_csvs_df.session_uuid == random_session_uuid) & (clean_csvs_df.scene_index == random_time_group)
+        mask_series &= clean_csvs_df.action_type.isin([
+            'PATIENT_ENGAGED', 'INJURY_TREATED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'
+        ])
+        columns_list = ['patient_id', 'elapsed_time', 'event_time']
+        patient_engagements_df = clean_csvs_df[mask_series][columns_list].sort_values(['event_time', 'elapsed_time'])
+        if verbose: display(patient_engagements_df)
+        
+        # For each patient, get a timeline of every reference on or before engagement
+        color_cycler = nu.get_color_cycler(len(patient_engagements_df.patient_id.unique()))
+        hlineys_list = []; hlinexmins_list = []; hlinexmaxs_list = []; hlinecolors_list = []; hlinelabels_list = []
+        hlineaction_types_list = []; vlinexs_list = []
+        left_lim = 999999; right_lim = -999999
+        for (patient_id, df), (y, face_color_dict) in zip(patient_engagements_df.groupby('patient_id'), enumerate(color_cycler())):
+        
+            # Get the broad horizontal line parameters
+            hlineys_list.append(y)
+            face_color = face_color_dict['color']
+            hlinecolors_list.append(face_color)
+            hlinelabels_list.append(patient_id)
+        
+            # Create the filter for the first scene
+            mask_series = (clean_csvs_df.patient_id == patient_id)
+            mask_series &= (clean_csvs_df.session_uuid == random_session_uuid) & (clean_csvs_df.scene_index == random_time_group)
+            elapsed_time = df.elapsed_time.max()
+            event_time = df.event_time.max()
+            mask_series &= (clean_csvs_df.elapsed_time <= elapsed_time) & (clean_csvs_df.event_time <= event_time)
+            
+            df1 = clean_csvs_df[mask_series].sort_values(['event_time', 'elapsed_time'])
+            captured_patient_id_df = DataFrame([])
+            if (patient_id == captured_patient_id): captured_patient_id_df = df1.copy()
+        
+            # Get the fine horizontal line parameters and plot dimensions
+            xmin = df1.elapsed_time.min(); hlinexmins_list.append(xmin);
+            if xmin < left_lim: left_lim = xmin
+            xmax = df1.elapsed_time.max(); hlinexmaxs_list.append(xmax);
+            if xmax > right_lim: right_lim = xmax
+            
+            # Get the vertical line parameters
+            mask_series = df1.action_type.isin(['SESSION_END', 'SESSION_START'])
+            for x in df1[mask_series].elapsed_time:
+                vlinexs_list.append(x)
+            
+            # Get the action type annotation parameters
+            mask_series = df1.action_type.isin(['INJURY_TREATED', 'PATIENT_ENGAGED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'])
+            for label, df2 in df1[mask_series].groupby('action_type'):
+                for x in df2.elapsed_time:
+                    annotation_tuple = (label.lower().replace('_', ' '), x, y)
+                    hlineaction_types_list.append(annotation_tuple)
+        
+        ax = plt.figure(figsize=(18, 9)).add_subplot(1, 1, 1)
+        
+        # Add the timelines to the figure subplot axis
+        line_collection_obj = ax.hlines(hlineys_list, hlinexmins_list, hlinexmaxs_list, colors=hlinecolors_list)
+        
+        # Label each timeline with the appropriate patient name
+        for label, x, y in zip(hlinelabels_list, hlinexmins_list, hlineys_list):
+            plt.annotate(label.replace(' Root', ''), (x, y), textcoords='offset points', xytext=(0, -8), ha='left')
+        
+        # Annotate the action types along their timeline
+        for annotation_tuple in hlineaction_types_list:
+            label, x, y = annotation_tuple
+            plt.annotate(label, (x, y), textcoords='offset points', xytext=(0, 0), va='center', rotation=90, fontsize=6)
+        
+        # Mark any session boundaries with a vertical line
+        ymin, ymax = ax.get_ylim()
+        line_collection_obj = ax.vlines(vlinexs_list, ymin=ymin, ymax=ymax)
+        
+        # Remove the ticks and tick labels from the y axis
+        ax.set_yticks([])
+        ax.set_yticklabels([])
+        
+        # Move the top and right border out so that the annotations don't cross it
+        plt.subplots_adjust(top=1.5)
+        xlim_tuple = ax.set_xlim(left_lim-10_000, right_lim+10_000)
+        
+        # Set the title and labels
+        ax.set_title(f'Multi-Patient Timeline for UUID {random_session_uuid} and Scene {random_time_group}')
+        ax.set_xlabel('Elapsed Time since Scene Start')
+        
+        tick_labels = ax.get_xticklabels()
+        # print(tick_labels)
+        
+        from matplotlib.text import Text
+        ax.set_xticklabels([
+            Text(300000.0, 0, humanize.precisedelta(timedelta(milliseconds=300000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(400000.0, 0, humanize.precisedelta(timedelta(milliseconds=400000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(500000.0, 0, humanize.precisedelta(timedelta(milliseconds=500000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(600000.0, 0, humanize.precisedelta(timedelta(milliseconds=600000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(700000.0, 0, humanize.precisedelta(timedelta(milliseconds=700000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(800000.0, 0, humanize.precisedelta(timedelta(milliseconds=800000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(900000.0, 0, humanize.precisedelta(timedelta(milliseconds=900000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(1000000.0, 0, humanize.precisedelta(timedelta(milliseconds=1000000.0)).replace(', ', ',\n').replace(' and ', ' and\n')),
+            Text(1100000.0, 0, humanize.precisedelta(timedelta(milliseconds=1100000.0)).replace(', ', ',\n').replace(' and ', ' and\n'))
+        ]);
+    
+        return random_session_uuid, random_time_group, captured_patient_id_df
