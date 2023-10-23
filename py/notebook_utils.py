@@ -9,6 +9,7 @@
 
 from bs4 import BeautifulSoup as bs
 from datetime import timedelta
+from pandas import DataFrame
 from pathlib import Path
 from pysan.elements import get_alphabet
 from typing import List, Optional
@@ -119,6 +120,7 @@ class NotebookUtilities(object):
         self.twitter_aspect_ratio = 16/9
 
         # FRVRS log constants
+        self.data_logs_folder = osp.join(self.data_folder, 'logs'); os.makedirs(name=self.data_logs_folder, exist_ok=True)
         
         # List of action types to consider as user actions
         self.action_types_list = [
@@ -1504,10 +1506,10 @@ class NotebookUtilities(object):
             else: file_df['event_time'] = pd.to_datetime(file_df['event_time'], format='mixed')
         
         # Set the MCIVR metrics types
-        for row_index, row_series in file_df.iterrows(): file_df = nu.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
+        for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
         
         # Section off player actions by session start and end
-        file_df = nu.set_time_groups(file_df)
+        file_df = self.set_time_groups(file_df)
         
         # Append the data frame for the current file to the data frame for the current subdirectory
         sub_directory_df = pd.concat([sub_directory_df, file_df], axis='index')
@@ -1522,8 +1524,8 @@ class NotebookUtilities(object):
             if row_index in teleport_rows:
                 if current_df.shape[0] > 0: split_dfs.append(current_df)
                 current_df = DataFrame()
-            if verbose: print(row_index); display(row_series); display(nu.convert_to_df(row_index, row_series)); raise
-            current_df = pd.concat([current_df, nu.convert_to_df(row_index, row_series)], axis='index')
+            if verbose: print(row_index); display(row_series); display(self.convert_to_df(row_index, row_series)); raise
+            current_df = pd.concat([current_df, self.convert_to_df(row_index, row_series)], axis='index')
         if current_df.shape[0] > 0:
             split_dfs.append(current_df)
         
