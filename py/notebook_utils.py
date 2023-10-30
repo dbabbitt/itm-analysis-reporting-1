@@ -993,6 +993,28 @@ class NotebookUtilities(object):
 
         # Return the list of DataFrames
         return table_dfs_list
+
+    def get_page_tables(self, tables_url_or_filepath, verbose=True):
+        """
+        import sys
+        sys.path.insert(1, '../py')
+        from notebook_utils import NotebookUtilities
+        import os
+        nu = NotebookUtilities(data_folder_path=os.path.abspath('../data'))
+        tables_url = 'https://en.wikipedia.org/wiki/Provinces_of_Afghanistan'
+        page_tables_list = nu.get_page_tables(tables_url)
+        """
+        if self.filepath_regex.fullmatch(tables_url_or_filepath): assert osp.isfile(tables_url_or_filepath), f"{tables_url_or_filepath} doesn't exist"
+        if self.url_regex.fullmatch(tables_url_or_filepath) or self.filepath_regex.fullmatch(tables_url_or_filepath):
+            tables_df_list = pd.read_html(tables_url_or_filepath)
+        else:
+            f = io.StringIO(tables_url_or_filepath)
+            tables_df_list = pd.read_html(f)
+        if verbose:
+            print(sorted([(i, df.shape) for (i, df) in enumerate(tables_df_list)],
+                         key=lambda x: x[1][0]*x[1][1], reverse=True))
+
+        return tables_df_list
     
     ### Pandas Functions ###
     
