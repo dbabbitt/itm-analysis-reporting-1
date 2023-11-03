@@ -213,9 +213,9 @@ class NotebookUtilities(object):
             row_dict['first_item'] = first_item
             row_dict['second_item'] = max_item
             row_dict['first_bytes'] = '-'.join(str(x) for x in bytearray(str(first_item),
-                                                                         encoding=self.encoding, errors="replace"))
+                                                                         encoding=self.encoding_type, errors="replace"))
             row_dict['second_bytes'] = '-'.join(str(x) for x in bytearray(str(max_item),
-                                                                          encoding=self.encoding, errors="replace"))
+                                                                          encoding=self.encoding_type, errors="replace"))
             row_dict['max_similarity'] = max_similarity
 
             rows_list.append(row_dict)
@@ -227,6 +227,79 @@ class NotebookUtilities(object):
             print(t1 - t0, time.ctime(t1))
 
         return item_similarities_df
+    
+    def check_for_typos(self, left_list, right_list, rename_dict={'left_item': 'left_item', 'right_item': 'right_item'}, verbose=False):
+        """
+        Check the closest names for typos by comparing items from left_list with
+        items from right_list and computing their similarities.
+        
+        Parameters:
+        ----------
+        left_list : list
+            List containing items to be compared (left side).
+        right_list : list
+            List containing items to be compared (right side).
+        rename_dict : dict, optional
+            Dictionary specifying custom column names in the output DataFrame.
+            Default is {'left_item': 'left_item', 'right_item': 'right_item'}.
+        verbose : bool, optional
+            If True, print the time taken for the computation. Default is False.
+        
+        Returns:
+        -------
+        pandas.DataFrame
+            DataFrame containing columns: 'left_item', 'right_item', and 'max_similarity'.
+        
+        Example:
+        -------
+        sd_set = set(some_dict.keys()).symmetric_difference(set(df.similar_key))
+        typos_df = check_for_typos(list(set(df.similar_key).intersection(sd_set)),
+                                   list(set(some_dict.keys()).intersection(sd_set)), verbose=False)
+        for i, r in typos_df.sort_values(['max_similarity', 'left_item', 'right_item'], ascending=[False, True, True]).iterrows():
+            print(f'some_dict["{r.left_item}"] = some_dict.pop("{r.right_item}")')
+        """
+        
+        # Initialize the time taken for the computation if verbose is True
+        if verbose: t0 = time.time()
+        
+        # Initialize an empty list to store rows of the output data frame
+        rows_list = []
+        
+        # Iterate through items in the left list
+        for left_item in left_list:
+            max_similarity = 0.0
+            max_item = left_item
+            
+            # Iterate through items in the right list and find the most similar item
+            for right_item in right_list:
+                this_similarity = self.compute_similarity(left_item, right_item)
+                if this_similarity > max_similarity:
+                    max_similarity = this_similarity
+                    max_item = right_item
+            
+            # Create a dictionary representing a row in the output data frame
+            row_dict = {
+                'left_item': left_item,
+                'right_item': max_item,
+                'max_similarity': max_similarity
+            }
+            
+            # Add the row dictionary to the list of rows
+            rows_list.append(row_dict)
+        
+        # Define the column names for the output data frame
+        column_list = ['left_item', 'right_item', 'max_similarity']
+        
+        # Create a data frame from the list of rows, rename columns if necessary
+        name_similarities_df = pd.DataFrame(rows_list, columns=column_list).rename(columns=rename_dict)
+        
+        # Print the time taken for the computation if verbose is True
+        if verbose:
+            t1 = time.time()
+            print(t1-t0, time.ctime(t1))
+        
+        # Return the resulting data frame
+        return name_similarities_df
     
     
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
@@ -241,7 +314,7 @@ class NotebookUtilities(object):
             A sequence of integers.
             A string to integer map as dictionary.
         """
-        if alphabet_list is None: alphabet_list = list(get_alphabet(sequence))
+        if alphabet_list is None: alphabet_list = list(self.get_alphabet(sequence))
         
         # Create a dictionary to map strings to integers
         string_to_integer_map = {}
@@ -329,20 +402,43 @@ class NotebookUtilities(object):
     
     
     def split_row_indexes_list(self, splitting_indexes_list, large_indexes_list):
+        """
+        Splits a list of row indexes into a list of lists, where each inner list
+        contains a contiguous sequence of indexes that are not in the large indexes list.
+        
+        Args:
+            splitting_indexes_list: A list of row indexes to split.
+            large_indexes_list: A list of row indexes that should be considered "large".
+        
+        Returns:
+            A list of lists, where each inner list contains a contiguous sequence of indexes that are not in the `large_indexes_list`.
+        """
+        
+        # Initialize the output list
         split_list = []
+        
+        # Initialize the current list
         current_list = []
-        for i in range(len(splittin_indexes_list)):
-            current_idx = splittin_indexes_list[i]
-            if current_idx not in large_indexes_list:
-                current_list.append(current_idx)
+        
+        # Iterate over the splitting indexes list
+        for i in range(len(splitting_indexes_list)):
+            
+            # Get the current index
+            current_idx = splitting_indexes_list[i]
+            
+            # If the current index is not in the large indexes list, add it to the current list
+            if current_idx not in large_indexes_list: current_list.append(current_idx)
+            
+            # Otherwise, if the current list is not empty, add it to the split list and start a new current list
             else:
-                if current_list:
-                    split_list.append(current_list)
+                if current_list: split_list.append(current_list)
                 split_list.append([current_idx])
                 current_list = []
-        if current_list:
-            split_list.append(current_list)
+            
+        # If the current list is not empty, add it to the split list
+        if current_list: split_list.append(current_list)
         
+        # Return the split list
         return split_list
     
     
@@ -396,7 +492,7 @@ class NotebookUtilities(object):
                 for file_name in files_list:
                     if file_name.endswith('.ipynb') and not ('Attic' in file_name):
                         file_path = osp.join(sub_directory, file_name)
-                        with open(file_path, 'r', encoding='utf-8') as f:
+                        with open(file_path, 'r', encoding=self.encoding_type) as f:
                             lines_list = f.readlines()
                             for line in lines_list:
                                 match_obj = fn_regex.search(line)
@@ -444,7 +540,7 @@ class NotebookUtilities(object):
         # Get a list of rogue functions already in utilities file
         if util_path is None: util_path = '../py/notebook_utils.py'
         utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
-        with open(util_path, 'r', encoding='utf-8') as f:
+        with open(util_path, 'r', encoding=self.encoding_type) as f:
             lines_list = f.readlines()
             utils_set = set()
             for line in lines_list:
@@ -919,7 +1015,7 @@ class NotebookUtilities(object):
         else:
 
             # If the page URL or filepath is not a URL, open it using open()
-            with open(page_url_or_filepath, 'r', encoding='utf-8') as f: page_html = f.read()
+            with open(page_url_or_filepath, 'r', encoding=self.encoding_type) as f: page_html = f.read()
 
         # Parse the page HTML using BeautifulSoup
         from bs4 import BeautifulSoup as bs
@@ -1584,49 +1680,6 @@ class NotebookUtilities(object):
         ax.set_yticklabels(yticklabels_list)
         
         return ax
-    
-    def plot_grouped_box_and_whiskers(self, transformable_df, x_column_name, y_column_name, x_label, y_label, transformer_name='min', is_y_temporal=True):    
-        import seaborn as sns
-        
-        # Get the transformed data frame
-        if transformer_name is None: transformed_df = transformable_df
-        else:
-            groupby_columns = ['session_uuid', 'scene_index']
-            transformed_df = transformable_df.groupby(groupby_columns).filter(
-                lambda df: not df[y_column_name].isnull().any()
-            ).groupby(groupby_columns).transform(transformer_name).reset_index(drop=False).sort_values(y_column_name)
-        
-        # Create a figure and subplots
-        fig, ax = plt.subplots(1, 1, figsize=(9, 9))
-        
-        # Create a box plot of the y column grouped by the x column
-        sns.boxplot(
-            x=x_column_name,
-            y=y_column_name,
-            showmeans=True,
-            data=transformed_df,
-            ax=ax
-        )
-        
-        # Rotate the x-axis labels to prevent overlapping
-        plt.xticks(rotation=45)
-        
-        # Label the x- and y-axis
-        ax.set_xlabel(x_label)
-        ax.set_ylabel(y_label)
-        
-        # Humanize y tick labels
-        if is_y_temporal:
-            yticklabels_list = []
-            from datetime import timedelta
-            for text_obj in ax.get_yticklabels():
-                text_obj.set_text(
-                    humanize.precisedelta(timedelta(milliseconds=text_obj.get_position()[1])).replace(', ', ',\n').replace(' and ', ' and\n')
-                )
-                yticklabels_list.append(text_obj)
-            ax.set_yticklabels(yticklabels_list);
-        
-        plt.show()
     
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, verbose=False):
         """
