@@ -520,6 +520,24 @@ class NotebookUtilities(object):
         return rogue_fns_set
     
     
+    def get_utility_file_functions(self, util_path=None):
+        """
+        Gets a list of rogue functions already in utilities file
+        """
+        if util_path is None: util_path = '../py/notebook_utils.py'
+        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
+        with open(util_path, 'r', encoding='utf-8') as f:
+            lines_list = f.readlines()
+            utils_set = set()
+            for line in lines_list:
+                match_obj = utils_regex.search(line)
+                if match_obj:
+                    scraping_util = match_obj.group(1)
+                    utils_set.add(scraping_util)
+        
+        return utils_set
+    
+    
     def show_duplicated_util_fns_search_string(self, util_path=None, github_folder=None):
         """
         Search for duplicate utility function definitions in Jupyter notebooks within a specified GitHub repository folder.
@@ -538,16 +556,7 @@ class NotebookUtilities(object):
         """
 
         # Get a list of rogue functions already in utilities file
-        if util_path is None: util_path = '../py/notebook_utils.py'
-        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
-        with open(util_path, 'r', encoding=self.encoding_type) as f:
-            lines_list = f.readlines()
-            utils_set = set()
-            for line in lines_list:
-                match_obj = utils_regex.search(line)
-                if match_obj:
-                    scraping_util = match_obj.group(1)
-                    utils_set.add(scraping_util)
+        utils_set = self.get_utility_file_functions(util_path=util_path)
 
         # Make a set of rogue util functions
         if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
@@ -573,6 +582,7 @@ class NotebookUtilities(object):
 
         # Open the absolute path to the file in Notepad
         # !"{text_editor_path}" "{absolute_path}"
+        import subprocess
         subprocess.run([text_editor_path, absolute_path])
 
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
@@ -1096,16 +1106,17 @@ class NotebookUtilities(object):
         sys.path.insert(1, '../py')
         from notebook_utils import NotebookUtilities
         import os
-        nu = NotebookUtilities(data_folder_path=os.path.abspath('../data'))
+        nu = NotebookUtilities(data_folder_path=osp.abspath('../data'))
         tables_url = 'https://en.wikipedia.org/wiki/Provinces_of_Afghanistan'
         page_tables_list = nu.get_page_tables(tables_url)
         """
         if self.filepath_regex.fullmatch(tables_url_or_filepath): assert osp.isfile(tables_url_or_filepath), f"{tables_url_or_filepath} doesn't exist"
         if self.url_regex.fullmatch(tables_url_or_filepath) or self.filepath_regex.fullmatch(tables_url_or_filepath):
-            tables_df_list = pd.read_html(tables_url_or_filepath)
+            tables_df_list = read_html(tables_url_or_filepath)
         else:
-            f = io.StringIO(tables_url_or_filepath)
-            tables_df_list = pd.read_html(f)
+            from io import StringIO
+            f = StringIO(tables_url_or_filepath)
+            tables_df_list = read_html(f)
         if verbose:
             print(sorted([(i, df.shape) for (i, df) in enumerate(tables_df_list)],
                          key=lambda x: x[1][0]*x[1][1], reverse=True))
@@ -1405,7 +1416,7 @@ class NotebookUtilities(object):
             mask_series = True
             for cn, cv in zip(groupby_columns, bool_tuple): mask_series &= (sample_df[cn] == cv)
             
-            # Append a random single record from the filtered data frame
+            # Append a single record from the filtered data frame
             df = concat([df, sample_df[mask_series].sample(1)], axis='index')
         
         return df
