@@ -12,6 +12,7 @@ from pandas import DataFrame, concat, to_datetime
 import csv
 import humanize
 import matplotlib.pyplot as plt
+import numpy as np
 import os
 import os.path as osp
 import pandas as pd
@@ -66,6 +67,7 @@ class FRVRSUtilities(object):
         self.scene_groupby_columns = ['session_uuid', 'scene_index']
         self.patient_groupby_columns = self.scene_groupby_columns + ['patient_id']
         self.injury_groupby_columns = self.patient_groupby_columns + ['injury_id']
+        self.right_ordering_list = ['still', 'waver', 'walker']
         
         # List of action types to consider as simulation loggings that can't be directly read by the responder
         self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'S_A_L_T_WAVED']
@@ -92,6 +94,10 @@ class FRVRSUtilities(object):
         
         # Hemorrhage control procedures list
         self.hemorrhage_control_procedures_list = ['tourniquet', 'woundpack']
+        
+        # Sort and SALT columns
+        self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
+        self.sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
 
     ### String Functions ###
     
@@ -188,7 +194,7 @@ class FRVRSUtilities(object):
         return gb
     
     
-    def get_is_a_one_triage_file(self, file_name, session_df, verbose=False):
+    def get_is_a_one_triage_file(self, session_df, file_name=None, verbose=False):
         if 'is_a_one_triage_file' in session_df.columns: is_a_one_triage_file = session_df.is_a_one_triage_file.unique().item()
         else:
             
@@ -286,11 +292,10 @@ class FRVRSUtilities(object):
     
     
     def get_dead_patients(self, scene_df, verbose=False):
-        sort_columns_list = [cn for cn in scene_df.columns if cn.endswith('_salt')]
         
         # Add EXPECTANT to the treat-as-dead list per Nick
         mask_series = False
-        for cn in sort_columns_list: mask_series |= (scene_df[cn].isin['DEAD', 'EXPECTANT'])
+        for cn in self.salt_columns_list: mask_series |= (scene_df[cn].isin['DEAD', 'EXPECTANT'])
         
         dead_list = scene_df[mask_series].patient_id.unique().tolist()
         
@@ -298,9 +303,8 @@ class FRVRSUtilities(object):
     
     
     def get_still_patients(self, scene_df, verbose=False):
-        sort_columns_list = [cn for cn in scene_df.columns if cn.endswith('_sort')]
         mask_series = False
-        for cn in sort_columns_list: mask_series |= (scene_df[cn] == 'still')
+        for cn in self.sort_columns_list: mask_series |= (scene_df[cn] == 'still')
         still_list = scene_df[mask_series].patient_id.unique().tolist()
         
         return still_list
@@ -409,35 +413,26 @@ class FRVRSUtilities(object):
     def get_measure_of_right_ordering(self, scene_df, verbose=False):
         measure_of_right_ordering = np.nan
         
-        # Group the patients by engagement SORT category and get lists of their elapsed times
-        engaged_sort_dict = {}
-        for sort, patient_engaged_sort_df in scene_df.groupby('patient_engaged_sort'):
-            if sort in ['still', 'waver', 'walker']:
+        # Group the patients by their SORT category and get lists of their elapsed times
+        sort_dict = {}
+        for sort, patient_sort_df in scene_df.groupby('patient_sort'):
+            if sort in self.right_ordering_list:
                 
-                # Get the scene's entire history
-                engaged_patients_mask_series = True
-                for cn in groupby_columns: engaged_patients_mask_series &= (frvrs_logs_df[cn] == eval(cn))
-                
-                # Get the engaged patients
-                patient_ids_list = patient_engaged_sort_df.patient_id.unique().tolist()
-                engaged_patients_mask_series &= frvrs_logs_df.patient_id.isin(patient_ids_list)
-                engaged_patients_mask_series &= (frvrs_logs_df.action_type == 'PATIENT_ENGAGED')
-                engaged_patients_df = frvrs_logs_df[engaged_patients_mask_series]
-                
-                # Loop through the engaged patients to add their first engagements to the action list
+                # Loop through the SORT patients to add their first interactions to the action list
                 action_list = []
-                for patient_id in patient_ids_list:
-                    mask_series = (engaged_patients_df.patient_id == patient_id)
-                    action_list.append(engaged_patients_df[mask_series].elapsed_time.min())
-                engaged_sort_dict[sort] = sorted(action_list)
+                for patient_id in patient_sort_df.patient_id.unique():
+                    mask_series = (scene_df.patient_id == patient_id)
+                    action_list.append(self.get_first_patient_interaction(scene_df[mask_series]))
+                sort_dict[sort] = sorted(action_list)
         
         # Get an R-squared Adjusted as a measure of right ordering
         ideal_sequence = []
-        for sort in ['still', 'waver', 'walker']: ideal_sequence.extend(engaged_sort_dict.get(sort, []))
+        for sort in self.right_ordering_list: ideal_sequence.extend(sort_dict.get(sort, []))
         ideal_sequence = pd.Series(data=ideal_sequence)
         actual_sequence = ideal_sequence.sort_values(ascending=True)
         X, y = ideal_sequence.values.reshape(-1, 1), actual_sequence.values.reshape(-1, 1)
         if X.shape[0]:
+            import statsmodels.api as sm
             X1 = sm.add_constant(X)
             try: measure_of_right_ordering = sm.OLS(y, X1).fit().rsquared_adj
             except: measure_of_right_ordering = np.nan
@@ -504,14 +499,24 @@ class FRVRSUtilities(object):
         return is_patient_still
     
     
-    def get_max_salt(self, patient_df, verbose=False):
+    def get_max_salt(self, patient_df=None, session_uuid=None, scene_index=None, random_patient_id=None, verbose=False):
+        if patient_df is None:
+            scene_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_index == scene_index)
+            
+            # Get a random patient from within the scene
+            if random_patient_id is None: random_patient_id = random.choice(frvrs_logs_df[scene_mask_series].patient_id.unique())
+        
+            # Get the patient data frame
+            mask_series = scene_mask_series & (frvrs_logs_df.patient_id == random_patient_id)
+            patient_df = frvrs_logs_df[mask_series]
         
         # Get the max salt value
         mask_series = patient_df.patient_record_salt.isnull()
         try: max_salt = patient_df[~mask_series].patient_record_salt.max()
         except Exception: max_salt = np.nan
         
-        return max_salt
+        if session_uuid is not None: return random_patient_id, max_salt
+        else: return max_salt
     
     
     def get_last_tag(self, patient_df, verbose=False):
@@ -540,7 +545,7 @@ class FRVRSUtilities(object):
         try: predicted_tag = self.salt_to_tag_dict.get(max_salt, np.nan)
         except Exception: predicted_tag = np.nan
         
-        # Add if tag is correct
+        # Get if tag is correct
         try: is_tag_correct = bool(last_tag == predicted_tag)
         except Exception: is_tag_correct = np.nan
         
@@ -813,7 +818,14 @@ class FRVRSUtilities(object):
             self.visualize_player_movement(base_mask_series, title=title, frvrs_logs_df=frvrs_logs_df)
     
     
-    def show_timelines(self, random_session_uuid=None, random_time_group=None, color_cycler=None, verbose=False):
+    def show_timelines(self, frvrs_logs_df=None, random_session_uuid=None, random_time_group=None, color_cycler=None, verbose=False):
+        if frvrs_logs_df is None:
+            from notebook_utils import NotebookUtilities
+            nu = NotebookUtilities(
+                data_folder_path=self.data_folder,
+                saves_folder_path=self.saves_folder
+            )
+            frvrs_logs_df = nu.load_object('frvrs_logs_df')
         
         # Get a random session
         if random_session_uuid is None:
@@ -973,7 +985,14 @@ class FRVRSUtilities(object):
         plt.show()
     
     
-    def show_gaze_timeline(self, random_session_uuid=None, random_time_group=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False):
+    def show_gaze_timeline(self, frvrs_logs_df=None, random_session_uuid=None, random_time_group=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False):
+        if frvrs_logs_df is None:
+            from notebook_utils import NotebookUtilities
+            nu = NotebookUtilities(
+                data_folder_path=self.data_folder,
+                saves_folder_path=self.saves_folder
+            )
+            frvrs_logs_df = nu.load_object('frvrs_logs_df')
         
         # Get a random session
         if random_session_uuid is None:
@@ -1004,14 +1023,13 @@ class FRVRSUtilities(object):
         if patient_gazes_df.shape[0]:
             
             # For the patient, get a timeline of every reference of gazement
-            hlineys_list = []; hlinexmins_list = []; hlinexmaxs_list = []; hlinecolors_list = []; hlinelabels_list = []
+            hlineys_list = []; hlinexmins_list = []; hlinexmaxs_list = []; hlinelabels_list = []
             hlineaction_types_list = []; vlinexs_list = []
             left_lim = 999999; right_lim = -999999
             
             # Get the broad horizontal line parameters
             y = 0
             hlineys_list.append(y)
-            hlinecolors_list.append(plt.cm.Accent(0))
             hlinelabels_list.append('Player Gaze')
             
             # Get the fine horizontal line parameters and plot dimensions
@@ -1034,8 +1052,8 @@ class FRVRSUtilities(object):
         ax = plt.figure(figsize=(18, 9)).add_subplot(1, 1, 1)
         
         # Add the timelines to the figure subplot axis
-        if verbose: print(hlineys_list, hlinexmins_list, hlinexmaxs_list, hlinecolors_list)
-        line_collection_obj = ax.hlines(hlineys_list, hlinexmins_list, hlinexmaxs_list, colors=hlinecolors_list)
+        if verbose: print(hlineys_list, hlinexmins_list, hlinexmaxs_list)
+        line_collection_obj = ax.hlines(hlineys_list, hlinexmins_list, hlinexmaxs_list)
         
         # Label each timeline with the appropriate patient name
         for label, x, y in zip(hlinelabels_list, hlinexmins_list, hlineys_list): plt.annotate(label, (x, y), textcoords='offset points', xytext=(0, -8), ha='left')
@@ -1046,7 +1064,7 @@ class FRVRSUtilities(object):
             patient_color_dict = {}
             mask_series = ~scene_df.patient_record_salt.isnull()
             for patient_id, patient_df in scene_df[mask_series].groupby('patient_id'):
-                patient_color_dict[patient_id] = fu.salt_to_tag_dict[patient_df.patient_record_salt.max()]
+                patient_color_dict[patient_id] = fu.salt_to_tag_dict[self.get_max_salt(patient_df=patient_df)]
         consec_regex = re.compile(r' x\d+$')
         for annotation_tuple in hlineaction_types_list:
             patient_id, x, y = annotation_tuple

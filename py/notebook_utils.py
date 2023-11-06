@@ -314,7 +314,7 @@ class NotebookUtilities(object):
             A sequence of integers.
             A string to integer map as dictionary.
         """
-        if alphabet_list is None: alphabet_list = list(self.get_alphabet(sequence))
+        if alphabet_list is None: alphabet_list = list(get_alphabet(sequence))
         
         # Create a dictionary to map strings to integers
         string_to_integer_map = {}
@@ -1692,7 +1692,7 @@ class NotebookUtilities(object):
         
         return ax
     
-    def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, verbose=False):
+    def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', verbose=False):
         """
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
         The optional highlighted_ngrams parameter can be one or more n-grams to be outlined in a red box.
@@ -1713,8 +1713,12 @@ class NotebookUtilities(object):
         np_sequence = np.array(sequence)
         
         # Get the unique characters in the sequence and potentially use them to set up the color dictionary
-        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list): alphabet_list = list(get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
-        else: alphabet_list = list(get_alphabet(sequence+highlighted_ngrams))
+        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list): alphabet_list = sorted(get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
+        else: alphabet_list = sorted(get_alphabet(sequence+highlighted_ngrams))
+        if last_element in alphabet_list:
+            alphabet_list.remove(last_element)
+            alphabet_list.append(last_element)
+        if first_element in alphabet_list: alphabet_list.insert(0, alphabet_list.pop(alphabet_list.index(first_element)))
         if color_dict is None: color_dict = {a: None for a in alphabet_list}
         
         # Get the length of the alphabet
