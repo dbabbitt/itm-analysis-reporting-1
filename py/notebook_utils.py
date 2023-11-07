@@ -11,7 +11,6 @@ from os import listdir as listdir, makedirs as makedirs, path as osp
 from pandas import DataFrame, Series, concat, read_csv, read_html
 from pysan.elements import get_alphabet
 from typing import List, Optional
-import humanize
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -139,7 +138,7 @@ class NotebookUtilities(object):
     ### List Functions ###
     
     
-    def conjunctify_nouns(self, noun_list, and_or='and', verbose=False):
+    def conjunctify_nouns(self, noun_list=None, and_or='and', verbose=False):
         """
         Concatenates a list of nouns into a grammatically correct string with specified conjunctions.
         
@@ -1047,11 +1046,12 @@ class NotebookUtilities(object):
         tables_url = 'https://en.wikipedia.org/wiki/Provinces_of_Afghanistan'
         page_tables_list = nu.get_page_tables(tables_url)
         """
+        if self.filepath_regex.fullmatch(tables_url_or_filepath): assert osp.isfile(tables_url_or_filepath), f"{tables_url_or_filepath} doesn't exist"
         if self.url_regex.fullmatch(tables_url_or_filepath) or self.filepath_regex.fullmatch(tables_url_or_filepath):
             tables_df_list = read_html(tables_url_or_filepath)
         else:
-            import io
-            f = io.StringIO(tables_url_or_filepath)
+            from io import StringIO
+            f = StringIO(tables_url_or_filepath)
             tables_df_list = read_html(f)
         if verbose:
             print(sorted([(i, df.shape) for (i, df) in enumerate(tables_df_list)],
@@ -1099,29 +1099,6 @@ class NotebookUtilities(object):
 
         # Return the list of DataFrames
         return table_dfs_list
-
-    def get_page_tables(self, tables_url_or_filepath, verbose=True):
-        """
-        import sys
-        sys.path.insert(1, '../py')
-        from notebook_utils import NotebookUtilities
-        import os
-        nu = NotebookUtilities(data_folder_path=osp.abspath('../data'))
-        tables_url = 'https://en.wikipedia.org/wiki/Provinces_of_Afghanistan'
-        page_tables_list = nu.get_page_tables(tables_url)
-        """
-        if self.filepath_regex.fullmatch(tables_url_or_filepath): assert osp.isfile(tables_url_or_filepath), f"{tables_url_or_filepath} doesn't exist"
-        if self.url_regex.fullmatch(tables_url_or_filepath) or self.filepath_regex.fullmatch(tables_url_or_filepath):
-            tables_df_list = read_html(tables_url_or_filepath)
-        else:
-            from io import StringIO
-            f = StringIO(tables_url_or_filepath)
-            tables_df_list = read_html(f)
-        if verbose:
-            print(sorted([(i, df.shape) for (i, df) in enumerate(tables_df_list)],
-                         key=lambda x: x[1][0]*x[1][1], reverse=True))
-
-        return tables_df_list
     
     ### Pandas Functions ###
     
@@ -1434,7 +1411,7 @@ class NotebookUtilities(object):
     
     def get_color_cycler(self, n):
         """
-        color_cycler = self.get_color_cycler(len(possible_cause_list))
+        color_cycler = nu.get_color_cycler(len(possible_cause_list))
         for possible_cause, face_color_dict in zip(possible_cause_list, color_cycler()):
             face_color = face_color_dict['color']
         """
@@ -1685,6 +1662,7 @@ class NotebookUtilities(object):
         
         # Humanize y tick labels
         yticklabels_list = []
+        import humanize
         for text_obj in ax.get_yticklabels():
             text_obj.set_text(humanize.intword(int(text_obj.get_position()[1])))
             yticklabels_list.append(text_obj)
