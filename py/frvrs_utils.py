@@ -92,6 +92,23 @@ class FRVRSUtilities(object):
         self.salt_to_tag_dict = {'DEAD': 'black', 'EXPECTANT': 'gray', 'IMMEDIATE': 'red', 'DELAYED': 'yellow', 'MINIMAL': 'green'}
         self.sort_to_color_dict = {'still': 'black', 'waver': 'red', 'walker': 'green'}
         
+        # Reordered per Ewart so that the display is from left to right as follows: dead, expectant, immediate, delayed, minimal, not tagged
+        self.salt_types = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
+        self.tag_colors = ['black', 'gray', 'red', 'yellow', 'green', 'Not Tagged']
+        self.error_table_df = pd.DataFrame([
+            {'DEAD': 'Exact', 'EXPECTANT': 'Critical', 'IMMEDIATE': 'Critical', 'DELAYED': 'Critical', 'MINIMAL': 'Critical'},
+            {'DEAD': 'Over',  'EXPECTANT': 'Exact',    'IMMEDIATE': 'Critical', 'DELAYED': 'Critical', 'MINIMAL': 'Critical'},
+            {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Exact',    'DELAYED': 'Over',     'MINIMAL': 'Over'},
+            {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Under',    'DELAYED': 'Exact',    'MINIMAL': 'Over'},
+            {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Under',    'DELAYED': 'Under',    'MINIMAL': 'Exact'}
+        ], columns=self.salt_types, index=self.tag_colors[:-1])
+        
+        # Define the custom categorical orders
+        self.colors_category_order = pd.CategoricalDtype(categories=self.tag_colors, ordered=True)
+        self.salt_category_order = pd.CategoricalDtype(categories=self.salt_types, ordered=True)
+        self.error_values = ['Exact', 'Critical', 'Over', 'Under']
+        self.errors_category_order = pd.CategoricalDtype(categories=self.error_values, ordered=True)
+        
         # Hemorrhage control procedures list
         self.hemorrhage_control_procedures_list = ['tourniquet', 'woundpack']
         
@@ -156,18 +173,44 @@ class FRVRSUtilities(object):
     
     
     def get_new_file_name(self, old_file_name):
-        from datetime import datetime
+        """
+        Generate a new file name based on the timestamp extracted from the old file.
+        
+        Parameters
+        ----------
+        old_file_name : str
+            The name of the old log file.
+
+        Returns
+        -------
+        str
+            The new file name with the updated timestamp.
+        """
+
+        # Construct the full path of the old file
         old_file_path = '../data/logs/' + old_file_name
+        
+        # Open the old file and read its content using the CSV reader
         with open(old_file_path, 'r') as f:
             reader = csv.reader(f, delimiter=',', quotechar='"')
+            
+            # Extract the date string from the first row of the CSV file
             for values_list in reader:
                 date_str = values_list[2]
                 break
+            
+            # Try to parse the date string into a datetime object
+            from datetime import datetime
             try: date_obj = datetime.strptime(date_str, '%m/%d/%Y %H:%M')
             except ValueError: date_obj = datetime.strptime(date_str, '%m/%d/%Y %I:%M:%S %p')
+            
+            # Format the datetime object into a new file name in the format YY.MM.DD.HHMM.csv
             new_file_name = date_obj.strftime('%y.%m.%d.%H%M.csv')
+            
+            # Get the new file path by replacing the old file name with the new file name
             new_file_path = old_file_name.replace(old_file_name.split('/')[-1], new_file_name)
-    
+            
+            # Return the updated file path with the new file name
             return new_file_path
     
     
@@ -175,6 +218,26 @@ class FRVRSUtilities(object):
     
     
     def get_session_groupby(self, frvrs_logs_df=None, mask_series=None, extra_column=None):
+        """
+        Group the FRVRS logs DataFrame by session UUID, with optional additional grouping by an extra column,
+        based on the provided mask and extra column parameters.
+
+        Parameters
+        ----------
+        frvrs_logs_df : pd.DataFrame, optional
+            DataFrame containing the FRVRS logs data, by default None. If None, loads the data from file.
+        mask_series : pd.Series, optional
+            Boolean mask to filter rows of frvrs_logs_df, by default None.
+        extra_column : str, optional
+            Additional column for further grouping, by default None.
+
+        Returns
+        -------
+        pd.DataFrameGroupBy
+            GroupBy object grouped by session UUID, and, if provided, the extra column.
+        """
+        
+        # Check if frvrs_logs_df is provided, if not, load it from file
         if frvrs_logs_df is None:
             from notebook_utils import NotebookUtilities
             nu = NotebookUtilities(
@@ -182,19 +245,40 @@ class FRVRSUtilities(object):
                 saves_folder_path=self.saves_folder
             )
             frvrs_logs_df = nu.load_object('frvrs_logs_df')
+        
+        # Apply grouping based on the provided parameters
         if (mask_series is None) and (extra_column is None):
-            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid'])
+            gb = frvrs_logs_df.sort_values(['action_tick']).groupby(['session_uuid'])
         elif (mask_series is None) and (extra_column is not None):
-            gb = frvrs_logs_df.sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
+            gb = frvrs_logs_df.sort_values(['action_tick']).groupby(['session_uuid', extra_column])
         elif (mask_series is not None) and (extra_column is None):
-            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid'])
+            gb = frvrs_logs_df[mask_series].sort_values(['action_tick']).groupby(['session_uuid'])
         elif (mask_series is not None) and (extra_column is not None):
-            gb = frvrs_logs_df[mask_series].sort_values(['elapsed_time']).groupby(['session_uuid', extra_column])
-    
+            gb = frvrs_logs_df[mask_series].sort_values(['action_tick']).groupby(['session_uuid', extra_column])
+        
+        # Return the grouped data
         return gb
     
     
     def get_is_a_one_triage_file(self, session_df, file_name=None, verbose=False):
+        """
+        Check if a session DataFrame has only one triage run.
+
+        Parameters
+        ----------
+        session_df : pd.DataFrame
+            DataFrame containing session data for a specific file.
+        file_name : str, optional
+            The name of the file to be checked, by default None.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+
+        Returns
+        -------
+        bool
+            True if the file contains only one triage run, False otherwise.
+        """
+        # Check if 'is_a_one_triage_file' column exists in the session data frame
         if 'is_a_one_triage_file' in session_df.columns: is_a_one_triage_file = session_df.is_a_one_triage_file.unique().item()
         else:
             
@@ -204,82 +288,279 @@ class FRVRSUtilities(object):
             
             # Add the scene type for each run
             actions_list = []
-            for scene_index, scene_df in session_df[mask_series].groupby('scene_index'): actions_list.append(
-                self.get_scene_type(scene_df)
-            )
-
+            for scene_index, scene_df in session_df[mask_series].groupby('scene_index'): actions_list.append(self.get_scene_type(scene_df))
+            
             # Get whether the file has only one triage run
             is_a_one_triage_file = bool(actions_list.count('Triage') == 1)
         
+        if verbose:
+            print('File name: {}'.format(file_name))
+            print('Is a one triage file: {}'.format(is_a_one_triage_file))
+        
+        # Return True if the file has only one triage run, False otherwise
         return is_a_one_triage_file
     
     
     def get_file_name(self, session_df, verbose=False):
-        file_name = session_df.file_name.unique().item()
+        """
+        Retrieve the unique file name associated with the given session DataFrame.
 
+        Parameters
+        ----------
+        session_df : pd.DataFrame
+            DataFrame containing session data.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+
+        Returns
+        -------
+        str
+            The unique file name associated with the session DataFrame.
+        """
+        
+        # Extract the unique file name from the session DataFrame
+        file_name = session_df.file_name.unique().item()
+        
+        if verbose: print('File name: {}'.format(file_name))
+        
+        # Return the unique file name
         return file_name
     
     
     def get_logger_version(self, session_df, verbose=False):
+        """
+        Retrieve the unique logger version associated with the given session DataFrame.
+
+        Parameters
+        ----------
+        session_df : pd.DataFrame
+            DataFrame containing session data.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+
+        Returns
+        -------
+        str
+            The unique logger version associated with the session DataFrame.
+        """
         
+        # Extract the unique logger version from the session DataFrame
         logger_version = session_df.logger_version.unique().item()
         
+        # Print verbose output
+        if verbose: print('Logger version: {}'.format(logger_version))
+        
+        # Return the unique logger version
         return logger_version
     
     
     def get_is_duplicate_file(self, session_df, verbose=False):
+        """
+        Check if a session DataFrame is a duplicate file, i.e., if there is more than one unique file name for the session UUID.
+        
+        Parameters
+        ----------
+        session_df : pd.DataFrame
+            DataFrame containing session data for a specific session UUID.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        bool
+            True if the file has duplicate names for the same session UUID, False otherwise.
+        """
         
         # Filter all the rows that have more than one unique value in the file_name for the session_uuid
         is_duplicate_file = bool(session_df.file_name.unique().shape[0] > 1)
         
+        if verbose: print('Is duplicate file: {}'.format(is_duplicate_file))
+        
+        # Return True if the file has duplicate names, False otherwise
         return is_duplicate_file
+    
     
     ### Scene Functions ###
     
     
     def get_scene_start(self, scene_df, verbose=False):
-        run_start = scene_df.elapsed_time.min()
+        """
+        Get the start time of the scene DataFrame run.
         
+        Parameters
+        ----------
+        scene_df : pd.DataFrame
+            DataFrame containing data for a specific scene.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        float
+            The start time of the scene in milliseconds.
+        """
+        
+        # Find the minimum elapsed time to get the scene start time
+        run_start = scene_df.action_tick.min()
+        
+        if verbose: print('Scene start: {}'.format(run_start))
+        
+        # Return the start time of the scene
         return run_start
     
     
     def get_last_engagement(self, scene_df, verbose=False):
-        action_mask_series = (scene_df.action_type == 'PATIENT_ENGAGED')
-        last_engagement = scene_df[action_mask_series].elapsed_time.max()
+        """
+        Get the last time a patient was engaged in the given scene DataFrame.
         
+        Parameters
+        ----------
+        scene_df : pd.DataFrame
+            DataFrame containing scene-specific data.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        int
+            Timestamp of the last patient engagement in the scene DataFrame, in milliseconds.
+        """
+        
+        # Get the mask for the PATIENT_ENGAGED actions
+        action_mask_series = (scene_df.action_type == 'PATIENT_ENGAGED')
+        
+        # Find the maximum elapsed time among rows satisfying the action mask
+        last_engagement = scene_df[action_mask_series].action_tick.max()
+        
+        # Print verbose output if enabled
+        if verbose: print('Last engagement time: {}'.format(last_engagement))
+        
+        # Return the last engagement time
         return last_engagement
     
     
     def get_is_scene_aborted(self, scene_df, verbose=False):
+        """
+        Gets whether or not a scene is aborted.
+        
+        Parameters
+        ----------
+        scene_df : pd.DataFrame
+            DataFrame containing data for a specific scene.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        bool
+            True if the scene is aborted, False otherwise.
+        """
+        
+        # Check if the is_scene_aborted column exists in the scene data frame, and get the unique value if it is
         if 'is_scene_aborted' in scene_df.columns: is_scene_aborted = scene_df.is_scene_aborted.unique().item()
+        
         else:
+            
+            # Calculate the time duration between scene start and last engagement
             scene_start = self.get_scene_start(scene_df, verbose=verbose)
+        
+            # Get the last engagement time
             last_engagement = self.get_last_engagement(scene_df, verbose=verbose)
+        
+            # Calculate the time difference between the scene start and the last engagement
             start_to_last_engagement = last_engagement - scene_start
+            
+            # Define the threshold for scene abortion (sixteen minutes)
             sixteen_minutes = 1_000 * 60 * 16
+            
+            # Determine if the scene is aborted based on the time duration
             is_scene_aborted = bool(start_to_last_engagement > sixteen_minutes)
         
+        # Return True if the scene is aborted, False otherwise
         return is_scene_aborted
     
     
     def get_scene_type(self, scene_df, verbose=False):
+        """
+        Gets the type of a scene.
+        
+        Parameters
+        ----------
+        scene_df : pd.DataFrame
+            DataFrame containing data for a specific scene.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+
+        Returns
+        -------
+        str
+            The type of the scene, e.g., 'Triage', 'Orientation', etc.
+        """
+        
+        # Check if the scene_type column exists in the scene data frame, and get the unique value if it is
         if 'scene_type' in scene_df.columns: scene_type = scene_df.scene_type.unique().item()
+        
         else:
+            
+            # Default scene type is 'Triage'
             scene_type = 'Triage'
+            
+            # Check if all of the patient IDs in the scene DataFrame contain the string 'mike', and, if so, set the scene type to 'Orientation'
             if scene_df.patient_id.transform(lambda srs: all(srs.str.lower().str.contains('mike'))): scene_type = 'Orientation'
         
+        # Return the scene type
         return scene_type
     
     
     def get_scene_end(self, scene_df, verbose=False):
-        run_end = scene_df.elapsed_time.max()
+        """
+        Calculate the end time of a scene based on the maximum elapsed time in the input DataFrame.
         
+        Parameters
+        ----------
+        scene_df : pandas.DataFrame
+            A Pandas DataFrame containing the scene data.
+        verbose : bool, optional
+            Whether to print additional information. Default is False.
+        
+        Returns
+        -------
+        int
+            End time of the scene calculated as the maximum elapsed time, in milliseconds.
+        """
+        
+        # Get the maximum elapsed time in the scene
+        run_end = scene_df.action_tick.max()
+        
+        # If verbose is True, print the end time
+        if verbose: print(f'Scene end time calculated: {run_end}')
+        
+        # Return the end time
         return run_end
     
     
     def get_triage_time(self, scene_df, verbose=False):
+        """
+        Calculates the triage time for a scene.
+        
+        Parameters
+        ----------
+        scene_df : pandas.DataFrame
+            DataFrame containing scene data.
+        verbose : bool, optional
+            Whether to print verbose output.
+        
+        Returns
+        -------
+        int
+            Triage time in milliseconds.
+        """
+        
+        # Get the scene start and end times
         time_start = self.get_scene_start(scene_df, verbose=verbose)
         time_stop = self.get_scene_end(scene_df, verbose=verbose)
+        
+        # Calculate the triage time
         triage_time = time_stop - time_start
         
         return triage_time
@@ -326,6 +607,14 @@ class FRVRSUtilities(object):
     
     def get_injury_treated_count(self, scene_df, verbose=False):
         mask_series = (scene_df.injury_treated_injury_treated == True)
+        
+        injury_treated_count = scene_df[mask_series].shape[0]
+        
+        return injury_treated_count
+    
+    
+    def get_injury_not_treated_count(self, scene_df, verbose=False):
+        mask_series = (scene_df.injury_treated_injury_treated == False)
         
         injury_treated_count = scene_df[mask_series].shape[0]
         
@@ -442,16 +731,47 @@ class FRVRSUtilities(object):
     
     def get_first_engagement(self, scene_df, verbose=False):
         action_mask_series = (scene_df.action_type == 'PATIENT_ENGAGED')
-        first_engagement = scene_df[action_mask_series].elapsed_time.min()
+        first_engagement = scene_df[action_mask_series].action_tick.min()
         
         return first_engagement
     
     
     def get_first_treatment(self, scene_df, verbose=False):
         action_mask_series = (scene_df.action_type == 'INJURY_TREATED')
-        first_treatment = scene_df[action_mask_series].elapsed_time.min()
+        first_treatment = scene_df[action_mask_series].action_tick.min()
         
         return first_treatment
+    
+    
+    def get_percent_hemorrhage_controlled(self, scene_df, verbose=False):
+        mask_series = scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        hemorrhage_count = scene_df[mask_series].shape[0]
+        mask_series = scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        controlled_count = scene_df[mask_series].shape[0]
+        try: percent_controlled = 100 * controlled_count / hemorrhage_count
+        except ZeroDivisionError: percent_controlled = np.nan
+        
+        return percent_controlled
+    
+    
+    def get_time_to_last_hemorrhage_controlled(self, scene_df, verbose=False):
+        on_columns_list = ['patient_id', 'injury_id']
+        merge_columns_list = ['action_tick'] + on_columns_list
+        
+        mask_series = scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        hemorrhage_df = scene_df[mask_series][merge_columns_list]
+        if verbose: display(hemorrhage_df)
+        
+        mask_series = scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        controlled_df = scene_df[mask_series][merge_columns_list]
+        if verbose: display(controlled_df)
+        
+        df = hemorrhage_df.merge(controlled_df, on=on_columns_list, suffixes=('_hemorrhage', '_controlled'))
+        if verbose: display(df)
+        
+        last_controlled_time = df.action_tick_controlled.max()
+        
+        return last_controlled_time
     
     
     ### Patient Functions ###
@@ -554,7 +874,7 @@ class FRVRSUtilities(object):
     
     def get_first_patient_interaction(self, patient_df, verbose=False):
         mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
-        engagement_start = patient_df[mask_series].elapsed_time.min()
+        engagement_start = patient_df[mask_series].action_tick.min()
         
         return engagement_start
     
@@ -562,7 +882,7 @@ class FRVRSUtilities(object):
     def get_last_patient_interaction(self, patient_df, verbose=False):
         mask_series = (patient_df.action_type.isin(self.action_types_list))
         mask_series |= ((patient_df.action_type == 'VOICE_COMMAND') & (patient_df.voice_command_message.isin(self.command_messages_list)))
-        engagement_end = patient_df[mask_series].elapsed_time.max()
+        engagement_end = patient_df[mask_series].action_tick.max()
         
         return engagement_end
     
@@ -574,6 +894,74 @@ class FRVRSUtilities(object):
         gazed_at_patient = bool(patient_df[mask_series].shape[0])
         
         return gazed_at_patient
+    
+    
+    def get_wanderings(self, patient_df, verbose=False):
+        x_dim = []; z_dim = []
+        location_cns_list = [
+            'patient_demoted_position', 'patient_engaged_position', 'patient_record_position', 'player_gaze_location'
+        ]
+        
+        # Create the melt data frame
+        mask_series = False
+        for location_cn in location_cns_list: mask_series |= ~patient_df[location_cn].isnull()
+        columns_list = ['action_tick'] + location_cns_list
+        melt_df = patient_df[mask_series][columns_list].sort_values('action_tick')
+        
+        # Split the location columns into two columns using melt and convert the location into a tuple
+        df = melt_df.melt(id_vars=['action_tick'], value_vars=location_cns_list).sort_values('action_tick')
+        mask_series = ~df['value'].isnull()
+        if verbose: display(df[mask_series])
+        srs = df[mask_series]['value'].map(lambda x: eval(x))
+        
+        # Grab the x and z dimensions and return them
+        x_dim.extend(srs.map(lambda x: x[0]).values)
+        z_dim.extend(srs.map(lambda x: x[2]).values)
+        
+        return x_dim, z_dim
+    
+    
+    def get_wrapped_label(self, patient_df, verbose=False):
+        
+        # Pick from among the sort columns whichever value is not null and use that in the label
+        columns_list = ['patient_demoted_sort', 'patient_engaged_sort', 'patient_record_sort']
+        srs = patient_df[columns_list].apply(pd.Series.notnull, axis='columns').sum()
+        mask_series = (srs > 0)
+        sort_cns_list = srs[mask_series].index.tolist()[0]
+    
+        # Generate a wrapped label
+        patient_id = patient_df.patient_id.unique().item()
+        label = patient_id.replace(' Root', ' (') + patient_df[sort_cns_list].dropna().iloc[-1] + ')'
+        import textwrap
+        label = '\n'.join(textwrap.wrap(label, width=20))
+        
+        return label
+    
+    
+    def is_patient_hemorrhaging(self, patient_df, verbose=False):
+        mask_series = patient_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        
+        return bool(patient_df[mask_series].shape[0])
+    
+    
+    def get_time_to_hemorrhage_control(self, patient_df, verbose=False):
+        on_columns_list = ['injury_id']
+        merge_columns_list = ['action_tick'] + on_columns_list
+        
+        mask_series = patient_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        hemorrhage_df = patient_df[mask_series][merge_columns_list]
+        if verbose: display(hemorrhage_df)
+        
+        mask_series = patient_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        controlled_df = patient_df[mask_series][merge_columns_list]
+        if verbose: display(controlled_df)
+        
+        df = hemorrhage_df.merge(controlled_df, on=on_columns_list, suffixes=('_hemorrhage', '_controlled'))
+        if verbose: display(df)
+        
+        controlled_time = df.action_tick_controlled.max()
+        
+        return controlled_time
     
     ### Injury Functions ###
     
@@ -628,19 +1016,93 @@ class FRVRSUtilities(object):
         # the right tool was applied after that.
         mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
         
-        bleeding_treated_time = injury_df[mask_series].elapsed_time.max()
+        bleeding_treated_time = injury_df[mask_series].action_tick.max()
         
         return bleeding_treated_time
     
     ### Plotting Functions ###
     
     
-    def visualize_player_movement(self, session_mask, title=None, save_only=False, nu=None, verbose=False):
+    def visualize_order_of_engagement(self, scene_df, nu=None, verbose=False):
+        
+        # Get the engagement order
+        engagement_starts_list = []
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            engagement_start = self.get_first_patient_interaction(patient_df)
+            mask_series = (patient_df.action_tick == engagement_start) & ~patient_df.location_id.isnull()
+            if patient_df[mask_series].shape[0]:
+                engagement_location = eval(patient_df[mask_series].location_id.tolist()[0])
+                location_tuple = (engagement_location[0], engagement_location[2])
+                engagement_tuple = (patient_id, engagement_start, location_tuple)
+                engagement_starts_list.append(engagement_tuple)
+        engagement_order = sorted(engagement_starts_list, key=lambda x: x[1], reverse=False)
+        
+        # Create a figure and add a subplot
+        fig, ax = plt.subplots(figsize=(18, 9))
+        
+        # Show the positions of patients recorded and engaged at our scene
+        if nu is None:
+            from notebook_utils import NotebookUtilities
+            nu = NotebookUtilities(
+                data_folder_path=self.data_folder,
+                saves_folder_path=self.saves_folder
+            )
+        color_cycler = nu.get_color_cycler(scene_df.groupby('patient_id').size().shape[0])
+        
+        for engagement_tuple, face_color_dict in zip(engagement_order, color_cycler()):
+    
+            # Get the entire patient history
+            patient_id = engagement_tuple[0]
+            mask_series = (scene_df.patient_id == patient_id)
+            patient_df = scene_df[mask_series]
+            
+            # Get all the wanderings
+            x_dim, z_dim = self.get_wanderings(patient_df)
+            
+            # Generate a wrapped label
+            label = self.get_wrapped_label(patient_df)
+            
+            # Plot the ball and chain
+            face_color = face_color_dict['color']
+            ax.plot(x_dim, z_dim, color=face_color, alpha=1.0, label=label)
+            ax.scatter(x_dim, z_dim, color=face_color, alpha=1.0)
+            
+            # Get the first of the engagement coordinates and label the patient there
+            location_tuple = engagement_tuple[2]
+            plt.annotate(label, location_tuple, textcoords='offset points', xytext=(0, -8), ha='center', va='center')
+        
+        # Create new FancyArrowPatch objects for each arrow and add the arrows to the plot
+        import matplotlib.patches as mpatches
+        for (first_tuple, second_tuple) in zip(engagement_order[:-1], engagement_order[1:]):
+            first_location = first_tuple[2]
+            second_location = second_tuple[2]
+            if verbose: print(first_location, second_location)
+            arrow_obj = mpatches.FancyArrowPatch(
+                first_location, second_location,
+                mutation_scale=50, color='grey', linewidth=2, alpha=0.25
+            )
+            ax.add_patch(arrow_obj)
+        
+        # Add labels
+        ax.set_xlabel('X')
+        ax.set_ylabel('Z')
+        
+        # Move the left and right borders to make room for the legend
+        left_lim, right_lim = ax.get_xlim()
+        xlim_tuple = ax.set_xlim(left_lim-1.5, right_lim+1.5)
+        ax.legend(loc='best')
+        
+        # Add title
+        title = f'Order-of-Engagement Map for UUID {scene_df.session_uuid.unique().item()} ({humanize.ordinal(scene_df.scene_index.unique().item()+1)} Scene)'
+        ax.set_title(title);
+    
+    
+    def visualize_player_movement(self, scene_mask, title=None, save_only=False, nu=None, verbose=False):
         """
         Visualizes the player movement for the given session mask in a 2D plot.
     
         Args:
-            session_mask (pandas.Series): A boolean mask indicating which rows of the frvrs_logs_df DataFrame belong to the current session.
+            scene_mask (pandas.Series): A boolean mask indicating which rows of the frvrs_logs_df DataFrame belong to the current scene.
             title (str, optional): The title of the plot, if saving.
             save_only (bool, optional): Whether to only save the plot to a PNG file and not display it.
             frvrs_logs_df (pandas.DataFrame, optional): A DataFrame containing the FRVRS logs.
@@ -653,12 +1115,12 @@ class FRVRSUtilities(object):
         Note:
         - This function visualizes player movement based on data in the DataFrame `frvrs_logs_df`.
         - It can display player positions, locations, and teleportations.
-        - Use `session_mask` to filter the data for a specific session.
+        - Use `scene_mask` to filter the data for a specific scene.
         - Set `save_only` to True to save the plot as a PNG file with the specified `title`.
         - Set `verbose` to True to enable verbose printing.
         """
-    
-        # Load the notebook utilities if not provided.
+        
+        # Load the notebook utilities if not provided
         if nu is None:
             from notebook_utils import NotebookUtilities
             nu = NotebookUtilities(
@@ -685,33 +1147,17 @@ class FRVRSUtilities(object):
             fig, ax = plt.subplots(figsize=(18, 9))
             
             # Show the positions of patients recorded and engaged at our time group and session UUID
-            color_cycler = nu.get_color_cycler(frvrs_logs_df[session_mask].groupby('patient_id').size().shape[0])
-            location_cns_list = [
-                'patient_demoted_position', 'patient_engaged_position', 'patient_record_position', 'player_gaze_location'
-            ]
-            for (patient_id, patient_df), face_color_dict in zip(frvrs_logs_df[session_mask].sort_values('elapsed_time').groupby('patient_id'), color_cycler()):
-                x_dim = []; y_dim = []; z_dim = []
-                for location_cn in location_cns_list:
-                    mask_series = patient_df[location_cn].isnull()
-                    srs = patient_df[~mask_series][location_cn].map(lambda x: eval(x))
-                    x_dim.extend(srs.map(lambda x: x[0]).values)
-                    y_dim.extend(srs.map(lambda x: x[1]).values)
-                    z_dim.extend(srs.map(lambda x: x[2]).values)
-    
-                face_color = face_color_dict['color']
+            color_cycler = nu.get_color_cycler(frvrs_logs_df[scene_mask].groupby('patient_id').size().shape[0])
+            for (patient_id, patient_df), face_color_dict in zip(frvrs_logs_df[scene_mask].sort_values('action_tick').groupby('patient_id'), color_cycler()):
                 
-                # Pick from among the sort columns whichever value is not null and use that in the label
-                columns_list = ['patient_demoted_sort', 'patient_engaged_sort', 'patient_record_sort']
-                srs = patient_df[columns_list].apply(pd.Series.notnull, axis='columns').sum()
-                mask_series = (srs > 0)
-                cn = srs[mask_series].index.iloc[0]
-                if (type(patient_id) == tuple): patient_id = patient_id[0]
-    
+                # Get all the wanderings
+                x_dim, z_dim = self.get_wanderings(patient_df)
+                
                 # Generate a wrapped label
-                label = patient_id.replace(' Root', ' (') + patient_df[cn].dropna().iloc[-1] + ')'
-                label = '\n'.join(textwrap.wrap(label, width=20))
+                label = self.get_wrapped_label(patient_df)
     
                 # Plot the ball and chain
+                face_color = face_color_dict['color']
                 ax.plot(x_dim, z_dim, color=face_color, alpha=1.0, label=label)
                 ax.scatter(x_dim, z_dim, color=face_color, alpha=1.0)
                 
@@ -728,11 +1174,11 @@ class FRVRSUtilities(object):
             
             # Visualize locations
             x_dim = []; z_dim = []; label = ''
-            mask_series = (frvrs_logs_df.action_type == 'PLAYER_LOCATION') & session_mask
+            mask_series = (frvrs_logs_df.action_type == 'PLAYER_LOCATION') & scene_mask
             locations_df = frvrs_logs_df[mask_series]
             if locations_df.shape[0]:
                 label = 'locations'
-                locations_df = locations_df.sort_values(['elapsed_time'])
+                locations_df = locations_df.sort_values(['action_tick'])
                 for player_location_location in locations_df.player_location_location:
                     player_location_location = eval(player_location_location)
                     x_dim.append(player_location_location[0])
@@ -745,11 +1191,11 @@ class FRVRSUtilities(object):
             
             # Visualize teleportations
             x_dim = []; z_dim = []; label = ''
-            mask_series = (frvrs_logs_df.action_type == 'TELEPORT') & session_mask
+            mask_series = (frvrs_logs_df.action_type == 'TELEPORT') & scene_mask
             teleports_df = frvrs_logs_df[mask_series]
             if teleports_df.shape[0]:
                 label = 'teleportations'
-                teleports_df = teleports_df.sort_values(['elapsed_time'])
+                teleports_df = teleports_df.sort_values(['action_tick'])
                 for teleport_location in teleports_df.teleport_location:
                     teleport_location = eval(teleport_location)
                     x_dim.append(teleport_location[0])
@@ -780,7 +1226,7 @@ class FRVRSUtilities(object):
     
     def visualize_extreme_player_movement(
         self, df, sorting_column, mask_series=None, is_ascending=True, humanize_type='precisedelta',
-        title_str='slowest action to control time', frvrs_logs_df=None, verbose=False
+        title_str='slowest action to control time', nu=None, verbose=False
     ):
         """
         Get time group with some edge case and visualize the player movement there
@@ -792,17 +1238,17 @@ class FRVRSUtilities(object):
         ).head(1)
         if df1.shape[0]:
             session_uuid = df1.session_uuid.squeeze()
-            time_group = df1.time_group.squeeze()
-            if frvrs_logs_df is None:
+            scene_index = df1.scene_index.squeeze()
+            if nu is None:
                 from notebook_utils import NotebookUtilities
                 nu = NotebookUtilities(
                     data_folder_path=self.data_folder,
                     saves_folder_path=self.saves_folder
                 )
-                frvrs_logs_df = nu.load_object('frvrs_logs_df')
-            base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.time_group == time_group)
+            frvrs_logs_df = nu.load_object('frvrs_logs_df')
+            base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_index == scene_index)
             
-            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(time_group+1)} Scene)'
+            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(scene_index+1)} Scene)'
             title += f' showing trainee with the {title_str} ('
             if is_ascending:
                 column_value = df1[sorting_column].min()
@@ -815,10 +1261,10 @@ class FRVRSUtilities(object):
                 title += str(100 * column_value) + '%)'
             elif (humanize_type == 'intword'):
                 title += humanize.intword(column_value) + ')'
-            self.visualize_player_movement(base_mask_series, title=title, frvrs_logs_df=frvrs_logs_df)
+            self.visualize_player_movement(base_mask_series, title=title, nu=nu)
     
     
-    def show_timelines(self, frvrs_logs_df=None, random_session_uuid=None, random_time_group=None, color_cycler=None, verbose=False):
+    def show_timelines(self, frvrs_logs_df=None, random_session_uuid=None, random_scene_index=None, color_cycler=None, verbose=False):
         if frvrs_logs_df is None:
             from notebook_utils import NotebookUtilities
             nu = NotebookUtilities(
@@ -832,19 +1278,19 @@ class FRVRSUtilities(object):
             random_session_uuid = random.choice(self.frvrs_logs_df.session_uuid.unique())
         
         # Get a random scene from within the session
-        if random_time_group is None:
+        if random_scene_index is None:
             mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid)
-            random_time_group = random.choice(self.frvrs_logs_df[mask_series].scene_index.unique())
+            random_scene_index = random.choice(self.frvrs_logs_df[mask_series].scene_index.unique())
         
         # Get the scene mask
-        scene_mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid) & (self.frvrs_logs_df.scene_index == random_time_group)
+        scene_mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid) & (self.frvrs_logs_df.scene_index == random_scene_index)
         
         # Get the event time and elapsed time of each person engaged
         mask_series = scene_mask_series & self.frvrs_logs_df.action_type.isin([
             'PATIENT_ENGAGED', 'INJURY_TREATED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'
         ])
-        columns_list = ['patient_id', 'elapsed_time']
-        patient_engagements_df = self.frvrs_logs_df[mask_series][columns_list].sort_values(['elapsed_time'])
+        columns_list = ['patient_id', 'action_tick']
+        patient_engagements_df = self.frvrs_logs_df[mask_series][columns_list].sort_values(['action_tick'])
         if verbose: display(patient_engagements_df)
         if patient_engagements_df.shape[0]:
             
@@ -866,28 +1312,28 @@ class FRVRSUtilities(object):
                 
                 # Create the filter for the first scene
                 mask_series = scene_mask_series & (self.frvrs_logs_df.patient_id == random_patient_id)
-                elapsed_time = patient_df.elapsed_time.max()
-                mask_series &= (self.frvrs_logs_df.elapsed_time <= elapsed_time)
+                action_tick = patient_df.action_tick.max()
+                mask_series &= (self.frvrs_logs_df.action_tick <= action_tick)
                 
-                df1 = self.frvrs_logs_df[mask_series].sort_values(['elapsed_time'])
+                df1 = self.frvrs_logs_df[mask_series].sort_values(['action_tick'])
                 if verbose: display(df1)
                 if df1.shape[0]:
                     
                     # Get the fine horizontal line parameters and plot dimensions
-                    xmin = df1.elapsed_time.min(); hlinexmins_list.append(xmin);
+                    xmin = df1.action_tick.min(); hlinexmins_list.append(xmin);
                     if xmin < left_lim: left_lim = xmin
-                    xmax = df1.elapsed_time.max(); hlinexmaxs_list.append(xmax);
+                    xmax = df1.action_tick.max(); hlinexmaxs_list.append(xmax);
                     if xmax > right_lim: right_lim = xmax
                     
                     # Get the vertical line parameters
                     mask_series = df1.action_type.isin(['SESSION_END', 'SESSION_START'])
-                    for x in df1[mask_series].elapsed_time:
+                    for x in df1[mask_series].action_tick:
                         vlinexs_list.append(x)
                     
                     # Get the action type annotation parameters
                     mask_series = df1.action_type.isin(['INJURY_TREATED', 'PATIENT_ENGAGED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'])
                     for label, action_type_df in df1[mask_series].groupby('action_type'):
-                        for x in action_type_df.elapsed_time:
+                        for x in action_type_df.action_tick:
                             annotation_tuple = (label.lower().replace('_', ' '), x, y)
                             hlineaction_types_list.append(annotation_tuple)
         
@@ -919,7 +1365,7 @@ class FRVRSUtilities(object):
         xlim_tuple = ax.set_xlim(left_lim-10_000, right_lim+10_000)
         
         # Set the title and labels
-        ax.set_title(f'Multi-Patient Timeline for UUID {random_session_uuid} and Scene {random_time_group}')
+        ax.set_title(f'Multi-Patient Timeline for UUID {random_session_uuid} and Scene {random_scene_index}')
         ax.set_xlabel('Elapsed Time since Scene Start')
         
         # tick_labels = ax.get_xticklabels()
@@ -938,7 +1384,7 @@ class FRVRSUtilities(object):
             Text(1100000.0, 0, humanize.precisedelta(timedelta(milliseconds=1100000.0)).replace(', ', ',\n').replace(' and ', ' and\n'))
         ]);
     
-        return random_session_uuid, random_time_group
+        return random_session_uuid, random_scene_index
     
     
     def plot_grouped_box_and_whiskers(self, transformable_df, x_column_name, y_column_name, x_label, y_label, transformer_name='min', is_y_temporal=True):    
@@ -985,7 +1431,7 @@ class FRVRSUtilities(object):
         plt.show()
     
     
-    def show_gaze_timeline(self, frvrs_logs_df=None, random_session_uuid=None, random_time_group=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False):
+    def show_gaze_timeline(self, frvrs_logs_df=None, random_session_uuid=None, random_scene_index=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False):
         if frvrs_logs_df is None:
             from notebook_utils import NotebookUtilities
             nu = NotebookUtilities(
@@ -1001,20 +1447,20 @@ class FRVRSUtilities(object):
             random_session_uuid = random.choice(frvrs_logs_df[mask_series].session_uuid.unique())
         
         # Get a random scene from within the session
-        if random_time_group is None:
+        if random_scene_index is None:
             mask_series = (frvrs_logs_df.session_uuid == random_session_uuid)
             mask_series &= (frvrs_logs_df.action_type.isin(['PLAYER_GAZE']))
             mask_series &= ~frvrs_logs_df.player_gaze_patient_id.isnull()
-            random_time_group = random.choice(frvrs_logs_df[mask_series].scene_index.unique())
+            random_scene_index = random.choice(frvrs_logs_df[mask_series].scene_index.unique())
         
         # Get the scene mask
-        scene_mask_series = (frvrs_logs_df.session_uuid == random_session_uuid) & (frvrs_logs_df.scene_index == random_time_group)
+        scene_mask_series = (frvrs_logs_df.session_uuid == random_session_uuid) & (frvrs_logs_df.scene_index == random_scene_index)
         
         # Get the elapsed time of the player gaze
         mask_series = scene_mask_series & (frvrs_logs_df.action_type.isin(['PLAYER_GAZE', 'SESSION_END', 'SESSION_START']))
-        columns_list = ['elapsed_time', 'patient_id']
-        patient_gazes_df = frvrs_logs_df[mask_series][columns_list].sort_values(['elapsed_time'])
-        patient_gazes_df['time_diff'] = patient_gazes_df.elapsed_time.diff()
+        columns_list = ['action_tick', 'patient_id']
+        patient_gazes_df = frvrs_logs_df[mask_series][columns_list].sort_values(['action_tick'])
+        patient_gazes_df['time_diff'] = patient_gazes_df.action_tick.diff()
         for patient_id in patient_gazes_df.patient_id.unique():
             patient_gazes_df = self.replace_consecutive_rows(
                 patient_gazes_df, 'patient_id', patient_id, time_diff_column='time_diff', consecutive_cutoff=consecutive_cutoff
@@ -1033,20 +1479,20 @@ class FRVRSUtilities(object):
             hlinelabels_list.append('Player Gaze')
             
             # Get the fine horizontal line parameters and plot dimensions
-            xmin = patient_gazes_df.elapsed_time.min(); hlinexmins_list.append(xmin);
+            xmin = patient_gazes_df.action_tick.min(); hlinexmins_list.append(xmin);
             if xmin < left_lim: left_lim = xmin
-            xmax = patient_gazes_df.elapsed_time.max(); hlinexmaxs_list.append(xmax);
+            xmax = patient_gazes_df.action_tick.max(); hlinexmaxs_list.append(xmax);
             if xmax > right_lim: right_lim = xmax
             
             for row_index, row_series in patient_gazes_df.iterrows():
                 # for cn in columns_list: exec(f'{cn} = row_series.{cn}')
-                elapsed_time = row_series.elapsed_time
+                action_tick = row_series.action_tick
                 patient_id = row_series.patient_id
                 time_diff = row_series.time_diff
                 
                 # Get the player gaze annotation parameters
                 if not pd.isna(patient_id):
-                    annotation_tuple = (patient_id, elapsed_time, y)
+                    annotation_tuple = (patient_id, action_tick, y)
                     hlineaction_types_list.append(annotation_tuple)
         
         ax = plt.figure(figsize=(18, 9)).add_subplot(1, 1, 1)
@@ -1064,7 +1510,7 @@ class FRVRSUtilities(object):
             patient_color_dict = {}
             mask_series = ~scene_df.patient_record_salt.isnull()
             for patient_id, patient_df in scene_df[mask_series].groupby('patient_id'):
-                patient_color_dict[patient_id] = fu.salt_to_tag_dict[self.get_max_salt(patient_df=patient_df)]
+                patient_color_dict[patient_id] = self.salt_to_tag_dict[self.get_max_salt(patient_df=patient_df)]
         consec_regex = re.compile(r' x\d+$')
         for annotation_tuple in hlineaction_types_list:
             patient_id, x, y = annotation_tuple
@@ -1085,7 +1531,7 @@ class FRVRSUtilities(object):
         # xlim_tuple = ax.set_xlim(left_lim, right_lim+10_000)
         
         # Set the title and labels
-        ax.set_title(f'Player Gaze Timeline for UUID {random_session_uuid} and Scene {random_time_group}')
+        ax.set_title(f'Player Gaze Timeline for UUID {random_session_uuid} and Scene {random_scene_index}')
         ax.set_xlabel('Elapsed Time since Scene Start')
         
         # Humanize x tick labels
@@ -1095,7 +1541,7 @@ class FRVRSUtilities(object):
             xticklabels_list.append(text_obj)
         ax.set_xticklabels(xticklabels_list);
     
-        return random_session_uuid, random_time_group
+        return random_session_uuid, random_scene_index
     
     ### Pandas Functions ###
 
@@ -1136,7 +1582,7 @@ class FRVRSUtilities(object):
         display(df)
     
     
-    def set_time_groups(self, df):
+    def set_scene_indexs(self, df):
         """
         Section off player actions by session start and end.
         
@@ -1148,7 +1594,7 @@ class FRVRSUtilities(object):
         """
     
         # Set the whole file to zero first
-        df = df.sort_values('elapsed_time')
+        df = df.sort_values('action_tick')
         scene_index = 0
         df['scene_index'] = scene_index
         
@@ -1368,7 +1814,7 @@ class FRVRSUtilities(object):
         else: file_df['logger_version'] = 1.0
         
         # Name the global columns
-        columns_list = ['action_type', 'elapsed_time', 'event_time', 'session_uuid']
+        columns_list = ['action_type', 'action_tick', 'event_time', 'session_uuid']
         file_df.columns = columns_list + file_df.columns.tolist()[len(columns_list):]
         
         # Parse the third column as a date column
@@ -1381,7 +1827,7 @@ class FRVRSUtilities(object):
         for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
         
         # Section off player actions by session start and end
-        file_df = self.set_time_groups(file_df)
+        file_df = self.set_scene_indexs(file_df)
         
         # Append the data frame for the current file to the data frame for the current subdirectory
         sub_directory_df = concat([sub_directory_df, file_df], axis='index')
