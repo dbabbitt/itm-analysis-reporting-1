@@ -1500,6 +1500,9 @@ class NotebookUtilities(object):
             pandas.DataFrame: The modified DataFrame with the new column representing the modal value.
         """
         
+        # Ensure that all columns are in the data frame
+        columns_list = list(set(df.columns).intersection(set(columns_list)))
+        
         # Create a mask series indicating rows with unique values across the specified columns
         mask_series = (df[columns_list].apply(Series.nunique, axis='columns') == 1)
         

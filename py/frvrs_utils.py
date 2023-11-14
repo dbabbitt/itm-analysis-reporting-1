@@ -821,6 +821,12 @@ class FRVRSUtilities(object):
     
     def get_max_salt(self, patient_df=None, session_uuid=None, scene_index=None, random_patient_id=None, verbose=False):
         if patient_df is None:
+            from notebook_utils import NotebookUtilities
+            nu = NotebookUtilities(
+                data_folder_path=self.data_folder,
+                saves_folder_path=self.saves_folder
+            )
+            frvrs_logs_df = nu.load_object('frvrs_logs_df')
             scene_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_index == scene_index)
             
             # Get a random patient from within the scene
@@ -1582,7 +1588,7 @@ class FRVRSUtilities(object):
         display(df)
     
     
-    def set_scene_indexs(self, df):
+    def set_scene_indexes(self, df):
         """
         Section off player actions by session start and end.
         
@@ -1796,6 +1802,9 @@ class FRVRSUtilities(object):
                     rows_list.append({i: v for i, v in enumerate(values_list)})
             file_df = DataFrame(rows_list)
         
+        # Ignore the files that are too small; return the subdirectory data frame unharmed
+        if (file_df.shape[1] < 16): return sub_directory_df
+        
         # Find the columns that look like they have nothing but a version number in them
         VERSION_REGEX = re.compile(r'^\d\.\d$')
         is_version_there = lambda x: re.match(VERSION_REGEX, str(x)) is not None
@@ -1827,12 +1836,63 @@ class FRVRSUtilities(object):
         for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
         
         # Section off player actions by session start and end
-        file_df = self.set_scene_indexs(file_df)
+        file_df = self.set_scene_indexes(file_df)
         
         # Append the data frame for the current file to the data frame for the current subdirectory
         sub_directory_df = concat([sub_directory_df, file_df], axis='index')
     
         return sub_directory_df
+    
+    
+    def concatonate_logs(self, logs_folder=None):
+        """
+        Concatenates all the CSV files in the given logs folder into a single data frame.
+        
+        Parameters
+        ----------
+        logs_folder : str, optional
+            The path to the folder containing the CSV files. The default value is the data logs folder.
+        
+        Returns
+        -------
+        DataFrame
+            A DataFrame containing all the data from the CSV files in the given logs folder.
+        """
+        frvrs_logs_df = DataFrame([])
+        
+        # Iterate over the subdirectories, directories, and files in the logs folder
+        if logs_folder is None:
+            from notebook_utils import NotebookUtilities
+            nu = NotebookUtilities(
+                data_folder_path=self.data_folder,
+                saves_folder_path=self.saves_folder
+            )
+            logs_folder = nu.data_logs_folder
+        for sub_directory, directories_list, files_list in os.walk(logs_folder):
+            
+            # Create a data frame to store the data for the current subdirectory
+            sub_directory_df = DataFrame([])
+            
+            # Iterate over the files in the current subdirectory
+            for file_name in files_list:
+                
+                # If the file is a CSV file, merge it into the subdirectory data frame
+                if file_name.endswith('.csv'): sub_directory_df = self.process_files(sub_directory_df, sub_directory, file_name)
+            
+            # Append the data frame for the current subdirectory to the main data frame
+            frvrs_logs_df = pd.concat([frvrs_logs_df, sub_directory_df], axis='index')
+        
+        # Convert event time to a datetime
+        if ('event_time' in frvrs_logs_df.columns): frvrs_logs_df['event_time'] = pd.to_datetime(frvrs_logs_df['event_time'], format='mixed')
+        
+        # Convert elapsed time to an integer
+        if ('action_tick' in frvrs_logs_df.columns):
+            frvrs_logs_df['action_tick'] = pd.to_numeric(frvrs_logs_df['action_tick'], errors='coerce')
+            frvrs_logs_df['action_tick'] = frvrs_logs_df['action_tick'].astype('int64')
+        
+        frvrs_logs_df = frvrs_logs_df.reset_index(drop=True)
+        
+        return frvrs_logs_df
     
     
     def split_df_by_teleport(self, df, nu=None, verbose=False):
@@ -1857,11 +1917,18 @@ class FRVRSUtilities(object):
         return split_dfs
     
     
-    def show_long_runs(self, df, column_name, milliseconds, delta_fn, description):
+    def show_long_runs(self, df, column_name, milliseconds, delta_fn, description, frvrs_logs_df=None):
         delta = delta_fn(milliseconds)
         print(f'\nThese files have {description} than {delta}:')
         mask_series = (df[column_name] > milliseconds)
         session_uuid_list = df[mask_series].session_uuid.tolist()
+        if frvrs_logs_df is None:
+            from notebook_utils import NotebookUtilities
+            nu = NotebookUtilities(
+                data_folder_path=self.data_folder,
+                saves_folder_path=self.saves_folder
+            )
+            frvrs_logs_df = nu.load_object('frvrs_logs_df')
         mask_series = frvrs_logs_df.session_uuid.isin(session_uuid_list)
         logs_folder = '../data/logs'
         import csv
