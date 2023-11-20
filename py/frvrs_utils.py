@@ -1094,14 +1094,44 @@ class FRVRSUtilities(object):
     
     def get_time_to_last_hemorrhage_controlled(self, scene_df, verbose=False):
         """
+        Calculate the time to the last hemorrhage controlled event for patients in the given scene DataFrame.
+        
+        The time is determined based on the 'hemorrhage_control_procedures_list' procedures being treated
+        and marked as controlled. The function iterates through patients in the scene to find the maximum
+        time to hemorrhage control.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: The time to the last hemorrhage control action, or 0 if no hemorrhage control actions exist.
         """
+        
+        # Get the start time of the scene
         scene_start = self.get_scene_start(scene_df)
+        
+        # Initialize the last controlled time to 0
         last_controlled_time = 0
+        
+        # Iterate through patients in the scene
         for patient_id, patient_df in scene_df.groupby('patient_id'):
+            
+            # Check if the patient is hemorrhaging
             if self.is_patient_hemorrhaging(patient_df):
+                
+                # Get the time to hemorrhage control for the patient
                 controlled_time = self.get_time_to_hemorrhage_control(patient_df, scene_start=scene_start, verbose=verbose)
+                
+                # Update the last controlled time if the current controlled time is greater
                 last_controlled_time = max(controlled_time, last_controlled_time)
         
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'Time to last hemorrhage controlled: {last_controlled_time} milliseconds')
+            display(scene_df)
+        
+        # Return the time to the last hemorrhage controlled event
         return last_controlled_time
     
     
@@ -1110,10 +1140,29 @@ class FRVRSUtilities(object):
     
     def is_correct_bleeding_tool_applied(self, patient_df, verbose=False):
         """
+        Determines whether the correct bleeding control tool (tourniquet or packing gauze) has been applied to a patient in a given scene DataFrame.
+        
+        Parameters:
+            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            bool: True if the correct bleeding control tool has been applied, False otherwise.
         """
+        
+        # Filter for actions where a bleeding control tool was applied
         mask_series = patient_df.tool_applied_sender.isin(['AppliedTourniquet', 'AppliedPackingGauze'])
         
-        return bool(patient_df[mask_series].shape[0])
+        # Check if any correct bleeding control tools are applied to the patient
+        correct_tool_applied = bool(patient_df[mask_series].shape[0])
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'Correct bleeding control tool applied: {correct_tool_applied}')
+            display(patient_df)
+        
+        # Return True if the correct tool is applied, False otherwise
+        return correct_tool_applied
     
     
     def is_patient_dead(self, patient_df, verbose=False):
@@ -1983,7 +2032,7 @@ class FRVRSUtilities(object):
     
     def set_scene_indexes(self, df):
         """
-        Section off player actions by session start and end.
+        Section off player actions by session start and end. We are finding log entries above the first SESSION_START and below the last SESSION_END.
         
         Parameters:
             df: A Pandas DataFrame containing the player action data with its index reset.
