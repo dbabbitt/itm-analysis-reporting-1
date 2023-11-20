@@ -692,14 +692,33 @@ class NotebookUtilities(object):
     
     
     def delete_ipynb_checkpoint_folders(self, github_folder=None):
+        """
+        Deletes all '.ipynb_checkpoints' folders within the specified GitHub folder and its subdirectories.
+        
+        Parameters:
+            github_folder (str, optional): The path to the GitHub folder containing the '.ipynb_checkpoints' folders.
+                If not provided, the current working directory is used.
+        
+        Returns:
+            None
+        """
         
         # Set the GitHub folder path if not provided
         if github_folder is None: github_folder = osp.dirname(osp.abspath(osp.curdir))
         
+        # Import required libraries
         import shutil
+        
+        # Iterate over all subdirectories within the github_folder
         for sub_directory, directories_list, files_list in os.walk(github_folder):
+            
+            # Check if the directory 'ipynb_checkpoints' exists in the current subdirectory
             if '.ipynb_checkpoints' in directories_list:
+                
+                # Construct the full path to the '.ipynb_checkpoints' folder
                 folder_path = os.path.join(sub_directory, '.ipynb_checkpoints')
+                
+                # Remove the folder and its contents
                 shutil.rmtree(folder_path)
 
     
@@ -1498,6 +1517,7 @@ class NotebookUtilities(object):
         
         # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
         return np.logical_and(x_mask, y_mask)
+
     
     def modalize_columns(self, df, columns_list, new_column):
         """
@@ -1636,32 +1656,83 @@ class NotebookUtilities(object):
         
         return df
     
+    
     ### LLM Functions ###
     
+    
     def download_lora_model(self, verbose=False):
+        """
+        Download the LoRA model file from a specified URL and save it to the local file system.
+        
+        Parameters:
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            None
+        """
+        
+        # Check if the local file already exists
         if not osp.exists(self.lora_path):
+            
+            # Construct the download URL
             download_url = f'https://the-eye.eu/public/AI/models/downloadnomic-ai/gpt4all/{osp.basename(self.lora_path)}'
             
-            # Download the file from the URL using requests
+            # Download the model file from the URL
             import requests
             response = requests.get(download_url)
             
             # Create the necessary directories if they don't exist
             makedirs(osp.dirname(self.lora_path), exist_ok=True)
-
-            # Save the downloaded file to disk
-            with open(self.lora_path, 'wb') as f:
-                f.write(response.content)
+            
+            # Save the downloaded model file to disk
+            with open(self.lora_path, 'wb') as f: f.write(response.content)
+            
+            # Print a message if verbose mode is enabled
+            if verbose: print(f'LoRA model downloaded and saved to: {self.lora_path}')
+        
+        # Print a message if verbose mode is enabled and the file already exists
+        elif verbose: print(f'LoRA model already exists at: {self.lora_path}. Skipping download.')
+    
     
     def convert_lora_model_to_gpt4all(self, verbose=False):
+        """
+        Converts a LoRA model to a GPT-4all model.
+        
+        Parameters:
+            verbose (bool, optional): Whether to print debug output. Defaults to False.
+        
+        Raises:
+            OSError: If the GPT-4all model path does not exist.
+            subprocess.CalledProcessError: If the conversion process fails.
+        """
+        
+        # Check if the GPT-4-All model path exists
         if not osp.exists(self.gpt4all_model_path):
+            
+            # Check if the LoRA model path exists
+            if not osp.exists(self.lora_path): raise FileNotFoundError(f"LoRA model path '{self.lora_path}' does not exist.")
+            
+            # Check if the PyLLamaC++ converter executable exists
             converter_path = osp.abspath(osp.join(self.scripts_folder, 'pyllamacpp-convert-gpt4all.exe'))
+            if not osp.exists(converter_path): raise FileNotFoundError(f"PyLLamaC++ converter executable '{converter_path}' does not exist.")
+            
+            # Check if the tokenizer model file exists
             llama_file = osp.abspath(osp.join(llama_folder, 'tokenizer.model'))
+            if not osp.exists(llama_file): raise FileNotFoundError(f"Llama tokenizer model file '{llama_file}' does not exist.")
+            
+            # Construct the conversion command
             command_str = f'{converter_path} {self.lora_path} {llama_file} {self.gpt4all_model_path}'
+            
+            # Print verbose output if requested
             if verbose: print(command_str, flush=True)
+            
+            # Execute the conversion process
             output_str = subprocess.check_output(command_str.split(' '))
+            
+            # Print verbose conversion output if requested
             if verbose:
                 for line_str in output_str.splitlines(): print(line_str.decode(), flush=True)
+    
     
     ### 3D Point Functions ###
     
