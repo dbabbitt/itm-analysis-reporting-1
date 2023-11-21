@@ -2778,7 +2778,8 @@ class FRVRSUtilities(object):
             file_df.columns = list(range(file_df.shape[1]))
         
         # Add file name and logger version to the data frame
-        file_df['file_name'] = '/'.join(sub_directory.split(os.sep)[1:]) + '/' + file_name
+        file_dir_suffix = osp.abspath(sub_directory).replace(osp.abspath(self.data_logs_folder) + os.sep, '')
+        file_df['file_name'] = '/'.join(file_dir_suffix.split(os.sep)) + '/' + file_name
         if is_version_there(version_number): file_df['logger_version'] = float(version_number)
         else: file_df['logger_version'] = 1.0
         
