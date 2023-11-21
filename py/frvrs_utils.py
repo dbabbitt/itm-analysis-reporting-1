@@ -2789,7 +2789,11 @@ class FRVRSUtilities(object):
         # Parse the third column as a date column
         if ('event_time' in file_df.columns):
             if sub_directory.endswith('v.1.0'): file_df['event_time'] = to_datetime(file_df['event_time'], format='%m/%d/%Y %H:%M')
-            else: file_df['event_time'] = to_datetime(file_df['event_time'], format='mixed')
+            
+            # Attempt to infer the format automatically
+            # else: file_df['event_time'] = to_datetime(file_df['event_time'], format='mixed')
+            else: file_df['event_time'] = to_datetime(file_df['event_time'], infer_datetime_format=True)
+
         
         # Set the MCIVR metrics types
         for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
