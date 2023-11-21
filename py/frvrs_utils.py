@@ -2820,13 +2820,7 @@ class FRVRSUtilities(object):
         frvrs_logs_df = DataFrame([])
         
         # Iterate over the subdirectories, directories, and files in the logs folder
-        if logs_folder is None:
-            from notebook_utils import NotebookUtilities
-            nu = NotebookUtilities(
-                data_folder_path=self.data_folder,
-                saves_folder_path=self.saves_folder
-            )
-            logs_folder = nu.data_logs_folder
+        if logs_folder is None: logs_folder = self.data_logs_folder
         for sub_directory, directories_list, files_list in os.walk(logs_folder):
             
             # Create a data frame to store the data for the current subdirectory
