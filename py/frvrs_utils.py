@@ -2778,7 +2778,8 @@ class FRVRSUtilities(object):
             file_df.columns = list(range(file_df.shape[1]))
         
         # Add file name and logger version to the data frame
-        file_df['file_name'] = '/'.join(sub_directory.split(os.sep)[1:]) + '/' + file_name
+        file_dir_suffix = osp.abspath(sub_directory).replace(osp.abspath(self.data_logs_folder) + os.sep, '')
+        file_df['file_name'] = '/'.join(file_dir_suffix.split(os.sep)) + '/' + file_name
         if is_version_there(version_number): file_df['logger_version'] = float(version_number)
         else: file_df['logger_version'] = 1.0
         
@@ -2789,7 +2790,11 @@ class FRVRSUtilities(object):
         # Parse the third column as a date column
         if ('event_time' in file_df.columns):
             if sub_directory.endswith('v.1.0'): file_df['event_time'] = to_datetime(file_df['event_time'], format='%m/%d/%Y %H:%M')
-            else: file_df['event_time'] = to_datetime(file_df['event_time'], format='mixed')
+            
+            # Attempt to infer the format automatically
+            # else: file_df['event_time'] = to_datetime(file_df['event_time'], format='mixed')
+            else: file_df['event_time'] = to_datetime(file_df['event_time'], infer_datetime_format=True)
+
         
         # Set the MCIVR metrics types
         for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
@@ -2820,13 +2825,7 @@ class FRVRSUtilities(object):
         frvrs_logs_df = DataFrame([])
         
         # Iterate over the subdirectories, directories, and files in the logs folder
-        if logs_folder is None:
-            from notebook_utils import NotebookUtilities
-            nu = NotebookUtilities(
-                data_folder_path=self.data_folder,
-                saves_folder_path=self.saves_folder
-            )
-            logs_folder = nu.data_logs_folder
+        if logs_folder is None: logs_folder = self.data_logs_folder
         for sub_directory, directories_list, files_list in os.walk(logs_folder):
             
             # Create a data frame to store the data for the current subdirectory
