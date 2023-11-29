@@ -1,0 +1,1984 @@
+
+<h2>Executive Summary</h2>
+<p>Version 1.0 of the First Responder Virtual Reality Simulator (FRVRS) logger does not provide a moment-by-moment record of the whereabouts of the first responder trainee (DM), nor an indication of which patient is being observed. Therefore, we are unable to accurately model a theory of mind with respect to the DM's decisions. It is recommended in later versions that <em>DM_GAZE</em>, <em>PATIENT_ENGAGEMENT_END</em> and <em>DM_LOCATION</em> be added to the action types that the logger tracks.</p>
+
+<h2>Introduction</h2>
+<p>The FRVRS is a high-fidelity, fully immersive, automated, programmable virtual reality (VR) simulation designed to train frontline responders to treat and triage victims of mass casualty incidents. The VR platform tracks and records (logs) their performance as they navigate the disaster scene. Output from the system provides feedback to participants on their performance, and, in our case, a statistically analyzable dataset of patient engagement events. The Subject Matter Experts (SMEs) have kept version 1.0 of these logs of participant trainees for our analysis.</p>
+<p>The purpose of this FRVRS Logs Dataset Analysis Report (FLDAR) is to provide TA1 with a dataset of the SME’s FRVRS logs in addition to anything useful to be found in analyzing the decisions taken by the first responder trainees (DMs) of the FRVRS.</p>
+
+<h2>Simulation Log Event Definitions</h2>
+
+<h2>Data Collection and Preparation</h2>
+<p>The SMEs masked the PII from approximately 129 sessions of participant trainees in the form of CSV files by screening all the <em>VOICE_COMMAND</em> and <em>VOICE_CAPTURE</em> lines and replacing any names with either “Max” or “Jane”. These CSVs were then gathered into one data frame.</p>
+<p>A <strong>file_name</strong> column was added to record the source, and the third column, eventually known as the <strong>event_time</strong> column, was converted into a datetime column. The index was reset, and the first four columns were given names: <strong>action_type</strong>, <strong>action_ticks</strong>, <strong>event_time</strong>, and <strong>session_uuid</strong> in accordance with the global MCIVR metrics types in Appendix A. Next, all instances of <em>SESSION_END</em> and <em>SESSION_START</em> in the <strong>action_type</strong> column were analyzed to break up session UUIDs into an integer-based <strong>time_group</strong> column. This allowed the further analysis of action types to replace the numbered columns with columns named according to the non-global MCIVR metrics types. (There is a bug in the logging of ToolApplied that we had to add a contingency for in the code shown in Appendix B.)</p>
+<p>The <strong>injury_record_injury_treated_with_wrong_treatment</strong>, <strong>injury_record_injury_treated</strong>, <strong>injury_treated_injury_treated_with_wrong_treatment</strong>, and <strong>injury_treated_injury_treated</strong> were converted into Booleans. A <strong>patient_id</strong> column was added to modalize the values of the <strong>patient_demoted_id</strong>, <strong>patient_record_id</strong>, <strong>injury_record_patient_id</strong>, <strong>s_a_l_t_walk_if_can_patient_id</strong>, <strong>s_a_l_t_walked_patient_id</strong>, <strong>s_a_l_t_wave_if_can_patient_id</strong>, <strong>s_a_l_t_waved_patient_id</strong>, <strong>patient_engaged_id</strong>, <strong>pulse_taken_patient_id</strong>, <strong>injury_treated_patient_id</strong>, <strong>tool_applied_patient_id</strong>, and <strong>tag_applied_patient_id</strong> columns. A <strong>location_id</strong> column was also added to modalize the various location columns (<strong>teleport_location</strong>, <strong>patient_demoted_position</strong>, <strong>patient_record_position</strong>, <strong>injury_record_injury_injury_locator</strong>, <strong>s_a_l_t_walk_if_can_sort_location</strong>, <strong>s_a_l_t_walked_sort_location</strong>, <strong>s_a_l_t_wave_if_can_sort_location</strong>, <strong>s_a_l_t_waved_sort_location</strong>, <strong>patient_engaged_position</strong>, <strong>bag_access_location</strong>,<strong>injury_treated_injury_injury_locator</strong>, <strong>bag_closed_location</strong>, <strong>tag_discarded_location</strong>, and <strong>tool_discarded_location</strong>).</p>
+<p>Also, it was assumed that the manual PII masking might not be thorough enough, so the <strong>voice_command_command_description</strong> and <strong>voice_capture_message</strong> columns were remasked using the en_core_web_sm NLP library.</p>
+<p>To build the Patient Engagement Timeline CSV, the above data frame was grouped by <strong>session_uuid</strong>, <strong>time_group</strong>, and <strong>patient_id</strong> and all records of patient engagement actions such as <em>INJURY_TREATED</em>, <em>PATIENT_ENGAGED</em>, <em>PULSE_TAKEN</em>, <em>TAG_APPLIED</em>, and <em>TOOL_APPLIED</em> were added.</p>
+
+<h2>Data Analysis Methods</h2>
+<p>For the following, the analytical methods employed were merely examining edge cases and aggregates by sorting and grouping and looking at the head, tail, or value counts:</p>
+<p>a) Investigating/visualizing if any sequence is discernable by contrasting elapsed time with event time</p>
+<p>b) Getting the relationship between the session UUID and the time group</p>
+<p>c) Listing the action types and the different voice commands to study each individually</p>
+<p>d) Displaying a dataset of DM actions such as the timeline of every DM/Patient Interaction</p>
+<p>e) Listing how many session end events are in each session</p>
+<p>f) Investigating the presence of Root references</p>
+<p>g) Discovering what actions happen simultaneously and subsequently with patient engagement events and other action types and with the different voice commands ("are you hurt", "walk to the safe area", etc.)</p>
+<p>h) Grouping the event times by consecutive, contiguous minutes</p>
+<p>i) Getting the patient names where the action type column is equal to "S_A_L_T_WAVED" - an automatic response to the "wave if you can" event</p>
+<p>j) For each patient or tool, getting a timeline of every reference on or before engagement</p>
+<p>k) Investigating the presence of unity engine game objects</p>
+<p>l) Getting the last previous tool hover for each patient engaged and computing how it correctly anticipates the required injury procedure for each patient engaged</p>
+<p>m) Getting the session with the most teleports</p>
+<p>n) Visualizing non-cumulative teleportation</p>
+<p>o) Visualizing the amount of time spent on each patient</p>
+<p>p) Visualizing the elapsed time estimation for each operation (applying a tourniquet, applying a pressure bandage, applying a hemostatic gauze, applying a decompression needle, applying a nasopharyngeal airway, tagging a casualty, checking a pulse, directing mobile casualties, and a wavers check)</p>
+<p>For other instances, the analytical methods employed involved extensive interviews with the SMEs:</p>
+<p>a) Understanding which action types mean that the DM has made a decision (<em>INJURY_TREATED</em>, <em>PATIENT_ENGAGED</em>, <em>PULSE_TAKEN</em>, <em>TAG_APPLIED</em>, and <em>TOOL_APPLIED</em>) and recording them on each patient's timeline as decision points</p>
+<p>b) Understanding the <em>PATIENT_DEMOTED</em> action type and how it degrades</p>
+<p>c) Understanding the y-value of the <strong>teleport_location</strong> column after patient engagement being not predictive of kneel vs stand because the <strong>teleport_location</strong> column always has a y-value of zero</p>
+<p>For other instances, the analytical methods employed involved Affinity Analysis and Association Rule Learning:</p>
+<p>a) Recording as transactions the more complex examples of patient engagement and getting the antecedent with the highest support</p>
+<p>b) Getting the antecedents with highest lift and support for <em>SESSION_END</em> (and probably therefore to <em>PATIENT_ENGAGEMENT_END</em>) and <em>SESSION_START</em></p>
+<p>c) Discerning what action is an automated process via affinity analysis on the actions that are logged at the exact same time</p>
+<p>d) Finding out what happens right before a teleportation, usually</p>
+<p>e) Showing the consequents of a given action type (applying a tourniquet, applying a pressure bandage, applying a hemostatic gauze, applying a decompression needle, applying a nasopharyngeal airway, tagging a casualty, checking a pulse, directing mobile casualties, and a wavers check) to discern how long it takes the medic to do things as opposed to how long it would take the patients to act</p>
+<p>The main software used for the analysis is Pandas. Pandas is an open-source library in Python for working with relational or labeled data. Pandas allows us to analyze big data and make conclusions based on statistical theories. We use Pandas to clean any messy datasets and make them readable and relevant. It provides various data structures (Series, DataFrame, TimeDelta, etc.) and operations (sort_values, tail, dropna, groupby, etc.) for manipulating numerical and time series data.</p>
+<p>Another important library used for the analysis is Mlxtend. Mlxtend is a Python library that provides a variety of tools for market basket analysis, machine learning, and visualization. Mlxtend gives us our apriori and association_rules libraries, along with a TransactionEncoder for one hot encoding.</p>
+
+<h2>Results/Findings and Discussion</h2>
+<h3>Sequencing</h3>
+<p>An exploratory analysis on trainee decision points that highlights the variance in responses to the same situation requires visualizing if any sequence is even discernable. We found no significant patterns between event time and elapsed time:</p>
+<p>This was corroborated by the Research Lead, who stated that the event time should be eliminated as a useful measure. Still, we noticed that consecutive minutes of event time naturally grouped events. This was also corroborated by him, who made us understand that the Session UUID was grouped by <em>SESSION_END</em> and <em>SESSION_START</em> events, though they were sometimes missing and sometimes were preceded by logged events that should have been logged <em>after</em> the <em>SESSION_START</em>.</p>
+<h3>Post-engagement Transactions for Affinity Analysis</h3>
+<p>We used affinity analysis to find some common events surrounding the <em>PATIENT_ENGAGED</em> event. This gave a us a general idea of event sequences, but nothing that would allow us to infer a <em>PATIENT_ENGAGEMENT_END</em> event, for instance. Below are the paired post-engagement actions with their various metrics.</p>
+<p>Here are the actions with the highest antecedent support:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.053873</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.011694</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.045525</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.845047</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>-0.002144</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.991254</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>-0.197913</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.255172</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.251974</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.980934</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.844200</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.186427</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>39.065447</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.995612</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE, S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.010195</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.010195</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.039689</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.892996</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.007576</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.030713</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest consequent support:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.053873</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.011694</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.217069</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.845047</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>-0.002144</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.949162</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>-0.162343</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.255172</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.251974</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.987466</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.844200</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.186427</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>59.287716</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.993341</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE, S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.010195</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.010195</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.892996</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.007576</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.750783</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest support:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.255172</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.251974</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.987466</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.8442</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.186427</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>59.287716</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.993341</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.255172</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.251974</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.980934</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.8442</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.186427</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>39.065447</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.995612</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest confidence:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(BAG_CLOSED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(TELEPORT)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.129335</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.130035</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.129335</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>7.690238</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.112517</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.999196</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(INJURY_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.033867</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.997721</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(SESSION_START)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.015587</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.978462</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WALKED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WALK_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.209595</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.215292</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.209595</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>4.644847</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.164471</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.992792</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.046677</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.053873</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.046677</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>18.562152</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.044162</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.992451</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest lift:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(INJURY_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.941176</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.033867</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>16.401899</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(INJURY_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.033867</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.997721</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(SESSION_START)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.433155</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.015587</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.735586</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(SESSION_START)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.015587</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.978462</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(INJURY_RECORD, SESSION_START)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.013993</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.013993</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.000000</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.013470</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.976280</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest leverage:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.255172</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.251974</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.987466</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.8442</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.186427</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>59.287716</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.993341</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_COMMAND)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(VOICE_CAPTURE)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.256872</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.255172</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.251974</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.980934</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3.8442</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.186427</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>39.065447</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.995612</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest conviction:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(BAG_CLOSED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(TELEPORT)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.129335</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.130035</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.129335</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>7.690238</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.112517</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.999196</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(INJURY_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.033867</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.997721</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(SESSION_START)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.015587</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.978462</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WALKED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WALK_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.209595</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.215292</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.209595</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>4.644847</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.164471</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.992792</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.046677</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.053873</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.046677</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>18.562152</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.044162</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>inf</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.992451</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Here are the actions with the highest Zhang’s metric:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+				<col style="width: 74.9px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequents</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>antecedent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>consequent support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>support</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>confidence</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>lift</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>leverage</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>conviction</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>Zhangs metric</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(TELEPORT)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(BAG_CLOSED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.130035</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.129335</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.129335</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.994620</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>7.690238</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.112517</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>161.819248</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(INJURY_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.035182</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.941176</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.033867</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>16.401899</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(PATIENT_RECORD)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(SESSION_START)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.037381</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.016192</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.433155</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>26.751337</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.015587</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.735586</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WALK_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WALKED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.215292</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.209595</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.209595</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.973538</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>4.644847</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.164471</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>29.868981</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVE_IF_CAN)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(S_A_L_T_WAVED)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.053873</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.046677</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.046677</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.866419</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>18.562152</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0.044162</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>7.136684</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1.0</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<h3>Action Types</h3>
+<p>It’s important to note that the logger tracks actions. Whether the automatic actions of the patients, the instantaneous actions of the trainee (<em>PATIENT_RECORD</em>, <em>INJURY_RECORD</em>), or their deliberate actions, every action is given an time stamp and an action type. The distribution of action types (the most common values, the least common values, and the relative frequencies of different values) can be seen here:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 378.5px;">
+				<col style="width: 378.5px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>action_type</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>count</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>BAG_ACCESS</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2180</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>BAG_CLOSED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2149</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>INJURY_RECORD</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3052</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>INJURY_TREATED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1577</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>PATIENT_DEMOTED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1818</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>PATIENT_ENGAGED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2295</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>PATIENT_RECORD</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2063</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>PULSE_TAKEN</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>3427</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>SESSION_END</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>256</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>SESSION_START</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>266</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>S_A_L_T_WALKED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2725</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>S_A_L_T_WALK_IF_CAN</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>4567</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>S_A_L_T_WAVED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1761</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>S_A_L_T_WAVE_IF_CAN</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2147</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TAG_APPLIED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1819</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TAG_DISCARDED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>533</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TAG_SELECTED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2353</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TELEPORT</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>5678</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TOOL_APPLIED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1818</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TOOL_DISCARDED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>1655</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TOOL_HOVER</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>89733</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>TOOL_SELECTED</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2263</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>VOICE_CAPTURE</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>10115</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>VOICE_COMMAND</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2916</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>(Note that the number of <em>SESSION_START</em>s does not equal the number of <em>SESSION_END</em>s in the dataset. This is an artifact of the logging process.) DM actions can also be grouped according to <strong>patient_id</strong>s (which show up in the <strong>patient_demoted_id</strong>, <strong>patient_record_id</strong>, <strong>injury_record_patient_id</strong>, <strong>s_a_l_t_walk_if_can_patient_id</strong>, <strong>s_a_l_t_walked_patient_id</strong>, <strong>s_a_l_t_wave_if_can_patient_id</strong>, <strong>s_a_l_t_waved_patient_id</strong>, <strong>patient_engaged_id</strong>, <strong>pulse_taken_patient_id</strong>, <strong>injury_treated_patient_id</strong>, <strong>tool_applied_patient_id</strong>, and <strong>tag_applied_patient_id</strong> columns):</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+				<col style="width: 93.875px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>action_type</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>action_ticks</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>event_time</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>tag_applied_type</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>patient_id</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>location_id</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>time_group</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>51240</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>PATIENT_ENGAGED</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>299882</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2023-06-07 10:30:00</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>NaN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>Bob_0 Root</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>(-1.7, 0.0, 5.7)</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>51241</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>PULSE_TAKEN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>302752</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2023-06-07 10:30:00</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>NaN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>Bob_0 Root</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>NaN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>51243</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>PULSE_TAKEN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>304272</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2023-06-07 10:30:00</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>NaN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>Bob_0 Root</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>NaN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>51247</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>TAG_APPLIED</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>313242</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>2023-06-07 10:31:00</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>black</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>Bob_0 Root</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>NaN</p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>0</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>This allows us to discern what all is being done for each patient. When placed on a timeline, we can see how the patients are all initialized at session start and can visualize how the DM moves from patient to patient:</p>
+<h3>Voice Commands</h3>
+<p>The distribution of the various voice commands can be seen here:</p>
+<div style="width: 760px;">
+	<div>
+		<table>
+			<colgroup>
+				<col style="width: 378.5px;">
+				<col style="width: 378.5px;">
+			</colgroup>
+			<tbody>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>voice_command_message</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p><strong>count</strong></p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>anywhere else</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>80</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>are you hurt</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>730</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>can you hear</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>49</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>hold still</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>7</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>lay down</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>66</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>modbutton groan</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>41</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>modbutton im okay</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>136</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>modbutton no</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>177</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>modbutton yes</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>84</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>reveal injury</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>130</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>sit up/down</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>65</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>stand up</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>118</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>walk to the safe area</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>605</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>wave if you can</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>566</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>what is your name</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>38</p>
+					</td>
+				</tr>
+				<tr>
+					<td rowspan="1" colspan="1">
+						<p><strong>where are you</strong></p>
+					</td>
+					<td rowspan="1" colspan="1">
+						<p>24</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<p>Each voice command sets off its own series of events. Here is an examination of the first few log entries after each command:</p>
+<h4>"Wave if you can" Events</h4>
+<p>"Wave if you can" events seemed most promising to our goals as that was as close to the decision point as we could get in the logs. The DM would immediately teleport to a non-waving patient after this event:</p>
+<h3>Location Points and Teleportation Events</h3>
+<p>It was discovered that there is a list of columns (<strong>teleport_location</strong>, <strong>patient_demoted_position</strong>, <strong>patient_record_position</strong>, <strong>injury_record_injury_injury_locator</strong>, <strong>s_a_l_t_walk_if_can_sort_location</strong>, <strong>s_a_l_t_walked_sort_location</strong>, <strong>s_a_l_t_wave_if_can_sort_location</strong>, <strong>s_a_l_t_waved_sort_location</strong>, <strong>patient_engaged_position</strong>, <strong>bag_access_location</strong>,<strong>injury_treated_injury_injury_locator</strong>, <strong>bag_closed_location</strong>, <strong>tag_discarded_location</strong>, and <strong>tool_discarded_location</strong>) that have 3D coordinates as values in them. After consultation with the Research Lead, we also verified that the y coordinates are always zero. Visualizing this on a 2D plane reveals that patient and teleport location coordinates are all absolute references (confirmed by him):</p>
+<p>Unfortunately, if the DM doesn't teleport, we don't know where they went to. So, a DM can walk around a while, then figure out how to teleport. We have no location information until they teleport, and the first coordinate available is where they first teleported to.</p>
+<p>Th Research Head proffered a theory that <em>TOOL_HOVER</em>ing could indicate the next patient choice. It turns out that the last previous tool hover correctly anticipates the required injury procedure for each patient engaged only 65.5% of the time.</p>
+<h3>Elapsed Time Spent on Patient and Tool</h3>
+<p>Here we visualize a histogram of the time delta between the first time a patient ID appears in the logs and the last time a patient ID appears in the logs, for each session:</p>
+<p>The maximum deltas are an artifact of the logging process at the end of a session. This artifact also shows up in the maximum length of time a tool is used:</p>
+<p>The “walk to a safe area” and “wave if you can” voice commands are dependent on the simulation responding and are instantaneous for the first patient. It's probably the second person to respond to the command that gets less than 100 milliseconds delta:</p>
+<p>Here is a summary of the response times. NaT is just "not a time" - meaning it couldn't find a node for that series:</p>
+
+<h2>Recommendations</h2>
+<p>The Research Lead sent an updated package that fixes these issues to the developer for integration. His update:</p>
+<ul>
+	<li>
+		<p>Optimizes the capture frequency of PlayerLocation and PlayerGaze records and exposes the frequency of capture as a parameter in editor. The TeleportWatcher is attached to the Player prefab and may be configured there. The default capture frequency is 2x per second.</p>
+	</li>
+	<li>
+		<p>Improves PlayerGaze by generating larger targets to identify when gaze falls on patients in the distance, even when the patient is in low LOD range.</p>
+	</li>
+	<li>
+		<p>Fixes issue found by …: Decomp Needle now reports the correct patient ID in the corresponding ToolApplied record.</p>
+	</li>
+</ul>
+<p>It is recommended that his updates be added to the logger.</p>
+
+<h2>Appendices</h2>
+<h3>Appendix A: MCIVR Metrics Types (Document located <a href="/wiki/spaces/ITM/pages/2999156737" title="/wiki/spaces/ITM/pages/2999156737">here</a> and <a href="https://github.com/NextCenturyCorporation/itm-analysis-reporting/raw/main/data/docx/MCIVR_MetricsTypes%5B10%5D.docx" title="https://github.com/NextCenturyCorporation/itm-analysis-reporting/raw/main/data/docx/MCIVR_MetricsTypes%5B10%5D.docx">here</a>)</h3>
+<h3>Appendix B: Dataset Build Algorithm (Algorithm located <a href="https://github.com/NextCenturyCorporation/itm-analysis-reporting/blob/main/builders/Build%20the%20OSU%20dataset%20of%20Simulation%20Sessions.ipynb" title="https://github.com/NextCenturyCorporation/itm-analysis-reporting/blob/main/builders/Build%20the%20OSU%20dataset%20of%20Simulation%20Sessions.ipynb">here</a>)</h3>
+<h3>Appendix C: Patient Engagement Timeline (Document located <a href="/wiki/spaces/ITM/pages/2999156737" title="/wiki/spaces/ITM/pages/2999156737">here</a> and <a href="https://github.com/NextCenturyCorporation/itm-analysis-reporting/raw/main/saves/csv/patient_engagement_timeline_df.csv" title="https://github.com/NextCenturyCorporation/itm-analysis-reporting/raw/main/saves/csv/patient_engagement_timeline_df.csv">here</a>)</h3>
+<h3>Appendix D: Dataset of Doug Danforth’s FRVRS logs as CSV (Document located <a href="/wiki/spaces/ITM/pages/2999156737" title="/wiki/spaces/ITM/pages/2999156737">here</a> and <a href="https://github.com/NextCenturyCorporation/itm-analysis-reporting/raw/main/saves/csv/clean_csvs_df.csv" title="https://github.com/NextCenturyCorporation/itm-analysis-reporting/raw/main/saves/csv/clean_csvs_df.csv">here</a>)</h3>

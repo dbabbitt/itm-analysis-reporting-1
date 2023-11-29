@@ -270,9 +270,7 @@ class EdstanData:
             >>> ed_1.fit_model('rasch', iter=200, chains=4)
         """
         
-        def full_path(file):
-            here = os.path.dirname(__file__)
-            return os.path.join(here, 'models', file)
+        def full_path(file): return os.path.abspath(os.path.join('..', 'data', 'models', file))
         
         if model.endswith('.stan'):
             file = model

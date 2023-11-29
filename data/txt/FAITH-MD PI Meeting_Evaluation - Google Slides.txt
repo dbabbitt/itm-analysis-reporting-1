@@ -1,0 +1,241 @@
+Speaker notes
+STOP. This presentation moved to ppt format and is uploaded here: https://nextcentury.atlassian.net/l/cp/GGs1sjoW
+1
+DARPA ITMPI MeetingNovember 28, 2023
+ Framework for Artificial Intelligence Trustworthiness in Human-Machine Delegation  (FAITH-MD) 
+TextDescription automatically generated
+A picture containing logoDescription automatically generated
+Contract # FA8650-23-C-7318 
+Principal Investigators: Jennifer McVay and Brian PippinTech Advisor: Lawerence Mize PM: Katie Radtka Financial Support: Ryan Schuler Engineer: Darren GemoetsEngineer: Jacob AudickEngineer: Ryan ScottEngineer: Derek NoppingerEngineer: Kaitlyn ChoyIntern: Gillian Baseri
+Nicholas Kman Douglas Danforth Jeremy PattersonAsh Panchal
+Ashu ManiDave Babbitt
+Jacob Hyde
+Ewart de Visser
+Agenda
+1. Evaluation Roadmap 2. Simulation Development3. Dashboard Design4. Metrics Refinement and Collaboration5. Metrics Refinement Evaluation6. Timeline for Evaluations7. Questions/Discussion
+Evaluation Roadmap
+TA3 Evaluation Roadmap
+Low fidelity / Basic
+High fidelity / applied
+A screenshot of a computerDescription automatically generated
+VR sim in structured environment / situation with freedom of treatment choice
+VR structured free choice
+VR sim with large map and great freedom of choice
+VR open world
+Live exercise
+Text-based scenarios
+Multi-media vignettes
+START Triage Basics - YouTube
+Text-based scenarios
+Add Free Text-to-Speech to Your Site | WebsiteVoice
+Text-based scenarios that are enhanced with videos and audio to add realism / immersion
+VR sim in structured environment / situation with a series of highly curated situations with a finite number of choices
+VR structured forced choice
+Assassin\x27s Creed Odyssey Choices guide: how to get the Best Ending | RPG  Site
+KDMA Model and Alignment Validation Experiment
+KDMA Model and Alignment Application Experiment
+TA3 Versions Included in New Plan
+1. Does the alignment score of a DM from a simulated environment correlate with measures of trust and subjective alignment provided by the delegator?2. Is the alignment score for the aligned ADM significantly higher than the alignment score for the baseline ADM based on performance in a simulated environment?3. Do delegators show a preference for aligned ADMs over baseline ADMs based on decisions made in a simulated environment?
+TA3 Evaluation Focus
+TA3 Evaluation Sessions
+VR Simulation Beta Testing
+A picture containing light, dark, nightDescription automatically generated
+A group of people lying on the ground next to a body of waterDescription automatically generated with low confidence
+Key take-aways from Human DMs:Liked that the  simulation was realistic and immersiveWanted additional interactive optionsCommunicate with patientsRemove equipmentSecure weaponsThought relationship and character details largely uninfluential in triage decision makingRecognition of particular characters difficultDoes not simulate prior relationship (friend)Suggest a more chaotic environment to improve realismRadio chatterMore interaction/talking from non-injured characters
+Observation Materials Refinement Assessment: Lessons Learned
+•Conclusions•Mis-alignment and low trust were the norm, likely due to insufficient DM detail•Our study shows that much more info is needed to make a delegation decision•We have a better idea about which additional info is needed and how it should be presented to further help delegators make their decisions•Educated Guesses / Food for Thought•DM info and attributes should be presented succinctly, with rich detail and across a variety of situations•The salience of DM attributes should be a key consideration in the final selection of the predictive attribute set
+GoalTest if delegators can quickly and accurately assess DM’s decision-making styles and determine if it aligns with their ownInitial test of alignment / trust measurementsDesign - 3x2 within-subjects (6 scenarios)Information Presentation (Narrative, Structure, Visuals + Structure)Decision-Maker Agency (Human, Algorithm)Decision-Maker Data UsedActual performance by 3 human medical VR participantsActual performance by 3 algorithmic DMs (Kitware / Parallax)MeasurementsAverage time to read each scenarioAccuracy about DM’s Decision ReportAlignment measure (how does this DM align with your own DM’s style?)Trust (Do you trust this DM’s ability, integrity, benevolence?)
+Narrative
+Structured
+Structured + Pictures
+Observation Materials Refinement
+TA3 Observation MaterialsRefinement Assessment: Results
+•Eight Participants•Majority was military with military training expertise and seasoned first responders•Half had participated in 30 or more disaster drills•Information Presentation•Participants scored high on accuracy questions about DM information (92%), best for structure + visual (100%)•Preferred structured + visual•Actively thought through scenarios, but wanted more and different info about the DM•Self-Reported Alignment and Trust•Did not like much of any DM’s decisions•Subjective ratings of alignment, trustworthiness, trust and reliance were all low, consistent with dislike of DM’s decisions
+Work-in-progress: Experimental Details
+Dependencies with TA1Number and length of scenarios for performance period to obtain alignment scoreSub-group clusters within reference distributionPotential for misalignment by sub-group Observation PresentationInformation availability and formatSet-up of delegation comparisonsSelf-reported alignment score
+Simulation Development
+Simulation Environments
+Jungle Video Link 
+Submarine Video Link 
+Advanced Character Customization: Integrating Cosmetics, Injury Simulation, Narrative Elements, Vital Sign Display, and Comprehensive Configuration
+Environmental Adaptation of Gear: Incorporation of operationally pertinent equipment, uniforms, and gear, each specifically tailored to suit different environmental conditions.Injury Simulation Spectrum: Integration of a range of plausible injuries (e.g., Left Body Burn, Full Body Burn, Neck Puncture) to enhance realism.Narrative-Driven User Interface: Implementation of user interface controls to advance scenario progress based on narrative contexts.Vital Sign Visualization: Addition of a visual element above characters to display vital signs, enhancing user situational awareness.Comprehensive Character Customization: Capability to configure every aspect of a character\x27s properties via JSON, offering extensive customization potential.
+Simulation ElementsCoordination with TA1 and TA2
+Added get_session_alignment to API in response to TA2 request:Allows ADMs (when in training mode) to query for session alignment with a specified TA1 alignment targetCan request alignment at any time, including across multiple scenariosCleaned up API YAML:Better property descriptionsConsistent error codesRemoved remaining MVP artifactsBased on collaboratively developed scenario design and variables, proposed a scenario YAML file format for discussion including:Many new properties, many of which include ideas for controlled vocabularyScene-specific available actions, with mapping to probe responses, including conditionalsScenario scene transition configuration for dynamic scenario elements
+TA4 Collaboration - Character Development In-Depth Customization Techniques
+Ethnic and Racial Representation: Utilizes officially recognized categories from the U.S. Census Bureau and the Department of Defense for accurate ethnic and racial classification.Empirical Facial Structure Analysis: Integrates findings from academic research highlighting distinct facial structure variations across different races.Artistic Adherence to Racial Characteristics: Adopts established guidelines from professional illustrators and character modeling artists for authentic racial portrayal in characters.Advanced Customization Features: Offers over 50 adjustable facial feature options (e.g., elevated cheekbones, broader nostrils, retracted chin) to modify the 3D character model, enhancing racial diversity representation.
+video Link Here
+Dashboard Design
+Dashboard Use Cases
+Two types of users Data Analyst: Easy ability for anyone in the program to review data from different sourcesMedical Delegator: Easy way for a medical participant to review performance / behavior of another medical professional / ADM regarding triage so delegation decision can be madeUses for each ITM participant:ALL: review all available data from all experiments, relationships, performanceTA1: examine how alignment scores affect trust, how attributes predict different reference groups / environmentsTA2: examine how algorithms perform in different scenario environments, examine how they are delegated toDARPA: grand overview of program level measures and indicators of success
+Dashboard Design Element Widget Ideas
+TCCC Card
+Interactive Decision Timeline
+Video playback / highlights
+Triage Movement Efficiency
+Triage accuracy
+Dashboard Automation
+Simulation and API upload JSON to MongoDB upon completion of sessionJSON includes list of DM actions taken in the simulatorImages of casualties in simulator stored as bytes to be rendered in dashboardDashboard pulls JSON data from MongoDB for specific scenarioRenders decision list from DM actionsRenders images captured from simulator
+Dashboard Delegation Plan
+Create dynamically generated survey for human delegatorNew section on dashboardDelegator will compare multiple DM’s trustworthiness/accuracyDynamically generated to obscure DM identity and randomize questionsResponses will be stored in MongoDB for aggregationGraphs and charts for dynamically exploring data
+Dashboard Experimental Data Storyboard
+Shows a place for all experiments and data performed under ITM (and related works) for easy access and exploration
+TA3 Obs. Study I
+TA3 VR Study I
+TA1-ADEPT Study I
+TA1-SOARTECH Study I
+Metrics Refinement and Collaboration
+
+
+OSU Dataset: Key Takeaways
+Analyzed data for nearly 400 medical professionals engaged in simulated realistic triage decision-making comparable to live exercise situations
+	OSU is receiving feedback on utility of training in real mass casualty situations
+Created novel metrics for triage efficiency and performance that will serve as additional key metrics for ITM program evaluation
+Process of creating metrics and data analysis led to improvements in performance logging for the current VR simulation
+Dataset available for other performers as a resource for testing ideas and possibilities for academic publications
+
+OSU First VResponder Simulation Data
+OSU developed an interactive, fully immersive and automated VR simulation using Unity for MetaQuest 2 headsets.
+11 virtual patients were designed from a universal avatar and can be customized to have a variety of life-threatening (eg.acute arterial bleed, penetrating injury, pneumothorax, amputations) and non-life-threatening (eg.lacerations, sprains, hysteria, confusion) injuries.
+Participants were assessed in a subway bombing, mass casualty incident on their: skill in using the Sort-Assess-Life saving Interventions-Transport (SALT) triage protocol; effectiveness of their communication with patients; and their skill in applying appropriate life-saving treatments.
+OSU has addended its IRB to allow for the sharing of de-identified data with other researchers.
+The data are scrubbed for any identifying factors and shared with other members of TA3.
+Metrics including time to control life-threatening hemorrhage and triage efficacy were analyzed using median and interquartile ranges (IQR).
+
+OSU dataset research: SDMPH 2023
+389 EMS clinicians and healthcare professionals engaged in a VR simulation of a subway bombing scenario utilizing VRFirstResponder
+Objective: Hemorrhage control, triage efficiency, and triage accuracy are essential skills for optimal outcomes in mass casualty incidents. 
+Future goals are to enhance in-simulation experience with addition of common distractors and to optimize assessment tools.
+We are comparing these metrics for different groups of medical personnel including medical students, residents, EMTs, etc.
+We are developing novel metrics to characterize triage efficiency
+
+OSU Dataset: ITM preparation
+Simulations sessions have a unique identifier <session_uuid>
+Within each simulation session, multiple decision makers (DM) can go through the simulation taking turn one by one.
+Events in the simulation are logged as:
+	Session start and end events
+	Patient related events (e.g. patient_engaged, patient_demoted, etc.)
+	Injury related events (e.g. injury_record, injury_treated, etc.)
+	Item/Action related events (e.g. bag_accessed, tag_applied, tool_discarded, etc.)
+Simulation Log Data Structure
+
+Dataset availability to ITM
+Simulation log event definitions
+Sample code to mask PII
+Sample pre-processing code to combine raw data logs and prepare data for analysis
+Sample code to answer a couple of research questions
+If OSU Data is being used for scholarship (publications, presentations, etc), please coordinate use with Dr. Nicholas Kman for attribution and collaboration (nicholas.kman@osumc.edu).
+
+
+Deliverables from TA3 to TA1 and TA2
+Other collaborative and informative work
+USU exercise and collaboration
+	Live actor simulation triage exercises
+		Observation at Bushmaster (mass casualty)
+		Observation at Gunpowder (small unit triage)
+	Data collection collaboration
+Collaboration with UK DSTL
+Maintaining program communication and facilitating collaboration
+	Confluence reorganization
+	Slack maintenance
+	WGs and all-performer meetings
+
+Metrics Refinement Evaluation
+Metrics Evaluation: Goals and Objectives
+Goal: Refine the program evaluation metrics by using a complete run-through of the evaluation roadmap with human participantsObjective 1: Evaluate TA1 characterization research, scenario design process, and alignment calculation using one (strongest) decision-making attributeObjective 2: Evaluate TA2 alignment by comparing ADMs aligned to polar extremes on one attribute against a baseline ADM (to avoid chance alignment)Note: Baseline ADM : no exposure to attribute training; domain documentation onlyObjective 3: Establish the effect of alignment on delegation preference using only human decision makers with extreme version of aligned or misaligned DMsObjective 4: Identify any missing inputs or flaws in the data collection that impairs metric calculationObjective 5: Explore ideas for additional metrics based on lessons learned from this evaluation
+Metrics Evaluation: Requirements
+TA1:1. Choose one attribute expected to have the most impact (and produce variability) on small unit triage decisions; support with evidence2. Generate 4 scenarios with probes that elicit the effect of that attribute on decision making (one in each environment: jungle, submarine, desert, urban)3. Generate training materials for TA2 ADM with KDMA values feedback4. Provide alignment targets for two extreme cases of attribute-profile5. Calculate alignment scores for human decision maker data and delegator performance data from TA3 TA2:1. Train align-able ADMs using training data from TA1 and any additional training needed to ensure alignment2. Provide baseline ADM and aligned ADMs capable of performing in 8 scenarios3. Align one ADM to each of 2 target alignment scores from each TA1 (4 total)
+Metrics Evaluation: Timeline
+January Tech Demo (1/31)Goal 1: Demonstrate validation process of TA1 evaluation scenarios and output of yaml file usable by Evaluation serverGoal 2: Demonstrate training pipeline whereby TA1 scenarios are available to ADMs through Evaluation API with KDMA values attached to responses.
+Evaluation Details
+ParticipantsOSU recruited medical professionals; no active duty militarySession DetailsIn-person with VR self performanceOnline only (no self performance)Attribute surveyTest-based assessment of attributeObservation DMsAttribute extreme archetypesDelegation choiceDM1, DM2, both equally, neitherForced choice: DM1 or DM2
+Evaluation Metrics
+Primary evaluation metrics to be calculated:1. Comparison of alignment scores from baseline and aligned ADMs to verify alignment2. Comparison of delegation preference between aligned and misaligned human archetypal decision makers to assess effect of alignment on delegation Other evaluation output:Feedback to TA1s on characterization research for increasing attribute listFeedback to TA2s on ADM performance and alignment successAssessment of evaluation metrics and any missing inputs/data/pathwaysHuman-only effect of alignment on delegation (limited to one attribute; most extreme archetypes for attributes) 
+Program Evaluation Timeline
+Phase I Evaluation: Planning
+1. Metrics Refinement Evaluation (February)a. Focus on one attribute per TA1b. Use human-only delegation decision with archetypes for extremes of single attributec. Evaluate:i. attribute impact on decision making variability (humans) ii. aligned vs. baseline ADM on alignment scoringiii. self-assessed alignment in relation to alignment scoreiv. effect of archetype alignment on delegation decision2. Dry Run (August)a. Identify any intermediary research questions from Metrics Refinementb. Dependent on Attribute Identification Discussion for timelinec. Targeted improvements from February evaluation3. Final Evaluation (November)a. End-to-end roadmap with Human DM and ADM performance; delegation decision with delegators blind to nature of DM
+Questions?
+Back-up
+DM Observation Presentation Study
+Goal: Participant must quickly and accurately assess decision-making style of DM to make a delegation judgmentChallenge: How to provide enough critical information to understand gist of DM’s decision-making style?Possible Time-SaversConvey information consistent with existing medical protocols (MIST, ISBAR, TCCC cards)Trials / Scenarios vary slightly (patient symptoms, # decision points, types of decisions) within environment (jungle, submarine) Providing “swift trust cues” or “trustworthiness cues”, cues that signal expertise and trustworthiness to other experts
+MIST report diagram discussing what each letter of the mnemonic stands for (Mechanism, Injuries, Signs and Symptoms, and treatments) and what kinds of items would be listed at each step
+What information needs to be conveyed?
+Medical information per patientDM IDPatient IDBackground on situation Injuries per patientSymptoms per patientAssessment performed for each patient (which protocol followed)Treatment performed for each patientExplanations for all actions
+Meta decision-making informationTriage performance (injuries treated, avg time per patient, # pulses taken)Triage process (order of patients treated, movement across the scene, scene management style)KDMAsTrustworthiness Meta-Information and Expert Cues (past performance, process, goals, purpose, specific medical cues)
+Methods
+GoalTest if delegators can quickly and accurately assess DM’s decision-making styles and determine if it aligns with their ownInitial test of alignment / trust measurementsDesign - 3x2 within-subjects (6 scenarios)Information Presentation (Narrative, Structure, Visuals + Structure)Decision-Maker Agency (Human, Algorithm)Decision-Maker Data UsedActual performance by 3 human medical VR participantsActual performance by 3 algorithmic DMs (Kitware / Parallax)MeasurementsAverage time to read each scenarioAccuracy about DM’s Decision ReportAlignment measure (how does this DM align with your own DM’s style?)Trust (Do you trust this DM’s ability, integrity, benevolence?)
+Narrative
+Structured
+Structured + Pictures
+Results
+Eight ParticipantsMajority was military with military training expertise and seasoned first respondersHalf had participated in 30 or more disaster drillsInformation PresentationParticipants scored high on performance, best for visual + structurePreferred visual + structureActively thought through scenarios, but wanted more and different infoAlignment and TrustDid not like much of any DM’s decisionsSubjective ratings of alignment, trustworthiness, trust and reliance were all low, consistent with dislike of DM’s decisions
+Conclusions and Next Steps
+Initial validation of presentation methods and trust / alignment measurementsDesign a version of information presentation that has more information as suggestedHave post-survey discussion with participants who have expressed interest in providing additional feedbackIncorporate further suggestions from other TA groups discussionsDesign and test additional surveys for further refinement of decision-making style presentation
+A screenshot of a computerDescription automatically generated
+Example Block: Participant evaluates 4 agents developed by KITWAREAgent 1: TA1_BBN_AlignedAlgorithm (AA1)Agent 2: TA1_SOAR_AlignedAlgorithm (AA2)Agent 3: TA2_KITWARE_BaselineAlgorithm (BA1)Agent 4: Recorded / Designed Human DM Performer (HD1)
+Which agents will be evaluated? 
+A1
+A2
+A3
+A4
+Block 1: KITWARE
+fully randomized
+A1
+A2
+A3
+A4
+Block 2: PARALLAX
+fully randomized
+A1
+A2
+A3
+A4
+Block 3: KITWARE
+fully randomized
+A1
+A2
+A3
+A4
+Block 4: PARALLAX
+fully randomized
+latin square
+Some Variations
+AA1
+BA1
+AA2
+BA2
+Block 1: KITWARE
+HD1
+HD2
+compare algorithms
+randomize sub blocks
+AA1
+BA1
+AA2
+BA2
+Block 2: PARALLAX
+HD1
+HD2
+compare algorithms
+randomize sub blocks
+AA1
+BA1
+AA2
+BA2
+Mixed Block
+HD1
+HD2
+compare algorithms
+randomize sub blocks
+AA1
+BA1
+AA2
+BA2
+HD1
+HD2
+compare algorithms
+Procedure/Resource Management
+Generate 2 VR environments (jungle and submarine)12 scenarios – can be forced or free for each participantParticipantsDMs (perform in scenarios and attribute score calculated)Pre-session online data collection with text-based scenarios24 scenarios; 6 from VR environment and 6 direct analogsVR session : 3 structured forced choice; 3 structured free choiceForced choice made using actor stepping through scripted VR up to decision pointDM participants watch and then make final decisionForced choice/free choice counterbalancingDelegators (make trust and delegation decisions)Complete text-based scenarios to verify attribute score falls within distribution of alignment targetTrust and delegate based on text-based presentation of DMs’ responsesDo 1-2 scenarios in VR (used to immerse in VR environment and also verify attribute score)Trust and delegate based on DM decisions in other scenarios from VR environment
+Benefits
+Validates the model with text-based scenarios and also tests ADM alignment in that format (extra clean)Make connections between text-based KDMA model and more applied setting (direct comparison of text based to VR)Compare alignment score from HDM KDMAs in text to HDM KDMAs in VRADM alignment effect in more applied setting (less clean, more realistic)Aligned vs. baseline in text-basedAligned vs. baseline in VR (x2 versions)Ask is KDMA modeling and training on text-based is enough to transfer alignment benefit to applied setting?
+Issues
+TA1 has to design some scenarios within constraints of simulationTA2 would need ADMs to be able to respond to both text-based probe/responses and action-based probes/responsesDARPA: Do we need ADMs who can triage a scene? Or just demonstrate KDMA alignment on tough decisions?What to do at each eventMetric refinement (12); baseline evaluation (16); capstone (19)

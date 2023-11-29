@@ -1,0 +1,3 @@
+﻿
+# %windir%\System32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy Bypass C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\ps1\run_jupyterlab_from_wsl_ubuntu.ps1"
+wsl --distribution Ubuntu --user dbabbitt ~/anaconda3/bin/jupyter lab --no-browser --config=/home/dbabbitt/.jupyter/jupyter_lab_config.py --notebook-dir=/mnt/c/Users/DaveBabbitt/Documents/GitHub --KernelManager.kernel_cmd="['python','-Xfrozen_modules=off','{connection_file}']"

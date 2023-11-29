@@ -10,9 +10,12 @@
 !/data
 !/explorations
 !/ipynb
+!/maintenance
 !/metrics
+!/ps1
 !/py
 !/saves
+!/sh
 !/visualizations
 !README.md
 
@@ -27,6 +30,8 @@ data/hem_control_dcems/
 # push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
 # Git Large File Storage (Git LFS) as part of your workflow.
 *_df.csv
+data/pptx/FAITH-MD PI Meeting_Evaluation.pptx
+saves/csv/frvrs_logs_df.csv
 saves/pkl/all_transactions_itemsets_df.pkl
 saves/pkl/clean_csvs_df.pkl
 saves/pkl/frvrs_logs_df.pkl
