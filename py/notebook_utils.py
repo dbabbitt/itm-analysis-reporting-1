@@ -292,6 +292,12 @@ class NotebookUtilities(object):
         return name_similarities_df
     
     
+    def get_alphabet(self, sequence, verbose=False):
+        alphabet_set = set(sequence)
+        
+        return alphabet_set
+
+    
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
         """
         Converts a sequence of strings to a sequence of integers.
