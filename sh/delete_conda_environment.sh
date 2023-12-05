@@ -2,7 +2,7 @@
 
 source "${PowerScriptsDirectory}/function_definitions.sh"
 
-# Delete environment
+# Delete conda environment
 echo ""
 echo "--------------------------------------------------------------------------------"
 echo " Deleting the ${DisplayName} conda environment (${EnvironmentName})"
@@ -36,5 +36,4 @@ if [ -d "$KernelPath" ]; then
     echo "--------------------------------------------------------------------------------------------------"
     rm -r -f "$KernelPath"
 fi
-
 conda info --envs

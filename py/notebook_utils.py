@@ -9,7 +9,8 @@
 
 from os import listdir as listdir, makedirs as makedirs, path as osp
 from pandas import DataFrame, Series, concat, read_csv, read_html
-from pysan.elements import get_alphabet
+try: from pysan.elements import get_alphabet
+except: get_alphabet = lambda sequence: set(sequence)
 from typing import List, Optional
 import matplotlib.pyplot as plt
 import numpy as np

@@ -14,7 +14,8 @@ RepositoryName="itm-analysis-reporting"
 EnvironmentName="itm_analysis_reporting"
 
 HomeDirectory="$HOME"
-EnvironmentsDirectory="${HomeDirectory}/anaconda3/envs"
+AnacondaDirectory="${HomeDirectory}/anaconda3"
+EnvironmentsDirectory="${AnacondaDirectory}/envs"
 RepositoriesDirectory="/mnt/c/Users/DaveBabbitt/Documents/GitHub"
 RepositoryPath="${RepositoriesDirectory}/${RepositoryName}"
 BashScriptsDirectory="${RepositoryPath}/sh"
@@ -22,7 +23,6 @@ EnvironmentPath="${EnvironmentsDirectory}/${EnvironmentName}"
 OldPath=$(pwd)
 
 # Prep conda
-conda deactivate
 conda config --set auto_update_conda true
 conda config --set report_errors false
 

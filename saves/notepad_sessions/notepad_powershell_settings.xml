@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1510" startPos="0" endPos="0" selMode="0" offset="0" wrapCount="1" lang="XML" encoding="-1" userReadOnly="no" filename="C:\Program Files\Notepad++\autoCompletion\powershell.xml" backupFilePath="" originalFileLastModifTimestamp="-613884672" originalFileLastModifTimestampHigh="31000981" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1510" startPos="0" endPos="0" selMode="0" offset="0" wrapCount="1" lang="XML" encoding="-1" userReadOnly="no" filename="C:\Program Files\Notepad++\contextMenu.xml" backupFilePath="" originalFileLastModifTimestamp="106896128" originalFileLastModifTimestampHigh="31014307" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="1510" startPos="0" endPos="0" selMode="0" offset="0" wrapCount="1" lang="XML" encoding="-1" userReadOnly="no" filename="C:\Program Files\Notepad++\functionList\powershell.xml" backupFilePath="" originalFileLastModifTimestamp="-1864912384" originalFileLastModifTimestampHigh="30888578" tabColourId="-1" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

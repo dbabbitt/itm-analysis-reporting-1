@@ -1,29 +1,31 @@
+
 #!/bin/bash
 
 # Create the conda environment
 cd "$RepositoryPath"
-echo ""
-echo "--------------------------------------------------------------------------------"  # Assuming echo provides similar functionality to Write-Host
-echo -e "\e[32mUpdating the ${DisplayName} conda environment (${EnvironmentName})\e[0m"
-echo "--------------------------------------------------------------------------------" 
 
 # Assume here that if the environment folder is missing, the environment was already deleted
+echo ""
+echo "--------------------------------------------------------------------------------"
 if [ -d "$EnvironmentPath" ]; then
-    echo -e "\e[32mUpdating the ${DisplayName} conda environment (${EnvironmentName})\e[0m"
+    echo -e "              \e[32mUpdating the ${DisplayName} conda environment (${EnvironmentName})\e[0m"
 else
-    echo -e "\e[32mCreating the ${DisplayName} conda environment (${EnvironmentName})\e[0m"
+    echo -e "              \e[32mCreating the ${DisplayName} conda environment (${EnvironmentName})\e[0m"
 fi
 echo "--------------------------------------------------------------------------------"
 
 # You can control where a conda environment lives by providing a path to a target directory when creating the environment.
-FilePath="${RepositoryPath}/sh_environment.yml"
-if [ -f "$FilePath" ]; then
-    conda env update --prefix "$EnvironmentPath" --file "$FilePath" --prune --quiet
+YamlFilePath="${RepositoryPath}/sh_environment.yml"
+if [ -f "$YamlFilePath" ]; then
+    echo -e "\e[32mconda env update --prefix $EnvironmentPath --file $YamlFilePath --prune --quiet\e[0m"
+    conda env update --prefix "$EnvironmentPath" --file "$YamlFilePath" --prune --quiet
 fi
 
 if conda info --envs | grep -q "$EnvironmentName"; then
+    echo -e "\e[32mconda update --all --yes --name $EnvironmentName\e[0m"
     conda update --all --yes --name "$EnvironmentName"
 else
-    conda create --yes --name "$EnvironmentName" python=3.7
+    echo -e "\e[32mconda create --yes --name $EnvironmentName\e[0m"
+    conda create --yes --name "$EnvironmentName"
 fi
 conda info --envs
