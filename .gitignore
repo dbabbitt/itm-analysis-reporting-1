@@ -41,6 +41,7 @@ saves/pkl/patient_history_df.pkl
 # Exclude secrets
 **/json/*_secrets.json
 ipynb/Censor_Audio_Files.ipynb
+*secret*
 
 # Exclude backups
 *.bak
