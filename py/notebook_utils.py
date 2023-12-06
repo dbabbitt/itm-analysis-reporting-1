@@ -399,17 +399,18 @@ class NotebookUtilities(object):
         return (len(list_of_lists), num_cols)
     
     
-    def split_row_indexes_list(self, splitting_indexes_list, large_indexes_list):
+    def split_row_indices_list(self, splitting_indices_list, excluded_indices_list=[]):
         """
-        Splits a list of row indexes into a list of lists, where each inner list
-        contains a contiguous sequence of indexes that are not in the large indexes list.
+        Splits a list of row indices into a list of lists, where each inner list
+        contains a contiguous sequence of indices that are not in the excluded indices list.
         
         Parameters:
-            splitting_indexes_list: A list of row indexes to split.
-            large_indexes_list: A list of row indexes that should be considered "large".
+            splitting_indices_list: A list of row indices to split.
+            excluded_indices_list: A list of row indices that should be considered excluded.
+                                   Empty by default.
         
         Returns:
-            A list of lists, where each inner list contains a contiguous sequence of indexes that are not in the `large_indexes_list`.
+            A list of lists, where each inner list contains a contiguous sequence of indices that are not in the excluded indices.
         """
         
         # Initialize the output list
@@ -418,19 +419,18 @@ class NotebookUtilities(object):
         # Initialize the current list
         current_list = []
         
-        # Iterate over the splitting indexes list
-        for i in range(len(splitting_indexes_list)):
+        # Iterate over the splitting indices list
+        for current_idx in range(int(min(splitting_indices_list)), int(max(splitting_indices_list)) + 1):
             
-            # Get the current index
-            current_idx = splitting_indexes_list[i]
-            
-            # If the current index is not in the large indexes list, add it to the current list
-            if current_idx not in large_indexes_list: current_list.append(current_idx)
+            # Check that the current index is in the splitting indices list and not in the excluded indices list
+            if (current_idx in splitting_indices_list) and (current_idx not in excluded_indices_list):
+                
+                # Add it to the current list
+                current_list.append(current_idx)
             
             # Otherwise, if the current list is not empty, add it to the split list and start a new current list
             else:
                 if current_list: split_list.append(current_list)
-                split_list.append([current_idx])
                 current_list = []
             
         # If the current list is not empty, add it to the split list

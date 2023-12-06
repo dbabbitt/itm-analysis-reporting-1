@@ -193,3 +193,4 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
+saves/pkl/domain_doc_ners_df.pkl
