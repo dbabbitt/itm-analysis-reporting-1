@@ -635,7 +635,10 @@ class NotebookUtilities(object):
         """
         
         # Expand '~' to the home directory in the file path
-        if ('~' in path_str): path_str = path_str.replace('~', dict(os.environ)[home_key])
+        environ_dict = dict(os.environ)
+        if ('~' in path_str):
+            if home_key in environ_dict: path_str = path_str.replace('~', environ_dict[home_key])
+            else: path_str = osp.expanduser(path_str)
         
         # Get the absolute path to the file
         absolute_path = osp.abspath(path_str)
