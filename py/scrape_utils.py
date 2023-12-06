@@ -38,7 +38,7 @@ class WebScrapingUtilities(object):
         
         # Get secrets json
         if secrets_json_path is None:
-            self.secrets_json_path = '../data/secrets/bbai_secrets.json'
+            self.secrets_json_path = '../data/secrets/itm_secrets.json'
         else:
             self.secrets_json_path = secrets_json_path
         with open(self.secrets_json_path, 'r') as f:
