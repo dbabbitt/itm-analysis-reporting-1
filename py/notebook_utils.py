@@ -293,12 +293,6 @@ class NotebookUtilities(object):
         return name_similarities_df
     
     
-    def get_alphabet(self, sequence, verbose=False):
-        alphabet_set = set(sequence)
-        
-        return alphabet_set
-
-    
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
         """
         Converts a sequence of strings to a sequence of integers.
@@ -615,7 +609,7 @@ class NotebookUtilities(object):
         return dfs_list
     
     
-    def open_path_in_notepad(self, path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe'):
+    def open_path_in_notepad(self, path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe', verbose=True):
         """
         Open a file in Notepad or a specified text editor.
         
@@ -623,6 +617,7 @@ class NotebookUtilities(object):
             path_str (str): The path to the file to be opened.
             home_key (str, optional): The environment variable key for the home directory. Default is 'USERPROFILE'.
             text_editor_path (str, optional): The path to the text editor executable. Default is Notepad++.
+            verbose (bool, optional): If True, prints debug output. Default is False.
         
         Returns:
             None
@@ -642,11 +637,13 @@ class NotebookUtilities(object):
         
         # Get the absolute path to the file
         absolute_path = osp.abspath(path_str)
+        if verbose: print(f'Attempting to open {absolute_path}')
 
         # Open the absolute path to the file in Notepad or the specified text editor
         # !"{text_editor_path}" "{absolute_path}"
         import subprocess
-        subprocess.run([text_editor_path, absolute_path])
+        try: subprocess.run([text_editor_path, absolute_path])
+        except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
 
     
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
