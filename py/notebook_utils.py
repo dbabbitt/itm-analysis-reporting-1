@@ -902,7 +902,7 @@ class NotebookUtilities(object):
         frame_dict = {}  # Dictionary to store loaded DataFrames
         
         # Iterate over each frame_name provided in kwargs
-        for frame_name in kwParameters:
+        for frame_name in kwargs:
             
             # Attempt to load the data frame from a pickle file
             pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(frame_name))
