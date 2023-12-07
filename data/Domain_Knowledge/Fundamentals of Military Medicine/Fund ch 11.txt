@@ -1,0 +1,903 @@
+165
+Military Communication
+Chapter 11
+MILITARY COMMUNICATION
+ANGELA M. YARNELL, PhD*; CINDY DULLEA, RN, MBA†; and NEIL E. GRUNBERG, PhD‡
+INTRODUCTION
+DEFINITION
+RELEVANCE OF MILITARY AND MEDICAL COMMUNICATION
+COMMUNICATION AS IT RELATES TO LEADERSHIP
+PRINCIPLES OF EFFECTIVE COMMUNICATION 
+FORMS OF COMMUNICATION
+MILITARY-SPECIFIC COMMUNICATION REQUIREMENTS
+Written Communication
+Formal Oral Communication
+Counseling and Feedback
+OTHER COMMUNICATION CONSIDERATIONS 
+Addressing Difficult Topics
+Importance of Communication to the Military Family
+RESOURCES
+SUMMARY
+ATTACHMENT: KEY COMPONENTS OF MILITARY COMMUNICATION 
+FOR MEDICAL OFFICERS
+*Major, Medical Service Corps, US Army; Research Psychologist, Behavioral Biology Branch, Center for Military Psychiatry Neuroscience Research, 
+Walter Reed Army Institute of Research, Silver Spring, Maryland
+†Rear Admiral (Retired), Nurse Corps, US Navy Reserve; Chief Marketing Officer, Experian Health Inc, Franklin, Tennessee
+‡Professor, Department of Military and Emergency Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+166
+Fundamentals of Military Medicine
+INTRODUCTION
+Good communication is a cornerstone of effective 
+leadership. To optimize influence, the medical leader 
+must provide purpose, direction, and motivation. To 
+this end, the medical leader’s primary tools are written, spoken, and nonverbal communication skills. 
+Military briefings, military correspondence, checklists, 
+and appropriate communication style are all critical 
+leadership skills needed in all military settings and 
+mission profiles.
+Communication is an important component to 
+success in the military and in medicine. More than 
+the process of exchanging or transferring information in an understandable way, effective communication is a key competency of military and medical 
+leaders. 1 To accomplish this goal, military medical 
+leaders need to develop social and interpersonal 
+communication skills. Though they occur from the 
+beginning of life, most people are unaware of their 
+strengths and weaknesses when it comes to communication. The purpose of this chapter is to define 
+communication, describe the relevance of military 
+and medical communication, emphasize the importance of communication to leadership, and provide 
+specific examples of effective communication. The 
+chapter concludes with specifics about military communication forms and formats.
+DEFINITION
+Communication in its simplest form is defined as 
+the exchange of information; it includes sending and 
+receiving information verbally and nonverbally. It is 
+inherently an interactive social process2 that facilitates 
+understanding between individuals. However, the purpose of communication among military leaders is not 
+simply to exchange information; it is also to change or 
+influence others so that they perform a desired action. 
+Communication can be used to increase awareness of 
+issues and provide possible solutions; it can help bridge 
+cultural sensitivities and lead to consensus. Ineffective 
+communication can have the opposite impact. 
+RELEVANCE OF MILITARY AND MEDICAL COMMUNICATION
+Conveyance of information by the armed forces is 
+vital to military success, and it is especially critical 
+for the coordination of action. 3 Passing information 
+among troops has been necessary since the first military engagements, and forms of military communication have been transformed along with military 
+forces as technology has improved. The earliest communication was delivered on foot by runners carrying 
+messages, followed by the use of visual and audible 
+signals. Signals were transferred over long distances 
+using drums, horns, flags, and riders on horseback. 
+While the US Army was the first in the world to have 
+a separate communication branch (the Signal Corps, 
+formed in 1863, based on the adoption of signal flags 
+developed by Army doctor Albert Myer), effective 
+use of communications technology (signal flags) was 
+a testable skill for certain naval ratings more than a 
+century earlier. 
+Despite this long history, communication in the 
+military and in medicine is subject to limitations. Information can be lost or distorted as it is passed among 
+individuals. In business, it is estimated that 80% of 
+information is lost as it is translated from top management to the lowest level of employees. 4 This distortion 
+can occur if information is intentionally changed, or 
+when there is a subtle change in each transmission, like 
+the children’s game of telephone. Changes occur based 
+on assumptions as well as cognitive, physical, or social 
+limitations5 of the sender or receiver. In the military 
+and in medicine, loss or distortion of information can 
+have catastrophic consequences.
+In the military, giving clear and precise instructions 
+in the form of orders is important for success. For this 
+reason specified formats have been developed to issue 
+orders and for most forms of military communication 
+(specifics appear later in this chapter). When performance is expected to occur under stressful conditions, 
+training and rehearsal become particularly important, 
+and communication cannot be forgotten in this process. 
+A mark of a highly trained unit is rapid and accurate 
+communication that results in automatic responses. 3 
+Not only is effective communication vital to military 
+success, but it is also key to providing quality medicine. 
+Interpersonal and communication skills are one of six 
+competencies expected of residents by the Accreditation Council for Graduate Medical Education6 and may 
+be as crucial as other technical proficiencies in patient 
+care. According to a report by the US Department of 
+Health and Human Services,7 these skills commonly 
+include data-gathering skills (eg, use of open-ended 
+questions, particularly in the psychosocial domain); 
+relationship skills (eg, use of empathy, reassurance, 
+support, and emotional responsiveness); partnering 
+skills (eg, paraphrasing, asking for patient opinions, 
+negotiation, and joint problem solving); and counseling skills (eg, informativeness, persuasion). 8,9 
+167
+Military Communication
+These necessary patient communication skills are 
+collectively referred to as “patient-centeredness”8,10,11 
+and are demonstrated via responsiveness to patients’ 
+values, needs, and preferences. Effective communication allows healthcare providers to build trust with 
+their patients and enhance clinical care. 12–14 Further, 
+patient-centered physician behaviors have been associated with positive patient relationships and health 
+outcomes. 15,16 Specifically, communication skills have 
+been linked to a number of valued patient outcomes, 
+including satisfaction, adherence to treatment regimen, 
+and positive health indicators. 8 With regard to these 
+skills, it is important to consider how characteristics of 
+the physician, either innate or shaped by experiences, 
+contribute to the patient-provider interaction. Several 
+specific components of physician-patient communication valued by American adults have been identified, 
+including the values of any effective communication: 
+respect, attentiveness, and assuring the communication 
+is a dialogue. Beyond verbal communication skills, the 
+physician must be able to interpret a patient’s nonverbal cues and adapt communication to individual patients. Dyche17 highlights valuable interpersonal skills 
+for medicine, including understanding, empathy, and 
+relational versatility. Communicating with patients to 
+ensure that they understand the medical care they are 
+receiving, often referred to as “informed consent,” is 
+also an important skill (Exhibit 11-1) and is especially 
+nuanced in the military provider-patient relationship. 
+Not only is provider-patient interaction important, 
+but also the interaction within medical teams can 
+impact medical care. 18 Poor communication among 
+medical team members (physicians, nurses, other 
+caregivers) is related to greater conflict among these 
+groups, disruption in service to patients, medical errors, and reduced quality of care. 19–24 Subtle factors 
+involved in communication, such as status or power, 
+values, and attitudes,25 can affect the information exchanged among team members. Given these factors, 
+optimal communication is key to the development 
+and operation of teams. Specifically, the sharing of 
+mutual knowledge is accomplished by team members 
+frequently listening to each other, participating in joint 
+decision-making, and engaging in informal as well 
+EXHIBIT 11-1
+INFORMED CONSENT 
+Medical providers are often required to ensure the patient understands what will happen as it relates to medical 
+care and procedures. This process is often done orally, and the provider explains potential risks and benefits of 
+medical care or procedures and asks the patient if he or she understands and is ready to receive the care, such as 
+in the case of inserting an intravenous line. The process entails transmitting information and receiving consent to 
+ensure that the message is received. During treatment of active duty service members, the service members have 
+some rights, but their right to refuse care is limited. Knowing these boundaries is important for the military medical officer (MMO). The context of the provider-patient information exchange is also important: on the battlefield, 
+there are not a lot of alternative options for receiving care, but in the clinic there may be. Because of these circumstances, establishing a patient-provider relationship beyond the one that comes with the uniform or based on rank 
+is important. To establish trust, the MMO should leverage commonalities between the patient and the provider (eg, 
+both wear the uniform, speak a common language). Providers must know when to use or not use vernacular and be 
+mindful of the context. Some tips for developing this kind of interaction include:
+ 
+• engaging patients and patient populations at every opportunity
+ 
+• ask about common acronyms
+ 
+• ask about their jobs
+ 
+• do not be afraid to ask 
+ 
+• understand patient identity
+ 
+• practice military bearing
+ 
+• seek out opportunities for improvement (eg, a committee that provides other people’s perspectives, such as 
+a risk management committee or patient complaint committee)
+ 
+• break through rank structure when possible (eg, not wearing the uniform) 
+ 
+• be a lifelong learner, seeking answers and sharing information with colleagues 
+ 
+• know what must be disclosed to patients’ leadership, which may differ by unit or service (eg, pregnancy, 
+other potential limitations related to a diagnosis, substance abuse, suicidal ideation)
+ 
+• try to develop a therapeutic alliance prior to making necessary disclosures that may facilitate the patient to 
+self-disclose, eg, ask “who would you like me to talk to in your command?” 
+ 
+• support patients through the process 
+168
+Fundamentals of Military Medicine
+as formal interactions. 26 Enhancing the interaction of 
+teams is ultimately about leadership, and leadership 
+is an obvious intersection between being a medical 
+provider and being a military officer. The following 
+section addresses communication and its important 
+implications for leading military medical teams. 
+COMMUNICATION AS IT RELATES TO LEADERSHIP
+There is a strong positive correlation between communication and leadership effectiveness. 27 Leaders who 
+demonstrate communication skills are considered more 
+effective than leaders who do not communicate well. 
+Each of the services incorporates communication into 
+leadership principles in similar ways (Exhibit 11-2). 
+Leaders communicate more than do other group 
+members, but it is not always about how much is 
+communicated; rather, the quality of what is communicated and the way in which the communication 
+occurs may be more important than the quantity. 28 Effective communication occurs when leaders are skilled 
+in self-presentation and impression management29,30; 
+when they listen and care about their followers’ perspective; and when they motivate followers by framing 
+their communication according to that perspective. 
+These behaviors are all evidence of highly developed 
+communication skills. 28 These skills go beyond the 
+traditional personality traits often associated with 
+“good” communicators (eg, sociability, extraversion, 
+assertiveness); other necessary skills include the ability 
+to decode information or cues from others and to adapt 
+communication to changing situations. 28 
+Leaders must develop social and interpersonal skills 
+EXHIBIT 11-2
+COMMUNICATION AS IT RELATES TO LEADERSHIP BY SERVICE 
+Army
+According to Army Regulation 600-100,1 “Leaders communicate by expressing ideas and actively listening to others. Effective leaders understand the nature and power of communication and practice effective communication 
+techniques so they can better relate to others and translate goals into actions. Communication is essential to all 
+other leadership competencies.” Additionally, according to Army Field Manual 6-22,2 “Communication needs to 
+achieve a new understanding . . . . Leaders cannot lead, supervise, build teams, counsel, coach, or mentor without 
+the ability to communicate clearly.” 
+Air Force
+Air Force leadership doctrine (AFDD 1-13) highlights communication as a tool for Air Force leaders, who must 
+facilitate communication to “ensure a free flow of information and communication up, down, across, and within an 
+organization by actively listening and encouraging the open expression of ideas and opinions.” 
+Navy
+The Naval Leadership Competency Model, proposed to improve the definition of leadership by defining the expected behaviors and knowledge of Navy leaders, includes “working with people” as one of its five core competencies, with subcompetencies of written and oral communication. 4
+Marines
+One of the primary leadership resources for the US Marine Corps is Marine Corps Warfighting Publication 6-11, 
+Leading Marines,5 which emphasizes qualities of the individual leader and leadership principles. Critical communication components can be surmised from traits (eg, tact, bearing) and principles, which are trained starting in boot 
+camp and professional training for officers. 
+1. Department of the Army. Army Profession and Leadership Policy. Washington, DC: HQDA; 5 April 2017. AR 600-100.
+2. Department of the Army. Army Leadership. Washington, DC: HQDA; October 2006. FM 6-22.
+3. Department of the Air Force. Leadership and Force Development. Washington, DC: USAF; 8 November 2011. Air Force Doctrine 
+Document 1. 1.
+4. Air University website. Navy Leadership Competency Model. http://www.au.af.mil/au/awc/awcgate/navy/navy-ldr-comp.htm. 
+Accessed August 26, 2018.
+5. Department of the Navy. Leading Marines. Washington, DC: US Marine Corps; 27 November 2002. Marine Corps Warfighting 
+Publication 6-11. 
+169
+Military Communication
+to be effective communicators, specifically, social skills 
+such as self-monitoring,31 behavioral flexibility,32 and 
+social intelligence, and interpersonal skills including 
+interpersonal acumen33 and emotional intelligence. 
+An important aspect of social skill is self-monitoring. 
+Self-monitoring can be described as the ability to 
+adapt one’s behavior to perform appropriately in social situations by assessing those situations. 34,35 High 
+self-monitors adapt to situations around them better 
+than low-self monitors and are more likely to emerge 
+as leaders. Skillful communication requires this kind 
+of adaptation. 28 Socially skilled communicators adapt 
+based on audience reaction; critical feedback; changes 
+in the environment or situation in which the communication is taking place; and updated facts or new developments relevant to communication. Socially skilled 
+leaders perform better under stressful situations. 36
+In medicine, better social skills used in communication facilitate agreement from patients on difficult 
+treatment decisions and long-term compliance with 
+treatment plans. 37–40 Social skill in communicating includes expressivity (sending), sensitivity (decoding), 
+and control (regulating communication), which occur 
+in the verbal/social domain as well as the nonverbal/
+emotional domain. A skilled communicator demonstrates expertise by balancing each of these three 
+competencies across both domains. 41 These skills are 
+trainable and evolve with experience. Specifically, 
+social expressivity and social control improve through 
+clinical experience, receiving feedback from attending 
+physicians, and interactions with patients and peers. 42 
+Social expressivity and social control may contribute to a greater amount of social intelligence. As described by Zaccaro,31 a person with social intelligence 
+is able to perceive and interpret social situations and 
+is also flexible and adaptable in his or her behaviors. 
+Social intelligence is particularly important for effective leadership, especially the higher an individual 
+moves up in an organization, where he or she is likely 
+to experience more complex social situations. 31 
+In addition to social skills, effective communicators 
+possess necessary interpersonal skills or interpersonal 
+sensitivity. These skills include listening and decoding 
+abilities, which develop good relationships that lead 
+to increased subordinate satisfaction. 43,44 Emotional 
+intelligence is important for interpersonal interactions. 
+Emotional intelligence represents the ability to:
+ 
+• monitor the emotions of self and others,
+ 
+• differentiate distinct emotions,
+ 
+• label emotions correctly, and
+ 
+• use this information to guide behavior. 45
+Leader-follower relationships are highly dependent 
+on emotional intelligence. A leader needs to be able 
+to perceive the emotions of others as well as generate 
+and regulate his or her own emotions. 46 Emotional 
+intelligence can be a leadership attribute (ie, it comes 
+naturally to some leaders) or it may require training 
+and practice to accomplish it fully and genuinely. 
+In practice, understanding and being receptive to 
+the emotions of others enhances communication. To 
+influence an audience of followers or subordinates, 
+a leader must first appreciate how that audience 
+feels and thinks, and what they care about, as well as 
+genuinely respond to these thoughts and feelings. 2 To 
+motivate followers into action through communication, the leader must first understand what motivates 
+them, or “meet them where they are.” Followers and 
+patients have their own ideas, feelings, concerns, and 
+perspectives, and effective communicators start by 
+taking these aspects seriously. Leaders who arouse, 
+inspire, and motivate followers via effective communication are typically demonstrating transformational 
+leadership. 28 This form of leadership is associated with 
+more satisfied and higher performing groups. 
+Active listening is another interpersonal skill that 
+can be used to understand what motivates followers. 
+An active listener avoids interruption, indicates to the 
+speaker that he or she is attentive, keeps mental or written notes to follow up on once the speaker is finished, 
+does not form a response instead of listening to the 
+entire message being conveyed, and is not distracted 
+or otherwise impeded from listening. An active listener 
+is absorbing not only what is said, but also how it is 
+said, and attempts to appreciate the emotion in the 
+message in addition to the content. 
+It is clear why effective communication skills are 
+important to military medical leadership, but exactly 
+how to achieve skill with communication requires additional information. The next section provides specific 
+examples about how to communicate effectively. 
+PRINCIPLES OF EFFECTIVE COMMUNICATION
+Principles of effective communication stem from 
+social psychological research, which originated 
+with the concept of informal social communication. 
+In a ground-breaking study, Festinger, Back, and 
+Schachter found that functional space as opposed to 
+the physical environment had a greater influence on 
+the amount and quality of communication among 
+neighbors in a housing complex. 47 Schachter’s role in 
+this research was influenced by his time serving in 
+the Army Signal Corps. Functional space is a simple 
+concept that can be applied on the battlefield as well 
+as in the clinic. For example, the set-up of a triage area 
+170
+Fundamentals of Military Medicine
+or treatment tent in the field can make or break effective communication. If the surgeon is able to treat two 
+patients simultaneously with the assistance of medics 
+or corpsmen, then he or she will be more efficient, and 
+this added efficiency can be facilitated by orchestrating the functional space. The communicator should 
+always consider manipulating the environment to 
+facilitate communication. Some specific examples for 
+military medicine include horseshoe formations, noise 
+reduction, face-to-face versus email communication, 
+and use of social media. 
+Additional concepts for enhancing effective communication can be gleaned from psychological research. 
+The timing or order of information presentation is 
+important. For example, items or arguments offered at 
+the beginning of the communication are best remembered, which is referred to as primacy. 48 In the military, 
+the concept of giving the “BLUF,” or “bottom line up 
+front,” is used to convey the most important information, or a summary, before providing all the details. 
+This practice allows for efficient communication and is 
+favored by many in military culture, especially senior 
+leadership. Like primacy, research also supports the 
+notion of recency, where arguments made at the end 
+of a communication are well remembered. 48 Effective 
+communication also includes repetition of key concepts to increase their salience for the audience. 
+The credibility of the communicator has a great effect on how and how well the information is received. 
+Military medical officers (MMOs) are often challenged 
+to prove their credibility in situations where they interact with line-level commanders and patients. For 
+example, the unit surgeon is the medical advisor to the 
+commander and therefore should establish credibility 
+for providing necessary medical information about 
+the unit and its mission. The credibility of a physician also may be key in patient interactions. Patients 
+must find their doctor credible to take advice about 
+their health. There are ways to increase the perceived 
+credibility of the communicator. The first is to defend 
+against or minimize perceived self-interest. 49 When 
+it is perceived that the communicator stands to gain 
+more from the communication than those who are 
+receiving it, the information is often not effective. If 
+the communicator is at least able to demonstrate a 
+shared interest, he or she is more likely to be viewed 
+as credible and the communicated information will 
+be better received.
+The MMO must know when to highlight medical 
+credentials versus military credentials. For example, 
+when building rapport, sometimes it may be important 
+for the patient to be understood as a service member, 
+and related to in that way; whereas, in other situations, patients may want to be more confident in their 
+provider’s medical knowledge and ability to address 
+their concerns. Reading the patient’s body language 
+and developing a rapport that facilitates communication is important to establish credibility. In interactions 
+in which trust seems lacking (eg, noncompliance by 
+patient), the MMO must take steps to build credibility 
+or trust. Asking, “What do you need to know about 
+me as a physician?” may be a good place to start when 
+it seems that the patient is questioning the MMO’s 
+medical knowledge. Then providing information about 
+credentials such as, “I have these qualifications” or “I 
+have this number of years of training” or “I have the 
+same qualifications as doctors at X civilian hospital” 
+may be good information to share. 
+Another way to establish credibility is to demonstrate it over time. The “sleeper effect” is a phenomenon in which over time the source of the information 
+is forgotten and only the content is remembered. 50,51 
+An MMO may accomplish this form of credibility by 
+slowly but consistently performing at or above the expectations of those around him or her. This consistent 
+build, often in small ways (eg, respectful interactions 
+with subordinates, always being early or on time for 
+obligations), will over time lead to a positive regard for 
+the leader or communicator. Ultimately, the best way 
+to establish and maintain credibility is to ensure words 
+are matched by actions; otherwise, the communicator 
+is viewed as not credible. 2 
+FORMS OF COMMUNICATION
+There are two main forms of communication: verbal 
+and nonverbal. Important aspects of verbal or spoken 
+communication to keep in mind include volume, verbal tics, silence, tone, phrasing, pitch, tempo, rhythm, 
+accents, dialect, and use of colorful language. Characteristics of nonverbal communication include attire, 
+position and proximity, movement, facial expressions, 
+body language, eye contact, gestures, interactions with 
+media, and interactions with audience or listeners. 
+Military bearing is a key component of both verbal 
+and nonverbal communication. Military bearing is 
+described as projecting a commanding presence, an 
+image of authority and discipline. This attribute carries 
+great importance for communication and leadership 
+for military officers. Leaders and communicators are 
+judged based on three observable attributes: bearing, 
+how the communicator engages with others, and words 
+used for the interaction. Judgments based on bearing 
+are made in the first 15 seconds. Before a word is even 
+spoken, the audience is judging the speaker and deciding if they should pay attention, if they can rely on 
+what he or she is saying, and whether or not he or she 
+171
+Military Communication
+is credible; these decisions can define the audience’s 
+reaction regardless of what the speaker has to say. 2 A 
+communicator who displays nervousness or discomfort 
+will cause the audience to look away and disengage, 
+while one who displays comfort and confidence will 
+capture the audience’s attention. A communicator can 
+establish a physical presence of confidence by planting 
+his or her feet further apart than natural, or taking on 
+a position of power. 52,53 Even if the speaker does not 
+inwardly feel confident, taking on this position will 
+convey confidence and command the audience’s attention. Formal appearance, from the cleanliness of one’s 
+uniform, to adherence to height and weight standards, 
+to style and amount of makeup, will also be judged as 
+part of the communicator’s bearing. 
+The communicator’s subsequent behaviors are also 
+important to connecting with the audience. Looking 
+down, random hand movements, shuffling of feet, licking lips, looking at objects versus people, and speaking 
+in a monotone voice all cause an audience to disengage. 
+These behaviors can have compounding effects and 
+diminish the speaker’s effectiveness. However, the use 
+of gestures should not be completely discouraged. In 
+fact, when a speaker uses gestures the audience retains 
+more of the information being transmitted, especially 
+when the voice, gestures, and content of the speech 
+are well aligned and gestures allow the speaker to 
+use different voice effects (eg, varying volume, pitch, 
+speed, pauses). The speaker should also move around 
+in concert with what is being said, not randomly. 
+EXHIBIT 11-3
+CHECKLIST EXAMPLES 
+SOAP Note
+The “SOAP note” is a way to document medical 
+information and increase communication among 
+members of a medical team. 
+S: Subjective, or what the patient tells you. 
+O: Objective, or the physical findings of the 
+exam. 
+A: Assessment, or your interpretation of the 
+patient’s condition. 
+P: Plan, which may include medical treatment, 
+additional diagnostic tests needed (eg, x-ray, 
+magnetic resonance imaging); special instructions (eg, handouts, when to return to clinic). 
+“Time-out” Procedure
+The “time-out” procedure is a standardized protocol used to prevent mistakes prior to medical 
+procedures and enhance communication among 
+team members. A time-out involves the immediate 
+members of the procedure team (eg, individual performing the procedure, anesthesia providers, nurse). 
+During the time-out, the team members agree, at a 
+minimum, about the following:
+• patient identity
+• correct site
+• procedure to be done
+MILITARY-SPECIFIC COMMUNICATION REQUIREMENTS
+There are requirements and nuances of communicating in the military, which include specifications for 
+written communications, formal oral communications 
+(military briefings), and counseling or feedback. This 
+section outlines some of the resources available for 
+written communication, military briefings, and providing counseling and feedback. 
+Written Communication
+Specific regulations are associated with written 
+correspondence and communication in the military. 
+Memorandums and executive summaries (EXSUMs) 
+are examples of specific written correspondence. An 
+EXSUM is a short document or section of a document 
+in which a summary of the longer report is provided 
+to allow for rapid acquaintance with a large body of 
+material without having to read it all. This summary 
+is typically provided to higher leadership to inform 
+them of a body of work or other important information. Table 11-1 provides a list of resources with guidance to prepare an EXSUM (however, organizations 
+often develop their own guidance for writing an 
+EXSUM based on the leadership preferences). Table 
+11-1 also lists specific service manuals for written 
+communication. 
+Formal Oral Communication 
+Military briefings are a form of formal oral communication. Military briefings include informational briefings, operations orders briefings, course 
+of action briefs, military decision-making processes, 
+and rehearsals. Each service has a specific way in 
+which these briefings are planned and carried out. 
+See Table 11-1 for a list of resources available to 
+prepare formal oral communications. Checklists 
+are also useful in planning and delivering briefings. 
+Various checklists are created at the service as well 
+as unit levels and can be found in respective service 
+field manuals and similar publications (see Table 
+172
+Fundamentals of Military Medicine
+TABLE 11-1
+MILITARY-SPECIFIC COMMUNICATION REQUIREMENTS 
+Topic
+Service
+Manual
+Title
+Written Communication
+General
+Army
+AR 25-50
+Preparing and Managing Correspondence1
+DA Pam 600-67
+Effective Writing for Army Leaders2
+Air Force
+Air Force Manual 33-326
+Preparing Official Communications3
+Navy
+SECNAV Manual M-5216. 5
+Correspondence Manual4
+EXSUM
+Army
+TRADOC Regulation 1-11
+Staff Procedures5 (Chapter 3. 5)
+Navy/Marine Corps [No number]
+A Guide to Writing an Effective Executive Summary6
+Oral Communication
+Formal
+Army
+Field Manual 6-0
+Commander and Staff Organization and Operation7
+Air Force
+Air Force Handbook 33-337
+The Tongue and Quill8
+Briefing
+Joint
+Joint Forces Staff College Publication 1 The Joint Staff Officers Guide9 (Chapter 5)
+AR: Army Regulation; DA Pam: Department of the Army Pamphlet; EXSUM: executive summary; SECNAV: secretary of the Navy; TRADOC: 
+Training and Doctrine Command 
+1. https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/r25_50.pdf
+2. http://www.au.af.mil/au/awc/awcgate/army/p600_67.pdf
+3. http://static.e-publishing.af.mil/production/1/saf_cio_a6/publication/afman33-326/afman33-326.pdf
+4. https://www.marines.mil/Portals/59/Publications/SECNAV%20M%205216. 5.pdf
+5. http://www.tradoc.army.mil/tpubs/regs/tr1-11.pdf
+6. https://www.med.navy.mil/sites/nmcphc/Documents/environmental-programs/risk-communication/Appendix_E_Guide_to_Writing_ 
+Effective_Executive_Summary.pdf
+7. https://armypubs.army.mil/ProductMaps/PubForm/Details.aspx?PUBNO=FM+6-0
+8. http://static.e-publishing.af.mil/production/1/saf_cio_a6/publication/afh33-337/afh33-337.pdf
+9. http://www.au.af.mil/au/awc/awcgate/pub1/index2000.htm
+11-1). Other checklists relevant for MMOs include 
+“SOAP” notes and “time-out” checks before procedures (Exhibit 11-3 provides examples). Rehearsals 
+(often called rehearsal of concept, or ROC, drills 
+in the military) can allow leaders to ensure their 
+subordinates understand the upcoming operation 
+and know how and when to act and how to communicate during the operation (“operation” refers 
+to any collective task that a group may be attempting to accomplish). 
+Combat orders enable a leader to communicate 
+in a timely manner (see Chapter 18). There are three 
+types of combat orders: operation order (OPORD), 
+warning order (WARNO), and fragmentary order 
+(FRAGO). The OPORD is utilized by a commander 
+to effect the coordinated execution of an operation. A 
+WARNO normally precedes the full operation order 
+and is a preliminary notice that the complete order is 
+to follow. A FRAGO is used to communicate updates 
+or changes to an existing order. The OPORD follows 
+a five-paragraph format, which is shared among the 
+US armed forces and NATO allies. These orders are 
+given in written and oral formats. 
+Counseling and Feedback 
+Providing subordinates with evaluation of their 
+performance is a critical part of leadership in the 
+military. Evaluation is accomplished in a number of 
+informal and formal ways. “On-the-spot” feedback is 
+an example of informal evaluation in which the leader 
+makes a necessary corrective action to undesirable behavior or provides praise for a job well done. Formal 
+evaluation takes place through counseling (written and 
+oral), performance evaluation, and awards. As mentioned earlier, it is important to provide subordinates 
+with expectations of their behavior and performance. 
+These expectations are communicated during formal 
+counseling sessions, often in the form of performance 
+objectives to be accomplished. 
+Good behavior should be rewarded through various 
+methods. The first is public praise, such as positive 
+words spoken in front of peers at a staff meeting. Good 
+behavior can also be recognized with coins, certificates 
+of appreciation, and awards. Awards should be used 
+to recognize performance that goes above and beyond 
+duties as assigned. Specific guidance for these pro173
+Military Communication
+cesses can be found in service regulations, department 
+instructions, and other similar publications (eg, Army 
+Regulation [AR] AR 600-8-2254 and AR 215-1,55 Navy 
+Bureau of Medicine and Surgery Instruction 1650. 1A,56 
+and Air Force Instruction 36-280357). 
+Behavior that detracts from the unit’s mission, disparages others, or is in general conduct unbecoming 
+a military member should also be addressed. For the 
+most part, this kind of behavior should be corrected 
+in private. Leaders need to hold all their subordinates 
+accountable for their actions to facilitate mission success. To do this, the leader must sometimes correct 
+bad behavior. The process by which undesirable 
+behavior can be addressed includes both informal 
+leader-subordinate interactions and formal actions 
+(eg, counseling statement, reprimand, or admonition; 
+see service-specific publications such as AR 600-8-104, 
+Army Military Human Resources Management,58 and AFI 
+36-2907, Unfavorable Information File Program59). Proactive and constructive feedback, including assertive 
+communication and the effective use of praise, can 
+facilitate good leader-subordinate relationships while 
+increasing morale and resilience in groups. 
+There are also tools available to facilitate unit-level 
+feedback. After action reviews (AARs), for example, 
+are an excellent venue to assess the performance of 
+a unit. AARs are important to define best practices 
+as well as ensure process improvement. Originally 
+developed by the Army and described in Training 
+Circular (TC) 25-20, Leader’s Guide to After-Action 
+Reviews,60 AARs are now used in all services as well 
+as in many nonmilitary settings. The formal process 
+to conduct an AAR includes statements regarding (a) a 
+description of events that occurred, (b) things that went 
+well, and (c) things that can be improved. Whether or not 
+the AAR is conducted in a formal or informal manner, this 
+form of communication is a valuable tool in the operation 
+of any organization. 
+OTHER COMMUNICATION CONSIDERATIONS 
+Addressing Difficult Topics
+A communication challenge that MMOs often face is 
+the need to address difficult material or topics. The burden is often on leaders to handle uncomfortable topics2 
+and on medical providers to address negative health 
+issues. In these situations, it is best to ensure consistency of message, appropriate tone, and timeliness. 
+Allowing the situation to linger because of personal 
+worry, embarrassment, or fear may only make things 
+worse. Followers want to know that their leader is in 
+control, and patients look to the provider for answers 
+and guidance. However, rash decision-making is not 
+a good option either. As mentioned in the attachment 
+to this chapter, the “first mover advantage” should 
+be used in situations when the leader is expected by 
+followers to act immediately, when the followers or 
+others (critics) are already discussing the situation, 
+and especially when silence will be perceived as indifference. A leader who delays communication in these 
+instances loses the ability to control the outcome of 
+the conversation or situation. 2 In these circumstances 
+it is also important to be aware that words matter and 
+different words can have different impacts, which are 
+additional reasons to plan and prepare for difficult 
+communications. 
+Importance of Communication to the Military 
+Family
+While beyond the scope of this chapter, consideration of similarities and differences when communicating with military family members compared to the military member should not be overlooked. Dependents 
+play vital support roles in the medical care and life of 
+the service member, and he MMO should be aware of 
+any unique circumstances. The MMO must recognize 
+the unique stressors and dynamics associated with 
+military life that may be operating in their patients’ 
+and patients’ family lives. According to the civilian 
+literature, the four most important factors for a family 
+member of a patient when receiving bad news from 
+a medical provider are (1) the provider’s attitude, (2) 
+clarity of the message, (3) privacy, and (4) the provider’s 
+ability to answer questions. Also, it is important for 
+MMOs to be aware of and educated about the different rules for disclosure of information when treating 
+service members versus dependents (see Chapter 5).
+RESOURCES
+Key components of communication for MMOs 
+include purpose, direction, motivation, style, and 
+planning. These are discussed in the attachment to 
+this chapter. Other resources include Garcia’s book, 
+Power of Communication: The Skills to Build Trust, Inspire 
+Loyalty, and Lead Effectively,2 and Dyche’s article, “Interpersonal Skill in Medicine.”17 As mentioned, each 
+service has published communication manuals listed 
+in Table 11-1; the services have also posted writing 
+advice on the following websites:
+174
+Fundamentals of Military Medicine
+ 
+• http://www.armywriter.com/army-writingreferences.htm 
+ 
+• http://www.navywriter.com/ 
+ 
+• http://www.airforcewriter.com/
+SUMMARY
+Effective communication is important for military and medical leadership. MMOs must strive to 
+develop, refine, and master social and interpersonal 
+skills to become effective communicators and leaders. In military leadership and medicine, saying the 
+right thing in the right way may not be enough. 
+Skillful communication should be considered a 
+“force multiplier” to be used alongside other important technical and tactical competencies in the 
+MMO’s toolkit. 
+REFERENCES
+ 
+1. US Army. Be, Know, Do: Leadership the Army Way: Adapted from the Official Army Leadership Manual. San Francisco, CA: 
+Jossey-Bass; 2004.
+ 
+2. Garcia HF. Power of Communication: The Skills to Build Trust, Inspire Loyalty, and Lead Effectively. Upper Saddle River, 
+NJ: FT Press; 2012.
+ 
+3. King A. The word of command communication and cohesion in the military. Armed Forces Soc. 2006;32:493–512. 
+ 
+4. Hawkins BL, Preston P. Managerial Communication. Santa Monica, CA: Goodyear Publishing Company; 1981.
+ 
+5. Stohl C, Redding WC. Messages and message exchange processes. Process Commun Behav Organ. 1988;25:451–502.
+ 
+6. Holmboe ES, Edgar L, Hamsta S. The Milestones Handbook. Chicago, IL: Accreditation Council for Graduate Medical 
+Education; 2016: 20. http://www.acgme.org/Portals/0/MilestonesGuidebook.pdf. Accessed June 21, 2017.
+ 
+7. US Department of Health and Human Services. Communicating Health: Priorities and Strategies for Progress. Washington, 
+DC: Government Printing Office; 2003.
+ 
+8. Lipkin MJ, Putnam SM, Lazare A, et al, eds. The Medical Interview: Clinical Care, Education, and Research. Heidelberg 
+and New York; Springer; 2011. 
+ 
+9. Roter D. The enduring and evolving nature of the patient–physician relationship. Patient Educ Couns. 2000:39(1):5–15.
+ 10. Mead N, Bower P. Patient-centeredness: a conceptual framework and review of the empirical literature. Soc Sci Med. 
+2000:51(7):1087–1110.
+ 11. Tressolini C. Health Professions Education and Relationship-Centered Care: Report of Pew-Fetzer Task Force. San Francisco, 
+CA: Pew Health Professions Commission; 1994.
+ 12. Joos SK, Hickam DH, Gordon GH, Baker LH. Effects of a physician communication intervention on patient care outcomes. J Gen Intern Med. 1996:11(3):147–155.
+ 13. Levinson W, Chaumeton N. Communication between surgeons and patients in routine office visits. Surgery. 
+1999:125(2):127–134.
+ 14. Roter DL, Hall JA, Katz NR. Patient-physician communication: a descriptive summary of the literature. Patient Educ 
+Couns. 1988:12(2):99–119.
+ 15. Makoul G. Essential elements of communication in medical encounters: the Kalamazoo consensus statement. Acad 
+Med. 2001:76(4):390–393.
+ 16. Braddock CH 3rd, Edwards KA, Hasenberg NM, Laidley TL, Levinson W. Informed decision making in outpatient 
+practice: time to get back to basics. JAMA. 1999:282(24):2313–2320.
+ 17. Dyche L. Interpersonal skill in medicine: the essential partner of verbal communication. J Gen Intern Med. 2007:22(7):1035–
+1039.
+175
+Military Communication
+ 18. Michan S, Rodger S. Characteristics of effective teams: a literature review. Aust Health Rev. 2000:23(3):201–208.
+ 19. Friedman DM, Berger DL. Improving team structure and communication: a key to hospital efficiency. Arch Surg. 
+2004:139(11):1194–1198.
+ 20. McCue JD, Beach KJ. Communication barriers between attending physicians and residents. J Gen Intern Med. 
+1994:9(3):158–161.
+ 21. Rosenstein AH, O’Daniel M. Disruptive behavior and clinical outcomes: perceptions of nurses and physicians. Am J 
+Nurs. 2005:105(1):54–64.
+ 22. Sutcliffe KM, Lewton E, Rosenthal MM. Communication failures: an insidious contributor to medical mishaps. Acad 
+Med. 2004:79(2):186–194.
+ 23. Thomas EJ, Sexton JB, Helmreich RL. Discrepant attitudes about teamwork among critical care nurses and physicians. 
+Crit Care Med. 2003:31(3):956–959.
+ 24. Vincent C, Moorthy K, Sarker SK, Chang A, Darzi AW. Systems approaches to surgical quality and safety: from concept 
+to measurement. Ann Surg. 2004:239(4):475–482.
+ 25. Loxley A. Collaboration in Health and Welfare: Working With Difference. London, England: Jessica Kingsley; 1997.
+ 26. Headrick LA, Wilcock PM, Batalden PB. Interprofessional working and continuing medical education. BMJ. 
+1998:316(7133):771–774.
+ 27. Bates MJ, Fallesen JJ, Huey WS, et al. Total Force Fitness in units, part 1: military demand-resource model. Mil Med. 
+2013:178(11):1164–1182.
+ 28. Riggio RE, Riggio HR, Salinas C, Cole EJ. The role of social and emotional communication skills in leader emergence 
+and effectiveness. Group Dynamics Theory Res Pract. 2003:7(2):83–103.
+ 29. Chemers M. An Integrative Theory of Leadership. Mahwah, NJ: Lawrence Elrbaum Associates; 1997.
+ 30. Leary MR. Self-presentational processes in leadership emergence and effectiveness. In: Giacalone GR, Rosenfeld P, 
+eds. Impression Management in the Organization. Hillsdale, NJ: Erlbaum, 1989: 363–374.
+ 31. Zaccaro SJ. Organizational leadership and social intelligence. In: Riggio RE, Murphy SE, Pirozzolo FJ, eds. Multiple 
+Intelligences and Leadership. Hillsdale, NJ: Lawrence Erlbaum; 2002: 29–54. LEA’s Organization and Management Series.
+ 32. Kenny DA, Zaccaro SJ. An estimate of variance due to traits in leadership. J Appl Psychol. 1983;68:678–685.
+ 33. Aditya R, Hause RJ. Interpersonal acumen and leadership across cultures: Pointers from the GLOBE study. In: Riggio 
+RE, Murphy SE, Pirozzolo FJ, eds. Multiple Intelligences and Leadership. Hillsdale, NJ: Lawrence Erlbaum; 2002: 215–240. 
+LEA’s Organization and Management Series.
+ 34. Snyder M. Self-monitoring of expressive behavior. J Pers Soc Psychol. 1974:30(4) 526–537.
+ 35. Snyder M. Public Appearances, Private Realities: The Psychology of Self-Monitoring. New York, NY: WH Freeman; 1987
+ 36. Halverson, SK, Murphy SE, Riggio RE. Charismatic leadership in crisis situations: a laboratory investigation of stress 
+and crisis. Small Group Res. 2004:35(5):495–514.
+ 37. Kerse N, Buetow S, Mainous AG 3rd, Young G, Coster G, Arroll B. Physician-patient relationship and medication 
+compliance: a primary care investigation. Ann Fam Med. 2004:2(5):455–461.
+ 38. Ong LM, de Haes JC, Hoos AM, Lammes FB. Doctor-patient communication: a review of the literature. Soc Sci Med. 
+1995:40(7):903–918.
+ 39. Schneider J. Kaplan SH, Greenfield S, Li W, Wilson IB. Better physician-patient relationships are associated with higher 
+reported adherence to antiretroviral therapy in patients with HIV infection. J Gen Intern Med. 2004:19(11):1096–1103.
+176
+Fundamentals of Military Medicine
+ 40. Smith VA, DeVellis BM, Kalet A, Roberts JC, DeVellis RF. Encouraging patient adherence: primary care physicians’ 
+use of verbal compliance-gaining strategies in medical interviews. Patient Educ Couns. 2005:57(1):62–76.
+ 41. Riggio RE. Assessment of basic social skills. J Pers Social Psychol. 1986:51(3):649–660.
+ 42. Horwitz IB, Horwitz SK, Brandt ML, Brunicardi FC, Scott BG, Awad SS. Assessment of communication skills of surgical residents using the Social Skills Inventory. Am J Surg. 2007: 94(3):401–405.
+ 43. Riggio RE. Interpersonal sensitivity research and organizational psychology: Theoretical and methodological applications. In: Hall JA, Bernieri FJ, eds. Interpersonal Sensitivity: Theory and Measurement Mahwah, NJ; Lawrence Erlbaum 
+Associates; 2001: 305–317. LEA Series in Personality and Clinical Psychology.
+ 44. Riggio RE, Zimmerman J. Social skills and interpersonal relationships: Influences on social support and support seeking. Adv Personal Relationships. 1991;2:133–155.
+ 45. Goleman D. Working with Emotional Intelligence. New York, NY: Bantam; 1998. 
+ 46. Mayer J, Salovey P. What Is Emotional Intelligence? Emotional Development and Emotional Intelligence: Education Implications. New York, NY: Basic Books; 1997.
+ 47. Festinger L, Back KW, Schachter S. Social Pressures in Informal Groups: A Study of Human Factors in Housing. Stanford, 
+CA: Stanford University Press; 1950.
+ 48. Miller N, Campbell DT. Recency and primacy in persuasion as a function of the timing of speeches and measurements. 
+J Abnorm Psychol. 1959:59(1):1–9.
+ 49. Lumsdaine AA, Janis IL. Resistance to “counterpropaganda” produced by one-sided and two-sided “propaganda” 
+presentations. Public Opinion Q. 1953:17(3):311–318.
+ 50. Hovland CI, Weiss W. The influence of source credibility on communication effectiveness. Public Opinion Q. 1951:15:635–
+650.
+ 51. Margolis RH. What do your patients remember? Hear J. 2004:57(6):10–12.
+ 52. Carney DR, Cuddy AJ, Yap AJ. Power posing brief nonverbal displays affect neuroendocrine levels and risk tolerance. 
+Psychol Sci. 2010:21(10):1363–1368.
+ 53. Cuddy AJ, Wilmuth CA, Carney DR. The benefit of power posing before a high-stakes social evaluation. Harvard 
+Business School Working Paper, No. 13-027, 2012. https://dash.harvard.edu/bitstream/handle/1/9547823/13-027.
+pdf?sequence=1. Accessed June 21, 2017.
+ 54. Department of the Army. Military Awards. Washington, DC: HQDA; 25 June 2015. Army Regulation 600-8-22.
+ 55. Department of the Army. Morale, Welfare, and Recreation Programs and Nonappropriated Fund Instrumentalities. Washington, 
+DC: HQDA; 24 September 2010. Army Regulation 215-1. 
+ 56. Department of the Navy. Navy Medicine Military Awards Program. Falls Church, VA: Department of Medicine, Bureau 
+of Medicine and Surgery; 21 September 2015. BUMED Instruction 1650. 1.
+ 57. Department of the Air Force. Air Force Military Awards and Decorations Program. Washington, DC: USAF; 2013. Air Force 
+Instruction 36-2803.
+ 58. Department of the Army. Army Military Human Resources Management. Washington, DC: HQDA; 2 August 2012. AR 600-8-104.
+ 59. Department of the Air Force. Unfavorable Information File Program. Washington, DC: USAF: 26 November 2014. AFI 36-2907
+ 60. Department of the Army A Leader’s Guide To After-Action Reviews. Washington, DC: HQDA; 30 September 1993. Training 
+Circular 25-20.
+177
+Military Communication
+ATTACHMENT: KEY COMPONENTS OF MILITARY COMMUNICATION FOR MEDICAL OFFICERS
+Clarity in military communication has long been recognized as critical. As military operations became increasingly complex, military communication styles became more rigorous. In 1897, Eden Swift introduced a stylized 
+field order based on Prussian staff experience. 1 This format evolved under the influence of the US Army’s new 
+Staff College at Fort Leavenworth, Kansas, and became a global military standard. 2 Military services today share 
+a passion for clarity in communication; modern business and other public communications have benefited from 
+the military example and history. Currently, five key components of effective communication are recognized, 
+as discussed below.
+Purpose. Communication that provides purpose demonstrates to the receiver the leader’s or speaker’s vision 
+for necessary subsequent action. 3 Providing purpose ensures the receivers of the communication have a “bigger picture” idea about the work or tasks they are being asked to carry out. When followers are able to see or 
+understand the greater purpose of their tasks, they may be more invested in a successful outcome. 
+Direction. In addition to purpose, military communication should provide direction. Direction includes additional information regarding the intent of the leader or speaker, and also conveys expectations of how or to 
+what standard the tasks must be accomplished. As the US Marine Corps manual Warfighting makes clear, communicators, regardless of format, must “establish what we want to accomplish, why, and how. Without a clearly 
+identified concept and intent, the necessary unity of effort is inconceivable.”4(p82) When followers are given clear 
+and specific guidance, they are more likely to accomplish the task in a timely manner and in a way consistent 
+with the desires of the leader. Followers may have the ability to meaningfully contribute to the way in which a 
+task is carried out. For this reason, the leader must be adaptive in how he or she communicates direction. Often 
+a focus on the standard (eg, deadline, quality, quantity) will convey enough information to allow for effective 
+and efficient completion without the leader specifically stating “how” to do it. 
+Motivation. Effective military communication should inspire an individual to complete the task while setting 
+expectations. If expectations are ambiguous or not met, it leads to disappointment. For this reason expectations 
+must not only be set, but also managed. If the situation changes and expectations must be altered, it is better to 
+alter the expectations than allow them to go unmet altogether.
+Communication is a facet of human interaction; it is shaped by human nature in both sending and receiving. 
+As the purposes of stylized communication have become broader, the need for more complex communications 
+has become clear. Many modern communications experts have based their studies on military doctrine. One 
+of the more successful was Professor Helio F. Garcia. According to Garcia, the ultimate goal of communication 
+is changing how people think, motivating them to action. Communication will therefore invariably be shaped 
+by emotions and subject to the “complexities, inconsistencies, and particularities which characterize human 
+behavior.”5(p188) In some situations, a communicator cannot meet emotion coming from a listener with a logical 
+argument. Emotional communications must first be met with an emotional response, and then guided to logic. 
+For example, an aggrieved individual must be addressed first with regret, sorrow, or at least empathy, regardless of the end goal of the communication.
+Style. Effective communicators consider the following: the goal of the communication; the audience; how 
+to engage the audience to get them to care; what actions or words are needed to get the audience to care; and 
+ways to connect with the audience about things the audience cares about. 5 Effective communicators successfully 
+engage an audience by using logic, personal character, and passion simultaneously, often beginning with the 
+audience’s perspectives in mind. This ability is especially important in crisis situations when followers and critics will look to leaders for a response. 5 The “first mover advantage” is a concept gleaned from Marine doctrine,5 
+in which a communicator is able to define a crisis, his or her motives, and the next steps involved in a situation 
+before any other party is able to intervene or interject. 
+See Garcia’s Power of Communication5 for a complete description including impactful examples of utilizing this 
+concept in communication. Briefly, in a crisis situation, silence and delay may make a problem worse. Action, 
+however, is not just about speed; a “first mover” must have a “predisposition to make sound decisions quickly 
+and communicate them effectively.”5(p81) In dangerous or rapidly evolving situations (eg, on the battlefield, in 
+the emergency room), taking initiative in communication can lead to greater influence over others, because this 
+initiative allows the speaker to define the issue, his or her motives, and actions. Often, the longer it takes to gain 
+control the situation or communication, the harder it is to do so. 5 This concept can also be applied in less serious 
+situations, such as in instances where allowing an issue to linger before addressing it (eg, poor performance of a 
+subordinate, rumors spreading through a department) will weaken the leader’s ability to effectively manage the 
+outcome and ultimately prevent him or her from providing support that followers need and upon which they rely. 
+178
+Fundamentals of Military Medicine
+Planning. Planning communication is not just about figuring out what to say, but also includes consideration 
+for how others will react to what is said and how it is said, predicting and anticipating listeners’ expectations 
+and meeting them, establishing goals, assigning resources, and imposing conditions. Something as simple as 
+preparing for the setting in which the communication will take place (ie, the functional space) can make or break 
+a communication.
+In planning, do not overestimate the audience’s ability to pay attention; people see the world through their 
+own frame and think they capture the world as it is, but they miss a lot. A communicator must first understand 
+what frames are important to the audience (beyond demographics and concerns). This assessment is necessary 
+to demonstrate that the speaker knows who the audience is and communicates understanding of the listeners’ 
+perspective. The audience will feel well-regarded and deduce that the speaker has taken time to consider their 
+alternative view. This consideration is especially true in stressful or emotional situations, whether leading a team 
+in combat conditions or speaking to patients about their health. Individuals also experience “cognitive tunneling” 
+or an inability to shift attention away from a threat, which impairs their ability to hear, listen, and remember 
+effectively. Again, the Marine Corps is clear that the human factors are critical: “Our philosophy must not only 
+accommodate but must exploit human traits.”4(p78) Therefore, the burden is on the communicator to ensure he 
+or she is thoroughly considering the listener and planning for the communication.
+ 
+1. Swift E. Field orders, messages and reports. J US Cavalry Assoc. 1897;Sep:221–228.
+ 
+2. Corlett CH. Evolution of field orders. Coast Artillery J. 1925;62:502–513.
+ 
+3. Hamlen A, Wells S, Di Desidero L. The Marine Corps University Communications Style Guide. 9th ed. Quantico, VA: Marine Corps University; 2016: 4. http://www.au.af.mil/au/awc/awcgate/usmc/mcu_comm_style_guide.pdf. Accessed 
+September 28, 2018.
+ 
+4. US Marine Corps. Warfighting. Quantico, VA: USMC; 1997. USMC Doctrine Publication 1. https://www.marines.mil/
+Portals/59/Publications/MCDP%201%20Warfighting.pdf. Accessed September 28, 2018.
+ 
+5. Garcia HF. Power of Communication, The Skills to Build Trust, Inspire Loyalty, and Lead Effectively. Upper Saddle River, 
+NJ: FT Press; 2012.

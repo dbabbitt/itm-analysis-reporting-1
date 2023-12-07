@@ -1,0 +1,1334 @@
+585
+Traumatic Brain Injury in the Military
+Chapter 38
+TRAUMATIC BRAIN INJURY IN THE 
+MILITARY
+RENEE PAZDAN, MD*; THERESA LATTIMORE, MSN†; EDWARD WHITT, MS‡; and JAMIE GRIMES, MD§
+INTRODUCTION
+BACKGROUND AND SCOPE 
+DEMOGRAPHICS AND EPIDEMIOLOGY
+Department of Defense Definition of Traumatic Brain Injury
+Severity Range: Mild, Moderate, Severe, and Penetrating 
+Defining Postinjury Periods
+Military Incidence by Numbers, Severity, and Service 
+Incidence Among Civilians
+MANAGEMENT IN DEPLOYED SETTINGS
+Concussion Management in the Deployed Setting
+Traumatic Brain Injury With Polytrauma
+CONCUSSION MANAGEMENT IN NONDEPLOYED SETTINGS
+Algorithms for Garrison Concussion Management
+Return to Play: High School, College, and State Requirements
+Progressive Return to Activity
+MANAGEMENT OF POSTCONCUSSIVE SYMPTOMS
+Clinical Practice Guideline for the Management of Concussion/Mild Traumatic 
+Brain Injury 
+Patient-Centered Care
+Assessments for Common Postconcussive Symptoms
+Neuroimaging Beyond the Immediate Period
+RESEARCH AND FUTURE CONSIDERATIONS
+SUMMARY
+*Captain, US Public Health Service; Director of Traumatic Brain Injury, Warrior Recovery Center, Fort Carson, Colorado
+†Director, Army Traumatic Brain Injury Program, US Army Office of The Surgeon General, Falls Church, Virginia
+‡Master Sergeant (Retired), US Army; Senior Health Policy Analyst, Defense Health Agency, Falls Church, Virginia
+§Colonel, Medical Corps, US Army; Chair, Neurology Department, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+586
+Fundamentals of Military Medicine
+INTRODUCTION
+Traumatic brain injury (TBI) sustained in battle was 
+described as early as Homer’s Iliad, written approximately 3,000 years ago, before the Hippocratic era. 1 
+Homer is believed to have discussed at least 147 neurological injuries in the Iliad, of which 78% were fatal, 
+ranging from lethal penetrating brain injury to fully 
+survivable events such as concussion and syncope. 1 
+TBI remains a significant issue in modern warfare, 
+with frequent diagnosis in both combat and training 
+environments. The primary concerns for operational 
+forces are the acute management of symptoms, impact 
+on warfighting tasks, and susceptibility to secondary 
+injury. Additionally, because of the logistical challenges associated with management of any injury or 
+disease in an operational environment, the military 
+continues to invest in improving the state of the science 
+and delivering optimized TBI care in a modular and 
+scalable fashion. The Department of Defense (DoD) 
+requires “Readiness of the Force,” which relies on prevention of TBI, early and effective clinical management, 
+and constant pursuit of advances in understanding and 
+treating the condition. 
+BACKGROUND AND SCOPE 
+The DoD’s Defense and Veterans Brain Injury Center (DVBIC) tracks and reports the number of active 
+duty service members (SMs) worldwide who sustain 
+a TBI for the first time. Tracking began in 2000 and 
+continues, with an overall annual peak incidence in 
+2011 at 32,829. Numbers have declined since then, 
+with the most recent annual incidence of 17,707 in 
+2017. In total, from 2000 through 2017, at least 379,519 
+TBIs were sustained by active duty, guard, and reserve 
+members of the armed forces. 2 
+DoD Instruction 6490. 11, DoD Policy Guidance for 
+Management of Mild Traumatic Brain Injury/Concussion in the Deployed Setting,3 published in 2012, and 
+updated in 2018, provided unified guidelines to all 
+the services for management of mild TBI in the deployed setting. Previously, the DoD relied on SMs to 
+report symptoms; with this policy, the DoD shifted to 
+event-based reporting instead of patient-based presentation for evaluation of concussion. The DoD now 
+uses event-driven protocols to maximize the chances 
+of identifying a TBI or a potential TBI. No longer does 
+the SM need to self-identify as having symptoms; 
+rather, if an event is deemed potentially concussive, 
+a medical evaluation is mandated (Exhibit 38-1). The 
+Military Acute Concussion Evaluation (MACE), selected as a screening tool, provides guided questions 
+to determine whether or not a concussion occurred. 
+While the requirement for a potentially concussive 
+event (PCE), or the role of policy to mandate concussion evaluation, could change in the future, the goal is 
+to build systems that do not rely on self-identification 
+by the SM.
+DEMOGRAPHICS AND EPIDEMIOLOGY
+Department of Defense Definition of Traumatic 
+Brain Injury 
+In 2007, the DoD published a definition and injury 
+stratification for TBI that was consistent with the Centers for Disease Control and Prevention, the National 
+Institutes of Health, and the World Health Organization. This memorandum was updated and re-signed 
+by the Assistant Secretary of Defense for Health Affairs in 2015. 4 As data rapidly emerges from the TBI 
+research portfolio, most groups are considering new 
+ways to define and stratify TBI. However, the current 
+DoD definition of TBI is as follows: “A traumatically 
+induced structural injury or physiological disruption 
+of brain function, as a result of an external force, that 
+is indicated by new onset or worsening of at least one 
+of the following clinical signs immediately following 
+the event: 
+ 
+1. any period of loss, or a decreased level, of 
+consciousness;
+ 
+2. any loss of memory for events immediately 
+before or after the injury (posttraumatic amnesia);
+ 
+3. any alteration in mental state at the time of the 
+injury (eg, confusion, disorientation, slowed 
+thinking, alteration of consciousness/mental 
+state).”4
+The Department of Veterans Affairs (VA)/DoD Clinical Practice Guideline5 (CPG) includes the above and 
+the following two items:
+ 
+4. neurological deficits (eg, weakness, loss of 
+balance, change in vision, praxis, paresis/
+plegia, sensory loss, aphasia) that may or may 
+not be transient; or
+ 
+5. intracranial lesion.
+The definitions also say that, among other external 
+forces, a blast or explosion may be considered a cause 
+of TBI. 
+587
+Traumatic Brain Injury in the Military
+EXHIBIT 38-1
+MANDATORY REPORTING FOR POTENTIALLY CONCUSSIVE EVENTS 
+Events Requiring Concussion Evaluation
+• Involvement in a vehicle collision or rollover.
+• A blow to the head during activities such as 
+training, sporting/recreational activities, or combatives.
+• Within 50 meters of a blast (inside or outside).
+Command-Directed (Examples) 
+• Repeated exposures to the events listed above.
+• In accordance with protocols for environmental 
+sensors (eg, helmet sensor, blast gauge). 
+Severity Range: Mild, Moderate, Severe, 
+Penetrating
+Severity of TBI, per the DoD definition, is determined by the presence and duration of an altered state, 
+which can include alteration of consciousness, loss of 
+consciousness, or posttraumatic amnesia at the time of 
+injury (Table 38-1). In the DoD definition, concussion is 
+synonymous with mild TBI; these terms will be used 
+interchangeably in this chapter. It should be noted 
+that mild TBI can in some cases result in significant 
+persistent symptoms and functional impairment, despite having the “mild” label. While penetrating head 
+injury can be readily categorized as such by physical 
+examination, closed head injury can be subtler, and 
+severity categories are further defined by the parameters in Table 38-1.
+Defining Postinjury Periods 
+There is variability in the literature about timing 
+and definitions after head injury. The VA/DoD CPG5 
+for mild TBI uses the following stages, based upon 
+work group consensus. These definitions will be used 
+throughout this chapter: 
+ 
+• Immediate period: 0 to 7 days postinjury.
+ 
+• Acute period: 1 to 6 weeks postinjury.
+ 
+• Post-acute period: 7 to 12 weeks postinjury.
+ 
+• Chronic: more than 12 weeks postinjury.
+Of note, the Berlin consensus statement on concussion in sport (see discussion below) uses different 
+terminology, as well as different time frames—namely, 
+the use of the term “persistent symptoms,” defined as 
+the period beyond which normal clinical recovery is 
+expected, and identified as over 10 to 14 days in adults 
+and over 4 weeks in children. 6 This re-characterization 
+of acute and post-acute concussion with a shorter 
+timeline, as described in the Berlin consensus statement, is consistent with the direction that the DoD 
+and many other groups are moving toward. For the 
+DoD, this shift toward shorter timelines first appeared 
+in the 2014 clinical recommendation on progressive 
+return to activity,7 with timelines that deviated from 
+DoD Instruction 6490. 11. 3 When reviewing literature 
+on concussion, it is therefore imperative to be aware 
+of how TBI, severity levels, and duration of postconcussion symptoms are defined, and that this aspect 
+of concussion characterization is evolving rapidly 
+based on emerging science. 8 Greater standardization 
+of definitions and terminology over time will not only 
+improve communication about direct patient care, 
+but also allow research to move forward in a more 
+synchronized fashion.
+Military Incidence by Numbers, Severity, and 
+Service 
+The vast majority of TBI in the military, as in the 
+civilian setting, is mild TBI (concussion), and as of 
+February 2017 accounted for 85. 9% of TBI in the DoD 
+(Table 38-2). Although incidence has some correlation 
+TABLE 38-1
+DEPARTMENT OF DEFENSE TRAUMATIC BRAIN INJURY SEVERITY CRITERIA
+Mild/Concussion
+Moderate
+Severe
+CT scan
+Normal (CT is not indicated 
+for most mild TBI patients)
+Normal or abnormal structural imaging
+Normal or abnormal structural imaging
+Loss of consciousness
+0–30 minutes
+>30 minutes and <24 hours
+> 24 hours
+Alteration of consciousness
+A moment–24 hours
+>24 hours (if >24 hours, severity is based on other criteria)
+Posttraumatic amnesia
+0–1 day
+>1 day < 7 days
+> 7 days
+CT: computed tomography; TBI: traumatic brain injury
+588
+Fundamentals of Military Medicine
+TABLE 38-2
+DEPARTMENT OF DEFENSE WORLDWIDE TRAUMATIC BRAIN INJURY NUMBERS, 
+2000–2016 
+Severity
+Air Force
+Army
+Marine 
+Corps
+Navy
+Total
+Penetrating
+560
+3,119
+766
+620
+5,065
+Severe
+439
+2,251
+627
+453
+3,770
+Moderate
+4,370
+18,060
+5,396
+5,125
+32,951
+Mild 
+42,167
+172,366
+42,643
+40,302
+297,478
+Not classifiable
+1,602
+15,632
+2,127
+2,467
+21,828
+Total
+49,138
+211,428
+51,559
+48,967
+361,092
+Data source: Defense and Veterans Brain Injury Center.
+with operational tempo and troop volume, including 
+the 2011 peak, TBI diagnoses have not returned to the 
+numbers seen before Operations Enduring Freedom 
+and Iraqi Freedom. 3 This may be indicative of not just 
+an increased rate, or higher risk exposures, but also of 
+increased awareness by patients and clinical providers in conjunction with the mandatory DoD reporting 
+requirements. However, these composite numbers do 
+not tell the full story because each SM is counted in the 
+surveillance data only once per lifetime, which likely 
+results in some level of underreporting of TBIs within 
+the DoD. Further, the often mentioned ratio of 80% 
+of DoD TBIs occurring in the nondeployed (garrison) 
+environment is based on the assumption that the injury 
+occurred where and when the diagnosis was made. 
+This likely skews data toward more injuries occurring 
+in garrison than in the combat environment, despite 
+the surveillance methodology that counts diagnoses 
+made within 30 days of a deployment as occurring 
+during deployment. 
+Regasa et al reported that prior studies indicated 
+a TBI rate during deployment ranging from 12% to 
+22. 8%. 9 However, the researchers went on to demonstrate that analysis of the data showed SMs were 8. 4 
+times as likely to be diagnosed with a TBI in the 4 
+weeks after deployment as compared to predeployment. 7 The risk decreased over the next 40 weeks, then 
+leveled off at 1. 7 times the predeployment rate. This 
+correlation is not causal, and the authors note it could 
+result from underreporting in theater or increased 
+injury rates for unknown reasons after deployment. 
+Another analysis of military TBI data from the Armed 
+Forces Health Surveillance Branch, published in the 
+Medical Surveillance Monthly Report (MSMR),10 
+divided TBI diagnoses by occurrence (prior to, during, or after deployment) and found that injury rates 
+during deployment were 1. 5 times that of predeployment, and 1. 2 times that of the postdeployment group. 
+This data is consistent with the work of Regasa et al, 
+showing an increased prevalence both during and 
+after deployment. The MSMR article further showed 
+that combat-specific and armor/motor transport occupations had a higher postdeployment prevalence 
+than other jobs when compared to predeployment. 
+It is important to note that diagnoses in the 4 weeks 
+after redeployment coincide with mandatory screening 
+and may represent increased recognition of the injury 
+rather than increased incidence. Additional research is 
+needed to better understand the timing and location 
+of these injuries. 
+Incidence Among Civilians
+The Centers for Disease Control and Prevention 
+estimates that from 2002 to 2006, TBI caused 1,365,000 
+emergency department visits, 275,000 hospitalizations, 
+and 52,000 deaths. 11 However, it also reports that only 
+1 in 9 concussions are believed to be captured by typical surveillance methods. Falls represented the highest 
+percentage (35. 2%) of external cause of injury in the 
+general population in this time period. Motor vehicle 
+injuries were the most common cause of TBI-related 
+deaths, with the greatest numbers occurring in those 
+aged 20 to 24. Also noted in this time period was a 62% 
+increase in fall-related TBIs among children seen by 
+emergency departments. This data might represent 
+influences such as public awareness that were also 
+represented in the DoD data. 
+589
+Traumatic Brain Injury in the Military
+MANAGEMENT IN DEPLOYED SETTINGS
+Concussion Management in the Deployed Setting
+This section will focus on the challenges of managing concussion, especially with growing awareness 
+of the complexity and evolving nature of TBI in the 
+acute period. Moderate, severe, and penetrating TBIs 
+are managed in accordance with protocols defined by 
+Tactical Combat Casualty Care (TCCC) clinical practice 
+algorithms (discussed later in this chapter). An emerging concept in the immediate/acute assessment of concussion is understanding the neurometabolic cascade 
+and its manifestation in multiple domains, including 
+cognitive, vestibular, and oculomotor. However, the 
+timing of metabolic demand and injury/recovery 
+curves within the brain are not fully understood. As 
+described in 2014 by Giza et al,12 the neurometabolic 
+cascade is a complex process of ionic, metabolic, and 
+physiologic events, including an acute outpour of K+ 
+and influx of Ca++, with drops in glucose and cerebral 
+blood flow, leading to altered neurotransmitters and 
+glutamate, and chronic pathophysiology with axonal 
+injury, inflammation, and toxic accumulations. 
+Consequently, multiple domains must be tested, 
+and evaluations must be repeated after the brain is 
+provided an opportunity to rest. In the military, this 
+challenge is met through a combination of concussion 
+management algorithms. A medical staff member may 
+initiate the assessment, or per DoD policy, operational 
+commanders may be required to refer an SM who was 
+exposed to a PCE (see Exhibit 38-1). The algorithms 
+start with “red flag” signs and symptoms (Exhibit 382). Separate red flags geared toward combat medics or 
+corpsmen, rather than to providers, allow for a lower 
+threshold for consultation or evacuation. Surveillance 
+for these red flags is conducted secondary to TCCC 
+protocols and may lead to provider consultation or 
+hospital transport. Importantly, the DoD has invested 
+in capabilities for point-of-injury assessment and monitoring (discussed further in the research section of this 
+chapter). At the provider level, the red flags define the 
+need for neuroimaging (noncontrast head computed 
+tomography [CT] in the immediate injury period) or 
+referral to specialty services. 
+If there are no red flags, the MACE is initiated 
+(Figure 38-1). The MACE is a standardized screening 
+and assessment document performed on all SMs who 
+experienced a PCE, with a section for a scripted history of the event. This section of the MACE is critical 
+not only for documentation within the health record, 
+but also for the SM’s records as he or she transitions 
+from active duty service. As discussed earlier, accurate 
+EXHIBIT 38-2
+RED FLAGS FOR TRAUMATIC BRAIN 
+INJURY AS LISTED IN DEPARTMENT OF 
+DEFENSE CLINICAL MANAGEMENT 
+ALGORITHMS 
+Red flags for TBI are different at the corpsman/medic level than provider level, with a lower threshold 
+for consultation or evacuation.
+Corpsman/Combat Medic Red Flags
+ 
+• Loss of consciousness 
+ 
+• ≥ 2 potentially concussive events within 72 
+hours
+ 
+• Unusual or combative behavior
+ 
+• Unequal pupils
+ 
+• Seizures
+ 
+• Repeated vomiting
+ 
+• Double vision/loss of vision
+ 
+• Worsening headache
+ 
+• Weakness on one side of the body
+ 
+• Unable to recognize people/disoriented to 
+place
+ 
+• Abnormal speech
+Provider Red Flags
+ 
+• Progressively declining level of consciousness
+ 
+• Progressively declining neurological status
+ 
+• Pupillary asymmetry
+ 
+• Seizures
+ 
+• Repeated vomiting
+ 
+• Clinically verified GCS <15
+ 
+• Neurological deficit: motor or sensory LOC 
+>5 minutes
+ 
+• Double vision
+ 
+• Worsening headache
+ 
+• Cannot recognize people or disoriented to 
+place
+ 
+• Slurred speech
+ 
+• Unusual behavior
+GCS: Glasgow Coma Scale
+LOC: loss of consciousness
+TBI: traumatic brain injury
+entry into the electronic health record using the most 
+current International Classification of Diseases (ICD) 
+code is also important for maintaining good surveillance data. If the MACE determines that a concussive 
+event occurred, then the additional sections are com590
+Fundamentals of Military Medicine
+Figure 38-1. Military Acute Concussion Evaluation pocket 
+card.
+Reproduced from: https://dvbic.dcoe.mil/material/macemilitary-acute-concussion-evaluation-pocket-card.
+pleted. Assessment and treatment of other injuries and 
+symptoms is initiated per standard medical protocols. 
+(The MACE pocket card is available at the Defense and 
+Veterans Brain Injury Center website, https://dvbic.
+dcoe.mil/material/mace-military-acute-concussionevaluation-pocket-card.) The next (forthcoming) version of the MACE, the MACE 2, will complement the 
+Sport Concussion Assessment Tool edition 5 (SCAT 
+5), a product of the Berlin consensus work group. 6 The 
+MACE 2 will be a multimodal assessment capability, 
+and aid in standardized assessment of all the known 
+concussion symptom clusters or subtypes. The most 
+significant additions are supported by questions and 
+assessments, targeting identification of symptom 
+manifestations of vestibular effects, oculomotor effects, 
+migraine, and anxiety, similar to those seen in sports 
+concussion management. 8 
+Once a concussion diagnosis is made, results of the 
+MACE are used to continue through the concussion 
+management algorithms, and treatment depends on 
+the clinical findings. However, at a minimum, all SMs 
+exposed to a PCE in a deployed location are evaluated 
+with the MACE and provided 24 hours of rest/recovery 
+time, symptom management, and reevaluation (including exertional testing) once they are symptom free. 
+This initial management of concussion may be 
+conducted by a medic or corpsman in conjunction 
+with a licensed provider. However, the algorithm 
+presents a stepwise approach for progressive levels of 
+care, from medic/corpsman through primary care, to 
+specialty providers (eg, neurology, physical/occupational therapy, neuropsychology) within the deployed 
+environment. If an SM does not recover within the 
+anticipated timelines, as detailed by the algorithms, 
+they are referred to a specialty provider for comprehensive management. Current DoD policy and clinical 
+guidance require any SM sustaining more than one 
+concussion within a 12-month period to be managed 
+with more conservative protocols. If diagnosed with 
+a second concussion, the SM receives a minimum of 7 
+days of recovery following symptom resolution, and 
+then must pass exertional testing prior to return to 
+duty. For a third concussion within 12 months, the 
+SM undergoes a “recurrent concussion evaluation” 
+prior to return to duty. This comprehensive evaluation 
+is conducted by a multidisciplinary team of providers 
+and includes a history and examination, including 
+balance assessment; neuroimaging (as necessary); 
+neuropsychological assessment; and a functional assessment. 
+Vignette 38-1. A 19-year-old male Army soldier, military 
+occupational specialty11B (infantry), was involved in an 
+improvised explosive blast that directly hit his Humvee while 
+out on patrol. The soldier recalled seeing a flash of light and 
+debris, and was thrown against the side of vehicle, then felt 
+dazed and confused for about 10 minutes. He developed a 
+moderate-severity holocranial headache along with nausea, 
+photophobia, and a constant ringing in his ears. He was 
+able to ambulate independently but felt off balance and 
+reported feeling “not quite right.” Initial evaluation at the 
+forward operating base 2 hours after the blast by the 68W 
+(medic) was done according to the concussion algorithm, 
+and because no red flags were present, the MACE protocol 
+was followed. Concussion was confirmed and the score was 
+23/green/B (cognitive/neurological/symptoms). The soldier 
+was educated about acute concussion and expectation 
+for recovery, and given a handout with information about 
+concussion symptoms and recovery. His platoon leader 
+was notified that the soldier would be required to have a 
+minimum of 24 hours of rest after becoming symptom free. 
+591
+Traumatic Brain Injury in the Military
+The following day, the soldier was evaluated by the unit’s 
+physician assistant and felt much better after a good night’s 
+sleep. His headache and nausea had resolved and his balance and hearing were back to baseline. His MACE score 
+was now 26/green/A, and exertional testing was performed 
+without any recurrence of symptoms. He was progressed 
+over the next 5 days through the return-to-activity stages 
+without difficulty and returned to full duty.
+Traumatic Brain Injury With Polytrauma 
+Prehospital trauma care performed on the battlefield 
+can differ markedly from that performed in the civilian sector. The TCCC guidelines were developed as a 
+result, adjusting the previous Advanced Trauma Life 
+Support model to meet the specific considerations of 
+combat wounds, such as early use of the extremity 
+tourniquet for exsanguination and allowing patients 
+suffering from uncontrolled hemorrhage to remain in 
+a permissive hypotensive state. (Refer to Chapter 33, 
+Tactical Medicine, for a complete discussion about 
+TCCC principles in the operational environment.) 
+TCCC guidelines are maintained by the Joint Trauma 
+System (JTS), which serves as the DoD’s Center of 
+Excellence for Trauma. The JTS and associated committees meet frequently to update the guidelines, which 
+specifically include discussion of moderate, severe, 
+and penetrating TBI. The algorithm for the management of concussion/mild TBI in the deployed setting 
+is generated by the DVBIC, but it is included with the 
+other TCCC guidelines and is used in conjunction with 
+the MACE. The JTS uses the DoD Trauma Registry to 
+conduct performance improvement projects that guide 
+the committees on recommendations and updates to 
+both CPGs and equipment. 
+Treating TBI in the prehospital environment begins 
+with an understanding of the mission, including the 
+probability of injuries, as well as limitations when operating austerely and outside of a medical treatment facility. Many factors must be considered to develop a unique 
+mission plan that includes specific equipment needs. 
+Planning is key to providing optimal care, especially in 
+the most complex conditions; it is the foundation for the 
+best possible outcomes achievable, even with minimal 
+equipment. When planning for possible head injuries, 
+the provider should know the location and capabilities 
+of DoD, partner nation, and host nation medical facilities 
+within the area of operations, particularly the location of 
+neurosurgical assets and neuroimaging, which will not 
+be available at all evacuation points. Providers should 
+conduct independent research to learn about the area of 
+operations, such as reviewing TRAVAX.com,13 a website 
+providing location-based health information, and other 
+independent information sources. Following mission 
+planning, it is essential to become familiar with, and 
+pack for, the available prehospital medical equipment 
+(Class VIII). Deployable units have unit-level packing 
+lists that serve as the minimal required equipment to 
+treat trauma casualties; special provisions should be 
+considered to plan for head injuries and the Class VIII 
+equipment required to treat them in the prehospital 
+setting.
+Hemorrhage is the number one cause of preventable death on the battlefield,14 and the TCCC guidelines place significant emphasis on first responder 
+actions and skills to stop bleeding. Hemorrhage and 
+the associated treatments can be a confounding factor to the treatment of TBI in the prehospital setting, 
+particularly in polytrauma patients when the TBI is 
+triaged secondary to addressing massive hemorrhage. 
+As a result, providers receiving patients throughout 
+the continuum of care must realize TBI may not have 
+been addressed until the patient is hemodynamically 
+stabilized, which may not have occurred by the time 
+a patient arrives to the next level of care.
+The prehospital provider’s challenge is to administer lifesaving care while taking into account all 
+considerations to prevent or reduce the possibility of 
+secondary brain injury. The TCCC guidelines allow 
+patients with uncontrollable hemorrhage to remain in 
+a hypotensive state, permitting the patient’s systolic 
+blood pressure to remain at 90 mm Hg by palpation, or 
+evaluation of perfusion through mentation. However, 
+recent literature15 suggests that allowing moderate to 
+severe TBI patients to remain in a hypotensive state 
+is associated with increased probability of secondary 
+brain injury and sequelae. Even a single episode of 
+hypotension during the prehospital or early hospital 
+phases of TBI management is associated with dramatic 
+increases in mortality. 
+These findings refocus the prehospital provider 
+on the importance of perfusion and the brain’s immediate and enduring requirement for oxygenation. 
+The role of supplemental oxygenation is not entirely 
+clear in this population. While some animal studies 
+have shown worsened axonal injury in simulated 
+aeromedical evacuation after TBI,16,17 the impact on 
+functional outcomes in humans is not fully known. 
+Multiple factors must be weighed when determining 
+timing of transport to definitive care, and monitoring 
+the posttraumatic inflammatory response (both local 
+and systemic) may be helpful in timing determinations 
+and prevention of secondary brain injury. 18 Operational considerations such as working at altitude in 
+mountainous environments must also be integrated 
+into medical decision-making. For example, at Fort 
+Carson, an Army post at 6,000 feet elevation at the 
+base of 14,000-foot mountains, a mild TBI patient who 
+has otherwise recovered after concussion may experience recurrence of symptoms with increased exertion, 
+particularly at higher altitudes. 
+592
+Fundamentals of Military Medicine
+After the initial trauma survey is complete, the provider will conduct a comprehensive head-to-toe evaluation, and TBI red flags should alert the provider to 
+immediate necessary actions. Serial follow-on clinical 
+assessments should be performed and documented. 
+Early assessment is critical if increased intracranial 
+pressure is clinically suspected. While the benefits of 
+neuroimaging are well accepted, it is typically unavailable in the forward military operating environment, 
+so use of the Glasgow Coma Scale (GCS) (Table 38-3) 
+guides early determination of TBI severity. It is important to capture both the initial and a postresuscitation 
+GCS score because resuscitation interventions can 
+change the patient’s status. 
+Identification of pupillary asymmetry can be an 
+indicator of elevated intracranial pressure, providing 
+a high index of suspicion for brain stem compression 
+on the third cranial nerve with impending herniation. 
+Bruising behind the ears (Battle sign) or around the 
+eyes (“raccoon eyes”), as well as cerebrospinal fluid 
+otorrhea and rhinorrhea, are typically associated with 
+basilar skull fractures. Blunt trauma and falls should 
+prompt consideration of manual spinal immobilization 
+during treatment and application of a rigid cervical 
+collar. If clinical evidence supports immobilization 
+with a spinal board, additional precautions should 
+be considered to pad the board and casualty because 
+pressure necrosis may take place within hours of initial 
+immobilization. Elevating the head of the bed between 
+30 and 60 degrees is optimal for casualties with suspected elevated intracranial pressure. 
+TABLE 38-3 
+GLASGOW COMA SCALE*
+Response
+Score
+Eye response (E)
+4 = spontaneous
+3 = to sound
+2 = to pressure
+1 = none
+Verbal response (V)
+5 = oriented
+4 = confused
+3 = words
+2 = no words, only sounds
+1 = none
+Motor response (M)
+6 = obeys commands
+5 = localizing
+4 = normal flexion
+3 = abnormal flexion
+2 = abnormal extension
+1 = none 
+Key: Severe: GCS 3–8; Moderate: GCS 9–12; Mild: GCS 13–15
+*The Glasgow Coma Scale (GCS) scoring assessment is currently in 
+transition: the pain stimulus has been replaced with pressure at the 
+finger tip, trapezius, or supraorbital notch. The impact of this change 
+to protocols and guidelines has yet to be determined. The modification 
+can be found on the GCS website: https://www.glasgowcomascale.
+org/. Additionally noted is the rating of non-testable (NT), which is 
+applied when there is an identifiable limiting factor.
+CONCUSSION MANAGEMENT IN NONDEPLOYED SETTINGS
+Algorithms for Garrison Concussion Management 
+In 2013, the Army began requiring parallel efforts 
+(event-driven protocols) to evaluate and manage 
+concussion in the garrison environment, using a set 
+of algorithms from point of injury through 7 days. 19 
+Unlike the deployed practice that includes a comprehensive concussion algorithm beyond the initial 
+7 days, the garrison version uses the VA/DoD CPG5 
+after the first week. An additional difference is that in 
+the garrison algorithms, only SMs with a diagnosed 
+concussion have mandatory downtime, while in the 
+deployed environment all SMs exposed to a PCE are 
+given 24 hours downtime. However, consistent with 
+changes captured in the Berlin consensus statements, 
+all concussion management in the DoD is moving 
+toward the progressive return to activity guideline7 
+in combination with the MACE 2, as discussed above, 
+and updated clinical management guidelines for both 
+deployed and garrison settings. This is a shift from the 
+total rest required in the 2012 policy, and initiates individualized rehabilitation plans based on the patient’s 
+unique presentation. 
+Return to Play: High School, College, and State 
+Requirements
+While sports concussion has some notable differences from combat-acquired TBI, there are many 
+similarities, and much of the research done on sports 
+concussion has been applied to military injuries. 
+Guidance on return-to-play after sports concussion 
+has evolved in the past 5 to 10 years, with increasing 
+utilization of progressive return to play and normal 
+activity. The guidance initially focused on slowing 
+return to sports; later, increased attention was paid to 
+the impact of cognitive stress on recovery from concussion, particularly as it pertained to student athletes. All 
+50 states and Washington, DC, now have some form 
+of “when in doubt, sit them out” concussion laws, 
+593
+Traumatic Brain Injury in the Military
+and many states now have guidance or laws requiring preseason education for athletes, parents, coaches, 
+and teachers. 20 Capabilities range from little leagues, 
+with limited availability of clinical providers and associated funding, to high school systems that leverage 
+athletic trainers, to the National Collegiate Athletic 
+Association, which often mirrors professional sports 
+with increasing capabilities from sideline to hospital 
+system integration. 
+These trends are consistent with international guidance, most recently in 2017 with the 5th International 
+Consensus Conference on Sports Concussion, held in 
+Berlin, Germany. 6 This guidance calls for supportive 
+care during the initial recovery period, with gradual return to sport and school, based on symptom resolution 
+and progressive increase in activity levels. The consensus also recommends referral to specialty rehabilitation 
+care for persistent postconcussion symptoms, defined 
+as those remaining after 10 to 14 days for adults or 
+after 4 weeks for children. For these patients, providers should individualize an exercise program, target 
+therapy toward specific disorders, and use cognitive 
+behavioral therapy for any mood component.
+Progressive Return to Activity 
+In 2014, the DVBIC published a clinical recommendation on progressive return to activity (Table 38-4) 
+following acute concussion or mild TBI. 7 Based on published literature and expert opinion, the guidelines are 
+similar to the International Consensus6 on graduated 
+return to sport. To monitor postconcussion symptoms 
+and assess patients for graduated return to activity, 
+the Neurobehavioral Symptoms Inventory (NSI), a 
+self-report survey, is used throughout the DoD and 
+VA. It asks concussed individuals to rate 22 symptoms 
+from 0 to 4, with 0 as “rarely or never present” and 4 as 
+“very severe.” The recommendation then provides for 
+six stages of recovery. Stage 1 is Rest (see Table 38-4), 
+intended to minimize physical and cognitive exertion 
+for the first 24 hours after concussion. Progression 
+through the six stages occurs incrementally every 24 
+hours if symptoms are rated as none or mild (0–1). A 
+critical component of the protocol is early education 
+and expectation for recovery, which has proven to 
+be effective in reducing the number and duration of 
+symptoms. 21 As noted previously, progressive return 
+to activity complements updated assessment tools 
+such as the SCAT 5 and MACE 2, used in combination 
+to individualize rehabilitation plans. 
+TABLE 38-4 
+STAGES OF THE PROGRESSIVE RETURN TO 
+ACTIVITY PROCESS
+Stage
+Description
+Objective
+1
+Rest
+Symptom resolution
+2
+Light routine 
+activity
+Introduce and promote limited effort
+3
+Light occupationoriented activity
+Increase light activities that 
+require a combined use of 
+physical, cognitive, and/or 
+balance skills
+4
+Moderate activity
+Increase the intensity and 
+complexity of physical, cognitive, and balance activities
+5
+Intensive activity
+Introduce activity of duration 
+and intensity that parallels 
+the service member’s typical 
+role, function, and tempo
+6
+Unrestricted 
+activity
+Return to pre-injury activities
+MANAGEMENT OF POSTCONCUSSIVE SYMPTOMS
+Clinical Practice Guideline for the Management of 
+Concussion/Mild Traumatic Brain Injury 
+The TBI CPG, initially developed in 2009 and 
+updated in 2016,5 provides evidence-based recommendations to help guide clinical decision-making. 
+In addition, despite a lack of randomized clinical 
+trials for treatment of postconcussive symptoms, 
+best practices based on literature reviews, expert 
+consensus, and common clinical practice are included to help guide management where evidence 
+is insufficient for a definitive recommendation. 
+The CPG provides algorithms for management of 
+symptoms persisting more than 7 days, as well as 
+detailed information on clinical symptom management on multiple co-occurring conditions, including headache, dizziness and disequilibrium, visual 
+symptoms, fatigue, sleep disturbance, cognitive 
+symptoms, persistent pain, hearing difficulties, 
+smelling changes, nausea, changes in appetite, and 
+numbness. An evidence table is also provided, outlining the level of medical evidence for the various 
+recommendations. The full guidelines are provided 
+in great detail, with over 100 pages of text. Additional useful tools include a clinician summary, 
+patient summary, and pocket card. 5
+594
+Fundamentals of Military Medicine
+Patient-Centered Care
+Postconcussive symptoms are often broken down 
+into physical, cognitive, and emotional/behavioral 
+categories. Key to caring for individuals with postconcussive symptoms in the acute, postacute, and chronic 
+time periods is patient-centered care. A patient’s issues and symptoms can be as unique and complex as 
+the individuals themselves. Severity of injury (mild, 
+moderate, or severe) does not always correlate to 
+severity of symptoms; outcomes are determined by 
+individual factors in addition to the initial severity of injury. Moderate and severe brain injuries are 
+most often cared for in inpatient hospital and rehabilitation center settings with subsequent outpatient 
+rehabilitation care. Postconcussive care, however, 
+is usually primary care based, with rehabilitation 
+providers and other consultants treating only those 
+with prolonged symptoms not responding to usual 
+care, or those with significantly complex comorbidities. In recent years, the military has increased use of 
+intensive outpatient programs for complex mild TBI 
+patients, utilizing multiple disciplines, including rehabilitation, behavioral health, and complementary 
+and alternative modalities, to address multiple issues 
+in a time-intensive, focused manner, with the goal of 
+improving functional outcomes. 
+Postconcussive symptoms are not specific to concussion; they are seen in a variety of other medical 
+conditions, particularly psychological conditions that 
+are often comorbid with chronic postconcussive symptoms. 22 In fact, all of the symptoms listed on the NSI 
+are seen at some percentage at baseline in a normal 
+(nonclinical) population: rates of moderate or more 
+severe symptoms in a nonclinical civilian sample who 
+took the NSI ranged from 2. 7% for taste/smell changes, 
+to as high as 50% for fatigue, and 43% for concentration. 23 Misattribution of all symptoms to TBI can lead 
+to unnecessary anxiety or other medical conditions 
+being overlooked.
+Most individuals will recover relatively quickly after concussion; however, previously reported recovery 
+rates of 80% to 90% within 7 to 10 days after injury24 
+may have been optimistic and skewed due to group 
+data rather than individual outcomes. Despite a minority of patients with prolonged symptoms, most recover 
+within 1 month, and those with chronic symptoms (>12 
+weeks) should have a multidisciplinary evaluation 
+and treatment to aide recovery. Progressive return 
+to activity, combined with individualized rehabilitation plans built around symptom clusters,8 can help 
+minimize exacerbation of symptoms and avoid repeat 
+injury during the early recovery phase. Those with prolonged symptoms require individualized progression 
+of activity because extended strict rest can also lead 
+to increased social isolation and deconditioning, and 
+may potentially exacerbate symptom reporting rather 
+than improve recovery. 25
+Data for Army soldiers suggests a different recovery trajectory after a concussion sustained during deployment. The Warrior Strong Study, which sampled 
+soldiers returning from deployment in Afghanistan 
+or Iraq to Fort Carson and Fort Bragg between 2009 
+and 2014, found that nearly 50% of those who had 
+a deployment-related mild TBI reported one or 
+more severe or very severe symptoms on the NSI 
+3 months after redeployment, compared to 25% of 
+those without a concussion on that deployment. 26 
+The most common symptoms were sleep problems 
+(30%), forgetfulness (21%), irritability (17%), and 
+headaches (15%). Traditionally, vestibular and 
+oculomotor symptoms were not assessed early in 
+the course of treatment, which may skew historical 
+data on symptom presentation for acute concussion. 
+However, tools such as the Vestibular and Oculomotor Screening (VOMS), which can identify deficits in 
+vestibular and oculomotor domains in acute concussion, are increasingly being used. These assessments, 
+combined with individualized rehabilitation plans 
+in the acute setting, are beginning to demonstrate 
+earlier symptom recovery in both acute and chronic 
+concussion. 8
+From the civilian literature, risk factors for prolonged symptoms and slower recovery include prior 
+concussions,27,28 prior history of headaches,28 and extremes of age (youngest28 and oldest29). Findings on 
+gender are mixed, though several studies suggest a 
+female predominance for prolonged symptoms, and 
+a recent systematic review of the literature suggested 
+that the teenage years were the most vulnerable time 
+period, greater in girls than in boys. 30 Pre-injury mental 
+health disorders are also a risk factor for prolonged 
+symptoms. 30 
+In the military setting, comorbid posttraumatic 
+stress has consistently been correlated with increasing persistence of postconcussive symptoms. 31 In one 
+systematic review the frequency of posttraumatic 
+stress disorder (PTSD) in those with probable mild 
+TBI ranged from 33% to 39%. 32 The directionality of 
+the interaction between mild TBI and PTSD is unclear; 
+however, clinical experience shows that both conditions must be addressed for best outcomes. In military 
+concussion centers, the behavioral health component 
+is often embedded within the concussion clinic to 
+provide interdisciplinary care. Two other factors associated with ongoing prolonged symptoms noted in 
+the Warrior Strong Study were combat exposure and 
+noncephalic pain. 26
+595
+Traumatic Brain Injury in the Military
+Assessments for Common Postconcussive 
+Symptoms 
+Sleep problems after concussion are common and 
+can present in various ways. In a meta-analysis, 50% of 
+patients experienced some form of sleep disturbance 
+after TBI, including higher than normal population 
+rates of insomnia (29%), hypersomnia (28%), and sleep 
+apnea (25%). 33 These sleep disturbances are important 
+to evaluate and address early. In the case of insomnia, 
+early intervention is particularly important to mitigate 
+bad habits that can perpetuate poor sleep onset and 
+sleep maintenance. Circadian rhythm sleep–wake 
+disorders are also seen at higher frequency after concussion. These disorders can manifest as insomnia, 
+hypersomnia, or both, depending on the misalignment 
+between the intrinsic circadian rhythm and the desired sleep–wake cycle (eg, delayed circadian rhythm 
+“night owls” will struggle with evening insomnia and 
+morning hypersomnia in the setting of typical military 
+bedtime and wake time). This problem is particularly 
+salient in a military population of young soldiers because young adults tend to have a more delayed 
+circadian rhythm to begin with, which can be further 
+compounded after concussion. Sleep apnea should 
+also be considered in those with complaints of daytime 
+somnolence, nonrefreshing sleep, or ongoing cognitive 
+complaints. Both obstructive and central sleep apnea 
+are more common in those who have experienced TBI, 
+and the effects of sleep apnea on cognition appear to be 
+amplified in this population, particularly in the areas 
+of sustained attention and memory. 34,35
+Cognitive symptoms after concussion can be associated with a variety of factors, including poor sleep, 
+distraction from pain (such as headaches) or dizziness, 
+and medication side effects, especially for those with 
+polytrauma or concurrent musculoskeletal injury. Anxiety and mood disorders can significantly affect attention and concentration, which in turn impact memory, 
+and can present as cognitive symptoms. However, 
+comprehensive neuropsychological testing is not recommended in the first 30 days after mild TBI. 5 Per the 
+CPG,5 those who have ongoing symptoms beyond 30 
+days may be referred for neuropsychological testing, 
+cognitive assessment for functional limitations, and 
+treatment by rehabilitation therapists with expertise in 
+TBI rehabilitation. Typically in the setting of prolonged 
+cognitive symptoms, other treatable conditions related 
+to memory and attention should be excluded (such as 
+thyroid disorders, vitamin B12 deficiency, syphilis, 
+sleep disorders, structural central nervous system 
+lesions, and mood disorders) either clinically or by 
+appropriate testing. Neuropsychological testing typically includes validity/performance measures, which 
+may include stand-alone or embedded measures to 
+increase confidence in the validity of a test battery and 
+overall assessment. Such measures look for consistency 
+between test behavior or self-reported symptoms and 
+known patterns of performance, such as better performance on difficult tasks than on easy tasks. In the mild 
+TBI population, rates of failure on validity measures 
+(or the confidence that the test is measuring a true 
+concussion deficit versus intentional/unintentional 
+artifact) can range from 17% to 58%,36,37 representing 
+a significant portion of this population. Debate exists 
+about the best approach to this patient population, in 
+which measuring objective deficits and progress poses 
+a true challenge, and concerns about secondary gain 
+(emotional or financial, conscious or subconscious) 
+can also be present. However, a functional approach 
+to patient-centered goals, along with minimizing the 
+perception of disability, is recommended by the VA/
+DoD CPG. Patients presenting with over-reporting of 
+symptoms or invalid findings on objective testing must 
+not routinely be discounted because the presentation 
+may be subconscious or a “cry for help.” The CPG 
+strategy offers a practical approach to challenging 
+patients, and with buy-in and patient engagement in 
+the rehabilitation process, realistic expectations can be 
+set by the patient and the treatment team.
+Comorbid psychological conditions are common after concussion, particularly in cases of combat-related 
+concussion or a traumatic event such as assault or 
+severe injury in an accident. Conditions range from 
+adjustment disorder related to the changes in function 
+after concussion, to frank depression, anxiety, or acute 
+stress reaction/PTSD. Irritable mood can accompany 
+any of these psychological conditions, and irritability 
+can be worsened by poor sleep and aggravated by 
+frontal lobe executive dysfunction. Therefore, early 
+and ongoing monitoring for emotional and behavioral symptoms in the acute, post-acute, and chronic 
+postconcussive periods are critical, as is ensuring 
+appropriate referrals to address these symptoms, 
+most commonly with cognitive behavioral therapy. 
+Medication treatment is guided by the primary diagnosis and applicable CPGs for the condition. Of note, 
+no medications have been approved by the Food and 
+Drug Administration specifically for the treatment of 
+postconcussive symptoms (behavioral or physical). 
+The VA/DoD CPG states, “We recommend that the 
+presence of psychological or behavioral symptoms 
+following TBI should be evaluated and managed according to existing evidence based CPGs, and based 
+upon individual factors and the nature and severity 
+of symptoms.”5
+Headaches attributed to traumatic injury to the 
+head, by the International Classification of Headache 
+596
+Fundamentals of Military Medicine
+otolaryngology, audiology, or physical therapy may be 
+indicated for complaints of vertigo, visual disorientation, or imbalance. For patients with lightheadedness, 
+further evaluation for syncope or pre-syncope may 
+be necessary, and autonomic dysfunction should be 
+considered along with a cardiovascular evaluation. 
+Along with balance and dizziness symptoms, tinnitus, 
+peripheral hearing loss, or central auditory processing 
+disorder may be present. Central auditory processing 
+disorder, related to central nervous system disturbances can manifest as difficulties understanding what is 
+heard, particularly in busy venues where multitasking 
+or focused attention is required. 43 
+EXHIBIT 38-3
+HEADACHE RED FLAGS AND 
+INDICATIONS FOR REFERRAL 
+Red flags in evaluation of posttraumatic headaches 
+for primary care providers to refer for emergency or 
+specialty evaluation.
+Indications for Emergency Referral
+ 
+• Concussion red flags
+ 
+• Thunderclap headache
+ 
+• Sudden neurological deficit
+ 
+• Persistent bleeding from nose, ears, or scalp
+ 
+• Cranial fracture
+ 
+• Infection resulting from a penetrating injury
+ 
+• Cerebrospinal fluid leakage (nose or ears)
+ 
+• Intracranial hemorrhage on CT
+Indications for Specialty Referral
+ 
+• Presence of systemic symptoms
+ 
+• Associated neurological symptoms
+ 
+• Onset after age 50
+ 
+• Change in pattern of headache
+ 
+• Valsalva precipitation
+ 
+• Postural aggravation
+ 
+• Papilledema
+ 
+• TMJ disorder
+ 
+• ENT disorder
+CT: computed tomography
+TMJ: temporomandibular joint
+ENT: ear, nose, and throat
+Reproduced from: Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury. DCoE clinical recommendation, management of headache following concussion / mild traumatic brain injury: guidance for primary care 
+management in deployed and non-deployed settings. https://
+dvbic.dcoe.mil/material/management-headache-followingconcussionmild-tbi-guidance-primary-care-managementdeploye-0. Published February 2016. Accessed May 24, 2018.
+Disorders (3rd edition, beta version), are divided into 
+acute (resolves within 3 months) and persistent (persists >3 months) conditions. 38 For mild TBI, headache 
+onset must be within 7 days of the injury event or after 
+discontinuation of medication that may impair the 
+ability to sense the headache. Some experts expand 
+this window to 30 days after the head injury event, 
+and this longer timeframe was elected for use by the 
+Defense Center of Excellence clinical recommendation 
+for management of headache after concussion. 39 Headaches attributed to TBI may have a variety of clinical 
+presentations. They can mimic any of the primary 
+headache disorders, including (most often) migraine 
+and tension type headaches, and (less often) neuralgic or other headache disorders. Secondary headache 
+disorders unrelated to the concussion must also be 
+considered (Exhibit 38-3 lists red flags for referral). 
+Treatments, based upon the semiology of headache 
+presentation, are the same as for the primary headache 
+disorder. 39 With any chronic headache syndrome, 
+caution should be used to avoid medication-overuse 
+headaches (“rebound headache”), in which frequent 
+analgesic use worsens the headache syndrome. If daily 
+analgesics are required for a prolonged duration (more 
+than a few weeks), consideration should be given to 
+prophylactic headache therapy.
+Studies have shown that 20% of patients with TBI 
+and 47% of moderate brain injury patients complain 
+of ongoing dizziness beyond 5 years post-injury. 40 
+Peterson40 suggests that independent of severity or 
+mechanism of injury, dizziness, migraine-associated 
+dizziness, exercise-induced dizziness, spatial disorientation, and balance impairment41 are common complaints among TBI patients, with a rate between 30% 
+and 80%. Patient descriptions of these problems can 
+be challenging for diagnostic purposes; for example, 
+patients may use the terms “woozy,” “light-headed,” 
+“spacy,” or “feeling drunk.” The following four categories describing aspects of dizziness may be more 
+useful to clinicians: 
+ 
+1. vertigo, the illusory sensation of motion;
+ 
+2. visual disorientation, with complaints such as 
+disorientation or nausea when walking down 
+a supermarket aisle or being in a crowd, and 
+motion sensitivity; 
+ 
+3. light-headedness, the symptom likened to 
+those preceding syncope (a sensation just 
+before fainting or loss of consciousness); and 
+ 
+4. imbalance, feelings of unsteadiness, or being 
+prone to stumbling or falling. 42 
+Depending on the presentation and examination 
+findings, additional consultation from neurology, 
+597
+Traumatic Brain Injury in the Military
+Visual function may also be affected after concussion, with accommodation disturbance and convergence insufficiency most commonly noted. 44,45 As with 
+the NSI symptoms, both of these conditions are seen 
+in the general population but may become decompensated after concussion. Such visual disturbances 
+may respond to treatments ranging from prescription 
+lenses to vision rehabilitation in cases of prolonged 
+symptoms.
+Vignette 38-2. A 28-year-old male Special Forces soldier with 10 years’ time-in-service and three prior combat 
+deployments was evaluated after a fall while skiing during 
+a training exercise with his unit. His last memory was riding up the chair lift. Witnesses reported that he had a bad 
+landing after “catching air” while going over a small cliff, hit 
+the back of his head, then rolled nearly 100 feet down the 
+steep mountain. During the evaluation, which took place 
+immediately, the soldier opened his eyes and moved all 
+extremities normally, but was disoriented and asked the 
+same questions repetitively. His GCS score was 14. Cervical spine precautions were put in place, and he was then 
+evaluated emergently at a civilian hospital with both CT head 
+and c-spine, which showed no acute findings. 
+However, he had ongoing musculoskeletal neck pain 
+and headache and was given a week of convalescent 
+leave to recover. Evaluation after the recovery week by his 
+primary care physician noted ongoing symptoms of severe 
+headaches with light sensitivity, sound sensitivity, nausea, 
+and even occasional vomiting, especially with exertion. 
+Progression of activity beyond stage 4 (moderate activity) 
+was not successful even 3 weeks after the concussion, and 
+the soldier became frustrated that he could not exercise to 
+maintain his high level of fitness, nor perform his full work 
+duties. Specifically, when he went to the gym, he was unable 
+to lift weights and run as fast as he had previously, and he 
+could not keep up with his Special Forces peers. 
+He was referred to the concussion/TBI clinic for further 
+evaluation, where additional history revealed at least five 
+prior concussions, including three prior blast concussions 
+and two related to jumps, as well as a history of playing 
+football in high school. In addition, he had significant 
+blast exposures during a prior deployment in 2009, with 
+hundreds of door breaches without definitive concussions, 
+and he was involved in one ambush where three of his 
+team members were killed in action. Recurrent nightmares 
+and flashbacks were a common occurrence. However, he 
+never reported or sought medical attention for previous 
+symptoms; rather, he simply “soldiered on,” performing 
+well on his team until this recent injury. 
+Examination showed significant musculoskeletal tenderness in the paraspinal neck muscles and restricted range of 
+motion secondary to pain, along with orthostatic tachycardia 
+and convergence insufficiency. Magnetic resonance imaging (MRI) of the brain was normal, and MRI c-spine showed 
+mild degenerative changes but was otherwise unremarkable. The soldier was referred for rehab services, including 
+physical therapy to address the cervical symptoms, graduated return to exercise, optometry and occupational therapy 
+for vision rehabilitation, and psychology to address his prior 
+trauma as well as current adjustment to physical limitations. 
+Cognitive rehabilitation for memory strategies as well as 
+cognitive behavioral therapy for insomnia was provided to 
+address memory and attention issues that were likely due 
+to poor sleep, pain, and mood. 
+With these services, medications for his migrainous headaches, and better pacing of his activities, the soldier steadily 
+improved, and 4 months after the ski accident he was able 
+to return to full duty, using only abortive medications for rare 
+headaches. After this experience, he also identified two 
+team members who were also struggling with headaches 
+and mood symptoms, prompting their evaluation and treatment, which resulted in the team becoming healthier and 
+stronger for future missions.
+Neuroimaging Beyond the Immediate Period 
+Neuroimaging is not required for the diagnosis of 
+mild TBI, nor is it required for routine evaluation of 
+mild TBI/concussion in all cases. In concussion, imaging is most often normal. Red flags should be used to 
+guide the need for imaging in the immediate period 
+after TBI, and the modality of choice during this time 
+is a non-contrast CT head. Two common sets of criteria 
+used to determine need for imaging in the immediate 
+period are the New Orleans criteria46 and the Canadian 
+CT head rule. 47 The goal of imaging immediately after 
+injury is to identify intracranial pathology that might 
+require neurosurgical intervention or closer monitoring for intracranial bleeding that could increase and 
+require urgent evacuation. 
+After the immediate period, the imaging modality of choice (if available and in the absence of contraindications) is MRI,48 which is a more sensitive 
+tool for detecting subtle structural lesions than CT 
+head. The goals of imaging beyond the immediate 
+period are to help understand persistent symptoms, 
+guide specialist referral, and ensure accurate diagnosis if evaluation was delayed. MRI should include 
+susceptibility weighted imaging/graded recall echo 
+sequences, which are particularly sensitive for 
+identifying areas of diffuse axonal injury or prior 
+microhemorrhage. 48 Diffusion tensor imaging and 
+functional MRI are modalities that hold promise 
+for future use in subacute and chronic periods of 
+TBI, but they are not yet widely available in routine 
+clinical practice. Nuclear imaging studies such as 
+positron emission tomography and single-photon 
+emission computed tomography scans may be 
+considered in cases where structural imaging is 
+normal, but these modalities are best interpreted 
+in a clinical context and in the setting of specialty 
+neuroscience care. 
+598
+Fundamentals of Military Medicine
+RESEARCH AND FUTURE CONSIDERATIONS
+The DoD research portfolio for TBI is gap-driven 
+and tied to military requirements, meaning that 
+funds are awarded based on the ability to study and 
+answer military-specific research questions or develop 
+a capability. This is different from the way in which 
+most other federal research dollars are spent, such 
+as through the National Institutes of Health (NIH), 
+where the projects are investigator driven. The DoD 
+currently has three general TBI focus areas: prevention (including blast and impact TBI), combat casualty 
+care–related neurotrauma, and rehabilitation. The 
+DoD also coordinates the TBI portfolio closely with 
+the NIH and the VA, particularly in accordance with 
+the National Research Action Plan (NRAP), as directed 
+by a 2012 presidential executive order. Through the 
+NRAP, federal agencies seek complementary, rather 
+than overlapping, portfolios. The NRAP also seeks to 
+maximize successful analysis of data from TBI studies 
+through a requirement to share all data from federally 
+funded studies.
+Priority areas within the DoD portfolio include 
+longitudinal studies seeking to understand the progression of TBI and how the injury evolves over time. 
+Point-of-injury screening, diagnosis, and monitoring 
+capabilities are another military focus area. Devices 
+capable of determining at the point of injury whether a 
+closed head injury has resulted in bleeding, equivalent 
+to a positive CT scan, are of particular interest and applicability to battlefield medicine; two devices were recently approved by the Food and Drug Administration 
+for this indication. Simultaneously, the DoD is seeking 
+to better understand the forces (blast or impact) associated with TBI and subclinical exposure to PCEs. The 
+goal of this portfolio is to reduce exposure by modifying tactics, techniques, procedures, and equipment for 
+tasks that put SMs at risk for a potential injury. 
+SUMMARY
+The general management and rehabilitation of 
+patients with TBI has evolved into a process of prevention, immediate identification and assessment, 
+early education, graduated return to activity, and, 
+for those with prolonged symptoms, an interdisciplinary evaluation coupled with progressive and 
+targeted rehabilitation. Even in cases of mild TBI, 
+care has progressed from limited if any treatment, 
+to comprehensive evaluation with progressive advancement in physical and cognitive exertion, with 
+the goal of full reintegration and return to duty. 
+The treatment model has advanced from limiting 
+the severity of symptoms of the injury itself, to individualized rehabilitation based on each person’s 
+presentation, unique strengths, and comorbidities. A 
+person’s psychological, genetic, and physical traits 
+cannot be uncoupled from the injury and its effects. 
+Research on all aspects of TBI has increased since the 
+conflicts in Iraq and Afghanistan began, and it has 
+shaped the way care is provided. Ongoing research 
+and clinical efforts will continue to benefit SMs and 
+veterans in the future.
+REFERENCES
+ 
+1. Sahlas D. Functional neuroanatomy in the pre-hippocratic era: observations from the Iliad by Homer. Neurosurgery. 
+2001;48(6):1352–1357. 
+ 
+2. Defense and Veterans Brain Injury Center. DoD numbers for traumatic brain injury worldwide, totals, 2000–2017. 
+http://dvbic.dcoe.mil/files/tbi-numbers/worldwide-totals-2000-2017_feb-14-2018_v1. 0_2018-03-08.pdf. Accessed May 
+24, 2018.
+ 
+3. US Department of Defense. DoD Policy Guidance for Management of Mild Traumatic Brain Injury/Concussion in the Deployed Setting. Washington, DC: DoD; 2012. DoD Instruction 6490. 11. http://www.esd.whs.mil/Portals/54/Documents/
+DD/issuances/dodi/649011p.pdf. Accessed August 23, 2018.
+ 
+4. Woodson J. Traumatic Brain Injury: Updated Definition and Reporting. Washington, DC: US Department of Defense; 2015.
+ 
+5. US Department of Veterans Affairs. VA/DoD Clinical Practice Guideline: Management of Concussion-mild Traumatic Brain 
+Injury (mTBI) (2016). https://www.healthquality.va.gov/guidelines/Rehab/mtbi/. Accessed May 23, 2018.
+ 
+6. McCrory P, Meeuwisse W, Dvorak J, et al. Consensus statement on concussion in sport—the 5th international conference on concussion in sport held in Berlin, October 2016. Br J Sports Med. 2017;51:838–847. 
+599
+Traumatic Brain Injury in the Military
+ 
+7. Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury. Progressive return to activity 
+following concussion/mild traumatic brain injury. DCoE clinical recommendation. https://dvbic.dcoe.mil/files/
+resources/2013_PRA_Rehab_CR_FINAL.pdf. Published January 2014. Accessed May 24, 2018.
+ 
+8. Kontos AP, Collins MW, Holland CL. Preliminary evidence for improvement in symptoms, cognitive, vestibular, and 
+oculomotor outcomes following targeted intervention with chronic mTBI patients. Mil Med. 2018;183(suppl 1):333–338. 
+doi: 10. 1093/milmed/usx172.
+ 
+9. Regasa LE, Thomas DM, Gill RS, Marion DW, Ivins BJ. Military deployment may increase the risk for traumatic brain 
+injury following deployment. J Head Trauma Rehabil. 2016;31(1)E28–35.
+ 10. Williams VF, Stahlman S, Hunt DJ, O’Donnell, FL. Diagnoses of traumatic brain injury not clearly associated with 
+deployment, active component, US armed forces, 2001–2016. MSMR. 2017; 4(3):2–8.
+ 11. Centers for Disease Control and Prevention. Annual number of TBIs. https://www.cdc.gov/traumaticbraininjury/pdf/
+tbi_blue_book_annualnumber.pdf. Accessed August 23, 2018.
+ 12. Giza CC, Hovda DA. The new neurometabolic cascade of concussion. Neurosurgery. 2014;75:S24–S33.
+ 13. Shorland Travax website. https://www.travax.com. Accessed May 24, 2018.
+ 14. Eastridge BJ, Mabry RL, Seguin P, et al. Death on the battlefield (2001-2011): implications for the future of combat 
+casualty care. J Trauma Acute Care Surg. 2012;73(6 Suppl 5):S431–S437.
+ 15. Spaite DW, Hu C, Bobrow BJ, et al. Association of out-of-hospital hypotension depth and duration with traumatic 
+brain injury mortality. Ann Emerg Med. 2017;70:522–530.
+ 16. Proctor JL, Mello KT, Fang R, et al. Aeromedical evacuation-relevant hypobaria worsens axonal and neurologic injury 
+in rats after underbody blast induced hyperacceleration. J Trauma Acute Care Surg. 2017;83(1 Suppl1):S35–S42.
+ 17. Scultetus AH, Hague A, Chun SJ, et al. Brain hypoxia is exacerbated in hypobaria during aeromedical evacuation in 
+swine with traumatic brain injury. J Trauma Acute Care Surg. 2016;81(1):101–107.
+ 18. Goodman MD, Makley AT, Lentsch, et al. traumatic brain injury and aeromedical evacuation: when is the brain fit to 
+fly? J Surg Res. 2010;164(2):286–293.
+ 19. US Army. Traumatic brain injury. https://www.army.mil/standto/archive_2015-03-02. Published March 2, 2015. Accessed August 23, 2018.
+ 20. American Association for Justice. State concussion laws. https://www.justice.org/state-concussion-laws. Accessed May 
+24, 2018.
+ 21. Ponsford J, Willmott C, Rothwell A, et al. Impact of early intervention on outcome following mild head injury in adults. 
+J Neurol Neurosurg Psychiatry. 2002;73;330–332.
+ 22. King PR, Donnelly KT, Donnelly JP, et al. Psychometric study of the Neurobehavioral Symptom Inventory. J Rehabil 
+Res Dev. 2012;49(6):879-88.
+ 23. Sullivan KA, Lurie JK. Principal components analysis of the Neurobehavioral Symptom Inventory in a nonclinical 
+civilian sample. Appl Neuropsychol Adult. 2017;24:522–531.
+ 24. McCrory P, Meeuwisse W, Johnston K, et al. Consensus statement on concussion in sport: the 3rd International Conference on Concussion in Sport, held in Zurich, November 2008. J Clin Neurosci. 2009;16:755–763.
+ 25. Thomas DG, Apps HN, Hoffmann RG, McCrea M, Hammeke T. Benefits of strict rest after acute concussion: a randomized controlled trial. Pediatrics. 2015;135(2);213–223.
+ 26. Schwab K, Terrio HP, Brenner LA, et al. Epidemiology and prognosis of mild traumatic brain injury in returning 
+soldiers: a cohort study. Neurology. 2017;88(16);1571–1579.
+600
+Fundamentals of Military Medicine
+ 27. Guskiewicz KM, McCrea M, Marshall SW, et al. Cumulative effects associated with recurrent concussion in collegiate 
+football players: the NCAA Concussion Study. JAMA. 2003;290(19):2549–2555.
+ 28. Giza CC, Kutcher JS, Ashwal S, et al. Summary of evidence-based guideline update: evaluation and management of 
+concussion in sports: report of the Guideline Development Subcommittee of the American Academy of Neurology. 
+Neurology. 2013;80:2250–2257.
+ 29. Benedict PA, Baner NV, Harrold GK, et al. Gender and age predict outcomes of cognitive, balance, and vision in a 
+multidisciplinary concussion center. J Neurol Sci. 2015;353(1-2):111–115.
+ 30. Iverson GL, Gardner AJ, Terry DP, et al. Predictors of clinical recovery from concussion: a systematic review. Br J 
+Sports Med. 2017;51(12):941–948.
+ 31. Hoge CW, McGurk D, Thomas JL, Cox AL, Engel CC, Castro CA. Mild traumatic brain injury in US soldiers returning 
+from Iraq. N Engl J Med. 2008;358:453–463.
+ 32. Carlson KF, Kehle SM, Meis LA, et al. Prevalence, assessment, and treatment of mild traumatic brain injury and posttraumatic stress disorder: a systematic review of the evidence. J Head Trauma Rehabil. 2011;26(2):103–115.
+ 33. Mathias JL, Alvaro PK. Prevalence of sleep disturbances, disorders, and problems following traumatic brain injury: 
+A meta-analysis. Sleep Med. 2012;13:898–905.
+ 34. Wilde MC, Castriotta RJ, Lai JM, Atanasov S, Masel BE, Kuna ST. Cognitive impairment in patients with traumatic 
+brain injury and obstructive sleep apnea. Arch Phys Med Rehabil. 2007;88:1284–1288.
+ 35. Wickwire EM, Williams SG, Roth T, et al. Sleep, sleep disorders and mild traumatic brain injury. What we know and 
+what we need to know: Findings from a national working group. Neurotherapeutics. 2016;13(2):403–417.
+ 36. Armistead-Jehle P. Symptom validity test performance in US veterans referred for evaluation of mild TBI. Appl Neuropsychol. 2010;17:52–59.
+ 37. Whitney AW, Shepard PH, Whilliams AL, Davis JJ, Adams KJ. The Medical Symptoms Validity Test in the evaluation of Operation Iraqi Freedom-Operation Enduring Freedom soldiers: A preliminary study. Arch Clin Neuropsychol. 
+2009;24:145–152.
+ 38. International Headache Society. International Classification of Headache Disorders, 3rd edition, beta version. https://
+www.ichd-3.org/. Accessed August 23, 2018.
+ 39. Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury. DCoE clinical recommendation, 
+management of headache following concussion/mild traumatic brain injury: guidance for primary care management 
+in deployed and non-deployed settings. https://dvbic.dcoe.mil/material/management-headache-followingconcussionmild-tbi-guidance-primary-care-management-deploye-0. Published February 2016. Accessed May 24, 2018.
+ 40. Peterson MD. A case-oriented approach exploring the relationship between visual and vestibular disturbances and 
+problems of higher-level mobility in persons with traumatic brain injury. J Head Trauma Rehabil. 2010;25(3):193–205.
+ 41. Gottshall K. Vestibular rehabilitation after mild traumatic brain injury with vestibular pathology. NeuroRehabilitation. 
+2011;29(2):167–171.
+ 42. Gizzi M, Rosenberg ML. The diagnostic approach to the dizzy patient. Neurologist. 1998;4(3):138.
+ 43. Fausti SA, Wilmington DJ, Gallun FJ, Meyers PJ and Henry JA. Auditory and vestibular dysfunction associated with 
+blast-related traumatic brain injury. J Rehabil Res Dev. 2009;46(6):797–810.
+ 44. Barnett BP, Singman EL. Vision concerns after mild traumatic brain injury. Curr Treat Options Neurol. 2015;17(2)329.
+ 45. Pearce KL, Sufrinko A, Lau BC, Henry L, Collins MW, Kontos AP. Near point of convergence after a sport-related 
+concussion: measurement reliability and relationship to neurocognitive impairment and symptoms. Am J Sports Med. 
+2015;43(12):3055–3061.
+601
+Traumatic Brain Injury in the Military
+ 46. Haydel M, Preston CA, Mills TJ, Luber S, Blaudeau E, DeBlieux PM. Indications for computed tomography in patients 
+with minor head injury. N Engl J Med. 2000;343(2):100–105.
+ 47. Stiell IG, Wells GA, Vandemheen K, et al. The Canadian CT Head Rule for patients with minor head injury. Lancet. 
+2001:357:1391–1396.
+ 48. Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury. DCoE clinical recommendation, 
+neuroimaging following mild traumatic brain injury in the non-deployed setting. https://dvbic.dcoe.mil/material/
+neuroimaging-following-mild-tbi-non-deployed-setting-clinical-recommendation. Published July 2013. Accessed May 
+24, 2018.
+602
+Fundamentals of Military Medicine

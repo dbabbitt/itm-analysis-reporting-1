@@ -1,0 +1,1440 @@
+105
+The Science Behind the Art: Empirical Research on Medical Ethics
+Chapter 4
+THE SCIENCE BEHIND THE ART:
+EMPIRICAL RESEARCH ON MEDICAL
+ETHICS
+DANIEL P. SULMASY, OFM, MD, PHD*
+INTRODUCTION
+TYPES OF ETHICAL INQUIRY
+TYPES OF STUDIES IN DESCRIPTIVE ETHICS
+Anthropology
+Sociology
+Epidemiology
+Health Services Research
+Psychology
+THE RELATIONSHIP BETWEEN DESCRIPTIVE AND NORMATIVE BIOETHICS
+Ethics and Opinion Surveys
+The Fact/Value Distinction
+Illicit Inferences
+Empirical Studies and Normative Ethics
+Normative and Descriptive Ethics: Two-Way Feedback
+JUDGING GOOD DESCRIPTIVE ETHICS
+Survey Research
+Qualitative Research
+Multimethod Research
+Experimental Methods
+Theoretical Framework
+Biases in Empirical Research on Ethics
+Detached Disinterest
+RESOURCES IN ETHICS
+National Reference Center for Bioethics Literature
+Bioethicsline
+Bioethics Journals
+The Internet
+DESCRIPTIVE BIOETHICS AND MILITARY MEDICINE
+CONCLUSION
+*Professor of Medicine and Director of the Bioethics Institute, New York Medical College, Valhalla, New York; and Sisters of Charity Chair in
+Ethics, John J. Conley Department of Ethics, Saint Vincent’s Hospital and Medical Center, 153 West 11th Street, New York, New York 10011;
+formerly, Associate Professor of Medicine, Georgetown University; and Director, Center for Clinical Bioethics, Georgetown University Medical Center, Washington, DC
+106
+Military Medical Ethics, Volume 1
+J.O. Chapin
+Doctor’s Heritage
+1944
+The last of seven images from the series The Seven Ages of a Physician. The series depicts the life progression of a
+doctor from birth to first encounter with suffering, through medical training, professional experience, service to
+country during war, and research to further knowledge. In this final painting in the series, the doctor’s heritage is
+that of passing along to the next generation his knowledge and vision regarding how to best be a physician. That
+involves not just understanding the basics of medicine, as depicted in the right half of the painting, but also understanding medicine in a more complete context, which is symbolized in the left side of the painting with the globe, the
+skull, and the book. The wisdom that he passes on includes understanding how doctors make decisions regarding
+patients—the very essence of being a complete physician—and the focus of this chapter.
+Art: Courtesy of Novartis Pharmaceuticals.
+107
+The Science Behind the Art: Empirical Research on Medical Ethics
+INTRODUCTION
+With characteristic elegance, Aristotle once said
+that ethics is “about what to do.”1(1103b. 28–31) If ethics
+is truly as broad as that, then many sorts of ethical
+questions will inevitably arise, even if one limits
+the sphere of inquiry to biomedical ethics. A philosopher might be inclined to ask, “How does a physician ever know the right thing to do in any given
+situation?” A physician might be more inclined to
+ask simply, “What ought I to do with this patient
+now?” A government agency or a disinterested social scientist might be inclined to ask, “What do
+physicians usually do in that situation?” And physicians might ask a health services researcher,
+“What data can you give me to help me to decide
+what I ought to do?”
+The latter two questions are empirical questions.
+And because contemporary Western medicine is based
+upon empirical science, it was inevitable that physicians should begin to engage in empirical research
+in bioethics. In fact, empirical studies now constitute
+the most prevalent form of articles on bioethics published in the medical literature. But many readers remain puzzled by empirical research in bioethics.
+This chapter addresses some of these questions.
+The chapter begins by distinguishing empirical
+ethics from other sorts of ethical inquiry, then provides an overview of the kinds of empirical studies
+that count as empirical research in bioethics. The
+chapter discusses criteria for quality in evaluating
+empirical research in bioethics, and describes the
+proper relationship between empirical bioethics and
+philosophical bioethics.
+The range of studies falling under the broad
+canopy of “empirical bioethics” is truly astounding. The disciplines of sociology, anthropology, social psychology, economics, epidemiology, and
+health services research (to name just a few) all have
+scholars who “do” bioethics, and all these disciplines have made enriching contributions to the
+field. These types of research begin with empirical
+observations, and take empirical observation as
+their standard of validity. It is not always immediately clear, however, that these types of research
+should have anything whatsoever to do with ethics.
+And so it is necessary, at the outset, to understand the
+nature of empirical research in ethics broadly.
+TYPES OF ETHICAL INQUIRY
+There are three basic types of ethical inquiry—
+normative ethics, metaethics, and descriptive ethics. 2
+Normative ethics is the type of ethical study that
+is most familiar. Normative ethics is the branch of
+philosophical or theological study that sets out to
+give answers to the questions, “What ought to be
+done? What ought not to be done? What kinds of
+persons ought we strive to become?” Normative
+ethics sets out to answer these questions in a systematic, critical fashion, and to justify the answers
+that are offered. In bioethics, normative ethics is
+concerned with arguments about such topics as the
+morality of physician-assisted suicide and whether
+so-called partial birth abortions are ever morally
+permissible. Normative ethics constitutes the core
+of all ethical inquiry. It is because of the normative
+questions at stake that other types of ethical inquiry
+have their point.
+Metaethics is the branch of philosophical or theological inquiry that investigates the meaning of
+moral terms, the logic and linguistics of moral reasoning, and the fundamental questions of the nature of good and evil, how one knows what is right
+or wrong, and what sorts of arguments can be used
+to justify one’s moral positions. It is the most abstract type of ethical inquiry, but it is vital to normative investigations. Whether or not it is explicitly acknowledged, all normative inquiry requires
+some sort of a stand regarding metaethical questions. Metaethics asks, “What does ‘right’ mean?
+What does ‘ought’ mean? What is implied by saying ‘I ought to do X’? Is morality objective or subjective? Are there any moral truths that transcend
+particular cultures? If so, how does one know what
+these truths are?” Stands regarding all of these questions lurk below the surface of most normative ethical discussions, whether in general normative ethics, bioethics, or military bioethics. Sometimes it is
+only possible to understand the grounds upon
+which people disagree by investigating questions
+at this level of abstraction. In most cases, however,
+there is enough general agreement that normative
+inquiry can proceed without explicitly engaging
+metaethical questions.
+The concern of this chapter, however, is the third
+type of ethical inquiry, descriptive ethics. Descriptive
+ethics does not directly engage the questions of
+what one ought to do or of how people use ethical
+108
+Military Medical Ethics, Volume 1
+terms. Descriptive ethics asks empirical questions
+such as, “How do people think they ought to act in
+this particular area of normative concern? What
+facts are relevant to this normative ethical inquiry?
+How do people actually behave in this particular
+circumstance of ethical concern?” In bioethics, the
+literature is replete with descriptive ethics’ studies
+such as surveys asking what patients and physicians
+think about the morality of euthanasia and assisted
+suicide, or about how much money might be saved
+through the widespread use of advance directives,
+or about what percentage of unwed women who
+become pregnant choose to undergo elective abortion.
+No descriptive ethics study ever answers a normative question about what should be done. That
+is a matter for normative ethics. Yet, descriptive ethics can be very helpful to normative inquiry, and
+normative inquiry can be helpful to descriptive ethics as well. I will return to these themes in more
+detail later in this chapter.
+TYPES OF STUDIES IN DESCRIPTIVE ETHICS
+Because good ethics always depends upon good
+facts, almost any empirical field might be able to
+make a contribution to descriptive ethics. Nonetheless, there are certain techniques and certain disciplines that are especially well-suited to descriptive
+research in bioethics. A comprehensive survey of
+all empirical studies that have contributed to bioethics would be well beyond what could be accomplished in a single chapter. This chapter will instead
+briefly discuss those empirical fields most often
+used. Readers interested in exploring this subject
+further are encouraged to read Methods in Medical
+Ethics. 3
+Anthropology
+Perhaps the first empirical field to have made
+contributions to descriptive ethics is anthropology.
+Anthropology has made, and continues to make,
+many significant scholarly contributions to bioethics. Questions about cultural variations in approaches to matters of moral concern have been of
+interest since at least the time of Aristotle,1(1148b. 20–24)
+challenging assumptions about the relationship
+between morality and culture. Classical investigations
+have included studies of child rearing in various
+cultures by such preeminent figures as Margaret
+Mead. 4 Studies in multiple cultures of the treatment
+of infants born with various deformities have also
+had an influence on contemporary bioethics, challenging contemporary Western prohibitions on
+practices such as infanticide. 5 Contemporary ethnographic techniques have been used to study, for
+instance, the difficulties involved in implementing
+the federal government’s Patient Self-Determination
+Act on Navajo Indian reservations. 6 Other studies
+have attempted to use ethnographic analysis to
+study differences in the role of the family vs autonomous individuals in bioethical decision making among Chinese and Latino cancer patients in
+California. 7 Anthropological studies have explored
+the distinctive culture of surgeons as well, examining how that culture affects selection, training, and
+professional demeanor of surgeons. 8 Still other investigators have used conversational analysis of
+transcripts of audiotapes of physician–patient interactions to describe certain styles of physician
+verbal behavior and how these relate to patient satisfaction and malpractice risk. 9 All of these sorts of
+studies help to broaden our understanding of multiple issues in contemporary bioethics. Anthropological studies have also raised troubling normative questions about such issues as the meaning of
+the Western notion of informed consent in other
+cultural settings. For example, anthropologists have
+looked at the question of the meaning of informed
+consent in vaccine trials in Africa in which individuals defer decision making to their tribal chief. 10
+Anthropology provides fascinating insights into
+the status quo of the physician–patient relationship
+in the West as well, raising questions about whether
+reform might be called for. Anthropologists will
+continue to make contributions to bioethics as the
+field enters the 21st century.
+Sociology
+Sociology has also played an important role in
+descriptive bioethics. Renee Fox was among the
+pioneers in the field, lending her expertise as a sociologist to such questions as the Hopkins Baby
+case,11 dialysis, and organ transplants. 12 Sociologists
+have also studied the training of physicians, with a
+keen eye towards the ways in which the training
+influences the style and the content of ethical decision making by physicians. 13 Still others have studied such phenomena as partial codes (ie, “chemical
+code only,” or “CPR [cardiopulmonary resuscitation] but no intubation”), noting how these often
+arise in the setting of disputes between staff and
+109
+The Science Behind the Art: Empirical Research on Medical Ethics
+family members. 14 In another important example,
+the President’s Commission sponsored a sociological study of informed consent in clinical practice. 15
+The chief techniques employed by sociologists have
+included both detailed interviews and participantobserver studies. In participant-observer studies,
+the investigator inserts himself or herself into the
+routine of clinical practice, developing enough trust,
+and blending well enough into the routine to minimize the impact of his or her presence, while preserving enough objectivity as an outside observer
+to describe effectively and comment upon the processes under observation. 16 These studies hold up
+a mirror in which members of the healthcare profession can gain insight into their behaviors regarding matters of bioethical concern.
+Epidemiology
+Another discipline that has made important contributions in the field of descriptive bioethics has
+been epidemiology, a branch of medical research
+that counts the incidence and distribution of health
+problems in a population. Beginning in the late
+1970s, physician researchers trained in epidemiology began to conduct empirical studies regarding
+bioethics. As people who count, epidemiologists
+began to sound a more quantitative note that had
+not been evident in the bioethics studies of sociologists and anthropologists. Early studies were literally studies that counted the frequency of certain
+clinical events of bioethics interest, such as the frequency of ethical dilemmas on an internal medicine service or the frequency with which DNR (do
+not resuscitate) orders were written. 17 These studies began to appear in leading journals of clinical
+medicine. Moral dilemmas had been encountered
+for centuries in medical practice, and DNR orders
+had been around for a long time, but these studies
+brought new attention to bioethics by bringing these
+issues to the attention of clinicians. Moreover, they
+made irrefutable what had been argued by more
+philosophically minded bioethicists before—the
+practice of medicine is laced through and through
+with bioethical decision making.
+Health Services Research
+Epidemiology, along with several other fields,
+has contributed to the burgeoning field of health
+services research. Many bioethical issues have been
+addressed by studies in the field of health services
+research. Investigators in this field use opinion surveys, validated instruments regarding quality of
+life, decision analysis, technology assessment, enormous insurance claims’ data sets, chart reviews, and
+even randomized controlled trials to study the delivery of healthcare services. These studies have
+looked at questions of ethical concern such as the
+care of the dying,18 factors associated with the writing of orders not to resuscitate,19 the implementation of euthanasia in the Netherlands,20 the quality
+of care delivered by managed care organizations,21
+patient perceptions of informed consent,22 and
+many other areas. The standards with which such
+research is conducted have become quite high.
+Psychology
+Finally, the field of psychology deserves special
+mention as a discipline that has made, and continues to make, important contributions to the field of
+descriptive bioethics. Kohlberg’s theories of moral
+development have been used to conduct studies
+charting the moral development of medical students23 and even of bioethicists. 24 Carol Gilligan and
+other critics have charged that Kohlberg’s schema
+is biased by the fact that he exclusively studied boys
+and therefore overemphasizes the themes of justice
+and autonomy in his theory of moral development.
+They have launched a whole new school of thought
+in philosophical and theological bioethics known
+as care based ethics. 25 This school has had an especially strong influence on nursing ethics. Still others have used Bandura’s social learning theory to
+look at the impact of ethics education on the knowledge, attitudes, and perceived self-efficacy (confidence) of medical house officers and faculty. 26
+Besides moral development and education, psychological theories and techniques have been used
+to look at morally important questions such as the
+anxiety associated with genetic testing27 and ways
+to change sexual behavior among men at risk for
+HIV (human immunodeficiency virus) infection. 28
+Still others have looked at such interesting questions as the ability of surrogate decision makers to
+predict what sorts of treatments their terminally ill
+loved ones would want in the event that they were
+to become unable to speak for themselves. 29
+While by no means exhaustive, this brief survey
+of empirical studies in bioethics from the fields of
+anthropology, sociology, epidemiology, health services research, and psychology serves to demonstrate the incredible breadth and variety of disciplines and techniques that contribute to descriptive
+bioethics. All are fascinating. All hold a definite
+110
+Military Medical Ethics, Volume 1
+place in the bioethics of the future. The list could
+be expanded by adding other disciplines such as
+history, economics, education, public policy, government, decision science, and others. In addition,
+fields that are less clearly empirical, such as law and
+literature, could be added. But as I noted above,
+none of these studies directly addresses the normative question that is at the heart of bioethics—what
+ought to be done. What then is the place of empirical research in bioethics?
+THE RELATIONSHIP BETWEEN DESCRIPTIVE AND NORMATIVE BIOETHICS
+Ethics and Opinion Surveys
+Surveys do not give normative answers to moral
+questions. In a pluralistic and increasingly multicultural democratic republic like the United States,
+in which the rule of law is predicated upon majority rule, this can sometimes be forgotten. As a tolerant society, we try to leave many questions unanswered by the law. And those questions that require
+an answer are settled by referenda or the votes of
+freely elected representatives. These democratic
+procedures settle the legal question.
+But not everything that is legal is moral, and not
+everything that is moral is legal. Laws can be immoral. Segregation in the United States and apartheid in South Africa were legal in the recent past,
+but this does not mean that they were moral once,
+and then became immoral when the law changed.
+Majority rule, even by free election, can commit
+moral error. Adolph Hitler, after all, was made
+Chancellor of Germany by the vote of freely elected
+representatives in a democratic republic. In the end,
+ethics judges laws as morally good or morally bad.
+And so, the opinion survey, a commonly used
+empirical technique in bioethics, should never be
+construed to give “the answer.” Rather, these surveys should be viewed as tools to examine whether
+one or another question is particularly vexing and
+divisive, or whether almost everyone agrees about
+the proper approach to the question. This may serve
+the purpose of helping to decide whether the question is worth discussing. If no one disagrees, there
+may be little to discuss. On the other hand, it might
+still be very interesting to develop good philosophical arguments about why, for example, patients
+ought to be afforded the opportunity to give informed consent before participating in clinical research. The reality is, however, that such a paper
+would be unlikely to wind up as the lead article in
+a popular clinical journal.
+Surveys can also be used to say what other factors might be associated with particular opinions
+about moral issues, pointing out, for instance, significant cultural divides. Surveys can demonstrate
+racial differences such as the fact that AfricanAmericans are less likely to support euthanasia than
+are white Americans. 30 But it is critical to understand
+the limitations of such survey research in ethics.
+The Fact/Value Distinction
+The limitations of survey research probably illustrate one aspect of a more general principle in
+ethics known as the fact/value distinction. 31 There
+is probably no single principle in ethics that is more
+important to discuss with respect to the relationship between descriptive and normative studies in
+bioethics. Most (but not all) ethicists subscribe to
+this fact/value distinction, which has also been
+called “the naturalistic fallacy.” It was originally
+proposed by David Hume in his Treatise of Human
+Nature in which he noted that many ethical arguments, particularly in scholastic philosophy, consisted of a series of factual statements using the verb
+‘is,’ leading to a conclusion using the verb ‘ought.’32
+This struck Hume as peculiar. He wondered whether
+any set of facts ever added up, by itself, to entail a
+normative conclusion.
+Over the ensuing centuries there have been many
+discussions of this principle. Some who have attacked
+the fact/value distinction have noted that certain “social facts” do appear to entail normative conclusions.
+John Searle points out that the fact that I made a promise to do something does seem to imply a normative
+conclusion, namely that I ought to do it. 33 Others have
+argued that certain facts about the role and purpose
+of something or someone also seem to entail normative conclusions. Alasdair MacIntyre34 points out that
+the fact that something is a knife does entitle one to
+draw certain conclusions about what makes a knife
+“good” (eg, sharpness, sturdiness, and so forth). Likewise, he argues the fact that someone occupies a role
+as the practitioner of certain human practices does
+entitle one to draw certain conclusions about what
+makes that individual a good practitioner of that role
+(eg, the fact that someone is a soldier implies that if
+that person is a “good” soldier, one can expect courage, loyalty, dependability, and so forth). Similarly,
+one might say that the fact that someone is a physician entitles one to draw certain conclusions about
+what makes that person a “good” physician (eg, competence, compassion, respectfulness, and so forth).
+111
+The Science Behind the Art: Empirical Research on Medical Ethics
+Illicit Inferences
+So, it does seem that there are at least a few
+uncontroversial ways in which certain kinds of facts
+can entail normative conclusions, as well as some
+sense in which knowing the purpose or function of
+an object or enterprise says something regarding
+what is good or bad about it relative to its purpose
+or function. Nonetheless, there are also some
+uncontroversial ways in which Hume’s warning
+about the fact/value distinction seems correct. Even
+defenders of the possibility of drawing normative
+conclusions from certain special sorts of facts tend
+to agree that the fact/value distinction holds true
+over a variety of other important sets of facts. The
+fact/value distinction holds true over the following five sets of facts that are important in empirical
+ethics research:
+1.
+Historical facts do not entail normative conclusions. One might call this the historicist
+version of the naturalistic fallacy. For example, the mere fact that infanticide was
+practiced in the early Mediterranean world
+does not entitle one to conclude that there
+is nothing morally problematic about the
+practice. Likewise, knowing that payment
+for healthcare has never before been organized with financial incentives for physicians to provide fewer services does not
+entitle one to conclude that such payment
+structures are immoral. Whether something has or has not been done in the past
+does not mean that it is moral or immoral.
+2.
+Majority opinions and behaviors do not entail
+normative conclusions. This has been discussed above regarding opinion surveys in
+bioethics. A survey demonstrating that
+75% of people polled might approve of the
+use of surrogate mothers in certain circumstances would not entail that it is morally
+appropriate. Likewise, the fact that many
+physicians say that they are willing to falsify medical insurance claims in order to
+obtain better benefits for their patients
+does not imply that such practices are morally appropriate. 35 The fact that everyone
+says that something is proper, or that everyone acts in a certain way, does not make
+it proper to act that way. The appeal to
+popular opinion can sometimes amount to
+an example of the informal logical fallacy
+of the argumentum ad populum.
+3.
+The simple fact that something is legal or illegal does not make it moral or immoral. This
+was also discussed above. In general, the
+moral goodness of a just society will be
+reflected in its laws, but even Thomas
+Aquinas thought it unwise for a government to pass laws regarding all aspects of
+the moral life. 36 Such an effort would probably be impossible. And so, questions
+about the proper relationship between law
+and morality will be operative even in
+morally homogeneous societies. Nor does
+the fact that one might be sued constitute
+a moral argument. The threat of a lawsuit
+does not render a proposed course of action moral or immoral. Legal consequences
+are consequences to be weighed in making a decision with the same moral weight
+one generally gives to other types of consequences in making moral decisions. For
+example, if one is a strict deontologist, basing decisions solely upon doing one’s duty,
+legal consequences will have no bearing on
+the decision whatsoever. For others, the
+threshold might vary for taking a moral
+stand depending upon practical concerns
+about consequences. Under threat of lawsuit, one might not want to make a moral
+weighed daily, even though one might beneficently think this, from a moral point
+of view, in the patient’s best interest. Nonetheless, fidelity to patients and professional integrity does sometimes demand
+that one do what one thinks to be morally
+correct even under threat of lawsuit. In the
+end, law does not give the answer. To illustrate this, there are even cases in which
+one can be sued no matter which course of
+action one pursues. Consider a patient who
+clearly expresses her wishes not to be
+placed on a ventilator and then goes into a
+coma. Suppose her husband the lawyer
+then demands that she be intubated when
+she develops respiratory distress. In such
+a case one could be sued no matter what
+course one were to pursue. Successfully resuscitating the patient could invite her to
+sue for battery. Failure to attempt resuscitation could invite her husband to sue for
+negligence. The law never settles the moral
+matter. One must rely on moral analysis
+and do what one determines to be morally
+right.
+4.
+The opinions of experts do not necessarily entail moral conclusions. For example, the
+112
+Military Medical Ethics, Volume 1
+simple fact that a clinical ethics consultant
+has recommended a course of action does
+not mean that this is the morally correct
+course of action. Expert advice can and
+should be obtained in morally troubling
+cases. The opinions of experts should be
+taken quite seriously. But experts often disagree, and experts can be wrong. “Expertise” among ethics consultants, as is true
+of any group of experts, is limited by their
+training, knowledge, practical wisdom,
+and potential biases. Appeal to expert
+opinion represents the informal logical fallacy of the argumentum ad verecundiam.
+5.
+The fact that something is biologically true does
+not entail automatic moral conclusions. One
+can give multiple illustrative cases to demonstrate the absurdity of such reasoning.
+The fact that human beings do not have
+wings does not imply that it is immoral for
+human beings to fly. Likewise, the simple
+fact that the human fetus initiates brain
+wave activity at a certain stage of development does not, in itself, imply anything
+about the morality of abortion at one stage
+of development or another. An often misunderstood moral theory relevant to this
+issue is known as natural law. It is sometimes thought that natural law means that
+biology itself is normative. Illustrative of
+this type of misunderstanding is the manner in which some would hold that natural law theory concludes that certain sexual
+behaviors are immoral because they are
+“unnatural” in a biological sense. However, this is a misconstrual of natural law
+theory. Natural law theory is based on the
+supposition that there is such a thing as
+human nature, but that human nature is
+not merely understood biologically. Natural law holds that human nature includes
+biological, rational, affective, aesthetic, and
+spiritual dimensions, and that certain acts
+contribute to the flourishing of human beings as human, while some do not, in accord with this broad understanding of human nature. 37 Natural law does not argue
+that brute biological acts imply immediately clear moral truths.
+Empirical Studies and Normative Ethics
+How, then, do empirical studies contribute to
+medical ethics? Empirical studies elucidate facts.
+But the fact/value distinction precludes moral inference from brute facts. This might appear to make
+empirical studies irrelevant. Such a conclusion
+would be premature. There are at least seven ways
+in which empirical studies can be important in ethics.
+Purely Descriptive Studies
+Purely descriptive studies of what human beings
+believe about morality, how they change with time,
+and how they behave in situations of moral concern can be of enormous intellectual interest in and
+of themselves. Anthropological studies of how human societies differ with respect to the treatment
+of elderly people, for instance, can be fascinating.
+Differences in sexual morality can be interesting.
+Differences in the ways in which cultures pay for
+medical care, whether by government insurance,
+private for-profit managed care organizations, or
+the payment of chickens to the local shaman can be
+very stimulating to learn about. Such studies need
+have no normative purpose.
+Yet descriptive ethics studies are interesting precisely because they illuminate human responses to
+normative questions. To study how different cultures grow rice would be of interest to an anthropologist, but not necessarily to an ethicist. When
+anthropologists or other social scientists apply their
+techniques to the study of normatively interesting
+questions, they are “doing” descriptive ethics. In
+many cases, the relationship between normative
+ethics and descriptive ethics is only that normative
+ethics has raised the questions of interest for empirical study.
+It is of interest to know why certain persons have
+the opinions they do about certain disputed normative questions even if the answers one gathers
+through survey research are acknowledged to have
+no normative implications. If Southerners, for example, were to be less concerned about the ethics
+of using animals in trauma research, and this were
+to be found independent of race and religion, this
+would be an interesting empirical fact. It might lead
+one to ask further empirical questions or further
+normative questions. It deals with an interesting
+normative issue about research ethics, but has no
+normative implications in itself.
+A good deal of empirical research in ethics is of
+this nature—carefully describing anthropological,
+sociological, psychological, and epidemiological
+facts that are of interest. They are of interest because
+the subject is normative. But the techniques are descriptive and the conclusions have no immediate
+normative implications.
+113
+The Science Behind the Art: Empirical Research on Medical Ethics
+Testing Compliance With Established or New Norms
+Another way in which descriptive studies can be
+related to normative ethics is through studies that
+describe compliance with existing moral norms.
+Again, such studies do not answer the normative
+question. But provided there is widespread acceptance of a moral norm, it is of interest to see how frequently the moral norm is actually adhered to by
+study subjects. In these studies, there is no question
+about the norm itself. What is of interest is the extent to which human beings live up to it, or the extent to which it is legally or socially enforced. For
+instance, almost everyone thinks that if patients do
+not wish to be connected to a ventilator, they should
+not receive ventilator therapy. Yet, a multicenter study
+of critically ill patients has shown that in many cases
+patients’ preferences are overlooked and they frequently receive therapy they did not want. 18
+In other cases, new policies or procedures, designed to “operationalize” certain moral norms, are
+introduced into clinical settings. Descriptive studies can help to decide whether or not the plan for
+operationalizing the norm has been successful. Illustratively, studies have shown that the Patient SelfDetermination Act, designed to facilitate communication between clinicians and patients about the
+patients’ wishes for end-of-life care, has fallen far
+short of expectations. 38 This not mean that the norm
+is morally right or morally wrong. It only means
+that the implementation of the normative rule may
+need to be re-thought from a practical point of view.
+Such studies represent an important contribution
+of empirical research to bioethics.
+Descriptions of Facts Relevant to Normative Arguments
+Good ethics depends upon good facts. Failure to
+thoroughly understand the facts of a situation will
+clearly make moral decision making a perilous activity. Further, many normative arguments depend
+upon factual information, even though these facts
+themselves do not confer normative status upon the
+arguments. For example, one might argue that liver
+transplantation should be withheld from alcoholics, because the chances of relapse of alcoholism are
+so high that the prognosis will be poor. In fact, it
+turns out that the survival of alcoholic patients with
+liver transplants is equivalent to that of patients
+transplanted for other conditions. 39 The moral argument against transplants for alcoholics, based on
+a presumption of poor prognosis, is thus falsified
+by the facts disclosed in a descriptive study.
+The reliance upon facts in these sorts of arguments
+does not violate the fact/value distinction. The premises in these arguments are both moral and factual,
+not simply factual. Such arguments are not only
+permissible, but are essential to moral reasoning.
+Ethics is concerned with the world. Ethics is, in
+this sense, the most practical of all branches of philosophy. Moral premises relate facts to duties and
+virtues. Moral arguments often take forms such as,
+1.
+Whenever situation X occurs, it is permissible to do Y.
+2.
+If Z is true, then I am in situation X.
+3.
+Therefore, if Z is true, it is permissible to
+do Y.
+Proposition 1 is a moral premise. Proposition 2
+is empirical. Empirical studies can make important
+contributions to ethics if they can show whether a
+proposition in the form of proposition 2 is always
+true, or under what conditions Z obtains. Knowing
+this empirical information is critical to determining whether one is bound by the obligation in
+proposition 3.
+For example, proposition 1 might be the moral
+rule known in medical ethics as “therapeutic privilege.”40 This states that it is morally permissible to
+(Y) withhold information from patients if (X) disclosing that information would cause the patient very
+grave harm. The key to applying this moral rule will
+be to determine under what conditions situation X is
+true. Someone might argue (as generations of physicians up until the 1970s did) that whenever patients
+had cancer, informing them would cause the patients
+great harm. 41 Physicians were constructing a moral
+argument based upon a proposition of the form of
+proposition 2—If the patient has cancer (Z), this is
+a situation in which disclosing the facts will cause
+them great harm (X). This is precisely the sort of
+situation in which descriptive ethics can play an
+enormously important role in bioethics. In the 1960s,
+empirical studies were undertaken to show that patients with cancer overwhelmingly wanted to be
+told of their diagnosis and felt that they had the
+coping skills to handle it. 42 Further studies were
+then performed to demonstrate that patients, by and
+large, felt much better when they were informed of
+their diagnoses, and perhaps even evidenced better
+cooperation with treatment and better outcomes.
+Descriptive ethics studies showed that proposition 2
+was false when Z was cancer. Therefore, the moral
+conclusion, proposition 3, could not be inferred.
+Physicians’ practices changed. By the 1980s, 90% of
+American physicians reported that they routinely informed their patients with cancer of their diagnoses. 43
+114
+Military Medical Ethics, Volume 1
+Slippery Slope Arguments
+Another way in which empirical studies can uncover facts that are relevant to normative arguments
+is when so-called “slippery slope” arguments are
+invoked in moral debates. Slippery slope arguments
+are those that suggest that if a certain moral rule is
+changed, other, untoward moral consequences will
+follow. For instance, some have argued that if physician assisted suicide (PAS) were made legal for
+competent adults in the United States, several types
+of slippery slopes would ensue.
+Down a legal slippery slope, a right to PAS for
+competent adults with full motor capacity would
+seem to be prejudicial towards those who are handicapped and incapable of taking lethal doses of prescription medicines themselves. 44 Following the
+principle of equal protection, this would lead to an
+extension from assisted suicide (for those capable
+of taking pills) to active euthanasia (for those incapable of taking pills themselves). Further, limiting
+PAS and euthanasia to competent patients might be
+seen as prejudicial towards those who are mentally
+incapacitated, and a violation of equal protection.
+Some might argue that the same right should extend to those mentally incapacitated individuals
+who might have specified a preference for euthanasia through an advance directive, as well as to
+others who might reasonably be construed to have
+such a preference, even if they had never been fully
+mentally capable or if they had never specified their
+preferences. This would lead from voluntary euthanasia to nonvoluntary (ie, not specifically requested) euthanasia.
+Down a psychological slippery slope, it might be
+argued that there is a psychological tendency to be
+desensitized to the practice of killing, and that once
+physicians have crossed this barrier, they will naturally be freer to extend the circumstances under
+which they would be willing to provide such interventions. 45 In corroboration of this slippery slope
+concern, Dr. Herbert Hendin has quoted a Dutch
+physician as saying, “The first time you do it, euthanasia is difficult, like climbing a mountain.”46
+These sorts of moral arguments have an empirical form. The facts to which they refer, however, are
+facts about a possible future that has not yet been
+realized. Therefore, empirical studies cannot answer
+the question directly about whether or not a slippery slope will occur, but they can contribute to an
+understanding of the likelihood that the slippery
+slope will occur in a given set of circumstances.
+Descriptive studies, which can contribute to our
+understanding of the likelihood of slippery slopes,
+include: (a) historical studies of similar situations,
+(b) studies of other settings in which the change in
+moral norms has already taken place, (c) psychological studies of those likely to be affected by the
+slippery slope concerns, and (d) legal studies of statutes and case law precedents that might be relevant.
+So, to continue using the example of PAS, slippery
+slope arguments have been bolstered or attacked by
+studies that indirectly bear upon predictions regarding PAS in the United States: (a) historical studies of
+pre-Nazi German programs for the mentally retarded and psychiatrically ill,47 (b) contemporary
+health services studies of the practice of euthanasia in the Netherlands,48 (c) psychological studies
+of the relationship between cost-containing attitudes of physicians and their willingness to prescribe
+assisted suicide,49 and (d) legal studies comparing
+the evolution of laws and policies regarding the
+withholding and withdrawing of life-sustaining
+treatments to what might be expected for PAS. 50 All
+of these sorts of empirical studies contribute indirectly to the slippery slope argument. To repeat, a
+slippery slope argument cannot be directly supported by any empirical study. The slippery slope
+argument envisages a likely future so fraught with
+moral danger that one ought not engage in the social experiment of finding out whether the predicted
+slippery slope will come to pass. The argument is
+that the social experiment would be too risky to
+take. Such arguments can be bolstered or attacked,
+however, by indirect examinations of related facts
+that help to clarify how realistic such fears might
+be. Descriptive studies in ethics can thus play a key
+role in assessing the plausibility of slippery slope
+arguments.
+Aside from slippery slope arguments per se,
+empirical studies can also suggest the consequences
+of certain courses of action in a manner that helps
+moral decision makers. One need not be a utilitarian to pay attention to consequences in making
+moral decisions. Empirical studies can help point
+out consequences that may be important in making moral decisions. For example, if the chances of
+a patient surviving an operation are only 1 in 5,000,
+the argument that it would be unjust to withhold
+the treatment seems much less persuasive than if
+the chances were 1 in 5.
+The Empirical Testing of Normative Theories
+Sometimes the relationship between normative
+and descriptive ethics can be very tight and very
+115
+The Science Behind the Art: Empirical Research on Medical Ethics
+direct. This is particularly the case when normative
+theory prescribes practices that have components
+that can be empirically tested. An excellent example
+of this is the normative theory of substituted judgment. Based upon legal theory and moral philosophy’s stress on the importance of respect for the
+autonomy of individuals who are making biomedical choices, the theory of substituted judgment was
+developed. According to this theory, when patients
+lose their decision making capacity, they ought not
+thereby forfeit all of their autonomy. What the patient thinks and feels might not be directly known,
+but one might still express respect for the patient’s
+autonomy if one were to make the decision that one
+thought the patient would have made if he or she
+had been able to speak with full decision making
+capacity. Thus, one asks clinically, not “What would
+you like us to do for your mother?” but rather,
+“What do you think your mother would have
+wanted if she had been able to tell us herself?” Decisions made according to the spirit of the latter
+question are made according to the theory of substituted judgment. 51
+This is all well and good as a theoretical construct, but one notices quickly that there is an empirically testable question embedded in the
+theory—just how well can a loved one predict what
+the patient would have wanted? Is it a charade to
+think that human beings, even if closely related, can
+actually choose what the patient would have chosen? Does asking for a substituted judgment
+amount to paying mere lip service to the principle
+of autonomy, while if we were honest with ourselves we would admit that we are choosing according to the “best interests” standard, choosing what
+we think is in the best interests of the patient?
+This sort of provocative question has led to a series of very interesting empirical studies on the validity of substituted judgments. 29,52–54 In these studies, patients are asked to imagine themselves in one
+or another serious clinical situation and to choose
+the life-sustaining measures they think they would
+want in that situation. Simultaneously, the patient’s
+surrogate decision maker is asked what he or she
+thinks the patient would want. The results are then
+compared to see how well the patient does. Agreement rates have averaged about 70%—statistically
+better than chance alone, but far from perfect. This
+has led some ethicists to rethink the substituted
+judgment standard. Others have argued that the
+moral validity of the standard remains intact, but
+that what is needed are ways to improve surrogate
+decision making. Once again, the descriptive facts
+learned from empirical studies do not answer the
+normative question. But by calling into question the
+practicality of a normative ethical rule, descriptive
+ethics can constructively challenge normative ethics. In Kantian terms, ‘ought’ implies ‘can.’55 One
+ought not establish moral duties that are impossible
+to carry out.
+Case Reports
+As in other aspects of medical practice, case reports have a role to play in medical ethics. Careful
+descriptions of unusual situations can serve as a
+springboard for substantial normative discussion.
+Others who might encounter similar situations in
+the future can benefit from having read and considered the ethical issues in a case encountered by
+a colleague at another institution. Those who subscribe to the theory of casuistry (moral reasoning
+by analogies between cases) as their sole method
+of approaching cases in medical ethics depend
+heavily upon good case descriptions. 56 Those who
+appeal to narrative and care-based theories of ethics depend upon “thick” descriptions of the case,
+including details about interpersonal dynamics and
+emotions that are often excluded from more traditional case discussions. Because case reports are
+now generally frowned upon as anecdotal and unscientific in the standard medical literature, in some
+ways, the case report has experienced something
+of a revival with the advent of medical ethics. In
+ethics, there is no escaping the case.
+Demonstration Projects
+Finally, descriptive ethics studies can be conducted in which normative ideas can be implemented in clinical settings not so much to be tested
+as simply to be demonstrated and discussed. The
+empirical project can thus function as a vehicle for
+the promulgation of a normative idea. This happens
+frequently in medical ethics. It is particularly common in ethics education. Few people will argue with
+teaching ethics to medical students or to nurses, for
+example. But it is important in some ways simply
+to demonstrate that such programs can be successfully implemented. 57 The content of the program
+might be shared so that others might benefit by
+comparing that content with their own program’s
+content, or that others might be inspired to start a
+program of their own. Pitfalls in the implementation of the program can be discussed for the benefit of others. Such empirical descriptions might
+116
+Military Medical Ethics, Volume 1
+also include simple survey data about the acceptability of the course and its perceived value and
+importance.
+Similar descriptive reports can be generated regarding other programs, such as ethics consult services, ombudsperson programs for medical students experiencing ethical conflicts in relation to
+faculty or residents, or programs on research integrity. All of these can contribute substantially to advancing the field of medical ethics.
+Normative and Descriptive Ethics: Two-Way
+Feedback
+Based on the discussion above, it should be clear
+that the relationship between normative and descriptive research in bioethics is one of two-way
+feedback. Normative ethics can generate claims that
+are associated with empirically testable hypotheses,
+or set normative standards that must be operationalized and can be studied in educational or
+practice settings. The empirical lessons gained from
+such studies in turn feed back upon and influence
+normative theory. Normative arguments may also
+depend upon facts that can be garnered from empirical inquiry, thus sustaining or refuting the empirical
+basis for the normative arguments. Descriptive ethics studies can also generate new material for normative study. Anthropological and sociological
+studies can raise questions about the universal applicability of normative claims. Surveys can identify areas of disagreement that are ripe for ethical
+inquiry. Case studies can give rise to new questions
+that have never been addressed in normative inquiry, or can supply the entire basis for casuistic,
+narrative, and care-based studies.
+The two types of ethical inquiry are thus mutually supportive. Good studies in normative ethics
+will be grounded in good empirical data. Good descriptive studies will be shaped by ethical theory,
+providing a framework in which the data will be
+interpreted. Ethical reflection is enhanced when
+these two types of investigation are undertaken in
+an interdisciplinary and cooperative fashion.
+JUDGING GOOD DESCRIPTIVE ETHICS
+Like any other literature in medicine, some studies in descriptive bioethics are well done, while others are not. By what criteria might one attempt to
+sort out the wheat from the chaff in this field?
+The most important point to bear in mind is this:
+there are no methods or standards specific to descriptive bioethics. As should be apparent from earlier sections of this chapter, descriptive bioethics is
+remarkably interdisciplinary. Each of a multitude
+of disciplines contributes a set of methods and criteria for scholarly excellence, applies these methods to the investigation of moral questions, and is
+to be judged according to the criteria for scholarly
+excellence proper to that discipline. The methods
+may be quantitative or qualitative. The methods
+may be unique to a particular discipline or shared
+by several. The methods may be high tech or low
+tech. The work that results is to be judged according to how well it meets the criteria for scholarly
+excellence established for studies in its field. Thus,
+one judges an anthropological study in medical ethics according to the standards of the discipline of
+anthropology, an economic study according to the
+standards of the discipline of economics, and a historical study according to the standards of the discipline of history.
+Nonetheless, one factor complicates this situation
+tremendously. What draws all these scholars together is a common interest in the study of moral
+questions. Yet, no one scholar is capable of mastering all of these various disciplines, each with its own
+proper methods, technical vocabulary, and standards. Thus, it is critical that these scholars be able
+to communicate their research in a way that emphasizes the rigors that are proper to their own discipline, but in a manner that is accessible to a very
+diverse audience. This is an extremely difficult challenge. Such communication skills are difficult to
+cultivate. Certainly, scholars in bioethics should also
+make an effort to understand the rudiments of the
+methods of the numerous other disciplines that contribute to the work of descriptive ethics. But no one
+can be the master of all of these various trades. The
+onus really falls upon each scholar to communicate
+research results in jargon-free language without sacrificing the scholarly rigors of the field. This makes
+the multidisciplinary character of descriptive ethics research very challenging.
+Survey Research
+Because survey research is probably the most
+common type of research technique in descriptive
+ethics, it is probably appropriate to discuss some
+general criteria of methodological rigor in survey
+research. Surveys can serve to point out areas of dis117
+The Science Behind the Art: Empirical Research on Medical Ethics
+agreement, and to point out interesting associations
+between particular opinions and certain characteristics of the population under study. More sophisticated survey instruments can try to elicit more
+basic underlying attitudes, psychological tendencies,
+cultural norms, or stages of moral development.
+While even simple opinion survey research can
+be important in identifying ethical controversies, it
+is not enough simply to ask a few questions and
+count up the answers. In assessing the quality of
+descriptive ethics research using surveys, one
+should be assured that the instrument used in a
+given study was well-designed to meet the purposes of the study.
+Some of the things to look for in assessing the
+quality of survey research, even in ethics, include
+the following58: There should be some evidence that
+the questions validly reflect the information being
+sought, using such methods as testing for face validity before a panel of experts, criterion validity
+against some gold standard, construct validity, focus group analysis, or cognitive pretesting. Questions should avoid framing bias, or at least alternate the direction of any acknowledged framing
+biases in the questions. Ideally, the exact wording
+of the most important question in the study should
+be reported in the paper. For example, in a survey
+reporting on end of life ethics, one would want to
+know if respondents were asked, “Do you support
+the right of competent, terminally ill patients to
+physician-assisted death?” or whether they were
+asked, “Do you think it should be legal for physicians to assist competent, terminally ill patients to
+commit suicide?”
+The main dependent variable in a survey is more
+strongly validated if it is a scale based on several
+questions than if it is a single item on a survey. This
+is especially important if the researchers are trying
+to examine deep underlying attitudes, cultural
+norms, psychological tendencies, or stages of moral
+reasoning. Reports should note whether these scales
+have been checked for internal consistency, using
+appropriate statistical tests such as Cronbach’s α (a
+test of whether the scale “hangs together” so that
+those who answer a question in one way tend to
+answer the other questions that form the scale in a
+similar, consistent fashion).
+Certain factors that are often of interest in descriptive ethics research have been extensively studied by multiple other investigators who have developed valid and reliable instruments. Thus, there
+is generally no need for ethics researchers to create
+new instruments to measure anxiety, depression,
+dementia, confusion, functional status, severity of
+illness, or quality of life. There are plenty of scales
+available to measure these sorts of factors. While
+they are important in descriptive ethics research,
+there is no reason to think that they are unique to
+descriptive ethics research. One should be wary of
+studies that include idiosyncratic measures of wellstudied factors such as dementia, and even more
+wary of studies that report on such complex factors on the basis of single questions rather than
+scales.
+Of course, there may be valid reasons for descriptive ethics researchers to invent their own scales for
+these factors in particular circumstances, but the
+justification for doing so should be stated clearly.
+For example, there could be a priori reasons to suspect that severity of illness scales developed for
+unselected patients might differ from severity of
+illness scales for patients suffering from chronic,
+terminal conditions, leading researchers to develop
+and validate their own instruments particular to a
+group of patients who generate considerable ethical interest. 59
+Surveys should be pilot tested. The research report should describe the nature of the pilot testing.
+The pilot study population need not exactly match
+the main study population, but they should be similar. For instance, a survey of patients should be piloted among patients, not physicians or medical
+social workers.
+If the entire population of interest is not surveyed, samples should be random. If this is not
+possible, the survey should sample consecutive
+subjects or at least sample by some arbitrary method
+such as alphabetical order. Basic demographic characteristics of the respondents should be presented.
+Response rates should be adequate (generally about
+70% for patients, nurses, house officers, or students,
+and about 50% for practicing physicians). Some reporting on the characteristics of nonrespondents
+should be given to help to support the contention
+that there has been little response bias.
+Analysis of survey data should follow standard
+procedures for statistical testing (eg, χ2 testing for
+categorical variables, and t-testing for normally distributed continuous variables). Correlations between outcome variables and sociodemographic,
+clinical, or other respondent characteristics should
+be reported in a manner that takes into account
+multiple associations, using, for instance, multivariable regression models. 60 There should be adequate
+numbers of events so that any regression model reported is neither underfitted (too few events to de118
+Military Medical Ethics, Volume 1
+tect important associations) nor overfitted (too
+many subjects with too few events). There should
+be precautions against multicollinearity, interactions, and testing should be performed for “outliers.” An additional problem in using huge data
+bases is to interpret the clinical or ethical importance of statistically significant results. To illustrate
+this, consider a study that has 10,000 subjects, designed to investigate factors associated with responses to a single question such as, “Do you want
+to be resuscitated?” One might find that persons
+with lung cancer were 1% more likely to want resuscitation than persons with other cancers, and the
+result might be statistically significant. In these
+cases, the researchers bear important responsibility for justifying the sample size and for sorting out
+the important variables.
+Subgroup analyses should reflect genuine preconceived hypotheses or be explicitly acknowledged as an exercise in hypothesis generation.
+“Data dredging” for statistically significant results
+is an unfortunately common practice. Looking for
+anything that might have a P-value < . 05 adversely
+affects the quality of the empirical ethics data. Some
+associations are bound to appear only by chance
+even though these are not actual associations and
+are unlikely to be repeatable. The impact of such
+spurious associations is minimized if one consistently reports only those associations that were
+identified before the research as possible hypotheses. If one intentionally looks for any and all statistically significant associations, some are bound
+to appear by chance, and reporting these is irresponsible, raising concerns about the ethical conduct of
+the research. Likewise, if the study was not designed to compare subgroups, analysis by subgroups and reporting these results leads to similar
+problems.
+Interpretation of the data should scrupulously
+avoid normative conclusions. It may be interesting,
+for instance, if one were to discover that 75% of
+physicians do not believe they are bound by the
+precepts of the Hippocratic Oath. It would be inappropriate, however, to suggest that this means that
+the Hippocratic Oath should no longer be considered normative for medical practice. That may or
+may not be the case, depending upon the strength
+of various normative arguments.
+Carefully conducted survey research in descriptive ethics can be very helpful and can be very interesting. But there must be clear evidence in the
+research reports that the survey has been carefully
+constructed, administered, analyzed, and interpreted.
+Qualitative Research
+Descriptive ethics research has given rise to a
+new interest in qualitative research in the medical
+literature. Many of the most interesting topics in
+descriptive ethics are not readily amenable to quantitative research using surveys that consist of a series of closed-ended questions with multiple choice
+answers. This is particularly true when it is known
+(either by survey or by strong anecdotal evidence)
+that a particular subgroup expresses very different
+opinions than the rest of the population regarding
+a particular moral question. This naturally leads
+ethicists to wonder why this is so. A survey with
+closed-ended questions must presume that the researchers have a sufficient level of understanding
+of the research population that they can create a
+range of responses that will capture the opinions of
+the respondents. To assume this could be presumptuous. The investigators might not have a clue about
+why the research subjects think as they do. In such
+a case, there would be little choice except to begin
+to ask open-ended questions and to attempt to interpret the responses in a somewhat systematic
+fashion.
+Qualitative research does not simply consist of a
+group of well-intentioned clinicians making up a few
+open-ended questions and then presenting their
+interpretation of the responses. There are multiple
+qualitative and semiquantitative methods that have
+been developed over the years in various disciplines
+that can help investigators to structure, analyze, interpret, and present qualitative data. These methods
+include, but are not limited to, participant-observer
+techniques, ethnographic analysis, focus groups,
+and Delphi panels of experts.
+Participant Observation
+Participant observation is a fairly standard technique of sociologists. 16 In this technique, the investigator gains access to the scene under study, becomes an invited part of the system, establishes the
+trust of the research subjects, and eventually blends
+into the background. Yet, the investigator still maintains an objective observer status, taking notes, and
+bringing an outside perspective to the social scene
+under study. The length of time devoted to this type
+of study is typically extended, not simply reports
+based on attending morning rounds one day per
+week over a period of 4 to 6 weeks. Participant observation is very labor intensive. Studies that report having utilized this technique are preferred to
+119
+The Science Behind the Art: Empirical Research on Medical Ethics
+studies that simply report anecdotal experiences or
+episodic observations.
+Ethnographic Analysis
+Ethnographic analysis is another important qualitative research method, borrowed from cultural anthropology. 61 Its application is not limited to far-off
+countries, but can be used in American medical contexts. Qualitative studies in descriptive ethics that
+adhere to the rigor of this technique can contribute
+significantly to medical ethics in a fashion that is
+far more reliable than mere anecdotal reporting of
+experience. Good ethnographic studies will clearly
+define the research question, and will use face-to-face
+open-ended interviews as well as participant observation to gather data. These observations will then
+be systematically analyzed using specific techniques
+such as saturation, triangulation, and “thick description.” Write-ups of these studies will include both clear
+descriptions of the methodologies and frank acknowledgment of sources of bias in interpretation of the observations. Studies that include such methodological
+rigor can give excellent information about the actual
+behavior of healthcare professionals in settings of
+bioeth-ical interest, or about bioethical decision making in certain familial or cultural contexts.
+Focus Groups
+Focus groups are a defined systematic method
+for gathering qualitative information in a setting in
+which individuals are able to generate ideas by discussing a defined topic in a group setting, able to
+respond to the remarks of others in the group. 62
+Some focus group methods, such as the Nominal
+Group Technique, are designed to avoid dominance
+by any particular member and to generate a wide
+variety of ideas arranged in a hierarchy of importance. 63 Nominal Group Technique accomplishes
+this through a period of silent idea generation followed by round-robin solicitation of these ideas,
+and employs secret balloting. Ideas are ranked in
+order of importance, and ties are broken by successive rounds of discussion and balloting. Other kinds
+of focus groups can be run using techniques to
+achieve consensus. There are many opportunities
+to make use of such techniques in descriptive bioethics. They can be used, for instance, to generate
+ideas about what patients think ought to be understood by a healthy man before giving informed consent to undergo PSA (prostate-specific antigen) testing for prostate cancer. 64
+Delphi Panels
+A Delphi panel is a formal method for achieving
+a consensus opinion among a group of experts regarding a particular topic. 63 This technique is particularly useful when it is not feasible to bring the
+members of the group together in a single face-to-face
+session. Experts are asked to respond to a question,
+to rank their answers, and to explain their answers
+in a written fashion. The responses are collated, kept
+anonymous, and circulated among the group
+through a series of iterations until consensus is
+reached. Controversial matters of policy and morals can often be explored using this technique.
+Delphi panels have been used, for example, in developing screening guidelines. Their deliberations
+are not to be accepted as morally “correct,” but can
+be useful.
+Communications Research
+Another area of interest to the field of descriptive ethics in which qualitative research can play a
+particularly important role is the study of the relationship between healthcare professionals and their
+patients. In particular, communication between
+healthcare professionals and their patients is an area
+of intense interest, because this is the most important milieu in which the action of bioethics takes
+place. Several new techniques have been developed.
+Roter, for instance, has developed a technique,
+known as conversational analysis,65 for coding audiotapes of physician–patient interactions. Kaplan
+has studied the communication styles of physicians,
+particularly examining whether physicians invite
+participation by patients in decision making, or
+maintain a more traditional “paternalistic” communication style. 66 This is obviously of intense interest to bioethicists who have long championed the
+role that patients should play in decision making
+regarding their own care.
+Multimethod Research
+Qualitative research techniques can be utilized
+in concert with quantitative survey techniques and
+the two styles used either sequentially or simultaneously to hone in on a particular research question from the vantage point of multiple techniques. 67
+One method of integrating the two styles of investigation is called “triangulation,” in which data
+from a variety of sources can be used to confirm or
+build credibility for an analytic assertion or conclu120
+Military Medical Ethics, Volume 1
+sion. 68 For example, survey results might suggest
+that African-Americans are distrustful of medical
+researchers, and these findings might simultaneously be reached by extensive face-to-face interviews with African-Americans who have declined
+to participate in research and have stated in large
+part that this is because they do not trust the medical establishment. Studies that report using this
+combination of techniques are difficult to do, because there is often a gap between quantitatively
+oriented and qualitatively oriented researchers. Bioethics appears to be bridging that gap by providing an opportunity for such multimethod research.
+Studies using multiple methods can be quite sophisticated. However, multimethod approaches cannot
+always be recommended. In certain instances the
+amount known about a particular question may be
+so minimal that quantitative survey techniques
+would have no place. One might really not understand enough to ask the right questions or to frame
+meaningful closed-ended responses. In other instances, the background to a question may be so
+well known that closed-ended questions are more
+appropriate and open-ended interviews or participant observation may be superfluous.
+Experimental Methods
+Certain studies in descriptive ethics will actually be able to test hypotheses experimentally.
+This will be particularly true of studies in which
+a normative standard has been developed by
+ethical theorists and one wishes to test whether
+or not that standard is met in actual clinical practice. Even more significantly a program designed
+to promote a particular clinical behavior deemed
+worthy of moral approbation or designed to promote some normative standard can be tested by
+randomized clinical trials. The ability to introduce the experimental method into bioethics
+could, as Thomasma has put it, only enhance the
+field. 69 All of the rigorous standards appropriate
+to the conduct of excellent randomized clinical
+trials in any field of biomedicine should be applied to the assessment of the quality of randomized clinical trials in bioethics. 70 Of course, randomized trials in field studies can be difficult to
+conduct, because the intervention generally targets
+healthcare professionals rather than patients and it
+can be disruptive to the flow of patient care. There
+can also be ethical problems in conducting controlled trials in which the program to promote the
+ethically preferable behavior is to be withheld from
+a control group. Nonetheless, where possible, a randomized controlled trial of a new intervention will
+be preferable to a simple before/after cohort study
+of a intervention.
+Theoretical Framework
+Empirical research in sociology, anthropology, and
+psychology is often judged on the basis of whether or
+not it specifies a particular theoretical framework. This
+will be true of empirical research in ethics that is approached from any of these disciplines as well. But
+while this is a necessary ingredient for the highest
+quality research in descriptive ethics, it is not sufficient. Excellent descriptive ethics research in bioethics will not only specify the theoretical framework
+particular to the empirical discipline, it will also explicitly designate the ethical theory that undergirds
+the research. Thus, a study on end-of-life decision
+making that employs a willingness-to-pay utility
+analysis and also acknowledges specifically that the
+moral theory undergirding the study is preferencebased utilitarianism is superior to a study in which
+the authors do not appear to understand whether or
+not they are operating within the framework of any
+particular theory of ethics.
+As Brody has pointed out, even in the absence of
+a specifically acknowledged theoretical orientation,
+the investigators must be able to conceptualize the
+question from an ethical perspective in order to
+conduct solid projects in descriptive ethics. 71 Failure to conceptualize the research adequately from
+an ethical point of view will make the study less
+ethically illuminating.
+Biases in Empirical Research on Ethics
+Despite the enormous contributions that empirical studies can make to bioethics, even the
+most carefully designed studies will be subject
+to certain biases that should be explicitly acknowledged. 72 There will be a bias toward studying more easily measurable phenomena, and so,
+for instance, outcomes will seem more prominent
+than processes. There will also be a bias towards
+studying medical actions rather than omissions.
+Omissions might be just as important morally,
+but inaction does not show up readily on the
+empirical radar scope. Finally, there will be problems with validation. The events of greatest interest will often be ephemeral or intensely private.
+121
+The Science Behind the Art: Empirical Research on Medical Ethics
+For this reason, empirical projects will often
+study responses to hypothetical scenarios or ask
+about attitudes. Unfortunately, studies of selfreported attitudes do not necessarily correlate
+with actual behaviors.
+Detached Disinterest
+These concerns about the quality of descriptive
+studies in bioethics are important for all readers of
+the bioethics literature, not just ethicists. One
+should be a critical reader. Some studies will be
+published because they appear to support a particular point of view, regardless of their quality. Especially in ethics, a more detached and disinterested
+spirit would ideally be expected, but this does not
+always obtain in reality. Whether reviewers, editors,
+or readers agree with the position that appears to
+be supported by the study should not matter. It pays
+to recall that no descriptive study ever answers a
+normative question. One should be more concerned
+about whether the results are of intrinsic interest,
+whether the study answers an empirical question
+relevant to a normative argument, or tests the
+implementation of a normative standard and does
+so with methodological rigor. These studies will be
+the best, and should make no claims to answer any
+normative questions. Regardless of one’s normative
+position on the issue under study, one should support quality in the descriptive research.
+RESOURCES IN ETHICS
+Researchers trained in disciplines such as medical economics, medical sociology, medical anthropology, medical education, and a host of other disciplines often become interested in the study of
+moral questions, but are unaware of some important resources in bioethics. These include specific
+resources in computer data bases, syllabi, books,
+journals, court reports, and newspapers.
+National Reference Center for Bioethics Literature
+The world’s largest collection devoted solely to
+bioethics (21,000 volumes and 300 journals in bioethics and related fields) is housed at the Kennedy
+Institute of Ethics, Georgetown University, Washington, DC. The library is supported by the National
+Library of Medicine. They produce a thesaurus of
+keywords in bioethics searches, an International
+Directory of Bioethics Organizations, a Bibliography of Bioethics, Scope Notes reviewing the literature on various topics, a list of new titles in bioethics, and maintain a syllabus exchange catalogue.
+The library staff can be reached at 1-800-MEDETHX, and the Internet address (also known as the
+URL [universal resource locator]) is http://
+www.georgetown.edu/research/kie.
+Bioethicsline
+The National Reference Center for Bioethics Literature maintains this online resource on behalf of the
+National Library of Medicine. It contains all bioethics
+references from the Medline data base, but in addition includes bioethics journals, bioethics literature
+from journals of philosophy and theology, and relevant court and newspaper articles. Those who
+reach the Medline data base of MEDLARS (Medical Literature Analysis and Retrieval System) via
+Internet Grateful Med can access Bioethicsline through
+this system. The URL is http://igm.nlm.nih.gov.
+One can then choose “Bioethicsline” from the menu.
+Bioethics Journals
+The following journals are devoted exclusively
+or predominantly to the discussion of bioethics:
+• Bioethics
+• Cambridge Quarterly of Healthcare Ethics
+• HEC Forum (Hospital Ethics Committee) Forum
+• Hastings Center Report
+• Journal of Clinical Ethics
+• Journal of Christian Bioethics
+• Journal of Law, Medicine, and Ethics
+• Journal of Medical Ethics
+• Journal of Medicine and Philosophy
+• Kennedy Institute of Ethics Journal
+• Theoretical Medicine and Bioethics
+The Internet
+Rapid advances in technology have led to a vast
+repository of information available to the interested
+individual. Exhibit 4-1 provides a listing of pertinent
+resources available on the Internet when this volume
+was published. It is anticipated that other websites
+will become available in the future as biomedical discoveries fuel increasing interest in bioethics.
+122
+Military Medical Ethics, Volume 1
+DESCRIPTIVE BIOETHICS AND MILITARY MEDICINE
+EXHIBIT 4-1
+INTERNET RESOURCES AVAILABLE FOR BIOETHICS RESEARCH
+The following is a partial listing of other bioethics resources available via the Internet. Many of these sites
+have connections to other useful websites.
+American Society for Bioethics and Humanities......... http://www.asbh.org
+Buffalo, University of ......... http://wings.buffalo.edu/faculty/research/bioethics/
+Center for Research Ethics, Göteborg, Sweden ......... http://www.cre.gu.se
+Chicago, University of (McLean Center).......... http://ccme-mac4.bsd.uchicago.edu/index.html
+(currently unavailable)
+Eubios Ethics Institute ......... http://www.biol.tsukuba.ac.jp/~macer/index.html
+German Reference Center for Ethics in the Life Sciences ......... http://www.drze.de/
+Medical College of Wisconsin ..........http://www.mcw.edu/bioethics/
+National Bioethics Advisory Commission .......... http://bioethics.gov/nbac.html
+Pennsylvania, University of (bioethics.net)............ http://www.med.upenn.edu/bioethics/index.shtml
+Descriptive bioethics in military medicine is a
+wide open field, ripe for investigation. There have
+been very few published papers in descriptive ethics that have come from military sources or have
+investigated issues of particular interest to military
+biomedical ethics. There have been few empirical
+studies of ethical issues in the pages of the journal,
+Military Medicine, aside from a few surveys of ethics committees. 73,74 Yet, some of the ethical issues
+that have been addressed in a more theoretical fashion would, in fact, be amenable to empirical research. For instance, battlefield euthanasia is discussed, but it is not known how often this is thought
+about, requested, or performed. Issues about informed consent for research in military settings, the
+particularities that make it more difficult to avoid
+coercion and manipulation, the problems of balancing risks and benefits of prescribing experimental
+antidotes for chemical warfare, have all been discussed. The normative aspects of these sorts of issues occasionally receive prominent discussion,75
+yet it would appear that there have been no empirical studies about informed consent in military
+settings.
+The recent Presidential Commission on Radiation
+Experimentation conducted a great number of empirical surveys regarding military medical experiments and informed consent in the past. 76 The picture painted by these data is not rosy. But very little
+is known about the present state of affairs, and this
+would also seem a ripe area for empirical research
+in bioethics in a military setting.
+CONCLUSION
+In this chapter I have presented a broad overview of a rather extensive field—empirical research
+in bioethics. I have distinguished these studies in
+descriptive ethics from studies in normative ethics
+and metaethics. I have described some of the myriad
+disciplines that make contributions to descriptive
+ethics, and some of the techniques that are used. I
+have outlined some norms governing the proper
+relationship between normative ethics and descriptive ethics, particularly regarding the important rule
+that normative inferences cannot be validly drawn
+from descriptive studies in themselves. I have also
+outlined some of the indicators of scholarly quality
+in descriptive ethics studies, emphasizing that these
+indicators are largely the indicators of the discipline
+that is being employed in the investigation. Finally,
+I have listed a series of resources in bioethics for
+those who might be interested in undertaking de123
+The Science Behind the Art: Empirical Research on Medical Ethics
+scriptive bioethics research.
+Empirical research in bioethics is an exciting,
+dynamic, and growing field of investigation. Pursued along with normative ethics in a truly synergistic fashion, it offers extraordinary research potential that neither approach could fulfill alone.
+Descriptive ethics research is among the few academic settings in which truly interdisciplinary
+study is flourishing. It would be wonderful if the
+flavor of this interdisciplinary field were enriched
+further by adding more military studies to the descriptive bioethics menu.
+REFERENCES
+1.
+Aristotle. Nichomachean Ethics. Irwin T, trans. Indianapolis, Ind: Hackett; 1985.
+2.
+Frankena WK. Ethics. 2nd ed. Englewood Cliffs, NJ: Prentice-Hall; 1973: 4–5.
+3.
+Sugarman J, Sulmasy DP, eds. Methods in Medical Ethics. Washington, DC: Georgetown University Press; 2000.
+4.
+Mead M. Growing Up in New Guinea: A Comparative Study of Primitive Education. London: Routledge; 1931.
+5.
+Engelhardt HT Jr. The Foundations of Bioethics. New York: Oxford University Press; 1986: 228–236.
+6.
+Carrese JA, Rhodes LA. Western bioethics on the Navajo reservation: Benefit or harm? JAMA. 1995;274(10):826–829.
+7.
+Orona CJ, Koenig BA, Davis AJ. Cultural aspects of nondisclosure. Camb Q Healthc Ethics. 1994;3(3):338–346.
+8.
+Katz P. The Scalpel’s Edge: The Culture of Surgeons. Boston: Allyn & Bacon; 1999.
+9.
+Levinson W, Roter DL, Mullooly JP, Dull VT, Frankel RM. Physician–patient communication: The relationship
+with malpractice claims among primary care physicians and surgeons. JAMA. 1997;277(7):553–559.
+10.
+Christakis NA. The ethical design of an AIDS vaccine trial in Africa. Hastings Cent Rep. 1988;18(3):31–37.
+11.
+Pence GE. Classic Cases in Medical Ethics. 2nd ed. New York: McGraw-Hill; 1995: 175–176.
+12.
+Fox RC, Swazey JP. The Courage to Fail: A Social View of Organ Transplants and Dialysis. Chicago: University of
+Chicago Press; 1974.
+13.
+Mizrahi T. Getting Rid of Patients: Contradictions in the Socialization of Physicians. New Brunswick, NJ: Rutgers
+University Press; 1986.
+14.
+Muller JH. Shades of blue: The negotiation of limited codes by medical residents. Soc Sci Med. 1992;34(8):885–898.
+15.
+Lidz CW, Meisel A. Informed consent and the structure of medical care. In: President’s Commission for the Study
+of Ethical Problems in Medicine and Biomedical and Behavioral Research. Making Health Care Decisions. Vol. II. Empirical Studies of Informed Consent. Washington, DC: US Government Printing Office; 1982: 317–410.
+16.
+Jorgensen DL. Participant Observation: A Methodology for Human Studies. Newbury Park, Calif: Sage Publications; 1989.
+17.
+Lo B, Schroeder SA. Frequency of ethical dilemmas in a medical inpatient service. Arch Intern Med.
+1981;141(8):1062–1064.
+18.
+The SUPPORT Principal Investigators. A controlled trial to improve care for seriously ill hospitalized patients:
+The Study to Understand Prognoses and Preferences for Outcomes and Risks of Treatments (SUPPORT). JAMA.
+1995;274(20):1591–1598.
+19.
+Wenger NS, Pearson ML, Desmond KA, et al. Epidemiology of do-not-resuscitate orders: Disparity by age,
+diagnosis, gender, race, and functional impairment. Arch Intern Med. 1995;155(19):2056–2062.
+124
+Military Medical Ethics, Volume 1
+20.
+van der Maas PJ, van der Wal G, Haverkate I, et al. Euthanasia, physician-assisted suicide, and other medical
+practices involving the end of life in the Netherlands, 1990–1995. N Engl J Med. 1996;335(22):1699–1705.
+21.
+Ware JE Jr, Bayliss MS, Rogers WH, Kosinski M, Tarlov AR. Differences in 4-year health outcomes for elderly
+and poor, chronically ill patients treated in HMO and fee-for-service systems. Results from the Medical Outcomes Study. JAMA. 1996;276(13):1039–1047.
+22.
+Sulmasy DP, Lehmann L, Levine DM, Faden RR. Patients’ perceptions of the quality of informed consent for
+common medical procedures. J Clin Ethics. 1994;5(3):189–194.
+23.
+Self DJ, Wolinsky FD, Baldwin DC Jr. The effect of teaching medical ethics on medical students’ moral reasoning. Acad Med. 1989;64(12):755–759.
+24.
+Self DJ, Skeel JD, Jecker NS. A comparison of the moral reasoning of physicians and clinical medical ethicists.
+Acad Med. 1993;68(11):852–855.
+25.
+Gilligan C. In a Different Voice: Psychological Theory and Women’s Development. Cambridge, Mass: Harvard University Press; 1982.
+26.
+Sulmasy DP, Geller G, Levine DM, Faden R. Medical house officers’ knowledge, attitudes, and confidence
+regarding medical ethics. Arch Intern Med. 1990;150(12):2509–2513.
+27.
+Lerman C, Narod S, Schulman K, et al. BRCA1 testing in families with hereditary breast-ovarian cancer: A
+prospective study of patient decision making and outcomes. JAMA. 1996;275(24):1885–1892.
+28.
+Nelson KE, Celentano DD, Eiumtrakol S, et al. Changes in sexual behavior and a decline in HIV infection
+among young men in Thailand. N Engl J Med. 1996;335(5):297–303.
+29.
+Sulmasy DP, Terry PB, Weisman CS, et al. The accuracy of substituted judgments in patients with terminal
+diagnoses. Ann Intern Med. 1998;128:621–629.
+30.
+Blendon RJ, Szalay US, Knox RA. Should physicians aid their patients in dying? The public perspective. JAMA.
+1992;267(19):2658–2662.
+31.
+Beauchamp TL. Philosophical Ethics: An Introduction to Moral Philosophy. New York: McGraw-Hill; 1982: 336–379.
+32.
+Hume D. In: Selby-Bigge LA, ed. A Treatise of Human Nature. 2nd ed. Oxford: Clarendon Press of Oxford University Press; 1978: 468–470.
+33.
+Searle JR. Deriving ‘ought’ from ‘is.’ In: Speech Acts: An Essay in the Philosophy of Language. London: Cambridge
+University Press; 1969: 175–198.
+34.
+MacIntyre AC. After Virtue: A Study in Moral Theory. 2nd ed. Notre Dame, Ind: University of Notre Dame Press; 1984.
+35.
+Freeman VG, Rathore SS, Weinfurt KP, Schulman KA, Sulmasy DP. Lying for patients: Physician deception of
+third-party payers. Arch Intern Med. 1999;159:2263–2270.
+36.
+Aquinas T. Summa Theologiae. I-II, q. 94, a. 4, c.
+37.
+Finnis J. Natural Law and Natural Rights. Oxford: Clarendon Press, 1980.
+38.
+Silverman HJ, Tuma P, Schaeffer MH, Singh B. Implementation of the patient self-determination act in a hospital setting: An initial evaluation. Arch Intern Med. 1995;155(5):502–510.
+39.
+Berlakovich GA, Steininger R, Herbst F, Barlan M, Mittlbock M, Mulbacher F. Efficacy of liver transplantation
+for alcoholic cirrhosis with respect to recidivism and compliance. Transplantation. 1994;58(5):560–565.
+40
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 4th ed. New York: Oxford University Press; 1994: 150–151.
+125
+The Science Behind the Art: Empirical Research on Medical Ethics
+41.
+Oken J. What to tell cancer patients. JAMA. 1961;175:1120–1128.
+42.
+Alfidi RJ. Informed consent: A study of patient reaction. JAMA. 1971;216(8):1325–1329.
+43.
+Novack DH, Plumer R, Smith RL, Ochitill H, Morrow GR, Bennett JM. Changes in physicians’ attitudes toward
+telling the cancer patient. JAMA. 1979;241(9):897–900.
+44.
+Kamisar Y. Are laws against assisted suicide unconstitutional? Hastings Cent Rep. 1993;23(3):32–41.
+45.
+Kass LR. Neither for love nor money: Why doctors must not kill. Public Interest. 1989;198(9):25–46.
+46.
+Hendin H. Seduced by Death: Doctors, Patients, and the Dutch Cure. New York: WW Norton; 1997: 53.
+47.
+Lifton RJ. The Nazi Doctors: Medical Killing and the Psychology of Genocide. New York: Basic Books; 1986.
+48.
+Gomez CF. Regulating Death: Euthanasia and the Case of the Netherlands. New York: Free Press; 1991.
+49.
+Sulmasy DP, Linas BP, Gold K, Schulman K. Physician resource use and willingness to participate in assisted
+suicide. Arch Intern Med. 1998;158(9):974–978.
+50.
+Avila D. Is the constitution a suicide pact? Duquesne Law Rev. 1996;35(1):201–259.
+51.
+Buchanan AE, Brock DW. Deciding for Others: The Ethics of Surrogate Decision Making. New York: Cambridge
+University Press; 1989.
+52.
+Seckler AB, Meier DE, Mulvihill M, Paris BE. Substituted judgment: How accurate are proxy predictions? Ann
+Intern Med. 1991;115(2):92–98.
+53.
+Uhlmann RF, Pearlman RA, Cain KC. Physicians’ and spouses’ predictions of elderly patients’ resuscitation
+preferences. J Gerontol. 1988;43(5):M115–121.
+54.
+Zweibel NR, Cassel CK. Treatment choices at the end of life: A comparison of decisions by older patients and
+their physician-selected proxies. Gerontologist. 1989;29(5):615–621.
+55.
+Rescher N. Does ought imply can? In: Ethical Idealism: An Inquiry Into the Nature and Function of Ideals. Berkeley:
+University of California Press; 1987: 26–54.
+56.
+Jonsen AR, Toulmin S. The Abuse of Casuistry: A History of Moral Reasoning. Berkeley: University of California
+Press; 1988.
+57.
+Sulmasy DP, Terry PB, Faden RR, Levine DM. Long-term effects of ethics education on the quality of care for
+patients who have do-not-resuscitate orders. J Gen Intern Med. 1994;9(11):622–626.
+58.
+Neuman WL. Social Research Methods. 3rd ed. Boston: Allyn & Bacon; 1997: 227–269.
+59.
+Knaus WA, Harrell FE Jr, Lynn J, et al. The SUPPORT prognostic model: Objective estimates of survival for
+seriously ill hospitalized adults. Study to Understand Prognoses and Preferences for Outcomes and Risks of
+Treatments. Ann Intern Med. 1995;122(3):191–203.
+60.
+Concato J, Feinstein AR, Holford TR. The risk of determining risk with multivariable models. Ann Intern Med.
+1993;118(3):201–210.
+61.
+Ventres WB, Frankel RM. Ethnography: A stepwise approach for primary care researchers. Fam Med.
+1996;28(1):52–56.
+62.
+Morgan DL. Focus Groups as Qualitative Research. 2nd ed. Thousand Oaks, Calif: Sage Publications; 1997.
+126
+Military Medical Ethics, Volume 1
+63.
+Delbecq AL, Van de Ven AH, Gustafson DH. Group Techniques for Program Planning: A Guide to Nominal Group
+and Delphi Processes. Middleton, Wisc: Green Briar Press; 1986.
+64.
+Chan EC, Sulmasy DP. What should men know about prostate-specific antigen screening before giving informed consent? Am J Med. 1998;105(4):266–274.
+65.
+Roter DL, Stewart M, Putnam SM, Lipkin M Jr, Stiles W, Inui TS. Communication patterns of primary care
+physicians. JAMA. 1997;277(4):350–356.
+66.
+Kaplan SH, Greenfield S, Gandek B, Rogers WH, Ware JE Jr. Characteristics of physicians with participatory
+decision-making styles. Ann Intern Med. 1996;124(5):497–504.
+67.
+Stange KC, Miller WL, Crabtree BF, O’Connor PJ, Zyzanski SJ. Multimethod research: Approaches for integrating qualitative and quantitative methods. J Gen Intern Med. 1994;9(5):278–282.
+68.
+Breitmayer BJ, Ayres L, Knafl KA. Triangulation in qualitative research: Evaluation of completeness and confirmation purposes. Image J Nurs Sch. 1993;25(3):237–243.
+69.
+Thomasma DC. Empirical methodology in medical ethics [editorial]. J Am Geriatr Soc. 1985;33(5):313–314.
+70.
+Meinert CL. Clinical Trials: Design, Conduct, and Analysis. New York: Oxford University Press; 1986.
+71.
+Brody BA. Assessing empirical research in bioethics. Theor Med. 1993;14(3):211–219.
+72.
+Pearlman RA, Miles SH, Arnold RM. Contributions of empirical research to medical ethics. Theor Med.
+1993;14(3):197–210.
+73.
+Carter BS. Medical ethics committee—a survey of Army hospitals. Mil Med. 1988;153(18):426–429.
+74.
+Carter BS. A survey of Army clinicians on hospital ethics committees. Mil Med. 1989;154(8):392–394.
+75.
+Annas GJ. Changing the consent rules for Desert Storm. N Engl J Med. 1992;326(11):770–773.
+76.
+Advisory Committee on Human Radiation Experiments. Final Report of the Advisory Committee on Human Radiation Experiments. New York: Oxford University Press; 1996.

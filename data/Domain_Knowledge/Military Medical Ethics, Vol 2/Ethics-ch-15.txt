@@ -1,0 +1,1752 @@
+Nazi Hypothermia Research: Should the Data Be Used?
+437
+Chapter 15
+NAZI HYPOTHERMIA RESEARCH:
+SHOULD THE DATA BE USED?
+ROBERT S. POZOS, PHD*
+INTRODUCTION
+NATIONAL INTEREST AS A RATIONALE FOR HUMAN EXPERIMENTATION
+Practical Military Questions and Concerns
+Social and Political Movements
+Contemporary Considerations and Questions
+Uncovering the Process in Nazi Germany
+THE NAZI HUMAN EXPERIMENTATION PROGRAM
+Experimental Methods of the Hypothermia Studies
+Human Dimensions of the Experimental Program
+Results of the Human Hypothermia Research
+INTERNAL KNOWLEDGE OF THE HYPOTHERMIA DATA
+THE LEGACY OF DACHAU: THE DATA
+SCIENTIFIC CREDIBILITY AND THE USE OF THE DACHAU DATA
+Use of the Dachau Data After World War II
+More Recent Use of the Dachau Data
+A Futuristic Scenario: Can It Happen Again?
+THE ENDURING LEGACY OF THE DACHAU EXPERIMENTS
+CONCLUSION
+ATTACHMENT: DISCOVERY OF THE DACHAU DATA
+*Professor, Department of Biology, San Diego State University, 5500 Campanile Drive, San Diego, California 92182-4616
+Military Medical Ethics, Volume 2
+438
+“SS [Schutzstaffel (protection echelon)] Sturmbannfuehrer Dr. Sigmund Rascher (right) and Dr. Ernst Holzloehner
+(left) observe the reactions of a Dachau prisoner who has been immersed in a tank of ice water in an attempt to
+simulate the extreme hypothermia suffered by pilots downed over frigid seas. The freezing experiments were designed to establish methods of treatment for persons in a state of shock as a result of prolonged exposure to the cold.
+The medical experiments performed on Dachau prisoners involved the placing of the victim in a tank of ice water
+until he lost consciousness (70–90 minutes), followed by abrupt attempts to restore his normal body temperature by
+various means.… This photo is taken from a film found in the Munich home of Dr. Sigmund Rascher.”
+Photograph reproduced with permission from Yad Vashem, Jerusalem, Israel.
+Caption courtesy of the United States Holocaust Memorial Museum, Washington, DC.
+Nazi Hypothermia Research: Should the Data Be Used?
+439
+INTRODUCTION
+of the human body in cold water, and similar problems which are of vital importance to the air force
+in particular, can be performed by us with particular efficiency because I personally assumed the responsibility for supplying asocial individuals and
+criminals who deserve only to die…2(pp133–135)
+This, then, was how the Nazi hypothermia and hypoxia research—in the pursuit of national interests
+and using available “human material”—came to be
+what is now seen as the ultimate example of unethical medical research. What makes the Nazi example notable is that the scientific data were recorded and carefully saved; and because they were
+saved, there is a dilemma that continues to confront
+researchers. Simply put: should the data be used?
+This chapter will use the Nazi hypothermia experiments as a model for how an entire research
+structure within a government-sponsored war effort conducted unethical research with the aim of
+maintaining national security. One of the major
+points concerning these experiments is that they
+had government support and thus any one researcher could not be held solely responsible for
+them. Unethical scientific experiments conducted
+during periods in which national security is threatened have occurred in other countries as well. The
+well-documented US experimentation using plutonium on unsuspecting patients who were considered
+terminal (even though not all were, as documented
+in Chapter 17, The Cold War and Beyond: Covert
+and Deceptive American Medical Experimentation)
+indicates the lengths to which the scientific and
+medical communities have gone to resolve a national problem. 3 The rationale and execution of the
+Nazi-sponsored hypothermia study during a national crisis can be used as a cautionary tale for
+today’s scientist-clinicians, politicians, and military
+organizations. This chapter will present various
+views on the appropriateness of the use of the infamous Dachau data by succeeding generations of
+scientists. The complex issue ultimately raises fundamental questions about the reasons for scientific
+inquiry.
+Unethical experiments involving human subjects
+are deplorable and must never be conducted. This
+is clearly a standard that all scientists should vigorously support. Unfortunately, there have been
+many experiments in which scientists have rejected
+this standard, pursuing research that ultimately
+caused the deaths of their subjects. It is intuitive
+that these were unwilling subjects, whether they
+understood the likely outcomes of the experimentation or lacked that capacity. In many situations in
+which unethical experiments are conducted, no data
+are recoverable. The reason is obvious: The researchers know that what they are doing is unethical, and generally also illegal, and take precautions
+to prevent discovery.
+One of the classic examples of lethal unethical
+scientific conduct is the human hypothermia experiments that were conducted during World War II in
+Germany. There were considerable military and
+medical concerns about the fate of German aviators
+who survived being shot down over the North Sea,
+only to perish very quickly in the frigid waters. The
+impetus for the hypothermia research was clearly
+to meet military needs, especially aviation, during
+the war. In a letter written on 15 May 1941 by a
+prominent hypothermia researcher attending a
+medical course, it was noted that:
+During this course, where researches on high-altitude
+flights play a prominent part (determined by the
+somewhat higher ceiling of the English fighter
+planes) considerable regret was expressed at the
+fact that no tests with human material had yet been
+possible….The [human] experiments….are essential for research…. 1(p132)
+Approximately 18 months later (13 November
+1942), a letter was written by a member of Hitler’s
+general staff to one of his field marshals, in which
+it was noted:
+These researches which deal with the behavior of
+the human organism at great heights, as well as
+with manifestations caused by prolonged cooling
+NATIONAL INTEREST AS A RATIONALE FOR HUMAN EXPERIMENTATION
+During World War II, Nazi Germany faced a
+number of physiological dilemmas concerning human performance in various hostile thermal environments. Ignorance about the exact limits of human performance and endurance threatened the
+success of the Nazi war effort. As a consequence,
+the military turned to its medical and scientific organizations for answers to the new challenges Germany faced as a result of new warfare technology.
+Practical Military Questions and Concerns
+The Germans, British, and Americans were developing aircraft that could fly at high altitudes. As
+Military Medical Ethics, Volume 2
+440
+a result, personnel suffered from the threats of a
+decrease in oxygen (hypoxia), an increase in cold
+temperature leading to a decrease in core temperature (hypothermia), and frozen extremities (frostbite). To enhance the effectiveness of their pilots,
+the German Air Force (the Luftwaffe) had to arrive
+at various countermeasures for hypoxia and hypothermia stresses. Further, because many operations
+were conducted over the North Sea, Germany
+needed to ascertain the survival time of pilots
+downed in the cold waters before they died of hypothermia, as well as the most effective way to rewarm them if they were pulled from the waters still
+alive. The German U-boat service faced similar
+problems. Of the 40,000 men in the U-boat service,
+28,000 (or 70%) lost their lives. Many of these deaths
+were due to hypothermia and drowning. 4,5 The practical questions that Nazi military leaders had were:
+• What would be the survival time of downed
+pilots in the cold North Sea?
+• What would be the most effective medical
+treatment to revive hypothermic pilots and
+sailors?
+• What would be the best technical or mechanical way to rewarm pilots and sailors
+after their rescue from the North Sea?
+• What kind of clothing could be designed
+to enhance survival in cold water?
+Although unethical lethal experiments dealing
+with human response to hypoxia (the physiologic
+effects of high altitude) were also conducted at
+Dachau (resulting in the data being referenced by
+American scientists6,7), those experiments and their
+publication will not be evaluated in this chapter.
+The focus of this chapter is the immersion hypothermia experiments, their publication, and use. These
+experiments were a natural extension of the hypoxia
+experiments because pilots who flew at high altitudes could possibly be shot down over the icy
+waters of the North Sea.
+Although the initial emphasis of the research dealing with hypothermia was on immersion hypothermia, the physiological investigation of hypothermia
+induced by cold air exposure became a concern as
+the experiments progressed. The Nazis realized the
+importance of the hypothermia research from a strategic point of view; indeed, this research was considered critical by Nazi administrators and scientists. 8,9
+Heinrich Himmler, second in command after Hitler
+and head of the SS (Schutzstaffel [protection echelon]), played the key role in supporting research to
+answer these questions.
+Social and Political Movements
+It should be stressed that the challenge of finding solutions to military problems must be considered in the context of many other social and political movements that were underway at that time.
+Racial hygiene was a worldwide movement. The
+use of prisoners for experiments was commonplace.
+Within Germany there were government programs
+to eliminate various subpopulations in Germany
+and later in the conquered territories, especially the
+Jewish population. 10 (The previous chapter has detailed the major Nazi programs during the 1930s
+and 1940s that resulted in the extermination of millions of people.) This lack of respect for the lives of
+certain groups of people, coupled with a national
+crisis in which the German nation itself was threatened, facilitated the rationalization for, and the
+implementation of, these unethical experiments.
+From an historical point of view, the number of
+published papers at that time that dealt with human responses to cold water or cold air or both was
+very limited. The scientific understanding of how
+the human body regulated its peripheral and core
+temperatures in cold water or cold air environments
+was in its infancy. The Nazis believed that they had
+to have this information in order to survive as a
+nation.
+Contemporary Considerations and Questions
+A common contemporary response to any discussion of the German hypothermia and hypoxia
+experimentation is that it is history, and nothing
+more. It happened then, but a parallel set of circumstances could not arise in this time, especially not
+in a democracy. Such a response ignores the powerful allure of research in the national interest. A
+contemporary analogy, certainly consistent with
+current events involving anthrax threats and terrorist attacks, would be the effects of various biological or chemical agents, such as nerve gases, on
+military personnel. If modern troops had to face a
+hostile military force that could use lethal biological
+and chemical agents, among the questions that military commanders would want answered would be:
+• What kind of biological and chemical
+agents would be used against the troops?
+• What are the medical countermeasures (antidotes) that could be used?
+• How effective are the technical countermeasures (chemical defense suits) to protect the
+troops?
+Nazi Hypothermia Research: Should the Data Be Used?
+441
+• How long can soldiers stay in protective
+defense suits with or without antidotes in
+various extreme environments and still perform their military duties?
+Some of these questions concerning biological
+and chemical agents have not yet been completely
+answered. To arrive at these answers, the military
+arm of the government undoubtedly would turn to
+the military medical and scientific establishment,
+which is composed of military officers who hold
+advanced degrees in medicine and science. The experiments would be carried out either in government-sponsored labs or in universities. This approach would be similar to the one used by the
+Germans during World War II. However, in a modern scenario in the United States, the rights of the
+human subjects involved would, or certainly
+should, be respected.
+Returning to the situation in 1938, there was a
+dearth of information available concerning physiological responses to various cold environments.
+(Analysis of the scientific literature from 1930 to
+1940 revealed no papers concerning human response to immersion hypothermia. Furthermore,
+there was no information as to the safety and efficacy of various rewarming strategies.) That information, however, was critical to rescue and treatment of the hypothermic downed German pilot in
+the North Sea. Equally challenging was the unexplained fact that rescued hypothermic pilots would
+occasionally die when they were safely on board
+rescue vessels. 11 As they studied human responses
+to cold environments, German scientists were striving to meet “legitimate scientific goals.”12
+Progress in Nazi understanding of the mechanisms of hypothermia and various rewarming treatments was detailed in secret reports submitted to
+Heinrich Himmler, who later had the reports buried in a cave in Germany in the waning days of the
+German war effort. The cache of information was
+discovered by American troops.
+Uncovering the Process in Nazi Germany
+Major Leo Alexander, US Army Medical Corps,
+was given the task of analyzing the secret written
+records after their discovery. His 1946 report, “The
+Treatment of Shock from Prolonged Exposure to
+Cold, Especially in Water,” also known as the
+“Alexander Report,” contains his analyses of both
+the animal experiments and human experiments
+conducted in Dachau. 13(pt24) The first part of the report, 69 pages in length, concerns his interrogation
+of physicians and scientists who were involved in
+the animal experiments, his interpretation of the
+human experiments, and further interviews with
+German scientists and physicians. This is followed
+by 92 pages of description of the animal work conducted by various German scientists. An additional
+62 pages concerned the Dachau human experiments. Alexander also reported on other captured
+German documents,14,15 however, the “Alexander
+Report” is the major document concerning Nazi
+experiments that is usually referenced by the scientific community. His documentation of the organizational structure responsible for these experiments, as well as of the data from these experiments,
+is a singular document in the history of ethics. The
+“Alexander Report” became part of the Nuremberg
+documents used in the prosecution of Nazi war
+criminals. (A chronology of Alexander’s meticulous
+investigation of the existence of the hypothermia
+research program is presented in Attachment 15-1.)
+Alexander’s straightforward analytical prose
+stands in stark contrast to the atrocities he reported,
+all conducted in the name of national interest and
+scientific inquiry. As I mentioned in the introductory remarks to this chapter, most studies concerning unethical experiments do not present results
+because most of the data are lost, destroyed, or not
+documented. Anecdotal information exists about
+many unethical experiments, for instance, the Japanese studies conducted during World War II. However, the Nazi scientists carefully recorded their
+data, whether they dealt with high-altitude experiments, hypothermia, or x-ray studies.
+Since 1933, the Nazi government had been killing
+“defectives” of various categories because they considered these people unproductive and therefore
+costly to society. 16 This Nazi philosophy of “cleansing” was the basis of Himmler’s support of the overt
+and tacit complicity of physicians and scientists in
+gaining scientific data from prisoners for hypothermia research. Fundamentally, what occurred in
+Dachau was nothing more than a logical extension
+of a solution to a national crisis based on the premise
+that certain groups of persons were expendable.
+In terms of organizational structure, Himmler
+was responsible for the SS, while Hermann Goring
+oversaw the Luftwaffe. Luftwaffe personnel did not
+want to conduct these experiments themselves. Although Goring stated that he himself did not propose the hypothermia experiments, it is clear that
+he turned to Himmler for assistance. 17 To devise the
+immersion hypothermia countermeasures that it
+required, the military turned to the medical and
+scientific community through their surgeon general.
+Military Medical Ethics, Volume 2
+442
+The Surgeon General for the Luftwaffe was Dr.
+Hippke, who worked closely with Himmler. The
+university responsible for conducting studies on Air
+Force Medicine was the University of Munich. The
+research program was under the direction of Dr.
+Georg August Weltz, a radiologist who headed up
+a team of physician-scientists.
+Dr. Weltz, a lieutenant colonel in the Medical Service of the Luftwaffe, and Chief of the Institute for
+Aviation Medicine in Munich, had previously studied individual physiological responses as a way of
+assisting pilot selection, the goal being the selection
+of those best suited to withstand hypoxia. In these
+studies, he had used German pilots as subjects. He
+exposed them to a 7% oxygen-nitrogen mixture for 5
+minutes. Based on how long it took pilots to develop
+high-altitude symptoms, he arrived at categories to
+describe a person’s ability to adapt to low-oxygen levels. No pilots died in these experiments.
+Weltz subsequently undertook the problem of
+how to resuscitate (ie, rewarm) German pilots who
+were downed in the North Sea. He used guinea pigs
+in his studies, rediscovering the fast rewarming
+method to minimize cardiovascular collapse and
+death in hypothermic animals that had been reported
+by a Russian scientist in 1894. The results of Dr.
+Weltz’s studies were published in various German
+scientific journals. 18 Weltz and his colleagues then
+proceeded to study the mechanism of death due to
+hypothermia, as this issue was hotly disputed.
+To arrive at effective medical countermeasures
+to hypothermia, elucidating the cause of death was
+important. Normal temperature of the heart, or the
+core of the body, is 37°C. Hypothermia is defined
+as a core temperature of 35°C or less. A drop in skin
+temperature is not used for the classification of hypothermia. One of the then current hypotheses for
+hypothermia-induced death was that hypothermia
+caused a decrease in oxygen availability at the cellular level. Another hypothesis was that hypothermia
+killed by decreasing the heart’s ability to contract.
+As commonly occurs in science, there was scientific
+substantiation of both hypotheses.
+The first of these two hypotheses was explored
+by Dr. R. von Werts, who was a civilian scientist.
+He worked with another scientist, Dr. K. Seelkopf,
+to study the physiology of oxygen and carbon dioxide transport. He reported the discovery of an
+anoxic factor in the blood of chilled animals. The
+second of these hypotheses was explored by another
+member of Dr. Weltz’s team, Dr. W. Lutz. He studied the physiological responses of pigs to cold environments, and was able to demonstrate that heart
+rate was slowed during body cooling, but did not
+stop instantaneously. He ascertained that the heart
+stopped at 16°C and that the effectiveness of electrical stimulation to initiate cardiac contractility
+ceased at 13°C. He reported that the interventions
+of rapid rewarming, artificial respiration, and electrical stimulation would revive the hypothermic
+animal. The observation that the core temperature
+of the body could be dropped to a temperature as
+low as 16°C and then be returned to its normal level
+of 37°C was considered an amazing fact. More important, Lutz reported that the hypothermia-induced
+arrest of the heart was reversible.
+In addition to understanding the mechanisms
+causing death, Weltz’s group also studied the
+mechanisms of rewarming. Specifically, they sought
+to discover at what core temperature would rewarming be most effective. They also studied the
+effect of ethanol on influencing the thermogenic
+ability of the pig. These questions were not trivial.
+If it was true that rewarming would be most effective at the beginning stages of hypothermia (eg,
+35°C vs 30°C core temperature), then medical facilities would be able to prioritize care of hypothermic victims. The issue of ethanol intake was also
+important because it was generally believed that
+consumption of ethanol was an effective way to rewarm hypothermic victims. However, the research
+data suggested that ethanol did not help retain body
+heat when the animal was being cooled. According
+to Weltz, his data were sent to the German Navy
+for implementation. By 1942, rapid rewarming
+therapy was instituted as the best way to treat patients suffering from hypothermia. 19 Thus the German scientists were conducting experiments on
+animals to ascertain various physiological questions
+and were submitting their data to the appropriate
+medical and scientific journals, as well as to their
+sponsor—the German military.
+After information had been accumulated from
+animal experiments, the Germans sought corroboration of these data from human hypothermia subjects.
+The person who played a major role in administering
+and conducting the human hypothermia experiments was Sigmund Rascher, a physician who had
+the support of Himmler. According to Himmler,
+writing to General Milch,
+Unfortunately you had not time recently when Dr.
+Rascher wanted to report on the experiments at the
+Aviation Ministry. I had put great hopes in that report because I believed that by reporting to you,
+the difficulties based mainly on religious objecNazi Hypothermia Research: Should the Data Be Used?
+443
+tions, which Dr. Rascher encountered in carrying
+out his experiment for which I assumed responsibility, could be eliminated.…[H]owever, these difficulties are still the same now as before. In these
+“Christian medical circles” the standpoint is being
+taken that a young German aviator should be allowed to risk his life, but that the life of a criminal—who is not drafted into military service is too
+sacred and one should not stain oneself with this
+guilt;….There is no reason why we should get angry about these difficulties. It will take at least another 10 years until we can get such narrowmindedness out of our people. But the research
+work necessary for our young and splendid soldiers and aviators must not suffer. 13(pt21)
+Although I stated in the beginning of this chapter that my focus would not be on the hypoxia studies, it is necessary to review the experimentation
+chronology involving Rascher that resulted in his
+having primary responsibility for the hypothermia
+experiments. Rascher had previously codirected the
+high-altitude experiments in the Dachau camp in
+which a number of human subjects died. Rascher
+had also previously petitioned Himmler to administer a series of experiments on “professional criminals” to substantiate the animal experiments. 12 These
+high-altitude experiments were conducted under an
+order from Himmler to Rascher, Kottenhoff, and
+Weltz. Weltz, however, had delayed the start of the
+experiments because he feared that they might be
+considered immoral by members of the Luftwaffe.
+(There had always been tension between the
+Luftwaffe and the SS. The Luftwaffe’s view was that
+the SS were “criminals” and “thugs,” while they
+were the professional soldiers.)
+The experiments began when Dr. Siegfried Ruff,
+Director of the Department for Aviation Medicine
+at the German Experimental Institute for Aviation,
+and Dr. Hans Wolfgang Romberg, a member of the
+staff at the Department for Aviation Medicine, arrived at Dachau with a low-pressure chamber. The
+high-altitude experiments for which a low-pressure
+chamber was essential were conducted by Romberg
+and Rascher in March 1942. Although they denied
+in their official report that there were any fatalities
+associated with the pressure experiments, a letter
+from Mrs. Rascher requesting to take pictures of
+freshly autopsied persons supports an opposite
+view. The high-altitude fatalities allegedly occurred
+after Romberg was no longer responsible for the
+experiments and Rascher had assumed control.
+With the completion of the high-altitude experiments, Rascher was now interested in continuing
+hypothermia studies dealing with the human response to cold water and the efficacy of various rewarming techniques. It should be noted that these
+experiments were officially proposed by Hippke,
+the Surgeon General, and not by Rascher.
+The cold water experiments were authorized on
+20 May 1942 by Milch in Himmler’s office and later
+by the Luftwaffe. The other physicians selected to
+conduct the study were Dr. Jarisch, from the University of Innsbruck, Professor Holzloehner, from
+the University of Kiel, and Professor Dr. Singer, a
+pathologist. Because Rascher was not considered a
+trained scientist, he was required to collaborate with
+Holzloehner and Finke,8,12,13 both of whom were
+scientists familiar with physiological research.
+Holzloehner felt that because he was the key scientist responsible for directing these experiments, they
+would not get out of hand. 8
+The actual “cooling” experiments began on 15
+August 1942 under the code name SENOT (Marine
+Emergency) and a preliminary report was signed
+by Holzloehner, Finke, and Rascher on 10 September 1942, along with an appendix signed only by
+Rascher. The report was the basis for a research
+session organized by the Luftwaffe health service
+in Nuremberg on 26–27 October 1942. Allegedly
+Holzloehner gave a second talk to the Wehrmach
+EXHIBIT 15-1
+HYPOTHERMIA RESEARCH AND
+DOCUMENTATION GROUP
+•
+Dr. S. Rascher: research scientist
+•
+Dr. Kalk, Dr. Bruhl, Mr. Pendele, Mr.
+Bensinger: motion picture photographers
+from the Air Ministry
+•
+Mrs. Rascher: color still photographer
+•
+Walter Neff: chief assistant to Dr. Rascher;
+assisted immediate post-mortem autopsies
+•
+Helmurth Burndt: prisoner-secretary
+•
+Franz Jonk: prisoner-attendant
+•
+Hans Queck: prisoner-medical artist
+•
+Frist Bromm: prisoner-laboratory assistant
+•
+Dr. R. Pacholik: prisoner-laboratory assistant (doctor of natural sciences)
+•
+Dr. Punzengruber: prisoner-laboratory
+assistant (chemist)
+Military Medical Ethics, Volume 2
+444
+was also involved—even though this point was
+denied by Goring, head of the German Air Force, at
+the Nuremberg trials. 13(pt8) The group that studied
+and documented the hypothermia experimentation
+is listed in Exhibit 15-1. In addition, an advisory
+committee was constituted to review the report. 8
+Although clearly deplorable, the German hypothermia experimentation program was a carefully
+considered, constructed, and documented research
+effort. Only by examining this heinous program can
+one understand how easily individuals and organizations, responding to a national crisis, might find
+themselves justifying such an undertaking.
+doctors in December. No one was reported to have
+voiced any comments about the experiments. This
+organizational silence may well have been partly
+due to the police nature of the Nazi government,
+in which those who questioned Nazi projects could
+be prosecuted or killed. Holzloehner claimed credit
+for the hypothermia experiments, and Ruff claimed
+the hypoxia experiments. The three scientists—
+Holzloehner, Finke, and Rascher—worked together
+from August through October; from October through
+May Rascher solely directed the operation. Although this research was done under the auspices
+of the German SS, the German Air Force (Luftwaffe)
+THE NAZI HUMAN EXPERIMENTATION PROGRAM
+The introductory chapter of the Holzloehner,
+Finke, and Rascher report presents the rationale that
+there was a lack of reliable information as to the
+proper treatment for people rescued after prolonged
+exposure to cold water.
+Lack of clarity and confusion pervade practically
+all thought on this subject, especially the problem
+of what physical and pharmacological first aid
+measures should be taken. For instance it is not
+known whether rewarming of the rescued should
+be slow or fast.…It is considered difficult particularly in this subject to transfer results obtained in
+animals to man, because even in warm blooded
+animals, there are fundamental differences in the
+mechanism of heat regulation. Furthermore, the
+peculiarities of the physiological events within the
+skin of most furry experimental animals preclude
+transfer of results to man. 13(p7)
+By the summer of 1942, the problem of pilots
+downed over the North Sea had been reduced to
+the basic components of scientific exploration: a
+problem worth investigating, a hypothesis or two
+to evaluate, and available research “material.” This
+process occurred in a military-scientific culture that
+supported using whatever means were necessary,
+and was fueled by the pressure of national interest.
+What remained was to establish the experimental
+methods, conduct the research on selected subjects,
+and report the results—all standard in the everyday conduct of scientific inquiry. Each step will be
+addressed in turn.
+Experimental Methods of the Hypothermia
+Studies
+Two sets of experiments were designed and
+implemented. The first set determined the human
+response to freezing water. The second set evaluated various rewarming techniques. All of the immersion hypothermia and rewarming experiments
+were conducted at Dachau, along with some initial
+cold-air studies.
+A wooden tank lined with sheet metal and measuring 2x2x2 meters was used for the hypothermia
+experiments. The tank was filled with water and
+the temperatures were kept between 2. 3°C (35. 6°F)
+and 12°C (50°F) by the addition of ice. In the largest single series, the experimental subjects were
+usually dressed in flying equipment of the German
+aviators including a life jacket of rubber or kapok. In
+another set of experiments the subjects were naked.
+Rectal, skin, and sometimes intragastric temperatures were measured. A special stethoscope was
+built to enable auscultation of the heart throughout the experiment. Electrocardiograms were not
+possible in the water and could only be used on
+those in whom the shiver response was not so great.
+The analyses of the following constituents of blood
+were carried out: blood sugar, blood concentration
+of chloride, nonprotein nitrogen, arterial and
+venous carbon dioxide, sedimentation rate, blood
+count, blood smear, viscosity, red cell fragility, and
+plasma protein. Standard constituents of urine (eg,
+sugar, albumin, chloride, and so forth) were also
+analyzed. Various rewarming methods were tested:
+(a) rapid rewarming by means of a hot bath, (b) rewarming by a light cradle, (c) rewarming by means
+of a heated sleeping bag, (d) energetic massage of
+the whole body, (e) packing in blankets, and (f) diathermy of the heart.
+Concerning the subjects, Holzloehner told Lutz that
+they had been impressed with and amazed by the
+marionette-like behavior and objectionless obedience shown by the prisoners. They immediately
+Nazi Hypothermia Research: Should the Data Be Used?
+445
+obeyed orders without hesitation or objection such
+as jumping naked into ice water or standing naked
+in the cold for hours. 20(p49)
+What Holzloehner did not mention was that these
+prisoners had no other viable choice. They could
+not protest or they would be immediately killed. If
+they cooperated, there was at least the chance that
+they might survive single or even multiple experiments, as not all subjects died.
+Human Dimensions of the Experimental Program
+The number of subjects participating involuntarily
+in the hypothermia experiments is not clear. It has
+been documented that anesthetized and conscious
+nonconsenting prisoners of war survived a number
+of experiments, although others did not. Furthermore,
+the use of multiple subjects for each experiment was
+not commonplace. Rather, a small number, and in
+some cases only one, was the scientific norm at that
+time. The priority for subject selection is reported as
+follows: Jewish persons, foreigners, gypsies, stateless persons, foreign Catholic priests, professional
+criminals, and, finally, political prisoners. 13(p46) The
+Alexander report stated that 107 experiments were
+performed and at least 13 persons died. Neff, a technician who worked for Rascher, claimed that 280 to
+300 subjects were involved. He further asserted that
+between 80 and 90 of these subjects died. 21 The actual number of deaths probably will never be
+known.
+Results of the Human Hypothermia Research
+The results of the human hypothermia research
+will be presented in three categories: (1) assessing
+protective clothing, (2) understanding the cooling
+process, and (3) rewarming subjects suffering from
+hypothermia. Each will be discussed separately.
+Clothing and Hypothermia Prevention
+What were the results of the hypothermia prevention studies that assessed aviation protective
+clothing? The Nazi clinician-scientists reported the
+following findings22:
+• The efficacy of whole-body protective clothing was documented. These suits reportedly had been impregnated with chemicals
+that produced a foam when in contact with
+water. The suits were found to be effective
+in minimizing the fall in body temperature
+of the subjects by at least 1 hour.
+• Studies on the reliability of life jackets were
+also reported. The life jacket was worn underneath the hypothermic protective suit to
+keep the person more upright in the water
+as well as to enhance the thermal insulation by way of the air that was enclosed
+within them. These findings were integrated into the report that was prepared
+concerning the research conducted by
+Holzloehner, Rascher, and Hippke.
+Cooling Studies
+The cooling studies documented both external
+and internal physiological responses of the selected
+subjects from entry into the frigid water until removal from it.
+General Observations:
+• The individual’s physical state in conjunction with their clothing determined the
+cooling rate. Emaciated and “vasolabile”
+individuals experienced a faster drop in
+their core temperature than other subjects.
+The water temperature (varying between
+2°C and 12°C) did not make any significant
+difference in the rate of heat loss. This finding was attributed to the normal variation
+of heat loss from subjects.
+• Skin temperature fell faster than core temperature and within 4 to 5 minutes reached
+values between 19°C and 12°C.
+• The color of the face was pale at first but
+then became blue after 40 to 50 minutes. The
+veins did not collapse and remained patent
+for venipuncture. These signs were an indication of the peripheral vasoconstriction
+of the blood vessels of the skin.
+• Blood pressure could not be measured due
+to the marked rigidity and the muscular fibrillation.
+• When the neck and occiput were cooled the
+loss of temperature was accelerated. This
+acceleration, however, had to be accompanied by whole body cooling because if only
+the neck and the occiput were cooled, there
+was only a slight loss in temperature, 0. 8°C.
+• Anesthetized subjects did not show any
+major difference from unanesthetized subjects in terms of rectal temperature drop.
+These experiments were conducted to answer the question of whether or not additional body heat could come from conscious
+Military Medical Ethics, Volume 2
+446
+subjects (who could be presumed to be trying to keep warm through movement) compared to unconscious subjects. Although
+these data might seem confusing, it should
+be stressed that the mental state of subjects
+is also very important in survival situations.
+Subjects who apparently did not care if they
+survived the experiments had a very fast
+core temperature fall compared to those
+who were willing to “fight.”13 (It is also possible that the unanesthesized subjects were
+already so emaciated that they could not
+generate much body heat.)
+Specific Results:
+• According to the Alexander Report, the viscosity of the blood increased to 7. 8 when
+core temperature was at 35°C; blood glucose was increased by 80%–100% and did
+not fall until the body temperature began
+to rise.
+• The heart rate increased upon immersion
+and then decreased when the core temperature reached 34°C.
+• Consciousness began to cloud when the core
+temperature reached 31°C. The pupils became dilated and the gaze was fixed upward.
+• At core temperatures between 30°C and
+29°C the heart rate became irregular. This
+irregularity remained even after removal
+from the water for 1. 5 to 2. 0 hours. Irregularity of the “slow type” was always a predictor of death. These data demonstrated
+that the cause of hypothermia death was
+cardiac in origin.
+• Death occurred at a core temperature between 25. 7°C and 24. 2°C. Of 7 persons who
+were known to have died in the hypothermia experiments, the time it took for death
+to occur was between 53 and 106 minutes
+after immersion into the tank.
+Rewarming Studies
+The rewarming studies focused on three approaches
+to regaining normal core temperature: (1) environmental rewarming, (2) body-to-body rewarming, and
+(3) chemical rewarming.
+General Observations:
+• During the rewarming phase, the core temperature continued to fall after the subject
+had been removed from the water.
+• This “afterdrop” explained the mysterious
+fact that pilots and sailors who were removed from the cold water and subsequently were rewarmed sometimes died 30
+minutes or later after rescue.
+Results for “Environmental” Rewarming:
+• Hot baths between 40°C and 50°C were the
+most effective in rewarming the hypothermic subjects and reversing the afterdrop.
+• Rubbing the skin by itself did not increase
+core temperature, but 10 minutes of exposure
+to hot water followed by rubbing was effective in warming the hypothermic subjects.
+• Light cradle was effective in increasing core
+temperature but it did not heat the person
+uniformly and the subject might be burned.
+• Diathermy was attempted only for warming the heart but was not effective. (The
+obvious implication of this result is that at
+least one of the hypothermia victims died.)
+• Wrapping a person in blankets gave the
+least effective results (this rewarming technique works only for those who are mildly
+hypothermic).
+Results for Body-to-Body Rewarming:
+• Unwilling nude female subjects were forced
+(by Rascher) to lie next to hypothermic victims while the responses of the hypothermic subjects were measured.
+• In some cases the responses of the hypothermic subjects were measured as they engaged in sexual intercourse with unwilling
+female subjects. Rascher reported that
+body-to-body rewarming was not very effective. (This fact is consistently overlooked;
+there remains the misconception that bodyto-body rewarming is an effective method
+of rewarming hypothermia victims. 23,24 Fifty
+years later experiments were conducted
+that supported this initial observation. 25)
+Results for “Chemical” Interventions:
+• Cardiac and circulatory stimulants were
+found to be ineffective for rewarming the
+hypothermic victims.
+• Intracardiac injection was found also to be
+ineffective.
+• The ingestion of ethanol before immersion
+did not change the rate of body cooling, and
+in fact the Nazi scientists felt that ethanolinduced vasodilation might augment some
+cardiac irregularities induced by the hypothermia. “Remedies which influence peNazi Hypothermia Research: Should the Data Be Used?
+447
+tionale to have the person experience cardiac arrest
+from the hypothermia and then to attempt various
+forms of rewarming was nothing more than an extension of the Nazi philosophy. According to this
+philosophy, because these individuals were going
+to die anyway, they should be used as subjects in
+scientific experiments to assist in the war effort.
+(Nazi Germany was not the only country to use
+prisoners as subjects in questionable medical experiments. The next two chapters in this volume
+will explore experimentation in Japan during the
+World War II era, and the exploitation of prisoners
+for biomedical research programs that continued
+until 1967 in the United States. 3)
+ripheral circulation are definitely not advisable.”8(p24) (There is a persistent myth that
+these studies reported that ethanol is an
+effective chemical agent to augment rewarming. This “fact” was never supported
+by these experiments.)
+In summary, most of the data reported on human subjects had been reported already in experimental animals. These researchers could have conducted these experiments on volunteers from the
+Luftwaffe and dropped their core temperature by
+2°C to 3°C with no chance of subjects dying and
+discovered most of the same information. The raINTERNAL KNOWLEDGE OF THE HYPOTHERMIA DATA
+In early February of 1943, Hippke, who was responsible to the Luftwaffe for these studies, felt that
+enough satisfactory information concerning immersion hypothermia experiments had been collected.
+However, on February 24th, Himmler sent a note to
+Rascher asking him to begin cold-air experiments at
+Auschwitz, where the air temperature might be lower
+than at Dachau. At the same time, the SS was attempting to get Rascher released from the Luftwaffe,
+possibly so he would not be hampered by oversight
+from his superiors. When he discovered this attempt, Hippke wrote to his supervisor on March
+6th, defending his participation in the human experiments in Dachau. He stated that if Dr. Rascher
+wanted to be transferred to the SS, he would not stand
+in his way. Rascher met with Hippke on March 12th
+and later stated that Hippke warned him that if he
+left the Luftwaffe, that he, Rascher, would be open
+to scientific attack because he was no longer part of
+the aviation research group. Whether Rascher was
+lying about his conversation with Hippke is not as
+important as the fact that both men were concerned
+about scientific credibility (a point that would resurface 50 years later26).
+Rascher began conducting experiments on air
+cooling and the effectiveness of rapid rewarming
+on human subjects. These experiments were a natural continuation of the immersion hypothermia experiments because Rascher wanted to evaluate
+whether rapid rewarming would be effective on
+cold-air–induced hypothermia victims. While these
+experiments were ongoing, Rascher sought to become
+affiliated with a German university, but was apparently not accepted at any university to which he applied. The University of Marburg rejected Rascher’s
+application because the faculty could not read his
+thesis because it was classified “secret.” He then applied to the University of Frankfurt because a member of its faculty, Professor Dr. von Dieringshofen,
+was reported to be appreciative of Rascher’s work.
+However, the secret nature of Rascher’s thesis made
+it unlikely that either the University of Frankfurt
+or the University of Munich, where he next applied,
+would accept Rascher. Finally he turned to the University of Strassburg, which had a quorum of SS
+faculty who could read his secret report. The committee that was selected to review his material consisted of Dr. Stein, the Dean of the Medical Faculty;
+Dr. August Hirt, the Assistant Dean of the Medical
+Faculty; Dr. Dyckerhoff, a physiological chemist;
+and Dr. Gebhardt, a pharmacologist. The composition of this committee suggests that a number of
+influential faculty members were also SS members.
+There is no record as to whether Rascher was ever
+accepted into the faculty of any university.
+Rascher and his wife were imprisoned by the SS
+in the spring of 1945 for unknown reasons. Rascher
+attempted to escape with two other prisoners but
+was recaptured. In April 1945, Rascher and his wife
+were killed by the SS, two weeks before the Allies
+entered Dachau. The reason for their execution is
+not known. Perhaps Himmler, knowing that the end
+of the war was imminent, wanted to eliminate
+Rascher so he would not testify as a witness against
+him or discuss the various lethal experiments that
+he managed. If this is true, it is indeed ironic that
+Himmler kept copies of all his correspondence concerning the hypothermia experiments. This correspondence was eventually uncovered by the US
+government. The other explanation for Rascher’s
+death may be that Himmler discovered that Rascher
+was falsifying data on another project—which was
+considered a criminal offense. This latter allegation
+has been used to question the accuracy of the hyMilitary Medical Ethics, Volume 2
+448
+pothermia data. However, Rascher did not conduct
+the hypothermia research in isolation nor solely
+publish it, nor is there reason to doubt the accuracy
+of the hypothermia data. The fact of the matter is
+that Rascher was part of an organization, with goals,
+methods, oversight, and reports.
+As in most scientific communities, Weltz’s group,
+of which Rascher was a prominent member, was not
+working in isolation. The use of human subjects in
+the hypothermia experiments was known by other
+German scientists. Dr. Strughold, Professor of
+Physiology, University of Berlin, a colonel in the
+Luftwaffe as well as Director of the Airmedicine
+department, knew about the human experiments
+and stated that although he thought prisoners had
+been used, he disapproved of such experiments in
+nonvolunteers on principle.
+I have always forbidden even the thought of such
+experiments in my Institute, firstly on moral
+grounds and secondly on grounds of medical ethics. Any experiments on humans that we have carried out were performed only on our own staff and
+on students interested in our subject on a strictly
+volunteer basis. 13(p14)
+The question that comes to mind is that if he felt so
+strongly, why did he not protest?
+Even while both sets of experiments (human response to freezing water and evaluation of rewarming techniques) were being conducted, there was
+controversy. Both the quality of the science conducted
+by Weltz on his animal subjects, as well as the appropriateness of the human experimentation were in
+question. Dr. F. Rein, a premier physiologist at University of Goettingen School of Medicine, as well as
+an editor of Physiological Journal, felt that Weltz was
+not properly trained because he was a radiologist. He
+also criticized Lutz, whose experiments he thought
+poorly designed and hence subject to artifact. Rein
+himself was conducting another set of hypothermia
+experiments on animals. Dr. Rein was aware of the
+human experiments and that the main scientist was
+Dr. Rascher, because he had attended some seminars
+on the presentation of the data. He did not like Rascher
+and believed that the human experiments did not
+yield any significant new findings. There are reports
+as well that Italian and Japanese scientists visited
+Dachau,12 including Rascher’s facilities. Whether or
+not the German and Japanese scientists exchanged
+information is not known for certain, although the
+Japanese conducted human experiments concerning the mechanisms of frostbite. 27
+It is apparent from this discussion that although
+the hypothermia experiments were classified as “secret” there were a number of individuals and organizations knowledgeable about their conduct, and
+willing to continue providing funding, materials,
+and subjects for the research.
+THE LEGACY OF DACHAU: THE DATA
+Again, most unethical and illegal research is conducted in such a manner that there is little, if any, evidence left for others to view. In such cases the tragedy of what was done to these unwilling subjects slips
+into unrecorded history. There are no remnants of the
+events to trouble future generations. Had it not been
+for Himmler’s preservation of the Dachau data, the
+tragedy of the exploitation and subsequent deaths of
+prisoners of war for the hypothermia experiments
+would have also eventually faded into the past. The
+hypothermia lab had been completely destroyed before allied troops arrived at the camps. The German
+scientists that Alexander interviewed were aware of
+the seriousness of the unethical experiments as demonstrated by the fact that initially they did not divulge
+any knowledge about the experiments. It was only
+after Himmler’s notes were discovered that they discussed the experiments. Thus what might have been
+relegated to the past instead has remained firmly entrenched in the present. The hypothermia experiments
+and the data that survived are a portal for a discussion of the appropriateness of using unethical data.
+SCIENTIFIC CREDIBILITY AND USE OF THE DACHAU DATA
+Overall, researchers in the field of hypothermia
+have used and referenced the Dachau data since
+its discovery. The American military research community has not, it would appear, ever had much
+doubt about the validity and credibility of the hypothermia data that survived after the end of World
+War II. The research results were used then, and
+even more recently, as the following discussion will
+detail.
+Use of the Dachau Data After World War II
+Immediately after the end of the war, the Dachau
+data were used by American scientists. The hypothermia experiments had bearing in two areas of
+research: (1) hypothermia effects on the entire body
+and (2) hypothermia feasibility in open-heart surgery. Regarding body temperature regulation, there
+were no research data available to American scienNazi Hypothermia Research: Should the Data Be Used?
+449
+tists in the 1940s that documented human response
+to cold water. The human cooling curves from
+Dachau were subsequently compared to data from
+downed US military pilots who were rescued from
+cold water. The nonfatal portion of the Dachau data
+fell within the curves from the US military field
+data, and the data were thus considered similar. 28
+Regarding open heart surgery, there was as yet no
+safe and practical heart-lung machine in the 1950s.
+Surgeons were investigating ways to prolong the
+life of the heart by using hypothermia during surgical procedures. 11
+The Dachau data were referenced in studies of
+temperature regulation11,29–35 as well as in studies
+of the cardiovascular system. 26,35,31,36–39 These references demonstrate that the information gathered
+from the Dachau hypothermia experiments was
+used by scientists who were knowledgeable in the
+areas of temperature regulation and cardiovascular physiology to corroborate their findings.
+More Recent Use of the Dachau Data
+Recently, the question has been raised as to the
+implications of the continued use of the data from the
+hypothermia experiments. 40 Should these data be referenced as they were in the past, should they be
+quietly reviewed in various laboratories, or should
+they just be set aside? Because these data have been
+referenced since World War II, the question of the
+appropriateness of their utilization is designed to
+primarily promote discussion about the use of unethically gathered data in general. To many scientists this question may seem beside the point. The
+common thread throughout the history of science has
+been the production and analysis of data. Regardless
+of the motivation, the data gathered are the culmination of scientific inquiry. The analysis and interpretation of the data may vary but the data stand.
+From a military point of view, utility of data can
+be viewed from a very practical viewpoint: Will it help
+the troops? Will it help win the war? These questions highlight the importance of scientific inquiry,
+data acquisition, and ethics. If data were unethically
+gathered but valid then the argument is much different than if data were found to be erroneous.
+Were the Dachau data debunked or severely questioned? Berger evaluates the hypothermia experiments and maintains that the experimental design was
+poor, the data were shoddy, and that the investigator—Rascher—was a murderer, so most of his work
+could not be trusted. 26,41 Although Rascher was not considered a trained scientist, the presence of Holzloehner
+and Finke established the scientific credibility of the
+team. (The report submitted to Himmler listed
+Holzloehner as the main author,13 indicating that
+Holzloehner had a significant role in the experiments.)
+Rascher was not the original proponent of these experiments; furthermore, he was aided by some very
+well-trained scientists. The information from these
+experiments was presented at different times to the
+Luftwaffe and Wehrmach doctors by Holzloehner. 42
+These data were presented during wartime, as an
+important part of the war effort, and as such had to
+be considered accurate. It would seem reasonable to
+conclude that the Nazis considered the data valid.
+What was the American view of the validity of
+the Dachau data? Andrew Ivy, a physiologist from
+the University of Chicago, was the American scientist who evaluated the data for the Nuremberg trials. In his introduction to Doctors of Infamy, Ivy asks:
+“Were the criminal medical experiments carried out
+in Nazi Germany of any real scientific value? As a
+matter of fact, they were not.”21(pxi) He then goes on
+to say, “So the greatest of all medical tragedies was
+further magnified by the fact that the experiments
+performed added nothing of significance to medical knowledge.”21(pxiii) However, in 1947, Ivy stated
+“that some of the data were obviously good.”43 In
+1954, Ivy wrote to J. Nestor, a pediatric cardiologist
+in the United States, that the Nazi studies had
+“some very worthwhile results” in that he felt the
+Nazis had studied, quite carefully, the effect of cooling on human beings. As he wrote to Nestor, “I had
+hoped at the time to collect all the worthwhile results and have them published.”44 Ivy’s turnabout
+on this issue is interesting, but more importantly
+he did consider some aspects of the data accurate.
+Were the data valueless? The evolution of the hypothermia experiments in Germany, as presented,
+demonstrates that the experiments were not a trivial
+exercise. This was a critical time for Nazi Germany
+as it fought for its existence. World War II was raging as these experiments were being conducted. For
+the German scientists to answer all the questions
+that are in the report by Holzloehner, Finke, and
+Rascher in such a short period of time demonstrates
+their sense of the urgency of the situation. These
+investigators were able to meet the standards of the
+time in terms of scientific reporting. In a wartime
+situation, minimal information is all that is required.
+If resources are available, a year’s solid study would
+be shortened to a couple of months.
+Some of the initial observations gathered in
+Dachau have been replicated using ethical research
+methods. For instance, researchers recently duplicated one of the more controversial methods of rewarming, the body-to-body rewarming experiments. 25 The scientists stated that they were aware
+of the body-to-body rewarming studies in Dachau
+Military Medical Ethics, Volume 2
+450
+but “these studies were grossly unethical and the
+results are considered invalid and unusable because
+of the emaciated condition of the subjects as well
+as questions regarding the protocol and accuracy
+of results.”25(p2373) In the recent set of experiments
+the core temperature was not allowed to drop as
+low as in the Dachau study, and there were appropriate safeguards. After conducting their experiments, these scientists corroborated the observations of Rascher that body-to-body rewarming is not
+an effective way to rewarm subjects.
+The Dachau data suggested that ethanol ingestion did not affect the cooling rate of subjects. Their
+point was later substantiated in a study in which
+low concentrations of ingested ethanol (in range of
+legal impairment 80% to 100% or less) did not affect the cooling rate of their subjects. 39 In the study,
+the drop in core temperature was not as low as in
+the Nazi studies and the conditions of the subjects
+were well known.
+Furthermore, it is inappropriate to evaluate the
+Dachau hypothermia data using today’s standards.
+Scientific reporting in 1942 met a different standard
+of acceptability. For example, the use of statistics to
+substantiate the “significance” of experimental data
+did not occur until after World War II. In many articles at that time, case histories or studies of small
+numbers of subjects were considered appropriate.
+From this brief review of the use of the Nazi data
+after World War II, it is apparent that the data were
+of value to understanding the mechanisms of hypothermia, as well as to the use of hypothermia as
+an adjunct to open-heart surgery. Overall, from a
+utilitarian point of view, the data may have had
+value for designing hypothermia protection suits,
+for cardiac bypass surgery, and so forth. Does the
+data’s usefulness override the unethical means that
+were used to gather it? Indeed, if one is aware of
+the origin of the Dachau data, it is impossible not to
+visualize the emaciated subjects in the vat of iced
+water, attached to monitoring equipment, surrounded
+by a group of scientists with their assistants and
+cameras to document what would be a slow but
+painful death for unknown numbers of these prisoners. Although the Dachau data were useful in the
+period after World War II, should the data have been
+used? That is the issue that must be addressed.
+The relatives of those who were in Dachau, as
+well as some of the survivors themselves, are conflicted about this issue. Relatives are angered by
+questions about the validity of the data and concerned that its continued use is an expression of
+support for the Nazi philosophy that targeted certain groups for extermination. Interestingly, a small
+number of Dachau survivors feel that the use of the
+data is permissible. 45 To put the question of the use
+of the Dachau data in a modern perspective, consider the following example.
+A Futuristic Scenario: Can It Happen Again?
+It is not inconceivable that in the future military
+scientists may face the following scenario. Imagine
+a totalitarian regime in which certain groups are
+considered expendable, and in which nationalism
+is the major thread that keeps the country together.
+In this hypothetical country, the research arm of the
+dictatorial government decides to develop biochemical agents for offensive purposes. However,
+to test antidotes for these agents, it uses animals
+and prisoners sentenced to death to understand the
+cause of death induced by these agents. This scenario is not improbable because the Japanese during World War II used human subjects to develop
+methods of spreading the plague and anthrax (as
+discussed in detail in Chapter 16 in this volume).
+In this scenario, a report, “The Effectiveness of
+Various Agents on Counteracting the Effects of
+Nerve Agents on Humans,” is generated. The scientists who conducted these experiments were
+trained at universities in the United States and Europe and have access to the latest information by
+way of scientific meetings and the Internet. They
+rationalize that the prisoners who were used in
+these lethal experiments were destined to die and
+they, as scientists, are conducting these experiments
+to protect the sovereignty of their nation. As an
+American military medical officer, you are given a
+copy of this top secret report in which you notice
+that 20 people were killed. The data look reliable.
+Fig. 15-1. Nazi approach to hypothermia research. The figure demonstrates the steps used by the Nazi scientists to
+arrive at an understanding of human response to a lethal drop in core temperature (eg, severe hypothermia). Most of
+the insight into the physiology of thermal-regulation in a cold environment was initially arrived at by studying
+results from animal experiments. It is easy to imagine the same step-by-step process being used in the unethical
+generation of data using fatal human experimentation. Data source: a, b, & c: Alexander L. The Treatment of Shock
+From Prolonged Exposure to Cold Especially in Water. Washington, DC: Office of Publication Board, Department of
+Commerce; 1946. Report #250.
+Nazi Hypothermia Research: Should the Data Be Used?
+451
+Rektum
+Hard
+40
+30
+20
+10
+°C
+Auskühlung
+Spontane Wiedererwärmung
+ohne Narkose
+Schwein
+32. 5 kg
+2
+3
+4
+Std
+0
+0
+1
+1
+
+37°
+36°
+35°
+34°
+33°
+32°
+31°
+30°
+29°
+28°
+27°
+26°
+25°
+24°
+23°
+22°
+21°
+20°
+170
+160
+150
+140
+130
+120
+110
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+0'
+10'
+20'
+30'
+40'
+50'
+60'
+70'
+80'
+40
+35
+30
+25
+20
+15
+10
+5
+0
+Temp, Puls u. Atmung bei Exitus.
+Wassertemperatur 4,5°C.
+Versuch XXV.
+– Tempertur
+– Puls regulâr
+– Puls irregulâr
+– Atmung
+Atmung
+Puls
+Temperatur
+(Animal Experiments)
+(Human Experiments)
+53'
+Eintritt
+des
+Todes
+66'
+65'
+74'
+100'
+87'
+65'
+27. 7°
+26. 7°
+27. 8°
+27. 8°
+28. 7°
+29. 2°
+27. 8°
+25. 9°
+26. 6°
+25. 7°
+27. 5°
+27. 7°
+29. 2°
+26°
+5
+13
+14
+16
+23
+25
+Versuch Nr.
+5. 2°
+6°
+4°
+4°
+4. 5°
+4. 5°
+4. 2°
+Wassertemperatur
+53'
+51'
+57'
+66'
+80'
+60'
+98'
+Verweildauer
+in
+Wasser
+Körpertemperatur
+bahn Eintritt des
+Todes
+Körpertemperatur
+bei Entfernung
+im dem Wasser
+Exitus
+(Death)
+37°
+27°
+core temperature
+Time
+Human Cooling Curve
+Death
+Dachau
+Experiments
+a
+b
+c
+d
+survival
+studies
+Military Medical Ethics, Volume 2
+452
+What should be done with the report? (Figure 15-1
+presents the generation of Nazi data and posits the
+generation of this modern hypothetical data.)
+Volumes could be written on the complexity of
+using valid scientific data gathered by unethical
+means. That question, however, raises another more
+complex question: What is the purpose of scientific
+medical inquiry and how does it relate to ethics in
+peacetime and in war? The ultimate purpose of this
+inquiry is to advance the well-being of mankind.
+Usually scientific inquiry is expressed best by the
+collection, analysis, and presentation of data for
+scientific review and critique. It is important to realize that the pursuit of knowledge is valuable but
+it cannot be a goal unto itself. “Because science is
+not the highest value…all particular values should
+be subordinated. Science itself therefore as well as
+its research and acquisitions must be inserted in the
+order of values.”46(p66)
+An elegant quote from C.R. Honig, a professor
+of physiology, succinctly states what should be the
+standard for scientific inquiry.
+The quality and heuristic value of research on human subjects depends on the ethical as well as technical qualification of the investigators and on the
+ethical principles set by society. Conditions in a
+concentration camp preclude science as we understand it. Indeed experiments conducted anywhere
+within an amoral society are suspect. 47
+This statement from a leader in the field of physiology sets a very high standard for the conduct of
+scientific inquiry, but it is an erroneous one. Bad
+ethics and bad science do not go hand-in-hand. 48
+Unethically conducted research may be scientifically sound. 48 Thus a scientist may be an unethical
+person but still conduct scientifically sound research.
+The examples are many, but possibly the example of
+“Operation Paperclip,” an American-government
+sponsored operation, which brought German scientists who may have been involved in unethical
+lethal experiments to the United States, best illustrates this. 49 These German scientists were needed
+to assist postwar America in its arms race against
+the former Soviet Union. Despite their unsavory
+reputations, they were given positions of authority
+in the United States due to their scientific expertise.
+Another example of the complicated relationship
+between a person’s ethics and scientific work is that
+of Dr. Klaus Schilling, who, at the age of 71, conducted experiments on Dachau prisoners. He was
+considered a world leader in malaria research and
+was interested in using a mild strain of benign tertian malaria, which would more than likely be nonfatal to healthy subjects. Nevertheless, many “subjects” died as a result of his experiments. Why was
+such a prestigious scientist as Dr. Schilling—for
+whom the Schilling test is named—doing research
+in Dachau? What would motivate such a person?
+And, because of his research in Dachau, what
+should become of his previous work? Should it be
+thrown out? The military court that tried Dr.
+Schilling, and 39 other defendants at Dachau, took
+the view that “although Dr. Schilling’s motive may
+have been sincere and purely a scientific one,” his
+activities exemplified the Nazi schema that existed
+in Dachau. 50 The court’s view, however, seems very
+contradictory. How could Schilling’s motives have
+been sincere when his activities resulted in the death
+of subjects? More important, the statement that his
+work was “purely scientific” demonstrates how the
+court wanted to separate ethics from science. Dr.
+Schilling was subsequently hanged at Dachau for his
+activities there, along with 27 of his co-defendants.
+The relationship between ethics and science has
+been addressed by scientist Jay Gould, in his book
+Rock of Ages. In his introductory comments he makes
+the following two points:51
+(1)
+Science and religion cannot be unified under any common scheme of explanation or
+analysis.
+(2)
+Science and religion should not experience
+any conflict.
+What Gould is suggesting with these two points,
+which appear contradictory, is that science and religion should be two separate spheres, neither one
+influencing the other, and neither one interfering
+with the other. Concerning the ethics of the scientist, he asserts that a scientist must operate with
+ethical principles but the validity of these principles
+can never be inferred from the factual discoveries
+of science. Gould argues that there is, therefore, a
+false conflict between science and religion. 51 The
+real world, however, presents a more complex view
+than the one he espouses. Exhibit 15-2 discusses
+various views of the relationships between ethics,
+scientific inquiry, and national survival.
+What is the best safeguard against a country repeating the unethical, heinous experiments of Nazi
+Germany? It will be impossible to monitor every
+scientist. There will also be scientists who will approach science with such fervor that it will lead to
+a repeat of the Nazi philosophy. As long as there is
+a disregard for the sanctity of each individual, there
+will be excesses. For instance, recently organs were
+taken from dead children without their parents’
+Nazi Hypothermia Research: Should the Data Be Used?
+453
+consent at an English hospital. The chairman of the
+committee that studied this “organ stripping” scandal succinctly stated the case: “The past has been
+characterized by a type of professional arrogance—
+an arrogance born of indifference.”52 As long as
+there is not equal respect for all individuals and
+groups in a society, and general consensus of all
+parties involved, unethical research will continue.
+In addition, the question of what is appropriate
+ethics has become very complicated in American
+society. For instance, how does a professor who
+believes that abortion is a moral wrong evaluate the
+research of a colleague who believes the opposite?
+There are scientists who may have an unethical aspect to their personal lives but are recognized experts in their scientific field. What motivates welltrained educated persons to commit atrocities in the
+name of science? The answer is that it is more than
+just a personal flaw that contributes to unethical
+research. The University of Pennsylvania faced this
+difficult question in 1999 when some of its medical
+faculty reportedly misled a patient and his family
+EXHIBIT 15-2
+CONDUCTING APPROPRIATE RESEARCH
+Scientific inquiry does not, and should not, occur within a vacuum, isolated from the world it should serve.
+This world to be served can take several forms: ideal, real, and national crisis. What happens as one moves
+from the ideal world to the real world, to the very changed world that occurs during a national crisis? The
+ideal world can serve as a barometer for the real world in which scientific inquiry, ethics, and national security
+should balance each other, knowing that this balance can never be completely achieved, but striving for the
+better nonetheless. The real world sets the stage for the national crisis world in that it is the world from which
+one launches into oppressive programs deemed necessary for survival.
+The constricted world of the national crisis is one in which ethics are most often challenged. The Chief Justice
+of the United States Supreme Court, William H. Rehnquist, noted that during a national crisis, the law is bent
+in the favor of the government. “One is reminded of the Latin maxim, ‘inter arma silent leges.’ In time of war,
+the laws are silent.”1 This speaks of the necessity of governmental dominance over civil rights during a national crisis. He goes on to say that “demands of war have outweighed the commitment of civil liberties at
+least while the conflict is underway.”1
+This is not to imply, however, that the Nazis did what they did simply because they were at war. Their society
+had been socialized or conditioned so that racism was tolerated and various groups were demeaned. The
+social solutions the Nazis arrived at were based on this philosophy that a number of scientists and military
+personnel supported. They did what they did because their underlying values, when confronted with the
+realities of wartime, allowed and even encouraged these behaviors.
+Presently, the United States is at war with an elusive enemy. The threat of additional attacks is very real, but
+the targets and methods remain unknown. The attacks could be with a chemical, biological, nuclear, or even
+conventional weapon. The targets could be buildings, landmarks, infrastructure, or other systems deemed
+target worthy. The US response to this current threat has been to institute a number of safeguards to attempt to
+thwart these attacks. Only later will it become apparent whether in this time of national crisis the United
+States was able to retain its ethical bearings while under attack.
+The ideal world, then, is that in which the three schools of thought are separate. However, a scientist is guided
+by his ethics as well as his political philosophy. A scientist brings to his work his ethical background, possible
+business ventures that are a spin-offs of patents, copyrights, and so forth. Politically the scientist will be influenced by his own leanings as well as the external environment. If the government funds research in a certain
+area, many scientists will move into that area because funding is available.
+In the real world, however, the possible interrelationships between national survival, scientific inquiry, and
+ethics “tighten” or “contract” during a national crisis. In this theoretical crisis situation, national survival will
+take priority and will call upon scientific expertise to win the war. During such a time the scientist employed
+by the government may face ethical dilemmas while working to promote national security. It is important that
+the scientist remember that the term “bioethics” means that the sciences considered under the umbrella of
+biology must not only be ethically conducted, but that ethics and science are not separate.
+Source: (1) Savage DG. Historically, laws bend in time of war, Rehnquist says. Los Angeles Times. June 15, 2002;A22.
+Military Medical Ethics, Volume 2
+454
+about the negative aspects of gene therapy, resulting in the death of the patient. 53 The motivation for
+this experiment might well have been to gain the
+status of being the first to evaluate a new clinical
+treatment or perhaps getting the necessary data to
+start a new gene therapy program. 54,55 In another
+example, from 1986 to 1990, 3,000 low-income pregnant women in Florida participated in an experimental program. These women were not told of the
+risks, benefits, or medical alternatives to the program. The University of South Florida and Tampa
+General Hospital agreed to jointly pay $3,800,000
+to settle the class-action suit filed on behalf of these
+uninformed women. 56
+There is no question that the kinds of experiments that a scientist pursues will be influenced by
+his personal ethical view. The current controversy
+regarding human cloning emphasizes this point.
+The question about human cloning is not whether
+the science is sound, but whether a society should
+have human clones. In this argument, the ethical
+standard of the scientist is important. Dr. Richard
+Seed, a Chicago scientist who is advocating these
+cloning studies, states the following:
+I have said it many times, you can’t stop science.
+In this particular case, we plan to organize an alternative international location [to conduct cloning experiments]. 57
+Later in the same interview he states:
+God made man in his own image. God intended
+for man to become one with God. We are going to
+become one with God. We are going to have almost
+as much knowledge and almost as much power as
+God. Cloning and the reprogramming of DNA
+[deoxyribonucleic acid] is the first serious step in
+becoming God. Very simple philosophy. 57
+Is his philosophy about man unethical? Or is he
+reflecting a segment of modern society? What kind
+of experiments will he conduct based on his philosophy? If scientists pursue research for its own
+sake, without some ethical considerations, what is
+to stop them from exploiting human subjects or
+clones to advance their understanding? Ethics
+seems to be the only guidepost for scientists. However, depending on one’s ethical standard, it is possible that certain areas of research may not be supported. Does the United States as a society want to
+stop research altogether in the areas of gene therapy,
+gene manipulation, and cloning and all their associated positive spin-offs? Of course not. The excesses of unethical scientists should not be used as
+an argument against any and all research. Scientific
+inquiry has greatly improved the quality of most
+lives and most cultures. Vaccines against diseases,
+new technology to gain insight into the functioning of the human body, new drugs to alleviate various psychiatric diseases, and so forth, have all been
+the result of dedicated men and women working
+on various biomedical research questions.
+THE ENDURING LEGACY OF THE DACHAU EXPERIMENTS
+The real legacy of the inhumane experiments of
+Dachau is a heightened awareness of the roles of
+science and medicine in society, especially during
+periods of national security threats. It is important
+to understand the degree to which scientists may
+be motivated by intense patriotism, and how this
+emotion can influence their decisions. During the
+Persian Gulf War, for instance, I was part of a Navysponsored research team that evaluated the human
+performance of Navy and Marine subjects wearing
+chemical defense ensembles and microclimate cooling systems. All subjects signed human subject release forms. Each subject wore a protective suit that
+enclosed his entire body. Underneath this ensemble
+he wore his “flak” jacket. In addition they carried
+70 pounds on their backs plus their rifles. They
+walked at 3. 5 mph in a room that was set at 120°F
+and 10% humidity to match the desert environment.
+We evaluated the efficacy of various cooling devices
+that the men might use in the desert battlefield.
+Physiological measurement of skin and core temperature, heart rate, and blood pressure were collected. The experiments were stopped either when
+the subjects requested it or when certain predetermined physiological points were reached. None of
+the subjects experienced any negative reactions.
+It was very easy to become caught up in the intensity and necessity of the research program: This was
+no academic experiment. These men were going to
+war and we were part of a national effort to protect
+them from chemical weapons that Iraq reportedly
+held. In the midst of the research effort, the old expression that “desperate times call for desperate measures” came to mind. I was especially impressed by
+my own urge to do as much as possible for the future
+safety of the troops in the theater of operations.
+Thus it would be a fallacy to consider the extreme
+unethical behavior of Nazi scientists and physicians
+to be a unique historical occasion, which therefore
+could not recur. The fact that national emergencies
+will arise from time to time is inescapable. For military scientists who will be faced with similar situations in the future, consider this question from Jay
+Katz: “How much harm can be inflicted on human
+Nazi Hypothermia Research: Should the Data Be Used?
+455
+subjects of research for the sake of medical progress
+and national survival?”58
+The following quote elegantly states the case:
+These (Dachau) experiments happened because
+science rationally devalued human beings to the
+point where their only value was as physiological
+or anatomical specimens. Suffering and death were
+not considered because the subjects’ lives were
+defined as useless.
+Tragically, medicine has a history of racism and
+tolerance of inequality. The evils of the Nazi period became possible because of the professional
+and scientific acceptance and institutionalization
+of inequality. When human beings are given differential value then we are all vulnerable. The
+Dachau data is [sic] really irrelevant. What is relevant is medicine and science’s placing differential value on human life. If we permit the continued acceptance of the consequences of that evil,
+then we are all at risk. 59
+CONCLUSION
+Nothing can be more challenging than attempting to reconcile the needs of a nation during wartime with the personal rights of its citizens. The
+concept that individuals have inviolate rights is
+rather new in the history of mankind. Although
+many organizations espouse individual rights and
+dignity, nevertheless racism, sexism, and bigotry of
+all kinds are found in every country. In a military
+situation, the rights of servicemen must be subordinated to the effectiveness of the military effort. Even
+in this environment, however, the military and government cannot completely abandon the freedoms
+that make a country worth defending. Likewise, scientific research during military crisis must be conducted in an atmosphere of moral values that acknowledge the dignity of each individual. An eloquent
+quote from Han Jonas, a German Jew who fled the
+Nazis and sought to build the foundation of an ethics
+for the technological ages, states the case:
+Let us not forget that progress is an optional goal,
+not an uncompromising commitment. A slower
+progress in the conquest of disease would not
+threaten society, grievous as it is to those who have
+to deplore that their particular disease be not yet
+conquered, but that society would indeed be threatened by the erosion of those moral values whose
+loss possibly caused by too ruthless a pursuit of
+scientific progress, would make its most dazzling
+triumphs not worth having. 60
+To use the Dachau data reinforces the Nazi philosophy that there is a differential value amongst
+human beings. These data should not be used as
+any kind of scientific benchmark because this use
+would imply that the human subjects who were
+killed were only used as physiological entities, not
+human beings.
+What about the future? The legacy of Nazi-sponsored research is to continually remind us that the
+global community has a long way to go to achieve
+a genuine respect for individual rights. The establishment of minority programs, women’s programs,
+and the like in this country to achieve some equity
+for these groups was based on the fact that various
+groups had been systematically excluded from
+mainstream society.
+A scientist brings to his inquiry his ethics, culture, and scientific curiosity. To attempt to exclude
+his ethics and culture from the research would result in unfeeling and unthinking robots that generate data without considering the consequences. To
+paraphrase Cardinal Newman, “The test of science
+lies not in what people discover, but in what they
+are.”
+For the future, military scientists must be on the
+alert for potential areas of research that demand a
+“quick fix” during a national crisis. To use data
+gathered from any unethical situation will continue
+to emphasize the differential value of human life. The
+acceptance of this fact will lead to a data-demanding,
+amoral society that will threaten moral culture and
+make all people vulnerable. For the military scientist and officer, the perspective of an officer after
+the 1991 Iraqi War is germane. In an article titled
+“Overwhelming Force: What Happened in the Final Days of the Gulf War?,” Seymour Hersch presents his perspective on the events and subsequent
+inquiry dealing with the deaths of Iraqi soldiers
+after the truce. 61 James Manchester, who had
+“described…an incident in which both Iraqi prisoners and his Scout platoon had been fired upon
+by fellow-soldiers in a battalion task force,”62(p82)
+offers a general statement that should be remembered as an admonition to military officers and scientists: “There [have]…to be limits, even in war.
+Otherwise the whole system [society] breaks
+down.”62(p82) This can be summarized, as Moe did
+so eloquently: “Knowledge, although important,
+may be less important to a decent society than the
+way it was obtained.”63(p7)
+Military Medical Ethics, Volume 2
+456
+REFERENCES
+1.
+Stein S, trans. Partial translation of document 1602-PS. Letter from Dr. Rascher to Himmler requesting use of
+prisoners for high altitude experiments. Source: Nazi Conspiracy and Aggression, Vol. 4. Washington, DC: US
+GPO; 1946.
+2.
+Stein S, trans. Translation of document 1617-PS. Letter from Himmler to General Field Marshal Milch concerning transfer of Dr. Rascher to the Waffen-SS. Source: Nazi Conspiracy and Aggression, Vol. 4. Washington, DC: US
+GPO; 1946.
+3.
+Welsome E. The Plutonium Files: America’s Secret Medical Experiments in the Cold War. New York: Random House; 1999.
+4.
+Deighton L. Blood, Tears, and Folly: An Objective Look at World War II. New York: Harper Collins; 1993.
+5.
+Paton B. Cold, casualties, and conquests: The effects of cold on warfare. In: Pozos RS, ed. Section II: Cold Environments. In: Pandolf KB, Burr RE eds. Medical Aspects of Harsh Environments. In: Textbooks of Military Medicine.
+Washington, DC: Office of The Surgeon General, US Department of the Army and Borden Institute; 2001: 311–349.
+6.
+Webster AP, Reynolds OE. High altitude, high velocity flying with special reference to the human factors. J
+Aviation Med. 1950;21(3):237–245.
+7.
+Webster AP, Reynolds OE. Time of Consciousness During Exposure to Various Pressure Altitudes. Bureau of Medicine and Surgery. Navy Department. 7 August 1946.
+8.
+Trials of War Criminals Before the Nuremberg Military Tribunal. Part 3. London: His Majesty’s Stationery Office; 1946.
+9.
+Trials of War Criminals Before the Nuremberg Military Tribunals Under Control Council Law No. 10. Vol 1. 1949: 197–278.
+10.
+Katz J. Experimentation With Human Beings. New York: Russell Sage Foundation; 1979: 733–734.
+11
+Golden FStC. Physiological Changes in Immersion Hypothermia With Special Reference to Factors Which May Be Responsible for Death in the Early Rewarming Phase [dissertation]. Leeds, England: University of Leeds; 1979.
+12.
+Berben P. Dachau: The Official History 1933–1945. London: Norfolk Press; 1968.
+13.
+Alexander L. The Treatment of Shock From Prolonged Exposure to Cold Especially in Water. Washington, DC: Office
+of Publication Board, Department of Commerce; 1946. Report #250.
+14.
+Alexander L. Medical science under dictatorship. N Engl J Med. 1949;241(2):39–47.
+15.
+Alexander L. Methods of Influencing International Scientific Meetings As Laid Down by German Scientific Organizations. Washington DC: Office of the Publication Board, Department of Commerce. Report 522. [no date; circa 1947.]
+16.
+Caplan AL. How did medicine go so wrong. In: Caplan AL, ed. When Medicine Went Mad: Bioethics and the
+Holocaust. Totowa, NJ: Humana Press; 1992: 53–92.
+17.
+The Trial of the German Major War Criminals (Part 22). 22nd of August 1946 to 30th September 1946. Nuremberg
+Trials.
+18.
+Weltz GA, Wendt HJJ, Ruffin H. Erwarmung nach lebenbedrohender Abjuhlung, Munchener medizinisxche
+Wochenschrift. Nr. 52: 1092.
+19.
+Medical Advisor for Submarines. Published from German Naval Supreme Command. Berlin 1944. BundesarchivMilitaerarchiv. Freiberg RMD 8/276.
+20.
+Proctor RN. Racial Hygiene: Medicine Under the Nazis. Cambridge, Mass: Harvard University Press; 1988.
+21.
+Mitscherlich A, Mielke F. Doctors of Infamy: The Story of the Nazi Medical Crimes. New York: Henry Schuman; 1949.
+Nazi Hypothermia Research: Should the Data Be Used?
+457
+22.
+Hegnauer AH. Lethal hypothermic temperature for dog and man. Ann NY Acad Sci. 1959;80:315–319.
+23.
+Bangs CC. Treating hypothermia. In: Wilkerson JA, ed. Hypothermia, Frostbite and Other Cold Injuries. Seattle,
+Wash: Mountaineers; 1986: 54–56.
+24.
+Collis, ML. Treatment of the hypothermic victim. In: Greene B, ed. Cold Water Symposium. Toronto: Royal Life
+Saving Society of Canada; 1976: 31–32.
+25.
+Giesbrecht GG, Sessler DI, Mekjavic IB, Schroeder M, Bristow GK. Treatment of mild immersion hypothermia
+by direct body-to-body contact. J Appl Physiol. 1994;76(6):2373–2379.
+26.
+Berger RL. Nazi science. In: Caplan AL, ed. When Medicine Went Mad: Bioethics and the Holocaust. Totowa, NJ:
+Humana Press; 1992: 109–133.
+27.
+Thompson AT. Report on Japanese Biological Warfare (BW) Activities, 31 May 1946. Army Service Forces. Camp
+Detrick, Frederick, Md: 2. 4-6. Fort Detrick Library Archives.
+28.
+Molnar GW. Survival of hypothermia by men immersed in the ocean. JAMA. 1946(Jan 27);131:1046–1050.
+29.
+Harrington LP. The range of physiological response to climatic heat and cold. In: Newburgh LH, ed. Physiology
+of Heat Regulation and the Science of Clothing. New York: Hafner Publishing; 1968: 262–275.
+30.
+Adolph EF, Molnar GW. Article on temperature regulation [title not available]. Am J Physiol. 1946;146:507–537.
+31.
+Burton AC, Otto GE. Man in a Cold Environment: Physiological and Pathological Effects of Exposure to Low Temperatures. New York: Hafner Publishing; 1969.
+32.
+Covino BG. Some observations on ventricular fibrillation in acute hypothermia. In: Irene M, ed. Cold Injury.
+New York: Ferrar; 1958: 135–159.
+33.
+Felix R, Rosenhain KE, Penrod KE. Blood gas studies in hypothermic dogs. Am J Physiol. 1951;166:55–61.
+34.
+Steinman AM, Hayward JS. Cold water immersion. In: Auerback PS, Geehr EC, eds. Management and Wilderness
+and Environmental Emergencies. St. Louis, Mo: Mosby; 1989: 77–100.
+35.
+Wayburn E. Immersion hypothermia. Arch Intern Med. 1947;79:77–91.
+36.
+Molar AC. Survival of hypothermia by men immersed in the ocean. JAMA. 1946;131:1046–1051.
+37.
+Bigelow WG, Lindsay WK, Greenwood WF. Hypothermia: Its possible role in cardiac surgery: An investigation
+of factors governing survival in dogs at low body temperature. Ann Surg. 1950;132(5):849–866.
+38.
+Hegnauer AH, Flynn J, D’Amato H. Cardiac physiology in dogs during rewarming during deep hypothermia.
+Am J Physiol. 1951;167:69–71.
+39.
+Fox GR, Hayward JS, Hobson GN. Effect of alcohol on thermal balance of man in cold water. Can J Physiol
+Pharmacol. 1979;57:860–865.
+40.
+Pozos RS. Scientific inquiry and ethics: The Dachau data. In Caplan AL, ed. When Medicine Went Mad: Bioethics
+and the Holocaust. Totowa, NJ: Humana Press; 1992: 95–108.
+41.
+Berger RL. Nazi science: The Dachau hypothermia experiments. N Engl J Med. 1990;322(20):1435–1440.
+42.
+Beecher HK. Ethics and clinical research. N Engl J Med. 1966;274(24):1354–1360.
+43.
+Ivy AC. Nazi war crimes of a medical nature. Fed Bull. 1947;33:133–147.
+44.
+Letter to JO Nestor, MD from AC Ivy, PhD, MD, University of Illinois, 1954.
+Military Medical Ethics, Volume 2
+458
+45.
+Letter to RS Pozos from HK Beecher, author of Experimentation in Man. Springfield, Ill: Charles C Thomas; 1965.
+46.
+Pope Pius XII. The moral limits of medical research and treatment. In: Beecher HK, Experimentation in Man.
+Springfield, Ill: Charles C Thomas; 1965.
+47.
+Letter to RS Pozos from CR Honig, Professor of Physiology, University of Rochester, August 1988.
+48.
+Angell M. The Nazi hypothermia experiments and unethical research today [editorial]. N Engl J Med.
+1990;322(20):1462–1464.
+49.
+Bower T. The Paperclip Conspiracy: The Hunt for the Nazi Scientists. Boston: Little Brown & Company; 1987.
+50.
+Mellanby K. Human Guinea Pigs. London: Merlin Press; 1973.
+51.
+Gould SJ. Rock of Ages: Science and Religion in the Fullness of Life. New York: Ballantine Publishing Group; 1999.
+52.
+Professor Ian Kennedy. As quoted in: Doctors “arrogant” over organ stripping. BBC News Health Section,
+Wednesday, 10 May 2000. Available at: http://news.bbc.co.uk/2/hi/health/743221.stm; accessed 25 July 2002.
+53.
+Stolberg SG. Scientists defend suspended gene therapy. New York Times (on the web). 15 February 2000.
+54.
+Recer P. Accusations in gene therapy death. Available at: http://home.earthlink.net/~exonews/genetics/
+gene_therapy_death.htm. Accessed 17 July 2002.
+55.
+Stolberg SG. FDA officials fault Penn team in gene therapy death. 9 December 1999. Available at: http://
+www.humangenetherapy.com/french/history/fda.pdf. Accessed 17 July 2002.
+56.
+Associated Press, The San Diego Union Tribune, 12 March 2000.
+57.
+Richard Seed. (Chicago scientist). Interview with National Public Radio, 6 January 1998.
+58.
+From comments made by Jay Katz at a symposium commemorating the 50th anniversary of the Nuremberg
+Doctors Trial. Washington, DC: United States National Holocaust Memorial Museum; 1996.
+59.
+Letter to RS Pozos from WE Seidelman, MD, Associate Professor, Department of Family Medicine, McMaster
+University, 28 June 1989.
+60.
+Jonas H. The Imperative of Responsibility: In Search of an Ethics for a Technological Age. Chicago: University of
+Chicago Press; 1984.
+61.
+Hersch S. Annals of war: Overwhelming force: What happened in the final days of the Gulf War? The New
+Yorker. 22 May 2000;49–82.
+62.
+Manchester J. Quoted in: Hersch S. Annals of war: Overwhelming force: What happened in the final days of the
+Gulf War? The New Yorker. 22 May 2000;49–82.
+63.
+Moe K. Should the Nazi research data be cited? Hastings Cent Rep. 1984;14(6):5–7.
+Nazi Hypothermia Research: Should the Data Be Used?
+459
+Chapter 15: ATTACHMENT
+DISCOVERY OF THE DACHAU DATA
+Within the thousands of items that were part of the Nuremberg Doctors Trial is a fascinating document, the “Alexander
+Report,” that details how Major Leo Alexander, Medical Corps, United States Army, uncovered the data pertaining to
+the experiments at Dachau. Had it not been for the persistence and thoroughness of Dr. Alexander and his team, it is
+likely that the Dachau experiments would not have been fully disclosed or prosecuted. This attachment lists the
+chronology of Dr. Alexander’s discovery process over a period of approximately 3 weeks, as recounted in Alexander
+L. The Treatment of Shock From Prolonged Exposure to Cold Especially in Water. Washington, DC: Office of Publication
+Board, Department of Commerce; 1946. Report #250.
+•
+(No date given.) Interview of Dr. Weltz (Munich) pertaining to his studies dealing with cold (motivated by
+the Battle of Britain), as well as his guinea pig studies on hypothermia. Dr. Alexander learned that studies
+were also conducted by Wolfgang Von Werz, assisted by Ms. Gertrud Schumacher, to determine whether
+anoxia and hypothermia shared common mechanisms. (Dr. Alexander had seen a water color painted by Dr.
+Von Werz, which depicted the physical circumstances under which these experiments had been performed,
+hanging in a small room in the institute. This observation appears to have reinforced his suspicion that
+human experiments had occurred.)
+•
+5 June and 6 June 1945. Interview of Dr. Lutz, during which Dr. Alexander was shown devices for cooling
+animals, followed by a lengthy discussion concerning how to minimize rewarming death by using high
+levels of oxygen. During these conversations Dr. Lutz stated that he knew of no experimental studies on
+humans in which the application of his animal studies had been applied. Dr. Lutz stated that Dr. Weltz had
+made a suggestion to the Luftwaffe and the German Navy to use rapid rewarming for emergency resuscitation of the hypothermic person. Dr. Lutz wanted to see if artificial respiration could prevent rewarming
+death. He did not have experimental human data but had large animal data, specifically that from adult
+pigs. Dr. Alexander wanted to go to the site where the pig research was conducted. He was told that it was
+far away (6 miles); he responded that it wasn’t far by Jeep.
+•
+(No date given.) Drs. Alexander, Lutz, and Weltz go to Gut Hirschau, a government-owned experimental
+agricultural station, where library facilities, x-ray, and ample rooms for study were available. There was no
+equipment available for large animal studies as there was for small animal studies in Weltz’s facility. After
+repeated inquiries from Dr. Alexander about seeing the equipment and procrastination by Drs. Weltz and
+Lutz, Dr. Alexander was shown some partly cracked wooden tubs in a shed behind the stable. Drs. Lutz and
+Weltz stated that after the experiments, the equipment was partly disposed of, used elsewhere, or thrown
+away. After Drs. Alexander, Lutz, and Weltz returned from the pig shed, they were joined by Drs. von Werz
+and Seelkopf (where is not clear). A number of research papers were “turned over “ to Alexander dealing
+with pig studies, which were not yet published, showing that ethanol in the pigs did not increase or decrease body warmth loss. Dr. Weltz discussed that in the future, a watertight garment will be the method to
+minimize hypothermia deaths. Movement in the suit would increase the warmth of personnel who are in the
+watertight suits. Dr. Weltz also discussed physiological consequences due to rewarming of hypothermic
+guinea pigs and submitted data showing that rapid rewarming was better than slow rewarming in guinea
+pigs. He was asked by Dr. Alexander whether or not his ideas, theories, practices, and recommendations
+were applied to humans. He answered that the Navy had stated that the results from his methods were
+excellent, but that he had not seen any figures (data). The German Air Force in France had made similar
+observations and they had reported these findings to him. Dr. Weltz was asked to find those reports. Weltz
+produced a file with Photostats of case histories. These case histories had been done using older and more
+orthodox methods of rewarming, such as heated blankets, rubbing, and ingestion of alcohol. The vast majority were RAF (Royal Air Force) pilots who had been rescued by the German Air Force Sea-Rescue Service.
+Dr. Weltz was asked to find files in which his method of rapid rewarming had been used. He could not
+produce any. He was asked in front of a group if he knew of any experimental work conducted using human
+beings. He denied knowing of any.
+•
+(No date given.) In a private meeting between Drs. Alexander and Weltz, Dr. Weltz was asked this question
+again with no witnesses and he denied knowing of any human experiments. This interview without witnesses was held at Dr. Weltz’s request primarily for Dr. Weltz to ask whether he should close the Institute or
+possibly continue his research under auspices of the US government or an American research organization
+such as the Rockefeller Foundation. He was told that no plans could be formulated at this time, but that he
+should keep everything together to give full information to other investigators and to hope for the best. Dr.
+Alexander left the meeting with the conviction that human research had been done. He based his conclusions on: (a) no instruments were found for large animal studies (ie, the adult pig studies), but there was
+Military Medical Ethics, Volume 2
+460
+ample equipment where small animal research had been conducted; (b) Dr. Weltz could not produce any
+human data for rescued subjects being treated using his method, which suggested to Dr. Alexander that the
+data were being withheld for a reason; and (c) Dr. Weltz, in his private interview with Dr. Alexander, wanted
+to dissolve the institute, which would make it easy to dispose of or hide data. Dr. Alexander felt that Dr.
+Weltz was trying to maneuver him to order the institute to be dissolved. He decided not to arrest anyone at
+this point, but rather to hide his suspicions from Dr. Weltz while he gathered additional information.
+•
+14 June 1945. Dr. Alexander had dinner with Lieutenant Bigelow, an Army Chaplain. Lieutenant Bigelow
+wanted to find out about experiments on human beings that had been performed in the Dachau camp. He
+had heard of these experiments from a broadcast over Allied Radio of ex-prisoners who told of their experiences. Lieutenant Bigelow told Dr. Alexander that he was horrified that subjects had been placed in vats of
+cold water and electrical measurements taken of their response to the cold. These experimental methods
+were very similar to what Dr. Alexander had heard about from Dr. Weltz concerning his guinea pig studies.
+Dr. Alexander asked Lieutenant Bigelow if the name of the experimenter in the Dachau studies was given.
+Lieutenant Bigelow responded that a name had been given but he had forgotten what it was.
+•
+16 June 1945. Dr. Hubertus Strughold was questioned about human experimentation. He knew about the
+experiments from a meeting that was held in Nuremberg in 1943. (Dr. Alexander noted in his report that the
+meeting was held in October 1942). Dr. Rascher was the main investigator who was mentioned over the
+Allied Radio broadcast. Dr. Strughold had thought that convicts were used but he still disapproved of the
+studies. Dr. Rein, Professor of Physiology, was also questioned. Dr. Rein thought that the data gathered by
+Drs. Weltz and Lutz were somewhat amateurish. Dr. Rein gave Dr. Alexander a list of publications dealing
+with cold physiology. He also acknowledged that Dr. Rascher performed human experiments. Dr. Rascher
+had presented his data at Nuremberg and subsequently boasted to Dr. Rein that he (Dr. Rascher) did the
+only human work concerning hypothermia. Dr. W. Noell was also questioned regarding electrophysiological changes associated with cold; there was no questioning concerning human experiments. Dr. A. Kornuller
+was also questioned; he vouched for Dr. Noell and confirmed that human experiments had been carried out
+by Dr. Rascher. Dr. Alexander also learned from Dr. Rein that Dr. Rascher worked for the SS (Schutzstaffel
+[protection echelon]). Dr. Alexander then decided to look for additional materials on Dr. Rascher in any SS
+documents that had been located.
+•
+18 June 1945. Dr. Alexander went to the 7th Army Document Center because he had heard that Himmler’s
+cave depository of SS materials (in Hallein, Germany) had been discovered. Vast quantities of secret SS
+records had been recovered. A number of persons helped Dr. Alexander gather the data from the cave dealing with human experimentation. Data recovered from the cave extended from 31 October 1939 until March
+1944 and detailed, with voluminous documentation, Himmler and his obsessive nature, as well as letters
+from the Raschers. Both Dr. Rascher and his wife had an extensive relation with Himmler. Analysis of the
+data from the cave revealed the timeline: Dr. Rascher proposed his idea for experiments (15 May 1941);
+Himmler authorized experiments; Drs. Rasher, Kottenfhoff, and Weltz were put in charge (24 July 1941);
+experiments began (March 1942); and a report was published (28 July 1942 [not the hypothermia report, but
+rather a report titled “Salvage from High Altitudes”]). Additional experiments were authorized on 20 May
+1942, with Dr. Weltz put in charge and Dr. Rascher working for him. Dr. Rascher proposed the hypothermia
+experiments (15 June 1942); hypothermia experiments began (15 August 1942). The initial report was submitted 10 September 1942. On 3 October 1942, Dr. Rascher stated that all of the experiments were completed
+except for the human warmth studies. (He complained that Dr. Weltz was being an obstructionist and was
+delaying his research. Dr. Weltz wanted a Russian prisoner of war so he could do his own experiments.) Dr.
+Rascher submitted the final report to Himmler on 16 October 1942. Himmler acknowledged receipt of the
+report on human hypothermia experiments on 27 December 1942.
+•
+(No date given.) Dr. Alexander reinvestigated Weltz’s Institute and interrogated Dr. Lutz while an American
+lieutenant was present. Dr. Lutz admitted that Dr. Weltz had been finding personnel to work on experiments
+in Dachau but Dr. Lutz said he was “too soft.” Dr. Lutz turned over to Dr. Alexander a printed preliminary
+report that Dr. Holzlohner had presented at Nuremberg in 1942. He said that neither he nor Dr. Weltz had
+the final copy. Dr. Alexander returned some miscellaneous reports to Dr. Lutz. He asked him if he had been
+a member of the SS, and Dr. Lutz replied that he had been since 1936 but that he had gradually withdrawn
+from active participation. Dr. Alexander convinced Dr. Lutz to tell all he knew about the hypothermia experiments. Dr. Lutz mentioned that he had had conversations with some of the other researchers who conducted some of the experiments: Drs. Romberg and Holzlohner. They stated how impressed they were that
+the subjects had “objectionless obedience.” Dr. Lutz did not think that Dr. Weltz had anything to do with the
+experiments. Dr. Lutz described to Dr. Alexander his personal encounter with Dr. Rascher, as well as second
+hand accounts of the experiments and Himmler’s relationship with the Raschers. Dr. Lutz was asked if he
+had a final copy of the report and he stated that he was unable to get one because of its secrecy. He was able
+to gets bits and pieces of information from Dr. Holzlohner.
+•
+(No date given.) Dr. Alexander went to Dachau to meet with former prisoners.
+Nazi Hypothermia Research: Should the Data Be Used?
+461
+•
+22 June 1945. Dr. Alexander returned to the 7th Army Document center, where a complete copy of the final
+report by Drs. Holzlohner, Rascher, and Finke and an addendum submitted only by Dr. Rascher had been
+located. Dr. Alexander did not go back to talk to Dr. Weltz.
+At this point Dr. Alexander concluded that he had assembled the necessary timeline and evidence to prosecute these
+researchers for the human hypothermia experimentation program at Dachau.
+Military Medical Ethics, Volume 2
+462

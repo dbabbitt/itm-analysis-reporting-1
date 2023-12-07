@@ -1,0 +1,1438 @@
+621
+Preventive Medicine in the Deployed Environment
+Chapter 40
+PREVENTIVE MEDICINE IN THE 
+DEPLOYED ENVIRONMENT
+LUCAS A. JOHNSON, MD, MTM&H,* and SHAWN M. GARCIA, MD, MPH†
+INTRODUCTION
+IMMUNIZATION
+CHEMOPROPHYLAXIS
+SEXUAL HEALTH
+ORAL HEALTH
+VECTOR CONTROL
+WATER STANDARDS
+FOOD STANDARDS
+WASTE DISPOSAL
+ENVIRONMENTAL HAZARDS
+UNIT-LEVEL MEDICAL SURVEILLANCE
+OUTBREAK INVESTIGATIONS
+EMERGENCY PREPAREDNESS
+RISK COMMUNICATION
+SUMMARY
+*Lieutenant Commander, Medical Corps, US Navy; Assistant Professor of Preventive Medicine and Biostatistics, Uniformed Services University of the 
+Health Sciences, Bethesda, Maryland
+†Lieutenant Commander, Medical Corps, US Navy; Assistant Professor of Preventive Medicine and Biostatistics, Uniformed Services University of the 
+Health Sciences, Bethesda, Maryland
+622
+Fundamentals of Military Medicine
+INTRODUCTION
+Military personnel serving in operational environments experience a variety of potentially hazardous 
+exposures. It is well known that conflict erodes 
+existing public health infrastructure, resulting in 
+outbreaks of disease associated with poor hygiene, 
+contamination of food and drinking water, and interruption of vector control measures. Because of the 
+ubiquity of these exposures in operational settings, a 
+variety of effective countermeasures are directed by 
+Department of Defense (DoD) policy, as well as guidance specific to the area of operation, which should 
+be incorporated when planning military operations. 
+It is the responsibility of the locally assigned military 
+leadership, in coordination with the military medical officer (MMO), to assure appropriate preventive 
+medicine resources and risk mitigation procedures 
+are available at the tactical and operational levels to 
+maximize force readiness and preserve the health of 
+deployed forces. 
+Perhaps more than any other medical discipline, 
+preventive medicine activities influence combat operations at every level of warfighting. Minimizing or 
+mitigating potentially hazardous exposures permits 
+the conduct of operations in environments typically inhospitable to routine tactical maneuvering. 
+Through disease prevention activities, commanders 
+can more easily maintain operational troop strength 
+and lose fewer soldiers, sailors, airmen, and marines 
+to preventable illness. Finally, in preserving and 
+maintaining the health of service members through 
+wellness and readiness initiatives, preventive medicine acts as a strategic force multiplier, helping to 
+ensure a ready and capable force prepared for worldwide deployment. 
+IMMUNIZATION
+Immunization is recognized as one of the great 
+public health achievements of the 20th century. 1 The 
+ability to confer lasting, sterile immunity to previously 
+immune-naïve individuals for the purpose of interrupting and preventing infection has saved countless 
+lives; smallpox vaccination alone is estimated to have 
+prevented 5 million deaths globally each year since 
+its development. 2 
+Two critical measures influence how effectively 
+the use of a particular vaccine can prevent disease 
+at the population level. Vaccine efficacy, the reduction in incidence of disease among those who have 
+received vaccination as compared to those who have 
+not, measures how well a vaccine prevents disease in 
+exposed persons. Vaccine uptake, the proportion of 
+individuals who have completed all recommended 
+doses of a vaccine, measures population compliance 
+with immunization recommendations. High vaccine 
+efficacy combined with high vaccine uptake results 
+in the phenomenon of herd immunity, a condition in 
+which an infectious disease is denied a population 
+of susceptible hosts, and can no longer be efficiently 
+transmitted within the largely vaccinated community. In reducing the prevalence of circulating disease, 
+herd immunity also benefits those few individuals 
+unable to be vaccinated due to comorbidities or 
+contraindications. While the exact proportions for 
+specific diseases vary, herd immunity is generally 
+achieved once a population’s vaccine uptake approaches 85%. 3 
+Unit medical assets are responsible for ensuring 
+attached personnel have received immunizations 
+required by service-specific instruction as well 
+as geographic command entry requirements. The 
+Defense Health Agency Immunization Healthcare 
+Branch is an excellent source of military vaccine 
+information, including vaccine entry requirements 
+for each geographic area of responsibility. 4 Ensuring appropriate vaccination is critically important 
+when managing populations likely to experience 
+close-quarters living (recruit training centers, barracks residents, ship’s berthing); overcrowding 
+(refugee camps, prisons, detention centers); or 
+foreign travel. 5 
+CHEMOPROPHYLAXIS
+While sterile immunity remains the gold standard for preventing illness, many military-relevant 
+infectious agents do not yet have an effective vaccine 
+countermeasure. In some instances pharmaceutical 
+interventions (chemoprophylaxis) exist to prevent 
+diseases for which vaccines are not yet available. 
+Malaria 
+As early as 1768, James Lind advocated for malaria 
+chemoprophylaxis, recommending that “every man 
+receive a daily ration of cinchona powder” while 
+visiting tropical ports. 6 In virtually every theater of 
+623
+Preventive Medicine in the Deployed Environment
+EXHIBIT 40-1
+COMMAND PRESERVATION OF HEALTH 
+Burma, 1943. Lieutenant General William Slim’s 
+troop strength was severely compromised. For every 
+soldier evacuated with combat wounds, 120 were 
+evacuated due to illness, a rate of 12 per 1,000 per 
+day. The annual malaria attack rate was 84%, rendering a large percentage of his force combat ineffective for months at a time. Slim recalled, “A simple 
+calculation showed me that in a matter of months at 
+this rate my army would have melted away. Indeed, 
+it was doing so under my eyes.”1
+An effective prophylaxis for malaria, mepacrine, 
+was available, and evidence of therapeutic compliance easily assessed on physical exam. However, 
+unfounded rumors of the drug causing impotence 
+resulted in poor adherence. Slim’s solution was 
+simple but effective:
+I, therefore, had surprise checks of whole units, every man being examined. If the overall result was 
+less than ninety-five percent positive I sacked the 
+commanding officer. I only had to sack three; by then 
+the rest had got my meaning. 1
+Within months, Slim’s malaria forward treatment 
+unit wards were largely empty. By 1945 illness rates 
+plummeted 10-fold, to 1 solder per 1,000 per day. 
+Lieutenant General Slim recognized and leveraged 
+a fundamental relationship in preserving the health 
+of his forces:
+Good doctors are of no use without good discipline. 
+More than half the battle against disease is not fought 
+by doctors, but by regimental officers. It is they who 
+see that the daily dose of mepacrine is taken, that 
+shorts are never worn, that shirts are put on and 
+sleeves turned down before sunset, that minor abrasions are treated before, not after, they go septic, that 
+bodily cleanliness is enforced. 1
+1. Slim W. Defeat into Victory. 2nd ed. London, UK: Cassell 
+& Company Ltd; 1956.
+war since then, many reports have been published 
+on the military’s experience with chemoprophylaxis. 
+From the Pacific campaign of World War II to the 2003 
+peacekeeping operations in Liberia, the primary lesson 
+learned remained unchanged for the greater part of a 
+century: enforcement of appropriate chemoprophylaxis use is a command responsibility (Exhibit 40-1). 7 
+Several highly effective agents are available for use 
+as malaria chemoprophylaxis; each has its own considerations (Table 40-1). Chloroquine was previously 
+used extensively across the globe, but development of 
+resistance has restricted its utility to geographic areas 
+known to have no chloroquine-resistant Plasmodium 
+species. Currently the vast majority of US service 
+members receive doxycycline or atovaquone-proguanil 
+malaria chemoprophylaxis. Providers should always 
+ensure chemoprophylaxis selection is appropriate for 
+local resistance patterns. Mefloquine carries a “black 
+box” warning due to well-described neurologic and 
+psychiatric side effects and should be prescribed within 
+the DoD only as a “drug of last resort.”8 
+Service member compliance with malaria chemoprophylaxis is historically low. Survey data from Operation 
+Enduring Freedom (OEF) veterans indicate compliance with daily dosed regimens approached 60%, and 
+compliance with weekly dosed regimens was less than 
+40%. 9 Whenever possible, malaria chemoprophylaxis 
+should be administered at the unit level as directly 
+observed therapy (DOT). DOT increases medication 
+compliance and appropriately empowers commanders with a means to preserve the health of their forces. 
+Travelers who spend prolonged periods of time 
+(generally 6 months or more) in regions with P vivax 
+and P ovale require presumptive anti-relapse therapy 
+(PART) with primaquine for 2 weeks following their 
+return. Primaquine is effective in eradicating the liver 
+hypnozoite phase of P vivax and P ovale. However, 
+primaquine can be used only in G6PD-normal individuals, and no agent is currently approved for PART 
+in service members who are G6PD deficient. Such 
+individuals should be thoroughly counseled regarding bite avoidance and prophylaxis compliance if they 
+require travel to areas where PART would otherwise 
+be recommended. 
+Leptospirosis 
+Leptospira is a spirochete bacteria typically transmitted through soil or fresh water contaminated by 
+animal urine. Bacterial invasion occurs through cuts 
+in the skin or mucous membrane exposure. Historically significant leptospirosis outbreaks among service 
+members have only occurred among participants in 
+jungle warfare training who experience substantial 
+amounts of untreated fresh water exposure in tropical environments. Civilian exposures typically result 
+from flooding in the tropics as well as participation 
+in fresh water adventure sports. Doxycycline 200 mg 
+orally once weekly is believed to provide some protection against leptospirosis infection for individuals 
+624
+Fundamentals of Military Medicine
+TABLE 40-1
+MALARIA CHEMOPROPHYLAXIS AGENTS
+Agent
+Usage
+Adult Dose
+Start
+Stop
+Can be 
+Used in 
+Pregnancy?*
+Special Considerations
+Doxycycline
+All areas
+100 mg PO 
+once daily
+2 days before 
+travel to malarious area
+4 weeks after 
+exit from malarious area
+No
+GI upset; better tolerated if taken with 
+food. Sun sensitivity. 
+Atovaquone/ 
+proguanil
+All areas
+250 mg atovaquone/ 100 
+mg proguanil 
+PO once daily
+1–2 days 
+before travel 
+to malarious 
+area
+7 days after 
+exit from malarious area
+No
+Contraindicated if 
+creatinine clearance 
+<30 mL/min.
+Chloroquine
+Chloroquinesensitive 
+areas only
+300 mg base 
+(500 mg salt) 
+PO once 
+weekly
+1–2 weeks 
+before travel 
+to malarious 
+area
+4 weeks after 
+exit from malarious area
+Yes
+Few geographic 
+areas for use. May 
+exacerbate psoriasis.
+Mefloquine
+Mefloquinesensitive 
+areas only
+228 mg base 
+(250 mg salt) 
+PO once 
+weekly
+2 weeks before 
+travel to malarious area
+4 weeks after 
+exit from malarious area
+Yes
+Contraindicated 
+in patients with 
+certain psychiatric 
+disorders, seizures, 
+cardiac conduction 
+abnormalities. DoD 
+chemoprophylaxis 
+of last resort. 
+Primaquine
+Presumptive 
+anti-relapse 
+therapy for 
+Plasmodium 
+vivax and P 
+ovale hypnozoites
+30 mg base 
+(52. 6 mg salt) 
+PO daily for 
+14 days
+After exit from 
+malarious 
+area
+After full 2-wk 
+dose
+No
+Contraindicated 
+in patients with 
+depression, anxiety, 
+psychosis, other 
+major psychiatric 
+disorders, seizures. 
+Requires normal 
+G6PD level.
+DoD: Department of Defense; GI: gastrointestinal; PO: per os (by mouth). 
+*Data source for pregnancy information: Centers for Disease Control and Prevention. Choosing a drug to prevent malaria. https://www.
+cdc.gov/malaria/travelers/drugs.html. Published April 25, 2018. Accessed June 6, 2018.
+with limited, discrete exposures to potentially infected 
+water. Prophylaxis should begin 1 to 2 days before 
+potential exposure and continue throughout the period of exposure. 10 The value of chemoprophylaxis for 
+populations with continuous exposures in endemic 
+areas is unclear. 11
+Group A Streptococcus 
+Group A streptococcal infections are a particular 
+challenge in the recruit setting, where crowding and 
+inadequate hygiene can result in historically aggressive 
+disease manifested by severe pneumonias, empyemas, 
+and tonsillar abscesses. Since the advent of penicillin, 
+military recruit depots have employed chemoprophylaxis to prevent Group A streptococcal infections. 
+Across the services, all recruit training depots engage 
+in year-round prophylaxis, with 1. 2 million units of 
+benzathine penicillin G (PCN) administered intramuscularly (IM) during the first week of training. IM 
+PCN protects recruits for approximately 28 days and 
+can be re-dosed if indicated by historical surveillance 
+or an active outbreak. Penicillin-allergic recruits may 
+alternatively be treated with 1 g oral azithromycin 
+weekly for 4 weeks, or 250 mg erythromycin twice 
+daily for 4 weeks. 
+625
+Preventive Medicine in the Deployed Environment
+SEXUAL HEALTH
+The force health protection threat posed by sexual 
+activity is an often-neglected reality of operational 
+and deployed military settings. Despite overwhelming 
+evidence to the contrary, some commanders believe 
+prohibition of sexual activity alone is a sufficient intervention to prevent sexually transmitted infections 
+(STIs) and pregnancies in operational settings. History 
+has repeatedly demonstrated this view as fallacious, 
+most recently during OEF and Operation Iraqi Freedom. From 2004 to 2009, over 750 cases of chlamydia 
+and gonorrhea were identified in combat-deployed US 
+military personnel. In some cohorts, rates of chlamydia 
+exceeded stateside civilian age-matched rates. 12 
+Continuous promotion of safe sexual behavior, as 
+well as creating an environment where sexual health 
+issues can be confidentially discussed with a medical 
+provider, is critical for preserving force health. Condoms are essential medical supplies that should be 
+available at every echelon of care, discretely and free of 
+charge, regardless of geography or cultural normative 
+behavior of host countries. 
+Specific expert recommendations for MMOs include (1) promoting condom use as normal protective 
+behavior and characterizing unprotected sexual activity as unnecessarily risky and abnormal; (2) identifying 
+and screening those at risk for STIs (providers should 
+understand demographic factors influencing the 
+epidemiology of specific STIs); (3) ensuring treatment 
+(including treatment of sexual partners whenever 
+possible) occurs in accordance with US Centers for 
+Disease Control and Prevention recommendations; 
+and (4) ensuring confidentiality of reported high-risk 
+behaviors. 13 
+Contraceptive availability is a critical component 
+of sexual health. Female service members should be 
+counseled on the availability and efficacy of common 
+contraceptives. In operational or deployed settings 
+where hygiene can become complicated, hormonal 
+contraception that can induce reversible menstrual 
+cycle suppression may be of interest to female service 
+members. 14 Like condoms, contraception, including 
+emergency contraception, is an essential medical 
+supply that should be available to service members at 
+every echelon of care with as few barriers as possible. 
+ORAL HEALTH
+Oral health is an essential component of combat 
+readiness. Service members with oral disease may 
+suffer impaired performance of their duties, poor 
+diet, sleep disturbances, and pain. Despite being a 
+dentally ready force, the Army recorded over 900 
+unique dental emergencies in service members deployed to Afghanistan each month from July 2009 to 
+June 2011. 15 Research suggests the risk of a service 
+member suffering severe dental disease increases 
+by approximately 4. 5% for every month deployed. 16 
+Proper screening creates a dentally ready force that is 
+one-third as likely to experience a dental emergency 
+requiring care as compared to an unscreened force. 17 
+Certain cohorts of service members have demonstrated increased risk for a dental emergency in deployed 
+settings; in comparison to the active component of 
+the Army, members of the Army National Guard and 
+Army Reserve demonstrated a 50% increased risk of 
+dental disease during OEF. 16 Assuring appropriate 
+and timely treatment and follow-up after screening 
+prevents impediments to dental readiness prior to 
+and during deployment.
+VECTOR CONTROL
+Vector-borne disease is a substantial force protection threat in operational and deployed settings. 
+Climate change increases the spread of vector-borne 
+disease to novel areas, making threats more likely in 
+environments previously inhospitable to arthropod 
+vectors. 18 While certain diseases have effective vaccines or chemoprophylaxis measures, minimizing 
+exposure remains the cornerstone of all vector-borne 
+illness prevention.
+Minimizing vector exposure begins with avoidance. 
+Both the lifecycle and preferred feeding time of many 
+arthropod vectors follow well-established seasonal, 
+rainfall, and diurnal patterns. Minimizing outdoor 
+exposure during peak biting periods (if tactically permissible) can substantially decrease the likelihood of 
+bites. Similarly, when locations are chosen for habitation in the field, the surrounding vector habitat should 
+be considered. Whenever possible, sites for human 
+habitation should be open, dry, and positioned away 
+from local settlements, animal pens, or rodent burrows.
+Reducing the exposed biting surface available to an 
+arthropod is a critically important practice for service 
+members. Proper wear of a long-sleeve military uniform reduces exposure to potential vectors. Sleeves 
+should be worn down and pant leggings should be 
+property bloused or tucked into the boot in the field 
+626
+Fundamentals of Military Medicine
+environment. At night, bed nets are an additional 
+measure of protection against arthropods. Chemical 
+repellants further augment bite avoidance. Permethrin, 
+the DoD standard repellent used to treat clothing, 
+opens voltage-dependent sodium channels in arthropod nervous systems to cause paralysis and death. 
+In high-transmission environments, bed nets should 
+be utilized and treated with permethrin. The exterior 
+of canvas tents can also be treated with permethrin. 
+Many services now issue uniforms factory-treated 
+with permethrin, which protect for 50 wash cycles or 
+more. While each uniform contains specific wash and 
+re-treatment instructions, factory-treated uniforms 
+generally remain effective for 12 months. 19 Uniforms 
+can be treated professionally or using a field expedient 
+method (aerosol spray, individual dynamic absorption, air compressed spray). The Armed Forces Pest 
+Management Board is an excellent resource for information about treatment methods and service-specific 
+uniform considerations.
+DEET (N,N-diethyl-m-toluamide or N,N-diethyl3-methylbenzamide) has been the US military skin 
+repellant of choice for over 60 years. When applied 
+to exposed skin at concentrations over 20%, DEET is 
+effective in repelling a variety of arthropods. 20 Picaridin (1-piperidinecarboxylic acid 2-(2-hydroxyethyl)1-methylpropylester) is a newer repellant that appears 
+to have a repellant profile at least equivalent to DEET 
+while also being less irritating to skin and less corrosive 
+to plastics. 21 DEET or picaridin should be applied to 
+any exposed skin not covered by a permethrin-treated 
+uniform as part of the DoD insect repellent system. A 
+variety of DEET and picaridin products are approved 
+for military use, assigned a National Stock Number 
+(NSN), and available for unit-level procurement.
+The 2012 death of a US soldier from rabies and, in 
+2014, the largest-ever military rabies contact investigation, illustrate the continued threat animal bites pose 
+to service members. 22,23 Rabies virus is transmitted 
+through the blood, saliva, and nervous tissue of infected mammals. While preexposure and postexposure 
+regimens are highly effective at preventing human 
+rabies, avoidance remains the primary mechanism 
+of rabies protection for the vast majority of service 
+members. With the exclusion of US working dogs, all 
+mammals encountered in the operational or deployed 
+setting are potential rabies threats. Adoption of stray 
+animals as unit mascots represents an unacceptable 
+risk and should be prohibited by commanders.
+DoD guidance outlines indications for specific individuals (veterinarians, laboratory workers, military 
+working dog handlers, etc) to receive preexposure 
+rabies vaccine due to their elevated risk of coming in 
+contact with rabies virus. 24 Rabies virus preexposure 
+vaccination consists of three doses of immunization 
+delivered on days 0, 7, and 21. 25 
+Rabies postexposure prophylaxis becomes necessary when individuals have blood or mucous membrane exposure to the saliva, blood, or central nervous 
+tissue of potentially rabid animals. Bat bites may leave 
+little, if any, evidence of puncture wounds and may 
+not be noticed by a sleeping person. If there is any 
+chance that physical contact with a bat occurred, the 
+bat should be tested for rabies. If the bat is not available for testing, then rabies postexposure prophylaxis 
+should be administered. Clear documentation of an 
+animal having received appropriate rabies vaccination or an examination by a veterinarian familiar with 
+rabies are the only acceptable means of verifying an 
+animal as being free of rabies. In all other mammalian 
+bite cases, MMOs should strongly consider rabies postexposure prophylaxis due to the near 100% fatality rate 
+of human rabies once a person becomes symptomatic. 
+Postexposure prophylaxis consists of cleaning the 
+wound, administering 20 IU/kg body weight of rabies immunoglobulin injected as proximal to the bite 
+site as possible, and four doses of rabies vaccine, on 
+days 0, 3, 7, and 14, administered in the contralateral 
+deltoid. 26 Previously vaccinated individuals should 
+generally not receive immunoglobulin; instead, they 
+should receive a truncated two-dose vaccine schedule 
+on days 0 and 3. 
+WATER STANDARDS
+Ample quantities of safe water are necessary 
+for preservation of health, hygiene, and force 
+readiness. Improperly treated drinking water can 
+transmit a variety of bacterial, viral, protozoan, 
+and parasitic diseases. All potential water sources 
+generated in field conditions (including water from 
+municipal host nation water systems) should be 
+considered unsafe for consumption unless evaluated and approved by trained preventive medicine 
+personnel. 27 
+The majority of drinking water produced from field 
+sources is generated by a portable reverse osmosis 
+water purification unit (ROWPU) or procured from 
+commercial sources. After initial purification and treatment to remove dissolved solids and contaminates, 
+all drinking water must be disinfected. Chlorination 
+is the preferred method for water disinfection in the 
+field because it has a measurable residual, which both 
+continues to kill organisms after initial treatment, and 
+also serves as a sentinel for potential contamination 
+627
+Preventive Medicine in the Deployed Environment
+TABLE 40-2
+MINIMUM FREE AVAILABLE CHLORINE (RESIDUAL CHLORINE) LEVELS FOR VARIOUS FIELD 
+APPLICATIONS
+Application
+Minimum FAC 
+(mg/L or ppm)
+Corrective Action 
+ROWPU production 
+2
+FAC < 2 mg/L: Do not issue water, rechlorinate to FAC of 2 
+mg/L, ensure FAC of 2 mg/L after 30 minutes prior to issue
+Distribution /secondary storage
+1
+FAC 0. 2–1 mg/L: rechlorinate, ensure FAC of 1 mg/L, okay 
+to issue 
+FAC < 0. 2 mg/L: do not issue water, rechlorinate to 1 mg/L, 
+ensure FAC of 1 mg/L after 30 minutes prior to issue
+Unit-level storage (eg, water buffaloes, 
+5-gallon containers)
+1
+FAC 0. 2–1 mg/L: rechlorinate to 1 mg/L, okay to issue
+FAC < 0. 2 mg/L: do not issue water, rechlorinate to 1 mg/L, 
+ensure FAC of 1 mg/L after 30 minutes prior to issue
+Canteens, personal hydration systems
+1
+FAC < 0. 2 mg/L: rechlorinate to 1 mg/L, ensure FAC of 1 
+mg/L after 30 minutes
+Surface water (emergency only, no other 
+treatment available) 
+5
+N/A
+Ground water approved by preventive 
+medicine staff
+2
+N/A
+Nonpotable water for hygiene/showers
+1
+FAC < 1. 0: rechlorinate to 1 mg/L
+FAC: free available chlorine; N/A: not applicable; ROWPU: reverse osmosis water purification unit
+Data source: Departments of the Army, Navy, and Air Force. Sanitary Control and Surveillance of Field Water Supplies. Washington, DC: DA; 
+2010. TB Med 577.
+when levels fall below acceptable thresholds. Chlorine 
+requires a minimum of 30 minutes of contact time to 
+disinfect water for drinking. Manufacturer information 
+can provide specific dosing recommendations depending on the product used and the volume of water to 
+be treated; however, concentration of dissolved solids, 
+pH, and temperature can affect the volume of chlorine 
+required to safely kill pathogens. The free available 
+chlorine (FAC) indicates the amount of biologically 
+active chlorine available to disinfect water intended for 
+drinking. Table 40-2 outlines minimum FAC concentrations for various water systems and uses. 
+In operational or deployed settings, water quality 
+measurements including FAC, coliform testing, and 
+a variety of other parameters should be regularly 
+tested and recorded in accordance with tri-service 
+recommendations. Table 40-3 outlines minimum FAC 
+and testing periodicity for a variety of water systems 
+commonly used in field conditions. Any concerns regarding water quality should be immediately reported 
+to engineering personnel for remediation. 
+Commercial bottled water is increasingly available in modern military operations. All bottled water 
+products require testing and approval by trained US 
+Army Veterinary Services (VS) personnel prior to use. 
+VS maintains an up-to-date list of approved bottled 
+water sources, published in the Worldwide Directory of Sanitarily Approved Food Establishments for 
+Armed Forces procurement. 28 Preventive medicine 
+personnel can extend expiration dates of bottled water 
+in 30-day increments after testing to ensure continued 
+potability.
+FOOD STANDARDS
+Foodborne illness imposes a substantial burden of 
+morbidity, mortality, and time lost from work in both 
+garrison and deployed settings. The most common 
+factors contributing to foodborne illness include food 
+from unsafe sources, poor personal hygiene, inadequate cooking, and inadequate holding temperatures. 29 
+Specific interventions and best practices addressing 
+each of these factors can minimize the likelihood of 
+foodborne illness.
+Assuring a safe food supply begins with procuring 
+food from safe sources. Installation commanders are 
+ultimately responsible for ensuring food and beverages on installations are served only through establishments inspected and approved by the relevant 
+628
+Fundamentals of Military Medicine
+TABLE 40-3
+RECOMMENDED WATER QUALITY TESTING FREQUENCIES
+Application
+Residual Chlorine
+Coliform 
+pH
+Total Dissolved 
+Solids
+ROWPU
+Every 30 minutes during production 
+operations
+Weekly
+Weekly
+Weekly
+Distribution/storage
+With every receipt and distribution
+Monthly
+Monthly
+Unit-level storage (eg, water buffaloes, 
+5-gallon containers)
+Twice daily
+Weekly
+Daily
+Bottled/packaged field water
+Monthly
+Field showers
+Time of delivery and twice daily
+Food services
+With each meal
+ROWPU: reverse osmosis water purification unit; -: not applicable
+Data source: Departments of the Army, Navy, and Air Force. Sanitary Control and Surveillance of Field Water Supplies. Washington, DC: DA; 
+2010. TB Med 577.
+service-specific regulatory authority. While Meals, 
+Ready-to-Eat (MREs) are specifically engineered to 
+provide safe nutrition in unforgiving environments, 
+service members frequently consume high-risk food 
+from unapproved sources when given the opportunity. 
+Frequent counseling as well as increased availability 
+of additional approved and inspected on-installation 
+food sources (if tactically feasible) are potential countermeasures to discourage high-risk consumption 
+from unapproved food sources.
+Inadequate hygiene, particularly hand hygiene, is 
+frequently identified as a factor contributing to outbreaks of foodborne illness. Food handlers are required 
+to receive specific training in hand hygiene techniques, 
+as well as actions or events throughout the food 
+preparation and serving process that require repeated 
+washing. Hand hygiene is similarly important for food 
+consumers. MMOs are strongly encouraged to ensure 
+handwashing stations or hand sanitizer dispensers are 
+available and promoted for use at installation dining 
+and toileting facilities. 
+Food handlers must be free of communicable 
+diseases and are required to report symptoms of 
+potential illness (such as vomiting, diarrhea, nausea, 
+jaundice, skin lesions, or sore throat with fever) to 
+their supervisor. A low threshold for exclusion from 
+work should be applied to food handlers to minimize 
+the possibility of foodborne illness resulting from a 
+communicable disease. Food handlers with diagnosed 
+norovirus, hepatitis A, shigellosis, enterohemorrhagic 
+or Shiga toxin-producing Escherichia coli, or Salmonella 
+typhi must be excluded from work and reported to 
+the service-specific regulatory authority. Similarly, 
+food handlers with known or suspected contact with 
+individuals diagnosed with these conditions should 
+also be reported and evaluated by medical personnel.
+Proper cooking temperatures destroy pathogenic 
+organisms and minimize potential for foodborne illness. Raw animal foods must be cooked to a temperature and for a time period that comply with the TriService Food Code29 based on the type of food product 
+as well as method of preparation. Temperatures must 
+be verified with a thermometer; visual inspection is not 
+an adequate means of determining compliance with 
+minimum temperature recommendations. 
+To facilitate feeding large numbers of service members in a fixed amount of time, large dining facilities 
+rely on stored food products prepared in bulk earlier 
+in the day. Once cooked to a proper temperature, 
+food must be stored hot or cold at an appropriate 
+temperature to prohibit growth of pathogenic organisms. Maximum holding times vary by food product, 
+holding temperature, and preparation style. Improper 
+holding temperature or excessive holding time has 
+been linked to countless foodborne illness outbreaks 
+in cafeteria-style dining settings. 
+WASTE DISPOSAL
+Military field operations generate large amounts 
+of waste products. Waste products may contain infectious agents such as cholera or typhoid, attract vermin 
+capable of spreading zoonotic disease, or serve as 
+breeding grounds for many vectors of human disease. 
+As tactical conditions permit, waste should be collected 
+629
+Preventive Medicine in the Deployed Environment
+and disposed of in accordance with local, federal, or 
+host nation law. Increasingly, modern military operations rely on contracted services for collection and 
+disposal of waste; however, such services may not be 
+available for geographically isolated forward operating 
+positions. As a result, MMOs must be familiar with 
+basic principles of human, solid, and liquid waste 
+management in operational settings and ensure waste 
+management is addressed in the planning stages of 
+any operation.
+Methods employed for the disposal of human waste 
+are influenced by material availability, soil conditions, 
+source and location of drinking water, and environmental regulations. Positioning of toilet facilities 
+should reduce or minimize the transmission of disease 
+by vermin, vectors, or direct human contact. In general, field toilet facilities should be located at least 100 
+feet from natural water sources, 100 yards from food 
+service areas, and 50 feet from berthing. 30 All attempts 
+should be made to create handwashing stations at the 
+exit of any human waste facility; hand washing with 
+soap and water is ideal, but hand sanitizer is an acceptable alternative. While contracted chemical toilets are 
+generally preferred whenever possible, logistic and 
+geographic realities of conflict sometimes necessitate 
+field-expedient solutions to managing human waste.
+Pit latrines are the simplest form of human waste 
+disposal; however, their practicality is influenced by 
+soil conditions and water table depth. Hard or rocky 
+soil can make digging pit latrines difficult. A shallow 
+water table can result in contamination of natural water sources and restrict the maximum depth to which 
+a latrine can be dug. Pit latrines also require periodic 
+treatment with appropriate insecticides to prevent 
+vector breeding. Once the contents of the latrine reach 
+1 foot from ground level, pit latrines should be closed 
+and filled in with earth. 30
+Burn-barrel latrines utilize 55-gallon drums cut in 
+half to collect and burn human waste. Prior to use or 
+re-use, a barrel is primed with approximately 3 inches 
+of diesel fuel to ensure more efficient burning of solid 
+waste; the fuel also serves as an insect repellant. Barrels 
+must be burned when more than half full. A mixture 
+of four parts diesel to one part gasoline should completely cover the barrel contents. Occasional stirring 
+of the ignited contents is necessary (although less so 
+with use of priming fuel). Minimizing the urine content 
+of burn barrels greatly improves the efficiency of the 
+burn and reduces fuel requirements. 
+Solid waste generated in operational environments 
+is disposed of through burial, incineration, or commercial hauling. Burial is suitable only for short-term 
+activities (1 week or less) involving small numbers of 
+persons. While commercial hauling and disposal is 
+greatly preferred, tactical or host nation limitations often necessitate incineration of waste on site. Open burn 
+pits are convenient for use when establishing bases; 
+however, they should be replaced with incinerators as 
+soon as practical due to the inherent health risks associated with unimproved combustion of solid waste. 31 
+Waste water generated from field or operational 
+activities must be disposed of in accordance with 
+applicable local, federal, and host nation laws. Use 
+of municipal sanitary sewers is preferred, but sewers 
+are often unavailable in austere settings. When necessary, soakage pits and evaporation beds may be used 
+to dispose of waste water without attracting vermin 
+or serving as breeding pools for vectors. Soakage pits 
+are simply pits filled with a coarse medium such as 
+crushed gravel. Pits may become clogged or saturated 
+over time, requiring the construction of additional 
+pits. Evaporation beds are contained fields of earth 
+groomed into rows of depressions and ridges similar 
+to agricultural beds. The field is flooded to the top of 
+the ridges and waste water is allowed to penetrate 
+the soil and evaporate. A series of evaporation beds 
+are used on a rotating basis to allow approximately 3 
+days of evaporation prior to next use.
+ENVIRONMENTAL HAZARDS
+Environmental exposures present a variety of public 
+health challenges, particularly in the field environment. Extremes of temperature, altitude, precipitation, and sun exposure are routinely experienced in 
+operational settings. For deployed forces, the need to 
+maintain a combat-ready posture further exacerbates 
+environmental stressors common to austere environments. Chapter 22, Environmental Extremes: Heat 
+and Cold, discusses environmental hazards specific 
+to military operations, as well as potential countermeasures available to MMOs for ensuring the health 
+of military forces.
+UNIT-LEVEL MEDICAL SURVEILLANCE
+Medical surveillance, the continuous and systematic collection of health-related data, performs several 
+critical functions. Medical surveillance is descriptive; 
+that is, it provides an objective description of a population’s health at a point in time and thus identifies the 
+basic epidemiology of a particular health problem. 
+630
+Fundamentals of Military Medicine
+Figure 40-1. Sample disease and injury reporting worksheet.
+Reproduced from: Office of the Chairman, Joint Chiefs of Staff. Procedures for Deployment Health Surveillance. Washington, 
+DC: JCS; November 2, 2007: C-B-1. https://www.dcms.uscg.mil/Portals/10/CG-1/cg112/cg1121/docs/pdf/MCM-0028-07.pdf. 
+Accessed June 8, 2018.
+631
+Preventive Medicine in the Deployed Environment
+Surveillance is also predictive; that is, it helps explain 
+variation in population health based on historical 
+patterns and can serve as an early warning system for 
+impending population health emergencies. Surveillance is informative; that is, the information obtained 
+allows MMOs to provide commanders with specific 
+preventive recommendations based on demonstrable 
+trends in disease. Finally, surveillance is evaluative; 
+when implementing a disease control measure, an 
+ongoing surveillance system affords the opportunity to 
+critically evaluate the impact of an intervention, track 
+progress, and identify population health priorities for 
+policy makers. 32
+The simplest form of operational medical surveillance occurs at the individual provider level. All 
+services require mandatory disease reporting for 
+specific conditions via appropriate service-specific 
+channels. 33–35 Additionally, state-mandated reportable medical conditions must also be reported to local 
+health departments in accordance with service-specific 
+instruction. 36
+Historically, unit-level surveillance was most frequently accomplished in weekly reporting of disease 
+and injury (D&I) information. Pen and paper D&I 
+reporting has largely been replaced by automatic 
+mining of electronic health records and laboratory 
+data for conditions of significance in the majority of 
+deployed and operational settings. In the most austere 
+environments where electronic health records are unavailable, weekly pen and paper D&I reporting is still 
+employed, using a reporting form such as that shown 
+in Figure 40-1.
+OUTBREAK INVESTIGATIONS
+An outbreak is the occurrence of disease at a rate 
+that exceeds expected baseline values. Every outbreak 
+represents a systematic breakdown of public health 
+infrastructure that warrants investigation. Outbreak 
+investigations are performed to identify and treat those 
+exposed, expose gaps in public health measures, and 
+identify interventions to interrupt transmission and 
+prevent further cases. Outbreak investigations are 
+often complex and multidisciplinary, and can involve 
+multiple agencies or organizations. In deployed or operational settings, military providers may be tasked to 
+perform outbreak investigations with little specialized 
+training or logistic assistance. 
+While no two outbreaks are the same, employing 
+a systematic method for investigation substantially 
+increases the likelihood of successfully interrupting 
+transmission of disease. In general, outbreak investigations consist of the following components: 
+ 
+• Identify team and resources.
+ 
+• Establish existence of an outbreak.
+ 
+• Construct a case definition. 
+ 
+• Systematically find cases and develop a line 
+listing.
+ 
+• Perform descriptive epidemiology.
+ 
+• Evaluate transmission hypothesis.
+ 
+• Implement control measures.
+ 
+• Communicate findings.
+ 
+• Maintain surveillance.
+Each component is discussed below. While these 
+components are often presented in a stepwise manner, investigators are not required to rigidly perform 
+an outbreak investigation one step at a time. It is often 
+necessary (and advisable) to perform several tasks 
+simultaneously to ensure expeditious interruption of 
+disease as well as alleviate public fears surrounding 
+an outbreak. 
+Identify Team and Resources 
+At first notification of a potential outbreak, an 
+investigator must assess the personnel and material 
+resources at their disposal to provide an adequate 
+response. Personnel with specific outbreak investigation and public health training or prior experience 
+are particularly valuable resources to consider when 
+assembling a team. Local and regional civilian health 
+departments are a wealth of knowledge and experience 
+when conducting outbreak investigations. When the 
+magnitude of the outbreak clearly indicates locally 
+available resources are not sufficient, service-specific 
+public health assistance may be available from the regional Navy environmental preventive medicine unit, 
+the US Army Public Health Command, or the US Air 
+Force School of Aerospace Medicine. 
+Establish the Existence of an Outbreak 
+Routine disease surveillance provides the historical 
+context for helping public health officials determine the 
+rates of disease that constitute expected baseline values. 
+Geography, seasonal weather variation, animal migratory 
+patterns, and movement of human populations are some 
+factors that influence expected values of disease incidence. 
+Certain diseases are considered outbreaks based on a 
+single occurrence (inhalational anthrax, human rabies, 
+smallpox), while others may require dozens or hundreds 
+of cases prior to exceeding expected background levels 
+(gastroenteritis, upper respiratory infections). 
+632
+Fundamentals of Military Medicine
+On occasion investigators may be notified of a spurious increase in the number of reported cases of disease 
+that initially appears to represent an outbreak. “Pseudo 
+outbreaks” typically occur as the result of changing 
+surveillance methodology (such as a new, more sensitive case definition) or other factors unrelated to the 
+disease in question. 
+Construct a Case Definition 
+Crafting a meaningful case definition is a critical 
+step in conducting an outbreak investigation. Case 
+definitions that are too restrictive will lack sensitivity 
+in identifying persons with the condition of interest. Conversely, case definitions that are too broadly 
+defined will result in inefficient use of resources as 
+investigators identify and interview more individuals than necessary. A good case definition contains 
+aspects of exposure, symptoms, and temporality to 
+focus investigation efforts on those individuals most 
+likely to represent people truly affected by the disease 
+or illness in question. As the investigation progresses 
+and patterns of exposures and symptoms become 
+more apparent, the team may choose to modify the 
+case definition to be more or less inclusive.
+Systematically Find Cases and Develop a Line 
+Listing 
+Once a case definition is developed, the team is 
+tasked with systematically collecting information from 
+potentially affected persons. Investigators often develop 
+a standardized questionnaire or data collection sheet to 
+survey potential cases for information regarding exposures, symptoms, and temporality pertinent to the case 
+definition. Using standardized questionnaires helps 
+minimize information bias and allows for the same 
+information to be collected from all potential contacts. 
+0
+5
+10
+15
+20
+Number of Cases
+1
+30
+Time
+Exposure
+Figure 40-2. Point source outbreak epidemiologic curve with hypothetical data. Point source outbreaks are characterized by 
+a single common exposure and rapid resolution. Incubation period can be determined by calculating the time elapsed from 
+exposure to the majority of cases developing symptoms. Outliers can be helpful in further establishing causative etiology, 
+particularly in outbreaks of foodborne illness when consumption of leftovers results in individual cases occurring outside 
+the bulk of those affected.
+633
+Preventive Medicine in the Deployed Environment
+Individual contact questionnaire or interview data are 
+most often transcribed into a line listing, which is a 
+comprehensive database detailing patient identification, demographic, exposure, symptom, laboratory, 
+and outcome data. In cases of known diseases with 
+historically well-described risk factors and symptoms, 
+the line listing may be truncated to include only the 
+most relevant data needed to perform an investigation. 
+For investigations of an unidentified agent, exposure, or 
+cluster of seemingly unrelated symptoms, line listings 
+will often contain far greater amounts of information.
+Perform Descriptive Epidemiology 
+Information contained in a line listing allows investigators to explore how particular demographics 
+and exposures influence disease status. In investigations in which the etiology of illness is unknown, 
+describing basic demographic information about the 
+population or cohort demonstrating an increased 
+risk of becoming ill is a crucial first step in identifying the causative agent of disease. Line listings also 
+afford investigators the opportunity to calculate attack rates (the percentage of individuals who become 
+ill after a discrete exposure). Calculating the attack 
+rate ratio (the attack rate in exposed persons divided 
+by the attack rate in unexposed persons) for each 
+exposure allows investigators to identify exposures 
+most strongly associated with disease. Focusing 
+further laboratory and epidemiologic investigation 
+on exposures with the largest attack rate ratios most 
+efficiently utilizes the limited time and resources 
+available to investigators. 
+Evaluate Transmission Hypothesis 
+Line listings are also valuable in compiling data on 
+the symptoms of those affected by the disease in quesFigure 40-3. Continuous common source outbreak epidemiologic curve with hypothetical data. Continuous common source 
+outbreaks are characterized by a persistent exposure. Rapid accumulation of cases after initial exposure and large numbers 
+of new cases throughout the outbreak suggest a common community source of exposure (eg, contaminated water or manufactured food product). If an intervention to interrupt transmission of disease is successful, abrupt cessation can be expected 
+approximately one incubation period after last exposure.
+0
+5
+10
+15
+20
+Number of Cases
+1
+30
+Time
+Exposure
+Intervention
+634
+Fundamentals of Military Medicine
+tion. In creating a basic epidemiologic (or “epi”) curve 
+(a bar graph depicting the number of cases by the date 
+or time of symptom onset), investigators can develop 
+a hypothesis about how the illness is transmitted. 
+Point source outbreaks result when a single common 
+exposure is responsible for transmitting illness during 
+a restricted period of time, such as food poisoning resulting from Salmonella contained in a dish at potluck 
+luncheon (Figure 40-2). Continuous common source 
+transmission occurs when persons are exposed to 
+the same source over a prolonged period of time. Illness resulting from environmental exposures or from 
+widely distributed manufactured food products are 
+examples of continuous common source outbreaks 
+(Figure 40-3). Propagated spread outbreaks occur as a 
+result of human-to-human transmission and are typically characterized by clusters of patients separated by 
+the incubation time required for a particular illness. 
+Investigations involving vaccine-preventable illnesses 
+are classic examples of propagated spread outbreaks 
+(Figure 40-4).
+Epi curves contain a wealth of additional information. By examining the lag between time of exposure 
+and onset of symptoms, or by investigating the lapse 
+of time between clusters of cases, investigators can 
+estimate incubation periods and therefore narrow the 
+list of potential causative agents. Epi curves graphically 
+display the current trajectory or magnitude of the outbreak. Epi curves also allow for easy identification of 
+outliers—potential sentinel cases standing apart from 
+the remaining population. 
+ Implement Control Measures
+Investigators need not wait for definitive identification of a causative agent prior to implementing 
+meaningful control measures. Suspected outbreaks of 
+gastrointestinal or respiratory illness warrant immediate public health messaging to increase hand hygiene 
+and social distancing of ill or coughing persons, respectively. Similarly, if a toxic or harmful exposure is 
+suspected to be the root cause of an outbreak, efforts 
+0
+5
+10
+15
+20
+Number of Cases
+1
+30
+Time
+Figure 40-4. Propagated spread epidemiologic curve with hypothetical data. Propagated spread outbreaks are characterized 
+by clusters of new cases temporally segregated by approximately one incubation period. This pattern of disease outbreak 
+strongly suggests human-to-human transmission of disease.
+635
+Preventive Medicine in the Deployed Environment
+to mitigate exposure should be implemented as soon 
+as practical instead of waiting for final confirmation 
+of the exact substance responsible.
+Implementation of control measures goes beyond 
+simple removal of the offending agent. Because outbreaks represent a systematic breakdown of public 
+health infrastructure, it is necessary to reevaluate existing systems or develop new systematic processes to 
+assure public health. The epi curve can be a helpful tool 
+for visualizing the potential impact of an intervention 
+because the trajectory of cases is anticipated to decline 
+after implementation of a meaningful control measure.
+Communicate Findings 
+Good risk communication is paramount to the successful interruption of disease transmission and should 
+occur at all stages of the outbreak investigation. It is 
+not enough for investigators to swiftly interrupt transmission of disease, they must also strive to keep faith 
+with relevant stakeholders in providing timely and 
+factual information to maintain public trust. Providing early and sustained risk communication alleviates 
+fears and supports partnership between investigators, 
+authorities, and the general public. Such partnerships 
+often result in greater cooperation and more speedy 
+resolution of outbreaks. The value of regularly communicating findings throughout all stages of the contact investigation cannot be over-emphasized. Specific 
+principles and strategies for risk communication are 
+provided later in this chapter. 
+Maintain Surveillance 
+After successfully implementing control measures, 
+monitoring for additional cases remains necessary. 
+Outlier populations may continue to experience exposure to the offending agent and serve as additional 
+opportunities to eliminate transmission. Surveillance 
+remains a critical component of outbreak investigations long after the final cases are identified. By its 
+most basic definition, an outbreak is the occurrence 
+of disease at a rate that exceeds expected baseline values. Continued disease surveillance provides baseline 
+values to determine if future occurrences constitute 
+an outbreak.
+EMERGENCY PREPAREDNESS
+Though emergency preparedness is ultimately the 
+responsibility of the commander, all personnel must 
+take an active ownership role in ensuring their unit 
+remains prepared for an emergency. Medical departments play a critical role in developing, testing, and 
+executing a commander’s emergency preparedness 
+plan. Comprehensive emergency planning is not 
+restricted to active duty military forces; catastrophic 
+events also affect service member families, host nation personnel, and displaced populations. Properly 
+conducted emergency management includes identification of all potentially affected individuals in the 
+area of operations, as well as coordination of planning and response efforts with local, county, state, or 
+national stakeholder organizations. The complexity 
+of such relationships dictates the frequency and scale 
+of planning exercises that should be performed prior 
+to a disaster. The importance of stakeholder rehearsal 
+exercises for preserving life in disasters cannot be overstated. No substitute exists for drilling side-by-side 
+with stakeholder partners to identify strengths and 
+vulnerabilities of a potential unified disaster response. 
+Preparation and Planning: “All Hazards” Approach 
+Successful emergency plans are scalable for any 
+size of event and flexible enough to effectively address any variety of disaster. “All-hazards” disaster 
+planning is the most widely used approach because 
+it is sufficiently scalable and flexible. The all-hazards 
+approach identifies four phases of disaster management operations to simplify the planning process: 
+mitigation, preparedness, response, and recovery. 37 
+Mitigation actions create lasting risk reductions 
+from hazardous events by reducing known or potential 
+vulnerabilities. Examples of mitigation measures range 
+from maintaining a medically ready and vaccinated 
+force to prevent the spread of communicable disease, 
+to ensuring a medical treatment facility’s generators 
+are housed in a location unlikely to be subjected to 
+water damage from a flood or debris damage from an 
+earthquake. Mitigation measures by their very nature 
+build resilience into populations, communities, and 
+the built environment to lessen potential damage from 
+catastrophic events. 
+ Preparedness involves establishing authorities and 
+responsibilities for emergency actions and adequately 
+maintaining the necessary assets to support such 
+actions. During the preparedness phase of disaster 
+response, support staff roles are clearly defined and 
+assigned, physical supplies are procured and maintained, and contingency operations for day-to-day 
+activities are developed and rehearsed. Critical but 
+often neglected tasks during the preparedness phase 
+include cross-training responders to perform the tasks 
+of missing or injured team members and developing 
+636
+Fundamentals of Military Medicine
+alternative physical work spaces in the event a primary 
+workspace is compromised.
+The medical response to a disaster is frequently the 
+most time-sensitive component of an emergency preparedness plan. Communication is critically important 
+during the response phase of disaster management; 
+MMOs should have direct communication to the disaster command and control team or the emergency 
+operations center (EOC). Through the EOC, medical 
+departments receive casualty information, request 
+transportation and supplies, and provide command 
+with information critical for tasking precious resources.
+The recovery phase transitions a community back to 
+normal daily functioning. Documentation and surveillance of unique exposures from the disaster, long-term 
+care for the injured, and assessment of successful and 
+unsuccessful actions performed during the disaster 
+occur in the recovery phase. It is absolutely necessary 
+to use the recovery phase to reflect on the actions and 
+results of the emergency response. Recovery should 
+be used to recognize and incorporate future mitigation 
+measures and response improvements based upon 
+the successes and challenges of the disaster response.
+Military-Specific Emergency Management 
+Resources
+Commanders and MMOs have a variety of assets 
+available to assist with planning, executing, and managing disaster response and public health emergencies. 
+Within the continental United States, every military 
+installation commander has designated a public health 
+emergency officer (PHEO) by name. PHEOs have specialized training and expertise to provide commanders 
+and MMOs with guidance and recommendations on 
+preparing for, declaring, responding to, mitigating, 
+and recovering from public health emergencies. Installations outside the continental US have a PHEO at 
+each geographic combatant command headquarters.
+The military treatment facility emergency manager 
+(MEM) is a uniformed or civilian employee with specialized training and expertise essential to medical 
+emergency management. MEMs are responsible for 
+executing all-hazards emergency management activities on behalf of the commander, serving as the facility’s lead for military-civilian emergency management 
+coordination as well as the primary point of contact to 
+the installation emergency manager. 38 The MEM is the 
+primary advocate for ensuring appropriate resource 
+needs are identified to execute the mission of the medical department in an emergency. 
+VS personnel are a vital and sometimes overlooked 
+asset in public health emergency planning, training, 
+and response. VS provides subject matter expertise 
+for DoD installations and military commands for food 
+safety and security, certain associated laboratory diagnostics, biosecurity, wildlife management, and vector 
+control. Additionally, VS provides field operations 
+support services including prevention and eradication of zoonotic disease, identification of potentially 
+affected animals, animal quarantine implementation, 
+euthanasia, carcass disposal, cleaning and disinfection, 
+and strategic vaccinations and treatments for animals. 38 
+Training and Exercise Participation 
+Training is essential for emergency response personnel to become familiar with their responsibilities, 
+acquire the skills necessary to perform assigned 
+tasks, and identify potential vulnerabilities of a response plan. The MEM, PHEO, and regional health 
+departments are often repositories of excellent planning resources for MMOs tasked with developing 
+a departmental or unit emergency response plan. 
+Regional health departments routinely offer workshops and training courses to promote and develop 
+coordinated regional emergency response planning. 
+At the national level, the Federal Emergency Management Agency supports state training efforts through 
+its Emergency Management Institute, offers a variety 
+of free online courses, and publicly releases major 
+publications relating to planning for specific functions and hazards.
+RISK COMMUNICATION
+Communicating complex health information to lay 
+persons is an essential skill for all MMOs. While most 
+MMOs are comfortable providing discrete clinical 
+counseling to individual patients, effective risk communication can be challenging due to multiple stakeholder involvement, presence of media, and the highvisibility nature of events requiring intervention. In 
+many operational settings, junior MMOs are routinely 
+relied upon as the subject matter expert for all issues 
+pertaining to unit health. The ability to effectively 
+communicate complex health information factually, 
+reliably, and empathetically has a significant impact 
+on mission success. 
+Routine health promotion is an ideal opportunity for MMOs to develop risk communication skills. 
+Whether combating tobacco use, low vaccination uptake, or high sexually transmitted infection incidence, 
+the cognitive process employed to reach a vulnerable 
+637
+Preventive Medicine in the Deployed Environment
+audience remains the same. To change an unhealthy 
+behavior, an audience must: (1) receive information, 
+(2) understand the information, (3) understand the 
+message applies to them, (4) understand they are at 
+risk if they do not take protective action, (5) decide 
+they need to act on information, (6) understand what 
+actions need to be taken, and (7) be able to take action. 39 
+Effective risk communication increases the chance an 
+audience will listen and adhere to sound recommendations (Exhibit 40-2). 
+Principles of Health Risk Communication
+The occurrence of an outbreak, disaster, or other 
+event with the capacity to affect significant numbers 
+of people creates an urgent demand for information 
+among the population affected. Effective risk communication builds upon the health belief model, a framework for explaining and predicting health behaviors 
+by directly addressing an audience’s perception of susceptibility, severity, benefits of taking action, barriers 
+to taking action, cues to action, and self-efficacy. 40 Risk 
+messaging should be simple, credible, and consistent. 
+Messages should be repeated often through multiple 
+communication and media avenues and conveyed by 
+a variety of credible sources (subject matter experts, 
+commanders, elected officials, community leaders). 
+The six key principles of risk communication provide a 
+systematic approach to conveying factual information 
+and increasing the likelihood of positively impacting 
+the health of the public. 41
+Be First 
+Good risk communication occurs early and often. 
+Technology has vastly expanded the availability 
+and speed at which audiences can obtain information. MMOs should be prepared to communicate 
+risk information quickly and often, or they can 
+expect their target audience to receive information 
+elsewhere. Identification and inclusion of all stakeholders when communicating is essential; groups 
+left out of initial risk messaging may feel forgotten 
+or purposefully ignored, resulting in a substantially 
+greater amount of future efforts required in order 
+to regain their trust. 
+Be Right 
+The content of a risk communication message must 
+be factual and verifiable. Good risk communication 
+openly acknowledges when data are uncertain or 
+unknown. Speculation is strongly discouraged; messages instead should clearly state what is known and 
+what steps are being taken to investigate current gaps 
+in knowledge. 
+Be Credible
+Honesty and integrity serve as the foundation on 
+which a trusting relationship is built. Audiences accept 
+limitations of knowledge but are wholly unforgiving 
+of deception. Experienced risk communicators defer 
+EXHIBIT 40-2
+RISK COMMUNICATION EXAMPLES
+Even brief risk communication statements conveying factual information have the potential to convey unintended 
+content. Consider the following responses to a hypothetical scenario in which two sailors have been hospitalized 
+and diagnosed with Middle East respiratory syndrome coronavirus (MERS-CoV) while on overnight liberty in a 
+foreign port. 
+Example A. “Regretfully, arrival of MERS-CoV in your town was probably not preventable. We are evacuating our sailors 
+from your hospital to prevent further exposures. We have cooperated with local health officials and provided them our sailors’ 
+itineraries so exposed local nationals can be identified.”
+Example B. “We are very sorry the community has been exposed to this virus; had there been any indication our sailors were 
+sick we would not have granted liberty. We are working closely with local public health officials to identify those in the community who were exposed and limit further spread of this virus in the community.”
+Example A somewhat dismisses the importance of the event, conveys a sense the military will leave as quickly 
+as possible, and strikes a somewhat defensive tone. While the factual content conveyed is the same, the message 
+conveyed in example B expresses empathy, stresses the value of working together as partners, and reinforces the 
+idea of community.
+638
+Fundamentals of Military Medicine
+to subject matter experts to answer questions beyond 
+their area of expertise, and in doing so, bolster their 
+credibility as an honest communicator. 
+Express Empathy 
+A crisis generates physical as well as psychological 
+harm. Openly acknowledging the suffering of those 
+impacted and those who remain in potential danger 
+builds trust and rapport. Expressing empathy engages 
+an audience so they are more receptive to hear a message and provides an opportunity to communicate 
+those common threads of humanity that bind communities together. 
+Promote Action 
+Effective risk communication empowers audiences 
+with actionable knowledge. Providing easily implemented recommendations gives the public something 
+to do, calms anxiety, and restores a sense of personal 
+control. A message as simple as, “Avoid handshakes 
+and use hand sanitizer frequently,” contains evidencebased, factual information that allows the public to be 
+part of the solution.
+Show Respect 
+Individuals within a community will demonstrate 
+substantial variability in how they perceive the same 
+risk. Some individuals will be deeply affected by a crisis and feel vulnerable and wronged. Showing respect 
+through communicating in a way that acknowledges 
+perceptions of vulnerability builds trust and promotes 
+cooperation.
+Perception of Risk
+Perception of risk is highly subjective and intensely 
+personal; however, certain characteristics of risk substantially influence how a particular threat is perceived 
+by the public at large. Recognizing historical patterns 
+in how individuals and communities assess risk can 
+help planners anticipate the response expected from 
+the public and aid in shaping a risk communication 
+message. 41
+Familiarity 
+Populations exposed to a recurrent risk often become desensitized despite the continued threat posed 
+from exposure. “Routine” risks are far more readily 
+accepted than the exotic. While seasonal influenza is 
+widely circulated among the public and is responsible 
+for thousands of deaths in the United States on an 
+annual basis, many choose not to be immunized. In 
+contrast, a single case of an exotic virus in a healthcare 
+worker confined to isolation has the ability to evoke 
+an incredible amount of public concern and demand 
+for government intervention. 
+Natural Versus Manmade 
+Populations are generally far more tolerant of 
+natural disasters than those resulting from human 
+activities, even though the former are no less traumatic. Communities often accept the risk of living and 
+building in disaster-prone geographic areas; however, 
+mishaps resulting from an industrial process or failed 
+product of engineering are widely viewed as entirely 
+preventable. 
+Distribution 
+People generally are more accepting of a risk that 
+is equally distributed among the population at large 
+versus exposures disproportionately concentrated to 
+a defined group or population. Concentrated risks can 
+evoke feelings of inequality and injustice, particularly 
+when such exposures result entirely from an anthropogenic process or involve already disadvantaged or 
+vulnerable communities.
+Reputation 
+Prior performance is the strongest predictor of 
+future performance. Institutions that have built social 
+capital with a populace have reputations affording 
+substantially greater leeway in responding to a crisis 
+in comparison to untrusted or frankly unpopular institutions. Disreputable institutions suffer an additional 
+burden of past transgressions (perceived or genuine) 
+when responding to a crisis. 
+Adults Versus Children
+Communities worldwide are rightly protective of 
+their children. Exposures or illnesses disproportionately concentrated in pediatric populations can evoke 
+a particularly volatile reaction, necessitating a robust 
+and empathetic response to preserve public trust. 
+Avoiding Pitfalls
+Risk communication requires practice. Mistakes 
+are often public, and recovery is difficult. The single 
+greatest mistake an MMO can make in performing 
+risk communication is attempting to accomplish the 
+639
+Preventive Medicine in the Deployed Environment
+task alone. Vetting risk communication messages 
+through multiple stakeholders creates a much stronger product, protects against misinterpretation or 
+misrepresentation of information, contributes to unity 
+of effort in ensuring the right message is conveyed, 
+and minimizes opportunities for public disagreement 
+among leadership and subject matter experts. At an 
+absolute minimum, DoD regulations mandate public 
+statements to be cleared for release by the command 
+public affairs officer (PAO). PAOs receive specialized 
+training on communicating with the media and the 
+public. They have a wealth of practical knowledge to 
+assist in crafting and delivering a message that is effective and in accordance with the values represented 
+by the armed forces. 
+The importance of selecting an appropriate spokesperson to deliver a risk communication message is 
+equally important as the message itself. An expertly 
+crafted message is irrecoverably compromised when 
+delivered by a spokesperson of dubious credentials 
+or questionable character, or who lacks empathy 
+or expresses inappropriate humor. The selection of 
+stakeholder and subject matter expert partners also 
+sways public opinion; many communities will form 
+an initial assessment of the competence of a crisis response based on who they see sitting next to the risk 
+communication spokesperson before a single word of 
+a message is delivered. 41
+While the psychological damage of an event or 
+exposure may not manifest as readily as physical destruction, emotional trauma significantly influences an 
+audience’s receptiveness to information, and outrage 
+should not be dismissed. For this reason specifically, 
+humor has no place in risk communication because 
+its use is nearly always interpreted as callousness 
+and disrespect. 41 Lastly, overtly expressing desired 
+outcomes is acceptable; however, promises should be 
+confined to areas within absolute control. 39 A promise 
+to “ensure no further spread of the disease” is likely 
+impossible; instead, assurances such as “the team will 
+work nonstop to slow further spread of this disease” 
+are reasonably accomplishable.
+SUMMARY
+Countless examples are found throughout history 
+when communicable disease profoundly influenced 
+the effectiveness of military forces. Maintaining the 
+health and readiness of service members by preventing illnesses common in the deployed environment 
+is critical for preserving force strength and accomplishing the mission. Medical staff must be able to 
+recognize public health threats and be prepared to 
+implement meaningful control measures. Additionally, medical staff must be prepared to respond to 
+public health emergencies by effectively communicating disease risk and mitigation strategies to all 
+stakeholders, from the command staff to individual 
+service members.
+REFERENCES
+ 
+1. Centers for Disease Control and Prevention. Ten great public health achievements—United States, 1900–1999. https://
+www.cdc.gov/mmwr/preview/mmwrhtml/00056796.htm. Published 1999. Accessed June 6, 2018.
+ 
+2. UNICEF. Vaccines bring 7 diseases under control. http://www.unicef.org/pon96/hevaccin.htm. Accessed April 13, 
+2015.
+ 
+3. Centers for Disease Control and Prevention. History and epidemiology of global smallpox eradication. https://stacks.
+cdc.gov/view/cdc/27929. Published 2014. Accessed June 6, 2018.
+ 
+4. Defense Health Agency Immunization Healthcare Branch. Vaccine recommendations by AOR. https://health.
+mil/Military-Health-Topics/Health-Readiness/Immunization-Healthcare/Vaccine-Recommendations/VaccineRecommendations-by-AOR. Published 2018. Accessed June 6, 2018.
+ 
+5. Departments of the Army, Navy, Air Force, and Coast Guard. Immunizations and Chemoprophylaxis for the Prevention 
+of Infectious Diseases. Washington, DC: DoD; October 7, 2013. Army Regulation 40–562, BUMEDINST 6230. 15B, AFI 
+48–110_IP, CG COMDTINST M6230. 4G.
+ 
+6. Magill AJ. For the record: a history of malaria chemoprophylaxis. In: Brunette GW, Kozarsky PE, Cohen NJ, et al, eds. 
+CDC Health Information for International Travel 2014. New York, NY: Oxford University Press; 2014.
+640
+Fundamentals of Military Medicine
+ 
+7. Whitman TJ, Coyne PE, Magill AJ, et al. An outbreak of Plasmodium falciparum malaria in U.S. Marines deployed to 
+Liberia. Am J Trop Med Hyg. 2010;83(2):258–265. doi:10. 4269/ajtmh. 2010. 09-0774.
+ 
+8. Pellerin C. DOD mefloquine policy mirrors FDA Update on malaria drug. http://archive.defense.gov/news/newsarticle.
+aspx?id=120857. Published September 26, 2013. Accessed May 30, 2018.
+ 
+9. Brisson M, Brisson P. Compliance with antimalaria chemoprophylaxis in a combat zone. Am J Trop Med Hyg. 
+2012;86(4):587–590. 
+ 10. Takafuji ET, Kirkpatrick JW, Miller RN, et al. An efficacy trial of doxycycline chemoprophylaxis against leptospirosis. 
+N Engl J Med. 1984;310(8):497–500. 
+ 11. Brett-Major DM, Lipnick RJ. Antibiotic prophylaxis for leptospirosis. Cochrane Database Syst Rev. 2009;(3):CD007342. 
+ 12. Aldous WK, Robertson JL, Robinson BJ, et al. Rates of gonorrhea and chlamydia in U.S. military personnel deployed 
+to Iraq and Afghanistan (2004-2009). Mil Med. 2011;176(6):705–710.
+ 13. Garges E, Holmes K, MacDonald M. Emerging issues in sexually transmitted diseases: focus on the treatment of STDs 
+in military populations. Webinar presented March 27, 2013. http://www.cdc.gov/std/treatment/2010/military-webinarslides.pdf. Published 2013. Accessed April 13, 2015.
+ 14. Christopher LA, Miller L. Women in war: operational issues of menstruation and unintended pregnancy. Mil Med. 
+2007;172(1):9–16.
+ 15. Colthirst PM, Berg RG, DeNicolo P, Simecek JW. Operational cost analysis of dental emergencies for deployed U.S. 
+Army personnel during Operation Iraqi Freedom. Mil Med. 2013;178(4):427–431. doi:10. 7205/MILMED-D-12-00431.
+ 16. Wojcik BE, Szeszel-Fedorowicz W, Humphrey RJ, et al. Risk of dental disease non-battle injuries and severity of dental 
+disease in deployed U.S. Army personnel. Mil Med. 2015;180(5):570–577. doi:10. 7205/MILMED-D-14-00364.
+ 17. Mahoney GD, Coombs M. A literature review of dental casualty rates. Mil Med. 2000;165(10):751–756. http://www.
+ncbi.nlm.nih.gov/pubmed/11050872. Accessed April 24, 2015.
+ 18. Githeko AK, Lindsay SW, Confalonieri UE, Patz JA. Climate change and vector-borne diseases: a regional analysis. 
+Bull World Health Organ. 2000;78(9):1136–1147. doi:10. 1590/S0042-96862000000900009.
+ 19. Armed Forces Pest Management Board. Personal Protective Measures Against Insects and Other Arthropods of Military 
+Significance. Silver Spring, MD: AFPMB; 2015. Technical Guide No. 36. https://www.acq.osd.mil/eie/afpmb/docs/
+techguides/tg36.pdf. Accessed June 6, 2018.
+ 20. Nasci RS, Wirtz RA, Brogdon WG. Protection against mosquitoes, ticks, & other arthropods. In: CDC Health Information for International Travel 2016. New York, NY: Oxford University Press; 2016.
+ 21. Scheinfeld N. Picaridin: a new insect repellent. J Drugs Dermatol. 2013;3(1):59–60. http://www.ncbi.nlm.nih.gov/
+pubmed/16040419.
+ 22. Imported human rabies in a U.S. Army soldier—New York, 2011. MMWR Morb Mortal Wkly Rep. 2012;61(17):302–305. 
+http://www.ncbi.nlm.nih.gov/pubmed/22552206. Accessed April 13, 2015.
+ 23. Webber BJ, Ayers KJ, Winterton BS, et al. Assessment of rabies exposure risk in a group of U.S. Air Force basic 
+trainees—Texas, January 2014. MMWR Morb Mortal Wkly Rep. 2014;63(34):749–752. http://www.ncbi.nlm.nih.gov/
+pubmed/25166925. Accessed April 13, 2015.
+ 24. Woodson J. Human Rabies Prevention During and After Deployment. Washington, DC: Assistant Secretary of Defense for 
+Health Affairs; November 14, 2011.
+ 25. Centers for Disease Control and Prevention. Rabies, preexposure vaccinations. http://www.cdc.gov/rabies/specific_
+groups/travelers/pre-exposure_vaccinations.html. Published April 22, 2011. Accessed April 13, 2015.
+641
+Preventive Medicine in the Deployed Environment
+ 26. Rupprecht CE, Briggs D, Brown CM, et al. Use of a reduced (4-dose) vaccine schedule for postexposure prophylaxis 
+to prevent human rabies: recommendations of the advisory committee on immunization practices. MMWR Recomm 
+Rep. 2010;59(RR-2):1–9. http://www.ncbi.nlm.nih.gov/pubmed/20300058. Accessed April 13, 2015.
+ 27. Departments of the Army, Navy, and Air Force. Sanitary Control and Surveillance of Field Water Supplies. Washington, 
+DC: DA; 2010. TB Med 577.
+ 28. US Army Public Health Center. Worldwide directory of sanitarily approved food establishments for armed forces 
+procurement. http://phc.amedd.army.mil/topics/foodwater/ca/Pages/DoDApprovedFoodSources.aspx. Updated March 
+15, 2018. Accessed May 30, 2018.
+ 29. Department of the Army. Tri-Service Food Code. Washington, DC: HQDA; April 30, 2014. TB MED 530, NAVMED 
+P-5010-1, AFMAN 48-147 IP. http://www.med.navy.mil/directives/Pub/5010-1.pdf. Accessed May 20, 2015.
+ 30. Navy Bureau of Medicine and Surgery. Preventive medicine for ground forces. In: Manual of Preventive Medicine. 
+Washington, DC; BUMED; 1991: Chap 9. NAVMED P-5010-9. http://www.med.navy.mil/directives/Pub/5010-9.pdf. 
+Accessed May 20, 2015.
+ 31. US Central Command. CENTCOM Contingency Environmental Guidance. Macdill Air Force Base, FL: CENTCOM; 2012. 
+Regulation 200-2. https://www.cemml.colostate.edu/cultural/09476/pdf/CENTCOM_ITTR_CCR_200-2-1.pdf. Accessed 
+June 6, 2018.
+ 32. World Health Organization. Public health surveillance. http://www.who.int/topics/public_health_surveillance/en/. 
+Updated 2018. Accessed May 30, 2018.
+ 33. Navy Bureau of Medicine and Surgery. Medical Surveillance and Medical Event Reporting. Washington, DC: BUMED; 
+September 27, 2011. BUMED Instruction 6220. 12C. http://www.med.navy.mil/directives/ExternalDirectives/6220. 12C.
+pdf. Accessed May 20, 2015.
+ 34. Department of the Air Force. Surveillance, Prevention, and Control of Diseases and Conditions of Public Health or Military 
+Significance. Washington, DC: DAF; July 15, 2014. Air Force Instruction 48-105. 
+ 35. Department of the Army. Preventive Medicine. Army Regulation 40-5. Washington, DC: DA; May 25, 2007. Army 
+Regulation 40-5.
+ 36. Armed Forces Health Surveillance Center. Armed Forces Reportable Medical Events Guidelines and Case Definitions. 
+Washington, DC: DHA; 2017. https://www.health.mil/Military-Health-Topics/Health-Readiness/Armed-Forces-HealthSurveillance-Branch/Reports-and-Publications. Accessed June 6, 2018.
+ 37. Federal Emergency Management Agency. Guide for All-Hazard Emergency Operations Planning. Washington, DC: FEMA; 
+1996: 1-96.
+ 38. Department of Defense. Public Health Emergency Management within the Department of Defense. Washington, DC: DoD; 
+October 2, 2013. DoD Instruction 6200. 03. 
+ 39. Glik DC. Risk Communication for public health emergencies. Annu Rev Public Health. 2007;28:33–54.
+ 40. Janz NK, Champion VL, Stretcher VJ. The health belief model. In: Glanz K, Rimer BK, Lewis FM, eds. Health Behavior 
+and Health Education: Theory, Research, and Practice. 3rd ed. San Francisco, CA: Jossey-Bass; 2002: 45–66.
+ 41. Reynolds B, Seeger M. Crisis and Emergency Risk Communication. 2nd ed. In: Cox J, Gaines-McCollom M, Grimsley N, 
+et al, eds. Atlanta, GA: Centers for Disease Control and Prevention; 2014. https://emergency.cdc.gov/cerc/resources/
+pdf/cerc_2014edition.pdf. Accessed April 17, 2015.
+642
+Fundamentals of Military Medicine

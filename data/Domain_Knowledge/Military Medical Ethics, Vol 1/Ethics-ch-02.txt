@@ -1,0 +1,2592 @@
+23
+Theories of Medical Ethics: The Philosophical Structure
+Chapter 2
+THEORIES OF MEDICAL ETHICS: THE
+PHILOSOPHICAL STRUCTURE
+DAVID C. THOMASMA, PHD*
+INTRODUCTION
+A Definition of Medical Ethics
+An Analysis of Ethical Judgments
+ROOTS OF ETHICS: ANCIENT FORCES
+THE TREE TRUNK: TRADITIONAL ETHICAL THEORIES
+Teleology and Utilitarianism
+Deontology
+Virtue Theory
+Summary of the Traditional Ethical Theories
+BRANCHES OF MEDICAL ETHICS: DIFFERING PERSPECTIVES
+Public Policy Medical Ethics
+Applied Medical Ethics
+Clinical Ethics
+The Intertwining Branches of Medical Ethics
+PUBLIC POLICY MEDICAL ETHICS THEORIES
+Institutional Policies
+Regulations
+Legislation
+APPLIED MEDICAL ETHICS THEORIES
+Principlism
+Alternatives to Principlism
+CLINICAL ETHICS THEORIES
+Methodological Clinical Ethics Theories
+Methodological Schemas: Clinical Ethics Workups
+CONCLUSION
+*Professor and English Chair of Medical Ethics, Neiswanger Institute of Bioethics and Health Policy, Stritch School of Medicine, Loyola
+University Chicago, 2160 South First Avenue, Maywood, Illinois 60153; formerly, Director, Medical Humanities Program, Loyola University Chicago Medical Center. (Dr. Thomasma died 25 April 2002)
+24
+Military Medical Ethics, Volume 1
+Applied
+Ethics
+Benefience-in-Trust
+Four-Principle Approach
+Normative Ethics
+Libertarianism
+Communitarianism
+Principlism
+Narrative
+Feminist
+Alternatives
+to Principlism
+Institutional Policies
+Regulations
+Legislation
+Theories
+Clinical Ethics
+Clinical Ethics Rules
+Casuistry
+Unitary Theory
+Moral Pluralism
+Workup Guide
+Mediation
+Grids
+Schemas
+DEONTOLOGY
+VIRTUE
+TELEOLOGY
+PHILOSOPHY
+RELIGION
+SCIENCE
+CULTURE
+Public Policy
+Ethics
+The “ethics tree,” as shown in this frontispiece, is provided to illustrate the philosophical theories that will be presented in
+this chapter. The intermingling of religion, science, culture, and philosophy through the many centuries formed the “roots”
+of medical ethics—the traditions, virtues, and rules that support the moral life. From these roots came the “trunk”—the
+theories derived from efforts to explain and justify decisions about the moral life. The three traditional theories that
+comprise the trunk are teleology (which stresses the consequences of what we do), deontology (which emphasizes the
+importance of duties and obligations), and virtue theory (which discusses the merits of virtue and its importance in living
+the good life). The trunk, in turn, supports the three major branches of medical ethics, which deal with the moral problems
+brought about by medicine in the modern world. These three major branches of medical ethics are public policy medical
+ethics (which must address issues of a broad societal nature), applied medical ethics (which discusses applying
+medical ethics to the plethora of medical conundrums faced by practitioners), and clinical ethics (which brings all of this
+into focus by the bedside of the patient). Thus, this tree, with its roots, trunk, and branches, not only demonstrates the
+relationship between the various theories but also vividly shows the rapid growth of theories more recently, as evidenced
+in the many smaller branches filling out the tree’s top.
+25
+Theories of Medical Ethics: The Philosophical Structure
+INTRODUCTION
+Having looked at the moral foundations of the
+patient–physician relationship in the previous chapter, it is now time to discuss how medical ethics can
+be viewed from many different perspectives and
+categories. Its roots lie in the ancient professional
+commitments and codes of medicine. Its branches
+grew with each succeeding age as new challenges
+confronted these commitments. Shoots on these
+branches developed as medical science and practice began to challenge the accepted philosophical,
+religious, and cultural assumptions of the day
+(Chapter Frontispiece). For the most part this
+growth of medical ethics was regular and controlled. Since World War II, however, medical ethics has proliferated and, some would say, even blossomed out of control.
+A reason for this is that enormous technological
+advances have occurred that both threaten and challenge every aspect of human personal and social
+life, including the ancient commitments of medicine to the value of the human person and the sanctity of human life. 1 As technology in medicine expanded between World War I and World War II,
+ethical problems arose that threatened the traditional Hippocratic synthesis developed over centuries. There appeared “strangers at the bedside,”
+new agents that entered into the patient–physician
+relationship. 2 Many physicians, patients, or surrogates had to turn to ethicists, lawyers, court decisions, legislation, or other forms of clarification for
+articulating the extent and limits of their duties.
+Other physicians despaired of ever finding an ethical
+resolution. Often one hears the phrases, “there can
+be no solution to ethical dilemmas,” or “there is no
+right or wrong in such cases.”
+Just because the moral analysis required by some
+of the most pressing dilemmas is difficult, however,
+does not mean that there is no possibility of resolution. The biggest danger is to reduce moral analysis
+to personal opinion, or emotional, personal stories.
+Then, dilemmas that require the highest faculties
+would be reduced to rhetoric. Ethics is a legitimate
+discipline that parallels medicine itself. It is both
+an art and a “science.”3 It offers a systematic and
+relatively objective way to approach ethical dilemmas. This appeals to health professional educators,
+who have developed medical ethics programs over
+the past 30 years. These programs are still being
+perfected.
+This chapter explores some of the many developments in modern medical ethics. First the meaning of medical ethics will be examined by defining
+it and looking at how ethical judgments are made.
+Under that same heading of the meaning of medical ethics, the different levels of medical ethics discussion will be briefly reviewed, as well as how
+these levels are all interrelated. This point stresses
+that, despite the distinctions drawn in this chapter,
+in practice most people tend to employ a variety of
+tools from different theories in their effort to solve
+problems and to propose ethical public policy.
+The reason for organizing the chapter this way
+is that there are many theories of medical ethics,
+just as there are many kinds of medical ethics practices. Among the traditional theories that have predominated in the course of medical ethics, two
+stand out. The first is utilitarian theory and the second is deontological theory. The first theory analyzes issues in terms of consequences that produce
+a net of benefit over harms, and the second theory
+analyzes issues in terms of duties and rights. The
+first theory has always been exceptional for determining the common good when individual rights,
+duties, or responsibilities conflict with others, equally
+well-taken. The second theory, deontology, is excellent for underlining individual responsibility.
+After 30 years of success in bioethics, given the
+abstracting tendencies of both of these traditional
+theories, a search for alternative theories has arisen.
+These theories either represent traditional and
+sometimes ancient approaches to ethics, such as
+virtue theory, casuistry, or communitarian ethics,
+or they are more recent efforts to remain true to the
+concrete and complex arena of human affairs in
+which medical ethics dilemmas occur. Examples of
+the latter are feminist ethics, caring ethics, and narrative ethics. These will all be explained later. To
+complicate matters further, interdisciplinary, international, and intercultural ethics are now being
+proposed, introducing the perspective of multiculturalism to balance the overemphasis on American value systems, particularly the individualism
+that influences so much of secular bioethics today. 4
+By dividing the chapter into traditional ethical
+theories, and then the branches of medical ethics—
+public policy medical ethics, applied medical ethics,
+and clinical ethics—some sorting order is presented
+among the competing models of doing ethics. In each
+category I will present first the major viewpoints
+of a theory or model of medical ethics. Then each
+will be assessed according to its strengths and weaknesses. A unique feature of the chapter is a thor26
+Military Medical Ethics, Volume 1
+ough discussion of the newer field of clinical ethics, which represents a radical break with more traditional modes of ethics analysis, and one more
+clearly related to the practical reasoning found in
+medical clinical judgments. (Clinical ethics will be
+discussed in greater detail in Chapter 3, Clinical
+Ethics: The Art of Medicine.) This last section, therefore, includes ethics workups and methodological
+paradigms for clinical ethics analysis.
+Throughout, it will help the reader to distinguish
+different realms of ethics. In each of the above-mentioned domains of ethical theories and models, there
+are discussions in the literature at the realm of fundamental principles, the realm of axioms (interpretations of principles), and the realm of moral rules
+(ways to interpret conflicts of values, principles, and
+axioms). A good example of these realms comes
+from the injunction against lying. “Lying is wrong,”
+is a principle. An axiom might be, “It is not wrong
+to withhold the truth from those who do not deserve it”—say a Nazi storm trooper who demands
+to know if you are harboring Jewish patients in your
+hospital. 5(pp7–20) An example of a rule would be, “Lying may be morally justifiable to save a life or to
+avoid harming a person.” Figure 2-1 illustrates these
+three realms in medicine.
+It is easy to become confused about these conflicts unless one recalls that all ethical dilemmas
+involve a clash of cherished values embodied in
+long-held principles. For any person in a dilemma
+it is difficult to prioritize these cherished values,
+for example, telling the truth and saving lives, because they both seem to be highly prized and sometimes irreconcilable. Finding the right balance
+among these and other values is the heart of the
+moral life.
+What is medical ethics? Medical ethics is a broad
+term that encapsulates efforts in public and private
+discourse to act with probity. Although key terms
+in medical ethics are often used without the precision of the sciences, it is useful to spell out their
+general meaning, beginning with a definition of
+medical ethics.
+A Definition of Medical Ethics
+Before examining different types of medical ethics, one should consider briefly what ethics itself
+might be. Ethics encompasses both the study and
+the practice of moral choices and moral values, and
+the judgments behind those choices. Thus ethics
+discussion is required by every discipline and is
+essential to every human enterprise, from education
+to marriage, from business to dying, from choosing
+to have children to providing for their upbringing.
+This wide range is mandated by the fact that all
+choices involve values, some of which are moral.
+This means that they are subject to an analysis of
+the good ends of human life.
+Additionally, discussion of those ends—the goals
+of value choices—encompasses passionate discourse about the need to be moral and about what
+is a desirable goal: happiness, or simply social survival, or perhaps the maintenance of individual
+freedom. Such discussion of the higher or “meta”
+questions entails what one university president calls
+“civic republican thinking.”6 By this he means
+the obligation to participate in society in a meaningful and contributory way, because such ethical
+reflection is so badly needed in public life. In medical ethics these issues involve more concrete problems such as the goals of healthcare, critical
+self-reflection about one’s actions, and the development of autonomous decision making on the part
+of patients, physicians, and others in the healthcare
+system.
+Fig. 2-1. Comparison of principles, axioms, and rules. Principles, axioms, and rules operate on different levels of
+abstraction in ethics. This schematic shows how these function in the specific field of biomedical ethics and patient care.
+Principles
+Axioms
+Rules (Interpreting Conflicts)
+Respect for persons
+Respecting autonomy is the best way
+to respect persons
+Preserve life
+Acting in the best interests of patients
+is the best way to preserve their lives
+Relieve suffering
+The best way to control suffering is to
+relieve pain
+Good must be done, evil avoided
+Act to increase the level of good and
+reduce evil in society
+}}
+}
+Patient wishes trump all other considerations
+Double-effect
+Compassionate care
+27
+Theories of Medical Ethics: The Philosophical Structure
+Another feature of ethics is that its moral analysis can be free of faith-commitments, although individual faiths have contributed greatly to a secular medical ethics. 7 For example, the Park Ridge
+Center in Chicago was established through Project
+Ten—a study of 10 fundamental concepts in medicine from the point of view of 10 different faith traditions. These were introduced in a study in which
+Engelhardt8 argued that philosophy, not theology,
+is the queen of the sciences in a secular, pluralistic
+world. Although it has roots in religious medical ethics, modern bioethics has grown into a very sophisticated secular discipline. 7 It is becoming increasingly
+international. 9 This freedom from faith commitments
+suits the moral and religious pluralism of modern
+culture throughout the world. (See Kleinman10 for a
+further discussion of cultural relativism.)
+The focus of medical ethics is on making judgments in difficult cases, either those involving individuals and families or those that require social
+and legal policy, which requires an analysis of ethical judgments. What are they?
+An Analysis of Ethical Judgments
+Graber11 distinguishes three kinds of ethical judgments: (1) evaluative judgment, (2) judgments of
+duty or moral obligation, and (3) judgments of character or moral evaluation. Evaluative judgment is
+concerned with what is worthwhile or valuable to
+do. People make such value judgments many times
+during a day, from deciding to buy one type of car
+over another, to a statement that a career in healthcare
+is important because it assists people. Refining values such as these that shape life’s goals and activities
+are an essential function of living an “examined
+life,” as Socrates urged.
+Judgments of moral obligation concern the action to be done or avoided when making an ethical
+choice and are somewhat independent of evaluative
+judgments. Rights and entitlements are contained in
+these moral judgments, as are responsibilities to others and to society. “I must remove the ventilator
+because the patient made it clear in her advance
+directive she did not want to be maintained on one,”
+is such a judgment of moral obligation. Another example might be the axiom one often hears in medicine, “The patient comes first,” meaning that in any
+conflict of duties, the health professional must put the
+good of the patient before one’s own self-interest. 12
+The double-effect moral rule is another example
+of a judgment of moral obligation. This rule determines how to act when two or more effects are anticipated, at least one of which is perceived as evil.
+In medicine this double-effect rule is used to increase pain control at the end of life (the good effect) even though it may contribute to the patient’s
+death (the evil effect). Much of modern medical ethics has been centered around such judgments of
+moral obligation, particularly with respect to patient rights.
+The third type of ethical judgment concerns the
+character of the moral agent or agents, and expresses praise or blame. “It was evil of the Nazis to
+exterminate 9 million people,” is a very good example. Another would be, “This young nurse is an
+outstanding caregiver because she is so compassionate.” Although not enough attention in the past century has been paid to this type of ethics, it has always
+been part of the way society, institutions, and the professions themselves have shaped the kind of persons
+individuals should become, from good citizens, good
+churchgoers, and good civil servants, to good physicians, lawyers, teachers, nurses, and the like.
+All three types of ethical judgment are involved
+in moral analysis. They are complementary, but can
+function independently of each other, just as the
+three major ethical theories can. These will be examined next. Nonetheless they work best in a thorough analysis by being considered in conjunction
+with one another. Thus ethical analysis combines
+attention to the judgment of actions (roughly teleology), duties (deontology), and moral character
+(virtue theory).
+ROOTS OF ETHICS: ANCIENT FORCES
+Every society has traditions, virtues, and rules
+that support the moral life. At the point of development that permits philosophical rather than
+mythological reflection, there are usually four
+sources that feed into an ethical theory: (1) religion,
+(2) science, (3) culture, and (4) philosophy.
+1.
+Religion: Religion is the social glue that
+kept original cultures together. It provided
+the guidelines and instructions for conduct
+along with stories and myths that exemplified good modeling behavior. In secular society it is often used to describe good
+behavior as saintly, or to condemn bad behavior as sinful.
+2.
+Science: As development increased, science
+and technology grew, usually challenging
+traditional behaviors and requiring reflec28
+Military Medical Ethics, Volume 1
+tion about them. Today science provides
+both new knowledge and corresponding
+challenges. This process requires continuous
+cultural adaptation among the other forces.
+3.
+Culture: From the point of view of ethics,
+culture is the residue of past experience, a
+rich and vital source of do’s and don’ts that
+arose in response to various challenges
+one’s people faced.
+4.
+Philosophy: Philosophy is a more abstract,
+disciplined examination of situations, experiences, presumptions, prohibitions, and
+virtuous conduct in the other major sources
+of ethics. Philosophy then contributes to a
+more generalized level or “theory” of
+moral conduct beyond one’s religious and
+cultural context.
+The results of the intermingling of these four
+sources can be called the tree trunk of ethics.
+THE TREE TRUNK: TRADITIONAL ETHICAL THEORIES
+All ethics theories derive from efforts to explain
+and justify moral decisions. These decisions in turn
+require artful examination of different kinds of ethical judgments. In addition, all ethical theories share
+a broad perspective on objective morality, generating principles, axioms, and rules and providing direction to the question: Why be moral? There are
+three major theories in the tree trunk of ethics and,
+thus, in bioethics, that help answer this question.
+Teleology and Utilitarianism
+Teleological theories stress the consequences of
+actions as the first step in analyzing moral activity.
+Consequentialism is another name given to this
+class of theories. Teleology comes from the Greek
+for goal (telos) and theory (logos). Such theories argue that when the moral outcome of an action is
+unclear one must choose that action or those actions
+that provide the best predictability for a good outcome. This is known as act utilitarianism. An alternative approach is rule utilitarianism in which the
+action must conform to a rule chosen to provide the
+best predictability for a good outcome. One makes
+a choice for the most good and for the least amount
+of harm.
+Utilitarianism is most often classed as a consequentialist theory because it proposes that in conflicts, one is ethical if one chooses to maximize the
+good, and minimize the harm: “The greatest good
+for the greatest number,” is the primary ethical principle of this theory. Mill is the ethicist most identified with utilitarian theory,13 although it was first
+advanced by Bentham as an economic and social
+policy principle. 14–16
+Strengths
+The strengths of utilitarian and consequentialist
+theory in general are that the theory is outstanding
+for resolving disputes between individuals and
+groups in society. It aims also at public discussion
+and even measurement of outcomes. With respect
+to medicine and healthcare delivery, both of which
+are also focused on visible or public effects of interventions, utilitarianism especially is appealing.
+It also most often helps resolve conflicts between
+individual and public duties of professionals. Unlike deontological theory (to be discussed next),
+which has no explicit provision for resolving disagreements, utilitarianism is almost a required
+theory of industrialized and technological societies, as well as political activity itself.
+Weaknesses
+Teleological theory has been criticized often for
+the fact that one cannot predict the outcome of actions in advance; thus it is impossible to set the standards of one’s moral action on the basis of the act
+itself. Rather, deontologists argue that the ultimate
+standard must be one’s internal duty. This leads to
+the primary supposed weakness of utility as a measure of the good. Usefulness to society is not a good
+criterion for moral probity, because what society
+finds desirable may often turn out to be evil. For
+example, the Nazis argued that eugenics was necessary to save the Nordic race (the greatest good
+for the greatest number), and instituted many programs to sterilize the retarded, and enhance desired
+characteristics through sperm donation from SS
+(Schutzstaffel—the “protection echelon”) storm
+troopers in the Mutter und Kind (Mother and Child)
+program.
+Individual rights and individual conscience can
+be victims of utilitarian-like thinking. Response to
+criticism of this sort led to the distinction between
+act utilitarianism and rule utilitarianism, and to efforts to develop objective standards of the good that
+would transcend individuals and particular societies.
+29
+Theories of Medical Ethics: The Philosophical Structure
+Ethical theories, such as utilitarianism, tend to
+be abstract, often with subtle nuances. Case studies, which are used frequently in medicine, are especially appropriate in discussing medical ethics
+theories as these cases concern real people in the
+“here and now.” The following case study in truth
+telling will be revisited several times throughout
+the chapter to demonstrate the different medical
+ethical theories.
+Case Study: Truth Telling
+A 71-year-old widow is dying of end-stage breast cancer. While the cancer has metastasized to her bones and
+brain, she is still able to converse reasonably well. Her
+husband died 8 years ago. She has had to face this cancer and its relapse virtually on her own. Her two sisters
+died before her husband, one from the same disease that
+is ending her life. Her one source of comfort has been
+her only child, a computer specialist, who took a leave
+from his work for 6 months to be with his mother during
+this final episode of her life.
+As the patient slips in and out of consciousness, and
+her pain control medications increase, she asks for her
+son, Mark. “Why isn’t he here? Is Mark all right?” she
+asks. Yesterday her physician and the nursing staff were
+informed that Mark died in the patient’s home, an apparent suicide. He had become despondent over his mother’s
+impending death. According to the note he left, he wanted
+to “be there” with his aunts and father before his mother
+arrived.
+Should the healthcare providers tell the patient about
+her son’s death?
+Utilitarian Case Analysis
+How might a utilitarian analyze the truth-telling case? In a calculus of benefits and harms, a utilitarian may argue that the harm to society of dissimulation outweighs any harm to the patient
+caused by answering the patient’s questions truthfully. Dissimulation would help reinforce a common
+bad habit of physicians who always want to “hold
+out hope” for their patients. By contrast, another
+utilitarian might argue the exact opposite by examining how the truth may cause more harm to this
+patient and, by extrapolation, to all patients, and
+therefore to society at large, than avoiding answering her questions. A rule utilitarian may appeal to
+the importance of truth telling as a general guide
+in this analysis, but note that this rule would be
+trumped by other family and professional considerations. Note that different opinions will emerge
+from within the same general theory. Deontology
+is the name of the second theory.
+Deontology
+Deontological theory underlines the importance
+of one’s duties and obligations. Deon is a Greek
+word for duty. This theory was advanced by Kant,
+in part to correct for perceived excessive teleological thinking that sought rewards outside the self for
+being moral. The most obvious reward for “virtue”
+was to “go to heaven.” Kant found this objectionable because such thinking did not focus on the
+personhood in moral discourse, but rather and almost exclusively on actions and their rewards and
+punishment. Further, Kant wanted to preserve ethics in an age of rising science by establishing more
+objective standards for moral conduct, independent
+of consequences. In effect he wanted ethics to be
+more scientific and rational.
+The centerpiece of deontological theory is the
+notion of personhood. Kant elevated that notion to
+moral supremacy, arguing that a person was a human being who constructed his or her own moral
+law. This is the meaning of “autonomy,” from the
+Greek for auto (self) and nomos (law or rule). Ideally a person acted morally for no “reason” at all,
+but rather because he is required to act this way as
+a person. The answer to a child who is rebuked
+about lying: “But why is lying wrong?” should not
+be to focus on the consequences of lying—more lies
+to cover it up, eventual discovery, and so on—but
+that lying is wrong in itself. A moral person cannot
+lie because his personhood or integrity as a moral
+agent would be compromised.
+This focus on the person is what led Kant to propose that it is absolutely and always wrong to treat
+persons “merely as means and not at the same time
+as an end in themselves.”17(p47) If a person is treated
+as an end in himself, there is a requirement to respect that person’s values. Nothing can be imposed
+on others against their will, or without their consent. Indeed, Kant would urge that all persons have
+an obligation to help others accomplish their goals
+as part of this respect.
+Strengths
+Deontology helps avoid the rationalizations and
+delusions to which all human beings are prone,
+which help justify one’s personal actions and try to
+convince everyone, including oneself, that they are
+right. It corrects for “inauthentic” reasons for being moral, reasons such as that one might be found
+out, or the action would not be good for one’s
+resumé, or might result in public shame. Profes30
+Military Medical Ethics, Volume 1
+sional ethics especially originates with this conception of duty and obligation arising from the moral
+center of the enterprise itself, and not solely from
+public expectations. 3
+An important strength, too, is the effort Kant
+made to preserve ethics as a discipline, with objective referents, in a scientific age. Because Kant’s
+philosophy was idealistic, he could not claim objectivity in nature, the way earlier natural law
+theory did, which rested on what was called the
+objective moral law. (Natural law theory is a
+notion that inbuilt in human existence itself, in nature, is a “law” that impels people to do what is
+good as they perceive it. Our founding fathers often referred, somewhat solemnly, to “Nature and
+Nature’s God...” The pinnacle of referring to the
+natural law in human affairs was the founding fathers’ commitment to “self-evident truths.” Among
+them are: We are created; We are equal; We have
+inalienable rights; and, We are created, in our natures, with desires for life, liberty, and happiness.)
+Instead, Kant focused on two other objectivities, if
+they could be so called. First, the act of the person
+should always conform to the golden rule. Kant17
+expressed it this way: Act always as if what you do
+would become a universal law. This is called the
+categorical (or absolute) imperative. Its use is an
+excellent way to check any contemplated action, or
+resolution of a case. Would one want this resolution to apply in every instance? This is called universalizing one’s conduct.
+A second objectivity in Kant’s ethics is found in
+certain “side constraints,” or conditions, that can
+never be overridden for any reason whatsoever.
+Such serious moral principles might include the
+injunction against killing an innocent person,
+against lying, or against harming an innocent person. Thus, for a deontologist, such side constraints
+restrict individual liberty to calculate the greatest
+good or even to modify moral principles to suit
+one’s own self-interest. Fried notes how this differs
+from utilitarian analysis: “It is part of the idea that
+lying or murder are wrong, not just bad, that these
+are things you must not do—no matter what. They
+are not mere negatives that enter into a calculus to
+be outweighed by the good you might do or the
+greater harm you might avoid.”18(pp9–10)
+Weaknesses
+Deonotology cannot within itself provide for
+resolution of conflicts among two or more moral
+persons who profoundly disagree. Of course, they
+may peaceably dialogue, but if they both must act
+on principle to be ethical, compromise from those
+principles will, by itself, void the duty-based ethic
+and become one of utility (that is, assuming there
+is no middle ground). In the truth-telling case, the
+utilitarian effort to do the right thing may place
+truth telling secondary to not distressing the patient
+and therefore an outright lie could be morally
+justified. By contrast the deontologist has an
+exceptionless duty to tell the truth; even if it may
+be delayed for a time, the intent must be truth telling. One could never justify lying to the patient for
+any reason. The two ethical analyses seem to permit no middle ground.
+The same problem holds true for the principles
+themselves—recall the conflict between lying and
+harming in the case example. Most of life is involved
+with such compromises or the interpretation of the
+priority of some principle, axiom, or rule over another in a certain instance. This prioritizing of principles leads to current biomedical efforts to apply
+theories to practice and, also, to theories about such
+application explored below.
+Because of this conflict-resolution weakness,
+deontological theory buttresses individual moral
+action, and utilitarian theory tends to buttress social and public policy ethics. Yet the individual and
+society are intimately linked. Kant17 himself had to
+appeal to the continued existence of the community to argue that lying was always wrong, and
+Mill19 also developed strong individual conceptions
+of freedom in his essay, On Liberty, which is a different work than his utilitarian essays.
+A major way to resolve conflicts among duties,
+principles, obligations, axioms, and rules is to argue against deontology that there are no absolute
+moral principles (a position of virtue theory). Ethics is then seen as a different kind of “science” than
+the physical sciences Kant sought to emulate. Another resolution is offered by Ross, and developed
+by the four-principle approach discussed below.
+Ross proposed that such serious moral principles
+would be considered prima facie (“at first sight” or
+“at first blush”) obligations. That is to say, they
+would be taken at face value, other things being
+equal. They could only be overridden by another
+serious moral principle, and not just self-interest
+or inconvenience. Ross proposed seven prima
+facie duties. 20(pp20–21) Others have proposed more or
+fewer. 21,22(pp327–330) This attempt has the benefit of
+preserving the deontological objection to utilitarianism, and of establishing objective principles for
+agreement, but may still suffer from the weakness
+31
+Theories of Medical Ethics: The Philosophical Structure
+of neglecting the moral virtue of the agent himself.
+The person must make the decision about the seriousness of the situation and then judge which principle will take precedence.
+Deontological Case Analysis
+Using the truth-telling case, a deontologist would
+argue from principle that it is always wrong to lie
+because it also destroys the truths essential for social life. At best, a deontologist might argue that
+some delay (while intending to tell the truth) might
+be possible, for example promising the patient that
+one would “try to find out more” about why her
+son, Mark, does not come to see her anymore.
+Is there any other way out of this conundrum?
+Remember that the utilitarian would weigh the
+harm to society against the harm to the patient, and
+would come down on the side of society, even if it
+harmed the patient. The deontologist would maintain that the patient would ultimately have to be
+told, although that moment of truth could perhaps
+be delayed somewhat. How does virtue theory
+tackle this issue?
+Virtue Theory
+Virtue practices go as far back as the earliest moral
+shaping of a child by parents and a community. Virtue theories can be traced to Socrates, who, through
+Plato’s eyes, discussed the merits of virtue and its
+importance in living a good human life. Aristotle
+found the discussion of the virtues in Plato inadequate, largely because they were compared in humans to norms in the realm of ideas. Instead, Aristotle
+formulated virtue theory in his ethics as a branch of
+politics, or the study of the larger virtues of public
+life. Rather than in ideas, the virtues were to be
+grounded in both human psychology (the potentialities, proclivities, personalities, and emotions of persons) and in human affairs (the real relations of
+persons to one another in friendship and community).
+Thus, the virtues are habits formed by one’s personality, parental and social training, and professional or other standards suitable to one’s life
+choices and roles in society. A timid child, left untrained in courage, might do fine as a cautious loan
+officer, but would make a poor captain in the military. If the same child was encouraged to stand up
+for himself and his principles by his parents and
+their church, then that child may develop a virtue
+or habit of acting in a courageous way. This would
+be a result of basic personality (timidity) and hard
+work to overcome it (courage). Now as an adult,
+this individual may, indeed, exhibit courage as a
+loan officer or even as a captain.
+Further, every social group has a different measure
+of the balance of virtue in the socially complex mix of
+personal and community shaping. In one society, eating moderately is a virtue (for instance, today’s society urging everyone to stay in shape), whereas another might stress the pleasures of sampling foods
+to the point of illness or compulsion (the Roman
+vomitorium is a good example). In sports a player is
+urged to “play through the pain,” a sign of courage,
+whereas in everyday life a regular patient with the
+same injury would be counseled to stay in bed. It
+would be imprudent to keep going. Both examples,
+of temperance and of courage, are helpful because
+they show how the body itself provides some guidance for establishing a mean between extremes in any
+culture—illness that will occur due to over- or
+undereating, or damage to the body (arthritis in the
+knee) if one ignores the pain signals too much.
+For many centuries virtue theory was largely
+identified with an Aristotelian view of human nature and human social life. Later, during and after
+the Enlightenment (when rational thought was
+emphasized), virtue theory was also grounded in
+ideas of instinct, common sense, and gentlemanliness. In essence, virtue theory argues that all human beings have an inborn nature that tends to the
+good in moral actions, but needs molding and direction, and most especially repeated habitual action, to refine that nature away from vices and unbalanced or inordinate behavior. Virtues, in fact, are
+defined as good operative habits that intensify the
+potentialities of human nature from its emotions to
+its intellect and will toward good actions.
+Clearly anyone who grew up in a strong community will have been shaped this way, trained by
+parents and the community, secular and religious,
+about what sort of person one should be. Some
+strong communities raise persons considered reprehensible by others. The Nazi storm troopers of the
+World-War-II era and the Hezbollah in the contemporary Middle East are certainly recent examples.
+Within their own social and political context, such
+individuals are considered a type of patriot, a freedom fighter; to the rest of the world they are killers
+and terrorists.
+Morally strong communities stress different virtues; their language and arts are filled with stories
+and pictures of moral virtues essential for a decent
+human society: courage, love, friendship, responsibility, truth telling, faithfulness, and wisdom. 23
+32
+Military Medical Ethics, Volume 1
+The point of these stories and artistic expression is
+to emphasize the individual’s responsibility for
+choosing the good in every situation. To guard
+against a misdirected political system or a type of
+Nazi physician, Pence argued “Certain core virtues
+are always necessary for any decent society … physicians need additional virtues, such as humility (the
+opposite of arrogance), compassion, and respect for
+good science (integrity).”24(pp49–50) This theory of character of the physician was further developed by
+others such as Pellegrino and this author. 25
+Strengths
+Surely the character of the agent is crucial to
+medical ethics because the health professional is the
+conduit for interpreting and applying whatever
+theory is used. Virtue was the implicit and dominant theory in traditional medical ethics until recently. Virtue theory shares with deontological
+theory the emphasis on the moral agent. It adds to
+the moral goodness of the agent, assumed by Kant,17
+a richer appreciation of element in moral failure,
+and hence a requirement to analyze the motives of
+the agent as well. However, it shares with teleological theory an analysis of the goodness of actions too,
+because, as Aristotle and Aquinas both argued, all
+agents act for an end. 26 This means that, independent
+of a good motive, and a good human being, an action can be wrong in itself. Thus, virtue theorists
+might argue that euthanasia, although performed
+out of compassion, is morally wrong because it involves killing, itself an evil act. Alternatively, a virtue
+theorist might argue that providing uncompensated
+care for the poor is a good human act, even if done
+for illicit motives such as personal pride, because
+the act has a quality of goodness independent of
+the agent.
+Virtue theory thus can combine the strengths of
+both of the other theories. Its basic principle was
+articulated by Aquinas as, one should do good and
+avoid evil. 27 Yet, this principle itself is derived from
+a natural law theory. Thus the rich tradition of natural law theory, hotly disputed today, provided an
+anchor for virtue theory in a universal human nature rather than in the realm of Plato’s Ideas or in
+later abstract moral principles.
+As peoples’ awareness became increasingly global, such inbuilt capacities have formed opinions
+about international rights, the United Nations’
+Charter, the United Nations’ Declaration of Human
+Rights, and many subsequent condemnations of
+“local” practices such as the use of organs taken
+from condemned prisoners or purchased on the
+world’s black markets. 9
+An additional strength of virtue theory is its explicit grounding in the community. Individuals are
+not perceived separate from their own community.
+Further, virtue theory is less of an absolute certainty.
+Moral boundaries are surrounded by haziness and
+even sometimes darkness at the edges. There is
+room for nonabsolute moral judgment that is generally, for the most part, true.
+Weaknesses
+It would be simplistic to argue that a return to
+virtue could be a sole basis for medical ethics. This
+might have been possible were moral pluralism and
+relativism less a characteristic of Western society.
+MacIntyre28 has shown brilliantly how irretrievable
+is the metaphysical consensus in the modern world
+that virtue theories require. The model of good conduct, and the search for and development of a “good
+life,” require considerable public agreement and
+reinforcement of conduct that is respectful (of others, of property), honest (probity of judges), and
+dedicated (the compassionate physician). Virtue
+ethics by itself does not provide sufficiently clear
+action guides; it is too private and too prone to individual definitions of virtue or the virtuous person. At the same time, its unexamined public roots
+may harbor social consensus about the good that
+is, in fact, evil, as in the Nazi examples of loyalty to
+one’s nation and race.
+Virtue theory must be anchored in some prior
+theory of the right and the good, and of human nature in terms of which the virtues can be defined. It
+also requires a community of values to sustain its
+practice. 29 The carrying out of these virtues not only
+requires public consensus about right and good
+conduct, it also demands a metaphysical agreement
+about what counts as the good. This will require a
+conceptual link with duties, rules, consequences,
+and moral psychology, in which the virtue of prudence plays a special role. 30
+Virtue Theory Case Analysis
+Turning again to the truth-telling case in this
+chapter, it becomes apparent that virtue theory
+needs some guiding principles or standards. If two
+physicians consider themselves virtuous exemplars
+of modern medicine, both kind, courageous, and
+compassionate, they may still disagree about the
+relative importance of truth telling; one might think
+that the need to comfort the patient and be charitable toward her would require backing off her
+question about why her son no longer comes to see
+her. The other may still adjudicate the importance
+33
+Theories of Medical Ethics: The Philosophical Structure
+TABLE 2-1
+TRADITIONAL ETHICAL THEORIES AND ASSOCIATED THEORISTS
+Teleology
+Deontology
+Virtue
+John Stuart Mill
+Immanuel Kant
+Aristotle
+Goal
+Happiness, goal of action.
+A good will.
+Happiness, all actions.
+Premise
+When moral outcome is
+A person acts morally because
+All human beings have an inborn
+unclear, one must choose
+he is required to as a person
+nature that tends to be good in
+action that provides best
+(underlies the importance of
+moral actions but needs molding
+predictability for good
+one’s duties and obligations).
+and direction.
+outcome.
+Means
+A calculus of pleasures
+A good will is one that acts
+The virtues reinforce natural
+and values justifies
+from duty.
+tendencies toward happiness.
+actions.
+Meaning of
+Happiness is pleasure
+Acts are done from duty if
+The good is happiness conceived as
+the good
+and the avoidance of
+they are what reason requires.
+meshing with the common good.
+pain.
+Norms
+Act always to maximize
+Categorical Imperative: Act
+Actions should conform to the best
+the benefit (good), which
+always as if what you will do
+human behavior as evidenced by
+is pleasure. This is an
+will become universal law.
+scientific study of nature and
+absolute norm. Act
+Or, never treat persons merely
+psychology. Norms apply only
+always to maximize the
+as means only but always as
+generally and not absolutely.
+sum of pleasure for all
+ends in themselves. Norms
+who will be affected by
+are absolute.
+one’s act (Principle of
+Utility).
+Strengths
+Is outstanding for resolvHelps avoid the rationalizaCombines the strengths of
+ing disputes between
+tions to which all persons are
+Teleology and Deontology; “do
+individuals and groups.
+prone; it corrects for
+good” and “avoid evil”; is
+“unauthentic” reasons for
+explicitly grounded in the
+being moral.
+community.
+Weaknesses
+One cannot predict outCannot provide for resolution
+Is simplistic; does not provide
+comes in advance, thus
+of conflicts among two or
+sufficiently clear action guides;
+it is impossible to set the
+ more moral persons who
+is too private, too prone to
+standards of one’s moral
+ profoundly disagree.
+individual definitions.
+action on the basis of the
+act itself.
+Adapted with permission from Thomasma DC, Marshall PA. Clinical Medical Ethics: Cases and Readings. New York: University Press
+of America; 1995: 10.
+of truth above compassion. Both, however, might
+conduct a greater self-examination than is found in
+other theories, especially asking what effects lies
+make on their own lives and those of their family
+and students, as well as other healthcare providers, who look to them as role models.
+Summary of the Traditional Ethical Theories
+Before leaving the discussion of the “tree trunk”
+of medical ethics, it is helpful to briefly review the
+three types of theories that form the trunk—teleological, deontological, and virtue. As already noted,
+teleological theory stresses the consequences of
+actions. While this approach is quite helpful for
+resolving disputes between individuals and groups
+in society, it fails to address the fact that one cannot predict the outcome of actions in advance.
+Deontological theory underlines the importance of
+one’s duties and obligations. It thus helps avoid
+the rationalizations and delusions that people
+might want to use to justify their actions, but it
+cannot within itself provide for resolution of conflicts among two or more moral persons who pro34
+Military Medical Ethics, Volume 1
+foundly disagree. Virtue theory can be traced to
+ancient philosophers, such as Socrates and Plato,
+who discussed the merits of virtue—the habits
+formed by one’s personality, parental and social
+training, and professional or other standards suitable to one’s life choices and roles in society. Virtue
+theory thus can combine the strengths of both of
+the other theories. Its basic principle is “Do good,
+and avoid evil.” However, virtue ethics by itself
+does not provide sufficiently clear action guides; it
+is too private and too prone to individual definitions of virtue or the virtuous person. A further
+comparison of the three traditional theories is presented in Table 2-1.
+BRANCHES OF MEDICAL ETHICS: DIFFERING PERSPECTIVES
+Medical ethics, then, is a field of study about
+moral problems created by the modern practice
+of medicine. There are at least three distinct
+branches of the field: public policy medical ethics
+(macro level); applied medical ethics (meso level);
+and clinical ethics (micro level) each of which
+contribute to a holistic analysis of ethical issues. Overreliance on any one of them creates its own dangers. 31 They should be balanced with one another.
+Public Policy Medical Ethics
+Problems addressed in public policy ethics are
+those that affect large groups and include the right
+to healthcare for all citizens, different ideas about
+being just and fair to persons, and establishing public limits on medical treatment. An example might
+be what is called “age-based rationing,” that is, a
+proposal to cut off high-technology medical treatment after people reach approximately 80 years of
+age. Other problems for public policy are controlling medical research, ensuring drugs are made
+available for severe illnesses such as acquired immunodeficiency syndrome (AIDS), ensuring that
+research is done on diseases that affect one gender
+more than the other, and helping professions such
+as medicine, nursing, pharmacy, and physical
+therapy to establish their own professional codes
+of behavior.
+A good example of public policy medical ethics
+is provided by arguments about competitive business models of healthcare delivery, such as health
+maintenance organizations (HMOs). Do these models compromise acting in the best interests of patients (principle of beneficence); access to care and
+research for those people not covered in the plan
+(greater good); or acting for others rather than out
+of self-interest (the virtue of altruism)?
+Applied Medical Ethics
+Under this heading are examined different articulations of applying ethical theory itself to moral
+conundrums. The four-principle approach (discussed later) is a good and common example. Another approach (also discussed later) is libertarian
+ethics. Others, as mentioned in the introduction,
+provide alternatives to a principled approach by
+stressing the importance of context, narrative, and
+the perspective of caring. I will take up only a few
+of these models of application in both the principlism and alternatives to principlism categories
+that are examined next.
+Issues in this applied medical ethics branch cover
+arguments about the ethics of abortion, euthanasia,
+treating the young rather than the old when there
+is not enough medical care to go around, in vitro
+fertilization (ie, starting human life in a test tube),
+manipulating genes to bring about a better human
+being or to remove the genes that cause diseases,
+helping people conceive children, withdrawing lifesupport at the end of life, discussing whether food
+and water given through tubes can also be withdrawn
+so a person can die, and the limits of a person’s freedom to make decisions in a community.
+Clinical Ethics
+A third branch of medical ethics can be called
+clinical ethics. This branch is actually part of medical decision making itself. On a case-by-case basis,
+clinical ethics evaluates the morality of decisions
+made by and with patients and their families about
+care. The type of problems that arise in this branch
+of medical ethics include: deciding to remove lifesustaining treatment from a loved one; making decisions for patients who are either too young or too
+senile to make them themselves; responding to requests for active, direct euthanasia; or directing the
+treatment of a very retarded newborn infant. The
+range of decisions is from birth to death. 32
+The Intertwining Branches of Medical Ethics
+For the purposes of discussion, these three
+branches have been separated, but in actuality they
+work together. People with AIDS must be concerned
+about public policy regarding medications available
+35
+Theories of Medical Ethics: The Philosophical Structure
+and nondiscrimination (public policy medical ethics), they must participate in arguments about
+whether or not physicians are obliged to treat them
+(applied medical ethics), and decisions about their
+care, including their dying, must be made with their
+loved ones and physicians (clinical ethics). An elderly person must be concerned about society’s commitment to care for the aged (public policy medical
+ethics), arguments about the use of ventilators for
+elderly stroke victims who have other diseases (applied medical ethics), and making advance decisions about one’s care, such as a living will or a
+decision about whether or not one wants to be resuscitated in the event of a heart attack after entering a nursing home (clinical ethics). In general, public policy medical ethics deals with statistical groups
+of people, applied medical ethics with targeted issues, and clinical ethics with a specific patient.
+PUBLIC POLICY MEDICAL ETHICS THEORIES
+The division of bioethics into branches is my own
+idea, not necessarily shared by others. I have developed this approach to allow individuals and
+groups to understand the complexities of not just
+the decisions themselves, but also of the underlying perspectives and categories that so forcefully
+impact these decisions. Public policy medical ethics addresses a wide range of societal issues that
+have been fueled in recent years by the rapidly
+evolving fields of medicine, science, and politics.
+When medicine could only offer minimal intervention in the march of disease, societies mainly had
+to concern themselves with issues of protection, that
+is, the prevention of disease spread. But with these
+rapid new advances in areas that were scarcely understood only a few decades ago, public policy
+medical ethics has had to take on the difficult issues of who gets what in an era of burgeoning scientific possibility but limited resources, whether
+those limitations are caused by the availability of
+the treatments themselves or payment for those
+treatments. Public policy medical ethics also addresses issues of “ought” and “can.” What ought a
+society do for its members? What can it realistically
+undertake? Public policy medical ethics falls into
+the following subsets or branches: institutional policies, regulations, and legislation.
+Institutional Policies
+These are the policies developed by health institutions regarding ethical issues. Good examples
+might be whether or not to offer some reproductive services such as pregnancy enhancement (a
+fertility clinic) or pregnancy termination (an abortion clinic). An organization, and I include health
+insurance companies in this group of health institutions, might consider what its mission and philosophy might be toward accepting Medicaid patients, or perhaps taking a more active stance in
+preventing teenage pregnancies or the spread of
+sexually transmitted diseases. These organizations
+would thus be weighing what their roles should be
+in these societal issues against what their resources
+would allow.
+Regulations
+Regulatory agencies such as Health and Human
+Services (HHS), the Food and Drug Administration
+(FDA), or national health services such as the Department of Veterans Affairs (VA) direct their attention to ethical matters by instituting frameworks
+in which these matters are addressed. They publish rules such as the guidelines for research on animals and human subjects, ethical considerations in
+research on human embryos and fetal tissue, rules for
+reporting adverse effects in genetic therapy research,
+or proposed rules for allocating scarce resources
+such as human livers for transplantation. Thus,
+these various regulatory agencies bring order out
+of the chaos generated by the rapid advances in
+medicine.
+Legislation
+It is predominantly state legislatures and the US
+Congress that regularly pass legislation that includes bioethical considerations. In the past, legislation regarding the treatment and reporting of persons with AIDS, the minimum number of days in
+the hospital for giving birth, and required insurance
+coverage of emergency room treatment were good
+examples. Examples of needs that have recently
+occupied Congress include the issue of a patient’s
+bill of rights in health maintenance organizations
+(HMOs) and the need for a national health plan that
+would distribute healthcare more justly and fairly.
+In the future it is easy to imagine that legislation
+will be necessary to address what becomes of the
+information explosion that will accompany the human genome project.
+Thus public policy medical ethics provides a
+broad overview of the ethical considerations that a
+36
+Military Medical Ethics, Volume 1
+society must address in the allocation and delivery
+of healthcare to its citizens. However, despite the
+weight of these considerations, they are not the
+main thrust of this chapter. Rather, this chapter will
+focus on how ethical judgments are made by understanding the various defining philosophies that
+shape and mold these ethical viewpoints. It is only
+through an appreciation of the complexity of these
+issues that one can come to better understand how
+these oftentimes difficult decisions can be made as
+justly as possible for a patient, the family, the
+healthcare organization, and the greater society.
+APPLIED MEDICAL ETHICS THEORIES
+This discussion now turns to an analysis of applied medical ethics theories, and then to clinical
+ethics theories. Applied medical ethics theories are
+those that concern ways principles or general ethics can be helpful in situations or issues. I separate
+these into two major categories: (1) principlism and
+(2) alternatives to principlism.
+Principlism
+Key to all principlist views of applied ethics is a
+recognition of the importance of acting on principle
+in ethics. The idea of this group of medical ethics
+models in applied ethics is the weighting of the principles when applied to practice. Each model differs
+in the weight it assigns to one or another of the principles in applications to the real world situation.
+The Four-Principle Approach
+This branch of bioethics was developed by scholars such as Beauchamp and Childress, Veatch, and
+Engelhardt during their association with Georgetown University, in Washington, DC. The model
+underlines the principled approach of autonomy,
+beneficence, nonmaleficence, and justice, and is the
+leading approach in what is now regularly called
+“the Georgetown Mantra,” a phrase sardonically
+suggested by Clouser and Gert. 33 They were critical of the lack of reflection often found in analyses
+by those who apply the four-principle approach to
+medical ethical issues, even though they recognized
+how widespread the model had become.
+The philosophers who began to examine medical ethics brought a variety of well-established
+moral traditions to bear on their reflections, usually some variant of act- or rule-based teleology
+or consequentialism. But one theory, Ross’ theory
+of prima facie principles, had a particular appeal.
+It soon became the dominant way of “doing
+ethics.”20(p19) An early example of this approach
+could be found in the Belmont Report, a study by
+the President’s Commission for the Protection of
+Human Subjects in Research. There, four principles
+are used to examine the many complex issues in
+human subject research and to mold the Guidelines
+for Research that now characterize modern institutional review boards (IRBs). 34
+In that report, autonomy, beneficence, nonmaleficence, and justice were balanced with the goods
+that can be sought in biomedical research. Subsequently guidelines were established that protected
+the subject’s autonomy (by requiring informed consent), beneficence (by disclosing risk/benefit, and
+IRB review and monitoring), nonmal-eficence (by
+using clinical safeguards and testing), and justice
+(by protecting from unfair burdens of research).
+As mentioned, this approach originally was
+adapted from ethics to medical ethics by Beauchamp and Childress in their volume, Principles of
+Biomedical Ethics. 35 Beauchamp and Childress recognized the difficulties of attaining agreement on
+the most fundamental roots of ethics, on the nature
+of the good, on the ultimate sources of morality, on
+the limits and validity of moral knowledge, or even
+on which theory should predominate. To bypass
+these problems, they followed the direction taken
+by Ross and opted for prima facie principles, that
+is, principles that should always be respected unless some strong countervailing reason exists that
+would justify overruling them.
+Four principles in this prima facie category were
+especially appropriate for medical ethics—autonomy, beneficence, nonmaleficence, and justice.
+This set of principles had the advantage of compatibility with deontological and consequentialist theories, and even with some aspects of virtue theory.
+It has been applied widely to the resolution of ethical dilemmas by medical ethicists, and especially
+by health professionals.
+Strengths. The four-principle approach has several strengths. First, it reduces some of the looseness and subjectivity that characterized so many
+ethical debates. More objective standards now appear. Second, it provides fairly specific action
+guides. And, third, it offers an orderly way to “work
+up” an ethical problem in a way analogous to the
+clinical workup of a diagnostic or therapeutic prob37
+Theories of Medical Ethics: The Philosophical Structure
+lem. This point will be examined in the chapter’s
+final section on clinical ethics models.
+In addition, two of the prima facie principles,
+beneficence and nonmaleficence, are identical to the
+Hippocratic obligations to act in the best interests
+of the patient and to avoid doing harm. Finally, a
+major strength of the four-principle approach is its
+potential for cultural neutrality. This notion has
+been further explored by Gillon. 36 To the four principles he adds a concern or analysis for the scope
+of their application to individual cases or issues. A
+more recent example can be found in Gillon’s enormous exploration of the role of the four-principle
+approach in many contemporary issues, and in
+other cultures and faith-traditions. 37
+Weaknesses. The principle of autonomy directly
+contradicts the traditional authoritarianism and
+paternalism of the Hippocratic ethic, which gave
+no place to patient participation in clinical decisions. Both autonomy and justice are unfamiliar and
+even, in some sense, antithetical to beneficence and
+nonmaleficence. This conflict gives rise to one of
+the imputed weaknesses of the four-principle approach for medical ethics—its lack of grounding in
+clinical realities. Paternalism is inherent. Autonomy
+appears to be imported.
+Modern physicians have had the greatest problems
+with the principle of autonomy because it is often
+interpreted as being in opposition to beneficence.
+This is an erroneous interpretation as beneficence
+and autonomy can be linked in medicine. 38,39 Physicians have belatedly come to accept the principle of
+autonomy largely because it is central to informed
+consent and consistent with the individualistic
+emphasis on privacy and self-governance that had
+set the initial metamorphosis of medical ethics into
+motion. Many physicians and ethicists, however, are
+still not fully convinced of the soundness of autonomy
+as a primary principle for medical practices. 12
+Many fear the absolutization of autonomy, which
+may override good medical judgment or encourage
+detachment on the part of the physician. As autonomy of the patient became the primary principle
+of clinical interactions, patients were able to overturn physician beneficence in favor of their own
+freedom. Patients can choose to die rather than
+remain on a ventilator. This is a good thing. But
+what of a heart surgeon who would like two more
+weeks of therapy to discern the level of function before acceding to the patient’s demands to
+stop treatment? Thus a measure of beneficence
+could override autonomy at some point. As some
+thinkers have noticed, a view of the patient as
+individual and autonomous is fundamentally flawed
+because all people are actually vulnerable social
+beings immersed in a vast network of relationships.
+Of the four principles, justice is the most remote
+from traditional medical ethics. Despite its prominence in the philosophies of Plato and Aristotle,
+justice received no specific attention in the Hippocratic ethic, which centered on the welfare of individual patients and not society. Historically, justice
+entered medical ethics much later, usually in relationship with a physician’s forensic duties. More
+recently, for example, physicians such as psychiatrists or infectious disease specialists, caring for
+potentially dangerous patients, have had imposed
+on them a duty based in justice to warn others close
+to the patient, and even perhaps the community at
+large (as exemplified by the Tarasoff case, which is
+discussed in Chapter 3, Clinical Ethics: The Art of
+Medicine, of this volume).
+Contemporaneously, justice has entered medical
+ethics more forcibly as disparities in the distribution of healthcare have become more apparent. The
+possibility that physicians may become agents primarily of fiscal or social purpose rather than of the
+patient increases daily. Acting as “gatekeeper” or
+“rationer” poses a worrisome conflict of obligations
+for many traditionally-minded clinicians. Nonetheless, Rawls’40 sophisticated contractarian theory of
+justice and his lexical ordering of obligations and
+principles relative to distributive justice have placed
+justice squarely in the forefront of today’s medical
+ethics. His is the best modern treatment of justice.
+That justice is an intrinsic virtue of medicine still
+requires more analysis than it has traditionally received, although current interest in the ethical and
+rationing issues of managed care brings it squarely
+into focus. 22,28,41
+The authors of the four-principle approach were,
+of course, well aware of the limitations of Ross’ system of prima facie obligations—that is, the difficulties in putting any set of abstract principles into
+practice in particular cases and the difficulty of reducing conflicts between prima facie principles, or
+within a single principle, without some hierarchical or lexical ordering of the principles. Ross’ rather
+vague formula of taking the action that gives the
+best balance of right over wrong really begs those
+questions. Some standard by which to measure the
+appropriateness of the balance one comes to in
+making a decision using the four principles is still
+needed.
+To accommodate those shortcomings, Beauchamp and Childress35 proposed four requirements
+38
+Military Medical Ethics, Volume 1
+that must be met to justify “infringements” of a
+prima facie principle or obligation: (1) the moral
+objective sought is realistic; (2) no morally preferable alternative is available; (3) the least infringement possible must be sought; and (4) the agent
+must act to minimize the effects of infringement.
+These bioethicists hope in this way to steer a course
+between the absolutism of principles and the relativism of situation ethics. Their requirements are
+helpful but do not eradicate the inherent limitations
+of any set of prima facie principles that is not lexically ordered, or at least based on clinical realities
+themselves.
+The primary objection to the four-principle approach is a general critique of principlism itself as
+a methodology. Principlism appears to some to be
+too deductive. This criticism is based on a concern
+that ethics in general, and medical ethics in particular, not become too abstract and formulaic, and instead concern itself with concrete features of the
+moral life.
+Serious criticism of the four-principle approach
+was raised in the April 1990 issue of the Journal
+of Medicine and Philosophy. In that issue, Baruch
+Brody 42 called the four principles “mid-level” principles, meaning that they are, themselves, in need
+of rational justification and of a firmer grounding
+in one of the great moral traditions. Clouser and
+Gert33 decried the lack of a unifying moral theory
+that would tie the principles together and give them
+the conceptual grounding they need. Were such a
+theory available, of course, it would make the principles unnecessary. Holmes43 contended that philosophical ethics, itself, is of limited value. He called
+for “moral wisdom” for which philosophy does not
+prepare us. Gustafson44 argued that philosophy is
+an insufficient tool for confronting the broad agenda
+of biomedical ethics. He further noted that prophetic, narrative, and public policy elements must
+be included in biomedical ethics, as these elements
+are more suited than principles to resolution of key
+ethical issues in healthcare.
+In this vein, an early criticism of Beauchamp and
+Childress was that they held opposite theories (utilitarianism and deontology, respectively), yet could
+reach agreement on a fundamental approach, which
+would seem to render ethical theory useless. Perhaps instead of seeing this as a damning critique, it
+can be taken as a measure of success—especially if
+their purpose was to apply the best of the theories
+to medical ethics.
+The truth-telling case can again provide an example. The four principles are all equally important for guiding the discussion and resolution of the
+clinical dilemma of what to tell the patient. Suppose autonomy (her right to be informed in this
+case) is weighted over beneficence (acting in her
+interests to prevent her from additional suffering
+on her deathbed). The infringement guidelines still
+seem to be rather remote to the physician who has
+accepted the woman as a patient. Greater attention
+to the patient’s life story and value system, along
+with greater awareness of the healing relationship,
+is also needed to justify balancing one principle to
+have greater moral weight over another in a particular case.
+Normative Ethics
+A second, related, approach to the four-principle
+approach is what can be called a normative medical ethics. By this is meant a theory that develops
+specific norms for medicine. 45 Many remedies,
+therefore, are offered to replace, prioritize, complement, or supplement prima facie principles.
+Some proposals have already been noted. For
+example, Veatch,22 as part of a draft medical ethics
+covenant, or social contract, spells out six principles:
+(1) fidelity, (2) autonomy, (3) honesty, (4) respect for
+life, (5) justice and equality, and (6) respect for persons. Veatch is more concerned with the contract
+itself rather than the specific norms, as a theory of
+obligation that would help justify the principles to
+which all parties, physicians and patients, would
+agree. The ground for the principles would rest on
+the social contract.
+Beauchamp and McCullough38 speak of principles
+as “models” that specify goals in medicine. These
+goals in turn are values from which one derives physician obligations and the virtues of the medical profession, and presumably, those of the patients as
+well. They stress the differences between the autonomy model and the beneficence model. Both are
+normative, but both lead to different primary principles and, therefore, different moral obligations.
+Strengths. There is much to be said for a normative medical ethics. By appealing to norms one is
+able to ethically justify one’s application of theories and principles to specific cases. The norms help
+prioritize important values, such as healing, truth
+telling, and compassion, that arise as important in
+the case of the dying mother and her son, the suicide victim.
+Weaknesses. Nonetheless norms must still find
+justification for their own prioritization by appeal
+to some external lexical rule that itself cannot be
+found within the norms themselves. An external
+lexical rule is a comparative assertion. A norm may
+39
+Theories of Medical Ethics: The Philosophical Structure
+say, “I always must tell the truth.” When norms
+conflict, one must appeal to an ordering principle
+to rank them. In clinical ethics, one might rank
+norms based on a primary duty not to harm the
+patient. Truth telling would then be subordinate to
+nonmaleficence.
+There are some medical ethics theories that do
+not accept grounding in the clinical realities of
+medicine. Instead, the ordering principle of norms
+could only be found in social consensus. Veatch’s
+social contract theory, for example, requires an assumption that there is no inherent moral center
+within the discipline of medicine itself. All its values are simply socially constructed by implicit or,
+as he proposes, explicit contracts.
+Libertarianism: Primacy of Autonomy
+So far it has been shown that some normative theories might rank one principle above all others.
+Engelhardt, for example, places autonomy in the first
+order of priority,46 ahead of beneficence. 47 This is also
+the position of Childress,48 who argues that in any
+conflict, autonomy must trump all other values. It can
+be expressed as a rule that autonomous actions cannot be overruled by other values or priorities. 49–51
+More explicit debate about autonomy has been
+furthered by proposing that the basis of all bioethics, of all ethics in fact, is respect for autonomy.
+Engelhardt’s argument is that it is impossible to be
+ethical if one ignores an individual’s autonomy. For
+Engelhardt,46 autonomy is supreme in all decision
+making. His thinking develops for medical ethics a
+full-blown theory of the primacy of autonomy, derived from Nozick’s52 conception known as libertarianism.
+Autonomy, in Engelhardt’s view, is the necessary
+condition of possibility for doing ethics in a
+postmodern age. He calls it a necessary “side constraint,” thus arguing for a deontological understanding of its importance. Because there can be
+no agreement about the good in a pluralistic age
+and no assumption about primary values when all
+things are called into question, the only possible
+way to proceed in bioethics is to respect each
+individual’s autonomous thinking and behavior
+and to reach consensus through dialogue and
+resolution from this respectful vantage point.
+Engelhardt’s53 later revision of his position does not
+change this basic conception.
+Strengths. The autonomy assumption deserves
+a rich analysis because of its preponderance in
+American bioethics. For the moment, examine what
+a great burden the concept of autonomy has to carry
+in Western bioethics tradition. It is shorthand for
+a way of respecting persons. It carries with it a
+connotation of being first among equal values
+or principles. It is a requirement of all ethics. It
+functions as a condition of possibility in postmodern ethical analysis. (Exhibit 2-1 explores the condition of possibility and postmodern philosophy
+further.) It underscores the importance of the individual over the community. Because of these and
+other meanings, autonomy has become overburdened in bioethics.
+For the philosopher, autonomy almost always
+stands for the individual’s self-determination. As
+suggested above, such self-determination has acquired an almost “sanctified” quality in Western
+secular society. The words “autonomy” and “selfdetermination” have an aura in both spoken and
+written English that is hard to describe to persons
+from other cultures that might use the same words.
+The aura suggests the American revolution, the
+sense of fair play, of “no taxation without representation,” of individual rights over and against the
+state, of “don’t tread on me,” of Jeffersonian Democracy in which individuals are endowed with
+inalienable rights, including the right to liberty.
+Weaknesses. Such emphasis on autonomy tilts
+all the analysis away from the realities of the clinical setting and real-world conflicts toward a kind
+of idealism that tries to make concrete an abstraction that glorifies the individual in society to the
+detriment of the community. 54 It is important to realize that a critique of the importance of autonomy
+in bioethics is also, by its very nature, a critique of
+bioethical methodology itself, especially if that
+methodology proceeds deductively from the principle of autonomy. 5 In such a view, individual choice
+legitimates all morally-controverted issues.
+Absolutization of the patient’s autonomy, then,
+is a subject of growing concern. Libertarian assumptions implied by this emphasis have led many thinkers to counter autonomy with the need for beneficence as well. 12,55 The implications of conflicts about
+medical ethics and ethical theory for the active euthanasia discussion, to take one example, include
+the libertarian push for active euthanasia that might
+endanger the health professional’s values in caring
+for the dying patient. This push may diminish the
+moral quality of the relationship between physician
+and patient. It clearly tends to place exclusive emphasis on the needs and wants of the individual
+patient. A full-court press of autonomy leads to the
+notion that persons should be able to buy poisons
+off the shelf at the drug store without any requirement to consult with, or even be under the care of,
+40
+Military Medical Ethics, Volume 1
+a physician. This “self-deliverance” is touted as an
+ideal by some, such as Humphrey,56 in the right-todie movement. Similarly, other overemphases on
+autonomy lead to a diminished role for physicians
+who become, at best, servants of patient or consumer demands, and at worst, lackeys without a
+voice in the healing relationship. 57
+Like all assumptions about basic principles, the
+emphasis on autonomy leads to the question of
+what society ought to be. In light of the overburden on the concept of autonomy, it would be good
+to ask what autonomy actually means for the patient with illness,58 and for the health professionals
+themselves. 57 This leads to a further application
+theory proposed by Pellegrino and Thomasma,
+called “beneficence-in-trust.”
+Beneficence-in-Trust
+With the benefit of a much more developed psychology of decision making than was present at
+the time of Kant, one can add to the view he held
+that autonomy is an essential function of moral
+personhood. Decision making includes many factors interrelated among themselves and with autonomy, some of which are the stresses and strains
+of life, mental and physical well-being, and quality
+of life. 59 A far richer tapestry of ethical considerations emerges from locating the need for respecting autonomy within the patient’s life plans and
+projects. Individuals perceive and formulate their
+goals in different ways, and prepare for adjustments
+differently, too, should these become necessary. 60
+These are all elements of a person’s values that
+ought to be respected in the healthcare relationship.
+According to this application theory, rather than
+the primacy of autonomy in the patient–physician
+relationship, the physician should hold “in trust”
+the patient’s value system as far as possible. This
+position is called “beneficence-in-trust.”12 Beneficence-in-trust means acting in the best interest of
+individuals while keeping “in trust” their levels of
+moral values. Thus, it may not be as important to
+respect autonomy by respecting persons’ decisions
+as it is to provide in a healing relationship the necessary conditions for individuals to develop their
+own reintegrating techniques. Given how differently individuals exhibit autonomous behavior, it
+is important to intertwine these actions and reactions to serious illness within the patient–physician
+relationship. The therapeutic relationship itself occurs within many different contexts from primary
+care to tertiary. 61
+Beneficence-in-trust, then, proposes that the good
+EXHIBIT 2-1
+THE CONDITION OF POSSIBILITY AND POSTMODERN PHILOSOPHY
+The “Condition of Possibility” is a formal cause of an entity, event, or human activity. For an entity, progenitors are conditions of possibility. For an event like a cure, conditions of possibility might include the action of
+a chemotherapeutic agent, biochemical and cellular responses, and the personal and professional interaction
+of doctors and patients. For a human activity like ethics, a condition of possibility is a necessary requirement
+for proceeding further.
+“Postmodernism” is a current movement eschewing all theory in favor of concrete contexts and situations. It
+recognizes cultural plurality. Thus, to be ethical in this environment one must dialogue to reach consensus
+with many interests and stakeholders. One condition of this dialogue must be respecting other persons’ rights.
+Today’s postmodern philosophy will probably not be helpful in reducing the burden of autonomy. For example, Rorty denies the possibility of arriving at any truths through philosophy and the relevance of any
+theory of reality. 1 Derrida (as discussed by Madison) likewise denies that there is any truth, only the appearances and words to which we impute whatever meaning we think they may have. 2 Williams takes the same
+skeptical view of ethics and moral accountability. 3,4 These writers demolish philosophy, theology, and ethics
+simultaneously in full capitulation to the Nietzschean legacy. 2 For Nietzsche, the idea of one truth was an
+illusion: All we are capable of discussing are multiple truths seen from many perspectives which are incommensurable with each other. 5
+(1) Rorty R. Philosophy and the Mirror of Nature. Princeton, NJ: Princeton University Press; 1979. (2) Madison GB. Coping
+with Nietzsche’s legacy—Rorty, Derrida, Gadamer. Phil Today. 1992;36:3–19. (3) Williams B. Ethics and the Limits of Philosophy. Cambridge, Mass: Harvard University Press; 1985. (4) Williams B. Moral Luck. Cambridge, Mass: Harvard University
+Press; 1981. (5) MacIntyre AC. Three Rival Versions of Moral Enquiry: Encyclopaedia, Genealogy, and Tradition. Notre Dame, Ind:
+University of Notre Dame Press; 1990: 32–57.
+41
+Theories of Medical Ethics: The Philosophical Structure
+in medicine is healing. This good is an inherent
+quality of the discipline itself, and the basis on
+which all parties in a therapeutic relationship can
+agree. From this good are derived moral axioms that
+make medicine a moral enterprise.
+A second consideration for beneficence-in-trust
+is the family context, a conglomerate of individual
+life plans and values found in the individual’s “biography,” and the family and work context that helps
+shape those values and that biography. These values
+are important because they embody a set of personal
+choices the individual has made over the years. In
+fact, values can be seen as the consistent basis for
+decisions the individual made in the past, decisions
+in which choices among goods had to take place.
+In the truth-telling case introduced earlier, it is
+overwhelmingly clear that the mother and son had
+a close and caring relationship. The knowledge that
+no relationship runs automatically and that all relationships take hard work, maintenance, and upkeep, suggests just how valued was this arena of
+the patient’s life. Straightforwardly honoring her
+wish to know may be a form of cruelty that would
+abandon her to her own autonomy. One strategy
+for beneficence-in-trust might be to answer her by
+emphasizing their loving bond not being broken by
+his absence. In this strategy the value or “truth” of
+the relationship she had with her son is valued over
+telling her he committed suicide.
+Strengths. Hence, for the beneficence-in-trust
+approach, undue emphasis on autonomy is faulty,
+because it may be based on inadequate views of the
+patient’s decisional strategies. These strategies are
+based on fundamental values that might precede
+expressed wishes. Thus the value hierarchy of the
+patient is more important than a spur-of-the-moment decision. The patient’s individual view of
+what counts as autonomy may be different than that
+of the physician. A responsibility of the healthcare
+professional is not so much to respect decisions,
+although that is surely the case, as to create an environment and a treatment plan that empowers the
+decision on the basis of the patient’s values.
+Such decisions take place over time and require
+that both patients and physicians transcend the
+sphere of moral strangers, and become, in some
+sense, friends to one another. 62 This point has profound implications for the goal of treatment, the
+amount of time that patients and physicians must
+spend with one another, and the types of questions
+that ought to be asked during medical encounters.
+At the very least, negotiation about the good to be
+achieved ought to take place explicitly. It should be
+apparent to everyone what the “treatment plan”
+should be.
+However, not all goods and services need to be
+negotiated. Some limits ought to be established ahead
+of time, for instance, whether or not physician-assisted suicide is to be permitted, or whether medically futile treatment can still be requested. Most
+importantly, autonomy is part of an indi-vidual’s
+circumstances of life, and cannot be understood
+apart from the particularities of that life, cultural
+experiences, personal history, expectations of the
+medical relationship, and family and personal values.
+Weaknesses. The major weakness of the beneficence-in-trust model lies in the way healthcare is
+taught and delivered today. If physicians are not
+helped to explore their human experiences and to
+be sensitive to the human pathos and finitude that
+is part of falling ill and dying, then responding to
+these deeper values in the patient’s life story becomes difficult, if not impossible. 63 This makes the
+problem of healthcare providers and patients being strangers even more important.
+Healthcare today is offered by strangers to
+strangers. When confronting one another as strangers, patients and physicians alike must spend time
+examining fundamental values, something not always possible or reimbursable. Dialogue about values is essential for the proper respect for autonomy
+and for the personhood of the patient. This is so
+because autonomy is less about decisions than
+about the structuring of one’s values over time.
+The next category of theories, alternatives to
+principlism, roots the normative principles of medical ethics within the context of a person’s story, and
+helps one to understand why ethics situated in the
+patient’s story has become so important today as
+another type of application theory. Thus, rather than
+basing one’s professional ethics in, and rather than
+resolving medical ethics dilemmas by, appealing to
+more abstract principles and moral theory, one does
+so by the more complex route of examining (and
+reexamining) value priorities behind decisions arising from the healing relationship between physician and patient, and the web of decisions they both
+have made in their lives. These application theories, then, provide the strongest foil to relying solely
+on principlism for ethical analysis.
+Alternatives to Principlism
+Communitarian Ethics
+To many medical ethicists, a welcome relief from
+recent overemphasis on individualism in bioethics
+is provided by communitarian ethics. Led by
+Etzioni at Washington University in St. Louis, Missouri, communitarians stress that with powerful
+42
+Military Medical Ethics, Volume 1
+individual human rights come powerful human
+responsibilities for meeting the community’s needs.
+Some typical communitarian arguments are, for
+example, that children should participate in medical research because they are members of their societies. 34 With the proper consent and oversight of
+parents or guardians, they need to be trained in their
+obligations to others in the community. Another
+communitarian argument can be found in proposals to increase the supply of organs for transplantation by stressing duties to one another in society.
+For example, Harris,64 an English ethicist, suggested
+that one’s body ought to become the property of
+the government at death. In this way organs could
+be retrieved because they are in such scarce supply
+at present. Strictly speaking, then, communitarian
+ethics proposes a new moral theory, and is not itself a theory of application.
+Loewy65 has written extensively about the faults
+of an autonomy-based ethics for bioethics from the
+point of view of the community. Loewy’s argument
+for communal ethics goes much deeper than just a
+critique of libertarianism, or an argument for obligation and responsibility for one another, however.
+He seeks to establish the moral foundation of ethics in the capacity to suffer. This is an expansion of
+the communitarian ethic not followed by others.
+Exhibit 2-2 develops his argument further for the
+interested reader.
+Strengths. Faced with the reality of pluralism,
+one cannot expect agreement on principles or ideals. One must turn in the other direction, back towards nature and the nature of mankind itself, for
+some universal grounding. Then, too, the awareness of the capacity to suffer, for example, permits
+one to value more than the mind (principles, values, axioms, and so forth) in ethics, and forces all
+people to evaluate their life situations. In turn, those
+life situations involve, among many things, caring
+for one another. However, a purely caring ethic as
+discussed below (without objective guidelines)
+would lead to a vacuous justification of actions on
+the basis of “care” or “commitment” alone. As
+Loewy66 points out, the Nazis certainly “cared”
+about the survival of their society in carrying out
+their extermination programs.
+Weaknesses. Nonetheless, this approach too easily dismisses the role of ethical theory in working
+out individual case resolutions. 67 If more abstract
+principles are seen as transcendent to individual
+lives, their merit is derived from the moral experiences of many peoples in many epochs. If the structures of suffering, or other bases for communitarian
+ethics, are seen as immanent to human experience,
+they also function across time and civilizations. The
+task of interpreting either ethical principles or moral
+responses to these human capacities or both is always subject to interpretation. Interpretation is
+EXHIBIT 2-2
+“SUFFERING” AND COMMUNITARIAN ETHICS
+Erich Loewy represents a more fundamental position within the field of communitarian ethics. While he is
+sympathetic to virtue ethics, the merits of Kantian and utilitarian ethics, and casuistry as a method in clinical
+ethics, he argues that clinical ethics needs a firmer grounding in a more universal principle than any of these
+theories can provide. He argues that “a deeper and more universal grounding can be found in the capacity of
+sentient beings to suffer.”1(p85) From this straight forward concept, Loewy builds a hierarchy of value: individual beings who can suffer have primary moral worth (ie, worth in and of themselves); those beings who
+cannot suffer have secondary moral worth (ie, worth only to others); and those beings who once had this capacity,
+but no longer do so (eg, a person in a vegetative state), have symbolic value only (ie, they remind us of what
+they once were), but no longer possess primary moral worth. One can readily see why Loewy would support
+transplant of organs from anencephalics, for example, but not from an otherwise healthy pig or monkey.
+The concept of suffering as a moral basis for ethics is an important return to a new kind of natural law theory
+that would ground our obligations in physiological function. However, caring must dovetail into the structures of suffering and relief common to all animals. Otherwise we could too easily take our interpretation of
+adequate responses to suffering as moral truth.
+(1) Loewy EH. The role of suffering and community in clinical ethics. J Clin Ethics. 1991;2(2):83–89.
+43
+Theories of Medical Ethics: The Philosophical Structure
+shaped by the individual’s own contemporary culture, traditions, and professional training. Thus, if
+a communitarian ethics is relied on totally, one
+might miss the wisdom embodied in the formulations of more abstract principles.
+Narrative Ethics
+A major alternative to the four-principle approach is narrative ethics. Largely an import into
+medical ethics from theories of literature, but also
+from religious ethics, narrative ethics underscores
+the importance of the individual’s story for a proper
+moral analysis. Indeed, the argument goes, narrative ethics locates the primacy of different principles
+and the richness of their meaning within the context of a person’s story.
+Another source of narrative ethics comes from
+an emphasis upon negotiation in the patient–physician relationship. Very few patients, for example,
+choose to exercise their right to complete advance
+directives about their care. Most prefer to leave the
+judgment about their care, should they become incompetent, to either their physicians or their families. This seems surprising to autonomy advocates.
+On the surface it might be.
+But consider that healthcare is offered in the context of relationships—one’s relationships with one’s
+own life and family, workplace and culture, and
+within the quasi-mystical relationship itself of the
+healer and the patient. 68 Patients seem to recognize
+ahead of time that the story of sickness and health
+is a variable one, not one subject to absolutely firm
+a priori conditions that can always be laid down
+ahead of time. 69,70 Thus, persons in such relationships, both the patient and the physician, are
+“bound” by such stories in ways that have not as
+yet been fully explored in bioethics.
+Strengths. Principles, it is said, are too abstract,
+too rationalistic, and too removed from the moral
+and psychological milieu in which moral choices
+are actually made; principles ignore a person’s character, life story, cultural background, and gender.
+They imply a technical perfection in moral decisions, which is frustrated by the psychological
+uniqueness of each moral agent or act.
+Furthermore, principles, and indeed all primary
+values, need further explication to defend their
+prioritization in a particular case. Using the truthtelling case as an example, note that arguing for either the primacy of truth telling or the primacy of
+paternalism (protecting the mother on her deathbed
+from the horrible news of her son’s suicide) requires
+argumentation based on her unique situation at this
+time, her value system, sensitivity to relationships,
+the healing task, and the professional duties of physicians. Principle-based ethics may be ineffective in
+the complexity of these considerations.
+Weaknesses. These objections from narrative ethics against a four-principle approach are well-met,
+yet it seems that some variation of the four-principle approach will survive the criticisms leveled
+against it. First, “principles”—that is to say, fundamental sources from which specific action guides,
+like duties or rules, derive and are justified—are
+implied in any ethical system. The Hippocratic
+ethic, for example, was virtue-based, but its action
+guides were rules and principles. Second, there are
+equally serious limitations found in any alternative
+theory to principlism. Third, the necessity and utility of principles become increasingly evident when
+one tries try to apply the alternative theories to actual cases; and, finally, principles are not inherently
+incompatible with other theories. The real question,
+as old as moral philosophy itself, is how to go from
+universal principles to individual moral decisions
+and back again.
+Feminist Ethics: Ethics of Caring
+More radical than other theories of application,
+some (or most) feminist ethics reject the four-principle approach to varying degrees. There are at least
+three forms of this theory. The first is a “softer” form
+than the other two.
+This form argues that a feminist perspective can
+enhance current medical ethics by providing a different, complementary point of view of a formerly
+male-dominated field. Primarily this additional
+perspective centers on holistic perspectives on the
+sick person and the healing relationship. The argument seems to be a culturally determined one:
+Women are traditionally expected and trained to be
+more sensitive than men to relationships, contexts,
+and value histories. By contrast men are considered
+to be interested in abstractions. In the truth-telling
+case, women associated with the patient’s care
+might add the perspective of what it is like to be a
+mother dealing with the loss of a son.
+The second form of feminist ethics is more critical than the first. It tends to argue that the previous
+perspective is so warped by a need to formulate
+principles and abstractions, that a different ethic
+altogether is required. This ethic is often called the
+ethic of caring, which, as already mentioned, dovetails with a communitarian ethic. Presumably a
+44
+Military Medical Ethics, Volume 1
+focus on this ethic as a domain of women suggests
+that if males do “care,” they do so in radically
+different ways that historically, at least, have evacuated the emotional life out of ethical analysis.
+Arguing abstract moral principles about truth telling
+and duties at a dying mother’s bedside is, according
+to this view, not just unfortunate, but desiccated. It
+does not represent authentic care for the patient.
+Caring is the main aim of healing relationships. 71,72 Adherents of this view hold that women
+are more caring than men in the way they approach
+ethical decisions. They are presumed to be more
+interested in relationships than individual assertions, in reconciliation than in winning arguments,
+in “attachment” than detachment, and in nurturing rather than dominating.
+The third form of feminist ethics is completely
+radical. It holds that there is no validity at all in
+any other approach than a feminist mode of reasoning. Identifying all previous moral theory as the
+product of a male-dominated society, this form of
+radical feminism targets the entire medical complex
+as flawed, and asserts that it must be tossed out in
+favor of the insights brought to bear from a comprehensive feminist point of view. It is difficult to
+see how this position would differ from the other
+two with regard to caring for the dying mother in
+the truth-telling case, except perhaps to emphasize
+how the delivery of care itself is flawed. In particular, the proper care for the son in this relationship
+with the mother, it might be argued, was clearly
+ignored or mishandled. That might be what led to
+his suicide.
+Strengths. There is no question that overly theoretical reasoning has characterized ethics in the past.
+Then, too, few would, or could, deny the necessity
+of an account of caring in any comprehensive theory
+of medical ethics. 73,74 Further, both academia and the
+medical profession itself have been male-dominated
+until recent times, lending credence to at least the
+suspicion that such domination also contributes to
+thought patterns and general assumptions about
+ethics. Gilligan’s75 research on different patterns of
+moral reasoning, on which some of these forms of
+caring ethics are based, is a serious philosophical
+contribution to rectifying this myopia.
+Weaknesses. There are both empirical and philosophical objections to the care model of moral reasoning, and to the application theory itself. 76,77
+Flanagan78 noted that gender differences, for example, may be based more in social class, culture,
+self-image, and personal ideals than in the developmental psychology of Freud or Kohlberg. In the
+latters’ analyses, moral development takes the form
+of greater and greater abstraction, moving primitive, narcissistic motives to be good (“I don’t want
+to get caught.”), through rule-bound behavior
+(“Stealing is wrong.”), to acting on the basis of major values that may mean taking risks (“I can steal
+these drugs to save someone’s life.”). By contrast,
+Gilligan’s ideas of moral development stress compassion for, and sensitivity to, individuals within
+their contexts, as well as consulting with others. She
+bases her views on research regarding how men and
+women differ when analyzing moral dilemmas and
+trying to make difficult ethical decisions.
+These gender differences and their contribution
+to medical ethics surely should be factored into any
+future biomedical ethic. But “caring” is subject to such
+wide varieties of interpretation that it, too, needs
+some grounding in a principle or rule to be a trustworthy guide to specific ethical decision making.
+As already noted, Loewy79 has effectively argued
+that the Nazis, too, “cared” about their programs,
+thus establishing the need for more objective standards in medicine than care itself. In the end, moral
+psychology is an adjunct to, but not a replacement
+for, ethical principles.
+CLINICAL ETHICS THEORIES
+A third category of theories are those that offer a
+methodological basis for clinical ethics judgments.
+This field is so new that very few explicit theories
+of clinical ethics have been proposed. I offer my own
+distinctions among them; however, these distinctions are not widely recognized. A number of approaches are worth summarizing here. They fall into
+two broad categories: methodological clinical ethics theories and methodological schemas. The theories are explained first, then the schemas are
+grouped later under one subtitle.
+Methodological Clinical Ethics Theories
+Casuistry
+Another alternative to principlism, particularly
+appealing to clinicians because it focuses on concrete and particular cases, is the revival of casuistry. 80 The casuist looks for cases that are obvious
+examples of a principle, that is, a case on which
+there is sure to be a high degree of agreement among
+most, if not all, observers. The casuist then moves
+45
+Theories of Medical Ethics: The Philosophical Structure
+from the clear to more dubious cases and puts them
+in order by paradigm and analogy under some principle. Casuistry, therefore, does not eschew principles,
+nor is it incompatible with them. Its nemesis is the
+absolutization of principles.
+Casuistry has an ancient past. It is the heart of
+the Jewish moral tradition. After the Reformation
+it entered into Roman Catholic moral theology as
+well, first as a method of pastoral care and then as
+a moral theory in its own right. Casuistry was (and
+is) not without controversy. Note that it depends
+on a paradigm case. Reasoning from that standard
+case to the particular one at hand involves comparison, analogy, and interpretation. Over time and centuries “principles” might emerge from many similar cases, but these would be inductively derived,
+and would perhaps not be applicable to new, unforeseen situations.
+Casuistry is familiar and accommodating in clinical ethics. It closely parallels reasoning from case
+precedents in Anglo-Saxon law, and clinical reasoning in medicine, where the patient’s situation is
+compared to “the classic description” of a disease.
+Strengths. Casuistry focuses on a paradigm case
+from which the new case resolution is derived by
+analogy. This process almost exactly parallels the
+process of clinical reasoning itself, which relies
+upon “the classic picture” of a disease entity, and
+then compares the circumstances of the new patient
+to that classic case. It is therefore an important
+model that is understandable to clinicians, even
+with its historic problems.
+As such, then, the rejuvenation of casuistry looks
+like an idea whose time has come, given the caveats expressed thus far about overly abstract moral
+theory. It is particular, detail- and case-sensitive,
+and requires almost exquisite sensitivity to the
+subtle nuances of caring for the individuality of the
+patient and her values. How often have you heard
+a teacher or colleague refer to a personal experience with a difficult case to exemplify how to behave now, in the face of another similar case?
+Weaknesses. Casuists try to circumvent the
+moral pluralism of contemporary society by historical analogies with the past. But casuistry is a product of the culture of the Middle Ages when there
+was consensus on certain principles (the Ten Commandants, for example). It runs into difficulties
+when there is no such consensus, because the moral
+viewpoint of any society defines both what it considers a dilemma and what counts as a paradigm
+case. 81,82 Casuistry, as it was used in Jewish and
+Catholic moral theology, functioned within a context
+of a common belief in God, the destiny of humankind, and the acceptance of authoritative interpretation and rules. 83 No such consensus exists today
+in a pluralistic society.
+More to the point, no such consensus exists
+even within a moral community. The heart of this
+objection lies in the argument that using paradigm
+cases from the past is like comparing apples and oranges. The paradigms don’t “fit,” so the argument
+goes, and hence the analogies with current cases are
+invalid. Two brief examples bring this problem to
+the fore.
+A pulmonary specialist might ask a Rabbi
+whether it is ever justifiable to withdraw a ventilator from a dying patient. The Rabbi may compare
+this dilemma with a paradigm case that happened
+in a Russian village in the 14th century. There a
+woodchopper was disturbing the dying process of
+a neighbor. The families disputed. Eventually the
+Rabbi was consulted. He resolved the issue by determining that even though one disputant depended for his living on woodchopping, nothing
+should be permitted to disturb the neighbor’s dying, as that was a call from God. Today’s Rabbi would
+then apply the story by asserting that anything could
+be withdrawn that “disturbs” (ie, prolongs) the dying process even if the physician’s living “depends
+on” (ie, is “oriented to”) preserving life.
+Note the problems, however. Today’s medical
+environment is virtually nothing like a 14th century
+Russian village. Common beliefs are not shared.
+Persons may not agree that dying is God’s calling a
+person for a final journey. Or a different Rabbi (more
+Orthodox, for example) might arrive at a different
+conclusion. Notice, too, how a moral community
+of the 14th century is different from the pluralistic
+society of today.
+A second example further demonstrates this
+point. In arguing about the morality of separating
+conjoined twins when one is directly killed in order to reconstruct the heart of the other, one might
+refer to a plethora of analogous situations84—each
+analogy is “like” the separation case. Killing one to
+save another in a hostage situation, killing in combat to avoid being captured by the enemy, a machine on which two persons depend and one must
+die, fetal reduction in multiple pregnancies, to some
+extent survival of the fittest, and so on.
+In every example a great deal of interpretation
+occurs, not only about what features of the current
+and paradigm cases are parallel, but also some
+analogies between key concepts in both cases. Further, the conclusions from one commentator to an46
+Military Medical Ethics, Volume 1
+other may differ.
+As a result, casuistry can function as a method
+of case analysis, but not as a reliable guide for moral
+theory or practice. Yet this criticism can be leveled
+against all clinical ethics theories because, by their
+very nature and purpose, their focus is on clinical
+resolution rather than on justification of moral
+theory.
+Moral Pluralism
+A different approach is offered by several thinkers who have developed clinical ethics. Jonsen,
+Siegler, and Winslade define clinical ethics as “the
+identification, analysis, and resolution of moral
+problems that arise in the care of a particular
+patient.”85(p3) Their book on clinical ethics develops
+models of reasoning for each set of clinical problems they address under different categories. In effect, these authors define patterns of cases that call
+forth different kinds of moral analysis depending
+on the pattern. Combining the wrong kind of moral
+analysis with a different category of cases leads to
+poor outcomes. A good example would be using
+public policy analysis, which works for larger questions of allocation of healthcare, to the truth-telling
+case of the dying mother and suicide son.
+Baruch Brody,86 in another example, proposes a
+theory of moral pluralism for clinical ethics. His
+goal is to provide a moral framework for analyzing
+questions of conflicting values and resolving them.
+The name he gives to his model is “the model of
+conflicting appeals.” The pluralism of his approach
+is evident as he writes: “The moral theory advocated in this book is not an abstract moral theory, a
+theory whose mode of application is unclear. It takes
+from each of the traditional abstract moral theories
+a component that needs to be combined with components of other theories in a way that produces a
+type of model for decision making that can be applied to difficult cases.”86(p8) In effect, then, mixing
+and matching theories and concepts leads to a perception of pragmatism in employing different theories and concepts. One uses what works. After all,
+ethics, like medicine, is a practical discipline. It
+seeks resolution and good (defensible) conduct.
+Unitary Theory
+A number of ethicists have argued that clinical
+ethics is a type of moral hermeneutic. 87 Hermeneutics (after the Greek messenger to the gods, Hermes)
+is a name for a theory of interpretation. It has already been shown how much interpretation is involved in moral analysis of cases. One view of
+hermeneutical clinical ethics theory is that medical
+practice itself in the clinical context can function as
+a unifying principle for other theories of ethics. Put
+another way, clinical ethics as medical hermeneutics interprets the clinical situation in light of a balance of other values that, while guiding the decision making process, also contribute to the very
+weighting of those values. In this view, the case itself originates ideas not only about which values
+ought to predominate in any resolution but also
+about clinical rules that might become useful in
+other, similar cases.
+What the clinical ethics theories under this rubric share, then, are moral strategies for resolving
+classes of cases rather than just individual ones.
+Further, there is a theory attached to these strategies. This theory (what I call unitary theory) proposes why one, rather than another, moral strategy
+is appropriate for each class or category of cases. A
+simple example would be that autonomy analysis
+would apply to a competent patient. The limits of
+the physician’s recommendations might be effortful
+persuasion. If the patient is incompetent and has
+no valid or trustworthy surrogates, then autonomy
+analysis is less important than that based on beneficence. This is why advance directives are still debated—are they adequate to discover the alert but
+incompetent patient’s values, for example?88
+Clinical Ethics Rules
+Related to the normative ethics theory (which is
+one of the alternatives to principlism that has already been discussed), clinical ethics rules is yet a
+different model. This model establishes a set of clinical ethics rules that would help interpret important
+principles with respect to different kinds of cases. 89
+An example of such a rule about self-determination
+and critical illness might be: “The less likely a good
+outcome might be, the lower the quality of consent
+or advance directive that is required to withhold or
+withdraw care.” Obviously, if one can hold out some
+hope for a critically ill patient, then his or her consent to continue to treat is important to obtain.
+At the other end of the scale, if there is no hope,
+then according to this clinical ethics rule, a physician would not be required to obtain consent, for
+example, to withhold resuscitation efforts. (This is
+called a unilateral DNR [do not resuscitate] order.)
+Note that rules such as these derive from many
+year’s experiences with patient care, rather than
+47
+Theories of Medical Ethics: The Philosophical Structure
+solely from moral theory itself.
+Along these lines, the most specific clinical ethics methodology with the least amount of theory
+can be found in a small, useful book by Junkerman
+and Schiedermayer,90 intended for clinicians. The
+authors, like Jonsen, Siegler, and Winslade before
+them, take up specific clinical problems, for example
+the incapacitated patient, and in several short steps
+help a clinician ask the right questions and provide
+needed information (about the law, ways to assess
+competence, and other issues). 90
+By contrast, the most theoretical clinical ethics
+proposal can be found in Graber and Thomasma,
+Theory and Practice in Medical Ethics. 5 The authors
+propose a “unitary theory” of medical ethics, stated
+as follows:
+Certain conditions (C) are present in this case such
+that the probability (X) exists that Value (V) A will
+be judged more important than B by (I) interpreters because the Principle (P) P’ will more likely
+apply to the case than P”. 5(p194)
+This statement abstracts from the various components of forming a clinical ethics judgment and
+the clinical ethics methodologies that have been
+considered in this discussion. Note that it also tries
+to protect the role of moral principles as well. Reflect back on the truth-telling case and apply this
+unitary theory:
+Conditions (C) are present in this case—the
+mother is dying and the son committed suicide.
+These conditions make it more probable (X) that the
+values of compassion, respect, protection from
+harm, avoiding anxiety (V A1, A2, A3, A4, etc.) will
+be judged more important than other values such
+as respecting her autonomy, her right to know, and
+answering truthfully (V B1, B2, B3, etc.). The virtues
+of the interpreters (I) also enter into the decisional
+schema. Physicians involved in caring for this dying mother will be likely to interpret the “A” values to be more important in this case than the “B”
+ones compared to, say, lawyers or an ivory-tower
+philosopher. Finally, defense of the priority of the
+“A” values over the “B” ones means that the principle (P) of nonmaleficence (P’) will be invoked
+more than the principle of autonomy (P”).
+The reason for abstracting this unitary theory
+from clinical ethics methodologies is to stress the
+need to pay close attention to each and all of the
+components, rather than just to one or another. This
+general theory closely follows and impacts other
+independent views of the nature of clinical ethics
+in that: (a) it is a process of decision making involving a case to be resolved; (b) certain prominent conditions are creating the moral dilemma; (c) there are
+values at risk that must be weighed and balanced;
+(d) interpreters such as the patient and physician
+must perform that adjudication; and (e) moral principles that function as objective standards must be
+reconciled with the actions in the case.
+These theories of clinical ethics hold out great
+promise as long as they are not misperceived as a
+foundation for moral theory itself. All such theories attempt to distill the best of more general moral
+theories down to a lesser level of clinical abstraction. 91 There is a limit to the ability of ethics to conform to medical realities, however. The language
+and concerns of medical ethics sound very different than the language of cardiology or other specialties that are brought to bear on patient care.
+Hence, as Sheehan notes, “problem solving in clinical ethics is a necessary but not sufficient goal in
+teaching.”92(p292)
+Yet the primary purpose of medical ethics is practical. As Howard Brody notes: “Medical ethics, after all, is supposed to be a guide to action; and our
+high-sounding ethical theories and methods will
+look unimpressive if they do not, in the end, offer
+practical guidance in the sometimes confusing
+world of medicine.”21(p35)
+Methodological Schemas: Clinical Ethics Workups
+Instead of focusing on clinical ethics theories
+for resolution of conflicts, many medical ethics
+educators developed their own methodological
+schemas—clinical ethics workups. These are
+practical models for “working up” a case. These
+workups can be accomplished using grid models, workup guides, or mediation models, or perhaps even some combination of approaches in the
+really difficult cases. What works best for any
+given individual will be guided by the specifics
+of the case as well as the ethicist’s own particular theoretical views, as has already been discussed in this chapter.
+Grid Models
+There are many grid models in the literature, but
+for the purposes of this discussion the focus will be
+on the three most commonly used: the “Thomasma
+Contextual Grid,” the “Glaser Grid,” and the
+“Siegler Grid.”
+The “contextual grid” model lexically orders pri48
+Military Medical Ethics, Volume 1
+macy of place to autonomy or to beneficence or even
+to paternalism for public safety according to levels
+of criticality of care, on the one hand, and levels of
+numbers of persons affected on the other. 61 This
+model (Figure 2-2) underscores the importance of
+context in prioritizing values. Consider, for example, the lowered requirement for consent in the
+emergency room (ER) than in a primary care setting or the difference between triage that would be
+performed for a serious burn affecting one patient
+and that performed on a busload of children burned
+in a crash. The most intense disaster might be exemplified by Hiroshima or the battlefield where triage is aimed at those least injured and most likely
+to survive rather than at those most severely injured
+and therefore least likely to survive. Grids such as
+Fig. 2-2. The Thomasma contextual grid. This contextual grid model orders the seriousness of the medical event,
+combined with the numbers of persons involved, to assist caregivers in ethical decision making. As the level of
+seriousness of the illness or accident increases from 1 to 3 (vertical bar), the less the caregivers need to be concerned
+about autonomy and the greater the degree of beneficence and even paternalism that might be justified in order to
+save an individual’s life. So in box 1, primacy of place belongs to patient choice in working with a physician in a
+primary care setting. By contrast, in box 3, in an emergency situation, primacy of place goes to the assumption that
+life must be saved, and an intervention begun unless the individual specifically objects. Similarly along the horizontal axis, the greater the number of individuals affected, say a family in the 2nd tier, or society in the 3rd, the greater
+the justification to act for the common good over the objections of individuals. A good example might be a cholera
+outbreak, or the requirement to obtain inoculations before attending school. The grid illustrates how the context
+helps clarify and even determine the balance of principles in resolving each moral dilemma that arises in health care.
+It is not sufficient to argue that one or another principle should always predominate in medical ethics.
+Source: Thomasma DC. A contextual grid for medical ethics. In: Bruhn JG, Henderson G, eds. Values in Health Care:
+Choices and Conflicts. Springfield, Ill: Charles C Thomas Publishers; 1991: 117–118.
+this one help everyone understand why priorities
+among values and duties vary, not just from case to
+case, but also from context to context.
+Glaser has proposed a unidimensional grid (Figure 2-3) in that he believes there is really only one
+ultimate principle, beneficence, which he calls the
+“neglected constant of ethics.” Conflict occurs, he
+thinks, not among principles so much as among
+realms. He identifies three realms: the personal,
+the institutional, and the social. In his view, there
+is no human possibility for resolving conflicts
+among these realms, but he does propose a model
+for moving from the personal to the social. 93 Considering the truth-telling case, then, Glaser might
+argue that its inherent conflict between compassion
+and truth telling is actually a conflict between actOne Person
+Family/Community
+Society
+
+
+Tertiary One
+Tertiary Group
+Tertiary Society
+
+
+1–3
+2–3
+3–3
+
+
+
+
+S econdary One
+Secondary Group
+Secondary Society
+
+
+1–2
+2–2
+3–2
+
+
+
+
+Primary O ne
+Primary Group
+Primary Society
+
+
+1–1
+2–1
+3–1
+Level
+of
+Care
+Number of Persons Affected
+49
+Theories of Medical Ethics: The Philosophical Structure
+Fig. 2-3. The Glaser unidimensional grid. Glaser conceptualizes beneficence as the “overlooked constant of ethics”—it is the
+foundational principle for bioethics. In any ethical decision, the underlying intention is to “do good”—the dilemmas arise
+when there are competing goods to be done. This concept involves identifying the underlying and possibly conflicting
+beneficent goals. Typical ethical analysis has focused exclusively on the individual physician’s duty of beneficence to the
+patient. However, there is also a reciprocal beneficence required from the patient to other individuals. There is a still wider
+view of beneficence involving institutions and societies doing “good” as well. This describes three realms of beneficence.
+The grid expands this further to look at doing good to individuals, institutions, and society within each of these realms.
+Glaser proposes an analysis of the three fundamental realms of beneficence utilizing a grid of concentric circles to illustrate
+the complex relationships between these three realms.
+Individual beneficence: The simplest realm of beneficence is the realm of individual beneficence. Here the concern is primarily with the good of individuals and their relationships, relationships that exist within one individual between various
+values and needs—physical, emotional, mental, and spiritual—and between two or more individuals. However, there is an
+element of beneficence required from the individual toward the institution or society. Therefore, in this realm of individual
+beneficence there are three subperspectives: (1) within and between individuals, (2) from individuals toward organizations,
+and (3) from individuals toward the larger society.
+Organizational beneficence: Normally the use of the word beneficence has only individuals as its referent. The present
+analysis understands beneficence in terms of organizations as well. Organizations are both subject and object of beneficence. A primary object of organizational beneficence is the net organizational good, that is, a state of organizational vigor
+and development that enables the organization to maximize its purpose now and into the future. But such pursuit of the
+organizational good must also consider the individual good of those within the organization. Organizational beneficence
+must also attend to the common good of the society within which the organization exists. Thus there are three subperspectives:
+(1) primarily to the organizational good, (2) while considering the good of the individual, and (3) the good of the overall society.
+Societal beneficence: The final realm of an ethic of beneficence is that of society. Societal beneficence is another term for the
+ethics of the commons. The many conflicting needs/goods of the commons—education, housing, defense, health care, art,
+infrastructure, and so forth—must be balanced to achieve the common good. But in seeking this common good of society,
+the good of individuals and the good of organizations cannot simply be ignored. As in the other two realms of beneficence,
+the concern must look in three directions: (1) primarily to the common good—the net good of society as a whole—and
+secondarily to (2) the good of organizations and (3) the good of individuals.
+Determining the primary level of ethical concern: Most issues have ethical significance on all three levels and need to be
+addressed on each level appropriately. However, these levels are rarely of equal importance. Some issues are primarily
+“institutional issues,” with the individual/societal levels being secondary considerations. Other issues are primarily issues
+of individual ethics, and still others are essentially issues of society ethics. One of the fundamental starting points for
+ethical discussion will be to determine which level is the preeminent level of ethical importance.
+Adapted with permission from Glaser JW. Three Realms of Ethics: Individual, Institutional, Societal. Kansas City, Mo: Sheed &
+Ward, 1994: 10–15. Copyright© 1994, John W. Glaser.
+1. INDIVIDUAL REALM
+a. Individual Good
+b. organizational good
+c. societal good
+2. ORGANIZATIONAL REALM
+a. individual good
+b. Organizational Good
+c. societal good
+3. SOCIETAL REALM
+a. individual good
+b. organizational good
+c. Societal Good
+I
+I
+I
+O
+O
+O
+S
+S
+S
+50
+Military Medical Ethics, Volume 1
+ing in a personal relationship tied to the particulars of the mother’s case and acting as an agent of
+the hospital or of society (which might require balancing the case more towards truth telling than
+compassion).
+Siegler developed a grid of four primary issues
+through which one would work to analyze a case. 94
+This four-category grid (Figure 2-4) was later employed by Siegler and his co-authors, Jonsen and
+Winslade, as the basis of their book on clinical ethics. It focuses on: (1) indications for medical intervention, (2) patient preferences, (3) quality of life,
+and (4) socioeconomic factors. 85(p5) One first establishes whether there is a problem in the first catFig. 2-4. Four-dimension grid in ethical analysis. An ethical analysis should begin with an orderly review of these four topics.
+Jonsen, Siegler, and Winslade recommend that the same order be followed in all cases: (1) medical indications, (2) patient preferences, (3) quality of life, and (4) contextual features. This procedure will lay out the ethically relevant facts of the case (or show
+where further information is needed) before debate begins. It should be noted that this order of review does not constitute an
+order of ethical priority. The topics of medical indications, patient preferences, and quality of life bring out these essential features of the case. Yet every medical case is embedded in a larger context of persons, institutions, financial and social arrangements. Patient care is influenced, positively or negatively, by the possibility and the constraints of that context. At the same time,
+the context itself is affected by the decisions made by or about the patient. Adapted with permission from Jonsen AR, Siegler M,
+Winslade WJ. Clinical Ethics: A Practical Approach to Ethical Decisions in Clinical Medicine. 4th ed. New York: McGraw-Hill; 1998: 5–12.
+MEDICAL INDICATIONS
+1. What is patient’s medical problem? history?
+diagnosis? prognosis?
+2. Is problem acute? chronic? critical? emergent? reversible?
+3. What are goals of treatment?
+4. What are probabilities of success?
+5. What are plans in case of therapeutic failure?
+6. In sum, how can this patient be benefited
+by medical and nursing care, and how can
+harm be avoided?
+CONTEXTUAL FEATURES
+1. Are there family issues that might influence
+treatment decisions?
+2. Are there provider (physicians and nurses)
+issues that might influence treatment decisions?
+3. Are there financial and economic factors?
+4. Are there religious, cultural factors?
+5. Is there any justification to breach confidentiality?
+6. Are there problems of allocation of resources?
+7. What are legal implications of treatment
+decisions?
+8. Is clinical research or teaching involved?
+9. Any provider or institutional conflict of interest?
+QUALITY OF LIFE
+1. What are the prospects, with or without
+treatment, for a return to patient’s normal
+life?
+2. Are there biases that might prejudice provider’s evaluation of patient’s quality of life?
+3. What physical, mental, and social deficits
+is patient likely to experience if treatment
+succeeds?
+4. Is patient’s present or future condition such
+that continued life might be judged undesirable by [him/her]?
+5. Any plan and rationale to forgo treatment?
+6. What plans for comfort and palliative care?
+PATIENT PREFERENCES
+1. What has the patient expressed about
+preferences for treatment?
+2. Has patient been informed of benefits and
+risks, understood, and given consent?
+3. Is patient mentally capable and legally competent? What is evidence of incapacity?
+4. Has patient expressed prior preferences
+(eg, Advance Directives)?
+5. If incapacitated, who is appropriate surrogate? Is surrogate using appropriate standards?
+6. Is patient unwilling or unable to cooperate
+with medical treatment? If so, why?
+7. In sum, is patient’s right to choose being
+respected to extent possible in ethics and
+law?
+51
+Theories of Medical Ethics: The Philosophical Structure
+egory, and then moves through each of the others
+in turn, noting where difficulties arise. This commonly used grid stresses factors or realms that must
+be considered in clinical judgments that most often
+arise in refusal of therapy during end-of-life decision making. It does not lead to the self-critical ethical analysis found in the “Clinical Ethics Workup
+Guide” to follow. Jonsen, Siegler, and Winslade covered a whole range of issues with their analysis.
+Howard Brody focused on a decision tree analytic
+method to cover similar issues. 21
+Clinical Ethics Workup Guide
+Others have targeted a specific patient population for a workup. A good example is Pellegrino’s95
+effort to combine both a substantive and procedural framework for analyzing cases that arise in
+perinatology and neonatology. His ten-step workup
+(Exhibit 2-3) differs slightly from the next example,
+but moves, as the latter does, from facts, through values, to a decision and its justification. Similar efforts
+have been made to target issues in other specialties. 96
+The clinical ethics workup guide described here
+was developed by the author in 1973, and was first
+published in 1978. 97 It was used as the basis both
+for a philosophy of medicine98 and for the structure
+of a course. 99 It is reproduced here (Exhibit 2-4) as
+an example.
+EXHIBIT 2-3
+PELLEGRINO’S TEN-STEP WORKUP
+1.
+What are the facts—diagnosis, prognosis, treatment?
+2.
+What are the clinical options for action?
+3.
+What does the clinician perceive as his ethical problem with each option?
+4.
+Separate the ethical from the nonethical issues for the clinician.
+5.
+Give moral implications for each option, with moral arguments for and against each choice.
+6.
+On the basis of the above, decide what the right and good thing is to do.
+7.
+Define the nature of conflicts between and among decision makers, moral and nonmoral.
+8.
+Are these conflicts resolvable or negotiable?
+9.
+Reexamine your own decisions in light of all the above.
+10.
+Taking all into consideration, what is in the patient’s best interest to the extent that it is ascertainable?
+Source: Edmund D. Pellegrino, MD, John Carroll Professor of Medicine and Medical Ethics, Georgetown University,
+Washington, DC.
+Mediation Models
+Unlike the previous workups, there is another,
+newer modality that moves in a different direction.
+In keeping with utilitarian and narrative ethics,
+mediation and conflict resolution models tend to
+try to “open up” the discussion rather than to reach
+closure right away. In this sense they are like discursive or consensus ethics for which no immediate principle is on the table for discussion other than
+a commitment to listen and appreciate individual
+viewpoints. The first step of such an ethical workup
+is not to avoid conflict, but to own it, not to move
+away to the realm of principles, but to stay committed to solving small pieces of the problem. 100 This
+method is based on principles of arbitration and
+mediation, and promises to help in the clinical management of difficult moral conflicts. 101
+Strengths. Workups are perhaps the ultimate
+teaching and analytical tools in clinical ethics. They
+demonstrate clearly that ethics is a discipline,
+and that following a pattern of thought assists
+healthcare professionals in establishing what values are at risk and how seriously a course of action
+must be defended. They also have the potentiality
+for considering all of the human factors in a case,
+as narrative ethics requires.
+Weaknesses. In the end, the individuals employing the workup must present a coherent and defen52
+Military Medical Ethics, Volume 1
+EXHIBIT 2-4
+ETHICAL WORKUP GUIDE
+The workup is an attempt to distill from the discipline of ethics an essential process of moral reasoning which
+can be applied to ethical dilemmas in patient care. Other heuristic devices are available as well. The workup
+itself should not be an object of extensive discussion, but rather the points towards which it guides the discussion of the case itself.
+No attempt is made to force you to take one or another ethical position. Instead, you are asked to follow only
+one absolute: Come up with an ethically justifiable course of action for the patient that meshes with your
+professional duty to act in the best interest of the patient.
+Step 1: What are the facts in the case? Be sure to research any medical facts not presented in the case, but possibly
+relevant to its outcome.
+Step 2: What are the values at risk in the case? Describe all relevant values of the physicians, patients, housestaff,
+nurses, hospital administration, the institution, and society. This may not be an exhaustive listing of interests
+in the case.
+Step 3: Determine the principal conflicts between values, professional norms, and between ethical axioms, rules and
+principles. Conflicts can occur among prima facie values, absolute values, norms, axioms, rules, and principles,
+and/or amongst each other. The primary conflict, in the final analysis, is the one you determine it to be. In
+determining this primary conflict, you should explain if you think principles and values are absolute and
+whether to be ethical means to act on principle, whether you hold that they are only at first glance, that is,
+prima facie absolute, and can yield to other important values and principles in the case.
+Step 4: Determine possible courses of action, and which values and ethical principles each course of action would protect
+or infringe. At this step you will grapple with fundamental moral theory. Are you willing to seek a solution that
+is based on a single principle? Or are you willing to note that each decision you might make will place some
+values, principles, etc., at risk? Would you then be satisfied with being a utilitarian, that is, by protecting as
+many values and principles as possible in the case?
+Step 5: Make a decision in the case. Decide upon a course of action for resolving the ethical dilemma.
+Step 6: Defend this course of action. Why is “X “ better than “Y”? In defending this course of action, ask whether
+consensus ethics is appropriate. Is doing what most think is right, necessarily right? Should the decision rest
+on a single value or principle? Instead should it protect as many values as possible? Or should it rest on the
+virtue of the caregivers or institutions in which it takes place?
+Respond to each of the following:
+1.
+Were any values, principles, norms, axioms, rules weighted more heavily than others? If so, which
+values, principles, etc., were most important to protect and why? If not, was the case decided by
+protecting as many of the values in the case as possible?
+2.
+Try to identify the type of moral reasoning applied in resolving the case (utilitarian, deontologic,
+virtue-ethic, care ethics, casuistic ethics, other) and state whether it was used because of your general
+preference in similar situations or because of its particular applicability to this specific case.
+3.
+Universality test: Would you be willing that your decision and its reasons become universal law, and
+apply to every similar situation or to yourself? Is this test actually a valid way to determine what is
+ethical?
+4.
+What role does society play in making this decision palatable? Can you imagine a different society
+and a different solution? Would the decision require you to change the political system or the way
+health care is delivered? Are social and political duties a feature of the nature of the profession and
+clinical judgment? Do you believe in cultural relativism?
+5.
+How does this decision relate to others you have made in your life, in courses, and in actuality as a
+professional?
+Reproduced with permission from Thomasma DC, Marshall PA. Clinical Medical Ethics: Cases and Readings. NewYork: University Press of America; 1995: 11–12.
+53
+Theories of Medical Ethics: The Philosophical Structure
+sible moral theory of their own for their position. A
+good goal of all medical education, then, is that students can articulate and defend their value judgments with their patients, their peers, and in society at large. Those value judgments of necessity
+involve priorities the individual professional must
+employ and defend.
+In summary, there are no perfect or absolute theories to guide the ethical practitioner through the
+difficult decisions that must be made for some patients. Making a serious medical ethical decision can
+be difficult, not only due to the problem but also to
+the method or theory employed. Each theory has
+its strengths and weaknesses. Furthermore, each
+theory differs from the others, sometimes starkly,
+sometimes in more subtle ways. This chapter has
+used the truth-telling case to weave a consistent
+thread throughout the exploration of ethical theories. Exhibit 2-5 summarizes the resolution of the
+truth-telling case as it appeared in the chapter.
+EXHIBIT 2-5
+RESOLUTION OF TRUTH-TELLING CASE ACCORDING TO SPECIFIC THEORIES
+Case synopsis: A 71-year-old widow is dying of end-stage breast cancer. She is heavily medicated but is still
+able to converse reasonably well. Her husband died 8 years ago; her two sisters are also dead, one of breast
+cancer. Her one source of comfort has been her only child, who took a leave from his work for 6 months to
+be with his mother during this final episode of her life. As she slips in and out of consciousness, she asks for
+her son. She does not know that he committed suicide the day before, leaving a note indicating that he
+wanted to “be there” with his aunts and father before his mother arrived. Should the patient be told that her
+son is dead?
+Theory
+Action
+Reason
+Utilitarian
+Tell patient
+ Prevents harm to society because it prevents doctors
+from “holding out hope” when there is none
+or
+Don’t tell patient
+Prevents harm to this patient (unnecessary grief),
+other patients, and thus to society as a whole
+Deontology
+Tell patient
+Protects the truths essential for social life
+or
+Delay telling patient
+Would still ultimately tell patient, thus protecting truths
+Virtue Theory
+Back off telling patient
+Keeps the patient’s dying process dignified
+or
+Tell patient
+Truth outweighs compassion and is essential for human
+character
+Beneficence-in-Trust
+Don’t tell patient; instead
+“Truth” of her relationship with her son is more imporemphasize that the bond
+tant than the truth of his suicide
+with patient’s son is not
+broken by his absence
+Narrative Ethics
+Cannot use this theory to
+Narrative ethics is too complex for a case such as this
+determine an action in
+one, more of the patient’s and son’s story would have
+this case
+to be known
+Feminist Ethics
+Tell patient
+Women understand relationships between mother and child
+Unitary Theory
+Don’t tell patient
+Values of compassion, respect, and protecting from harm
+outweigh her autonomy, her right to know, and answering truthfully
+54
+Military Medical Ethics, Volume 1
+CONCLUSION
+A brief glance back over the various theoretical
+domains (public policy medical ethics theories, applied medical ethics theories, and clinical ethics
+theories) and the levels of moral reasoning (principles, axioms, and rules) is sufficient to show why
+developing a coherent ethical methodology is complex. This holds true for all walks of life, but certainly so for medicine.
+One physician or patient might hold a rightsbased ethic, while another might hold a duty-based
+ethic. Similarly, one might stress the virtues necessary to ensure rules are followed, while another
+might stress the importance of developing public
+standards and protocols for ethical treatment. Still
+another might hold respect for persons as a primary
+principle, while another would prefer to reason in
+the tradition of utilitarianism. Because of this moral
+pluralism, MacIntyre argued that persons in different spheres of moral enquiry, with their different
+traditions, start from such radically different perspectives that they are almost incapable of conversing with one another.
+Nonetheless there is in medical ethics more hope
+for a better grounding of principles, rules, virtues,
+and moral psychology than in any other field of ethics. That hope rests on the universality of the phenomena of the experiences of illness and healing
+and on the proximate and long-term aims of medicine. The advantages of applied medical ethics theories and clinical ethics theories, especially the fourprinciple approach, can be preserved if they are
+grounded in the realities of the patient–physician
+relationship. The discussion in this chapter of problems with the primacy of autonomy demonstrates the
+reasoning required for giving priority ordering to
+the principles based on the relationship itself.
+Clearly, the proposed alternatives to “principlism”
+can enrich any theory of medical ethics. None is independent of principles, rules, or obligations. Otherwise any theory succumbs to the debilities of subjectivism and relativism. What is required is some
+comprehensive philosophical underpinning for
+medical ethics that will link the great moral traditions with principles and rules and with the new
+emphasis on moral psychology. A true moral philosophy of medicine is required. But where to turn?
+A radical relativism today is reinforced by the
+growing awareness of cultural pluralism. As the
+Western version of ethical theories noted in this
+chapter comes into contact with other cultures,
+sharper definitions of points of conflict and agreement can be expected. One of the most important
+features of the debate about bioethics in the United
+States today is the growing awareness of the inadequacy of the autonomy assumption. Increasingly,
+as American bioethicists encounter their colleagues
+from other parts of the world, the autonomy assumption becomes more glaring as a critically
+unexamined component of their thought.
+Yet experience teaches that persons from different cultures can agree on ethical standards. Such
+experience calls into question the ultimate importance of resolving fundamental disputes about the
+nature of persons and the cultural environment, and
+instead focuses attention on the practical realities
+that shape common experience.
+In bioethics the major struggle has been to direct
+technology to good human ends. Despite debates in
+academic spheres about the proper ethical theory,
+physicians and patients will ask within their relationship, “What is the right and good thing for me to
+do?” “What counts as ‘the’ good for patients, and what
+kind of actions will achieve it?” No one making practical ethical decisions can escape these questions.
+In the last 30 years, the philosophical underpinnings of medical ethics have undergone a profound
+development. There is no predicting where this
+development will lead, especially as individual
+awareness of other values increases due to almost instantaneous communication with people and thinkers from other cultures. Physicians and other
+healthcare professionals must be familiar not only
+with traditional ethical theories, but also with attempts to work out their application to many clinical
+and other practice situations, such as managed care.
+After all, medical ethics, like medicine itself, is a fusion of theory and practice. Only in this way will they
+help establish the medical ethics of the 21st century.
+REFERENCES
+1.
+Campbell CS. The crumbling foundations of medical ethics. Theor Med Bioeth. 1998;19(2):143–152.
+2.
+Rothman DJ. Strangers at the Bedside: A History of How Law and Bioethics Transformed Medical Decision Making.
+New York: Basic Books; 1991.
+55
+Theories of Medical Ethics: The Philosophical Structure
+3.
+Pellegrino ED, Thomasma DC. A Philosophical Basis of Medical Practice: Toward a Philosophy and Ethic of the Healing Professions. New York: Oxford University Press; 1981.
+4.
+Marshall P, Thomasma DC, Bergsma J. Intercultural reasoning: The challenge for international bioethics. Camb
+Q Healthc Ethics. 1994;3(3):321–328.
+5.
+Graber GC, Thomasma DC. Theory and Practice in Medical Ethics. New York: Continuum Books; 1989.
+6.
+Donovan LJ. Ethics: Our heritage. Georgetown Magazine. 1995;27(1):37–42.
+7.
+Engelhardt HT Jr. Bioethics and Secular Humanism: The Search for a Common Morality. Philadelphia, Pa: Trinity
+Press International; 1991.
+8.
+Engelhardt HT Jr. Understanding faith traditions in the context of health care: Philosophy as a guide for the
+perplexed. In: Marty ME, Vaux KL, eds. Health/Medicine and the Faith Traditions. Philadelphia, Pa: Fortress Press;
+1982: 163–184.
+9.
+Thomasma DC. Bioethics and international human rights. J Law Med Ethics. 1997;25(4):295–306.
+10.
+Kleinman A. Medicine, anthropology of. In: Reich WT, ed-in-chief. Encyclopedia of Bioethics. Rev ed, Vol 3. New
+York: Macmillan; 1995: 1667–1674.
+11.
+Graber GC. Basic theories in medical ethics. In: Monagle JM, Thomasma DC, eds. Medical Ethics: A Guide for
+Health Professionals. Rockville, Md: Aspen Publishers; 1988: 462–475.
+12.
+Pellegrino ED, Thomasma DC. For the Patient’s Good: The Restoration of Beneficence in Health Care. New York:
+Oxford University Press; 1988.
+13.
+Mill JS. Utilitarianism. Indianapolis, Ind: Hackett Publishing Company; 1979.
+14.
+ten Have H. Jeremy Bentham: Een quantum theorie van de ethiek. (Jeremy Bentham: A Quantum Theory of Ethics)
+Kampen: Kok Agora; 1986.
+15.
+Bentham J. An Introduction to the Principles of Morals and Legislation. Oxford: The Clarendon Press; 1823.
+16.
+Mill JS. Principles of Political Economy: With Some of Their Applications to Social Philosophy. Ashley WJ, ed. Fairfield,
+NJ: AM Kelley; 1987 [reprint of 1909 edition].
+17.
+Kant I. Foundations of the Metaphysics of Morals. Beck LW, trans, Wolff RP, ed. Indianapolis, Ind: Bobbs-Merrill; 1969.
+18.
+Fried C. Right and Wrong. Cambridge, Mass: Harvard University Press; 1978.
+19.
+Mill JS. On Liberty. New York: FS Crofts & Co; 1947.
+20.
+Ross WD. The Right and the Good. Oxford: The Clarendon Press; 1930.
+21.
+Brody H. Ethical Decisions in Medicine. 2nd ed. Boston: Little Brown & Co; 1981.
+22.
+Veatch RM. A Theory of Medical Ethics. New York: Basic Books; 1981.
+23.
+Bennett WJ, ed. The Book of Virtues: A Treasury of Great Moral Stories. New York: Simon & Schuster; 1993.
+24.
+Pence GE. Ethical Options in Medicine. Oradell, NJ: Medical Economics Company, Book Division; 1980.
+25.
+Pellegrino ED, Thomasma DC. The Virtues in Medical Practice. New York: Oxford University Press; 1993.
+26.
+St. Thomas Aquinas. On Aristotle’s Love and Friends, Ethics, Books VIII–IX. Guway P, trans. Providence, RI: Providence College Press; 1951.
+56
+Military Medical Ethics, Volume 1
+27.
+St. Thomas Aquinas. Summa Theologica. Fairweather AM, trans. Philadelphia, Pa: Westminster Press; 1954.
+28.
+MacIntyre AC. After Virtue: A Study in Moral Theory. 2nd ed. Notre Dame, Ind: University of Notre Dame Press; 1984.
+29.
+Pellegrino ED. Toward a virtue-based normative ethics for the health professions. Kennedy Inst Ethics J.
+1995;5(3):253–277.
+30.
+MacIntyre AC. Three Rival Versions of Moral Enquiry: Encyclopaedia, Genealogy, and Tradition. Notre Dame, Ind:
+University of Notre Dame Press; 1990.
+31.
+McCormick R. Bioethics: A moral vacuum? America. 1999;180(17):8–12.
+32.
+Thomasma DC, Kushner T, eds. Birth to Death: Science and Bioethics. Cambridge/New York: Cambridge University Press; 1996.
+33.
+Clouser KD, Gert B. A critique of principlism. J Med Philos. 1990;15(2):219–236.
+34.
+US Department of Health, Education, and Welfare. National Commission for the Protection of Human Subjects
+of Biomedical and Behavioral Research. The Belmont Report: Ethical Principles and Guidelines for the Protection of
+Human Subjects of Research. Fed Regist. April 18, 1979;44(76):23192–23197. US GPO, 1978, DHEW Pub (OS)
+78-0012–0014.
+35.
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 3rd ed. New York: Oxford University Press; 1989.
+36.
+Gillon R. Medical ethics: Four principles plus attention to scope. Br Med J. 1994;309(6948):184–188.
+37.
+Gillon R, ed. Principles of Health Care Ethics. New York: John Wiley & Sons; 1994.
+38.
+Beauchamp TL, McCullough LB. Medical Ethics: The Moral Responsibilities of Physicians. Englewood Cliffs, NJ:
+Prentice-Hall; 1984: 22–51.
+39.
+Hippocrates. The Oath in Hippocrates. Jones WHS, trans. Cambridge, Mass: Loeb Classical Library #147, Harvard
+University Press; 1972: 299–302.
+40.
+Rawls J. A Theory of Justice. Cambridge, Mass: Belknap Press of Harvard University Press; 1971: 302–303.
+41.
+Daniels N. Justice, fair procedures, and the goals of medicine. Hastings Cent Rep. 1996;26(6):10–12.
+42.
+Brody BA. Quality of scholarship in bioethics. J Med Philos. 1990;15(2):161–178.
+43.
+Holmes RL. The limited relevance of analytical ethics to the problems of bioethics. J Med Philos. 1990;15(2):143–159.
+44.
+Gustafson JM. Moral discourse about medicine: A variety of forms. J Med Philos. 1990;15(2):125–142.
+45.
+Thomasma DC. The possibility of a normative medical ethics. J Med Philos. 1980:5(3):249–259.
+46.
+Engelhardt HT Jr. The Foundations of Bioethics. New York: Oxford University Press; 1986.
+47.
+Engelhardt HT Jr, Rie MA. Morality for the medical-industrial complex: A code of ethics for the mass marketing of health care. New Engl J Med. 1988;319(16):1086–1089.
+48.
+Childress JF. The place of autonomy in bioethics. Hastings Cent Rep. 1990;20(1):12–17.
+49.
+Thomasma DC. Philosophy of medicine in the USA. Theor Med. 1985;6(3):239–242.
+50.
+Thomasma DC, Pellegrino ED. Challenges for a philosophy of medicine of the future: A response to fellow
+philosophers in the Netherlands. Theor Med. 1987;8(2):187–204.
+57
+Theories of Medical Ethics: The Philosophical Structure
+51.
+Pellegrino ED, Thomasma DC. The conflict between autonomy and beneficence in medical ethics: Proposal for
+a resolution. J Contemp Health Law Policy. 1987;3:23–46.
+52.
+Nozick R. Anarchy, State, and Utopia. New York: Basic Books; 1974.
+53.
+Engelhardt HT Jr. The Foundations of Bioethics. 2nd ed. New York: Oxford University Press; 1996.
+54.
+Kavanaugh JF. Partial truths. America. 1997;176(11):24.
+55.
+Loewy EH. Review: Beneficence in trust. Hastings Cent Rep. 1989;19(1):42–43.
+56.
+Humphrey D. Assisted Suicide: The Compassionate Crime. Los Angeles: The Society; 1982.
+57.
+Bergsma J, Thomasma DC. Autonomy and Clinical Medicine: Renewing the Health Professional Relation with the
+Patient. Vol 2. In: Thomasma DC, Weisstub DN, Kushner TT, eds. International Library of Ethics, Law, and the New
+Medicine. Dordrecht/Boston: Kluwer Academic Publishing; 2000.
+58.
+Thomasma DC. Beyond autonomy to the person coping with illness. Camb Q Healthc Ethics. 1995;4(1):12–22.
+59.
+Retera G. Autonomie en kankerprocessen (Report: Autonomy and Cancer). Utrecht, The Netherlands: Report of
+the Institute of Medical Psychology; 1986.
+60.
+Bergsma J. Doctors and Patients. Dordrecht: Kluwer Academic Publishers; 1997.
+61.
+Thomasma DC. A contextual grid for medical ethics. In: Bruhn JG, Henderson G, eds. Values in Health Care:
+Choices and Conflicts. Springfield, Ill: Charles C Thomas Publishers; 1991: 117–118.
+62.
+Loewy EH. Physicians, friendship, and moral strangers: An examination of a relationship. Camb Q Healthc
+Ethics. 1994;3(1):52–59.
+63.
+McElhinney TK. Reflections on the humanities and medical education: Balancing history, theory, and practice.
+In: Thomasma DC, Kissell J, eds, The Healthcare Professional as Friend and Healer. Washington DC: Georgetown
+University Press; 2000: chap 22.
+64.
+Cable News Network-Europe. Special report. March 10, 1999.
+65.
+Loewy EH. Suffering and the Beneficent Community: Beyond Libertarianism. Albany, NY: SUNY Press; 1991.
+66.
+Loewy EH. Freedom and Community: The Ethics of Interdependence. Albany, NY: SUNY Press; 1993.
+67.
+Churchill LR. Why we need a theory of suffering and lots of other theories as well [commentary]. J Clin Ethics.
+1991;2(2):95–97.
+68.
+Loewy EH. Advance directives: A question of autonomy. Camb Q Healthc Ethics. 1994;3(3):405–410.
+69.
+Brody H. The Healer’s Power. New Haven, Conn: Yale University Press; 1992.
+70.
+Brock DW. The ideal of shared decision making between physicians and patients. Kennedy Inst Ethics J.
+1991;1(1):28–47.
+71.
+Nelson HL. Against caring. J Clin Ethics. 1992;3(1):8–15.
+72.
+Gilligan C. In a Different Voice: Psychological Theory and Women’s Development. Cambridge, Mass: Harvard University Press; 1982.
+73.
+Gould CC. New paradigms in professional ethics: Feminism, communitarianism, and democratic theory. Prof
+Ethics. 1992;1(1–2):143–154.
+58
+Military Medical Ethics, Volume 1
+74.
+Cook RJ. Feminism and the four principles. In: Gillon R, ed. Principles of Health Care Ethics. New York: John
+Wiley & Sons; 1994: 193–206.
+75.
+Gilligan C. Mapping the Moral Domain: A Contribution of Women’s Thinking to Psychological Theory and Education.
+Cambridge, Mass: Harvard University Press; 1988.
+76.
+Noddings N. Caring: A Feminine Approach to Ethics and Moral Education. Berkeley: University of California Press;
+1984.
+77.
+Callahan SC. In Good Conscience: Reason and Emotion in Moral Decision Making. San Francisco: Harper Collins;
+1991.
+78.
+Flanagan OJ. Varieties of Moral Personality: Ethics and Psychological Realism. Cambridge, Mass: Harvard University Press; 1991.
+79.
+Loewy EH. Compassion, reason, and moral judgment. Camb Q Healthc Ethics. 1995;4(4):466–475.
+80.
+Jonsen AR, Toulmin S. The Abuse of Casuistry: A History of Moral Reasoning. Berkeley: University of California
+Press; 1988.
+81.
+Kopelman LM. Case method and casuistry: The problem of bias. Theor Med. 1994;15(1):21–37.
+82.
+Tomlinson T. Casuistry in medical ethics: Rehabilitated, or repeat offender? Theor Med. 1994;15(1):5–20.
+83.
+Wildes KW. The priesthood of bioethics and the return of casuistry. J Med Philos. 1993;18(1):33–49.
+84.
+Thomasma DC, Muraskas J, Marshall PA, Myers T, Tomich P, O’Neill JA Jr. The ethics of caring for conjoined
+twins: The Lakeberg twins. Hastings Cent Rep. 1996;26(4):4–12.
+85.
+Jonsen AR, Siegler M, Winslade WJ. Clinical Ethics: A Practical Approach to Ethical Decisions in Clinical Medicine.
+2nd ed. New York: Macmillan; 1986.
+86.
+Brody BA. Life and Death Decision Making. New York: Oxford University Press; 1988.
+87.
+Thomasma DC. Clinical ethics as medical hermeneutics. Theor Med. 1994;15(2):93–111.
+88.
+Anonymous. It’s getting harder to die if you don’t have a written plan. Natl Catholic Rep. April 2, 1999.
+89.
+Thomasma DC. Ethical aspects of geriatric care. In: Calkins E, Ford AB, Katz PR, eds. Practice of Geriatrics.
+Philadelphia, Pa: WB Saunders Co; 1992: 136–143.
+90.
+Junkerman C, Schiedermayer D. Practical Ethics for Students, Interns, and Residents: A Short Reference Manual.
+Frederick, Md: University Publishing Group; 1994.
+91.
+Erde EL. Philosopher’s Corner. How abstract is my thinking as an ethicist in clinical settings? Camb Q Healthc
+Ethics. 1994;3(2):281–288.
+92.
+Sheehan MN. Why doctors hate medical ethics. Camb Q Healthc Ethics. 1994:3(2):289–295.
+93.
+Glaser JW. Three Realms of Ethics: Individual, Institutional, Societal: Theoretical Model and Case Studies. Kansas
+City, Mo: Sheed & Ward; 1994.
+94.
+Siegler M. Decision-making strategy for clinical-ethical problems in medicine. Arch Intern Med. 1982;142(12):2178–2179.
+95.
+Pellegrino ED. The anatomy of clinical-ethical judgments in perinatology and neonatology: A substantive and
+procedural framework. In: Thomasma DC, Marshall PA, eds. Clinical Medical Ethics Cases and Readings. Lanham,
+Md/New York: University Press of America; 1995: 109–118.
+59
+Theories of Medical Ethics: The Philosophical Structure
+96.
+Ahronheim JC, Moreno J, Zuckerman C. Ethics in Clinical Practice. Boston: Little Brown & Co; 1994.
+97.
+Thomasma DC. Training in medical ethics: An ethical workup. Forum Med. 1978;1(9):33–36.
+98.
+Thomasma DC. A philosophy of a clinically based medical ethics. J Med Ethics. 1980;6(4):190–196.
+99.
+Thomasma DC, Marshall PA. Clinical Medical Ethics Cases and Readings. Lanham, Md: University Press of America; 1995.
+100.
+Wagener R, Daniels L, Saulo M. Introductory Mediation Training: 6 Effective Steps for Successful Healthcare Conflict
+Resolution. San Diego, Calif: The Center for Medical Ethics and Mediation; 1995.
+101.
+West MB, Gibson JM. Facilitating medical ethics case review: What ethics committees can learn from mediation
+and facilitation techniques. Camb Q Healthc Ethics. 1992;1(1):63–74.
+60
+Military Medical Ethics, Volume 1

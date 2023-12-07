@@ -1,0 +1,870 @@
+285
+Physical Fitness: The Necessary Foundation
+Chapter 20
+PHYSICAL FITNESS: THE NECESSARY 
+FOUNDATION
+BRIAN R. KUPCHAK, PhD*; DANA R. NGUYEN, MD†; and MARK B. STEPHENS, MD‡
+INTRODUCTION
+DEFINITIONS
+HISTORY OF MILITARY PHYSICAL FITNESS
+BENEFITS OF PHYSICAL FITNESS
+KEY CONCEPTS
+Components of Physical Fitness
+Plyometrics
+Physical Readiness/Fitness Tests
+Overtraining
+SPECIAL POPULATIONS
+Pregnancy and Postpartum Physical Fitness
+Aging
+Wounded, Injured, and Ill Service Members
+PHYSICAL FITNESS AND THE MILITARY MEDICAL OFFICER 
+Role of the Military Medical Officer 
+Guidance to the Commanding Officer
+RESOURCES 
+SUMMARY
+*Lieutenant, Medical Service Corps, US Navy; Assistant Professor, Department of Military and Emergency Medicine, Uniformed Services University 
+of the Health Sciences, Bethesda, Maryland 
+†Lieutenant Colonel, Medical Corps, US Army; Assistant Professor, Department of Family Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland 
+‡Captain (Retired), US Navy; Professor of Family and Community Medicine, Penn State University, State College, Pennsylvania
+286
+Fundamentals of Military Medicine 
+“Physical fitness is the basis for all other forms of excellence.”1
+—President John F. Kennedy
+INTRODUCTION
+Operating in today’s services requires exceptional 
+stamina and physical readiness. Service members 
+must be prepared to travel to a variety of environments on short notice and immediately conduct hightempo and high-intensity operations. Success in this 
+arena requires constant vigilance among individual 
+units and commands to maintain the highest levels of 
+physical fitness among service members to successfully execute missions. Current military directives 
+emphasize total force fitness (TFF), a holistic approach 
+encompassing all domains of the individual, as defined in the 2011 guidance issued by the chairman 
+of the Joint Chiefs of Staff (CJCSI 3405. 01). 2 The TFF 
+instruction directs the services to approach readiness and force preservation through eight domains 
+(discussed in Chapter 19, The Evolution of Human 
+Performance Optimization and Total Force Fitness)—physical, nutritional, medical, environmental, 
+spiritual, psychological, social, and behavioral—all 
+of which are critical for ensuring service members 
+have the requisite knowledge, skills, and abilities 
+to perform optimally with maximal resilience. 3 This 
+chapter will examine the physical domain by presenting definitions and a historical background, followed 
+by the physiologic principles and benefits of exercise, 
+the foundational elements of physical fitness, and 
+the vulnerabilities faced in efforts to maintain a fit 
+fighting force.
+DEFINITIONS
+ 
+• Balance. Ability to control or stabilize the 
+body when standing still or moving.
+ 
+• Cardiorespiratory fitness. Efficiency with 
+which the body delivers oxygen and nutrients 
+needed for muscular activity and transports 
+waste products from the cells. 
+ 
+ 
+Activities to build aerobic capacity: Jogging/running, cycling, climbing, rowing, using the lateral 
+trainer, using the upper-body ergometer, vigorous 
+dance, kickboxing, aerobics, jumping rope, swimming, cross country skiing, inline skating.
+ 
+• Coordination. Ability to move two or more 
+body parts under control, smoothly and efficiently, to achieve a designated purpose.
+ 
+• Exercise prescription. Specific plans of fitnessrelated activities designed for a specified 
+purpose. 
+ 
+• Flexibility. Ability to move the joints (eg, 
+elbow, knee) or any group of joints through 
+an entire normal range of motion.
+ 
+ 
+Activities to build flexibility and mobility: stretching machines, freestyle stretches (or with straps), 
+yoga and Pilates.
+ 
+• Functional fitness. Exercises that train muscles to work together and prepare them for 
+daily tasks by simulating common movements 
+done at home, at work, or during combat. 
+ 
+• Intensity. Level of effort during exercise, 
+from low to high. Increasing intensity allows 
+one to improve a particular component of 
+training.
+ 
+• Maximal aerobic power. The highest level of 
+oxygen that a person can utilize, called the 
+Vo2max, and reported as mL/kg/min. With improved levels of aerobic fitness, individuals 
+can improve both their sustainable maximum 
+heart rate and their Vo2max.
+ 
+• Overload. Setting the intensity of the exercise 
+higher than normal to produce physiological 
+adaptations.
+ 
+• Periodization. Systematic planning of training 
+to maximize/optimize performance of a mission or competition at a known point in the 
+future.
+ 
+• Progression. Gradually and consistently escalating a training stimulus to build aerobic 
+capacity, strength, endurance, and mobility.
+ 
+• Recovery. Providing adequate rest period 
+between exercise sessions to achieve optimal 
+performance, particularly when working on 
+strength or endurance. Usually accomplished 
+by alternating fitness components or muscle 
+groups from one day to the next.
+ 
+• Specificity. Tailoring the training stimulus to 
+achieve a desired outcome, such as training 
+and practice for physical tasks that service 
+members will be required to perform as part 
+of their duties.
+ 
+• Strength training. Incorporates muscular 
+strength and muscular endurance.
+ 
+◦ 
+Muscular strength. Amount of force a muscle 
+or muscle group can exert in a single effort.
+287
+Physical Fitness: The Necessary Foundation
+ 
+◦ 
+Muscular endurance. Ability of a muscle 
+or muscle group to perform repeated 
+movements with a submaximal force for 
+extended periods of time.
+ 
+ 
+Activities to build strength and endurance: 
+working out with free weights, plate-loaded 
+machines, kettle bells, medicine balls, resistance bands/tubing, or suspension straps; 
+doing calisthenics with body weight resistance.
+ 
+• Volume. Combination of the number of sets 
+and repetitions performed in a workout.
+HISTORY OF MILITARY PHYSICAL FITNESS
+“Nations have passed away and left no trace, and history gives the naked cause of it—one single simple reason 
+in all cases; they fell because their people were not fit.”4
+ 
+—Rudyard Kipling
+Throughout the course of human history, leaders 
+have recognized that physical fitness has paralleled the 
+rise and fall of empires. From individuals to societies, 
+physical fitness is a key predictor of the success of nations. The Greeks (2,500–200 BCE) embraced physical 
+perfection as an outward expression of health and 
+fitness. The Romans (200 BCE–476 CE) required men 
+to participate in running, marching, jumping, and 
+throwing. In contrast, during the Middle Ages a relative return to the agrarian lifestyle ensued. Physical 
+work in the field was associated with general gains in 
+fitness on a societal level, whereas traditional knightly 
+acts included shooting (bows), swimming, climbing, 
+horsemanship, fighting (mounted and dismounted), 
+and socializing. From then on, a cyclical history of 
+physical fitness and military success began—an onset 
+of war inspired increased physical fitness efforts, which 
+lapsed after the war ended. 
+The role of physical fitness in the US military follows an annual course cycle, with tests in the spring 
+and fall. Early colonial militias were typically selected 
+based on their enthusiasm, strength, and reliability. In 
+general, colonial Americans were a largely agrarian 
+society with an active physical lifestyle and commensurate levels of fitness. However, by the early 20th 
+century, the urbanization of American society had 
+shifted work from agriculture to factories and offices, 
+resulting in a population that had become significantly 
+less active. In 1912, Woodrow Wilson recognized the 
+value of physical fitness in military performance, and 
+during his tenure as president, the US Army Manual 
+of Physical Training was developed. 5 The principles of 
+this first edition were to (a) develop general health and 
+vigor; (b) promote muscular strength and endurance; 
+(c) enhance self-reliance; and (d) improve intellect, 
+activity, and precision. 
+In 1917, when the United States enacted the Selective Service Act, roughly one-third of all recruits were 
+found to be unfit to fight. Therefore, governmental 
+legislation was enacted to improve physical education within public schools in an effort to improve 
+“readiness” for the US military. During World War I, 
+the United States undertook physical assessment of 
+recruits using the standards of modern medicine for 
+the first time. However, one-third of the men continued 
+to be rejected for service due to being physically unfit 
+throughout the war. 6
+As the United States prepared to enter World War 
+II, fitness standards intended to enhance screening for 
+military service were introduced. The standards were 
+used to identify individuals who needed remedial 
+fitness work. About half of the first 2 million service 
+members conscripted through the Selective Service 
+were deemed physically unfit. Over the course of 
+the war, 30% percent of draftees were rejected, most 
+for medical issues related to poor physical fitness. 
+Performance requirements and standards were established both for the individual services and for many 
+military operational specialties, including aviation 
+programs (US Army Field Manual [FM] 21-20, Basic 
+Field Manual, Physical Training [1941]; US Marine 
+Combat Conditioning [1942]; Physical Fitness Manual 
+for the US Navy [1943]). 7–9 
+Attention to civilian fitness levels also increased 
+over the course of the war. The National Committee on 
+Physical Fitness was created in 1943, and the US “Victory Corps,” featuring a series of exercises specifically 
+designed to promote strength, stamina, endurance, 
+and physical skills, was incorporated into high-school 
+curricula. The War Department pamphlet Physical 
+Conditioning (PAM 21-9), published in 1944, defined 
+total military fitness as a composite of:
+ 
+1. Technical fitness, evidenced by tactical training and a knowledge and skill in the use of 
+arms and equipment. 
+ 
+2. Mental and emotional fitness (more commonly known as morale), characterized by: 
+ 
+a. Habits of thinking and feeling which 
+will permit alertness with an economy 
+of energy and rapid relaxation when 
+opportunity is afforded to do so; 
+288
+Fundamentals of Military Medicine 
+ 
+b. A sense of mission, or identification with 
+a cause of great significance shared with 
+others; and 
+ 
+c. A will to fight.
+ 3. Physical fitness, evidenced by a body which 
+can retain normal responses to stimuli in the 
+face of fatigue and exhaustion, and continue 
+to function effectively under the physical 
+stresses placed upon it by the routine and 
+emergency tasks of war. 10
+Colonel Leonard G. Rowntree, medical director of 
+the Selective Service during World War II, defined 
+combat-related fitness as the ability to combine power 
+and efficiency with minimal recovery periods in activities that required strength, stamina, agility, endurance, 
+emotional stability, leadership, and a refusal to lose. 11 
+In 1946, War Department PAM 21-910 was revised 
+and became Army FM 21-20. 12 It defined the principles 
+of exercise training in terms of progression and overload, and also identified functional exercises to develop 
+strength, muscular endurance, anaerobic and aerobic 
+capacity, agility, and coordination (Exhibit 20-1), as 
+well as attainment of “proficiency in certain military 
+physical skills which are essential to personal safety 
+and effective combat performance.”13 The Army generally enacted these official fitness initiatives. Although 
+the other services often followed suit, they tended to 
+make duty-specific modifications and only rarely formulated written policies for the entire service.
+The entry of the United States into the wars in Korea and Vietnam shifted the focus of military fitness 
+requirements yet again. In 1958 the Army Physical 
+Fitness Service opened at Fort Benning, Georgia, to 
+give physical fitness the same level of importance as 
+technical skill development. In 1962, the principles of 
+balance, variety, and regularity were introduced into 
+military physical training. A 1970 physical fitness 
+symposium at Fort Benning added aerobic activity as 
+a central component and recommended that trained 
+fitness personnel implement physical training programs. 14 FM 21-20 was revised again in 1973 to define 
+fitness as a “healthy body with the capacity for skillful, sustained performance, ability to recover quickly 
+after exertion, a desire to complete the mission, and 
+confidence to face any eventuality.”15
+FM 21-20 was again revised again in the 1980s 
+to introduce the three-activity physical fitness test: 
+a 2-mile run (aerobic endurance), plus sit-ups and 
+push-ups (muscular endurance). 16 In 1981, Department 
+of Defense (DoD) Directive 1308. 1 was published,17 
+stipulating further that physical fitness training activities should enhance both combat readiness and unit 
+cohesion, and that personnel trained in fitness methods must plan and supervise the programs according 
+to uniform methods and standards for performance 
+and weight control. As the United States shifted to an 
+all-volunteer force after the end of the Vietnam War, 
+civilian fitness experts began to take military metrics 
+as their model. In 1998, an American College of Sports 
+Medicine position statement used military readiness 
+standards to establish exercise minimums for health 
+and fitness in the civilian population. 18 
+The eighth revision of FM 21-20 (1985) had shifted 
+focus from combat readiness to health-related fitness, 
+and troops began to focus on fitness test scores rather 
+than combat performance. 16 However, once active 
+military engagement increased in the early 1990s, 
+Army Regulation 350-41, published in 1993, shifted 
+the focus back to combat readiness, emphasizing nine 
+elements of fitness: (1) cardiorespiratory endurance, 
+(2) muscular strength and endurance, (3) anaerobic 
+conditioning, (4) flexibility, (5) body composition, (6) 
+competitive spirit, (7) self-discipline, (8) ability to cope 
+with psychological stressors, and (9) healthy lifestyle 
+choices. 19 In summary, although the components of 
+military physical fitness have changed over time, 
+battlefield conditions have always imposed strenuous 
+demands even on physically fit, resilient combatants. 
+As conditions of future engagements unfold, physical 
+fitness will remain a significant factor in individual, 
+unit, and force readiness. 
+BENEFITS OF PHYSICAL FITNESS
+The demands of modern warfare require physically 
+fit combatants: they must be able to train consistently 
+even when not actively engaged in warfighting; demonstrate reliable performance in missions; manage the 
+stressors presented during conflict; and endure the 
+longer-term consequences for mental and physical 
+health. 20 Meeting these standards has important benefits beyond the immediate. The fit service member is 
+less likely to miss days due to musculoskeletal injury 
+or illness and will reap significant psychological benefits. 18 Physically fit service members have been shown 
+to have better mental health, more positive outlooks, 
+greater happiness, and greater ability to withstand 
+stressful environments. 21,22
+Evidence strongly suggests that both all-cause 
+mortality and many chronic disease rates decrease 
+as physical activity increases. 23–26 The psychological 
+benefits of fitness and exercise in decreasing stress 
+and modifying the symptoms of stress-related illnesses are also well established. 27 A Cochrane review 
+289
+Physical Fitness: The Necessary Foundation
+of research on depression shows that exercise is moderately more effective than a control intervention for 
+reducing symptoms of the disease. 28 There has also 
+been strong evidence regarding the benefits of lowering anxiety levels via exercise. 29,30 Perhaps of most 
+significance to healthy military individuals, attaining 
+higher levels of physical fitness confers higher levels 
+of well-being and decreases reactivity to psychosocial 
+stressors. 31,32
+Recent research suggests that physical fitness has 
+important consequences for resilience—a key characteristic of the effective combatant. Resilience reinforces 
+higher levels of both mental and physical function in 
+stressful situations, and supports more effective recovery after the initial stressors are removed. Several 
+literature reviews have demonstrated that aerobic exercise has positive effects on self-efficacy, self-esteem, 
+and mental toughness—physically fit individuals 
+demonstrate higher levels of resilience than those who 
+are unfit. 33–35 
+Because higher levels of physical and mental resilience contribute to improved unit cohesion as well as 
+higher levels of individual and unit confidence, these 
+relationships have significance for military units as 
+well as individuals. Unit fitness schedules should 
+alternate endurance-activity days with strength- or 
+mobility-training days to ensure a training frequency 
+that enables units to improve and sustain individual 
+aerobic capacity without increasing the risk of overuse injuries.
+The service member who exhibits a high level of 
+aerobic fitness can also perform activities at intensity levels lower than his or her maximum ability 
+for longer periods of time than those less fit. This 
+type of fitness is especially beneficial during long 
+tactical marches, loading and unloading trucks, 
+preparing fighting positions, maneuvering at high 
+altitudes (>15,000 ft), and land navigation over 
+a prolonged time period. Thus, individuals with 
+greater aerobic fitness can perform tasks at a higher 
+intensity levels and are less likely to succumb to 
+fatigue. They are also able to recover faster and to 
+move more quickly to the next task at hand. Specific 
+physiologic benefits of endurance/aerobic training 
+are listed in Exhibit 20-2. 
+Strength and power are critical components for the 
+functional fitness of service members. Most military 
+occupational specialties require heavy physical lifting. Many service members repetitively lift heavy 
+machine parts, weapons, or combat gear while performing their daily duties. The US Department of 
+Labor rates over half of Army military occupational 
+specialties as entailing “very heavy” lifting, which 
+means that they require the capacity to lift 50 pounds 
+frequently and 100 pounds occasionally (Technical 
+Bulletin 592). 36 The demands these tasks impose on 
+today’s soldiers warrant careful attention to both 
+strength and power training to optimize both safety 
+and performance in performing combat-specific tasks. 
+Load-bearing tasks in particular can put significant 
+physical stress on the individuals who perform them. 
+Fortunately, resistance training has been shown 
+to improve both physical-readiness testing and 
+performance of load-bearing maneuvers. 37 Specific 
+physiologic benefits of resistance training are listed 
+in Exhibit 20-3. 
+EXHIBIT 20-1
+ARMY TRAINING PRINCIPLES DURING THE 1950s 
+ 
+• Running. Distance and sprint running on road and cross country.
+ 
+• Jumping. Broad jumping and vertical jumping downward from a height.
+ 
+• Dodging. Change of body direction rapidly while running.
+ 
+• Climbing and traversing. Vertical climbing of rope, poles, walls, and cargo nets. Traversing 
+horizontal objects such as ropes, pipes, and ladders.
+ 
+• Crawling. High crawl and low crawl for speed and stealth.
+ 
+• Throwing. Propelling objects such as grenades for distance and accuracy.
+ 
+• Vaulting. Surmounting low objects such as fences and barriers by use of hand assists.
+ 
+• Carrying. Carrying objects and employment of man carries.
+ 
+• Balancing. Maintaining proper body balance on narrow walkways and at heights above normal.
+ 
+• Falling. Contact with the ground from standing, running, and jumping postures.
+ 
+• Swimming (in specialized situations). Employment of water survival techniques.
+Data source: US Department of the Army. Physical Training. Washington, DC: DA; 1950. Field Manual 21-20.
+290
+Fundamentals of Military Medicine 
+EXHIBIT 20-2
+BENEFITS OF ENDURANCE TRAINING 
+ 
+• Increased stamina due to central and peripheral adaptions. 
+ 
+• Lower respiration (minute ventilation) at a given submaximal intensity.
+ 
+• Lower heart oxygen cost for a given absolute submaximal intensity.
+ 
+• Lower heart rate and blood pressure at a given submaximal intensity.
+ 
+• Lower risk of injury.
+ 
+• Increased blood supply (capillary density) in skeletal muscle.
+ 
+• Increased maximum work capacity and power output.
+ 
+• Increased capacity for prolonged work.
+ 
+• Increased serum high-density lipoprotein cholesterol and decreased serum triglycerides.
+ 
+• Reduced total body and intraabdominal fat.
+ 
+• Reduced insulin needs; improved glucose tolerance.
+ 
+• Heat acclimation. 
+Data sources: (1) Franklin B, ed. ACSM’s Guidelines for Exercise Testing and Prescription. 6th ed. Philadelphia, PA: Lippincott Williams 
+& Wilkins; 2000. (2) American College of Sports Medicine. ACSM Fitness Book. 3rd ed. Champaign, IL: Human Kinetics; 2003. (3) 
+Myers J. Exercise and cardiovascular health. Circulation. 2003;107(1):e2–e5. 
+EXHIBIT 20-3
+BENEFITS OF RESISTANCE TRAINING
+• Increased muscle strength. 
+• Increased size of muscle fibers. 
+• Increased speed with movement. 
+• Improved anaerobic capacity.
+• Increased bone strength. 
+• Increased bone mass and mineral density.
+• Increased size and strength of tendons, ligaments, and fascia. 
+• Increased work capacity and power output.
+• Decreased muscle soreness from heavy work. 
+Data sources: (1) Baechle TR, Earle RW. Essentials of Strength Training and Conditioning. Champaign, IL: Human Kinetics; 2000. (2) 
+Conroy BP, Kraemer WJ, Maresh CM, Dalsky GP. Adaptive responses of bone to physical activity. Med Exerc Nutr Health. 1992;1:64–74. 
+(3) Hather BM, Tesch PA, Buchanan P, Dudley GA. Influence of eccentric actions on skeletal muscle adaptations to resistance training. Acta Physiol Scand. 1991;143(2):177–185. (4) Kraemer WJ, Mazzetti SA, Nindl BC, et al. Effect of resistance training on women’s 
+strength/power and occupational performances. Med Sci Sports Exerc. 2001;33(6):1011–1025. (5) Sale DG. Neural adaptation to resistance training. Med Sci Sports Exerc. 1988;20(5 Suppl):S135–S145. (6) Staron RS, Leonardi MJ, Karapondo DL, et al. Strength and 
+skeletal muscle adaptations in heavy-resistance trained women after detraining and retraining. J Appl Physiol. 1991;70(2):631–640. 
+(7) Wilmore JH, Costill DL. Physiology of Sport and Exercise. Champaign, IL: Human Kinetics; 1994.
+291
+Physical Fitness: The Necessary Foundation
+KEY CONCEPTS
+Below are a variety of key concepts relating to overall 
+physical fitness. This list is not complete but provides 
+an overview of key ideas.
+Components of Physical Fitness
+Components of physical fitness include both health- 
+and skill-related attributes. The health-related components include:
+ 
+• body composition
+ 
+• cardiovascular fitness
+ 
+• muscular endurance
+ 
+• muscular strength
+ 
+• flexibility
+In contrast, the skill-related components include:
+ 
+• agility
+ 
+• power
+ 
+• balance
+ 
+• reaction time
+ 
+• coordination
+ 
+• speed
+Each of these components is important for the 
+physical fitness of service members and mission 
+performance. Some of the components have been defined above and others require no real definition. For 
+example, although flexibility has been defined above, 
+it is important to note that exercises to maintain 
+flexibility should be incorporated into any standard 
+program to help ensure all muscles maintain their 
+proper length and movements are performed with 
+proper mechanics. This is key to preventing injury. 
+Incorporating flexibility training can also improve 
+muscle imbalances by maintaining the appropriate 
+length-tension relationship.
+The US armed forces use body composition (a 
+measure of a person’s body fat) as one component 
+to determine a service member’s physical fitness. 
+If a service member is “overfat,” it can adversely 
+affect his or her career, including the ability to be 
+promoted and even stay in the military. Each service 
+branch has its own standards within DoD Instruction 1308. 1. 17 The Human Performance Resource 
+Center (see Resources, below) provides a chart that 
+compares one service’s standards to another. Because the standards change, it is important to keep 
+up with one’s own service, but the chart is useful 
+for service members and healthcare providers. 38
+Power
+Power is a very important concept for military 
+readiness and performance. Simply stated, power 
+is the ability to perform muscular work per unit of 
+time (power = work/time). If strength is defined as the 
+ability to exert force, power is the ability to exert force 
+quickly: being able to move a heavy weight quickly, 
+being able to move quickly when carrying a heavy 
+load, or being able to quickly carry an injured service 
+member from one place to another. Power is related 
+to strength, aerobic capacity, and speed. 
+Mobility
+Mobility is the ability to perform functional 
+movement patterns with no restrictions in range 
+of motion: it involves multiple elements that influence performance. Warm-up mobility exercises 
+(eg, posterior hip mobilization, shoulder extension, 
+external rotation, anterior hip mobilization, ankle 
+dorsiflexion, deep squats, couch stretch) allow the 
+service member to prepare for performing jumping, 
+climbing, and sprinting activities and maneuvering 
+around obstacles more efficiently. These exercises 
+also limit the risk of injury as they reinforce proper 
+technique. Strength in the extremities directly relates 
+to the ability to perform mobility tasks, which means 
+that mobility overlaps with the strength component 
+of fitness. Optimized mobility training can increase a 
+service member’s capacity for strength and endurance 
+and minimize the possibility for injury. 39
+Plyometrics
+Plyometrics are exercises performed so that muscles 
+exert maximum force in short intervals of time to 
+achieve increasing power (speed-strength). Designed 
+to improve lower-body mobility and power, these 
+exercises include jumping up onto a higher surface 
+and back down. Data suggest that plyometric training 
+benefits service members in terms of increased maximal strength, power output, coordination, and overall 
+performance. Combining plyometrics with lower-body 
+strength training appears to greatly improve strength 
+performance. 40,41 Thus, current evidence supports 
+incorporating several types of plyometrics with other 
+types of training into fitness programs. 
+292
+Fundamentals of Military Medicine 
+Physical Readiness/Fitness Tests
+All of the services require some type of physical fitness assessment. Table 20-1 presents each of the tests 
+service members must pass (unless they are on a physical profile). Currently they all include a run and sit-ups, 
+plus either push-ups or pull-ups, and all of the services 
+have body composition standards. The Marine Corps 
+was the first service to develop a functional test designed 
+to evaluate combat fitness. Thus, Marines perform two 
+semi-annual fitness tests, a physical readiness test and 
+a combat fitness test. The other services are developing 
+functional tests to assess operational/combat fitness, and 
+in 2017, the Army rolled out the Occupational Physical 
+Assessment Test (OPAT) for all recruits and soldiers. 
+This requirement resulted from the Army’s effort to 
+integrate women into its previously closed combat specialties. The OPAT consists of four events: a medicineball throw, standing long jump, deadlift, and interval 
+run. It will eventually be used to determine which jobs 
+recruits are qualified to perform.
+Overtraining
+Overtraining is the end result of excessive training. 
+The most common signs are a decline in physical performance with continued training, pronounced fatigue, 
+and changes in mood. The condition involves a complex interplay among the neuroendocrine, immune, 
+and central nervous systems, as well as psychological 
+and social stressors in response to prolonged strenuous 
+training without sufficient recovery. 42 Military training 
+can be intense, and overtraining can occur particularly 
+in the absence of adequate sleep and nutrition. The 
+mechanisms of overtraining have not been adequately 
+elucidated.
+SPECIAL POPULATIONS
+Within the military, physical fitness standards may 
+vary depending on the population. Brief discussions 
+about pregnancy and postpartum physical fitness; aging; and the wounded, ill, and injured are provided.
+Pregnancy and Postpartum Physical Fitness
+Pregnant service members constitute an important 
+subgroup of the military population, and fitness 
+requirements must be tailored to this condition. 
+The American College of Obstetricians and Gynecologists recommends that pregnant women perform 
+moderate-intensity exercise for a total of 150 minutes, 
+spread over the course of a week. 43 Despite these recommendations, many service members do not maintain optimal physical training during pregnancy. 44 It 
+is recognized that some women may not be able to 
+maintain fitness due to a variety of complications, but 
+in general, physical fitness can and should be maintained during pregnancy across the services. Service 
+members who participate in a pregnancy wellness 
+program (see the American College of Sports Medicine, Army Pregnancy Postpartum Physical Training, 
+and the Human Performance Resource Center websites, under Resources, below) have been shown to 
+have shorter labor durations and a lower incidence 
+of premature delivery. 45 Likewise, physical fitness in 
+the postpartum period remains a challenge for a large 
+percentage of service members. Service-led physical 
+fitness programs for postpartum service members 
+have been shown to improve participants’ overall 
+physical capacity. 46
+TABLE 20-1
+PHYSICAL READINESS TESTS, BY SERVICE
+Service 
+Task 1 
+Task 2 
+Task 3
+Air Force 
+Sit-ups (1 min) 
+Push-ups (1 min) 
+1. 5-Mile run
+Army 
+Sit-ups (2 min) 
+Push-ups (2 min) 
+2. 0-Mile run
+Marines* 
+Crunches (2 min) 
+Pull-ups (males); flex-arm hang (females) 
+3. 0-Mile run
+Marines† 
+880-Yard run 
+Ammo lifts–30 lb (2 min) 
+Maneuver under fire (300 m)
+Navy 
+Curl-ups (2 min) 
+Push-ups (2 min) 
+1. 5-Mile run
+*Marine Corps Performance Fitness Test
+†Marine Corps Combat Fitness Test
+293
+Physical Fitness: The Necessary Foundation
+Aging
+Service members 40 years and older typically serve as 
+senior military leaders. Leaders must set good examples 
+and serve as positive role models for those under their 
+command; this includes maintaining and demonstrating 
+a high level of physical fitness. Even if their normal duties are stressful (but nonphysical), these service members must regularly partake in physical exercise so their 
+fitness is maintained and does not degrade with age.
+Service members who are fit at age 40 and continue 
+to exercise show smaller decreases in many fitnessrelated physiological functions compared to those who 
+exercise less often. 47 Those who have been exercising 
+regularly can continue to exercise at the same level. 
+Those aged 40 and over who have not been exercising 
+regularly should start at a lower level of intensity and 
+progress slowly. Long periods of inactivity cannot be 
+corrected in a few weeks or even months.
+Wounded, Injured, and Ill Service Members
+DoD Directive 1308. 1 requires that “those personnel identified with medically limiting defects shall be 
+placed in a physical fitness program consistent with 
+their limitations as advised by medical authorities.”17 
+AR 350-15 states, “For individuals with limiting 
+profiles, commanders will develop physical fitness 
+programs in cooperation with health care personnel.”48 Medical treatment and rehabilitation should 
+be aimed at restoring these service members to a suitable level of physical fitness. Such treatment should 
+use appropriate, progressive physical activities with 
+medical or unit supervision (see the American College 
+of Sports Medicine, Building the Soldier Athlete–Reconditioning [Profile] Physical Training Supplement, 
+the Human Performance Resource Center, National 
+Strength and Conditioning Association, and US Army 
+Physical Readiness Training Information websites, 
+under Resources, below). The activity levels of service 
+members usually decrease while they are recovering 
+from sickness or injury. With medical supervision, 
+proper diet, and the right physical training programs, 
+service members should be able to overcome their 
+physical profiles more quickly and return to their 
+normal routines and fitness levels.
+All profiled service members should complete as 
+much of the unit’s regular fitness program as possible. The Office of the Surgeon General of the Army 
+developed DA Form 3349 to facilitate the exchange 
+of information between healthcare personnel and 
+their units. 49 On this form, healthcare personnel list 
+the service member’s physical limitations along with 
+activities the individual can perform to maintain his 
+or her fitness level. Based on this information, the unit 
+should direct profiled service members to participate 
+in appropriate activities to replace those they cannot 
+participate in. 
+PHYSICAL FITNESS AND THE MILITARY MEDICAL OFFICER 
+Role of the Military Medical Officer 
+Military medical officers (MMOs) serve critical 
+roles in supporting achievement and maintenance 
+of physical fitness and readiness considerations 
+at the unit level. They are responsible for being a 
+role model, but must first build relationships with 
+their unit. The MMO should support human performance optimization and provide the highest level 
+of preventive healthcare. The MMO must be able to 
+effectively communicate with and translate medical 
+and scientific knowledge into actionable plans that 
+support ongoing physical training activities and 
+military operations. The MMO should be familiar 
+with concepts related to physical fitness and competent in key topics such as functional movement, 
+strength and resistance training, overtraining, and 
+exercise prescription. Additionally, knowledge 
+about service-specific and DoD regulations and 
+guidance regarding body composition and physical 
+fitness are critical. Lastly, the MMO must identify 
+physical fitness subject matter experts (SMEs) they 
+can contact to obtain additional reliable information 
+when necessary. 
+Guidance to the Commanding Officer
+The MMO serves as the primary consultant to the 
+commander regarding the overall health status of the 
+unit. As such, the MMO is responsible for:
+ 
+• Monitoring physical fitness levels and advising the unit commander on profiling those 
+who are ill, injured, or wounded. The MMO 
+must also ensure that standard physical fitness programs are consistent with their service’s requirements and understand both the 
+commander’s intent and the mission goals. 
+This information will allow the MMO to 
+correctly identify the unit’s physical training 
+and fitness needs.
+ 
+• Monitoring musculoskeletal injuries and 
+physical profiling of service members. This 
+task requires a full understanding of the 
+294
+Fundamentals of Military Medicine 
+Accurate assessment of strengths and vulnerabilities 
+in the quest for optimal fitness is essential in guiding both 
+individuals and units to peak military performance. Understanding the physiologic construct of fitness and how 
+the factors of military fitness requirements may change 
+can help an MMO make better decisions and recommendations to the unit commander. Appreciation of the 
+interrelatedness of the components of physical fitness 
+can help the MMO tailor better individual fitness plans 
+and ensure optimal fitness for every member of the unit. 
+REFERENCES
+ 
+1. Kennedy JF. The soft American. Sports Illustrated. 1960;13(26):14–17.
+ 
+2. Chairman of the Joint Chiefs of Staff. Chairman’s Total Force Fitness Framework. Washington, DC: JCS; 2013. CJCS Instruction 3405. 01. https://www.hprc-online.org/resources/chairman-of-the-joint-chiefs-of-staff-instruction-cjcsi. Accessed 
+February 5, 2018.
+ 
+3. Jonas WB, Deuster PA, Macednoia C, eds. Total force fitness for the 21st century: a new paradigm. Mil Med. 2010;175(8):1–
+78.
+ 
+4. Horne A. Monty: The Lonely Leader, 1944-1945. New York, NY: HarperCollins; 1994.
+physical requirements of service members’ 
+jobs, the physical fitness guidelines for the 
+service, and the current health status of each 
+service member. Physical limitations should 
+protect service members from further injury 
+while encouraging alternative activities that 
+sustain their overall fitness level.
+ 
+• Working closely with physical fitness SMEs to 
+review the training program intended to develop individual service members at the highest level of fitness for their specific specialty.
+ 
+• Ensuring the physical training program is 
+safe and limits the risk of injuries.
+ 
+• Keeping the commander updated about the 
+physical readiness of individual service members and reviewing training plans for those 
+with special fitness considerations such as 
+pregnancy, illness, or injury. These tailored 
+plans should draw on advice from fitness 
+SMEs.
+RESOURCES
+ 
+• American College of Sports Medicine: http://acsm.org/
+ 
+• Building the Soldier Athlete—Reconditioning (Profile) Physical Training Supplement: http://armymedicine.mil/Documents/R2D-Building_the_Soldier_Athlete_Reconditioning_profile_Supplement_-_7_
+Oct_09.pdf
+ 
+• Air Force Fitness Program: http://www.afpc.af.mil/affitnessprogram/
+ 
+• Army Comprehensive Soldier and Family Fitness: http://csf2.army.mil/
+ 
+• ARMYFIT—Comprehensive Soldier and Family Fitness: https://armyfit.army.mil/
+ 
+• Army Pregnancy Postpartum Physical Training: https://phc.amedd.army.mil/topics/healthyliving/al/
+Pages/ArmyPregnancyPostpartumPhysicalTrainingProgram.aspx
+ 
+• Commander, Navy Installations Command—Fitness, Sports and Deployed Forces Support: http://www.
+navyfitness.org/fitness/
+ 
+• Human Performance Resource Center: http://hprc-online.org/
+ 
+• National Strength and Conditioning Association: https://www.nsca.com/
+ 
+• US Army Public Health Center—Army Physical Fitness: https://phc.amedd.army.mil/TOPICS/
+HEALTHYLIVING/AL/Pages/ArmyPhysicalFitness.aspx
+ 
+• US Army Physical Readiness Training Information: http://www.armyprt.com/
+ 
+• US Coast Guard Office of Work-Life Programs—Physical Fitness Program: http://www.uscg.mil/worklife/
+physical_fitness_program.asp
+ 
+• US Marine Corps Physical Fitness Program: http://www.fitness.marines.mil/
+SUMMARY
+295
+Physical Fitness: The Necessary Foundation
+ 
+5. US Department of War. Manual of Physical Training. Washington, DC: Government Printing Office; 1914. 
+ 
+6. Magee JC. Relationship of the health of civilians to the efficacy of the Army. Am J Pub Health. 1940;30(11):1283–1290.
+ 
+7. US Department of War. Basic Field Manual, Physical Training. Washington, DC: Government Printing Office; 1941. Field 
+Manual 21-10.
+ 
+8. US Marine Corps. US Marine Combat Conditioning. New York, NY: Skyhorse Publishing; 2011.
+ 
+9. US Bureau of Naval Personnel. Physical Fitness Manual for the U.S. Navy. Washington, DC: Bureau of Naval Personnel; 1943.
+ 10. Physical Conditioning. Washington, DC: Department of War; 1944. Pamphlet No. 21-9.
+ 11. East WB. A Historical Review and Analysis of Army Physical Readiness Training and Assessment. Fort Leavenworth, KS: 
+Combat Studies Institute Press; 2013.
+ 12. US Department of the Army. Physical Training. Washington, DC: DA; 1946. Field Manual 21-20.
+ 13. US Department of the Army. Physical Readiness Training. Washington, DC: DA; 1959. Field Manual 21-20.
+ 14. US Army Infantry School. Physical Fitness Symposium Report. Fort Benning, GA; 1970.
+ 15. US Department of the Army. Physical Readiness Training. Washington, DC: DA; 1973. Field Manual 21-20.
+ 16. US Department of the Army. Physical Training. Washington, DC: DA; 1985. Field Manual 21-20.
+ 17. US Department of Defense. Physical Fitness and Weight Control Programs. Washington, DC: DoD; 1981. DoD Directive 
+1308. 1.
+ 18. American College of Sports Medicine position stand. The recommended quantity and quality of exercise for developing 
+and maintaining cardiorespiratory and muscular fitness in healthy adults. Med Sci Sports Exerc. 1998;30(6):975–991.
+ 19. US Department of Army. Training in Units. Washington, DC: DA; 1993. Army Regulation 350-41.
+ 20. Henning PC, Park BS, Kim JS. Physiological decrements during sustained military operational stress. Mil Med. 
+2011;176(9):991–997.
+ 21. Silverman MN, Deuster PA. Biological mechanisms underlying the role of physical fitness in health and resilience. 
+Interface Focus. 2014;4(5):20140040.
+ 22. Flanagan SC, Kotwal RS, Forsten RD. Preparing soldiers for the stress of combat. J Spec Oper Med. 2012;12(2):33–41.
+ 23. World Health Organization. Global Recommendation on Physical Activity for Health. Geneva, Switzerland: WHO Press; 
+2010.
+ 24. Macera CA, Hootman JM, Sniezek JE. Major public health benefits of physical activity. Arthritis Rheum. 2003;49(1):122–
+128.
+ 25. Macera CA, Powell KE. Population attributable risk: implications of physical activity dose. Med Sci Sports Exerc. 
+2001;33(6 Supplement):S635–S639; discussion 640-1.
+ 26. Miles L. The new World Cancer Research Fund/American Institute for Cancer Research report. Food, nutrition, physical activity and the prevention of cancer: a global perspective. Nutr Bull. 2008;33(1):26–32.
+ 27. Smits JA, Berry AC, Rosefield D, Powers MB, Behar E, Otto MW. Reducing anxiety sensitivity with exercise. Depress 
+Anxiety. 2008;25(8):698–699.
+296
+Fundamentals of Military Medicine 
+ 28. Cooney GM, Dwan K, Greig CA, et al. Exercise for depression. Cochrane Database Syst Rev. 2013;9: CD004366. DOI: 
+10. 1002/14651858.CD004366.pub6.
+ 29. Carek PJ, Laibstain SE, Carek SM. Exercise for the treatment of depression and anxiety. Int J Psychiatry Med. 
+2011;41(1):15–28.
+ 30. Galper DI, Trivedi MH, Barlow CE, Dunn AL, Kampert JP. Inverse association between physical inactivity and mental 
+health in men and women. Med Sci Sports Exerc. 2006;38(1):173–178.
+ 31. Crews DJ, Landers DM. A meta-analytic review of aerobic fitness and reactivity to psychosocial stressors. Med Sci 
+Sports Exerc. 1987;19(5 Suppl):S114–S120.
+ 32. Tsatsoulis A, Fountoulakis S. The protective role of exercise on stress system dysregulation and comorbidities. Ann 
+N Y Acad Sci. 2006;1083:196–213.
+ 33. Ekeland E, Heian F, Hagen KB, Abbott J, Nordheim L. Exercise to improve self-esteem in children and young people. 
+Cochrane Database Syst Rev. 2004;1:CD003683.
+ 34. Young MD, Plotnikoff RC, Collins CE, Callister R, Morgan PJ. Social cognitive theory and physical activity: a systematic 
+review and meta-analysis. Obes Rev. 2014;15(12):982–995.
+ 35. Deuster PA, Silverman MN. Physical fitness: a pathway to health and resilience. US Army Med Dep J. 2013;Oct-Dec:24–35.
+ 36. US Department of the Army. Prevention and Control of Muskuloskeletal Injuries Associated with Physical Training. Washington, DC: DA; 2011. Technical Bulletin 592.
+ 37. Knapik JJ, Harman EA, Steelman RA, Graham BS. A systematic review of the effects of physical training on load carriage performance. J Strength Cond Res. 2012;26(2):585–597.
+ 38. Uniformed Services University of the Health Sciences, Consortium for Health and Military Performance. Body fat 
+standards by service branch. Human Performance Resource Center website. https://www.hprc-online.org/articles/
+body-fat-standards-by-service-branch. Accessed November 17, 2017.
+ 39. Nalcakan GR. The effects of sprint interval vs. continuous endurance training on physiological and metabolic adaptions in young healthy adults. J Hum Kinet. 2014;44:97–109.
+ 40. Villareal SS, Requena B, Newton RU. Does plyometric training improve strength performance? A meta-analysis. J Sci 
+Med Sports. 2010;13(5):513–522.
+ 41. Taylor J, Macpherson T, Spears I, Weston M. The effects of repeated-sprint training on field-based fitness measures: 
+a meta-analysis of controlled and non-controlled trials. Sports Med. 2015;45(6):881–891.
+ 42. Purvis D, Gonsalves S, Deuster PA. Physiological and psychological fatigue in extreme conditions: overtraining and 
+elite athletes. PMR. 2010;2(5):442–450.
+ 43. Committee on Obstetric Practice. ACOG committee opinion. Exercise during pregnancy and the postpartum period. 
+Int J Gynaecol Obstet. 2002;77(1):79–81.
+ 44. Kwolek LA, Berry-Caban CS, Thomas SF. Pregnant soldiers’ participation in physical training: a descriptive study. 
+Mil Med. 2011;176(8):926–931.
+ 45. Lombardi W, Wilson S, Peniston PB. Wellness intervention with pregnant soldiers. Mil Med. 1999;164(1):22–29.
+ 46. Gilcreast DM. Pregnancy Soldier Wellness Program: An Evaluation. Fort Bragg, NC: Triservice Nursing Research Program; 
+1997. https://www.usuhs.edu/node/3305. Accessed February 5, 2018.
+ 47. Elia EA. Exercise and the elderly. Clin Sports Med. 1991;10(1):141–155.
+297
+Physical Fitness: The Necessary Foundation
+ 48. US Department of the Army. The Army Physical Fitness Program. Washington, DC: DA 1989. Army Regulation 350-15.
+ 49. US Department of the Army. DA Form 3349: Physical Profile. 2007.
+298
+Fundamentals of Military Medicine 

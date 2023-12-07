@@ -1,0 +1,1788 @@
+Nursing Ethics and the Military
+661
+Chapter 20
+NURSING ETHICS AND THE MILITARY
+JANET R. SOUTHBY, RN, DNSC*
+INTRODUCTION
+EARLY NURSING ETHICS
+ETHICAL STANDARDS FOR NURSES
+NURSING AND MEDICINE
+ETHICAL DECISION MAKING
+RESOLVING ETHICAL DILEMMAS
+Clinical Interactions
+Continuing Education
+Nursing Research
+Nursing Administration
+CONCLUSION
+*Colonel (Retired), Nurse Corps, United States Army; formerly Chief, Department of Nursing, Walter Reed Army Medical Center, Washington, DC, and Chief Nurse, North Atlantic Regional Medical Command, Washington, DC; currently, Associate Director, Interagency Institute
+for Federal Health Care Executives, School of Public Health and Health Services, The George Washington University Medical Center, Washington, DC
+Military Medical Ethics, Volume 2
+662
+This untitled painting, signed “Ramus ’45,” suggests the adoration for the US Army Nurse so often expressed by the
+wounded GIs whose lives they help to save.
+Art: Courtesy of US Army Medical Department Museum, Fort Sam Houston, Texas.
+Nursing Ethics and the Military
+663
+INTRODUCTION
+part, are not different from those experienced by
+their civilian counterparts working in trauma centers or prison health systems. What is unique is that
+during wartime, a great number of stressful experiences often occur in a compressed period of time,
+usually away from traditional, personal support
+systems. Also, the situation of displaced persons,
+refugees, and those who suffer collateral injuries
+adds another dimension. Although all female professional nurses have been volunteers in the US
+military services, the experience may not always
+have turned out to be what was perceived or expected and the location may not have been one of
+the individual’s choices. Some of the moral dilemmas that have been reported will be shared in this
+chapter.
+The development of military nursing throughout modern history has had intricate associations
+with the private nursing sector and the status of
+women in society. As the nursing profession has
+evolved over time, so has the concept of nursing
+ethics. Several leaders in the evolution of modern
+civilian nursing also influenced military nursing as
+their careers intersected with the Army during wartime. From the time of Nightingale and the Crimean
+War to current, diverse healthcare settings from
+hospitals to security and sustainment operations,
+nurses in the military environment continue to
+struggle with challenging ethical issues involving
+their patients and the practice and profession of
+nursing. This chapter will review the history of
+early nursing ethics, trend the development of the
+ethical code for nurses, explore how nursing and
+medicine view ethical decision making, and discuss
+the resolution of ethical dilemmas.
+Although the care and comfort of the sick and
+injured is a critical component of every war, military leaders and the public, in general, have traditionally given little attention to these healthcare
+professionals. Most of the acknowledgment and
+gratitude they have received was from those who
+had the unfortunate occasion to experience the compassionate service provided by nurses during wartime. Almost every veteran injured in battle and
+cared for by nurses far from home has his story to
+tell. This was probably never more evident than on
+Veterans’ Day, 1993, in Washington, DC, when the
+Vietnam Women’s Memorial was dedicated. More
+than 30,000 people turned out for the dedication of
+the first visible symbol in the nation’s capital to
+honor women’s patriotic service. Many attending
+were veterans, those who had been cared for and
+those who provided that care, each seeking the other
+to share a special bond formed years ago in faraway
+places.
+Nurses have often been called the “forgotten veterans” because their role under the unique circumstances of war has not been well understood, even
+though nursing is an occupation known to everyone. In hostile and unfamiliar surroundings and
+separated from loved ones, the tradition of military
+nurses has been to steadfastly continue their practice of caring for others. In this stressful environment, they witness and experience the extremes of
+human behavior in others and in themselves.
+Nurses do experience “war,” not necessarily in the
+sense of a combatant, but rather the larger, moral
+picture of war—its cost measured in its casualties. 1
+The professional strains and moral dilemmas
+experienced by today’s military nurses, for the most
+EARLY NURSING ETHICS
+During the Revolutionary War, camp followers
+on both sides of the war were women who cooked,
+cleaned, washed, and sewed. Those who tended the
+sick and wounded were known as nurses, although
+the extent of their previous experience may have
+been tending to an ailing family member. After all,
+the word nurse (nutricia or nourishing) means a
+person who is skilled or trained in caring for the
+sick or infirm.
+In 1775, General Horatio Gates reported to General Washington that “the sick suffered much for
+Want of good female Nurses.” In turn, General
+Washington asked the Congress for “a matron to
+supervise the nurses, bedding, etc,” and for nurses
+“to attend the sick and obey the matron’s orders.”
+The medical support plan provided one nurse for
+every 10 patients and “that a matron be allotted to
+every hundred sick or wounded, who shall take care
+that the provisions are properly prepared; that the
+wards, beds, and utensils be kept in neat order, and
+that the most exact economy be observed in her
+department.” In spite of these references to nursing, it was not recognized as a separate and distinct service. 2
+Later, as Lady Superintendent in Chief of female
+nurses in the English General Military Hospitals
+during the Crimean War, Florence Nightingale promoted military nursing when she organized a group
+Military Medical Ethics, Volume 2
+664
+of nurses for war service in Turkey in 1854. She
+battled to improve sanitary conditions and acceptance of female nurses. She understood medical and
+military politics and used statistical data, keen writing skills, and good social connections to achieve
+her purposes. Many of the early ethical issues in
+nursing arose from the image that nurses were
+women of dubious reputation and nursing was a
+task viewed as being neither as lowly as a simple
+domestic, nor as highly placed as a cook. Overcoming this image of nursing was a great challenge to
+Florence Nightingale when she started the Nightingale School of Nursing in 1860 at St. Thomas’s
+Hospital, London.
+During the same period in the United States,
+Dorothea L. Dix, known for improvement in the care
+of the mentally ill, had responded to President
+Lincoln’s call for volunteers to help care for sick
+and injured soldiers. Appointed Superintendent of
+the Female Nurses of the Union Army in 1861, she
+initially set strict criteria for her nurses but, due to
+the great need, later appointed almost any woman
+willing to serve. As the war continued, there was no
+single system for recruiting and preparing nurses;
+few had actual preparation beyond family experiences. The acceptance of female nurses near the
+battlefield varied with the intensity of need. They
+also tended to anger the hierarchy with their letter
+writing. Having learned that letters were the lifeblood between the injured and their families, Civil
+War nurses used this woman-to-woman communication link to arouse and maintain pressure for the
+flow of needed supplies from private and charitable
+sources when the supply system failed. They wrote
+about unsafe conditions and, on occasion, unsafe
+medical practice, taking sanitation and organization
+into their own hands. The many women, known and
+unknown, who organized relief agencies and served
+as nurses changed forever the concept of women’s
+roles. The Civil War is credited as setting the stage
+for the emergence of women from home to larger
+societal purpose, the development of professional
+nursing in the United States, and the inclusion of
+trained women nurses in military organizations. 3
+During the remainder of the century, it was traditional for ethical issues in nursing to focus on etiquette
+as the first formal schools of nursing attempted to
+attract the respectable and educated daughters of
+families from the middle classes. Morals and manners were emphasized as necessary characteristics
+for a woman to possess or acquire to be a successful nurse. The extent to which ethical considerations
+were pursued in the curricula is unclear. Yet, it is
+noted that students of the Johns Hopkins School of
+Nursing were taught ethical issues soon after the
+opening of the school in 1889. 4
+At the onset of the Spanish-American War, Dr.
+Anita Newcomb McGee, Vice President of the National Society of the Daughters of the American
+Revolution, was placed in charge of selecting graduate nurses for the Army. The Army Medical Department reluctantly called for the nursing services of
+women when unable to enlist enough male medics
+qualified by previous experience to perform important patient care duties and because of the epidemic
+prevalence of typhoid fever in Army camps. The
+record of service of the women nurses who served
+in this war was a convincing factor in the establishment of a permanent nurse corps (as well as a memorial in Arlington Cemetery; see Figure 20-1). In
+spite of some reluctance on the part of Surgeon
+Fig. 20-1. The Nurses Memorial. This marble statue honoring military nurses is located on a knoll in Section 21
+of Arlington National Cemetery where hundreds of
+nurses are buried. The sculpture, by Frances Rich, was
+originally dedicated on 8 November 1938 to commemorate Army and Navy nurses. It was rededicated on 20
+November 1970 to include Air Force nurses as well as all
+nurses who had served since 1938.
+Nursing Ethics and the Military
+665
+General George M. Steinberg and some senior medical officers, the Nurse Corps (female) became a permanent corps of the Army Medical Department on
+2 February 1901. 2
+Following this, there was great interest in the
+Medical Department of the Navy to formalize a
+nurse corps. Nursing in the Navy was originally
+carried out by members of the ship’s crew who were
+untrained and held no special status until establishment of the Hospital Corps in 1898. The Nurse
+Corps (female) of the US Navy, established by law
+on 13 May 1908, met with some resistance among
+military doctors. Navy nurses charted new territory,
+however, and their first superintendent, Esther V.
+Hasson, predicted in 1909:
+One of the principle [sic] duties of the woman nurse
+in the Navy will be the bedside instruction of the
+hospital apprentices in the practical essentials of
+nursing….When treatment, baths, or medication
+come due it is not expected or desired that she will
+always give these herself, but it will be her duty to
+see that the apprentices carry out the orders promptly
+and intelligently. This arrangement does not, however, absolve the nurse…from doing the actual
+nursing work whenever necessary…she is always
+expected to keep uppermost in her mind… the improvement of the apprentices to whom the bulk of
+the nursing of the Navy afloat will always fall, for
+it is not the intention of the Surgeon General to station women nurses on any but hospital ships. 5
+In 1917, Annie W. Goodrich, president of the
+American Nurses Association, was appointed under contract as Chief Inspector Nurse of the Army.
+Her unfavorable report on utilizing nurses’ aides
+in Army hospitals called for more trained nurses.
+She subsequently became Dean of the first Army
+School of Nursing, authorized in 1918 by the Secretary of War. Sometime in the 1920s, the second Dean
+and first Superintendent of the Army Nurse Corps,
+Major Julia C. Stimson, began to teach ethics.
+Major Stimson’s notes reveal that she held the
+ethics course as an open forum with the students,
+assigning four problems each week for discussion.
+One section of her notes listed 22 discussion points
+ranging from simplistic to philosophical. Examples
+included:
+• To what extent is dress involved in the question of nursing ethics? Trace the historical
+development of the uniform and the current observance in regard to the uniform in
+public places, wearing jewelry, etc.
+• Discuss the following questions from the
+standpoint of nursing ethics. Smoking,
+bobbed hair, use of cosmetics, drinking, rule
+of seniority, class distinction, tipping, and
+presents.
+• What is the main contribution of nursing
+ethics made by the following: Hippocrates,
+St. Paul, Jerome, St. Francis, Elizabeth of
+Hungary, Luther, Edith Cavell, Deaconesses, Monasteries, St. Vincent de Paul, John
+Howard, The Fleidners, Charles Dickens,
+Florence Nightingale, Dorothea Dix, Knights
+Hospitallers, Secular Orders. 6
+These topics were typical of ethical discussions at
+the time. Major Stimson also included the definitions
+of ethics and nursing ethics attributed to Isabel Hampton Robb. Mrs. Robb’s text, Nursing Ethics for Hospital
+and Private Use, addressed posture, table manners, and
+appropriate wardrobe for a nurse, but also covered
+health, education, and culture as necessary qualifications for nursing. An outstanding nurse of the day,
+she had been instrumental in initiating two national
+nursing associations and an official journal for nurses.
+Many considered her book to be a great step toward
+professionalism in nursing. Nursing leaders acknowledged that, although women could be trained to be
+nurses, character could not be changed. Character was
+important for members of the emerging profession.
+Nursing had begun to move from ethical issues of personal morality to professional ethics.
+ETHICAL STANDARDS FOR NURSES
+Meanwhile, the first generally accepted written
+code for nursing in the United States had been formulated in 1893. A committee under the leadership
+of Lystra E. Gretter, principal of the Forrand Training School for Nurses in Detroit, developed the
+pledge to serve as guide for the ethical behavior of
+nurses until a formal code of ethics was completed.
+It was patterned after medicine’s Hippocratic Oath
+and named after Florence Nightingale, whom
+Gretter felt embodied the highest ideals of nursing.
+The Nightingale Pledge, still frequently administered at many nursing school graduations today,
+reads as follows:
+I solemnly pledge myself before God and in the
+presence of this assembly to pass my life in purity
+Military Medical Ethics, Volume 2
+666
+and to practice my profession faithfully.
+I will abstain from whatever is deleterious and
+mischievous, and will not take or knowingly administer any harmful drug.
+I will do all in my power to maintain and elevate
+the standard of my profession, and will hold in
+confidence all personal matters committed to my
+keeping, and all family affairs coming to my knowledge in the practice of my profession.
+With loyalty will I endeavor to aid the physician in
+his work, and devote myself to the welfare of those
+committed to my care. 7
+The Nurses’ Associated Alumnae of the United
+States and Canada, forerunner of the American
+Nurses’ Association (ANA), sought to establish and
+maintain a code of ethics for the purpose of promoting ethical standards in all the relations of the
+nursing profession as early as 1896. Nurses wanted
+something concrete they could use as a basis for
+professional conduct and in teaching ethics. The
+legacy of these early efforts is the “Code of Ethics
+for Nurses With Interpretive Statements.”8–10
+Since its inception, nursing’s code of ethics has
+undergone periodic revisions in order to remain
+relevant. Changes in the code were influenced by
+the growth of nursing toward professionalism and
+by changes in nursing, society, and healthcare. Yet,
+the ethical norms of the profession, the moral duties, and the values of the profession have remained
+constant. First, “A Suggested Code,” presented in
+1926, reflected values of “Christian morality” and
+attitudes toward nursing at that time. Nurses were
+viewed as obedient, submissive to rules, adept in
+social etiquette, and loyal to the physician. Nursing was considered to be an emerging profession
+meeting a basic human need. Nursing and medicine were viewed as distinct but complementary
+disciplines characterized by mutual respect. The
+1926 code was replaced by “A Tentative Code” in
+1940. The intent was to recognize nursing as a profession. It cited the responsibility of the nurse in
+relationships to the patient, other nurses, the employer, the public and others, as well as responsibility to oneself. Guidance was provided for specific situations rather than a broad framework that
+could be applied in a variety of situations. The concept of research as a means of improving care was
+introduced for the first time.
+Ten years passed before the code was altered
+again. Undoubtedly the entry of the United States
+into World War II contributed to the hiatus in further development. The country was faced with a
+critical shortage of registered nurses nationwide. To
+help meet nursing personnel requirements, the
+United States Cadet Nurse Corps was established
+under the administration of the United States Public Health Service. This measure set the precedent
+that schools of nursing were recognized as essential agencies in the protection of the nation’s health.
+During this period, the Army Nurse Corps began
+specialty training in anesthesiology, operating room
+procedures, and public health nursing. In 1942,
+Navy nurses were given a status called “relative
+rank,” which had been afforded to Army nurses in
+1920. The Army-Navy Nurse Act of 1947 provided
+permanent commissioned officer status for registered nurses in the armed services, and Public Law
+36, 80th Congress, established the Army Nurse
+Corps (ANC) in the Medical Department of the
+Regular Army. On 1 July 1949, the US Air Force
+Nurse Corps was established. A total of 1,999 Army
+nurses transferred to the US Air Force, forming the
+nucleus of its Nurse Corps. The status of commissioned officers assisted military nursing in its efforts to change outmoded ideas and pave the way
+for the nursing profession. 2(p23),11
+The revised “Code for Professional Nurses,”
+unanimously accepted by the ANA in 1950, consisted of a brief preamble and 17 succinct, enumerated provisions. The word “professional” was used
+to describe the nurse and the statement about loyalty to the physician was omitted. The prevention
+of illness and promotion of health by teaching and
+example were included as expectations of nursing.
+Then, in 1953, the International Council of Nurses
+(ICN) adopted an international code of ethics for
+nurses to serve as the standard for nurses worldwide. The 14 statements cited the responsibility of
+nurses to conserve life, alleviate suffering, and promote health. Nurses were expected to refuse to participate in unethical procedures, report unethical
+conduct of associates but only to the proper authority, and to adhere to standards of personal ethics in
+their professional and private lives. Although minor revisions were made at various times, a new
+version was not released until 27 years later, responding to the realities of nursing and healthcare
+in a changing society. 12
+Further amendments to the ANA code, in 1956
+and 1960, addressed nurse participation in advertising professional services and in setting terms and
+conditions of employment. During this decade, attention shifted from concern for content of the code
+to concern about its enforcement in the practice setting. It was also during this time that the armed
+Nursing Ethics and the Military
+667
+services commissioned male registered nurses.Men,
+as medics, were a tradition in military medicine. In
+1951, the Department of Defense (DoD) established
+a definitive policy (DoD Directive 750. 04-1, renumbered 1125. 1) on the utilization of registered nurses
+in the military services and instructed the military
+medical services to establish programs to train and
+utilize enlisted personnel as practical nurses and
+in other paraprofessional nursing roles providing
+patient care. 2(pp25–28) The same year, Congresswoman
+Frances P. Bolton introduced HR 911 in an attempt
+to provide for the appointment of men as nurses in
+the US Army, US Navy, and US Air Force. Finally
+in 1955, Public Law 294, 84th Congress, again introduced by Congresswoman Bolton, authorized
+commissions for male nurses in the US Army Reserve for assignment to the ANC Branch. The first
+man to receive a commission in the ANC was a nurse
+anesthetist in the fall of 1955. Men were eligible for
+the Army Student Nurse Program established the
+next year to help solve the acute shortage of nurses
+in the Army. Finally, in 1962 men were authorized
+to apply for the Registered Nurse Student Program
+that had been established in 1953 to recruit registered nurses for the ANC. Thereafter, educational
+opportunities for men and women were equal. 2
+The social upheaval of the 1960s, along with major
+improvements in the capabilities of healthcare delivery, forced reevaluation of what nurses and nursing
+stood for in society. Nurse practitioners appeared
+on the healthcare scene in 1965 when nurse Loretta
+Ford and physician Henry Silver at the University
+of Colorado educated nurses to provide primary
+care for children and their families. The nurse practitioner movement, an approach to fill the physician gap to provide primary care to children and
+those unable to pay, was enhanced by social agitation to fund educational programs and gained energy from the women’s movement in this attempt
+to broaden nursing practice. Although initially supportive of this professional nursing development,
+organized medicine has since sought to constrain
+the scope of practice for nurse practitioners. 13
+The substantive revision in 1968, the “Code for
+Nurses,” dropped the word “professional” from the
+title to indicate that the code applied to both professional and technical nurses. For the first time,
+references to personal ethics were omitted. This was
+a significant departure from the early focus of nursing educators and administrators on questions of
+the moral purity of the probationer, trainee, and
+graduate. 9 Instead of referring to the physician, this
+version referred to members of other health professions. The 1968 Code provided nurses an ethical
+framework within which to practice their profession
+by addressing their responsibility to the patient, society, and the profession, and by participating in
+research. 14
+During this period, several thousand nurses who
+served in Vietnam began to return to the private
+sector. Although politicians, historians, and others
+have said that the Vietnam conflict was different
+from other American wars, a review of the literature reveals that the fundamental experience of
+wartime for nurses was not much different. The
+youth of the patients, the severity of injury, the lack
+of feedback on patients’ progress after transfer, the
+patient deaths that could not be prevented, the
+deaths of friends, working with enemy patients, and
+dealing with the triage situation are frequently cited
+as stressors. Although caring for young wounded
+casualties was reported to be stressful, it was also
+considered to be gratifying. Like nurses who served
+in World War I, World War II, or the Korean War,
+these nurses felt a common pride in their accomplishments and the wartime role of the professional,
+although these feelings may have been tempered
+by the social and political circumstances. Returning to stateside nursing often required a considerable adjustment, from the clinical responsibility and
+collaborative teamwork practiced in the war, to the
+more restrictive roles still found in many settings.
+The profession was just beginning to achieve autonomy. The structured healthcare environment was
+very different from Vietnam. Some nurses became
+angry and disillusioned about nursing practice,
+some reverted to traditional roles, and others took
+up the challenge to promote the status of the nursing profession. 15,16
+Further changes in nursing and its social context
+led to an update of the ethical code in 1976. The
+“Code for Nurses With Interpretive Statements”
+placed new emphasis on the responsibility of the
+patient to participate in his own care (self-determination), the notion of nursing autonomy, and the
+nurse’s role as client advocate. The word “client”
+rather than “patient” was used in an attempt to be
+less restrictive and to imply a more egalitarian relationship. However, “client” implies that the recipient of care can make a choice of care provider. Yet,
+the bulk of nursing practice does not include that
+type of choice on the part of recipients and may
+connote unintended change in the nurse–patient
+relationship. 17 The ANA also formed a Committee
+on Ethics that later published “Guidelines for
+Implementing the Code for Nurses.”
+The 1985 revision of the Code for Nurses retained
+all 11 provisions unchanged from 1976. The preMilitary Medical Ethics, Volume 2
+668
+amble, however, included a list of fundamental
+principles of ethics and the interpretations more
+closely reflected these principles and placed greater
+emphasis on patients’ rights. For example, a reference to healthcare as a right of all citizens was
+changed to reflect the availability and accessibility
+of high-quality health services to all people. The
+Code for Nurses reflected nursing’s changing relationship to society and the societal concerns of the
+times. 18 During the mid-1990s, both organized nursing and the media promoted “advance practice
+nurses” as one solution to a serious component of
+America’s healthcare crisis—the need for greater
+access to routine primary and preventive care. This
+group of nurse practitioners, nurse midwives, certified registered nurse anesthetists, and clinical
+nurse specialists represented 100,000 nurses who
+generally had 18 months to three years of graduate
+education beyond the baccalaureate, many with a
+master’s degree.
+Countless studies and analyses documented the
+quality of care delivered by these direct care providers. Yet, every advance in their reimbursement
+for services and broader prescriptive authority involved protracted negotiation within the healthcare
+community. Professional challenges for these providers must continue to be addressed within the
+framework that nurses value the distinctive contribution of individuals or groups and collaborate to
+meet the shared goal of providing quality health
+services. Also, in the 1990s both the ANA and the
+ICN initiated comprehensive reviews of their codes.
+Each organization wanted to reflect current ethical
+standards for nurses—to make explicit the primary
+goals, values and obligations of the profession. The
+revised “ICN Code of Ethics for Nurses,” adopted
+in 2000, begins with a very powerful preamble:
+Nurses have four fundamental responsibilities: to
+promote health, to prevent illness, to restore health
+and to alleviate suffering. The need for nursing is
+universal. Inherent in nursing is respect for human
+rights, including the right to life, to dignity and to be
+treated with respect. Nursing care is unrestricted by
+considerations of age, color, creed, culture, disability
+or illness, gender, nationality, politics, race or social
+status. Nurses render health services to the individual, the family and the community and coordinate their services with those of related groups. 18(p2)
+EXHIBIT 20-1
+THE 2001 “CODE OF ETHICS FOR NURSES WITH INTERPRETIVE STATEMENTS”
+•
+The nurse, in all professional relationships, practices with compassion and respect for the inherent
+dignity, worth, and uniqueness of every individual, unrestricted by considerations of social or economic status, personal attributes, or the nature of health problems.
+•
+The nurse’s primary commitment is to the patient, whether an individual, family, group, or community.
+•
+The nurse promotes, advocates for, and strives to protect the health, safety, and rights of the patient.
+•
+The nurse is responsible and accountable for individual nursing practice and determines the appropriate delegation of tasks consistent with the nurse’s obligation to provide optimum patient care.
+•
+The nurse owes the same duties to self as to others, including the responsibility to preserve integrity
+and safety, to maintain competence, and to continue personal and professional growth.
+•
+The nurse participates in establishing, maintaining, and improving health care environments and
+conditions of employment conducive to the provision of quality health care and consistent with the
+values of the profession through individual and collective action.
+•
+The nurse participates in the advancement of the profession through contributions to practice, education, administration, and knowledge development.
+•
+The nurse collaborates with other health professionals and the public in promoting community, national, and international efforts to meet health needs.
+•
+The profession of nursing, as represented by associations and their members, is responsible for articulating nursing values, for maintaining the integrity of the profession and its practice, and for
+shaping social policy.
+Reproduced with permission from Code of Ethics for Nurses With Interpretive Statements (ISBN 1-55810-176-4). Washington,
+DC: American Nurses Publishing; 2001: 4.
+Nursing Ethics and the Military
+669
+The ICN Code comprises four elements: (1) nurses
+and people, (2) nurses and practice, (3) nurses and
+co-workers, and (4) nurses and the professions.
+These elements provide a framework for standards
+of ethical conduct.
+The “Code of Ethics for Nurses with Interpretive
+Statements” adopted by the ANA in 2001 complements the ICN document. It provides a succinct
+statement of the ethical obligations and duties of
+every nurse, sets the profession’s nonnegotiable
+ethical standard, and expresses nursing’s own understanding of its commitment to society. 19(p5) The
+Code comprises nine provisions: three describe fundamental values and commitments of the individual nurse, three address expectations for optimal performance and loyalty to self and others, and
+three address responsibilities to the profession and
+community at large (Exhibit 20-1). The interpretative statements for each provision provide greater
+specificity for practice within the contemporary
+context of nursing. Again, the word “patient” is used
+to refer to recipients of nursing care, although it is
+acknowledged that the Code applies to nurses and
+recipients of their services in all roles and settings.
+The “Code of Ethics for Nurses” informs both the
+nurse and society of the profession’s expectations
+and requirements in ethical matters. It provides a
+framework within which nurses can make ethical
+decisions and discharge their responsibilities to the
+public, other members of the healthcare team, and the
+profession. These decisions are based on consideration
+of consequences and of universal moral principles,
+both of which prescribe and justify nursing actions.
+Although the core value is respect for persons, there
+is deep and abiding concern for fundamental ethical principles including: autonomy (self-determination), nonmaleficence (avoiding harm), beneficence
+(doing good or positively benefiting another), veracity (truth telling), fidelity (keeping promises),
+confidentiality (respecting privileged information),
+and justice (treating people fairly). In summary, the
+nurse’s daily practice is charged with compromise
+and compassion, along with patient advocacy—
+feelings that greatly influence and modify the work
+ethics of the nursing profession. Table 20-1 provides
+a summary of the evolution of the codes for nursing.
+NURSING AND MEDICINE
+The emphasis on nursing as a profession was
+driven, in part, by the desire to shed the generally
+inferior social and economic status assigned to
+nurses in the medical hierarchy. By becoming professionals, nurses would enter the middle class and
+so achieve a social parity with other middle-class
+professionals, including physicians. 20
+The authority for nursing, as for other professions, is based on a social contract between society
+and the profession. Society grants the professions
+authority over their essential activities and permits
+considerable autonomy in the conduct of their affairs. The professions, in turn, are expected to act
+responsibly, ever mindful of the public trust, and
+to self-regulate to assure quality performance. The
+social contract for nursing has been made specific,
+over the years, through multiple actions. These actions include: (a) developing a code of ethics, (b)
+standardizing nursing curricula, (c) establishing
+educational requirements for entry into professional
+practice, (d) procuring registration for graduates of
+nursing programs, (e) establishing standards of
+practice, (f) developing a body of knowledge derived from nursing research, (g) developing certification processes for the profession, and (h) other
+works directed toward making more specific
+nursing’s accountability to society. 20 Nurses are ethically and legally accountable for actions taken in
+the course of nursing practice as well as for actions
+delegated by the nurse to others assisting in the
+delivery of nursing care. Individual moral responsibility requires a willingness to act on one’s moral
+beliefs and to accept accountability for one’s actions.
+Traditional ethical questions in healthcare involving issues such as euthanasia, abortion, experimentation, rationing, truth telling, and so forth, appear
+to be the same for all healthcare professionals. Other
+underlying principles or values for patient care are
+also shared. These include: (a) acting in the best interest of the patient, (b) protecting patient confidentiality and dignity, (c) obtaining informed consent
+for at-risk procedures, (d) obtaining consultations
+when believed necessary, and (e) respecting the scientific method. Acting in the best interest of the
+patient is an important component of the physician–
+patient covenant and the relationship of other
+healthcare professionals to the patient (including
+but not limited to the nurse). This is important due
+to the vulnerability and anxiety often felt by the
+patient, an inability to care for his health at this
+particular time, and potentially limited knowledge
+to determine whether the recommended course of
+treatment is indeed most beneficial.
+“Nursing” is defined as the diagnosis and treatment of the human responses to actual or potential
+health problems. It is the human response that reMilitary Medical Ethics, Volume 2
+670
+TABLE 20-1
+SUCCESSIVE REVISIONS OF THE CODE OF ETHICS FOR NURSES
+DATE/TITLE
+REFLECTION OF CONTENT
+RATIONALE FOR CHANGES
+First generally accepted, but unofficial,
+code of ethics.
+The nurse is primarily a citizen and public
+servant; obedient, trustworthy, loyal, and
+adept in social etiquette.
+Criteria for professional status includes
+registration in one state.
+Nursing responsibility includes safeguarding the health and property of patients.
+Medicine and nursing are distinct but
+complementary entities; however, nursing
+will not initiate treatment except in emergency.
+The nurse is responsible to her profession
+(shifted emphasis away from citizen and
+servant).
+Further enumeration of professional criteria.
+Loyalty to the physician demands that the
+nurse conscientiously follows his instruction.
+Emphasizes disease prevention and health
+promotion, stressing the nurse’s healthteaching role.
+Introduces research as a means for improving nursing care.
+Incorporates many elements of professional
+relationships within the Code’s provisions.
+Omits the statement about loyalty to the
+physician.
+Softens the statement about treatment by
+using the term “medical treatment.”
+Provides a prescriptive list of acceptable
+standards for the nursing profession.
+Nurses may disseminate scientific findings
+without intention to endorse or promote
+commercial products or services used in
+studies.
+Nurses or groups of nurses may advertise
+professional services in conformity with
+the standards of the nursing profession.
+Response to the felt need of many nurses to have
+their own pledge or oath.
+First ANA attempt to adopt official code of ethics.
+Reflects nursing as meeting a basic human need
+and emerging as a profession.
+Declares nursing a profession.
+Expresses overt concern for the status and public
+recognition of nursing as a profession.
+First national code of nursing ethics for any country.
+Uses “professional” in the title to emphasize nursing as a profession.
+Begins to identify patient care functions (nursing
+treatments) within its purview.
+Addresses questions and problems regarding
+nurses and advertising.
+Attempts to define a code of ethics applicable to
+nursing worldwide.
+Growing numbers of nurse researchers and authors
+seek to advertise their own publications and to
+present research findings that may reference commercial products.
+1893
+Florence Nightingale Pledge
+1926
+A Suggested Code
+1940
+A Tentative Code
+1950
+Code for Professional Nurses
+1953
+International Code
+of Nursing Ethics
+1956
+Code for Professional Nurses,
+Amended
+(Table 20-1 continues)
+Nursing Ethics and the Military
+671
+mains the defining characteristic of nursing that
+distinguishes it from medicine and the other health
+professions. Nursing views the patient as a holistic
+being. The goal of nursing is identification of human needs and actions appropriate in response to
+those needs. When engaged in the process of making ethical choices in the clinical judgment process,
+nurses tend to focus their cost-benefit analyses
+around the impact of patients’ problems on quality
+of life, emotional and physical suffering, and de1960
+Code for Professional Nurses,
+Revised
+1968
+Code for Nurses
+1976
+Code for Nurses
+With Interpretive
+Statements
+1985
+Code for Nurses
+With Interpretive
+Statements,
+Revised
+2000
+The ICN Code of
+Ethics for Nurses
+2001
+Code of Ethics for
+Nurses With
+Interpretive
+Statements
+Membership and participation in the professional organizations and participation
+in defining and upholding standards of
+practice and education is expected.
+References the dependent and independent
+functions of nursing.
+Allows active participation in setting terms
+of employment.
+Deletes the term “professional.”
+Deletes all statements about physicians.
+Deletes all references to “personal ethics.”
+Addresses the nurse’s responsibility to the
+patient, society, and the profession.
+Includes nurse participation in research.
+Deletes sexist language and refers to “client” rather than “patient.”
+Interpretive statements emphasize self-determination of the client and the nurse’s
+role as client advocate.
+Notes the obligation to contribute to the
+profession’s development noted, including research.
+Includes fundamental principles of ethics.
+Updates interpretations, referring to “people”
+instead of “citizen,” for example.
+Respect for human rights is inherent in
+nursing.
+There are 9 provisions instead of 11. The
+word “patient” is used again and “practice” is used to refer to the actions of the
+nurse in all roles and settings.
+Attention shifts from concern for content to concern
+about enforcing the code in the practice setting.
+The association of the word “plank” with political
+meaning is intentional when referring to the description of each statement.
+Applies to all registered nurses, graduates of hospital schools, technical colleges, and universities
+in response to controversy over the definition of
+technical and professional nurse.
+The personal sphere is no longer deemed within
+the purview of professional scrutiny.
+Reflects the social upheaval of the 1960s and major innovations in healthcare delivery.
+Uses nonsexist terminology and the word “client”
+to reflect nursing’s attempt to be more inclusive.
+Response to sensitivity regarding patient rights, informed consent, and shared decision making.
+Reference to nursing autonomy and nurse-as-advocate reflects respect for the autonomy of the
+patient and the nurse.
+The ethical principles are reflected in the content
+of the interpretative statements.
+Places greater emphasis on inclusion, eligibility,
+and patient rights.
+Responds to the realities of nursing and healthcare
+in a changing society. Guide for action based on
+social values and needs. Supports refusal of
+nurses to participate in activities that conflict
+with caring and healing.
+The provisions are more generalized in content and
+the accompanying interpretive statements reflect
+the contemporary context of nursing.
+Table 20-1 continued
+Military Medical Ethics, Volume 2
+672
+gree of human function based on respect for persons. 21 For example, while taking a nursing history
+or providing physical care for a patient, the nurse
+will pick up cues on how the individual interacts
+within his personal, family, and community systems.
+This information is often helpful in assisting the
+individual to cope with, or adjust to, the specific
+health need that initiated their interaction. Nurses
+frequently serve as an intermediary between patient
+and physician, encouraging the patient to ask questions he wants answered, and interpreting, explaining, or reaffirming information provided by the
+physician. The nurses’ psychology tends toward an
+unconditional love for patients under their care, which
+also affects the daily ethical behavior of nurses.
+Medicine is described as the science and art of
+preventing, alleviating, and curing disease. By extension, any issue or problem deriving from that
+generic body of knowledge and any application of
+it belongs to the general category of medical concern. 22 Physicians typically evaluate and diagnose
+the presenting problem, prescribe the necessary interventions, and arrange follow-up as needed. They
+tend to focus their cost-benefit analyses around
+what is viewed as their primary duty to control,
+diminish, or eradicate the disease and its effect. 21
+Physicians’ concerns related to quality of life (particularly when considering withdrawing life-sustaining treatment for terminally ill patients), economic factors, and length of stay reflect the
+profession’s increasing concern about the cost of
+care and the proper use of resources. 23 Physicians
+have not historically become as involved in patients’
+psychosocial systems and responses as do nurses.
+A dramatic example, as told by a colleague, illustrates this difference:
+A surgical team from a highly developed country
+was working in a foreign nation where the motor
+scooter is a primary means of personal transportation. A below-knee-amputation was performed on
+a young wife wounded by an antipersonnel land
+mine. Due to ensuing severe toxicity, the surgeon
+recommended a hip disarticulation to assure saving the patient’s life. The nurse argued for an aboveknee-amputation as an intermediate step so that
+riding on a scooter would still be possible. A hip
+disarticulation was performed and the patient was
+prepared for discharge. When her husband arrived
+to pick her up, she was unable to balance on the
+back of his scooter. He drove away without her and
+the patient died, “heartbroken,” two weeks later. 24
+This example illustrates that the practice of medicine tends toward the disease-fighting model, concentrating on the application of research and cure.
+The healthcare system—from medical education to
+reimbursement—calls physician attention to sick
+cells, organs, tissues, and limbs rather than relating to the patient. By contrast, nursing tends toward
+the psychological and social meaning of illness,
+concentrating on patient advocacy and care. Although it is absurd to say that nurses care while
+physicians cure (because in reality physicians try
+to help their patients cope with the experience of
+illness, and, of course, nurses help patients to be
+cured), there is nonetheless a distinct difference
+between nursing and medicine.
+Theories on differences in behavior date back to
+the ancient Greeks, as shown in the Corpus Hippocraticum, regarding the doctor–patient relationship.
+The formulation of their bond was established on
+the basis of love of nature through a specific man,
+the patient. Because of his disease, a sick man is a
+good friend to a doctor. In the case of the physician, it is assumed where there is love of man there
+is love of the art. The goal of this friendship was
+human perfection through knowledge—the pursuit
+of perfection. In the case of nurses, woman healers,
+or midwives, however, it was the recognition of
+what was necessary and a relationship that prevailed through concrete affection toward specific
+individuals. This distinction dates back to antiquity
+and is expressed today in the daily attitude of physicians and nurses. This creates a difference in perceptions and judgment, behavior, and ethical reasoning. The physician has intellectual honesty, the
+nurse emotional truthfulness; that is why both professions are complementary and needed by each
+other. 25 The challenge is to get each profession to
+recognize their mutuality and need for collaboration in providing their respective services in the best
+interest of the patient.
+Ethical dilemmas arise when miscommunication
+and controversy occur among patient, family, physician, nurse, and other healthcare professionals.
+When discussion and mutual decision making occur among those involved, there is less probability
+of ethical controversy becoming an issue. In spite
+of many independent functions, no one on the
+healthcare team functions independently of others
+in providing total healthcare to those being served.
+Although there is no special brand of ethical reasoning or moral intuition “for nurses only,” the continuing clarification of nursing’s identity as a profession has significantly increased each nurse’s ethical
+accountability in the realm of nursing practice. The
+developments in nursing research and knowledge
+in recent years have stimulated thoughtful reflection and debate on the philosophical basis of ethical judgment in the nursing profession. By virtue
+Nursing Ethics and the Military
+673
+of their pervasive presence in healthcare settings
+and the continuity of their care to individuals, families, and community groups, nurses may be more concerned with some ethical issues than with others. The
+goal of nursing actions is directed toward supporting
+and enhancing patient self-determination, which is
+basic to respect for persons, and is demonstrated
+through advocacy. Multiple biopsychosocial factors
+must be considered in deciding the plan of care. In
+reality, this decision, certainly in most cultures, would
+involve multiple discussions with the patient and family and among members of the healthcare team.
+ETHICAL DECISION MAKING
+A review of the literature does not substantiate a
+significant difference in the decision-making processes nurses and physicians use in solving ethical
+problems. The real difference may be how each
+views the patient or client from a combination of
+his or her personal and professional perspectives.
+The trend is not to adhere to a particular ethical
+theory because this approach tends to embody only
+one point of view, may lead to an erroneous stereotypic solution, and is most likely impractical. The
+discipline of ethics has shifted from a focus on
+rights-based universal principles to a concern with
+how individual stories are embedded within particular communities. Today, most healthcare professionals employ a framework of ethical principles,
+rules, and judgments rather than whole ethical theories in analyzing ethical dilemmas. Although this
+approach considers the crucial principles, the issues
+that are summarized by the ethics principles have
+prominence along with the context of the dilemma
+and the preferences for action expressed by those
+involved. Strong principled reasons must underpin
+the duty, obligation, or point of view for an ethical
+dilemma to exist. Ethical analysis proceeds as clear
+reasons are given, principles enunciated, and outcomes considered. The ethical analysis of a dilemma
+consists of moral reasoning or a system of justification that offers a rationale for decision making and
+action. 26(p41)
+Nurses in their moral reasoning, according to
+Garritson,27 apply the principle of beneficence more
+frequently than the principles of autonomy and justice, and the beneficence/autonomy balance in their
+moral reasoning is parallel to the care/justice tension Gilligan28 described. Cooper29 found that
+nurses relied on both a principle-oriented framework (self-determination and nursing obligation)
+and a moral response of care involving attention to
+the details of patients’ experiences. Peter and Gallop30 also found that nursing students use care considerations more than justice considerations, but
+their moral orientation could best be described as
+mixed. When nursing students were compared with
+medical students, the differences seemed to relate
+to gender, not profession; that is, women were more
+likely than men to use care considerations in their
+moral reasoning. Both genders and both nursing
+and medical students use a mixture of care and justice considerations. 30
+Conscious decision making may be minimized
+by healthcare professionals who hold well-defined
+value systems used in value ranking and tested
+against standards of personal conscience, professional codes of ethics, and legal liability potential.
+Grundstein-Amando31 noted that each carries his or
+her own unique subjective views based on personal
+experiences that ultimately affect the final course of
+action. Nurses are typically motivated in their ethical behavior by the value of caring that encompasses
+responsiveness and sensitivity to the patient’s
+wishes. Nurses listen and try to understand the
+patient. They will seek vivid indications of the
+patient’s feelings, intentions, and interests, gaining
+knowledge through personal touch and concrete
+interaction with the patient. They will attempt to
+maintain and sustain a relationship that reflects the
+patient’s own specific terms and contexts, not necessarily invoking any rules of justice and equality.
+They take into consideration love, compassion, and
+tenderness, which give value to human needs and
+human weaknesses.
+In contrast, physicians tend to value patients’ rights
+and the scientific approach that implies a major concern with disease and its cure. Physicians will talk with
+the patient and will try to understand the patient’s
+broad perspectives and motivating forces attempting
+to establish a relationship best described as an interaction between two separate individuals who aim to
+resolve together an ethical problem. The information
+that generates the knowledge held by the physician
+may be considered impersonal and universal, based
+on established ideals of medical practice and patient
+rights. In summary, these two groups view the
+patient’s best interests from different perspectives. 31
+The following example shows how the nurse arrived at a moral perspective that seemed to differ
+from that of the patient and physicians, based on
+subjective knowledge of the patient and objective
+knowledge of the course of his illness and long-term
+care needs. The patient, an 84-year-old retired infantry colonel, widowed and living alone, was
+transferred to a medical unit following a lengthy
+Military Medical Ethics, Volume 2
+674
+stay in the intensive care unit. Although alert and
+oriented, he was very frail. The nurse got to know
+him well as he fought to regain independence, insisting everything be done to maximize his recovery, and resisting any discussion about the possible
+need for transfer to a nursing home in the near future. As his recovery stalled, it became obvious to
+the nurse that nursing home care would be needed
+and that this was unacceptable to the colonel. She
+approached the attending physician about reviewing resuscitation status with the patient, but he decisively deferred to the patient’s previous request
+that everything be done to keep him alive. During
+the fourth week, the patient developed a severe infection and became gravely ill. The resident physicians on duty prescribed aggressive resuscitation
+with intravenous fluids and dopamine, followed by
+nasotracheal suctioning and urinary catheterization. The thought of performing cardiopulmonary
+resuscitation and intubating this patient was disturbing to the nurse as she did not think the patient wanted to be kept alive with machines and
+medications. After the initial crisis, she discussed
+her concerns with the residents, who responded that
+they wanted to hold off on the Do-Not-Resuscitate
+issue at present. Fearing time was running out, she
+again approached the attending physician. Together, at the bedside, they reviewed the situation
+and treatment options with the patient. The patient
+requested resuscitation short of ventilation. This
+request was honored and aggressive treatment continued; the patient died of respiratory arrest 36
+hours later. Although in this situation the resident
+physicians were clinically correct in responding to
+the patient’s initial request, the nurse believed that
+her knowledge of the patient and his course of illness called for reassessing and reaffirming his
+wishes. Therefore, she contacted the attending physician and obtained an acceptable outcome. 32
+It often becomes necessary to strike an acceptable
+balance between the emphasis on autonomy and one’s
+commitment to beneficence and nonmaleficence
+depending on the cultural context, specific situation, and the patient and healthcare professionals
+involved. It was not all that long ago that patients
+in our culture were often not told of a terminal diagnosis. The commitment to autonomy reflects a
+change in our ethical standards and healthcare expectations. Even now, when patients overwhelmed
+with information find themselves incapable of making a treatment choice or find the choices unsatisfactory, concern is expressed whether promoting
+autonomy may result in harm to the patient. In some
+cultures, healthcare professionals routinely do not
+disclose the diagnosis and prognosis to the patient
+in situations of terminal illness. Instead, the family
+is informed so they can ensure a social context of
+comfort for the patient. In this situation, healthcare
+professionals intend to protect the patients by relieving them of the burden of decision making, allowing them to feel secure and to gather their own
+resources for coping with their illness.
+RESOLVING ETHICAL DILEMMAS
+Clinical Interactions
+Clinical ethics for nurses in the military versus
+those in the private sector, and for nurses in one of
+the military services versus another, do not really
+differ. Although it is true that military nurses may
+not always serve in locations of their choice, and
+the traditional practice settings of land, sea, or air,
+particularly during armed conflict, may be different for nursing in the Army, Navy, and Air Force,
+basic ethical decision making is not affected.
+The overlay of wartime nursing does, however,
+add professional strain and certain moral dilemmas.
+Nurses are routinely exposed to the casualties of
+war. Casualties include their comrades, prisoners,
+detainees, and injured civilians (indigenous and
+displaced persons and refugees). Among the latter,
+women, children, and older persons are especially
+vulnerable. These nurses are confronted with great
+numbers of patients, many to survive with high
+degrees of long-term disability, and some unavoidable deaths, over a prolonged period of time. Military nurses began to deal with triage and rapid
+evacuation, as we know it today, during World War
+II. These systems, improved during the Korean and
+Vietnam conflicts, have served as models for peacetime mass casualty care and trauma centers.
+Vietnam nurse veterans reported several experiences that caused the most stress. They included:
+(a) treating patients who in many cases were
+younger than they, (b) encountering wounds more
+severe than they had previously seen, (c) dealing
+with patients who often put concerns about their
+buddies ahead of themselves, (d) evacuating a patient and losing touch with his case, (e) accepting a
+system of treatment—triage—that may have been
+based on expediency but violated every creed of
+accepted nursing practice (treating the less injured
+first), (f) and the deaths of those counted as friends.
+They also recounted being troubled by these dilemNursing Ethics and the Military
+675
+mas—sending recovered patients back into the field
+where they might be wounded again or killed (although the mission was to keep the combat units at
+fighting strength)—and working with physicians,
+nurses, and enlisted men who were prejudiced
+against the Vietnamese (although caring for wounded
+enemy and refugees was commonplace). 1 Prisoners
+and detainees are entitled to healthcare, humane
+treatment, and the right to refuse these offers and
+to die with dignity in a peaceful manner. Nurses
+are often the first to suspect or detect ill treatment
+of these persons and must take appropriate actions
+to safeguard their rights. This is an awesome responsibility. 33
+The Vietnam conflict had a dramatic effect on the
+professional philosophy and career decisions of
+many nurses. 1 Of 50 veterans interviewed, 60% reported they returned home with a stronger commitment to the profession and felt they could do
+their jobs well and handle challenging situations.
+About half of the group changed their clinical work
+to another specialty or a different type of practice
+setting. The majority (72%) said they would volunteer for duty in a war zone today. The 12 on active
+duty remained close to their war experiences in
+other ways: Three Air Force nurses and one who
+was in the US Army in Vietnam fly on medical
+evacuation planes and use their expertise to train
+other nurses; several US Navy nurses helped design new hospital ships; and a number of US Army
+nurses used their experiences to train and plan future requirements for nurses in war situations. 1
+In any clinical setting, weighing competing principles that support alternative courses of action is
+the essence of resolving ethical dilemmas. Clinical
+decisions are often approached from several perspectives including law, self-interest, professional
+codes and guidelines, clinical standards, and ethical principles. Striving to make right decisions and
+avoid making wrong ones is a common goal of
+healthcare professionals as they address the health
+and comfort of patients in their care. From the perspective of law, decisions must be consistent with
+legal rules to minimize the risk of prosecution and
+lawsuits. From the perspective of self-interest, decisions may advance the welfare of the professional
+or the institution, but they should not constrain
+moral action. Internal constraints include lack of
+professional confidence, fear, and insecurity. External constraints may include the authority of physicians, the policies and directives of hospital, medical, or nursing administration, or the threat of legal
+action. Many of these constraints, deeply rooted in
+history, are part of the socialization of the healthcare
+professions and the organization of healthcare services. This influence has been considered to be so
+strong that nurses in some settings did not always
+feel free to be moral. 34
+The military environment must be sensitive to
+the influence of relationships between superiors and
+subordinates, particularly as related to rank and
+position. In today’s environment, relationships between powerful superiors and subordinates are often viewed as coercive even when there is no specific allegation of harassment. For professional
+nurses, being commissioned as officers somewhat
+levels the playing field; yet, position within their
+practice setting could be an issue. Appropriate use
+of the chain of command will resolve these instances
+should they occur. One such resolution is illustrated
+by the following quotation:
+[T]here was [sic] five or six of them and me. And
+again, I’m a lieutenant, they all like way outrank
+me and…there wasn’t [sic] any other nurses there
+either, it was just all docs and they were all…banding
+together against me. And that’s when I said, okay,
+forget it, you know, if they’re gonna [sic] pull this
+kind of communication style, I’m going to enlist
+the support of my chain of command, and pull
+them in.…Things went smoothly. Um, much more.
+It started unofficially with just Mr. Y there. One of
+the…surgeons, the vascular surgeon who’s the
+chief though, so it was somebody who was actually was further up in the chain of things, and then
+the chief resident of the SICU [surgical intensive
+care unit] service, and my head nurse and I. So there
+was the six of us in the room together and communication was more professional and open. 35
+To assure an environment where professional
+nurses bear primary responsibility and accountability for the nursing care patients receive, the Army
+Medical Department Standards of Nursing Practice was
+published in 1981. This comprehensive document
+referenced a symposium on bioethical issues in
+nursing and the ANA Code for Nurses. It was noted
+that “implementation of these standards will serve
+to enhance the cooperative and collaborative relationships of the health care team who seek to provide optimal health care to patients and their
+families.”36(p1-1)
+As members of the healthcare team so integrally
+involved in patient care, and as part of their role as
+patient advocates, nurses should participate in ethical decision-making processes. Over the past 25
+years, there has been a rapid increase in the number of institutional ethics committees in healthcare
+facilities and nursing participation in committee
+activities. Committees are now interdisciplinary,
+Military Medical Ethics, Volume 2
+676
+having administrators, physicians, nurses, clergy,
+social workers, and attorneys represented. It is common to have members from other healthcare disciplines, patient representatives, quality improvement facilitators, ethics consultants or philosophers,
+and healthcare consumers of the institution represented as well. The more open the committee is to
+multidisciplinary participation, both as members
+and for consultation or referrals, the better the setting should be to address the ethical issues, questions, or dilemmas of staff and consumers.
+The usefulness of the multidisciplinary approach
+to address ethical dilemmas is shown in the following case where caregivers held divergent views of
+what was in the best interest of the patient.
+Case Study 20-1: Life Following Tragedy. A young
+soldier had suffered a severe wound caused by a grenade explosion; the severed spinal medulla led to an irreversible paralysis from the neck down. Excellent surgical and medical treatment kept the patient alive. When
+he became aware of his irreversible condition, the soldier begged to die. The doctors maintained him on
+parenteral nutrition while the nurses wanted to discuss
+the young man’s future. The doctors’ attitude was one of
+denial while the nurses’ was one of oversensitivity toward
+the patient’s demands. This led to underlying conflict between the doctors and nurses. Finally, the case was debated during a grand rounds session attended by representatives of the hospital ethics committee. This, by itself,
+reduced the anguish.
+Comment: Abrupt tragedy, like the experience of this
+young soldier, not only affects the patient and significant
+others but also those providing his care. In the initial days
+following the event, the physicians focused on sustaining
+life while the nurses tended to focus on the meaning and
+quality of life. When each stepped back from the immediacy of the situation during grand rounds, their views
+could be presented and discussed, along with those held
+by others. After all, the healthcare disciplines are taught
+that rehabilitation begins with admission, and certainly in
+this case, there was much work to be done.
+A survey of Army hospitals in 1986 confirmed
+that the prevalence of medical ethics programs paralleled that of the private sector. 37 Most respondents
+recognized the advisory or consultative role as being most useful. The educational, case review, and
+policy interpretation roles were viewed as beneficial but not to the same extent. A similar survey in
+the metropolitan New York area reported that all
+participating institutions included nurses as members of the hospital ethics committee. 38 Although
+most nurses held administrative and management
+positions, a few members were from clinical positions, particularly specialty areas such as critical
+and emergency care. The topics most frequently
+addressed by ethics committees, in descending order, were Do-Not-Resuscitate, withhold-withdraw
+treatment, acquired immunodeficiency syndrome
+(AIDS), allocation of resources, patient rights, and
+death and dying. When asked to identify those issues “most important” in nursing practice, respondents reordered the same topics and added professional practice issues as second most important. 38
+An ANA publication, Ethical Dilemmas in Contemporary Nursing, included chapters on similar issues. 39 Some of the topics were Do-Not-Resuscitate,
+advance management preferences, informed consent, the patient who refused to be fed, the issue of
+restraints, and care of the pediatric patient with
+AIDS. The practical ethical questions that may arise
+in the clinical management of patients frequently
+include scenarios related to these topics. How
+nurses, physicians, patients, families, and other
+members of the team approach resolution of these
+issues is important to all. Obviously, in many clinical situations more than one solution, right answer,
+or treatment option is possible. Culture, religious
+and political beliefs, and socioeconomic circumstances influence the final choices.
+Considering the complexities of today’s healthcare
+environment, influenced by rapid technological and
+scientific advances (genetic engineering, for example), multiple treatment alternatives, escalating
+costs, an aging population, and so forth, it is not
+unexpected that various healthcare professionals
+would hold differing opinions depending on their
+vantage point. If one assumes that the primary concern of these professionals is the well-being of the
+patient, then it is imperative for them to come together as a team to promote this goal. To resolve
+conflict and deal appropriately with ethical questions, recognition of each other’s rightful authority, competencies, and value to the total care of the
+patient is essential. The greater the degree of collaboration between nurses and physicians caring for
+the patient and family, the easier it becomes to find
+resolution. Attributes of collaborative practice include mutual trust and respect, and shared decision making, responsibility, and accountability.
+Mutual trust and respect implies appreciation and
+understanding of each other’s work, knowledge,
+and experience including the different views or
+perspective of a patient than the other may hold.
+Shared decision making requires understanding
+that professionals are interdependent and have a
+commitment to approach the negotiation process
+with an open mind. 30
+Treatment options are expected to reflect comNursing Ethics and the Military
+677
+pliance with relevant professional codes and guidelines and should be based on appropriate clinical
+norms and standards. Decisions should also be consistent with general ethical principles. Decisions
+that seem right from one perspective, however, may
+not be right according to other perspectives and vice
+versa. Therefore, it is not feasible in some situations
+to clearly satisfy the best choice from all perspectives. Clinical data and ethical considerations must
+be weighed in considering the patient’s best interests. Patients’ particular preferences and values can
+be of great assistance in reaching the best decision.
+Patients are likely to be consistent and trustworthy
+advocates of their own interests as long as they
+maintain decision-making capacity. In the exceptional clinical situations when the healthcare team
+cannot resolve recalcitrant ethical conflicts among
+themselves or with the patient and family or both,
+consultation with institutional ethics committees or
+consultation services can be of great assistance with
+ethical dilemmas, just as consultation with specialists can help resolve difficult clinical questions.
+Continuing Education
+The increase in complexity of nursing practice
+has given rise to many ethical dilemmas. Nursing’s
+commitment to patient care should always be directed
+toward supporting and enhancing the patient’s selfdetermination because “health is not necessarily an
+end in itself, but is rather a means to a life that is
+meaningful”40(pi) from the patient’s perspective. The
+fundamental search for meaning in life can be
+viewed through observing the ethical and moral
+aspects of human actions. This is the case for the
+“why” and the “what for” of health and, therefore,
+associated with the medical act. We do not live to
+be healthy, instead we are or want to be healthy to
+live and work. However, it is worth raising the question, “Why do we live and work?” To reach and
+capture the sense of this meaning and to fulfill this
+role, nurses must be accountable advocates, although the patient is the primary decision maker
+in matters concerning personal health, treatment,
+and well-being. 40 Continuing education is required
+for nurses to maintain their competence and to enhance their professional advancement. It is an essential component of human resources development
+for nurses to support a high level of knowledge,
+skill, and commitment for the provision of quality
+care.
+According to Smith,41 nurses need to recognize
+the ethical nature of their work, discern which ethical decisions are theirs to make, and acknowledge
+their authority to make ethical decisions in their
+practice. To achieve this end, the Carruths42 concluded that continuing education might provide the
+most sound basis for the ongoing development and
+improvement of a practitioner’s ethical conduct.
+The fundamental goals for continuing education in
+ethics are to increase understanding of ethically
+related issues, to increase awareness of other
+healthcare professionals’ feelings regarding ethical
+issues, and to increase the ability to form ethical
+arguments and justify decisions. Taking it one step
+further, it is equally important to recognize, respect,
+and adopt a multidisciplinary approach to these
+decisions for the best interest of the patient. To be
+human, responsible, caring, and moral in the clinical setting is a burden shared by all.
+Actually, Smith41 supported this approach in her
+discussion of deliberation and integration as two
+distinct components of the ethical decision-making
+process. Deliberation is the process an individual
+nurse uses to arrive at an ethical decision. Much
+has been published about nurses perceiving a lack
+of power or authority to make ethical decisions or
+act as free moral agents. Smith concluded that the
+problem is not significantly related to deliberation—how nurses consider their integrity, perspectives, consequences, and priorities, and arrive at a
+decision—but directly related to difficulty with the
+process of integration. Nurses have perceived a lack
+of power to effect the larger clinical ethical decision. Therefore an important goal of continuing
+education in ethics for nurses is to assist nurses in
+developing methodologies for participating as team
+members in the clinical ethical decisions made daily.
+The following quotation illustrates how a junior
+nurse in the military setting chose to deal with what
+she perceived to be an ethical dilemma regarding
+one of her patients:
+I talked to the residents that were there in the room
+at the time, the SICU residents and the cardiologist
+happened to be on the ward as well and I just kind
+of said, “Look, did you guys like talk to the family,
+do you really think he understood what was going
+on?” And got a somewhat abrupt and rude reply,
+basically,…“it’s none of the family’s business…of
+course he understood he signed his name.” And I
+said…and I was like, “I don’t think so,” so I took it
+up a step further to the senior resident and it got
+even uglier. And so then I went up my chain and
+just talked to the nursing supervisor and my head
+nurse. My head nurse then said, “No,…let’s get
+everybody together and find out what the scoop
+is.” And from there it went to a formal ethics consult, because the consent for surgery could easily
+be documented as illegal and unethical. 35
+Military Medical Ethics, Volume 2
+678
+To enhance the process of developing team methodologies for attending to ethical issues at the
+Walter Reed Army Medical Center, Washington, DC,
+the bioethics education program, “Decisions Near
+the End of Life,” was implemented in 1996. The
+goals of the program, developed jointly by the Education Development Center, Inc. and the Hastings
+Center, are to:
+• increase and improve communication between providers and patients, and among
+providers caring for the same patient
+around difficult issues of medical ethics;
+• identify resources to help institutions examine their policies and procedures, develop new ones as needed, and bring practice into line with current policy; and
+• demonstrate appropriate roles and responsibilities for healthcare professionals fostering teamwork and conflict resolution.
+Case studies are used to address the difficult
+questions and ethical dilemmas that arise in the use
+of life-sustaining treatment for critically and terminally ill adults. Participants include physicians,
+nurses, social workers, administrators, attorneys,
+and pastoral counselors as well as other healthcare
+providers. This example demonstrates one approach to continuing education in ethics, an important component of professional development. 43
+Another approach is demonstrated at the Naval
+Medical Center, Portsmouth, Virginia. Every member of the multidisciplinary Medical Ethics Committee is obliged to complete an ethics-training
+course and to undertake a continuing program of
+self-education. Available educational materials include: (a) written information and workshops on
+clinical ethics, (b) direct involvement in mock and
+real consultations, and (c) skills in communication,
+group leadership, individual and group dynamics,
+mediation, self-awareness, and multicultural sensitivity.
+The ethics training course covers the: (a) history,
+mission, and scope of ethics committees; (b) command instructions involving ethical issues; (c) legal concerns involving ethical considerations of
+clinical care; and (d) obligations, focusing on disclosure, assessment of capacity, the informed consent process, confidentiality, and truthfulness. This
+leads to clinical ethics issues such as refusal of treatment, foregoing life sustaining treatment, controversial reproductive choices, access and cost, death
+and dying, and diverse cultural and religious traditions affecting decision making. Due to the extensive education and training commitment, members appointed to the Medical Ethics Committee
+serve for the duration of their tour of duty at the
+Naval Medical Center, Portsmouth. 44
+The US Air Force has several ongoing initiatives
+in education, administration, practice, and research
+that focus on the ethical dimensions of healthcare.
+This, along with the appointment of a consultant
+for nursing ethics by the Air Force Surgeon General, reflects the position of nurses as moral agents.
+In addition to facility-wide ethics education programs and processes designed for comprehensive
+management of ethical and moral concerns, there
+is discussion of the moral reasoning process, ethical considerations, and the development of cultural
+competence in preparation for deployment to humanitarian and peacekeeping operations. These
+operations, for all the military services, may be in
+response to human-induced (eg, armed conflict,
+environmental degradation, industrial accidents) or
+natural (flood, earthquake, volcano) disasters. An
+immediate response to care for victims may be required, so readiness related to disaster response and
+preparedness plans is essential. 45 Similarities and
+differences between the practice environments at
+home and in deployed settings are explored. The
+challenges confronted during previous deployments are transformed into “lessons learned,” and
+the information is integrated into readiness training exercises. Innovations and efforts at Air Force
+healthcare facilities have included: (a) interdisciplinary ethics committees along with consultative services for patient care concerns; (b) improved communication processes to address ethical issues and
+to share information from both the academic and
+practice communities; and (c) classes, courses, and
+conferences to teach ethics and moral reasoning.
+Access to the Internet, Worldwide Web, and e-mail
+facilitates communication on ethical issues as well
+as the use of more traditional reference sources. 46
+The Worldwide Web has the potential to be the
+best mode of delivery for ethics education. The
+Nursing Ethics Network (which can be accessed at
+www.bc.edu/nursing,ethics) has identified the
+need for ethics education and research resources as
+the two most frequent reasons nurses turn to their
+Internet ethics service. Nurses are asking for help
+with professional competence questions and complex care decisions with an ethical component and
+seeking resources for advancement of ethics within
+their work setting. Members of the advisory board
+with ethics expertise respond to the questions. They
+do not provide answers but assist nurses to find
+resolutions themselves. 47
+Nursing Ethics and the Military
+679
+Nursing Research
+The 2001 “Code of Ethics for Nurses With Interpretive Statements” promotes nursing behaviors
+that contribute to the ongoing development of the
+profession’s body of knowledge. Therefore, nurse
+researchers investigate the many factors known to
+affect human health for the purpose of developing
+clinical interventions and providing information
+that will guide and improve nursing practice. The
+focus is to expand the body of knowledge related
+to the enhancement of personal health, to ameliorate pain and suffering, and to improve patient care
+in a manner that will restore individuals, or communities, or both to their highest level of functioning. 48
+All nurses have a role in the research process,
+whether they are principal investigators, subjects, or
+merely consumers of research. It is the responsibility
+of every nurse to develop an awareness of nursing
+research, to use it in patient care, and to articulate it
+in patient/family education. In the clinical setting,
+nurses caring for patients who are research subjects
+serve as patient advocates, identifying potential ethical problems related to their participation in the research protocol. Nurses, at time of employment,
+should be informed regarding their expected roles as
+subjects or data collectors in research projects. Early
+publications by the ANA on the rights of persons who
+participate in research included the 1975 “Human
+Rights Guidelines for Nurses in Clinical and Other
+Research,” and the 1976 guidelines for the “Preparation of Nurses for Participation in and Utilization of
+Research.” More recently the association published,
+“Ethical Guidelines in the Conduct, Dissemination,
+and Implementation of Nursing Research.” This comprehensive document provides a detailed framework
+for ethical nursing research. The focus is on nine ethical principles with commentary and research guidelines for each principle49 (Exhibit 20-2).
+Although military nurses were highly instrumental in establishing nursing research in general, documentation of when and where military nurses first
+became involved in research is rather vague. However, Dr. Harriet Werley referenced articles describing Army nurses’ early work in relation to research
+in military situations:
+EXHIBIT 20-2
+ETHICAL PRINCIPLES IN THE CONDUCT, DISSEMINATION, AND IMPLEMENTATION OF
+NURSING RESEARCH
+1.
+The investigator respects autonomous research participants’ capacity to consent to participate in
+research and to determine the degree and duration of that participation without negative consequences.
+2.
+The investigator prevents harm, minimizes harm, and/or promotes good to all research participants,
+including vulnerable groups and others affected by the research.
+3.
+The investigator respects the personhood of research participants, their families, and significant others, valuing their diversity.
+4.
+The investigator ensures that the benefits and burdens of research are equitably distributed in the
+selection of research participants.
+5.
+The investigator protects the privacy of research participants to the maximum degree possible.
+6.
+The investigator ensures the ethical integrity of the research process by use of appropriate checks
+and balances throughout the conduct, dissemination, and implementation of the research.
+7.
+The investigator reports suspected, alleged, or known incidents of scientific misconduct in research
+to appropriate institutional officials for investigation.
+8.
+The investigator maintains competency in the subject matter and methodologies of his or her research, as well as in other professional and societal issues that affect nursing research and the public
+good.
+9.
+The investigator involved in animal research maximizes the benefits of the research with the least
+possible harm or suffering to the animals.
+Source: Silva M. Ethical Guidelines in the Conduct, Dissemination, and Implementation of Nursing Research (D-95 5M 5/95).
+Washington, DC: American Nurses Publishing; 1995: 4.
+Military Medical Ethics, Volume 2
+680
+Clara Maass’ participation in the yellow fever experiments in 1901, which resulted in her death; Sara E.
+McCallister’s work and association with studies of
+wounds and infection; Claussen’s patient categorization according to nursing care needs; Charlotte
+Rodeman’s work with the milieu therapy study
+group; Mada F. Woodward’s and Alice S. Clark’s work
+on reducing bacterial count in hospital areas through
+hospital disinfection with beta-propiolactone; Phyllis
+J. Verhonick’s research on decubiti; Mariam K.
+Ginsberg’s research on oral and nasal hygiene; and
+Jacqueline H. Sellees and Ann E. Yodees study of temperature readings. 50(p52)
+Werley also described the supporter, technician,
+consultant, collaborator, and investigator roles of
+nurses in research. 51 The establishment of the Department of Nursing at Walter Reed Army Institute
+of Research, Washington, DC, in 1957 created an
+unprecedented and unique opportunity for US
+Army nurses. Nurse investigators, assigned to the
+unit and free of nursing service commitments, had
+the opportunity to assist and learn from accomplished investigators. These early pioneers were
+committed to the pursuit of research in nursing
+practice and viewed Walter Reed General Hospital, adjacent to the Institute, as a fertile clinical laboratory. 52 From 1961 until 1969, seven classes totaling 28 nurses attended the 10-month-long Military
+Nursing Practice and Research Course. The unit
+continues today, now known as the Nursing Research Service, Department of Nursing, Walter Reed
+Army Medical Center. Current research projects,
+under the auspices of this unit, include significant
+participation in the Tri-Service Nursing Research
+Program. 53
+Since the 1960s, the US Army Nurse Corps has
+provided graduate education in civilian university
+programs for selected, promising nurse researchers. Over time, the US Army designated a nursing
+research consultant to the Army surgeon general
+(1968), formed the Nursing Research Advisory
+Board (1976), established the biennial Phyllis J.
+Verhonick Nursing Research Symposium (1981),
+and implemented a regional approach to support
+nursing research. Much of the military nursing research literature is contained in theses, dissertations
+and studies from training programs, available only
+through the National Technical Information Service
+or the Defense Technical Information Service. The
+history of nursing research in the US Navy and US
+Air Force has been traced through the review of
+unpublished masters’ theses and mimeographed
+documents from the School of Aerospace Medicine,
+Brooks Air Force Base, Texas. More formal nursing
+research endeavors began in the US Air Force in the
+late 1960s and in the US Navy in the early 1980s. 54
+The Tri-Service Nursing Research Program was
+established in fiscal year 1992 when Congress appropriated initial funding of $1 million to support
+targeted research by military nurses. The purpose
+of the program is to improve nursing care for Department of Defense beneficiaries by expanding the body
+of scientific knowledge upon which military nursing practice is based. Research funded by this initiative should have a positive impact on healthcare
+and the health status of military populations. In
+1993, the call for proposals identified ethics studies
+as one of the priorities for funding. Current studies
+with ethical implications, funded by the program,
+include: (a) Nurse–Patient Relationship Patterns: An
+Economic Resource; (b) Effects of Separation on
+Families During Hospitalizations; (c) The Lived
+Experience of Military Women Who Discontinued
+Breast Feeding Before Planned; (d) The Effects of
+Culturally Sensitive Messages and Health Beliefs;
+(e) Fatigue Following Childbirth: Military Family
+Outcomes; (f) The Experience of Chief Nurses in
+Military Operations Other Than War; (g) Neurometric
+Assessment of the Effects of Analgesia; and (h) Listening to Voices of Women in a Family Advocacy
+Program. 55
+During its first 4 years, the Tri-Service Nursing
+Research Program developed a $9. 68 million portfolio of 77 projects conducted by nurses in the
+armed forces. Awards were granted to members of
+all three military services, including active, reserve,
+and guard components. “Military nursing research
+addresses many areas: the unique military environmental settings in which care is provided; mission
+readiness and deployment of military personnel;
+and improving nursing structure (delivery systems)
+and processes to enhance clinical outcomes, health
+status and quality of life of diverse military personnel, their beneficiaries, and populations receiving
+care during humanitarian, peacetime, and wartime
+missions.”53(p17) Findings from military nursing research not only benefit the military, but in many
+cases also benefit the private sector.
+Nursing Administration
+Ethical dilemmas in the practice of nursing administration differ from those in clinical nursing.
+Yet, obligations to patients, staff members, and the
+profession involve judgments about justice, fidelity, and beneficence. The resolution process remains
+much the same for most ethical dilemmas. Nurse
+administrators, as any organizational leader or exNursing Ethics and the Military
+681
+ecutive, are morally obligated to use their influence
+and power responsibly to better serve their constituents. In various situations, nurse administrators
+may experience conflicting expectations and values.
+These may include doing good for one patient or
+employee versus benefiting all patients or employees; attending to the welfare of an individual or
+group within the organization versus responsibility to the institution or organization as a whole; and
+serving the moral obligations of administrative
+practice concurrently with those of professional
+nursing, including balancing costs and benefits.
+Nurse administrators strive to provide safe and respectful work environments with adequate support
+and resources where personnel provide quality care
+to meet patient needs.
+Recent changes in healthcare reimbursement systems have caused administrators to focus on ethical issues related to the appropriate use of human
+and financial resources. Heightened competition for
+nursing resources both within and among countries,
+characterized by an increasing demand and a decreasing supply, has highlighted the importance of human resource planning and development at a global
+level. Although career mobility and multicultural
+practice are desirable, nurses must not be exploited
+as the result of unscrupulous recruitment or inappropriate working conditions. Fair and cost-effective
+recruitment and retention practices are an important component for assuring an adequate supply of
+qualified and committed nursing personnel. 56
+Research has identified administrative decisions
+related to patient care issues as most likely to
+present ethical dilemmas. These included staffing
+level and mix situations, developing/maintaining
+standards of care (quality), and the allocation of
+scarce resources. Respondents also ranked those
+decisions related to patient care issues as highest
+in frequency of occurrence. Issues related to employee interpersonal or professional performance
+were reported less often as presenting ethical dilemmas. These included problems related to physician
+or nurse incompetence, demotion or termination of
+employees, and employee relations. 57
+Most nurse administrators are challenged to provide more cost-effective care, a goal of the restructuring occurring in the American healthcare system. The
+aim is to reduce waste and costs, enhance efficiency
+and access, and pass on savings to the purchasers of
+healthcare without loss of quality. When nurses are
+concerned that work redesign would compromise
+the quality of care, Mahlmeister58 recommended
+that the plan, action or activity be examined by asking three questions: (1) Is this legal? (2) Does this
+violate an accepted or published standard? and (3)
+Will this violate the ANA Code of Ethics?
+With thorough answers to these questions, efforts
+should be aimed at working at the lowest level possible in the system to resolve the issues in some
+mutually agreeable manner. If this is unsuccessful,
+top administration should be formally appraised of
+the situation. If the employer does not correct the
+problem, the nurse may need to move beyond the
+agency and report these concerns to appropriate
+authorities such as the state board of nursing. The
+ANA published the 1994 “Guidelines on Reporting
+Incompetent, Unethical or Illegal Practice” to assist
+nurses confronted with questionable actions or situations. This document describes these types of conduct and reporting responsibilities, and provides a
+model for action. 59
+Nurses as patient advocates are expected to safeguard the client and the patient when healthcare
+and safety are affected by incompetent, unethical,
+or illegal practice by any person. Making the determination about what constitutes these behaviors is
+a first step; determining what to do about it is not
+always easy. Nurses frequently ask what they can
+do and whom they can tell about unsafe or illegal
+conditions that they are experiencing. They do not
+want, however, to experience discrimination or harassment or lose their jobs. Their concerns are well
+founded. If advocacy is the role of nursing, who
+protects the nurse in the advocacy role? Nurses
+must have the freedom to report unsafe practices
+without undue concern. Employing institutions and
+agencies providing nursing services have an obligation to establish a process for reporting and handling practices that jeopardize patient health or
+safety. The method may be as informal as an “open
+door” policy allowing staff members to take their
+complaints through all chains of command or as
+formal as a grievance and arbitration procedure.
+The point is that some established process needs to
+be in place for reporting questionable actions so that
+nurses can pursue such matters through official
+channels without fear of reprisal.
+Protection from workplace violence, including
+physical violence, sexual harassment, and verbal
+abuse is also essential to assuring nurses’ rights to
+personal dignity, integrity, and freedom from harm.
+Among health personnel, the nursing staff is most
+at risk. Many factors, such as the stress of sickness,
+coping with potentially life-threatening situations,
+interventions demanding close physical contact,
+shift work, demanding workloads, and attitudes
+about women may aggravate misbehavior. Adequate staffing levels, work methods that support
+Military Medical Ethics, Volume 2
+682
+quality care, and fostering respectful treatment for
+all help create a respectful and safe work environment. Appropriate security measures, confidential
+grievance procedures, access to counseling services
+and legal aid for victims and perpetrators of violence, and support of nurses during reporting/compensation and claim procedures reflect a “zero tolerance” of violence. 60
+Such processes are necessary to balance the
+mechanisms of control that permeate the healthcare
+environment. These controls range from formal
+power, associated with hierarchical supervision,
+standard operating procedures, codes of conduct,
+and accreditation requirements, to informal influences such as peer pressure and prevailing attitudes
+within the organization. Recognition of the influence
+or power exerted on patients, subordinates, and peers
+is particularly cogent in the military setting where the
+superior–subordinate relationship is overt.
+Military nurse administrators, being both commissioned officers and professional nurses, bear a
+dual responsibility to develop and sustain the ethical climate. As officers and leaders, the authority
+over subordinates is greater than almost any other
+human relationship in our society. Care must be
+taken to use this authority only to fulfill responsibilities and not to exploit or degrade subordinates.
+It is important to reach out in the organization, encourage openness, listen to what subordinates have
+to say, and help them establish the moral strength
+to do what they believe is right. Subordinates must
+be encouraged to look at options for resolving issues and to consider the ethical implications of the
+situation.
+Even in environments where such processes are
+in place, each nurse has a personal threshold for
+the burdens and sacrifices that will be tolerated,
+and, therefore, there may be considerable variability among nurses. Each has to examine the tension
+between obligation to the patient and to colleagues,
+to the institution where they practice, and to themselves. The resulting action may be reporting to
+superiors or licensing boards, using institutional
+mechanisms, or in severe cases “blowing the whistle”
+through disclosure to law enforcement agencies
+outside of the employer’s facilities. 61 Responsible
+nurse administrators should assure that nurse employees are aware of current nursing standards, the
+“Code of Ethics for Nurses,” and laws governing
+nursing and practices. Although the ultimate accountability for professional practice lies with the
+individual nurse, nursing leadership should support and assist their staff in meeting these professional obligations. Through discussion and practice,
+nurses develop a shared ethical perspective on how
+to accomplish their basic purpose while following
+acceptable means and giving reasonable consideration to the value and dignity of all human life.
+Nurse administrators, in either the military or the
+private sector, must consider questions about staffing levels, clinical competence, standards of care,
+and economic efficiency as part of their routine responsibilities while they address fairness, faithfulness to duty, and commitment to the organization.
+When deployed, working in austere, sometimes
+dangerous, and culturally sensitive environments
+adds another dimension to the challenges for military nurse administrators.
+CONCLUSION
+The development of military nursing in the
+United States was closely associated with nursing
+leaders from the private sector. Many challenges
+were influenced by the social status attributed to
+nursing and to women in general at that time. Following the Civil War, the strong emergence of
+women from home to larger societal purpose helped
+set the stage for nursing to emerge as a profession
+and for trained women nurses to be included in
+military organizations.
+Early references to ethics in nursing centered
+around morals and manners. Social etiquette was
+emphasized as the first formal schools of nursing attempted to attract educated daughters from respectable middle class families. Following World War I as
+more trained nurses were available to the profession,
+ethics content began to shift. Definitions of nursing
+ethics, as an extension of ethics, were published and
+discussed as part of the nursing curriculum.
+Initially, The Nightingale Pledge gained significant recognition as the code for nursing in the
+United States. Organized nursing, however, proposed to establish a more formal code for the purpose of promoting ethical standards for professional
+conduct. Since its inception in 1926, the “Code of
+Ethics for Nurses” has periodically been revised to
+remain relevant to changes in the nursing and
+healthcare professions. The code serves to inform
+both the nurse and society of the profession’s expectations and requirements in ethical matters. Revisions to the code, considered to be a living document, reflect changes in nursing’s relationship to
+society and the societal concerns of the times.
+Nursing, in general, tends toward the psychoNursing Ethics and the Military
+683
+logical and social meaning of life and death, health
+and illness concentrating on patient advocacy and
+care. The practice of medicine tends toward the disease-fighting model concentrating on the application of research and cure. Although there are distinct differences between the professions, no one on
+the healthcare team functions independently of others in providing total healthcare to those being
+served. The challenge is to get each to recognize
+their interdependence and to collaborate in providing the most beneficial treatment and care to the
+patient.
+Acting in the best interest of the patient when
+addressing traditional ethical questions in healthcare
+and other underlying principles or values for patient care appears to be the same for all healthcare
+professionals. Even the decision-making processes
+nurses and physicians use in solving ethical issues
+do not appear to significantly differ. The real and
+important difference may be that each views the
+patient and any related ethical dilemma from a combination of his or her own personal and professional
+perspectives.
+Although clinical ethics for nurses in the military do not differ from those in the private sector,
+the overlay of wartime nursing does add professional strain and certain moral dilemmas. Even
+though nurses feel pride in their contributions to
+patient care in austere and sometimes dangerous
+environments and the wartime role of professional
+nursing, their feelings and attitudes toward armed
+conflict may be forever tempered. The stress of the
+experience impacts future perspectives.
+Considering the complexities of today’s healthcare
+environment, it is not unexpected that various providers would hold differing opinions depending on
+their vantage point. Ethical dilemmas arise when
+miscommunication and controversy occur among
+patient, family, physician, nurses, and other healthcare professions. The ultimate goal is to bring the
+individuals together as a team to resolve their issues in the best interest of the patient. The greater
+the degree of collaboration between nurses and
+physicians caring for the patient and family, the
+easier it becomes to find resolution. Collaboration
+includes mutual trust and respect, and shared decision making, responsibility, and accountability.
+Continuing education to emphasize collaborative
+ethical decision making is an important component
+of professional development. Another is research
+to extend the body of professional knowledge and
+to improve practice. Adherence to ethical principles
+in the conduct of research and professional practice
+is essential. Incidents of incompetent, unethical, or
+illegal nursing practice must be reported to the appropriate authority. Nursing leaders are responsible
+for providing safe and supportive working environments that promote professional nursing practice
+and mutual respect. Military nurse administrators,
+as commissioned officers and professional nurses,
+bear a dual responsibility to develop and sustain
+the ethical climate. They must encourage subordinates to look at options for resolving issues and
+consider the ethical implications of the situation.
+REFERENCES
+1.
+Norman EM. Nurses in War: A Study of Female Military Nurses Who Served in Vietnam During the War Years 1965–
+1973 [dissertation]. New York University; 1986.
+2.
+Feller CM, Moore CJ, eds. Highlights in the History of the Army Nurse Corps (CMH Pub 85-1). Washington, DC:
+US Army Center of Military History; 1996.
+3.
+Hanson KS. A network of service: Female nurses in the Civil War. Caduceus. 1995;11(1):11–22.
+4.
+Johns E, Pfefferkorn B. The Johns Hopkins Hospital School of Nursing, 1889–1949. Baltimore, Md: Johns Hopkins
+Press; 1954.
+5.
+Glass LK. The Naval Reserve Corps: The first fifty years, 1908–1958. Caduceus. 1995;11:35–52.
+6.
+Stimson J. Untitled typewritten document found in Julia C. Stimson Papers, Box 3, File 2 (1925); US Army
+Center of Military History, provided by Mary T. Sarnecky.
+7.
+Gretter L. Florence Nightingale Pledge: Autographed manuscript dated 1893. Am J Nurs. 1910;104:271.
+8.
+Freitas LF. Historical roots and future perspectives related to nursing ethics. J Prof Nurs. 1990;6(4):197–205.
+Military Medical Ethics, Volume 2
+684
+9.
+Fowler MD. A chronicle of the evolution of the code for nurses. In: White GB, ed. Ethical Dilemmas in Contemporary Nursing Practice. Washington, DC: American Nurses Publishing; 1992: 149–154.
+10.
+Viens DC. A history of nursing’s code of ethics. Nurs Outlook. 1989;37(1):45–49.
+11.
+Smith LS. History of American military nursing. Adv Clin Care. 1991;6:31–32,36.
+12.
+Turin D. Communications Department, International Council of Nurses, Geneva, Switzerland, E-mail Communication, 31 May 2002.
+13.
+Gordon S. Life Support. Boston: Little Brown & Co; 1997: 100.
+14.
+Crowder L. Manners, morals, and nurses: An historical overview of nursing ethics. Texas Rep Biol Med.
+1974;32:173–180.
+15.
+Norman EM. Women at war: The story of fifty military nurses who served in Vietnam. N J Nurse. 1992;22(2):15.
+16.
+Norman EM. After the casualties: Vietnam nurses’ identities and career decisions. Nurs Res. 1992;41(2):110–113.
+17.
+Nursing’s Social Policy Statement (NP-107 7. 5M 9/98). Washington, DC: American Nurses Publishing; 1995.
+18.
+The ICN Code of Ethics for Nurses (ISBN 92-95005-16-3). Geneva, Switzerland: International Council of Nurses; 2000.
+19.
+Code of Ethics for Nurses With Interpretive Statements (ISBN 1-55810-176-4). Washington, DC: American Nurses
+Association; 2001.
+20.
+Ladd J. Some reflections on authority and the nurse. In: Spicker SF, Gadow S, eds. Nursing Images & Ideals. New
+York: Springer Publishing Co; 1980: 160–175.
+21.
+Murphy CP. Introduction. In: White GB, ed. Ethical Dilemmas in Contemporary Nursing Practice. Washington,
+DC: American Nurses Publishing; 1992: xxi–xxiv.
+22.
+Sullivan MC. Professionalism and ethics in nursing. Second Opin. 1986(1):102–119.
+23.
+Walker RM, Miles SH, Stocking CB, Siegler M. Physicians’ and nurses’ perceptions of ethics problems on general medical services. J Gen Intern Med. 1991;6(5):424–429.
+24.
+Leitch R. Personal Communication, 1997.
+25.
+Ortiz Quesada F, MD. Personal Communication, 1998.
+26.
+White GB. Philosophical ethics and nursing: A word of caution. In: Chin PL, ed. Advances in Nursing Theory
+Development. Rockville, Md: Aspen; 1983: 35–46.
+27.
+Garritson SH. Ethical decision making patterns. J Psychosoc Nurs Ment Health Serv. 1988;26(4):22–29.
+28.
+Gilligan C. In a Different Voice: Psychological Theory and Women’s Development. Cambridge, Mass: Harvard University Press; 1982.
+29.
+Cooper MC. Principle-oriented ethics and the ethic of care: A creative tension. ANS Adv Nurs Sci. 1991;14(2):22–31.
+30.
+Peter E, Gallop R. The ethic of care: A comparison of nursing and medical students. Image J Nurs Sch. 1994;26:47–51.
+31.
+Grundstein-Amado R. Differences in ethical decision-making processes among nurses and doctors. J Adv Nurs.
+1992;17(2):129–137.
+32.
+Pike AW. Moral outrage and moral discourse in nurse–physician collaboration. J Prof Nurs. 1991;7(6):351–362.
+Nursing Ethics and the Military
+685
+33.
+The Nurses’ Role in the Care of Prisoners and Detainees. Geneva, Switzerland: International Council of Nurses; 1998.
+34.
+Yarling RR, McElmurry BJ. The moral foundation of nursing. ANS Adv Nurs Sci. 1986;8(2):63–73.
+35.
+Reeder, J, Fry S. Nurses’ Roles in Life-Sustaining Treatment Decisions. Research grant #N94-036, funded by the
+Triservice Nursing Research Program, Uniformed Services University of the Health Sciences, Bethesda, Md.
+36.
+US Department of the Army. Army Medical Department Standards of Nursing Practice. Washington, DC: HQDA;
+November 1981: Pamphlet 40-5.
+37.
+Carter BS. Medical ethics committee: A survey of Army hospitals. Mil Med. 1988;153:426–429.
+38.
+Scanlon C, Fleming C. Confronting ethical issues: A nursing survey. Nurs Manage. 1990;21:63–65.
+39.
+White GB, ed. Ethical Dilemmas in Contemporary Nursing Practice. Washington, DC: American Nurses Publishing; 1992.
+40.
+Code for Nurses with Interpretive Statements (G-56 7. 5M 10/96). Washington, DC: American Nurses Publishing; 1985.
+41.
+Smith KV. Ethical decision-making in nursing: Implications for continuing education. J Contin Educ Nurs.
+1996;27(1):42–45.
+42.
+Carruth PJ, Carruth AK. Applying ethics to health care: The role of continuing education. Health Care Superv.
+1991;10:62–68.
+43.
+Beam TE, Carter BS. Washington, DC: Walter Reed Army Medical Center. Memorandum, undated.
+44.
+Meredith NV, CDR, NC, USN, Command Ethicist, Naval Medical Center, Portsmouth, VA, Personal Communication, 11 February 1998.
+45.
+Nurses and Disaster Preparedness. Geneva, Switzerland: International Council of Nurses; 2001.
+46.
+Turner M, Colonel, Nursing Corps, US Air Force. Personal Communication, 1998.
+47.
+Riley J. Wired on ethics. Reflections. 1998;24(2):32.
+48.
+Wintz CJB. A nurse’s research dilemma. In: White GB, ed. Ethical Dilemmas in Contemporary Nursing Practice.
+Washington, DC: American Nurses Publishing; 1992: 129–145.
+49.
+Silva M. Ethical Guidelines in the Conduct, Dissemination, and Implementation of Nursing Research (D-95 5M 5/95).
+Washington, DC: American Nurses Publishing; 1995.
+50.
+Werley HA. Army nurse participation in and contribution to research. Nurs Outlook. 1963;11:52–55.
+51.
+Werley HA. The different research roles in Army nursing. Nurs Outlook. 1963;11:134–136.
+52.
+Verhonick PJ, Werley HH. Experimentation in nursing practice in the Army. Nurs Outlook. 1963;11:204–206.
+53.
+Committee on Military Nursing Research. The Program for Research in Military Nursing: Progress and Future Direction. Washington, DC: Institute of Medicine, National Academy Press; 1996.
+54.
+Kalisch PA. Weavers of scientific patient care: Development of nursing research in the US armed forces. Nurs
+Res. 1977;26(4):253–271.
+55.
+Committee on Military Nursing Research. Military Nursing Research: Bibliographies. Washington, DC: Institute
+of Medicine, National Academy Press; 1996.
+56.
+Ethical Nurse Recruitment. Geneva, Switzerland: International Council of Nurses; 2001.
+Military Medical Ethics, Volume 2
+686
+57.
+Borawaki DB. Ethical dilemmas for nurse administrators. J Nurs Adm. 1995;25:60–62.
+58.
+Abuse and Violence Against Nursing Personnel. Geneva, Switzerland: International Council of Nurses; 2000.
+59.
+Guidelines on Reporting Incompetent, Unethical, or Illegal Practices (NP-91 10M 7/94). Washington, DC: American
+Nurses Publishing; 1994.
+60.
+Mahlmeister L. When cost-saving strategies are unacceptable. Pediatr Nurs. 1996;22(2):130–132.
+61.
+Rushton CH, Hogue EE. Confronting unsafe practice: Ethical and legal issues. Pediatr Nurs. 1993;19:284–288.

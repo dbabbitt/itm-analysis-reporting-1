@@ -1,0 +1,1997 @@
+Medical Ethics in Military Biomedical Research
+533
+Chapter 18
+MEDICAL ETHICS IN MILITARY
+BIOMEDICAL RESEARCH
+MICHAEL E. FRISINA*
+INTRODUCTION
+THE NATURE OF MILITARY BIOMEDICAL RESEARCH
+Military Disease Hazards Research
+Medical Biological Defense Research
+Combat Casualty Care Research
+Human Systems Technology Research
+Medical Chemical Defense Research
+THE ETHICAL LEGITIMACY FOR MILITARY BIOMEDICAL RESEARCH
+Should Military Biomedical Research Be Prohibited?
+The Nonparticipation Point of View
+The Participation Point of View
+National Risk vs National Security
+Summary
+THE ETHICAL CONDUCT OF RESEARCH
+Criteria for Conducting Ethically Responsible Research
+Informed Consent
+Is It Ethical to Conduct Research on Soldiers?
+Practicality and American Moral Ideals
+The Persian Gulf War Experience
+The Dilemma of Choice
+Summary
+ETHICS AND THE ISSUE OF ANIMAL EXPERIMENTATION
+The Moral Status of Animals
+Animal Suffering vs the Primacy of Human Life
+Application of Ethical Theory
+A Definitive Rights Position
+Summary
+MILITARY WOMEN’S RESEARCH PROGRAM
+THE PROBLEM OF EXCLUSION
+CONCLUSION
+*Lieutenant Colonel (Retired), Medical Service Corps, United States Army; formerly, Director, Bioethics Program, Medical Research and
+Development Command, Fort Detrick, Maryland; formerly, Assistant Professor, Philosophy Division, Department of English, United States
+Military Academy, West Point, New York; currently, Administrative Director, Surgical Services, Tuomey Healthcare System, 129 North
+Washington Street, Sumter, South Carolina 29150
+Military Medical Ethics, Volume 2
+534
+J.O. Chapin
+Research Heroic–The Self-Inoculation
+1944
+The sixth of seven images from the series The Seven Ages of a Physician As the painting title implies, the physician-researcher,
+following the ethical guidelines of research, is willing to inoculate himself in the pursuit of scientific knowledge for
+the betterment of all patients.
+Art: Courtesy of Novartis Pharmaceuticals.
+Medical Ethics in Military Biomedical Research
+535
+INTRODUCTION
+find, for example, no ethical objection to military
+biomedical researchers vaccinating soldiers to prevent them from dying of disease. 5 Is it just as ethical for those same researchers to investigate the efficacy of chemical protective clothing, or combat
+helmets and body armor with the same end in mind,
+preventing harm to the soldier? This view begs a
+question of whether any military biomedical research can be constructive, even vaccine research
+dating to Walter Reed himself. Consequently, there
+are various groups who advocate that all military
+vaccine research and development be controlled by
+public health agencies to preserve the constructive
+nature of this research. The purpose would be to
+reduce the potential for ethical conflict among researchers and to limit destructive applications of
+the science. 6 Arguments for distinguishing between
+offensive and defensive research will follow later
+in this text.
+If there is an ethical distinction between constructive (defensive) and destructive (offensive) military
+biomedical research, there is a need to examine
+whether this research can be conducted in an ethically responsible manner. Protection of research
+subjects in military biomedical research is ethically
+essential. Currently, the Department of Defense
+(DoD) policy for the conduct and review of human
+subjects research, which applies to all elements of
+the DoD and to its contractors and grantees, upholds the protection of the fundamental rights,
+welfare, and dignity of human test subjects. 5(p12)
+Likewise, the DoD purports to adhere to the strictest guidelines regarding the use of animal models
+in its research and development programs. 6 Animal
+protocols are subjected to layers of review at various command and service levels. While the entire
+subject of animal use remains under intense ethical
+scrutiny, the military seeks to be sensitive to the
+obligation of humane treatment of research animals
+and resolute in complying with all federal requirements for their care and use in biomedical research.
+Finally, a discussion of the ethical conduct of
+military biomedical research needs to examine the
+efforts to expand scientific studies specific to the
+needs of military women. In the past, protocol designs have excluded military women for a variety
+of reasons. Now it is ethically essential to understand the reasons for the past exclusion of women
+and establish guidelines to alter the practices of the
+past. As the roles of military women expand, they
+will confront a host of new medical challenges. ReIn his preface to Principia Ethica, Moore writes,
+it appears to me that in ethics, as in all other philosophical studies, the difficulties and disagreements,
+of which history is full, are mainly due to a very
+simple cause: namely to attempt to answer questions without first discovering precisely what question it is which you desire to answer. 1(pi)
+The “precise question” of this chapter has two parts:
+(1) is there an ethical justification for military biomedical research? and (2) if military biomedical research is an ethically legitimate enterprise, can military biomedical researchers conduct their work in
+an ethically responsible manner?
+As Moore suggests, the question of whether military biomedical research is ethically legitimate has
+its own history of difficulties and disagreements.
+Although there is little challenge that an ethical basis
+for biomedical inquiry exists in general, the line of
+distinction is extremely thin between (a) legitimate
+and ethical biomedical military research and (b)
+nonmedical research activity causing some researchers extreme moral anxiety over what they call, “the
+militarization of the biomedical sciences.” Certain
+scientists see the need to protect the benevolent
+nature of biomedical science (reducing morbidity
+and mortality) by maintaining complete dissociation from military-sponsored biomedical research. 2
+An argument for nonparticipation, based on various sources, is the focus of a main section of this
+chapter, as is a counterargument for participation
+that concentrates on the first part of the question—
+the moral legitimacy of military biomedical research.
+By their very nature, military biomedical research
+programs appear to be ethically suspect. 3 Even
+though military medicine enjoys a rich history of
+scientific advances in preventive medicine, the Society for Social Responsibility in Science, for example, advocates, “a tradition of personal moral
+responsibility for the consequences for humanity of
+professional activity…to ascertain the boundary
+between constructive and destructive work.”4(pp25–
+26) The idea is that military biomedical research that
+is constructive, which I take to mean supports the
+goals and ideals of the healing tradition of medicine, is ethically legitimate. Military biomedical research that is destructive, contributing to harming
+or directly supporting the killing of human life,
+would be unethical. The ethical tension derives from
+trying to determine what biomedical research is
+constructive and what is destructive. One might
+Military Medical Ethics, Volume 2
+536
+search efforts must look to address these new challenges to preserve and maintain the health and
+safety of military women.
+In summary, this chapter will consider the ethical nature of military biomedical research to determine its moral legitimacy. If found to be an ethically legitimate enterprise, it then must consider the
+ethical obligations and responsibilities inherent to
+conducting this research. The ethical tension in the
+first part of this question is profound. If there is no
+inherent moral legitimacy to conducting military
+biomedical research, that is to say, if all military
+biomedical research is destructive in nature, then
+no amount of ethical conduct, regulatory compliance, or open disclosure to the public can change
+the inherent immorality of the research.
+THE NATURE OF MILITARY BIOMEDICAL RESEARCH
+The nature of military biomedical research is
+linked to the objective of conducting research and
+development studies that address relevant and significant military-related problems. 7 To be militarily significant, the research and development study
+must have immediate or long-range usefulness, as
+distinguished from the general advancement of
+knowledge of medicine. The requirement for the
+research to be militarily significant stems from the
+passage of the Mansfield Amendment in the 1970
+military appropriations bill. The amendment required that the DoD only fund research that could
+solve military problems. The intent of this legislation has been stretched in recent years with the DoD
+budget containing funding for breast cancer research. Critics of the funding of military biomedical research point to this program as lacking a “direct and apparent relationship to a specific military
+function or operation.”7(p78) Many scientists would
+prefer to be funded from sources other than the
+military and face personal ethical conflict about
+whether to apply for grant money from the military.
+This conflict aside for the moment, the Mansfield
+Amendment does place practical and ethical limitations on military biomedical research that opens
+the door to problematic, contentious, and serious
+ethical issues about its nature and conduct. Consequently, to better understand the ethical issues at
+stake, a brief description of the various military biomedical research programs is appropriate. Once the
+nature of these programs is understood, one can
+begin to determine the fundamental question of
+their moral legitimacy, clarify the constructive and
+destructive aspect of their applications, and develop
+an ethical construct for the conduct of this research.
+Currently, military biomedical research comprises five major research areas: (1) military disease
+hazards research, (2) medical biological defense research, (3) combat casualty care research, (4) human
+systems technology research, and (5) medical
+chemical defense research. The military conducts
+biomedical research and development in its own
+medical research laboratories, institutes, and nongovernmental laboratories through contracts with
+universities and industry. The fundamental purpose
+of this research, as stated previously, is to solve
+military medical problems of importance to national
+defense. Each of these research areas pose a proverbial double-edged sword regarding their medical orientation thereby upholding principles of healing and preventing harm as opposed to the notion
+of destructive applications of the research that
+would then associate this research with nonmedical purposes. This tension is pervasive throughout
+the ethical analysis of military medical research and
+this discussion will return to it continually.
+Military Disease Hazards Research
+The major thrust of military disease hazards research includes basic and applied studies related to
+prevention, diagnosis, and treatment of infectious
+diseases that could threaten the success of military
+operations. Basic research in microbiology, immunology, pathogenesis, and vectors transmission of disease is designed to improve the technology base for
+development of disease prevention, war-fighting sustainment, and treatment measures. Applied research
+focuses on the development and testing of vaccines,
+prophylactic and therapeutic drugs, and rapid identification and diagnostic methods and equipment.
+The military human immunodeficiency virus
+(HIV) research program is a component of the military disease hazards research program. The goals
+of this program are aimed at reducing the incidence
+of new HIV infection in military populations, reducing the rate of progression from asymptomatic
+to symptomatic disease, and reducing the HIV-attributable death rate. Research projects focus on
+evaluating the courses of infection in military populations, identifying risk factors related to transmission, testing and evaluating vaccines for prophylaxis, and testing and evaluating drugs and vaccines
+for early intervention.
+Medical Ethics in Military Biomedical Research
+537
+Medical Biological Defense Research
+The goal of medical biological defense research
+is to ensure the sustained effectiveness of US military forces in a biological warfare environment by
+providing medical countermeasures that deter, constrain, and defeat a biological warfare threat. Basic
+research concentrates in three areas of protecting
+the US military’s war-fighting capability during a
+biological attack: (1) prevent casualties with medical countermeasures (vaccines, toxoids, drugs); (2)
+diagnose disease (forward deployable kits, confirmation assays); and (3) implement treatment methods (antitoxins and drugs) to prevent lethality and
+maximize return to duty rates.
+An essential element of this program is publishing in scientific journals to maintain scientific credibility, demonstrating an open program in support
+of the Biological Weapons Convention (BWC) treaty,
+and developing an element of deterrence. The element of deterrence associated with a medical biological defense research program differs from the
+concept of nuclear deterrence. In nuclear deterrence
+potential adversaries basically play the old game
+of “chicken” with each party to a potential conflict
+threatening a retaliatory strike in the event the other
+side conducts a first strike. The possibility of either
+side launching an offensive strike with the opposing side capable of retaliating deters either side from
+using the weapon. This concept of retaliation does
+not apply to biological weapons.
+The problems inherent with biological weapons
+include verification (what countries have them) and
+enforcing mechanisms against their development
+and use (ie, the BWC ). Unlike a nuclear attack, biological agents for use as weapons are readily available. Another dissimilar factor is the capability of
+terrorists to acquire and use biological agents.
+Therefore, the element of deterrence in the biological arena is not one of retaliation but of defense—if
+it is possible to be protected from biological agents,
+then the use of those agents by an adversary has no
+tactical or strategic advantage from a military perspective. Defense against biological weapons includes the need for effective international measures
+of verification; international agreements against
+proliferation of offensive research programs; and a
+defensive research program for detection, identification, and treatment measures to decrease the military advantage and usefulness of biological warfare
+agents. Specific arguments regarding the deterrence
+effect of a medical biological research program will
+be developed in the following section of this chapter.
+Combat Casualty Care Research
+The mission of combat casualty care research is
+to provide integrated capabilities for medical care
+and treatment of injured soldiers at all levels of care,
+far forward on the battlefield, to reduce mortality
+and morbidity, and effect early return of soldiers to
+their military duties. Research and development are
+conducted in areas of wound healing, thermal
+burns, hemorrhagic shock, sepsis, organ system injury, blood preservation and blood substitutes, combat stress, and field medical materiel. Basic research
+in areas of wound healing and the pathophysiological response to trauma of cellular and organ metabolism attempt to minimize mortality, lost duty
+time, and unnecessary evacuation due to minor
+combat trauma. Enhanced readiness to treat combat casualties focuses on developmental efforts in
+surgical equipment, resuscitation fluid production
+systems, and computer-assisted diagnosis and lifesupport equipment.
+The ethical tension created by combat casualty
+care research stems from the type of research necessary to solve the problems of the modern day
+battlefield. Projectile weapons with high muzzle
+velocities create different types of wounds than
+those normally seen in hospital emergency rooms.
+Thus, training combat surgeons on wounds created
+by weapons with low muzzle velocities does not
+prepare them for what they will see in combat.
+Simulation with gelatin molds is inadequate in
+wound healing experiments as well. Consequently,
+military medical researchers have sought for years
+to gain approval to study ballistic phenomena using animal models. However, to date, animal rights
+groups have prevented the establishment of any
+such facility. The prospect of military medical researchers shooting anesthetized, stray dogs to gain
+knowledge for improving the level of care of
+wounded soldiers on the battlefield was believed
+to be unethical by these groups. Further discussion
+of the issue of the use of animals in military medical research follows in a later section of this chapter.
+Human Systems Technology Research
+The purpose of human systems technology research is to enhance human capability to function
+safely and effectively in military systems and operations. This research attempts to identify and
+solve health problems posed by new combat materiel and new concepts for combat operations. The
+results of this research help health policy makers
+Military Medical Ethics, Volume 2
+538
+and combat materiel developers keep the limits of
+human physiological and psychological endurance
+in mind when developing new doctrine and new
+military hardware. The major areas of this research
+include physiology in extreme environments, biomechanical stress, operational medicine and human
+performance, health effects of toxic hazards, and
+non-ionizing radiation bioeffects. Program goals
+seek to enhance soldiers’ performance under all
+operational conditions; protect soldiers from hazards of military materiel and operations; develop
+human performance models; and improve military
+operations concepts, policies, and doctrine.
+The central focus of human systems technology
+research, like the other research areas, is preventing injury to the combat soldier. Although the aim
+of this research is consistent with the goal of medicine—to sustain and enhance the quality of human
+life—the potential for ethical conflict is considerable when medical researchers conduct studies that
+do not focus solely on the welfare of a human being but focus also on maintaining and sustaining a
+person’s physical and psychological efficiency as a
+soldier—a human weapon system.
+One aspect of this potential conflict concerns the
+use of soldiers as human research subjects. To determine the possible deleterious effects of new military hardware on military personnel, human trials
+must eventually be conducted. Historically, military
+researchers have been negligent in protecting the
+rights of research subjects. 8 The advent of institutional review boards (IRBs), other systematic review
+procedures, and federal regulations provide the
+means for protecting human subjects—even soldiers. Nonetheless, there is a tension, if not competition, between protecting the rights of research
+subjects on the one hand and conducting research
+that some view essential to national security interests on the other.
+Medical Chemical Defense Research
+The mission of medical chemical defense research
+is to preserve combat effectiveness by timely provision of medical countermeasures in response to
+chemical warfare defense needs. Research efforts in
+this area strive to maintain the technologic capability to meet present requirements and to counter
+future threats, to provide the degree of individuallevel protection and prevention to preserve the
+fighting strength of combat units, and to provide
+for the medical management of chemical casualties
+to enhance survival and to maximize and expedite
+returning soldiers to duty. Basic research includes
+investigation of pharmacology, pathophysiology,
+and toxicology of chemical warfare agents, pretreatment and antidote drugs, and skin decontamination
+compounds to determine both their mechanisms of
+action and their interaction with one another.
+The ethical dilemma associated with medical
+chemical defense research is the inability to conduct
+human trials to demonstrate the efficacy of pretreatment or antidote drugs because to do so would
+mean having to expose research subjects to actual
+chemical agents. Consequently all current pretreatment and antidote drugs remain unlicensed by the
+US Food and Drug Administration (FDA). In a letter dated 30 October 1990, during Operation Desert
+Shield (ODS), the deployment phase of the Persian
+Gulf War, the Department of Defense applied for a
+waiver to use investigational pretreatment drugs
+under an investigational new drug application filed
+with the FDA. 9(pp346–348) Such use, intended for therapeutic use, not research, caused an acrimonious
+debate in the editorial pages of the country’s leading newspapers. The charge against the DoD was
+that it was experimenting with these drugs on soldiers without their informed consent. References to
+the Nazi doctors’ experiments during World War II
+were elicited in statements against the approval of
+the FDA waiver. Maintaining a distinction between
+research and accepted medical practice is a philosophical problem that has troubled medical ethics
+for a long time. The conclusion of the National Commission for the Protection of Human Subjects of
+Biomedical and Behavioral Research holds two key
+factors in mapping this distinction: (1) the level of
+risk, and (2) the intent of the medical professional. 8
+The waiver issued by the FDA for the Persian Gulf
+War did not solve the ethical problem of the military in trying to balance the rights and welfare of
+its members against the military necessity of sustaining a combat ready force. Nor, for that matter,
+does the criteria of level of risk and intent settle the
+issue of whether a medical professional is doing
+research or providing accepted medical therapy.
+THE ETHICAL LEGITIMACY FOR MILITARY BIOMEDICAL RESEARCH
+[I]t is deemed unethical for physicians to…weaken
+the physical and mental strength of a human being
+without therapeutic justification [and to] employ scientific knowledge to imperil health or destroy life. 10
+Medical Ethics in Military Biomedical Research
+539
+In examining the ethical justification for military
+biomedical research, one finds that the literature on
+this issue runs the gamut of political and sociological
+perspectives. Views tend to be polarized ranging
+from complete prohibition of any military-sponsored
+biomedical research on the one hand, to secret programs that would include testing on an unwitting
+and uninformed populace on the other. Both of these
+extreme views are unethical positions. Complete prohibition of military medical research cannot be
+morally acceptable because it results in moral evil,
+namely failing to preserve the health and welfare
+of soldiers deployed in combat. Secret programs
+also result in moral evil and consequently are unethical. If there is any possibility of bringing these
+diverging groups closer to some middle ground perhaps it is found in the quotation cited above from
+the World Health Association.
+Implicit in this quotation is the “do no harm”
+principle. The many efforts by those opposed to
+biomedical research by the military stem from their
+attempt to preserve this principle—keep medical
+scientific knowledge from becoming “militarized”
+and used to harm rather than to heal. Ironically,
+those who support military biomedical research also
+base their arguments on a “firstly, do no harm” principle. The aim of military biomedical research is, in
+fact, to go beyond this principle of nonmaleficence
+(avoiding harm) by preserving and enhancing the
+lives of those who serve the military forces of the
+United States (the principle of beneficence).
+The ethical tension that develops from the principle of nonmaleficence is whether the moral legitimacy of medical research, in general, applies to
+military medical research. The moral legitimacy of
+medical research is based on the good that results
+from the research enterprise. So too, the moral legitimacy of military biomedical research must stem
+from the good it produces mitigated against any
+harm that is likely to result as well. Because most
+medical researchers desire that their science alleviate human suffering, many are reluctant to participate in military medical research for fear that medical research is akin to weapons research in the
+physical sciences and engineering. The fear that
+military medical research aids in the development
+of biological and chemical weapons keeps many
+scientists from participating in military medical research and others calling for its complete prohibition.
+The major claim of this argument is that scientists
+who participate in military research fuel the arms
+race. Military sponsorship of scientific research determines and influences the type of research conducted. Hence any scientist who accepts military
+sponsorship is de facto working for the military, its
+aims, goals, and objectives. Because military activity is antithetical to the principles of science, ethical problems exist for those scientists who participate in military-sponsored research—to include
+medical research. The question to ponder is whether
+those who support a military biomedical research
+program and those who oppose it can stand together on the same moral high ground.
+As alluded to earlier, complete dissociation from
+military medical research, while eliminating any
+moral problems for scientists, also risks losing the
+benevolent gains in vaccines, drug therapies, and
+material preventive and protective measures relevant to military problems but also to direct civilian applications of this research. For example, the
+development of a number of investigational vaccines against diseases such as Venezuelan equine
+encephalomyelitis (VEE), tularemia, anthrax, Q fever,
+and botulism were safe and efficacious in reducing
+disease from accidental exposure to laboratory
+workers. The use of VEE vaccine proved useful in
+eradicating the disease in horses in the epizootic in
+Texas in 1971. The Rift Valley Fever vaccine was
+used successfully in high-risk personnel during an
+outbreak of the disease in Egypt in 1977 and 1978.
+In 1989 military investigators identified an Ebolalike virus in monkeys and in 1995 military investigators were part of the World Health Organization
+team to investigate the Ebola outbreak in Africa.
+Since the 1950s, military medical researchers have
+been investigating the Hantaan virus known to
+cause the disease called Hemorrhagic Fever with
+Renal Syndrome (HFRS) that has already killed
+more than 50 people in the United States.
+Although these research advances have direct
+civilian application, the research has greatly reduced
+the morbidity and mortality of military personnel.
+Historically disease and nonbattle injuries have accounted for over two-thirds of the combat losses suffered by the United States in past military engagements. In Vietnam, although disease was the single
+greatest cause of morbidity, the admission rate was
+40% less than the Korean War due largely, in part,
+to the efforts of military biomedical research and
+development. 11 This point alone should be sufficient
+to undermine the moral claim that complete dissociation from military medical research completely
+upholds the principle of “do no harm” or eliminates
+any ethical problems for medical scientists. Clearly
+the loss of medical advances stated previously
+would result in tremendous harm but the misuse
+Military Medical Ethics, Volume 2
+540
+of this medical knowledge also presents the possibility of greater evil than the good that results from it.
+Despite the possibility of consensus building
+upon the “do no harm” principle, military biomedical research does present a double-edge sword.
+Most often what is learned in the area of biomedical research has potential uses for both good and evil.
+Clearly, in some cases, there is a distinction between
+offensive (destructive) and defensive (constructive)
+research. Consistent with previous discussion of the
+just war doctrine, the distinction between offensive
+and defensive research (and medical research is
+defensive unless one views biological defense as
+offensive in bioweapons development) becomes
+morally important. Certainly scientists who view
+their work as consistent with this doctrine are no
+more unethical than soldiers who do the fighting.
+Likewise, scientists who choose not to participate
+are no more unethical than a pacifist or conscientious objector who would object to any participation in killing—even a just war. What is critical regardless of the path chosen by a scientist is that if
+military medical research is morally legitimate, areas of scientific inquiry remain open programs and
+the knowledge gained from this research cannot be
+subverted by weapons designers to defeat advances
+in reducing injury and disease.
+Consequently, in reviewing the arguments on this
+issue, three major areas of dispute emerge. First,
+there is disagreement because funding is limited
+and continued financing of a military program compels university and industry to accept military
+projects to get much-needed research grants. As
+time goes on, so it is suggested, these researchers,
+having been coerced into accepting DoD money, are
+compelled to work solely on military goals that may
+detract, for example, from vaccine research in public health initiatives. Second, there is the argument
+that the defensive (constructive and benevolent)
+component of segments of the military biomedical
+research programs is ambiguous enough to cause
+other nations to believe that the United States is
+working on offensive developments. Hence, military biomedical research could lead to a proliferation of biological and chemical weapons. Third,
+there is, at a minimum, an implicit position that the
+production of vaccines and drugs against devastating disease, although a laudable goal, cannot be
+viewed in isolation solely for the protection of US
+military forces. The production and selective use
+of military biomedical advances can be viewed as a
+component of strategic offensive policy that would
+not benefit general populations, particularly those
+of developing nations where the United States is
+most likely to engage in offensive operations.
+Disagreements about the funding of the scientific enterprise in the United States and how to best
+achieve the goals associated with that enterprise
+extend beyond military biomedical research. Those
+opposed to military programs view the use of limited national resources for military purposes as
+immoral. They contend that shifting of military
+dollars to public health agencies, such as the National Institutes of Health, will provide the same
+benefits the military program currently produces.
+The difficulty with this position is that some military problems have no immediate direct impact on
+public health; thus research aimed specifically at
+military problems would be neglected. The economic
+burden, which has a moral component, is balancing
+the use of financial resources for social purposes mitigated against the needs to protect national security.
+Considering the history of the development of
+the atomic bomb, many scientists have come to believe that they have no control over the results of
+their work when conducted under the auspices of
+military funding and oversight. Their argument is
+simple: The only way to control the results of one’s
+work is to control what one works on in the first
+place. The ambiguity related to biological defensive
+versus offensive research is such that many scientists claim the only way to control proliferation of
+biological weapons, for example, is to not participate in any military-sponsored biological research.
+Some contend there is no distinction at all between
+offensive and defensive biological research and contend the military simply mislabels offensive research as defensive to attract researchers. This argument is critical to the moral legitimacy claim of
+military biomedical research and will be developed
+further in this chapter.
+Finally, is it possible that if the United States can
+protect its military from endemic diseases in a combat zone or use technology to advance healing of
+its wounded soldiers, that these medical interventions constitute contributing to the military aims of
+war fighting and hence lack the moral legitimacy
+of the healing arts in general? The question of the
+extent to which a member of the healing profession
+may participate in activities not strictly medical and
+still uphold the principle of “do no harm” is an interesting and debatable one. It is, however, to ask a
+different question (back to Moore again) than
+whether medical professionals directly engaged in
+preventing or relieving suffering of soldiers constitute direct contribution to offensive activity.
+Medical Ethics in Military Biomedical Research
+541
+Should Military Biomedical Research Be
+Prohibited?
+The question of specifically prohibiting military
+biomedical research is embedded in a larger argument regarding the ethics of prohibiting or limiting research. 12–15 The ethical issues at stake in this
+debate are part of a spectrum of issues revolving
+around fundamental decisions of scientists to participate or refuse to participate in research based
+upon the perceived social consequences of their
+work. The dual nature of military biomedical research fundamentally establishes this ethical conflict for researchers pondering participation in military programs. The conflict stems from a genuine
+conviction that doing what can be done to enhance
+the lives and well-being of members of the US military is a moral obligation—what ethicists call a
+prima facie duty—one ought to do good when one
+is able to do it. When taken alone, this principle is
+unassailable. When juxtaposed to a competing
+claim, namely, “do no harm,” these ethical principles appear in conflict. The problem then becomes
+how to decide which principle carries greater
+weight in the ethical decision-making process. One
+method is to conduct a risk/benefit analysis to determine which action produces the greater benefits
+(good) while limiting harm (evil).
+There are several versions of risk and benefit arguments used by those opposed to direct involvement
+of biomedical scientists in military biomedical research. 3,16,17 The forms of the arguments tend to run
+from the general to the specific. One attempts to
+argue that there are good reasons to limit scientific
+inquiry in general and then demonstrate limiting or
+restricting specific inquiry. Such arguments are persuasive only to the extent that the general argument
+itself is sound in its reasoning—that the general premises are true and that the conclusion to limit or prohibit research follows from those premises. 13
+Usually these types of arguments are difficult to
+answer. In developing a risk/benefit ratio, the facts
+needed to evaluate a premise or calculate a risk or
+benefit are not known. This is not the case with
+military biomedical research. It is known with a
+great degree of certainty that medical research can
+produce a host of preventive and therapeutic treatments that will benefit the lives of military personnel with considerable applications to the general
+populace at large. The inherent risk, based on historical evidence, of the likely perversion of this research for nefarious purposes is also known. 3,6,16 The
+difficulty faced in solving this problem is not a factual one but rather one of differing values and deciding how to proceed. There are honest disputes
+about whether the medical advances produced by
+military biomedical research are worth the possible
+risk of medical scientists being exploited and the
+proper end of the healing arts being perverted for
+evil purposes. Hence the fundamental question
+shifts from one of moral legitimacy of military medical research to one of whether the potential benefits of this research are such to pursue it, knowing
+the potential for harm. In other words, can this research be conducted in such a manner as to preserve the integrity of the research? Can a system of
+appropriate checks and balances be established that
+will allow the conduct of research when the probability of harm resulting from the research is unknown? A review of the basic arguments is appropriate at this time.
+The Nonparticipation Point of View
+Those who hold that physicians should not participate in any form in military research believe that
+there are three “steps” that occur in the corruption
+of military medical research. These are: (1) the militarization of medicine, (2) the inevitable escalation
+of biologic and chemical weaponry because of the
+products of military medical research both in US
+forces and the forces of any adversary, and (3) with
+this escalation a violation of law, morality, and ethics. I will discuss each in turn.
+Militarization
+Those opposed to military biomedical research
+argue against the possible offensive uses of this research. The most contentious and likely research
+program for possible offensive applications is the
+Medical Biological Defense Research Program. Critics contend that defensive research to protect military members from naturally occurring diseases and
+biological weapons is, “highly ambiguous, provocative, and strongly suggestive of offensive goals…it
+is urged that physicians refuse participation in such
+research.”18(pp25–26)
+Nonparticipationists document that overall funding for military programs increased by more than
+400% in the late 1980s. Over the same period of time,
+federal support for research in basic science issues
+in the civilian sector sharply declined. 18 From 1980
+to 1984, total federal research support in the United
+States for life sciences decreased by 2% while DoD
+funding increased by 26%. With 100 university laboMilitary Medical Ethics, Volume 2
+542
+ratories participating in DoD programs with this
+increased funding, nonparticipationists perceive a
+trend that could alter research priorities in developing fields, such as genetic engineering. 5
+Nonparticipationists also argue that military
+operations can never be exclusively defensive, that
+biological research is fraught with ambiguity between offensive and defensive applications and,
+therefore, medical professionals who conduct research
+for the military are in “ethical peril.” To strengthen
+this claim, critics of the military program contend
+that public funding supporting a military program
+does not serve the public interest, particularly in
+time of budget cutting. The nonparticipationist also
+claims that the threat of disease either endemic or
+as a biological weapon is overstated by the military. Further they suggest that the responsibility for
+governmentally sponsored medical research for
+prophylactic, protective, and other peaceful purposes in the United States belongs to the National
+Institutes of Health (NIH) and the Centers for Disease Control (CDC). Consequently, the NIH or CDC
+should have the responsibility and, more importantly, the resources for this type of medical research. 3,16 Such a position is less likely to pervert
+nature of biomedical research and, most importantly, less likely to place medical professionals in
+ethical peril.
+Escalation
+Universal agreement exists by those opposed to
+military biomedical research (within the area of
+vaccine and drug development) that such research
+will lead to a biological arms race analogous to the
+development of nuclear weapons. 16 Although the
+nonparticipationist will concede that the production of vaccines against devastating diseases is a
+laudable goal, such conduct cannot be ethically
+judged in isolation from the purposes of the agencies who directly supervise the research effort. It is
+possible that a medical scientist might consent to,
+or be misled into, work that has offensive applications under the guise of defensive work.
+When the military supports large programs to
+develop vaccines against exotic diseases that pose no
+likely public health concern such as dengue fever,
+anthrax, VEE, and numerous pathogens, one can make
+informed speculations of the likely use of these pathogens as offensive weapons knowing one’s own soldiers are protected against them. Consequently this
+research can be construed as a potential component
+of offensive strategy that would drive likely adversaries into similar research programs and hence the
+escalation of a biological arms race. Therefore,
+medical scientists have the responsibility not only
+to avoid working directly in ways that support offensive development, but also to act in such a way
+as to avoid contributing to the arms race, even if
+engaged in clearly defined defensive research.
+Violation
+Following from the assertion that biological
+medical research by the military cannot be solely
+defensive in nature, medical scientists have an obligation to not participate in research. US government policy and international agreements forbid the
+development, production, and stockpiling of microbial or other biological agents, or toxins that have
+no justification for prophylactic, protective, or other
+peaceful purposes. Interpretation of Article I of the
+Biological Weapons Convention19 (BWC) is ambiguous in that it does not preclude research into offensive agents necessary to determine what means are
+required to defend against them.
+Nonparticipationists contend that because the
+line of distinction between offensive and defensive
+research remains blurred, medical scientists violate
+the spirit if not direct intent of the various agreements to avoid work that would contribute to the
+development of offensive capabilities with biological agents. Opponents of military biomedical research argue that material developments in diagnostic equipment and sensor devices potentially
+could produce vector delivery systems and that
+antibiotic therapy could really produce means to
+defeat or inhibit diagnosis, defeat current vaccine
+use, or generate a novel agent.
+The advocates of nonparticipation concede that
+the study and production of some biological agents
+(for example, toxin proteins) may have scientific
+merit, but such work raises questions regarding US
+compliance with the BWC. Consistent with the logic
+of having the NIH conduct disease-oriented research, moving control of this type of research to
+civilian agencies would dispel concern about the
+offensive intent of the work, uphold the deterrent
+effect of the BWC, and protect against the perversion of the healing arts in medical research.
+The Participation Point of View
+Those who hold that physicians should participate in military research answer the three “steps”
+by (1) exploring the complexities that the militarization argument overlooks, (2) maintaining that
+existing safeguards preclude inevitable escalation,
+and, thus, (3) there are no violations of law, morality, or ethics. Once again, I will discuss each in turn.
+Medical Ethics in Military Biomedical Research
+543
+Militarization
+Those who advocate participating in military biomedical research reject the militarization viewpoint
+as confusing the primary aims of public health research versus the national defense interests and the
+health of military personnel. If the NIH, for example, were directed to accept the mission requirements of a military-oriented medical research program, this realignment of mission would hinder
+NIH research in diseases of national interest. If NIH
+sought to contract this research, it would be no different from the current program with the exception
+of civilian control. Some scientists advocate civilian control because of a prevailing attitude of distrust of military-sponsored research. Some contend
+that it is ethical to participate with the military in
+times of national crisis but doubt that permanent
+association has any moral imperative. Advocates of
+a military program counter this claim with evidence
+of the proliferation of biological warfare capabilities even by some countries who signed the BWC.
+As long as activities of Third World countries remain unpredictable regarding their intentions in
+offensive biological capabilities, a credible biological defense research program is needed.
+This point is particularly relevant given that the
+United Nations revealed in August of 1995 that Iraq
+had an active offensive biological and chemical
+weapons program. 20 For over 4 years, Iraq had hidden all information of a program to produce and
+deploy almost 200 biological warheads—in bombs,
+artillery shells, and missiles, all capable of reaching Saudi Arabia and Israel during the Persian Gulf
+War. The bacterium anthrax was loaded in at least
+50 bombs, and botulin—the toxin causing botulism—had been loaded into approximately 100
+bombs. Additionally, Iraqi scientists grew a poisonous fungus found on peanuts and corn to produce
+aflatoxin, to be used as a warfare agent. 20
+Consequently, advocates of biomedical military
+research contend that given examples such as Iraq,
+participation by university and industry is consistent with an ethical imperative of developing the
+means by which the United States can protect and
+defend the lives of military personnel against a consistent threat of a potential adversary that threatens its national security.
+Escalation
+The participationists espouse the view that whatever potential may exist for creating offensive applications from defensive research (the escalation
+factor), the possibility is extremely minute because
+military biomedical research is perhaps the most
+closely monitored, regulated, and inspected research that occurs within the United States. An exhaustive environmental impact review of the military program was conducted in 1989 culminating
+with the publication of a final programmatic environmental impact statement (PEIS). 21 Congressional
+scrutiny is applied to this program in the annual
+budget review process. The military prepares resource requirements and program description and
+justification in the Congressional Descriptive Summary that becomes part of the President’s budget.
+The House and Senate Armed Services Committees
+evaluate this program and authorize its funding.
+These committees perform their own evaluations
+and review of the military program prior to any final authorization and appropriation of funds. The
+General Accounting Office conducts periodic reviews and hearings on the appropriateness of the
+research and the use of resources consistent with
+the aims and intents of the program. Special interest groups, using the Freedom of Information Act,
+gain access to both research data and laboratories
+on a routine basis. The public and scientific community can and do act on their own initiative to
+review military research. Finally the military provides reports annually to the United Nations and
+to the Biological Weapons Convention. Consequently, rather than view this research as some secret, clandestine program that could mask offensive
+research or increase the paranoia of a potential adversary, participationists contend the opposite—
+that a completely open program, to include publishing in peer-reviewed journals, serves a function
+of deterrence (the use of an agent would have little
+or no strategic or tactical military advantage) and
+hence stability.
+Violation
+Advocates of military biomedical research demonstrate the legal aspect of their work based upon
+the research conforming to regulations and standards of the following agencies: the US Department
+of Agriculture, Department of Health and Human
+Services, Food and Drug Administration, National
+Institutes of Health, Public Health Service, Centers
+for Disease Control, Department of Labor, Department of Transportation, Environmental Protection
+Agency, Department of Energy, Department of
+Commerce, and the Nuclear Regulatory Commission. Proponents of military medical research contend that this research is consistent with the intent
+of the BWC, particularly Article X that gives States
+that are Parties to the Convention the right to parMilitary Medical Ethics, Volume 2
+544
+ticipate in the fullest possible exchange of information, equipment, and materials for peaceful purposes.
+Finally, regarding the alleged ambiguity of offensive and defensive research, supporters of military
+biomedical research hold that there is an empirical
+distinction that separates offensive from defensive
+research. 17 Citing the regulatory controls over this
+research, participationists contend that the likelihood of a rogue scientist developing an offensive
+capability under the guise of defensive research is
+highly suspect. Additionally, advocates of this research point to the historical record to substantiate
+the benevolent aspect of their work—the marked
+decrease in morbidity and mortality of soldiers deployed to combat zones. Participationists contend
+that those who doubt the defensive intent of their
+work can only talk of the potential to create offensive uses of biomedical advances or the possibility
+that military could develop offensive capabilities
+or future hypotheticals for offensive development.
+Meanwhile, countries like Iraq continue to demonstrate a resolve to blatantly ignore international
+agreement to limit the development and use of biological warfare agents, and worse, in doing so see
+themselves gaining a military equalizer to imbalances of their conventional military capability. Currently, there is little evidence to support the fears
+of the nonparticipationists regarding the legal aspects of military biomedical research. The ethical
+concerns remain in doubt, however, regarding the
+consistent application of law and ethics to military
+biomedical research in the future.
+National Risk vs National Security
+Whether the merits of the contrasting views of
+militarization, escalation, and violation are persuasive depends upon one’s first principle—the ethical
+standard one holds as dominant over other principles.
+To date, there is little in the professional literature
+of ethics demonstrating how traditional ethical
+principles apply to the dual nature of military medical professionals. Although the literature does discuss the social responsibility of medical professionals to include medical scientists, there is, in fact,
+very little to clarify the competing duties of the
+uniformed medical professionals to the military, to
+society, and to their patients. Thus far this discussion has focused on the competing nature of the
+duty of military medical professionals between their
+patients and society but only from the standpoint
+of preserving the ethical integrity of the healing
+professions. Another aspect to consider is that military biomedical research, as beneficial as it might
+be to military personnel with subsequent civilian
+applications, by its nature creates significant risks
+for local civilian populations and hence ought to be
+prohibited. The solution to this vexing problem again
+hinges upon some kind of risk and benefit analysis.
+Dispute currently exists about what risks are
+worth taking when pursuing research. These risks
+include potential harm to research subjects, nonresearch subjects, and the researchers themselves.
+Identifying risks to research subjects (participants)
+requires formulating risk and benefit equations as
+discussed previously. These risks are different from
+the kind that populations at large face from potential accidents or sabotage. Furthermore, the public
+has demonstrated resolve to protect itself from such
+risks. 22–25 Based on the principle of justice, current
+ethical practices in research require a fair and equitable distribution of burdens and benefits. When the
+issues of human subject research in the military are
+in question, if the risks are disproportionate to the
+benefits then there would be grounds to ethically suspect the conduct of the research.
+Risks to nonresearch participants include the issue of public safety. Several aspects of military
+medical research, particularly in the area of infectious disease, pose at a minimum a potential public health threat in the event of a laboratory accident. The issue of public safety revolves around the
+idea of real versus perceived threat that the research
+poses to public health. Nonetheless, there have been
+several challenges to military medical research
+projects being conducted at university labs as well
+as government facilities. How much risk is ethically
+acceptable must be mitigated against the potential
+harm to an unsuspecting or, worse, uninformed local population. Finally, there is also the question of
+how much risk is acceptable for the researchers
+themselves. For example, should a lab worker working with virulent anthracic cells drop the flask containing the cells on the floor, the infected lab worker
+could be treated with penicillin. The spill would be
+treated with chlorine bleach that would kill the cells.
+Hence, the issue of public risk versus military benefit is mitigated by the ability to conduct risk and
+benefit analysis.
+Having said all this, the general principle of prohibiting research that poses unacceptable risk (and
+the operative word is unacceptable) has merit. There
+is a trade-off regarding the perceived risks and the
+reasonable precautions or likelihood of there being
+a real threat to a community, particularly from military biomedical research. Currently, all biomedical
+Medical Ethics in Military Biomedical Research
+545
+research protocols conducted by the military undergo intense scrutiny at all levels of institutional
+review for scientific merit, protection of research
+subjects, and safety. The application of the risk principle applies to the entire research community, not
+just the military. 26 Consequently, the question becomes one not about the moral legitimacy of military biomedical research but one of inherent risks,
+in magnitude far greater than civilian research so
+as to limit or prohibit its conduct.
+Summary
+There seems to be a prevailing attitude among
+certain scientific circles that if the military is funding research, there must inherently be something
+nefarious about its conduct. The military has contributed to this perception in the past by conducting
+unethical research. The lysergic acid diethylamide
+(LSD) studies (which were discussed in detail in
+Chapter 17, The Cold War and Beyond: Covert and
+Deceptive American Medical Experimentation) for
+example, are clearly unethical judged by the standards of the day regarding the lack of informed
+consent from research subjects. Even though these
+experiments were not medical protocols, military
+medical research tends to be painted with the same
+broad brush of suspicion based upon a lapse of ethical judgment from the past.
+There is a line, be it distinct or vague, between
+justifiable and unjustifiable biomedical research and
+the use of these data for purposes that violate the
+integrity of the medical community. Such a possibility exists for all medical data, not just data from
+military medical research. 27,28 More problematic are
+those protocols designed in other than biomedical
+programs that require the participation of medical
+personnel to validate the data. For example, while
+enhancing the lethality of a particular weapon, developers may request the participation of biomedical personnel to verify the lethal or nonlethal aspects
+of the weapon. This is the case with recent studies
+in the development of nonlethal microwave weapon
+technology that has a lethal capability. Such an example poses a more vexing issue for the biomedical researcher who may be participating in research
+that has no benevolent goal, even if one argues that
+a nonlethal incapacitating weapon is benevolent
+versus a lethal weapon. Using medical knowledge for
+the purpose of causing harm, for instance to validate that a particular weapon has capacity to kill
+or maim in order to increase the capacity of that
+weapon to do so, is simply the wrong use of medicine and medical research, because it turns the
+medical researcher into a weapons developer. Furthermore, such an example clearly demonstrates the
+point regarding the issue of social responsibility and
+the consequences of research. No person, operating in any capacity, ought to be compelled to act in
+such a way as to violate personal conscience or moral
+obligations. Nor should medical professionals use
+medical knowledge for the expressed purpose of
+endangering or destroying life.
+Indeed, there are two parallel issues that emerge
+regarding the ethical legitimacy of biomedical research. Returning to the principle of “do no harm,”
+there is a distinction to be made between research that
+has benevolent ends and research that has nonbenevolent ends. Medical professionals ought to stay in
+the business of healing and not hurting, which includes not participating in or contributing to weapons research and development. However, there is
+also a need to establish a clear distinction between
+offensive and defensive goals within the realm of
+biomedical military research. Even though this is
+not an ideal world, preserving the ethical integrity
+of biomedical research and providing for the welfare of military personnel ought not be competing
+or mutually exclusive goals. Both can be done and
+both should be done.
+THE ETHICAL CONDUCT OF RESEARCH
+“Research is a complicated activity in which it is
+easy for well-meaning investigators to overlook the
+interests of research participants—to the detriment of
+the participants, scientists, science, and society.”29(p1)
+Upholding the ethical principles of biomedical research is part of the intricacies of the entire research
+enterprise. The breaches of ethical principles, be
+they intentional or unintentional, are replete in the
+historical literature. 30–34 From the Nazi doctors (discussed in Chapters 14 and 15 in this volume) to the
+infamous Tuskegee syphilis studies and the more
+recent revelations of radiation studies conducted by
+the US Department of Energy (discussed in Chapter 17 of this volume), breaches in conduct exist.
+Such conduct has led to the promulgation of the
+Nuremberg Code, The Declaration of Helsinki, the
+Belmont Report, and a host of federal regulations
+in an attempt to provide clear guidelines regarding
+the ethical conduct of biomedical research.
+These efforts notwithstanding, while scientific
+Military Medical Ethics, Volume 2
+546
+research continues to produce substantial social
+benefits, it continues to pose vexing ethical questions regarding the protection of human subjects,
+the use of nonhuman animals, and expanding study
+populations to include women and minority groups.
+Military biomedical research is not immune to these
+questions. Hence there is a need to consider how
+each of these issues impact, in an ethical sense, the
+conduct of biomedical research in the military.
+Criteria for Conducting Ethically Responsible
+Research
+The National Commission for the Protection of
+Human Subjects in Biomedical and Behavioral Research conducted hearings on the ethical problems
+in human research from 1974 to 1977. The mission
+of this panel as outlined in its summary statement,
+was, in part, to
+conduct a comprehensive investigation and study
+to identify the basic ethical principles that should
+underlie the conduct of biomedical and behavioral
+research involving human subjects. 8
+The recommendations of the panel were later codified into public law. 35 The fruit of the National
+Commission’s labor appears in The Belmont Report. 8
+The three basic principles, intended as succinct
+guidelines to govern the use of human subjects in
+research, include8(PartB):
+1.
+Beneficence: maximize the good outcomes
+while avoiding or minimizing unnecessary
+risk, harm, or wrong;
+2.
+Respect: protect the autonomy of persons,
+with courtesy and respect for individuals as
+persons (as ends in themselves and not mere
+means); and
+3.
+Justice: ensuring reasonable, nonexploitive,
+and carefully considered procedures and their
+fair administration—fair distribution of risks
+and benefits among persons and groups.
+These three principles are the foundation for the
+following six norms that govern the ethical conduct
+of research29(p19):
+1.
+Valid research design: valid design yields correct results taking into account relevant
+theory, methods, and prior studies;
+2.
+Competence of the researcher: the investigator must be capable of conducting various
+procedures in a valid manner;
+3.
+Identification of consequences: a risks and
+benefits analysis must be conducted. Ethical
+research adjusts procedures to ensure privacy,
+confidentiality, minimized risks, and maximized benefits;
+4.
+Selection of subjects: the subjects must be appropriate for the purposes of the study, representative of those who will benefit from the
+research, and appropriate in number;
+5.
+Voluntary informed consent: voluntary
+means freely, without threat or inducement.
+Informed means the subject knows what a
+reasonable person in the same situation
+would want to know prior to granting consent. Consent means an explicit agreement to
+participate; and
+6.
+Compensation for injury: the researcher is responsible for what happens to a research subject. Federal law requires that subjects be informed regarding compensation for injury,
+but the law does not require compensation.
+The application of the general principles and
+norms stated above often narrow specifically to
+three fundamental requirements: (1) informed consent, (2) risk and benefit assessment, and (3) the
+selection of subjects of research. Of these three areas,
+informed consent (deriving from the Nuremberg
+Code, 1947) is the most contentious regarding the
+use of soldiers as subjects in research. Why is informed consent important? What does it entail? Is
+consent different from mere approval? The answers
+to these questions are found in the federal regulations written to address these situations.
+Informed Consent
+Although the importance of informed consent is
+generally unquestioned,36,37 there is controversy
+over whether it is possible to actually obtain truly
+informed consent from a research participant. General agreement exists regarding the three basic elements in the consent process: (1) information, (2)
+understanding, and (3) voluntariness. The aspect
+of information requires full disclosure by the investigator including a statement of the purpose of the
+research, description of foreseeable risks and discomfort, description of benefits, a disclosure of alternative procedures, statement regarding confidentiality of the records, explanation of compensation
+and medical treatment for injuries resulting from
+participation, a point of contact regarding the rights
+of the research volunteer, a statement regarding the
+voluntary nature of the participant, and any addiMedical Ethics in Military Biomedical Research
+547
+tional information regarding the findings of the research, withdrawal criteria, or circumstances by
+which the investigator can terminate the participation of the research volunteer.
+How well a research subject understands or comprehends information relevant to the research is
+dependent upon a number of factors. Because comprehension is often a matter of how the investigator conveys information to the research volunteer,
+the investigator needs to tailor the informed consent process to each individual based upon the
+subject’s intelligence, maturity, language level, and
+other special aspects of the participant. If necessary,
+a third party is part of the process to assess the understanding of the research participant. Printing
+consent forms in the native language of the subject
+may be necessary as well as providing interpretation for those subjects who may not be able to read
+the consent form. On the face of it, using a subject
+who cannot read a consent form sounds, in and of
+itself, ethically suspect. Such practice is acceptable
+regarding children and may be acceptable in other
+instances as well. The key component is the aspect
+of comprehension. Regardless of how the information is conveyed and the level of comprehension
+obtained, investigators are responsible for ensuring
+that the subject comprehends all the information.
+The aspect of voluntariness of consent that differs from mere approval is the element of rights
+conveyed upon the volunteer in the consent process. This element requires conditions free from
+coercion and undue influence.
+Coercion occurs when an overt threat of harm is
+intentionally presented by one person to another
+in order to obtain compliance. Undue influence, by
+contrast, occurs through an offer of an excessive,
+unwarranted, inappropriate or improper reward or
+other overture in order to obtain compliance. 8(PartC)
+Perhaps the least understood aspect of gaining informed consent is the communication process that
+takes place between the investigator and the research
+subject. Failing to understand the nuances of body
+language, general attitude and friendliness, or general empathy for the research subject are some factors that can contribute to the perception of coercion.
+The aspect of voluntariness is absolute concerning informed consent in the same way that informed
+consent is absolute to the conduct of ethical research. Consequently it is reasonable to ask whether
+soldiers can ever provide true voluntary consent.
+The aspect of coercion is problematic in that an element of coercion tends to exist in research on a sliding scale. That is to say that some element of incentive exists for subjects to participate in research. At
+some juncture the potential exists to cross the line
+from benefits and appropriate incentives to deception and coercion. If this aspect of “mitigated coercion” associated with medical research cannot be
+justified, then the use of soldiers in biomedical research is unethical.
+Is It Ethical to Conduct Research on Soldiers?
+There are several issues at stake in what amounts
+to the fundamental question of this section. First,
+and perhaps foremost, is the issue of the ethical status of soldiers. When a person joins the military,
+the individual incurs unique obligations to the
+country and to other service members. These obligations cause a shift in the ranking of usually applicable ethical priorities. By joining the military,
+individuals implicitly agree to subordinate their
+autonomy for the sake of accomplishing the military mission. Service members also agree, implicitly, to risk personal injury or loss of life if need be
+in compliance with lawful orders of their superiors. This implicit consent applies not only in direct
+warfare but in preparations for war as well. Nonetheless, even though service members voluntarily
+allow themselves to be treated as a means in some
+instances, the military has an obligation to protect
+the interests and welfare of soldiers consistent with
+accomplishing the military mission. The extent to
+which this reciprocal relationship functions varies
+in times of peace and war, and the willingness to
+protect the autonomy of soldiers is mitigated in direct proportion to the perceived threat to national
+interests.
+Although service members subordinate autonomy
+relative to accomplishing a wartime mission, this
+does not mean that individual autonomy should be
+compromised regarding medical research—even
+medical research that has direct impact on soldiers
+and the military mission. With regard to medical
+research, soldiers are still entitled to full autonomy
+and due the requisite consideration regarding their
+use in research as that provided to civilians. Consequently, the DoD policy for the conduct and review of human subjects research, which applies to
+all elements of the DoD and its contractors and grantees, “requires that the fundamental rights, welfare,
+and dignity of human subjects in DoD-supported
+research be protected to the maximum extent possible, and establishes this as a responsibility of the
+military chain of command.”38(p9)
+The Department of Defense adheres to all protections established by the federal government to
+Military Medical Ethics, Volume 2
+548
+include: Department of Defense 32 CFR 219; Department of Health and Human Services 45 CFR 46; the
+Food and Drug Administration 21 CFR 50 and 56;
+and Department of Defense 10 USC 980, which requires: (a) the informed consent of the subject in
+advance; or (b) in the case of research intended to
+be beneficial to the subject, the informed consent
+of the subject or legal representative of the subject
+is obtained in advance. In essence, if an individual
+cannot give his or her own consent, investigators
+cannot enroll the person into a nontherapeutic (ie,
+of no benefit to the subject) study. Quite simply, the
+answer is “no” to the question “Are there ethical
+exceptions for military medical research?” concerning the corpus of historical and contemporary
+guidelines of medical research (levels of risk,
+voluntariness, informed consent).
+As straightforward as this analysis seems to be,
+given the DoD’s own stated policy, there is still considerable concern over the application of these standards particularly in the area of informed consent.
+There are those who may argue that given the coercive nature of the military, soldiers are incapable of
+providing voluntary consent in the purest sense of
+the term. If this is the case, and unless there are justifiable exceptions to the ethical criteria for military
+medical research, then it would be unethical to use
+soldiers as research subjects. Is it necessarily true
+that simply because the military is inherently coercive that soldiers lose their autonomy and hence the
+ability to provide voluntary informed consent?
+First, it is necessary to understand that soldiers
+have the desire to participate in military biomedical research. In fact, some soldiers volunteer to be
+part of a unique program designated specifically
+for use as research volunteers. 39 These soldiers are
+recruited directly from their advanced individual
+training programs for the sole purpose of volunteering for various biomedical research protocols.
+Even though these soldiers need never volunteer
+for a study during their tour of duty with the Military Research Volunteer Program, their mere participation makes them vulnerable to exploitation
+and the military needs to guard against the potential for abuse. Nonetheless, many soldiers do volunteer by choice for a variety of studies based on
+the written protocol that describes the research
+methodology and possible side effects of the study.
+More importantly, these soldiers may withdraw
+from any study, at any time, without fear of reprisal
+from their superiors or the investigators.
+For many of these soldiers, participating in medical research is a matter of pride and the self-satisfaction of knowing they are making a unique contribution to the welfare of other soldiers. Many see
+their efforts as a unique sacrifice and service to their
+country, and these soldiers view their participation
+as voluntary. The military maintains a database of
+the names of all its test subjects participating in
+greater-than-minimal-risk studies for 75 years. The
+requirements of the protocol approval process for DoD
+biomedical research preserves the key aspects of autonomy and informed consent in times of peace and
+war. Consequently it appears that these individuals
+voluntarily concede their autonomy by virtue of being in the military, that such concession of autonomy
+is justifiable, and the spirit as well as the intent of the
+informed consent process is not compromised.
+Practicality and American Moral Ideals
+The voluntary consent of the human subject is absolutely essential. This means that the person involved should have legal capacity to give consent;
+should be so situated as to be able to exercise the
+free power of choice, without the intervention of
+any element of force, fraud, deceit, duress, overreaching, or other ulterior form of constraint or
+coercion; and should have sufficient knowledge
+and comprehension of the elements of the subject
+matter involved as to enable him to make an understanding and enlightened decision.…The duty
+and responsibility for ascertaining the quality of
+the consent rests upon each individual who initiates, directs or engages in the experiment. It is a
+personal duty and responsibility which may not be
+delegated to another with impunity. 40(Art1)
+The Nuremberg Code makes no distinction between peacetime and the exigencies of war regarding the requirement for informed consent of an individual prior to participating in research. This
+point is particularly troubling given the findings of
+the Advisory Committee on Human Radiation Experiments,41 a panel created by the Clinton Administration to investigate reports of unethical and possibly life-threatening experimentation on human
+subjects. The Committee discovered that tens of
+thousands of service members were exposed to radiation in research without their consent.
+The examples of the radiation research42 and the
+infamous LSD43 studies occurred prior to the rigorous screening and protocol review process of today.
+Moral hindsight allows the privilege of criticizing
+and, when necessary, condemning immoral practices of the past. Nonetheless, the radiation experiments and LSD studies conducted on military personnel without their informed consent did occur
+Medical Ethics in Military Biomedical Research
+549
+after the adoption of the Nuremberg Code of 1947
+and the top-secret rules adopted by the DoD in
+1953,44 which required researchers to inform human
+subjects of health risks associated with radioactive,
+chemical, and biological warfare experiments. 45
+There is no ambiguity in the requirements of the
+Nuremberg Code regarding voluntary consent.
+Consequently, the researchers involved in these
+protocols failed in their duties and responsibilities
+owed to the victims of their research.
+As disturbing as these examples appear regarding
+the outright disregard for the rules and guidelines
+of human research, they are clearly distinguishable
+from the more perplexing problem of trying to draw
+distinctions between medical research and medical
+practice and the need to determine whether military personnel have been treated as uninformed
+research subjects. The advances in medical technology and therapeutic treatments have blurred the
+distinction between therapy and research. This
+fuzzy line of demarcation applies in the military and
+has potential for ethical conflict as one seeks to protect the rights of military personnel from unethical
+practices regarding their use as human subjects.
+The Persian Gulf War Experience
+The history of research with soldiers demonstrates a prevailing attitude that when a threat to
+the nation’s security appears imminent (as was the
+case of nuclear war in the 1950s and the fear of lysergic acid diethylamide [LSD] use on American
+personnel in the 1960s), the requirements of informed consent and review approval represent impediments to national security—the urgency of the
+situation demands the conduct of these studies.
+Such a rationale has been used to justify egregious
+abuses of autonomy and respect for human welfare
+in clear cases of research when such a defense is
+unjustifiable.
+The Persian Gulf War added a new dimension to
+the issue of protecting military members not only
+from abuses of research mentioned previously but
+from the imminent prospect of facing chemical and
+biological weapons. Chemical weapons comprise a
+broad spectrum of devices that include lethal agents
+(nerve, blood, blister, and phosgene), incapacitating agents (so-called tear gas agents), smoke, and
+herbicides. Nerve agents, a particular threat from
+the Iraqi arsenal, attack a person through the skin
+inhibiting the action of the enzyme cholinesterase.
+Inhibition of cholinesterase causes violent muscle
+contraction in the victim with death resulting from
+asphyxiation. Additionally, Iraq was known to have
+an arsenal of biological weapons that work by
+spreading disease. Anthrax and botulism are typical biological agents that can be delivered on the
+battlefield by bombs, missiles, and rockets.
+Prior to commencing Operation Desert Storm
+(ODS), the combat phase of the Persian Gulf War,
+the DoD sought and obtained a one-time waiver of
+informed consent requirements (known as Rule
+23[d]) for the use of investigational drugs and vaccines on American forces serving in the Persian
+Gulf. The Food and Drug Administration (FDA)
+defines investigational drugs as those not approved
+for use by the general public. Until 1987, the use of
+investigational agents was permitted solely for research purposes. The FDA modified this rule approving the use of investigational agents to treat
+life-threatening conditions where no comparable
+drug or therapy is available. Changes not withstanding, the FDA requires physicians to obtain a
+patient’s informed consent before using an investigational drug for therapy. 46 In persuading the FDA
+to waive their requirements on the use of investigational agents, the DoD argued that in the exigencies of war obtaining solders’ informed consent was
+“not feasible.”47 This case study highlights many
+issues, the least of which includes where to draw
+the line between medical practice and medical research. The FDA approval of the informed consent
+waiver rekindled discussion of how to make a distinction between therapy and research but also
+raised the specter of the Nazi doctors—namely, did
+the DoD make guinea pigs out of US military personnel serving in the Persian Gulf War?48–52
+There are two basic positions regarding the use
+of investigational drugs and the informed consent
+waiver approval as it applied to military members
+during the Persian Gulf War. The major point of contention hinges on whether the use of investigational
+agents by the military in this one-time occurrence
+constitutes medical research or medical treatment.
+Presumably if the intended use is for research, the
+waiver is unethical as opposed to medical treatment
+where the exigencies of war provide justification to
+waiving consent with the purpose of protecting soldiers from chemical and biological weapons.
+The Research Point of View
+The first position contends that the military intent for using investigational agents was to conduct
+medical research. Consequently, the Nuremberg
+Code would prohibit the use of these drugs on solMilitary Medical Ethics, Volume 2
+550
+diers who did not provide informed consent. More
+recently, the Department of Defense Authorization
+Act (1985) also prohibits the military from conducting research on humans unless it has obtained the
+informed consent of the subject in advance. This
+prohibition even extends to research intended to be
+beneficial to the subject. Consequently, those who
+hold this position view the waiver of informed consent as patently unethical. A moderated position of
+this view concedes the intent of the military as one
+of medical practice but insists that in the use of investigational agents, even when there is evidence
+that a derived benefit from their use exists, such a
+benefit does not automatically transform what is
+experimental into therapy. If this were the case, then
+the informed consent process could simply be circumvented by redefining these activities. In either
+case, the argument upholds the absolute of informed consent in research activities. Advocates of
+this view believe the use of investigational agents
+constitutes research. Therefore, the use of these agents
+with a waiver of informed consent is unethical.
+The Practice Point of View
+Those who condone the waiver of informed consent articulate a position that argues the use of investigational agents as a preventive treatment against
+biological and chemical weapons is not medical research. The DoD was attempting to use these agents
+in what was considered an immediate “life-threatening” situation to protect the lives of military
+members from the effects of biological and chemical weapons. This use is within the scope of the US
+Food and Drug Administration’s (FDA) regulation
+on investigational drugs. 53 The principle of preventing unnecessary harm (nonmaleficence) to military
+members overrides all other principles in this view,
+even the prerogative of soldiers to make their own
+decisions regarding medical treatment (autonomy).
+Because the use of these agents was intended as a
+preventive therapy and not research, and because
+the military already has precedent to impose medical therapies on military members to ensure mission accomplishment, the action regarding the use
+of investigational agents in this context was not
+viewed as unethical by the FDA or DoD leadership.
+The Distinction Between Research and Practice
+The Persian Gulf War example provided the opportunity to examine the conceptual distinction
+between medical research and medical practice. The
+Belmont Report addresses this issue and is the starting point for this discussion. According to the Report, the term practice refers
+to interventions that are designed solely to enhance
+the well-being of an individual patient or client and
+that have a reasonable expectation of success. The
+purpose of medical or behavioral practice is to provide diagnosis, preventive treatment or therapy to
+particular individuals. 8(PartA)
+The term research, by contrast,
+designates an activity designed to test an hypothesis, permit conclusions to be drawn, and thereby
+to develop or contribute to generalizable knowledge (expressed, for example, in theories, principles, and statements of relationships). 8(PartA)
+The Report goes on to further clarify departures by
+physicians from standard or accepted practice, but
+such departures from standard practice do not, of
+themselves, constitute research.
+The fact that a procedure is “experimental,” in the
+sense of new, untested or different, does not automatically place it in the category of research. 8(PartA)
+The use of investigational agents by the DoD for
+preventive treatment against biological and chemical warfare agents was new and untested. One of
+the agents, pyridostigmine bromide (PB), is approved by the FDA for therapeutic use for a different purpose than as a pretreatment chemical agent
+antidote. Consequently, the DoD was compelled by
+law to file a new investigational drug application
+for an already approved FDA drug. FDA approval
+requires safety and efficacy testing in both animals
+and humans. Safety and efficacy data exist in animal studies for PB use as a chemical agent pretreatment. Only safety data exist for this use in humans
+because efficacy testing would require exposing
+human subjects to a nerve agent. This activity is
+unethical under existing human use review board
+standards. Therefore, the FDA cannot grant complete licensure for the use of this drug as a chemical nerve agent pretreatment.
+At this juncture the issue becomes how to gain
+approval to use these investigational agents even
+though they lack full approval status. Having conducted risk-benefit analysis, given the best intelligence data regarding the Iraqi intent to use biological and chemical weapons, and lacking any current
+pretreatment standard of care for exposure to nerve
+agents, soldiers faced a greater risk from these
+weapons unprotected than they did from receiving
+Medical Ethics in Military Biomedical Research
+551
+the investigational drugs. Now the issue shifts to
+the appropriateness of requiring soldiers to take
+drugs known to be safe without the option of informed consent. The military could have allowed
+soldiers to take these drugs voluntarily. The DoD
+argued, however, that to allow soldiers to refuse to
+take the drugs would needlessly risk their lives and
+the lives of their protected compatriots:
+Our planning for Desert Shield contingencies has
+convinced us that another circumstance should be
+recognized in the FDA regulation in which it would
+be consistent with the statute and ethically appropriate for medical professionals to “deem it not feasible” to obtain informed consent of the patient—
+that circumstance being the existence of military
+combat exigencies, coupled with a determination
+that the use of the product is in the best interest of
+the individual. By the term “military combat exigencies,” we mean military combat (actual or
+threatened) circumstances in which the health of
+the individual, the safety of other personnel and
+the accomplishment of the military mission require
+that a particular treatment be provided to a specified
+group of military personnel, without regard to what
+might be any individual’s personal preference for no
+treatment or for some alternative treatment. 47
+The Dilemma of Choice
+Earlier in this discussion the conclusion was drawn
+that there are no exceptions to the right of informed
+consent to participate in research. One can argue
+that even the use of a new, unproved therapy should
+not be imposed on soldiers without their consent. Can
+the Persian Gulf War example—the use of unproved
+therapy (given it is consistent with the criteria of
+The Belmont Report)—provide a qualified exception
+in the context of actual or threatened combat?
+The basic responsibility of the FDA is to protect
+the American public (to include military members)
+from unsafe and ineffective drugs. A problem arises
+when a drug passes safety testing but criteria for
+testing efficacy are beyond the bounds of ethical
+conduct. Which is more harmful: (a) to withhold the
+potential benefit or (b) risk facing the life-threatening situation without protection? One might readily
+answer that no protection produces a greater risk.
+Does that mean that the use of the drug is required
+or should soldiers be allowed to choose voluntarily? The answer to this question depends upon
+whether military members have a duty to subordinate individual self-interest for the good of the
+many. The success of a military mission depends
+upon unit cohesion, trust, and interdependence of
+unit members. Military units spend countless hours
+training and preparing for their wartime missions.
+The success of small unit tactics depends upon unit
+members being able to perform their assigned tasks
+when called upon to do so. Unprotected soldiers
+suffering injury from chemical and biological agents
+become liabilities to the welfare of their unit members when they are unable to perform their assigned
+role. Ultimately, the success of the overall mission is
+potentially jeopardized. If there is a derived benefit
+from taking these investigational agents and some
+members fail to accept this benefit, the negative effects of biological and chemical weapons not only
+impacts on those members not protected but degrades the capability of the entire unit and ultimately
+the welfare of the other unit members. Although
+some may argue that requiring military personnel
+to sacrifice their autonomy is morally indefensible,
+such a sacrifice has justification based on the principle of duty.
+Summary
+The protection of military personnel from the
+inherent risks of medical research and from innovative, new, and unproved practice is of paramount
+importance. Those who serve in defense of their
+country have a heightened sense of duty to their
+comrades-in-arms and to the nation. Those who
+exercise command authority over military personnel have an obligation to protect the rights, dignity,
+and autonomy of their subordinates to the extent
+possible without jeopardizing the military mission
+or the welfare of military personnel as a whole.
+There exists an ethical framework and criteria by
+which medical research can be conducted that preserves the ethical status of military members. Military personnel have the prerogative to volunteer for
+research and to deny them this privilege can potentially violate their personal autonomy. The experience in the Persian Gulf War and Rule 23(d) illustrates
+the difficulty of making choices that satisfy the demands of competing ethical principles and the potential for blurring the distinction between research
+and therapy. Significant to the Persian Gulf War is
+the need to acknowledge the risk associated with
+the use of unproved therapies. When the DoD finds
+it necessary to seek another waiver for the use of
+investigational agents in times of war, careful and
+comprehensive study of military members who take
+these agents is a moral imperative. The mysteries
+of Gulf War illnesses suggest that the military
+should do a better job of obtaining information regarding side effects and illness that may stem from
+the agents themselves or effects of the agents comMilitary Medical Ethics, Volume 2
+552
+bined with unique environmental exposures and
+stress of the battlefield. Simply stated, the military
+needs to devise a more effective method for recording and sorting medical information on the battlefield,
+particularly when it requires waivers from standard
+legal and ethical practices in medical research or
+therapy. This point suggests that if exceptions to established practices to informed consent exist, and
+military personnel later suffer from medical conditions linked to the use of investigational agents administered without informed consent, then they
+ought to receive just compensation and the record trail
+to support such claims ought to be available, exigencies of combat notwithstanding.
+ETHICS AND THE ISSUE OF ANIMAL EXPERIMENTATION
+More than the other topics of this chapter, the
+use of animals in research is as much a social and
+political question as it is a philosophical one. With
+few exceptions the voices in this debate are volatile
+and intractable, expressing virtually no hope of
+reaching common ground or compromise. Consequently it is imperative to examine the arguments
+with the intent of gaining understanding of the ethical stakes from both sides of this debate.
+There exists the presumption that most people
+want to “do the right thing” regarding actions to
+fellow humans and nonhuman animals. With this
+presumption comes the recognition of the value of
+biomedical research in advancing cures, treatments,
+and prophylaxis enhancing quality of life (even
+though some opposed to animal research deny such
+value). Value is ascribed to medical research because
+of the good that it adds to human life. Advocates of
+animal research support its practice because they
+view the value of human life greater than nonhuman animal life. One can hold this position without denying that nonhuman animal life has value,
+only that human life has greater value. As a society, however, the United States is becoming more
+ambivalent over the use of animals to gain medical
+advances at the expense of nonhuman animals, using
+lower animal life models or computer modeling as
+alternatives. The source of this ambivalence may stem
+from emotionally charged rhetoric, or the desire to
+be more sensitive to creatures who can experience
+pain, suffering, and lost preferences, or possibly a
+paradigm shift of viewing nature as a cosmic unity.
+This ambivalence might also stem from the realization that a concept of speciesism is valid in regard
+to the treatment of nonhuman animals, pricking
+moral consciousness beyond caring about the welfare of animals to affording them rights.
+The Moral Status of Animals
+The position one chooses to embrace regarding
+the use of animals in research derives from whether
+or not one has a fundamental belief in the moral
+equality and rights of animals. 54,55 The moral equality position advocates rights in the sense of human
+rights where it follows that the use of animals by
+humans constitutes a moral wrong. The logical
+starting point to determine whether it is ethical to
+use animals in research begins by determining
+whether it is ethical for humans to use animals for
+any purpose. Many critics of animal research assert
+the right of nonhuman animals to be treated as ends
+in themselves. If one holds the position that it is
+wrong for humans to use animals for any purpose
+then there is no moral distinction to make between
+justifiable and unjustifiable use of nonhuman animals in research. There is no middle ground, no
+basis for mediation, no common principle by which
+antagonists in this debate can reach consensus.
+Logical consistency demands that using animals for
+food, clothing, sport, entertainment, and education
+also violates the so-called rights of animals. If, however, one concedes that not all uses of animals for
+human needs are unethical, the debate narrows as
+to why using animals in research is morally wrong
+but other uses are morally permissible.
+Animal Suffering vs the Primacy of Human Life
+One might easily suggest, as many do, that the
+main problem with using animals in research is the
+suffering inflicted upon them. 56 Advocates for animal rights have framed the antivivisection debate
+as one depicting all animal research as cruel, unnecessary, and unscientific as opposed to distinguishing between the humane and inhumane use
+of animals. Hence the fundamental value argument
+in this context places the research community in a
+position of upholding the primacy of human life
+over animal life. If animals have moral equality with
+humans then one cannot help but question, as do
+many who favor vivisection, as to the matter of priority when defending the rights of animals on the
+issue of suffering. For example, the use of animals
+for food and clothing probably exceeds biomedical
+research by higher than a thousand-fold. FurtherMedical Ethics in Military Biomedical Research
+553
+more, the majority of animals used in research are
+mice and rats. This dichotomy or, less charitably,
+logical contradiction has led many people to conclude that animal research is merely a target of opportunity—an issue easily isolated from mainstream animal use, namely hunting, domestic pets,
+and the food and clothing industries.
+It is not possible to conclude, however, from the
+preceding discussion that the use of animals in research and related suffering they might incur, is
+automatically justifiable simply because their use
+for other purposes is condoned. Many animals have
+“expressed preferences” and the ability to pursue
+those preferences. Consequently animals should not
+be treated as mere objects. Animal lives count for
+something as does their ability to feel pain and to
+suffer. On balance one has to consider whether the
+pain an animal might experience in research is justified given the magnitude of benefit derived. Hence
+one returns to the question at hand: Are humans
+ethically justified in the use of animals either in
+general or specific instances, and if so, what ethical
+obligations apply to researchers who use nonhuman
+animals in their research? Surprisingly, there appears to be no consensus among philosophers in
+applying ethical theories to answer these questions.
+There is indication, however, that even arguments
+for complete abolition of animal research do not
+completely exclude exceptions for valuing human
+life as greater than nonhuman animal life. 57
+Application of Ethical Theory
+The major ethical theories are versions of (a) teleological or consequentialist views—the basic
+theory of this type is generally known as classic
+utilitarianism or (b) deontological views focusing
+on the inherent rightness or wrongness of an action irrespective of the good (bad) consequences
+that result from doing an action. Closely akin to the
+deontological view is the rights-based account of
+moral obligation that emphasizes the notion of respect and justice that reflect upon a particular moral
+judgment as right or wrong. Finally the contractarian
+view espouses ethical obligations forged from mutual agreement of consenting parties who function
+as moral agents.
+The animal rights’ proponent fundamentally
+opposes the use of animals by humans based on the
+belief that animals have inherent value. If animals
+have inherent value (moral equality), then regardless of the good humans can derive from their use,
+it is morally impermissible to violate the rights of
+animals that derive from their inherent moral worth.
+This argument requires a conceptual definition of
+inherent value. Antivivisectionists conceive (in
+minimal properties) sentience, purposiveness, and
+the capacity to feel pain to be sufficient to afford
+animals moral status. One criticism of these criteria is that they are not sufficient. The necessary trait
+to confer moral status on a living entity is moral
+autonomy—the capacity to make moral choices.
+Because this trait is lacking in nonhuman animals
+they deserve less or no moral consideration. One
+attacks this criticism by pointing out that humans
+lack, at various times, the capacity to function as
+moral agents (ie, a baby; a senile, demented, or retarded person; a comatose patient) yet their moral
+value is still regarded. Likewise sentient animals
+should be afforded equal consideration and their
+well-being should not be disrupted. 58
+If this argument is sound (if its premises are true
+and the conclusion follows from the premises), then
+humans incur fundamental duties regarding their
+actions toward animals. These duties derive from
+the respect or moral concern they are now obligated
+to afford to animals but are in conflict with the
+consequentialist (utilitarian) view. A consequentialist
+may well agree with the concept that animals have
+moral worth but reject the absolute view of violating that worth when doing so maximizes the greatest benefit balanced against the harm to an animal.
+Most researchers are likely to be utilitarian in their
+view of using animals in research. Even Peter
+Singer, viewed by many as the founder of the animal rights’ movement, concedes the use of animals
+as research subjects could be justified if it produced
+more utility than disutility. 54 His major claim is simply that it is wrong to give less consideration to the
+suffering of an animal than one would give to the
+similar suffering of a human being. This claim does
+not support the abolition of animal research. It only
+compels the researcher to demonstrate (from a utilitarian calculation) that the good to be derived from
+the animal’s suffering outweighs the evil of the suffering. If one accepts the aggregate benefit of using
+animals for medical cures, especially when a particular protocol involves no pain to the animals, there
+can be little left to worry about in the utilitarian
+calculation. One criticism of this view is that the perceived benefits of an experiment are in doubt until
+after the experiment has run its course. If there is no
+benefit, then only retrospectively can it be concluded
+that the animal’s loss produced no aggregate benefit.
+This view still grants some moral status to animals
+and places an obligation on researchers to develop
+Military Medical Ethics, Volume 2
+554
+well-designed protocols using the lowest form of
+animal model suitable to validate the scientific hypothesis. Consequently one considers the welfare
+of animals without having to take the extreme position of an animal rights’ advocate.
+A Definitive Rights Position
+Regan presents a clearly articulated position in
+The Case for Animal Rights. 59 Regan’s position revolves around a fundamental right—the right not
+to be harmed on the grounds that doing so benefits
+others. This position is in distinct contrast to the
+classic utilitarian. Harm in Regan’s view is the loss
+of the capacity to form and satisfy desires. For any
+living thing that can form and satisfy desires, the
+ultimate harm is death—the complete loss of one’s
+ability to form and satisfy those desires. As to the
+issue of delineating a list of which animals are capable of forming desires, Regan is reluctant to
+“draw lines.” He is quite satisfied that at least mammals and birds have this desire but will admit that
+humans have this capacity to a greater degree than
+other mammals and birds. Consequently, Regan
+postulates that if four humans and a dog are in a
+lifeboat that can support only four occupants, none
+of the humans should be harmed because each
+stands to lose more than the dog. Regan calls this
+scenario the application of the “worse-off” principle. Because a human being’s capacity to form and
+satisfy desires is greater than that of any nonhuman animal, a human stands to lose more in death
+than the dog. Harming any of the humans is
+avoided because they stand to lose more than the
+dog. Peter Singer believes that this conclusion demonstrates an inconsistency in Regan’s position. 54
+Regan also formulates a rule of action called the
+“miniride” principle. In this view, there is an attempt to minimize the overriding of an individual’s
+rights. In this way one is not using a utilitarian view
+of aggregate happiness but rather is focusing on the
+individual. Thus, in Regan’s mind, utilitarian reasoning is avoided. The problem is that in applying
+the miniride principle the same conclusions are
+derived as when the principle of utility is applied.
+Regan simply wants to emphasize focusing on the
+individual and minimizing any overriding of the
+animal’s rights as opposed to focusing the aggregate happiness produced by the principle of utility.
+Critics suggest that Regan, in his formulation of
+these moral principles, fails to establish standards
+that support the total abolition of animal research. 60
+Hypothetically, if it were known with certainty that
+an experiment could produce a vaccine that would
+save human lives, then it would be justified in either of Regan’s principles to harm the animal, even
+to the point of death, to produce the vaccine. Therefore, even someone like Regan, a complete abolitionist of animal research, who advocates a moral
+rights position, would have to concede that at least
+some medical research with animals is morally permissible (justified).
+Summary
+What is interesting about the preceding comparison of the utilitarian and rights positions is that in
+either case, whether one accepts the moral equality
+claim or subscribes to the view that humans have
+greater capacity to satisfy desires, both views justify at least some medical research. Consequently
+the question then becomes a matter of deciding
+which experiments are justifiable and which are not.
+This question becomes more a matter of oversight
+and regulation than the outright prohibition of animal research. This debate has increased the burden
+for scientists to justify their use of animals but in
+so doing has benefited the animals and contributed
+to better science.
+In considering the proponent and opponent positions of animal research the views can be summarized
+in the context of competing ethical theories and interests. From both a teleological and deontological
+perspective there are reasonable arguments to justify the use of animals in research. Both perspectives provide ethical principles by which to consider
+any justification for animal research: comfort, wellbeing, pleasure, sentience, and purposiveness. Although researchers may be able to move away from
+animal use with emerging technology, at least for
+the present their use is still required. Hence the
+question is less about the ethics of animal research
+and more about the ethics in animal research. Researchers should use animals with good reason.
+Protocols must adhere to sound experimental design and subscribe to the ethical and legal codes of
+conduct relevant to the care and use of animals in
+research. Most significantly, researchers must take
+great strides to reduce the pain and suffering inflicted on animals in the conduct of research. Finally,
+as a society there ought to be a commitment to developing alternatives to animal use when such alternatives will produce credible scientific results.
+Military research may present a problem regarding
+the development of alternatives to animal research.
+One example is the need to conduct physiologic
+studies regarding methods to combat biological
+and chemical weapons. Data obtained from aniMedical Ethics in Military Biomedical Research
+555
+mal studies indicated the safety and efficacy of the
+nerve agent antidote used by the US military during the Persian Gulf War. Given that the goals of
+military biomedical research are directly linked to
+enhancing the well-being and reducing the suffering of military personnel, most Americans would
+accept the use of animals in this research as ethically justifiable. Consequently, the issue narrows to
+defining how much animal use is justified in serving the aims of military biomedical research. To this
+end, military researchers face the same ethical concerns as civilian researchers in mitigating animal
+suffering for the benefits derived to improve the
+human condition. Ethical analysis provides guidelines to govern animal care committees for the humane care and use of laboratory animals. This same
+analysis does not support a complete prohibition
+of animal research. Application of ethical parameters
+might well suggest that animal use in military biomedical research has greater justification than civilian research as military research consistently
+aims at reducing significant human suffering and
+death produced by the weapons of modern warfare.
+In many instances, animal studies are the only way
+to verify the harm that exists to military personnel
+from various weapons, but animal studies are also
+necessary to study the effects of American weapon
+systems and military material on American personnel. To this end, military biomedical research needs
+to consider the ethical requirements of conducting
+good science while considering the humane treatment and welfare of laboratory animals.
+MILITARY WOMEN’S RESEARCH PROGRAM
+A national agenda is forming on women’s health
+that focuses on the previous lack of female subjects
+in research; the lack of funding for research of
+women-unique diseases; the need to improve access to healthcare for women; and the desire to improve preventive care for women. The problem of
+specific data gaps related to women’ s health issues
+has already received national attention. The General Accounting Office issued a report in June 1990
+demonstrating that despite federal policy dating
+back to 1986, women continue to be excluded in
+biomedical research populations. 61 As recently as
+June 1994, the National Institutes of Health (NIH)
+issued new guidelines to enhance medical research
+standards to include more women and minorities
+in research studies. Not only are women and minorities to be included but their subpopulations are
+to be noted and numbered. 62,63
+The efforts to overcome data gaps created by previous policies have significant relevance for military women. The US military deployed nearly
+40,000 women to Southwest Asia during the Persian Gulf War. Throughout this deployment significant female soldier health and performance issues
+surfaced in the areas of occupational and environmental health hazards, psychosocial and posttraumatic stress illness, clinical safety and efficacy of
+licensed and investigational pharmaceutical and
+biological products, and preventive health and sustained duty performance. Similar to the civilian
+medical community, there are scant research studies of military relevance that focus on womenunique health problems and military women are
+excluded disproportionately to their male counterparts as research subjects.
+In the 1990s several programs were instituted to
+redress this problem. 64,65 In 1994, the Congress established the Defense Women’s Health Research
+Program (DWHRP) to “address the critical health
+and performance issues impacting women in the
+military.”65 There were two main components of the
+research programs: (1) those utilizing institutions
+that are part of an agency or activity of the DoD or
+other US military service department (the intramural program) or civilian institutions that would collaborate with military institutions; and (2) those
+utilizing agencies outside the government, both for
+profit and nonprofit, both public and private (the
+extramural program).
+The intramural research program solicited research proposals in the following four areas: (1)
+major factors affecting the health and work performance of military women; (2) psychological and
+health issues resulting from the integration of
+women into a hierarchical male environment or related women and men living and working in close
+quarters; (3) health promotion and disease prevention; and (4) access to delivery of healthcare. The
+extramural program solicited research proposals in
+four areas related to the intramural research: (1)
+operational effectiveness for mission accomplishment; (2) health promotion and disease prevention;
+(3) psychological health and well-being; and (4)
+access to and delivery of healthcare. By fiscal year
+1995 a total of 66 research programs had been
+funded for the intramural and extramural programs. Similar levels of research activity will likely
+continue well into the future to redress the prior
+lack of research into issues pertaining to the health
+of women serving in the military.
+Military Medical Ethics, Volume 2
+556
+THE PROBLEM OF EXCLUSION
+offered as a way of protecting minorities from these
+past practices of exploitation. Thus the principle of
+beneficence is upheld in the sense that excluding
+minorities from studies protects them from the possible harm of exploitation. This explanation fails to
+consider that the harm of exploitation is a product
+of failing to adequately inform the research subject
+of the inherent risks to research participation. Informed consent is supposed to mitigate against exploitation. The paternalism of “protecting” minorities is a subtle form of unjust discrimination and
+applies protectively only in the case of nonclinical
+investigations. In clinical investigations, exclusion
+and paternalism possibly deny minorities the benefits of the research. Hence, the real issue is not a
+matter of “protecting” minorities from harm but
+allowing them to participate as equals in the research enterprise with full knowledge of the risks
+so they may also derive the benefits of the research
+outcomes. Therefore, a practice of exclusion lacks
+ethical justification in relationship to the principle
+of beneficence.
+One must not judge too harshly the failure of the
+position that exclusion protects minorities from
+exploitation in the research process. The backlash
+of Tuskegee and similar studies not only led to a
+paternalistic view of protecting minorities but also
+caused a reluctance on the part of minority groups
+to participate in the scientific enterprise. Both of
+these trends fail to uphold the principle of beneficence. Additionally, the exclusion practice in seeking to do good (granted a charitable interpretation)
+violates the principle of justice. Current ethical practices in research, based on the principle of justice,
+require a fair and equitable distribution of burdens
+and benefits—giving people what they deserve
+(benefits) mitigated against the amount of their involvement in the process (risk-taking). An exclusion practice cuts two ways in violating the principle of justice. First, medical research is subsidized
+with tax dollars. If a segment of the population financially supports the research enterprise and then
+cannot benefit from its outcomes, such a practice
+violates the justice principle. Likewise, if a segment
+of the population benefits from research but does
+not accept the associated risks, be they physical or
+financial, this practice also violates the principle of
+justice. Consequently the requirement to expand
+protocols to include women satisfies both aspects
+of the justice principle.
+Another consideration used to justify exclusion
+of women from studies is the possibility of a woman
+Various articles have been written exploring the
+problem of exclusion. 66,67 The fundamental issue,
+having already identified probable causes for a gender bias in healthcare, is to recognize the ethical imperative for correcting recognized deficiencies. One
+aspect of ethical analysis is to determine whether
+there exists sufficient ethical justification for a particular practice, namely an exclusion policy toward
+women in medical research and treatment protocols.
+Given the basis for biomedical research to obtain
+generalizable data for improving health and treatment, one must ask whether exclusion practices
+violate the principle of beneficence. The application
+of beneficence suggests that research practices
+should maximize benefit and minimize harm. To
+violate this principle the practice of exclusion must
+cause harm or diminish expected benefits. Applying
+this principle to the practice of excluding women
+from research protocols, several harms are evident.
+First, the physiological differences between men
+and women make it inappropriate to simply generalize findings from research conducted on male
+subjects. For instance, a variety of male-only studies
+for heart disease, cholesterol, and asthma medication
+led to treatment alternatives actually detrimental
+to women’s health. Even though one can argue the
+need for uncomplicated data from a homogeneous
+test population, this scientific requirement (or expediency perhaps) does not justify conducting studies on all male groups. During the Persian Gulf War,
+female soldiers received the same dosage rates of
+pyridostigmine bromide, a nerve agent pretreatment antidote, as their male colleagues. Testimony
+during the Senate hearings on illnesses associated
+with service in the Persian Gulf suggested physiological differences in men and women could affect safe
+dosage levels for women causing various side-effects and a possible connection to unexplained illnesses in women who had served in the Persian
+Gulf War. Consequently, studies conducted without female test subjects may lack the very scientific
+merit the study was initially designed to support.
+These obvious harms aside for the moment, one
+explanation offered in the past to defend exclusion
+practices is that such practices actually prevent
+harm to women and other minorities simply because they are minorities. The early history of biomedical research in this country is replete with the
+exploitation of disadvantaged groups as research
+participants. The infamous Tuskegee syphilis study
+stands as a permanent fixture to these unethical
+abuses. Consequently, exclusion practices might be
+Medical Ethics in Military Biomedical Research
+557
+research participant getting pregnant during the
+study resulting in harm to the unborn child (commonly referred to as unforeseeable teratogenic risk).
+The principle of nonmaleficence (avoid causing
+harm) is the ethical principle ofttimes used in this
+defense. Military research protocols and the accompanying informed consent require special counseling
+for fertile women volunteers regarding the hazards
+of birth defects and miscarriage should pregnancy
+occur in the course of the study. Researchers funded
+on DoD dollars must inform women of the need to
+use birth control during the study. Pregnancy is often used as an exclusion criteria to withdraw
+women subjects from a study. Given these conditions, complete exclusion from the onset of a study
+may be too general and broad a practice. Even
+though precaution is clearly warranted to avoid
+potential harm to an unborn child (and one can
+debate whether enforced contraceptive use is too
+strong a precaution), a real harm is created by simply excluding women with the ability of conceiving children. The key to mitigating risk with fertile
+women subjects is to determine the degree of risk
+each protocol actually presents to a developing
+child—the greater the risk, the more exclusive the
+selection criteria could be for fertile women. Still
+this parameter need not mean total exclusion. Not
+all fertile women are sexually active nor would be
+necessarily so while participating in a study.
+Past research practices of exclusion should not
+be construed as intentionally seeking to discriminate against women. The lack of enlightened sensitivity and thinking in this area is more likely attributed to convenience, saving money, simplifying the
+design of protocols, and simplifying logistical requirements to accommodate both sexes during the
+conduct of a study. The fact remains that there exists a gender bias in selecting research subjects and
+this bias is harmful to the welfare of women. Value
+judgments have been made in American society
+about practices that cause harm—they are unethical. Hence because exclusion practices cause harm,
+or at least have been demonstrated to cause harm,
+exclusion practices are unethical.
+Much is being done to correct the previous gender bias in research selection. The military medical
+research programs are expanding to cover womenunique problems associated with military duty and
+job performance. Most notably perhaps was the creation of a DoD breast cancer research program in
+1993. Congress directed the Army to execute a
+breast cancer research program based upon a number of factors. The major effort came from a highly
+visible lobbying effort by the National Breast Cancer Coalition, a grass roots advocacy effort to eradicate breast cancer, seeking congressional funding
+for the breast cancer program at the National Cancer Institute (NCI). The US Congress responded by
+directing $210 million to the US Army Medical Research and Development Command (which later
+became the US Army Medical Research and Materiel Command) to create a breast cancer program. 68
+The overall objective of this funding is to promote
+research directed toward reducing the incidence of
+breast cancer, increasing survival rates, and improving the quality of life of those diagnosed with the
+disease. This program extends beyond the traditional military medical research mission and is indicative of the strides being taken to correct past
+practices. Still the lesson to learn is that it is necessary to stay vigilant to uncover other biases in medical research and healthcare as yet undetected.
+Finally, now that the research community is expanding its horizon to include women-unique studies, women must be willing to become active participants in the research process. What must be guarded
+against in the developing process of a women’s
+health agenda, however, is that whatever biological and physiological differences might be discovered do not become a means to perpetuate unjust
+discriminatory practices in employment and career
+paths. This is perhaps unlikely, but a word of caution is prudent when the study of environmental,
+physiological, and nutritional aspects of women’s
+health specifically related to military duty is begun.
+Such differences, by themselves, ought not be used
+to exclude women from such service. Instead, ways
+to solve these various problems should be explored.
+CONCLUSION
+The ultimate mission of military medical research
+is to provide preventive and therapeutic products
+for the welfare of the soldier. To this end military
+medical research must remain committed both in a
+professional sense and an ethical one. Military
+medical research is a noble enterprise with a long
+history of significant contributions to healthcare,
+not only for soldiers but for the greater society as
+well. The US Army Medical Research and Materiel
+Command has been managing and administering
+targeted appropriations to the Department of Defense from Congressional direction since 1992. Appropriations totaling in excess of $1. 1 billion for
+breast cancer, women’s health issues, and other
+Military Medical Ethics, Volume 2
+558
+specified programs highlight key aspects of military
+medical research with a clear vision committed to
+ethical aims of improving quality of life. These programs are managed by skilled, multidisciplinary
+teams of military and civilian scientists and clinicians. The National Academy of Sciences and the
+Institute of Medicine have participated in program
+reviews and development seeking to substantiate
+the ethical and scientific credibility of these programs. These programs received strict review of
+Congressional oversight committees and are committed to public accountability in the investment
+of funds to address the research needs of targeted
+diseases.
+Unlike the past, stakeholder participation is at
+the very heart of the implementation strategy of
+these research programs. Open communication
+among research participants, scientists from various
+disciplines, consumer advocate groups, leading
+government, academic, and private organizations
+are all partnering to ensure unique issues and gaps
+in medical knowledge no longer exist. Expanding
+the opportunities for gender specific research is only
+one facet of the program that lends credence to the
+fact that times have changed and that program development and funding target these specific gaps and
+remedy the failures of the past. The growth of military medical research is not only a good thing for the
+military but for society as a whole. The growth of ethical awareness toward the use of medical research for
+the benefit of society and preserving the very core of
+the healing professions—caring, compassion, and the
+relief of suffering—continues as a necessary and essential component of these research programs.
+REFERENCES
+1.
+Moore GE. Principia Ethica. 2nd ed. New York: Cambridge University Press; 1993: Preface.
+2.
+Lifton RJ. The Nazi Doctors. New York: Basic Books; 1986; xii.
+3.
+Nass M. The labyrinth of biological defense. PSR Q. 1991;1(1):24–30.
+4.
+Statement from the Society for Social Responsibility in Science. Quoted by: Nass M. The labyrinth of biological
+defense. PSR Q. 1991;1(1):24–30.
+5.
+Newman S. Vaccines and BW. Genewatch. 1985;2(2):12.
+6.
+Wright S. The military and the new biology. Bull At Sci. 1985:(May):10–25.
+7.
+Dasey C. Medical benefits of the Biological Defense Research Program. Polit Life Sci. 1990;9(Aug):77–83.
+8.
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. The Belmont
+Report: Ethical Principles and Guidelines for the Protection of Human Subjects of Research. Available at: http://
+ohrp.osophs.dhhs.gov/polasur.htm. Accessed 16 April 2002.
+9.
+Annas GJ, Grodin MA. The Nazi Doctors and the Nuremberg Code: Human Rights in Human Experimentation. New
+York: Oxford University Press; 1992.
+10.
+The World Medical Association. Regulations in Time of Armed Conflict. Adopted by the 10th World Medical
+Assembly, Havana, Cuba, October 1956, edited by the 11th World Medical Assembly, Istanbul, Turkey, October
+1957, and amended by the 35th World Medical Assembly, Venice, Italy, October 1983. In: The World Medical
+Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical Association; 1993: section 17. 50.
+11.
+Neel S. Medical Support of the US Army in Vietnam 1965–1970. Washington, DC: OTSG, US Department of the
+Army; 1973; Chap 10.
+12.
+Stich SP. The recombinant DNA debate. Philos Public Aff. 1978;7(3):187–205.
+13.
+Cohen C. When may research be stopped? N Engl J Med. 1977;296(21):1203–1210.
+14.
+Jonas H. Freedom of scientific inquiry and the public interest: The accountability of science as an agent of
+social action. Hastings Cent Rep. 1976;6(4):15–18.
+Medical Ethics in Military Biomedical Research
+559
+15.
+Sinsheimer RL, Piel G. Inquiring into inquiry: Two opposing views. Hastings Cent Rep. 1976;6(4):18–19.
+16.
+Sidel V. Biological weapons research and physicians: Historical and ethical analysis. PSR Q. 1991;1(1);24–30.
+17.
+Frisina ME. The offensive-defensive distinction in military biological research. Hastings Cent Rep. 1990;20(3):19–22.
+18.
+Wilker N, Connell N. Update on the military and biotechnology. Genewatch. 1987;4(4-5):1–3.
+19.
+Geneva Convention on the Prohibition of the Development, Production, and Stockpiling of Bacteriological
+(Biological) and Toxin Weapons and Their Destruction, 10 April 1972. 26 UST 57, TIAS 8062.
+20.
+Smith RJ. UN says Iraqis prepared germ weapons in Gulf War; Baghdad balked, fearing US nuclear retaliation.
+Washington Post. 26 August 1995:A1.
+21.
+US Army Medical Research and Development Command. Final Programmatic Environmental Impact Statement:
+Biological Defense Research Program (RCS DD-M [AR] 1327). Fort Detrick, Frederick, Md: USAMRDC; April 1989.
+Available at: http://mrmc-www.army.mil. Accessed 24 June 2002.
+22.
+Graber R. UMass anthrax research safe. Daily Hampshire Gazette. 21 January 1989:1.
+23.
+Graber R. Researcher says anthrax study safe. Daily Hampshire Gazette. 6 March 1989:1.
+24.
+Gately B. Anti-anthrax fight reaches selectmen. Massachusetts Daily Collegian. 28 March 1989:1.
+25.
+Wilker N. BW Research on UMass-Amherst campus opposed. Genewatch. 1989;5(6):4.
+26.
+Macklin R. On the ethics of not doing scientific research. Hastings Cent Rep. 1977;7(6):11–13.
+27.
+Roth B. The moral arguments against military research. Ann N Y Acad Sci. 1989;577:21–23.
+28.
+Dineger R. The moral arguments for military research. Ann N Y Acad Sci. 1989;577:10–20.
+29.
+Sieber JE. Planning Ethically Responsible Research: A Guide for Students and Internal Review Boards. Newbury Park,
+Calif: Sage Publications; 1992.
+30.
+Beecher HK. Ethics and clinical research. N Engl J Med. 1966;274(24):1354–1360.
+31.
+Rothman DJ. The shame of medical research. N Y Rev Books. 2000;47(19):60–64.
+32.
+Angell M. The ethics of clinical research in the Third World. N Engl J Med. 1997;338(12):847–849.
+33.
+Varmus H, Satcher D. Ethical complexities of conducting research in developing countries. N Engl J Med.
+1997;337(14):1003–1005.
+34.
+Merson MD, Blanche S, Herrington D, et al. Ethics of placebo-controlled trials of zidovudine to prevent the
+perinatal transmission of HIV in the Third World [a series of short articles]. N Engl J Med. 1998;338(12):836–844.
+35.
+Public Law 93-348, National Research Act, 12 July 1974.
+36.
+Sugarman J, McCrory DC, Powell D, et al. Empirical research on informed consent: An annotated bibliography.
+Hastings Cent Rep. 1999;29(1):S1–42.
+37.
+Brett A, Grodin M. Ethical aspects of human experimentation in health services research. JAMA. 1991;265(14):1854–1857.
+38.
+Winter PE. Human subjects research review in the Department of Defense. IRB. 1984;6(3):9–10.
+39.
+Scicchitano J. I’m a human guinea pig. Army Times. 30 October 1989:14.
+Military Medical Ethics, Volume 2
+560
+40.
+Trials of War Criminals Before the Nuremberg Military Tribunals Under the Control Council Law No. 1011-14
+(1946–49). Available at: http://ohsr.od.nih.gov/nuremberg.php3; Accessed 29 May 2002.
+41.
+Advisory Committee on Human Radiation Experiments. Final Report. Washington, DC: GPO; 1995.
+42.
+Welsome E. The Plutonium Files: America’s Secret Medical Experiments in the Cold War. New York: Dial Press; 1999.
+43.
+Moreno JD. Undue Risk: Secret State Experiments on Humans. New York: Freeman Press; 1999.
+44.
+Wilson memorandum. Dated 26 February 1953. From the Secretary of Defense to the secretaries of the army,
+navy, and air force. Available at: http://www.tis.eh.doe.gov/ohre/roadmap/achre/chap1_3.html; Accessed 7
+June 2002.
+45.
+Hudson N. Cold war secrecy linked to unethical tests on troops. Army Times. 6 June 1994:23.
+46.
+21 USC sec 355(1); 1988.
+47.
+Letter, sent from the Assistant Secretary of Defense for Health Affairs to the Assistant Secretary for Health of
+the Department of Health and Human Services, dated 30 October 1990.
+48.
+Annas GJ. Changing the consent rules for Desert Storm. N Engl J Med. 1992;326(11):770–773.
+49.
+Poikonen J, McCart GM, Veatch RM. Waivers for military use of investigational agents. Am J Hosp Pharm.
+1991;48(7):1525–1529.
+50.
+Howe EG, Martin ED. Treating the troops. Hastings Cent Rep. 1991;21(2):21–29.
+51.
+Levine C. Military medical research: 1. Are there ethical exceptions? IRB: Rev Hum Subjects Res. 1989;11(4): 5–7.
+52.
+Cooper RM. Military medical research: 2. Proving the safety and effectiveness of nerve gas antidote—a legal
+view. IRB: Rev Hum Subjects Res. 1989;11(4):7–9.
+53.
+Kessler DA. The regulation of investigational drugs. N Engl J Med. 1989;320(5):281–288.
+54.
+Singer P. Tools for research. In: Animal Liberation. New York: Avon Books; 1975: 27–91.
+55.
+Cohen C. The case for the use of animals in biomedical research. N Engl J Med. 1986;315(14):865–870.
+56.
+The Case Book of Experiments With Living Animals. Jenkintown, Pa: The American Anti-Vivisection Society; August 1988.
+57.
+Donnelley S, Nolan K, eds. Animals, science, and ethics. Hastings Cent Rep. 1990;20(3):S1–30.
+58.
+Caplan AL. Beastly conduct: Ethical issues in animal experimentation. Ann N Y Acad Sci. 1983;406:159–169.
+59.
+Regan T. The Case for Animal Rights. Berkeley: University of California Press; 1983.
+60.
+Varner G. The prospects for consensus and convergence in the animal rights debate. Hastings Cent Rep.
+1994;24(1):24–28.
+61.
+Federal Report. The Office of Research on Women’s Health in the 1990s. J Am Med Women’s Assoc. 2000;56:77–78.
+62.
+Wakefield J. NIH requires studies to include minorities. US Medicine. 26 June 1994.
+63.
+Ziskin LZ, Favata EA. Creating an agenda for women’s health. N J Med. 1993;90(12):930–932.
+Medical Ethics in Military Biomedical Research
+561
+64.
+Department of Defense. Section I. CDMRP overview. FY99 CDMRP annual report. In: Congressionally Directed
+Medical Research Programs. Available at: http://cdmrp.army.mil/annreports/1999annrep/section1.htm. Accessed
+9 May 2002.
+65.
+Department of Defense. Section X. Defense Women’s Health Research Program. FY99 CDMRP annual report.
+In: Congressionally Directed Medical Research Programs. Available at: http://cdmrp.army.mil/annreports/
+1999annrep/section10.htm. Accessed 9 May 2002.
+66.
+Dresser R. Wanted: Single, white male for medical research. Hastings Cent Rep. 1992;22(1);24–29.
+67.
+Cotton P. Examples of gaps in medical knowledge. JAMA. 1990;263:2113–2117.
+68.
+Department of Defense. Breast Cancer Research Program. In: Congressionally Directed Medical Research Programs.
+January 31, 2002. Available at: http://cdmrp.army.mil/pubs/factsheets/bcrpfactsheet.htm. Accessed 29 May
+2002.
+Military Medical Ethics, Volume 2
+562

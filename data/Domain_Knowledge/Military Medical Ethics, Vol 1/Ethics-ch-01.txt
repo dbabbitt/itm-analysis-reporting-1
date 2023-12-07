@@ -1,0 +1,1292 @@
+1
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+MILITARY MEDICAL ETHICS
+VOLUME 1
+SECTION I: MEDICAL ETHICS
+Section Editor:
+EDMUND D. PELLEGRINO, MD
+John Carroll Professor of Medicine and Medical Ethics
+Georgetown University, Washington, DC
+Kindly Doctor
+© Royalty-Free/CORBIS. Reproduced with permission.
+2
+Military Medical Ethics, Volume 1
+3
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+Chapter 1
+THE MORAL FOUNDATIONS OF THE
+PATIENT–PHYSICIAN RELATIONSHIP:
+THE ESSENCE OF MEDICAL ETHICS
+EDMUND D. PELLEGRINO, MD*
+INTRODUCTION
+IS A FOUNDATION FOR MEDICAL ETHICS POSSIBLE?
+SOME CURRENT MODELS OF THE PATIENT–PHYSICIAN RELATIONSHIP
+The Physician as Clinical Scientist
+The Physician as Body Mechanic
+The Physician as Businessman
+The Physician as Social Servant
+The Physician as Helper and Healer
+Summary of the Models
+HEALING AND HELPING: THE “END” OF MEDICINE
+External Morality
+The Ethics Internal to Medicine
+Elements of an Internal Morality for Medicine
+The Clinical Encounter: Where Internal and External Morality Meet
+Medical Ethics and Social Responsibility
+Medical Ethics, Culture, and History
+A Common Ethics for the Health Professions
+CONCLUSION
+*John Carroll Professor of Medicine and Medical Ethics, Georgetown University; Senior Research Scholar, Kennedy Institute of Ethics, Georgetown
+University; and Senior Research Scholar, Center for Clinical Bioethics, Georgetown University Medical Center, 4000 Reservoir Road, NW,
+#D-238, Washington, DC 20057; formerly, President, The Catholic University of America, Washington, DC; Director, Kennedy Institute of
+Ethics, Georgetown University; and Founder, Center for Clinical Bioethics, Georgetown University Medical Center
+4
+Military Medical Ethics, Volume 1
+Photograph of a relief of The Manifestation of Asclepius During Incubation. The “model,” or idealized, patient–physician relationship: a patient who is ill and a physician who offers to help. Models of the patient–physician relationship
+have been developed throughout the history of medicine and have shaped the way physicians and patients have
+confronted each other. These models in each era have been the result of a fusion of three elements: (1) a philosophy of
+medicine, (2) the ethos or dominant spirit of medicine itself, and (3) the linkage between these first two elements and
+some philosophical school. These elements relate to each other in different ways and often recur from era to era, but
+throughout the eras models often bear resemblance to one another because there is some facet of truth in each that
+reflects the complexity of the human relationship between one who professes to heal and one who is in need of
+healing.
+© Gianni Dagli Orti/CORBIS; reproduced with permission.
+5
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+INTRODUCTION
+In medicine, whether in the civilian or military
+setting, medical ethics begins and ends in the patient–physician relationship. The conception we
+hold of that relationship shapes the decisions we
+make in every clinical situation. It sets the standard
+for right and wrong, good and bad professional
+conduct. It is the final arbiter of the moral status of
+every policy affecting the health of individuals or
+the public. Even public health, military, and penal
+medicine, which incorporate societal goals, must
+balance those goals against the realities of the relationship of a patient and a physician. How we see
+that relationship will determine the kind of society
+we are, have become, or want to be.
+For these reasons, this first chapter is devoted to
+the moral foundation of the conduct of the patient–
+physician relationship. Such a foundation, if it is to
+be adequate as the keystone of the edifice of medical ethics, must at a minimum answer certain key
+questions: Is there anything morally special about
+the patient–physician relationship, and if there is,
+what is it? What does the special nature of the relationship entail with respect to the duties physicians
+and patients owe each other, the virtues they should
+exhibit, or the rules, principles, and attitudes that
+should guide their interactions in the clinical encounter? These questions are implicit in the later
+chapters, which define the special nature of the
+patient–physician relationship in the clinical and
+the military context.
+This chapter confines itself to the ethical aspects
+of the patient–physician relationship. Its focus
+therefore is on professional ethics—the ethics of the
+physician as a professional (and, by analogy, to
+other health professionals, eg, nurses, dentists, clinical psychologists, social workers). The content of
+bedside ethical decisions—the ethics of particular
+clinical dilemmas—is discussed in later chapters.
+The religious and theological foundations of medical ethics are not included, even though, for many
+Americans, they are the ultimate source of all morality, in general or in the professional life. Finally,
+we must not forget that patients and physicians
+meet each other in an intricate matrix of psychosocial, cultural, and sociohistorical phenomena that
+can modify the expression of medical ethics. 1 These
+factors notwithstanding, there is a foundation for
+the duties of all health professions that is relatively
+constant across cultures, history, and national
+boundaries.
+IS A FOUNDATION FOR MEDICAL ETHICS POSSIBLE?
+Historically, the Hippocratic Oath (Exhibit 1-1)
+and ethos were not universally accepted as the foundation for medical ethics by most ancient Greek
+physicians. 2–4 They originated with a small group
+of physicians who were eager to distance themselves from the majority of their contemporaries
+who were itinerant journeymen, businessmen, and
+craftsmen. In later antiquity, the Hippocratic ethic
+found favor with the three monotheistic religions
+and, through their influence, became widely disseminated. 5–7 At least from the late Middle Ages on,
+and well into the modern era, the moral precepts of
+the Hippocratic ethic were the standard for the ethical conduct of physicians. 8
+Our concern is not with the evolution of medical
+ethics as an historical or social epiphenomenon. It
+is the deeper moral phenomena upon which it has
+been based that are of importance. It is the existence of these phenomena, which the Hippocratic
+physicians and their successors grasped intuitively,
+that accounts for the durability of their ethic across
+so many centuries, countries, and cultures.
+A quarter of a century ago the question of whether
+or not a foundation for medical ethics was possible
+would have seemed a naive question. At that time the
+Hippocratic ethics, exemplified by the oath, the socalled “deontological” books of the Hippocratic Corpus (dealing with the oath, precepts, the law, decorum, and the physician),9,10 and its congeners in the
+Code of the American Medical Association (AMA)11
+and dozens of other codes of medical ethics and variations,12 were taken for granted as the source and foundation for the ethics of the patient–physician relationship. Today this foundation is no longer secure. An
+increasing number of ethicists, physicians, and even
+the public, believe not only that the Hippocratic ethic
+is out-of-date but that the whole idea of a stable foundation for ethics is no longer tenable.
+Several challenges singly, and in combination,
+have brought about this present state of affairs. Four
+that seem most important are: (1) the upheaval in
+social values in the 1960s; (2) the interest in medical ethics by professional philosophers; (3) the transformation of medical ethics into “bioethics”; and
+(4) the “postmodern” turn of philosophy in general,
+and moral philosophy in particular.
+The first serious contemporary challenge to the
+Hippocratic foundation was sociopolitical. Beginning
+6
+Military Medical Ethics, Volume 1
+EXHIBIT 1-1
+THE OATH OF HIPPOCRATES
+I
+swear by Apollo Physician and Asclepius
+and Hygieia and Panaceia and all the gods
+and goddesses, making them my witnesses, that I will fulfil according to my
+ability and judgment this oath and this
+covenant:
+To hold him who has taught me this art as equal
+to my parents and to live my life in partnership with
+him, and if he is in need of money to give him a share
+of mine, and to regard his offspring as equal to my
+brothers in male lineage and to teach them this art—
+if they desire to learn it—without fee and covenant;
+to give a share of precepts and oral instruction and
+all the other learning to my sons and to the sons of
+him who has instructed me and to pupils who have
+signed the covenant and have taken an oath according to the medical law, but to no one else.
+I will apply dietetic measures for the benefit
+of the sick according to my ability and judgment; I
+will keep them from harm and injustice.
+I will neither give a deadly drug to anybody
+if asked for it, nor will I make a suggestion to this
+effect. Similarly I will not give to a woman an abortive remedy. In purity and holiness I will guard
+my life and my art.
+I will not use the knife, not even on sufferers
+from stone, but will withdraw in favor of such men
+as are engaged in this work.
+Whatever houses I may visit, I will come for
+the benefit of the sick, remaining free of all intentional injustice, of all mischief and in particular of
+sexual relations with both female and male persons, be they free or slaves.
+What I may see or hear in the course of the treatment or even outside of the treatment in regard to the life
+of men, which on no account one must spread abroad, I will keep to myself holding such things shameful to
+be spoken about.
+If I fulfil this oath and do not violate it, may it be granted to me to enjoy life and art, being honored with
+fame among all men for all time to come; if I transgress it and swear falsely, may the opposite of all this be my lot.
+Reproduced with permission from: Edelstein L. The Hippocratic Oath: Text, Translation and Interpretation. In: Sigerist HE, ed.
+Bulletin of the History of Medicine, Supplement 1. Baltimore, Md: The Johns Hopkins Press; 1943: 3. Artwork © Bettmann/
+CORBIS; reproduced with permission.
+in the late 1960s in America, for various reasons (as
+discussed further in Chapter 3, Clinical Ethics: The
+Art of Medicine), all traditional values and sources
+of moral authority were challenged—religion, the
+family, parents, teachers, all holders of authority,
+and all the professions. This was the era of participatory democracy, which saw the rise of the consumer movement, civil rights legislation, the
+Patient’s Bill of Rights, and a rash of student protests against academic tradition and authority. In
+such a climate physicians, medicine as a privileged
+profession, and medical ethics were especially vulnerable. They were seen as elitist, monopolistic of
+power, and self-aggrandizing.
+7
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+The second challenge came from professional
+philosophers who for the first time in their history
+took a serious interest in medical ethics. To be sure,
+the ancient philosophers often referred to medicine,
+but neither they nor their modern counterparts ever
+wrote serious treatises on medical ethics. Only in
+the last quarter of the 20th century did philosophers
+examine the moral presuppositions of the traditional ethic. They did so using the conceptual tools
+of a variety of established moral systems. Each system introduced its own perspective on the relationships between physicians and patients. For example, the followers of the philosophy of Kant,
+placed their emphasis on patient autonomy; those
+who followed J.S. Mill chose utility maximization;
+and followers of W.D. Ross turned to prima facie
+principles (see Chapter 2, Theories of Medical Ethics: The Philosophical Structure). As a result, the
+Hippocratic tradition of benevolence and beneficence was reinterpreted as authoritarian, insensitive to social ethics, and even unjust. Other major
+precepts, such as the prohibitions against abortion,
+breaches of confidentiality, and sexual intercourse
+with patients, were relaxed. Currently, the prohibitions against assisted suicide13 and euthanasia are
+under attack. Pressures have steadily mounted for
+an oath and code more congruent with contemporary mores. 14,15
+The third challenge arose out of the progressive
+intrusions into medical ethics by law, politics, economics, psychology, and culture. Beginning in the
+1980s, a larger view of medical ethics emerged under the new rubric of “bioethics.” Bioethics extended beyond the bedside to social and public
+policy, ecology, and the environment. In the 1990s
+scholars in the social sciences entered this broader
+field. Those outside the field of philosophy challenged
+philosophical ethics as a rational discipline. They
+judged it too abstract and insufficient to encompass
+the full complexity of the moral life. Alternative
+theories and models of ethics such as casuistry, narrative, virtue, feminist, and caring ethics have been
+proposed. 16 To remedy these presumed deficiencies,
+ethics itself has often been reduced to issues of public
+policy and procedure rather than patient–physician
+relationships. 17
+The fourth challenge in the erosion of traditional
+medical ethics arose in the attack on philosophical
+ethics by the “postmodern” critique of philosophy
+itself. This critique centers on the claims of reason,
+itself, to arrive at moral truth. The postmodern critique challenges the traditional pretensions of philosophy to achieve moral truth through reason
+alone. Postmodernism declares philosophy to be
+“dead.”18,19 Secular bioethics is particularly vulnerable to this critique because it built its endeavor on
+the post-Enlightenment project of ethics free of
+metaphysics and religion and dependent only on
+an autonomous rationality. Postmodernism has become a “deteriorated version of the Enlightenment.”20(p20) Postmodernism deprives contemporary
+bioethics of its rationalist underpinnings and denies it access to any foundation or overarching
+theory. In this view, any foundation for medical ethics such as the Hippocratic ethic, or the one this
+chapter shall describe, is ipso facto intellectually
+suspect.
+This surely is not the place to attempt the complex task of refutation of the postmodernist thesis.
+But as Rosen argues, postmodernism reduces philosophy to ideology. This places the ideology of linguistic fashion in the place formerly occupied by
+philosophy. 19,20(p176) We may try to eliminate foundations, but there is always a position of last resort
+beyond which we cannot retreat. Call it what we
+will, this position of last resort is in fact a “foundation.” Thus antifoundationalism is the postmodernists’ position of last resort.
+What is of relevance to this chapter is that contemporary medical ethics faces an important choice
+with very practical consequences. (For a more
+detailed discussion of postmodernism and deconstructionism, please see Chapter 3, Clinical
+Ethics: The Art of Medicine.) If medical ethics
+chooses to go the postmodernist route, it must accept a variously interpreted and deconstructed
+ethic, one malleable by social and linguistic construction. Profession and patients will fragment
+further and further into smaller and smaller communities with different and contradictory moral
+values. 21 A uniform set of moral precepts binding
+all physicians will no longer be possible. Each therapeutic encounter will become a new negotiable
+event with its own rules, duties, and principles, or
+the whole of bioethics will be left to social consensus. 22 Any notion of a foundation for ethics based
+in respect for human life will be replaced by a
+technological determinism. 23
+This chapter takes a different pathway—the way
+of reconstruction of the ethical foundation for medical ethics, not its deconstruction. This does not imply a simplistic reaffirmation of the Hippocratic
+ethic. A true “reconstruction” means retaining what
+is valid in the old and enlarging it by new insights.
+This is not the same as changing ethics to accommodate to social mores. The beginning, a quarter
+century ago, of formal philosophical reflection on
+the Hippocratic moral precepts, uncovered a genuine need for their justification beyond mere assertion. This has been salubrious because it changed
+8
+Military Medical Ethics, Volume 1
+medical ethics from a set of free moral assertions
+into a respectable ethical enterprise. This chapter
+undertakes a reconstruction of medical ethics out
+of the empirical phenomena of the clinical encounter and the experiences of illness and healing. These
+are the universal phenomena that underlie the relationships of patients and physicians across temporal and cultural barriers. These are the relationships perceived by the Hippocratic physicians but
+never formally or systematically argued.
+SOME CURRENT MODELS OF THE PATIENT–PHYSICIAN RELATIONSHIP
+Medicine is a multivaried societal phenomenon
+in which physicians may play a variety of roles simultaneously. Each role elicits a particular kind of
+relationship with the patient and entails a particular kind of ethic. One of these roles, the role of
+healer, is primary; the others are subsidiary. Before
+turning to the reconstruction of this primary role,
+it is important to examine some of the alternative
+models and the ethics they entail. Pedro Lain
+Entralgo has written most perceptively about the
+history of the patient–physician relationship. 24,25 He
+summarizes the relationship in terms of the
+physician’s motives under four general headings: (1)
+physician as technical helper; (2) physician as seeker
+of knowledge; (3) physician as functionary of an institution; and (4) physician as a seeker of profit. 24
+Elements of these motives are intermingled in each
+of the more specific models to be examined below.
+The Physician as Clinical Scientist
+One prominent model, often emphasized in
+medical schools, is the patient–physician relationship as an exercise in applied biology. 26 In this
+model, the relationship is a means for attaining
+knowledge and also for applying existing knowledge to solve a patient’s diagnostic or therapeutic
+problem. The ethic governing this kind of relationship is the ethic of good science, the rules of which
+are objectivity, honesty in recording data, technical
+competence, and so forth. The patient is the object
+of study seen as a concrete instance of the universal laws of biology and pathology. This model does
+not deny the existence or importance of psychosocial and personal elements in the genesis or treatment of the illness. But these elements are not considered properly as in the domain of medicine or
+the physician. They belong to social workers, psychologists, and pastoral counselors. It is the
+physician’s task to take note of these subjective elements but to refer them to others for treatment.
+The Physician as Body Mechanic
+A variant of this model of the physician as clinical scientist is to see the patient–physician relationship as a mechanical event equivalent to the owner
+of a defective automobile bringing it in for repair
+or replacement of a part. 27 In this model, the physician is the mechanic and the patient is the owner of
+a part to be fixed. Psychosocial and personal elements are really irrelevant. Because they are not
+mechanically fixable, they are not part of the
+physician’s task. The ethic of this relationship is the
+ethic of technical competence, impersonality, and
+fulfillment of a service contract.
+The Physician as Businessman
+In the business model, healthcare is a commodity to be bought and sold on the open market for
+profit. 28 Its price, availability, distribution, and quality are dependent upon competition. The patient is
+a consumer who shops for care as he shops for other
+needed goods. The patient is a source of gain for
+the physician who competes for patient “business.”
+The ethic in this model is the ethic of business and
+the “ethic” of the marketplace. In the market, patients are players whose welfare depends upon
+what they can command in the way of resources
+and what they can negotiate in trade. Solicitude or
+concern for the “loser” is important only if it makes
+for better business. If someone makes a wrong
+choice, or lacks the wherewithal to enter the market in the first place, this is unfortunate but not the
+concern of the physician, or those for whom the
+physician works.
+Two variants of the market relationship model
+are the entrepreneur and the managed care models. 29,30 These roles may be combined when physicians are simultaneously caregivers, “providers,”
+and investors, owners, or risk-sharers in managed
+care organizations or healthcare facilities. Here providers compete for capitation contracts to provide
+care for large target populations, preferably those
+with few medical needs who will pay their premiums and will not need much in the way of care. The
+physician is an employee of an organization or one
+of its owners. The dominant ethic is the ethic of
+competitive business and corporations. This is a
+minimalist ethic always at risk of compromise if
+profit margins drop. The patient becomes a cus9
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+tomer and client, a source of gain, or a unit of care—
+an “insured life” who can be “traded” in mergers
+or contract negotiations.
+In these technical and market models, the physician regards the practice of medicine primarily as
+an occupation, a way to make a living rather than a
+means of service to others. Practicing medicine is a
+job like any other. There is no requirement to extend oneself beyond the job description. The ethics
+implicit on this kind of relationship is the ethic of
+the employee whose aim is to satisfy the patient so
+the patient will return and will recommend the
+physician to others. Only as much kindness and
+compassion as are needed for success need be offered. There is no commitment beyond strict working hours. Choice of physician is not important because physicians are interchangeable. The patient
+often is seen not as a personal responsibility of the
+physician, but of the organization.
+The Physician as Social Servant
+Another model increasingly being pressed upon
+today’s profession is the physician as social servant,
+as primarily an instrument of societal, or fiscal,
+good. Medical knowledge is thus directed to some
+purpose beyond, in addition to, or along with, meeting the needs of the individual patients. Examples
+of this genre are the physician acting as rationer in
+a managed care system, physicians as employees
+of a penal institution, physicians in military service,
+and public health physicians. The physician’s primary orientation is toward the good of the population in general, or a specific population in a social
+institution. The ethic implicit in this model is a
+population-based ethic. These are the roles of the
+physician as bureaucrat or functionary using medical knowledge for purposes other than the good of
+the individual patient.
+The Physician as Helper and Healer
+The most traditional model, and ethically the
+most demanding, is the model of the physician as
+helper and healer, a committed professional whose
+primary obligation is to the good of his patient. 31 In
+this model, the physician is committed to something
+other than self-interest, advancement of career or
+occupation, or even the good of society. This model
+is based ethically in the specificity of the role of
+TABLE 1-1
+MODELS OF THE PATIENT–PHYSICIAN RELATIONSHIP
+MODEL
+PHYSICIAN
+PATIENT
+ETHIC
+Applied biology
+Clinical scientist: uses
+Biological object harboring
+Good science, truth,
+knowledge to solve
+a disease
+objectivity, technical
+medical problems
+competence
+Body repair
+Body mechanic: fixes
+Owner of defective body
+Technical competence,
+biological problems
+part
+fulfillment of service
+contract
+Commodity transaction
+Businessman: competes
+Consumer of medicine and
+Business, the laws of the
+for clients
+source of gain for the
+marketplace
+physician
+Investment opportunity
+Businessman: views self
+Unit of care, which can be
+Competitive business,
+as an entrepreneur
+sold or traded by contract
+marketplace concerns, profit
+margins
+Managed care industry
+Businessman: functions
+Client whose consumption
+Corporate goals, economic
+as an employee
+of care must be controlled
+concerns
+Social utility
+Social servant: uses
+Client who is a societal
+Population-based needs of the
+medicine as instrument
+subunit
+ many versus the individual
+of societal good
+Professional
+Helper, healer: uses
+Person to be helped
+Covenant of trust
+medicine for the patient’s
+benefit
+10
+Military Medical Ethics, Volume 1
+physician as healer, helper, and curer. This ideal is
+not always actualized to be sure, but it has been at
+the heart of the Hippocratic ethic and its many
+variations. It is the model that this chapter proposes
+as the foundation for the ethics of the healing professions.
+Summary of the Models
+Table 1-1 lists the models of patient–physician
+relationship that we have discussed in this chapter.
+These are models that are now in vogue and often
+competing for primacy. Each implies a different
+theory of medicine, a different interpersonal relationship between physician and patient, and a different ethic. In each of these models, except the healing model, the physician uses medical knowledge
+for what can be a good or bad purpose. These other
+purposes are not intrinsically evil, but neither are
+they distinctive of medicine because medicine is
+defined by its healing purpose. When purposes extrinsic to medicine, itself, conflict with the end of a
+healing relationship, ethical dilemmas arise in
+which priority must be given to patient welfare. 32
+The nature of these conflicts (eg, the physician as
+military officer, public health official, or forensic
+psychiatrist) will be treated in other chapters. This
+chapter focuses on the “end” of medicine as medicine, on what distinguishes it as a special kind of
+human activity with its own internal morality.
+HEALING AND HELPING: THE “END” OF MEDICINE
+Medicine and physicians are a part of the social
+and historical fabric of the cultures within which
+they live and function. Medicine therefore is in part
+economics, business, societal purpose, and function.
+But it is not primarily any of these things. If a true
+foundation for medical ethics is to be found, it must
+be sought in what is unique to medicine, and this is
+the healing relationship between the patient and the
+physician. It is from this uniqueness that an ethic
+specific to medicine can be defined. The ethical
+implications of this uniqueness may be derived externally, by some form of social construction, or by
+applying some preexisting system of morals and
+ethics to the phenomena of medicine. Alternatively,
+the ethics of medicine may be derived internally, by
+a study of the phenomena of medicine itself. We will
+examine both approaches methodologically and
+substantively.
+External Morality
+An externally determined ethic is most often derived from a preexisting system of moral philosophy
+with origins outside medicine but applied to the
+activities peculiar to medicine. This is generally a
+“top-down” approach in which medical ethics
+draws upon principles, duties, or rules and action
+guidelines developed outside medicine to define
+morally appropriate conduct, or choices. Some examples are the derivation of duties of physicians
+and patients from the deontological ethic and categorical imperative of Immanuel Kant,33 the principle of utility maximization of John Stuart Mill,34
+natural virtue ethics of Aristotle,35 or the Christian
+virtues as exemplified in Thomas Aquinas. 36 Similarly, an external source of medical ethics might be
+drawn from a religious tradition, as in the theological ethics of Thomas Aquinas, the Catholic casuist
+tradition,37 or an updated conception of natural
+law,38 the Protestant tradition,39 or the Jewish halakic
+tradition. 40,41
+In recent years, systems of externally derived
+ethics have had their origins in sociocultural mores, in social constructivism, or coherence theories.
+Here the justification for judgments of right and
+wrong are determined by societal consensus, or coherence with other accepted beliefs and principles,
+or by “reflective equilibrium,” a dialogue between
+general principles and intuitive judgments. 42 Existential,43 narrative,44 caring,45 and feminist ethics46
+are further examples of external systems for the
+derivation of right and wrong. These and other ethical theories have been applied to medicine to justify
+what ought and ought not to be done in particular
+clinical situations.
+The foregoing “external” sources of medical ethics are formulated in other chapters in this book and
+will not be given further consideration here. In any
+contemporary study of medical ethics, they deserve
+serious consideration. They express moral truths of
+various relevance to, but not necessarily determinative of, right and good conduct for physicians and
+other health workers. They relate to, but are not determined in the first instance by, the nature of medicine as a special kind of human activity. In one way
+or another, they leave a gap between ethical theory
+and the realities of the moral world of physician
+and patient. To close this gap, it is necessary to move
+more closely into the lived worlds of physician and
+patient—to a more internally determined ethic. 47
+11
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+The Ethics Internal to Medicine
+There are several senses in which an ethic may
+be internal to medicine. One is the ethic expressed
+in ethical codes elaborated within the profession
+by physicians, for physicians. Examples would be
+the Hippocratic Oath,9(pp299–301) the ethics of the Chinese physician,48 the Indian Code,49 the ethical
+“code” of Thomas Percival prepared for the physicians at the Manchester Infirmary,50 the AMA Code
+of 1847, its many revisions since then, and their
+expansion in the Opinions of the Council on Ethical and Judicial Affairs of the AMA. 11 The ethical
+codes of the World Health Association, the British
+Medical Association, and a multitude of others
+would all be internal in this sense. These codes were
+prepared for, and by, members of the profession
+without significant input from those outside the
+profession.
+These internal codes generally turn out to be
+statements of moral belief mixed with etiquette.
+They exhibit little in the way of formal “ethics,”
+because their moral foundations are taken for
+granted and not derived or justified by analysis or
+argument. Their moral content is surprisingly similar to that expressed in the Hippocratic Oath and
+ethic. These codes all express certain moral truths
+that have shaped the ideals of professional behavior and the commitment of the community of physicians to patient welfare. They should not be discounted, as some suggest, simply because they were
+prepared by physicians and for physicians. 51 Their
+final test is not who composed them, but whether
+or not they contain arguable or demonstrable ethical truths.
+Laws pertaining to medical practice are external
+to the internal morality of medicine. Laws are external because they promulgate statutes governing
+the obligations of physicians to patients, the source
+of which is legislative action outside of medicine.
+Nonetheless laws are responsive to the special nature of the medical relationship. The laws of torts,
+contracts, and fiduciaries, for example, recognize the
+special nature of the patient–physician relationship.
+In this latter sense, these laws accurately reflect the
+special nature of the therapeutic relationship and
+the vulnerability of patients who, as a result, are in
+need of legal protection. Laws governing medical
+practice, thus, get their moral force from their recognition of the realities of the patient–physician
+encounter.
+Also situated somewhere between the internal
+and external boundaries of medicine are theories
+of ethics or models of the relationship with strong
+sociological and psychological foundations. One
+example would be Lain Entralgo’s formulation of
+friendship (philia) as the foundation of the relationship. 24(p149) Other examples would be the notion
+of caring, the patient’s or physician’s life story or
+narrative, or the experience of practice itself. Each
+concept has roots in the actualities of the patient–
+physician relationship; none is sufficient in itself to
+be the basis of a normative ethic for that relationship. Each is important but best incorporated in the
+view of a healing ethic.
+Elements of an Internal Morality for Medicine
+For purposes of this chapter, the term internal
+morality will be used more narrowly to signify a
+foundation for medical morality arising within the
+phenomena peculiar to medicine, those that define
+it as a special form of human activity, and by that
+fact generate specific moral responsibilities binding only on those who profess medicine or the other
+health professions. The three phenomena specific
+for the patient–physician relationship are: (1) the
+fact of illness; (2) the act of pro-fession; and (3) the
+act of medicine. Together they comprise the healing relationship, the end of which is the good of
+the patient.
+The Fact of Illness
+The most fundamental fact about medicine is that
+it exists because humans become ill. This and mortality are the two most universal characteristics of
+human existence. They transcend culture, history,
+and all other differences between and among humans. Illness is a subjective existential state in
+which the patient’s sense of well-being or accommodation with existing disease is threatened or
+compromised by some new symptom or sign. The
+person who recognizes himself as ill enters a new
+stage of existence in which his humanity is diminished in several specific ways.
+First, there is the loss of freedom to do what one
+wishes because of pain, disability, discomfort, and
+so forth. Being ill creates anxiety, fear of mortality,
+and disability. Illness may or may not correspond
+to objective pathology (ie, disease). Illness threatens the image of one’s physical and emotional integrity. The illness then becomes a center of concern and diverts energy and attention from other
+pursuits. It creates a disorganization and disequilibrium of the whole of the person’s existence.
+12
+Military Medical Ethics, Volume 1
+Ill persons may tolerate this state of disequilibrium for a long time but ultimately most decide they
+need help. That is when they become patients— persons bearing a burden of suffering. (The word “patient” is derived from the Latin patior, patiens, pati
+meaning “to suffer, bear a burden.”52[pp1308–1309])
+When people become patients, they realize they
+need the knowledge and power of others to be
+healed. Patients then no longer treat themselves but
+are compelled to seek out a health professional in
+whom eventually they must place trust. They must
+enter a relationship of inequality because the health
+professional possesses the knowledge and skill the
+patient needs. Thus when well persons become ill,
+by that very fact, they become patients—vulnerable,
+suggestible, and exploitable. They experience a
+change in existential state that is not exactly parallel to any other state. Illness is a unique universal
+phenomenon of human existence and it is that
+uniqueness that generates its moral orientation.
+The Act of Pro-Fession and Promise
+In this special state of vulnerability, the patient
+seeks out someone who professes to be a healer. The
+physician or other health professional asks what is
+wrong: “How can I help?” In this question, physicians invite the patient’s trust that they possess the
+requisite knowledge, that they will use it to help
+and not to harm (ie, to act in the patient’s best interests, not their own, and not in the interests of
+others). When physicians voluntarily offer to help,
+they make an implicit promise. They offer themselves as healers, helpers, and caregivers. They generate expectations they promise implicitly to fulfill. They voluntarily bind themselves, by that very
+fact, to act beneficently. Their assigned societal role
+and their possession of special knowledge require
+them to help. Physicians thus automatically enter into
+a covenantal trust relationship when they offer to care
+for a patient. A covenant is more than a casual promise. It is a mutual agreement with something of the
+sacred about it because it is made in the presence
+of need by one capable of meeting that need.
+This promise to help is an act of pro-fession (“profession” derives from the Latin profiteor, profiteri meaning “to acknowledge openly, to avow,” and professio,
+“an open declaration of an intention”52[pp1475–1476]), that
+is to say, it is a solemn promise that binds this physician to this patient in a way that makes the physician an accomplice if harm comes from the relationship. The patient may dissolve this bond unilaterally
+by discharging the physician. But if the patient is
+ill, the physician can end the relationship only after another physician has agreed to undertake the
+patient’s care.
+The Act and End of Medicine
+It is the act of healing, helping, and curing (which
+is what the patient seeks, needs, and expects from
+the physician’s promise of help and the physician’s
+invitation to trust) that initiated the relationship.
+Help, healing, care, or cure are the immediate ends
+of medicine. To be authentic, this end must be defined in terms of the good of the patient, that which
+restores health, if that is possible, or provides comfort and care if restoration of health is not possible.
+The good of the patient is a complex concept, multilayered and highly personalized. It consists of at
+least four components: (1) the medical good, (2) the
+good as perceived by the patient, (3) the good of
+the patient as a human, and (4) the good of the
+patient’s spiritual nature. 53
+The first (and lowest on the scale) component is
+the medical good—that which the competent application of medical knowledge can achieve—treatment, cure, comfort, or containment of the disease.
+This is the most objective level susceptible to scientific apprehension. It is the level at which diagnosis, prognosis, and therapy function.
+The second component of the patient’s good is
+the good as perceived by the patient—what constitutes a “quality” life, the trade-offs the patient may
+wish to make among the options for treatment, the
+amount of risk, pain, discomfort, and disability that
+will be accepted as a price of treatment. The
+patient’s perception of good is subjective, individualized, and personalized. It may or may not correspond with the medical good as perceived by the
+physician. It can only be defined by the patient.
+The third component of patient good is more
+general. It is the good of the patient as a human
+being, as a being with inherent dignity possessed
+of reason and will, free to choose, to plan one’s own
+life with a minimum of coercion by others or by
+events. It is this inherent dignity that entitles all
+humans to respect for their own decisions and it is
+from this good for humans that the principle of
+autonomy derives. Justice, likewise, is grounded in
+who and what we are, as possessors of a common
+humanity. Justice requires equal treatment of patients and retribution for harm done to them. Keeping promises, such as the physician’s promise of
+healing and helping, is also a matter of justice—
+something owed to all persons.
+The fourth component, and the highest good of
+the patient, is whatever pertains to that individual’s
+13
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+spiritual nature—beliefs about the nature and destiny of human life, its meanings, purposes, and relationships to sources of morality beyond human
+determination. This good is also grounded in our
+humanity as beings capable of commitments to ideals and beliefs beyond the needs of our material
+bodies. This is the realm of religious belief, or
+nonbelief, the ultimate source of morality for most
+patients when confronted with their own finitude,
+suffering, or despair. It is also the ultimate source
+of morality for many physicians.
+The immediate telos, or end, of medicine is to
+advance the good of a particular patient on all of
+these four levels. This is what healing means, that
+is, to help the patient heal himself, to become whole
+again to the extent possible within the limitations
+imposed by the patho- or psychophysiological aberration that brought him to the physician in the
+first place. To achieve this end will require in the
+immediate term a right and good decision, one which
+is scientifically and technically correct, and one
+which conforms with the four levels of good as they
+present in this patient. Morally valid medical and
+clinical decisions therefore fuse the technical and
+the moral dimensions in the moment of clinical decision. It is through the immediate end of a right
+and good decision made with, and for, the patient
+that the broader end of healing, and ultimately, the
+even broader ends of health of the individual and
+of society are attained.
+A right and good decision must also be carried
+out safely, efficiently, prudently, and with a minimum of pain and discomfort. These obligations
+arise out of the seriousness of the promise to protect and advance the well-being of the patient. The
+vulnerability of the patient, and the trust patients
+must ultimately place in the physician’s skill, are
+the foundation for the obligation to be competent
+in performance as well as in knowledge. Competence in psychomotor skills is, therefore, a moral
+requirement. Thus the internal morality of medicine rests on the relationships of three phenomena
+that characterize the clinical encounter: the fact of
+illness, the promise to help, and the healing act of
+medicine. Schematically, they can be represented in
+this way:
+These are the ineradicable phenomena of the
+human experiences of being ill, being healed, and
+professing to heal. They are universal human phenomena. No matter which culture, historical era, or
+national boundaries frame them, they are the same.
+They are the same phenomena experienced by ancient Greek patients and their physicians as well as
+today’s patients and physicians. They will be the
+same in the next millennium and beyond because
+they are elements of the human condition. Medicine will become more highly technical than it is
+now, and more will be done by computers and automated means of diagnosis and treatment, but the
+need of sick persons for human interaction, intercession, and counsel will remain. Indeed, as machines take over the procedures of medicine, the
+need for the human touch and the ethical dimension of clinical decisions will be correspondingly
+greater.
+The Clinical Encounter
+Principles and Duties
+Up to this point I have distinguished external
+morality, as any system of ethics derived from outside of medicine (like the ethics of Aristotle, Kant,
+Hume, and Beauchamp and Childress), from internal morality, the derivation of duties, obligations, and
+principles from the phenomenology of medicine itself. However, the internal morality of medicine is
+not disconnected from the specific principles, rules,
+guidelines, and virtues that characterize external
+systems of morality applied to medicine. The difference in an internal morality is that they are derived from the empirical phenomena of the clinical
+encounter. They are, therefore, not dependent upon
+preexisting ethical theory or the resolution of disagreements between and among these theories.
+The four principles of Beauchamp and Childress54
+(ie, beneficence, nonmaleficence, autonomy, and
+justice) are one example of an external theory of
+medical morality that can be grounded more securely in the empirical realities of the clinical encounter. These principles have a firm foundation
+because they are necessary to achieve the end of
+medicine and fulfill the covenant of trust. Thus beneficence and nonmaleficence become duties because they are promised when the physician offers
+to help in the way specific to his profession. They
+are prima facie principles because no patient seeks
+professional help to be harmed; patients seek to be
+helped. No one expects to be used to advance the
+physician’s or someone else’s good. Subjects in cliniThe Fact of the Illness
+(Patient)
+The Promise to Help
+(Physician)
+The Act of Healing
+(Patient and Physician)
+14
+Military Medical Ethics, Volume 1
+cal research may give free and informed consent to
+participation to advance the good of others but even
+the experimental subject’s good must always be
+protected.
+Autonomy, as argued above, is a good of the patient as a human being. It is one of the distinguishing characteristics of being human that we can make
+plans, make choices, and control significant parts
+of our lives. To ignore, override, or manipulate this
+decision-making capacity is to violate the good of
+the patient, to create harm and thus to defeat the
+end of medicine, which is healing and not harming. To violate autonomy is thus a maleficent act.
+Beneficence, nonmaleficence, and autonomy are not
+in opposition but reenforce each other. Autonomy
+is not absolute, however. The conditions that restrict
+are subjects for other chapters.
+Justice, like autonomy, is a good of the patient as
+a human being. To violate justice is to violate an
+essential feature of human existence (ie, what is
+owed to each human simply by virtue of being human). Like violations of beneficence and autonomy,
+violations of justice are maleficent and, therefore,
+frustrations of the end of medicine, which is the
+good of patients.
+The Virtuous Physician
+Like the prima facie principles of medical ethics,
+the virtues physicians should exhibit are linked to
+the ends of medicine and the phenomena that
+characterize the healing relationship. Virtues in general are defined as “the state of character which
+makes a man good and which makes him do his
+own work well.”55(1106a:22–24) When the concept of virtue is incorporated into medical ethics, it refers
+more specifically to those traits of character that
+make a physician or nurse (or other health worker)
+a good physician or nurse—one whose intention and
+action optimizes attainment of the ends of the healing relationship. 56
+Essential to the notion of a virtue from its earliest definition in Plato and Aristotle is the idea of
+perfection (areté) in achieving a purpose. The virtuous physician or nurse is one who exhibits excellence in those character traits that enable one to
+come as close as possible to the healing purposes
+of the patient–physician (or patient–nurse) relationship. There are certain virtues or character traits that
+are particularly crucial; indeed, so crucial that they
+are entailed by the ends of medicine and without
+them those ends cannot be achieved. Some of these
+virtues are as follows57:
+•
+Fidelity to trust is inescapable in the real
+world of a sick person seeking help. Without trust in the good intention of the physician and the physician’s capability to perform competently, healing becomes difficult
+or impossible. The physician invites trust
+and must therefore be faithful to that trust,
+lest the offer to help be a lie and a deception.
+•
+Benevolence, namely the predisposition habitually to wish to act for the patient’s good,
+is the virtue that disposes the physician to
+do good, specifically to do good for the patient. This disposition is present even when
+it costs the physician something in time,
+frustration, loss of income, interference
+with personal plans, and so forth. Benevolence is a requisite virtue even in those difficult and frustrating cases of patient noncompliance, or abuse of health practices, or
+nonpayment of legitimate bills for service.
+• Benevolence entails another virtue, namely
+effacement of self-interest. This is the disposition to serve the good of the patient even
+at some loss of personal self-interest. This
+virtue has limits. But where those limits are
+set is a highly personal matter. Heroic sacrifice is not required, but some degree of
+self-effacement is essential to attaining the
+ends of medicine. Without it a professional
+loses that which distinguishes his work
+from a mere occupation.
+•
+Compassion and caring are equally relevant
+virtues. Compassion as a virtue is the habitual disposition to enter into the predicament of the sick person, to feel something
+of that predicament with him, and, as a result, to wish to help. Without entering the
+patient’s predicament to some extent, it is
+not possible to heal in any full sense of that
+term. Care is a virtue closely related to the
+virtue of compassion. It may mean caring
+for the patient, that is, taking a personal
+interest in the patient’s fate, or taking care
+in the way we carry out our professional
+duties, or taking care of the patient’s need
+and concerns. However interpreted, caring
+is an essential virtue integral to any morally satisfactory healing relationship. It is
+not, however, sufficient by itself to constitute a normative theory of ethics.
+• Both care and compassion must be combined with objectivity if they are not to be
+harmful. Objectivity allows for an assess15
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+ment of the actual physical state, diagnosis, and prognosis. It is united with compassion by putting all the factual data into
+the lived world, life situation of this patient.
+Objectivity and compassion complement
+and balance each other.
+•
+Courage is one of the four cardinal virtues
+from antiquity (the other three being temperance, justice, and prudence). It disposes
+physicians to take the personal risks necessary to care for the sick in times of emergency, disaster, or war; to expose oneself to
+contagion when necessary; and to take a
+moral stand when cooperation with what
+is morally wrong must be resisted.
+•
+Intellectual honesty is a virtue insufficiently
+emphasized. Medicine and medical knowledge are powerful tools. They can be used
+for good and harm, or for control over others. Recognizing what one does not know,
+admitting it to oneself, to the patient, and
+to one’s colleagues, is an essential safeguard
+for the vulnerable patient. Intellectual honesty is the antidote to the vice of intellectual hubris to which all professionals, and
+especially physicians, are so easily prone.
+• In addition to intellectual honesty, a more
+general disposition to humility is required.
+This lies in a sober appreciation of the limitation of medicine as art and science, and
+of the physician, himself as an instrument
+of the patient’s healing. It is an awesome
+thing to offer oneself to help or “heal” another. Merely to contemplate the demands
+on the health professional’s knowledge,
+compassion, and understanding of the predicament of illness is to impart a sense of
+unworthiness on any responsible professional. Nonetheless, it is through fallible
+human beings that the knowledge and skill
+of medicine must be employed if the sick
+are to be helped. Physicians and other
+health professionals cannot permit themselves to be overwhelmed by their importance, nor by their sense of impotence and
+inadequacy. What humility requires is a
+calm and moderate assessment of the dangers of both indecision and presumption.
+A knowledge of the limitations of one’s own
+person and of the art, itself, is gained only
+by careful, sustained, lifelong self-examination of the potential for good and harm in
+arrogating to oneself the title of “physician,”
+“nurse,” “psychologist,” “social worker,” and
+so forth.
+•
+Finally, and one of the most important of the
+clinical virtues, is prudence. This is not the
+modern exercise of self-protective caution,
+which avoids risks to one’s own welfare
+and does not venture to do good if it means
+a loss of self-interest. Phronesis, the Greek
+word for prudent judgment or practical
+wisdom, was, for Aristotle and Aquinas, the
+link between the intellectual (the capacity
+to know) and the moral virtues (the capacity to act well). 55(1144b30–1145a6),58,59 It encompassed the capacity of practical wisdom,
+knowing how to choose the appropriate
+means in a complicated situation so as best
+to serve the good ends of the healing relationship. Prudence is the power of discernment. In the clinical context it is akin to
+clinical judgment—knowing how, when,
+and in what way, to act in the face of uncertainty, in a situation we have never encountered before, or one in which the virtues
+themselves appear in conflict.
+Obviously, there are other character traits that
+can be entailed by the realities and ends of the patient–physician relationship but these just listed are
+indispensable. In their absence it would be difficult
+or impossible to assure a healing relationship that
+met minimum standards of ethical propriety.
+Virtues do not by themselves constitute a whole
+moral philosophy for medicine. 60 They lack the
+specificity and concreteness of principles, rules, and
+axioms as action guidelines. Virtues also are subject to a multiplicity of definitions and orderings.
+They may conflict with each other because they are
+tied to the definition of the patient’s good, and there
+may be differences about how to define that good
+for, and with, a particular patient. The tendency to
+subjectivism is accentuated by the circularity of the
+logic that ordinarily accompanies virtue theories,
+that is, virtuous persons do what is good; the good
+is what virtuous persons do. However, by grounding the virtues in the empirical realities of the patient–physician relationship we can avoid some of
+this circularity and most of the shortcomings of virtue theory in general.
+The Virtuous Patient
+The ethics of any human relationship implies reciprocal duties, principles, and virtues. In medical
+16
+Military Medical Ethics, Volume 1
+ethics, it is the duties of physicians that are emphasized. Given the balance of power in the physician’s
+favor and the vulnerability of the patient, this is the
+morally proper ordering. Nonetheless, some mention of the patient’s obligations and virtues is necessary if a full account of the internal morality of
+the healing relationship is to be provided.
+If the end of medicine is to be attained, patients
+must participate in their own healing, and must
+facilitate the physician’s pursuit of this end. This
+requires, at a minimum, that patients must be honest in the facts they provide in their histories of their
+illness. They must not withhold, misrepresent, or
+manipulate the facts for some ulterior motive. Patients should also cooperate in carrying out the
+treatment plan by following directions and reporting changes promptly. Without this minimal cooperation, the physician cannot fulfill his moral obligation to attain the healing ends of medicine.
+People, in addition, have responsibilities to preserve health even before they become patients. Smoking, dietary and alcohol excesses, sedentary habits,
+failure to receive appropriate vaccinations, and similar behaviors thwart the “end” of medicine. Moderation (or temperance as it is sometimes called), another of the ancient cardinal virtues, is a requisite
+virtue on the part of patients if health is to be maintained and the effects of disease are to be mitigated
+or prevented.
+Failures on the patient’s part are, however, not
+ipso facto a warrant for refusing to treat the patient
+who does become ill by failing to follow the physician’s advice or because of poor health behavior.
+Physicians are not judges of the patient’s virtue and
+are not empowered to punish patients by withholding their ministrations.
+Patient autonomy is not absolute, however. The
+good of the physician as a human being entitles him
+to respect for his autonomy as well as the patient.
+Thus, if a patient requests a treatment that is futile,
+violates the canons of rational medicine or the religious beliefs of the physician, or poses a definable,
+grave, and probable harm to an identifiable third
+person, the physician is obliged to refuse. The physician, unless discharged by the patient, may withdraw from care of a sick person only when another
+physician whose values are more congruent with
+the patient’s is willing to assume care. Until that
+time, the physician must care for the patient but
+must also do so in accord with his own conscience.
+The physician is a moral agent and as such must
+take responsibility for his actions.
+When no emergency is present, physicians may
+refuse to care for a patient who threatens physical
+harm to others, consistently violates the physician’s
+instructions, or endangers the life of the physician.
+Examples would be the violent drug addict, the
+sociopath, or the psychotic paranoid patient who
+threatens the physician or the physician’s staff.
+Withdrawal can also be justified when the patient’s
+repeated behavior makes achievement of the ends
+or purposes of medicine totally impossible. This
+decision must be taken with caution, without vindictiveness, and with a readiness to help again if
+the patient changes this behavior or presents in an
+emergency seeking assistance.
+Another reciprocal duty of patients is to recognize their own finitude. There is a point in the natural history of any serious illness at which it becomes
+futile to continue, or to add, treatments. Hippocrates
+recognized this patient obligation when he said that
+patients should not expect medicine to cure them
+when they are overmastered by the disease. 61 This
+can now be stated as a principle: There is no obligation to treat when treatment is futile (in other
+words, ineffective, nonbeneficial, or overly burdensome in relation to benefit or effect). This is an obligation too often ignored by patients and families
+who demand that everything be done even when
+death is inevitable, the patient is in a permanent
+vegetative state, and further treatment is without
+value, or when the burdens outweigh the benefits.
+Physicians and patients have mutual obligations to
+recognize when treatment is no longer effective or
+beneficial. Together they should then decide to desist from treatment.
+Medical Ethics and Social Responsibility
+This chapter has focused on the individual patient–physician relationship. Other chapters will
+deal with institutional and social roles. However, it
+is important to indicate that this emphasis on the
+internal morality of medicine does not preclude, nor
+excuse, physicians from societal obligations. The
+physician is a steward of medical knowledge who
+has been allowed certain privileges by society in
+the course of caring for sick persons. These privileges include hearing confidential information, seeing and touching patient bodies (sometimes in very
+intimate ways), as well as performing surgical procedures and using controlled substances to alleviate suffering. Acceptance of the privileges of a medical education and possession of medical knowledge
+generates obligations to make them available for the
+betterment of society. Medical students enter into a
+similar covenant with society when they accept the
+privileges of a medical education. These privileges
+17
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+include the right to dissect human tissue, to participate in the care of patients as a student or resident, and to learn to carry out medical procedures.
+These privileges are sanctioned by society so that a
+continuous supply of medically trained personnel
+can be assured for society.
+Ethical issues arise when the physician is forced
+to choose between the good of an individual patient and the needs of the society. Specific conflicts
+of this kind as they occur in the military service and
+in battle conditions constitute a large part of this
+textbook and will not be covered here. Suffice it to
+say that except in the most extreme exigencies, the
+physician remains a physician always. To depart
+from the internal morality of medicine is to repudiate what it is to be a physician. Persons who enter
+any kind of relationship with a physician expect,
+and have a right to expect, fidelity to the fundamental ethic of the profession. Any compromise
+with this expectation for reasons of social or national exigency must be closely scrutinized if medicine and physicians are not to be used as means to
+political, social, or economic purposes not their
+own.
+Managed care is becoming a paradigm case of
+this issue. Physicians in managed care are urged to
+become gatekeepers, to act as agents to conserve
+society’s resources, and to take the needs of other
+patients into account in deciding who gets what
+care, and how much. Presumably physicians are
+expected to deny needed care so that those more
+needful may have access to that care (eg, to pay for
+child health, to extend coverage to the uninsured),
+or to cut costs and yield profits for investors.
+On the covenant model of medical ethics detailed
+in this chapter, physicians should not act as
+gatekeepers. If there must be rationing, then it
+should be explicit rationing, that is, rationing
+through decisions on benefits made societally but
+not by individual physicians in individual cases. All
+patients need to know the limitations society places
+on their care. With explicit rationing physicians can
+still serve the patient’s interest within the confines
+of externally imposed limitations. But with explicit
+as with implicit rationing, the physician must reserve the right to refuse to obey a social policy if it
+is harmful to his patient.
+Physicians should make a societal contribution
+to cost containment. First, they must practice the
+most rational medicine, providing only what is effective, beneficial, and not excessively burdensome.
+When two treatments are equally effective, the less
+expensive should be chosen. Another way to contribute to societal welfare is to provide expert testimony to policy makers so that benefit packages can
+be based on effectiveness and benefit, not cost. A
+third way is to act together as a profession for the
+welfare of the sick, especially for the underprivileged, the poor, the disabled, and the elderly who
+do not fare well in market and competition-driven
+managed care plans. Finally, as a citizen, the physician has a duty to be informed of public policy, and
+to foster the welfare of the sick through lobbying
+for appropriate public policy. There will be times
+in managed care organizations when the pressure
+on physicians to serve interests other than those of
+their patients will so damage the trust relationship
+that virtuous physicians have a duty to refuse.
+Medical Ethics, Culture, and History
+Some may object that in a culturally pluralistic
+world like ours, the idea of a stable foundation for
+medical ethics binding on all physicians across national and cultural boundaries is an anachronism.
+It is true that responses to illness and disease by
+patients, physicians, and societies may vary widely.
+People in different times and cultures have different attitudes and behaviors in the presence of pain,
+suffering, and death. They value human life itself
+and the lives of the aged, disabled, or unborn in
+different ways. Their interpretation of the meanings
+and origins of illness vary, as do their therapeutic
+endeavors.
+The same is true in ethics. The emphasis on autonomy, truth telling, and confidentiality is closely
+bound to Anglo-American beliefs in individual freedom, privacy, and self-determination. 62,63 In other
+cultures, decisions may be made by families, tribal
+chieftains, or by community discussion. Infanticide,
+abortion, and the rights of women may vary with
+historical era, ethnicity, or religious belief.
+In the minds of some, all of these differences
+militate against the possibility of a universal ethic
+of medicine. Medical ethics, they would say, is
+whatever we make it to be. It can be socially constructed differently in different societies and times.
+What is morally right for one may be wrong for
+another. Pluralism is a fact and it is anachronistic
+to seek a common foundation even for medical ethics. This is the thrust of antifoundationalism, the
+trend of so-called postmodern philosophy and ethics that denies the possibility of any stable set of
+moral precepts.
+In medicine, at least, antifoundationalism flies
+in the face of the human experience of illness, which
+is common across cultures and time. The phenomena do not change. They are common to humans
+18
+Military Medical Ethics, Volume 1
+whether they lived in ancient Greece, live in the
+United States today, or will live in a space station
+in the future. A broken leg, a crushing chest pain,
+spitting blood, or chills and fever induce anxiety,
+fear, distress, vulnerability, and a need and call for
+help. The Hippocratic physician, today’s internist,
+tomorrow’s flight surgeon on a space station, or the
+shaman in a distant era or country, each confronts
+a human in need of help. The methods may differ,
+but the end of medicine is the same in each case:
+healing, helping, relieving pain and anxiety, and
+curing when possible. These phenomena of being
+ill, being healed, and healing, itself, transcend time
+and culture. They ground the ethics of the patient–
+physician relationship in universal human experiences even though cultural and historical settings
+may differ.
+A Common Ethics for the Health Professions
+This chapter has concentrated on the ethics of the
+profession of medicine. Only analogically has it
+touched the ethics of the other health professions
+such as nursing, dentistry, medical social work,
+clinical psychology, pharmacy, and allied health.
+Each of these clinical professions confronts human
+beings in the state of illness; each deals with the
+same fundamental phenomena of illness and healing. The same virtues, principles, and duties that
+bind the physician bind these other clinicians in
+their clinical encounters with sick persons seeking
+help.
+The common foundation for the ethics of the
+health professions is the empirical reality of the
+human relationship between patients and health
+professionals—the internal morality described
+above. This common ground of empirical fact
+speaks for a common ethic of the clinical healing
+relationship. To be sure, upon this common base
+there will be certain additional obligations specific
+to each profession, and expressed in their different
+codes of professional ethics. But a common thread
+runs through all these codes. The ethics of the healing relationship is, in the end, the general ethic of
+the health professions. Its foundation will be the
+same for physicians, nurses, dentists, social workers, psychologists, allied health professionals, and
+healthcare administrators. That foundation will be,
+as always, the varied phenomena of the human encounter between one human in distress seeking help
+from another who professes willingness to help,
+possesses the technical and moral skill to do so, and
+promises to use them for the good of the person
+seeking help.
+CONCLUSION
+In the chapters immediately following this one, the
+rich theoretical foundation for the patient–physician
+relationship will be explored, with a particular focus
+on the clinical setting. Then, using the tools of research
+methodology, we will explore the many overall influences on the patient–physician relationship.
+This chapter opened by noting that medical ethics begins and ends in the patient–physician relationship, whether that is in a civilian or military
+setting. Thus the point was made that in many respects military physicians do not differ from their
+civilian medical counterparts. The military physician, as a physician, is distinguished from other
+military personnel by his engagement in a special
+kind of human relationship that, of its nature, demands a certain level of moral commitment. That
+commitment must be the determinant of the
+physician’s conduct even in the extraordinary circumstances of national defense and war. The extent
+to which these exigencies may shape those moral
+commitments is explored in the many other chapters in this work on the subject of military medical
+ethics. What is inescapable is the fact that the physician cannot avoid complicity if harm comes to his
+or her patient. The good of the patient is, as always,
+the gold standard of moral propriety.
+REFERENCES
+1.
+Shorter E. History of the doctor–patient relationship. In: Bynum WF, Porter R, eds. Companion Encyclopedia of
+the History of Medicine. Vol 2. London: Routledge; 1993: 783–800.
+2.
+Edelstein L. The Hippocratic physician. In: Temkin O, Temkin CL, eds. Temkin CL, trans. Ancient Medicine:
+Selected Papers of Ludwig Edelstein. Baltimore, Md: Johns Hopkins University Press; 1967: 87–110.
+3.
+Carrick P. Medical Ethics in Antiquity: Philosophical Perspectives on Abortion and Euthanasia. Dordrecht & Boston:
+D Reidel; 1985: 69–94.
+19
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+4.
+Baker R. History of medical ethics. In: Bynum WF, Porter R, eds. Companion Encyclopedia of the History of Medicine. Vol 2. London: Routledge; 1993: 852–887.
+5.
+Temkin O. Hippocrates in a World of Pagans and Christians. Baltimore, Md: Johns Hopkins University Press; 1991.
+6.
+Amundsen DW. Medicine, Society, and Faith in the Ancient and Medieval Worlds. Baltimore, Md: Johns Hopkins
+University Press; 1996.
+7.
+Kottek SS, Leibowitz JO, Richler B. A Hebrew paraphrase of the Hippocratic Oath (from a fifteenth century
+manuscript). Med Hist. 1978;22(4):438–445.
+8.
+Bulger RJ, ed. Hippocrates Revisited: A Search for Meaning. New York: Medcom Press; 1973.
+9.
+Hippocrates. In: Hippocrates. Vol 1. Jones WHS, trans-ed. Cambridge, Mass: Loeb Classical Library/Harvard
+University Press; 1972: 299–301, 313–333.
+10.
+Hippocrates. In: Hippocrates. Vol 2. Jones WHS, trans-ed. Cambridge, Mass: Loeb Classical Library/Harvard
+University Press; 1972: 263–265, 279–301, 311–313.
+11.
+American Medical Association. Council on Ethical and Judicial Affairs. Code of Medical Ethics, Current Opinions
+With Annotations. 1996–1997 ed. Chicago: American Medical Association; 1997.
+12.
+Crawshaw R, Rogers DE, Pellegrino ED, et al. Patient–physician covenant. JAMA. 1995;273(19):1553.
+13.
+Kevorkian J. Prescription-Medicide: The Goodness of Planned Death. Buffalo, NY: Prometheus Books; 1991.
+14.
+Wanzer SH, Federman DD, Adelstein SJ, et al. The physician’s responsibility toward hopelessly ill patients: A
+second look. N Engl J Med. 1989:320(13):844–849.
+15.
+Robin ED, McCauley RF. Cultural lag and the Hippocratic Oath. Lancet. 1995;345(8962):1422–1424.
+16.
+Pellegrino ED. Bioethics as an interdisciplinary enterprise: Where does ethics fit in the mosaic of disciplines?
+In: Carson RA, Burns CR, eds. Philosophy of Medicine and Bioethics: A Twenty-Year Retrospective and Critical Appraisal. Dordrecht, Boston, & London: Kluwer; 1997: 1–23.
+17.
+Meilaender GC. Body, Soul, and Bioethics. Indianapolis, Ind: University of Notre Dame Press; 1995.
+18.
+Docherty T, ed. Post Modernism: A Reader. New York: Columbia University Press; 1993.
+19.
+Rorty R. Philosophy and the Mirror of Nature. Princeton, NJ: Princeton University Press; 1979.
+20.
+Rosen S. The Ancients and the Moderns: Rethinking Modernity. New Haven, Conn: Yale University Press; 1989.
+21.
+Engelhardt HT Jr. The Foundations of Bioethics. 2nd ed. New York: Oxford University Press; 1996.
+22.
+Moreno JD. Deciding Together: Bioethics and Moral Consensus. New York: Oxford University Press; 1995.
+23.
+Singer P. Rethinking Life and Death: The Collapse of Our Traditional Ethics. New York: St Martin’s Press; 1995.
+24.
+Lain Entralgo P. Doctor and Patient. Partridge F, trans. New York: McGraw-Hill; 1969.
+25.
+Lain Entralgo P. La Relación Médico-Enfermo: Historia y Teoría. Madrid: Revista del Occidente; 1964.
+26.
+Seldin D. The medical model: Biomedical science as the basis of medicine. In: Beyond Tomorrow: Trends and
+Prospects in Medical Science. New York: Rockefeller University Press; 1977.
+20
+Military Medical Ethics, Volume 1
+27.
+Bayles MD. Physicians as body mechanics. In: Caplan AL, Engelhardt HT Jr, McCartney JJ, eds. Concepts of
+Health and Disease: Interdisciplinary Perspectives. Reading, Mass: Addison-Wesley, Advanced Book Program, World
+Science Division; 1981: 665–675.
+28.
+Hall M. The ethics of health care rationing. Public Aff Q. 1994;8(1):33–50.
+29.
+Emanuel EJ, Dubler NN. Preserving the physician–patient relationship in the era of managed care. JAMA.
+1995;273(4):323–329.
+30.
+Engelhardt HT Jr, Rie MA. Morality for the medical-industrial complex: A code of ethics for the mass marketing of health care. N Engl J Med. 1988;319(16):1086–1089.
+31.
+Balint M. The Doctor, His Patient, and the Illness. New York: International Universities Press; 1964.
+32.
+Pellegrino ED. Societal duty and moral complicity: The physician’s dilemma of divided loyalty. Int J Law Psychiatry. 1993;16(3–4):371–391.
+33.
+Kant I. Groundwork of the Metaphysics of Morals. Paton HJ, trans. New York: Harper; 1964.
+34.
+Mill JS. Mill’s Ethical Writings. Schneewind JB, ed. New York: Collier; 1965.
+35.
+Aristotle. Nicomachean ethics. In: Ross WD, trans; Urmson JO, rev; Barnes J, ed. The Complete Works of Aristotle:
+The Revised Oxford Translation. Vol 2. Princeton, NJ: Princeton University Press; 1984: 1229–1867.
+36.
+Aquinas T. Summa Theologiae. Hughes WD, trans-ed. New York: McGraw-Hill & Blackfriars; 1969: 62, 137–149.
+37.
+Jonsen AR, Toulmin SE. The Abuse of Casuistry: A History of Moral Reasoning. Berkeley: University of California
+Press; 1988.
+38.
+Finnis J. Natural Law and Natural Rights. Oxford: Clarendon Press; 1980.
+39.
+Gustafson JF. The Contribution of Theology to Medical Ethics. Milwaukee, Minn: Marquette; 1975.
+40.
+Jakobovits I. Jewish Medical Ethics: A Comparative and Historical Study of the Jewish Religious Attitude to Medicine
+and Its Practice. New York: Bloch Publishing; 1975.
+41.
+Rosner F, Bleich JD, eds. Jewish Bioethics. New York: Hebrew Publishing Co; 1979.
+42.
+Rawls J. A Theory of Justice. Cambridge, Mass: Belknap Press of Harvard University Press; 1971.
+43.
+Sartre JP. Cahiers pour une Morale [Notebooks for an Ethics]. Paris: Gallimard; 1983.
+44.
+Nussbaum MC. The Fragility of Goodness: Luck and Ethics in Greek Tragedy and Philosophy. New York: Cambridge
+University Press; 1986.
+45.
+Noddings N. Caring: A Feminine Approach to Ethics and Moral Education. Berkeley: University of California
+Press; 1984.
+46.
+Frazier E, Hornsby J, Lovibond S, eds. Ethics: A Feminist Reader. Cambridge, Mass: Blackwell; 1992.
+47.
+Pellegrino ED. The Lived World of Doctor and Patient. New Haven, Conn: Yale University Press; 2000.
+48.
+Unschuld PU. Medical Ethics in Imperial China: A Study in Historical Anthropology. Berkeley: University of California Press; 1979.
+49.
+Caraka Samhita 3. 8. 13-14 as cited in D Wujastyk. Indian medicine. In: WF Bynum, R Porter, eds. Companion
+Encyclopedia of the History of Medicine. Vol 1. London: Routledge; 1993: 762.
+21
+The Moral Foundations of the Patient–Physician Relationship: The Essence of Medical Ethics
+50.
+Percival T. Medical Ethics, or A Code of Institutes and Precepts Adapted to the Professional Conduct of Physicians and
+Surgeons. Reprinted from the 1803 version. Birmingham, Ala: Classics of Medicine Library; 1985.
+51.
+Veatch RM, Mason CM. Hippocratic versus Judeo-Christian medical ethics: Principles in conflict. J Religious
+Ethics. 1987;15(1):86–105.
+52.
+Glare RGW, ed. Oxford Latin Dictionary. Cambridge: Oxford University Press; 1983.
+53.
+Pellegrino ED, Thomasma DC. For the Patient’s Good: The Restoration of Beneficence in Health Care. New York:
+Oxford University Press; 1988.
+54.
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 4th ed. New York: Oxford University Press; 1994.
+55.
+Aristotle. Nicomachean ethics. In: McKeon R, ed. The Basic Works of Aristotle. New York: Random House; 1941.
+56.
+Pellegrino ED. The virtuous physician and the ethics of medicine. In: Shelp EE, ed. Virtue and Medicine: Explorations in the Character of Medicine. Philosophy and Medicine. Vol 17. Dordrecht, Holland: D Reide Publishing Co;
+1985: 237–255.
+57.
+Pellegrino ED, Thomasma DC. The Virtues in Medical Practice. New York: Oxford University Press; 1993.
+58.
+Pieper J. The Four Cardinal Virtues: Prudence, Justice, Fortitude, Temperance. Winston R, Winston C, trans. New
+York: Harcourt Brace & World; 1965.
+59.
+Cooper JM. Reason and Human Good in Aristotle. Indianapolis, Ind: Hackett Publishing Co; 1986: 63–64.
+60.
+Pellegrino ED. Toward a virtue-based normative ethics for the health professions. Kennedy Inst Ethics J.
+1995;5(3):253–277.
+61.
+Hippocrates. On the art. In: Hippocrates. Vol 2. WHS Jones, trans-ed. Cambridge, Mass: The Loeb Classical
+Library/Harvard University Press; 1981: 193.
+62.
+Glick SM. Unlimited human autonomy—a cultural bias? N Engl J Med. 1997;336(13):954–956.
+63.
+Surbone A. Truth telling to the patient. JAMA. 1992;268(13):1661–1662.
+22
+Military Medical Ethics, Volume 1

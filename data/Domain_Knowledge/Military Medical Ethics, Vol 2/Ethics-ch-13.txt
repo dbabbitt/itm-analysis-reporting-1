@@ -1,0 +1,2361 @@
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+367
+MILITARY MEDICAL ETHICS
+VOLUME 2
+SECTION IV: MEDICAL ETHICS IN THE MILITARY
+Section Editor:
+THOMAS E. BEAM, MD
+Formerly Director, Borden Institute
+Formerly, Medical Ethics Consultant to The Surgeon General, United States Army
+Robert Benney
+Shock Tent
+circa World War II
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+Military Medical Ethics, Volume 2
+368
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+369
+Chapter 13
+MEDICAL ETHICS ON THE BATTLEFIELD:
+THE CRUCIBLE OF MILITARY
+MEDICAL ETHICS
+THOMAS E. BEAM, MD*
+INTRODUCTION
+RETURN TO DUTY CONSIDERATIONS IN A THEATER OF OPERATIONS
+Getting Minimally Wounded Soldiers Back to Duty
+Combat Stress Disorder
+“Preserve the Fighting Strength”
+Informed Consent
+Beneficence for the Soldier in Combat
+Enforced Treatment for Individual Soldiers
+BATTLEFIELD TRIAGE
+The Concept of Triage
+Establishing and Maintaining Prioritization of Treatment
+Models of Triage
+Examining the Extreme Conditions Model
+EUTHANASIA ON THE BATTLEFIELD
+Understanding the Dynamics of the Battlefield: The Swann Scenario
+A Brief History of Battlefield Euthanasia
+A Civilian Example From a “Battlefield” Setting
+Available Courses of Action: The Swann Scenario
+Ethical Analysis of Options
+PARTICIPATION IN INTERROGATION OF PRISONERS OF WAR
+Restrictions Imposed by the Geneva Conventions
+“Moral Distancing”
+Developing and Participating in Torture
+Battlefield Cases of Physician Participation in Torture
+CONCLUSION
+*Colonel (Retired), Medical Corps, United States Army; formerly, Director, Borden Institute, Walter Reed Army Medical Center, Washington,
+DC 20307-5001 and Medical Ethics Consultant to The Surgeon General, United States Army; formerly, Director, Operating Room, 28th
+Combat Support Hospital (deployed to Saudi Arabia and Iraq, Persian Gulf War)
+Military Medical Ethics, Volume 2
+370
+Robert Benney
+The Battle of the Caves
+Anzio, 1944
+The painting depicts battlefield medicine in the Mediterranean theater in World War II. These soldiers, with their
+wounded and medical assets, have taken a position in a cave. The medical corpsman is doing the best he can for his
+patient in the chaos and close quarters of the battle.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC. Available at: http://
+www.armymedicine.army.mil/history/art/mto.htm.
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+371
+INTRODUCTION
+otic scene. Added to the unpredictable nature of the
+battlefield will be the predictable constraints necessitated by the logistics of combat. There will be very
+limited medical resources on the battlefield. For the
+modern battlefield, medical personnel will carry
+their initial supplies, including medications, with
+them. There will be uncertainty of resupply. 1 In
+these circumstances, medical personnel will be unable to expend large amounts of IV fluid or blood
+(or potentially even antibiotics or pain medications)
+on any single casualty.
+The plan for rapid evacuation of casualties from
+the battlefield to hospitals to the rear also may be
+difficult to implement. 2 Successful evacuation depends on air superiority, numbers of wounded not
+exceeding capability to transport them, and a generally favorable flow of battle. If the battle is going
+against US forces, it is less likely that air superiority will have been achieved, that air assets will be
+employed to transport wounded, or that these air
+assets will be able to safely get to the forward facilities to provide the evacuation spaces. In this fluid
+battlefield, it is not at all unlikely that the enemy
+will overrun some forward hospitals and capture
+medical personnel.
+Although captured medical personnel are afforded certain rights by the Geneva Conventions,3
+(including the opportunity to continue to treat their
+wounded prisoners of war, relief from other duties
+in a prisoner of war [POW] camp, and their rapid
+repatriation as soon as their medical duties are reasonably completed), it is not at all certain that all
+All members of the healthcare team, whether civilian or military, confront ethical challenges on a
+daily basis and feel some of those tensions as they
+go about their jobs. During peacetime, military
+health professionals see the same issues as do their
+civilian colleagues, although day-to-day military
+medicine presents some additional ethical challenges due to the issues raised by mixed agency,
+which is the problem of divided loyalties discussed
+previously by Howe in Chapter 12, Mixed Agency
+in Military Medicine: Ethical Roles in Conflict.
+However, it is on the battlefield that the greatest
+ethical dilemmas arise. The mixed agency issues are
+accentuated on the battlefield because the physician
+has a legal obligation to place the interests of society (and the military mission of protecting and defending that society) above those of the soldier.
+There are simply no comparable situations in the
+civilian sector, despite frequent comparisons to
+inner-city emergency rooms on “any Saturday
+night,” because the weaponry, circumstances, and
+participants are so different in combat.
+This chapter will examine the elevated stress of
+the battlefield, the moral dilemmas encountered
+there, and the unique situations in which military
+medical personnel must function. The military physician must consider return-to-duty issues that, perhaps more than any other, exemplify the essence of
+mixed agency. Battlefield triage will be examined
+and models will be presented. The especially difficult
+issue of battlefield euthanasia will be extensively
+explored. The chapter will also visit the participation of physicians in the interrogation of prisoners
+of war. As is evident from these topics, the battlefield
+confronts the medical professional with a variety
+of profound ethical challenges.
+Indeed, it is impossible to imagine a more challenging environment in which to practice medicine
+than on the battlefield. It is the antithesis of the ideal
+medical setting. It is violent. It is noisy. It is chaotic. It is in constant flux. And it is unpredictable.
+Lack of creature comforts is the least of the problems faced. Noise levels prevent normal aspects of
+patient care (Figure 13-1). Rapid movement, often
+on little or no advance notice, requires treatment
+facilities to be set up and taken down very quickly.
+Patients can arrive before preparations are completed. Medical personnel, as well as patients, suffer from the fatigue and filth (Figure 13-2).
+There are also unique moral dilemmas involved
+in decisions on the battlefield, decisions that may
+have to be made in the midst of a violent and chaFig. 13-1. This mass casualty situation occurred following a helicopter crash during Operation Desert Shield in
+1990. It shows the chaos and resulting noise that often
+accompany this kind of event.
+FPO
+Military Medical Ethics, Volume 2
+372
+enemies will respect these accords. This, therefore,
+places the medical personnel in the position of not
+knowing how they would be treated if captured.
+This uncertainty might also affect how they react
+to an enemy encounter. This is particularly acute in
+the morass of misinformation typically associated
+with armed conflict. Often the atrocities attributed
+to the enemy are exaggerated and embellished.
+Nonetheless, there is occasionally accurate cause for
+concern, because noncombatants have been killed
+or otherwise mistreated and not afforded their
+rights under the Geneva Conventions.
+Triage issues involving priorities in treating US
+troops, allies, local civilian population, and enemy
+troops further heighten the difficulties experienced.
+In addition, line commanders may request the use of
+medical evacuation assets to remove troops killed in
+action (KIA) from the battlefield. This will obviously
+create difficulty for medical personnel attempting
+to clear the area of wounded. Moral dilemmas also
+arise in considering euthanasia on the battlefield,
+participation in interrogation of prisoners of war,
+and utilization of medical knowledge to achieve a
+political end or to extract information from an enemy
+soldier. Issues also arise when one is in command
+of a unit,4 which heighten the issues of mixed agency,
+as addressed by Howe in Chapter 12. Facing all of
+these issues at the same time may prove too great a
+stress for medical personnel. Decisions that are
+made while experiencing this stress and facing these
+uncertainties may not be the ones made if one had
+the time to carefully weigh and evaluate all factors.
+It is imperative, therefore, for all military healthcare
+professionals to consider these issues prior to actually being in the “heat of battle.” Pulling a few rotations through a Saturday night emergency room
+is in no way comparable to the battlefield, nor an
+adequate substitute for training purposes.
+First, and foremost, is the issue of the soldier as
+a component of a team, rather than as an individual,
+and therefore the question of returning him to duty.
+In most civilian medical contexts, the patient’s job
+responsibilities are not usually the determining
+factor in recommending medical treatment. In the
+military, particularly on the battlefield, the soldierpatient’s team responsibilities may, however, assume primary importance.
+Fig. 13-2. This paraprofessional member of the 28th Combat Support Hospital during combat operations in Iraq
+(Operation Desert Storm, 1991) shows the effects of fatigue
+and lack of time for personal hygiene. Events leading to
+his exhaustion involved protracted convoy operations
+into Iraq and immediate establishment of the hospital,
+which was followed by continuous treatment of war casualties for more than 72 hours.
+RETURN TO DUTY CONSIDERATIONS IN A THEATER OF OPERATIONS
+A tension that is faced by nearly all deployed
+physicians is the issue of returning a minimally injured patient, or one suffering from combat stress
+reaction, to combat. This includes the issue of conflicting duties to the individual patient as well as
+to the line commander (mixed agency), which have
+been discussed in detail by Howe in Chapter 12.
+There are, however, other very difficult issues of balancing the medical indications for treating the injuries or combat stress reaction at the first available
+medical treatment facility in an attempt to maximize the good done for the individual patient and
+his or her organization, while also recognizing that
+some patients may desire evacuation.
+FPO
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+373
+Getting Minimally Wounded Soldiers Back to Duty
+This concern can occur in the sick or minimally
+wounded soldier who presents for care. The physician may experience internal conflict between a desire to protect the patient from additional trauma and
+the duty to support the needs of the command. This
+is the classic mixed agency issue. The line commander
+may need to have this particular soldier, with his specific skills, back to continue to fight. In addition, allowing him to avoid combat is antithetical to the concept of justice—treating similar persons in a similar
+manner. If one soldier is allowed to leave the theater,
+this will force another soldier to assume his responsibilities, thereby causing an inequity of duties. It is also
+likely that the remaining soldiers will be exposed to
+greater risk due to the loss of a member of the unit,
+and the likelihood of any one of the remaining soldiers becoming a casualty is greater.
+A greater harm may occur if it becomes well
+known that minimal injuries or a mild illness is the
+“ticket” home. There may be an avalanche effect on
+other members of the unit that would greatly affect
+the combat readiness of the command, far more than
+just the individual soldier’s presence or absence
+from the battle. This is referred to as the “floodgate
+phenomenon” and can render an entire unit ineffective for combat. If this were to occur, the ultimate outcome of the battle, or even the war, could
+be in jeopardy and many more casualties could follow. This knowledge may help strengthen the resolve of the physician in dealing with the soldier
+who is minimally wounded or appears to be a combat stress casualty. However, if this same patient is
+brought in again with serious wounds or is killed
+in action, the physician certainly may feel some
+sense of guilt for the patient’s injury or death. An
+even more difficult situation might arise if these
+wounds were self-inflicted. In this case, the physician would very likely feel personally responsible
+for the soldier’s death or injury. This would almost
+certainly affect future return to duty decisions made
+by this physician. It is impossible to resolve this issue without significant preliminary thought and
+evaluation. Even with the most optimal support and
+proactive approach, this tension may lead to an inability to continue to provide care and the physician may become a psychological casualty himself.
+Combat Stress Disorder
+One of the areas where issues other than pure
+mixed agency operate is in combat stress disorder.
+Clearly, under current Army doctrine5 the earliest
+and closest treatment is in the patient’s best interest. The concept of beneficence would mandate this
+course of action. During World War I and World War
+II, for instance, it was noted that soldiers experiencing combat stress reaction could often be returned to combat in 24 to 48 hours, if they were
+appropriately evaluated and treated when they
+appeared at the aid stations. A reassuring “chat”
+with the physician or mental health professional,
+in which it was noted that theirs was a normal response to the horrors of war, was key. In addition,
+soldiers were provided, when possible, with a
+shower and “three hots and a cot” (three hot meals
+and a cot for sleeping). This approach came to be
+known as PIES (proximity to the battlefield; immediacy of intervention after symptom onset; expectancy of recovery to full duty capability; and simplicity of treatment). 6 The history, development, and
+application of these principles is fully explored in
+Military Psychiatry: Preparing in Peace for War7 and
+War Psychiatry. 8
+However, if the patient is considered to have full
+capacity for making decisions and indicates an
+unwillingness to return to combat despite a PIES intervention, the response might be to allow that patient to participate in making those decisions, including the decision to be removed from the battlefield.
+In time of conflict, this may have a negative effect
+on both the patient and the physician. The patient
+likely will be subjected to a court-martial for refusing to return to duty. The physician may also be
+subjected to disciplinary proceedings for his actions.
+In addition, it is likely to have very negative effects
+on unit morale and may also contribute to an evacuation syndrome in which numerous other soldiers
+present with the same complaints.
+In the guise of respecting the patient’s autonomy,
+the physician may be tempted to diagnose the patient as having a more serious psychological disorder and to medically evacuate him from the theater. This course of action contains its own pitfalls.
+Although it “protects” a patient either from further
+combat or from the legal ramifications of refusal to
+fight, it carries an extreme psychological price tag.
+During Vietnam, for example, many physicians,
+including psychiatrists, inappropriately evacuated
+casualties, especially during the latter stages of the
+conflict when the Vietnamization policy (letting the
+Vietnamese fight their own war, thus minimizing
+American casualties) was put in place. Many of
+these soldiers developed psychological sequelae as
+a result of the questionable circumstances of their
+Military Medical Ethics, Volume 2
+374
+premature departure from their fellow soldiers. This
+psychological morbidity is due to the soldierpatient’s self-perception of failure or his feelings of
+guilt at having his comrades injured or killed while
+he has “escaped.”9(p119) This can lead to conflict
+within the physician, who may feel uneasy in his
+paternalistic role of “knowing” that he is treating
+the casualty with the “four Rs” (reassure, rest, replenish, and restore confidence) even if the soldier
+consistently and apparently rationally requests
+evacuation.
+Army doctrine stresses the need to override these
+soldier requests to be removed from combat. As
+long as the soldier has not committed “serious misconduct,” the soldier will best respond to treatment
+in proximity to his unit with the full expectation
+that he will return to the unit. Therefore, in this situation, the ethical dilemma is not only that of mixed
+agency but also the conflicting principles of beneficence (weak paternalism) and respect for the
+patient’s autonomy.
+A related issue is whether the patient with combat stress reaction is able to be fully autonomous. If
+it is possible to declare this patient at least temporarily incapable of participating in decisions, it
+greatly relieves this tension. The patient who is in
+the acute phase of a serious combat stress reaction
+is unlikely to be able to process all information and
+details well and may be incapable of participating
+in decision making, at least for that short interval
+until he responds to treatment.
+A more difficult issue would be a patient who
+continues to request evacuation, even after the expected brief course of “therapy.” Is the physician
+justified in this circumstance in returning the soldier to his unit over the soldier’s expressed and continued desire? Should the benefit from the expected
+ultimate response to the doctrinally correct expectancy of treatment determine the appropriateness of
+overriding those wishes? How does the physician
+balance these seemingly exclusive courses of action?
+How autonomous is a soldier who is being sent into
+battle? Not very. Clearly the very fact that this person is being ordered to participate in combat raises a
+serious question of his being truly autonomous. The
+best response may be to attempt, as far as is possible, to respect the somewhat limited autonomy of
+the person, while understanding that as a soldier,
+by his implicit acceptance of his role, he has given
+up a portion of his right to be fully autonomous.
+An additional stressor for the physician is the
+knowledge that if returned to his unit, the soldier
+may be injured or killed. This can be extremely difficult for the physician to accept. He is likely to
+question if it is better to be severely wounded or
+killed or to go through life with the psychological
+morbidity following an improperly treated combat
+stress reaction. Would this patient have been better
+served by allowing him to be medically evacuated
+or to have been counseled to seek administrative
+return from the theater? Is it better to undergo a
+court martial and to be punished judicially (recognizing that he would be very unlikely to receive the
+death penalty) but to be physically intact and able
+to go about his life. It is truly difficult, if not impossible to generalize these decisions, but rather it is
+better to attempt to elucidate the principles and
+identify the morally relevant criteria for decision
+making.
+“Preserve the Fighting Strength”
+In the previous edition of the Army’s medical
+doctrinal manual, FM 8-55,10 Planning for Health Service Support, the return of soldiers to duty was given
+high priority (Exhibit 13-1). This is congruent with
+the AMEDD (Army Medical Department) motto,
+“Preserve the Fighting Strength,” especially if the
+primary role of a physician is interpreted as supporting the command, possibly at the expense of
+the individual patient. However, in the most recent
+edition of FM (Field Manual) 8-55,11 medical battlefield rules are presented (Exhibit 13-2). In this
+schema, return to duty is in last place. Of greater
+importance are keeping a medical presence with the
+soldier, keeping the command healthy, and saving
+lives. Even providing “state of the art care” is
+ranked above returning soldiers to duty.
+This shift in priorities places the needs of the individual soldier ahead of the duties to the command. It
+must be noted, however, that the 1994 version of
+FM 8-55 indicates that this listing of priorities is
+provided in the context of assisting physicians when
+priorities are in conflict, specifically in the realm of
+designing and coordinating health service support
+(HSS) operations. Although this ranking is, perhaps,
+conducive to a more comfortable position for many
+physicians, it does somewhat blur the role-specific
+duty of the military physician to the command and
+to the overall mission as discussed by Howe in
+Chapter 12.
+Informed Consent
+On the battlefield, it is unlikely that truly informed consent can be obtained. The model for the
+soldier before he is wounded is certainly not one of
+informed consent, which could be summarized as:
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+375
+EXHIBIT 13-1
+RETURN-TO-DUTY CONSIDERATIONS DURING THE COLD WAR
+The 1985 edition of Army Field Manual 8-55, Planning for Health Service Support, discussed the battlefield scenarios expected in a conflict with the former Soviet Union. The following excerpts are provided to give the
+reader a sense of the climate at that time for medical service providers.
+PREFACE
+This manual provides guidance to health service support (HSS) planners at all levels within
+a theater of operations (TO). It presents the basic steps associated with planning: principles
+of planning, the staff estimate process, and base development. It includes rates and experience factors used in planning. The manual then addresses planning for HSS centered around
+nine essential functions. The nine functions are evacuation; hospitalization; health service
+logistics; medical laboratory services; blood management; dental services; veterinary services;
+preventive medicine services; and command, control, and communications. Using this process will insure a complete and coordinated HSS plan. This plan will ultimately result in the
+effective delivery of health care and the efficient use of scarce resources.
+* * * * *
+Section I. THE AIRLAND BATTLE CONCEPT
+1. 1.
+General
+The Army’s basic concept is AirLand Battle.…It emphasizes success on the modern battlefield centered around four basic tenets: initiative, depth, agility, and synchronization. These
+tenets will apply wherever we face an echeloned force built on the Soviet model or in other
+military operations anywhere in the world.
+* * * * *
+1. 3.
+General
+Health Service support plays a key role in developing and maintaining combat power. This
+fact was recognized by Major Jonathan Letterman, Surgeon of the Army of the Potomac during the Civil War. He noted:
+“A corps of Medical officers was not established solely for the purpose of
+attending the wounded and sick; … the labors of medical officers cover a
+more extended field. The leading idea, which should be constantly kept in
+view, is to strengthen the hands of the Commanding General by keeping his
+army in the most vigorous health, thus rendering it, in the highest degree,
+efficient for enduring fatigue and privation [sic], and for fighting. In this
+view, the duties of such a corps are of vital importance to the success of any
+army, and commanders seldom appreciate the full effect of their proper
+fulfilment [sic].”
+1. 4.
+Planning for HSS
+In the AirLand Battle, the extended battlefield stretches HSS capability to the maximum. It
+presents an unprecedented challenge to the health service support planner as well as to the
+tactical commander who is charged with fighting the battle. While the responsibility for what
+is done and what is not done is the commander’s alone, he must rely on his staff and his
+subordinate commanders to execute his decisions. He must also look to his HSS planners and
+medical commanders to anticipate his plans and decisions so that they may continue to sustain his command in the absence of orders and communications....
+* * * * *
+1. 5
+FOCUS OF HEALTH SERVICE SUPPORT
+As previously stated, the AirLand Battle offers significant challenges to the tactical commander
+and the health service support planner. As the battlefield becomes increasingly lethal, sus(Exhibit 13-1 continues)
+Military Medical Ethics, Volume 2
+376
+You are requested to take that hill. If you do, you
+will subject yourself to enemy machine gun fire.
+You may be killed or wounded. If you do not charge
+that hill, you may be subjected to the ridicule of
+your comrades and may even be tried under military law and possibly sentenced to death.
+Of course this isn’t the appropriate time or the place
+for informed consent. The soldier is ordered to “take
+that hill,” and that is that.
+The physician, as well, will not be able to comply with the ideal of informed consent. For truly
+informed consent to occur, the patient must be free
+of coercion, be capable of understanding the courses
+of action available, and be free to act on the
+decision. 12(p143) In combat there are forces that are
+coercive to the patient in making his decision, including limited supplies, limited personnel for providing care, limited evacuation assets, and the possibility of enemy action. The patient will suffer from
+all the same difficulties in understanding the
+courses of action as do civilian patients in an elective setting, but will have the additional difficulties seen in any emergency situation compounded
+by the exigencies of combat. In addition, he will
+very possibly not be freely able to act on his request.
+It truly may not be available to him. If the patient
+requests evacuation and no assets are available, or
+if supplying them would compromise the mission,
+this course of action is not really available to him.
+If the patient desires a surgical operation in an environment that is not potentially contaminated, has
+no chance of enemy action during the procedure,
+and a guarantee that he will not be moved during
+his convalescence, this will also be unavailable to
+him. Again, the best to hope for is that there will be
+some semblance of informed consent offered to the
+wounded, but it will be clearly far less than that
+expected in the civilian sector, or in the military
+during peacetime.
+Beneficence for the Soldier in Combat
+Beneficence for the individual is a hallmark of
+care in the civilian arena. 12(p260) It generally translates into the military arena, although it may have
+to be altered due to circumstances on the battlefield.
+Although the desired action might be to do everything possible for the individual patient, including
+protecting him from any potential harm, this may
+not be possible in many situations. On the battlefield, it is difficult to determine exactly what is the
+beneficent action. Sometimes the action that seems
+most likely to help the patient may, on further reflection (or in retrospect), be exactly the worst decision for him. Sometimes the patient is better off
+with his unit, even if this may place him at further
+risk for injury. There are significant benefits from
+the unit cohesiveness and support he may derive
+from his comrades.
+It is also possible that the soldier may not request
+appropriate care (or may choose inappropriate care)
+based on his impression that this may improve his
+chances of being removed from the dangerous situation. In a case such as this, there may be justification for an increased amount of paternalism, particularly if the requested course will limit the
+soldier’s combat effectiveness. The decision to treat
+the soldier, potentially against his wishes, is one that
+concerns all physicians in uniform. However, it
+should rarely arise except in combat or in situations
+requiring advance preparation for combat such as
+the current anthrax and smallpox vaccination programs. Although the option to treat without consent is available to the military physician through
+the chain of command,13 it is not usually exercised.
+The reasons for this option being infrequently exercised are explored more fully in Chapter 27, A
+Proposed Ethic for Military Medicine. In peacetime
+military medical care, the paradigm is essentially
+that of the civilian model during normal operation,
+taining the health of the fighting forces, long a role of the US Army Medical Department,
+becomes a critical factor in the success or failure of friendly forces. Proper planning enhances
+the capability of medical units to provide effective HSS and ultimately increases the chances
+for survival of the soldier on the battlefield. Forward support describes the character that
+health service support must assume. Thus, the focus of the thrust of HSS is to maximize the
+return-to-duty rate to conserve the human component of the combat commander’s weapons
+system.
+Source: US Department of the Army. Planning for Health Service Support. Washington, DC: DA; 15 February 1985. Field
+Manual 8-55: 1-1–1-5.
+Exhibit 13-1 continued
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+377
+EXHIBIT 13-2
+MEDICAL BATTLEFIELD RULES
+The 1994 edition of Army Field Manual (FM) 8-55, Planning for Health Service Support, explains the medical
+battlefield rules, and reflects the impact of the breakup of the former Soviet Union. The United States is the
+sole remaining superpower in a world in which, at least for the foreseeable future, its military will more likely
+deploy to “operations other than war,” rather than total combat. The 1994 edition of FM 8-55 provides additional guidance to help the military medical professional resolve system conflicts when they arise. This allows
+the professional a greater exercise of autonomy than seen in previous editions of this FM.
+PREFACE
+This manual provides guidance to health service support (HHS) planners at all echelons of care within a
+theater of operations (TO). It contains a digest of the accepted principles and procedures pertaining to
+HSS planning. Information in this publication is applicable across the spectrum of military operations. It
+is compatible with the Army’s combat service support (CSS) doctrine.
+. . . .
+1. 1.
+The Army’s Keystone Doctrine
+Field Manual 100-5, the Army’s keystone doctrinal manual, describes how the Army thinks about the
+conduct of operations. It is a condensed expression of the Army’s participation in diverse environments
+in terms of what the forces does in operations other than war (OOTW) and how the Army conducts war.
+1. 2.
+Range of Military Operations
+a.
+The US seeks to achieve its strategic aims in three diverse environments.
+(1)
+Peacetime. During peacetime, the US attempts to influence world events through those actions
+which routinely occur between nations.…
+(2)
+Conflict. Conflict is characterized by confrontation and the need to engage in hostilities short
+of war to secure strategic objectives. Although the American people, our government, and the
+US Army prefer peace, hostile forces may seek to provoke a crisis or otherwise defeat our
+purpose of deterring war by creating a conflict. At the point where diplomatic influence alone
+fails to resolve the conflict, persuasion may be required, and the US could enter a more intense environment in which it uses the military to pursue its aim.
+NOTE
+The Army classifies its activities during peacetime and conflict as OOTW.
+(3)
+War. The most violent and high-risk environment is that of war, with its associated
+combat operations.
+. . . .
+1-4.
+Need for a Health Service Support System
+a.
+The dynamics of our global responsibilities require a HSS system that is flexible to support the
+diversity of operations.
+b.
+Providing comprehensive HSS to Army operations requires continuous planning and synchronization of a fully integrated and cohesive HSS system. The system must be responsive and effective
+across the full range of possible operations. Medical unit commanders and HSS planners must
+be proactive in changing situations, applying the medical battlefield rules as the situation requires.
+1-5.
+Medical Battlefield Rules:
+a.
+The Health Service Support (HSS) planner and operator applies the following rules, in order of
+precedence, when priorities are in conflict:
+(1)
+Maintain medical presence with the soldier.
+(2)
+Maintain the health of the command.
+(3)
+Save lives.
+(Exhibit 13-2 continues)
+Military Medical Ethics, Volume 2
+378
+in that both strive to return the patient to full health.
+Patients are involved in their own care decisions
+and their wishes are typically respected. If a patient
+decision, however, will prevent the soldier from
+continuing his military service, he is informed of
+this. The patient will typically then have the option
+of deciding what course his medical care will take
+and if this would preclude further military service,
+the soldier may be administratively separated from
+the military. 14 In combat, however, this decision may
+rest on factors outside the control of the patient or
+even of the physician. There are policies or procedures that will be enforced over their wishes. This
+is based on federal statutes, including USC (United
+States Code) 10,15 in which the Secretary of the Army
+has the option to direct medical treatment of soldiers, without their consent if necessary. These statutes were generated by the requirements society
+legitimately places on those in the military, who are
+charged with protecting the society and its founding principles as outlined in the US Constitution.
+An example of this occurred during the Persian
+Gulf War when US servicemembers were directed to
+take pyridostigmine bromide (PB) as a pretreatment
+against nerve agent exposure. This decision was made
+based upon intelligence information that the threat
+of nerve agent use by Iraq was very high and experimental evidence that there was benefit to individuals
+by reversibly binding the acetylcholinesterase receptors by PB, rather than irreversibly binding by
+nerve agent. It was recognized that there could be
+side effects to PB and that there may be soldiers who
+would “autonomously” decide to not take PB, but the
+decision was made both from an individual beneficence position (“The military has a duty to take all
+available reasonable actions to protect its members.”)
+as well as from a mission accomplishment position
+(“If this soldier becomes a chemical casualty, he, and
+potentially other soldiers caring for him, will become
+ineffective for combat.”). A nonmedical analogy is that
+of ordering soldiers to wear chemical protective overgarments and Kevlar body armor, even in hot environments with the concomitant risk of heat injury, to
+help protect them from true or perceived harm. The
+individual soldier does not have autonomy to make
+decisions about the battle uniform and may not have
+autonomy in this case (regarding taking PB) as well.
+Enforced Treatment for Individual Soldiers
+In deciding in favor of enforced treatment for
+soldiers, it is important to have an ethical basis for
+one’s decision. Factors that have moral weight include beneficence to the individual soldier, duties
+to the other soldiers in the unit, duties to the command, and duties to society. Arguments against
+paternalistic treatment of soldiers would include
+attempts to preserve the autonomy of the soldier,
+concerns for abuses of the practice, questions of the
+intent, and potential violations of international law.
+(4)
+Clear the battlefield.
+(5)
+Provide state-of-the-art care.
+(6)
+Return soldiers to duty as early as possible.
+b.
+These rules are intended to guide the HSS planner to resolve system conflicts encountered in
+designing and coordinating HSS operations. Although medical personnel seek always to provide the full scope of HSS in the best manner possible, during every combat operation there are
+inherent possibilities of conflicting support requirements. The planner or operator applies these
+rules to ensure that the conflicts of HSS are resolved appropriately.
+. . . .
+d.
+By way of illustration, consider a rapid assault of short duration where the composition of the
+task force precludes deployment of a definitive medical care facility. A medical support conflict
+now arises between supporting the commander’s intent and providing optimal care to the soldiers. The conflict can be resolved appropriately by applying the battlefield rules. Planners must
+increase the medical presence with the soldiers to resuscitate casualties and maintain stabilization pending evacuation. Greater reliance on forward medical presence compensates for the inability to employ hospitals near the battlefield, supports the commanders’ intent, and still provides the patient with state-of-the-art medical care within the limitations imposed by the battlefield. The battlefield rules are thereby used as a means of conflict resolution.
+Source: US Department of the Army. Planning for Health Service Support. Washington, DC: DA; 9 September 1994. Field
+Manual 8-55: 1-1–1-3.
+Exhibit 13-2 continued
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+379
+Arguments for Enforced Treatment
+In examining beneficence, which at least at the
+surface seems to be in conflict with autonomy, it is
+important to look carefully at obligations implied
+to the individual. When an individual enters the
+military (currently as a volunteer because there is
+no draft in effect) the military makes an implicit
+promise to give the soldier the best medical support this country is able to provide. This promise is
+made with the understanding that it is extremely
+important for soldiers to feel they are able to risk
+injury in the course of their duties. Soldiers fear
+injury and disability much more than they fear
+death, an outcome toward which they typically
+have a fatalistic attitude. 16 If the military has made
+an implicit promise that the best care is available,
+does this automatically lead to the assumption that
+this care should universally be applied in all situations to all soldiers? Arguments in favor of this presumption would, of necessity, be based on the paternalistic notion that the military knows what is
+best for all individuals. This is not a foreign concept to those in the armed forces because there are
+many examples seen in the daily lives of soldiers
+(eg, mandatory changes of socks, mandatory canteen checks, and vaccinations prior to deployment).
+It is a basic tenet among line officers that there are
+some things that the command must (and will) decide for everyone within the command. This is not
+only perceived to be necessary for preserving the
+fighting strength of the personnel within the command to allow for the mission to be accomplished,
+but is also perceived as the obligation of the command to the well-being of its people. The use of
+experts in various areas to allow the commander to
+make decisions for his entire command and the hierarchical structure of the military foster this line
+of reasoning. It may be necessary for the command
+to maintain overall control of these decisions and
+for the physician, as a member of the command
+structure, to treat soldiers involuntarily.
+The military also has a very strong obligation to
+the other members in the unit. If one individual can
+refuse treatment, and in so doing increases his
+chances of becoming a casualty, this has serious
+implications on the other members within that unit.
+They would be required to assist in his evacuation,
+if he is injured or becomes ill, or in the recovery of
+his body, if he is killed. There is certainly a risk involved in these activities as other soldiers may be
+injured or killed attempting to assist a fallen comrade. It is also apparent that if the soldier is incapacitated and unable to perform his portion of the
+mission, his duties will fall to some other member
+of the unit. If his role in the operation is not performed, the safety of the individuals on his right or
+left is compromised. The likelihood of their becoming casualties is increased. This can have a snowballing effect on the well-being of the entire unit.
+This strongly favors enforced treatment.
+There is also a duty to the command, both on the
+part of the individual soldier as well as on the physician. On the part of the soldier, he has sworn an
+oath to obey the lawful orders of those in positions
+over him, as has the physician,17 and thereby he is
+required to submit to the decisions of his commander. The physician, as well, through his oath of
+office18 and commission19 has volunteered his art
+and craft to support those in command. This is not
+a total acceptance of any and all orders14 but there
+are factors involved in the decision to issue the order of which the physician may not be fully aware.
+(See Chapter 12 for a further discussion of this
+topic.) These factors may influence the commander
+in his decision to require treatment for the troops
+in his units. Because the physician is involved in
+advising the commander in medical matters, he is
+more likely to be aware of some of these issues and
+therefore more likely to understand the decision
+process. In most cases the commander makes decisions that result in enhancing the overall welfare of
+his troops. If there is serious concern over the correct medical facts in the order, the physician should
+attempt to clarify the rationale for the order and
+discuss the medical facts, as he interprets them, with
+the commander and attempt to resolve any differences. 20 In an extreme situation, the physician may
+need to request to be relieved of his duties and request court-martial if he firmly believes the course
+of action chosen by the commander is illegal or
+morally wrong. 21 This concept is developed more
+fully in Chapter 27, A Proposed Ethic for Military
+Medicine.
+As a member of the overall society, the physician also has a responsibility. In war, particularly
+in a war whose outcome is uncertain, a duty to society would support the concept of “preserve the
+fighting strength” and would allow enforced treatment of soldiers. If the soldier refuses a treatment
+and thereby potentially is incapable of completing
+his mission, it may be in society’s interest to have
+the treatment involuntarily given to the soldier. This
+may cause significant distress in the physician who
+is told to administer the treatment forcibly to the
+soldier. Again, it is best to anticipate this tension
+and examine these issues prior to the actual situation arising.
+Military Medical Ethics, Volume 2
+380
+Arguments Against Enforced Treatment
+Alternatively, refusing to administer the treatment
+may be ethically defended on those grounds previously stated. The vulnerable soldier has already
+given up so much of his autonomy that it may seem
+unconscionable to remove this last amount. It is
+antithetical to respecting his dignity as a person to
+forcibly treat him. It really doesn’t matter what motives the soldier has in refusing—it still is onerous
+to forcefully administer the treatment. Irrespective of
+other actions that can be taken against the soldier’s
+permission, it is somehow different when one begins talking about medicine. Once a soldier becomes
+a patient, his status changes in many ways. Thus
+he has a different claim upon the system. Most oaths
+for physicians also note that persons as patients will
+not be used as means to another’s end. In effect most
+arguments for enforcing treatment are furthering
+other’s goals at the risk to or expense of the patient.
+There is also a concern over generalizing this relatively limited use of a policy into one that has great
+potential for abuse. If it is widely accepted that the
+commander (or the physician acting for the commander) has the ability to forcibly treat any patient
+presenting for care, this increases the already mildly
+coercive environment soldiers exist within and
+could easily lead to the patient being forced to submit to treatment that won’t clearly help him (or may
+in fact harm him). If this is the policy, it is also possible that the patient will expect the physician to
+order the treatment, no matter what the patient
+wants. Therefore the perception of the patient is that
+he really doesn’t have any choice anyway. This
+would clearly lead to a fractured physician–patient
+relationship and a failure of any possible informed
+consent in military medical practice.
+There could be an unrecognized, or even recognized, desire on the part of the physician to impose
+unproved or experimental treatment on the patient.
+The motive could be a scientific desire to advance
+medicine while somewhat circumventing the normal controls on scientific experimentation. It could,
+however, be more sinister and approach the travesties of medical care and experimentation the Nazi
+physicians forced on their victims. 22 The clear concern is that such a policy needs to be carefully examined and reviewed prospectively. Parenthetically, this issue needs to be evaluated for enemy
+prisoners of war (EPWs). Experimentation upon
+prisoners is clearly prohibited under Article 13 of
+the Geneva Conventions regarding prisoners of war,
+which states that “no prisoner of war may be subjected to physical mutilation or to medical or scientific experiments of any kind which are not justified by the medical, dental or hospital treatment of
+the prisoner concerned and carried out in his interest.”23 However, there is a difference between experimentation and treatment. Treatment given to
+captured soldiers must be able to be differentiated
+from experiments. It would seem that any treatment
+involuntarily given to troops should also be able to
+be given without questions of experimentation to
+captured soldiers based on the principle of justice.
+If the treatment is being given to US soldiers to enable them to continue the mission and the EPW refuses this treatment, it is clear that this decision
+should be respected, but that the treatment should
+not be withheld from the prisoner if it is requested.
+If, on the other hand, the treatment is being given
+for clear medical indications, the refusal by the EPW
+seems more problematic, but should probably be
+respected based on autonomy considerations alone.
+The potential for abuse of captives and memories
+of German and Japanese experiments on POWs are
+strong arguments for allowing EPWs to exercise
+decision making wherever possible, particularly in
+medical decisions.
+BATTLEFIELD TRIAGE
+Battlefield triage has been described as “the infamous process” that forces a physician to make
+decisions not to treat patients whom he judges to
+have little chance of recovery. 24 Under certain conditions this may be true, however, the triage concept does not have a totally ignoble past. The word
+comes from the French verb trier, meaning “to sort.”
+Initially it was used to categorize merchandise such
+as coffee or wool. During Napoleon’s campaigns his
+chief surgeon, Baron Dominique Jean Larrey, sorted
+the casualties and consistently began treating the
+most seriously wounded first, “without regard to
+rank or distinction.”25
+The Concept of Triage
+Triage is defined as the “screening and classification of wounded, sick, or injured patients during
+war or another disaster to determine priority needs
+and thereby ensure the most efficient use of medical
+and surgical manpower, equipment, and facilities”26
+or “a system used to allocate a scarce commodity,
+[such] as food, only to those capable of deriving the
+greatest benefit from it.”26 The Emergency War Surgery
+handbook defines triage as “the evaluation and classification of casualties for purposes of treatment and
+evacuation. It is based on the principle of accomMedical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+381
+plishing the greatest good for the greatest number
+of wounded and injured men in the special circumstances of warfare at a particular time.…Sorting also
+involves the establishment of priorities for treatment and evacuation.”27(p181)
+Triage actually occurs in all aspects of medicine,
+whether one is operating in a mass casualty situation or not. In practice, one “triages” patients based
+on the urgency of their complaints, by the number
+of appointments available, or by the availability of
+specialty care. In a nonaustere environment, which
+is seen in most emergency rooms today, there is a
+triage desk where patients are first checked in. After sorting patients and symptoms, the most critically ill will be cared for first. This patient-centered
+approach to triage has been the model for many
+years. However, it is becoming increasingly more
+common for issues involving allocation of scarce
+resources to arise in civilian medicine and for triage decisions to be based on limited resources. Although this may not approach the difficulties seen
+on the battlefield, there are significant moral tensions developing. As resources become more and
+more scarce (limitations based on financial decisions), these problems will assume a greater role in
+the future. Mass casualty situations occur in the civilian sector as well and may require institution of
+some other prioritization procedure during times
+of limited resources.
+On the battlefield, triage based on the most critically injured being treated first holds when there is
+no overwhelming demand for facilities. This would
+require full resupply capabilities and the expectation that there would be no likelihood of overwhelming numbers of casualties in the near future.
+These conditions may be impossible to guarantee
+on the battlefield and a more austere environment
+triage scheme may need to be employed.
+Establishing and Maintaining Prioritization of
+Treatment
+The sorting of patients, as delineated in Emergency War Surgery, assigns them into five groups in
+decreasing order of medical urgency27(pp184–186):
+(1)
+urgent: require immediate intervention if
+death is to be prevented;
+(2)
+immediate: require procedures of moderately short duration to stabilize severe, lifethreatening wounds;
+(3)
+delayed: require operative intervention but
+can tolerate delay without compromising
+successful outcome;
+(4)
+minimal (or ambulatory): require minimal
+surgical attention no more than cleansing,
+local anesthetic for debridement, and
+dressings. These are the most common injuries and include minor lacerations, minimal
+burns, and small soft tissue injuries; and
+(5)
+expectant: wounds are so extensive that
+even if this patient were the sole casualty,
+his survival is still unlikely.
+Exhibit 13-3 discusses these five groupings in
+greater detail.
+Models of Triage
+I propose that there are actually three basic models of triage used, depending on the situation and
+circumstances. The previously described model is
+the one seen in nonaustere conditions. When time,
+personnel, equipment, or supplies are significantly
+diminished, such that there are true limitations in
+resources, the second model for more austere conditions will need to be implemented. The third model
+will involve extreme conditions and decisions that
+would be very difficult under normal circumstances; it will rarely need to be implemented.
+Under the first, or nonaustere conditions model,
+the most seriously injured patients would be treated
+first. No patients would be declared expectant, at
+least until some significant attempt at resuscitation
+had occurred. It is clear that some patients may have
+overwhelming injuries and will die whatever the
+level of support and resuscitation. Indeed, this
+could be the case in an American civilian trauma
+center today. For these patients, once this is evident,
+efforts could be recognized as futile and care could
+be withdrawn or withheld, just as is done in civilian situations. This is the model that is most frequently seen and that occurred throughout the Persian Gulf War for most units, including American
+hospitals for Iraqi POWs.
+The second model of triage, that seen in austere
+conditions, could be viewed as an attempt to save
+as many lives as possible. In so doing, some patients
+will die who otherwise could have lived had adequate resources been available. This decision
+would potentially be quite difficult, however, it has
+certain parallels in the civilian sector and is analogous to allocation decisions that are becoming much
+more frequent. Under this model, those patients
+most likely to benefit from treatment would be
+treated first, even if an individual patient may die
+who otherwise would have benefited from intervention. Some of these patients who died would have
+been declared expectant; others may have been too
+complicated to respond quickly to treatment. This
+Military Medical Ethics, Volume 2
+382
+EXHIBIT 13-3
+TRIAGE: ESTABLISHING PRIORITIES OF TREATMENT
+Emergency War Surgery, a NATO (North Atlantic Treaty Organization) handbook, offers the following
+guidance concerning the priorities of treatment for battlefield casualties:
+In order to cope effectively and efficiently with large numbers of battle casualties that present almost
+simultaneously, the principles of triage, or the sorting and assignment of treatment priorities to various
+categories of wounded, must be understood, universally accepted, and routinely practiced throughout
+all echelons of collection, evacuation, and definitive treatment.…Not uncommonly, the most gravely
+injured are the first to be evacuated from the collection points. They will also be the first to arrive at the
+definitive care facility. The receiving surgeon (triage officer) must guard against overcommitting his
+resources to those first arrivals prior to establishing a perspective of the total number and types of casualties still to be received. It is easier to assign priorities of care to individual casualties if the medical
+officer has a feel for the usual anatomical distribution of war wounds. Survivors present with a reasonably consistent pattern of wound distribution….With experience, the forward surgeon comes to recognize this recurring pattern and the relatively consistent distribution of wound types and location in
+groups of battle casualties….Application of the following criteria makes the receipt, triage, and treatment of large numbers of simultaneously arriving casualties more manageable, while at the same time
+minimizing the confusion and calamity that otherwise could prevail.
+Urgent: This group requires urgent intervention if death is to be prevented. This category includes those
+with asphyxia, respiratory obstruction from mechanical causes, sucking chest wounds, tension pneumothorax, maxillofacial wounds with asphyxia or where asphyxia is likely to develop, exsanguinating
+internal hemorrhage unresponsive to vigorous volume replacement, most cardiac injuries, and CNS [central nervous system] wounds with deteriorating neurological status.
+Therapeutic interventions range from tracheal intubation, placement of chest tubes, and rapid volume
+replacement to urgent laparotomy, thoracotomy, or craniotomy. Shock caused by major internal hemorrhage
+will, in these circumstances, require urgent operative intervention to control exsanguinating hemorrhage.
+If the initial resuscitative interventions are successful and some degree of stability is achieved, the urgent casualty may occasionally revert to a lower priority. The hopelessly wounded and those with many
+life-threatening wounds, who require extraordinary efforts, should not be included in this category.
+Immediate: Casualties in this category present with severe, life-threatening wounds that require procedures of moderately short duration. Casualties within this group have a high likelihood of survival.
+They tend to remain temporarily stable while undergoing replacement therapy and methodical evaluation. The key word is temporarily. Examples of the immediate category are: unstable chest and abdominal wounds, inaccessible vascular wounds with limb ischemia, incomplete amputations, open fractures
+of long bones, white phosphorous burns, and second- or third-degree burns of 15–40% or more of total
+body surface.
+Delayed: Casualties in the delayed category can tolerate delay prior to operative intervention without
+unduly compromising the likelihood of a successful outcome. When medical resources are overwhelmed,
+individuals in this category are held until the urgent and immediate cases are cared for. Examples include stable abdominal wounds with probable visceral injury, but without significant hemorrhage. These
+cases may go unoperated for eight or ten hours, after which there is a direct relationship between the
+time lapse and the advent of complications. Other examples include soft tissue wounds requiring debridement, maxillofacial wounds without airway compromise, vascular injuries without adequate collateral circulation, genitourinary tract disruption, fractures requiring operative manipulation, debridement
+and external fixation, and most eye and CNS injuries.
+Minimal or Ambulatory: This category is comprised of casualties with wounds that are so superficial
+that they require no more than cleansing, minimal debridement under local anesthesia, tetanus toxoid,
+and first-aid-type dressings. They must be rapidly directed away from the triage area to uncongested
+areas where first aid and non-specialty medical personnel are available. Examples include burns of less
+than 15% total body surface area, with the exception of those involving the face, hands, or genitalia.
+Other examples include upper extremity fractures, sprains, abrasions, early phases of symptomatic but
+unquantified radiation exposure, suspicion of blast injury (perforated tympanic membranes), and behavioral disorders or other obvious psychiatric disturbances.
+(Exhibit 13-3 continues)
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+383
+model fits in a utilitarian analysis in that the good
+for the whole is being maximized, but at the expense
+of individuals. An example of this model in practice occurred during mass casualty situations in
+Vietnam where resources were not available to treat
+all patients at one time and with maximal effect.
+The third model of triage, that seen in extreme
+conditions, may arise on the battlefield, in which
+the battle is going against US troops with a great
+chance that the line units will not have enough
+manpower to prevail against the enemy. This may
+require treating patients with less severe injuries
+first to preserve a diminishing fighting force. Under this model, patients with non–life-threatening
+injuries that, if treated, would not prevent the soldier from going back to battle, would be treated
+first. This has rarely been used in the American
+military but was the accepted model for triage in
+the German army during World War II. 28 An example from United States history is the use of penicillin in North Africa during World War II. 29 The
+decision was made to treat soldiers with venereal
+disease with the limited supplies of penicillin available rather than using it in patients with battle
+wounds, even if the injured patients might die without it. The reasons given were, indeed, the ability
+to return the soldiers with venereal disease to the
+front lines to continue to fight, while those with
+battle wounds would be unable to return, even if
+given the penicillin.
+Examining the Extreme Conditions Model
+The extreme condition model contradicts most
+decisions medical personnel make, and is a classic
+example of the conflict in dual agency, or duties to
+both the patient and the command. Obviously, the
+command has a great interest in having those minimally wounded soldiers back on the line, and may
+well support this scheme of triage, but many physicians would find this to be difficult and contrary
+to what one would do normally.
+Respecting the Autonomy of the Soldier
+The individual patient who is severely injured
+may not desire his lower priority of treatment because it will necessitate his waiting for treatment
+while minimally injured patients are treated (and
+may significantly increase his chances of dying).
+Conversely, the minimally injured patient may not
+want to be treated before his severely injured buddy
+because the buddy may die if not treated promptly.
+He may also recognize that the faster he is treated,
+Expectant: Casualties in the expectant category have wounds that are so extensive that even if they were
+the sole casualty and had the benefit of optimal medical resource application, their survival still would
+be very unlikely. During a mass casualty situation, this sort of casualty would require an unjustifiable
+expenditure of limited resources, resources that are more wisely applied to several other more salvageable individuals. To categorize a soldier to this category requires a resolve that comes only with prior
+experience in futile surgery that ties up operating rooms and personnel while other more salvageable
+casualties wait, deteriorate, or even die. The expectant casualties should be separated from the view of
+other casualties; however, they should not be abandoned. Above all, one attempts to make them comfortable
+by whatever means necessary and provides attendance by a minimal but competent staff. Examples:
+unresponsive patients with penetrating head wounds, high spinal cord injuries, mutilating explosive
+wounds involving multiple anatomical sites and organs, second- and third-degree burns in excess of
+60% total body surface area, convulsions and vomiting within twenty-four hours of radiation exposure,
+profound shock with multiple injuries, and agonal respiration. Exposure to radiation or biologic and
+chemical agents when presenting in conjunction with conventional injuries will alter the above categorization. The degree to which such agents compound the prognosis is somewhat variable and difficult to
+specifically apply to a mass casualty situation. A safe practice is to classify the exposed casualty at the
+lowest priority in his category. It has been stated that those in the immediate category with radiation
+exposure estimated to be 400 rads be moved to the delayed group, and those with greater than 400 rads
+be placed in the expectant category. Those with convulsions or vomiting in the first 24-hours are not
+likely to survive even in the absence of other injuries. Mass casualty situations are highly probable when
+troops have been exposed to radiation or chemical or biological agents. There must be areas set aside
+within the hospital to safely isolate these types of patients, and special procedures must be established
+to safeguard the attending medical personnel.
+Source: Bowen TE, Bellamy RF. Emergency War Surgery. Second United States Revision of The Emergency War Surgery NATO
+Handbook, Washington, DC: US Department of Defense; 1988: 184–186.
+Exhibit 13-3 continued
+Military Medical Ethics, Volume 2
+384
+the sooner he will return to the front where he may
+be more seriously injured, or killed. There could be
+tremendous pressures on the person performing
+triage to avoid making these decisions. The defense
+of the decision to treat the minimally wounded first
+could be made on the basis of a utilitarian approach.
+Under this analysis, the basic tenet of doing the
+“greatest good for the greatest number” would allow the decision to be made, not for the benefit of
+the individual patient, but rather for the good of
+the unit, the army, or the country. If by not returning the minimally wounded patient to duty, the unit
+is overrun, there are more casualties generated, the
+army is defeated, or the war is prolonged (or even
+lost), thereby causing great suffering in the country, then a strong argument is made for choosing to
+treat the minimally injured patient.
+Conversely, the argument can be made that if
+these choices are consistently made, the unit will
+come to know that if one is wounded severely and
+requires maximum care it would not be given. This
+can affect the desire to fight or to place oneself at
+risk. The excellent medical care US troops receive
+during combat is a “force multiplier.”30 Consistently
+making triage decisions using the extreme conditions model may well be considered a “force divider,” not only by diminishing the “will to fight”
+but also by possibly causing “competition” for
+medical care. One soldier may consider the less injured soldier in the next space as the only thing
+standing between himself and death. This is likely
+to destroy unit cohesiveness.
+Caring for Noncombatant Casualties
+It is also clear that enemy prisoners of war and
+civilian casualties would not receive priority care
+under this triage model. This is in violation of Article 12 of the Geneva Conventions, which states
+that “[o]nly urgent medical reasons will authorize
+priority in the order of treatment to be administered.”3 By invoking the extreme conditions model,
+the healthcare professional may be violating one of
+the most basic medical premises, which is that once
+injured and captured, the enemy is no longer a combatant but is instead entitled to the same basic human respect and concern for his medical needs as
+US military personnel.
+Understanding Military Doctrine
+US Army doctrine provides guidance for the
+medical professional facing varying battlefield scenarios. The rules of battlefield medicine as seen in
+Exhibit 13-2 are ranked in order of precedence. “Return to duty” considerations are the last priority.
+However, return to duty is still a major ethical dilemma for the medical professional on the battlefield and is difficult, if not impossible, to resolve
+using generalities. The extreme conditions model
+of triage has never been encountered in the modern US Army. Even during mass casualty situations
+in Vietnam triage first selected those most likely to
+be benefited by rapid treatment rather than selecting those most able to return to the front. Most
+medical professionals probably would have great
+difficulty implementing an extreme condition triage model. However, just because it is difficult
+doesn’t mitigate against preparing for such an
+implementation. The scenario of overwhelming
+mass casualties in the face of an advancing enemy
+force deserves study and analysis by individual
+medical professionals before they are actually in the
+unenviable situation of having to decide what to do.
+EUTHANASIA ON THE BATTLEFIELD
+Physician-assisted dying is a major issue currently
+being discussed in the civilian sector. Initiatives to
+legalize physician aid in dying were narrowly defeated in Washington state as well as in California; it
+passed by a narrow margin in Oregon in 1994. This
+law survived challenges in court as well as a repeat
+referendum in 1997 after the Oregon Medical Association withdrew its support for it. Attempts to pass
+referenda supporting physician aid in dying have
+since failed in Michigan, Maine, and in other states,
+leaving Oregon as the only state permitting physicianassisted suicide. Attempts to overturn state laws prohibiting physician-assisted suicide have failed in the
+US Supreme Court in 1997 and in several state supreme courts, including Alaska, Colorado, and
+Florida. Public opinion concerning this issue varies,
+often apparently depending on the actual wording of
+the survey, but seems to be pretty evenly divided. The
+issue remains one of the most hotly debated in all arenas. The issue also exists within military medicine for
+the same reasons as in the civilian sector, however,
+the battlefield adds new dimensions and difficulties.
+Understanding the Dynamics of the Battlefield:
+The Swann Scenario
+The following scenario, published by Dr. Steve
+Swann in 1987 in Military Medicine,31 presents a
+vivid picture of the ethical dilemmas facing the
+military physician.
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+385
+Case Study 13-1: A Hypothetical Scenario. Three
+weeks ago US Naval forces in the Mediterranean
+launched air and sea attacks against military installations
+in Libya in response to increased terrorist activities known
+to originate from Mu’ammar Quaddafi’s regime. This was
+followed by the invasion of the 2nd Marine Division near
+Tripoli. This military action was applauded by Israel but
+condemned by most NATO [North Atlantic Treaty Organization] allies and, as expected, by the Arab world and
+communist block nations. US forces suffered few losses
+and easily secured the country with complete destruction
+of the Libyan Army. In retaliation, certain Arab countries
+attacked US forces in Libya and simultaneously invaded
+Israel. US Naval forces suffered minimal losses from the
+Soviet-supplied navies and air forces of these nations,
+and although the Marines have sustained moderate casualties, they still control the battlefield.
+One week following the opening of hostilities in North
+Africa, Warsaw Pact Nations began unscheduled, largescale “Training Exercises” near the East-West German
+border. Six days ago these units crossed into the Federal
+Republic of Germany and attacked NATO units to force a
+US withdrawal from Libya. The US refused, and combat
+in both regions has continued to escalate.
+As a surgeon in a clearing station in direct support of
+the 11th Armored Cavalry Regiment defending the Fulda
+gap [a geographically strategic point for invasion along
+the border between East and West Germany], I have seen
+many casualties of all types. I knew that modern warfare
+would create great numbers of wounded and cause massive destruction, but I had no idea it would be this terrible. Our unit has taken 65% losses. Despite heroic actions, we continue to be forced back 30 to 60 km each
+day, but short of the Soviet doctrinal 100 km daily advance [Soviet doctrine indicating that to maximize disarray in the enemy’s troops, Soviet forces should propel
+themselves 100 km a day, shocking, overpowering, and
+demoralizing the enemy with the rapid advance]. The 85th
+Guards Motorized Rifle Division oppose us, and their lines
+are 8 km away. They are expected to be at this location
+in 45 minutes. Intelligence reports that all severely
+wounded prisoners are being executed [by the Russians
+as they advance], for the Russians do not want to slow
+their attack to deal with the problem of caring for or transporting them.
+In my clearing station I have no capability to hold patients or transport them with me. I can only triage, initially
+resuscitate, and then evacuate with higher command assets. At the present time we have 32 wounded, 17 of which
+are categorized as expectant. They include a German
+civilian with abdominal evisceration who is pleading to
+die, two unresponsive soldiers with extensive head
+wounds, two soldiers with 80-90% total body burns from
+chemical contamination, eight soldiers who have received
+a dosimeter-documented 825 rads after unknowingly
+crossing a nuclear-contaminated area and who continue
+to vomit and pass diarrheal stools, and a four-man tank
+crew all of whom received between 60 and 90% body
+surface area, full thickness burns after the fuel cell of their
+M60A3 exploded when hit with a Sagger anti-tank missile. The screams of the wounded could easily expose
+our position to the attacking Soviet forces or to the Russian commando units known to be operating behind our
+lines.
+The 3rd Armored Division, whom we are screening,
+will take 3 hours to get land evacuation to me. Air evacuation is not available since the Soviets have air superiority, and besides, we have already lost 80% of our helicopter assets [similar to Figure 13-3]. I lost 40% of my
+men and equipment, including another physician, a pediatrician, [similar to Figure 13-4] when our convoy was
+strafed by MiG-27’s 2 days ago. I have not been resupplied in 2 days, and I am running short of everything, especially morphine, bandages, and IV fluids. I have just
+received orders to displace [to another location] in 15
+minutes and be ready to accept new casualties from the
+intensified fighting in 30 more.
+Oh, Lord, there is nothing medically I can do to extend
+the lives of these brave men. They are all doomed to die
+and suffer immeasurably until they do so. Need I kill these
+men? Should I take this merciful action so as not to postpone the unalterable?31
+Comment: Although this scenario is outdated (it predated the demise of the Soviet Union) and the events did
+not occur, today’s battlefield is nonetheless potentially one
+of massive destruction with weapons that have the potential to generate astronomical numbers of casualties.
+Thus, although the names of the conflicting forces and
+locales would be different in a future scenario, the scenario itself remains all too possible and clearly presents
+lessons to be learned.
+Before attempting to answer the extremely difficult question with which this hypothetical scenario
+ends, a brief study of the history of battlefield euthanasia may be helpful. By examining some documented situations, it is possible that similarities and
+differences, as well as unifying themes may become
+more clear.
+Fig. 13-3. This medical evacuation helicopter crashed
+during Operation Desert Storm in 1991. It is not known
+whether this was due to hostile fire or accident.
+FPO
+Military Medical Ethics, Volume 2
+386
+A Brief History of Battlefield Euthanasia
+Requests for battlefield euthanasia have, no
+doubt, occurred on battlefields as long as there have
+been battlefields. When men have taken up arms
+against one another, for whatever reason, there have
+always been those wounded who do not die immediately, but clearly cannot live for long, either because of their wounds or their circumstances. This
+can generate the desire to hasten their inevitable
+death, by both the wounded soldier as well as their
+comrades. These situations have probably occurred
+throughout history.
+For instance, battlefield euthanasia requests are
+documented in the Bible as far back as the time of
+Abimelech (around 1100 BC) in the city of Thebes.
+Abimelech was a Judge of Israel who had captured
+Thebes but all the inhabitants had locked themselves inside a strong tower inside the city. He attempted to burn the tower and kill those inside, but
+as he approached it to set it on fire, “a woman
+dropped an upper millstone on his head and
+cracked his skull” (Judges 9:53). 32(p346) He requested
+that his armor bearer kill him because he did not
+want history to record that he was killed by a
+woman; the armor bearer acceded to his request.
+A more famous request occurred in 1010 BC when
+King Saul was wounded by the Philistines and
+asked his armor bearer to kill him because Saul was
+concerned about potential torture if he was captured. The armor bearer refused and Saul “took his
+own sword and fell on it” (1 Samuel 31:4). 32(p419) The
+armor bearer also committed suicide. An interesting aside is that later in the account, an Amalekite,
+expecting to be rewarded by Saul’s enemy David,
+claimed to have been the one who “killed [Saul],
+because [he] knew that after he had fallen, he could
+not survive“ (2 Samuel 1:10). 32(p419) David put the
+Amalekite to death for having the temerity to even
+contemplate harming Saul (the “Lord’s anointed”)
+much less killing him.
+Ambroise Pare describes another case of battlefield euthanasia. Pare was a French barber surgeon
+who enlisted in the army of Francis I to perfect his
+training in surgery. In 1537 he was with the forces
+of Marshal Monte-Jan when they laid siege to Turin
+in Italy. After the city fell, he recounts an experience in which he came across several enemy soldiers wounded in an explosion. Two of these were
+still alive. An old French soldier happened by and
+after asking Pare if there were any hope for them,
+and learning that there was none, he “gently cut
+their throates (sic) without choler.”33(p22) Pare was
+horrified at what he perceived as an act of cruel revenge, and rebuked the soldier. The old man replied
+that he prayed to God that if he were ever in a similar situation, someone would “doe (sic) as much to
+him, to the end he might not miserably languish.”33(p22)
+There are countless other examples throughout history of euthanasia by a comrade on the battlefield.
+Physicians’ roles in battlefield euthanasia have
+also been described. Napoleon’s physician, RenéNicolas Desgenettes, refused to give lethal doses of
+opium to soldiers dying of the plague. 34 During
+Napoleon’s retreat from Jaffa in 1799, there were
+several men suffering from bubonic plague who
+could not survive 24 hours even with the best medical care. The army, however, had to march. Napoleon ordered Desgenettes to give them a lethal dose
+of laudanum (opium) rather than leaving them to
+the mercy of the Turks. Desgenettes refused, believing that it was the obligation of the physician to
+Fig. 13-4. This funeral service for a physician who died in a traffic accident (a) just prior to the ground war phase of
+Operation Desert Storm was conducted by the chaplain of the 28th Combat Support Hospital (b).
+a
+b
+FPO
+FPO
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+387
+cure and not to kill. The reports are unclear after
+this, with some indication that the chief pharmacist, Royer, gave doses of opium to approximately
+50 soldiers, but there is no indication that any of
+them died from receiving the medication. 35
+A Civilian Example From a “Battlefield” Setting
+A contrasting decision, albeit not involving military physicians and combatants, was documented
+in the book Schindler’s List36 in which two Jewish
+physicians were involved in the administration of
+hydrogen cyanide to four patients who could not
+be moved from a hospital before a Sondercommando
+Aktion during the Holocaust. They defended this
+decision as the most ethical one because of the brutal and inhumane death expected when the Nazis
+came. The description of this decision is particularly poignant and is recommended for careful reading and reflection. The date is March 13, 1943; the place
+is the Jewish ghetto in Cracow, Poland. 36(pp175–180)
+Case Study 13-2: The Ghetto Hospital. [A] doctor of
+the ghetto’s convalescent hospital, Dr. H, sat among his
+last patients, in darkness, grateful that they were isolated
+like this on the hospital’s top floor, high above the street,
+alone with their pain and fever.
+For at street level everyone knew what had happened
+at the epidemic hospital near Plac Zgody. An SS detachment under Oberscharführer Albert Hujar had entered the
+hospital to close it down and had found Dr. Rosalia Blau
+standing among the beds of her scarlet fever and tuberculosis patients….
+Hujar himself, acting on the mandate he’d received the
+week before from Amon Goeth, shot Dr. Blau in the head.
+The infectious patients, some trying to rise in their beds,
+some detached in their own delirium, were executed in a
+rage of automatic fire.…
+The convalescent hospital[’s]…director was a respected physician named Dr. B. By the bleak morning of
+March 13, Doctors B and H had reduced its population to
+four, all of them immovable. One was a young workman
+with galloping consumption; the second, a talented musician with terminal kidney disease. It seemed important to
+Dr. H that they somehow be spared the final panic of a
+mad volley of fire. Even more so the blind man afflicted
+by a stroke, and the old gentleman whose earlier surgery
+for an intestinal tumor had left him weakened and burdened with a colostomy.
+The medical staff here, Dr. H included, were of the
+highest caliber. From this ill-equipped ghetto hospital
+would derive the first Polish accounts of Weil’s erythroblastic disease, a condition of the bone marrow, and of
+the Wolff-Parkinson-White syndrome. This morning,
+though, Dr. H was concerned with the question of cyanide.
+With an eye to the option of suicide, H had acquired a
+supply of cyanic acid solution. He knew that other doctors had too.…To know he had access to cyanide had
+been a comfort for Dr. H on his worst days. By this late
+stage of the ghetto’s history, it was the one pharmaceutical left to him and to the other doctors in quantity. There
+had rarely been any sulfa. Emetics, ether, and even aspirin were used up. Cyanide was the single sophisticated
+drug remaining.
+This morning before five, Dr. H had been awakened in
+his room in Wit Stwosz Street by the noise of trucks pulling up beyond the wall. Looking down from his window,
+he saw the Sonderkommandos assembling by the river
+and knew that they had come to take some decisive action in the ghetto. He rushed to the hospital and found Dr.
+B and the nursing staff already working there on the same
+premise, arranging for every patient who could move to
+be taken downstairs and brought home by relatives or
+friends. When all except the four had gone, Dr. B told the
+nurses to leave, and all of them obeyed except for one
+senior nurse. Now she and Doctors B and H remained
+with the last four patients in the nearly deserted hospital.
+Doctors B and H did not speak much as they waited.
+They each had access to the cyanide, and soon H would
+be aware that Dr. B’s mind was also sadly preoccupied
+with it. There was suicide, yes. But there was euthanasia
+as well. The concept terrified H. He had a sensitive face
+and a marked delicacy about the eyes. He suffered painfully from a set of ethics as intimate to him as the organs
+of his own body. He knew that a physician with common
+sense and a syringe and little else to guide him could
+add up like a shopping list the values of either course—
+to inject the cyanide, or to abandon the patients to the
+Sonderkommando. But H knew that these things were
+never a matter of calculating sums, that ethics was higher
+and more tortuous than algebra.
+Sometimes Dr. B would go to the window, look out to
+see if the Aktion had begun in the streets, and turn back to
+H with a level, professional calm in his eyes. Dr. B, H could
+tell, was also running through the options, flicking the
+faces of the problem like the faces of riffled cards, then
+starting again. Suicide. Euthanasia. Hydro-cyanic acid.…
+At dawn the nurse, a calm woman about forty years
+old, came to Dr. H and made a morning report. The young
+man was resting well, but the blind man with the strokeaffected speech was in a state of anxiety. The musician
+and the anal-fistula case had both had a painful night. It
+was all very quiet in the convalescent hospital now, however; the patients snuffled in the last of their sleep or the
+intimacy of their pain; and Dr. H went out onto the freezing balcony above the courtyard to smoke a cigarette and
+once more examine the question.
+Last year Dr. H had been at the old epidemic hospital
+in Rekawka when the SS decided to close that section of
+the ghetto and relocate the hospital. They had lined the
+staff up against the wall and dragged the patients downstairs. H had seen old Mrs. Reisman’s leg caught between
+the balusters, and an SS man hauling her by the other
+leg did not stop and extricate her but pulled until the
+trapped limb snapped with an audible crack. That was
+how patients were moved in the ghetto. But last year no
+one had thought of mercy-killing. Everyone had still hoped
+Military Medical Ethics, Volume 2
+388
+at that stage that things might improve.
+Now, even if he and Dr. B made their decision, H didn’t
+know if he had the rigor to feed the cyanide to the ill, or to
+watch someone else do it and maintain a professional
+dispassion.…
+Out there on the balcony he heard the first noise. It
+began early and came from the eastern end of the ghetto.
+The Raus, raus! of megaphones, the customary lie about
+baggage which some people still chose to believe.…
+Then he heard the first volley, loud enough to wake the
+patients. And a sudden stridency after the firing, a bull
+megaphone raging at some plangent feminine voice; and
+then the wailing snapped off by a further burst of fire….He
+knew that it all might well have cut through even the
+precomatose state of the musician with the failed kidneys.
+When he returned to the ward, he could see that they
+were watching him—even the musician. He could sense
+rather than see the way their bodies stiffened in their beds,
+and the old man with the colostomy cried out with the
+muscular exertion. “Doctor, doctor!” someone said.
+“Please!” answered Dr. H, by which he meant, I’m here
+and they’re a long way off yet. He looked at Dr. B, who
+narrowed his eyes as the noise of evictions broke out
+again three blocks away. Dr. B nodded at him, walked to
+the small locked pharmaceutical chest at the end of the
+ward, and came back with the bottle of hydrocyanic acid.
+After a pause, H moved to his colleague’s side. He could
+have stood and left it to Dr. B. He guessed that the man
+had the strength to do it alone, without the approval of
+colleagues. But it would be shameful, H thought, not to
+cast his own vote, not to take some of the burden. Dr. H,
+though younger than Dr. B, had been associated with the
+Jagiellonian University, was a specialist, a thinker. He
+wanted to give Dr. B the backing of all that.
+“Well,” said Dr. B, displaying the bottle briefly to H.
+The word was nearly obscured by a woman’s screaming
+and ranting official orders from the far end of Józefínska
+Street. Dr. B called the nurse. “Give each patient forty
+drops in water.” “Forty drops,” she repeated. She knew
+what the medication was. “That’s right,” said Dr. B. Dr. H
+also looked at her. Yes, he wanted to say. I’m strong now;
+I could give it myself. But if I did, it would alarm them.
+Every patient knows that nurses bring the medicine
+around.
+As the nurse prepared the mixture, H wandered down
+the ward and laid his hand on the old man’s. “I have something to help you, Roman,” he told him.…
+“Please, Roman,” said the doctor, meaning that the
+old man should unclench his body. He believed the
+Sonderkommando was coming within the hour. Dr. H felt,
+but resisted, a temptation to let him in on the secret. Dr.
+B had been liberal with the dosage. A few seconds of
+breathlessness and a minor amazement would be no new
+or intolerable sensation to old Roman.
+When the nurse came with four medicine glasses, none
+of them even asked her what she was bringing them. Dr.
+H would never know if any of them understood. He turned
+away and looked at his watch. He feared that when they
+drank it, some noise would begin, something worse than
+the normal hospital gasps and gaggings. He heard the
+nurse murmuring, “Here’s something for you.” He heard
+an intake of breath. He didn’t know if it was patient or
+nurse. The woman is the hero of this, he thought.
+When he looked again, the nurse was waking the kidney patient, the sleepy musician, and offering him the
+glass. From the far end of the ward, Dr. B looked on in a
+clean white coat. Dr. H moved to old Roman and took his
+pulse. There was none. In a bed at the far end of the ward,
+the musician forced the almond-smelling mixture down.
+It was all as gentle as H had hoped. He looked at
+them—their mouths agape, but not obscenely so, their
+eyes glazed and immune, their heads back, their chins
+pointed at the ceiling—with the envy any ghetto dweller
+would feel for escapees.
+Comment: This case perhaps best illustrates the agonizing decision faced by the physician in the Swann scenario (Case 13-1). In this example, the physicians consider killing their patients out of compassion preferable
+to allowing them to fall into the hands of the Nazi soldiers
+and suffering a violent and painful death.
+Thus far this discussion has presented scenarios
+that involve a military physician pondering euthanasia, soldiers euthanizing other soldiers, a physician refusing to euthanize soldiers, and a physician
+who knew of a decision for euthanasia, but was not
+directly involved in being the agent of death. (In
+the Schindler’s List account, the person who prepared
+and administered the solution was a senior nurse.)
+As these examples have shown, the agent actually administering the act of killing can vary from
+a fellow soldier to a physician. This discussion will
+now focus in on the role of the military health professional. The case presented by Swann is very difficult in that the patients are directly under medical care. As commander of a clearing station, the
+military physician has mixed duties to his patients
+and to the command. The patients certainly expect
+him to continue to provide care for them, but the
+command also expects him to be ready for more
+patients in the new location (and on time). He cannot take the patients with him and he also cannot
+“hide” by allowing a line commander to give the
+order for euthanasia because the patients are his
+responsibility.
+Available Courses of Action: The Swann Scenario
+The scenario published by Swann was presented
+in abstracted form to the battlefield medical ethics
+conference at Brooke Army Medical Center in San
+Antonio in May of 1990, approximately 3 years after it had first been published in Military Medicine. 31
+There were three basic courses of action identified at the conference, but there are almost infinite
+variations of these. The first course of action is to
+obey the order to retreat, and to euthanize all patients that cannot be moved. The second is to obey
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+389
+the order to retreat, but to leave the patients behind
+with a minimum amount of support from healthcare
+professionals and chaplains. A third possibility is
+to refuse to relocate the unit and to remain with the
+patients and provide all care possible to patients in
+the present position. Any of these courses of action
+could be chosen, and there may be some defensible
+argument for each. The general aspects of ethical
+decision making will be examined as applied to this
+case. These courses of action illustrate problems
+with each option.
+Ethical Analysis of Options
+The three possible options for the physician in
+the Swann case will be addressed using several different ethical approaches. There are many other
+approaches as well, as a review of Chapter 2 in the
+first volume of this text clearly demonstrates. I have
+selected these three—principle-based ethical analysis, utilitarian analysis, and military specific analysis—as being the approaches most likely to offer
+assistance to the military medical professional in
+this particularly difficult situation.
+Principle-Based Ethical Analysis
+In analyzing a case, it is usually helpful to use a
+systematic and standardized approach. In ethical
+decision making, a way of doing this is using the
+four principles discussed earlier in Chapter 2, Theories of Medical Ethics: The Philosophical Structure,
+in Volume I of this textbook. Briefly stated, the principles are:
+(1)
+Autonomy: the respect for a person’s right
+to make his or her own decisions, having
+been given all necessary information to
+understand the probable outcomes of the
+decision;
+(2)
+Beneficence: doing good for the patient;
+involves acting in the patient’s own best
+interest, without concern for outside interests;
+(3)
+Nonmaleficence: avoiding “doing harm” to
+the patient; primum non nocere; and
+(4)
+Justice: “giving to each his due”; distributing resources to patients based on the
+balancing of competing claims among all
+needy patients.
+Because these principles have different agents
+and interests at stake, they can conflict with each
+other. The resolution of this tension is much of what
+ethical decision making is all about. For example,
+in a situation where a patient may desire no treatment, including treatment that would clearly improve chances of survival, there is a clear tension
+between the patient’s autonomy and the principle
+of beneficence. This was an obvious difficulty in the
+transition from a paternalistic healthcare system,
+where the “doctor knew best,” to the system seen
+today where patient autonomy is the criterion for
+most decisions.
+Another obvious area of conflict is between autonomy and distributive justice when there are limited resources. The decision as to who will live when
+not all can live, seen in the early rationing of dialysis, for example, is another very difficult issue (Exhibit 13-4). This is clearly a topical issue in today’s
+environment of expensive, high-technology medical care. It will likely have even greater weight as
+the United States proceeds with healthcare reform. 37
+Using these four principles—autonomy, beneficence, nonmaleficence, and justice—the following
+analysis of this particular case, the Swann scenario,
+can be made.
+Autonomy. Using the first principle, that of autonomy, one would want to examine the underlying
+issue of whether or not a soldier has true autonomy,
+or whether he has voluntarily or involuntarily given
+this up to some degree. It may well not be the autonomous choice of a soldier to attack a hill from
+which a machine gun is firing, but in the military
+this action is performed routinely. As discussed
+before, the soldier doesn’t receive “informed consent”
+before his charge up the hill.
+By analogy, a soldier who is injured probably
+doesn’t have the autonomous choice as to what
+treatment he would receive and when he would
+receive it. There is considerable intrinsic loss of
+autonomy upon joining the military. There also may
+be overriding considerations (as seen in the scenario) preventing a patient from receiving all the
+care he might desire or request. Should patients be
+fully informed of the situation and their prognosis? It might be possible to discuss the situation with
+some of the “expectant” patients and allow, as much
+as possible, the patient to enter into the decision
+making process. However, this might just cause
+more suffering and anxiety when the patient learns
+of the true situation. If his wishes cannot be respected, this could be even more unnerving.
+However, what if the patient requests active euthanasia after learning about the situation? It may
+well be the autonomous, expressed wish of the patient to be killed, both due to current suffering, as
+well as concern for greatly increased suffering
+caused by being captured (and presumably tortured
+or killed by the enemy). The latter is certainly a facMilitary Medical Ethics, Volume 2
+390
+tor that is not likely to be experienced within the
+civilian sector and might have enough moral weight
+to sway the decision in favor of euthanasia. Should
+this request be considered a request for “medical
+treatment”? In his article, Dr. Swann asserts that “in
+war, euthanasia is a justifiable method of treatment
+available to the physician.”31(p546) If it is morally permissible to euthanize a patient, it may only be a
+small step to requiring this to be performed as part
+of normal medical practice and it would be much
+more difficult to refuse to provide this “treatment”
+when requested. And then the question arises as to
+whether a physician has a moral responsibility to
+provide all treatment a patient requests. This is particularly true on the battlefield when it is impossible to refer the patient to another physician and
+withdraw from caring for the patient. However,
+even on the battlefield, the physician continues to
+be a moral agent, responsible for his actions.
+The next question is “Who should be the one who
+actually performs the mercy killing if that is the
+choice?” There could be an argument for having the
+physician removed from the process because society does not expect a physician to be involved with
+killing patients. However, the physician is already
+deeply involved and any attempt to separate himself in this situation is just a vain attempt to establish some moral distancing. The method of euthanasia chosen may be important here as well. Using
+a scarce resource (morphine or other medication)
+in the face of expected large numbers of patients in
+the future may be inappropriate. It may be necessary to use a weapon instead. If this is the case, this
+may also mitigate against the physician being personally involved.
+Another issue revolves around what should be
+done for patients who are unable to participate in
+the decision-making process because they are sedated or have shock or head injury causing altered
+consciousness. They do not lose their “right” to the
+same merciful dying just because they can no longer
+express their wishes. One would prefer to provide
+the same level of comfort and dignity to all patients,
+not just to those who are fortunate (or unfortunate)
+enough to be conscious. Therefore, one would think
+that all patients would receive the same benefit from
+mercy killing and to deny it to an unconscious patient would be unjust. However, by opening it up
+to patients who cannot request it, one is clearly not
+making the decision on the basis of autonomy, but
+by judging what would be in their “best interests.”
+Deciding in the “best interests” of patients, however, allows the physician to determine just what
+those best interests are. This is a position of great
+EXHIBIT 13-4
+A DOCTOR REFLECTS ON LIFE AND DEATH DECISIONS
+In the early 1970s when renal dialysis and kidney transplantation were being developed, a team at Walter
+Reed Army Hospital was involved in helping to determine who would receive these extraordinary, life-saving
+methods of treatment. I was a member of that team. The number of patients in chronic end-stage renal disease
+far exceeded the number of dialysis machines. The team’s job was to evaluate the patients and their living
+related donors, for their psychological ability to go through these revolutionary new techniques. A separate
+committee of physicians and laymen determined who should be selected for dialysis. Collectively these two
+groups decided who would live and who would die. It was the ultimate conflict of interest. Some individuals
+tried to avoid this duty, but were told that they were the best and most qualified to do it.
+Most of these patients wanted to start dialysis, and tried in every way to make a favorable impression, so that
+they would be selected. If they were not selected, or developed complications, many wanted help to let them
+die quickly and painlessly. Sometimes they killed themselves. This was particularly difficult for the nursing
+staff because the patients often asked to be euthanized. After a few months, the medical staff could usually tell
+who had the will to go on, and who didn’t. A few nurses admitted to me that they had thought of granting the
+patient’s wish [for euthanasia]. The only thing that kept us honest and faithful was to remind each other of our
+oath to do them no harm.
+Fortunately, this dilemma lasted for only a few years. The federal government began to pay for renal dialysis,
+and the biomedical industry ensured that supply met the demand. Renal dialysis was soon available to almost
+everyone who needed it.
+Source: James Collins, Colonel (Retired), Medical Corps, US Army
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+391
+power—power that can be abused. It could be inhumane to discuss the real situation with those patients unable to be moved but who can understand
+the gravity of the situation. It may cause more harm
+for them to know that they are about to be
+euthanized. Conversely, even if they had requested
+that they not be euthanized, it may still be in their
+best interests to be killed painlessly and not abandoned to the enemy. This is a slippery slope through
+nonvoluntary euthanasia (where the patient can’t
+request it) into involuntary euthanasia (where the
+patient can request it but is not consulted or the
+patient requests that euthanasia not be done).
+Looking at autonomy issues from the perspective of the medical team raises the question, “If the
+decision is to leave some personnel behind, how is
+that decision made?” This could be an autonomous
+decision by the members of the healthcare team who
+could volunteer. Or it could be by the commander
+ordering certain people to stay (possibly the least
+crucial to the mission). It could even be by random
+selection. There is no clearly correct answer.
+Beneficence. The second principle, that of beneficence, examines what would do the most good for
+the patient. Using this principle, one would look
+only at what directly affects the individual patient.
+Is it ever in his own best interest for the patient to
+die? Is life such an overriding “good” that nothing
+that shortens it could ever be in the patient’s best
+interest? If the patient is imminently dying, could
+the slight hastening of his death be considered in
+his best interests? This is somewhat beyond most
+constructions of beneficence in that it is counterintuitive to suggest that dying is better than living,
+but in very unusual situations this may well be true.
+Could psychological suffering by the patient waiting for the enemy to capture him, perhaps torture
+him, then kill him cause more harm than his dying? It may be that in these extreme situations this
+harm could occur and a very real suffering may be
+removed by mercy killing. On the other hand, it may
+be appropriate to question just how certain it is that
+the enemy will indeed kill or torture the patients. If
+one is responding to data based on conjecture and
+not facts, it would be possible to make a decision
+that would be at the very least erroneous and at the
+worst morally suspect. The problem with reacting
+unquestioningly to “intelligence” (or rumors) is illustrated by the following case/example.
+Case Study 13-3: The Terrified Wounded POW. During the Persian Gulf War, a 13-year-old Iraqi soldier, who
+had been told that the Americans would torture and kill
+any prisoners they captured, suffered a traumatic amputation of his foot from a land mine. He hid himself among
+some corpses to attempt to evade capture. He wasn’t
+found for over 24 hours and was pleading to die when he
+arrived at the 28th Combat Support Hospital. Fortunately,
+the mess officer spoke Arabic and by talking with this
+young man (“You are in a hospital. You are being treated
+kindly, are you not? Has anyone tried to hurt you?”) he
+was able to convince the patient that he was going to be
+helped and not tortured.
+Comment: This case demonstrates the need for translators in the hospitals. It also demonstrates the misinformation that can circulate during a war. The American
+forces had likewise heard tales about how the Iraqis
+treated captives and in general these were also greatly
+exaggerated.
+Nonmaleficence. The third principle, that of
+nonmaleficence, involves avoiding doing harm to
+the patient. Is it harmful to kill the patient? One of
+the earliest statements of the principle of nonmaleficence occurs in the Hippocratic Oath where it
+states “I will prescribe regimen for the good of my
+patients according to my ability and my judgment
+and never do harm to anyone.”38 There are at least
+two interpretations of how the Hippocratic Oath can
+be applied in this situation. One would hold that
+the proscription against killing is supreme. It is clear
+in the oath that one is swearing to not kill a patient,
+or to advise a patient to kill himself (“To please no
+one will I prescribe a deadly drug, nor give advice
+which may cause his death”38). This proscribes any
+form of physician-assisted dying and is the dominant interpretation of the Oath. The other view
+would see the withholding of a comfortable death
+as a cruel travesty of the principle of nonmaleficence
+in that it is “doing harm” to the patient to allow
+him to continue suffering (or to face increased suffering when captured) and that this violates the
+potentially conflicting goal of acting “for the good
+of my patient,” if it is indeed good for him to stop
+his suffering. It could also be harmful to allow continued suffering without adequate pain control.
+Distributive Justice. The fourth principle, that
+of distributive justice, balances competing claims
+on limited resources. Obviously, if resources were
+not limited, all patients would receive excellent pain
+control, would be evacuated prior to any expected
+enemy contact, and would be provided with excellent medical care. However, in the Swann scenario
+there are competing demands on the resources
+available. There are other patients requiring care,
+patients who will survive if they receive proper care.
+The expectant patients have already been prioritized into a lower category based on patients already in the system. The situation clearly can only
+Military Medical Ethics, Volume 2
+392
+get worse, with the unit retreating and being required to set up to receive more casualties from an
+expected escalation in combat. Who has a greater
+demand on the resources—current patients or potential future patients who may be more likely to
+survive? This is a classic conflict in duties. A physician treating his patient is usually unwilling to make
+decisions limiting his patient’s care and he does feel
+a greater obligation to the “patient with a face.”
+However, in this scenario, the duty to the command
+and to the other soldiers in the supported unit may
+require the physician to allow these patients to die
+in the hopes of treating future patients and overall
+doing more good. Even the possible course of action in which the expectant patients are left behind
+with some care providers may be problematic due to
+the decreased ability of the unit providing care to future patients. Any decrement in the unit’s ability to
+provide care for future patients in the new location is
+a violation of the orders to retreat as well as a violation of the commander’s intent in those orders.
+In summary, then, the principle-based ethical
+analysis looks at the overall situation of these patients
+in terms of autonomy, beneficence, nonmaleficence,
+and distributive justice. Ultimately, however, it is
+how the individual physician weighs these components against the facts as they appear at the moment
+that will assist in making what may be the most
+difficult decision any physician ever has to make.
+I cannot offer a cookbook “solution” to the Swann
+scenario based on this analysis, or the following
+two, for that matter, other than to note that the first
+step in understanding the dynamics of such a decision must come long before the physician is confronted by such a horror. Only by thinking about
+these issues now, before the need arises, can a physician guard against being overwhelmed by the reality of the task at hand should events, like those in
+the Swann scenario, occur. To not begin to consider
+the situation of these patients and their needs in a
+hypothetical manner when there is no crisis is to
+risk being unable to quickly evaluate their situation and respond accordingly in an actual crisis. A
+failure to be prepared for such a situation is, indeed,
+a failure to provide care for patients when they are
+most vulnerable.
+In beginning this discussion of the ethical analysis of options, I noted that several approaches
+would be presented. Each of these has bearing on
+evaluating the scenario and coming to an ethically
+justifiable resolution of the patients’ needs. The
+utilitarian analysis that follows is the second of
+these approaches to understanding the difficult
+decision that the physician faces.
+Utilitarian Analysis
+One could defend euthanasia in the Swann scenario by the utilitarian maxim, “the greatest good
+for the greatest number,” because by euthanizing
+the patients who cannot be transported (in this case
+due to constraints on time and transportation assets) and displacing the entire functioning unit to a
+new location to receive more casualties, one could
+maximize the good done for the line units and other,
+potentially salvageable, casualties. This could even
+contribute to winning the war and protecting society, an apparent good that presumably would have
+some moral weight. If any members of the healthcare
+team were left behind with the casualties, this
+would diminish the effective strength of the unit,
+thereby decreasing the good that could be done for
+the expected casualties in the future. By analogy,
+using any of the limited medical supplies or medications to provide further care for those left behind
+would also diminish the good to be done for future
+casualties. Using this model, the method of euthanasia must be examined. It would be inappropriate
+to use the limited morphine to assist in the death of
+the expectant patients, but rather it may be appropriate to use a weapon or other method of ensuring their death. The patients who are not expectant
+will also present a problem. They can not be transported either and they may need to be left with only
+limited ammunition and possibly no medical supplies or personnel. This may be such an unusual
+situation that extreme solutions are necessary. Using this line of reasoning, the utilitarian analysis
+would seem to require euthanasia of (or simply
+abandoning) all patients and retreating with an intact unit and supplies.
+Conversely, however, should this become policy,
+the utilitarian analysis might reach the opposite
+conclusion. This concept was introduced previously
+in the section on triage. As stated before, the excellent medical care traditionally provided to US
+troops is listed as a “force multiplier.” US soldiers
+are more willing to expose themselves to danger
+because they believe that they will receive superb
+medical care if they are wounded. However, if soldiers perceive that wounded comrades may be
+killed within this medical system, particularly if the
+general perception is that the wounded are not requesting this, it could diminish the “will to fight”
+and possibly affect the outcome of the battle.
+Once again, it is clear that the conclusion depends
+on the interpretation of the facts, an analysis of their
+probability, and their weighting (or prioritization).
+There truly is no simple, consistent, “book answer.”
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+393
+Ethical analysis is often unable to identify a single,
+proper course of action.
+Military Specific Analysis
+There are several problems with euthanasia on
+the battlefield, some of which can be generalized
+from civilian experiences and others that may be
+unique within the military. In the discussion that
+follows, several of these problems will be explored
+using the experience from the Netherlands, which
+has recently legalized euthanasia. Euthanasia has
+been practiced openly since at least 1973, and, although technically illegal, it had not been prosecuted since 1981, when guidelines under which
+physicians could practice assisted suicide and euthanasia and report these deaths as such were established. In 2001, the Dutch parliament legalized
+this practice. 39
+Attempts to Control the Euthanasia Process. In
+the Netherlands, where there is a growing experience with euthanasia and physician-assisted dying,
+there are very stringent controls on the actions, including ensuring that the patient is competent, that
+there is a well-informed and well-considered request, that there is durability of the request over
+time, that at least two physicians certify that the
+request is apparently the autonomous decision of
+the patient, and that all other options have been
+explored. 40 On the battlefield, however, it will be
+very difficult to have decisions such as these be
+durable because this is both a volatile and an emergency situation. If there were enough time to develop durability of the request, it would be likely
+that transportation assets could be arranged. The
+urgency of the situation requires that these decisions be made within moments and the effects of
+the decisions will likely be permanent. It may be
+possible for consultation with other physicians to
+occur and presumably this would be necessary, if
+there were more than one physician in the unit. The
+physician should also utilize the “chain of command”
+to benefit from the experience of more senior medical officers. Clearly, there would be “strength in
+numbers” and a difficult decision would be somewhat easier, if one could talk it out with peers. Unfortunately, if the elements of the decision have not
+been examined before the situation arises, it will be
+very difficult to quickly work through all the ramifications as the enemy approaches.
+“Slippery Slope” Issues. Another concern with
+following the Netherlands model is that of potential abuses. 41 Various reports show significant
+underreporting of euthanasia cases in the Netherlands and document that many of those reported
+are actually not in compliance with the standards
+accepted by the community. Even with these carefully crafted controls, there are many reports of violations of the controls, relaxation of the reporting,
+and other abuses. 42 For example, the Remmelink
+report43 estimated the reporting rate to be 18% and
+about 2,700 deaths due to euthanasia and assisted
+suicide. It also documented more than 1,000 cases
+of patients being euthanized without their consent
+as well as 8,100 patients being given an overdose
+of pain medicine, not to relieve pain, but to cause
+their death. For 4,941 (61% of these patients), this
+was performed without their consent. There are also
+reports of infanticide, which are clearly not covered
+by the legal guidelines. A study similar to the
+Remmelink Commission’s was performed in 1995
+with similar results. 41,44 The reporting rate of cases
+of euthanasia had improved to 41%, but this still
+means that the majority of cases were not reported. 41
+This report also documented an increase in euthanasia and assisted-suicide deaths to 3,600 while involuntary euthanasia cases were down to about
+950. 44 Reports continue of depressed patients and
+infants being euthanized. There are reports of older
+citizens who are afraid to enter Dutch hospitals for
+fear of being killed. 45 These data give credence to
+the slippery slope argument. The battlefield is an
+arena that is less subject to careful and critical review and thus there is a real concern for controlling euthanasia here.
+Moral Issues. There is still a problem from a
+moral viewpoint with active euthanasia for many
+professionals. It is difficult to envision a healthcare
+professional allowing a patient to be tortured or
+killed in a brutal fashion when overrun by the enemy. This, however, does not mandate that the
+healthcare professional participate in or encourage
+the practice of euthanasia. The physician is a moral
+agent and as such has an obligation to uphold his
+oath. A physician may find it impossible to participate in the killing of his patients. He, as a moral
+agent, may feel his duty to his patients and the
+Hippocratic Oath and Oslerian doctrine of “firstly,
+do no harm” would prevent his involvement in
+killing or in abandoning his patients. The JudeoChristian view of the sanctity of life and the Hippocratic tradition of not killing a patient carry the force
+of 2,500 to 3,000 years of learning, literature, and
+culture. It is difficult to overlook this powerful
+determinant of action, and it is not necessarily appropriate to propose this. Deeply held values may
+indeed be properly held values and there may be
+excellent reasons to hold to them.
+Military Medical Ethics, Volume 2
+394
+This rather lengthy discussion of the Swann scenario, including the ethical analysis of options and
+the impact of those options, can only conclude with
+the observation that should it ever come time to
+make such a decision, any physician making that
+decision must have thought long and hard about
+the issues beforehand. The physician should also
+seek counsel from more senior military physicians
+as he develops his decision-making ability for situations such as these. There simply is no “cookbook”
+approach, or formulaic solution, that draws the line
+and states that under these circumstances one
+should euthanize and under those one should not.
+The fluidity and chaos of the battlefield are such
+that it is simply not possible to reduce these decisions to simple approaches.
+Military Policy vs. Practicality
+Although it may be wrong to propose policy to
+support battlefield euthanasia, I personally have difficulty in saying that under no circumstances would I
+ever request such an action for myself, and therefore
+I cannot categorically state that I would never even
+consider this action. I believe that almost any course
+of action would be preferable to euthanasia and would
+recommend that fellow physicians examine their convictions as well. It is true that in the rare “supreme
+emergency” situation, basic moral convictions and
+moral laws might be violated. However, there is a very
+real danger in generalizing these situations and making the indication for violating moral laws anything
+other than such an extreme and supreme emergency
+that the consequences of not violating the moral law
+are so unthinkable that they cannot occur. It is possible that the consequences of leaving patients behind
+to be tortured and killed would constitute such a case
+and may prescribe euthanasia, but such cases should
+be extremely rare and the consequences should be
+carefully examined. The potential negative consequences of adopting euthanasia as official policy are
+so great that it should remain proscribed and decisions to violate policy should remain extremely rare
+and subject to review.
+PARTICIPATION IN INTERROGATION OF PRISONERS OF WAR
+Another issue that may arise on the battlefield is
+that of physician participation in the interrogation
+of enemy prisoners of war (EPWs). The most likely
+scenario would occur when the prisoner is already
+injured when captured, and he has been presented
+for medical care. It is also possible that physicians
+might be asked to use their medical expertise and
+knowledge to attempt to extract information from
+an EPW who is not already injured. These courses
+of action lie on a continuum from ones that are
+clearly extremely morally objectionable and constitute torture to those that may be morally acceptable. Some cases will be analyzed to attempt to identify some of these issues. It is important to clearly
+identify factors in the decisions and to carefully
+weigh the criteria used in deciding.
+Restrictions Imposed by the Geneva Conventions
+Physician participation in interrogation of EPWs,
+at least where such participation is able to be classified as torture, is clearly proscribed by Article 12
+of the Geneva Conventions concerning wounded
+and sick in the armed forces: “[they]…shall not
+be…subjected to torture or to biological experiments….”3 All wounded EPWs are considered noncombatants and as such are afforded protections in
+general under that status. They are to be cared for
+without discrimination and to be triaged equally with
+US troops as well as those troops of allied nations.
+“Moral Distancing”
+The medical profession has traditionally attempted to remove itself from being identified with
+some actions not considered to be within its charter by establishing some “moral distance” between
+itself and the action. An example is the official position of the American Medical Association (AMA)
+on physician participation in capital punishment. 47(pp9–12) In this document, the AMA states that
+physicians should not be involved in capital punishment. It describes activities that are considered
+to be participation, including, “but not limited to,
+the following actions: prescribing or administering
+tranquilizers and other psychotropic agents and
+medications that are part of the execution procedure; monitoring vital signs on site or remotely (including monitoring electrocardiograms); attending
+or observing an execution as a physician; and rendering of technical advice regarding execution.”47(p10)
+Actions considered permissible by the AMA include
+testifying at a trial, certifying competence to stand
+trial, “certifying death, provided that the condemned
+has been declared dead by another person,”47(p10) and
+treating acute suffering in the condemned person
+awaiting execution. The issue seen here is that the
+medical profession does not desire to be associated
+with certain actions and therefore attempts to separate itself from even peripheral involvement in the
+process. This attempt for separation exists even
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+395
+though a case could be made for physician participation to prevent cruelty or unnecessary suffering.
+Andre Guillotine was a physician who was concerned
+with the suffering of prisoners as they were being executed. 48 He was instrumental in establishing a law
+requiring execution to be carried out painlessly and
+efficiently by means of a machine because other less
+efficient and less rapid methods of execution led to
+unnecessary suffering of the condemned. His invention therefore would be more merciful. His name became synonymous with execution and his device became a standard method of execution, even being used
+by the Nazi physicians to obtain the freshest “specimens” for their dissection work by having the guillotine attached to the dissecting table and beginning the
+dissection just after the victim was killed. 49 (See Chapter 14, Nazi Medical Ethics: Ordinary Doctors?, for a
+further discussion of science and medicine during the
+Nazi era.) Much of the concern over physician participation in capital punishment or interrogation is
+that this moral distancing is violated. There is justifiable concern that the active involvement of a
+physician in interrogation will lead to a “misuse”
+of medical knowledge and possibly even participation in actual torture.
+Developing and Participating in Torture
+There is something particularly repugnant in the
+image of a physician inflicting harm on a helpless
+person. Unfortunately, however, physicians have
+been involved in torture—both in developing methods of torture as well as actually participating in
+the torture process—for generations. 50,51 The possible areas of involvement will be explored and an
+attempt will be made to answer why physicians
+would do so and which physicians could be most
+at risk for this.
+Participation in torture can occur at any point
+along the process but will be divided into development of methods of torture; examinations and treatment prior to torture; presence, examination or
+treatment during torture; examination or treatment
+after torture; and concealing facts after torture.
+Physicians have assisted in developing technology and perfecting techniques used in torture. An
+example of the former is the “Tucker Telephone”
+(Figure 13-5) reportedly designed by a prison doctor, Dr. A.E. Rollins. 52 This device used an electrical
+generator taken from a ring type telephone and
+wired in sequence with two dry cell batteries. The
+wires were attached to the victim’s great toe and
+penis and the crank was turned, generating a highvoltage electrical charge. The process was repeated
+several times with the duration of charge being
+designed to stop just short of the victim “passing
+out.”52 It is clear as well that this method of torture
+was made more efficient by medical involvement
+during the use of the device.
+Involvement of the medical profession in certifying that prisoners are physically capable of being
+tortured is the next area of involvement. An example of this reportedly occurred in Israel, in which
+a physician was required to examine a prisoner and
+determine if there was any physical limitation to
+using coercive means (including an isolation cell,
+restraints, blindfolds, and subjecting him to prolonged standing) in interrogation. This practice has
+been estimated to involve at least 5,000 Palestinians
+Fig. 13-5. The “Tucker Telephone,” so named because it
+was used at the Tucker State Prison Farm in Tucker, Arkansas. This device was used to deliver electrical shock
+to an individual. It was developed by the prison physician; its use was perfected by Mr. Jim Bruton, the prison
+superintendent. The device was last used in the 1970s.
+Reproduced with permission from the Arkansas Department of Correction. Available at http://www.state.ar.us/
+doc/images/gal28.jpg.
+Military Medical Ethics, Volume 2
+396
+a year during the early 1990s. After this practice was
+exposed, the Israeli Medical Association directed its
+members not to fill in the fitness form because the
+physician by doing so becomes an accomplice in
+torture. 53–55
+The presence of a physician during torture and
+even using medical means to contribute to the torture is documented in Brazil. Physicians and nurses
+assisted by reviving victims who had lost consciousness, or even had cardiorespiratory arrests. They
+also examined patients during the torture sessions
+and used medications to enhance the effects of torture. 56 Another example is that seen in the involvement of the psychiatric profession in the use of psychoactive drugs in the former Soviet Union. Patients
+who were determined to be enemies of the state were
+also diagnosed as being insane. Psychoactive drugs
+were administered to these patients, partly in order
+to make them more susceptible to interrogation. 57
+One of the more infamous cases of physician involvement after torture when the victim was
+brought to him for treatment is that of Steve Biko,
+who died on 12 September 1977 of head injuries
+probably received during a torture session. The physicians involved were disciplined for their negligence in adequately diagnosing and treating this
+patient. 58 There are other examples reported in
+Chile, Kuwait, Mauritania, and Turkey. There are
+also reports of medical reports being falsified in
+order to conceal evidence of torture in these same
+countries.
+Physicians in the military may be particularly
+susceptible to helping in torture methods. There are
+several reasons for this, including the predisposition of military members to obey orders, the closed
+and hierarchical structure within the military, and
+an identification of physicians with the military unit
+to which he belongs. This identification with the
+unit is a very powerful force in determining behavior. The means of developing torturers has been
+studied by Mika Haritos-Fatouros with findings
+that are disturbing for those in the military. 59 In
+Greece, soldiers were selected to become interrogators using guidelines developed during the military junta in power from 1967 to 1974. Potential torturers were selected on the basis of their having
+political views (as well as coming from a family with
+those political views) in agreement with those of
+the junta as well as their strong anti-Communist
+behavior. They also underwent a second selection
+process during their training based on their ”(a)
+ability to endure beating of all kinds and exercises
+to exhaustion; (b) obedience to the demands of authority, even of the most illogical and degrading
+kind; [and] (c) free selection of the part of the recruit
+to go through the 3-month hard training of KESA
+[the Center for Military Police Training].”59(p1114)
+They had been, and continued to be, subjected to
+initiation rites that included withdrawing all basic
+human privileges (food, water, and toilet facilities)
+designed to induce severe stress. This served to
+destroy any ability to resist as well as promoting a
+group identity, fostering an “us versus them” mentality, developing a group mentality that all actions
+done by the group are appropriate, and that group
+members are totally dependent upon and faithful
+to each other. There were group nicknames for each
+other as well as for the trainers and methods of torture. The recruits were subjected to many of the
+methods of torture they would ultimately use on
+others. Haritos-Fatouros, a psychologist, identifies
+four principles of behavior change used by the trainers. These were (1) overlearning (learning to obey
+without questioning), (2) desensitization (enduring
+pain themselves and starting to experience it as a
+part of everyday life), (3) role modeling (older recruits flogged and degraded the newer ones), and
+(4) reinforcement (both negative and positive). This
+whole process has chilling similarities to that received by members of US elite forces, including
+physicians associated with those units, and they
+appear to be very effective. Military physicians
+must be extremely careful to avoid this overidentification with their unit and becoming participants
+in illegal or unethical actions.
+Battlefield Cases of Physician Participation in
+Torture
+A continuum of cases will be presented, with
+possible explanations for participation or nonparticipation for each. These cases are fictional but are based
+on situations that have occurred on the battlefield.
+Case Study 13-4: Administering Drugs to Assist Interrogation. A captured enemy soldier is brought to a
+military physician by troops who are specialists in interrogation, including medical facilitation of the process. They
+tell the physician that this captured soldier knows vital
+information that could prevent the destruction of an entire unit. The interrogators want the physician to give this
+soldier succinylcholine to transiently paralyze his respiratory muscles so that he will remain alert but unable to
+breathe. The terror this produces should induce him to
+talk after the effects of the paralyzing agent have worn
+off. If a single administration isn’t effective, the dosage
+could be repeated as often as necessary. 60
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+397
+Comment: In this case, the requested medical intervention is clear. The physician is asked to be directly involved in the interrogation. This medical intervention is
+clearly torture. Succinylcholine is a depolarizing neuromuscular blocker that will cause total paralysis of all skeletal muscles, including those required for breathing. The
+patient is fully awake and alert, but unable to breathe and
+would need artificial ventilation to survive. The effects
+wear off in approximately 5 minutes.
+As was discussed earlier, this degree of involvement is clearly proscribed by Article 17 of the
+Geneva Conventions concerning treatment of prisoners of war23 and would generally be condemned
+by the medical profession. Thus, the superficial
+answer to this request is that this amount of involvement is well beyond the comfort level of most physicians. However, there may be factors that would
+cause the physician to reach a different decision.
+The size of the unit in danger, or its importance,
+may have some moral weight for the physician in
+deciding about participation. If the unit is a major
+command, and its being destroyed would cause the
+war to be lost, this might be considered the supreme
+emergency addressed earlier. Another possible situation could be one similar to the terrorist attacks
+on September 11, 2001 on the World Trade Center
+towers in New York and the Pentagon. If one of the
+terrorists had been captured before the others were
+able to execute their missions, it could become more
+attractive to use all means available to save the lives
+of thousands of American citizens. But in the absence of a supreme emergency, it is difficult to justify physician participation in this interrogation,
+both legally and morally.
+Another form of chemical interrogation that these
+specialists might suggest uses Sodium Amytal®, the
+so-called “truth serum.” This agent is a barbiturate
+with an intermediate onset and duration of effect
+that may assist in a hypnotic state or decrease resistance to questioning. This differs slightly from
+succinylcholine in that this method of extracting
+information is less terrifying and thus less likely to
+be considered torture. Sodium Amytal® “just” loosens the EPW’s inhibitions and makes him more
+likely to talk. (This effect is questionable and its effectiveness is probably much less than is commonly
+believed, but the ethical issues remain the same.)
+In this situation, the intervention is possibly less
+clearly forbidden under Article 17 of the Geneva
+Conventions, as well as Article 13 (“no prisoner of
+war may be subjected to…medical or scientific experiments of any kind which are not justified by
+the medical, dental or hospital treatment of the prisoner concerned and carried out in his interest”23),
+but ethical issues persist. One issue in both variations of this case is the use of medical knowledge
+and expertise in the interrogation. There is no moral
+distancing here. The physician is deeply involved
+in using his unique abilities for purposes other than
+the best medical interests of the EPW. This is at the
+very least a violation of the EPW’s autonomy and
+would be very difficult to justify ethically. The extreme emergency issue discussed before could be
+applied to using Sodium Amytal® in this case. Once
+again, this would seem to be the only potential justification for such an action. This extreme emergency situation should be invoked very rarely, if at
+all, because grave violations of human rights could
+be condoned using this argument. Even with very
+stringent controls, a true slippery slope would likely
+occur and it is probably appropriate to forbid any
+use of these techniques. Department of Defense
+doctrine prohibits the “use of any form of physical
+or mental torture or any coercion to compel prisoners
+to provide information”61(p4) and this is appropriate.
+Another reason mitigating against the use of
+medical methods of interrogation is that there is the
+likelihood that even if these methods were to be
+employed, the EPW would not give information or
+that the information given would be false. It is felt
+that torture is extremely unlikely to give valuable
+information62 and therefore the lack of likelihood
+of success should mitigate against using torture as
+an interrogation technique. This may remove even
+the extreme situation justification for the action.
+Case Study 13-5: Withholding or Delaying Treatment to Facilitate Interrogation. During intense combat, a captured enemy soldier is brought to the military
+physician. The EPW’s arm is hanging limply by his side,
+injured by a missile. He appears to be in mild pain. Before the physician can assess the damage he is told that
+this captured soldier has information that could save the
+lives of several of the units’ soldiers. The soldiers want to
+question the EPW immediately because any delay in obtaining information could lead to the loss of the soldiers.
+They add that if they offer him treatment only on the condition that he gives them this information, this might make
+the difference between his talking or not talking and thus
+saving several soldiers’ lives. 60
+Comment: The issue in this case is whether it is appropriate to withhold medical care, or to predicate medical care on cooperation by the wounded EPW.
+Withholding or delaying of treatment as a tactical approach to gaining information from an interrogation is clearly forbidden under Article 12 of the
+Geneva Conventions, which notes that individuals
+Military Medical Ethics, Volume 2
+398
+“not willfully (sic) be left without medical assistance
+and care….Only urgent medical reasons will authorize priority in the order of treatment to be administered.”3 However, it is important to look at the
+ethical issues involved here as well and to make a
+decision based not only on the legality or illegality
+of the action. In these circumstances, this action
+would be difficult to justify ethically. The EPW’s
+autonomy would be clearly violated if needed medical care were to be withheld or predicated upon his
+disclosing information. Beneficence would dictate
+appropriate medical care when triage and medical
+indications are met. Nonmal-eficence would also
+mitigate against refusing care. An argument might
+be made that the EPW is still acting as a combatant
+if he refuses to disclose the information, but this is
+an extremely weak argument and would not hold
+up under examination to determine if it could be
+generalized to all situations, which is a basic tenet
+of ethical decision making. If friendly soldiers
+should not give this information if they were
+wounded and captured, this shouldn’t be expected
+from enemy soldiers either. Geneva Conventions
+(Article 17) are clear in what information is required
+from prisoners of war (“bound to give only his surname, first names and rank, date of birth, and army,
+regimental, personal or serial number, or failing
+this, equivalent information”23), and information
+critical to the war would clearly be protected. It
+would also seem to be a form of torture under Article
+17 to withhold pain medication or to refuse to treat
+a person unless he would disclose information
+(“No…form of coercion, may be inflicted on prisoners of war to secure from them information of
+any kind whatever. Prisoners of war who refuse to
+answer may not be threatened, insulted, or exposed
+to unpleasant or disadvantageous treatment of any
+kind.”23) This is a very short “slippery slope” distance
+from even more active participation in torture.
+Case Study 13-6: “Looking the Other Way”: Participation by Silence. The military physician is treating
+his own and enemy soldiers during intense combat and
+has heard stories that on occasion captured soldiers who
+have vital information and will not talk are taken up in
+helicopters. If they continue to be silent, they are thrown
+off. The physician is now treating an injured enemy soldier for a superficial flesh wound. The paramedic comes
+to the physician and states that interrogators waiting in
+another room were overheard to say that the enemy patient now being treated has vital information. After he is
+finished treatment, they are considering threatening to
+take him up in a helicopter and to throw him out if he
+won’t talk. 63(p453)
+Comment: Conflicts are more likely in this case, because there is some moral distance for the physician. The
+reports are more hearsay than actual fact and it is thus
+possible that the interrogators are not really considering
+such an action. It is also possible that the stories of such
+actions are exaggerated and that the discussion between
+the interrogators is just for “show.”
+However, if the facts are true, that is, EPWs are
+being treated in this way, this would be a clear violation of Article 13 of the Geneva Conventions
+(“prisoners of war must at all times be protected,
+particularly against acts of violence or intimidation”23). If the interrogators in this case are likely to
+treat the EPW in this manner, then the physician
+may have an obligation to his patient to attempt to
+protect him from this action and may attempt to
+prevent such treatment. Intervening in this way
+could be justified under the Geneva Conventions
+treatment for EPWs and as a beneficent action for
+the patient. A criterion possibly mitigating against
+this attempt would be that by “blowing the whistle”
+in this case, future EPWs requiring medical care
+might not be brought to the medical treatment facility and wounded EPWs may suffer more overall
+harm than good derived from this current action.
+It may also be possible that devoting the necessary time to investigate the allegations, discuss the
+Geneva Conventions with the interrogators, and
+follow the appropriate notification procedures may
+hinder the care of other patients for which the physician is responsible. However, it seems likely that
+ignoring the possibility that this patient would be
+tortured would be difficult, if not impossible, for
+the physician. It would also make the physician a
+moral accomplice to the torture.
+Geneva Conventions require (in Article 129) that
+signatories search for and prosecute persons who
+commit grave breaches such as torture of EPWs. 20,23
+The physician who does not attempt to stop such
+actions would be culpable under this Article and
+could be prosecuted himself.
+The easy and glib answer to the question about
+physician involvement in interrogation (or even torture) of EPWs is that it is contrary to every tenet of
+medical practice. However, in battle there are many
+factors that make this easy answer less satisfactory
+and will certainly cause some moral distress to those
+making the decision. It may be impossible for the
+physician to separate his fear, anger, and hatred for
+the enemy who may have killed or injured friends
+or colleagues (or at the very least has caused severe destruction and death to friendly troops) and
+this may influence his decision. Decisions made
+under these conditions of duress may not be ethically defensible, or even legal. It is important for
+all physicians to have thought through such possibilities and to have preliminarily determined some
+basis for deciding.
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+399
+CONCLUSION
+There are many situations that can lead to stressful decisions, both in peacetime and in war. Caring
+for patients on a daily basis in peacetime is tremendously challenging with many ethical dilemmas experienced. The cases in this chapter demonstrate
+how much more challenging it is to care for patients
+on the battlefield. There are added factors encountered on the battlefield that simply have no civilian
+counterpart—there usually isn’t an “enemy” threatening the civilian healthcare team and civilian patients aren’t usually needed immediately for a
+greater mission. On the battlefield, decisions must
+be made immediately and often without all the data
+one would like. One may be stressed, tired, or even
+wounded at the instant these decisions need to be
+made. Most likely, one will not have time for deliberation and reflection on these consequences and
+models. A major way to increase one’s ability to
+make a decision that must be made “in an instant”
+but “lived with for the rest of your life” is to approach these issues now and at least have some preliminary internal guides for decision making. The
+difficulty experienced in making these decisions is
+perhaps summed up in the following modification
+of a quote concerning combat surgery often used
+by Colonel Basil Pruitt,64 Medical Corps, US Army—
+“The certainty of [ethical] opinion is directly proportional to the square of the distance from the site
+of combat.” It is my hope that this discussion has
+stimulated some questions and some discomfort, for
+then there may be continued growth in ethical decision making for the battlefield.
+The following chapters in this volume will continue
+to explore the issues unique to military medical ethics, examining the situation as it exists currently.
+They will also attempt to clarify future directions
+for study and propose an initial military medical
+ethic.
+REFERENCES
+1.
+US Department of the Army. Combat Health Support in Stability Operations and Support Operations. Washington,
+DC: DA; 27 October 1997. Field Manual 8-42.
+2.
+US Department of the Army. Medical Evacuation in a Theater of Operations Tactics, Techniques, and Procedures.
+Washington, DC: DA; 14 April 2000. Field Manual 8-10-6.
+3.
+Geneva Convention for the Amelioration of the Condition of Wounded, Sick in Armed Forces in the Field. 12
+August 1949. In: US Department of the Army. Treaties Governing Land Warfare. Washington, DC: DA; 7 December 1956. Department of the Army Pamphlet 27-1.
+4.
+Jeffer EK. Command of military medical units: Grounding the paradigm. Mil Med. 1996;161:346–348.
+5.
+US Department of the Army. Neuropsychiatry and Mental Health. Washington, DC: DA; 1 September 1984. Army
+Regulation 40-216.
+6.
+Artiss KL. Human behavior under stress: From combat to social psychiatry. Mil Med. 1963;128:1011–1015.
+7.
+Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, eds. Military Psychiatry: Preparing in Peace for War. In: Textbook
+of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of the Army and Borden
+Institute; 1994.
+8.
+Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of the Army and Borden Institute; 1995.
+9.
+Howe EG, Jones FD. Ethical issues in combat psychiatry. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM,
+eds. Military Psychiatry: Preparing in Peace for War. In: Textbook of Military Medicine. Washington, DC: Office of
+The Surgeon General, US Department of the Army and Borden Institute; 1994. 115–132.
+10.
+US Department of the Army. Planning for Health Service Support. Washington, DC: DA; 15 February 1985. Field
+Manual 8-55. Section 1-5.
+11.
+US Department of the Army. Planning for Health Service Support. Washington, DC: DA; 9 September 1994. Field
+Manual 8-55.
+Military Medical Ethics, Volume 2
+400
+12.
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 4th ed. New York, Oxford: Oxford University Press; 1994.
+13.
+US Department of the Army. Medical, Dental, and Veterinary Care. Washington, DC: DA; 30 July 1999. Army
+Regulation 40-3.
+14.
+US Department of the Army. Army Command Policy. Washington, DC: DA; 15 July 1999. Army Regulation 600-20.
+15.
+United States Code, Title 10. Armed Forces, Subtitle B. Army, Part II. Personnel, Chapter 355. Hospitalization,
+Section. 3723. Approved 13 November 1998.
+16.
+Moran L. The Anatomy of Courage: The Classic Study of the Soldier’s Struggle Against Fear. The Art of Command
+series ed. Garden City Park, New York: Avery Publishing Group; 1987.
+17.
+Code of Conduct for Members of the Armed Forces of the United States. Executive Order 10631 on 17 August
+1955 by President Dwight D. Eisenhower; amended through Executive Order 12017 on 3 November 1977 by
+President Jimmy Carter; and amended again through Executive Order 12633 on 28 March 1988 by President
+Ronald Reagan. 53 Federal Register 10355 (1988).
+18.
+United States Code, Title 5. Government Organization and Employees. Part III, Subpart B, Chapter 33, Subchapter II. Section 3331.
+19.
+5 USC § 3331.
+20.
+The Joint Staff Officer’s Guide 1997. Armed Forces Staff College. Washington, DC. Armed Forces Staff College
+Publication 1.
+21.
+Operational Law Handbook (2002). International and Operational Law Department. The Judge Advocate
+General’s School. Charlottesville, VA (pages 30, 36, 37, 38).
+22.
+Barondess JA. Medicine against society: Lessons from the Third Reich. JAMA. 1996;276(20):1657–1661.
+23.
+Geneva Convention Relative to the Treatment of Prisoners of War. 12 August 1949. In: US Department of the
+Army. Treaties Governing Land Warfare. Washington, DC: DA; 7 December 1956. Army Pamphlet 27-1.
+24.
+Smith AM. The ethos of the military surgeon. Pharos. 1993;56(4)l:11–14.
+25.
+Larrey DJ. Memoirs of Military Surgery, and Campaigns of the French Armies. Hall RW, trans. Baltimore, Md: J
+Cushing; 1814.
+26.
+Merriam-Webster’s Collegiate Dictionary. Tenth edition. Springfield, Mass: Merriam-Webster; 1999.
+27.
+Bowen TE, Bellamy RF. Emergency War Surgery. Second United States Revision of The Emergency War Surgery
+NATO Handbook, Washington, DC: US Department of Defense; 1988.
+28.
+Bellamy R. Contrasts in combat casualty care. Mil Med. 1985;150:405–410.
+29.
+Winslow G. The concept of triage in modern medicine. In: Triage and Justice: The Ethics of Rational Life-Saving
+Medical Resources. Berkeley: University of California Press; 1982: 1–11.
+30.
+US Department of the Army. Health Service Support in a Theater of Operations. Washington, DC: DA; 1 March
+1991. Field Manual 8-10.
+31.
+Swann SW. Euthanasia on the battlefield. Mil Med. 1987;152:545–549.
+32.
+The NIV Study Bible: New International Version. Grand Rapids: Zondervan Bible Publishers; 1985.
+33.
+Pare A. The Apologie and Treatise of Ambroise Pare (Containing the Voyages Made Into Divers Places With Many of His
+Writings Upon Surgery). Keynes G, ed. London: Falcon Educational Books; 1951.
+Medical Ethics on the Battlefield: The Crucible of Military Medical Ethics
+401
+34.
+Wilson R. A Medico-Literary Causerie. Euthanasia. Practitioner. 1896:56:131–135. Reprinted in Risner SJ. The dilemma of euthanasia in modern medical history: The English and American experience. In: The Dilemma of
+Euthanasia. New York: Anchor Press; 1975: 27–41.
+35.
+Peterson RKD. Insects, Disease, and Military History: The Napoleonic Campaigns and Historical Perception.
+Reprinted from American Entomologist. 41:147–160. Available at: http://entomology.unl.edu/history_bug/
+napoleon/plague_syria.htm. Accessed 31 January 2002.
+36.
+Keneally T. Schindler’s List. New York: Simon & Schuster; 1982.
+37.
+Southby RF. Military health care in the 21st century. Mil Med. 1993;158(10):637–640.
+38.
+Edelstein L. In: Temkin O, Temkin CL, eds, Temkin CL, trans. Ancient Medicine: Selected Papers of Ludwig Edelstein.
+Baltimore, Md: Johns Hopkins Press; 1967.
+39.
+Sheldon T. Holland decriminalises voluntary euthanasia. Br Med J. 2001;322(7292):947.
+40.
+Gomez, CF. Regulating Death: Euthanasia and the Case of the Netherlands. New York: The Free Press; 1991.
+41.
+van der Wal G. Evaluation of the notification procedure for physician-assisted death in the Netherlands. N
+Engl J Med. 1996;335(22):1706–1711.
+42.
+Keown J. On regulating death. Hastings Cent Rep. 1992;22(2):39–43.
+43.
+van der Maas PJ. Euthanasia and other medical decisions concerning the end of life. Lancet. 1991;338:669–674.
+44.
+van der Maas PJ. Euthanasia, physician-assisted suicide, and other medical practices involving the end of life
+in the Netherlands, 1990–1995. N Engl J Med. 1996:335(22):1699–1705.
+45.
+Fenigsen R. A case against Dutch euthanasia. Hastings Cent Rep. 1989;19(1):S22–S30.
+46.
+Walzer M. Just and Unjust Wars. New York: Basic Books; 1992.
+47.
+AMA Council on Ethical and Judicial Affairs. Code of Medical Ethics: Current Opinions With Annotations. Chicago: American Medical Association;1994.
+48.
+Weiner DB. The real Doctor Guillotin. JAMA. April 3, 1972:220(1):85–89.
+49.
+Proctor R. Racial Hygiene: Medicine Under the Nazis. Cambridge, Mass: Harvard University Press; 1988.
+50.
+British Medical Association. Involvement of doctors in torture: Conclusions and recommendations. Lancet.
+1986;1(8481):628–629.
+51.
+Knoll E, Lundberg GD. Toward the prevention of torture. JAMA. June 13, 1986:255(22):3157.
+52.
+Murton T. Prison doctors. In: Visscher MB, ed. Humanistic Perspectives in Medical Ethics. Buffalo, NY: Prometheus
+Books; 1972: 248–249.
+53.
+Fine JE. Torture in Israel and the Occupied Territories. Lancet. 1993:342:169.
+54.
+Siegel-Itzkovich J. Israeli doctors banned from role in interrogation. Br Med J. 1993:307:(6897):150–151.
+55.
+Mamode N. Torture and war: Medical associations should try to stop torture in Israel. Br Med J. 1996:312(7022):57.
+56.
+Torture in Brazil: A Report of the Archdiocese of Sao Paulo. New York: Vintage Books; 1986.
+57.
+Sagan LA, Jonsen A. Medical ethics and torture. N Engl J Med. 1976:294(26):1427–1430.
+Military Medical Ethics, Volume 2
+402
+58.
+Nightingale EO, Hannibal K, Geiger HJ, Hartmann L, Lawrence R, Spurlock J. Apartheid medicine: Health and
+human rights in South Africa. JAMA. 1990:264(16):2097–2102.
+59.
+Haritos-Fatouros M. The official torturer: A learning model for obedience to the authority of violence. J Appl
+Soc Psychol. 1998:18(13):1107–1120.
+60.
+Adapted from case for discussion. Ethics course for MS II. USUHS. 5 September 1995.
+61.
+US Departments of the Army, the Navy, the Air Force, and the Marine Corps. Enemy Prisoners of War, Retained
+Personnel, Civilian Internees and Other Detainees. Washington, DC: DA; 1 October 1997. Army Regulation 190-8,
+OPNAVINST 3461. 6, AFJI 31-304, MCO 3461. 1.
+62.
+Lieutenant Colonel Kim Marley. Personal Communication, 2002.
+63.
+Gault WB. Some remarks on slaughter. Am J Psychiatry. 1971;128(4):450–454.
+64.
+Pruitt BA Jr. Trauma care in war and peace: The Army/AAST synergism: 1992 Fitts Lecture. J Trauma.
+1993;35(1):78–87.

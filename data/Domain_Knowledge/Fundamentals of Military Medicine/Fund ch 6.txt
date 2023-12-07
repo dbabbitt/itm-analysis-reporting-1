@@ -1,0 +1,960 @@
+91
+The Law of Armed Conflict and Military Medicine
+Chapter 6
+THE LAW OF ARMED CONFLICT AND 
+MILITARY MEDICINE
+MICHAEL H. HOFFMAN, JD*
+INTRODUCTION
+THE EVOLVING CONTEXT OF INTERNATIONAL LAW AND MILITARY 
+MEDICINE
+RESPONSIBILITIES AND PROTECTION OF MILITARY MEDICAL PERSONNEL 
+Application of the Law of Armed Conflict by Medical Officers
+War Crimes 
+Intent of the Law of Armed Conflict in Relation to Military Medicine 
+Status of Military Medical Units and Personnel
+Responsibilities and Protection of Military Medical Personnel and Units During 
+Armed Conflict
+Medical Operations Conducted in Cooperation With Coalition Partners
+PROTECTION OF CIVILIAN MEDICAL STAFF AND HOSPITALS IN ARMED 
+CONFLICT
+APPLICATION OF INTERNATIONAL LAW IN PEACETIME MEDICAL 
+DEPLOYMENTS
+CONCLUSION
+*Associate Professor, US Army Command and General Staff College; Assistant Professor, Uniformed Services University of the Health Science; Barden 
+Education Center, Ft Belvoir, Virginia
+92
+Fundamentals of Military Medicine 
+INTRODUCTION
+The positive humanitarian impact of compliance 
+with the medical law of armed conflict is great. The 
+negative human, legal, political, and military impact of 
+noncompliance can be even greater. Military medical 
+officers (MMOs) need to understand not only the key 
+humanitarian obligations of military medical personnel and units in armed conflict, but also their rationale, 
+in order to ensure the law is effectively applied in 
+varied, uncertain, and sometimes rapidly changing 
+operational settings. In addition to the suffering that 
+follows if the law is not applied, there can be serious 
+legal consequences for medical personnel who fail to 
+apply it—and long-lasting damage to the honor and 
+credibility of the United States and the nation’s armed 
+forces. 
+To help impart the level of insight required to mesh 
+medical operations with international law, this chapter 
+provides a conceptual overview of key responsibilities and 
+legal protection requirements for military medical personnel during armed conflict. It is not a detailed guide for 
+implementation of the Geneva Conventions, nor a manual 
+attempting a comprehensive survey of the wide and varied 
+range of medical issues that may arise under the Geneva 
+Conventions. Readers who want to explore these issues 
+in depth can find guidance on additional resources later 
+in this chapter. It is essential for MMOs to work closely 
+with a staff judge advocate legal advisor in all phases of the 
+planning and execution of the military medical mission. 
+The legal requirements in all military operations must be 
+considered with great care and implemented accordingly. 
+THE EVOLVING CONTEXT OF INTERNATIONAL LAW AND MILITARY MEDICINE
+International law is less familiar to most people 
+than the rules found in national, state, and local law. 
+However, international law plays a behind-the-scenes 
+role shaping daily interactions that many people take 
+for granted. It provides the framework for routine 
+international travel, communications, trade, and 
+cultural exchange. It is more challenging to apply 
+international law during armed conflict, but there is 
+a well-developed system of treaties and customary 
+practice that applies to regulate war as well.
+Customary international law is the earliest form 
+of the law of armed conflict. It has been in use for 
+centuries. The customary law of armed conflict 
+(most widely known as the customary law of war) 
+is made up of any “consistent practice of states” that 
+comes to be accepted as a binding legal norm even if 
+it has not been formalized in a written agreement. 1 
+The United States has implemented the law of war 
+beginning with the application of customary law 
+during the American Revolution. To seal the decisive American victory at Yorktown in 1781, General 
+Washington negotiated an elaborate customary 
+surrender process with General Cornwallis, and US 
+military medical services have continuously honored the national commitment to the law of armed 
+conflict by providing medical treatment for enemy 
+prisoners of war into the modern age. 2–4
+The modern, treaty-based law of armed conflict 
+first significantly emerged with the adoption of the 
+first Geneva Convention for the Wounded and Sick 
+in 1864. The principles embodied in that treaty still 
+guide its signatories in the 21st century. Though 
+President Lincoln and Secretary of State Seward 
+were reluctant to commit to these Geneva negotiations during the American Civil War, they did send 
+a senior diplomat and a representative from the US 
+Sanitary Commission, a major nongovernmental 
+organization caring for the wounded and sick in 
+the ongoing US conflict, to serve as observers at 
+the conference. 5 The United States ratified the first 
+Geneva Convention in 1882, and has ratified each 
+of the Geneva Conventions that followed in later 
+generations (see Chapter 1, History of the Military 
+Medical Officer, Exhibit 1-2, for more background 
+on the chronological development of the Geneva 
+Conventions). 
+The modern law of armed conflict is primarily 
+treaty based. The four Geneva Conventions of 1949 
+establish the responsibilities, status, and protection 
+afforded to medical personnel; the wounded, sick, and 
+shipwrecked members of armed forces; prisoners of 
+war; and civilians under the law of armed conflict. Accordingly, they are the main focus of this chapter and 
+are also explored in further detail in the Department 
+of Defense (DoD) Law of War Manual. 6
+The terms “law of war,” “law of armed conflict” 
+(sometimes abbreviated as LOAC), and “international 
+humanitarian law” (frequently abbreviated as IHL) 
+tend to be used interchangeably. 7 Though there is 
+some disagreement on whether each term applies to 
+precisely the same set of rules, for this chapter they can 
+be considered identical. The focus for MMOs will be 
+on the Geneva rules. (Sometimes a distinction is drawn 
+between “Geneva law” for humanitarian protection, 
+and “Hague law” for regulation of the means and 
+methods of war, meaning rules governing targeting 
+and the weaponry employed. MMOs fulfill Geneva 
+law in their duties.)
+93
+The Law of Armed Conflict and Military Medicine
+The law of armed conflict has evolved from a 
+specialized field known only to a handful of legal 
+practitioners and scholars to one receiving constant, 
+widespread media coverage and intense scrutiny by 
+human rights organizations. Failure to implement 
+the law of armed conflict raises the possibility of 
+prosecution under the Uniform Code of Military 
+Justice (see also Chapter 5, Military Law and Ethics) and opens the door to accusations that MMOs 
+have breached medical ethics. Such failure—even 
+mistaken or deliberately false accusations of violations of the law of war—might spur political backlash and international condemnation, undermining 
+prospects for success in a military campaign. 8
+The DoD Law of War Manual includes the following 
+cautionary observations: “For example, violations of 
+the law of war in counter-insurgency operations may 
+diminish the support of the local population. Violations 
+of the law of war may also diminish the support of the 
+populace in democratic States, including the United 
+States and other States that would otherwise support 
+or participate in coalition operations. Violations of the 
+law of war committed by one side may encourage third 
+parties to support the opposing side.”9 By impartially 
+and firmly carrying out humanitarian medical obligations for all protected persons under Geneva law, MMOs 
+also protect the credibility of the armed forces and the 
+nation as a whole.
+RESPONSIBILITIES AND PROTECTION OF MILITARY MEDICAL PERSONNEL 
+Application of the Law of Armed Conflict by 
+Medical Officers
+The Geneva Conventions are a legal foundation 
+for quiet, successful implementation of the law of 
+armed conflict on an ongoing basis. For example, 
+many prisoners of war around the world regularly 
+receive protective visits to ensure their safety and 
+well-being. 10 MMOs are responsible for successful 
+implementation of the medical dimensions of 
+the law of armed conflict. They are expected to 
+fulfill this role both through direct leadership and 
+indirectly through leadership by moral example. 
+MMOs exercise such leadership in concert with other 
+military and civilian leaders at all levels of the US 
+government.
+The United States’ commitment to application 
+of the law of armed conflict takes many forms. 
+US commanders are responsible for the law’s 
+implementation. Alleged violations are investigated 
+for possible prosecution or (depending on the 
+level of severity of the alleged offense) for other 
+disciplinary or corrective action. Judge advocates 
+at all levels of command furnish legal advice on 
+interpretation and implementation of the law of 
+armed conflict. 11 Although every actual or potential 
+enemy will not apply them in whole or even in part, 
+US MMOs need to understand the rules and apply 
+them regardless. It bears repeating that MMOs lead 
+by example, and not only when serving in command 
+assignments. They must not express cynicism about 
+the law of armed conflict in any circumstances, 
+regardless of how they may feel about enemies 
+who commit war crimes. Any hint of such cynical 
+or negative views about the law of armed conflict 
+may help provoke negative action and conduct by 
+other medical personnel. 
+War Crimes
+While US MMOs need to focus on the mission—including implementation of the medical requirements 
+of the law of armed conflict—situational awareness requires some understanding of the scope and characteristics of war crimes as envisioned in international law. 
+MMOs have a solemn responsibility to help ensure that 
+the medical dimensions of the law of armed conflict 
+are fully implemented in their command. This requires 
+strong direct leadership and leadership by example. 
+It requires careful monitoring to help ensure that US 
+military and civilian personnel fulfill their obligations 
+under the Geneva Conventions in all situations, including those where feelings may run high in the face of 
+reports and evidence of war crimes.
+Medical personnel may encounter evidence of war 
+crimes in the field, or treat patients who are traumatized survivors of war crimes. Higher headquarters 
+must be notified immediately if such issues or evidence 
+should arise. Despite careful attention to the protection of medical units and personnel under the Geneva 
+Conventions, urgent force protection requirements 
+demand awareness that some enemies will deliberately 
+target medical facilities, personnel, transport, patients, 
+and supplies. 
+A sense of the potential scale and gravity of such 
+challenges is presented by systematic, continuing 
+violations of the law of armed conflict in Syria during 
+the civil war. The Syrian government has deliberately 
+targeted medical personnel in the ongoing conflict in 
+that country. As reported in The Lancet, “The weaponisation of health care—a strategy of using people’s need 
+for health care as a weapon against them by violently 
+depriving them of it—has translated into hundreds of 
+health workers killed, hundreds more incarcerated or 
+tortured, and hundreds of health facilities deliberately 
+94
+Fundamentals of Military Medicine 
+and systematically attacked.”12 These crimes are not 
+limited to the battlefield. The Syrian government has 
+also used a network of hospitals, and hospital staff, 
+to systematically torture, mutilate, and murder captives on a mass scale. 13 As one consequence, medical 
+activities have been driven underground to avoid 
+deliberate attack by the Syrian authorities. Efforts to 
+provide medical care are driven by logistically challenging and costly requirements to set up very limited 
+underground facilities. 14
+Some enemies may not only be willing to engage in 
+deliberate attacks on protected medical sites, personnel, and patients, and to appropriate medical facilities to commit horrific crimes, they may even remain 
+contemptuous of international law when efforts are 
+made to provide them with the medical services they 
+should receive after being captured. Dating back to 
+at least the Korean War, US medical personnel have 
+sometimes encountered situations where captured 
+enemy wounded, rather than cooperating in their 
+clinical care, have continued hostile conduct even in 
+a medical setting. 15
+Application of the law in the face of war crimes 
+committed by the enemy comports well with the ethos 
+expected of physicians. In peacetime, fully professional application of the healing arts is expected, even 
+when this benefits the most reprehensible members 
+of society. The same principle applies by analogy 
+in wartime. Addressing such challenges, maintaining situational awareness, and fostering a command 
+climate in which medical personnel will unfailingly 
+apply the Geneva Conventions, even in the face of 
+understandable outrage and extreme provocation, 
+requires some understanding of the international law 
+of war crimes. A brief survey of the law is provided 
+here, followed by a more extensive review of the rules 
+that are positively applied by US medical personnel in 
+all situations involving armed conflict. 
+There is no universal definition of war crimes, but 
+one that focuses on medical issues comes from Geneva 
+Convention I of 1949. Under this Convention, particularly serious war crimes, known as grave breaches, are 
+described as follows:
+Grave breaches . . . shall be those involving any of 
+the following acts, if committed against persons or 
+property protected by the Convention: wilful killing, 
+torture or inhuman treatment, including biological experiments, wilfully causing great suffering or serious 
+injury to body or health, and extensive destruction and 
+appropriation of property, not justified by military necessity and carried out unlawfully or wantonly. 16
+A pattern of war crimes may constitute a distinctive 
+category of offenses known as crimes against humanity. There is no universally accepted definition for 
+such crimes, but MMOs must be alert in the field for 
+medical evidence that points towards such systematic 
+crimes. Though the United States has not ratified the 
+Rome Statute of the International Criminal Court, the 
+definition found in that treaty is a useful point of reference for these crimes:
+For the purpose of this Statute, “crime against humanity” means any of the following acts when committed as part of a widespread or systematic attack 
+directed against any civilian population, with knowledge of the attack: 
+ (a) Murder; 
+ (b) Extermination; 
+ (c) Enslavement; 
+ (d) Deportation or forcible transfer of population; 
+ (e) Imprisonment or other severe deprivation of 
+physical liberty in violation of fundamental 
+rules of international law; 
+ 
+(f) Torture; 
+ (g) Rape, sexual slavery, enforced prostitution, 
+forced pregnancy, enforced sterilization, or 
+any other form of sexual violence of comparable gravity; 
+ (h) Persecution against any identifiable group 
+or collectivity on political, racial, national, 
+ethnic, cultural, religious, gender as defined 
+in paragraph 3, or other grounds that are 
+universally recognized as impermissible 
+under international law, in connection with 
+any act referred to in this paragraph or any 
+crime within the jurisdiction of the Court; 
+ 
+(i) Enforced disappearance of persons; 
+ 
+(j) The crime of apartheid; 
+ (k) Other inhumane acts of a similar character 
+intentionally causing great suffering, or serious injury to body or to mental or physical 
+health. 17
+Genocide, the war crime potentially most far reaching, can also take place in peacetime. Genocide is a 
+crime that was identified, defined, and expressly prohibited in a treaty adopted in 1948. The UN Convention on the Prevention and Punishment of the Crime 
+of Genocide defines this crime as follows: 
+In the present Convention, genocide means any of the 
+following acts committed with the intent to destroy, in 
+whole or in part, a national, ethnical, racial or religious 
+group, as such:
+ (a) Killing members of the group;
+ (b) Causing serious bodily or mental harm 
+ 
+ to members of the group;
+ (c) Deliberately inflicting on the group condi95
+The Law of Armed Conflict and Military Medicine
+tions of life calculated to bring about its 
+physical destruction in whole or in part; 
+ (d) Imposing measures intended to prevent 
+births within the group; 
+ (e) Forcibly transferring children of the group 
+to another group. 18
+Some physicians were complicit in crimes on the 
+scale of genocide and crimes against humanity during World War II. Some of the most shocking crimes 
+ever documented in a courtroom were those involving vicious, lethal experimentation on human beings 
+by doctors who supported the Nazi regime. The first 
+in the series of trials of senior level Nazi officials that 
+took place in Nuremburg, following World War II, is 
+known as the “Doctors’ Trial.” It resulted in a number 
+of convictions, and the presiding judges in this trial 
+developed the Nuremberg Code, which remains an 
+essential foundation for regulation of human medical 
+experimentation into the 21st century. The war crimes 
+and crimes against humanity committed during World 
+War II were the impetus for adoption of the Geneva 
+Conventions of 1949. Subsequent sections of this chapter will cover the basic medical protections addressed 
+in those treaties and discuss some of the challenging 
+settings in which the rules are applied. 
+Intent of the Law of Armed Conflict in Relation to 
+Military Medicine 
+The Geneva Conventions of 1949, which established 
+the extensive modern-day rules on the roles and 
+responsibilities of medical personnel during armed 
+conflict, included four treaties:
+ 
+• The Geneva Convention for the Amelioration 
+of the Condition of the Wounded and Sick in 
+Armed Forces in the Field of 12 August 1949 
+(GC I) 
+ 
+• The Geneva Convention for the Amelioration 
+of the Condition of Wounded, Sick and Shipwrecked Members of Armed Forces at Sea of 
+12 August 1949 (GC II)
+ 
+• The Geneva Convention relative to the Treatment of Prisoners of War of 12 August 1949 
+(GC III)
+ 
+• The Geneva Convention relative to the Protection of Civilian Persons in Time of War, of 12 
+August 1949 (GC IV)
+The United States is a party to the Geneva Conventions of 1949, which have been ratified by the US Senate, and therefore the nation is bound by the provisions 
+of these treaties. Text from the Geneva Conventions 
+is quoted frequently in this chapter to highlight key 
+rules and concepts.
+Though they have not been ratified by the United 
+States and are therefore not binding on this country, it 
+is worth noting that widely known legal instruments 
+called the Protocols Additional to the Geneva Conventions were adopted at a diplomatic conference 
+in Geneva in 1977. A number of countries, including 
+the United States, participated in this conference for 
+the purpose of adopting these Protocols to enhance 
+and update the 1949 Geneva Conventions. They are 
+known formally as the Protocols Additional to the 
+Geneva Conventions of 12 August 1949, and relating 
+to the Protection of Victims of International Armed 
+Conflicts (Protocol I), of 8 June 1977, and the Protocol 
+Additional to the Geneva Conventions of 12 August 
+1949, and relating to the Protection of Victims of NonInternational Conflicts (Protocol II), of 8 June 1977. 
+This chapter makes reference to the Protocols where 
+awareness of them could be useful in work with the 
+armed forces of states that have ratified them. 
+The Geneva Conventions in their entirety “shall apply to all cases of declared war or of any other armed 
+conflict which may arise between two or more of the 
+High Contracting Parties, even if the state of war is 
+not recognized by one of them.”19 Requirements for 
+MMOs are clear. “Members of the DOD Components 
+comply with the law of war during all armed conflicts, 
+however such conflicts are characterized, and in all 
+other military operations.”20 This means MMOs must 
+apply this Geneva law during armed conflict without 
+exception. It is irrelevant to individual MMOs, and to 
+their mission, as to whether or not a state of war or 
+armed conflict is formally declared or recognized. The 
+Geneva Conventions apply regardless. 
+The fastest route to understanding the ethos and 
+functional purpose of the Geneva Conventions of 
+1949 is to read the concise provisions of the famous 
+“Common Article 3,”which sets out the absolute minimum protections that must be applied in any armed 
+conflict21:
+ART. 3. In the case of armed conflict not of an international character occurring in the territory of one of 
+the High Contracting Parties, each Party to the conflict shall be bound to apply, as a minimum, the following provisions: 
+ 
+1) Persons taking no active part in the hostilities, 
+including members of armed forces who have 
+laid down their arms and those placed hors 
+de combat by sickness, wounds, detention, or 
+any other cause, shall in all circumstances 
+be treated humanely, without any adverse 
+distinction founded on race, colour, religion 
+or faith, sex, birth or wealth, or any other 
+similar criteria. 
+ 
+ To this end, the following acts are and shall 
+96
+Fundamentals of Military Medicine 
+remain prohibited at any time and in any 
+place whatsoever with respect to the abovementioned persons: 
+ 
+a) violence to life and person, in particular 
+murder of all kinds, mutilation, cruel 
+treatment and torture;
+ 
+b) taking of hostages; 
+ 
+c) outrages upon personal dignity, in 
+particular humiliating and degrading 
+treatment; 
+ 
+d) the passing of sentences and the carrying out of executions without previous 
+judgment pronounced by a regularly 
+constituted court, affording all the judicial guarantees which are recognized as 
+indispensable by civilized peoples. 
+ 
+2) The wounded and sick shall be collected and 
+cared for. 
+An impartial humanitarian body, such as the International Committee of the Red Cross, may offer its 
+services to the Parties to the conflict. 
+The Parties to the conflict should further endeavour 
+to bring into force, by means of special agreements, 
+all or part of the other provisions of the present Convention.
+The application of the preceding provisions shall not 
+affect the legal status of the Parties to the conflict. 22
+Article 3 is an exception to the other text found in 
+each treaty of the four Geneva Conventions because 
+it applies in all cases of armed conflict “not of an international character occurring in the territory of one 
+of the High Contracting Parties.”22 This means that 
+Article 3 applies during civil wars and other forms 
+of armed conflict taking place within the borders 
+of a single country. All other articles of the Geneva 
+Conventions of 1949 apply in their entirety during 
+international armed conflict (meaning military conflict 
+between two or more states, as countries are termed 
+under international law), and MMOs must apply the 
+provisions of the treaties in full, rather than the more 
+limited provisions of Common Article 3. 
+Though Common Article 3 lacks the detailed guidance found in the other articles of the full Conventions, if read carefully, it provides a distillation of the 
+core principles of the law of armed conflict. Common 
+Article 3 should be read to provide MMOs an orientation to the basic purposes of the law of war. Then, 
+studying the detailed description of the more complete 
+medical requirements of the Geneva Conventions, 
+which apply during international armed conflict, will 
+provide a fuller picture of the MMO’s professional 
+responsibilities. 
+Status of Military Medical Units and Personnel
+During international armed conflict, the Geneva 
+Conventions for Wounded and Sick (GC I), and for 
+Wounded, Sick, and Shipwrecked (GC II) identify 
+“[f]ixed establishments and mobile medical units” of 
+military medical services as the principal providers of 
+medical assistance. 23 Hospital ships are authorized to 
+provide these services at sea subject to requirements for 
+advance notification of their status. 24 Medical aircraft 
+“exclusively employed for the removal of wounded 
+and sick and for the transport of medical personnel 
+and equipment” are recognized as protected under the 
+Geneva Conventions. The same protection applies for 
+aircraft transporting the shipwrecked. 25 (For further 
+information, see Joint Publication 4-02. 26) Activities 
+essential for medical support are protected as well. On 
+land, these include “transports of wounded and sick 
+or of medical equipment.”27 At sea, ships chartered 
+“to transport equipment exclusively intended for the 
+treatment of wounded and sick members of the armed 
+forces or for the prevention of disease” are also protected if advance notice of their voyage is provided. 28
+Within military medical units, those medical personnel “exclusively engaged in the search for, or the 
+collection, transport or treatment of the wounded or 
+sick, or in the prevention of disease, staff exclusively 
+engaged in the administration of medical units and 
+establishments, as well as chaplains attached to the 
+armed forces” hold protected status under the law 
+of armed conflict. 29 The same status is provided for 
+“religious, medical and hospital personnel of hospital 
+ships and their crews”30 and for the same category 
+of personnel serving on other ships. 31 Coastal rescue 
+craft are to be respected on the same terms “so far as 
+operational requirements permit.”32
+MMOs should keep in mind that under the Geneva 
+Conventions, the only military personnel entitled to 
+continuous medical standing, privileges, and protection are those “exclusively engaged” in medical duties 
+as described above. Other military personnel “specially 
+trained for employment, should the need arise, as hospital orderlies, nurses or auxiliary stretcher-bearers, in 
+the search for or the collection, transport or treatment 
+of the wounded and sick shall likewise be respected 
+and protected if they are carrying out these duties 
+at the time when they come into contact with the 
+enemy or fall into his hands.”33 To ensure continued 
+protection of medical units, personnel, and activities, 
+all staff should be managed in a manner that ensures 
+no blurring of distinctions between work carried out 
+by medical and other military personnel (cautionary 
+guidance on activities that exceed medically protected 
+roles is provided in Joint Publication 4-0226). 
+97
+The Law of Armed Conflict and Military Medicine
+Though (if recent history is any guide) civilian volunteers and aid societies are unlikely to be recruited to 
+assist US military medical units in care for the wounded 
+and sick of US and friendly forces, this contingency is 
+provided for by the Geneva Conventions. Given the 
+changing context of military medicine in war zones, it 
+is not beyond question that such assistance may someday be requested again. Medical status is provided 
+for “staff of National Red Cross Societies and that of 
+other Voluntary Aid Societies, duly recognized and 
+authorized by their governments” providing the same 
+support as full-time military medical personnel and also 
+“subject to military laws and regulations.”34 Analogous 
+humanitarian support is also addressed in the maritime 
+domain. “Hospital ships utilized by National Red Cross 
+Societies, by officially recognized relief societies or by 
+private persons” have the same protection as military 
+hospital ships if commissioned for that role, and the 
+same notification procedures that apply for military 
+hospital ships would be complied with as well. 35
+Less formal relief efforts by civilians are also contemplated in Geneva law and have historical precedent. During the American Civil War, for example, 
+individual and organized groups of civilians rendered 
+extraordinary assistance to wounded and sick soldiers 
+on and off the battlefield. 36 Under the Geneva Conventions, military authorities “may appeal to the charity 
+of the inhabitants voluntarily to collect and care for, 
+under their direction, the wounded and sick, granting 
+persons who have responded to this appeal the necessary protection and facilities.”37 Similarly, an appeal 
+may be made to “the charity of commanders of neutral 
+merchant vessels, yachts or other craft” to assist with 
+rescue of the wounded, sick, and shipwrecked at sea. 
+Protection will be provided to such vessels and others 
+that render such assistance. 38
+Responsibilities and Protections of Military Medical Personnel and Units During Armed Conflict
+The units and personnel identified for protection 
+under the Geneva Conventions assume challenging 
+humanitarian responsibilities. They commit to strict 
+limitations on their scope of activities. The scope of permitted duties is considered here in relation to potential 
+harm that may follow if these requirements are not met.
+The Geneva Conventions apply for protection of all 
+wounded and sick “Members of the armed forces of a 
+Party to the conflict as well as members of the militias 
+or volunteer corps forming part of such armed forces.” 
+There are also detailed provisions on other categories 
+of combatants covered by the protections of the Geneva 
+Conventions. 39 MMOs must, therefore, be ready for 
+missions that differ conceptually in scope from their 
+peacetime support for US military personnel and their 
+families. In addition to those continuing responsibilities, they must expand their medical support paradigm 
+to render medical assistance to all combatants, including captured enemy wounded. 40
+The broad scope of medical assistance set out in 
+the Geneva Conventions warrants verbatim inclusion 
+here, as set out in GC I:
+Members of the armed forces and other persons mentioned in the following Article, who are wounded or 
+sick, shall be respected and protected in all circumstances. 
+They shall be treated humanely and cared for by the 
+Party to the conflict in whose power they may be, 
+without any adverse distinction founded on sex, race, 
+nationality, religion, political opinions, or any other 
+similar criteria. Any attempts upon their lives, or violence to their persons, shall be strictly prohibited; in 
+particular, they shall not be murdered or exterminated, subjected to torture or to biological experiments; 
+they shall not wilfully be left without medical assistance and care, nor shall conditions exposing them to 
+contagion or infection be created.
+Only urgent medical reasons will authorize priority 
+in the order of treatment to be administered. 
+Women shall be treated with all consideration due 
+to their sex. 
+The Party to the conflict which is compelled to abandon wounded or sick to the enemy shall, as far as 
+military considerations permit, leave with them a 
+part of its medical personnel and material to assist 
+in their care. 40
+The Geneva Conventions also highlight the extension of an MMO’s professional obligations beyond the 
+wounded, sick, and shipwrecked members of armed 
+forces. Though the Geneva Conventions focus on the 
+role of military medical personnel and units in connection with medical care for these categories of personnel, there are also important provisions requiring 
+medical treatment and careful attention to the public 
+health needs of other categories of people as well. In 
+fulfillment of those obligations, MMOs may be tasked 
+to assist with public health needs and medical treatment for enemy who are prisoners of war, civilian 
+detainees, civilians living under military occupation, 
+and civilians who are wounded, sick, infirm or pregnant. 41 Other important humanitarian obligations set 
+out in the Geneva Conventions relate to notification, 
+disposition of human remains, and return of personal 
+effects when a patient has died. 42
+98
+Fundamentals of Military Medicine 
+Military medical units and establishments are 
+protected from attack in order to ensure that medical 
+work can be carried out for all wounded, sick, and 
+shipwrecked combatants without distinction. “Fixed 
+establishments” and “mobile medical units” of military 
+medical services “may in no circumstances be attacked, 
+but shall at all times be respected and protected” by all 
+sides in the conflict. 43 Military hospital ships bear the 
+same protection, and sick bays on other military ships 
+“shall be respected and spared as far as possible.”44
+Medical services of armed forces are authorized to 
+use a specific identifying emblem recognized under the 
+provisions of the Geneva Conventions. Accordingly, 
+the Red Cross or Red Crescent emblem, displayed on 
+a white ground, may be employed for this purpose. 45 
+A Red Crystal emblem was also authorized more recently. Israel employs a Red Shield of David in lieu of 
+a Red Cross or Red Crescent emblem. (The complex 
+background to the development and use of these 
+emblems is summarized in the DoD Law of War Manual. 46) If a medical facility, establishment, or activity 
+is known to the other side, it should be respected and 
+thus spared from attack even if a protected emblem 
+is not in use. 26 Military medical personnel covered by 
+the Geneva Conventions are also identified by wearing, “affixed to the left arm, a water-resistant armlet 
+bearing the distinctive emblem, issued and stamped 
+by the military authority.”47
+The “medical personnel exclusively engaged in the 
+search for, or the collection, transport or treatment of 
+the wounded or sick, or in the prevention of disease, 
+staff exclusively engaged in the administration of 
+medical units and establishments, as well as chaplains attached to the armed forces”29 are not deemed 
+to be prisoners of war if captured. They are “retained 
+personnel” and held “only in so far as the state of 
+health, the spiritual needs and the number of prisoners of war require.”48 Medical hospital ships (“built or 
+equipped . . . specially and solely with a view to assisting the wounded, sick and shipwrecked”) may not 
+be attacked or captured. Other hospital ships can also 
+acquire protection where they have been authorized 
+for such service and notice provided to all parties. 49 
+Similar status, authority to continue medical work, 
+and provision for release apply to military medical 
+personnel captured while serving at sea as applies to 
+medical personnel serving on land. 31
+There are, however, strict requirements that must be 
+met for medical personnel to sustain protected status. 
+The Geneva Conventions anticipate situations in which 
+protection may be lost. “The protection to which fixed 
+establishments and mobile medical units of the Medical Service are entitled shall not cease unless they are 
+used to commit, outside their humanitarian duties, acts 
+harmful to the enemy. Protection may, however, cease 
+only after a due warning has been given, naming, in 
+all appropriate cases, a reasonable time limit and after 
+such warning has remained unheeded.”50 The same 
+restrictions apply to employment of hospital ships and 
+sick bays of other vessels. 51
+This discussion inevitably raises questions about 
+practical security of military personnel and medical 
+establishments and facilities. The law of war recognizes armed security requirements. Medical personnel 
+may be armed for their own defense and that of their 
+patients. Armed security for the unit or establishment 
+may be posted by orderlies, sentries, picket, or escort. 
+None of these measures jeopardize the legal protection 
+of medical units or establishments. 52 Armed security 
+is also authorized on hospital ships (and sick bays of 
+other vessels), and it does not deprive them of protected status. 53
+Medical Operations Conducted in Cooperation 
+With Coalition Partners
+The US armed forces have worked with international partners since the American Revolution, 
+but this practice has accelerated in the 21st century. 
+MMOs should expect many and perhaps most of 
+their deployments to take place in partnership with 
+the armed forces of international partners. Some 
+of these forces have worked with US forces on a 
+sustained basis in formal, treaty-based alliances. In 
+such instances, there may be longstanding combined 
+operational experience and logistical standardization. 
+Other, less formal cooperative operations are called 
+coalitions and often include newer partners. In either 
+instance, important law of war responsibilities apply 
+in armed conflict. 
+If enemy wounded and sick are transferred to an 
+ally or coalition partner by US military authorities, 
+the United States remains responsible for correction 
+of any important medical or other failures of proper 
+treatment when such are brought to the attention of US 
+personnel. In fact, such transfer can only take place if 
+the party receiving the enemy prisoners of war is itself 
+a party to the applicable GC III on prisoners of war and 
+has shown its “willingness and ability” to apply that 
+treaty. If such deficiencies are not corrected, then the 
+United States must request and secure return of the 
+prisoners. 54 More nuanced issues may also arise that 
+involve differing approaches to appropriate standard 
+of care under the law of armed conflict. 55
+US military medical capabilities in most instances 
+exceed those of allies and coalition partners. However, 
+it should be kept in mind that though the United States 
+has not ratified Additional Protocol I to the Geneva 
+99
+The Law of Armed Conflict and Military Medicine
+Conventions of 1977, sometimes allies and coalition 
+partners have. For example, this protocol merges 
+the concept of wounded and sick to include military 
+wounded, sick, and shipwrecked under GC I and GC 
+II with civilians in need of medical care under GC 
+IV. 56 US medical officers should be aware that difPROTECTION OF CIVILIAN MEDICAL STAFF AND HOSPITALS IN ARMED CONFLICT
+ferences of interpretation may consequently arise in 
+some circumstances regarding medical requirements 
+and standards of care. 55 In some instances, the United 
+States considers provisions of the Protocols Additional 
+to reflect principles of customary law, and such customary principles are implemented. 57 
+Historically, the missions of military medical units 
+have overlapped with those of civilian medical staff 
+and facilities only on an incidental basis. Greater 
+expectations for coordinated care now exist, and 
+deploying MMOs must be prepared for cooperation 
+with healthcare professionals who are treating civilian 
+patients. 58As previously discussed in the War Crimes 
+section, and as can be seen from monitoring world 
+news, civilian hospitals and staff sometimes face extremely dangerous conditions in which medical staff 
+and patients are deliberately targeted. 59 
+During international armed conflict, civilian medical staff are protected in their work under GC IV on 
+terms analogous to those that apply to military medical 
+staff and facilities. During armed conflicts internal to 
+a country, such as a civil war, civilian medical practitioners and activities are entitled at a minimum to the 
+protections afforded by Common Article 3. During 
+international armed conflict, under GC IV, “Civilian 
+hospitals organized to give care to the wounded and 
+sick, the infirm and maternity cases, may in no circumstances be the object of attack, but shall at all times be 
+respected and protected by the Parties to the conflict.”60
+Regarding hospital staff, “Persons regularly and 
+solely engaged in the operation and administration 
+of civilian hospitals, including the personnel engaged 
+in the search for, removal and transporting of and 
+caring for wounded and sick civilians, the infirm and 
+maternity cases, shall be respected and protected.”61 
+Such hospitals shall be marked by a protective emblem 
+if authorized by a state that is party to the armed conflict, and authorized medical personnel shall wear on 
+the left arm an armlet displaying a protected emblem 
+“while carrying out their duties.”60–62 Protections for 
+such civilian hospitals “shall not cease unless they are 
+used to commit, outside their humanitarian duties, acts 
+harmful to the enemy. Protection may, however, cease 
+only after due warning has been given, naming, in all 
+appropriate cases, a reasonable time limit, and after 
+such warning has remained unheeded.”62
+Other special protection arrangements can be made 
+under GC IV. This treaty authorizes, by mutual agreement of all sides, the establishment of “hospital and 
+safety zones and localities so organized as to protect 
+from the effects of war, wounded, sick and aged persons, children under fifteen, expectant mothers and 
+mothers of children under seven.”63 GC IV also provides that belligerents may agree to the establishment 
+of “neutralized zones intended to shelter from the effects of war the following persons, without distinction:
+ (a) wounded and sick combatants or non-combatants;
+ (b) civilian persons who take no part in hostilities, and who, while they reside in the zones, 
+perform no work of a military character.”64
+MMOs may also come into contact with the International Committee of the Red Cross, a humanitarian 
+organization recognized under the Geneva Conventions as bearing special responsibility to provide 
+protective assistance to prisoners of war, civilians, 
+and the wounded, sick, and shipwrecked during 
+armed conflict. 65 Officially chartered and recognized 
+National Red Cross and Red Crescent Societies, as well 
+as other relief societies, sometimes broadly referred to 
+as nongovernmental organizations (or NGOs or PVOs 
+[private voluntary organizations]), may also provide 
+civilian relief “subject to temporary and exceptional 
+measures imposed for urgent reasons of security . . . ”66
+ APPLICATION OF INTERNATIONAL LAW IN PEACETIME MEDICAL DEPLOYMENTS
+The medical dimensions of international law are 
+most developed in relation to services provided for 
+combatants and civilians during armed conflict. The 
+extensive guidance and rules on medical operations 
+contained in the Geneva Conventions of 1949 have 
+no medical equivalent in treaties that apply in peacetime. However, some fundamental human rights and 
+humanitarian law protections must always be taken 
+into account. 
+International human rights law provides important 
+peacetime human rights protections and is a dynamic, 
+developing field. Of particular note in connection 
+with peacetime deployments is the Universal Declaration of Human Rights,67 a resolution adopted by the 
+100
+Fundamentals of Military Medicine 
+United Nations (UN) General Assembly in 1948. This 
+resolution and the UN treaty called the International 
+Covenant on Civil and Political Rights of 196668 are 
+landmark instruments establishing a foundation for 
+human rights protection that imposes rules on governments for their treatment of human beings.
+ Human rights treaties all apply in peacetime, and 
+some of them apply in times of armed conflict as well. 
+Prior reference was made to one such treaty, the UN 
+Convention on the Prevention and Punishment of the 
+Crime of Genocide. Torture is also prohibited, in both 
+peacetime and wartime, by the Convention against 
+Torture and Other Cruel, Inhuman or Degrading 
+Treatment or Punishment of 1984, as it is during 
+armed conflict by the Geneva Conventions. 69,70
+A full survey of international human rights law 
+exceeds the scope of this chapter. However, it should 
+be kept in mind that governments have international 
+legal obligations to treat their populace humanely 
+and ensure their human rights in peacetime as well as 
+during armed conflict. Just as the law of armed conflict 
+never excuses states from their obligation to fulfill 
+humanitarian obligations in wartime, international 
+human rights law similarly obligates them to do the 
+same for their population during peacetime disasters 
+and emergencies in which MMOs may deploy as part 
+of a foreign humanitarian assistance mission. 
+MMOs must be highly alert for situations in which 
+individuals or groups might face persecution, discrimination, or mistreatment at the hands of host nation authorities, or may find themselves deprived of 
+assistance by their government during medical and 
+humanitarian relief operations. Higher headquarters 
+must immediately be notified if such issues or evidence arises. The tragedy inherent in the consequential 
+human suffering, and loss of life, could also further 
+aggravate festering social and political problems and 
+magnify security challenges. Additionally, potential 
+goodwill could be thwarted through guilt by association. Just as a wartime crime by a coalition partner can 
+tarnish the credibility and reputation of the United 
+States, the same could happen if a host nation abuses 
+or neglects all or portions of its population, or individuals who have been singled out, during a peacetime 
+emergency. 
+Less traumatic but important issues may arise pertaining to the Constitution of the World Health Organization, which promises a “right to health,” and to a 
+treaty that was widely ratified (but not by the United 
+States to date) that “recognizes the right of everyone 
+to the enjoyment of the highest attainable standard 
+of physical and mental health.”71,72 The term “right to 
+health” is interpreted to mean “the highest attainable 
+standard of health.”73 However, interpretations of the 
+full scope of the meaning and implementation of a 
+right to health may vary. Allies and coalition partners 
+in medical development initiatives may have differing 
+views on what this means and promises. 
+CONCLUSION
+MMOs are responsible for ensuring medical personnel and units maintain protected legal status and fulfill 
+service delivery requirements that the US government 
+tasks to them in accordance with the Geneva Conventions. These are solemn national commitments that 
+MMOs and other military medical personnel have 
+fulfilled for generations. To continue this tradition, 
+new MMOs should be able to visualize the medical 
+dimensions of the law of armed conflict as an essential 
+component of the mission—a medical form of commander’s intent. 
+MMO leadership in ensuring compliance with the 
+medical aspects of the Geneva Conventions serves a 
+high calling that exceeds patient needs and the national 
+commitment to honor these rules. By implementing 
+medical ethics in wartime, MMOs help ensure the continued viability and credibility of the law of armed conflict for the present time and the generations to follow.
+REFERENCES
+ 
+1. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): section 1. 8. 
+ 
+2. Wright JW. Sieges and customs of war at the opening of the eighteenth century. Am Hist Rev. 1934;39(4):629–644.
+ 
+3. US Army Medical Department, Office of Medical History. Extract from Medical Department, US Army. Preventive 
+Medicine In World War II. Vol. IX, special fields. http://history.amedd.army.mil/booksdocs/wwii/EPWs/EPWs.htm. 
+Accessed May 11, 2018.
+ 
+4. Reister F. Hospitalization in Korea. In: Battle Casualties and Medical Statistics, U.S. Army Experience in the Korean War. 
+http://history.amedd.army.mil/booksdocs/korea/reister/ch4.html. Accessed May 11, 2018.
+101
+The Law of Armed Conflict and Military Medicine
+ 
+5. Maxwell WQ. Lincoln’s Fifth Wheel: The Political History of the United States Sanitary Commission. New York, NY: Longmans, Green and Co; 1956: 271–276.
+ 
+6. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): sections 4. 9-4. 13, 7. 1-7. 20.
+ 
+7. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): sections 1. 3. 1, 1. 3. 2.
+ 
+8. Wright DP, Reese TR. The United States Army in Operation Iraqi Freedom, May 2003–January 2005: On Point II: Transition 
+to the New Campaign. Ft Leavenworth, KS: Combat Studies Institute Press; 2008: 346.
+ 
+9. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): section 18. 2. 3.
+ 10. International Committee of the Red Cross. Annual reports, 2002–2016. https://www.icrc.org/en/annual-report. Accessed May 12, 2018.
+ 11. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): sections 18. 4. 1–18. 5. 3.
+ 12. Fouad M, Fouad MD, et al. Health workers and the weaponisation of health care in Syria: a preliminary inquiry for The 
+Lancet-American University of Beirut Commission on Syria. Lancet. doi: http://dx.doi.org/10. 1016/S0140-6736(17)307419. http://thelancet.com/journals/lancet/article/PIIS0140-6736(17)30741-9/fulltext. Published March 14, 2017. Accessed 
+October 20, 2017.
+ 13. Loveluck L, Zakaria Z. “The hospitals were slaughterhouses”: a journey into Syria’s torture wards. Washington Post. 
+https://www.washingtonpost.com/world/middle_east/the-hospitals-were-slaughterhouses-a-journey-intosyrias-secrettorture-wards/2017/04/02/90ccaa6e-0d61-11e7-b2bb-417e331877d9_story.html?utm_term=. 93835e7b6fa9. Published 
+April 2, 2017. Accessed October 20, 2017.
+ 14. McKay H. Syria’s secret caves serve as hospitals in a final lifeline to save victims. FoxNews.com. http://www.foxnews.
+com/world/2017/04/06/syria-s-secret-caves-serve-as-hospitals-in-final-lifeline-to-save-victims.html. Published April 6, 
+2017. Accessed October 20, 2017.
+ 15. Weintraub S. War in the Wards. San Rafael, CA: Presidio Press; 1976.
+ 16. Geneva Convention I, article 50. International Committee of the Red Cross. The Geneva Conventions of 12 August 
+1949. https://www.icrc.org/eng/assets/files/publications/icrc-002-0173.pdf. Accessed May 11, 2018. 
+ 17. Rome Statute of the International Criminal Court, Part 7. United Nations website. http://www.un.org/law/icc/index.
+html. Accessed October 20, 2017.
+ 18. UN Convention on the Prevention and Punishment of the Crime of Genocide, 1948. United Nations website. http://
+www.un.org/ga/search/view_doc.asp?symbol=a/res/260(III). Accessed October 20, 2017.
+ 19. Geneva Convention I, article 2; Geneva Convention II, article 2; Geneva Convention III, article 2; Geneva Convention 
+IV, article 2.
+ 20. US Department of Defense. DoD Law of War Program. Washington, DC: DoD; May 9, 2006. DoD Directive 2311. 01E.
+ 21. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): section 3. 1. 1. 2.
+ 22. Geneva Convention I, article 3; Geneva Convention II, article 3; Geneva Convention III, article 3; Geneva Convention 
+IV, article 3.
+ 23. Geneva Convention I, article 19.
+102
+Fundamentals of Military Medicine 
+ 24. Geneva Convention II, article 22.
+ 25. Geneva Convention I, article 36; Geneva Convention II, article 39.
+ 26. US Department of Defense. Joint Health Services. Washington, DC: DoD; December 11, 2017: appendix H: Impacts of 
+the law of war and medical ethics, H-11. Joint Publication 4-02. http://www.jcs.mil/Portals/36/Documents/Doctrine/
+pubs/jp4_02.pdf. Accessed May 11, 2018.
+ 27. Geneva Convention I, article 35.
+ 28. Geneva Convention II, article 38.
+ 29. Geneva Convention I, article 24.
+ 30. Geneva Convention II, article 36.
+ 31. Geneva Convention II, article 37.
+ 32. Geneva Convention II, article 27.
+ 33. Geneva Convention I, article 25.
+ 34. Geneva Convention I, article 26.
+ 35. Geneva Convention II, article 24.
+ 36. Ernst KA. Too Afraid to Cry: Maryland Civilians in the Antietam Campaign. Mechanicsburg, PA: Stackpole Books; 2007: 
+168–181.
+ 37. Geneva Convention I, article 18.
+ 38. Geneva Convention II, article 21.
+ 39. Geneva Convention I, article 13; Geneva Convention 11, article 13; Geneva Convention III, article 4.
+ 40. Geneva Convention I, article 12; Geneva Convention II, article 12.
+ 41. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): sections 7. 16, 9. 14. 1–9. 14. 4, 10. 14. 1–10. 14. 1. 3.
+ 42. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): sections 7. 7. 2–7. 7. 5. 1.
+ 43. Geneva Convention I, articles 19, 28.
+ 44. Geneva Convention II, articles 22, 28
+ 45. Geneva Convention I, article 38; Geneva Convention II, article 41. 
+ 46. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016) sections 7. 15. 1–7. 15. 1. 4.
+ 47. Geneva Convention I, article 40; Geneva Convention II, article 42.
+ 48. Geneva Convention I, article 28.
+ 49. Geneva Convention II, articles 22, 24, 25.
+103
+The Law of Armed Conflict and Military Medicine
+ 50. Geneva Convention I, article 21.
+ 51. Geneva Convention II, article 34.
+ 52. Geneva Convention I, article 22.
+ 53. Geneva Convention II, article 35.
+ 54. Geneva Convention III, article 12.
+ 55. Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: DoD; June 2015 (updated December 2016): sections 7. 20. 1–7. 20. 3.
+ 56. Additional Protocol I to the Geneva Conventions of 1977, article 8(a). International Committee of the Red Cross. Protocols 
+Additional to the Geneva Conventions of 12 August 1949. https://www.icrc.org/eng/assets/files/other/icrc_002_0321.
+pdf. Accessed May 11, 2018.
+ 57. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): section 1. 8. 1.
+ 58. US Department of Defense. Joint Health Services. Washington, DC: DoD; December 11, 2017: appendix J, Section B, 
+Health Services Checklist for Stability Operations. Joint Publication 4-0, http://www.jcs.mil/Portals/36/Documents/
+Doctrine/pubs/jp4_02.pdf2. Accessed May 11, 2018.
+ 59. United Nations Office for the Coordination of Humanitarian Affairs. Reliefweb. https://reliefweb.int/. Accessed May 
+14, 2018.
+ 60. Geneva Convention IV, article 18.
+ 61. Geneva Convention IV, article 20.
+ 62. Geneva Convention IV, article 19.
+ 63. Geneva Convention IV, article 14.
+ 64. Geneva Convention IV, article 15.
+ 65. Geneva Convention I, article 9; Geneva Convention II, article 9; Geneva Convention III, article 9; Geneva Convention 
+IV, article 10.
+ 66. Geneva Convention IV, article 63.
+ 67. Universal Declaration of Human Rights. United Nations website. http://www.un.org/en/universal-declaration-humanrights/. Accessed October 20, 2017.
+ 68. United Nations High Commissioner for Human Rights. International Covenant on Civil and Political Rights. http://
+www.ohchr.org/en/professionalinterest/pages/ccpr.aspx. Accessed May 11, 2018. 
+ 69. United Nations High Commissioner for Human Rights. Convention Against Torture and Other Cruel, Inhuman or 
+Degrading Treatment or Punishment. http://www.ohchr.org/EN/ProfessionalInterest/Pages/CAT.aspx. Accessed May 
+11, 2018. 
+ 70. US Department of Defense, Office of General Counsel. Department of Defense Law of War Manual. Washington, DC: 
+DoD; June 2015 (updated December 2016): section 1. 6. 3. 4.
+ 71. World Health Organization. Constitution of the World Health Organization. http://www.who.int/governance/eb/
+who_constitution_en.pdf. Accessed October 20, 2017. 
+104
+Fundamentals of Military Medicine 
+ 72. United Nations High Commissioner for Human Rights. International Covenant on Economic, Social and Cultural 
+Rights, article 12. http://www.ohchr.org/EN/ProfessionalInterest/Pages/CESCR.aspx. Accessed May 11, 2018.
+ 73. International Committee of the Red Cross. Health Care in Danger: The Responsibilities of Health-Care Personnel Working in 
+Armed Conflicts and Other Emergencies. Geneva, Switzerland: ICRC; 2013: 37. https://www.icrc.org/en/publication/4104health-care-danger-responsibilities-health-care-personnel-working-armed-conflicts. Accessed May 11, 2018.

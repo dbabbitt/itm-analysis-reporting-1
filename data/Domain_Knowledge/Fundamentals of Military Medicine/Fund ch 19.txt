@@ -1,0 +1,481 @@
+273
+Environmental Extremes: Heat and Cold
+Section III
+HUMAN PERFORMANCE 
+OPTIMIZATION
+Section Editors: 
+Patricia A. Deuster, PhD, MPH, and Jonathan M. Scott, PhD
+Army astronauts COL Andrew “Drew” Morgan and LTC Anne McClain, both from the astronaut class of 2013, prepare to be 
+promoted while underwater following required training in the Neutral Buoyancy Laboratory at the Sonny Carter Training 
+Facility in Houston, Texas, September 27, 2018. (NASA Neutral Buoyancy Laboratory photo)
+Reproduced from: https://www.dvidshub.net/image/4808055/army-astronauts.
+274
+Fundamentals of Military Medicine
+275
+The Evolution of Human Performance Optimization and Total Force Fitness
+Chapter 19
+THE EVOLUTION OF HUMAN 
+PERFORMANCE OPTIMIZATION AND 
+TOTAL FORCE FITNESS
+PATRICIA A. DEUSTER, PhD, MPH*; FRANCIS G. O’CONNOR, MD, MPH†; and TRAVIS K. LUNASCO, PsyD‡
+INTRODUCTION
+DEFINITIONS
+BACKGROUND 
+Historical Context
+Total Force Fitness Model
+Role of Total Force Fitness in Force Health Protection and Readiness
+Proposed Human Performance Optimization Model
+Human Performance Optimization/Total Force Fitness: A Paradigm Shift
+HUMAN PERFORMANCE OPTIMIZATION AND THE MILITARY MEDICAL 
+OFFICER 
+Role of the Military Medical Officer 
+Guidance to the Commanding Officer
+SUMMARY
+*Professor and Director, Consortium for Health and Military Performance (CHAMP), Uniformed Services University of the Health Sciences, Bethesda, 
+Maryland
+†Colonel (Retired), Medical Corps, US Army; Professor and former Department Chairman, Military and Emergency Medicine, Uniformed Services 
+University of the Health Sciences, Bethesda, Maryland
+‡Senior Operational Psychologist, Consortium for Health and Military Performance, Department of Military and Emergency Medicine, Uniformed 
+Services University of the Health Sciences, Bethesda, Maryland
+276
+Fundamentals of Military Medicine
+INTRODUCTION
+Service members and their families are the most 
+valuable assets to accomplish the mission of defending the country. This complex mission has resulted 
+in unparalleled operational demands with multiple 
+deployments and strains on the US armed forces. 
+While extensive resources have always been expended to ensure equipment and materials are both 
+state-of-the-art and in good repair, resources for 
+maintaining and improving human performance, 
+health, and resilience have been more limited. By 
+2006, it had become clear that operational demands 
+were degrading the capabilities, health, and resiliency 
+of military communities.
+To address this problem, the terms “human performance optimization” (HPO) and “total force fitness” 
+(TFF) emerged as conceptual frameworks within the 
+Department of Defense (DoD) to preserve the capabilities, health, and well-being of service members and 
+their families. The performance, health, and well-being 
+of the whole person, the family, and the community 
+were viewed as fundamental to accomplishing the 
+mission. Since that time, HPO and TFF have become 
+recognized as cornerstones of an effective and efficient military, and the terms have become ingrained 
+throughout the DoD. This chapter will define terms, 
+provide a brief historical background, describe the 
+holistic framework of TFF and the underpinnings of 
+HPO, relate the terms to the role of a military medical 
+officer (MMO), and then provide resources for the 
+MMO relating to both HPO and TFF.
+DEFINITIONS
+ 
+• Human performance optimization. The 
+process of applying knowledge, skills, and 
+emerging technologies to improve and preserve the capabilities of military personnel to 
+execute essential tasks. A number of related 
+terms have been used to describe various 
+aspect of HPO, for example, performance enhancement, performance sustainment, performance restoration, and human performance 
+modification. The terms “enhancement,” 
+“sustainment,” and “restoration” are aligned 
+with phases of military missions.
+ 
+◦ Performance enhancement. Optimizing 
+and enhancing every system to the fullest 
+degree possible before deployment.
+ 
+◦ Performance sustainment. Sustaining performance at predeployment levels during 
+deployment.
+ 
+◦ Performance restoration. Restoring or 
+returning performance to predeployment 
+levels postdeployment. 
+ 
+• Human performance modification. “Encompasses actions ranging from the use of 
+“natural” materials such as caffeine or khat 
+as stimulants, to the application of nanotechnology as a drug delivery mechanism or 
+an invasive brain implant. 1 Although the literature on human performance modification 
+typically addresses methods that enhance performance, another possible focus is methods 
+that degrade performance or negatively affect 
+a military force’s ability to fight.”1(p1) HPO is 
+the preferred term because it is all encompassing—optimal is the end result—either 
+through enhancement, modification, sustainment, or restoration. Human performance 
+should be optimized whenever possible.
+ 
+• Total force fitness. A holistic conceptual 
+framework for understanding, assessing, and 
+maintaining the fitness of the armed forces. 
+The TFF framework starts with eight domains 
+(medical/dental, nutritional, social, behavioral, environmental, psychological, spiritual, and physical) that can be tailored to the 
+unique cultural framework of each military 
+community. The interrelated functionality of 
+TFF is informed by five overarching tenets as 
+shown in Exhibit 19-1.
+BACKGROUND
+Historical Context
+The concept of HPO, and its critical role for military success on the battlefield, has been appreciated 
+for a long time. During the Civil War, Dr Jonathan 
+Letterman, considered by many to be the “father of 
+battlefield medicine,” recognized the importance of 
+HPO, stating that “the leading idea [for the medical 
+corps], which should be constantly kept in view, is 
+to strengthen the hands of the Commanding General 
+by keeping his Army in the most vigorous health, 
+thus rendering it, in the highest degree, efficient for 
+enduring fatigue and privation, and for fighting.”2 
+In 1933 US Army General (then Colonel) George S. 
+277
+The Evolution of Human Performance Optimization and Total Force Fitness
+Patton wrote, “Wars may be fought with weapons, 
+but they are won by men. It is the spirit of the men 
+who follow and of the man who leads that gains the 
+victory.”3 After World War II, General Dwight D. 
+Eisenhower said, “Guns and tanks and planes are 
+nothing unless there is a solid spirit, a solid heart, and 
+great productiveness behind it.”4 In 1987 US Army 
+Special Forces Colonel John Collins emphasized that 
+“hardware” is only a tool and that it is the person 
+who determines success or failure. He is credited 
+with developing the Special Operations Forces five 
+truths, of which is “Humans are more important 
+than hardware and their quality is more important 
+than quantities.”5
+It was not until 2006 that the term HPO actually 
+emerged with energy within the DoD. An Office of 
+Net Assessment report came out in 2005 challenging 
+the DoD to take a look at how the most important 
+resource—the service members—were being looked 
+after. 6 In June 2006, the Consortium for Health and 
+Military Performance (CHAMP) at the Uniformed 
+Services University of the Health Sciences hosted a 
+workshop called Human Performance Optimization: 
+An Evolving Charge to the Department of Defense, 
+with the findings published in Military Medicine. 7 
+This workshop changed the course of HPO in the 
+DoD, and resulted in the development of the Human 
+Performance Resource Center (HPRC), a DoD website 
+for all information relating to the improvement and 
+preservation of human performance (hprc-online.
+org). 
+Total Force Fitness Model
+In December 2009, CHAMP hosted a workshop 
+on TFF that resulted in an instruction from the chairman of the Joint Chiefs of Staff, which can be found 
+on the HPRC website. 8 This guidance extended the 
+concept of “physical fitness” to include body, mind, 
+social, and spiritual domains; it created a more 
+comprehensive and holistic framework to support 
+and integrate joint and service-specific efforts that 
+seek to promote health, enhance the resilience of 
+service personnel, and improve effectiveness and 
+efficiency of the force. 9–22 TFF integrates all aspects 
+of health, well-being, and performance—and recognizes the important contributions of families, friends, 
+communities, and units. In its application, the TFF 
+framework and its tenets are designed to keep service members and their families performing at an 
+optimal level: healthy, resilient, and flourishing in 
+the environment of sustained deployment and combat operations. Thus, TFF and HPO are synergistic 
+and complementary. They go together and must be 
+considered as a unit. Figure 19-1 presents the eight 
+original domains of TFF.
+Any evaluation of TFF must be context specific 
+because teams, units, families, and communities 
+may be very effective at particular tasks, and less 
+effective at others. For example, a combat unit may 
+be very successful with mission efforts, but encounter problems when it returns from a deployment or 
+during reintegration. Although the TFF framework 
+identifies eight mind–body domains, social fitness 
+has been highlighted as particularly critical for unit 
+fitness because it is a robust resilience factor. 23 A 2013 
+Rand report24 identified social support as a key factor 
+that can affect an individual’s resilience. Social fitness also is very important for unit, family, peer, and 
+community fitness. These are key signatures of military culture and operational success because people 
+are primary drivers for effectiveness. Overall TFF 
+is conceptualized in terms of healthy relationships 
+among people and teams that contribute to optimal 
+unit, family, and community well-being, resilience, 
+and performance.
+EXHIBIT 19-1
+THE TENETS OF TOTAL FORCE FITNESS 
+ 
+• Total fitness extends beyond the service member. Total fitness should enhance performance and preserve 
+capabilities, improve health, and strengthen resilience in families, communities, and organizations.
+ 
+• A service member’s family’s health plays a key role in sustained success and must be incorporated into any 
+definition of total fitness.
+ 
+• Total fitness metrics must measure positive and negative outcomes, and must show movement toward total 
+fitness.
+ 
+• Total fitness is linked to the fitness of the society from which the service members are drawn and to which 
+they will return.
+ 
+• Leadership is essential in achieving total fitness.
+278
+Fundamentals of Military Medicine
+Role of Total Force Fitness in Force Health 
+Protection and Readiness
+All eight TFF domains are important and require 
+attention from leaders at multiple levels to ensure TFF 
+of all units, an essential factor in force health protection, readiness, and preservation. The TFF conceptual 
+framework places the service member at the center of 
+the eight interrelated TFF domains and identifies the 
+critical influence of the family, organization, and community (see Figure 19-1). This framework assumes that 
+family, organizational, and community factors have 
+a significant impact on individual fitness. The model 
+also assumes that individual fitness has an important 
+reciprocal relationship with fitness of larger social 
+structures (eg, family, unit, community, and enterprise). 25 This is not surprising or unexpected, given 
+that military culture emphasizes teamwork and group 
+cohesion rather than individuals. 26
+Proposed Human Performance Optimization Model
+HPO builds on the framework of TFF with an 
+orientation on performance. Figure 19-2 provides an 
+understanding of HPO in comparison with traditionally offered healthcare delivery. The spectrum begins at 
+left and movement to the right indicates degradation of 
+capabilities, health, and resiliency. Traditional healthcare is considered “right-sided”: the driving force for 
+engagement is centered on illness/pathology. Sustained 
+HPO requires a holistic “left of the bang” engagement 
+and orientation. Leveraging HPO sustainment and 
+Figure 19-1. The total force fitness (TFF) framework identifying the critical influence of the family, community, organization, 
+and the eight overarching domains of TFF.
+improvements should be directed by the primary 
+groups noted in the lower section of the figure. The 
+MMO’s role and function in this process (“left” sided) 
+will be different in comparison to that of working in a 
+clinical/hospital setting (“right”-sided care). A deeper 
+understanding of the need for a paradigm shift and 
+community involvement is offered later in this chapter. 
+HPO requires military cultural competency and a 
+greater appreciation for the complexities of diverse 
+service member communities and their missions. The 
+demands/resources model (Figure 19-3) is an ideal 
+tool to compliment the HPO-oriented framework and 
+TFF model because it was developed to evaluate work 
+performance. 27–29 The model proposed in Figure 19-3 
+allows for performance metrics in multiple venues: 
+family, relationships, and work. This model also 
+includes multiple resources (individual, family, and 
+external environment) and well-established demands 
+(eg, work, family, financial, social). Overall, the concept is that optimal performance will be sustained 
+when resources (individual, family, and external) 
+match or exceed demands. HPO is resource focused. 
+Figure 19-4 presents an overview of the multiple 
+and competing individual, family, and other resources 
+by various categories that contribute to performance 
+in diverse venues. Although not complete, these 
+various factors and environmental issues demonstrate 
+the holistic approach: from cognitive to genetic and 
+physiologic, from behavioral and individual skills and 
+practices to social and physical environmental factors. 
+Some of the contributors are inherent, whereas others 
+may be state- or situation-dependent. As new evidence 
+279
+The Evolution of Human Performance Optimization and Total Force Fitness
+Figure 19-2. The human performance optimization (HPO) demands/resources model. From top to bottom: (1) An orientation 
+that focuses on the needs of each operator community and their mission essential tasks. (2) The rainbow spectrum begins at 
+left (performance = purple), and movement to the right indicates degradation of capabilities, health, and resiliency. Traditional 
+healthcare is considered “right of bang,” with its driving force for engagement centered on illness/pathology. Sustained HPO 
+requires a holistic “left of bang” engagement and orientation. (3) Leveraging HPO sustainment and improvements should be 
+directed by the primary agents with corresponding service types. (4) An orientation that moves beyond medical readiness 
+toward mission readiness. (5) The holistic and integrative total force fitness framework is key to targeting resources and 
+efforts and the delivery of precision care.
+RTD: return to duty
+Figure 19-3. The human performance optimization demands/
+resources model.
+and information becomes available, it can be inserted 
+into the model. In addition to the resources indicated 
+in Figure 19-4, other social support networks may be 
+available to operational communities and commands. 
+The intricacies, interactions, and intersections of how 
+and what impacts performance are numerous. 
+Human Performance Optimization/Total Force Fitness: A Paradigm Shift
+The traditional model of care delivery is fragmented 
+and illness centered. Think back to your medical training. How many courses offered allowed you to work with a 
+healthy individual? What about a high-performing athlete 
+where your job was to keep them performing at the top of 
+their game and prevent performance degradation? The 
+complexities and evolving operational needs of the 
+battlefront require an approach that aids combatant 
+commanders in sustaining the health, performance, 
+and resiliency of their unit so performance degradation 
+is minimized. In addition, each military community 
+requires a tailored framework given their diverse 
+mission, skill sets, and operational risks. TFF and the 
+capability-focused orientation provided by HPO offer 
+this conceptual framework. The instruments described 
+above are powerful tools to aid in the MMO’s ability 
+to deliver soldier-centric care. 
+280
+Fundamentals of Military Medicine
+HUMAN PERFORMANCE OPTIMIZATION AND THE MILITARY MEDICAL OFFICER
+Figure 19-4. An overview of the multiple and competing individual, family, and other resources by various categories.
+Role of the Military Medical Officer
+The MMO is key to the successful employment of 
+HPO and TFF and maximizing the health, well-being, 
+and performance of the military community in which 
+they serve. HPO and TFF require the MMO to assume a 
+number of roles (eg, consultant, student, expert, coach, 
+liaison) with a relationship built on trust and credibility. If an MMO can relate to the operational community 
+on key topics and learn to see the mission through the 
+service member’s eyes, they will be welcomed “into 
+the fold.” Keeping service members fit and performing at their best is a high priority; thus, the following 
+characteristics of the MMO are key: 
+ 
+• being able to modulate between expert and 
+student; military community cultural competency;
+ 
+• establishing presence and role modeling; 
+ 
+• being well versed in the language of HPO; 
+ 
+• having a “holistic” orientation; 
+ 
+• being skilled in adapting the TFF domains 
+to fit the unique needs of each military community; and 
+ 
+• being up to date on the latest available technologies for enhancing performance. 
+Perhaps one of the most important issues is being 
+a responsible leader. This demands both setting an 
+example and mentoring in a team-like way. To engage 
+operational service members, MMOs must be a learner 
+first to understand their unique unit culture. MMOs 
+must be able to listen and hear what the unit members 
+see as their most critical needs. MMOs must also be 
+a role model, which includes maintaining physical 
+fitness, nutritional fitness, medical/dental fitness, and 
+fitness for the other domains, as well as being versed 
+in all other aspects of TFF and HPO. MMOs should 
+281
+The Evolution of Human Performance Optimization and Total Force Fitness
+not tell service members what to do; rather, they must 
+live the role and know where to get the information 
+they seek.
+An MMO’s behaviors, attitudes, and overt actions 
+must demonstrate the value of health, well-being and 
+HPO, but MMOs must also be able to speak and hear 
+the language of the operational communities. One 
+important aspect of HPO for the MMO is being able 
+to listen. HPO is the end result of being proactive in 
+achieving, embracing, supporting, and living the tenets and goals of TFF. The behavior and actions of an 
+MMO make a statement, and that statement must be 
+positive: it must resonate as: “I believe in health and 
+HPO. I embrace HPO and support the TFF and HPO 
+frameworks and expectations.” 
+However, each unit or operational community may 
+have very concrete strengths and vulnerabilities, and 
+the MMO must help them identify gaps through listening and observing, not just telling. An MMO must assist 
+the DoD in achieving the goal of being an enterprise 
+that welcomes, supports, and promotes the framework 
+that all service members and family members, retirees, 
+and civilians can live and embrace the concepts and 
+behaviors of TFF—a holistic framework that supports 
+the culture of each unit, group, and community.
+Guidance to Commanding Officer
+The MMO, when in direct support of the line, functions as a special staff officer to the commander. In this 
+function, the MMO serves as a subject matter expert 
+in many arenas, including physical fitness, as Letterman put forth in his original mandate for the Medical 
+Corps. Although the commander has the ultimate 
+responsibility for what their unit does and fails to do, 
+the MMO has the requirement and obligation to assist 
+the commander with the execution of current relevant 
+guidance. TFF is currently written into joint doctrine as 
+a CJCSI 3405. 01, published on September 1, 2011. 8 This 
+doctrine is authoritative and should be the principal 
+resource utilized to guide the commander in assuring 
+their service members are totally fit and resilient for 
+combat and all other operations. Other resources can 
+be found online (Exhibit 19-2).
+EXHIBIT 19-2
+ONLINE RESOURCES FOR HUMAN PERFORMANCE OPTIMIZATION AND TOTAL FORCE 
+FITNESS 
+The websites listed below are Department of Defense (DoD) human performance optimization resources for 
+service members and providers. The first two are hosted by the Consortium for Health and Military Performance 
+(CHAMP), the DoD Center of Excellence for Human Performance. The third site, Military OneSource, complements 
+CHAMP resources.
+ 
+• Human Performance Resource Center (http://hprc-online.org/)
+ 
+• Operation Supplement Safety (http:/opss.org)
+ 
+• Military OneSource (http://www.militaryonesource.mil/) 
+SUMMARY
+Leaders recognized that sustained combat operations for over a decade generated the need for a new 
+paradigm for understanding, developing, and assessing fitness. HPO and TFF emerged from thoughtful 
+discussions and innovative actions; they reflect the 
+vision and reality that people represent the military’s 
+most valuable resource. Therefore, a holistic approach 
+to fitness and performance must be and is the foundation for such a vision. TFF is now published in joint 
+military doctrine and represents a desired end state 
+for current service members and their families. HPO 
+is the process whereby TFF can be achieved as knowledge, skills, and emerging technologies are leveraged 
+to improve and preserve the capabilities of military 
+personnel to execute essential tasks. In the execution 
+of any HPO program to achieve TFF, the demands/
+resources model specifically provides a framework 
+with the principal concept that performance will be 
+optimized when resources (individual, family, and 
+external) match or exceed demands. The MMO is 
+uniquely, and importantly, postured in the military 
+chain of command to directly influence the shaping of a 
+fit and ready force. The ultimate goal of TFF and HPO 
+is not only to enhance individual and unit performance 
+and wellness, but also to ensure a ready force to win 
+the nation’s present and future battles. The remaining 
+chapters in this section should build upon the concepts 
+described here.
+282
+Fundamentals of Military Medicine
+REFERENCES
+ 
+1. Human Performance Modification: Review of Worldwide Research with a View to the Future. Washington, DC: The National 
+Academies Press; 2012.
+ 
+2. Clements BA. Medical Recollections of the Army of the Potomac by Jonathan Letterman, MD, and Memoir of Jonathan Letterman, MD. Knoxville, TN: Bohemian Brigade Publishers; 1994: 100.
+ 
+3. Patton GS. Mechanized forces. Cavalry J. 1933;42:5-8.
+ 
+4. Eisenhower DD. Speech to the Economic Club of New York; New York, NY; November 20, 1946. Ike Eisenhower 
+Foundation. Quotes, war and defense. https://www.dwightdeisenhower.com/195/War-Defense. Accessed February 
+5, 2018.
+ 
+5. Collins JM. US Special Operations: personal opinions. Small Wars J. 2008(Dec 13).
+ 
+6. Russell A, Bulkley B, Grafton C. Human Performance Optimization and Military Missions: Final Report, GS-10F-0297K. 
+Washington, DC: US Department of Defense, Office of Net Assessment; May 2005.
+ 
+7. Deuster PA, O’Connor FG, Henry KA, et al. Human performance optimization: an evolving charge to the Department 
+of Defense. Mil Med. 2007;172(11):1133–1137.
+ 
+8. Chairman of the Joint Chiefs of Staff. Chairman’s Total Force Fitness Framework. Washington, DC: JCS; 2011. CJCS Instruction 3405. 01. https://www.hprc-online.org/resources/chairman-of-the-joint-chiefs-of-staff-instruction-cjcsi. Accessed 
+February 5, 2018.
+ 
+9. Land BC. Current Department of Defense guidance for total force fitness. Mil Med. 2010;175(8S):3–5.
+ 10. Roy TC, Springer BA, McNulty Vl, Butler NL. Physical fitness. Mil Med. 2010;175(8S):14–20.
+ 11. Coulter I, Lester P, Yarvis J. Social fitness. Mil Med. 2010;175(8S):88–96.
+ 12. O’Connor FG, Deuster PA, DeGroot DW, White DW. Medical and environmental fitness. Mil Med. 2010;175(8S):57–64.
+ 13. Bates MJ, Bowles S, Hammermeister J, et al. Psychological fitness. Mil Med. 2010;175(8S):21–38.
+ 14. Hufford DJ, Fritts MJ, Rhodes JE. Spiritual fitness. Mil Med. 2010;175(8S):73–87.
+ 15. Montain SJ, Carvey CE, Stephens MB. Nutritional fitness. Mil Med. 2010;175(8S):65–72.
+ 16. Westphal RJ, Woodward KR. Family fitness. Mil Med. 2010;175(8S):97–102.
+ 17. Jonas WB, O’Connor FG, Deuster PA, Peck J, Shake C, Frost SS. Why total force fitness? Mil Med. 2010;175(8S):6–13.
+ 18. Bray RM, Spira JL, Olmsted KR, Hout JJ. Behavioral and occupational fitness. Mil Med. 2010;175(8S):39–56.
+ 19. Firth KM, Smith K. A survey of multidimensional health and fitness indexes. Mil Med. 2010;175(8S):110–117.
+ 20. Mullen M. On total force fitness in war and peace. Mil Med. 2010;175(8S):1–2.
+ 21. Rounds M. The principal challenge of realizing total force fitness: changing our readiness culture. Mil Med. 
+2010;175(8S):124–126.
+ 22. Walter JA, Coulter I, Hilton L, Adler AB, Bliese PD, Nicholas RA. Program Evaluation of total force fitness programs 
+in the military. Mil Med. 2010;175(8S):103–109.
+ 23. Coulter I, Lester P, Yarvis J. Social fitness. Mil Med. 2010;175:88–96.
+283
+The Evolution of Human Performance Optimization and Total Force Fitness
+ 24. McGene J. Social Fitness and Resilience: A Review of Relevant Constructs, Measures, and Links to Well-Being. RAND Project 
+Air Force Series on Resiliency. Santa Monica, CA: RAND Corporation; 2013. https://www.rand.org/content/dam/rand/
+pubs/research_reports/RR100/RR108/RAND_RR108.sum.pdf. Accessed February 5, 2018.
+ 25. Demerouti E, Bakker AB, Nachreiner F, Schaufeli WB. The job demands-resources model of burnout. J Appl Psychol. 
+2001;86(3):499–512.
+ 26. Bates MJ, Fallesen JJ, Huey WS, et al. Total force fitness in units, part 1: military demand-resource model. Mil Med. 
+2013;178(11):1164–1182.
+ 27. Bakker AB, Van Emmerik H, Van Riet P. How job demands, resources, and burnout predict objective performance: a 
+constructive replication. Anxiety Stress Coping. 2008;21(3):309–324.
+ 28. Bakker AB, Demerouti E, Euwema MC. Job resources buffer the impact of job demands on burnout. J Occup Health 
+Psychol. 2005;10(2):170–180.
+ 29. Demerouti E, Bakker AB, Nachreiner F, Schaufeli WB. The job demands-resources model of burnout. J Appl Psychol. 
+2001;86(3):499–512.
+284
+Fundamentals of Military Medicine

@@ -1,0 +1,713 @@
+381
+Sleep, Rest, and Recovery
+Chapter 26
+SLEEP, REST, AND RECOVERY
+ANGELA M. YARNELL, PhD*; MATTHEW L. LOPRESTI, PhD†; OMOTOLA O. LANLOKUN, BS‡; and THOMAS J. 
+BALKIN, PhD§
+INTRODUCTION
+DEFINITIONS
+BACKGROUND
+MILITARY SERVICE AND SLEEP DEFICITS
+ROLE OF MILITARY MEDICAL OFFICER
+SLEEP HYGIENE AND FATIGUE MANAGEMENT TOOLS
+GUIDANCE TO COMMANDING OFFICER
+SUMMARY
+SLEEP MANAGEMENT RESOURCES
+*Major, Medical Service Corps, US Army; Research Psychologist, Behavioral Biology Branch, Center for Military Psychiatry Neuroscience Research, 
+Walter Reed Army Institute of Research, Silver Spring, Maryland
+†Major, Medical Service Corps, US Army; Deputy Director, US Army Medical Research Directorate-West, Walter Reed Army Institute of Research, 
+Joint Base Lewis-McChord, Washington
+‡Research Intern, ORISE, Behavioral Biology Branch, Center for Military Psychiatry & Neuroscience, Walter Reed Army Institute of Research, Forest 
+Glen, Maryland
+§Fellow, ORISE Knowledge Preservation Program, Behavioral Biology Branch, Center for Military Psychiatry & Neuroscience, Walter Reed Army 
+Institute of Research, Forest Glen, Maryland
+382
+Fundamentals of Military Medicine
+INTRODUCTION
+Sleep is important to every aspect of performance 
+involving the brain. Therefore, adequate sleep, rest, 
+and recovery (reset) are critical components of any 
+successful military training program or operational 
+mission. The reset process requires adequate rest and 
+recovery time after a major physiological or psychological insult such as an intense experience or demanding work period.
+Friction often exists between meeting mission requirements and obtaining adequate sleep or rest in 
+an operational environment. Commanders naturally 
+want to know the minimum amount of sleep or rest 
+needed to maintain military effectiveness during missions, between missions, and for full recovery or reset.
+This chapter provides military medical officers 
+(MMOs) information needed to advise unit commanders on appropriate management of sleep and 
+alertness in their troops. MMOs play an important role 
+in promoting sleep health and teaching tools service 
+members can use to maximize good sleep practices. 
+DEFINITIONS
+Sleep represents a physiological function of the 
+brain and is required to maintain health and performance. Exhibit 26-1 further defines sleep and provides 
+a popular theory about sleep and wake. Rest refers to 
+periods of time when no tasks are being performed 
+(time off task). Performance improvement results from 
+rest, but rest does not equal sleep. During sleep, rest 
+occurs, but not vice versa.
+There is broad agreement about what sleep is and 
+how it can be identified and measured, but there is no 
+consensus regarding the ultimate functions of sleep. 
+In 1976, Naitoh observed that sleep deprivation studies have served only to “confirm repeatedly a truism: 
+[sleep loss] makes animals and humans sleepy.”1 
+Although this observation remains largely true today, 
+the past 4 decades of sleep research has produced a 
+wealth of knowledge and some compelling hypotheses regarding the functions of sleep. For example, 
+Tononi and Cirelli2 hypothesize that sleep serves to 
+prune away excess, energy-depleting synaptic connections that accrue during wakefulness, making 
+the well-slept cortex optimally efficient—a state that 
+manifests behaviorally as optimal alertness and cognitive performance.
+Sleepiness and fatigue are frequently used interchangeably, but are best considered as distinct phenomena. Sleepiness is best defined as the propensity 
+or readiness to initiate sleep. It varies as an interactive 
+function of sleep debt (caused by inadequate sleep) 
+EXHIBIT 26-1
+TWO-PROCESS THEORY OF SLEEP 
+“Sleep is a dynamic behavior . . . a special activity of the brain controlled by precise and elaborate 
+mechanisms.”1 Sleep serves a homeostatic function 
+in the body and is marked by reduced consciousness, reduced response to environmental stimuli, 
+and dreaming. Alexander Borbély, a Swiss sleep 
+researcher, presented a model in the early 1980s 
+to describe the regulation of the sleep–wake cycle. 
+He proposed that this cycle is regulated by two 
+interacting mechanisms, or processes of sleep–wake 
+regulation2: 
+ 
+• Process C represents circadian rhythm, or the 
+regulation of the body’s internal processes 
+and alertness levels, governed by the internal 
+biological clock.
+ 
+• Process S represents the accrual of the physiological need for sleep during wakefulness 
+that manifests as a homeostatic drive for 
+sleep.
+1. Hobson JA. Sleep. New York, NY: Scientific American 
+Library; 1989: 1.
+2. Borbély AA. A two process model of sleep regulation. 
+Hum Neurobiol. 1982;1(3):195–204. 
+Inadequate
+sleep
+Sleepiness
+Fatigue
+Impaired
+Performance
+Time-on-task
+Figure 26-1. Although sleepiness and fatigue are caused by 
+different factors, both affect performance.
+383
+Sleep, Rest, and Recovery
+and the circadian rhythm of alertness. 3 Sleepiness 
+is marked by deficits in alertness and cognitive performance4 related to deactivation of brain regions 
+associated with higher order cognitive functions (eg, 
+prefrontal cortex). 5 Sleepiness can only be reversed 
+by sleep. 
+Fatigue is defined as a subjective awareness of declining abilities, due to increasing mental effort6 that 
+results from increasing “time on task.” Fatigue may 
+be accompanied by observable decrements in performance7 after prolonged or repeated tasks that vary as 
+a result of cognitive load or task difficulty and time 
+on task. 8 Unlike sleepiness, fatigue can be reversed 
+by “time off task.”
+Sleepiness and fatigue both result in performance 
+decrements; however, these phenomena are physiologically different. Fatigue accrues as a function of “time 
+on task,” whereas sleepiness accrues as an interactive 
+function of “time awake” and the circadian rhythm 
+of alertness,8 as shown in Figure 26-1. Sleepiness is 
+reversed by sleep, and fatigue is reversed with rest. 
+Physicians should explore patient complaints of 
+fatigue because patients may be using it in different 
+ways to describe tiredness or malaise (eg, as associated 
+with depression or diabetes). When sustained performance is required, appropriate interventions should 
+be recommended on the basis of both “time on task” 
+and “time awake” variables.
+BACKGROUND
+With mounting scientific evidence suggesting 
+its importance for health, safety, and performance, 
+adequate sleep has increasingly become the focus of 
+the US military’s efforts to improve and sustain the 
+effectiveness, short-term and long-term well-being, 
+and quality of life of service members. 9 The array of 
+deleterious effects resulting from sleep loss is wide. 
+One particularly important effect is impaired immune 
+function. 10 
+ In the short term, acute sleep deprivation results 
+in impaired cognitive performance including the following11–14:
+ 
+• reduced vigilance and situational awareness,
+ 
+• impaired critical thinking and problem 
+solving, 
+ 
+• compromised decision-making, and
+ 
+• deficits in motivation.
+This impaired cognitive performance may increase 
+likelihood of accidents and suboptimal task and 
+mission completion. Psychological impacts such as 
+enhanced symptoms of pain, fatigue, and negative 
+moods may also affect well-being and job performance. 
+In the longer term, chronic sleep restriction has been 
+shown to lead to impaired alertness and performance 
+that accrues over days and weeks in a dose-dependent 
+manner. 15,16 
+In recent years, the effects of chronic sleep restriction 
+on health and well-being have been found to include 
+reduced resilience to stress-related disorders such as 
+the following:
+ 
+• posttraumatic stress disorder and 
+depression,17–21 
+ 
+• cardiovascular disease,22 
+ 
+• type II diabetes,23 
+ 
+• metabolic syndrome and weight changes,24,25 
+and 
+ 
+• mortality. 26,27 
+Recent epidemiological evidence also suggests that 
+chronic reduced sleep may predict dementing illnesses 
+such as Alzheimer disease. 28
+MILITARY SERVICE AND SLEEP DEFICITS
+Sleep disturbances are common among military 
+personnel. Problems may begin at the start of a military 
+career and do not discriminate by rank. Recruits at 
+basic training as well as cadets at the service academies 
+typically obtain less than the recommended 8 hours of 
+sleep per night. For example, at the US Military Academy, cadets obtain an average of less than 5. 5 hours 
+of sleep per night during their 4 years of training. 29–31
+Deployed service members are impacted even more. 
+Because modern military operations are often characterized by high operational tempos, with 24-hourper-day activity and austere, non-sleep-conducive 
+environments, chronic sleep restriction is widespread 
+among deployed troops. Deployed service members 
+report that they average significantly less than the recommended 8 hours of sleep per night,32,33 and less than 
+the amount of sleep obtained in garrison. 34 They report 
+averaging less than 6 hours of sleep per night, and over 
+half report experiencing some sleep deprivation. 35 A 
+study of deployed US Air Force personnel revealed 
+that 75% reported sleep that was so poor they met the 
+diagnostic criteria for insomnia. 32 Nighttime duties 
+and poor sleep environments are the major factors 
+impacting sleep while deployed. 36 US Navy personnel 
+384
+Fundamentals of Military Medicine
+are no strangers to poor sleep either. Submariners, for 
+example, report poor quality and quantity of sleep 
+while at sea (< 6 h) compared to shore duty (~7 h) or 
+while on leave (>7 h). 37 On surface ships, sailors who 
+work the night shift topside and are exposed to bright 
+morning sun just prior to bedtime (in the ascending 
+phase of the circadian rhythm) sleep less (4. 7 h) than 
+sailors who work below deck during the night shift 
+(7. 4 h) without exposure to sunlight prior to bedtime. 38 
+Furthermore, it has been shown that subjective 
+reports of sleep duration and habituation to chronic 
+sleep restriction are not accurate and do not reflect 
+physiological adaptation. 39,40 Because subjective measures of sleepiness do not always accurately reflect 
+the actual level of sleepiness-related impairment, 
+objective measures of sleep such as wrist actigraphy 
+are critical for the evaluation of both individual and 
+unit-level readiness, especially in operational environments where performance is critical to mission 
+success. Actigraphy has been shown to be a valuable 
+tool to supplement fatigue risk-management systems 
+for monitoring alertness in various high-risk and shiftwork environments, including aviation,41,42 trucking,43 
+and hospitals. 44 More information about using tools 
+such as actigraphy to implement good sleep hygiene 
+practices is detailed below.
+There is emerging evidence that military personnel 
+may be especially susceptible to a unique constellation of symptoms comprising a newly proposed 
+syndrome called trauma-associated sleep disorder. 45 
+This proposed syndrome is similar to, and could easily 
+be confused with, rapid eye movement sleep behavior 
+disorder because both are characterized by disinhibition of voluntary muscle movement during rapid eye 
+movement sleep (resulting in the “acting out” of dream 
+mentation). However, there are several critical differences that may affect prognosis and treatment, which 
+are listed in Exhibit 26-2.
+EXHIBIT 26-2
+COMPARISON OF TRAUMA-ASSOCIATED SLEEP DISORDER WITH RAPID EYE MOVEMENT 
+SLEEP BEHAVIOR DISORDER 
+Trauma Associated Sleep Disorder
+ 
+• Disinhibition of voluntary muscle movement 
+during REM sleep
+ 
+• Triggered by traumatic event
+ 
+• 50% comorbidity with posttraumatic stress 
+disorder
+ 
+• Repetitive dream mentation
+ 
+• Dreams involve reenactment of traumatic triggering event
+ 
+• No evidence of association with developing 
+other neurologic disorders later in life
+ 
+• Some success in treatment with prazosin
+REM Sleep Behavior Disorder
+ 
+• Disinhibition of voluntary muscle movement 
+during REM sleep
+ 
+• Spontaneous onset
+ 
+• Can indicate future diagnosis of Parkinson 
+disease
+REM: rapid eye movement
+Data sources: (1) Mysliwiec V, O’Reilly B, Polchinski J, Kwon HP, Germain A, Roth BJ. Trauma associated sleep disorder: a proposed parasomnia encompassing disruptive nocturnal behaviors, nightmares, and REM without atonia in trauma survivors. J 
+Clin Sleep Med. 2014;10(10):1143–1148. (2) Postuma RB, Gagnon JF, Bertrand JA, Genier Marchand D, Montplaisir JY. Parkinson 
+risk in idiopathic REM sleep behavior disorder: Preparing for neuroprotective trials. Neurology. 2015;84(11):1104–1113.
+ROLE OF THE MILITARY MEDICAL OFFICER
+The MMO plays a vital role in the education and 
+training of unit leadership and personnel with regard 
+to the importance of adequate sleep and the relationship between sleep and health. The US Army Performance Triad46 recognizes that optimal readiness, 
+health, and performance cannot be achieved without 
+sufficient sleep, physical activity, and proper nutrition. 
+MMOs should become familiar with this program and 
+be prepared to assist service members to develop and 
+achieve their sleep, activity, and nutrition goals. 
+Sleep is a primary physiological need, like hunger 
+or thirst, but the “consumption” of sleep may be 
+more heavily influenced by social and environmental factors than eating or drinking. Unit leaders and 
+personnel often underestimate the amount of time 
+needed for getting good quality, restorative sleep. 
+385
+Sleep, Rest, and Recovery
+In military culture, sleep loss may be considered a 
+sign of mental or physical toughness. 30 In fact, the 
+opposite is true. MMOs must be prepared to educate 
+unit personnel and leadership on the importance of 
+adequate sleep to brain function and performance, 
+and ultimately to the mission. This requires integration of good sleep hygiene practices into all relevant 
+unit activities (eg, mission planning, work–rest 
+cycles, shift scheduling).
+Insufficient sleep threatens the mission in a number 
+of ways. Failure to obtain adequate or restorative sleep 
+can result in loss of energy, weariness, difficulty concentrating, and memory deficits. 47 Although service 
+members sometimes endure periods of total sleep 
+deprivation, chronic sleep restriction (insufficient 
+daily sleep) is practically ubiquitous in deployed 
+environments, which are characterized by adverse or 
+constrained conditions. 48 Chronically sleep-restricted 
+individuals may subjectively adapt to repeated or 
+prolonged periods of sleep loss, but from an objective 
+standpoint (ie, in terms of the effects of sleep loss on 
+objectively measured performance), there is little evidence of adaptation. Figure 26-2 shows that chronic 
+sleep restriction and total sleep deprivation both have 
+qualitatively equivalent effects on performance; all that 
+varies is the rate at which these deficits accrue. Even 
+for elite service members who are highly trained and 
+experienced, sleep loss results in significant decrements in vital cognitive abilities including vigilance, 
+memory, and reasoning. 49 Basic guidance regarding 
+the management of sleep and alertness is available in 
+Army Techniques Publication 6-22. 5, A Leader’s Guide 
+to Soldier Health and Fitness. 50
+Because sleep loss impacts a wide array of cognitive 
+abilities and performance, it constitutes a significant 
+threat to military personnel and operations. For example, sleep loss slows psychomotor responses and 
+results in attentional lapses. 51 These lapses and slowed 
+performance in some cases reflect microsleep—brief 
+(0. 5–15. 0 s) intrusions of sleep into periods of wakefulness. 52 In fact, sleepiness-induced performance 
+deficits (eg, lowered reaction time and impaired judgment) can occur even in the absence of microsleep. 
+Microsleep episodes are sufficient but not necessary 
+to produce sleepiness-related performance deficits. 
+Duties performed by service members are often dangerous or conducted in dangerous environments. 
+Lapses in performance and attention are not only 
+safety concerns, they are also threats to mission success. Additionally, insufficient sleep results in poor 
+decision-making, especially for decisions involving 
+Figure 26-2. Mean number of lapses on the psychomotor 
+vigilance task (and standard error) across days as a function 
+of time in bed group. 
+B: baseline; E: experimental phase; R: recovery phase; HR: 
+hours (time in bed)
+Reproduced with permission from: Belenky G, Wesensten NJ, 
+Thorne DR, et al. Patterns of performance degradation and 
+restoration during sleep restriction and subsequent recovery: 
+a sleep dose-response study. J Sleep Res. 2003;12(1):12.
+Mean number of lapses
+20
+15
+10
+5
+0
+B
+E1
+E2
+E3
+E4 E5 E6 E7 R1 R2 R3
+9-HR
+7-HR
+5-HR
+3-HR
+Day
+Figure 26-3. In the short term, effective management of sleep 
+and alertness in the operational environment promotes 
+safety,1 military effectiveness,2 and psychological resilience. 3 
+In the long term, a consistent regimen of adequate sleep may 
+have multiple health benefits, including a relatively reduced 
+risk of developing heart disease, cancer, type II diabetes, and 
+Alzheimer disease. 4
+1. Thomas MJ, Ferguson SA. Prior sleep, prior wake, and 
+crew performance during normal flight operations. Aviat 
+Space Environ Med. 2010;81(7):665–670.
+2. Wesensten NJ, Balkin TJ. The challenge of sleep management in military operations. US Army Med Dep J. 2013;OctDec:109–118.
+3. Germain A. Resilience and readiness through restorative 
+sleep. Sleep. 2015;38(2):173–175.
+4. Benedict C, Byberg L, Cedernaes J, et al. Self-reported sleep 
+disturbance is associated with Alzheimer’s disease risk in 
+men. Alzheimers Dement. 2015;11(9):1090–1097.
+Effective Management
+of Sleep: Short-term
+Effective Management
+of Sleep: Long-term
+• Promotes safety
+• Increased alertness
+• Psychological resilience
+Reduced risk of developing:
+• heart disease
+• cancer
+• type II diabetes
+• Alzheimer disease
+386
+Fundamentals of Military Medicine
+risk-taking. 53 Leaders at all levels are expected to make 
+decisions, sometimes with little time or information, 
+and even small decrements in decision-making ability 
+(speed or quality) can put missions and lives at risk.
+Beyond its direct, short-term effects on mission accomplishment, sleep loss may have long-term deleterious effects on psychological resilience and the development of psychopathology. 54,55 Conversely, regularly 
+obtaining adequate sleep may play a positive role in 
+enhancing resilience (ie, the ability to recover from a 
+stressful event or to grow in the face of adversity). 56 
+The military is concerned with training and equipping 
+a ready and resilient force. MMOs play a key role 
+in assuring that this goal is achieved by promoting 
+healthy sleep.
+Riding atop the circadian rhythm that mediates 
+alertness or sleepiness across a 24-hour cycle, there 
+are shorter, ultradian rhythms that mediate alertness 
+on a much shorter, even moment-to-moment basis. In 
+the short term, excessive subjective sleepiness can also 
+be partially and momentarily masked by high motivation, excitement, exercise, and competing needs such 
+as hunger or thirst. Also, it has been shown that sleepdeprived or restricted individuals will often become 
+subjectively habituated to an increased sleep debt. 
+Because those regions of the brain that are required for 
+accurate self-assessment are impaired by sleep loss (eg, 
+the prefrontal cortices), sleep-deprived or restricted 
+individuals are functionally impaired and therefore 
+poor judges of the extent to which they have been affected by insufficient sleep. For this reason, objective 
+measures of sleep (eg, derived from wrist actigraphy) 
+should be employed as part of a comprehensive alertness and sleep management program. Figure 26-3 
+gives more information about the positive effects of 
+managing sleep in the short term and long term. 
+Figure 26-4. Shown is the Actiwatch Spectrum, used for 
+objectively measuring sleep. 
+Photograph courtesy of Philips Respironics, Bend, OR. 
+SLEEP HYGIENE AND FATIGUE MANAGEMENT TOOLS
+Several tools and technologies can be applied to 
+facilitate the management of sleep and alertness in the 
+field, including hardware, such as wrist actigraphy 
+(Figure 26-4) for objective measurement of sleep duration, continuity, and timing, and enabling software. 
+Also, pharmaceuticals such as stimulants and hypnotics may be warranted under some circumstances. Independently, each of these tools can be used effectively 
+to consolidate sleep or enhance alertness and performance during waking hours. Sleep can be consolidated 
+by using hypnotic medications. Stimulants such as caffeine and nicotine can enhance alertness. Performance 
+model-informed work–rest scheduling can be adapted 
+to support both sleep requirements and the ability to 
+be alert and well rested during duty hours. 
+Optimum benefit can be realized when these tools 
+are used in concert, as components of a comprehensive 
+sleep–alertness management system. As described in 
+Wesensten, Killgore, and Balkin,57 an optimal system 
+utilizes an objective measure of sleep–wake timing and 
+duration for each individual operator rather than (a) 
+estimates of the likely amount of sleep obtained based 
+on the timing and duration of scheduled off-duty 
+hours; or (b) unreliable self-reports of timing, duration, 
+and quality of sleep. Currently, the best technology 
+for measuring sleep timing, duration, and continuity 
+in field environments is wrist actigraphy.
+Wrist actigraphs are relatively unobtrusive, about 
+the size and weight of a typical wristwatch. Some 
+commercial models incorporate typical wristwatch 
+functions. These devices use accelerometers to measure wrist movements—data from which sleep and 
+wakefulness can be reliably determined and scored. 58 
+Sleep–wake scoring of wrist movement data is often 
+performed by the devices in real time, and these data 
+are stored in memory. A typical wrist actigraph can 
+collect and store approximately 6 to 8 weeks of sleep–
+wake data, with the limiting factor being battery life. 
+It is anticipated that even longer periods of continuous 
+data collection will become available over the coming 
+years, as advances in battery technology are made. 
+Several commercial products are currently marketed with claims they can be used to measure sleep–
+wake timing and duration. Many of these products 
+387
+Sleep, Rest, and Recovery
+are multifunction devices that provide a measure 
+of daytime physical activity level in addition to an 
+estimate of nighttime sleep, but they have not been 
+adequately validated. Commercial wrist actigraphs 
+that are designed and marketed for the sole purpose 
+of measuring sleep–wake timing and duration have 
+generally been tested against polysomnography (the 
+gold standard for sleep–wake scoring) and found to 
+be valid and reliable.
+In the optimal, comprehensive sleep–alertness management system, objective (actigraphically derived) 
+sleep–wake data serve as inputs into an individualized 
+mathematical model (ie, a performance prediction algorithm that “learns” an individual’s response to sleep 
+loss and outputs a quantitative prediction of individual 
+cognitive performance capacity). Thus, the mathematical model provides the means for interpreting the 
+actigraph’s sleep–wake data in terms of its meaningfulness for individuals in the operational environment, 
+the likelihood of their making errors and having accidents,59 and the rate at which they can perform useful 
+mental work. 60 It also allows commanders and others 
+to predict what further decrements in cognitive performance will occur if no sleep is allowed in the next 
+X amount of hours and the benefits that would accrue 
+if a nap of X hours were allowed at time Y. 
+The 2B-Alert Web application is an open-access, 
+predictive tool designed to optimize cognitive performance by analyzing the effects of sleep–wake patterns, 
+time of day, and caffeine consumption. 61 This tool was 
+developed in an ongoing, collaborative project at the 
+Walter Reed Army Institute of Research and the Biotechnology High Performance Computing Software 
+Applications Institute (Frederick, MD). A mobile application using this technology can predict alertness 
+and cognitive performance for individuals, and its 
+functionality is expandable. 62 Using such scientifically 
+validated tools that predict performance and recommend interventions during continuous and sustained 
+operations will actually prevent decrements in performance from reaching critical thresholds.
+When operationally feasible, reversal of sleep-lossinduced alertness and performance deficits is best 
+accomplished with recovery sleep (either natural or 
+pharmaceutically facilitated). Although stimulants 
+can improve alertness and at least some aspects of 
+cognitive performance,63 it is important to keep in mind 
+that they do not actually replace sleep; they only help 
+delay its onset. Sleep debt continues to accrue during 
+stimulant-sustained wakefulness, and in the absence 
+of recovery sleep, escalating doses of stimulants are 
+required to maintain alertness with increasing levels 
+of sleep debt. The relative operational utility of stimulants and hypnotics are evaluated in the literature; 
+operationally salient points include the following57,64,65:
+ 
+• Equivalent doses of many stimulants such 
+as d-amphetamine, modafinil, and caffeine 
+have been established,57 but because of its 
+relative safety, efficacy, availability, and 
+widespread use and acceptance, caffeine in 
+the recommended doses should at this time 
+be considered the stimulant of choice for use 
+in operational environments. 
+ 
+• Sleep inducers can be used to effectively enhance sleep when the opportunity for sleep 
+occurs during the daytime (when the circadian 
+rhythm of alertness is in the ascending phase 
+and therefore mitigates against sleep onset 
+and maintenance). 
+ 
+◦ Benzodiazepine agonists such as zolpidem are most effective for inducing and 
+maintaining sleep, but “drug hangover 
+effects” are possible and should be considered when these drugs are used in an 
+operational environment. 
+ 
+◦ Melatonin and synthetic melatonin receptor agonists (such as ramelteon) are generally less effective than benzodiazepine 
+receptor agonists, but may be useful under 
+some circumstances (eg, when the user has 
+a significant sleep debt but still experiences 
+difficulty sleeping during the daytime). 
+In addition to informing the command about sleep 
+management and optimization, MMOs must make 
+decisions about the use of alertness-enhancing pharmaceuticals. It is imperative that MMOs know the 
+effectiveness and possible side effects and hangover effects of these products and prescribe them accordingly.
+GUIDANCE TO THE COMMANDING OFFICER
+In military environments, the extent to which 
+stress exposure impacts psychological functioning 
+and military effectiveness is dependent in part on 
+the quality of the unit leadership. 66 Chronic sleep 
+restriction is among the most salient stressors faced 
+by military personnel. Unit leadership plays a key 
+role in ensuring all unit members get enough sleep. 
+In addition to its benefits for health and well-being, 
+adequate sleep is a personnel readiness issue and is 
+just as important as weapon or equipment readiness. 
+Leaders set the operational tempo for their unit, 
+and that pace should be set to maximize individual 
+388
+Fundamentals of Military Medicine
+and unit performance. Optimal performance can 
+be achieved only when service members obtain adequate sleep. In the current conflicts, mental agility 
+or “cognitive fitness” is essential for success. Sleep is 
+a vital component of cognitive fitness. Commanders 
+are urged to make sleep a priority for themselves and 
+for their troops. Sleep should be considered an item 
+of logistical resupply just like food, water, fuel, and 
+ammunition, and should be addressed when planning missions.
+SUMMARY
+Sleep and rest, or “time off task,” provide qualitatively and physiologically distinct benefits to the 
+soldier. In the short term, effective management 
+of sleep in the operational environment promotes 
+safety, military effectiveness, and resilience. In 
+the long term, evidence is emerging that adequate 
+sleep results in multiple health benefits later in life. 
+Therefore, the goal should always be to maximize 
+sleep quality and duration to the extent possible 
+given operational realities and exigencies. This goal 
+can best be achieved by implementing a comprehensive sleep–alertness management system that 
+includes hardware such as wrist actigraphy (for 
+objective measurement of sleep duration, continuity, and timing); software that provides performance 
+predictions and guidance regarding sleep–wake 
+interventions; and an armamentarium of pharmaceuticals (eg, caffeine) and hypnotics (eg, zolpidem) 
+to optimize short-term control over alertness and 
+sleep as needed.
+SLEEP MANAGEMENT RESOURCES
+The links below provide further details about the 
+US military’s guidance on sleep for service members 
+at all levels. They detail functional sleep management 
+tools that can help ensure individual service member 
+health and performance as well as unit operational 
+effectiveness.
+ 
+• 2B-Alert App –web-based demo (https://2balert-web.bhsai.org/2b-alert-web/login.xhtml)
+ 
+• 2B-Alert App – description (https://techlinkcenter.org/technologies/2b-alert-personalized-alertness-cognitive-performance-app/)
+ 
+• US Army Performance Triad website (https://
+p3.amedd.army.mil/) 
+ 
+• US Army Medicine’s Performance Triad training sessions for soldiers and leaders (http://
+www.armymedicine.mil/Pages/PerformanceTriad-Training-Sessions.aspx)
+ 
+• Army Techniques Publication 6-22. 5, A Leader’s Guide to Soldier Health and Fitness (http://
+www.apd.army.mil/epubs/DR_pubs/DR_a/
+pdf/web/atp6_22x5.pdf) 
+REFERENCES
+ 
+1. Naitoh, P. Sleep deprivation in humans: A reappraisal. Waking and Sleeping, 1976;1:53–60. 
+ 
+2. Tononi G, Cirelli C. Sleep function and synaptic homeostasis. Sleep Med Rev. 2006;10(1):49–62.
+ 
+3. Akerstedt T, Folkard S. The three-process model of alertness and its extension to performance, sleep latency, and sleep 
+length. Chronobiol Int. 1997;14(2):115–123.
+ 
+4. Horne JA. Sleep loss and “divergent” thinking ability. Sleep. 1988;11(6):528–536.
+ 
+5. Thomas M, Sing H, Belenky G, et al. Neural basis of alertness and cognitive performance impairments during sleepiness. I. Effects of 24 h of sleep deprivation on waking human regional brain activity. J Sleep Res. 2000;9(4):335–352.
+ 
+6. Hockey GR. Compensatory control in the regulation of human performance under stress and high workload; a 
+cognitive-energetical framework. Biol Psychol. 1997;45(1–3):73–93.
+ 
+7. Fischler B. Review of clinical and psychobiological dimensions of the chronic fatigue syndrome: differentiation from 
+depression and contribution of sleep dysfunctions. Sleep Med Rev. 1999;3(2):131–146.
+ 
+8. Balkin TJ, Wesensten NJ. Differentiation of sleepiness and mental fatigue effects. In: Ackerman PL, ed. Cognitive Fatigue. 
+Washington, DC: American Psychological Association; 2011: 47–66.
+389
+Sleep, Rest, and Recovery
+ 
+9. Lentino CV, Purvis DL, Murphy KJ, Deuster PA. Sleep as a component of the performance triad: the importance of 
+sleep in a military population. US Army Med Dep J. 2013;Oct-Dec:98–108.
+ 10. Dinges DF, Douglas SD, Hamarman S, Zaugg L, Kapoor S. Sleep deprivation and human immune function. Adv 
+Neuroimmunol. 1995;5(2):97–110.
+ 11. Durmer JS, Dinges DF. Neurocognitive consequences of sleep deprivation. Semin Neurol. 2005;25(1):117–129.
+ 12. Goel N, Rao H, Durmer JS, Dinges DF. Neurocognitive consequences of sleep deprivation. Semin Neurol. 2009;29(4):320–
+339.
+ 13. Poe GR, Walsh CM, Bjorness TE. Cognitive neuroscience of sleep. Prog Brain Res. 2010;185:1–19.
+ 14. Odle-Dusseau HN, Bradley JL, Pilcher JJ. Subjective perceptions of the effects of sustained performance under sleepdeprivation conditions. Chronobiol Int. 2010;27(2):318–333.
+ 15. Belenky G, Wesensten NJ, Thorne DR, et al. Patterns of performance degradation and restoration during sleep restriction and subsequent recovery: a sleep dose-response study. J Sleep Res. 2003;12(1):1–12.
+ 16. Dinges DF, Pack F, Williams K, et al. Cumulative sleepiness, mood disturbance, and psychomotor vigilance performance decrements during a week of sleep restricted to 4–5 hours per night. Sleep. 1997;20(4):267–277.
+ 17. Bramoweth AD, Germain A. Deployment-related insomnia in military personnel and veterans. Curr Psychiatry Rep. 
+2013;15(10):401.
+ 18. Breslau N, Roth T, Rosenthal L, Andreski P. Sleep disturbance and psychiatric disorders: a longitudinal epidemiological study of young adults. Biol Psychiatry. 1996;39(6):411–418.
+ 19. Harvey AG, Jones C, Schmidt DA. Sleep and posttraumatic stress disorder: a review. Clin Psychol Rev. 2003;23(3):377–407.
+ 20. Taylor MK, Hilton SM, Campbell JS, et al. Prevalence and mental health correlates of sleep disruption among military 
+members serving in a combat zone. Mil Med. 2014;179(7):744–751.
+ 21. Wright KM, Britt TW, Bliese PD, Adler AB, Picchioni D, Moore D. Insomnia as predictor versus outcome of PTSD and 
+depression among Iraq combat veterans. J Clin Psychol. 2011;67(12):1240–1258.
+ 22. Hoevenaar-Blom MP, Spijkerman AM, Kromhout D, van den Berg JF, Verschuren WM. Sleep duration and sleep 
+quality in relation to 12-year cardiovascular disease incidence: the MORGEN study. Sleep. 2011;34(11):1487–1492.
+ 23. Cappuccio FP, D’Elia L, Strazzullo P, Miller MA. Quantity and quality of sleep and incidence of type 2 diabetes: a 
+systematic review and meta-analysis. Diabetes Care. 2010;33(2):414–420.
+ 24. Gangwisch JE, Malaspina D, Boden-Albala B, Heymsfield SB. Inadequate sleep as a risk factor for obesity: analyses 
+of the NHANES I. Sleep. 2005;28(10):1289–1296.
+ 25. Van Cauter E, Spiegel K, Tasali E, Leproult R. Metabolic consequences of sleep and sleep loss. Sleep Med. 2008;9(Suppl 
+1):S23–S28.
+ 26. Ferrie JE, Shipley MJ, Cappuccio FP, et al. A prospective study of change in sleep duration: associations with mortality 
+in the Whitehall II cohort. Sleep. 2007;30(12):1659–1666.
+ 27. Kripke DF, Garfinkel L, Wingard DL, Klauber MR, Marler MR. Mortality associated with sleep duration and insomnia. 
+Arch Gen Psychiatry. 2002;59(2):131–136.
+ 28. Hahn EA, Wang HX, Andel R, Fratiglioni L. A change in sleep pattern may predict Alzheimer disease. Am J Geriatr 
+Psychiatry. 2014;22(11):1262–1271.
+390
+Fundamentals of Military Medicine
+ 29. Miller NL, Shattuck LG. Sleep patterns of young men and women enrolled at the United States Military Academy: 
+results from year 1 of a 4-year longitudinal study. Sleep. 2005;28(7):837–841.
+ 30. Miller NL, Shattuck LG, Matsangas P. Longitudinal study of sleep patterns of United States Military Academy cadets. 
+Sleep. 2010;33(12):1623–1631.
+ 31. Miller NL, Tvaryanas AP, Shattuck LG. Accommodating adolescent sleep-wake patterns: the effects of shifting the 
+timing of sleep on training effectiveness. Sleep. 2012;35(8):1123–1136.
+ 32. Peterson AL, Goodie JL, Satterfield WA, Brim WL. Sleep disturbance during military deployment. Mil Med. 
+2008;173(3):230–235.
+ 33. Luxton DD, Greenburg D, Ryan J, Niven A, Wheeler G, Mysliwiec V. Prevalence and impact of short sleep duration 
+in redeployed OIF soldiers. Sleep. 2011;34(9):1189–1195.
+ 34. Seelig AD, Jacobson IG, Smith B, et al. Sleep patterns before, during, and after deployment to Iraq and Afghanistan. 
+Sleep. 2010;33(12):1615–1622.
+ 35. Mental Health Advisory Team V. Mental Health Advisory Team (MHAT-V): Report. Operation Iraqi Freedom 06–08. 
+Washington, DC: Office of The Surgeon General, United States Army Medical Command; Office of the Surgeon, 
+Multi-National Force-Iraq; 2008. http://armymedicine.mil/Documents/Redacted1-MHATV-OIF-4-FEB-2008Report.
+pdf. Accessed August 2, 2017.
+ 36. Joint Mental Health Advisory Team 7. Joint Mental Health Advisory Team 7 (J-MHAT 7) Report, Operation Enduring 
+Freedom 2010. Washington, DC: Office of the Surgeon General, US Army Medical Command; Office of the Command 
+Surgeon HQ, USCENTCOM; Office of the Command Surgeon, US Forces Afghanistan; 2011. http://armymedicine.
+mil/Documents/J_MHAT_7.pdf. Accessed August 2, 2017.
+ 37. Blassingame SR. Analysis of Self-Reported Sleep Patterns in a Sample of U.S. Navy Submariners Using Non-Parametric Statistics [master’s thesis]. Monterey, CA: Naval Postgraduate School; 2001. 
+ 38. Miller NL, Nguyen J. Working the night shift on the USS John C. Stennis: implications for enhancing warfighter effectiveness. Paper presented at: Proceedings of Aerospace Medical Association, May 2003.
+ 39. Lauderdale DS, Knutson KL, Yan LL, Liu K, Rathouz PJ. Self-reported and measured sleep duration: how similar are 
+they? Epidemiology. 2008;19(6):838–845.
+ 40. Rupp TL, Wesensten NJ, Bliese PD, Balkin TJ. Banking sleep: realization of benefits during subsequent sleep restriction 
+and recovery. Sleep. 2009;32(3):311–321.
+ 41. Gander PH, Mangie J, Van Den Berg MJ, Smith AA, Mulrine HM, Signal TL. Crew fatigue safety performance indicators for fatigue risk management systems. Aviat Space Environ Med. 2014;85(2):139–147.
+ 42. Rosekind MR, Gregory KB, Mallis MM. Alertness management in aviation operations: enhancing performance and 
+sleep. Aviat Space Environ Med. 2006;77(12):1256–1265.
+ 43. Heaton KL, Rayens MK. Feedback actigraphy and sleep among long-haul truck drivers. AAOHN J. 2010;58(4):137–145.
+ 44. Gander P, Millar M, Webster C, Merry A. Sleep loss and performance of anaesthesia trainees and specialists. Chronobiol 
+Int. 2008;25(6):1077–1091.
+ 45. Mysliwiec V, O’Reilly B, Polchinski J, Kwon HP, Germain A, Roth BJ. Trauma associated sleep disorder: a proposed 
+parasomnia encompassing disruptive nocturnal behaviors, nightmares, and REM without atonia in trauma survivors. 
+J Clin Sleep Med. 2014;10(10):1143–1148. (in exh 26-2)
+ 46. US Army Performance Triad Website. https://p3.amedd.army.mil/. Accessed June 1, 2018.
+391
+Sleep, Rest, and Recovery
+ 47. Roehrs TA, Randall S, Harris E, Maan R, Roth T. MSLT in primary insomnia: stability and relation to nocturnal sleep. 
+Sleep. 2011;34(12):1647–1652.
+ 48. Lindsey DR, Dyche J. Sleep disturbance implications for modern military operations. Hum Perf Extrem Environ. 
+2012;10(1).
+ 49. Lieberman HR, Bathalon GP, Falco CM, Kramer FM, Morgan CA, 3rd, Niro P. Severe decrements in cognition function and mood induced by sleep loss, heat, dehydration, and undernutrition during simulated combat. Biol Psychiatry. 
+2005;57(4):422–429.
+ 50. US Army. A Leader’s Guide to Soldier Health and Fitness. Washington, DC: DA; 2016. Army Techniques Publication 6-22. 5. 
+http://www.apd.army.mil/epubs/DR_pubs/DR_a/pdf/web/atp6_22x5.pdf. Accessed July 18, 2018.
+ 51. Williams HL, Lubin A, Goodnow JJ. Impaired performance with acute sleep loss. Psychol Monogr. 1959;73(14):1–26.
+ 52. Torsvall L, Akerstedt T. Sleepiness on the job: continuously measured EEG changes in train drivers. Electroencephalogr 
+Clin Neurophysiol. 1987;66(6):502–511.
+ 53. Roehrs T, Greenwald M, Roth T. Risk-taking behavior: effects of ethanol, caffeine, and basal sleepiness. Sleep. 
+2004;27(5):887–893.
+ 54. Jones D, Gershon S, Sitaram N, Keshavan M. Sleep and depression. Psychopathology. 1987;20(Suppl 1):20–31.
+ 55. Roth T. The relationship between psychiatric diseases and insomnia. Int J Clin Prac Suppl. 2001(116):3–8.
+ 56. Germain A. Resilience and readiness through restorative sleep. Sleep. 2015;38(2):173–175.
+ 57. Wesensten NJ, Killgore WD, Balkin TJ. Performance and alertness effects of caffeine, dextroamphetamine, and modafinil 
+during sleep deprivation. J Sleep Res. 2005;14(3):255–266.
+ 58. Marino M, Li Y, Rueschman MN, et al. Measuring sleep: accuracy, sensitivity, and specificity of wrist actigraphy 
+compared to polysomnography. Sleep. 2013;36(11):1747–1755.
+ 59. Raslear TG, Hursh SR, Van Dongen HP. Predicting cognitive impairment and accident risk. Prog Brain Res. 2011;190:155–
+167.
+ 60. Van Dongen HP, Mott CG, Huang JK, Mollicone DJ, McKenzie FD, Dinges DF. Optimization of biomathematical model 
+predictions for cognitive performance impairment in individuals: accounting for unknown traits and uncertain states 
+in homeostatic and circadian processes. Sleep. 2007;30(9):1129–1143.
+ 61. Reifman J, Kumar K, Wesensten NJ, Tountas NA, Balkin TJ, Ramakrishnan S. 2B-Alert Web: An open-access tool for 
+predicting the effects of sleep/wake schedules and caffeine consumption on neurobehavioral performance. Sleep. 
+2016;39(12):2157–2159.
+ 62. 2b-alert-personalized-alertness-cognitive-performance-app. Defense TechLink Website. https://techlinkcenter.org/
+technologies/2b-alert-personalized-alertness-cognitive-performance-app/. Accessed July 6, 2018.
+ 63. Harrison Y, Horne JA. Sleep loss and temporal memory. Q J Exp Psychol A. 2000;53(1):271–279.
+ 64. Bonnet MH, Balkin TJ, Dinges DF, et al. The use of stimulants to modify performance during sleep loss: a review by the 
+sleep deprivation and Stimulant Task Force of the American Academy of Sleep Medicine. Sleep. 2005;28(9):1163–1187.
+ 65. Vermeeren A, Coenen AM. Effects of the use of hypnotics on cognition. Prog Brain Res. 2011;190:89–103.
+ 66. Britt TW, Davison J, Bliese PD, Castro CA. How leaders can influence the impact that stressors have on soldiers. Mil 
+Med. 2004;169(7):541–545.
+392
+Fundamentals of Military Medicine

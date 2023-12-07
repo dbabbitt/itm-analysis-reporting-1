@@ -1,0 +1,2109 @@
+221
+Just War Doctrine and the International Law of War
+Chapter 8
+JUST WAR DOCTRINE AND THE
+INTERNATIONAL LAW OF WAR
+WILLIAM V. O’BRIEN, PHD*; AND ANTHONY C. AREND, PHD†
+INTRODUCTION
+THE HISTORIC RELATION OF JUST WAR DOCTRINE AND THE INTERNATIONAL LAW OF WAR
+War-Decision Law (Jus ad Bellum)
+War-Conduct Law (Jus in Bello)
+CONTEMPORARY LEGAL AND MORAL RESTRAINTS ON RECOURSE TO
+ARMED FORCE
+International War-Decision Law and the United Nations Charter
+The War-Decision Law of Just War Doctrine
+CONTEMPORARY LEGAL AND MORAL RESTRAINTS ON WAR CONDUCT
+The Principles of International War-Conduct Law
+Some Specific Areas of International War-Conduct Law
+The War-Conduct Law in Just War Doctrine
+APPLICATION OF THE INTERNATIONAL LAW OF WAR AND JUST WAR
+DOCTRINE
+CONCLUSION
+*Lieutenant Colonel, Civil Affairs, United States Army Reserve (Retired); Professor of Government Emeritus (Retired), Georgetown University, 4000 Reservoir Road, Washington, DC 20056
+†Professor of Government and Adjunct Professor of Law, Georgetown University, 4000 Reservoir Road, Washington, DC 20056
+222
+Military Medical Ethics, Volume 1
+John Singer Sargent
+Gassed
+Oil on canvas, 1919
+Toward the end of the First World War, the British War Memorials Committee commissioned Sargent to make a large
+painting for a projected Hall of Remembrance. Sargent spent several months at the western front in France, making
+preliminary sketches and watercolors. The subject he ultimately chose was the effects of the weapon mustard gas,
+which blinded its victims and produced blistering skin and bleeding lungs. Here, in a painting that contrasts sharply
+with the glamour and carefree mood of most of his earlier art, the line of wounded men stumbling toward a first-aid
+station was directly inspired by scenes Sargent observed at the front. At the same time, he made his image more
+powerful and timeless by its visual reference to processions of figures on ancient Greek and Roman sculptural friezes.
+Caption: The Museum of Fine Arts, Boston, from their 27 June–26 September 1999, Sargent exhibition.
+Artwork: Courtesy of the Imperial War Museum, London.
+223
+Just War Doctrine and the International Law of War
+INTRODUCTION
+There have been two concepts of war over the
+centuries. One holds that war may be pursued without moral or legal restraints that would conflict with
+the exigencies of military necessity. It is summed
+up in General William Tecumseh Sherman’s pronouncement that “War is hell.”1(pp126–127) The other
+contends that war is limited by the requirements of
+morality and law, notwithstanding the claims of
+military necessity. This latter concept is the basis
+for just war doctrine and other sources of moral
+guidance as well as for the international law of war.
+History, old and recent, demonstrates that the first
+concept (“necessity knows no law” and “all is fair in
+love and war”) has more often than not predominated.
+Nevertheless, the quest for moral and legal restraints
+on war is a very old one that continues in the face
+of bitter conflicts that are rendered all the more
+destructive by modern weaponry and technology.
+To understand moral and legal limits on war, one
+must begin with the understanding that their object is to achieve something that has always been
+very difficult, namely, requiring a belligerent to relinquish perceived advantages. To be sure, not all
+moral and legal limits on belligerent conduct clash
+with true military necessity. Many of these limitations are mutually beneficial to the belligerents.
+Moreover, violations of moral and legal norms may
+ultimately contribute to defeat rather than victory.
+But, absent any world authority to enforce moral
+and legal norms, just war doctrine and the international law of war become relevant only when
+belligerents respect and enforce these norms themselves. Clearly, then, the first step toward making
+just war doctrine and the international law of war
+practical guides to belligerent behavior is to understand their character and content.
+THE HISTORIC RELATION OF JUST WAR DOCTRINE AND THE INTERNATIONAL LAW OF WAR
+Warfare in ancient civilizations of which there is
+written record was, on the whole, total and brutal.
+Defeated enemies were often exterminated or, at
+best, reduced to slavery. Some moral and legal
+norms, however, did develop. Because they usually
+had both a moral and practical basis rooted in evolving custom, it is not useful at this point to distinguish what became just war doctrine from the international law of war.
+Most of the limits on warfare did not relate to
+the conduct of combat but to the relations between
+belligerents such as the exchange of envoys and
+their protection, establishment of truces, and negotiation of treaties. A recurring concept in Classical
+Antiquity was that of the inviolability of certain
+sacred places. This concept, however, was mainly
+limited to belligerents of the same general religious
+persuasion, that is, among Greeks. 2 The most significant rule of war that is found in Classical Antiquity
+in the Middle East and Greece was the prohibition
+against poisoning wells or destroying oases, as it
+was considered to be a crime against all mankind
+to destroy a source of water. Naturally, this prohibition was not always observed but it established a
+norm that is applicable to today’s world where there
+are so many appalling means of destroying and
+fouling the earth. 3(p209)
+Western just war doctrine has its origins in Classical Antiquity in the Roman bellum justum (just
+war) that, while based on pagan religion, set the
+example of seeking the approval of the gods before
+initiating a war. 4(pp41–42) Bellum justum appears to
+have had little interest in the conduct of a war once
+launched and Roman combat practices were notoriously brutal. 3(p203) In contrast, during this same period, early Christianity was marked by pacifism, in
+part due to Christian emphasis on nonviolence. Another important reason for Christian pacifism was
+that Christians were persecuted or, at best, barely
+tolerated, had little stake in Roman society, and
+avoided military service because it involved submission to pagan religion and was characterized by
+widespread immorality. 5
+Christianity was finally accepted in Roman society after several centuries of marginal influence. The
+first significant step into mainstream Roman life
+came in the early fourth century AD. After his victory at Milvian Bridge (AD 312), which he attributed
+to divine intervention, Emperor Constantine became favorable to Christianity. By AD 380 the Emperor Theodosius I declared Christianity the Roman
+Empire’s official religion. Christians increasingly
+found their fate tied to Rome, which by then was
+periodically invaded by barbarians. There was a
+need to formulate moral doctrine to deal with the
+role of Christians in the defense of Rome.
+This task was taken up by St. Augustine (AD 354–
+430). He developed a Christian just war doctrine
+that, like the pagan bellum justum, focused mainly
+on the decision to go to war, with relatively little
+224
+Military Medical Ethics, Volume 1
+attention to the ensuing conduct of war. Indeed,
+Augustine’s emphasis on the rectitude of the just
+belligerent and the sinful character of the unjust
+belligerent can be interpreted to give the just party
+a very wide discretion in its war conduct. 6
+Christian just war doctrine is most relevant to
+the West because it influenced not only moral teaching but also the development of the international
+law of war. It must be recognized, however, that
+various forms of just war doctrine developed in
+other cultures, most notably in Islam. There, too,
+the emphasis tended to be on establishing the justice of the war rather than limiting its conduct, although some moral and legal limits did develop. 7–11
+From these early beginnings gradually emerged
+two sources of moral and legal guidance about war.
+One part, dealing with recourse to war, was traditionally known as the jus ad bellum, or war-decision
+law. The other part, attempting to regulate and mitigate the conduct of war, was known as the jus in
+bello, or war conduct-law. This division remains in
+both contemporary just war doctrine and the international law of war.
+In order to understand the relation of just war
+doctrine to the modern international law of war, it
+is worthwhile to trace their respective historic development and relationship. The following account
+focuses on developments in Western civilization
+because contemporary international law evolved
+from the emerging European states and spread worldwide as a result of their imperialistic expansion.
+War-Decision Law (Jus ad Bellum)
+In the 7 or 8 centuries following the efforts of St.
+Augustine, normative restrictions on recourse to
+armed force continued to be found almost exclusively in the moral teachings of Christian just war
+doctrine, canon law, and Church-imposed regimes.
+A variety of Christian theologians and philosophers
+contributed to these moral prescriptions but the
+most important of them was St. Thomas Aquinas
+(1224–1274). 12 St. Thomas began his analysis of war
+from the standpoint of the necessity of protecting
+political society. Assuming, as had Aristotle, that
+man was a political and social animal and that political society was a necessity and a good in itself,
+St. Thomas concluded that such a society could
+rightfully be protected against aggression. Defense
+of the society, however, involved killing and the
+presumption was against killing. St. Thomas held
+that this presumption could be overcome by meeting three conditions.
+These conditions, constituting war-decision law
+(jus ad bellum), were:
+1.
+Competent authority: War must be waged
+under the public authority of the political
+society;
+2.
+Just cause: War must waged either in legitimate self-defense or to correct and punish
+grievous injuries; and
+3.
+Right intention: War must only be pursued
+in order to achieve the ends of the just
+cause, without hatred or desire of vengeance, and in order to establish a just and
+lasting peace.
+Aside from some very particularistic rules of war
+conduct (eg, to protect clergy and religious pilgrims), St. Thomas’ just war doctrine was limited
+to war-decision law. However, the condition of right
+intention, if respected, should limit the conduct of
+a just war. 13
+Later Scholastics such as Francisco de Vitoria
+(1483–1586) and Francisco Suarez (1548–1617) developed the war-decision law, jus ad bellum, as well
+as war-conduct law, jus in bello. 14 Their treatment of
+war-conduct law owed much to the customary principles and practices of the Age of Chivalry and contemporary belligerents. Shortly after Suarez’ death
+in 1617, the destructive Thirty Years War (1618–
+1648) contributed to the emergence of a European
+law of nations, built in large part on the just war
+tradition. The most notable contributor to this development was the Dutch jurist Hugo Grotius
+whose work, De Jure Belli ac Pacis, written in 1625
+in the midst of the slaughter, is considered the seminal international law text. 15(pp25–35)
+Grotius’ work combined natural law concepts
+similar to those underlying the Christian just war
+tradition with prescriptions claimed to be derived
+from the customary practice of states. In the years
+that followed the Thirty Years War both sources
+continued to influence the law of nations. With the
+rise of the secular, sovereign state, however, the
+war-decision concepts of just war doctrine declined
+in importance and finally disappeared in the law of
+nations. By the 18th century, there was little disposition to justify or condemn recourse to war as just or
+unjust. War was simply considered a fact of international politics. Morality was divorced from law and
+the law of nations was only concerned with the legal consequences of war. This was the case throughout the 19th century and at the outset of World War I.
+The appalling magnitude of the destruction of
+World War I engendered a widespread reaction
+against war as an instrument of foreign policy. Part
+of that reaction took the form of the war-guilt clause
+in the Versailles Treaty that blamed Germany for
+the war, surely unfair and certainly at odds with
+225
+Just War Doctrine and the International Law of War
+the legal situation of 1914 when hostilities began
+and there was no general prohibition of recourse to
+armed force. A more enlightened—if overly optimistic—result of this same reaction against war was
+the establishment of the League of Nations and the
+effort to “outlaw” war.
+The war-decision regime of the League of Nations essentially prohibited recourse to armed force
+except when all peaceful means of settling a conflict had been exhausted, or in self-defense, or when
+the League itself took armed sanctions against an
+aggressor. The League Covenant was supposedly
+strengthened by a number of conventions signed
+in the 1920s and 1930s. The most important was the
+Kellogg-Briand Pact of 27 August 1928 whereby the
+Parties “condemn recourse to war for the solution
+of international controversies, and renounce it as
+an instrument of national policy in their relations
+with one another.”16(p912) Most states in the world
+adhered to the Kellogg-Briand Pact.
+These efforts to change the international system
+failed in the 1930s. The structure of the League of
+Nations and the failure of the leading democratic
+powers to stand up to German, Japanese, and Italian aggression in the late 1930s rendered the Covenant, the Kellogg-Briand Pact, and the other conventions worthless. Recognizing this, the victorious
+powers of World War II sought to achieve what the
+League had failed to do by establishing a United
+Nations Organization (UNO) with better arrangements for enforcing its laws and the expectation that
+the wartime allies would continue to cooperate to
+maintain the peace.
+The Cold War thwarted hopes that the United
+Nations (UN) could improve on the League of Nations’ record with regard to enforcing the peace.
+With the end of the Cold War, these hopes have been
+revived but, as will be discussed, the effectiveness
+of United Nations war-decision law is still problematic. Meanwhile, the proliferation of international
+and civil conflicts and, in particular, the threat of
+nuclear war, have engendered a revival of just war
+doctrine in the West. Just war doctrine has increasingly been considered as a source of normative
+guidance complementary to the international law
+of war, both war-decision and war-conduct law.
+War-Conduct Law (Jus in Bello)
+In just war doctrine as well as the international
+law of war, principles and rules governing war-conduct have historically reflected belligerent practice.
+In the past, restraints on war-conduct were inspired
+by a mixture of morality, chivalry, and professional
+ethics applied in the light of the characteristics and
+pragmatic aspects of warfare. The state of war-conduct law obviously reflected the nature of weaponry, as well as the magnitude of a conflict. Thus,
+in a comparatively total war between whole societies mobilized to support huge armies, as in the two
+World Wars, observance of the laws of war is difficult. In limited wars, with limited ends and means,
+war-conduct law is more likely to be respected. It
+was in an era of limited wars fought by small professional armies that international war-conduct law
+was developed in the 18th and 19th centuries.
+By 1863 it was possible for Professor Francis
+Lieber, a German immigrant to the United States,
+to prepare for President Lincoln a war-conduct code
+for the regulation of the Union Armies. This code
+(which became known as the Lieber Code) reflected
+the contemporary state of war-conduct law in Europe. Following other efforts at codification of customary law, the Hague Conventions (II of 1899; IV
+of 1907) became the basis for the contemporary law
+of land warfare. However, efforts to codify rules for
+naval warfare failed.
+Following World War I, attempts to confront new
+forms of warfare met with mixed results. The 1925
+Geneva Gas Protocol prohibited the use of chemical
+and biological means and remains the principal source
+of international law on the subject. The 1928 Geneva
+Convention added to the provisions for protection of
+prisoners of war in the 1906 Geneva and 1907 Hague
+Conventions. However, efforts to restrict submarine
+warfare and aerial bombardment were unsuccessful.
+The four 1949 Geneva Conventions dealt comprehensively with protection of the wounded and
+sick on land and on sea, prisoners of war, and civilians under belligerent occupation. They remain a
+major source of war-conduct law. (Exhibit 8-1 explains the nomenclature of international law.) The
+1925 Geneva Protocol’s prohibition against use of
+biological weapons was reinforced by the 1972 Bacteriological (Biological) Convention. Two 1977 Protocols to the 1949 Geneva Conventions, one for international conflicts and one for civil conflicts, address a wide range of war-conduct issues but their
+status is questionable because of lack of ratification
+by key states, notably the United States. A 1980 Weapons Convention regulates but does not prohibit the
+use of napalm and other controversial means.
+The advent of weapons of mass destruction—
+chemical, biological, and nuclear—and strategies
+aimed at attacking the civilian infrastructure of a belligerent have forced reconsideration of traditional
+war-conduct principles of proportionality and discrimination (ie, the immunity of civilians and civilian
+targets from direct intentional attack). These principles
+are common to just war doctrine and the international
+226
+Military Medical Ethics, Volume 1
+EXHIBIT 8-1
+THE NOMENCLATURE OF INTERNATIONAL LAW
+International law is created through two primary methods: treaties and custom. Treaties are written international agreements. They consitutute the “black-letter law” of international law. Treaties may be called many
+things: conventions, agreements, pacts, protocols, charters, covenants, or accords. At times, treaties are given
+names that correspond to the place in which they were negotiated, such as the Treaty of Versailles. At other
+times, they are given names based on the subject matter addressed by the treaty, such as the Nuclear NonProliferation Treaty. Occasionally, they may even be given a name derived from the names of the principal
+negotiators, such as the Kellogg-Briand Pact. Frequently, treaties will be cited with the date of their conclusion
+in their title, such as the 1925 Geneva Gas Protocol. It is not unusual for a major international conference to be
+convened to produce several treaties. For example, the 1907 Hague Peace Conference produced a number of
+treaties, such as the Hague Convention on the Pacific Settlement of International Disputes. Finally, it should
+be noted that at times a subsequent treaty is concluded to expand upon a previous international agreement. In
+1977, for example, a conference was held to formulate two protocols that elaborated upon the 1948 Geneva
+Conventions. Hence, the literature might refer to Protocol Additional to Geneva Conventions of 12 August
+1949 and Relating to the Protection of Victims of International Armed Conflicts simply as Protocol I of 1977.
+law of war and will be explored in more detail in a
+subsequent section of this chapter. The excesses of two
+global wars, as well as subsequent conflicts, have
+badly eroded the legal status of these principles. The
+revival of just war doctrine has focused on this phenomenon in modern conventional wars and, particularly, in nuclear postures. In summary, efforts to develop effective legal and moral restraints on war-conduct have continued and, at least in the West, have
+been taken seriously. But the challenges of modern
+warfare at all levels to war-conduct limitations continue to mount, requiring renewed determination on
+the part of belligerents to reconcile military necessity
+with legal and moral prescriptions.
+CONTEMPORARY LEGAL AND MORAL RESTRAINTS ON RECOURSE TO ARMED FORCE
+Contemporary restraints on recourse to armed
+force are delineated by international war-decision
+law and the United Nations Charter. The war-decision law, in turn, derives from just war doctrine.
+Each of these will be discussed in detail.
+International War-Decision Law and the United
+Nations Charter
+Contemporary restraints on recourse to armed
+force rely on provisions and assumptions in international law as delineated in the United Nations
+Charter. There are, however, specific exceptions to
+those provisions as detailed in Articles 42 and 51 of
+the Charter. This chapter will explore the provisions
+of those articles as well as the history of the United
+Nations intervention in foreign affairs.
+Provisions and Assumptions
+International war-decision law centers on the
+provisions of the United Nations Charter as they
+have been interpreted and applied by the nations.
+It is important to acknowledge the assumptions that
+underlie these provisions.
+The first assumption is that development of
+peaceful means of conflict resolution by the United
+Nations, other international organizations, and the
+states of the international system will render war
+unnecessary. The second assumption is that collective security, based on a substantial monopoly of
+force in the international community, will deter
+threats to the peace and terminate them effectively
+when they occur. The third assumption is that the
+main threats to peace are posed by interstate conventional wars, such as World War I and World War II.
+Obviously these assumptions have not proved
+realistic. Deep-seated animosities arising from national, ethnic, religious, and ideological sources
+have shown many modern conflicts to be intractable. The so-called “machinery for peace” assembled in the League of Nations period and supposedly strengthened in the UN era has failed to
+resolve innumerable modern conflicts.
+Moreover, efforts to develop collective security
+arrangements to enforce the peace were doomed
+227
+Just War Doctrine and the International Law of War
+during the Cold War and current attempts to realize the hopes of the UN Charter remain problematic. Finally, although interstate conventional wars
+remain a serious threat to the peace, most contemporary conflicts have been civil wars, often complicated by multiple interventions, usually fought
+in some combination of guerrilla/counterinsurgency and conventional warfare. 17(pp118–119)
+Accordingly, there is a considerable gap between
+the international war-decision law implied by a literal reading of the UN Charter and a realistic examination of belligerent practice since 1945. The key
+provision of the Charter is Article 2(4), which prohibits “the threat or use of force against the territorial integrity or political independence of any state,
+or in any other manner inconsistent with the Purposes of the United Nations.” This provision expands upon the restrictions on the recourse to force
+contained in the League of Nations and the KelloggBriand Pact. Written in 1945, the UN Charter anticipates the count of Crimes Against Peace of the
+Nuremberg and Tokyo war crimes trials.
+Exceptions to the Provisions: Articles 42 and 51
+Under the law of the UN Charter there are only
+two explicit exceptions to this general prohibition
+of recourse to the threat or use of armed force that
+are still applicable. The first is the use of armed force
+by the Security Council under Article 42 as an enforcement measure if the council determines that
+there has been a threat to the peace, breach of the
+peace, or act of aggression. The Charter also provides under Article 51 for utilization of a regional
+organization by the Security Council in enforcement
+actions.
+There has only been one occasion when the Security Council has been able to carry out an enforcement action in the sense of Article 42. This was the
+case in the 1991 Persian Gulf War. 17(pp88–90) Although
+the Korean War18 is often viewed as a UN war, UN
+participation was not based on Security Council
+authority. Rather it was a war of collective self-defense in which the General Assembly, which does
+not have the authority to order enforcement action,
+recommended, in the “Uniting for Peace Resolution” of 7 October 1950, that UN members assist in
+the defense of South Korea. Given the extraordinary
+circumstances of the Gulf War (eg, the clear and
+cruel nature of Iraq’s aggression, the rare unanimity of the permanent members of the Security Council who have the veto, and the willingness of the
+United States and its allies to mount a major military operation to end the threat to peace), it may
+turn out that this enforcement action is unique.
+Whether other Security Council enforcement actions will be forthcoming is very hard to predict.
+The second exception to the general prohibition
+of use of force established in Article 2(4) of the
+United Nations Charter is for actions taken in individual and collective self-defense, recognized as an
+“inherent right” in Article 51. This right is limited
+by the requirements that its invocation be reported
+to the Security Council and that it should only be
+in effect “until the Security Council has taken the
+measures necessary to maintain international
+peace.” The exception of self-defense has been the
+principal justification advanced for recourse to
+armed force in the UN era.
+The problems of the legal justification of individual and collective self-defense are numerous.
+Article 51 provides for self-defense “if an armed
+attack occurs against a Member of the United Nations.” Clearly the model for “armed attack” occurring is a conventional attack across the border of a
+state. But many modern conflicts take the form of
+indirect aggression through infiltration of armed
+bands, indigenous enemies of the target state’s regime, or forces of the aggressors. Sometimes, as in
+the 1967 Arab-Israeli War, an armed attack is pending, there is a clear and present danger, and anticipatory self-defense in the form of preemptive war
+may be justified. 19(pp71–79) Article 51’s reference to “a
+Member of the United Nations” is misleading. Selfdefense is an “inherent” right, recognized, not created, by the Charter. There is no question that a
+nonmember state, such as South Korea in 1950 and
+South Vietnam from 1954 to 1975, has a right of individual and collective self-defense. 15(pp417–419),19(p72)
+United Nations’ Intervention in Foreign Affairs
+Modern wars are often greatly complicated by
+foreign interventions. The UN Charter does not deal
+with such interventions, except in Article 2(7),
+which denies the UN itself the right “to intervene
+in matters which are essentially within the domestic
+jurisdiction of any state,” although this prohibition
+is not “to prejudice the application of enforcement
+measures under Chapter VII.” In other words, in
+the absence of Charter provisions on military and
+other intervention by states, customary international
+law must be applied. This law is extremely confused
+and controversial but there is warrant for stating
+that there is a general presumption against military
+intervention. In practice, four exceptions20(pp167–174)
+to the general principle of nonintervention have
+received some support:
+228
+Military Medical Ethics, Volume 1
+1.
+intervention by treaty right;
+2.
+intervention on the request of an incumbent
+government, often justified as counter-intervention in response to previous intervention into a civil war by a hostile state (eg,
+the United States intervention in Vietnam);
+3.
+intervention to protect the lives of nationals and other aliens in clear and present
+danger because of civil strife or collapse
+of law and order (eg, Belgian intervention
+in Stanleyville, Congo, in 1963); and
+4.
+humanitarian intervention to protect a
+people from its own government or from
+collapse of civil authority (eg, Somalia in
+1992 and 1993, and Kosovo in 1999).
+In summary, under the UN charter framework,
+international war-decision law requires that recourse to armed force be justified either as enforcement action ordered by the UN Security Council or
+as individual or collective self-defense. Military
+intervention in the domestic affairs of another nation may also be justified on one of the four bases
+listed above.
+However, what may be legally permissible under international war-decision law may not be morally permissible or even politically and militarily
+prudent. For example, there is no doubt that the
+breakup of Yugoslavia was caused by the aggression of Serbia and Serbian rebels supported by the
+Serbian government against Croatia and Bosnia.
+Still, the Security Council was never able to authorize and organize true enforcement actions against
+these threats to the peace. No state volunteered to
+join Croatia or Bosnia in collective self-defense.
+While Serbian “ethnic cleansing” was clearly genocidal, no state or international organization volunteered for humanitarian intervention. There were
+clear legal arguments for initial intervention in the
+conflict by the United Nations, the North Atlantic
+Treaty Organization (NATO), or any state or group
+of states. Still, the victims of aggression and genocide were left to resist alone, aided marginally by
+relief efforts and occasional cease-fires and truces.
+Military intervention was legally justified but not
+attempted.
+This failure to apply force against aggression and
+genocide may be explained simply by a failure of
+will on the part of the states and organizations that
+had the legal right to intervene. However, a legal
+right may not necessarily be a moral right. More is
+required than assurance of legal permissibility to
+launch military operations that promise to be very
+destructive to all involved. For further normative
+and policy guidance it is wise to turn to modern
+just war doctrine.
+The War-Decision Law of Just War Doctrine
+The war-decision law has as its basis a general
+presumption against war. It acknowledges, however, that there are specific war-decision conditions
+for waging just war. Through the studious application of these conditions, countries waging war
+evaluate and clarify the reasons for the armed force
+that they use. Before resorting to armed force there
+is always a need to fully explore options short of
+conflict.
+General Presumption Against War
+Modern just war doctrine remains based on St.
+Thomas Aquinas’ formulation of the moral problem of war. 6,12,17,20–25 There is a presumption against
+waging war because of the killing, destruction, and
+misery that it brings. However, this presumption
+may be overcome by meeting certain conditions set
+forth in war-decision (jus ad bellum) and war-conduct (jus in bello) law.
+It should be understood that although just war
+doctrine comes in great measure from religious and
+ethical sources, its relevance is not limited to those
+of particular religious or ethical beliefs. Just war
+doctrine can be followed as a matter of politicalmilitary prudence as well as religious or ethical
+guidance. As the just war conditions are outlined it
+should become clear that decision makers and their
+constituents ought to be considering the issues
+raised by them as a matter of common sense and
+good policy.
+War-Decision Conditions for Waging War
+Law-abiding countries do not initiate war without first attempting to resolve issues without recourse to armed force. However, when circumstances are such that armed force becomes an option to be considered, a number of conditions are
+evaluated to determine whether to proceed. These
+conditions include: competent authority, just cause,
+comparative justice, probability of success, no other
+recourse, and right intentions.
+Competent Authority. The first of the war-decision conditions of just war doctrine is the requirement that the belligerent have competent authority
+to go to war. In the contemporary world this means
+229
+Just War Doctrine and the International Law of War
+constitutional authority. To be sure, many states
+today have little in the way of effective constitutional systems; incumbent regimes are frequently
+based on raw power and are arbitrary. However, in
+a country such as the United States the issue of constitutional competent authority to commit the nation to war is critical. A lesson from the Vietnam
+War is that a president should have an absolutely
+clear constitutional basis for waging war. This lesson had been learned by the time of the Persian Gulf
+War. When US forces and their allies attacked Iraq
+their commitment to combat was supported by the
+vote of the Congress on 12 January 1991.
+Just Cause. The second main condition for recourse to war is just cause. This condition may be
+broken down into a number of requirements. First,
+there is the substance of the just cause. The most
+obvious just cause is self-defense. Much of modern
+writing on just war rejects offensive wars, purportedly in behalf of justice, which had been justified
+by the early just war writers. 20(pp21ff),26(piii) However,
+the recent tragedies in Somalia, the Balkans, Rwanda,
+Haiti, Kosovo, and elsewhere have forced reconsideration of the definition of just cause. There is an
+increasing recognition that military intervention
+against repressive, genocidal regimes may meet the
+condition of just cause, even if the intervening power
+has little or no claim of self-defense. Indeed, it can
+be argued that there may be not only a moral right
+but a moral duty to intervene in such situations—provided the other conditions of just war can be met.
+Comparative Justice. The next requirement of
+just cause is comparative justice. It is important to
+recognize the character of the opposing regimes and
+the practical consequences of victory or defeat if war
+is waged. If belligerents, on one side, are democracies based on the rule of law and, on the other side,
+totalitarian states based on repression, there is comparative justice on the side of the democracies because democratic regimes are more conducive to
+liberty and the rule of law. If they win, people will
+be liberated. If they lose, tyranny and possibly genocide will prevail. Of course, democracies based on
+the rule of law remain in the minority in the international system. Thus, political-military realities
+may make the evaluation of comparative justice
+difficult. For instance, Kuwait was no ideal democracy in 1990, however, Iraq was ruled by an oppressive and aggressive regime, as it demonstrated in
+repressing its own people and in its invasion and
+brutal occupation of Kuwait. The ultimate issue
+under comparative justice is whether the more just
+party will prevail. 20(pp28ff),26(pp29ff)
+Probability of Success. Another requirement of
+just cause is that the means necessary to achieve it
+be proportionate to the good achieved, in the light
+of the probability of success. This necessitates a difficult calculation of the probable costs of victory for
+the putatively just party—costs to both sides and
+to the international community generally. It is
+clearly possible to have an eminently just cause that
+cannot be pursued because there is little or no probability of success, or because success is probable
+only at prohibitive costs. 20(pp28ff),26(pp30ff)
+The calculation of probability of success and proportionality must be made at the initiation of a war.
+Because the course of wars can often differ from
+initial expectations, this calculation must be adjusted at every point in the course of a war when
+expectations of success with proportionate costs
+change. If a belligerent with an apparently clear just
+cause reaches the conclusion that continued prosecution of the war will not meet with success or that
+the costs will be disproportionate or both, that belligerent should seek to terminate the war. 17(p280)
+Much of the continuing debate about America’s role
+in the Vietnam War turns on arguments about the
+critical points when a reevaluation of the proportionate costs of the war in the light of the probabilities of success might have resulted in an earlier US
+disengagement.
+No Other Recourse. The next to the last requirement of just cause is that it be pursued with armed
+force only after exhaustion of peaceful remedies.
+This means reasonable exhaustion of peaceful
+remedies. 20(pp31ff),26(p30) Peaceful remedies include diplomatic exchanges, mediation, arbitration, and adjudication in international tribunals, often with an
+active role by international organizations such as
+the United Nations or regional organizations such
+as the Organization of American States or the Arab
+League. Peaceful remedies can also include nonmilitary sanctions, such as those provided for use by
+the Security Council in Article 41 of the UN Charter—“complete or partial interruption of economic
+relations and of rail, sea, air, postal, telegraphic,
+radio, and other means of communication, and severance of diplomatic relations.”
+It should be understood that there can be recourse to military means short of all-out war. In
+Article 42, authorizing Security Council military
+sanctions, reference is made to “demonstrations,
+blockade and other operations by air, sea, or land
+forces.” Thus, in the case of Iraq’s 1990 aggression
+against Kuwait, the Security Council of the United
+Nations authorized the coalition forces to carry out
+230
+Military Medical Ethics, Volume 1
+a blockade of Iraq (SC Res. 665 of 26 August 1990).
+No combat resulted from this maritime blockade
+but it was obviously a use of armed force. The fullscale war only began on 18 January 1991 when Iraq
+had failed to meet the requirement (SC Res. 678 of
+28 November 1990) to withdraw from Kuwait and
+obey the other relevant Security Council resolutions.
+The determination that peaceful remedies have
+been reasonably exhausted requires an estimate of
+the probability that they will lead to realization of
+the just cause and of the probable damage to the
+just cause that may result from continued abstention from recourse to armed force. In the case of the
+Persian Gulf crisis (1990–1991), there was little
+doubt about the intention of Saddam Hussein’s
+Iraqi regime to continue its illegal occupation of
+Kuwait and to be a threat to the Gulf area. Moreover, as the months passed, it was clear that Kuwait was suffering from a reign of terror, the continuation of which was unacceptable.
+Right Intention. The last of the major war-decision
+requirements of just war is right intention. There are
+three elements in this requirement. First, the just belligerent must limit its goals to those set forth in the
+just cause. It should not expand them, in effect, taking advantage of success in a just war to accomplish
+goals not included in the just cause. Second, the just
+belligerent must make efforts to avoid a spirit of hatred and revenge in its pursuit of the war. This is a
+hard saying for most belligerents, but it is a core
+requirement of just war. Finally, reflecting the first
+two elements, the just belligerent must wage the
+war and negotiate the peace so as to promote, rather
+than obstruct, the prospects for a just and lasting
+peace. Even the most bitter enemies must coexist
+after the war and measures that exceed the exigencies of military necessity and appear to be gratuitously cruel violate the requirements of right intention. Good examples of the practical rewards of
+adherence to the principle of right intention may
+be found in US postwar policies in occupied Germany and Japan. 20(pp33ff),26(p30)
+CONTEMPORARY LEGAL AND MORAL RESTRAINTS ON WAR CONDUCT
+Once the decision has been made that war cannot be avoided, and that the necessary conditions
+have been met for waging war, there is a need for
+legal and moral restraints on war conduct. These
+restraints are guided by the principles of international war-conduct law. Several specific areas of international war-conduct law will be explored in this
+chapter, as well as the place of war-conduct law in
+just war doctrine.
+The Principles of International War-Conduct Law
+International war-conduct law is based on three
+principles: military necessity, humanity, and chivalry.
+Although this chapter focuses on contemporary
+war, the principles of international war-conduct law
+date to the early days of organized war.
+Military Necessity
+Military necessity requires that all war conduct
+be proportionate to a legitimate military end, permitted by the laws of war and natural law, ordered
+by a responsible commander, and subject to review.
+The first element in this principle is true necessity.
+This requirement is akin to the principle of proportion in the war-conduct law of just war doctrine.
+Actions that exceed what is necessary to achieve a
+legitimate military objective or that have no true
+military utility (eg, gratuitous infliction of death
+and destruction) are not permitted by the principle
+of military necessity. Even if an action appears to
+have true military utility it still is impermissible if
+prohibited by the laws of war (eg, massive attacks
+on civilian targets for the purpose of forcing surrender of the enemy’s forces.)20,27(¶1-5),28(p1801)
+Thus far the definition of military necessity offered here is essentially that commonly accepted in
+US military legal sources. Limitations of natural law
+were added because the laws of war sometimes do
+not cover all war conduct and recourse must be had
+to perennial principles of natural law. For example,
+genocidal conduct (the systematic extermination of
+civilian populations solely because of their race,
+religion, or ideology) was not clearly prohibited by
+the laws of war during World War II. At the Nuremberg and other war crimes trials it was necessary to
+invoke the concept of Crimes Against Humanity,
+essentially a natural law rather than positive international law concept at that time, to deal with the
+horrendous genocidal conduct of the Nazis. 20(pp66–67)
+The decisions in war conduct must be made by
+responsible commanders and they must be subject
+to review, perhaps by a war crimes tribunal but
+more likely by higher commanders and civilian
+authorities. “Military necessity” is often, but erroneously, invoked as an unchallengeable, open-ended
+license to take whatever actions seem necessary for
+231
+Just War Doctrine and the International Law of War
+victory, as in the Kriegsraison doctrine developed by
+German legalists and military commanders (c. 1870–
+1945). The Kriegsraison doctrine held that “necessity
+knows no law.” Given the temptation to interpret
+military necessity in this way, it is important to emphasize the requirements of legitimate military necessity that, clearly, limit war conduct while justifying
+that conduct that meets those requirements. 29
+Humanity
+The principle of humanity requires abstention
+from means and methods that cause superfluous
+suffering and includes the principle of discrimination, which prohibits direct, intentional attacks on
+noncombatants and civilian targets. The rejection
+of acts causing superfluous suffering reinforces the
+requirement of the principle of military necessity
+to limit war conduct to what is truly necessary in
+terms of military utility. The principle of discrimination, which will be addressed further in this chapter in the discussion of just war doctrine, is perhaps
+the most critical of the limits on war conduct because the risk of its violation is great at every level
+of warfare from revolutionary/counterinsurgency
+war to conventional interstate war to nuclear deterrence and war. 20(p65),27(¶1-6)
+Chivalry
+The principle of chivalry, derived from the knightly
+codes of the past, requires that enemies be treated in
+good faith, that belligerent communication be honest
+and free of treachery, and that truces and other agreements be kept in good faith. 20(pp65–66),27(¶1-6)
+Some Specific Areas of International WarConduct Law
+Based on these three fundamental principles, the
+international law of war deals primarily with the
+following subjects: (a) belligerent status under the
+law of war; (b) means and methods of destruction;
+(c) prisoners of war; (d) wounded and sick; (e) belligerent occupation; and (f) sanctions for the laws
+of war.
+Determination of Belligerent Status
+Belligerent status simply refers to the question
+of who is a party to the conflict and thus entitled to
+the rights and obligations of a belligerent. Belligerent status under the law of war is clear in the case
+when the adversaries are sovereign states, such as
+in the War of 1812 between the United States and
+Great Britain. In the past, belligerent status was
+acquired by revolutionary governments and their
+forces through recognition by third powers (eg, the
+Confederacy in the American Civil War, recognized
+as a belligerent for purposes of the laws of war but
+not yet as a new state by Great Britain and France).
+Recognition of belligerency was usually based on
+the perception that a revolutionary government
+controlled substantial territory and its population,
+that this government was organized and able to
+engage in ordinary governmental functions, and
+that its military forces had demonstrated that they
+were reasonably capable of prevailing in the civil war.
+Modern armed conflicts do not always present
+the comparatively clear-cut state of affairs that existed in the American Civil War. Often civil wars or
+wars of national liberation are waged by movements
+and their forces located in remote areas, sometimes
+based in foreign countries, often on the move. Control of whatever areas these movements occupy may
+be based on the loyalty of the local inhabitants but
+it may often be based on force, ceasing when the
+revolutionaries move on. Still, such movements
+may ultimately succeed, as the FLN (Front de
+libération nationale) did in its Algerian war of national liberation, without occupying any important
+part of the country for any substantial period.
+The issue of belligerent status is complicated by
+international politics. Some political-military movements, notably the Palestine Liberation Organization
+(PLO), have been accorded political recognition and
+treated by third parties to their war with Israel as
+bona fide belligerents. This has been the case, notwithstanding the fact that the PLO was never able
+to occupy and control any part of the area known
+as Palestine. The PLO managed to develop a huge
+body of supporting Third World (nonaligned) states
+and Second World (Communist-block) states and
+was treated with respect by First World (Western
+industrialized) states other than the United States.
+This support was evidenced by a grant of automatic
+belligerent status accorded implicitly to the PLO in
+the 1977 Geneva Protocol I Relating to the Victims of
+International Armed Conflict. 30
+Article 1(4) of the 1977 Geneva Protocol I gives
+automatic belligerent status to national liberation
+movements engaged in wars of national liberation
+with “colonial” and “racist” regimes and “alien”
+occupying powers. 31 This provision was aimed at
+South Africa, Israel, and Portugal (then still a colonial power). The circumstances in which this provi232
+Military Medical Ethics, Volume 1
+sion was passed have changed, but it demonstrates
+the willingness of the majority of the international
+community to disregard objective requirements for
+belligerent status in order to favor certain insurgent
+movements. The fact that this provision appears in
+Geneva Protocol I (a convention on international
+conflicts), and not in Geneva Protocol II (which deals
+with noninternational conflicts), reveals the preferential treatment given to these revolutionaries carrying
+out wars of national liberation.
+Article 1 of 1977 Geneva Protocol II, in contrast,
+applies:
+to all armed conflicts which are not covered by
+Article 1 of … (Protocol I) and which take place in
+the territory of a High Contracting Party [ie, a party
+to this protocol] between its armed forces and dissident armed forces or other organized armed
+groups which, under responsible command, exercise such control over a part of its territory as to
+enable them to carry out sustained and concerted
+operations and to implement this Protocol.
+Further, Article 1(2) of 1977 Geneva Protocol II
+specifies that:
+this Protocol shall not apply to situations of internal disturbances and tensions, such as riots, isolated and sporadic acts of violence and other acts
+of similar nature, as not being armed conflicts. 32
+Neither Protocol I nor Protocol II has been ratified by a sufficient number of States to have entered
+into force. Neither has been ratified by the United
+States, which rejects a number of provisions of Protocol I, especially in Article 1(4), that give special
+belligerent status on the basis of ideological rather
+of objective political-military grounds. Article 1 of
+Protocol II appears to provide the best guidance for
+evaluation of claims to belligerent status under the
+law of war. It should be emphasized that belligerent status engenders duties as well as rights under
+the law. Many contemporary political/military
+movements employ terrorism and other strategies,
+tactics, and policies violative of the law of war, jeopardizing their claims to belligerent status.
+Controlling the Means and Methods of Warfare
+The law of war concerning means and methods
+of warfare begins with attempts to ban or greatly
+restrict certain weapons. On the whole, with the
+exception of chemical warfare (CW) and biological
+warfare (BW) means, these attempts have not been
+very successful. As early as 1868 the St. Petersburg
+Declaration33 claimed that the “progress of civilization should have the effect of alleviating as much
+as possible the calamities of war,” that “the only
+legitimate object which states should endeavor to
+accomplish during war is to weaken the military
+force of the enemy,” that “for this purpose, it is sufficient to disable the greatest number of men,” and that
+“this object would be exceeded by the employment
+of arms which uselessly aggravate the sufferings of
+disabled men, or render their death inevitable.” This
+provision reflected the influence of the principle of
+humanity and the emphasis on avoidance of “superfluous suffering.”
+Minimizing “Superfluous Suffering.” The prohibition of means causing “superfluous suffering”
+was repeated in 1899 Hague Convention II and Article 23(e) of its successor, 1907 Hague Convention
+IV, which states that it is especially forbidden “to
+employ arms, projectiles, or materials calculated to
+cause unnecessary suffering.”34(Art23e) However, although there has been broad acceptance of prohibitions against means causing “superfluous suffering” or “unnecessary suffering,” there has been little
+agreement as to which specific means fall into the
+forbidden category. In 1899 Hague Declaration IV
+(3), “The High Contracting Parties agree to abstain
+from the use of bullets which expand or flatten easily in the human body, such as bullets with a hard
+envelope which does not entirely cover the core, or
+is pierced with incisions.”35 This declaration only
+applied to wars between the contracting parties.
+Great Britain and the United States were not parties to the 1899 Hague Declaration, which applied
+principally to so-called “dumdum” bullets.
+However, The Law of Land Warfare (published July
+1956) states that “usage … has established the illegality of the use of lances with barbed heads, irregular-shaped bullets, and projectiles filled with
+glass, the use of any substance on bullets that would
+tend unnecessarily to inflame a wound inflicted by
+them, and the scoring of the surface or the filing off
+of the ends of the hard cases of bullets.”36(¶34b)
+Objections were raised during the Vietnam War
+to the small-caliber, high-velocity ammunition used
+in the American-made US M-16 rifles. These projectiles tumble end over end on impact, creating a
+large entry wound. Interestingly enough, the M-16’s
+ammunition did not differ in this respect from that
+of the AK-47 rifle37(pp267–268) (manufactured by the
+former Soviet Union and supplied to the North Vietnamese military).
+Critics of the American conduct of the Vietnam
+233
+Just War Doctrine and the International Law of War
+War also condemned use of the cluster bomb [unit]
+(CBU). CBUs had a container that, when dropped
+from the air or fired by artillery, released numerous bomblets that fragment before, during, or after
+impact, dispersing over wide areas. CBUs were effective in suppressing antiaircraft batteries in US
+air raids in North Vietnam and later in the Israeli
+siege of the PLO forces in Beirut in the 1982 Lebanon War. Critics charged that the CBUs hit civilian
+as well as military targets and that the irregular
+fragments caused wounds of the kind prohibited
+by Article 23(3) of the 1907 Hague Convention. Inquiries by the International Committee of the Red
+Cross proved inconclusive, it being difficult to distinguish the wounds caused by CBUs from those
+caused by hand grenades or artillery shrapnel.
+Therefore, use of cluster bombs against military targets is clearly permissible because these weapons
+do not fall under the prohibition against cruel and
+unnecessary suffering. Permissibility of use against
+mixed military-civilian targets would depend on the
+proportion of military to civilian targets and the
+degree of military necessity for their use. Obviously,
+use of CBUs against primarily civilian targets is prohibited by the principle of discrimination. 37(pp266–267)
+Perhaps the most notorious charge of use of a
+weapon causing superfluous suffering came concerning the American use of napalm during the
+Vietnam War. Napalm became symbolic of the supposedly illegal conduct of the war by the American
+forces. Following the war there were demands for
+a convention outlawing napalm. The International
+Committee of the Red Cross organized a conference
+to draft a treaty on napalm and other forms of incendiary weapons. In the course of deliberations on
+this subject, it was noted that napalm and other incendiary weapons, such as white phosphorous used
+to mark targets, were standard in most modern
+armies. Napalm was important in antitank warfare
+and in attacks on fortified areas, especially caves,
+bunkers and tunnel complexes.
+Faced with these facts, the negotiating states finally agreed to a 1980 Weapons Convention that
+does not ban napalm or other incendiary weapons
+as such. Instead, it prohibits the use of such weapons directly against civilian targets or their use
+when military utility is not clearly proportionate
+to the risk to civilian targets. 38
+There are provisions in the 1980 Weapons Convention regulating the use of land mines and other
+antipersonnel devices (such as “booby traps”).
+Again, there is no realistic possibility of prohibiting their use for reasonable military purposes.
+Rather, the effort is to prohibit indiscriminate, irresponsible use of these means and to improve arrangements for protecting civilians in areas where
+they have been deployed. 39
+Prohibiting the Use of Chemical and Biological Agents. While consensus as to what weapons
+cause superfluous or unnecessary suffering remains
+elusive, major steps have been made to produce
+both conventional and customary international law
+prohibiting use of chemical weapons (CW) and biological weapons (BW). Gas warfare began in large
+scale in World War I, although it had been used to
+lesser extents in previous conflicts. 40 By the end of
+the war on the Western Front, use of gas sprayed
+from cylinders or fired in artillery shells was standard practice on both sides.
+It could have been argued that CW was forbidden by Article 23a of 1907 Hague Convention IV,
+which prohibited use of “poison or poisoned weapons.” However, the 1907 Hague Convention IV was
+essentially a codification of past customary practice. It is thus questionable that the ban on poison
+and poisoned weapons anticipated the kind of CW
+employed in World War I. Rather, it would be logical to assume that this provision referred to the
+kinds of use of poison and poisoned weapons employed in past wars, that is, poisoning food and
+water, shooting poisoned arrows, or stabbing with
+poisoned knives, lances, or bayonets. 20(p59)
+In any event, CW was widely used on the Western Front. However, this experience seems to have
+left a strong negative impression on military men.
+Gas warfare never proved decisive in battle but it
+caused huge casualties and made the miserable existence of the armies on both sides even more miserable. In short, gas warfare did not have a military
+utility proportionate to the damage and inconvenience it caused. It appears that this view has prevailed in most armed forces, in the stress of battle
+as well as in planning and training. Armed forces
+have needed to prepare for use of CW by enemies
+but they seldom have planned to initiate CW as a
+preferred strategy.
+Military skepticism about the utility of CW coincided with the urge to ban or limit modern weapons
+after World War I. The 1925 Geneva Gas Protocol41
+prohibits “the use in war of asphyxiating, poisonous
+or other gases, and of analogous liquids, materials
+or devices,” as well as “bacteriological methods of
+warfare.” However, this prohibition was potentially
+fragile. In effect, the 1925 Geneva Gas Protocol is a
+“no first use” convention. Many states, in fact, ratified the Protocol with a reservation indicating that
+234
+Military Medical Ethics, Volume 1
+they would not be the first to use CW, but reserved
+the right to retaliate with CW. The party that breaks
+the ban is subject to retaliation in kind with CW.
+Indeed, it would seem that in a war between two
+coalitions any member of a coalition in which one
+of its members is attacked with CW is entitled to
+retaliate in kind with CW against any member of
+the coalition to which the party initiating CW belongs.
+Despite the risk that the 1925 Geneva Gas Protocol
+would become another “paper ban,” to be broken
+readily under the stress of war, it survived because
+it was prohibiting the use of means that belligerents
+considered unreliable and likely to create more
+problems than they would solve. Before World War
+II gas was used by the Italians against the Ethiopians and the Japanese against the Chinese. But in
+World War II gas was not used at all. There were
+numerous occasions when CW might have proved
+decisive, for instance against the Allied invasions
+of Hitler’s Europe and against Japanese forces holding out in the Pacific Islands. But neither side used
+CW. Abstention from use of CW continued in the
+Korean War and in the numerous revolutionary/
+counterinsurgency wars of the post–World-War-II era.
+The United States had not ratified the 1925 Geneva
+Gas Protocol but by the end of the Korean War it
+was clear that the ban on gas was confirmed by
+customary international law. Accordingly, the use
+of so-called nonlethal CW by the US forces in Vietnam was controversial. The United States employed
+herbicide agents to destroy vegetation near roads
+subject to ambush. Herbicides were also used to
+destroy crops in areas firmly controlled by enemy
+forces. US forces used riot-control agents such as
+tear gas to flush out enemies hiding in tunnels and
+buildings in which civilians were also hiding. On
+the merits, these CW means were appropriate and
+proportionate to legitimate military objectives. Indeed, one of the ironies of the debates about use of
+riot-control agents was that their use in domestic
+disturbances in the United States and many parts
+of the world was considered humane whereas
+their use against enemy forces in Vietnam was
+condemned. 37(pp248–266)
+Nevertheless, recourse to these nonlethal means
+was unfortunate in that it could be seen as opening
+a “Pandora’s Box” that would erode the ban on CW.
+The United States finally ratified the 1925 Geneva
+Gas Protocol in 1975 with a reservation permitting
+the retaliatory use of chemical weapons and agents.
+The United States continued to claim that nonlethal CW, such as employed in Vietnam, was distinct
+from the CW prohibited in the 1925 Geneva Gas
+Convention. However, in a 1975 executive order by
+President Ford the United States renounced first use
+of herbicides in war except for use under regulations applicable to their domestic use in US bases
+and defense perimeters. Crop destruction does not
+appear to be contemplated in the order. The order
+also renounced first use of riot control agents except in defensive modes to save lives. 27(¶6-4–¶6-5)
+The ban on BW was strongly confirmed by the
+1972 Convention on the Prohibition of the Development, Production, and Stockpiling of Bacteriological (Biological) and Toxin Weapons and on their
+Destruction, signed in Washington, London, and
+Moscow. 42 Use of BW means is prohibited against
+persons, animals, or plants, because of its indiscriminate and uncontrollable nature.
+The 1993 Paris Convention on the Prohibition of
+the Development, Production, Stockpiling and Use
+of Chemical Weapons and on their Destruction was
+ratified by the United States and many states
+throughout the world. The convention goes beyond
+prohibiting CW to arms control measures intended
+to eliminate CW capabilities. The problem is that
+implementation of the convention involves difficult
+problems of inspection and verification. 43,44
+A major achievement in the development of customary international law on CW occurred in the
+1991 Persian Gulf War. Iraq had used CW against
+the Iranians and on their own Kurdish dissidents.
+Before Operation Desert Storm (the combat phase
+of the war) there was great concern over the probable use of CW by the Iraqi forces against the USled coalition forces. The coalition forces went to
+great lengths to protect their personnel against CW
+attacks and to prepare for the treatment of CW casualties. However, there were apparently no plans
+to retaliate in kind with CW means in the event of
+Iraqi CW attacks. In any event, the Iraqis did not
+use chemical weapons45 although the reasons for
+their restraint are not known.
+Deterring the Use of Nuclear Weapons. There
+is no international legal prohibition against the use
+of nuclear weapons per se. A number of resolutions
+passed by the UN General Assembly and other international organizations and conferences condemn
+nuclear weapons but they do not have the force of
+conventional law. Instead, the threat of nuclear war
+has been addressed through arms control agreements designed to prevent nuclear confrontations
+by improving communications between potential
+nuclear belligerents (eg, the 1963 “Hotline” Agreement, the 1971 “Hotline” Modernization Agreement,
+the 1971 “Accidents Measures” Agreement, the 1973
+235
+Just War Doctrine and the International Law of War
+Prevention of Nuclear War Agreement, and the 1987
+Nuclear Risk Reduction Centers Agreement between the United States and the Soviet Union).
+Other Soviet-American arms control agreements
+sought to maintain stability in the superpowers’
+nuclear balance of deterrence forces (eg, SALT I
+[Strategic Arms Limitation Treaty I], which included the ABM [Anti-Ballistic Missile] Treaty and
+the Interim Agreement on Limitation of Strategic
+Offensive Arms).
+More recently US-Soviet Union/Russian Federation agreements have mandated elimination or reduction of specified types of nuclear missiles and
+warheads (eg, the 1987 INF [Intermediate-range
+Nuclear Forces] Treaty requiring the destruction by
+both sides of all their intermediate-range missiles,
+the first agreement to eliminate a whole class of
+nuclear weapons). Moreover, the 1991 Strategic
+Arms Reduction Treaty (START) I called for a 50%
+reduction in Soviet ballistic missile warheads and
+a 35% reduction in American warheads. Under
+START I each side would have 6,000 total warheads
+on Inter-Continental Ballistic Missiles (ICBMs),
+SLBMs (Sea-Launched Ballistic Missiles), and
+bombers, with no more than 4,900 deployed on landbased or sea-launched ballistic missiles. The process of nuclear disarmament was continued in the
+1993 US-Russian START II agreement. 46
+Efforts to protect the earth from nuclear testing
+and use in war are evidenced in the 1959 Antarctic
+Treaty, the 1963 Limited Test Ban Treaty, the 1967
+Outer Space Treaty, the 1971 Seabed Arms Control
+Treaty, the 1974 Threshold Test Ban Treaty, the 1975
+Peaceful Uses of Nuclear Energy (PNE) Treaty (concerning nuclear explosions for peaceful purposes),
+and the 1980 Convention on the Physical Protection
+of Nuclear Material. The Threshold Test Ban and
+the PNE treaties are bilateral US-Soviet agreements.
+The other treaties in this category are general conventions open to all states. 46
+The consensus that it is imperative to stop the
+spread of nuclear weapons to currentlyly nonnuclear
+powers produced the 1968 Non-Proliferation Treaty
+to which most states are parties. However, Israel,
+India, and Pakistan, which all have nuclear weapons, are not parties to the Non-Proliferation Treaty.
+North Korea apparently has come close to developing nuclear weapons, although the United Nations and the International Atomic Energy Agency
+have been unable to verify the state of its nuclear
+program. Iraq and Iran are both parties to the 1968
+Non-Proliferation Treaty but there is evidence that
+they are working to produce nuclear weapons.
+It is clear that the states of the world are fully
+cognizant of the dangers of nuclear war to themselves and to the whole world. At the same time,
+many states claim the necessity of possessing
+nuclear weapons to deter nuclear or conventional
+aggression. There also appears to be a temptation
+to acquire nuclear weapons to further national
+power and prestige. Moreover, a number of states
+striving to acquire nuclear weapons are driven by
+deep ideological or religious motives that threaten
+their neighbors with irresponsible recourse to
+nuclear means (eg, North Korea, Iran, Iraq, India,
+and Pakistan).
+Although there is no conventional international
+law (ie, treaty law) definitively dealing with the use
+of nuclear weapons (except in the Antarctic and
+outer space), it is possible to find an emerging rule
+of customary international (unwritten) law in the
+pattern of state practice since the American nuclear
+bombing of two Japanese cities, Hiroshima and
+Nagasaki, in 1945. Despite the development of
+nuclear capabilities and long-range means of delivery since 1945, and despite the bitter conflicts that
+have occurred in this period, there has been no further use of nuclear weapons in war. There is warrant for a claim that there is a rule of customary
+international law prohibiting first use of nuclear
+weapons. The Western nuclear powers have always
+stressed the deterrent role of nuclear weapons,
+which provide “assured destruction” and “unacceptable damage” through nuclear retaliation.
+The United States, however, has never accepted
+a public “no first use” position, particularly during
+the Cold War, in order to maintain a nuclear deterrent against a massive Warsaw Pact conventional
+attack. The Soviet Union, historically, declined even
+more emphatically to agree to a “no first use” policy.
+The end of the Cold War may alter these attitudes
+but other considerations may incline nuclear powers to reject a “no first use” rule of international law.
+International law depends on broad consensus
+on a subject within the international community.
+Consensus, however, is not simply a quantitative
+matter. According to the subject, the qualitative element in consensus counts a great deal. This qualitative element is based on the power of individual
+states and their relevance to the subject. For example, if 95% of the states agree on rules for outer
+space but these states have little or no capability to
+operate in space and the remaining 5% of the states
+are active in outer space, the consensus of the 95%
+will not produce effective rules of international law.
+Clearly most of the states of the world do not as236
+Military Medical Ethics, Volume 1
+pire to become nuclear powers and they would support a total ban on nuclear weapons. But the United
+States and Russia (and other successor states of the
+former Soviet Union such as Ukraine), as well as
+China, Britain, France, Israel, India, and Pakistan
+have nuclear capabilities and serious reasons to
+maintain them and deploy them in deterrent modes.
+Indeed, such deterrents may be needed to maintain
+the peace in many parts of the world, particularly
+as the threat of proliferation of nuclear capabilities
+to potential aggressor states grows. In these circumstances there appears to be little likelihood of a general prohibition of nuclear weapons in the international law of war. Interestingly enough, when the
+International Court of Justice was asked to rule in
+1966 on whether the threat or use of nuclear weapons violated international law, the court was unable to conclude that the use of nuclear weapons
+was clearly prohibited.
+Protection of Prisoners of War
+In contrast, the international law of war protecting prisoners of war (POWs) is highly developed. 47,48 Building on the 1907 Hague Convention
+IV and 1929 Geneva Convention, the 1949 Geneva
+Convention on Prisoners of War provides a comprehensive, detailed POW regime. 49 The protections
+of this legal regime are clearly intended for captured
+service personnel of the armed forces of sovereign
+states. The great number of armed conflicts involving revolutionary forces, however, have repeatedly
+raised the question whether members of such forces
+should be entitled to POW status and protection.
+(The issue of belligerent status for revolutionary
+governments and movements has already been discussed in the first part of this section.)
+Viewed at the level of individual combatants,
+international law, as set forth in the 1907 Hague
+Convention IV, Article 1, and 1949 Geneva Convention (POWs), Article 4(2), requires that POW status
+should be given if the individual belongs to an organization with a responsible commander, wears “a
+fixed distinctive sign recognizable at a distance,
+carries arms openly,” and is part of a unit that conducts its operations “in accordance with the laws
+and customs of war.”
+Most revolutionary units have a responsible commander, but the other requirements for POW status are often not met by such organizations. Their
+personnel usually wear civilian clothing, do not
+carry arms openly, and do not conduct their operations in accordance with the law of war. In the case
+of the Vietcong and the PLO, for example, there
+were grounds for denying belligerent status to captured members of these organizations. Nonetheless,
+it must be conceded that they were not common
+criminals. The American–South Vietnamese and Israeli resolution of the problem was to deny that the
+Vietcong and PLO captives were entitled to POW
+status but to accord them treatment roughly equivalent to that required for bona fide POWs. Most important, this involved allowing the International
+Committee of the Red Cross (ICRC) to visit and
+monitor the treatment of the captives.
+The first right of a POW is the right to survive
+capture. Under Articles 23c and 23d of the 1907
+Hague Convention IV it is especially forbidden “[t]o
+kill or wound an enemy who, having laid down his
+arms, or having no longer means of defence, has
+surrendered at discretion” or “[t]o declare that no
+quarter [shelter] will be given.” Once captured, the
+POW should be removed from combat areas as
+promptly as possible. The detaining power should
+give notification of the names of detained POWs
+through a Protecting Power, a neutral state designated by a belligerent to represent its interest.
+The POW regime, codified in the 1907 Hague
+Convention IV, Articles 4 through 20, and in the
+comprehensive provisions of the 1949 Geneva Convention (POWs), requires that POWs have decent
+living conditions and medical, religious, recreational, and postal services. There are detailed rules
+concerning discipline in POW camps. Provision is
+made for termination of captivity. These and other
+aspects of the POW regime are subject to the supervision of the International Committee of the Red
+Cross, which has greatly influenced treatment of
+POWs, even in the most intractable of armed conflicts. It is well known, however, that POWs have
+been sorely abused and mistreated in many recent
+wars. The North Koreans and Chinese in the Korean War and the North Vietnamese in the Vietnam
+War denied the ICRC access to POWs it detained.
+Gross violations of the POW regime, beginning with
+denial of quarter, followed by death marches, incarceration of POWs without adequate lodging,
+food, or medical assistance, as well as intimidation
+and torture, were rampant. 37,47(pp172ff,312ff)
+Reprisals against POWs are prohibited by the
+1949 Geneva POW Convention. Moreover, states
+such as the United States do not retaliate in kind
+when their captured service men and women are
+abused. In any event, there is reason to believe that
+retaliation against POWs from states such as North
+Korea or North Vietnam would not elicit changes
+237
+Just War Doctrine and the International Law of War
+in the illegal POW policies of those states. Despite
+these failures of the POW regime, however, its successes are evidenced by the fact that millions of POWs
+in modern wars have survived and returned home.
+Protection of the Wounded and Sick
+Provisions for the protection of the wounded and
+sick go back to the 1864 Red Cross Convention. Protection of the wounded and sick on land was also
+provided in the 1929 Geneva revision of the 1864
+Convention and in the current 1949 Geneva Convention for the Amelioration of the Condition of the
+Wounded and Sick in Armed Forces in the Field
+(GWS). 50 Protection for the wounded and sick at sea
+was provided in the 1907 Hague Convention X and
+is presently provided by the 1949 Geneva Convention for the Amelioration of the Condition of the
+Wounded, Sick and Shipwrecked Members of
+Armed Forces at Sea (GWS-SEA). 51
+Article 12 of the 1949 GWS Convention prescribes
+the treatment to be given the wounded and sick. It
+prohibits any discrimination on the basis of nationality, sex, religion, or political opinion. Torture or
+subjection to biological experiments is prohibited.
+Proper treatment of women is demanded.
+The 1949 GWS gives detailed provisions for collecting and caring for the wounded and sick, including religious services, and for proper disposal of
+the dead. There are extensive provisions for protection of medical units and personnel and for medical aircraft. The Convention prescribes the use of
+the distinctive Red Cross (or Red Crescent or Red
+Lion and Sun) emblem.
+The 1949 GWS-SEA Convention repeats the basic protections of GWS and adds provisions on protection of shipwrecked members of the armed
+forces. The term “shipwrecked” includes forced
+landings at sea by, or from, aircraft. The conditions
+under which hospital ships are immune from attack are delineated, including the proper placement
+of the distinctive emblem, as well as the conditions
+for immunity of medical and religious personnel.
+Expectations Regarding Belligerent Occupation
+Conventional law regulating belligerent occupation is found in some parts of the 1907 Hague Convention IV and in the 1949 Geneva Convention Relative to the Protection of Civilian Persons in Time of
+War. 52,53 It is important to understand the premises
+of this body of international law. The law of belligerent occupation assumes situations in which part
+of the sovereign territory of one belligerent has been
+occupied by the armed forces of another sovereign
+state with which it is at war. This occupation is
+termed “precarious” because it depends on the fortunes of war. However, the law of belligerent occupation should come into effect when a belligerent
+has established firm control of the enemy’s territory and appears to be capable of retaining control
+for a substantial period. 28(pp1876ff),54,55
+The theory in legal doctrine is that the original
+sovereign having been temporarily replaced, the
+occupying power should take over the basic functions of government in the areas it controls. The
+occupying power is allowed to take all reasonable
+measures to ensure security of its forces as it continues the conflict beyond the occupied area. At the
+same time, the occupying power is expected to
+maintain law and order, assure at least the minimal
+governmental functions necessary to the population, and to render relief services if needed and
+within its capabilities. The occupied population,
+however much they may resent their forces’ defeat
+and the occupation, are expected to cooperate with
+the occupying power in order to maintain some
+minimal standard of living during the occupation.
+Two principles are particularly important in the
+law of belligerent occupation. The first is implied
+in the concept of “precarious occupation.” Because
+the occupation is temporary, no fundamental
+changes should be made in the civil order and the
+economy of the occupied territory. While laws, institutions, and practices that are violative of human
+rights can be overturned, as in the occupation of
+the territory of a tyrannical, oppressive regime, such
+as Nazi Germany, the ordinary laws, institutions,
+and practices found in most societies should be continued. The occupying power usually rules by military government while continuing in office those
+middle- and lower-level governmental personnel
+who continue their necessary functions under the
+direction of the military government.
+Although the occupied population is expected to
+cooperate with the occupying power and not engage in subversive activities, they are not to be
+forced to take part in the war against their own side.
+Private property should be protected from pillage
+by the occupying forces, both in combat zones and
+in occupied areas. Articles 47 through 54 of the 1949
+Geneva Convention regarding treatment of civilians53 prohibits a number of practices branded as
+war crimes in World War II, such as mass deportations to other countries or areas, and forced labor.
+Two kinds of situations challenge the premises
+238
+Military Medical Ethics, Volume 1
+of the law of belligerent occupation. The first is one
+in which serious resistance movements develop
+within occupied territories, by spontaneous actions
+of some of the inhabitants or regular forces left behind to continue the war or, often, some combination of both as was the case in Russia in World War
+II. As the activities of the resistance forces develop,
+the occupying power attempts to deter and defeat
+them by counterforce operations. This is a legitimate use of force. Very often, however, purely
+counterforce operations do not suffice and the occupying power turns to various reprisals against
+the civilian population on the theory that the resistance forces could only operate with the support,
+or the acquiescence, of the population. A typical
+(though illegal) tactic is to punish a town or locality where resistance forces have struck. Such reprisals, including the taking and killing of hostages,
+wholesale destruction of population centers, indiscriminate roundups of suspects who are denied due
+process, mistreated, and tortured, are prohibited by
+Articles 31 through 34 of the 1949 Geneva Civilians
+Convention. 53
+The dilemma for civilians in occupied areas is
+that they cannot expect some of their number to
+continue the war by irregular warfare behind the
+front and still benefit from protection and services
+of the occupying power. To be sure, resistance in wars
+such as World War II is often engendered in the first
+place by failure of the occupying power to honor
+its duties under the law of belligerent occupation.
+On the other hand, even a law-abiding occupying
+power will be disinclined to continue to perform
+its legal duties to a population that supports directly
+or indirectly resistance operations endangering its
+security.
+The other situation confounding the law of belligerent occupation is that of civil war. As with
+much of the law of war, difficulties arise from the
+fact that belligerents in modern wars often are not
+sovereign states but dissident movements within
+sovereign states. These revolutionaries usually
+claim to be the rightful sovereign, engaged in overthrowing an unjust regime. If they occupy some
+territory more or less permanently they do not consider it to fit the concept of occupied territory on
+which the law of belligerent occupation is based.
+On the other hand, it is often the case that revolutionary forces, particularly in the early stages of a
+civil war, cannot hold much territory for long. Or
+they may only be able to hold remote, inaccessible
+areas where there is little need for normal governmental services.
+When, however, revolutionary forces do hold
+populated areas for prolonged periods, their relations with the indigenous population can vary
+greatly. Sometimes the local population may support the revolutionaries. However, the local population may favor the incumbent regime or simply
+be neutral. In these cases, revolutionary forces are
+inclined to impose very harsh policies, intimidating and exploiting the local population. Clearly
+such conduct is violative of the international law
+of belligerent occupation. As is the case with the
+other parts of international war-conduct law, civil
+wars usually challenge the authority of laws that
+were developed primarily for the armed forces of
+sovereign states in international wars.
+The foregoing survey of modern international
+war-conduct law has set forth the principal legal
+prescriptions that a law-abiding belligerent power
+should follow. It has also recognized that some
+belligerents, particularly totalitarian regimes and
+adversaries in revolutionary/counterinsurgency
+wars, frequently violate international war-conduct
+law. This raises a fundamental question: What sanctions exist to enforce the international law of war?
+Sanctions for Violations of the International Law
+of War
+The US Army’s Field Manual 27-10, The Law of
+Land Warfare states that there are two remedies for
+violations of the international law of war: reprisals
+and war crimes proceedings. Reprisals are defined
+as “acts of retaliation in the form of conduct which
+would otherwise be unlawful, resorted to by one
+belligerent against enemy personnel or property for
+acts of warfare committed by the other belligerent
+in violation of the law of war, for the purpose of
+enforcing future compliance with the recognized
+rules of civilized warfare.”36(¶497a) The Law of Land
+Warfare gives as an example “the employment by a
+belligerent of a weapon the use of which is normally
+precluded by the law of war would constitute a lawful reprisal for intentional mistreatment of prisoners of war held by the enemy.”36(¶497a)
+There are a number of problems with recourse
+to reprisals to force an enemy to cease violating the
+law of war. The first is that all four of the 1949
+Geneva Conventions prohibit reprisals against
+POWs and civilians, forbidding retaliation in kind
+for some of the most common violations of the law
+of war. The second is that recourse to a weapon
+“normally precluded” comes down to use of chemical warfare (CW) or biological warfare (BW), which,
+as discussed above, are the only weapons clearly
+prohibited by the law of war. As previously dis239
+Just War Doctrine and the International Law of War
+cussed, both law and good policy would condemn
+recourse to CW or BW as reprisals. This leads to
+the third problem with reprisals, namely, their use
+tends to create a retaliatory spiral of illegal measures by adversaries that can destroy major parts
+of the law. A major example is the experience in
+World War I where the opposing navies competed
+in violating traditional principles of the law of maritime warfare to the point where there was no such
+law in effect by the end of the war.
+Another example of problems with reprisals involves chemical warfare in World War I. The Germans employed gas first. The Allies’ reaction was
+not a series of discrete retaliatory acts, that is, retaliating in kind with their own chemical means.
+Rather, the Allies’ developed and used gas warfare
+as a standard tactic throughout the rest of the war.
+They then unwisely condemned the German use of
+chemical warfare in a provision of the Versailles
+Treaty. Practically speaking, despite Allied claims,
+use of chemical warfare was not “rightly condemned”
+at the end of the war; it was standard practice for
+all forces that had chemical warfare capabilities.
+The other sanction for the law of war suggested
+by The Law of Land Warfare is war crimes proceedings. 36(¶497,¶505–¶509) Ideally, persons charged with violations of the law of war should be brought to trial
+before a fair tribunal whose judges are knowledgeable in military science and the international law
+of war. Unfortunately, there have been difficulties
+establishing such tribunals.
+The principal problem with war crimes proceedings is the inability to take control of the alleged
+war criminals so that they can be brought to justice. Generally, this can only be solved in cases where
+there is a complete victory over forces in whose
+ranks are alleged war criminals, as in the case of Germany and Japan after World War II. Critics of the
+Nuremberg and Tokyo trials complained of “victors’
+justice” and there are genuine issues concerning the
+fairness of those and other war crimes trials. Without a “victor,” however, there is little or no likelihood of bringing alleged war criminals to justice.
+This problem became clear in the Korean War.
+Gross violations of the law of war, particularly with
+respect to POWs and civilians, were widely known.
+The United Nations command set lawyers to work
+preparing for war crimes trials. Unfortunately, there
+was a stalemate instead of a victory and there were
+no UN war crimes trials. Likewise, there was no US
+victory in Vietnam and thus no trials of the North
+Vietnamese who had tortured and mistreated US
+POWs. There was a military victory in the Persian
+Gulf War, but not total victory as in the case of Germany and Japan. The civilian and military personnel guilty of the rape of Kuwait, of massive crimes
+against the environment (such as setting the oil
+fields on fire), of indiscriminate attacks on Israeli
+and Saudi population centers with Scud missiles,
+and other crimes were not punished.
+A second problem with war crimes proceedings
+as a sanction for the law of war is that they can be
+outrageously abused. In the Korean and Vietnam
+wars the communist powers claimed that all captured POWs were war criminals per se, undeserving of POW protections. Had communist POWs
+been tried by the allies, this would have simply
+encouraged ludicrous trials of the POWs held by
+the communists, as a retaliation. 37(pp312ff),47(pp316)
+Over the past several years, there have been two
+significant developments relating to the enforcement of international laws relating to armed conflict. First, the United Nations has established two
+special war crimes tribunals—The International
+Criminal Tribunal for the Former Yugoslavia
+(ICTFY) and The International Criminal Tribunal for
+Rwanda (ICTR). Both of these tribunals are empowered to indict and try individuals for a variety of
+crimes related to the conflicts in those areas. Second, under the auspices of the United Nations, a
+statute for an International Criminal Court has been
+drafted. Although this court has yet to be formally
+established, it will provide the type of standing
+body that could try individuals for violations of the
+jus in bello.
+It must, of course, be recognized that there are
+evil and irresponsible regimes in the world and that
+they will usually not feel obligated to obey the law
+of war by the threat of reprisals or war crimes proceedings. What then should a law-abiding state,
+faced with such an enemy, do? The law-abiding
+state should hold to its own values and obey the
+law itself because it is the right thing to do. This is
+not an unrealistic injunction. Wars are not usually
+won by illegal behavior. Massive air attacks on
+population centers in World War II did not prove
+decisive. Such indiscriminate attacks certainly contributed to the defeat of Nazi Germany but they did
+not force the German and Japanese people to demand surrender. If anything, they encouraged a
+spirit of resistance—as was also the case in Britain
+pounded by the blitzkrieg. Post–World-War-II critiques of strategic bombing suggested that many of
+the military assets that it required could have been
+put to better use in counterforce attacks on strictly
+military targets.
+To be sure, this argument can be countered with
+the success of the atomic bomb at Hiroshima and
+240
+Military Medical Ethics, Volume 1
+Nagasaki in ending the war. This case is unique. It
+happened when the United States was the only
+country with atomic weapons. Today there are
+many nuclear powers. First use of nuclear weapons would risk initiating a nuclear war unacceptable to any sane decision maker. As previously observed, no nuclear power has employed nuclear
+weapons in war since 1945.
+The argument, then, for restraint is twofold: respect for the law and recognition that its violation
+is not a shortcut to military success and may engender problems that will haunt the wrongdoer in
+the future. There remains the question of how a lawful belligerent can promote observance of the law
+in its own armed forces.
+The War-Conduct Law in Just War Doctrine
+War-conduct law is based on principles in waging war. These include the principle of proportion
+and the principle of discrimination. The principle
+of double effect is utilized in interpreting the principle of discrimination. The discussion will conclude
+with a special case: nuclear deterrence and war.
+War-Conduct Principles in Waging War
+The war-conduct law of just war doctrine, in contrast to the detailed prescriptions of international
+law, consists of two basic principles, proportion and
+discrimination. These principles, of course, parallel those discussed above, as central parts of the legal principles of military necessity and humanity.
+Just war doctrine endorses generally the detailed
+prescriptions of the international law of war. There
+are, however, differences in the way that proportion and discrimination are interpreted in the international law of war and just war doctrine, as the
+discussion in this section will demonstrate.
+The Principle of Proportion. The war-conduct
+law of just war doctrine begins with the same concept of proportion as that found in the international
+law of war. Military actions must be proportionate
+to the legitimate military ends to which they are
+directed. It will be recalled, however, that there is
+also a principle of proportion in the war-decision
+law of just war doctrine. The war-decision law of
+just war doctrine requires that the overall means used
+to achieve the just cause must be proportionate to
+the good achieved, in the light of the probability of
+success. Just war doctrine does not mandate the
+pursuit of a just cause by any and all means, only
+by proportionate means. This affects the interpretation of the war-conduct principle of proportion
+in just war doctrine.
+It is possible that a pattern of conduct in which
+most discrete actions are proportionate to legitimate
+military ends might still be deemed disproportionate in the war-decision calculus of proportionality
+of means to the just end. War-conduct law evaluates proportionality at the tactical and strategic levels of military necessity (in French, raison de guerre).
+War-decision law evaluates proportionality at the
+level of grand strategy (in French, raison d’êtat).
+Because the ultimate aim of the just war is to achieve
+overall proportionality in the use of means to
+achieve the just cause, considerations of war-decision proportionality must guide war-conduct
+proportionality. 20(pp27–31,38–42)
+An example is provided by the American experience in Vietnam. The American military objectives,
+namely, to defend South Vietnam against indirect
+and direct aggression, and to build a viable democratic polity, secure from communist tyranny, were
+eminently just. In pursuit of these objectives, US
+forces engaged in a long war in which tens of thousands of decisions were made about war-conduct
+proportionality at the strategic and tactical levels.
+Some of these decisions resulted in measures disproportionate to the military objectives and some
+may not even have had a legitimate military objective. But the overwhelming majority of the decisions
+resulted in actions proportionate to the military
+objectives as judged by the responsible commanders. It may well have been the case, however, that
+the cumulative effects of the American strategies
+and tactics produced a pattern of actions that might
+be judged disproportionate to the overall just cause.
+This would be particularly true when viewed in the
+light of the probability of success, which declined
+as the long war continued. Viewed in retrospect, it
+might have been better had the United States not
+waged the long, ultimately losing, war even though
+the cause was just.
+The practical implication of the relation of wardecision law to war-conduct law in just war doctrine is that the highest military commanders and
+civilian officials must control military strategy and
+tactics with guidance based on their overall evaluation of the proportionality of means to the just
+cause. This evaluation must be continuous, starting with the decision to go to war and continuing
+through the course of the war, strongly influenced
+by changing estimates of the probability of success.
+A war may start with the promise that a contemplated grand strategy and its strategic and tactical
+241
+Just War Doctrine and the International Law of War
+components will produce results reasonably proportionate to the just cause. As the war progresses
+this judgment may turn out to be unrealistic. At this
+point the highest civilian and military leaders have
+to decide whether to change strategies and tactics
+or, in the worst case, terminate the war. 20(pp27–28,94–96)
+The concept of proportion in war conduct has not
+received the attention it deserves in recent just war
+scholarship. Most attention has been fixed on the
+principle of discrimination.
+The Principle of Discrimination. The principle of
+discrimination or noncombatant immunity is considered by just war theorists to be the main source
+of restraint on belligerents purporting to wage a just
+war. Discrimination is treated as a moral principle,
+not simply as a principle derived from long belligerent practice. This is ironic because, in fact, the
+principle of discrimination was strongly influenced
+by belligerent practice, greatly influenced by the
+standards of chivalry, and incorporated into just war
+doctrine by the Scholastics well after St. Augustine
+and St. Thomas Aquinas. 12(pp26,43ff,196ff) Nevertheless,
+the principle of discrimination is held out by church
+authorities, such as the American Catholic Bishops
+in their 1983 pastoral,26(pp33–34) and the leading modern just war writers, such as Ramsey21(pp143–147,428–432)
+and Walzer,24(pp138–159) as an immutable moral principle.
+The issue much debated in just war scholarship
+and the pronouncements of religious bodies and
+authorities is the meaning of the principle of discrimination and its implications for contemporary
+strategies of deterrence and war. The very definition
+of the principle of discrimination invites competing interpretations. The principle prohibits direct,
+intentional attacks on noncombatants and civilian
+targets. It is necessary, then, to define in each case
+what is a “direct” attack, what is “intentional,” who
+is a “noncombatant,” and what is a “civilian target.”
+Making these determinations has always been
+difficult but the diverse forms of modern deterrence
+and war increase the difficulties. Nuclear weapons
+that threaten noncombatants and civilian targets in
+huge areas of the globe are at the upper range of
+deterrence and war. Weapons that cannot be employed in populated areas without causing great
+damage to noncombatants and civilian targets are
+at the level of conventional war. Finally, at the level
+of revolutionary/counterinsurgency war is the
+prospect of warfare carried out literally within the
+civilian society, the civilians being the “sea” in
+which Mao’s revolutionary fish swim, pursued by
+the counterinsurgents.
+To complicate the problem further, modern concepts of “total war,” whether conventional or at the
+revolutionary/counterinsurgency level, will often
+deny that noncombatants or civilian targets should
+be immune from attacks because they are essential
+components of the enemy’s total war effort. This is
+not a new development. Sherman and Sheridan
+waged total war against Confederate noncombatants and deliberately destroyed nonmilitary targets. The Allies conducted a successful hunger
+blockade against Germany in World War I. The
+“United Nations” (as the Western Allies referred to
+themselves during World War II) carried out “city
+busting” strategic air raids against the Germans and
+Japanese with the declared intention of breaking the
+will of the civilian population. In modern civil wars,
+often waged between different ideological, religious,
+racial, or ethnic groups, mere membership in the
+enemy class warrants direct intentional attack.
+Confronted with the dilemmas of reconciling the
+principle of discrimination with the massive destruction of modern warfare, some turn to various
+forms of pacifism. Some, notably nuclear pacifists,
+deny the possibility of a just nuclear war or even a
+just nuclear deterrent posture. Others, reacting to
+the development of ever more destructive conventional war capabilities, are abandoning just war
+doctrine, asserting that if just wars were ever possible in the past they are no longer possible. Still
+others deny the possibility of any just war. All of
+these positions could be based on interpretations
+of the principle of proportion but the usual emphasis is on the principle of discrimination. These various forms of pacifism are influential but they remain a minority view.
+Most morally concerned people concede the necessity of some form of deterrence and defense in a
+world manifestly threatened by aggression and
+human rights violations in many parts of the world.
+They then struggle to find ways to reconcile the requirements for efficacious deterrence and defense
+with the principles and proscriptions of international law and some kind of just war doctrine. This
+brings them to confront the problem of interpreting the principle of discrimination. Most would insist that the principle must be interpreted to protect noncombatants and civilian targets from direct
+intentional attack. They would reject the “total war”
+concept that noncombatants and civilian targets,
+indeed whole societies, should be subjected to direct intentional attack. This leaves the issue of defining “direct,” “intentional” attacks.
+The Principle of Double Effect. Given the dilemmas of maintaining the principle of discrimination
+242
+Military Medical Ethics, Volume 1
+while accepting the destruction caused by modern
+weapons and methods in areas containing noncombatants and civilian targets, recourse is generally
+had to the principle of double effect. The principle
+is explained by a leading moralist, McCormick, and
+by the political philosopher Walzer (whose book,
+Just and Unjust Wars, is the most influential work
+on just war doctrine).
+McCormick states:
+It is a fundamental moral principle [unanimously
+accepted by Catholic moralists] that it is immoral
+directly to take innocent human life except with
+divine authorization. “Direct” taking of human life
+implies that one performs a lethal action with the
+intention that death should result for himself or another. Death therefore is deliberately willed as the
+effect of one’s action. “Indirect” killing refers to an
+action or omission that is designed and intended
+solely to achieve some other purpose(s) even though
+death is foreseen as a concomitant effect. Death therefore is not positively willed, but reluctantly permitted as an unavoidable by-product. 56(p805)
+Walzer’s version of the principle of double effect is:
+The intention of the actor is good, that is, he aims
+narrowly at the acceptable effect; the evil effect is
+not one of his ends, nor is it a means to his ends,
+and, aware of the evil involved, he seeks to minimize it, accepting costs to himself. 24(p155)
+Acceptance of the principle of double effect is the
+majority position among moralists and ethicists discussing just war doctrine. However, whatever the
+validity of the principle may be when applied to
+other subjects, we find it unacceptable as part of
+just war doctrine. The heart of our disagreement
+lies in that part of Walzer’s definition when he requires that the action “is not a means to his ends.”
+Moreover, we reject McCormick’s treatment of intention and the distinction between “direct” and
+“indirect” killing.
+We contend that the actor making a decision to
+attack a military target that is collocated with noncombatants and civilian targets “intends” all the
+probable consequences of his attack. Anticipating
+that his attack will, unavoidably, cause both military and civilian damage, the civilian damage is “a
+means to his [military] ends.” For example, suppose
+at the level of revolutionary/counterinsurgency
+war, the insurgents have taken over a village, fortified it, and intermingled with its inhabitants. The
+insurgents fire on a counterinsurgent patrol. The
+patrol calls in reinforcements to attack the village
+after preliminary artillery barrages and air strikes.
+There is no way that the counterinsurgents can successfully defeat the insurgents without inflicting
+severe casualties on the noncombatants and great
+destruction to the village. The legitimate military
+end requires the use of means that inevitably will
+cause civilian damage. To say that in these attacks
+counterinsurgents do not “intend” to cause such
+damage and that it is not a “means to their [military] end” is a proposition that does not provide a
+morally acceptable excuse for having inflicted damage and injuries on noncombatants.
+At the level of conventional war, in the Persian Gulf
+War the coalition forces launched sophisticated air and
+cruise missile attacks on legitimate military targets in
+Baghdad. It has long since been demonstrated that
+no amount of sophisticated military hardware and
+delivery systems can ensure that attacks in a heavily
+populated area will not cause noncombatant casualties and serious damage to civilian targets. To say that
+this damage is not intended when these weapons are
+launched is to deny reality.
+Our approach begins with the proposition that
+the principle of discrimination is not absolute. The
+principle was not absolute in its historic origins,
+which were to be found as much, if not more, in
+customary practice as in moral doctrine. The principle was not, until very recently, clearly articulated
+and applied in the pronouncements of the Catholic
+Church and other churches. Moreover, if the principle is really absolute and the only way around it
+is recourse to the principle of double effect, preservation of the principle comes at the price of a dubious escape clause couched in terms that could strike
+ordinary people, such as military commanders, as
+double talk.
+The principle of discrimination can retain its role
+as a major limit on war conduct by combining it
+with the principle of proportion. The principle of
+discrimination should always start with the prohibition of direct intentional attacks on noncombatants and civilian targets. However, it should be
+recognized that direct intentional attacks on legitimate military targets may unavoidably cause what
+strategists call collateral damage (McCormick’s concomitant damage). Here is where proportionality
+comes in. Collateral damage to noncombatants and
+civilian targets must be proportionate to the legitimate military necessities of the action.
+Indeed, Walzer’s original formulation of the principle of double effect, implicit in the refined definition quoted above, requires that, “The good effect
+243
+Just War Doctrine and the International Law of War
+is sufficiently good to compensate for allowing the
+evil effect; it must be justified under Sidgwick proportionality rule.”24(p153) Sidgwick’s proportionality
+rule requires that individuals “weigh ‘the mischief
+done,’ which presumably means not only the immediate harm to individuals but also any injury to
+the permanent interests of mankind, against the
+contribution that mischief makes to the end of
+victory.”24(p129)
+To return to the two examples discussed above, if
+the enemy fire from the fortified village is relatively
+light and the fact that the village is in insurgent
+hands does not present a major military problem,
+the counterinsurgents’ reaction against this mixed
+military-civilian target should be restrained. In such
+a case, massive ground, artillery, and air attacks
+would violate the principle of discrimination as well
+as the principle of proportion. Even a limited reaction by the counterinsurgents will endanger noncombatants and civilian targets but the resulting
+collateral damage will be proportionate to the military necessity of dealing with the fortified village.
+In the case of the air and missile attacks on
+Baghdad, awareness of the likelihood of some collateral damage should compel the attacking force to attempt to limit such damage to what is proportionate
+to the military necessities of taking out the targets.
+The principle of discrimination should also oblige the
+attacking force’s leaders to define very clearly the
+importance of the military targets to be destroyed
+and estimate the probable amount of collateral damage. If it is concluded that the risks of collateral
+damage are very high and the importance of the military targets is not so high, these targets in a mixed
+military/civilian location should not be attacked.
+It may well be that our approach and that of
+Walzer and others who require the principle of
+double effect to reconcile war-conduct with the
+principle of discrimination may, in practice, come
+to similar results. Both approaches counsel restraint
+in attacking mixed military/civilian targets, sometimes even to the extent of abstention from attacks
+justified by military necessity. When, however, the
+exigencies of military necessity are very critical,
+high collateral damage may be the price of pursuing a just war.
+The grave problems of reconciling the principle
+of discrimination with the military necessities of
+modern warfare have been exacerbated by the practice of some belligerents of deliberately hiding their
+combatants behind noncombatants and civilian targets. Guerrilla forces, such as the Vietcong during
+the Vietnam War, routinely intermingle with noncombatants and fight from civilian areas so that it
+becomes impossible to do battle with them without causing collateral damage. For example, the
+North Vietnamese parked antiaircraft batteries, artillery, and military vehicles on city streets in residential neighborhoods, as did the PLO in the 1982
+Lebanon War and the Iraqis in the Persian Gulf War.
+In 1982, the PLO placed antiaircraft batteries on the
+roofs of hospitals in Lebanon, and fought a siege
+battle in Beirut that resulted in great civilian damage and loss of life.
+Such behavior is morally reprehensible. It does
+not relieve an attacking force from observing the
+principle of discrimination and the duty to limit
+collateral damage proportionately to the requirements of military necessity but it leaves the belligerent that fights from civilian locations with the major
+responsibility for inevitable collateral damage.
+The just war principles of proportion and discrimination have been discussed with reference to
+conventional international and revolutionary/
+counterinsurgency wars. There remains the most
+difficult subject in just war doctrine: nuclear deterrence and war.
+A Special Case: Nuclear Deterrence and War
+The concept of nuclear deterrence combines wardecision and war-conduct principles in a unique
+way. The potential for massive casualties, destruction, and environmental contamination in nuclear
+war has caused most responsible people to conclude
+that no such war should ever be fought. Yet nuclear
+forces have been developed by some nations and
+other nations are trying to develop their own
+nuclear capabilities. There are two related reasons
+for this fact.
+The first reason to develop and maintain nuclear
+weapons is to deter potential enemies possessed of
+nuclear weapons from using them for intimidation
+or actual use in aggressive war. The second reason
+for having nuclear war capabilities is the belief that
+there is a threat from a potential enemy not only of
+total defeat in war but of total subjugation in the
+event of the enemy’s victory. In the approximately
+four decades of the Cold War era, the United States
+and its allies believed that it was absolutely necessary to possess nuclear capabilities to deter and
+defend against Soviet/Warsaw Pact aggression,
+both nuclear and conventional. The United States
+and its allies also believed that capitulation,
+whether through intimidation by a Soviet superiority in nuclear capabilities or as the result of ac244
+Military Medical Ethics, Volume 1
+tual defeat by Soviet forces, would put Western
+Europe and even the United States in a situation in
+which the tyranny of the Soviet totalitarian regime
+would be extended to all or most of the free world.
+Note that, in the first instance, the Western nuclear
+deterrent/defense posture was designed to deal
+with the Soviet nuclear threat, but that concern for
+the consequences of defeat by the Soviets was so
+great that nuclear deterrence/defense was extended
+to the threat of Soviet conventional aggression.
+This rationale for nuclear deterrence/defense
+may be mostly overtaken by the events since the
+breakup of the Soviet Union in 1991 and with it the
+end of the Cold War. Nevertheless, it remains relevant to many possible situations in which local
+potential aggressors, if possessed of nuclear weapons, might pose the dual threat of nuclear intimidation or destruction, and imposition of tyrannical
+regimes on the victims of their aggression. Such
+dual threats could well be posed by states such as
+Iran, Iraq, or North Korea.
+In judging the moral permissibility of nuclear
+deterrence/defense it then becomes necessary to
+look in each case at the degree of threat a particular
+state faces, both in terms of nuclear or other aggression and of the consequences of capitulation or defeat in war. In war-decision terms, just war doctrine
+would look to the overall proportionality of nuclear
+deterrence/defense to the threat, particularly of
+nuclear intimidation or aggression, but also of conventional aggression, backed up by nuclear threats,
+balanced with the probable consequences of defeat
+for continued existence of the defeated society. In
+war-conduct terms, just war doctrine would evaluate the proportionality of nuclear or conventional
+responses to the threat or use of nuclear weapons
+by an aggressor.
+Deterrence is not a new subject. The existence and
+deployment of armed forces have always had a deterrence purpose. However, deterrence has become
+a particularly critical concept in the nuclear age. The
+great desire of nuclear powers is that their nuclear
+postures prevent nuclear war by discouraging any
+idea of launching nuclear war. The formula developed in the nuclear age is that a deterrent posture
+must be based on clear nuclear capabilities sufficient to survive an aggressor’s nuclear first strike
+and on a credible will to impose unacceptable damage on the aggressor in retaliation. 57–59
+This concept of deterrence changes the concept
+of proportionality. Nuclear deterrent proportionality is, in effect, based on disproportionality. The
+potential nuclear aggressor must not simply perceive that the potential victim can defend itself with
+proportionate means. The aggressor must perceive
+that the potential victim will respond with means
+so disproportionate to the threat and so unacceptable to any rational actor that nuclear aggression is
+unthinkable. There is a deep irony in this concept.
+The kind of nuclear deterrent threat that is likely to
+be most effective is almost certainly based on the
+intention to do something that is grossly disproportionate and clearly immoral. Yet the fruit of this disproportionate deterrent threat may very well be the
+avoidance of nuclear war. It is fair to say that modern just war doctrine has not resolved the dilemma
+of reconciling credible threats to conduct disproportionate nuclear war with the commendable goal of
+deterring the initiation of nuclear war. 60
+Attempts have been made, however, to broaden
+the options available to a power seeking to deter
+nuclear aggression. The extreme posture of deterrence is mutual assured destruction (MAD). In
+MAD, the deterrent threat is to launch unlimited
+war in retaliation for any nuclear first-strike by an
+aggressor. This threat clearly implies massive destruction of population centers. But the threat is
+posed in the belief that its very extremity will deter
+nuclear war altogether. This posture is sometimes
+known as a deterrence only strategy. Its purpose is
+to deter, and a failure of deterrence is considered a
+catastrophe beyond repair, so comparatively little
+effort is made to develop limited nuclear war-fighting strategies. Indeed, it is often argued by deterrence-only strategists that the very suggestion that
+there might be limited nuclear wars undercuts the
+credibility of MAD deterrence postures. 57(pp5,44,71–79)
+From time to time the United States, notably in
+the Nixon, Carter, and Reagan administrations, has
+explored the possibility of deterrence-plus nuclear
+postures. Such postures confront the possibility of
+deterrence failing and seek alternatives to the full
+nuclear second strike response to nuclear aggression threatened in MAD. The essence of deterrence-plus nuclear postures is an emphasis on
+counterforce rather than countervalue targeting.
+Countervalue strategies contemplate direct attacks
+on enemy population centers, it being thought that
+a potential aggressor would not risk retaliatory
+strikes against its civilian population, presumably
+that which it most values.
+Counterforce strategies attempt to limit nuclear
+targets to military targets for several reasons. First,
+such limitation may possibly be reciprocated, avoiding a succession of horrendous city-swapping exchanges. Second, counterforce attacks may so cripple
+the enemy’s nuclear capabilities as to limit his ability
+to wage nuclear war. Third, it may be that a ruthless
+245
+Just War Doctrine and the International Law of War
+regime may “value” its military and military-industrial assets more than its own population. Fourth, some
+deterrence-only strategists are compelled by their
+moral values to reject strategies that would be grossly
+disproportionate and indiscriminate. 57(pp5–6,44,69–72)
+There are several critical problems with the deterrence-plus strategy. First, it requires weapons and
+delivery systems sufficient to penetrate enemy defenses and take out substantial portions of their
+nuclear and conventional assets. Second, it requires
+extraordinary command, control, communications,
+computers, and intelligence (C4I) capabilities that
+may not yet have been developed. Third, and very
+critical, a counterforce strategy confronts the dilemma of attack with very powerful nuclear weapons on military targets that are collocated with civilian targets. Given the destructive power of
+nuclear weapons and the extreme hazards of radioactive fallout, it may be impossible to destroy key
+military targets without massive collateral damage.
+Such counterforce attacks would obviously be preferable to all-out nuclear attacks that explicitly target cities as such. But, given the difficulties of developing the capabilities necessary for effective
+counterforce deterrence and defense and the problem of attacking military targets collocated with
+civilian targets, is such a strategy either realistic or
+moral?60(pp173–182)
+It appears that this question has never really been
+answered because the efforts necessary to develop
+a credible counterforce capability have not been
+made. Moreover, the whole debate over nuclear
+deterrence/defense strategy has shifted since the
+breakup of the Soviet Union. While Russia, the
+Ukraine, and other former Soviet entities still have
+nuclear capabilities, they do not presently threaten
+the United States and its Western allies. The great
+concern now is deterrence/defense aimed at smaller
+present and potential nuclear powers, some of them
+“rogue” states such as North Korea, Iraq, and Iran.
+While these smaller powers do not approach the
+level of nuclear capability of the former Soviet
+Union, their radical policies force the stable nuclear
+powers to rethink their nuclear deterrence/defense
+postures. Finally, there is the reality of a serious
+Chinese nuclear capability that could pose a greater
+threat in the future.
+Just war thinkers have had great problems dealing with nuclear dilemmas. A substantial number
+reluctantly concede the need for some kind of
+nuclear deterrence, but they clearly have in mind a
+deterrence-only posture. Deterrence-plus, envisaging possible failure of deterrence and the necessity
+for limited nuclear war-fighting, is generally rejected. This, however, leaves those accepting deterrence-only with two serious problems.
+First, it means that they offer no moral guidance
+for the case of deterrence failing. Indeed, there is a
+tendency for just war moralists to place all their
+hopes in the success of deterrence while condemning any use of nuclear weapons. In effect, they accept possession and deployment of nuclear deterrence forces but condemn their actual use in war as
+immoral. Taken seriously, this would mean that a
+deterrence-only posture would be built on a bluff,
+which, if called, would collapse. The second serious problem with acceptance of deterrence-only
+postures, as noted above, is that it relies on the
+threat of extremely disproportionate and indiscriminate nuclear retaliatory actions. It is an uncomfortable position for a moralist to base deterrence on
+the threat to do something that, if actually done,
+would be profoundly immoral.
+Clearly, the dilemmas of nuclear deterrence/defense require a combination of both the war-decision and war-conduct elements of just war doctrine.
+In particular, the need to evaluate the proportionality of nuclear deterrence/defense strategies must
+finally be made at the war-decision rather than the
+war-conduct level. During the Cold War the proportionality of the US/NATO deterrence/defense
+posture was based on two things: (1) the threat of
+nuclear and conventional attack by the Soviet
+Union/Warsaw Pact; and (2) the prospects of a
+Communist victory that would reduce free countries to totalitarian rule. It was possible to argue that
+the US/NATO nuclear threat and possible execution of it in nuclear war was proportionate to the
+need to deter Soviet military aggression and its consequences if successful.
+The end of the Cold War removes this particular
+case for proportionality of a nuclear deterrent/defense posture. Just war thinkers must now evaluate existing and future cases of nuclear deterrence/
+defense postures to judge whether they are warranted by the dual threat of military defeat and
+political/ideological subjugation by an enemy.
+Given contemporary examples of genocidal conduct
+in conflicts inflamed by religious, ideological, racial, and ethnic motives, there is reason to fear that
+some nations may plausibly contend that they are
+as threatened as the West was by the Soviet Bloc in
+the Cold war, perhaps more threatened. Modern just
+war doctrine, revived in response to the phenomenon of total war and the nuclear age, is challenged
+to continue to search for ways to reconcile the necessities of survival of free societies and the limitations of just war doctrine.
+246
+Military Medical Ethics, Volume 1
+APPLICATION OF THE INTERNATIONAL LAW OF WAR AND JUST WAR DOCTRINE
+Application of international war-decision law is
+almost entirely in the hands of civilian officials.
+Legal advisors can counsel these officials on the
+content of the law, but decisions with respect to recourse to armed force are political decisions.
+Civilian decision makers and their legal advisors
+should be aware that each decision about recourse
+to force joins the body of state practice, good or bad,
+that produces international law. Statesmen contemplating recourse to armed force should recognize
+that they may be creating, adding to, or subtracting from the precedents of conventional and customary international law, and that they may have
+to live with their own precedents.
+With respect to international war-conduct law,
+the 1907 Hague Convention IV and the 1949 Geneva
+Conventions require the contracting parties to instruct their armed forces to conduct themselves in
+consonance with these Conventions. There is a long
+tradition in the United States, beginning with the
+1863 Lieber Code, to employ documents such as The
+Law of Land Warfare as guides to the training and conduct of the US armed forces. In addition, the US armed
+forces produce training materials for all ranks and
+employ them in training on the law of war. Study of
+the law of war has increased quantitatively and qualitatively in the advanced schools of the American
+military. Similar developments can be found in such
+countries as Canada, Britain, and Germany.
+The key to effective training in the law of war is
+to relate it realistically to military operations. Such
+training should be integral to, not separate from,
+overall military training. In military operations responsibility for ensuring observance of the law of
+war falls to commanders at all levels. The principle
+of command responsibility requires that the commander be responsible for all actions of which he
+had knowledge or should have had knowledge.
+This is the standard of military professionalism. The
+only hope for consistent observance of the law of
+war lies in military professionalism, discipline, and
+command responsibility at all levels of the armed
+forces. The foundations for lawful conduct in war
+begin with training and must be maintained
+throughout military operations. 20,37,61
+Central to the task of enforcing the law of war in
+military operations are Rules of Engagement
+(ROEs). ROEs guide all aspects of military operations, including matters affected by the law of war.
+Responsible commanders issue ROEs and are
+obliged to take all necessary measures to see that
+they are obeyed. Vigilant oversight throughout the
+chain of command is required to ensure compliance
+with ROEs. 20(p309),37(p233)
+CONCLUSION
+Just war doctrine supplements the international
+law of war and is increasingly consulted and invoked by military high commands and their civilian superiors. Study of just war has noticeably increased in the US military, for instance at the Army
+War College, the Naval War College, the Air University, and the service academies at West Point, Annapolis, and Colorado Springs. The public debates
+over the morality of nuclear deterrence/defense
+have often involved arguments based on just war
+doctrine. In particular, the comprehensive character of just war doctrine with its interlinked wardecision and war-conduct prescriptions has proved
+helpful in confronting the complex dilemmas of the
+nuclear age.
+In free societies, the public and responsible politicians demand that decisions about recourse to war
+and the conduct of war be morally justified. There
+are many moral approaches to war. Just war doctrine has the advantage of acknowledging the fact
+and sometimes the necessity of war while laying
+down requirements for initiating and waging war.
+It offers moral guidance about war that can be useful at many levels, from high political and military
+decision makers, to military commanders and service men and women, to responsible citizens.
+Moreover, this guidance has a common sense
+quality. The just war requirements for recourse to
+armed force raise questions that any responsible
+decision maker should be contemplating: What is
+the just cause? Where is comparative justice? How
+will the war be conducted? Will harm done by the
+war be proportionate to the good achieved? What
+is the probability of success? Have peaceful alternatives been reasonably exhausted? Are the intentions good or are they too motivated by passions?
+These are all questions confronted by decision makers in contemporary crises in the Persian Gulf, in
+Bosnia, in Somalia, in Haiti, in Cuba, and in Kosovo.
+Multiple crises continue to raise these kinds of questions in many parts of the world.
+The international law of war and just war doctrine must be applied by responsible human beings.
+Those who make the great decisions regarding re247
+Just War Doctrine and the International Law of War
+course to war and its conduct clearly are responsible for applying the international law of war and
+for bringing moral perspectives, such as those of
+just war doctrine, to their decisions. Down the civilian and military chains of command, each person should be familiar with the law of war and have
+thought through the moral requirements of just war
+doctrine so that he can contribute as much as possible to the pursuit of policies that reflect the highest values of their country.
+REFERENCES
+1.
+Sherman WT. Memoirs of General William T. Sherman. New York: Da Capo Press; 1984.
+2.
+Hershey AS. The Essentials of International Public Law and Organization. New York: Macmillan; 1927: 43–44.
+3.
+Phillipson C. The International Law of Ancient Greece and Rome. Vol 2. London: Longmans, Green; 1948.
+4.
+Bainton RH. Christian Attitudes Toward War and Peace. New York: Abingdon; 1960.
+5.
+Poulet DC. A History of the Catholic Church. Vol 1. Raemers SA, trans & ed. St. Louis/London: B Herder; 1934:
+115–116.
+6.
+Ramsey P. War and the Christian Conscience. Durham, NC: Duke University Press; 1961: 15–33.
+7.
+Khadduri M. The Laws of War and Peace in Islam. Baltimore, Md: Johns Hopkins Press; 1955.
+8.
+Johnson JT, Kelsay J, eds. Cross, Crescent and Sword. New York: Greenwood; 1990.
+9.
+Kelsay J, Johnson JT. Just War and Jihad. New York: Greenwood; 1991.
+10.
+Friedmann W. The Changing Structure of International Law. New York: Columbia University Press; 1964: 306–313.
+11.
+Singh N. Nuclear Weapons and International Law. New York: Praeger; 1959.
+12.
+Johnson JT. Ideology, Reason and Limitation of War. Princeton, NJ: Princeton University Press; 1975.
+13.
+Aquinas T. Summa theologica, secunda secundae, qu. 40. In: D’Entreves AP, ed. Aquinas: Selected Political Writings. Oxford: Blackwell; 1948: 159–161.
+14.
+Cited in: Vanderpol A. La Doctrine Scholastique de Droit de Guerre. Paris: Pedone; 1919.
+15.
+Brierly JL. Law of Nations. 6th ed. Waldock H, ed. Oxford: Clarendon Press; 1963.
+16.
+Bishop WW Jr. International Law, Cases and Materials. 3rd ed. Boston: Little Brown; 1962.
+17.
+O’Brien WV. Law and Morality in Israel’s War With the PLO. New York: Routledge; 1991.
+18.
+Claude IL Jr. Swords Into Plow Shares. 4th ed. New York: Random House; 1984: 150, 157–158, 268–269.
+19.
+Arend AC, Beck RJ. International Law and the Use of Force. New York: Routledge; 1993.
+20.
+O’Brien WV. The Conduct of Just and Limited War. New York: Praeger; 1981.
+21.
+Ramsey P. The Just War: Force and Political Responsibility. New York: Charles Scribner’s Sons; 1968.
+22.
+Johnson JT. Just War Tradition and the Restraint of War: A Moral and Historical Inquiry. Princeton, NJ: Princeton
+University Press; 1981.
+23.
+Johnson JT. Can Modern War Be Just? New Haven, Conn: Yale University Press; 1984.
+248
+Military Medical Ethics, Volume 1
+24.
+Walzer M. Just and Unjust Wars: A Moral Argument With Historical Illustrations. New York: Basic Books; 1977.
+25.
+Murray JC. We Hold These Truths: Catholic Reflections on the American Proposition. New York: Sheed & Ward;
+1960: 249–273.
+26.
+National Conference of Catholic Bishops. The Challenge of Peace. Washington, DC: US Catholic Conference; 3
+May 1983.
+27.
+US Department of the Air Force. International Law—The Conduct of Armed Conflict and Air Operations. Washington, DC: Department of the Air Force; 19 November 1976. Air Force Pamphlet 110-31.
+28.
+Hyde CC. International Law, Chiefly as Interpreted and Applied by the United States. 2nd rev ed, Vol 3. Boston:
+Little, Brown; 1947.
+29.
+O’Brien WV. ‘Military necessity’ in international law. World Polity: A Yearbook of Studies in International Law and
+Organization. Vol 1. Utrecht: Spectrum/The Institute of World Polity; Washington, DC: Georgetown University;
+1957: 119–128.
+30.
+O’Brien WV. The PLO in international law. Boston Univ Int Law J. 1984;3:349–413.
+31.
+Geneva Protocol Additional to the Geneva Conventions of 12 August 1949 and Relating to the Protection of
+Victims of International Armed Conflicts (Protocol I), 12 December 1977. UN Doc. A/32/144. Int Leg Materials.
+1977;16:1442–1449.
+32.
+Geneva Protocol Additional to the Geneva Conventions of 12 August 1949 and Relating to the Protection of the
+Victims of Non-International Armed Conflicts (Protocol II), 12 December 1977. UN Doc. A/32/144. Int Leg
+Materials. 1977;16:1442–1449.
+33.
+The Declaration of St. Petersburg, 29 November 1868. Am J Int Law. 1907;Suppl 1:95–96.
+34.
+Hague Convention IV Respecting the Laws and Customs of War on Land, 18 October 1907, 36 Stat. 2277; Treaty
+Series no. 539; Malloy Treaties, Vol. II.
+35.
+Hague Convention (IV,3) Concerning Expanding Bullets, 29 July 1899. Am J Int Law. 1907;Suppl 1:155.
+36.
+Department of the Army. The Law of Land Warfare. Washington, DC: DA; July 1956. Field Manual 27-10.
+37.
+Lewy G. America in Vietnam. New York: Oxford University Press; 1978.
+38.
+Geneva Convention on Prohibition or Restrictions on the Use of Certain Conventional Weapons Which May Be
+Deemed to Be Excessively Injurious or to Have Indiscriminate Effects, October, 1980. UN Doc. A/CONF/95/
+15. Int Leg Materials. 1980;19:1523.
+39.
+Protocol to Non-Detectable Fragments (Protocol I); Protocol on Prohibition or Restrictions on the Use of Mines,
+Booby Traps and Other Devices (Protocol II), annexed to the 1980 Weapons Convention.
+40.
+Smart JK. History of chemical and biological warfare: An American perspective. In: Sidell FR, Takafuji ET,
+Franz DR, eds. Medical Aspects of Chemical and Biological Warfare. In: Textbook of Military Medicine. Washington,
+DC: Office of The Surgeon General and Borden Institute; 1997: 9–86.
+41.
+Geneva Protocol for the Prohibition of the Use in War of Asphyxiating, Poisonous, or Other Gases, and of
+Bacteriological Methods of Warfare, 17 June 1925. 26 UST 571; TIAS 8061; 94 LNTS 65. US ratification, 10 April
+1975.
+42.
+Geneva Convention on the Prohibition of the Development, Production, and Stockpiling of Bacteriological
+(Biological) and Toxin Weapons and Their Destruction, 10 April 1972. 26 UST 57, TIAS 8062.
+249
+Just War Doctrine and the International Law of War
+43.
+Paris Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons and on Their Destruction, 13 January 1993. Int Leg Materials. 1993;31:800.
+44.
+Krepon M. Chemical weapons ban, imperfect, essential. Washington Post. 24 July 1994; C7.
+45.
+Gordon MR, Trainor BE. The Generals’ War: The Inside Story of the Conflict in the Gulf. Boston: Little, Brown; 1995:
+47, 128, 362–368.
+46.
+United States Arms Control and Disarmament Agency. Arms Control and Disarmament Agreements. Washington,
+DC: US Arms Control and Disarmament Agency; 1990.
+47.
+Levie HS. Prisoners of war in international armed conflict. International Law Studies. Vol 59. Newport, RI: US
+Naval War College; 1978.
+48.
+Levie HS. Documents on prisoners of war. International Law Studies. Vol 60. Newport, RI: US Naval War College; 1979.
+49.
+Geneva Convention Relative to the Treatment of Prisoners of War, 12 August 1949. 6 UST 316; TIAS 3364l; 75
+UNTS 135 (1956).
+50.
+Geneva Convention for the Amelioration of the Condition of the Wounded and Sick in Armed Forces in the
+Field, 12 August 1949. 6 UST 314; TIAS 3362; 75 UNTS 31 (1956)
+51.
+Geneva Convention for the Amelioration of the Condition of Wounded and Sick and Shipwrecked Members of
+the Armed Forces at Sea, 12 August 1949. 6 UST 3217; TIAS 3363; 75 UNTS 85 (1956).
+52.
+1907 Hague Convention No. IV Respecting the Laws and Customs of War on Land. Annex to the Convention.
+Regulations Respecting the Laws and Customs of War on Land. Section III. Military Authority over the Territory of the Hostile State, Articles 42–56. 18 October 1907. 36 Stat. 2277; Treaty Series No. 539; Malloy Treaties,
+Vol. II, p. 2269.
+53.
+Geneva Convention Relative to the Protection of Civilian Persons in Time of War, 12 August 1949. 6 UST 3316;
+TIAS 3364; 75 UNTS 135 (1956).
+54.
+Feilchenfeld EH. The International Economic Law of Belligerent Occupation. Washington, DC: Carnegie Endowment of International Peace; 1942.
+55.
+McDougal MS, Feliciano FP. Law and Minimum World Public Order. New Haven, Conn: Yale University Press;
+1961: 732–832.
+56.
+McCormick RA. Morality of war. New Catholic Encyclopedia. Vol 14. New York: McGraw-Hill; 1967.
+57.
+Snow DM. Nuclear Deterrence in a Dynamic World. Tuscaloosa: University of Alabama Press; 1981: 69–85.
+58.
+Friedberg AL. A history of US strategic doctrine 1945 to 1980. J Strategic Stud. 1980;3:37–71.
+59.
+Smoke R. National Security and the Nuclear Dilemma. Reading, Mass: Addison-Wesley; 1984: 175–250.
+60.
+O’Brien WV. The failure of deterrence and the conduct of war. In: O’Brien W, Langan J, eds. The Nuclear Dilemma and the Just War. Lexington, Mass: Lexington Books; 1986: 153–197.
+61.
+Parks WH. Command responsibility for war crimes. Mil Law Rev. 1973;62:1–104.
+250
+Military Medical Ethics, Volume 1

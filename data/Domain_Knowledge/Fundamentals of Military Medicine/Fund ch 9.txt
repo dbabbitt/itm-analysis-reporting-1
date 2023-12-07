@@ -1,0 +1,568 @@
+145
+Military Medicine in the Operational and Strategic Context
+Chapter 9
+MILITARY MEDICINE IN THE OPERATIONAL AND STRATEGIC CONTEXT
+ERIC B. SCHOOMAKER, MD, PhD*
+INTRODUCTION
+THE FOUR INSTRUMENTS OF NATIONAL POWER
+ROLE OF MILITARY MEDICINE IN NATIONAL DEFENSE
+DIMENSIONS OF COMPLEXITY IN LEADER ENGAGEMENT AND 
+ORGANIZATION
+ “THE STRATEGIC CORPORAL”
+SUMMARY AND CONCLUSIONS
+*Professor and Vice Chair, Department of Military and Emergency Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland; 
+formerly, Surgeon General, US Army, and Commanding General, US Army Medical Command
+146
+Fundamentals of Military Medicine
+“You know you never defeated us on the battlefield,” said the American colonel.
+The North Vietnamese colonel pondered this remark a moment. 
+“That may be so,” he replied, “But it’s also irrelevant.”
+—Conversation in Hanoi, April 19751
+INTRODUCTION
+With this poignant yet profound exchange between two former enemies during the negotiations 
+to end the Vietnam War, the author, Harry Summers 
+Jr, a war-tested professional soldier, summarized a 
+decade-long conflict that took the lives of over 50,000 
+Americans as well as countless Vietnamese, Laotian, 
+and Cambodian fighters and civilians, and plunged 
+the United States into a generation of soul-searching 
+and political discord. 1 It captures the essence of what 
+one of the seminal writers on the nature of war, the 
+Prussian military theorist Carl Philipp Gottfried von 
+Clausewitz, wrote: “War is merely a continuation 
+of policy [or politics] by other means.”2,3(I-1–I-4) The 
+American and allied military in the Vietnam War were 
+superior in almost every regard to their North Vietnamese regulars and Viet Cong guerilla counterparts. 
+But this proved to be inadequate as they failed to break 
+the will of the North Vietnamese to fight while losing 
+a critical social and political struggle at home, which 
+resulted in the loss of the American people’s will to 
+continue the war. In sum, while the field engagements 
+of the American military were almost uniformly successful, the larger US strategy, needed to win the war 
+of wills, was not.
+As a young medical student in the early 1970s struggling to learn the details of human physiology and 
+anatomy, and to apply my nascent diagnostic acumen 
+and newfound respect for therapeutics to human disease, I had a similar “ah-ha” moment late one night in 
+our university hospital. Seeking a place where I could 
+read and reflect, I took a little-used elevator to a top, 
+otherwise vacant floor of the hospital. There I found 
+one of the very large open bay wards with over 50 
+patient beds that many of the older teaching hospitals 
+featured at the time. Spread across the ward was an 
+entire floor of empty iron lungs parked side-by-side 
+and end-to-end, a battalion of ghostly shiny metal and 
+glass pneumatic tubes large enough to accommodate 
+an adult patient—empty and silent. Having seen these 
+in pictures (Figure 9-1) or in hospitals when I was much 
+younger, I recognized them as life-support devices for 
+patients who suffered from paralysis of the diaphragm 
+and respiratory muscles.
+I asked one of my professors the next day on clinical 
+teaching rounds what they were and why they were 
+stored upstairs. He told me that they were in preparation for polio patients for whom respiratory assistance 
+was life-saving. “Why,” I asked, “were they empty and 
+the ward vacant?”
+“Because the Salk and Sabin polio vaccines were 
+successful,” he answered.
+Like Colonel Summers on a different kind of battlefield, it was among my first insights into the distinction 
+between tactics and strategy in human medicine. We 
+won the war against polio because we elected to invest 
+in a strategy of prevention and not simply be satisfied 
+with the tactical battle of treating those afflicted with 
+this crippling viral infection. Since this early insight, 
+I have encountered many other medical and military 
+medical decisions that have had a strategic impact on 
+the practice of medicine both in uniform and in civilian 
+life. Among these were Major Jonathan Letterman’s 
+organization of echeloned field medical care during the 
+American Civil War; Army Surgeon General George 
+Miller Sternberg’s decision to send Major Walter Reed 
+to Cuba to identify the vector of yellow fever after the 
+Spanish-American War; and more recently, the decision of Air Force surgeons general P.K. Carlton and 
+Bruce Green to invest in sophisticated intensive care 
+Figure 9-1. Sergeant Clarence Stewart of the 249th General 
+Hospital demonstrates an iron lung used to treat poliomyelitis to many interested visitors at the Armed Forces Day 
+celebration, Denver, CO, 1960.
+Reproduced from: National Library of Medicine (http://
+resource.nlm.nih.gov/101442594).
+147
+Military Medicine in the Operational and Strategic Context
+technology in inter-theater air evacuation. These and 
+other important decisions by military medical leaders 
+changed the complexion of care and survival of service 
+members and civilians in war and peace. 
+Elsewhere in this textbook (Chapter 3, Officership 
+and the Profession of Arms in the 21st Century), Meese 
+and Wilson discuss the dual world in which military 
+and uniformed medical officers exist: the world of 
+medicine and the professional world of the military 
+or uniformed officer. Additionally, professional uniformed officers must function in a technical world 
+of scientific advances and applications of medical 
+practice while serving in a parallel context of analysis 
+and decision-making related to the impacts of these 
+practices on a hierarchy of social and organizational 
+complexity. Several examples above describe how protecting the fighting force from health threats, building 
+the physical and emotional dimensions of resilience 
+and restoration of health, and maintaining wellness 
+and physical fitness are vital elements of ensuring 
+a military force capable of defending the nation and 
+fighting and winning its wars. The medical officer 
+operates simultaneously in three spheres or contexts: 
+a tactical context, in which the health of small units is 
+protected and medical care is delivered to warriors; an 
+operational context, in which battle and theater-level 
+health and healthcare issues must be fine-tuned to 
+achieve advantages for mission success; and a strategic 
+sphere, in which sustainment and restoration of the 
+joint fighting force, care of the larger military family, 
+and nation-building from the standpoint of public 
+health and medical care delivery may impact the national security strategy (NSS) and even national and 
+global health. 3(I-7) The medical officer must understand 
+his or her role and impact in each of these dimensions. 
+Most of this book deals with tactical issues, but in this 
+chapter, the concepts of the operational and strategic 
+art as they apply to military medicine are introduced.
+As a military and uniformed medical officer, your 
+career will be filled with moments similar to mine, 
+when you encounter the interfaces among the different domains of planning and execution of your duties. 
+While a medical officer’s roles may be consumed with 
+the day-to-day myriad events that characterize the 
+prevention, mitigation, and management of diseases, 
+injuries, and combat wounds, they must understand 
+how their work and the activities of their team and organization—clinic, operational medical unit, hospital, 
+research laboratory, or other—are ideally derivative of 
+and support a larger operational and strategic scheme. 
+To best gain this understanding, it is necessary to 
+step back and consider the role the US military plays 
+in national security and defense, and how this role is 
+articulated by the national command authority.
+THE FOUR INSTRUMENTS OF NATIONAL POWER
+Many members of the uniformed services, especially those in the armed forces, are surprised to learn 
+that the employment of the nation’s military is but one 
+of four different strategic tools by which the United 
+States attends to its national security on the world 
+stage. Often, the exercise of military power is the least 
+desirable and least effective of them. The four instruments of national power form an easily remembered 
+mnemonic, “D-I-M-E”3(I-11): diplomatic, informational, 
+military, and economic.
+The nation’s diplomatic efforts are officially exercised through the authority of Congress to regulate 
+diplomatic relations between and among nations and 
+largely carried out through the Department of State 
+or special emissaries of the legislative and executive branches of government. Diplomatic exchanges 
+constitute a continuous form of communications 
+that ensure the clarification of national intent behind 
+specific actions, the creation of mutual understanding 
+for bilateral or multilateral benefit, and expressions of 
+displeasure or concern about events or actions taken 
+by others. Diplomatic exchanges often take place even 
+when the United States or other parties do not have 
+formal diplomatic relations; these occur through intermediaries in the diplomatic world or other ad hoc 
+devices. 
+Information has always represented an essential 
+method of influencing international relations and 
+events. With the rise of the Internet, social media, sophisticated technological advances in intelligence collection, and nearly universal access to electronic media, 
+the informational instrument of national power has 
+taken on added importance and complexity. Virtually 
+no major development of importance in the security of 
+the United States occurs without an effort to influence 
+the domestic and international public’s perception of 
+these events, as well as to sway the opinions of world 
+leaders and powerful influencers. These occur through 
+acts of commission—such as releasing heretofore 
+privileged or classified information more widely—or 
+omission—such as restricting this information. The 
+emergence of deliberate and coordinated assailants or 
+simply mischievous parties bent on disrupting activities, divulging information, or creating “alternate realities” to deceive or create instability and confusion have 
+raised the stakes for protecting sources of information 
+and the critical databases and tools for free and easy 
+information exchange.
+148
+Fundamentals of Military Medicine
+The War Powers Act of 19734 permits the president 
+to exercise certain military actions to protect and 
+defend the nation against foreign enemies. But the 
+exercise of the military instrument of national power 
+has constitutionally resided principally in Congress, 
+which, in any event, can leverage the power of the 
+purse to limit even presidential directives to employ 
+the nation’s military. The most favorable interpretation of this interplay between the legislative and 
+executive branches is an exercise of checks and balances. That is, it is a “dialogue” among the branches 
+of the federal government intended to promote US 
+military intervention as truly reflecting “the will of 
+the people”—as is so pointedly demonstrated in the 
+opening vignette. It also encourages the greatest 
+degree of coordination of resources, expertise, and 
+experience among different federal executive departments and agencies (the “interagency”) in conducting 
+the four instruments of national power represented 
+by D-I-M-E. 
+Many of the most effective tools for promoting 
+US national interests are economic in nature. Tariffs 
+on trading with those the United States intends to 
+influence or punish—trade embargoes, confiscation 
+of the properties of these nations or their citizens, 
+limitations on how US citizens can invest in these 
+nations, withholding foreign aid, and other financial 
+instruments—are among the oldest and most often 
+employed approaches used in international affairs. 
+Conversely, favorable relations can be encouraged 
+between and among nations that favor one party in 
+an international dispute at the expense of the other 
+by exercising the opposite of these measures. Both 
+approaches—punishing and rewarding—have been 
+undertaken throughout American history with great 
+success. The emergence of security threats arising 
+from non-state actors such as transnational criminal 
+elements and terrorist organizations have made 
+diplomatic and informational efforts more difficult. 
+One of the more recently applied tools in the struggle 
+against these enemies is to find and choke off funding 
+for their activities.
+It should be evident from this discussion with these 
+and other examples that the NSS of the United States 
+extends beyond the isolated use of its military. In fact, 
+the NSS drives the cascading of a strategic discussion 
+and the articulation of goals and objectives from all elements of the government—departments and agencies 
+alike—including but not limited to the Departments 
+of State, Treasury, Commerce, Homeland Security, 
+Defense, Justice, Health and Human Services, Veterans Affairs, and Energy; the multifaceted 17-member 
+US intelligence community; and all other offices that 
+can make important contributions within the D-I-M-E 
+framework. The role of the US military is subordinate 
+to a larger scale effort to employ a “whole of government approach” for a unified strategy in advancing the 
+national interests of the nation. Within the Department 
+of Defense (DoD), this is outlined in the National Defense Strategy (NDS) and National Military Strategy 
+(NMS), from which all subordinate DoD agencies, 
+departments, and commands derive their guidance in 
+support of the NSS (see also Chapter 7, The National 
+Security Structure).
+ROLE OF MILITARY MEDICINE IN NATIONAL DEFENSE
+The same relationship exists with respect to the role 
+of military medicine in supporting the overarching 
+military strategy found in the NMS and reflected in 
+derivative guidance provided by the military services, 
+the Defense Health Agency, the assistant secretary of 
+defense for health affairs, and the secretary of health 
+and human services (for members of the US Public 
+Health Service). Advancing health within the military 
+services, and the wider American public through the 
+Public Health Service, and caring for illnesses, injuries, and combat wounds suffered by beneficiaries of 
+military healthcare are not ends in themselves. To be 
+clear, these are the principal focuses of the uniformed 
+services health and healthcare community. But these 
+efforts serve a greater good in maintaining the readiness of members of the armed services, and even the 
+wider American public, to serve in defense of the 
+nation and to keep the nation strong. The health and 
+well-being of the uniformed service member (and by 
+extension, the US population) is the center of gravity 
+of national strength and the readiness of the force to 
+defend the nation.
+Some within the uniformed health professions find 
+this “dual agency” an ethical and moral challenge. This 
+chapter is not intended to fully explore this challenge 
+(see Chapter 3, Officership and the Profession of Arms 
+in the 21st Century, and Chapter 5, Military Law and 
+Ethics, for a more complete discussion). Suffice it to 
+say that a potential for tension may arise between the 
+obligation to care for the individual military patient 
+and the duty to ensure the mission of the armed services to fight and defend the country. (This tension 
+is not unique to the military physician. Consider, for 
+example, the conflict between patient privacy and the 
+legal obligation to report sexually transmitted diseases 
+to the public health authorities or a battered spouse to 
+the legal authorities.) But in the main, these two roles 
+and codes of professional ethics—that of the caregiver 
+physician and that of the military medical officer—are 
+in alignment and without conflict. Optimally caring for 
+149
+Military Medicine in the Operational and Strategic Context
+the service member is, in fact, ensuring the capability 
+of the military unit to succeed in its mission, whether 
+it is in preventing disease, injury, and combat wounds; 
+restoring health; or ensuring full recovery and rehabilitation. Ensuring the optimal restoration of health and 
+function in the most seriously ill, injured, or combat 
+wounded warrior is critical to retaining the full trust 
+and confidence of combatants that the nation and its 
+military respect their sacrifices and will not abandon 
+them in times of need.
+DIMENSIONS OF COMPLEXITY IN LEADER ENGAGEMENT AND ORGANIZATION
+Up to this point, this chapter has discussed the notion 
+of “strategy” in depth and has used this term liberally. 
+But many do not recognize the distinction between 
+and among the tiers or dimensions of complexity and 
+focus within organizations that engage leaders and unit 
+members: strategic, operational, and tactical. Although 
+“strategy” was often inferred from the classical texts of 
+such conflicts as Caesar’s Gallic Wars and the Second 
+Punic War, and it has certainly inspired and informed 
+more recent military strategists, its separation into 
+political and military elements and the exposition of 
+an overarching intent for these conflicts, as distinct 
+from more practical activities involved in the waging 
+of individual campaigns and battles (operational and 
+tactical), is not clear. More explicit discussions of strategy emerged in the 19th century among philosophers, 
+political scientists, and military thinkers, such as the previously mentioned Prussian theorist, von Clausewitz. 
+The evolution and overlap among these dimensions 
+have been changing with the advent of late 20th and 
+early 21st century technology, including weapons and 
+communications. 5 (The Soviets introduced operational 
+art in the 1920s, although the Western European and 
+NATO allies used grand tactics until 1982; both communities were working with the same issues raised by 
+span of control and communications.) In the simplest 
+scheme, these can be considered as vertically arrayed 
+one above the other, from the highest and most complex 
+dimension that addresses key national goals to the lowest and smallest events and issues:
+ 
+● Strategic. Fundamental, overarching themes 
+at the heart of the military medical mission, 
+the DoD mission, and by extension, the national defense. Examples: 
+ 
+◦ Force health protection via vaccines, preventive mental health protocols, and food 
+and water policies. 
+ 
+◦ Service member accession and retention 
+health standards. 
+ 
+◦ Policies governing the standardization 
+of the continuum of battlefield casualty 
+care (Tactical Combat Casualty Care) and 
+recovery from the point of injury to rehabilitation in DoD and Veterans Affairs 
+medical facilities (these set the stage for 
+clinical, administrative, and business 
+practice guidelines at the operational and 
+tactical levels.)
+ 
+◦ The impact of military and uniformed 
+health policies and healthcare practices on 
+national and global health and healthcare 
+organization, practice, and metrics.
+ 
+● Operational. Issues that require planning and 
+coordinated execution at the larger corporate 
+(ie, DoD, service) or major command level. 
+Examples: 
+ 
+◦ Harmonizing and aligning theater-level 
+immunization and prophylactic medication policies among the services. 
+ 
+◦ Adoption of standardized blood products 
+protocols across in-theater medical treatment facilities. 
+ 
+◦ Coordinated clinical, administrative, and 
+business practice guidelines across service 
+camps, posts, stations, and bases. 
+ 
+◦ Theater patient holding and evacuation 
+policies.
+ 
+● Tactical. Practical, local issues or processes 
+that address the needs of individual service 
+members and build the basis for operational 
+and strategic success. Examples: 
+ 
+◦ Details of the administration of individual 
+vaccines and patient care at the aid station, 
+clinic, hospital, or deployable medical facility level. 
+ 
+◦ Local adjustments of clinical practice 
+guidelines to accommodate variations in 
+resources, patient flow, provider availability, evacuation policies, etc. 
+ 
+◦ Execution of field sanitation and food and 
+water safety standards at the small unit 
+level (eg, hand washing, latrine placement, 
+water purification steps).
+While the appropriate focus of the individual 
+student and trainee is on the many details of basic 
+science and applied clinical science that will lead to 
+their service as well-qualified, safe, and knowledgeable practitioners, it should be recognized that these 
+concerns are principally at the tactical level. The ideal 
+goal of healthcare provider education is to provide every physician, nurse, and allied healthcare practitioner 
+and specialist with the skills needed to conduct optimal 
+150
+Fundamentals of Military Medicine
+health promotion, disease and injury prevention, and 
+healthcare at the practitioner-patient interface (the tactical level). No degree of higher order understanding of 
+their organizational role can replace the achievement 
+of success patient by patient. 
+However, in a larger context, the relevance of the 
+uniformed medical and public health officer ultimately 
+lies in their support of an operational plan that is inextricably linked to the strategic goals of the combined 
+military and coalition force. These military goals, as 
+discussed above, in turn support an even grander 
+scheme of support of the NSS through D-I-M-E. Just 
+as every soldier engaged in direct combat, every airman in support of air operations, every sailor ensuring 
+the continuous operation of a naval vessel, and every 
+Marine trained to conduct amphibious landings cannot succeed alone in achieving the larger mission to 
+fight and win the nation’s wars, no one practitioner 
+alone can ensure the overarching goals of force health 
+protection, or maintaining the fighting strength. These 
+require the coordinated and synchronized operational 
+actions of a wide array of tactical events and people 
+whose combined behaviors support the strategic goals 
+of military and federal medicine.
+Figure 9-2. Army combat medic Specialist Billie Grimes, 
+chairman of the Joint Chiefs of Staff General Richard Myers (US Air Force), and Army surgeon general Lieutenant 
+General Kevin Kiley proudly display the cover of a national 
+news magazine featuring Specialist Grimes and her comrades during Operation Iraqi Freedom in 2003. This is an 
+example of the “strategic corporal” phenomenon in which 
+the actions of medical personnel and events at the tactical 
+level have strategic impact and implications. (Cover image 
+and full story available at: http://archive.defense.gov/news/
+newsarticle.aspx?id=27583.)
+Figure 9-3. Sergeant Major Brent Jurgersen, US Army, senior 
+enlisted advisory to the US Army Wounded Warrior (AW2) 
+program, 2007–2009, leading by example as a twice-wounded 
+recovering soldier.
+Reproduced from: Fort Cason Mountaineer, January 29, 2009.
+“THE STRATEGIC CORPORAL”
+Having said this, and having aligned the strategic, 
+operational, and tactical levels one above the other 
+with each supporting the higher level and guided—
+ideally—by the strategic goals at the top level, it is 
+increasingly clear that crisp separations of one level 
+from the other are not always possible. As forecast 
+by Jablonsky’s “revolution in military affairs”5 and 
+dramatically depicted by former commandant of the 
+Marine Corps, General Charles C. Krulak,6 the complexity of modern armed conflict, the impact of technology, and the omnipresence of communications with 
+the outside world through cell phones and the media 
+has led to the “strategic corporal.” That is to say, the 
+tactical has begun to bleed or overlap in increasingly 
+more important ways into the higher operational and 
+151
+Military Medicine in the Operational and Strategic Context
+strategic levels, sometimes profoundly enhancing or 
+preventing the achievement of strategic goals. 
+The improvement or maintenance of health and 
+the provision of healthcare play a critical role in this 
+phenomenon. Human health and well-being resonates 
+strongly with the American public and global audiences. Measures to secure these aims or to demonstrate 
+military medicine’s resolve to act ethically, professionally, and with the highest standards of quality 
+have great influence on the perception of the public 
+about who we are as a US military and federal health 
+force. These public audiences are major stakeholders 
+in determining both national security interests and the 
+degree to which these interests can be advanced. As a 
+consequence, the actions—or inactions—of uniformed 
+healthcare providers in performing their duties can 
+have a dramatic impact on the success of the larger 
+military mission and even interagency effort. Figures 
+9-2 through 9-4 illustrate some examples of “strategic 
+corporals” in recent military medical operations. Each 
+represents a strategic message about the contribution 
+of the military medical community through the execution of their tactical duties.
+Figure 9-4. A combat medic in Afghanistan examining a 
+child in a humanitarian operation to improve host nation 
+public health. US Army Specialist Joe Kunsch performs 
+medical checks on village children during a combat patrol 
+in Khowst province, Afghanistan, January 25, 2012. Kunsch 
+is a medic assigned to 2nd Battalion, 377th Parachute Field 
+Artillery Regiment.
+Reproduced from: https://www.defense.gov/Photos/EssayView/CollectionID/9224/.
+Figure 9-5. Major (Doctor) Jonathan Letterman (seated, first 
+on the left) and his medical staff of the Army of the Potomac. 
+Originally printed in Miller’s photo history of the Civil War, 
+v. 7, p. 219.
+Reproduced from: https://collections.nlm.nih.gov/catalog/
+nlm:nlmuid-101436488-img.
+SUMMARY AND CONCLUSIONS
+On September 17, 1862, an event occurred that 
+changed the course of American history and was 
+pivotal to the development of modern military and 
+uniformed medicine and US public health (this conclusion is inspired by the comments of Dale Smith, 
+PhD, leading the Uniformed Services University of 
+the Health Sciences annual terrain walk at Antietam 
+National Battlefield, 2012–2017). At the small western 
+Maryland town of Sharpsburg near Antietam Creek, 
+Union and Confederate forces clashed in a battle with 
+the ignominious distinction of creating the largest 
+number of casualties in a single day of armed conflict 
+in American history—over 23,000 wounded or dead 
+federal and Southern soldiers. The military surgeon 
+serving as the medical director of the Army of the 
+Potomac in that battle (Figure 9-5), Major Jonathan 
+Letterman, was a battle-tested, experienced military 
+medical officer with over a decade of practice in the 
+Indian Wars, as well as on earlier Civil War battlefields. 7 In the few months following his appointment 
+as the senior medical officer for his command, he had 
+worked diligently to devise a system of evacuation 
+teams far forward on the battlefield with evacuation 
+by horse-drawn ambulances to larger makeshift facilities in the rear. Antietam was his first opportunity to 
+test his system; the battles of Fredericksburg and Gettysburg that followed in 1863 permitted him to apply 
+his system more comprehensively and convincingly.
+The Battle of Antietam was an encounter noteworthy as one of the earliest “victories” for the Union 
+Army, enabling President Abraham Lincoln to publish 
+152
+Fundamentals of Military Medicine
+the Emancipation Proclamation, which freed all slaves 
+in the secessionist Confederate States. Lincoln had 
+completed the edict earlier but did not issue it, fearing 
+that in the absence of any clear Union victory it would 
+appear to be an act of desperation. Upon the completion of the battle, Letterman faced a major decision of 
+his own. Traditionally educated in the medical care 
+principles and practices of the day, as are the healthcare professionals reading this textbook, Letterman 
+was fully focused on providing optimal care to his 
+individual patients. But Antietam created for him a 
+crisis of conscience in which he came to see that he bore 
+the responsibility to care for the entire Army—that 
+care of the individual soldier rested upon his understanding of how to organize, man, equip, control, and 
+provide proximate, continuous, and flexible care that 
+conformed to both the ongoing battle and to a uniform 
+standard of excellent care for the entire fighting force. 
+Letterman’s subsequent creation of the “Letterman 
+plan,” completed in October 1862, revolutionized battlefield medicine as well as emergency care for many 
+civilian cities following the war. US Navy observers of 
+the battle also learned these lessons and applied them 
+to maritime and riverine care. Letterman’s insights 
+remain some of the most significant in the history of 
+healthcare in armed conflict as well as in natural and 
+manmade disasters. 
+Major Letterman underwent a transformation in 
+his thinking that every civilian and uniformed medical officer must undergo if they are to both provide 
+the greatest impact for those they serve, and achieve 
+the highest level of professional practice. This chapter 
+has fully explored and deconstructed the elements 
+of that transformation. While medical practice rests 
+upon tactical events involved in the promotion of 
+health and delivery of care to individual patients, the 
+uniformed medical officer is incomplete without an 
+understanding of and facility with operational level 
+engagements, such as occur on an entire battlefield, 
+a major medical treatment facility, or an epidemic or 
+natural disaster. Survivors of the battles that followed 
+Antietam and Gettysburg took their observations and 
+experiences home to cities throughout the country. 
+They demanded that their civic leaders emulate the 
+Letterman Plan or began their own efforts in urban 
+emergency care to duplicate the efficient and effective methods of care delivery they had seen in the 
+Civil War. Letterman’s efforts were truly strategic 
+in their impact on American and global health and 
+healthcare.
+Ultimately, the role of military and uniformed medical care in the larger strategic context of defending the 
+nation and preserving the health of the public must be 
+learned to become a successful and complete medical 
+officer. The demands of developing an understanding of human disease and injury and of maintaining 
+proficiency in their treatment are often more engaging 
+and personally rewarding—at least in the short run. 
+But they cannot define the extent of a uniformed and 
+military medical officer’s skills. Like Jonathan Letterman, today’s medical officers are challenged to ascend 
+to a higher level of understanding and leadership if 
+they are to fulfill their aspirations to serve honorably 
+and the obligation to reach their full potential. 
+REFERENCES
+ 
+1. Summers HG Jr. On Strategy: A Critical Analysis of the Vietnam War. New York, NY: Random House; 1982: 1.
+ 
+2. von Clausewitz C. On War. Howard M, Paret P, trans-eds. Princeton, NJ: Princeton University Press; 1976: 87.
+ 
+3. US Department of Defense. Doctrine for the Armed Forces of the United States. Washington, DC: DoD; 2013. Joint Publication 1.
+ 
+4. 50 USC Ch 33: War Powers Resolution. http://uscode.house.gov/view.xhtml?path=/prelim@title50/
+chapter33&edition=prelim. Accessed January 3, 2018.
+ 
+5. Jablonsky D. US military doctrine and the revolution in military affairs. Parameters. 1994;autumn:18–36.
+ 
+6. Krulak CC. The strategic corporal: leadership in the three block war. Marines Magazine. 1999;83(1). http://www.au.af.
+mil/au/awc/awcgate/usmc/strategic_corporal.htm. Accessed November 13, 2017.
+ 
+7. McGaugh S. Surgeon in Blue: Jonathan Letterman, the Civil War Doctor Who Pioneered Battlefield Care. New York, NY: 
+Arcade; 2013.

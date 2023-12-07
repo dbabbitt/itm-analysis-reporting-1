@@ -1,0 +1,2640 @@
+61
+Clinical Ethics: The Art of Medicine
+Chapter 3
+CLINICAL ETHICS: THE ART OF MEDICINE
+JOHN COLLINS HARVEY, MD, PHD*
+INTRODUCTION
+ORIGIN OF THE TERM “CLINICAL ETHICS”
+HISTORICAL BACKGROUND
+Greek Philosophical Influences
+18th and 19th Century British Philosophical Influences
+Antifoundational and Antiauthoritarian Influences
+Scientific and Medical Influences
+Deconstructionist Intellectual Influences
+Postmodern Philosophical Influences
+Healthcare Professional Influences
+EVOLUTION OF CLINICAL ETHICS AND THE CLINICAL ETHICIST
+METHODS OF CLINICAL ETHICS
+ETHICS CONSULTATION AND ETHICS COMMITTEES
+The Clinical Ethicist
+Ethics Committees
+CLINICAL ETHICS RESEARCH AND TEACHING
+Clinical Ethics Research
+Clinical Ethics Teaching
+ISSUES IN CLINICAL ETHICS: PRECEDENT SETTING CASES
+CONCLUSION
+ATTACHMENT: LANDMARK CASES IN ETHICS
+*Colonel (Retired), Medical Corps, United States Army Reserve; currently, Professor of Medicine Emeritus, Georgetown University; Senior
+Research Scholar, Kennedy Institute of Ethics, Georgetown University; and Senior Research Scholar, Center for Clinical Bioethics, Georgetown
+University Medical Center, 4000 Reservoir Road, NW, #D-238, Washington, DC 20057
+62
+Military Medical Ethics, Volume 1
+J.O. Chapin
+The Medical Education
+1944
+The third of seven images from the series The Seven Ages of a Physician. This image depicts the education of a group of
+medical students at the bedside of a patient. Clinical ethics helps to focus the medical treatment on the patient as a
+person who functions within a complex network of social relationships and personal needs, rather than as just an
+“entity” with a biomechanical dysfunction.
+Art: Courtesy of Novartis Pharmaceuticals.
+63
+Clinical Ethics: The Art of Medicine
+INTRODUCTION
+The patient–physician relationship exists because
+patients need help and physicians offer that help.
+How well that help is delivered depends, in part,
+on how well the physician understands and practices the art of the patient–physician interaction. In
+the previous chapter, Theories of Medical Ethics:
+The Philosophical Structure, the many philosophies
+that influence not only that relationship but also the
+delivery of healthcare in a societal context have been
+explored. This chapter narrows that focus down to
+the clinical encounter between a patient and a physician. That encounter is the true end of medicine.
+It is situations that arise from that encounter that
+occupy the field of clinical ethics.
+In the Encyclopedia of Bioethics, clinical ethics is
+described by Fletcher and Brody1 as being concerned with the ethics of clinical practice and with
+ethical problems that arise in the care of patients.
+Jonsen, Siegler, and Winslade,2 in their book, Clinical Ethics: A Practical Approach to Ethical Decisions in
+Clinical Medicine, define clinical ethics as the identification, analysis, and resolution of moral problems that arise in the care of a particular patient.
+They point out that these moral concerns are inseparable from the medical concerns about the correct
+diagnosis and treatment of the patient. Pellegrino3
+states that clinical ethics focuses on the clinical realities of moral choices as they are confronted in
+day-to-day health and medical care. He points out
+that clinical ethics asks such questions as:
+• Is the slippery slope a reality or not?
+• What is the psychological effect on physicians and patients in a society that condones
+euthanasia?
+• What moral values will predominate if physicians are put in charge to decide for and
+against treatment on economic grounds?
+• Is autonomy always in the best interests of
+patients?
+Taylor4 accepts Jonsen, Siegler, and Winslade’s
+definition of clinical ethics but wisely adds that it
+is an interdisciplinary activity and its major thrust
+is to work for outcomes that best serve the interests
+and welfare of patients and their families.
+Thus, clinical ethics concerns the clinical practice, involving the identification, analysis, and resolution of moral problems affecting patients, while
+understanding the clinical realities of these situations in an interdisciplinary context. In other words,
+clinical ethics concerns itself with the complex
+moral issues that arise as professionals practice the
+art of the clinical encounter with a patient.
+ORIGIN OF THE TERM “CLINICAL ETHICS”
+How did the term “clinical ethics” enter the lexicon of medicine? Joseph F. Fletcher,5 in his book,
+Morals and Medicine, is thought to have been the first
+to refer formally to “clinical ethics.” Fletcher, a theological ethicist in the Anglican tradition, acclaimed
+the liberation of humanity from the constraints of
+nature by the power of modern medicine, which
+gave humanity the ability to shape its own destiny
+and individuals the ability to live a life of their own
+choosing. It is reported by his son, John C. Fletcher,
+in the Encyclopedia of Bioethics, that his father, Joseph F. Fletcher, referred to the term “clinical ethics” in a commencement address at the University
+of Minnesota School of Medicine in 1976. 1 He is reported to have said that physicians often responded
+to his arguments for “situation ethics” in contrast
+to “rule ethics” by identifying his approach as
+“clinical ethics” or deciding what to do case-bycase, using guidelines to be sure, but deciding what
+to do by the actual case or situation of the patient. 5
+Fletcher not only introduced a new term, but a new
+controversy. It has been debated since he first used
+the term “clinical ethics” whether this describes a
+new discipline or a subdiscipline of bioethics.
+Siegler6 argues rather convincingly that it is a new
+discipline. He says that ethical considerations cannot be avoided when physicians and patients must
+choose what ought to be done from among the many
+things that can be done for an individual patient in
+a particular clinical circumstance. He also argues
+that the concept of good clinical medicine implies
+that both technical and ethical considerations are
+taken into account. Ethics informs the act of clinical decision, that is, “the moment of clinical truth.”
+He insists that clinical ethics must be taught at the
+bedside and this instruction should be done primarily by clinicians. Siegler introduced an analytic
+system for approaching clinical-ethical problems at
+the bedside. 7
+Fletcher’s case method is reminiscent of the ageold process of casuistry as discussed by Toulmin. 8
+Casuistry is defined by Jonsen and Toulmin as “the
+64
+Military Medical Ethics, Volume 1
+analysis of moral issues, using procedures of reasoning based on paradigms and analogies, leading
+to the formulation of expert opinion about the existence and stringency of particular moral obligations, framed in terms of rules or maxims that are
+general but not universal or invariable, because they
+hold good with certainty only in the typical conditions of the agent and circumstances of the case.”9
+Casuistry also has been described recently by
+Keenan. 10 He has said that “it is not the answer to a
+big general question but rather the study of an individual case filled with circumstances that engage
+our attention and require an ethical evaluation of
+the particulars of the single case at hand.”11 Arras12
+points out that the emergence of casuistical case
+analysis is a methodological alternative to more
+theory-driven approaches in bioethics research and
+education. He argues that casuistry is “theory modest” rather than entirely “theory free.”
+Thus, although it has been little more than 20
+years since Fletcher introduced the term “clinical
+ethics,” the field itself is very similar to casuistry, the
+case-by-case building of an analytical framework that
+can be applied to the current patient with whom a
+physician is involved. This framework can be traced
+back to the earliest days of recorded medicine.
+HISTORICAL BACKGROUND
+In the day-to-day rush of seeing patients, maintaining medical records, handling necessary paperwork, and resolving staffing and equipment issues,
+it is easy for the contemporary practitioner of medicine to let the ancient past be just that—past and
+not of relevance. And yet that past is the very foundation for most of what physicians think and do in
+that patient–physician relationship. It is also the
+foundation of what physicians do not do. And it is
+a foundation that has stood the test of time remarkably well. This chapter will explore the historical
+background of medical ethics in some detail, because it is only by understanding that past that it
+may be possible to maintain medical ethics in the
+face of the evermore rapidly evolving science of
+medicine.
+Greek Philosophical Influences
+The practice of medicine in the Western tradition
+has been greatly influenced over the past two millennia by Greek philosophical writings contained
+in the Pythagorean corpus produced between 500
+BC to 100 AD, and by the stoic traditions embodied
+in the writings of some of the later Greek and Roman philosophers of the 1st century AD, particularly
+Cicero, Seneca, and Marcus Aurelius. When Christianity invaded the wider world of the Roman Empire after 90 AD, Judeo-Christian ethical precepts
+were engrafted onto and melded with the aforementioned Greco-Roman philosophical thought. During the Dark Ages in the West, the Greco-Roman
+philosophical heritage was lost but was fortunately
+saved in the East by Islamic philosophers who preserved the Greek philosophical heritage in the Arabic language in the Islamic centers of learning in
+the Middle East. Islamic ethical principles, very
+close to Judaic ones, were thus also introduced into
+Western thought because the legacy of Greek philosophy, particularly that of Aristotle, was recaptured for Western thought by the medieval philosophers and theologians such as Thomas Aquinas who
+became acquainted with the Latin translations of
+the books in the Arabic language of the great Islamic philosophers—Avarroes, Avicenna, and their
+followers.
+The Pythagorean corpus contained the works of
+the apocryphal “Father of Greek medicine”—
+Hippocrates—whose books gave guidance to physicians in their practice concerning etiquette, dress,
+deportment, relations with other physicians, and
+the like. 13
+ An oath attributed to Hippocrates gave
+precepts to guide the physician followers of his
+school of medicine in the moral life and the practice of medicine.
+The Hippocratic Oath defined the right and the
+good in medical practice. It outlined precepts that
+the body of healers, bound together in their common mission of healing, professed and adhered to
+in their practices. These precepts were beneficence,
+nonmaleficence, and confidentiality. The oath prohibited abortion, euthanasia, sexual relations with
+patients, and the performance of medical procedures (surgery) for which the physician was not
+trained. This oath was very paternalistic. The physician was to benefit the patient to the best of the
+physician’s ability as he judged what the best interests of the patient were.
+The good life for anyone, that is, the virtuous
+life, was well-depicted by the Greek philosophers,
+Plato and Aristotle, particularly in the latter’s
+Nichomachean Ethics. The end of life (the “telos”)
+for these philosophers was human flourishing.
+Aristotle described the cardinal virtues—courage,
+temperance, justice, and prudence (practical wisdom)—that, if practiced by the virtuous person,
+65
+Clinical Ethics: The Art of Medicine
+would lead to a full and flourishing life. These together with the so-called theological virtues later
+introduced by Christianity—faith, hope, and charity—formed the basis for doing one’s work in a
+moral way, living the virtuous life, and attaining
+the goal or end of life. These concepts influenced
+the interpretation of the oath in later times in Western civilization.
+The enunciated concepts in the Hippocratic Oath
+show that ethics has always been an essential part
+of medical practice in the tradition of Western medicine. Indeed, some medical historians have found
+that the oath indicates that ethics has always been
+“intrinsic” to the practice of medicine in the Western tradition. 14 The concepts embodied in the oath
+have been the basis for judgment upon the morality of every physician’s practice over the past 2500
+years right down to the mid-20th century.
+18th and 19th Century British Philosophical
+Influences
+In tracing the historical significance of the Hippocratic Oath in the practice of medicine, the influence of the 18th century philosophical “Scottish
+Enlightenment” of Locke, Hume, Mill, and of the
+British empiricists, such as Berkeley and others,
+upon the practice of medicine must be considered. 15
+The developments in philosophy in the 18th century touched all phases of intellectual life in the
+British Isles including the discipline of medicine
+and surgery. One result was that the ethical aspects
+of practice were codified by Percival,16
+ as they had
+previously been, to a lesser extent, by Gregory. 17
+Both retained the Hippocratic concepts. However,
+they introduced into the ethics of medical practice
+the concept of the “English gentleman” and his obligations to society in general and to individual
+human beings in particular.
+One of the subjects with which Percival dealt was
+“therapeutic privilege.” This was a euphemism for
+withholding the truth from the patient and family
+concerning the medical situation, if, in the opinion
+of the physician, this knowledge would be detrimental to the patient.
+To a patient…who makes inquiries which, if faithfully answered, might prove fatal to him, it would
+be a gross and unfeeling wrong to reveal the truth.
+His right to it is suspended, and even annihilated;
+because, its beneficial nature being reversed, it
+would be deeply injurious to himself, to his family, and the public. And he has the strongest claim,
+from the trust reposed in his physician, as well as
+from the common principles of humanity, to be
+guarded against whatever would be detrimental to
+him….The only point at issue is whether the practitioner shall sacrifice that delicate sense of veracity, which is so ornamental to, and indeed forms a
+characteristic excellence of the virtuous man, to this
+claim of professional justice and social duty. 16(pp165–166)
+Percival always counseled physicians in bleak
+cases “not to make gloomy prognostications … but
+to give to the friends of the patients timely notice
+of danger … and even to the patient himself, if absolutely necessary.”16(p31) Percival was struggling
+with the arguments of Thomas Gisborne, who opposed practices of giving false assertions intended
+to raise patients’ hopes and lying for the patient’s
+benefit. From Percival’s perspective, the physician
+does not lie in beneficent acts of deception and falsehood, as long as the objective is to give hope to the
+dejected or sick patient. The role of the physician,
+he asserted, was always “to be the minister of hope
+and comfort.”16(p32)
+Percival, aware that the Hippocratic Oath did not
+impose an obligation of veracity, was concerned
+about the appearance and consequences of acts of
+deception because they would surely endanger the
+gentlemanly image of the physician and the character of the physician as a moral agent. But Percival was
+a utilitarian in his personal philosophy. He consulted
+Francis Hutcheson, then considered a leading authority in moral philosophy. He was pleased to find
+that Hutcheson was teaching that benevolent deception in medicine is often the manifestation of a
+virtue, rather than an act constituting an injury.
+No man censures a physician for deceiving a patient too much dejected, by expressing good hopes
+of him; or by denying that he gives him a proper
+medicine which he is foolishly prejudiced against:
+the patient afterwards will not reproach him for it.
+Wise men allow this liberty to the physician in
+whose skill and fidelity they trust: Or, if they do
+not, there may be a just plea from necessity. 16(pp160–161)
+Hutcheson’s 18th century paternalism was equaled
+by that of the most probing British moral philosopher of the 19th century, Henry Sidgwick, who held
+that veracity can be justifiably overridden by beneficence:
+Where deception is designed to benefit the person
+deceived, Common Sense seems to not hesitate to
+concede that it may sometimes be right: for example, most persons would not hesitate to speak
+falsely to an invalid, if this seemed the only way of
+concealing facts that might produce dangerous
+shock. 18
+66
+Military Medical Ethics, Volume 1
+But this very philosophy had ancient roots. Clement of Alexander wrote in the first century AD:
+For he [the good person] not only thinks what is
+true, but he also speaks the truth, except if it be
+medicinally, on occasion, just as a physician with a
+view to the safety of his patients, will practice deception or use deceptive language to the sick, according to the sophists. 19(p127)
+Medical practice in America in the 18th and 19th
+centuries was quite naturally modeled on Scottish
+and English medical practice. Thus Percival’s writing provided the American physicians an understanding that ethics was intrinsic to the practice of
+good medicine. American physicians had sought to
+regulate their fellows in the ethical practice of medicine by the creation of a set of professional standards as early as 1808. A set of influential moral
+rules modeled on Percival was published by several Boston physicians in that year as The Boston
+Medical Police, as reported by Konold in his history
+of the early years of American medical ethics. 20
+The first Code of Ethics of the American Medical
+Association (AMA), adopted in 1847, was actually
+no more than a condensation of Percival’s book. 21
+The chairman of the AMA’s drafting committee for
+EXHIBIT 3-1
+CODE OF ETHICS, AMERICAN MEDICAL ASSOCIATION, 1847
+CHAPTER I.
+OF THE DUTIES OF PHYSICIANS TO THEIR PATIENTS, AND OF THE OBLIGATIONS OF PATIENTS TO THEIR
+PHYSICIANS
+Article 1 — Duties of physicians to their patients
+…
+4. A physician should not be forward to make gloomy prognostications, because they savor of empiricism, by magnifying the importance of his services in the treatment or cure of the disease. But he
+should not fail, on proper occasions, to give to the friends of the patient timely notice of danger, when
+it really occurs; and even to the patient himself, if absolutely necessary. This office, however, is so
+peculiarly alarming when executed by him, that it ought to be declined whenever it can be assigned
+to any other person of sufficient judgment and delicacy. For, the physician should be the minister of
+hope and comfort to the sick; that, by such cordials to the drooping spirit, he may smooth the bed of
+death, revive expiring life, and counteract the depressing influence of those maladies which often
+disturb the tranquility of the most resigned, in their last moments. The life of a sick person can be
+shortened not only by the acts, but also by the words or the manner of a physician. It is, therefore, a
+sacred duty to guard himself carefully in this respect, and to avoid all things which have a tendency
+to discourage the patient and to depress his spirits.
+Reprinted with permission from: Code of Ethics, American Medical Association, 1847. In: Encyclopedia of Bioethics. Vol. 5.
+New York: Simon & Schuster, Macmillan; 1995: 2639–2640.
+the code, Isaac Hays, at the time of the presentation of the report to the convention wrote a note
+accompanying the committee’s report: “On examining a great number of codes of ethics adopted by
+different societies in the United States, it was found
+that they were all based on that by Dr. Percival, and
+that the phrases of this writer were preserved to a
+considerable extent in all of them.”22 The AMA accepted without modification the HutchesonPercival paradigm in its 1847 code. This code (as
+do most codes of medical ethics before and since)
+entirely ignores rules of veracity (see Exhibit 3-1).
+In the code the physicians were given discretion
+over what to divulge to patients and were to exercise good judgment about these matters.
+It is interesting to note that at this time a prominent Connecticut physician, Worthington Hooker,
+while one of the most committed adherents to the
+AMA Code of Medical Ethics, refused to accept one
+of its chief tenets, that of therapeutic privilege.
+Hooker had earned his medical degree from
+Harvard in 1829 and practiced medicine for 23 years
+in Norwich, Connecticut before he became Professor of the Theory and Practice of Medicine at Yale
+University in 1852. He served in that position for
+15 years.
+Hooker had always been concerned with the
+67
+Clinical Ethics: The Art of Medicine
+threats to the reputation of regular medical physicians presented by quacks and religious sects. He
+was a firm advocate of professional standards and
+thus a firm supporter of the AMA’s Code of Medical Ethics adopted in 1847. While he was wholehearted in accepting the duty to do good for his
+patients and to prevent harm to them, he thought
+that these goals of therapeutics were misplaced
+when it came to the medical ethics of disclosure.
+He refused any compromise with telling the absolute truth to a patient about his illness, its prognosis, and the success or failure of therapy. He was
+the very first American physician who championed
+the concept of patient autonomy. 23
+Percival’s justification of benevolent deception
+of patients and the absence of a right of the patient
+to the truth were entirely unsatisfactory to Hooker.
+He argued that the underlying claims of Percival
+that hurtfulness results from disclosures are not
+warranted by clinical experience when the physician has consistently pursued a course of frank and
+candid discussion. He argued that a nondeceptive
+means of discussion is generally more satisfactory
+than a deceptive means. Even when negative reactions to bad news do occur, the effects are not usually as serious to the patient, in Hooker’s judgment,
+as the patient’s reaction upon discovery or suspicion of deception by physicians. 24
+William Osler (1849–1919), the first Professor of
+Medicine at the Johns Hopkins Medical School and
+probably the greatest clinician that North America
+has, to the present time, ever produced, was the
+very embodiment of the “English gentleman” physician described by Percival. He introduced the teaching of medicine to students by the case method done
+at the bedside of the patient. 25 He felt this was his
+greatest contribution. In an address to the New York
+Academy of Medicine in 1902, Osler made a complete
+statement of his philosophy of teaching medicine:
+In what may be called the natural method of teaching, the student begins with the patient, continues
+with the patient, and ends his studies with the patient, using books and lectures as tools, as means
+to an end…teach him how to observe, give him
+plenty of facts to observe and the lessons will come
+out of the facts themselves. For the junior students
+in medicine and in surgery it is a safe rule to have
+no teaching without a patient for a text, and the
+best teaching is that taught by the patient himself. 25(pp596–597)
+The Johns Hopkins Medical School produced in
+the first part of the 20th century many teachers of
+medicine who subsequently formed a large proportion of the faculties of other American medical
+schools. These individual physicians took the
+Oslerian pattern of teaching to their medical
+schools. Thus, this Oslerian teaching methodology
+and philosophy has come to dominate American
+medical school pedagogy even to this day. 26
+Osler never wrote a clear cut philosophy of medicine. His essay on Sir Thomas Browne perhaps
+comes closest to expressing such a philosophy. 27 It
+is evident that Osler thought, as did most physicians of his time, that ethics was “intrinsic” to the
+practice of medicine. Osler, indeed, felt that a physician could not separate the decisions about the
+scientific questions regarding the patient’s disease
+(the presenting pathological condition) from the
+ethical questions posed by the patient’s illness (the
+patient’s reaction to the disease), and the patient’s
+Fig. 3-1. Francis W. Peabody (1881–1927), Professor of
+Medicine, Harvard Medical School; Director, Thorndike
+Memorial Library, Boston City Hospital. A proponent of
+the Oslerian Philosophy of Medicine at the Harvard
+Medical School. Photograph: Courtesy of the Alan Mason Chesney Medical Archives, Johns Hopkins Medical
+Institutions, Baltimore, Maryland.
+68
+Military Medical Ethics, Volume 1
+life circumstances. 28 He was firm in supporting
+Percival’s concept of “therapeutic privilege.”
+Two outstanding and very influential American
+physicians, Francis Peabody (Figure 3-1) and Louis
+Hamman (Figure 3-2), each of whom had been very
+much influenced by Osler and each in his own right
+a great clinician and a great teacher, the former at
+the Harvard Medical School and the latter at Johns
+Hopkins, articulated well “Oslerian” philosophies
+of medicine. Their expressed philosophies also
+emphasized that ethics was “intrinsic” to the practice of medicine. 29,30 This “Oslerian” philosophy of
+medicine generally set the pattern for medical practice that predominated in the United States until the
+mid-20th century, although in the second and third
+decades of the century some new ideas began to
+invade and alter this philosophy. These new ideas
+had their genesis in the expanding knowledge of
+disease and the application of a more “scientific”
+model of medicine. In this model, the disease is
+Fig. 3-2. Louis Hamman (1877–1946), brilliant expostulator of the “Oslerian” approach to medical teaching at
+the Johns Hopkins Hospital and Medical School, Baltimore, Maryland. Photograph: Courtesy of John Collins
+Harvey, MD, PhD.
+Fig. 3-3. Schematic of patient needs. By broadening the
+medical view of the patient, Dr. Richard Cabot (1868–1939),
+Professor of Social Ethics at Harvard College (1920–1939)
+and Physician to the Massachusetts General Hospital
+(1894–1939), became an advocate for the patient autonomy movement. Rather than simply viewing the patient
+as a “biological mechanism” (a), which had heretofore been
+the predominant view of the medical profession, Dr.
+Cabot expanded the view of the patient to include the
+needs, wants, and desires of the patient as a unique person
+(b). While the “biological mechanism” model of the patient
+had worked reasonably well in the diagnostic phase of the
+medical interaction, it had not necessarily ensured success
+in the treatment phase as it failed to understand the patient as a person. Expanding on Dr. Cabot’s idea of patient
+as person, we would propose a third layer, that of patient
+as a member of the community (c). Utilizing this three-layered model of the patient as a biological mechanism, a
+unique person, and a member of a larger group is the
+best way to ensure maximum benefit to the patient from
+the patient–physician interaction.
+a
+b
+c
+Patient as "biological mechanism": Post-World War II to ~1980
+Patient as "member of community": The Future
+Patient as "person": 1980 to the Present
+69
+Clinical Ethics: The Art of Medicine
+viewed as a physiologic and anatomic derangement
+that affects the biological organism. The goal of
+medicine is to reverse the altered anatomy and
+physiology. This view of medical practice is described as the “applied biology” model in Chapter
+1, The Moral Foundations of the Patient–Physician
+Relationship: The Essence of Medical Ethics, of this
+volume and it predominated until around 1980
+when the concept of the “patient as person” began
+its resurgence. 31 This view has dominated to varying degrees since then and will continue to evolve
+as the complex interactions between disease, the
+patient, and society are elucidated (Figure 3-3).
+Antifoundational and Antiauthoritarian
+Influences
+In the United States after World War II there developed a strong movement, pervading all aspects of
+life, that was antifoundational and antiauthoritarian. This movement greatly influenced the philosophy of medicine, medical pedagogy, and the national
+healthcare enterprise. This resulted in very profound
+changes in the way medicine was practiced in the
+United States, as demonstrated by new philosophies
+of medicine that were developed by physician educators. Changing attitudes of the public also greatly
+heightened physicians’ concern for medical malpractice that was often brought up at bedside rounds but
+out of the hearing range of the patient.
+The causes for this antiauthoritarian movement
+were multiple, but can best be understood as historical developments in the context of historical traditions. The historical traditions to which I refer are
+the basics of American democracy—the Declaration
+of Independence, the Constitution, and the Bill of
+Rights. Of profound importance to the antiauthoritarian movement was the 14th amendment (also
+known as the “liberty” amendment) to the Constitution. What were the historical developments that
+fueled the antiauthoritarian movement in the
+United States? Simply put, they were events that
+cross-cut the entire culture, impacting institutions
+and values, and ultimately changing the country.
+The first of these events was World War II, which
+had a profound effect upon the population of the
+United States. For the first time in their lives many
+individuals traveled to other parts of the country and
+overseas. This experience enlarged their horizons and
+opened up new ideas of life for them. Furthermore,
+much of the population experienced for the first
+time in their lives excellent medical care while serving in the armed forces in World War II. Returning
+to civilian life, they wanted the security that came
+with the care to which they had become accustomed. The American population began insisting
+that better medical care be made available to them.
+During World War II, the lives of American
+women were profoundly changed as well. They
+moved into the market place, earned wages independently of spouses (who often were in the armed
+forces), and began their liberation from the hearth and
+home. Women in the nursing profession began seeking greater professional independence, as a direct result of their experiences during the war. (See Chapter
+20, Nursing Ethics and the Military, in the second volume of Military Medical Ethics, for further discussion
+of the evolution of the nursing profession.)
+The events of the 1950s, including the civil rights
+struggle, set the stage for the “Great Society” program of President Lyndon Johnson in the mid-1960s.
+Medicare, a federal health program for the elderly,
+and Medicaid, a federal–state health program for
+the poor, were enacted into law by Congress in 1965.
+Equally important was the effect of the Civil Rights
+Act of 1965, which not only sought to correct the
+results of past actions, but also forcefully demonstrated that customs, laws, and old ways of thinking could be overturned. The discovery of the anovulatory pill liberated women from the burdens of
+unwanted pregnancies, and fueled the sexual revolution for both men and women. The success of the
+civil rights struggle and the discovery of “the pill”
+accelerated the movement for woman’s liberation
+that had begun in World War II and reached its zenith in the 1970s and 1980s.
+Opposition to the Vietnam War led to the student revolt of the late 1960s and early 1970s, which
+changed education at all levels. The second Vatican
+Council (1962–1965) of the Roman Catholic Church
+altered drastically one of the most authoritative
+worldwide institutions of the modern era, rendering it less dogmatic and more responsive. This alteration in outlook was an opening to the world and
+a concern for the here and now. It influenced attitudes toward ethics and morality in other Christian denominations. 32–35 Likewise, the global human
+rights movement has also resulted in questioning
+of basic societal values and beliefs. All of these
+events combined to forever alter the practice of
+medicine in the western world.
+Scientific and Medical Influences
+Very rapid advances in medicine began to occur
+in the 1920s and 1930s, and accelerated after World
+War II. Medicine became more scientific and technological (Figure 3-4). The physiological mecha70
+Military Medical Ethics, Volume 1
+nisms of shock were discovered. Blood transfusion
+and intravenous therapy were perfected. Antibiotics were mass produced. Assisted ventilation,
+renal dialysis, and artificially administered nutrition and hydration were introduced. The cardiac bypass pump was developed, which permitted open
+heart surgery. The methodology of tissue typing made
+organ transplantation practical. Chemotherapy for
+cancer was introduced and brought increasing success in cure for many different types of neoplasms.
+With these scientific advances, medical practice
+changed. Specialization developed; subspecialization and then superspecialization followed. This
+brought a depersonalization of care as some physician-specialists in a sense became technicians and
+no longer cared for the patient as a “whole.” Such
+physicians became “system,” “organ,” or even
+“cell” physicians. Nurses declared their independence from the physician. Whole new groups of
+professional healthcare providers arose—physician
+assistants; dental hygienists; respiratory, physical, and
+occupational therapists; specialist nurse practitioners;
+and mental health and bereavement counselors
+among many others. These professionals provided
+excellent services with competence and relieved the
+Fig. 3-4. Scientific and technological
+advances in medical transportation of
+patients in the past 100 years. Photograph (a) is of John Frederick Moore,
+MD, standing to the left of the ambulance that was used during his tenure
+as a general internist at Bellevue Hospital, New York City. Dr. Moore was
+an 1888 graduate of the “Great Blizzard” class of Bellevue. The class was
+named after the historic snowstorm
+that crippled New York City for a
+number of days and resulted in the
+deaths of many ill persons who could
+not be excavated from their locations
+in time to be transported to hospitals.
+Photograph (b), a “MedSTAR” helicopter utilized by hospitals throughout the Washington, DC metropolitan
+area, demonstrates the remarkable
+progress that has been made in the
+evacuation of the ill and injured since
+the days of the horse and carriage.
+Photograph (a): Courtesy of Dr. Moore’s
+grandson, Michael McQuillen, MD,
+Professor of Neurology, University of
+Rochester, New York; photograph (b)
+courtesy of the Department of Educational Media, Georgetown University
+Medical Center, Washington, DC.
+a
+b
+busy physician of some tasks. All these developments,
+however, contributed greatly to the fragmentation
+of medical practice.
+Deconstructionist Intellectual Influences
+The antiauthoritative movement in social life in
+the United States also occurred in all phases of the
+intellectual life. Philosophy as a discipline did not
+escape. Dissatisfaction with the prevailing academic
+emphasis on theoretical issues in moral philosophy
+led to an increased interest in normative and applied ethics. In our pluralistic society the old values defining right and wrong and good and evil
+were questioned. All moral norms put forth by the
+old philosophical theories were challenged. Individual and societal beliefs of what was right and
+wrong varied greatly. Absolutes appeared to be
+abandoned; deconstructionism prevailed. The alternatives to the old ethical theories were intuition and
+“gut feeling.” Relativism and subjectivism were the
+order of the day. “Situation ethics” seemed to be
+normative. The “good life” was redefined; it became
+egocentric relativism.
+In medicine, basic organizing principles were
+71
+Clinical Ethics: The Art of Medicine
+challenged. A philosophy of medicine always creates its own understandings about health and disease, the allocations of medical resources, and the
+relationship of physicians to patients and society.
+Because new philosophies of medicine were being
+put forth, there emerged a wide variety of opinions
+concerning these areas. The ethics of medical practice did not escape. The age-old guiding principle
+of beneficence (the physician should benefit the
+patient according to the physician’s own judgment
+and ability), in which the good of the individual
+was paramount, was replaced by one that shifted
+the focus considerably toward the autonomy of the
+patient (the physician should benefit the patient
+according to the patient’s own judgment and
+wishes). Philosophers, in attempting to draw a clear
+line between facts and values, challenged the belief that those well-trained in science and medicine
+were as capable of making the moral decisions as
+the medical decisions. If there were a significant
+difference between making a medical decision and
+a moral decision, philosophers wanted to explore
+how these decisions are different and what kinds
+of skills are needed to make each one.
+Seldin36 defined medicine as applied biology, reducing its body of knowledge to biology, chemistry, and physics. Engel,37 also defining medicine in
+terms of its knowledge base, developed the
+biopsychosocial model. Kass38 developed a theory
+of medicine, teleological in nature (which stresses
+the consequences of what people do), claiming that
+the end of medicine becomes the determining principle defining the knowledge medicine needs.
+Health equaled wholeness or well-functioning. He
+insisted that the physician’s goal for the patient is
+the attainment of health.
+Phenomenological theories of medicine were also
+developed. Siegler’s39 philosophy of medicine was
+process oriented, based on the nature of the patient–
+physician relationship. He was concerned how clinical medicine worked in the realities of daily practice. Whitbeck40 developed a societal-cultural theory
+of medicine. This theory defined health as the psychophysiological capacity to act or respond appropriately in a variety of situations. Pellegrino and
+Thomasma located their phenomenological philosophy of medicine in the patient–physician encounter, grounding it in virtue ethics, and basing it on
+the fact of illness, the profession of the physician,
+and the act of healing. 41
+Postmodern Philosophical Influences
+In the intellectual ferment of the 1960s and 1970s
+moral philosophers looked at what had heretofore
+been called medical ethics. This area did not escape
+the challenge that deconstruction brought. The old
+theories of ethics as applied to medicine were found
+wanting by the moral philosophers. In 1970 Paul
+Ramsey, a Christian ethicist and professor of religion at Princeton University, published a very influential work, The Patient as Person: Explorations in
+Medical Ethics. 42 This book was based on the Lyman
+Beecher lectures on medical ethics given at Yale
+University in April of 1969. He specifically introduced Christian ethical principles into his considerations of the ethical problems physicians faced in
+dealing with the remarkable advances in medical
+practice, which had been introduced in the 1940s
+and 1950s. In his book he also emphasized that the
+paternalistic practice of physicians had to give way.
+A patient’s concept of the good and right medical
+decision had to be taken into account by the treating physician for the patient. Only the patient,
+Ramsey insisted, could make a decision about the
+right and good moral path for himself. Another
+publication of Ramsey’s, Ethics at the Edges of Life,
+based on the Bampton Lectures given at Columbia
+University in 1975, had an equally great effect upon
+medical ethics, particularly those issues concerning
+abortion and dying. 43 At the same time, other moral
+philosophers viewing our pluralistic society fragmented by social class, ethnic background, economic
+status, and religious beliefs, as well as educational
+and cultural differences, insisted that a common
+theory for normative medical ethics was needed.
+Beauchamp and Childress,44 members of the
+faculty of the Kennedy Institute of Ethics at Georgetown University in Washington, DC, put forth a
+theory of medical ethics based on the prima facie
+principles of autonomy, nonmaleficence, beneficence, and justice. Their theory was based on the
+earlier work of Ross45 and to some extent Sidgwick,18
+both of whom theorized that human beings could
+intuit the right and good. These principles were
+quickly adopted by interested philosophers and
+healthcare workers because they were not based on
+utilitarian or deontological ethical theories nor on
+any specific religious teaching. They permitted
+moral strangers to converse with each other quite
+comfortably. “Principlism” became the basis for
+clinical ethics. These principles of autonomy,
+nonmaleficence, beneficence, and justice, so universally adopted, became known worldwide as the
+“Georgetown mantra.”
+These principles, they postulated, should always
+be normative unless there emerged a strong reason
+to justify overruling them. This theory was attrac72
+Military Medical Ethics, Volume 1
+tive because it was compatible with the older
+deontological and consequential theories of ethics
+and even natural law theory (which states that
+people are inclined to do what is good as they perceive good to be). It also, as Pellegrino points out,
+“promised to reduce some of the looseness and subjectivity that characterized so many ethical debates
+when the Hippocratic ethic was challenged as the
+final work and it provided fairly specific action
+guidelines.”3(p1160)
+Veatch46 has called attention to the increased interest in general in American society in what is
+called applied ethics, that is, ethics in a real-life context, where the tools of ethics are used to clarify and
+perhaps solve dilemmas that individuals face. Applied ethics, as defined by Beauchamp, is “the use
+of philosophical theory and methods of analysis to
+treat fundamentally moral problems in the professions, technology, public policy, and the like.”47(p515)
+In describing clinical ethics Veatch has narrowed
+this definition of applied ethics by restricting it
+in two ways. He limits clinical ethics to applied ethics involving interactions between professionals
+and lay persons, excluding applied ethics having
+to do with broad public policy matters and practical problem-solving done by individuals without
+the benefit of outside consultants. He narrows the
+term, clinical ethics, even further to ethical deliberations that take place close to the decision-making interactions, such as on a hospital floor or in a
+physician’s office. 46
+Moral philosophers are still in disagreement
+about ethical theory and applied ethics. There are
+those at one pole who believe that bioethics as a
+discipline cannot expect to achieve intellectual respect unless it is grounded solidly in theory giving
+justification to its principles, rules, and actions. At
+the opposite pole are those who maintain that if there
+be no consensus on theory, nonetheless there can be
+reasonable moral judgments made and public
+policy developed based on political, social, and legal agreement by people of prudence and good will.
+Theoretical ethics deals with the intellectual foundations of the field. Ethical theory sets patterns that
+can be applied in analyzing and solving moral dilemmas. The disagreement is whether or not ethical
+theory must be the basis not only for the analysis
+but also for the judgments that lead to the solutions
+of practical moral problems. Skeptics of ethical
+theory as the basis for making judgments regarding practical moral problems insist that theory is
+inadequate to the task. Furthermore, other skeptics
+insist that the method of philosophers in analyzing
+a problem minutely is not practical when an immediate answer is needed in the clinical situation.
+It is clear that this problem of relating theory to
+practice has not been resolved. This has had import
+in the way the field of bioethics, and thus clinical
+ethics, has developed in the last 25 years. The first
+generation of clinical ethicists were all trained philosophers. They rejected the notion that the foundations for medical ethics could be found in the
+discipline of medicine itself. They felt, rather, that
+the foundation was in the discipline of either philosophy or theology. They looked upon medical ethics as a field for fruitful exploration of theory and
+praxis as part of the developing field of bioethics.
+Their writings used medical problems to illustrate
+their theories of moral philosophy.
+Healthcare Professional Influences
+Professional healthcare workers—for the most
+part physicians who had always held that ethics was
+“intrinsic” to the practice of medicine—resented the
+intrusion of the professional philosopher into “their
+business.” Physicians were alienated by the professional philosophers’ talking philosophical language. This language was strange to their ears. Physicians bristled when the professional philosophers,
+referring to unfamiliar theories of the good, criticized physicians’ judgments and actions made on
+the wards and in the clinics, often in life and death
+situations. Physicians could not fathom the insistence of the professional philosophers that their
+paternalism, which had served them well for 2,000
+years, suddenly be replaced with a respect for patient autonomy, a concept that seemingly was incomprehensible to them.
+Physicians felt that they always kept the best interests of their patients at heart and always made
+medical decisions (the scientifically right ones) that
+they felt were consistent with their understanding
+of their patients’ values (the morally good decisions). They did not understand that this paternalism was anathema to patients who wished to share
+in the decision-making process when it came to their
+own treatment. Patients wanted to make the “good”
+decision; they wanted their physicians to make the
+“right” decision.
+This professional struggle set the stage for the
+evolution of the field of clinical ethics as a part of
+applied bioethics. It also brought about the development of that professional whom today is known
+as the clinical ethicist. Clinical ethicists are usually
+clinicians (physicians or registered nurses) who are
+fully qualified within a practice specialty and other
+professionals who work in a healthcare setting (eg,
+73
+Clinical Ethics: The Art of Medicine
+attorneys, clergy, social workers, and administrators). They share the desire for advanced education
+in clinical ethics and allied subjects, but without
+completing a more traditional graduate degree program in philosophy or theological ethics. Usually
+they have had training in a postgraduate fellowship or a master’s program in ethics. They share
+the aim of clinical ethics, which seeks a right and
+good healing decision and action for a particular
+patient.
+EVOLUTION OF CLINICAL ETHICS AND THE CLINICAL ETHICIST
+After the Nuremberg War Crimes trials the public was revulsed by the knowledge that came to light
+of the Nazi medical atrocities done in the name of
+scientific investigation during the Holocaust. 48,49
+(See Chapter 14, Nazi Medical Ethics: Ordinary Doctors?, and Chapter 15, Nazi Hypothermia Research:
+Should the Data Be Used?, in the second volume of
+Military Medical Ethics, for a further discussion of
+these issues.) The citizenry was also very shocked
+at the public revelation of the Willowbrook50,51 and
+Tuskegee52 studies done by reputable scientists in
+America who seemingly so patently violated
+individual’s rights and freedom. (See Chapter 17,
+The Cold War and Beyond: Covert and Deceptive
+Medical Experimentation, also in the second volume of Military Medical Ethics, for details of American medical ethical lapses.) These revelations presented a whole range of very new and difficult
+moral problems.
+The cultural upheavals of the third quarter of the
+20th century fostered a wide array of social, political, and behavioral changes. The public concern for
+the violations of patients’ rights lead to political
+action with the creation of the National Commission for the Protection of Human Subjects in the
+mid-1970s and the President’s Commission for the
+Study of Ethical Problems in Medicine and Biomedical and Behavioral Research in the early 1980s. The
+Karen Ann Quinlan case publicized the need for
+answers to the problems technology was bringing
+to clinical medicine. 53 (This case is explored further
+in an attachment to this chapter that discusses 12
+important cases in medical ethics.)
+As a result of these new concerns, some responses
+also came from academia. The Institute of Society,
+Ethics, and the Life Sciences was founded at
+Hastings-on-Hudson, New York, by Daniel Callahan,
+and in 1971, the Joseph P. and Rose F. Kennedy Institute for the Study of Human Reproduction and
+Bioethics (now simply called the Kennedy Institute
+of Ethics) was founded at Georgetown University
+by Andre Hellegers (Figure 3-5). These two institutes,
+the first in this country, were established as interdisciplinary enterprises to bring medicine, sociology, anthropology, and philosophy together in the
+study and possible resolution of the problems concerning human values that the extraordinary,
+though often dehumanizing, technical advances in
+medicine, genetics, and other life sciences had
+brought about.
+In some other academic medical centers a few
+faculty members were deeply concerned about the
+depersonalizing and dehumanizing effects of environmental destruction and high technology upon
+patient care and the education of younger physicians and other healthcare professionals. A small
+group of like-minded campus ministers and medical educators in these centers led by Edmund
+Pellegrino (Figure 3-6), then a Professor of Medicine at Yale University Medical School, organized
+the Society for Health and Human Values. This
+group of medical educators and ministers were not
+professional philosophers nor humanists, but they
+believed that if the humanities, with their strong
+emphasis on human values, could be introduced
+Fig. 3-5. Andre E. Hellegers, MD (1926–1979), Founder
+and Director of the Kennedy Institute of Ethics (1971–
+1979), Professor of Obstetrics and Gynecology (1976–
+1979), and Professor of Physiology and Biophysics (1969–
+1979), Georgetown University Medical Center, Washington, DC. Photograph: Courtesy of John Collins Harvey,
+MD, PhD.
+74
+Military Medical Ethics, Volume 1
+into medical education, the destructive effects of
+medical high-technology could be dampened, indeed, if not reversed. 54 The Presbyterian Church’s
+United Ministries on Higher Education, believing
+in the philosophy of this group of faculty, provided
+initial funding for the formation of the Society for
+Health and Human Values. The National Endowment for the Humanities subsequently provided
+funds that enabled the society to assist medical
+schools to develop, organize, and introduce into
+their curricula programs concerned with humanities, human values, and ethics. By the mid-1990s,
+as a result of these efforts over a decade, almost
+every medical school in this country and Canada
+has a formal training program in bioethics, including clinical ethics.
+The concern for consideration of human values
+input into care decisions is now reflected in the directives of the regulating bodies for medical and
+nursing education as well as in the regulations issued by those agencies licensing healthcare instiFig. 3-6. Edmund D. Pellegrino, MD, MACP, John Carroll
+Professor of Medicine and Medical Ethics, Georgetown
+University Medical Center, the “father” of modern medical ethics and the rational voice among the babble of the
+deconstructionists of the postmodern era. Photograph:
+Courtesy of Mimi Levine, Copyright © 1995.
+tutions. In 1983 the American Board of Internal
+Medicine published a statement on Evaluation of
+Humanistic Qualities in the Internist. 55 In 1987 The
+Medical Ethics Subcommittee of the American
+Board of Pediatrics published Teaching and Evaluation of Interpersonal Skills and Ethical Decisionmaking
+in Pediatrics. 56 As of 1995, the Joint Commission for
+the Accreditation of Health Care Organizations
+(JCAHCO) requires of institutions accredited by it,
+clear written policies and procedures concerning
+issues dealing with human values (eg, orders concerning resuscitation, advanced directives, withdrawal of treatment at the patient’s request, and so
+forth); an established mechanism for dealing with
+ethical issues; and the right of patients to participate in decision making concerning their own care
+in accordance with their own values.
+Certainly these developments have spawned others. New organizations have been established, such
+as the Society for Law and Medicine and the Society for General Internal Medicine, to give clinical
+ethicists an opportunity to meet together, exchange
+views across disciplines, and expand their knowledge. Journals such as the Journal of Clinical Ethics,
+the Cambridge Quarterly of Health Care Ethics, and
+the Journal of Medical Humanities, all dealing with
+the subject of clinical ethics, have been founded.
+These give opportunity for clinical ethicists to
+present their ideas and share their experiences in
+the identification, analysis, and resolution of ethical problems they have encountered in practice. The
+journals also serve as a vehicle for the presentation
+of results of research studies in clinical ethics to a
+much wider audience than can be reached by meetings or conferences.
+The very nature of medical decision making demands that moral choices be made all the time.
+Many ethical choices can be made intuitively by a
+patient who utilizes his long-held beliefs, habits,
+and faith commitments in reaching a decision. In
+some cases, however, intuition fails and there is no
+clear answer to the dilemma the patient faces. Occasionally the patient’s intuitions may conflict with
+those of a healthcare professional involved in the
+patient’s care, or with those of a significant person
+in the patient’s family or social circle upon whom
+the patient depends. Sometimes the medical decision demands serious and structured reflection.
+Sometimes the decision must be made immediately
+for the life or death of the patient may depend upon
+the choice for or against a given treatment or intervention. This type of structured reflection must be
+done fairly quickly and at the place of treatment,
+75
+Clinical Ethics: The Art of Medicine
+namely at the patient’s bedside. There is neither
+time nor room for the luxury of lengthy reflection
+and analysis of theoretical issues. This is when the
+services of the clinical ethicist are needed, but who
+should these clinical ethicists be?
+An assumption underlying the idea that moral
+philosophers should be the clinical ethicists is the
+presupposition that moral philosophers with their
+basic knowledge of classical moral theory, their previous studies of ethics, and their expert analytical
+skills and logical thinking are moral experts. Ayer
+rejects the notion of moral expertise:
+It is silly, as well as presumptuous, for any one type
+of philosopher to pose as the champion of virtue.
+And it is also one reason why many people find
+moral philosophy as an unsatisfying subject. For
+they mistakenly look to the moral philosopher for
+guidance. 57
+Caplan believes that expertise in ethics consists
+of knowing moral traditions and theories and in
+knowing how to apply these theories in ways that
+contribute to the understanding of moral problems.
+But he does not believe that this task can be performed only by trained moral philosophers. 58 He
+believes clinical ethicists should be clinicians.
+Macklin rejects these skeptical views. She believes
+that ethical theories are useful in the clinical ethics
+enterprise. She also offers well-reasoned arguments
+that moral philosophers are indeed qualified to deal
+with issues in clinical ethics as well as to make
+sound judgments regarding the dilemmas that patients face. 59 Ackerman also believes that there is a
+place for the moral philosopher in clinical ethics.
+He insists that the moral philosopher has the knowledge of moral theory and the ability to work out
+deductively the implications of these theories for
+human interaction. 60
+In contrast, a purely medical model was developed by Siegler and Singer, both then at the Center
+for Clinical Medical Ethics at the University of Chicago. 61 In this model the staff ethicist is another
+practicing medical specialist-consultant. This physician is well-trained in both medicine and philosophy. The consultant reviews the medical record,
+examines the patient at the bedside, meets the appropriate family members and makes a record of
+the visit, findings, and recommendations in the
+patient’s chart.
+Occasions requiring ethics consultation are occurring with increasing frequency in our evermore
+technologically-complicated healthcare enterprise.
+Indeed the American healthcare enterprise has created the need for many more trained clinical ethicists to meet the current demands for analysis and
+advice regarding value judgments in treatment decisions. This is why clinical ethics has surely come
+of age so quickly.
+METHODS OF CLINICAL ETHICS
+Clinical ethics is distinctive because it begins
+with the physician–patient encounter at the bedside
+and ends in a practical judgment that has bearing
+upon the particular patient. It is an essential part
+of clinical reasoning. This method of identifying,
+analyzing, and resolving the ethical issue raised is
+altogether consistent with the clinical evaluation of
+any issue in patient care and is essential in order to
+anchor the decision. Thus, the ethics “workup” is
+identical to the medical “workup” of the patient. 62
+(See Exhibit 3-2 for an example).
+All of the facts pertinent to the question are
+sought. These include the diagnosis, prognosis, and
+therapeutic options; the chronology of events and
+time constraints on the decision; reasons supporting claims and goals of current care; and an understanding of the patient’s home situation, social milieu, and familial relationships. The specific ethical
+issue is identified. Often it turns out that the perceived issue is not an ethical one at all, but rather a
+simple miscommunication, a legal issue, or a problem related to an economic matter or an administrative ruling.
+For analysis the ethical issue must then be framed
+in terms of several broad areas of concern representing aspects of the case that may be in ethical
+conflict. It is useful, although somewhat artificial,
+to dissect the case apart along the lines of the following areas of concern: the appropriate decision
+maker must be identified and the criteria to be used
+in reaching clinical decisions must be considered,
+namely the specific biomedical good of the patient,
+the broader goods and interests of the patient, and
+the goods and interests of other parties.
+In considering the biomedical good of the patient
+one should identify those treatments that will advance this good. In addition one should seek options of treatment that will also likely have favorable outcomes for the patient. One should explore
+factors in the broader aspects of the patient’s good
+such as the patient’s dignity, religious faith, other
+valued beliefs, relationships, and the particular
+76
+Military Medical Ethics, Volume 1
+EXHIBIT 3-2
+ETHICS WORKUP
+I.
+What are the relevant clinical facts?
+A.
+Diagnosis, prognosis, and natural history of each major disease.
+B.
+Treatment options for each major disease.
+1.
+Are they effective (ie, alter the natural history of the disease)?
+2.
+Are they of benefit to the patient (ie, good in the patient’s terms)?
+3.
+Are effectiveness and benefit proportionate to the burdens?
+C.
+State the probabilities, degrees of certainty or uncertainty, for each treatment option.
+II.
+What are the clinical facts of special ethical relevance? Is the patient:
+A.
+Terminal?
+B.
+Brain damaged?
+1.
+In a chronic vegetative state?
+2.
+Brain dead?
+C.
+Ventilator dependent?
+D.
+Incapable of making decisions?
+E.
+Dependent on artificial feeding?
+III.
+What are the ethical issues?
+A.
+Procedural ethics.
+1.
+Who should decide?
+a.
+Patient?
+b.
+Living will?
+c.
+Surrogate?
+2.
+Are there conflicts among decision makers (patient, family, physician, nurses, guardians,
+administrators)?
+3.
+Is the conflict ethical? Can it be resolved?
+4.
+How should the conflict be resolved?
+B.
+Substantive ethics.
+1.
+What ethical duties or principles are at issue (autonomy, justice, beneficence, confidentiality,
+truth telling, promise keeping, fidelity to covenant)?
+2.
+Are these in conflict?
+3.
+What are the ethical obligations of the health professional?
+4.
+Are the conflicts resolvable?
+a.
+Between principles, duties, virtues?
+b.
+Between obligations?
+5.
+How should the conflict be resolved?
+IV.
+On basis of the above clinical facts and ethical issues, what is your ethical decision?
+A.
+Give the ethical reasons for your decision.
+B.
+Give the ethical reasons against your decision.
+C.
+How do you respond to reasons against your decision?
+V.
+In consideration of all of the above, make your recommendation.
+Source: Edmund D. Pellegrino, MD, John Carroll Professor of Medicine and Medical Ethics, Center for Clinical Bioethics,
+Georgetown University Medical Center, Washington, DC.
+77
+Clinical Ethics: The Art of Medicine
+good of the patient’s choice. These considerations
+are very pertinent to the decision at hand. Also, attention must be paid to the goods and interests of
+others in the distribution of resources. The concerns
+of other parties, for instance, family, healthcare professionals, healthcare institutions, the laws, and the
+greater society, must be taken into consideration.
+Exploration must be made of any differences morally that these considerations make in the decisions
+concerning this particular case. It is important to
+note that in deciding about the individual case these
+concerns of the other parties generally are not given
+as much weight as that afforded the good of the
+individual patient whom the health professionals
+have pledged to serve.
+In framing the issue the physician must explain
+the medical options to the patient or surrogate and,
+if indicated, make a recommendation or recommendations. The patient or surrogate makes an
+uncoerced informed decision. Limits to the patient’s
+or surrogate’s autonomy include: (a) the bounds of
+rational medicine, nursing, and social work; (b) the
+probability of direct harm to identifiable third parties; and (c) the violation of the consciences of involved healthcare professionals. In problematic
+cases the interdisciplinary team may meet to ensure
+consistency in their recommendations to the patient
+or surrogate. In addition, each healthcare professional must establish clearly his professional and
+moral obligations to the patient, the healthcare team
+members, the healthcare institution, and other third
+parties. Certainly conflicts can occur between or
+among any or all of these people. Among the potential sources of conflict are the63:
+• definition of patient’s “good”;
+• effectiveness of the treatment, or the benefit/burden ratio;
+• economics and quality of life assessments;
+• philosophical and/or religious beliefs;
+• cultural and ethnic differences;
+• physician as patient advocate or social servant or gatekeeper; and
+• concept of patient–physician relationship.
+In clinical ethics, as in all other aspects of clinical care, a decision must be made. There is no simple
+formula. The answer will require clinical judgment,
+practical wisdom, and oral argument. The healthcare professional must ask himself: “What should I
+do? Where can I get help?” He must analyze the data,
+reflect on it morally, and draw a conclusion. The
+healthcare professional must be prepared to explain
+the decision recommended and the moral reasons
+for it. Sources of justification include the nature of
+the relationship between the patient and the
+healthcare professional; compatibility of the recommended course of action with the aims of the profession (internal morality of medicine); approaches
+to ethical inquiry, namely principle-based ethics,
+virtue-based ethics, casuistry, deontology, or theological ethics, and so forth; and the grounding and
+source of ethics based in reason (philosophical), in
+faith (theological), or in custom (sociocultural).
+The final part of the ethics work up is the critique. The decision that has been made should be
+evaluated by considering major objections to it.
+Then one should either respond adequately to these
+or change the decision. Input of the healthcare
+worker’s other colleagues should be sought when
+time permits. Some cases can even be taken to an
+ethics committee for further reflection. Retrospective analysis is also useful in preparing “for the next
+time” such a situation is encountered.
+ETHICS CONSULTATION AND ETHICS COMMITTEES
+Ethics consultation has become a routine activity in healthcare. It has several goals. La Puma and
+Priest suggest that the primary goal is to “effect
+ethical outcomes in particular cases and to teach
+physicians to construct their own frameworks for
+ethical decision making.”64(p17) John Fletcher identifies four goals of ethics consultation. These are:
+(1) to protect and enhance shared decision making in the resolution of ethical problems; (2) to prevent poor outcomes; (3) to increase knowledge of
+clinical ethics; and (4) to increase knowledge of self
+and others through participation in resolving
+conflicts. 65
+The Clinical Ethicist
+The clinical ethicist has service responsibilities.
+The ethicist may serve as a consultant when called
+in to a case by any member of the healthcare team,
+the patient, or the patient’s surrogate. The clinical
+ethicist’s task as a consultant is first to review and
+analyze carefully the patient’s record and to collect
+any other facts that are pertinent to the questions
+raised by the individual who has called for the consultation. Then the clinical ethicist must clarify issues that are raised by one or another of the above
+individuals, explicate normative ethics, and clarify
+78
+Military Medical Ethics, Volume 1
+misinterpretations of institutional policies pertinent
+to the problems of the particular patient. Finally the
+clinical ethicist must give a considered opinion regarding the question that was raised. This is usually done in a group meeting with members of the
+healthcare team that may or may not include the
+patient or the patient’s surrogate. The task of the
+clinical ethicist is not to make a decision or a ruling. The task is purely advisory—to render an ethical opinion on the question that has been raised.
+When the clinical ethicist is called into consultation by any of the members of the healthcare team
+(other than the physician-in-charge of the case) or the
+patient or the patient’s surrogate, it is imperative
+that the clinical ethicist contact the physician-incharge to inform him that the consultation has been
+requested and will be accomplished. This courtesy
+is necessary because in all healthcare institutions
+the physician-in-charge has the final responsibility
+for the patient while that patient is in that particular institution. It is always the physician-in-charge
+who is the physician of record and as such under
+the healthcare institution’s governance structures
+always has the final authority as long as he remains
+the physician of record for that particular patient.
+Ethics Committees
+The clinical ethicist also has a responsibility to
+serve as a member of the institution’s ethics committee. Ethics committees are a recent development
+in the healthcare enterprise. The concept of an ethics committee was introduced by the Supreme Court
+of New Jersey, which in its decision in the Quinlan
+case66 pointed out that the courts are really not the
+place to settle ethical questions in the clinical care
+of a patient. The decision handed down said that if
+disputes in the care of patients cannot be resolved
+among the various healthcare providers, the patient,
+and the patient’s surrogate, those disagreements
+concerning ethical issues should be referred to the
+institution’s “ethics committee” for clarification and
+advice. This was the genesis of the concept of an
+ethics committee in a healthcare institution. 67
+Now ethics committees are a part of the governance structure of most healthcare institutions.
+Guidelines for their operations in hospitals were put
+forth by the Judicial Council of the American Medical Association. 68 They are discussed by the Joint
+Commission for the Accreditation of Health Care
+Organizations in their accreditation manual. 69 The
+committee is usually composed of members of the
+staff from different disciplines (medicine, nursing,
+social work, pharmacy, and pastoral ministry, for
+example) in addition to the clinical ethicist in the
+healthcare facility, if the facility has an ethicist.
+Some institutions have respected, virtuous members of the community it serves as members of the
+committee. Such membership, however, creates
+some concerns for the issue of confidentiality. Some
+institutions also include the institution’s legal counsel in the membership of its committee.
+This latter practice is questionable. Often the legal counsel has loyalties to the institution first and
+foremost so the attitude and opinion taken by counsel in the deliberations of the committee may reflect the best interests of the institution rather that
+those of the patient. It is a common axiom that what
+is legal is not necessarily moral and what is moral
+is not always legal. This conflict of interest can be
+avoided by not appointing the legal counsel to
+membership on the committee. The counsel can review the activities of the ethics committee and give
+advice on them to the chief operating officer directly. In this way he serves properly as a staff officer in the administrative structure.
+The ethics committee in any institution may have
+many different functions depending upon the
+charge given to it by the governing authority. Usually these committees will service institutions well
+by reflecting carefully upon the foundations
+of medicine, healthcare delivery, and heathcare
+institutions. They help articulate the values operative in contemporary medicine and, hence, their implication for medical practice, through the development of policies for the healthcare institution,
+consultation for healthcare seekers and providers,
+and education for the institution, individuals, and
+the community. They may help to resolve some of
+the difficult issues presented, particularly at the
+edges of life. However, their broad mandate goes
+beyond death and dying and is a place for the reflection and articulation of the intrinsic values of
+medicine and healthcare delivery in contemporary
+society. In sum they: (a) educate staff and patients,
+(b) assist in developing institutional policy, (c) provide a nonjudicial mechanism for the review and
+resolution of cases involving conflicts, and (d) directly influence patient care decisions. 70 Some commentators4,71 have cautioned that committees overstep their bounds, however, when they begin to
+participate in patient care decisions. These commentators strongly recommend that ethics committees
+should be advisory only. Siegler concurs, stating
+that definitive medical decisions must be the responsibility of the attending physician or surgeon. 72
+79
+Clinical Ethics: The Art of Medicine
+In providing assistance to resolve conflicts in
+cases in the institution, the ethics committee does
+ethics consultation. This work can be either a retrospective or prospective analysis. This model of ethics consultation differs from the Chicago model
+previously described. The advantage of the group
+over the single consultant, the ethicist, is that it can
+give a plurality of thought to the problem and gives
+a joint opinion. The committee can give advice that
+is the best-considered judgment of the members of
+the committee, but of course the advice is not necessarily a unanimous opinion of all members of the
+committee. It must be remembered that opinions
+for the solution of ethics questions are not matters
+to be settled by a majority vote. On the negative
+side, mobilizing a large committee is time consuming. It is also hard for a large group to meet at the
+patient’s bedside. In addition a large, relatively
+impersonal, group may be intimidating to the patient and family.
+The committee may not wish to do this consultative work as a committee of the whole. It may
+designate a few of its members on a rotational basis (always including among them, however, the
+institution’s ethicist, if there is one) as a subcommittee to meet with the healthcare team members,
+the patient, and the appropriate family members.
+This mixed model of consultation offers some advantages. It is smaller. It can respond rapidly. It may
+meet easily at the patient’s bedside. It is also potentially less intimidating to the patient and family
+than the larger group may be.
+CLINICAL ETHICS RESEARCH AND TEACHING
+Clinical Ethics Research
+Research in clinical ethics aims to describe and
+evaluate the ethical considerations in current clinical practices. (See Chapter 4, The Science Behind
+the Art: Empirical Research on Medical Ethics, for
+a further discussion of research in this field.) Singer
+(now at the University of Toronto), Siegler, and
+Pellegrino73 describe three essential elements of this
+research: (1) it focuses on the content of clinical ethics; (2) it does not have a unique method but employs the methods of a diverse array of disciplines
+including philosophy, theology, law, social sciences,
+decision analysis, and clinical epidemiology among
+others; and (3) it produces and disseminates new
+knowledge through scholarly publication.
+Clinical ethics research can be divided into two
+broad categories—theoretical and empirical. Theoretical research tries to identify conceptual issues
+and coherent arguments for defensible recommendations for ethically acceptable practice. A good
+example of the former is Sulmasy’s consideration
+of the specific values of clinical medicine. 74 Empirical research involves the collection and analysis of
+clinical data describing the way clinical decisions
+are made, the values that are used, and where, by
+whom, and under what conditions. Empirical studies do not resolve normative ethical issues of what
+action is right or wrong in a particular circumstance.
+They can, however, contribute to a better understanding of the normative issues that lie at the heart
+of clinical ethical dilemmas. The study75 that
+Sulmasy and his colleagues have done on the education of house officers in clinical ethics is a good
+example of this type of empirical research in clinical ethics. In clinical ethics theoretical and empirical research are synergistic.
+Clinical Ethics Teaching
+The goal of teaching clinical ethics is to improve
+the quality of patient care in terms of both the process and outcome of care. The necessity of teaching
+clinical ethics rests in the unchangeable fact that any
+medical decision involves two components—a technical decision requiring the application of knowledge of basic and clinical sciences to the patient’s
+current problem and a moral component demanding that the technically correct decision be also
+morally defensible. The technical component tells
+us what can be done medically; the moral component tells us what ought to be done for this particular patient. In the paternalistic practice of medicine
+of the past, the choice of therapy was regarded as
+synonymous with the medical good of the patient.
+This assumption no longer obtains. The objective
+determination of the patient’s medical needs now
+must be reconciled with the patient’s values and
+perceptions of what is good and with the patient’s
+life situation, religious beliefs, and ethnic and cultural values (Figure 3-7).
+To accomplish these goals Pellegrino, Siegler, and
+Singer76 insist that both cognitive and behavioral
+aspects of ethics should be taught. The cognitive
+skills include recognition and definition of the ethical issues; identification of the principles, duties,
+or obligations involved; clarification of real or potential conflicts among principles; ways of resolv80
+Military Medical Ethics, Volume 1
+Signs and symptoms in this patient
+Observation
+Cost of error
+Diagnostic possibilities
+Ancillary 
+data
+Disease
+patterns
+Diagnostic probabilities
+Most probable diagnoses
+Diagnostic closure
+0
+Level of
+Certitude
+1. 0
+What can be wrong?
+Fig. 3-7. (a) What questions must be addressed
+and with what reasoning modes? When a person
+becomes a patient, a whole series of questions becomes crucial for him or her as a knowing and
+valuing being. What is wrong? Is it serious? What
+will it mean to me? Can it be cured, and by what
+means? Is the cure worthwhile? What will it cost?
+What should I do? These and corollary questions
+must be addressed if the process of clinical judgment is to be a complete and authentic medical
+judgment. They are reducible to three generic questions: What can be wrong? What can be done? What
+should be done for this patient?
+Fig. 3-7. (b) What can be wrong? This is the diagnostic and classificatory question. Given the signs
+and symptoms presented by this patient, what
+classificatory patterns fit best? Which is most
+probable, and with what degree of certainty? The
+input data of signs and symptoms must be reliably observed, standardized, and specified; the
+classificatory patterns must be equally reliably determined. Diagnostic closure can be obtained
+[when] all essential criteria for a diagnosis have
+been met. These rigorous conditions are only
+rarely satisfied in clinical reality. Since clinical
+medicine deals with individuals, decision theory
+must also take into account the specificity of individual bodies—a difficult if not impossible task.
+Thus, even when the rules of probabilistic logic
+are rigorously applied, the diagnostic conclusions
+are still open to question.
+What can be wrong — What can be done?
+What should be done 
+for this patient?
+"Right" action
+Cost of error
+Cost of error
+What should be done?
+Fig 3-7. The anatomy of clinical judgments. Adapted with permission from Pellegrino ED, Thomasma DC. A Philosophical Basis of Medical Practice. New York: Oxford University Press; 1981: 125–135.
+ing such conflicts; attainment of a moral choice; formulation of objections to such choice and reasons
+for the objections; and formulation of counterarguments for modification of the decision on the
+basis of these considerations. Behavioral skills are
+also needed to be effective in caring for patients.
+Physicians are expected to know how to deal with
+patients and families in a thoughtful and sensitive
+way when they initiate discussions that have life
+and death import.
+Besides the cognitive knowledge and behavioral
+skills, Pellegrino and colleagues76 point out that attention must be paid to the kind of a person the
+physician should be. Some development of the
+physician’s character is in order. Ethics demands
+that the physician should be a virtuous person who
+81
+Clinical Ethics: The Art of Medicine
+Fig. 3-7. (c) What can be done? This is the therapeutic question. Once some decision has been
+made about the nature of the patient’s problem,
+what kinds of actions could be taken to remove
+or ameliorate the probable disorder? The choice
+of what action to recommend involves far more
+questions of value than diagnosis. The closer we
+come to the end of the process of clinical judgment—the right action—the less useful and less
+available is the scientific model. Reasoning becomes, in smaller part, scientific and probabilistic, and in larger part, dialectical—arguing one
+alternative against another without recourse to
+new factual data.
+Fig. 3-7. (d) What should be done for this patient?
+Once it is decided what the probable diagnosis
+is, and what treatment can be expected to be most
+effective and least harmful, the final question in
+clinical judgment is, should the treatment be used
+with this patient, and what alternatives can be
+offered? The right action—the best one for a given
+patient—is not always synonymous with the logically or scientifically deduced action. The last
+question in the sequence then—what should be
+done?—the capstone question, which completes
+the whole structure, is the most prickly. Scientific and semiscientific conclusions of varying degrees of certitude are examined under a light
+strongly tinged with moral hues. The accessibility of the questions to scientific modes of reasoning declines, as does the degree of certitude, as
+we move from determining what is wrong, to
+what can be done, to what should be done. The
+optimization of several kinds of uncertainty remains a central concern even when the conclusions are scientifically defensible.
+What can be done?
+Body of scientific therapeutic 
+knowledge
+This patient's 
+probable disorder
+Effectiveness
+Toxicity
+Treatment
+Alternatives
+Recommended action for this patient
+Palliative
+Preventive
+Radical Rx
+What should be done?
+Recommended action for this patient
+Physician's values: 
+What he deems 
+"good" and "worthwhile"
+Patient's values: 
+What he deems 
+"good " and "worthwhile"
+Ethical persuasion and manipulation
+What must not be done What must be done What should/may be done
+"Right" action
+Consent
+is honest, trustworthy, caring, compassionate, and
+self-effacing, and who always puts his patient first
+before all else. Virtue or character is hard to teach. 77
+This makes the virtuous and ethical physician role
+model essential to the enterprise.
+Pellegrino, Siegler, and Singer further emphasize
+that the teaching of clinical ethics should be integrated into all levels of medical school teaching, in
+the residency and fellowship training, and in continuing education of physicians. They insist that it
+be clinically based, case focused, continuous over
+the medical curriculum, coordinated with other
+subjects taught, and should have the active participation of clinicians. 76(pp177–178) Medical schools are for
+the most part incorporating ethics training into their
+curricula. In the preclinical years, usually a formal
+82
+Military Medical Ethics, Volume 1
+course in ethics is presented concerning the philosophical foundations of ethics. It is case based. In
+the clinical years, ethical aspects of case presentations may be considered on regular rounds, in grand
+rounds, and in case conferences on each of the major
+clinical services. In the residency experience, clinical ethics is best taught by supervised experience,
+increased responsibility, and discussion at rounds.
+The best teacher of behavioral skills and character traits is a good and virtuous practicing physician. Such a physician is an excellent role model for
+the younger physician. Such a physician in this day
+and age, however, is usually not able to articulate
+the philosophical foundational aspects of clinical
+ethics necessary to teach the cognitive aspects. Now
+increasingly such practicing physicians are getting
+formal training in ethics in various programs that
+the bioethics centers established in medical centers
+in the past two decades now offer. The Kennedy
+Institute of Ethics at Georgetown University has
+presented a short intensive introductory course in
+bioethics for the past 20 years. Many physicians
+have taken advantage of this opportunity for basic
+learning. The Center for Clinical Ethics at the University of Chicago has trained approximately 30
+physician-fellows in the past decade who have returned to appointments in 17 medical centers in the
+United States and in Canada. 76(p179) Excellent programs for the practicing physician are also presented by many other centers. Among these are the
+Medical Humanities Program at Michigan State
+University; the Department of Human Values and
+Ethics at the College of Medicine, University of Tennessee; the Center for Biomedical Ethics at the University of Minnesota; the Department of Humanities at the College of Medicine, Pennsylvania State
+University (The Milton S. Hershey Medical Center);
+and the Medical Humanities Program at Vanderbilt
+University, Nashville, Tennessee.
+Physician-ethicists, of course, are not the only
+individuals who can teach clinical ethics. Trained
+philosopher-bioethicists who are comfortable in the
+clinical setting are up to this task and have much to
+contribute on clinical rounds and at the bedside.
+Increasingly nurses, medical social workers, and,
+to a lesser extent, pharmacists are being trained in
+clinical ethics, usually in masters degree granting programs in medical humanities such as the ones referred
+to previously. These individuals also can effectively
+teach clinical ethics. They bring a refreshingly different attitude and viewpoint to the bedside that is
+very beneficial in its wider horizon related to
+healthcare than the purely medical one.
+There are obstacles to overcome in teaching clinical ethics in medical schools. The modern medical
+curriculum is very full. There is precious little time
+to add new subjects; the other disciplines do not
+like to relinquish any of their allotted time for teaching. The 20 to 25 hours of formal course work in
+biomedical ethics that is allotted in most medical
+schools in the preclinical areas is barely enough time
+to cover the field adequately. The teaching of clinical ethics as a natural part of case discussion can be
+very well incorporated into bedside teaching in the
+clinical years and in residency training. The obstacle
+here is the lack of clinicians formally trained in clinical ethics to teach it properly. Many clinicians feel
+that they can teach clinical ethics, and indeed well,
+because they consider themselves to be basically
+virtuous and ethical persons. While they may be
+good role models because they may intuitively act
+ethically at all times, for the most part they do not
+have adequate education in the skills of ethical
+analysis and self-critical examination. A very serious obstacle for the teaching of clinical ethics
+also comes from the basic scientists and those clinicians whose philosophy of medicine is primarily
+based on the biological model. 78 If one cannot, as
+Pellegrino says, “weigh, smell, feel, measure, and
+subject knowledge to observation and experimentation, it is not knowledge but merely opinion and
+therefore not worth teaching.”79
+The basic curricular goals for medical ethics were
+considered by a group of prominent medical ethicists in a conference held at the Medical School of
+Dartmouth College in July of 1983. A full report of
+that conference was published in the New England
+Journal of Medicine in 1985. 80 This group of ethicists
+felt that clinical ethics had been sufficiently developed and the need for ethical knowledge and skills
+in medicine sufficiently compelling to justify their
+recommendation that all medical schools require
+basic instruction in the subject. They reasoned that
+the basic curriculum should go beyond just sensitizing students to ethical problems in medicine.
+They insisted that the curriculum should provide
+the students with “the conceptual moral-reasoning,
+and interactional abilities to deal successfully with
+most of the moral issues they would confront in
+daily practice”80(p253) as physicians.
+This group of medical ethicists suggested that the
+basic curriculum should include certain items described in terms of abilities that the group felt every
+practicing physician should have. These abilities
+were: to identify the moral aspects of medical practice; to obtain a valid consent for, or a valid refusal
+of, treatment; to have knowledge of how to proceed
+if a patient is only partially competent or incompe83
+Clinical Ethics: The Art of Medicine
+tent to consent to or refuse treatment; to have
+knowledge of how to proceed if a patient refuses
+treatment; to decide when it is morally justified to
+withhold information from a patient; to decide
+when it is morally justified to breach confidentiality; and to have knowledge of moral aspects of the
+care of patients with a poor prognosis, including
+patients who are terminally ill. This report has had
+a lasting effect upon American medical education.
+Now almost all the medical schools in this country
+teach, in some form or other, clinical bioethics
+courses that include these topics among others.
+House staff have to deal on a day-to-day basis
+with the many difficult and pressing ethical problems that earlier generations of house staff and their
+physician-mentors never had to deal with. The
+marvelous advances in medical technology in the
+last half of the 20th century have had a twofold effect in medicine. They have given us the power to
+treat and cure many formerly untreatable and incurable conditions but they have also brought with
+them many new clinical ethical problems that must
+be considered and solved. On a daily basis, house
+staff, working with attending physicians, must recognize, evaluate, and resolve clinical-ethical dilemmas. (See Figure 3-7, which details a suggested process to handle these dilemmas.)
+Medical educators also have increasingly recognized the importance of teaching clinical ethics in
+postgraduate medical training. The American Board
+of Internal Medicine emphasized that there is “a major responsibility of those training residents in internal medicine is to stress the importance of the
+humanistic qualities in the patient/physician relationship throughout the residency. The certification
+process must assure that this responsibility has been
+undertaken.”81(p722) To this end, not only in internal
+medicine, but in residency training programs of
+other clinical disciplines such as critical care medicine, anesthesiology, surgery, obstetrics/gynecology, pediatrics, neurology, and neurosurgery, training programs in clinical ethics have been developed.
+In many academic medical centers such educational
+programs in clinical ethics take the form of “ethics
+rounds.”82,83
+Kong, Singer, Lynch, and Siegler84 have described
+in great detail ethical teaching rounds on the Obstetrical Service of the Toronto Western Hospital associated with the Medical School of the University
+of Western Ontario, Canada. Such rounds are led
+by a physician-ethicist faculty member on a weekly
+or biweekly schedule. Attendance of all residents,
+interns, and medical students assigned to the service is expected. Often present, too, are members
+of the “clinical team”—nurses, social workers, other
+healthcare personnel dealing with the particular
+patient under discussion such as rehabilitation technicians, respiratory therapy technicians, and dietitians, and members of the pastoral care service. The
+goal of these rounds is to examine and evaluate in
+a systematic way the ethical concerns arising in the
+care of a particular patient. As a result, practical and
+immediate clinical ethical problems, perceived or real,
+may be identified by any member of the care team.
+Different ethical approaches to the topic may be
+considered. Various suggestions for ethically sound
+resolution may be offered by the attendees. The physician-ethicist conducting rounds acts as a general
+resource person. Such leadership assures that appropriate ethical theories are considered, queries are
+answered, pertinent landmark cases from the literature are brought to the attention of the participants,
+all various ethical positions are examined fully and
+critically, legal concerns are addressed, and actions
+suggested by the house staff and students for handling the ethical dilemmas are thoughtfully discussed and critiqued. In this way clinical ethics may
+be brought into the resident training program of any
+clinical service in a way that is familiar and “feels
+natural” to the house staff and students.
+ISSUES IN CLINICAL ETHICS: PRECEDENT SETTING CASES
+Situations do arise, and now not infrequently, in
+clinical practice that result in disagreements between the physician and patient, between the patient and a significant family member, among members of the healthcare team, or between the patient
+and the healthcare institution providing for care.
+This is particularly true now in the so-called “age
+of autonomy.” When “paternalism” was the ruling
+ethos in medical practice and when nursing ethics was
+defined in 1893 by Lavinia Dock, RN (Exhibit 3-3),
+one of the leading educators in nursing, as:
+the nurse’s whole duty, loyalty and obedience begins and ends in subordination to the doctor. Beyond this, there is no horizon, and outside of this,
+she has no reason for existing…. 85(p41)
+then caring for patients seemed to many physicians
+much easier than at present. When disagreements
+do arise attempts to resolve them may be made by
+consultation with a clinical ethicist or the institution’s ethics committee. Often it turns out that
+perceived differences result from poor communi84
+Military Medical Ethics, Volume 1
+cation between or among patient, family members,
+attending physician or members of the healthcare
+team. An ethics consultation can often expedite
+communication or clarify issues for better understanding on the part of all the parties so that resolution of the conflict may be obtained.
+In the literature of clinical ethics there have been
+many complicated cases reported where the suggestions for the resolution of differences between
+and among the contending parties have aroused
+widespread admiration and won high praise from
+healthcare professionals and other clinical bioethicists. The wisdom embodied in the solutions of
+these specific cases has been precedent setting. Such
+cases also have become paradigm cases. These cases
+are often referenced by clinical ethicists. Such cases
+form a “corpus of precedents” and are cited in opinions that clinical ethicists may render when asked
+to assist in the resolution of controversies concerning
+the good and right medical choices for this patient
+at this time under these particular circumstances.
+These cases are the paradigm cases frequently
+utilized by clinical ethicists in attempting to give
+opinions for the resolution of conflicts that appear
+to be similar—a modern day recovery of casuistry.
+These are the landmark cases with which every
+clinical ethicist should be familiar. The issues raised
+in these cases touch upon many of the important
+areas in clinical bioethics today.
+How are these cases resolved? What are the processes and concepts involved? What can can be
+learned from them? First, one must understand that
+EXHIBIT 3-3
+LAVINIA DOCK, RN
+Lavinia Dock, RN, was graduated from the Bellevue Hospital’s School of Nursing in 1886. She was one of
+the founders of public health nursing in New York City. At one time in her long career she became assistant
+to Isabelle Hampton Robb, RN, the Superintendent of Nurses at the Johns Hopkins Hospital. There, in
+collaboration with M. Adelaide Nutting, RN, she wrote the first definitive history of nursing—A History of
+Nursing: The Evolution of Nursing Systems from the Earliest Times to the Foundation of the First English and
+American Training Schools for Nurses. 1 In a publication she wrote on nursing ethics she said: “The wonderful
+thing about the study of ethics…is that it has no end. It expands indefinitely as we go forward in it.… so
+will our consciences not allow us to remain contented, today with the little duties which yesterday satisfied
+us…”2(p56) Were she alive today, she would most certainly be in the forefront of the movement that nursing is
+an independent profession with its own ethics. She would be quite supportive of the abandonment of the
+concept of paternalism in health care and would be a great proponent of autonomy as most leaders in the
+field of nursing are today.
+(1) Nutting MA, Dock LL. A History of Nursing: The Evolution of Nursing Systems from the Earliest Times to the Foundation of the
+First English and American Training Schools for Nurses. New York: Putnam; 1907. (2) Dock LL. Ethics or a code of ethics? In:
+Short Papers on Nursing Subjects. New York: ML Longway; 1900: 37–57.
+just as there are limits on what physician’s may do,
+there are also limits on what patient’s may do, or
+request be done. For instance, neither the patient
+nor the physician can intentionally harm third parties. In addition, a patient cannot insist that a physician act in a manner that would violate the
+physician’s moral beliefs. And a patient should not
+ask a physician for assistance in committing suicide.
+At the same time, the physician is constrained from
+practicing “therapeutic privilege” (the withholding
+of information deemed harmful to the patient) even
+though there may be times when a physician believes that the information may be very distressing
+for the patient.
+From this discussion one can see that the “internal” morality of medicine, maintained through the
+centuries, structures the limits of what can and cannot transpire within the patient–physician relationship. Understanding these limits, then, allows us
+to examine the processes involved in resolving these
+cases.
+The foremost issue is whether the patient is competent to understand the medical situation and be
+an active participant in whatever decisions must be
+made. Competency can be difficult to discern from
+a brief interaction. A patient who is able to respond
+to others in casual conversation or make simple
+decisions may not necessarily understand more
+complex issues. If, in the process of evaluating a
+patient’s competency, it becomes apparent that the
+patient is not competent to be an active and informed participant in medical decisions, then a
+85
+Clinical Ethics: The Art of Medicine
+morally valid surrogate must be found to act on
+behalf of this patient. Figures 3-8 and 3-9 detail this
+decision process.
+However, if all in-house resources available to
+reconcile differences between and among patient,
+physician, members of the patient’s family, members
+of the healthcare team, and institution are exhausted
+without resolution, then the matter must be handled
+as a legal dispute and referred to the courts. There
+have been a large number of such disagreements in
+the past 30 years that have come to legal resolution. Many of these cases also involve some of the
+most contentious areas of clinical bioethics. The
+opinions handed down by the courts in these cases
+No
+No
+No
+No
+Is the patient capable of 
+making medical decisions?
+Is the patient's incapacity 
+temporary?
+Was the patient ever 
+capable of making 
+medical decisions
+Can the medical decision 
+be postponed until the 
+patient regains capacity
+Did the patient document 
+decisions through an 
+advance medical directive?
+Is the current medical 
+situation addressed 
+by the advance 
+medical directive?
+The patient decides.
+Wait for the patient 
+to decide.
+The patient's prior 
+decision prevails.
+A surrogate is needed.
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+No
+No
+Fig. 3-8. Determination of patient capacity to make decisions regarding medical care. This schematic presents the
+process of determining whether or not a patient is capable of making informed medical choices or needs a surrogate
+decision maker. A key component of this process is an assessment not only of the patient’s present capacity, but also
+whether or not the patient might be capable at some point in the future of participating in an informed choice. An
+obvious example of a temporary incapacitation would be that of someone under the influence of alcohol or drugs
+who could reasonably be expected to return to a functional state in a matter of hours. When a patient is not presently
+capable of making decisions, nor likely to be capable in a timely manner, or at all, in the future, then it becomes
+necessary to determine what the patient would have wanted done. If the patient’s previously stated desires can be
+ascertained, they should be followed, to the extent allowed by law. Although the schematic might give a sense of
+order to the process, each situation is unique. However, by understanding the process for making these decisions, all
+participants can be better assured that decisions made about patient care, by whomever they have been made, have
+been made in the best manner possible.
+Source: Thomas E. Beam, MD, Colonel, Medical Corps, United States Army; Ethics Consultant to The Surgeon General, United States Army; Director, Borden Institute, Walter Reed Army Medical Center, Washington, DC 20307-5001.
+have also added to the “corpus of precedents.” Because the opinions rendered in these cases have
+been so clear, logical, full of practical wisdom, and
+considered just by professional healthcare workers,
+clinical ethicists, and the public at large, they are
+frequently also referenced in suggested resolutions
+offered by clinical ethicists when called upon to
+assist in conflict resolution. Table 3-1 gives a brief
+summary of some of the important cases in the “corpus of precedents” of cases in clinical ethics.
+The following list of landmark cases, however,
+are those most widely known and referenced in bioethics, and are presented in greater detail in the
+Attachment following this chapter.
+86
+Military Medical Ethics, Volume 1
+Yes
+Yes
+Yes
+Yes
+Yes
+Yes
+Has the patient 
+designated a 
+ surrogate?
+Is the surrogate 
+willing to act as 
+the decision 
+maker?
+Is the surrogate 
+mentally capable 
+of making 
+decisions?
+Does the 
+surrogate know 
+the patient's 
+values?
+Can the surrogate 
+overcome any 
+emotional conflict 
+in making the 
+decision?
+The surrogate is 
+appropriate and 
+can decide for 
+the patient.
+Can the surrogate 
+overcome any 
+conflict of interest?
+Is there an available 
+legally recognized relative?
+Select the relative 
+with the highest 
+standing 
+according to 
+the law of the 
+local jurisdiction.
+Petition for a 
+court appointed 
+guardian.
+No
+No
+No
+No
+No
+No
+No
+Go to
+Yes
+Fig. 3-9. Selection of a surrogate decision maker. This
+schematic details the sometimes complex process of determining who should function as a surrogate decision
+maker. These decisions are
+made in the context of what
+the patient wants, had wanted,
+or would have wanted. As
+difficult as the process is to
+judge whether or not someone needs a surrogate, it is all
+the more difficult to ascertain
+who that surrogate should
+be, especially if the patient
+has not previously selected a
+surrogate. The selection of a
+surrogate involves both legal
+and emotional complexities.
+The legal aspects involve determining order of succession
+to ascertain who has the most
+immediate legal right to act
+on behalf of a patient who is
+not capable of making decisions about medical care. The
+emotional aspects involve determining if that individual
+will not only consent to function as a surrogate, but is
+mentally capable, as well as
+knowledgable of the patient’s
+desires, while not in conflict
+either emotionally or financially with the outcome of the
+decision to be made. In the
+event that the first legal surrogate is unwilling or unable
+to function for the patient, the
+“go to” loop in the process is
+activated, to then repeat the
+evaluation of the next individual in the legal lineage. If
+no one within that lineage is
+capable, then the legal system must become involved to
+select someone outside the
+family. This process, as represented by this figure, is designed to assist physicians,
+patients, and patients’ families in making what can be
+viewed as one of the most
+difficult decisions any one
+human can make regarding
+the fate of another.
+Source: Thomas E. Beam, MD, Colonel, Medical Corps, United States Army; Ethics Consultant to The Surgeon General,
+United States Army; Director, Borden Institute, Walter Reed Army Medical Center, Washington, DC 20307-5001.
+87
+Clinical Ethics: The Art of Medicine
+TABLE 3-1
+OTHER CASES IN THE “CORPUS OF PRECEDENTS” OF CLINICAL BIOETHICS
+Case
+Date
+Case Description
+Schloendorff
+1914
+Self-determination in medical treatment. Schloendorff v Society of New York Hospital, 211 NY
+125, 129–130, 105 NE 92, 93 (1914). This opinion contained the now well-known statement
+of Justice Cordoza that “every human being of adult years and sound mind has a right to
+determine what shall be done with his own body.” It was the first case that the Supreme
+Court heard regarding informed consent and autonomy in medical matters.
+Griswold
+1965
+Personal liberty; ability to prescribe contraceptives. Griswold v Connecticut, 381 US 479 (1965).
+Cobbs
+1972
+Failure of physician to obtain fully informed consent. Cobbs v Grant, 502 P2d 1, decided Oct
+27, 1972.
+Roe
+1973
+Legalizing abortion. Roe v Wade, 410 US 113 (1973).
+Edelin
+1976
+Abortion; manslaughter by “wanton reckless omission of an act disregarding the possible
+consequences to the rights of others”; failure to resuscitate an aborted fetus. Commonwealth
+v Edelin, Mass Supreme Court 359, NE2d 4, 1976.
+McFall
+1978
+Denial of request for forced donation of compatible tissue. McFall v Shimp, no 78-1771 in
+Equity (CP Allegheny County, Pa, Jul 26, 1978).
+Candura
+1978
+Refusal of treatment by patients of questionable competence. Lane v Candura, Mass Adv Sh
+588 NE2d 1232 (1978).
+Northern
+1978
+Refusal of treatment by patients of questionable competence. Dept of Human Services v Northern, 563 SW2d 197 (Tenn Ct of Appeals, 1978).
+Dinnerstein
+1978
+Do not resuscitate order for patient in terminal stages, agreed to by family. In the Matter of
+Dinnerstein, Mass App, 380 NE2d 134 (1978).
+Green
+1978
+Three-year-old boy with acute lymphocytic leukemia whose parents refuse chemotherapy
+in favor of an approach combining megavitamins, diet, and laetrile. Custody of a Minor, 379
+NE2d 1053 (Mass 1978), reviewed and aff’d, Mass Adv Sht 2124 (1979).
+Eichner
+1980
+Withdrawal of ventilator from an 83-year-old monk with massive brain damage following
+routine surgery. The religious leader of the order made the decision, acting on prior remarks by the patient about cases of this sort. Eichner v Dillon, 73 AD2d 432, 426 NYS2d 517
+(1980), reviewed and aff’d, NY Ct of Appeals-420 NE2d 64 (1981).
+Karp
+1982
+Human research; failure to obtain permission for an experimental operation implanting an
+artififcial heart; surgeon’s plea of “therapeutic privilege.” The Trial of Denton Cooley. NOVA
+videotape produced by WGBH, Boston.
+Clark
+1982
+Implantation of a totally artifical heart—The Jarvick-7. Shaw M, ed. After Barney Clark. Austin: University of Texas Press; 1982.
+Bouvia
+1984
+Twenty-seven-year old quadriplegic who requests hospital’s assistance as she starves to
+death; force feeding authorized. Bouvia v County of Riverside (1579780 Riverside Co, Calif
+Sup Ct 1984); Bouvia v Superior Court, 179 Cal App 3d 1127 (1986).
+Bartling
+1984
+Conscious patient asks to have ventilator removed. Refused by lower court, but overturned
+(after his death). Bartling v Superior Court, 163 Cal App 3d 186 (1984).
+Estate of Leach
+1984
+Appeals court rules that “a cause of action exists for wrongfully placing and maintaining a
+patient on life-support systems.” Leach v Akron General Medical Center, 68 Ohio Misc. 1, 426
+NE2d 809; Estate of Leach v Shapiro 469 NE2d 1047 (Ohio App 1984).
+Wanglie
+1991
+Futility and obligations of care givers. In re Helga Vanglie, Fourth Judicial District (Dist Ct,
+Probate Ct Div) PX-91-283, Minnesota, Hennepin County.
+88
+Military Medical Ethics, Volume 1
+• The Georgetown Case: Denying parental
+autonomy in a life-threatening condition
+when a minor is involved (1964).
+• The Hopkins Case: Refusal of parents for
+treatment of a minor (surgical correction of
+esophageal atresia in a newborn with
+Down’s syndrome); allowing to die by starvation (1971).
+• The Quinlan Case: Role of a guardian in
+surrogate decision making; recognition of
+autonomy in once competent persons; withdrawal of a life support system (a ventilator) (1976).
+• The Tarasoff Case: Breaking of confidentiality (1974, 1976).
+• The Saikewicz Case. Treating incompetent
+persons as autonomous agents; substituted
+judgment (1977).
+• The Barber and Nedjl Case: Alleged murder by withdrawal of medical treatment
+(ventilator, intravenous lines, and a nasogastric feeding tube) (1983).
+• The Conroy Case: Standards for determining
+action including consideration of the burdens/benefits ratio; withholding food and fluids by withdrawal of a nasogastric tube in a
+demented but conscious patient (1985).
+• The Brophy Case: Substituted judgment;
+withholding administration of food and
+fluids by withdrawal of a gastrostomy
+feeding tube in a patient in the persistent
+vegetative state (1986).
+• Baby M: Surrogate motherhood and custody (1988).
+• The “Dax” Case: Denying competence and
+autonomy (1989).
+• The Cruzan Case: The state’s role in setting
+standards for substituted judgment; withdrawal of artificially administered hydration
+and nutrition administered by gastrostomy
+tube in a patient in the persistent vegetative
+state, the first such case considered by the
+Supreme Court of the United States (1990).
+• The Case of Timothy E. Quill, “Jane Roe,” et
+al: Physician-assisted suicide; denial by the
+Supreme Court of the United States (1997).
+CONCLUSION
+This chapter has explored the rich historical background of medical ethics to enable the reader to
+understand better how clinical ethics came to be. It
+has also detailed how clinical ethics is “done,” to include the attachment at the end of this chapter that
+provides the 12 benchmark cases in clinical ethics.
+The next chapter will present the science behind
+the “art” of the clinical encounter. By understanding the various methodologies in empirical research
+on medical ethics, the healthcare professional can
+better understand the process of reaching the ethical decision. As alluded to earlier, this entire field
+has picked up momentum with the rapid advance
+of scientific knowledge and resulting treatment
+options. Although clinical ethics is based on ageold guidance, it must constantly respond to evolving possibilities. Only in this way can the physician practice the “art” of the clinical encounter.
+In summary, clinical ethics aims at improving the
+quality of care and outcomes for a particular patient.
+Clinical ethics attempts to identify, analyze, and offer
+resolutions to the ethical dilemmas that particular
+patients and their healthcare providers face in their
+mutual relationships in the normal course of diagnosis and treatment of a disease process and the ensuing illness produced by it in a patient. Clinical ethics
+is an essential aspect of quality care. Teaching clinical
+ethics to all members of the healthcare enterprise is a
+part of improving in general the quality of care and
+in particular optimizing individual patient outcomes.
+REFERENCES
+1.
+Fletcher JC, Brody H. Clinical ethics: I. Elements and methodologies. In: Reich WT, ed-in-chief. Encyclopedia of
+Bioethics. Rev ed, Vol 1. New York: Macmillian Publishing; 1995: 399–404.
+2.
+Jonsen AR, Siegler M, Winslade WJ. Clinical Ethics: A Practical Approach to Ethical Decisions in Clinical Medicine.
+New York: Macmillian; 1982.
+3.
+Pellegrino ED. The metamorphosis of medical ethics: A 30-year retrospective. JAMA. 1993;269(9):1158–1162.
+4.
+Taylor C. Personal Communication, June 12, 2000.
+89
+Clinical Ethics: The Art of Medicine
+5.
+Fletcher JF. Morals and Medicine: The Moral Problems of: The Patient’s Right to Know the Truth, Contraception, Artificial Insemination, Sterilization, Euthanasia. Princeton, NJ: Princeton University Press; 1954.
+6.
+Siegler M. Clinical ethics and clinical medicine. Arch Intern Med. 1979;139(8):914–915.
+7.
+Siegler M. Decision-making strategy for clinical-ethical problems in medicine. Arch Intern Med. 1982;142(12):
+2178–2179.
+8.
+Toulmin S. How medicine saved the life of ethics. Perspect Biol Med. 1982;25(4):736–750.
+9.
+Jonsen AR, Toulmin SE. The Abuse of Casuistry: A History of Moral Reasoning. Berkeley: University of California
+Press; 1988: 257.
+10.
+Keenan J. Casuistry. In: O’Brien WJ, ed. For That I Came: Virtues and Ideals of Jesuit Education. Washington, DC:
+Georgetown University Press; 1997: 93–114.
+11.
+Keenan J. Personal Communication, 1997.
+12.
+Arras JD. Getting down to cases: The revival of casuistry in bioethics. J Med Philos. 1991;16(1):29–51.
+13.
+Hippocrates. In: Jones WHL, trans. Hippocrates, Vols 1 & 2. Cambridge, Mass: Harvard University Press; 1972.
+14.
+Edelstein L. In: Temkin O, Temkin CL, eds, Temkin CL, trans. Ancient Medicine: Selected Papers of Ludwig Edelstein.
+Baltimore, Md: Johns Hopkins Press; 1967.
+15.
+Beauchamp TL. Common sense and virtue in the Scottish Moralists. In: Baker R, Porter D, Porter R, eds. The
+Codification of Medical Morality: Historical and Philosophical Studies of the Formalization of Western Medical Morality
+in the Eighteenth and Nineteenth Centures [Philosophy and Medicine Series, No. 45]. Dordrecht, The Netherlands: Kluwer Academic Publishers; 1993: 99–122.
+16.
+Percival T. Medical Ethics; or a Code of Institutes and Precepts, Adapted to the Professional Conduct of Physicians and
+Surgeons. Manchester, England: S Russell; 1803.
+17.
+Gregory J. Lectures on the Duties and Qualifications of a Physician. London: W Strahan & T Cadell; 1772.
+18.
+Sidgwick H. The Methods of Ethics. 7th ed. Indianapolis, Ind: Hackett Publishing Co; 1981: 315–316.
+19.
+Clement of Alexander. On spiritual perfection (Stromateis, Chap. 7). In: Chardwick H, ed. Alexanderian Christianity. Philadelphia, Pa: Westminster Press; 1954: 93–165.
+20.
+Konold DE. A History of American Medical Ethics 1847–1912. Madison, Wisc: State Historical Society of Wisconsin; 1962.
+21.
+American Medical Association. Code of medical ethics. In: Proceedings of the National Medical Conventions, Held
+in New York, May ,1846, and in Philadelphia, May, 1847. Philadelphia, Pa: TK & PG Collins, Printers; 1847.
+22.
+Fishbein M. A History of the American Medical Association 1847 to 1947. Philadelphia, Pa: WB Saunders Co; 1947: 35–36.
+23.
+Beauchamp TL. Worthington Hooker on ethics in clinical medicine. In: Baker R, ed. The Codification of Medical
+Morality: Historical and Philosophical Studies of the Formalization of Western Medical Morality in the Eighteenth and
+Nineteenth Centuries Centures [Philosophy and Medicine Series, No. 49]. Dordrecht, The Netherlands; Kluwer
+Academic Publishers; 1995: 105–119.
+24.
+Hooker W. Physician and Patient; Or, A Practical View of the Mutual Duties, Relations, and Interests of the Medical
+Profession and the Community. New York: Baker & Scribner; 1849: 361–365.
+25.
+Osler W. On the need of a radical reform in our method of teaching senior students. (New York) Medical News.
+January 30, 1903.
+90
+Military Medical Ethics, Volume 1
+26.
+Siegler M. A legacy of Osler: Teaching clinical ethics at the bedside. JAMA. 1978:239(10):951–956.
+27.
+Osler W. The ‘religio medici’ in the library. Br Med J. 1905(ii):993–998.
+28.
+Osler W. Teaching and thinking—the two functions of a medical school. Montreal Med J. 1894;5(xxiii):561–572.
+29.
+Peabody FW. The care of the patient. JAMA. 1927;88:877.
+30.
+Hamman L. Presidential address. Trans Assoc Am Physicians. 1941;56:1.
+31.
+Cabot R. The use of truth and falsehood in medicine: An experimental study. In: Reiser SJ, Dyck AJ, Curran WJ,
+eds. Ethics in Medicine: Historical Perspectives and Contemporary Concerns. Cambridge, Mass: MIT Press; 1977.
+32.
+Gilkey LB. Catholicism Confronts Modernity: A Protestant View. New York: Seabury Press; 1975.
+33.
+Gilkey LB. How the Church Can Minister to the World Without Losing Itself. New York: Harper & Row; 1964.
+34.
+Hastings A, ed. Modern Catholicism: Vatican II and After. New York: Oxford University Press; 1991.
+35.
+Barth K. Adlimina Apostolorun: An Appraisal of Vatican II. Crim KR, trans. Edinburgh: St. Andrew Press; 1969.
+36.
+Seldin D. The medical model: Biomedical science as the basis of medicine. Beyond Tomorrow: Trends and Prospects in Medical Science. New York: The Rockefeller University Press; 1977.
+37.
+Engel GL. The need for a new medical model: A challenge for biomedicine. Science. 1977;196(4286):129–136.
+38.
+Kass LR. Regarding the end of medicine and the pursuit of health. Public Interest. 1975;40(Summer):11–42.
+39.
+Siegler M. The doctor-patient encounter and its relationship to health and disease. In: Caplan AL, Engelhardt
+HT Jr, McCartney JJ, eds. Concepts of Health and Disease: Interdisciplinary Perspectives. Reading, Mass: AddisonWesley, Advanced Book Program/World Science Division; 1981: 631–641.
+40.
+Whitbeck C. A theory of health. In: Caplan AL, Engelhardt HT Jr, McCartney JJ, eds. Concepts of Health and
+Disease: Interdisciplinary Perspectives. Reading, Mass: Addison-Wesley, Advanced Book Program/World Science
+Division; 1981: 611–626.
+41.
+Pellegrino ED, Thomasma DC. For the Patient’s Good: The Restoration of Beneficence in Health Care. New York:
+Oxford University Press; 1988.
+42.
+Ramsey P. The Patient as Person: Explorations in Medical Ethics. New Haven, Conn: Yale University Press; 1970.
+43.
+Ramsey P. Ethics at the Edges of Life. New Haven, Conn: Yale University Press; 1978.
+44.
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. New York: Oxford University Press; 1979.
+45.
+Ross WD. The Right and the Good. Indianapolis, Ind: Hackett Publishing; 1930: 19.
+46.
+Veatch RM. Clinical ethics, applied ethics, and theory. In: Hoffmaster B, Freedman B, Fraser G, eds. Clinical
+Ethics: Theory and Practice. Clifton, NJ: Humana Press; 1989: 7–25.
+47.
+Beauchamp TL. On eliminating the distinction between applied ethics and ethical theory. The Monist. 1984;67:514–531.
+48.
+Annas GJ, Grodin MA, eds. The Nazi Doctors and the Nuremberg Code: Human Rights in Human Experimentation.
+New York: Oxford University Press; 1992.
+49.
+Diamond EF. Reflections on the fiftieth anniversary of the Nuremberg Doctors’ Trials. Linacre Q. 1997;64(2):17–20.
+91
+Clinical Ethics: The Art of Medicine
+50.
+Ingelfinger FJ. Ethics of experiments on children. N Engl J Med. 1973;288(15):791–792.
+51.
+Krugman S. The Willowbrook hepatitis studies revisited: Ethical aspects. Rev Infect Dis. 1986;8(1):157–162.
+52.
+Jones JH. Bad Blood: The Tuskegee Syphilis Experiment. New York: Free Press; 1981.
+53.
+Branson R, Casebeer K. The Quinlan decision: Five commentaries. Hastings Cent Rep. 1976;6(1):8–11.
+54.
+Pellegrino ED. Bioethics as an interdisciplinary enterprise: Where does ethics fit in the mosaic of disciplines?
+In: Carson RA, Burns R, eds. Philosophy of Medicine and Bioethics: A Twenty-Year Retrospective and Critical Appraisal. Boston, Mass: Kluwer Academic Publishers; 1997: 1–23.
+55.
+Guide to Awareness and Evaluation of Humanistic Qualities in the Internist. Portland, Ore: American Board of Internal Medicine; 1983.
+56.
+Medical Ethical Subcommittee, American Board of Pediatrics. Teaching and evaluation of interpersonal skills
+and ethical decisionmaking in pediatrics. Pediatrics. 1987;79(5):829–833.
+57.
+Ayer AJ. Editorial foreword. In: Nowell-Smith PH, ed. Ethics. Baltimore, Md: Penguin; 1957: iii.
+58.
+Caplan AL. Moral experts and moral expertise. In: Hoffmaster B, Freedman B, Fraser G, eds. Clinical Ethics:
+Theory and Practice. Clifton, NJ: Humana Press; 1989: 59–87.
+59.
+Macklin R. Ethical theory and applied ethics, a reply to the skeptics. In: Hoffmaster B, Freedman B, Fraser G,
+eds. Clinical Ethics: Theory and Practice. Clifton, NJ: Humana Press; 1989: 101–124.
+60.
+Ackerman TF. Moral problems, moral inquiry, and consultation in clinical ethics. In: Hoffmaster B, Freedman
+B, Fraser G, eds. Clinical Ethics: Theory and Practice. Clifton, NJ: Humana Press; 1989: 141–160.
+61.
+Siegler M, Singer PA. Clinical ethics consultation: Godsend or “God squad”? [editorial]. Am J Med. 1988;85(6):759–760.
+62.
+Sulmasy DP, FitzGerald D, Jaffin JH. Ethical considerations. Crit Care Clin. 1993;9(4):775–789.
+63.
+Pellegrino ED. Personal Communication, June 12, 2000.
+64.
+La Puma J, Priest ER. Medical staff privileges for ethics consultants: An institutional model. QRB Qual Rev Bull.
+1992;18(1):17–20.
+65.
+Fletcher JC. Needed: A broader view of ethics consultation [editorial]. QRB Qual Rev Bull. 1992;18(1):12–14.
+66.
+In re Quinlan, 70 NJ 10, 355A. 2nd 647 (1976).
+67.
+Rosner F. Hospital ethics committees: A review of their development. JAMA. 1985;253(18):2693–2697.
+68.
+Judicial Council, American Medical Association. Guidelines for ethics committees in health care institutions.
+JAMA. 1985;253(18):2698–2699.
+69.
+Patient rights and organization ethics. In: Comprehensive Accreditation Manual for Hospitals (CAMH). Chicago,
+Ill: Joint Commission for the Accreditation of Health Care Organizations; 1998 (May update): 5.
+70.
+Siegler M, Pellegrino ED, Singer PA. Clinical medical ethics. J Clin Ethics. 1990;1(1):5–9.
+71.
+McCormick RA. Ethics committees: Promise or peril? Law Med Healthcare. 1984;12(4):150–155.
+72.
+Siegler M. Ethics committees: Decisions by bureaucracy. Hastings Cent Rep. 1986;16(3):22–24.
+73.
+Singer PA, Siegler M, Pellegrino ED. Research in clinical ethics. J Clin Ethics. 1990;1(2):95–99.
+92
+Military Medical Ethics, Volume 1
+74.
+Sulmasy DP. What’s so special about medicine? Theor Med. 1993;14(1):27–42.
+75.
+Sulmasy DP, Geller G, Levine DM, Faden RR. A randomized trial of ethics education for medical house officers.
+J Med Ethics. 1993(3);19:157–163.
+76.
+Pellegrino ED, Siegler M, Singer PA. Teaching clinical ethics. J Clin Ethics. 1990;1(3):175–180.
+77.
+Plato. Meno. Cooper L, et al, trans. In: Hamilton E, Cairns H, eds. Plato: The Collected Dialogues. Princeton, NJ:
+Princeton University Press; 1961: 353–384.
+78.
+Pellegrino ED. Teaching medical ethics: Some persistent questions and some responses. Acad Med.
+1989;64(12):701–703.
+79.
+Pellegrino ED. Personal Communication, 1999.
+80.
+Culver CM, Clouser KD, Gert B, et al. Basic curricular goals in medical ethics. N Engl J Med. 1985;312(4):253–256.
+81.
+Subcommittee on the Evaluation of Humanistic Qualities in the Internist, American Board of Internal Medicine. Evaluation of humanistic qualities in the internist. Ann Intern Med. 1983;99(5):720–724.
+82.
+Carson RA, Curry RW Jr. Ethics teaching on ward rounds. J Fam Pract. 1980;11(1):59–63.
+83.
+Churchill LR, Cross AW. Moralist, technician, sophist, teacher/learner: Reflections on the ethicist in the clinical setting. Theor Med. 1986;7(1):3–12.
+84.
+Kong H, Singer P, Lynch A, Siegler M. Teaching and learning clinical medical ethics during residency training.
+Ann Royal Coll Phys Surg of Canada. 1988;21(6):423–426.
+85.
+Dock LL. Ethics or a code of ethics? Short Papers on Nursing Subjects. New York: M Louise Longway Publishers;
+1900: 37–57.
+93
+Clinical Ethics: The Art of Medicine
+Chapter 3: ATTACHMENT
+LANDMARK CASES IN ETHICS
+Case 1:
+The Georgetown Case: Denying parental autonomy in a life-threatening condition when a minor is involved. Application of President and Directors of Georgetown
+College, Inc, 331 F. 2d 1000 (DC Cir.), cert. denied, 377 U.S. 978 (1964).
+A 25-year-old patient, a Jehovah’s Witness, was brought to Georgetown University Hospital by her husband for treatment of a bleeding peptic ulcer that had ruptured. It was
+estimated that she had lost about “two-thirds” of her blood. She was in shock and appeared to be terminal. She was the mother of a 7-month-old child. Her husband refused to
+permit the attending physicians to administer blood transfusions.
+Upon the request of the physicians, the hospital’s counsel applied to the District Court
+of the District of Columbia for permission to administer blood. The application was denied. The counsel immediately applied to Judge Skelly Wright of the Court of Appeals for
+the District of Columbia for an order to permit the administration of blood. Judge Wright
+went to the hospital and conferred with the doctors, legal counsel, the patient’s husband,
+and, finally, the patient. The medical need for blood was confirmed. Judge Wright was
+convinced that the prognosis was good if blood were administered; if not, death was inevitable.
+The patient’s husband again refused to give permission but told Judge Wright that if
+the court ordered the administration of blood it would not be his responsibility. The patient, who was by this time in a very grave condition and could hardly respond to Judge
+Wright, was asked by him if she would permit the administration of blood transfusions
+that would save her life. Her response was a murmured: “Against my will.”
+Judge Wright, fearing that continued probing questions would endanger her life further, asked only one other question as to whether she would oppose a court ordered transfusion. Judge Wright stated in his written opinion that at that time he got the impression
+from her hushed murmuring that she indicated that it would then not be her responsibility. Judge Wright ordered the administration of transfusions for he felt that the 7-monthold child should not be deprived of a mother who could be saved from inevitable death by
+a treatment that could be administered and would be effective. He immediately signed an
+order allowing the physicians to administer such transfusions that would save her life.
+The transfusions were given and the patient made a full and uneventful recovery.
+Case 2:
+The Hopkins Case: Refusal of parents for treatment of a minor (surgical correction of esophageal atresia in a newborn with Down syndrome); allowing to die
+by starvation.
+In 1971 three newborn babies with Down syndrome, as well as life-threatening intestinal defects, were patients in the Newborn Intensive Care Unit of the Johns Hopkins Hospital in Baltimore, Maryland. One of these infants had duodenal atresia, for which the
+pediatric surgeons had urged surgical correction of the lesion. The mother, a nurse who
+had worked especially with children who had Down syndrome, refused to permit surgical
+correction of the atresia. Her husband, a lawyer, concurred. The surgeons did not seek a
+court order to perform the surgery. The mother of the second baby with Down syndrome
+had other children and indicated that she felt it would not be fair to her other children to
+raise them with a “mongoloid.” She also declined surgical intervention to save her infant’s
+life.
+94
+Military Medical Ethics, Volume 1
+Both of these infants were “allowed to die” as it was thought that that approach was a
+more morally acceptable course than active euthanasia and thus unlikely to incur legal
+prosecution. The first baby was not fed although the baby was surreptitiously hydrated to
+some degree. The baby died 15 days later. The second baby’s course paralleled the first;
+the baby died in 19 days. The deaths of these two babies were reported to have caused
+anguish for the staff of the intensive care unit, particularly the nurses.
+The parents of the third baby with Down syndrome had originally been referred to Johns
+Hopkins Hospital by the obstetrician who had diagnosed Down syndrome at amniocentesis; he gave the parents a pessimistic prognosis. After he was born, this baby was also
+diagnosed with an intestinal obstruction. The obstruction was surgically corrected with
+the permission of his parents and the baby was discharged well.
+A film, Who Should Survive?,1 based on the story of the first baby, has been used for
+instruction of physicians, nurses, social workers, medical and nursing students, and others in the healthcare professions. The film gave wide publicity to the case, which has subsequently become known simply as the “Hopkins Case.”2
+Adapted with permission from Pence GE. Classic Cases in Medical Ethics: Accounts of Cases
+That Have Shaped Medical Ethics, With Philosophical, Legal, and Historical Backgrounds. 2nd
+ed. New York: McGraw-Hill; 1995: 175–176.
+Additional sources: (1) Who Should Survive? [videotape]. Washington, DC: Joseph P Kennedy
+Jr Foundation. (2) Gustafson JM. Mongolism, parental desires, and the right to life. Perspect
+Biol Med. 1973;16(4):529–557.
+Case 3:
+The Quinlan Case: Role of guardian in surrogate decision making; recognition
+of autonomy in once competent persons; withdrawal of a life support system (a
+ventilator). In re Quinlan, 70 NJ. 10, 355 A. 2d 647 (NJ. 1976), cert. denied sub.
+nom. Garger v. New Jersey, 429 U.S. 922 (1976).
+Karen Ann Quinlan, a 21-year-old single female, lapsed into a coma in April 1975. She
+suffered brain damage secondary to apnea caused by the combined ingestion of alcohol
+and tranquilizing medications. After an adequate period of treatment, the medical consensus was that there was no hope for recovery of higher-brain function. At that time her
+parents, devout Roman Catholics, requested her physician withdraw the use of the ventilator that was believed to be keeping her alive.
+Her physician declined to remove the ventilator because he felt she would be unable to
+breathe spontaneously, and thus would immediately die of respiratory failure. This action, her physician felt, would be unethical because it would violate the long-held medical
+principle of “non nocere” (do no harm), and furthermore would be an act of maleficence—
+directly contributing to her death.
+Karen Ann Quinlan’s parents felt that the artificial ventilation was an extraordinary
+treatment and as such was not an obligatory therapy. The Quinlan family indicated that
+such treatment was against the wishes of their daughter previously expressed at times
+when she was fully competent.
+The differences regarding therapy between the parents, on the one hand, and the physician and the hospital, on the other, led to a lawsuit that eventually reached the New Jersey
+State Supreme Court. The court, endorsing the principle of autonomy and allowing for
+substituted judgment, ruled in March 1976 that Karen Ann had the right to refuse treatment and that a duly appointed guardian had the right to make a decision regarding therapy
+that was in the best interests for this mentally incompetent person.
+The court appointed her father her guardian with full power to engage or discharge her
+physician(s) and institutions and make decisions regarding therapy. It allowed removal of
+the ventilator if, in the opinion of the attending physician and after consultations with the
+hospital’s or other institution’s “Ethics Committee,” there was no hope of return to a cog95
+Clinical Ethics: The Art of Medicine
+nitive sapient state. This action, the court ruled, would be without any civil or criminal
+liability on the part of any participant—guardian, physician, or hospital.
+Mr. Quinlan ordered that the ventilator (that his daughter had now been on for almost a
+year) be disconnected, and this was done. Surprisingly, Karen Ann continued to breath
+without the assistance of the ventilator. However, she remained in a permanent vegetative
+state for the next 9 years. During that period she received nutrition and hydration through
+a nasogastric tube, remaining bedridden and lying in a permanent fetal position. She
+showed no sapient signs but did exhibit reflex activity. She developed pneumonia in June
+1985. Her guardian opted against treatment with antibiotics, as he felt it was an extraordinary intervention, and thus not obligatory. She died of pneumonia on 11 June 1985.
+Adapted with permission from: (1) Munson R. Intervention and Reflection: Basic Issues in
+Medical Ethics. 4th ed. Belmont, Calif: Wadsworth Publishing Co; 1992: 142–145; (2) Pence
+GE. Classic Cases in Medical Ethics: Accounts of Cases That Have Shaped Medical Ethics, With
+Philosophical, Legal, and Historical Backgrounds. 2nd ed. New York: McGraw-Hill; 1995: 8–17.
+Case 4:
+The Tarasoff Case: Breaking of confidentiality. Tarasoff v. the Regents of the University of California, et al, 529 P. 2d 553 (Cal. 1974); Tarasoff v. the Regents of the
+University of California, et al, 551 P. 2d 334 (Cal. 1976).
+In August 1969, a patient, Prosenjit Poddar, a student at the University of California at
+Los Angeles (UCLA), who was then in psychotherapy with Dr. Lawrence Moore, a psychologist at the Cowell Memorial Hospital, told his therapist that he was going to kill an
+unnamed girl when she returned from a vacation in Brazil. Dr. Moore sought assistance
+from two of his fellow psychiatrists in the department. They collectively decided that the
+patient should be committed to the hospital for observation.
+Dr. Moore called the campus police at UCLA and spoke with two police officers, requesting them to confine Poddar while he was seeking commitment of the patient to the
+hospital. Dr. Moore sent a letter detailing his request, with supporting evidence, to the
+Chief of the Campus Police Force, William Beall, requesting police assistance in bringing
+about Poddar’s confinement.
+The police officer who was originally contacted, with the help of two other campus
+police officers, found Poddar and confined him briefly. After their initial examination, the
+campus police officers were convinced that Poddar was rational and released him after he
+promised to stay away from the coed, Tatiana Tarasoff, who had been quickly and easily
+identified as the unnamed girl threatened.
+Dr. Moore’s supervisor, the Chairman of the Department of Psychiatry at Crowell Memorial Hospital, asked the Campus Police Department to return Dr. Moore’s letter and
+directed that all copies of the letter and notes that Moore had be destroyed and ordered
+“no action to place Prosenjit Poddar in a 72-hour treatment and evaluation facility.” Poddar
+shortly thereafter became very close to Tatiana’s brother, who was also a student at the
+university. Soon after this friendship blossomed, Poddar became the brother’s roommate
+in the men’s dormitory. On 27 October 1969, Poddar killed Tatiana Tarasoff by shooting her.
+In the court of first instance, Dr. Moore had been sued by Tatiana’s parents for not notifying Tatiana and the family of the danger that she was in from the threat made by Poddar.
+That court ruled in favor of the family. An appellate court concurred in the lower court’s
+opinion and the case then came to the California Supreme Court on appeal. The parents
+had contended that Dr. Moore should have broken confidentiality because of the danger
+implied in the threat by the patient, Poddar.
+The California Supreme Court discussed the history of medical confidentiality at length
+and emphasized that protecting private information was a primary duty of a mental health
+professional. Nevertheless, the court found that an exception to the usual rule was justified when a specifically articulated threat concerning an identifiable third party was communicated by a patient to a therapist. In that unusual instance, the court concluded: “[t]he
+96
+Military Medical Ethics, Volume 1
+protective privilege ends where the public peril begins.” In 1976, the court considered a
+second aspect of the case and in a second opinion, expanded the therapist’s duty not only
+to warn the patient, but to exercise professional judgment regarding the necessary course
+of action to protect a potential victim.
+Adapted with permission from: (1) Fletcher JC, Hite CA, Lombardo PA, Marshall MF, eds.
+Introduction to Clinical Ethics. Frederick, Md: University Publishing Group; 1995: 41–42; (2)
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 3rd ed. New York: Oxford University Press; 1989: Appendix.
+Case 5:
+The Saikewicz Case: Treating incompetent persons as autonomous agents; substituted judgment. Superintendent of Belchertown State School v. Saikewicz, 373 Mass.
+728, 370 N.E. 2d 417 (1977).
+Joseph Saikewicz, a patient in the Belchertown State School for the “feebleminded” in
+Massachusetts, was 67 in 1976. He had lived in mental institutions since he was 27. He had
+lived in various foster homes in Central Massachusetts before that because he was a ward
+of the court. His mental age was approximately two and one half years. He only grunted
+and gestured in response to physical contact. He was unaware of any danger. When not in
+familiar surroundings he became disoriented. He had been in good health until April 1976,
+when he was found to have acute myeloblastic monocytic leukemia, a fatal disease.
+Consideration was given to treating him with chemotherapy. It is known that chemotherapy in this condition will bring about a remission of the disease in approximately 40%
+of the patients for a period of 1 to 12 months. But this remission was always only temporary. At the time of his diagnosis, the disease was always fatal. The chemotherapeutic regimen often caused serious side effects, such as vomiting, anemia, and susceptibility to overwhelming infections. Upon petition of the Superintendent of the Belchertown Institution,
+the court appointed a guardian ad litem to make necessary decisions regarding treatment.
+The guardian ad litem noted that the disease was incurable and that chemotherapy would
+bring discomfort and possibly serious medical problems prior to the patient’s inevitable
+death. The patient would not be able to understand the treatment nor the discomfort and
+pain that it would cause. The guardian ad litem determined that not treating the patient
+would be in his best interests. The Supreme Judicial Court of the Commonwealth of Massachusetts upheld this decision. Mr. Saikewicz died on 4 September 1976, approximately 5
+months after his diagnosis.
+Case 6:
+The “Dax” Case: Denying competence and autonomy.
+Donald Cowart, nicknamed “Dax,” and his father were involved in a propane-gas explosion in a Texas oil field in 1978. Donald received burns over 67% of his body and his
+father was killed. (Dax had been a fighter pilot in World War II and had seen other pilots
+who had been burned.) When the emergency medical technicians arrived after the explosion, he requested a gun from them so he could shoot himself. His request was understandably denied by the technicians. He was then transported to Parklawn Memorial Hospital in
+Dallas where he requested that his attending physicians only provide “comfort care” and narcotics to ease the pain. A psychiatrist who examined him concluded that he was competent.
+His physicians did not concur with his desire to receive only palliative care. Instead, they
+followed his mother’s request to do everything medically possible for her son.
+The physicians began the lengthy and arduous process of treating his burns. Dax continued to request the discontinuation of the excruciatingly painful treatments for the burns,
+but his physicians continued the treatments. He was never declared incompetent by court
+order; no competency decision was ever sought by Dax, his mother, or by his attending
+physicians. His hospitalization lasted nearly a year. He was blind, disfigured, and had
+97
+Clinical Ethics: The Art of Medicine
+decreased motor abilities because of the severe scarring of his skin and muscles that resulted from his burns, their treatment, and the skin grafting. 1
+Dax received a substantial out-of-court settlement from the gas company. He graduated
+from law school, married a nurse he had known in high school, and became interested in
+ham radio and raising golden retrievers. He became a frequent speaker for the Society for
+the Right to Die, arguing that even though he was glad to be alive today with his present blessings, his physicians had been morally wrong to treat him against his wishes. Dax Cowart’s
+case became the topic of a videotape, Please Let Me Die,2 and a later film, Dax’s Case. 3
+Adapted with permission from: (1) Beauchamp TL, Childress JF. Principles of Biomedical
+Ethics. 3rd ed. New York: Oxford University Press; 1989: Appendix; (2) Weir RF. Abating
+Treatment With Critically Ill Patients: Ethical and Legal Limits to the Medical Prolongation of
+Life. New York: Oxford University Press; 1989: 3–5.
+Additional sources: (1) Kliever LD, ed. Dax’s Case: Essays in Medical Ethics and Human Meaning. Dallas, Tex: Southern Methodist University Press; 1989. (2) White RB. Please Let Me Die
+[videotape].Galveston: Department of Psychiatry, University of Texas; 1974. (3) Dax’s Case
+[videotape]. New York: Concern for Dying; 1985.
+Case 7:
+The Barber and Nedjl Case: Alleged murder by withdrawal of medical treatment (ventilator, intravenous lines, and a nasogastric feeding tube). Barber v.
+Superior Court, 147 Cal. App. 3d 1006, 195 Cal. Rptr. 484 (1983).
+Clarence Herbert had been a patient in a hospital in Los Angeles, California in May
+1981, undergoing an ileostomy. He returned to the hospital for closure of the ileostomy on
+August 26th, but sustained cardiorespiratory arrest following the closure. His surgeons
+were Drs. Barber and Nedjl. The medical consensus was that he had irreversible brain
+damage and was terminal. On August 28th his family informed his surgeons and the other
+physicians caring for him that they wished “all machines taken off that are sustaining life.”
+On August 30th, the patient’s ventilator was discontinued but he continued to breathe
+unassisted. On August 31st, his physicians ordered withdrawal of his intravenous hydration lines and the nasogastric feeding tube in conformity with the family’s wishes; approximately 6 days later Mr. Herbert died.
+On the complaint of a nurse concerning the withdrawal of food and water from the
+patient, the district attorney of Los Angeles County indicted the physicians for murder.
+The court of first instance dismissed the case. The case was reopened 2 years later in the
+California Superior Court because the Superior Court judges ruled that the lower court’s
+dismissal was erroneous.
+The Superior Court found that prior to his surgery Mr. Herbert had not executed a directive for the withholding or withdrawing of life-sustaining procedures in the event that
+he might later suffer a terminal condition. This action was required by the natural death
+act then in force in the state of California. The Superior Court found the physicians guilty
+as charged, but, upon appeal, the California Court of Appeals reversed the decision and
+exonerated the physicians.
+The latter court, in its opinion, equated use of intravenous nourishment with the use of
+a ventilator. It considered intravenous nourishment and hydration a medical treatment.
+The court ruled that there is no duty to utilize life-sustaining medical treatment when
+there is no hope of a return to a cognitive, sapient state. 1
+Adapted with permission from Devettere RJ. Practical Decision Making in Health Care Ethics:
+Cases and Concepts. 2nd ed. Washington, DC: Georgetown University Press 2000: 274–279.
+Additional source: (1) Paris JJ, Reardon FE. Court responses to withholding or withdrawing artificial nutrition and fluids. JAMA. 1985;253(15):2243–2245.
+98
+Military Medical Ethics, Volume 1
+Case 8:
+The Conroy Case: Standards for determining action including consideration of
+the burdens-benefits ratio; withholding food and fluids by withdrawal of a
+nasogastric tube in a demented but conscious patient. In the Matter of Claire C.
+Conroy, 98 NJ. 321, 356–357, A. 2d 1209 (NJ. 1985).
+Claire Conroy, a resident for 7 years in a nursing home in New Jersey, had generalized
+arteriosclerosis, hypertension, and diabetes mellitus. In addition she had multi-infarct
+dementia. She would respond to verbal stimuli only occasionally, and then by a moan. She
+was incontinent of urine and feces. Because she was unable to swallow naturally, she was
+fed by a nasogastric tube. Her nephew, as her self-appointed guardian, felt that treatment
+was simply prolonging her dying and requested the court of first instance to permit removal of the nasogastric tube. (Her nephew would in no way monetarily or otherwise
+have benefited by her death.) Ms. Conroy’s physician felt removal of the nasogastric tube
+would be an unethical medical practice. The court-appointed guardian ad litem also opposed the request.
+The trial court ruled that the nasogastric tube could be removed from this severely demented but conscious woman, reasoning that the treatment was intolerably burdensome
+for her. The decision was appealed by the guardian ad litem and the order was stayed. Ms
+Conroy died while the appeal was pending. The Appellate Court did not consider the
+appeal moot by virtue of her death; it felt the issue was too important to be left undecided.
+The decision of the Appellate court reversed the trial court’s judgment. It ruled that the
+removal of the nasogastric tube would be euthanasia by dehydration and starvation.
+The patient’s nephew, convinced of the appropriateness of his original request, appealed
+the ruling to the New Jersey State Supreme Court, the same court that had decided the
+Quinlan case in 1976. In January 1985, the court decided that an incompetent person had
+the same right as a competent adult to self-determination. The court stated: “The right of
+an adult who, like Claire Conroy, was once competent, to determine the course of her
+medical treatment remains intact even when she is no longer able to assert that right or to
+appreciate its effectuation.” The court ruled that a substitute decision maker must be called
+upon to function for the incompetent patient.
+The court established three standards in its ruling. The first was a “subjective standard”
+regarding when withdrawal of life-sustaining treatment is permitted, that is, when it is
+clear that the particular patient would have refused the treatment under the given circumstances. This intent could be deduced from oral or written statements made by the person,
+when competent, to others, or when the patient had executed a durable power of attorney,
+or when appointment of a proxy had taken place who was authorized to make medical
+decisions on the patient’s behalf. The second standard was a “limited objective test.” Lifesustaining treatment could be withheld or withdrawn when there is clearly good and sufficient evidence that the patient would have refused treatment and the guardian is satisfied that the burdens of the patient’s continued treatment outweigh the benefits of the
+continued treatment for that patient. The third standard is a “pure objective test.” In consideration of the application of this test, it would be very clear, the court said, that the
+burdens of the patient’s life with continued treatment markedly outweigh the benefits the
+patient derives from life with the continued treatment.
+The court established a strict procedure to be followed when applying the third or “pure
+objective test.” This involves the selection of an advocate, external to the nursing home
+and treating physicians, to serve as a rigorous protector of the weak and vulnerable incompetent nursing home patient. This establishes a procedure whereby if the objective
+test is met, the implementation of the decision does not have to be ordered by the court.
+Case 9:
+The Brophy Case: Substituted judgment; withholding administration of food
+and fluids by withdrawal of a gastrostomy feeding tube in a patient in the persistent vegetative state. Brophy v. New England Sinai Hospital, Inc., 398 Mass. 417,
+497 NE. 2d 626 (1986).
+99
+Clinical Ethics: The Art of Medicine
+On 22 March 1983, Paul Brophy, a fireman in Easton, Massachusetts, suffered a subarachnoid hemorrhage as a result of the rupture of an aneurysm of the Circle of Willis. The
+aneurysmal rupture was surgically repaired, but he never regained consciousness. After
+intensive treatment at the New England Medical Center in Boston, he was transferred to
+the Sinai Hospital, a chronic disease and rehabilitation institution. He was fed by tube
+gastrostomy. Physicians, including expert neurologists, diagnosed the patient as being in
+a permanent vegetative state. His vital functions were sustained by fluids and food administered by gastrostomy tube, which his wife felt to be extraordinary medical treatment
+and not obligatory.
+His wife, with the concurrence of their children, the patient’s 91-year-old mother, his
+four brothers, and his three sisters, requested on 6 February 1985 that the court issue a
+judgment giving her full power to authorize the withholding or withdrawal of all medical
+treatments for her husband, including artificial provision of nutrition and hydration.
+This action was opposed by the Sinai Hospital as well as the two physicians caring for
+him, Drs. Lajos Koncz and Richard Field. They felt that such an order to remove the feeding tube and starve the patient would be antithetical to their roles as ethical physicians.
+(Dr. Koncz, an èmigrè physician from Austria, fled that country after Hitler invaded Austria and annexed it to Nazi Germany. Dr. Field, a native-born American, had been a soldier
+in World War II and was among the first American troops to enter the Nazi concentration
+camp at Dachau and liberate its inmates.)
+There was a well-publicized trial without jury and with many groups giving testimony
+as friends of the court (the majority supporting Mrs. Brophy’s request). The trial judge,
+David Kappelmann, ordered the hospital to forego active medical intervention that would
+seek to delay or reverse an imminent life-threatening change of condition, in accordance
+with the previous authorization of the patient’s wife and guardian, but he enjoined the
+hospital and staff from removing the feeding tube. In the event that Mrs. Brophy, who was
+appointed guardian by the court, might transfer her husband to another medical care facility, Judge Kappelmann permanently enjoined her from authorizing any facility to remove or clamp the gastrostomy tube for the purpose of denying the patient hydration and
+nutrition required to sustain life.
+The case was appealed to the Supreme Judicial Court of the Commonwealth of Massachusetts. In September 1986, in a 4-to-3 decision, the court found that artificial feeding is
+an “intrusive” procedure that one should be able to refuse without being accused of committing suicide. The court based its reasoning on the right to privacy and finding that
+right to supercede any state’s interest in preserving life, protecting innocent third parties,
+preventing suicide, or maintaining the medical profession’s ethical integrity. The court
+ordered removal of the feeding tube; 8 days later Mr. Brophy died.
+Source: Steinbrook R, Lo B. Artificial feeding: Solid ground, not slippery slope. N Engl J
+Med. 1988;318(5):286–290.
+Case 10:
+The Baby M Case: Surrogate motherhood and custody. Matter of Baby M, 537
+A. 2d. 1227, 109 NJ. 396 (1988).
+Mr. and Mrs. William Stern signed a contract in February 1985 with Mrs. Mary Beth
+Whitehead of Brick Township, New Jersey. The contract, which had been arranged by the
+Infertility Center of New York, provided that Mrs. Whitehead would bear a child for the
+Sterns by artificial insemination by donor (AID). She agreed in the contract “that in the
+best interests of the child…she may conceive…[that she] shall freely surrender custody to
+William Stern, Natural Father, immediately upon birth of the child; and terminate all parental
+right to said child pursuant to this agreement.” Mrs. Whitehead was to receive $10,000 for
+services and expenses. All of her medical, legal, and insurance expenses were also to be met.
+The child was born on 27 March 1986. Mr. Whitehead did not wish to give the baby up
+but finally relinquished the infant to the Sterns on March 30. Mrs. Whitehead did not ac100
+Military Medical Ethics, Volume 1
+cept the $10,000 fee. A few days later, Mrs. Whitehead went to the Stern residence and
+asked to see the baby and begged the Sterns to let her take the baby home for a week. The
+Sterns agreed. Mrs. Whitehead and her husband then refused to return the child to the
+Sterns. The Sterns asked the family court to give them temporary custody, which it did.
+When six policemen arrived at front door of the Whitehead home to enforce the court’s
+order, Mrs. Whitehead passed the child out a back window of the house to her husband,
+who eluded the police and left with the baby. Mrs. Whitehead was able to join her husband
+and the child without being detected. The Whiteheads eluded law enforcement officers for
+3 months, but finally were located in Florida and the child was returned to the Sterns.
+The order of the family court judge was extended and the judge awarded limited visitation rights to Mrs. Whitehead. A court ordered paternity test made it clear that Mrs.
+Whitehead’s husband, who had previously undergone vasectomy, could not be the father
+of the child. A lengthy trial followed. Judge Sorkow of the family court ruled that the
+surrogacy contract was valid and enforceable. He then terminated Mrs. Whitehead’s parental rights, awarded sole custody of the child to Mr. Stern, and granted Mrs. Stern an
+order of adoption. He ruled that enforcement of the surrogacy contract was in the best
+interests of the child.
+The case was appealed to the New Jersey Supreme Court which ruled in February 1988.
+The court held that a surrogacy contract that provides money to the surrogate mother, and
+requires her irrevocable agreement to surrender her child at birth, is invalid and nonenforceable. It ruled that such a contract violates New Jersey statutes that prohibit the use of
+money in connection with adoptions, that limit termination of parental rights to situations
+in which there has been a valid showing of parental unfitness or abandonment of the child,
+and that allow a mother to revoke her consent to surrender her child in private-placement
+adoption.
+The court also ruled that the surrogacy contract conflicts with the state’s public policy
+that custody be determined on the basis of a child’s best interests, that children be brought
+up by their natural parents, that the rights of the natural mother and the natural father are
+equal, that a natural mother receive counseling prior to giving up a child for adoption,
+and that adoptions not be influenced by the payment of money. All these provisions of the
+contract were in violation of the statutes of New Jersey concerning adoptions.
+The New Jersey Supreme Court did affirm the lower court’s grant of custody to the
+natural father but reversed the lower court’s termination of the natural mother’s parental
+rights and the granting of an order for adoption to Mrs. Stern. The court required the
+lower court to determine the terms of the natural mother’s visitation with the child.
+Adapted with permission from Beauchamp TL, Childress JF. Principles of Biomedical Ethics.
+3rd ed. New York: Oxford University Press; 1989: Appendix.
+Case 11:
+The Cruzan Case: The state’s role in setting standards for substituted judgment;
+withdrawal of artificially administered hydration and nutrition administered
+by gastrostomy tube in a patient in the persistent vegetative state, the first such
+case considered by the Supreme Court of the United States. Cruzan v. Director,
+Missouri Department of Health, et al, No. 88-1503, 497 U.S. 261 (1990).
+Nancy Cruzan suffered near fatal injuries in an automobile accident. The severity of her
+injuries were such that at the scene of the accident she was found by the emergency medical technicians to be without heartbeat or respirations and was thought to be dead. Cardiopulmonary resuscitative measures immediately applied by the technicians restored
+heartbeat and respirations. Nancy, however, never regained consciousness. After her hospital treatment for her acute injuries, she was transferred to the Missouri Rehabilitation
+Hospital, where she remained in a permanent vegetative state for 5 years.
+The request of Joe Cruzan, her father as well as her guardian, to stop artificially administered food and fluid was refused by the attending physicians, the nursing staff caring for
+101
+Clinical Ethics: The Art of Medicine
+her, and the administration of the Missouri Rehabilitation Hospital. A lengthy legal process ensued.
+The case was finally heard by the Supreme Court of the State of Missouri, which ruled
+against the father’s request. In its published opinion it stated that Mr. Cruzan had not
+been able to present persuasive evidence that cessation of treatment would have clearly
+been Nancy’s wish. He could not present direct evidence that satisfied that court that she
+had expressed such an opinion when she was a fully competent individual. The appeal by
+her father to the Supreme Court of the United States was heard in January 1990.
+The court ruled in June 1990 that a competent citizen has the right to reject medical
+treatment under the Fourteenth Amendment to the US Constitution, the so-called “Liberty” amendment (“All persons born or naturalized in the United States, and subject to the
+jurisdiction thereof, are citizens of the United States and of the State wherein they reside.
+No State shall make or enforce any law which shall abridge the privileges or immunities of
+citizens of the United States; nor shall any State deprive any person of life, liberty, or property, without due process of law; nor deny to any person within its jurisdiction the equal
+protection of the laws.”1[§1]). The Supreme Court did not find this right in the so-called
+“right to privacy” that it had previously found in the “penumbra” of the Constitution
+when ruling on previous cases, such as Griswold v the State of Connecticut2 (prohibiting the
+use of condoms in the act of sexual intercourse by marital partners) or in the ruling that
+legalized abortion in the United States in the case of Roe v Wade. 3 The court also found that
+a state acting in the role of “parens patriae” in protecting the life of its citizens is free to set
+standards of proof for determining the wishes of once competent patients. It also ruled
+that states are free to dictate decision-making standards surrogates must follow if an incompetent patient’s wishes are not known or are not proven to that particular state’s satisfaction. Finally, the court found that foregoing artificial nutrition and hydration is no different than foregoing any other medical treatment. In summary, the Supreme Court’s June
+1990 decision4:
+•
+did not alter existing law;
+•
+did affirm the rights of competent patients;
+•
+declared that states are free to set standards of proof for determining wishes of once competent patients;
+•
+declared that states are free to dictate decision-making standards surrogates must follow
+if patient’s wishes are not known or not proven to the state’s satisfaction; and
+•
+declared that foregoing artificial nutrition and hydration is no different than foregoing
+other forms of life-sustaining treatment.
+This decision encouraged the general discussion of euthanasia and assisted suicide in the
+United States. 5 It also accelerated the debate in several state legislatures concerning legalizing
+physician-assisted suicide and euthanasia. 6 Professional healthcare organizations, such as the
+American Medical Association and the American Nurses Association, reviewed their standing
+policies on these issues7,8 and revised them. The Congress of the United States, in response to
+the decision, and wishing to provide legal protection for incompetent patients regarding their
+wishes for terminal care, enacted the “Self-Determination Act of 1991.”9(¶4206, ¶4751) The provisions of this act are that representatives of healthcare institutions must4:
+•
+provide written information to patients at admission, which includes a statement of the
+patient’s healthcare decision-making rights under state law and a description of the facility’s
+policies for implementing such rights;
+•
+ask newly admitted patients whether they have an advance directive and document response in their medical record;
+•
+not discriminate in the provision of care based on whether or not a patient has an advance
+directive;
+•
+ensure compliance with state laws regarding advance directives; and
+•
+educate staff and the community on issues concerning advance directives.
+102
+Military Medical Ethics, Volume 1
+After the Supreme Court handed down its decision, there was a great deal of publicity
+concerning the “Cruzan Case.” An individual who had known Nancy Cruzan only by her
+married name, which was Nancy Davis (Nancy’s husband had divorced her after the accident), and thus had not realized previously that Nancy Cruzan was someone she knew,
+now came forward. This former acquaintance gave evidence that Nancy had always said
+that she never wanted to be a “Karen Ann Quinlan Case” if she were fatally injured or
+terminally ill but would want all treatment stopped and be allowed to die. The court of
+first instance accepted this evidence and, in accordance with the decision of the Supreme
+Court, honored the request of Nancy’s guardian, her father, and permitted the artificial
+administration of nutrition and hydration to be stopped. Nancy died approximately 6 days
+later.
+Adapted with permission from: (1) Munson R. Intervention and Reflection: Basic Issues in
+Medical Ethics. 4th ed. Belmont, Calif: Wadsworth Publishing Co; 1992: 142–144; (2) Pence
+GE. Classic Cases in Medical Ethics: Accounts of Cases That Have Shaped Medical Ethics, With
+Philosophical, Legal, and Historical Backgrounds. 2nd ed. New York: McGraw-Hill; 1995: 17–
+20; (3) Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 3rd ed. New York: Oxford University Press; 1989: Appendix.
+Additional sources: (1) Amendment XIV to the Constitution of the United States. Available
+at: http://www.nara.gov/exhall/charters/constitution/amendments.html. Accessed 31
+May 2000. (2) Griswold v. Connecticut, 381 U.S. 479 (1965). (3) Roe v. Wade, 410 U.S. 113
+(1973). (4) Fry-Revere S. Written communication, 1995. (5) Siegler M, Gomez C. Conference: US consensus on euthanasia? Lancet. 1992;339:1164. (6 ) Hentoff N. The slippery slope
+of euthanasia. Washington Post. 3 October 1992:A21. (7) American Medical Association,
+Council on Scientific Affairs and Council on Ethical and Judicial Affairs. Persistent vegetative state and the decision to withdraw or withhold life support. JAMA. 1990;263(3):426–
+430. (8) American Nurses Association Task Force on the Nurse’s Role in End of Life Decisions. Foregoing Artificial Nutrition and Hydration (Position Statement). Washington, DC:
+American Nurses Association; 1992. (9) Omnibus Budget Reconciliation Act of 1990. Washington DC: US Government Printing Office; 1990. [Publication #101-508].
+Case 12:
+The Timothy E. Quill, “Jane Roe,” et al Case: Physician assisted suicide, denial
+by the Supreme Court of the United States. Dennis C. Vacco, Attorney General of
+New York, et al, Petitioners v. Timothy E. Quill, et al, Respondents, No. 95-1858, 521
+U.S. 793 (1997).
+In July 1994, Dr. Howard Grossman and Dr. Samuel Klagsbrun of New York City, and
+Dr. Timothy Quill of Rochester, New York, and a group of dying patients including William Barth, an AIDS patient in New York City, and Rita Barrett, a cancer patient of Oceanside,
+New York, filed a lawsuit in the Federal District Court arguing that physicians should be
+allowed to provide lethal medication, with safeguards, to willing patients within 6 months
+of their deaths. Identified only as “Jane Roe” in the lawsuit, the case of Rita Barrett highlighted the agonizing choices for patients and doctors in deciding what’s best in the final
+stages of dying. Rita, a formerly very vibrant gym teacher, had terminal cancer. In the
+papers filed with the court, she said: “I was able to put two of my dogs to rest when they
+were suffering from painful, incurable diseases and yet I do not, as a conscious and competent adult, have the freedom to opt for the same humane end to my life. This is wrong.”
+In August 1994, Barrett died at her home in Oceanside, 1 month after the lawsuit began.
+Before the end of 1994, all the patients who had joined in the lawsuit were dead; only the
+three physicians remained as plaintiffs in the lawsuit.
+These individuals sued the State’s Attorney General, claiming that the state’s ban on
+physician-assisted suicide violates the Fourteenth Amendment’s equal protection clause
+103
+Clinical Ethics: The Art of Medicine
+because New York State permits a competent person to refuse life-sustaining medical treatment and because the refusal of such treatment is “essentially the same thing” as physician-assisted suicide. The Federal District Court disagreed, but the Second Circuit Appellate Court reversed that decision, holding that New York accords different treatment to
+those competent, terminally ill persons who wish to hasten their deaths by self-administering prescribed drugs than it does to those who wish to do so by directing the removal of
+life-support systems, and that this alleged unequal treatment is not rationally related to
+any legitimate state interests. The Appellate Court held that New York State’s prohibition
+on assisting suicide does violate the equal protection clause. The case was appealed to the
+Supreme Court of the United States and was argued before that court on 8 January 1997.
+Its decision was handed down on 26 June 1997.
+The court, in its opinion written by the Chief Justice with the concurrence of all the
+Justices, said:
+The New York statutes outlawing assisted suicide neither infringe fundamental
+rights nor involve suspect classifications…and are therefore entitled to a strong presumption of validity.…On their faces, neither the assisted suicide ban nor the law
+permitting patients to refuse medical treatment treats anyone differently from anyone else or draws any distinctions between persons. Everyone, regardless of physical
+condition, is entitled, if competent, to refuse unwanted lifesaving medical treatment;
+no one is permitted to assist a suicide. Generally, laws that apply evenhandedly to all
+unquestionably comply with equal protection.…This Court disagrees with the Second Circuit’s submission that ending or refusing lifesaving medical treatment “is
+nothing more nor less than assisted suicide.” The distinction between letting a patient die and making that patient die is important, logical, rational, and well established: it comports with fundamental legal principles of causation…and intent,…has
+been recognized, at least implicitly, by this Court in Cruzan v. Director, Mo. Dept. of
+Health,…and has been widely recognized and endorsed in the medical profession,
+the state courts, and the overwhelming majority of state legislatures, which, like New
+York’s, have permitted the former while prohibiting the latter. The Court therefore
+disagrees with respondents’ claim that the distinction is “arbitrary” and “irrational.”
+The line between the two acts may not always be clear, but certainty is not required,
+even were it possible. Logic and contemporary practice support New York’s judgment that the two acts are different, and New York may therefore, consistent with the
+Constitution, treat them differently.
+The opinion went on to say:
+New York’s reasons for recognizing and acting on the distinction between refusing
+treatment and assisting a suicide—including prohibiting intentional killing and preserving life; preventing suicide; maintaining physicians’ role as their patients’ healers; protecting vulnerable people from indifference, prejudice, and psychological and
+financial pressure to end their lives; and avoiding a possible slide towards euthanasia—are valid and important public interests that easily satisfy the constitutional requirement that a legislative classification bear a rational relation to some legitimate
+end.
+Thus, the court reversed the Second Circuit Appellate Court and declared that the statute of New York State that prohibited physician-assisted suicide was not in violation of
+the 14th Amendment’s equal protection clause. In short, the court found no right of citizens to assisted suicide in the Constitution of the United States. The effect of this is to
+prohibit physician-assisted suicide in all the states and territories of the United States until individual states or territories, by legislative action, permit such acts in their particular
+jurisdictions.
+104
+Military Medical Ethics, Volume 1
+The citizens of the state of Oregon were the first to initiate such a process through the
+approval, on 8 November 1994, by referendum, of the “Death with Dignity Act,” a statute
+previously enacted by the Oregon legislature. This statute permitted physicians, under
+certain stipulated conditions, to prescribe lethal doses of barbiturates to patients who were
+suffering from an incurable illness and whose death could be predicted within 6 months.
+Several court challenges to invalidate the action of the legislature as well as the results of
+the 1994 referendum were unsuccessful.
+In 1997, a second referendum, approved by 60% of Oregon’s electorate, reaffirmed the
+wishes of Oregon’s citizens in this matter. The governor signed the statute permitting physician-assisted suicide into law on 27 October 1997. In the first full year of this law, 15
+deaths occurred under this act, out of a total of some 25,000 deaths statewide. On 27 September 1999, the US House of Representatives passed HR 2260, the “Pain Relief Promotion
+Act.” The Senate adjourned 15 December 2000 without considering the measure. If this
+legislation does pass the US Congress and is signed into law by the President, it would
+effectively invalidate Oregon’s law permitting physician-assisted suicide. The “Pain Relief Promotion Act” prevents the use of controlled substances by physicians to implement
+provisions in a law such as in Oregon’s “Death with Dignity Act.” This federal act would
+permit investigators of the federal Drug Enforcement Agency (DEA) to determine whether
+an Oregon physician, when prescribing controlled substances that hasten death, intended
+thereby only palliative care for the patient or assistance in an act of suicide by the patient.
+If the decision made by an anonymous federal investigator of the DEA were assistance in
+suicide, the physician would be liable for trial for an act of criminal homicide and would
+be subject to possible imprisonment for life.
+This action of the House of Representatives was criticized in press editorials such as the
+one in The Washington Post1 and in published opinions (also in The Washington Post) such as
+one written by Oregon’s governor, Dr. John A. Kitzhaber,2 a physician. These communications argue that because the Supreme Court of the United States found no constitutional
+right to physician-assisted suicide, this policy area should be left to the states to decide
+according to their own democratic processes. Justice Sandra Day O’Connor made this same
+suggestion in her concurring opinion in the New York cases mentioned above. She wrote:
+“This question (assisted-suicide) should be left to the laboratory of the states.” The action
+by the House of Representatives raises anew the vexing questions concerning the struggle
+between federalism and states’ rights. This surely is not the last to be heard concerning
+states’ rights in this matter.
+Adapted with permission from Pence GE. Classic Cases in Medical Ethics: Accounts of Cases
+That Have Shaped Medical Ethics, With Philosophical, Legal, and Historical Backgrounds. 2nd
+ed. New York: McGraw-Hill; 1995: 72–73.
+Additional sources: (1) Editorial. The Washington Post. 1 November 1999; A-26. (2) Kitzhaber
+JA. Congress’s medical meddlers [editorial]. The Washington Post. 2 November 1999;A-21.

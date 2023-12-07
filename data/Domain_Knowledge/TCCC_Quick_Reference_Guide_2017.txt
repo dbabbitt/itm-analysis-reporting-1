@@ -1,0 +1,2853 @@
+Tactical Combat Casualty Care
+ quick reference guide
+First edition
+Copyright 2017
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+EDITOR:
+HAROLD R. MONTGOMERY, ATP
+MSG(RET), U.S. ARMY
+FRANK K. BUTLER, MD
+CAPT(RET), U.S. NAVY
+STEPHEN D. GIEBNER, MD, MPH
+CAPT(RET), U.S. NAVY
+WIN KERR, ATP
+CURTIS C. CONKLIN, ATP
+MSG, U.S. ARMY
+DANIEL M. MORISSETTE, ATP
+MSG, U.S. ARMY
+Copyright Statement:
+The copyright holder of this publication assigns unlimited royalty-free 
+reproduction licensing exclusively to the United States Government and NATO 
+member governments. U.S. Government Printing Offices, specifically 
+Department of Defense installation printing services are authorized to 
+reproduce this publication for use by military personnel.
+The copyright holder retains reproduction and royalty licensing for all other 
+individuals or organizations except the U.S. Government. No part of the 
+material protected by this copyright may be reproduced or utilized in any form, 
+electronic or mechanical, including photography, recording, or by any 
+information storage and retrieval system, without written permission from the 
+copyright owner.
+MICHAEL A. REMLEY, ATP
+SFC, U.S. ARMY
+TRAVIS A. SHAW, NREMT-P
+MSGT, U.S. AIR FORCE
+JEREMY K. TORRISI
+SCPO, U.S. NAVY
+THOMAS A. RICH, NREMT-P
+CMSGT, U.S. AIR FORCE
+CONSULTANTS & REVIEWERS
+Copyright, 2017 by HR Montgomery
+ISBN: 978-0-692-90697-2
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TABLE OF CONTENTS
+ABBREVIATED TCCC GUIDELINES…………………………………………………………………..PAGE 4
+COTCCC RECOMMENDED ITEMS…………………………………………………………………..PAGE 40
+DD1380 TCCC CARD………….…………………………………………………………………..PAGE 33
+CASUALTY AAR SUBMISSION…...…………………………………………………………………..PAGE 37
+TRIAGE & EVACUATION CATEGORIES……………………………………………………………..PAGE 34
+MEDEVAC REQUEST FORMAT..…………………………………………………………………..PAGE 35
+PLANNING FOR CASUALTY RESPONSE..…………………………………………………………..PAGE 46
+GLOSSARY……………………...…………………………………………………………………..PAGE 51
+CONVERSIONS…………………..…………………………………………………………………..PAGE 52
+DRUG QUICK REFERENCE……...…………………………………………………………………..PAGE 53
+KEY REFERENCES & RECOMMENDED READING…………………………………………………..PAGE 47
+CARE UNDER FIRE ALGORITHM………………………………...……………………………….…..PAGE 9
+TACTICAL FIELD CARE ALGORITHMS………………………………………………………………..PAGE 10
+TACTICAL EVACUATION CARE ALGORITHMS………………………………………………………..PAGE 21
+TCCC PHARMACOLOGY...……...…………………………………………………………………..PAGE 41
+Massive Hemorrhage
+11
+Airway Management
+12
+Respiration/Breathing
+13
+C - Bleeding
+13
+C - IV Access
+14
+C - TXA
+14
+C - Fluid Resuscitation
+15
+Hypothermia Prev
+16
+Monitoring
+16
+Pain Management
+17
+Antibiotics
+17
+Wounds
+18
+Burns
+18
+Splints
+18
+Communications
+19
+CPR
+19
+Documentation
+19
+Prep for Evacuation
+20
+Transition of Care
+21
+Massive Hemorrhage
+22
+Airway Management
+23
+Respiration/Breathing
+24
+C - Bleeding
+25
+C - IV Access
+26
+C - TXA
+26
+C - Fluid Resuscitation
+27
+Trauma Brain Injury
+28
+Hypothermia Prev
+29
+Eye Trauma
+29
+Monitoring
+29
+Pain Management
+30
+Antibiotics
+30
+Wounds
+31
+Burns
+31
+Splints
+31
+Communications
+32
+CPR
+32
+Documentation
+32
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+FORWARD
+Tactical Combat Casualty Care (TCCC) has saved hundreds of lives during our nation's conflicts in Iraq and 
+Afghanistan. Nearly 90% of combat fatalities occur before the casualty reaches a Medical treatment facility, it 
+is clear that the prehospital phase of care is the focus of efforts to reduce deaths in combat. Very few military 
+physicians, however, have had training in this area. As a result, at the onset of hostilities, most combat 
+Medics, corpsmen, and para-rescue personnel (PJs) in the US Military were trained to perform battlefield 
+trauma care through the use of civilian-based trauma courses that were not designed for the prehospital 
+combat environment and did not reflect contemporary knowledge in this area. 
+This challenge was met by the Committee on TCCC (CoTCCC) voting members and its many liaison members 
+that collectively comprise the TCCC Working Group. This remarkably eclectic group includes trauma surgeons, 
+emergency medicine physicians, internists, family medicine physicians, operational physicians and physician 
+assistants, combat medical educators, trauma researchers, pathologists, combat medical doctrine developers, 
+medical equipment specialists, and combat medics, corpsmen, and PJs. All of the US Armed Services are wellrepresented in the group's membership and 100% of the CoTCCC voting members have been to war. The 
+CoTCCC and the TCCC Working Group represents different services, disciplines, and military experiences, all 
+brought to bear on a single goal - reducing preventable deaths on the battlefield. 
+No such group existed when the Twin Towers fell. The US Special Operations Command initially funded the 
+group as a research effort, then ownership of the group was successively assumed by the Naval Operational 
+Medicine Institute, the Defense Health Board, and now the Joint Trau-ma System. 
+This group has taken the TCCC Guidelines as they existed in 2001 and continually updated them throughout 
+the 15 years of war, based on input from the Joint Trauma System Performance Improvement trauma 
+teleconferences, published case reports and case series from the war zones, breakthroughs in military Medical 
+research, and new publications from the civilian medical literature that bear on combat trauma. It has 
+processed a continual steam of input from the battlefield throughout the war years and ensured that 
+battlefield trauma care lessons learned were not just noted, but acted upon. 
+Through the ongoing volunteer efforts of this dedicated group of individuals - which met quarterly throughout 
+most of the war - US Forces have had prehospital trauma care guidelines that were customized for the 
+battlefield and updated continuously based on real-time evaluation of outcomes from ongoing combat 
+operations. This is the first time in our nation's history that this has occurred. 
+The success of TCCC effort had been well documented. It is a great tribute to all of the members of the CoTCCC 
+and the TCCC Working Group, that it has been able to transcend service and Medical specialty differences, 
+process new information expertly, and develop evidence-based, best-practice guidelines that have completely 
+transformed battlefield trauma care.. 
+It is to the Committee on TCCC and all of our valued colleagues in the TCCC Working Group that this TCCC text 
+is dedicated. Our country and its casualties owe you all a profound measure of thanks. 
+Frank Butler, MD 
+CAPT (Retired), MC, USN 
+Chairman, Committee on Tactical Combat Casualty Care 
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+ABBREVIATED TCCC GUIDELINES
+31 JAN 2017
+Return Fire and take cover
+Direct or expect casualty to remain engaged as a combatant if appropriate
+Direct casualty to move to cover and apply self-aid if able.
+Try to keep the casualty from sustaining additional wounds.
+Stop life-threatening external hemorrhage if tactically feasible:
+- Direct casualty to control hemorrhage by self-aid if able.
+Use a CoTCCC-recommended limb tourniquet for extremity hemorrhage 
+- Move the casualty to cover
+Airway management is generally best deferred until the Tactical Field Care phase.
+Basic Management Plan for Care Under Fire
+Basic Management Plan for Tactical Field Care
+Establish Security Perimeter IAW Tactical SOPs. Maintain situational awareness.
+Triage Casualties as required. Altered mental status is criteria to have weapons cleared/secured, communications gear 
+secured and sensitive items redistributed.
+Massive Hemorrhage
+Assess for unrecognized hemorrhage and control all life-threatening bleeding. 
+Use one or more CoTCCC-recommended limb tourniquets if necessary.
+Use a CoTCCC approved hemostatic dressing for compressible hemorrhage not amenable to limb tourniquet 
+use. 
+Immediately apply a CoTCCC-recommended junctional tourniquet if the bleeding site is amenable to use of a 
+junctional tourniquet. 
+Airway Management
+Unconscious casualty without airway obstruction:
+-Chin lift or jaw thrust maneuver
+-Nasopharyngeal airway
+-Place the casualty in the recovery position
+Casualty with airway obstruction or impending airway obstruction:
+-Allow a conscious casualty to assume any position that best protects the airway, to include sitting up
+-Chin lift or jaw thrust maneuver
+-Nasopharyngeal airway
+-Place an unconscious casualty in the recovery position
+If the previous measures are unsuccessful perform a surgical cricothyroidotomy using one of the following:
+-CricKey technique 
+-Bougie-aided open surgical technique 
+-Standard open surgical technique 
+*Use lidocaine if the casualty is conscious
+4
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+ABBREVIATED TCCC GUIDELINES
+31 JAN 2017
+Basic Management Plan for Tactical Field Care continued
+Circulation - IV/IO Access
+Start an 18-gauge IV or Saline Lock if indicated. 
+If IV access is not obtainable, use an intraosseous (IO) needle.
+Circulation - Bleeding
+Apply a pelvic binder for suspected pelvic fracture and/or severe blunt force or blast injury. 
+Reassess prior tourniquet application: 
+-Expose the wound and determine if a tourniquet is needed; if bleeding is not controlled then tighten 
+tourniquet if possible.
+-If the first tourniquet does not control bleeding after tightening, then add a second tourniquet side-byside with the first.
+Convert Limb tourniquets and junctional tourniquets if the following three criteria are met: 
+-The casualty is not in shock. 
+-It is possible to monitor the wound closely for bleeding. 
+-The tourniquet is not being used to control bleeding from an amputation.
+Convert tourniquets in less than 2 hours if bleeding can be controlled with other means.
+ Expose and use an indelible marker to clearly mark all tourniquet sites with the time of tourniquet application, 
+ reapplication, conversion, or removal.
+Respiration/Breathing
+In a casualty with progressive respiratory distress and known or suspected torso trauma, consider a tension 
+pneumothorax: 
+-Decompress the chest on the side of the injury at the primary or alternate site.
+All open and/or sucking chest wounds should be treated by:
+-Applying a vented chest seal (preferred)
+-Applying a non-vented chest seal 
+-Burp the wound if indicated for breathing difficulty
+Initiate pulsoximetry monitoring.
+Monitor for tension pneumothorax.
+Casualties with moderate/severe TBI should be given supplemental oxygen when available to maintain an 
+oxygen saturation > 90%.
+Circulation - TXA
+If a casualty is anticipated to need a blood transfusion, then administer 1 gram of tranexamic acid (TXA) in 
+100ml of NS or LR over 10min ASAP but NOT beyond 3 hours post injury.
+Circulation - Fluid Resuscitation
+Assess for hemorrhagic shock:
+-If not in shock PO fluids are permissible if casualty is conscious and can swallow.
+-If in shock resuscitate with:
+Whole blood (preferred) or
+Plasma, RBCs and platelets (1:1:1) or
+Plasma and RBCs (1:1) or
+Plasma or if blood products not available,
+Hextend or Lactated Ringers or Plasma-Lyte-A
+Resuscitate with above fluids until a palpable radial pulse, improved mental status or 
+ systolic BP of 80-90 mmHg is present. Discontinue fluids when one or more end points are achieved.
+ Reassess casualty frequently to check for recurrence of shock. If shock recurs, verify all hemorrhage is under
+ control and repeat fluid resuscitation as above.
+5
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+ABBREVIATED TCCC GUIDELINES
+31 JAN 2017
+Basic Management Plan for Tactical Field Care continued
+Penetrating Eye Trauma - If penetrating eye injury is noted or suspected:
+Perform a rapid field test of visual acuity and document findings.
+Cover eye with a rigid eye shield (not a pressure patch).
+ Administer Combat Wound Medication Pack if possible and/or administer IV/IM antibiotics per below.
+Burns
+Facial burns should be aggressively monitored for airway status and potential inhalation injury.
+Estimate total body surface area (TBSA) burned to nearest 10%.
+Cover burned areas with dry, sterile dressings. For burns >20% TBSA, consider placing casualty immediately in 
+HPMK or other hypothermia prevention means.
+Fluid Resuscitation (USAISR Rule of Ten):
+-If burns >20% TBSA, initiate IV/IO fluids ASAP with Lactated Ringers, NS, or Hextend. If Hextend, then no 
+more than 1000ml followed by LR or NS as needed.
+-Initial IV/IO fluid rate = %TBSA X 10ml/per hour for adults 40-80 kg (+100ml/hr for every 10kg above 80kg).
+-If hemorrhagic shock is present then resuscitate IAW fluid resuscitation in Circulation section.
+All TCCC interventions may be performed on or through burned skin.
+Hypothermia Prevention
+Minimize casualty environmental exposure and promote heat retention.
+Keep personal protective gear on if feasible. Replace wet clothing if possible. Get casualty onto insulated 
+ surface ASAP.
+Use a hypothermia prevention kit with active rewarming.
+If none above is available, then use dry blankets, poncho liners, or sleeping bags and keep the casualty warm 
+ and dry.
+Warm IV fluids are preferred.
+Monitoring – Initiate advanced electronic monitoring of vital signs if available.
+Analgesia/Pain Management
+Analgesia on the battlefield should generally be achieved by one of three options:
+Mild to Moderate Pain and/or Casualty can swallow and is still able to fight:
+-Administer TCCC Combat Wound Medication Pack (CWMP)
+Moderate to Severe Pain and casualty IS NOT in Shock
+-Oral Transmucosal Fentanyl Citrate (OTFC) 800mcg
+Moderate to Severe Pain and casualty is in hemorrhagic shock or respiratory distress
+-Administer Ketamine 50mg IM or IN repeating q30min prn
+OR
+-Administer Ketamine 20mg Slow IV or IO repeating q20min prn
+*Endpoint control of pain or development of nystagmus.
+*Consider Ondansetron 4mg ODT/IV/IO/IM q8hours prn for nausea and vomiting.
+Antibiotics
+If able to take PO, then administer Moxifloxacin 400mg PO qDaily from CWPP.
+If unable to take PO, administer Ertapenem 1 gram IV/IM qDaily.
+Wounds
+Inspect and dress known wounds.
+Check for Additional Wounds.
+6
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+ABBREVIATED TCCC GUIDELINES
+31 JAN 2017
+Basic Management Plan for Tactical Field Care continued
+Documentation
+Document clinical assessments, treatments rendered, and changes in the casualty's status on a TCCC Casualty Card (DD 
+Form 1380) and forward this information with the casualty to the next level of care.
+Prepare for Evacuation
+Complete and secure TCCC Card (DD1380) to casualty.
+Secure all loose ends of bandages and wraps.
+Secure hypothermia prevention wraps/blankets/straps.
+Secure litter straps and consider additional padding for long evacuations.
+Provide instructions to ambulatory patients as needed.
+Stage Casualties for evacuation.
+ Maintain security at evacuation site.
+Cardiopulmonary resuscitation (CPR)
+Battlefield blast or penetrating trauma casualties with no pulse, no ventilations, and no other signs of life 
+ should not be resuscitated.
+ Casualties with torso trauma or polytrauma with no pulse or respirations should have bilateral needle 
+ decompression performed to confirm/deny tension pneumothorax prior to discontinuing care.
+Splinting - Splint Fractures and Recheck Pulses.
+Communication
+Communicate with the casualty if possible. Encourage, reassure, and explain care.
+Communicate with tactical leadership ASAP and throughout treatment. Provide casualty status and evac 
+ requirements. 
+Communicate with the evacuation system to arrange TACEVAC.
+Communicate with medical personnel on evacuation assets and relay mechanism of injury, injuries sustained, 
+ signs/symptoms and treatments rendered.
+7
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+ABBREVIATED TCCC GUIDELINES
+31 JAN 2017
+Transition of Care
+Tactical force should establish evacuation point security and stage casualties for evacuation.
+Tactical force personnel/medic should communicate patient status to TACEVAC personnel to include stable/
+ unstable, injuries identified, and treatments rendered.
+TACEVAC personnel stage casualties on evac platform as required.
+Secure casualties on evac platform IAW unit policies, platform configurations, and safety requirements.
+ TACEVAC medical personnel reassess casualties and re-evaluate all injuries and interventions.
+Airway Management- Consider the following for casualty with airway obstruction or impending airway obstruction:
+-Supraglottic airway, or
+-Endotracheal intubation
+In addition to the principles of Tactical Field Care consider the following for Tactical Evacuation Care:
+Communication
+Communicate with the casualty if possible. Encourage, reassure, and explain care
+ Communicate with next level of care and relay mechanism of injury, injuries sustained, signs/symptoms, and 
+ treatments rendered.
+Basic Management Plan for Tactical Evacuation Care (TACEVAC)
+Breathing
+Consider chest tube insertion if no improvement and/or long transport is anticipated.
+Administer oxygen when possible for the following types of casualties:
+ -Low oxygen saturation by pulse oximetry
+ -Injuries associated with impaired oxygenation
+ -Unconscious casualty
+ -Casualty with TBI (maintain oxygen saturation > 90%)
+ -Casualty in shock
+ -Casualty at altitude
+Traumatic Brain Injury-Casualties with moderate/severe TBI should be monitored for:
+ -Decreases in level of consciousness
+ -Pupillary dilation
+ -SBP should be >90 mmHg
+ -O2 sat > 90
+ -Hypothermia
+ -PCO2 (If capnography is available, maintain between 35-40 mmHg)
+ -Penetrating head trauma (if present, administer antibiotics)
+ -Assume a spinal (neck) injury until cleared
+If impending herniation is suspected take the following actions:
+ -Administer 250 cc of 3 or 5% hypertonic saline bolus
+ -Elevate the casualty’s head 30 degrees
+ -Hyperventilate the casualty
+8
+CARE UNDER FIRE
+Return Fire and Take Cover
+Casualty 
+Conscious?
+Direct casualty 
+to move to 
+cover and 
+apply self-aid
+Move casualty 
+to cover if 
+tactically 
+feasible
+Casualty moved to cover 
+or extrication needed*
+STOP LIFE 
+THREATENING 
+BLEEDING
+Limb 
+Tourniquet 
+Indicated?
+Use CoTCCC 
+Recommended Limb 
+Tourniquet applied 
+proximal to bleeding 
+site
+Continue with Fight / 
+Mission
+Move casualty to CCP or 
+secure area and initiate 
+Tactical Field Care
+TACTICAL FIELD CARE
+YES
+NO
+YES
+NO
+LIFE THREATENING BLEEDING:
+Spurting Blood or Flowing Blood
+Blood soaking rapidly through uniform 
+or pooling on the ground
+Complete Amputation
+Try to keep casualty 
+from sustaining 
+additional wounds.
+Try to keep casualty 
+from sustaining 
+additional wounds.
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Casualty 
+Sustained
+Indicates Combat Medic 
+capability level skill
+* Extrication
+-Casualties should be extricated from 
+burning vehicles or buildings and moved 
+to relative safety. Do what is necessary 
+to stop burning process.
+Casualty Movement:
+- The fastest method is dragging along 
+the long axis of patient’s body by two 
+rescuers.
+-Spinal precautions or stabilization should 
+only be considered after a casualty is 
+removed from the enemy threat and 
+indicated by mechanism of injury.
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+Airway management is 
+generally best deferred until 
+the Tactical Field Care phase
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+Place tourniquets “High & 
+Tight” if bleeding site is not 
+easily identifiable
+9
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE
+Establish Security Perimeter.
+Maintain Situational Awareness.
+Triage multiple casualties into 
+CCP or secure area as required
+Casualties with altered mental status should have: 
+- Weapons cleared and secured
+- Communications secured
+- Sensitive missions items redistributed
+Amenable to Limb 
+Tourniquet?
+Tighten previously applied tourniquet or apply a 
+CoTCCC-recommended Limb Tourniquet. Apply a 
+2nd Tourniquet if bleeding not controlled.
+Use CoTCCC-recommended 
+Hemostatic Dressing/Agent
+Amenable to Junctional 
+Device?
+Apply CoTCCC-recommended 
+Junctional Device
+YES
+YES
+NO
+NO
+MASSIVE 
+HEMORRHAGE
+Uncontrolled 
+Massive External 
+Hemorrhage or 
+Traumatic Amputation 
+Present?
+YES
+NO
+Head Wounds
+Neck Wounds
+Junctional Wounds
+Maintain Pressure with CoTCCCrecommended Hemostatic Dressing/
+Agent and Direct Pressure
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL FIELD CARE
+Hemorrhage Controlled?
+YES
+NO
+Hemorrhage 
+Controlled?
+YES
+NO
+Assess minimal bleeding after airway 
+and breathing management
+Triage as required.
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+10
+Airway Obstruction or 
+Impending Airway Obstruction
+Unconscious without Airway 
+Obstruction 
+Chin Lift / Jaw Thrust Maneuver
+Insert Nasopharyngeal Airway
+Recovery Position
+Previous Airway 
+Procedures Successful?
+Perform Surgical 
+Cricothyroidotomy
+CricKey Technique (preferred)
+Bougie-assisted surgical technique
+Standard open surgical technique
+Assess Respiration / 
+Breathing
+YES
+NO
+Assess Airway
+Use lidocaine if 
+casualty is conscious.
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+Conscious with NO 
+airway trauma or 
+problem identified
+Chin Lift / Jaw Thrust Maneuver
+Insert Nasopharyngeal Airway
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+If able, allow casualty to assume 
+any position that best protects the 
+airway, to include sitting up and 
+leaning forward.
+TACTICAL FIELD CARE CONTINUED
+AIRWAY
+Spinal stabilization is not 
+necessary for casualties with 
+penetrating trauma.
+OR
+OR
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+11
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+Assess Respiration / 
+Breathing
+Vented chest seals are 
+preferred over non-vented.
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+YES
+NO
+Decompression Needle
+14-gauge, 3. 25 inch needle/
+catheter unit
+Primary Site:
+2nd Intercostal Space/
+Midclavicular line
+Alternate Site:
+4th or 5th Intercostal Space / 
+Anterior Axillary Line
+Burp or remove chest seal if applied. 
+Repeat as necessary.
+If moderate or severe TBI is suspected, provide 
+supplemental O2 if available to maintain 
+SpO2>90%
+MONITOR FOR TENSION 
+PNEUMOTHORAX
+Initiate Pulse Oximetry 
+Monitoring if available
+Needle Decompress Chest at 
+Primary or Alternate Site if indicated. 
+Repeat as necessary.
+TENSION PNEUMOTHORAX INDICATORS:
+Increasing Hypoxia
+Respiratory Distress
+Hypotension
+Progressive Respiratory 
+Distress and Known or 
+Suspected Torso Trauma?
+Suspect/Consider Tension 
+Pneumothorax
+Needle Decompress Chest at Primary 
+or Alternate Site on injured side. 
+Repeat as necessary.
+YES
+NO
+Open/Sucking 
+Chest Wound?
+Apply Vented Chest Seal to all open/
+sucking chest wounds
+RESPIRATION / BREATHING
+Tension Pneumothorax 
+Suspected?
+YES
+NO
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+12
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+Bleeding Assessment
+Place second tourniquet 2-3 inches 
+above wound on skin. 
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Reassess previously applied tourniquets. 
+NO
+Leave previous tourniquet in place
+Loosen first tourniquet once second 
+tourniquet is effectively placed
+Bleeding Controlled?
+Leave tourniquet in place – maximum 2 
+hours of tourniquet time until 
+reassessment
+YES
+YES
+Before 2 hours, reassess: if not in shock, 
+able to monitor the wound closely for 
+bleeding, and no amputation – control 
+bleeding with hemostatic and/or pressure 
+dressing. Do not remove if TQ in place 
+>6 hours. 
+Control bleeding with 
+hemostatic and/or pressure 
+dressing.
+Move original tourniquet to position next 
+to second tourniquet directly on skin and 
+tighten both until bleeding stopped and 
+distal pulse not palpated
+NO
+Monitor wound closely 
+for bleeding
+Tourniquet not needed criteria:
+-Minor lacerations w/minimal 
+ bleeding
+-Surface Abrasions
+-Bleeding controlled by pressure 
+ dressing
+Expose wound and 
+determine if tourniquet is 
+needed.
+Note time of tourniquet 
+release on tourniquet and/or 
+casualty card
+Loosen tourniquet in <2 hours if 
+bleeding can be controlled by 
+other means. Leave tourniquet 
+loosely on limb for rapid 
+reapplication if needed. Do not 
+remove if TQ in place >6 hours. 
+Note time of tourniquet 
+reapplication on tourniquet 
+and/or casualty card
+Each hemostatic works differently. If one 
+fails to control bleeding, it may be 
+removed and a fresh dressing of the same 
+type or a different type applied (Xstat 
+cannot be removed in the field) 
+CIRCULATION
+(BLEEDING)
+Pelvic Binder indicated?
+NO
+YES
+Apply a Pelvic Binder
+ Pelvic Binder Indications- Severe blunt trauma or 
+blast injury with one or more of the following: 
+ -Pelvic pain
+ -Any major lower limb amputation/near amputation
+ -Physical exam suggestive of pelvic fracture
+ -Unconsciousness or Shock
+Reassess previously applied hemostatic 
+dressings/agents 
+If needed, control bleeding 
+with hemostatic and/or 
+pressure dressing.
+Note time of tourniquet 
+release on tourniquet and/or 
+casualty card
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+13
+Initiate 18G IV or Saline Lock
+If IV is not obtainable, use IO route
+ TXA Criteria:
+ -Presents with Hemorrhagic Shock
+ -One or more major amputations
+ -Penetrating torso trauma
+ -Evidence of severe bleeding
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Reassess frequently for presence of shock
+After initial fluid resuscitation, administer 
+second dose of Tranexamic Acid (TXA) 1 gm 
+in 100 ml of NS or LR IV over 10 min 
+Do NOT administer 3 hours or more after injury
+TXA Needed?
+Administer 1 gm of Tranexamic Acid (TXA) in 
+100 ml of NS or LR IV over 10min 
+Administer as soon as possible after injury
+Do NOT administer >3hours after injury
+YES
+NO
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+CIRCULATION
+(INTRAVENOUS ACCESS)
+CIRCULATION
+(TRANEXAMIC ACID)
+IV access indicated?
+IV/IO Indications:
+-In hemorrhagic shock or at 
+ significant risk of shock
+-Casualty needs IV/IO 
+medications
+YES
+NO
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+14
+Hemorrhagic shock 
+present?
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Shock Criteria:
+-Altered Mental Status (in absence of TBI)
+-Weak/Absent Radial Pulse
+Fluid Resuscitation
+(in preferred order/combinations)
+Blood Products 
+Available?
+Whole Blood Transfusion
+Plasma, RBCs, Platelets 
+1:1:1
+Plasma and RBCs 1:1
+Plasma (reconstituted, 
+liquid, or thawed) or 
+RBCs
+Hextend 500 ml bolus
+Lactated Ringers 500 ml 
+OR Plasma-Lyte A 
+500 ml bolus
+Re-assess after each 
+unit or 500 cc bolus 
+administered
+Fluid resuscitation and hypothermia 
+prevention should be executed 
+simultaneously if possible
+YES
+NO
+PO fluids permissible if casualty is 
+conscious and can swallow
+Reassess frequently for presence of shock
+YES
+NO
+OR, if not available
+After initial fluid resuscitation, administer 
+second dose of Tranexamic Acid (TXA) 1 gm 
+in 100 ml of NS or LR IV over 10 min 
+Do NOT administer 3 hours or more after injury
+If altered mental status due to suspected 
+TBI and has weak/absent radial pulse, 
+then resuscitate to restore normal radial 
+pulse or Systolic BP >90mmHg
+Continue fluid resuscitation until:
+Palpable radial pulse OR
+Improved mental status OR
+Systolic BP of 80-90 mmHg
+If not in shock, NO IV fluids are 
+immediately necessary
+If shock recurs, check all 
+hemorrhage management 
+interventions for effectiveness. 
+Repeat fluid resuscitation.
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+CIRCULATION
+(SHOCK / FLUID RESUSCITATION)
+Assess for Shock
+OR, if not available
+OR, if not available
+OR, if not available
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+15
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+HYPOTHERMIA 
+PREVENTION
+Minimize casualty environmental exposure / promote heat retention
+Keep Personal Protection Equipment (PPE) on if feasible and warranted
+Replace wet clothes if possible
+Use CoTCCC recommended hypothermia prevention equipment if available
+Use dry blankets, poncho liner or sleeping bag. Keep casualty dry.
+Warm IV fluids are preferred if possible
+ Hypothermia prevention and fluid 
+resuscitation should be executed 
+simultaneously if possible
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Penetrating Eye Trauma 
+noted or suspected?
+Perform rapid field test of visual 
+acuity and document
+Cover eye with Rigid Eye Shield 
+(DO NOT use pressure patch)
+Ensure administration of 
+Moxfloxacin 400 mg from Combat 
+Wound Medication Pack
+YES
+NO
+PENETRATING EYE 
+TRAUMA
+Patient Monitoring
+Patient monitoring should be 
+initiated as early as possible
+Pulse oximetry should be utilized as a minimum adjunct to clinical 
+monitoring as stated in Breathing/Respiration section.
+Advanced non-invasive electronic monitoring and recording of vital 
+signs should be initiated if possible and available.
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+16
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+CONTINUE TACTICAL FIELD CARE
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Ensure Nalaxone (Narcan) 
+available if administering 
+opioid analgesics. 
+Administer 0. 4 – 2 mg q 2-3 
+min PRN
+Mild to Moderate Pain
+(Casualty still able to fight)
+Moderate to Severe Pain
+Administer Combat Wound Medication Pack
+Tylenol 650 mg bilayer caplet, 2 PO q8h
+Meloxicam 15 mg PO qd
+Disarm casualty
+Document Mental Status
+Is casualty in Shock or 
+Respiratory Distress or at 
+significant risk of developing 
+either?
+Administer Oral Transmucosal Fentanyl Citrate 
+(OTFC) 800 ug
+YES
+NO
+Reassess all pain management actions and 
+casualty reactions
+END POINT:
+Control of pain or Nystagmus development
+OR
+Monitor Airway-Breathing-Circulation 
+closely. Be prepared to provide 
+ventilatory assistance.
+Consider Ondansetron 4 mg ODT/IV/IO/
+IM q8h
+PRN for nausea/vomiting
+Add a second OTFC 800 ug 
+in 15 min if needed
+Administer Ketamine 
+50 mg IM or IN
+Repeat q30 min PRN
+Administer Ketamine 
+20 mg slow IV or IO
+Repeat q20 min PRN
+Casualties with 
+moderate to 
+severe pain are 
+likely not able to 
+fight.
+PAIN MANAGEMENT / ANALGESIA
+Assess Pain
+YES
+NO
+PO Able?
+Moxifloxacin 400 mg PO qd 
+(CWMP)
+Ertapenem 1 gm IV/IM qd
+Early administration of 
+antiobiotics is 
+recommended for ALL 
+open combat wounds
+ANTIBIOTICS
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+17
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+YES
+NO
+Burns?
+Cover burned areas with dry sterile 
+dressing
+Consider placing casualty in hypothermia 
+management equipment to cover/protect 
+wounds and prevent hypothermia
+Facial / Neck
+Burns?
+Aggressively monitor airway status and 
+O2 saturations
+Consider early surgical airway for respiratory 
+distress or O2 desaturation
+Estimate TBSA to nearest 10% using 
+Rule of Nines
+YES
+NO
+All TCCC interventions may be performed 
+on/through burned skin.
+Burns >20%?
+Initiate Fluid Resuscitation using USAISR Rule 
+of 10 using LR, NS or Hextend
+USAISR Rule of 10 Fluid Calculation:
+%TBSA X 10 ml/hour for adults 40-80 kg
+(for every 10 kg above 80 kg, increase rate by 
+100 ml/hour
+Hemorrhagic shock fluid management 
+takes precedence over burn fluid 
+resuscitation 
+YES
+NO
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Do not exceed 1000 ml of 
+Hextend for burn resuscitation, 
+but can be followed by LR or NS.
+INSPECT & DRESS KNOWN WOUNDS
+CHECK FOR ADDITIONAL WOUNDS
+Dress wounds to ensure hemorrhage control 
+and wound protection
+BURNS
+CONTINUE TACTICAL FIELD CARE
+SPLINT FRACTURES
+Splint Fractures and re-check pulses
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+18
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+Cardiopulmonary Resuscitation 
+(CPR)
+Considerations
+Battlefield blast or penetrating trauma 
+casualties with NO pulse, NO ventilations, 
+and NO other signs of life should not be 
+resuscitated.
+However, casualties with torso or 
+polytrauma with no pulse or respirations 
+should have bilateral needle 
+decompression performed to confirm/
+deny tension pneumothorax prior to 
+discontinuing care.
+TACTICAL FIELD CARE CONTINUED
+Communicate with 
+Casualty 
+Encourage, reassure, explain 
+care if possible
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+COMMUNICATION
+Communicate with casualty, tactical leadership, and 
+medical providers in evacuation chain
+Communicate with 
+Tactical Leadership 
+Provide casualty status and 
+evacuation requirements to 
+assist in evac coordination
+Communicate with 
+Evacuation Chain 
+Communicate with medical 
+providers on evac asset if 
+possible.
+Communicate with evacuation 
+system (PECC) to arrange 
+TACEVAC
+Relay mechanism of injury, 
+injuries sustained, signs/
+symptoms, and treatments 
+rendered.
+Document clinical assessments, treatments rendered, 
+and changes on DD1380 TCCC Card and forward with 
+casualty to next level of care.
+CONTINUE TACTICAL FIELD CARE
+DOCUMENTATION
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+19
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL FIELD CARE CONTINUED
+Complete & Secure TCCC 
+casualty card to each casualty
+Secure all loose ends of bandages and wraps
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Transition of Care / Casualty Handover:
+-Identify receiving care provider on evac platform
+-Establish direct contact with receiving provider
+ (Radio Comms/Eye Contact/Hand Contact)
+-Provide a SIT Status on each casualty beginning 
+with most serious
+ Stable or Unstable
+ Injuries (Life threats & MOI)
+ Treatments (Drugs & Interventions)
+PREPARE FOR EVACUATION
+Package Casualty for 
+Evacuation
+Secure hypothermia prevention wraps/blankets/
+straps
+Secure litter straps as required
+Consider additional padding for long evacuations 
+Provide instructions to ambulatory patients as 
+requried
+Stage Casualties for 
+Evacuation
+Stage casualties for evacuation IAW unit SOP
+Maintain security at evac point IAW unit SOP
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+20
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL EVACUATION CARE
+Secure Casualties in Evacuation Platform IAW unit 
+policies, configuration and safety requirements
+Refer to appropriate manuals for 
+specifics and procedures for 
+Helicopter Landing Zones (HLZ), 
+Ambulance Exchange Point (AXP), 
+Maritime Evacuation Point (MEP) or 
+as dictated by unit mission.
+Re-Assess casualties and re-evaluate all injuries and 
+previous interventions
+Triage and stage casualties on evacuation platform 
+as required
+TRANSITION OF CARE
+Tactical Force
+Establish evacuation point security and stage casualties 
+for evacuation
+Communicate patient information and status to 
+TACEVAC personnel as clearly as possible.
+TACEVAC Personnel
+ Minimum information communicated:
+ -Stable or unstable
+ -Injuries identified
+ -Treatments rendered
+Method of SIT Report:
+-Identify receiving care provider on evac 
+platform
+-Establish direct contact with receiving 
+provider
+ (Radio Comms/Eye Contact/Hand Contact*)
+-Provide a SIT Status on each casualty 
+beginning with most serious
+ Stable or Unstable
+ Injuries (Life threats & MOI)
+ Treatments (Drugs & Interventions)
+*if verbal communication is difficult, point to 
+each injury and treatment and confirm 
+acknowledgement.
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+21
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL EVACUATION CARE
+Triage multiple casualties onto 
+evacuation platform as required
+Casualties with altered mental status should should have 
+weapons and radios taken away
+Amenable to Limb 
+Tourniquet?
+Tighten previously applied tourniquet or apply a 
+CoTCCC-recommended Limb Tourniquet. Apply a 
+2nd Tourniquet if bleeding not controlled.
+Use CoTCCC-recommended 
+Hemostatic Dressing/Agent
+Amenable to Junctional 
+Device?
+Apply CoTCCC-recommended 
+Junctional Device
+YES
+YES
+NO
+NO
+MASSIVE 
+HEMORRHAGE
+Uncontrolled 
+Massive External 
+Hemorrhage or 
+Traumatic Amputation 
+Present?
+YES
+NO
+Head Wounds
+Neck Wounds
+Junctional Wounds
+Maintain Pressure with CoTCCCrecommended Hemostatic Dressing/
+Agent and Direct Pressure
+Hemorrhage Controlled?
+YES
+NO
+Hemorrhage 
+Controlled?
+YES
+NO
+Assess minimal bleeding after airway 
+and breathing management
+Re-Assess casualties and re-evaluate all injuries and 
+previous interventions
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+22
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL EVACUATION CARE
+Airway Obstruction or 
+Impending Airway Obstruction
+Unconscious without Airway 
+Obstruction 
+Chin Lift / Jaw Thrust Maneuver
+Insert Nasopharyngeal Airway
+Recovery Position
+Previous Airway 
+Procedures Successful?
+CricKey Technique (preferred)
+Bougie-assisted surgical technique or
+Standard open surgical technique
+Assess Respiration / 
+Breathing
+YES
+NO
+Assess Airway
+Use lidocaine if 
+casualty is conscious.
+Conscious with NO 
+airway trauma or 
+problem identified
+Chin Lift / Jaw Thrust Maneuver
+Insert Nasopharyngeal Airway
+If able, allow casualty to assume 
+any position that best protects the 
+airway, to include sitting up and 
+leaning forward.
+Perform Surgical 
+Cricothyroidotomy
+Supraglottic Airway
+Endotracheal Intubation
+OR
+OR
+Spinal stabilization is not 
+necessary for casualties with 
+penetrating trauma.
+AIRWAY
+OR
+OR
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+23
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Assess Respiration / 
+Breathing
+Vented chest seals are 
+preferred over non-vented.
+YES
+NO
+Decompression Needle
+14-gauge, 3. 25 inch needle/
+catheter unit
+Primary Site:
+2nd Intercostal Space/
+Midclavicular line
+Alternate Site:
+4th or 5th Intercostal Space / 
+Anterior Axillary Line
+Burp or remove chest seal if applied. 
+Repeat as necessary.
+MONITOR FOR TENSION 
+PNEUMOTHORAX
+Initiate Pulse Oximetry 
+Monitoring if not previously 
+done
+Needle Decompress Chest at 
+Primary or Alternate Site if indicated. 
+Repeat as necessary.
+TENSION PNEUMOTHORAX INDICATORS:
+Increasing Hypoxia
+Respiratory Distress
+Hypotension
+Progressive Respiratory 
+Distress and Known or 
+Suspected Torso Trauma?
+Suspect/Consider Tension 
+Pneumothorax
+Needle Decompress Chest at Primary 
+or Alternate Site on injured side. 
+Repeat as necessary.
+YES
+NO
+Open/Sucking 
+Chest Wound?
+Apply Vented Chest Seal to all open/
+sucking chest wounds
+Administer Oxygen when possible as indicated:
+-Low oxygen saturation by pulsoximetry
+-Injuries associated with impaired oxygenation
+-Unconscious casualty
+-Casualty in shock
+-Casualty at altitude
+-Known or suspected smoke inhalation
+If moderate or severe TBI is suspected, 
+provide supplemental O2 if available to 
+maintain SpO2>90%
+Consider chest tube insertion if no 
+improvement and/or long transport anticipated
+CONTINUE TACTICAL EVACUATION CARE
+RESPIRATION / 
+BREATHING
+Tension Pneumothorax 
+Suspected?
+YES
+NO
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+24
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL EVACUATION CARE
+Place second tourniquet 2-3 inches 
+above wound on skin. 
+NO
+Leave previous tourniquet in place
+Loosen first tourniquet once second 
+tourniquet is effectively placed
+Bleeding Controlled?
+YES
+YES
+Control bleeding with 
+hemostatic and/or pressure 
+dressing.
+Move original tourniquet to position next 
+to second tourniquet directly on skin and 
+tighten both until bleeding stopped and 
+distal pulse not palpated
+NO
+Monitor wounds 
+closely for bleeding
+Tourniquet not needed criteria:
+-Minor lacerations w/minimal 
+ bleeding
+-Surface Abrasions
+-Bleeding controlled by pressure 
+ dressing
+Expose wound and 
+determine if tourniquet is 
+needed.
+Note time of tourniquet 
+release on tourniquet and/or 
+casualty card
+Loosen tourniquet in <2 hours if 
+bleeding can be controlled by 
+other means. Leave tourniquet 
+loosely on limb for rapid 
+reapplication if needed. Do not 
+remove if TQ in place >6 hours. 
+Note time of tourniquet 
+reapplication on tourniquet 
+and/or casualty card
+Reassess previously applied hemostatic 
+dressings/agents 
+Each hemostatic works differently. If one 
+fails to control bleeding, it may be 
+removed and a fresh dressing of the same 
+type or a different type applied (Xstat 
+cannot be removed in the field) 
+Bleeding Assessment
+CIRCULATION
+(BLEEDING)
+Pelvic Binder indicated?
+NO
+YES
+Apply a Pelvic Binder
+ Pelvic Binder Indications- Severe blunt trauma or 
+blast injury with one or more of the following: 
+ -Pelvic pain
+ -Any major lower limb amputation/near amputation
+ -Physical exam suggestive of pelvic fracture
+ -Unconsciousness or Shock
+Reassess previously applied tourniquets. 
+Leave tourniquet in place – maximum 2 
+hours of tourniquet time until 
+reassessment
+Before 2 hours, reassess: if not in shock, 
+able to monitor the wound closely for 
+bleeding, and no amputation – control 
+bleeding with hemostatic and/or pressure 
+dressing. Do not remove if TQ in place 
+>6 hours. 
+If needed, control bleeding 
+with hemostatic and/or 
+pressure dressing.
+Note time of tourniquet 
+release on tourniquet and/or 
+casualty card
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+25
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL EVACUATION CARE
+Initiate 18G IV or Saline Lock
+If IV is not obtainable, use IO route
+ TXA Criteria:
+ -Presents with Hemorrhagic Shock
+ -One or more major amputations
+ -Penetrating torso trauma
+ -Evidence of severe bleeding
+Reassess frequently for presence of shock
+After initial fluid resuscitation, administer 
+second dose of Tranexamic Acid (TXA) 1 gm 
+in 100 ml of NS or LR IV over 10 min 
+Do NOT administer 3 hours or more after injury
+TXA Needed?
+Administer 1 gm of Tranexamic Acid (TXA) in 
+100 ml of NS or LR IV over 10min 
+Administer as soon as possible after injury
+Do NOT administer >3hours after injury
+YES
+NO
+CIRCULATION
+(INTRAVENOUS ACCESS)
+CIRCULATION
+(TRANEXAMIC ACID)
+IV access indicated?
+IV/IO Indications:
+-In hemorrhagic shock or at 
+ significant risk of shock
+-Casualty needs IV/IO 
+medications
+YES
+NO
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+26
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Hemorrhagic shock 
+present?
+Shock Criteria:
+-Altered Mental Status (in absence of TBI)
+-Weak/Absent Radial Pulse
+Fluid Resuscitation
+(in preferred order/combinations)
+Blood Products 
+Available?
+Whole Blood Transfusion
+Plasma, RBCs, Platelets 
+1:1:1
+Plasma and RBCs 1:1
+Plasma (reconstituted, 
+liquid, or thawed) or 
+RBCs
+Hextend 500cc bolus
+Lactated Ringers 500cc 
+OR Plasma-Lyte A 
+500cc bolus
+Re-assess after each 
+unit or 500 cc bolus 
+administered
+Fluid resuscitation and hypothermia 
+prevention should be executed 
+simultaneously if possible
+YES
+NO
+PO fluids permissible if casualty is 
+conscious and can swallow
+Reassess frequently for presence of shock
+YES
+NO
+OR, if not available
+After initial fluid resuscitation, administer 
+second dose of Tranexamic Acid (TXA) 1 gram 
+in 100 cc of NS or LR IV over 10 min 
+Do NOT administer 3 hours or more after injury
+If altered mental status due to suspected 
+TBI and has weak/absent peripheral 
+pulse, then resuscitate to restore normal 
+radial pulse or Systolic BP >90mmHg
+Continue fluid resuscitation until:
+Palpable radial pulse OR
+Improved mental status OR
+Systolic BP of 80-90 mmHg
+If not in shock, NO IV fluids are 
+immediately necessary
+If shock recurs, check all 
+hemorrhage management 
+interventions for effectiveness. 
+Repeat fluid resuscitation.
+CONTINUE TACTICAL EVACUATION CARE
+CIRCULATION
+(SHOCK / FLUID RESUSCITATION)
+Assess for Shock
+OR, if not available
+OR, if not available
+OR, if not available
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+27
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+-Administer 250 ml of 3% or 5% hypertonic 
+saline bolus
+Assess for traumatic brain 
+injury (TBI)
+Impending herniation 
+suspected?
+-Elevate the casualty’s head 30 degrees
+Initiate capnography if available to maintain 
+end-tidal CO2 between 30-35mmHg
+-Hyperventilate the casualty at 20 breaths/min 
+with highest O2 concentration available
+Monitored for:
+-Decreased level of consciousness
+-Pupillary dilation
+-SBP should be >90 mmHg
+-O2 sat>90
+-Hypothermia
+-PCO2 maintained between 35-40 mmHg
+-Penetrating head trauma (administer antibiotics)
+-Assume a spinal (neck) injury until cleared
+Moderate/Severe TBI 
+suspected?
+CONTINUE TACTICAL EVACUATION CARE
+NO
+YES
+NO
+YES
+ HERNIATION INDICATORS:
+ -Assymetric Pupils / Unilateral 
+ pupillary dilation accompanied by 
+ decreased level of consciousness.
+ -Fixed Dilated Pupil
+ -Extensor Posturing
+ -Widening Pulse Pressure
+- DO NOT hyperventilate the casualty 
+unless signs of impending herniation 
+are present.
+- Casualties may be hyperventilated 
+ with O2 using the BVM.
+ TBI Indicators:
+ -Obvious mechanism of injury
+ -Loss of consciousness >30 min
+ -Confused of disoriented state
+ -Moderate TBI – GCS 9-13
+ -Severe TBI – GCS 3-8
+TRAUMATIC BRAIN INJURY (TBI)
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+28
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+HYPOTHERMIA 
+PREVENTION
+Minimize casualty environmental exposure / promote heat retention
+Keep Personal Protection Equipment (PPE) on if feasible and warranted
+Replace wet clothes if possible
+Use CoTCCC recommended hypothermia prevention equipment if available
+Use dry blankets, poncho liner or sleeping bag. Keep casualty dry.
+Use portable fluid warmer to warm all IV fluids including blood.
+ Hypothermia prevention and fluid 
+resuscitation should be executed 
+simultaneously if possible
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Penetrating Eye Trauma 
+noted or suspected?
+Perform rapid field test of visual 
+acuity and document
+Cover eye with Rigid Eye Shield 
+(DO NOT use pressure patch)
+Ensure administration of 
+Moxfloxacin 400 mg from Combat 
+Wound Medication Pack
+YES
+NO
+PENETRATING EYE 
+TRAUMA
+Patient Monitoring
+Patient monitoring should be 
+initiated as early as possible
+Pulse oximetry should be utilized as a minimum adjunct to clinical 
+monitoring as stated in Breathing/Respiration section.
+Advanced non-invasive electronic monitoring and recording of vital 
+signs should be initiated if possible and available.
+Protect the casualty from wind if doors/windows must be kept open.
+CONTINUE TACTICAL EVACUATION CARE
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+29
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+Ensure Nalaxone (Narcan) 
+available if administering 
+opioid analgesics. 
+Administer 0. 4 – 2 mg q 2-3 
+min PRN
+Mild to Moderate Pain
+(Casualty still able to fight)
+Moderate to Severe Pain
+Administer Combat Wound Medications Pack
+Tylenol 650 mg bilayer caplet, 2 PO q8h
+Meloxicam 15 mg PO qd
+Disarm casualty
+Document Mental Status
+Is casualty in Shock or 
+Respiratory Distress or at 
+significant risk of developing 
+either?
+Administer Oral Transmucosal Fentanyl Citrate 
+(OTFC) 800 ug
+YES
+NO
+Reassess all pain management actions and 
+casualty reactions
+END POINT:
+Control of pain or Nystagmus development
+OR
+Monitor Airway-Breathing-Circulation 
+closely. Be prepared to provide 
+ventilatory assistance.
+Consider Ondansetron 4 mg ODT/IV/IO/
+IM q8h
+PRN for nausea/vomiting
+Add a second OTFC 800 ug 
+in 15 min if needed
+Administer Ketamine 
+50 mg IM or IN
+Repeat q30 min PRN
+Administer Ketamine 
+20 mg slow IV or IO
+Repeat q20 min PRN
+PAIN MANAGEMENT / ANALGESIA
+Assess Pain
+YES
+NO
+PO Able?
+Moxifloxacin 400 mg PO qd 
+(CWMP)
+Ertapenem 1 gm IV/IM qd
+Early administration of 
+antiobiotics is 
+recommended for ALL 
+open combat wounds
+ANTIBIOTICS
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+CONTINUE TACTICAL EVACUATION CARE
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+30
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+CONTINUE TACTICAL EVACUATION CARE
+YES
+NO
+Burns?
+Cover burned areas with dry sterile 
+dressing
+Consider placing casualty in hypothermia 
+management equipment to cover/protect 
+wounds and prevent hypothermia
+Facial / Neck
+Burns?
+Aggressively monitor airway status and 
+O2 saturations
+Consider early surgical airway for respiratory 
+distress or O2 desaturation
+Estimate TBSA to nearest 10% using 
+Rule of Nines
+YES
+NO
+All TCCC interventions may be performed 
+on/through burned skin.
+Burns >20%?
+Initiate Fluid Resuscitation using USAISR Rule 
+of 10 using LR, NS or Hextend
+USAISR Rule of 10 Fluid Calculation:
+%TBSA X 10 ml/hour for adults 40-80 kg
+(for every 10 kg above 80 kg, increase rate by 
+100 ml/hour
+Hemorrhagic shock fluid management 
+takes precedence over burn fluid 
+resuscitation 
+YES
+NO
+Do not exceed 1000 ml of 
+Hextend for burn resuscitation, 
+but can be followed by LR or NS.
+INSPECT & DRESS KNOWN WOUNDS
+CHECK FOR ADDITIONAL WOUNDS
+Dress wounds to ensure hemorrhage control 
+and wound protection
+BURNS
+SPLINT FRACTURES
+Splint Fractures and re-check pulses
+Extra emphasis should be placed 
+on hypothermia prevention and IV 
+warming for burn patients.
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+31
+TACTICAL COMBAT CASUALTY CARE
+ALGORITHM
+TACTICAL EVACUATION CARE 
+(TACEVAC)
+Indicates Combat 
+Paramedic or SOF Medic 
+capability level skill
+Indicates All Combatants 
+and Combat Lifesaver 
+capability level skill
+Indicates Combat Medic 
+capability level skill
+NEXT LEVEL CARE
+Cardiopulmonary Resuscitation 
+(CPR)
+Considerations
+CPR may be attempted in TACEVAC if 
+casualty does not have obviously fatal 
+wounds and quickly arriving at a surgical 
+capability. CPR should not be attempted 
+if compromising the mission or denying 
+lifesaving treatment to other casualties.
+Casualties with torso or polytrauma with 
+no pulse or respirations should have 
+bilateral needle decompression performed 
+to confirm/deny tension pneumothorax 
+prior to discontinuing care.
+Communicate with 
+Casualty 
+Encourage, reassure, explain 
+care if possible
+COMMUNICATION
+Communicate with casualty and medical providers 
+in evacuation chain
+Communicate with 
+Receiving Medical Facility 
+Communicate with medical 
+providers on evac asset if 
+possible.
+Relay mechanism of injury, 
+injuries sustained, signs/
+symptoms, and treatments 
+rendered.
+Document clinical assessments, treatments rendered, 
+and changes on DD1380 TCCC Card and forward with 
+casualty to next level of care.
+DOCUMENTATION
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+32
+33
+34
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TRIAGE CATEGORIES
+This category includes those casualties who require an immediate LSI and/or surgery. Put simply, if medical attention is not provided they will die. 
+The key to successful triage is to locate these individuals as quickly as possible. Casualties do not remain in this category for an extended 
+period of time. They are either found, triaged and treated, or they die! Hemodynamically unstable casualties with airway obstruction, chest or 
+abdominal injuries, massive external bleeding, or shock deserve this classification.
+IMMEDIATE
+This category includes those wounded who are likely to need surgery, but whose general condition permits delay in surgical treatment without 
+unduly endangering the life, limb, or eyesight of the casualty. Sustaining treatment will be required (e.g., oral or IV fluids, splinting, 
+administration of antibiotics and pain control), but can possibly wait. Examples of casualties in this category include those with no evidence of 
+shock who have; large soft tissue wounds, fractures of major bones, intra-abdominal and/or thoracic wounds, and burns to less than 20% of total 
+body surface area (TBSA).
+DELAYED
+Casualties in this category are often referred as the “walking wounded.” Although these patients may appear to be in bad shape at first, it is their 
+physiologic state that tells the true story. These casualties have minor injuries (e.g., small burns, lacerations, abrasions, or small fractures) that 
+can usually be treated with self- or buddy-aid. These casualties should be utilized for mission requirements (e.g., scene security), to help treat 
+and/or transport the more seriously wounded, or put back into the fight.
+MINIMAL
+Casualties in this category have wounds that are so extensive, that even if they were the sole casualty and had the benefit of optimal 
+medical resources, their survival would be highly unlikely. Even so, expectant casualties should not be neglected. They should receive 
+comfort measures and pain medication if possible, and they deserve re-triage as appropriate. Examples of expectant casualties are the 
+unresponsive with injuries such as penetrating head trauma with obvious massive damage to the brain.
+EXPECTANT
+EVACUATION PRECEDENCE
+· 
+Significant injuries from a dismounted 
+IED attack
+· 
+Gunshot wound or penetrating shrapnel to 
+chest, abdomen, or pelvis
+· 
+Any casualty with ongoing airway 
+difficulty
+· 
+Any casualty with ongoing respiratory 
+difficulty
+· 
+Unconscious casualty
+· 
+Casualty with known or suspected spinal 
+injury
+· 
+Casualty in shock
+· 
+Casualty with bleeding that is difficult to 
+control
+· 
+Moderate/Severe TBI 
+· 
+Burns greater than 20% Total Body 
+Surface Area 
+URGENT / CATEGORY A
+(WITHIN 2 HOURS) *
+· 
+Isolated, open extremity fracture with 
+bleeding controlled
+· 
+Any casualty with a tourniquet in place
+· 
+Penetrating or other serious eye injury
+· 
+Significant soft-tissue injury without 
+major bleeding
+· 
+Extremity injury with absent distal pulses
+· 
+Burns over 10-20% of Total Body Surface 
+Area
+PRIORITY / CATEGORY B
+(WITHIN 4 HOURS)
+ROUTINE / CATEGORY C
+(WITHIN 24 HOURS)
+· 
+Concussion (mild traumatic brain injury)
+· 
+Gunshot wound to extremity - bleeding 
+controlled without tourniquet
+· 
+Minor soft-tissue shrapnel injury
+· 
+Closed fracture with intact distal pulses
+· 
+Burns over < 10% Total Body Surface 
+Area
+* Note that by Secretary of Defense directive, all casualties categorized as CAT A in the 
+Afghanistan theater of operations should be able to be evacuated to an MTF with a surgical 
+capability within 60 minutes from the time that the evacuation mission is approved.
+34
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+MEDEVAC REQUEST
+MEDEVAC REQUEST 9-LINE
+LINE 1: LOCATION OF UNIT
+LINE 2: CALLSIGN AND 
+FREQUENCY AT THE PZ
+LINE 3: NUMBER AND 
+PRECEDENCE OF CASUALTIES
+LINE 4: SPECIAL EQUIPMENT 
+REQUIRED
+LINE 5: NUMBER OF 
+CASUALTIES BY TYPE
+LINE 6: SECURITY AT PZ
+LINE 7: PZ MARKING
+LINE 8: CASUALTIES BY 
+NATIONALITY/STATUS
+LINE 9: PZ TERRAIN/OBSTACLES
+ (CBRN CONTAMINATION IF APPLICABLE)
+HLZ GRID (MGRS):
+CALLSIGN:
+FREQUENCY:
+A: Number of Urgent Casualties
+B: Number of Priority Casualties
+C: Number of Routine Casualties
+A: None
+B: Hoist
+C: Extraction
+D: Ventilator
+E: Other (specify)
+L: Number of Litter Casualties
+A: Number of Ambulatory Casualties
+E: Number of Escorts 
+N: No enemy 
+P: Possible enemy
+E: Enemy in area
+X: Armed escort required
+A: Panels
+B: Pyrotechnics
+C: Smoke (designate color)
+D: None
+E: Other (specify)
+A: US/Coalition Military
+B: US/Coalition Civilian
+C: Non-Coalition 
+D: Non-Coalition Civilian
+E: Opposing Forces/Detainee
+F: Child
+Brief description of significant obstacles on approach / 
+departure headings and type of predominant terrain for the 
+HLZ
+In accordance with and excerpted from 
+Army Training Publication (ATP) 4-02. 2 
+(Medical Evacuation)
+35
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+MIST REPORT FORMAT
+M – MECHANISM OF INJURY AND TIME OF INJURY (IF 
+KNOWN)
+I – INJURY OR ILLNESS
+S – SYMPTOMS AND VITAL SIGNS
+T – TREATMENT GIVEN
+MIST REPORT
+Mechanism of Injury and time of injury (if known)
+Injury or Illness
+A – Airway status
+B – Breathing rate
+C – Pulse rate
+D – Conscious/Unconscious
+E – Other signs
+Such as Tourniquet/Time Applied
+Drugs administered
+36
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+POINT-OF-INJURY / TCCC AFTER ACTION REPORT
+The POI/TCCC AAR can be found electronically at:
+www.cotccc.com
+or
+www.usaisr.amedd.army.mil/pdfs/POI_TCCC_AAR_26Apr2013.pdf 
+or
+atn.army.mil. 
+The TCCC AAR is to be completed within 72 hours of the injury 
+occurring, by the POI Medical team or Role I, and sent to the DoD 
+Trauma Registry (DoDTR).
+E-mail To:
+usarmy.jbsa.medcom-aisr.list.jts-trauma-registry@mail.mil. 
+The DoDTR is the data repository for DoD trauma-related injuries. The goal of this registry is to document, in 
+electronic format, information about the demographics, injury-producing incident, diagnosis and treatment, and 
+outcome of injuries sustained by US/Non-US military and US/ Non-US civilian personnel in wartime and peacetime 
+from the point of wounding to final disposition. The JTS collects data from TCCC cards (DD Form 1380, TCCC AARs 
+and from the Armed Forces Medical Examiner Services (AFMES). Documentation is vital to accumulate data in the 
+DoD Trauma registry, formerly the Joint Theater Trauma Registry (JTTR). The JTS functions as:
+ 
+1. JTS Operations consisting of; Data Acquisition mines Medical records to abstract, code, and enter critical 
+trauma data into the DoDTR database. Data Analysis develops, queries, and provides data from the DoDTR in 
+response to requests for information and conducts classified and non-classified data analysis. Data Automation 
+supports the information technology for the DoDTR and data-related special projects. 
+2. Trauma Care Delivery maintains a database of operational and physiologic parameters related to 
+delivery of en route care and has evaluated the validity of the "Golden Hour" standard for movement of casualties 
+from point of injury to the first surgical capability. The addition of a military en route care registry (MERCuRY) will 
+capture all ground, air and ship transport care. 
+3. Performance Improvement (PI) coordinates improvement activities across the spectrum of trauma care 
+developing PI course content and training for combatant command trauma system development. 
+37
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+POINT-OF-INJURY / TCCC AFTER ACTION REPORT
+38
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+POINT-OF-INJURY / TCCC AFTER ACTION REPORT
+39
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+COTCCC RECOMMENDED DEVICES & ADJUNCTS
+TOURNIQUETS
+Common Name / Brand Name
+DLA Nomenclature
+NSN
+Combat Application Tourniquet (CAT)
+Tourniquet, Nonpneumatic
+6515-01-521-7976
+SOF-Tactical Tourniquet (SOFTT)
+Tourniquet, Nonpneumatic One-Hand w Handles
+6515-01-530-7015
+Emergency Medical Tourniquet (EMT)
+Tourniquet, Pneumatic Single-hand application
+6515-01-580-1645
+HEMOSTATIC DRESSINGS/DEVICES
+Common Name / Brand Name
+DLA Nomenclature
+NSN
+Combat Gauze (CG) Z-Fold
+Bandage, Gauze Kaolin Impregnated 3X4"
+6510-01-562-3325
+Celox Gauze, Z-fold 5'
+Dressing, Hemostatic Celox Gauze 3"X5' folded
+6510-01623-9910
+ChitoGauze
+Dressing, Hemostatic 3X144" coated with Chitosan
+6510-01-591-7740
+X-Stat, Single Applicator
+Applicator, Hemostatic Sponges and Dispenser
+6510-01-644-7335
+JUNCTIONAL TOURNIQUETS & DEVICES
+Common Name / Brand Name
+DLA Nomenclature
+NSN
+Combat-Ready Clamp (CRoC)
+Clamp, Tourniquet Expandable Aluminum
+6515-01-589-9135
+SAM Junctional Tourniquet (SAM-JT)
+Tourniquet Kit Junctional Compression
+6515-01-618-7475
+Junctional Emergency Treatment Tool (JETT)
+Tourniquet, Inguinal Hemorrhage Adjustable
+6515-01-616-5841
+AIRWAY MANAGEMENT DEVICES & ADJUNCTS
+Common Name / Brand Name
+DLA Nomenclature
+NSN
+Control Cric / CricKey
+Cricothyrotomy System
+6515-01-640-6701
+DLA – Defense Logistics Agency
+DLA Nomenclature is the naming convention terminology used in DoD supply systems and 
+often differ from common, brand, or product names.
+NSN – National Stock Number. A NSN is 13-digit code identifying all standardized material 
+supply items recognized by NATO countries and the DoD.
+In accordance with
+CoTCCC Guidelines
+As Of: 31 JAN 2017
+40
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC
+PHARMACOLOGY REFERENCE
+ACETAMINOPHEN (TYLENOL)
+Class: CNS agent – non-narcotic, analgesic, antipyretic
+TCCC Indications: For mild to moderate pain management for a casualty that is still able to fight as a component of the Combat 
+Wound Medication Pack (CWMP)
+DOSE: 325–650 mg PO q4–6h (max: 4 g/d) 
+Onset / Peak / Duration: Onset Varies / Peak 1-3 hours / Duration 3-4 hours 
+Administration Instructions: PO
+Contraindications: Acetaminophen hypersensitivity; use with alcohol; pregnancy category B
+Adverse/Side Effects: Negligible with recommended dose; rash; acute poisoning: anorexia, nausea, vomiting, dizziness, lethargy, 
+diaphoresis, chills, epigastric or abdominal pain, diarrhea; hepatotoxicity: elevation of liver function tests; hypoglycemia, hepatic 
+coma, acute renal failure; chronic ingestion: neutropenia, pancytopenia, leukopenia, thrombocytopenic purpura, renal damage
+Interactions: Cholestyramine may decrease absorption; barbiturates, carbamazepine, phenytoin, rifampin, and excessive alcohol 
+use may increase potential for hepatotoxicity
+Mission Impact: None to minimal mission impact
+K-9 Dosage: DO NOT GIVE
+ERTAPENEM (INVANZ)
+Class: Antimicrobial – antibiotic, carbapenem, beta-lactam
+TCCC Indications: Recommended for all open combat wounds if unable to take PO meds
+DOSE: 1 gram IV/IM q24h 
+Administration Instructions: For IV reconstitute with 10mL NS; for IM 3. 2mL 1. 0% lidocaine without epinephrine
+Contraindications: Carbapenem, beta-lactam, or amide-type local anesthetic (ie. Lidocaine) hypersensitivity; pregnancy cat B
+Adverse/Side Effects: Injection site phlebitis or thrombosis; asthenia, fatigue, death, fever, leg pain, anxiety, altered mental status, 
+dizziness, headache, insomnia; chest pain, hypo- or hypertension, tachycardia, edema; abdominal pain, diarrhea, acid reflux, 
+constipation, dyspepsia, nausea, vomiting, increased LFTs; cough, dyspnea, pharyngitis, rales, rhonchi, respiratory distress; 
+erythema, pruritus, rash
+Interactions: Probenecid decreases renal excretion
+Mission Impact: GROUNDING medication for personnel on flight status
+The TCCC pharmacology reference provides drug information as based on administration 
+based solely on the TCCC Guidelines. These references should not be used for the 
+administration of these medications for any environment outside of tactical combat casualty 
+care on the battlefield or in the combat/tactical setting.
+41
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC
+PHARMACOLOGY REFERENCE
+KETAMINE (KETALAR)
+Class: Nonbarbiturate anesthetic, Dissociative
+TCCC Indications: For moderate to severe pain management for a casualty that IS in hemorrhagic shock or respiratory distress or 
+is at significant risk of developing either condition. Also a useful adjunct to reduce the amount of opioids required to manage pain.
+DOSE: 50 mg IM or IN, Repeat doeses q30min prn IM or IN (max: 4 g/d) 
+OR
+20 mg slow IV or IO, Repeat doses q20min prn IV or IO (max: 4g/d)
+Onset / Duration: IM – Onset in 3-4 minutes / Duration 12-25 minutes IV – Onset in 30 seconds / Duration 5-10 minutes 
+Administration Instructions: Document AVPU prior to administration. IV Ketamine should be administered slowly over 1 minute. 
+End points: Control of pain or development of nystagmus (rhythmic bac-and-forth movement of eyes). Be prepared to suction as 
+Ketamine can increase secretions. Be prepared to provide ventilatory support with a BVM.
+Contraindications: Head injury (may worsen severe TBI), Hypersensitivity to ketamine, Pregnancy Category B 
+Adverse/Side Effects: Hypertension, Respiratory Depression, Emergence Reactions (delirium, hallucinations, confusion), 
+Increased Intra-cranial pressure, Increased intra-ocular pressure
+Interactions: Effects of ketamine are increased when combined with other analgesics or muscle relaxants
+Mission Impact: Casualty weapons, communications and sensitive equipment should be secured. GROUNDING medication for 
+personnel on flight status.
+K-9 Dosage: 100-150mg (3-5mg/kg) IV/IM (best given in conjunction with diazepam 7. 5mg or medazolam 7. 5mg for profound 
+sedation)
+Class: CNS agent - potent narcotic (opiate) agonist
+TCCC Indications: For moderate to severe pain management for a casualty that IS NOT in shock or respiratory distress and IS 
+NOT at significant risk of developing either condition.
+DOSE: 800 mcg oral transmucossally, reassess in 15 min, add a second lozenge in other cheek as necessary. 
+Administration Instructions: Document AVPU prior to administration. Place lozenge between the cheek and gum; do not chew 
+lozenge. Recommend taping lozenge-on-a-stick to casualty’s finger as an added safety OR utilizing a safety pin and rubber band to 
+attach the lozenge (under tension) to the patient’s uniform or plate carrier. Monitor for respiratory depression. Administer Nalaxone 
+as reversal if needed. Be prepared to provide ventilatory support with a BVM. 
+Contraindications: MAOIs; myasthenia gravis; pregnancy category C
+Adverse/Side Effects: Sedation, euphoria, dizziness, diaphoresis, delirium, convulsions; bradycardia, hypotension, circulatory 
+depression, cardiac arrest; miosis, blurred vision; nausea, vomiting, constipation, ileus; muscle and thoracic muscle rigidity; urinary 
+retention, rash; laryngospasm, bronchoconstriction, respiratory depression or arrest
+Interactions: Alcohol and other CNS depressants potentiate effects; MAOIs may precipitate hypertensive crisis
+Mission Impact: Casualty weapons, communications and sensitive equipment should be secured. GROUNDING medication for 
+personnel on flight status.
+FENTANYL ORAL LOZENGE / ORAL TRANSMUCOSAL FENTANYL CITRATE (OTFC)
+42
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC
+PHARMACOLOGY REFERENCE
+MORPHINE SULFATE (MSO4)
+Class: CNS agent – narcotic (opiate) agonist; analgesic
+TCCC Indications: Alternative to OTFC moderate to severe pain management for a casualty for a casualty that IS NOT in shock or 
+respiratory distress and IS NOT at significant risk of developing either condition.
+DOSE: 5 mg IV/IO, Reassess in 10 min, repeat dose every 10 min as necessary to control severe pain. 
+Onset / Peak / Duration: IV – Onset in 5-20 minutes / Peak in 20 minutes / Duration 4-5 hours 
+Administration Instructions: Document AVPU prior to administration. Monitor for respiratory depression. Administer Nalaxone as 
+reversal if needed. Be prepared to provide ventilatory support with a BVM.
+Contraindications: Opiate hypersensitivity; increased ICP; seizures; acute alcoholism; acute bronchial asthma, chronic pulmonary 
+disease, severe respiratory depression; chemical-irritant induced pulmonary edema; BPH; diarrhea due to poisoning until toxic 
+material has been eliminated; undiagnosed acute abdominal conditions; following biliary tract surgery and surgical anastomosis; 
+pancreatitis; acute ulcerative colitis; severe liver or renal insufficiency; hypothyroidism; pregnancy category B
+Adverse/Side Effects: Pruritus, rash, urticaria, edema, anaphylactoid reaction; sweating, skeletal muscle flaccidity; cold, clammy 
+skin, hypothermia; euphoria, insomnia, disorientation, visual disturbances, dysphoria, paradoxic CNS stimulation (restlessness, 
+tremor, delirium, insomnia), convulsions; decreased cough reflex, drowsiness, dizziness, deep sleep, coma; miosis; bradycardia, 
+palpitations, syncope; flushing of face, neck, and upper thorax; orthostatic hypotension, cardiac arrest; constipation, anorexia, dry 
+mouth, biliary colic, nausea, vomiting, elevated LFTs; urinary retention or urgency, dysuria, oliguria, reduced libido or potency; 
+severe respiratory depression or arrest; pulmonary edema
+Interactions: CNS depressants, sedatives, barbiturates, alcohol, benzodiazepines, and TCAs potentiate CNS depressant effects; 
+MAOIs may precipitate hypertensive crisis; phenothiazines may antagonize analgesia; herbals (Kava-kava, valerian, St. John's wort) 
+may increase sedation.
+Mission Impact: Casualty weapons, communications and sensitive equipment should be secured. GROUNDING medication for 
+personnel on flight status.
+K-9 Dosage: 2-3mg IV OR 10-20mg IM/SQ. Nausea/emesis and defication common. Reverse with 1mg Nalaxone IV/IM/SQ.
+MELOXICAM (MOBIC)
+Class: NSAID; COX2 Inhibitor, anti-inflammatory, analgesic, antipyretic
+TCCC Indications: For mild to moderate pain management for a casualty that is still able to fight as a component of the Combat 
+Wound Medication Pack (CWMP)
+DOSE: 7. 5–15 mg PO daily
+Administration Instructions: PO
+Contraindications: NSAID or salicylate hypersensitivity; rhinitis, urticaria, angioedema, asthma; severe renal or hepatic disease; 
+pregnancy category C (1st/2nd trimester) and category D (3rd trimester)
+Adverse/Side Effects: Edema, flu-like syndrome, pain; abdominal pain, diarrhea, dyspepsia, flatulence, nausea, constipation, 
+ulceration, GI bleed; anemia; arthralgia; dizziness, headache, insomnia; pharyngitis, upper respiratory tract infection, cough; rash, 
+pruritus; urinary frequency, UTI
+Interactions: May decrease effect of ACE inhibitors and diuretics; may increase lithium levels and toxicity; aspirin may increase GI 
+bleed risk; warfarin and herbals (feverfew, garlic, ginger, ginkgo) may increase bleeding.
+Mission Impact: None to minimal mission impact
+K-9 Dosage: DO NOT GIVE
+43
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC
+PHARMACOLOGY REFERENCE
+NALAXONE (NARCAN)
+Class: CNS agent – narcotic (opiate) antagonist
+TCCC Indications: For narcotic opiate overdose and reversal of effects, including respiratory depression, sedation, and 
+hypotension.
+DOSE: 0. 4–2. 0 mg IV, repeat q2–3min up to 10 mg prn
+Onset / Peak / Duration: IV – Onset in 1-2 minutes / Peak in 5-15 minutes / Duration 45 minutes or longer
+ IM – Onset in 2-5 minutes / Peak in 5-15 minutes / Duration 45 minutes or longer 
+Administration Instructions: Have available when administering opioids. Titrate to effect to manage negative opioid effects, but 
+use caution that pain is still managed.
+Contraindications: Non-opioid drug respiratory depression; pregnancy category B
+Adverse/Side Effects: Analgesia reversal, tremors, hyperventilation, drowsiness, sweating; increased BP, tachycardia; nausea, 
+vomiting.
+Interactions: Reverses analgesic effects of narcotic (opiate) agonists and agonist-antagonists.
+Mission Impact: GROUNDING medication for personnel on flight status.
+K-9 Dosage: 1mg (0. 02-0. 04mg/kg) IV/IM
+MOXIFLOXACIN (AVELOX)
+Class: Antimicrobial – antibiotic; fluoroquinolone
+TCCC Indications: Recommended for all open combat wounds if unable to take PO meds as a component of the Combat Wound 
+Medication Pack (CWMP)
+DOSE: 400 mg PO qd 
+Onset / Peak / Duration: Onset Varies / Peak 1-3 hours / Duration 3-4 hours 
+Administration Instructions: PO
+Contraindications: Quinolone hypersensitivity; hepatic insufficiency; syphilis; arrhythmias; myocardial ischemia or infarction; QTc 
+prolongation, hypokalemia, or those receiving Class IA or Class III antiarrhythmic drugs; pregnancy category C.
+Adverse/Side Effects: Dizziness, headache, peripheral neuropathy, nausea, diarrhea, abdominal pain, vomiting, taste perversion, 
+abnormal LFTs, dyspepsia, tendon rupture.
+Interactions: Iron, zinc, antacids, aluminum, magnesium, calcium, sucralfate decrease absorption; atenolol, cisapride, 
+erythromycin, antipsychotics, TCAs, quinidine, procainamide, amiodarone, sotalol may prolong QTC interval; may cause false 
+positive on opiate screening tests.
+Mission Impact: GROUNDING medication for personnel on flight status.
+K-9 Dosage: DO NOT GIVE
+44
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC
+PHARMACOLOGY REFERENCE
+ONDASETRON ORAL DISSOLVING TABLET (ZOFRAN)
+Class: GI agent – 5-HT3 antagonist, antiemetic
+TCCC Indications: For prevention and management of nausea and vomiting associated with pain management medications.
+DOSE: 325–650 mg PO q4–6h (max: 4 g/d) 
+Administration Instructions: PO
+Contraindications: Hypersensitivity to ondansetron; pregnancy category B
+Adverse/Side Effects: Dizziness, light-headedness, headache, sedation; diarrhea, constipation, dry mouth
+Interactions: Rifampin may decrease ondansetron levels
+Mission Impact: GROUNDING medication for personnel on flight status.
+TRANEXEMIC ACID (TXA, CYKLOKAPRON)
+Class: Antifibrinolytic agent
+TCCC Indications: For patients anticipated to need significant blood transfusion; hemorrhagic shock, one or more major 
+amputations, penetrating torso trauma, or evidence of severe bleeding.
+DOSE: 1 gram in separate 100cc of NS or LR slow IV push over 10 min. Do not administer in same bag as blood products or 
+Hextend. Administer a second infusion of 1 gram after 500cc fluid challenge.
+Administration Instructions: Administer as soon as possible but not later than 3 hours after injury. Ensure documentation on 
+casualty card and/or attach/write on patient’s chest wall.
+Contraindications: subarachnoid hemorrhage, active intravascular clotting, Pregnancy Category B.
+Adverse/Side Effects: Blurred vision or impaired color vision. Gastrointestinal disturbances (nausea, vomiting, diarrhea) may 
+occur but disappear when the dosage is reduced. Hypotension has been observed when intravenous injection is too rapid. To 
+avoid this response, the solution should not be injected more rapidly than 100mg per minute.
+Interactions: should not be administered concomitantly with Factor IX Complex concentrates or Anti-inhibitor Coagulant 
+concentrates, as the risk of thrombosis may be increased.
+45
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+EXAMPLE TACTICAL MEDICAL CONOP
+46
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+ABOUT THE
+COMMITTEE ON TACTICAL COMBAT CASUALTY CARE
+AND THE JOINT TRAUMA SYSTEM
+CoTCCC MISSION:
+To develop on an ongoing basis the best possible 
+set of trauma care guidelines customized for the 
+tactical environment and to facilitate the transition 
+of these recommendations into battlefield trauma 
+care practice.
+The Committee on Tactical Combat Casualty Care (CoTCCC) is the Prehospital arm of the Joint Trauma System for the 
+Department of Defense.
+The CoTCCC is composed of 42 voting members specially selected as subject-matter experts in trauma, battlefield medicine, 
+tactical medicine, prehospital medicine and their experience in the deployed combat environment. 
+The TCCC Working Group is composed of the CoTCCC and hundreds of subject-matter experts across many domains and 
+liaisons from DoD, Government and Partner nation organizations.
+The CoTCCC and the TCCC Working Group focus all of their efforts on providing the best recommendations for training and 
+equipment for our individual service members, combat medics, corpsman, pararescue, and med techs going into harm's way 
+around the world.
+JTS MISSION:
+The mission of the Joint Trauma System (JTS) is to provide evidencebased process improvement of trauma and combat casualty care, to 
+drive morbidity and mortality to the lowest possible levels, and to 
+provide evidence-based recommendations on trauma care and 
+trauma systems across the Department of Defense (DoD).
+The DoD CENTER OF EXCELLENCE FOR TRAUMA
+DATA ACQUISITION: Mines the medical records to abstract, code, and enters critical trauma data into the DoDTR database for use in 
+support of the JTS mission.
+DATA ANALYSIS: Develops queries and provides data from the DoDTR in response to requests for information. Conducts classified and 
+non-classified data analysis.
+DATA AUTOMATION: Supports the information technology for the DoDTR and data-related special projects. Designs and implements 
+special-project database applications, related architecture, and documentation. Handles documentation needs for JTS to maintain Program 
+compliance with the Defense Health Agency.
+PERFORMANCE IMPROVEMENT: Coordinates performance improvement (PI) activities across the spectrum of trauma care. Participates 
+in the development, maintenance, and adherence to Clinical Practice Guidelines. Develops PI course content and training, and resolves 
+trauma system patient care issues.
+EDUCATION: Develops and conducts pre-deployment training of the Joint Theater Trauma System (JTTS) teams, DoDTR user training, and 
+JTS staff training. Develops educational products for combatant command trauma system development. Secures continuing education 
+credits and coordinates performance improvement and other trauma related courses.
+47
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC REFERENCES & SELECTED READING
+TACTICAL COMBAT CASUALTY CARE IN SPECIAL OPERATIONS.
+BUTLER FK, HAGMANN J, BUTLER EG. MIL MED. 1996;161(SUPPL):3–16. (ORIGINAL TCCC ARTICLE)
+PREHOPSITAL TRAUMA LIFE SUPPORT (PHTLS) MANUAL, 8
+TH EDITION (MILITARY)
+Butler FK, Giebner SD, Pons PT, McSwain NE, eds. Burlington, MA: Jones & Bartlett Learning; 2014. 
+SAVING LIVES ON THE BATTLEFIELD: A JOINT TRAUMA SYSTEM REVIEW OF PRE-HOSPITAL TRAUMA CARE IN 
+COMBINED JOINT OPERATING AREA—AFGHANISTAN (CJOA-A) EXECUTIVE SUMMARY.
+KOTWAL RS, BUTLER FK, EDGAR EP, SHACKELFORD SA, BENNETT DR, BAILEY JA. J SPEC OPER MED . 2013;13(1):77– 85.
+SAVING LIVES ON THE BATTLEFIELD (PART II) - ONE YEAR LATER: A JOINT THEATER TRAUMA SYSTEM 
+AND JOINT TRAUMA SYSTEM REVIEW OF PREHOSPITAL TRAUMA CARE IN COMBINED JOINT OPERATIONS 
+AREA-AFGHANISTAN (CJOA-A). 
+SAUER SW, ROBINSON JB, SMITH MP, GROSS KR, KOTWAL RS, MABRY RL, BUTLER FK, STOCKINGER ZT, BAILEY JA, MAVITY ME, GILLIES 
+DA 2
+ND J SPEC OPER MED. 2015 SUMMER;15(2):25-41
+ELIMINATING PREVENTABLE DEATH ON THE BATTLEFIELD.
+KOTWAL RS, MONTGOMERY HR, KOTWAL BM, CHAMPION HR, BUTLER FK JR, MABRY RL, CAIN JS, BLACKBOURNE LH, MECHLER KK, 
+HOLCOMB JB. ARCH SURG. 2011 DEC;146(12):1350-8. DOI: 10. 1001/ARCHSURG. 2011. 213. EPUB 2011 AUG 15.
+TRAGEDY INTO DRAMA: AN AMERICAN HISTORY OF TOURNIQUET USE IN THE CURRENT WAR.
+KRAGH JF JR, WALTERS TJ, WESTMORELAND T, MILLER RM, MABRY RL, KOTWAL RS, RITTER BA, HODGE DC, GREYDANUS DJ, CAIN JS, 
+PARSONS DS, EDGAR EP, HARCKE T, BAER DG, DUBICK MA, BLACKBOURNE LH,MONTGOMERY HR, HOLCOMB JB, BUTLER FK. J SPEC 
+OPER MED. 2013 FALL;13(3):5-25.
+DEATH ON THE BATTLEFIELD (2001-2011): IMPLICATIONS FOR THE FUTURE OF COMBAT CASUALTY CARE.
+EASTRIDGE BA, MABRY RL, SEGUIN P, CANTRELL J, TOPS T, URIBE P, MALLET O, ZUBKO T, OETJEN-GERDES L, RASMUSSEN TE, BUTLER 
+FK, KOTWAL R, HOLCOMB JB, WADE C, CHAMPION H, LAWNICK M, MOORES L, BLACKBOURNE LH. J TRAUMA ACUTE CARE SURG. 2012 
+VOLUME 73, NUMBER 6, SUPPLEMENT 5.
+IMPLEMENTING AND PRESERVING THE ADVANCES IN COMBAT CASUALTY CARE FROM IRAQ AND 
+AFGHANISTAN THROUGHOUT THE US MILITARY.
+BUTLER FK JR, SMITH DJ, CARMONA RH. J TRAUMA ACUTE CARE SURG. 2015 VOLUME 79, NUMBER 2.
+LEADERSHIP LESSONS LEARNED IN TACTICAL COMBAT CASUALTY CARE.
+BUTLER FK. J TRAUMA ACUTE CARE SURG. 2017.
+TACTICAL COMBAT CASUALTY CARE: BEGINNINGS.
+BUTLER FK. WILDERNESS ENVIRON MED. 2017
+THE TRANSITION TO THE COMMITTEE ON TACTICAL COMBAT CASUALTY CARE.
+GIEBNER SD. WILDERNESS ENVIRON MED. 2017
+BATTLEFIELD TRAUMA CARE THEN AND NOW: A DECADE OF TACTICAL COMBAT CASUALTY CARE.
+BUTLER FK, BLACKBOURNE LH. J TRAUMA ACUTE CARE SURG. 2012 VOLUME 73, NUMBER 6
+48
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC CHANGE REFERENCES
+2010-2017
+TCCC GUIDELINES COMPREHENSIVE REVIEW AND UPDATE: TCCC GUIDELINES CHANGE 16-03.
+MONTGOMERY HR, BUTLER FK, KERR W, CONKLIN CC, MORISSETTE DJ, REMLEY MA, SHAW TA, RICH TA. J SPEC OPER MED. 2017 SUMMER;17(2):19-36.
+THE USE OF PELVIC BINDERS IN TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 16-02.
+SHACKELFORD SA, HAMMESFAHR R, MORISSETTE D, MONTGOMERY HR, KERR W, BROUSSARD M, BENNETT BL, DORLAC WC, BREE S, BUTLER FK. J SPEC 
+OPER MED. 2017 SPRING;17(1):135-147.
+MANAGEMENT OF EXTERNAL HEMORRHAGE IN TACTICAL COMBAT CASUALTY CARE: THE ADJUNCTIVE USE OF XSTAT 
+COMPRESSED HEMOSTATIC SPONGES: TCCC GUIDELINES CHANGE 15-03.
+SIMS K, MONTGOMERY HR, BOWLING F, DITURO P, KHEIRABADI BS, BUTLER FK JR, J SPEC OPER MED. 2016 SPRING;16(1):19-28.
+EMERGENCY CRICOTHYROIDOTOMY IN TACTICAL COMBAT CASUALTY CARE.
+MABRY R, FRANKFURT A, KHAROD C, BUTLER F. J SPEC OPER MED. 2015 FALL;15(3):11-19.
+REPLACEMENT OF PROMETHAZINE WITH ONDANSETRON FOR TREATMENT OF OPIOID- AND TRAUMA-RELATED NAUSEA AND 
+VOMITING IN TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 14-03.
+ONIFER DJ, BUTLER FK JR, GROSS KR, OTTEN EJ, PATTON R, RUSSELL RJ, STOCKINGER Z. J SPEC OPER MED. 2015 SUMMER;15(2):9-16.
+OPTIMIZING THE USE OF LIMB TOURNIQUETS IN TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 14-02.
+SHACKELFORD SA, BUTLER FK JR, KRAGH JF JR, STEVENS RA, SEERY JM, PARSONS DL, MONTGOMERY HR, KOTWAL RS, MABRY RL, BAILEY JA. J SPEC 
+OPER MED. 2015 SPRING;15(1):17-31.
+FLUID RESUSCITATION FOR HEMORRHAGIC SHOCK IN TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 14-01
+BUTLER FK, HOLCOMB JB, SCHREIBER MA, KOTWAL RS, JENKINS DA, CHAMPION HR, BOWLING F, CAP AP, DUBOSE JJ, DORLAC WC, DORLAC GR, MCSWAIN 
+NE, TIMBY JW, BLACKBOURNE LH, STOCKINGER ZT, STRANDENES G, WEISKOPF RB, GROSS KR, BAILEY JA. –2 JUNE 2014. J SPEC OPER MED. 2014 
+FALL;14(3):13-38. REVIEW.
+MANAGEMENT OF EXTERNAL HEMORRHAGE IN TACTICAL COMBAT CASUALTY CARE: CHITOSAN-BASED HEMOSTATIC GAUZE 
+DRESSINGS: TCCC GUIDELINES CHANGE 13-05
+BENNETT DR, LITTLEJOHN L, KHEIRABADI BS, BUTLER FK, KOTWAL RS, DUBICK MA, BAILEY JA. J SPEC OPER MED. 2014 FALL;14(3):12-29.
+A TRIPLE-OPTION ANALGESIA PLAN FOR TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 13-04
+BUTLER FK, KOTWAL RS, BUCKENMAIER CC 3RD, EDGAR EP, O’CONNOR KC, MONTGOMERY HR, SHACKELFORD SA, GANDY JV 3RD, WEDMORE IS, TIMBY 
+JW, GROSS KR,BAILEY JA. . J SPEC OPER MED. 2014 SPRING;14(1):13-25.
+MANAGEMENT OF JUNCTIONAL HEMORRHAGE IN TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 13-03.
+KOTWAL RS, BUTLER FK, GROSS KR, KRAGH JF, KHEIRABADI BS, BAER DG, DUBICK MA, RASMUSSEN TE, WEBER MA, BAILEY JA. J SPEC OPER MED. 2013 
+WINTER;13(4):85-93.
+MANAGEMENT OF OPEN PNEUMOTHORAX IN TACTICAL COMBAT CASUALTY CARE: TCCC GUIDELINES CHANGE 13-02.
+BUTLER FK, DUBOSE JJ, OTTEN EJ, BENNETT DR, GERHARDT RT, KHEIRABADI BS, GROSS KR, CAP AP, LITTLEJOHN LF, EDGAR EP, SHACKELFORD SA, 
+BLACKBOURNE LH, KOTWAL RS, HOLCOMB JB, BAILEY JA. J SPEC OPER MED. 2013 FALL;13(3):81-6.
+THE TACTICAL COMBAT CASUALTY CARE CASUALTY CARD TCCC GUIDELINES PROPOSED CHANGE 1301.
+KOTWAL RS, BUTLER FK, MONTGOMERY HR, BRUNSTETTER TJ, DIAZ GY, KIRKPATRICK JW, SUMMERS NL, SHACKELFORD SA, HOLCOMB JB, BAILEY JA. J 
+SPEC OPER MED. 2013 SUMMER;13(2):82-7.
+MANAGEMENT OF TRAUMATIC BRAIN INJURY IN TACTICAL COMBAT CASUALTY CARE.
+DEFENSE HEALTH BOARD MEMO, 2012-04, 26 JUL 2012.
+DHB RECOMMENDATION REGARDING THE ADDITION OF TRANEXAMIC AICD TO THE TACTICAL COMBAT CASUALTY CARE 
+GUIDELINES.
+DEFENSE HEALTH BOARD MEMO, 2011-06, 23 SEP 2011.
+DHB RECOMMENDATION PERTAINING TO TACTICAL COMBAT CASUALTY CARE GUIDELINES ON THE PREVENTION OF 
+HYPOTHERMIA.
+DEFENSE HEALTH BOARD MEMO, 2010-06, 10 DEC 2010.
+49
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+GLOSSARY
+50
+AAL
+anterior axillary line
+ASAP
+as soon as possible
+AVPU
+Alert/Verbal/Pain/Unresponsive
+AXP
+ambulance exchange point
+BAS
+battalion aid station
+BVM
+bag-valve-mask
+CASEVAC
+casualty evacuation
+CAT
+Combat Application Tourniquet® 
+CCP
+casualty collection point
+CEP
+casualty evacuation point
+CG
+Combat Gauze® 
+Class VIII
+class of supply for medical
+CLS
+combat lifesaver
+COMSEC
+communications security
+CoTCCC
+Committee on Tactical Combat Casualty Care
+CPG
+clinical practice guidelines
+CRoC
+Combat Ready Clamp® 
+CRS
+casualty response system
+CTS
+Combat Trauma System
+CUF
+Care Under Fire (phase)
+CWMP
+combat wound medication pack
+DoDTR
+department of defense trauma registry
+EMT
+Emergency Medical Tourniquet® 
+HLZ
+helcopter landing zone
+HPMK
+Hypothermia Prevention and Management Kit® 
+HRS
+Heat Reflective Shell® 
+IAW
+in accordance with
+IED
+improvised explosive device
+IM
+intramuscular
+IN
+intranasal
+IO
+intraosseous
+IV
+intravenous
+JETT
+Junctional Emergency Treatment Tool® 
+JTS
+Joint Trauma System
+JTTS
+joint theater trauma system
+LR
+Lactated Ringer's
+LSI
+life-saving intervention
+MASSCAL
+mass casualty
+MEDEVAC
+medical evacuation
+mmHG
+millimeters of mercury 
+MSO4
+Morphine Sulfate
+MTF
+medical treatment facility
+NS
+normal saline / sodium chloride
+ODT 
+orally disolving tablet
+OTFC
+oral trnsmucosal fentanyl citrate
+PCO2
+partial pressure of carbon dioxide
+PI
+performance improvement
+PO
+by mouth / oral
+POI
+point-of-injury
+PRN
+pro re nata (as needed/circumstances require)
+RBC
+red blood cells
+SAM-JT
+SAM-Junctional Tourniquet® 
+SBP
+systolic blood pressure
+SGA
+supraglottic airway
+SOF
+special operations forces
+SOFT-T
+Special Operations Forces Tactical Tourniquet® 
+SOP
+standard operating procedure
+TACEVAC
+Tactical Evacuation (phase)
+TBI
+traumatic brain injury
+TBSA
+total body surface area
+TCCC or TC3
+Tactical Combat Casualty Care
+TFC
+Tactical Field Care (phase)
+TQ
+tourniquet
+TXA
+tranexamic acid
+USAISR
+US Army Institute of Surgical Research
+1 oz = 30 g
+1 lb = 16 oz = 0. 45 kg
+1 ton = 2000 lbs = 907 kg
+1 grain = 65 mg
+1 g = 001 kg = 0. 36 oz
+1 kg = 1000 g = 2. 2 lbs
+Weight Conversions
+1 fl oz = 30 ml = 30 cc
+1 US Gal = 128 fl oz = 3785 
+ml
+1 cc = 0. 001 liter
+1 ml = 1 cc = 0. 34 fl oz
+1 liter = 1000 ml = 340 fl oz
+Volume Conversions
+WEIGHT
+LENGTH
+lb = kg X 2. 2
+Lnches = cm X 0. 394
+kg = lb X 0. 45
+c = inches X 2. 54
+TEMPERATURE
+F = (1. 8) X C + 32
+C = (F – 32) / (1. 8)
+ 
+Conversion Formulas
+Quick Conversions
+ HEIGHT
+ WEIGHT
+ TEMPERATURE
+ft/in
+in
+cm
+lb
+kg
+ F C
+4'8"
+56
+142
+40
+18. 2
+ 212 100
+4'9"
+57
+145
+50
+22. 7
+ 108 42. 2
+4'10"
+58
+147
+60
+27. 3
+ 107 41. 6
+4'11"
+59
+150
+70
+31. 8
+ 106 41. 1
+5'0"
+60
+152
+80
+36. 4
+ 105 40. 6
+5'1"
+61
+155
+90
+40. 9
+ 104 40. 0
+5'2"
+62
+157
+100
+45. 5
+ 103 39. 4
+5'3"
+63
+160
+110
+50. 0
+ 102 38. 9
+5'4"
+64
+163
+120
+54. 5
+ 101 38. 3
+5'5"
+65
+165
+130
+59. 1
+ 100 37. 8
+5'6"
+66
+168
+140
+63. 6
+ 99
+ 37. 2
+5'7"
+67
+170
+150
+68. 2
+ 98
+ 36. 7
+5'8"
+68
+173
+160
+72. 7
+ 98. 6 37. 0
+5'9"
+69
+175
+170
+77. 3
+ 97
+ 36. 1
+5'10"
+70
+178
+180
+81. 8
+ 96
+ 35. 6
+5'11"
+71
+180
+190
+86. 4
+ 95
+ 35. 0
+6'0"
+72
+183
+200
+90. 9
+ 94
+ 34. 4
+6'1"
+73
+185
+210
+95. 5
+ 93
+ 34. 0
+6'2"
+74
+188
+225
+102. 3
+ 92
+ 33. 3
+6'3"
+75
+191
+250
+113. 6
+ 91
+ 32. 8
+6'4"
+76
+193
+275
+125. 0
+ 90
+ 32. 1
+6'5"
+77
+196
+300
+136. 4
+IV FLUID RATES IN DROPS PER MINUTE
+ml/HR
+50
+75
+80
+100
+125
+150
+175
+200
+250
+10GTT8
+13
+13
+17
+21
+25
+29
+33
+42
+15GTT12
+19
+20
+25
+31
+37
+44
+50
+62
+60GTT50
+75
+80
+100
+125
+150
+175
+200
+250
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+CONVERSIONS
+51
+TACTICAL COMBAT CASUALTY CARE
+(TCCC / TC3)
+TCCC
+DRUG QUICK REFERENCE
+ACETAMINOPHEN (Tylenol): 325-650 mg PO q8h prn (max: 4 g/d)
+ERTAPENEM (Invanz): 1g IV/IM q24h
+FENTANYL ORAL LOZ (Actiq): 400-800 mcg (max: 1600 mcg/d)
+HETASTARCH (Hextend): 500-1000ml IV
+KETAMINE (Ketalar): 50mg IM/IN q1h OR 20mg IV/IO q30m until nystagmus or max dose of 
+100mg
+LIDOCAINE (Xylocaine): Infiltration 0. 5%-2% injection
+MELOXICAM (Mobic): 15 mg PO daily
+MORPHINE SULFATE (MSO4): 5-15 mg slow IV push; titrate to pain
+MOXIFLOXACIN (Avelox): 400 mg PO/IV daily
+NALAXONE (Narcan): 0. 4-2. 0 mg IV/IM; repeat q2-3m up to 10 mg prn
+ONDANSETRON (Zofran): 4 mg slow IV push or IM q8h prn OR 4mg ODT PO q8h prn
+TRANEXEMIC ACID (TXA): 1 gm in 100cc of NS or LR slow IV push over 10m (<3h of 
+wounding)
+Copyright, 2017 by Harold R. Montgomery
+ISBN: 978-0-692-90697-2

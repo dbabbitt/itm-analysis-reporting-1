@@ -1,0 +1,1137 @@
+257
+Joint Health Services Support: Operational Planning
+Chapter 18
+JOINT HEALTH SERVICES SUPPORT: 
+OPERATIONAL PLANNING
+JAMES F. SCHWARTZ,* MEGAN C. MULLER,† and CONRAD R. WILMOSKI‡
+INTRODUCTION
+THE PLANNING PROCESS
+PLANNING INITIATION
+MISSION ANALYSIS
+Overview
+Define the Operational Environment
+Determine Specified, Implied, and Essential Tasks
+Identify Available Resources and Shortfalls
+COURSE OF ACTION DEVELOPMENT, ANALYSIS, COMPARISON, AND 
+APPROVAL
+Course of Action Development
+Course of Action Analysis (War-Gaming)
+Course of Action Comparison and Approval
+RESOURCES
+SUMMARY
+*Lieutenant Colonel (Retired), Medical Service Corps, US Army; Assistant Professor and Chief of Staff, Department of Military & Emergency Medicine, 
+F. Edward Hebert School of Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland 
+†Major, Medical Service Corps, US Army; Executive Officer, 264th Medical Battalion, 32nd Medical Brigade, Joint Base San Antonio-Fort Sam Houston, 
+Texas
+‡Major, Medical Service Corps, US Army; Sustainment Branch, Concepts and Capabilities Division, Health Readiness Center of Excellence, Capability 
+Development Integration Directorate, Joint Base San Antonio-Fort Sam Houston, Texas
+258
+Fundamentals of Military Medicine
+INTRODUCTION
+Scenario: You are the unit surgeon of a 1,000-person 
+ground combat unit. Your unit has been deployed to Country 
+X for 8 months. Morale is high with the anticipation of going 
+home in 4 months. The unit has had adequate rest and has 
+not conducted a combat operation in the last 7 days. Your 
+commander has just alerted the staff of an impending mission within the next 3 days to conduct a raid on a suspected 
+enemy weapons cache located in a mid-size town in the 
+mountainous region of the country. The road system near 
+the town is primarily comprised of two major paved roads 
+leading to the town with multiple secondary and tertiary 
+unimproved gravel and dirt roads. The town is described as 
+rectangular, blocked with numerous multilevel buildings, 
+alleys, and courtyard; there are limited open spaces, lots, 
+or fields within the town (Figure 18-1). The town road 
+structure is accompanied by electric power poles and lines; 
+road barricades and obstacles have been observed at various locations throughout the town. Population is less than 
+3,000. The enemy uses guerilla tactics, improvised explosive 
+devices (IEDs), rocket-propelled grenades, and small arms. 
+The enemy force is estimated to be 30 to 50 fighters. Intelligence suggests the enemy will provide heavy resistance to 
+44
+DAVENPORT BLVD
+KALILI AVE
+JANUS DR.
+44
+13
+Figure 18-1. Notional town.
+defend the town as a strategic location for weapons smuggling and cache operations. The mission is expected to be 
+conducted during darkness, with limited moon illumination; 
+temperatures will range between 60°F and 85°F; there will 
+be light winds, a 10% chance of rain, with ceilings expected 
+to be at greater than 10,000 ft, and visibility greater than 
+7 miles. The executive officer has called together the staff to 
+begin the planning process. 
+Planning is a team sport. A medical staff officer 
+(MSO) is a member of a larger staff that will come 
+together to develop a comprehensive operational plan 
+for joint health services support (HSS). As a special 
+staff officer to the commander, the medical officer is 
+expected to be involved in the planning process as an 
+expert in all things medical. Joint Publication 5-0, Joint 
+Operations Planning, defines the joint operation planning process (JOPP) as “an orderly, analytical process, 
+which consists of a set of logical steps to examine a 
+mission; develop, analyze, and compare alternative 
+Courses of Action (COAs); select the best COA; and 
+produce a plan or order.”1 Each service component has 
+its own planning process that closely mirrors the JOPP; 
+259
+Joint Health Services Support: Operational Planning
+the Army uses the military decision-making process, 
+while the Marine Corps uses the Marine Corps planning process (see Resources, below). 
+Although this chapter focuses primarily on tacticallevel planning, the principles and processes are very 
+much the same at the tactical, operational, and strategic 
+levels—just from a different perspective. Strategiclevel planning focuses on national policy and theater 
+strategy, while the operational level links strategy and 
+tactics by establishing operational objectives needed 
+to achieve military end-states and strategic objectives. 2 
+Tactical planning involves the employment of tactics, 
+techniques, and procedures and the arrangement of 
+forces to achieve a military objective. At all three levels, 
+MSOs are focused on many of the same key aspects, 
+such as the mission, the operational area, the threats, 
+the number and type of personnel involved in the 
+mission, and the operational timeline. The major difference among these levels when planning HSS is the 
+breadth and width of the plan. At the strategic level, the 
+MSO focuses on determining the types and quantities 
+of medical assets required to deploy in support of a 
+theater strategy; at the tactical level, the MSO focuses 
+on how best to employ medical assets on the ground 
+to support a battle, engagement, or small-unit action in 
+support of a specific military objective. The operational 
+level ties tactical actions to strategic goals.
+MSOs must have a solid grasp of their service’s 
+planning process. Although each service may label 
+specific steps of their planning process differently, the 
+processes are essentially the same (Table 18-1 compares 
+the JOPP and services’ planning processes). This chapter will provide a general overview of the key steps in 
+the planning process and the accompanying medical 
+actions. 3 It is important to recognize that each step of the 
+planning process has multiple sub-steps; for example 
+the Army’s military decision-making process mission 
+analysis step consists of 18 sub-steps. This chapter will 
+not necessarily go into detail for each step, but leaves 
+it to the reader to research their specific service’s planning doctrine for additional information and guidance. 
+This chapter is not intended to replace Department 
+of Defense or service doctrine, but rather to provide a 
+brief overview of the process and applicable resources. 
+It is important to keep in mind that the planning 
+process can be extremely time consuming; the reader 
+should not assume from this brief introduction that the 
+planning can be done quickly (although the services 
+do have a process for planning in time-constrained environments). Lastly, to truly become comfortable with 
+the planning process takes more than reading about 
+it—it requires experience. Take advantage of opportunities to be involved in the process; the more you practice, the 
+better you will become.
+TABLE 18-1
+SERVICE-SPECIFIC OPERATIONAL PLANNING
+JOINT (JOPP)1
+ARMY (MDMP)2
+NAVY (NPP)3
+MARINE CORPS 
+(MCPP)4
+AIR FORCE (JOPPA)5
+Planning initiation
+Receipt of the mission
+Mission analysis
+Problem framing
+Mission analysis
+Mission analysis
+Mission analysis
+COA development
+COA development
+COA development
+COA development
+COA development
+COA analysis
+COA analysis
+COA analysis
+COA war game
+COA analysis 
+COA comparison
+COA comparison
+COA comparison and 
+decision
+COA comparison and 
+decision
+COA comparison
+COA approval
+COA approval
+COA approval
+Orders production
+Orders production
+Orders development
+Orders development
+Orders production
+Transition
+Transition
+AFPP: Air Force planning process; COA: course of action; JOPPA: joint operation planning process for air; MCPP: Marine Corps planning 
+process; MDMP: military decision-making process; NPP: Navy planning process
+1. Chairman of the Joint Chiefs of Staff. Joint Operations Planning. Washington, DC: JCS; 11 August 2011. Joint Publication 5-0.
+2. Headquarters, Department of the Army. Commander and Staff Organization and Operations. Washington, DC: HQDA; May 2014. Field 
+Manual 6-0.
+3. Department of the Navy, Office of the Chief of Naval Operations. Navy Planning. Washington, DC: CNO; December 2013. Navy Warfare 
+Publication 5-01. 
+4. Headquarters, Department of the Navy, US Marine Corps. Marine Corps Planning Process. Washington, DC: USMC; 24 August 2010. Marine 
+Corps Warfighting Publication 5-1.
+5. Headquarters, Department of the Air Force. Operations and Planning. Washington, DC: USAF; 4 November 2016. Doctrinal Annex 3-0.
+260
+Fundamentals of Military Medicine
+THE PLANNING PROCESS
+HSS planning is tethered to operational planning. 
+Upon receipt of the mission, planning begins with a detailed analysis of mission variables; continues through 
+the development, analysis, and selection of a course of 
+action (COA); and proceeds to the production of orders. The approach to HSS planning and tactical planning is analogous to a method all healthcare providers 
+are familiar with: the scientific method. The six steps 
+of the scientific method—purpose/question, research, 
+hypothesis, experiment, data/analysis, and conclusion—correlate to the MSO’s approach to a mission 
+or problem and plan development. Still another way 
+to think about HSS planning is comparing it to a treatment plan for a patient. Most healthcare providers are 
+familiar with the use of the “SOAP note”—Subjective, 
+Objective, Assessment, Plan (Figure 18-2). The SOAP 
+note provides the healthcare provider a methodical, 
+standardized process for analyzing signs, symptoms, 
+lab results, and imaging; assessing alternative diagnoses; and developing a patient treatment plan, including 
+COAs that must weigh the patient’s preferences, the 
+outcomes of earlier steps, and the inherent risks of 
+each COA. The military planning process provides the 
+MSO that same orderly, analytical process to examine 
+a mission and produce a plan or order.
+A word about communicating: throughout the planning process, the MSO must actively communicate—
+with higher headquarters, with fellow staff officers, 
+with adjacent units and organizations, and lastly, with 
+subordinate units and organizations. Often, parallel 
+planning is being conducted by higher, adjacent, and 
+subordinate units. As more information becomes available and plans begin to form, information is shared. 
+As the MSO progresses through the planning process, 
+information is shared in an effort to provide the unit 
+that will execute the mission the greatest opportunity 
+for success. Bottom line: communicate, communicate, and 
+communicate.
+PLANNING INITIATION
+Planning begins when a mission is directed (Exhibit 18-1). Upon receipt of the mission, the commander issues planning guidance, and the staff 
+gathers planning resources: orders, current estimates 
+or evaluations, maps, overlays, and graphics. The 
+MSO must be involved early in the planning process. 
+Failure to get involved early in the process could 
+result in an incomplete plan; an unsynchronized 
+plan; a plan that places the unit at an exceeding high 
+risk, a risk that could have been mitigated if known 
+earlier; or a plan that is directed rather than developed in partnership with the staff. The importance 
+of establishing trust and credibility as a member 
+of the commander’s special staff is discussed more 
+fully in Chapter 14, Introduction to Health Service 
+Support; these efforts are essential to the MSO’s early 
+and ongoing involvement in mission planning. Once 
+guidance is received and resources are collected, the 
+staff begins the most important step of the process: 
+mission analysis. It must be emphasized, however, 
+that HSS planning is an iterative process. New information, as well as further guidance from the 
+commander, may cause the staff to revisit any step 
+of the planning process. Additionally, at each step 
+in the process, the staff should attempt to convert 
+planning assumptions into facts.
+MISSION ANALYSIS
+Overview
+The next step in developing the plan, at the 
+strategic through tactical levels, is to conduct a 
+thorough mission analysis. Mission analysis is the 
+most important step of the planning process. For the 
+healthcare provider, this can be equated to doing a 
+total “work-up” on the patient, including a thorough 
+history, physical examination, records review to 
+find previous diagnoses and treatments, laboratory 
+tests, and x-rays. Mission analysis begins with a 
+thorough study of the higher headquarters’ plan or 
+order. Answers to following questions are critical to 
+understanding the mission: 
+What is the higher commander’s intent?
+What is the concept of the operation?
+What assets are available?
+What is the timeline?
+What is the area of operations?
+The commander and staff conduct a mission analysis to better understand the situation and problem, and 
+identify what the command must accomplish, when and 
+where it must be done, and most importantly why—the 
+purpose of the operation. 4 Staff must then compile 
+what is known about the situation, that is, what relevant facts have impact on the mission and what valid 
+261
+Joint Health Services Support: Operational Planning
+Figure 18-2. The medical “SOAP note” format.
+EXHIBIT 18-1
+PLANNING INITIATION
+ 
+1. Alert the staff.
+ 
+2. Gather resources.
+ 
+3. Issue commander’s guidance.
+planning assumptions can be made about the situation. What does the operational environment look 
+like, including the enemy situation? What constraints, 
+if any, are placed on the command? What resources 
+are required to complete the mission, and what resources are available? How much time is allotted for 
+planning? What is the duration of the mission? And 
+finally, what tasks are required for success? Variables 
+such as these—mission, threat, resources, and time, 
+along with a thorough understanding of the problem 
+and situation—provide the foundation for follow-on 
+planning and are critical to the success of the mission. 
+The Army and Marine Corps categorize mission variables for tactical planning as Mission, Enemy, Terrain 
+and weather, Troops and support available, Time available, 
+and Civilian considerations (METT-TC). Every mission 
+must be adjusted for the realities of METT-TC. 
+Define the Operational Environment
+This step requires the MSO to conduct a detailed 
+analysis of the operational environment. The analysis 
+of the operational environment includes evaluating 
+the METT-TC variables enemy, terrain and weather, and 
+civilian considerations. Depending on the mission and 
+scope of the operation, it might also include evaluating variables such as political, military, economic, 
+social, information, and infrastructure strengths and 
+weaknesses. Each staff section assesses the operational 
+environment from their perspective and develops 
+what is referred to as “a staff estimate.” The MSO must 
+assess the operational environment for those variables 
+that can impact both the success of the operational 
+mission (ie, what can impact the commander’s ability to accomplish the mission) as well as the medical 
+mission (ie, what can impact the health of the troops 
+and the healthcare team’s ability to accomplish their 
+HSS mission). 
+Patient Presents
+Step 1: Subjective
+Component
+Step 2: Objective 
+Component
+Step 3: 
+Assessment
+Step 4: 
+Plan
+Onset 
+Location
+Character (sharp, dull, etc)
+Alleviating/Aggravating
+Vital Signs
+Finding from physical 
+examinations such as 
+posture, bruising and 
+abnormalities
+Results for laboratory 
+tests
+Measurements such as 
+age and weight of the 
+patient
+ 
+Is a quick summary of the patient with main 
+symptoms/diagnosis including a differential diagnosis: a list of other possible diagnoses
+usually in order of most likely to least likely. 
+This is what the healthcare provider will do to treat 
+the patient’s concern.
+Radiation
+Temporal pattern (every 
+morning, all day, etc)
+Symptoms associated
+O
+A
+P
+S
+262
+Fundamentals of Military Medicine
+Defining the many variables that frame the operational area is commonly referred to as intelligence 
+preparation of the battlefield, or IPB. The medical equivalency is commonly referred to as medical intelligence 
+preparation of the operational environment (MIPOE), or 
+the medical intelligence preparation of the battlefield. It is 
+through MIPOE that threats become known, and the 
+MSO can begin to visualize their impact on the operational and medical mission. Depending on the level 
+of consideration (tactical, operational, or strategic), 
+intelligence used to identify the threat will probably 
+originate from different sources; the strategic planning 
+level will likely include national and geographic intelligence resources, whereas at the tactical level, local 
+intelligence will most likely be heavily relied on to 
+identify the immediate threat to the mission. The unit 
+intelligence officer (S-2 or G-2) is a valuable resource 
+for helping to define the operational environment. 
+All available intelligence resources, including fellow 
+staff officers and even units and personnel who have 
+previously operated in the area, should be consulted 
+to accurately describe the operational environment 
+and identify the threats.
+Enemy considerations include analyzing the type 
+of enemy units involved (eg, mechanized, armor, light 
+infantry, special operations, maritime, aviation); types 
+and capabilities of equipment and weapon systems; 
+and the enemy’s strength, location, and probable 
+COAs. These considerations should give the MSO 
+insight into probable mechanisms of injury, and possibly when and how these injuries may occur. Furthermore, evaluating the enemy can provide insight 
+into the threat and risk to medical assets, specifically 
+medical personnel, ground and air ambulances, and 
+treatment facilities. 
+Terrain considerations include assessing the operational environment for key terrain, avenues of 
+approach, points of observations and fields of fire, 
+obstacles, and areas that afford cover and concealment. A detailed analysis of the terrain should give 
+the MSO insight into where casualties may occur, for 
+example, near key terrain such as beachheads, river 
+crossings, or choke points; on avenues of approach; or 
+at obstacles. It should also highlight potential mobility corridors, evacuation routes, landing zones, and 
+areas to establish treatment, in addition to possible 
+hazards to personnel, equipment, and operations. 
+The terrain analysis can also provide insight into the 
+types of potential injuries (eg, urban terrain may yield 
+more crushing injuries, electrocutions, or upper body 
+gunshot injuries due to snipers, while mountainous 
+terrain may yield more musculoskeletal injuries, cold 
+injuries, and altitude sickness). Weather considerations include visibility, winds, precipitation, cloud 
+cover, temperature, and humidity. These conditions 
+can impact aviation and ground operations (Figure 
+18-3), the navigability of roads, and again, the types of 
+potential injuries (eg, heat, cold, hypothermia). These 
+three variables, enemy, terrain, and weather, provide 
+extremely valuable pieces of the puzzle. When pieced 
+together, they provide a fairly comprehensive picture 
+of the operational environment and its impact on the 
+operational and medical mission. 
+Although this example is very simple, in the 
+opening scenario of this chapter the enemy may be 
+described as a well-armed enemy force of 30 to 50 
+fighters who predominantly use small-arms weapons 
+and IEDs, and who employ guerilla-type techniques. 
+The geographical environment is urban with a population of less than 3,000; it is rectangular blocked with 
+numerous multilevel buildings, alleys, and courtyards; 
+it has limited open spaces, lots, or fields; there are road 
+barricades and obstacles; and power lines are strung 
+throughout the area. Mountain ranges are to the north 
+and east; open flat terrain to the south and west. Major 
+improved roads run west to east and north and south 
+through the town. A river runs from north to south 
+through the town. The staff will analyze an actual operational environment in much greater detail in order 
+to develop a comprehensive picture; this “picture” will 
+be used for follow-on COA development, analysis, and 
+comparison (Figure 18-4). 
+Figure 18-3. An MV-22 Osprey with Marine Medium Tiltrotor Squadron 161 prepares to land in southern Helmand 
+province, Afghanistan, December 9, 2012. The Osprey was 
+picking up coalition and Afghan government officials following a visit to a remote area. The officials were checking the 
+status of a 6th Zone Afghan Border Police clearing operation. 
+Photo by Sgt. John Jackson. 
+Reproduced from: https://www.dvidshub.net/image/797378/
+afghan-border-police-conduct-independent-clearingoperation-southern-helmand.
+263
+Joint Health Services Support: Operational Planning
+Vignette 18-1. Air Force Captain Matthew Miller wrote 
+about the challenges of flying in Afghanistan after returning 
+from a four-month deployment there in 2007. His medevac 
+unit, from Georgia’s Moody Air Force Base, had lost three 
+helicopters and seven crew members in the two wars. Enemy fire had been a factor in none of the Afghan crashes. 
+“In Iraq, helicopter pilots face a greater prospect of being shot at by ground fire,” Miller wrote. “In Afghanistan, 
+the greatest threat is the terrain.” He described flying in 
+Afghanistan as “graduate level” piloting more challenging 
+than cruising over the flatlands of Iraq. “It didn’t take long 
+to feel the perils of mountainous flying in Afghanistan,” he 
+added. “Between Iraq and Afghanistan, most helicopter 
+pilots I’ve spoken to consider Afghanistan the more dangerous place to fly.”5 
+Key to mission analysis is not only accurately defining the operational environment, but also interpreting 
+how the environment impacts the mission. For example, the MSO may discover that the road structure 
+near the objective is narrow, with multiple choke 
+points. From this data point, the MSO may deduce that 
+casualty evacuation will be slowed, or some areas may 
+be impassable, and therefore alternative evacuation 
+routes will be needed. Again, it is important that the 
+MSO not only accurately defines the operational environment, but just as importantly, translates that data 
+into useful and meaningful information. An inaccurate 
+or incomplete mission analysis will sabotage the planning 
+process and could very well lead to catastrophic results. 
+Determine Specified, Implied, and Essential Tasks
+A mission statement always consists of five parts: 
+the who (organization to act), what (the task to be accomplished and actions to be taken), when (time to 
+accomplish the task), where (the location to accomplish 
+the task), and why (the purpose the task is to support). 1 
+Notice that the how is not addressed at this time. During the planning process, how the unit will accomplish 
+the mission is conceptualized and analyzed after the 
+staff has developed a full understanding of the tasks 
+that must be accomplished, that is, the mission, the 
+state of the operational environment, and the resources 
+available. It is important for the MSO to have a thorough understanding of the tasks required for both 
+medical and operational success. 
+Figure 18-4. Notional town with the addition of major geographic terrain features.
+264
+Fundamentals of Military Medicine
+A task is a clearly defined action or activity assigned to an individual or organization. 1 Tasks fall 
+into three categories: specified, implied, and essential. A 
+specified task is a task specifically assigned to a unit 
+by its higher headquarters. An implied task is one that 
+must be performed to accomplish a specified goal or 
+mission, but is not stated in the higher headquarters’ 
+order. Implied tasks are typically derived from a 
+detailed analysis of the operations order or plan, the 
+operational environment, civil considerations, and 
+other factors. An essential task, which can be either 
+specified or implied, must be executed to accomplish 
+the mission. Essential tasks are always included in the 
+unit’s mission statement. 
+In the introductory scenario example, due to the 
+expected intensity of the fight, the commander of the 
+ground combat unit has instructed his medical platoon 
+leader to deploy a medical team to a forward position 
+in proximity to the objective to provide responsive 
+casualty care during the battalion raid. In this scenario, the specified, implied, and essential tasks are 
+as follows:
+ 
+• Specified task: “Provide treatment and 
+evacuation in support of the battalion mission.” This task is essential to mission success. 
+ 
+• Implied task: Conduct reconnaissance to 
+determine the best location for the medical 
+team in proximity to the objective. This task, 
+although not specifically stated, is implied 
+by the commander and should be inferred by 
+the medical platoon leader to accomplish the 
+above specified task.
+ 
+• Essential task: “Provide treatment and evacuation in support of the battalion mission.” This 
+task is both specified and essential to mission 
+success.
+It is critical for the MSO to understand the mission 
+tasked to their unit, to thoroughly review the operation 
+order or plan to identify all specified medical tasks, as 
+well as related implied tasks, and finally to be sure of 
+the essential medical tasks. Many HSS tasks are found 
+in the operation order or plan’s paragraph 4 (administration and logistics) and the HSS annex (Exhibit 
+18-2). It is critical to remember that the mission is the task, 
+together with the purpose, that clearly indicates the action 
+to be taken and the reason.
+During the mission analysis, the personnel officer 
+and MSO begin to formulate an approximate casualty 
+estimate. Although determining the casualty rate is 
+the responsibility of the personnel officer; the MSO 
+is responsible for patient estimates, which include 
+only the medical casualties (patients) included in the 
+overall casualty rate. 6 According to Army Techniques 
+Publication 4-02. 55, Army Health System Support Planning, “patient” is the generic term applied to a sick, 
+injured, or wounded person who receives medical care 
+or treatment from medically trained personnel. Once a 
+casualty is treated by the first medically trained person 
+(normally the combat medic, corpsman, or independent duty medical technician), he or she is no longer 
+referred to as a casualty and is subsequently referred 
+to as a patient. The casualty estimate is based on information derived from an analysis of the operational 
+environment, specifically, from the enemy’s capabilities, strength, and morale; the terrain and weather; and 
+the unit’s mission. The casualty estimate will be further 
+refined during COA development and analysis, when 
+specific operational plans with more defined troop 
+employments and movements on the battlefield will 
+be developed. 6,7 
+Vignette 18-2. The Naval Health Research Center 
+(NHRC) developed the Joint Medical Planning Tool (JMPT), 
+a computer-based simulation tool that models patient flow 
+from the point of injury through more definitive care. It supports research, medical systems analysis, operational risk 
+assessment, and field medical services planning. NHRC 
+also developed the Medical Planners’ Toolkit (MPTk), which 
+consists of the Patient Condition Occurrence Frequency 
+(PCOF) tool, the Casualty Rate Estimation Tool (CREstT), the 
+Expeditionary Medicine Requirements Estimator (EMRE), 
+and the Estimating Supplies Program (ESP). The PCOF 
+tool provides baseline probability distributions for illnesses 
+and injuries across a range of 33 military operations. The 
+CREstT provides the capability to emulate the operational 
+plan using a 180-day scenario to calculate battle and nonbattle injuries and illnesses that are expected during ground 
+military operations. The EMRE estimates operating room, 
+intensive care unit, ward and bed, evacuation, and blood 
+product requirements for in-theater hospitalization, based 
+on a given patient load. The ESP uses scenario-specific 
+patient streams created by CREstT and known medical 
+supply inventories to estimate the total supply requirement 
+for treating those patients. 8 
+EXHIBIT 18-2
+FIVE-PARAGRAPH OPERATION ORDER 
+FORMAT
+ 
+1. Situation
+ 
+2. Mission
+ 
+3. Execution
+ 
+4. Administration and logistics
+ 
+5. Command and signal
+265
+Joint Health Services Support: Operational Planning
+Identify Available Resources and Shortfalls
+Once the MSO has defined the operational environment, identified the mission and tasks, and begun 
+to develop a preliminary casualty estimate, they can 
+begin considering the capabilities needed to support the mission. At the tactical level, this variable is 
+sometimes referred to as troops and support available. 
+When analyzing resources, the MSO should consider 
+both medical and nonmedical personnel, equipment, 
+supplies, and organizations available to support the 
+medical mission. The MSO should also note the total 
+number of personnel or troops involved in the mission, 
+sometimes referred to as the population at risk (PAR). 
+The PAR data point is important for determining the 
+number of medical resources required and the positioning of these resources in support of the operation. 
+Along with determining the number of personnel 
+involved in the operation, the MSO analyzes the type 
+of personnel involved in the mission, as well as their 
+operational and medical readiness, training readiness, 
+morale, psychological state, nutrition, rest, and clothing and equipment. 
+The level of planning being conducted (strategic, 
+operational, or tactical) will dictate the level of detail 
+need in resource assessment. For example, tactical 
+MSOs focus on the number of medics, ground ambulances, and tactical aeromedical evacuation in support 
+of a specific operation, whereas strategic-level MSOs 
+look at the number of hospital beds, surgical suites 
+(operating room hours and intensive care beds), strategic aeromedical evacuation, and medical specialties 
+available to support a theater strategy (Figure 18-5). 
+HSS planning considerations (Exhibit 18-3) should be 
+kept in mind during mission analysis. These considerations provide an excellent checklist regardless of the 
+level of planning; however, not every consideration is 
+applicable to every mission. For example, planning for 
+support of a tactical mission such as a small unit raid 
+probably does not require the MSO to plan specifically 
+for pharmacy services, but an MSO at the operational 
+level planning for a campaign must consider and plan 
+for these services.
+EXHIBIT 18-3
+HEALTH SERVICES SUPPORT PLANNING 
+CONSIDERATIONS
+ 
+• Threat identification
+ 
+• Clinical capabilities
+ 
+• Host nation support
+ 
+• Medical intelligence
+ 
+• Dental services
+ 
+• Health services support (HSS) for returned 
+US prisoners of war and detained persons
+ 
+• HSS for detainees 
+ 
+• Preventive medicine and health surveillance
+ 
+• Pharmacy services 
+ 
+• Prevention of stress casualties
+ 
+• Medical logistics (MEDLOG)
+ 
+• Patient movement
+ 
+• Patient movement items 
+ 
+• Veterinary services
+ 
+• Mass casualty situations
+ 
+• Additional HSS considerations
+Figure 18-5. Blackhawk helicopter for medical aero evacuation. The Task Force Marauder medical evacuation (medevac) company participated in a mass casualty exercise with 
+the Role 3 hospital, December 23, 2017, in Afghanistan to 
+practice and refine procedures in the event of a real-world 
+emergency. Detachment 1, Charlie Company, 2-211th General Support Aviation Battalion (GSAB), MEDEVAC, Iowa 
+National Guard, with Task Force Marauder partnered with 
+the hospital, base emergency medical services, Polish special 
+forces, US Air Force security forces, and US Army 82nd Airborne service members for the exercise. C Co, 2-211th GSAB 
+(MEDEVAC) provided aerial transportation and en route 
+medical care for simulated casualties before transporting the 
+patients to the hospital for follow-on care. The purpose of 
+the exercise was to test current practices and communication 
+in a controlled environment. Task Force Marauder consists 
+of soldiers from South Carolina National Guard, Illinois 
+National Guard, and Iowa National Guard, as well as an 
+active duty component, and provides aviation capabilities 
+with AH64 Apaches, UH60 Black Hawks, CH47 Chinooks, 
+and medevac assets in Afghanistan under the 3rd Combat 
+Aviation Brigade while deployed. (US Army National Guard 
+photo by Capt. Jessica Donnelly, Task Force Marauder.)
+Reproduced from: https://www.dvidshub.net/
+image/4050146/task-force-marauder-participates-masscasualty-exercise.
+266
+Fundamentals of Military Medicine
+Medical Resources
+When assessing the medical resources available to 
+support the operational mission, both medical assets 
+that are organic to nonmedical organizations (eg, a 
+medical platoon assigned to an infantry battalion), 
+and specifically missioned medical organizations 
+(eg, medical company, surgical company), must be 
+considered. The full continuum of available resources 
+to consider includes all personnel, medical organizations and their current capabilities, medical logistics, 
+patient movement assets (both medical and nonmedical), patient movement items, and host nation assets. 
+One method for this step is to take an inventory of 
+HSS assets available and their capability across the 
+continuum of care; eventually the MSO will compare 
+this inventory with the capabilities needed to successfully support the mission to determine medical support 
+gaps. The MSO must then communicate any known 
+shortfalls, and the risks associated with these gaps, to 
+higher headquarters.
+During mission analysis in the introductory scenario, staff may have determined that due to the enemy’s capability and tactics, there is a high probability 
+the mission will generate trauma surgical casualties 
+(remember, translate what is discovered during mission analysis into useful and meaningful information). 
+For this mission, the healthcare provider would want 
+to ensure that internal assets are available, equipped, 
+trained, and positioned to support surgical casualties. Questions for the MSO to consider are: Do both 
+medical and nonmedical personnel have the required 
+medical supplies for the types of injuries they may 
+encounter at the point of wounding (tourniquets, clotting agents, and compressed gauze)? Are personnel 
+properly trained to treat these injuries? Additionally, 
+the healthcare provider should ensure surgical assets 
+are in a position to support the operation, both from 
+a time/distance factor and the ability to readily accept 
+casualties. 
+Conducting the analysis of support available 
+provides the MSO with the information needed to 
+support COA development, analysis, and eventual 
+recommendation to the commander. If surgical assets 
+are not in a position to provide timely support, the 
+provider has identified a capability gap that must be 
+mitigated. In this case a surgical asset might be temporarily relocated to provide timely support, or an 
+evacuation asset could be relocated closer to the fight 
+to provide a faster time from wounding to forward 
+resuscitative surgery capability. A good technique 
+is to trace the continuity of care from the unit to the 
+next higher role of care. For example, a provider at 
+a Role 1 aid station should trace a casualty from the 
+point of injury to Role 2 and a forward resuscitative 
+surgical capability. This would entail identifying who 
+will provide care from the point of injury to Role 
+2; evacuation methods from the point of injury to 
+Role 2; the means to provide medical resupply; and 
+the means to communicate throughout the medical 
+continuity chain.
+Vignette 18-3. During mission analysis for each of our 
+operations [1st Battalion/505th Parachute Infantry Regiment in Fallujah, Iraq], the principles that we have detailed 
+[prevention, proportion, preparation, portability, proximity, 
+protection, and projection] . . . were taken into account. 
+These principles were developed through our close interaction with our line commanders and battalion staff (in regular 
+daily briefings, informal discussions during the planning 
+process, and even over conversations at meal time). We 
+were able to use their knowledge and experience in infantry 
+operations and combine it with our medical knowledge and 
+experience to develop medical coverage for the task force 
+upon which both command and medical providers agreed. 9
+Time
+Another critical resource to consider is time available. For most planning, time is not infinite. The MSO 
+must consider, especially at the tactical and operational 
+level, the amount of time required to prepare for mission execution. The MSO must ensure that those who 
+will execute the mission are provided ample time to 
+prepare. The typical rule of thumb at the tactical level 
+is a 1:2 ratio of leaders to staff (ie, the MSO utilizes 
+one-third of the time, leaving two-thirds of the time 
+for subordinates to plan and prepare to execute the 
+mission). Time, obviously, is the one resource that is 
+nonrenewable; it must be used wisely.
+Risk Management
+Risk management is the process of identifying, assessing, and controlling risks arising from operational 
+factors and making decisions that balance risk cost 
+with mission benefits. 2 The medical planner should 
+address the hazards associated with the operational 
+environment, such as food- and water-borne illnesses, 
+disease vectors, person-to-person transmission of disease, harmful animals and toxic plants, environmental 
+risks, and likely battle and nonbattle injuries. The planner should also identify control measures that can be 
+implemented to mitigate these hazards. Although the 
+risk management process is fairly consistent among 
+the services, each service has doctrinal publications 
+that outline their specific process. 6,10–13 
+The mission analysis is completed with the commander issuing their initial intent, planning guidance, 
+267
+Joint Health Services Support: Operational Planning
+and evaluation criteria that will be used during COA 
+selection. Mission analysis will begin to bring HSS 
+requirements into focus; while COA development and 
+analysis (war-gaming) will bring refinement to the HSS 
+requirements. Joint Publication 4-02, Healthcare Service 
+Support, fully discusses HSS considerations. 3
+COURSE OF ACTION DEVELOPMENT, ANALYSIS, COMPARISON, AND APPROVAL
+Course of Action Development 
+Following mission analysis, staff begin developing 
+COAs that meet the commander’s intent and the stated 
+mission. A COA is a potential how (proposed solution 
+or method) to accomplish the assigned mission. 1 All 
+COAs, along with supporting medical plans, must 
+adhere to specific screening criteria to ensure validity: 
+each COA must be adequate, feasible, acceptable, distinguishable, and complete. 1 A healthcare provider might 
+equate this step to the treatment plan to cure or manage 
+a patient’s illness. COA development entails assessing 
+the friendly versus enemy forces, generating options, 
+arraying the forces, developing a broad concept, and 
+finally, developing COA statements and sketches. 
+During COA development, the MSO applies the 
+information learned from the mission analysis coupled 
+with the operational COA to develop a synchronized 
+medical support plan. It is important to understand 
+that the mission analysis, to a great extent, determines 
+the medical capability requirements. The operational 
+COA further defines requirements, as well as driving 
+the employment of the medical capability requirements in the form a medical support plan. At this point 
+the MSO should reflect back on the principles of HSS 
+(conformity, control, continuity, proximity, mobility, and 
+flexibility; see Chapter 14), and the medical and HSS 
+planning considerations, whether the plan is strategic 
+or tactical. The MSO should begin overlaying medical support capabilities onto the operational plan and 
+sketching out a medical support plan specific to each 
+operational COA.
+Furthermore, casualty estimates can become more 
+refined during COA development. Lastly, the MSO has 
+the responsibility to communicate any known medical 
+support risks to the operational plan. The commander 
+must know the risks a specific operational plan may 
+pose to medical support capabilities, and the staff has 
+the responsibility to mitigate risks as much as possible. 
+The commander makes the final decision on whether 
+to accept the risk or not for each COA as the final operational plan is selected.
+Course of Action Analysis (War-Gaming)
+Following COA development, the next planning 
+phase is COA analysis. During this phase, the staff 
+methodically examines each COA to determine more 
+precisely its advantages and disadvantages and the 
+likelihood that it will achieve the mission. COA analysis is conducted through “war-gaming,” in which the 
+commander and staff visualize the plan set against 
+the operational environment and enemy forces. Wargaming helps identify advantages and disadvantages, 
+execution and coordination problems, operational 
+gaps, points of decision-making, and contingencies. 
+COA war-gaming can be conducted in various ways; 
+the easiest and most basic is to war-game the plan by 
+critical event or phase through a table-top method using the action, reaction, and counteraction moves of 
+friendly and enemy forces. For the MSO, war-gaming 
+is also an opportunity to analyze the COA for casualtyproducing events and required HSS support. 
+Course of Action Comparison and Approval
+Following COA analysis, the commander and staff 
+conduct a COA comparison. Using the evaluation 
+criteria identified during mission analysis and refined 
+during COA development and analysis, they identify 
+strengths and weakness and determine the best COA. 
+Common methods for evaluating COAs include nonweighted, weighted, advantages/disadvantages, and 
+pluses/minuses/neutral comparison matrices. COAs of 
+friendly forces are not compared against each other; 
+rather, they are independently compared against predicted enemy COAs, using agreed-upon evaluation 
+criteria. The COA with the superior rating typically 
+becomes the COA recommended to the commander. 
+Functional staff officers, including the MSO, conduct a COA comparison based on their respective 
+functional areas and provide their recommendation 
+as part of the overall COA comparison. Just as the operational staff compares COAs to identify the strongest 
+one for a successful mission, the MSO compares them 
+to identify the strongest in terms of medical support. 
+It may be possible to use the same evaluation criteria 
+for the operational and medical COAs, or they might 
+require different criteria. The medical COA might use 
+evaluation criteria such as proximity to the operational 
+forces, casualty estimate, or ground evacuation routes. 
+It is incumbent upon the MSO to honestly evaluate the 
+medical support COAs and provide the commander 
+with the best recommendation. 
+Once the commander approves an operational 
+COA, the staff begin developing the orders or plan. 
+268
+Fundamentals of Military Medicine
+Planning Initiation 
+ Receive the Mission 
+ Alert the Staff 
+ Gather Orders, Estimates, Maps, & Graphics
+ Seek Commander’s Guidance
+Mission Analysis 
+ Define the Operational Environment 
+• How does the Operational Environment affect HSS 
+planning? 
+• What HSS resources are needed to mitigate 
+operational environment threats? 
+• Begin thinking about the type of casualties and 
+the number of casualties. 
+ Determine Specified, Implied & Essential Tasks 
+ What HSS tasks must be accomplished to support the 
+unit’s mission?
+ Review Available Assets & Identify Resource 
+Shortfalls 
+ What assets are assigned, attached or in support of 
+the HSS mission? 
+ What assets do you need to accomplish your mission? 
+ Think about the operational environment, identified 
+tasks, and potential types and number of casualties ‐ 
+review the HSS planning considerations – what is 
+missing that is needed? 
+ Determine Constraints 
+ How do the constraints placed on the unit impact the 
+HSS Plan? 
+ What constraints do the Medical Rules of 
+Engagement (MROE) place on the HSS mission? 
+ Identify Critical Facts & Key Assumptions 
+ What do you know to be true? What critical facts 
+impact the HSS mission?
+ What assumptions must be made to bridge any gaps 
+in factual data? 
+ Commander’s Critical Information Requirement 
+ Is there any critical medical planning information that 
+is key to the commander’s decision‐making? 
+ Information Collection Plan 
+ Is there any additional information that 
+reconnaissance, surveillance or intelligence can assist 
+you with planning? 
+ Begin Risk Management 
+ What hazards are associated with the Operational 
+Environment?
+ Consider Food/Water‐Borne, Vectors, Person‐to‐
+Person, Animals and Plants, Environmental, Non‐
+Battle and Battle Injuries.
+ What control measures can be implemented to 
+mitigate the hazards? 
+ Develop a proposed mission statement 
+ What is your unit’s mission? How do you medically 
+support it? Refer back to your specified, implied and 
+essential tasks. 
+ Develop COA Evaluation Criteria 
+ Identify evaluation criteria that will be used to 
+measure the relative effectiveness and efficiency of 
+one COA relative to other COAs. 
+Course of Action Development 
+ Develop medical support options. 
+ Screening Criteria (Suitable, Feasible, Acceptable, 
+Distinguishable, and Complete). 
+ Develop a broad, synchronized scheme of 
+medical support. 
+ Begin to redefine casualty estimates. 
+ Array medical forces. 
+ Prepare COA Statement/Sketches. 
+Course of Action Analysis 
+ Conduct War‐game. 
+ Identify advantages/disadvantages. 
+ Execution & Coordination Problems. 
+ Operational Gaps. 
+ Points of Decision Making. 
+ Contingencies. 
+ Identify medical support risks to the operational plan.
+ Identify casualty producing events. 
+ Refine Casualty Estimates. 
+Course of Action Comparison 
+ Use evaluation criteria to compare COAs against 
+enemy COA. 
+ Provide functional recommendation as part of 
+overall COA comparison. 
+Course of Action Approval 
+ Commander selects COA. 
+ Issue Warning Order. 
+Orders Production 
+ Translate COA into plan/order. 
+ Synchronize plan/order. 
+ Issue OPORD. 
+ Conduct Rehearsals. 
+Figure 18-6. Operation planning process reference guide.
+Figure 18-7. Uniformed Services University of the Health 
+Sciences students in planning exercise.
+Photograph by Thomas C. Balfour, Uniformed Services 
+University.
+269
+Joint Health Services Support: Operational Planning
+EXHIBIT 18-4
+KEY POINTS FOR THE MEDICAL STAFF OFFICER
+ 
+• Joint Publication 5-0 defines the joint operation planning process (JOPP) as “an orderly, analytical process, 
+which consists of a set of logical steps to examine a mission; develop, analyze, and compare alternative COAs; 
+select the best COA; and produce a plan or order.”1 
+ 
+• The services have a planning process (MDMP, NPP, MCPP, JOPPA) that closely mirrors the joint operation 
+planning process. 
+ 
+• It is important to have a solid grasp of your service’s planning process.
+ 
+• The MSO must be involved early in the planning process.
+ 
+• Mission analysis is the most important step of the planning process. An inaccurate or incomplete mission 
+analysis will sabotage the planning process and very well could lead to catastrophic results.
+ 
+• Mission analysis assists with identifying support gaps and drives HSS capability requirements. 
+ 
+• HSS planning considerations provide a “checklist” that the MSO can use during mission analysis and COA 
+development. 
+ 
+• It is critical to reflect on the principles of HSS and HSS planning considerations when developing support 
+plans, whether strategic, operational, or tactical.
+ 
+• The MSP must be synchronized with the operational plan.
+ 
+• It is important to use all available intelligence resources, including fellow staff officers, units, and personnel 
+that have previously operated in the area, to accurately identify the operational environment and the threat.
+ 
+• It is important for the MSO to have a thorough understanding of the tasks that are required for success and 
+where and how medical assets can support the mission.
+ 
+• The MSO must communicate vertically and horizontally throughout the planning process. 
+ 
+• Time is not infinite; remember the one-third to two-thirds rule.
+ 
+• HSS planning is an iterative process. The MSO must be prepared to revisit any step of the planning process 
+based on new information as well as guidance from the commander.
+ 
+• The MSO has the responsibility to communicate any known medical support risks to the operational plan.
+ 
+• Seek opportunities to be involved in the planning process. The more you practice, the better you will become.
+COA: course of action; HSS: health services support; JOPPA: joint operation planning process for air; MCPP: Marine Corps planning 
+process; MDMP: military decision-making process; MSO: medical staff officer; MSP: medical support plan: NPP: Navy planning process
+1. Chairman of the Joint Chiefs of Staff. Joint Operations Planning. Washington, DC: JCS; 11 August 2011. Joint Publication 5-0.
+The MSO’s role in the orders development process is 
+to ensure the medical support plan is written into the 
+operational plan, whether located in the operations 
+order, plan, or supporting annex. Templates for orders, 
+plans, and annexes can be found in joint and service 
+component planning documents (see Resources). An 
+operation planning process reference guide is provided in Figure 18-6, and key points for the MSO are 
+list in Exhibit 18-4.
+The processes and steps described above should be 
+very familiar to students (Figure 18-7) and practitioners 
+of the healing professions. As discussed earlier, clinicians will recognize the process of mission analysis, 
+COA development, COA comparison, and selection of 
+an operational plan as parallel to what ideally occurs 
+in caring for patients. In partnership with the patient, 
+the clinician seeks to understand the health challenges 
+facing the patient, to appreciate the patient’s desires in 
+achieving optimal health, to use current scientific insights and best practices to develop potentially competing COAs in managing the illness (diagnosing and treating), and ultimately arriving at the optimal approach, 
+tailored to the individual patient and clinical situation. 
+Because of these parallels, medical professionals are well 
+positioned to adapt their skills in critical thinking to the 
+demands of battlefield operational planning.
+RESOURCES
+Policy and practice change over time. Doctrine, 
+that is, published official guidelines and policies, will 
+change in content, but military references will retain 
+their numeric designation. Listed below are the services’ primary planning documents and corresponding 
+HSS or medical operations planning documents. They 
+should be monitored over time for key principles and 
+practices. In addition to doctrinal publications, MSOs 
+270
+Fundamentals of Military Medicine
+should review after-action reports, lessons learned, 
+and scholarly articles to hone planning skills. 14
+Joint 
+ 
+• Chairman of the Joint Chiefs of Staff. Joint 
+Operations Planning. Washington, DC: JCS; 11 
+August 2011. Joint Publication 5-0.
+ 
+• Chairman of the Joint Chiefs of Staff. Joint 
+Health Services. Washington, DC: JCS; 11 December 2017. Joint Publication 4-02.
+Army
+ 
+• Headquarters, Department of the Army. Commander and Staff Organization and Operations. 
+Washington, DC: HQDA; May 2014. Field 
+Manual 6-0. 
+ 
+• Headquarters, Department of the Army. Army 
+Health System Support Planning. Washington, 
+DC: HQDA; September 2015. Army Techniques Publication (ATP) 4-02. 55.
+ 
+• Headquarters, Department of the Army. Risk 
+Management. Washington, DC: HQDA; April 
+2014. ATP 5-19.
+Navy
+ 
+• Department of the Navy, Office of the Chief 
+of Naval Operations. Navy Planning. Washington, DC: CNO; December 2013. Navy Warfare 
+Publication (NWP) 5-01. 
+ 
+• Department of the Navy, Office of the Chief of 
+Naval Operations. Naval Expeditionary Health 
+Service Support Afloat and Ashore. Washington, 
+DC: CNO; January 2008. NWP 4-02. 
+ 
+• Department of the Navy, Office of the Chief 
+of Naval Operations. Operational Risk Management. Washington, DC: CNO; 2 July 2010. 
+Operational Navy Instruction 3500. 39C.
+Marine Corps 
+ 
+• Headquarters, Department of the Navy, US 
+Marine Corps. Marine Corps Planning Process. 
+Washington, DC: USMC; 24 August 2010. Marine Corps Warfighting Publication (MCWP) 
+5-1.
+ 
+• Headquarters, Department of the Navy, US 
+Marine Corps. Health Service Support Operations. Washington, DC: USMC; 10 December 
+2012. MCWP 4-11. 1.
+ 
+• Headquarters, Department of the Navy, US 
+Marine Corps. Risk Management. Washington, 
+DC: USMC; 26 November 2014. Marine Corps 
+Order 3500. 27C. 
+Air Force
+ 
+• Headquarters, Department of the Air Force. 
+Operations and Planning. Washington, DC: 
+USAF; 4 November 2016. Doctrinal Annex 3-0.
+ 
+• Headquarters, Department of the Air Force. 
+Medical Operations. Washington, DC: USAF; 29 
+September 2015. Air Force Doctrine Document 
+4-02.
+ 
+• Headquarters, Department of the Air Force. 
+Risk Management (RM) Guidelines and Tools. 
+Washington, DC: USAF; 27 July 2018. Air 
+Force Pamphlet 90-803.
+SUMMARY
+This chapter provides only an introductory exposure to the planning process and the accompanying 
+HSS planning considerations. The best way to learn 
+and to master the planning process is to actively 
+engage in actual operational planning, but planners 
+should first have a general understanding of their 
+service’s process—the steps, considerations, and 
+functional (eg, medical) points of interaction with the 
+warfighter. It is incumbent upon the MSO to acquire 
+proficiency in planning. The documents listed in the 
+Resources section should be a part of every healthcare 
+provider’s library, or accessible through the Internet; 
+they should routinely be referred to when engaged 
+in planning. 
+Additionally, healthcare providers must actively 
+seek out opportunities to engage in planning, no matter the scope of the mission or size of the operation. 
+Such opportunities include table-top exercises, mission rehearsal exercises, local field training exercises 
+or events, mass casualty exercises, and deployments 
+to national training centers. Another opportunity is 
+participating in war-game scenarios with fellow staff 
+officers; these interactions can be conducted over a cup 
+of coffee and demonstrate that MSOs are a member of 
+the team. Experienced personnel should be sought out 
+for advice and mentoring. Finally, remember that no 
+one should be “married to the plan”; once mastered, 
+planning can be conducted slowly and deliberately 
+or quickly and adeptly. Experience and proficiency in 
+effective planning enhances adaptability in real-world 
+events and is a key element to an MSO’s success in 
+protecting and caring for those in uniform. 
+271
+Joint Health Services Support: Operational Planning
+REFERENCES
+ 
+1. Chairman of the Joint Chiefs of Staff. Joint Operations Planning. Washington, DC: JCS; 11 August 2011. Joint Publication 
+5-0.
+ 
+2. Chairman of the Joint Chiefs of Staff. Joint Operations, Washington, DC: JCS; 17 January 2017. Joint Publication 3-0:I12–I-14.
+ 
+3. Chairman of the Joint Chiefs of Staff. Healthcare Service Support. Washington, DC: JCS; 26 July 2012. Joint Publication 
+4-02.
+ 
+4. Headquarters, Department of the Army. Commander and Staff Organization and Operations. Washington, DC: HQDA; 
+May 2014. Field Manual 6-0. 
+ 
+5. Thompson M. Why flying choppers in Afghanistan is so deadly. Time. http://content.time.com/time/nation/
+article/0,8599,1932386,00.html. Published October 27, 2009. Accessed August 3, 2017.
+ 
+6. Headquarters, Department of the Army. Army Health System Support Planning. Washington, DC: HQDA; September 
+2015. Army Techniques Publication 4-02. 55.
+ 
+7. Bricknell MC, Jones F, Hatzfeld J. Casualty estimation and medical resource planning. J Royal Army Med Corps. 
+2011;157(Suppl 4). doi:10. 1136/jramc-157-4s-06. 
+ 
+8. Naval Health Research Center. Modeling and simulation. https://www.med.navy.mil/sites/nhrc/research/orh/Pages/
+Modeling-and-Sim.aspx. Accessed September 20, 2018.
+ 
+9. Earwood JS, Brooks DE. The seven Ps in battalion level combat health support in the military operations in urban 
+terrain environment: the Fallujah experience, summer 2003 to spring 2004. Mil Med. 2006;171(4):273–277. doi:10. 7205/
+milmed. 171. 4. 273.
+ 10. Department of the Navy, Office of the Chief of Naval Operations. Navy Planning. Washington, DC: CNO; December 
+2013. Navy Warfare Publication 5-01. 
+ 11. Department of the Navy, Office of the Chief of Naval Operations. Naval Expeditionary Health Service Support Afloat and 
+Ashore. Washington, DC: CNO; January 2008. Navy Warfare Publication 4-02. 
+ 12. Headquarters, Department of the Navy, US Marine Corps. Marine Corps Planning Process. Washington, DC: USMC; 
+24 August 2010. Marine Corps Warfighting Publication 5-1.
+ 13. Headquarters, Department of the Navy, US Marine Corps. Health Service Support Operations. Washington, DC: USMC; 
+10 December 2012. Marine Corps Warfighting Publication 4-11. 1.
+ 14. Clay JD. The medical platoon leader and parallel planning. Army Logistician. Nov-Dec 2004. http://www.alu.army.
+mil/alog/issues/novdec04/medical.html. Accessed September 20, 2018.
+272
+Fundamentals of Military Medicine

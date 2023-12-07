@@ -1,0 +1,1398 @@
+105
+The National Security Structure
+Chapter 7
+THE NATIONAL SECURITY STRUCTURE
+JONATHAN WOODSON, MD*
+INTRODUCTION
+PROFESSIONALISM AND MILITARY VALUES
+THE MILITARY MEDICAL OFFICER AND THE NATIONAL SECURITY 
+STRUCTURE
+The National Command Authority and National Security Council
+Congress and Oversight of the Department of Defense
+THE DEPARTMENT OF DEFENSE
+Organization of the Office of the Secretary of Defense
+Combatant Commands
+Goldwater-Nichols Department of Defense Reorganization Act 
+Joint Chiefs of Staff and Joint Staff
+Joint Doctrine
+ORGANIZATION OF THE MILITARY MEDICAL SERVICES
+Army Medical Department
+Bureau of Medicine and Surgery
+Air Force Medical Service
+Uniformed Services University of the Health Sciences
+DEFENSE HEALTH AGENCY
+Tricare
+Multiservice Markets
+DEPARTMENT OF DEFENSE BUDGETING PROCESS
+THE UNIFIED MEDICAL PROGRAM AND THE DEFENSE HEALTH PROGRAM
+LOOKING TO THE FUTURE
+*Professor of Surgery, Department of Surgery, Boston University, Boston, Massachusetts; formerly, Assistant Secretary of Defense (Health Affairs)
+106
+Fundamentals of Military Medicine
+INTRODUCTION
+The military medical officer (MMO) is a unique 
+professional who performs his or her duties in an 
+increasingly complex environment. In order to be 
+successful in both roles as a medical professional and 
+a military officer, it is necessary for the MMO to have 
+a comprehensive understanding of the organizational 
+environment in which they will work, lead, and contribute to solving problems and advancing the tools 
+of their profession. This chapter outlines key elements 
+of the national security structure, including the national command authority, the Department of Defense, 
+combatant commands, the military services, and the 
+Defense Health Agency. In addition, the chapter provides an overview of budgeting and financial controls, 
+which are important to the sustainability and success 
+of the military medical mission.
+PROFESSIONALISM AND MILITARY VALUES
+The MMO is a member of two professions. A professional may be defined as a person who belongs to 
+an occupational group that lives by an ethos, professional discipline, and set values, and that generates 
+new knowledge to advance the profession, usually to 
+the benefit of society. In turn, society generally grants 
+the profession some autonomy and preferred status. 
+Professionals begin with formal education, but progressive skill development and competence are the 
+hallmarks of a professional.
+Medical professionals are driven by compassion 
+to heal and relieve suffering. In pursuit of these core 
+values, they commit to putting the patient first, conducting research to improve the evidence base for care, 
+and developing new strategies to broaden access and 
+efficiency of care for all who may need services. In addition to providing treatment, medical professionals 
+promote health and prevention of disease by counseling 
+patients or sharing knowledge, which should benefit 
+them as individuals. Although these are ideals, providers should constantly work to make them a reality. This 
+is how providers maintain their respected status in the 
+eyes of their fellow citizens and humanity.
+The very essence of professionalism is a community 
+of people who agree on standards and practice. A profession exercises some degree of autonomous control 
+of the community because society recognizes the community has skills and knowledge that others, without 
+professional education, do not generally understand. 
+Therefore, the professional is bound by the standards 
+of the profession. Although professionals may work 
+to change some standards, while the standards are 
+in force, professionals are bound by them. How the 
+rules are made and who makes them are therefore 
+critical aspects of professional knowledge. Healthcare 
+professionals must be aware of standards of care, who 
+their colleagues on the hospital staff are, and who 
+controls the licensing and credentialing authority in 
+their community.
+The MMO is also a professional whose occupation 
+is values based (see Chapter 3, Officership and the 
+Profession of Arms in the 21st Century). Each of the 
+military services expresses core values that officers 
+are expected to embody and exhibit in their daily behavior. Deepening an understanding of these values 
+throughout one’s professional career provides the 
+platform for solid senior leadership roles. In fact, absent a deep understanding of core values, leaders are 
+likely to fail. Loyalty and a commitment to upholding 
+the Constitution (and its values) is an oath all MMOs 
+make. The commitment to the Constitution is the basis 
+for understanding the professional work of soldiers. 
+The mission of defending the nation requires selflessness, just as does putting the patient first. Putting the 
+”mission above self” is supported by a sense of duty 
+or commitment to doing the job whenever and wherever required, doing it well, and improving skills and 
+competence throughout one’s career. 
+Military officers value honor. Closely related to 
+honor is the value of integrity, an essential part of 
+the character of a military officer, which is the reflex 
+to do the right thing—even when no one is watching. Personal courage is a cornerstone attribute for 
+the fully developed military officer. This attribute is 
+clearly important in battle, but it needs to be honed 
+to ensure leaders exhibit moral as well as physical 
+courage whenever and wherever it is needed. Leaders 
+frequently fail because they do not defend what is right 
+or stand up to peers or others who foster climates of 
+intimidation, disrespect, or discrimination.
+The military services have a responsibility to develop leaders and promote good leadership. Leadership 
+is the ability to establish a vision for a future that is 
+better than today. It requires leaders to communicate, 
+aspire, inspire, and motivate others. Leaders need to 
+know how to build effective teams. Leadership is active 
+and never passive. It requires energy and willingness 
+to solve anticipated or unanticipated problems. Thus, 
+leaders need to know themselves and know how to 
+recharge and create balance in their lives. Leadership 
+is the ultimate attribute that defines military officers 
+because it incorporates the military ethos, defines 
+107
+The National Security Structure
+competence, and is selfless and driven by mission. 
+One aspect of leadership is resource development and 
+utilization. Whether in a civilian medical system or the 
+military, understanding the administration and management of the system is a key leadership qualification.
+Careful evaluation of the ideal attributes of the 
+medical professional and the military officer reveals 
+that the optimal qualities of each profession are wholly 
+congruent and mutually reinforcing. Individuals who 
+do not fully understand the values underpinning the 
+core attributes of a military officer question whether 
+the medical ethos runs counter to the values of the military officer, which is clearly not true. Characteristics 
+such as leadership, loyalty, duty, honor, and courage 
+serve medical professionals and patient care very well. 
+Understanding compassion and relief from suffering 
+provides the military leader with mature skills needed 
+to care for subordinates. MMOs therefore have a robust 
+supportive framework to guide their development. 
+True commitment to developing one’s self as a military 
+officer pays dividends as a medical professional. Part 
+of that commitment is understanding the framework 
+of the military profession just as medical providers 
+understand the framework of the medical profession.
+THE MILITARY MEDICAL OFFICER AND THE NATIONAL SECURITY STRUCTURE
+The intent of this chapter is to lay the foundation 
+for junior medical officers to understand the context 
+in which they will function and mature as MMOs, and 
+prepare them to assume increasing levels of responsibility and accountability throughout their careers. 
+It charts a broad course for guiding personal development and provides a general introduction to the 
+important elements of the national security structure 
+impacting an MMO’s career. 
+The MMO operates throughout his or her career 
+within the special context of the US government’s 
+national security structure in support of the National 
+Security Strategy (NSS), National Defense Strategy 
+(NDS), and National Military Strategy (NMS) (Exhibit 
+7-1). The NMS1 increasingly calls for joint operations, 
+and thus it is important for MMOs to understand the 
+broad organizational structure of sister services and 
+how each may contribute to joint operations, particularly during joint medical support to a spectrum of 
+operations. This spectrum runs from conventional war 
+to stabilization, post-conflict host nation support, and 
+global health engagement.
+EXHIBIT 7-1
+DEFINITIONS
+The National Security Strategy (NSS) is a document prepared periodically by the executive branch of the US government for Congress and other audiences. It outlines the major national security concerns of the United States and 
+how the administration plans to deal with them. The legal foundation for the document is spelled out in the Goldwater-Nichols Act. The document is purposely general in content (contrast with the National Military Strategy 
+[NMS]), and its implementation relies on elaborating guidance provided in supporting documents (including the 
+NMS).
+The National Defense Strategy (NDS), issued by the secretary of defense in response to the NSS, provides guidance 
+for the chairman of the Joint Chiefs of Staff in developing the NMS, and also provides a foundation for the Quadrennial Defense Review (QDR). The NDS and the QDR provide strategic guidance from the secretary of defense on 
+priority defense missions and associated strategic goals. These goals are used by the strategic planning community 
+to assess newly emerging goals and to develop specific performance measures. The QDR report also serves as the 
+Department of Defense’s strategic plan, consistent with the Government Performance and Results Act of 1993.
+The National Military Strategy (NMS) is issued by the chairman of the Joint Chiefs of Staff as a deliverable to the 
+secretary of defense that briefly outlines the strategic aims of the armed services. The chairman of the Joint Chiefs 
+of Staff, in consultation with the other members of the Joint Chiefs of Staff, the commanders of the unified combatant commands, the Joint Staff, and the Office of the Secretary of Defense, prepares the NMS in accordance with 10 
+USC, Section 153. Title 10 requires that not later than February 15 of each even-numbered year, the chairman must 
+submit to the Senate Committee on Armed Services and the House Committee on Armed Services a comprehensive 
+examination of the NMS. This report must delineate an NMS consistent with the most recent NSS prescribed by 
+the president; the most recent annual report of the secretary of defense submitted to the president and Congress; 
+and the most recent QDR conducted by the secretary of defense.
+108
+Fundamentals of Military Medicine
+The 2015 NSS2 for the first time explicitly stated that 
+“the spread of infectious diseases constitutes a growing 
+risk” to national security. The strategy acknowledged 
+the national security imperative behind the US government’s efforts in “leading a global effort to stop the 
+deadly spread of the Ebola virus at its source.” The 
+2015 NMS defines requirements to provide for globally integrated military operations across the spectrum 
+of US military engagements, including maintaining a 
+stabilizing presence, conducting stability operations, 
+supporting civil-military authorities, and providing 
+humanitarian and disaster response. Each of these 
+functions has implications for employment of medical 
+forces to accomplish the mission.
+Increasingly, MMOs are required to participate in 
+interagency work, either as part of international crisis response or policy development work groups, in 
+pursuit of a “whole US government” organized effort. 
+Thus, the MMO must have a broad understanding of 
+the mission and capabilities of other important US 
+government agencies and how the military “supports 
+or is supported by” those agencies.
+Medical care has become increasingly more complex in terms of technology, science, and organizational design. Medical care is a key enabler for the success 
+of military operations and is an important reflection 
+of national values and respect for human life. The expectations for the delivery of high quality care, good 
+outcomes, and efficient systems that can be rapidly 
+deployed anywhere in the world are the hallmark of 
+distinction that defines the US military health system 
+(MHS). As the world becomes more volatile and complex, the MHS must evolve and prepare its leaders to 
+provide strategic leadership in this environment. 
+The development of the military medical leader is 
+iterative and must proceed in a parallel course with 
+development of clinical skills. Neither attribute can be 
+neglected if the MHS is to meet its mission and remain 
+relevant. At senior levels of responsibility, the leadership ability of MMOs is actually more important than 
+their clinical skills. Line officers, senior civilian officials, 
+allies, and foreign governments will increasingly rely 
+on MMOs’ ability to integrate the specific requirements 
+of delivering medical care with geopolitical, logistical, 
+and cultural concerns, and to evaluate the strategic 
+impact of medical operations. 
+The National Command Authority and National 
+Security Council
+The president is the commander-in-chief of the US 
+armed forces. In exercising this responsibility, lawful 
+orders need to be published. The national command 
+authority refers to the source of lawful orders and 
+comprises the president (and his or her designee, the 
+vice president) and the secretary of defense (and his or 
+her designee, the deputy secretary of defense). 
+The National Security Act of 19473 established the 
+White House National Security Council. It functions to 
+advise and assist the president on national security and 
+foreign policy issues and to coordinate these policies 
+among government executive agencies. The standing 
+(statutory) members of the National Security Council 
+include the president (chair), vice president, secretary 
+of state, secretary of defense, and secretary of energy. 
+Regular invited attendees include the chairman of the 
+Joint Chiefs of Staff (CJCS), the director of the National 
+Intelligence Agency, and the director of national drug 
+control policy. Other White House staff and executivelevel participants include the national security advisor, 
+deputy national security advisor, homeland security 
+advisor, attorney general, and White House chief of 
+staff. 
+Congress and Oversight of the Department of 
+Defense
+The Constitution of the United States provides 
+for the legal authority to organize and fund military 
+forces to defend the country. Article I, Section 8, gives 
+Congress the authority “To lay and collect taxes . . . 
+to pay the debts and provide for the common defense 
+. . . To raise and support armies . . . To provide and 
+maintain a navy.”4 
+However, the organization of the armed forces dates 
+to the Second Continental Congress, which established 
+the US Army (June 14, 1775); the US Navy (October 13, 
+1775); and the US Marine Corps (November 10, 1775). 
+After the Revolutionary War, Congress established the 
+Department of War (the predecessor of the Department 
+of Defense [DoD]), on September 29, 1789. (Exhibit 
+7-2 elaborates on the role of the Congress in shaping 
+national defense policy and structures.)
+The US Congress consists of the House of Representatives and the Senate. Each body of Congress 
+exercises its oversight responsibilities through the 
+organized activities of specific committees. In the 
+House, the House Armed Services Committee is the 
+duly constituted committee to conduct oversight of the 
+DoD and the armed forces. This committee develops 
+the legislation to authorize the DoD and each service 
+to enact programs and personnel actions (eg, troop 
+limits). The Subcommittee on Military Personnel is 
+responsible for personnel policy, military healthcare, 
+and military education, among other issues.
+The Senate counterpart is the Senate Committee on 
+the Armed Services, established under standing rules 
+of the Senate. It has jurisdiction over the DoD, military 
+services, and military research and development, 
+as well as pay, promotion, and the selective service 
+109
+The National Security Structure
+EXHIBIT 7-2
+CONGRESS AND NATIONAL SECURITY REFORMS
+The original War Department had responsibility of the naval forces as well as the land forces of the new nation, but 
+after the Revolutionary War, the naval forces were almost nonexistent. In 1794 a separate executive department was 
+established to build and oversee the naval forces; the new Navy and Marine Corps were managed separately from 
+the Army, although efforts to collaborate were subsequently made during wartime. 
+During World War II, substantial difficulties arose in establishing priorities for campaigns and operations, as well 
+as resourcing the services, in part because of competition between the services, the relative independence of the 
+services, and an unclear chain of command. Following the war, President Truman proposed establishing a unified 
+Department of (National) Defense, bringing together the Department of War (Army) and the Department of the 
+Navy. 
+The National Security Act of 1947 created the “National Military Establishment” (renamed Department of Defense 
+in 1949), and placed it under the authority, direction, and control of the secretary of defense. The National Security 
+Act of 1947 also created the Joint Chiefs of Staff, the National Security Council, and the Central Intelligence Agency. 
+Furthermore, the act established the US Air Force as a separate service from its predecessor, the Army Air Corps. 
+During the second half of the 20th century, the structures within the services and Department of Defense changed 
+several times, but the broad structure established in 1949 remains: four services within three departments under the 
+overall direction of the secretary of defense. 
+system. As in the House, the Senate Armed Services 
+Subcommittee on Personnel is charged with leading 
+most of the Senate’s defense oversight work in regard 
+to active and reserve military personnel issues, including a focus on pay, military healthcare, education, 
+morale and welfare, and military justice. 
+Under Article 1, Section 9, Clause 7 of the Constitution, “No money shall be drawn from the treasury but 
+in consequence of appropriation by law.” In both the 
+House and the Senate, legislation that authorizes programs is separate from legislation that provides the appropriation or money to pay for the programs. Both are 
+required in order to establish and sustain new programs. 
+US military spending is the largest part of discretionary 
+spending by the government. As a result, the Senate and 
+House appropriations committees and their defense 
+subcommittees play a crucial part in the defense budgeting process and acquiring needed resources to meet 
+military and defense strategies. Using the combined 
+authorization and appropriation authorities, Congress 
+plays at least a partnership role and many times leads 
+in efforts to reform national security structures. 
+THE DEPARTMENT OF DEFENSE
+The DoD is an executive agency of the US government whose mission is to provide the military forces 
+needed to deter, fight, and win the nation’s wars and 
+to protect the security of the country (Figure 7-1). The 
+DoD employs over 2. 8 million civilians, active duty 
+military forces, reserve component forces, and contractors. Established after World War II as a distinct 
+agency to supervise and coordinate national security 
+and the armed forces, the DoD is headquartered at 
+the Pentagon, in Arlington, Virginia, but has many 
+offices throughout the National Capital Region and 
+the United States.
+The secretary of defense is a cabinet-level appointee 
+who reports to the president and has authority, direction, 
+and control over the DoD. The DoD has three component 
+military departments: Department of the Army, Department of the Navy (and Marine Corps), and Department 
+of the Air Force. In addition, the DoD has oversight for 
+the Defense Intelligence Agency, the Defense Advanced 
+Projects Agency, the National Security Agency, the National Geospatial Intelligence Agency, and the National 
+Reconnaissance Office. Other DoD agencies include the 
+Defense Logistics Agency, the Defense Health Agency 
+(DHA), the Missile Defense Agency, the Defense Threat 
+Reduction Agency, the Defense Security Agency, and the 
+Pentagon Protection Force Agency. 
+Organization of the Office of the Secretary of 
+Defense
+The secretary of defense provides civilian control 
+over the military services in accordance with the Constitution. In order to execute these responsibilities, the 
+Office of the Secretary of Defense is organized to provide a senior civilian staff to carry out the secretary of 
+defense’s authorities and manage the DoD (Figure 7-2). 
+110
+Fundamentals of Military Medicine
+Secretary of Defense 
+Department of Defense 
+Department of 
+the Air Force 
+Secretary of the Air Force 
+Office 
+of the 
+Secretary 
+of the 
+Air Force 
+The
+Air Staff 
+The
+Air Force 
+Office of the Inspector General 
+of the Department of Defense 
+Joint Chiefs 
+of Staff 
+Chairman of the 
+Joint Chiefs of Staff 
+The
+Joint Chiefs 
+The 
+Joint Staff 
+Department of 
+the Navy 
+Secretary of the Navy 
+Office 
+of the 
+Secretary 
+of the 
+Navy 
+Office 
+of the 
+Chief 
+of Naval 
+Operations 
+The
+Navy 
+Head- 
+quarters 
+Marine 
+Corps 
+The
+Marine 
+Corps 
+Department of 
+the Army 
+Secretary of the Army 
+Office 
+of the 
+Secretary 
+of the 
+Army 
+The
+Army Staff 
+The
+Army 
+Defense Agencies (19)
+Defense Advanced Research Projects Agency 
+Defense Commissary Agency 
+Defense Contract Audit Agency 
+Defense Contract Management Agency * 
+Defense Finance and Accounting Service 
+Defense Health Agency* 
+Defense Information Systems Agency * 
+Defense Intelligence Agency * 
+Defense Legal Services Agency 
+Defense Logistics Agency * 
+Defense POW/MIA Accounting Agency 
+Defense Security Cooperation Agency 
+Defense Security Service 
+Defense Threat Reduction Agency * 
+Missile Defense Agency 
+National Geospatial-Intelligence Agency * 
+National Reconnaissance Office 
+National Security Agency/Central Security Service * 
+Pentagon Force Protection Agency 
+DoD Field Activities (8) 
+Defense Media Activity 
+Defense Technical Information Center 
+Defense Technology Security Administration 
+DoD Education Activity 
+DoD Human Resources Activity 
+DoD Test Resource Management Center 
+Office of Economic Adjustment 
+Washington Headquarters Services 
+Combatant Commands (10)
+US Africa Command
+US Central Command
+US Cyber Command
+US European Command
+US Indo-Pacific Command
+US Northern Command
+US Southern Command
+US Special Operations Command 
+US Strategic Command
+US Transportation Command
+DoD Component 
+Senior Leader 
+Military Service 
+The overall organization of DoD is 
+established in law in 10 USC §111
+and in DoD Policy in DoDD 5100. 01. 
+Office of the 
+Secretary of Defense 
+Deputy Secretary of 
+Defense, Under 
+Secretaries of 
+Defense, Assistant 
+Secretaries of 
+Defense, and other 
+specified officials 
+•
+Defense Agency Identified as a
+Combat Support Agency (CSA)
+DoD Organizational Structure 
+Figure 7-1. Organization of the Department of Defense.
+111
+The National Security Structure
+As of 7/16/2018 
+OSD Oversight of Defense Agencies/DoD Field Activities
+Defense Agencies * 19
+DoD Field Activities
+8
+Total
+27
+Defense Agency
+DoD Field Activity
+Def. Agency & CSA
+* Eight Defense Agencies are designated as Combat Support Agencies
+(CSAs) with joint oversight by the Chairman of the Joint Chiefs of Staff
+GC DoD
+Defense
+Legal
+Services
+Agency
+(Est. 1981)
+ATSD
+(Public Affairs)
+Defense
+Media
+Activity
+(Est. 2008)
+DoD CIO
+Defense
+Information
+Systems
+Agency *
+(Est. 1960)
+Deputy Secretary of Defense
+Secretary of Defense
+USD
+(Intelligence)
+Defense 
+Intelligence 
+Agency *
+(Est. 1961)
+Defense
+Security
+Service
+(Est. 1972)
+National
+GeospatialIntelligence
+Agency *
+(Est. 1996)
+National
+Reconnaissance
+Office
+(Est. 1961)
+National Security 
+Agency /
+Central Security 
+Service *
+(Est. 1952)
+USD
+(P&R)
+Defense
+Commissary
+Agency
+(Est. 1990)
+DoD Human
+Resources
+Activity
+(Est. 1996)
+Defense
+Health
+Agency *
+(Est. 2013)
+DoD
+Education
+Activity
+(Est. 1992)
+USD
+(Comptroller)
+Defense
+Contract
+Audit
+Agency
+(Est. 1965)
+Defense
+Finance &
+Accounting
+Service
+(Est. 1990)
+USD
+(Policy)
+Defense
+Security
+Cooperation
+Agency
+(Est. 1971)
+Defense
+POW/MIA 
+Accounting 
+Agency
+(Est. 2015)
+Defense
+Technology
+Security
+Administration
+(Est. 2001)
+CMO
+Pentagon
+Force
+Protection
+Agency
+(Est. 2002)
+Washington
+Headquarters
+Services
+(Est. 1977)
+USD
+(R&E)
+Defense
+Advanced
+Research
+Projects Agency
+(Est. 1958)
+Missile
+Defense
+Agency
+(Est. 1984)
+Defense
+Technical
+Information
+Center
+(Est. 2004)
+DoD Test
+Resource
+Management
+Center
+(Est. 2004)
+USD
+(A&S)
+Defense
+Contract
+Management
+Agency *
+(Est. 2000)
+Defense
+Logistics
+Agency *
+(Est. 1961)
+Defense
+Threat
+Reduction
+Agency *
+(Est. 1998)
+Office of
+Economic
+Adjustment
+(Est. 1978)
+Figure 7-2. Organization of the Office of the Secretary of Defense.
+112
+Fundamentals of Military Medicine
+In addition to the secretary of defense, key civilian 
+personnel (appointed by the president with the advice 
+and consent of the Senate) include the deputy secretary 
+of defense; three service secretaries (Army, Navy, Air 
+Force); and six undersecretaries (for acquisition and 
+sustainment [A&S]; research and engineering [R&E]; 
+comptroller/chief financial officer; personnel and readiness [P&R]; policy; and intelligence). The National 
+Defense Authorization Act of 2017 restructured the 
+undersecretary for acquisition, technology, and logistics into two distinct roles: the undersecretary for 
+research and engineering (chief technical officer), with 
+the mission of advancing technology and innovation, 
+and the undersecretary for acquisition and sustainment. A number of assistant secretaries, who are also 
+civilian, support the undersecretaries. The assistant 
+secretaries are also appointed by the president with 
+the advice and consent of the Senate. Other key staff 
+include the general counsel, deputy chief management officer, director of administration, and director 
+of operational test and evaluation.
+Space does not permit coverage of all of the roles 
+and responsibilities of key leaders within the Office 
+of the Secretary of Defense, which are delineated in 
+several DoD publications. However, a few relationships, roles, and responsibilities are important for the 
+medical officer to understand.
+The military service secretaries function as the 
+chief executive officers for their respective service and 
+report to the secretary of defense. Reporting to the 
+service secretaries are the service chiefs (ie, the chief of 
+staff for the Army and the Air Force, the chief of naval 
+operations for the Navy, and the commandant of the 
+Marine Corps). With advice and consultation of the 
+senior leadership of the service, the service secretaries 
+are responsible for service plans, policies, budgets, and 
+programs. They also have specified responsibilities 
+under the Uniformed Code of Military Justice.
+The undersecretary for personnel and readiness 
+is the principal advisor to the secretary and deputy 
+secretary of defense for total force management as it 
+relates to personnel requirements, readiness, reserve 
+component affairs, health affairs, training, equal opportunity, morale, welfare, and quality of life issues. 
+The assistant secretary of defense for health affairs, 
+while the principal advisor to secretary of defense for 
+health-related matters, reports to the undersecretary 
+for personnel and readiness.
+The assistant secretary of defense for health affairs 
+(ASD[HA]) has broad roles, responsibilities, and authorities as a principal agent of the Office of the Secretary 
+of Defense. As delineated in DoD Directive 5136. 01:
+The ASD(HA) is the principal advisor to the Secretary 
+of Defense and the Under Secretary of Defense for 
+Personnel and Readiness (USD (P&R)) for all DoD 
+health and force health protection policies, programs, 
+and activities, and for the Integrated Disability Evaluation System (IDES). The ASD(HA) ensures the effective execution of the DoD medical mission, providing 
+and maintaining readiness for medical services and 
+support to members of the Military Services, including during military operations; their families; those 
+held in the control of the Military Services; and others 
+entitled to or eligible for DoD medical care and benefits, including those under TRICARE. In carrying out 
+these responsibilities, the ASD(HA) exercises authority, direction, and control over the DoD medical and 
+dental personnel authorizations and policy, facilities, 
+programs, funding, and other resources in the DoD. 5 
+In the process of developing health-related policies, the ASD(HA) coordinates with the services and 
+the Joint Chiefs of Staff (JCS), usually with the service 
+surgeons general and joint staff surgeons as the points 
+of contact. Additionally, the ASD(HA) has authority, 
+direction, and control over the Uniformed Services 
+University of the Health Sciences, including the Armed 
+Forces Radiobiology Research Institute, the Defense 
+Centers of Excellence for Psychological Health and 
+Traumatic Brain Injury, and the Armed Services Blood 
+Program. The ASD(HA) executes his or her responsibilities with the assistance of five functional leads:
+ 
+1. The principal deputy assistant secretary of 
+defense fulfills all of the functions and duties of the ASD(HA) when he or she is absent 
+and provides direct oversight of the deputy 
+assistant secretaries.
+ 
+2. The deputy assistant secretary for health 
+services policy and oversight serves as the 
+principal staff assistant and advisor to the 
+ASD(HA) for clinical policies and programs, 
+including oversight of quality assessment/
+quality improvement, patient safety, and 
+population-based healthcare management 
+across the MHS. 
+ 
+3. The deputy assistant secretary of defense 
+for health readiness policy and oversight 
+directs development of deployment medicine 
+and force health protection policy, medical research and development strategy and 
+policy, international health agreements and 
+policy, and domestic federal interagency and 
+nongovernmental partnerships to serve DoD 
+missions and medical readiness.
+ 
+4. The deputy assistant secretary for health 
+resources, management, and policy is responsible for overall financial policy and 
+programs for the Defense Health Program 
+(DHP). DHP is the name given to the actual 
+113
+The National Security Structure
+budget groups that financially support the 
+DHA, the MHS, and Tricare. The DHP maintains the financial portfolio that both funds 
+and promotes the MHS’s strategic imperatives, including research, education, administration, health information technology, 
+direct care in military hospitals and clinics, 
+and payment for private sector healthcare.
+ 
+5. The director of the DHA directs the execution 
+of 10 joint shared services including Tricare, 
+pharmaceuticals, health information technology, research and acquisition, education 
+and training, public health, medical logistics, 
+facility management, budget and resource 
+management, and contracting. The DHA 
+administers Tricare, which provides worldwide medical, dental, and pharmacy benefits 
+to more than 9. 4 million uniformed service 
+members, retirees, and their families.
+Combatant Commands
+Unified combatant commands (COCOMS) were 
+created as an outgrowth of the Second World War and 
+codified under the authorities of the National Security 
+Act of 1947 and Title 10 of the US Code. During World 
+War II, a unified command structure was created to 
+synchronize American and British war efforts under 
+the Combined Chiefs of Staffs, which planned and 
+executed the military campaigns. The Supreme Headquarters Allied Expeditionary Force for the European 
+Theater was one example of a joint command structure. 
+Following the war, unified commands underwent 
+several iterations, originally overseen by one of the 
+service chiefs as an executive agent of the JCS.
+Unified COCOMs are 4-star joint commands organized on a geographical (area of responsibility) or 
+functional basis and are constituted by forces from 
+multiple military services. 6 COCOMs provide command and control of US military forces and conduct 
+peacetime and wartime operations. They are established in accordance with the Unified Command Plan, 
+a directive approved by the president that defines 
+command relationships for operational forces globally. 
+The military services, under Title 10 authorities and 
+responsibilities, train, organize, and equip the armed 
+forces. The services are responsible for providing 
+trained forces to COCOMs when needed for ongoing operations. COCOMs are extremely important to 
+providing strategic situational awareness, contingency 
+planning, regional agility, unity of effort, and forward 
+presence to support the NDS and NMS. Each of the 
+COCOMs has an assigned command surgeon to provide healthcare and force health protection advice to 
+the combatant commanders. 
+The current geographical commands are the European Command (EUCOM, Stuttgart, Germany); Africa 
+Command (AFRICOM, Stuttgart, Germany); Central 
+Command (CENTCOM, MacDill Air Force Base, FL); 
+Pacific Command (PACOM, Camp H.M. Smith, HI); 
+Southern Command (SOUTHCOM, Doral, FL); and 
+Northern Command (NORTHCOM, Peterson Air 
+Force Base, CO). Figure 7-3 maps the geographic area 
+of responsibility for each of these commands. 
+Specified commands are functional in organization 
+and operate across the globe. They have specialized, 
+ongoing missions in support of unified commands 
+and geographical combatant commanders. The US 
+Transportation Command (USTRANSCOM, Scott 
+AFB, IL); US Special Operations Command (USSOFigure 7-3. Map of the US unified geographic combatant commands.
+114
+Fundamentals of Military Medicine
+COM, MacDill Air Force Base, FL); and US Strategic 
+Command (USSTRATCOM, Offutt Air Force Base, 
+NE) are the current specified commands. Congress 
+recently directed the establishment of an additional 
+functional combatant command, Cyber Command, 
+which currently is organized under STRATCOM. 
+Periodically different stakeholders have advocated 
+for the establishment of a unified medical command 
+as an additional functional command. The president, 
+with the advice and assistance of the secretary of defense and CJCS, can establish additional specified or 
+geographical commands as necessary.
+Goldwater-Nichols Department of Defense Reorganization Act 
+The Goldwater-Nichols Department of Defense 
+Reorganization Act of 1986 defines the current military 
+command relationships, roles, and responsibilities, 
+specifically, the chain of command for the unified command that flows from the president through the secretary of defense to combatant commander. 7,8 The CJCS 
+facilitates this line of authority but has no command 
+authority over the COCOMs or the forces assigned. 
+The Goldwater-Nichols Act produced significant 
+changes in the command alignment and organization 
+of the DoD. The intent of the legislation was to further 
+address the interservice competition that impeded 
+effective defense and military strategy planning 
+and execution. Despite the creation of the DoD (in 
+1947), when the services began reporting to a single 
+secretary, the military services remained independent and organized along individual service chains 
+of command. There remained duplication of effort 
+(eg, procurement), lack of efficiency, and problems 
+planning for and conducting combined arms/service 
+operations. 
+The Goldwater-Nichols Act clarified the role of the 
+CJCS as the principal military advisor to the president, 
+National Security Council, and secretary of defense. 
+The act provided a platform for the CJCS to lead the 
+development of the overall NMS, and it provided for 
+clear command authority for unified and specified 
+combatant commanders. The services report to their 
+respective service chiefs and are responsible for “training, manning and equipping” the forces required or 
+requested by the COCOM (subject to approval of the 
+secretary of defense). The combatant commanders 
+have full command of forces provided to them by the 
+services, and they have freedom to plan and conduct 
+joint operations with the assigned multiservice (air, 
+ground, naval, and special operation) forces. In addition, the changes implemented under the GoldwaterNichols Act provided for unity of effort and efficiencies 
+in procurement, interagency collaboration, and planning. The act also set forth the requirements for joint 
+professional military education for career progression 
+to admiral (flag) or general officer rank. MMOs have 
+generally been exempted from this joint professional 
+military education provision, although compliance 
+with this requirement creates an increasingly competitive edge for individual medical officers.
+Joint Chiefs of Staff and Joint Staff
+The National Security Act of 1947, in part to institutionalize the joint chiefs structure created during 
+World War II, constituted the JCS. Its membership 
+includes the CJCS, vice chairman of the JCS, the service 
+chiefs, and the chief of the National Guard Bureau. The 
+JCS provides advice to the president, secretary of defense, and National Security Council through the CJCS 
+(who is the designated principal military advisor) and 
+assists the CJCS in carrying out his or her duties. The 
+JCS, pursuant to the Goldwater-Nichols Act of 1986, 
+does not have operational command authority. Each 
+service chief works for his or her respective service 
+military department secretary.
+The Joint Staff refers to the complement of civilians 
+and military personnel (from all five armed services) 
+who work to support and execute the responsibilities 
+of the JCS and CJCS. In carrying out this effort, the 
+Joint Staff coordinates extensively with the staff of 
+the secretary of defense, staffs supporting the military 
+service chief and secretaries, and staffs of combatant commanders and other government agencies as 
+needed. Joint Staff functions follow a typical structure 
+common in higher military headquarters, as noted in 
+Figure 7-4, with the designation “J” before the numbered staff function. The director of the Joint Staff is a 
+3-star general or flag officer responsible for oversight 
+and coordination.
+Like many headquarters, the Joint Staff has special 
+staff officers assigned. The Joint Staff surgeon is assigned to the J-4 (logistics) cell and is the chief medical advisor to the CJCS and the COCOMs. The Joint 
+Staff surgeon coordinates all issues related to health 
+services, including operational medicine, force health 
+protection, and readiness, working with the ASD(HA) 
+and the military services. 
+Joint Doctrine
+The Joint Staff publishes a series of joint publications 
+to educate US military forces in joint doctrine: 
+Joint doctrine presents the fundamental principles 
+that guide the employment of US military forces in 
+115
+The National Security Structure
+Figure 7-4. Organization of the Joint Chiefs of Staff.
+coordinated and integrated action toward a common 
+objective. It promotes a common perspective from 
+which to plan, train, and conduct military operations. 
+It represents what is taught, believed, and advocated 
+as what is right (ie, what works best). It provides distilled insights and wisdom gained from employing 
+the military instrument of national power in operations to achieve national objectives. 6 
+These publications range across the spectrum of 
+staff operations, planning, and operational requirements for the joint force. Joint Publication 16 provides 
+doctrine for unified action by US armed forces, including command relationships, military authority guidance for command and control, and organizing and 
+equipping joint forces. It provides the doctrinal basis 
+for interagency coordination and US military employment in multinational and interagency operations. It 
+should be a familiar resource for all MMOs.
+In 2015, the Joint Staff surgeon championed the development and approval of the Joint Concept for Health 
+Services,9 which describes “the CJCS vision for what the 
+future Joint Force will need to have from the collective 
+military medical enterprise to support full spectrum 
+global integrated Operations. This includes interoperable service capabilities, common standards, procedure, 
+and tailorable expeditionary capability to operational 
+and strategic requirements.” It provides a framework 
+for joint healthcare for combatant commands, military 
+services, the DHA, and the Joint Staff to achieve unity 
+of effort in the provision of health service support.
+Seven core supporting ideas are described in the 
+Joint Concept for Health Services:
+ 
+1. Integrated joint requirements in medical 
+force development that mitigate threats to 
+health services specifically, and the joint force 
+generally, in contested environments.
+ 
+2. Global synchronization of health services that 
+plan, integrate, and sustain medical resources 
+efficiently and quickly on a global scale. 
+ 
+3. Modular and interoperable medical capabilities that meet a core set of joint standards 
+and requirements while also conforming to 
+service-specific requirements.
+116
+Fundamentals of Military Medicine
+ 
+4. A global network of health service nodes that 
+incorporate mission partners and are flexible 
+enough to rapidly mobilize and deploy medical capabilities and resources.
+ 
+5. Tailored medical forces and operations 
+that reduce lift requirements, sustainment 
+requirements, and physical presence while 
+improving quality of care.
+ 
+6. Leaders integrating joint medical capabilities 
+who are adaptive, skilled, and can synchronize multiple efforts across multiple domains 
+to ensure unity of health service efforts.
+ 
+7. Improved performance through an appropriate balance between sustainment of current 
+readiness through healthcare delivery in 
+medical beneficiary markets, targeted warfighting clinical education and training, and 
+investment in future capabilities.
+ORGANIZATION OF THE MILITARY MEDICAL SERVICES
+The Army, Navy, and Air Force operate independent medical services in support of their parent military organization. The Marine Corps receives medical 
+support from the Department of the Navy. As a result, 
+the chain of command flows from the service secretary 
+to the respective service chief to the respective service 
+surgeon general. The Army and Navy surgeons general both have command responsibilities in addition 
+to their principal service senior staff roles. The Army 
+surgeon general is commander of the US Army Medical 
+Command. The Navy surgeon general is commander 
+of the US Navy Bureau of Medicine and Surgery 
+(BUMED). The Air Force surgeon general functions as 
+the principal medical advisor to the chief of staff of the 
+Air Force, but has no similar command responsibilities.
+Army Medical Department
+The Army Medical Department (AMEDD) is the 
+oldest organized US military medical support activity and dates its lineage to the Continental Army in 
+1775. The AMEDD is organized into six special officer 
+corps and an enlisted medical corps. The Army Medical Corps (physicians) is the oldest corps and, like the 
+AMEDD, dates to the Continental Army. The other 
+corps are the Army Nurse Corps, the Dental Corps, the 
+Veterinary Corps, the Medical Service Corps, and the 
+Medical Specialist Corps. The Medical Service Corps 
+represents a group of professional capabilities including pharmacists, medical evacuation pilots, operations 
+officers, health administration officers, social workers, 
+podiatrists, and several other disciplines. The Medical Specialist Corps consists of commissioned officers 
+holding professional degrees who serve as clinicians 
+in several disciplines such as physician assistants, 
+physical and occupational therapists, and dieticians. 
+There are 24 enlisted medical specialties (eg, behavioral health specialist, dental specialist) that augment 
+the AMEDD’s professional capability. These specialists 
+receive their training in a joint educational environment, the Medical Education and Training Campus, 
+in San Antonio, Texas. The military standards are set 
+and overseen by the AMEDD Academy of the Health 
+Sciences, which educates and trains medical personnel 
+as part of the AMEDD Center and School. The Center 
+and School is also the proponent for Army medical 
+organization, doctrine, and tactics.
+The AMEDD executes its responsibility for staffing the services with qualified medical professionals 
+through several educational strategies. Professionals 
+such as doctors and nurses can receive primary professional training through civilian professional schools 
+supported by scholarships (eg, the Health Professions 
+Scholarship Program) or be directly commissioned into 
+the service at later stages of their careers. 
+Bureau of Medicine and Surgery 
+The BUMED is the Navy’s executive agency for 
+training, staffing, and provision of health services 
+and health policy for the Navy and Marine Corps. 
+Commanded by the Navy surgeon general, BUMED 
+has about 63,000 personnel assigned. BUMED’s subordinate commands are Navy Medicine East, Navy 
+Medicine West, the Education and Training Command, the Naval Research Center, the Naval Medical 
+Logistics Command, the Navy Medicine Information 
+Systems Support Activity, and the Navy and Marine 
+Corps Public Health Center. Navy Medicine East and 
+Navy Medicine West have oversight of 19 hospitals 
+and 9 clinics as well as 3 dental battalions.
+Air Force Medical Service
+The Air Force Medical Service (AFMS) was established in 1949, two years after the Army Air Corps 
+became its own service as the US Air Force. Like its 
+sister services, the AFMS is organized into a series 
+of medical professional corps, including the Medical 
+Corps, Nurse Corps, Biomedical Science Corps, Dental 
+Corps, and Medical Service Corps. Additionally, there 
+is an Enlisted Medics Corps. Unlike the Army and 
+Navy, Air Force hospitals and clinics fall under the 
+command of wing commanders rather than the AFMS.
+117
+The National Security Structure
+Uniformed Services University of the Health 
+Sciences
+The Uniformed Services University of the Health 
+Sciences (USUHS) and its F. Edward Hebert School of 
+Medicine were established by an act of Congress on 
+September 21, 1972. The mission of USUHS is “to educate, train and comprehensively prepare uniformed 
+services health professionals, scientists and leaders to 
+support the Military and Public Health Systems, the 
+National Security and National Defense Strategies of 
+the United States and the readiness of our uniformed 
+services.” USUHS is a key source of career military 
+medical physicians and graduate dental and nursing 
+personnel. It is a joint organization, supporting all 
+services. The ASD(HA), the three military surgeons 
+general, and the US surgeon general are members (ex 
+officio) of the USUHS Board of Regents.
+DEFENSE HEALTH AGENCY
+Since 1947, there have been 19 studies, commissions, and reports to evaluate the propriety of having 
+separate military service medical systems. The majority of these reports have recommended combining the 
+medical services to improve efficiency, reduce costs, 
+and reduce the size of medical headquarters. A few 
+studies have recommended a “Joint Medical Command.” Most of these recommended changes have 
+been resisted by the services.
+In 2011, after a decade of war in which joint medical operations prevailed and costs spiraled, the Office of the Secretary of Defense formed a task force 
+to review the long-term governance options of the 
+MHS. Additionally, the 2005 Base Realignment and 
+Closure Commission had recommended co-locating 
+the Army, Navy, and Air Force medical headquarters 
+in the same building. This set the stage for examining 
+core duplicative health system functions that could be 
+better managed as MHS shared services or enterprise 
+support activities. The task force, conducted under the 
+auspices of the undersecretary of defense (personnel 
+and readiness) and the ASD(HA), produced a report 
+recommending the establishment of a joint DHA to 
+assume management of 10 shared business processes 
+or core business activities and any other activities 
+identified by the secretary of defense. The shared services included Tricare; health facilities management; 
+budget and resource management; health information 
+technology; medical logistics; education and training; 
+research and development; pharmacies; public health; 
+and procurement and contracting. The National Defense Authorization Act of 2017 directed the DHA 
+to assume control of all military treatment facilities 
+beginning October 1, 2018.
+The overarching mission of the DHA is to support 
+and maintain a medically ready force and a ready 
+medical force at all times while creating a better, 
+stronger, more efficient and agile MHS. The DHA assumed initial operating capability on October 1, 2013, 
+and matured to full operating capability on October 
+1, 2015. The DHA is also designated as a combat support agency and in this role is responsible to the CJCS 
+for delivering key combat service support capabilities 
+to support the NMS. The DHA is also responsible for 
+oversight of National Capital Region medical assets, 
+which include the Walter Reed National Military 
+Medical Center in Bethesda, the Fort Belvoir Community Hospital, the National Museum of Health and 
+Medicine, the Joint Pathology Center, the National 
+Capital Region multiservice market (see below), and 
+the Pentagon clinic. The DHA director, a 3-star admiral or general, reports directly to the ASD(HA). The 
+ASD(HA) has authority, direction, and control over 
+the DHA and DHP.
+Tricare
+When the DHA was established in 2013, it assumed 
+control and oversight of the Tricare management activity functions, responsible for administering Tricare 
+health benefits. Tricare is a congressionally defined 
+health benefit service for active duty military personnel, their family members, retirees and their family 
+members, reserve component service members, and 
+eligible survivors of service members who died on 
+active duty. 
+DoD health benefits for dependents have undergone significant evolution over time, but their origins 
+date to the passage of the Dependents Medical Care 
+Act of 1956, which permitted the secretary of defense to 
+contract with civilian healthcare providers to provide 
+medical care for active duty military family members. 
+Prior to this time healthcare for families of service 
+members and retirees was provided on a “space available” status in military medical treatment facilities 
+(MTFs). The expansion of the armed forces during the 
+Cold War, the increase in employer-provided insurance, and the increased sub-specialization and remote 
+locations of some military bases created access problems for military families, prompting Congress to act. 
+In 1966 the act was updated and renamed the Civilian Health and Medical Program of the Uniformed 
+Services (CHAMPUS). At that time, the benefit for 
+civilian healthcare was extended to retirees and their 
+118
+Fundamentals of Military Medicine
+families. During the 1980s and 1990s, medical care 
+throughout the United States experienced escalating 
+costs. The CHAMPUS program was no exception. 
+In the late 1980s, in an effort to control costs, improve access, and increase beneficiary satisfaction, 
+a demonstration program known as the CHAMPUS 
+Reform Initiative (CRI) was introduced in California 
+and Hawaii. The CRI was the DoD’s first foray into 
+a “managed care” model for managing the defense 
+health benefit. It included a health maintenance organization (HMO) model of care delivery along with 
+preferred provider organization (PPO) networks. 
+Like in the civilian setting, the HMO option provided 
+for primary care physician approved (“gatekeeper”) 
+referrals to specialists, but with lower beneficiary cost 
+contributions.
+In 1994, through provisions in the DoD authorization and appropriations legislation, Congress required 
+the nationwide implementation of the CRI model. Today’s Tricare program evolved out of this legislatively 
+required reform, which established 12 Tricare regions 
+in the country, serviced by 7 managed care support 
+contracts. An additional overseas contractor was later 
+added. Subsequent evolution and revisions of the managed care support contracts have reduced the number 
+of contracts to two, divided into east and west regions 
+(as of 2017). The independent overseas managed care 
+support contract remains separately managed. 
+The Tricare health benefit has been enhanced progressively over the years. In 2001, Congress directed 
+the DoD to add Tricare for Life, a supplemental “wraparound” health insurance benefit for Medicare-eligible 
+beneficiaries (mostly those aged 65 years and older). 
+These beneficiaries must be eligible for Medicare Part 
+A and enrolled in Part B. Tricare Reserve Select is an 
+optional health benefit available to reserve component 
+service members and their dependents. It gives access 
+to the full Tricare options, but reserve component 
+service members pay 28% of premium costs. Tricare 
+Retired Reserve gives full access to Tricare health 
+benefits to retired members of the reserve components, 
+but the beneficiary pays 100% of the premium cost (no 
+government cost sharing). Tricare Young Adult was 
+created in response to the Patient Protection and Accountable Care Act or Affordable Care Act (ACA) of 
+2010 (also known as “Obamacare”). The ACA allowed 
+(along with other benefits) for young adults to stay on 
+their parents’ health insurance plans up to the age of 
+26 (under defined conditions). Tricare Young Adult 
+created the same provisions within Tricare, but at additional premium costs equivalent to the actuarially 
+projected cost for the coverage. Other enhancements 
+of Tricare included dental and vision insurance and 
+home delivery of pharmaceuticals.
+In 2016, Congress again directed reforms of Tricare, aimed at simplifying the program as well as 
+introducing modestly higher enrollment and user 
+fees for military families and retirees. Tricare Select, 
+which became effective January 1, 2018, replaced 
+Tricare Extra (the PPO plan) and Tricare Standard 
+(the fee-for-service plan). These benefits remain a 
+subject of continuing congressional interest and will 
+possibly change as American healthcare undergoes 
+change. 
+Multiservice Markets
+The provision of comprehensive health service 
+to military service members, family members, and 
+retirees in the 21st century is complex and influenced 
+by many of the driving forces promoting calls for 
+reforms in the civilian health sector. The MHS has the 
+additional responsibility of maintaining readiness of 
+its medical forces. The MHS must balance costs, efficiency, productivity, quality of care, and utilization 
+of medical services in the direct care system (MTFs) 
+against expenditures, costs, access, and quality in the 
+purchased care markets acquired through Tricare. Optimal utilization of the direct care system contributes to 
+military medical force readiness, which is paramount. 
+Additionally, new strategies to improve healthcare 
+such as “value-based care” challenge the MHS organizational structure. MHS leaders increasingly view 
+military communities with large beneficiary populations and large direct military healthcare capacity as 
+providing the best opportunities to maintain clinical 
+skills needed for the military mission. 
+A multiservice market is a geographical region in 
+which two or more military medical services operate 
+(eg, the National Capital Region, where elements of 
+Army, Navy/Marine Corps, and Air Force all operate 
+MTFs). Uncoordinated, independent service efforts 
+to optimize the use of their facilities and budgets 
+can lead to competition between military services 
+and overall suboptimized DoD health expenditures 
+from the DHP. The multiservice market management 
+structure provides for coordinated investments and 
+medical services under a single market manager. Under this program, medical productivity is enhanced 
+because the market manager has the ability to move 
+(with consent of the parent military service) medical 
+personnel (to create more capacity) and referrals (to 
+improve access and productivity) to MTFs where 
+needs exist. This in turn reduces the number of referrals to the private healthcare sector and reduces 
+Tricare expenditures. 
+In addition to the National Capital Region, large 
+multiservice markets exist in the Tidewater region, 
+119
+The National Security Structure
+Virginia; Colorado Springs, Colorado; San Antonio, 
+Texas; Puget Sound region, Washington; and Oahu, 
+Hawaii. The need to create an optimum enterprise 
+management strategy in these large multiservice 
+markets was one of the imperatives leading to the 
+establishment of the DHA.
+DEPARTMENT OF DEFENSE BUDGETING PROCESS
+Mission, resources, and strategy are inseparably 
+linked. It has been said that without resources, there 
+is no mission, and strategy often needs to be changed 
+to fit the resources available. This section refers specifically to financial resources because most other 
+resources (personnel, equipment, and to some extent 
+time) depend on the amount of money available to 
+fund all requirements. It is important to emphasize 
+that the DoD budget is tied to other national priorities 
+and thus subject to the priorities set by the president 
+and Congress. Under the provisions of the US Constitution, Congress has the ultimate responsibility for 
+authorizing and appropriating the national budget, 
+and specifically for providing the funds for the armed 
+services and DoD. Thus, Congress is integral to the 
+DoD budget process. 
+The planning, programing, budgeting, and execution (PPBE) system is the DoD’s multiyear resource 
+allocation process. 10 Phases of the PPBE process, 
+which are distinct but overlapping (Figure 7-5), occur 
+throughout the year, addressing both the current year 
+budget execution and future year defense programs. 
+The planning phase examines alternative strategies as 
+well as changing conditions (including threats and economic and technology issues). The programing phase 
+analyzes the resource implications of force structure, 
+weapon systems, and other support elements as well 
+as potential alternatives. The budgeting phase examines the first 1 to 2 years of the budget to justify and 
+formalize execution and budget control. The execution 
+phase results in funds distribution, year of execution 
+budget assessment and adjustment, audit controls, and 
+fiscal year closeout.
+The NSS, NDS, and NMS, together with recommendations from the services, the CJCS, and the COCOMs, 
+provide input to the secretary of defense’s planning 
+guidance (DPG). The DPG is fiscally constrained guidance that establishes priorities for the DoD (modernFigure 7-5. The Department of Defense planning, programing, budgeting, and execution process. 
+120
+Fundamentals of Military Medicine
+ization, readiness, forces structure, sustainability) and 
+its support infrastructure and business processes. The 
+DPG informs DoD components on capabilities needed 
+to support the NSS, NDS, and NMS. From this guidance, the undersecretary of defense (comptroller), in 
+coordination with the Office of Defense Cost Assessment and Program Evaluation, issues fiscal guidance, 
+and DoD components develop proposed programs 
+or program objective memoranda. Program objective 
+memoranda are the result of systematic analysis of 
+missions, objectives, resources, and alternatives. Based 
+on fiscal guidance and program objective memoranda, 
+a budget estimate submission is developed. The CJCS 
+directs a chairman’s program assessment, which, 
+along with the budget estimate, is further reviewed. 
+Major budget conflicts that surface are resolved by 
+the issuance of resource management decisions. This 
+document informs the president’s budget through a 
+process of communication and interaction with the 
+Office of Management and Budget (during October 
+through December). 
+Following the submission of the president’s budget (which includes DoD requests) to Congress in 
+early February of each year, Congress holds a series 
+of engagements and hearings to clarify the DoD’s fiscal concerns and requests. Based upon independent 
+congressional assessment, Congress may (and often 
+does) modify the requested budget. The Senate and 
+House adjudicate differences in their recommended 
+budgets through a conference committee process before approving it and sending it back to the president 
+to sign. Ideally, this process is completed before the 
+coming fiscal year (which begins October 1). In recent 
+years, federal budget negotiations have often remained 
+unresolved by October 1, and the government is 
+funded through a series of continuing resolutions, or 
+shut down, until Congress reaches an agreement approved by the president. 
+THE UNIFIED MEDICAL PROGRAM AND THE DEFENSE HEALTH PROGRAM
+The DoD’s medical mission is to support the nation’s 
+defense by providing health services support. This is 
+a key enabler for combat and other operations. The 
+overall budget for defense health is captured in four 
+separate budget lines: the DHP operation and maintenance (O&M) appropriation; military medical personnel; military medical construction; and the MedicareEligible Retiree Health Care Fund. When these four 
+types of costs are added together, the combined budget 
+is referred to as the Unified Medical Program.
+DHP O&M funds provide for worldwide medical 
+and dental services to active forces and other eligible 
+beneficiaries for care delivered in military hospitals 
+and clinics as well as civilian care delivered through 
+Tricare. The DHP also provides funds for medical 
+headquarters, veterinary services, and occupational 
+and industrial healthcare. Military medical personnel 
+costs are funded through the military departments 
+with all other military personnel costs, but medical 
+personnel costs are identified for accounting purposes. Similarly, military medical construction costs 
+are funded along with other military construction, 
+but medical construction is specifically identified and 
+funded as a distinct line item. 
+The Medicare Eligible Retiree Health Care Fund is 
+an accrual fund administered by the secretary of the 
+treasury that finances, on an actuarially sound basis, 
+future liabilities of the Tricare For Life benefit (dualeligible, DoD, and Medicare beneficiaries). The DoD 
+makes annual contributions to this fund according to 
+a formula determined by an independent board of 
+actuaries.
+The escalating costs of the MHS throughout the 
+1980s and 1990s was fueled by many factors. Many 
+issues were similar to those that plagued the private 
+sector and included expansion of subspecialty medical care, an aging population, enhanced use of medical technology and health information technology, 
+and increased costs for pharmaceuticals, facilities, 
+and personnel. For the DoD, rising healthcare costs 
+were exacerbated by an expansion of health benefits, 
+which were largely borne by the DoD, while beneficiary out-of-pocket costs were reduced (the opposite 
+trend of what was unfolding in the private sector). 
+Military healthcare budgets became harder to predict 
+and manage. Shortfalls in year-of-execution budgets 
+to provide medical care for beneficiaries through 
+the DHP required reprogramming of funds from the 
+military services’ O&M accounts. 
+Congress established the DHP in 1991 to provide a 
+stronger financial management structure. The DHP 
+is a separate budget appropriation from the military 
+services under the authority, direction, and control 
+of the ASD(HA). Budget activity groups, often called 
+BAGs (eg, for MTFs and private sector care or Tricare) 
+within the DHP allow for greater insight into accelerated growth in costs. However, the establishment of 
+the DHP in and of itself did not produce better cost 
+control. From 2001 to 2011 the DHP budget more than 
+doubled, from $19 billion to $54 billion. Most of the 
+increase in costs were in the budget activity groups 
+associated with payment of healthcare for beneficiaries (during this period, several new programs such 
+as Tricare for Life were added). 
+121
+The National Security Structure
+The DHP’s budgeting process follows the PPBE 
+process. It is important to note that the DHP, while a 
+separate appropriation within the DoD budget, contributes to the DoD’s overall budget request. When 
+the total DoD budget is constrained, as it was by the 
+Budget Control Act of 2011, which imposed mandatory 
+ceilings and reductions, unrestrained growth in the 
+DHP produces critical fiscal issues for the DoD. The 
+rise in costs of the DHP competes with the military 
+services’ funds to train, staff, equip, and modernize 
+the forces. This situation emphasizes the need for fiscal 
+accountability, efficiency, and innovation within the 
+DHP and MHS to support the overarching strategic 
+objectives and mission of the DoD.
+LOOKING TO THE FUTURE
+The MMO has a unique profession. MMOs are 
+members of both the medical and military professions, 
+with mutually reinforcing ethos. The critical nature 
+of their work, the importance of the mission, and the 
+contribution of their profession to society mandate 
+the requirement for disciplined improvement in skill 
+and competency.
+The world in general and medical care specifically 
+are becoming more complex. New technologies and 
+digitization are driving rapidly evolving ways of 
+delivering healthcare. From the micro level (cellular, 
+genomics, proteomics, nanotechnology) to the macro 
+level (robotics, internet of medical things), advancing 
+information is creating new possibilities for personalizing care. The adaption of these technologies to 
+benefit service members and other MHS beneficiaries 
+is the province of the MMO. Senior leaders will need 
+to determine how to invest critical resources and leverage new technologies to drive the MHS to greater 
+efficiency.
+In addition, technology and digitization are rapidly 
+changing warfare. Non-state actors can now extend 
+their reach and influence in ways and magnitudes 
+unimagined a few decades ago. These changes are 
+producing challenges for military medicine as they 
+are for other aspects of the defense establishment (eg, 
+cyber security).
+The first decade of the 21st century saw the United 
+States involved in a two-theater war of mixed conventional and unconventional varieties. The second decade brought a proliferation of individual terrorist acts 
+around the world and the resurgence of competition 
+from old adversaries such as Russia and China. The 
+MHS performed well throughout this fluid warfare 
+environment, but it must remain ready to engage in the 
+full spectrum of operations that may be required of US 
+armed forces. These may include rapid deployments 
+to deter and defeat enemies, as well as postconflict 
+stability and nation-building operations. To be sure, 
+the MHS will be globally engaged, requiring its officers to develop a set of professional competencies 
+commensurate with the evolving challenges. 
+Combined arms, joint, and multinational coalition 
+operations are likely to prevail. In fact, many nations 
+will look to the US military to provide full spectrum 
+medical deployment platforms, which can support 
+their niche capabilities (see Chapter 13, Combined 
+Health Services Support Operations). The MHS must 
+work to continually improve the Joint Trauma System, 
+which has matured and served the operational force 
+well during the past 2 decades. This system, based 
+upon rapid-cycle analysis of data and implemented 
+change, has saved lives. As the variety and sources of 
+data increase, leaders must use information management systems effectively and develop analytic tools 
+to drive decision-making and needed changes. At 
+the same time, the MHS must lead efforts to produce 
+higher levels of medical readiness and force health 
+protection. Force health protection, anchored in public 
+health strategies, has been the foundation of military 
+medicine since the Revolutionary War. In fact, force 
+health protection initiatives have saved more lives and 
+returned more soldiers, sailors, airmen, and marines to 
+the fight than more advanced technology. The MMO’s 
+career is exciting but challenging, and requires great 
+personal commitment to career development. This has 
+been the heritage and will be the future of US medical 
+officers.
+REFERENCES
+ 
+1. Joint Chiefs of Staff. The National Military Strategy of the United States of America, 2015. Washington, DC: JCS; June 2015. 
+www.jcs.mil/Portals/36/Documents/Publications/2015_National_Military_Strategy.pdf. Accessed October 23, 2017.
+ 
+2. National Security Strategy. Washington, DC: The White House, February 2015. Obamawhitehouse.archives.gov/sites/
+default/files/docs/2015_national_security_strategy.pdf. Accessed October 23, 2017.
+ 
+3. The National Security Act of 1947, amended by Pub L no. 115-31 (May 5, 2017).
+122
+Fundamentals of Military Medicine
+ 
+4. US Constitution, art 1, sec 8.
+ 
+5. US Department of Defense. Assistant Secretary of Defense for Health Affairs (ASD[HA]). Washington, DC: DoD; September 30, 2013. DoD Directive 5136. 01. http://www.esd.whs.mil/Portals/54/Documents/DD/issuances/dodd/513601p.
+pdf?ver=2017-08-10-151523-060. Accessed October 23, 2017.
+ 
+6. US Department of Defense. Doctrine for the Armed Forces of the United States. Washington, DC: DoD; May 31, 2013. Joint 
+Publication 1. www.dtic.mil/doctrine/new_pubs/jp1.pdf. Accessed October 23, 2017.
+ 
+7. The Goldwater-Nichols Department of Defense Reorganization Act of 1986. Pub L no. 99-433. www.history.defense.
+gov/Portals/70/Documents/dod_reforms/Goldwater-Nichols.
+ 
+8. Joint Chiefs of Staff. Joint Concept of Health Services (JCHS). Washington, DC: JCS; August 31, 2015. http://dtic.mil/
+doctrine/concepts/joint_concepts/joint_concept_health_services.pdf. Accessed October 23, 2017.
+ 
+9. US Department of Defense. The Planning, Programing, Budgeting and Execution Process. Washington, DC: DoD; January 25, 
+2013, incorporating change 1, August 29, 2017. DoD Directive 7045. 14. http://www.esd.whs.mil/Portals/54/Documents/
+DD/issuances/dodd/704514p.pdf?ver=2017-08-29-132032-353. Accessed October 24, 2017.
+ 10. US Department of Defense. Health Service Support. Washington, DC: DoD; July 26, 2012. Joint Publication 4-02. www.
+dtic.mil/doctrine/new_pubs/jp4_02.pdf. Accessed October 23, 2017.

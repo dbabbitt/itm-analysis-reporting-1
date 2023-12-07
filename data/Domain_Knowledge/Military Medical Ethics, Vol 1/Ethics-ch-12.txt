@@ -1,0 +1,2427 @@
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+331
+Chapter 12
+MIXED AGENCY IN MILITARY MEDICINE:
+ETHICAL ROLES IN CONFLICT
+EDMUND G. HOWE, MD, JD*
+INTRODUCTION
+MILITARY ROLE-SPECIFIC SITUATIONS
+Military Mission and Treatment Priorities for Combat Fatigue
+The Administration of Unproven Pharmaceuticals
+Treating and Conserving the Fighting Strength
+Counseling and Utilization of Irradiated Soldiers
+Overview
+SITUATIONS INVOLVING DISCRETION
+Balancing the Needs of the Military With the Needs of Patients
+Using Discretion When Treating Soldiers With Marginal Problems
+Counseling Soldiers With HIV Who Endanger Third Parties
+Meeting the Clinical Needs of Soldiers With Psychological Disorders
+Prioritizing the Needs of Patients Over the Needs of the Military
+Overview
+THE EMOTIONAL EFFECT OF ROLE CONFLICT
+CONCLUSION
+ATTACHMENT: EVOLUTION OF INFORMED CONSENT
+*Formerly Major, Medical Corps, United States Army; currently, Director, Programs in Ethics, Professor of Psychiatry, and Associate Professor of Medicine, Uniformed Services University of the Health Sciences, 4301 Jones Bridge Road, Bethesda, Maryland 20814; and Chair,
+Committee of Department of Defense Ethics Consultants to the Surgeons General
+Military Medical Ethics, Volume 1
+332
+Franklin Boggs
+Pill Call
+circa 1944
+“Soldiers suffering from malaria get their daily quota of atabrine tablets from the Medical Corps captain. Artist
+Boggs caught this scene in the South Pacific.” This image clearly captures the doctor, attired in his crisp uniform,
+clipboard in hand, dispensing medicine to protect and “conserve the fighting force.” Caption written by Major Clarence
+Worden, Medical Department of the United States Army. In: Mackenzie D. Men Without Guns. Philadelphia: The
+Blakiston Co; 1945: Plate 4. Illustrated with 137 plates from the Abbott Collection of paintings owned by the United
+States Government.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+333
+INTRODUCTION
+that would depart from military law or regulations.
+Conversely, military physicians adopting an exclusively medical role-specific ethic would strictly
+follow the principles of the medical profession that
+generally require physicians to put their patients’
+interests first. Their always adopting a medical rolespecific ethic could result in their failing to uphold
+the military requirements they and their patients
+have sworn to serve. These requirements include
+their willingness to sacrifice their life for their country, if necessary. Both soldiers and military physicians know or should know this when they enter
+the military. In general, soldiers understand and
+expect that military physicians will sacrifice a
+soldier’s individual interest for the sake of the mission or greater numbers of soldiers if necessary.
+The military physician, at least implicitly, promises to support the mission or greater good when
+and if this is necessary, even if this requires subordinating the medical well-being of the individual
+soldier. Soldiers do not, of course, willingly give
+their lives so that the war can be lost. A soldier
+makes such a sacrifice only with the expectation that
+all measures possible will be taken by everyone in
+the military, physicians included, to ensure that if
+soldiers must die, it will have been for a valid reason. This is respecting soldiers as individuals because they autonomously choose to sacrifice for a
+greater good, even to the point of making the supreme sacrifice of giving their lives.
+On what grounds, however, could ethical stances
+that deviate from the law be justified? The answer
+to this question will depend, in part, on which of
+two views one has regarding the potential that ethical analysis has for discerning sound moral views.
+One view is that ethical analysis can provide “right”
+answers. This view is problematic because different core values may have comparable merit such
+that the issue of which core value should prevail
+cannot be resolved. This is especially true in a pluralistic society such as the United States in which
+values are highly variable. A second view (whose
+claim for what ethical analysis can do is more modest) is that ethical reasoning cannot provide right
+answers, but, in comparison to alternative approaches, it is the best approach available for resolving problems in which competing values conflict.
+This claim presupposes that ethical analysis results
+in the highest proportion of ethically sound outcomes,
+though whether it has achieved the best outcome
+in any one case cannot be discerned. This more
+modest claim underlies the analyses in this chapter.
+In the second condition under which ethical diThis chapter will discuss ethical issues military
+physicians face when they confront conflicting loyalties between those they owe to their patients and
+those required by the military. These conflicts are
+referred to as problems involving “mixed agency.”1
+This is the source of much of the tension discussed
+in the two preceding chapters and in several of the
+other chapters in these two volumes.
+Mixed agency has been one of the most significant ethical issues in military medicine throughout
+the ages and has become of more interest to civilian
+physicians in recent decades. Physicians acting as
+employees of institutions (ie, penal systems, professional sports teams, and managed care organizations)
+face many of these issues. Similarities between military and civilian ethical issues will be noted in this
+discussion, but the primary focus will be on examining these conflicts from a military perspective.
+These ethical dilemmas for military physicians
+arise under two conditions. The first occurs when
+military physicians’ ethical choices and the requirements of the law or regulations conflict. The second arises when their ethical choices are not addressed by the law or military regulations. In the
+first condition, it might be presumed that military
+physicians’ departing from the law or regulations
+is always unethical. The example of Nazi physicians’ following German law during World War II
+indicates that this is not always the case. Thus, the
+law does not always determine what is ethically
+appropriate. Additionally, ethical questions are not
+always resolved by law or regulations for other reasons. For example, the law may be too general because, by necessity, it pertains to large groups of
+people. Therefore, if physicians follow the law
+strictly, they may be unable to meet many individual patients’ exceptional needs.
+Military physicians could follow the letter of the
+law by pursuing what is referred to as a role-specific ethic. (A role-specific ethic involves a person’s
+adhering strictly to the requirements of a given role
+and exercising no discretion.) Military physicians
+adopting a military role-specific ethic would strictly
+follow duties required by military law or regulations, or as dictated by their superior officers. An
+example of physicians in civilian practice following a role-specific ethic is when they report a case
+of suspected child abuse. They do not exercise any
+discretion in these situations; they simply follow
+the requirements placed on them by society. If military physicians adopt a military role-specific ethic,
+they would never exercise discretion and never engage in any action to meet their patients’ needs2,3
+Military Medical Ethics, Volume 1
+334
+lemmas arise (when ethical choices are not addressed by the law or military regulations), the
+law’s requirements are minimal: The law does not
+indicate the extent to which military physicians
+optimally should go to meet their patients’ needs.
+The law states only what they must do legally, not
+what ethically they should do. The law requires a
+minimum acceptable standard, while ethics sets a
+somewhat higher standard. An example in civilian
+law is the “good samaritan” law. Physicians may
+not legally be required to stop at an accident scene
+to assist persons who are injured, but there may be
+innumerable instances in which they should do so.
+To discern what is ethically best for their patients
+as opposed to merely permissible in such instances,
+military physicians cannot rely solely on the law.
+They must use ethical analysis.
+There are many methods for ethical analysis (see
+Chapter 2, Theories of Medical Ethics: The Philosophical Structure). Deciding which to use and how
+to apply it to ranking different visions of the good
+is very difficult. When there are competing values,
+all of which are reasonable and important, no ethical theory can provide such a ranking. Rather, ethical analysis can suggest the relevant facts and ethical values that should be under consideration. I
+contend that ethical analysis, using whatever
+method is chosen, can supply a method for making
+decisions that over the long run throughout many
+decisions will result in overall “better” decisions.
+Ethical analysis will not necessarily determine,
+however, that the best decision is reached in a given
+particular case.
+The question that arises, then, is what should
+decision makers do when, having assessed all the
+relevant facts and values that should be considered,
+no clear “superior” ethical answer emerges. The
+question then changes from what the answer should
+be to who should decide the question. Here there
+may be no “superior” ethical answer, but there usually will be a compromise on which all or at least
+most can agree. Most agree, for example, that it
+would be better for a decision to be made by a duly
+authorized person or by a vote than by physical
+violence among those who disagree. In the military
+this authority resides in the President, as Commanderin-Chief of the Armed Forces, and in subordinate
+commanders within the chain of command. For
+decisions involving involuntary treatment or hospitalization of Army members, the Secretary of the
+Army is empowered to make these decisions. 4 Typically, however, the Secretary of the Army does not
+exercise this authority, but allows significant latitude for decision making within the patient–physician relationship.
+Many, if not most, of the more difficult ethical
+dilemmas military physicians encounter involve
+situations in which they face conflicting loyalties.
+These dilemmas are not different in principle from
+those faced by civilian physicians. 5,6 For instance,
+when physicians work in institutions such as prisons, they face a conflict between meeting the interests of inmates whom they see as patients and the
+interests of the prison system. Suppose, for example, that they grant all inmates who claim to feel
+ill an excuse from work. Other inmates are likely to
+do the same, feigning illness in increasingly large
+numbers, resulting in a “floodgate” effect. If the
+prison work program is to continue to function (and
+there are many good reasons why it should), these
+physicians may have no choice but to excuse inmates from work only when there are objective findings of medical conditions. As a result, some inmates who genuinely feel sick but who do not
+present with objective findings, such as those who
+have stomach pain, might not be excused and might
+have to continue to work, even though they are
+genuinely ill.
+Highly analogous conflicting loyalties occur in
+the military. However, the conflicting obligations
+military physicians face generally are greater in
+both magnitude and frequency than those faced by
+their civilian counterparts. 7–9 These differences exist for several reasons, but the primary reason is that
+the stakes in the military are much higher. 10 For instance, if increasing numbers of soldiers are excused
+from duty by feigning illness, the ability of the military to accomplish its mission will be diminished.
+It is even possible that the war could be lost, and
+that the society that depends on its military for protection could be destroyed. In that event, the number of civilians killed may be in the millions. This
+possibility is illustrated by World War II, where
+extraordinary numbers of persons would have died
+if Nazi Germany had won the war, and then implemented its genocidal policies in the additional countries it had conquered.
+Such calamitous outcomes must be prevented.
+All persons in the military, including physicians,
+share the priority of preventing these outcomes.
+They agreed to uphold the primacy of the military
+mission, at least implicitly, when they joined the
+military. Nonetheless, when individual patients’
+interests are at stake and they compete with the
+goals of saving large numbers of soldiers’ lives or
+winning a battle, a conflict may exist between the
+traditional civilian priority of meeting patients’
+needs above all else and the military priority of first
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+335
+and foremost meeting the needs of the military mission. Which interests, the military’s or the patient’s,
+should take priority when they conflict? This chapter will explore this issue in some detail. It will also
+address the military physician’s moral angst sometimes generated by these ethical conflicts and how
+understanding why some of these conflicts can’t be
+“better” resolved may affect them.
+In this chapter, I shall suggest that when a conflict exists between the military’s and the patients’
+interests, these situations are best understood by
+considering them as falling into two categories. The
+first category is one in which military physicians
+should exercise no discretion because the needs of
+the military should be absolute. The second category
+is one in which they should exercise discretion because the needs of the military are not absolute.
+There is one additional category that will be mentioned, but only in passing. This category is one in
+which military physicians should exercise no discretion because patients’ interests warrant exclusive
+priority (ie, a medical-role specific ethic). An example of this latter category would be a commander’s
+request to review patients’ charts in an attempt to
+gain information that could help discern who is
+homosexual. Although this has been done in the
+past, the physician should refuse the commander’s
+request as the rights of the patients involved clearly
+warrant priority.
+I shall also suggest a counterintuitive possibility, namely that it may be ethically possible and
+optimal to meet both patients’ needs and those of
+the military even when these needs are mutually
+exclusive. The classic example is when military
+physicians treat soldiers who are homosexual. Military physicians may choose not to report such soldiers’ homosexual behavior even though military
+regulations deem homosexual behavior unlawful.
+The military’s having these regulations but military
+physicians ignoring them may most further two
+mutually exclusive ultimate ends: (1) military physicians may maintain soldiers’ trust, on one hand,
+by protecting their confidentiality, and (2) the regulations may deter overt homosexual behavior, on
+the other.
+These categories are approximate as opposed to
+absolute. It is my hope that if military physicians
+use this framework of analysis, benefits to the military and to patients will be furthered. It is also my
+hope that better frameworks will be developed in
+the future.
+The vast majority of these conflicts can and
+should be resolved in the patient’s best interest. This
+is because patients’ needs should be compromised
+only when necessary. This is also in the military’s
+interest because to the extent individual soldiers can
+be and are respected as individuals, the military as
+an institution rests on higher moral ground. There
+are some situations, however, where overarching
+military necessities must prevail, even at the risk
+of harm to the soldier. This is the nature of military
+medicine. If society may be destroyed by acting in
+the patient’s interest, then it will be necessary to
+follow the military role-specific ethic and military
+physicians should use no discretion. In civilian
+medicine, there are, indeed, pressures (such as financial or contractual concerns) to place interests
+other than those of the patient first. However, the
+overriding urgency and necessity of protecting society and the lives of millions of its members is a
+much stronger argument for the military subordinating patients’ interests.
+These contrasting circumstances are what make
+the mixed agency of military physicians dramatically different from that of civilian physicians. Accordingly, I will discuss situations requiring strict
+adherence to the military role-specific ethic first. It
+is important to remember, however, that these situations are quite uncommon and, at their core, involve the survival of society and its members as
+described above. This point bears repeating: Military physicians in the course of their military service are not likely to have to make many choices
+that place the needs of the military ahead of those
+of the patient. However, if and when that situation
+arises, military physicians ideally will have thought
+about it and will understand why they must do it,
+whether or not they personally agree.
+MILITARY ROLE-SPECIFIC SITUATIONS
+The following scenarios are examples of situations in which there may be an overriding requirement to sacrifice the interests of individual soldiers
+to serve the greater good of allowing the society to
+survive. The rationales for military physicians’ decisions are analogous to those of soldiers being willing
+to give their lives in the service of their country.
+Military Mission and Treatment Priorities for
+Combat Fatigue
+Military physicians should wholly delegate their
+decision-making authority when they treat soldiers
+on the battlefield for combat fatigue. Military physicians, usually psychiatrists in this situation, are
+Military Medical Ethics, Volume 1
+336
+expected to give such patients food, shelter, and,
+most importantly, the expectation that they will return to duty. 11 (This approach is referred to as “three
+hots [hot meals] and a cot [for sleeping]” in military jargon.)
+The question has been raised whether military
+physicians are abandoning the tenets of the medical profession when they violate these patients’
+autonomy. Specifically, when they treat soldiers
+with the expectation that they will return to combat they do not impartially inform them of their
+condition as they might if they were civilians. In
+civilian contexts patients should, in general, be told
+the truth and be fully informed, and then allowed
+to choose what they will do. Military physicians
+could remain more neutral in their interactions with
+these patients. They could give such soldiers information regarding their illness and its possible
+course, including the impact of returning or not returning to combat. By doing this in an impartial
+manner, they would have less influence on soldiers’
+expectations and emotions, and thus would not
+implicitly manipulate them to return to their unit
+and to combat. 12
+There is a compelling reason for military physicians not choosing this more neutral position. Military physicians excusing these soldiers from further
+duty could result in inordinate numbers of other
+soldiers following suit (ie, the “floodgate” effect),
+which could be fatal to the combat effort. In the case
+of combat fatigue, it is even more likely than in the
+prison scenario that there would be a “floodgate”
+phenomenon.
+In these cases, combat fatigue could dramatically
+increase in incidence once evacuation is begun because combat is so life-threatening that the normal
+response under these conditions is to do whatever
+one can to survive. Intentional self-wounding is one
+example of this occurring consciously. With combat fatigue, it is possible that soldiers could consciously feign combat fatigue signs and symptoms
+in an effort to escape the dangers of combat. It is
+more likely, however, that there would be many
+more cases in which there is an unconscious generation of these signs and symptoms. This is analogous to mass hysteria situations such as those that
+periodically arise in high schools where students,
+in increasing numbers, report headaches, fatigue,
+or nausea, even though no cause can be found for
+their symptoms. In the case of combat fatigue, the
+soldiers may be unconsciously seeking an honorable exit from the stress of combat. Therefore, the
+practice of returning soldiers who have experienced
+combat fatigue to their units is required for effectively continuing the mission. This requirement
+exists, not only in situations of overriding and immediate military demands, but in all instances of
+combat fatigue.
+It is coincidentally fortunate that the long-term
+psychiatric morbidity is lessened by soldiers returning to their units. Returning these soldiers to combat can decrease their subsequent psychiatric morbidity by decreasing the incidence of “survivor
+guilt,” as long as they survive combat. As Jones has
+noted,
+[i]t is important to remember that most psychiatric
+casualties are soldiers who, because of the influence
+of negative psychological, social, and physiological factors, unconsciously seek a medical exit from
+combat.…Improperly treated through evacuation,
+the symptoms may persist or worsen, developing
+characteristics of traumatic neurosis (chronic posttraumatic stress disorder). 13(pp37–38)
+Although this decreased morbidity is offered by
+some as a justification for treating patients with
+combat fatigue with “three hots and a cot,” this rationale is conceptually invalid. This reduction in
+psychiatric morbidity by returning soldiers to their
+units is only a fortunate side effect. It is not a substantive justification because soldiers given a choice
+between risking dying due to remaining in combat
+or remaining behind in patient status might well
+choose the latter. Thus, treating soldiers with combat fatigue with return-to-duty expectation cannot
+be in these soldiers’ best interest when they may
+see their best interest (rightfully) as staying alive.
+An inextricably related ethical question arising
+in this context is whether military physicians should
+ever inform soldiers prior to entering combat about
+this ethical conflict (ie, treating them for combat
+fatigue by giving them the expectation that they will
+return to duty or respecting their autonomy by informing them of the possible outcomes more neutrally). Full disclosure would require this, and any
+practice that depends for its success on a practice
+remaining secret is ethically questionable and empirically likely to be short-lived.
+Having said that, it must be acknowledged that
+some medical practices based on keeping information secret have indeed never become public knowledge and thus have remained effective. An example
+is physicians treating patients with somatization
+disorder (which involves their treating psychogenic
+physical symptoms) by scheduling regular visits.
+These visits are intended to reduce these patients’
+dependency needs, which are presumed to underlie their symptoms. These patients continue to opMixed Agency in Military Medicine: Ethical Roles in Conflict
+337
+erate on the assumption, however, that their regular visits with their physicians are based on their
+physical needs. 14
+Likewise, the success of treating soldiers with the
+expectation that they will return to duty depends
+on their not knowing the psychological basis for this
+treatment. Thus, to meet the military’s needs during combat, the military physician, in complicity
+with other medical personnel also familiar with this
+strategy, must not only attempt to influence soldiers
+by conveying this expectation but must also withhold from them the reasoning behind this treatment.
+Although this is deceit by omission, this deceit is
+nonetheless necessary. Physicians and others must
+not inform soldiers prior to entering the military
+that this conflict could exist. They absolutely must
+not inform them prior to engaging in combat, because the unique needs of the military mission may
+require that the soldiers not know about the deceit.
+If soldiers know of this deceit because they have
+been informed beforehand, military doctors may
+not be believed later when they communicate the
+expectation that soldiers will return to combat.
+The Administration of Unproven Pharmaceuticals
+A more recent example in which a military rolespecific ethic may be necessary is that of the role of
+military physicians in the administration of vaccines or other preventive measures that have been
+ordered for the protection of the military and its
+mission.
+Requiring Soldiers to Take These Agents
+During the Persian Gulf War (1990–1991) soldiers
+were required to take agents to protect them from
+the enemy’s possible use of biological and chemical warfare weapons, though these protective agents
+had not been fully tested for this purpose. 15 To subject human research subjects to the effects of biological or chemical weaponry would, of course, be
+unconscionable because this would involve subjecting them to weaponry that could seriously harm or
+even kill them. Thus there is no practical method
+for testing human subjects to conclusively prove the
+safety and efficacy of these agents used in this warfare context.
+At that time it was feared, and not without cause,
+that Iraq would launch missiles containing biological or chemical agents, even though this would have
+violated international law. After the end of the war,
+investigation revealed that Iraq, indeed, had prepared missiles containing these agents and that they
+were ready to be launched. Fortunately, for whatever reason, Iraq did not use these weapons. Nevertheless, the threat of Iraq using biological and
+chemical weapons was quite real.
+Appreciating these actual circumstances helps to
+illustrate why soldiers were required by the military to take these preventive measures and why this
+and similar future requirements may be not only
+ethically justifiable but obligatory. At the time of
+the Persian Gulf War, the most knowledgeable military and civilian authorities believed that the risk/
+benefit ratio of these agents was overwhelmingly
+favorable to soldiers. Between August and December of 1990, many meetings were held at the Pentagon by Department of Defense (DoD) and Food and
+Drug Administration (FDA) experts on these agents.
+These meetings also included representatives from
+the Office for Protection From Research Risks of the
+National Institutes of Health (NIH), the National
+Security Agency (NSA), the Department of Justice
+(DOJ), the Office of Management and Budget
+(OMB), and others. The Secretaries of the Department of Defense and Health and Human Services
+(HHS) were also personally involved (as was I, to
+give ethical input).
+On 30 October 1990, the Assistant Secretary of
+Defense for Health Affairs informed the Assistant
+Secretary for Health of the Department of Health
+and Human Services that for “some…risks, the best
+preventive…treatment” calls for the use of new
+drugs, but that during combat, if the enemy might
+use a potentially deadly weapon such as nerve gas,
+the military’s deferring to soldiers’ personal preference not to take a preventive drug that may save
+their lives was simply “not acceptable.”16
+The FDA in response to this need established
+specific requirements on 21 December 1990 that, if
+met, allowed military physicians no discretion.
+These requirements included a broad-based review
+board having to assess several factors, such as the
+new drug’s safety and efficacy and the absence of a
+satisfactory alternative. 17
+President Clinton signed an executive order
+implementing this same approach on 30 September
+1999. 18 (The three are presented in the Attachment
+following the chapter.)
+Prior to the combat phase of the Persian Gulf War,
+the military, the FDA, and others concluded, then,
+that military physicians may have to give soldiers
+some drugs without offering them the option of
+refusing to take them. This policy19,20 remains in
+force today: All soldiers are required to take anthrax
+vaccine whether or not they give their prior consent. 21
+Military authorities believed that the use of these
+Military Medical Ethics, Volume 1
+338
+unproven agents was not only the best but the only
+means of protecting US troops in the Persian Gulf
+if Iraq chose to use this weaponry. The problem with
+the agents, however, was that they had not been
+fully tested on humans. Based on ethical standards
+applied in civilian medical settings, in contrast, soldiers would have been totally justified in refusing
+to take these prophylactic agents unless they gave
+prior informed consent.
+What should have happened to soldiers if they
+refused to take these agents? Should military physicians have respected their refusal or have reported
+them for refusing to comply with military requirements? In the event military physicians reported them,
+the soldiers could be court-martialed. Why? This is
+because the entire force could have been decimated
+had Iraq used these weapons on unprotected troops.
+Further, inordinate additional numbers of civilians
+might have been killed if Iraq had prevailed in this
+war. Thus, military physicians had, and should have
+had, an absolute obligation to force soldiers to take
+these agents or face punitive repercussions.
+The ethical justification of military physicians
+being required to act in this manner is valid only as
+long as the two underlying assumptions are correct.
+The first assumption is that the use of these agents
+should protect soldiers significantly in the event of
+exposure to a biological or chemical warfare agent.
+The second assumption is that taking such a protective agent should cause substantially less risk of
+harm to them than suffering the effects of a biological or chemical warfare agent. However, if it were
+found that a protective agent such as anthrax vaccine would not protect soldiers from airborne anthrax to the degree that it is now believed it would,
+or that it would cause significant adverse side effects, this justification might no longer exist. Thus
+if the factual assumptions underlying the present
+ethical priorities are no longer valid, these priorities would probably change as well.
+The empirical assumptions made regarding the
+safety and efficacy of the anthrax vaccine have, in
+fact, been challenged. 22 Furthermore, in the future
+it is possible that new biological and chemical weaponry will be developed at a pace that far outstrips
+a nation’s capacity to develop prophylactic agents
+in response to these new threats. Were this to occur, the obligatory use of preventive measures
+(whose anticipated benefits would be no more than
+marginal and whose potential risks are serious but
+unknown) might no longer be ethically justifiable.
+However, even if the expected benefit is only marginal, this marginal contribution to the war effort
+could make the difference in the outcome of the war.
+Thus military physicians could still have an absolute
+obligation to require soldiers to take these prophylactic agents, even under these significantly different
+circumstances. Further, this should be the decision
+of superior officers who are more fully informed
+and have a wider perspective than military physicians in regard to what is necessary for the military
+to succeed. Therefore, military physicians should
+adopt a military role-specific ethic when making
+decisions in regard to giving these agents.
+Truth Telling in the Combat Theater
+In civilian settings in the United States physicians
+now have an absolute obligation in almost all contexts to tell their patients the truth. This has not always been the case, however. Several decades ago,
+US physicians believed that they should withhold
+from patients certain dire diagnoses, for instance
+that they have cancer. Today, physicians’ withholding this information generally is considered unconscionable. The primary exception to this is when a
+physician is convinced that patients’ receiving this
+information would be unduly harmful to them.
+Physicians may be ethically and legally justified in
+withholding the truth under these circumstances.
+Ethically, this withholding is justifiable on the basis of its furthering the patient’s best interest. In
+ethics this is commonly referred to as “paternalism.” Legally, physicians having this discretion is
+permitted under the doctrine of physicians’ “therapeutic privilege.” It is unclear whether the present
+priority given to telling the truth will prove timeless or not. It has increasingly been criticized as falling short of meeting all patients’ needs optimally.
+It precludes physicians adapting to what patients
+individually most need or want. 23 If a physician
+doesn’t tell the truth, a patient could sue, but the
+patient will have to prove that the physician unduly violated his or her therapeutic privilege. Finally, physicians also have been sued successfully
+for telling patients too much (truthful) information.
+Under exceptional circumstances during combat,
+the overriding importance of the principle of truth
+telling may become more open to question as the
+risk of truth telling poses a greater risk to larger
+numbers of soldiers. It may be that this principle of
+veracity should be subordinated, not on the basis
+of patients’ welfare but for the benefit of the military.
+During the Persian Gulf War, for example, available supplies of the prophylactic agents to protect
+soldiers from botulism were insufficient. 24 As a result of this deficiency, the question arose whether
+military physicians should tell their troops this
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+339
+truth. What they should have done in this instance,
+and should now do in the event that a similar question arises, should depend in large part on the underlying empirical assumptions that are made and
+how it is anticipated that soldiers would react to
+this information.
+It would not be inconceivable to imagine that
+soldiers told this truth might be upset. In the Persian Gulf War, soldiers first were told that they
+would receive an initial vaccine for botulism, with
+subsequent boosters. When the supplies became
+limited, they were told that the initial dose would
+suffice. Soldiers were understandably upset. Nevertheless, as their behavior subsequently confirmed,
+they were not so upset that they were unwilling to
+fight. They were angry (as some who had been
+present shared with me later) but continued to serve
+and serve effectively.
+Military physicians could not have predicted
+with absolute certainty that soldiers would respond
+in this manner as opposed to becoming so alarmed
+that they were not combat ready. Presumably, these
+soldiers believed what their physicians subsequently told them. They believed (despite what
+their physicians had said initially) that if Iraq used
+these missiles, the single dose would substantially
+protect them.
+Despite this specific example from the Persian
+Gulf War, it is nonetheless possible that if physicians had told their troops that repeated doses of
+vaccines were unavailable, they would have panicked and refused to fight. However, if they were
+not told and this truth about the vaccine shortage
+“leaked out,” they would have felt deceived. Then
+these soldiers also may have lost faith in their commanders and refused to continue to fight.
+The issue of whether soldiers should be told the
+truth when their reaction cannot be predicted
+should be left to commanders. Military physicians
+are not privy to all of the information required to
+make the best command decisions. For this same
+reason, physicians’ obligation to do what their commanders decide as opposed to exercising discretion
+generally should be absolute.
+Treating and Conserving the Fighting Strength
+Military physicians’ obligation to treat soldiers
+with the goal of conserving the fighting strength is
+most clearly seen in three arenas: (1) treating soldiers to return to duty; (2) setting treatment priorities in triage situations; and (3) removing unstable
+soldiers from combat. Each of these arenas will be
+discussed separately.
+Treatment to Return Soldiers to Duty
+The primary scenario that all military physicians
+train and prepare for is that of treating soldiers
+during combat. In that setting they may have to treat
+injuries or illnesses so that these soldiers regain the
+capacity to return to combat. There, they will fight
+the enemy and possibly die. In this situation, these
+physicians violate these patients’ best medical interests by providing a chain in the link of causation
+that may lead to their death by hostile forces. Military physicians’ furthering soldiers’ deaths, even
+indirectly, violates the priority physicians give in
+civilian contexts to saving their patients’ lives.
+Situations in which commanders decide to return
+ill or injured soldiers to combat are very rare and
+are situations in which the military requirements
+are so significant that the alternatives cannot be allowed. This situation occurred, for example, in
+Burma (in the South Pacific theater of operations)
+during World War II. Commanders decided that
+soldiers with high fevers due to malaria should
+nonetheless return to the front to continue fighting.
+“[T]he medical officers of the outfit…[were] pushed
+aside….One stated, ‘[o]ur hands are tied,’ but ‘that
+there is a very high probability that these are cases
+of developing liver abscesses and tuberculosis as well
+as other serious complications among the men.’”25(p379)
+Though physicians went along with the commanders’ orders, later some high-ranking military physicians contended that all military physicians
+should have refused to treat these soldiers under
+these conditions. 25 Hopkins, Stelling, and Voorhees
+state, “If pressure from high ranking field officers can
+be applied to…such an extent…[then these]…
+medical officers are robbed of sacred duties and
+rights to which their professional knowledge and
+service entitles them.”25(p380)
+Contentions such as Stelling’s are ethically open
+to challenge, however, for several reasons, including those already discussed. First, physicians do not
+have all the information accessible to commanders
+regarding the military’s needs. Second, physicians
+lack expertise in deciding how battles should be
+won; commanders hold this expertise. And third,
+military effectiveness requires a clear chain of authority and decision making, of which physicians
+are not a part. Thus, even though commanders’
+decisions may be wrong in some instances, maintaining this chain of authority is far preferable for
+bringing about an ultimately successful outcome
+than allowing subordinates, including those who
+are physicians, to defy this structure if and when
+they see fit. The one exception is when the orders
+Military Medical Ethics, Volume 1
+340
+or war are ethically unjustifiable, as in the case of
+the Nazis.
+The ethical rationale for this conclusion is referred to in philosophic terms as rule-utilitarian
+reasoning. Rule-utilitarian reasoning recognizes the
+utilitarian position (see Chapter 2, Theories of Medical Ethics: The Philosophical Structure) that the ethically correct action is that action that maximizes the
+overall good and minimizes the overall harm. It also
+recognizes that it may be preferable to have a general rule that will maximize the good. This rule will
+take precedence over a specific action even if that
+action may yield a greater good in a specific circumstance because the overall good is maximized
+by generally following the rule.
+In instances such as the one that occurred with
+malaria-infected soldiers in the South Pacific during World War II it would be possible for military
+physicians themselves to decide which soldiers
+should return to duty using the physicians’ medical expertise and judgment. The result, however,
+could significantly impair the operational effectiveness of the war effort. Alternatively, military physicians could, should, and generally do leave these
+decisions to commanders who, as stated, have a
+greater overall picture of the combat situation. This
+follows rule-utilitarian reasoning: A commander
+may make the wrong decision in a given circumstance, but by allowing commanders to make these
+decisions in general, the overall war effort should
+be significantly enhanced.
+This is further illustrated by a second example.
+This one involved forces fighting at Guadalcanal.
+There they encountered well-entrenched Japanese
+soldiers. However, malaria infection rates approached 90% in some units of the American 1st
+Marine Division, in part because of poor compliance among soldiers in taking Atabrine, a synthetic
+antimalarial, and also because the topography of
+the island helped spread the disease. 26 Tactical considerations prompted the commander, General
+Vandegrift, to order doctors “not to excuse soldiers
+with temperatures of 103°F or less….”26(p124) If military physicians had not deferred to the commanders, the island of Guadalcanal might not have been
+taken, and the overall outcome of the war might
+have been changed.
+Military physicians in this situation and many
+of those that follow face the agonizing choice of
+protecting soldiers at the price of others being
+harmed or not protecting the soldier and by doing
+so sacrificing one’s loyalty to the soldier-patient.
+Obviously, the argument for erring one way as opposed to the other shifts in relative moral weight
+as the magnitude of harm and the numbers of potentially harmed changes.
+In summary, military physicians delegating their
+moral judgments to their superiors in this way, and
+thus allowing themselves to play this role in the
+chain of causation that may lead to soldiers’ death,
+contradicts the general civilian medical professional
+commitment to saving lives. Emotionally, they are
+predisposed and accustomed to putting patients
+first. Consequently, in this military context, they
+may feel exorbitantly distressed and this distress
+may take a toll. (What this toll is and how it can be
+addressed I shall discuss briefly at the end of this
+chapter.)
+Yet, whereas military physicians delegate their
+moral judgments in one way, in another way they
+do not. Rather, they retain their own moral vision
+but choose to give others’ vision priority, much as
+Socrates chose to give even his life because his moral
+vision was that the highest value involved respecting the authority of the state. That is, one can retain a moral vision but knowingly defer this because
+one believes a better outcome or higher value is
+achieved by deferring some decisions to others
+whether or not one personally believes they are
+right. This position ethically is known as rule-utilitarian ethics. As mentioned previously, this approach
+accepts the premise that to most benefit many, this
+may require that there be some submaximal results
+in individual cases. Practically, this approach would
+require that individual military physicians defer
+what they believe right to others, perhaps those
+with more information or who are more knowledgeable about possible outcomes than they.
+Treatment Priorities in Triage Situations
+In the Burma and Guadalcanal incidents (discussed in the above section on treatment to return
+soldiers to duty) military physicians did not exercise discretion, but rather did exactly as they were
+ordered. This was appropriate because their commanders were in a far better position to understand
+the military situation and whether the limited effectiveness of soldiers who were sick with illnesses
+such as malaria would be necessary for the battle
+to be won.
+Similarly, in triage scenarios military physicians
+may have to ignore their own moral predispositions, even though they know that this will directly
+result in soldiers dying (as opposed to “merely”
+facing this possibility by treating them and, thus,
+“allowing” their commanders to return them to
+battle). This occurs when medical aid stations are
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+341
+overwhelmed with casualties and medical personnel must give priority to the treatment of soldiers
+who can return to combat. This priority requires
+postponing treatment of patients who are more critically ill or injured but could survive if treated in a
+timely manner.
+This scenario also occurs when there is a shortage of materiel, such as medications, as opposed to
+a shortage of medical personnel. A well-known situation demonstrating this point occurred during
+World War II. When penicillin first became available, but supplies were limited, military physicians
+gave the limited supplies of penicillin available to
+soldiers who had venereal disease so that with this
+cure they could return to the front and fight effectively. As a result of this policy, others, with illnesses
+such as pneumonia who could have survived, instead died. 27 Although the commander has the responsibility for these decisions, physicians must
+carry them out. Physicians will have allowed patients to die that they knew they could have saved
+but for the commander’s decision.
+Using the rule-utilitarian argument discussed
+above, military physicians should have had no discretion to decide to do otherwise, although they
+should always give their commanders necessary
+medical information and their ethical views on what
+they believe their commanders should do. Military
+physicians should limit themselves in these contexts
+to serving a role determined by their superiors, because their superiors have a wider view regarding
+what is necessary to win the battle or war. As stated
+previously, when military physicians subordinate
+their own moral judgment in this manner, they are
+adopting a military role-specific ethic. It is important to stress, however, that this does not relieve
+the physician of the need to fully explain medical
+consequences to commanders for the decisions they
+are to make. Rather, it is to stress that once physicians have fully informed commanders of the medical aspects of the situation, these physicians must
+step back and allow commanders to make the decision that they, as commanders, have been trained
+and authorized to make. Physicians do not have the
+ethical responsibility, or the legal right, to interfere
+in the official chain of command unless it is a clear
+case of an unethical or illegal order. The military
+physician has, however, a moral responsibility to
+make his or her views known. This moral obligation, though difficult to implement sometimes in
+practice due to superiors not wanting to have their
+view challenged, is unequivocal.
+The core values supporting military physicians
+treating soldiers in triage situations according to
+their military role-specific ethic are the needs of the
+military and the needs of larger numbers of soldiers.
+This also serves some other important values. Chief
+among these are two: (1) maintaining equity between soldiers, and (2) satisfying the military’s and
+military physicians’ implicit promise to soldiers that
+under certain circumstances the mission must take
+priority over the needs of soldiers.
+First, military physicians maintain equity between
+soldiers who are not injured and in combat, soldiers
+who are injured but can return to combat, and soldiers who are injured or ill and cannot return to
+combat. That is, when military physicians treat soldiers so that they can return to duty, if these soldiers
+do return to duty, they remain at risk of dying. Soldiers who have been injured or have become sick
+to the extent that they may die but do not return to
+combat remain at risk of dying, like soldiers who
+remain in combat or have returned to duty. All three
+groups, those already in combat, those returned to
+combat, and those incapacitated and still in staging areas remain in harm’s way and thus at risk of
+dying for their country. They will continue to be at
+equal risk until they are removed from this “risk
+pool.” This equity, in the sense of remaining at risk
+of dying, is maintained, then, for the soldier who
+may die in battle and for the soldier who is badly
+injured and may die from not receiving antibiotics.
+This same equity applies to soldiers with combat
+fatigue, though their risk is less. Both groups are
+similar in that they willingly undergo personal sacrifices because this is necessary for the military
+mission or the greater good.
+Second, the military and military physicians fulfill their implicit promise to soldiers to serve both
+the military mission and soldiers at large above all
+else. Military physicians have made an implicit
+promise to all soldiers when soldiers join the military to sacrifice each of their individual medical
+interests when necessary for the military mission
+or the greater good. As stated before, soldiers are
+willing to give their lives for the greater good of
+protecting their country. Soldiers should, then, fully
+expect military physicians to fulfill these promises
+and, in fact, they may feel betrayed if military physicians do not.
+The degree to which these approaches will remain ethically valid in the future is open to speculation. The success of combat may become much less
+dependent on individual soldiers fighting on the
+ground than it has been in the past. As the Persian
+Gulf War and more recent United Nations’ actions
+in Kosovo illustrate, air bombardment and air superiority may be much more important in the fuMilitary Medical Ethics, Volume 1
+342
+ture. It is conceivable that at some point in time the
+number of ground troops will no longer be a significant factor in combat. In that situation physicians might not be justified in adopting a military
+role-specific ethic in triage situations.
+Similarly, as a result of changing land war practices, the question arises as to whether military physicians will continue to be justified in treating combat fatigue in the manner they do now. The success
+of the current practice of returning service members rapidly to combat depends largely on the
+strength of the emotional bonding among soldiers
+in the unit. Soldiers’ feelings of loyalty to those in
+their unit and the emotional support they receive
+from others in the unit after they return to it seem
+to be decisive factors in their recovery. Whether or
+not this is absolutely true cannot, of course, be empirically determined. Rather, it can only be deduced
+from anecdotal information and observation. However, new systems that rotate soldiers in and out of
+duty assignments, as occurred during the Vietnam
+conflict, may impair the extent of this bonding and
+thus the extent to which soldiers who experience
+combat fatigue can return to duty and then function effectively.
+Furthermore, due to new weaponry, in the future
+soldiers may have to fight more independently from
+one another or they may need to disperse rapidly
+from one another on the battlefield. In either case,
+units again would function in a more disjointed
+manner, and the bonding among soldiers could
+decrease. As a consequence, the capacity of impaired soldiers to rejoin their units after they experience combat fatigue and then to continue to fight
+effectively may be reduced.
+Even though military physicians’ capacity to return soldiers with combat fatigue to duty may decrease for this reason, the risk of their opening up
+the floodgates to other soldiers developing combat
+fatigue if they remove these soldiers from further
+duty will remain. Military physicians still, therefore, ethically may be not only justified in giving
+soldiers the expectation that they will return to combat but their military role-specific ethic may require
+them to do so, in spite of a less beneficial psychiatric
+outcome, so that the combat effort can be sustained.
+Removing Unstable Soldiers From Combat
+Military physicians have an absolute ethical obligation during warfare to insure that mentally unstable soldiers do not significantly endanger other
+service members or the mission. Thus, unstable soldiers, or even those demonstrating the potential to
+become unstable, must be removed from duty even
+if they desire to continue to serve. 28 In relieving
+them from further service, military physicians may
+be ethically justified or, in fact, obligated, therefore,
+to violate soldiers’ interests in a different way. That
+is, when they give soldiers the expectation that they
+will return to duty, they violate soldiers’ autonomy
+by being implicitly manipulative or coercive. When
+they remove soldiers from duty even when soldiers
+may be capable of serving but this is uncertain,
+military physicians violate their interests by not
+giving them any option to remain on duty and possibly to spontaneously recover. The question of
+whether military physicians should inform soldiers
+beforehand of the conditions under which they will
+remove them from duty involuntarily is inextricably connected to what military physicians should
+do during combat.
+Respecting soldiers’ autonomy fully in civilian
+contexts may well require informing them before a
+conflict arises of the conditions under which physicians would violate their autonomy. For instance,
+civilian psychiatrists tell their patients prior to instituting a therapeutic relationship of the conditions
+under which they would take action to hospitalize
+them involuntarily. For example, civilian patients
+are told that they may be hospitalized if they appear to be a danger to others or to themselves.
+Military physicians as well could inform soldiers
+who could be having emotional difficulty when
+they first see them that they may use the information these soldiers disclose when interviewed to
+remove them from duty. Soldiers so informed could,
+however, use this forewarning to attempt to hide
+from military physicians evidence of underlying
+illness, such as not reporting delusions, hallucinations, or even other less serious symptoms such as
+insomnia. Although military physicians’ withholding this forewarning is implicitly deceitful by omission, military physicians not only have justification
+but are obligated to engage in this deceit because
+these soldiers may markedly endanger their fellow
+troops as a result of becoming unstable.
+Counseling and Utilization of Irradiated Soldiers
+The argument for military physicians telling soldiers the truth in regard to the supply of botulism
+vaccine being limited can be contrasted with what
+physicians should do after nuclear attack. As the
+botulism vaccine example illustrates, the justification for military physicians engaging in truth telling may depend on the estimated consequences. As
+stated, this may be an instance in which the customary priority of truth telling should no longer
+prevail because it appears likely that soldiers will
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+343
+respond so adversely to learning the truth that they
+would be unable to continue to fight. This may be
+especially true after soldiers have been exposed to
+nuclear radiation. For instance, if soldiers were exposed to fatal doses of radiation after nuclear attack, it might take days before debilitating symptoms occur. If military physicians inform soldiers
+that they have been fatally irradiated and will die,
+they may refuse to fight or be so emotionally distraught that they are incapable of continuing to
+fight. Alternatively, knowing that they will die anyway, they may be more willing to give their life for
+their country in battle.
+Their remaining for a short time in battle could
+be critical to the military’s winning the war. The
+enemy’s winning could have disastrous consequences, such as, again, Nazi Germany’s carrying
+out further genocide should it have won World War
+II. Consequently, military physicians lying to these
+soldiers by withholding from them that they will
+die could be warranted under these circumstances.
+One way in which the ethical validity of this and
+other claims can be assessed is to ask hypothetically
+whether soldiers asked this in advance would agree.
+Soldiers asked whether they would want this information withheld under these circumstances,
+prior to this occurring, might indicate that this is
+what they would want, because preventing such
+catastrophic outcomes is the reason they agree to
+fight in the first place.
+This illustrates the critically important point I
+made earlier, that soldiers and military physicians
+share the priorities of both protecting large numbers of soldiers’ lives and winning the war. Soldiers
+(both nonphysicians and physicians) voluntarily
+place themselves in harm’s way and agree to place
+the needs of the military above their own needs
+when necessary, at least to some degree. They do
+this because of their belief that the goal of protecting society has a higher priority than even their
+lives. Military physicians serve to protect society
+as well and their methods may involve placing the
+military needs above their conventional obligations
+to tell patients the truth and above the needs of their
+patients. Thus, military physicians’ withholding the
+truth in this and similar instances fulfills not only
+these two ethical ends of furthering the likelihood
+of military victory and the needs of larger numbers
+of soldiers, but also military soldiers’ autonomous
+choice and military physicians’ prior implicit promise to them.
+Overview
+The foregoing discussion involves the military
+physician’s ethical obligations in regard to combat
+fatigue, triage, and truth telling regarding limited
+medical resources, or other situations. This discussion illustrates that although deontological values
+(values based on duties as opposed to consequences) customarily are given highest priority in
+civilian settings, they may warrant only secondary
+status in military settings during combat because
+of the exceptionally grave consequences to soldiers,
+the greater society, and others at stake. In addition,
+two deontological values may themselves conflict.
+In all the above instances, there is a conflict between
+military physicians’ prior promise or duty as physicians to individual soldiers and to their unit and
+country. The latter may warrant priority. The values of respecting patients’ autonomy by being impartial when they present with combat fatigue, by
+“warning them” when they may be mentally impaired, and by telling them truthfully when they
+may lack adequate protection against biological or
+chemical weaponry or have been fatally irradiated
+may justifiably be subordinated to meet critical
+military needs.
+These examples represent one pole at the end of a
+hypothetical continuum. At this end, at least arguably,
+military needs should prevail because the consequences of not doing so are unthinkable. The national
+security interest, and therefore the “military necessity,” is compelling. The requirement for military
+physicians to adopt a military role-specific ethic in
+which they cede all discretion to their military superiors and carry out actions even when they morally disagree is, however, not as compelling in some
+other situations. These situations arise when the
+national security interest, and therefore the military
+necessity, is not of sufficient weight to require that
+military physicians cede all discretion to their military superiors. The following section will examine
+these situations of lesser military necessity in detail.
+SITUATIONS INVOLVING DISCRETION
+In these situations of lesser military necessity,
+values given priority in civilian settings generally
+warrant greater weight than military needs. As the
+military needs become less critical, the greater the
+justification becomes for military physicians to give
+the same priority to patients’ interests as these patients would have in civilian settings.
+There are several contexts, however, in which the
+military’s needs remain predominant, but not absolute. Because they are not absolute, the optimal
+Military Medical Ethics, Volume 1
+344
+outcomes overall might come from allowing military physicians to exercise some discretion. I shall
+discuss several examples below. All these examples
+occupy a place along the hypothetical continuum
+between the extremes.
+One extreme occurs when the national security
+interest, and thus military necessity, is absolute, and
+military demands are total, such as during active
+combat. I have explored this situation in the preceding discussion of situations in which military
+physicians should give total priority to their military role-specific ethic due to military needs and
+thus exercise no discretion.
+At the other extreme they should also generally
+not exercise discretion but, rather, do what their
+civilian colleagues would do. The example of this
+given previously was military physicians respecting patients’ confidentiality as they would civilians’
+confidentiality by not providing patients’ charts to
+commanders seeking to use them to determine who
+might be homosexual. In between these two extremes is this area in which physicians must weigh
+choices and obligations to ensure the best treatment
+possible for patients within the context of military
+interests.
+Balancing the Needs of the Military With
+the Needs of Patients
+Deciding when the needs of the military should
+predominate is easy when positioned at the end of
+the continuum in which soldiers face active combat, and life and death decisions must be made
+quickly and definitively. Moving further to the
+middle from that endpoint, however, one comes to
+an area in which military necessity lessens, and the
+issues are less obviously militarily driven. It is important to remember, however, that military readiness must always be maintained and therefore due
+consideration must be given even in these instances
+to not jeopardizing military readiness.
+The three situations I will address to illustrate
+this need for military physicians to shift from a
+military role-specific ethic to one in which they can
+and should exercise discretion are: (1) evaluating a
+pilot suspected of being impaired, (2) evaluating a
+commander who may be impaired, and (3) dealing
+with issues regarding patients’ confidentiality. As
+the military can be ordered to deploy within hours
+of notification, there may still be a need to err on
+the side of protecting the needs of the military over
+the needs of the patient as the following discussions
+will illustrate.
+Evaluating Pilots Who May Be Impaired
+A situation in which military physicians’ obligation to violate their patients’ confidentiality is
+greater than any other obligation is when their patient is a pilot. 29 Pilots are singled out because the
+damage that an impaired pilot, either military or
+civilian, can do to others is substantial. There have
+been a number of incidents in recent years in which
+a pilot who was psychologically impaired has
+crashed an aircraft. Those coming to mind in the
+past decade include an Egyptian Air pilot who was
+alleged to have intentionally put an airliner into a
+fatal dive, a US Air Force pilot who broke off from
+his filed flight plan and crashed into the side of a
+mountain, and the pilot of a B-52 who was alleged
+to have a reputation for doing “stunts” with his aircraft and whose plane crashed into the desert on a
+training flight. There are many other instances that
+could be cited. It is obvious, then, that the possibility of an impaired pilot putting others at risk is so
+substantial that the interests of larger numbers of
+soldiers or, especially during combat, of military
+necessity must prevail. The military has established
+specific guidelines for physicians to ground pilots,
+which all pilots know. It follows, then, that there is
+a decreased ethical argument that military physicians need to take initiative to warn pilots either to
+treat them equitably or to avoid deceiving them. 30
+In a specific situation, with a specific pilot, however, the gain to the military from a pilot’s being
+grounded may be negligible and the harm to the
+pilot significant. On this basis, the military physician
+could be more justified in exercising discretion, but,
+if there are such clear guidelines, the physician’s
+doing so and violating these guidelines may put the
+physician at some risk.
+This concern regarding physicians’ own self-interest can be regarded in two ways. It may be that
+physicians should never take risks of this kind for
+their patients because among other reasons, such
+as their own interest, this may impair their capacity to care for their patients optimally. Physicians
+who make such sacrifices may experience fear of
+adverse repercussions to themselves and then resent patients who have played a role in causing this
+fear. This resentment may then interfere with their
+giving the patient proper treatment and their relating to the patient with the unconditional regard and
+warmth that would be necessary to establish an
+optimal patient–physician relationship. I shall discuss the significance of military physicians establishing and maintaining this attitude of uncondiMixed Agency in Military Medicine: Ethical Roles in Conflict
+345
+tional regard in more detail shortly.
+According to the above view that military physicians could be justified in taking on no risks, physicians taking significant risks would not be morally required, because this standard would be too
+high. Rather, to use the distinction posed by ethicists, such acts of self-sacrifice might be particularly
+praiseworthy, or even heroic, but not morally
+obligatory.
+The other way of viewing military physicians’
+self-interest is to regard this interest as only one
+factor among others that should be taken into account when these physicians decide what to do.
+From this perspective, the need for physicians taking on personal risks will be inevitable because
+regulations cannot adequately take into account all
+situations that may occur. Thus military physicians
+may unavoidably take on personal risks if they ever
+decide to exercise discretion by not reporting soldiers when regulations taken literally require them
+to do so. This distinction applies to all cases in
+which military physicians may be more justified in
+exercising their discretion than in adopting a military role-specific ethic and exercising none.
+Evaluating Impaired Commanders
+Military physicians also may have to decide
+whether to exercise discretion when they have patients with exceptional military authority who have
+medical conditions that could interfere with their
+capacity to exercise sound judgment. When this
+occurs, military physicians have heightened obligations to the military and, indeed, the nation, because if these patients make poor decisions because
+of their medical conditions, these decisions could
+affect many soldiers’ lives and even the society at
+large.
+This concern is illustrated most clearly in regard
+to the president or a senior military officer. If there
+are indications that the leader’s cognitive capacities are impaired, military physicians may have an
+obligation to serve the nation’s interests by reporting this disability. This same question may arise in
+regard to patients with far less responsibility, as the
+following case demonstrates:
+Case Study 12-1: The Alcoholic General. A military
+physician was treating the wife of a general after she had
+become depressed following surgery for colon cancer. In
+the course of his discussing her life situation with her,
+she revealed that her husband was addicted to alcohol.
+This general strongly influenced the formation of military
+policies and had thousands of soldiers under his command. The patient was adamant, however, that she did
+not want her physician to disclose to the military what
+she had revealed to him in confidence. The physician
+believed that legally he might be obligated to pass on this
+information to command due to the interests of the military,
+but he decided, nonetheless, to exercise his discretion by
+respecting his patient’s confidentiality.
+Comment: If the physician had reported that this general was addicted to alcohol, it could have helped him
+medically as the military could have forced him to receive
+treatment. It also could have ruined the general’s military
+career and, due to the wife’s having disclosed this, the
+couple’s marriage as well. In the physician’s opinion, this
+action also would have had only marginal benefits on how
+the general performed and possibly would have had adverse consequences for the military because soldiers
+would lose trust in military physicians maintaining confidentiality. This physician’s decision to exercise discretion
+would be supported, in addition, by another factor—the
+physician’s implicit promise to the patient. The patient
+presumably believed that the physician would keep her
+communication confidential. The physician could have
+warned her that he might not respect her confidentiality
+before starting to see her, but he had not. If he had, this
+might have adversely affected her ability to trust him. It
+might have even precluded the success of the therapy. 31
+His not having warned her when he could have makes
+the case for respecting her confidentiality still stronger.
+This example is paradigmatic of others that arise
+regarding whether military physicians should
+adopt a military role-specific ethic and routinely
+violate patients’ confidentiality without warning
+them or whether they should warn their patients
+routinely that they would or may report them. 32
+Whether or not to warn patients and whether or not
+to violate patient confidentiality may best depend,
+however, on the specifics of the situation or case,
+as I shall now discuss.
+Violating Patient Confidentiality
+Again these cases should be considered as falling along a continuum. The argument that military
+psychiatrists should violate patients’ confidentiality is stronger in some than in others. The following case is an example of a situation in which a
+stronger argument can be made for military physicians not violating confidentiality, invariably, but
+instead using discretion.
+Case Study 12-2: Confidentiality and the Rape Victim.
+A young woman came to a military psychiatrist to obtain
+psychiatric counseling after alleging that she had been
+raped. Because the alleged rapist was a soldier, his defense attorney requested the psychiatrist’s notes. The
+Military Medical Ethics, Volume 1
+346
+psychiatrist had not informed the patient beforehand that
+this could occur. The patient’s mother went into the
+psychiatrist’s office, found his notes pertaining to her
+daughter, and attempted to destroy them before the psychiatrist and others could restrain her. 33
+Comment: Although the patient’s confidentiality was
+violated, the national security issue was minimal in this
+case. The military physician’s ethical obligation to protect the patient’s confidentiality in this instance is greater
+because the physician’s violating it fails to serve the military mission. Current military law may still require that he
+give the chart to the defense attorney, but if this is so this
+is an instance where there may be discrepancy between
+what is ethically optimal and what is presently military
+law. Ethics is often “ahead of the law.” That is, the only
+justification for depriving soldiers of “ethical rights” they
+would have as civilians is needs of the military mission
+related to combat or national security. When these needs
+are absent, the justification for a different policy generally doesn’t exist. (Since the time this event occurred,
+the rules have been changed to protect patient confidentiality to a greater extent. 34[§2]) As in the above case involving confidentiality this has begun to be recognized; it
+also has been recognized recently in regard to service
+persons having psychiatric illness. The requirements for
+involuntary commitment and the use of psychotropic
+agents over and against soldiers’ objections were once
+quite discrepant for soldiers as opposed to civilians. Now,
+they are much more similar. Bringing this principle fully
+into law has, however, just begun.
+Using Discretion When Treating Soldiers With
+Marginal Problems
+There are two arenas in which military physicians
+should exercise discretion in the treatment of soldiers who have marginal problems. These are: (1)
+when deciding whether or not to report soldiers
+who have minimal substance abuse problems; and
+(2) when treating soldiers with problems not related
+to military performance. Although it may be comforting for physicians to always follow the “letter
+of the law,” it is not always of benefit to their patients, nor is it always required.
+Reporting Soldiers With Minimal Substance
+Abuse Problems
+In general, military physicians follow the same
+priorities as civilian physicians when soldiers have
+problems with alcohol and drug abuse. 35,36 For example, the Army prohibits commanders from prosecuting soldiers who enroll voluntarily in rehabilitation programs. 37 Their substance abuse problems
+are also kept confidential unless doing this could
+have highly significant adverse effects on others,
+the military, or the nation.
+Although these provisions might appear to relieve military physicians from ethical dilemmas in
+regard to soldiers who have problems of substance
+abuse, in reality they may not. Soldiers may fear
+that if they enter substance abuse programs, they
+will lose their potential for “fast-track” or optimally
+rapid promotions, or that if the total number of service members is reduced (ie, through a reduction
+in force or “RIF”), their substance abuse will be a
+consideration working against their being retained.
+(Some service members have the same fears,
+whether valid or not, in regard to seeking psychotherapy from military psychiatrists.) Military physicians encountering soldiers whose findings barely
+meet the criteria for referral to a rehabilitation program must decide, therefore, whether to follow a
+military role-specific ethic (ie, “go by the book” and
+report them) or to exercise discretion.
+In this instance, physicians using no discretion
+would report all, inflexibly. Physicians using discretion, however, further justice in the sense of fairness by treating service members individually on
+the basis of what is best for the patient in light of
+all relevant moral considerations, such as those that
+I will discuss next.
+Soldiers’ “failing” in rehabilitative programs may
+be discharged from the military. Thus, the above
+question regarding military physicians adopting a
+military role-specific ethic or using discretion may
+arise when soldiers have generally done well but
+not met all criteria for successful rehabilitation. 36
+Then, as when military physicians must decide
+whether to refer service members to substance
+abuse rehabilitation programs over their objection,
+military physicians must decide whether to adopt
+a military role-specific ethic or exercise discretion,
+as represented in the case that follows.
+Case Study 12-3: The Soldier and the Positive Urine
+Test. A soldier who had served for over 19 years in the
+military had only months to go until she retired. She had
+completed a rehabilitation program but during a follow-up
+visit showed a barely positive urine test for an antianxiety drug that she was not permitted to take. She admitted
+she had taken this medication to alleviate a transient acute
+episode of anxiety. Her psychiatrist had to decide whether
+or not to report this episode, knowing that as a consequence this patient would be discharged from the military just prior to her retirement date and thus would lose
+her right to retirement pay. The psychiatrist reported the
+violation and the patient was discharged from the military
+prior to reaching 20 years of service.
+Comment: Most members of the rehabilitation staff
+believed adamantly that this single, “marginal violation”
+should have been ignored and they felt enraged. They
+believed that because she was close to retirement and
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+347
+had given more than 19 years of service to the military, it
+was unjust to deprive her of the retirement benefits, which
+she otherwise had earned, on the basis of her “erring” by
+taking this medication to relieve her anxiety. The physician was, of course, following a military role-specific ethic.
+The staff who objected wanted the physician, instead, to
+use discretion. The discharge stood and the patient was
+denied retirement pay.
+Among the considerations affecting this and
+similar cases, of course, is that if the physician does
+not “go by the book” and report the soldier, the
+physician, in principle and practice, would be committed to determining what criteria to use to decide every other case as well. This might violate the
+ethical principle of consistency. That is, this principle requires that persons respond the same way
+in similar cases unless there are morally relevant
+features that distinguish one case from another and,
+thus, warrant one case being treated in a different
+way from another. Otherwise, the ethical decision
+in each case is, at its core, arbitrary. Stated differently, if the military physician does not act consistently in these cases but exercises discretion in some,
+but not in other cases, the physician enters a slippery slope. The physician has opened the door to
+making decisions on a basis other than “the letter
+of the law” and the task of fulfilling the requirement of equity or justice by treating like cases the
+same will be harder. The physician may then make
+these decisions subjectively without the physician
+knowing or intending this. These decisions thus
+would be arbitrary. The physician would, then, be
+vulnerable if exercising discretion to deciding on
+the basis of subjective factors. This would violate the
+principle of equity. Thus, although the physician’s
+not using discretion seems overly rigid and lacking
+in compassion, the use of a military role-specific
+ethic, even in this kind of case, furthers the ethical
+principles of equity and consistency. I am proposing, however, that even though using the military
+role-specific ethic achieves these values, in situations involving soldiers with marginal problems,
+military physicians preferably should exercise discretion because the potential for harm to the military mission is absent or remote.
+Treating Soldiers With Problems Not Related to
+Military Performance
+As previously suggested, military physicians face
+a dilemma when taking a patient’s history. If they
+ask about soldiers’ prior sexual experience or
+whether they use an illegal drug, such as marijuana,
+military physicians may believe that they have a
+duty to inform these soldiers’ commanders to assess them for homosexual activity or to refer them
+to substance abuse programs for formal evaluation,
+respectively.
+Yet, because the interest of the military is sufficiently small in such cases, it may be that in these
+particular cases military physicians should act primarily to further the interests of these patients. At
+the far end of this continuum, this could be called a
+medical role-specific ethic, and the military physician should again not exercise independent discretion. This role is the opposite of the role-specific
+ethic in which the physician follows military requirements without using discretion, as previously
+considered.
+What should the criteria be under which this
+patient-centered ethic, as opposed to discretion,
+should be applied? The general criteria I am suggesting here that military physicians may consider
+as sufficient grounds for adopting the patient-centered or medical as opposed to military role-specific ethic are these two: (1) when the patient has a
+clear medical interest, and (2) the military has virtually none. Consider, as examples, the following
+two cases:
+Case Study 12-4: The Affair. An active duty service
+person asked by his physician how he was doing reported
+that he was having an affair. The physician reported this
+to the service person’s commander.
+Comment: In this instance, both the patient and the
+physician’s colleagues were upset with the physician for
+reporting this “admission” to the commander. The colleagues believed that it was critical that they retain the
+option to discuss such behaviors with patients confidentially. They believed that the bearing of this behavior on
+the military mission was negligible, whereas their need
+to discuss this issue with patients was extreme. This is
+one instance where the need for military physicians to
+follow a medical model may be, as it was in the eyes of
+these other military physicians, absolute.
+Case Study 12-5: Separation Anxiety Mistaken for
+Alcoholism. A soldier was being medically discharged
+and had made arrangements to begin a high-paying job
+in a distant state. A few days prior to the completion of
+his medical board and his leaving his wife to begin the
+new job, this soldier became inebriated and tearfully expressed to his wife his fear of going away without her.
+The wife called the husband’s internist asking what she
+should do. The internist, in turn, called a military physician who had seen the patient during his prior hospitalization. The physician decided to put a hold on the medical board and to send the patient to the substance abuse
+program for evaluation because he believed this patient’s
+behavior possibly reflected a previously unidentified problem with alcohol. He also believed that he was required
+Military Medical Ethics, Volume 1
+348
+by his military role-specific ethic to support the military’s
+interest by reporting any illness that could have possibly
+contributed to the medical problem for which the patient
+was being retired from the service. After explaining what
+had happened in detail to his new employers and postponing his beginning his new job so that the military could
+thoroughly evaluate his alcohol use, the patient was found
+to not have a problem with alcohol, went to his new job,
+and subsequently was joined by his wife.
+Comment: The physician’s requiring the patient to be
+evaluated could have jeopardized his new employment
+opportunity even though he had no problem with alcohol.
+As it was, it caused this soldier substantial difficulties.
+The military physician had a number of options available.
+First, he might have furthered the patient’s interest more
+by calling the patient in for consultation and evaluating
+him as he would have had the patient been a civilian.
+Instead, this physician adopted a military role-specific
+ethic. There is, then, this argument for his exercising discretion. Otherwise, the concept of the military mission or
+military necessity can be used in a literally infinitely elastic way. All the choices of military physicians could be
+made on the basis of a military role-specific ethic and
+justified on the grounds that no matter how indirect or
+remote they fulfill “the mission.”
+Counseling Soldiers With HIV Who Endanger
+Third Parties
+Soldiers with human immunodeficiency virus
+(HIV) may endanger other persons. 38 Some of these
+soldiers are homosexual; others acquire HIV infection by other means, such as intravenous drug use
+or transfusions. All such soldiers are subject to limitations regarding their overseas deployment. 39
+An ethical issue military physicians often confront has to do with protecting third parties. 40,41 Two
+situations are illustrative: (1) soldiers who have not
+informed a sexual partner that they have HIV, and
+(2) soldiers who pose a danger because they may
+engage in unprotected sex with others. These situations differ in many respects but one that is particularly important is that in the latter situation the
+identity of the persons endangered cannot be identified because these liaisons have not yet occurred.
+Protecting Identified Third Parties
+The more common of the two situations is when
+soldiers with HIV infection are unwilling to inform
+their spouse or sexual partner that they are infected.
+States vary greatly in their laws regarding what civilian physicians should do in this situation. In
+some states physicians must protect patients’ confidentiality; in other states they must initiate contact
+tracing. In some states they are legally protected
+whatever they do; in other states they can be sued
+regardless of what they do.
+The questions originally posed for the military
+when HIV and acquired immunodeficiency syndrome (AIDS) were first identified were what policy
+the military should have and whether it should differ because of exigencies unique to the military. In
+1987 the military adopted its own policy that requires military physicians to take action to inform
+contacts who are on active duty or are beneficiaries
+of military medical care so long as soldiers identify
+them specifically as contacts. 42
+This policy leaves several ethical questions unanswered. Suppose, for instance, a soldier with HIV
+has an ongoing relationship with a partner in the
+military, but is unwilling to tell that partner that he
+is infected. If asked about partners, the soldier could
+deny that he had a partner and state that he acquired the infection from a prostitute or a person
+whose name he does not know because it was a “one
+night stand.” The military physician could attempt
+to trick the soldier into sharing the identity of his
+partner by allowing the soldier to believe that this
+information would be kept confidential. However,
+this would destroy the physician’s ability to work
+with that patient.
+To respect such soldiers’ autonomy, it would be
+necessary to inform them beforehand that if they
+identify their partners but will not inform them
+themselves, the military physician will take action
+to try to insure that the partner is informed. With
+this warning, however, these soldiers may deny the
+existence of these partners or not give their identities. This may cause innocent third parties to risk
+becoming infected with HIV, or if they are already
+infected, to not be informed, and thus not receive
+treatment.
+Notwithstanding this obvious harm, there are
+strong, though less obvious, arguments for warning such soldiers. Military physicians giving this
+warning, and therefore allowing these soldiers to
+choose whether or not to reveal the identity of their
+partners, might paradoxically enhance their likelihood of being able to persuade the soldier over time
+to inform the partner or at least to divulge the
+partner’s identity. Legal requirements do not preclude their giving this warning, though they may
+be seen as implying that these physicians should
+not warn them. Giving priority to maintaining an
+optimal therapeutic relationship with such soldiers
+may maximally benefit not only third parties but
+also these soldiers themselves. That is, over time
+they may be able to persuade these soldiers to tell
+their partners themselves. This may be better for
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+349
+these soldiers because they may be better able to
+“live with themselves” over the long run. By exercising discretion in this case, then, it is possible that
+third parties will receive important, even lifesaving, information while the patient–physician relationship is preserved.
+This same outcome would be brought about even
+under military law if the partner were not on active duty and not a recipient of military medical
+care. This is because even if a soldier identifies the
+partner, the military has no requirement to inform
+him or her. Military physicians still might be required to warn such partners, however, if this were
+required by state law. Military physicians’ legal
+obligations may vary depending on the laws of the
+state within which they practice, but when state law
+should apply is often controversial.
+But what if military physicians learn partners’
+identities without routinely warning soldiers with
+HIV that they will inform partners of their HIV status? Should military physicians exercise discretion
+in this situation or should they adopt a military rolespecific ethic and inform partners? Military physicians have made an implied general promise to all
+soldiers to act in the interests of greater numbers of
+soldiers as opposed to those of their individual patients when the two conflict. This promise carries
+overriding moral weight for the reasons previously
+discussed when military physicians perform triage
+or treat soldiers with combat fatigue during battle.
+Informing third parties may protect them, but it is
+empirically open to question whether this approach
+will benefit most soldiers in the long run. Should
+this obligation to act in the interests of greater numbers of soldiers apply in a context like this where
+military combat interests are negligible? If it should
+apply, to what extent? This question is as open to
+military physicians deciding either way as any ethical question.
+Protecting Unidentified Third Parties
+In 1988, the Department of Defense issued a directive designed to protect third parties still further. 43
+It established that active duty service members who
+have HIV infection and have been counseled regarding the risk they pose to others must practice
+protected sex or face criminal or administrative repercussions.
+This directive may go as far as any regulation
+could go to protect third parties from patients with
+HIV who have no exceptional emotional problems,
+and thus can be significantly deterred by the threat
+of punishment. It may be of little help, however,
+when patients with HIV have emotional problems
+such as severe depression or psychosis. This is especially the case if there is loss of impulse control
+that may be associated with the course of these psychiatric disorders. In these situations they may “act
+out” and there may be little that regulations can do
+to deter this behavior.
+What should military physicians do in the case
+of a patient with HIV who also has a psychiatric
+disorder? Suppose, for example, a service member
+with HIV comes to a military physician to receive
+treatment for a recently acquired and painful venereal infection. Military physicians could follow a
+military role-specific ethic and automatically refer
+such a patient for criminal or administrative proceedings. Or they could use their discretion and
+admit soldiers whom they believe may have impaired impulse control (because of underlying mental illness) to the ward for evaluation. If, for example, they believe a soldier is depressed and has
+decreased impulse control for this reason, they may
+admit him for depression as opposed to referring
+him for administrative or criminal proceedings.
+This problem is faced by military physicians’ civilian counterparts who also must decide what, if
+anything, they can and should do when patients
+with HIV pose a threat to other persons. A factual
+difference is that military physicians have an obligation in the military to serve greater numbers of
+soldiers over individual patients. They have also
+made a prior implicit promise to protect all soldiers
+to the extent that they can. Ethically, military physicians in this situation may also have more discretion and, indeed, justification for confining such
+soldiers. In such a situation the soldier could be
+confined to the ward for treatment for depression,
+at least for a short while, because a medical discharge
+from the military may be possible or necessary.
+Generally, military physicians can psychiatrically
+hospitalize soldiers against their will when they
+pose a danger to themselves or others. (Civilian
+physicians can, of course, do this as well, though
+the extent to which it is likely they are “dangerous”
+varies according to state law.) By doing this, they
+could protect others and, hopefully, benefit soldiers
+who temporarily endanger others because they
+have illnesses such as depression, perhaps brought
+on by their acquiring HIV. Furthermore, if such soldiers are hospitalized, they can be treated, instead
+of having criminal proceedings initiated against
+them. In this instance, because extremely large numbers of soldiers are not endangered, military physicians would not have an absolute obligation to
+adopt a role-specific ethic by reporting these solMilitary Medical Ethics, Volume 1
+350
+diers and exercising no discretion. Rather, they
+would be justified in exercising their discretion by
+confining some of these soldiers to the ward so that
+unknown soldiers at risk of being infected by them
+could be protected and so that these soldiers with
+HIV could maximally benefit. In taking this course,
+which would most benefit these patients, they
+would be following the principle of placing these
+patients’ interests first, which is, of course, the core
+moral value of civilian physicians.
+Meeting the Clinical Needs of Soldiers With
+Psychological Disorders
+Due to recent legal enactments44–46 soldiers generally have rights comparable to those of civilian
+patients when facing involuntary commitment for
+mental illness. Nonetheless, military physicians still
+may have greater capacity to hospitalize such patients and to take certain preventive measures, because soldiers may have exceptional access to dangerous weaponry. For example, military physicians
+can take initiatives to remove this weaponry when
+soldiers are a danger to themselves. In this instance,
+military physicians might be justified in doing more
+than civilian physicians could do, not on the basis
+of the military’s need but rather on the basis of their
+patients’ needs. In such a situation they would be
+acting on an absolute medical role-specific ethic but
+taking this one step further. They would act to take
+away these soldiers’ weapons to further benefit
+these soldiers, though they might not be able to do
+this if these patients were civilians.
+In other instances, however, they might give less
+optimal care than they otherwise would, to meet
+soldiers’ best “medical interests.” For instance, what
+should military physicians write in soldiers’ medical charts? In the past, for example, many military
+psychiatrists who saw soldiers who were homosexual relied on writing euphemisms in the chart,
+such as stating that patients who were homosexual
+had “psychosexual confusion.” They believed that
+investigators viewing these records would not understand their meaning, though other physicians
+would. They also believed that investigators would
+not be able to use these statements against these
+soldiers’ interests.
+Investigators used these records, however, to
+confront soldiers whom they suspected were homosexual. Oftentimes these soldiers acknowledged,
+under the duress of these “interrogations,” that they
+were homosexual and were then discharged from
+the service. Over recent decades there have been
+more strict regulations47–49 and greater intolerance
+of these approaches. This has resulted in the privacy of service members’ medical records being
+better protected; military hospital authorities can
+refuse to release records unless ordered to do so.
+There is, however, another option available to military physicians. They can follow an absolute medical role-specific ethic by being more vague in their
+chart notes, thus avoiding any entries that could
+imply homosexual behavior (or, for that matter,
+adultery). By so doing they can better protect their
+patients from military prosecution for homosexual
+conduct or adultery, both of which remain violations of military law.
+Counseling and Treating Suicidal Soldiers
+As with any individual expressing a desire to
+commit suicide, the physician must evaluate how
+genuine that expression may be in order to appropriately counsel and treat such a patient. In the
+military the situation can be somewhat more complicated than in a civilian setting inasmuch as soldiers may feign suicidal thoughts and feelings in
+an effort to be administratively discharged. 50–54 The
+military physician, attempting to further military
+ends by not opening up “the floodgates” to other
+soldiers seeking this same “exit route,” may err in
+either of two ways. In the first of these, the physician may deny that the suicidal intent is genuine.
+As a result, such patients may kill themselves,
+though military physicians could have prevented
+this by taking other approaches.
+Alternatively, they may agree that the suicidal
+intent is genuine. In this case, the appropriate response would be to give the patient a trial of temporary limited duty, during which they provide the
+patient psychotropic medication and short-term
+psychotherapy. The goal of this approach is to determine whether the military environment is the
+source of distress in such patients. If that is the case,
+and they could do well if discharged from the military, they may be harmed also by remaining in the
+military and taking medications they do not otherwise need. As a result of taking these medications,
+they may suffer long-term negative effects. Furthermore, they may attempt suicide and die as a result
+of not having been removed immediately from the
+source of their stress.
+Because these patients may be genuinely suicidal
+or harmed substantially by any treatment other than
+immediate discharge from the military, military
+physicians’ medical obligation to such patients may
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+351
+warrant having highest priority. However, military
+physicians adopting a patient-centered ethic in
+cases such as this may be possible only if military
+policy changes. This may involve permitting soldiers who request discharge to be discharged after
+a briefer waiting period, or discharged on request.
+This policy may not have significant adverse effects
+on the military if there are more persons who want
+to join the military than there are spaces. If this were
+the case, this would be another instance in which
+ethics might be ahead of the law (ie, military physicians could be allowed to discharge suicidal patients immediately during basic and advanced individual training periods as opposed to taking an
+increased risk that they could kill themselves by
+keeping them on active duty).
+Counseling and Treating Soldiers With Eating
+Disorders
+Military physicians also face conflicts in regard
+to treating their patients optimally when their patients are mentally ill and likely to respond to treatment but military policies make this difficult. An
+example is when persons in the military academies
+demonstrate eating disorders while they are in the
+academies. Students diagnosed with these disorders
+may be excluded from further military service.
+Moreover, if they had these problems prior to joining the military, and concealed that fact on entry,
+they may be subject to prosecution for fraud. 55 As a
+consequence, students having these disorders may
+choose not to come for treatment. Military physicians may overcome this reluctance by engaging in
+deceit and treating these students for “adjustment
+disorders” and not reporting or recording in their
+charts any symptoms they encountered prior to
+entering the military.
+Whether military physicians should “game the
+system” in this manner is open to question, but what
+is clear is that they cannot both treat these patients
+successfully, which is their primary role, and, at the
+same time, serve an investigatory function. The conflicting obligations these military physicians face
+are like those physicians face when conducting epidemiological studies on soldiers with HIV or research on soldiers with possible problems of substance abuse. They cannot both do this research and
+at the same time report service persons for violations such as engaging in homosexual acts or using
+illegal drugs. Doing this research and reporting
+these soldiers should be mutually exclusive actions.
+Ultimately all these conflicts can be resolved only
+by changing the military policies. As a result of military physicians’ efforts in regard to soldiers with
+eating disorders at the service academies, policies
+now make it easier for students in this situation to
+receive treatment. 56
+Prioritizing the Needs of Patients Over the
+Needs of the Military
+The needs of the military are relatively apparent
+at first blush: The military needs to be ready to deploy as a force capable of accomplishing the mission it is given. However, the needs of the military
+are not necessarily always supreme over those of
+the patient. Thus there can be a need to prioritize
+the individual’s needs against those of the organization. There are three arenas in which this is most
+needed: (1) deciding what to do with prejudicial
+information that is acquired during medical research; (2) evaluating homosexual soldiers who
+have security clearances; and (3) meeting the medical needs of homosexual soldiers. Each of these will
+be discussed in some detail.
+Acquiring Prejudicial Information While
+Conducting Medical Research
+This same kind of conflict arises, as I just indicated, when military physicians wish to conduct
+certain kinds of research. For example, research may
+be carried out to determine what medical factors
+result in soldiers being relieved from duty in overseas assignments. This information, like epidemiological data regarding HIV, could help the military
+by suggesting interventions that could enhance soldiers’ capacity to continue to serve in these settings
+effectively without having to be relieved.
+Military physicians, however, have a general
+obligation to report soldiers who have problems
+with alcohol or drugs. The military rationale for this
+requirement is that improper use of these substances could impair soldiers’ capacity to be effective. The military has not established an exception
+that would allow military physicians to not have
+this reporting requirement when they conduct research. By reporting these soldiers, military physicians could help these soldiers obtain treatment;
+however, they implicitly deceive them if they conduct research without informing these soldiers that
+they might report them for any illegal activities the
+researchers discover in the course of the research.
+If military physicians are not deceptive but fully
+warn soldiers of their reporting requirement, they
+Military Medical Ethics, Volume 1
+352
+could tell them the truth but then they would probably not acquire meaningful data. If the military
+established an exception such that military physicians were permitted to keep this information confidential, they would be able both to avoid deceiving these soldiers and to obtain these data. However, as I shall indicate shortly, there may be good
+reasons that the military shouldn’t establish such
+an exception.
+When military physicians report soldiers who
+have problems with substance abuse, it may not be
+as likely to save large numbers of soldiers’ lives or
+to be critical to the success of a combat effort. This
+is a situation in which military physicians would
+therefore have greater moral justification in exercising discretion to not report this behavior. They
+could also use discretion if before they ask soldiers
+about their use of these substances, they would divulge to them that they would have to report any
+affirmative answers.
+Research regulations now require military physicians to inform these soldiers in general terms that
+researchers cannot guarantee confidentiality and
+that they face possible risks by becoming a subject
+in the research. This requirement is based on the
+need for such disclosure when obtaining informed
+consent, as first enunciated in the Nuremberg Code.
+Unless the institutional review boards that review
+this research for its ethical acceptability require researchers to inform subjects more specifically how
+their divulging misuse of alcohol or drugs will affect them, however, researchers do not have to do
+so. Whether military physicians or others giving
+subjects this information initially should give this
+specific information is now left to their discretion.
+Some soldiers who misuse alcohol and drugs will
+discern on their own that the risks of their disclosing self-incriminating information exist. Others,
+however, will not. An additional value therefore
+that should affect military physicians’ decision
+making in these situations is equity. Only by taking initiative to insure that all soldiers understand
+the full ramifications of their making self-incriminating disclosures can they insure that all soldiers
+know this. Only this can insure equity.
+If military physicians do not take this initiative,
+there is an additional, more subtle harm also
+brought about. The soldiers who suffer the effects
+of incriminating themselves are not on a par with
+those soldiers savvy enough to discern on their own
+that they face these risks. Thus, these less savvy
+soldiers are worse off in this respect than those who,
+due to being more savvy, can avoid the risk of incriminating themselves. Thus, military physicians
+not giving this warning would not only violate equity; it would discriminate against those less capable of protecting themselves in this situation.
+Evaluating Homosexual Soldiers Who Have
+Security Clearances
+When soldiers have access to classified information they could divulge military secrets, in which
+case the nation’s security may be compromised. 57 If
+national security is truly at stake, military physicians have greater justification in giving priority to
+national interests even when this would violate
+patients’ interests. However, if protecting military
+secrets isn’t necessary for national security concerns, the justification is greater for military physicians to give patients’ interests priority by exercising some discretion.
+This discretion would involve the physician making an independent assessment of such factors as
+the magnitude of risk to the military and its likelihood, and weighing these factors against the magnitude and likelihood of harm to the patient. An
+example in which military physicians had to decide
+whether to use discretion occurred when HIV infection first emerged among soldiers. 58 Military
+physicians had to choose whether to protect the
+military from unlikely risks to security or to protect these soldiers from certain harm to themselves.
+To understand how this occurred, it is necessary
+to understand that historically homosexual soldiers
+have been excluded from the military on two rationales: (1) they were considered a security risk,
+and (2) they were viewed as potentially disruptive
+to troop morale. 59,60 The former rationale was based
+on the presumption that soldiers who were homosexual were exceptionally vulnerable to extortion.
+This presumption overlooks the fact that soldiers
+who are heterosexual and commit adultery may be
+at equal or greater risk of extortion. There has also
+been the concern in the US military that the presence of homosexuals in a unit could be disruptive
+to unit morale. This is perhaps the only possibly
+sound reason that engaging in homosexual acts remains an illegal activity under the Uniform Code
+of Military Justice (UCMJ). 61 (See Chapter 6, Honor,
+Combat Ethics, and Military Culture, for a further
+discussion of this topic.) Ultimately, this question
+is, of course, empirical. Persons with homosexual
+preferences have served effectively in militaries
+throughout history. Whether this present policy is
+empirically valid, or rather reflects bias, is therefore in doubt.
+After HIV emerged, the need arose for the miliMixed Agency in Military Medicine: Ethical Roles in Conflict
+353
+tary to ascertain, to the degree possible, both the
+true prevalence of HIV infection among soldiers and
+its etiology. These findings were considered necessary to determine what policies should be adopted
+in the military to limit the number of soldiers with
+HIV, both entering the military and acquiring it once
+they have joined.
+A difficult ethical question arose in regard to soldiers who had HIV and were homosexual. On one
+hand, it was felt that if these soldiers acknowledged
+that they were homosexual, military researchers
+should adopt a military role-specific ethic, exercise
+no discretion, and report these soldiers’ homosexuality to their commanders. Homosexual behavior
+was, after all, against military law and posed a risk,
+so it was believed, to national security and troop
+morale. These researchers could, on the other hand,
+have warned soldiers what would happen to them
+if they divulged that they were homosexual. This
+would, of course, have protected them from making unwanted disclosures resulting in adverse repercussions.
+In 1985, to facilitate accurate epidemiological
+studies regarding HIV and AIDS, Secretary of Defense Weinberger granted immunity to soldiers with
+HIV if they disclosed that they were homosexual
+during epidemiological assessment. However, they
+could still be administratively discharged if knowledge of their homosexuality was obtained independently. 62 In 1986, Congress gave these soldiers greater
+protection by passing legislation that protected soldiers with HIV from involuntary separation and
+other actions adverse to their interests63 if they acknowledged during epidemiological assessment
+that they were homosexual. However, denial or revocation of soldiers’ security clearance and access
+to classified information was not categorized as an
+adverse action. Consequently, soldiers who divulged
+that they were homosexual during epidemiological studies risked undergoing these repercussions.
+Controversy arose over whether soldiers with
+HIV having security clearances should be protected
+from these repercussions. 64 If military researchers
+sought out this information and then reported it,
+they would harm these patients. Military researchers had another option, not precluded by military
+law. During epidemiological assessment, they could
+tell these soldiers what the potential consequences
+could be prior to asking them if they were homosexual. Whether or not these soldiers would then
+take this option of acknowledging that they were
+homosexual was left to their discretion. If military
+researchers gave priority to the military’s security
+interest, they would, of course, not inform these
+soldiers that if they acknowledged that they were
+homosexual, they could lose their security clearance. If they informed them of this possibility, they
+would protect them from this harm, but, at the same
+time, invalidate their epidemiological assessment. 65,66
+In this instance the risk of harm to the military if
+military physicians did not report these soldiers’
+homosexuality was uncertain but the risk of harm
+to these patients significant and certain. On these
+grounds, military physicians had reasonable ethical justification for exercising discretion. Consequently, military physicians’ optimal ethical response
+could differ qualitatively in this instance from the
+responses during combat previously considered. As
+opposed to adopting an absolute military role-specific ethic, they may have been justified in using
+discretion or, even, perhaps in adopting an absolute
+medical role-specific ethic. If military physicians
+exercised no discretion and acted strictly according to a military role-specific ethic, as they should
+in the prior combat situations, they would not only
+implicitly deceive these soldiers by omission; they
+would entrap them.
+Meeting the Medical Needs of Homosexual
+Soldiers
+Military physicians’ obligations when they see
+pilots also stand in sharp contrast to their obligations when they see soldiers who are homosexual
+but, unlike those previously considered, do not have
+HIV. If this situation involving pilots lies at one end
+of a continuum at which military physicians may
+be rightly regarded as being morally justified in
+exercising little or no discretion, situations involving homosexual soldiers who do not have HIV lie
+at the other.
+As already discussed in some detail, homosexual
+conduct has been and continues to be unlawful in
+the military. The circumstances that require military physicians to report soldiers when they imply
+that they are homosexual remain controversial. 67,68
+Some physicians assert that even if soldiers strongly
+imply that they are gay, this is not direct evidence
+that they engage in homosexual conduct. Accordingly, military physicians may say to such individuals at this time, “On the basis of what you have told
+me, you may or may not be currently engaging in
+sexual conduct with persons of the same sex. If you
+tell me more, I may have to report you.”
+Other military physicians see this as collusion
+with these patients to undermine military law.
+However, if these or any soldiers even only could
+have uncertainty regarding military physicians’ leMilitary Medical Ethics, Volume 1
+354
+gal requirements, a “warning” ethically may be justifiable, if not mandatory, to respect such soldiers’
+autonomy to a degree minimally necessary. Still
+other military physicians believe that they have an
+obligation to follow up to see if soldiers who give
+any information suggesting that they are currently
+engaging in homosexual relationships are, in fact,
+doing so. This may include their asking soldiers to
+elaborate on answers they have given on psychological testing. An MMPI (Minnesota Multiphasic
+Personality Inventory) is such a test. It is usually
+carried out to help healthcare professionals provide
+better clinical care, but can be used to suggest the
+possibility of homosexual conduct.
+As this last example involving homosexuality
+best illustrates, to respect soldiers’ autonomy military physicians must sometimes tell soldiers prior
+to their divulging potentially incriminating information what physicians will do with this information. In the case of military physicians who would
+follow up patients’ responses on the MMPI, this
+would require them to inform these soldiers prior
+to their taking this test that this is what they would
+do. The “price” of military physicians respecting
+soldiers’ autonomy in this manner is that soldiers
+they so inform will be less likely to disclose selfincriminating information on this test, making it
+less clinically useful. In this case, their either giving this warning or not using the test for this covert “military purpose” would represent their
+adopting an absolute medical role-specific ethic.
+There are several considerations that favor military physicians giving warnings if they would report soldiers in these situations. First, and of far
+greatest importance, is that soldiers most likely
+would divulge such self-incriminating information
+only because, like the wife of the general, they believed it would be kept in confidence. Military physicians then using this information against these
+patients’ best interests would exploit these patients’
+trust. They would use their professional role as
+physicians to exploit these patients’ vulnerability
+for the military’s ends. This is particularly problematic when military physicians have the opportunity
+to avoid this situation by warning patients but
+choose not to do so.
+Military physicians have, of course, made promises, explicit and implicit, to the military as well.
+The ethical problem arises because even though
+military physicians and their soldier-patients know
+this, in some cases, these promises conflict with
+other values and in other cases it is unclear for soldier-patients how they would apply or soldier-patients have never learned that these military physicians’ promises to the military exist.
+In all these cases the ethical assumption is that
+military physicians should take the initiative to insure that the soldier-patient knows both that their
+promise to the military exists and how it applies.
+The key questions again are when, if ever, this
+should not be the case, and if so why? When this
+promise and its application have been made clear
+beforehand, military physicians’ following through
+on their prior promises to the military is essentially
+unproblematic.
+Second, as stated, military physicians’ reporting
+soldiers without providing warnings discriminates
+between soldiers who err by being trusting and
+those who do not. This violates the principle of equity and is particularly morally problematic because
+those suffering adverse consequences would be soldiers who gave information honestly in the hope
+that this would help them. Thus, they would end
+up being “punished” for doing precisely what physicians ask, expect, and hope their patients will do.
+Further, this is what the military wants and expects
+them to do.
+Military physicians can give their commanders
+good advice only if soldiers are honest with them.
+That is, the military simply cannot “have it both
+ways.” They cannot have military physicians both not
+warn soldier-patients and then “turn them in” and
+at the same time have military physicians able to
+maximize soldier-patients’ interests to obtain the
+most accurate information from them. If military
+physicians violate the soldier-patient’s trust, it can
+be expected that this will have a “chilling” effect,
+diminishing his capacity to trust military physicians. Thus, patients would not give military physicians the accurate information regarding their
+health that commanders need. The military, knowing this, does not expect military physicians to serve
+those two mutually exclusive roles, investigator and
+military physician, simultaneously. Thus, they have
+not prosecuted or taken administrative action
+against military physicians for not reporting, although
+they could.
+And third, the goals of the military would be
+undermined by requiring military physicians to
+report all such patients. In regard to homosexual
+soldiers, for example, the military would want to
+eliminate soldiers from serving who show inadequate discretion because the result of this behavior could adversely affect the unit. However, this is
+also true of soldiers who are heterosexual and engage in sexual harassment. The tasks the military
+primarily wants its physicians to perform are to
+maintain the health of the troops and to inform
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+355
+commanders accurately regarding the troops’ health
+status. Military physicians violating soldiers’ confidentiality by reporting them may diminish these
+physicians’ ability to maintain the unit’s health and
+to obtain accurate information regarding it because
+soldiers might not come for treatment or might be
+less honest if physicians violated their confidentiality. This was the concern of the military physicians
+(in Case Study 12-4) when their colleague reported
+the service member for adultery.
+This may be a reason the military has chosen not
+to attempt to identify and punish military physicians who have not reported soldiers whom they
+know or strongly suspect have engaged in homosexual behavior. In fact, it may be optimal for the
+military to have strict regulations against homosexual conduct but to be lax in enforcing them. This
+logically contradictory reality may exist in many
+other contexts as well. For example, it may be optimal to have speed limits for traffic but to have police not enforce these limits when drivers only
+slightly exceed them.
+Traffic officers must decide what to do when a
+car passes at 56 miles-per-hour in a 55 miles-perhour zone. It would be possible for them to give all
+such speeders a ticket. They do not. Rather they use
+their discretion and give a ticket under these conditions only rarely, if at all. Why, then, do traffic
+officers not ticket such persons every time? Understanding the rationale behind their not ticketing
+every driver going 56 miles-per-hour is essential to
+understanding why military physicians must sometimes exercise discretion, as well. It is this: Having
+this law serves a major goal—it deters drivers from
+going too fast. It also, of course, provides a means
+by which particularly dangerous drivers can be
+stopped.
+Not reinforcing this speed limit every time serves
+another, and more important, end than their ticketing all these drivers. It frees up their time so that
+they can do much more important tasks. If either
+goal alone were maximized, this would be at the
+expense of the other. The best means of furthering
+both these goals maximally, without significantly
+having to sacrifice either one, therefore, is to have
+a policy and practice that are in one sense contradictory: Having a strict law but, purposely, choosing sometimes to not enforce it.
+As this example suggests, the military, despite
+having strict laws, sometimes allows and even intends for military physicians to exercise discretion.
+The military may intend that there is this “contradiction” between military policy and practice when it,
+and it alone, will enable the military to further maximally two mutually exclusive, important ends. In
+this example, strict laws prohibiting homosexual behavior deter persons who engage in homosexual
+behavior from entering the military, and, if they do,
+after they enter the military, from engaging in it in
+a manner that is blatant or indiscreet.
+Allowing military physicians to not report this
+behavior enables military physicians to better fulfill their two most important goals. If military doctors do not report these soldiers, the likelihood is
+greater that these patients—and, indeed, others who
+do not engage in homosexual behavior—will trust
+military physicians. Trusting them more, they
+should more readily come to them for treatment.
+Only if they do can military physicians more maximally fulfill these two goals: Maintaining their
+units’ health by treating soldiers and acquiring the
+most accurate information possible regarding the
+unit’s health. In doing this, they give up, of course,
+their role as additional investigators who can identify and report criminal conduct. This is, however,
+the primary responsibility of others.
+Overview
+It should be noted that in all of the examples in
+this section, there is theoretically a military rolespecific ethic to which military physicians could
+comply without exception. Invariably, for example,
+homosexual soldiers could be reported and discharged; soldiers having problems with substance
+abuse, referred to rehabilitation programs; pilots,
+grounded; and soldiers with HIV who engage in
+unsafe sex, put in jail. The military must maintain
+these options because highly problematic cases will
+occur and the military must be able to deal with
+these situations in a manner that allows them under extenuating circumstances to maximally protect large numbers of soldiers and thereby the military mission. This may require military physicians
+to have conflicting administrative duties that may
+result in their having to choose to betray their moral
+obligations to their patients as physicians. This is
+necessary because of the heightened military concerns that are at stake.
+This problem unavoidably arises because the
+policies allowing the military these special options
+are broad but not all soldiers will represent the kind
+or degree of threat these policies are intended to
+prevent or remove. The only way, then, to obtain
+the maximal benefit for both the military and these
+soldiers is for strict policies to exist but for military
+physicians to be free to exercise their discretion in
+ways such as those exemplified.
+Military Medical Ethics, Volume 1
+356
+THE EMOTIONAL EFFECT OF ROLE CONFLICT
+of these needs must, of course, be valid. This, then, is
+a secondary purpose of this and the other chapters in
+these two volumes on military medical ethics. That
+is, I hope this analysis will provide the most ethically
+valid arguments and criteria now available for military physicians to know when they must decide
+whether to follow their military role-specific ethic and
+when not to. With this knowledge, they can act with
+a clear conscience as opposed to moral angst, and, as
+a result, they, their patients, and presumably the military will be better off. In this regard they are like all
+military personnel who must at times make extraordinarily difficult decisions in a matter of moments,
+then live with the consequences for the rest of their
+lives. If they have a clear sense of why their actions
+were absolutely necessary, as established by ethically
+valid criteria, they can live with their deeds. The following case, although not that of a physician, clearly
+demonstrates the need for, and the value of, their
+knowing beforehand such ethically valid criteria.
+Case Study 12-6: The Surviving Submariner. During World War II one of the most harrowing duties was that
+of a submariner. Survival of the ship, and thus its crew,
+depended upon everyone acting as part of a team, doing
+what was necessary for the benefit of the group, and
+oftentimes doing these things without hesitation. In one case
+in particular, a member of the crew had gone out on the
+deck of the surfaced submarine to retrieve an object he
+had left there. Just then word came that the submarine was
+about to be hit by a torpedo and thus it immediately had to
+dive. A sailor inside knew he had no choice but to shut the
+latch, leaving the sailor outside to drown, or else he would
+endanger the entire crew. He shut the latch.
+Comment: Decades later the sailor who shut the latch
+still found that certain experiences triggered this excruciating memory. However, because he knew he had no
+choice if he was to save his fellow crew members’ lives,
+he was able to cope with this memory.
+In a similar manner, military physicians being
+aware of why they must in some cases follow a military role-specific ethic even when this harms individual soldiers perhaps may feel substantial relief
+from the pain they otherwise might feel both at that
+time and thereafter. Like the “surviving submariner” facing two horrific alternatives, they can gain
+relief from knowing they did the “least worst” they
+could have done.
+Earlier in the chapter I mentioned the emotional
+effect of military physicians’ knowing that they are
+allowing increased risks of their patients being unnecessarily harmed. This chapter has reviewed the
+many ways in which this might occur, ranging from
+treating soldiers so that their commanders can send
+them back to combat, to giving soldiers unproven
+pharmaceuticals, and even manipulating soldiers to
+try psychotherapy when they are threatening suicide.
+The emotional effect of military physicians choosing
+to meet the military’s interests when they face these
+mixed agency issues may be substantial. These healthcare professionals may unconsciously make this less
+painful over time by cognitively denying the real or
+potential harm that may affect these service members.
+If they do this, however, they may offer less to these
+soldiers because they have become more insensitive
+to their own and these patients’ emotional pain. As a
+result they may offer less to the military as well.
+Military physicians forced as a result of military
+exigencies to act in ways that they know may harm
+patients or even cause their death cannot help but
+experience this cognitive and, thus, emotional dissonance and moral angst. This dissonance and angst,
+for example, may occur when military physicians insist that soldiers alleging to be suicidal stay in the
+military longer as opposed to their serving as their
+advocates by requesting their immediate release. To
+relieve their cognitive dissonance, their minds may
+automatically inflate the rationale for resisting immediate release and deflate the rationales for requesting
+it. These physicians’ empathy for these soldiers may
+decrease such that a hardening occurs within them
+towards not only these soldiers but all other patients,
+as well. This hardening may lessen the military physician, as both a physician and a person.
+This effect may be mitigated if military physicians understand as well as possible the rationales
+for the military role-specific ethic having to prevail
+when it should. That is, military physicians knowing that they are acting in the only way they can to
+reduce significantly the potential loss of thousands
+or even millions of human lives may reduce their
+need to falsely inflate this or other rationales.
+For their knowledge of the unequivocal needs for
+them to act in ways that will support the military mission to have this beneficial effect, the unequivocality
+CONCLUSION
+Military physicians face ethical dilemmas for
+which military law and regulations do not provide
+resolutions. The law cannot take into account patients’ individual needs, such as those of the soldier who because of a problem with substance abuse
+was threatened with loss of her retirement pension
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+357
+after 19 years of service. Furthermore, the law’s ethical requirements are minimal. As an example, it
+does not require psychiatrists to give more than one
+warning during forensic examinations.
+Several aspects of the military make it especially
+important that military physicians recognize the ethical dilemmas that confront them. Military exigencies
+provide unique ethical justifications for violating traditional medical norms; the military structure predisposes soldiers to be excessively compliant; and
+military physicians’ identification with the military
+renders them unduly vulnerable to acquiring a
+skewed set of values. All these factors favor the interests of the military over those of their patients.
+The core enigma underlying many ethical questions posed in the military is whether the military
+physician should adopt a military role-specific
+ethic, which favors military interests exclusively;
+exercise independent discretion, as when deciding
+whether to tell soldiers who want to be discharged
+from the military how the system works and, accordingly, how they could game the system; or assume a medical role-specific ethic, which favors
+patients’ medical interests exclusively. There are
+criteria that potentially can help military physicians
+decide which of these three alternatives to adopt.
+The bulk of this chapter has been occupied with
+articulating these criteria and giving examples to
+illustrate them. Basically, military physicians should
+adopt the military role-specific ethic when military
+exigencies are so substantial that this is required,
+use their discretion when highly significant adverse
+consequences to the military are reduced, and use
+a more patient-centered ethic when military exigencies approach being negligible. The boundaries between these three categories are indistinct and will
+change. Nonetheless, this framework may be helpful in providing at least a rudimentary guideline
+from which military physicians can proceed.
+The anguish experienced by military physicians
+facing these conflicts is an additional factor that may
+affect their decision whether to adopt a role-specific ethic. Military physicians can act to attempt to
+reduce this anguish in some contexts, however, in
+the same adaptive way any person can respond to
+situations that pose stress. They can take actions
+to attempt to benefit patients by changing military
+rules and regulations with which they disagree. This
+was exemplified by the military physicians who
+attempted to make it easier for students at military
+academies with eating disorders to seek treatment.
+Civilian physicians are now facing problems
+similar to those faced by military physicians due to
+civilian physicians recently becoming more involved in managed care. Military physicians have
+much more capacity under “their” managed care
+system to influence how soldiers are treated than
+their civilian counterparts. Military physicians can
+take advantage of this greater opportunity to make
+policy that will allow them to maximally benefit
+individual patients and use their discretion to treat
+patients when possible in light of military necessities, as I have discussed in this chapter. This was
+best exemplified, for instance, in their using military prerogatives to take away service members’
+firearms when they pose a danger to themselves or
+others. This civilian doctors might find more difficult to accomplish, but military physicians could
+do this, not for the military as much as for these
+patients.
+To benefit their patients and themselves by pursuing changes in policy in an endeavor to bring military law up to ethical standards, they must follow two
+practices: (1) they must be scrupulous in recognizing
+the ethical dilemmas whenever they arise, and (2) they
+must consistently bring them to the attention of military authorities who can address them.
+The chapters in this first volume of the two-volume Military Medical Ethics textbook have “set the
+stage” for the reader to understand how it was that
+physicians came to be a part of the military and the
+ethical dilemmas that the melding of these two professions—medicine and military—can sometimes
+present. The second volume explores these issues
+in great detail, beginning with the crucible of military medical ethics: the chaos of the battlefield.
+REFERENCES
+1.
+Daniels AK. In the service of the state: The psychiatrist as double agent. Hastings Cent Rep. 1978;8(suppl):3–6.
+2.
+Howe EG. Medical ethics: Are they different for the military physician? Mil Med. 1981;146:837–841.
+3.
+Howe EG. Ethical issues regarding mixed agency of military physicians. Soc Sci Med. 1986;23:803–813.
+4.
+10 USC § 3723.
+5.
+AMA Council on Ethical and Judicial Affairs. Ethical issues and managed care. JAMA. 1995;273:331–335.
+Military Medical Ethics, Volume 1
+358
+6.
+Howe EG. Managed care: “New moves,” moral uncertainty, and a radical attitude. J Clin Ethics. 1995;6:290–306.
+7.
+Brody H. Ethical Decisions in Medicine. Boston: Little Brown & Co; 1976: 261–262.
+8.
+Veatch RM. Case Studies in Medical Ethics. Cambridge, Mass: Harvard University Press; 1977: 245–250.
+9.
+Camp NM. The Vietnam war and the ethics of combat psychiatry. Am J Psychiatry. 1993;150:1000–1010.
+10.
+Moskop JC. A moral analysis of military medicine. Mil Med. 1998;163:76–79.
+11.
+Artiss KL. Combat psychiatry: From history to theory. Mil Med. 1997;162:605–609.
+12.
+Howe EG, Jones FD. Ethical issues in combat psychiatry. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM,
+eds. Military Psychiatry: Preparing in Peace for War. In: Textbook of Military Medicine. Washington, DC: Office of
+The Surgeon General, US Department of the Army and Borden Institute; 1994: 115–131.
+13.
+Jones FD. Traditional warfare combat stress casualties. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM,
+Stokes JW, eds. In: War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon
+General, US Department of the Army and Borden Institute; 1995: 35–61.
+14.
+Margo KL, Margo GM. The problem of somatization in family practice. Am Fam Physician. 1994;49(8):1873–
+1879.
+15.
+Howe EG, Martin E. The use of investigational drugs without obtaining servicepersons’ consent in the Persian
+Gulf. Hastings Cent Rep. 1991;21:21–24.
+16.
+Mendez E Jr, Assistant Secretary of Defense (Health Affairs). Letter to Mason JO, Assistant Secretary for Health,
+Department of Health and Human Services, 30 October 1990. 55 Federal Register 52814 (1990).
+17.
+US Food and Drug Administration. Protection of Human Subjects: Guidance for Institutional Review Boards and
+Clinical Investigators. Information Sheets. 1998 Update. Washington, DC: US FDA;1999: Appendix B: 21 CFR, Part
+50. Available at: http://www.fda.gov/oc/ohrt/irbs/appendixb.html. Accessed 7 September 2001.
+18.
+Clinton WJ. Executive Order No. 13139: Improving Health Protection of Military Personnel Participating in Particular
+Military Operations. Washington DC: The White House; 30 September 1999. Available at: http://
+www.firebase.net/eo13139.htm. Accessed 7 September 2001.
+19.
+Doe v Sullivan, 938 F2d 1370.
+20.
+Improving health protection of military personnel participating in particular military operations [Executive
+Order 13139, dated 30 September 1999]. 64 Federal Register 54175–54178 (1999). Available at: http://
+www.enter.net/~jfsorg/OfficialDocuments_files/EO13139.htm. Accessed 24 October 2001.
+21.
+Tomich N. Physician faces court-martial over vaccine. US Medicine. 2001;37(2):1.
+22.
+Nass M. Anthrax vaccine, model of a response to the biologic warfare threat. Infect Dis Clin North Am. 1999;12:187–
+205.
+23.
+Schneider CE. The Practice of Autonomy. New York: Oxford University Press; 1998.
+24.
+Belihar RP. Use of investigational drugs and vaccines in the theater. Presidential Advisory Committee on Gulf
+War Veterans’ Illnesses, Public Meeting, Use of Investigational Drugs and Vaccines in the Gulf War. Panel
+meeting (afternoon session). Kansas City, Mo. January 12, 1996. Available at: http://www.gulflink.ods.mil/
+cgi-bin/texis/search/gulfsearch [search on “belihar”]. Accessed 24 October 2001.
+25.
+Hopkins JET, Stelling HG, Voorhees TS. The marauders and the microbes. In: Stone JH, ed. Crisis Fleeting:
+Original Reports on Military Medicine in India and Burma in the Second World War. Washington, DC: Office of the
+Surgeon General, Department of the Army; 1969: 293–396.
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+359
+26.
+Condon-Rall ME, Cowdrey AE. Medical Service in the War Against Japan. Washington, DC: Center of Military
+History, US Army; 1998.
+27.
+Beecher HK. Research and the Individual: Human Studies. Boston: Little Brown & Co; 1970: 209–210.
+28.
+Colback EM. Ethical issues in combat psychiatry. Mil Med. 1985;150:256–265.
+29.
+Ursano RJ, Jones DR. The individual’s versus the organization’s doctor? Value conflict in psychiatric aeromedical evaluation. Aviat Space Environ Med. 1981;52(11 pt 1):704–706.
+30.
+Takla NK, Kottman R, Bailey DA. Combat stress, combat fatigue and psychiatric disability in aircrew. Aviat
+Space Environ Med. 1994;65(9):858–865.
+31.
+APA questions military psychiatry procedures. Psychiatric News. 17 April 1987;22:1.
+32.
+Morgan D. Medical ethics and law: Military confidentiality in the armed forces. J Roy Nav Med Serv. 1994;80:169–
+170.
+33.
+Mother fights to keep daughter’s records in rape case secret. Wall Street Journal. 22 August 1996:1.
+34.
+1999 amendments to the Manual for Courts-Martial, United States [Executive Order 13140, 6 October 1999]. 64
+Federal Register 55115–55123 (1999).
+35.
+Howe EG. Special problems for military psychiatrists. In: Simon RI, ed. Annual Review of Clinical Psychiatry and
+the Law. Washington, DC: American Psychiatric Press Inc; 1991: 304–324.
+36.
+Kallen LH, Grodin DM, Vinet RB. Legal aspects of alcohol abuse in the Navy. Behav Sci Law. 1989;7:355–377.
+37.
+US Department of the Army. Alcohol and Drug Abuse Prevention and Control Program. Washington, DC: DA; 26
+March 1999. Army Regulation 600-85.
+38.
+Howe EG. Ethical aspects of military physicians treating patients with HIV/Part Two: The duty to take initiative. Mil Med. 1988;153(2):72–76.
+39.
+Howe EG. Military law and AIDS. In: Gosten LO, Porter L, eds. International Law and AIDS: International Response, Current Issues, and Future Directions. Washington, DC: International Health Law Committee, American
+Bar Association; 1992: 102–106.
+40.
+Howe EG. Military physicians’ legal and ethical obligations to third parties when treating servicepersons infected with human immunodeficiency virus. AIDS Public Policy J. 1987;2:46–62.
+41.
+Howe EG. Ethical aspects of military physicians treating patients with HIV/Part Three: The duty to protect
+third parties. Mil Med. 1988;153(3):140–144.
+42.
+Secretary of Defense. Policy on Identification, Surveillance and Administration of Personnel Infected With Human
+Immunodeficiency Virus (HIV). Memorandum, 20 April 1987.
+43.
+Secretary of Defense. Policy on Identification, Surveillance and Disposition of Military Personnel Affected With Human Immunodeficiency Virus (HIV). Memorandum, 4 August 1988.
+44.
+Public Law 101-510. National Defense Authorization Act for Fiscal Year 1991. 5 November 1990.
+45.
+Public Law 102-484. National Defense Authorization Act for Fiscal Year 1993. 23 October 1992.
+46.
+DoD Directive 6490. 1. Mental Health Evaluations of Members of the Armed Forces. 1 October 1997.
+47.
+US Air Force Regulation 168-4. Administration of Medical Activities, Section D, Safeguarding and Releasing Medical
+Information, and Laws Affecting Disclosure. April 1987;Chapter 12. 6:Art 12-35.
+Military Medical Ethics, Volume 1
+360
+48.
+US Department of the Army. Confidentiality of medical information. In: Medical Record Administration and Health
+Care Documentation. Washington, DC: DA; 3 May 1999. Army Regulation 40-66; Chap 2.
+49.
+NAVMED US Navy Medical Command P-117 Manual of the Medical Department, Chapter 23: Reports, Forms,
+and Records, Section III, Release of Information From Records. 25 November 1980;Art 70-79.
+50.
+Rothberg JM, Rock N, Jones FD. Suicide in US Army personnel, 1981–1982. Mil Med. 1984;149:537–541.
+51.
+Rothberg JM, Jones FD. Suicide in the US Army: Epidemiological and periodic aspects. Suicide Life Threat Beh.
+1987;17(2):119–132.
+52.
+Rothberg JM, Ursano RJ, Holloway H. Suicide in the United States military. Psychiatry Ann. 1987;17:545–548.
+53.
+Rothberg JM, Bartone PT, Holloway HC, Marlowe DH. Life and death in the US Army. JAMA. 1990;264:2241–
+2244.
+54.
+McDowell CP, Rothberg JM, Lande RG. Homicide and suicide in the military. In: Jones FD, Sparacino LR, Wilcox
+VL, Rothberg JM, eds. Military Psychiatry: Preparing in Peace for War. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of the Army and Borden Institute; 1994: 91–113.
+55.
+Medical Evaluation Board: C4 AR 40–8. 15 September 1983. (Chapter 7, Medical Evaluation Boards, 7-5.b.(2)).
+56.
+Mitchell JR, Holmes EK. Eating Disorders. Presentation at the Uniformed Services University of the Health
+Sciences (USUHS). Bethesda, Maryland: 27 September 1995.
+57.
+High Tech Gays v. Defense Industrial Security Clearance Office, 668 F Supp 1361 (ND Cal 1987).
+58.
+Howe EG. Ethical problems in treating military patients with human immunodeficiency diseases. J Contemp
+Health Law Policy. 1987;3:111–149.
+59.
+Davis JS. Military policy toward homosexuals: Scientific, historical, and legal perspectives. Mil Law Rev.
+1991;131:55–108.
+60.
+Jones FD, Koshes RJ. Homosexuality and the military. Am J Psychiatry. 1995;153:16–21.
+61.
+Uniform code of Military Justice, Subchapter X, Punitive Articles: Section 925, Article 125, Sodomy.
+62.
+Secretary of Defense. Policy on Identification, Surveillance and Disposition of Military Personnel Affected With HTLVIII. Memorandum, 24 October 1985.
+63.
+National Defense Authorization Act for Fiscal Year 1987, PL 99-661, Division A, Title 7, 705c(1986) codified in
+10 USC 1074.
+64.
+Maze R. Hill, services debate [adverse actions] after confidential interviews. Navy Times. 29 June 1987:3.
+65.
+Howe EG. Ethical aspects of military physicians treating patients with HIV/Part One: The duty to warn. Mil
+Med. 1988;153(1):7–11.
+66.
+Howe EG. Trust between military physicians and servicepersons with HIV: Implications for civilian medicine.
+Biolaw. 1988;2:5101–5112.
+67.
+Auster SL. Confidentiality in military medicine. Mil Med. 1985;150(7):341–346.
+68.
+Howe EG. Confidentiality in the military. Behav Sci Law. 1989;7:317–337.
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+361
+CHAPTER 12: ATTACHMENT
+EVOLUTION OF INFORMED CONSENT
+There were three key documents in the evolution of informed consent in military combat contingencies.
+The first of these was a letter, sent from the Assistant Secretary of Defense for Health Affairs to the Assistant Secretary for Health, Department of Health and Human Services, and dated 30 October 1990. 1
+This is to follow up on discussions of DoD [Department of Defense] and HHS [Department of Health
+and Human Services] personnel over the past weeks. As you know, the memorandum of understanding between DoD and the Food and Drug Administration [FDA] recognizes “special DoD requirements to meet national defense considerations.” Operation Desert Shield presents such special
+DoD requirements.
+Our contingency planning in Desert Shield has had to take into account endemic diseases in the
+area and the well-publicized capabilities of the Iraqi military with respect to chemical and biological weapons. For some of these risks, we have determined that the best preventive or therapeutic
+treatment calls for the use of products now under “investigational new drug” (IND) protocols of the
+FDA.
+These are not exotic new drugs; these drugs have well-established uses (although in contexts somewhat different from our requirements) and are believed by medical personnel in both DoD and FDA
+to be safe. For example, one product consists of a very commonly used drug packaged in a special
+intramuscular injector to make it readily useable by soldiers on the battlefield. Another example
+involves a vaccine long recognized by the Centers for Disease Control [CDC] as the primary preventive treatment available for a particular disease, but the relative infrequency of its use has slowed
+the accumulation of sufficient immunogenicity data to yet support full licensing of the product.
+Still another example involves a drug in common use at a particular dosage level, but to preserve
+alertness of the soldiers, we prefer a lower-dosage tablet, which is not an FDA approved product.
+FDA personnel have been extremely cooperative and supportive in reviewing our proposed protocols for these products, quickly providing favorable responses to all of our submissions to date.
+FDA assistance is also needed on the issue of informed consent. Under the Federal Food, Drug and
+Cosmetic Act, the general rule is that, regardless of the character of the medical evidence, any use of
+an IND, whether primarily for investigational purposes or primarily for treatment purposes, must
+be preceded by obtaining informed consent from the patient. The statute authorizes exceptions,
+however, when the medical professionals administering the product “deem it not feasible” to obtain informed consent.
+Our planning for Desert Shield contingencies has convinced us that another circumstance should be
+recognized in the FDA regulation in which it would be consistent with the statute and ethically appropriate for medical professionals to “deem it not feasible” to obtain informed consent of the patient—that
+circumstance being the existence of military combat exigencies, coupled with a determination that the
+use of the product is in the best interest of the individual. By the term “military combat exigencies,” we
+mean military combat (actual or threatened) circumstances in which the health of the individual, the
+safety of other personnel and the accomplishment of the military mission require that a particular treatment be provided to a specified group of military personnel, without regard to what might be any
+individual’s personal preference for no treatment or for some alternative treatment.
+In all peacetime applications, we believe strongly in informed consent and its ethical foundations. In
+peacetime applications, we readily agree to tell military personnel, as provided in FDA’s regulations,
+that research in involved, that there may be risks or discomforts, that participation is voluntary and that
+refusal to participate will involve no penalty. But military combat is different. If a soldier’s life will be
+endangered by nerve gas, for example, it is not acceptable from a military standpoint to defer to whatever might be the soldier’s personal preference concerning a preventive or therapeutic treatment that
+might save his life, avoid endangerment of the other personnel in his unit and accomplish the combat
+mission. Based on unalterable requirements of the military field commander, it is not an option to excuse a non-consenting soldier from the military mission, nor would it be defensible militarily—or ethically—to send the soldier unprotected into danger.
+Military Medical Ethics, Volume 1
+362
+To those familiar with military command requirements, this is, of course, elementary. It is also very
+solidly established in law through a number of Supreme Court cases establishing that special military
+exigencies sometimes must supersede normal rights and procedures that apply in the civilian community. Consistent with this, long-standing military regulations state that military members may be required to submit to medical care determined necessary to preserve life, alleviate suffering or protect the
+health of others.
+Such special military authority carries with it special responsibility for the well-being of the military
+personnel involved. Thus, we propose specific procedural limitations on the “not feasible” waiver of
+informed consent based on military combat exigencies. We propose that decisions on waiving informed
+consent be made on a case-by-case basis by the Commissioner, assuring an objective review outside of
+military channels of all pertinent information and an independent validation of the special circumstances
+presented. Further, we propose the following specific limitations: (1) That drug-by-drug requests for
+waiver be accompanied by written justification based on the intended uses and the military circumstances involved; (2) that no satisfactory alternative treatment is available; (3) that available safety and
+efficacy data support the proposed use of the drug or biologic product; (4) that each such request be
+approved by the applicable DoD Institutional Review Board; and (5) that the waivers be time-limited.
+To recap, we have nothing exotic in the works. We are methodically planning for a range of medical
+treatment contingencies in Operation Desert Shield corresponding to the predictable medical problems
+that might arise. Some of these contingencies require the availability of products now under IND protocols. For products that will be in the best interests of the patients, military combat exigencies may justify
+deeming it not feasible to obtain informed consent. FDA’s regulation should provide the mechanism,
+subject to appropriate limitations, for DoD to request on a drug-by-drug basis, and the Commissioner to
+decide, that a waiver be granted in cases in which it is established that military combat exigencies make
+that necessary.
+Your cooperation and assistance in this regard is appreciated.
+Thus, at the request of the Department of Defense (DoD), the Food and Drug Administration (FDA)
+instituted rule 23(d) (the second of the three documents) on 21 December 1990, as a subpart of Section
+50. 23—Exception from general requirements. 2
+The major stipulations of the rule are:
+(d)(1) Under 10 U.S.C. 1107(f) the President may waive the prior consent requirement for the administration of an investigational new drug to a member of the armed forces in connection with the
+member’s participation in a particular military operation. The statute specifies that only the President may waive informed consent in this connection and the President may grant such a waiver
+only if the President determines in writing that obtaining consent: is not feasible; is contrary to the
+best interests of the military member; or is not in the interests of national security. The statute further provides that in making a determination to waive prior informed consent on the ground that it
+is not feasible or the ground that it is contrary to the best interests of the military members involved, the President shall apply the standards and criteria that are set forth in the relevant FDA
+regulations for a waiver of the prior informed consent requirements of section 505(i)(4) of the Federal Food, Drug, and Cosmetic Act (21 U.S.C. 355(i)(4)). Before such a determination may be made
+that obtaining informed consent from military personnel prior to the use of an investigational drug
+(including an antibiotic or biological product) in a specific protocol under an investigational new
+drug application (IND) sponsored by the Department of Defense (DoD) and limited to specific military personnel involved in a particular military operation is not feasible or is contrary to the best
+interests of the military members involved the Secretary of Defense must first request such a determination from the President, and certify and document to the President that the following standards and criteria contained in paragraphs (d)(1) through (d)(4) of this section have been met.
+(i) The extent and strength of evidence of the safety and effectiveness of the investigational new
+drug in relation to the medical risk that could be encountered during the military operation supports the drug’s administration under an IND.
+(ii) The military operation presents a substantial risk that military personnel may be subject to a
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+363
+chemical, biological, nuclear, or other exposure likely to produce death or serious or life-threatening injury or illness.
+(iii) There is no available satisfactory alternative therapeutic or preventive treatment in relation
+to the intended use of the investigational new drug.
+(iv) Conditioning use of the investigational new drug on the voluntary participation of each
+member could significantly risk the safety and health of any individual member who would
+decline its use, the safety of other military personnel, and the accomplishment of the military
+mission.
+(v) A duly constituted institutional review board (IRB) established and operated in accordance
+with the requirements of paragraphs (d)(2) and (d)(3) of this section, responsible for review of
+the study, has reviewed and approved the investigational new drug protocol and the administration of the investigational new drug without informed consent. DoD’s request is to include the
+documentation required by Sec. 56. 115(a)(2) of this chapter.
+(vi) DoD has explained:
+(A) The context in which the investigational drug will be administered, e.g., the setting or
+whether it will be self-administered or it will be administered by a health professional;
+(B) The nature of the disease or condition for which the preventive or therapeutic treatment is
+intended; and
+(C) To the extent there are existing data or information available, information on conditions
+that could alter the effects of the investigational drug.
+(vii) DoD’s recordkeeping system is capable of tracking and will be used to track the proposed
+treatment from supplier to the individual recipient.
+(viii) Each member involved in the military operation will be given, prior to the administration
+of the investigational new drug, a specific written information sheet (including information required
+by 10 U.S.C. 1107(d)) concerning the investigational new drug, the risks and benefits of its use,
+potential side effects, and other pertinent information about the appropriate use of the product.
+(ix) Medical records of members involved in the military operation will accurately document the
+receipt by members of the notification required by paragraph (d)(1)(viii) of this section.
+(x) Medical records of members involved in the military operation will accurately document the
+receipt by members of any investigational new drugs in accordance with FDA regulations including part 312 of this chapter.
+(xi) DoD will provide adequate followup to assess whether there are beneficial or adverse health
+consequences that result from the use of the investigational product.
+(xii) DoD is pursuing drug development, including a time line, and marketing approval with
+due diligence.
+(xiii) FDA has concluded that the investigational new drug protocol may proceed subject to a
+decision by the President on the informed consent waiver request.
+(xiv) DoD will provide training to the appropriate medical personnel and potential recipients on
+the specific investigational new drug to be administered prior to its use.
+(xv) DoD has stated and justified the time period for which the waiver is needed, not to exceed
+one year, unless separately renewed under these standards and criteria.
+Military Medical Ethics, Volume 1
+364
+(xvi) DoD shall have a continuing obligation to report to the FDA and to the President any changed
+circumstances relating to these standards and criteria (including the time period referred to in
+paragraph (d)(1)(xv) of this section) or that otherwise might affect the determination to use an
+investigational new drug without informed consent.
+(xvii) DoD is to provide public notice as soon as practicable and consistent with classification
+requirements through notice in the Federal Register describing each waiver of informed consent
+determination, a summary of the most updated scientific information on the products used, and
+other pertinent information.
+(xviii) Use of the investigational drug without informed consent otherwise conforms with applicable law.
+(2) The duly constituted institutional review board, described in paragraph (d)(1)(v) of this section,
+must include at least 3 nonaffiliated members who shall not be employees or officers of the Federal
+Government (other than for purposes of membership on the IRB) and shall be required to obtain
+any necessary security clearances. This IRB shall review the proposed IND protocol at a convened
+meeting at which a majority of the members are present including at least one member whose primary concerns are in nonscientific areas and, if feasible, including a majority of the nonaffiliated
+members. The information required by Sec. 56. 115(a)(2) of this chapter is to be provided to the Secretary of Defense for further review.
+(3) The duly constituted institutional review board, described in paragraph (d)(1)(v) of this section,
+must review and approve:
+(i) The required information sheet;
+(ii) The adequacy of the plan to disseminate information, including distribution of the information sheet to potential recipients, on the investigational product (e.g., in forms other than written);
+(iii) The adequacy of the information and plans for its dissemination to health care providers,
+including potential side effects, contraindications, potential interactions, and other pertinent considerations; and
+(iv) An informed consent form as required by part 50 of this chapter, in those circumstances in
+which DoD determines that informed consent may be obtained from some or all personnel involved.
+(4) DoD is to submit to FDA summaries of institutional review board meetings at which the proposed protocol has been reviewed.
+(5) Nothing in these criteria or standards is intended to preempt or limit FDA’s and DoD’s authority
+or obligations under applicable statutes and regulations.
+In 1999, President Clinton signed Executive Order No. 13139 (the third of the three documents), Improving Health Protection of Military Personnel Participating in Particular Military Operations,3 to address what
+was seen as an ongoing military threat requiring preventive medical efforts. The text of the order is as
+follows:
+30 September 1999
+By the Authority vested in me as President by the Constitution and the laws of the United States of
+America, including section 1107 of title 10, United States Code, and in order to provide the best
+health protection to military personnel participating in particular military operations, it is hereby
+ordered as follows:
+Section 1. Policy. Military personnel deployed in particular military operations could potentially be
+Mixed Agency in Military Medicine: Ethical Roles in Conflict
+365
+exposed to a range of chemical, biological, and radiological weapons as well as diseases endemic to
+an area of operations. It is the policy of the United States Government to provide our military personnel with safe and effective vaccines, antidotes, and treatments that will negate or minimize the
+effects of these health threats.
+Sec. 2. Administration of Investigational New Drugs to Members of the Armed Forces.
+(a) The Secretary of Defense (Secretary) shall collect intelligence on potential health threats that
+might be encountered in an area of operations. The Secretary shall work together with the Secretary of Health and Human Services to ensure appropriate countermeasures are developed. When
+the Secretary considers an investigational new drug or a drug unapproved for its intended use
+(investigational drug) to represent the most appropriate countermeasure, it shall be studied
+through scientifically based research and development protocols to determine whether it is safe
+and effective for its intended use.
+(b) it is the expectation that the United States Government will administer products approved
+for their intended use by the Food and Drug Administration (FDA).
+REFERENCES
+1.
+Mendez E Jr, Assistant Secretary of Defense (Health Affairs). Letter to Mason JO, Assistant Secretary for Health,
+Department of Health and Human Services, 30 October 1990. 55 Federal Register 52814 (1990).
+2.
+US Food and Drug Administration. Protection of Human Subjects: Guidance for Institutional Review Boards and
+Clinical Investigators. Information Sheets. 1998 Update. Washington, DC: US FDA;1999: Appendix B: 21 CFR Part
+50. Available at: http://www.fda.gov/oc/ohrt/irbs/appendixb.html. Accessed 7 September 2001.
+3.
+Clinton WJ. Executive Order No. 13139: Improving Health Protection of Military Personnel Participating in Particular
+Military Operations. Washington DC: The White House; 30 September 1999. Available at: http://
+www.denix.osd.mil/denix/Public/Legislation/EO/note54.html. Accessed 7 September 2001.
+Military Medical Ethics, Volume 1
+366

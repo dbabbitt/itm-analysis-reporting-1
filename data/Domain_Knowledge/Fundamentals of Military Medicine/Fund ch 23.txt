@@ -1,0 +1,1613 @@
+325
+Environmental Extremes: Alternobaric
+Chapter 23
+ENVIRONMENTAL EXTREMES: 
+ALTERNOBARIC
+RICHARD A. SCHEURING, DO, MS*; WILLIAM RAINEY JOHNSON, MD†; GEOFFREY E. CIARLONE, PhD‡; DAVID 
+KEYSER, PhD§; NAILI CHEN, DO, MPH, MASc¥; and FRANCIS G. O’CONNOR, MD, MPH¶
+INTRODUCTION
+DEFINITIONS
+MILITARY HISTORY AND EPIDEMIOLOGY
+Altitude
+Aviation 
+Undersea Operations
+MILITARY APPLIED PHYSIOLOGY
+Altitude
+Aviation 
+Undersea Operations
+HUMAN PERFORMANCE OPTIMIZATION STRATEGIES FOR EXTREME 
+ENVIRONMENTS
+Altitude
+Aviation 
+Undersea Operations
+ONLINE RESOURCES FOR ALTERNOBARIC ENVIRONMENTS
+SUMMARY
+*Colonel, Medical Corps, US Army Reserve; Associate Professor, Military and Emergency Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+†Lieutenant, Medical Corps, US Navy; Undersea Medical Officer, Undersea Medicine Department, Naval Medical Research Center, Silver Spring, Maryland
+‡Lieutenant, Medical Service Corps, US Navy; Research Physiologist, Undersea Medicine Department, Naval Medical Research Center, Silver Spring, 
+Maryland
+§Program Director, Traumatic Injury Research Program; Assistant Professor, Military and Emergency Medicine, Uniformed Services University of the 
+Health Sciences, Bethesda, Maryland
+¥Colonel, Medical Corps, US Air Force; Assistant Professor, Military and Emergency Medicine, Uniformed Services University of the Health Sciences, 
+Bethesda, Maryland
+¶Colonel (Retired), Medical Corps, US Army; Professor and former Department Chair, Military and Emergency Medicine, Uniformed Services University 
+of the Health Sciences, Bethesda, Maryland
+326
+Fundamentals of Military Medicine
+INTRODUCTION
+Service members on the modern-day battlefield 
+confront a variety of environmental challenges, 
+particularly since the emergence of unconventional, 
+asymmetric, and hybrid warfare. Knowledge of the 
+environmental challenges confronting fighters, and 
+strategies to mitigate against stressors that degrade 
+optimal performance and provide advantages against 
+enemy combatants are essential for the military medical officer (MMO). This chapter focuses on pressure 
+extremes as applied to today’s combat environment, 
+at elevated altitudes, in aviation, and in undersea 
+operations. The general term for alterations in ambient pressure is “alternobaric.” This chapter focuses 
+on enabling the MMO to understand the alternobaric 
+environment and take measures to enhance service 
+members’ performance in alternobaric environments. 
+Specifically discussed are core definitions applied to 
+alternobarics, relevant military history and epidemiology, applicable applied physiology, and detailed 
+prevention strategies. Specific guidance and resources 
+are provided to assist the MMO in the identification 
+and prevention of alternobaric stress.
+TABLE 23-1 
+ALTERNOBARIC APPLIED PHYSIOLOGY TERMINOLOGY 
+Term
+Definition
+Absolute pressure
+Total static pressure at the reference point; pressure relative to a vacuum.
+Altitude diving
+Diving at a location where the water surface is at an altitude that requires modification of decompression schedules (higher than about 300 m/980 ft above sea level).
+Ambient pressure
+Pressure of the environmental surroundings.
+Ascent rate
+Rate at which depth is reduced at the end of a dive; an important component of decompression.
+ata
+Atmospheres absolute; unit of absolute pressure equivalent to standard atmospheric pressure. 
+1 ata = 1 bar = 760 mm Hg = 14. 7 psi = weight of the atmosphere.
+Bottom time
+Time used in calculating decompression obligation from decompression tables. For most tables, this 
+is defined as the elapsed time from starting the descent to starting the final ascent to the surface, 
+excluding ascent and decompression time.
+Boyle’s law
+At a constant temperature, the pressure (P) of a gas and its volume (V) are inversely related:
+P1V1=P2V2
+Clinically, a trapped gas in the body will expand as altitude increases because there is less pressure 
+on it from the ambient atmosphere, or alternatively contract when altitude decreases or if taken to 
+a depth underwater.
+Charles’s law
+At a constant pressure and mass, the temperature and volume of a gas vary directly. This is important in air MEDEVAC operations where air-filled devices, eg, endotracheal cuffs, air splints, and 
+pneumatic anti-shock garments (PASGs), which are not rigid, will expand or contract as the ambient temperature increases or decreases.
+DEFINITIONS
+Tables 23-1 and 23-2 define common terms related 
+to alternobaric (altitude, flight, and undersea) environmental challenges that may confront service 
+members. First, basic and specific applied physiologic definitions are provided to assist the MMO 
+in interpreting relevant literature and military 
+policies. These definitions are followed by terms 
+associated with common medical conditions and 
+injuries in each environment. The MMO must have 
+a clear understanding of all related terminology to 
+interpret relevant literature and ultimately optimize warfighter performance through education, 
+preparation, and anticipation of outcomes due to 
+alternobarics.
+(Table 23-1 continues)
+327
+Environmental Extremes: Alternobaric
+Dalton’s law
+The pressure of a gas mixture is equal to the sum of the partial pressures of the component gasses: 
+P = P1 + P2 + P3 + Pn…
+Related to human physiology, as the atmospheric pressure increases or decreases, the partial pressure of oxygen correspondingly increases or decreases even though the percentage remains constant. Clinically, oxygen toxicity can occur in diving operations or hypoxia at altitude.
+Decompression 
+tables
+Printed cards or booklets that allow divers to determine a decompression schedule for a particular 
+dive profile and breathing gas.
+Divers Alert Network (DAN)
+A nonprofit organization that conducts medical research on recreational scuba diving safety and 
+assists divers in need.
+Dive profile
+The variation of depth with elapsed time during a dive, often depicted as a graph.
+FSW
+Feet of sea water; unit of pressure equal to 1/33 atm. Not a linear measure of depth.
+Gauge pressure
+Gauge pressure is zero-referenced against ambient air pressure, so it is equal to absolute pressure 
+minus atmospheric pressure.
+HBO
+Hyperbaric oxygen 
+Heliox
+Mixtures of helium and oxygen for use as a breathing gas, used most commonly in deep sea commercial diving. The exact mixture of He and O2 varies with the type of operation.
+Henry’s law
+The amount of gas dissolved in a solution varies directly with the partial pressure of the gas over 
+that solution. This relationship is the basis for decompression sickness, ie, taking a diver to altitude 
+following a dive too quickly can cause dissolved nitrogen in the blood to form gas bubbles that are 
+released from that solution into surrounding tissues.
+High altitude
+Altitude above sea level (ASL) can be broken down into the following categories based on physiologic impacts:
+Low: sea level to 1,200 m/3,937 ft
+Moderate: 1,200 m/3,937 ft to 2,400 m/7,874 ft
+High: 2,400 m/7,874 ft to 4,000 m/13,123 ft
+Very high: 4,000 m/13,123 ft to 5,500 m/18,046 ft
+Extreme: higher than 5,500 m/18,046 ft
+Hooka (airline 
+diving)
+Surface-supplied diving in which the breathing air is supplied to the diver by a simple hose. The 
+diver usually breathes through a mouth-held demand valve.
+NEDU
+US Navy Experimental Diving Unit, located in Panama City, FL.
+Nitrox
+A mixture of nitrogen and oxygen for use as breathing gas, also known as enriched air. Usually has 
+a higher oxygen percentage than air.
+NOAA
+National Oceanographic and Atmospheric Administration
+Off-gassing
+Diffusion of gas from tissue into blood, where it is transported to the lungs, where it diffuses into 
+the lung gas and is eliminated by exhalation.
+Oxygen fraction
+Fraction by volume or pressure of the gas mixture made up by oxygen.
+Partial pressure
+The pressure that a component gas of a gas mixture would exert if it alone was present in the volume occupied by the gas mixture.
+Rebreather 
+Breathing apparatus used by special forces that recycles most of the exhaled gas, removing carbon 
+dioxide and topping up oxygen before the gas is breathed again. 
+Recompression 
+chamber
+A hyperbaric chamber used to treat divers suffering from certain diving disorders, such as DCS.
+Trimix
+Mixture of three gases, oxygen, nitrogen, and helium, for breathing. The gas fractions are usually 
+specified during deep sea commercial diving.
+UHMS
+Undersea and Hyperbaric Medical Society
+Valsalva 
+maneuver
+Technique for equalizing the middle ear by moderately forceful attempted exhalation against a 
+closed mouth and blocked nose.
+Table 23-1 continued
+328
+Fundamentals of Military Medicine
+TABLE 23-2 
+ALTERNOBARIC INJURY TERMINOLOGY
+Term
+Definition
+AGE
+Arterial gas embolism; blockage of an artery by a gas bubble. A possible consequence of lung 
+overpressure injury.
+Alternobaric vertigo
+Dizziness caused by a difference of pressure between the middle ears.
+AMS
+Acute mountain sickness; a sickness and/or symptoms derived from climbing high altitudes, 
+typically above 2,438 m/8,000 ft above sea level. 
+Barotrauma 
+(“squeeze”)
+Injury caused by pressure difference, eg, increased pressure to the middle ear while the pressure 
+of the auditory canal is at a lower pressure; the higher pressure causes tension and injuries to 
+the tympanic membrane.
+Bends (type I DCS)
+A symptom of decompression sickness following exposure to a hypobaric pressure environment, 
+when nitrogen bubble formation in the musculoskeletal tissues results in joint or limb pain. The 
+joint pain may involve single or multiple joints and resolves with hyperbaric pressure exposure. 
+Type I DCS presents as severe single or multiple joint pain (the “bends”) or pruritic rash (the 
+“creeps”).
+Chokes (type II DCS)
+A symptom of decompression sickness manifested by shortness of breath, caused by a large 
+number of venous gas bubbles in the lung capillaries, which interfere with gas exchange. Type 
+II DCS is a potentially life-threatening condition involving cardio-respiratory compromise (the 
+“chokes”) or neurological deficits.
+DCI/DCS
+Decompression illness/sickness; a condition arising from dissolved inert gases (eg, nitrogen) 
+emerging from solution after a reduction in ambient pressure as bubbles in the tissues, organs, 
+and blood vessels. In addition to types I and II, a type III DCS has been proposed combining 
+AGE with DCS neurological symptoms.
+HACE
+High altitude cerebral edema; involves clinical symptoms and pathological injury to the brain 
+during climbing to high altitude. The brain swells with fluid, with the clinical hallmark of 
+ataxia.
+HAPE
+High altitude pulmonary edema, involves clinical symptoms and pathological injury to the lung 
+during climbing to high altitude. It is a life-threatening, noncardiogenic pulmonary edema 
+presenting with cough and dyspnea.
+HPNS
+High-pressure nervous syndrome, a neurologic and physiologic diving disorder that results 
+when a diver descends below about 150 m/500 ft while breathing a helium–oxygen mixture.
+Hypobaric hypoxia
+Usually associated with increasing altitude above sea level and decreased barometric pressure; 
+consequently, there is inadequate oxygen partial pressure to supply oxygen for body tissues, 
+whether in quantity or molecular concentration. The result is altered biochemical reactions leading to functional impairment.
+Nitrogen narcosis
+Also known as narcs, inert gas narcosis, raptures of the deep, martini effect; a reversible alteration in consciousness that occurs while breathing gases containing nitrogen under elevated 
+partial pressure, similar to alcohol intoxication or nitrous oxide inhalation. Can occur during 
+shallow dives, but usually does not become noticeable until greater depths, below 30 m.
+Oxygen toxicity
+A condition resulting from the harmful effects of breathing molecular oxygen at elevated partial 
+pressures.
+Shallow water blackout
+A loss of consciousness caused by cerebral hypoxia toward the end of a breath-hold dive in water 
+typically shallower than 16 ft/5 m, when the swimmer does not necessarily experience an urgent 
+need to breathe and has no other obvious medical condition that might have caused it.
+VENTID-C
+Acronym for oxygen toxicity symptoms: Vision-tunnel, Ears-ringing, Nausea, Twitching, Irritability, Dizziness, Convulsions.
+329
+Environmental Extremes: Alternobaric
+MILITARY HISTORY AND EPIDEMIOLOGY
+Altitude 
+“A general who allows himself to be decisively defeated 
+in an extended mountain position deserves to be courtmartialed.”
+ 
+—Carl von Clausewitz1
+Warfare at elevated altitudes has played a major 
+role in recorded military history, as evidenced by the 
+high-altitude engagements fought in Africa, Asia, and 
+South America over the last few centuries. Victory or 
+defeat usually went to the military units that were 
+either well- or ill-prepared for altitude operations, respectively. Early in World War I, the Austro-Hungarian 
+Empire recognized the strategic importance of the 
+Carpathian Mountains (2,655 m/8,711 ft), but failed to 
+appreciate the physiologic impacts of high altitude exposure on troops’ performance. General Franz Conrad 
+von Hotzendorf planned and strategized for a short, 
+surprise campaign to take the Carpathian Mountains 
+from the Russians in a high altitude operation. Most 
+of his troops were accustomed to operating at lower 
+altitudes, whereas the Russian troops were accustomed 
+to elevated climate and terrain. Curiously, Conrad 
+made no plans for acclimating, equipping, or training 
+his troops in mountain warfare. Three separate campaigns were fought and lost to the Russians during the 
+winter of 1915, due in part to the lack of preparation 
+for operations at elevated altitudes. 
+More recently, US troops engaged in battles with 
+Taliban fighters in the Afghanistan Hindu-Kush region 
+(elevations above 3,000 m/9,842 ft). One notable battle 
+occurred in the Shok Valley in Nuristan Province in 
+April 2008. 2 Fifteen US Special Forces soldiers and 
+airmen from the Operational Attachment-A (ODA) 
+3336, 3rd Special Forces Group, and 100 Afghan commandos from the 1st Company, 201st Commando 
+Battalion, Afghan National Army (ANA), fought 
+approximately 200 Hezb-e-Islami Gulbuddin (HIG) 
+forces. The following quote from one of the US ground 
+force combat air controllers, Senior Airman Zachary 
+J. Rhyner, highlights the environmental challenges 
+facing warfighters and the MMOs who support them 
+in high altitude terrain: 
+Initial infiltration began [at altitude] . . . with snow on 
+the ground, jagged rocks, a fast-moving river and a 
+cliff. There was a 5-foot wall you had to pull yourself 
+up. The ridgeline trail was out of control. 3
+The US/ANA forces trained and acclimated in this 
+environment for weeks in preparation for this mission, which lasted nearly 7 hours (Figure 23-1). They 
+sustained four wounded US and two fatally injured 
+ANA soldiers, versus 150 to 200 HIG fighters killed 
+in action. 
+These examples show that troops engaged in 
+mountain operations must be physically acclimated 
+to higher altitudes in addition to having the special 
+training and equipment required for challenging terrain and weather. 4 Generally regarded as altitudes 
+above 2,438 m/8,000 ft, the mountain environment 
+poses many challenges to combat personnel: reduced 
+barometric pressure resulting in decreased partial 
+pressure of oxygen, frequently cold and unpredictable 
+weather, intense solar and ultraviolet radiation, dry 
+conditions that cause insensible fluid loss leading to 
+dehydration, and lack of natural resources. 5 Undulating, narrow, and wooded terrain often makes resupply 
+and transport of artillery difficult, if not impossible. 
+Conventional rotary-wing air support above 3,962 
+m/13,000 ft is not reliable due to the inability of rotor 
+blades to create sufficient lift in the rarified air. 
+The epidemiology of altitude-related injuries during 
+combat operations, such as acute mountain sickness 
+(AMS), high altitude cerebral edema (HACE), and 
+high altitude pulmonary edema (HAPE), is not well 
+defined. Slow acclimation to the altitude is the best way 
+to mitigate these injuries. Noncombat-related orthopedic injuries related to hazardous terrain and thermal 
+injuries from environmental exposure are documented 
+Figure 23-1. Members of Operational Detachment Alpha 
+(ODA) 3336 of the 3rd Special Forces Group recon the remote 
+Shok Valley of Afghanistan, where they fought an almost 
+7-hour battle with insurgents in a remote mountainside village, 2008. US Army photo by SPC David N. Gunn. 
+Reproduced from: https://commons.wikimedia.org/wiki/
+File:Zachary_Rhyner_and_Army_SF_in_Shok_Valley.jpg.
+330
+Fundamentals of Military Medicine
+in anecdotal reports. The mechanisms for these injuries 
+are understood and taken into account when planning 
+operations in mountainous terrain. 6 
+ 
+Aviation 
+Advances in hot air balloon technology and operations were pioneered in the early 1800s. During this 
+time frame, French physiologist Dr Claude Bernard led 
+initial efforts to understand the physiologic changes 
+occurring during high altitude exposure. One of his 
+students, Dr Paul Bert, wrote a treatise titled “Barometric Pressure: Researches in Experimental Physiology,”7 
+which contributed to the understanding of oxygen 
+toxicity (termed the “Paul Bert effect”) with changes 
+in barometric pressure. Bert went on to elucidate the 
+root causes of altitude sickness, oxygen toxicity, and 
+decompression illness. In France, hot air balloons were 
+used extensively for ground observation and terrain 
+analysis for military purposes throughout the 19th 
+century, but limited maneuverability and technical 
+challenges prohibited widespread use of these aircraft 
+for combat operations. 
+The tactical advantages of utilizing powered 
+heavier-than-air aircraft in support of military ground 
+operations were realized soon after Wilbur and Orville 
+Wright designed, tested, and flew the original Wright 
+Flyer in December 1903. The US Army initially funded 
+the Wright brothers’ early studies at Hoffman Prairie, 
+what is now Wright Patterson Air Force Base in Dayton, Ohio. 8 In 1908, the Army accepted the technology 
+designed by the Dayton natives, and began flight testing and training with the fledgling Army Air Corps. 
+The same year, the US Army had it first aviation casualty, First Lieutenant Thomas Selfridge, who died in 
+an air crash while on a test flight with Orville Wright 
+at Ft Myer, Virginia (Figure 23-2). 
+The following year lieutenants Frederic E. Humphrey and Frank P. Lahm completed their solo flights 
+and became the first Army pilots. Subsequently, serious interest in aviation and human performance led 
+to the Army’s formal recognition of aviation medicine. 
+In 1911, a medical officer, Lieutenant John P. Kelly, 
+became the Army’s first medical officer assigned to a 
+flight school for aeromedical support. The following 
+year, the US War Department formally adopted aviation medical standards. In 1914, Congress created an 
+aviation section within the Army Signal Corps, and by 
+1916, Army pilots and planes were used as scouting 
+aircrafts, some 13 years after the Wright brothers’ first 
+flight. The same year, Major Ralph Greene was the first 
+medical officer placed on flying orders, becoming the 
+first “flight surgeon.”
+Following World War I, the War Department fully 
+realized the potential of airpower when Brigadier 
+General Billy Mitchell and his aircrew sank the German battleship Ostfriedland in July 1921. Since then, the 
+airplane has been transformed from a simple propeller 
+aircraft to a high-performance jet aircraft utilized for 
+reconnaissance and bombing missions. Rotary-wing 
+aircraft, or helicopters, also rapidly advanced, from 
+simple, twin rotor-blade configurations, with limited 
+speed and carrying capacity, to robust, turbo-powered 
+multiple rotor-blade aircraft with airspeeds in the mid100-knot range and thousands of pounds of payload 
+carriage. Tactically, helicopters today are used as utility aircraft for troop and cargo transport, aeromedical 
+evacuation (MEDEVAC), observation, and, equipped 
+with high-precision munitions, in attack configurations (Figure 23-3).
+Undersea Operations
+For more than 5,000 years, humans have been diving for the purposes of gathering food and materials, 
+conducting salvage and covert military operations, 
+and exploration, research, and development. 9 Initially, 
+diving was confined to shallow waters and limited by 
+the capacity of humans to breath-hold. While human 
+biological shortcomings have not changed, research 
+has increased the understanding of undersea conditions and led to technological advancements, enabling 
+us to descend deeper, for prolonged periods of time. 
+There remains much to learn about the ocean depths, 
+and continued exploration, research, and development 
+are essential for maintaining warfighter superiority in 
+the undersea environment. Because humans are not 
+Figure 23-2. The first aviation-related fatality, First Lieutenant Tom Selfridge at Ft Myer Field, Virginia, on September 
+17, 1908. He and Orville Wright crashed in a Wright Flyer 
+from approximately 150 ft above sea level. 
+Photo courtesy of the National Museum of Health and Medicine; Otis Historical Archives 233. 05, Medical Illustration 
+Service Library, Photo ID: MIS 63-720-15. 
+331
+Environmental Extremes: Alternobaric
+aquatic mammals, an understanding of the forms of 
+diving and associated equipment is a prerequisite to 
+learning how the body responds to submersion and 
+the complications that can arise during diving operations. There are three forms of diving: breath-hold 
+(free-diving), surface-supplied, and self-contained 
+underwater breathing apparatus (SCUBA). 
+Surface-supplied diving involves the delivery of 
+air or gas mixtures from the surface to the submerged 
+diver via a tube or hose. In fact, snorkeling is classified 
+as surface-supplied diving despite its simplicity. In the 
+16th century, with motivations to dive deeper, surface 
+air was brought beneath the surface with diving bells. 
+These were large, weighted, bell-shaped apparatuses 
+with open bottoms that would trap air inside during submergence for the divers to breathe. In 1690, 
+Edmund Halley enhanced diving bell technology by 
+introducing an air recycling method to increase dive 
+duration. 9,10 Well into the 20th century, diving bells 
+were still used for undersea operations, particularly 
+for construction and submarine rescue. 10
+A similar technology was used in the 19th century to 
+construct caissons, permanent underwater structures 
+that recycle air delivered from the surface through 
+high- capacity pumps. Caissons were used for excavating bridges and forming tunnels. A notable use of caissons was during the building of the Brooklyn Bridge, 
+which led to the first identification of mass decompression sickness (DCS). Originally called caisson disease, 
+the condition became evident when construction 
+workers who felt normal during their subterranean/
+subaquatic shifts developed sharp pains or dizziness 
+when leaving the caisson upon returning to the surface. 
+Many of the workers developed a “bent” appearance 
+due to their joint pains and, possibly, muscle weakness. From these presentations, the disease became 
+more commonly known as “the bends.” In 1878, Paul 
+Bert determined the cause to be inert gas (eg, nitrogen) 
+and pressure changes (from high to low). His research 
+led to recommendations for slower decompression 
+rates and the development of hyperbaric chambers 
+for preventing and treating DCS. 9,11,12 
+Although diving bells and caissons improved 
+diving capabilities and construction efforts, divers’ 
+maneuverability remained limited. This changed in 
+1839 when Augustus Siebe, a German-born English 
+engineer, developed the first practical diving dress, 
+which consisted of a helmet, suit, and surface-supplied 
+air hose, paving the way for the US Navy’s Mark V and 
+Kirby Morgan 37 helmets.
+SCUBA diving requires divers to carry their gas 
+supply. Two types of SCUBA are used today: opencircuit and closed-circuit. In open-circuit SCUBA, the 
+diver inhales gas from a tank and exhales gas into the 
+atmosphere, whereas in closed-circuit SCUBA, the 
+diver’s gas is recycled, eliminating exhaled bubbles 
+and rendering the diver undetectable from the surface 
+(Figure 23-4). The use of closed circuits began in the 
+late 19th century; however, these systems were chalFigure 23-3. (a) Utility helicopter (UH-60) Black Hawk. A US 
+Army UH-60 Black Hawk helicopter prepares to land during a medical evacuation (MEDEVAC) drill for a notionally 
+injured soldier during a Table XII Live Fire Exercise, Novo 
+Selo Training Area, Bulgaria, August 23, 2018. This exercise is 
+in support of Atlantic Resolve, an enduring training exercise 
+between NATO and US forces. US Army National Guard 
+photo by Sgt. Jamar Marcel Pugh, 382nd Public Affairs 
+Detachment/1st ABCT, 1st CD/Released. 
+Reproduced from: https://www.dvidshub.net/
+image/4671108/1-cav-table-xii-gunnery/. 
+Figure 23-3. (b) Attack helicopter (AH-64) Apache. A US 
+Army Apache helicopter with D Company, 1st Battalion, 3rd 
+Aviation Regiment (Attack Reconnaissance) returns from a 
+maintenance test flight August 17, 2018, at Katterbach Army 
+Airfield in Ansbach, Germany. US Army photo by Charles 
+Rosemond.
+Reproduced from: https://www.dvidshub.net/
+image/4660413/ah-64-apache-helicopter-maintenance-testflight.
+332
+Fundamentals of Military Medicine
+Figure 23-4. Navy diver using “closed-circuit” rebreather 
+device for undersea operations. The air tank is considerably 
+smaller and more efficient for breathing air than conventional 
+open-circuit air tanks and produces few air bubbles to the 
+surface. The sailor, assigned to Explosive Ordnance Disposal 
+Group One (EODGRU 1), during “mask up” of his MK-16 
+rebreathers while conducting an underwater demolition 
+training exercise off the coast of San Diego on May 25, 2017. 
+Navy EOD is the world’s premier combat force for countering explosive hazards and enabling freedom of movement 
+on land or at sea. US Navy Combat Camera Photo by Mass 
+Communication Specialist 2nd Class Dan Rolston/Released.
+Reproduced from: https://www.dvidshub.net/
+image/3439691/eod-training-unit-underwater-demolition. 
+lenging to use and had depth limitations. The depth 
+problem was overcome in the early 20th century with 
+the addition of compressed air tanks to the rig. 9,13,14 
+With this advancement, Jacques-Yves Cousteau and 
+Emile Gagnan developed the Aqua Lung in the 1940s, 
+which included an open-circuit SCUBA system and a 
+demand regulator that no longer required divers to 
+control their airflow. This rig became widely popular 
+due to its portability and functionality. 9 
+In 1957, Captain George F. Bond, a Navy diving 
+medical officer, theorized that there was a maximum 
+amount of inert gas the body could store at a given 
+depth (ie, saturation). His theory was corroborated 
+through a series of diving experiments conducted 
+during the 1960s. Based on the principles of gas 
+equilibrium, the quantity of gas that dissolves in liquid is proportional to the partial pressure of the gas 
+(Henry’s law). Upon saturation, the inert gas burden 
+cannot change because the gas gradient no longer exists. Because the inert gas burden is directly related 
+to decompression obligation (the amount of time 
+required to ascend from a given depth to minimize 
+the risk of DCS), a saturated diver’s decompression 
+obligation will not change. Thus, divers can work at a 
+given depth for days, weeks, or even months without 
+increasing their decompression time, significantly 
+reducing time to task completion. For example, oil 
+rig construction projects often span days to months. 
+A 40-hour task to be completed at 200 ft of seawater 
+(fsw) could be accomplished as a saturation dive or a 
+series of non-saturation dives. In the former, the divers 
+would work for 5 days at this depth and accrue 2 days 
+of decompression obligation. In a series of non-saturation dives, even on gas mixtures designed to prolong 
+bottom time and minimize decompression obligation, 
+the divers would reach exceptional exposure limits 
+after 45 minutes of diving and incur a decompression 
+obligation of approximately 3 hours. At this rate, more 
+than 40 days would be required to complete this job. 
+Thus, saturation diving offers significant advantages 
+when assignments are conducted over several days 
+to months. 9
+MILITARY APPLIED PHYSIOLOGY
+Human performance is compromised at depth and 
+at increased altitudes above sea level. Work efficiency 
+may be reduced at all extremes, and this must be considered in any altitude, flight, or undersea mission. 
+Understanding the basic principles of applied physiology that contribute to this performance decrement is 
+critical for the MMO, who is frequently called upon for 
+the proper interpretation of resources and guidelines 
+on environmental stress. Knowledge of physiology 
+enables the MMO to identify and modify those factors 
+that can be mitigated or leveraged for success in the 
+operational environment, and to promote prevention 
+by educating individual service members as well as 
+unit leaders.
+Altitude
+Physiologic alterations associated with altitude, 
+secondary to progressive hypobaric hypoxia, generally begin with ascent to altitudes greater than 2,438 
+m/8,000 ft above ground level. While the percentage 
+of oxygen (O2) in one liter of air (21%) does not change 
+at altitude, the partial pressure of O2 (Po2) declines 
+with increasing altitude, according to Dalton’s law 
+of partial pressures (Po2=PB × %O2). At sea level the 
+pressure barometric (PB) is approximately 760 mm 
+Hg, and the Po2 in atmospheric air is about 160 mm Hg 
+(760 mm Hg × 0. 21). At 5,800 m, PB is approximately 
+380 mm Hg, and the Po2 in atmospheric air is only 
+80 mm Hg (380 mm Hg × 0. 21). In addition to the decreasing Po2 with altitude, the arterial oxyhemoglobin 
+saturation (Sao2) begins to change dramatically at 
+altitudes over 2,400 m, as one enters the steep decline 
+333
+Environmental Extremes: Alternobaric
+on the hemoglobin O2-saturation curve, with resultant 
+dramatic changes in performance (Figure 23-5).
+The initial symptoms for the non-acclimatized individual include global headache, dizziness, nausea/
+vomiting, and anorexia; dehydration and alcohol can 
+intensify these effects. Rarely, these symptoms may 
+progress to unconsciousness due to a sudden exposure 
+to low oxygen partial pressure, although the exact 
+mechanism is not well understood. The aforementioned symptoms are secondary to a reduced oxygen 
+concentration, which stimulates a number of compensatory mechanisms. Principal among these processes 
+is the hypoxic ventilatory response. The carotid body 
+signals the central respiratory center to increase the 
+ventilation rate, in addition to a moderate increase in 
+blood pressure and heart rate. The decreased Pao2 also 
+leads to transient pulmonary hypertension, increased 
+fluid retention, and increased central blood volume. 
+The hyperventilation in turn leads to a respiratory 
+alkalosis, and a subsequent compensatory bicarbonate 
+diuresis. Renal bicarbonate excretion, in combination 
+with an increased 2,3-diphosphoglycerate production, 
+promotes O2 unloading from hemoglobin. With continued ascent, symptoms of AMS become apparent, 
+and limitations in physical stamina and concentration 
+have the biggest impacts on performance. 
+The MMO should educate service members and 
+leadership about the potential operational impacts of 
+conducting missions in the mountains: hypoxia’s role 
+in tasks requiring concentration, psychomotor skills, 
+and memory; degraded physical performance from 
+fatigue and exertion; and the medical conditions resulting from acute hypoxic exposures in unacclimatized 
+individuals. Taken together, these impacts on service 
+members are often the first enemy they encounter at 
+high altitude.
+As altitude elevation increases without proper 
+adaptation, cerebral hypoxia can lead to an increase 
+of cerebral blood volume and increased intracranial 
+pressure. Without corrective measures, the altered 
+cerebral physiology can lead to HACE. The individual 
+will develop a progressive neurologic deterioration 
+manifested as altered mental status, ataxia, and stupor, 
+progressively leading to coma and death. Similarly, 
+pulmonary hypertension and fluid retention in the 
+lungs can lead to HAPE. The clinical symptoms for 
+HAPE are dry cough with interstitial edema, dyspnea 
+on exertion, audible rales, observable cyanosis, and 
+marked weakness. 
+When HAPE or HACE develop, the individual must 
+descend immediately to the lowest altitude possible on 
+oxygen via a face mask. They should be transferred 
+to the nearest hyperbaric chamber for treatment if 
+symptoms do not improve. Operationally, descent to 
+altitude may not be practical or safe (alternatives to 
+descending altitude to increase hyperbaric exposure 
+are discussed below). 
+The effects of hypoxia on cognition and performance have been studied in military populations. 
+Krykskow et al studied the relationship between 
+changes in AMS severity and military task performance. 15 Non-acclimatized military personnel performed simple (disassemble and reassemble a rifle) 
+or complex (rifle marksmanship) tasks at various 
+altitudes between high (2,500 m/8,202 ft) and very 
+high (4,300 m/14,107 ft) altitudes to determine where 
+the threshold for performance decrements and clinical 
+symptoms existed. 15 Simple tasks were not significantly affected at high or very high altitudes. However, 
+significant reductions in marksmanship speed and 
+target accuracy were observed at very high altitudes. 
+The authors concluded that complex psychomotor 
+performance was degraded at very high altitudes due 
+to increased sleepiness and hypoxemia. Short periods 
+of acclimatization (<30 h) did not improve these skills, 
+suggesting that longer periods of acclimating to very 
+high altitudes are necessary to maintain complex performance proficiency. 
+The effects of high altitude (>3,700 m/12,139 ft) and 
+exercise on marksmanship were studied by Tharion et 
+al in the early 1990s. 16 The authors looked at several 
+variables related to exercise and hypoxia and subsequent time to acclimate to altitude. Exercise with acute 
+Figure 23-5. Scheme for categorizing altitude based on the 
+relationship between altitude and physiological and function 
+(work performance and altitude illness) outcomes. 
+Reproduced from: US Department of the Army. Altitude Acclimatization and Illness Management. Washington, DC: DA; 
+2010. Technical Bulletin, Medical, 505:12.
+334
+Fundamentals of Military Medicine
+ascent to altitude significantly reduced marksmanship 
+accuracy compared to sea level values. However, 
+after a period of rest and acclimation to hypoxia, 
+marksmanship accuracy and sighting time returned 
+to baseline. Consistent with these findings, in 2014 
+Moore and colleagues found both increasing altitude 
+and exercise significantly decreased marksmanship 
+(P < 0. 05). 17 They concluded that increasing altitude 
+impaired marksmanship, with a threshold at 3,000 
+to 4,000 m/9,842 to 13,123 ft. The decreased marksmanship was closely related to a decrease in arterial 
+oxygen saturation and increased ventilation; the latter 
+increased movement of the chest wall, which impacted 
+the shooter’s ability to steady their aim.
+Norris et al studied the development of high altitude 
+headache (HAH) and AMS at moderate elevations in 
+a military population during training exercises. 18 For 
+the purpose of their study, the authors defined moderate altitude as 1,500 m/4,921 ft to 2,500 m/8,202 ft and 
+high altitude as over 2,500 m/8,202 ft. Dehydration and 
+recent arrival at altitude were significantly associated 
+with the development of AMS. HAH was considered 
+to be associated in part to decreased sleep at altitude. 
+No reported cases of HACE or HAPE occurred in the 
+study’s 202 marines and sailors. The study suggested 
+that maintenance of hydration and adequate sleep 
+may reduce the likelihood and severity of HAH and 
+AMS occurrence. Additionally, the use of nonsteroidal 
+anti-inflammatory drugs (NSAIDs) seemed to reduce 
+the symptoms in affected individuals. 
+Aviation
+Aviation poses physiologic stressors similar to those 
+encountered in operations at altitude, related to the 
+hypoxic and hypobaric environment. However, the 
+challenge for the aircrew and the MMO is that flying 
+is a dynamic activity with multiple stressors occurring 
+rapidly and sometimes simultaneously, independent 
+of the low pressure and oxygen environment. Aircrews 
+are required to have recurrent hypobaric chamber 
+training for hypoxia awareness, and aeromedical specialists must understand human performance during 
+all phases of flight. MMOs must have a knowledge of 
+how acceleration (G forces), pressure and gas volume 
+changes related to Boyle’s law, thermal stress, vibration, noise, motion sickness, fatigue, and spatial disorientation all impact human performance during normal 
+flight operations. The risk of sudden cabin depressurization and resultant hypoxia adds to the complexity 
+of treating aviation-related conditions. Limitations on 
+crew duty day, medication and nutritional supplement use, and waivers for medical conditions are all 
+responsibilities of the aeromedical specialist. 
+The occupational exposure to repetitive high-g accelerations and chronic vibration are particular areas of 
+injury in which the flight surgeon must be well trained. 
+For example, operational aviation research has noted 
+a high rate of acute injury to muscle and ligament of 
+the cervical spine due to G-force exposure in fighter 
+pilots. 19 There is a higher incidence of cervical spine 
+degeneration among pilots who have been exposed to 
+G force versus those who have not. A meta analysis of 
+eight studies also found an increase in degenerative 
+spine diseases with repeated G-force exposure (P < 
+0. 001). 19 Spinal trauma from repetitive low-frequency 
+vibration exposure in rotary-wing aircraft has resulted 
+in significant cervical and lumber spine injury in Army 
+aviators. Aircraft type has been implicated as well in 
+lumbar spine pain. Pilots of utility (UH) and attack 
+(AH) helicopters, such as the UH-60 Black Hawk and 
+AH-64 Apache, have an increased likelihood of low 
+back pain compared to high-performance jet aircraft 
+pilots or the general population. 20–22
+In pressurized aircraft, the cabin “altitude” is a controlled environment. For jet aircraft, the cabin pressure, 
+or equivalent effective cabin altitude, is created by air that 
+is bled off the engine at the compressor stage, thermally 
+adjusted, filtered, and humidified. A balance is maintained between a pressure altitude that limits structural 
+fatigue on the aircraft fuselage and one that limits 
+the likelihood of physiologic impacts on passengers. 
+Aircraft operating above altitudes of 3,800 m/12,000 
+ft mean sea level (MSL) require differential pressure 
+regulation, which sets the cabin altitude between 2,100 
+m/6,900 ft and 2,400 m/8,000 ft MSL. Oxygenation in 
+healthy individuals at these altitudes is not an issue. 
+However, sudden and rapid cabin depressurization 
+results in tissue deoxygenation, and subsequent loss of 
+consciousness, unless supplemental oxygen is readily 
+available with simultaneous descent to lower altitude. 
+Slow cabin leaks are more subtle and may progress 
+without obvious notice. It is vitally important that the 
+MMO and aircrew know their individual response to 
+hypoxia and take corrective actions. Altitude chamber 
+training is the standard for assessing hypoxic response, 
+which varies by individual and includes tachycardia, 
+loss of color vision, facial flushing, tachypnea, a sensation of “air hunger,” and difficulty concentrating, 
+progressing to tunnel vision and loss of consciousness. 
+Transitions during aircraft take-off and landing, 
+when pressure and volume changes occur dynamically, pose the greatest threat to anatomic structures 
+that contain trapped gas, such as the middle ear, facial 
+sinuses, and lungs. MMOs must ensure that aircrew 
+can effectively equalize the pressure in their middle 
+ears (“clear their ears”) with a Valsalva maneuver to 
+reduce the risk of ear and sinus barotrauma. Observ335
+Environmental Extremes: Alternobaric
+ing the tympanic membranes for movement while 
+simultaneously having the individual blow against 
+pinched nostrils is a direct confirmation of ability to 
+equalize pressure. An ear or sinus block occurs when 
+trapped gas volume cannot be equalized during 
+pressure changes. The crewmember will complain of 
+sudden intense pain and discomfort in the middle ear 
+or sinuses that may impair the capacity to operate an 
+aircraft safely. Severe cases can create marked barotrauma with rupture of the tympanic membrane and 
+hearing loss. During most flight phases, descent from 
+altitude will result in increased pressure and decreased 
+gas volume. If the pressure cannot be equalized, the 
+trapped gas will result in a relative negative pressure 
+against the tympanic membrane or sinuses, causing 
+severe pain or possible rupture. In the lungs, trapped 
+air in the chest cavity from a small pneumothorax can 
+expand at altitude, potentially compromising pulmonary function. 
+Acceleration forces are a unique aspect of the operational aviation environment. Evasive maneuvers in 
+high-performance jet aircraft, such as pitch up or steep 
+banked turns, can subject aircrew to high acceleration 
+forces, or “pulling Gs.” One G is the gravitational 
+pull at 1 atmosphere at ground level. Since each level 
+of G is measured on a logarithmic scale, a person 
+experiencing 2 positive (+) Gs is likely to experience 2 
+times their own body weight. Jet fighter aviators and 
+astronauts often experience much higher levels of +G 
+force. Depending on the vehicle launch parameters, 
+an astronaut can experience up to 4 to 6 +Gs. Airmen 
+in a high-performance aircraft or in an acrobatic plane 
+can experience over 9 +Gs during an angular acceleration. In relative terms, this is like having nine or more 
+people sitting on top of their head. The direction of the 
+acceleration force vector on the body is another factor 
+impacting physiology. A +Gz vector is in the head-totoe direction; a +Gx vector is front to back; and a +Gy 
+load is experienced side to side. Of the three axial 
+planes of acceleration loading, the +Gz force has the 
+greatest performance impact on aircrew. 
+Physiologically, these acceleration forces primarily 
+affect the circulatory and pulmonary system of the 
+aircrew. For example, a pilot who pulls back on the 
+stick, causing a pitch-up maneuver, is exposed to a 
++Gz acceleration force. The result of +Gz loading on 
+the heart is a reduction of effective cardiac output to 
+the brain and movement of the column of oxygenated 
+blood in the carotid arteries to the brain. The consequence when no oxygenated blood reaches the brain 
+is either G-induced loss of consciousness (G-LOC) or 
+almost loss of consciousness (A-LOC). With A-LOC, an 
+airman cannot perceive color or cannot see anything at 
+all. With G-LOC, blood no longer perfuses to the brain, 
+and the airman loses consciousness. Likewise, in +Gz 
+and +Gx, the pulmonary system is affected because the 
+weight generated contracts the diaphragm, impairing 
+the inspiratory phase, in addition to mechanical limitation in moving the chest wall anterior to posterior. A 
+relative splinted breathing results, impairing effective 
+respiration. 
+Extreme noise, in excess of 120 to 140 dB, and lowfrequency vibration exposures are also common environmental threats to the airman. Prolonged exposure 
+to loud noise can damage hair cells in the inner ears, 
+potentially causing permanent hearing loss. Aircraft 
+vibration, particularly in the 17- to 34-Hz range of 
+rotary-wing aircraft, can cause air sickness, and aircrews or passengers may experience physiologic stress, 
+discomfort, jaw pain, chest pain, back pain, and damage to the intervertebral discs. 
+Likewise, spatial disorientation in flight is a significant aviation risk, due to the complex visual, vestibular 
+(otolithic and semicircular canals), and proprioception 
+effects on the brain, along with environmental factors. 
+The inner ear otolith organs are the “gravitoreceptors,” 
+which, along with the eyes and proprioceptive organs 
+throughout the body, provide a position sense to the 
+brain. This is what enables a person to know which direction is up, down, right, and left relative to the Earth. 
+Working together, the eyes, otoliths, and proprioceptors provide accurate position sense, but can be fooled 
+if any one or more of these sensory organs are not 
+functioning properly or are receiving misinformation. 
+For example, in a plane flying across the Atlantic Ocean 
+at night with no moonlight, the pilot might not realize 
+the plane is upside-down because the only visual input 
+would be a dark visual field. Without a correct visual 
+reference point, the brain, correctly sensing the pulling 
+of gravity from the otoliths, has lost its “up-down” 
+orientation. While the plane is actually descending at a 
+rapid rate, the pilot may sense a paradoxical climb due 
+to the sense of gravitational pull. This disorientation in 
+space has resulted in countless aviation mishaps over 
+the past century of flight. 
+Lastly, motion sickness can be problematic for 
+aircrew. During flight, motion sickness is caused by 
+a sensory conflict or neural mismatch (ie, information 
+sent to the brain from the eyes does not match information sent to the brain through the neurovestibular 
+system), inducing a vagal response. The symptoms are 
+manifested as a spectrum from stomach “awareness” 
+to frank nausea and vomiting. 
+Undersea Operations
+For a diver to successfully inhale from a gas supply 
+underwater, the gas must be pressurized to just above 
+336
+Fundamentals of Military Medicine
+the ambient pressure. Inhalation of the pressurized 
+gas results in an increased number of gas molecules 
+in the lungs, and eventually, in the peripheral tissues. 
+Gas enters the body at a constant pressure (P), temperature (T), and volume (V), factors that are highly 
+influenced by variations in depth, body temperature, 
+and environment. Before considering the physiologic 
+effects of gases, it is important to understand how the 
+physical properties of gases depend on these three 
+interrelated factors. For example, the general gas law 
+states that a change in any one of these factors will 
+result in a change in at least one other, such that:
+(P1V1)/T1 = (P2V2)/T2
+Importantly, only one of the three variables can be 
+unknown to predict the change, but if any of these 
+variables remains constant, it is simple to predict how 
+a specific gas will behave, as shown in the following 
+gas laws.
+Boyle’s law predicts how the pressure and volume of 
+a gas change when temperature remains constant. The 
+law states that at constant temperature, pressure and 
+volume are inversely proportional, such that:
+P1V1 = P2V2
+Thus, if the pressure of a gas is increased, there will be 
+a proportional decrease in its volume, and vice versa. 
+A practical example of this phenomenon is an air-filled 
+balloon. At rest, the pressure inside the balloon is in 
+equilibrium with the surrounding atmosphere; thus, 
+the volume of the balloon remains constant. If you 
+were to squeeze the balloon (ie, decrease its volume) 
+the pressure inside the balloon will increase. Eventually, if you decrease the balloon’s volume to the point 
+where the pressure critically exceeds the ambient 
+pressure, it will pop. 
+This principle explains barotrauma and pulmonary 
+over-inflation syndrome (POIS) in diving and high 
+altitude operations, where air-filled cavities or organs, 
+such as the middle ear or lungs, act like the balloon 
+in the example. Barotrauma occurs in enclosed, gasfilled spaces with rigid walls and vascular/lymph-lined 
+membranes that are exposed to changes in ambient 
+pressure. The space must be enclosed so that the pressure within does not readily equilibrate with ambient 
+pressure, creating a pressure gradient that shrinks or 
+expands the enclosed space. POIS includes a diverse 
+set of clinical presentations thought to occur due to 
+over-pressurization of the lungs, which causes rapid 
+gas bubble dispersal into normally gas-free areas. POIS 
+develops on ascent as the air within the lungs expands 
+according to Boyle’s law. If this expansion occurs too 
+rapidly, gas may forcefully exit, and consequently 
+rupture, the alveoli, enter the perivascular sheath, 
+and continue to the neck, mediastinum, and/or the 
+vasculature, with subsequent arterialization. This can 
+result in four presentations: pneumomediastinum (and 
+pneumopericardium), subcutaneous emphysema, 
+pneumothorax, and air gas embolism. 23,24
+Boyle’s law explains the relationship between pressure and volume when temperature is constant; however, temperature fluctuations can significantly alter a 
+gas’s pressure and volume. Charles’s and Gay-Lussac’s 
+laws predict how the pressure or volume of a gas reacts when temperature changes. Charles’s law states 
+that when pressure remains constant, a gas’s volume 
+is directly proportional to its temperature, such that:
+V1/T1 = V2/T2
+Thus, if the temperature of a gas increases, so too does 
+its volume, and vice versa. Similarly, Gay-Lussac’s 
+law states that when volume remains constant, a gas’s 
+pressure is directly proportional to its temperature, 
+such that:
+P1/T1 = P2/T2
+Thus, if the temperature of a constant volume of gas 
+within a fixed container increases, so too will its pressure, and vice versa. 
+Air composition is approximately 21% O2, 78% 
+nitrogen (N2), 0. 03% carbon dioxide (CO2), and 1% 
+argon and other trace gases. The percentages in Earth’s 
+atmosphere are independent of the ambient pressure; 
+that is, increases or decreases in pressure result in a 
+higher or lower density of composite molecules respectively, with no change in percentages. One method for 
+quantifying the amount of a particular gas with respect 
+to its effects on the body is to calculate its partial pressure. As previously discussed in the section on altitude 
+physiology, Dalton’s law states that the total pressure 
+exerted by a gas mixture is the sum of the partial pressures exerted by each gas within the mixture. Thus, the 
+partial pressure of a gas is the product of the ambient 
+pressure of the gas mixture and the fractional concentration (percentage/100) of the gas within that mixture.
+Atmospheric gases can impact pathophysiologic 
+states if their partial pressure varies greatly or changes 
+rapidly, affecting operator safety and mission success. 
+Thus, an understanding of a gas’s partial pressures and 
+their corresponding symptoms becomes critical when 
+determining gas mixtures to be used for missions of 
+different depths and lengths. In diving, US military 
+convention is to express pressure in atmospheres 
+absolute (ata) or fsw (Table 23-3). At sea level, atmospheric or ambient pressure is equal to 1 ata, which 
+is the equivalent of 14. 7 pounds per square inch (psi) 
+or 760 mm Hg (ie, at sea level, we are exposed to the 
+weight of one atmosphere of gas pressing upon us). 
+337
+Environmental Extremes: Alternobaric
+TABLE 23-3
+EFFECTS OF DEPTH ON VOLUME, PRESSURE, AND GAS PARTIAL PRESSURE*
+Relative Lung 
+Volume
+Depth, 
+fsw (m)
+Absolute Pressure, 
+ata (psi)
+Po2, 
+ata (% air)
+Pn2, 
+ata (% air)
+1
+0
+1 (14. 7)
+0. 21 (21)
+0. 78 (78)
+0. 5
+33 (10)
+2 (29. 4)
+0. 42 (21)
+1. 56 (78)
+0. 33
+66 (20)
+3 (44. 1)
+0. 63 (21)
+2. 34 (78)
+0. 25
+99 (30)
+4 (58. 8)
+0. 84 (21)
+3. 12 (78)
+*Note that as absolute pressure increases, the partial pressure of a specific gas increases while its percentage within 
+the mixture does not.
+Air, however, is less dense (1. 275 kg/m3) than sea water 
+(1,028 kg/m3) and fresh water (1,000 kg/m3), and the 
+equivalent to 1 ata of gas is added for every 33 fsw and 
+34 ft of fresh water. For example, when descending to 
+33 fsw, a diver will be exposed to a total pressure of 2 
+ata (1 ata of air + 1 ata of sea water); at 66 fsw the total 
+pressure will equal 3 ata; and so on. The following 
+examples, in addition to Table 23-3, provide an understanding of how gas partial pressures are affected by 
+depth and gas mixture composition:
+Example 1. What is the partial pressure of O2 (Po2) and 
+N2 (Pn2) in air at sea level?
+Po2 = total pressure of air at sea level (1 ata) 
+× fractional concentration of O2 (0. 21) = 0. 21 ata
+Pn2 = total pressure of air at sea level (1 ata) 
+× fractional concentration of N2 (0. 78) = 0. 78 ata
+Example 2. What are the Po2 and Pn2 in a 65% O2, 35% 
+N2 breathing mixture at 2 ata (33 fsw)?
+Po2 = total pressure (2 ata) 
+× fractional concentration of O2 (0. 65) = 1. 3 ata
+Pn2 = total pressure (2 ata) 
+× fractional concentration of N2 (0. 35) = 0. 7 ata
+Example 3. What are the Po2 and Pn2 in air at 100 fsw? 
+(Hint: don’t forget to include the Earth’s atmosphere.)
+Po2 = total pressure at 100 fsw [(100 + 33)/33)] 
+× 0. 21 = 4 ata × 0. 21 = 0. 84 ata
+Pn2 = total pressure at 100 fsw [(100 + 33)/33)] 
+× 0. 78 = 4 ata × 0. 78 = 3. 12 ata
+Gases enter the body via the lungs and interface with 
+the bloodstream at the alveoli. Here, gases dissolve 
+into and out of the blood following their respective 
+concentration gradients. Under normal physiologic 
+conditions at sea level, O2 in the alveoli rapidly diffuses 
+into capillary beds and moves into pulmonary arterial 
+blood for transport back to the heart and throughout 
+the body. Conversely, CO2 produced in tissues from 
+oxidative phosphorylation rapidly diffuses into the 
+bloodstream and is returned to the lungs, where it 
+is exhaled. Importantly, while the body can adapt to 
+chronic alterations in Po2 and Pco2, acute changes in 
+barometric pressure and/or breathing mixtures can 
+result in extreme symptomology. For example, O2 can 
+be toxic to the central nervous system (eg, causing seizures) or lungs (eg, pulmonary edema) if administered 
+at an elevated Po2 for an extended period. 
+While O2 and CO2 are examples of metabolically 
+active gases that are constantly being exchanged and 
+transported, gases such as N2 and helium are believed 
+to be chemically and metabolically inert, meaning that 
+gas inhaled is identical to the gas exhaled, because the 
+body does not require its use for metabolism. Inert 
+gases are also transported from the atmosphere into the 
+lungs, by the same pathways, and subsequently into 
+the peripheral tissues. For example, when breathing N2 
+at hyperbaric pressures, the Pn2 in the lungs increases 
+(per Dalton’s law). Accordingly, tissue Pn2 increases 
+in accordance with Henry’s law, which states that the 
+solubility of a gas is directly proportional to its partial 
+pressure, written as P=kC, where P, k, and C are the 
+pressure, Henry’s law constant, and concentration, 
+respectively, of a given gas. Increasing lung Pn2 will, 
+therefore, result in elevated tissue Pn2, which will remain dissolved until pressure is decreased. Excessive 
+tissue N2 is not problematic as long as adequate time 
+is allowed for the N2 to dissolve out of tissues and be 
+exhaled by the lungs. 
+Dive tables have been developed to allow for proper 
+inert gas washout based on depth, time at depth, and 
+breathing mixture to prevent inert gas complications 
+such as DCS. 9 DCS can result from any dive that includes breathing an increased partial pressure of inert 
+gases, specifically gases with higher lipid solubility 
+such as N2. Because exposure to increased pressure 
+increases N2 dissolved in peripheral tissues, equilibra338
+Fundamentals of Military Medicine
+tion will occur with respect to the Pn2 in the lungs. In 
+general, risk of DCS is lower when depth, dive duration, and N2 load are decreased. When these factors 
+are increased, a diver incurs a larger decompression 
+obligation, resulting in a longer period of staged ascent 
+or surface decompression to avoid DCS. If ascent occurs 
+too quickly, N2 will supersaturate and form expanding 
+bubbles (Boyle’s law) that can cause joint pain, paralysis, and increased risk of venous and arterial emboli. 
+Immersion in water can significantly alter normal 
+human physiology. With increasing depth, the body 
+is subjected to greater hydrostatic pressure, which is 
+the force exerted by the surrounding water. As hydrostatic pressure increases with depth, so too will 
+the partial pressures of breathing gases. Importantly, 
+organs and air-filled cavities equilibrate at different 
+rates, inducing pressure differentials that result in 
+the displacement of gases and fluids throughout the 
+body. Upon immersion, the increased hydrostatic 
+pressure also results in compression of blood vessels, 
+effectively decreasing venous capacity and increasing 
+venous return to the heart. 25 The resulting increase in 
+cardiac volume causes an increase in end-diastolic 
+volume, which increases stroke volume and cardiac 
+output. These changes result in an increase in pulse 
+pressure, stimulation of atrial stretch receptors, release 
+of atrial natriuretic peptide (ANP), and activation 
+of the arterial baroreflex. ANP is a cardiac hormone 
+that acts on the kidneys to reduce the activity of the 
+renin-angiotensin-aldosterone reflex and increase 
+the glomerular filtration rate. The net effects are an 
+increase in sodium and fluid excretion, which reduces 
+blood volume and pressure, and a pressure-dependent 
+baroreflex-mediated increase in parasympathetic tone, 
+which decreases heart rate and stimulates vasodilation. 
+Diving also affects ventilation. Increased hydrostatic 
+pressure on the thorax, combined with an increase in 
+airway resistance from breathing denser gas, results 
+in an increased work of breathing that can lead to 
+respiratory muscle fatigue and hypercapnia. 2 Indeed, 
+hypercapnia is common in divers and is exacerbated 
+by exercise, hyperoxia-induced hypoventilation, and 
+rebreathing of CO2 within the excess dead space of a 
+diver’s breathing apparatus. 
+HUMAN PERFORMANCE OPTIMIZATION STRATEGIES FOR EXTREME ENVIRONMENTS
+The MMO is expected to have scientific background 
+in the physiology of extreme environments, as well as 
+the medical knowledge to provide recommendations 
+for prevention of environmental injuries, to treat such 
+injuries, and to assist in return-to-duty determinations when restriction from activity or deployment is 
+essential. Above all, the best treatment strategy for all 
+potential environmental injuries and illness is primary 
+prevention. Primary prevention is the cornerstone of 
+optimizing human performance in extreme environments. This section discusses military-relevant human 
+performance optimization strategies the MMO should 
+leverage to assist in preventing injury and optimizing 
+human performance. Table 23-4 integrates evidencebased strategies, including the targeted risk factor/
+challenge, to optimize service members’ performance 
+in environmental extremes.
+Altitude 
+The MMO is a critical asset to commanders for mitigating the risk of AMS and optimizing performance at 
+altitude. The foremost recommendation is to leverage 
+acclimatization through appropriate staging. Staging 
+involves temporary residence at a moderate altitude 
+prior to moving to a higher altitude. Figure 23-6 depicts 
+the optimal duration at a given altitude prior to further 
+ascent to optimize acclimatization. Acclimatization 
+should start at elevations below 10,000 ft and proceed 
+at stages high enough to acclimatize but low enough 
+to avoid altitude illness. Military personnel should 
+not ascend above 2,400 m/7,870 ft during their first 
+24 hours of ascent if not already acclimatized. Above 
+that point, they should avoid ascending more than 300 
+m/1,000 ft per day. Plan staging and rest days at each 
+Figure 23-6. Recommended staging altitude and duration 
+combinations to produce effective altitude acclimatization 
+in previously unacclimatized soldiers. 
+Reproduced from: US Department of the Army. Altitude Acclimatization and Illness Management. Washington, DC: DA; 
+2010. Technical Bulletin, Medical, 505:25.
+339
+Environmental Extremes: Alternobaric
+TABLE 23-4
+HUMAN PERFORMANCE OPTIMIZATION STRATEGIES TO MITIGATE RISK FACTORS IN ALTERNOBARIC ENVIRONMENTS
+Environment
+Performance Risk 
+Factor or Challenge
+HPO Strategy
+Undersea
+AGE/DCI/DCS
+Avoid breath holding on ascent; adherence to Dive Table descent–ascent 
+rates and gas mix; transfer to hyperbaric chamber immediately for definitive 
+treatment.
+Undersea
+Oxygen toxicity
+Proper gas mix and adherence to maximal depth and bottom time guidance.
+Undersea
+Barotrauma
+Adherence to Dive Table descent–ascent rates and proper breathing technique.
+Altitude
+AMS
+Acclimatization; work/rest/hydration guidance; prescription medications; slow 
+ascent; supplemental oxygen; overnight rest at a lower altitude.
+Altitude
+HACE/HAPE
+Acclimatization; work/rest/hydration guidance; prescription medications; slow 
+ascent; supplemental oxygen; overnight rest at a lower altitude. If present: immediate descent with subsequent oxygen chamber treatment.
+Aviation
+Grey-out, black-out, 
+G-LOC
+Maintain optimal health; work/rest/hydration/strengthening or resistance exercise and guidance; avoid diving 24 h prior; avoid donating blood 72 h prior; 
+participate in preflight flight simulation or centrifuge training and use it to 
+anticipate flight maneuvers that would cause G-LOC.
+Aviation
+Motion sickness
+Work/rest/hydration guidance; participate in preflight flight simulation or 
+centrifuge training and use it to anticipate flight maneuvers; do not fly with 
+empty stomach and no greasy food consumption prior; frequent simulation 
+training with or without 3-D rotational simulation chair; cool/cold air temperature may help during flight.
+Aviation
+Spatial disorientation
+Work/rest/hydration guidance; good visual acuity; frequent simulation training.
+Aviation
+Barotrauma
+Maintain optimal health; Valsalva maneuver during flight; avoid flying when 
+sick; medication such as oral or topical decongestants for acute symptoms.
+Aviation
+Acute decompression
+Immediate descent; oxygen supplementation; transfer to hyperbaric chamber 
+immediately for definitive treatment.
+Aviation
+Cold/heat/sound/ 
+vibration/radiation
+Work/rest/hydration guidance; proper personal protective equipment and 
+environmental design.
+Aviation
+Circadian dysynchrony
+Good sleep hygiene with preplanned sleep schedules; benzodiazepine or 
+non-benzodiazepine hypnotics (use only in specific instances, especially in 
+military operation contingency).
+AGE: arterial gas embolism
+DCS: decompression sickness
+HAPE: high altitude pulmonary edema
+AMS: acute mountain sickness
+G-LOC: G-induced loss of consciousness
+HPO: human performance optimization
+DCI: decompression illness
+HACE: high altitude cerebral edema
+LOC: loss of consciousness
+elevation, adding an additional rest day with each 
+stage. The MMO should also recommend work/rest 
+cycles and adequate hydration. Warfighters should 
+have good physical strength and optimize their individual aerobic capacity (V̇ o2max) based on body size 
+and gender. Finally, service members should also understand strategies to mitigate heat and cold stressors 
+often encountered in altitude operations.
+Another preventive measure is intermittent hypoxic 
+exposure (IHE)—repeatedly exposing an individual to 
+altitude for a short period of time. A protocol-driven 
+exposure, IHE can be done using terrestrial altitude, 
+flight in an unpressurized aircraft, flight in a pressurized aircraft with high cabin altitudes, or a normobaric 
+hypoxic device. When using a normobaric hypoxic 
+device, a face mask or hood alone is not sufficient; an 
+oxygen delivery system with the capability of supplying a lower than ambient oxygen concentration is 
+also required. Table 23-5 lists recommended exposure 
+procedures. 
+Supplemental medication may also help climbers 
+avoid AMS. These medications include acetazolamide to promote bicarbonate diuresis, furosemide 
+to promote diuresis and decrease edema, and aspirin 
+340
+Fundamentals of Military Medicine
+TABLE 23-5
+RECOMMENDED INTERMITTENT 
+HYPOXIC EXPOSURE PROCEDURES TO 
+INDUCE ALTITUDE ACCLIMATIZATION IN 
+PERSONNEL BASED AT LOW ALTITUDE*
+Session 
+Duration 
+(h)
+Days
+Frequency
+Altitude 
+(m)
+Activity
+3–4
+7–14
+daily
+4,000–
+4,500
+Rest, may include exercise 
+at 50%–60% 
+maximum 
+heart rate
+>7
+>5
+daily
+2,500–
+4,000
+Rest, sleep, 
+may include 
+exercise at 
+50%–60% 
+maximum 
+heart rate
+*To avoid sleep disturbances, the first 1–2 nights should not exceed 
+2,500 m altitude.
+and acetaminophen for headaches (NSAIDs may be 
+used sparingly but are not highly recommended due 
+to increased risk of bleeding and fluid retention). 
+Corticosteroids such as dexamethasone may also be 
+used. Prochlorperazine may be used for nausea or 
+vomiting. Also, carbohydrate and caffeine intake just 
+prior to physical activity may help optimize physical 
+performance at altitude. Other supplements have not 
+been demonstrated to help prevent AMS. Alcohol and 
+sedative hypnotics should be avoided due to depressive effects on respiration. Technical Bulletin 505, Altitude Acclimatization and Illness Management, contains 
+a detailed review of medications for the prevention 
+and treatment of AMS. 6 
+If adequate time for acclimation has not occurred, 
+supplemental oxygen is a good strategy for operations above 3,048 m/10,000 ft above sea level (ASL). 
+However, slow, progressive ascent is the only reliable 
+preventive measure to reduce the risk of developing 
+HACE or HAPE. Table 23-6 details the field treatment 
+and prevention of HACE. Above 5,486 m/18,000 ft ASL, 
+even adequate rest/ascent schedules do not prevent 
+these life-threatening conditions. If a climber develops HACE or HAPE, apply a tight-fitting mask with 
+oxygen supplementation and have the person descend 
+immediately. Warfighters can also use a mobile monochamber hyperbaric treatment chamber, such as a 
+Gamow bag, for emergencies; however, definitive care 
+at the nearest oxygen chamber facility is also required. 
+Additional information can be found at Uniformed 
+Services University’s Human Performance Resource 
+Center (see resources).
+Aviation
+The mitigation strategies stated in Chapter 22, Environmental Extremes: Heat and Cold, also apply to 
+personnel who will be flying or climbing. Adherence 
+to good rest and sleep cycles and adequate hydration 
+are essential. Additionally, MMOs can recommend 
+that aviators perform cardiovascular and muscle 
+strengthening/resistance training, which can improve 
+performance in high-altitude environments up to 10%, 
+especially during anti-G straining maneuvers. Prior 
+to flight operations, aircrew members should discuss 
+operation risk management and appropriate corrective 
+actions in case of emergency. All aircrew, including the 
+MMO, should be engaged in pre-flight planning and 
+safety briefings. Also, the MMO should inspect the 
+aircraft prior to flight for structural or environmental 
+issues that might pose a safety or operational risk during flight. For example, there should be seat cushions 
+to damp vibration, ear protection, and form-fitted 
+flying helmets. 
+An MMO serving as a local flight surgeon or 
+aviation physician assistant will assess all air crewmembers’ fitness for duty prior to flight to rule out 
+any illness or injury that might impair their ability to 
+perform aviation duties. All personnel flying in high 
+performance aircraft must receive proper training for 
+anti-G maneuvers, and the MMO must be familiar with 
+these concepts. Centrifuge training is particularly effective at improving individual G-tolerance, and training 
+in a 3-D rotational simulation chair may help flyers to 
+adjust to air sickness. The MMO will also educate all 
+aircrew on the following points: 
+ 
+• avoid flying within 24 hours after diving to 
+prevent DCS risk; 
+ 
+• avoid donating blood 72 hours before flying; 
+ 
+• never fly on an empty stomach or after eating 
+a greasy meal; 
+ 
+• avoid flying when ill unless appropriate medical personnel are present;
+ 
+• use personal protective equipment properly; 
+and
+ 
+• perform Valsalva maneuvers to decrease the 
+chance of barotrauma, vibration, and noise 
+injuries.
+Additionally, reducing cabin temperature may 
+help ease motion sickness symptoms. Anti-nausea 
+medications such as a scopolamine patch or meclizine 
+341
+Environmental Extremes: Alternobaric
+TABLE 23-6
+FIELD TREATMENT AND PREVENTION OF HIGH ALTITUDE PULMONARY EDEMA
+Severity of HAPE
+Treatment
+Prevention
+Mild
+• Dyspnea on moderate exertion; 
+may be able to perform light activity
+• Heartbeat per min: <110
+• Breaths per min: <20
+1. Descend 500–1,000 m by passive 
+means.
+2. Stop ascent, bed rest and acclimatize at the same altitude.
+3. Administer moderate flow oxygen 
+at 2–4 L/min for 4–6 h. Maintain 
+oxygen saturation at >90%.
+4. Use hyperbaric bag treatment (2 psi 
+for 4 h).
+5. Nifedipine (10 mg initially followed by 30 mg every 12 to 24 h).
+6. Use a combination of therapies 1–5.
+7. Consider acetazolamide (125–250 
+mg twice daily).
+1. Staged and graded ascent.
+2. Avoid overexertion.
+3. Avoid cold exposure.
+4. Avoid rapid ascent >2,500 m.
+5. Administer nifedipine (30 mg every 
+24 h) 1 day prior to ascent and for 3 
+days after ascent.
+6. Consider tadalafil (10 mg twice 
+daily), sildenafil (50 mg every 8 h), 
+and salmeterol (125 µg twice daily).
+Moderate
+• Symptoms of dyspnea, weakness, 
+fatigue with mild exertion; cannot 
+perform light activity; headache 
+with cough, dyspnea at rest
+• Heartbeats per min: 110–120
+• Breaths per min: 20–30
+1. Descend immediately (500–1,000 
+m) until symptoms resolve.
+2. If descent is impossible, treat the 
+same as mild HAPE except supplemental oxygen should be 4–6 L/
+min for 4–6 h.
+1. Same as for mild HAPE.
+2. Treat mild HAPE early to avoid 
+progression to moderate HAPE.
+Severe
+• Clouded consciousness, stupor or 
+coma
+• Severe dyspnea, headache, weakness, nausea at rest
+• Loose, recurrent, productive cough
+• Wheezy, difficult respirations; obvious cyanosis
+• Heartbeats per min: >120
+• Breaths per min: >30
+1. Descend immediately (500– 1,000 
+m) until symptoms resolve. 
+2. If descent impossible—
+• Treat the same as moderate 
+HAPE.
+• Monitor for signs of HACE.
+1. Same as for moderate HAPE.
+2. Treat mild and moderate HAPE 
+early to avoid progression to severe 
+HAPE.
+HACE: high altitude cerebral edema
+HAPE: high altitude pulmonary edema
+hydrochloride should only be used by non-pilot crew 
+because of their tendency to cause drowsiness. Finally, 
+if problems persist or acute decompression ensues, 
+flyers should descend as soon as possible, preferably 
+with the use of supplemental oxygen.
+Special consideration must be taken for rotary-wing 
+aircrew operating in hot weather (over 42°C/108°F). 
+Insensible fluid loss in hot, dry environments can rapidly lead to dehydration if fluids are not adequately 
+replaced. Dehydration is complicated by the use of 
+stimulant supplements by aircrew, which is a common 
+practice in combat settings. The fluid recommendations discussed earlier for ground units do not take 
+into account the inability for aircrews to take work/
+rest cycles during flight, and aerial transportation or 
+combat sorties often last up to 6 hours. A proposed 
+fluid replacement strategy for aircrews operating in 
+hot weather environments is detailed in Table 23-7. 26
+Undersea Operations
+Diving is generally safe; however, the military continues to extend mission parameters with deeper and 
+longer descents, increasing the risk of diving-related 
+342
+Fundamentals of Military Medicine
+TABLE 23-7
+PROPOSED FLUID MAINTENANCE SCHEDULE 
+FOR ROTARY-WING AVIATION CREWS IN HOT 
+WEATHER ENVIRONMENTS 
+Temperature
+Recommended Fluid Replacement 
+(mL/h) 
+42°–48°C
+500–750 mL H2O
+>48°C
+750–1,000 mL H2O + 500 mL commercial 
+electrolyte solution
+injuries. These risks can be reduced by screening divers, training MMOs, maintaining safe diving practices, 
+and continuing diving-related medical research. Diving medical experts have an obligation to regularly 
+screen current and future military divers for medical 
+conditions that may be exacerbated by the strenuous 
+hyperbaric environment. Chapter 15 of the Navy’s 
+Manual of the Medical Department outlines screening criteria and recommendations. 27 There are five principal 
+questions to ask when screening a (potential) diver: (1) 
+Can this person perform strenuous activity? (2) Does 
+this person have any condition that is not controlled 
+and may increase his or her risk of drowning? (3) Does 
+this person have any condition that the diving environment may exacerbate? (4) Does this person have any 
+abnormalities on neurologic examination? (5) Can this 
+person equalize ear pressure? 
+All divers must propel themselves through the 
+water, requiring considerable physical strength and, 
+at times, endurance. Anyone who is unable to perform 
+strenuous aerobic activity on land, particularly because 
+of cardiac ischemia, will be put at extreme risk by diving. The Navy administers a diving physical screening 
+test to all diving candidates to ensure an adequate level 
+of physical fitness. For civilians or qualified military 
+divers who are being rescreened, providers should 
+assess the patient’s regular physical activity and identify the metabolic equivalent (MET) corresponding to 
+that activity. Basic diving requires a 6-MET tolerance, 
+though difficult sea states or strenuous underwater 
+jobs may require significantly more (10–13 METs). 28 If 
+civilian divers are only able to perform at 6 to 9 METs, 
+the provider should discuss the risks associated with 
+diving, recommend a land-based exercise regimen prior 
+to diving, and consider referral to a diving medical 
+expert for further evaluation. All military divers should 
+be able to perform activities of at least 10 to 13 METs.
+Treatable medical conditions on land are potentially 
+life-threatening underwater because of secondary 
+drowning. Prominent examples are myocardial infarctions and seizures. Evaluating a patient’s aerobic 
+capacity as discussed above can mitigate the risk for 
+myocardial infarction. Patients with uncontrolled seizures should not dive. A patient with well-controlled 
+seizures should discuss diving risks with a provider 
+to make an informed decision. Experts recommend 
+being seizure free for at least 4 years prior to considering diving. 29 If a patient decides to dive, he or she 
+should remain in shallow water and always dive with 
+a buddy who is aware of the seizure disorder and 
+capable of executing an emergency action plan. Deep 
+dives should be avoided because increased Po2 will 
+increase the risk for seizure activity.
+A primary concern with pulmonary pathology is 
+its potential exacerbation in the diving environment. 
+Two examples include asthma and spontaneous pneumothorax. Cold water, cold compressed gas, and high 
+Po2 may increase airway reactivity and the risk for an 
+asthma exacerbation. There have also been reports of 
+allergens in air tanks causing exacerbations. Finally, 
+some case reports suggest that people with asthma 
+may have a higher rate of diving-related complications 
+such as POIS and DCS, which has led some experts 
+to label asthma as an absolute contraindication to 
+diving. 27,30 Similarly, the risk of POIS is elevated in 
+patients with a history of spontaneous pneumothorax, causing many experts to consider it an absolute 
+contraindication to diving as well. At least one case 
+report documents a series of successful dives with a 
+chronic pneumothorax, but no evidence exists for successful diving after pleurodesis. 31 However, surgical 
+interventions such as mechanical pleurodesis have 
+been successful in treating aviation personnel with 
+spontaneous pneumothoraces and returning them to 
+duty. 32 Patients with pulmonary pathologies should 
+be referred to diving medical experts to make an 
+informed decision about diving based on known and 
+theoretical risks.
+Two parts of the screening process—the patient’s 
+neurologic status and their ability to equalize pressure 
+in the ears—should be documented both at the initial 
+examination and prior to every dive. The screening 
+process should document a complete neurologic examination to establish a patient’s baseline. This will 
+be critical in the event of a possible diving-related 
+neurologic injury, such as arterial gas embolism and 
+DCS. Prior to every dive, divers should report any 
+neurologic symptoms—numbness, tingling, or joint 
+pain—that may conflate a diagnosis of arterial gas 
+embolism or DCS. At the time of screening, all divers 
+should demonstrate tympanic membrane mobility 
+by equalizing ear pressure under direct observation. Divers who have difficulty with equalization 
+may benefit from video-assisted otoscopy, which 
+343
+Environmental Extremes: Alternobaric
+is training aimed at improving and individualizing 
+equalization techniques. Any presence of an upper 
+respiratory tract infection or allergies may prevent 
+adequate equalization; thus, diving should be temporarily avoided.
+Monitoring human performance biometrics is 
+essential to proper preparation and ensuring performance optimization in the diver, submariner, and 
+undersea personnel. Aerobic conditioning measures 
+are critical (for more detailed information, see the Human Performance Resource Center below). Aside from 
+personnel preparation, including mission knowledge 
+and strategies, physical preparation for the undersea 
+environment is a must. Water temperatures introduce 
+limiting human performance issues that can only be 
+addressed prior to mission initiation. Cold waters necessitate proper insulation to optimize performance. 
+Warmer waters may call for active cooling measures 
+to ensure even minimal work performance and mission accomplishment. Monitoring of work/rest cycles 
+is equally important for undersea operations. The 
+MMO must always have a strategic plan in place for 
+responding to mission failures, including identification of compression chamber facilities, access to active 
+cooling and warming, and responses to typical medical 
+issues resulting from military operations. 
+ONLINE RESOURCES FOR ALTERNOBARIC ENVIRONMENTS
+ 
+• Medical Surveillance Monthly Report (https://
+www.afhsc.mil/Search/SearchMSMR): provides evidence-based estimates of the incidence, distribution, impact, and trends of 
+illnesses in service members and associated 
+populations. Annual reports are published on 
+topics such as environmental illnesses, which 
+allow for comparisons of prior year data and 
+assessment of preventive strategies. 
+ 
+• Divers Alert Network (http://www.diversalertnetwork.org/): promotes diver safety by 
+providing medical information, educational 
+opportunities, and safety resources for divers. 
+ 
+• Naval Sea Systems Command (http://
+www.supsalv.org/00c3_publications.
+asp?destPage=00c3): provides diving manuals and instructions. 
+ 
+• Duke University Center for Hyperbaric Medicine and Environmental Physiology (https://
+medicine.duke.edu/divisions/pulmonaryallergy-and-critical-care-medicine/about/
+division-programs/hyperbaric-medicine): 
+serves the US armed forces as well as the Environmental Protection Agency and National 
+Oceanic and Atmospheric Administration. 
+ 
+• Naval Submarine Medical Research Laboratory (http://www.med.navy.mil/sites/nsmrl/
+Pages/default.aspx): provides information on 
+research in the undersea environment with an 
+overall mission to protect health and enhance 
+performance of service members. 
+ 
+• Navy Experimental Dive Unit (http://www.
+supsalv.org/nedu/nedu.htm): conducts research and development to test and evaluate 
+diving, hyperbaric, and other life-support 
+systems necessary for the diver. 
+ 
+• Professional Association of Diving Instructors Scuba Diving Society (https://www.
+padi.com/Scuba-Diving/scuba-community/
+padi-diving-society): provides courses and 
+information about gear and other scuba topics. 
+ 
+• Undersea and Hyperbaric Medicine Society 
+(https://www.uhms.org/): primary source of 
+scientific information for diving and hyperbaric medicine physiology worldwide. 
+ 
+• Uniformed Services University’s Human 
+Performance Resource Center (https://www.
+hprc-online.org/page/environment/altitude): 
+provides information on performing well at 
+high altitudes.
+SUMMARY
+This chapter has introduced the MMO to the basics of 
+optimizing service member performance in alternobaric 
+settings. It has discussed the historical relevance of the 
+environment to success in military operations, the basic 
+applied physiology relevant to understanding the warfighter in the environment, and finally, evidence-based 
+strategies demonstrated to preserve performance in 
+environmental extremes. MMOs must often operate in 
+unique settings with limited resources, where urgency 
+and proper planning can be the difference between 
+success and failure on the battlefield. It is important to 
+remember that the MMO serves not only to treat the 
+wounded, but also to optimize performance and ultimately to strengthen the commander’s hand for success. 
+344
+Fundamentals of Military Medicine
+REFERENCES
+ 
+1. von Clausewitz C. On War. Vol 2. London, England: Routledge and Kegan Paul; 1968: 263.
+ 
+2. Jennings PR. ODA 3336 in the Shok Valley: danger close. Defense Media Network. http://www.defensemedianetwork.
+com/stories/danger-close-oda-3336-in-the-shok-valley/. Published May 20, 2010. Accessed March 7, 2018.
+ 
+3. Ropelis L. Air commando saves lives in Afghanistan. Air Force Special Operations Command website. Published 
+December 23, 2008. Accessed March 7, 2018.
+ 
+4. Grau LW, Vazquez H. Ground combat at high altitude. Milit Rev. 2002;Jan–Feb. http://fmso.leavenworth.army.mil/
+documents/groundcombat/groundcombat.htm. Accessed March 7, 2018.
+ 
+5. Hackett PH, Roach RC. High-altitude medicine and physiology. In: Auerbach PS, ed. Wilderness Medicine. 6th ed. 
+Philadelphia, PA: Elsevier; 2012.
+ 
+6. US Department of the Army. Altitude Acclimatization and Illness Management. Washington, DC: DA; 2010. Technical 
+Bulletin, Medical, 505. 
+ 
+7. Bert P. Barometric Pressure: Researches In Experimental Physiology. Hitchcock MA, Hitchcock FA, trans. Bethesda, MD: 
+Undersea Medical Society, 1978. 
+ 
+8. Crouch TD. The Bishop’s Boys: The Life of Wilbur and Orville Wright. New York, NY: WW Norton; 1989.
+ 
+9. Naval Sea Systems Command. US Navy Diving Manual. Rev 7. Washington Navy Yard, DC: NAVSEA; 2016. 
+ 10. Eggen OJ. Edmond Halley. Encyclopedia Britannica. https://www.britannica.com/biography/Edmond-Halley. Accessed December 22, 2017.
+ 11. Paul Bert. Encyclopedia Britannica. https://www.britannica.com/biography/Paul-Bert. Accessed December 22, 2017.
+ 12. Paul Bert (1833-1886), aviation physiologist. JAMA. 1970;211(11):1849–1850.
+ 13. Marx RF. The History of Underwater Exploration. Mineola, NY: Courier Corporation; 1990.
+ 14. Foregger R. Development of mine rescue and underwater breathing apparatus: appliances of Henry Fleuss. J Hist Med 
+Allied Sci. 1974;29(3):317.
+ 15. Kryskow MA, Beidleman BA, Fulco CS, et al. Performance during simple and complex psychomotor tasks at various 
+altitudes. Aviat Space Environ Med. 2013;84:1147–1152. 
+ 16. Tharion WJ, Hoyt RW, Marlowe BE, Cymerman A. Effects of high altitude and exercise on marksmanship. Aviat Space 
+Environ Med. 1992;63(2):114–117. 
+ 17. Moore CM, Swain DP, Ringleb SI, Morrison S. Effects of acute hypoxia and exercise on marksmanship. Med Sci Sports 
+Exer. 2014;46(4):795–801.
+ 18. Norris JN, Viire E, Aralis H, et al. High altitude headache and acute mountain sickness at moderate elevations in a 
+military population during battalion-level training exercises. Mil Med. 2012;177(8):917–923.
+ 19. Landdau DA, Chapnick L, Yoffe N, et al. Cervical and lumbar MRI findings in aviators as a function of aircraft type. 
+Aviat Space Environ Med. 2006;77(11):1158–1161.
+ 20. Gaydos SJ. Low back pain: considerations for rotary wing aircrew. Aviat Space Environ Med. 2012;83(9):879–889. 
+ 21. Byeon JH, Kim JW, Jeong HJ, et al. Degenerative changes of spine in helicopter pilots. Ann Rehabil Med. 2013;37(5):706–
+712.
+345
+Environmental Extremes: Alternobaric
+ 22. Grossman A, Nakdimon I, Chapnick L, Levy Y. Back symptoms in aviators flying different aircraft. Aviat Space Environ 
+Med. 2012;83(7):702–725.
+ 23. Bove AA. Diving medicine. Am J Respir Crit Care Med. 2014;189(12):1479–1486.
+ 24. Neuman T. Arterial gas embolism and pulmonary barotrauma. In: Bennett and Elliott’s Physiology and Medicine of Diving. 5th ed. London, England: Saunders; 2003: 557–577.
+ 25. Pendergast DR, Moon RE, Krasney JJ, Held HE, Zamparo P. Human physiology in an aquatic environment. Compr 
+Physiol. 2015;5:1705–1750.
+ 26. Scheuring RA. A proposed fluid maintenance schedule for rotary wing aviation crews in hot weather environments. 
+Aviat Space Environ Med. 2012;83(3):453.
+ 27. US Navy. Manual of the Medical Department. Washington, DC: HQDN; 2005: 12. NAVMEDP-117.
+ 28. Bove AA. The cardiovascular system and diving risk. Undersea Hyperb Med. 2011;38(4):261–269.
+ 29. Bove AA. Medical aspects of sports diving. Med Sci Sports Exerc. 1996;28(5):591–595.
+ 30. Coop CA, Adams KE, Webb CN. SCUBA diving and asthma: clinical recommendations and safety. Clin Rev Allergy 
+Immunol. 2016;50(1):18–22.
+ 31. Ziser A, Väänänen A, Melamed Y. Diving and chronic spontaneous pneumothorax. Chest. 1985,87(2); 264–265.
+ 32. North JJ. Thoracoscopic management of spontaneous pneumothorax allows prompt return to aviation duties. Aviat 
+Space Environ Med. 1994,65(12):1128–1129.
+346
+Fundamentals of Military Medicine

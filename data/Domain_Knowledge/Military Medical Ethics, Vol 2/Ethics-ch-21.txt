@@ -1,0 +1,1969 @@
+Religious and Cultural Considerations in Military Healthcare
+687
+Chapter 21
+RELIGIOUS AND CULTURAL
+CONSIDERATIONS IN MILITARY
+HEALTHCARE
+DAVID M. DEDONATO, MDIV, MA, BCC*; AND RICK D. MATHIS, JD, MDIV, MA†
+INTRODUCTION
+THE IMPORTANCE OF UNDERSTANDING DIVERSITY
+RELIGIOUS CONSIDERATIONS IN HEALTHCARE PROVISION
+Religious Culture’s Shaping of America and American Healthcare
+Religious Culture’s Influence on Western Medicine
+Religious Beliefs and Values of the American Patient
+Some General and Specific Religious Considerations
+CULTURAL CONSIDERATIONS IN HEALTHCARE PROVISION
+A General Overview
+Significance of Cultural World Views
+Cultural Concepts of Health
+Healing Systems
+The Culture of Military Healthcare
+WELLNESS AND ILLNESS: TWO OTHER RELIGIOUS-CULTURAL VIEWS
+Judaism
+Islam
+ADDRESSING CONFLICTS ARISING FROM RELIGIOUS AND CULTURAL
+CONSIDERATIONS
+The Potential for Conflict
+Some Caregiver Guidelines
+CONCLUSION
+*Lieutenant Colonel (Retired), Chaplain Corps, United States Army; formerly, Senior Chaplain Clinician and Clinical Ethicist, Dwight David
+Eisenhower Army Medical Center, Fort Gordon, Georgia, and Walter Reed Army Medical Center, Washington, DC; currently, Director of
+Pastoral Care, Lexington Medical Center, West Columbia, South Carolina 29169
+†Lieutenant Colonel, Chaplain Corps, United States Army; currently, Staff Chaplain, 18th Military Police Brigade, Mannheim, Germany,
+HHC 18th MP Bde, Unit 29708, APO AE 09028; formerly, Chaplain-Clinical Ethicist and Chief, Ethics Consultation Service, Walter Reed
+Army Medical Center, Washington, DC
+Military Medical Ethics, Volume 2
+688
+Aaron Bohrod, 1944
+Military Necessity
+Pont L’Abbe, Normandy, World War II
+First elements of the 90th Infantry Division saw action on D-Day, 6 June 1944, on Utah Beach, Normandy. The remainder entered combat 10 June, cutting across the Merderet River to take Pont l’Abbe in heavy fighting. Once it was
+secured, it was used as a staging area. This painting depicts the use of a religious structure as a communications pole
+to coordinate the ongoing action in the area, thus the title “Military Necessity.”
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+Religious and Cultural Considerations in Military Healthcare
+689
+INTRODUCTION
+ment. Although she is being treated in a country where autonomy is respected and informed consent is required as a
+condition for treatment, for Leah, exercising her autonomy
+by giving an informed consent might require her to reject
+the teachings of her religion. 1(pp83–84)
+Two very different concepts of what ought to take
+precedence in deciding to proceed with the needed
+lifesaving radiation and surgery are at work in this
+situation. One concept is that of honoring and following the patient’s religious-cultural beliefs (ie,
+putting the beliefs of the patient before the profesOver the past several decades, medicine has
+moved away from viewing the patient simply as a
+biological mechanism in need of “repair” and toward a more complete view of the patient as a person with a health need who is also part of a complex social system. A significant portion of who that
+patient “is” comes from the patient’s religious and
+cultural background. Most of the time, religious and
+cultural considerations in patient care decisions
+seem invisible, indeed almost “hidden,” in cases
+where the healthcare professionals, the patient, and
+his or her loved ones substantially agree about the
+appropriate therapy, treatment, or outcome to be
+sought. However, their presence may be more
+readily observed when the parties disagree because
+of differences in their religious beliefs and cultural
+values. It is easier to see these differences when they
+are succinctly stated by the participants. Therefore,
+this chapter will begin with a case in which there is
+a clear statement of these differences and what the
+patient’s family believes must occur as a result. By
+understanding the more obvious cases, the physician will, it is hoped, become more attuned to the
+less obvious, but nonetheless significant, situations
+that involve differing views regarding what is
+“best” for a patient.
+The following case illustrates the dilemma that can
+occur when differing religious beliefs and cultural
+values clash in the patient–physician relationship.
+Case Study 21-1: What Should Leah Be Told? Leah,
+an 18-year-old Israeli girl (similar to the girl shown in Figure 21-1), is diagnosed with clear cell adenocarcinoma
+of the vagina. Her family is ultraorthodox. She is being
+seen in a prominent American hospital because of its reputation as the best in the world at treating clear cell cancer. The prescribed treatment for her would be a course
+of radiation therapy to shrink her tumor and then a hysterectomy. Her father does not want her to be told that
+she will be sterile because she was recently engaged and
+the wedding will be very soon.
+Jewish religious law will not permit a woman known to
+be infertile to marry, except to a man who is infertile or to a
+widower with children. Leah’s father says that “if she needs
+treatment, give it to her. We will explain the infertility later.”
+When told that she would need to give informed consent to
+the radiation treatment and surgery, her father replies, “but
+she doesn’t understand any of this. Look, tell her you’re
+taking her uterus out. Just don’t explain what it means. She
+won’t understand, she’s very naive.”1(pp81–82)
+Comment: Traditional Jewish belief does not recognize
+patient autonomy. According to Judaic teachings, life comes
+from and belongs to God. Treatment that can preserve life,
+as in this case, is obligatory and one cannot refuse the treatFig. 21-1. “Mina.” Oil on canvas by Raphael Soyer, 1932.
+This portrait of a young Jewish woman, painted almost
+70 years ago, captures the vulnerability of “Mina.” A
+father’s desire to protect a daughter is common to all
+societies, but is particularly strong in a patriarchal culture such as Judaism. Reproduced with permission from
+Forum Gallery, New York.
+Military Medical Ethics, Volume 2
+690
+sional requirements of the physician). The other concept is that of following accepted American medical-legal-ethical practice concerning the patient’s
+right to make an informed consent, even if that right
+of informed consent is alien and distressing to the
+patient. Although this particular dilemma is perhaps
+more clearly enunciated than many, it nonetheless
+is indicative of the ethical dilemmas in the provision of medical care in an increasingly multicultural
+patient base.
+Medical, nursing, social work, and clinical pastoral journals have all reported and discussed anecdotal accounts of ethical dilemmas faced by
+healthcare professionals, their patients, and family
+members as they all seek what they believe to be
+the best solution to a medical problem. Within the
+last few years the literature has also included discussion focused specifically on the patient’s religious beliefs and cultural values in particular cases,
+while there has been only limited discussion of the
+healthcare professional’s personal religious beliefs
+and cultural values. There has been, however, no
+discussion of religious and cultural considerations
+as they affect military healthcare specifically.
+THE IMPORTANCE OF UNDERSTANDING DIVERSITY
+Knowledge of religious and cultural considerations can help all healthcare professionals to:
+• realize that religiously and culturally
+grounded concepts, values, and interpretations differ about what are appropriate conduct and good outcomes within the therapeutic relationship;
+• become aware of their own personal and professional religious beliefs and cultural values
+as healthcare professionals and how these
+values influence their perceptions of (and
+actions and interactions with) patients; and
+• become sensitized to the specific cultural
+and religious values, beliefs, and actions
+that affect patient care decisions.
+Having an awareness of the influence of religious
+and cultural factors in healthcare is essential to
+American healthcare and especially to military
+healthcare, given the military’s worldwide deployment. A military healthcare professional will find
+such knowledge helpful in providing medical care
+to persons of a non-American or non-Western religion or culture, whether at home or in a distant part
+of the world. This is particularly true where religious
+and cultural considerations pose significant value
+conflicts between military healthcare professionals
+and patients and their families.
+This chapter’s discussion of religious and cultural considerations in military healthcare will explore religious considerations and cultural considerations in general, as well as examining how these
+EXHIBIT 21-1
+DOES HEALTHCARE POSSESS RELIGIOUS VALUES THAT AFFECT PATIENT-CARE
+DECISIONS?
+Thinkers disagree about the impact of religious values on patient-care decisions. Callahan would answer that
+religious values do not impact patient care, arguing that, “for all the steady interest of some physicians in
+religion and medicine, the discipline of medicine itself is now as resolutely secular as any that can be found in
+our society. It is a true child of the Enlightenment.”1(p3) Geisler, however, argues that if the discipline of medicine substantially embraces secular humanism, then secular humanism’s significant value orientations qualify
+under some definitions as a personal or corporate religious belief or creed. 2(p174) Geisler argues that secular
+humanism, as a world view, contains distinctive value orientations that are both cultural and religious in nature. In demonstrating his position, he contrasts a traditional Judeo-Christian world view with a secular humanistic world view. In the former, there is a creator, man is specially created, God is sovereign over life, sanctity-of-life is more important than quality of life, and ends do not justify means. In a secular humanistic world
+view, there is no creator, man evolved from animals, man is sovereign over life, quality of life is more important
+than sanctity-of-life, and ends do justify means.
+Sources: (1) Callahan D. Religion and the secularization of bioethics. Hastings Cent Rep. 1990;20(4):Suppl. 2–4. (2) Geisler N.
+Christian Ethics: Options and Issues. Grand Rapids, Mich: Baker; 1989.
+Religious and Cultural Considerations in Military Healthcare
+691
+considerations influence the healthcare environment, especially within the context of a military
+deployment. As already alluded to, the difficult issue is first being aware of these differences, then
+responding appropriately. As Kluckhohn points out,
+cultural value orientations answer important human
+questions about the nature and purpose of man, man’s
+relationship to nature and his fellow man, and man’s
+time dimensions. 2(p64) Religious value orientations
+address the same questions with an additional emphasis on a person’s relationship to God.
+This chapter, although at times emphasizing
+medicine’s role in value conflicts, seeks overall to
+encompass all military healthcare professionals. It
+is neither intended to be an outlined primer of specific religious or cultural beliefs, nor an overview
+of healthcare cultural anthropology, but rather describes only some of the potential conflicts posed
+by religious and cultural considerations. In keeping with that philosophy, this chapter discusses only
+briefly the dynamics of the individual healthcare
+professional’s personal religious beliefs as they relate to patient-care decisions. Likewise, this chapter addresses indirectly the question of whether
+healthcare possesses religious values or beliefs that
+play a part in patient-care decisions. (Exhibit 21-1
+explores in detail the disagreement between philosophers regarding this question.) Regarding
+healthcare values that are arguably “religious,” this
+chapter discusses them and their influence on patient-care decisions as a part of the “culture” of
+healthcare.
+RELIGIOUS CONSIDERATIONS IN HEALTHCARE PROVISION
+For a physician to appreciate others’ religious
+and cultural values, an understanding of one’s own
+religious and cultural roots and their influence on
+one’s thinking is essential. Though this country,
+especially its military, has increasingly become
+multicultural in composition and pluralistic in religious belief, there is a religious and cultural tradition that has had an effect on American medicine
+and the ethics that define it. That tradition has been
+defined as American moralism, which was shaped
+by the Calvinist tradition brought from England by
+the Puritans in the 1600s and the Jansenist tradition brought from Ireland by Irish-Catholic immigrants in the 1830s. 3(pp114–115)
+Religious Culture’s Shaping of America and
+American Healthcare
+The early immigrants to this country did a great
+deal to shape America as it is today. In order to
+understand these influences, it is necessary to look
+at religious traditions in America and how they
+gave rise to American moralism.
+America’s Religious Traditions
+Calvinism, as practiced by the Puritans, professed that believers are to plunge into secular
+world activities with a pure heart. Calvinists believed that a clear, unambiguous perception of
+God’s commandments and an unquestioning, voluntary dedication to their observation would protect them from contamination as they moved to
+subdue nature and society to Divine Governance. 4(p23)
+Through the revival movements (Figure 21-2) following the American Revolution and in the post–
+Civil-War period, this moralism took on the task of
+ascertaining the sins of the community that needed
+reforming and saving the Western migration from
+barbarism. A profoundly emotional fundamentalism emerged, with overwhelming emphasis on
+soul-saving, personal experience, and individual
+prayer. 5(p13),6(p120)
+Jansenism, spiritually inspired by the theology
+of Saint Augustine in that humanity had to be kept
+in check by penitential vigor, is a Catholic cousin
+of Calvinism. Jansenists opposed “probabilism”—
+a rule that allowed a person whose conscience is
+troubled about the right course of action to choose
+and act on any well-founded opinion that is “certain” or, at least, “more probably” correct. Like its
+Protestant counterpart, Jansenist revivalism spread
+throughout American Catholicism in the latter
+1800s.
+Both traditions, though different, had in their
+common, recurring themes3(pp118,120):
+• insistence on clear, unambiguous moral
+principles, known to all persons of good
+faith;
+• denial of the possibility of moral paradox
+or irreconcilable conflict of principles;
+• avoidance, as much as possible, of detailed
+examination of exceptions to principles and
+rules;
+• reduction of complex moral problems into
+simple, overarching ideals that linked together issues that, viewed from a more discerning viewpoint, appear distinct (eg, for
+Protestants, sex education and pornography;
+Military Medical Ethics, Volume 2
+692
+for Catholics, contraception and abortion);
+• affirmation of absolute moral principles,
+from which any departure must be counted
+as sinful, making little or no room for justifiable exceptions (although the contents of
+those principles varied between the two traditions);
+• assertion of the Ten Commandments as
+dominant; and
+• adherence to cherished and strictly ordered
+plans of life.
+American Moralism
+What emerged from these common, recurring
+themes of the Calvinist and Jansenist traditions was
+a pervasive American moralism that:3(p121)
+• emphasized continual reliance on fundamental moral principles;
+• furthered the tendency to remove a moral
+problem from the actual circumstances of
+moral action;
+• declared that moral principles in themselves must be affirmed—exceptions and
+excuses must not be considered because
+such considerations would distract from the
+principle itself;
+• maintained that antithetical categories that
+sought boundary systems and patterns of
+control would affirm order against disorder; and
+• insisted on a stream of thinking that deeply
+believed in clear, unambiguous moral principles, the ability of common sense to grasp
+these principles, and the importance of the
+observance of these principles for the common good of the community.
+Although modern America has forgotten about
+its moralistic sources, and “the rigidity of the Calvinist and Jansenist heritage seems to have evolved
+Fig. 21-2. Converts weep and pray in this drawing of an 1836 revival meeting in the state of New York. Revival
+meetings encouraged individuals to repent of their sins and to work toward reforming their communities. Reproduced with permission from LIFE, Bicentennial Issue: The 100 Events That Shaped America. 1975; 63.
+Religious and Cultural Considerations in Military Healthcare
+693
+into a vague tolerance for all but the most outrageous violations,”3(p122) Jonsen maintains, “the moralism generated by [these] deep traditions, survives
+in the form, if not the content of the American
+mentality.”3(p122) The remnants of American moralism not only affect the ways Americans think today; they have greatly influenced American medical ethics as well. Jonsen believes that the original
+impetus for American medical ethics came from
+American moralism—which helped to bring the
+chaos of the new scientific medicine into the order
+of moral principle. 3(p126)
+Jonsen cites several examples of science’s pursuit of principle. Paul Ramsey’s book, Patient as
+Person,7 written by a man steeped in Calvinism, is,
+according to Jonsen, one moralist’s attempt to subjugate the new chaotic features of contemporary
+medical science to moral principles. Other attempts
+to ensure morality in science have been made by
+groups of individuals selected for their moral authority. For example, the Totally Artificial Heart
+Assessment Panel8 assessed ethical and moral implications and guidelines in using implantable artificial hearts. The National Commission for the
+Protection of Human Subjects of Biomedical and
+Behavioral Research studied the principles governing biomedical research. Their work resulted in the
+Belmont Report,9 which applied bioethical principles
+to research activities. The President’s Commission
+on the Study of Ethical Problems in Medicine10 studied principles governing the care of the terminally
+ill and patients in the persistent vegetative state.
+Probably the most enduring contribution that the
+American moralism movement has produced is
+“principlism”—the four principles of American biomedical ethics: autonomy, beneficence, nonmaleficence, and justice. 11 Only in the last two decades
+have other medical ethical models arisen to challenge
+the principle-based model. Clinical models, based
+on practical medical considerations, are espoused
+by Jonsen and colleagues12 and Fletcher and colleagues. 13 Jonsen and Toulmin, in The Abuse of Casuistry, propose classical casuistry as principlism’s
+chief opponent. 14 Pellegrino and Thomasma15 advocate a virtue ethic that focuses on right behavior by
+physicians. Fry16 proposes an ethic of care that requires a moral point of view of persons and establishes moral commitments that naturally emerge
+from context of the professional–patient relationship. (Chapter 2, Theories of Medical Ethics, discusses these and other models in detail.) Medicine
+in the United States today is based on ethics that
+reflects a secular fundamentalism that: (a) describes
+the same absolutism, same dichotomous world of
+good and bad, right and wrong as seen by the moralists, but shorn of religious rationale and religious
+sanctions; and (b) has the same obedience to the law
+but without the sanctions of eternal reward and
+punishment. 17(pp27–28)
+The work of ethicists can no longer be expected to
+uphold the clear and unambiguous principles of
+American moralism. Nevertheless, there is still a
+tension between those who find comfort in holding to the certitude of moralism and those who realize the ambiguity that pervades many ethical dilemmas that exist at the bedside. 17(p31)
+Religious Culture’s Influence on Western
+Medicine
+American moralism has not only affected the
+evolution of basic principles and institutions in
+America; it has also greatly influenced the Western
+world, its practice of medicine, and the development and application of medical technology.
+Pellegrino asserts that
+the transcultural challenge of accepting what medical knowledge has to offer in light of a particular
+culture’s values and beliefs, is vastly complicated
+because medical science and technology, as well as
+the ethics designed to deal with its impact, are
+Western in origin. 18(p191)
+Western cultures differ from other cultures in how
+empirical science is conducted, in what constitutes
+ethical behavior, and in the political systems that
+guide and adjudicate the practice of medicine. Military healthcare professionals, because of their role
+in worldwide medical deployments, especially need
+to be aware of these differences.
+In the Western world science is both empirical
+and experimental. It pursues objectivity and seeks
+the quantification of experience. It is driven by a
+common desire to gather information, share that
+knowledge, and build on it for future study or practical use. Science is both basic and applied; basic
+when it seeks to understand how or why something
+is, applied when it seeks a solution to a specific
+problem. Other cultures may be less inclined to
+aggressively uncover nature’s mysteries, less obsessed with the need for experimental verification,
+and more strongly drawn by the spiritual and qualitative dimensions of life.
+Western ethics, especially medical ethics, is principle-based, analytical, rationalistic, dialectical, and
+often secular in spirit. As previously noted, the
+United States as a country is multicultural and pluMilitary Medical Ethics, Volume 2
+694
+ralistic. These American characteristics have increasingly influenced other Western nations. Other
+cultures, however, are not as multicultural and pluralistic. The ethical systems of those cultures may
+be less dialectical, analytical, logical, or linguistic
+in character, and be more sensitive to family and
+community consensus than to autonomy, and more
+virtue based than principle based.
+These distinctly American characteristics, the
+result of both past history and current demographics, result in Western political systems that tend to
+be liberal, democratic, individualistic, and governed
+by law. The political systems in other cultures may
+be more attuned to authority, tradition, ritual, and
+religion. Some of these are more comfortable with,
+and more responsive to, the decentralization of decision making and more tolerant of social stratification and inequality. 18(pp191–192)
+Pellegrino’s observation, focused at the macrocultural level, suggests serious conflicts at the individual microcultural level. There, healthcare professionals steeped in Western healthcare cultural
+values interact with patients whose cultural orientations may or may not be the same. As the power
+and influence of Western medical science and technology expand throughout the world, the conflicts
+with different belief systems will only increase. With
+American military physicians routinely being deployed globally in military and humanitarian missions, the necessity for meaningful interaction and
+a developed sensitivity to different cultural beliefs
+is greatly increased—a need generally overlooked
+or at least underappreciated.
+Religious Beliefs and Values of the American
+Patient
+Regardless of the culture, the degree of modernization, or the policies or laws of a government, religious beliefs and values strongly influence many
+persons’ lives, both in America and abroad. One can
+gain a clearer understanding of a person’s present
+behavior or viewpoint by examining his religious
+beliefs, both past and present. Sometimes a person’s
+actions or beliefs are readily articulated in terms of
+a current religious belief. However, sometimes individuals may not be aware that the basis for their
+present behavior or viewpoint is a religious belief
+that they previously held or that influenced them
+earlier in life. In either situation, one may gain a
+clearer understanding of others by examining the
+religious beliefs and values that influence their behaviors, as well as the historical relationship between medicine and religion, and the little understood relationship between religious belief and
+health.
+Religious Beliefs and Values
+Religious beliefs and values provide a framework
+for understanding life and defining its limits. This
+framework is passed from one generation to the
+next through religious training and ceremony (Figure 21-3). Religion helps people understand their
+mortality. It develops an awareness of external conditions about which they can do nothing—conditions that circumscribe their existence and must be
+attended to if they are to continue to exist. These
+are the empirical conditions needed for the development and maintenance of all humans. Religion
+also shapes and helps people interpret the historical and cultural circumstances in which they are
+born and live, as well as many things about all
+people as individuals. These are the character and
+personality traits, proclivities, and cognitive tendencies that distinguish humans from all other
+species. 19(p127) Thus, religion describes and explains
+the human condition at its most fundamental level.
+Religion also provides a person with a unique
+concept of personal identity in the fullest sense. It
+helps people to understand themselves and the
+world around them in a more complete and satisFig. 21-3. An Orthodox Christian baptism. Father Georgii
+Studyonov baptizes a child in his church in southwest
+Moscow. Although officially banned by the former Soviet
+government for almost 75 years, religion remained an
+important part of the lives of many Russians. Ceremonies
+such as this one, performed here as it has been performed
+for centuries, help ensure the continuity of religious tradition through the most difficult of times. Reproduced with
+permission from National Geographic. Feb 1991;36-37.
+Religious and Cultural Considerations in Military Healthcare
+695
+fying way. Through religion they realize that their
+actions may have effects beyond their control in
+relation to others, the actions of those others, and
+subsequent events. People can, indeed must, live
+with others in a world that is not always friendly,
+is sometimes indifferent, and may be even hostile.
+The pervasive, supremely important integrating
+and reconciling function that religious beliefs and
+values accomplish in a person’s life often gives
+sense to the meaning of that life—a sense that might
+otherwise never be found. To better understand
+how this “sense to the meaning of life” can influence patients in other countries, it is helpful to first
+explore its impact on patients in America. By becoming aware of the prevalence of religious beliefs
+and values in patients seen stateside, military
+healthcare professionals can become more attuned to
+variations on these common themes in other cultures.
+A casual observer of contemporary American
+culture, with its emphasis on speed, immediate
+gratification, and acquisition of material goods,
+might be surprised to learn that Americans are a
+highly religious people. In studies of Gallup surveys, 95% of Americans said that they believe in
+God,20 72% agree or strongly agree with the statement, “My religious faith is the most important influence in my life,”20 66% consider religion to be
+most important or very important in their lives,20
+57% pray (Figure 21-4) at least once a day,20 and 40%
+have attended church or synagogue within the past
+week20 (a figure that has remained remarkably constant in more than 20 Gallup surveys conducted
+between 1939 and 1993).
+Americans also frequently participate in religious
+healing activities. Although the data vary somewhat
+from region to region, the overall picture that
+emerges is one of religion playing an active role in
+healthcare issues for a considerable portion of the
+American population. In a survey of 586 adults in
+Richmond, Virginia, in the mid-1980s, 14% of the
+sample attributed physical healings (most commonly viral infections, cancers, back problems, and
+fractures), as well as help with emotional problems,
+to prayer or divine intervention. 21 In another recent
+survey of 325 adults, 30% reported praying regularly for healing and for health maintenance; consulting a physician was inversely correlated with
+the patient’s frequency of prayer and belief in the
+efficacy of prayer. 22 In a study of 207 patients in a
+family practice clinic, 56% reported that they had
+watched faith healers on television, 21% had attended a faith-healing service, 15% knew someone
+who had been so healed, and 6% reported that they
+had themselves been healed by faith healers. 23 In a
+survey of 203 hospitalized patients in North Carolina and Pennsylvania, 94% believed that spiritual
+health is as important as physical health, 73%
+prayed daily, 58% reported having strong religious
+beliefs, and 42% had attended faith-healing services. 24
+In summary, Americans are indeed a highly religious people. Whether or not they attend church,
+Americans’ religious beliefs and values are an integral part of who they are and what they are likely
+to do, or to not do. This is important for the healthcare professional to remember as he treats the patient
+not as a biological entity with a specific dysfunction, but rather as a whole person who is part of a
+complex social network. This relationship between
+religious beliefs and values, on the one hand, and
+health and healing, on the other, has not been exclusive to individuals. The relationship has existed
+between the professions of medicine and religion
+as well.
+Fig. 21-4. A. Durer: “Praying Hands.” Great Ages of Man:
+Age of Christianity. Prayer, a central tenet of many religions, is increasingly being recognized as an important
+aspect of health and healing. Reproduced with permission from Corbis, Inc.
+Military Medical Ethics, Volume 2
+696
+The Historical Relationship Between Medicine
+and Religion
+Medicine and religion have worked hand-inhand in the process of healing for thousands of
+years because suffering is universal and mysterious. Suffering necessitates healers to witness, understand, explain, and relieve that suffering. 25 These
+medical and religious practitioners have generally
+enjoyed an important and respected role in society.
+In ancient societies (as well as in some contemporary primitive societies), illness was perceived as
+primarily a spiritual problem. Religious and medical authority was often vested in the same person
+(eg, an Aaronic priest) who might himself become
+an object of worship (eg, Imhotep, Asclepius, Jesus
+Christ). From the early Christian era through the
+Reformation, the linkage between medicine and religion remained close. The first hospitals were founded
+in monasteries, and the missionary movement
+linked physical healing with spiritual conversion.
+By the 17th century, challenges to church authority and the rise of empirical science created rifts
+between medicine and religion. Science claimed the
+body (and later, the “mind,” or cognitive processes)
+as its domain, while religion held onto the soul. As
+science advanced the knowledge of the heretofore
+unknown, condemnatory critiques of religion arose:
+“the opium of the people”26 (Marx), “a universal
+obsessional neurosis”27 (Freud), and “equivalent to
+irrational thinking and emotional disturbance”28
+(Ellis). Early Western modern science, in its belief
+that it could ultimately solve all health problems,
+appeared to have supplanted religion. However, by
+the late 20th century, a growing disillusionment
+with modern science’s limitations coupled with
+more holistic concepts of health and suffering
+opened up the possibility of a rapprochement between
+medicine and religion. Nowhere is this rapprochement seen more clearly than in the willingness of
+scientists to investigate those religious beliefs that
+previously had been dismissed as irrational, selffulfilling prophecies.
+Documented Medical and Psychological Benefits
+of Religious Beliefs
+A body of research correlates religious belief with
+improved physical, emotional, and behavioral wellbeing, making a strong case for the incorporation
+of religious and spiritual values into medical treatment regimens. Research has examined areas as
+diverse as substance abuse, grief reactions, general
+health, general well-being, and survival rates for
+various illnesses. In each area, religion has been
+found to have a profound and positive effect for
+those who believe. These research studies have been
+carefully constructed and have withstood the rigor
+of the scientific research model, including statistical analysis.
+The question of how religious commitment might
+affect substance abuse has been the subject of several studies. For example, of 1,014 males matriculating between 1948 and 1964 at Johns Hopkins
+Medical School, 13% met criteria for alcohol abuse.
+The strongest predictor of subsequent alcoholism
+during medical school was a lack of religious affiliation, followed by regular use of alcohol, past history of alcohol-related difficulty, non-Jewish ancestry, and a number of other criteria. 29(p332)
+Of 248 men (87% Mexican-American) with opiate
+addiction treated at a Public Health Service hospital from 1964 to 1967, 11% subsequently enrolled in
+a long-term religiously based program. These patients
+were significantly more likely (45% vs. 5%) to abstain
+from opioids for 1 year after the program. 30(pp74–75)
+The researchers note that “[f]rom the standpoint of
+attractiveness or acceptability to opioid users, however, religious programs do not appear especially
+effective. Admissions to these programs equal only
+3% of all admissions to treatment and only 11% of
+all subjects in the study.”30(p75) They did add that
+“[a]lthough religious programs seem to attract only
+a small minority of opioid users, they are an effective
+alternative to conventional therapies for some.”30(p80)
+There were 2,969 participants in the National
+Institute of Mental Health Epidemiologic Catchment
+Area survey (1983–1984) in North Carolina, which
+lasted 6 months. The researchers found that “those
+who attended church at least weekly … [had a] likelihood of abusing or being dependent on alcohol
+[that] was less than one-third (29 percent) the rate
+among those who attended less frequently.”31(p229)
+“[T]hose who prayed and read the Bible at least
+several times a week … [had a] likelihood of having had an alcohol disorder in the past six months
+[that] was less than half (42 percent) the rate for the
+rest of the sample.”31(p229) The researchers concluded
+“[t]he data presented here do not lend themselves
+to interpretations about the cause of the relationships between religious variables and alcohol use,
+for two reasons. One, the data are cross-sectional
+in nature, and two, although our analyses were controlled for a number of basic demographic and
+health variables, it was not possible to account for
+the full range of variables in which religious behaviors and alcohol use may be enmeshed.”31(p231) Nonetheless, the data raise interesting questions for furReligious and Cultural Considerations in Military Healthcare
+697
+ther research.
+Another area of interest to researchers was that
+of adjusting and coping during and after long-term
+terminal illness of a loved one. In a study of 145
+parents of children who had died of cancer, 80%
+reported receiving comfort from religion during the
+year after the child’s death and 40% reported a
+strengthening of their religious commitment during that year,32(p226) which was positively associated
+with better physiological adjustment, emotive adjustment, and perceived helpfulness of religion. 32(p233)
+The study authors concluded: “Basically, it appears
+that religious commitment is both a cause and a consequence of the process of adjustment to bereavement. Both segments of the analysis revealed a
+stronger religious commitment arising out of an
+individual’s attempts to cope with the death. …
+With regard to religious commitment as a determinant of adjustment, the qualitative segment of the
+analysis found that the likelihood that parents
+would derive comfort from the theodicy of purposive death was increased if they also displayed an
+especially strong religious faith.”32(p237)
+In a 1985 study of 65 low-income elderly women
+who had one or more stressful medical problems
+within the previous year, the most frequent coping
+responses for handling medical illness were prayer,
+selected by 59 of the respondents (91%) and “thinking of God or religious beliefs,” selected by 56 of
+the respondents (86%). 33(p44) In addition, in a 1988
+survey of 62 caregivers of Alzheimer’s disease and
+cancer patients, religious faith was positively associated with a positive emotional state and negatively associated with emotional distress. 34(p334)
+Many religions worldwide believe that the prayer
+of others, as well as one’s own beliefs, can aid in
+overcoming many difficulties, including health
+problems. Research supports these beliefs. Religious
+and spiritual commitment and belief is indeed correlated to physical symptoms and general health
+outcomes. In a 1992 study of 172 students enrolled
+in Christian faith groups and 127 unaffiliated student controls, the faith group had statistically significant better perceived health; more positive affect; higher satisfaction; fewer emergency room,
+physician, walk-in clinic, and dentist visits; and
+fewer hospital days than the unaffiliated group. 35(p68)
+Among 1,344 outpatients in Glasgow, Scotland,
+those who participated in a religious activity at least
+monthly were less likely to report physical, mental, and social stressors associated with daily living after controlling for age and gender. 36(p684) In
+addition, in a prospective study of 2,812 elderly
+persons in New Haven, Connecticut, religiosity was
+inversely related to subsequent disability and directly related to improved functional ability. 37
+Religious and spiritual commitment and belief
+also have positive correlation to one’s perceived
+general well-being and quality of life. Among 560
+telephone survey respondents in Akron, Ohio, general life satisfaction was strongly correlated with
+religious satisfaction, closeness with God, prayer
+experience, frequency of church attendance, and
+church activities. 38(p267) Among 2,164 persons in the
+National Quality of Life Survey, feelings of being
+worthwhile were significantly related to the importance of faith,39(p300) church membership,39(p302) and
+church attendance. 39(p302) Using the same data from
+the National Quality of Life Survey, satisfaction
+from religion was found to be highly correlated with
+marital satisfaction, and satisfaction with family
+life, as well as general affect. 40 And, among 997 respondents to the 1988 General Social Survey, church
+attendance was positively correlated with life
+satisfaction. 41(p86)
+Finally, a series of studies examined the effects
+of religious and spiritual commitment and belief on
+survival. The largest of these studies surveyed
+91,909 individuals who lived in Washington County,
+Maryland. The researchers compared persons with
+various diseases who had died of those diseases and
+then examined the frequency of church attendance
+(once or more a week vs. less than once a week)
+among the total group, over a 3-year period. The
+study results found that those who attended church
+once or more per week had 74% fewer deaths due
+to cirrhosis, 56% fewer deaths due to emphysema,
+53% fewer suicides, and 50% fewer deaths due to
+coronary artery disease than those who attended
+less than once per week. 42(p669) In a prospective cohort study of 4,725 individuals in Alameda County,
+California, those who were church members had
+lower mortality rates than others independent of
+socioeconomic status and health behaviors (eg,
+smoking, drinking, physical inactivity, obesity). 43(p189)
+In a retrospective cohort study of 522 Seventh Day
+Adventist deaths in the Netherlands from 1968 to
+1977, Adventists were found to have an additional
+life expectancy of 9 years for men and 4 years for
+women when compared with the general population.
+Adventists had lower rates of overall mortality (45%
+of expected), neoplasms (50% of expected), and cardiovascular diseases (41% of expected). 44(pp456–457)
+Mormons also enjoy unusually good health, with
+cancer and heart disease rates less than one half
+those of the general population. Furthermore, the
+rate of cancer varies inversely with the degree to
+which the individual adheres to church teaching
+Military Medical Ethics, Volume 2
+698
+(including dietary restrictions) and participates in
+church activities, with highly religious Mormons
+experiencing one half the rate of cancers of less adherent members of the faith. 45(pp252,256)
+There are other studies that show equally impressive relationships between persons’ religious and
+spiritual beliefs and their physical, mental, and
+emotional well-being. These studies show that, regardless of a particular patient’s diagnosis or prognosis, to ignore or discount a patient’s religious or
+spiritual belief could omit a key element in a treatment regimen that could enhance returning that
+patient to a healthy state.
+Some General and Specific Religious Considerations
+As American healthcare professionals provide
+care for an ever-widening spectrum of patients, it
+has been shown that one can expect to encounter
+patients with varying degrees of religious belief that
+influence their healthcare values. This religious
+worldview may often be the framework for persons’
+self-worth, their view of the outside world, and
+their interaction with key people and situations in
+their lives. Developing an appreciation for the religious component of this framework may be a valuable key to understanding a patient’s approach to
+health, illness, and how the patient will cope with
+medical treatment with all of its complexities.
+Major Dimensions of Religion
+Faulkner and DeJong46(p354) propose five major
+dimensions of religion, each of which can be of
+unique significance to one’s health and illness.
+These are:
+(1)
+Experiential: The religious person will at
+some point in life achieve some direct
+knowledge of ultimate reality or will experience religious emotion (be “born
+again,” “come into full knowledge,” and
+be “slain in the spirit” are terms basic to
+fundamentalist Christian denominations).
+(2)
+Ritualistic: Religious practices that are expected of followers include worship, prayer,
+sacraments, and fasting (Roman Catholics,
+Lutherans, Episcopalians).
+(3)
+Ideological: These are the set of beliefs to
+which a religion’s followers must adhere
+in order to call themselves members.
+(4)
+Intellectual: The specific acts, beliefs, or
+explanations that members are to be informed about are called many things, to
+include: the basic tenets, the sacred writings, and the scriptures. These are written
+down, and available for study and discussion (eg, Christians—Bible, Jews—Torah,
+Muslims—Koran).
+(5)
+Consequential: Religiously defined standards of conduct are religious tenets that
+specify what followers’ attitudes and behaviors should be as a consequence of their
+actions (eg, the Biblical Ten Commandments, Five Islamic fundamentals, Jewish
+social and religious laws).
+Expression of Religious Beliefs
+There are many ways in which religious beliefs
+are expressed or demonstrated. Among these are
+prayer, holy days, religious symbols, garments, and
+dietary practices. 47 Although the specific guidelines
+for these expressions may vary from religion to religion, they all are important aspects of religious
+beliefs. And, as the preceding discussion of the
+documented medical and psychological benefits of
+religion has so aptly demonstrated, these expressions are a valuable adjunct to the overall healing
+process. By understanding and accepting the expression of these beliefs, the healthcare staff can also
+be aware of those expressions that may be detrimental to the health of the patient, especially certain dietary practices. Again, the emphasis is on the
+patient in a social context, to include religious beliefs and their expression.
+Prayer. Prayer can be a great source of emotional
+strength and comfort for those who are ill and also
+for their family and friends. Prayer can be formal,
+following a specified liturgy (eg, Roman Catholic,
+Episcopalian) or as a tenet of faith according to set
+rules. Devout Muslims must pray to Mecca, a holy
+city in Saudi Arabia, five times a day. Traditionally,
+they pray on a special prayer rug placed on the floor
+and facing in the direction of Mecca. Many Muslims in this country do this in the privacy of their
+homes or away from the public. In the case of a devout Muslim who is hospitalized, it is not unusual
+to have his prayer rug in the room so that he can
+engage in this ritual at the prescribed times. Prayer
+can also be informal or spontaneous, such as those
+that are offered at the patient’s bedside by members of visiting clergy. Many devout Christians (eg,
+African-Americans, fundamentalist-believers) view
+religion as an essential and integral part of life. They
+believe that God, the source of good health and
+healing, can cure disease and heal injury. To receive
+Religious and Cultural Considerations in Military Healthcare
+699
+this healing they must pray and have the faith that
+these prayers will be answered. This may also involve the presence of family members and friends
+in a prayer circle in the patient’s hospital room or
+in the hospital chapel. It is not unusual for them to
+ask their healthcare professionals to join them in
+prayer, because they view their healthcare professionals’ talents and skills as being under God’s
+guidance and use. Health care professionals should
+be sensitive to these expressions of faith.
+Holy Days. Holy days, which vary from religion
+to religion, are days devoted to participating in religious activities while often limiting nonreligious
+activities. Thus, depending on the religion, holy
+days may be days that are not well-suited to routine medical procedures, or may be problematic in
+the treatment of certain diseases. For Muslims,
+Ramadan (a period of 30 days around February or
+March) requires periods of fasting from sunup to
+sundown. For many Orthodox Jews, the Sabbath
+(from sundown Friday to sundown Saturday) is a
+time to spend with family and to worship God. On
+the Sabbath, work of any kind is prohibited, including driving, using the telephone, handling money,
+and even pressing an elevator button. The only law
+that is higher than observing the Sabbath is the law
+that requires everything possible be done to save a
+life. As these two examples demonstrate, there is a
+great deal of diversity between various religions in
+their holy days. It is obviously not possible for
+healthcare professionals to know every separate
+religion and its specific holy days. However, by
+being aware that there are various holy days for
+different religions, with specific restrictions, healthcare professionals can better plan with their patients
+the best course of action for treatment. This process need not consume a great deal of time, but it
+can do a great deal of good for the patient.
+Religious Symbols. In hospitals, one of the admission procedures is often the removal of all personal
+items of value from patients, including jewelry,
+watches, and so forth, for safekeeping. Many diagnostic tests require the removal of any items that
+might interfere with the procedure. In the event of
+a surgical procedure, all items are removed from
+the patient’s body before the operation to ensure a
+sterile environment for the patient (ie, jewelry) or
+to prevent a medical problem (ie, removal of false
+teeth). However, a number of religious faiths have
+symbols that have special meaning to those who
+wear them. Roman Catholics may carry or wear a
+rosary or wear a medallion. Jews may wear a Star
+of David on a necklace around their necks. Christians
+may wear a cross. Hindus may wear sacred threads
+around their necks or arms. Native-American Indians may carry medicine bundles. Mexican children
+may wear a bit of red ribbon. Mediterranean peoples
+may wear a special charm (eg, mustard seed in a
+circle or a ram’s horn) or a chain. Healthcare professionals unfamiliar with these religious symbols
+should learn about their significance to the patient.
+If, because of medical procedures, the symbol must
+be removed, a full explanation of the reason may
+need to be given to the patient. Sometimes an accommodation can be made to keep the symbol in
+the patient’s possession or close by so that the patient can derive the symbol’s benefit.
+Garments. At the same time that items of value
+are placed in safekeeping for the patient, the patient is also told to change into a hospital issued
+gown after completely removing all street clothing.
+However, some religions have prescribed particular garments for wear by their believers. Men of
+certain Jewish sects wear a prayer shawl (tallit)
+underneath their outer garments, though more than
+likely this garment is worn as an outer garment only
+when prayer is offered. A Mormon adult wears a
+special type of “garment,” which resembles shortsleeved long underwear that ends just above the
+knee. Usually the garment may be removed to facilitate care in a hospital, but some Mormons, particularly the elderly, may not wish to part with the
+garment, which symbolizes covenants or promises
+the person has made with God and signifies God’s
+protection. Where complete removal is not agreed
+to, it may be possible to adjust the positioning of
+the garment to allow medical care while still addressing the patient’s religious beliefs.
+Dietary Practices. Of all of the religious expressions, dietary practices are of the greatest concern
+to the medical professional. Whereas the other religious expressions generally only affect the delivery of patient care, some dietary practices affect
+patient health and outcome. Having noted that, it is
+important that the healthcare professional distinguish
+between those practices that require modification
+of hospital routine and those that are hazardous to
+patient health. For instance, both Muslims and Jews
+are forbidden by their religions to eat pork. This
+prohibition also extends to many foods that contain pork products such as ham or bacon fat. These
+prohibitions can be readily accommodated by the
+dietetic staff. Other foods can be dangerous. Dates,
+a favorite food of many Arabs, are very high in potassium, which must be strictly limited for patients
+suffering from renal problems. In some Arab countries, however, food deprivation is considered a
+precursor to illness, and to deprive an Arab of dates
+Military Medical Ethics, Volume 2
+700
+would be viewed as helping to bring on an illness.
+Orthodox Jews, following kosher dietary practices,
+will not eat pork, shellfish and non-kosher red meat
+and poultry. Mixing meat and dairy products, either in the same meal or by using the same plates,
+pots, or utensils for both, is prohibited. Nonreligious food restrictions can also create problems.
+Some ethnic groups will eat only hot or cold foods,
+depending on the seasons. The hot and cold are
+qualities, not temperatures. These foods, which
+make them “cold” inside their bodies in the winter
+or “hot” inside their bodies in the summer, are to be
+avoided if these patients are to develop appetites. It
+is best to ask about food preference at admission so
+that arrangements can be made either for the dietary staff to meet these dietary practices or for family members to bring in the appropriate foods. Also,
+each ethnic group has their own food preferences
+while other ethnic groups cannot tolerate certain
+foods. Many Asians like rice with every meal but
+are lactose intolerant, as are many African-Americans and Native Americans. Asian diets are generally very high in sodium but low in fats. MexicanAmericans tend to use a lot of salt and fats in their
+cooking. Either of these ethnic cooking styles could
+be problematic for hypertensive patients. Thus it is
+important to explore the dietary practices of all patients, accommodating those that can be, and explaining the medical reasons for those that cannot be accommodated during the hospital stay. If the healthcare
+professional has been open and accepting of these
+various religious expressions, the patient is more
+likely to respond when queried about specific dietary
+needs and more likely to cooperate with hospital dietary staff. However, if members of the medical staff,
+including the attending physicians, have indicated
+that the patient simply has to eat whatever the hospital provides, and brush off any protests to the contrary, there is the distinct possibility that family members will sneak in foods that may indeed be harmful
+to the patient. By understanding that the patient has
+religious beliefs, and religious expressions, the benefit of these beliefs can be incorporated into the healing process for the patient.
+CULTURAL CONSIDERATIONS IN HEALTHCARE PROVISION
+A General Overview
+Culture can be viewed as all of those parts of life
+that surround and influence people from the time
+they are born. It is a vital part of why and how persons make decisions. A culture has four basic characteristics48(p10): (1) it is learned from birth through the
+processes of language acquisition and socialization;
+(2) it is shared by all members of the same group; it
+is this sharing of cultural beliefs and patterns that
+binds people together; (3) it is an adaptation to specific conditions related to environmental and technical factors and to the availability of natural resources;
+and (4) it is a dynamic, ever-changing process,
+passed from generation to generation.
+Significance of Cultural World Views
+Every society has a basic value orientation that
+is shared by the bulk of its members because of early
+common experiences. In general, the dominant
+value orientation, or world view, of each culture
+guides its members to find solutions to the following five basic human problems. 2(pp67–69)
+(1)
+What is man’s basic innate human nature? Is
+it good, in that it is unalterable or incorruptible? Is it mixed with combinations of
+good and evil where lapses are unavoidable but self-control possible? Or is it evil,
+in that it is unalterable, or perfectible with
+discipline?
+(2)
+What is man’s relationship to nature? Is there
+a sense of destiny, in that persons are subjugated to nature, where fatalism and inevitability guide their endeavors? Is it viewed as
+mastery, in that the natural forces are to be
+overcome and be put to humankind’s use
+(American)? Or do people and nature exist together in harmony as a single entity
+(eg, Native Americans and Asians, who are
+more likely to ignore preventative medical measures)?
+(3)
+What is man’s significant time dimension? Is
+it centered on the past, where focus is on
+ancestors (Chinese) and traditions (British)? Is it oriented to the present, in that
+little attention is paid to the past and the
+future is considered vague and unpredictable (Hispanic and African-Americans)?
+Or is it future-oriented toward progress
+and change, lacking content with the
+present and viewing the past as “old-fashioned” (Americans and some Western cultures, who are more likely to stress preventative medicine)?
+(4)
+What is the purpose of man’s being? Is it focused on being—a spontaneous expression
+Religious and Cultural Considerations in Military Healthcare
+701
+of impulses and desires—or on doing—an
+active striving and achieving, a competition against externally applied standards?
+(5)
+What is man’s relationship to his fellow man?
+Is it lineal, stressing continuity through
+time, heredity and kinship ties, and an ordered succession (British)? Is it collateral,
+where group goals and family orientation
+are the primary focus (Haitians)? Or is it
+focused on the individual, with personal
+autonomy and independence as primary,
+authority limited, and individual, not
+group, goals dominant (Americans)?
+It is important to recognize that all societies are
+made up of collections of individuals who reflect
+to one degree or another the shared cultural heritage, or world view, of the group. Of course, individual variation within any cultural group is normal. One must be careful not to stereotype an individual simply because he comes from or belongs to
+a particular society or culture. Individuals share
+some part of the cultural heritage of their group,
+but never all of it, and they can interpret and apply
+social, cultural norms in a variety of ways, especially when norms are in conflict with each other.
+Individuals may evade norms, particularly norms
+that are weakly enforced. In addition, some norms
+are not learned by all members of a society.
+Cultural Concepts of Health
+The definitions of health and disease in any society are culturally influenced. When individuals
+become aware of a sign or symptom that indicates
+illness, they must make some choice about care,
+including the decision to perhaps not seek care. The
+choice is often based on the cultural characteristics
+and definitions of health, illness, and disease that
+these individuals accept as their own. As noted in
+the introductory comments to this chapter, when
+these concepts of health are similar to those of the
+healthcare professional, they receive little outward
+notice. The more these concepts differ from those
+of the healthcare professional, however, the more
+they are likely to be perceived as strange or not of
+relevance to the medical situation at hand and its
+successful resolution. For that very reason, this discussion of cultural concepts of health will begin
+with voodoo—a belief system that many medical
+personnel might find to be beyond their own cultural concepts of health.
+In Haiti, voodoo priests and priestesses treat a
+wide variety of problems. Clients come to them for
+help with love, work, and family problems as well
+as sickness. The voodoo practitioner’s first determination is whether the problem “comes from
+God.” If so, it is seen as “natural”—is meant to be,
+is unavoidable, and is for the greater good of the
+person. No priest or priestess will interfere in such
+a case. Only “supernatural” problems—those not
+part of the natural order or likely to have been
+caused by the spirits—will be appropriate for voodoo treatment. 49(pp50–51) Many Haitian patients receiving Western medical care will share the cultural
+concepts of voodooism. Therefore, those providing
+their medical care need to understand how these
+concepts will influence the patient in terms of the
+type of care the patient is willing to receive and how
+that patient may view that care. To ignore these issues may result in the patient being offered or given
+a treatment that is not allowed within this culture.
+Another example of a cultural concept of health
+and healing that differs from Western medicine involves the Chinese concepts of yin and yang. The
+yin force in the universe represents the female aspect of nature and is characterized as the negative
+pole, encompassing darkness, cold, emptiness. The
+yang, or male force, is seen as the positive pole and
+represents fullness, light, warmth. An imbalance of
+yin and yang forces creates illness, which is interpreted as an outward expression of disharmony.
+Going in and out of balance is seen as a lifelong
+natural process; accordingly, no sharp line is drawn
+between health and illness. Both are seen as natural and as part of a continuum. 50(pp109–110) Yin and yang
+conditions are assigned to body organs and health
+conditions. Yin is associated with cancer, pregnancy,
+menstruation, kidney, liver, lungs, and spleen; yang
+with constipation, hangover, hypertension, toothache, bladder, gallbladder, intestines, and stomach. 51 Thus, in these situations, it is important that
+the medical professional and the patient discuss
+these cultural differences to arrive at the best course
+of treatment for the patient.
+What a person recognizes as illness or disease is
+also culturally influenced. Most Americans believe
+that “germs” (biological processes) cause disease.
+Not all cultures share that belief. Other causes of
+disease include: (a) upset in body balance (Asia,
+India, Spain, Latin America), (b) soul loss (some
+African cultures), (c) spirit possession (Haiti, Ethiopia), (d) breach of taboo (Haiti, Caribbean cultures),
+or (e) object intrusion (some African and Pacific
+cultures). Again, the healthcare professional must
+be aware of these cultural differences in general,
+and determine whether or not the patient holds
+these non-Western beliefs.
+Military Medical Ethics, Volume 2
+702
+Healing Systems
+People throughout the world use several types
+of healing “systems,”52 to include those found in the
+popular sector, the professional sector, and the folk
+sector. The popular sector consists of lay people who
+typically activate their own healthcare by deciding
+when and whom to consult, whether or not to comply, when to switch treatments, whether care is effective, and whether they are satisfied with the quality of care they have received. Individual, family,
+social, and community networks often provide healing support in this type of healing system. The
+professional sector consists of any professional healing group (physicians, osteopaths, chiropractors,
+homeopaths, nurses, pharmacists), or other healers
+(such as traditional Chinese medical healers, or the
+practitioners of Ayurvedic medicine found in India).
+It is the folk sector that is of greatest import to the
+subject of this chapter, for it is this sector to which
+many patients turn for help. A mixture of many
+components, including all nonprofessional, nonbureaucratic specialties, comprise the folk sector.
+These components are subdivided into secular (eg,
+fortune tellers, astrologers) and sacred (eg, priests,
+shamans) categories.
+Western medicine’s adherence to a rational scientific-based healing tradition is in fact a minority
+view in comparison with other cultures around the
+world. There is, within Western medicine, an “etiology of disease,” which adheres to a scientific or
+biomedical health paradigm by holding that physical and biomedical processes can be studied and
+manipulated by humans and the use of a wide range
+of medical technology. The majority of world cultures
+advocate more non-traditional modes of healing. 53
+Holistic health paradigms hold that the forces of
+nature must be kept in natural balance or harmony.
+Practitioners of organic healing and medicine use
+drugs, surgery, and diet to treat traumatic injuries
+and certain pathological conditions. Nonorganic
+means use semimystical or religious practices to
+influence the patient’s mind and thereby cure certain specified physical or mental states. Religious
+and spiritual healing can range from scripturalbased faith healing that is found in a number of
+American fundamentalist religious denominations
+to the magico-religious health paradigms found in
+Haiti and many African cultures where supernatural forces dominate. These paradigms differ greatly
+from the scientific or biomedical health paradigm
+of Western medicine with its focus on the “etiology
+of disease.”
+The Culture of Military Healthcare
+American civilian and military healthcare are
+intimately intertwined. Indeed, military healthcare
+derives much of its culture from civilian healthcare.
+American civilian medical and nursing schools train
+most military doctors and nurses. The same professional standards usually govern both civilian and
+military healthcare practice. American military hospitals voluntarily comply with accrediting standards of the Joint Commission on the Accreditation
+of Healthcare Organizations. And, although military healthcare has long been “managed care,” it
+isn’t unique—civilian managed care organizations
+are increasingly providing America’s healthcare.
+Mixed Agency in Military Healthcare
+The military healthcare professional wears two
+hats as a member of two cultures—civilian healthcare and the military. In both professional arenas,
+the cultures are highly structured, routinely demand more than minimal personal sacrifice of their
+members, and require their members to maintain
+high standards of personal and professional conduct.
+Ironically, one culture (medical) aims to preserve life,
+while the other (military) stands ready to take lives
+(arguably, to protect and preserve other lives).
+Military healthcare differs from its civilian counterpart because of unique differences in the military’s
+culture. For example, military rank structure creates unique power issues among military professionals and patients. Unlike civilian patients who
+can pursue legal causes of action against their care
+givers, military service members are prohibited by
+federal law from suing the government in response
+to failed care. Indeed, sometimes a military service
+member’s medical decision-making ability is severely restricted, such that failure to consent to a
+medical procedure may mean immediate employment termination.
+Military healthcare providers have both a peacetime and a wartime mission. Peacetime missions
+include providing healthcare to service members
+and their authorized dependents as well as operations other than war, such as humanitarian missions
+(eg, Hurricane Andrew, Somalia) or a multinational
+peacekeeping mission (eg, Bosnia). Wartime missions include providing healthcare for US and allied service members, enemy prisoners of war
+(EPWs), and often civilian populations indigenous
+to the war’s location (Figure 21-5). The provision
+of wartime healthcare is governed by the Geneva
+Religious and Cultural Considerations in Military Healthcare
+703
+Conventions. Given the requirements of international law and the military’s readiness and warfighting goals, military healthcare’s obligations and
+responses to patients can vary greatly, differing
+perhaps from civilian triage. Thus, for example,
+prioritization based on the Geneva Conventions or
+the principles of battlefield triage, which emphasize military mission, suggests potential differences
+from civilian mass casualty triage principles.
+Values like courage or integrity that are deeply
+imbedded within military culture suggest potential
+differences from civilian healthcare when those
+military values encounter healthcare values like
+relieving suffering or therapeutic privilege. Although these norms and character attributes are
+observable in civilian healthcare, it is doubtful that
+they are, on the whole, as pervasive there as in the
+military context.
+Major Subcultures in Healthcare
+Although the medical healthcare team functions
+as a team, there are several subcultures within
+healthcare. Understanding these subcultures helps
+to facilitate effective communication and lessen
+misunderstandings and tensions between the various healthcare professionals.
+Medicine and Nursing. Medicine and nursing
+(Figure 21-6) are healthcare’s most easily perceived
+subcultures. Major differences have existed between
+the two throughout the centuries and continue to
+this day. These differences suggest significant potential for conflicts of values. The classic and parochial explanation, “doctors cure while nurses care,”
+only begins to explain the potential conflicts. One
+need only briefly examine the language each profession uses to discuss ethical problems to observe
+the significant potential for conflict between doctors and nurses. For example, in a study of Westernmedicine–trained healthcare professionals, Scandinavian doctors and nurses were asked to give their
+responses to ethically difficult clinical cases. Doctors’ response themes included: disease, scientific
+knowledge, distance, paternalism, preserving life,
+opportunism, power, survival, and feeling isolated
+as an individual. Nurse response themes included:
+health and daily life, experiential knowledge, closeness to the patient, quality of life, pessimism, powerlessness, death with dignity, and being together
+with colleagues. 54 The study demonstrates radically
+different professional value perspectives between
+medicine and nursing. In addition, medicine and
+nursing lack internally homogeneous values within
+themselves individually. Doctors are far from agreed
+about medicine’s ends. The current physician-assisted suicide controversy involves major debate
+about medicine’s ultimate ends (eg, patient autonomy and relieving suffering vs. human health
+and wholeness) and dispels the notion that medicine is a homogeneous culture. The same is true for
+the nursing profession, which is currently debating the meaning of “caring”—nursing’s very
+heart—in the context of increased patient rights,
+enhanced technology, fewer players in “the doctor–
+nurse game,”55,56 feminist concerns, and similar issues.
+The Culture of Physicians. In his article, “Cultural Influences on Physician Communication in
+Healthcare Teams,” Cali points out that physicians
+learn certain cultural values during their medical
+training. 57(pp23–25) They learn to value scientific objectivity while discounting the importance of emotional well-being or expression. Medical students
+are expected to “act like a doctor,” and use of medical jargon leaves no room for student objectivity.
+The acquisition of knowledge is above all other priorities. Emotional responses are to be handled in
+private. Beginning with the drive to gain admission
+to medical school, a professional omnipotence is
+developed. If successfully admitted, the new student learns that he or she is “set apart” from those
+unable to enter medicine’s inner sanctum. Physician instructors encourage and reinforce the drive
+to excel in medical school and to impress others
+with knowledge and mastery of facts. Medical students are taught to acknowledge that mistakes will
+Fig. 21-5. The 5th Mobile Army Surgical Hospital
+(MASH), a US Army field hospital, at Ad-Damman, Saudi
+Arabia, during the Persian Gulf War (1990–1991). Artwork by SFC Sieger Hartgers. Courtesy of the US Army
+Center of Military Art.
+Military Medical Ethics, Volume 2
+704
+be made, but not to dwell on them and to develop a
+protective sense of omnipotence and omniscience
+(Figure 21-7). The use of medical jargon, class differences, and the withholding of information further enhance physician power. Part of this withholding of information occurs when physicians limit
+their availability to others. This causes other
+healthcare staff to spend a considerable amount of
+time tracking the physician’s day-to-day patient
+management. In these situations, time with the physician readily becomes a prized commodity.
+As with most skilled professionals, physicians
+develop heroes in their own profession. The recognition of admirable traits in other physicians occurs
+gradually. Often a physician is admired for a particular expertise (eg, possessing technical proficiency, achieving success with particular types of
+cases, or demonstrating genuine compassion). The
+medical student often builds a personal repertoire
+of skills and values by selecting fragments of heroism recognized in these established physicians.
+Medicine also has its own rites of passage. For example, young physicians are taught to subordinate
+personal comforts and to endure a large degree of
+hardship. “House Officer Stress Syndrome,” which
+involves episodic cognitive impairment, chronic
+anger, pervasive cynicism, family discord, depression, suicidal ideation and suicide, and substance
+abuse, is quite prevalent. 58
+Even physician communication patterns are culturally learned. Minimizing or trivializing experiences helps the physician maintain an emotional
+distance and protects the sense of omnipotence. An
+example of this is found in a feature of life among
+Fig. 21-6. Robert Thorn’s recent painting depicts a religious nurse in a medieval hospital. These nurses were the
+forerunner of today’s highly trained nursing professionals. The nurses were involved in the lives of their patients 24
+hours a day, beginning the model of care persisting until modern times. Courtesy of Parke-Davis, Division of WarnerLambert Company.
+Religious and Cultural Considerations in Military Healthcare
+705
+surgeons called “the horror story.” These moral
+parables, so-to-speak, are “an element of the oral
+culture of medicine that remind all that healing is a
+difficult business that must always be done with
+care.”59(p103) These stories are at times somewhat
+humorous with actions set in the past at an exact
+time that no one can recall and the participants in
+the story are ones whose names cannot be recalled.
+They usually come in two forms: the cautionary tale
+(drives home the need for caution, care, and completeness) and the story that communicates the
+shared difficulties that all surgeons face. 59(pp103–104)
+Naming and humor shields physicians from the
+awesome encroachments of suffering, death, and
+powerlessness. It doesn’t take long for the physician to learn how to control situations through communication behavior.
+The Subculture of Managed Care. Four metaphors embody the meaning of American healthcare:
+(1) the ministry of healing, (2) the war against disease, (3) the defense of patients’ rights, and (4) the
+newest metaphor—“healthcare as an industry.”60
+Together they describe a culture rich in tradition,
+ripe with change, and filled with potential for increased conflict among the basic values undergirding each metaphor. The potential for the greatest
+conflict stems from the “healthcare as an industry”
+metaphor, particularly the burgeoning industry of
+managed care.
+Under managed care, the doctor balances patients’ interests against one another in allocating
+limited resources among them with one clear objective—to cut costs. Bonuses and fee withholds
+encourage and enforce the physician’s cost-consciousness. Thus, patients’ needs compete directly
+with the doctor’s financial interests,61(p331) with the
+result that managed care creates major potential
+conflicts within healthcare with two of healthcare’s
+four metaphors—the physician as benevolent healer
+and the patient’s rights.
+Managed care may also be viewed as part of a
+larger healthcare subculture—health services delivery, or healthcare administration—a subculture
+with values that routinely conflict with healthcare’s
+Fig. 21-7. This 19th century drawing of a physician holding death at bay reflects a cultural view of the role of physicians. Medical students tend to be indoctrinated into a culture of war, in which they battle death rather than focusing
+primarily on the needs of the patient. Reproduced with permission from Corbis, Inc.
+Military Medical Ethics, Volume 2
+706
+traditional clinical subcultures. Consider its values
+interaction with traditional physician values. Managerial values like total quality management, group
+activity, process focus, and cooperation are at odds
+with traditional physician values like professional autonomy, self-reliance, and independence. Regarding
+patients’ religious or cultural values, the culture of
+managed care with its cost-cutting focus may be less
+open and responsive to tailoring healthcare to an
+individual patient’s religious or cultural values,
+particularly when honoring the patient’s values
+costs more.
+Fig. 21-8. “My students know nothing about being Jews,”
+says Vladimir Zeiv, a teacher of Hebrew at the Moscow
+Synagogue. Judaism as a culture encompasses not only
+the religious aspects of life, but also every aspect of living. This rich tradition is passed down from generation
+to generation. Reproduced with permission from National
+Geographic. Feb 1991; 23.
+WELLNESS AND ILLNESS: TWO OTHER RELIGIOUS-CULTURAL VIEWS
+Many cultures have developed at least an oral
+tradition that predates American culture. The values of these cultures share the same basic concern
+for the health and medical welfare of the patient
+and society as Americans do; however, the sources
+from which their values have evolved present a
+contrast to those found in this country. Two of these,
+Judaism and Islam, are religious-based cultures that
+provide an interesting contrast to American views of
+health and illness, and inform their medical ethics.
+Judaism
+For the purposes of the discussion in this chapter, two aspects of Judaism will be presented: (1)
+the view of life and illness, and (2) the principles of
+Jewish medical ethics.
+Judaism’s View of Life and Illness
+Basic beliefs that form the basis of Jewish thinking concern life and the body, illness and healing.
+As with all religions, these beliefs are handed down
+from one generation to the next (Figure 21-8). “In
+the struggle for survival and the fight for life itself,
+Judaism assigns to individual human life an intrinsic value, probably higher than any of its cognate
+faiths.”62(p75) This belief is based on the passage in
+the Talmud (one of the primary sources of rabbinic
+discussions and decisions on medical matters in the
+ancient world) that describes the creation of Adam
+by God, in that “if any person causes a single life to
+perish, Scripture regards him as if he had caused
+an entire world to perish” (Sanhedrin 37a). Believing God created bodies as well as minds, emotions,
+and wills, the rabbis assumed that human bodies
+were God’s property, which he leased for the duration of one’s life. Thus, one does not have the right
+to destroy the body by suicide, but rather has the
+responsibility to take care of it. 63(p45),64(p8) In Jewish
+halakah (the Judaic legal system), virtually every
+religious precept, with the exception of murder,
+idolatry, and forbidden sexual relationships, is suspended in order to enhance even the remote possibility of saving a human life. Moreover, matters of
+hygiene, diet, exercise, and sleep were subjects for
+legal obligations under Judaism. 64(p10),65(pp17–19),66(p8)
+As the creator of everything, according to the
+Bible, God is ultimately the author of health and
+disease (Deut. 32:39). God is depicted in biblical
+accounts as visiting illness on people as a punishment for their sins and as a means of expiation
+(Deut. 28). This linkage between sickness and sin
+has been challenged even though it has been sustained in Jewish sources. The Book of Job (Figure
+21-9) addresses this issue as does a popular book,
+When Bad Things Happen to Good People, by Rabbi
+Harold Kushner. Because it was difficult to explain
+the suffering of the Jews according to this view of
+sin and sickness, Judaism instead generally addressed
+the degradation, death, destruction, and exile that
+Jews suffered rather than physical illness. “Wounds
+and dismemberment suffered in the course of persecutions were all seen as a part of the broader question of how God would allow human beings to inflict suffering of all sorts on his covenanted people
+in the apparent absence of sin.”64(p13)
+Religious and Cultural Considerations in Military Healthcare
+707
+The causative properties of sin did not prevent
+the rabbis of the Talmud from identifying the physical causes of illness or from seeking to cure them.
+The most widely held view was that blood was the
+chief cause of disease. Therefore, bloodletting was
+prescribed for various illnesses. Other carriers of
+disease mentioned in the Talmud include bile, the
+air, contaminated food or beverages, bodily discharges, clothing, bath water, animals, and insects.
+Lack of fluids, injury to the spinal cord, excessive
+eating, fasting, drinking of liquor, and sexual activity were also thought to cause disease. Psychological causes were also recognized. It is also notable that Jewish sources attributed sickness to the
+work of demons, although they rarely linked the
+demons to the previous sins of their victims. “Jews
+apparently acquiesced to the inconsistency of believing in both an omnipotent God and independent demons.”64(p14)
+Jewish belief in the obligation to save the life of
+an endangered person is derived from the Talmudic verse, “Neither shall thou stand idly by the blood
+of thy neighbor” (Lev. 19:16). The Talmud and the
+various codes of Jewish law offer specific examples
+of situations in which moral obligation exists with regard to rendering aid—rescue of a person drowning
+in a river, assistance to one being mauled by a beast,
+and aid to a person being attacked by bandits. 63(p46)
+These examples mandated nontherapeutic interventions. What remained controversial in early Judaism was accepting the work of therapeutic practitioners to cure illness.
+To counter the point that God is the source of all
+healing, and not man, the rabbis pointed out that
+God himself had authorized healing, in fact required it. This authorization and imperative was
+found in two biblical verses: (1) an assailant must
+ensure that his victim is thoroughly healed (Exodus 21:19–20), and (2) “you shall restore the lost
+property to him” (Deut. 22:2). The Talmud understood the Exodus verse as not only giving permission for the physician to cure, but making such treatment mandatory. 63(pp47–48) “On the basis of the extra
+letter in the Hebrew text of the Deuteronomy passage, the Talmud declared that the verse included
+the obligation to restore a fellow man’s body as well
+as his property; hence there was an obligation to
+come to the aid of another person in a life threatening situation.”64(p15),67(p16)
+Other Talmudic instructions include the obligation of providing medical aid to encompass expenditure of financial resources (Lev. 19:16, previously
+mentioned), and the exemption of physicians from
+any liability for injuries they caused in the process
+of healing (“And you shall love your neighbor as
+yourself,” Lev. 19:18). It is assumed by the rabbis
+that this last reference infers that the patient, like
+the physician himself, would be willing to take
+some risk to be healed (Sanhedrin 48b). One other
+Jewish law forbade any person to live in a town in
+which there was no physician, for doing so would
+expose a person to an unacceptable degree of risk
+and would prevent them from fulfilling his or her
+obligation to receive medical care (Yoma 83-84,
+Sanhedrin 17b). 67(pp37–38)
+Principles of Jewish Medical Ethics
+Many of the aforementioned Jewish moral and
+halakic principles and rules have significant bearing upon the Jewish practice of medicine. These
+comprise what could be considered fundamental
+principles of Jewish medical ethics: 68(p406),69(p66)
+• Judaism subscribes to commitments, obligations, duties, and commandments commonly
+Fig. 21-9. The Purpose of Man’s Being. “Job,” by Dutch
+painter Jan Lievens (1607–1674). The sufferings of Job, a
+man blameless before God, challenge the linkage between
+sickness and sin. Reproduced with permission from the
+National Gallery of Canada.
+Military Medical Ethics, Volume 2
+708
+shared by all observant Jews. Jewish ethics
+subscribes to moral self-fulfillment through
+the obedience to moral-religious norms and
+requirements.
+• Judaism, in general, favors a casuistry approach, rather than a zealous adherence to general principles. Each case is dealt with on its
+own merits, depending heavily on the specific and individual circumstances.
+• Judaism is against absolutizing any single precept, rather, a middle way is always advocated.
+When conflicting values in medicine are
+encountered, each patient must be considered individually, and a solution is reached
+depending on the specific clinical and ethical circumstances.
+• The principal aim of studying ethics and Jewish law is to act accordingly. The dictum is
+“to learn in order to perform,” and not to
+merely engage in intellectual exercise or
+academic analysis.
+• The physician–patient relationship is viewed as
+a covenant. This relationship is not viewed
+as a negotiable contract in which the parties
+agree to the relationship beforehand and
+which either party can terminate without
+consequences. There is an obligation upon
+a physician to always extend help to those
+who are in need of his or her services.
+• Judaism views the seeking of medical attention
+by the patient as a moral imperative. No one
+has the right to refuse medical treatment
+deemed necessary and effective by competent opinion.
+• Human life is sacrosanct and of supreme worth.
+Any precept, whether religious or ethical
+(except idolatry, murder, and adultery), is
+automatically suspended if it conflicts with
+the interests of human life. Every human
+life is equally valuable and inviolable.
+Thus, the Jewish view of life, illness, health, healing, and medical ethics is primarily based on
+halakah, and embraces Jewish laws, practices, and
+observances since the time of Abraham. Jews speak
+from within their own religious tradition that recognizes the sanctity and worth of human life, and
+the imperatives for the patient and the healthcare
+professional to seek and provide needed medical
+care. Yet, Judaism recognizes the limitations of
+medical science to heal or cure in every instance.
+Accordingly, one is neither to prolong the moment
+of death, nor hasten its arrival. Jews are keenly
+aware that the body, as the creation and property
+of God, is on loan for the duration of life.
+Islam
+Islam is the third of the monotheistic religions,
+commonly referred to as the Abrahamic religions,
+the other two being Judaism and Christianity. The
+three principal figures in these religions share the
+ancestry of Abraham: Moses and Jesus through his
+son Isaac, and Mohammed through his son Ismail.
+They all embrace the Abrahamic belief in God and
+His oneness. Uniquely, Islam recognizes the other
+two religions and proclaims itself as the last link of
+the long chain of God-sent messages. 70(p57)
+Muslim writers emphasize the uniqueness of
+God’s revelation to Mohammed, in which religion
+and morality are seen as inextricably linked. Thus,
+Islam is not only a religion of dogma and theological statements, but it also influences deeply the behavior of every believer in all areas of his or her
+life. 71(p174) Islam has a framework of a total legal system to regulate and organize various aspects of
+human activities. “Law is a human necessity, and
+morals alone are not enough for actual government
+of society nor can they abound in a legal vacuum.”
+This total system of Islam is called the Shari’a, and
+although comprehensive, only a few rulings in it
+are fixed. It represents outlines that allow for flexibility and for new rulings to be evolved to suit new
+circumstances in changing times and places, but
+always within the general framework established
+by the Shari’a. 70(p59)
+Islamic View of Wellness and Illness
+The Shari’a is filled with rulings that reflect Islamic concepts of wellness and illness. Health and
+wellness are described not simply as the absence of
+disturbing factors such as illness, but as embracing
+the wholeness of human well-being. Wholeness,
+according to Islam, is granted by God, who is the
+cause of all wholeness, for “God gives food and
+drink, heals the sick, and makes persons die and
+live again” (26:79–81 [references in the Quran are
+noted in parentheses and follow this format]). Because God is the creator of everything, all evil is
+related to him insofar as it is caused to remind humans of misdoings in order to better the wrongdoer’s
+attitude. The Muslim knows that God’s will is somehow involved, either by directly causing suffering
+or allowing it to happen. “Suffering and illness
+clearly show that the originally intended wholeness
+has been disturbed either because God is punishing the wrongdoer or because humans must directly
+suffer the consequences of human sins.”71(p177)
+Moral education is seen as an important preventative measure to preserve a sane community and
+Religious and Cultural Considerations in Military Healthcare
+709
+to guarantee the individual’s happiness within that
+community. “Medicine, hygiene, and regulations for
+healthy living together form the guidelines for good
+living according to God’s will.”71(p178) To underscore
+this widely held Islamic belief, a book was written
+under the general theme of “medicine in the Koran.”72 In it, the author clearly shows that medicine
+and health, in Islam, must be seen as integral parts
+of wellness in general.
+In doing God’s will and putting the divine principles into practice, historically, Muslims did not
+merely wait for God to act but encouraged their
+scholars to accumulate as much knowledge as possible. With regard to medicine, they integrated
+Greek and other foreign medical techniques in order to cure the sick, at least as far as God allows for
+success in curing, as no one dies unless it is God’s
+decision (3:45). According to the Quran (5:32), saving and preserving life are among the highly regarded tasks. In practice, Muslims were among the
+first to build hospitals, engage in surgery, and use
+herbal and medicinal therapies for both corporal
+(Figure 21-10) and mental illnesses. 71(p179),73(p158)
+Principles of Islamic Medical Ethics
+As a means of incorporating Muslim beliefs and
+concepts in illness, healing, and specific religious
+obligations toward caring for the sick, the International Conference on Islamic Medicine, held in Kuwait in 1981, formulated a code of professional
+medical ethics. The code includes guidelines for the
+Islamic physician’s behavior and attitude, both at
+the personal and professional levels71,74,75:
+• The Muslim physician must believe in God and
+in the Islamic teachings and practice, both in
+private and public life. He must follow the
+path of righteousness and always seek
+God’s support.
+• The physician has a professional requirement
+to acquire and maintain proper medical knowledge. Scientific or academic research is encouraged so long as it aims to solve a particular problem or to “reveal the signs of
+God in His creation” (20:114; 35:28; 39:9).
+• The physician must abide by the legal rules
+regulating the profession, provided they do not
+violate Islamic teachings. Obedience to the
+law, both temporal and spiritual, is proper
+and expected (4:59).
+• The care the physician provides to his patient
+must be in accordance with God’s guidelines.
+Life is given by God, and cannot be taken
+away except by Him or with His permission (5:32; 25:3; 67:2).
+• The physician has no right to terminate any
+human life under his care. Abortion is restricted unless the life of the mother is at
+risk. For all patients, when treatment carries no prospect of cure, it ceases to be mandatory, but no action should be taken to
+actively bring about a patient’s death.
+• The physician has no right to recommend or
+administer any harmful material to his patients.
+God makes good things lawful and bad
+things forbidden (7:157). Pain and suffering must be alleviated physically (by medication), as well as psychologically. Active
+euthanasia is forbidden.
+• The physician must render the needed help regardless of the financial ability or ethnic origin
+of the patient. The advice given and the treatment rendered must consider both the
+patient’s body and mind, always remembering to enjoin what is just and forbid what
+is wrong (76:8–9).
+• The physician must protect patient confidentiality (23:8).
+• The physician must adopt an appropriate manner of speech. It must be pure and uplifting
+(22:24).
+• It is advisable that the physician examine patients of the opposite sex in the presence of a
+third person whenever feasible. This serves to
+protect both the patient and the physician
+(4:28; 24:30–31). Situations of this sort are
+Fig. 21-10. A pregnant woman, in the traditional Islamic
+clothing, receives a prenatal check-up. Islamic medicine
+has a rich and ancient heritage. It developed many innovative treatments while maintaining traditional modesty
+and values. Reproduced with permission from Martha
+Tabor.
+Military Medical Ethics, Volume 2
+710
+always a test of the physician’s moral character and his strength.
+• The physician must not criticize another physician in the presence of patients or health personnel (4:148; 49:11).
+• The physician must refuse payment for the
+treatment of another physician or his immediate family. There is no specific instruction
+for this in the Quran or in Islamic tradition.
+However, an analogy is drawn when God
+says: “Alms are for the poor, the needy and
+those employed to administer the funds…”
+(9:60). This is a situation where the persons
+providing a certain service are entitled to
+use the same service at the time of need.
+This also applies to physicians.
+• The physician must always strive to use wisdom in all his decisions and the reward will be
+great. “To whom wisdom is granted, is
+granted a great deal of good” (2:269).
+Islam, as a religion, has played a fundamental
+role in the creation of a culture that has nurtured
+the cultivation and development of medicine. Medical issues in Islam are not discussed in isolation
+apart from theology and religious law. Even though
+Islamic tradition held a high standard of ethical
+conduct in medicine, it was not until 1981 that any
+real attempt was made to codify the teachings of
+the Quran into a code of ethics. Although this code
+is not endorsed by all Muslim physicians, it does
+clarify how different the moral reasoning is of one
+in the Muslim tradition from secular and JudeoChristian medical ethical discussions.
+American medicine and its ethics reflect the empirical science it guides: it values the pursuit of
+objectivity and quantification of experience, and is
+analytical, rationalistic, dialectical, and often secular in spirit. 18(p191) Though its roots run deep in the
+Calvinistic tradition, American medical ethics has
+evolved into a rights-based discipline that seemingly accords an inordinate amount of autonomy
+to the individual without regard to the consequences of that autonomy to the good of the community or society.
+Within the Jewish and Islamic traditions, a person is seen as the creation and handiwork of God,
+as a member of the larger community of faith. What
+one does, as an individual, cannot be easily separated from the religious and social milieu in which
+one lives. One is less prone, as a Jew or Muslim, to
+make decisions without considering their impact on
+his or her standing in the church, the family, and
+the community.
+ADDRESSING CONFLICTS ARISING FROM RELIGIOUS AND CULTURAL CONSIDERATIONS
+As noted in the opening pages of this chapter,
+the American military is increasingly multicultural
+and multiethnic, just as is American society. Considering the various deployments of American military resources, it is only natural that American
+healthcare professionals will encounter individuals and cultures that can be considerably different
+from those in which they grew up. From the perspective of military mission, it is essential that religious and cultural consideration be given to each
+patient, in each circumstance, to maximize the
+medical benefits of an intervention. The first step
+is to understand the potential for conflict.
+The Potential for Conflict
+The greater the diversity of ideas and cultures,
+the greater the potential for conflict when people
+interact, especially at times of increased stress. The
+following examples reveal conflicts between healthcare professionals and patients and family members’ religious or cultural values.
+A Jehovah’s Witness father states his religiously
+based demand: “No blood transfusions!” Engaged
+in a desperate attempt to save the father’s young
+son’s life, the physician responds, “I may be sued,
+but I’ll not be responsible for murdering this boy
+because of your beliefs!” Asked the number of pregnancies she has had, a Hispanic woman answers,
+“two.” Later she mentions a third pregnancy—a
+miscarriage. In her Central American cultural background, miscarriages don’t equate with pregnancies; only the successful pregnancies count. 76(p256)
+The first example of religious value that creates
+a potentially high-drama conflict in patient care is
+easily identifiable. The second example involves a
+much more subtle conflict between different cultures’ languages, and highlights the fact that “language differences between physicians and patients
+are indicative of cultural differences that significantly affect care.”77(p727) Likely, many American
+healthcare professionals routinely and incorrectly
+label such conflicts as resulting wholly from the
+patient’s or family members’ odd or aberrant religious or cultural values, with little or no recognition of the role of the healthcare professionals’
+corporate (let alone personal, religious, or cultural)
+values in the conflict. Viewing the conflict as healthReligious and Cultural Considerations in Military Healthcare
+711
+care versus the patient’s (or loved ones’) religious
+and cultural values is overly simplistic. It fails to
+acknowledge that the patient’s religious and cultural values may indeed be another concept of
+healthcare. It also fails to understand that American healthcare is permeated with its own cultural
+values.
+Some Caregiver Guidelines
+The following discussion highlights five guidelines that healthcare professionals should employ
+in addressing conflicts in patient healthcare decision making that result from religious or cultural
+considerations or both.
+Develop an Awareness of the Potential for
+Conflict
+Leininger describes her observations of an
+American nurse with a Philippine female patient
+in her first stay in an American hospital. Having
+placed a small towel over the patient’s breasts, the
+nurse attempted to wash the rest of the patient’s
+almost naked body. During the washing, the patient
+was tense and struggled to cover her nakedness
+with blankets. She told the nurse, “I am clean and
+do not need this bath. Please leave me alone.” The
+annoyed nurse stopped the bath and left the room.
+Later, family members helped the patient to wash
+herself. 78 Privacy and modesty are very important
+to Philippine female patients. In the preceding example, the patient communicates these values to the
+nurse as best she can. Clearly, the nurse’s lack of
+awareness about this cultural factor contributes directly to the conflict over the care being provided.
+Approaches to developing an awareness of the
+potential for religious- or culture-based conflict in
+individual patient care decisions may differ. A minimalist approach is that until the patient communicates the potential for a problem, the caregiver need
+have little concern for potential conflict. This approach would likely have strong support in the costconscious, time-constrained managed care setting,
+where cost-cutting efficiencies compete with patient
+autonomy for highest priority. An advocate for honest and complete informed consent communication
+between doctors and their patients,79 however,
+would likely say that caregivers have an ethical
+duty to actively pursue and develop an awareness
+of the potential for conflict.
+The practical and/or ethical duty owed the patient may lie somewhere between the two positions.
+Given a general awareness of the potential for such
+conflicts, the caregiver should “screen” (triage) patients: (a) seeking to understand the patient in the
+larger context of his or her religion or culture and
+(b) sorting out for additional inquiry those patients
+with higher risks of care decision conflict grounded
+in religious or cultural values.
+More than listening to patients’ or family members’ words is involved. Patients and their families
+express their religious and cultural beliefs in a variety of behaviors and actions. Helpful clues about
+their religious or cultural values may be found in
+areas such as: (a) communication (eg, eye contact,
+idioms, first names, demeanor, expressions of pain);
+(b) social custom (eg, clothing, symbols, dietary
+practices, colors, ways of expressing grief); (c) family relationship (eg, visiting patterns, self-care issues, gifts, kinship); (d) gender issues (eg, women
+and authority, male dominance, female circumcision, virginity, female purity and modesty); and (e)
+folk medicine (eg, coin rubbing, cupping, folk healers, scars, fat).
+In developing the awareness under discussion,
+the caregiver must actively listen to the patient,
+approaching him with a “help me understand why”
+mind-set. Where a conflict involves language differences, improved translation alone may be inadequate to resolve the conflict. Any interpretation of
+the translation needs to be understood in the context
+of the patient’s religious or cultural value system.
+See Patients as Individuals Rather Than Stereotypes
+Providing healthcare to an individual patient
+within the framework of a religious or cultural stereotype suggests potential infringements upon the
+patient’s religious or cultural autonomy. For example, although Jehovah’s Witness patients generally refuse blood transfusions, stereotyping all
+Jehovah’s Witness patients as individuals who will
+refuse blood products without asking how the
+broad prohibition applies to an individual Jehovah’s
+Witness patient could violate the patient’s autonomy. People accept or comply with “official”
+religious or cultural beliefs or practices in varying
+degrees. Thus, for example, some Jehovah’s Witness
+patients while refusing whole blood will accept
+products made from blood fractions.
+A fine line exists, however, between framing
+one’s understanding of the patient by using stereotypes as compared to appropriately using generalizations. For example, a stereotype such as, “Mrs.
+Gonzalez is a Mexican; she must be Catholic; she
+must have a large family,” may well preclude further and open discussion. It fails to focus on Mrs.
+Military Medical Ethics, Volume 2
+712
+Gonzalez specifically. Using a generalization like,
+“I think many Mexican Catholics have large families; I wonder if Mrs. Gonzalez has a large family,”
+opens the discussion to an appropriate, personalized focus on Mrs. Gonzalez’s cultural situation.
+Understand the Impact of Religion and Culture
+on Patient Autonomy
+Religious and cultural considerations can actually change the concept of “patient autonomy” that
+is so important in modern American healthcare
+practice and ethics. American healthcare deems the
+competent, informed adult patient “autonomous.”
+Generally speaking, any patient can choose or reject medically indicated treatment or therapy even
+when it involves serious health risks, except where
+there is appreciable risk of serious harm to a third
+party. Consequently, obtaining the patient’s informed consent is essential in American healthcare
+jurisprudence and ethics. However, as in the case
+of Leah, sometimes autonomy or its derivative—
+informed consent—runs afoul of the patient’s religious or cultural values. A patient’s cultural or religiously grounded view of “authority” may have
+serious implications for the patient’s understanding of his autonomy, determining whether the patient views his role in the healthcare setting as either an active or a passive participant in treatment
+decisions.
+Develop an Awareness of One’s Own Religious or
+Cultural Values
+The healthcare professional must be aware of his
+or her personal or professional religious or cultural
+values as they relate to the patient and the patient’s
+autonomy. Cultivating this awareness is very important. Where those values differ significantly
+from the patient’s, the caregiver may have an ethical duty, and possibly a legal duty, to disclose his
+beliefs to the patient. In some cases, the caregiver’s
+appropriate action may be to transfer the case to
+another caregiver and to withdraw from the case.
+A classic conflict situation involves the physician
+who, because of religious beliefs, refuses to grant a
+terminal patient’s request to withdraw life support.
+A recent survey of 301 Texas physicians suggests that
+doctors’ religious beliefs can ultimately influence their
+clinical decisions. The survey produced a profile of
+the physician who is likely to deny medical futility
+while treating patients who are clearly dying or persistently unconscious. The profile details the following characteristics: male, attends religious services,
+defines failure as “not doing all you can do,” low fear
+of legal consequences, uncertain about efficacy and
+benefit of treatment for terminally ill patients, and
+emotional detachment from patients. 80
+It seems obvious that a doctor should not force
+his patients to accept his (the doctor’s) personal
+religious views. In December 1989, the American
+Psychiatric Association approved the following
+guideline to that effect for its member psychiatrists:
+Psychiatrists should not impose their own religious, antireligious, or ideologic systems of beliefs
+on their patients, nor should they substitute such
+beliefs or ritual for accepted diagnostic concepts
+or therapeutic practice. 81(p543)
+However, simply adopting rules like the above
+may insufficiently protect patients from their psychiatrists’ religious or cultural values. This is because Western psychotherapy, according to Torrey,
+is steeped in Western values. “[It] … is culture
+bound.”82(p219) Post, in his review of Torrey’s position, goes on to note that psychotherapy has
+“middle class values such as self-reliance, individualism, enhancement of wealth and social status, and
+rationalism.”83(p219) He acknowledges the significant
+conflict these values have with “the many forms of
+religious devotion, self-denial, and spiritual discipline that reject these values.”83(p219) (Post,83 for instance, discusses the problem of psychiatric involvement in faith breaking [“deprogramming”] and
+notes that some psychiatrists view religious conversion as pathological. This is a clear example of how
+Western psychotherapy’s culture rejects religious
+fundamentalism.) Consequently, regardless of the
+individual caregiver’s personal religious or cultural
+values, the professional cultural (and arguably religious) values he embodies may conflict with the
+patient’s religious or cultural values.
+What about the a-religious caregiver? One can
+envision the physician who wholly embraces the
+philosophy of science and/or secular humanism as
+his value system. Such a caregiver might project
+hopelessness, fatalistic surrender, or faith in nothing beyond medical science upon the patient. Considering the general rule in medicine that a physician should not abandon the patient, such behavior might inflict serious pain and psychological
+harm on the patient, resulting in emotional and
+psychological abandonment of the patient.
+To illustrate the point further, evidence exists that
+more African-Americans and Hispanics, as compared
+to non-Hispanic whites, want their doctors to keep
+them alive regardless of how ill they are, while more
+Religious and Cultural Considerations in Military Healthcare
+713
+non-Hispanic whites agree to stop life-prolonging
+treatment under some circumstances compared to
+African-Americans and Hispanics. 84(pp157–158) Whether
+or not these differences are due to cultural dynamics alone or to both cultural and religious considerations, one can envision possible conflicts when a
+physician who zealously pursues science’s ends
+aggressively seeks to persuade an African-American or Hispanic patient or family to acknowledge
+medical futility and stop life-prolonging treatment.
+Be an “Honest Broker” of Others’ Values
+When a patient’s or others’ religious or cultural
+values conflict with a caregiver’s personal or professional values, the caregiver must appropriately
+“broker” the patient’s values, using honesty and
+integrity in addressing the conflict. The “honest
+broker” caregiver consciously seeks to avoid using
+religious or cultural stereotypes that preclude additional and open discussion about the patient’s
+specific beliefs and values (Figure 21-11). He encourages healthy, positive dialogue with patients
+and others designed to clarify and understand their
+views. He facilitates rational discussion of all relevant
+values that allows for even-handed persuasion and
+precludes manipulative or coercive dialogue or behavior. He encourages focusing the discussion on
+how patients’ decision-making processes are influenced by their culture and faith traditions (Figure
+21-12) and away from a singular focus on clinical
+“certainties.”
+Caregivers, patients, families, and others (eg,
+hospitals, other patients) have vested interests in the
+Fig. 21-12. Blinking back tears, Elga Pahkel listens to the
+Estonian National Anthem. Photograph courtesy of Larry
+Davis, reproduced with permission. Photograph originally
+appeared in National Geographic. November 1990; 3.
+Fig. 21-11. Wedding belle Hayat Tawil was born and
+raised in the United States but met and married her husband, Eyad, during a visit to the West Bank. Photograph
+courtesy of JoAnna Pinneo; reproduced with permission.
+Photograph originally appeared in National Geographic.
+June 1992; 110.
+Military Medical Ethics, Volume 2
+714
+outcomes of the conflicts. At times it may be very
+difficult or impossible for the healthcare professional
+with a stake in the outcome to address the patient’s
+or other parties’ values with honesty and integrity.
+Caregivers who become entrenched or take sides
+in the dispute, who “demonize” the patient and the
+patient’s values as “extreme” or “irrational,” or who
+are unwilling or unable to remain open to the patient and his values, cannot serve as honest brokers.
+They need help to accomplish this guideline. In
+addition, some value conflicts are so serious that
+even if the caregiver is fully aware of all parties’
+values and is truly seeking to function as an honest
+broker of those values, additional help is needed.
+Some of the sources available to help the
+caregiver address the conflict include: (a) other
+healthcare professionals, (b) institutional ethics
+committees, (c) trained healthcare ethics consultants, (d) ethical decision-making models, (e) consultation with religious or cultural authorities, (f)
+conflict resolution strategies, training, and expertise, (g) participation in healthcare ethics or religious/cultural awareness programs, and (h)
+caregiver self-education.
+CONCLUSION
+Healthcare and its ethics have a long tradition
+that has largely taken on the values, beliefs, and
+practices of Western religious and cultural heritage
+found in America. Yet, Americans are increasingly
+interacting with persons—both patients and
+healthcare professionals, in this country and
+abroad—who are from different cultural backgrounds and who profess different religious beliefs.
+As the proliferation of medical science and technology increases, and as more patients from different
+backgrounds come to the United States for help,
+healthcare professionals must avoid an ethnocentric view of what is best for their patients. They
+should instead make a good faith effort to identify,
+understand, and be sensitive to all patients’ religious and cultural needs as it affects their healthcare
+decisions. In addition, healthcare professionals
+should be aware of their own religious, cultural, and
+professional heritage and how they influence personal and professional perceptions, beliefs, and actions in their relationships with others.
+As the world grows smaller and Americans become more aware of the differences that exist among
+various groups of people, including the multiplicity of subcultures within the United States, it is
+important for all people to understand and appreciate that wanting to have health, to be free from
+pain and suffering, and to live and die with dignity
+are universal wants that transcend religious, cultural, and national boundaries. As military healthcare professionals provide the means to help each
+other meet these goals, the diversity and richness
+of each other’s personhood and heritage should be
+celebrated.
+REFERENCES
+1.
+Lantos JD, Offner SK, Chambers TS. What should Leah be told? [Case study and commentaries]. Second Opin.
+1993;18:81–97.
+2.
+Kluckhohn F. Dominant and variant value orientations. In: Brink P, ed. Transcultural Nursing: A Book of Readings. Englewood Cliffs, NJ: Prentice-Hall; 1979: 63–81.
+3.
+Jonsen AR. American moralism and the origin of bioethics in the United States. J Med Philos. 1991;16:113–130.
+4.
+Jonsen AR. American moralism and the origin of bioethics in the United States. In: Pellegrino E, Mazzarella P,
+Corsi P, eds. Transcultural Dimensions in Medical Ethics. Frederick, Md: University Publishing Group; 1992: 21–33.
+5.
+Miller P. The Life of the Mind in America. New York: Harcourt, Brace; 1980.
+6.
+Marsden GM. Fundamentalism in American Culture. New York: Oxford University Press; 1980.
+7.
+Ramsey P. The Patient As Person. New Haven, Conn: Yale University Press; 1970.
+8.
+National Heart and Lung Institute. Report of the Totally Artificial Heart Assessment Panel. Washington, DC: Department of Health, Education and Welfare; 1973.
+Religious and Cultural Considerations in Military Healthcare
+715
+9.
+National Commission for the Protection of Human Subjects of Biomedical and Behavioral Research. The Belmont
+Report. Washington, DC: Government Printing Office; 1978.
+10.
+President’s Commission for the Study of Ethical Problems in Medicine. Washington, DC: Government Printing Office; 1983.
+11.
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 4th ed. New York: Oxford University Press; 1994.
+12.
+Jonsen AR, Siegler M, Winslade WJ, eds. Clinical Ethics. 3rd ed. New York: McGraw-Hill; 1992.
+13.
+Fletcher JC, Hite CB, Lombardo PA, Marshall MF, eds. Introduction to Clinical Ethics. Charlottesville: University
+of Virginia Center for Biomedical Ethics; 1994.
+14.
+Jonsen A, Toulmin S. The Abuse of Casuistry. Los Angeles: University of California Press; 1988.
+15.
+Pellegrino ED, Thomasma DC. The Virtues in Medical Practice. New York: Oxford University Press; 1993.
+16.
+Fry ST. Toward a theory of nursing ethics. Adv Nurs Sci. 1989;11(4):8–20.
+17.
+Jonsen AR. American moralism and the origin of bioethics in the United States. In: Pellegrino E, Mazzarella P,
+Corsi P. Transcultural Dimensions in Medical Ethics. Frederick, Md: University Publishing Group; 1992.
+18.
+Pellegrino ED. Intersections of Western biomedical ethics and world culture: Problematic and possibility. Camb
+Q Healthc Ethics. 1992;1(3):191–196.
+19.
+Wreen M. Autonomy, religious values, and refusal of lifesaving medical treatment. J Med Ethics. 1991;17:124–130.
+20.
+Princeton Religious Research Center. Religion in America 1992–1993. In: Larson D, Larson S. The Forgotten
+Factor in the Physical and Mental Health: What Does the Research Show—An Independent Study Seminar. Rockville,
+Md: National Institute for Healthcare Research; 1994: 6–7.
+21.
+Johnson D, Williams J, Bromley D. Religion, health, and healing: Findings from a southern city. Sociol Analysis.
+1986;46(1):66–73.
+22.
+Trier K, Shupe A. Prayer, religiosity, and healing in the heartland, USA: A research note. Rev Religious Res.
+1991;32(4):351–358.
+23.
+King D, Sobal J, DeForge B. Family practice patients’ experience and beliefs in faith healing. J Fam Pract.
+1988;27(5):505–508.
+24.
+King D, Bushwick B. Beliefs and attitudes of hospital inpatients about faith healing and prayer. J Fam Pract.
+1994;39(4):349–352.
+25.
+Suchman A, Matthews D. What makes the doctor–patient relationship therapeutic: Exploring the connexional
+dimensional of patient care. Ann Intern Med. 1988;108:125–130.
+26.
+Marx K. Contribution to the Critique of Hegel’s Philosophy of Law: Introduction. Published in the Deutsch Französische
+Jahrbücher; 1944.
+27.
+Freud S. The Future of an Illusion. Garden City, NY: Doubleday; 1927.
+28.
+Ellis A. Psychotherapy and atheistic values. J Consult Clin Psychology. 1980;48:635–639.
+29.
+Moore R, Mead L, Pearson T. Youthful precursors of alcohol abuse in physicians. Am J Med. 1990;88:332–336.
+30.
+Desmond D, Maddux J. Religious programs and careers of chronic heroin users. Am J Drug Alcohol Abuse.
+1981;8(1):71–83.
+Military Medical Ethics, Volume 2
+716
+31.
+Koenig H, George L, Meador K, Blazer D, Ford S. Religious practices and alcoholism in a southern adult population. Hosp Community Psychiatry. 1994;45(3):225–231.
+32.
+Cook J, Wimberly D. If I should die before I wake: Religious commitment and adjustment to the death of a
+child. J Sci Stud Religion. 1983;22(3):222–238.
+33.
+Conway K. Coping with the stress of medical problems among black and white elderly. Int J Aging Hum Dev.
+1985–1986;21:39–48.
+34.
+Rabins P, Fitting M, Eastham J, Fetting J. The emotional impact of caring for the chronically ill. Psychosom.
+1990;31(3):331–336.
+35.
+Frankel B, Hewitt W. Religion and well-being among Canadian university students: The role of faith groups on
+campus. J Sci Stud Religion. 1994;33(1):62–73.
+36.
+Hannay D. Religion and health. Soc Sci Med. 1980;14A:683–685.
+37.
+Idler E, Kasl S. Religion, disability, depression, and the timing of death. Am J Sociol. 1992;97(4):1052–1079.
+38.
+Poloma M, Pendleton B. Religious domains and general well-being. Soc Indicators Res. 1990;22:255–276.
+39.
+Hadaway CK, Roof WC. Religious commitment and the quality of life in American society. Rev Religious Res.
+1978;19:295–307.
+40.
+McNamara P, St. George A. Measures of religiosity and the quality of life. In: Moberg D, ed. Spiritual WellBeing: Sociological Perspectives. Washington, DC: University Press of America; 1979.
+41.
+Ellison C. Religious involvement and subjective well-being. J Health Soc Behav. 1991;32:80–99.
+42.
+Comstock G, Partridge K. Church attendance and health. J Chronic Dis. 1972;25:665–672.
+43.
+Berkman L, Syme S. Social networks, host resistance, and mortality: A nine-year follow-up study of Alameda
+County residents. Am J Epidemiol. 1979;109:186–204.
+44.
+Berkel J, de Waard F. Mortality pattern and life expectancy of Seventh Day Adventists in the Netherlands. Int J
+Epidemiol. 1983;12(4):455–459.
+45.
+Gardner J, Lyon J. Cancer in Utah Mormon men by church activity level. Am J Epidemiol. 1982;116:243–257.
+46.
+Faulkner J, DeJong C. Religiosity in 5D: An empirical analysis. In: Andrews M, Boyle J, eds. Transcultural Concepts in Nursing Care. 2nd ed. Philadelphia: JB Lippincott Company; 1995: 354.
+47.
+Galanti G. Caring for Patients From Different Cultures. Philadelphia: University of Pennsylvania Press; 1991: 35–44.
+48.
+Herberg P. Theoretical foundations of transcultural nursing. In: Andrews M, Boyle J, eds. Transcultural Concepts
+in Nursing Care. 2nd ed. Philadelphia: JB Lippincott Company; 1995: 3–47.
+49.
+Brown K. Afro-Caribbean spirituality: A Haitian case study. Second Opin. 1989;11:36–57.
+50.
+Capra F. The Turning Point. New York: Bantam Books; 1982: 109–110.
+51.
+Ludman E, Newman J. Yin and yang in the health-related food practices of three Chinese groups. J Nutr Educ.
+1984;16:4.
+52.
+Kleinman A. Patients and Healers in the Context of Culture. Berkeley: University of California Press; 1980.
+53.
+Dubos R. Medicine evolving. In: Sobel D, ed. Ways of Health. New York: Harcourt Brace Jovanovich; 1979: 21–44.
+Religious and Cultural Considerations in Military Healthcare
+717
+54.
+Uden G, Norberg A, Lindseth A, Marhaug V. Ethical reasoning in nurses’ and physicians’ stories about care
+episodes. J Adv Nurs. 1992;17(9):1028–1034.
+55.
+Stein LI. The doctor–nurse game. NLN Publ. 1990;20:159–164.
+56.
+Stein LI, Watts DT, Howell T. The doctor–nurse game revisited. N Engl J Med. 1990;322(8):546–549.
+57.
+Cali D. Cultural influences on physician communication in health care teams. JBC. 1991;18(1):22–27.
+58.
+Coombs RH, May DS, Small GW, eds. Inside Doctoring. New York: Praeger; 1986.
+59.
+Bosk CL. Forgive and Remember: Managing Medical Failure. Chicago: The University of Chicago Press; 1979.
+60.
+Winslow G. Minding our language: Metaphors and biomedical ethics. Update. 1994;10:1–6.
+61.
+Council of Ethical and Judicial Affairs AMA. Ethical issues in managed care. JAMA. 1995;273:330–335.
+62.
+Glick S. A view from Sinai: A Jewish perspective on biomedical ethics. In: Pellegrino E, Mazzarella P, Corsi P,
+eds. Transcultural Dimensions in Medical Ethics. Frederick, Md: University Publishing Group; 1992: 73–82.
+63.
+Bleich J. The obligation to heal in the Judaic tradition. In: Veatch R, ed. Cross Cultural Perspectives in Medical
+Ethics: Readings. Boston: Jones & Bartlett Publishers; 1989: 44–58.
+64.
+Dorff E. The Jewish tradition. In: Numbers R, Amundsen D, eds. Caring and Curing: Health and Medicine in the
+Western Religious Traditions. New York: Macmillan Publishing Company; 1986: 539.
+65.
+Rosner F, Bleich J. Jewish Bioethics. New York: Sanhedrin Press; 1979.
+66.
+Rosner F. Modern Medicine and Jewish Ethics. New York: Yeshiva University Press; 1986.
+67.
+Feldman D. Health and Medicine in the Jewish Tradition: L’Hayyim—To Life. New York: Crossroad Publishing
+Company; 1986.
+68.
+Steinberg A. Bioethics: Secular philosophy, Jewish law and modern medicine. Isr J Med Sci. 1989;25(7):404–409.
+69.
+Steinberg A. A Jewish perspective on the four principles. In: Gillon R, ed. Principles of Health Care Ethics. New
+York: Wiley; 1994: 65–73.
+70.
+Hathout H. Islamic basis for biomedical ethics. In: Pellegrino E, Mazzarella P, Corsi P, eds. Transcultural Dimensions in Medical Ethics. Frederick, Md: University Publishing Group; 1992: 57–72.
+71.
+Antes P. Medicine and the living tradition of Islam. In: Sullivan L, ed. Healing and Restoring: Health and Medicine
+in the World’s Religious Traditions. New York: Macmillan Publishing Company; 1989:173–202.
+72.
+Optiz K. Die Medizin im Koran. Stuttgart, Germany; 1906.
+73.
+Rahman F. Islam and health/medicine: A historical perspective. In: Sullivan L, ed. Healing and Restoring: Health
+and Medicine in the World’s Religious Traditions. New York: Macmillan Publishing Company; 1989: 149–172.
+74.
+Rahman A, Amine C, Elkadi A. Islamic code of medical professional ethics. In: Veatch R, ed. Cross Cultural
+Perspectives in Medical Ethics: Readings. Boston: Jones & Bartlett Publishers; 1989: 120–126.
+75.
+Serour GI. Islam and the four principles. In: Gillon R, ed. Principles of Health Care Ethics. New York: Wiley; 1994:
+75–91.
+76.
+Haffner L. Cross cultural medicine a decade later: Translation is not enough. West J Med. 1992;157(3):255–259.
+Military Medical Ethics, Volume 2
+718
+77.
+Woloshin S, Bickell N, Schwartz L, Gany F, Welch G. Language barriers in medicine in the United States. JAMA.
+1995;273(9):724–728.
+78.
+Leininger M. The need for transcultural nursing. Second Opin. 1992;17(4):83–85.
+79.
+Katz J. The Silent World of Doctor and Patient. New York: Free Press; 1984.
+80.
+Swanson JW, McCrary SV. Doing all they can: Physicians who deny medical futility. J Law Med Ethics.
+1994;22(4):318–326.
+81.
+American Psychiatric Association. Guidelines regarding possible conflict between psychiatrists’ religious commitments and psychiatric practice. Am J Psychiatry. 1989;147(4):543.
+82.
+Torrey E. Witchdoctors and Psychiatrists: The Common Roots of Psychotherapy and Its Future. New York: Harper
+and Row; 1986. Quoted by: Post SG. Psychiatry, religious conversion, and medical ethics. Kennedy Inst Ethics J.
+1991;1(3):207–223.
+83.
+Post SG. Psychiatry, religious conversion, and medical ethics. Kennedy Inst Ethics J. 1991;1(3):207–223.
+84.
+Caralis P, Davis B, Wright K, Marcial E. The influence of ethnicity and race on attitudes toward advance directives, life-prolonging treatments, and euthanasia. J Clin Ethics. 1993;4(2):155–165.

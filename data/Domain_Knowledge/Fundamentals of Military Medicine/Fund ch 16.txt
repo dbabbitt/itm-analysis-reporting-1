@@ -1,0 +1,1543 @@
+233
+Force Health Protection
+Chapter 16 
+FORCE HEALTH PROTECTION
+MARY T. BRUEGGEMEYER, MD, MPH*
+INTRODUCTION
+History of Force Health Protection
+Concept and Strategy
+DEPLOYMENT HEALTH ACTIVITIES
+Predeployment
+Deployment
+Postdeployment
+DEVELOPING A DEPLOYMENT HEALTH SURVEILLANCE PROGRAM
+Step 1. Identify the Population at Risk
+Step 2. Conduct a Health Risk Assessment
+Step 3. Develop Countermeasures
+Step 4. Monitor and Report Disease and Injury 
+Step 5. Health Risk Communication 
+Step 6. Command Support
+SUMMARY
+*Colonel, Medical Corps, US Air Force; Assistant Professor of Preventive Medicine and Biostatistics and Military and Emergency Medicine, Uniformed 
+Services University of the Health Sciences, Bethesda, Maryland
+234
+Fundamentals of Military Medicine
+INTRODUCTION
+FHP requires continuous vigilance. History shows 
+that deaths due to nonbattle injury and illness can be 
+more numerous and more impactful than those due 
+to combat. Figure 16-1 illustrates the historical fluctuations in the ratio of deaths due to nonbattle injury 
+and illness compared to deaths due to combat across 
+major US conflicts. 2 Many factors contribute to the 
+fluctuations in this ratio, including knowledge of the 
+health threats present in new theaters of operation and 
+the knowledge and ability to develop effective countermeasures. The rise in deaths due to illness in the 
+Spanish-American War inspired research into yellow 
+fever, which produced critical knowledge about mosquito vectors and effective vector control programs. 3
+Illness and death that occur many years after a conflict may not be reported or associated with exposures 
+that occurred during combat. This was the case with 
+many veterans following the Vietnam War. Vietnam 
+veterans’ illnesses, and their possible association with 
+the herbicides used during the conflict, led to Public 
+Law 102-4, the Agent Orange Act of 1991, nearly 20 
+years after the end of the conflict. 4 The Agent Orange 
+Act then spurred 2 decades of epidemiological and 
+toxicological study; however, much of the findings are 
+still inconclusive. 4 A moderate increase in the ratio of 
+death due to nonbattle injury and illness was also seen 
+after the Persian Gulf War. These deaths were largely 
+due to training and motor vehicle accidents, but the 
+History of Force Health Protection
+Force health protection (FHP) is simply the prevention of disease and injury in order to protect the 
+strength and capabilities of the military population. 
+This concept was most eloquently stated in 1866 by 
+Dr Jonathan Letterman, medical director of the Army 
+of the Potomac, when he wrote, “A corps of medical 
+officers was not established solely for the purpose of 
+attending the wounded and sick . . . . The leading idea 
+is to strengthen the hands of the Commanding General by keeping his army in the most vigorous health, 
+thus rendering it, in the highest degree, efficient for 
+enduring fatigue and privation, and for fighting.”1(p23) 
+In fact, the military’s focus on preventive medicine 
+can be traced to the earliest days of the republic, when 
+General George Washington ordered the inoculation of 
+the Continental Army against smallpox, following the 
+recommendations of his physician in chief, and issued 
+“Instructions for Soldiers in the Service of the United 
+States Concerning the Means of Preserving Health: 
+Of Cleanliness.” These measures helped preserve 
+the army’s fighting strength and contributed to the 
+ultimate victory over the British forces. In addition, 
+General Washington’s policies on preserving health, 
+in concert with those of Baron Von Steuben, the army’s 
+first inspector general, laid the foundations for modern 
+military preventive medicine. 1 
+Mexican
+War
+Civil
+War
+Spanish
+American
+War
+WWI
+WWII
+Korean
+Conflict
+Vietnam
+War
+Persian
+Gulf War
+OEF
+OIF
+6. 7
+1. 6
+5. 4
+1. 2
+0. 39
+0. 08
+0. 23
+1. 6
+0. 27
+0. 27
+Figure 16-1. Ratio of non-hostile deaths to hostile deaths in major US military conflicts.
+OEF: Operation Enduring Freedom
+OIF: Operation Iraqi Freedom
+WWI: World War I
+WWII: World War II
+Data source: Defense Casualty Analysis System. https://dcas.dmdc.osd.mil/dcas/pages/casualties.xhtml. Accessed March 26, 2018.
+235
+Force Health Protection
+TABLE 16-1
+SUMMARY OF CURRENT DEPARTMENT OF DEFENSE POLICY AND INSTRUCTIONS FOR FORCE 
+HEALTH PROTECTION STRATEGY
+DoDD 6490. 02E (3 Oct 2013)
+Comprehensive Health Surveillance1
+Establishes policy for routine and comprehensive health surveillance of all DoD personnel throughout their military 
+service
+Defines data collection requirements: 
+ 
+• disease and injury
+ 
+• medical interventions 
+ 
+• stress-induced casualties
+ 
+• combat casualties 
+ 
+• medical evacuations 
+ 
+• occupational and environmental exposures
+Mandates linkage of exposure and medical surveillance data for identifying, characterizing, and countering threats to 
+health, well-being, and performance
+Established the DoD Serum Repository
+Established the Armed Forces Health Surveillance Center as the single source for DoD-level health surveillance information 
+and designated the Army the DoD executive agent
+DoDI 6490. 03 (30 Sep 2011)
+Deployment Health2
+Establishes policy that DoD components implement a comprehensive deployment health program that effectively anticipates, recognizes, evaluates, controls, and mitigates health threats encountered during deployments
+Directs COCOMS to create operation plans that:
+ 
+• List deployment health resource requirements
+ 
+• Direct and document health threat assessments & occupational/environmental health (OEH) site assessments
+ 
+• Determine and enforce the use of countermeasures, approved food and water sources, and personal protective 
+equipment
+ 
+• Set up theater health surveillance plans to report disease & injury rates, battle injuries, OEH exposures, and medical 
+intelligence
+ 
+• Direct health risk communication
+ 
+• Specify once daily reporting of locations of all deployed personnel
+Defines specific predeployment, deployment, and postdeployment health activities that must occur (see Table E4.T2 for 
+roles and responsibilities):
+Predeployment
+ 
+• Administer Pre-Deployment Health Assessment (DD Form 2795)
+ 
+• Administer immunizations
+ 
+• Prescribe prophylactic medications and 90-day supply of other prescription medications
+ 
+• Draw predeployment serum
+ 
+• Establish biomonitoring baselines
+ 
+• Issue personal protective equipment
+ 
+• Perform tuberculosis screening based on risk
+ 
+• Conduct OEH site assessments and health threat assessments
+ 
+• Conduct health threat briefings and risk communication
+ 
+• Develop health surveillance plan
+Deployment 
+ 
+• Validate health threat assessment
+ 
+• Conduct OEH site and exposure assessments and document in the medical record
+ 
+• Perform health surveillance activities and reporting
+ 
+• Conduct food and water inspections
+ 
+• Document patient encounters
+ 
+• Document daily personnel location
+(Table 16-1 continues)
+236
+Fundamentals of Military Medicine
+Postdeployment
+ 
+• Complete Post-Deployment Health Assessment and Reassessment (DD Forms 2796/2900)
+ 
+• Conduct face-to-face health assessment
+ 
+• Ensure medical referrals and follow-up for deployment-related concerns
+ 
+• Integrate medical and OEH assessments into the medical record
+ 
+• Draw postdeployment serum
+ 
+• Perform biomonitoring
+ 
+• Conduct postdeployment health debriefings and risk communication
+ 
+• Continue health surveillance; inform in-garrison medical community of exposures and possible health outcomes 
+to monitor in the returned population
+ 
+• Submit all OEHS data and health surveillance reports to the Armed Forces Health Surveillance Center
+JP 4-02 (26 Jul 2012)
+Health Services Support3
+Details FHP requirements and activities as an equal part of health services support to joint operations and defines roles 
+and responsibilities of the joint force surgeon and the FHP staff
+The FHP division’s primary function is to assist the joint force surgeon with establishing policies and procedures to 
+deliver a healthy and fit force, prevent casualties, and maintain the health of the joint force while deployed. This will be 
+similar to what is expected for the COCOM (see COCOM operations plan requirements) but may be tailored to the specific mission of the joint task force and the joint operations area (JOA)
+Provides details into the components of the FHP strategy for the JOA:
+Casualty Prevention
+ 
+• All measures taken by commanders, leaders, individuals, and healthcare system to promote, improve, or conserve 
+the mental and physical well-being of military personnel 
+Preventive Medicine (PRVTMED)
+ 
+• Overall anticipation, prevention, and control of communicable diseases, illnesses, injuries, and exposures to endemic, 
+occupational, and environmental threats
+Health Surveillance
+ 
+• The iterative process of identifying the population at risk, identifying and assessing potential exposures, communicating these risks, developing and employing countermeasures and monitoring and reporting of DNBI/BI rates
+Combat and Operational Stress Control 
+ 
+• Programs and actions to prevent, identify, and manage adverse combat and operational stress reactions in units
+Preventive Dentistry
+ 
+• Primary, secondary, and tertiary measures to reduce or eliminate dental conditions that interfere with fitness for 
+duty
+Vision Readiness
+ 
+• Actions to optimize visual clarity, provide devices for optical correction, and provide eye protection for all hazardous activities
+Laboratory Services
+ 
+• Deployed capabilities for identification of endemic diseases, occupational and environmental hazards, and CBRN 
+agents in support of the total health environment of the JOA (not for individual patient care)
+Veterinary Services
+ 
+• US Army veterinary units support government-owned animal healthcare, veterinary PRVTMED, and food safety 
+and security programs
+CBRN: chemical, biological, radiological, and nuclear
+COCOM: combatant command
+DNBI/BI: disease and nonbattle injury/battle injury
+DoD: Department of Defense
+DoDD: Department of Defense directive
+DoDI: Department of Defense instruction
+(Table 16-1 continued)
+FHP: force health protection
+JP: joint publication
+JOA: joint operations area 
+OEH: occupational and environmental health
+PRVTMED: preventive medicine
+(1) US Department of Defense. Comprehensive Health Surveillance. Washington, DC: Office of the Under Secretary of Defense Personnel and 
+Readiness; October 3, 2013. DoD Directive 6490. 02E. (2) US Department of Defense. Deployment Health. Washington, DC: Office of the Under 
+Secretary of Defense Personnel and Readiness; September 30, 2011. DoD Instruction 6490. 03. (3) US Joint Chiefs of Staff. Health Service Support. Washington, DC: JCS; July 26, 2012. Joint Publication 4-02.
+237
+Force Health Protection
+illnesses following this war, reminiscent of Vietnam 
+veterans’ illnesses and the associated challenges in 
+determining exposures and associations, were the 
+impetus behind current FHP strategy, policies, and 
+programs. 5 
+Concept and Strategy
+The new FHP concept that evolved in the decade 
+after the Persian Gulf War is a unified strategy encompassing all preventive, clinical, and operational 
+programs needed to maximize the health of the 
+military population. It covers the entire career of 
+the service member, in addition to the specific times 
+before, during, and after deployment. FHP includes 
+robust combat casualty care and plays a significant 
+role in medical readiness planning and training. The 
+strategy incorporates improved health risk communication, health surveillance, longitudinal health records, biomedical research on countermeasures, and 
+interagency coordination based on lessons learned 
+and recommendations from the Institute of Medicine. 5 The FHP strategy is codified in Department 
+of Defense (DoD) Directive 6490. 02E, Comprehensive 
+Health Surveillance6; DoD Instruction (DoDI) 6490. 03, 
+Deployment Health7; and Joint Publication (JP) 4-02, 
+Health Service Support. 8 The renewed focus on FHP 
+led to the addition of a dedicated chapter in the 
+most current version of JP 4-02. Key components 
+of these documents are summarized in Table 16-1. 
+Implementation of these directives is described in 
+service-specific guidance. 
+DEPLOYMENT HEALTH ACTIVITIES
+Predeployment
+Although DoDI 6490. 03 describes specific health 
+activities that must occur in the time immediately 
+preceding deployment, predeployment health activities actually begin at the outset of each service member’s career. At the most fundamental level, accession 
+physical examinations begin the process of screening 
+out individuals with medical conditions that preclude 
+them from military service. The medical standards of 
+each of the services are developed with the intent of 
+insuring mission success and protecting the health of 
+the individual. The basic tenet of medicine, “primum 
+non nocere” (first, do no harm) applies to the decision 
+to “medically clear” an individual to participate in the 
+physically and mentally demanding environment of 
+military training, deployment, and combat. Accession 
+medical standards are found in DoDI 6130. 039 and 
+are implemented by each of the services in separate 
+instructions. 
+Following accession, annual health evaluations 
+occur throughout a service member’s military career. These annual health evaluations, known as the 
+Periodic Health Assessment, provide an opportunity 
+for the medical officer to both screen for disease and 
+assess fitness and performance. At each evaluation, 
+the service member should be screened for conditions 
+that are not compatible with retention in the military 
+in accordance with DoDI 6490. 07. 10 In general, the 
+medical officer should consider whether the person 
+will be able to carry out duties both in garrison and 
+during deployment, and how any medical condition 
+may be affected by factors such as climate, altitude, 
+rations, housing, duty assignment, and medical 
+services available in theater. More specifically, the 
+medical officer should evaluate whether the person 
+can wear all personal protective equipment, including 
+helmet, body armor, and chemical protective wear, 
+when needed. In addition, the service member should 
+be screened for completion of individual medical 
+readiness requirements that include immunizations, 
+dental examinations, medical equipment such as corrective lenses and gas mask inserts, and laboratory 
+tests such as human immunodeficiency virus (HIV) 
+or tuberculosis screening. 
+When a service member is identified for deployment, a specific Pre-Deployment Health Assessment 
+must be completed and documented on DD Form 
+2795. This assessment is a more focused medical 
+evaluation based on the details of the deployed mission and location. Specific medical requirements stem 
+from the health risk assessment and occupational and 
+environmental health (OEH) site assessments (see Developing a Deployment Health Surveillance Program, 
+below) done by the combatant command (COCOM) 
+or joint task force (JTF). These medical requirements 
+are published in a health services support annex of 
+the operations plan. Individual medical requirements 
+include preventive countermeasures such as immunizations, prophylactic medicines, personal protective equipment, predeployment biomonitoring, DoD 
+serum repository laboratory tests, and prescription 
+medications as needed. 
+Predeployment health activities are not just focused 
+on the individual, but also encompass medical planning at the COCOM, JTF, and unit level. As mentioned 
+above, the COCOM or JTF must complete health risk 
+assessments and OEH site assessments, and plan for 
+medical resources required to accomplish the FHP 
+mission. There must be a plan for health surveillance 
+238
+Fundamentals of Military Medicine
+through all phases of deployment from the COCOM or 
+JTF level down to the unit medical officer. Finally, health 
+risks must be communicated to the commander and 
+to individual members to ensure all health threats are 
+understood and preventive countermeasures followed.
+Deployment
+The preventive medicine team should be in theater 
+as early as possible to validate the health risk assessment, mitigate unidentified threats, conduct additional 
+OEH site assessments, and enforce proper base camp 
+set-up. To accomplish these measures, the preventive 
+medicine team should be included with the advance 
+team whenever possible. Health surveillance in theater 
+must be carried out from day 1, with daily recording 
+and reporting of disease and injury cases as directed 
+by the JTF or COCOM surgeon. If a formal reporting 
+structure has not been developed, the unit medical 
+officer should take the initiative to record disease and 
+injury cases for the unit. All patient encounters must 
+be documented and incorporated into the patient’s 
+deployment health record. 
+Throughout the deployment, continuous inspection 
+for compliance with preventive countermeasures and 
+investigation of disease outbreaks must be done. Disease 
+outbreaks should be recognized early and investigations conducted, recorded, and communicated. In addition, any occupational; environmental; or chemical, 
+biological, or radiological exposure incidents should 
+also be investigated, recorded, and documented in the 
+individual’s deployment health record. Also, food and 
+water inspections should be conducted regularly. If 
+water safety depends on chlorination, daily chlorination checks are critical. Fecal contamination of drinking 
+water will result in rapid and widespread cases of diarrheal illness with potential for adverse mission impact. 
+Inspection of food and water sources is an FHP activity 
+conducted by the US Army Veterinary Corps as well 
+as US Air Force public health officers to ensure food 
+wholesomeness, safety, quality assurance, and defense. 
+The revised FHP strategy that followed the Persian 
+Gulf War increased efforts to associate deployment 
+exposures with disease outcomes. The focus on OEH 
+site assessments, exposure incident investigations, 
+and documentation is a result of these revisions. AdDeployment Health Activities
+• Outbreak investigations
+• Compliance Inspections
+• Camp hygiene inspections
+Medical Screening
+• Entrance Physicals
+• Annual Preventive Health 
+Assessment
+• Predeployment Health Assessment
+ (DD Form 2795)
+Medical Readiness Requirements
+• Immunizations
+• Personal Protective Equipment
+• Dental
+• Vision and Eye Protection
+Health Risk Assessment
+OEHS Site Assessments
+Health Risk Briefings
+Commander Support
+Phase I: Pre Deployment
+Post Deployment Health 
+Assessments
+(DD Form 2796)
+Integrate exposure and medical 
+event documentation
+Conduct health surveillance
+Risk Communication
+Command Support
+Phase III: Post Deployment
+Phase II
+Deployment
+Phase III
+Post
+Deployment
+Phase I
+Pre
+Deployment
+Validate the Health Risk Assessment 
+Conduct:
+• Health Surveillance
+• Exposure Assessments
+Document exposures and medical events in the individual health record
+Risk communication
+Command support
+Phase II: Deployment
+Figure 16-2. Deployment health activities that occur throughout the service member’s lifecycle.
+OEHS: occupational and environmental health surveillance
+239
+Force Health Protection
+ditionally, the location of deployed personnel must 
+be recorded once daily and electronically reported 
+to the Defense Manpower Data Center. Exposure 
+assessments are recorded in the Military Exposure 
+Surveillance Library (MESL). The MESL and health 
+surveillance data are reported to and managed by the 
+Armed Forces Health Surveillance Branch, Office of the 
+Assistant Secretary of Defense, Health Affairs.
+Postdeployment
+Postdeployment health activities start with a health 
+threat debrief and comprehensive health risk communication to ensure individual service members and the 
+command are informed of the health threats they may 
+have been exposed to. The postdeployment period is 
+a prime opportunity for education about any real or 
+perceived exposures that may have occurred and the 
+need for completion of any postexposure prophylactic medications. Medical personnel should focus on 
+continued surveillance of the redeployed population 
+and must be educated about all possible health threats 
+encountered in the deployment. 
+Service members must complete all mandatory 
+postdeployment health assessments in the prescribed 
+time period, and medical personnel should have surveillance processes in place to track compliance with 
+this requirement. A redeployed member who has not 
+completed these assessments or face-to-face encounters remains an unknown risk. Commanders should 
+be briefed on the postdeployment health assessment 
+completion rates with the same level of importance 
+as predeployment assessments. Command support 
+may be necessary to achieve 100% completion of these 
+assessments. 
+Postdeployment health activities also focus on documentation of exposures that occurred during deployment. The Post-Deployment Health Assessment asks 
+service members to report any known or perceived 
+exposures. The medical officer must then evaluate 
+each one for validity and estimation of the individual 
+health risk. Better resources now exist to match these 
+self-reports with known exposure sampling. Despite 
+the efforts of the Defense Manpower Data Center and 
+the MESL, matching area sample exposure data to individual disease risk and outcome remains challenging. 
+For this reason, it is important that service members 
+who report concerns about deployment exposures 
+receive a referral to appropriately trained healthcare 
+providers such as OEH experts who can counsel them 
+about health risks. 11 Deployment health activities are 
+summarized in Figure 16-2 and Table 16-1. 
+DEVELOPING A DEPLOYMENT HEALTH SURVEILLANCE PROGRAM
+Health surveillance refers to the systematic collection, 
+analysis, and interpretation of health-related data. It involves an iterative process of planning, acting, collecting, 
+and reflecting with the goal of achieving a better outcome 
+for the mission and the deployed population. Developing a health surveillance program includes identifying 
+the population at risk, conducting a health risk assessment, developing and instituting countermeasures to 
+prevent or reduce the health threat, monitoring and 
+reporting disease and injury rates, health risk communication, and command support. A health surveillance 
+program can be instituted for any population at risk, 
+deployed or in garrison, unit-specific or DoD-wide. For 
+the purposes of this chapter, components of a health 
+surveillance program for a deploying population will 
+be described. Properly executed, a health surveillance 
+program enables the timely recognition of health risks, 
+leading to interventions that prevent, treat, reduce, or 
+control disease and injury. 
+Step 1. Identify the Population at Risk 
+The first critical step in deployment health surveillance is to identify the population at risk. The medical officer should be invited into the mission analysis 
+and planning process as early as possible to facilitate 
+this critical first step. The population at risk are those 
+personnel who will be involved in the mission and 
+functioning within the theater of operations or the 
+joint operations area. They are the people who must 
+undergo predeployment screening, monitoring for 
+disease and injury during deployment, and postdeployment follow-up. Key questions to ask are “who 
+is going?” and “how many?” 
+Answering the “who?” question should take into 
+account both group and individual factors. 
+The group includes the units being tasked for a 
+mission, which is found in the operations plan and 
+deployment order. Each group will have specific 
+mission tasks and include occupational subgroups, 
+which will drive additional health risk assessments. 
+Individual factors focus on age, preexisting health 
+conditions, and predisposition for contracting disease 
+or being injured. For example, risk for cardiovascular 
+events is higher in older individuals, especially if 
+they are traveling into areas with poor air quality. 
+The medical officer will need to take these factors 
+into account during the predeployment health assessment and provide proper health risk counseling 
+to individuals and the group. 
+240
+Fundamentals of Military Medicine
+Determining how many personnel will be in the 
+mission is needed for the risk estimate. The risk 
+estimate is the percentage of personnel who will be 
+affected by a particular health threat. A small group 
+performing a critical mission may need to be more 
+risk adverse for disease and injury because loss of 
+even one member could impact mission accomplishment. Therefore, unit members might need to be 
+highly disciplined about food and water sources and 
+carry antibiotic treatment to avoid disabling diarrhea, 
+or the unit may be ordered to avoid high-risk sports 
+activities to prevent injury. A larger unit with some 
+redundancy may not require preventive measures as 
+strict or encompassing, and they should be balanced 
+with the needs of unit morale. It is the duty of the 
+medical officer to advise the unit commander on the 
+risk estimate of each health threat and the feasibility 
+of each preventive countermeasure. 
+Step 2. Conduct a Health Risk Assessment 
+A comprehensive health risk assessment is used to 
+anticipate, recognize, and evaluate both noncombat 
+and combat-related threats to the health of the force 
+so that effective countermeasures can be developed 
+and implemented. The health risk assessment starts 
+in the predeployment period, is continuously reevaluated during deployment, and extends into the 
+postdeployment surveillance period. A health threat 
+can be defined as the composite of all potential actions, 
+conditions, infections, or events that could degrade 
+the performance or mission capability of a person or 
+a unit. Army Techniques Publication 4-02 specifically 
+defines the term health threat as “a composite of all 
+ongoing potential enemy actions and environmental 
+conditions (disease and non-battle injuries [DNBIs]) 
+that may render a soldier combat ineffective.”12(p2-1) 
+The enemy threat must be assessed for the potential to 
+produce combat-related injury or illness from conventional, improvised, chemical, biological, or radiological 
+weapons. A health threat is assessed for the potential 
+impact on the unit as a whole. 
+Multiple factors, assumptions, and background elements must be considered by the medical officer when 
+building the health risk assessment. The ongoing and 
+systematic collection and analysis of this information 
+is known as the medical intelligence preparation of 
+the operational environment (MIPOE). 8 The MIPOE is 
+the framework on which the health risk assessment is 
+built. Table 16-2 summarizes factors to be considered 
+in building the MIPOE and health risk assessment. 
+What resources are available for building the MIPOE and health risk assessment? The first resource 
+should be the office of the command surgeon with 
+geographic responsibility for the area into which the 
+JTF or unit is being deployed. The combatant command preventive medicine staff should have an initial 
+health risk assessment for the region and may have 
+a published operations plan with a health services 
+support annex. Other COCOM or JTF resources may 
+include published medical reporting requirements and 
+theater treatment protocols, depending on the maturity 
+of the theater. Nonmedical JTF staff are also valuable 
+sources of information for the medical officer, as shown 
+in Exhibit 16-1. If, however, the medical officer is on 
+the command or JTF surgeon’s preventive medicine 
+TABLE 16-2
+HEALTH RISK ASSESSMENT: FACTORS TO CONSIDER
+ 
+Who is going? 
+Number, demographics, health status, training, equipment
+ 
+What is the mission? 
+Activities (both mission-related and off-duty), living conditions, duration, time of day, equipment, interaction with local population
+ 
+When and where is the mission? 
+Climate, terrain, altitude, heat/cold, wet/dry, time of year, 
+urban vs rural, pollution, animals, plants, pests
+ 
+Will there be enemy contact? 
+Weapons capability, CBRNE threat, tactics
+ 
+What are the local diseases and likelihood of exposure? 
+Prevalence of infectious diseases, methods of transmission, and 
+likelihood of transmission
+ 
+What is the magnitude of the threat and potential to 
+How many of us will get sick or be injured? For how long/how 
+ 
+compromise the mission? 
+seriously? Risk of death? Need for evacuation?
+ 
+What can and should be done to mitigate the threat? 
+Feasibility and effectiveness of prevention and control strategies 
+given the operational circumstances and available resources, 
+education programs
+CBRNE: chemical, biological, radiological, nuclear, explosive
+241
+Force Health Protection
+staff, is building the health services support annex, 
+or guidance is not yet available, the next source of 
+information is the DoD’s National Center for Medical 
+Intelligence (NCMI). 13 
+The NCMI is a closed source of information (requiring DoD credentials to access the website and 
+intelligence products). NCMI is specifically tasked 
+in DoDI 6490. 03 to provide a broad range of medical 
+intelligence. Medical intelligence refers to information 
+about foreign military and civilian medical capabilities, 
+disease, environmental and industrial health threats, 
+and biotechnology that can have an impact on military 
+strategy, plans, and operations. 8 Products available to 
+the medical officer include the Infectious Disease Risk 
+Assessment, Infectious Disease Alert, Health Service 
+Assessment, Industrial Facility Health Risk Assessment, and Environmental Health Risk Assessment. 13 
+Additional DoD sources of health threat information 
+include the Armed Forces Health Surveillance Branch 
+and the MESL; the Armed Services Pest Management 
+Board; the US Army Research Institute of Environmental Medicine; the US Army Public Health Center; the 
+US Air Force School of Aerospace Medicine; and the 
+Navy and Marine Corps Public Health Center. Lastly, 
+the medical officer should obtain background information and important assumptions directly from the JTF 
+or COCOM staff, as summarized in Exhibit 16-2. 
+Open sources of health threat information are also 
+widely available. The US Centers for Disease Control 
+and Prevention has a well-developed and easily acEXHIBIT 16-1
+JOINT TASK FORCE STAFF AND SOURCES OF INFORMATION 
+EXHIBIT 16-2
+LIST OF RESOURCES FOR THE HEALTH RISK ASSESSMENT
+Closed Source
+ 
+• Combatant Command (COCOM): 
+ 
+○ Joint Staff (see Exhibit 16-1)
+ 
+○ Operations Plan Annex Q, Health Services Support 
+ 
+○ Theater Reporting Requirements 
+ 
+• National Center for Medical Intelligence: https://www.ncmi.detrick.army.mil/
+ 
+• Armed Forces Pest Management Board: https://health.mil/afhsb
+ 
+• Armed Forces Health Surveillance Branch: https://health.mil/afhsb
+ 
+• US Air Force School of Aerospace Medicine: http://www.wpafb.af.mil/afrl/711hpw/USAFSAM.aspx
+Open Source
+ 
+• US Centers for Disease Control and Prevention Traveler’s Health: https://wwwnc.cdc.gov/travel/ 
+ 
+• US Central Intelligence Agency World Fact Book: https://www.cia.gov/library/publications/the-worldfactbook/
+ 
+• World Health Organization: http://www.who.int/countries/en/
+242
+Fundamentals of Military Medicine
+cessible website called Travelers’ Health. 14 This site 
+can be searched by location, disease, or individual 
+factors. The site can be used to develop travel health 
+recommendations based on the characteristics of the 
+individual traveler. The World Health Organization 
+website provides country-specific health profiles that 
+describe demographics, burden of disease, and risk 
+factors. 15 This site also provides up-to-date reports on 
+infectious disease outbreaks, public health emergencies, environmental health conditions, and a wide 
+range of other health-related topics. The Central Intelligence Agency’s World Fact Book16 gives a wider picture 
+of a country or a region focusing on history, people, 
+government, economy, geography, communications, 
+transportation, military, and transnational issues. The 
+site also contains regional maps based on physical and 
+political features of the region. 
+Once information has been gathered, it is useful to 
+divide it into categories. One convention to follow is 
+shown in Figure 16-3 and Exhibit 16-3. Health threat 
+categories to consider are food- and water-borne 
+diseases, vector-borne diseases, infectious (personto-person) diseases, environment, plants and animals 
+(flora and fauna), psychological injuries, noncombat 
+injuries, and combat injuries. Although not included 
+in a formal health risk assessment, the type and scope 
+of preexisting health conditions among deploying service members will also affect unit strength and should 
+Figure 16-3. Health threat categories to consider as part of the health risk assessment: food- and water-borne diseases, vectorborne diseases, infectious (person-to-person) diseases, environment, plants and animals (flora and fauna), psychological 
+injuries, noncombat injuries, and combat injuries. Although not included in a formal health risk assessment, the type and 
+scope of preexisting health conditions among deploying service members will also affect unit strength and should be considered by the medical officer.
+HIV: human immunodeficiency virus
+MERS-CoV: Middle East respiratory syndrome-coronavirus
+MVA: motor vehicle accident
+STI: sexually transmitted illness
+Health Risk Assessment
+Asthma
+Allergies
+Eczema
+Hypertension
+Alcohol
+Supplements
+Mental Health
+Pre-Existing
+Health Conditions
+B
+o
+r
+n
+e
+F
+o
+o
+d
+ 
+&
+ 
+W
+a
+t
+e
+r
+V
+e
+c
+t
+o
+r 
+B
+o
+r
+n
+e
+E
+n
+v
+ir
+o
+n
+m
+e
+n
+t
+I
+n
+j
+u
+ri
+e
+s
+C
+o
+m
+b
+a
+t
+I
+n
+j
+u
+ri
+e
+s
+P
+s
+y
+c
+h
+o
+l
+o
+g
+i
+c
+a
+l
+S
+tr
+e
+s
+s
+o
+r
+s
+P
+e
+r
+s
+o
+n
+ t
+o
+P
+e
+r
+s
+o
+n
+&
+ 
+W
+a
+t
+e
+r
+I
+I
+n
+j
+t
+e
+r
+W
+a
+t
+e
+r
+V
+e
+W
+a
+t
+e
+r
+V
+e
+Asthma
+hma
+Asth
+A
+a
+llergie
+lergie
+Alle gies
+Eczem
+Eczzeem
+ma
+y
+Hy
+ypertension
+yp
+ypertensision
+o
+Alcohol
+S
+e
+Suppleements
+M
+l
+th
+Mental Health
+sting
+Pre-Exist
+e-Ex
+ealth Conditio
+ditio
+alth
+Hea
+alth Coondit ons
+lth Co
+a
+B
+o
+r
+n
+e
+F
+o
+o
+d
+&
+W
+a
+t
+e
+r
+V
+e
+c
+t
+o
+r
+B
+o
+r
+n
+e
+E
+n
+v
+ir
+o
+n
+m
+e
+n
+t
+I
+n
+j
+u
+ri
+e
+s
+C
+o
+m
+b
+a
+t
+I
+n
+j
+u
+ri
+e
+s
+P
+s
+y
+c
+h
+o
+l
+o
+g
+i
+c
+a
+l
+S
+tr
+e
+s
+s
+o
+r
+s
+P
+e
+r
+s
+o
+n
+t
+o
+P
+e
+r
+s
+o
+n
+&
+W
+a
+t
+e
+r
+A
+n
+i
+m
+a
+l,
+ 
+P
+l
+a
+n
+t
+Occupational
+Sports
+MVAs
+Diarrhea
+Malaria
+Dengue
+Yellow Fever
+Plague
+Leishmaniasis
+Heat & Cold
+Altitude
+Immersion
+Pollution
+Rabies
+Tuberculosis
+HIV
+STIs
+Hepatitis B
+MERS CoV
+Influenza
+Ebola
+Leptospirosis
+Schistosomiasis
+Hepatitis A
+Typhoid
+Blast Injuries
+Combat
+Exposure to
+Dead Bodies
+Chemical
+Weapons
+243
+Force Health Protection
+EXHIBIT 16-3
+HEALTH RISK ASSESSMENT TEMPLATE FOR DISEASE AND 
+NONBATTLE INJURY BY CATEGORY 
+244
+Fundamentals of Military Medicine
+Figure 16-4. Preventive countermeasures for selected health threat categories.
+Preventive Countermeasures
+Predeployment
+medical screening
+Theater reporting
+requirements
+Pre-Existing
+Health Conditions
+B
+o
+r
+n
+e
+F
+o
+o
+d
+ 
+&
+ 
+W
+a
+t
+e
+r
+V
+e
+c
+t
+o
+r 
+B
+o
+r
+n
+e
+E
+n
+v
+ir
+o
+n
+m
+e
+n
+t
+I
+n
+j
+u
+ri
+e
+s
+C
+o
+m
+b
+a
+t
+I
+n
+j
+u
+ri
+e
+s
+P
+s
+y
+c
+h
+o
+l
+o
+g
+i
+c
+a
+l
+S
+tr
+e
+s
+s
+o
+r
+s
+P
+e
+r
+s
+o
+n
+ t
+o
+P
+e
+r
+s
+o
+n
+&
+ 
+W
+a
+t
+e
+r
+I
+I
+n
+j
+t
+e
+r
+W
+a
+t
+e
+r
+V
+e
+W
+a
+t
+e
+r
+V
+e
+P
+deploym nt
+deploym
+Prede
+ymen
+medical screening
+m
+ng
+ng
+medical screenin
+medical 
+medical creenin
+creenin
+Thea
+ng
+ater repo
+eate
+ater rrepo
+porting
+requirements
+re
+re
+s
+equirements
+equireements
+ts
+sting
+Pre-Existin
+re-Ex
+ea
+on
+io
+tio
+alt
+Hea
+ions
+al
+on
+ti
+onditi
+alth Co
+a
+i
+B
+o
+r
+n
+e
+F
+o
+o
+d
+&
+W
+a
+t
+e
+r
+V
+e
+c
+t
+o
+r
+B
+o
+r
+n
+e
+E
+n
+v
+ir
+o
+n
+m
+e
+n
+t
+I
+n
+j
+u
+ri
+e
+s
+C
+o
+m
+b
+a
+t
+I
+n
+j
+u
+ri
+e
+s
+P
+s
+y
+c
+h
+o
+l
+o
+g
+i
+c
+a
+l
+S
+tr
+e
+s
+s
+o
+r
+s
+P
+e
+r
+s
+o
+n
+t
+o
+P
+e
+r
+s
+o
+n
+&
+W
+a
+t
+e
+r
+A
+n
+i
+m
+a
+l,
+ 
+P
+l
+a
+n
+t
+Approved
+Sources
+Clothing
+DEET &
+Permethrin
+Malaria
+Prophylaxis
+Bed Nets
+Field Hygiene
+Work-Rest
+Cycles
+Proper Gear
+Sunblock &
+Lip Balm
+Field Hygiene
+Limit Contact w/
+Local Population
+Field Hygiene
+Quarantine
+Isolation
+Social Distancing
+Immunization
+Immunization
+Field Hygiene
+Safety Culture
+MOPP Gear
+Auto-Injectors
+Commander
+Policies On
+Sports Activity
+Personal
+Protective
+Equipment
+Unit Needs
+Assessment
+Unit Cohesion
+Sense of Mission
+No Mascots
+Risk
+Communication
+Limit Contact w/
+Plants & Animals
+be considered by the medical officer. Assessments of 
+combat injury and illness threats should consider the 
+probability of enemy contact, enemy weapons and 
+tactics, and chemical, biological, and radiological 
+weapons capability. 
+Step 3. Develop Countermeasures
+Each health threat should be evaluated for potential countermeasures. The countermeasures should 
+be further divided into predeployment, deployment, 
+and postdeployment actions (see Exhibit 16-3). 
+Figure 16-4 shows countermeasures that could be 
+considered within each health threat category. Combat injury countermeasures may include personal 
+protective equipment such as body armor, ballistic 
+eye protection, laser eye protection, a Kevlar (DuPont, Wilmington, DE) helmet, and mission-oriented 
+protective posture gear; prophylactic medications 
+in the event of chemical, biological, or radiological 
+weapons exposure; and combat stress countermeasures. Combat injury countermeasures may also 
+involve strategic-level changes in vehicle design for 
+blast protection or changes in tactics such as convoy 
+operations. 
+Countermeasure effectiveness depends on several 
+factors. First, how well does the countermeasure actually 
+prevent the health outcome (eg, vaccine effectiveness)? 
+Next, how well has the health risk been communicated 
+by the medical officer, and how well has inspection and 
+surveillance been conducted throughout the deployment cycle? Countermeasure effectiveness also depends 
+on individual compliance and the level of command 
+support. Finally, changes in the health threat itself 
+(eg, virulence) can alter countermeasure effectiveness. 
+Step 4. Monitor and Report Disease and Injury
+The success of FHP depends on the vigilance of the 
+medical officer in monitoring, reporting, and analyzing 
+disease and injury rates. Combatant commanders are 
+required by DoDI 6490. 03 to “ensure theater health 
+surveillance plans and requirements are identified in 
+each operation plan,” and to “provide timely reporting 
+245
+Force Health Protection
+of disease and non-battle injuries (DNBI), battle injuries and other medical information.”6(pp7–8) DNBI rates 
+should be divided into the most common categories 
+such as gastrointestinal, respiratory, dermatologic, 
+febrile illness, mental, musculoskeletal, heat or cold 
+injury, and dental. More specific categories may be 
+developed based on the known health threats in the 
+operations area; for example, disease-specific categories like malaria or leishmaniasis or injury-specific 
+categories like motor vehicle accidents. In addition, 
+reportable medical events should be defined (usually 
+by the COCOM) based on the threat to public health 
+or the threat to the operational mission. Highly contagious or highly fatal diseases will usually be on this list. 
+The medical officer should be aware of the reporting 
+requirements and reporting chain in their theater of 
+operations. As previously mentioned, medical officers 
+must be prepared on the first day in theater to track 
+all medical events and patient encounters and, in the 
+absence of specific theater guidance, they should develop their own system for surveillance until guidance 
+is obtained. 
+The goal of disease and injury surveillance is to 
+quickly identify new health threats, failure of countermeasures, breakdowns in hygiene or discipline, 
+and disease outbreaks, followed by rapid mitigation 
+of the threat to protect the health of the force. Surveillance, reporting, and mitigation can result in effective 
+changes at the smallest individual unit all the way 
+up to COCOM and DoD levels. In one case (author’s 
+personal experience), tracking of DNBI resulted in the 
+early recognition of increased heat injuries during the 
+first days in theater. Because the teams were small and 
+rotated every 2 weeks, mission accomplishment was 
+adversely affected. Analysis of the events revealed a 
+trend in poor physical fitness, with more than half of 
+the ill members having failed the service fitness assessment prior to the deployment. This information 
+was reported up the chain, resulting in more rigorous 
+screening of individuals selected for the mission, with 
+no additional heat injuries and full team strength for 
+the duration of the time in theater. 
+Step 5. Health Risk Communication
+Once the health risk assessment is complete and 
+countermeasures decided upon, this information 
+must be communicated to all stakeholder groups. 
+Stakeholder groups include individual deployers, 
+the commander, the in-garrison medical team, and 
+the deployed medical team. Family members may 
+also comprise a stakeholder group. The in-garrison 
+medical team should be informed of the health threats 
+for which deployers must be cleared and countermeasures that must be prescribed by the provider. The 
+in-garrison medical team should also be informed of 
+health threats that must be monitored in returning 
+deployers, such as malaria, tuberculosis, and posttraumatic stress disorder. 
+Health risk communication briefings should occur 
+during predeployment preparation, upon arrival into 
+theater, just prior to departure from theater, upon 
+return to home station, and any time the threats may 
+have changed. Each briefing should focus on the most 
+important health threats and countermeasures for that 
+portion of the deployment cycle. For example, predeployment health threat briefs might focus on personal 
+protective equipment such as treatment of uniforms 
+with permethrin, vaccinations, prophylactic medication prescriptions, and training and certifications for 
+workplace safety. Upon arrival in theater, briefs might 
+focus more on safe food and water sources, vector 
+avoidance, safety and injury prevention, adherence to 
+prophylactic medications, and updates in the health 
+risk assessment. To get the attention of new deployers, 
+diseases and injuries already seen in theater should be 
+emphasized. As previously discussed, the postdeployment health threat brief is a critical opportunity to 
+educate the returning deployer on any health threats 
+they may have encountered, the importance of completing any postexposure prophylactic medications, 
+and the importance of documenting any exposures 
+that occurred during deployment. Also, any individual 
+concerns should be addressed as soon as possible. Returning deployers should be reminded to report their 
+recent deployment and travel history to their medical 
+provider if any medical conditions develop. Finally, 
+returning deployers should complete the postdeployment health assessments at the prescribed times as 
+described in DoDI 6490. 03. 7 
+Step 6. Command Support
+The final and critical piece in FHP is command support. In addition to the need for a resilient and effective 
+fighting force for mission accomplishment, the commander has a legal and ethical responsibility to care 
+for the health and welfare of people under his or her 
+command. The commander must balance operational 
+demands with health threats; some risk may need to 
+be accepted and managed. The commander depends 
+on the medical officer to provide clear and concise 
+health risk communication and guide the content of 
+the commander’s orders and policies in this regard. 
+Through sound advice, the medical officer must strive 
+to gain the trust of the commander. In turn, the medical 
+officer will depend on the authority of the commander 
+for implementation of FHP measures.
+246
+Fundamentals of Military Medicine
+Command support of FHP ensures that preventive medicine personnel are well trained, well 
+equipped, and well placed to conduct the health 
+risk and environmental risk assessments that must 
+be accomplished per DoDI 6490. 03. Lessons learned 
+from recent conflicts have shown that preventive 
+medicine personnel must be involved in the early 
+phases of mission analysis and planning, and they 
+should be prioritized for early entry into theater. In 
+this way, inadvertent exposure to environmental and 
+industrial threats can be minimized. 11 In his article 
+on FHP during the 2010 Pakistan flood relief,17 Major RL Burke describes a good example of command 
+support. The health threats during this mission were 
+substantial, involving mosquito vector threats and 
+food- and water-borne threats. Command support for 
+preventive medicine personnel was needed due to the 
+restricted number of military personnel allowed into 
+the response area. In addition, command foresight 
+into the value of training all medical personnel to a 
+basic level in preventive medicine skills was a force 
+multiplier. 17 
+SUMMARY
+FHP, the prevention of disease and injury to protect the strength and capability of the military force 
+for mission accomplishment, has been a part of US 
+military strategy since the revolutionary era, and was 
+reinvigorated following the Persian Gulf War. FHP 
+spans the lifecycle of the military service member and 
+can be divided into predeployment, deployment, and 
+postdeployment phases; each phase includes required 
+and specific health-related activities. A health surveillance program is a critical component of FHP, whether 
+a unit is deployed or in garrison. Components of a 
+health surveillance program include identification of 
+the population at risk, conducting a health risk assessment, development of countermeasures, monitoring 
+and reporting of disease and injury, health risk communication, and command support. 
+REFERENCES
+ 
+1. Withers BG, Craig SC. The historical impact of preventive medicine in war. In: Kelley PW, ed. Military Preventive 
+Medicine: Mobilization and Deployment, Vol 1. Washington, DC: Borden Institute; 2003: 21–57.
+ 
+2. Defense Casualty Analysis System (DCAS 2. 1. 10). Casualty summary by casualty category. https://www.dmdc.osd.
+mil/dcas/pages/casualties.xhtml. Accessed November 29, 2016.
+ 
+3. Llewellyn CH. Preventive medicine and command authority—Leviticus to Schwarzkopf. In: Kelley PW, ed. Military 
+Preventive Medicine: Mobilization and Deployment, Vol 1. Washington, DC: Borden Institute; 2003: 3–19.
+ 
+4. Committee to Review the Health Effects of Vietnam Veterans of Exposure to Herbicides. Veterans and Agent Orange: 
+Update 2010. Washington, DC: National Academies Press; 2012. 
+ 
+5. Trump DH, Mazzuchi JF, Riddle J, Hyams KC, Balough B. Force health protection: 10 years of lessons learned by the 
+Department of Defense. Mil Med. 2002;167(3):179–185.
+ 
+6. US Department of Defense. Comprehensive Health Surveillance. Washington, DC: Office of the Under Secretary of Defense 
+Personnel and Readiness; October 3, 2013. DoD Directive 6490. 02E.
+ 
+7. US Department of Defense. Deployment Health. Washington, DC: Office of the Under Secretary of Defense Personnel 
+and Readiness; September 30, 2011. DoD Instruction 6490. 03.
+ 
+8. US Joint Chiefs of Staff. Health Service Support. Washington, DC: JCS; July 26, 2012. Joint Publication 4-02.
+ 
+9. US Department of Defense. Medical Standards for Appointment, Enlistment, or Induction in the Military Services. Washington, DC: Office of the Under Secretary of Defense Personnel and Readiness; September 13, 2011. DoD Instruction 
+6130. 03.
+ 10. US Department of Defense. Deployment Limiting Conditions. Washington, DC: Office of the Under Secretary of Defense 
+Personnel and Readiness; February 5, 2010. DoD Instruction 6490. 07.
+247
+Force Health Protection
+ 11. Mallon TM. Progress in implementing recommendations in the National Academy of Sciences reports: “Protecting 
+Those Who Serve: Strategies to Protect the Health of Deployed U.S. Forces.” Mil Med. 2011;176(7 Suppl):9–16.
+ 12. US Department of the Army. Force Health Protection. Washington, DC: DA; March 2016. Army Techniques Publication 
+4-02. 8.
+ 13. National Center for Medical Intelligence website. https://www.ncmi.detrick.army.mil/. Updated April 28, 2017. Accessed June 12, 2017.
+ 14. US Centers for Disease Control and Prevention. Travelers’ Health website. https://wwwnc.cdc.gov/travel/. Updated 
+June 2, 2017. Accessed June 12, 2017.
+ 15. World Health Organization. Countries. http://www.who.int/countries/en/. Accessed June 12, 2017.
+ 16. US Central Intelligence Agency. The World Fact Book. https://www.cia.gov/library/publications/the-world-factbook/. 
+Updated June 12, 2017. Accessed June 12, 2017.
+ 17. Burke RL. One health and force health protection during foreign humanitarian assistance operations: 2010 Pakistan 
+flood relief. Army Med Dep J. 2013;Jan-Mar:81–85.
+248
+Fundamentals of Military Medicine

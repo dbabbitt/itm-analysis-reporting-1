@@ -1,0 +1,1705 @@
+531
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+Chapter 35
+CHEMICAL, BIOLOGICAL, RADIOLOGICAL, NUCLEAR, AND EXPLOSIVE 
+THREATS 
+EDWARD LUCCI, MD,* and MELISSA GIVENS, MD, MPH†
+INTRODUCTION 
+CHEMICAL WARFARE AGENTS
+General Principles of Chemical Casualty Care 
+Personal Protective Equipment 
+Vesicants 
+Nerve Agents
+Lung-Damaging Toxic Industrial Chemicals
+Cyanide
+Incapacitating Agents
+Riot-Control Agents
+Overview of Decontamination
+Patient Decontamination Site 
+BIOLOGIC WARFARE AGENTS
+Bacterial Agents
+Viral Agents
+Biological Toxins
+RADIOLOGICAL AND NUCLEAR EXPOSURES
+Radiation Effects
+External Exposure 
+Triage and Treatment of Radiation-Injured Patients 
+Internal Exposure
+EXPLOSIVE (BLAST) INJURIES
+Mechanisms of Blast Injury 
+Evaluation and Management of Primary Blast Injury
+CONCLUSION
+*Colonel (Retired), Medical Corps, US Army; Chief, Department of Emergency Medicine, Walter Reed National Military Medical Center, Bethesda, 
+Maryland
+†Colonel, Medical Corps, US Army; Associate Professor, Department of Military and Emergency Medicine, Uniformed Services University of the Health 
+Sciences, Bethesda, Maryland
+532
+Fundamentals of Military Medicine
+INTRODUCTION
+The chemical, biological, radiological, nuclear, 
+and explosive (CBRNE) threat to the US military has 
+changed dramatically in recent years due to advancing technological platforms associated with computers, drones, robotics, genetics, and synthetic biology. 
+These changes have created an environment in which 
+individuals, groups, or states can pose an almost invisible threat anywhere around the world. Innovative 
+technologies that empower great good can also be used 
+to inflict great harm. It is reasonable to anticipate that 
+groups that used airplanes like missiles might use toxic 
+industrial chemicals (TICs) like conventional chemical weapons, an emerging infection like a biological 
+weapon, or radioactive isotopes to spread harm or terror, if they could gain access to them. While encountering conventional casualties on the battlefield remains 
+a more likely scenario for today’s military medical 
+officer (MMO) due to the increased accessibility of 
+conventional weapons, the MMO must also remain 
+vigilant for unusual scenarios that might represent 
+the first clue that a CBRNE incident has occurred in a 
+military or civilian population. Because environmental 
+sampling for agent detection and rapid point-of-care 
+testing for agent identification will not be routinely 
+available to most MMOs in the austere environment or 
+most hospital settings, the initial suspicion of a CBRNE 
+attack will rest on clinical recognition of signs and 
+symptoms of poisoning, infection, or injury. 
+Distinguishing a biological, chemical, or radiological weapons attack from that of an emerging infection 
+or toxic industrial accident will be difficult and outside 
+the normal experience of most MMOs. Regardless, 
+today’s MMO must remain alert to the possibility and 
+be prepared to recognize military or civilian CBRNE 
+casualties of warfare or terrorism. This chapter will 
+focus on key principles of CBRNE incident recognition 
+and casualty management, emphasizing relevance to 
+the MMO.
+CHEMICAL WARFARE AGENTS
+During the morning rush hour at 8 am on March 20, 
+1995, in the heart of Tokyo, five small bags of dilute 
+sarin nerve agent were simultaneously dropped in 
+subway cars and punctured with umbrellas as the cars 
+were converging under a hub of government buildings. It appeared as if someone dropped plastic bags 
+with water on the subway car floors. That morning, 
+the terrorist attack by the Aum Shinrikyo cult sent 
+thousands of terrified Japanese, with varying degrees 
+of nerve agent vapor poisoning, to the local healthcare 
+system within minutes, and brought the city of Tokyo 
+to a standstill. Ultimately, 12 people died, at least 5,500 
+victims presented for care, and almost one-quarter of 
+the nearest hospital’s staff became secondary victims. 
+St Luke’s Hospital received 640 victims that day because of news reports that it had the antidote. 1 
+Less than a year earlier, in Matsumoto, Japan, the 
+same cult had launched a sarin attack into the open air 
+using an electric heater fan to direct nerve agent vapor 
+toward a targeted apartment. Eight people died and 
+660 were injured in the first terrorist attack using sarin 
+nerve agent on the general public.
+Chemical warfare agents are toxic substances developed for military use to produce death, serious 
+injury, or incapacitation. They may exist as solids, 
+liquids, or gases, but most are stored as liquids and 
+dispersed as a liquid or aerosol. TICs are industrially 
+manufactured chemicals that could be used to produce 
+mass casualties; some were used as chemical agents on 
+the battlefield in World War I. Incapacitating agents 
+and riot-control agents are chemical agents designed 
+only to produce temporary effects without serious 
+sequelae. 
+The modern use of chemical warfare agents dates to 
+World War I, when the first chemical agent employed 
+on the battlefield was chlorine gas and the most effective was sulfur mustard. Chemical weapons were 
+not used in World War II. The United States and the 
+former Soviet Union (USSR) both signed the Chemical 
+Weapons Convention and agreed to destroy chemical 
+weapons stockpiles beginning in 1990. 2 More than 31 
+countries and some terrorist groups possess chemical 
+weapons, and many more are seeking to obtain them. 3 
+Since the 1980s there have been multiple instances of 
+chemical weapons use on the battlefield, against civilian populations, and in terrorist attacks. The Iraqi military used both nerve agent and mustard against Iran 
+during the 1980–1988 Iran-Iraq war, and widespread 
+use of toxic chemical weapons has been reported in 
+the 2011–present Syrian civil war. 4,5 Because the threat 
+remains high, MMOs have a critical responsibility to 
+competently identify and manage chemical casualties 
+in any setting.
+The major categories of lethal traditional chemical 
+warfare agents include: vesicants, nerve agents, lungdamaging (pulmonary) agents, TICs, and cyanide. 
+Nonlethal agent categories include incapacitating 
+agents and riot-control agents. It is important for the 
+MMO to recognize several general features of chemical agents:
+533
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+ 
+1. Each chemical warfare agent category requires similar treatment. 
+ 
+2. An act of chemical warfare or terrorism is 
+likely to involve substances that cannot immediately be identified; real-time testing will 
+be difficult; and the window for effective 
+therapy will likely be narrow.
+ 
+3. A chemical attack will be more easily recognizable when a group of exposed persons 
+have rapid onset of comparable symptoms. 6 
+General Principles of Chemical Casualty Care 
+General principles of chemical casualty care for the 
+MMO to consider include identifying chemical threat 
+agents and all exposed patients, protecting medical 
+staff, ensuring proper triage, recognizing the need for 
+decontamination (if liquid contamination is present), 
+managing medical treatment and antidote availability, 
+and ensuring proper patient disposition (evacuation 
+or return to duty). For patients, treatment begins with 
+removal from chemical exposure and decontamination. Persons who suspect they have been exposed 
+should remove and bag their clothing and shower 
+thoroughly with soap and water as soon as possible. 
+Removing contaminated clothing can eliminate 85% 
+to 90% of trapped chemical substances. 6 The MMO 
+must appreciate that the majority of affected patients 
+will be minimally exposed and reach medical facilities through their own efforts, so medical treatment 
+facilities must make advanced preparation to handle 
+ambulatory decontamination and provide psychological support to casualties. 
+Clinical signs of severe chemical exposure include 
+altered mental status, airway obstruction, respiratory 
+distress, cardiovascular instability, and seizures. Initial 
+supportive treatment for casualties should be focused 
+on airway management, maintaining ventilation and 
+circulatory support, and administering antidote, if 
+available, while simultaneously assessing for burns, 
+trauma, and other injuries. Atropine, pralidoxime, 
+cyanide antidote kits, hydroxocobalamin, diazepam, 
+and Reactive Skin Decontamination Lotion (RSDL) are 
+the most important drugs to stockpile for the treatment 
+of chemical casualties. 7
+ Personal Protective Equipment
+The MMO managing contaminated patients with 
+liquid exposure must ensure medical staff wear proper 
+chemical protective clothing until the patient is decontaminated. The M40 Chemical-Biological Field Mask 
+represents the latest generation of protective mask 
+issued by the US military. When properly worn, the 
+M40 mask will protect from all known chemical, biological, and riot-control agents. 8 The addition of the 
+chemical/biological hood affords additional protection 
+to the head, neck, and shoulders. Filtration is provided 
+by one C2A1 filter canister mounted on either cheek. 
+The new M50 Joint Service General Protective Mask 
+(JSGPM), designed to replace the M40, is the first 
+joint service model. The JSGPM provides improved 
+vision and protection against nuclear, biological, and 
+chemical threats, including designated TICs, with the 
+M61 filter. 9 The chemical protective glove set consists 
+of an outer butyl rubber glove for chemical protection 
+and an inner cotton glove for perspiration absorption. 
+The green or black vinyl over-boots are worn over 
+combat boots and provide protection from chemical 
+and biological agents and radioactive particles (alpha 
+and beta) for a limited time. The Joint Service Lightweight Integrated Suit Technology (JSLIST) Chemical 
+& Biological Protective Garment, a two-piece suit lined 
+with carbon beads, provides 24 hours of protection 
+against known biological and chemical agents and 
+toxins in solid, liquid, or vapor form, and alpha and 
+beta radioactive particles. 9 It should be worn in military 
+environments under threat of nuclear, biological, or 
+chemical attack. 
+Vesicants 
+Vesicants (“blister agents”) are agents that cause 
+chemical burns. To the MMO, sulfur mustard or mustard (NATO designation H or HD) is the most important vesicant and is still considered a major military 
+threat agent. It has been the most frequent chemical 
+weapon used militarily since 1917, and was responsible 
+for most of the chemical casualties in World War I. 10 
+Mustard is stored and deployed as a persistent liquid 
+agent and constitutes both a liquid and vapor threat 
+to exposed skin and mucous membranes. 11 Accidental 
+exposure from old military ordinance has occurred. 12,13
+Mustard may be detected by multiple military 
+detection devices including chemical agent monitors 
+and detection papers. 11 Routine clinical lab testing 
+for mustard in blood does not exist, but a metabolite, 
+thiodiglycol, may be detected in blister fluid or urine, 
+and advanced analyses of blood samples have verified 
+human exposure to mustard. 10,13
+Properly wearing the full chemical protective mask 
+and ensemble affords full protection against vesicants 
+like mustard. The activated charcoal in the mask filters 
+and over-garment absorbs mustard. The butyl rubber 
+in the chemical protective gloves and boots is impermeable to mustard. 14 
+Mustard liquid is absorbed through skin within 
+minutes and rapidly distributed throughout the 
+534
+Fundamentals of Military Medicine
+body. 10 While the exact mechanism of action of mustard is unknown, its effects are delayed, appearing 
+hours after exposure. Mustard vapor is extremely 
+irritating to the eyes, skin, and airways. Burning or 
+pain may begin anywhere from 2 to 48 hours after 
+exposure. Initial skin injury resembles sunburn, which 
+may progress to blister formation. Blister fluid does not 
+contain mustard and is not a contamination risk. 10 The 
+earliest effects from mustard involving the airway will 
+be burning of the nares, sinus pain, sore throat, and 
+hoarseness. Injury to the upper airways may lead to 
+cough and laryngitis. Damage descends to the lower 
+airways in a dose-dependent fashion. 11 The terminal 
+airways and alveoli are usually not affected, and pulmonary edema is rarely present. 15 
+The MMO must appreciate that no specific antidote 
+for mustard exists; therefore, early decontamination is 
+critical. To be effective in the management of mustard 
+casualties, decontamination must be carried out immediately in the field to prevent injury and further 
+exposure. Unfortunately, patients usually present 
+when pain and lesions develop, hours after exposure. 
+Management may be simple or complex, and the extent 
+and severity of injury is dose-dependent. Although 
+lethality from mustard exposure is low, MMOs must 
+be aware that most casualties will require some form 
+of extended medical care. 10 Dermal injuries may be 
+managed with standard chemical burn care. 11 Early 
+treatment should be focused on keeping the casualty 
+comfortable, maintaining oxygenation, and preventing 
+infection. Severe eye injuries and vision loss are rare 
+from mustard exposure, and most casualties who lose 
+their vision due to mustard exposure can be safely 
+reassured they will fully recover their eyesight. 10 Significant respiratory effects within 4 hours of exposure 
+signify a severe poisoning and poor prognosis. 11
+Nerve Agents
+The MMO must recognize that the nerve agents GA 
+(tabun), GB (sarin), GD (soman), GF, and VX are the 
+most toxic chemical warfare agents and are considered 
+major military threats. They are hazards in both liquid 
+and vapor states and can cause death within minutes 
+after exposure. The only known battlefield use of nerve 
+agent occurred during the Iran-Iraq War; however, 
+there have been multiple episodes of use against civilian populations, most notably the 1995 Tokyo subway 
+terrorist attack with the nerve agent sarin. Many countries have the technology to manufacture nerve agents, 
+and weapons stockpiles remain major concerns. 
+Nerve agents are potent organophosphate acetylcholinesterase (AChE) inhibitors, causing cholinergic 
+overstimulation and a clinical syndrome called “cholinergic crisis”(Table 35-1). Most exposures occur via 
+inhalation or through the skin. The attachment of 
+nerve agent to the AChE enzyme is permanent unless removed by medical therapy. 16 The MMO should 
+consider nerve agent poisoning in instances of terrorism when multiple persons suddenly collapse with 
+TABLE 35-1
+EFFECTS OF NERVE AGENTS IN HUMANS (CHOLINERGIC TOXIDROME)
+Body Part or System
+Effect (“DUMBBELLS”)
+Skin and sweat glands
+Diaphoresis
+Urinary tract
+Urination
+Eye
+Miosis (unilateral or bilateral), pain in or around the eye; complaints of dim or blurred vision
+Nose
+Rhinorrhea
+Pulmonary tract
+Bronchorrhea and Bronchospasm cough; complaints of tight chest, shortness of breath; wheezing on exam
+Gastrointestinal tract
+Emesis and Loose stools; increase in secretions and motility; nausea, vomiting, diarrhea; complaints of abdominal cramps, pain
+Mouth
+Lacrimation and Salivation
+Muscular
+Fasciculations (“rippling”), local or generalized; twitching of muscle groups; flaccid paralysis; 
+complaints of twitching, weakness
+Cardiovascular
+Decrease or increase in heart rate; usually increase in blood pressure
+Central nervous 
+system
+Acute effects of severe exposure: loss of consciousness, convulsion (or seizures after muscular 
+paralysis), depression of respiratory center to produce apnea
+535
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+TABLE 35-2
+EFFECTS OF EXPOSURE TO NERVE AGENT 
+VAPOR
+Exposure Level
+Effects*
+Small (local effects)
+Miosis, rhinorrhea, slight bronchoconstriction, secretions (slight dyspnea)
+Moderate (local 
+effects)
+Miosis, rhinorrhea, slight bronchoconstriction, secretions (moderate to 
+marked dyspnea)
+Large
+Miosis, rhinorrhea, slight bronchoconstriction, secretions (moderate to 
+marked dyspnea), loss of consciousness, convulsions (seizures), generalized fasciculations, flaccid paralysis, 
+apnea, micturition/defecation possible with seizures
+*Onset of effects occurs within seconds to several minutes after 
+exposure.
+apnea, seizures, or coma. The initial effects of nerve 
+agent, which may begin within seconds, depend on 
+the dose and route of exposure; the severity of clinical effects are dose-dependent. Exposure to a small 
+amount of nerve agent vapor causes effects on the 
+eyes, nose, and airways. Miosis, often accompanied 
+by eye pain, blurred vision, and nausea, is a characteristic finding in nerve agent vapor exposure to the 
+eyes. 16 Rhinorrhea is characteristic of nasal airway 
+vapor exposure, as is chest tightness, bronchoconstriction, and increased secretions. Exposure to a 
+large amount of nerve agent vapor will cause rapidly 
+cascading symptoms in minutes, culminating in loss 
+of consciousness, convulsions, apnea, and muscle 
+flaccidity (Table 35-2). 16 
+Standard military chemical agent monitors and 
+chemical agent paper will detect nerve agent. 14 The 
+protective mask and chemical protective ensemble affords full protection. Butyl rubber gloves and boots are 
+impermeable to nerve agents. Pyridostigmine bromide 
+is a safe command-authorized military pretreatment 
+against soman exposure. It is not an antidote and must 
+be taken before exposure. 16
+Medical management includes decontamination 
+for liquid exposure, ventilation, antidotal treatment, 
+and supportive care. Removal of clothing is adequate 
+to prevent exposure to trapped vapor. The need for 
+ventilation will be obvious. 17 Three drugs are used 
+to treat nerve agent exposure: atropine, pralidoxime 
+chloride, and diazepam. The Antidote Treatment 
+Nerve Agent Auto-injector (ATNAA) contains atropine and pralidoxime chloride. 17 Pralidoxime chloride 
+should never be withheld out of concern it may be 
+too late after exposure. 16 Convulsant Antidote, Nerve 
+Agent (CANA) contains diazepam. Benzodiazepines 
+are the only effective anticonvulsants for nerve agent 
+poisoning and should be administered to all patients 
+with severe intoxication. 16 Casualties with severe 
+symptoms should be triaged as immediate and receive 
+three ATNAAs and one CANA. 17 Casualties exposed 
+to liquid nerve agent may worsen. Casualties who 
+are walking and talking and no longer being exposed 
+may be triaged as minimal. 17 Laboratory testing to 
+confirm nerve agent exposure is based on measuring 
+the level of AChE inhibition, rather than testing for 
+parent nerve agent. 18
+Lung-Damaging Toxic Industrial Chemicals
+On the night of December 2, 1984, during floor 
+cleaning at the Union Carbide pesticide plant in Bhopal, India, water contacted a tank of methyl isocyanate, 
+resulting in an exothermic reaction and explosion. 
+Within an hour, 40 tons of the chemical had vaporized 
+and leaked out into the night air. Heavier than air, the 
+vapor cloud settled along the ground and drifted into 
+the surrounding densely populated slums. Over the 
+next day, the dead and dying arrived by truckloads 
+at local hospitals, and within 48 hours, 8,000 people 
+had died and about 200,000 people were injured in the 
+largest TIC disaster to date. 19 
+Today’s MMO should recognize that the greatest 
+chemical threat has shifted from structured military offensive capabilities to accidental or intentional release 
+of TICs, such as in the Bhopal disaster. 2,20 Chlorine and 
+phosgene, two of the first chemical weapons used on 
+the battlefield, are commonly used industrial chemicals today. Hundreds of TICs are used in industrial 
+sites, publicly stored, and transported. To the military, 
+lung-damaging TICs released on the battlefield as an 
+aerosol, vapor, or gas are primarily an inhalational 
+threat. When dispersed, they are usually heavier than 
+air and hang close to the ground. TICs that commonly 
+pose a military threat include: phosgene (CG), chlorine 
+(Cl), oxides of nitrogen (NOx), hexachloroethane (HC) 
+smoke, ammonia, and perfluoroisobutylene (PFIB). 20 
+The military protective mask and filter will protect 
+against some TICs, but not all. Specific filters or selfcontained breathing apparatuses are mandated for 
+certain TICs, such as ammonia. In addition, the protective mask is not effective in environments where TICs 
+displace oxygen, creating a low oxygen environment. 14 
+The severity of a TIC exposure is based on multiple factors, including the substance involved and its 
+concentration, the duration of exposure, whether the 
+536
+Fundamentals of Military Medicine
+exposure occurred within a confined space, whether 
+there was loss of consciousness, and whether underlying lung disease is present. Some TICs act preferentially on the central airway compartment (upper airway), some act preferentially on the peripheral airway 
+compartment (lower airway), and some act on both 
+compartments (Figure 35-1). In large doses, TICs affect 
+both central and peripheral airway compartments.
+The clinical effects from centrally acting agents 
+such as ammonia are immediate and include irritated 
+upper airways manifested by nasopharynx, oropharynx, and larynx inflammation, resulting in sinus pain, 
+painful swallowing, hoarseness, sensation of choking, 
+stridor, and laryngospasm. 21 The onset of the clinical 
+effects of peripherally acting agents such as phosgene 
+is delayed, usually for hours. Toxicity may include irritation to the lower airways manifested by coughing 
+and shortness of breath, followed by the development 
+of pulmonary edema with production of clear foamy 
+sputum. 21 A shortened latency period portends a more 
+severe exposure and worse prognosis. 
+Medical management includes terminating exposure, which may include decontamination of any 
+liquid on skin and removal of clothing to prevent 
+further exposure from trapped vapors. There are 
+no commonly available laboratory tests for the 
+specific identification of lung-damaging agents. 21 
+Rest after exposure is critical. Physical activity in a 
+symptomatic patient may precipitate acute clinical 
+deterioration. 20 Treatment is supportive; supplemental oxygen is indicated along with bronchodilators 
+for bronchospasm. 
+These patients can dramatically deteriorate after an 
+initial latency period. Symptomatic patients require 
+a period of observation with particular attention to 
+airway management and treatment of pulmonary 
+edema. Patients with hoarseness, stridor, upper-airway 
+burns, or altered mental status may require endotracheal intubation. Patients with known exposure will 
+require a period of observation of anywhere from 12 
+to 48 hours, depending on their presenting symptoms. 
+Patients who remain asymptomatic 8 hours after 
+exposure are unlikely to develop acute lung injury. 21 
+Patients presenting with shortness of breath can only 
+be returned to duty at 48 hours, if physical exam and 
+objective data are normal. 21 
+Cyanide
+There is no military use for cyanide. 22 The primary 
+threat from cyanide for the MMO is its use as a toxic vapor deployed in an enclosed space. Forms of cyanide, 
+such as hydrogen cyanide (AC) and cyanogen chloride 
+(CK), are rapidly acting and highly lethal inhalational 
+agents in high concentration. Cyanides are ubiquitous 
+substances with widespread industrial use. Standard 
+military field detection equipment can detect cyanide, 
+and the chemical protective mask is fully protective 
+against cyanide vapor. 14
+The most important route of cyanide exposure is via 
+inhalation, after which it will be readily absorbed and 
+rapidly distributed throughout the body. Cyanide interferes with oxygen transport and cellular respiration, 
+thereby causing tissue hypoxia, anaerobic metabolism, 
+and severe metabolic acidosis.
+Cyanide should be suspected when a laboratory or 
+industrial worker, or a group of individuals, suddenly 
+collapse. The organs most susceptible to cyanide are 
+the central nervous system and the heart. The MMO 
+will find few and nonspecific physical findings, such 
+as anxiety, agitation, vertigo, and feelings of weakness, 
+followed by sudden loss of consciousness, convulsions, 
+and apnea. 23 Classically described findings are severe 
+respiratory distress in an acyanotic individual with 
+“cherry-red” skin. 22 The hallmarks of severe cyanide 
+toxicity are persistent hypotension and acidemia (lactic acidosis) despite adequate arterial oxygenation. 
+Confirmatory lab tests for cyanide are not rapidly 
+available, and while they exist, the turnaround time 
+for test results is generally not rapid enough to support diagnostic use. 22 An MMO can expect to see anion 
+gap metabolic acidosis from severe lactic acidosis in 
+significant cyanide poisoning. 23
+Central
+Peripheral
+Trachea
+Larynx
+Bronchiole
+Lung
+Bronchus
+Figure 35-1. Airway compartments: central and peripheral.
+Graphic courtesy of: US Army Medical Research Institute 
+of Chemical Defense.
+537
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+Dermal decontamination is unnecessary in vapor 
+exposures. Treatment begins with administering 
+100% oxygen and general supportive care. Severely 
+symptomatic patients should be considered for specific 
+antidotal therapy, either in a two-step process involving infusions of sodium nitrite and sodium thiosulfate, 
+or with a single infusion of hydroxocobalamin (vitamin B12a), if available, to chelate cyanide. 22 While 
+hyperbaric oxygen may be beneficial, it is not readily 
+available, particularly in a mass exposure setting. For 
+the MMO in the deployed setting, most inhalational 
+exposure casualties who survive long enough to reach 
+medical care will need little treatment.
+Incapacitating Agents
+Incapacitating agents cause impairments that 
+are temporary and nonlethal. There are two known 
+chemicals of concern: BZ, a synthetic glycolate anticholinergic compound aerosolized as a solid particle, 
+and Agent 15, a compound speculated to be identical 
+or similar to BZ. 24 These agents act as competitive inhibitors of acetylcholine with resulting effects that are 
+generally the opposite of nerve agent poisoning. The 
+United States has developed and stockpiled BZ, and 
+it is reported that Iraq has stockpiled large amounts 
+of Agent 15. 25
+BZ is dispersed as an odorless, non-irritating aerosolized solid. 25 It is primarily a respiratory threat, but 
+it is also a risk via ingestion or absorption through 
+the skin. 24 The characteristic of BZ that makes it incapacitating rather than toxic is its high safety ratio. 24 
+The high-efficiency particulate air (HEPA) filter of the 
+chemical protective mask prevents exposure to BZ. 14 
+There is no current detection capability fielded. 24
+BZ intoxication causes classic anticholinergic symptoms that can be divided into peripheral effects, such 
+as mydriasis, blurred vision, dry mouth, and dry skin, 
+and central nervous system effects, such as altered 
+level of consciousness, delusions, hallucinations, 
+slurred speech, disorientation in time and place, and 
+behavioral lability (from quietness to restlessness to 
+combativeness). 25 BZ also produces shared illusions 
+and hallucinations in groups. 24 The onset of symptoms 
+depends on the dose and route of exposure. Symptoms 
+may last 3 to 4 days. 24 
+Medical management should focus on decontamination of skin and clothing, confiscation of weapons or 
+similar items from the patient to prevent injuries from 
+erratic behavior, and observation. The MMO should 
+prioritize physical restraint, managing heat stress, 
+control of symptoms with benzodiazepines, and the 
+proper use of physostigmine antidotal therapy. 24 Early 
+return to duty is not realistic for the majority of affected 
+patients due to the usual time course of intoxication, 
+which could last several days.
+Riot-Control Agents
+Riot-control agents are the chemical agents an 
+MMO is most likely to encounter. Also called lacrimators or tear gas, riot-control agents produce 
+temporary discomfort and eye closure, which renders individuals unable to fight. 26 Current military 
+use includes law enforcement for riot control and 
+gas chamber training exercises to evaluate proper 
+use of the protective mask. The primary riot-control 
+agents used in the United States are CN (mace), CS 
+(tear gas), and OC (pepper spray). These agents are 
+crystallized solids dispersed as fine particles via 
+spray, grenade, or foam. 27 
+The mechanism of toxicity of riot-control agents is 
+not well characterized, and the main effects consist 
+of temporary pain and burning of exposed mucous 
+membranes and skin. The eye is the organ most sensitive to these agents. 27 Conjunctival burning leads 
+to tearing and blepharospasm producing temporary 
+blindness. Inhalation in the airways causes burning, 
+sneezing, and coughing. The MMO might anticipate 
+more serious pulmonary reactions in individuals with 
+chronic pulmonary diseases. 
+Usually decontamination will not be needed if 
+exposure was outdoors; however, the skin can be decontaminated with soap and water, and eyes should 
+be decontaminated by flushing with copious amounts 
+of water. 26 Medical providers do not require protection 
+once an exposed patient has been decontaminated. 
+Effects of exposure are usually self-limited and require no specific therapy but can be lethal under high 
+concentration in a confined space. Also, because the 
+effects are self-limiting, most individuals should be 
+able to return to duty. 26 
+Overview of Decontamination 
+Decontamination, the removal of hazardous 
+chemical, biological, or radiological agents from a 
+person or object, is a critical nonmedical task that 
+is personnel, time, and equipment intensive. Performance while wearing protective equipment is 
+degraded. 28 For suspected contaminated patients, 
+decontamination should occur as quickly as possible after exposure. The goals are to immediately 
+remove the agents from those exposed by non-toxic 
+means, and to maintain an uncontaminated military 
+medical treatment facility (MTF). Decontamination 
+is not critical for people exposed only to vapor,29 
+but for patients exposed to liquids, aerosols, or 
+538
+Fundamentals of Military Medicine
+dry solids, thorough decontamination is required, 
+especially when patients will enter a medical facility where staff are not in protective clothing. Three 
+methods of skin decontamination are preferred by 
+the US military:
+ 
+1. RSDL is a packaged sponge containing liquid 
+potassium solution that deactivates mustard 
+(HD) and nerve agent. It may be used only 
+on intact skin, not on wounds or eyes (only 
+water, normal saline, or eye solutions are 
+recommended for decontaminating the eyes). 
+RSDL is carried by military members for immediate field self-decontamination, but its 
+use does not eliminate the need for thorough 
+decontamination later. 29
+ 
+2. Soap and water in copious amounts is effective for washing away most agents. It does 
+not destroy biological agents or neutralize 
+radioactive particles. The predominant effects are physical removal and dilution of 
+agents. 29
+ 
+3. Hypochlorite solution, 0. 5% (nine parts 
+water to one part normal 5% bleach), can be 
+wiped on the skin and rinsed with fresh water. The solution will cause a slow chemical 
+decontamination reaction. 29
+The decontamination process requires controlled removal of the personal protective equipment (PPE) and 
+skin decontamination before treatment in the MTF. 
+Contaminated bandages are removed and wounds 
+are flushed with sterile water. Bandages are replaced 
+if bleeding recurs. Splints are thoroughly rinsed with 
+0. 5% hypochlorite solution. 29 Wounds contaminated 
+with vesicants or nerve agents may present a hazard 
+to providers. 29 The risk from off-gassing from a contaminated wound is not significant, and removal of the 
+foreign material effectively eliminates the hazard, so a 
+chemical protective mask is not required for surgical 
+personnel. 29 Patients are certified clean from chemical 
+agents after decontamination using M8 paper, the Joint 
+Chemical Agent Detector (JCAD), or the Improved 
+Chemical Agent Monitor (ICAM). 29 
+Patient Decontamination Site 
+Ideally, decontamination of casualties should be 
+done in the field before evacuation to a medical facility 
+(unfortunately, most victims bypass prehospital care 
+and arrive unannounced at the closest MTF). Decontaminated casualties arriving from a contaminated 
+environment must enter an MTF through a patient 
+decontamination site (PDS). 30 This ensures MTF patients and staff will not become cross-contaminated 
+by arriving contaminated casualties. The principal 
+components of the PDS include: 
+ 
+• an entry control point,
+ 
+• a triage area,
+ 
+• an emergency medical treatment (EMT) area,
+ 
+• a decontamination area, and
+ 
+• a “hot line” separating the contaminated from 
+clean areas. 30,31
+Medical personnel should be available to perform 
+triage and emergency care in the contaminated 
+“warm” zone before casualties are decontaminated. 
+Casualties needing emergency care are sent to the 
+warm side EMT. Because patient decontamination 
+involves heavy work that can cause overheating, the 
+decontamination team should be supplemented with 
+nonmedical personnel. A safety officer must be appointed to observe PDS workers and manage work/
+rest cycles. Medical facilities must consider environmental variables such as wind direction and water 
+run-off when establishing a decontamination site. 30,31
+BIOLOGICAL WARFARE AGENTS
+In late March 1979, at a Soviet army biological research facility on the outskirts of Sverdlovsk, USSR, 
+in the foothills of the Ural Mountains, a technician 
+removed a clogged filter in the anthrax drying plant, 
+briefly allowing spores to escape. Approximately 1 
+g of a powerful weaponized strain, anthrax 836, was 
+released into the cold night air. In a few days all the 
+night shift workers in a plant across the street, in the 
+direct path of the wind, had fallen ill, and within a 
+week almost all were dead. Over the next 6 weeks 
+at least 66 persons died from inhalational anthrax, 
+and farm animals died up to 50 km within a narrow 
+zone downwind from the factory. 32 The outbreak, a 
+“biological Chernobyl,” demonstrated the power of 
+anthrax as a biological weapon and clearly showed 
+that the USSR was producing offensive biological 
+weapons, in violation of the 1972 Biological Weapons 
+Convention. 33
+Prior to 1969, the United States had an active biological warfare program that included research, development, and stockpiling of offensive biological weapons. 
+Under President Nixon, the United States unilaterally 
+renounced the development and production of biological weapons. From that time forward, US efforts 
+539
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+in biological warfare have been restricted to research 
+and development of vaccines, drugs, and diagnostics 
+as defensive measures against biological weapons. 34 
+While the United States offensive biological warfare 
+program included open-air testing using simulants 
+thought to be nonpathogenic, the US military has 
+never used biological weapons. 34,35 In contrast to the 
+United States, the USSR (and Russia) had a massive 
+offensive biological weapons program until 1992, and 
+Iraq maintained some offensive biological weapons 
+capacity until 2003. 33,34,36 
+There have been two large-scale bioterrorist 
+attacks in the United States: the 1984 Rajneeshee 
+salmonella attack, which resulted in 751 cases of 
+infection, and the 2001 anthrax mailings, which 
+resulted in 22 cases of infection, 5 deaths, and approximately 10,000 suspected exposures to patients 
+who were offered postexposure prophylaxis. 37,38 
+Published reports suggest that the threat of biological terrorism continues to increase, and the use of 
+biological weapons in both large- and small-scale 
+attacks against US military and civilians continues 
+to be actively explored by nations and terrorist 
+groups. 34,39 In 2001 a team of virologists in Germany 
+and France constructed an Ebola virus from three 
+strands of complimentary DNA using reverse genetics, with technology described by the National 
+Scientific Advisory Board for Biosecurity as “readily 
+accessible, straightforward, and a fundamental tool 
+used in current biological research.”40,41 However, 
+MMOs should understand that while many biological agents can cause illness in humans, few are 
+capable of affecting public health and medical infrastructures on a large scale, like anthrax and Ebola. 
+The Centers for Disease Control and Prevention 
+(CDC) has been designated the lead agency for overall 
+national public health planning and response to biological terrorism. It has prioritized high-risk biological 
+agents based on their overall threat to civilians (Table 
+35-3). 42 This chapter focuses on Category A agents and 
+their relevance to the MMO. MMOs must maintain a 
+high index of suspicion and be prepared to evaluate 
+both symptomatic patients and asymptomatic “suspected exposed” military and civilian patients referred 
+from syndromic surveillance systems.
+Bacterial Agents
+Anthrax
+Inhalational anthrax in the United States under 
+normal circumstances is so unusual that a single case 
+should prompt an investigation for bioterrorism. 
+Naturally occurring anthrax is primarily a disease of 
+herbivores. The causative agent of anthrax is a grampositive sporulating rod, Bacillus anthracis, and spores 
+are the usual infective form. 43 
+In New York City on September 29, 2001, a 7-monthold infant was noted to have a painless red papule 
+with swelling on his upper arm. During the next 24 
+hours his arm became increasingly edematous, the 
+papule evolved into a painless macule, and a slight 
+serous drainage began. His pediatrician began antibiotics for presumed cellulitis, but the infant soon 
+required admission for increased swelling and difficulty tolerating oral medication. By hospital day 
+2 the arm showed massive non-pitting edema with 
+a dark red macule 3 cm in diameter. The working 
+diagnosis was “spider-bite.” The infant continued 
+to deteriorate. On hospital day 13 he was diagnosed 
+with cutaneous anthrax by skin biopsy and blood 
+testing for B anthracis. Eventually the infant made a 
+full recovery on appropriate antibiotics. It was later 
+determined that the day before his symptoms began, 
+the infant had spent an hour in his mother’s office at 
+a national news organization, where anthrax spores 
+were subsequently found. 44
+Cutaneous anthrax had never before been diagnosed in an infant in New York. The first case of inhalational anthrax associated with the anthrax mailings 
+was not recognized until October 4. Earlier diagnosis 
+of cutaneous anthrax in this case would have alerted 
+the medical community to the impending danger and 
+prevented further delay in diagnosis of other symptomatic patients.
+Anthrax presents as three distinct clinical diseases 
+in humans determined by the route of entry of the 
+spores: inhalational, cutaneous, and gastrointestinal 
+(GI). The most severe of these is inhalational anthrax, 
+which presents as a nonspecific febrile illness after a 1- 
+to 6-day incubation period. 43 The inhalational anthrax 
+syndrome may include nausea, vomiting, nonproductive cough, fever, malaise, headache, and chest discomfort. 45,46 Physical findings are nonspecific early in the 
+course of disease. Evidence of mediastinal widening 
+(hemorrhagic mediastinitis) or pleural effusions may 
+be seen on chest x-ray or computed tomography (CT) 
+scan. 47 Prominent hilar adenopathy is characteristic. 43 
+The patient will progress to respiratory distress, septic 
+shock, and death unless provided aggressive intensive 
+care. 43 Due to the fulminant course of inhalational 
+anthrax, prompt antibiotics are essential for survival, 
+and monotherapy is not acceptable. 48 More advanced 
+therapies are available under Investigational New 
+Drug (IND) authorization subject to Food and Drug 
+Administration (FDA) regulations. 48 
+Direct person-to-person spread does not occur, and 
+standard universal patient precautions are recom540
+Fundamentals of Military Medicine
+TABLE 35-3
+CRITICAL BIOLOGICAL AGENT CATEGORIES FOR PUBLIC HEALTH PREPAREDNESS
+Biological Agents*
+Disease
+Category A: moderate to high potential for large-scale dissemination; greatest potential for production of mass casualties 
+and major impact on public health
+Variola major
+Smallpox
+Bacillus anthracis
+Anthrax
+Yersinia pestis
+Plague
+Clostridium botulinum (botulinum toxins)
+Botulism
+Francisella tularensis
+Tularemia
+Filoviruses and arenaviruses (eg, Ebola virus, Lassa virus)
+Viral hemorrhagic fevers
+Category B: some potential for large-scale dissemination; cause less illness and death and expected to have lower public 
+health impact
+Coxiella burnetii
+Q fever
+Brucella species
+Brucellosis
+Burkholderia mallei
+Glanders
+Burkholderia pseudomallei
+Melioidosis
+Alphaviruses (VEE, EEE, WEE)
+Encephalitis
+Rickettsia prowazekii
+Typhus fever
+Toxins (eg, ricin, staphylococcal enterotoxin B)
+Toxic syndromes
+Chlamydia psittaci
+Psittacosis
+Food safety threats (eg, Salmonella species, Escherichia coli 
+O157:H7)
+Water safety threats (eg, Vibrio cholerae, Cryptosporidium parvum)
+Category C: could emerge as a future threat; not believed to be a significant public health threat at present
+Emerging threat agents (eg, Nipah virus, Hantavirus, multidrug-resistant tuberculosis, SARS, MERS)
+*The categories of agents should not be considered definitive and may change as new information is obtained.
+EEE: Eastern equine encephalomyelitis; MERS: Middle East respiratory syndrome; SARS: severe acute respiratory syndrome; VEE: Venezuelan equine encephalomyelitis; WEE: Western equine encephalomyelitis 
+Reproduced with permission from: Rotz LD, Khan AS, Lillibridge SR, et al. Public health assessment of potential biological terrorism agents. 
+Emerg Infect Dis. 2002;8(2):225-226. 
+mended. Anthrax is detectable in early stages via blood 
+culture or polymerase chain reaction (PCR) and later 
+stages via Gram stain of blood, cerebral spinal fluid 
+(CSF), or pleural fluid. 43 B anthracis culture requires 
+biosafety level (BSL) 2 lab precautions. 
+Biothrax (Anthrax Vaccine Adsorbed [AVA]; Emergent BioSolutions, Gaithersburg, MD) is a safe vaccine 
+licensed for the prevention of anthrax. 43 It is included 
+in the Strategic National Stockpile and indicated for 
+postexposure prophylaxis (PEP). 48 Antibiotics and 
+AVA are indicated for PEP; all patients exposed to 
+anthrax should receive prophylactic antibiotic treatment for 60 days. 48 Anthrax is thought to be the most 
+likely biological agent to be used in future bioterrorism attacks. 45 Anthrax spores were weaponized by 
+the United States, the USSR, and Iraq, among other 
+countries. 49,50 During the Persian Gulf War, US military 
+members carried ciprofloxacin to be used prophylactically in the event of an anthrax attack on US forces. 43
+Plague
+Yersinia pestis is a gram-negative bacterium that 
+causes plague, a naturally occurring disease spread 
+from rodents through direct contact or contact with 
+infected fleas. Plague is endemic to the US southwest, 
+but naturally occurring pneumonic plague is rare. 
+Three pandemics of plague occurred in the 6th, 14th, 
+541
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+and 19th centuries, killing millions of people. 51 The 
+highly contagious nature of plague via person-toperson transmission makes it an attractive high-threat 
+biological terrorist weapon, and it was weaponized by 
+the United States and USSR. 52
+Plague appears in three forms in humans: pneumonic, septicemic, and bubonic. Pneumonic plague 
+would be the disease form expected after aerosol 
+dissemination and presents as a severe respiratory 
+illness of sudden onset 1 to 6 days after exposure. 52 
+Classic symptoms include high fever, headache, 
+and cough with hemoptysis. 52 Death results from 
+respiratory failure, circulatory collapse, and bleeding 
+diathesis. 51 Plague should be suspected by the MMO 
+if a large number of previously healthy individuals 
+present with severe pneumonia with hemoptysis. 
+The MMO can establish a presumptive diagnosis by 
+identifying gram-negative coccobacilli in sputum. A 
+definitive diagnosis requires culturing the organism, 
+which usually takes 48 to 72 hours. PCR and direct 
+fluorescent antibody tests may be available in certain 
+reference labs. 53
+Early treatment with antibiotics is required for 
+survival, ideally within 1 day of symptoms, although 
+naturally occurring antibiotic-resistant strains exist. 53 
+Patient management requires respiratory droplet precautions because pneumonic plague is easily spread 
+person-to-person via aerosol, yet this has not occurred 
+in the United States since 1925. 51 All individuals who 
+come within 2 m of a patient with pneumonic plague 
+should receive PEP with antibiotics. 53 No vaccine has 
+been available since 1998, and the previously available vaccine was not effective against pneumonic 
+plague. 51,53
+Tularemia
+Francisella tularensis, the causative agent of tularemia, is a small, naturally occurring, hardy, and 
+extremely virulent gram-negative coccobacillus. F 
+tularensis can be stabilized and aerosolized to make an 
+effective offensive weapon, and it has been associated 
+with multiple environmental biosurveillance alerts in 
+the United States since 2001. 54 As a result, the MMO 
+could see “suspected exposed” patients referred via 
+bioterrorism aerosol surveillance programs. 54 
+Tularemia is acquired primarily through contact 
+with rabbits, ticks, or fleabites. It was weaponized by 
+the United States and the USSR and has a very low 
+infectious dose; exposure to approximately 10 organisms will cause disease. 55 A high index of suspicion 
+is needed to make an early diagnosis of tularemia. 
+After aerosol inhalation and an incubation period of 
+3 to 6 days, the disease manifests as abrupt onset of 
+fever, headache, malaise, myalgia, and prostration, followed by pleura-pneumonia. 56 F tularensis is difficult 
+to culture with standard lab media, and isolation of 
+the organism requires a BSL-3 level containment lab. 57
+The initial treatment is with intravenous antibiotics. 
+There has been no known human-to-human transmission of tularemia, so only standard precautions are 
+required. 55 Since there is no licensed vaccine available, 
+PEP is managed with antibiotics and should be continued for 14 days. 57
+Viral Agents
+Viruses, as intracellular parasites requiring host 
+cells for replication, cannot be cultivated in synthetic 
+nutrient materials. The MMO should recognize that 
+some viruses are well suited as bioweapons.
+Smallpox (Variola)
+Smallpox, caused by the variola virus, was declared 
+eradicated by the World Health Organization in 1980. 
+The United States ended routine civilian vaccination 
+in 1972 and routine smallpox military vaccination in 
+1989. 58 Two repositories for the smallpox virus exist 
+in the United States and Russia; however, the extent 
+of clandestine stockpiles as a biological weapon is 
+unknown, and the possibility of its reemergence exists. Smallpox was easily cultured, very stable, and 
+successfully weaponized. 59 Large stockpiles of this 
+agent existed in the USSR, where it was viewed as a 
+strategic weapon of opportunity. Since routine civilian 
+immunization ended, there is now a large immunologically naïve population. 33,58
+The initial diagnosis of smallpox is clinical. The 
+MMO must differentiate smallpox from other papulovesicular lesion-producing diseases. The clinical 
+manifestations of smallpox appear in a series of distinct 
+phases that are uniquely characteristic, and its rash 
+may be confused with chickenpox. Lesions appear 
+first on the face and hands, then spread to the extremities, and finally the trunk. Classically, lesions remain 
+synchronous in their stage of development throughout the body during each clinical phase. Microscopy 
+cannot distinguish between the orthopox viruses, but 
+PCR may distinguish variola. 58 The MMO may fail 
+to recognize patients with immunocompromise who 
+develop different, non-classic forms of disease, and 
+human monkeypox may look indistinguishable from 
+smallpox. 58 
+To the MMO, any case of smallpox should be considered a public health emergency. There is no FDAapproved chemotherapy, but antiviral drugs for use 
+against smallpox are under investigation. 60 Individuals 
+542
+Fundamentals of Military Medicine
+with successful smallpox vaccination within 3 years 
+that resulted in a confirmed clinical take (progression 
+from papule to vesicle to pustule to scab at the inoculation site) are considered immune to smallpox; however, routine revaccination of all potentially exposed 
+individuals would be prudent in the face of significant 
+exposure risk. 60
+Immediate vaccination or revaccination with 
+smallpox (live vaccinia virus) vaccine (ACAM 2000), 
+ideally within 4 days for all exposed personnel, will 
+likely ameliorate or prevent disease. 60 There are no 
+absolute contraindications to postexposure vaccination for high-risk exposures, and vaccinia immune 
+globulin (VIG) is indicated for rare life-threatening 
+complications from vaccinia vaccine, such as eczema 
+vaccinatum and postvaccinial encephalitis. 58,59
+The MMO must recognize that smallpox is highly 
+infectious; transmission occurs person-to-person by 
+respiratory droplets and is enhanced by coughing. 58–61 
+Infection can also occur from contact with infected 
+clothing or bedding. Patients are infectious from onset of rash until all scabs separate. Infectious patients 
+require isolation with contact, airborne, and droplet 
+precautions. 60 All asymptomatic contacts must be 
+quarantined for 17 days. 60
+PCR testing for smallpox is available under BSL-4 
+conditions at national laboratories (US Army Medical Research Institute for Infectious Diseases and the 
+CDC) via the Laboratory Response Network. A PCR 
+test that detects all orthopoxviruses may be available 
+via the military area medical laboratory. 60
+Viral Hemorrhagic Fever
+On September 25, 2014, a 45-year-old man from 
+Liberia, who had arrived in the US 5 days earlier, 
+went to a Dallas, Texas, emergency department with 
+fever (100. 1° F), abdominal pain, and headache. He 
+was treated for possible sinusitis and discharged. 
+He returned to the same emergency department via 
+ambulance on September 28 with fever (101. 4° F), abdominal pain, and severe diarrhea. He tested positive 
+for Ebola virus on September 30, the first imported 
+Ebola virus infection diagnosed in the United States. 
+Despite intensive care, the patient died 8 days later. 
+Although PPE and appropriate precautions were 
+used, two nurses caring for the patient subsequently 
+contracted Ebola virus disease (EVD) and required 
+prolonged intensive care; both survived. Multiple 
+community contacts of all patients were either voluntarily quarantined or actively monitored for 21 days, 
+and 12 persons in this group developed fever or other 
+symptoms compatible with EVD, but no other person 
+contracted EVD. 62
+Viral hemorrhagic fever (VHF) is an acute febrile 
+syndrome from a diverse group of tick-, rodent-, and 
+mosquito-borne viral illnesses naturally occurring in 
+specific geographic locations. These diseases are unified by their potential to present as a severe febrile 
+illness with a bleeding diathesis and high mortality 
+rate. The MMO should recognize two VHF viruses, 
+yellow fever and dengue, that have great significance 
+in the history of military medicine. 63 While the VHFs 
+have not been weaponized, they are recognized as 
+having significant potential for aerosol dissemination and weaponization, and the Aum Shinrikyo 
+group attempted to obtain Ebola virus samples from 
+West Africa for development in their bioterrorism 
+program. 33,63–65 Aerosol dissemination does not occur 
+naturally. 63,64 
+The clinical presentation of VHF includes various 
+combinations of fever, malaise, myalgia, headache, 
+vomiting, and diarrhea. The initial constellation of 
+symptoms makes VHF difficult to distinguish from 
+other acute febrile illnesses. VHF should be considered 
+by the MMO in any patient presenting with severe 
+acute febrile illness and abnormal bleeding. 66 Differentiating the VHFs is difficult, and making a definitive 
+diagnosis of VHF requires a reference laboratory with 
+BSL-4 advanced bio-containment capability. Rapid 
+enzyme immunoassays and PCR testing exist but 
+may not be readily available for specific VHFs. Lab 
+specimens must be appropriately collected, handled, 
+double-bagged, decontaminated, and shipped to the 
+BSL-4 lab. 66
+Treatment includes intensive supportive care with 
+vigorous fluid resuscitation under strict contact precautions and negative-pressure isolation. Management 
+of the hemorrhagic component mirrors other patient 
+coagulopathies. Intramuscular injections and aspirin 
+and other anticoagulants should be avoided. Airborne 
+precautions must be instituted for procedures that create aerosols. Antiviral therapy may be available on an 
+investigational new drug basis. 64 VHF patients harbor 
+extensive infectious viral load in blood, body fluids, 
+and body secretions,63,64,66 and MMOs must be aware 
+that caring for these patients has proven to be highly 
+risky and labor and staff intensive. Staff treating VHF 
+patients should wear double gloves, impermeable 
+gowns with leg and shoe coverings, eye protection and 
+HEPA (N95) masks or positive pressure air-purifying 
+respirators. 66 Medical staff will experience significant 
+risk from contaminated PPE, in particular during the 
+doffing process, and all waste should be carefully 
+handled and incinerated or autoclaved.
+After a presumed bio-warfare attack with unknown 
+VHF agent, the MMO should consider intravenous 
+antiviral drugs for any exposed individual with fever 
+543
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+higher than 101° F, until the agent is identified. 66 Yellow 
+fever is the only VHF for which a licensed vaccine is 
+available. Experimental vaccines exist for other VHFs, 
+but are not readily available. 66 Close personal contacts 
+of VHF patients, including medical personnel, should 
+be closely monitored for fever and other symptoms 
+during the established incubation period. 
+Biological Toxins
+Toxins are harmful substances produced by living 
+organisms. By nature they lack volatility (there is no 
+vapor hazard), do not persist in the environment, are 
+not dermally active, and pose no risk for person-toperson spread. 67 Biological toxins have military utility 
+as aerosolized weapons based on the magnitude of 
+their toxicity. 67
+Botulinum
+By weight, botulinum toxins are the most toxic 
+substance known. It has been estimated that 1 g of 
+aerosolized botulinum toxin could kill more than a 
+million people. 68 Botulinum toxins are a group of seven 
+related neurotoxins produced by the spore-forming 
+bacillus Clostridium botulinum, which is present in the 
+soil. 67 Botulinum toxin inhibits neurotransmission by 
+preventing acetylcholine release at the nerve terminal. 67 Neurotoxins produced by C botulinum are readily 
+denatured in the environment. 67 There are three forms 
+of naturally occurring botulism: foodborne botulism, 
+wound botulism, and intestinal botulism (infant and 
+adult).
+The intentional use of botulinum toxin can be either 
+an inhalational or foodborne threat, and industrialscale fermentation could produce large amounts of 
+toxin. 67 A large aerosol release would easily overwhelm healthcare capabilities. Botulinum toxin has 
+been weaponized by the United States, USSR, Iraq, 
+and terrorist organizations. 67–70 Aum Shinrikyo attempted to dispense botulinum toxin in Tokyo in the 
+mid-1990s. 65 In an outbreak related to an intentional 
+aerosolized release, the MMO should expect patients 
+presenting as afebrile, alert, and oriented, with descending paralysis manifested by cranial nerve palsies, 
+including ptosis, diplopia, blurred vision, dysphagia, 
+and dysphonia, followed by symmetrical descending 
+flaccid paralysis. 67,68 Respiratory failure, which may 
+occur abruptly, is the most common cause of death. 
+Symptoms may progress over hours or days depending on the exposure dose. Sensory symptoms do not 
+occur and botulinum toxin does not cross the bloodbrain barrier, so altered sensorium should not occur. 71 
+Botulism is a clinical diagnosis because laboratory 
+testing can be inconclusive. Mouse neutralization (bioassay) is the most sensitive test and can take up to 4 
+days; an enzyme-linked immunosorbent assay (ELISA) 
+test also exists. 71 Early administration of antitoxin is 
+critical; antitoxin must never be withheld from the 
+patient, even if treatment is delayed. 71 Postexposure 
+prophylaxis with antitoxin administration, while not 
+recommended, should be considered under extraordinary circumstances after a high-risk exposure. 67,71
+Ricin
+Ricin is a potent cytotoxin derived from the mash 
+of the castor bean. Its mechanism of toxicity is via 
+inhibition of protein synthesis. 72 Ricin has military 
+significance because of the ease with which it can be 
+extracted from the castor bean. It is ideal for small-scale 
+bioterrorism attacks and has been successfully used in 
+several notorious political assassinations. 72,73
+Ricin’s clinical presentation depends on the dose 
+and route of exposure. It is primarily a threat via 
+aerosol inhalation and ingestion. 72 The MMO should 
+suspect ricin in a large number of geographically 
+clustered cases of acute lung injury, because inhalation 
+causes severe, progressive lung inflammation leading 
+to respiratory failure over days. 74 Ingestion will cause 
+severe GI inflammation and multiorgan failure. 74 The 
+diagnosis of ricin poisoning will be challenging for the 
+MMO because multiple pulmonary pathogens could 
+present similarly to aerosolized ricin. Specific tests 
+exist but are not readily available. 73,74
+There is no antitoxin to ricin. Treatment for ricin 
+poisoning is supportive, regardless of the route of 
+exposure. Patients should be thoroughly decontaminated with soap and water. 72–74 Ricin-induced lung 
+injury will not respond to antibiotics, and ricin ingestion is managed by lavage and cathartics. 73,74 Ricin 
+toxicity is not contagious, and protective masks are 
+effective. While vaccines are under investigation, none 
+currently exist. 74
+RADIOLOGICAL AND NUCLEAR EXPOSURES
+In 2011, an earthquake with a subsequent tsunami 
+stuck Japan, resulting in flooding of the nuclear reactor plant in Fukushima. The subsequent loss of power 
+caused the reactor to overheat, followed by meltdowns 
+and evacuations from the surrounding area. The 
+event was categorized as level 7 on the International 
+Nuclear and Radiologic Event Scale, and is estimated 
+to involve 10% of the exposure that occurred at 
+544
+Fundamentals of Military Medicine
+Chernobyl, Russia, in 1986. 75 The Chernobyl accident 
+is the largest nuclear disaster in history, causing 30 
+immediate deaths and the evacuation of over 300,000 
+people. Reports of health issues related to radiation 
+exposure continue. 76
+Three types of devices pose a risk of radiation exposure to military personnel: (1) a radiation exposure device (RED); (2) a radiological dispersion device (RDD); 
+and (3) an improvised nuclear device (IND). An RED 
+has a radioactive source within a container or sealed 
+source for the purpose of exposing those nearby to 
+high doses of radiation. Various military and civilian/
+industrial supplies and equipment contain radioactive material that could be used to create an RED or 
+RDD to employ as a weapon or cause exposure due to 
+improper storage or handling. RDDs are intentionally 
+engineered to disperse radiation but without a nuclear 
+blast. Dispersal may be through a plume or contamination of the food and water chain. 
+INDs, designed to deliver a nuclear detonation at 
+either full or partial yield, are the most catastrophic 
+of these devices. INDs expose individuals to a 
+high level of external radiation, blast and thermal 
+injury, and subsequent radiation exposure through 
+inhalation of particulate matter and ingestion of 
+contaminated materials. The primary effect of an 
+IND is the blast effect. The medical management 
+of blast injury from both nuclear and non-nuclear 
+explosive devices is discussed in detail later in this 
+chapter. Unique to INDs is an intense thermal wave 
+of energy known as the nuclear flash. Individuals in the immediate vicinity will be incinerated. 
+Surviving individuals will suffer burns on the side 
+exposed to the blast or from secondary fires ignited 
+by the thermal wave. The other principal output 
+from a nuclear blast is radiation, in both primary 
+and secondary exposures. 
+Radiation Effects
+Radiation effects can be divided into two categories, 
+acute external exposure and internal contamination. 
+Both an RDD and an IND can cause an immediate 
+release of radiological material leading to acute radiation syndrome (ARS). Acute external exposure 
+usually involves beta and gamma particles. Internal 
+contamination can occur via inhalation, ingestion, 
+or absorption from a contaminated wound. Internal 
+contamination can be due to any isotopes, of which 
+there are over 8,000. Radioactive decay from isotopes 
+creates ionizing radiation whose properties can vary 
+(Table 35-4). Internal contamination is unique from 
+external exposure and ARS because isotope identification is crucial in medical management.
+External Exposure 
+ARS is the result of high-level (> 0. 7 Gy) exposure 
+to ionizing radiation. Exhibit 35-1 lists conditions that 
+can result in ARS. A characteristic constellation of 
+clinical events results from radiation damage to cells 
+that occurs within seconds of exposure. The organ 
+systems and cell lines with the highest turnover are 
+the most sensitive to radiation exposure. ARS follows 
+a predictable course through four phases: prodromal, 
+latent, well-defined illness, and finally recovery or 
+death. The transition time between phases depends on 
+the dose of radiation received. The prodromal phase, 
+which can last minutes to days, is characterized by 
+nausea, vomiting, diarrhea, mild fever, and transient 
+skin erythema. The patient then may appear well for 
+a few hours, or even a few weeks, during the latent 
+phase, which is characterized by silent cell and tissue 
+destruction. This destruction is later manifested clinically as one or more of the syndromes described below. 
+TABLE 35-4
+PROPERTIES AND EFFECTS OF IONIZING RADIATION
+Type
+Source
+Properties
+Clinical Concern
+Alpha particles
+Charged particles from heavy 
+nuclei
+Travel short distance, shielded 
+by clothes/skin
+Wound absorption
+Beta particles
+Electrons from fallout or 
+certain isotopes
+Travel short distance in tissue
+Can cause radiation burns, damaging if internalized
+Gamma rays
+Photons from nuclear detonation, fallout, or nuclear decay
+High energy and pass through 
+matter easily
+Whole body effects from both external exposure and internalization
+Neutrons
+Uncharged particles emitted 
+from fission
+High energy and pass through 
+matter easily
+Same effects as gamma rays with 
+more significant damage 
+545
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+EXHIBIT 35-1
+CONDITIONS REQUIRED FOR ACUTE 
+RADIATION SYNDROME
+ 
+• Dose must be large (>0. 7 Gy).
+ 
+• Dose must be external.
+ 
+• The radiation must be penetrating (x-rays, 
+gamma rays, neutrons).
+ 
+• The entire body must be exposed.
+ 
+• The dose must be delivered in a short time.
+Adapted from: Centers for Disease Control and Prevention. 
+Acute radiation syndrome: a fact sheet for physicians. https://
+emergency.cdc.gov/radiation/arsphysicianfactsheet.asp. 
+Updated August 23, 2017. Accessed July 4, 2018.
+Death can occur within days for extremely high doses 
+but may not occur for weeks to months. Recovery can 
+take up to 2 years.
+There are three classic ARS syndromes: (1) hematopoietic, (2) GI, and (3) neurovascular. The hematopoietic syndrome, also known as the bone marrow syndrome, occurs with doses above 0. 7 Gy. Hematopoietic 
+progenitors are unable to divide, resulting in bone 
+marrow failure and lymphopenia or pancytopenia. 
+Destruction of cell lines leads to infection, bleeding, 
+and poor wound healing. Survival depends on dose, 
+concomitant injuries, and access to supportive care. 
+The mean lethal dose required to kill 50% of humans 
+within 60 days, LD50/60, is about 3. 5 to 4 Gy. Providing 
+medical therapy including antibiotics, transfusions, 
+and cell line stimulation can improve survival at higher 
+exposure doses. 
+The GI syndrome occurs in conjunction with the 
+hematopoietic syndrome at doses higher than 6 Gy. 
+This level of radiation causes damage to the small 
+intestine, targeted at intestinal crypt cells that have 
+a high turnover rate. This syndrome has the typical 
+flu-like prodromal phase, and diarrhea is often characteristic. The overt clinical phase involves malaise, 
+anorexia, severe diarrhea, and fever. The diarrhea 
+can lead to dehydration and electrolyte imbalance. 
+Loss of GI integrity can lead to malabsorption and 
+nutritional disorders. Bacteria can translocate across 
+the damaged epithelial lining of the intestinal wall and 
+lead to gram-negative sepsis. More severely affected 
+patients can present in renal failure or cardiovascular 
+collapse. While aggressive supportive care can extend 
+the survival period, death usually occurs from sepsis 
+and multiorgan failure.
+The most severe and rapidly fatal of the syndromes, 
+due to doses higher than 12 Gy, is the neurovascular 
+syndrome. High radiation exposure will result in an 
+immediate burning sensation, followed by nausea 
+and vomiting, fever, hypotension, and neurologic 
+dysfunction such as ataxia and confusion. Symptoms 
+are rapidly progressive and severe; death typically 
+occurs in 24 to 48 hours. Recovery is not expected in 
+patients with this syndrome.
+Knowing that the clinical syndromes are dose dependent, markers to estimate radiation dose early in 
+the evaluation of exposed patients can be very useful. 
+Radiation dose can be estimated using the medical 
+history, serial blood counts, and the time to emesis. 
+Medical history should include the circumstances of 
+suspected exposure, taking note of location relative 
+to the incident, sheltering, and any other pertinent 
+exposure details, in addition to clinical symptoms. 
+Serial blood counts are one of the most readily available and useful methods to characterize exposure. 
+An initial complete blood count followed by serial 
+measurements three times a day for 2 to 3 days will 
+facilitate determination of the slope of lymphocyte 
+decline. A drop in lymphocyte count by more than 
+50% in the first 24 hours indicates a potentially lethal 
+exposure. Time to emesis can be used in the absence 
+of laboratory support or as an adjunct to lymphocyte 
+count. Emesis within 1 to 2 hours of exposure carries 
+a poor prognosis. 
+The chromosome-aberration cytogenetic bioassay 
+(specifically lymphocyte dicentrics) is considered the 
+gold standard in estimating dose. However, samples 
+must be obtained within 24 hours of exposure, and 
+results may not be available for 2 to 3 days, so time to 
+emesis and lymphocyte counts remain the most useful tools in the initial assessment period. It is helpful 
+to remember that if an individual has not vomited 
+within 8 to 10 hours of exposure, it is unlikely he or 
+she was exposed to a dose over 1 Gy. 77,78 The Armed 
+Forces Radiobiology Research Institute Biodosimetry 
+Assessment Tool is a software package that can help 
+providers assess exposure and guide therapy. The 
+tool has a complimentary package for first responders 
+called the First Responders Radiologic Assessment Triage. These useful tools can facilitate optimization of a 
+standardized framework for the response to nuclear 
+or radiological catastrophe. 79
+Triage and Treatment of Radiation-Injured 
+Patients 
+Radiation-injured patients are emergently treated 
+for life, limb, or eyesight injuries regardless of 
+contamination. A radiological detonation produces 
+casualties with a combination of blast injury, thermal 
+injury, and various wounds—all requiring medical 
+546
+Fundamentals of Military Medicine
+TABLE 35-5 
+DETECTION LIMITS* FOR DECONTAMINATION 
+Type of Radiation
+Limit
+Alpha particles
+< 1,000 disintegrations/minute
+Beta particle
+< 1 mR/h
+Gamma rays
+< 2 × local background level
+*Upper limit of radiation that must be reached to consider an individual thoroughly decontaminated. If an individual is above these 
+levels, decontamination efforts should be continued until detectable 
+radiation is below these limits.
+attention. Triage of patients with combined injury 
+should follow trauma protocols. If the only injuries 
+are radiation injuries, then triage should consist of 
+assessment of dose rate, prodromal symptoms, and 
+specimen collection for biodosimetry. Contaminated 
+patients pose little threat to healthcare personnel, 
+and treatment of emergent conditions should not 
+be delayed due to concerns of contamination. 
+Decontamination is a time-consuming and resourceintensive process, so patients should be stabilized 
+prior to decontamination. Fortunately, removing 
+clothing, bandages, and personal effects removes 
+90% of contamination, so exposure for trauma 
+management begins the decontamination process. 
+Further decontamination involves washing the 
+skin with soap and water (preferred over 0. 5% 
+hypochlorite solution) without irritating the skin. 
+Standard hospital PPE (gown, cap, double gloves, 
+and shoe covers) is adequate when decontaminating 
+patients. If possible, irrigation effluent should be 
+collected and disposed of deliberately.
+Decontamination should be confirmed with 
+radiation detection, indication, and computation 
+(RADIAC) counters such as the AN/VDR-2 and the 
+AN/PDR-77; refer to Table 35-5 for decontamination 
+standards. To minimize local tissue injury and systemic contamination, particulate matter with alpha 
+or beta emitters should be removed from wounds, 
+and then the wound should be thoroughly irrigated. 
+However, aggressive surgical debridement to eliminate particulate matter is not recommended and may 
+cause more damage to tissue than would be posed 
+by the radiation risk. Similarly, burns should be irrigated and cleaned while leaving blisters intact and 
+minimizing damage to the skin. Once wounds and 
+burns have been cleaned, they should be reexamined 
+with a RADIAC counter.
+After life-threatening injuries have been addressed 
+and decontamination is complete, attention can be 
+given to treatment of ARS. Therapy is determined 
+by signs and symptoms, and laboratory parameters 
+help guide treatment. Antibiotic agents and possibly 
+antifungals and antivirals can be used in neutropenic 
+patients to prevent infection. Fluoroquinolones with 
+streptococcal coverage are most appropriate in the 
+radiation-poisoned patient. When the patient is not 
+neutropenic, antimicrobial therapy should be targeted to the specific infection. Supportive care such 
+as anti-emetics, fluid therapy, electrolyte replacement, and analgesics can provide significant relief. 
+Vomiting is common and, as described above, can 
+be a prognostic indicator. While prophylaxis is not 
+indicated, anti-emetics should be given once vomiting has begun. Serotonin receptor antagonists have 
+well-documented efficacy for nausea and vomiting 
+in radiation-treated patients, and thus should be 
+useful in the setting of radiation poisoning. Fluid 
+resuscitation should address losses due to trauma, 
+burns, and GI symptoms. Patients with early onset 
+multiorgan failure should be managed as expectant 
+with the goal of providing comfort care coupled with 
+psychological support.
+For patients with low to moderate exposure and 
+manifestation of the hematopoietic syndrome, attention should be given to support of cell lines. For 
+exposures greater than 3 Gy, hematopoietic colony 
+stimulating factors (CSFs) are recommended. For 
+pediatric, geriatric, or polytrauma patients, the threshold for therapy should be lower. Therapy should be 
+started as soon as biodosimetry or clinical signs and 
+symptoms suggest this threshold exposure level. More 
+severe exposures, over 7 Gy, may require transfusion 
+therapy and even stem cell transplantation in addition to prolonged therapy with CSFs. Survival from 
+acute effects in partial body exposures over 10 Gy is 
+possible with hematopoietic support and early use of 
+CSFs. Adjunctive therapies become necessary as ARS 
+develops over days to weeks. 
+In addition to medical therapy, it is important to 
+recognize the psychological injuries that may occur 
+as a result of nuclear or radiological injury. It is likely 
+that the fear and anxiety associated with exposure 
+outweighs the actual medical effects. Attention should 
+be given to the immediate psychological response, 
+combat stress effects, and long-term sequela of such 
+a psychological stress such as posttraumatic stress 
+disorder. A responsive, competent, compassionate, 
+and confident medical response will do much to alleviate immediate anxiety and fear. Information flow 
+should be accurate and timely. Anticipating the need 
+for mental health support will help ensure resources 
+are available to mitigate adverse psychological outcomes. 77,78
+547
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+TABLE 35-6 
+TREATMENT OPTIONS FOR SELECTED 
+RADIOISOTOPES
+Radionucleotides of:
+Treatment
+Plutonium 239
+Zn-DTPA or Ca-DTPA
+Yttrium 90
+Zn-DTPA or Ca-DTPA
+Uranium
+Sodium bicarbonate
+Cesium 137
+Prussian blue
+Strontium
+Calcium or aluminum 
+phosphate
+Radioidodines
+Potassium iodide
+Zn-DTPA: zinc diethylenetriamene pentaacetate
+Ca-DTPA: calcium diethylenetriamene pentaacetate
+Internal Exposure
+Ingestion, inhalation, or contamination of wounds 
+with radioactive material are mechanisms of internal exposure. Isotope identification is crucial in the 
+determination of medical management. An in-depth 
+discussion of specific isotope management is beyond 
+the scope of this chapter; however, some general 
+principles apply to the care of these patients, based 
+on reducing ongoing exposure. Available methods of 
+reducing internal contamination include dilution, chelation, and chemically altering the isotope. Absorption 
+in the GI tract can be reduced by lavage or cathartics; 
+pulmonary load can be reduced by bronchoalveolar 
+lavage; and contamination in wounds can be excised. 
+Further treatment should be directed at decorporation 
+of the isotope. Treatment for some of the more common isotopes is listed in Table 35-6. 78
+Internal radiation exposure and ARS with associated physical and psychological injuries form a complex 
+medical picture that requires optimization of decisionmaking and resource management to maximize 
+medical outcomes. Survival can be greatly affected by 
+wise therapy and supportive care, underscoring the 
+importance of understanding the evaluation, triage, 
+and medical management of radiological exposure. 77,78
+EXPLOSIVE (BLAST) INJURIES
+Blast injury can involve a complex array of injuries 
+with various wounding mechanisms. Care of the blast 
+victim can be especially challenging because the provider may be faced with several life-threatening injuries 
+that must be addressed simultaneously. The magnitude 
+of blast effects is influenced by several factors. For example, pressure generated in water moves more quickly 
+and dissipates more slowly than pressure waves in 
+air, so underwater blasts may lead to more injury. As 
+distance from the blast increases, injury risk decreases, 
+and shielding can provide significant protection. On the 
+other hand, being in a confined space, or being close to 
+a surface that reflects the propagating pressure wave, 
+may result in magnification of the blast effects.
+Mechanisms of Blast Injury 
+Explosions cause injury by several mechanisms. 
+The initial gas expansion causes a blast wave with 
+high winds that can cause displacement of people or 
+objects. This is followed by a pressure differential created by the blast wave, and then a negative pressure 
+phase occurs before air pressures return to normal. 
+Heat generation, fragmentation, and collapse of infrastructure can all contribute to injury. Blast injuries 
+are thus characterized as primary, secondary, tertiary, 
+and quaternary injury. Although this is a simplified 
+taxonomy, it can be useful to theoretically organize 
+the anticipated effects. 
+Primary blast injury is a result of the blast overpressure and the forces it exerts upon the body. The 
+pressure differential created by alternating overpressure and underpressure leads to both local tissue and 
+systemic effects. Air-filled organ systems such as the 
+GI, pulmonary, and auditory systems are the most 
+sensitive, but blast effect can also cause musculoskeletal tissue damage, central nervous system injury, and 
+even visual and cardiovascular effects. Injury is not 
+isolated to local tissue effects. Cardiovascular collapse 
+may occur as the result of pressure effects on the vagus 
+nerve and dysfunctional vasoconstriction in response 
+to diminished cardiac output. 
+Flying debris displaced as a result of the blast 
+wave and winds causes secondary injury in the form 
+of both penetrating and blunt trauma. Secondary 
+injury is seen more commonly than severe primary 
+injury, and these injuries can be devastating. Tertiary 
+injury occurs with structural collapse or when forces 
+displace a person who then sustains blunt trauma 
+such as fractures or a closed head injury. While 
+tertiary injury may have a high mortality rate at the 
+site of the explosion, it only represents a small portion of overall deaths. Lastly, the term quaternary 
+injury captures all the other miscellaneous injuries 
+that may occur as a result of explosions, such as 
+burns, asphyxia, toxic (including chemical and radiological) exposures, and psychological sequela. 
+Evaluation and management of secondary, tertiary, 
+548
+Fundamentals of Military Medicine
+and quaternary injuries follows routine trauma management principles, so the following discussion will 
+be limited to primary blast injury. 80,81
+Evaluation and Management of Primary Blast 
+Injury
+Due to their large amount of air-filled tissue, the 
+lungs are susceptible to primary blast injury. The pressure differential causes disruption of lung tissue with 
+damage to the alveolar-capillary interface. Blast lung 
+may be complicated by pneumothorax, hemothorax, 
+pulmonary contusion, pulmonary hemorrhage, pulmonary emboli, mediastinal air, and subcutaneous 
+air, all of which contribute to difficulty in oxygenation 
+due to ventilation/perfusion mismatch. A chest x-ray 
+done as part of routine trauma management will help 
+identify pulmonary injuries. However, radiographic 
+findings may be delayed, so observation for 4 to 6 
+hours may be necessary in symptomatic patients. A 
+CT may also be useful because some injuries may be 
+missed on chest x-ray. Bilateral pulmonary infiltrates 
+are commonly noted. Pneumothorax or hemothorax 
+can be treated with tube thoracostomy. Severe injury 
+resulting in impaired ventilation and oxygenation 
+may require mechanical ventilation. Minimizing peak 
+inspiratory pressures and allowing permissive hypercapnia may help minimize the risk of air emboli. To 
+avoid volume overload, fluid use should be judicious. 
+Similarly, cardiovascular collapse (described above) is 
+best treated with inotrope support instead of aggressive fluid administration.
+Much like the lungs, the GI tract is susceptible to 
+injury due to air-filled viscus. Bowel injuries including contusion, ischemia with the risk for necrosis, or 
+perforation are uncommon but possible results of blast 
+waves. Body armor may help prevent secondary injury 
+but cannot fully protect against pressure effects on the 
+bowel. Bowel injury may be delayed in presentation; 
+therefore, a high index of suspicion should drive evaluation. CT can be useful to evaluate for injuries, but it 
+lacks sensitivity for contusions and mesenteric injury. 
+Thus, serial exams are an important part of ensuring 
+such injuries, or delayed development of hematoma or 
+perforation, are not missed. Perforation, necrosis, and 
+even severe ischemia are indications for laparotomy 
+and likely resection.
+The tympanic membrane (TM) is highly susceptible 
+to blast injury, and the absence of TM injury makes it 
+less likely there is significant injury to the lungs, GI 
+tract, or CNS in otherwise asymptomatic patients. 
+Sensorineuronal deafness and tinnitus can occur in 
+addition to TM rupture. The blast wave may cause 
+displacement of the ossicles or damage to sensory 
+structures. Small, isolated TM ruptures will likely heal 
+without surgical treatment, but larger perforations and 
+other injuries should be referred for surgical evaluation. Patients with TM rupture should be evaluated 
+closely for concussive brain injury.
+While traumatic brain injury (TBI) is more commonly associated with secondary and tertiary mechanisms, 
+it can be caused by primary blast injury. Cerebral 
+concussive syndromes are common and may result 
+from oxidative injury and neuronal cell death caused 
+by the blast. Standardized assessment tools such as 
+the Military Acute Concussion Evaluation (MACE) 
+can help collect baseline and follow-up comparisons 
+to risk-stratify patients and guide referral for further 
+evaluation and therapy. Fortunately, most patients 
+are categorized as mild TBI and recover quickly with 
+conservative care.
+Myriad other injuries have been described as a 
+result of blast injury, including ocular injuries such 
+as globe rupture, conjunctival hemorrhage, and hyphema, and cardiac injuries such as myocardial wall 
+contusion, hemorrhage, and atrial rupture. Clearly, explosions can cause a complex array of blast effects that 
+present clinical challenges. Understanding blast effects 
+in an effort to make sound diagnostic and therapeutic 
+decisions is important for the MMO. The evolution of 
+modern warfare has underscored the importance of 
+expertise in caring for victims of explosion.
+CONCLUSION
+The MMO must remain vigilant against a host 
+of CBRNE threats while forward deployed as well 
+as in garrison. Today’s unpredictable environment 
+includes the risk of either traditional CBRNE attacks 
+or for asymmetric engagements with novel methods 
+such as the use of industrial chemicals as weapons. 
+A substantial knowledge base and constant surveillance are required to quickly identify and respond 
+to these possible events. Clinical practice guidelines 
+(CPGs) relevant to the care of the CBRNE patient 
+in the DoD environment can be found at http://
+jts.amedd.army.mil/index.cfm/PI_CPGs/cpgs. The 
+MMO should be familiar with the various CBRNE 
+threats and means to mitigate such threats, possess 
+the knowledge to recognize an exposure when it 
+occurs, be able to conduct appropriate decontamination, and be familiar with management of CBRNE 
+casualties.
+549
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+REFERENCES
+ 
+1. Okumura T, Kenji T, Kouchiro S, et al. The Tokyo subway sarin attack: acute and delayed health effects in survivors. 
+In: Gupta R, ed. Handbook of Toxicology of Chemical Warfare Agents. London, UK: Elsevier; 2015: 27–31.
+ 
+2. Smart JK, Mauroni AL, Hill BA, et al. History of the chemical threat, chemical terrorism, and its implications for 
+military medicine. In: Tourinsky SD, ed. Medical Aspects of Chemical Warfare. Washington, DC: Borden Institute; 2008: 
+130–146.
+ 
+3. Browder G. Countering the Chemical Weapons Threat in the Post-Soviet World. Washington, DC: US Government Printing 
+Office; February 23, 1993: 69.
+ 
+4. The Report of the Mission Dispatched by the Secretary-General to Investigate Allegations of the Use of Chemical Weapons in the 
+Conflict between the Islamic Republic of Iran and Iraq. New York, NY: UN Security Council; March 12, 1986: 19.
+ 
+5. Guterres A, Gamba V. Fifth Report of the Organization for the Prohibition of Chemical Weapons-United Nations Joint Investigative Mechanism. New York, NY: UN Security Council; February 13, 2017: 3–6.
+ 
+6. Brennan RJ, Waeckerle JF, Sharp TW. Chemical warfare agents: emergency medical and emergency public health 
+issues. Ann Emerg Med. 1999;34:191–204.
+ 
+7. Kales SN, Christiani DC. Acute chemical emergencies. N Engl J Med. 2004;350:800–808.
+ 
+8. Departments of the Army, Navy, Air Force, and Marine Corps. Multiservice Tactics, Techniques, and Procedures for Chemical, Biological, Radiological, and Nuclear (NBC) Protection. Washington, DC: DoD; 2003. FM3-11. 4, MCWP 3-37. 2, NTTP 
+3-11. 27, AFTTP (I) 3-2. 46.
+ 
+9. Hurst G, Stich J, Byrne T, et al. Individual protective equipment. In: Banks DE, ed. Medical Management of Chemical 
+Casualties Handbook. 5th ed. Fort Detrick; MD: Borden Institute; 2014: 135–141. 
+ 10. Hurst CG, Petrali JP, Barillo DJ, et al. Vesicants. In: Tourinsky SD, ed. Medical Aspects of Chemical Warfare. Washington, 
+DC: Borden Institute; 2008: 260–295.
+ 11. Hurst G, Stich J, Byrne T, et al. Vesicants. In: Banks DE, ed. Medical Management of Chemical Casualties Handbook. 5th 
+ed. Fort Detrick; MD: Borden Institute; 2014: 29–54.
+ 12. Ruhl CM, Park DJ, Danisa O, et al. A serious skin sulfur mustard burn from artillery shell. J Emerg Med. 1994;12(2):159–
+166.
+ 13. Newmark J, Langer J, Capacio B, et al. Liquid sulfur mustard exposure. Mil Med. 2007;172(2):196–198.
+ 14. Rimpel LY, Boehm DE, O’Hern MR, Dashiell TR, Tracy MF. Chemical defense equipment. In: Tourinsky SD, ed. Medical Aspects of Chemical Warfare. Washington, DC: Borden Institute; 2008: 560–589.
+ 15. Vedder EB. Vesicants. In: Vedder EB, ed. The Medical Aspects of Chemical Warfare With a Chapter on the Naval Medical 
+Aspects of Chemical Warfare by D.C. Walton. Baltimore, MD: Williams & Wilkins; January 1925: 125–166. 
+ 16. Sidell FR, Newmark J, Mcdonough JH. Nerve agents. In: Tourinsky SD, ed. Medical Aspects of Chemical Warfare. Washington, DC: Borden Institute; 2008: 156–205.
+ 17. Hurst G, Stich J, Byrne T, et al. Nerve agents. In: Banks DE, ed. Medical Management of Chemical Casualties Handbook. 
+5th ed. Fort Detrick; MD: Borden Institute; 2014: 66–87.
+ 18. Capacio BR, Smoth JR, Gordon RK, Haigh JR, Barr JR, Platoff GE. Medical diagnostics. In: Tourinsky SD, ed. Medical 
+Aspects of Chemical Warfare. Washington, DC: Borden Institute; 2008: 692–741.
+ 19. Varma DR, Mulay S. Methyl isocyanate: The Bhopal Gas. In: Gupta R, ed. Handbook of Toxicology of Chemical Warfare 
+Agents. London, UK: Elsevier; 2015: 287–298.
+550
+Fundamentals of Military Medicine
+ 20. Tourinsky SD, Sciuto AM. Toxic inhalational injury and toxic industrial chemicals. In: Tourinsky SD, ed. Medical 
+Aspects of Chemical Warfare. Washington, DC: Borden Institute; 2008: 340–365.
+ 21. Hurst G, Stich J, Byrne T, et al. Lung damaging agents: toxic industrial chemicals. In: Banks DE, ed. Medical Management of Chemical Casualties Handbook. 5th ed. Fort Detrick; MD: Borden Institute; 2014: 1–14.
+ 22. Hurst G, Stich J, Byrne T, et al. Cyanide. In: Banks DE, ed. Medical Management of Chemical Casualties Handbook. 5th ed. 
+Fort Detrick; MD: Borden Institute; 2014: 16-27.
+ 23. Baskin SI, Kelly JB, Maliner BI, Rockwood GA, Zoltani CK. Cyanide poisoning. In: Tourinsky SD, ed. Medical Aspects 
+of Chemical Warfare. Washington, DC: Borden Institute; 2008: 372–397.
+ 24. Hurst G, Stich J, Byrne T, et al. Incapacitating agents. In: Banks DE, ed. Medical Management of Chemical Casualties 
+Handbook. 5th ed. Fort Detrick; MD: Borden Institute; 2014: 89–102.
+ 25. Ketchum JS, Salem H. Incapacitating agents. In: Tourinsky SD, ed. Medical Aspects of Chemical Warfare. Washington, 
+DC: Borden Institute; 2008: 412–432.
+ 26. Hurst G, Stich J, Byrne T, et al. Riot-control agents. In: Banks DE, ed. Medical Management of Chemical Casualties Handbook. 5th ed. Fort Detrick; MD: Borden Institute; 2014: 103–114.
+ 27. Salem H, Gutting BW, Kluchinsky TA, Boardman CH, Tourinsky SD, Hout JJ. Riot-control agents. In: Tourinsky SD, 
+ed. Medical Aspects of Chemical Warfare. Washington, DC: Borden Institute; 2008: 442–473.
+ 28. Health Service Support in a Nuclear, Biological, and Chemical Environment: Tactics, Techniques and Procedures. Washington, 
+DC: Department of the Army; October 1, 2002. FM 4-02. 7 (FM 8-10-7).
+ 29. Hurst G, Stich J, Byrne T, et al. Decontamination. In: Banks DE, ed. Medical Management of Chemical Casualties Handbook. 
+5th ed. Fort Detrick; MD: Borden Institute; 2014: 115–122.
+ 30. Hurst G, ed. Chemical Casualty Care Division’s Field Management of Chemical Casualties Handbook. 4th ed. Aberdeen Proving Ground, MD: US Army Medical Research Institute of Chemical Defense; 2014: 116–165.
+ 31. Hurst G, Stich J, Byrne T, et al. Casualty management in a contaminated area. In: Banks DE, ed. Medical Management 
+of Chemical Casualties Handbook. 5th ed. Fort Detrick; MD: Borden Institute; 2014: 123–134.
+ 32. Meselson M, Guillemin J, Hugh-Jones M, et al. The Sverdlovsk anthrax outbreak of 1979. Science. 1994;266:1202–1208.
+ 33. Alibek K, Handelman S. Biohazard: The Chilling True Story of the Largest Covert Biological Weapons Program in the WorldTold From Inside by the Man Who Ran It. New York, NY: Random House; 1999: 51–133.
+ 34. Martin JW, Christopher GW, Eitzen EM. History of biological weapons: from poison darts to intentional epidemics. 
+In: Dembek ZF, ed. Medical Aspects of Biological Warfare. Washington, DC: Borden Institute; 2007: 2–16.
+ 35. Cole LA. Clouds of Secrecy: The Army’s Germ Warfare Tests Over Populated Areas. Totowa, NJ: Rowman and Littlefield; 
+1988: 44–175.
+ 36. Duelfer C. Comprehensive Report of the Special Advisor to the DCI on Iraq’s WMD. Washington, DC: US Central Intelligence 
+Agency; 2004. https:// www.cia.gov/library/reports/general-reports-1iraq_wmd_2004/note.html. Accessed March 27, 
+2017. 
+ 37. Torok TJ, Tauxe RV, Wise RP, et al. A large community outbreak of salmonellosis caused by intentional contamination 
+of restaurant salad bars. JAMA. 1997;278:389–395.
+ 38. Centers for Disease Control and Prevention. Update: Investigation of bioterrorism-related inhalational anthrax and 
+interim guidelines for exposure management and antimicrobial therapy. MMWR Morb Mortal Wkly Rep. 2001;50:909–919.
+551
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+ 39. Noah D, Huebner KD, Darling RG, et al. The history and threat of biological warfare and terrorism. Emerg Med Clin 
+North Am. 2002;20:255–271.
+ 40. Volchkov V, Volchkova V, Muhlberger E, et al. Recovery of infectious Ebola virus from complimentary DNA: RNA 
+editing of the GP gene and viral cytotoxicity. Science. 2001;5510:1965–1969. 
+ 41. National Science Advisory Board for Biosecurity. Addressing Bio-security Concerns Related to the Synthesis of Select Agents. 
+Bethesda, MD: National Institutes of Health; 2006: 2–18.
+ 42. Rotz LD, Khan AS, Lillibridge SR, et al. public health assessment of potential biological terrorism agents. Emerg Infect 
+Dis. 2002;8:225.
+ 43. Purcell BK, Worsham PL, Friedlander AM. Anthrax. In: Dembek ZF, ed. Medical Aspects of Biological Warfare. Washington, DC: Borden Institute; 2007: 70–80.
+ 44. Freedman A, Olubunmi A, Chang MW, et al. cutaneous anthrax associated with microangiopathic hemolytic anemia 
+and coagulopathy in a 7-month-old infant. JAMA. 2002;287(7):869–874.
+ 45. Inglesby TV, O’Toole T, Henderson DA, et al. Anthrax as a biological weapon. JAMA. 2002;287:2236–2252.
+ 46. Mayer T. Clinical presentation of inhalational anthrax following bioterrorism. JAMA. 2001;286(20):2549–2553.
+ 47. Krol CM. Dynamic CT Features of inhalational anthrax. Am J Roentgenol. 2002:178:1063–1066. 
+ 48. Alves DA, Cieslak TJ, Culpepper RC, et al. Anthrax. In: Dembek ZF, ed. USAMRIID’s Medical Management of Biological 
+Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious Diseases; 2011: 25–34.
+ 49. Jernigan JA, Stephens DS, Ashford DA, et al. Bioterrorism-related inhalational anthrax: the first 10 cases reported in 
+the United States. Emerg Infect Dis. 2001;7:933–944.
+ 50. Griffith KS, Mead P, Armstrong GL, et al. Bioterrorism-related inhalational anthrax in an elderly woman—Connecticut 
+2001. Emerg Infect Dis. 2003;9:681–688.
+ 51. Worsham PL, McGovern TW, Vietri NJ, Friedlander AM. Plague. In: Dembek ZF, ed. Medical Aspects of Biological 
+Warfare. Washington, DC: Borden Institute; 2007: 92–113.
+ 52. Inglesby TV, David T, Dennis DT, et al. Plague as a biological weapon: medical and public health management. JAMA. 
+2000;283:2281–2290.
+ 53. Alves DA, Cieslak TJ, Culpepper RC, et al. Plague. In Dembek ZF, ed. USAMRIID’s Medical Management of Biological 
+Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious Diseases; 2011: 55-63.
+ 54. Barns SM, Grow CC, Okinaka RT, et al. Detection of diverse new Francisella-like bacteria in environmental samples. 
+Appl Environ Microbiol. 2005;71(9)5494–5500.
+ 55. Hepburn MJ, Friedlander AM, Dembek ZF. Tularemia. In: Dembek ZF, ed. Medical Aspects of Biological Warfare. Washington, DC: Borden Institute; 2007: 168–177.
+ 56. Dennis DT, Inglesby TV, Henderson DA, et al. Tularemia as a biological weapon: medical and public health management. JAMA. 2001;285:2763–2773.
+ 57. Alves DA, Cieslak TJ, Culpepper RC, et al. Tularemia. In: Dembek ZF, ed. USAMRIID’s Medical Management of Biological 
+Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious Diseases; 2011: 75-81.
+ 58. Jarhling PB, Huggins JW, Ibrahim MS, Lawler JV, Martin JW. Smallpox and related orthopox viruses. In: Dembek ZF, 
+ed. Medical Aspects of Biological Warfare. Washington, DC: Borden Institute; 2007: 216–233.
+552
+Fundamentals of Military Medicine
+ 59. Henderson DA, Inglesby TV, Bartlett JG, et al. Smallpox as a biological weapon: medical and public health management. JAMA. 1999;281(22):2127–2137.
+ 60. Alves DA, Cieslak TJ, Culpepper RC, et al. Smallpox. In: Dembek ZF, ed. USAMRIID’s Medical Management of Biological 
+Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious Diseases; 2011: 85–94.
+ 61. Preston R. The Demon in the Freezer. New York, NY: Random House; 2002: 32–48.
+ 62. Chevalier MS, Chung W, Smith J, et al. Ebola virus disease cluster in the United States—Dallas County, Texas, 2014. 
+Morb Mortal Wkly Rep. 2014;63(46):1087–1088.
+ 63. Jahrling PB, Mart AM, Geisbert TW. Viral hemorrhagic fevers. In: Dembek ZF, ed. Medical Aspects of Biological Warfare. 
+Washington, DC: Borden Institute; 2007: 272–294.
+ 64. Borio L, Inglesby T, Peters CJ, et al. Hemorrhagic fever viruses as biological weapons: medical and public health 
+management. JAMA. 2002;287:2391–2404. 
+ 65. Danzig R, Sageman M, Leighton T, et al. Aum Shinrikyo: Insights Into How Terrorists Develop Biological and Chemical 
+Weapons. 2nd ed. Washington, DC: Center for a New American Security; December 2012: 18–29.
+ 66. Alves DA, Cieslak TJ, Culpepper RC, et al. Viral hemorrhagic fevers. In: Dembek ZF, ed. USAMRIID’s Medical Management of Biological Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious 
+Diseases; 2011: 103–118.
+ 67. Dembek ZF, Smith LA, Rusnak JM. Botulinum toxin. In: Dembek ZF, ed. Medical Aspects of Biological Warfare. Washington, DC: Borden Institute; 2007: 338–346.
+ 68. Arnon SS, Schechter R, Inglesby TV, et al. Botulinum toxin as a biological weapon: medical and public health management. JAMA. 2001;285(8):1059–1070.
+ 69. Zalinski RA. Iraq’s biological weapons: the past as future? JAMA. 1997;278:418–424.
+ 70. Blix H. Disarming Iraq. New York, NY: Pantheon Books; 2004: 15–40.
+ 71. Alves DA, Cieslak TJ, Culpepper RC, et al. Botulinum. In: Dembek ZF, ed. USAMRIID’s Medical Management of Biological Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious Diseases; 2011: 
+212–128.
+ 72. Poli MA, Roy C, Huebner KD, et al. Ricin. In: Dembek ZF, ed. Medical Aspects of Biological Warfare. Washington, DC: 
+Borden Institute; 2007: 324–332.
+ 73. Audi J, Belson M, Patel M, et al. Ricin poisoning: a comprehensive review. JAMA. 2005:294(18):2342–2351.
+ 74. Alves DA, Cieslak TJ, Culpepper RC, et al. Ricin. In: Dembek ZF, ed. USAMRIID’s Medical Management of Biological 
+Casualties Handbook. 7th ed. Fort Detrick, MD: US Army Medical Research Institute of Infectious Diseases; 2011: 129–133.
+ 75. International Atomic Energy Agency. Fukushima nuclear accident update log. https://www.iaea.org/newscenter/news/
+fukushima-nuclear-accident-update-log-15. Accessed April 7, 2017.
+ 76. United Nations Scientific Committee on the Effects of Atomic Radiation. UNSCEAR assessments of the Chernobyl 
+accident. http://www.unscear.org/unscear/en/chernobyl.html. Accessed July 4, 2018.
+ 77. Armed Forces Radiobiology Research Institute. Medical Management of Radiological Casualties. 4th ed. Bethesda, MD: 
+AFRRI; July 2013.
+ 78. Waselenko JK, MacVittie TJ, Blakely WF, et al. Medical management of acute radiation syndrome: recommendations 
+of the National Stockpile Working Group. Ann Int Med. 2004;140(12):1037–1051.
+553
+Chemical, Biological, Radiological, Nuclear, and Explosive Threats
+ 79. National Security Staff, Interagency Policy Coordination Subcommittee for Preparedness and Response to Radiological and Nuclear Threats. Planning Guidance for a Response to a Nuclear Detonation. 2nd ed. Washington, DC: National 
+Security Staff; June 2010. https://www.fema.gov/media-library-data/20130726-1821-25045-3023/planning_guidance_
+for_response_to_a_nuclear_detonation___2nd_edition_final.pdf. Accessed May 15, 2018.
+ 80. Plurad DS. Blast injuries. Mil Med. 2011;176:276.
+ 81. Wolf SJ, Bebarta VS, Bonnett CJ, et al. Blast injuries. Lancet. 2009;374:405–415.
+554
+Fundamentals of Military Medicine

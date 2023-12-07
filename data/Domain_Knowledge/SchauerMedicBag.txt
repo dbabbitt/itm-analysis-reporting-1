@@ -1,0 +1,418 @@
+61
+*Correspondence to Steven Schauer, 3698 Chambers Pass, JBSA Fort Sam Houston, TX 78234 or steven.g.schauer.mil@mail.mil
+1MAJ Schauer is with the US Army Institute of Surgical Research, JBSA Fort Sam Houston, TX; Brooke Army Medical Center, JBSA Fort Sam 
+Houston, TX; Uniformed Services University of the Health Sciences, Bethesda, MD; and 59th Medical Wing, JBSA Lackland, TX. 2LTC Naylor is 
+with Madigan Army Medical Center, Joint Base Lewis McChord, WA. 3Ms Uhaa is with US Army Institute of Surgical Research, JBSA Fort Sam 
+Houston, TX. 4MAJ April is with Uniformed Services University of the Health Sciences, Bethesda, MD; and 4th Infantry Division, 2nd Infantry 
+Brigade Combat Team, Fort Carson, CO. 5Dr De Lorenzo is with University of Texas Health–San Antonio, San Antonio, TX.
+ABSTRACT
+Introduction: Tactical Combat Casualty Care (TCCC) recommends life-saving interventions; however, these interventions 
+can only be implemented if military prehospital providers 
+carry the necessary equipment to the injured casualty. Combat 
+medics primarily use aid bags to transport medical materiels 
+forward on the battlefield. We seek to assess combat medic 
+materiel preparedness to employ TCCC-recommended interventions by inventorying active duty, combat medic aid bags. 
+Methods: We sought combat medics organic to combat arms 
+units stationed at Joint Base Lewis McChord. Medics volunteered to complete a demographic worksheet and have the 
+contents of their aid bag photographed and inventoried. We 
+spoke with medic unit leadership prior to their participation 
+and asked that the medics bring their aid bags in the way they 
+would pack for a combat mission. We categorized medic aid 
+bag contents in the following manner: (1) hemorrhage control; (2) airway management; (3) pneumothorax treatment, 
+or (4) volume resuscitation. We compared the items found in 
+the aid bags against the contemporary TCCC guidelines. Results: In January 2019, we prospectively inventoried 44 combat medic aid bags. Most of the medics were male (86%), in 
+the grade of E4 (64%), and had no deployment experience 
+(64%). More medics carried a commercial aid bag (55%) than 
+used the standard issue M9 medical bag (45%). Overall, the 
+most frequently carried medical device was an NPA (93%). 
+Overall, 91% of medics carried at least one limb tourniquet, 
+2% carried a junctional tourniquet, 31% carried a supraglottic airway (SGA), 64% carried a cricothyrotomy setup/kit, 
+75% carried a chest seal, and 75% carried intravenous (IV) 
+fluid. The most commonly stocked limb tourniquet was the 
+C-A-T (88%), the airway kit was the H&H cricothyrotomy 
+kit (38%), the chest injury set were prepackaged needle decompression kits (81%), and normal saline was the most frequently carried fluid (47%). Most medics carried a heating 
+blanket (54%). Conclusions: Most medics carried materiels 
+that address the common causes of preventable death on the 
+battlefield. However, most materiels stowed in aid bags were 
+not TCCC-preferred items. Moreover, there was a small subset 
+of medics who were not prepared to handle the major causes 
+of death on the battlefield based on the current state of their 
+aid bag.
+Keywords: combat; medic; aid bag; military
+Introduction
+Background
+The TCCC guidelines are a set of evidence-based, prehospital 
+trauma management recommendations specifically designed 
+for the austere, combat setting. 1,2 Military armed conflict introduces numerous factors not encountered in civilian trauma 
+medicine that must inform and influence medical management 
+expectations placed on military prehospital providers, namely 
+combat medics. In particular, “equipment must be simple, light, 
+and rugged.”3 A life-saving intervention may be rendered useless if it cannot be carried to battlefield casualties and effectively 
+administered by combat medics, potentially under hostile fire.
+Front-line, combat medics have few options to transport medical materiel to the point of injury. The primary method utilized by combat medics are aid bags, or backpacks worn over 
+the uniform and body armor where size and weight are of the 
+utmost importance. 4 Excessive size and weight increase physical exertion and limits mobility, especially in hostile situations 
+where rapid mobility is of the highest importance. The US 
+Army currently fields the M9 medical bag and several commercial vendors offer variations of aid bags and self-contained 
+litter kits—in addition to smaller pouches that are worn on 
+the thigh or attached to body armor—that combat medics may 
+use. 5 In addition to the size and weight limitations, medics can 
+carry only what is logistically available. Multiple, previously 
+published military studies attribute medical materiel shortfalls 
+to the deployed, medical logistical system. 6–11
+Despite more than two decades of TCCC and numerous published studies related to TCCC, there are no published data that 
+describe and evaluate the combat medic aid bag and its capacity to facilitate TCCC-recommended, life-saving interventions.
+Goal of This Investigation
+We seek to assess combat medic materiel preparedness to use 
+TCCC-recommended interventions by inventorying active duty 
+combat medic aid bags.
+Methods
+We sought soldiers with the military occupational specialty 
+(MOS) 68W, with or without special skills identifiers, assigned to a brigade combat team. We asked medics with personal aid bags (i.e., not unit issued) to bring their aid bags for 
+An Inventory of the Combat Medics’ Aid Bag
+Steven G. Schauer, DO, MS1; Jason F. Naylor, PA-C2; Nguvan Uhaa, LPN3; 
+Michael D. April, MD, DPhil, MSc4; Robert A. De Lorenzo, MD, MSM, MSCI5
+All articles published in the Journal of Special Operations Medicine are protected by United States copyright law 
+and may not be reproduced, distributed, transmitted, displayed, or otherwise published without the prior written permission 
+of Breakaway Media, LLC. Contact publisher@breakawaymedia.org.
+62  |  JSOM Volume 20, Edition 1 / Spring 2020
+equipment inventorying. Before participating, we contacted 
+relevant unit leadership and asked that the medics bring their 
+aid bags in the way they would pack for a combat mission 
+(without medications).
+Ethics
+We submitted project proposal H-18-035 to the US Army Institute of Surgical Research (USAISR) regulatory support division. Our project met all USAISR regulatory requirements 
+for performance improvement not requiring institutional review board oversight. Participants volunteered to complete 
+the aid bag inventory and associated survey. Additionally, we 
+obtained approval to inventory and photograph aid bags from 
+the relevant chain of command.
+Surveys
+We prospectively administered surveys to combat medics. Surveys solicited data on each subject’s demographics and prior 
+operational experience. The surveys also solicited data regarding the contents of each subjects’ aid bag (see the Survey online 
+at https://jsom.us/SchauerSurvey).
+TCCC Guidelines and Lifesaving Interventions
+We categorized medic aid bag contents according to the category of life-saving intervention facilitated by each piece of 
+equipment: (1) hemorrhage control; (2) airway management; 
+(3) pneumothorax treatment, or (4) volume resuscitation. We 
+used TCCC Guidelines for Medical Personnel (version 31 January 2017) to define the equipment that medics should carry 
+in their aid bags and compared carried equipment against that 
+stipulated in the guidelines. Depending on the item and its intended use, we also captured subcategories (generally by manufacturer or brand). We consolidated commodity items (e.g., 
+interchangeable and not requiring any training to use a different make or brand) under a single category.
+Data Analysis
+We performed all statistical analysis using Microsoft Excel (version 10, Redmond, WA) and JMP Statistical Discovery from 
+SAS (version 13, Cary, NC). We used descriptive statistics.
+Results
+In January 2019, we prospectively inventoried 44 combat 
+medic aid bags from units assigned to the 7th Infantry Division. A majority of the medics were male (86%), in the military 
+grade of E4 (64%), and had no deployment experience (64%). 
+Slightly more medics carried a commercial aid bag (55%) than 
+used the standard issue M9 medical bag (45%). The most 
+prevalent medical device was a nasopharyngeal airway (93%). 
+For massive hemorrhage control, the most commonly found 
+item was the C-A-T tourniquet (88%). The H&H cricothyrotomy kit (38%) was the most frequently packed advanced 
+airway device. In the pneumothorax treatment category, the 
+most prevalent item was a prepackaged needle decompression 
+kit (81%). In the circulation category, normal saline was the 
+most frequently carried fluid (47%). In addition, 75% carried 
+a SAM splint and a heating blanket (54%) (Table 1).
+Discussion
+We inventoried active duty combat medic aid bags to evaluate 
+materiel preparedness to deliver TCCC-recommended, life- 
+saving interventions. Overall, we found most medics carried 
+materiel to address the most common preventable causes of 
+death on the battlefield (Table 2). However, few of the specific 
+devices carried were preferred by TCCC. More medics used 
+a commercial, nonstandard aid bag than used the unit- issued 
+M9 medical bag. More concerning is that 9% of medics did 
+not have any limb tourniquets, 98% did not have a junctional 
+tourniquet, 69% did not have an SGA, 36% did not have a 
+cricothyrotomy setup, 25% did not have a chest seal, and 25% 
+did not have any IV fluids. Ostensibly, these medics are not 
+prepared to handle potentially preventable causes of battlefield 
+deaths. Of note, the majority of the medics reported no deployment experience, suggesting that most lacked much, if any, 
+real-world experience.
+Hemorrhage is the most common cause of preventable death 
+on the battlefield. 12,13 TCCC recommends the following items 
+for hemorrhage control: limb tourniquet, junctional tourniquet 
+(JTQ), and hemostatic dressings (Combat Gauze preferred; 
+Celox Gauze, ChitoGauze, or XStat acceptable). 2 Almost all 
+medics (94%) carried a CoTCCC-approved limb tourniquet. 
+However, only one medic (2%) possessed a JTQ and no medics 
+packed hemostatic dressings. During the recent conflicts in Afghanistan and Iraq, it was standard unit practice for all service 
+members to carry C-A-T tourniquets in the pockets of their 
+uniforms. 5 US Army standard issue now also includes the improved first aid kit (IFAK) that contains C-A-T tourniquets and 
+a hemostatic dressing. US Army combat lifesavers (CLS) receive 
+CLS bags that also contain C-A-T tourniquets and hemostatic 
+dressings. 14 However, none of these medical kits contain a JTQ. 
+Junctional hemorrhage surpassed extremity hemorrhage as the 
+most common cause of preventable death on the battlefield after widespread distribution of limb tourniquets. Given multiple, readily available alternative sources for limb tourniquets, 
+we recommend unit medical leadership consider having medics 
+pack JTQ, not limb tourniquets, in their aid bags to maximize 
+hemorrhage control measures in the forward battlespace.
+Airway compromise was the second most common cause of 
+preventable death on the battlefield. 12,13 TCCC recommends 
+the following items for airway management: NPA, supraglottic airway (SGA; i-Gel preferred), and cricothyroidotomy kit 
+(Cric-Key preferred). Of all items, NPA was the most commonly stowed medical materiel (93%). Curiously, published 
+data on military prehospital airway management during the 
+recent conflicts in Afghanistan and Iraq demonstrate rare utilization of the NPA. 6,15 Most medics (65%) possessed a cricothyroidotomy kit in their aid bag; however, only 1 (3. 4%) was 
+the TCCC-preferred Cric-Key. Only 31% of medics carried an 
+TABLE 1 Demographics of Medics With Aid Bags Inventoried*
+% (n) or Median (IQR)
+Demographics
+Age, y
+23 (31–29)
+Sex, male
+86% (32)
+Rank
+E2
+5% (2)
+E3
+5% (2)
+E4
+64% (24)
+E5
+21% (8)
+E6
+3% (1)
+Deployment 
+experience
+None
+75% (28)
+1
+18% (7)
+2
+5% (2)
+*We were unable to link seven aid bags to surveys for demographic 
+information.
+All articles published in the Journal of Special Operations Medicine are protected by United States copyright law 
+and may not be reproduced, distributed, transmitted, displayed, or otherwise published without the prior written permission 
+of Breakaway Media, LLC. Contact publisher@breakawaymedia.org.
+An Inventory of the Combat Medics’ Aid Bag  |  63
+SGA and none were the TCCC-preferred i-Gel SGA. Only 15% 
+of medics carried any suction device, and all were manually 
+operated disposable units. Our findings demonstrate medics 
+rarely carried TCCC-preferred airway management devices. 
+This finding may be due to a mismatch in TCCC recommendations and the US Army medical logistics system. We recommend the CoTCCC incorporate US Army Medical Materiel 
+Agency representatives in its periodic guideline review and updates to synchronize the medical and logistical communities.
+TCCC guidelines recommend blood products for resuscitation 
+of hypotensive combat casualties. 2 In the absence of blood 
+products, TCCC recommends the following intravenous fluids 
+by precedence: Hextend then LR/Plasma-Lyte A. TCCC recommends against NS. Most of the medics carried NS (47%), 
+while less stowed TCCC-recommended fluids: 2% Hextend 
+and 36% LR. While logistical constraints may explain fewer 
+medics carrying TCCC-recommended fluids, it does not account for medics packing a product (NS) that TCCC recommends against. This finding suggests medics and unit medical 
+leadership may not be well versed in TCCC guidelines as the 
+cost differences are not substantial enough to limit use of LR. 
+We recommend periodic TCCC training for medics and medical unit leadership to improve TCCC guideline adherence.
+Study Limitations
+Our study has several important limitations. First, we specifically instructed medics and unit leadership to pack aid bags 
+as they would for combat operations. Despite this request, it 
+is possible that some participants did not adhere and this may 
+account for some of our findings. Second, medics pack only 
+the medical materiel available in the logistics system. Consequently, deficiencies in unit medical stores may account for 
+some of our findings. Correspondingly, unit medical leaders 
+may be accountable for non-perishable medical equipment 
+(e.g., pulse oximeters) and, as a result, may not issue those 
+items to medics for stowage in individual aid bags. Conversely, 
+some medical materiel may be expendable and in ample supply and thus be carried by more medics in our study. Third, 
+medical units are centrally issued medical materiel as part 
+of sets, kits, and outfits. Although units may order medical 
+supplies, they can only order what is available in the system. 
+Newer items that are commercially available (e.g., i-Gel SGA, 
+Cric-Key cricothyroidotomy kit, etc.) may not be part of issued equipment and/or available via logistical resupply. Consequently, some of our findings may reflect a logistical supply 
+system still updating its inventory. A consideration for a future 
+study would be assessing for equipment requested that was 
+not received as that may better highlight shortages related to 
+logistical challenges. Last, while the Army frequently employs 
+a “train as you fight” mantra, the logistical supply chain and 
+unit budgets are vastly different in the garrison setting compared to the predeployment/deployment phases and thus this 
+may influence materiel product availability and oversight.
+Conclusions
+Most medics carried materiel that address the common causes 
+of preventable death on the battlefield. However, most materiel stowed in aid bags were not TCCC-preferred items. 
+Moreover, there was a small subset of medics that were not 
+prepared to handle the major causes of death on the battlefield 
+with the current state of their aid bag.
+TABLE 2 Itemized Aid Bag Inventory
+Category
+Item
+% (n)
+Aid bag
+Standard issue M9
+45% (20)
+Nonissue bag
+55% (24)
+Hemorrhage
+Any tourniquet
+91% (40)
+ SOFTW
+6% (3)
+ C-A-T
+88% (39)
+ Other
+0% (0)
+Any junctional tourniquet
+2% (1)
+ JETT
+0% (0)
+ SAM
+2% (1)
+ Other
+0% (0)
+XSTAT
+0% (0)
+Airway
+NPA
+93% (41)
+OPA
+29% (13)
+BVM
+31% (14)
+Suction device
+15% (7)
+Any SGA device
+31% (14)
+ KingLT (any size)
+31% (14)
+ Combitube
+0% (0)
+ LMA
+0% (0)
+Any cricothyrotomy equipment
+64% (28)
+ Control-Cric
+2% (1)
+ H&H cricothyrotomy kit
+38% (17)
+ NAR cricothyrotomy kit
+25% (11)
+ Other cricothyrotomy kit
+0% (0)
+Endotracheal tube
+2% (1)
+Macintosh blade
+2% (1)
+Miller blade
+2% (1)
+ETT holder
+0% (0)
+Pneumothorax
+Stethoscope
+47% (21)
+Any chest seal
+75% (33)
+ Chest seal – H&H
+41% (18)
+ Chest seal – NAR
+27% (12)
+ Chest seal – other
+27% (12)
+Chest tube
+2% (1)
+Chest tube kit (prepackaged)
+2% (1)
+Prepackaged needle decompression 
+kit
+81% (36)
+Circulation
+Any IV fluid
+75% (33)
+ Hextend
+2% (1)
+ Lactated Ringers
+36% (16)
+ Saline
+47% (21)
+ Other
+2% (1)
+Pressure bag
+0% (0)
+Warmer – EnFlow
+0% (0)
+Warmer – Thermal Angel
+0% (0)
+Warmer – other
+0% (0)
+Monitoring
+Pulse oximetry
+47% (21)
+Colorimetric end-tidal CO2
+2% (1)
+Blood pressure cuff
+0% (0)
+Miscellaneous
+SAM splint
+75% (33)
+Pelvic binder
+2% (1)
+Cervical collar
+9% (4)
+Heating blanket
+54% (23)
+Atomizer
+0% (0)
+Eye shield
+57% (25)
+All articles published in the Journal of Special Operations Medicine are protected by United States copyright law 
+and may not be reproduced, distributed, transmitted, displayed, or otherwise published without the prior written permission 
+of Breakaway Media, LLC. Contact publisher@breakawaymedia.org.
+64  |  JSOM Volume 20, Edition 1 / Spring 2020
+Disclaimer
+Opinions or assertions contained herein are the private views 
+of the authors and are not to be construed as official or as 
+reflecting the views of the Department of the Air Force, the 
+Department of the Army, or the Department of Defense.
+Funding
+Our study was supported by a Defense Health Program grant 
+(DP_67. 2_17_I_17_J9_1635).
+Disclosure
+The authors have none to report.
+Author Contributions
+SGS is the principal investigator and was involved in all aspects 
+of the study. JFN was involved in protocol development, data 
+collection, data interpretation and manuscript development. 
+NU was involved in data collection and manuscript development. MDA and RAD were involved in grant submission, 
+protocol development, data interpretation and manuscript development. All authors contributed significantly to this project.
+References
+1. Butler FK Jr, Hagmann J, Butler EG. Tactical Combat Casualty
+Care in Special Operations. Mil Med. 1996;161(suppl 1):3–16.
+2. Butler F. TCCC Updates: Two Decades of Saving Lives on the
+Battlefield: Tactical Combat Casualty Care Turns 20. J Spec Oper
+Med. 2017;17(2):166–172.
+3. Butler FK Jr, et al. Tactical combat casualty care 2007: evolving
+concepts and battlefield experience. Mil Med. 2007;172(suppl 1):
+1–19.
+4. The Soldier’s Heavy Load. https://www.cnas.org/publications
+/reports/the-soldiers-heavy-load-1, Accessed: 06 October 2019.
+5. Kotwal RS, et al. Saving lives on the battlefield: a joint trauma
+system review of pre-hospital trauma care in combined joint operating area-Afghanistan (CJOA-A). 2013, Central Command
+MacDill AFB FL.
+6. Schauer SG, et al. Prehospital airway management in Iraq and
+Afghanistan: a descriptive analysis. South Med J. 2018;111(12):
+707–713.
+7. Schauer SG, et al. Trends in prehospital analgesia administration by us forces from 2007 through 2016. Prehosp Emerg Care.
+2019;23(2):271–276.
+8. Schauer S, et al. Chest Seal Placement for Penetrating Chest
+Wounds by Prehospital Ground Forces in Afghanistan. J Spec
+Oper Med. 2017;17(3):85–89.
+9. Schauer SG, et al. An analysis of casualties presenting to military
+emergency departments in Iraq and Afghanistan. Am J Emerg
+Med. 2019;37(1):94–99.
+10. Naylor JF, et al. Non-battle emergency department utilization of
+the first modular army field hospital prototype in support of Operation Inherent Resolve. Mil Med. 2018;184(5–6):e168–e171.
+11. Schauer SG, et al. A descriptive analysis of casualties evacuated
+from the Africa area of operations. Afr J Emerg Med. 2019;9:
+S43–S46.
+12. Eastridge BJ, et al. Died of wounds on the battlefield: causation
+and implications for improving combat casualty care. J Trauma
+Acute Care Surg. 2011;71(1):S4–S8.
+13. Kelly JF, et al. Injury severity and causes of death from Operation
+Iraqi Freedom and Operation Enduring Freedom: 2003–2004
+versus 2006. J Trauma Acute Care Surg. 2008;64(2):S21–S27.
+14. Flecha I, et al. Combat lifesaver-trained, first-responder application of junctional tourniquets: a prospective, randomized, crossover trial. Mil Med Res. 2018;5(1):31.
+15. Lairet JR, et al. Prehospital interventions performed in a combat
+zone: a prospective multicenter study of 1,003 combat wounded.
+J Trauma Acute Care Surg. 2012;73(2):S38–S42.
+All articles published in the Journal of Special Operations Medicine are protected by United States copyright law 
+and may not be reproduced, distributed, transmitted, displayed, or otherwise published without the prior written permission 
+of Breakaway Media, LLC. Contact publisher@breakawaymedia.org.

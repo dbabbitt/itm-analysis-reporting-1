@@ -1,0 +1,834 @@
+313
+Environmental Extremes: Heat and Cold
+Chapter 22
+ENVIRONMENTAL EXTREMES: HEAT 
+AND COLD
+FRANCIS G. O’CONNOR, MD, MPH*; RICHARD A. SCHEURING, DO, MS†; and PATRICIA A. DEUSTER, PhD, MPH‡
+INTRODUCTION
+DEFINITIONS
+MILITARY HISTORY AND EPIDEMIOLOGY
+MILITARY APPLIED PHYSIOLOGY
+Heat
+Cold
+HUMAN PERFORMANCE OPTIMIZATION STRATEGIES FOR EXTREME 
+ENVIRONMENTS
+Heat Strategies
+Cold Strategies
+HEAT AND COLD STRESS AND THE MILITARY MEDICAL OFFICER
+Role of the Military Medical Officer
+Guidance to the Commanding Officer
+MILITARY RESOURCES
+SUMMARY
+*Colonel (Retired), US Army Medical Corps; Professor and former Department Chair, Military and Emergency Medicine, Uniformed Services University 
+of the Health Sciences, Bethesda, Maryland
+†Colonel, US Army Reserve Medical Corps; Associate Professor, Military and Emergency Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+‡Professor and Director, Consortium for Health and Military Performance (CHAMP), Uniformed Services University of the Health Sciences, Bethesda, 
+Maryland
+314
+Fundamentals of Military Medicine
+INTRODUCTION
+of heat and cold exposures as applied to today’s warfighter; the focus is on enhancing performance in these 
+settings. Specifically discussed are core definitions 
+applied to these stressors, relevant military history 
+and epidemiology, applicable applied physiology, and 
+detailed prevention strategies. Specific guidance and 
+resources are provided to assist the MMO in identifying and preventing the consequences of environmental 
+stress experienced by combatants.
+Service members on today’s battlefield confront a 
+variety of environmental challenges, particularly with 
+the emergence of unconventional, asymmetric, and 
+hybrid warfare. Knowledge of these environmental 
+challenges, as well as strategies to mitigate against the 
+stressors that impact optimal performance and provide 
+an advantage against enemy combatants, are essential 
+for the military medical officer (MMO). This chapter 
+specifically addresses the environmental challenges 
+DEFINITIONS
+the MMO in interpreting relevant literature and established military doctrinal guidance. These definitions 
+are followed by terms associated with common medical 
+conditions and injuries in that particular environment. 
+Common terminologies related to thermal challenges 
+(heat and cold) that confront service members are presented in Exhibits 22-1 and 22-2. First, basic and specific 
+applied physiologic definitions are provided to assist 
+MILITARY HISTORY AND EPIDEMIOLOGY 
+Extremes of both heat and cold have always plagued 
+soldiers. 1–3 Old Testament authors documented the 
+health risks of wearing heavy body armor in the heat, 
+noting, “when the sun stands still in the heavens,” it 
+helps the Hebrews fight the more heavily armored 
+Canaanites. In 400 bce, in one of the first reliable reports 
+on the effect of heat in military operations, Herodotus 
+described the effects of load carriage, protective clothing, and heat stress during an Athenian and Spartan 
+conflict as both armies were worn out by the “thirst 
+of the sun.” In 325 bce, while returning home from 
+his conquests, Alexander the Great and 40,000 troops 
+were exposed to 2 months of extreme heat and inadequate water. The army arrived home with only 5,000 
+soldiers remaining. Hannibal lost nearly half his army 
+from cold injury while crossing the Alps from Spain 
+in 153 bce. The Roman legionary had knowledge of 
+heat illness and associated risk factors, including load 
+carriage, and instituted mitigation strategies: headgear 
+included the capability to insert rushes in the helmet, 
+which were kept wet with water, and noncombatant 
+auxiliaries were utilized to carry supplies and weapons 
+to preserve the legionnaires’ strength for fighting. 
+The principal of heat acclimatization became apparent during the Middle Ages when English King 
+Edward’s heavily armored crusaders were defeated 
+by lighter Arab horsemen in one of the final battles of 
+the Crusades; the English loss was attributed to the 
+advantage the native Arabs had by living regularly in 
+the heat. 1 Military environmental casualties and loss 
+of troop effectiveness have remained significant operational concerns in modern warfare; it is estimated that 
+in the early period of World War II in the Pacific theater 
+of operations, there were over 100 casualties from heat 
+or illness for every combat casualty. In the European 
+theater, between autumn 1944 and spring 1945, 46,000 
+cases of cold weather injury were reported, and nearly 
+10% of all injuries were secondary to cold exposure. 1,2
+Currently, the Armed Forces Health Surveillance 
+Center publishes the Medical Surveillance Monthly 
+Report, an important document for all MMOs to be 
+familiar with. The report regularly provides critical 
+insight into disease trends in the US military. Table 22-1 
+presents patterns of heat and cold injuries from 2010 
+through 2014. Clearly, cold injuries were less common 
+than heat injuries during these years. 4,5
+Unfortunately, recent efforts to mitigate exertional 
+heat stroke casualties have not reduced injury rates. 
+The annual rate (unadjusted) of cases of heat stroke in 
+2014 was slightly higher than in 2013 and similar to 
+rates in 2011 and 2012. In 2014, the incidence of heat 
+stroke was highest among males and service members 
+younger than 20 years of age, Asian/Pacific Islanders, 
+Marine Corps and Army members, recruit trainees, 
+and combat-specific occupations. Heat stroke rates in 
+the Marine Corps were 50% higher than in the Army, 
+and Army heat injury rates were more than 9-fold 
+those in the other two services. The incidence was 86% 
+higher among males than females. 
+The rate of cold injuries was higher in 2014 than 
+previous years, despite robust training, doctrine, 
+procedures, and protective equipment and clothing to 
+counter the threat from cold exposure. The Army and 
+Marine Corps accounted for most of the increase in 
+cold injuries from the year before, and like heat injury, 
+the rate was highest among those under 20 years of 
+315
+Environmental Extremes: Heat and Cold
+EXHIBIT 22-1 
+HEAT AND COLD APPLIED PHYSIOLOGY TERMINOLOGY
+General Thermoregulation Terms
+ 
+• Acclimation. Physiological adaptations to environmental stress that occurs through experimentally induced 
+stressors, eg, exercising in a hot or cold chamber. 
+ • Acclimatization. Physiological adaptations to the environmental stress that occur from natural environmental 
+stressors, eg, exercising in a hot and humid, or cold and wet, environment.
+ • Habituation. The diminishing of a physiological response to a frequently repeated stimulus, eg, repeated 
+cold exposure leads to blunted shivering and decreased cold-induced vasoconstriction.
+ • Conduction. Direct heat transfer to an adjacent, cooler object. 
+ • Convection. Transfer of heat to a gas or liquid moving over the body. Heat transfer occurs when the gas or 
+liquid is colder than the body. Convective heat loss by water can be large because the convective heat transfer 
+coefficient of water is 25 times more than air.
+ • Evaporation. Occurs when water from eccrine sweat glands vaporizes from the skin. Evaporation is an effective mechanism for dissipating excess heat, associated with a heat loss of 580 kcals/L of sweat.
+ • Radiation. Emission of electromagnetic heat waves; does not require direct contact or air motion.
+ • Thermal balance equation. S = M – (±W) ± (R + C) ± K – E, where S = rate of body heat storage, M = rate of 
+metabolic energy production, W = mechanical work of exercise, R + C = rate of radiant and convective energy 
+exchange, K = rate of conduction, and E = rate of evaporative loss.
+Heat Terms
+ • Thermotolerance. Ability to compensate for heat stress and sustain work. Individuals who are unable to 
+sustain heat and whose body temperatures rise faster than others in comparable conditions are heat intolerant. Heat intolerance can be congenital (eg, ectodermal dysplasia); functional (eg, lack of acclimatization); or 
+acquired (eg, infection, prior heat stroke). 
+ • Heat stress and strain (compensated and uncompensated). Heat stress refers to the environmental and host 
+conditions that increase body temperature; heat strain is the physiological and psychological consequence 
+of heat stress. Compensated heat stress occurs when heat gain and loss are balanced so that a steady state 
+is reached and work can be maintained; uncompensated heat stress occurs when cooling requirements are 
+exceeded, a steady state cannot be maintained, and physiologic fatigue results.
+ • Wet bulb globe temperature (WGBT). An index developed by the military to calculate overall environmental 
+heat load. The WBGT integrates radiant heat, ambient temperature, and relative humidity.
+WBGT = 0. 1 × dry bulb temperature (ambient air temperature) + 0. 7 × 
+ wet bulb temperature (relative humidity) + 0. 2 × globe temperature (radiant heat)
+Cold Terms
+ 
+• Cold stress. Environmental and/or personal conditions that tend to remove body heat and decrease body 
+temperature. Cold stress is frequently measured by the wind chill temperature.
+ 
+• Cold strain. Physiologic and/or psychological consequences of cold stress.
+ 
+• Wind chill temperature. A quantity expressing the effective lowering of the air temperature caused by the 
+wind, especially as it affects the rate of heat loss from an object or human body or as it is perceived by an 
+exposed person.
+ 
+• Hypothermia. A decline of 2°C or 3. 6°F in normal human core temperature (37°C or 98. 6°F).
+ 
+• Rewarming (passive and active). Passive rewarming is preventing further heat loss. Active rewarming is 
+applying an external or internal (core) source of heat.
+ 
+• Rewarming shock. Vascular collapse during rewarming, secondary to depressed myocardium, vasodilation, 
+and hypovolemia.
+ 
+• After-drop. Further cooling of the body core after removal from cool environment; caused by cool blood 
+from the periphery returning to the core.
+316
+Fundamentals of Military Medicine
+EXHIBIT 22-2 
+HEAT AND COLD INJURY TERMINOLOGY
+Exertional Heat Illness 
+ • Heat exhaustion. Characterized by the inability to maintain adequate cardiac output due to strenuous physical exercise and environmental heat stress. Other symptoms generally include difficulty 
+continuing with exercise, core body temperature between 101° and 104°F (38. 3°–40. 0°C), possible 
+dehydration, but no significant dysfunction of the central nervous system (eg, seizure, altered 
+consciousness, persistent delirium). 
+ • Heat injury. Characterized by evidence of hyperthermia and possible end organ damage, but without significant neurologic manifestations. Other symptoms generally include a core temperature 
+from 104° to 105°F (40. 0°–40. 5°C); clinical and laboratory manifestations of metabolic acidosis, 
+rhabdomyolysis, acute kidney injury, and liver failure; and the absence of neurologic findings.
+ • Exertional heat stroke. A multisystem illness characterized by central nervous system dysfunction 
+(encephalopathy) and additional organ and tissue damage (eg, acute kidney injury, liver injury, 
+rhabdomyolysis), as well as a core temperature above 104°F (40°C) measured immediately following collapse during strenuous activity. Central nervous system dysfunction can manifest as a wide 
+range of possible symptoms and signs, including disorientation, headache, irrational behavior, 
+irritability, emotional instability, confusion, altered consciousness, coma, or seizure.
+Cold Injury
+ • Hypothermia. Defined as a body core temperature below 35. 0°C (95. 0°F). Symptoms depend 
+on the temperature. In mild hypothermia, there is shivering and mental confusion. In moderate 
+hypothermia, shivering stops and confusion increases. In severe hypothermia there may be paradoxical undressing, where a person removes their clothing, as well as an increased risk of the heart 
+stopping. 
+ 
+◦ Mild hypothermia: 90°F (32°C) – 95°F (35°C) 
+ 
+◦ Moderate hypothermia: 82°F (28°C) – < 90°F (32°C) 
+ 
+◦ Severe hypothermia: < 82°F (28°C).
+ • Frostbite. Medical condition in which localized damage is caused to skin and other tissues due to 
+freezing.
+ • Trench foot. A nonfreezing medical condition caused by prolonged exposure of the feet to damp, 
+unsanitary, and cold conditions.
+TABLE 22-1
+THERMAL INJURIES IN ACTIVE COMPONENT SERVICE MEMBERS, 2010–2014
+ 
+2010 
+2011 
+2012 
+2013 
+2014
+Type of Injury 
+N 
+Rate* 
+N 
+Rate* 
+N 
+Rate* 
+N 
+Rate* 
+N 
+Rate*
+Heat stroke 
+322 
+2. 2 
+361 
+2. 6 
+365 
+2. 5 
+324 
+2. 3 
+344 
+2. 5
+Other heat injuries 
+2,562 
+17. 8 
+2,618 
+18. 1 
+2,293 
+16. 1 
+1,847 
+13. 1 
+1,683 
+12. 2
+Cold injuries 
+534 
+3. 8 
+526 
+3. 7 
+432 
+3. 1 
+415 
+3. 0 
+617 
+4. 5
+*per 10,000 person-years
+Data sources: (1) Update: heat injuries, active component, US armed forces, 2014. MSMR. 2015;22(3):17–20. (2) Nagarajan S. Update: cold 
+weather injuries, active and reserve components, US armed forces, July 2010–June 2015. MSMR. 2015;22(2):7–12.
+317
+Environmental Extremes: Heat and Cold
+age. In contrast, cold injuries were higher in females 
+than in males across the 5-year period, for reasons that 
+are not completely understood. Since then, increased 
+efforts in training, equipment, and education among 
+the troops have still not resulted in reduced injury rates 
+due to cold exposure. 5
+MILITARY APPLIED PHYSIOLOGY
+Human performance is compromised by extremes 
+of temperature, as well as depth and increased altitudes 
+above sea level. Work efficiency can be reduced at all 
+extremes, and efficiency must be considered in any 
+temperature, altitude, flight, or undersea mission. Understanding the basic principles of applied physiology that 
+contribute to these performance decrements are critical 
+for the MMO, who is frequently called on for the proper 
+interpretation of resources and guidelines that discuss 
+environmental stress. Knowledge of physiology enables 
+the MMO to identify and modify those factors that can 
+be mitigated or leveraged for success in the operational 
+environment, while promoting prevention by educating 
+the individual warfighter as well as the unit leadership.
+Heat 
+Although the human body has remarkable resilience against cold, it can tolerate only minor temperature elevations (up to 9oF) without developing systemic 
+dysfunction, which ultimately leads to multiorgan 
+failure and death, if body temperature cannot be 
+lowered. 6 Accordingly, the human body has multiple 
+mechanisms to dissipate heat, including convection, 
+conduction, radiation, and most importantly, evaporation (Figure 22-1). 
+During exercise, the human body acts to dissipate 
+the excess heat generated by skeletal muscle; this 
+requires an intact cardiovascular system that uses 
+blood to transfer heat from the body core to the skin, 
+where the mechanisms for dissipating heat can take 
+effect. However, when the ambient temperature is 
+higher than the body’s core temperature, convection, 
+conduction, and radiation are no longer effective. 
+Environmental conditions also effect evaporative 
+cooling. A water vapor pressure gradient must exist for sweat to evaporate and release heat into the 
+environment. In high humidity (relative humidity 
+>75%), evaporation becomes ineffective for transferring heat. Thus, in hot and humid conditions, 
+service members become susceptible to exertional 
+heat illness. 
+Limitations on heat dissipation in hot and humid 
+weather are exacerbated during intense exercise by a 
+finite supply of blood that must fulfill multiple functions, including meeting the metabolic demands of 
+active skeletal muscle and transporting heat to the 
+skin surface for cooling. Further complicating matters is the dehydration that most individuals develop 
+during intense exercise in the heat, which decreases 
+plasma volume. Studies suggest that during intense 
+exercise in the heat, for every 1% of body weight lost 
+from dehydration, there is a concomitant increase 
+in core body temperature of 0. 22°C (0. 4°F). 6 In other 
+words, other factors being equal, a service member 
+who loses only 1% of body weight from dehydration 
+during intense exercise in the heat would be 1°C 
+cooler compared to a buddy who loses 6% of body 
+weight. This would equate to a temperature difference 
+of approximately 39°C (102°F) versus 40°C (104°F) at 
+the end of a training session. A number of additional 
+factors influence the rate at which a person’s core 
+body temperature rises during vigorous activity, 
+including fitness level, degree of acclimatization to 
+heat, clothing/equipment, use of certain types of nutritional supplements, and physiologic response (eg, 
+degree of tachycardia). 
+During exercise the body’s temperature becomes 
+elevated in response to the increase in metabolic 
+heat production; a modest rise in temperature is 
+thought to represent a favorable adjustment that 
+optimizes physiologic functions and facilitates 
+heat loss mechanisms (as described in Figure 22-1). 
+With compensated heat stress, the body achieves a 
+new steady-state core temperature proportional to 
+the increased metabolic rate and available means 
+Figure 22-1. Physiological and environmental mechanisms 
+of heat generation and dissipation. 
+Solar radiation
+Sky thermal radiation
+Evaporation
+(sweat)
+Evaporation
+(respiratory)
+Convection
+Metabolic
+heat
+Conduction
+Radiation
+Work
+Air temperature
+Air humidity
+Reflected
+solar
+radiation
+Ground
+thermal
+radiation
+Ground
+conduction
+318
+Fundamentals of Military Medicine
+for dissipating heat. Studies in runners describe 
+this mechanism as exercise-induced hyperthermia; 
+runners have demonstrated that they can complete 
+events successfully with significantly elevated core 
+temperatures (103°–104°F) and remain entirely 
+asymptomatic. 7 Uncompensated heat stress results 
+when cooling capacity is exceeded and the service member or athlete cannot maintain a steady 
+temperature. Continued exertion in the setting of 
+uncompensated heat stress increases heat retention, 
+causing a progressive rise in core body temperature 
+and increasing the risk for severe heat illness.
+Service members, unfortunately, do not always 
+have time to properly acclimatize, and may encounter 
+scenarios in which a failure to compensate may result 
+in an exertional heat illness. Body temperature can 
+increase through a number of mechanisms: exposure to 
+environmental heat (impeded heat dissipation); physical exercise (increased heat production); fever from 
+systemic illness (elevated set point with subsequent 
+activation of shivering); and medications that may 
+cause neuroleptic malignant syndrome and malignant 
+hyperthermia. 
+Importantly, febrile persons have accentuated 
+elevations in core temperature when exposed to 
+high ambient temperature, physical exercise, or both. 
+Environmental temperature and humidity, medication, and exercise heat stress in turn challenge the 
+cardiovascular system to provide high blood flow 
+to the skin, where blood pools in warm, compliant 
+vessels such as those found in the extremities. When 
+blood flow is diverted to the skin, reduced perfusion of the intestines and other viscera can result 
+in ischemia, endotoxemia, and oxidative stress. 8 
+In addition, excessively high tissue temperatures 
+can produce direct tissue injury (heat shock: >41°C 
+[105. 8°F]). 
+The magnitude and duration of heat shock 
+influences whether cells respond by adaptation 
+(acquired thermal tolerance), injury, or death 
+(apoptotic or necrotic). Heat shock, ischemia, and 
+systemic inflammatory responses can result in cellular dysfunction, disseminated intravascular coagulation, and multiorgan dysfunction syndrome. 
+In addition, reduced cerebral blood flow, combined 
+with abnormal local metabolism and coagulopathy, 
+can lead to dysfunction of the central nervous system. This situation is an example of uncompensated 
+heat stress, which can severely denigrate a service 
+member’s performance, put the individual at risk 
+for significant morbidity and mortality, and compromise the unit’s mission.
+Cold
+As previously stated, the human body is much more 
+resilient against cold and lowered changes in temperature than heat. Despite this hardiness, cold exposure 
+can significantly impact warfighter performance, and 
+ultimately the completion of the mission. The principles of heat exchange discussed above remain the 
+same; however, the MMO must be aware of several 
+additional factors related to cold. 
+Convection becomes critically important when 
+service members lose significant amounts of heat 
+in windy environments in the absence of protective 
+clothing; the wind chill temperature calculation factors convective heat loss into risk. Convective loss 
+can become even more important when soldiers are 
+exposed to cold water because the convective heat 
+transfer coefficient of water is about 25 times greater 
+than that of air. 9 Radiant heat loss can become an issue as the sun goes down and service members are 
+exposed to a clear night sky. Conductive heat loss can 
+be a concern with soldiers sleeping on cold ground 
+or snow; heat loss can become even more magnified 
+if clothing is wet. Non-evaporative sweat in cold 
+weather can also lead to wet clothing, decreasing its 
+insulation capacity. 
+Heat conservation is supplemented by mechanisms 
+to increase heat production. Cold exposure leads to 
+an increase in metabolic heat production, which can 
+help offset heat loss. Body temperature is normally 
+regulated through two parallel processes: behavioral 
+temperature regulation and physiologic temperature 
+EFFECTS OF COLD
+EFFECTS OF HEAT
+37° C
+36° C
+32° C
+28° C
+34° C
+31° C
+Figure 22-2. Effects of cold exposure on heat conservation 
+(left) and heat dissipation (right).
+319
+Environmental Extremes: Heat and Cold
+regulation. Behavioral thermoregulation includes 
+reducing direct cold exposure using clothing or 
+protective shelter, and increasing physical activity. 
+Unfortunately, mission requirements may prevent 
+these actions, causing service members to rely on the 
+physiologic mechanisms of peripheral vasoconstriction and shivering to preserve body heat. Shivering 
+can be sustained longer than exercise, but exercise 
+results in twice the rate of heat production. Shivering 
+does come with a metabolic cost with an increase in 
+oxygen uptake.
+Heat conservation through peripheral vasoconstriction is the principal physiologic mechanism utilized 
+to mitigate cold stress (Figure 22-2). The resulting 
+decrease in peripheral blood flow reduces convective 
+heat transfer from the body’s core to the shell (skin, 
+subcutaneous fat, and muscle). This vasoconstrictor 
+response results in a lower skin temperature while 
+preserving the body’s core temperature. The vascular shunting of blood from the skin and limbs to the 
+vital organs, while defending the core temperature, 
+can paradoxically contribute to the etiology of coldinduced injuries.
+Multiple individual factors can contribute to modifying the physiologic response to cold. 9 Individuals 
+with a high body surface area to mass ratio (ectomorphs) lose more body heat than those with lower 
+body surface area to mass ratios (endomorphs). Gender 
+and ethnicity have been demonstrated to be risk factors 
+as well. Females and African Americans have twice the 
+rate of cold injury, which may be secondary to long, 
+slender fingers and a greater body surface area to 
+mass ratio. Fitness and training, which are significant 
+risk factors for heat injury, do not have an effect on 
+cold temperature regulation. However, fatigue is an 
+important militarily relevant risk factor for cold injury 
+and can impair both peripheral vasoconstriction and 
+shivering. Finally, inadequate nutrition can be a key 
+contributor to a risk for cold injury because hypoglycemia can impair the shivering response.
+HUMAN PERFORMANCE OPTIMIZATION STRATEGIES FOR EXTREME ENVIRONMENTS
+Primary prevention is the cornerstone to optimizing 
+human performance in extreme environments. This 
+section discusses military relevant human performance 
+optimization strategies to assist in preventing injury 
+and optimizing performance among service members. 
+Table 22-2 lists evidence-based strategies, including 
+the targeted risk factor, to optimize warfighter performance in environmental extremes.
+Heat Strategies
+Tolerance of extreme heat and humidity depends 
+upon a number of functional, acquired, and congenital 
+factors, the most important of which is acclimatization 
+(Table 22-3). 10 Acclimatization is the body’s ability to 
+improve its response to and tolerance of heat stress 
+over time. Thus, allowing sufficient time and using 
+TABLE 22-2
+HUMAN PERFORMANCE STRATEGIES TO MITIGATE HEAT AND COLD INJURY
+Environment Performance Risk Factor or Challenge Strategy
+Heat 
+Lack of heat acclimatization 
+Acclimatization strategy (TB MED 507/Air Force Pamphlet 
+48-152, Heat Stress Control and Heat Casualty Management)
+Heat 
+Lack of aerobic fitness 
+Improve aerobic fitness (FM 7-22, Army Physical Readiness 
+Training) 
+Heat 
+Mismatch of hydration and work/rest 
+Institution of appropriate work, rest, and hydration guidance 
+(Army Institute of Environmental Medicine/Army Public 
+Health Center work/rest and water consumption table, 
+Table 22-4)
+Cold 
+Lack of cold weather acclimatization 
+Acclimatization/habituation strategy
+ 
+ 
+(Army TB MED 508, Prevention and Management of Cold Weather 
+Injuries)
+Cold 
+Inappropriate environmental clothing 
+Appropriate clothing
+ 
+ 
+(Army TB MED 508, Prevention and Management of Cold Weather 
+Injuries)
+320
+Fundamentals of Military Medicine
+optimal training strategies that enable service members 
+to acclimatize is critical for improving performance 
+and mitigating the risk for exertional heat illness 
+(EHI). Observational studies have found that the first 
+week of training in high heat and humidity, for both 
+service members and athletes, is the period of greatest 
+risk for EHI. 6,11 Acclimatization requires at least 1 to 2 
+weeks. However, any improved tolerance of heat stress 
+generally dissipates within 2 to 3 weeks of returning 
+to a more temperate environment. Acclimatization in 
+warfighters is accomplished with a combination of 
+environmental exposure with exercise; the Army/Air 
+Force publication Heat Stress Control and Heat Casualty 
+Management (TB MED 507/Air Force Pamphlet 48-152) 
+details optimal acclimatization strategies. 6
+The major physiologic adjustments that occur during 
+heat and humidity acclimatization include expanded 
+plasma volume, improved cutaneous blood flow, lowered threshold for initiation of sweating, increased sweat 
+output, lowered salt concentration in sweat, and lowered 
+skin and core temperatures during a standard exercise. 12 
+These adaptations allow for better dissipation of heat 
+during exercise and limit increases in body temperature 
+compared to service members who have not acclimatized. Exhibit 22-3 describes the known physiologic 
+benefits of acclimatization. Table 22-4 details current 
+guidance for ground units published by the US Army 
+Institute of Environmental Medicine. 6 The table’s recommendations are based upon an assessment of the wet 
+bulb globe temperature to determine the heat category.
+Improving performance in the heat also leverages 
+many proactive strategies to keep service members 
+cool and mitigate the risk of heat illness. A strategy 
+utilized in the military is “heat dumping,” in which 
+heat is transferred to the environment using techniques 
+such as cool mist showers. One novel intervention 
+used in the military is the arm immersion cooling 
+system (AICS) (Figure 22-3). The AICS is a simple, 
+efficient method for facilitating body (core and skin) 
+temperature cooling and reducing the risk of serious 
+heat illness. The AICS takes advantage of the rapid rate 
+of heat transfer from the skin directly into cool water 
+(compared to transfer into evaporative sweat or air), 
+and the large surface area to mass ratio of the forearms. 
+Several studies have reported that hand and forearm 
+immersion in cool (50°–68°F) water reduces core and 
+skin temperature faster than a noncooling control, 
+extends tolerance time, and increases total work time. 13
+TABLE 22-3 
+FACTORS UNDERLYING HEAT INTOLERANCE IN THE YOUNG ACTIVE POPULATION
+Congenital 
+Functional 
+Acquired
+Ectodermal dysplasia 
+Low physical fitness 
+Sweat gland dysfunction
+Chronic idiopathic anhidrosis 
+Lack of acclimatization 
+Dehydration
+ 
+Low work efficiency 
+Infectious disease
+ 
+Reduced skin area to body mass ratio 
+X-ray irradiation
+ 
+ 
+Drugs, supplements
+ 
+ 
+Large scarred burn areas
+ 
+ 
+Previous heat stroke
+EXHIBIT 22-3 
+ACTIONS OF HEAT ACCLIMATIZATION
+ • Thermal comfort: improved 
+ • Exercise performance: improved
+ • Core temperature: reduced 
+ • Cardiovascular stability: improved
+ • Heart rate: lowered
+ • Stroke volume: increased
+ • Blood pressure: better defended
+ • Myocardial compliance: improved
+ • Sweating: improved
+ 
+◦ Earlier onset
+ 
+◦ Higher rate
+ 
+◦ Redistribution
+ 
+◦ Hidromeiosis resistance 
+ • Fluid balance: improved
+ • Electrolyte loss: reduced
+ • Skin blood flow: improved
+ 
+◦ Earlier onset
+ 
+◦ Higher rate 
+ • Total body water: increased
+ • Metabolic rate: lowered 
+ • Plasma volume: increased and better 
+defended
+321
+Environmental Extremes: Heat and Cold
+Cold Strategies
+Although service members can successfully leverage acclimatization as a strategy to prevent heat illness, 
+strategies for acclimatization are not as well developed 
+as a protective mechanism to combat cold stress. Cold 
+acclimatization manifests in three different patterns of 
+thermoregulatory adjustments: habituation, metabolic 
+acclimatization, and insulative acclimatization. Habituation involves the blunting of both shivering and coldinduced vasoconstriction with prolonged exposure. 
+Studies have demonstrated that short, intense cold exposures (<1 hour) several times a week for 2 to 3 weeks 
+can stimulate a habituation response. 9 Metabolic acclimatization involves an exaggerated shivering response, 
+while insulative acclimatization involves enhanced heat 
+conservation methods. With insulative acclimatization, 
+cold exposure elicits a more rapid and more pronounced 
+decline in skin temperature and lower thermal conductance at the skin than in the unacclimatized state. 
+Because acclimatization is not an optimal strategy 
+to mitigate cold stress, other strategies to combat 
+cold stress injuries and optimize performance must 
+be considered. Selected strategies involve avoidance, 
+appropriate work/rest cycles, and suitable clothing. 
+Cold-weather clothing is specifically designed to 
+protect against hypothermia by reducing heat loss to 
+the environment (Figure 22-4). Protective insulation 
+is determined by how much air is effectively trapped 
+by clothing. Service members require clothing that 
+can accommodate a range of ambient temperatures 
+and physical activity levels, and that can protect 
+against wind, rain, and snow. This is accomplished 
+by following two important concepts when dressing 
+for activities in the cold: layering and staying dry. 
+Multiple layers of clothing allow air to be trapped 
+to serve as insulation, and allow the individual to 
+adjust layers according to environmental conditions 
+and activity level. Layers can be removed as the ambient temperature or physical activity levels increase, 
+TABLE 22-4
+WORK/REST AND WATER CONSUMPTION TABLE
+Table courtesy of the US Army Institute of Environmental Medicine and US Army Public Health Center.
+322
+Fundamentals of Military Medicine
+thereby reducing sweating and moisture buildup 
+within clothing. The Army publication Prevention and 
+Management of Cold Weather Injuries (TB MED 508)9 is 
+an excellent resource that details the practical prevention of cold weather injuries through the appropriate 
+selection of clothing. 
+Figure 22-4. Generation III Extended Cold Weather Clothing 
+System. Provides soldiers a multi-layered, versatile insulating system adaptable to varying operational and environmental conditions. March 2, 2010. Army Program Executive 
+Office (PEO) Soldier photo.
+Reproduced from: https://www.flickr.com/photos/
+peosoldier/4777344669/.
+Figure 22-3. Arm immersion cooling system. 
+HEAT AND COLD STRESS AND THE MILITARY MEDICAL OFFICER
+Role of the Military Medical Officer
+MMOs are expected to have scientific background 
+in the physiology of extreme environments, as well as 
+the medical knowledge to provide recommendations 
+for prevention of environmental injuries, to assist in 
+the treatment of such injuries, and to make return-toduty determinations when restriction from activity or 
+deployment may be essential. Above all, the best treatment strategy for all potential environmental injuries 
+or illness is primary prevention. In addition to leveraging acclimatization, the MMO must be proactive 
+in assessing environmental stress and implementing 
+appropriate work/rest and hydration strategies.
+The services systematically approach risk management for environmental stress comparably to approaches for other stresses, utilizing a series of steps. 14 The five 
+steps of risk management—identify the hazards, assess 
+the hazards, develop controls and make risk decisions, 
+implement controls, and supervise and evaluate—are 
+used across the services to help them operate as a joint 
+force and optimize readiness (Figure 22-5). 
+When leadership identifies an environmental 
+risk of EHI, the risk management process is carefully planned to assess the risk and implement 
+1.
+1.
+1.
+Identify the hazards
+2.
+Assess the hazards
+3.
+Develop controls and
+make risk decisions
+4.
+Implement controls
+5.
+Supervise and
+evaluate
+Figure 22-5. The Army risk management process. 
+mitigation strategies. Activities implemented to 
+reduce risk include those previously discussed: 
+education, acclimatization, appropriate adjustment 
+of activities to include work/rest and hydration 
+strategies, and being prepared for early EHI management. Depending upon the degree of assessed 
+risk, leaders of increasing rank are required to 
+review and approve training plans. Arguably the 
+323
+Environmental Extremes: Heat and Cold
+military’s most important tool in preventing EHI is 
+leadership; all leaders are expected to proactively 
+implement preventive measures to mitigate the 
+threat of heat casualties. 
+To mitigate the consequences of cold exposure, the 
+MMO should know that physiologic acclimatization 
+to cold stress can occur, but it is generally considered 
+modest at best, and requires more time to develop 
+and is less practical than heat acclimatization. MMOs 
+must review all possible techniques and strategies to 
+minimize cold injuries.
+Guidance to the Commanding Officer
+Ultimately, MMOs serve in support of the commanding officer, and they must remain aware of issues related to environmental conditions. Developing 
+credibility and trust are key; without them, an MMO 
+will be less effective in mitigating environmental risks. 
+Being aware of individual service member needs, having access to resources for finding new strategies, and 
+identifying realistic countermeasures are important 
+for success. 
+MILITARY RESOURCES
+General
+ 
+• The Medical Surveillance Monthly Report 
+(https://www.afhsc.mil/Search/SearchMSMR) 
+provides evidence-based estimates of the 
+incidence, distribution, impact, and trends of 
+illnesses in service members and associated 
+populations. Annual reports are published on 
+topics such as environmental illnesses, which 
+allow for comparisons of prior year data and 
+assessment of preventive strategies.
+Heat
+ 
+• The US Army Public Health Command Heat 
+Injury Prevention website (http://phc.amedd.
+army.mil/topics/discond/hipss/Pages/HeatInjuryPrevention.aspx) provides heat casualty prevention information such as the Composite 
+Risk Management for Heat Injury Prevention, 
+Identification, and Response, FY 2010. 
+ 
+• The US Army Research Institute of Environmental Medicine (http://www.usariem.army.mil/) 
+has additional resources such as the Ranger & 
+Airborne School Students Heat Acclimatization Guide. 
+ 
+• Commanders and healthcare providers in the 
+Army and Air Force should use TB MED 507/
+Air Force Pamphlet 48-152, Heat Stress Control 
+and Heat Casualty Management,6 to develop a 
+comprehensive heat illness prevention program. This program should be complemented 
+with Army risk management doctrine, as detailed in FM 5-19, Composite Risk Management. 
+These documents provide the framework 
+for early recognition of climatic injuries and 
+implementation of preventive measures. 
+ 
+• The US Army Training and Doctrine Command has published regulations providing 
+guidance to commanders for prevention of 
+heat casualties in TRADOC Regulation 35029, Prevention of Heat and Cold Casualties (http://
+www.tradoc.army.mil/tpubs/regs/tr350-29.pdf).
+ 
+• Navy medical personnel can find guidance 
+on the management of exertional heat illness 
+published by the Bureau of Medicine and Surgery. Current policy is identified in Technical 
+Manual NEHC-TM-OEM 6260. 6A, Prevention 
+and Treatment of heat and Cold Stress Injuries 
+(http://www.med.navy.mil/sites/nmcphc/Documents/policy-and-instruction/oem-prevention-andtreatment-of-heat-and-cold-stress-injuries.pdf).
+Cold
+ 
+• Cold Injury Prevention (Army Public Health Center [Provisional] webpage: https://phc.amedd.
+army.mil/Pages/default.aspx).
+ 
+• Army TB MED 508, Prevention and Management of Cold Weather Injuries,9 a quintessential 
+military resource detailing guidance on cold 
+injury, was published in 2005 and supersedes 
+TB MED 81/NAVMED P-5052-29/AFP 161-11, 
+30 September 1976.
+SUMMARY
+This chapter has introduced the basics of optimizing service member performance in hot or 
+cold operational settings. Specifically, the historical 
+relevance of the environment to success in military 
+operations, the basic applied physiology relevant to 
+understanding the warfighter in the environment, 
+and evidence-based strategies demonstrated to preserve performance in environmental extremes are 
+discussed. The MMO operates in a unique setting 
+with limited resources, where urgency and proper 
+324
+Fundamentals of Military Medicine
+planning can mark the difference between success and 
+failure on the battlefield. It is important to remember 
+that MMOs serve not just to treat wounded, but also 
+to provide guidance to the commanding officer to 
+optimize the unit’s performance and ultimately support mission success. 
+REFERENCES
+ 
+1. Goldman RF. Introduction to heat-related problems in military operations. In: Wenger CB, ed. Medical Aspects of Harsh 
+Environments. Vol 1. Washington, DC: Borden Institute; 2001: 3–49.
+ 
+2. McCallum JE. Military Medicine: From Ancient Times to the 21st Century. Santa Barbara, CA: ABC-CLIO, Inc; 2008.
+ 
+3. Gabriel RA. Between Flesh and Steel: A History of Military Medicine from the Middle Ages to the War in Afghanistan. Washington, DC: Potomac Books; 2013.
+ 
+4. Update: heat injuries, active component, US armed forces, 2014. MSMR. 2015;22(3):17–20.
+ 
+5. Nagarajan S. Update: cold weather injuries, active and reserve components, US armed forces, July 2010–June 2015. 
+MSMR. 2015;22(2):7–12.
+ 
+6. US Department of Defense. Heat Stress Control and Heat Casualty Management. Washington, DC: Headquarters, Department of the Army and Air Force, March 2003. Army Technical Bulletin Medical 507/Air Force Pamphlet 48-152.
+ 
+7. Ely BR, Ely MR, Cheuvront SN, Kenefick RW, Degroot DW, Montain SJ. Evidence against a 40 degrees C core temperature threshold for fatigue in humans. J Appl Physiol (1985). 2009;107(5):1519–1525.
+ 
+8. Bouchama A, Knochel JP. Heat stroke. N Engl J Med. 2002;346(25):1978–1988.
+ 
+9. US Department of the Army. Prevention and Management of Cold Weather Injuries. Washington, DC: Headquarters, DA; 
+April 2005. Army Technical Bulletin Medical 508.
+ 10. Epstein Y. Heat intolerance: predisposing factor or residual injury? Med Sci Sports Exerc. 1990;22(1):29–35.
+ 11. Casa DJ, Armstrong LE, Ganio MS, Yeargin SW. Exertional heat stroke in competitive athletes. Curr Sports Med Rep. 
+2005;4(6):309–317.
+ 12. Glaser EM. Acclimatization to heat and cold. J Physiol. Dec 1949;110(3-4):330–337.
+ 13. DeGroot DW, Kenefick RW, Sawka MN. Impact of arm immersion cooling during Ranger training on exertional heat 
+illness and treatment costs. Mil Med. 2015;180(11):1178–1183.
+ 14. US Department of the Army. Risk Management. Washington, DC: Headquarters, DA; April 2014. Army Techniques 
+Publication 5-19.

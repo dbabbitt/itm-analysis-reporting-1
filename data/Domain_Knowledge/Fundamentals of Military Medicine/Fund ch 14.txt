@@ -1,0 +1,1450 @@
+203
+Environmental Extremes: Heat and Cold
+Section II
+OPERATIONAL HEALTH 
+SERVICE SUPPORT 
+Section Editor:
+James F. Schwartz, LTC (ret), Medical Service Corps, US Army
+US Marines with 1st Air Delivery Platoon, Landing Support Company, 1st Marine Logistics Group, prepare blood units in 
+preparation of an air delivery at Marine Corps Air Station Yuma, Arizona, March 28, 2018. This training is intended to test 
+the viability of dropping units of blood by air to austere environments when ground delivery is not an option. (US Marine 
+Corps Photo by Cpl. Kyle McNan)
+Reproduced from: https://www.dvidshub.net/image/4284311/air-blood-delivery-with-1st-marine-logistics-group.
+204
+Fundamentals of Military Medicine
+205
+Introduction to Health Service Support
+Chapter 14
+INTRODUCTION TO HEALTH SERVICE 
+SUPPORT
+JAMES F. SCHWARTZ,* MEGAN C. MULLER,† and CONRAD R. WILMOSKI‡
+INTRODUCTION
+THE MILITARY HEALTH SYSTEM
+The Health Service Support Mission
+The Role of the Medical Officer on the Command Staff
+HEALTH SERVICE SUPPORT PRINCIPLES
+Conformity 
+Continuity
+Proximity
+Mobility
+Control
+Flexibility
+A REPRESENTATIVE MEDICAL LAYDOWN IN A JOINT OPERATIONS AREA
+RESOURCES
+SUMMARY
+*Lieutenant Colonel (Retired), Medical Service Corps, US Army; Assistant Professor and Chief of Staff, Department of Military & Emergency Medicine, 
+F. Edward Hebert School of Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland 
+†Major, Medical Service Corps, US Army; Executive Officer, 264th Medical Battalion, 32nd Medical Brigade, Joint Base San Antonio-Fort Sam Houston, 
+Texas
+‡Major, Medical Service Corps, US Army; Sustainment Branch, Concepts and Capabilities Division, Health Readiness Center of Excellence, Capability 
+Development Integration Directorate, Joint Base San Antonio-Fort Sam Houston, Texas
+206
+Fundamentals of Military Medicine
+INTRODUCTION
+Scenario: You recently completed your graduate medical 
+education training following medical school and have been 
+assigned as the medical officer in a ground combat unit. You 
+joined your unit 30 days before it deployed to the theater 
+of operation almost 2 months ago. Your unit has been in 
+theater for 45 days and has been assigned its first combat 
+mission to establish control of a town that has been used by 
+the enemy as a safe haven and for smuggling operations. 
+Your commander calls together the unit staff and provides 
+some initial planning guidance. As the medical officer, it is 
+your responsibility to work with the staff and develop the 
+health service support (HSS) plan for the upcoming mission. 
+How do you undertake this planning?
+Providing an answer to this important question, 
+this chapter will begin the process by which a new 
+military medical officer (MMO) can achieve success by 
+protecting and caring for those entrusted to them on 
+operational missions, such as the one described above, 
+or others across a full—and often unpredictable—spectrum of military and unified operations with a health 
+and healthcare support element. It will begin with an 
+overview of military HSS by explaining the overall 
+mission and composition of the Military Health System 
+(MHS); the overall HSS mission as outlined in joint 
+and service doctrine1–6; and the multiple roles of an 
+MMO within an operational unit. The chapter will then 
+further discuss HSS principles, joint medical capabilities, the separate roles of care, and the different forms 
+of en route care delivery. Finally, a notional medical 
+laydown in schematic form for a joint operations area 
+(JOA) is depicted to provide an understanding of how 
+medical unit and responsibilities fit within the larger 
+operational context.
+The principles of HSS and the associated joint medical capabilities are modified and adapted according to 
+the particular military operation, geographic and environmental conditions, nature of the enemy, service association for the main operational effort and command (ie, 
+Army, Navy, Marine Corps, Air Force, or interagency or 
+coalition operations). By the conclusion of this chapter, 
+an MMO should have comprehensive understanding of 
+the flexibility, breadth, and depth of HSS.
+THE MILITARY HEALTH SYSTEM
+When an MMO is assigned to a ground combat unit 
+(coalition and joint, joint, Army, Marine, or Special 
+Operations), their focus is at a tactical level. That is to 
+say, the MMO and their fellow uniformed health protection and healthcare professionals will be designing 
+a support plan for the sustainment of health, illness 
+management, and injury or combat casualty care for a 
+discrete number of warrior combatants, usually under 
+1,000. The plan will involve a single operation limited 
+in time and space to the objective and responsive to the 
+enemy’s actions. The MMO will begin by developing 
+a solid understanding of the operational environment, 
+the health threats and risks associated with the environment, and the medical capabilities supporting the 
+mission. But before considering this specific plan, it 
+is instructive to have a broader understanding of the 
+MHS and what resources are available to the MMO. 7 
+In many ways, the planning for this operation began 
+much earlier and much farther away from the deployed location.
+The MHS is a global, comprehensive, integrated 
+system composed of deployed combat and noncombat 
+(humanitarian relief, disaster management, national 
+event response) contingency medical services; peacetime healthcare delivery; public health services; health 
+education and training; medical materiel development 
+and medical logistics; and biomedical research and 
+development (see “This Is the Military Health System” video in Resources, below). The MHS, which 
+includes the services’ medical capabilities, provides a 
+continuum of health services from austere operational 
+environments through remote, fixed medical treatment facilities to major tertiary care medical centers 
+distributed across the continental United States (CONUS). The MHS supports the operational mission by 
+fostering, protecting, sustaining, and restoring health. 
+All efforts, whether direct preventive services and care 
+delivered to the warfighter in the Army, Navy, Air 
+Force, Marine Corps, or Coast Guard, or care provided 
+to the families of these uniformed personnel or the 
+extended military family of retirees and their families, 
+are aimed at enhancing the fundamental goal of the 
+US military to defend the nation through readiness to 
+engage threats to national security at home and abroad. 
+Although closely partnered with other federal 
+health agencies, the MHS is funded, organized, resourced (staffed and equipped), and controlled 
+separately from other executive branch agencies such 
+as the Department of Veterans Affairs, Department 
+of Homeland Security, Department of Health and 
+Human Services, National Institutes of Health, and 
+Centers for Disease Control and Prevention.
+The joint medical capabilities of the MHS are 
+grouped under two functional areas: protection and 
+sustainment. Protection is the preservation of the effectiveness and survivability of mission-related military 
+and nonmilitary personnel, equipment, facilities, information, and infrastructure deployed or located within 
+207
+Introduction to Health Service Support
+or outside the boundaries of a given operational area. 
+Force health protection measures promote, improve, 
+or conserve the behavioral and physical well-being 
+of service members to enable a healthy and fit force, 
+prevent injury and illness, and protect the force from 
+health hazards. These measures or actions enable 
+commanders to deploy a medically ready force to the 
+operational environment and protect the force during 
+deployment. 
+Sustainment encompasses the provision of logistics 
+and personnel services, including the health services 
+required to maintain and prolong operations until 
+the mission is successfully completed. HSS is the 
+operationalization of these critical protection and 
+sustainment processes, that is, all support and services performed, provided, or arranged to promote, 
+improve, conserve, or restore the mental or physical 
+well-being of personnel. HSS is the organized system 
+of the military’s medical capabilities and resources 
+designed to deliver healthcare to the force while in the 
+operational environment. 
+The Health Service Support Mission 
+The key elements of HSS are codified for the entire 
+MHS and the military medical force in the Joint Publication 4-02, Healthcare Service Support. 2 This “Joint 
+Pub” reinforces the concepts described above, defining 
+health service support as: 
+All services performed, provided, or arranged to 
+promote, improve, conserve, or restore the mental or 
+physical well-being of personnel, which include, but 
+are not limited to, the management of health services 
+resources, such as manpower, monies, and facilities; 
+preventive and curative health measures; evacuation of the wounded, injured, or sick; selection of the 
+medically fit and disposition of the medically unfit; 
+blood management; medical supply, equipment, and 
+maintenance thereof; combat and operational stress 
+control; and medical, dental, veterinary, laboratory, 
+optometric, nutrition therapy, and medical intelligence services. 2
+The HSS mission includes casualty management,8–15 
+patient movement,16–20 medical logistics, and health 
+information management. In outlining the capabilities within HSS, Joint Pub 4-02 recognizes the volatile, complex, and ambiguous nature of 21st century 
+armed conflict and health crises. Accordingly, the HSS 
+mission supports various operational environments, 
+including: 
+ 
+• combat operations;
+ 
+• stability and civil-military operations;
+ 
+• defense support to civil authorities;
+ 
+• limited contingency/civil response;
+ 
+• multinational operations;
+ 
+• Special Operations missions;
+ 
+• operations involving chemical, biological, 
+radiological, nuclear, or explosive weapons; 
+and 
+ 
+• contractor support. 21–23
+The Role of the Medical Officer on the Command 
+Staff 
+Each service organizes the command staff a little 
+differently, but the primary duties of any staff are 
+typically the same: supporting the commander; assisting subordinate commanders, staffs, and units; 
+and informing units and organizations outside the 
+headquarters or immediate circle of the commander 
+and the commander’s staff. The command staff typically consists of three staff sections: the coordinating 
+staff, special staff, and personal staff. The coordinating 
+staff functions are comprised of manpower and personnel, intelligence, operations, logistics, plans, and 
+communications. These staff positions are usually 
+identified by a shorthand alphanumeric designation 
+of the numbers 1 through 9, with a prefix derived from 
+the service. Army and Marine Corps units commanded 
+by general officers are designated with a “G,” while 
+staffs commanded by other commanders, typically 
+colonels and lieutenant colonels, are designated by 
+an “S.” US Air Force staffs are designated by an “A,” 
+and Navy staffs are designated by an “N,” regardless 
+of whether they are commanded by a general officer. 
+For example, Army battalion personnel functions are 
+designated as “S-1,” intelligence as “S-2,” operations 
+as “S-3,” sustainment as “S-4,” and so on. 
+A special staff officer assists the commander, staff, 
+and subordinate units with administrative, technical, or tactical expertise. A personal staff officer has 
+a unique relationship with the commander, working 
+directly under the immediate control of, and with 
+direct access to, the commander. A medical officer 
+assigned to a command staff could be designated as 
+either a personal or special staff officer, depending on 
+the commander. 
+Although there are variations at each command 
+level, all military medical staff officers have similar 
+duties and responsibilities, which focus on the health 
+and readiness of the command, health and medical training, 
+planning, force health protection, and HSS. Although 
+an MMO may never participate in a combat patrol 
+or flying mission, they have a critical role in the accomplishment of those missions: ensuring service 
+members are healthy and fit to conduct the mission 
+(“medically ready”); that unit medical and nonmedical personnel are trained to apply and administer 
+208
+Fundamentals of Military Medicine
+lifesaving first aid; and that a viable, integrated 
+medical concept of support addressing all key medical functional areas through all appropriate roles of 
+care is planned, trained, and rehearsed in support of 
+the mission. 
+An MMO’s success as a staff officer hinges on their 
+relationship with the commander, fellow staff officers 
+and noncommissioned officers, and subordinates. 
+Duties are not restricted to day-to-day troop care. 
+MMOs must get out of the clinic, participate in unit 
+physical training, and attend social events. Success is 
+couched in willingness to be a team player; MMOs 
+should be willing to do any job asked of them by the 
+command (“not my job” should never be part of their 
+lexicon). MMOs must do their homework, finding 
+out everything they can about the unit—its mission, 
+organization, equipment, and operating procedures. 
+MMOs must be involved in the decision-making 
+process and provide realistic advice and opinions, not 
+just information. They must anticipate and forecast 
+problems, apply critical thinking to the situation, 
+and be prepared with viable solutions. For example, 
+monitoring medical operations over the radio, the 
+MMO might hear that the supporting forward surgical 
+team is overwhelmed with patients just as the unit is 
+preparing to conduct a raid. The MMO should alert the 
+commander of the risks of the impending operation 
+in the event a service member needs forward surgical 
+intervention. 
+MMOs must also be prepared to lead. An MMO on 
+the command staff not only advises the commander 
+and assists the staff in all medical areas, but also will 
+most likely have the added responsibility of leading 
+a staff section, such as a command surgeon section or 
+cell, or a medical platoon, element, or department; in 
+some cases they may command a medical organization. The MMO will wear many hats and be expected 
+to do all of them well; the service members of the 
+organization are depending on it.
+Lastly, the MMO must realize that they are not 
+alone on the staff; the other staff officers and members 
+of the team are there to help. Many times the MMO 
+will work under the primary staff officer for logistics 
+or sustainment during mission planning and provision of organizational support. Some commanders 
+may request that the MMO work through the unit 
+deputy commander or executive officer, or keep them 
+informed of issues. Working on a staff can be a balancing act; it takes time and effort on the MMO’s part to 
+develop working relationships and figure out the unit’s 
+unique, informal “rules of engagement.” Through it 
+all, the MMO has the responsibility to provide the 
+best medical advice to the commander, staff, and 
+subordinate units. 
+HEALTH SERVICE SUPPORT PRINCIPLES
+The MMO’s ability to provide effective healthcare 
+begins with an understanding of how to integrate 
+six basic doctrinal principles, regardless of the setting (whether in a tactical field environment or in 
+the traditional “brick and mortar” military medical 
+treatment facility [MTF]). As stated in the Prehospital 
+Trauma Life Support manual, “principles are those 
+things that must be present, accomplished or ensured 
+by the health care provider in order to optimize patient 
+survival and outcome.”24 The principles, which should 
+be considered in all elements of critical thinking and 
+planning, are: 
+ 
+1. Conformity. Support the commander’s plan. 
+ 
+2. Continuity. Progressive, phased roles of care.
+ 
+3. Proximity. Right place, right time.
+ 
+4. Mobility. Keep up with the forces.
+ 
+5. Control. Orchestrate medical resources.
+ 
+6. Flexibility. Meet changing requirements.
+Each of these six doctrinal principles requires an 
+understanding of their constituent elements. For 
+example, the principle of continuity requires that the 
+MMO understands the different roles of care, and 
+the service-specific capabilities and facilities within 
+each role. To support continuity, the MMO must also 
+understand how patients are moved from one role of 
+care to the next, through ground, maritime surface, and 
+aerial evacuation, and what en route care is available 
+with each mode of transportation. The six principles 
+are discussed in detail below. 
+Conformity
+It is imperative that the HSS plan conforms to the 
+commander’s tactical and operational plan (Exhibit 
+14-1). The MMO must have a solid understanding of 
+the unit’s mission, and how health services can best 
+support mission accomplishment. For the MMO, this 
+begins even before the unit is assigned the mission; 
+as discussed above, MMOs must have a proactive 
+working relationship with fellow unit staff officers 
+and access to the commander. Once the mission is 
+assigned, the MMO must be involved in the earliest 
+stages of planning. Early involvement helps ensure 
+that the HSS plan will conform to the tactical plan; early 
+involvement gives the MMO the greatest chance to 
+provide medical influence in the planning; and early 
+209
+Introduction to Health Service Support
+EXHIBIT 14-1
+THE CONFORMITY PRINCIPLE IN ACTION: THE DANGERS OF FAILING TO SYNCHRONIZE 
+THE MEDICAL PLAN WITH THE OPERATIONAL PLAN 
+The U.S. Invasion of Grenada. On 21 October 1983, with the designation of Commander Joint Task Force 120, 
+intensive operational planning was begun for Operation URGENT FURY. However, no combat support planners, including medical representatives, were invited to participate. Consequently, no estimate of logistical 
+supportability was completed prior to execution, and the required medical support system did not develop. 
+The short lead time and the absence of a designated task force surgeon to coordinate medical services at the 
+joint level left each service to plan medical support within the scope of its own organic assets, with little or no 
+joint coordination of such activities as casualty care management, whole blood procurement, and aeromedical 
+evacuation. Erroneous assumptions may have been made as well. For example, the commander of the 82nd Airborne Division was informed that two amphibious ships, United States Ship (USS) Guam (LPH 9) and Trenton 
+(LPD 14), which were in the vicinity of Grenada, could provide significant medical and surgical support. The 
+record is unclear, but this inaccurate information may have been responsible for his ultimate decision to keep 
+Army medical support to a minimum. 
+The hostilities lasted ninety-six hours—123 casualties and eighteen deaths were recorded—and brought 
+combat wounded to both Guam and Trenton. No significant or sustainable tactical medical asset was established within the combat zone during the hostilities, nor were there triage facilities ashore. Without trained and 
+experienced triage corpsmen or officers, casualties were not sent in an orderly and logical flow to the proper 
+receiving facilities. There were no established medical communication nets between the Army and Navy, let 
+alone with Trenton and Guam; Army helicopter pilots, unfamiliar with the Navy ships and their silhouettes, 
+brought casualties to whichever flight deck was most convenient. On several occasions the better-equipped 
+Guam was overwhelmed with both minor and lower-priority delayed casualties, while Trenton, which had 
+no surgical capability, laboratory, or blood bank, was sent critical casualties. In essence, medical assets were 
+squandered and overutilized simultaneously. 
+Reproduced from: Smith AM, Bohman HR. Medical command and control in sea-based operations. Naval War College Rev. 
+2006;59(3):53–71.
+involvement ensures synchronization of medical forces. 
+Lastly, once the HSS plan is developed, it should be 
+rehearsed with the personnel who must execute it, as 
+well as with those the plan will support. 
+To begin the HSS plan, the MMO, working with the 
+staff, should review any plans and orders, including accompanying annexes and appendices. Orders, whether 
+verbal or written, are used to communicate directives 
+from the superior to the subordinate command. Orders 
+convey the situation, mission, execution, administration and logistics (or sustainment), and command and 
+control (or signal) for a specific operation. For example, 
+in joint, Navy, Marine Corps, and Air Force plans and 
+orders, specific HSS planning data can be found in the 
+administration and logistics paragraph of the base plan 
+or order, as well as annexes—Annex C: Operations 
+(Force Protection); Annex D: Logistics/Combat Service 
+Support; and Annex Q: Medical Services. In Army 
+plans and orders, HSS information can be found in 
+the sustainment paragraph of the base plan or order; 
+in Annex E: Protection; and in Appendix 3 of Annex 
+F: Sustainment. Although HSS information is located 
+in these key areas, the MMO should review the entire 
+plan for specific HSS planning data and tasks.
+Continuity
+As the MMO begins developing the HSS plan, they 
+should analyze the medical capabilities from point of 
+injury (POI) or wounding to CONUS-based healthcare; 
+in other words, the MMO should look for a system of 
+continuity of care. Five overarching joint medical capabilities build this continuum: 
+ 
+1. first responder care, 
+ 
+2. forward resuscitative care, 
+ 
+3. theater hospitalization, 
+ 
+4. definitive care, and 
+ 
+5. en route care. 
+Corresponding to these five capabilities are specific 
+roles or functions referred to as roles of care (previously 
+referred to as “levels” or “echelons” of care, these terms 
+have been replaced in joint and coalition parlance to 
+“roles of care”). The following is an explanation of the 
+joint medical capabilities and corresponding role of 
+care. It is important to understand that, as the patient 
+progresses through the roles of care, each role possess 
+those capabilities and resources found at the lower role; 
+210
+Fundamentals of Military Medicine
+that is, Role 2 includes the capabilities and resources 
+found at Role 1 in addition to the enhanced capabilities 
+and resources required for Role 2.
+First responder care capability, sometimes referred 
+to as unit-level care, is defined by time requirements 
+and can be divided into three categories: self-aid or 
+buddy aid, emergent care, and primary care. The purpose of first responder care is to provide immediate 
+care, stabilize the patient, and prepare the patient for 
+evacuation to next role of care. Emergent care includes 
+hemorrhage control; airway management; intravenous 
+access and therapy; oral and intramuscular medications; initial management of penetrating eye injuries, 
+fractures, burns, and thoracic trauma (including needle 
+and tube thoracotomy); electronic vital sign monitoring; and en route care. Primary care includes physical 
+exams, health screening, and treatment of common 
+illnesses and minor injuries. Tactical Combat Casualty 
+Care (TCCC) procedures are consistent with the first 
+responder care capability. 
+Organizations and capabilities that are limited to 
+first responder care, primary care, and emergent care 
+capability are typically designated as Role 1. Examples 
+include self-aid/buddy-aid, combat lifesavers, medics, 
+corpsmen, and independent duty medical technicians; 
+Army medical platoons, medical company treatment 
+squads, and ambulance crews; Marine Corps medical platoons, shock trauma platoons, and ambulance 
+crews; Air Force squadron medical elements; and 
+Navy destroyer, cruiser, frigate, and submarine medical departments. Combat lifesavers are nonmedical 
+personnel who have been designated by the command 
+to receive additional medical training beyond basic 
+first aid. This is an additional duty and does not substitute for the service member’s primary duties. The 
+standard is typically one combat lifesaver per crew, 
+squad, team, or equivalent size unit. 
+A Role 1 tactics, techniques, and procedures (TTP) 
+example is as follows: the medical platoon of a maneuver battalion operates what is commonly known as the 
+battalion aid station (BAS). The medical platoon has 
+the ability to split into two treatment teams that can 
+operate for a limited time in split-based operations for 
+close-in support of the maneuver battalion or when the 
+BAS must move to a new location.
+Forward resuscitative care capability is defined as 
+advanced emergency medical treatment performed 
+as close to POI as possible; this capability includes 
+lifesaving and limb-saving surgical interventions, 
+sometimes referred to as “salvage surgical procedures” 
+or “damage control resuscitation.” The purpose of 
+forward resuscitative care is to provide stabilization to 
+achieve the most efficient use of lifesaving and limbsaving treatment. Organizations and capabilities that 
+are limited to forward resuscitative care (in addition 
+to Role 1 first responder, primary, and emergent care), 
+are typically designated as Role 2. Role 2 capabilities 
+also include laboratory facilities, radiography, limited 
+patient holding, operational dental care, blood products, preventive medicine support, and behavioral 
+mental health. Examples of Role 2 medical treatment 
+facilities are as follows:
+ 
+• Army brigade support medical company. 
+ 
+• Army medical company (area support). 
+ 
+• Marine Corps medical battalion (surgical 
+company).
+ 
+• Air Force expeditionary medical support 
+(health response team). 
+ 
+• Air Force expeditionary medical support 
+(EMEDS) 10-beds facility.
+ 
+• Navy aircraft carriers (CVN) and amphibious 
+assault ships (LHD) have a Role 2 capability 
+aboard. 
+Another example is the Army forward surgical team 
+(however, a 2017 force design update is transitioning the forward surgical team to a new organization 
+called the “forward resuscitative and surgical medical 
+team”). 
+A Role 2 TTP example is the following: the Marine Corps surgical company is designed to support 
+regimental-size operations. The company provides 
+resuscitative surgery, medical treatment, temporary 
+holding, and casualty preparation and evacuation. 
+The surgical company consists of a headquarters sections and four surgical platoons. Each surgical platoon 
+consists of one forward resuscitative surgery system 
+(FRSS), one shock trauma platoon, one radiograph 
+unit, one ward, one en route care system (ERCS), one 
+ambulance section (consisting of two vehicles), and an 
+attached dental platoon. The surgical company should 
+be located in close proximity to an airfield capable of 
+casualty evacuation by rotary- or fixed-wing aircraft. 
+The FRSS may be reinforced with a shock trauma 
+platoon to provide an early far-forward resuscitative 
+surgery capability.
+Theater hospitalization care capability provides 
+a full range of healthcare services, including primary 
+inpatient and outpatient care; emergent care; and enhanced medical, surgical, and ancillary capabilities. 
+Theater hospitalization care is focused on either returning the patient to duty (within the theater evacuation 
+policy) or stabilizing the patient for continued evacuation to a definitive care facility. Organizations and 
+capabilities that are typically associated with theater 
+hospitalization care capability are designated as Role 
+3. Examples include:
+211
+Introduction to Health Service Support
+ 
+• Army combat support hospital. 
+ 
+• Air Force EMEDS (+25 beds). 
+ 
+• Air Force theater hospital. 
+ 
+• Navy hospital ship (T-AH). 
+ 
+• Navy expeditionary medical facility. 
+(Note that as with the forward surgical team, the 
+combat support hospital will be transitioned to a 
+modular field hospital system of components capable 
+of expanding from 32 to 240 beds, per the 2017 force 
+design update.) The Marine Corps does not possess a 
+Role 3 capability and relies on sister services for Role 
+3 support.
+A Role 3 TTP example follows: Air Force EMEDS 
+and theater hospital packages provide treatment 
+and holding bed capacity and theater-level medical 
+services for deployed forces or specific population 
+groups. Their primary mission is to provide forward 
+stabilization, resuscitative care, primary care, dental 
+services, and force health protection, and to prepare 
+casualties for evacuation to the next role of care. The 
+modular and scalable design of these packages allows 
+the Air Force to deploy medical capabilities ranging 
+from small teams that provide highly skilled medical care for a limited number of casualties to a large 
+medical system that can provide specialized care to a 
+population at risk of over 6,500. EMEDS capabilities are 
+grouped into distinct medical support packages that 
+provide an incremental buildup of capability: EMEDS 
+health response team, EMEDS +10, and EMEDS +25. 
+The Air Force theater hospital is built by adding medical specialty and augmentation unit type codes to an 
+EMEDS +25 foundation. 
+Definitive care capability includes the full range 
+of acute, convalescent, restorative, and rehabilitative 
+care facilities outside the theater of operations. Definitive care capability is care rendered to definitively 
+manage a patient’s condition, which leads to recovery 
+and rehabilitation, followed by either return to duty, 
+or discharge from the service followed by transition 
+to the services of the Department of Veterans Affairs. 
+Definitive care capability is available both outside the 
+continental United States (OCONUS) and in CONUS. 
+Organizations and capabilities that are typically associated with definitive care capability are designated as 
+Role 4. Examples include Landstuhl Regional Medical 
+Center, located in Germany; Navy Medical Center San 
+Diego; and Walter Reed National Military Medical 
+Center in Bethesda, Maryland. 
+En route care capability involves transitory medical 
+care, patient holding, and staging capabilities during 
+transport from the POI, wounding, or illness through 
+successive roles of medical care, to a medical facility 
+that can meet the needs of the patient. Patients are 
+moved via a patient movement system, which includes 
+surface, ground, and air medical and nonmedical platforms, and the regulating of patients to the appropriate 
+medical facility. En route care is typically designated as 
+Role 1. The purpose of en route care is the continuation 
+of care during movement from first responder care to 
+definitive care without clinically compromising the 
+patient. En route care involves determining how stable 
+a patient is. There are three categories of stability: 
+ 
+1. A stable patient is expected to withstand a 
+12-hour intratheater evacuation or a 48-hour 
+intertheater evacuation under en route standards of care. 
+ 
+2. A stabilized patient is characterized by a 
+secure airway, controlled or absence of 
+hemorrhage, adequately treated shock, and 
+immobilized major factures. This patient may 
+require emergency medical intervention, but 
+not surgical intervention, during evacuation. 
+ 
+3. An unstable patient is one whose physiological status is in fluctuation, and emergent 
+treatment, surgical intervention, or both are 
+anticipated during the evacuation. 
+En route care capability can take three forms: 
+casualty evacuation (CASEVAC), medical evacuation (MEDEVAC), and aeromedical evacuation (AE). 
+MEDEVAC and AE are coordinated and regulated 
+by the medical system; CASEVAC is not. CASEVAC 
+refers to the unregulated movement of casualties via 
+nonmedical maritime surface, ground, or air platforms, typically without onboard en route medical 
+care. Because these platforms are unregulated, meaning the evacuation mission has not been coordinated 
+by or with the medical community and is technically 
+operating outside the casualty management system, 
+casualties might not be transported to the appropriate medical facility for the care needed. CASEVAC 
+missions are often generated from an opportune of 
+lift asset, referring to the practice of repurposing a 
+transportation asset once that asset has completed 
+its primary mission. For example, a soldier working 
+at a remote forward operating base (FOB) has his 
+foot crushed by a tactical vehicle. The FOB has Role 
+1 capability, a unit-level first responder, but this patient needs at least a Role 2 capability. A helicopter 
+just offloaded supplies to the FOB. In this scenario, 
+the helicopter provides an opportunity to evacuate 
+the casualty to a medical facility that can meet the 
+casualty’s medical needs. 
+In contrast, MEDEVAC refers to the regulated 
+movement of casualties via designated or dedicated 
+maritime surface, ground, or air platforms. These 
+212
+Fundamentals of Military Medicine
+platforms have an en route care capability aboard, 
+and the patient’s movement has been coordinated to 
+match medical needs with facility capabilities. Designated platforms are those with a nonmedical primary 
+mission, but that have been selected to provide patient 
+movement for a specific time or event. Dedicated 
+platforms are specifically designed or configured and 
+equipped to conduct MEDEVAC, their primary mission. They are externally marked with the Red Cross, 
+and the crews are specifically trained to conduct the 
+MEDEVAC mission. All the services have dedicated 
+ground ambulances; only the Army has dedicated 
+MEDEVAC aircraft. (Note: The Committee on TCCC 
+uses the term tactical evacuation, or TACEVAC, to 
+identify the movement of a casualty by either CASEVAC or MEDEVAC from the POI to a Role 2 or 3 
+MTF. 24) 
+Different approaches to medical care and evacuation are always evolving in response to emerging 
+challenges in the operational environment. A en route 
+care TTP example is as follows: The Marine Corps has 
+recently developed the ERCS as a means to bridge 
+evacuation between forward resuscitative care and 
+theater hospitalization. The ERCS is a modular system 
+designed to provide equipment and supplies for the 
+care of two critically injured or ill but stabilized casualties for up to a 2-hour MEDEVAC flight onboard 
+Marine Corps aircraft.
+AE refers to the Air Force system of regulated 
+intratheater or intertheater movement of casualties 
+between MTFs. AE is typically accomplished via fixedwing assets with onboard en route care provided by 
+critical care air transport teams (CCATTs). Note: These 
+fixed-wing platforms are not dedicated platforms, but 
+designated to conduct specific AE missions. (Refer 
+to Annex A to Appendix B of Joint Pub 4-02, Healthcare Service Support, and AFTTP 3-42. 5, Aeromedical 
+EXHIBIT 14-2
+THE MOBILITY PRINCIPLE IN ACTION 
+So medics can go where the warfighters go, 
+Mine-Resistant, Ambush-Protected (MRAP) 
+ambulances [were] used in Iraq and Afghanistan. . . . with fighting forces deploying these 
+new vehicles, the need for an ambulance that 
+could accompany them with similar protection 
+was evident. Over nine months in 2007 a modified MRAP for ambulance duty was designed, 
+developed, tested and produced. 
+Reproduced from: MRAP ambulances provide protection, 
+“rolling ERs.” US Army website. http://www.army.mil/
+article/15552/. Published January 5, 2009. Accessed July 1, 2018.
+EXHIBIT 14-3
+THE CONTROL PRINCIPLE IN ACTION 
+For combat operations in Iraq, the CFLCC [Coalition Forces Land Component Commander] staff was expanded with soldiers, marines, airmen, and allied officers and troops. Shortly after assuming command, [Lt. Gen. 
+David] McKiernan welcomed Brig. Gen. George Weightman, Medical Corps (MC), aboard as his (first ever) 
+CFLCC Command Surgeon. Almost immediately, Weightman deployed forward to Kuwait to serve in that 
+capacity and also as the commander of the 3d MEDCOM [Medical Command] (Forward). Per Joint Publication 
+4-02, he was responsible for the planning and execution of the medical support for the operation for that much 
+larger patient base that Joint Publication 4-02 defined. He discovered that the initial plan, Operations Plan 
+1003V, needed substantial updating and modification as actual combat operations were considered. 
+Weightman noticed that the I MEF [Marine Expeditionary Force] did not have any MEDEVAC capability 
+and requested augmentation for that purpose. As the CFLCC Surgeon, he had to find the capability for that 
+force. Initial planning called for five MEDEVAC units to deploy to support the operation. He resolved to assign 
+one to directly support the I MEF when the units arrived (it was one of more than 40 U.S. Army units of varying 
+sizes that augmented the I MEF). As he requested necessary medical support units to deploy to the theater, he 
+noticed that the Secretary of Defense was delaying his requests. This was a deliberate action because Secretary 
+Donald Rumsfeld wanted to push combat units into the theater first, assuming that a campaign quickly initiated and conducted yielded fewer casualties and required less support. However, Weightman continuously 
+pushed to bring his medical units forward.
+Reproduced from: Whitcomb D. Call Sign – DUSTOFF: A History of U.S. Army Aeromedical Evacuation from Conception to Hurricane 
+Katrina. Ft Detrick, MD: Borden Institute; 2012: 255.
+213
+Introduction to Health Service Support
+Evacuation (AE), for a detailed discussion on AE. 
+For a complete discussion on the patient movement 
+system refer to Appendix B of Joint Pub 4-02. For a 
+summation of the joint medical capabilities and roles 
+of care, refer to Joint Pub 4-02. Publications are listed 
+in Resources, below.) 
+Proximity 
+Tied closely to the principle of continuity are the 
+principles of proximity and mobility. Whereas continuity strives for a seamless continuum of care, proximity 
+ensures that access to care is timely and appropriate 
+by striking a balance between positioning care as close 
+to the supported unit as possible, without jeopardizing the tactical plan or patient care, or overexposing 
+the medical asset to operational risks. The tactical 
+and enemy situation, the ability to provide command 
+and control, operational factors such as evacuation 
+time and distance, and the availability of evacuation 
+resources all play key roles in determining exactly how 
+“proximate” care should be located.
+Mobility
+As maneuver units move away from their base of 
+medical support, the lines of evacuation extend and the 
+time to care increases. The principle of mobility (Exhibit 
+14-2) ensures that medical elements and units have the 
+ability to move personnel and equipment and maintain 
+supportable distances to the maneuver units. Mobility also ensures that medical elements and units are 
+afforded similar sustainment and survivability protection as that of the maneuver units they are supporting. 
+The services have designed most, if not all, Role 1 and 
+2 MTFs with the mobility principle in mind, providing 
+internal assets to move personnel and equipment, as 
+well as assigning similar or identical treatment and 
+evacuation platforms to those used in the supported 
+maneuver units (eg, an M1126 Stryker combat vehicle 
+unit supported by M1133 Stryker MEDEVAC vehicles 
+at the Role 1 and 2 MTFs). Although unit design can 
+provide the capability to move and ensure protection, 
+an effective and efficient evacuation system to rapidly 
+move patients to the next role of care is paramount 
+to maintaining mobility, specifically for Role 1 and 2 
+MTFs. Carrying a patient “forward” ties up transportation assets that would otherwise be used to move unit 
+personnel or equipment, and potentially jeopardizes 
+the patient’s medical condition. 
+Control
+The principle of control (Exhibit 14-3) ensures 
+medical commanders and command surgeons have 
+the authority to tailor and position scarce medical assets where the need is the greatest. Control implies the 
+ability to effectively communicate with medical assets. 
+It also ensures that the scope and quality of medical 
+treatment meet professional standards, policies, and 
+US and international law. 
+Flexibility
+The principle of flexibility ensures that medical 
+elements and units are prepared and empowered to 
+shift medical resources to meet medical demands and 
+patient density across their area of operations. 
+A REPRESENTATIVE MEDICAL LAYDOWN IN A JOINT OPERATIONS AREA
+Figure 14-1 depicts a representative (notional) mature medical footprint of the joint medical capabilities 
+and the distribution of the roles of care across a JOA. 
+The scenario is a general overview of treatment and 
+evacuation capabilities from POI to Role 4. It helps 
+show how an MMO for a deployed combat battalion 
+or equivalent ground force would work within the 
+overarching medical plan for the entire theater. The 
+MMO primarily manages wounds, injuries, and illnesses at the unit level and at the point of combat 
+wounding or injury. The combat battalion and its 
+medical capabilities are restricted to first responder/
+Role 1 (unit level) activities to throughout the discontinuous battle space. 
+The diagram does not depict medical infrastructure 
+such as medical command and control, dental, preventive medicine, logistics, laboratory, evacuation, and 
+veterinary units that would be deployed within the 
+JOA. Many of these types of units would be deployed 
+along with either Role 2 and 3 MTFs or in the Role 2 
+or 3 operational areas. 
+The scenario is notional, although it is described 
+from the doctrinal perspective. Doctrine provides a 
+frame of reference which can be modified as the situation dictates. (The reader should refer to the services’ 
+publications for greater detail on the HSS system, 
+many of which are listed in Resources, below. Each 
+service component develops its medical resources to 
+support its service-specific mission, which results in 
+the development of different types of organizations 
+with varying levels of capability, mobility, and survivability. Although joint medical resources may have 
+similar nomenclature to describe the unit, they are not 
+usually interchangeable.)
+214
+Fundamentals of Military Medicine
+Figure 14-1. Notional medical footprint, point of injury to Role 4.
+NOTIONAL MEDICAL FOOTPRINT
+ACP Ambulance Control Point
+ALP Ambulance Load Point
+ARP Ambulance Relay Point
+AXP Ambulance Exchange Point
+BAS Battalion Aid Station
+BES Beach Evacuation Station
+CASF Contingency Aeromedical Staging Facility
+CCP Casualty Collection Point
+CONUS Continental United States
+CVN Aircraft Carrier (Nuclear) 
+DD Destroyer
+EMEDS Expeditionary Medical Support
+FF Frigate
+H Helicopter Landing Pad
+LCAC Landing Craft Air Cushion
+LHD Landing Helicopter Dock
+MTF Medical Treatment Facility
+OBJ Objective
+OCONUS Outside Continental United States
+POI Point of Injury
+R1/2/3 Roles 1/2/3
+SS Attack Submarine
+SURG Surgical
+T-AH Hospital Ship
+TMT Treatment
+ROLE 2 MTFs
+USA Brigade Support Medical Company
+USA Medical Company (Area Support)
+USAF EMEDS (Health Response Team)
+USAF EMEDS +10 Beds
+USMC Surgical Company
+USN Carrier & USN LHD have R2 
+capabilities
+ROLE 3 MTFs
+USA Combat Support 
+Hospital
+USAF EMEDS + 25 
+Beds
+USAF Theater Hospital
+USN Hospital Ship
+USMC relies on sister 
+services
+ROLE MTFs
+BAS
+BAS
+BAS
+BAS
+Corpsman
+Corpsman
+Medic
+OBJ
+LION
+OBJ
+TIGER
+AMBULANCE SHUTTLE SYSTEM
+Rearward
+Forward
+Corps Asset
+Corps Asset
+REAR SUPPORT 
+AREA
+DD-R1-Capability
+T-AH-R3 Capability
+LHD-R2 Capability
+Theater Hospitalization/R3
+Forward Resuscitative/R2
+First Responder/R1 (Unit Level)
+Theater Hospitalization/R3
+Forward Resuscitative/R2
+First Responder/R1 (Unit Level)
+CASF
+Role 3
+MTF
+US
+Airbase
+Role 1
+MTF
+Role 1
+MTF
+ABBREVIATIONS/ ACRONYMS
+Role 3
+AUGMENTATION
+Role 2/3
+AUGMENTATION
+Role 2
+TMT
+AUGMENTATION
+Role 2
+MTF
+Role 1
+TMT Team
+SPLIT OPS
+CASEVAC
+(Opportune of Lift)
+Role 1
+MTF
+Role 2
+MTF
+Ambulance Exchange 
+Point Operations
+CONUS/ OCONUS
+Corps or Division Area
+Brigade/Group
+Support Area
+Battalion
+Combat Trains
+Company 
+Combat Trains
+Role 2
+MTF
+Role 1
+MTF
+Role 1
+MTF
+ARPARP
+ALP
+ALP
+ACP
+5
+2
+4
+US Fighter 
+Base
+8
+1
+3
+4
+5
+6
+7
+9
+10
+215
+Introduction to Health Service Support
+On the far right of the notional medical footprint is 
+a ground combat battalion conducting an assault on 
+“Objective Lion” (Figure 14-2). The unit has a Role 1 
+medical capability and armored ground ambulances 
+for ground evacuation. As combat units conduct the 
+assault, combat lifesavers and medics/corpsmen assigned to the combat units will provide first responder 
+care at the POI (in addition to self-aid/buddy aid). 
+Casualties are evacuated from the POI to a casualty 
+collection point (CCP). Movement from the POI to 
+the CCP is by any means possible—buddy carries, 
+drags, litter carries, walking wounded, or vehicles of 
+opportunity (CASEVAC). CCPs might not be staffed, 
+but they often have a senior medic/corpsman who 
+performs triage, treats casualties, and prepares them 
+for further evacuation to the unit aid station (Role 1 
+MTF). Casualties are evacuated from the CCP to the 
+aid station by any means possible, including ground 
+ambulances (MEDEVAC) if available; in this case armored ground ambulances. The call for a MEDEVAC 
+platform begins with a standardized 9-line MEDEVAC 
+request (Exhibit 14-4). Integrating medics/corpsmen 
+into the combat units and positioning the aid station 
+to provide responsive care to the maneuvering force 
+adheres to the principle of proximity.
+Recall that Role 1 is to provide immediate lifesaving measures or primary care services; Role 1 does 
+not have the ability to properly hold a patient. Also, 
+the Role 1 MTF must maintain its ability to move and 
+keep up with the maneuvering force—the principle 
+of mobility. (Another technique used to ensure both 
+proximity and mobility to the maneuver force is for 
+the battalion aid station to split into two treatment 
+teams and conduct split-based operations). At the aid 
+station, the casualty is seen by a physician or physician 
+EXHIBIT 14-4
+9-LINE MEDEVAC REQUEST 
+Line 1. Location of the pick-up site.
+Line 2. Radio frequency, call sign, and suffix.
+Line 3. Number of patients by precedence.
+A: Urgent
+B: Urgent surgical
+C: Priority
+D: Routine
+E: Convenience
+Line 4. Special equipment required. 
+A: None
+B: Hoist
+C: Extraction equipment
+D: Ventilator
+Line 5. Number of patients.
+A: Litter
+B: Ambulatory
+Line 6. Security at pick-up site.* 
+N: No enemy troops in area
+P: Possible enemy troops in area (approach with 
+caution)
+E: Enemy troops in area (approach with caution)
+X: Enemy troops in area (armed escort required)
+*In peacetime, list instead number and types of wounds, injuries, 
+and illnesses.
+Line 7. Method of marking pick-up site. 
+A: Panels
+B: Pyrotechnic signal
+C: Smoke signal
+D: None
+E: Other
+Line 8. Patient nationality and status. 
+A: US Military
+B: US Civilian
+C: Non-US Military
+D: Non-US Civilian
+E: Enemy Prisoner of War 
+Line 9. NBC contamination.*
+N: Nuclear
+B: Biological
+C: Chemical
+*In peacetime, instead provide terrain description of pickup site.
+Figure 14-2. Casualty movement and treatment, point of 
+injury to Role 1.
+assistant, sometime referred to as the battalion surgeon 
+(in some cases, a Nurse Corps officer may be assigned 
+as the battalion surgeon). The physician (or senior 
+healthcare provider) decides whether to evacuate the 
+patient to a higher role of care or return the patient to 
+duty. If the patient requires additional treatment, the 
+casualty must be evacuated to a Role 2 or higher. (Note: 
+216
+Fundamentals of Military Medicine
+typically a casualty is referred to as a “patient” once 
+the casualty has entered into the medical care system, 
+ie, a role of care MTF.) 
+Role 1 evacuation assets have responsibility for 
+evacuating casualties from areas forward of the Role 
+1 MTF and typically do not evacuate beyond the 
+Role 1 facility. This ensures the Role 1 evacuation assets remain forward to evacuate casualties from the 
+objective to the Role 1 MTF. Evacuation from Role 1 
+to Role 2 is the responsibility of the Role 2 MTF: the 
+higher role evacuates from the lower role. In the notional 
+footprint, the Role 2 MTF has a mix of armored track 
+and wheeled ambulances, and has prepositioned and 
+collocated the armored track ambulances forward, at 
+the Role 1 MTF (Figure 14-3). Again, this reinforces 
+the principle of mobility, as well as the concept that 
+medical units are afforded similar sustainment and 
+survivability protection to that of the maneuver units 
+they support. 
+A casualty at the Role 1 MTF requiring further 
+treatment is loaded onto a Role 2 ambulance (in this 
+case an armored track ambulance) for evacuation to 
+the Role 2 MTF. Armored ambulances afford good 
+crew and patient protection, but tend to be slower 
+than wheeled vehicles. In an effort to shorten evacuation time while still affording the protection that 
+may be needed in forward areas, the Role 2 MTF may 
+establish an ambulance exchange point (AXP). In 
+AXP operations, the armored track ambulance and 
+wheeled ambulance meet at a designated location to 
+exchange the casualty from the track vehicle to the 
+wheeled vehicle. Once the exchange is complete, the 
+track ambulance returns to the Role 1 MTF, while the 
+wheeled ambulance continues the evacuation to the 
+Figure 14-3. Patient movement and treatment, Role 1 to 
+Role 2.
+Role 2 MTF. This technique has the additional advantage of keeping crews familiar with routes, locations, 
+and forward or rearward areas. AXPs can also be used 
+to transfer a casualty from a ground vehicle to an air 
+platform when there are significant antiaircraft threats 
+in the forward maneuver areas.
+Many Role 2 MTFs can deploy a mobile treatment 
+capability, designed to reinforce, augment, or reconstitute the Role 1 capability, in case the Role 1 MTF 
+becomes overwhelmed with casualties, needs to relocate, or loses capabilities due to enemy actions. The 
+mobile capability may also be positioned at an AXP to 
+provide stabilization and treatment and expedite the 
+turnaround time for forward ambulances. Likewise, 
+some Role 3 facilities can deploy a mobile surgical 
+capability forward to augment Role 2 facilities that do 
+not have organic surgical capability.
+Another technique for employing ambulances is 
+the shuttle system (Figure 14-4). Typically established 
+when using “like-type” vehicles (eg, all wheeled 
+vehicles), the ambulance shuttle system provides an 
+efficient means for positioning ambulances where the 
+need is the greatest, while allowing for the continuous 
+movement of patients between MTFs. As depicted in 
+the notional footprint, ambulances are stationed along 
+the route between the Role 1 and Role 2 MTFs. As the 
+ambulance at the load point receives a casualty and 
+begins transport to the Role 2 MTF, the ambulance 
+at relay point 1 advances forward to the load point, 
+while an ambulance at relay point 2 moves forward 
+to relay point 1. If two load points are established, it 
+might be necessary to set up an ambulance control 
+point to help direct ambulances to specific load points. 
+By keeping ambulances dispersed along the route, the 
+system also avoids excessive massing of ambulances 
+and minimizes the potential loss to enemy actions, particularly in forward areas. The system also simplifies 
+Figure 14-4. Ambulance shuttle system.
+217
+Introduction to Health Service Support
+command and control and facilitates administrative 
+and maintenance actions.
+At Role 2, the casualty receives emergency medical treatment and undergoes advanced resuscitation 
+procedures, including damage control surgery (in the 
+case of an Army medical company, a forward surgical team must be attached for surgical capability). 
+Additionally, Role 2 MTFs provide a patient holding 
+capability along with various ancillary services such as 
+radiography, dental care, laboratory services, behavioral health, blood products, and preventive medicine. 
+With the patient holding capability, patients suffering 
+from a soft tissue injury that does not require orthopedic surgery (eg, severe ankle sprain) or moderate 
+severity respiratory illness (eg, pneumonia) could be 
+held at Role 2 for recovery rather than being sent to 
+Role 3. Holding patients at Role 2 keeps them in close 
+proximity to their operational unit and expedites a 
+faster return to duty. It also keeps specialties and bed 
+space open at the Role 3 MTF to handle hospitalization cases. 
+A patient will be evacuated from Role 2 to a Role 3 
+MTF for further care if (a) the patient does not recover 
+in an appropriate amount of time, typically within 72 
+hours for many Role 2 MTFs; (b) the patient’s condition 
+worsens; or (c) the patient is recovering from damage 
+control surgery. Evacuation from Role 2 to Role 3 (Figure 14-5) is typically accomplished by echelon-abovebrigade ground ambulance units (note: Role 3 MTFs do 
+not have organic ground ambulance vehicles). At Role 
+3, the patient receives a full complement of hospital 
+and surgical services. The patient is then returned to 
+duty at their operational unit, or stabilized for further 
+evacuation to Role 4. 
+Figure 14-5. Patient movement and treatment, Role 2 to 
+Role 3.
+In the notional medical footprint, a Role 2 facility has 
+been set up in close proximity to Role 3. In this instance, 
+the Role 2 facility will also assume what is commonly 
+referred to as an “area support role,” meaning the Role 
+2 MTF will provide medical support to units falling 
+within a defined area that do not have internal Role 2 
+medical support. Typically, all Role 2 and 3 MTFs assume an area support role for basic troop medical care, 
+as well as providing some evacuation and specialty 
+units such as dental, veterinary, preventive medicine, 
+and laboratory. In the notional medical footprint, the 
+Role 3 MTF is also “pushing” a medical capability in 
+support of outlying units and operations. Most Role 
+3 MTFs have the ability to deploy medical capabilities such as trauma response, resuscitative surgery, 
+preventive medicine, veterinary services, and casualty 
+staging to meet emergent medical needs. The Air Force 
+refers to this technique as “hub and spoke operations.” 
+(Refer to the services’ doctrinal publications for specific 
+Role 3 capabilities.)
+In the notional footprint, MEDEVAC aircraft are 
+stationed forward in the brigade/group support area. 
+These aircraft are assigned the responsibility of clearing casualties from maneuver units in the forward 
+areas and transporting them to Role 2 and Role 3. Based 
+on the tactical situation, MEDEVAC aircraft may fly as 
+far forward as the POI or a CCP for casualty pickup. In 
+some situations, when multiple causalities are spread 
+across the unit’s maneuver space, the Role 1 MTF may 
+be a more beneficial casualty pickup site. 
+If a casualty is evacuated from the POI or CCP by 
+air (via helicopter or a V-22 Osprey), the MEDEVAC 
+or CASEVAC aircraft will bypass the Role 1 MTF and 
+proceed directly to the Role 2. Alternatively, transporting the casualty directly from Role 1 to Role 3 may be 
+practicable after considering the time and distance 
+to the Role 3, the patient’s condition, and the tactical 
+situation. Once the casualty is at Role 2, MEDEVAC 
+aircraft assigned the responsibility of moving casualties from Role 2 to Role 3 will continue the evacuation 
+mission. Additional air ambulance units, typically 
+Air Force aircraft augmented with aeromedical crews 
+(and CCATTs if needed), transport casualties between 
+Role 3 MTFs to provide additional medical or surgical capabilities, to redistribute patient censuses, or to 
+free up beds in anticipation of additional casualties 
+accompanying a planned or existing combat operation. This patient movement among Role 3 facilities 
+also allows for patient staging areas for continued 
+strategic evacuation out of the JOA to a Role 4 MTF. 
+In addition to moving patients, ground and air 
+MEDEVAC platforms can facilitate the movement of 
+emergency medical supplies, medical personnel, and 
+medical communications. (Refer to ATP 4-02. 2, Medical 
+218
+Fundamentals of Military Medicine
+Evacuation, and NTTP 4-02. 2M/MCRP 4-11. 1G, Patient 
+Movement, in Resources, below.)
+Evacuation from Role 3 to Role 4 MTFs (Figure 14-6) 
+is usually accomplished by Air Force fixed-wing aircraft staffed by AE crews; depending on the patient’s 
+need, these aircraft may be augmented with a CCATT. 
+The evacuation of a patient out of theater is governed 
+by the theater patient movement policy, sometimes 
+referred to as the theater evacuation policy. This policy 
+establishes the maximum number of days a patient can 
+be held in theater for treatment prior to further movement or return to duty. The policy takes effect once a 
+patient is admitted to a Role 3 facility. In the notional 
+scenario, the theater policy is established as a maximum of 7 days. This does not mean a patient must be 
+held for 7 days, particularly if the patient will clearly 
+be unable to return to duty within the prescribed time; 
+in these cases the patient would be moved as soon as 
+clinically feasible. 
+A shorter theater patient movement policy will 
+result in a reduced theater medical footprint (fewer 
+beds, specialties, logistics, etc), but a greater demand on patient movement assets and the personnel replacement system. A longer theater patient 
+movement policy will result in the opposite. In the 
+notional medical footprint, patients are moved to a 
+contingency aeromedical staging facility, collocated 
+with the Role 3 MTF at the airbase, in preparation 
+for movement to Role 4. (If air mobility requirements exceed military resources, the Department 
+of Defense may employ the Civil Reserve Air Fleet, 
+which employs selected US civilian air carriers, 
+through contracts, to conduct the AE mission. Refer 
+to the Civil Reserve Air Fleet website and AFTTP 
+3-42. 5, Aeromedical Evacuation (AE), in Resources, 
+for additional information.) Role 4 MTFs, located 
+either OCONUS or in CONUS, provide a full range 
+of acute, convalescent, restorative, and rehabilitative 
+care with the purpose of rehabilitating, returning to 
+duty, or discharging the patient.
+During an amphibious operation (Figure 14-7), as 
+combat units initially push onto the beach, self-aid/
+buddy aid, combat lifesavers, and corpsmen assigned 
+to combat units will constitute the first medical response. As combat units progress forward, unit aid 
+stations with a physician and additional corpsmen 
+will push onto the beach to provide additional first 
+responder support. Initially, the wounded are evacuated from the POI to a CCP by any means possible. As 
+previously described, a senior corpsman at the CCP 
+will perform triage, continue administering treatment, 
+and prepare casualties for further evacuation to the 
+unit aid station (Role 1 MTF), where the casualty will 
+be seen by a physician. 
+Evacuation from Role 1 to Role 2 or Role 3 is provided by small boat, LCAC (landing craft, air cushion), helicopter, or V-22 Osprey. These assets may 
+be either dedicated, designated, or an opportunity 
+of lift. If the casualty is evacuated from the POI or 
+CCP by air (helicopter or V-22), the air evacuation 
+platform will bypass Role 1 and proceed directly 
+to Role 2 or 3. Determining where to evacuate the 
+casualty to, Role 2 or 3, depends on numerous factors such as the casualty’s condition, the facility’s 
+capabilities, and evacuation time to the MTF. As 
+combat units move further inland, a Role 2 MTF 
+with surgical capability may be established ashore 
+to enhance the proximity of forward resuscitative 
+care to the maneuvering force. Once an airhead is 
+established, an aeromedical staging facility may be 
+set up to transition patients from the Role 3 (hospital 
+ship) to a Role 4 definitive care capability. Figure 
+14-8 provides an overview of each service’s patient 
+flow from POI to Role 4.
+Figure 14-6. Patient movement to Role 4.
+Figure 14-7. Medical support to amphibious operations.
+219
+Introduction to Health Service Support
+220
+Fundamentals of Military Medicine
+221
+Introduction to Health Service Support
+Figure 14-8 (left and previous page). Overview of patient movement flow in each service.
+*The ERCS is a modular system that comes equipped with two special medical emergency evacuation device (SMEED) platforms, which are designed to carry patient movement items (eg, oxygen and patient monitoring devices) on board Marine 
+Corps aircraft. The ERCS provides equipment and supplies for the care of two critically injured or ill but stabilized casualties 
+for up to a 2-hour MEDEVAC flight. The ERCS is staffed by critical care nurses, emergency nurses, and specifically trained 
+hospital corpsmen.
+AE: aeromedical evacuation
+AECT: AE control team
+AELT: AE liaison team
+AEW: air and space exp wing
+AMD: air mobility division
+AOC: air operations center
+ASF: aeromedical staging facility
+ATO: air tasking order
+BAS: battalion aid station
+BES: beach evacuation station
+BSMT: brigade support medical company
+CCP: casualty collection point
+CVN: Navy aircraft carrier (nuclear)
+ERCS: en route care system
+FRSS: Forward Resuscitative Surgery System
+FST: forward surgical team or fleet surgical team
+HN: host nation
+IAW: in accordance with
+JFACC: joint force air component commander
+LF: landing force
+LHD/A: landing helicopter dock/assault
+MAO: medical administrative officer
+MC(AS): medical company (area support)
+MRCO: medical regulating control officer
+MRT: medical regulating team
+MTF: medical treatment facility
+OCONUS: outside the continental United States
+PAD: patient administration director
+PMRC: patient movement requirements center
+POI: point of injury
+STP: shock trauma platoon
+TGRO: TRICARE global remote overseas
+TMT: treatment
+USAF: US Air Force
+Graphic created by Uniformed Services University of the Health Sciences, Education and Technology Innovation Support 
+Office. Graphic concept adapted from Navy Tactics, Techniques and Procedures 4-02. 2M/MCRP 4-11. 1, Patient Movement 
+(May 2007).
+RESOURCES
+Doctrine
+Policy and practice will change over time. Doctrine, 
+that is, published official guidelines and policies, will 
+change in content but military references will retain 
+their numeric designation. These publications can be 
+monitored over time for key principles and practices.
+ 
+• Chairman of the Joint Chiefs of Staff. Command 
+and Control of Joint Air Operations. Washington, 
+DC: JCS; 10 February 2014. Joint Publication 
+3-30.
+ 
+• Chairman of the Joint Chiefs of Staff. Healthcare Service Support. Washington, DC: JCS; 26 
+July 2012. Joint Publication 4-02.
+ 
+• Chairman of the Joint Chiefs of Staff. Joint 
+Operations Planning, Washington, DC: JCS; 11 
+August 2011. Joint Publication 5-0.
+ 
+• Headquarters, Department of the Army. Terms 
+and Military Symbols. Washington, DC: HQDA; 
+16 November 2016. Army Doctrine Reference 
+Publication 1-02.
+ 
+• Headquarters, Department of the Army. Medical Evacuation. Washington, DC: HQDA; 25 
+October 2016. Army Techniques Publication 
+(ATP) 4-02. 2.
+ 
+• Headquarters, Department of the Army. Army 
+Health System Support to Maneuver Forces. 
+Washington, DC: HQDA; 9 June 2014. ATP 
+4-02. 3.
+ 
+• Headquarters, Department of the Army. Casualty Care. Washington, DC: HQDA; 10 May 
+2013. ATP 4-02. 5.
+ 
+• Headquarters, Department of the Army. 
+Brigade Support Battalion. Washington, DC: 
+HQDA; 2 April 2014. ATP 4-90.
+ 
+• Headquarters, Department of the Army. The 
+Infantry Battalion. Washington, DC: HQDA; 
+28 December 2017. ATP 3-21. 20.
+ 
+• Headquarters, Department of the Army. Army 
+Health System. Washington, DC: HQDA; 26 
+August 2013. Field Manual 4-02.
+ 
+• Headquarters, Department of the Navy, US 
+Marine Corps. Health Service Support Operations. Washington, DC: USMC; 10 December 
+2012. Marine Corps Warfighting Publication 
+(MCWP) 4-11. 1.
+ 
+• Headquarters, Department of the Navy, US 
+Marine Corps. Marine Corps Planning Process. 
+Washington, DC: USMC; 24 August 2010. 
+MCWP 5-1,
+ 
+• Department of the Navy, Office of the Chief of 
+Naval Operations. Naval Expeditionary Health 
+Service Support Afloat and Ashore. Washington, 
+DC: CNO; January 2008. Navy Warfare Publication (NWP) 4-02. 
+222
+Fundamentals of Military Medicine
+ 
+• Department of the Navy, Office of the Chief 
+of Naval Operations. Navy Planning. Washington, DC: CNO; December 2013. NWP 5-01.
+ 
+• Department of the Navy. Patient Movement. 
+Washington, DC: USN; May 2007. Navy 
+Tactics, Techniques and Procedures 4-02. 2M/
+MCRP 4-11. 1. 
+ 
+• Headquarters, Department of the Air Force. 
+Medical Operations. Washington, DC: USAF; 29 
+September 2015. Air Force Doctrine Document 
+4-02.
+ 
+• Headquarters, Department of the Air Force. 
+Aeromedical Evacuation (AE). Washington, DC: 
+USAF; 1 November 2003. Air Force Tactics, 
+Techniques and Procedures (AFTTP) 3-42. 5.
+ 
+• Headquarters, Department of the Air Force. 
+Expeditionary Medical Support (EMEDS) and 
+Air Force Theater Hospital (AFTH). Washington, 
+DC: USAF; 27 August 2014. AFTTP 3-42. 71.
+Websites
+ 
+• This Is the Military Health System [video]. 
+https://youtu.be/USJfvasA6Yk. Published 
+May 7, 2013. Accessed September 19, 2018.
+ 
+• US Air Force, Air Mobility Command. Civil 
+Reserve Air Fleet. https://www.amc.af.mil/
+About-Us/Fact-Sheets/Display/Article/144025/
+civil-reserve-air-fleet/. Published April 26, 
+2017. Accessed September 19, 2018.
+SUMMARY
+An MMO’s success depends on understanding 
+of how their duties are tied to the primary need to 
+protect soldiers, sailors, airmen, marines, and coastguardsmen from injury, illness, and combat wounds. 
+MMOs must understand their role within the unit 
+commander’s staff as a medical caregiver, medical 
+planner, and advisor. The MMO’s partnership with 
+their fellow principal staff officers and the trust they 
+develop with the commander are paramount. Essential 
+to the MMO’s mission success is an understanding of 
+and employment of the six principles of HSS; the five 
+joint medical capabilities; the four roles of care; and 
+three forms of en route care.
+ 
+• The six principles of HSS are conformity, 
+continuity, proximity, mobility, control, and 
+flexibility. No principle is more important 
+than another, and each principle is dependent 
+on the other principles to optimize patient 
+survival and outcome. 
+ 
+• The five overarching joint medical capabilities 
+range from self-aid or buddy aid, to emergent 
+care and primary care (first responder care); 
+to advanced emergency medical treatment 
+performed as close to POI or illness as possible 
+(forward resuscitative care); to the full range 
+of in-theater healthcare services, including 
+primary inpatient and outpatient care, emergent care, and enhanced medical, surgical, and 
+ancillary capabilities (theater hospitalization); 
+to the full range of acute, convalescent, restorative, and rehabilitative care sites outside the 
+theater of operations (definitive care). Tying 
+these capabilities together is the en route care 
+capability.
+ 
+• Within these overarching joint medical capabilities is a framework that ascribes a specific 
+role or function to medical capabilities and 
+casualty management resources: the four roles 
+of care. Role 1 is unit-level care, and is most 
+closely associated with first responder care. 
+Role 2 is most closely associated with forward 
+resuscitative care. Role 3 is most closely associated with theater hospitalization care, and 
+Role 4 is most closely associated with definitive care. Each role possess those capabilities 
+and resources found at the lower role.
+ 
+• En route care capability in the patient movement system can take three forms: CASEVAC, 
+MEDEVAC, and AE. CASEVAC refers to 
+the unregulated movement of casualties via 
+nonmedical surface, ground, or air platforms; 
+MEDEVAC refers to the regulated movement 
+of casualties via designated or dedicated surface, ground, or air platforms; and AE refers 
+to the Air Force’s system of regulated intratheater or intertheater movement of casualties 
+between MTFs.
+REFERENCES
+ 
+1. Chairman of the Joint Chiefs of Staff. Doctrine for the Armed Forces of the United States. Washington, DC: JCS; 25 March 
+2013. Joint Publication 1.
+ 
+2. Chairman of the Joint Chiefs of Staff. Healthcare Service Support. Washington, DC: JCS; 26 July 2012. Joint Publication 
+4-02.
+223
+Introduction to Health Service Support
+ 
+3. Headquarters, Department of the Air Force. Medical Operations. Washington, DC: USAF; 29 September 2015. Air Force 
+Doctrine Document 4-02.
+ 
+4. Headquarters, Department of the Army. Army Health System. Washington, DC: HQDA; 26 August 2013. Field Manual 
+4-02.
+ 
+5. Headquarters, Department of the Navy, US Marine Corps. Health Service Support Operations. Washington, DC: USMC; 
+10 December 2012. Marine Corps Warfighting Publication 4-11. 1.
+ 
+6. Department of the Navy, Office of the Chief of Naval Operations. Naval Expeditionary Health Service Support Afloat and 
+Ashore. Washington, DC: CNO; January 2008. Navy Warfare Publication, 4-02. 
+ 
+7. MHS Review Senior Oversight and Working Group. Military Health System Review: Final Report to the Secretary of Defense. Washington, DC: Department of Defense; August 2014.
+ 
+8. Beitler AL, Wortmann GW, Hofmann LJ, Goff JM Jr. Operation Enduring Freedom: the 48th Combat Support Hospital 
+in Afghanistan. Mil Med. 2006;171(3):189–193. 
+ 
+9. Chambers LW, Green DJ, Gillingham BL, et al. The experience of the US Marine Corps’ Surgical Shock Trauma 
+Platoon with 417 operative combat casualties during a 12 month period of Operation Iraqi Freedom. J Trauma. 
+2006;60(6):1155–1161;discussion 1161–1164.
+ 10. Earwood JS, Brooks DE. The seven P’s in battalion level combat health support in the Military Operations in Urban 
+Terrain environment: the Fallujah experience, summer 2003 to spring 2004. Mil Med. 2006;171(4):273–277.
+ 11. Hughes JR, Miller MA, Farr WD, Hughes TM. Survey of US Army commanders’ experiences with brigade/battalion 
+surgeons at Fort Hood, Texas. Mil Med. 2006;171(3):240–245.
+ 12. Lin H, Ancheta A, Uzcategui L, Plurad D. Surgery in expeditionary strike group. Mil Med. 2009;174(3):241–244 .
+ 13. Murray CK, Reynolds JC, Schroeder JM, Harrison MB, Evans OM, Hospenthal DR. Spectrum of care provided at an 
+echelon II medical unit during Operation Iraqi Freedom. Mil Med. 2005;170(6):516–520.
+ 14. Peoples GE, Gerlinger T, Craig R, Burlingame B. The 274th Forward Surgical Team experience during Operation 
+Enduring Freedom. Mil Med. 2005;170(6):451–459. 
+ 15. Stevens RA, Bohman HR, Baker BC, Chambers LW. The US Navy’s forward resuscitative surgery system during 
+Operation Iraqi Freedom. Mil Med. 2005;170(4):297–301.
+ 16. Beninati W, Meyer MT, Carter TE. The critical care air transport program. Crit Care Med. 2008;36(7 Suppl):S370–376.
+ 17. Brewer TL, Ryan-Wenger NA. Critical care air transport team (CCATT) nurses’ deployed experience. Mil Med. 
+2009;174(5):508–514. 
+ 18. Clarke JE, Davis PR. Medical evacuation and triage of combat casualties in Helmand Province, Afghanistan: October 
+2010-April 2011. Mil Med. 2012;177(11):1261–1266.
+ 19. Hurd WW, Montminy RJ, De Lorenzo RA, Burd LT, Goldman BS, Loftus TJ. Physician roles in aeromedical evacuation: current practices in USAF operations. Aviat Space Environ Med. 2006;77(6):631–638.
+ 20. Pizzola JL. MEDEVAC miscategorization. Mil Med. 2010;175(9):655–658.
+ 21. D’Amore AR, Hardin CK. Air Force expeditionary medical support unit at the Houston floods: use of a military model 
+in civilian disaster response. Mil Med. 2005;170(2):103–108. 
+ 22. Hartgerink BJ, Chapman LE, Stevenson J, Donahue TF, Pagliara C. Utilization of surgical resources during the USNS 
+COMFORT humanitarian mission to the Americas, June to October 2007. Mil Med. 2010;175(9):638–646.
+224
+Fundamentals of Military Medicine
+ 23. Stuart JJ, Johnson DC. Air Force disaster response: Haiti experience. J Surg Orthop Adv. 2011;20(1):62–66.
+ 24. National Association of Emergency Medical Technicians (NAEMT). PHTLS: Prehospital Trauma Life Support. Military 
+8th ed. Burlington, MA: Jones & Bartlett Learning; 2016: 897.

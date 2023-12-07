@@ -1,0 +1,860 @@
+573
+ Combat and Operational Stress 
+Chapter 37 
+COMBAT AND OPERATIONAL STRESS 
+CONTROL
+JAMES C. WEST, MD,* and CHRISTOPHER H. WARNER, MD†
+INTRODUCTION
+PHYSIOLOGY AND PSYCHOLOGY OF HUMAN STRESS RESPONSE
+COMBAT AND OPERATIONAL STRESSES
+RESILIENCY AND CHARACTERISTICS OF HEALTHY INDIVIDUALS AND UNITS
+Individual Resilience and Vulnerability
+Unit Resilience and Vulnerability
+REACTIONS TO COMBAT AND OPERATIONAL STRESS
+PRINCIPLES OF COMBAT AND OPERATIONAL STRESS ASSESSMENT
+PRINCIPLES OF COMBAT AND OPERATIONAL STRESS CONTROL
+MANAGEMENT OF COMBAT AND OPERATIONAL STRESS REACTIONS IN 
+INDIVIDUALS
+Psychotherapy in Theater
+Medication Management in Theater
+Restoration Centers
+Management and Disposition of Severe Reactions and Psychiatric Illness
+MANAGEMENT OF COMBAT AND OPERATIONAL STRESS REACTIONS IN 
+UNITS—TRAUMATIC EVENT MANAGEMENT
+SUMMARY
+*Captain, Medical Corps, US Navy; Assistant Professor of Psychiatry, Uniformed Services University of the Health Sciences, Bethesda, Maryland 
+†Colonel, US Army Medical Corps; Psychiatry Consultant to The US Army Surgeon General, USA MEDDAC-Fort Stewart, Fort Stewart, Georgia
+574
+Fundamentals of Military Medicine 
+INTRODUCTION
+Military operations are inherently stressful, whether 
+due to the stress of combat or the more insidious 
+operational stresses of the operating environment. 
+Combat and operational stress control encompasses 
+practices that promote individual and unit resilience 
+and ameliorate negative stress reactions. Combat and 
+operation stress control is the collective responsibility 
+of all unit personnel. The unit military medical officer 
+(MMO) plays a key role in enhancing leadership efforts in promoting unit resiliency. MMOs also have 
+responsibility to evaluate and treat members impaired 
+by combat and operational stress injuries. This chapter 
+will provide an overview of fundamentals of combat 
+and operational stress control for the unit MMO.
+PHYSIOLOGY AND PSYCHOLOGY OF HUMAN STRESS RESPONSE
+In order to understand the role of the MMO in promoting resilience and evaluating and treating combat 
+and operational stress casualties, it is necessary to first 
+consider fundamental principles behind the human 
+stress response. The human stress response system 
+functions to maintain homeostasis in the presence of 
+external threats and environmental changes. It does so 
+by causing protective behaviors such as “fight, flight, 
+or freeze” in the face of a threat. The stress response 
+system also promotes rapid recall of past threat information. Under extreme stress these reaction and recall 
+systems can generate behaviors and symptoms out of 
+proportion to the threat. 
+The primary brain systems involved in stress 
+response include the amygdala, hippocampus, and 
+prefrontal cortex. 1 These regions all process sensory 
+information, but do so in different ways and at different speeds. The amygdala receives direct sensory input 
+from the thalamus and rapidly identifies threats. In 
+the presence of threat, the amygdala generates signals 
+for appropriate fight, flight, or freeze responses. The 
+hippocampus and prefrontal cortex receive the same 
+sensory information, but pathways to these brain 
+areas are slower and designed to incorporate additional memory and context information. In healthy, 
+non-stressed individuals these pathways modulate 
+or inhibit amygdala response. Prolonged or extreme 
+stress can shift the balance of the amygdala–prefrontal 
+cortex–hippocampus system to produce a persistent 
+threat response. In other words, the amygdala becomes 
+hyperactive and the prefrontal cortex hypoactive and 
+unable to sufficiently modulate the fight/flight/freeze 
+response. An affected individual is hyperresponsive 
+and less able to self-regulate stress responses. In the 
+combat environment some hypervigilance and enhanced reactivity is typically adaptive, but excessive 
+hyperarousal is impairing. 
+A useful paradigm recently adopted by the Department of Defense is the Stress Response Continuum, 
+shown in Figure 37-1. 2 This model places individual 
+responses along a continuum of ready-reacting-injuredill. Ready individuals demonstrate effective coping and 
+are adapting to any stress without significant distress 
+or impairment. Under stress many individuals will 
+demonstrate mild distress or impairment and would be 
+considered otherwise healthy but reacting. Under significant stress, a percentage of individuals will go on to be 
+injured, meaning that they experience possibly transient 
+severe distress or impairment, but also are at significant 
+risk for persisting negative alterations. Finally, some 
+individuals may experience true illness under extreme 
+stress and develop a mental disorder or diagnosis. This 
+distinction is usually made after a significant period of 
+impairment, arbitrarily about 60 days. 
+COMBAT AND OPERATIONAL STRESSES
+Combat operations present a variety of stresses to 
+deployed personnel. Direct exposure to killing and 
+death are significant and psychologically toxic. 3 If 
+the exposed individual experiences horror or helplessness, the exposure to killing and death becomes 
+much more traumatic. Examples of severe exposures 
+include witnessing fellow soldiers burn to death in a 
+vehicle and being helpless to intervene; close proximity 
+to the sudden death of a teammate, as in an improvised explosive device blast; or engagement in which 
+troops find themselves outnumbered or defenseless. 
+Handling human remains or cleaning blood and 
+brains from vehicles or buildings are also potentially 
+traumatic events. The act of killing enemy combatants 
+is potentially traumatic, and inadvertent killing of 
+noncombatants even more so. Patrolling or defending 
+in a sustained and unpredictable threat environment 
+even in the absence of killing can generate severe or 
+persisting stress responses.
+In addition to stress associated with death and killing, all individuals must manage the stresses of the 
+operational environment. 4 At the simplest level, living 
+in austere conditions with exposure to the elements 
+and diminished access to regular physical comforts is 
+575
+ Combat and Operational Stress 
+Figure 37-1. The combat and operational stress continuum model with its four color-coded stress zones. 
+PTSD: posttraumatic stress disorder
+Reproduced from: Nash WP. US Marine Corps and Navy combat and operational stress continuum model: a tool for leaders. In: Ritchie EC, ed. Combat and Operational Behavioral Health. Fort Detrick, MD: Borden Institute; 2011: Figure 7-1.
+an operational stress. Cold, heat, dirt, noise, and unpleasant smells all take a cumulative toll on forward 
+personnel. Separation from family or other primary 
+social supports can present significant stress, as can 
+living in a confined environment with fellow soldiers 
+for a prolonged period of time. Combat operations 
+typically occur around the clock, with significant risk 
+of fatigue as an additional stress. Table 37-1 summarizes common combat and operational stresses the 
+MMO should consider.
+RESILIENCY AND CHARACTERISTICS OF HEALTHY INDIVIDUALS AND UNITS
+“Some of the most potent factors which contribute to high morale in military groups are confidence in their own 
+ability, faith and trust in their leaders and a sureness of purpose.”
+—Captain Francis Braceland, 19465 
+Prevention is the best medicine. Commanders 
+of military units are charged with developing and 
+training combat-ready units. The unit MMO plays a 
+key role in fostering an environment that promotes a 
+unit’s ability to withstand stress. Resilience represents 
+a state in which members of a unit are able to tolerate 
+significant stress and react constructively to diminish 
+that stress. By understanding factors in individuals 
+and units that promote resilience, the MMO can be a 
+vital advisor to unit leadership.
+Individual Resilience and Vulnerability
+Every individual brings strengths and vulnerabilities into military service. Resilient individuals possess 
+a stable sense of self. From a military perspective, this 
+is an individual who has a clear sense of identity as a 
+soldier, sailor, airman, or marine and whose experiences in the military reinforce that identity. Resilient 
+individuals also show use of adaptive coping mechanisms such as recognizing areas of control, positive 
+cognitive appraisal, and engaging social support. 6 Past 
+exposure to trauma has a variable impact on individual 
+resilience. There is significant evidence to support that 
+risk of psychological injury is related to the burden of 
+childhood trauma. 7 Individuals with significant homefront stress demonstrate worse overall psychological 
+health. 8 Members of elite combat units typically show 
+greater resilience, and this is believed to be a combination of selection factors for membership and ongoing 
+high-intensity training to promote resilience.
+Unit Resilience and Vulnerability
+Group dynamics can both promote and detract from 
+individual resilience. The most consistently cited protec576
+Fundamentals of Military Medicine 
+TABLE 37-1
+EXAMPLES OF COMBAT AND OPERATIONAL STRESSORS 
+PHYSICAL STRESSORS 
+MENTAL STRESSORS
+Environmental 
+Cognitive
+• 
+Heat, cold, wetness, dust, vibration, noise, blast 
+• 
+Information (sensory overload or deprivation)
+• 
+Noxious odors (fumes, poisons, chemicals) 
+• Ambiguity, uncertainty, unpredictability
+• 
+Directed-energy weapons/devices 
+• 
+Time pressure or waiting
+• 
+Ionizing radiation 
+• 
+Difficult decisions (rules of engagement) 
+• 
+Infectious agents 
+• 
+Organizational dynamics and changes
+• 
+Physical work 
+• 
+Hard choices versus no choice
+• 
+Poor visibility (bright lights, darkness, haze) 
+• 
+Recognition of impaired functioning
+• 
+Difficult or arduous terrain 
+• 
+Working beyond skill level
+• 
+High altitude 
+• 
+Previous failures
+ 
+ 
+Physiological 
+Emotional
+• 
+Sleep deprivation 
+• 
+Being new in unit, isolated, lonely
+• 
+Dehydration 
+• 
+Fear and anxiety-producing threats
+• 
+Malnutrition 
+ 
+(of death, injury, failure, or loss) 
+• 
+Poor hygiene 
+• 
+Grief-producing losses (bereavement)
+• 
+Muscular and aerobic fatigue 
+• 
+Resentment, anger, and rage-producing frustration and guilt
+• 
+Overuse or underuse of muscles 
+• 
+Inactivity producing boredom
+• 
+Impaired immune system 
+• 
+Conflicting/divided motives and loyalties
+• 
+Illness or injury 
+• 
+Spiritual confrontation or temptation
+• 
+Sexual frustration 
+ 
+causing loss of faith
+• 
+Substance use (smoking, caffeine, alcohol) 
+• 
+Interpersonal conflict (unit, buddy) 
+• 
+Obesity 
+• 
+Home-front worries, homesickness
+• 
+Poor physical condition 
+• 
+Loss of privacy 
+ 
+ 
+• 
+Victimization/harassment
+ 
+ 
+• 
+Exposure to combat/dead bodies
+ 
+ 
+• 
+Having to kill
+Adapted from: US Department of the Army. Combat and Operational Stress Control. Washington, DC; DA; 2006. Field Manual 4-02. 51.
+tive factor against psychological injury in combat is 
+unit cohesion. 9 Key elements of cohesion are a sense of 
+attachment to members in the unit and viewing other 
+members as a source of emotional support. Conversely, 
+units with significant internal distrust or a perceived 
+disregard for individual welfare are less resilient and may 
+put their members at risk under stress. Leadership is another key element of unit resilience. Units gain resilience 
+when leaders communicate a clear sense of mission and 
+recognize the contribution of all members of the unit. 10 
+REACTIONS TO COMBAT AND OPERATIONAL STRESS
+Prolonged or extreme stress can leave units or individuals with significant impairment. Such emotional 
+reactions or behaviors are referred to as combat and 
+operational stress reactions or injuries. These reactions 
+tend to fall into distinct categories, and more than one 
+type of reaction may occur within any individual or 
+in reaction to particular stressors. Patterns of combat 
+and operational stress reaction include acute stress 
+reactions, operational fatigue, traumatic grief, and 
+moral injury. 4 
+Acute stress reactions represent a maladaptive psychological and physiologic reaction to an extreme 
+stress. This is typically a single severe traumatic event, 
+but acute stress reactions can also occur after a series 
+of severe traumas. Emotional manifestations of acute 
+stress reactions include restlessness, panic, irritability, 
+rage, and sometimes numbing. Cognitive responses 
+include confusion, memory problems, and traumatic 
+amnesia. Physical complaints can include fatigue, loss 
+of bowel and bladder control, insomnia, palpitations, 
+and shortness of breath. Dissociation, in which an individual becomes detached from their surroundings 
+or experiences amnesia, represents a severe form of 
+acute stress reaction. Acute stress reaction should not 
+be confused with posttraumatic stress disorder. Even 
+though many symptoms are shared, an acute stress 
+reaction is a time-limited response to psychological 
+trauma.
+577
+ Combat and Operational Stress 
+Operational fatigue occurs in the presence of less intense but prolonged stresses. Throughout history this 
+condition has received names such as “soldier’s heart” 
+and “old sergeant’s syndrome.” Such reactions are 
+characterized by a persistent and constant anxiety or 
+depressed state. Affected individuals may experience 
+irritability or depressed mood, persistent anxiety or 
+restlessness, changes in appetite or energy, insomnia, 
+concentration difficulties, muscular tension, or tremor.
+Traumatic grief is a disruption in the normal grieving process brought on by sudden or traumatic loss. 
+Normal grieving is the healthy process by which individuals allow themselves to experience emotional reactions associated with loss and engage in the cognitive 
+process of adapting to a world without the deceased 
+individual. Losses experienced in combat, by their 
+abrupt and violent nature, tend to promote traumatic 
+grief reactions. Significant complications of traumatic 
+grief involve distorted beliefs about the causes and 
+implications of the death. An affected member may 
+present with problems with excessive guilt and sense 
+of responsibility over the death. Conversely, an individual may externalize their guilt through acting out 
+or undermining leaders.
+Moral injury refers to psychological reactions stemming from real or perceived transgressions of moral 
+codes by self or others and betrayals of trust. 11 Modern 
+warfare increasingly puts individuals in ambiguous 
+circumstances where the distinction between hostile 
+combatant and innocent civilian is blurry. A wellintended soldier may fire on a presumed insurgent 
+only to discover that he has killed a noncombatant. In 
+the same vein, individuals may engage in intentional 
+acts while in the heat of battle that later produce intense 
+feelings of shame or anger. As a result, individuals 
+can respond with symptoms of intense anger, revenge 
+fantasies or acts, intense feelings of shame and guilt, 
+and self-destructive or avoidant behaviors.
+PRINCIPLES OF COMBAT AND OPERATIONAL STRESS ASSESSMENT
+Assessment of combat stress control casualties is a 
+core competency of the MMO. The tasks of assessment 
+involve gathering relevant history, inquiring about 
+individual and unit factors promoting or detracting 
+from individual resiliency, screening, establishing 
+appropriate differential diagnosis, and communicating disposition. The simplified goal of a combat and 
+operational stress control assessment is to identify 
+where the individual is along the stress response continuum. Exhibit 37-1 summarizes important elements 
+of a combat stress control evaluation. 
+Relevant history entails focus on the presenting 
+symptoms and circumstances. By constructing a narrative of the events, thoughts, and feelings immediately 
+preceding presentation, the MMO gains valuable insight into the nature of the problem. For instance, an 
+individual presenting with 24 hours of restlessness, irritability, insomnia, and intrusive images of a firefight 
+immediately following the event suggests a combat 
+stress reaction or acute stress injury. An individual 
+presenting with 6 weeks of insomnia and irritability 
+in the context of concerns that his wife is having an 
+affair back home suggests an adjustment disorder. In 
+both individuals it is essential to identify the number 
+and significance of potentially traumatic exposures in 
+the current deployment to promptly identify risk for 
+acute stress injuries.
+In assessing individual and unit resilience, it is 
+important to identify and assign weight to each factor 
+contributing to or detracting from resilience. Does the 
+soldier identify a sense of purpose or meaning to their 
+current job? Does the identity of their unit or military 
+occupational specialty reconcile with their sense of 
+who they are? Do they view their leaders as effective 
+and having the best interest of unit members in mind? 
+Once the breadth of resiliency factors are considered 
+and weighed against each other, a clearer picture of 
+an individual’s prognosis emerges. Members with 
+significant questions about the usefulness of their job, 
+uncertainty in their ability to effectively complete it, 
+disconnection from peers, or a distrust of leadership 
+they view as inept are less likely to be resilient and 
+therefore at higher risk for persisting combat stress 
+reactions. Further, they are less likely to respond favorably to typical combat stress control interventions 
+and may require significantly more intervention to 
+restore capability.
+Differential diagnosis should first exclude the 
+presence of mental or medical illness. A major 
+depressive disorder should not be confused with 
+a combat fatigue reaction, and the principle of 
+expectancy, or prompt recovery and return to 
+duty, would not be appropriate. Intoxication or 
+withdrawal from substances is another important 
+consideration. Although access to alcohol and other 
+substances of abuse is greatly restricted in the combat environment, they are not impossible to obtain. 
+The evaluator also needs to consider exposure to 
+environmental toxins or side effects of medications. 
+An important example of this is development of 
+anxiety symptoms following prophylaxis with 
+mefloquine for malaria. If combat stress reaction 
+is present, the provider should characterize the 
+type of the reaction. Significant distress or impair578
+Fundamentals of Military Medicine 
+EXHIBIT 37-1
+ELEMENTS OF COMBAT STRESS CONTROL EVALUATION
+History
+• Circumstances of presentation
+• Current symptoms and impairment
+• Trauma exposure
+Resilience factors
+• Individual: sense of self, purpose, home-front concerns
+• Unit: cohesion, leadership, communication
+• Environmental factors
+Screening 
+• Psychiatric illness
+• Medical conditions
+• Medication and supplements
+Mental status examination
+Safety assessment
+ment in response to home-front stressors typically 
+represents adjustment disorder, but in more severe 
+or prolonged cases, such distress may represent a 
+depressive or anxiety disorder. 
+The principles of combat and operational stress 
+control were first developed by the British and French 
+forces during World War I. These principles were 
+characterized as “PIES”: proximity, immediacy, expectancy, and simplicity. 12 While these principles were 
+more recently modified into a new acronym, “BICEPS” 
+(brevity, immediacy, contact/centrality, expectancy, 
+proximity, simplicity), the basic forward psychiatry 
+principles initially established during World War I continue to serve as the cornerstone to modern deployed 
+mental health care. 10
+The concept of brevity in forward psychiatry treatment is that the care provided for the treatment of 
+a combat operational stress reaction should be time 
+limited. In US military doctrine there is some variance as to the time limit, but all guidelines state that if 
+symptoms do not improve within 72 to 96 hours, then 
+the service member should be evacuated to a higher 
+level of care. Immediacy refers to psychiatric casualties 
+being treated as soon as possible. Embedded military 
+mental health providers are available throughout the 
+operating theater to ensure readily accessible care. 
+The principle of contact involves keeping the service 
+member connected to his or her unit. A key aspect to 
+this step is the importance of ensuring that the service 
+member continues to feel an important part of the unit 
+and a vital contributor to the unit’s mission success. 
+Expectancy refers to facilitating the service member’s 
+expectation of returning to duty. In essence, the MMO 
+must make clear early that the treatment goal is for the 
+service member to return to duty in the combat role. 
+Once service members assume the identity of “injured” 
+or “patient,” they make a cognitive shift in role and 
+expected outcome. It is therefore important to address 
+service members by their military title and refrain from 
+using the term “casualty” or “patient.” Prior reports 
+have noted that in past operations failure to pay close 
+attention to labeling and to set expectations resulted in 
+a contagion effect and an increased number of soldiers 
+evacuated from the battlefield. 13 
+Proximity refers to psychiatric casualties being 
+treated geographically close to operating units in order 
+to reinforce attachment to their unit. Since World War 
+I, US military forces have pushed medical and mental 
+health resources toward the front lines to facilitate this 
+principle. Since the early 2000s, the Army and Marine 
+Corps have embedded psychiatrists, social workers, 
+nurse practitioners, and psychologists at the brigade 
+and regimental levels both in combat and during 
+peacetime. This has not only facilitated adherence to 
+the principle of proximity, but has also increased the 
+chance that service members are treated by providers 
+assigned to their unit, thus providing consistency and 
+greater availability of provider staff. 
+Simplicity refers to using brief and straightforward 
+treatment focused on the basics to emphasize the norPRINCIPLES OF COMBAT AND OPERATIONAL STRESS CONTROL
+579
+ Combat and Operational Stress 
+mality of the service member’s experience rather than 
+implying some significant level of mental illness. 14 The 
+concept of simplicity in treatment is best exemplified 
+by the “five R’s”: (1) rest, (2) rehydration and replenishment of nutrients, (3) restoration of confidence through 
+meaningful work, (4) reassurance that recovery is 
+likely, and (5) return to duty. 10 
+The effectiveness of forward psychiatry principles 
+remains controversial, primarily associated with the 
+desired effect of the treatment. Since World War II, 
+return to duty rates have been cited at levels greater 
+than 70% to 80%. 15 However, critics note that studies 
+find varying rates of combat stress relapse associated with forward psychiatry, and that some symptomatic service members are eventually evacuated 
+from the combat theater despite forward psychiatric 
+treatment. 13 Another key question concerns the 
+long-term psychological benefit from forward 
+psychiatry treatment. Israeli researchers noted that 
+evacuation of individuals with mild combat operational stress injuries worsened their prognosis and 
+further complicated their recovery. 16 However, a 
+recent RAND report15 noted that service members 
+who had a combat operational stress reaction were 
+more likely to later develop posttraumatic stress 
+disorder. Thus, despite the widespread acceptance 
+of forward psychiatry principles, the effectiveness 
+of this treatment to both return service members to 
+duty and to prevent long-term psychological health 
+outcomes remains inconclusive. 13 Further studies are 
+needed to determine the overall short- and long-term 
+effectiveness of forward psychiatry.
+MANAGEMENT OF COMBAT AND OPERATIONAL STRESS REACTIONS IN INDIVIDUALS
+While forward psychiatry principles represent the 
+base of combat operational stress treatment and may 
+be the only level of care available during high-intensity 
+combat, the recent wars in Iraq and Afghanistan have 
+shown that higher levels of care can be delivered in a 
+mature theater. 
+Psychotherapy in Theater
+The most common reasons service members seek 
+mental healthcare during a deployment are family 
+stressors, combat exposure, and difficulties with the 
+unit leadership. 17 Common focus areas of treatment 
+include relationship stress, grief and loss, anger and 
+aggression, depression, anxiety and panic symptoms, 
+and managing traumatic events. Psychotherapeutic 
+interventions can be very effective for these complaints. 
+Providing effective psychotherapy during a deployment can be challenging. Service members’ time and 
+availability may be limited, and there is a consistent 
+expectation that they remain combat effective during 
+treatment. Service members seeking mental health 
+intervention typically present for only one visit while 
+deployed. 18 Therefore, treatment approaches used in 
+garrison may need to be adjusted. In order to be effective, interventions must be focused and brief.
+Given the large overlap of physiological and psychological symptoms experienced in response to deployment 
+stress, targeting physical symptoms of stress can be highly 
+effective. Relaxation training, incorporating abdominal 
+breathing, progressive muscle relaxation, guided imagery, and self-hypnosis are skills that an MMO can teach 
+quickly and that can provide significant benefit in an 
+environment likely to remain continuously stressful. 19 
+Abdominal breathing promotes slow and deep breathing by encouraging expansion of the abdomen rather 
+than the chest. This is easily taught by having the 
+individual place a hand on their chest and abdomen 
+while breathing in slowly. The provider encourages 
+the individual to move the abdominal hand and slow 
+breathing through counting. 
+Progressive muscle relaxation involves intermittently flexing or engaging tension in specific muscle 
+groups for 7 to 10 seconds, followed by relaxation. 
+The provider guides the individual through this pattern of tension and relaxation, starting with the most 
+peripheral muscles and ending with core muscles. 
+In guided imagery, the provider talks the individual 
+through a mutually agreed-on peaceful scene with a 
+combination of verbal prompts and periods of silence. 
+The individual keeps their eyes closed throughout the 
+process and visualizes the scene described. 
+Self-hypnosis requires the individual to focus intensely on an internal stimulus such as breath counting 
+or a neutral word or phrase. This intense focus induces 
+a relaxation response.
+Brief cognitive interventions are also available to 
+the MMO and can help distressed service members 
+cope and adapt to overwhelming stress. Cognitive 
+interventions target distorted thoughts common in 
+distressed individuals (eg, “It’s all my fault, I always 
+mess up,” or “I know he/she is leaving me”). Simple 
+intervention involves helping the individual identify 
+their distorted thoughts and consider possible alternatives that are less distressing.
+Mental health providers need to keep in mind that 
+they must be available at all hours of the day to respond 
+to an emergent situation or traumatic event, and these 
+580
+Fundamentals of Military Medicine 
+events, along with enemy engagements, can result in 
+both the provider and the service member being unable to meet as scheduled. Thus, trying to schedule 
+treatment times with military personnel is difficult, 
+making the ability to capitalize on brief treatment 
+modalities key. Providers should adapt their treatment 
+to single-session models because they may not have 
+another opportunity for intervention. If the provider 
+determines that long-term, in-depth psychotherapy 
+is required, a risk assessment should be conducted 
+and consideration for transfer to a higher level of care 
+considered. 
+Medication Management in Theater
+Prior to the operations in Iraq and Afghanistan, 
+mental health treatment focused on triage and nonpharmacological interventions aimed at normalizing 
+and minimizing combat stress. Medications were generally used only in emergency situations to treat acute 
+psychosis or agitation, typically as chemical restraint 
+while awaiting evacuation. With the development of 
+selective serotonin reuptake inhibitors (SSRIs) in the 
+1990s, providers gained the ability to prescribe medications without requirements for laboratory monitoring, 
+concern for significant side effects, or risk of overdose. 
+This led to more common medication use in theater, 
+either because service members deployed already taking psychotropic medications, or they were prescribed 
+in theater. 
+For service members with previously identified 
+mental health conditions, the US Department of Defense specifies minimum mental health requirements 
+for deployment. Specific conditions such as bipolar 
+and psychotic disorder and classes of medications such 
+as lithium or anticonvulsants can disqualify service 
+members from deployment, while some may require 
+a waiver. 20 Factors to consider for deploying service 
+members with mental health conditions include the 
+ongoing ability to access care, the risk of worsening 
+symptoms, and continuity of care. A recent study 
+showed that when a continuity of care plan is put 
+in place prior to deployment, the risk of worsening 
+symptoms, mental health evacuation, and serious 
+events are decreased. 21
+Generally, combat and operational stress reactions 
+do not require treatment with medications other than 
+possibly short-term use of sleep aids. Those service 
+members who develop significant mood, anxiety, or 
+trauma- and stress-related disorders while deployed 
+may benefit from medication. Factors affecting the 
+decision to prescribe medications in the deployed environment include availability of medication, access to 
+follow-up, and potential side effects. The MMO must 
+balance these factors against an individual’s operational assignment, tempo of operations, and location. 
+There is no standardized mechanism for medication management in theater. The proximity of mental 
+health provider and pharmacy resources, as well as the 
+comfort level of the primary care provider in managing 
+psychotropic medications, will significantly impact the 
+process. Common patterns of care are either evaluation 
+and follow-up with a psychiatrist, or initial prescribing by a psychiatrist with follow-up by a primary care 
+provider (with or without telephonic consultation with 
+a psychiatrist). Despite these variables, certain factors 
+remain constant. Providers should generally prescribe 
+medication infrequently, ensure a reliable follow-up 
+mechanism, and evacuate service members with 
+prolonged or more than moderate-level symptoms. 
+The most common medications prescribed by theater 
+mental health providers during the Operation Iraqi 
+Freedom were SSRIs (40% of patients seen) and sleep 
+aids (38% of patients seen). 18
+The decision whether or not to prescribe psychotropic medications will be driven by the ability of the 
+provider to safely and effectively care for their units. 
+Providers must recognize the limitations of their 
+resources, capabilities, and situation, and make the 
+decision to treat in theater, return service members to 
+their home station, or delay treatment until the service 
+member returns home as scheduled. The key factors 
+that impact this decision include symptom severity, 
+current level of occupational dysfunction, response 
+to treatment, duty limitations due to the medications, 
+and the responsibilities the service member is expected 
+to perform. 
+Restoration Centers
+Treatment of a service member with a combat and 
+operational stress reaction is meant to be short in duration and should be carried out in close proximity to 
+the unit. The majority of combat and operational stress 
+reactions should be treated locally, with a maximum 
+of 1 to 2 nights away from their unit, typically at the 
+aid station or headquarters. However, if symptoms 
+are severe or persist beyond 72 to 96 hours, the MMO 
+should consider evacuation of the individual to a 
+higher level of care. In recent conflicts, theater commanders have established specialized restoration 
+centers to meet this need.
+Restoration centers are located in the theater of 
+operations but generally not close in proximity to 
+the unit or the front lines. These centers are staffed 
+by specialized mental health personnel and provide 
+service members with intensive outpatient treatment for up to a week. Typical interventions include 
+581
+ Combat and Operational Stress 
+cognitive and occupational therapy, with a focus on 
+expectancy and return to duty. All interventions occur within a highly structured military environment 
+to reinforce the concepts of contact and expectancy. 10 
+Service members whose symptoms do not improve 
+within 1 week are normally evacuated from theater 
+and returned to their home station for more intensive 
+psychiatric care. It is important to note that restoration 
+centers are not inpatient facilities; they do not have the 
+capacity to manage severely behaviorally disturbed or 
+dangerous patients other than for acute stabilization 
+and transport. In general, inpatient capabilities are 
+very limited in a deployed environment. 
+Management and Disposition of Severe Reactions 
+and Psychiatric Illness
+Regardless of prevention and resiliency efforts, 
+there will be a small percentage of patients with severe 
+and dangerous reactions and persisting psychiatric 
+illness. Acute psychosis and mania can render individuals dangerous due to unpredictable behavior 
+and ready access to weapons and live ammunition. 
+Individuals with suicidal ideation, whether in the 
+context of acute stressors or psychiatric illness, should 
+be similarly managed with extreme caution. Those 
+suffering severe symptoms placing them at risk for 
+suicide or unpredictable behavior require evacuation 
+from theater. MMOs must ensure continuous positive 
+control of such patients. 
+Once a service member with acute suicide risk 
+or unpredictable behavior is identified, the MMO 
+must ensure that the individual stays under direct 
+observation in a safe environment at all times until safely evacuated. This may involve holding the 
+person in the aid station with or without the use of 
+sedative medications or physical restraints. Releasing the individual to a “unit watch” should only be 
+considered when there is a reliable command representative educated on the individual’s condition, and 
+never as an alternative to evacuation. The unit must 
+designate a specific individual to take responsibility 
+for the soldier and understand the specific risks their 
+condition presents. Finally, the unit must ensure the 
+at-risk individual is not allowed access to weapons 
+while awaiting evacuation. 22
+MANAGEMENT OF COMBAT AND OPERATIONAL STRESS REACTIONS IN UNITS— 
+TRAUMATIC EVENT MANAGEMENT
+Exposure to combat-related potentially traumatic 
+events in which service members experience intense 
+feelings of terror, horror, helplessness, or hopelessness is one of the principal risk factors for behavioral 
+health problems in a combat setting. 23 Examples of 
+combat-related potentially traumatic events include 
+being ambushed by the enemy, being in close proximity to an improvised explosive device or booby trap 
+attack, or having a unit member seriously injured or 
+killed. Traumatic event management (TEM) describes 
+a process of intervention after a potentially traumatic 
+event to prevent, identify, and manage combat operational stress reactions in individuals and units as 
+early as possible. 
+ It is important to recognize that TEM is a continuous process and not an acute intervention. Prior to a 
+potentially traumatic event, leaders should be trained to 
+understand what events are potentially traumatic, how 
+to activate a TEM response, and what TEM services are 
+available. Following a potentially traumatic event, leaders 
+must ensure their service members are safe and in a secure location, that the basic needs of the service members 
+are met, and that a TEM response team is notified. Unit 
+MMOs and ministry personnel are a key link in identifying units at risk and experiencing signs of psychological 
+distress, as well as initiating the chain of response.
+A TEM team comprised of embedded mental 
+health providers and unit ministry personnel works 
+in conjunction with the unit leadership to proactively 
+manage the psychological effects of the traumatic experience. The TEM response begins with a general needs 
+assessment to determine the overall health of the unit 
+and whether service members need immediate mental 
+health care for combat operational stress reactions. 
+Mental health personnel also provide consultation and 
+education to unit leaders and service members regarding available services and how to access mental health 
+care. It is important throughout this process that the 
+TEM response team work in close cooperation with the 
+unit leadership to reinforce the perception that leaders 
+are requesting intervention on behalf of the unit. 
+A key event during the initial response phase is 
+the leader-led after action review. This review is not a 
+psychological debriefing but rather a military process 
+that assists in encouraging service members to talk 
+about the event. In healthy units this review is part of 
+the innate battle rhythm and not a special event when 
+a potentially traumatic event occurs.
+Historically, the military mental health provider in 
+conjunction with the unit leader determined if a group 
+psychological debriefing should be conducted. There 
+are numerous psychological debriefing models; however, each model focuses on recognizing the trauma 
+and processing reactions to it. These debriefings differ 
+582
+Fundamentals of Military Medicine 
+from military after action reviews in that the focus is on 
+individual’s psychological reactions and is conducted 
+by a trained counselor. Most debriefing models derive 
+from the work of Marshall during World War II. 24 Of 
+note, Marshall’s sessions were not intended to provide 
+psychological benefits but rather to gather historical 
+data for military record keeping; however, he noted 
+that the process provided clarity of events and support 
+for the participants. He surmised that these debriefings 
+helped to decrease the development of combat stress 
+reactions. 24
+The effectiveness of psychological debriefings 
+continues to be debated by both military and civilian 
+mental health providers. Few research studies have 
+focused specifically on the effectiveness or risk/benefit 
+of psychological debriefings in military populations. 
+In contrast, civilian studies of victims are mixed with 
+some demonstrating benefits as well as negative outcomes. 25–29 A recent Cochrane analysis recommended 
+against using psychological debriefings citing that the 
+risks outweighed the benefits based on the civilian 
+literature. 29 A key limitation to both the civilian data 
+and the Cochrane review is the lack of a standardized 
+TEM debriefing process. There are multiple models 
+practiced commonly in TEM debriefings including 
+critical event debriefing (CED), critical incident stress 
+debriefing (CISD), psychiatric debriefing, historical 
+debriefing, and intelligence debriefing. A lack of consistent standardized protocols for TEM debriefing group 
+formation and execution limits the ability to assess its 
+effectiveness and the conclusions that can be drawn 
+from such studies. 
+In spite of all of the concern about potential risk 
+and lack of effectiveness, psychological debriefings remain a tool frequently employed by military 
+mental health providers as military leaders are attuned to the long-term risks of exposure to potentially traumatic events. As such, MMOs and mental 
+health providers should pursue the most up-to-date 
+evidence on TEM. The current US Army Combat 
+Operational Stress Control field manual provides a 
+guideline for TEM operations but leaves the decision to conduct a psychological debriefing and the 
+method of debriefing open to the mental health 
+provider. 10 A recent review of practices used among 
+NATO forces in Afghanistan indicated that some 
+sort of group intervention remains the norm, but 
+that the term “debriefing” is generally avoided. 30
+SUMMARY
+Combat and operational stress control is a collective 
+effort of individuals, unit leaders, medical, ministry, 
+and mental health personnel. It requires understanding of the fundamentals of human stress response, and 
+knowledge of the predictable patterns of stress injury. 
+The MMO has an obligation to promote psychological resilience within their unit and is a key source of 
+surveillance and recommendations for unit leaders. 
+When properly managed, the majority of individuals suffering even the most severe acute stress injuries will likely recover with simple PIES/BICEPS 
+interventions and return to duty. The MMO can 
+initiate many of these interventions with or without 
+the assistance of mental health personnel. Finally, 
+when potentially traumatic events occur, the MMO 
+should understand the principles of traumatic event 
+management and be prepared to request mental 
+health assistance.
+ 
+1. Mora F, Segovia G, Del Arco A, de Blas M, Garrido P. Stress, neurotransmitters, corticosterone and body-brain integration. Brain Res. 201;1476:71–85. doi: 10. 1016/j.brainres. 2011. 12. 049.
+ 
+2. Nash WP. US Marine Corps and Navy combat and operational stress continuum model: a tool for leaders. In: Ritchie 
+EC, ed. Combat and Operational Behavioral Health. Fort Detrick, MD: Borden Institute; 2011: Chap 7.
+ 
+3. Grossman DA. On Killing: The Psychological Cost of Learning to Kill in War and Society. New York, NY: Back Bay Books/
+Little Brown and Company; 2009.
+ 
+4. Nash WP. Combat/operational stress adaptations and injuries. In Figley CR, Nash WP, eds. Combat Stress Injury: Theory, 
+Research, and Management. New York, NY: Routledge; 2007: Chap 3.
+ 
+5. Braceland F. Psychiatric lessons learned from World War II. Am J Psychiatry. 1947;103(5):587–593.
+ 
+6. Gibbons SW, Shafer M, Aramanda L, Hickling EJ, Benedek DM. Combat health care providers and resiliency: adaptive 
+coping mechanisms during and after deployment. Psychol Serv. 2014;11(2):192–199. doi: 10. 1037/a0033165.
+REFERENCES
+583
+ Combat and Operational Stress 
+ 
+7. Agorastos A, Pittman JO, Angkaw AC, et al. The cumulative effect of different childhood trauma types on self-reported 
+symptoms of adult male depression and PTSD, substance abuse and health-related quality of life in a large active-duty 
+military cohort. J Psychiatr Res. 2014;58:46–54. doi: 10. 1016/j.jpsychires. 2014. 07. 014.
+ 
+8. Mulligan K, Jones N, Davies M, et al. Effects of home on the mental health of British forces serving in Iraq and Afghanistan. Br J Psychiatry. 2012;201(3):193–198. doi: 10. 1192/bjp.bp. 111. 097527.
+ 
+9. Sundin J, Jones N, Greenberg N, et al. Mental health among commando, airborne and other UK infantry personnel. 
+Occup Med (Lond). 2010;60(7):552–559. doi: 10. 1093/occmed/kqq129.
+ 10. US Department of the Army. Combat and Operational Stress Control. Washington, DC; DA; 2006. Field Manual 4-02. 51.
+ 11. Litz BT, Stein N, Delaney E, et al. Moral injury and moral repair in war veterans: a preliminary model and intervention 
+strategy. Clin Psychol Rev. 2009;29(8):695–706. doi: 10. 1016/j.cpr. 2009. 07. 003.
+ 12. Rock NL, Stokes JW, Koshes RJ, Fagan J, Cline WR, Jones, FD. US Army combat psychiatry. In: Jones FD, Sparacino 
+LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War Psychiatry. Washington, DC: Office of the Surgeon General of the 
+Army, Borden Institute; 1995: Chap 7. 
+ 13. Jones E, Wessely S. “Forward psychiatry” in the military: its origins and effectiveness. J Trauma Stress. 2003;16(4):411–419. 
+doi: 10. 1023/a:1024426321072.
+ 14. Jones DR. US Air Force combat psychiatry. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War 
+Psychiatry. Washington, DC: Office of the Surgeon General of the Army, Borden Institute; 1995: Chap 8.
+ 15. Helmus, TC, Glenn RW. Steeling the Mind: Combat Stress Reactions and Their Implications for Urban Warfare. Santa Monica, 
+CA: RAND Corporation; 2005.
+ 16. Belenky GL, Tyner CF, Sodetz FJ. Israeli Battle Shock Casualties: 1973 and 1982. Washington, DC: Walter Reed Army 
+Institute of Research; 1983. 
+ 17. Warner CH, Breitbach JE, Appenzeller GN, Yates V, Grieger T, Webster WG. Division mental health in the new brigade 
+combat team structure: part I. Predeployment and deployment. Mil Med. 2007;172(9):907–911. 
+ 18. Schmitz KJ, Schmied EA, Webb-Murphy JA, et al. Psychiatric diagnoses and treatment of U.S. military personnel while 
+deployed to Iraq. Mil Med. 2012;177(4):380–389. 
+ 19. Bourne EJ. The Anxiety and Phobia Workbook. 5th ed. Oakland, CA: New Harbinger Publications Inc; 2010.
+ 20. US Department of Defense. Deployment-Limiting Medical Conditions for Service Members and DoD Civilian Employees. 
+Washington DC: DoD; 2010. DoD Instruction 6490. 07.
+ 21. Warner CH, Appenzeller GN, Parker JR, Warner CM, Hoge CW. Effectiveness of mental health screening and coordination of in-theater care prior to deployment to Iraq: a cohort study. Am J Psychiatry. 2011;168(4):378–385. doi: 10. 1176/
+appi.ajp. 2010. 10091303.
+ 22. Payne SE, Hill JV, Johnson DE. The use of unit watch or command interest profile in the management of suicide and 
+homicide risk: rationale and guidelines for the military mental health professional. Mil Med. 2008;173(1):25–35. 
+ 23. Fontana A, Rosenheck R. Psychological benefits and liabilities of traumatic exposure in the war zone. J Trauma Stress. 
+1998;11(3):485–503. doi: 10. 1023/a:1024452612412.
+ 24. Koshes RJ, Young SA, Stokes JW. Debriefing following combat. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, 
+Stokes JW, eds. War Psychiatry. Washington, DC: Office of the Surgeon General of the Army, Borden Institute; 1995: 
+Chap 11.
+ 25. Adler AB, Castro CA, McGurk D. Time-driven battlemind psychological debriefing: a group-level early intervention 
+in combat. Mil Med. 2009;174(1):21–28. 
+584
+Fundamentals of Military Medicine 
+ 26. Jacobs J, Horne-Moyer HL, Jones R. The effectiveness of critical incident stress debriefing with primary and secondary 
+trauma victims. Int J Emerg Ment Health. 2004;6(1):5–14. 
+ 27. MacDonald CM. Evaluation of stress debriefing interventions with military populations. Mil Med. 2003;168(12):961–968. 
+ 28. Mitchell SG, Mitchell JT. Caplan, community, and critical incident stress management. Int J Emerg Ment Health. 
+2006;8(1):5–14. 
+ 29. Rose S, Bisson J, Churchill R, Wessely S. Psychological debriefing for preventing post traumatic stress disorder (PTSD). 
+Cochrane Database Syst Rev. 2002(2):Cd000560. doi: 10. 1002/14651858.cd000560.
+ 30. Vermetten E, Greenberg N, Boeschoten MA, et al. Deployment-related mental health support: comparative analysis 
+comparative analysis of NATO and allied ISAF partners. Eur J Psychotraumatol. 2014;5. doi: 10. 3402/ejpt.
+v5. 23732. 

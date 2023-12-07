@@ -1,0 +1,1111 @@
+251
+The Soldier and Autonomy
+Chapter 9
+THE SOLDIER AND AUTONOMY
+SANDRA L. VISSER, PHD*
+INTRODUCTION
+PRINCIPLES OF AUTONOMY
+The Harm Principle
+The Legal-Moral Principle
+The Principle of Paternalism
+THE HARM PRINCIPLE AND THE MILITARY MISSION
+INDIVIDUAL LIBERTY VS THE NEEDS OF THE ARMY
+Conscientious Objection
+Following Orders
+CONCLUSION
+*Associate Professor of Philosophy, Department of Philosophy, Valparaiso University, Valparaiso, Indiana 46383; formerly, Assistant Professor of Philosophy, Department of English, United States Military Academy, West Point, New York
+252
+Military Medical Ethics, Volume 1
+SFC Peter G. Varisano
+On Guard at Sunset
+Saudi Arabia, 1991
+Sergeant Varisano was part of an art team called upon to document Operation Desert Shield in the Persian Gulf War.
+This watercolor, depicting the loneliness and responsibility of guard duty, also depicts all soldiers who, by virtue of
+being soldiers, set aside their individual autonomy for this period to be part of the team and the mission. Image
+available at: http://www.army.mil/cmh-pg/art/display2.htm.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+253
+The Soldier and Autonomy
+INTRODUCTION
+Frank wakes up and puts on the clothes he’s been
+told to wear. He eats breakfast and leaves his
+designated house. He was assigned to live in
+a neighborhood where others of his station in life
+live. All the houses are nearly identical with nicely
+kept lawns. His “area coordinator” tells him he must
+keep his yard tidy, which he does lest the area coordinator complain to Frank’s boss. Frank drives
+to work, carefully observing the speed limit because
+the police will tell his boss if he frequently gets
+caught speeding. He wishes he could wear whatever clothes he wants, drive his car how he wants
+without getting fired, and live where he wants.
+Frank also doesn’t like the leader of his country very
+much, but he cannot demonstrate or go to political
+rallies in his work clothes. Frank can vote for someone else, but he cannot make public statements
+about his disagreements with his country’s current
+leader. If he makes such statements too publicly, he
+will get in trouble with his boss. Frank believes so
+much in personal liberty and freedom that he has
+dedicated his life to ensure that everyone in his
+country can have many of the freedoms he lacks.
+Frank is in the US Army. Strangely enough, he
+doesn’t have many of the freedoms he is willing to
+fight for. The Army, purportedly by necessity, is
+a nondemocratic, absolutist system designed to
+defend democracy. Does the Army legitimately
+take away so many personal freedoms? If so,
+why?
+In a country in which personal liberty is highly
+valued, soldiers’ (in this chapter soldier refers to
+both officers and enlisted personnel) losses of personal autonomy are marked and frequently give rise
+to personal conflicts. This chapter will examine personal autonomy, its limits in a democratic society, and
+its limits in the military of a democratic society.
+For the purposes of this discussion, personal autonomy will be understood as the freedom to choose
+among several courses of action without fear of coercion or other controlling interference. Champions
+of autonomy, as most Americans are, generally
+value its free exercise for two reasons. The first reason lies in human nature, specifically human rationality. Humans have the ability to make decisions
+about courses of action based on their goals and
+desires and their anticipation of the results of various potential courses of action. This is an ability
+few other animals have and it should be highly valued. Thus, humans ought to be able to use it. John
+Stuart Mill most clearly articulated the second reason for valuing autonomy. Exercise of autonomy of
+action and speech is beneficial for society—it promotes creativity, individuality, and individual
+growth, which have long-term beneficial effects for
+society as a whole.
+PRINCIPLES OF AUTONOMY
+Though free exercise of personal autonomy (or
+liberty) is a central value in democratic nations, it
+must sometimes be restricted. Restrictions tend to
+be justified based on one of three principles: (1) the
+harm principle, (2) the legal-moral principle, and
+(3) the principle of paternalism.
+The Harm Principle
+The harm principle, espoused by John Stuart
+Mill, is the least restrictive of the three. It says that
+one’s personal autonomy should only be limited in
+order to prevent harm to others. In Mill’s words:
+[T]he sole end for which mankind are warranted,
+individually or collectively, in interfering with the
+liberty of action of any of their number, is self-protection.… [T]he only purpose for which power can
+be rightfully exercised over any member of a civilized community, against his will, is to prevent
+harm to others. 1
+Mill goes on to assert that in the case of injury to
+others, society has an obligation to prevent, stop,
+and punish harm to others. An action is harmful to
+another if it affects him in such a way as to restrict
+his freedom without his free, informed, undeceived
+consent. Examples of such restrictions of freedom
+include physical harm to others, breaking of contracts, and stealing property.
+Two more specific examples of how the harm
+principle works might be helpful here. The United
+States Military Academy (USMA) requires its male
+plebes (freshmen) to take boxing. Frequently, boxers hurt their opponents. Such physical harm,
+though it does restrict the freedom of the injured
+party, does not take place without his free, undeceived consent. Before cadets get to the Academy,
+they know that they must take boxing. Because they
+are free to leave without penalty in their first year,
+they implicitly consent to take boxing, and risk
+whatever physical injury may result. Thus, though
+254
+Military Medical Ethics, Volume 1
+boxers frequently hurt each other, such activities
+need not be stopped according to the harm principle.
+One of the many unique practices at USMA will
+serve as a second example of how the harm principle works in a specific context. Because there is
+an expectation that cadets are honest, borrowing is
+a common practice at the Academy. Historically,
+cadets have been allowed to borrow items from
+another cadet without the latter’s knowledge. Most
+of the time, cadets remembered to return the items
+in a timely fashion, so such borrowing was unregulated. However, over the years, it became clear that
+not all borrowing, even true instances of it, proved
+harmless to the one being borrowed from. Frequently a cadet would borrow a book or cassette
+tape fully intending to return it. Being human, the
+borrower would occasionally forget to return the
+item. The person from whom the item was borrowed could not find it when he wanted or needed
+it. Thus, in order to prevent the harm that was occurring, Academy officials instituted a policy requiring borrowers to leave a note indicating which
+items they borrowed and when they took them.
+Though instituting such a policy restricts the freedom of the borrower in some way, the restriction is
+justified because of the harm done to someone
+whose items are unavailable to him when he needs
+or wishes to use them.
+A similar issue arises in the civilian world. In
+many small towns teenagers enjoy skateboarding
+and rollerblading down handrails. They wax them
+so that they can go faster. Being young and ablebodied, they frequently fail to realize that waxing
+the rails makes them unhelpful for people who need
+them for support. Thus, in order to prevent damage to public property and prevent the harm caused
+to those who cannot use the waxy, damaged rails,
+towns prohibit waxing and skateboarding or rollerblading on public handrails.
+The harm principle entails that actions that
+cause harm might depend on one’s freely chosen
+profession or occupation. The duties one incurs as
+a result of becoming a soldier might limit one’s
+freedom in certain respects, but it might broaden
+it in others. The typical citizen should not lie in wait
+in order to kill another human, though a soldier
+might be required to do so during a time of war.
+An accountant might be able to do his job well
+despite being grossly overweight, but an infantryman cannot. Thus, an accountant is free to be
+fat, because he alone suffers any ill effects, but
+an infantryman violates another’s liberty by being
+grossly overweight. He harms those who legitimately depend on him to perform his job well.
+This principle allows people to practice even
+those activities that others deem immoral, as long
+as they do not harm others. It is the least restrictive of the three.
+The Legal-Moral Principle
+A more restrictive principle is the principle of
+legal moralism. According to this principle, one is
+justified in limiting another’s freedom if that person is performing or is planning to perform an
+immoral action. Assume that illicit drug use is
+immoral. If it is, it is the reason that justifies governments making all drug use of certain types illegal. For example, under the harm principle cocaine
+use would be permissible as long as the user did
+not violate any of his obligations as a result. He
+could be punished only if he turned to a life of
+crime, drove while under the influence of cocaine, beat his children, or brought about some
+harm to others as a result. Then, he would only
+be punished for the harmful actions he committed as a result, not for using the drug. However,
+under the more restrictive principle of legal moralism, he could be punished or prevented from
+using cocaine in the first place, because cocaine
+use, in itself, is immoral.
+The problem with this principle, and one reason
+many people reject it, is its close relationship with
+morality. People’s views of morality are notoriously
+diverse—some believe that working on Sunday is
+immoral, others think that working on Saturday is
+immoral, still others believe that which days one
+works has nothing to do with morality. Though
+there is some objective standard of morality, people
+are generally loath to give the government, even
+one democratically run, the say in deciding where
+the moral boundaries lie.
+The Principle of Paternalism
+The final principle is the principle of paternalism. It comes in various forms, but essentially states
+that one may restrict the freedom of another if it is
+for his own good and is in his long-term best interests. Mill strongly opposes a paternalistic principle.
+His own good, either physical or moral, is not a
+sufficient warrant. He cannot rightfully be compelled to do or forbear because it will be better for
+him to do so, because it will make him happier,
+because in the opinion of others, to do so would be
+255
+The Soldier and Autonomy
+wise, or even right. These are good reasons for remonstrating with him, or reasoning with him, or
+persuading him, or entreating him, but not for compelling him, or visiting him with any evil in case
+he do otherwise. To justify that, the conduct from
+which it is desired to deter him must be calculated
+to produce evil to someone else. The only part of
+the conduct of anyone, for which he is amenable to
+society, is that which concerns others. In the part
+which merely concerns himself, his independence
+is of right, absolute. 1
+Paternalistic interference into someone’s life,
+even when the interference comes with the best intentions, should never occur, according to Mill.
+People are better off if they can exercise their freedom and learn from both their successes and failures as long as they only harm themselves with their
+actions.
+The military, and especially the United States
+Military Academy (USMA), engages in many practices that appear paternalistic. Sometimes rules that
+the military enforces look like they are merely for
+the good of the soldier, but the military really has a
+legitimate interest in having the soldiers act in the
+regulated way. Other times, however, the rules are
+purely paternalistic, no matter how one considers
+it. A good example of this is a rule that is periodically enforced at USMA. Cadets, perhaps unsurprisingly, don’t like to make their beds. Many cadets save time and trouble by sleeping on top of
+their beds and using some other blanket, which isn’t
+hard to make neat as a top cover. While such behavior might seem silly, it isn’t really harmful. Cadets who sleep on top of their blankets aren’t any
+less healthy than those who sleep between the
+sheets. The rules are a clear product of paternalism: The Academy does not have anything to gain
+by having the cadets sleep between their sheets; the
+cadets should just do it because they will see that
+in the long run they like it better.
+Mill rejects such rules on the grounds that a
+person’s right to determine his own ends, even if
+they appear to be harmful to himself, superseded
+someone else’s obligation to help him out. Mill’s
+creed is: help only those that desire help; help no
+one against his will. Mill’s beliefs echo the ideological slant of most Americans in that regard; having
+someone else determine what is best for oneself
+grates against most American sensibilities.
+In summary, personal autonomy is something
+Americans hold dear, with good reason. However,
+personal liberty cannot be completely unrestricted,
+because many of the actions people perform affect
+those around them. Thus, every society and every
+organized group within that society must restrict
+its members’ freedom to a certain extent. Of the
+many principled ways of restricting one’s freedom,
+this chapter has focused on three: the harm principle, the legal-moral principle, and the principle
+of paternalism. Each of the three rests on a different assumption about the place of personal liberty
+among other important values. The harm principle
+holds personal liberty as its highest value, and
+would restrict personal freedom only when it interferes with another person’s ability to legitimately
+exercise his own freedom. The legal-moral principle
+subordinates personal liberty to morality. In practice, the specific moral rules that restrict autonomy
+take the form of laws that the society recognizes.
+Finally, the principle of paternalism subordinates
+an individual’s autonomy to what a privileged person or group of people believe to be in the best interest of that individual.
+In order for an organization to act consistently,
+it should only use one set of principles of autonomy
+for each distinct goal. The principle it applies should
+be consistent with that organization’s explicit or
+implicit values and that specific goal, so that its
+treatment of its members accurately reflects its values. The military should fulfill its mission within
+the ideological framework of the society that it
+serves. Though not an uncontroversial claim, it is
+not unreasonable to take the position that the principle that best reflects fundamental American values is the harm principle.
+Admittedly, there are numerous laws in the
+United States that are somewhat paternalistic and
+moralistic (such as helmet laws for bikes and motorcycles), but debates usually rage around laws
+that are purely paternalistic and moralistic (such as
+the drinking age and the use of marijuana). Moreover, supporters of those laws usually end up claiming that such laws are in the collective interest of
+the society. Such arguments indicate that many
+Americans would find unacceptable explicit appeals to morality or paternalism as the sole principle for lawmaking.
+In addition, the mere fact that open argument
+about which principle is best supports the claim that
+freedom, in both beliefs and actions, is the strongest value that America as a whole supports both
+Constitutionally and as a matter of popular belief.
+As a result, it appears that the Army ought to regulate itself in accord with the harm principle, and
+despite their appeal, not with the legal-moral principle or the principle of paternalism.
+256
+Military Medical Ethics, Volume 1
+THE HARM PRINCIPLE AND THE MILITARY MISSION
+The question, then, is one of how to apply the
+harm principle to members of the military. In other
+words, soldiers’ personal autonomy should only be
+limited in order to prevent harm to others, including the organization. Considering all the restrictions
+of autonomy soldiers actually experience, does the
+Army unnecessarily violate the harm principle?
+It is important to remember that in the All Volunteer Force (AVF), the soldier enters the military
+knowing its goals and commits to accepting them as
+his own. While the United States currently has an
+All Volunteer Force, this has not always been the case
+and it is possible that it won’t be the case in the future. For the purposes of this discussion, we will assume that society has moral justification to utilize
+a military draft in order to protect itself. The argument for this justification is beyond the scope of this
+chapter. It is this author’s opinion that the limitations on autonomy should be the same for all soldiers regardless of how they entered the military.
+Thus, the military can limit soldiers’ autonomy
+consistent with the harm principle. Specifically, the
+Army takes steps to insure that soldiers’ behavior
+doesn’t harm others or the organization itself, so it
+legitimately limits soldiers’ autonomy. The Army
+has a particular mandate to fulfill2:
+• Support and defend the Constitution of the
+United States against all enemies, foreign
+and domestic.
+• Ensure, by timely and effective military action, the security of the United States, its
+territories, and areas vital to its interest.
+• Uphold and advance the national policies
+and interests of the United States.
+• Safeguard the internal security of the
+United States.
+The military accomplishes its purpose, in large part,
+with the use of volunteered human resources. As a
+result, it must safeguard those resources.
+Beginning with the seemingly less important, but
+highly annoying restrictions of liberty, the military
+appears to act paternalistically. It dictates that its
+members be healthy, have plans for childcare, have
+tidy lawns, wear seatbelts, wear helmets while biking and motorcycling, and so on. Are such rules justified in an organization that should (as an explicitly American organization) reject the principle of
+paternalism? Though the paternalism principle
+might seem to be the obvious justification for the
+rules, the same rules can be generated using the harm
+principle. First, one’s physical condition is usually
+crucial to performing one’s military job well; the
+military wishes to safeguard its members. Thus,
+there are rules about physical fitness, wearing
+seatbelts and helmets, and not being addicted to
+drugs or alcohol. Second, because the most important parts of soldiers’ jobs entail that they carry
+them out away from their families, having plans for
+childcare is important to ensure soldiers’ mental
+well-being when separated from their families.
+Fewer emotional concerns will allow them to concentrate on their jobs better than otherwise. Third,
+even having a tidy lawn is important, because a tidy
+lawn is part of “good order” and “good order” is
+essential to maintaining operational readiness. Because the money for housing comes exclusively
+from taxpayers, well-maintained housing is better
+than ill-kept housing, for which taxpayers (and
+members of Congress) might not be willing to pay.
+Even though good commanders promote many
+of these rules among their subordinates in ways that
+don’t explicitly appeal to the reasons outlined above
+(so well-kept housing is encouraged by appealing
+to its function as a morale booster or by subsuming
+it under the principle of taking good care of the
+equipment one is issued [which, incidentally, has
+been stressed much more as budgets become more
+and more limited]), it is the harm principle that
+drives the rules. So, though the military often looks
+like it acts paternalistically, the restrictions that actually ensure that soldiers’ behavior doesn’t harm
+the organization are justified. Those that are exclusively paternalistic are not justified, in this author’s
+opinion.
+INDIVIDUAL LIBERTY VS THE NEEDS OF THE ARMY
+In addition to the apparently less important restrictions of autonomy soldiers face in the Army,
+there are several fundamental issues concerning the
+clash between individual liberty and the needs of
+the military. Foremost among these are issues of conscientious objection and following orders. These
+will be discussed in detail in this chapter. A third
+issue, that of making judgments about appropriate
+medical care, is an especially interesting issue because it concerns the autonomy of patients and doctors, the legitimate goals of the Army, and the clash
+between two sets of professional values for the mili257
+The Soldier and Autonomy
+tary healthcare professional. These issues are discussed elsewhere in some depth by Howe in Chapter 12, Mixed Agency, in this volume, as well as
+Howe and Jones,3 and Beauchamp and Childress. 4
+Conscientious Objection
+Conscientious objection (for those who have already joined the military of their own volition)
+seems to involve a clash between an individual’s
+autonomy and prior expectations of the military experience, and the reality of life in the military. Current regulations ameliorate but do not completely
+relieve this tension. An application of the harm principle based on an understanding of the purpose of
+the Army can, however, help resolve the tension.
+Current Regulations
+US Army regulations accommodate a secular society by providing for the separation of those who
+have “a firm, fixed and sincere objection to participation in war in any form or the bearing of arms
+because of religious training and belief”5(Gloss) where
+such beliefs “may include solely moral or ethical
+beliefs.”5(Gloss) Prior to the advent of an all-volunteer
+force in 1973, one filed for conscientious objector
+status before entering the armed forces. Current
+regulations allow one to apply while serving because the military realizes that a person’s beliefs
+can change over time. Many of the people now joining the military do so at a fairly young age, before
+they fully form their belief systems. As they mature or gain more experiences, it is possible that they
+might legitimately change their basic beliefs. Thus,
+if a soldier has a significant change in outlook, there
+is a legitimate claim to conscientious objector status even though the individual originally volunteered to be in the armed forces.
+Army regulations allow an objection to war in
+general (hereafter referred to as moral pacifism) but
+not to a particular war (hereafter referred to as situational pacifism). Soldiers are not allowed to leave
+the Army because they have decided for pragmatic
+or political reasons that the appropriate response
+to a particular situation is nonviolence rather than
+violence. The following discussion explores the rationale for this policy.
+Moral Considerations of Conscientious
+Objection/Pacifism
+The relevant moral considerations pertaining to
+pacifists break into two categories: concerns with
+moral pacifists and concerns with situational pacifists. One of the foundations of the United States is
+the freedom to act in accordance with a wide range
+of convictions, and in most cases, Americans are
+allowed to act as they see fit as long as their behavior does not harm or interfere with the rights of
+another. It follows that moral pacifists should be
+allowed to resign from the Army, and regulations
+allow for that.
+The status of a situational pacifist is parallel but
+significantly different. A common reason to think
+about leaving the US armed forces or to desire to
+forego fighting in a particular war is because one
+believes that for certain moral reasons, one ought
+not be fighting in it. If a particular war is morally
+unjustified, the killing that the soldier did would
+be morally wrong (on a moral par with murder).
+Of course, even though the killing would be morally wrong, it would not be illegal. As a general rule,
+soldiers cannot be held accountable for knowing
+whether a particular war is morally acceptable because most members of the military have much less
+information than necessary to make an educated
+decision. Thus, one fighting in an immoral war
+might not be blameworthy for the bad actions taken
+in the war (barring war crimes). Culpability aside,
+if one believed that the war on which one were to
+embark was immoral, then one would believe that
+he was going to unjustifiably kill people. Is it fair
+to force someone to do something he believes is
+willful and unjustified killing? Do we have a strong
+prima facie reason to allow situational pacifists out
+of the Army, even though the regulations say they
+must stay in?
+The topic is more complex than it first appears
+because the Army has a twofold obligation that
+comes into conflict with an individual soldier’s
+desires to make autonomous decisions. First, it must
+protect the interests and persons of the citizens of
+the United States. This obligation is obvious—without people to protect, there is no need for an army
+in the first place. Second, the military must ensure
+the well-being of its soldiers and officers. Each of
+these obligations is moral, not merely legal. Thus,
+the armed forces have an obligation to be as effective as possible. The more effective they are, the
+more able they are to fulfill their first obligation.
+The Army is most effective when cohesive units
+comprise it. The well-being of each member of a unit
+is also enhanced when he is a member of a cohesive unit. Thus, cohesion is necessary in order to
+satisfy both the first and second obligations of the
+Army. (See Chapter 6, Honor, Combat Ethics, and
+Military Culture for a further discussion of cohe258
+Military Medical Ethics, Volume 1
+sion.) However, cohesion is damaged when members of a unit decide either before or during a particular conflict that they will not participate. Such
+a possibility weakens the perceived trust and dedication the unit’s members have for each other. The
+Army cannot allow harm to come to the unit as a
+whole or its soldiers as members of that group. As
+a result, the Army has a moral interest in denying
+situational pacifists conscientious objector status.
+This interest is indeed moral, even though we have
+explained it by showing practical results of allowing situational pacifists to leave the Army.
+A unit’s effectiveness also depends on having
+well-trained people for each role that it has. Everyone in a unit has a distinct job, and the skills required for each job must be practiced. Many of the
+jobs are not easily interchangeable. As a result, soldiers are not simply cogs in a machine. Each has a
+particular function. To allow people to leave the
+military prior to a war means that the Army must
+suddenly and unexpectedly allow key positions to
+go unfilled, which in turn has a negative impact on
+unit effectiveness. Furthermore, the Army must be
+able to depend on soldiers to be combat ready. If,
+as an institution, the military provided soldiers a
+means to “opt out” of the most rigorous and dangerous duties, the military could not depend on any
+units to be deployable. Indeed, as has been shown
+with combat stress reaction, as discussed by Jones6–8
+(as well as discussed in Chapter 12, Mixed Agency,
+in this volume), inappropriate evacuation for
+minimal dysfunction can open the floodgates to extensive personnel losses. Similarly, allowing individuals to claim situational pacifism might open a
+comparable floodgate. Thus, given the Army’s twofold moral obligation, it has a prima facie obligation
+to deny situational pacifists (and by this argument
+moral pacifists as well) the freedom to leave the
+military.
+A unit’s effectiveness is also dependent on the
+morale of its members. It is possible that a retained
+situational pacifist will have negative effects on
+morale by grousing, or convincing other soldiers
+that their cause in a particular instance is not just.
+It might also introduce divisions into a unit by placing those who support the government’s aims and
+those who do not in close proximity to each other.
+For this reason, the Army has a prima facie obligation to allow situational pacifists to leave. Thus, we
+have conflicting prima facie moral obligations—an
+obligation to deny situational pacifists the freedom
+to leave vs an obligation to allow them the freedom
+to leave. Two more relevant factors facilitate a resolution to this conflict.
+First, members of the military have an obligation
+to the state, and when they attempt to leave they
+are violating that obligation. When joining the military, a soldier, in effect, enters into a contract with
+the state. Members of the state have agreed to pay,
+feed, house, and provide for the medical needs of
+soldiers. In some cases, they agree to educate them
+and provide them with pensions. The government
+notifies the soldier (by declaring war or dispatching the soldier on an operation other than war)
+when the need for services in that capacity arise.
+Thus, when a soldier says, “I have decided that I
+ought not engage in this particular activity,” the
+soldier is also implicitly saying, “I know that I told
+you I would protect your interests in exchange for
+a salary, food, housing, medical care, and training,
+and you have upheld your end of the bargain, but I
+made a mistake. I cannot perform my job in good
+conscience. You must let me out of the contract (at
+no cost to myself).”
+Other things being equal, such a breach of contract is immoral and is likely to cause harm to the
+Army. The soldier voluntarily entered into the contract, thereby limiting his autonomy in certain respects. Suppose that the situational pacifist offers
+to pay the government back for the money it has
+invested in him, or that he offers to fulfill his time
+in a nonmilitary capacity. Would it then be acceptable to allow situational pacifists out of the Army?
+No, because that is not the deal the military made.
+Part of the reason is that once the person is trained
+in a particular Army unit, the Army risks too much
+of a loss to allow such an opting out. Thus, to leave
+the military as a result of situational pacifism is an
+unjustified breach of contract and therefore is justifiably prevented using the harm principle.
+Second, members of the military have given up
+their rights to decide which wars should be fought
+and which should not. It is one of the explicit conditions of joining the military. Soldiers and officers
+have given up that much of their political freedom.
+Thus, by entering the military they have decided
+(or should have decided) that they trust the state’s
+ability to engage only in morally justified wars. If
+they do not trust the state to make those decisions,
+then they should not enter the military. Thus, before they enter the military, citizens have an obligation to consider the possibility that they will disagree with the state’s decisions. If they decide to
+enter the military, they should come to terms with
+the fact that they might have to fight in what they
+believe to be unjust wars. Those who mistrust the
+judgment of the United States government when it
+comes to waging war should not enter the military
+259
+The Soldier and Autonomy
+in the first place; they have knowingly restricted
+their autonomy by joining the Army.
+In sum, the conflicting rights and duties of the
+military and the soldier are as follows: A soldier has
+a right (and generally an obligation) to refrain from
+what he believes to be immoral actions (such as engaging in an immoral war). A soldier has a moral obligation to uphold contracts into which he has freely
+entered. The military has an obligation to effectively
+protect Americans and an obligation to ensure the
+well-being of its soldiers. The military has an obligation to enforce its contract with soldiers into
+which it entered on the behalf of American citizens.
+One can now see, at least in part, why the Army
+does not allow situational pacifism. The Army is
+taking steps to insure that it can perform its moral
+obligations. By denying situational pacifists conscientious objector status, the Army is taking steps to
+fulfill its obligations to prevent harm to the citizens
+of the United States and the soldiers that comprise
+the Army.
+However, one still might question whether it is
+the best moral position. It seems that the Army’s
+position ignores individuals’ rights to act on their
+deepest, most sincere convictions. In effect, by denying conscientious objector status to situational
+pacifists, the Army is telling people that they must
+kill other innocent people, even when they believe
+that the killing is murderous. And this seems to be
+a very difficult position to take, especially because
+the Army discharges moral pacifists.
+All the arguments that support the position that
+situational pacifists should stay in the Army—unit
+cohesiveness, unit competence, contractual obligation to the state—support the position that moral
+pacifists should stay in the Army as well. And if
+moral pacifists should be allowed to leave because
+their rights to act on rational, nonharmful, deepseated convictions ought not be violated in the
+United States, then it appears that situational pacifists should be released on those grounds as well.
+Is the difference in treatment justified? Yes.
+The two situations are relevantly different on one
+point. Moral pacifists have decided that all violence
+is wrong, regardless of circumstances. Situational
+pacifists have decided that they would like to retain their right to decide when to fight and when
+not to fight; they have not decided that all violence
+is wrong. They have decided that one particular war
+is immoral. They make this judgment based on the
+limited information that they have at their disposal.
+In many cases, relevant information is justifiably
+kept from them for security reasons. Sometimes the
+information is kept from them for unjustified reasons, as well. For whatever reason, in many cases
+soldiers do not know whether their leaders are acting morally or immorally. Sometimes the soldiers
+might be right, and sometimes they might be wrong.
+But the judgment about the morality of particular
+wars is always difficult, even after the fact when all
+the information is public. During a war, when governments restrict access to much of the relevant information, the judgment is even more difficult to
+make reliably. (This lack of accessible information
+is precisely what justifies holding soldiers accountable only for the particular and extraordinary
+crimes that they commit in war and not for the “ordinary” killing they do.) Thus, their retention in the
+Army appears to be justified.
+There is still the problem that some people who
+genuinely believe that a particular engagement is
+immoral might nonetheless be forced to commit
+what they see as murder. In order to account for
+that significant problem, there appears to be only
+one moral solution: retain the soldier but reassign
+him to a noncombatant position (1-A-O). In this
+way, the situational pacifist would not be forced to
+commit what he believes is murder. The argument that
+he will still be helping the war effort in some way
+is not particularly persuasive. Every taxpayer supports war efforts. Every citizen of a country supports
+the war either directly or indirectly. Thus, reclassification as 1-A-O, rather than discharge as 1-O (pacifist), is reasonable in light of his voluntary entrance
+into the armed services.
+Though this might be the best moral solution, it
+is one that no one can pragmatically endorse because it depends on an unrealistic assumption—
+namely that the Army can reliably identify authentic situational pacifists. Humans are not omniscient.
+Thus it would be extremely difficult in most cases
+to tell when someone was a genuine situational
+pacifist. As a result, the responsible administration
+of such a policy would be nearly impossible. It is
+very difficult to verify that someone is a moral pacifist rather than a coward. It is even more difficult
+to verify legitimate instances of situational pacifism
+when the person involved faces the immediate and
+dangerous prospect of going to war. Because the ideal
+solution rests on the military’s ability to distinguish
+between those who genuinely oppose the war on
+moral grounds and those who oppose the war because of cowardice or a preference not to be exposed
+to danger, it would be impractical to attempt to
+implement it.
+In addition, implementing this ideal moral solution would probably compromise the Army’s ability to carry out the job it was created to do. It is
+260
+Military Medical Ethics, Volume 1
+possible that a great number of soldiers would decide that a particular war was immoral. As a result,
+the Army would lose key personnel from the jobs
+for which they were trained, which would adversely
+affect unit effectiveness, and thus combat readiness.
+Unit cohesion would also be damaged, once again
+having a detrimental effect on unit effectiveness. By
+granting situational pacifists conscientious objector status, the Army would make its job of efficiently
+and effectively defending American interests nearly
+impossible.
+Someone who opposes a particular engagement
+nonetheless still has the means to morally avoid the
+conflict. If one were truly to believe that what one
+would be engaging in was murder, one could refuse
+to fight and be sent to jail. It is hardly an appealing
+option, but to spend the duration of a war in jail is
+much better (from a moral standpoint) than going
+to war and killing people. Someone might argue
+that it is possible to go to war and just not kill anyone. That is, one could aim high with one’s weapon.
+This is not a morally acceptable option. Failure to
+use any weapon accurately could put many of one’s
+fellow soldiers at risk. If one told them, it would
+have a negative effect on unit cohesion. If one did
+not tell them, it would be unjustifiably putting them
+at risk because they had no reason to believe that a
+fellow soldier would intentionally fail to perform
+the role of the combatant. Furthermore, many jobs
+in the US Army require one to use area weapons
+(for example, the field artillery), where one cannot
+see the target. Therefore, one cannot ensure that one
+will avoid killing others by simply aiming poorly.
+In fact there might be fratricide (friendly casualties),
+civilian casualties, or even more enemy dead, because the misdirected fire could land anywhere.
+Thus, failing to perform one’s duties as a method
+of expressing conscientious objection is not viable
+because it puts others at risk.
+The difficult solution to the problem of conscientious objection relies primarily on soldiers’ voluntary entrance into the US Army. They knowingly
+restrict their autonomy and need to consider the
+weighty effects their decision has before they commit. The Army needs to do its part in making sure
+soldiers understand their full commitment before
+they join.
+Case Studies
+Before concluding this discussion of conscientious objection, it might be instructive to consider
+two recent cases in which Army doctors applied for
+conscientious objector (CO) status.
+Case Study 9-1: Captain Huet-Vaughn and Situational Pacifism. Captain Yolanda Huet-Vaughn was a
+physician in the US Army Reserve and was assigned to
+the 325th General Hospital in Independence, Missouri.
+She was ordered to active duty at Fort Leonard Wood,
+Missouri, in the fall of 1990 as part of a nationwide activation of reservists in response to the Iraqi invasion of
+Kuwait in early August. On 19 December 1990, she was
+reassigned to the 410th Evacuation Hospital that had
+mobilized at Fort Riley, Kansas, pending its deployment
+to Southwest Asia in support of Operation Desert Shield,
+the preparation phase of the Persian Gulf War. She deserted her unit on 31 December 1990 before it deployed.
+She voluntarily returned to duty on 2 February 1991 (when
+Operation Desert Storm, the combat phase of the Persian Gulf War, concluded) and applied for conscientious
+objector status. She underwent general court martial for
+desertion and because she was found to be guilty, her
+application for conscientious objector status was never
+reviewed. 9
+Comment: Captain Huet-Vaughn filed for conscientious objector status on the grounds that she believed
+that particular war crimes were going to be committed
+during the combat that she anticipated in the Persian Gulf.
+In her case, it was evident that she had no moral or legal
+grounds for claiming conscientious objector status because her argument was not against violence in general,
+but with the looming Persian Gulf War in particular. Nor
+did she believe that she personally was going to be forced
+to engage in any crimes. Had her application for conscientious objector status been reviewed, Captain HuetVaughn would likely have been denied conscientious objector status both legally and morally as her pacifism was
+situational.
+Case Study 9-2: Captain Wiggins and Political Pacifism. Captain David Wiggins, on active duty stationed at
+Fort Hood, Texas, filed for conscientious objector status
+on 27 February 1990. His education at the US Military
+Academy at West Point and subsequent medical degree
+had both been paid for by the federal government. Following the disintegration of communism in Eastern Europe in 1989, Captain Wiggins became convinced that
+nonviolence could be an effective way to bring about
+change. Though his pacifism was secular, the Army neither denied his conscientious objector status on those
+grounds nor questioned his sincerity even though no one
+appeared to know of his pacifism prior to his filing for
+conscientious objector status. The board denied him conscientious objector status on the grounds that his beliefs
+were motivated by the current political situation and thus
+did not qualify as “deeply held moral, ethical or religious”
+beliefs as Army Regulation 600-43, Conscientious Objection (as interpreted after the Seeger ruling10 in 1965
+that defined “religious training and belief”) requires. The
+Conscientious Objector Review Board said that Wiggins’
+beliefs were philosophical and political rather than moral
+or ethical. 11
+Comment: Captain Wiggins did not legally qualify for
+conscientious objector status. Should he have? The an261
+The Soldier and Autonomy
+swer to the question is a bit tricky; it depends on the regulations and court cases governing conscientious objector
+status. According to Army Regulation 600-43,5(Subchap 1-7) a
+person qualifies for conscientious objector status if,
+among other things, his position is a result of “religious
+training or belief.” According to Seeger, “religious training and belief” should be understood as “an individual’s
+belief in a relation to a Supreme Being involving duties
+superior to those arising from any human relation, but
+[not including] essentially political, sociological or philosophical views or a merely personal moral code.”10 As a
+result of this definition, the Army says that “requests for
+discharge after entering military service will not be favorably considered when: ...(3) Based solely on considerations of policy, pragmatism or expediency.... (4) Based
+on objection to a particular war. (5) Based upon
+insincerity.”5(Subchap1-7)
+The regulation specifically prohibits one from legitimately receiving conscientious objector status for situational pacifist reasons. It also prohibits one from receiving conscientious objector status based on philosophical
+or political reasons. This latter prohibition is somewhat
+problematic. The difficulty lies in the Army’s distinction
+between philosophical beliefs and “moral or ethical” beliefs. Many thoughtful people hold sincere moral beliefs
+on which they are ready to act, and which are motivated
+by traditionally “philosophical” reasons. Many of the great
+moral philosophers of the 19th and 20th centuries, for
+example, acted consistently with their theories. In an age
+of increasing secularization, it is not unusual for a person
+to form deeply held moral beliefs on the basis of philosophical, rather than religious, reflection. Some of the
+most influential “philosophical” moral theories consider
+the consequences of actions morally relevant (a
+consequentialist moral theory). Some of the relevant consequences include current political facts. As a result, to
+deny a person conscientious objector status because a
+belief came as a result of philosophical reflection based
+on consequentialist moral theory is unreasonable.
+Captain Wiggins was denied conscientious objector
+status because his pacifism was deemed to be philosophically and politically motivated. Though Captain Wiggins’
+argument was inadequate and did not support his position, he appeared to believe that it did. In his personal
+statement, Captain Wiggins said that nonviolence was
+the only vehicle that could bring about change. His argument, as he stated it, seems to support only situational
+pacifism, although he believed it to be one for moral pacifism. Captain Wiggins was arguing about the particular
+facts of the breakup of communism in Eastern Europe,
+not general claims about how humans react to things. He
+could have used these facts to support a general argument, but he didn’t. If he in fact sincerely believed his
+position supported moral pacifism and was willing to base
+his actions on that belief, he should have been granted
+conscientious objector status. Whether one is granted
+conscientious objector status depends on what the person believes, not whether that belief is a good or reasonable one. The military recognizes the acceptability of conscientious objection because it recognizes the legitimate
+personal conflicts that arise when a person who is a part
+of the military comes to believe that all forms of armed
+conflict are immoral. Because the conflict arises because
+of what the person believes, not whether it is actually true
+that all forms of armed conflict are immoral, conscientious objector status is granted on the basis of what a
+person sincerely believes, not whether the person’s beliefs are justified.
+The cases of Captain Huet-Vaughn and Captain
+Wiggins illustrate some of the difficulties that arise
+as a result of the conflict between personal beliefs
+and restricted autonomy that comes as a result of
+entering the military. Balancing the competing relevant features of a situation in such a way that one
+arrives at a morally satisfactory conclusion is extremely difficult. However, one typically encounters the tensions associated with conscientious objection when a war occurs. Fortunately, wars have
+been relatively infrequent. Unfortunately, conflicts
+between soldiers’ moral obligation to follow orders
+and the moral status of those orders occur even
+when there isn’t a war. As a result, these sorts of
+conflict occur more frequently.
+Following Orders
+A second major concern about soldiers’ autonomy comes in obeying orders. The problem is
+complex, and the following discussion will only
+address the most significant points. Though this
+discussion oversimplifies things, it raises many of
+the crucial moral issues. In what follows I will discuss the moral status of disobeying orders. It is
+important to understand that the US Army only allows for disobeying illegal orders and does not consider the moral status of the orders a commander
+might issue. Thus the US Army does not make any
+official provisions for disobeying a legal, but immoral order.
+Which Orders Must Soldiers Follow?
+In any hierarchical organization, those being told
+what to do will sometimes dislike what they have
+been told to do. In fact, sometimes they will not
+want to do it. Given its mission, the Army has an
+interest in controlling most facets of a soldier’s life.
+Thus, it has many occasions to tell soldiers what to
+do. As a result, soldiers have many opportunities
+to not want to do what they have been told to do.
+Which, of all the things a soldier is told to do yet
+does not want to, are the ones he needs to do? That
+is, which orders must a soldier follow?
+The answer obviously is not, “None of them.” It
+262
+Military Medical Ethics, Volume 1
+is important to be clear why that is true from a moral
+and not merely a pragmatic standpoint; by now, the
+reasons should be familiar. Morally, soldiers must
+follow orders because they said they would. They
+voluntarily entered the Army and accepted the benefits the Army offered in exchange. Thus, soldiers
+have a prima facie moral obligation to follow all
+legal orders. The Army specifically states that soldiers should not obey illegal orders. However, beyond war crimes, it does not specify which orders
+are illegal.
+Moreover, the Army has an obligation to demand
+that soldiers quickly and efficiently follow orders,
+in order to fulfill its mission. In wartime, it is fairly
+obvious why this is so, as much of what goes on is
+extremely time sensitive. People need to go where
+they’re told and do what they’re told to do in a
+timely fashion. This is also true during training exercises. Even during peacetime, it is important that
+soldiers follow orders without question. In part, this
+is so that they become habituated to doing so. Moreover, even in peacetime, the Army needs to operate
+efficiently. Thus, there isn’t a lot of time for disobedience and questioning. This expectation is clearly
+justified by the previous discussion of the harm
+principle. So, which orders must a soldier follow?
+The answer is not, “All of them.” Even though
+the Army needs soldiers to follow orders without
+hesitation and without question, and even though
+soldiers have agreed to follow orders in that way,
+there is one type of order that the Army should not
+expect its soldiers to obey: immoral orders. Thus,
+the answer to the question, “Which orders must a
+soldier follow?” is “All orders that are both legal
+and moral.”
+However, sometimes it is no easy task to distinguish morally acceptable from morally unacceptable orders. In ordinary life the task of discerning
+which actions are moral and which are immoral can
+be rather tricky. In a military setting the questions
+are even more difficult, because many of the activities that soldiers must engage in during armed conflicts are ones that would be obvious instances of
+immoral behavior in a civilian setting. These include
+intentionally killing people one doesn’t even know,
+destroying other people’s property, and rounding
+people up and detaining them. If a leader, these also
+include ordering one’s soldiers to do extremely
+dangerous things, including ordering them to their
+deaths.
+It is impossible to overstate the difficulty in
+knowing when it becomes morally permissible or
+necessary to perform these otherwise “immoral”
+actions in a military context. But, even though the
+task is hard, understanding why it must happen is
+generally not that difficult. In fact, orders are usually unambiguously moral or unambiguously immoral. Part of the reason for this is that all illegal
+combat orders (ie, war crimes) are immoral orders.
+The United States has agreed to conventions that
+outlaw or restrict many forms of morally questionable behavior. Thus, knowing international law as
+it relates to soldiers’ behavior during war is a vital
+part of resolving potential conflicts between following orders and behaving immorally. Army Field
+Manual 27-10, The Law of Land Warfare,12 outlines
+the relevant international laws. Apart from knowledge of the law, some orders are obviously immoral,
+and a soldier should trust his ability to recognize
+such orders.
+Which Orders Are Soldiers Allowed to Disobey?
+Blatantly immoral orders (eg, being ordered to
+kill unarmed civilians) do not really pose a problem for a soldier who wishes to live morally: He
+should bring their moral status to his superior’s
+attention. If the superior fails to respond accordingly, the soldier should disobey the order, and if
+possible bring the situation to the attention of the
+chain of command. In some instances a soldier
+might even attempt to prevent the carrying out of
+such a blatantly illegal order. Instances of obvious
+immorality are relatively rare in a good army.
+The truly problematic orders are those that are
+not obviously immoral. These are ones that the receiver believes are immoral, but the giver and at
+least some others do not. These possibly immoral
+orders also fall into two broad categories—those
+orders that are immoral because of their effects on
+one’s own soldiers and their property, and those orders that are immoral because of their effects on the
+enemy (combatants, noncombatants, and protected
+property). Though the source of immorality is different, discussion of the dilemma remains the same.
+These truly problematic cases must be contrasted
+with ones in which a soldier might have an understandable, but illegitimate, reason for wishing to
+disobey an order. For instance, soldiers might wish
+to disobey orders that make it likely that they will
+die or be severely wounded in their attempt to obey
+them. Though perhaps understandable, in most
+cases this is not an acceptable reason to disobey an
+order. After all, the profession of arms is not a safe
+one, and one engaged in it voluntarily accepts the
+risks that go along with it. Thus, the mere fact that
+one is going to die if one follows an order is not a
+good reason to reject it. However, if one is given an
+263
+The Soldier and Autonomy
+order that would result in serious harm (death or
+injury) to those following it, the order might be
+immoral if such harm was needless. The obvious
+difficulty comes in discerning whether the harm is
+needless. As a general rule, soldiers will not have
+enough information to decide whether their orders
+are pointless. In most cases, those immediately
+above them in the chain of command will not have
+access to that information either. A high casualty
+rate might be necessary from one company in order to promote the safety of a brigade. The platoon
+leaders in the unfortunate company might not understand the overall situation as they receive their
+orders, especially if the tactical considerations do
+not allow their superiors to give them a complete
+explanation of the reason for their mission. Sometimes a commander might have access to all the information, but the situation is still morally ambiguous, as Case Study 9-3 demonstrates.
+Case Studies
+Case Study 9-3: Pickett’s Mill: An Example of Moral
+Ambiguity. During the Atlanta Campaign in the American Civil War, a little noted battle, Pickett’s Mill, took place
+on 27 May 1864. The chain of command for the key Union
+military leaders at Pickett’s Mill was:
+William T. Sherman
+Union Army commander
+Major General of Volunteers
+Brigadier General of Regulars
+George H. Thomas
+Army of the Cumberland
+Major General of Volunteers
+commander
+Oliver O. Howard
+Corps commander
+Major General of Volunteers
+Thomas J. Wood
+Division commander
+Brigadier General of Volunteers
+William B. Hazen
+Brigade commander
+Brigadier General of Volunteers
+General Sherman was the commanding officer of Union
+forces in the engagement. One of his corps was to attack
+two well-entrenched Confederate divisions. Major General Howard, the Corps Commander, placed General
+Hazen’s brigade in the front, and told him that he was to
+be the first wave of an attack in column, with each column attacking just minutes behind the others.
+However, just before the attack Hazen overheard General Wood, his division commander, remark to General
+Howard that he would let Hazen’s brigade go in unsupported and see what success it had. Howard consented
+to Wood’s idea. Despite what he overheard, Hazen proceeded with the ordered attack, although a member of
+his staff later claimed that Hazen’s face clearly showed
+his understanding of being lied to and betrayed by his
+superiors. Hazen’s brigade, though it fought valiantly—in
+fact the Confederates believed that an entire division had
+attacked them—was decimated. The brigade, which
+started out with 1,500 men, lost approximately 500 men
+in 45 minutes. Hazen later argued that Howard’s orders
+were immoral. He blamed Howard, not Wood, because
+Howard was the ranking officer and consented to Wood’s
+plan. In a postwar memoir, Hazen wrote that he would
+have protested the order had Howard not told him that he
+believed Hazen’s force had the greatest chance of succeeding. He remained bitter about the incident for the rest
+of his life.
+Comment: It is not clear whether Hazen should have
+disobeyed his orders once he understood what was
+really going to happen. Thus, the battle at Pickett’s Mill is
+difficult because it is not altogether clear that Hazen’s
+commanders believed their orders were immoral, nor is it
+likely that Howard would have altered his orders in the
+face of Hazen’s complaint. 13,14
+The battle at Pickett’s Mill helps illustrate two
+points. First, it illustrates a situation in which orders are morally ambiguous even when it appears
+that one has all of the facts. Second, it highlights
+the difficulty of deciding what to do in a situation
+in which one’s orders are morally ambiguous. Suppose that Hazen had decided, which it appears that
+he had, that his orders were immoral. What should
+he have done? He had three realistic options. He
+could have questioned General Howard and explained his reluctance to obey, he could have disobeyed, or he could have obeyed without comment.
+In this situation, Hazen should have questioned
+Howard about the order, especially because there
+was some time before the attack was to take place.
+However, what would the result of questioning
+have been? Probably it would have done nothing
+more than making Howard angry and reiterating
+the order. In that case, Hazen still would have been
+in a difficult situation as he would have to either
+obey or disobey the order.
+Even supposing the order was unambiguously
+immoral, his decision would still be difficult. Were
+Hazen to disobey the order, he would likely be removed from command, and another officer would
+lead his brigade into the same battle. Moreover, he
+would no longer be in a position to try to prevent
+needless loss of life later in the war. Were he to obey
+the order (as he in fact did), the likely result would
+have been the unnecessary death of several hundred men. Still, Hazen could do what he could to
+minimize those deaths, and because he would still
+be in command, he could seek to minimize unnecessary deaths of troops in the future. Either way,
+the decision is difficult. Neither answer provides a
+satisfactory rule for what one should do in the face
+of an immoral order.
+Case Study 9-4 is a well-known example of an
+illegal combat order (a war crime) that was clearly
+264
+Military Medical Ethics, Volume 1
+an immoral order as well, and yet many of the
+American soldiers who received the order also carried it out.
+Case Study 9-4: My Lai and Following Orders. Originally My Lai was thought to be a Vietcong stronghold, so
+the order was given to Lieutenant William Calley for his
+platoon to “kill everyone there.” Calley’s superior officers
+had built the raid up in importance. Military intelligence
+picked a market day when they thought the town would
+be empty of non-Vietcong (the civilian villagers would have
+traveled to a neighboring village for the market). In the
+face of absolutely no resistance (none of the soldiers received fire), Calley ordered his platoon to round up villagers, including women and children, and execute them.
+He further ordered his platoon members to burn huts. Both
+of these orders are illegal as well as immoral. Several of
+his men disobeyed, others fled. (Lieutenant Calley’s immediate superior, Captain Ernest Medina, who had given
+the original oral order to “kill everyone” was in radio communication as the killings were occurring. 15) An aviation
+warrant officer who arrived on the scene had his men
+deploy against Calley and evacuated a group of civilians
+who were otherwise going to be executed. 16
+Comment: Calley was never directly ordered to kill
+unarmed civilians. In interviews afterward, most of the
+soldiers admitted they knew what was happening. Some
+ignored the orders, some obeyed and felt guilty, and some
+later committed suicide. 15
+Sometimes, an order is so obviously immoral, as
+the My Lai case demonstrates, that one should not
+obey it, even if it means one cannot help prevent
+further immorality in the future. But sometimes, it
+might be that one ought to obey the orders in order
+to minimize the immorality being performed. Such
+reasoning is dangerous, as it might allow one to
+rationalize obeying any order, and it might encourage a certain overestimating of one’s judgment and
+value, but it is possible that a situation might arise
+in which such reasoning was morally acceptable.
+For instance, it might be immoral to order one’s
+suicidal soldier to carry live ammunition during a
+parade, but as long as that is the only immoral thing
+one was required to do, it might be wise to oversee
+the activity to minimize the immorality that might
+result.
+When one faces an order that one believes to be
+immoral, he should consider the following two factors. First, he must consider his moral obligation to
+follow orders and to follow them without questions;
+frequently time is of the essence in the military. He
+must consider it within the context of how much
+information he has, understanding that soldiers
+rarely have all the relevant facts in any given situation. In Eugene Sledge’s book, With the Old Breed,
+at Peleliu and Okinawa,17 he recounts a story that
+makes this point. As a young Marine enlistee during World War II, Sledge is ordered to wash out oil
+drums on a hot summer day. He and his buddies
+decided it was make-work and did a poor job. Several months later, at the front, he had to drink barely
+potable water out of those same poorly washed
+drums. While the order to wash the drums was not
+an immoral order, the issue of lack of information
+is illustrative of the problem.
+Second, when facing an order that one believes
+to be immoral, he must consider both the consequences of his alternatives (as in the case of Pickett’s
+Mill) and the treatment of those around him (even
+if using soldiers for AIDS testing has good effects
+for society overall, it is still not permissible to use
+them for testing against their will). Both the overall consequences of the action (good for society) and
+how the action affects each human involved (tests
+on soldiers) are thus relevant. Sometimes the overall consequences are more important, and sometimes the poor treatment of even one person is more
+important. How to sort them all out depends on the
+specific features of each situation. Unfortunately, it
+is impossible to come up with a rule that explains
+how to weigh each of these two factors. Practical
+judgment and experience are essential guides. One
+cannot blindly follow a rule such as never lie, for
+there are times when lying is necessary. One ought
+to lie to a Nazi demanding to be told where all the
+Jews are. One must not blindly follow any moral rule.
+Because the Army has an obligation to carry out
+its purpose, it should have competent and ethical
+leaders (this issue has already been discussed in
+Chapter 5, The Profession of Arms and the Officer
+Corps, and Chapter 6, Honor, Combat Ethics, and
+Military Culture, of this volume). An army cannot
+work efficiently if its members obey orders at their
+own discretion. Given the trust it must have in its
+leaders and the lack of information many subordinates might have, the Army demands that soldiers
+follow all legal orders.
+This still leaves a problem for the soldier who
+knows, for one reason or another, that, appearances
+to the contrary notwithstanding, a particular order
+is immoral because of its effect on his army’s soldiers. In that case, the soldier must decide whether
+to disobey and possibly be punished, or obey and
+do something he believes to be immoral. That is, he
+is left in a similar dilemma to the one in which a
+conscientious objector finds himself. Unfortunately,
+there are cases when the morality of the order is
+not altogether clear. The Army’s position must be
+that all legitimate orders must be followed. It is
+265
+The Soldier and Autonomy
+important to remember that most orders are appropriate and moral. Their occasional perceived impropriety frequently stems from lack of information.
+In the instances when they appear inappropriate,
+the soldier must do his best to gather information
+as available, weigh the relevant factors as the case
+dictates, act according to his conscience, and accept
+the consequences of his action or inaction.
+CONCLUSION
+Limited autonomy in the military is in stark contrast to autonomy in the civilian sector, especially
+in free societies. Resolving the dilemmas and apparent dilemmas that result often rests on remembering that the limits to soldier autonomy are currently voluntary in the United States due to the All
+Volunteer Force. The more difficult problems are
+often best addressed by recognizing the competing
+loyalties and ordering the conflicts of interest. Morality trumps all other responsibilities and interests;
+legitimate obligations to the US Army (when voluntarily entered into) trump other personal interests, and these personal interests come last. The
+difficult conflicts often come when a person has two
+important competing loyalties, such as the military
+and the medical profession, the military and certain religious beliefs, or the military and one’s family.
+REFERENCES
+1.
+Mill JS. On Liberty. Indianapolis: Hackett Publishing Co Inc: 1978: 9.
+2.
+US Department of the Army. The Army. Washington, DC: DA; 1996. Field Manual 100-1, Chap 2.
+3.
+Howe EG, Jones FD. Ethical issues in combat psychiatry. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM,
+eds. Military Psychiatry: Preparing in Peace for War. In: Textbook of Military Medicine. Washington, DC: Office of
+The Surgeon General, US Department of the Army and Borden Institute; 1994: 115–131.
+4.
+Beauchamp TL, Childress JF. Principles of Biomedical Ethics. 3rd ed. New York: Oxford University Press; 1989.
+5.
+US Department of the Army. Conscientious Objection. Washington, DC: DA; 1998. Army Regulation 600-43.
+6.
+Jones FD. Psychiatric lessons of war. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War
+Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of
+the Army and Borden Institute; 1995: 1–33.
+7.
+Jones FD. Traditional warfare combat stress casualties. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM,
+Stokes JW, eds. War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of the Army and Borden Institute; 1995: 35–61.
+8.
+Jones FD. Disorders of frustration and loneliness. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes
+JW, eds. War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon General, US
+Department of the Army and Borden Institute; 1995: 63–83.
+9.
+US v Huet-Vaughn, ACMR 9101873, US Army Court of Military Review, 39 MJ 545; 1994 CMR Lexis 15.
+10.
+US v Seeger, 380 US 163 (1965).
+11.
+Wiggins v Secretary of the Army, US District Court, Waco Division, Civil No. W-90-CA-304.
+12.
+US Department of the Army. The Law of Land Warfare, 18 July 1956, Change 1, 15 July 1976. Washington, DC: DA;
+1976. Field Manual 27-10.
+13.
+Bierce AG. The crime at Pickett’s Mill. In: McCann W, ed. Ambrose Bierce’s Civil War. Washington, DC: Gateway;
+1988: 38–49.
+14.
+Hazen WB. A Narrative of Military Service. Boston: Ticknor and Co; 1885: 256–264.
+266
+Military Medical Ethics, Volume 1
+15.
+United States. Department of the Army. The My Lai Massacre and Its Coverup: Beyond the Reach of the Law? The
+Peers Commission Report. New York: Free Press; 1972.
+16.
+Montgomery D. 30 years later, heroes emerge from shame of My Lai massacre. Washington Post. 7 March 1998:
+A1, A10.
+17.
+Sledge EB. With the Old Breed, at Peleliu and Okinawa. New York: Oxford University Press; 1990.

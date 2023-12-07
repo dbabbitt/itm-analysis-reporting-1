@@ -1,0 +1,1979 @@
+Military Medicine in Humanitarian Missions
+773
+Chapter 24
+MILITARY MEDICINE IN HUMANITARIAN
+MISSIONS
+JOAN T. ZAJTCHUK, MD, SPEC IN HSA*
+INTRODUCTION
+THE LEGAL AND MORAL BASIS FOR HUMANITARIAN ASSISTANCE
+THE BEGINNINGS OF US HUMANITARIAN ASSISTANCE (1900–1945)
+US HUMANITARIAN ASSISTANCE IN NATION BUILDING/
+COUNTERINSURGENCY PROGRAMS (1945–1975)
+Nation Building After World War II
+The Emergence of Counterinsurgency Policies
+The Beginnings of Military Civic Action Doctrine
+Southeast Asia and Vietnam: Implementation of Civic Action Programs
+THE CHANGING CONCEPT OF NATION BUILDING (1975–2000)
+The Aftermath of the Vietnam War
+Nation Building in Central America: The Background
+The Beginning of the DoD Humanitarian Mission in Central America
+Formalizing the Role of the Department of Defense
+Honduras: Military Medicine in Civic Action Programs—The SOUTHCOM
+Model
+El Salvador: Military Medicine in Security Assistance Training Programs
+Project Coordination and Accountability
+THE IMPACT OF HUMANITARIAN ASSISTANCE IN CENTRAL AMERICA
+The Benefits of Humanitarian Assistance for Host Countries
+Some Problems Associated With Humanitarian Assistance
+THE PRESENT AND FUTURE OF NATION BUILDING (2001)
+CONCLUSION
+*Colonel (Retired), Medical Corps, United States Army; formerly, Consultant to the Army Surgeon General and the Assistant Secretary of
+Defense for Health Affairs; Hospital Commander, Joint Task Force Bravo, Medical Element, Honduras and Command Surgeon, Honduras;
+currently, Professor of Otolaryngology and Bronchoesophagology, Center for Advanced Technology and International Health, RushPresbyterian-St. Luke’s Medical Center, 600 South Paulina, Suite 524, Chicago, Illinois 60612-3832
+Military Medical Ethics, Volume 2
+774
+H. Charles McBarron
+Operation New Life
+Guam, 1975
+Operation New Life occurred during the spring and summer of 1975. With the collapse of South Vietnam, more than
+130,000 Southeast Asian refugees were evacuated to the United States. Over 90,000 received some type of medical
+care…. In the foreground, as concerned relatives look on, an Army nurse checks an injured Vietnamese. The scene is
+typical of many long evenings in tents set up as emergency medical stations on Guam, the first stop for the refugees.
+Caption and art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC. Available
+at: http://history.amedd.army.mil/art/vietnam_files/guam.jpg.
+Military Medicine in Humanitarian Missions
+775
+INTRODUCTION
+ing exercises (MEDRETEs); deployment for training exercises (DTEs) for active duty, reserve, and
+national guard units; and programs for Special
+Forces medics.
+Despite the plethora of assistance programs, the
+primary focus of military medicine remains that of
+supporting military deployments and combat operations. When the military does get involved in
+humanitarian assistance, a critical determinant of
+its military role is the mission statement, which
+elaborates the guidelines and constraints for the
+military’s actions in a given operation. The mission
+originates from the executive branch of government
+and includes political objectives. Whereas most relief organizations strive to be neutral, military forces
+are directed by government policy. Therefore, the
+military is easily perceived as having interests other
+than solely humanitarian relief, particularly in situations that involve armed conflict. This may result
+in an adversarial relationship that interferes with
+the ability of both the military and various relief
+organizations to provide, coordinate, and complement medical assistance programs.
+Some critics have cautioned that for the military
+to embrace humanitarian assistance as a major mission is unrealistic and inappropriate. 6,9 There are
+EXHIBIT 24-1
+SUBJECT MATTER EXPERT EXCHANGE
+PROGRAM
+In 1988, the first Subject Matter Expert Exchange
+Program, using Army Medical Department personnel, was begun in the Southern Command
+(SOUTHCOM) and included the host countries of
+Chile, Guatemala, and Colombia. Although the
+scope of the program was, and continues to be,
+small, it demonstrates the growth of related programs benefiting the host nation. The exchanges,
+on topics such as disaster relief, preventive medicine, field hygiene, trauma evacuation, and healthcare administration, were of mutual benefit to both
+the United States and the host countries and also
+enriched US understanding of host-country military healthcare systems. These diverse programs
+demonstrate the opportunities provided at the
+individual training level, at the host-country medical level, and also within the host-country military force level.
+The US military has a long tradition of providing emergency humanitarian relief after armed confrontation, natural disasters, and during deployments for training around the world. The use of the
+military for humanitarian assistance has frequently
+been controversial,1 and the effectiveness of some
+of the previous missions has been justifiably questioned. 2–4 However, many policymakers believe that
+to further national interests the US military should
+be involved in humanitarian assistance in the post–
+Cold-War period. 5,6 Assisting populations affected
+by disaster of natural or human origin is important
+for the maintenance of peace, security, and stability in today’s world. According to US national security policy, emergency humanitarian assistance
+will be an essential capability of US forces in the
+21st century. 7,8
+Prior to the establishment in 1984 of the Office
+for Humanitarian Assistance/Civic Action in the
+Department of Defense (DoD), many programs, including medical efforts, had already been widely
+funded for a number of years. It has only been since
+the 1990s, however, that the term “humanitarian
+assistance” applied to medical civic action missions
+in the medical departments of the military service
+branches. At this time, the US Congress authorized
+and funded DoD humanitarian assistance/civic
+action programs that allow all military branches to
+provide humanitarian assistance in conjunction
+with authorized military exercises throughout the
+world and target primary healthcare needs. The
+program also provides funding to distribute excess
+medical equipment and supplies to other nations if
+requested. These various programs include longstanding foreign military assistance programs such
+as the Security Assistance Program that funds teams
+of US military personnel to provide training to a
+host nation (this was done in El Salvador by the
+Army Medical Department with the medical mobile training teams [MTTs]). This assistance must
+be requested by the host nation and is part of the
+foreign military sales (FMS) program. The host nation is requesting training in lieu of military hardware procurement. The Latin American Cooperative (LATAM COOP) Fund supports the military
+medical Subject Matter Expert Exchange (SMEE)
+program for military medical personnel exchanges
+and training in the United States and in the host
+nation (Exhibit 24-1). Both of these assistance programs were only recently utilized by the Army
+Medical Department in Latin America. The military
+medical programs include medical readiness trainMilitary Medical Ethics, Volume 2
+776
+several reasons for the continuing controversy regarding the appropriateness of associated humanitarian missions for the DoD during deployments.
+First, there has been the lack of a benefit outcomes
+analysis of previous DoD programs. Second, there
+is the perception by other US governmental agencies (such as the Department of State, the United
+States Agency for International Development, and
+the Peace Corps) of potential conflicting interagency
+roles. These same agencies directed similar criticism
+toward military civic action programs during the
+Vietnam War. (Because of this criticism, in the immediate post-Vietnam era, civic action programs of
+any nature were rarely discussed at the policy level
+and generally were conducted only by Special Operations forces.) And finally, there has been the lack
+of a uniform, coordinated policy and execution for
+these medical programs within the DoD. However,
+the extensive military medical civic action programs
+in the Southern Command (SOUTHCOM), especially
+in Honduras, have been instrumental in providing an
+impetus for the development of potential models and
+policy directives over the last several years.
+US forces are almost certain to be called on again
+to assist in international humanitarian relief efforts.
+Historical precedent, the extensive number of conflicts in the post–Cold-War world, and military
+policy all strongly suggest this. There is as yet little
+strategic planning that determines when and how
+the military should be used in their humanitarian
+assistance roles. It is my professional opinion, based
+on my military experience providing humanitarian
+assistance, that medical readiness training exercises
+(MEDRETEs) have proved successful in providing
+humanitarian and civic assistance in Latin America
+countries and can serve as a model as the United
+States military deploys to medically underserved
+areas around the world.
+THE LEGAL AND MORAL BASIS FOR HUMANITARIAN ASSISTANCE
+There are criteria that recognize and build on the
+body of international humanitarian10 and human
+rights law that governs the conduct of nations toward civilian populations in international and internal armed conflicts. These criteria recognize that
+certain principles11 must govern all humanitarian
+assistance, including:
+• Humanity: Human suffering should be addressed wherever it is found. The dignity
+and rights of all victims must be respected
+and protected;
+• Impartiality: Humanitarian assistance
+should be provided without discriminating
+as to ethnic origin, gender, nationality, political opinions, race, or religion. Relief of
+the suffering of individuals must be guided
+solely by their needs and priority must be
+given to the most urgent cases of distress;
+• Neutrality: Humanitarian assistance should
+be provided without engaging in hostilities
+or taking sides in controversies of a political, religious, or ideological nature;
+• Independence: The independence of action
+by humanitarian agencies should not be
+infringed upon or unduly influenced by
+political, military, or other interests; and
+• Empowerment: Humanitarian assistance
+should strive to revitalize local institutions,
+enabling them to provide for the needs of
+the affected community. Humanitarian assistance should provide a solid first step on
+the continuum of emergency relief, rehabilitation, reconstruction, and development.
+Peacekeeping operations by US military forces
+may cause problems for humanitarian organizations. Rather than providing protection for workers within these organizations, by their concurrent
+presence within the host country, these operations
+may actually place their civilian personnel at greater
+risk. To label the military’s efforts as peacekeeping
+or “operations other than war” also creates false
+assurances about the safety of these missions. Such
+a label is misleading because it suggests risk- and
+casualty-free operations. By acknowledging that
+military operations are the primary end (securing
+and insuring peace), the role of the associated humanitarian activity becomes the pursuit of national
+policy by other means. If policy makers cling too
+tightly to the “humanitarian” label, while ignoring
+the political realities of humanitarian intervention
+and implementation, military medical personnel in
+their daily operations, often pragmatically develop
+activities that may ultimately require a change in
+policy and the law. Military medical personnel are
+historically removed from any policy-making decisions because the Department of State has the primary role for humanitarian assistance activities.
+When military health workers face human suffering in host countries, they understand that their
+training combined with minimal resources can meet
+some of these basic human needs through primary
+care services (education, immunizations, and priMilitary Medicine in Humanitarian Missions
+777
+mary care diagnosis and treatment). Deployments
+to underdeveloped countries, as was true in Korea,
+Honduras, El Salvador, and Somalia, provide the impetus to “rethink” national policy. In deployment environments, military personnel can confuse the purely
+military end with that of pursuing national policy by
+other means (humanitarian assistance activities).
+To preclude this confusion from occurring, military personnel should always act to support civilian or other governmental agency efforts, because
+they alone will remain responsible for the overall
+strategy and for the final outcome. If the exigencies
+of military missions are allowed to predominate,
+however, one of two things will happen: (1) the
+military will leave too quickly and not have a lasting effect on humanitarian assistance programs; or
+(2) the military will stay too long and take on the
+task of nation building. It is my contention that the
+proper role of the military should be to support the
+mission of the US Department of State and move
+from a “Band-Aid” approach of humanitarianism
+toward strengthening the long-term nation-building roles of the Department of State and other nongovernmental agencies. After relative stability has
+been achieved in military deployments on a local
+country level, the military should remove itself from
+the task of nation building. However, to simply say
+that the military only does short-term humanitarian operations and not nation building is to ignore
+the reality of the activities in between those two
+tasks, as well as to ignore the effect that these humanitarian assistance programs have on host-country nationals.
+This chapter will describe the evolution of military medical humanitarian assistance in the 20th
+century. Although the US military also provides
+disaster relief within its own borders, as needed,
+this chapter will predominantly focus its attention
+on those activities that take place outside the United
+States. Several examples will be provided to illustrate the expanding roles of military medicine in
+nation building and the associated controversies
+and ethical dilemmas. The development of the role
+that military medicine played in Vietnam will be
+described, as well as medical assistance/civic action programs in Honduras and El Salvador. These
+latter two are instances of a successful military
+medical model that can be used during long-term
+troop deployments abroad. Use of this model will
+help avoid many of the problems described in the
+next chapter in this textbook (Chapter 25, Military
+Humanitarian Assistance: The Pitfalls and Promise
+of Good Intentions).
+In summary, during the 20th century, the US has
+increasingly involved itself in foreign aid and humanitarian assistance on a worldwide basis. Because of congressional oversight, a variety of criteria were used over the years in awarding this aid.
+Economic and military aid packages were withheld
+or modified if certain of these criteria were not met
+by the host nation. The major criteria rested upon
+the support shown to the interests of the United
+States. Most notably this included the host nation’s
+voting record in the United Nations, support of US
+industry, import/export policy, and basing rights
+for US military units. When the historical record of
+US foreign aid policy is examined, it appears clear
+that these humanitarian assistance programs are
+motivated by political ends. This was certainly the
+case in the early years of these programs.
+THE BEGINNINGS OF US HUMANITARIAN ASSISTANCE (1900–1945)
+President Wilson used food, in the form of disaster relief, in his efforts to stop the spread of civil
+unrest and Bolshevism during World War I and
+during the Russian famine of 1921 that followed the
+end of the war. Food relief was criticized as Wilson’s
+attempt to hide his purely counterrevolutionary
+action12(p81) through the establishment of this relief
+program, named the American Relief Administration. The program was managed by civilians and
+was designed to promote and encourage American
+ideology. Although the American Relief Administration was managed by a civilian organization,
+soldiers served within it.
+Within the context of the American Relief Administration, the US Army and its Medical Corps was
+directed to undertake three missions in what was
+later called nation building. The duty was hazardous because of the hostile political climate in the
+deployed areas. The first of these missions involved
+providing disaster relief to the refugees of Armenia who were under threat of a Russian invasion.
+In 1919, active duty Army medical officers established a joint American-Armenian hospital to care
+for 4,000 refugees. Over a period of a year, significant improvements were made in healthcare facilities, typhoid and smallpox vaccination programs,
+and in sanitary practices.
+The second nation-building mission, the American-Polish Relief Expedition (1919–1920), was developed for the elimination of typhus and the modernization of the Polish healthcare system. 13 The US
+military contingent consisted of 500 enlisted men
+Military Medical Ethics, Volume 2
+778
+and 12 medical officers who remained with the force
+for 2 years. Some equipment was donated by the
+US Army, but most was bought by the Polish government and consisted of surplus supplies from the
+American Expeditionary Force (AEF). American
+officers organized logistical support, administration, and educational campaigns for the control of
+typhus and the institution of routine sanitary measures throughout the countryside. All aspects of the
+reorganization of the Polish healthcare system were
+coordinated with the Polish Ministry of Health and
+civilian officials. Unfortunately, the invasion of Poland by Russia essentially negated the efforts of the
+typhus quarantine. Most US personnel left the relief force because of the invasion. Quarantines became ineffectual due to the refugee problem and a
+subsequent decrease in sanitary measures. Personnel losses and logistical problems further hampered
+the American-Polish Relief Expedition. Any longlasting results in preventive medicine and epidemic
+control were affected by the war. The mission was
+considered a failure in a report by the Inspector
+General (IG), US Army,13 in which the IG severely
+criticized the coordination effort of the Ministry of
+Health, stating that the Polish Army had the ability
+to do a better job.
+The third of these missions under the American
+Relief Administration was set up to provide disaster relief to Russia between 1921 and 1923. 14 This
+long-term relief effort included $20 million in appropriated funds for famine relief and $4 million in
+medical supplies from the War Department, Navy,
+and Public Health Service. Six Army officers in leadership positions were in charge of the medical effort. Army materials, under congressional approval
+(with additional purchases and grants by the American Red Cross), were an essential in the distribution
+effort of medical supplies and equipment. Primary
+preventive health programs such as vaccination
+against typhoid, paratyphoid, smallpox, and diphtheria were instituted as well as stricter sanitary
+measures.
+During and after World War I, the Army broadly
+called this kind of assistance “disaster relief” and
+the proper connotation of the term humanitarian
+assistance was applied in as pure a form as possible. The military leadership of the United States
+understood the potential value of this aid and used
+it as a tool of foreign policy. 15 Nonetheless, the concept of disaster relief or humanitarian assistance to
+be provided by the US Army in the case of national
+disasters fell into disrepute as the newly created
+Public Health Service, the National Guard, and the
+American Red Cross increasingly took on these responsibilities. In the period between the world
+wars, the Army continued to provide medical relief operations primarily because it was better
+equipped to logistically support these missions.
+Controversy arose about funding of equipment and
+supplies provided by the Army to the Red Cross.
+By 1927, many in the Army leadership resented the
+fact that their budget provided for civil assistance
+when their rightful job was defending the nation.
+By 1937, several relief organizations, to include the
+Red Cross, became politically powerful and eventually supplanted the medically related disaster
+relief roles of the Army. In 1944, the role of the Army
+Medical Department in national health emergencies
+was legally designated to the Public Health Service.
+These three examples from the World-War-I era
+illustrate the intentions and goals of a US-directed
+humanitarian role for medicine in foreign policy.
+Admittedly, these efforts were the first steps toward
+expanded missions after World War II. Can they be
+used as a model for success or failure of the programs or was this only the beginning of the quandary involving the US government in foreign aid
+and humanitarian assistance? This chapter will explore this question and suggest an answer.
+The next phase of US military involvement in
+humanitarian assistance understandably began at
+the end of World War II when America emerged as
+a world leader. This phase ended with the fall of
+South Vietnam in 1975 to communist insurgents. In
+the intervening 30 years, however, military personnel had begun to learn a great deal about what
+worked, and what did not, in humanitarian assistance programs.
+US HUMANITARIAN ASSISTANCE IN NATION
+BUILDING/COUNTERINSURGENCY PROGRAMS (1945–1975)
+Nation Building After World War II
+The official end of World War II saw the end of
+global armed conflict between sovereign nations,
+the beginning of the Cold War, and the emergence
+of global powers confronting one another in more
+limited geographic areas (such as Korea) as well as
+in numerous insurgency movements around the
+world. In this immediate postwar environment,
+other US government agencies provided for foreign
+and domestic disaster relief with few roles given to
+the Army. Even the Surplus Property Law provided
+Military Medicine in Humanitarian Missions
+779
+the president, through a civilian agency, the means
+to transfer federal property to state or local governments. This law officially reduced the influence
+of the Army to the distribution of surplus property.
+By the early 1950s, most national disaster relief was
+structured by law and administered under the Office of Emergency Planning. Only a few national
+disasters such as the periodic floods along the Rio
+Grande River and the 1964 earthquake in Alaska
+demanded the services of the Army. In these instances, the ability to provide helicopter evacuation
+and the rapid deployment of field hospital equipment
+and personnel made Army medical help essential. 16
+Reliance on civilian agencies in the early 1970s
+replaced almost all utilization of the Army Medical
+Department in national disasters. Although the
+Army involvement in national disaster relief declined in the 1960s and 1970s, its role in foreign disaster relief became more prominent. During this Cold
+War period, the US Congress discussed and developed an elaborate system of foreign aid, centered
+around counterinsurgency policies and programs.
+The Emergence of Counterinsurgency Policies
+US counterinsurgency policies began during the
+early Cold War period with the study of the wars in
+Malaysia, the Philippines, and Burma between 1948
+and 1961. 17(p21) The concept of counterinsur-gency
+was first tested by Ramon Magsaysay in response
+to the communist-supported Huk insurgence in the
+Philippines after World War II. Magsaysay recognized the benefits of military civic action and provided the model by which all subsequent programs
+were fashioned. His goal was to inspire his soldiers
+to be good-will ambassadors of the government for
+the people while still performing their primary role
+in killing the insurgents. He instructed his soldiers
+to assist the civilian population in meeting their
+basic needs such as medical care, hygiene, and field
+sanitation. Simple engineering projects to improve
+rural living were also undertaken to advance the
+concept of nation building by military forces.
+Magsaysay’s military civic action program was
+supported within the US Army with the establishment of a new Civil Affairs Office positioned under the Secretary of Defense. The original idea for
+civic action and the US Army’s Civil Affairs Office
+is credited to General Lansdale, an American advisor to Magsaysay. Troop instruction, psychological
+warfare, public information, and civic action roles
+were carried out by special advisors to field commanders. The primary doctrine of the civil affairs
+mission was to gain the confidence and trust of the
+civilian population in order to combat the communist influence in the countryside. Each soldier was
+responsible for implementing the principles of civic
+action. The association of civic action, civil affairs,
+and counterinsurgency doctrine flourished and was
+developed both in Southeast Asia and Latin America
+as a direct consequence of the potential communist
+inroads in those regions.
+The Beginnings of Military Civic Action Doctrine
+In 1958, because of these concerns about the rise
+of communism in these areas, President Eisenhower
+appointed a committee, chaired by William H.
+Draper, Jr., to study the Military Assistance Program
+(MAP). The 1959 Draper Committee Report recommended that serious consideration be given to the
+use of indigenous forces in social and economic
+development. 18 The report also provided recommendations for more integrated economic and military
+assistance packages under the Mutual Security Program. 19 Numerous examples of country assistance
+were cited in this report to include a very effective
+program in postwar Korea (Exhibit 24-2) that had
+been established in November 1953.
+Influenced by the success of the program in rebuilding Korea, a mandatory civic-assistance program was funded by the United States with Security Assistance Program funds in Latin America and
+Southeast Asia. Civic action programs were designated to be both the tools in nation building and
+requirements of the Military Assistance Program.
+In its final report, the Draper Committee reaffirmed
+the philosophy that the United States should lead
+the underdeveloped countries of the world toward
+trade equality in a free-world community. 19 The report specifically cautioned against evaluating aid
+issues with the narrow tunnel vision of Cold War
+strategies. The Department of Defense approved the
+recommendation for expansion of the civic action
+programs in underdeveloped countries in 1960. This
+expansion became the basis for the formation of US
+Army military civic action doctrine. 20(pp67–79)
+By the time of the release of the Draper Committee’s Report, the US Army had military assistance administrators encourage the use and training of military units in allied countries for public
+works and economic development activities such
+as was done in Korea. 20(p69) In June 1960, the Department of the Army alerted its military assistance
+personnel abroad that civic action training teams
+were available upon request to help formulate specific programs for designated countries. President
+Kennedy, in a National Security Action MemoranMilitary Medical Ethics, Volume 2
+780
+dum, in 1961 endorsed military civic action. 21(p77)
+The US Army Special Forces’ mission developed
+by President Kennedy between 1960 and 1962 was
+patterned after the Philippine counterinsurgency
+model. 21,22 Kennedy, as the champion of the counterinsurgency movement, was directly influenced by
+its policies after visiting Vietnam in the late 1950s
+when he was a senator. 23 During his brief period in
+office, President Kennedy also instituted a large
+program in support of host-nation military civic
+action programs within Latin America. Congress
+authorized funding for the Military Assistance Program as a direct response to the Draper Committee
+Report. 19 The purpose of increased funding within
+the Military Assistance Program was to assist those
+countries in Southeast Asia and Latin America that
+were fighting local insurgencies. President Kennedy,
+who had first linked counterinsurgency doctrine to
+the Special Forces mission in Vietnam, also linked
+it within Latin America. 21 Special Forces, in their
+military civic action programs, trained host-country nationals in primary healthcare and field sanitation. They also provided rudimentary healthcare
+to the rural population. All of these programs were
+identified with a nation-building role. The concepts
+of disaster relief, with it’s implied humanitarian
+mission, and military civic action were also linked
+with Special Forces programs in the 1960s. 24(p147)
+In a 1962 memorandum the Joint Chiefs of Staff
+acknowledged that nation building, a goal of military civic action, was not foreign to the United States
+Army, and has been its major task in the latter half
+of the 20th century in America. The Joint Chiefs of
+Staff admitted that nation-building concepts had
+fallen into disuse, and that their reemergence in
+military assistance programs represented a major
+change in practical US military orientation. 21 With
+a renewed interest in low-intensity conflict doctrine
+in the mid-1980s, a Special Operations Command
+(SOCOM) was established in 1987. (Exhibit 24-3
+discusses the SOCOM nation-building role.)
+Southeast Asia and Vietnam: Implementation of
+Civic Action Programs
+There is strong evidence to suggest, however, that
+the US Army did not effectively alter its practical
+military orientation to accommodate nation building
+and military civic action in Vietnam. Civic action/
+civil assistance programs in Southeast Asia, including Vietnam, were always associated with the primary
+mission of training and operations of the host country military using US military personnel. A secondary role for these US military advisors and trainers
+was in civil assistance programs. The secondary role
+supported the host country by assisting in improvEXHIBIT 24-2
+ARMED FORCES ASSISTANCE TO KOREA
+The Armed Forces Assistance to Korea program was formally established in November 1953. The program
+began informally as an outpouring of assistance by US military personnel in response to the war’s refugees.
+US soldiers collected food and clothing to be distributed to relief organizations. This grass roots program
+caught the attention of General Maxwell Taylor, the Eighth Army Commander. Congress authorized $15 million in military assistance funds followed by an additional $5 million. This is probably the first organized US
+military effort in facility reconstruction funded by a Military Assistance program. It was a successful model
+that accomplished many positive results. The mutual respect of the Koreans was reinforced by a positive effect
+on the morale of the Americans. Most importantly, US and Korean military expertise was used in a coordinated
+program to rebuild the infrastructure of civilian institutions using the economic resources of the country. Military equipment and personnel were authorized if combat readiness did not suffer. The Korean government
+supplied local materials and effort. The estimated final cost of the facilities constructed was approximately
+three times that of the initial investment in material and supplies. The program was directed at replacing or
+repairing war-damaged facilities that benefited the majority of the local residents. Priorities established included schools, public health buildings, orphanages, civic buildings, public utilities, and bridges. A medical
+program was emphasized in the Korean program that provided equipment and supplies, as well as medical
+personnel.
+Source: United States Congress. Senate Committee on Foreign Aid. Near East and South Asia (Subheading B), Distribution
+of Military Resources to Economic and Social Progress (Annex D, June 1959). The President’s Committee to Study the United
+States Military Assistance Program. Final Report. Washington, DC: US GPO; 17 August 1959: Annex D: 127–136.
+Military Medicine in Humanitarian Missions
+781
+ing villages’ infrastructure and took a variety of
+forms. A benefit of these training programs helped
+host country nationals to learn and apply their new
+knowledge at the village level even after the US
+military left. Some joint exercises with host country
+military provided medical visits to villages. Others
+involved: (a) improving sanitation (water sanitation
+and well drilling, as well as sanitation in restaurants
+and homes); (b) assisting in teaching and building/
+repairing schools; (c) teaching crop rotation and
+spraying); (d) improving transportation (road building and repairs); and (e) improving quality of life
+by providing materials and services (children’s
+playground, generator to show movies, roofing for
+markets to enhance cleanliness, and community
+support to build electric generators). 20(pp92–99) (Other
+successful programs were in Korea and in the Philippines. However, unless national policy was developed and backed by the power of law and appropriations, no models for humanitarian assistance
+would be developed.) A previously confidential 14
+September 1968, Department of the Army study,
+Nation Building Contributions of the Army (NABUCA),
+admitted that civic action programs in Vietnam had
+not worked because “they had failed to involve the
+people.”25(pIV-16) The study went on to state that “the
+major cause of the Army’s weaknesses in nation
+building is the lack of qualified personnel to plan,
+conduct and advise on integrated nation building
+programs,”25(pIV-17) and that “few offices [sic] are
+available who have the know-how to elicit people’s
+participation in civic action projects. This is a skill
+that requires special education and experience to
+develop.”26(p213)
+Although the NABUCA study does not mention
+it specifically, Herrington, in an account of his adEXHIBIT 24-3
+SPECIAL OPERATIONS COMMAND
+The Special Operations Command (SOCOM) was established by Congress in 1987 as it renewed its interest
+and emphasis in the doctrine of low-intensity conflict (LIC) in the mid-1980s. 1 The primary mission of this
+command was to prepare Special Operations Forces for rapid reinforcement of other unified commands. The
+peacetime mission of these forces was to deter the escalation of violence at the low-intensity spectrum of
+warfare. This mission is again linked with a nation-building role. The wartime mission is to support US conventional forces. These roles are similar to those first developed by Special Forces in Vietnam. Special Operations Command continues to emphasize a high visibility role for Special Operations Forces in nation building.
+Special Operations Command doctrine dictates that civil affairs units coordinate civic action programs. 2 Except for the active duty civil affairs group assigned with the 1st Special Operations Command at Fort Bragg,
+North Carolina, all others are in Reserve or National Guard units. In the Southern Command (SOUTHCOM),
+a civil affairs office regulates all Reserve and National Guard training exercises in the command. General
+Gorman, former Commander in Chief (CINC) of SOUTHCOM from 1983 to 1985, cautioned in a 1991 interview that the roles of Special Forces medics cannot be used interchangeably with those of medical department
+personnel and their missions should not be mixed. 3 He further stated that advocates of Special Operation
+Forces want others to believe that they are capable of all low-intensity conflict missions. General Gorman
+specifically excluded the missions of medicine, engineering, transportation, public information, and logistics
+from Special Operations Command.
+Because of military deployments in Central America during the last decade the US military defined the doctrine for low-intensity conflict. Therefore, it is not surprising that the humanitarian nature of medical civic
+action is so often linked with counterinsurgency doctrine in Latin America. The original large programs of the
+1960s targeted medicine and engineering projects in Latin America. 4 In fact, even the Army Medical Department (AMEDD) issued its own version of this doctrine in 1990. 5 The policies and procedures found in this
+doctrine incorporate the lessons learned during US Army medical deployments to Honduras in 1983.
+Sources: (1) Lindsay JJ. The unified and specified commands. US GPO, Washington, DC: US GPO; December 1987: 49–52.
+(2) Personal interview with Lieutenant Colonel Paul Michash, Assistant Secretary for Defense for Civil Affairs, 3 December
+1990. (3) Personal interview with General Paul F. Gorman, 20 March 1991. (4) Inter-American Defense Board. Work of the
+Armed Forces in the Economic and Social Development of the Countries (Military Civic Action). 8 June 1965 [internal unclassified
+publication]. Available from Clearinghouse for Federal Scientific & Technical Information, Springfield, Va. (5) US Department of the Army. Combat Health Support in Military Operations Other Than War. Revised Final Draft. Fort Sam Houston,
+Texas: US AMEDD C&S. Field Manual 8-42.
+Military Medical Ethics, Volume 2
+782
+visory experiences in Vietnam during 1971 and
+1972, suggests that a particular quality found to be
+lacking in American efforts in Vietnam was that of
+cultural empathy. He stated “most Americans are
+not equipped to forge an effective working relationship with their Vietnamese counterparts,”26(p213) and
+added “the cultural and linguistic barriers were almost impossible to break.”26(p214)
+The NABUCA study hinted that a new concept
+was being developed to remedy the situation. The
+new effort came to be known as the “Civil Operations,
+Revolutionary Development Support” (CORDS).
+Conceding that the individual and diffused efforts
+of the US Army, the US Agency for International
+Development (USAID), the Central Intelligence
+Agency (CIA), and the US Information Service
+(USIS) were failing, President Johnson authorized
+the formation of CORDS. CORDS became the operational head for all 44 provinces and 271 districts
+in South Vietnam between 1967 and 1972. 27 US military advisers and civilian specialists from USAID,
+USIS, and the CIA were told to win the “hearts and
+minds” of the rural Vietnamese. McCollum, who
+has written about CORDS and its successes, alleges
+almost unqualified success for the CORDS program
+prior to the 1973 US withdrawal. 27 The CORDS effort in Vietnam was somewhat effective because it
+was operating under a single manager concept, but
+was doomed to failure because it lacked other necessary ingredients for success. There was neither
+full central support of the government nor support
+at the level of the provincial village chiefs to allow
+villagers to become independent. The power of the
+host-country military and the provincial chiefs over
+the civilian population interfered with the development of other village leaders for fear of losing
+their own power. Additionally, as the war escalated,
+with increasing manpower losses, fewer soldiers
+were available to do civic assistance activities. 21(pp273–
+277) Regardless of the specific impact of CORDS,
+McCollum’s article calls attention to the fact that
+successes achieved in Vietnam during pacification
+have been obscured by the overall negative nature
+of the conflict’s outcome.
+With the impending US military failure in Vietnam, turning the fighting over to the South Vietnamese military, the US troop drawdown, and the
+ongoing peace negotiations (which sought the release of US prisoners of war and the withdrawal of
+US forces), the US public voiced a strong desire to
+reduce direct military involvement abroad. Economic support of foreign military forces was becoming unpopular, accompanied by increasing sentiment that foreign aid programs were of little
+benefit. 28(pp51,171–173) In a scathing report published in
+1972, the US Congress urged the creation of a Developmental Assistance Program under the administration of USAID that was distinctly separate from
+the Security Assistance Program. This new program
+strengthened the nation-building role for USAID
+and further removed this mission from the DoD.
+It is a truism that the Vietnam debacle elicited a
+US Army movement away from military civic action and low-intensity warfare, and back to the security of a conventional tactical doctrine in which
+it had great success in World War I and World War
+II. Blaufarb contends that this shift occurred just
+after the final North Vietnamese offensive of 1975. 21
+As such, military civic action as a viable concept
+only survived 14 years, hardly enough time for it
+to be understood and applied during the chaotic
+Vietnam era.
+Despite the many controversies regarding the US
+involvement in Vietnam, the Surgeon General of the
+US Army, Leonard D. Heaton, emphasized that political opportunities provided by medical civic action
+programs could improve America’s foreign relations. 29 He saw that military medicine could improve people-to-people relations in underdeveloped
+countries and could be a model for these nations to
+follow. It is my opinion that the model of Medical
+Civil Action Programs (MEDCAPs) developed during the Vietnam war influenced the development,
+implementation, and transition to a modern concept
+of humanitarian assistance missions for deployed
+troops in regional conflicts abroad. The development of the model, however, did not come easily,
+nor was it immediate.
+THE CHANGING CONCEPT OF NATION BUILDING (1975–2000)
+The Aftermath of the Vietnam War
+Nation building and civic action, as useful missions for the Special Forces, fell into disrepute after
+the communist unification of Vietnam in 1975. Budget and manpower cuts of up to 95% followed as
+the mission of the Special Forces was changed. The
+US government shifted its focus from counterinsurgency threats to foreign policy conflicts with the
+former Soviet Union. With the emergence of worldwide terrorism, exemplified during the administration of President Carter with the seizure of the US
+Embassy and staff in Tehran, Iran in 1979, a strategy of military readiness in the form of “quick reMilitary Medicine in Humanitarian Missions
+783
+action” forces was developed. Unfortunately, the
+mission failure of the Special Operations forces that
+deployed to rescue the US Embassy hostages in Iran
+in 1980 served to highlight the weaknesses of the
+organization and planning of that joint services’
+mission. Since then, the use of Special Forces in support of American objectives in foreign policy has
+again been successful. The most recent example is
+their use in October 2001 as “quick reaction” forces
+in Afghanistan, to aid in the overthrow of a government that harbored terrorist organizations.
+In the early 1980s, in the subsequent Reagan administration, the focus shifted to counterinsurgency
+movements in Central America. As a consequence,
+the doctrine for low-intensity conflict was reviewed,
+which stimulated a rethinking of the role of Special
+Forces. The previous (and original) counter-insurgency doctrine was developed in the Philippines
+and was applied to Latin America and Southeast
+Asia by US military forces. The medical doctrine
+for low-intensity conflict was written in the mid1980s. 30 Cold War politics was thus responsible for
+linking military civic action programs with the
+counterinsurgency movement and its doctrine for
+the next 20 years.
+It should be remembered that the military involvement in Vietnam had demonstrated the benefits of nation building through congressionally
+mandated assistance programs. Military leaders,
+many of whom were Vietnam veterans, framed the
+policy questions and developed the strategies for
+future humanitarian assistance programs in Central America.
+In this chapter I will discuss two of these programs, those in Honduras and El Salvador, as examples of successes. Both were under the purview
+of the Southern Command (SOUTHCOM), US
+Army (see Exhibit 24-4). Although the goals of these
+two programs were essentially the same—nation
+building leading to regional stabilization—their legal basis differed. The Salvadoran government
+chose to use Security Assistance Program funding
+for Foreign Military Sales (as previously described)—
+funds provided by the United States government
+for medical assistance rather than for military training and weaponry—because of the protracted civil
+war in El Salvador. Prior to the change in law in
+1985, the medical civic action activities in Honduras were developed as part of medical exercises for
+deployed US medical, dental, and veterinary personnel in an effort to maintain their skills and proficiency. However, the El Salvadoran MTT program
+trained host-country military medical personnel in
+trauma and evacuation procedures, whereas in
+Honduras, the primary health care needs of the civilian population were addressed. In both countries,
+these exercises were generally welcomed and supported. Even though these two programs essentially
+ran concurrently, they will be discussed separately
+in this chapter, beginning with Honduras (as that
+was the country that came to the attention of the
+US Congress as it reviewed the role of the DoD in
+the early days of military humanitarian assistance
+missions.) But first, a brief description of the overall situation in Central America when these medical exercises were instituted will help establish the
+context in which these humanitarian assistance programs were undertaken.
+Nation Building in Central America: The
+Background
+In the late 1970s and early 1980s Central America
+was in turmoil. In 1979, a protracted war in El Salvador was under way, fought by at least five separate guerilla forces. Fidel Castro, the communist
+leader of Cuba, convinced the separate guerilla
+forces in El Salvador to unite under the Farabundo
+Martí National Liberation Front with its main purpose to overthrow the existing government by violent means. Arms shipments from Cuba and the
+former Soviet Union were funneled into the country by way of Nicaragua, which also supported
+training for the insurgents. The United States sought
+to counter these guerilla efforts by providing military support to the elected government of El Salvador through the Military Security Assistance Program and foreign military sales. 31,32
+From 1979 to 1983, the El Salvadoran Armed
+Forces (ESAF) had increased from 12,000 to 40,000
+soldiers to combat the random attacks of these guerilla forces. 33 The ESAF and the Security Assistance
+Forces (US military acting as advisors [a very small
+number were allowed by the US Congress]) used a
+variety of means to reduce these random attacks on
+military and civilian targets. 34 After a change in
+ESAF tactics (to employing smaller units) additional
+successes were achieved through the use of an information campaign, intense civil defense programs, and military civic action programs. Over a
+4-year period the estimated number of insurgents
+decreased from a high of 11,000 to about 8,000 in
+1983. However, in response to the increased weaponry and equipment of the ESAF, a significant
+change occurred in the tactics of the guerilla forces.
+Their new emphasis was on small ambushes, terrorist attacks, and sabotage, with a high priority
+given to the use of land mines. This rapid transiMilitary Medical Ethics, Volume 2
+784
+EXHIBIT 24-4
+SOUTHERN COMMAND
+Southern Command (SOUTHCOM) commanders have actively pursued an aggressive policy to provide engineering services through civic action programs in Honduras. Engineering projects, the most accepted US civic
+action programs, are more tangible and are intuitively more acceptable in a cost-benefit analysis. In spite of
+their success, however, criticism has also been directed toward these engineering programs, especially when
+the policy of the host foreign nation does not or cannot support collaboration in joint projects. Medical civic
+action programs also have been criticized for both their methods and their achieved results. Most of these
+criticisms are made by various US governmental agencies or by other nongovernmental healthcare planners.
+Since the law was enacted in 1985 to allow DoD to provide humanitarian/civic action (H/CA) programs in
+locations throughout the world, the Southern Command has consistently had the largest H/CA program, with
+significant successes in medical, dental, veterinary, and engineering programs. Of the various SOUTHCOM
+H/CA Programs, only the Medical Element, Joint Task Force Bravo at Soto Cano, Honduras, has been able to
+provide a long-term medical model, due to the continued presence of US forces. SOUTHCOM commanders
+had expected to replicate this model throughout the Americas and to export it around the world.
+Despite the high visibility of the Medical Element, Joint Task Force Bravo, SOUTHCOM reports still classified
+most medical civic action projects as small in sheer numbers. For instance, in the SOUTHCOM FY (fiscal year)
+1991 recommendations for humanitarian/civic assistance projects, only 33 of 234 projects (approximately 14%)
+were medical. 1 No medical projects were listed separately for Honduras but some were included with the
+engineering projects. These included the 24 (out of 125) engineering projects that involved digging of wells
+(the remaining 101 involved the construction or repair of schools). General Jowlwan, the SOUTHCOM Commander in Chief reviewed the information and reclassified this number to 80 of the 234 total projects. 2 Still,
+this is a paucity of medical training exercises in the overall program.
+The Inter-American Defense Board Staff published an extensive list of “military civic action” projects in Latin
+America. 3 The thrust of the work was to define this nebulous term. Here it was defined in its broadest terms
+and meant any contribution of the military to the economic or social development of their country. For example, Chile established a Military Work Corps under the direction of the Commander-in-Chief of the Army.
+Colombia established a national Committee on Military Civic Action. The committee consisted of the ministers of government, war, agriculture, public health, national education, public works, and any private organizations that would work toward the same common goal. This organization seemed to be the most inclusive
+and was directed toward a cohesive plan at the highest political levels of the country. In a review of the projects
+in Latin America, health, sanitation, and education projects dominated. The coordinated activities of the US
+Medical Element, Joint Task Force Bravo directed their missions at this level.
+Another productive exercise for the US Army Medical Department is the deployment for training exercises
+(DTEs) such as the maxillo-facial surgery teams. 4 US surgeons are deployed in these surgical readiness training exercises to maintain reconstructive surgery skills. These exercises consist of a team to repair facial deformities, such as cleft lips and palates, for Honduran civilians. Facilities are donated by the Honduran government to include bed space, operating rooms, and pre- and postoperative nursing care. These exercises provide
+an opportunity to maintain essential skills for plastic, otolaryngology, and oral surgeons in the US military
+because the frequency of these operations is lower in the United States. It provided the Honduran medical
+system a way to increase the number of these procedures that benefit the health of their countrymen. The
+liaison medical doctor for the Honduran Ministry of Health coordinates this highly successful joint effort.
+These US medical teams still provide this care to the large numbers of indigent patients who are unable to
+obtain treatment in Honduran public hospitals and clinics. The main public medical center, the Hospital Escuela,
+is limited in operating time and the regional hospitals do not have the specialists to perform these procedures.
+Sources: (1) Memorandum for Deputy Assistant Secretary of Defense Wolthuis, Subject: United States Southern Command
+FY 91 H/CA Nominations, dated 30 July 1990. Author: William W. Hartzog, BG, USA Director, J#, Department of Defense,
+United States Southern Command, Quarry Heights, Panama. (2) Telephone interview, 22 March 1991 with General George
+A. Jowlwan, SOUTHCOM CINC. (3) Inter-American Defense Board. Work of the Armed Forces in the Economic and Social
+Development of the Countries (Military Civic Action). 8 June 1965 [internal unclassified publication]. Available from Clearinghouse for Federal Scientific & Technical Information, Springfield, VA. (4) Colonel George E. Smith, Plastic Surgery in Honduras, Information Paper, 28 October 1987.
+Military Medicine in Humanitarian Missions
+785
+tion from a peacetime stance of limited garrison
+healthcare to a wartime posture required widespread use of competent field medical treatment,
+rapid evacuation, and comprehensive surgical and
+rehabilitative care to treat the casualties of land
+mine warfare.
+By 1983 these activities in Central America were
+clearly of military interest to the United States. As
+already mentioned, El Salvador was in turmoil.
+Nicaragua was unstable with the Contra civil war,
+and Guatemala was fighting an insurgency. Honduras was also affected by the regional strife and
+was preparing to defend itself. Officials in Honduras indicated they intended to mobilize their country for quick air strikes into Nicaragua. The Costa
+Ricans had experienced repeated Nicaraguan incursions as well and were no doubt considering their
+military options.
+Instability in Central America was of concern to
+the US Congress. In an effort to minimize or contain the influences of communism in Central
+America (eg, Nicaragua, insurgent activity in Guatemala and El Salvador), Congress authorized and
+appropriated funding for low-intensity conflict programs. General Gorman, as the SOUTHCOM CINC,
+was responsible for the strategy and program execution of these programs. His oversight included
+all activities in Central and South America to include medical programs.
+The CINCs and their existing and new programs
+are reviewed and justified in a congressional oversight process. Any US assistance or intervention in
+the region would require congressional approval
+and funding, as well as extensive planning and coordination by his senior command staff and the
+Department of State. Such an intervention would
+also require the deployment of medical assets. However, up until 1983, SOUTHCOM did not have a
+command surgeon to formally advise the CINC regarding medical issues in the geographic region
+assigned to SOUTHCOM. The Commander of
+Gorgas Army Hospital was the informal advisor to
+the CINC, SOUTHCOM, but knew little about the
+medical problems in the region. Consequently, General Gorman authorized a new position, Command
+Surgeon, SOUTHCOM, to advise him on medical
+problems within his region. General Gorman, working with his command staff, developed a plan for
+civic action/nation building military exercises in
+Central America. With the US shift in focus to Central America, Honduras was a logical choice for
+beginning a nation building effort because it was
+still neutral and welcomed a US presence to deter
+further regional conflicts.
+In his congressional report in the spring of 1983,
+General Gorman stated his three outcome goals for
+exercises to be conducted in Honduras. First, all
+operations should improve readiness of the armed
+forces of Honduras and in so doing deter regional
+conflict. 35 Second, all exercises should have a legitimate training value for both US and Honduran
+forces. And finally, all exercises should provide a
+tangible benefit to Honduras as the host country.
+Additional activities would pursue causes that advanced US national interests, some of which were
+of a classified nature. In a hearing with the Armed
+Services Committee in May 1983, General Gorman
+also offered three reasons why the US should deploy troops to Honduras by that August: (1) to deter the Honduran military mobilization and invasion into Nicaragua; (2) to convince the military
+leadership of Honduras to prepare for defense of
+their country; and (3) to reassure the government
+of Costa Rica of US support in the region. 35 At all
+times during their deployment, the United States
+would remain neutral in this effort to deter violence
+in the region. And, as part of the deployment force,
+there would be medical assets as necessary to maintain the health of the US forces.
+The Beginning of the DoD Humanitarian
+Mission in Central America
+Several medical officers who had formerly served
+in Vietnam (including myself) were assigned as
+medical personnel supporting US deployed military
+forces in Honduras in 1983. The stated mission of
+the US hospital was to provide care for the US
+troops in Honduras. In an interview with the hospital commander, it became apparent that the training mission and the medical readiness mission of
+his personnel were also of primary importance. 36
+He reasoned that just as line officers use weapons
+or maneuvers for their readiness training, medicine
+and the maintenance of diagnostic and treatment
+skills were the tools for medical training.
+However, because medical readiness is not often
+tested in a young healthy population of US soldiers,
+the US hospital commander also wanted medical
+readiness and the maintenance of professional skills
+to be a mission requirement. The skills needed for
+deployments and the ability to practice medicine
+under austere conditions would prepare his staff
+for worldwide medical readiness. If the daily training of his medical professionals was restricted to
+the care of US soldiers only, a loss of skill would
+Military Medical Ethics, Volume 2
+786
+occur during their temporary duty deployment of
+6 months. Treating Honduran nationals could prevent this skill loss. Additionally, the individual
+benefits of dealing with healthcare in developing
+nations provided a personal satisfaction that few
+US healthcare professionals had previously experienced coming from a high-technology milieu.
+General Gorman’s agenda in Honduras was to use,
+as feasible, the US hospital as a resource to assist in
+improving some of the basic health problems of the
+Honduran armed forces. In addition, hospital inpatient care of Honduran nationals could be rendered
+on a space-available basis. The US Army medical officers who were assigned to Honduras were convinced
+of the value of a medical program based on their past
+experiences in Vietnam and what they saw in Honduras. They initiated a MEDCAP similar to those they
+had conducted in Vietnam.
+General Gorman, with the first command surgeon in Honduras, Colonel Russ Zajtchuk, began
+the joint medical training mission concept with a
+broad-based program of interaction between the US
+and Honduran medical forces and the civilian community. In the Honduran armed forces, field medicine and sanitation precautions were inadequate.
+Immunizations, malarial prophylaxis, and antisnake
+bite venom was provided sporadically because of
+lack of supplies and inadequate logistical support.
+Simple emergency care provided by a combat medic
+was nonexistent. The situation was so severe that
+many soldiers refused deployment to areas of high
+health risks or to remote areas without doctors.
+Medical evacuation and logistical support were
+rudimentary.
+The president of Honduras, who was also a physician, was certainly concerned about the difficulties of providing healthcare to his soldiers, but he
+also had another health concern: the assumed potential for US military troops to harbor and spread
+what is now known as the human immunodeficiency virus (HIV), which causes acquired immunodeficiency syndrome (AIDS). Extensive adverse
+publicity with incomplete data of the etiology and
+transmission of this health hazard was just appearing in the early 1980s in the US press. The issue of
+identification and control of the disease in the US
+military troops stationed in Honduras was important. The president’s concerns were addressed by
+attaching a US Army hospital to the US task force.
+General Gorman was convinced of the critical importance of the hospital in influencing the president’s
+decision in favor of stationing US troops in Honduras. He testified that the deployment of medical
+personnel “was the sine qua non for SOUTHCOM’s
+program and the US presence in Honduras. Had we
+not had the US hospital, we would have lost the
+game.”35 Locating the US hospital in the area of
+highest troop concentration would assure that the
+health problems of US troops would be handled
+immediately by US medical personnel.
+On the basis of a review of Honduran troop readiness, General Gorman urged their armed forces
+commander and chief of staff to delay any mobilization against Nicaragua in favor of further training for their armed forces. 35 He emphasized the
+details of what was necessary to deploy an army in
+the field as well as how to address Honduran security concerns without recourse to violence. Both of
+these needs could best be met by Honduran participation in joint training exercises. These exercises
+would strengthen their military readiness capabilities that would then become a powerful tool in deterring regional conflict. This, then, was the basis
+of the original project model in Honduras. It was
+similar in execution to the medical civic action programs in Vietnam.
+As a result of these interactions between Honduran and US forces, it was possible for the logistical, organizational, and preventive medicine expertise of the medical element to build a collaborative
+framework to bring healthcare to rural areas. (See
+Exhibit 24-5 for a further discussion of the evolution of the medical elements in Honduras.) Honduran citizens, primarily in remote mountain areas,
+now saw their own country medical personnel
+working to treat them. It was not unusual for these
+people to have never seen medical healthcare workers. Honduran healthcare workers were deeply
+moved to work side-by-side with Americans to treat
+the Honduran populace.
+It is my assessment, based on my experience in
+Honduras, that the host-country private, public,
+and military healthcare systems were strengthened,
+some of the health needs of the rural areas were
+identified and corrected, and a caring side of both
+the nation and the US military and medical personnel was evident as a direct result of this program.
+Providing for some of the very basic needs in primary care treatment and health education programs
+for these people was the least controversial means
+to assist developing nations in Central America.
+During this transition period to democracy, the DoD
+National Security Strategy initiatives (drafted in
+1983) in SOUTHCOM were advanced. The Humanitarian Task Force Report, which detailed these activities and accomplishments, was forwarded to the
+Secretary of Defense.
+In 1984 the Secretary of Defense approved the
+Military Medicine in Humanitarian Missions
+787
+EXHIBIT 24-5
+US MILITARY MEDICAL UNITS IN HONDURAS
+Since the inception of the civic action programs in Honduras, there have been three medical units involved: (1) the
+41st Combat Support Hospital, (2) the 47th Field Hospital, and (3) the Medical Element, Joint Task Force Bravo.
+1.
+41st Combat Support Hospital, Fort Sam Houston, Texas (August 1983–February 1984). Colonel Russ Zajtchuk,
+Commanding. The 41st Combat Support Hospital was complemented by two Medical Companies (546th [CLR]
+and 690th [AMB] from Fort Benning, Georgia); D Company, 326th Medical Battalion [Air Ambulance Company] from Fort Campbell, Kentucky; the 225th Preventive Medical Detachment [LC] from Fort Sill, Oklahoma;
+and the 73rd Veterinary Detachment [JA] from Fort Jackson, South Carlina. The number of Army personnel
+supporting the exercise named AHUAS TARA (Spanish for “Big Pine”) was 421. This Army Combat Support
+Hospital deployed from Fort Sam Houston, Texas, to support approximately 12,000 US soldiers during AHUAS
+TARA II (Big Pine II), and joint US-Honduran exercises. The hospital was set up in a 200-bed configuration of
+inflatable units supported by six U-packs (inflatable units) to maintain inflation and heating and air conditioning. Billeting was all under tents. Water buffaloes were the source of all drinking water. Human waste was
+disposed of using burn-out latrines and soakage pits. Medical evacuation within country was accomplished
+using six UH-60 Blackhawk MEDEVAC (medical evacuation) helicopters configured as air ambulances. Having the helicopters under the control of the hospital commander permitted large numbers of medical training
+missions through the provision of humanitarian assistance. The highly successful immunization program was
+largely due to logistical air support and in-country coordination with Honduran officials.
+2.
+47th Field Hospital, Fort Sill, Oklahoma (February 1984–August 1984). Colonel John Hutton, Commanding. This Army field hospital deployed from Fort Sill, Oklahoma to Palmerola Air Base with approximately 225 personnel to support the GRANADERO (Spanish for “grenadier”) I exercises of Joint Task
+Force Alpha. By June of 1984, medical staffing numbers ranged from 50 to 90 and was able to serve a 15bed hospital with expansion capabilities to 30, one operating room and one triage area during the transition of the Palmerola Air Base (now Soto Cano Air Base) to Joint Task Force Bravo. Tents were used for
+both hospital and billeting functions. Water buffaloes were still the source of all drinking water. Human
+waste was still disposed of using burn-out latrines and soakage pits.
+3.
+Medical Element, Joint Task Force Bravo (August 1984–present); Lieutenant Colonel Lou A. Popejoy, Commanding (August 1984–February 1985); Colonel Joan T. Zajtchuk, Commanding (February 1985–September 1985). The medical element manning document consisted of two-thirds Army and one-third Air Force
+medical personnel until June 1985. Air Force rotations were every 3 months; Army rotations were every 6
+months. After this date, the entire unit consisted of Army medical personnel rotating for 6 months. The
+long-standing presence of this Medical Element continues to assist not only US troops but supports medical exercises for the benefit of Honduras such as assistance during Hurricane Mitch, the recurrent joint
+activities with the Ministry of Health, and the Honduran Military and the maxillofacial DTFs (dental treatment facilities). The previous hospital and its adjacent buildings and personnel billeting now used elevated Central American Type (CAT) wooden huts. The operating room was a 12 x 20 foot, double-walled
+box. Air conditioning of the hospital CAT huts was completed by June 1985. Billeting quarters were improved at this time to provide foot and wall lockers, and beds instead of cots. Two UH-1H helicopters
+supported the Medical Element Mission for air evacuation. A motor pool supplied all heavy duty trucks
+for land missions. The schedule consisted of alternate weeks of one land mission and three air missions.
+Air missions required the use of Chinook helicopters to transport personnel and supplies. Until July 1985,
+when medical service corps officers were assigned, medical corps officers were utilized for planning and
+operations, medical logistic support and for all administrative actions.
+The program has made steady progress in Honduras, although at times it has been very slow. For instance, construction plans for a permanent hospital for the Medical Element were developed and signed in 1985; the hospital was
+built by US engineers in 1991. As the Task Force presence became more permanent, sanitary facilities were brought
+up to standards. The mission was to (1) provide area medical support to US forces in Honduras: (a) Air ambulance
+evacuation, (b) veterinary activities such as meat inspection, oversight of the dining facilities, health and quality
+standards of the Post Exchange, and the health of Military Police dogs (c) Preventive Medical oversight to all units
+(water and waste management, vector control, oversight of food preparation, prevention and control of sexually
+transmitted diseases); (2) conduct unit Readiness Training Exercises for (a) medical, dental, and veterinary activities
+(b) to maintain an Emergency Medical Response Team (a rapid response medical team that can be deployed quickly
+for trauma situations or natural disasters), and (c) conduct simulated mass casualty exercises; (3) provide logistical
+and operational support base for US continental-based medical units deployed to Honduras for training (Reserve
+and National Guard units, and two rotations for training of Special Forces Medics).
+Military Medical Ethics, Volume 2
+788
+Humanitarian Task Force Report. The Department
+of Defense’ Office of Humanitarian Assistance,
+OPR: OSD/ISA (Global Affairs), was created that
+same year as a direct result of recommendations of
+the Department of Defense Humanitarian Task
+Force Report. The Deputy Undersecretary of Defense for Policy was given the authority to coordinate all of the Humanitarian Assistance activities
+within DoD. In September 1984, Dr. Robert K.
+Wolthuis, Special Assistant to the Deputy Undersecretary, was made the first DoD Coordinator and
+Director for Humanitarian Assistance. This office
+also addressed the distribution of surplus equipment and supplies and was integrated with hostnation civilian and military medical activities. As
+an example, civilian organizations abroad could
+request equipment and supplies. Transportation
+funding would be provided by this office. Each
+branch of military service was directed to provide a
+civilian or military officer as the liaison to the office.
+Despite the humanitarian nature of this new program, the creation of this office and with it a perception about its influences on a nation-building
+role for the Department of Defense had negative connotations. 37 This was due to the previous association
+of civic action programs with counterinsurgency
+and low-intensity conflict doctrine in Vietnam.
+(These negative connotations were widespread and
+persisted for more than a decade after US withdrawal from Vietnam. For example, a US military
+pediatrician stationed in Honduras attempted to
+purchase a copy of Where There Is No Doctor, the
+practical rural-health textbook. The sale was refused
+in a written reply by the book’s author who stated
+that the roles of military medicine and humanitarian assistance represented conflicting motives. 38) Dr.
+Wolthuis, the first Director of this policy office,
+shared the concern regarding the negative connotations that so closely associated Special Forces with
+medical civic action programs. As a result, Special
+Forces missions were excluded in the funding process. Dr. Wolthuis was convinced that the Department
+of Defense, despite its past negative publicity, could
+participate in assisting developing countries by
+performing smaller projects in the larger context of
+a nation-building role of the Department of State.
+By mid-1984, General Gorman’s initiative in attaching a military hospital that provided care to Hondurans had come to the attention of the Government
+Accounting Office (GAO). A May 1984 GAO report
+criticized DoD, and specifically SOUTHCOM, for expending appropriations for humanitarian/civic assistance mission for which it had no authority. 39 The
+report noted that the US hospital commander and
+command surgeon for Honduras had used medical
+supplies, logistical support for deployment to remote villages, and US military hospital facilities for
+purely humanitarian/civic assistance missions of
+direct benefit to the host nation.
+Despite the critical GAO report, a gradual maturing of the program goals had evolved into an
+acceptable working model that ultimately assuaged
+the various critics. These medical training exercises
+were of particular interest to the US Congress. The
+issue to be resolved was whether or not there would
+be authority granted to officially provide for an
+expanded role for humanitarian assistance in Department of Defense missions.
+This section about the role SOUTHCOM played
+in the development of humanitarian assistance doctrine would be lacking without the comments of
+General Maxwell R. Thurman. He influenced the
+programs in SOUTHCOM through his successors
+such as General Gorman and General Jowlwan. He
+supported the development of a medical model so
+that military-to-military partnerships could be effectively developed. He was the “soldier’s soldier”
+and recognized the discrepancies in the provision
+of healthcare in foreign military forces as compared
+to US standards. He wanted to provide a training
+program addressing these shortfalls so that basic
+needs of the soldier could be met. His death in 1995
+culminated a long and productive Army career. He
+was responsible for modernizing the US Army and
+was a champion of military medicine (Exhibit 24-6).
+Formalizing the Role of the Department of
+Defense
+After lengthy congressional debate, the Department of Defense was authorized to use operational
+and maintenance funds in May 1985 for humanitarian/civic assistance projects if the expenses incurred
+were “incidental to authorized operations.”36 What
+was considered incidental was not specifically delineated but was, in general, training of an informal nature where both the host forces and the US
+forces benefited. For example, in a Medical Readiness Training Exercise (MEDRETE) in Honduras,
+both Honduran military and civilian health personnel and their US counterparts would deploy to remote
+areas (Figure 24-1). A variety of medical services
+were provided to include:
+• immunizations, clinical evaluations (Figure
+24-2), and dental extractions (Figure 24-3);
+• veterinary examinations and immunizations (in cooperation with Honduran veterinarians) (Figure 24-4);
+• preventive medicine lectures;
+Military Medicine in Humanitarian Missions
+789
+• patient referrals (to regional civilian clinics and hospitals for follow-up care) (Figure 24-5); and
+• disease data collection (for the Ministry of
+Health to ascertain overall healthcare level
+of the nation).
+Patients requiring urgent care were transported directly to the US hospital or to regional hospitals.
+These joint-training exercises, even with their limitations, provided valuable training to US military
+medical personnel working under austere conditions. They also provided the logistical support for
+Honduran healthcare workers to provide care in
+their own underserved rural communities.
+Although Congress, via the Steven’s Amendment
+in Fiscal Year (FY) 1985,40 only addressed medical
+humanitarian activities in conjunction with authorized military exercises in Central America, it gradually expanded the mission description to include a
+broader range of activities. It was implemented later
+in worldwide deployments for all military branches
+and a 5-year budget ceiling was mandated.
+The Department of Defense program that provided humanitarian assistance in conjunction with
+EXHIBIT 24-6
+GENERAL THURMAN’S EVALUATION OF MEDICAL MILITARY CIVIC ACTION
+General Maxwell R. Thurman, when he was the Commander in Chief, Southern Command (CINC,
+SOUTHCOM), completed a 5-year program to include military civic action within complementary DoD programs for the region. In an interview I conducted in May 1991 with General Thurman after his retirement, he
+shared his goal for the medical benefits of all related civic action programs in Latin America. That goal included a plan to provide the same basic healthcare resources and education as provided for US military forces
+to be implemented in programs for the field medical and casualty care of all conscripted soldiers in Latin
+America. Even under ideal circumstances this would have been a daunting task considering the medical capabilities of the various countries compared to the level of healthcare provided to United States forces. Circumstances were (and continue to be) considerably less than ideal due to disruptions associated with narcotics
+traffic, civil unrest, a lack of general support of the US military model, issues of national sovereignty, and the
+lack of resources.
+To better understand how there was such a paucity of existing medical exercises in SOUTHCOM, I asked
+General Thurman to comment on these low numbers. It was his opinion that a medical model needed to be
+developed for the use of the military group commanders. This model would have to address healthcare at the
+host country political level so that they would accept the value of the partnership to improve their military
+health standards. General Thurman’s goals were twofold. One was to have all engineering projects include an
+accompanying medical training exercise. This medical program must be directed to a level of healthcare learning interactions rather than on the “Band-Aid” approach. His second goal was to develop a coordinated program to teach Latin American military forces the basic requirements for the maintenance of healthy troops.
+This would include adequate rations, preventive and field medicine, and adequate combat trauma care. This
+is the unmet long-term goal that still requires the interaction of both the civilian and military healthcare system at a national level. This goal can be realized by integrating a variety of Army Medical Department training
+programs and personnel exchanges such as the Subject Matter Expert Exchange Program. The CINC,
+SOUTHCOM should be instrumental in highlighting this concept with US agencies and foreign militaries.
+Fig. 24-1. Villagers approach UH-60 medical helicopter
+providing transport for US military and Honduran military and civilian medical personnel and supplies for a
+humanitarian assistance mission in a remote mountain
+village in Honduras. Without this logistic support, most
+regions were totally inaccessible for medical care. Photograph: Courtesy of Joan Zajtchuk, MD, from the combined collection of photographs taken by members of
+Joint Task Force Bravo, Honduras (1983–1985).
+Military Medical Ethics, Volume 2
+790
+US military operations prompted Congress to authorize and fund a more general DoD program in
+1987. The permanent authority under Title 10, Chapter 20–Humanitarian and Other Assistance, Sec. 401
+includes: (a) medical, dental, and veterinary care
+provided in rural areas of a country; (b) construction of rudimentary surface transportation; (c) well
+drilling and construction of basic sanitation facilities; (d) rudimentary construction and repair of
+public facilities; and (e) detection and clearance of
+land mines. Projects initiated under this authorization must promote the security interests of both the
+United States and the host country and must also
+promote specific operational readiness skills for US
+military personnel who participate in the activities.
+Under this new legal authority, the role of the
+DoD Office of Humanitarian Assistance shifted to
+providing policy. This office has no budget to directly support programs in humanitarian assistance
+and civic action; its function is to coordinate and
+oversee those H/CA activities that are “in conjunction with authorized military operations of the
+armed forces in a country.” In this capacity it must
+serve the basic economic and social needs of the
+country in which the assistance is given. AdditionFig. 24-3. US military dentist extracting infected or severely decayed teeth in an adult. Under these conditions,
+restorative dental care was not an option. Honduran
+medical personnel taught dental hygiene in classrooms
+of the village school. Photograph: Courtesy of Joan
+Zajtchuk, MD, from the combined collection of photographs taken by members of Joint Task Force Bravo,
+Honduras (1983–1985).
+Fig. 24-2. (a) Military police personnel assist the medical
+team effort in unpacking medical supplies. In the background, villagers are being triaged for medical diagnosis and treatment. (b) A US Army physician and nurse
+examine an infant to diagnose a middle-ear infection.
+Photographs: Courtesy of Joan Zajtchuk, MD, from the
+combined collection of photographs taken by members
+of Joint Task Force Bravo, Honduras (1983–1985).
+a
+b
+Military Medicine in Humanitarian Missions
+791
+ally, the projects must have Department of State
+approval and must be coordinated with the USAID
+Bureau for Program and Policy Coordination to
+preclude duplication of other US government programs. The office focuses its coordinating efforts on
+surplus property disposal, transportation, disaster
+relief, civic action, and medical assistance.
+In the past, jurisdiction had been given to the
+Department of State and USAID for roles in humanitarian assistance missions at the international level.
+Clearly any new role in humanitarian/civic action
+assistance for the Department of Defense had to be
+in support of existing federal agencies that were
+funded to perform this work. The new DoD program, therefore, required a memorandum of understanding between the DoD, the Department of State,
+and USAID to insure coordination of the projected
+Department of Defense H/CA programs.
+Honduras: Military Medicine in Civic Action
+Programs—The SOUTHCOM Model
+A series of events, beginning in 1983 with the
+increased interest in Central America, flowing
+Fig. 24-5. A Honduran child and family member from a
+remote mountain village await UH-60 helicopter transportation for further diagnosis and treatment at the 41st
+Combat Support Hospital. Photograph: Courtesy of Joan
+Zajtchuk, MD, from the combined collection of photographs taken by members of Joint Task Force Bravo,
+Honduras (1983–1985).
+Fig. 24-4. (a) A US Army veterinarian specialist provides
+oral treatment for intestinal parasites in a horse. Horses
+were also immunized against Venezuelan Equine Encephalitis. (b) Pigs are receiving oral treatment for intestinal parasites. They were also immunized against cholera. Joint US-Honduran teams provided the expertise.
+Lieutenant General Bernhardt Mittemeyer, Surgeon General, US Army, observes treatment. Photographs: Courtesy of Joan Zajtchuk, MD, from the combined collection
+of photographs taken by members of Joint Task Force
+Bravo, Honduras (1983–1985).
+a
+b
+Military Medical Ethics, Volume 2
+792
+through General Gorman’s initiative to use medical assets in SOUTHCOM to also care for Honduran
+soldiers and civilians, had now come to program
+implementation with the initial Stevens Amendment in 1985, and the subsequent Stevens Amendment in 1987 that expanded the program and gave
+it a legal basis. The latter had specified parameters
+and provided a budget for its implementation. It
+was now the authorized task of SOUTHCOM, in
+association with the Honduran government, to fully
+(and officially) implement the program.
+Three parameters were to guide all of SOUTHCOM’s humanitarian efforts in Latin America. Military exercises were to (1) improve readiness of
+armed forces to deter regional conflict, (2) have a
+legitimate training benefit for both US forces and
+those of the host country, and (3) be of obvious benefit to the host country. This was the mandate given
+to SOUTHCOM by the Congress in 1987. This mandate was gradually redefined as these training exercises came to be identified as medical civic action
+projects by both US commanders and Honduran
+nationals.
+By 1989, the term “civic action” had replaced the
+term “medical readiness training exercises”
+(MEDRETEs). This substitution, however, confused
+the goal of the medical exercises. Humanitarian assistance and civic action were supposed to be a
+product of the training exercise, not the goal. Honduras had historically benefited from some small
+military civic action programs in engineering that
+were started in the 1960s under the Military Assistance Program (MAP). Medical exercises are still
+influenced by the past concept of this term. The attachment of medical personnel to complement all
+short-term civic action missions within engineer
+deployments is quite different than the more recent
+medical readiness training exercises. All healthcare
+operations, both United States’ and Honduran
+(whether in conjunction with engineering projects
+or as strictly medical readiness training exercises),
+were designed to benefit the public health needs of
+the country. This entailed an extraordinary coordinating effort by the commander of the medical element with all Honduran civilian and military health
+agencies and providers. The influence of the former
+context of military civic action was apparent when
+the government of Honduras created the Office of
+Civic Action within the armed forces to plan and
+coordinate the corresponding military medical operations. 41 This, then, was the evolution of the program in Honduras during its first half dozen years,
+from approximately 1983 through 1989.
+The successful civic action program in Honduras is unique because of the long duration of continuing US troop presence in Honduras (since 1983).
+Generally, civic action programs have only been
+used with a minimal or sporadic US military presence. A review of the program in Honduras demonstrates the extensive coordination and planning
+by the military with all governmental, public, and
+private healthcare stakeholders. The program provides primary healthcare in remote rural areas, to
+include vaccinations, instruction in rudimentary
+preventive medicine principles, and primary care
+treatment. Host-country civilian and military healthcare workers and US military medical personnel
+worked within the existing national healthcare delivery infrastructure. This demanded a cultural sensitivity to both the limitations of the host country resources and the US military medical efforts.
+The sustained US military presence in Honduras
+contrasts markedly with the use of civic action in
+most other countries.
+El Salvador: Military Medicine in Security
+Assistance Training Programs
+In the 4 years leading up to the first US military
+humanitarian involvement in El Salvador, the country had been in a period of escalating violence and
+casualties. Large-scale combat operations to seek
+out and destroy insurgent units and their bases,
+coupled with the rapid increase of Salvadoran
+armed forces and the insurgents’ use of land mines,
+resulted in extremely high casualty rates. By 1983,
+the ESAF mortality rate was about 45% due to the
+lack of trained medical aid men in field units who
+could utilize emergency lifesaving procedures such
+as airway support and the control of hemorrhage.
+There was also a lack of dedicated field medical
+evacuation assets such as helicopters and ground
+ambulances. As a field expedient measure, both
+dead and wounded were transported in open trucks
+to receive advanced medical care. Simple first aid
+measures (such as tourniquet application to stop
+bleeding, the administration of intravenous solution to restore blood volume and prevent shock, and
+intubation to achieve airway control) were not done
+because of lack of training and supplies. Severely
+injured soldiers, as well as others with lesser injuries, often died during transport. This high mortality rate, combined with underlying medical and
+field sanitation problems, contributed to demoralization of the Salvadoran troops. The number of
+medical facilities was also inadequate to provide
+for combat casualty care for those wounded soldiers
+who survived the transport. (The military hospital
+Military Medicine in Humanitarian Missions
+793
+in San Salvador, for example, had increased its military physician staff from two to eight in an attempt
+to handle an occupancy rate that was 345% greater
+than planned capacity.)
+These dire military medical statistics prompted
+President Reagan to send a US Army medical mobile training team (MTT) to El Salvador in 1983, although the US military presence was limited due
+to security problems throughout the country. This
+medical team deployment was funded through the
+Security Assistance Training Program under the
+Foreign Military Sales (FMS) program. 42 This program provides for International Military Education
+and Training (IMET) and is managed by the security assistance officer of the host country. Both the
+cost of equipment and personnel are covered by
+these funds. Countries receiving IMET funds are
+determined by the congress, the president, and the
+Department of State. Reimbursement for the military training provided is made from foreign assistance appropriations. The Salvadoran government
+had requested that a portion of their Security Assistance funds be used for the development of this
+training program.
+The overall goal of the US Army MTT was to
+improve the survival chances of the wounded Salvadoran soldier (a) on the battlefield (by improving the knowledge and skills of the combat medic
+as well as the overall field sanitary environment),
+(b) through the transport process (by improving the
+speed of the transport), and (c) to the major medical facility for surgical care (by improving the surgical capabilities and skills of the medical staff). The
+majority of these wounded soldiers had been injured by land mines.
+Once they arrived in El Salvador, the US Army
+medical training team worked to establish a trauma
+surgery system, emphasizing simple life saving support care through the training of combat medics in
+battlefield resuscitation as well as field sanitation.
+The system also involved training individuals for
+the rapid evacuation of the wounded by helicopter. Another important goal was to create a more
+responsive surgical capability for battle casualties.
+Training included a combination of both formal
+course instruction and informal technical and management guidance.
+An essential component of the program was to
+teach basic battlefield first aid to individual soldiers
+and to train and equip combat medics. These combat medics would now provide the first life-sustaining measures for the wounded. (This intensive training of El Salvadoran medics in these areas was not
+available through the resources of their own country.) Other critical medical priorities were to train
+nursing and biomedical equipment maintenance
+personnel and to develop a responsive medical logistics system. An important preventive medicine
+mission included the requirement to upgrade field
+and garrison sanitation and individual hygiene. An
+active program to train medical service personnel
+in logistic supply was also instituted.
+In addition to the equipment and training provided, a small combat support hospital (Figure 246) was constructed at San Miguel,33 in the eastern
+region—an area of high guerilla activity. Important
+medical stabilization measures instituted by an experienced surgeon increased the survival of patients
+being transported to the main military hospital at
+San Salvador. In summary, the accomplishments of
+the training mission can be measured as follows (for
+the 18-month period from June 1983–December
+1984) for the members of the MTT:
+Fig. 24-6. These Salvadoran soldiers are recuperating in
+a combat support hospital. Most would have died of injuries before the training program of Salvadoran medics
+by a US military medical training team. Evacuation procedures and early treatment of traumatic injuries were
+taught and were provided in Salvadoran field hospitals
+in close proximity to combat regions. Photograph: Courtesy of Russ Zajtchuk, MD. Reproduced with permission
+from Military Medicine: International Journal of AMSUS.
+1989;154(2):60.
+Military Medical Ethics, Volume 2
+794
+• trained 1,011 combat medics, 19 senior
+medical noncommissioned officers, 39
+medical evacuation aid men, 32 dental technicians, 88 intensive care nurses, and 8 biomedical equipment repair technicians;
+• improved the medical supply system;
+• assisted in organizing a field medical battalion;
+• participated in structuring a unified medical system; and
+• created a 72-man Medical Service Corps.
+As a result of these efforts, the mortality rate of
+wounded soldiers decreased from 45% to 5%. 33
+Combat medics achieved similar evacuation results
+as those of US medical personnel in Vietnam. The
+training of the combat medic to perform life-saving care in the field was responsible for this significant reduction in mortality.
+In 1985, the Chief of Staff of ESAF approved a
+small medical civic action program to be done in
+conjunction with tactical operations. This program
+provided resources for immunization, primary
+healthcare, and dentistry, and was similar to the
+SOUTHCOM model used in Honduras. The USAID
+also agreed to fund additional civic action programs
+but only under the supervision of the Ministry of
+Health or regional civilian healthcare programs.
+These civilian programs took place only in secure
+regions close to urban areas. Military forces were
+invited to participate in these exercises. One important civic action project under ESAF was a campaign
+to reduce the number of people injured by land mines.
+This public service campaign, showing pictures of
+the types of land mines, their explosive range, and
+the type of injuries they inflicted, was distributed
+to educate the rural population on this danger. 43
+Follow-on care for victims of land mines was also
+part of the overall mission of the medical training
+team. One of the outstanding projects was the rehabilitation program for amputees. 44 The insurgent’s use
+of land mines had caused an increased incidence of
+injury necessitating amputations in both the military
+and civilian populations. The mines were commonly
+placed in coffee plantation fields, rural footpaths, and
+village trails. Statistics were difficult to obtain. The
+system for reporting information from the rural areas
+was poor because the ESAF Medical Service did not
+keep records of land mine injuries until 1984. However, it was estimated that extremity injuries caused
+by land mines each month numbered approximately
+55 in soldiers and 20 in civilians. A Professional Rehabilitation Center of the ESAF, staffed with occupational and physical therapists, was inaugurated in
+1985 to provide for the rehabilitation of physically
+handicapped soldiers (Figure 24-7). Many of the Salvadoran military veterans trained by the center to
+manufacture and fit prostheses were themselves amputees. With the help of these veteran workers, victims now replaced makeshift hand-tooled devices
+with professionally made prosthetics (Figure 24-8).
+Despite the efforts of this center and its staff, by 1987
+the number of amputees numbered about 1,500 with
+only a quarter of them fitted with prostheses. Furthermore, children and adolescents accounted for a quarter to a third of these amputees. 34 In response to this
+obvious need, USAID made a $500,000 grant in 1987
+to subsidize a nonprofit organization to provide artificial limbs for civilian amputees. 45,46
+The ESAF programs in preventive medicine and
+field sanitation initially were not as successful as
+the trauma care program. Constant attention to education and enforcement of standards was required
+for success. Often problems thought to be corrected
+resurfaced later because providing for basic health
+needs did not receive the necessary priority by line
+officers and medical personnel. As a result, special
+programs were designed to teach line officers the
+importance of preventive measures such as immunizations, malaria prophylaxis, and garrison sanitation. By 1986, all troops received a basic series of
+vaccinations to include rabies if stationed in an endemic area. Malaria prophylaxis decreased the inFig. 24-7. Former Salvadoran soldiers previously injured
+by mines are shown in a rehabilitation center that was
+developed using the Security Assistance Program that
+allowed training of foreign nationals. Several amputees
+became members of special soccer teams. Photograph:
+Courtesy of Russ Zajtchuk, MD. Reproduced with permission from Military Medicine: International Journal of
+AMSUS. 1989;154(2):60.
+Military Medicine in Humanitarian Missions
+795
+cidence of this disease in units observing this regimen, contributing to greater unit readiness.
+Another important aspect of the medical exchange
+project was the foreign military observership program. 42 El Salvadoran medical personnel were able
+to secure a 6-month rotation with a clinical or laboratory service at US Army hospitals. This was
+strictly a government-to-government exchange with
+funding provided by the IMET program using Security Assistance Program funds. These personnel
+were given the opportunity to observe at a US medical facility in a specific medical discipline if they
+met qualifying standards. For example, a plastic
+surgeon would benefit from a rotation at the US
+Army Burn Unit, Brooke Army Medical Center, San
+Antonio, Texas, whereas an infectious disease doctor would benefit by rotations with their medical
+counterparts at other military hospitals. The personal and professional benefits obtained for both
+the individual physicians and their countries were
+rewarding and served to further develop mutual
+respect and understanding.
+The US Army Medical Department also derived
+benefits from the experiences gained by rotating US
+military medical personnel in El Salvador. Individual physician specialists were requested by the
+host country and rotated for 45 to 90 days at the
+large military hospital at the capital, San Salvador.
+Since the end of the war in Vietnam, active duty US
+medical personnel have rarely had the opportunity
+to work with US war casualties. During their rotations to Central America medical personnel had
+experience with war trauma patients and also had
+the opportunity to work with and train their Salvadoran medical colleagues in US surgical practices.
+This experience was valuable in improving readiness skills in combat surgery and pre- and postoperative care, skills rarely practiced in the peacetime
+US Army. This integrated medical assistance program in El Salvador was of benefit to both the
+people and government of El Salvador. In particular, the Salvadoran government, in accepting the
+integrated Security Assistance Program, improved
+their military healthcare system within a short period of time. The Department of State and the Department of Defense, in concert with support from
+the US Congress, was largely responsible for the
+success of this program. The acceptance and expansion of the program is demonstrated by the fact that
+from 1983 to 1987, program expenditures increased
+from $350,000 to $14. 2 million. 33
+In review, the role and value of medicine in several programs in El Salvador has been shown. The
+form requiring the least coordination was the ESAF
+medical civic action projects done in conjunction
+with their military exercises in rural areas. This most
+uniformly conformed to the intentions of the first
+documented civic action programs as described by
+Magsaysay in the Philippines. The goals and purposes of these original programs, in providing rudimentary healthcare to rural populations, was to
+improve the interactions of the military with rural
+populations while performing humanitarian assistance activities.
+By far the most remarkable benefit of the medical
+programs was in developing a de novo infrastructure
+for military healthcare that was used by military and
+civilian alike. The advances in trauma surgery and
+care, as well as preventive medicine improvements
+for the soldier, saved both civilian and military lives.
+Project Coordination and Accountability
+These US Department of Defense humanitarian
+missions in Central American come under the purview of the CINC, SOUTHCOM, whose responsiFig. 24-8. Former Salvadoran soldiers, who had sustained
+combat injuries, were trained to manufacture prostheses
+for patients sustaining land mine injuries. American and
+Salvadoran teams jointly developed this facility. Photograph: Courtesy of Russ Zajtchuk, MD. Reproduced with
+permission from Military Medicine: International Journal
+of AMSUS. 1989;154(2):60.
+Military Medical Ethics, Volume 2
+796
+bilities include early coordination of proposed H/
+CA projects with the US Embassy country team, as
+well as the country USAID officer. The Bureau of
+Politico-Military Affairs of the Department of State
+and the Bureau for Program and Policy Coordination in USAID review, comment, and act as the final approving authority before submission to the
+CINC, SOUTHCOM. Once a project has been completed, all approved project after-action reports of
+these various agencies are again coordinated. From
+this process a final report is generated and submitted to the US Congress by each March 1st for the
+previous fiscal year. The report includes: (a) a list
+of countries in which humanitarian and civic assistance activities were carried out; (b) the type and
+description of such activities carried out in each
+country; and (c) the amount spent carrying out each
+activity in each country. 47 Despite this structure and
+project accounting, the medical humanitarian role
+within the Department of Defense Civic Action Programs remains a controversial issue for the reasons
+discussed in the introduction to this chapter. I
+would hope that in the future this controversy could
+be replaced with a more realistic assessment of the
+place of these program in the overall doctrine and
+mission of US foreign policy.
+THE IMPACT OF HUMANITARIAN ASSISTANCE IN CENTRAL AMERICA
+The Benefits of Humanitarian Assistance for
+Host Countries
+By the time I left Honduras in September 1985, the
+DoD humanitarian assistance programs were well
+established. In the years since then they have continued much as they were in terms of the goals and program structure, although they have increased in size
+somewhat. The following comments regarding the
+benefits of these programs for both the United States
+and the host countries are based on my own observations, but are no doubt as true today as they were then.
+The US medical training exercises in Honduras in
+the form of rural medical missions and the deployment for training exercises are positive examples
+of the use of medicine to assist host countries when
+the United States has a continued military presence.
+The interactions have been extremely beneficial to
+the civilian community. For example, the country
+vaccination program (Figure 24-9) in Honduras has
+been a remarkable success story. With the US Army
+air logistic support, the joint medical training exercises were combined with the country vaccination
+program between 1983 and 1992, administering
+800,000 doses each of DPT (diphtheria, pertussis,
+tetanus), polio, measles, and BCG (Bacillus of
+Calmette and Guerin, ie, tuberculosis) vaccines. 48
+A report indicated that over 91% of all children
+under the age of one had been given these vaccinations. 49 The outcome was better than in some regions of the United States in the same time frame. 49
+In the training exercises, lectures are given in sanitation, primary healthcare, and nutrition. Educational charts from the Ministry of Health are left
+with the teacher as a repetitive teaching aid. This is
+the first step to improving rural health levels. The
+Ministry of Health is given the disease survey from
+the villages in order to plan for medical resources
+and providing care. Honduran healthcare providers, previously unable to reach this rural population, can appreciate better the rural healthcare needs
+of their nation (Figure 24-10).
+US medicine influenced both military and public healthcare and in working collaboratively, provided the foundation to support specific Ministry
+of Health policies. The original unintended consequences of medical assistance associated with military deployments, and the gradual incorporation
+of a recognized role of humanitarian assistance in
+military deployments, as implemented in Honduras, seems to approximate the goals and intentions
+of the original concepts of nation building.
+Fig. 24-9. A US military physician initiates a general
+medical examination of school children before receiving
+routine childhood immunizations. Photograph: Courtesy
+of Joan Zajtchuk, MD, from the combined collection of
+photographs taken by members of Joint Task Force Bravo,
+Honduras (1983–1985).
+Military Medicine in Humanitarian Missions
+797
+Some Problems Associated With Humanitarian
+Assistance
+Despite the good intentions association with
+these humanitarian assistance missions, there have
+been problems. Some derive from the concept itself, some from the implementation of the concept
+by US forces, some from the failure to coordinate
+with the host country, and finally some from the
+mischaracterization of the exercises as civic action.
+These will be discussed each in turn.
+Misunderstanding the Concept of Humanitarian
+Assistance
+The humanitarian assistance label was applied
+to the medical readiness training exercises (MEDRETES). Medical Element work in hospitals and
+rural medical training missions both provide
+healthcare to the local population. By law, expendable medical supplies from US facilities can be used
+in these joint missions. Unfortunately, the characterization of “expendable” supplies can contribute
+to a “hand out” mentality on the part of the US
+medical personnel involved in these programs. By
+seeing these supplies as not needed by US forces, it
+is easy for medical personnel to see the recipients
+of these supplies as “needy,” and therefore they may
+be viewed in a less than positive way. Furthermore,
+such a misunderstanding of the concept of humanitarian assistance not only lessens the value of the
+recipient as a person but it tends to induce the
+“giver” to ignore the long-term benefits of these
+programs for supporting US government policy and
+that of the host countries. 37
+Inadequately Implementing “Humanitarian
+Assistance”
+When the humanitarian assistance label is affixed
+to the medical readiness training exercises it tends
+to associate US efforts with superficial and uncoordinated care. Civic action missions satisfy only a
+short-term goal, especially if not planned and coordinated within the healthcare system of the country. For
+instance, early criticism by members of the Peace
+Corps addressed a lack of sensitivity in dealing with
+the local civilian populations. 50 This criticism was
+also directed to the temporary nature of the treatment
+provided to the sick (deworming, antibiotic treatment, dermatologic care). There is some truth to this
+statement but the outreach program is just the beginning of future work that must be done by the
+country’s healthcare system. Furthermore, this future
+work must be coordinated with all the aspects of a
+country’s healthcare infrastructure. For example, in
+Honduras, just as in the United States, many areas
+are so remote that their populations cannot get to
+medical care. Other groups live closer in but are in
+impoverished urban settings where healthcare professionals do not usually establish facilities. Additionally, in Honduras an overproduction of physicians
+each year was flooding the market. An interesting
+solution to these problems was to use the excessive
+physician capacity to meet the accessibility issues
+of the underserved population. Thus, after the required year of social service work in a regional hospital or clinic, there was mandatory service to the
+public hospitals in the mornings with private practice permitted in the afternoon. The increasing awareness of Honduran healthcare workers of the poor
+healthcare status in the rural areas and overpopulated urban areas serves to sensitize their thinking
+and facilitate reforms in national healthcare.
+Fig. 24-10. Honduran villagers wait in a schoolyard for
+immunizations by humanitarian assistance team consisting of US military and Honduran military and civilian
+medical personnel from the Ministry of Health. The Ministry of Health provided the vaccines. Lectures were given
+in basic hygiene using Ministry of Health teaching charts.
+These charts were given to the village schoolteacher.
+Photograph: Courtesy of Joan Zajtchuk, MD, from the
+combined collection of photographs taken by members
+of Joint Task Force Bravo, Honduras (1983–1985).
+Military Medical Ethics, Volume 2
+798
+Limited Coordination With Other Caregivers
+An example of counterproductive efforts due to
+limited coordination with other caregivers was that
+of the US Army Special Forces in medical training
+exercises in Honduras in the mid-1980s. Their
+stand-alone exercises were planned with a short
+lead-time and were not coordinated with the plans
+of the US Army medical element, the Honduran Ministry of Health, or the Honduran Army. Last minute
+requests to support a Special Forces mission was
+often at the expense of the long-term program51 and
+after a while these requests were disapproved. The
+Honduran military and civilian health authorities
+came to view the Special Forces as this “other” Army.
+Criticism by the medical element staff also involved
+how long it took the Special Forces to replace medical materiel that they had “borrowed.” The medical element commander and command surgeon had
+no jurisdiction over the quality of healthcare provided by the Special Forces and therefore could not
+integrate their role into the long-range program. The
+Special Forces, by using their medics in the role of
+independent healthcare professionals, placed the
+Honduran doctors in a less favorable light, as well
+as influencing the Honduran perception of the overall medical mission of the US Army. With coordination, planning, and sensitivity to the overall picture,
+these problems could have been minimized, and the
+contribution of the Special Forces medics could have
+been maximized. Just because an effort is a training mission does not mean that it cannot be coordinated with other agencies.
+Misidentifying a Training Exercise as a “Civic
+Action” Project
+The designation of the training exercises with the
+misnomer “civic action” creates a limited definition
+to the exercise that falls short of US goals. As a result, DoD humanitarian assistance task force members, military group commanders, and others may
+expect unrealistic requirements to be satisfied by
+these exercises. Because of the small size and organization of the Honduran Army Medical Department, it was impossible for them to ideally support
+the large number of training exercises. According
+to Colonel R. Zajtchuk, the commander of the 41st
+Support Hospital, the US Joint Task Force Commander (Honduras) implied in 1984 that these exercises were failing because of the infrequent and
+inadequate support of the Honduran Army. 36
+The task force commander also believed that support of these activities should consist of one-third
+Honduran military, one-third Honduran civilian, and
+one-third US military personnel. However, the original concept of military civic action developed in the
+1960s predicated military involvement only if it did
+not detract from a readiness mission. In this case due
+to the small size of the Honduran armed forces it was
+virtually impossible to support all US medical element
+missions as well as satisfy its own medical needs.
+Nonetheless, this same criticism was voiced by the
+Assistant for Civil Military Operations at Special Operations Command regarding Honduran Army participation with the medical and engineer training exercises. 51 Should the number of medical missions be
+decreased because of this impossible standard regarding degree of host country participation? It is my opinion that the answer to this question must be “no.” The
+important issue is that the criteria of training are met
+by US involvement. Any other limiting criteria that
+are imposed by the United States to meet a hypothetical definition of civic action is counterproductive to
+the US training mission and the US long-term contributions to the Honduran health system.
+Despite the problems and limitations associated
+with these medical missions, it remains in the best
+interest of the United States to continue these missions. As long as the missions provide realistic training for military medical professionals and are of
+benefit to the host nation, they will continue to help
+stabilize and further relationships between the
+United States and its allies.
+THE PRESENT AND FUTURE OF NATION BUILDING (2001)
+In recent years, intergovernmental agencies such
+as the United Nations have often requested military
+humanitarian assistance for member nations. Examples of these situations include the civil conflicts
+in Somalia (Exhibit 24-7) and the Balkans, where
+the affected populations required large-scale logistical operations beyond the capabilities of nongovernmental relief organizations (NGOs). The military
+forces sent in for these missions must establish a
+secure base of operations as the first public health
+priority in areas experiencing armed conflict.
+Among these military forces, the DoD has exceptional capabilities to conduct these missions. In
+addition to its security and logistical capabilities, it
+has strong operational and research capabilities in
+the field of preventive medicine. Many of these capabilities were developed for use in austere field
+conditions that closely mirror the situations likely
+Military Medicine in Humanitarian Missions
+799
+mary purpose of H/CA projects must be directed
+to the humanitarian benefit of foreign nationals and
+must address basic humanitarian needs. The benefit to the DoD is through its interactions with the
+host nations and through opportunities to increase
+host-nation capabilities in humanitarian responses.
+Assistance under this program may not be provided
+directly or indirectly to any individual, group, or
+organization engaged in military or paramilitary
+activity.
+H/CA projects include those that fall in the general categories provided by law: (a) the provision of
+medical, dental, and veterinary care in rural areas; (b)
+construction of rudimentary surface transport systems; (c) drilling of wells; (d) construction of basic sanitation facilities; and (e) rudimentary construction and
+repair of public facilities. Annual projects are identified by the US Embassy Country Teams who then
+submit their requests to their regional CINCs. The
+CINCs’ plans are then submitted to the Office of the
+Secretary of Defense (OSD) for interagency review
+and coordination and implementation at the local
+level. The OSD submits a budget request for these programs as part of the president’s annual budget, as well
+as providing annual policy and program guidance to
+the regional commanders.
+These programs are executed on an annual basis
+and have congressional oversight through the allocation of specific funding to the various military
+services to support the incremental costs for mateto be found in disasters or civil conflicts.
+To date, more than 100 countries worldwide have
+benefited from DoD humanitarian or civic assistance and from foreign disaster relief programs that
+are operationally administered by the Office of the
+Deputy Assistant Secretary of Defense for Global
+Affairs. Numerous DoD components including the
+Joint Staff, the Air Mobility Command, and the regional commanders continue to be instrumental in
+shaping the character and delivery of humanitarian assistance programs. Since 1986, the DoD has
+held the charter for all major humanitarian assistance programs conducted by the United States.
+Most of these authorizations for humanitarian assistance have subsequently been codified (Title 10,
+United States Code). As a result, the success, efficiency, and appropriateness of uniformed-service
+relief operations often depend on how knowledgeable their medical personnel are in understanding
+the legislative limitations of delegated authorities
+to implement these programs.
+At present the Department of Defense Humanitarian Civic Assistance (H/CA) programs continue
+to provide a means to shape the security environment and prepare for and respond to humanitarian
+crises. Since 1996, the DoD has been authorized to
+fund a wider variety of H/CA activities, including
+the use of contractors and the deployment of US
+military personnel to conduct specific humanitarian projects. This authorization stated that the priEXHIBIT 24-7
+GROUND TROOPS IN SOMALIA
+Since the end of the Cold War, uniformed service personnel have been assigned to many international relief
+organizations, including the World Health Organization (WHO) and the United Nations Children’s Relief
+Fund (UNICEF). The relationship between uniformed service personnel and international relief organizations
+and agencies was particularly useful during the humanitarian assistance in Somalia where UNICEF coordinated and often provided a central clearinghouse for relief agency activities. Uniformed service medical officers served as consultants to UNICEF during this operation and provided important technical assistance.
+A more recent project, the 1994 use of ground troops in Somalia, is an example of how the Department of
+Defense’ humanitarian assistance role in developing countries is a consideration in using US ground troops.
+The goal, short term in nature, was to secure an immediate base of operations so that relief organizations
+could become effective in food distribution and the provision of medical care. The population of Somalia had
+been devastated by disease and starvation because the ongoing civil war between rival clan leaders had prevented international relief agencies from meeting even the minimal public health needs of the populace. “Operation Restore Hope” implemented a policy that included (a) respect for the customs of the country and
+avoidance of any activity that might undermine local elders or clan leaders; (b) support of the existing healthcare
+structure in providing only necessary interventions that did not compete with or make obsolete the standards
+of local care; and (c) design of a system that remained supporting the local governmental bodies after the
+departure of the military forces. The intended goal, however, was never reached because of the inability to
+provide a secure base of operations within rival clan territories.
+Military Medical Ethics, Volume 2
+800
+rials for the H/CA program. Currently, all military
+branches are active in DoD humanitarian assistance
+and disaster relief operations around the world. The
+Army allocates funding to the European Command
+(EUCOM) and the Southern Command (SOUTHCOM); the Navy funds the Pacific Command
+(PACOM), and the Air Force funds the Central Command (CENCOM). The Army is more heavily involved because of the greater numbers of deployments. National Guard and Reserve Units continue
+to play a prominent role in this effort, especially in
+SOUTHCOM.
+For these uniformed-service humanitarian assistance operations to be successful from a public
+health perspective, the programs must become well
+integrated within the national infrastructure. One
+effective method for realizing such a goal involves
+the coordination of the services of the USAID with
+its subunits, the Bureau of Food and Humanitarian
+Assistance and the Office of US Foreign Disaster
+Assistance. The capabilities of USAID rank as one
+of the most significant, immediate, and long-term
+disaster relief instruments of the US government.
+Their services and programs, coordinated through
+the local US embassy or USAID mission, makes
+humanitarian assistance an important component
+of the US government’s foreign policy.
+Although most intergovernmental agencies and
+NGOs do not have the logistical or field medical
+capability of the military, they accomplish a great
+deal by focusing solely on improving public health
+conditions. Their public health role is seen as more
+acceptable than that of the DoD in performing a limited number of specialized activities (eg, delivering medical services, managing food distribution
+programs, or conducting an orderly migration or
+repatriation) and they have unique responsibilities
+and capabilities that are accepted by international
+organizations. The ability of the military to coordinate its roles with NGOs and the host country agencies will synergistically intensify the timeliness of
+the relief effort. Just as the military has standards
+of performance, NGOs have charters and guidelines
+to achieve expected results that are established by
+their governing boards. Commanders and uniformedservice medical personnel need to understand their
+roles in order to judge how best to complement the
+efforts of these organizations. In addition, uniformed-service personnel must be willing to coordinate their activities with NGOs and United Nations agencies because the military, at the time of
+their withdrawal, must transfer the relief-effort responsibilities to these organizations or to their hostcountry counterparts.
+Any goal to expand the role of military medicine
+must include: (a) an examination of the moral and
+humanitarian principles; (b) an awareness of the
+value placed on the resultant good will; (c) knowledge of the former role that counterinsurgency strategy played; and (d) the reasons why humanitarian
+assistance efforts have failed in the past. As the
+planning for military participation continues, emphasis should be directed to the programming of
+sufficient funds to continue these projects. In addition, emphasis should be placed on providing closer
+alignments of health services efforts between DoD,
+other governmental agencies and NGOs, and ultimately to the host-country infrastructure.
+CONCLUSION
+The Vietnam experience demonstrated that to
+conduct successful humanitarian civic action programs it is necessary to select and educate highly
+skilled behavioral personnel who are culturally
+enlightened and linguistically proficient. These individuals must possess the potential to remove
+themselves from traditional American cultural constraints and be able to perceive problems and their
+attendant solutions through the eyes of a foreign
+culture. They must have the training and intellectual breadth to understand the political, economic,
+social, and military institutions of the foreign nation, how they interact in meeting the needs of the
+people, and how to complement host nation programs. The ability of US personnel to understand
+the military and civilian structure and thought processes of the host-nation country is especially critical, in that the implementation of military civic action to their host-nation counterparts will be accomplished using these tools.
+The Vietnam experience also demonstrated that
+during high-intensity conflict it may not be possible
+to institute effective humanitarian/civic action programs. These assistance programs will accomplish
+the most good in peaceful areas around the world
+or where the conflict is at low-intensity level. For a
+long-term nation building effort to be successful,
+the host nation must initiate the request and expect
+to share in the real costs of a successful program.
+Furthermore, care should be taken to assure that
+the US advisory role is progressively withdrawn as
+host government infrastructure programs reach the
+sustaining state.
+American medicine is respected worldwide, and
+Military Medicine in Humanitarian Missions
+801
+the American ability to respond with aid in the event
+of natural or man-made disaster is beyond that of
+any nation. Although aid should not be administered
+indiscriminately, and there should be no attempt to
+do so, American ability to provide swift, effective
+humanitarian aid is one way in which this country
+can demonstrate that it is truly aware of the concerns
+of other nations. In particular, the United States
+should put its military medical structures—expressly
+designed for projecting US prowess anywhere in the
+world—at the disposal of nations considered to be
+in American strategic interests to support. The US
+military should operate as “high-technology” consultants, and if “hands-on” help is required, the response
+should be with deployments of limited duration,
+with the objective of ameliorating host-nation needs
+in a short-term crisis, and promoting the development of local capabilities to deal effectively with
+the situation after US forces depart.
+The new and emerging role of military medicine
+assumes a new proactive and preclusive stance,
+entering potential preselected target population
+areas in conjunction with engineer, signal, civil affairs, and psychological operations before the tactical situation deteriorates to the point that open
+conflict commences and casualties begin to be generated. Strategies to begin to address the existing
+medical infrastructure of friendly nations include
+the use of mobile training teams paid for by foreign military sales, joint and international exercises
+conducted by US and friendly forces, emergency
+deployment readiness exercises conducted by US
+forces for limited periods of time as training exercises, and a reliance on technology to reduce peopleintensive functions to a minimum.
+Effective medical planning is critical in order to
+provide the task force commander with recommendations and programs necessary for success. It is
+essential that the responsibility for all medical planning rest with the task force surgeon and that efforts to provide military medical services to host
+country nationals by all others be coordinated
+through them. Strict coordination requirements preclude potentially counterproductive, ad hoc medical activity from taking place. A negative outcome
+of such activity may occur when the host country’s
+expectations are raised by uncoordinated US medical civic action programs. When US forces depart,
+the host-nation government may be unable to meet
+the higher expectations of its citizens. Proper coordination of all medical activity includes existing
+host-nation military and civilian medical personnel
+and should provide an opportunity for follow-up
+exercises at the same sites and program evaluation.
+The inclusion of host-nation healthcare professionals increases their capability to render future medical
+care themselves as well as provide the host nation
+with an opportunity to receive credit for providing
+healthcare services to its population. Additionally,
+uniformed service personnel must also coordinate
+their primary care medical activities with UN sponsored or nongovernmental agencies as much as
+possible. These relief agencies, in their recurring
+presence, will provide the long-term assistance.
+There is a concern expressed by private and voluntary organizations in the United States regarding the DoD providing humanitarian assistance.
+These organizations point out that under the
+Geneva Conventions, which have come to provide
+the established international understanding of humanitarian assistance, only civilians, and not military medical personnel, have the right to provide
+this aid. They further note that providing humanitarian assistance for other military forces contradicts
+the purpose underlying this assistance. According
+to the Geneva Conventions, organizations are required to meet certain criteria in order to administer humanitarian assistance. The criteria stipulate
+that the aid is provided strictly on the basis of need
+and that the organizations provide guarantees of
+efficacy based on proven experience, independence
+from parties to the conflict, and are a recognized
+authority in the international community. These
+conditions would appear to preclude DoD from
+participation in the provision of humanitarian aid.
+It further appears that international custom and
+convention dictate that aid be provided to recipients in need and not to assist in accomplishing political objectives. It is inconsistent with the nature
+of humanitarian assistance, they argue, to condition
+its provision on achieving a cease-fire or on bringing warring parties to the negotiating table. I disagree with their argument. There are many instances in which only a military force can lay the
+groundwork for a long-term humanitarian effort,
+or in which only a military force can prevent the
+very circumstances that would, left unchecked, result in a full-blown humanitarian disaster. The results of civil conflicts in Somalia and the Balkans
+demonstrate that affected populations often require
+large-scale logistical operations. These operations
+may be of such a large scale and of such urgency
+that the infrastructure of the country cannot meet
+the demands. It is not prudent, nor is it humane, to
+preclude the Department of Defense, or military
+defense forces from other concerned nations under
+the UN charter, from helping in these situations.
+With careful coordination, military forces can be of
+Military Medical Ethics, Volume 2
+802
+significant assistance to suffering populations
+around the world while at the same time maintaining their mission skills and readiness posture.
+As the world becomes more of a global community due to the rapid increases in technology, especially communications technology, the pace and
+extent of humanitarian operations will increase. The
+United States and other nations are now increasingly deploying their military forces to worldwide
+regional conflicts. These nations appear to be becoming more cooperative in their efforts to solve
+these foreign conflicts at a global problem-solving
+level. In the US government’s commitment to support and enhance the humanitarian assistance role
+of military medicine in the face of increased global
+needs, the United States reinforces its historical
+values of assisting in foreign disaster relief efforts
+that has been without precedence over the last century. At the same time, having taken the lead in providing disaster relief efforts, it is important to look
+at some of the unintended consequences of these
+efforts. This is the subject of the next chapter.
+REFERENCES
+1.
+Brandt DA. Physicians for human rights and the Kurdish refugee crisis. JAMA. 1994;271:745–746.
+2.
+Byrd T. Disaster medicine: Towards a more rational approach. Mil Med. 1980;145:270–273.
+3.
+Toole MJ. Military role in humanitarian relief in Somalia. Lancet. 1993;342:190–191.
+4.
+Bina WF. US hospital ships: More public health, less high tech. JAMA. 1993;270:2927–2928.
+5.
+Nunn S. Roles, missions under scrutiny. Officer. 1993;69:20–24.
+6.
+Huntington S. New contingencies, old roles. Joint Force Q. 1993;2:38–43.
+7.
+US Department of the Navy. From the Sea, Preparing the Naval Service for the 21st Century. Washington, DC: US
+GPO; 1991: 5.
+8.
+National Security Council. National Security Strategy of the United States. Washington, DC: US GPO;1993: 14.
+9.
+Dunlap CJ. The origins of the American military coup of 2012. Parameters. [US Army War College Q] 1992–
+1993;2:20–35.
+10.
+Guiding principles on the right to humanitarian assistance. Presented at: Conference of International Institute
+of Humanitarian Law; September 1992; San Remo, Italy.
+11.
+Code of Conduct for the International Red Cross and Red Crescent Movement and NGOs in Disaster Relief
+Steering Committee for Humanitarian Response, Geneva, 1993.
+12.
+Foster GM. Postwar relief and America’s sense of humanitarian mission. Subchap in: Disease in the aftermath
+of war: Disaster aid to Poland and Russia after World War I. In: Trask DF, ed. The Demands of Humanity: Army
+Medical Disaster Relief. Washington, DC: US Department of the Army, Center of Military History; 1982: 81–83.
+13.
+Foster GM. Typhus in Poland. Subchap in: Disease in the aftermath of war: Disaster aid to Poland and Russia
+after World War I. In: Trask DF, ed. The Demands of Humanity: Army Medical Disaster Relief. Washington, DC: US
+Department of the Army, Center of Military History; 1982: 83–94.
+14.
+Foster GM. Famine in Russia. Subchap in: Disease in the aftermath of war: Disaster aid to Poland and Russia
+after World War I. In: Trask DF, ed. The Demands of Humanity: Army Medical Disaster Relief. Washington, DC: US
+Department of the Army, Center of Military History; 1982: 94–98.
+15.
+Foster GM. Confusion over the Army’s disaster relief role, reevaluation and relief in the thirties, and toward
+new relief roles. Subchaps in: Relief role in transition assistance at home and abroad, 1918–1939. In: Trask DF,
+ed. The Demands of Humanity: Army Medical Disaster Relief. Washington, DC: US Department of the Army, Center of Military History; 1982: 99–126.
+Military Medicine in Humanitarian Missions
+803
+16.
+Foster GM. The Texas City explosion, creation of a federal relief bureaucracy, medical relief missions of the
+fifties and sixties, and federal reorganization and minor medical missions of the seventies. Subchaps in: Domestic assistance under civilian coordination, 1945–1976. In: Trask DF, ed. The Demands of Humanity: Army
+Medical Disaster Relief. Washington, DC: US Department of the Army, Center of Military History; 1982: 127–145.
+17.
+Blaufarb DS. Communist rural insurgency. In: The Counterinsurgency Era: US Doctrine and Performance, 1950 to
+the Present. New York: Free Press; 1977: 1–21.
+18.
+United States Congress. Senate Committee on Foreign Aid. The President’s Committee to Study the United States
+Military Assistance Program. Washington, DC: GPO; 17 August 1959.
+19.
+United States Congress. Senate Committee on Foreign Aid. The President’s Committee to Study the United States
+Military Assistance Program. Final Report. Washington, DC: US GPO; 17 August 1959.
+20.
+Glick BE. America’s civic action program. Subchap in: Peaceful Conflict: The Non-Military Use of the Military.
+Harrisburg, Pa: Stackpole Books; 1967: 67–99.
+21.
+Blaufarb DS. The Kennedy crucible. In: The Counterinsurgency Era: US Doctrine and Performance, 1950 to the
+Present. New York: Free Press; 1977: 52–88.
+22.
+Krepinevich AF. The Army and Vietnam. Baltimore, Md: Johns Hopkins University Press; 1986: 17–36.
+23.
+Blaufarb DS. The revival of counterinsurgency: Vietnam, 1963–1967. In: The Counterinsurgency Era: US Doctrine
+and Performance, 1950 to the Present. New York: Free Press; 1977: 205–242.
+24.
+Foster GM. Activism abroad: Foreign disaster relief, 1945–1976. In: Trask DF, ed. The Demands of Humanity:
+Army Medical Disaster Relief. Washington, DC: US Department of the Army, Center of Military History; 1982:
+146–174.
+25.
+Nation Building Contributions of the Army. Washington, DC: Deputy Chief of Staff for Military Operations, 14
+September 1968.
+26.
+Herrington SA. Silence Was a Weapon: The Vietnam War in the Villages. Novato, Calif: Presidio Press; 1982.
+27.
+McCollum JK. CORDS: Matrix for peace in Vietnam. Army Magazine. July 1982:51.
+28.
+Clark PG. American Aid for Development. New York: Praeger Publishers; 1972.
+29.
+Surgeon General’s Report on Lt. Gen. Leonard Heaton [former commander of Walter Reed from 1953 to 1959,
+Army Surgeon General from 1959 to 1969]. Washington DC: Office of the Surgeon General.
+30.
+Doctrine was reviewed by author, Joan Zajtchuk, MD.
+31.
+Young EJ. El Salvador: Communist blueprint for insurgency in Central America. Conflict. 1985;5(4): 307–336.
+32.
+US Department of State. The Guerilla Movement in El Salvador. Washington, DC: US Department of State Pamphlet; July 1987.
+33.
+Zajtchuk R, Brown FW, Rumbaugh JH. Medical success in El Salvador. Mil Med. 1989;154:59–61.
+34.
+Elliot RF. US Army Humanitarian Medical Assistance in El Salvador [A report written by Colonel Robert F. Elliott,
+MS, USA, Deputy Chief of First Medical Assistance Team to El Salvador]. January 1988; 6–8.
+35.
+Armed Service Committee May 1983 testimony as recounted in the author’s interview with General Gorman,
+March 20, 1991.
+36.
+Author interview of [then] COL Russ Zajtchuk, Commander of 41st Combat Support Hospital (1983–1984) on
+January 21, 1999, as well as recounted personal experience of interviewee.
+Military Medical Ethics, Volume 2
+804
+37.
+Personal interview of Dr. Robert K. Wolthuis, Director, Office of Humanitarian Assistance, Office of the Assistant Secretary of Defense, Washington, DC 20301-2400, 9 January 1991.
+38.
+Personal experience of author, Joan Zajtchuk, MD.
+39.
+GAO Report to Congress on Military Medical Activities in Honduras, May 1984.
+40.
+Command Briefing: The DoD Humanitarian Assistance Program. Presented at the Third Annual Department
+of Defense Humanitarian Assistance Conference, Office of Humanitarian Assistance, Office of the Secretary of
+Defense, Washington, DC. 11–12 January 1989.
+41.
+Inter-American Defense Board. Work of the Armed Forces in the Economic and Social Development of the Countries
+(Military Civic Action). 8 June 1965 [internal unclassified publication]. Available from Clearinghouse for Federal Scientific & Technical Information, Springfield, Va.
+42.
+Rumsey S. Army Medical Department (AMEDD) Participation in International Programs (Information Paper). Washington, DC: Office of the Army Surgeon, International Programs; 24 February 1989.
+43.
+El Salvadoran Army Pamphlet. Conoce Las Minas? Campana Civica de Prevencion Contra las Minas Terroristas.
+Fuerza Armada de El Salvador.
+44.
+Information paper by Colonel Russ Zajtchuk, 8 January 1987, Chief of Consultant’s Division and Deputy to
+Chief of Medical Corps at the Office of The Surgeon General on SUBJECT: Medical Mobile Training Team El
+Salvador, 1983 to Present.
+45.
+Kenevan RJ, Thrill FA, Ortiz T, Rodriguez MA. Medical mobile training team 1983–1985 in El Salvador. Mil
+Med. 1988;153:11–13.
+46.
+US Department of State. Publication 9554, Bureau of Inter-American Affairs, Office of Public Diplomacy for
+Latin American and the Caribbean. Latin America Dispatch, July, 1987.
+47.
+Available at: http://www.ciponline.org/facts/hca.htm. Accessed 6 December 2001.
+48.
+Statistics provided to Army Surgeon General’s Office in 1992, compiled by R. Zajtchuk.
+49.
+Vaccination record in US falls sharply. Washington Post. 24 March 1991:A1, A22, A23. (Statistics compiled by the
+Centers for Disease Control).
+50.
+Swenarski L. When the Peace Corps meets the Army in a distant land. Army. July 1987:16–20.
+51.
+Unclassified Memorandum for Assistant Secretary of Defense for Special Operations and Low Intensity Conflict. SUBJECT: Honduras Trip Report—ACTION MEMORANDUM, February 1990, Prepared by Lieutenant
+Colonel Paul M. Mikesh, USAR, Assistant for Civil-Military Operations, Missions and Applications, Office of
+the Assistant Secretary of Defense, Washington, DC 20301-2500.

@@ -1,0 +1,5149 @@
+JOINT TRAUMA SYSTEM CLINICAL PRACTICE GUIDELINE (JTS CPG) 
+Prolonged Casualty Care Guidelines (CPG ID:91) 
+The Prolonged Casualty Care (PCC) guidelines are a consolidated list 
+of casualty-centric knowledge, skills, and best practices intended to serve 
+as the DoD baseline clinical practice guidance to guide casualty management 
+over a prolonged amount of time in austere, remote, or expeditionary settings, 
+and/or during long-distance movements. 
+Contributors 
+Lead Authors: 
+MSG Michael Remley, NRP, SO-ATP, USA 
+SFC Paul Loos, 18D, USA 
+COL Jamie Riesberg, MC, USA 
+Editors: 
+MSG Michael Remley, NRP, SO-ATP, USA 
+Dan Mosely, MD 
+MSG (Ret) Harold Montgomery, SO-ATP, USA
+CAPT Brendon Drew, DO, USN
+Sean Keenan, MD
+CPT John Maitha, PA-C, USA*
+HMC Wayne Papalski, FP-C, USN
+SMSgt Brit Adams, USAF, NRP, FP-C*
+SCPO Tyler Scarborough, ATP, USN*
+CAPT Michael S. Tripp, MC, USN
+Shelia C Savell, PhD, RN
+CDR Brendan Byrne, MC, USN
+Andrew Fisher, MD
+John Fruendt, MD
+Col John Wightman, USAF, MC
+CPT Steven Benavides, USA
+Walter Engle, PA-C
+MAJ Laura Tilley, MC, USA*
+Edward Otten, MD, FACMT
+CDR Shane Jensen, MC, USA
+COL Matthew Martin, MC, USA 
+SFC Justin C. Rapp, 18D, USA*
+LT Dana Flieger, RN, USN*
+LTC Christopher VanFosson, PhD, RN, USA 
+MAJ Sabas Salgado, MC, USA
+CPT Jeffrey Maler, RN, USA
+CMSgt (Ret) Tom Rich, NRP, USAF
+Don Adams, MD
+MSG Kaleb Twilligear, NRP, SO-ATP, USA* 
+Don L. Parsons, PA
+COL Sandra Wanek, MC, USA*
+CDR Levi Kitchen, MC, USN
+CAPT Matthew D. Tadlock, MC, USN 
+Maj Erica Simon, USAF, MC
+COL Cord Cunningham, MC, USA
+COL Jennifer Gurney, MC, USA 
+Col Stacy A. Shackelford, USAF, MC
+* Denotes a sub-working group chair
+Publication Date: 21 Dec 2021 
+TABLE OF CONTENTS 
+PROLONGED CASUALTY CARE BACKGROUND ..................................................................................................... 5 
+PCC PRINCIPLES .................................................................................................................................................. 6 
+Guideline User Notes ................................................................................................................................................ 8 
+MASCAL/TRIAGE - PCC ....................................................................................................................................... 9 
+Background ............................................................................................................................................................... 9 
+MASCAL Decision Points ............................................................................................................................................ 9 
+Key Considerations in MASCAL ............................................................................................................................... 10 
+MASSIVE HEMORRHAGE - PCC ........................................................................................................................... 11 
+Background ............................................................................................................................................................. 11 
+Pre-deployment, Mission Planning, and Training Considerations .......................................................................... 11 
+AIRWAY MANAGEMENT - PCC ........................................................................................................................... 13 
+Background ............................................................................................................................................................. 13 
+RESPIRATION AND VENTILATION - PCC .............................................................................................................. 15 
+Background ............................................................................................................................................................. 15 
+Additional Considerations ....................................................................................................................................... 16 
+CIRCULATION AND RESUSCITATION - PCC .......................................................................................................... 17 
+Background ............................................................................................................................................................. 17 
+COMMUNICATION AND DOCUMENTATION - PCC .............................................................................................. 20 
+Background ............................................................................................................................................................. 20 
+Communication ....................................................................................................................................................... 20 
+Documentation of Care ........................................................................................................................................... 20 
+HYPOTHERMIA - PCC ......................................................................................................................................... 22 
+Background ............................................................................................................................................................. 22 
+HYPERTHERMIA - PCC........................................................................................................................................ 24 
+Background ............................................................................................................................................................. 24 
+Heat exhaustion ...................................................................................................................................................... 24 
+Heat stroke .............................................................................................................................................................. 24 
+HEAD INJURY/TBI - PCC ..................................................................................................................................... 26 
+Background ............................................................................................................................................................. 26 
+Pre-deployment, mission planning, and training considerations: ........................................................................... 26 
+Treatment Guidelines .............................................................................................................................................. 27 
+PAIN MANAGEMENT (ANALGESIA AND SEDATION) FOR PCC ............................................................................. 30 
+Background ............................................................................................................................................................. 30 
+Priorities of care related to analgesia and sedation ................................................................................................ 30 
+General Principles ................................................................................................................................................... 30 
+Drips and Infusions .................................................................................................................................................. 31 
+The PCC Pain Management Guideline Tables ......................................................................................................... 32 
+Special Considerations ............................................................................................................................................ 37 
+Patient Monitoring during Sedation ................................................................................................................... 37 
+Analgesia and Sedation for Expectant Care (i.e. End-of-Life Care) ..................................................................... 37 
+ANTIBIOTICS, SEPSIS, AND OTHER DRUGS - PCC ................................................................................................. 38 
+Background ............................................................................................................................................................. 38 
+Sepsis Management ................................................................................................................................................ 39 
+Sepsis Treatment ................................................................................................................................................ 40 
+Ancillary Medications .............................................................................................................................................. 41 
+WOUND CARE AND NURSING - PCC ................................................................................................................... 42 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+3 
+Background ............................................................................................................................................................. 42 
+Pre-deployment, Mission Planning, and Training Considerations .......................................................................... 42 
+SPLINTING AND FRACTURE MANAGEMENT - PCC .............................................................................................. 46 
+BURN TREATMENT - PCC ................................................................................................................................... 47 
+Background ............................................................................................................................................................. 47 
+Burn Characteristics ................................................................................................................................................ 47 
+Special Considerations in Burn Injuries ................................................................................................................... 51 
+Chemical Burns ................................................................................................................................................... 51 
+Electrical Burns ................................................................................................................................................... 51 
+Pediatric Burn Injuries ......................................................................................................................................... 52 
+Rule of Nines ....................................................................................................................................................... 53 
+LOGISTICS - PCC ................................................................................................................................................ 54 
+Background ............................................................................................................................................................. 54 
+REFERENCES ...................................................................................................................................................... 56 
+APPENDIX A: TCCC GUIDELINES ......................................................................................................................... 58 
+TCCC Guidelines ...................................................................................................................................................... 58 
+APPENDIX B: AIRWAY RESOURCES .................................................................................................................... 58 
+Nursing Care Checklist ............................................................................................................................................. 58 
+APPENDIX C: MASCAL RESOURCES .................................................................................................................... 59 
+Triage Guiding Principles ......................................................................................................................................... 59 
+Triage Class 1 MASCAL ............................................................................................................................................ 60 
+Triage Class 2 (MASCAL) .......................................................................................................................................... 61 
+Triage Class 3 (Ultra-MASCAL) ................................................................................................................................. 62 
+MASCAL/Austere Team Resuscitation Record ........................................................................................................ 62 
+Tactical Triage Protocol (algorithm) ........................................................................................................................ 63 
+APPENDIX D: DOCUMENTATION RESOURCES .................................................................................................... 64 
+DD 1380 TCCC Card ................................................................................................................................................. 64 
+DD 1380 - POI TCCC After Action Report ................................................................................................................. 64 
+DD 3019 Resuscitation Record ................................................................................................................................ 64 
+DA 4700 TACEVAC Form .......................................................................................................................................... 64 
+Prolonged Field Care Casualty Card v22. 1, 01 Dec 2020 ......................................................................................... 64 
+Virtual Critical Care Consultation Guide .................................................................................................................. 65 
+APPENDIX E: TBI RESOURCES ............................................................................................................................. 67 
+Neurological Examination ....................................................................................................................................... 67 
+Ultrasonic Assessment of Optic Nerve Sheath Diameter ........................................................................................ 68 
+Spontaneous Venous Pulsations ............................................................................................................................. 69 
+Glasgow Coma Scale ................................................................................................................................................ 70 
+Richmond Agitation Sedation Scale (RASS) ............................................................................................................. 70 
+Signs and Symptoms of Elevated Intracranial Pressure .......................................................................................... 71 
+Hypertonic Saline (HTS) Protocol ............................................................................................................................ 71 
+Military Acute Concussion Evaluation 2 (MACE 2) Form, 2021 ............................................................................... 71 
+MHS Progressive Return to Activity Following Acute Concussion/Mild TBI ............................................................ 71 
+APPENDIX F: LOGISTICS RESOURCES .................................................................................................................. 72 
+Prolonged Field Care – Patient Packaging, 11 Aug 2021 ......................................................................................... 72 
+Prepare Documentation ..................................................................................................................................... 72 
+Prepare Report .................................................................................................................................................... 72 
+Prepare Medications ........................................................................................................................................... 72 
+Hypothermia Management ................................................................................................................................ 73 
+Flight Stressor/ Altitude Management ............................................................................................................... 73 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+4 
+Secure Interventions and Equipment ................................................................................................................. 73 
+Prepare Dressings ............................................................................................................................................... 73 
+Secure the Patient ............................................................................................................................................... 73 
+Moving a Critical Care Patient ............................................................................................................................ 74 
+Prolonged Casualty Care Patient Packaging Flowchart ........................................................................................... 74 
+LEGEND OF TABLES AND FIGURES 
+Figure 1. 
+Steps of PCC principles ............................................................................................................................ 6 
+Table 1. 
+Roles of care ............................................................................................................................................ 8 
+Table 2. 
+PCC role-based guidelines for massive hemorrhage management ....................................................... 11 
+Table 3. 
+PCC role-based guidelines for airway management .............................................................................. 13 
+Table 4. 
+PCC role-based guidelines for respiration management ....................................................................... 15 
+Table 5. 
+PCC level for circulation and resuscitation ............................................................................................ 17 
+Table 6. 
+PCC role-based guidelines for communications and documentation .................................................... 21 
+Table 7. 
+PCC role-based guidance for hypothermia management ...................................................................... 22 
+Table 8. 
+PCC role-based guideline for hyperthermia management .................................................................... 24 
+Table 9. 
+PCC role-based guideline for head injury/TBI management ................................................................. 27 
+Table 10. 
+PCC role-based guideline for pain management (analgesia and sedation) ........................................... 33 
+Table 11. 
+TCCC antibiotics ..................................................................................................................................... 38 
+Table 12. 
+Alternative antibiotics ............................................................................................................................ 38 
+Table 13. 
+Physiologic parameters and news score ................................................................................................ 39 
+Table 14. 
+Sepsis treatments/interventions ........................................................................................................... 40 
+Table 15. 
+Epinephrine 1:10,000 (adrenaline) or norepinephrine (levophed) drip ................................................ 40 
+Table 16. 
+Ancillary medications ............................................................................................................................. 41 
+Table 17. 
+PCC role-based guidelines for nursing care and wound management .................................................. 43 
+Table 18. 
+Splinting and fracture treatment ........................................................................................................... 46 
+Table 19. 
+PCC role-based guidelines for burn management ................................................................................. 47 
+Figure 2. 
+Adult rule of nines ................................................................................................................................. 53 
+Figure 3. 
+Pediatric rule of nines ............................................................................................................................ 53 
+Table 20. 
+Logistics interventions ........................................................................................................................... 54 
+Figure 4. 
+Triage cheat cards start ......................................................................................................................... 59 
+Table 21. 
+Triage assessment .................................................................................................................................. 60 
+Table 22. 
+Triage class 1 actions and goals ............................................................................................................. 61 
+Table 23. 
+Triage class 2 actions and goals ............................................................................................................. 61 
+Table 24. 
+Triage class 3 actions and goals ............................................................................................................. 62 
+Figure 5. 
+Tactical triage protocol .......................................................................................................................... 63 
+Figure 6. 
+Typical appearance of a healthy retina. ................................................................................................. 69 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+5 
+PROLONGED CASUALTY CARE BACKGROUND 
+Prolonged Casualty Care (PCC): The need to provide patient care for extended periods of time when 
+evacuation or mission requirements surpass available capabilities and/or capacity to provide that care. 
+The PCC guidelines are a consolidated list of casualty-centric knowledge, skills, abilities, and best 
+practices intended to serve as the DoD baseline clinical practice guidance (CPG) to direct casualty 
+management over a prolonged period of time in austere, remote, or expeditionary settings, and/or 
+during long-distance movements. These PCC guidelines build upon the DoD standard of care for nonmedical and medical first responders as established by the Committee on Tactical Combat Casualty Care 
+(CoTCCC), outlined in the Tactical Combat Casualty Care (TCCC) guidelines,1 and in accordance with 
+(IAW) DoDI 1322. 24. 
+The guidelines were developed by the PCC Work Group (PCC WG). The PCC WG is chartered under the 
+Defense Committee on Trauma (DCoT) to provide subject matter expertise supporting the Joint Trauma 
+System (JTS) mission to improve trauma readiness and outcomes through evidence-driven performance 
+improvement. The PCC WG is responsible for reviewing, assessing, and providing solutions for PCCrelated shortfalls and requirements as outlined in DoD Instruction (DoDI) 1322. 24, Medical Readiness 
+Training, 16 Mar 2018, under the authority of the JTS as the DoD Center of Excellence pursuant to DoDI 
+6040. 47, JTS, 05 Aug 2018. 
+Operational and medical planning should seek to avoid categorizing PCC as a primary medical support 
+capability or control factor during deliberate risk assessment; however, an effective medical plan always 
+includes PCC as a contingency. Ideally, forward surgical and critical care should be provided as close to 
+casualties as possible to optimize survivability. 2 DoD units must be prepared for medical capacity to be 
+overwhelmed, or for medical evacuation to be delayed or compromised. When contingencies arise, 
+commanders’ casualty response plans during PCC situations are likely to be complex and challenging. 
+Therefore, PCC planning, training, equipping, and sustainment strategies must be completed prior to a 
+PCC event. The following evidence-driven PCC guidelines are 
+designed to establish a systematic framework to synchronize 
+critical medical decisions points into an executable PCC strategy, 
+regardless of the nature of injury or illness, to effectively manage a 
+complex patient and to advise commanders of associated risks. 
+The guidelines build upon the accepted TCCC categories framed in 
+the novel MARC2H3-PAWS-L treatment algorithm, (Massive 
+Hemorrhage/MASCAL, Airway, Respirations, Circulation, 
+Communications, Hypo/Hyperthermia and Head Injuries, Pain 
+Control, Antibiotics, Wounds (including Nursing and Burns), 
+Splinting, Logistics). 
+The PCC guidelines prepare the Service Member for “what to 
+consider next” after all TCCC interventions have been effectively 
+performed and should only be trained after having mastering the 
+principles and techniques of TCCC. 
+The guidelines are a consolidated list of casualty-centric 
+knowledge, skills, abilities, and best practices are the proposed 
+standard of care for developing and sustaining DoD programs 
+MARC2H3-PAWS-L 
+Massive Hemorrhage/MASCAL 
+Airway 
+Respirations 
+Circulation 
+Communication 
+Hypothermia/Hyperthermia 
+Head Injury 
+Pain Control 
+Antibiotics 
+Wounds (+ Nursing/Burns) 
+Sprinting 
+Logistics 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+6 
+required to enhance confidence, interoperability, and common trust among all PCC-adept personnel 
+across the Joint force. 
+The JTS CPGs are foundational to the PCC guidelines and will be referenced throughout this document in 
+an effort to keep these guidelines concise. General information on the Joint Trauma System is available 
+on the JTS website (https://jts.amedd.army.mil) and links to all of the CPGs are also available by using 
+the following link: https://jts.amedd.army.mil/index.cfm/PI_CPGs/cpgs. 
+The TCCC guidelines are included in these guidelines as an attachment because they are foundational 
+AND prerequisite to effective PCC. Remember, the primary goal in PCC is to get out of PCC!!! 
+PCC PRINCIPLES 
+The principles and strategies of providing effective prolonged casualty care are meant to help organize 
+the overwhelming amount of critical information into a clear clinical picture and proactive plan 
+regardless of the nature of injury or illness. The following steps can be implemented in any austere 
+environment from dispersed small team operations in permissive environments to large scale combat 
+operations to make the care of a critically ill patient more efficient for the medic and their team. These 
+mimic the systems and processes in typical intensive care units without relying on technology while 
+leaving the ability to add technological adjuncts as they become available. The following checklist is 
+meant to emphasize some of the most important principles in efficient care of the critically ill patient. 
+Figure 1. 
+Steps of PCC Principles 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+7 
+1. Perform initial lifesaving care using TCCC guidelines and continue resuscitation. 
+The foundation of good PCC is mastery of TCCC and a strong foundation in clinical medicine. 
+2. Delineate roles and responsibilities, including naming a team leader. 
+A leader should be appointed who will manage the larger clinical picture while assistants focus 
+on attention intensive tasks. 
+3. Perform comprehensive physical exam and detailed history with problem list and care plan. 
+After initial care and stabilization of a trauma or medical patient, a detailed physical exam and 
+history should be performed for the purpose of completing a comprehensive problem list and 
+corresponding care plan. 
+4. Record and trend vital signs. 
+Vital signs trending should be done with the earliest set of vital signs taken and continued at 
+regular intervals so that the baseline values can be compared to present reality on a dedicated 
+trending chart. 
+5. Perform a teleconsultation. 
+As soon as is feasible, the medic should prepare a teleconsultation by either filling out a 
+preformatted script or by writing down their concerns along with the latest patient information. 
+6. Create a nursing care plan. 
+Nursing care and environmental considerations should be addressed early to limit any providerinduced iatrogenic injury. 
+7. Implement team wake, rest, chow plan. 
+The medic and each of their first responders should make all efforts to take care of each other 
+by insisting on short breaks for rest, food, and mental decompression. 
+8. Anticipate resupply and electrical issues 
+9. Perform periodic mini rounds assessments. 
+Stepping back from the immediate care of the patient periodically and re-engaging with a mini 
+patient round and review of systems can allow the medic to recognize changes in the condition 
+of the patient and reprioritize interventions. 
+ Is the patient stable or unstable? 
+ Is the patient sick or not sick? 
+ Is the patient getting better or getting worse? 
+ How is this assessment different from the last assessment? 
+10. Obtain and interpret lab studies. 
+When available, labs may be used to augment these trends and physical exam findings to 
+confirm or rule out probable diagnoses. 
+11. Perform necessary surgical procedures. 
+The decision to perform invasive and surgical interventions should consider both risks and 
+benefit to the patient’s overall outcome and not merely the immediate goal. 
+12. Prepare for transportation or evacuation care. 
+If the medic is caring for the patient over a long tactical move or strategic evacuation, they 
+should be prepared with ample drugs, fluids, supplies and be ready for all contingencies in flight. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+8 
+13. Prepare documentation for patient handover. 
+The preparation for transportation and evacuation care should begin immediately upon 
+assuming care for the patient and should include hasty and detailed evacuation requests up 
+both the medical and operational channels with the goal of getting the patient to the proper 
+role of care as soon as possible. 
+Guideline User Notes 
+PCC operational context uses the following paradigm for phases of care for different periods of time one 
+is in a PCC scenario: 
+Table 1. Roles of Care 
+Role 
+Definition 
+Time Period 
+1a 
+Carried/Point of Need/Ruck 
+<1 Hour 
+1b 
+Mission-specific transportation platform/Truck 
+1-4 Hours 
+1c 
+Mission support site/House 
+>4 Hours 
+1d 
+Evacuation platform/Plane (as planned or available) 
+No Timeframe 
+ 
+Where appropriate, a minimum-better-best format is included for situations in which the operational 
+reality precludes optimal care for a given scenario: 
+ Minimum: This is the minimum level of care which should be delivered for a specified level of 
+capability 
+ Better: When available or practical, this includes treatment strategies or adjuncts that improve 
+outcomes while still not considered the standard of care. 
+ Best: This is the optimal medical for a given scenario based on the level of medical expertise of 
+the provider 
+Expectations of prehospital care, based on TCCC's role-based standard of care, are included within each 
+section: 
+ Tier 1: This is the basic medical knowledge for all service-members. 
+ Tier 2: Those who have been through approved CLS training are expected to be able to meet the 
+standards at this level of care. 
+ Tier 3 (Combat Medics/Corpsmen [CMC]): Those who are trained medics/corpsmen are 
+expected to meet the medical standards for this tier. 
+ Tier 4 (Combat Paramedic/Provider [CPP]): This is the highest level of prehospital capability and 
+will have a significantly expanded scope of practice. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+9 
+MASCAL/TRIAGE - PCC 
+Background 
+The foundation of effective PCC is accurate triage for both treatment in the PCC setting and for 
+transportation to a higher level of care, as well as effective resource management across the entire 
+trauma system. Resource management includes the appropriate utilization of medical and non-medical 
+personnel, equipment and supplies, communications, and evacuation platforms. Like most Mass 
+Casualty incidents (MASCAL), the purpose of triage in a PCC setting is to swiftly identify casualty needs 
+for optimal resource allocation in order to improve patient outcomes. However, PCC presents unique 
+and dynamic triage challenges while managing casualties over a prolonged period with a low likelihood 
+of receiving additional medical supplies or personnel with enhanced medical capabilities apart from 
+pre-established networks. MASCAL in a PCC environment will necessitate more conservative resource 
+allocation than traditional MASCAL in mature theaters or fixed medical facilities where damage control 
+surgery, intensive care, and medical logistical support are more readily available, and resupply is more 
+likely. PCC dictates the need for implementing various triage and resource management techniques to 
+ensure the greatest good for all. The objectives and basic strategies are the same for all MASCAL; 
+however, tactics will vary depending on the available resources and situations. 
+MASCAL Decision Points 
+1. Determine if a PCC MASCAL is occurring – do the requirements for care exceed capabilities? 
+ What is the threat? Has it been neutralized or contained? If not, security takes priority. 
+ What is the total casualty estimate? 
+ Are there resource limitations that will affect survival? 
+ Can medical personnel arrive at the casualty location, or can the casualty move to them? 
+ Is evacuation possible? 
+ Communicate the situation to all available personnel conducting or enabling PCC. 
+ Assess requirements for which class of triage you are facing (see Appendix C) and scale 
+medical action to maximize lethality then survivability. 
+ Remain agile and be ready to move based on the mission. 
+2. Determine if conditions require significant changes in the commonly understood and accepted 
+standards of care (Crisis Standards of Care)3 or if personnel who are not ordinarily qualified for a 
+particular medical skill will need to deliver care. MASCAL in PCC requires both medical and 
+non-medical responders initially save lives and preserve survivable casualties. Both groups will 
+need skills traditionally outside existing paradigms, such as non-medical personnel taking and 
+record vital signs or Tier 3 TCCC medical personnel maintaining vent settings on a stable patient. 
+The MASCAL standard of care will be driven by the volume of casualties, resources, and risk or 
+mortality/morbidity due to degree of injury/illness; as such, remain agile throughout the 
+MASCAL and trend in both directions based upon resources available. 
+3. MASCAL management is often intuitive and reactive (due to lack of full mission training 
+opportunities) and should rely on familiar terminology and principles. Treatment and casualty 
+movement should be rehearsed to create automatic responses. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+10 
+4. The tactical and strategic operational context will underpin every facet of MASCAL in a PCC 
+environment, operational commanders MUST be involved in every stage of MASCAL response 
+(The mere fact that a medical professional or team of medical professionals is forced to hold a 
+casualty longer than doctrinal planning timelines means there is a failure in the 
+operational/logistical evacuation chain. Battle lines, ground-to-air threat, etc. levels may have 
+shifted.) 
+5. Logistical resupply may need to include non-standard means and involve personnel and 
+departments not typically associated with Class VIII in other situations (i.e. aerial resupply, 
+speedballs, caches, local national market procurement). 
+6. The most experienced person should establish MASCAL roles and responsibilities, as 
+appropriate. 
+Key Considerations in MASCAL 
+ Usually, simpler is better. 
+ Focus on those that will preserve scarce resources, such as blood. 
+ Triage is a continuous process and should be repeated as often as is clinically and operationally 
+practical. 
+ Avoid high resource and low yield interventions. 
+ Emergency airway interventions should prioritize REVERSIBLE pathology in salvageable patients. 
+ Decisions will depend on available resources and skillsets (i.e. penetrating traumatic brain injury 
+[TBI] triaged differently if no neurosurgery is available in a timely manner or at all in theater). 
+ Conserve, ration, and redistribute additional scarce resources (i.e. blood, drug). 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+11 
+MASSIVE HEMORRHAGE - PCC 
+Background 
+Early recognition and intervention for life-threatening hemorrhage are essential for survival. The 
+immediate priorities are to control life-threatening hemorrhage and maintain vital organ perfusion with 
+rapid blood transfusion. 4 
+Pre-deployment, Mission Planning, and Training Considerations 
+1. Conduct unit level blood donor testing (for blood typing, transfusion transmitted diseases and 
+Low Titer blood type O titers) and develop operational roster. 
+2. Define Cold Chain Stored Whole Blood (CSWB) distribution quantities in area of responsibility. 
+3. Manage and equip prehospital blood storage program if unit policies and procedures allow for 
+prehospital blood storage. 
+Table 2. PCC Role-Based Guidelines for Massive Hemorrhage Management 
+PCC Role-based Guidelines for Massive Hemorrhage Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+* All Personnel - Complete Basic TCCC Management Plan for Massive Hemorrhage then: 
+ Identify life-threatening bleeding that may have started or was not adequately controlled 
+with initial interventions in TCCC Basic Management Plan for Massive Hemorrhage. 
+ Check tourniquets to ensure that they have not shifted or loosened. 
+ 
+ 
+ 
+ 
+ Re-assess and re-apply MARCH interventions. 
+ Perform all recommended interventions from guidelines for above tier level. 
+ 
+ 
+ 
+ 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+ Conduct Triage – Time Assessment. 
+ Assess extremities distal to pressure dressings to ensure that they are not 
+acting as a venous tourniquet which could result in compartment syndrome by 
+checking pulses and the skin color distal to the dressing. 
+ Communicate evacuation and re-supply requirements (i.e. Blood 
+resupply/Speedball). 
+ Administer Calcium and Tranexamic Acid (TXA) per TCCC guideline. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Re-assess and re-apply MARCH interventions. 
+ Consider tourniquet conversion (> 2 hours but before 6 hours). 
+ Assess for refractory shock – see Circulation Section. 
+ 
+ 
+Role 1c 
+ Evaluate for compartment syndrome. 
+ Consider teleconsultation. 
+ Continue resuscitation until: min: palpable radial pulse or improved mental 
+status better: SBP > 90 mmHg best: SBP between 100-110 mmHg. Discontinue 
+fluid administration when one of the above end points have been achieved. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+12 
+ 
+ 
+ 
+ Ensure interventions noted above are completed by TCCC ASM, CLS and Combat 
+Medic/Corpsmen (CMC) personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+Role 1a 
+Re-assess all prior MARCH interventions. 
+ 
+ 
+ 
+Role 1b 
+ Assess using ultrasound (if available) including Extended Focused Assessment 
+with Sonography in Trauma, Central Venous Pressure. 
+ Determine hypovolemia vs. refractory shock to drive decision on further 
+resource utilization. 
+ 
+ 
+ 
+Role 1c 
+ Convert to type-specific blood replacement, if testing available. 
+ Establish Foley catheter with goal Urine Output (UOP) of > ½ ml/kg per hour. 
+ 
+ 
+ 
+Link to Damage Control Resuscitation (DCR) in Prolonged Field Care CPG, 01 Oct 2018 5 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+13 
+AIRWAY MANAGEMENT - PCC 
+Background 
+Airway compromise is the second leading cause of potentially survivable death on the battlefield after 
+hemorrhage. 6 Complete airway occlusion can cause death from suffocation within minutes. Austere 
+environments present significant challenges with airway management. Limited provider experience and 
+skill, equipment, resources, and medications shape the best management techniques. Considerations 
+include: limited availability of supplemental oxygen; medications for induction/rapid sequence 
+intubation, paralysis, and post-intubation management; and limitations in available equipment. Another 
+reality is limitations in sustainment training options, especially for advanced airway techniques. Due to 
+these challenges, some common recommendations that may be considered “rescue” techniques in 
+standard hospital airway management may be recommended earlier or in a non-standard fashion to 
+establish and control an airway in a PCC environment. Patients who require advanced airway placement 
+tend to undergo more interventions, be more critically injured, and ultimately have a higher proportion 
+of deaths. The ability to rapidly and consistently manage an airway when indicated, or spend time on 
+other resuscitative needs when airway management is not indicated, may contribute to improved 
+outcomes. 7,8 
+Table 3. PCC Role-based Guidelines for Airway Management 
+PCC Role-based Guidelines for Airway Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+* All Personnel - Complete Basic TCCC Management Plan for Airway then: 
+Assess for airway problem; use patient positioning per TCCC guidelines to maintain open 
+airway. 
+ 
+ 
+ 
+ 
+ Re-assess airway interventions performed in TCCC. 
+ Positive end-expiratory pressure (PEEP) valves should be used anytime you are using a bag 
+valve mask. 
+ Use nasal pharyngeal airway (NPA). 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+ Airway adjuncts should be assessed for efficacy by checking the patient’s work 
+of breathing, end-tidal CO2 (ETCO2) and pulse oximetry levels. 
+ Level of sedation should be continuously assessed every 5 minutes for patients 
+sedated deep enough for endotracheal intubation. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Re-asses airway before, after and during any patient movement. 
+ Airway adjuncts with an inflatable cuff such as ET or cricothyrotomy tube or 
+inflatable laryngeal mask airways (LMA) should be assessed for proper inflation 
+levels to ensure that they are not under or over inflated. 
+ Inflate the cuff with a 10cc syringe and then releasing your thumb from the 
+plunger to let the plunger equalize. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+14 
+ 
+ 
+ 
+ 
+Role 1c 
+ Airway adjuncts with an inflatable cuff such as ET or cricothyrotomy tube or 
+inflatable LMA should be assessed for proper inflation levels to ensure that they 
+are not under or over inflated. 
+ Mechanical suction device and yankauer suction for suctioning out the 
+oropharynx. 
+ Airway adjuncts should be assessed for efficacy by checking the patient’s work 
+of breathing, ETCO2 and pulse oximetry levels. 
+ Mouth care should be performed per the attached nursing care checklist in 
+appendix. 
+ 
+ 
+ 
+ 
+ Ensure above interventions are completed by TCCC ASM, CLS and CMC personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+Re-assess all prior MARCH interventions. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Re-assess cuff pressures per above. 
+ Continued assessment of patient’s work of breathing, ETCO2 and pulse oximetry 
+levels. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Inflate and periodically check cuff pressures with a cuff manometer to a goal of 
+20 mmHg. 
+ Use heat moisture exchanger to keep contaminants out and endogenous heat 
+and moisture in the lungs. 
+ Inline suction catheter for suctioning airway adjunct as indicated. 
+ 
+ 
+ 
+Link to Airway Management in Prolonged Field Care, 01 May 2020 9 
+ 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+15 
+RESPIRATION AND VENTILATION - PCC 
+Background 
+Respiration is the process of gas exchange at the cellular level. Oxygen is conducted into the lung and 
+taken up by the blood via hemoglobin to be transported throughout the body. In the peripheral tissues, 
+carbon dioxide is exchanged for oxygen, which is transported by the blood to the lungs, where it is 
+exhaled. This process is essential to cellular and organism survival. Dysfunction of this process is a 
+feature of multiple-injury patterns that can lead to increased morbidity and mortality. 
+Table 4. PCC Role-based Guidelines for Respiration Management 
+PCC Role-based Guidelines for Respiration Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+* All Personnel - Complete Basic TCCC Management Plan for Respiration then: 
+ Identify Respiratory distress. 
+ Some Level 1 providers may be trained in Basic Life Support (BLS), and if so, may offer the 
+following interventions: 
+ Open the airway using Head Tilt or Jaw Thrust maneuver. 
+ Provide rescue breaths per BLS. 
+ 
+ 
+ 
+ 
+ Perform all recommended interventions from guidelines for above Tier level 
+ Additional interventions include: 
+ Use Bag Valve Mask with PEEP Valve. 
+ Use NPA. 
+ 
+ 
+ 
+ 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ Target ventilation to pulse oximetry level of 92%; use supplemental oxygen if available. 
+ Use end-tidal carbon dioxide monitor and maintain ETCO2 between 35-45 mmHg. 
+ If definitive airway is required, consider cricothyrotomy tube as less sedation and pain 
+management is required to facilitate a patent and secure method for respirations. 
+ 
+ 
+ 
+ 
+ Ensure interventions noted above are completed by TCCC ASM, CLS, and CMC personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+Mechanical Ventilation (For trained providers) 
+ Use of mechanical ventilators in the PCC environment requires experience and training, 
+best accomplished under board-certified medical personnel and sustained routinely. 
+ Ensure appropriate amount of induction, sedation, and pain management to sustain the 
+patient for up to 96 hours in a PCC environment. 
+ 
+ 
+ 
+ 
+Role 1a 
+ BVM, NPA, Pulse oximetry to maintain >92%. 
+ Intubate if no gag reflex and casualty is salvageable (TBI). 
+ 
+ 
+ 
+ 
+Role 1b 
+Add ETCO2 monitoring, goal 35-45 mmHg; initiate mechanical ventilation. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Establish sedation, pain management maintenance plan for >96 hours; use noninvasive ventilation as able. 
+ Monitor ABGs. 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+16 
+Additional Considerations 
+ When in a PCC environment, simple monitoring technologies are able to be used by most 
+providers in each of the provider categories to ensure adequate gas exchange and oxygen 
+delivery. Peripheral oxygen saturation can be measured using a pulse oximeter which provides a 
+measurement of hemoglobin saturation and, by inference, the effectiveness of measures to 
+oxygenate a patient. Ventilation can be monitored with end-tidal carbon dioxide. The use of 
+these tools together in a PCC environment provides estimates of oxygen transport to the cells, 
+tissue metabolism, and adequacy of ventilation. 
+ Providers in the PCC environment can adopt, implement, monitor, and sustain respiration using 
+concepts of manipulating minute ventilation (respiratory rate multiplied by tidal volume). Put 
+simply, it is the number of times a patient is breathing each minute multiplied by the amount of 
+air breathed in with each breath. 
+ Support of adequate minute ventilation can be performed in an escalating algorithm with rescue 
+breathing, bag valve mask assisted ventilation, and mechanical ventilation. Each of these 
+methods may require escalation of airway management skills and respiratory skills. 
+Manipulation of any of the variables of minute ventilation will alter gas exchange. Therefore, 
+medical providers in the PCC environment at all levels will need to be competent with the 
+monitoring devices appropriate to their level of training. At a minimum, all providers with 
+specific medical training should be competent to use and interpret the previous paragraph's 
+monitoring devices. 
+ The causes of respiratory failure can overlap and become confusing. When in doubt and 
+whenever possible, initiate a Telemedicine Consultation for further guidance and input. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+17 
+CIRCULATION AND RESUSCITATION - PCC 
+Background 
+PCC presents a unique challenge for implementing damage control resuscitation (DCR) as defined by the 
+JTS guideline. PCC goes beyond DCR and should bridge the gap between the prevention of death, the 
+preservation of life, and definitive care. The goals are a return to a normal level of consciousness (LOC), 
+increase and stabilization of systolic blood pressure at 100 - 110 mm Hg when appropriate, and 
+stabilization of vital signs – Heart rate, respiratory rate, oxygen saturation, etc. 
+Table 5. PCC Level for Circulation and Resuscitation 
+PCC Level for Circulation and Resuscitation 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+* All Personnel - Complete Basic TCCC Management Plan for Massive Hemorrhage then: 
+Role 1a 
+ Re-assess all tourniquets and wound dressings. 
+ Ensure that bleeding has stopped. 
+ If bleeding persists, consider additional tightening of the tourniquet, the use of 
+an additional tourniquet, or the use of hemostatic dressings with wound 
+packing to stem the hemorrhage. 
+ Conduct the principles of wound care to avoid infection and possible follow-on 
+sepsis. 
+ Initiate hypothermia prevention measures. 
+ 
+Role 
+1b/1c 
+ Continue and/or initiate above circulation interventions. 
+ Initiate hypothermia prevention measures, if not already completed. 
+ 
+ 
+ Perform all recommended interventions from guidelines for above Tier level. 
+ Additional interventions include: 
+ 
+ 
+Role 1a 
+ Re-assess all tourniquets and wound dressings. 
+ Ensure that bleeding has stopped. 
+ If bleeding persists, consider additional tightening of the tourniquet, the use of 
+an additional tourniquet or the use of hemostatic dressings with wound packing 
+to stem the hemorrhage. 
+ Replace any limb tourniquet placed proximal over the uniform with one applied 
+directly to the skin 2-3 inches above the wound. 
+ Assess extremities distal to pressure dressings. 
+ Check pulses and the skin color distal to the dressing. 
+ Decreased pulses or skin mottling may indicate the dressing is acting as a 
+venous tourniquet. 
+ If present, dressing may need to be replaced or readjusted. 
+ Ongoing venous tourniquet could result in limb damage or development of 
+compartment syndrome. 
+ Conduct the principles of wound care to avoid infection and possible follow-on 
+sepsis. 
+ Initiate hypothermia prevention measures. 
+ 
+Role 
+1b/1c 
+ Continue and/or initiate above circulation interventions. 
+ Initiate hypothermia prevention measures, if not already completed. 
+ 
+ 
+ 
+ 
+ Re-assess and re-apply MARCH interventions. 
+ Review transfusion transmitted disease (TTD)/titer of present unit members. 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+18 
+PCC Level for Circulation and Resuscitation 
+ Conduct inventory of all shock treatment supplies including whole blood, testing 
+equipment, IVs, and other resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+ Re-assess tourniquets and wound dressings as noted in above tier 
+recommendations. 
+ Convert tourniquets per TCCC guidelines. 
+ In less than 2 hours if bleeding can be controlled with other means. 
+ DO NOT remove a tourniquet that has been in place more than 6 hours. 
+ Initiate hypothermia prevention measures. 
+ If present, assess pelvic compression device and verify placement and tightness. 
+ IV or intraosseous (IO) access if not already initiated in MARCH interventions: 
+ If the casualty remains in hemorrhagic shock or at significant risk of shock. 
+ If the casualty needs medications, but cannot take them by mouth. 
+ Initiate resuscitation with fluid replacement: 
+ For casualties in hemorrhagic shock. 
+ Give blood products per DCoT and TCCC guidelines. 
+ Give calcium per TCCC guidelines. 
+ If not already done, give TXA per TCCC guidelines. 
+ Re-assess the casualty after each unit of blood and note on PCC FC vitals 
+tracker. 
+ The goals of resuscitation: 
+ Return to a normal LOC. 
+ Return of palpable radial pulse 
+ Continue resuscitation until: 
+ 
+Minimum: palpable radial pulse or improved mental status 
+ 
+Better: SBP > 90 mmHg 
+ 
+Best: SBP between 100-110 mmHg. 
+ Stabilization of vital signs – Heart rate, respiratory rate, oxygen saturation. 
+ If the patient has signs of ongoing shock despite hemorrhage control: 
+ Re-assess look for bleeding! 
+ Consider alternate causes of shock – hypovolemic (burn, sepsis, diarrheal 
+illness and other causes of non-hemorrhagic shock), obstructive (tension 
+pneumothorax or cardiac tamponade), distributive (spinal cord injury, sepsis, 
+anaphylaxis, etc.). 
+ If shock is not hemorrhagic, then treat for alternate cause of shock: judicious 
+crystalloid for sepsis and burns, chest tube for tension pneumothorax; 
+crystalloid and vasopressors* for evidence of spinal cord injury with 
+neurogenic shock. 
+ If resuscitation goals can all be met, maintain crystalloid IV or discontinue IV/IO 
+resuscitation and have the casualty orally rehydrate (avoid free water due to 
+risk of hyponatremia) until 0. 3 – 0. 5 mL/kg/hr. UOP is achieved. 
+ Initiate hypothermia prevention measures. 
+ Differentiate between transient responder, non-responder, and refractory 
+shock. 
+ Communicate evacuation and re-supply requirements (i.e. blood 
+resupply/speedball). 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+19 
+PCC Level for Circulation and Resuscitation 
+ 
+ 
+ 
+ 
+Roles 
+1b/1c 
+ Continue and/or initiate above circulation and resuscitation interventions. 
+ Manage IV or IO access for ongoing resuscitation. 
+ Initiate hypothermia prevention measures. 
+ Differentiate between transient responder, non-responder, and refractory 
+shock. 
+ Communicate evacuation and re-supply requirements (i.e. blood 
+resupply/speedball). 
+ Initiate teleconsultation to medical control. 
+ 
+ 
+ 
+ 
+ Re-assess and re-apply MARCH interventions. 
+ Review TTD/titer of present unit members. 
+ Ensure all interventions noted above are completed by TCCC ASM, CLS and CMC personnel 
+ Conduct inventory of all shock treatment supplies including whole blood, testing 
+equipment, IVs, and other resources etc. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+Interventions for both Tier 3 and Tier 4 level providers at this phase are the same. 
+ 
+ 
+Role 1b 
+ Ultrasound may be used to further refine the cause of ongoing hemorrhage or 
+other causes of shock if available and medical provider is trained in its use. 
+ If ultrasound is available, teleconsultation can also be used to guide the 
+provider in its implementation. 
+ Continually observe for changes in patient status, signs of clinical deterioration, 
+alternate causes of shock, and need for change in resuscitation strategies. 
+ Continue resuscitation until: 
+ Minimum: palpable radial pulse or improved mental status 
+ Better: SBP > 90 mmHg 
+ Best: SBP between 100-110 mmHg. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Convert to type-specific blood replacement. 
+ Ultrasound may be used to further refine the cause of ongoing hemorrhage or 
+other causes of shock if available and medical provider is trained in its use. 
+ If ultrasound is available, teleconsultation can also be used to guide the 
+provider in its implementation. 
+ Continually observe for changes in patient status, signs of clinical deterioration, 
+alternate causes of shock and need for change in resuscitation strategies. 
+ Continue resuscitation until: 
+ Minimum: palpable radial pulse or improved mental status 
+ Better: SBP > 90 mmHg 
+ Best: SBP between 100-110 mmHg. 
+ If SBP remains less than 100-110 mmHg despite appropriate resuscitation and 
+hemorrhage control, a vasopressor agent should be started if available*. 
+ 
+ 
+* All use of pressors should be administered by role-based approved protocols or teleconsultation approval: 
+• norepinephrine continuous infusion 0. 1–0. 4 mcg/kg/min 
+• vasopressin continuous infusion 0. 01-0. 04 units 
+ 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+20 
+COMMUNICATION AND DOCUMENTATION - PCC 
+Background 
+Communication and documentation in PCC are linked priorities as they are activities that are synergistic. For 
+instance, the standard documentation forms (see below) that are used to track the important medical 
+interventions and trends are the recommended scripts that are used in a teleconsultation. Effective 
+documentation leads to effective communication, both in the immediate PCC environment and as a long-term 
+medical management tool for the casualty. 
+Communication 
+ Communicate with the casualty if possible. Encourage, reassure, and explain care. 
+ Communicate with tactical leadership as soon as possible and throughout casualty treatment as needed. 
+Provide leadership with casualty status and evacuation requirements to assist with coordination of 
+evacuation assets. 
+ Verify evacuation request has been transmitted and establish communication with the evacuation 
+platform as soon as tactically feasible relaying: mechanism of injury, injuries sustained, signs/symptoms, 
+treatments rendered, and other information as appropriate. Have a rehearsed script to relay vital 
+information to the next echelon of care prioritize interventions that cannot be seen by the next 
+provider, such as medications. 
+ Ensure appropriate notification up the chain of command that PCC is being conducted; requesting 
+support based on the MASCAL decision points. 
+ Call for teleconsultation as early and as often as needed (e.g., higher medical capability in the Chain of 
+Command, the Advanced VIrtual Support for OpeRational Forces system line, etc.). 
+ Remember, communication of the situation and medical interventions that have been done and are 
+ongoing includes both teleconsultation and the “handoff report.” 
+Documentation of Care 
+ There are 3 levels of documentation, categorized in a minimum, better, best format: 
+ 
+Minimum - Documentation of care on the TCCC card (DD1380). 
+ 
+Better - Utilization of a standard PCC flowsheet (if available), example attached. 
+ 
+Best - Completion of a formal After Action Report (AAR) after patient handoff. 
+ Transfer documented clinical assessments and treatments rendered. If the availably to scan and/or 
+transmit this information to all parties involved teleconsultation (using all approved and available 
+means), do so for them to have as much of the information as possible. 
+ Perform a detailed head-to-toe assessment and record all findings as a problem list so that a 
+comprehensive care plan can then be constructed using the attached flow sheet. 
+ 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+21 
+Table 6. PCC Role-based Guidelines for Communications and Documentation 
+PCC Role-based Guidelines for Communication and Documentation 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+Complete Basic TCCC Communication and Documentation Principles then: 
+ Identify requirements for communicating care to the casualty, leadership, and medical 
+personnel in accordance with TCCC Guidelines. 
+ Document casualty information on the DD Form 1380 TCCC Card and ensure proper 
+placement of that card on the casualty, in accordance with DHA-PI 6040. 01. 
+ Initiate scripted teleconsultation. 
+ 
+ 
+ 
+ 
+ Monitor the documentation for each casualty and ensure that it is completed by those 
+service members assisting with care. 
+ Initiate scripted teleconsultation. 
+ 
+ 
+ 
+ 
+Ensure documentation and communication is completed for each casualty in accordance 
+with PCC standards: 
+ Ensure that communication is established with evacuation assets and/or receiving 
+facilities. 
+ Prepare evacuation request and set up priorities for evacuation for each casualty. 
+ Ensure DD1380 TCCC Cards are completed for every casualty. 
+ Initiate scripted teleconsultation. 
+ Complete AAR. 
+ 
+ 
+ 
+ 
+Ensure documentation and communication is completed for each casualty in accordance 
+with PCC standards: 
+ Ensure communication is established with evacuation assets and/or receiving facilities. 
+ Initiate scripted teleconsultation, if needed. 
+ Prepare evacuation request and set up priorities for evacuation for each casualty. 
+ Ensure DD1380 TCCC Cards are completed for every casualty. 
+ Complete After Action Report with an emphasis on the scenario’s impact on future unitlevel medical training and logistics requirements. 
+ 
+ 
+ 
+*Link to Documentation in Prolonged Field Care, 13 Nov 2018 CPG 10 
+* Link to Documentation Requirements for Combat Casualty Care, 18 Sep 2020 CPG 11 
+ 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+22 
+HYPOTHERMIA - PCC 
+Background 
+Prevention of hypothermia must be emphasized in combat operations and casualty management at all 
+levels of care. Hypothermia occurs regardless of the ambient temperature; hypothermia can, and does, 
+occur in both hot and cold climates. Because of the difficulty, time, and energy required to actively rewarm casualties, significant attention must be paid to preventing hypothermia from occurring in the first 
+place. Prevention of hypothermia is much easier than treatment of hypothermia; therefore prevention 
+of heat loss should start as soon as possible after the injury. This is optimally accomplished in a layered 
+fashion with rugged, lightweight, durable products that are located as close as possible to the point of 
+injury, and then utilized at all subsequent levels of care, including ground and air evacuation, through all 
+levels of care. 12 
+Table 7. PCC Role-based Guidance for Hypothermia Management 
+PCC Role-based Guidance for Hypothermia Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+Complete Basic TCCC Management Plan for Hypothermia then: 
+Role 1a 
+ Take early and aggressive steps to prevent further body heat loss and add 
+external heat when possible for both trauma and severely burned casualties. 
+ Minimize casualty’s exposure to cold ground, wind and air temperatures. 
+Place insulation material between the casualty and any cold surface as soon 
+as possible. 
+ Keep protective gear on or with the casualty, if feasible. 
+ Replace wet clothing with dry clothing, if possible, and protect from further 
+heat loss. If unable to replace the dry clothing, wrap an impermeable layer 
+around the casualty. 
+ Place an active heating blanket on the casualty’s anterior torso and under the 
+arms in the axillae. 
+ Caution: DO NOT place any active external heating directly on the skin or 
+in areas of skin which are under pressure or have poor blood flow as this 
+increases risk of injury and/or skin burns. 
+ Enclose the casualty with the exterior impermeable enclosure bag, if 
+available. 
+ Protect the casualty from exposure to wind and precipitation on any 
+evacuation platform. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Continue and/or initiate above hypothermia interventions. 
+ Pre-stage an insulated hypothermia enclosure system with external active 
+heating for transition from the non-insulated hypothermia enclosure systems; 
+seek to improve upon existing enclosure system when possible. 
+ Upgrade hypothermia enclosure system to a well-insulated enclosure system 
+using a hooded sleeping bag or other readily available insulation inside the 
+enclosure bag/external vapor barrier shell. 
+ Best: Improvised hypothermia wrap with high-quality insulation with coldrated sleeping bag combined with heat source, internal vapor barrier, 
+outer impermeable enclosure. 
+ When using the Hypothermia Prevention and Management Kit (HPMK) readyheat-blanket, perform frequent skin checks to monitor for contact burns. 
+ Protect the casualty from exposure to wind and precipitation on any 
+evacuation platform. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+23 
+PCC Role-based Guidance for Hypothermia Management 
+ 
+ 
+ 
+ 
+Role 1c 
+ Continue and/or initiate the Role 1a/Role 1b phases as detailed above. 
+ Replace ready-heat-blanket when using >10 hours. 
+ 
+ 
+ 
+ Perform all recommended interventions from guidelines for above Tier level 
+ Additional interventions include: 
+ 
+ 
+ 
+Role 1a 
+Communicate re-supply requirements. 
+ 
+ 
+ 
+Role 1b 
+Protect the casualty from exposure to wind and precipitation on any evacuation 
+platform. 
+ 
+ 
+ 
+Role 1c 
+ Continue and/or initiate the Role 1a/Role 1b phases as detailed above 
+ Replace ready-heat-blanket when using >10 hours. 
+ 
+ 
+ 
+ 
+ Interventions for both CMC and CPP are the same. 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+ Use a battery-powered warming device to deliver IV resuscitation fluids, in 
+accordance with current TCCC guidelines, at flow rate up to 150 ml/min with a 
+38°C output temperature. 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Convert to continuous temperature monitoring. 
+ Minimum: Scheduled temperature measurement with vital sign 
+evaluations. 
+ Better: Continuous forehead dot monitoring. 
+ Best: Continuous core temperature monitoring. 
+ Protect the casualty from exposure to wind and precipitation on any 
+evacuation platform. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Continue and/or initiate the Role 1a/Role 1b phases as detailed above. 
+ Replace ready-heat-blanket when using >10 hours. 
+ 
+ 
+ 
+ 
+Interventions for both CMC and CPP are the same. 
+ 
+ 
+ 
+*Link to Hypothermia Prevention, Monitoring and Management, 18 Sep 2012 CPG 12 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+24 
+HYPERTHERMIA - PCC 
+Background 
+1. Hyperpyrexia is elevated body temperature. 
+2. Fever is elevated body temperature in response to a change in hypothalamic set point 
+(infections). 
+3. Hyperthermia is elevated body temperature without a change in hypothalamic set point (heat 
+illness, hyperthyroid, drugs). 
+4. The Second Law of Thermodynamics states that heat flows from hot to cold. 
+5. Heat transfer can occur through several processes: 
+a. Radiation 
+b. Conduction 
+c. Convection 
+d. Evaporation 
+Heat exhaustion 
+Symptoms: weak, dizzy, nauseated, headache, sweating, normal mental status. Heat exhaustion requires 
+replacement of fluids and electrolytes. 
+Heat stroke 
+Symptoms: Hyperthermia + mental status changes. Heat stroke requires immediate cooling. 
+Table 8. PCC Role-based Guideline for Hyperthermia Management 
+PCC Role-based Guidance for Hyperthermia Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+Complete Basic TCCC Management Plan for Hyperthermia then: 
+Role 1a 
+ Move the casualty to the shade if possible. 
+ Insulate the casualty from the ground (conduction). 
+ Remove the casualty from a vehicle (radiation). 
+ If situation allows, remove the casualty’s helmet and vest (evaporation). 
+ Fan the casualty (convection). 
+ If the casualty is conscious and not vomiting, give liquids. 
+ Protect the casualty from exposure to sources of heat if possible. 
+ DO NOT give acetaminophen, aspirin or ibuprofen for hyperthermia, only for 
+fever. 
+ Prevent heat illness/injury in casualties by maintaining hydration, adding salt to 
+food, resting in shade, staying off hot surfaces (ground or vehicle), removing 
+tactical gear when possible. 
+ 
+ 
+ 
+ 
+Role 1b 
+Continue and/or initiate above hyperthermia interventions. 
+ 
+ 
+ 
+ 
+Role 1c 
+Continue and/or initiate the Role 1a/Role 1b phases as detailed above. 
+ 
+ 
+ 
+ Perform all recommended interventions from guidelines for above tier level 
+ Additional interventions include: 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+25 
+PCC Role-based Guidance for Hyperthermia Management 
+ 
+ 
+ 
+Role 1a 
+ If the casualty is unconscious or vomiting, use IV/IO fluids. 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+Role 1b 
+Continue and/or initiate above hyperthermia interventions. 
+ 
+ 
+ 
+Role 1c 
+Continue and/or initiate the Role 1a/Role 1b phases as detailed above. 
+ 
+ 
+ 
+ 
+ Interventions for both CMC and CPP providers are the same. 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Role 1a 
+ If the casualty is unconscious or vomiting, use IV/IO fluids. 
+ Monitor for signs and symptoms of heat exhaustion - if present: 
+Immediately replace fluids and electrolytes. 
+ Monitor for signs and symptoms of heat stroke - if present: 
+ Immediate cooling must be initiated. 
+ Minimum: Wetting clothing. 
+ Better: Fanning the casualty after wetting clothing. 
+ Best: Immersion in water. 
+ Casualties should eat, if possible, to prevent sodium loss, which may lead to 
+dilutional hyponatremia (low sodium). 
+ Dilutional hyponatremia may look like heat illness, but is due to drinking and not 
+eating. 
+ Seizures should be treated with benzodiazepines. 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Convert to continuous temperature monitoring. 
+ Minimum: Scheduled temperature measurement with vital sign evaluations. 
+ Better: Continuous forehead dot monitoring. 
+ Best: Continuous core temperature monitoring. 
+ Prevent heat illness/injury in casualties by maintaining hydration, adding salt to 
+food, resting in shade, staying off hot surfaces (ground or vehicle), removing 
+tactical gear when possible. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Continue and/or initiate the Role 1a/Role 1b phases as detailed above. 
+ 
+ 
+ 
+ 
+Interventions for both CMC and CPP are the same. 
+ 
+ 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+26 
+HEAD INJURY/TBI - PCC 
+Background 
+TBI occurs when external mechanical forces impact the head and cause an acceleration/deceleration of 
+the brain within the cranial vault which results in injury to brain tissue. TBI may be closed (blunt or blast 
+trauma) or open (penetrating trauma). 13 Signs and symptoms of TBI are highly variable and depend on 
+the specific areas of the brain affected and the injury severity. Alteration in consciousness and focal 
+neurologic deficits are common. Various forms of intracranial hemorrhage, such as epidural hematoma, 
+subdural hematoma, subarachnoid hemorrhage, and hemorrhagic contusion can be components of TBI. 
+The vast majority of TBIs are categorized as mild and are not considered life threatening; however, it is 
+important to recognize this injury because if a patient is exposed to a second head injury while still 
+recovering from a mild TBI, they are at risk for increased long-term cognitive effects. Moderate and 
+severe TBIs are life-threatening injuries. 
+Pre-deployment, Mission Planning, and Training Considerations 
+1. Conduct unit level TTD/Titer testing and develop an operational roster. 
+2. Conduct baseline neurocognitive assessment per Service guideline. 
+3. When possible and practical, keep patient in an elevated orientation to approximately 
+30 degrees while maintaining C-spine precautions (as clinically indicated) and airway control 
+(don’t just elevate the head by bending the neck). 
+4. Define CSWB distribution quantities in area of responsibility. 
+5. Determine feasibility and requirement for pre-deployment unit level blood draw. 
+6. Conduct unit level pre-deployment blood draw as required. 
+7. Ensure critical head-injury adjunct medications appropriately stocked and storage requirements 
+met. 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+27 
+Treatment Guidelines 
+Table 9. PCC Role-based Guideline for Head Injury/TBI Management 
+PCC Role-based Guidance for Head Injury/TBI Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+Complete Basic TCCC Management Plan for Heat Injury/TBI then: 
+Role 1a 
+ Identification and local wound management of any open head wounds/skull 
+fractures. Priorities should include hemorrhage control, removal of gross 
+contamination, and protection/coverage of any exposed dura or brain matter. 
+ Military Acute Concussive Evaluation 2 (MACE2) (*See Appendix E) examination per 
+DoD/TCCC guideline. 
+ Communicate evacuation requirements (need for TBI evaluation, neurosurgery) 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+ 
+Role 
+1b/1c 
+ Re-assess and re-apply MARCH interventions. 
+ Serial neurologic checks, including pupil exam and identify signs of elevated or rising 
+intracranial pressure (Appendix E) - at least hourly. 
+ Identify catastrophic/non-survivable brain injury. 
+ Upgrade evacuation priority and destination (facility with neurosurgical capabilities) 
+for any patient with initial mild TBI who deteriorates to moderate/severe TBI 
+category. 
+ 
+ 
+ 
+ 
+ Re-assess and re-apply MARCH interventions. 
+ Conduct inventory of all treatment supplies. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ 
+Role 1a 
+ Identification and local wound management of open head wounds/skull fractures. 
+Priorities should include hemorrhage control, removal of gross contamination, and 
+protection/coverage of any exposed dura or brain matter. 
+ MACE2 examination per TCCC guideline. 
+ Communicate evacuation requirements (need for TBI evaluation, neurosurgery). 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+Role 
+1b/1c 
+ Re-assess and re-apply MARCH interventions. 
+ Serial neurologic checks and identify signs of elevated or rising intracranial pressure 
+(Appendix E). 
+ Administer appropriate antibiotics for any open head wounds or skull fracture (see 
+antibiotics section). 
+ Identify the critical observations that should be reported to medical personnel for 
+trauma casualties with a suspected head injury, in accordance with the MACE2. 
+ Teleconsultation with trauma surgeon and/or neurosurgeon as available. 
+ Upgrade evacuation priority and destination (facility with neurosurgical capabilities) 
+for any patient with initial mild TBI who deteriorates to moderate/severe TBI 
+category. 
+ 
+ 
+ 
+ 
+ Re-assess and re-apply MARCH interventions. 
+ Ensure all interventions noted above are completed by non-medical TCCC ASM and CLS 
+personnel and CLS-trained service members. 
+ Conduct inventory of all treatment supplies. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ 
+ 
+ 
+ 
+Role 1a 
+ Identification and local wound management of any open head wounds/skull 
+fractures. Priorities should include hemorrhage control, removal of gross 
+contamination, and protection/coverage of any exposed dura or brain matter. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+28 
+PCC Role-based Guidance for Head Injury/TBI Management 
+ Identify signs of elevated or rising intracranial pressure (ICP) per Appendix E. Initiate 
+immediate treatment for signs of elevated ICP including initial bolus of 3% 
+hypertonic saline (HTS) 250-500 ml if available. Alterative: 23. 4% sodium chloride. 
+ Administer TXA as single 2gram IV or IO bolus (no second dose required). 
+ Communicate evacuation requirements (need for TBI evaluation, neurosurgery). 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Re-assess and re-apply MARCH interventions. 
+ Administer appropriate antibiotics for any open head wounds or skull fracture (see 
+antibiotics section). 
+ Maintain goal SBP >90 mmHg with initial fluid/blood product resuscitation. 
+ Serial neurologic checks and identify signs of elevated or rising intracranial pressure 
+(Appendix E); If noted, the following interventions are recommended, if possible: 
+ HTS administration (intermittent bolus versus continuous infusion) per Appendix 
+E. Alterative: 23. 4% sodium chloride. 
+ Supplemental oxygen to maintain O2 sats > 94% and <99%, ETCO2 if intubated 
+with goal of mild hyperventilation to 35-40. 
+ Brief (less than 30 minutes) moderate hyperventilation to goal pCO2/ETCO2 20-30 
+may be performed for signs of impending/active herniation (pupil becomes fixed 
+and dilated); if there is a neurosurgical capability. 
+ ** Note: Use hyperventilation only as a temporizing measure while additional ICP 
+treatments are being administered or tactical evacuation is in process. 
+ Repeat primary and secondary survey for any abrupt decline in the Glasgow Coma 
+Scale (GCS) or change in pupil exam to rule out non-neurologic causes. 
+ Minimize analgesia and sedation agents, and avoid paralyses, if possible, to preserve 
+ability to obtain neurologic exam, but medical and operational considerations should 
+take priority if deeper sedation or paralysis required. 
+ Teleconsultation with Trauma Surgeon and/or Neurosurgeon as available. 
+ Upgrade evacuation priority and destination (facility with neurosurgical capabilities) 
+for any patient with initial mild TBI who deteriorates to moderate/severe TBI 
+category. 
+ Repeat triage evaluation and identification of likely non-survivable condition (or associated 
+injuries) based on injury types/severity and required vs available resources. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Continue serial neurologic checks including GCS and pupil exam at least hourly. 
+ Immediate seizure treatment with benzodiazepines, consider ketamine for 
+refractory seizures. 
+ Temperature management and aggressive fever control. 
+ Teleconsultation with trauma surgeon and/or neurosurgeon as available. 
+ Upgrade evacuation priority and destination (facility with neurosurgical capabilities) 
+for any patient with initial mild TBI who deteriorates to moderate/severe TBI. 
+ 
+ 
+ 
+ 
+ Re-assess and Re-apply MARCH interventions. 
+ Ensure all basic nursing interventions noted above are completed by non-medical TCCC ASM 
+and CLS personnel, CLS-trained service members and medics/corpsmen. 
+ Conduct inventory of all treatment supplies. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ 
+ 
+ 
+ 
+Role 1a 
+ Identification and local wound management of any open head wounds/skull 
+fractures. Priorities should include hemorrhage control, removal of gross 
+contamination, and protection/coverage of any exposed dura or brain matter. 
+ MACE2 examination per TCCC guideline. 
+ Serial GCS exams (Appendix E.) 
+ Identify signs of elevated or rising ICP per Appendix E. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+29 
+PCC Role-based Guidance for Head Injury/TBI Management 
+ Initiate immediate treatment for signs of elevated ICP including initial bolus of 3% 
+hypertonic saline (HTS) 250-500 ml. Alterative: 23. 4% sodium chloride. 
+ Administer TXA as single 2gram IV or IO bolus (no second dose required). 
+ Communicate evacuation requirements (need for TBI evaluation, neurosurgery). 
+ Communicate re-supply requirements. 
+ 
+ 
+ 
+ 
+Role 1b 
+ Re-assess and re-apply MARCH interventions. 
+ Administer antibiotics for any open head wounds or skull fracture. (See Antibiotics). 
+Continue resuscitation until: 
+ 
+Minimum: palpable radial pulse or improved mental status 
+ 
+Better: SBP > 90 mmHg 
+ 
+Best: SBP between 100-110 mmHg 
+ 
+If SBP remains less than 100-110 mmHg despite appropriate resuscitation and 
+hemorrhage control, a vasopressor agent should be started if available. 
+ 
+norepinephrine continuous infusion 0. 1–0. 4 mcg/kg/min 
+ 
+vasopressin continuous infusion 0. 01-0. 04 units 
+* All use of pressers should be administered by role-based approved protocols or 
+teleconsultation approval 
+ Serial neurologic checks and identify signs of elevated or rising intracranial pressure 
+(Appendix E); If noted, the following interventions are recommended, if possible: 
+ HTS administration (intermittent bolus versus continuous infusion) per 
+Appendix E. Alternative: 23. 4% sodium chloride. 
+ Administer seizure prophylaxis (1G Levetiracetam), if available. 
+ Supplemental oxygen to maintain O2 sats > 94%, ETCO2 if intubated with goal of 
+norocapnia with pCO2 of 35-40. 
+ Brief (less than 30 min) moderate hyperventilation to goal pCO2/ETCO2 20-30 may be 
+performed for signs of impending/active herniation (pupil becomes fixed and dilated). 
+ ** Note: Use hyperventilation only as a temporizing measure while additional ICP 
+treatments are being administered or tactical evacuation is in process. 
+ Repeat primary and secondary survey for any abrupt decline in the GCS or change in 
+pupil exam to rule out non-neurologic causes. 
+ Minimize analgesia and sedation agents, if possible, to preserve ability to obtain 
+neurologic exam, but medical and operational considerations should take priority if 
+deeper sedation or paralysis required. 
+ Teleconsultation with trauma surgeon and/or neurosurgeon as available. 
+ Upgrade evacuation priority and destination (facility with neurosurgical capabilities) 
+for patients with initial mild TBI who deteriorates to moderate/severe TBI category. 
+ Repeat triage evaluation and identification of non-survivable condition (or associated 
+injuries) based on injury types/severity and required vs available resources. 
+ 
+ 
+ 
+ 
+Role 1c 
+ Continue serial neurologic checks including GCS and pupil exam at least hourly. 
+ Immediate seizure treatment with benzodiazepines, consider ketamine for 
+refractory seizures. 
+ Temperature management and aggressive fever control. 
+ Teleconsultation with trauma surgeon and/or neurosurgeon as available. 
+ Upgrade evacuation priority and destination (facility with neurosurgical capabilities) 
+for patients with initial mild TBI who deteriorates to moderate/severe TBI category. 
+ 
+ 
+See Appendix E for additional TBI resources. 
+*Link to Traumatic Brain Injury in Prolonged Field Care, 6 December 2017 CPG 14 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+30 
+PAIN MANAGEMENT (ANALGESIA AND SEDATION) FOR PCC 
+Background 
+A provider of PCC must first and foremost be an expert in TCCC and then be able to identify all the 
+potential issues associated with providing analgesia with or without sedation for a prolonged (4-48 hr.) 
+period. 
+These PCC pain management guidelines are intended to be used after TCCC Guidelines at the Role 1 
+setting, when evacuation to higher level of care is not immediately possible. They attempt to decrease 
+complexity by minimizing options for monitoring, medications, and the like, while prioritizing experience 
+with a limited number of options versus recommending many different options for a more customized 
+fashion. Furthermore, it does not address induction of anesthesia before airway management (i.e. rapid 
+sequence intubation). 
+Remember, YOU CAN ALWAYS GIVE MORE, but it is very difficult to take away. Therefore, it is easier to 
+prevent cardiorespiratory depression by being patient and methodical. TITRATE TO EFFECT. 
+Priorities of Care Related to Analgesia and Sedation 
+1. Keep the casualty alive. DO NOT give analgesia and/or sedation if there are other priorities of 
+care (e.g., hemorrhage control). 
+2. Sustain adequate physiology to maintain perfusion. DO NOT give medications that lower blood 
+pressure or suppress respiration if the patient is in shock or respiratory distress (or is at 
+significant risk of developing either condition). 
+3. Manage pain appropriately (based on the pain categories below). 
+4. Maintain safety. Agitation and anxiety may cause patients to do unwanted things (e.g., remove 
+devices, fight, fall). Sedation may be needed to maintain patient safety and/or operational 
+control of the environment (i.e. in the back of an evacuation platform). 
+5. Stop awareness. During painful procedures, and during some mission requirements, amnesia 
+may be desired. If appropriate, disarm or clear their weapons and prevent access to munitions/ 
+mission essential communications. 
+General Principles 
+ Consider pain in three categories: 
+1. Background: the pain that is present because of an injury or wound. This should be managed 
+to keep a patient comfortable at rest but should not impair breathing, circulation, or mental 
+status. 
+2. Breakthrough: the acute pain induced with movement or manipulation. This should be 
+managed as needed. If breakthrough pain occurs often or while at rest, pain medication 
+should be increased in dose or frequency as clinically prudent but within the limits of safety 
+for each medication. 
+3. Procedural: the acute pain associated with a procedure. This should be anticipated and a 
+plan for dealing with it should be considered. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+31 
+ Analgesia is the alleviation of pain and should be the primary focus of using these medications 
+(treat pain before considering sedation). However, not every patient requires (or should receive) 
+analgesic medication at first, and unstable patients may require other therapies or resuscitation 
+before the administration of pain or sedation medications. 
+ Sedation is used to relieve agitation or anxiety and, in some cases, induce amnesia. The most 
+common causes of agitation are untreated pain or other serious physiologic problems like 
+hypoxia, hypotension, or hypoglycemia. Sedation is used most commonly to ensure patient 
+safety (e.g., when agitation is not controlled by analgesia and there is need for the patient to 
+remain calm to avoid movement that might cause unintentional tube, line, dressing, splint, or 
+other device removal or to allow a procedure to be performed) or to obtain patient amnesia to 
+an event (e.g., forming no memory of a painful procedure or during paralysis for ventilator 
+management). 
+ In a Role 1 (or PCC) setting, intravenous (IV) or interosseous (IO) medication delivery is preferred 
+over intramuscular (IM) therapies. The IV/IO route is more predictable in terms of doseresponse relationship. 
+ Each patient responds differently to medications, particularly with respect to dose. Some 
+individuals require substantially more opioid, benzodiazepine, or ketamine; some require 
+significantly less. Once you have a “feel” for how much medication a patient requires, you can 
+be more comfortable giving it to patient with a broad range of injuries. 
+ Similar amounts during redosing. In general, a single medication will achieve its desired effect if 
+enough is given; however, the higher the dose, the more likely the side effects. 
+ Additionally, ketamine, opioids, and benzodiazepines given together have a synergistic effect: 
+the effect of medications given together is much greater than a single medication given alone 
+(i.e., the effect is multiplied, not added, so go with less than what you might normally use if each 
+were given alone). 
+ Pain medications should be given when feasible after injury or as soon as possible after the 
+management of MARCH and appropriately documented (medication administered, dose, route 
+and time). Factors for delayed pain management (other than Combat Pill Pack) are need for 
+individual to maintain a weapon/security and inability to disarm the patient. 
+ PCC requires a different treatment approach than TCCC. Go slowly, use lower doses of 
+medication, titrate to effect, and re-dose more frequently. This will provide more consistent 
+pain control and sedation. High doses may result in dramatic swings between over sedation with 
+respiratory suppression and hypotension alternating with agitation and emergence 
+phenomenon. 
+Drips and Infusions 
+For IV/IO drip medications: Use normal saline to mix medication drips when possible, but other 
+crystalloids (e.g., lactated Ringer’s, Plasmalyte, and so forth) may be used if normal saline is not 
+available. DO NOT mix more than one medication in the same bag of crystalloid. Mixing medications 
+together, even for a relatively short time, may cause changes to the chemical structure of one or both 
+medications and could lead to toxic compounds. 
+If a continuous drip is selected, use only a ketamine drip in most situations, augmented by push doses of 
+opioid and/or midazolam if needed. Multiple drips are difficult to manage and should only be 
+undertaken with assistance from a Teleconsultation with critical care experience. Multiple drips are 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+32 
+most likely to be helpful in patients who remain difficult to sedate with ketamine drip alone and can 
+“smooth out” the sedation (e.g., fewer peaks and troughs of sedation with corresponding deep sedation 
+mixed with periods of acute agitation). 
+Other medications that should be available when providing narcotic pain control is Naloxone. If the 
+patient receives too much medication, consider dilution of 0. 4mg of naloxone in 9ml saline (40mcg/mL) 
+and administer 40mcg IV/IO PRN to increase respiratory rate, but still maintaining pain control. 
+The PCC Pain Management Guideline Tables 
+These tables are intended to be a quick reference guide but are not standalone: you must know the 
+information in the rest of the guideline. The tables are arranged according to anticipated clinical 
+conditions, corresponding goals of care, and the capabilities needed to provide effective analgesia and 
+sedation according to the minimum standard, a better option when mission and equipment support (all 
+medics should be trained to this standard), and the best option that may only be available in the event a 
+medic has had additional training, experience, and/or available equipment. 
+Medications in the table are presented as either give or consider: 
+ Give: Strongly recommended. 
+ Consider: Requires a complete assessment of patient condition, environment, risks, benefits, 
+equipment, and provider training. 
+Use these steps when referencing the tables: 
+Step 1. Identify the clinical condition 
+ Standard analgesia is for most patients. The therapies used here are the foundation for pain 
+management during PCC. Expertise in dosing fentanyl (OTFC or IV) and ketamine IV or IO is a 
+must. Intramuscular and intranasal dosing of medications isn’t recommended in a PCC 
+setting. 
+ Difficult analgesia or sedation needed is for patients in whom standard analgesia does not 
+achieve adequate pain control without suppressing respiratory drive or causing hypotension, 
+OR when mission requirements necessitate sedating a patient to gain control over their 
+actions to achieve patient safety, quietness, or necessary positioning. 
+ Protected airway with mechanical ventilation is for patients who have a protected airway and 
+are receiving mechanical ventilatory support or are receiving full respiratory support via 
+assisted ventilation (i.e. bag valve). 
+ Shock present is for patients who have hypotension, active hemorrhage, and/or tachycardia. 
+Step 2. Read down the column to the row representing your available resources and training. 
+Step 3. Provide analgesia/sedation medication accordingly. 
+Step 4. Consider using the Richmond Agitation-Sedation Scale (RASS) score (Appendix E) as a method to 
+trend the patient’s sedation level. 
+ 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+33 
+Table 10. PCC Role-based Guideline for Pain Management (Analgesia and Sedation) 
+PCC Role-based Guideline for Pain Management (Analgesia and Sedation) 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+Complete Basic TCCC Communication Plan for Pain Management then: 
+ Administer meloxicam and acetaminophen (pain medications in Joint First Aid Kit [JFAK]) per 
+TCCC guidelines if not already given. 
+ Identify painful conditions that can be treated without the use of medications. 
+ Fractures - apply splint per TCCC guidelines. 
+ Exposed burns - burn care per TCCC guidelines. 
+ Tourniquets will cause significant pain - DO NOT remove a tourniquet in an attempt to 
+alleviate pain unless directed to do so by a higher medical authority. 
+ 
+ 
+ 
+ 
+Drug/Interactions/Dose 
+Onset 
+Duration 
+Side Effects 
+ 
+ 
+ 
+ 
+Acetaminophen 
+ Mild-moderate pain, able to 
+fight 
+ Use with meloxicam 
+ 1 gram every 6 hours 
+<1 hr 
+when 
+given by 
+mouth 
+4-6 hours 
+ Allergic Reaction (rare) 
+ Liver damage: limit daily dose of 
+acetaminophen and 
+acetaminophen-containing 
+products (e.g., Percocet) to 
+4,000mg/day 
+ 
+ 
+ 
+ 
+Meloxicam 
+ Mild-moderate pain, able to 
+fight 
+ Use with acetaminophen 
+ 15 mg daily 
+<1 hr 
+when 
+given by 
+mouth 
+24 hours 
+ Reflux 
+ Abdominal pain 
+ Nausea/vomiting 
+ Diarrhea and/or constipation 
+ 
+ 
+ 
+ 
+Administer meloxicam and acetaminophen (in JFAK) per TCCC guidelines if not already given. 
+ 
+ 
+ 
+ 
+ Pain medications should be given when feasible after injury or as soon as possible after the 
+management of MARCH and appropriately documented (medication administered, dose, route 
+and time). 
+ Pain meds initiated in TCCC can often be continued in the PCC environment for both ongoing 
+analgesia and sedation, as long as the duration and cumulative side effects are well understood 
+and mitigated. 
+ 
+ 
+ 
+ 
+Drug/Interactions/Dose 
+Onset 
+Duration 
+Side Effects 
+ 
+ 
+ 
+ 
+OTFC (Oral Transmucosal 
+Fentanyl Citrate) 
+ Moderate to severe pain, 
+unable to fight without 
+hemorrhagic shock or 
+respiratory distress 
+ 800 mcg every 30 min 
+5 mins 
+when 
+given by 
+mouth 
+20-40 
+minutes 
+ Respiratory/cardiac/mental status 
+depression 
+ Nausea/vomiting 
+ Pruritus (itching) 
+ Constipation 
+ 
+ 
+ 
+ 
+Ketamine 
+ Moderate to severe pain, 
+unable to fight with 
+hemorrhagic shock or 
+respiratory distress 
+ 30 mg (or 0. 3 mg/kg) slow IV 
+or IO push every 20 min 
+ May repeat 
+ Ketamine 50-100 mg (or 0. 5-1 
+mg/kg) IM or IN every 20-30 
+min 
+30 secs 
+IV or 1-5 
+mins IM 
+10-15 mins 
+IV or 20-30 
+mins IM 
+ Cataleptic-like state (dissociated 
+from the surrounding 
+environment) 
+ Respiratory depression at higher 
+doses (>1mg/kg), especially with 
+fast administration IV/IO 
+ Hypersalivation (can be 
+problematic in an austere setting) 
+ Increased blood pressure and 
+heart rate. 
+ Nausea/vomiting 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+34 
+PCC Role-based Guideline for Pain Management (Analgesia and Sedation) 
+ May repeat 
+For Sedation 
+ 1-2 mg/kg slow IV push 
+initial dose 
+ 300 mg IM (or 2-3 mg/kg IM) 
+initial dose 
+ May repeat 
+ 
+ 
+ 
+ 
+Ondansetron (Zofran) 
+ For nausea/vomiting 
+ 1-2 tabs PO/SL every 4-6 hours 
+PRN 
+ 4 mg IV, may repeat 1 time in 
+2 hours if N/V returns 
+30 min - 
+hr when 
+given PO 
+or SL, 510 mins 
+when 
+given IV 
+3-6 hours 
+ Drowsiness 
+ Fatigue 
+ Anxiety 
+ 
+ 
+ 
+ 
+Naloxone (Narcan) 
+ For complete or partial 
+reversal of opioid depression 
+(respiratory/cardiac/mental) 
+ 0. 4-2 mg IV/IM/IO 
+ May repeat every 2-3 minutes 
+(MAX dose 10 mg) 
+1-2 
+minutes 
+IV or 2–
+5 
+minutes 
+IM/IO 
+30-90 mins 
+Note: some 
+opioids have 
+longer 
+duration so 
+naloxone 
+may need to 
+be repeated 
+ Abrupt withdrawal reaction from 
+opioid depression should be 
+anticipated and preparations 
+should be made. 
+ This reaction may include 
+vomiting, sweating, tachycardia, 
+increased blood pressure, 
+agitation. 
+ 
+ 
+ 
+ 
+ Pain medications should be given when feasible after injury or as soon as possible after the 
+management of MARCH and appropriately documented (medication administered, dose, route 
+and time). 
+ Pain meds that are initiated in TCCC can often be continued in the PCC environment for both 
+ongoing analgesia and sedation, as long as the duration and cumulative side effects are well 
+understood and mitigated. 
+ 
+ 
+ 
+ 
+Drug/Interactions/Dose 
+Onset 
+Duration 
+Side Effects 
+ 
+ 
+ 
+ 
+Fentanyl 
+ Moderate to severe pain, 
+unable to fight without 
+hemorrhagic shock or 
+respiratory distress 
+ 50 mcg IV (0. 5-1 mcg/kg) or 
+100 mcg IN, may repeat every 
+1-2 hours 
+1-2 
+minutes 
+when given 
+IV 
+30-60 
+minutes 
+ Respiratory/cardiac/ mental status 
+depression 
+ Nausea/vomiting 
+ Pruritus (itching) 
+ Constipation 
+ 
+ 
+ 
+ 
+Ketamine 
+ Moderate to severe pain, 
+unable to fight with 
+hemorrhagic shock or 
+respiratory distress 
+ 30 mg (or 0. 3 mg/kg) slow IV 
+or IO push every 20min 
+ May repeat 
+ Ketamine 50-100 mg (or 0. 5-1 
+mg/kg) IM or IN every 20-30 
+min 
+30 secs IV 
+or 1–5 mins 
+IM 
+10–15 
+mins IV 
+or 20–30 
+mins IM 
+ 
+ Cataleptic-like state (dissociated 
+from the surrounding 
+environment) 
+ Respiratory depression at higher 
+doses (>1mg/kg), especially with 
+fast administration IV/IO 
+ Hypersalivation (can be 
+problematic in an austere setting) 
+ Increased blood pressure and 
+heart rate. 
+ Nausea/vomiting 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+35 
+PCC Role-based Guideline for Pain Management (Analgesia and Sedation) 
+ May repeat 
+For sedation 
+ 1-2 mg/kg slow IV push initial 
+dose 
+ 300 mg IM (or 2-3 mg/kg IM) 
+initial dose 
+For longer duration analgesia 
+ Slow IV infusion 0. 3 mg/kg in 
+100 ml 0. 9% sodium chloride 
+over 5-15 minutes every 45 
+minutes prn for IV or IO 
+ 
+ 
+ 
+ 
+ When available and applicable, other medications can be considered. 
+ These medications should be used based on local protocols and policies put in place by your 
+medical director or through direct teleconsultation guidance. 
+ 
+ 
+ 
+ 
+Drug/Interactions/Dose 
+Onset 
+Duration 
+Side Effects 
+ 
+ 
+ 
+ 
+Midazolam (Versed) 
+ For sedation and anxiolysis; 
+will also cause anterograde 
+amnesia 
+ 2-4 mg IM 
+ 0. 5-1mg IV (push slowly over 
+1-2 minutes) 
+15-20 mins 
+when given 
+IM, 2 mins 
+when given 
+IV 
+1-6 hrs 
+when 
+given IM, 
+15 min-6 
+hrs 
+(HIGH 
+variabilit
+y) 
+ Drowsiness 
+ Respiratory depression ESPECIALLY 
+when used with any narcotic 
+ Nausea/vomiting 
+ 
+ 
+ 
+ 
+Acetaminophen/Hydrocodone 
+(Norco) 
+ For moderate-severe pain 
+ Comes in multiple strengths of 
+hydrocodone - 5/7. 5. 10 mg 
+ 1-2 tabs PO every 4-6 hours 
+PRN for 5mg hydrocodone 
+strength 
+10-20 
+minutes 
+3-4 hours  Drowsiness 
+ Respiratory depression 
+ Sedation 
+ Nausea/vomiting 
+ Itching 
+Note: contains acetaminophen. Be 
+aware of total dose when given with 
+other drugs that contain 
+acetaminophen 
+ 
+ 
+ 
+ 
+Acetaminophen/Oxycodone 
+(Percocet) 
+ For moderate-severe pain 
+ Comes in multiple strengths of 
+oxycodone - 5/7. 5/10 mg 
+ 1-2 tabs PO every 4-6 hours 
+PRN for 5mg oxycodone dose 
+10-20 
+minutes 
+3-4 hours  Drowsiness 
+ Respiratory depression 
+ Sedation 
+ Nausea/vomiting 
+ Itching 
+Note: contains acetaminophen. Be 
+aware of total dose when given with 
+other drugs that contain 
+acetaminophen 
+ 
+ 
+ 
+ 
+Hydromorphone (Dilaudid) 
+ For severe pain 
+ 1-2 mg IM 
+ 0. 5 - 1 mg IV 
+15-20 mins 
+when given 
+IM, 2 mins 
+when given 
+IV 
+3-4 hours  Drowsiness 
+ Respiratory depression 
+ Sedation 
+ Nausea/vomiting 
+ Itching 
+ 
+ 
+ 
+ 
+Morphine 
+ For severe pain 
+ 5-10 mg IM 
+15-20 mins 
+when given 
+IM, 2-5 
+3-4 hours  Drowsiness 
+ Respiratory depression 
+ Sedation 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+36 
+PCC Role-based Guideline for Pain Management (Analgesia and Sedation) 
+ 2 - 4 mg IV 
+mins when 
+given IV 
+ Nausea/vomiting 
+ Itching 
+ 
+ 
+ 
+ 
+Tramadol (Ultram) 
+ For moderate-severe pain 
+ 1-2 tabs PO every 4-6 hours 
+PRN (DO NOT exceed 400 mg 
+tramadol/day) 
+10-20 
+minutes 
+4-6 hours  Drowsiness 
+ Respiratory depression 
+ Sedation 
+ Nausea/vomiting 
+ CNS stimulation including seizures 
+at high doses 
+ Note: Some preparations (i.e., 
+Ultram) contain acetaminophen. 
+Be aware of total dose when given 
+with other drugs that contain 
+acetaminophen. 
+ 
+ 
+ 
+ 
+Codeine/acetaminophen 
+ For moderate-severe pain 
+ 1-2 tabs PO every 4-6 hours 
+PRN (for tabs with 15mg 
+Codeine) 
+30 minutes 
+- 1 hour 
+4-6 hours  Drowsiness 
+ Respiratory depression 
+ Sedation 
+ Nausea/vomiting 
+ Itching 
+ Note: Contains acetaminophen. Be 
+aware of total dose when given 
+with other drugs that contain 
+acetaminophen. 
+ 
+ 
+ 
+ 
+ In some cases, local anesthetics or even limited regional anesthesia is the best option for pain 
+control (For more information, see Military Analgesia Regional Anesthesia Guidelines.) 
+ While side effects are real and toxic levels of these drugs must be understood and avoided, the 
+benefit can often be achieved without sedation when appropriate for the tactical environment. 
+ 
+ 
+ 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+37 
+Special Considerations 
+Patient Monitoring During Sedation 
+Patients receiving analgesia and sedation require close monitoring for life-threatening side-effects of 
+medications. 
+ Minimum: Blood pressure cuff, stethoscope, pulse oximeter; document vital signs trends. 
+ Better: Capnography in addition to minimum requirements 
+ Best: Portable monitor providing continuous vital signs display and capnography; document vital 
+signs trends frequently. 
+Analgesia and Sedation for Expectant Care (i.e. End-of-Life Care) 
+An unfortunate reality of our profession, both military and medical, is that we encounter clinical 
+scenarios that will inevitably end in a patient’s death. In these situations, it is a healthcare provider’s 
+obligation to give palliative therapy to minimize the person’s suffering. In these circumstances, the use 
+of opioid analgesics and sedative medications is therapeutic and indicated, even if these medications 
+worsen a patient’s vital signs (i.e., cause respiratory depression and/or hypotension). If a patient is 
+expectant: 
+ Teleconsultation 
+ Prepare to: 
+ 
+Give opioid until the patient’s pain is relieved. If the patient is unable to communicate their 
+pain, give opioid medication until the respiratory rate is less than 20/min. 
+ 
+If the patient complains of feeling anxious (i.e., is worrying about the future but not 
+complaining of pain) or he cannot express himself but is agitated despite having a 
+respiratory rate less than 20/min, give a benzodiazepine until the anxiety is relieved or the 
+patient is sedated (i.e., is not feeling anxious or is no longer agitated). 
+ Position the patient as comfortably as possible. Pad pressure points. 
+ Provide anything that gives the patient comfort (e.g., water, food, cigarette). 
+ Under no circumstances should paralytics be used without analgesia/sedation 
+*Link to Analgesia and Sedation Management in Prolonged Field Care, 11 May 2017 CPG 15 
+*Link to Pain, Anxiety and Delirium, 26 April 2021 CPG 16 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+38 
+ANTIBIOTICS, SEPSIS, AND OTHER DRUGS - PCC 
+Background 
+Complete Basic TCCC Management Plan for Antibiotics then: 
+Antibiotics should be given immediately after injury or as soon as possible after the management of 
+MARCH and Pain Management and appropriately documented (medication administered, dose, route 
+and time). 
+Confirm that initial TCCC dose of moxifloxacin (Avelox®) or Ertapenem (Invanz®) have already been given 
+for any penetrating trauma. If available, administer tetanus toxoid IM as soon as possible. 
+Antibiotics should be given daily for seven to 10 days, depending on the type of antibiotic given (see 
+below tables for antibiotics). When able/available, transition IV/IO antibiotics to PO as soon as possible 
+to conserve supplies and equipment. 
+Table 11. TCCC Antibiotics 
+TCCC Antibiotics 
+Moxifloxacin (Avelox®) 
+Administer 400mg PO daily for 10 days 
+Ertapenem (Invanz®) 
+Administer 1g daily IV/IO/IM for 10 days 
+IV/IO to PO transition 
+When transitioning from Ertapenem to Moxifloxacin, begin Moxifloxacin 
+immediately after the final dose of Ertapenem for antibiotic overlap 
+ 
+Table 12. Alternative Antibiotics 
+(used if supplies of TCCC antibiotics are limited, or as directed by medical control) 
+Alternate Antibiotics 
+ 
+Good 
+Better 
+Best 
+Soft Tissue Injury 
+Cefalexin PO or 
+Bactrim DS PO 
+Topical: Bacitracin 
+Cefazolin IM/IV/IO 
+ 
+Moxifloxacin PO or 
+Ertapenem IV/IO 
+Topical: Mupriocin 
+Suspected MRSA 
+Topical: Mupirocin 
+Ertapenem IV/IO 
+Moxifloxacin PO or 
+Ertapenem IV/IO + 
+Vancomycin 
+Open Fx (I/II) 
+Beta-lactam Allergy: 
+Clindamycin IV/IO 
+Cefazolin IV/IO 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Open Fx (III) no 
+contamination 
+Beta-lactam Allergy: 
+Clindamycin IV/IO + 
+Levofloxacin IV/IO 
+Ceftriaxone IV/IO 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Open Fx (III) soil or fecal 
+contamination 
+Beta-lactam Allergy: 
+Levofloxacin IV/IO + 
+Metronidazole IV/IO 
+Ceftriaxone IV/IO + 
+Metronidazole IV/IO 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Penetrating Head Injury 
+Ceftriaxone IV/IO + 
+Metronidazole IV/IO 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Penetrating Chest Injury 
+ 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Penetrating Abdominal 
+Injury 
+ 
+Ceftriaxone IV/IO + 
+Metronidazole IV/IO 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+39 
+Alternate Antibiotics 
+Burns (only when sepsis 
+is suspected) 
+ 
+ 
+Ertapenem IV/IO or 
+Moxifloxacin PO 
+Eye Injuries 
+Erythromycin 
+ointment/drops 
+Ciprofloxacin drops (or if 
+penicillin allergy) 
+Moxifloxacin PO or 
+Ertapenem IV/IO 
+Dental Injuries 
+Pen-VK or Augmentin PO 
+Clindamycin PO (or IV/IO) or 
+if penicillin allergy 
+Moxifloxacin PO or 
+Ertapenem IV/IO 
+Sepsis Management 
+ Blunt or penetrating injuries may cause sepsis in untreated or undertreated patients 
+ Early recognition of impending sepsis and immediate treatment are imperative to improve 
+changes of survival 
+ Maintain a high degree of suspicion for signs of early and/or progressing sepsis while performing 
+continuous triage 
+ Sepsis is defined as suspected or proven infection plus evidence of end organ dysfunction. 
+ The National Early Warning Score (NEWS)17 is an aggregate scoring system indicating early 
+physiologic derangements: 
+Table 13. Physiologic Parameters and NEWS Score 
+Physiologic Parameters 
+3 
+2 
+1 
+0 
+1 
+2 
+3 
+Respiratory Rate 
+≤8 
+ 
+9-11 
+12-20 
+ 
+21-34 
+≥25 
+Oxygen Saturation 
+≤91 
+92-93 
+94-95 
+≥96 
+ 
+ 
+ 
+Temperature 
+≤35. 0 
+ 
+35. 1-36. 0 
+36. 1-38. 0 
+38. 1-39. 0 
+≥39. 1 
+ 
+Systolic BP 
+≤90 
+91-100 
+101-110 
+111-219 
+ 
+ 
+ 
+Heart Rate 
+≤40 
+ 
+41-50 
+51-90 
+91-110 
+111-130 
+≥131 
+Level of Consciousness 
+ 
+ 
+ 
+A 
+ 
+ 
+V,P,U 
+ 
+ For the purposes of this guideline, a NEWS score of >2 is used to increase the sensitivity for 
+detection of and evaluation for sepsis. 
+ Early teleconsultations should be used for any signs of sepsis 
+ Additional parenteral antibiotics may be required to treat sepsis as well as vasopressors. 
+ All use of pressers should be administered by role-based approved protocols or teleconsultation 
+approval. 
+NOTE: Surgical telemedicine consultation is highly recommended to guide management of intraabdominal infections (i.e. appendicitis, cholecystitis, diverticulitis, abdominal abscess). 
+ 
+ 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+40 
+Sepsis Treatment 
+Table 14. Sepsis Treatments/Interventions 
+Intervention 
+Paradigm 
+Antimicrobial 
+Therapy 
+ Minimum - Moxifloxacin 400 mg PO daily 
+ Better - Ertapenem 1 gram IV/IO every 24 hours OR ceftriaxone 2 grams IV/IO every 24 hrs 
+ Best - ceftriaxone 2 grams IV/IO every 24 hrs., PLUS vancomycin 1. 5 mg/kg IV/IO every 12 
+hours, PLUS metronidazole 500 mg IV/PO/IO every 8 hours 
+Antiparasitic 
+Regimens 
+ Minimum - Atovaquone/progauanil (Malarone) 4x3 regimen - 4 tablets PO daily for 3 days 
+ Better/Best - Artemether/lumefantrine (Coartem) 4 tablets PO initially, then 4 tablets 
+after 8 hours, then 4 tablets PO twice daily for 2 more days (24 tablets total) 
+Antifungal 
+Regimens 
+ Minimum/Better/Best - Fluconazole 400 mg PO/IV daily 
+Fluid 
+Resuscitation 
+ Minimum - In the absence of IV/IO capability, have the patient drink water 
+ If available, include electrolyte oral rehydration solution, especially for patients who 
+cannot consume food 
+ Better - IV/IO crystalloids: 
+ Initial rapid infusion of 30 ml/kg should be given upon identification of sepsis 
+ LR or NS to maintain SBP > 90mmHg or MAP ≥ 65 mmHg 
+ If plasma is being given that volume can count toward the 30 ml/kg goal 
+ Best - The same fluid resuscitation strategy as above with the addition of a urinary 
+catheter for more precise measuring of UOP 
+Vasopressors 
+ After fluid resuscitation, if there is no observed positive change in SBP, MAP, UOP and/or 
+mental status, vasopressor medications should be given 
+ All use of pressers should be administered by role-based approved protocols or 
+teleconsultation approval 
+ First-line - norepinephrine infusion 
+ Second-line - epinephrine infusion 
+ Refer to Drip table below for preparation, starting dose, and drip rates 
+Additional 
+Medications 
+ Consider hydrocortisone or dexamethasone administration for possible adrenal 
+insufficiency if there is a poor response to vasopressor initiation/titration 
+ 
+Administer antipyretics (acetaminophen, if available. Non-steroidal anti-inflammatory 
+drugs [NSAIDs] should be avoided as they may impair renal function) 
+Table 15. Epinephrine 1:10,000 (Adrenaline) or Norepinephrine (Levophed) Drip 
+0. 9% NaCl IVF 
+Bag Size 
+Add to bag: EPI (or 
+NOREPI): 1:10,000 (0. 1 
+mg or 100mcg)/mL 
+Starting Dose 
+(mcg/min) 
+DRIP SET:10gtts (Drops/mL) 
+DRIP RATE: 
+(Drops/min or gtts/min) 
+DRIP SET: 15gtts 
+(Drops/mL) 
+DRIP RATE: (Drops/min or 
+gtts/min) 
+50 mL 
+1mL (100mcg) 
+4 mcg/min 
+20 drops/min 
+30 drops/min 
+100 mL 
+2mL (200mcg) 
+4 mcg/min 
+20 drops/min 
+30 drops/min 
+250 mL 
+5mL (500mcg) 
+4 mcg/min 
+20 drops/min 
+30 drops/min 
+500 mL 
+10mL (1mg) 
+4 mcg/min 
+20 drops/min 
+30 drops/min 
+1000 mL (1L) 
+20mL (2mg)** 
+4 mcg/min 
+20 drops/min 
+30 drops/min 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+41 
+**This is the least recommended approach as it commits a high volume of epinephrine to a large bag. If 
+the patient’s vital signs (BP/MAP/HR) stabilize, the bag must be discontinued and the medic risks 
+wasting some of their resources – “you can mix a drug in an IV bag, but you can’t take it out.” 
+Ancillary Medications 
+During PCC, additional medications may be required during the extended treatment of casualties, in 
+addition to pain and antibiotic medications. These medications may have synergistic effects to further 
+reduce pain or fever. Some medications may be utilized to treat side-effects of medications, to include 
+nausea or other GI related issues. 
+Deep vein thrombosis (DVT) prophylaxis is also recommended for patients that are expected to be in a 
+PCC setting for greater than 48 hours that have achieved hemostasis from wounds or are not at risk for 
+further hemorrhage. 
+Table 16. Ancillary Medications 
+ 
+Minimum 
+Better 
+Best 
+Airway 
+Albuterol MDI 
+Suctioning: Sterile water or 
+0. 9% saline 
+Albuterol (Neb) 
+Albuterol (Neb) + 
+Atrovent (Neb) 
+*Antipyretic 
+Meloxicam 
+Acetaminophen PO/PR or 
+Ibuprofen 
+Acetaminophen IV/IO or 
+Ketoralac IM/IV/IO 
+Anxiety / Behavioral 
+See “Pain and Sedation” 
+DVT Prophylaxis 
+Aspirin PO 
+Heparin SQ 
+Lovenox SQ 
+Hydration (PO) 
+Water 
+Water + salt + sugar 
+Water + Gatorade (or other 
+oral rehydration salt) 
+Hydration (IV/IO) 
+0. 9% Saline or Lactated Ringers 
+Plasma-Lyte 
+ 
+Nausea / Vomiting 
+Alcohol Pad (inhale vapor) 
+Ondansetron PO or ODT 
+Promethazine 
+Ondansetron IV/IO or 
+Metoclopramide IV/IO 
+GI Medications 
+Ranitidine PO 
+Prilosec PO 
+Protonix IV/IO 
+H1/H2 Blockers IV/IO 
+GI - Constipation 
+Bisacodyl PO 
+Glycerin Suppository 
+Mirilax PO 
+Senna PO 
+Enema 
+Sleep 
+Melatonin PO 
+Diphenhydramine PO 
+Zolpidem PO 
+Temazepam PO 
+Other Medications: 
+ Oral Care (toothbrush/tooth paste and chapstick) 
+ Eye drops (intubated/sedated) 
+ Multi-Vitamins (PO daily) 
+ Animal Bites: Rabies Vaccine and Rabies Immunoglobulin 
+ HIV Prophylaxis (exposure from combat: civilians or enemy forces): PEP Guidance 
+ Regional Medications: Ensure continuing prophylaxis (malaria, etc) 
+ 
+*Antipyretic: Use caution with NSAIDs with urgent or priority patients. Ensure patient can void normally 
+(no impaired renal function). 
+*Link to Infection Prevention in Combat-related Injuries, 27 Jan 2021 CPG 18 
+*Link to Sepsis Management in Prolonged Field Care, 28 Oct 2020 CPG 19 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+42 
+WOUND CARE AND NURSING - PCC 
+Background 
+Nursing interventions may not appear important to the medical professionals caring for a patient, but 
+such interventions greatly reduce the possibility of complications such as DVT, pneumonia, pressure 
+sores, wound infection, and urinary tract infection; therefore, essential nursing and wound care should 
+be prioritized in the training environment. Critically ill and injured casualties are at high risk for 
+complications that can lead to adverse outcomes such as increased disability and death. Nursing care is 
+a core principle of PCC to reduce the risk of preventable complications and can be provided without 
+costly or burdensome equipment. 20 
+ Using a nursing care checklist assists with developing a schedule for performing appropriate 
+assessments and interventions. 
+ Cross training all team members on these interventions prior to deployment will lessen the 
+demand on the medic, especially when caring for more than one patient. 
+ Prolonged Casualty Care Flowsheets, Nursing Care Checklists, Nursing Care Plans, 
+Assessment/Intervention Packing List, and Recommended Nursing Skill Checklist for Clinical 
+Rotations are included as a PCC Guidelines Appendix. (Also located in JTS Nursing Intervention in 
+Prolonged Field Care CPG, 22 Jul 2018 18). 
+Pre-deployment, Mission Planning, and Training Considerations 
+ Hands-on experience is optimal; simulation is a reasonable substitute 
+ Practice with minimal technology so you are prepared when you lose access to electricity, water 
+ Regular monitoring, reassessment, and intervention is lifesaving but can be resource-intensive 
+ Utilize the Recommended Nursing Skill Checklist for Clinical Rotations included in Appendix B to 
+maximize training opportunities. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+43 
+Table 17. PCC Role-based Guidelines for Nursing Care and Wound Management 
+PCC Role-based Guidelines for Nursing Care and Wound Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+* All Personnel - Complete Basic TCCC Management Plan for Nursing/Wound Management then: 
+ Many “nursing” interventions are actually basic soldier skills that need to be performed on those 
+casualties who cannot perform them on themselves. 
+ Therefore, many traditional non-medical tasks are listed at the Tier 1 level since they can 
+essentially be performed by anyone, but the activity can be overseen by medical personnel. 
+ 
+ 
+ 
+ 
+Interventions 
+Frequency 
+Paradigm 
+ 
+ 
+ 
+ 
+Lip care 
+Every hour 
+ Minimum: Commercial lip balm 
+ Better: Moisturizing lotion 
+ Best: Petroleum jelly 
+ 
+ 
+ 
+ 
+Oral/Nasal 
+Care 
+24 hours 
+ Minimum: Rotate site around mouth/nares, as feasible. 
+ Better: Rotate site and suction. 
+ Best: Rotate and suction with commercial device. 
+ 
+ 
+ 
+ 
+Oral/Dental 
+Care 
+Every 12 
+hours 
+ Minimum: Brush with gauze, water and gloved finger 
+ Better: Brush with tooth brush with toothpaste. 
+ Best: Use tooth brush with Chlorhexidine rinse. 
+ 
+ 
+ 
+ 
+Cough/Deep 
+Breathing 
+Every hour 
+ Minimum: Encourage deep breathing/forced cough x 10. 
+ Better: Sit up. Encourage deep breathing/forced cough x 10. 
+ Best: Sit up, turn, and encourage deep breathing with incentive 
+spirometer/forced cough x 10. 
+ 
+ 
+ 
+ 
+Repositioning/ 
+Check Padding 
+Every 2 
+hours 
+ Minimum: Turn to opposite side, pad with clothing or textiles. 
+ Better: Turn to opposite side, pad with pillows or blankets. 
+ Best: Turn to opposite side, pad with pillows to all bony 
+prominences and between legs. 
+ 
+ 
+ 
+ 
+Splint Care 
+Every 2 
+hours 
+ Minimum: Use improvised splints (i.e. wood fence, plank). 
+ Better: Use commercial splinting device (e.g., SAM splint). 
+ Best: Use ortho-fiberglass splint with fluffing and elastic wrap. 
+ ** Re-check all pulses after splint placemen.t 
+ 
+ 
+ 
+ 
+Hypothermia 
+Prevention 
+Continuous 
+ Minimum: Wrap patient in dry clothes or blankets. 
+ Better: Wrap patient in commercially available hypothermia 
+prevention kit, using air-activated heating element. 
+ Best: As above, add use of warmed, forced air and infusion of 
+warmed fluids using commercially available devices. 
+ 
+ 
+ 
+ 
+Head Injury 
+Continuous 
+Elevate head of bed 30 degrees and then: 
+ Minimum: Lay patient against ruck sack/backpack 
+ Better: Pillows or blankets 
+ Best: NATO litter back rest 
+ 
+ 
+ 
+ 
+Non-medical 
+Interventions 
+Every hour 
+ Minimum: Distract the patient and perform guided imagery. 
+ Better: Splint wounds, pad boney prominences, provide ice 
+packs to injured/swollen areas (or, alternate with warm packs). 
+ Best: As above, combine both elements. 
+ 
+ 
+ 
+ 
+Psycho-social 
+Needs 
+Continuous 
+ Minimum: Speak in calm tone, addressing casualty concerns, to 
+reduce fear and anxiety. 
+ Better: Support with caring touch, listening to fears/concerns; 
+explain all procedures. 
+ Best: Institute rest/sleep cycle system to minimize delirium. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+44 
+ 
+ 
+ 
+ 
+Nutrition 
+Every 4-6 
+hours 
+ Minimum: If patient is alert, encourage oral food/water intake. 
+ Better: As above, use MRE protein powder mixed with water. 
+ Best: As above, use commercially available tube feeding 
+products or protein shakes. 
+ 
+ 
+ 
+ 
+Hygiene 
+Every 24 
+hours 
+ Minimum: Rinse face, armpits, and groin with warm water, soap, 
+and gauze roll. 
+ Better: As above, use baby wipes or wash cloth. 
+ Best: As above, use chlorhexidine-impregnated cleansing wipes. 
+ 
+ 
+ 
+ 
+Bowel 
+Management 
+As required 
+ Minimum: Cleanse soiled skin as described for bath; reapply 
+new dressings/hypothermia management as appropriate. 
+ Better: As above, add a cloth/linen/plastic barrier to protect 
+wounds/hypothermia management kit from future soiling. 
+ Best: As above, add barrier cream to skin for protection against 
+breakdown. 
+ 
+ 
+ 
+ 
+ Perform all recommended interventions from guidelines for above Tier level. 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Intervention 
+Frequency 
+Paradigm 
+ 
+ 
+ 
+ 
+IV/IO Site Care 
+ 
+ Minimum: Flush intravenous catheter every 12 hours; change 
+intravenous infusion tubing every 96 hours. 
+ Better: Flush intravenous catheter every 8 hours; change 
+intravenous infusion tubing every 72 hours. 
+ Best: Flush intravenous catheter every 4 hours. Change 
+intravenous infusion tubing every 48 hours. 
+ For IO: monitor the site closely for skin compromise (underneath 
+the hub of the IO); if possible, convert to an IV within 24 hours. 
+ 
+ 
+ 
+ 
+Wound 
+Irrigation 
+Every 24 
+hours 
+ Minimum: Irrigate wound with potable water (cooled before use 
+if boiled) poured across wound 
+ Better: As above, use 10cc syringe and 18-gauge angio-catheter. 
+ Best: As above, using sterile saline or sterile water or 
+appropriate antimicrobial cleaning solution (i.e. Dankins). 
+ 
+ 
+ 
+ 
+Dressing 
+Change 
+ 
+ Minimum: Reinforce dressings. 
+ Better: Replace when soiled. 
+ Best: Change every 24 hours. 
+ 
+ 
+ 
+ 
+ Ensure above nursing interventions are completed by non-medical TCCC ASM and CLS personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Intervention 
+Frequency 
+Paradigm 
+ 
+ 
+ 
+ 
+Suction 
+mouth/airway, 
+if indicated 
+As often as 
+required 
+ Minimum: Toomey syringe attached to thin tubing 
+ Better: Manual suction device 
+ Best: Powered suction device 
+ 
+ 
+ 
+ 
+Monitor 
+assisted 
+ventilation 
+Continuous: 
+every hour 
+ Minimum: Use bag-valve-mask ventilation. 
+ Better: Mechanical ventilator (without oxygen support), titrate 
+settings based on pulse oximetry. 
+ Best: Mechanical ventilator (with oxygen support). 
+ 
+ 
+ 
+ 
+IV Fluid 
+Calculation 
+ 
+ Minimum: Estimate fluid rate using infusion drip rate 
+calculation. 
+ Better: Use “dial-a-flow” technology to control rate of infusion. 
+ Best: Use commercial infusion pump. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+45 
+ 
+ 
+ 
+ 
+Deep Vein 
+Thrombosis 
+Prevention 
+**Pay attention 
+to any wounds to 
+the affected 
+limb** 
+Every 1-2 
+hours 
+ Minimum: Massage lower extremities 
+ Better: As above; add application of compression stockings or 
+elastic bandages to improve venous return. 
+ Best: As above; add application of commercial mechanical 
+compression stockings. 
+ 
+ 
+ 
+ 
+Head Injury 
+(Serial Neuro 
+Exams) 
+ 
+ Minimum: Assess pupillary response, GCS and level of 
+consciousness/orientation, every 8-12 hours; MACE Exam x 1. 
+ Better: Neuro exam (as above) every 4 hrs; MACE exam every 24 hrs. 
+ Best: Neuro exam (as above) every 1 hr, MACE exam every 24 hrs. 
+ 
+ 
+ 
+ 
+Hyperthermia 
+Prevention/ 
+Treatment 
+ 
+ Minimum: Expose skin to air. 
+ Better: Place cold, wet cloths to groin, neck, armpits (ice packs 
+may cause hypothermia). 
+ Best: Use of cooled, forced air and infusion of cooled fluids using 
+commercially available devices. 
+ 
+ 
+ 
+ 
+Administer 
+Antibiotics 
+ 
+ Minimum: Provide oral or intramuscular injection of antibiotics 
+per CPG. 
+ Better: Administer intravenous infusion of broad-spectrum 
+antibiotics, per CPG. 
+ Best: Administer wound- or mechanism-specific antibiotics via 
+intravenous infusion, as directed by provider oversight. 
+ 
+ 
+ 
+ 
+Pain Control 
+ 
+ Minimum: Intermittent dosing of analgesics, given: 
+oral/intramuscular/intravenous/subcutaneous 
+ Better: Continuous infusion of analgesics 
+ Best: Regional nerve blocks 
+ 
+ 
+ 
+ 
+ Ensure nursing interventions noted above are completed by non-medical TCCC ASM and CLS 
+personnel 
+ Conduct inventory of all resources 
+ Document all pertinent information on PCC Flowsheet (attached) 
+ Additional interventions include: 
+ 
+ 
+ 
+ 
+Intervention 
+Frequency 
+Paradigm 
+ 
+ 
+ 
+ 
+Suction 
+Advanced 
+Airway 
+Every 
+hour 
+ Minimum: Manual suction device or improvised suction device, such 
+as a 25cm length portion of IV tubing connected to a 60mL syringe 
+ Better: Open suction tube, suction machine 
+ Best: Closed inline suction tube, suction machine 
+ 
+ 
+ 
+ 
+Oro/nasogastric Tube 
+Management 
+ 
+ Minimum: Cleanse area and rotate position every 12 hours; 
+flush with water every 12 hours (check residuals prior) 
+ Better: As above, every 8 hours (check residuals prior) 
+ Best: As above, every 4 hours (check residuals prior) 
+ 
+ 
+ 
+ 
+Foley Care 
+24 hours 
+ Minimum: Cleanse around catheter insertion site as part of 
+bath, every 24 hours. 
+ Better: Cleanse around catheter insertion site using soap and 
+water, every 12 hours. 
+ Best: Cleanse around catheter insertion site using chlorhexidineimpregnated cleansing wipes, every 12 hours. 
+ 
+ 
+*Link to Nursing Intervention in Prolonged Field Care, 22 Jul 2018 CPG 20 
+*Link to Acute Traumatic Wound Care in the Prolonged Field Care Setting, 24 Jul 2017 CPG 21 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+46 
+SPLINTING AND FRACTURE MANAGEMENT - PCC 
+Table 18. Splinting and Fracture Treatment 
+Intervention 
+Paradigm 
+Litter Padding 
+ Minimum - Excess uniforms or other textiles 
+ Better - Blankets or military sleep pad 
+ Best - Blankets or military sleep pad 
+Splint Placement 
+ Minimum - Improvised splints (wood fence, metal plank, etc.) 
+ Better - Commercial splinting device (e.g., SAM splint) 
+ Best - Commercial splinting device (e.g., SAM splint) 
+ Re-check all pulses after splint placement 
+Pressure Injury 
+Prevention 
+ Examine skin, including nares and mouth, for changes and ensure splints are fitted 
+properly and pulses are present below splint. 
+ Monitor for allergic reactions to tape, developing erythema, excessive dryness, pressure 
+indenting the skin, cracking, or breakdown. 
+ Minimum - As described above, every 2 hours 
+ Better - As above, adding padding to elevate bony prominences off of ground/litter/bed 
+ Best - As above, adding commercial barrier creams and pressure injury dressings (e.g., 
+Mepilex) to bony prominences 
+Straps 
+ Patient secured for transport with padding/hypothermia considerations 
+ All patient care items secured for flight or seaboard transport 
+ Waterproof outer shell (HPMK) 
+ Packaged to resist heavy wind from rotor wash and wind 
+Litter Padding 
+ Minimum - Allow casualty to maintain airway 
+ Better - Facial burns may be associated with inhalation injury. Aggressively monitor 
+airway status and place the casualty in a recovery position IAW TCCC Guidelines 
+ Best - Given a trauma casualty who is unresponsive or has an airway obstruction, 
+perform a Head-Tilt Chin Lift or Jaw-thrust maneuver to open the airway IAW with TCCC 
+guidelines 
+ 
+Link to JTS Orthopaedic Trauma: Extremity Fractures CPG, 26 Feb 202022 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+47 
+BURN TREATMENT - PCC 
+Background 
+ Interrupt the burning process 
+ Address any life-threatening process based on MARCH assessment as directed by TCCC. 
+ A burned trauma casualty is a trauma casualty first 
+ All TCCC skills can be performed through burned tissue 
+Burn Characteristics 
+ Superficial burns (1st degree) appear red, do not blister, and blanch readily. 
+ Partial thickness burns (2nd degree) are moist and sensate, blister, and blanch. 
+ Full thickness burns (3rd degree) appear leathery, dry, non-blanching, are insensate, and often 
+contain thrombosed vessels 
+Table 19. PCC Role-Based Guidelines for Burn Management 
+ PCC Role-based Guidelines for Burn Management 
+T 
+C 
+C 
+C 
+- 
+A 
+S 
+M 
+T 
+C 
+C 
+C 
+- 
+C 
+L 
+S 
+T 
+C 
+C 
+C 
+- 
+C 
+M 
+C 
+T 
+C 
+C 
+C 
+- 
+C 
+P 
+P 
+ Perform primary and secondary surveys for any trauma patient. Acute injuries found in 
+the primary and secondary survey should be addressed as per standard trauma protocols 
+ Avoid becoming distracted by the appearance of burned tissues. 
+ 
+ 
+Intervention 
+Paradigm 
+ 
+ 
+Airway 
+(Roles 
+1a/1b/1c) 
+ Minimum - Allow casualty to maintain airway. 
+ Better - Facial burns may be associated with inhalation injury. 
+Aggressively monitor airway status and place the casualty in a recovery 
+position IAW TCCC Guidelines. 
+ Best - Given a trauma casualty who is unresponsive or has an airway 
+obstruction, perform a Head-Tilt Chin Lift or Jaw-thrust maneuver to 
+open the airway in accordance with TCCC guidelines. 
+ 
+ 
+Fluid 
+Resuscitation 
+(Roles 
+1a/1b/1c) 
+ Estimate body total surface area (TBSA) burned using the Rule of Nines 
+initially (DD Form 1380). 
+ Note - Superficial (First-degree burns) are NOT used in the TBSA 
+calculation. 
+ If burns >20% TBSA, fluid resuscitation should be initiated as soon as 
+IV/IO access is established. 
+ Minimum - Oral intake of water 
+ Better - Oral intake of electrolyte solution 
+ Best - Oral intake of electrolyte solution 
+ 
+ 
+Hypothermia 
+(Roles 
+1a/1b/1c) 
+ Hypothermia prevention is extremely important for burn patients. 
+ For Burns >20%, place the casualty in the Heat-Reflective Shell or 
+Blizzard Survival blanket for the Hypothermia Prevention Kit to both 
+cover the burned areas and prevent hypothermia. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+48 
+ 
+ 
+Pain Control 
+Analgesia in accordance with the PCC Guidelines may be administered 
+to treat burn pain. 
+ 
+ 
+Wounds 
+(Roles 1a/1b) 
+ Minimum - Cover with clean sheet or dry gauze. Leave blisters intact. 
+Avoid wet dressings. 
+ Better - Clean wounds by washing with any clean water (preferably with 
+antibacterial soap if available), dress wounds with any available 
+dressings; optimize wound and patient hygiene to the extent possible 
+given the environment. 
+ Best - Clean wounds by scrubbing gently with gauze and clean water, 
+followed by gauze dressing. 
+ 
+ 
+Wounds 
+(Role 1c) 
+ Best - Clean wounds by scrubbing gently with gauze and chlorhexidine 
+gluconate solution (if available) in clean water, followed by gauze 
+dressing. Repeat daily. 
+ Monitor vital signs. 
+ 
+ 
+ Ensure all interventions noted above are completed by TCCC ASM and CLS personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached). 
+ Additional interventions include: 
+ 
+ 
+Intervention 
+Paradigm 
+ 
+ 
+Airway 
+(Roles 
+1a/1b/1c) 
+ Minimum - Allow casualty to maintain airway. 
+ Better - Facial burns may be associated with inhalation injury. 
+Aggressively monitor airway status and consider early surgical airway for 
+respiratory distress or oxygen saturation and/or EtCO2 (purple-gold 
+colorimetric device). 
+ Best - Given a trauma casualty who is unresponsive or has an airway 
+obstruction, consider early surgical airway. 
+ 
+ 
+Fluid 
+Resuscitation 
+(Roles 
+1a/1b/1c) 
+ Minimum - Oral intake of water. Rectal infusion of up to 500mL/h can 
+be supplemented with oral hydration. 
+ Better - Oral intake of electrolyte solution. 
+ Best - Start intravenous (IV) or intraosseous (IO) administration 
+immediately. NOTE - an IV/IO can be placed through burned skin if 
+necessary. 
+ Use isotonic crystalloids (i.e. Lactated Ringers). 
+ DO NOT circumferentially tape lines around extremities; this may 
+further impede circulation and cause limb ischemia as extremities swell 
+during resuscitation. 
+ NO bolus (unless hypotensive, in which case, bolus only until palpable 
+pulses are restored). 
+ Initial IV rate 500mL/h; start while completing initial assessment 
+ Give fluids per TCCC burn treatment guidelines. 
+ If resuscitation is delayed, DO NOT try to “catch up” by giving extra 
+fluids. 
+ Blood products may be used in major burn resuscitation due to 
+coagulopathy, anemia, and bleeding from escharotomy sites or other 
+traumatic injuries. 
+ Maintain a UOP of 30-50mL/hr. in adults; decrease or increase isotonic 
+fluid rate by 20-25% per hour. 
+ If UOP > 50 mL/hr., then decrease the fluid rate by 20-25% for the next 
+hour and reassess. 
+ Minimize fluid administration while maintaining organ perfusion; hourto-hour fluid management is critical. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+49 
+ 8-12 hours post-burn, if the hourly IV fluid rate exceeds 1500mL/hr. or if 
+the projected 24- hour total fluid volume approaches 250 mL/kg consult 
+burn team or medical director. 
+ 24–48 hours post burn, plasma is lost into the burned and unburned 
+tissues, causing hypovolemic shock (when burn size is >20%). The goal of 
+burn-shock resuscitation is to replace these ongoing losses while 
+avoiding over-resuscitation. 
+ 48-72 hours post-burn, completion of the resuscitation is marked by 
+stabilizing hemodynamic parameters and reduction of IV fluid rate to a 
+maintenance level. 
+ 
+ 
+Hypothermia 
+(Roles 
+1a/1b/1c) 
+ Hypothermia prevention is extremely important for burn patients. 
+ For Burns >20%, place the casualty in the Heat-Reflective Shell or 
+Blizzard Survival blanket for the Hypothermia Prevention Kit to both 
+cover the burned areas and prevent hypothermia. 
+ Use Blood/Fluid Warmer as needed and if available. 
+ 
+ 
+ 
+Pain Control 
+(Roles 
+1a/1b/1c) 
+Analgesia in accordance with the PCC Guidelines may be administered to 
+treat burn pain. 
+ 
+ 
+ 
+Medications 
+(Roles 1a/1b) 
+ Prophylactic antibiotics (oral or IV) are not indicated for burn injury in 
+the absence of infection. 
+ Penetrating wounds or open fractures should be treated with antibiotics 
+according to current TCCC guidelines. 
+ 
+ 
+Medications 
+(Role 1c) 
+ After several days, if the patient develops cellulitis (spreading erythema 
+around edges of burn), treat for gram-positive organisms, (e.g., cefazolin 
+or clindamycin). 
+ If patient develops invasive burn wound infection (signs: sepsis/septic 
+shock, changes in color of wound, possible foul smell of wound), treat 
+with broad-spectrum antibiotics. 
+ 
+ 
+Wounds 
+(Role 1a) 
+ Minimum - Cover with clean sheet or dry gauze. Leave blisters intact. 
+Avoid wet dressings. 
+ Better - Clean wounds by washing with any clean water (preferably with 
+antibacterial soap if available), dress wounds with any available 
+dressings; optimize wound and patient hygiene to the extent possible 
+given the environment. 
+ Best - Clean wounds by scrubbing gently with gauze and clean water, 
+followed by gauze dressing. 
+ DO NOT debride blisters until the patient has reached a facility with 
+surgical capability. 
+ Every patient with facial burns should have a thorough eye exam. 
+Conduct an eye exam early, before edema begins. 
+ If a corneal injury is identified, use a rigid shield to cover the eyes and 
+apply ophthalmic erythromycin or neomycin ointment every 
+2 hours. 
+ 
+ 
+Wounds 
+(Roles 1b/1c) 
+ Better - Clean wounds and debride loose skin by washing with any clean 
+water (preferably with antibacterial soap if available), dress wounds 
+with any available dressings; optimize wound and patient hygiene to the 
+extent possible given the environment. 
+ Best - Clean wounds by scrubbing gently with gauze and chlorhexidine 
+gluconate solution (if available) in clean water, apply topical 
+antimicrobial cream followed by gauze dressing. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+50 
+ 
+ 
+Monitoring 
+ Monitor vital signs and urine output (UOP) closely. 
+ Minimum - Use other measures If unable to measure UOP, adjust IV 
+rate to maintain HR less than 140, palpable peripheral pulses, good 
+capillary refill, intact mental status. 
+ Better - Capture all spontaneously voided urine in premade or 
+improvised (i.e. Nalgene® water bottle) graduated cylinder; >180mL 
+every 6 hours is adequate for adults. 
+ Best - Measure UOP with Foley catheter (burns to the penis are NOT a 
+contraindication to catheter placement). 
+ 
+ 
+ 
+ Ensure all above interventions are completed by TCCC ASM, CLS and CMC personnel. 
+ Conduct inventory of all resources. 
+ Document all pertinent information on PCC Flowsheet (attached.) 
+ Additional interventions include: 
+ 
+ 
+ 
+Intervention 
+Paradigm 
+ 
+ 
+ 
+ 
+Airway 
+(Roles 
+1a/1b/1c) 
+ Minimum - Allow casualty to maintain airway. Edema after burn injury 
+causes most supraglottic airway devices such as LMAs to be inadequate. 
+ Better - Facial burns may be associated with inhalation injury. 
+Aggressively monitor airway status and consider early surgical airway for 
+respiratory distress or oxygen saturation and/or EtCO2 (purple-gold 
+colorimetric device). 
+ Best - Indications for endotracheal intubation include: a comatose 
+patient, symptomatic inhalation injury, deep facial burns, and burns 
+over 40% TBSA. 
+ Utilize an EMMA (or other Capnography) EtCO2 device if possible. 
+ Use a large-bore endotracheal tube if inhalation injury is suspected 
+(Size 8 ETT or larger is preferred for adults). 
+ Secure ETT with cotton umbilical ties (standard adhesive ETT holders 
+do not work around burned skin). 
+ Frequently reassess position of the ETT during the acute resuscitation 
+period as edema waves and wanes. 
+ 
+ 
+ 
+*Link to Burn Wound Management in Prolonged Field Care, 13 Jan 2017 CPG 23 
+Legend: 
+TCCC - ASM 
+TCCC-CLS 
+TCCC-CMC 
+TCCC-CPP 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+51 
+Special Considerations in Burn Injuries 
+Chemical Burns 
+NOTE: Refer to the JTS Inhalation Injury and Toxic Industrial Chemical Exposure CPG for additional 
+information. 
+ Expose body surfaces, brush off dry chemicals, and copiously irrigate with clean water. Large 
+volume (>20L) serial irrigations may be needed to thoroughly cleanse the skin of residual agents. 
+Do not attempt to neutralize any chemicals on the skin. 
+ Use personal protective equipment to minimize exposure of medical personnel to chemical 
+agents. 
+ White phosphorous fragments ignite when exposed to air. Clothing may contain white 
+phosphorous residue and should be removed. Fragments embedded in the skin and soft tissue 
+should be irrigated out if possible or kept covered with soaking wet saline dressings or 
+hydrogels. 
+ Seek early consultation from the USAISR Burn Center (DSN 312-429-2876 (BURN); Commercial 
+(210) 916-2876 or (210) 222-2876; email burntrauma.consult.army@mail.mil). 
+Electrical Burns 
+ TCCC ASM and CLS personnel should remove the patient from the electricity source while 
+avoiding injury themselves. 
+ For cardiac arrest due to arrhythmia after electrical injury, follow advanced cardiac life support 
+(ACLS) protocol and provide hemodynamic monitoring if spontaneous circulation returns. 
+ Small skin contact points (cutaneous burns) can hide extensive soft tissue damage. 
+ Observe the patient closely for clinical signs of compartment syndrome. 
+ Tissue that is obviously necrotic must be surgically debrided. 
+NOTE: Escharotomy, which relieves the tourniquet effect of circumferential burns, will not necessarily 
+relieve elevated muscle compartment pressure due to myonecrosis associated with electrical injury; 
+therefore, fasciotomy is usually required. 
+ Compartment syndrome and muscle injury may lead to rhabdomyolysis, causing pigmenturia 
+and renal injury. 
+ Pigmenturia typically presents as red-brown urine. In patients with pigmenturia, fluid 
+resuscitation requirements are much higher than those predicted for a similar-sized thermal 
+burn. 
+ Isotonic fluid infusion should be adjusted to maintain UOP 75-100 mL/hr. in adult patients with 
+pigmenturia. 
+ If the pigmenturia does not clear after several hours of resuscitation consider IV infusion of 
+mannitol, 12. 5 g per liter of lactated Ringer’s solution, and/or sodium bicarbonate (150 mEq/L in 
+D5W). These infusions may be given empirically; it is not necessary to monitor urinary pH. In 
+patients receiving mannitol (an osmotic diuretic), close monitoring of intravascular status via 
+CVP and other parameters is required. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+52 
+ Seek early consultation from the USAISR Burn Center (DSN 312-429-2876 (BURN); Commercial 
+(210) 916-2876 or (210) 222-2876; email burntrauma.consult.army@mail.mil). 
+Pediatric Burn Injuries 
+ Children with acute burns over 15% of the body surface usually require a calculated 
+resuscitation. 
+ Place a bladder catheter if available (size 6 Fr for infants and 8 Fr for most small children). 
+ The Modified Brooke formula (3 mL/kg/%TBSA LR or other isotonic fluid divided over 24 hours, 
+with one-half given during the first 8 hours) is a reasonable starting point. This only provides a 
+starting point for resuscitation, which must be adjusted based on UOP and other indicators of 
+organ perfusion. Goal UOP for children is 0. 5-1mL/kg/hr. 
+ Very young children do not have adequate glycogen stores to sustain themselves during 
+resuscitation. Administer a maintenance rate of D5LR to children weighing < 20 kg. Utilize the 42-1 rule: 4ml/kg for the first 10kg + 2ml/kg 2nd 10kg + 1ml/kg over 20kg. 
+ In children with burns > 30% TBSA, early administration may reduce overall resuscitation 
+volume. 
+ Monitor resuscitation in children, like adults, based on physical examination, input and output 
+measurements, and analysis of laboratory data. 
+ The well-resuscitated child should have alert sensorium, palpable pulses, and warm distal 
+extremities; urine should be glucose negative. 
+ Cellulitis is the most common infectious complication and usually presents within 5 days of 
+injury. Prophylactic antibiotics do not diminish this risk and should not be used unless other 
+injuries require antimicrobial coverage (penetrating injury or open fracture). 
+ Most antistreptococcal antibiotics such as penicillin are successful in eradicating infection. Initial 
+parenteral administration is advised for most children presenting with fever or systemic toxicity. 
+ Nutrition is critical for pediatric burn patients. Nasogastric feeding may be started immediately 
+at a low rate in hemodynamically stable patients and tolerance monitored. Start with a standard 
+pediatric enteral formula (i.e. Pediasure) targeting 30-35 kcal/kg/day and 2g/kg/day of protein. 
+ Children may rapidly develop tolerance to analgesics and sedatives; dose escalation is 
+commonly required. Ketamine and propofol are useful procedural adjuncts. 
+ When burned at a young age, many children will develop disabling contractures. These are often 
+very amenable to correction which may be performed in theater with adequate staff and 
+resources. 
+ Seek early consultation from the USAISR Burn Center (DSN 312-429-2876 (BURN); Commercial 
+(210) 916-2876 or (210) 222-2876; email burntrauma.consult.army@mail.mil). 
+ Opportunities for pediatric surgical care provided by Non-Governmental Organizations (NGOs) 
+may be the best option but require the coordinated efforts of the military, host nation, and 
+NGOs. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+53 
+Rule of Nines 
+On the DD Form 1380 the percentage of coverage on the casualty’s body will need to be documented. 
+The Rule of Nines will help with the estimation. The below figure shows the approximation for each area 
+of the body: 
+ Eleven areas each have 9% body surface area (head, upper extremities, front and backs of lower 
+extremities, and front and back of the torso having two 9% areas each). 
+ General guidelines are that the size of the palm of the hand represents approximately 1% of the 
+burned area. 
+ When estimating, it is easiest to round up to the nearest 10. 
+ If half of the front or rear area is burned, the area would be half of the area value. 
+ For example, if half of the front upper/lower extremity is burned, it would be half of 9%, or 
+4. 5%. If half of the front torso is burned, say either the upper or lower part of the front torso, 
+then it would be half of 18%, or 9%. 
+ Remember, the higher the percentage burned, the higher the chance for hypothermia. 
+ For children, the percentage of BSA is calculated differently due to the distinctive proportion of 
+major areas. 
+ 
+Figure 2. 
+Adult Rule of Nines 
+Figure 3. 
+Pediatric Rule of Nines 
+ 
+ 
+ 
+Link to Burn Wound Management in Prolonged Field Care, 13 January 2017 CPG 23 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+54 
+LOGISTICS - PCC 
+Background 
+Reducing the time to required medical or surgical interventions prevents death in potentially survivable 
+illness, injuries and wounds. When evacuation times are extended, en route care (ERC) capability must 
+be adequately expanded to mitigate the delay. In January 2010, the Joint Force Health Protection Joint 
+Patient Movement Report stated “the current success of the medical community is colored by the 
+valiant ability to overcome deficiencies through ‘just-in-time workarounds;’ many systemic shortfalls are 
+resolved and become transparent to patient outcomes. However, future operations may not tolerate 
+current deficiencies.” 24 
+ Patient packaging is highly dependent upon the transportation or evacuation platform that is 
+available 
+ If possible, rehearse patient packaging internally and with the external resources. 
+ Train with all possible assets, familiarizing them with standard operating procedures 
+ Ensure the patient is stable before initiating a critical patient transfer 
+Table 20. Logistics Interventions 
+Intervention 
+Paradigm 
+Prepare 
+Documentation 
+ Minimum - TCCC Card - DA1380 
+ Better - Prolonged Field Care Casualty Work Sheet 
+ Best - PCC Card with TCCC Card and any additional information, reference DA Form 4700 
+(SMOG 2021) for transport documentation standard. 
+Prepare Report 
+ Report should give highlights, expected course, and possible complications during 
+transport. 
+ The hand-off is the most dangerous time for the patient; it is as important as treatments 
+or medications. 
+ If it is rushed, things can easily be missed. 
+ Make sure you highlight non-obvious interventions and aspects of care (drugs given, 
+repeat doses, etc.). 
+ Minimum - Verbal report describing the patient from head to toe with interventions or a 
+SOAP note. 
+ Better - MIST (Mechanism, Interventions, Symptoms, Treatments) 
+ Best - MIST with appropriate SBAR (Situation, Background, Assessment, 
+Recommendations) and pertinent labs and other diagnostic information 
+Prepare 
+Medications 
+ Minimum - Prepare medication list with doses and time of next dose. 
+ Better - Above with additionally preparing next dose of medication for transport crew 
+appropriately labeled. 
+ Best - Above with fresh IV fluids if indicated and fresh bags of drip medications with 
+appropriate labeling and 72 hours of antibiotic for extended transports.. 
+Hypothermia 
+Management 
+ Minimum - Blankets 
+ Better - Sleep system and blankets. 
+ Best - HPMK with Ready Heat or Absorbent Patient Litter System (APLS). 
+ If possible, identify with tape the location of interventions or access points on top of 
+hypothermia management to allow transport teams quick identification of location. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+55 
+Intervention 
+Paradigm 
+Flight Stressor/ 
+Altitude 
+Management 
+ Minimum - Ear Protection and Eye Protection, if nothing available sunglasses and gauze 
+may be used, if patient is sedated and intubated eyes can be taped shut. 
+ Better - Ear Pro and Eye Pro and blankets in all bony areas, Ear Protection and Eye 
+Protection – foam ear plugs or actual hearing protection inserts, goggles. 
+ Best - Above with gastric tube (NG/OG) or chest tube for decompression, if indicated. 
+Depending on altitude/platform, consider bleeding air of out bags of fluid. 
+Secure 
+Interventions and 
+Equipment 
+ Minimum - Tape: 
+ Securely tape all interventions to include IVs, IOs, airway interventions, gastric tubes 
+and TQs). 
+ Oxygen tanks should be placed between the patients’ legs and the monitor should be 
+secured on the oxygen cylinder to prevent injury to the patient. 
+ Pumps should be secured to the litter. 
+ Better - Additional litter straps to secure equipment and extend the litter with back 
+support as indicated for vented patients to prevent VAP 
+ Best - Above. Use the Special Medical Emergency Evacuation Device (SMEED) to keep the 
+monitor and other transport equipment off patient. 
+Prepare Dressings 
+ AE and Other MEDEVAC assets do not routinely change dressings during transport; 
+therefore, ensure all dressings are changed, labeled, and secured before patient pick up. 
+ Minimum - Secure and reinforce dressings with tape, date, and time all dressings. 
+ Better - Change dressings within 24 hours of departure, secure as above. 
+ Best - Change and reinforce dressings within 4 hours of departure. Ensure additional Class 
+VIII is available for any unforeseen issues in flight. 
+ CAUTION - Circumferential/constricting dressings MUST be limited/monitored due to 
+swelling during prolonged aerial transport. 
+Secure the Patient 
+ Minimum - Litter with minimum of 2 litter straps. 
+ Better - Litter with padding (example: AE pad or Sleep Mat) with minimum of 3 litter 
+straps. 
+ Best - Litter with padding and flight approved litter headrest with minimum of 3 litter 
+straps. 
+ Additional litter straps can be used to secure patient or equipment. 
+Moving a Critical 
+Care Patient 
+ Minimum - Two-person litter carry to CASEVAC/MEDEVAC platform. 
+ Better - Three-person litter carry to CASEVAC/MEDEVAC platform. 
+ Best - Four-person litter carry to CASEVAC/MEDEVAC platform. 
+ 
+*Link to Interfacility Transport of Patients between Theater Medical Treatment Facilities, 24 Apr 2018 
+CPG 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+56 
+REFERENCES 
+1.
+TCCC Guidelines, 15 Dec 2021.https://deployedmedicine.com/market/31/content/40
+2.
+Kotwal RS, Howard JT, Orman JA, Tarpey BW, Bailey JA, Champion HR, Mabry RL, Holcomb JB, Gross 
+KR. The effect of a Golden Hour Policy on the morbidity and mortality of combat casualties. JAMA 
+Surg. 2016 Jan;151(1):15-24. https://jamanetwork.com/journals/jamasurgery/fullarticle/2446845 
+Accessed Nov 2021
+3.
+Kuckelman, J., Derickson, M., Long, W.B. et al. MASCAL Management from Baghdad to Boston: Top 
+Ten Lessons Learned from Modern Military and Civilian MASCAL Events. Curr Trauma Rep 4, 138–
+148 (2018). https://doi.org/10. 1007/s40719-018-0128-0
+4.
+Gurney JM, Spinella PC. Blood transfusion management in the severely bleeding military patient. 
+Curr Opin Anesthesiol. 2018;31: 207–214. https://journals.lww.com/coanesthesiology/Fulltext/2018/04000/Blood_transfusion_management_in_the_severely. 15.aspx 
+Accessed Nov 2021.
+5.
+JTS, Damage Control Resuscitation (DCR) in Prolonged Field Care, 01 Oct 2018 CPG.
+https://jts.amedd.army.mil/assets/docs/cpgs/Damage_Control_Resuscitation_PFC_01_Oct_2018_I 
+D73.pdf
+6.
+Eastridge BJ, Mabry RL, Sequin P, et al. Death on the battlefield (2001-2011): implications for the 
+future of combat casualty care. J Trauma Acute Care Surg. 2012;73(6 Suppl 5):S431-7.
+https://www.east.org/content/documents/MilitaryResources/b/TCCC%20Eastridge%20Death%20o 
+n%20the%20Battlefield%20J%20Trauma%202012.pdf Accessed Nov 2021.
+7.
+Hudson I, Blackburn MB, Mann-salinas EA, et al. Analysis of casualties that underwent airway 
+management before reaching Role 2 facilities in the Afghanistan conflict 2008-2014. Mil Med. 
+2020;185(Suppl 1):10-18. https://pubmed.ncbi.nlm.nih.gov/32074383/
+8.
+Blackburn MB, April MD, Brown DJ, et al. Prehospital airway procedures performed in trauma 
+patients by ground forces in Afghanistan. J Trauma Acute Care Surg 2018;85(1S Suppl 2):S154-S160. 
+https://journals.lww.com/jtrauma/Fulltext/2018/07002/Prehospital_airway_procedures_performe 
+d_in_trauma. 23.aspx Accessed Nov 2021.
+9.
+JTS, Airway Management in Prolonged Field Care, 01 May 2020 CPG
+https://jts.amedd.army.mil/assets/docs/cpgs/Airway_Management_in_Prolonged_Field_Care_01_ 
+May_2020_ID80.pdf
+10. JTS, Documentation in Prolonged Field Care, 13 Nov 2018 CPG
+https://jts.amedd.army.mil/assets/docs/cpgs/Documentation_Prolonged_Field_Care_13_Nov_201 
+8_ID72.pdf
+11. JTS, Documentation Requirements for Combat Casualty Care, 18 Sep 2020 CPG
+https://jts.amedd.army.mil/assets/docs/cpgs/Documentation_Requirements_for_Combat_Casualt 
+y_Care_18_Sep_2020_ID11.pdf
+12. JTS, Hypothermia Prevention, Monitoring, and Management, 18 Sep 2012 CPG
+https://jts.amedd.army.mil/assets/docs/cpgs/Hypothermia_Prevention_Monitoring_and_Manage 
+ment_20_Sep_2012_ID23.pdf
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+57 
+13. Marr AL, Coronado VG, eds. Central Nervous System Injury Surveillance. Data Submission 
+Standards-2002. Atlanta, GA: Centers for Disease Control and Prevention; 2004. 
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10. 1. 1. 194. 2694&rep=rep1&type=pdf 
+Accessed Nov 2021 
+14. JTS, Traumatic Brain Injury Management in Prolonged Field Care, 06 Dec 2017 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Traumatic_Brain_Injury_PFC_06_Dec_2017_ID63.pdf 
+15. JTS, Analgesia and Sedation Management During Prolonged Field Care, 11 May 2017 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Analgesia_and_Sedation_Management_during_Prolo
+nged_Field_Care_11_May_2017_ID61.pdf 
+16. JTS, Pain, Anxiety and Delirium, 26 Apr 2021 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Pain_Anxiety_Delirium_26_Apr_2021_ID29.pdf 
+17. Keep JW, Messmer AS, Sladden R et al. National Early Warning Score at Emergency Department 
+triage may allow earlier identification of patients with severe sepsis and septic shock: a 
+retrospective observational study. Emerg Med J 2016;33:37–41. 
+https://emj.bmj.com/content/33/1/37 Accessed 01 Dec 2021. 
+18. JTS, Infection Prevention in Combat-Related Injuries, 27 Jan 2021 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Infection_Prevention_in_Combatrelated_Injuries_27_Jan_2021_ID24.pdf 
+19. JTS, Sepsis Management in Prolonged Field Care, 28 Oct 2020 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Sepsis_Management_PFC_28_Oct_2020_ID83.pdf 
+20. JTS, Nursing Intervention in Prolonged Field Care, 22 Jul 2018 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Nursing_Intervention_Prolonged_Field_Care_22_Jul_
+2018_ID70.pdf 
+21. JTS, Acute Traumatic Wound Management in the Prolonged Field Care Setting, 24 Jul 2017 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Wound_Management_PFC_24_Jul_2017_ID62.pdf 
+22. JTS Orthopaedic Trauma: Extremity Fractures CPG, 26 Feb 2020 
+https://jts.amedd.army.mil/assets/docs/cpgs/Orthopaedic_Trauma_Extremity_Fractures_26_Feb_
+2020_ID56.pdf 
+23. JTS, Burn Wound Management in Prolonged Field Care, 13 Jan 2017 CPG 
+https://jts.amedd.army.mil/assets/docs/cpgs/Burn_Management_PFC_13_Jan_2017_ID57.pdf 
+24. Walrath, B. Searching for systems-based solutions to enhance readiness. Navy Medicine Live online 
+blog. 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+58 
+APPENDIX A: TCCC GUIDELINES 
+TCCC Guidelines 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://deployedmedicine.com/market/31/content/40
+APPENDIX B: AIRWAY RESOURCES 
+Nursing Care Checklist 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://prolongedfieldcare.org/wp-content/uploads/2018/05/PFC-Nursing-Care-Plan_.pdf 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+59 
+APPENDIX C: MASCAL RESOURCES 
+Triage Guiding Principles 
+ Priorities change based on time from injury 
+ Activities in first hour are CRITICAL 
+ Don’t waste time with formal triage tools 
+Just extricate/stop threat, stop external bleeding, clear airway 
+ Transfusion and ventilator support within the first hour identify a resource-intensive patient 
+ Damage control surgery has little impact after the first hour 
+Figure 4. 
+TRIAGE cheat cards START 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+START TRIAGE: Assess, Treat (use bystanders) 
+When you have a color: STOP – TAG – MOVE ON 
+M 
+I 
+N 
+O 
+R 
+Move walking wounded 
+D 
+E 
+C 
+E 
+A 
+S 
+E 
+D 
+ 
+No RESPIRATIONS after head tilt 
+ 
+I 
+M 
+M 
+E 
+D 
+I 
+A 
+T 
+E 
+Breathing but UNCONSCIOUS 
+Respirations over 30 
+Perfusion capillary refill > 2 or NO RADIAL PULSE 
+ Control bleeding 
+Mental Status: unable to follow simple commands 
+ 
+D 
+E 
+L 
+A 
+Y 
+E 
+D 
+Otherwise 
+ 
+Remember: 
+Respirations – 30 
+Perfusion – 2 
+Mental Status – Can Do 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+60 
+Table 21. Triage Assessment 
+Each Patient Triage Assessment Should Be Complete in Less Than 60 Seconds 
+Category 
+Examples 
+Category I: Immediate (red chemlite) 
+ 
+(Any MARCH issue) 
+ 
+Airway obstruction 
+ 
+Flail/open chest wound 
+ 
+Tension- Pneumothorax/hemothorax 
+ 
+Massive hemorrhage 
+ 
+20-70% Burns 
+ 
+Unstable Vital Signs 
+ 
+Severe TBI (unconscious alive Pt) 
+Category II: Delayed (green chemlite) 
+ 
+Open fractures w/PMS intact 
+ 
+Soft tissue injuries 
+ 
+Moderate TBI (stable vital signs) 
+ 
+Open abdominal wounds 
+*Category III: Minimal (no chemlite) 
+remain armed continue to engage 
+ 
+Minor abrasions, burns, sprains lacerations 
+ 
+Moderate/Mild anxiety 
+ 
+Fractures/dislocations w/PMS 
+ 
+Mild TBI 
+**Category IV: Expectant or Hero (blue 
+chemlite) 
+ 
+Massive head or spinal injury 
+ 
+Third degree burns > 70% BSA 
+ 
+Injuries incompatible with life 
+ 
+* In combat, it is assumed that minimals will continue to stay armed/engaged if no mental status altering pharmaceuticals 
+are given for pain. 
+**Expectant category is ONLY used in combat operations and/or when the requirements to adequately treat 
+these patients exceed the available resources. In peacetime, it is generally assumed that all patients have a 
+chance of survival. 
+Source: Special Operations Force Medic Handbooks (PJ, Ranger) 
+Triage Class 1 (MASCAL) 
+Adequate medics to treat critical patients and handle the rest 
+ Many casualties 
+ Threat controlled 
+ Resources not severely limited 
+ Medical personnel can arrive 
+ Evacuation possible 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+61 
+Table 22. Triage Class 1 Actions and Goals 
+<1 Hour After Injury 
+1 – 4 Hours After Injury 
+>4 Hours After Injury 
+Goals 
+Goals 
+Goals 
+ 
+Eliminate Threat 
+ 
+Establish CCP 
+ 
+Blood transfusion within 30 minutes 
+ 
+Evacuate to DCR/DCS within 1 hour 
+ 
+DCR/DCS as soon as possible 
+ 
+Use advanced resuscitation to 
+“extend the Golden Hour” 
+Evacuate 
+Actions 
+Actions 
+Actions 
+ 
+Stop external bleeding 
+ 
+Clear airway 
+ 
+Ensure ventilation 
+ 
+Formal triage 
+ 
+Transfuse 
+ 
+MARCH PAWS 
+ 
+Transfuse 
+Use prolonged care to 
+optimize outcomes 
+Triage Class 2 (MASCAL) 
+Unable to manage the number of critical patients 
+ Numerous casualties or MASCAL (i.e. < 100 Casualties) 
+ Threat has been controlled or partially controlled 
+ Resources are very limited 
+ Medical personnel can arrive (may be delayed > 1 hour) 
+ Evacuation is possible (may be delayed > 1 hour) 
+ 
+Table 23. Triage Class 2 Actions and Goals 
+<1 Hour After Injury 
+1 – 4 Hours After Injury 
+>4 Hours After Injury 
+Goals 
+Goals 
+Goals 
+ 
+Eliminate threat 
+ 
+Get medical personnel on scene 
+ 
+Begin evacuation of urgent but 
+survivable patients 
+ 
+Evacuate urgent and priority 
+patients 
+ 
+DCR/DCS as soon as possible 
+Evacuate remainder of patients 
+Actions 
+Actions 
+Actions 
+ 
+Stop external bleed 
+ 
+Clear airway 
+ 
+Reserve intubation/transfusion 
+ 
+CCP if able, otherwise get a 
+count 
+ 
+Formal triage 
+ 
+MARCH PAWS if able 
+ 
+Transfuse 
+ 
+Establish CCP 
+ 
+Utilize minimals/returns to 
+duty 
+ 
+Re-triage 
+ 
+Complete MARCH PAWS 
+ 
+Use prolonged care to 
+optimize outcomes 
+ 
+Wound/fracture management 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+62 
+Triage Class 3 (Ultra-MASCAL) 
+Absolutely overwhelming number of casualties 
+
+Ultra-MASCAL (i.e. >100, possibly thousands of casualties)
+
+Threat is ongoing
+
+Resources are severely limited
+
+Medical personnel unable to arrive in < 1 Hour
+
+Evacuation not possible in < 1 Hour
+Table 24. Triage Class 3 Actions and Goals 
+<1 Hour After Injury 
+1 – 4 hours After Injury 
+>4 Hours After Injury
+Goals 
+Goals 
+Goals 
+
+Respond to threat
+
+Self-aide, buddy care
+
+Separate ambulatory/
+non-ambulatory
+
+Eliminate threat
+
+Get medical personnel on scene
+
+Begin evacuation
+
+Evacuate
+
+Distribute patients
+Action 
+Action 
+Action 
+
+Stop external bleed
+
+Clear airway
+
+Reverse intubation/
+transfusion
+
+Get a count
+
+Stop external bleed
+
+Reserve intubation/transfusion
+
+Begin to establish CCPs
+
+Utilize minimals/return to Duty
+
+Formal triage
+
+Use prolonged care to optimize
+outcomes
+
+Wound/fracture management
+
+Utilize minimals/return to duty
+MASCAL/Austere Team Resuscitation Record 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://jts.amedd.army.mil/assets/docs/forms/MASCAL_Austere_Trauma_20_Jan_2020.pdf 
+Instructions: https://jts.amedd.army.mil/assets/docs/forms/MASCAL_Form_Instructions.pdf 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+63 
+Tactical Triage Protocol (algorithm) 
+Figure 5. 
+Tactical Triage Protocol 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+64 
+APPENDIX D: DOCUMENTATION RESOURCES 
+The following resources and associated links are included in this CPG as attachments. 
+ DD 1380 TCCC Card and accompanying POI TCCC After Action Report 
+ DD 3019 Resuscitation Record 
+ DA 4700 TACEVAC form 
+ Nursing care grid (See Appendix B.) 
+ Teleconsultation Script 
+ 
+DD 1380 TCCC Card 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://jts.amedd.army.mil/assets/docs/forms/DD_Form_1380_TCCC_Card_Jun_2014.pdf 
+ 
+DD 1380 - POI TCCC After Action Report 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://jts.amedd.army.mil/assets/docs/forms/POI_TCCC_AAR.pdf 
+ 
+DD 3019 Resuscitation Record 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://www.esd.whs.mil/Portals/54/Documents/DD/forms/dd/dd3019.pdf 
+ 
+DA 4700 TACEVAC Form 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://jts.amedd.army.mil/assets/docs/forms/DA4700_OP5_JTS_TACEVAC-AAR&PCR.pdf 
+Instructions: https://jts.amedd.army.mil/assets/docs/forms/DA4700_OP4_JTS_TACEVAC-AARPCR_Instruction_20141002.pdf 
+ 
+Prolonged Field Care Casualty Card v22. 1, 01 Dec 2020 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://prolongedfieldcare.org/2019/06/27/version-22-of-the-prolonged-field-care-card/ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+65 
+Virtual Critical Care Consultation Guide 
+Guide is to be used with the Prolonged Field Care Card. 
+1. Before calling, E-mail image of the casualty (wounds, environment, etc.), "capabilities" (back of page), & vital 
+signs trends to ___________________________ 
+2. If call not answered: a) call next number on PACE or call back in 5 – 10 min. 
+3. If unable to provide information due to operational security, state so. 
+ 
+P: 
+A: 
+C: 
+E: 
+ 
+This is ___________________________________ I am a (job/ position) _______________________________ 
+My best contact info is: ______________________________________________________________ 
+YOUR best contact info is (Consultant’s number): ___________________Alternate e-mail: ___________________ 
+*** PAUSE POINT to CONFIRM CONTACT INFO*** 
+I have a _____ year–old ______(sex) ___________ (active duty/foreign national/OGA,etc.), who has the following: 
+Mechanism of Injury or known diagnosis(es) O that occurred in (location) 
+The injury/start of care occurred hours ago. Anticipated evacuation time is (range) O 
+Injuries/Problems/Symptoms: O 
+O 
+O 
+Treatments: O 
+O 
+O 
+He/she is currently (circle) stable/ unstable, getting better/ getting worse/ getting worse rapidly 
+Known Medication Allergies/Past medical/Surgical history is: 
+O 
+I need help with (be specific if possible, i.e. “I need help reading this ECG,” or “I need help stabilizing this patient,” etc.) 
+O 
+Other Consultants have recommended: O 
+*** PAUSE POINT for Remote Consultant to ask clarification questions *** 
+VITALS (current & trend as of ): HR BP RR SpO2 ETCO2 
+Temp………. 
+UOP(ml/hr) 
+ 
+ 
+ over 
+ 
+ 
+ (# hours) Mental Status (GCS/ AVPU) O 
+EXAM: Neuro 
+ 
+ 
+ 
+ 
+ 
+Ext/ MSK O 
+Heart 
+ 
+ 
+ 
+ 
+ 
+ 
+Pulses O 
+Lungs 
+ 
+ 
+ 
+ 
+ 
+ 
+Skin/ Wounds O 
+Abd O 
+LABS: ABG: 
+ 
+ 
+ 
+Lactate: 
+ 
+Other: O 
+*** PAUSE POINT for Remote Consultant to ask clarification questions ** 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+66 
+Virtual Critical Care Consultation Guide – page 2 
+TO-DO/ FOLLOW-UP/TO-STOP 
+ 
+ 
+NOTES 
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+*** PAUSE POINT, for Medic/Local Caregiver to ask clarification questions/READBACK*** 
+Available “kit” (supplies, equipment, medications) !! IF POSSIBLE PHOTOGRAPH AND SEND VIA EMAIL BEFORE CALLING !! 
+IV access: 
+IV 
+Central line 
+IO (location) 
+Other:_____________________________________ 
+Monitor: 
+Propaq 
+Tempus 
+Foley 
+Graduated urinal 
+PulseOx only 
+Exam Only 
+ 
+ Other:________________________________________________________ 
+Commo: 
+Tempus i2i ID: _______________THIAB: 
+ 
+___ SAT# 
+___ Local 
+Cell#_____________ 
+Web VTC 
+Address_____________________________________________________________________ 
+Other (e.g. “FaceTime, VSee, Skype, 
+etc.):__________________________________________________ 
+IV Fluids: 
+Plasma-Lyte 
+LR 
+Normal Saline 
+ 
+3% saline
+ 
+Other:____________________ 
+Colloids: 
+Hetastarch 
+Albumin 
+ 
+Other:_________________________________________________ 
+Blood products: Whole blood 
+PRBC 
+ 
+Plasma 
+FDP 
+Platelets 
+ 
+Other:_____________ 
+Medications: 
+Antibiotics: name/route/dose_____________________________________________ 
+ 
+ 
+Morphine IV/ PO 
+ 
+Other opioid (name/ IV/ PO): 
+______________________________ 
+ 
+ 
+Fentanyl IV/ PO (pop) 
+ 
+Ketamine 
+ 
+ 
+Midazolam 
+ 
+ 
+Diazepam (IV/ PO) 
+ 
+ 
+TXA 
+ 
+ 
+ 
+Other(s): 
+______________________________________________ 
+Airway supplies: ETT 
+Cric kit 
+LMA 
+Ventilator 
+BVM 
+O2 
+Suction 
+Misc: O 
+Plans/Recommendations 
+PRIORITY 
+SYSTEM/PROBLEM 
+RECOMMENDATION 
+ 
+Neuro or problem #1 
+ 
+ 
+CV or problem #2 
+ 
+ 
+Pulm or problem #3 
+ 
+ 
+GI or problem #4 
+ 
+ 
+Renal or problem #5 
+ 
+ 
+Endocrine or problem #6 
+ 
+ 
+MSK/ Wound or problem #7 
+ 
+ 
+Tubes, lines, drains or problem #8 
+ 
+ 
+Prophylaxis/prevention or prob#9 
+ 
+ 
+Other 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+67 
+APPENDIX E: TBI RESOURCES 
+Neurological Examination 
+MENTAL STATUS 
+Level of Consciousness: Note whether the patient is: 
+ 
+Alert/responsive 
+ 
+Not alert but arouses to verbal stimulation 
+ 
+Not alert but responds to painful stimulation 
+ 
+Unresponsive 
+Orientation: Assess the patient’s ability to provide: 
+ 
+Name 
+ 
+Current location 
+ 
+Current date 
+ 
+Current situation (e.g., ask the patient what 
+happened to him/her) 
+Language: Note the fluency and appropriateness of the 
+patient’s response to questions. Note patient’s ability 
+to follow commands when assessing other functions 
+(e.g., smiling, grip strength, wiggling toes). Ask the 
+patient to name a simple object (e.g., thumb, glove, 
+watch). 
+Speech: Observe for evidence of slurred speech. 
+CRANIAL NERVES 
+All patients: 
+ 
+Assess the pupillary response to light. 
+ 
+Assess position of the eyes and note any 
+movements (e.g., midline, gaze deviated left or 
+right, nystagmus, eyes move together versus 
+uncoupled movements). 
+ 
+Noncomatose patient: 
+ 
+Test sensation to light touch on both sides of the 
+face. 
+ 
+Ask patient to smile and raise eyebrows, and 
+observe for symmetry. 
+ 
+Ask the patient to say “Ahhh” and directly observe 
+for symmetric palatal elevation. 
+ 
+Comatose patient: 
+ 
+Check corneal reflexes; stimulation should trigger 
+eyelid closure. 
+ 
+Observe for facial grimacing with painful stimuli. 
+ 
+Note symmetry and strength. 
+ 
+Directly stimulate the back of the throat and look 
+for a gag, tearing, and/or cough. 
+MOTOR 
+Tone: Note whether resting tone is increased (i.e. 
+spastic or rigid), normal, or decreased (flaccid). 
+Strength: Observe for spontaneous movement of 
+extremities and note any asymmetry of movement 
+(i.e. patient moves left side more than right side). 
+Lift arms and legs, and note whether the limbs fall 
+immediately, drift, or can be maintained against 
+gravity. Push and pull against the upper and lower 
+extremities and note any resistance given. Note any 
+differences in resistance provided between the left 
+and right sides. 
+(NOTE: it is often difficult to perform formal strength 
+testing in TBI patients. Unless the patient is awake 
+and cooperative, reliable strength testing is 
+difficult.) 
+Involuntary movements: Note any involuntary 
+movements (e.g., twitching, tremor, myoclonus) 
+involving the face, arms, legs, or trunk. 
+SENSORY 
+If patient is not responsive to voice, test central pain 
+and peripheral pain. 
+Central pain: Apply a sternal rub or supraorbital 
+pressure, and note the response (e.g., extensor 
+posturing, flexor posturing, localization). 
+Peripheral pain: Apply nail bed pressure or take 
+muscle between the fingers, compress, and rotate 
+the wrist (do not pinch the skin). Muscle in the 
+axillary region and inner thigh is recommended. 
+Apply similar stimulus to all four limbs and note the 
+response (e.g., extensor posturing, flexor posturing, 
+withdrawal, localization). 
+NOTE: In an awake and cooperative patient, testing 
+light touch is recommended. It is unnecessary to 
+apply painful stimuli to an awake and cooperative 
+patient. 
+GAIT 
+If the patient is able to walk, observe his/her casual 
+gait and note any instability, drift, sway, and so 
+forth. 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+68 
+Ultrasonic Assessment of Optic Nerve Sheath Diameter 
+If a patient is unconscious (i.e. does not follow commands or open eyes spontaneously), they may have 
+elevated ICP. There is no reliable test for elevated ICP available outside of a hospital; however, optic 
+nerve sheath diameter (ONSD) measurement is a rapid, safe, and easy-to-perform ultrasonographic 
+assessment that may help identify elevated ICP when more definitive monitoring devices are not 
+available. 
+ 
+The optic nerve sheath directly communicates with the intracranial subarachnoid space. Increased 
+ICP, therefore, displaces cerebrospinal fluid along this pathway. Normal ONSD is 4. 1–5. 9mm. 30 
+ 
+A 10–5-MHz linear ultrasound probe can be used to obtain ONSDs. ONSD is measured from one side 
+of the optic nerve sheath to the other at a distance of 3mm behind the eye immediately below the 
+sclera. 31 
+ 
+In general, ONSDs >5. 2mm should raise concern for clinically significant elevations in ICP in 
+unconscious TBI patients. 5,32 The ONSD can vary significantly in normal individuals, so one single 
+measurement may not be helpful; however, repeated measurements that detect gradual increases 
+in ONSD over time may be more useful than a single measurement. 
+ 
+ONSD changes rapidly when the ICP changes, so it can be measured frequently. 33 If ONSD is used, it 
+is best to check hourly along with the neurologic examination. 
+Technique 
+1. Check to make sure there is no eye injury. A penetrating injury to the eyeball is an absolute contraindication to 
+ultrasound because it puts pressure on the eye. 
+2. Ensure the head and neck are in a midline position. Gentle sedation and/or analgesia may be necessary to 
+obtain accurate measurements. 
+3. Ensure the eyelids are closed. 
+4. If available, place a thin, transparent film (e.g., Tegaderm; 3M, http://www. 3m.com) over the closed eyelids. 
+5. Apply a small amount of ultrasound gel to closed eyelid. 
+6. Place the 10(–5) MHz linear probe over the eyelid. The probe should be applied in a horizontal orientation 
+(Figure 1) with as little pressure as possible applied to the globe. 
+7. Manipulate the probe until the nerve and nerve sheath are visible at the bottom of screen. An example of a 
+proper ultrasonagraphic image of the optic nerve sheath can be seen in Figure 2. 
+8. Once the optic nerve sheath is visualized, freeze the image on the screen. 
+9. Using the device’s measuring tool, measure 3mm back from the optic disc and then obtain a second 
+measurement perpendicular to the first. The second measurement should cover the horizontal width of the 
+optic nerve sheath (Figure 2). An abnormal ONSD is shown in Figure 3. 
+10. Repeat the previous sequence in the opposite eye. Annotate both ONSDs on the PFC Casualty Card. 
+11. ONSDs should be obtained, when possible, at regular intervals to help assess changes in ICP, particularly when 
+the neurologic examination is poor and/or unreliable (i.e. with sedation). Serial measurements with 
+progressive diameter enlargement and/or asymmetry in ONSDs should be considered indicative of worsening 
+intracranial hypertension. 
+CAUTION: ONSD measurements are contraindicated in eye injuries. NEVER apply pressure to an injured eye. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+69 
+Figure 1. Appropriate placement 
+of the linear probe. 
+ 
+ 
+Ultrasound gel is placed over a closed eyelid 
+and the probe placed horizontally over the 
+eyelid, applying as little pressure to the 
+globe as possible. If available, Tegaderm or 
+other thin covering (e.g., Latex glove) should 
+be placed over a closed eyelid for further 
+protection. 
+Figure 2 An ultrasonographic view 
+of a normal eye and optic nerve sheath. 
+ 
+To measure ONSD, apply the ultrasound measuring 
+device to the optic disc and measure back 3mm 
+along the length of the optic nerve. A second, 
+perpendicular measurement is obtained at the 
+previously measured point that spans the horizontal 
+width of the optic nerve sheath. In this image, ONSD 
+was determined to be 5. 1mm, a normal value. 
+Figure 3. Ultrasound image of the right optic nerve 
+sheath of a 61-year-old man with a traumatic 
+subdural hematoma. 
+ 
+ 
+The optic nerve sheath measured 6. 8mm in 
+diameter. Elevated ICP was subsequently confirmed 
+(26mmHg) after the placement of an ICP bolt 
+monitor. 
+ 
+Spontaneous Venous Pulsations 
+ 
+Spontaneous venous pulsations (SVPs) are subtle, rhythmic variations 
+in retinal vein caliber on the optic disc and have an association with 
+ICP. 
+ 
+It is difficult to see SVPs without advanced equipment; however, if a 
+handheld ophthalmoscope is available, it is worth an attempt to 
+visualize the retinal veins. 
+ 
+Don’t worry if you cannot see SVPs; this may actually be normal. 
+However, if you do see them, it is very reassuring that ICP is 
+normal. 10 
+ 
+If SVPs are initially present and can no longer be seen on subsequent 
+examinations, the provider should be concerned for increasing ICP. 
+Technique 
+1. Gently lift the eyelid until the pupil is in view. 
+2. Using a handheld ophthalmoscope, the provider should maneuver 
+himself or herself to a position where the optic disc can be visualized. 
+3. Identify the retinal veins as they emerge from the optic disc. Retinal 
+veins are typically slightly larger and darker than retinal arteries. 
+Figure at right demonstrates the typical appearance of the retina. 
+4. Observe the retinal veins for pulsations. Note the presence or 
+absence of spontaneous venous pulsations 
+5. Repeat the step 1–4 sequence in the contralateral eye. 
+Figure 6. 
+Typical appearance of a 
+healthy retina. 
+ 
+The retinal vessels can be seen emerging from the optic 
+disc. Retinal veins can be identified by their slightly larger, 
+thicker size and darker color. Retinal arteries are small, 
+thin, and lighter in color than retinal veins. 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+70 
+Glasgow Coma Scale 
+TBI severity classification using the GCS score: 
+ Mild: 13–15 
+ Moderate: 9–12 
+ Severe: 3–8 
+ 
+Richmond Agitation Sedation Scale (RASS) 
+ 
+ 
+Eye Opening 
+Verbal Response 
+Motor Response 
+4 – Spontaneous 
+3 – To verbal command 
+2 – To painful stimuli 
+1 – No response 
+5 – Oriented 
+4 – Confused 
+3 – Inappropriate words 
+2 – Incomprehensible sounds 
+1 – No response 
+6 – Obeys commands 
+5 – Localizes to painful stimuli 
+4 – Withdraws from pain 
+3 – Flexion to pain 
+2 – Extension to pain 
+1 – No response 
+Score 
+Term 
+Description 
+ 
++4 
+Combative 
+Overtly combative, violent, immediate danger to staff. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Verbal 
+ Stimulation 
+ 
+ 
+ Physical 
+ Stimulation 
++3 
+Very Agitated 
+Pulls or removes tube(s) or catheter(s); aggressive. 
++2 
+Agitated 
+Frequent non-purposeful movement, fights ventilator. 
++1 
+Restless 
+Anxious but movements not aggressive vigorous. 
+ 0 
+Alert, Calm 
+ 
+-1 
+Drowsy 
+Not fully alert, but has sustained awakening (eyeopening/eye contact) to voice (>10 seconds). 
+-2 
+Light Sedation 
+Briefly awakens with eye contact to voice (<10 seconds). 
+-3 
+Moderate Sedation 
+Movement or eye opening to voice (but no eye contact). 
+-4 
+Deep Sedation 
+No response to voice, but movement or eye opening to 
+physical stimulation. 
+-5 
+Unarousable 
+No response to voice or physical stimulation. 
+Procedure for RASS Assessment 
+ 
+1. Observe patient: Patient is alert, restless, or agitated. 
+Score 0 to+4 
+2. If not alert, state patient’s name and say to open eyes and look at speaker 
+- Patient awakens with sustained eye opening and eye contact. 
+- Patient awakens with eye opening and eye contact, but not sustained. 
+- Patient has any movement in response to voice but no eye contact. 
+ 
+Score -1 
+Score -2 
+Score -3 
+3. When no response to verbal stimulation, physically stimulate patient by shaking 
+shoulder and/or rubbing sternum. 
+- Patient has any movement to physical stimulation. 
+- Patient has no response to any stimulation. 
+ 
+Score -4 
+Score -5 
+*Sessler CN, Gosnell M. Grap MJ, Brophy GT, O’Neal PV, Keane KA et al. The Richmond Agitation-Sedation Scale: validity and 
+reliability in adult intensive care patients. Am J Respir Crit Care Med 2002; 166:1338-1344. 
+*Ely EW, Truman B, Shintani A., Thomason JWW, Wheeler AP, Gordon S et al. Monitoring sedation status over time in ICU 
+patients: the reliability and validity of the Richmond Agitation Sedation Scale (RASS). JAMA 2003; 289:2983-2991. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+71 
+Signs and Symptoms of Elevated Intracranial Pressure 
+ 
+ GCS<8 and suspected TBI 
+ Rapid decline in mental status 
+ Fixed dilated pupils(s) 
+ Cushing’s triad hemodynamics (hypertension, bradycardia, altered respirations) 
+ Motor posturing (unilateral or bilateral) 
+ Penetrating brain injury and GCS <15 
+ Open skull fracture 
+ 
+Hypertonic Saline (HTS) Protocol (goal Na 140-165 meq/L) 
+ 3% HTS: 250-500 cc bolus, then 50 ml/hr infusion, rebolus as needed for clinical signs 
+ 7. 5% HTS: decrease above doses by 50% 
+ 23. 4%: dilute to 3% and use as above. If unable to dilute, can be given as 30 ml bolus and redose as needed. 
+ Central venous line (CVL) preferred for 3% (can be given initially via peripheral IV/IO) 
+ CVL REQUIRED for 7. 5% or higher concentration 
+ 
+Military Acute Concussion Evaluation 2 (MACE 2) Form, 2021 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://www.health.mil/Reference-Center/Publications/2020/07/30/Military-Acute-ConcussionEvaluation-MACE-2 
+ 
+MHS Progressive Return to Activity Following Acute Concussion/Mild TBI 
+Open the attachment on the side menu or open the below link to print or fill out electronically. 
+https://jts.amedd.army.mil/assets/docs/cpgs/Progressive_Return_to_Activity_Following_Acute_Concus
+sion_mTBI_Clinical_Recommendation_2021.pdf 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+72 
+APPENDIX F: LOGISTICS RESOURCES 
+Prolonged Field Care – Patient Packaging, 11 Aug 2021 
+Patient packaging is highly dependent upon the Casualty Evacuation (CASEVAC) / Medical Evacuation 
+(MEDEVAC) platform that is operationally available. If possible, rehearse patient packaging internally 
+and with the external resources. Train with MEDEVAC assets understand transporting teams’ standard 
+operating procedures in order to best prepare the patient for transport. (Example some teams want to 
+secure the patient and interventions themselves while others may be okay with a fully wrapped patient). 
+Ensure the patient is stable before initiating a critical patient transfer. For POI/unstable patients ensure 
+the appropriate transport team (MEDEVAC with en route critical care nurse or advanced provider). 
+Interfacility transfers should meet the following minimum: 
+1. Hemorrhage control 
+2. Resuscitation adequate (SBP 70-80 mmHg, MAP >60, or UOP >0. 5ml/kg/hr) 
+3. Initial post-op recovery as indicated 
+4. Stabilization of fractures 
+Prepare Documentation 
+ Good: TCCC Card - DA1380 
+ Better: Prolonged Field Care Casualty Work Sheet 
+ Best: PFC Card with TCCC Card and any additional information, reference DA Form 4700 (SMOG 
+2021) for transport documentation standard 
+*preference: secure to patient strip of 3in Tape with medications administered attached to blanket or 
+HPMK 
+Prepare Report 
+Report should give highlights, expected course, and possible complications during transport. The handoff is the most dangerous time for the patient it is as important as treatments or medications. If it is 
+rushed things can easily be missed. 
+ Good: Verbal report describing the patient from head to toe with a SOAP note. 
+ Best: MIST (Mechanism, Interventions, Symptoms, Treatments) 
+ Better: MIST with appropriate SBAR (Situation, Background, Assessment, Recommendations) 
+and pertinent labs and other diagnostic information 
+Prepare Medications 
+ Good: Prepare medication list with doses and time of next dose 
+ Better: Above with additionally preparing next dose of medication for transport crew 
+appropriately labeled. 
+ Best: Above with fresh IV fluids if indicated and fresh bags of drip medications with appropriate 
+labeling and 72 hours of antibiotic for extended transports. 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+73 
+Hypothermia Management 
+ Good: Blankets 
+ Better: Sleep system and blankets 
+ Best: HPMK with Ready Heat or Absorbent Patient Litter System (APLS) 
+Flight Stressor/ Altitude Management 
+ Good: Ear Protection and Eye Protection, if nothing available sunglasses and gauze may be used, 
+if patient is sedated and intubated eyes can be taped shut 
+ Better: Ear Pro and Eye Pro and blankets in all bony areas, Ear Protection and Eye Protection – 
+foamies or actual hearing protection inserts, goggles 
+ Best: Above with gastric tube (NG/OG) or chest tube for decompression, if indicated. Depending 
+on altitude/platform, consider bleeding air of out bags of fluid. 
+Secure Interventions and Equipment 
+ Good: Tape (securely tape all interventions to include IVs, IOs, Airway interventions, Gastric 
+Tubes and TQs). Oxygen tanks should be placed between the patients legs and the monitor 
+should be secured on the oxygen cylinder to prevent injury to the patient. Pumps should be 
+secured to the litter 
+ Better: Additional litter straps to secure equipment and extend the litter with back support as 
+indicated for vented patients to prevent VAP. 
+ Best: Above and use the SMEED to keep the monitor and other transport equipment off patient 
+*if possible, identify with tape the location of interventions or access points on top of hypothermia 
+management to allow transport teams quick identification of location. 
+Prepare Dressings 
+Air Evacuation and other MEDEVAC assets do not routinely change dressings during transport; 
+therefore, ensure all dressings are changed, labeled, and secured before patient pick up 
+ Good: Secure and reinforce dressings with tape, date, and time all dressings. 
+ Better: Change dressings within 24 hours of departure, secure as above. 
+ Best: Change and reinforce dressings within 4 hours of departure. Ensure additional Class VIII is 
+available for any unforeseen issues in flight. 
+Secure the Patient 
+ Good: Litter with minimum of 2 litter straps 
+ Better: Litter with padding (example: AE pad or Sleep Mat) with minimum of 3 litter straps 
+ Best: Litter with padding and flight approved litter headrest with minimum of 3 litter straps 
+(additional litter straps can be used to secure patient or equipment) 
+ 
+ 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+74 
+Moving a Critical Care Patient 
+ Good: Two person little carry to CASEVAC/MEDEVAC platform 
+ Better: Three person little carry on a rickshaw to CASEVAC/MEDEVAC platform 
+ Best: Four person little carry on a rickshaw to CASEVAC/MEDEVAC platform 
+Prolonged Casualty Care Patient Packaging Flowchart 
+Equipment: 
+ 
+Litter with at least three litter straps 
+ 
+Three channel IV pump (airworthy) 
+ 
+Cardiac monitor and cables 
+ 
+Suction Device 
+Possible Complications: 
+ 
+Inadequate medications 
+ 
+Injuries not addressed before transport 
+ 
+Inexperienced provider on flight 
+ 
+Equipment issues 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Patient is a critical care transfer 
+Patient in 
+critical 
+condition? 
+NO 
+YES 
+Patient on 
+vasopressors? 
+Patient have 
+head injury? 
+Prevent hyperthermia with an 
+HPMK/blizzard wrap 
+Ensure the patient meets 
+MEDEVAC transfer criteria. 
+Consider transferring the 
+patient with an en route 
+critical care nurse or 
+advanced provider. 
+When appropriate, return to Tactical Evaluation Guideline 
+Arrange CASEVAC/MEDEVAC 
+Consider taking a triple channel 
+pump (airworthy). 
+Consider elevating the HOB on 
+the litter with a back support 
+Ensure the patient transport 
+team has a triple channel 
+pump (airworthy) with a 
+backup pump. 
+YES 
+YES 
+NO 
+Prevent hyperthermia with an 
+HPMK/blizzard wrap 
+Rapid transfer to nearest MTF 
+NO 
+Prolonged Casualty Care Guidelines 
+CPG ID: 91 
+Guideline Only/Not a Substitute for Clinical Judgment 
+75 
+Pearls: 
+ Document all times – TCCC Card or DA4700. 
+ Assist Ensure the patient is stable before initiating a critical patient transfer. 
+ POI/unstable patients ensure the appropriate transport team (MEDEVAC W/ECCN or Advanced 
+provider) 
+ Interfacility transfers should meet the following minimum: 
+ 
+Hemorrhage control 
+ 
+Resuscitation adequate (SBP 70-80 mmHg, MAP >60, or UOP >0. 5ml/kg/hr) 
+ 
+Initial post-op recovery as indicated 
+ 
+Stabilization of fractures 

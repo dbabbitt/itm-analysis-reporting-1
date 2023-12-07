@@ -1,0 +1,1890 @@
+477
+Tactical Medicine
+Chapter 33
+TACTICAL MEDICINE
+LANNY F. LITTLEJOHN, MD,* and BRENDON G. DREW, DO†
+INTRODUCTION
+BACKGROUND
+Tactical Environment
+History of Combat Death Statistics
+Wounding Patterns 
+TACTICAL COMBAT CASUALTY CARE OVERVIEW
+Origins
+Definitive Proof of Effectiveness
+Phases of Care
+Contrast to Civilian Prehospital Care
+HEMORRHAGE CONTROL
+Tourniquets
+Hemostatic Dressings
+Junctional Hemorrhage
+AIRWAY MANAGEMENT
+CHEST TRAUMA
+DAMAGE CONTROL RESUSCITATION
+Fresh Whole Blood
+Stored Constituents of Blood
+Artificial Colloids
+Crystalloids
+Best Strategies for Fluid Resuscitation
+Emerging Adjuncts to Damage Control Resuscitation
+MEDICATIONS
+Tranexamic Acid
+Pain Control
+Antibiotics
+CASE REVIEW
+CONCLUSION
+*Commander, Medical Corps, US Navy; Command Surgeon, Naval Special Warfare Development Group, Dam Neck, Virginia Beach, Virginia
+†Commander, Medical Corps, US Navy; Chairman of Emergency Medicine, Naval Medical Center San Diego, San Diego, California
+478
+Fundamentals of Military Medicine
+INTRODUCTION 
+Medical practice in a limited-resource operational 
+environment frequently differs from “standard” 
+practice in a fully resourced hospital in the United 
+States. Battlefield trauma care is based partly on 
+standard US guidelines, such as the Advanced 
+Trauma Life Support (ATLS) course, but also with an 
+eye toward the unique considerations of a forward 
+deployed environment. This chapter will highlight 
+important operational medical skills and guidelines, 
+such as those delineated in the Tactical Combat Casualty Care (TCCC) guidelines and the Prehospital 
+Trauma Life Support (PHTLS) manual. 1 Thorough 
+appreciation of these concepts is important not only 
+for the practice of individual military medical officers 
+(MMOs), but also for MMOs’ oversight and empowerment of further forward deployed providers (eg, 
+corpsmen and medics) who provide care close to the 
+point of injury.
+BACKGROUND
+Tactical Environment
+Delivering medical care in the tactical environment is one of the most daunting tasks an MMO will 
+be asked to prepare for and accomplish. This care 
+takes place at the confluence of several challenging 
+situations, including austere environments, limited 
+resources (in both personnel and equipment), unusual and severe wounds, and the possible presence 
+of a dangerous enemy. Exhibit 33-1 provides a more 
+complete listing of conditions and concerns in this 
+environment.
+Considering these factors, MMOs must prepare to 
+care for the severely injured while also considering 
+human performance issues related to environmental 
+extremes. In extreme and austere settings, the human 
+body is required to operate outside its normal daily 
+training pattern and adjust to the effects of high altitude, cold, heat, or other factors. Each of these conditions involve a host of problems and medical treatment 
+options, including the very real concerns of infectious 
+disease. Health problems caused by these threats, collectively referred to as disease and nonbattle injury 
+(DNBI), have been the leading cripplers of fighting 
+forces throughout history. These topics are further 
+discussed in Chapter 20, Physical Fitness; Chapter 21, 
+Performance Nutrition; Chapters 22 through 24, on 
+environmental extremes; and Chapter 40, Preventive 
+Medicine in the Deployed Environment.
+Environmental elements affect not just the human 
+body, but also the equipment required to care for 
+it. The battlefields of Operation Enduring Freedom 
+(OEF) have seen temperatures from below freezing, 
+in January at Bagram Airfield in Parwan Province, to 
+upwards of 137°F, in August in Helmand Province. In 
+the Hindu Kush mountains, to the extreme northeast, 
+operations reportedly took place as high as 15,000 to 
+17,000 feet, higher than any peak in the continental 
+United States. In both Iraq and Afghanistan, fine dust 
+penetrates nearly any container except a tightly sealed 
+zip-lock bag. Thus, any equipment used in these condiEXHIBIT 33-1
+CHALLENGES OF THE TACTICAL 
+ENVIRONMENT 
+• Hostile fire
+• Darkness
+• Altitude
+• Weather extremes
+• Prolonged evacuation
+• Limited resources
+• Provider training level
+• Mission completion
+• Tactical considerations
+• Local disease prevalence
+tions can be expected to eventually fail. Blood products 
+may rapidly be rendered useless when generators fail 
+or blood reefers (refrigerators) simply cannot maintain 
+products at 0°C to 10°C indefinitely.
+To prepare for success in the tactical setting, 
+mindset is a fundamental consideration for MMOs. 
+In addition to normal US practice standards of care, 
+MMOs must also know how to handle the unique 
+wounding patterns, resource limitations, and tactical 
+considerations common in this setting. There are three 
+main objectives in providing care to a casualty during 
+a tactical or combat mission:
+ 
+1. Provide the best possible care for the casualty.
+ 
+2. Minimize additional casualties.
+ 
+3. Maximize the probability of mission success 
+for the unit.
+Mindset is also enhanced by remembering the 
+differences between principles and preferences, as 
+described in the PHTLS manual. 1(xxi) “Principles” are 
+medical care goals that must be accomplished to best 
+take care of the patient. “Preferences” are how these 
+479
+Tactical Medicine
+goals are accomplished in the context of the entire 
+casualty care scenario. For example, in hemorrhage 
+control, the principle is to stop the bleeding. The 
+preference will depend on the unique casualty care 
+scenario and the tactical setting. One might choose to 
+immediately place a tourniquet while under effective 
+hostile fire, even if there is only moderate bleeding, 
+whereas in a safer environment, a provider might apply a pressure dressing as the initial action.
+To deliver the very best care in challenging environments, MMOs must have a strong font of knowledge and a wider breadth of skills than their civilian 
+counterparts. A provider should have multiple ways 
+of accomplishing tasks such as securing an endotracheal tube. MMOs must also understand the tactics, 
+techniques, and procedures unique to their unit; be 
+thoroughly versed in the unit mission; and develop a 
+collegial working relationship both with the command 
+and with the medics or corpsmen working under their 
+supervision. The joint operational environment US 
+forces commonly work in requires an understanding of 
+all other medical capabilities—those in other US units, 
+interagency organizations, and coalition partners. Decisions must be made about which medical capability 
+will be placed where during unit operations. Casualty 
+scenarios almost always involve both medical and 
+tactical problems. Thus, the MMO must communicate 
+TCCC principles to unit leaders throughout their assignment to the unit so that appropriate management 
+and evacuation plans can be developed in the context 
+of the overall tactical situation. 
+Before discussing specific injuries in the combat 
+environment, some further broad principles must 
+be covered. Predeployment training for the different services continues to differ significantly, even for 
+similar missions. It is incumbent on providers to pay 
+close attention in training and to seek further training 
+early once they are informed of a pending deployment. 
+On their initial deployment, MMOs are rarely fully 
+prepared to experience and manage combat trauma; 
+thus, exposure to actual trauma, as well as contact 
+with providers who recently returned from combat 
+operations, is essential. Examples of in-depth trauma 
+training for military providers can be found at the 
+Navy Trauma Training Center at Los Angeles County/
+University of Southern California Medical Center, 
+the Air Force Center for Sustainment of Trauma and 
+Readiness Skills program at the University of Cincinnati Medical Center, and the Army Trauma Training 
+Center at the University of Miami/Jackson Memorial 
+Hospital Ryder Trauma Center. In addition to these 
+programs, which leverage civilian-military partnerships, each service sponsors numerous local and unit 
+training opportunities.
+MMOs should study their unit’s various missions 
+in depth prior to deployment, because not all tactical 
+medicine will occur on combat missions. For example, 
+Exhibit 33-2 lists the numerous possible missions of 
+a Marine expeditionary unit deployment. Lastly, the 
+MMO should thoroughly study the environment of 
+care and resources available in the specific area of 
+operations. Limited treatment and rapid evacuation 
+to a higher level of care may quite possibly be the best 
+option for a given patient and tactical scenario.
+History of Combat Death Statistics
+To understand the basic statistics involved in 
+describing combat casualties, the terms “killed in 
+action” (KIA), “died of wounds” (DOW), and “case 
+fatality rate” (CFR) must be defined. Up to 90% of all 
+casualties who do not survive die on the battlefield 
+before arriving at a dedicated field hospital. These 
+casualties are described as KIA. KIA has classically 
+served as an indicator of weapon lethality and the 
+utility of protective measures, both of which have 
+increased steadily over time. If a casualty survives 
+to be admitted to a field hospital, but then later dies 
+from injury, they are described as DOW. DOW has 
+been seen as an indicator of the effectiveness of combat casualty care. A combination of KIA and DOW is 
+the CFR, which is an indicator of the overall lethality 
+of the battlefield. 
+Organized prehospital trauma care had its birth on 
+the 19th century battlefields of the Napoleonic wars. 
+With each major conflict since, lessons learned were 
+EXHIBIT 33-2
+POSSIBLE MISSION PROFILES FOR A 
+MARINE EXPEDITIONARY UNIT 
+ 
+• Amphibious assault 
+ 
+• Security, stability, transition, and reconstruction operations 
+ 
+• Support theater security cooperation activities 
+ 
+• Humanitarian assistance 
+ 
+• Noncombatant evacuation operations 
+ 
+• Tactical recovery of aircraft, equipment, personnel 
+ 
+• Airfield operations from expeditionary sea 
+or shore-based sites 
+ 
+• Airfield or port seizure operations 
+ 
+• Joint and combined operations 
+ 
+• Maritime contingency operations 
+ 
+• Visit, board, search, and seizure operations 
+480
+Fundamentals of Military Medicine
+promulgated to the civilian sector; conversely, in times 
+of peace, civilian medical advances were transitioned 
+to the military medical community. These exchanges 
+have not always been seamless, but the civilian community has often profited significantly from military 
+medicine. The following examples of advances in 
+military medicine led to major improvements in civilian medicine.
+During the Civil War, Jonathan Letterman established an ambulance corps under the command of a 
+medical officer, and the concept of a field hospital 
+emerged, as well as the correlation of treatment time 
+and survival rates. The prolonged trench warfare of 
+World War I led to a significant rise in DNBI cases 
+of trench foot, frostbite, and hypothermia. Blood 
+products, first used on the battlefield at the close 
+of World War I, were further developed during the 
+interwar years. During World War II, blood products were further improved, as were methods of 
+pain control in combat casualty care. A formalized 
+triage system was utilized to prioritize casualty 
+evacuation. Antibiotics were developed. 2 Brian J. 
+Ford, a British scientist, noted, “If any good can 
+be said to become of war, then the Second World 
+War must go on record as assisting and accelerating one of the greatest blessings that the twentieth 
+century has conferred on man—the huge advances 
+of medical knowledge and surgical techniques. War, 
+by producing so many and such appalling casualties, and by creating such widespread conditions in 
+which disease can flourish, confronted the medical 
+profession with an enormous challenge, and the 
+doctors of the world rose to the challenge of the last 
+war magnificently.”3
+Moving surgical care further forward was the 
+hallmark of the Korean War, with the development 
+of mobile Army surgical hospital (MASH) units and 
+helicopter casualty evacuation. 4 Helicopters were 
+used extensively during the Vietnam conflict, but 
+despite this rapid mode of casualty movement, the 
+CFR remained essentially unchanged from World War 
+II, due to a lack of significant changes in the training 
+and equipment supplied to combatants and medics 
+who provided initial care. Further, poorly designed 
+and translated animal studies on blood volume replacement led to the recommendation to enhance lost 
+circulating blood volume with crystalloid (replacing 
+blood lost by a factor of three). In a 1970 cohort of 
+2,600 casualties, 7. 9% of injuries resulted from isolated 
+extremity wounds that would have been amenable 
+to a simple tourniquet, and were likely worsened by 
+crystalloid resuscitation. 5 
+The CFR did not decrease significantly until OEF 
+and Operation Iraqi Freedom (OIF)—from 16. 5% in 
+Vietnam to 8. 8% today. 6 The KIA and DOW rates 
+were similar in World War II and Vietnam: 88% and 
+12%, respectively. Considering OEF and OIF together, 
+the KIA rate was 77% and the DOW was 23%. This 
+indicates that casualties are surviving longer due to 
+improved initial care and resuscitation (despite the 
+increased lethality of weapons), and more severely 
+injured casualties are making it to the combat support 
+hospital before succumbing to their injuries. 7
+A major reason for this improvement was the 
+change in tourniquet use. Early in OEF and OIF, 
+there was still an inordinate amount of potentially 
+preventable deaths. Holcomb et al8 found that 25% of 
+casualties in their series would have survived with the 
+simple application of a tourniquet. Kelly et al9 found 
+a 7. 8% rate of potentially preventable deaths resulting from failure to use a tourniquet when indicated. 
+In the latest comprehensive study of deaths on the 
+battlefield, by Eastridge et al,10 there were 23. 3 deaths 
+per year from isolated extremity hemorrhage in the 
+“pre-tourniquet” years, dropping dramatically to 3. 5 
+deaths per year from this mechanism after tourniquets 
+had been widely distributed on the battlefield and 
+all combatants had been trained and encouraged in 
+their use. 
+Wounding Patterns
+For the past decade, the predominant type of injury 
+on the battlefield has been penetrating wounds (75%). 
+Survivability has been upwards of 90%; whereas in 
+Vietnam it was 84%, and in World War II, 80%. 7 This 
+increase is due to better trained tactical prehospital 
+providers, better protective equipment, faster evacuation times, and improved far-forward care. 
+Better personal protective equipment such as modern body armor has changed the wounding patterns 
+in the current conflicts in comparison to World War 
+II, Korea, and Vietnam (Table 33-1). There are now 
+fewer thoracic injuries and more head, neck, and 
+extremity trauma. Most combat-related injuries are 
+now from explosions, followed by gunshot wounds. 11 
+The extremities have the highest rate of injury, followed by the abdomen, face, and head. 12 The most 
+common type of battlefield injury currently is the 
+multiple fragment wound to multiple anatomic sites. 
+Throughout all warfare over the past 2 centuries, the 
+most common site of injury has been the extremity. 
+Because the leading cause of preventable combat death 
+is exsanguination from compressible hemorrhage, it is 
+important to build a combat casualty care paradigm 
+around hemorrhage control, moved as far forward 
+as possible—even to the individual combatant and 
+first responder.
+481
+Tactical Medicine
+TABLE 33-1
+WOUNDING PATTERNS IN MAJOR US CONFLICTS
+Conflict
+Type of Warfare
+Top Mechanisms (%)
+Distribution, Top Sites (%)
+Civil War
+Napoleonic (set piece)
+GSW, explosions
+Data not found
+WWI
+Trench (defensive)
+Explosions 
+Extremity (70) 
+Head/neck (17)
+Other (4)
+WWII
+Mechanized land, amphibious assault
+Mortar (39) 
+Bullet (33) 
+Grenade (12)
+Extremity (75) 
+Thorax (8) 
+Other (9)
+Korea
+Amphibious, mechanized
+Data not found
+Extremity (67) 
+Head/neck (17) 
+Thorax (7) 
+Abdomen (7)
+Vietnam
+Jungle warfare, COIN
+Bullet (30) 
+Mortar (19) 
+IED (17)
+Extremity (74) 
+Head/neck (14) 
+Thorax (7)
+OIF/OEF
+COIN, asymmetric warfare
+IED (64) 
+Bullet (26) 
+Mortar (3)
+Extremity (55) 
+Head/neck (27)
+Abdomen (6)
+COIN: counterinsurgency
+GSW: gunshot wound
+IED: improvised explosive device
+OIF/OEF: Operation Iraqi Freedom/Operation Enduring Freedom
+WW: World War 
+TACTICAL COMBAT CASUALTY CARE OVERVIEW
+Although the “golden hour” concept has been 
+controversial when studying the injured as a population,13,14 what is unquestioned is that the lives of the 
+injured overwhelmingly lie in the hands of those who 
+place the first dressing. The right treatment, in the right 
+tactical situation, and at the right time requires the focus 
+of research, training, and education to be on the role 
+and capabilities of the forward prehospital provider.
+For decades, prehospital (and hospital) providers 
+had been trained to care for combat casualties with 
+principles based on civilian trauma care. However, 
+combat trauma and civilian-based trauma differ in 
+terms of wounds, resources, and environmental conditions. Toward the end of the 20th century, it was realized that the principles of ATLS, though sound within 
+a civilian framework, were not just deleteriously affecting the outcome of the combat casualty, but were 
+also dangerous for those delivering care at the point of 
+injury. For example, treating a gunshot wound to the 
+face in a tactical situation at night, a provider could 
+blindly focus on the ATLS “A” for airway, leading to 
+violation of tactical lighting principles and exposure 
+to enemy fire. Airway maneuvers could wait until the 
+patient had been moved to an area of cover, and maneuvers that do not require any bright “white” light 
+could be performed, protecting both the patient and 
+provider. As is stated throughout the TCCC curriculum: good medicine can be bad tactics, and bad tactics 
+can get others killed and/or cause the mission to fail. 
+Origins 
+TCCC was an initiative that began at the Naval 
+Special Warfare Command in 1993, resulting in the 
+publication of the first introductory paper on the concept in 1996. 15 Although this article provided a solid 
+foundation, the sheer volume of rapidly advancing 
+research in the field of combat trauma has required the 
+Committee on TCCC (CoTCCC) to meet regularly to 
+review new research, direct findings from the battlefield, and recommendations from leaders in the field of 
+combat trauma. The CoTCCC is composed of trauma 
+surgeons, emergency physicians, operational unit 
+physicians, combat medics, corpsmen, and pararescue 
+specialists, spanning the entire realm of providers who 
+might be called on to treat the injured.
+482
+Fundamentals of Military Medicine
+The CoTCCC was initially independent, then became part of the Defense Health Board before being 
+integrated into the Joint Trauma System. Recommendations and curriculum changes are published in the 
+Journal of Special Operations Medicine and in the PHTLS 
+manual. TCCC is the only set of battlefield trauma 
+guidelines to receive a triple endorsement by the 
+American College of Surgeons Committee on Trauma, 
+the National Association of Emergency Medical Technicians, and the Department of Defense (DoD). The 
+guidelines can be viewed open source at http://www.
+naemt.org/education/TCCC/guidelines_curriculum. 
+Recently, the Committee on En Route Casualty Care 
+and the Committee on Surgical Combat Critical Care 
+were established by the Joint Trauma System at the 
+Army Institute of Surgical Research in San Antonio, 
+Texas, to broaden standardized treatment guidelines 
+for combat trauma patients.
+As recent lessons learned from war became integrated into civilian trauma care in the United States, 
+a synergistic and reciprocal relationship developed 
+between TCCC and Tactical Emergency Medicine 
+Support (TEMS) protocols, which are practiced by 
+law enforcement tactical teams, the FBI, and other 
+state and federal agencies. Although the relationship 
+between TCCC and TEMS is quite strong and direct, 
+the relationship between the principles of TCCC and 
+ATLS is less so.
+Definitive Proof of Effectiveness
+In the late 1990s, the 75th Ranger Regiment was 
+directed by its commanding officer (General Stanley 
+McChrystal) to aggressively adopt TCCC. McChrystal 
+directed this elite combat unit to focus on four items 
+in training: (1) marksmanship, (2) physical training, 
+(3) small unit tactics, and (4) medical training (TCCC). 
+Thus, TCCC was integrated into programs of instruction, training exercises, and planning at all levels. This 
+integration, along with tactical leader assumption 
+of responsibility for the casualty response system, 
+continues to be an entirely different method from 
+the training and casualty response approach taken 
+by other ground combat units within the DoD—a 
+paradigm that must change for battlefield trauma 
+care to be improved. Results of a comprehensive 
+analysis showed that on more than 8,000 missions 
+over a 10-year period, the Rangers lost only 28 men, 
+despite being one of the most heavily engaged units in 
+combat operations. None of these deaths were from a 
+preventable cause. 16 Recognizing its effectiveness, the 
+Defense Health Board now recommends that TCCC 
+training be provided in a tiered fashion to all personnel operating in the battle space. 17 
+Phases of Care
+TCCC is divided into three phases of care, with the 
+priorities of care shifting depending on the phase. In 
+care under fire (CUF), a provider is required to take 
+actions in caring for a casualty when under “effective” 
+hostile fire. While this definition is vague, in CUF fire 
+is being directed toward the provider or casualty. The 
+priority is to ensure that the uninjured provider stays 
+reasonably safe so that medical care can be delivered 
+when the situation allows (a dead or injured medical 
+provider cannot provide effective care). The casualty 
+should be retrieved only when suppressive fire can be 
+effectively provided. The only two pieces of “medical” gear utilized at this time are a weapon (the best 
+medicine on the battlefield is fire superiority) and 
+a tourniquet (to stop life-threatening hemorrhage). 
+Tourniquets are applied immediately by the casualty 
+(self-aid) or by someone else once the casualty has been 
+moved to cover (buddy aid or medical care).
+Tactical field care (TFC) occurs once effective hostile 
+fire is no longer present. There still may be a threat of 
+hostile fire, but the risk is lower (if more enemy move 
+into the area, the threat may increase and providers 
+may find they are back in CUF). TFC is conducted in 
+the forward environment, so gear remains limited to 
+what the medic or far-forward medical officer carries 
+on their person. This equipment will vary depending 
+on the operation and available resources. If vehicles 
+are in use, there may be extra equipment carried in a 
+vehicle kit. If infiltration is by airborne operations or 
+forced march, the equipment will be limited to a small 
+medical pack.
+The final phase of TCCC is tactical evacuation 
+(TACEVAC). This phase may provide the first opportunity to begin resuscitation with blood products. 
+There should be additional monitoring equipment 
+available, as well as the presence of ventilators and 
+other more advanced equipment. Older terms for 
+evacuation are casualty evacuation (CASEVAC) and 
+medical evacuation (MEDEVAC); CASEVAC usually 
+indicates a “vehicle of opportunity” where dedicated 
+medical care is not present, and MEDEVAC usually 
+indicates the presence of a dedicated medical provider. 
+In reality, these terms overlap considerably and have 
+led to confusion, so TCCC refers to any evacuation as 
+simply TACEVAC.
+Contrast to Civilian Prehospital Care
+The approach to trauma care in combat is different 
+than the approach of ATLS in a civilian environment. 
+The ATLS mnemonic “ABCDE” (Airway, Breathing, 
+Circulation, Disability, Exposure) is not used in a 
+483
+Tactical Medicine
+tactical environment; instead, combat trauma is prioritized according to the “MARCH” paradigm: Massive hemorrhage, Airway, Respirations, Circulation, 
+Hypothermia.
+Control of bleeding takes precedence over all other 
+efforts. Once a casualty loses blood, there may be a 
+significant delay before volume can be replaced. Tourniquets should be used readily and early, with frequent 
+reassessments for their need. Attention to the airway 
+and cervical spine are delayed until the TFC phase, 
+when the casualty and rescuer are both removed 
+from hostile fire. Airway maneuvers require too much 
+risk to the provider in terms of time and exposure in 
+CUF. Because the majority of injuries are penetrating, 
+the likelihood of an unstable cervical spine fracture is 
+negligible during combat operations, unless there is 
+significant blunt force trauma (as in a large explosive 
+device blast or vehicular crash).
+Casualties with loss of consciousness who are 
+spontaneously breathing are given a nasopharyngeal 
+airway and placed in the recovery position (on their 
+side with slight flexion). To minimize the risk of hypothermia, clothing is removed only where necessary to 
+treat injuries. Intravenous (IV) access is not performed 
+for casualties with a strong radial pulse and normal 
+mentation in the setting of mild to moderate wounds. 
+Oral rehydration is adequate in these casualties.
+Another concept included in TCCC is the futility 
+of basic cardiopulmonary resuscitation (CPR) for any 
+casualty without signs of life. The pathophysiology of 
+circulatory arrest in a trauma scenario is completely 
+different than in a medical scenario. Closed-chest CPR 
+requires that the heart have adequate volume to pump. 
+In trauma, an arrest is usually from causes that do not 
+respond to closed chest compressions: hypovolemia 
+due to hemorrhage results in inadequate volume; tension pneumothorax (TPTX) prevents venous return to 
+the heart, leading to inadequate preload for CPR to be 
+effective; and cardiac tamponade prevents the atria 
+and ventricles from filling. Specific TCCC principles 
+and techniques, shaped by the combat trauma setting, 
+are discussed in detail below.
+HEMORRHAGE CONTROL
+Tourniquets
+Tourniquets should be applied early and liberally if 
+there is any question of exsanguinating hemorrhage. 
+Despite the obvious effectiveness of tourniquets at 
+saving lives due to exsanguination from extremity 
+injuries, the tourniquet has fallen in and out of favor 
+periodically over centuries. 18–20 Concerns historically 
+related to tourniquet application include loss of limb, 
+ischemic pressure damage, rhabdomyolysis, nerve or 
+vascular damage, and reperfusion syndrome. However, with updated technology and proper training, 
+modern tourniquets applied properly do not result in 
+these complications. Documented complications from 
+currently approved tourniquets are primarily caused 
+by improper application. Despite reported rates of 
+“non-indicated” tourniquets ranging from 47%21 to 
+74%,22 research has shown that morbidity from liberal 
+tourniquet use in the global war on terror has been 
+minimal, and no permanent complications have been 
+documented as a result of proper tourniquet application and management. 23–25 While a complete discussion 
+of the history of tourniquet use is beyond the scope 
+of this chapter, no controversy currently exists as to 
+the effectiveness of properly applied tourniquets at 
+saving lives.
+Numerous articles have been published on the 
+evolution of the modern tourniquet. 26–28 The push for 
+an effective battlefield tourniquet was a direct result 
+of continued cases of death from extremity exsanguination early in OIF/OEF. Several factors were taken 
+into consideration, including ease of self-application; 
+durability; logistics (cost, weight, and volume); and 
+width. Wider tourniquets provide arterial occlusion at 
+lower pressures and therefore lower the risk of direct 
+pressure damage to tissue. 
+Of the CoTCCC-approved tourniquets, the most important factor in selecting which to carry is familiarity. 
+More rapid application is associated with decreased 
+blood loss. Proper training leads to familiarity and 
+more rapid application (both in the decision to apply and in actual device employment). In a study of 
+Canadian military personnel, the primary tourniquet 
+fielded over several years was applied the fastest by 
+trained medics. 29 
+Proper application of a tourniquet includes stopping 
+arterial flow distal to the tourniquet; venous tourniquets represent a significant concern. A tourniquet 
+may be applied with enough force to initially stop 
+visual bleeding, but it may not stop all arterial flow 
+to the extremity. This eventually leads to paradoxical bleeding as venous return is impeded and tissues 
+become engorged. 30 The risk of venous tourniquets 
+is high in the CUF phase. With lifesaving maneuvers 
+taking precedence over diagnostic maneuvers in some 
+tactical situations, the patient’s uniform is not likely 
+to be removed (so there is incomplete evaluation of 
+the wound site) and boots may remain on their feet 
+(so absence of distal pulse is not confirmed). Rates 
+of venous tourniquet placement in the prehospital 
+484
+Fundamentals of Military Medicine
+setting as high as 83% have been documented. Given 
+the potential complications associated with a venous 
+tourniquet, proper application is extremely important.
+Properly applied tourniquets cause ischemia that 
+starts at the area of application and extends distally. 
+Factors such as duration of application, temperature, 
+and location affect the extent of tissue injury. Despite 
+the general consensus that tourniquets applied for less 
+than 2 hours are safe,31,32 there is no consensus on the 
+upper limit of “safe” tourniquet use. A recent extensive 
+review published in the orthopedic surgery literature 
+was unable to definitively answer this question. 33 
+Further complicating the discussion is a documented 
+case of an upper extremity tourniquet left in place for 
+16 hours with successful return of function to the injured limb. Factors such as distal placement and cold 
+ambient temperatures likely contributed to the good 
+outcome in this case. 34 
+With emphasis on early placement of tourniquets 
+in the CUF phase of TCCC, any applied tourniquet 
+must be repeatedly reevaluated for proper placement 
+(absence of arterial pulse) and the need for continued 
+use. The careful and deliberate process of evaluating 
+tourniquets for removal is called conversion. The 
+potential for significant blood loss and hemodynamic 
+decompensation with the haphazard removal of 
+tourniquets has been documented back to World 
+War II. 35 Contraindications to attempted conversion 
+include amputations, active shock, and an inability to 
+continuously monitor the extremity. Tourniquets that 
+have been in place for more than 6 hours should not 
+be removed until the patient has reached a definitive 
+care setting with laboratory and close monitoring capabilities. In 2015, the TCCC guidelines were updated 
+to ensure that all tourniquets are reevaluated at each 
+level of care and no more than 2 hours after initial 
+placement. A step-by-step process for conversion was 
+first published in 200527 and updated in 2015. 31
+Hemostatic Dressings
+The last decade has witnessed a surge of products 
+designed to manage severe bleeding in compressible 
+areas not amenable to tourniquet application, or for 
+use when a tourniquet might be deemed inappropriate. Collectively, these products are termed hemostatic 
+dressings or hemostatic agents. However, despite extensive research, no single hemostatic dressing has 
+emerged as superior. The ideal properties of current 
+TCCC-recommended hemostatic dressings are listed 
+in Table 33-2. 36
+ In 2003, the first hemostatic agent selected by the 
+CoTCCC was the HemCon (Medline, Northfield, IL) 
+bandage; this was followed by QuikClot (Z-Medica, 
+Wallingford, CT) granules. 37 After continued research 
+into more efficacious products, in 2008 Combat Gauze 
+(Z-Medica) was selected by the CoTCCC as the firstline hemostatic dressing. Today there are three products that meet the CoTCCC requirements for effective 
+hemostatic dressings: HemCon ChitoGauze, QuickClot Combat Gauze, and Celox Gauze (MedTrade 
+Products, Crewe, UK).
+There are three main mechanisms of action for the 
+hemostatic properties of these products. Dressings 
+that concentrate clotting factors work through the 
+rapid absorption of the water content of blood, leaving remaining coagulation proteins and platelets at 
+the site of the wound. The archetype product with 
+this mechanism of action was the original QuikClot 
+granular formulation, adopted by the US Navy and the 
+Marine Corps as their initial hemostatic agent of choice. 
+QuikClot contained a zeolite mineral that absorbed 
+water; however, its loose granules and an exothermic 
+reaction caused safety concerns. 38
+Mucoadhesive agents (chitosans) react with blood 
+and wounded tissue to form a glue-like substance that 
+effectively seals or tamponades the wound. The hemostatic properties of chitosan appear to be by direct electrostatic interaction between negatively charged cell 
+membranes of the erythrocytes and positively charged 
+chitosan. These agents display strong adherence to tissues and physically seal bleeding wounds. 39 The first 
+TABLE 33-2
+PROPERTIES OF TCCC-RECOMMENDED 
+HEMOSTATIC DRESSINGS
+Criteria
+Combat 
+Gauze*
+Celox 
+Gauze†
+HemCon 
+Chitogauze‡
+Stops arterial bleeding after 2–3 min of 
+compression
+Yes
+Yes
+Yes
+Low side effects
+Yes
+Yes
+Yes
+Easy to use
+Yes
+Yes
+Yes
+Light weight
+Yes
+Yes
+Yes
+Tolerates environmental extremes
+Yes
+Yes
+Yes
+Long shelf life
+3 years
+4 years
+3 years
+FDA approved
+Yes
+Yes
+Yes
+Effective in 
+coagulopathy
+No
+Yes
+Yes
+*Z-Medica, Wallingford, CT
+†MedTrade Products, Crewe, UK
+‡Medline, Northfield, IL
+FDA: Food and Drug Administration
+485
+Tactical Medicine
+mucoadhesive product approved was the HemCon 
+bandage, adopted by the US Army as its first-line hemostatic agent. However, because the mucoadhesive 
+barrier is a physical phenomenon, there is a theoretical 
+danger of re-bleeding if an initially hypotensive patient 
+is resuscitated to a normal blood pressure. 40
+Procoagulants act by either activating the coagulation cascade or by supplying clotting factors at the 
+site of injury. Combat Gauze is the only current 
+FDA-approved product in this category. It is a gauze 
+impregnated with kaolin, which activates the intrinsic 
+pathway of coagulation. 41 Due to the efficacy concerns 
+with HemCon and the safety concerns with the original 
+granular QuikClot, the CoTCCC recommended Combat Gauze as the only hemostatic dressing that passed 
+both efficacy and safety testing. Later, both Celox 
+Gauze and ChitoGauze (two mucoadhesive products) 
+were included, after well-designed studies showed 
+their efficacy to be similar to Combat Gauze. 42,43
+Successful application of these agents requires that 
+a wound be firmly packed so there is a direct interface 
+between the hemostatic gauze and the injured tissue. 
+After application, pressure is maintained by the tightly 
+packed wound, supplemented with an adequate pressure dressing. For most hemostatic dressings, pressure 
+is held manually after wound packing for a minimum 
+of 2 minutes before pressure dressing application. In 
+fact, in some wounds the method of packing appears 
+to be more important than the hemostatic dressing 
+utilized. 44 Additional methods to provide pressure 
+similar to a pressure dressing are to use a stapler to 
+approximate the wound edges over the dressing, apply 
+a non-vented chest seal over the wound, or place a new 
+device on the wound called the iTClamp (Innovative 
+Trauma Care, Edmonton, Canada).
+Junctional Hemorrhage
+A recent review of battlefield casualties over a 10year period found that 90. 9% of deaths were due to 
+hemorrhage. Sites of lethal hemorrhage were truncal 
+(67. 3%), junctional (19. 2%), and peripheral extremity 
+(13. 5%). 10 Junctional regions are those areas of the body 
+where the extremities join the torso, such as the groin 
+or axilla, and are too proximal for extremity tourniquet 
+application. High junctional wounds are often not 
+amenable to hemostatic dressings and are therefore 
+termed noncompressible. If one of the new junctional 
+tourniquet devices had been applied to the casualties 
+with junctional hemorrhage, it is postulated that up to 
+three US casualties per month would have been saved 
+over the last decade of combat operations. 45 
+Three junctional devices are currently approved by 
+the FDA: the SAM Junctional Tourniquet (SJT; SAM 
+Medical Products, Portland, OR); the Combat Ready 
+Clamp (CRoC; Combat Medical Systems, Fayetteville, 
+NC); and the Junctional Emergency Treatment Tool 
+(JETT; North American Rescue, Greer, SC). The unilateral CRoC device has been evaluated on humans 
+as well as in swine, manikin, and cadaver models. Assembly time to final application was reported to range 
+between 55 and 90 seconds, depending on the surface 
+condition and casualty model used. 46 In the swine 
+model, the device was 100% successful in controlling 
+bleeding just superior to the inguinal ligament using 
+four to nine turns of the windlass. 47 Both the JETT and 
+SJT treat combined pelvic and lower extremity injuries 
+by incorporating a pelvic binder with bilateral hemorrhage control devices at the femoral arteries just distal 
+to the inguinal ligament. In a fresh human cadaver 
+model designed to recreate arterial flow at normal 
+physiologic blood pressures, blood flow was halted 
+in the femoral arteries with four to eight complete 
+turns of the windlass handle, achieving success in 
+controlling hemorrhage in all cases. Bilateral control of 
+hemorrhage was achieved in 10 to 17 seconds after application, whereas the CRoC took 68 seconds to achieve 
+bilateral control. 48 Improvised control of hemorrhage 
+at junctional sites can also be achieved by securing 
+either a rigid water bottle or a rolled SAM splint over 
+the inguinal area and securing tightly with a regular 
+(extremity) tourniquet.
+AIRWAY MANAGEMENT
+Airway problems in the tactical setting may seem 
+daunting, but treatment is usually not difficult with 
+appropriate predeployment training and a planned 
+approach. Airway management begins during the 
+TFC phase of TCCC. Control of significant external 
+hemorrhage remains the first priority. 
+Most casualties who need airway management are 
+simply unconscious or have altered mental status; the 
+most likely source of airway compromise is occlusion 
+by the tongue. This can be addressed in several ways. 
+Immediate placement of the casualty in the recovery 
+position is the favored initial maneuver. After this has 
+been done, a nasopharyngeal airway is recommended 
+to allow for a patent airway past the tongue and soft 
+tissues of the oropharynx. Casualties may go in and 
+out of consciousness; therefore, oropharyngeal airways 
+should be avoided because they may stimulate the gag 
+reflex and vomiting.
+Traumatic airway obstruction, commonly related 
+to facial or neck trauma, may also occur. These inju486
+Fundamentals of Military Medicine
+ries have accounted for nearly 2% of combat-related 
+deaths in OIF and OEF. 49 Airway obstruction of this 
+nature ranks as the third leading cause of preventable combat death. Depending on the training and 
+skill of the operator, endotracheal intubation in the 
+tactical setting may be difficult, so a surgical airway 
+(cricothyroidotomy) is frequently the airway of choice. 
+However, recent evidence suggests that the failure rate 
+of cricothyroidotomy can be as high as 33% when conducted by prehospital providers. 50 Using the Cric-Key 
+technique is currently the preferred method. 51
+While researchers look for improved methods of 
+surgical airway management, MMOs should be prepared for other options such as supraglottic airways. 
+These are more beneficial for the patient who may have 
+airway compromise due to sedation or pain control. 
+Because most airway compromise is from tongue occlusion or facial trauma, and most of these patients 
+have an airway occlusion but are otherwise spontaneously breathing, it is usually not necessary to place 
+the casualty on a ventilator or use a bag valve mask. 
+However, if providers have the skills for advanced 
+airway management, they should also be able to conduct positive pressure ventilation with these devices. 
+Due to equipment failure and battery life problems, 
+the presence of a bag valve mask is essential.
+CHEST TRAUMA
+According to the Joint Theater Trauma Registry, 
+thoracic trauma has been the cause of lethal injury 
+in 5% to 7% of all deaths in OEF and OIF. 52,53 TPTX, 
+which is lethal yet readily preventable, ranks as the 
+second leading cause of preventable combat death. 
+Thus, the evaluation of the chest, and the immediate treatment of life-threatening injuries that compromise breathing, ranks only behind controlling 
+massive hemorrhage in preventing death in combat 
+casualties. Potentially life-threatening wounds also 
+include closed pneumothorax and open pneumothorax (a sucking chest wound that can significantly 
+compromise breathing efforts). The most serious 
+condition, TPTX, can result in rapid collapse of respiratory and cardiovascular function. This occurs 
+as air progressively enters the intrapleural space 
+over time from either the external environment (via 
+a chest wound with a ball-valve effect) or from internal bronchopulmonary disruption. The progressive 
+“tension” of air pressure decreases venous return to 
+the heart. This decreases preload, places pressure 
+on the heart chambers that further decreases filling, 
+and collapses the ipsilateral lung, which impedes 
+pulmonary oxygen exchange. Clinical hallmarks are 
+symptoms of progressive dyspnea and altered mental status. Signs are hypotension, hypoxia, cyanosis, 
+jugular venous distension, decreased breath sounds, 
+and hyperresonance to percussion on the injured 
+side of the chest. 
+Closed pneumothoraces are rare in the combat 
+setting but can occur as a result of blunt trauma. This 
+condition is rarely diagnosed in the prehospital setting and should not be expected to result in a TPTX 
+unless the patient is placed under positive pressure 
+ventilation. If penetrating chest trauma has occurred 
+and there is any significant hemodynamic instability 
+or respiratory distress, the presence of a TPTX should 
+be assumed. Performing a needle thoracentesis has 
+the potential to save a life in this situation, and even 
+if TPTX physiology is not present, a pneumothorax is 
+likely. The downside of needle thoracentesis is small 
+compared to the potential life saved. 
+The standard first-line intervention for a suspected 
+TPTX in the prehospital setting is the placement of a 
+needle thoracostomy (NT) with a 14-gauge, 3. 25-inch 
+(8. 25-cm) angiocatheter in the thorax to relieve pressure. However, concerns about this technique have 
+arisen due to the technical aspects of needle placement. 
+The classic teaching is to perform an NT at the second 
+intercostal space in the midclavicular line, and that an 
+audible and palpable rush of air should be heard and 
+felt if any significant pressure is relieved. However, 
+recent studies have challenged the effectiveness of this 
+approach. Some of the disadvantages cited have been 
+inadequate catheter length, kinking of the catheter, and 
+occlusion by clots. 54,55 Autopsy and computed tomography chest studies have demonstrated a 50% failure 
+rate for standard length angiocatheters in the second 
+intercostal space due to chest thickness. Other studies 
+indicate that placement of the chest tube at the fourth 
+intercostal space, anterior axillary line, has a higher 
+success rate. 56 This location can be readily accessed 
+without the removal of body armor, an advantage in 
+certain combat settings. 
+When NT was isolated and standardized in a porcine model of TPTX, the failure rate of NT compared 
+to tube thoracostomy (TT) was 58% (TT was successful in 100%). 57 It must be noted that an earlier paper 
+by Holcomb et al showed a success rate for NT of 
+100%. 58 Careful analysis of the model showed that 
+the definition of TPTX was a fall in cardiac output of 
+20% in the Holcomb paper, which was much milder 
+than the definition in the former study, where cardiovascular collapse was precipitated (fall in systolic 
+blood pressure [SBP] >50% or pulseless electrical 
+activity). The conclusion could be made that NT is 
+487
+Tactical Medicine
+effective at relieving less severe compromise from 
+tension physiology, but that finger thoracostomy or 
+TT is likely required in the casualty who is rapidly 
+decompensating. 
+The experience of the Israeli Defense Forces is 
+instructive in this regard. Although their transport 
+times are much shorter than the US experience in 
+OEF and OIF, providers treated 111 casualties with 
+NT over a 5-year period, and reported a failure rate 
+of treatment for presumed TPTX with NT of 32%. All 
+the failures required a TT in the field. 59 In the austere 
+setting, it is likely that finger thoracostomy followed 
+by an overlying vented chest seal is superior with 
+respect to time, technical skill, and contamination 
+than TT, but this has not been studied. The classical 
+teaching of applying a three-sided dressing to allow 
+for air to escape the chest has no evidence to support 
+it, whereas vented chest seals have been very effective 
+in animal models. TT may be favored when there is 
+a Pleur-evac (Teleflex, Morrisville, NC) available and 
+the casualty is spontaneously breathing, or if there is 
+suspected significant hemothorax and a cell saver is 
+available for autotransfusion. Neither of these situations is likely in the prehospital environment due to 
+logistical restraints.
+Open pneumothoraces are usually not lethal in and 
+of themselves, but can lead to significant morbidity 
+when they are large enough to compromise the natural 
+physiology of breathing. When the chest wall defect is 
+equal to or greater than two-thirds the size of the trachea, air will preferentially enter the chest through the 
+wound during normal spontaneous respirations. 60 The 
+use of a fully occlusive dressing, which has been recommended for decades, does not allow accumulating 
+air to exit the chest. This has the potential of converting 
+a less lethal wound (open pneumothorax) to a more 
+lethal one (TPTX). 61 Thus, occlusive/non-vented chest 
+seals require constant vigilance if used, which is not a 
+desirable situation in a far-forward environment with 
+possible multiple casualties and a rapidly evolving 
+tactical situation. For this reason the current recommendation is to use vented chest seals to treat open 
+pneumothoraces. Several studies indicate that most 
+commercial vented chest seals are highly efficacious, 
+unlikely to lose their seal (a dangerous complication) 
+or become ineffective due to clotting blood. 62,63
+DAMAGE CONTROL RESUSCITATION 
+“Damage control” is a term of naval origin and 
+refers to the capacity of a ship to absorb damage and 
+maintain mission integrity. If a ship is damaged and 
+begins to take on water, there are approaches used 
+to minimize the damage so that the vessel remains 
+afloat and suffers minimal “physiological disruption” to its critical systems and infrastructure. The 
+term “damage control surgery” (DCS) was coined to 
+refer to this same approach in a severely traumatized 
+patient. DCS entails immediate surgery to control 
+internal bleeding and minimize contamination from 
+gastrointestinal trauma. In the present era, DCS has 
+become the standard of care for battlefield trauma 
+surgery. “Damage control resuscitation” (DCR), a 
+logical offshoot of DCS, has become the standard 
+of care for expeditionary medical facilities treating 
+combat casualties. 64,65 DCR focuses on minimizing the 
+effects of the lethal triad (hypothermia, acidosis, and 
+coagulopathy). It entails early transfusion of blood 
+products to restore intravascular volume (minimizing crystalloid use), permissive hypotension, keeping 
+the patient warm, and using adjuncts to support the 
+coagulation system (tranexamic acid [TXA], fibrinogen, Factor VIIa). DCR should begin at the point of 
+injury and continue to the time of initial lifesaving 
+surgery and beyond.
+Because 90% of battlefield deaths occur before the 
+casualty reaches a medical facility, there is a keen 
+interest in pushing damage control principles and 
+techniques further forward. 66 Care of the severely 
+traumatized combatant is difficult at the point of injury 
+and differs significantly from civilian practice. Civilian 
+concepts and procedures often have to be “unlearned,” 
+and military medical practice may need adjustment to 
+better fit the tactical situation. 67 Additionally, although 
+the categories of shock are useful as a theoretical 
+construct, in reality they are often unreliable in the 
+individual casualty. In one study, for patients who had 
+an estimated blood loss of over 40% (class IV shock), 
+the median heart rate was 95 and the median systolic 
+blood pressure was 120. 68 Vital sign derangements may 
+signal that a patient is in shock, but normal signs do 
+not ensure they are not in shock.
+Ideally, casualties beginning to show the first signs 
+of shock should receive fresh whole blood (FWB), or 
+blood components that mimic the constituency of 
+whole blood. Because this is not logistically feasible for 
+mobile combat units dispersed away from organized 
+medical facilities, a focus on hypotensive resuscitation 
+and minimal fluid administration appears to be the 
+only legitimate strategy. Circulatory access is obtained 
+via the IV or intraosseous (IO) route, and fluid is administered to achieve enough perfusion to maintain a 
+conscious patient with a palpable radial pulse. If fluid 
+must be administered, it can be given via oral, IV, or 
+IO routes. 69 
+488
+Fundamentals of Military Medicine
+An important caveat to fluid resuscitation is that it 
+must be determined whether the patient’s hemorrhage 
+is definitively controlled versus uncontrolled (or even 
+possibly uncontrolled). For casualties with definitively 
+controlled external hemorrhage, the resuscitation 
+endpoint should be an adequate SBP (≥110). 70 For any 
+casualty with controlled external hemorrhage, but 
+at risk of ongoing internal hemorrhage (eg, from a 
+gunshot wound to the torso or high amputation from 
+an improvised explosive device), the provider should 
+still consider hypotensive resuscitation targets, which 
+are adequate mentation, a palpable radial pulse, or an 
+SBP of 90 to 110,70 as the mainstay of prehospital resuscitation endpoints. While it may seem unnerving and 
+counterintuitive based on protocols in civilian trauma, 
+hypotensive resuscitation has reduced the risk of death 
+in all trials in which it has been investigated. 71
+The 1994 landmark, paradigm-shifting paper by 
+Bickell et al showed that crystalloid resuscitation for 
+patients with penetrating torso trauma produced 
+a lower survival rate than delayed resuscitation. 72 
+However, transport times in this study averaged 
+15 minutes, whereas, in the combat environment, 
+evacuation times can be from 2 to 4 hours (Desert 
+Storm) to 15 hours (Mogadishu), depending on the 
+conflict, region, and existing military presence and 
+medical evacuation structure. 73 Fortunately, ATLS 
+now only recommends 1 L of crystalloid. 74 The 
+Bickell study, along with mounting information 
+that IV fluid resuscitation exacerbates the profound 
+inflammatory state of hemorrhagic shock, prompted 
+the Office of Naval Research to ask the Institutes of 
+Medicine to review fluid resuscitation strategies. 75 
+Ultimately, the TCCC guidelines were rewritten to 
+limit fluid resuscitation to patients in shock, with the 
+use of blood products, lower volumes, and specific 
+endpoints as a goal. 76 
+Since the 2005 World Health Organization expert 
+consensus panel on prehospital care for the trauma 
+patient found little evidence that advanced prehospital 
+interventions were superior to basic interventions,77 it 
+is imperative that every medical provider be an expert 
+in hemorrhage control, know how to quickly move the 
+patient to a surgical facility, and be cognizant of the 
+nuances of DCR. When considering fluid resuscitation 
+for the patient in shock, there are four objectives in the 
+prehospital setting:
+ 
+1. Enhance clot forming ability.
+ 
+2. Minimize the negative effects of resuscitation 
+(edema, hemodilution).
+ 
+3. Restore intravascular volume and organ 
+perfusion.
+ 
+4. Optimize the delivery of oxygen.
+Other than FWB, the ideal resuscitative fluid is yet 
+to be found. The debate about crystalloids versus colloids in the treatment of shock has continued unabated 
+since they were introduced. Blood components such 
+as packed red blood cells (PRBCs), while necessary 
+to transport oxygen, also increase morbidity and 
+mortality. 78 Artificial hemoglobin carriers have significant side effects that continue to restrict their use 
+in humans. No resuscitative fluid is totally benign, 
+and all may potentiate the cellular injury associated 
+with hemorrhagic shock if not used judiciously. These 
+agents should be viewed as medications with specific 
+indications and dosing parameters.
+It should be noted that only combined resuscitation 
+with red blood cells (RBCs) and plasma is associated 
+with improved survival, even when evacuation times 
+are short. 79 In a recent article on fluid resuscitation by 
+the CoTCCC,80 the preferred fluids for hemorrhagic 
+shock in descending order of preference were:
+ 
+1. FWB.
+ 
+2. 1:1:1 plasma, RBCs, and platelets.
+ 
+3. 1:1 plasma and RBCs.
+ 
+4. Reconstituted dried plasma, liquid plasma, 
+or thawed plasma alone or RBCs alone.
+ 
+5. Hextend.
+ 
+6. Lactated Ringer (LR) solution or Plasma-Lyte 
+A (Baxter Healthcare, Deerfield, IL).
+Fresh Whole Blood
+Nothing replaces lost blood from hemorrhage like 
+FWB from an immediate donor. Because it is fresh, one 
+unit has the hemostatic power of 10 units of platelets. 81 
+The only prehospital guidelines that currently support 
+the use of FWB are the TCCC guidelines (TACEVAC 
+section). Whole blood transfusion was the standard 
+for resuscitation from hemorrhagic shock in World 
+War II, Korea, and Vietnam. 82 Since the Vietnam era, 
+objections to FWB use have arisen, including the 
+risks of ABO incompatibility, transfusion-related 
+disease, graft versus host disease (GVHD), and reduced exercise tolerance in donors. However, current 
+evidence appears to refute these concerns. In OIF III 
+(2003–2011), 13% of all transfused patients received 
+FWB83 without significant sequelae. Approximately 
+10,000 FWB transfusions to US personnel occurred 
+in OEF and OIF, and only two complications of survivable transfusion-related reactions were recorded, 
+as well as one fatal case of GVHD. 84 In an article on 
+blood donation in the Norwegian Special Forces, there 
+was no decrease in either physical or skill (shooting) 
+performance after donating one unit (450 mL) of 
+blood for “buddy transfusion.”85 Cold-stored whole 
+489
+Tactical Medicine
+blood is FDA approved for up to 21 days; however, 
+FWB is not currently FDA approved and has been 
+utilized only in emergency combat trauma scenarios. 
+Currently the US Army’s 75th Ranger Regiment has 
+an approved protocol86 based on updated evidence87 
+that allows providers to draw O-negative blood from 
+donors prior to missions for use in case of severe 
+trauma with significant hemorrhage. This program is 
+now becoming more widely used within US Special 
+Operations Command.
+Stored Constituents of Blood
+The past century has witnessed many changes to 
+the practice of blood administration. One of the most 
+profound has been the transition from using whole 
+blood to using components of blood (RBCs, plasma, 
+platelets), which came about without clinical validation of which patients needed which products. 
+Stored blood transfusion involves major complications, and is an independent predictor of mortality 
+in civilian trauma, likely due to the toxic products of 
+stored components that accumulate over time. 78 When 
+FWB is not available, thawed plasma at a 1:1 ratio 
+with PRBCs is the current resuscitation strategy for 
+hypovolemic shock due to blood loss at combat support hospitals. Simultaneously, a whole blood donor 
+drive is initiated. 
+Plasma alone is an effective volume expander, 
+does not activate the pathways of cellular injury, and 
+provides physiologic quantities and ratios of clotting 
+factors. Freeze-dried plasma is used extensively by 
+the Israeli Defense Forces,88 but is approved for use by 
+only a few US special forces far forward. Freeze-dried 
+plasma can be reconstituted in minutes and given to 
+expand plasma volume, provide clotting factors, and 
+buffer the acidosis that occurs with shock. However, 
+plasma has all the drawbacks of blood product transfusion, and frozen plasma involves the logistical burden 
+of cold storage and transport. DoD-funded investigations continue on autologous freeze-dried plasma, 
+and its use may spread from the special operations 
+community to regular combat medical units. Currently 
+freeze-dried plasma is not FDA approved, and there 
+is no mechanism by which conventional medics and 
+corpsmen can utilize it.
+Artificial Colloids
+Colloids are more effective than crystalloids at 
+expanding plasma volume because of the oncotic 
+properties of the large molecules they contain. 89 There 
+are many colloids on the market, but the most widely 
+used in TCCC is Hextend, which is a hydroxyethyl 
+starch in a balanced salt solution similar to LR. Another 
+product, Hespan (B. Braun Medical, Bethlehem, PA), 
+is hydroxyethyl starch in a normalized saline solution. 
+Hextend remains the TCCC forward resuscitative fluid 
+of choice due to its volume-expanding capabilities (6 to 
+8 hours), decreased logistical burden, and less deleterious coagulation effects than Hespan. 90
+A recent Cochrane review concluded that when 
+fluid resuscitation is required, there is no appreciable 
+difference in outcomes after resuscitation with colloids versus crystalloids. 91 Because combat casualties 
+are resuscitated in a much different environment than 
+civilians, however, colloids offer the distinct advantage 
+of less volume and weight. Resuscitation with Hextend 
+results in one-third the volume requirement of LR92; 
+additionally, it has a favorable acid-base profile and has 
+been shown to decrease overall fluid requirements. For 
+these reasons Hextend has replaced LR as the fluid of 
+choice carried by medics in the field. 93 
+Crystalloids
+During the Vietnam War, crystalloid resuscitation 
+became the standard of care, and volume replacement was recommended at three times the amount of 
+blood loss. 94 This approach was later found to worsen 
+outcomes and also contributed to the development of 
+abdominal compartment syndrome and acute respiratory distress syndrome (known as Da Nang lung when 
+it was first characterized). 95,96 It was not until the Bickell 
+study that this practice of aggressive crystalloid resuscitation began to change. This is not a new concept; 
+in 1918 Cannon et al had written that “inaccessible 
+or uncontrolled sources of blood loss should not be 
+treated with IV fluids until the time of surgical control.”97 Fluid resuscitation in uncontrolled hemorrhage 
+is now known to dilute clotting factors and exacerbate 
+coagulopathy, worsen acidosis (normal saline [NS] and 
+LR have a pH of 5. 0 and 6. 5, respectively), and disrupt 
+early thrombus. 98 
+Crystalloid resuscitation may be considered if 
+no other fluids are available and the casualty needs 
+some sort of volume replacement to maintain blood 
+pressure and mental status. Large volume IV fluid resuscitation is associated with coagulopathy on arrival 
+in the emergency department99 and contributes to the 
+coagulopathy of trauma. 100 This coagulopathy almost 
+doubles mortality in certain patients. 101 Crystalloids 
+distribute rapidly to the interstitial space and are not 
+as effective for expanding blood volume as colloids, 
+adding only 275 mL to the intravascular space for 
+every 1 L infused. 102 If blood products or Hextend are 
+not available, LR is preferred to NS because it does not 
+induce hyperchloremic acidosis as NS does. 103
+490
+Fundamentals of Military Medicine
+Special mention must be made of one particular 
+crystalloid, hypertonic saline (HTS), for use in the 
+casualty with multitrauma who also has traumatic 
+brain injury (TBI). In TBI, secondary injury, usually 
+related to some degree of hypotension or hypoxia, 
+may be avoidable. Mortality doubles in a hypotensive 
+patient with TBI when compared to normotensive 
+TBI casualties. 104 HTS may be the optimal resuscitative fluid for these patients when hypotension must 
+be treated and cerebral edema avoided. 17 HTS refers 
+to any concentration of sodium chloride above physiologic (0. 9%); common concentrations are 2%, 3%, 5%, 
+7%, and 23%. The osmotic actions of HTS have been 
+well categorized. The discovery of extraosmotic actions such as immune modulation and augmentation 
+of cerebral blood flow are intriguing and invite further 
+study, but the evidence remains mixed. A metaanalysis 
+of six trials and 604 subjects showed that HTS-dextran 
+provided a discharge survival rate of 38%, versus 27% 
+for the NS control, in the subgroup of patients who 
+had sustained multitrauma with concomitant TBI. 105 
+A randomized, controlled trial in TBI cases comparing 
+HTS (7. 5%) to LR showed no difference in ultimate 
+neurologic outcomes or mortality. 106 Data from the 
+Research Outcomes Consortium likewise showed no 
+benefit of HTS solutions in TBI. 107 Once started, HTS 
+should be titrated to keep serum sodium concentrations at 145 to 155 mEq/L, and cessation should be 
+gradual secondary to concerns of rebound cerebral 
+edema and herniation. 
+Best Strategies for Fluid Resuscitation
+Two broad approaches may be considered for 
+resuscitation in combat casualties. In the delayed resuscitation approach, fluid is withheld until bleeding 
+is definitively controlled. This was the approach in the 
+Bickell paper; it is appropriate if transport times are 
+very short, typically less than 30 minutes. In contrast, 
+permissive hypotension is the TCCC-recommended 
+approach. Here fluid is given only to improve SBP 
+to approximately 90 mm Hg, which corresponds to 
+preserved mentation and a palpable radial pulse. This 
+standard TCCC approach should be utilized in almost 
+all combat casualty care scenarios. A Hextend bolus 
+of 500 mL is given if blood products are not available, 
+and this may be repeated once if required by resuscitation endpoints. 
+Resuscitation endpoints generally used are mental 
+status, heart rate, SBP, mean arterial pressure (MAP), 
+skin texture and color, and urine output. Laboratory 
+tests such as lactate or base deficit are beneficial only 
+to guide resuscitation after hemorrhage has been controlled. 108 However, these tests are usually not available 
+until a Role 2 facility is encountered and thus are not 
+useful in the initial management of severely injured 
+casualties. Once natural hemostasis has occurred in 
+penetrating trauma animal models, re-bleeding has 
+been found to occur at around 94 mm Hg. 109 In the only 
+randomized controlled trial in humans of hypotensive 
+endpoints versus normal resuscitation strategy, there 
+was no difference in survival. 110 Thus it is reasonable 
+to promote an endpoint strategy of normal mentation 
+and an SBP of 80 to 90 mm Hg or MAP of 60 to 65 mm 
+Hg, corresponding to a palpable radial pulse.
+Hypothermia is common in combat casualties, 
+and even mild hypothermia can affect the function of 
+platelets and clotting factors. 111 Thus, the capability 
+to deliver warmed fluids is critical in the far-forward 
+setting. To preserve heat in casualties, the patient’s 
+clothing and protective gear should be left on (when 
+feasible) during transport. Forward providers should 
+have hypothermia prevention management kits available and use them aggressively. Doors should be 
+closed on vehicles and aircraft during transport. 
+Emerging Adjuncts to Damage Control 
+Resuscitation
+Advances in controlling extremity and junctional 
+hemorrhage over the last decade have left truncal 
+hemorrhage as the source of most potentially survivable injuries. In the landmark paper by Eastridge et al, 
+truncal hemorrhage represented 67. 3% of all potentially 
+survivable injuries due to hemorrhage. 10 Two innovations may possibly contribute to reducing deaths due 
+to truncal hemorrhage when there is a delay to surgical 
+care. Resuscitative endovascular balloon occlusion of 
+the aorta (REBOA) involves placement of an endovascular balloon into the aorta to control hemorrhage and 
+increase afterload in patients with exsanguinating hemorrhage. Civilian trauma centers have successfully used 
+REBOA, and it is beginning to transition into forward 
+resuscitative care. 112 It is imperative that the balloon 
+be placed either in zone I (supraceliac aorta) or zone 
+III (infrarenal aorta). Zone I placement is essentially a 
+balloon “cross-clamp” of the aorta, so balloon inflation 
+time is limited to less than one hour due to mesenteric 
+ischemia. Zone III placement may be helpful in cases 
+of pelvic fractures, but placement here with a vascular 
+wound proximal to the balloon would result in more 
+rapid exsanguination. 113 In civilian trauma centers, 
+placement is confirmed by fluoroscopy, which is not 
+available in forward theater. The use of ultrasound is 
+difficult due to its user-dependent nature. Therefore, a 
+landmark approach is normally used. Because of mixed 
+civilian results, lack of methods to reliably confirm balloon position, and uncertainty of the internal wounding 
+491
+Tactical Medicine
+pattern, REBOA is not currently recommended for use 
+in the combat environment, but research on the technique will continue.
+Self-expanding polyurethane foam to control severe 
+intraabdominal hemorrhage is also gaining traction 
+as a method to decrease potentially survivable deaths 
+due to truncal bleeding. It is nearing FDA approval, 
+is more easily administered by prehospital providers 
+than REBOA, and may be used for up to 4 hours as a 
+hemostatic bridge to definitive surgical care. 114
+MEDICATIONS
+Tranexamic Acid
+The acute coagulopathy of trauma is gaining recognition as a significant factor in treating patients 
+with traumatic hemorrhage. Recent reports show that 
+coagulation derangements are present on presentation to the emergency department in 38% of combat 
+casualties115 and 25% of civilian trauma victims116 
+presenting to a level I trauma center. While the causes 
+of coagulopathy are multifactorial (consumption 
+of factors and platelets, dilution from prehospital 
+resuscitation, hypothermia, acidosis, inflammation), 
+the phenotype of this initial coagulopathy appears 
+to be primarily fibrinolytic (increased fibrinolysis), 
+particularly when standard prehospital resuscitation 
+strategies are followed. 117 If this is true, then stabilizing 
+initial thrombus with an antifibrinolytic such as TXA 
+makes sense. Several recent studies have shown this 
+to be an effective therapy to decrease mortality from 
+hemorrhage in trauma patients.
+The largest and most important study was the 
+CRASH-2 trial. 118 This prospective randomized controlled trial included 20,211 trauma patients with 
+significant hemorrhage or at risk of significant hemorrhage. The patients were randomized to receive either 
+placebo or TXA (1 g of TXA over 10 minutes within 8 
+hours of injury, and then an additional 1 g as an infusion over 8 hours). Absolute risk reduction in the TXA 
+group was significant in this trial, and the number 
+needed to treat was around 68 overall.
+Early treatment with TXA is important. The 
+CRASH-2 trial analysis showed a significant survival 
+advantage if given within 1 hour of injury (P < . 0001). 
+If given from 1 to 3 hours post injury, the significance 
+fell (P = . 03). Given after the 3-hour point, the risk of 
+death due to bleeding increased (P = . 004). 119 
+The MATTERS trial, a retrospective study of 896 
+patients who required a blood transfusion, took place 
+at Camp Bastion, a large combat support hospital in 
+Helmand Province, Afghanistan. 120 In this trial, 293 
+casualties received TXA (the remainder did not). The 
+TXA group had a lower unadjusted mortality (P = . 03) 
+despite being more severely injured (higher injury 
+severity score; P < . 001). Benefit was greatest in a subgroup of patients who received a massive transfusion 
+(P = . 004). TXA use was independently associated with 
+survival (CI 3–17) and less coagulopathy (P = . 003).
+Dosing of TXA is per current TCCC guidelines: if 
+it is anticipated that a patient will need a significant 
+blood transfusion (eg, presents with hemorrhagic 
+shock, one or more major amputations, penetrating 
+torso trauma, or evidence of severe bleeding), then 1 
+g of TXA in 100 mL NS or LR should be administered 
+as soon as possible, ideally within the first hour of 
+injury. The second infusion of 1 g TXA should begin 
+after other IV fluid treatment. The greatest survival 
+benefit reported is when TXA is given within 1 hour 
+of injury and continues for up to 3 hours after injury. If 
+it is initiated beyond that timeframe, the risk of death 
+due to bleeding could increase.
+Pain Control
+Recent military conflicts have prompted significant 
+advances in controlling pain (see Chapter 36, Acute 
+Pain Management in the Deployed Environment). 
+These advances have benefited patients (and providers) from the point of injury through definitive care 
+in the United States. Three areas in particular have 
+driven this change. The first is the need to deliver 
+pain medications without IV access. This has led to 
+advances in transmucosal (oral and nasal) medication administration. The second is the resurgence of 
+ketamine use in the US military. During a period when 
+the US military relied on the morphine auto-injector, 
+other military121,122 and civilian123 providers around 
+the world in austere, resource-limited situations were 
+proving ketamine’s safety and efficacy. The third is the 
+recognition that early control of pain on the battlefield 
+decreases the incidence and severity of posttraumatic 
+stress disorder (PTSD). 124
+Advanced knowledge of limited resuscitation strategies among providers has decreased the need for IV or 
+IO access in the combat environment. Access is logistically challenging (carrying supplies) and technically 
+difficult (unsterile conditions, evacuation, and vehicle 
+movement) in the combat environment. Providers are 
+comfortable and familiar with oral medications such 
+as nonsteroidal antiinflammatory drugs (NSAIDs), 
+acetaminophen, and opiates/opioids from training 
+and hospital practice. They are much less likely to 
+be familiar with oral transmucosal fentanyl citrate 
+492
+Fundamentals of Military Medicine
+(OTFC), expanded use and variable-dose ketamine, 
+and the intranasal administration of medications including fentanyl, ketamine, midazolam, naloxone, and 
+flumazenil. In 2014, the CoTCCC published expanded 
+pain control guidelines under the title “Triple Option 
+Anesthesia,” and the Wilderness Medical Society 
+published “Practice Guidelines for the Treatment of 
+Acute Pain in Remote Environments.” Both organizations included recommendations for the use of OTFC 
+and ketamine. 125,126
+While a broad array of analgesic and sedative 
+options exist, this discussion will focus on OTFC, 
+ketamine, and intranasal medication administration. 
+Common hospital practice for pain control relies 
+primarily on acetaminophen, NSAIDs, and oral or IV 
+opioids. Very few formal training programs include 
+a discussion of alternative drugs and alternative 
+routes of administration. One exception is ketamine, 
+which has seen an expanded profile of use over the 
+last decade in civilian care. Ketamine has been used 
+extensively outside of the United States and by other 
+militaries for decades. Low-dose ketamine is used in 
+acute and chronic pain control, intraoperative and 
+postoperative burn care, depression, emergence reactions to general anesthesia, and postoperative opioid 
+hyperalgesia. Historical concerns related to increases 
+in intracranial127–129 and intraocular pressure130 have 
+been dispelled by recent literature. Ketamine has 
+been shown not to increase the incidence of PTSD 
+in at-risk military personnel131 and has even been 
+used to treat PTSD. 132 Another benefit of ketamine is 
+multiple routes of administration, including IV, IM, 
+and intranasally. Given logistical challenges in the 
+austere setting, intranasal delivery can be particularly useful. Other medications that can be delivered 
+intranasally include fentanyl, midazolam, naloxone, 
+and flumazenil.
+Low-dose (subdissociative) ketamine is typically 
+given at doses of 0. 2 to 0. 5 mg/kg by slow IV push or 
+drip over several minutes. Dissociative dosing is 1 to 
+2 mg/kg IV or 4 to 5 mg/kg IM. Intranasal dosing is 
+0. 5 mg/kg/dose. TCCC guidelines recommend titrating 
+lower doses of ketamine until pain control is achieved 
+or nystagmus is observed. In the authors’ experience, 
+dissociation via the intranasal route is very difficult 
+to achieve because the patient becomes less and less 
+cooperative. 
+No discussion of ketamine would be complete 
+without a discussion of its psychiatric and behavioral 
+side effects. These behavioral disturbances are classically referred to as emergence reactions, but they 
+actually occur in two distinct phases. The first is during 
+the titration of low-dose ketamine, when the patient 
+becomes incompletely dissociated and occasionally 
+quite difficult to control. These side effects may also be 
+observed as dissociative doses of ketamine are wearing 
+off, which is the classic emergence reaction. In either 
+instance, most cases resolve with reassurance, but 
+some cases may require additional medications. The 
+tactical situation dictates whether the provider needs 
+to calm the patient with midazolam or completely 
+dissociate the patient with additional ketamine. One 
+example is during TACEVAC, when uncooperative or 
+agitated patients present a danger to themselves, the 
+providers, and the aircraft/aircrew. Midazolam can 
+cause respiratory depression, which is challenging to 
+observe and manage during flight, so increasing the 
+dosage of ketamine may be the best option.
+Several military studies have been published on 
+the safety and efficacy of OTFC. The original dose of 
+1,600 µg was shown to be safe and effective without 
+side effects, except in cases where IV opioids were 
+coadministered. 133 A more extensive and recent review of lower dose OTFC (800 µg) demonstrated 
+safety and efficacy as well. 134 Wedmore was the first 
+to discuss the additional safety measure of taping the 
+fentanyl “lollipop” to the patient’s finger. 135 This has 
+commonly been described as the “SOF PCA” (Special 
+Operation Forces patient-controlled analgesia). The 
+weight of the patient’s upper extremity will pull the 
+medication out of the mouth when and if the patient 
+becomes somnolent. This prevents both overdosing 
+and choking on the lollipop.
+Antibiotics
+Antibiotics also fall into a specific group of medications that are considered time sensitive in combat 
+injuries. 136 Early tactical care recommendations for antibiotics were based on likely tactical situations where 
+irrigation and surgical debridement were not immediately available. 137 Choices focused on antibiotics with 
+the most favorable logistical (and tactical) properties, 
+such as broad spectrum of action, ease of administration, long duration of action, and lower cost. 138 
+Current TCCC guidelines recommend moxifloxacin, cefotetan, or ertepenem for use, as soon as tactically possible, at the point of injury. Moxifloxacin is 
+given to casualties who can tolerate oral medication 
+administration without vomiting or risk of aspiration. 
+Ertepenem or cefotetan can be given IV or IM for patients unable to tolerate oral medications. Anecdotally, 
+medics tend to prefer ertepenem for its once-daily 
+dosing and lack of reactivity in patients allergic to 
+penicillin or cephalosporin. Broad-spectrum antibiotics are discontinued as soon as possible, tailored to 
+the patient’s wounding pattern and operative care. In 
+addition to published TCCC guidelines and updates, 
+493
+Tactical Medicine
+the best available evidence and expert recommendations were compiled in 2008139 and updated in 2011 
+by the Infectious Diseases Society of America and the 
+Surgical Infection Society. 140–142 
+In 2009, a review of antibiotic use in patients with 
+combat wounds who were treated and returned to 
+duty found decreased wound infection rates with 
+systemic antibiotic prophylaxis. 143 More recently, in 
+2011, a larger retrospective review of point-of-care 
+antibiotics was conducted. The authors found no 
+benefit and no harm from antibiotics alone (such as 
+multidrug-resistant infections). 144 This study does not 
+provide enough information to dissuade providers 
+from administering antibiotics early; rather, it demonstrates the complicated nature of the problem, which 
+includes difficulty adhering to guidelines,145 mechanism of injury,146 evacuation time, and time to surgical 
+care. The 2011 study also supports data showing that 
+multidrug-resistant pathogens do not contaminate the 
+initial wound. 144,147,148 Rather, colonization and infection by multidrug-resistant pathogens are healthcare 
+related. 149,150 The 2011 panel weighed their recommendations for antibiotics as 1C (strong recommendation/
+low-quality evidence) for point-of-injury antibiotics, 
+and 1B (strong recommendation/moderate-quality 
+evidence) for the antibiotics to be given within 3 hours. 
+The fact that no recommendation received a 1A (strong 
+recommendation/high-quality evidence) reinforces the 
+challenges associated with reviewing care in the most 
+austere conditions. 
+CASE REVIEW 
+A remarkable example of coordinated use of recent 
+techniques, tactics, and procedures in tactical medicine 
+occurred on a cold night in mountainous terrain in 
+February 2016. During a Special Operations-led assault force mission in the early morning hours, several 
+members were injured, including one US combatant 
+who was shot in the chest twice just above the ballistic 
+plates in his armor with 7. 62-mm caliber rounds. The 
+patient was immediately moved to a protected area 
+and evaluated. In addition to the gunshot wounds 
+(two entrance wounds in the high chest and one large 
+exit wound in the back) he had shrapnel wounds 
+from a grenade on his arms and face. IV access was 
+obtained early, and TXA and freeze-dried plasma 
+were administered. The patient was then transported 
+by litter (during which his IV was lost) to a helicopter 
+landing zone and turned over to an aeromedical team. 
+The patient was evacuated via a 15-minute flight to a 
+prepositioned DCS team. 
+During the flight, evaluation showed the patient in 
+obvious shock with a weak radial pulse at 130 beats 
+per minute and an oxygen saturation in the 80s. Due 
+to the ambient temperature, the oxygen saturation 
+was deemed unreliable and mental status was used 
+as evidence of end-organ perfusion (pain medication 
+was withheld after the patient stated he could forgo 
+it). A sternal IO needle was placed when no adequate 
+IV access could be found, and the patient received an 
+additional unit of RBCs. Also, a small amount of hemostatic dressing was used on the still actively bleeding 
+exit wound, and a vented chest seal was placed over 
+the dressing. An ultrasound quickly ruled out cardiac 
+tamponade or intrabdominal bleeding, but showed 
+large hemothoraces bilaterally. Additional needle 
+thoracostomies were performed bilaterally due to respiratory distress. The patient was more comfortable 
+sitting up, so he was allowed to remain in that position 
+during the flight.
+On arrival to the surgical team, the patient continued to worsen. Tube thoracostomies were performed 
+bilaterally, with a few hundred milliliters drained 
+from the left and two liters drained from the right. 
+The patient was intubated, and a large bore central 
+line was placed. He subsequently lost vital signs, 
+and a left lateral thoracotomy was performed. Open 
+cardiac massage was performed for several minutes 
+while intravascular volume was restored. The casualty regained spontaneous circulation after several 
+minutes, and resuscitation continued while he was 
+transported to a Role 3 facility. His Purple Heart ceremony was conducted the next day, and his recovery 
+was uneventful. 151
+This case is presented because it represents the 
+successful translation of evidence-based trauma 
+care to the far-forward environment. The casualty’s 
+DCR was begun at the point of injury with an antifibrinolytic and plasma. IO access was used when 
+IV access was difficult. No crystalloid, other than 
+that used to carry reconstituted medications, was 
+used at all. His 1:1 RBC-to-plasma resuscitation was 
+continued nonstop until he reached Role 3 care (at 
+a combat support hospital). The surgical team was 
+very far forward, while still in a secure location. 
+If the surgical team had not been located where 
+it was, the next nearest location would have been 
+over 2 hours away by helicopter. If standard ATLS 
+protocols had been followed by the aeromedical 
+team, the patient would have been intubated or a 
+surgical airway placed (because he was hypoxic 
+with bleeding around the mouth), he would have 
+been given crystalloid, and he would have received 
+medications that might alter his mental status. If any 
+494
+Fundamentals of Military Medicine
+of these maneuvers had been used, the patient might 
+not have survived. The medical team was extremely 
+well trained and drilled together intensely and often, 
+which is a testament to the value placed on military 
+medicine. Military medical providers protect those 
+who protect the nation. 
+CONCLUSION
+Optimized medical care in the tactical setting is a 
+challenging and rapidly evolving field. If approached 
+with the right mindset, the correct predeployment 
+training, and a proper understanding of the both the 
+principles of Tactical Combat Casualty Care and the 
+overall context of the current resources in the area of 
+operations, good outcomes will be ensured for those 
+who go forth to secure the interests of the nation.
+REFERENCES
+ 
+1. Salomone JP, McSwain NE, eds. Preface. In: Prehospital Trauma Life Support. 6th ed. St Louis, MO: Mosby; 2007.
+ 
+2. Trunkey DD. History and development of trauma care in the United States. Clin Orthop Relat Res. 2000;May(374):36–46.
+ 
+3. Croce MA, Livingston DH, Luchette FA, Mackersie RC, eds. American Association for the Surgery of Trauma 75th Anniversary, 1938-2013. Chicago, IL: American Association for the Surgery of Trauma; 2013. 
+ 
+4. King B, Jatoi I. The Mobile Army Surgical Hospital (MASH): a military and surgical legacy. J Natl Med Assoc. 
+2005;97(5):648–656.
+ 
+5. Maughon JS. An inquiry into the nature of wounds resulting in killed in action in Vietnam. Mil Med. 1970;135:8–13.
+ 
+6. Eastridge BJ, Jenkins D, Flaherty S, et al. Trauma system development in a theater of war: experiences from Operation 
+Iraqi Freedom and Operation Enduring Freedom. J Trauma. 2006;61(6):1366–1373.
+ 
+7. Holcomb JB, Stansbury LG, Champion HR, Wade C, Bellamy RF. Understanding combat casualty care statistics. J 
+Trauma. 2006;60(2):397–401.
+ 
+8. Holcomb JB, McMullen NR, Pearse L, et al. Causes of death in US Special Operations Forces in the Global War on 
+Terrorism: 2001-2004. Ann Surg. 2007;245:986–991.
+ 
+9. Kelly JF, Ritenhour AE, McLaughlin DF, et al. Injury severity and causes of death from Operation Iraqi Freedom and 
+Operation Enduring Freedom: 2003-2004 versus 2006. J Trauma. 2008;64:S21-S27.
+ 10. Eastridge BJ, Mabry RL, Seguin P, et al. Death on the battlefield (2001-2011): Implications for the future of combat 
+casualty care. J Trauma Acute Care Surg. 2012;73:S431–S437.
+ 11. Owens BD, Kragh JF Jr, Wenke JC, et al. Combat wounds in Operation Iraqi Freedom and Operation Enduring Freedom. J Trauma. 2008;64(2):295–299.
+ 12. Owens BD, Kragh JF Jr, Macaitis J, et al. Characterization of extremity wounds in Operation Iraqi Freedom and Operation Enduring Freedom. J Orthop Trauma. 2007;21(4):254–257.
+ 13. Lerner EB, Moscati RM. The golden hour: scientific fact or medical “urban legend”? Acad Emerg Med. 2001;8(7):758–760.
+ 14. Parker PJ. Casualty evacuation timelines: an evidence-based review. J R Army Med Corps. 2007;153(4):274–277.
+ 15. Butler FK Jr, Hagmann J, Butler EG. Tactical combat casualty care in special operations. Mil Med. 1996;161(Suppl):3–16.
+ 16. Kotwal RS, Montgomery HR, Kotwal BM, et al. Eliminating preventable death on the battlefield. Arch Surg. 
+2011;146(12):1350–1358.
+ 17. Defense Health Board. Combat Trauma Lessons Learned from Military Operations of 2001-2013. Falls Church, VA: DHB; 
+March 9, 2015:39.
+495
+Tactical Medicine
+ 18. Mabry RL. Tourniquet use on the battlefield. Mil Med. 2006;171(5):352–356.
+ 19. Richey SL. Tourniquets for the control of traumatic hemorrhage: a review of the literature. World J Emerg Surg. 
+2007;2(1):28–37.
+ 20. Kragh JF Jr, Swan KG, Smith DC, Mabry RL, Blackbourne LH. Historical review of emergency tourniquet use to stop 
+bleeding. Am J Surg. 2012;203(2):242–252.
+ 21. Lakstein D, Blumenfeld A, Sokolov T, et al. Tourniquets for hemorrhage control on the battlefield: a 4-year accumulated 
+experience. J Trauma. 2003;54:S221–S225.
+ 22. King DR, van der Wilden G, Kragh JF Jr, Blackbourne LH. Forward assessment of 79 prehospital battlefield tourniquets 
+used in the current war. J Spec Oper Med. 2012;12(4):33–38.
+ 23. Kragh JF Jr, O’Neill ML, Walters TJ, et al. Minor morbidity with emergency tourniquet use to stop bleeding in severe 
+limb trauma: research, history, and reconciling advocates and abolitionists. Mil Med. 2011;176(7):817–823.
+ 24. Kragh JF Jr, Watler TJ, Baer DG, et al. Survival with emergency tourniquet use to stop bleeding in major limb trauma. 
+Ann Surg. 2009;249(1):1–7.
+ 25. Kragh JF Jr, Walters TJ, Baer DG, et al. Practical use of emergency tourniquets to stop bleeding in major limb trauma. 
+J Trauma. 2008;64:S38–S50.
+ 26. Wenke JC, Walter TJ, Greydanus DJ, Pusateri AE, Convertino VA. Physiological evaluation of the U.S. Army onehanded tourniquet. Mil Med. 2005;170(9):776–781.
+ 27. Walters TJ, Mabry RL. Issues related to the use of tourniquets on the battlefield. Mil Med. 2005;170(9):770–775.
+ 28. Walter TJ, Wenke JC, Kauvar DS, McManus JG, Holcomb JB, Baer DG. Effectiveness of self-applied tourniquets in 
+human volunteers. Prehosp Emerg Care. 2005;9:416–422.
+ 29. Savage E, Pannell D, Payne E, O’Leary T, Tien H. Re-evaluating the field tourniquet for the Canadian Forces. Mil Med. 
+2013;178(6):669–675.
+ 30. Welling DR, Burris DG, Hutton JE, Minken SL, Rich NM. A balanced approach to tourniquet use: lessons learned and 
+relearned. J Am Coll Surg. 2006;203(1):106–115.
+ 31. Drew B, Bird D, Matteucci M, Keenan S. Tourniquet conversion: a recommended approach in the prolonged field care 
+setting. J Spec Oper Med. 2015;15(3):23–27.
+ 32. Shackleford SA, Butler FK Jr, Kragh JF, et al. Optimizing the use of limb tourniquets in tactical combat casualty care: 
+TCCC guidelines change 14-02. J Spec Oper Med. 2015;15(1):17–31.
+ 33. Fitzgibbons PG, Digiovanni C, Hares S, Akelman E. Safe tourniquet use: a review of the evidence. J Am Acad Orthop 
+Surg. 2012;20:310–319.
+ 34. Kragh JF Jr, Baer DG, Walters TJ. Extended (16-hour) tourniquet application after combat wounds: a case report and 
+review of the current literature. J Orthop Trauma. 2007;21:274–278.
+ 35. Woff LH, Adkins TF. Tourniquet problems in war injuries. Bull US Army Med Dep. 1945;87:77–84.
+ 36. Pusateri AE, Holcomb JB, Kheirabadi BS, Alam HB, Wade CE, Ryan KL. Making sense of the preclinical literature on 
+advanced hemostatic products. J Trauma. 2006;60:674–682.
+ 37. Butler FK Jr, Holcomb JB, Giebner SD, McSwain NE, Bagian J. Tactical combat casualty care 2007: evolving concepts 
+and battlefield experience. Mil Med. 2007;172(11 Suppl):1–19.
+496
+Fundamentals of Military Medicine
+ 38. Arnaud F, Tomori T, Saito R, McKeague A, Prusaczyk WK, McCarron RM. Comparative efficacy of granular and 
+bagged formulations of the hemostatic agent QuikClot. J Trauma. 2007;63:775–782.
+ 39. Rao SB, Sharma CP. Use of chitosan as a biomaterial: studies on its safety and hemostatic potential. J Biomed Mater 
+Res. 1997;34:21–28.
+ 40. Kheirabadi BS, Acheson EM, Deguzman R, et al. Hemostatic efficacy of two advanced dressings in an aortic hemorrhage model in swine. J Trauma. 2005;59:25–35.
+ 41. Kheirabadi BS, Edens JW, Terrazas IB, et al. Comparison of new hemostatic granules/powders with currently deployed 
+hemostatic products in a lethal model of extremity arterial hemorrhage in swine. J Trauma. 2009;66:316–328.
+ 42. Rall JM, Cox JM, Songer AG, Cestero RF, Ross JD. Comparison of novel hemostatic dressings with QuikClot combat 
+gauze in a standardized swine model of uncontrolled hemorrhage. J Trauma Acute Care Surg. 2013;75:S150–156.
+ 43. Conley SP, Littlejohn LF, Henao J, DeVito SS, Zarow GJ. Control of junctional hemorrhage in a consensus swine model 
+with hemostatic gauze products following minimal training. Mil Med. 2015;180(11):1189–1195.
+ 44. Littlejohn LF, Devlin JJ, Kircher SS, et al. Comparison of CELOX-A, Chitoflex, WoundStat, and Combat Gauze hemostatic agents versus standard gauze dressing in control of hemorrhage in a swine model of penetrating trauma. Acad 
+Emerg Med. 2011;8(4):340–350.
+ 45. Kragh JF, Murphy C, Dubick M et al. The tourniquet device concepts for battlefield hemorrhage control. Army Med 
+Dept J. April-June 2011:38–48.
+ 46. Kheirabadi BS, Terrazas IB, Kragh JF Jr, Dubick MA, Blackbourne LH. In vivo assessment of Combat Ready Clamp 
+to control junctional hemorrhage in swine. J Trauma Acute Care Surg. 2013;74:1260–1265.
+ 47. Mann-Salinas EA, Kragh JF Jr, Dubick MA, Baer DG, Blackbourne LH. Assessment of users to control simulated 
+junctional hemorrhage with the combat ready clamp (CRoC™). Int J Burns Trauma. 2013;3(1):49–54.
+ 48. Gates KS, Baer L, Holcomb JB. Prehospital emergency care: evaluation of the junctional emergency tourniquet tool 
+with a perfused cadaver model. J Spec Oper Med. 2014;14(1):40–44.
+ 49. Mabry RL, Edens JW, Pearse L, Kelly JF, Harke H. Fatal airway injuries in Operation Enduring Freedom and Operation Iraqi Freedom. Prehosp Emerg Care. 2010;14:272–277. 
+ 50. Mabry RL. An analysis of battlefield cricothyrotomy in Iraq and Afghanistan. J Spec Oper Med. 2012;12:17–23.
+ 51. Tactical Combat Casualty Care guidelines for medical personnel, 31 January 2017: 3. http://www.naemt.org/docs/
+default-source/education-documents/tccc/072016-updates/tccc-guidelines-for-medical-personnel-170131.pdf?sfvrsn=8. 
+Accessed May 23, 2017. 
+ 52. Belmont PJ Jr, Goodman GP, Zacchilli M, Posner M, Evans C, Owens BD. Incidence and epidemiology of combat 
+injuries sustained during “the surge” portion of Operation Iraqi Freedom by a U.S. Army brigade combat team. J 
+Trauma. 2010;68:204–210.
+ 53. Shen-Gunther J, Ellison R, Kuhens C, Roach CJ, Jarrard S. Operation Enduring Freedom: trends in combat casualty 
+care by forward surgical teams deployed to Afghanistan. Mil Med. 2011;176:67–68.
+ 54. Beckett A, Savage E, Pannell D, Acharya S, Kirkpatrick A, Tien HC. Needle decompression for tension pneumothorax 
+in Tactical Combat Casualty Care: do catheters placed in the midaxillary line kink more often than those in the midclavicular line? J Trauma. 2011;71:S408–S412.
+ 55. Stevens RL, Rochester AA, Busko J, et al. Needle thoracostomy for tension pneumothorax: failure predicted by chest 
+computed tomography. Prehosp Emerg Care. 2009;13:14–17.
+ 56. Inaba K, Branco BC, Eckstein M, et al. Optimal positioning for emergent needle thoracostomy: a cadaver-based study. 
+J Trauma. 2011;71:1099–1103.
+497
+Tactical Medicine
+ 57. Martin M, Satterly S, Inaba K, Blair K. Does needle thoracostomy provide adequate and effective decompression of 
+tension pneumothorax? J Trauma Acute Care Surg. 2012;73:1412–1417.
+ 58. Holcomb JB, McManus JG, Kerr ST, Pusateri AE. Needle versus tube thoracostomy in a swine model of traumatic 
+tension hemopneumothorax. Prehosp Emerg Care. 2009;13:18–27.
+ 59. Chen J, Nadler R, Schwatrz D, Tien H, Cap AP, Glassberg E. Needle thoracostomy for tension pneumothorax: the 
+Israeli Defense Forces experience. Can J Surg. 2015;58(3):S118–S124.
+ 60. American College of Surgeons Committee on Trauma. Thoracic trauma. In: ATLS: Advanced Trauma Life Support for 
+Doctors: Student Course Manual. 8th ed. Chicago, IL: ACS; 2008:87.
+ 61. Haynes BW Jr. Dangers of emergency occlusive dressing in sucking wounds of the chest. J Am Med Assoc. 1952;150:1404.
+ 62. Arnaud F, Tomori T, Teranishi K, Yun J, McCarron R, Mahon R. Evaluation of chest seal performance in a swine model: 
+comparison of Asherman versus Bolin seal. Injury. 2008;39:1082–1088.
+ 63. Kotora JG, Henao J, Littlejohn LF, Kircher S. Vented chest seals for prevention of tension pneumothorax in a communicating pneumothorax model. J Emerg Med. 2013;45(5):686–694.
+ 64. Holcomb JB, Jenkins D, Rhee P, et al. Damage control resuscitation: directly addressing the early coagulopathy of 
+trauma. J Trauma. 2007;62:307–310.
+ 65. Joint Trauma System Clinical Practice Guideline: damage control resuscitation. http://jts.amedd.army.mil/assets/docs/
+cpgs/JTS_Clinical_Practice_Guidelines_(CPGs)/Damage_Control_Resuscitation_03_Feb_2017_ID18.pdf. Published 
+February 3, 2017. Accessed June 26, 2018.
+ 66. Gerhardt RT, Strandenes G, Cap AP, et al. Remote damage control resuscitation and the Solstrand Conference: defining the need, the language, and a war forward. Transfusion. 2013;53(Suppl 1):S9–S16.
+ 67. Holcomb JB. Fluid resuscitation in modern combat casualty care: lessons learned from Somalia. J Trauma. 2003;54(Suppl 
+5):S46–S51.
+ 68. Guly HR, Bouamra O, Spiers M, et al. Vital signs and estimated blood loss in patients with major trauma: testing the 
+validity of the ATLS classification of hypovolaemic shock. Resuscitation. 2011;82(5):556–559.
+ 69. Butler FK, Holcomb JB, Schreiber MA, et al. Fluid resuscitation for hemorrhagic shock in Tactical Combat Casualty 
+Care: TCCC Guidelines Change 14-01 – 2 June 2014. J Spec Oper Med. 2014;14(3):13–38.
+ 70. Woolley T, Thompson P, Kirkman E, et al. Trauma Hemostasis and Oxygenation Research Network position paper 
+on the role of hypotensive resuscitation as part of remote damage control resuscitation. J Trauma Acute Care Surg. 
+2018;84(6S Suppl 1):S3–S13.
+ 71. Mapstone J, Roberts I, Evans P. Fluid resuscitation strategies: a systematic review of animal trials. J Trauma. 
+2003;55(3):571–589.
+ 72. Bickell WH, Wall MJ, Pepe PE, et al. Immediate versus delayed fluid resuscitation for hypotensive patients with penetrating torso injuries. N Engl J Med. 1994;331:1105–1109.
+ 73. Koehler RH, Smith S, Bacaner T. Triage of American casualties: the need for change. Mil Med. 1994;159:541–547.
+ 74. Advanced Trauma Life Support. 9th ed. Chicago, IL: American College of Surgeons; 2013.
+ 75. Pope AM, French G, Longnecker DE, eds. Fluid Resuscitation: State of the Science for Treating Combat Casualties and Civilian Injuries. Washington, DC: National Academies Press; 1999.
+ 76. Butler F. Fluid resuscitation in tactical combat casualty care: brief history and current status. J Trauma. 2011;70(5):S11–
+S12.
+498
+Fundamentals of Military Medicine
+ 77. Sasser S, Varghese M, Kellerman A, Lormand JD. Prehospital Trauma Care Systems. Geneva, Switzerland: World Health 
+Organization; 2005.
+ 78. Malone DL, Dunne J, Tracy JK, Putnam AT, Scalea TM, Napolitano LM. Blood transfusion, independent of shock 
+severity, is associated with worse outcome in trauma. J Trauma. 2003;54:898–905.
+ 79. Morrison JJ, Oh J, Dubose JJ, et al. En-route care capability from point of injury impacts mortality after severe wartime 
+injury. Ann Surg. 2013;257:330–334.
+ 80. Butler FK, Holcomb JB, Schreiber MA, et al. Fluid resuscitation for hemorrhagic shock in Tactical Combat Casualty 
+Care: TCCC guidelines change 14-01—2 June 2014. J Spec Oper Med. 2014;14(3):13–38.
+ 81. Mohr R, Goor DA, Yellin A, Moshkovitz Y, Shinfeld A, Martinowitz U. Fresh blood units contain large potent platelets 
+that improve hemostasis after open heart operations. Ann Thoracic Surg. 1992;53:650–654.
+ 82. Hooper TJ, De Pasquale M, Strandenes G, Sunde G, Ward KR. Challenges and possibilities in forward resuscitation. 
+Shock. 2014;41(1):13–20.
+ 83. Kauvar DS, Holcomb JB, Norris GC, Hess JR. Fresh whole blood transfusion: a controversial military practice. J Trauma. 
+2006;61:181–184.
+ 84. Hakre S, Peel SA, O’Connell RJ, et al. Transfusion-transmissible viral infections among US military recipients of whole 
+blood and platelets during Operation Enduring Freedom and Operation Iraqi Freedom. Transfusion. 2011;51(3):473–485.
+ 85. Strandenes G, Skogrand H, Spinella PC, Hervig T, Rein EB. Donor performance of combat readiness skills of special 
+forces soldiers are maintained immediately after whole blood donation: a study to support the development of a 
+prehospital fresh whole blood transfusion program. Transfusion. 2013;53(3):526–530.
+ 86. Fisher AD, Miles EA, Cap AP, Strandenes G, Kane SF. Tactical damage control resuscitation. Mil Med. 2015; 180(8):869–
+875.
+ 87. Strandenes G, Berseus O, Cap AP, et al. Low titer group O whole blood in emergency situations. Shock. 2014;41(Suppl 
+1):70–75.
+ 88. Glassberg E, Nadler R, Rasmussen TE, et al. Point-of-injury use of reconstituted freeze dried plasma as a resuscitative 
+fluid: A special report for prehospital trauma care. J Trauma Acute Care Surg. 2013;75(2):S111–S114. 
+ 89. Gillies M, Habicher M, Jhanji S, et al. Incidence of postoperative death and acute kidney injury associated with i.v. 
+6% hydroxyethyl starch use: systematic review and meta-analysis. Br J Anaesth. 2014;112:25–34.
+ 90. Gan TJ, Bennett-Guerrero E, Phillips-Bute B, et al. Hextend, a physiologically balanced plasma expander for large 
+volume use in major surgery: a randomized phase III clinical trial. Anesth Analg. 1999;88:992–998.
+ 91. Perel P, Roberts I. Colloids versus crystalloids for fluid resuscitation in critically ill patients. Cochrane Database of Syst 
+Rev. 2007;17:CD000567.
+ 92. Todd SR, Malinoski D, Muller PJ, et al. Hextend attenuates hypercoagulability after severe liver injury in swine. J 
+Trauma. 2005;59:589–593.
+ 93. Beekley AC, Starnes BW, Sebesta JA. Lessons learned from modern military surgery. Surg Clin N Am. 2007;87:157–184.
+ 94. Shires T, Coln D, Carrico J, Lightfoot S. Fluid therapy in hemorrhagic shock. Arch Surg. 1964;88:688–693.
+ 95. Kirkpatrick AW, Balogh Z, Ball CG, et al. The secondary abdominal compartment syndrome: iatrogenic or unavoidable? J Am Coll Surg. 2006;202:668–679.
+ 96. Ashbaugh DG, Bigelow DB, Petty TL, Levine BE. Acute respiratory distress in adults. Lancet. 1967;12:319–323.
+499
+Tactical Medicine
+ 97. Cannon WB, Faser J, Collew EM. The preventive treatment of wound shock. JAMA. 1918;47:618.
+ 98. Selby JB, Mathis JE, Berry CF, Hagedorn FN, Illner HP, Shires GT. Effects of isotonic saline solution resuscitation on 
+blood coagulation in uncontrolled hemorrhage. Surgery. 1996;119:528–533.
+ 99. Hubmann B, Lefering R, Taeger G, et al. Influence of prehospital fluid resuscitation on patients with multiple injuries 
+in hemorrhagic shock in patients from the DGU trauma registry. J Emerg Trauma Shock. 2011;4:465–471.
+ 100. Gruen RL, Shreiber M, Balogh ZJ, Pitt V, Narayan M, Maier RV. Haemorrhage control in severely injured patients. 
+Lancet. 2012;380:1099–1108.
+ 101. Lemcke J, Al-Zain F, von der Brelie C, Ebenau M, Meier U. The influence of coagulopathy on outcome after traumatic 
+subdural hematoma: a retrospective single-center analysis of 319 patients. Blood Coagul Fibrinolysis. 2014;25:353–359.
+ 102. Marino PL. Colloid and crystalloid resuscitation. In: Marin PL. The ICU Book. 3rd ed. Philadelphia, PA: Lippincott 
+Williams & Wilkins; 2007:233–253.
+ 103. Schreiber M. The use of normal saline for resuscitation in trauma. J Trauma. 2011;70:S13–S14.
+ 104. Manley G, Knudson MM, Morabito D, Damron S, Erickson V, Pitts L. Hypotension, hypoxia, and head injury: frequency, duration, and consequences. Arch Surg. 2001;136(10):1118–1123.
+ 105. Wade CE, Kramer GC, Grady JJ, Fabian TC, Younes RN. Efficacy of hypertonic 7. 5% saline and 6% dextran-70 in treating trauma: a meta-analysis of controlled clinical studies. Surgery. 1997:122:609–616.
+ 106. Cooper DJ, Myles PS, McDermott FT, et al. Prehospital hypertonic saline resuscitation of patients with hypotension 
+and severe traumatic brain injury: a randomized controlled trial. JAMA. 2004;291(11):1350–1357.
+ 107. Bulger EM, May S, Brasel KJ, et al. Out-of-hospital hypertonic resuscitation following severe traumatic brain injury: 
+a randomized controlled trial. JAMA. 2010;304(13):1455–1464. 
+ 108. Tisherman SA, Barie P, Bokhari F, et al. Clinical practice guideline: endpoints of resuscitation. J Trauma. 2004;57(4):898–
+912.
+ 109. Sondeen JL, Coppes VG, Holcomb JB. Blood pressure at which rebleeding occurs after resuscitation in swine with 
+aortic injury. J Trauma. 2003;54(5 Suppl):S110–S117.
+ 110. Dutton RP, Mackenzie CF, Scalea TM. Hypotensive resuscitation during active hemorrhage: impact on in-hospital 
+mortality. J Trauma. 2002;52(6):1141–1146.
+ 111. Hess JR, Brohi K, Dutton RP, et al. The coagulopathy of trauma: a review of mechanisms. J Trauma. 2008;65(4):748–754.
+ 112. Brenner ML, Moore LJ, DuBose JJ, et al. A clinical series of resuscitative endovascular balloon occlusion of the aorta 
+for hemorrhage control and resuscitation. J Trauma Acute Care Surg. 2013;75(3):506–511.
+ 113. Morrison JJ, Galgon RE, Jansen JO, Cannon JW, Rasmussen TE, Eliason JL. A systematic review of the use of resuscitative endovascular balloon occlusion of the aorta in the management of hemorrhagic shock. J Trauma Acute Care Surg. 
+2016;80(2):324–334.
+ 114. Rago AP, Larentzakis A, Marini J, et al. Efficacy of a prehospital self-expanding polyurethane foam for noncompressible hemorrhage under extreme operational conditions J Trauma Acute Care Surg. 2015;78(2):324–329.
+ 115. Niles SE, McLaughlin DF, Perkins JG, et al. Increased mortality associated with the early coagulopathy of trauma in 
+combat casualties. J Trauma. 2008;64:1459–1465.
+ 116. Brohi K, Singh J, Heron M, Coats T. Acute traumatic coagulopathy. J Trauma. 2003;54:1127–1130.
+500
+Fundamentals of Military Medicine
+ 117. Bolliger D, Szlam F, Levy JH, Molinaro RJ, Tanaka KA. Haemodilution-induced profibrinolytic state is mitigated 
+by fresh-frozen plasma: implications for early haemostatic intervention in massive haemorrhage. Br J Anaesth. 
+2010;104:318–325.
+ 118. Shakur H, Roberts I, Bautista R, et al. Effects of tranexamic acid on death, vascular occlusive events, and blood transfusion in trauma patients with significant haemorrhage (CRASH-2): a randomised, placebo-controlled trial. Lancet. 
+201;376:23–32.
+ 119. Roberts I, Shakur H, Afolabi A, et al. The importance of early treatment with tranexamic acid in bleeding trauma 
+patients: an exploratory analysis of the CRASH-2 randomised controlled trial. Lancet. 2011;377:1096–1101.
+ 120. Morrison JJ, Dubose JJ, Rasmussen TE, Midwinter MJ. Military Application of Tranexamic Acid in Trauma Emergency 
+Resuscitation (MATTERs) Study. Arch Surg. 2012;147:113–119.
+ 121. Austin TR. Ketamine: a revolutionary anesthetic for the battle casualty. J R Army Medical Corps. 1972;118:15–23.
+ 122. Mercer SJ. “The Drug of War”—a historical review of the use of ketamine in military conflicts. J R Nav Med Serv. 
+2009;95(3):145–150.
+ 123. Green SM, Clem KJ, Rothrock SG. Ketamine safety profile in the developing world: a survey of practitioners. Acad 
+Emerg Med. 1996;3(6):598–604.
+ 124. Holbrook TL, Galarneau MR, Dye JL, Quinn K, Dougherty AL. Morphine use after combat injury in Iraq and posttraumatic stress disorder. N Engl J Med. 2010;362:110–117.
+ 125. Butler FK, Kotwal RS, Buckenmaier CC 3rd, et al. A triple-option analgesia plan for tactical combat casualty care: 
+TCCC Guidelines change 13-04. J Spec Oper Med. 2014;14(1):13–25.
+ 126. Russell KW, Scaife CL, Weber DC, et al. Wilderness Medical Society practice guidelines for the treatment of acute pain 
+in remote environments. Wilderness Environ Med. 2014;25:41–49.
+ 127. Filanovsky Y, Miller P, Kao J. Myth: ketamine should not be used as an induction agent for intubation in patients with 
+head injury. CJEM. 2010;12(2):154–157.
+ 128. Hughes S. Towards evidence based emergency medicine: best BETs from the Manchester Royal Infirmary. BET 3: is 
+ketamine a viable induction agent for the trauma patient with potential brain injury. Emerg Med J. 2011;28(12):1076–1077.
+ 129. Wang X, Ding X, Tong Y, et al. Ketamine does not increase intracranial pressure compared with opioids: meta-analysis 
+of randomized controlled trials. J Anesth. 2014;28(6):821–827.
+ 130. Drayna PC, Estrada C, Wang W, Saville BR, Arnold DH. Ketamine sedation is not associated with clinically meaningful elevation of intraocular pressure. Am J Emerg Med. 2012;30:1215–1218.
+ 131. McGee LL, Maani CV, Garza TH, Slater TM, Petz LN, Fowler M. The intraoperative administration of ketamine to burned 
+US service members does not increase the incidence of post-traumatic stress disorder. Mil Med. 2014;179(8):41–46.
+ 132. Feder A, Parides MK, Murrough JW, et al. Efficacy of intravenous ketamine for treatment of chronic posttraumatic 
+stress disorder: a randomized clinical trial. JAMA Psychiatry. 2014;71(6):681–688.
+ 133. Kotwal RS, O’Connor KC, Johnson TR, Mosely DS, Meyer DE, Holcomb JB. A novel pain management strategy for 
+combat casualty care. Ann Emerg Med. 2004;44(2):121–127.
+ 134. Wedmore IS, Kotwal RS, McManus JG, et al. Safety and efficacy of oral transmucosal fentanyl citrate for prehospital 
+pain control on the battlefield. J Trauma Acute Care Surg. 2012;73:S490–S495.
+ 135. Wedmore IS, Johnsom T, Czarnik J, Hendrix S. Pain management in the wilderness and operational setting. Emerg 
+Med Clin N Am. 2005;23:585–601.
+501
+Tactical Medicine
+ 136. Hospenthal DR, Murray CK, Andersen RC, et al. Executive summary: Guidelines for the prevention of infections associated with combat-related injuries: 2011 update: endorsed by the Infectious Diseases Society of America and the 
+Surgical Infection Society. J Trauma. 2011;71(2 Suppl 2):S202–209.
+ 137. Butler FK Jr, Hagmann JH, Richards DT. Tactical management of urban warfare casualties in special operations. Mil 
+Med. 2000;165(Suppl:1):1–48.
+ 138. Butler FK Jr, Hagmann J, Butler EG. Tactical Combat Casualty Care in Special Operations. Mil Med. 1996;161(Suppl 
+1):3–16.
+ 139. Murray CK, Hospenthal DR. Prevention and management of combat-related infections clinical practice guidelines 
+consensus conference: overview. J Trauma. 2008;64(Supplement):S207–S208.
+ 140. D’Avignon LC, Chung KK, Saffle JR, Renz EM, Cancio LC, Prevention of Combat-Related Infections Guidelines Panel. 
+Prevention of infections associated with combat-related burn injuries. J Trauma. 2011;71(2 Suppl 2):S282–289.
+ 141. Martin GJ, Dunne JR, Cho JM, Solomkin JS, Prevention of Combat-Related Infections Guidelines Panel Prevention of 
+infections associated with combat-related thoracic and abdominal cavity injuries. J Trauma. 2011;71(2 Suppl 2):S270–281.
+ 142. Murray CK, Obremskey WT, Hsu JR, et al. Prevention of infections associated with combat-related extremity injuries. 
+J Trauma. 2011;71(2 Suppl 2):S235–257.
+ 143. Gerhardt RT, Matthews JM, Sullivan SG. The effect of systemic antibiotic prophylaxis and wound irrigation on penetrating combat wounds in a return-to-duty population. Prehosp Emerg Care. 2009;13:500–504.
+ 144. Murray CK, Hospenthal DR, Kotwal RS, Butler FK. Efficacy of point-of-injury combat antimicrobials. J Trauma. 2011;71(2 
+Suppl 2):S307–313.
+ 145. Lloyd BA, Weintrob AC, Hinkle MK, et al. Adherence to published antimicrobial prophylaxis guidelines for wounded 
+service members in the ongoing conflicts in Southwest Asia. Mil Med. 2014;179(3):324–328.
+ 146. Murray CK, Wilkins K, Molter NC, et al. Infections complicating the care of combat casualties during operations Iraqi 
+Freedom and Enduring Freedom. J Trauma. 2011;71(1 Suppl):S62–73.
+ 147. Murray CK, Roop SA, Hospenthal DR, et al. Bacteriology of war wounds at the time of injury. Mil Med. 2006;171(9):826–
+829.
+ 148. Wallum TE, Yun HC, Rini EA, et al. Pathogens present in acute mangled extremities from Afghanistan and subsequent 
+pathogen recovery. Mil Med. 2015;180(1):97–103.
+ 149. Weintrob AC, Murray CK, Lloyd B, et al. Active surveillance for asymptomatic colonization with multidrug resistant 
+gram negative bacilli among injured service members—a three year evaluation. MSMR. 2013;20(8):17–22.
+ 150. Scott P, Deye G, Srinivasan A, et al. An outbreak of multidrug-resistant Acinetobacter baumannii-calcoaceticus 
+complex infection in the US military health care system associated with military operations in Iraq. Clin Infect Dis. 
+2007;44(12):1577–1584.
+ 151. McKenzie MR, Parrish EW, Miles EA, et al. A case of prehospital traumatic arrest in a US special operations soldier. 
+J Spec Oper Med. 2016;16(3):93–96.
+502
+Fundamentals of Military Medicine

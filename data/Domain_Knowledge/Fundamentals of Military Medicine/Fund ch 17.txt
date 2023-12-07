@@ -1,0 +1,604 @@
+249
+Medical Logistics
+Chapter 17
+MEDICAL LOGISTICS
+DAVID SLONIKER* and JAMES F. SCHWARTZ†
+INTRODUCTION
+INTEGRATED MEDICAL LOGISTICS MANAGEMENT
+ORGANIZATIONAL ROLES AND MISSIONS
+Strategic Role
+Service Agencies
+Operational Roles
+Tactical Roles
+Blood Management
+Medical Maintenance
+Optical Fabrication
+Patient Movement Items
+MEDICAL LOGISTICS LESSONS LEARNED
+Tips for the Provider
+Checklist and Planning Considerations
+RESOURCES
+SUMMARY 
+*Colonel, Medical Service Corps, US Army; Commander, 6th Medical Logistics Management Center, Fort Detrick, Maryland
+†Lieutenant Colonel (Retired), Medical Service Corps, US Army; Assistant Professor and Chief of Staff, Department of Military and Emergency Medicine, 
+F. Edward Hebert School of Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland 
+250
+Fundamentals of Military Medicine
+INTRODUCTION
+ Few elements of health service support (HSS) are 
+as routinely underappreciated by the medical caregiver as is medical logistics (“MEDLOG”). In a world 
+in which Internet-enabled purchasing of everything 
+from books to clothing to groceries and toiletries has 
+made face-to-face encounters with a salesperson nearly 
+obsolete, where delivery trucks make round-the-clock 
+home deliveries, and even drones are being explored 
+for supplying just-in-time commercial products, 
+the many processes and network of relationships in 
+logistics have become invisible to the customer. In a 
+tribute to the professional success of medical logisticians, these processes are often even less apparent in 
+a clinic or hospital. Drugs are ordered electronically 
+and either unit-dosed to a ward or dispensed promptly 
+in a pharmacy. The surgeon—swaddled in disposable 
+sterile gowns and mask and sheathed in latex gloves—
+asks for a specific suture, instrument, or device and is 
+almost instantly provided the right tool. 
+Yet no aspect of medical support for global military operations is more complex or demanding of 
+agility, adaptive processes, specificity, and creativity 
+than MEDLOG. In addition, effective and efficient 
+MEDLOG in the dynamic field of healthcare must be 
+concerned with the entire supply chain, from manufacturer to end-user, and from initial deployment of a 
+device or piece of equipment, through obsolescence, 
+disposal, and replacement with a more current or 
+updated version. Joint Publication 4. 02 describes MEDLOG as an integral part of the Military Health System 
+that provides capabilities to organize and provide lifecycle management of the specialty medical products 
+and services required to operate an integrated health 
+system anywhere in the world. 1 
+MEDLOG support must be responsive to differences in professional training and specialty requirements. Proactive planning is required to predict 
+materiel requirements and logistics support based on 
+mission requirements and the operational environment. Close rapport, continuous communication, 
+and mutual respect and understanding between the 
+medical logistician and the healthcare provider are 
+all essential for maintaining the health of military personnel, ensuring the lifesaving ability of the medical 
+force, and conserving the fighting force. This chapter 
+provides new medical officers and other healthcare 
+providers with a primer on the Department of Defense 
+(DoD) MEDLOG functional area, on the operational, 
+strategic, and tactical levels. This is by no means a 
+doctrinal document; rather, it is a guide for understanding the roles of medical logisticians in garrison 
+and for developing the MEDLOG support plan in an 
+operational environment. The primary tasks of the 
+MEDLOG function is to provide:
+ 
+• medical materiel management,
+ 
+• medical equipment maintenance and repair,
+ 
+• optical fabrication, 
+ 
+• blood distribution management,
+ 
+• centralized management of patient movement 
+items,
+ 
+• health facilities planning and management, 
+and
+ 
+• medical contracting.
+INTEGRATED MEDICAL LOGISTICS MANAGEMENT
+The differences among US Army, Navy, Air Force, 
+and Marine Corps medical operations are often contextually specific. MEDLOG support is therefore normally a USC Title 10 service responsibility. However, 
+in joint operations, a single integrated medical logistics 
+manager (SIMLM) and a theater lead agent for medical 
+materiel (TLAMM) are designated. The SIMLM’s mission, assigned to a service component command or joint 
+task force, is to provide MEDLOG support of the joint 
+force and government or multinational partners. The 
+mission assignment is specific and depends on the supported force, complexity of distribution processes, and 
+duration of need. The SIMLM promotes supply chain 
+efficiency and minimizes the theater MEDLOG force. 
+TLAMMs are units or organizations designated by 
+the Chairman of the Joint Chiefs of Staff, in coordination with the geographic combatant commands and 
+secretaries of the military departments, to serve as 
+the major theater medical distribution point. These 
+units provide the face to the customer for MEDLOG 
+and supply chain management. TLAMMs manage 
+demand-supported medical materiel inventories to 
+support HSS operations and maintain relations with 
+theater customers, national-level suppliers, and theater distribution management activities. TLAMMs 
+are geographically based and assist the geographical 
+combatant commander, SIMLM, and Defense Logistics Agency (DLA) in MEDLOG planning, provide 
+direct medical materiel support to theater medical 
+forces, and ensure operational and tactical units are 
+integrated into the end-to-end medical supply chain. 
+They are resourced through their parent service, operate through the command and control structure of their 
+parent organization, and provide support under the 
+authority of the Chairman of the Joint Chiefs of Staff 
+designation and DoD policy. 
+251
+Medical Logistics
+Army TLAMMs execute supply operations using 
+DLA’s Defense Working Capital Fund, while the Air 
+Force TLAMMs use the Air Force Working Capital 
+Fund. Core MEDLOG functions required to support 
+medical operations, as defined in Joint Publication 4-02, 
+include medical supply; medical equipment maintenance and repair; assembly and fielding of medical 
+assemblages; and management of vaccines, investigational drugs, special equipment, and any other materiel 
+subject to special interest or control by the joint force 
+surgeon. 1 The joint force surgeon’s office coordinates 
+HSS and force health protection capabilities for the 
+joint force, including MEDLOG. Synchronization of 
+HSS among the joint force and the SIMLM leads to 
+integrated MEDLOG support across the geographic 
+combatant command.
+ORGANIZATIONAL ROLES AND MISSIONS
+For an enterprise of the magnitude required to provide and maintain medical supplies and equipment 
+for military operations on a global scale to be successful, it must have an orderly approach and a coherent 
+structure from the highest level of DoD acquisition to 
+the smallest unit or the sole provider at the point of 
+use anywhere in the world. Imagine a combination 
+drug store, appliance store, and repair garage serving a small community coupled to an ever-changing 
+research and development and manufacturing consortium capable of staying abreast of the community’s 
+demands for the most effective, safest, and targeted 
+needs. Military MEDLOG performs these functions on 
+a continuous basis with few interruptions or miscues.
+Strategic Role 
+Like any large health maintenance and healthcare 
+organization, the DoD is an enormous consumer of 
+medical supplies, pharmaceuticals, and equipment. At 
+the highest organizational level, the demands of the 
+individual services can be unified into large bulk purchases, resulting in cost advantages, reduced variation 
+in quality and form, and simplified warehousing and 
+distribution. DoD designated the DLA director as the 
+single representative for all of the services—the DoD 
+executive agent for medical materiel (known in DoD 
+parlance as Class VIII)—in 2005. 2 (DLA also serves as 
+the DoD executive agent for several classes of supply 
+besides medical, including food [Class I], uniforms 
+[Class II], and fuel [Class III].) DLA in turn delegated 
+executive responsibility to the commander of DLATroop Support (DLA-TS), located in Philadelphia. 
+DLA-TS provides the overarching contracts for the 
+DoD worldwide. Major multiyear contracts are negotiated with the major suppliers of materiel (“prime 
+vendors”) at great savings for the DoD through economies of scale. DLA-TS procures medical materiel and 
+equipment for the DoD and “sells” them to the military 
+service end-users. DLA-TS establishes contractual 
+arrangements for the acquisition and distribution of 
+surge and sustainment materiel in support of the services’ contingency shortfalls. DLA-TS provides the operational infrastructure enabling high-priority medical 
+materiel to be shipped through a single consolidation 
+hub directly into theater. As a result, medical customers in the Army Central Command (CENTCOM) and 
+European Command (EUCOM) have in-transit visibility, which allows limited transportation resources 
+to be used more efficiently, thereby improving the 
+effectiveness of the DoD MEDLOG supply chain.
+Service Agencies
+As mentioned above, each of the medical services 
+maintains a service-specific MEDLOG capability to 
+meet the unique demands of their respective end-users. But it should be noted that each of three principal 
+service MEDLOG coordinating centers are collocated 
+at the Defense Medical Logistics Center facility located 
+at Fort Detrick, Maryland—in many regards, the center 
+of MEDLOG for the DoD.
+The US Army Medical Materiel Agency (USAMMA), a subordinate command of the Army Medical 
+Research and Materiel Command, acts as the Army 
+surgeon general’s focal point for strategic MEDLOG 
+programs and initiatives. USAMMA’s mission is to 
+develop, acquire, provide, and sustain world-class 
+solutions and capabilities to enable medical readiness globally. Accordingly, the USAMMA’s principal skills and technologies focus on the medical 
+logistician’s role in lifecycle management, sustaining 
+and modernizing the medical force (active, Guard, 
+and reserve), supporting exercises and contingency 
+operations, and promoting MEDLOG information 
+and knowledge. 
+The Navy Medical Logistics Command (NMLC) is 
+focused on operational/expeditionary MEDLOG support and military treatment facility logistics support, 
+acquisition, and analytics. It also offers commercial law 
+advisors to Navy medicine. NMLC possesses a unique 
+capability by centrally owning the technical, legal, 
+and contracting execution arms for Navy medicine. In 
+addition to the Fort Detrick location, NMLC operates 
+a detachment in Germany; the Naval Expeditionary 
+Support Command in Williamsburg, Virginia; and the 
+Naval Ophthalmic Support and Training Activity in 
+Yorktown, Virginia. 
+252
+Fundamentals of Military Medicine
+The Air Force Medical Logistics Operations Center 
+(AFMLOC) provides equipment, materiel, services, 
+and information to the Air Force medical mission and 
+MEDLOG activities at the unit level. AFMLOC is the 
+center for Air Force medical supply chain management; it publishes and monitors guidance on supply 
+chain management for Air Force major commands and 
+deployed medical units. Deployed Air Force units use 
+expeditionary MEDLOG and a “reach back” system of 
+support for sustainment of early-deployed platforms 
+until a TLAMM becomes available. 
+Operational Roles
+The link between commercial vendors, military 
+acquisition, and distribution occurs at key MEDLOG 
+oversight and distribution centers. These centers are 
+distributed to optimally serve the geographic combatant commands while exploiting economies of scale 
+whenever possible. In addition, modifications of 
+MEDLOG support of US and coalition partners can be 
+adapted for specific needs to build host nation capacity. 3–6 The major centers are listed below.
+The 6th Medical Logistics Management Center 
+(6th MLMC) deploys to provide centralized medical 
+materiel lifecycle management to designated forces to 
+sustain worldwide combatant command contingency 
+operations and defense support of civil authorities. 
+The 6th MLMC is a direct reporting unit to US Army 
+Forces Command under the administrative control 
+and training readiness authority of the Army Medical 
+Research and Materiel Command (USAMRMC). (As 
+of October 1, 2018, USAMRMC is a subordinate command of the US Army Materiel Command. 7 The impact 
+of this reorganization on the strategic and operational 
+dimensions of MEDLOG is unclear at the time of this 
+textbook’s publication.)
+The US Army Medical Materiel Center–Europe 
+(USAMMC-E), also a subordinate command of the 
+Medical Research and Materiel Command, is the 
+TLAMM for EUCOM, US Africa Command (AFRICOM), and State Department activities. USAMMC-E 
+is located in Pirmasens, Germany, near Landstuhl 
+Regional Medical Center and the major airhead at 
+Ramstein Air Force Base. The core functions of USAMMC-E are lifecycle management and distribution 
+of Class VIII materiel; clinical engineering support; 
+clinical advice and consultation; optical fabrication; 
+and assembly, reconstitution, and disassembly of 
+medical sets, kits, and outfits. USAMMC-E also trains 
+logisticians on supply chain management, including 
+military occupational specialty proficiency training for 
+enlisted MEDLOG specialists, overseas deployment 
+training for Guard and reserve troops, and predeployment training to deploying units.
+The US Army Medical Materiel Center–Korea 
+(USAMMC-K), located in Camp Carroll, South Korea, 
+serves at the TLAMM for US Forces Korea and organizations located in the Korean theater. USAMMC-K 
+provides unit-level medical maintenance to outlying 
+health, dental, and veterinary clinics and operational 
+units across the Korean peninsula. 
+Other centers are listed below.
+ 
+• The US Army Medical Materiel Center–
+Southwest Asia (Provisional) serves as the 
+TLAMM for CENTCOM. Its mission is to 
+provide, project, and sustain MEDLOG support across the full spectrum of operations 
+throughout the CENTCOM area of responsibility.
+ 
+• The Air Force Medical Operations Agency, 
+located in San Antonio, Texas, is the TLAMM 
+for US Southern Command.
+ 
+• The 18th Medical Group, located on Kadena 
+Air Base, Japan, is the TLAMM for US forces 
+and organizations operating inside the Pacific 
+Command (PACOM) area of responsibility, 
+excluding the Korean theater.
+Tactical Roles 
+Different types of units perform MEDLOG at the 
+tactical level for the services. An Army medical logistics company (MLC) is normally subordinated to a 
+multifunctional medical battalion (MMB). If an MMB 
+is not available, the MLC is aligned to a combat support hospital. The MLC mission is to provide direct 
+support for medical supplies, single and multi-vision 
+optical lens fabrication and repair, and medical equipment maintenance to brigade- and corps-level medical 
+units or to a maximum force of 22,000 soldiers. It can 
+receive and process 11. 1 short tons and store up to 51 
+short tons of Class VIII supplies and equipment, and is 
+capable of deploying forward distribution and contact 
+repair teams.
+Unlike the Army MLC, the Marine Corps MLC 
+is organized as a part of a Marine supply battalion, 
+combat logistics regiment, and Marine logistics group. 
+The Marine Corps MLC is not a part of the Marine 
+medical battalion; like the Army MLC, it has materiel 
+management, distribution management, and biomedical maintenance capabilities within the company. 
+In the Air Force, a medical logistics flight is a part 
+of a medical support squadron in a medical group. Air 
+Force MEDLOG support is not designed to provide 
+area support to other services without augmentation.
+An Army brigade medical supply office (BMSO) is 
+located in a medical company with a brigade support 
+battalion. The BMSO mission is to provide direct sup253
+Medical Logistics
+port for Class VIII supplies and medical equipment 
+maintenance to the brigade, it has limited capacity to 
+provide area support in an operational environment. 
+Another MEDLOG tactical unit is the Army blood 
+support detachment, described below. 
+Blood Management
+The Armed Forces Blood Program Office is responsible for managing the DoD’s blood supply, also known 
+as Class VIII (B). At the strategic level, the geographic 
+combatant command surgeon creates a joint blood program office to jointly manage the blood program and 
+an area joint blood program office (AJBPO) in support 
+of the theater directly. In theater, the Air Force expeditionary blood transshipment center (EBTC) provides 
+initial reception processing from one of the two armed 
+services whole blood processing laboratories based in 
+the continental United States: West for PACOM and 
+East for EUCOM, CENTCOM, and AFRICOM. Upon 
+direction and coordination from the AJBPO, the EBTC 
+ships whole blood or blood products to a blood support detachment in the Army or blood product depot 
+in the Navy. 
+The Army blood support detachment may be 
+attached or assigned to an MMB. If a unit deploys 
+without the MMB, the detachment will rely on the unit 
+to which it is assigned for command and control and 
+life support. A blood support detachment is generally 
+collocated with an MLC or combat support hospital. 
+The detachment provides flexibility to shift personnel 
+between blood collection and distribution missions, as 
+required. The basis of allocation is one blood support 
+detachment per 100,000 soldiers in theater and one 
+per 150,000 service members for joint operations. The 
+blood support detachment provides refrigerated storage for 4,080 units of packed red blood cells, collecting 
+up to 432 units of whole blood and distributing boxes 
+of packed red blood cells and other blood products 
+to echelon-above-brigade medical treatment facilities 
+through three blood distribution teams (while not collecting or manufacturing blood). 
+Medical units such as Army combat support hospitals and forward surgical teams, Marine Corps forward 
+surgical groups, and Navy ships at sea or fleet surgical teams submit their requisitions to the supporting 
+blood support detachment or blood product depot for 
+emergency resupply or sustainment. MEDLOG units 
+assist in blood distribution, planning, and delivery 
+depending on the mission and location.
+Medical Maintenance
+Acquisition and distribution of high-quality, technically sophisticated, accurate, and often delicate medical 
+equipment such as radiograph machines, computed 
+tomography scanners, laboratory equipment, ventilators, and electrocardiogram machines require timely 
+maintenance and repair. Military MEDLOG functions 
+as the lifecycle technology manager for medical devices and systems. MEDLOG responsibilities include 
+financial and budgetary management, service contract 
+management, data processing systems for managing 
+the medical equipment, and coordination of service 
+agreements and in-house operations, acquisitions, 
+property accountability, facilities, and patient safety. 
+A primary function is to ensure that the medical 
+equipment is safe, effective, and highly reliable for 
+use by surgeons and other clinicians, nurses, and allied health staff members. This responsibility requires 
+participation in the planning process and in the assessment of new technology, assuring regulatory 
+compliance in the medical technology management 
+area, investigation of incidents, and active participation in training and education of technical and medical 
+personnel. The scope of these activities is expanding 
+significantly as medical technology continues to become integrated into systems, and as the lines between 
+medical, communications, and information systems 
+continues to blur. At the operational level, the most 
+readily available biomedical technician is located in 
+the BMSO in the Army. Across the services, biomedical technicians are most often located at the MLC level 
+and theater Role 3 hospitals. 
+Optical Fabrication
+From the MEDLOG perspective, optical fabrication 
+focuses on the production of combat eye protection, 
+protective mask inserts, tinted lens, frames of choice, 
+flight frames, and standard issue (“5A”) frames. At the 
+strategic level, the DoD executive agent for the optical 
+fabrication enterprise is the Navy surgeon general; this 
+authority is designated to the commanding officer of 
+the Naval Ophthalmic Support and Training Activity 
+to act as the program executor’s representative to provide the day-to-day oversight of the optical fabrication 
+enterprise. At the operational level, the optical fabrication enterprise is comprised of 26 Navy and Army 
+medical treatment facilities and TLAMM fabrication 
+laboratories strategically located worldwide to manage fabrication assets and meet requirements for all 
+services. At the tactical level, optical fabrication assets 
+are located within MEDLOG companies, optometry 
+detachments, and some ships at sea.
+Patient Movement Items 
+Patient movement items (PMIs) are specific medical equipment and supplies that are required to sup254
+Fundamentals of Military Medicine
+port patients during evacuation. PMIs include more 
+expensive equipment requiring accountability at the 
+intra-theater level, as well as less expensive, more 
+numerous items such as litters, blankets, and litter 
+straps, that must be a part of the planning process 
+at the tactical level. The function of the PMI system 
+is to support in-transit patients, exchange in-kind 
+PMIs without degrading medical capabilities, and 
+provide prompt recycling of PMIs. The PMI system 
+provides seamless in-transit visibility for the equipment management process from initial movement to 
+the patient’s final destination. Without accountability 
+and a process of PMI exchange and replenishment, 
+evacuation of patients and associated PMIs would 
+quickly deplete front-line medical units of essential 
+transport items. 
+The US Transportation Command is the DoD’s 
+single manager for patient movement (with the exception of intra-theater patient movement) and the 
+program manager for the PMI system. The Air Force 
+is responsible for resourcing, maintaining, and recycling PMIs to support contingency operations for 
+patient movement. The Air Force is also responsible 
+for the establishment of theater PMI centers and cells. 
+Medical equipment designated for use as a PMI must 
+be tested and certified for use on the appropriate 
+patient evacuation platform (for example, fixed-wing 
+or rotary-wing aircraft). A joint certification label is 
+required to designate airworthiness certification for 
+all PMI equipment. The label must be affixed to each 
+piece of aeromedical evacuation-certified equipment. 
+Intra-theater movement of PMIs is the responsibility 
+of the combatant commander. As the theater matures, 
+the combatant commander may establish a TLAMM or 
+SIMLM. If established, the services will coordinate as 
+necessary with the SIMLM for support in the areas of 
+requisitioning, storage, maintenance, and distribution 
+of PMIs. Forward distribution and exchange of PMIs 
+is a SIMLM or service responsibility. Theater medical 
+treatment facilities, MLCs, and surgical teams must 
+coordinate with the theater PMI center for replacement 
+in kind for PMI items. 
+MEDICAL LOGISTICS LESSONS LEARNED
+The medical staff officer and medical provider must 
+work closely with MEDLOG staff at all levels to ensure 
+required MEDLOG support. In every aspect of field 
+medical operations, MEDLOG support requires close 
+coordination with the personnel and systems that provide supplies, equipment, medical equipment repair, 
+and other aspects of MEDLOG for effective mission execution. As described above, MEDLOG operations are 
+a specialized, complex, and interconnected network 
+of manufacturers, vendors, and other suppliers with 
+automated tracking and delivery systems, all intended 
+to meet medical support plan requirements as well 
+as needs that emerge as the mission progresses. This 
+includes sophisticated subsets of the overall process, 
+such as cold chain management, which ensures the 
+maintenance of temperature-controlled shipping and 
+handling for items such as blood, medications, and 
+vaccines. Success depends on clear communications, 
+habitual training, and good working relationships 
+between providers and the MEDLOG support community. The following section lists lessons learned 
+and tips to assist medical staff officers and providers 
+requiring MEDLOG support. 
+Tips for the Provider 
+ 
+• When coming to a new operational unit, first 
+have the junior leaders describe their section’s capability and review the local standard 
+operating procedures, then find the time to 
+visually inspect the equipment and processes 
+with the leaders you will be working with. 
+ 
+• Look for anything expired, not calibrated, or 
+missing, and ask who performs reconciliations 
+with the supplier and how often. This will give 
+you a sense of your organization’s readiness 
+and operational capability. The budget may 
+not support maintaining sets, kits, and outfits 
+at 100%; however, the unit should maintain 
+a current status of all shortages—even 
+expendable items. Being aware of potential 
+shortages will be key when requesting funds 
+in support of exercises or deployments. 
+ 
+• In general, every operational unit has a group 
+of items designed to perform a specific task 
+that provides basic essential combat casualty 
+care for the military population (eg, medical 
+equipment set in the Army, allowance standard in the Air Force, authorized medical and 
+dental allowance lists in the Navy and Marine 
+Corps). Each of these groups is designed to 
+meet a specific set of treatment or prevention 
+criteria. You must learn these criteria. No 
+group of items will meet 100% of your needs, 
+because the overall intent is to provide basic 
+essential supplies and equipment. Therefore, 
+if your mission requires more than what is 
+available at your location, careful initial outfitting and sustainment planning must be done 
+prior to deployment.
+ 
+• Know the difference between a request and 
+a requisition. Just because you request some255
+Medical Logistics
+thing in theater does not necessarily mean 
+the medical logistician has completed all of 
+the necessary steps to translate a request into 
+a requisition, especially when faced with a 
+large number of requests in a high operational 
+tempo environment. Conduct measured follow-up by asking for the document number, 
+and get updated informal status reports. 
+Checklists and Planning Considerations
+The following is a short list of key MEDLOG 
+considerations for the healthcare provider in every 
+mission.
+ 
+• What is the source of Class VIII materiel? Who 
+provides your tactical and operational level 
+MEDLOG support?
+ 
+• Do you have a close working or habitual relationship with your MEDLOG support? Have 
+you adequately trained on the information 
+systems and other administrative processes to 
+ensure the outfitting and sustainment of your 
+entire medical plan—from acute care and area 
+medical support; to operative, nonoperative, 
+nursing, and other care; laboratory and imaging; and biomedical equipment? 
+ 
+• What is the funding source for use of military 
+Class VIII materiel?
+ 
+• Will blood products be required in this 
+mission?
+ 
+• Will other US government or non-DoD entities need our support? 
+ 
+• What is the flow of patient movement items?
+RESOURCES
+Policy and practice change over time. Doctrine, 
+that is, published official guidelines and policies, 
+will change in content, but military references will 
+retain their numeric designation. These publications 
+can be monitored over time for key principles and 
+practices.
+ 
+• Chairman of the Joint Chiefs of Staff. Healthcare Service Support. Washington, DC: JCS; 26 
+July 2012. Joint Publication 4-02.
+ 
+• Headquarters, Department of the Army. 
+Medical Logistics. Washington, DC: HQDA; 28 
+January 2005. Army Regulation 40-61.
+ 
+• Headquarters, Department of the Army. Army 
+Medical Logistics. Washington, DC: HQDA; 
+December 2009. Field Manual 4. 02. 1.
+ 
+• Headquarters, Department of the Army. Operating Guide for MTOE Medical Equipment Maintenance. Washington, DC: HQDA; November 
+2006. Technical Bulletin Medical 750-2.
+ 
+• Headquarters, Department of the Air Force. 
+Medical Operations. Washington, DC: USAF; 
+29 September 2015. Air Force Doctrine Document 4-02.
+ 
+• Headquarters, Department of the Air Force. 
+Expeditionary Medical Logistics. Washington, 
+DC: USAF; 5 October 2011. Air Force Tactics, 
+Techniques and Procedures 3-42. 8.
+ 
+• Headquarters, Department of the Air Force. 
+Managing Clinical Engineering Programs. Washington, DC: USAF; 26 July 1994. Air Force 
+Instruction 41-201.
+ 
+• Headquarters, Department of the Air Force. 
+Medical Logistics Support. Washington, DC: 
+USAF; 6 October 2014. Air Force Instruction 
+41-209.
+SUMMARY
+MEDLOG is a vital and irreplaceable element of 
+medical support for global military operations. To be 
+effective in contributing to mission success, MEDLOG 
+requires agility, adaptive processes, specificity, and 
+creativity. The primary tasks of the MEDLOG function 
+are to provide medical materiel management; medical 
+equipment maintenance and repair; optical fabrication; 
+blood distribution management; centralized management of patient movement items; health facilities 
+planning and management; and medical contracting. 
+MEDLOG is a dynamic field of both peacetime and 
+operational health services support that is concerned 
+with the entire supply chain, from manufacturer to 
+end-user of supplies, and from initial outfitting of a 
+unit and its deployment of a device or piece of equipment, through obsolescence, disposal, and replacement 
+with a more current or updated version.
+The entire system of military MEDLOG involves 
+organizations and units from the level of the DoD, 
+through service-specific agencies, to organic elements 
+of deployed field units. The MEDLOG tasks of acquiring and distributing Class VIII medical supplies and 
+equipment are focused on supplying the combatant 
+command-oriented organizations that manage these 
+materiel needs globally on a regional basis.
+The medical staff officer and healthcare provider 
+must have an intimate understanding of MEDLOG, 
+and they must develop key relationships with MED256
+Fundamentals of Military Medicine
+LOG personnel involved in tactical and operational 
+actions. There is no substitute for careful planning for 
+MEDLOG support, including training whenever possible with those who will provide this support during 
+deployments and contingencies, while in garrison 
+operations or predeployment preparations. 
+REFERENCES
+ 
+1. Chairman of the Joint Chiefs of Staff. Healthcare Service Support. Washington, DC: JCS; 26 July 2012. Joint Publication 
+4-02.
+ 
+2. US Department of Defense. Class VIIIA Medical Materiel Supply Management. Washington, DC: DoD; 29 September 
+2015. DoD Directive 5101. 09E.
+ 
+3. Mark B, Sheikh H, Brenner S, Howe S. How militaries can improve medical logistics planning. Pricewaterhouse 
+Coopers Strategy& website. http://www.strategyand.pwc.com/global/home/what-we-think/reports-white-papers/
+article-display/militaries-improve-medical-logistics-planning. Published December 9, 2013. Accessed July 1, 2018.
+ 
+4. Frise MM. Medical logistics in Regional Command North. Army Sustainment. 2012;44(5). http://www.alu.army.mil/
+alog/issues/SepOct12/medical_logistics_regional_command_north.html. Accessed July 1, 2018.
+ 
+5. Tudor W, Schubert S. Medical logistics operations on the Korean peninsula during Key Resolve 2010. Army Sustainment. 2011:43(3). http://www.alu.army.mil/alog/issues/mayjun11/med_log_korean.html. Accessed October 10, 2018.
+ 
+6. Rodriquez EH. Crafting a sustainable medical logistics infrastructure for the Iraqi Ministry of Defense. Army Sustainment. 2012:44(1). http://www.alu.army.mil/alog/issues/JanFeb12/crafting_sustainable.html. Accessed July 1, 2018.
+ 
+7. US Department of the Army. Assignment of US Army Medical Research and Materiel Command (USAMRMC) from US 
+Army Medical Command to US Army Materiel Command (AMC). Washington, DC: HQDA; 3 October 2018. Executive 
+Order 013-19.

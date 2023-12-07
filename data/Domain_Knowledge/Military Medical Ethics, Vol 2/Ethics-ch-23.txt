@@ -1,0 +1,2084 @@
+Mlitary Medicine in War: The Geneva Conventions Today
+739
+Chapter 23
+MILITARY MEDICINE IN WAR: THE
+GENEVA CONVENTIONS TODAY
+LEWIS C. VOLLMAR, JR, MD, MA (LAW)*
+INTRODUCTION
+THE EVOLUTION OF THE GENEVA CONVENTIONS
+MEDICAL PERSONNEL AND THEIR PATIENTS
+Definition of Wounded and Sick
+Definition of Medical Personnel
+Rights of Medical Personnel
+Retention of Medical Personnel
+MEDICAL UNITS, MEDICAL TRANSPORTS, AND THEIR IDENTIFICATION
+The Distinctive Emblem
+Medical Transports
+Medical Units
+MEDICAL ETHICS: PROVIDING A GUIDELINE FOR MEDICAL CARE IN WAR
+RESPONSIBILITIES OF MEDICAL PERSONNEL
+In Combat Theaters
+In Occupied Territories
+Refraining From Prohibited Acts
+CONCLUSION
+ATTACHMENTS: INTERNATIONAL GUIDANCE ON HUMANITARIAN CARE
+*Colonel (Retired), Medical Corps, United States Army Reserve; formerly, Commander, 21st General Hospital, St. Louis, Missouri; currently,
+Dermatology Section Chief, St. Anthony’s Hospital, 10004 Kennerly Road, Suite 300, St. Louis, Missouri 63128-2175
+Military Medical Ethics, Volume 2
+740
+Joseph Hirsch
+Even the Enemy Gets Medical Attention
+circa 1943
+Although a Marine guard is stationed at the door, this Japanese prisoner with malaria is accorded the same civil,
+careful treatment given our own sick men. Area Naval Hospital, Pearl Harbor. Gift of Abbott Laboratories.
+Art: Courtesy of Navy Art Collection, Department of the Navy, Naval Historical Center, Washington Navy Yard,
+Washington DC. Available at: http://www.history.navy.mil/mil/ac/medica/88159fs.jpg.
+Mlitary Medicine in War: The Geneva Conventions Today
+741
+INTRODUCTION
+speed their recovery. To achieve this effect, the conventions mandate that the wounded and sick be cared
+for by medical personnel. To carry out this mandate,
+medical personnel and their equipment are granted
+extensive protections that are denied other personnel
+and other equipment. The humanitarian law affording these protections has evolved gradually over time,
+and is still evolving today.
+The purpose of international humanitarian law is
+to regulate warfare in order to attenuate hardship.
+The branch of that law referred to as the law of Geneva
+is concerned with the victims of war, military personnel placed hors de combat, and persons not taking part
+in the hostilities. 1 As codified within the Geneva Conventions, extensive protections are granted especially
+to the wounded and sick, to reduce their suffering and
+THE EVOLUTION OF THE GENEVA CONVENTIONS
+Essentially every civilization has placed some
+limitations on its conduct of warfare. From the
+study of ancient civilizations and their rules of warfare it becomes evident that certain common themes
+were present: (a) certain weapons were outlawed,
+(b) wanton destruction was to be avoided, and (c)
+prisoners and noncombatants were to be spared.
+Although these limitations on the conduct of warfare were sometimes violated, they were followed
+for the most part. And because these limitations
+were similar from culture to culture and relatively
+consistent over recorded history, they were the custom and gradually evolved into a set of customary
+laws of war. 2–7
+It was not until the 17th century and the wars of
+Louis XIV that medical services were regularly accompanying troops in the field. It was at this same
+time that arrangements were first being made between opposing commanders for the reciprocal care
+of the wounded and sick and for the protection of
+hospitals and medical staff. These arrangements
+were strictly ad hoc, for they were not proposed
+before a conflict began and they were without status once the conflict ended. 8
+During the late 18th and early 19th centuries customary rules began to be codified into binding,
+multilateral, international agreements, referred to
+as “conventions.”2 On a number of occasions the
+need was expressed for a convention to address the
+specific problem of how to treat the wounded and
+sick. 8 This idea was given particular emphasis by
+Henry Dunant (Figure 23-1), who had been present
+at the Battle of Solferino during the Franco-Austrian
+War of 1859. The suffering and lack of care of the
+wounded and sick prompted him to write Un Souvenir de Solférino, which was published in 1862. 9 In
+his book he urged that two events occur. The first
+of these was the establishment of voluntary “relief
+societies for the purpose of having care given to the
+wounded in wartime.”9(p115) To this end, Dunant and
+four other Swiss citizens (the “Committee of Five”)
+formed the International Standing Commission for
+Aid to Wounded Soldiers, which later changed its
+name to the International Committee of the Red
+Fig. 23-1. Henry Dunant. For his efforts in establishing
+the Red Cross movement and developing the Geneva
+Convention of 1864, Henry Dunant was awarded the first
+Nobel Peace Prize in 1901. Reproduced with permission
+from the International Committee of the Red Cross.
+Military Medical Ethics, Volume 2
+742
+Cross (ICRC), and set about the task of encouraging
+the establishment of National Red Cross Societies
+throughout the world.
+The second was the formulation of an “international principle, sanctioned by a Convention inviolate in character,”9(p126) that would serve as a basis
+and support for the relief societies. In 1863 Dunant
+and his committee organized a conference in
+Geneva to which several European nations sent
+their representatives. The conference recommended
+that national relief societies be set up, and asked
+the governments to give them their protection and
+support. 10 Additionally, the conference recommended that wartime belligerents extend similar
+protections to field hospitals, medical personnel,
+and the wounded. In response to these recommendations, the Swiss government convened a diplomatic conference in Geneva in 1864. This conference
+drew up the Convention for the Amelioration of the
+Condition of the Wounded in Armies in the Field,
+the first Geneva Convention,11 which was signed by
+12 European nations (Figure 23-2) and adopted by
+almost all the nations in the years that followed (the
+United States ratified the convention in 1882). Although it contained only 10 short articles, this convention expressed all of the important provisions
+necessary for the care of the wounded and sick and
+for the protection of the medical services. It was
+largely reflective of the customary practices of the
+time, yet it was the first document to place these
+customs into conventional form. 12–14
+During the next century the Geneva Convention
+underwent several revisions (in 1906, 1929, 1949,
+and 1977). These revisions were designed to align
+the conventions with modern technologies, customs, and methods of warfare. The use of mobile
+medical units led to the development of articles in
+the conventions distinguishing them from fixed
+medical facilities. The invention of the airplane and
+helicopter led to entire sections dealing with their
+use as medical transports. And the increasing involvement of civilians as victims of war led to an
+Fig. 23-2. Signing of Geneva Convention. Painting by Armand-Dumaresq depicting the signing of the Geneva Convention on 22 August 1864. The original document was signed by 12 European nations: the Swiss Confederation,
+Baden, Belgium, Denmark, Spain, France, Hesse, Italy, the Netherlands, Portugal, Prussia, and Württemberg. Reproduced with permission from the International Committee of the Red Cross.
+Mlitary Medicine in War: The Geneva Conventions Today
+743
+entire convention dealing with their protection.
+Also, the conventions were revised in response to
+war crimes in an attempt to increase the observance
+of their provisions. The illegal, commercial use of
+the Red Cross emblem led to provisions banning
+all unauthorized uses. The sinking of hospital ships
+by submarines and bombers led to provisions to
+better protect them. And the heinous Nazi experimentation on human subjects led to provisions
+strictly prohibiting such activity and punishing the
+violators. 2,14–23 But, perhaps the most remarkable
+change in the Geneva Conventions has been in their
+length, starting with 10 short articles in 1864 and
+expanding to over 600 articles in the four 1949
+Geneva Conventions and the two 1977 Additional
+Protocols. Yet, throughout all of these changes, the
+basic humanitarian principle, which guided the
+writing of the very first of the Geneva Conventions,
+has never changed. The only purpose of the Geneva
+Conventions is to protect the victims of war, especially the wounded and sick. It must be borne in
+mind by medical personnel that the sole intent of
+their own protections and privileges is specifically
+and only for the benefit of the wounded and sick,
+to reduce their suffering and to speed their recovery.
+The conventions currently in effect are the
+Geneva Conventions drafted in 1949 (Geneva 1949),
+which deal with the wounded and sick on land
+(Geneva I),24 the wounded, sick, and shipwrecked
+at sea (Geneva II),25 prisoners of war (Geneva III),26
+and civilian populations (Geneva IV). 27 These four
+conventions are the ones that are currently observed
+by the United States and that enumerate the duties
+and rights of medical personnel and the protection
+of medical units and transports. 28–30 The four
+Geneva Conventions of 1949 have been adopted by
+essentially every nation (with a few minor exceptions). 31 In 1977 two protocols were added to the
+Geneva Conventions, Protocol I dealing with international armed conflict32 and Protocol II dealing
+with noninternational armed conflict. 33 The protocols have been accepted by the majority of the
+world’s nations;30 however, the United States has
+ratified neither. Protocol II has been submitted to
+the Senate for ratification, but Protocol I has not, due
+to serious concerns about some of its provisions. 34–40
+Protocol I is being reexamined by the United States
+for possible ratification with reservations. 41 But, the
+sections dealing with the provision of care to the
+wounded and sick and the duties and rights of
+medical personnel, medical units, and medical
+transports are generally noncontroversial in nature
+in that they merely attempt to clarify and expand
+on the already widely accepted provisions of the
+Geneva Conventions of 1949.
+In the following discussion of those duties and
+rights of which military medical personnel should
+be aware, language from the protocols may be used
+for the sake of clarity. Where significant differences
+are found to exist between the protocols and Geneva
+1949, these differences will be pointed out. It also
+should be pointed out that the obligations imposed
+by the Geneva Conventions are almost exclusively
+those that belligerents are called upon to assume
+for the benefit of enemy nationals; only rarely do
+the conventions mandate that belligerents are to
+take specific measures on behalf of their own
+wounded and sick.
+MEDICAL PERSONNEL AND THEIR PATIENTS
+All military medical personnel must remember
+that the Geneva Conventions were written to alleviate the suffering of the victims of war, especially
+the wounded and sick, and any rights and privileges granted to military medical personnel by the
+Geneva Conventions are specifically for the benefit
+of those wounded and sick. However, not every
+soldier, sailor, and citizen is included under the
+protective umbrella of “wounded and sick,” nor is
+every healthcare provider necessarily one of the
+“medical personnel.” Furthermore, the rights and
+privileges of medical personnel are detailed and
+specific.
+Definition of Wounded and Sick
+The primary duty of medical personnel is to care
+for the wounded and sick. But who constitutes the
+“wounded and sick” is a question with an evolving
+answer. Since the beginning, the Geneva Conventions have granted special protections to members
+of the armed forces who were hors de combat because
+of injury or illness. Geneva 1864 used the term “soldiers” when referring to whom care must be given. 11
+The Geneva Convention of 1906 and The Hague
+Convention of 1907 expanded the category to “officers,” “soldiers,” “sailors,” and “other persons officially attached” to the army or navy. 42,43 Wounded
+and sick civilians were not included. At the time
+this was probably adequate because civilians were
+generally regarded as outside the struggle and the
+vast majority of all casualties of war were combatants. Since the early part of the 20th century an expansion has occurred in the use of irregular warfare. During World War II the Axis Powers refused
+to regard irregular troops, or “partisans,” as being
+Military Medical Ethics, Volume 2
+744
+regular combatants entitled to protection under the
+Geneva Conventions. Therefore, primarily to define
+who was entitled to prisoner of war status, Geneva
+1949 expanded the category of protected persons
+(and, hence, entitled to medical care) to include irregular combatants. 24,26 World War II also clearly
+demonstrated that civilians were no longer outside
+the struggle. Therefore, Geneva IV was drafted,
+extending protections to civilians. In it civilian
+wounded and sick are made the object of protection and respect, but they are not granted the same
+access to medical care as wounded and sick soldiers. 27 Following World War II, the increasing concern over civilian victims of war, and the further
+blurring of the distinction between civilians and
+combatants created by the proliferation of guerrilla
+warfare, led to a further expansion of the definition of “wounded and sick” in the 1977 Protocols
+to encompass all persons wounded and sick, civilians and soldiers alike. 32
+The definition Protocol I uses for “wounded and
+sick” is “persons, whether military or civilian, who,
+because of trauma, disease or other physical or
+mental disorder or disability, are in need of medical assistance or care and who refrain from any act
+of hostility.”32 Therefore, the term includes not just
+the wounded and sick in the usual sense, but also
+expectant mothers, maternity cases, newborn babies, and invalids—those whose condition may at
+any moment necessitate immediate medical care or
+who are in such a state of weakness that special
+medical consideration is demanded. But not included in the term are those who are not refraining
+from acts of hostility. A person with a broken leg
+who continues to fire his rifle is not considered
+wounded or sick by this definition, and to him no
+duty of care is owed by medical personnel until he
+surrenders. Indeed, medical personnel have every
+right to even inflict harm upon him if it is necessary to defend themselves or their patients.
+The United States has not yet ratified the protocols; therefore, the behavior of medical personnel
+of the United States armed forces is governed by
+only Geneva 1949. If one interprets its provisions
+strictly, medical personnel are obligated to treat
+only the wounded and sick of the armed forces,
+those accompanying the armed forces, and those in
+resistance movements, but not civilians. 24,25 However,
+it is instructive to review what Jean Pictet has to say
+regarding the care of civilians in his widely respected
+commentary on the 1949 Geneva Conventions:
+In virtue of a humanitarian principle, universally
+recognized in international law, of which the Geneva
+Conventions are merely the practical expression,
+any wounded or sick person whatever, even a franctireur [terrorist] or a criminal, is entitled to respect
+and humane treatment and the care which his condition requires. Even civilians, when they are
+wounded or sick, have the benefit of humanitarian
+safeguards (as embodied in Part II of the Fourth
+Geneva Convention of 1949) very similar to those
+which the First Convention prescribes in the case
+of members of the armed forces; and the applicability of these safeguards is quite general….Article
+13 cannot therefore in any way entitle a belligerent
+to refrain from respecting a wounded person, or to
+deny him the requisite treatment, even where he
+does not belong to one of the categories specified
+in the Article. Any wounded person, whoever he
+may be, must be treated by the enemy in accordance
+with the Geneva Convention. 44(pp145–146)
+Both Pictet and Protocol I apply a more liberal standard when defining who is entitled to care in the
+military medical care system. This is especially true
+of Protocol I, which seems to imply that military
+medical facilities should open their doors to everyone seeking care. It is easy to envision how quickly
+they would be overwhelmed in such a situation,
+especially if the level of care offered by the military
+medical establishment is much higher than that of
+the peacetime civilian community. Therefore, if the
+United States does eventually submit Protocol I to
+the Senate for ratification, it will be with the understanding that military hospitals are intended for
+the treatment of military wounded and sick; treatment for civilian wounded and sick will be required
+only when the United States is occupying foreign
+territory and the civilian healthcare community is
+unable to care for its own. However, if a civilian
+does enter the military medical care system, under
+whatever circumstance, he will then be treated no
+differently than anyone else. 41
+Definition of Medical Personnel
+Protocol I defines medical personnel as “those
+persons assigned, by a Party to the conflict, exclusively to the medical purposes enumerated….or to the
+administration of medical units or to the operation
+or administration of medical transports.” The medical purposes enumerated include “the search for,
+collection, transportation, diagnosis or treatment—
+including first-aid treatment—of the wounded, sick
+and shipwrecked, or for the prevention of disease.”32
+Thus, the term “medical personnel” is not to be interpreted narrowly. It encompasses all personnel
+who are required to ensure the adequate treatment
+Mlitary Medicine in War: The Geneva Conventions Today
+745
+of the wounded and sick. Obviously included are
+those who give direct care, such as doctors, nurses,
+orderlies, and stretcher bearers. Also included are
+those who are not direct caregivers, but who are
+necessary for the provision of medical care, such as
+office staff, pharmacists, cooks, ambulance drivers,
+pilots and crews of medical transports, and maintenance personnel attached to medical units. Together all of these personnel form the medical service of the armed forces and all are afforded special protections.
+In order for these medical personnel to receive
+special protections they must be “exclusively” assigned to and engaged in medical activities. Protected medical personnel may not be involved in
+other activities as long as they are assigned to perform medical tasks. For instance, they may not abuse
+their special protections by engaging in commercial activities, and they certainly may not engage
+in military operations that are not of an humanitarian nature. This does not mean that medical personnel are prohibited from ever becoming fighting
+combatants—there are examples of this throughout
+history (eg, Che Guevara and General Leonard
+Wood). However, in doing so they lose their special
+protections under the Geneva Conventions.
+The protocol also stipulates that medical personnel must be “assigned by a Party to the conflict.” A
+military doctor under military orders while performing his medical mission would certainly fulfill
+this criterion. Additionally, personnel of voluntary
+aid and national Red Cross societies that have been
+authorized by the government to render aid would
+also meet this requirement. However, not included
+would be the individual physician working on his
+own. Medical personnel must perform their duties
+in the framework of some organization that is under
+the control of the government. During the drafting
+of the protocols, a proposal was made to provide
+for the protection of the individual, independent
+physician wearing a special emblem, the Staff of Aesculapius. However, the proposal was not successful. 45
+Finally, in order to be protected, medical personnel must comply with the provisions of the Geneva
+Conventions, whether or not those provisions are
+part of their national legislation or military regulations and whether or not the enemy is following
+the requirements of the Geneva Conventions. Disobeying the provisions is a breach of law and subjects the individual to punishment. Therefore, it behooves medical personnel to be familiar with the
+duties demanded of them, as well as the rights
+granted to them under international humanitarian
+law.
+Rights of Medical Personnel
+In order to assist medical personnel in carrying
+out their duty to care for the wounded and sick, they
+are granted certain rights and privileges under the
+Geneva Conventions. Medical personnel are not allowed under any circumstances to renounce these
+rights. 24–26 This prohibition is intended to prevent
+pressure being applied to medical personnel forcing
+them to renounce their rights and ultimately adversely affecting their care of the wounded and sick.
+The primary right of medical personnel is that
+they must be respected and protected under all circumstances. 24,25,27,32,33 This is the classic formula (discussed below in the section entitled Caring for the
+Wounded and Sick). Department of the Army Field
+Manual 27-10 discusses this right in the following
+way:
+[Medical personnel] must not knowingly be attacked, fired upon, or unnecessarily prevented
+from discharging their proper functions. The accidental killing or wounding of such personnel, due
+to their presence among or in proximity to combatant elements actually engaged, by fire directed
+at the latter, gives no just cause for complaint. 28(p89)
+Medical personnel can be killed accidentally because they are assigned to units that are legitimate
+military targets, or assigned to medical units that
+are near legitimate military targets. Their right to
+respect and protection does not shield them from
+unintentional harm in these circumstances.
+Not only have medical personnel the duty to care
+for the wounded and sick, they have the right to do
+so, also. Likewise, not only do they have the duty
+to render that care according to the dictates of medical ethics, they have the right to do so (see the section titled Medical Ethics). These rights are directly
+associated with the duty all belligerents have to
+provide medical care to enemy wounded and sick,
+and to allow medical personnel to provide that care
+according to the dictates of medical ethics.
+The protocols allow medical personnel to withhold information regarding the wounded and sick
+under their care if that information would prove to
+be harmful to their patients or their patients’ families. 32,33 This provision is not concerned with medical confidentiality, that is, the duty that medical
+personnel have not to discuss with third parties the
+state of health or treatment of their patients. Rather,
+this provision deals with the denouncing of, or informing on, wounded members of enemy forces or
+resistance movements. It is most likely to concern
+civilian doctors treating patients in occupied terriMilitary Medical Ethics, Volume 2
+746
+tories. It arose out of the experience of World War
+II when occupying forces ordered the inhabitants
+of occupied territories to reveal the presence of any
+presumed enemy or face severe punishment. Those
+drafting the protocols felt that, without a provision
+of this sort, wounded and sick enemy soldiers in
+hiding would not seek out medical care. 46 Whether
+or not to denounce a patient is left up to the conscience of the medical person involved. He cannot
+be compelled to denounce his patients, although he
+is under no obligation not to do so. However, there
+are two exceptions to this rule: (1) a belligerent may
+compel its own nationals to give information on
+their patients, whether they are friend or enemy,
+and (2) “enemy” medical personnel may be required
+to notify authorities regarding the presence of any
+communicable diseases for obvious reasons of public health.
+Retention of Medical Personnel
+Medical personnel who fall into enemy hands are
+treated differently from other military personnel.
+Geneva 1864 and Geneva 1906 both provided that
+medical personnel were not to be treated as prisoners of war, but were to be sent back to their own
+side as soon they were no longer indispensable for
+the care of the wounded currently under their care.
+But in World War I this provision was applied differently than intended, in that medical personnel
+were generally retained to care for prisoners of war.
+Geneva 1929 reiterated the principle that medical
+personnel were to be repatriated, but added the
+qualifying statement “unless there is an agreement
+to the contrary.” Unfortunately Geneva 1929 did not
+sufficiently specify how medical personnel were to
+be treated in the event of retention. Consequently,
+in World War II repatriation of medical personnel
+was a relatively rare event, and retained medical
+personnel were often used in nonmedical work and
+otherwise considered prisoners of war. During the
+debate leading to the development of the 1949
+Geneva Conventions two separate opinions were
+expressed concerning the status of medical personnel. One side favored a prisoner-of-war status for
+medical personnel, although, while in captivity,
+they would care for the wounded and sick prisoners of war. The other side favored a non–prisonerof-war status, thereby giving medical personnel
+additional liberty and prestige, which would help
+them in providing care to the wounded and sick.
+The 1949 Geneva Conventions adopted the latter
+position, wherein captured medical personnel are
+not prisoners of war, yet are retained. 44
+Medical personnel may be retained, but “only in
+so far as the state of health….and the number of prisoners of war require [it].” The retention of medical
+personnel must be justified by a significant, immediate need. The number of retained medical personnel is to be determined by the number of prisoners
+of war, and the ratio between the two may be decided by special agreement between belligerents. 24
+As it always has been throughout the development
+of the Geneva Conventions, retention of medical
+personnel remains subordinate to their repatriation.
+But, if history is any indication of the future, it is
+likely that retention will become the rule and repatriation will remain the exception.
+Although retained medical personnel are not
+considered prisoners of war, at the very least they
+are to receive all the benefits and privileges of prisoner-of-war status. While in a retained status, medical personnel must be allowed to continue, without hindrance, their work of caring for the wounded
+and sick prisoners of war, preferably of their own
+nationality. They must be supplied with the necessary facilities and supplies to do their work. They
+cannot be required to do any work outside their
+medical duties, such as administration and upkeep
+of the camp to which they are assigned, even if they
+have nothing better to do. However, it must be realized that the term “medical duties” must be interpreted broadly to include such work as administration and upkeep of a hospital or clinic in which
+the medical personnel are working. Retained medical personnel must be allowed to visit periodically
+the prisoners of war in labor units or hospitals outside the camp, and they must be supplied with the
+necessary transportation to do so. Obviously, as
+with prisoners of war, medical personnel cannot
+have complete freedom of movement, and they remain subject to the rules and regulations of their
+captor. Professionally, they remain subject to their
+captor’s administrative control. Yet, their captor’s
+authority ends where questions of medical ethics
+begin. Thus, a physician cannot be prevented from
+treating a sick person, or be forced to apply a treatment detrimental to a person’s health. There may
+be some give and take in this regard, because what
+is considered acceptable medical treatment may
+vary among nations and among physicians. The
+fundamental rule laid down by the Geneva Conventions is that the captor must care for the enemy
+wounded and sick as well as he does his own. 24,26
+Mlitary Medicine in War: The Geneva Conventions Today
+747
+MEDICAL UNITS, MEDICAL TRANSPORTS, AND THEIR IDENTIFICATION
+It is impossible to protect the wounded and sick
+without also protecting the medical transports and
+medical units that move and house them. Therefore,
+the Geneva Conventions have provided for their
+protection as well. As with protections afforded
+medical personnel, the protections extended to
+medical transports and medical units are specifically for the benefit of the wounded and sick.
+The Distinctive Emblem
+In order to protect medical personnel, medical
+transports, hospitals, and patients, some means of
+quick and sure identification is necessary. This need
+led to the adoption of the red cross (and the red
+crescent) as the distinctive emblem of the medical
+service.
+Historical Development
+Before 1864 each State had its own distinctive flag
+for marking its hospitals and ambulances on the
+battlefield. Henry Dunant and his Committee of
+Five recognized the need for a single emblem by
+which all of the medical services would be recognized. As a compliment to Switzerland, the red cross
+on a white background (the opposite of the Swiss
+flag) was proposed and adopted at the first Geneva
+Convention. The hope that this would become a
+universal symbol lasted only until 1876 when Turkey, which had accepted Geneva 1864 without reservation, announced that its medical service would
+use the red crescent and not the red cross as its distinctive emblem, because the red cross, resembling
+the Christian cross, was offensive to Moslem soldiers. When the Geneva Convention was revised in
+1906, the adoption of the red cross emblem was confirmed without exceptions, yet Turkey added a reservation that it would use the red crescent instead
+of the red cross. Finally, in 1929 during the second
+revision of the Geneva Convention, the use of the
+red crescent (by Turkey and Egypt) and the use of
+the red lion and sun (by Persia) were given official
+recognition. 47
+During the debates leading to the adoption of the
+1949 Conventions, the Israeli delegation proposed
+that the Red Shield of David (a red, six-pointed star
+on a white background) should be recognized. The
+conference considering this proposal narrowly rejected this new emblem in a desire to limit the number of exceptions to the use of the red cross. It realized that recognizing this emblem would open the
+floodgates to a great many additional emblems, including the flame, shrine, bow, palm, wheel, trident,
+cedar, and mosque, all of which had already been
+submitted by various nations to the ICRC for international recognition. Israel accepted the 1949 Geneva
+Conventions, but with a reservation that it would
+continue to use the Red Shield of David as its distinctive emblem. 44
+The desire for a single, universal symbol remains
+strong. Proposals have been made to introduce a
+new symbol that would be acceptable to all. However, the red cross is probably the most widely recognized symbol of any sort throughout the world,
+and building that kind of recognition for any other
+symbol would be difficult. Therefore, the red cross
+remains the distinctive emblem of the medical service, with the two exceptions of the red crescent and
+the red lion and sun (Figure 23-3). Several Moslem
+states are currently using the red crescent, but the
+red lion and sun has fallen into disuse. Military
+personnel should also expect to see the use of the
+Red Shield of David denoting the medical service
+of the Israeli military (Figure 23-4). And, although
+the Red Shield of David is not one of the emblems
+specifically mentioned in the Geneva Conventions,
+medical personnel and medical equipment displaying it should be accorded the same protections and
+privileges as medical personnel and medical equipment displaying the red cross or the red crescent.
+Protective vs Indicative Sign
+There are two fundamentally different uses of the
+red cross (or red crescent) emblem that are authorized by the Geneva Conventions. 24,25 The first and
+most important is as the distinctive emblem of the
+medical service. As such it is used to mark facilities, equipment, supplies, means of transport, and
+personnel to show that they are part of the medical
+service and protected by the Geneva Conventions.
+Used as a protective sign, the red cross emblem
+should be large relative to the person or object it
+protects so that it can be easily seen. Belligerents
+have a clear interest in seeing that their protected
+personnel and objects are easily recognizable by the
+enemy, and they must “endeavor” to ensure that
+recognition takes place. 32 However, there is no obligation on the part of the belligerent to ensure recMilitary Medical Ethics, Volume 2
+748
+ognition; it is not a violation of the conventions if
+medical personnel, units, or transports are not
+marked with the distinctive emblem, it is merely
+risky. A field commander may wish to camouflage
+his medical units in front line positions in order to
+conceal the strength and position of his forces. But
+a medical unit can be respected by an enemy only
+if he knows of its presence. Once the enemy does
+recognize medical personnel, units, or transports for
+what they are, he must respect them regardless of
+whether or not they are properly marked.
+The distinctive emblem provides good visual
+identification of medical activities. Today, primarily in the case of medical personnel, the red cross
+still provides good identification and is likely to be
+protective. For personnel, the conventions allow the
+red cross is to be worn as an armlet or brassard on
+the left arm. Also, medical personnel are entitled to
+carry a special identification card bearing the red
+cross. 24 Neither of these means of identification may
+be confiscated by the enemy, and medical personnel are entitled to wear the armlet and carry the
+identification card even when retained. In the case
+of medical units and transports, the red cross emblem may not be as effective as it needs to be. At
+one time purely visual recognition of a medical unit
+or transport was enough to prevent attack, but
+modern, long-range combat has rendered purely
+visual means of identification inadequate. Therefore, Protocol I has introduced a technical means of
+long-range distinctive signals using light, radio, and
+radar signals. Belligerents are not required to use
+these special signals, but are encouraged to do so.
+In general, a transport or unit may not use a special
+signal without also displaying the red cross. 32
+The second use of the red cross emblem is as a
+purely indicatory sign to show that the person or
+object marked with it is connected with the National
+Red Cross (or Red Crescent) Society without implying protection under the Geneva Conventions. In
+general, as an indicatory sign the red cross should
+be relatively small compared to the person or object so as not to be confused with the red cross used
+as a protective sign. Although originally conceived
+as providing support to the military medical service during wartime, the Red Cross has taken on
+new roles. During peacetime, the Red Cross provides blood collection and distribution, disaster
+relief, and other welfare activities. During wartime,
+the Red Cross may provide such nonmedical services as sending parcels to personnel at the front,
+organizing recreation for the troops, and helping
+the families of soldiers. All of these activities, which
+certainly do much to enhance the respect for the
+red cross emblem in general, are done under the
+indicatory sign. Only if the Red Cross actually provides wartime medical support to the military medical service and is under its control (in effect, part of
+the military medical service) is it entitled to use the
+red cross emblem as a protective sign. In this case
+Fig. 23-3. Medical service emblems. The distinctive emblems of the medical service recognized by the Geneva
+Conventions: the red cross, red crescent, and red lion and
+sun, each appearing on a white background.
+Fig. 23-4. The Red Shield of David. Although this emblem is not officially recognized by the Geneva Conventions, it is nonetheless one that service members may
+encounter.
+Mlitary Medicine in War: The Geneva Conventions Today
+749
+the Red Cross personnel, units, and transports
+would probably wish to use the larger, more easily
+recognizable, protective red cross emblem rather
+than the smaller emblem that is allowed when the
+red cross is used strictly as an indicatory sign.
+Abuses of the Distinctive Emblem
+Abuses of the red cross emblem are as old as the
+emblem itself. As with uses of the red cross, a distinction needs to be made between abuses of the
+protective sign and abuses of the indicatory sign.
+In time of war the first is by far the more serious.
+This type of abuse may be relatively minor, such as
+the wearing of the red cross by an independent physician who is not a member of the medical service,
+or major, such as the deliberate marking of an ammunition dump with the red cross to deceive the
+enemy. The tragedy of misusing the red cross in this
+manner is that it causes the enemy to suspect all
+uses of the red cross to the detriment of the
+wounded and sick that it is designed to protect.
+Fortunately, abuses of this type are relatively uncommon.
+More common, although of a less serious nature,
+have been abuses of the red cross as an indicatory
+sign. Soon after international acceptance of the
+Geneva Conventions, the red cross was in widespread
+commercial use, being used by chemists, manufacturers, and even barbers. In 1906 the Geneva Convention was modified to prevent abuses in general. 42
+Geneva 1929 specifically mentioned commercial
+abuses, although it left the specific prohibition to
+national legislation. 47 Finally, Geneva 1949 prohibited all misuses of the red cross emblem or imitations thereof, and it required all nations to take the
+necessary measures to prevent and repress these
+abuses. 24
+Medical Transports
+Medical transports include all means of conveyance, whether by land, sea, or air, that are used for
+the purpose of transporting wounded, sick, shipwrecked, medical personnel, or medical material.
+The assignment of a means of transportation to
+medical transport may be permanent or temporary
+in nature (except for hospital ships), yet this assignment must be exclusive; a means of transportation
+may not be used for purposes other than medical
+transportation for as long as it is assigned to do so.
+The immunity of medical transports is the same as
+for medical units and medical personnel. They must
+be “respected” and “protected.” As with medical
+units, medical transports may not be used for acts
+that are considered harmful to the enemy and outside their normal humanitarian uses. A medical
+convoy carrying both wounded and able-bodied
+soldiers or arms, for example, would lose its protections to the detriment of the wounded. However,
+the presence of arms that have just been taken from
+the wounded and not yet turned over to the proper
+authorities would be permitted. Also, the fact that
+the medical personnel on board the transport are
+armed with small arms, or that the transport may
+be carrying wounded and sick civilians, will not
+deprive the transport of its protections.
+The disposal of a medical transport if it should
+be captured by the enemy depends upon the nature of the transport. Vehicles that are used on roads,
+rails, or inland waterways are subject to the laws of
+war. They become the property of the captor and
+may be used for any purpose desired, even a military, nonmedical purpose (assuming, of course, that
+the protective emblem has been removed). Before
+the captor may convert a medical vehicle, he must
+ensure the care of the wounded and sick that are
+being carried by the vehicle. The captured wounded
+and sick become prisoners of war and the captured
+medical personnel are retained. 24,25,32
+Medical Aircraft
+Medical aircraft flying over enemy territory or
+close to enemy lines can be given a summons to land
+by the enemy to undergo an inspection. The purpose of the inspection is to verify that the aircraft is
+being used in compliance with the Geneva Conventions. The pilot must obey this summons, for refusing to do so puts the aircraft at risk and allows the
+enemy to legally open fire on it. The examination
+of the aircraft must be conducted expeditiously so
+that any wounded and sick on board will not suffer
+needlessly, and, if no violations are found, the aircraft must be allowed to continue on its way with
+its crew, passengers, and material. If the examination reveals that the aircraft is involved in acts
+harmful to the enemy, such as carrying munitions
+or being used for military observation, then the aircraft can be seized, the wounded and sick made
+prisoners of war, and the medical personnel retained. Because of weather conditions, engine
+trouble, or other causes, medical aircraft can also
+be forced to land in enemy territory without receiving a summons. In the event of capture under these
+circumstances, the aircraft can also be seized. According to Geneva 1949, any seized medical aircraft
+becomes war booty. 24,25 Protocol I changes this provision such that any aircraft seized that had been
+assigned as a permanent medical transport may be
+Military Medical Ethics, Volume 2
+750
+used only as a medical transport by the captor. 32
+Medical aircraft also have certain operational
+limits placed upon them. These regulations have
+undergone a significant evolution during the development of the Geneva Conventions mostly because of rapid technological change in aircraft design and practical considerations on the battlefield.
+World War I was the first conflict in which medical
+aircraft were used to any great extent. Therefore,
+Geneva 1929 was the first to contain provisions regarding medical aircraft. Without agreement with
+the enemy, medical aircraft were prohibited from
+flying forward of the position of the medical clearing station. 47 Unfortunately, because of the difficulty
+in recognizing medical aircraft before attacking
+them, this provision did not prove effective in protecting medical aircraft during World War II. Therefore, Geneva 1949 provides that medical aircraft are
+generally prohibited from flying over enemy territory, and, when they are flying over friendly territory, they are fully protected only while flying according to flight plans agreed upon between
+belligerents. 24,25 Protocol I allows medical aircraft
+to fly over friendly territory without first securing
+agreement approving such flights, although for
+additional safety it recommends notifying the enemy. Over contested areas or over enemy territory,
+medical aircraft can expect to be protected only if
+prior agreement has been reached between the
+belligerents. Yet, under any circumstance, once a
+medical aircraft is correctly identified by the enemy,
+it must be respected. The protocol also contains a
+number of provisions intended to ensure the protection of medical aircraft by their rapid identification using distinctive emblems, lights, radio signals,
+and electronic signatures. 32
+Hospital Ships
+Hospital ships and coastal rescue craft, unlike
+medical vehicles and aircraft, are exempt from capture when operating in compliance with the Geneva
+Conventions. However, in order to prevent a hospital ship from interfering with an enemy’s military operations, the enemy may exercise control
+over it. This control includes searching the hospital
+ship, dictating its course, putting a commissioner
+on board, detaining it, or controlling its use of communications equipment. 25 The searching serves the
+same purpose as the searching of medical aircraft,
+to ensure that the hospital ship is operating in compliance with the Geneva Conventions. The enemy
+may dictate its course by refusing its help, ordering it off, or determining its direction and speed.
+The purpose of a commissioner on board is to ensure that the hospital ship follows the orders given
+it. The enemy may detain a hospital ship, but only
+under exceptional circumstances, and this detention
+may not exceed 7 days. The time limit, which was
+new to Geneva 1949, should prevent abuses such
+as the Japanese detention of The Netherlands hospital ship Op ten Noort for 8 months during World
+War II. 48 In regard to communication equipment, it
+is forbidden at all times for a hospital ship to possess or use secret codes. 25 During World War II, the
+German hospital ship Ophelia was legally captured
+when its crew threw a code book overboard while
+being boarded for inspection. 23 Although it is within
+the spirit of the Geneva Conventions that there
+should be nothing secret in the behavior of a hospital ship, the need to transmit and receive information in the clear has led to a variety of problems.
+For example, in 1982 during the Falklands War between Great Britain and Argentina, all of the
+weather information was disseminated in code to
+the British fleet. The British hospital ships, unable to
+decode this information, were unable to avoid the
+severe South Atlantic winter storms. Also, there was
+the problem of a warship arranging a rendezvous
+with a hospital ship. This was partially solved by
+an agreement between Argentina and Great Britain
+to designate a “Red Cross Box” north of the islands
+where hospital ships could safely take aboard and
+exchange the wounded and sick. 49
+Not only is a hospital ship exempt from capture
+but so are the crew and medical personnel assigned
+to it. Therefore, these medical personnel are treated
+in a fundamentally different fashion than other
+medical personnel. The reason for this is because
+exempting a hospital ship from capture without
+exempting its crew and personnel would prevent it
+from carrying out its mission and would turn it into
+a mere derelict. The exemption from capture extends throughout the period of time the crew and
+personnel are assigned to the ship, whether or not
+they happen to be on board at the time they fall into
+enemy hands. Similarly, their immunity from capture may not be suspended even if there happens
+not to be any wounded or sick on board. Medical
+personnel captured while serving aboard warships
+or in situations other than serving aboard hospital
+ships can be retained by the enemy. Wounded and
+sick aboard hospital ships or other ships become
+prisoners of war if captured, but the belligerent capturing them must be able to care for them before
+moving them. 25
+Hospital ships may be as big or as small as a nation wishes to make them, although, for the comfort and safety of the patients on board, the conventions recommend that they be over 2,000 tons. 25
+Mlitary Medicine in War: The Geneva Conventions Today
+751
+This provision, which was new to Geneva 1949, was
+included because of Great Britain’s announcement
+during World War II that it would refuse to recognize as protected any hospital ship of less than 3,000
+tons; their announcement was in response to the
+large number of small rescue craft used by Germany
+to pick up downed pilots in the immediate vicinity
+of Britain’s coastal defenses at a time when invasion by Germany was thought imminent. 23
+Ships may be built specifically as hospital ships,
+or merchant ships may be converted into hospital
+ships. But, once a ship becomes a hospital ship, it
+must remain a hospital ship throughout the duration of the hostilities. 25 During World War I it had
+been the practice of Great Britain to move merchant
+ships in and out of medical service, prompting Germany to torpedo a number of them. 18 Also, there
+were instances of hasty conversion of merchant
+ships into hospital ships to avoid capture, such as
+the German ship Rostock in the besieged port of
+Bordeaux in 1944. A rule requiring a 10-day advanced notification before employment of a hospital ship should prevent abuses of this sort. 23 Both
+rules should cause fewer attacks on hospital ships
+and allow for better protection of the wounded and
+sick aboard all hospital ships.
+Medical Units
+Protocol I defines “medical units” as “establishments and other units, whether military or civilian,
+organized for medical purposes, namely the search
+for, collection, transportation, diagnosis or treatment—including first-aid treatment—of the
+wounded, sick and shipwrecked, or for the prevention of disease.”32 Medical units may be large or
+small, fixed or mobile, permanent or temporary.
+Included in this definition would be not only hospitals, dental units, and preventive medicine units,
+but also blood collection centers, places where
+medical supplies are stored, and garages where
+medical vehicles are parked or repaired. Thus, the
+“medical purpose” to which the unit is assigned
+must be interpreted flexibly. However, whatever
+medical assignment is made must be performed
+exclusively by that unit, whether for an indeterminate period or a limited period of time, in order for
+the unit to be considered a medical unit. A hospital
+with a large store of munitions in its basement
+would not be performing its medical mission exclusively and, consequently, would not be afforded
+protections.
+The primary right of medical units is the same
+as for medical personnel, that they must be respected and protected at all times. 24,27,32,33 This means
+that the enemy may not intentionally harm them in
+any way or allow them to come to harm without
+coming to their aid. This also means that they must
+be allowed to carry out their medical mission without interference and with assistance, if required. For
+example, the enemy must not prevent the delivery
+of medical supplies to a medical unit and, if necessary, must help to ensure the delivery of those supplies. Respect and protection does not mean that a
+medical unit cannot be occupied by the enemy, but
+it does mean that the wounded and sick, medical
+personnel, and medical equipment must be treated
+with consideration. Also, if a medical unit is occupied, the enemy must allow the unit to continue its
+work, at least until other arrangements have been
+made to care for the wounded and sick.
+The requirement to respect and protect medical
+units does not mean that they may not be harmed
+unintentionally. Medical units may suffer collateral
+damage caused by attacks directed against legitimate targets, especially during aerial or artillery
+bombardments. Therefore, it is the responsibility of
+the military authorities to situate medical units in
+such a fashion that attacks against military objectives will not imperil their safety. 24,32 This does not
+mean that medical units cannot be placed near militarily important targets; at times this will be unavoidable. But, under no circumstances may a medical unit be placed so as to intentionally shield a
+military objective with the hope that the enemy will
+hesitate to attack the objective for humanitarian
+reasons. This would expose the wounded and sick
+and other protected personnel to unnecessary risk
+of serious harm and would be completely contrary
+to the spirit of the Geneva Conventions.
+In order to retain their protections, medical units
+must not be used to commit acts harmful to the enemy. Such acts would include using a hospital as
+housing for uninjured soldiers, as an ammunition
+dump, or as an observation post. Another example
+would be deliberately placing a mobile medical unit
+to impede an enemy attack. In order for a medical
+unit to forfeit its protections, the harmful acts must
+also be outside the humanitarian duties of the unit.
+There are some humanitarian acts that may be
+harmful to the enemy, but that do not warrant termination of protections. For example, returning
+previously sick soldiers to duty is harmful to the
+enemy but within the scope of the humanitarian
+activities of a hospital. Another example would be
+the use of an x-ray machine that unintentionally
+interferes with an enemy’s radio or radar. In the
+event that a unit does commit acts that are hostile
+and not of a humanitarian nature, before protections
+cease, the enemy must warn the unit to put an end
+Military Medical Ethics, Volume 2
+752
+to its hostile acts within a reasonable time limit. The
+length of the time limit is not specified and will vary
+with the situation. It must be long enough to allow
+compliance with the warning or, at least, to allow
+evacuation of the wounded and sick from the unit. 24
+Allowable Conditions
+There are certain conditions that may be present
+that do not deprive a medical unit of its protections. 24 The most important of these is that medical
+personnel may carry arms for their own defense and
+for the defense of the wounded and sick under their
+care. US policy has been that these arms may be
+small arms, although heavier weapons might be
+allowed under certain circumstances. Medical personnel may only resort to the use of arms for defensive purposes. They must refrain from aggressive action, and they may not use the force of arms
+to prevent the capture of their unit by an enemy
+showing the proper respect for protected personnel and material.
+Although a medical unit may not shelter healthy
+soldiers, in the absence of sufficient numbers of
+armed medical personnel to ensure the unit’s security, there may be sentries, guards, or armed escorts
+who are not normally part of the unit. Their role is
+strictly defensive in nature. Members of the veterinary service are also not protected personnel, yet
+they and their equipment may be found in a medical unit even though they do not form an integral
+part of it. The presence of armed guards or the veterinary service does not diminish the protections
+afforded a medical unit. If captured, unlike medical personnel, armed guards and veterinary personnel become prisoners of war.
+Medical units may not act as depots for nonauthorized military weapons. However, wounded and
+sick soldiers may still be in possession of weapons
+when they arrive, which will be taken from them
+and stored until they can be turned over to the
+proper authorities. The presence of these arms in a
+medical unit may not be construed by the enemy
+as a breach of the conventions.
+A provision added to the 1949 Geneva Conventions
+states that medical units cannot be denied protections because they are caring for civilian wounded
+and sick. The wounding of civilians in wartime has
+become an increasingly greater problem since the
+beginning of the 20th century. It is natural that some
+of them will find their way to military medical units.
+It is entirely consistent with the humanitarian purpose of military medical units to extend care to civilians. It had been the custom prior to 1949, but
+the custom had not been officially sanctioned until
+then. This provision has its counterpart in Geneva
+IV wherein civilian hospitals are authorized to shelter and treat military wounded and sick. 27
+The Capture of Medical Units and Material
+Geneva 1929 stipulated that mobile military
+medical units falling into enemy hands were to be
+returned, along with their personnel, as soon as
+possible. However, the experience of World War II
+demonstrated that repatriation was an unrealistic
+goal. Therefore, along with the change from repatriation to retention of medical personnel, Geneva
+1949 also provides that mobile medical units can
+be retained, but the retained material must be reserved for the care of the wounded and sick.
+Unlike mobile medical units, fixed medical establishments remain “subject to the laws of war.”
+This means that the movable property may be removed and taken away by the captor and the real
+property may be used as needed. This rule is tempered by the fact that the captor must continue to
+use the fixed establishment for the benefit of the
+wounded and sick as long as it is needed, unless
+there is urgent military necessity to use the property otherwise, but then only if provision has been
+made for the continued care of the wounded and
+sick contained in the facility. Thus, regarding the
+capture of fixed medical establishments, military
+need is subordinated to humanitarian requirements.
+An entirely new provision of the 1949 Conventions states that the material and stores of mobile
+or fixed medical units may not be intentionally destroyed. This provision does not confine itself to
+protecting medical material against destruction by
+the enemy; it also protects the material in cases
+where those owning it may be tempted to destroy
+it rather than allowing it to fall into enemy hands.
+Therefore, if medical personnel are forced to abandon their medical facility, they must either take
+medical equipment and other material with them,
+or they must leave the facility and its material undamaged for the enemy to capture and use. 24
+MEDICAL ETHICS: PROVIDING A GUIDELINE FOR MEDICAL CARE IN WAR
+How should medical personnel exercise their
+duty to care for the wounded and sick? The 1977
+Protocols32(Art16) identify medical ethics as the appropriate guide:
+Mlitary Medicine in War: The Geneva Conventions Today
+753
+(1)
+Under no circumstances shall any person be
+punished for carrying out medical activities
+compatible with medical ethics, regardless of
+the person benefiting therefrom.
+(2)
+Persons engaged in medical activities shall not
+be compelled to perform acts or to carry out
+work contrary to the rules of medical ethics or
+to other medical rules designed for the benefit
+of the wounded and sick or to the provisions of
+the Conventions or of this Protocol, or to refrain
+from performing acts or from carrying out work
+required by those rules and provisions.
+Medical ethics have always been the appropriate
+guide implied by the Geneva Conventions to direct
+physician behavior on the battlefield, yet it was not
+explicitly stated as such until the advent of the 1977
+Protocols.
+Nowhere in the protocols is the term “medical
+ethics” defined. Presumably, the protocols are referring to generally accepted medical ethical principles. There are both international and national
+dimensions to these principles. On the one hand,
+there are various codes and rules of medical ethics
+that are internationally recognized. These would
+include the Declaration of Geneva50 (a modern day
+Hippocratic Oath), the International Code of Medical Ethics,51 the Regulations in Time of Armed Conflict,52 the Rules Governing the Care of Sick and
+Wounded, Particularly in Time of Conflict,53 the
+Declaration of Helsinki,54 the Declaration of Tokyo,55
+and the Statement on Physician-Assisted Suicide. 56
+All of these codes (which are reproduced in the Attachments following the chapter) were adopted by
+the World Medical Association, and the rules concerning war and armed conflict were adopted
+jointly by the World Medical Association, the International Committee of Military Medicine and
+Pharmacy, and the ICRC. The World Medical Association consists of the major medical associations
+from around the world, including the American
+Medical Association; therefore the various codes
+listed have wide acceptance. The essential principle
+running through these codes is that medical personnel should always act in the interest of the
+wounded or sick person, whoever he is, helping him
+to the fullest extent possible, and never taking advantage of his position of relative weakness and
+dependence. These are the guiding principles in the
+Geneva Conventions and the protocols.
+On the other hand, none of these codes has the
+force of law, and there are still significant variations
+in medical standards from one nation to another.
+Therefore, international humanitarian law does not
+demand the application of universal standards, but
+rather allows nations to apply to the care of the
+wounded and sick their own generally recognized
+standards of medical ethics. Although there is much
+common ground internationally, the concept remains, for now, a national one. 45,46,57,58
+Excluded from the concept of medical ethics are
+any rules intended for the benefit of the profession
+rather than for the benefit of the wounded and sick.
+During the drafting of the protocols it was successfully argued that the term “professional ethics”
+should be changed to “medical ethics” to exclude
+inappropriate rules. As an example, it was pointed
+out that some codes of professional ethics prohibit
+doctors from cooperating in the performance of
+medical procedures by unlicensed personnel. Although such policies might be appropriate in many
+communities, it is necessary to use trained paramedical personnel in isolated military units where
+no licensed physicians are available. It was felt that
+having physicians use “medical ethics” rather than
+“professional ethics” as the guide would not prevent physicians from working with and training
+such personnel and would, in general, focus attention on the patient rather than on the profession. 59–61
+Also excluded are personal codes of medical ethics that are in conflict with national standards. A case
+in point is US v. Levy, the court-martial of Captain
+Levy, an Army physician during the Vietnam War. Dr.
+Levy refused to provide medical training to Special
+Forces personnel, contending that they were combat
+personnel who would be used to commit war crimes
+in Vietnam, and that this was a violation of his concept of medical ethics. The court concluded that a personal concept of medical ethics could not be used as
+an excuse to disobey an otherwise lawful order. 62,63
+The issue raised in US v. Levy is also the subject
+of a reservation proposed by the State Department
+to the previously quoted Article 16 of Protocol I and
+a very similarly worded Article 10 of Protocol II:
+The United States reserves as to Article 10 to the
+extent that it would affect the internal administration of the United States Armed Forces, including
+the administration of military justice. 64
+The State Department has proposed the reservation “to preserve the ability of the US Armed Forces
+to control actions of their medical personnel, who
+might otherwise feel entitled to invoke these provisions to disregard, under the guise of ‘medical ethics,’ the priorities and restrictions established by
+higher authority.” The State Department is concerned
+that, without the reservation, military medical personnel might defer to their own personal interpretaMilitary Medical Ethics, Volume 2
+754
+tion of medical ethics as justification for refusing
+to perform their medical duties according to established national norms. The State Department is also
+concerned that definition of the term “medical ethics” might be determined by some currently undetermined international standards that would be
+open to political manipulation. 64,65 The State
+Department’s concerns are probably unnecessary.
+True violations of medical ethics that have occurred
+in wartime are not normally of a subtle, political
+nature, but rather are obvious violations of basic
+humanitarian principles. Additionally, medical personnel have always been guided by medical ethical principles, which, even if not codified, have
+nonetheless been clear enough to lead to appropriate behavior. And finally, the Geneva Conventions
+by themselves contain the basic ethical principles
+needed to guide the activity of medical personnel
+on the battlefield. Fortunately, the reservation confines itself to areas of concern where medical personnel would not normally invoke the principles
+of medical ethics; therefore, the reservation should
+have no adverse effect on how medical personnel
+perform their humanitarian duties.
+RESPONSIBILITIES OF MEDICAL PERSONNEL
+The previous sections have defined the participants
+(medical personnel and the wounded and sick), discussed their protections, and delineated the general
+guidelines for rendering medical care. This section will
+pursue more specifically the responsibilities of medical personnel who are providing care in combat theaters and occupied territories.
+In Combat Theaters
+The most difficult place to render medical care
+would have to be in a combat theater. In a combat
+situation, long periods of quiet (and boredom) are
+broken by shorter periods of intense and overwhelming activity. Under these stressful conditions,
+medical personnel must locate and care for not only
+their own wounded and sick, but also the wounded
+and sick of the enemy. And, despite the stress, the
+medical care rendered must be efficient, effective,
+and ethical.
+Locating and Collecting the Wounded and Sick
+Belligerents have a general obligation to search
+for and collect the wounded, sick, and dead. The absence of this obligation during the Battle of Solferino
+in 1859 was one of the major motivations for Henry
+Dunant to write his book prompting the development
+of the Geneva Conventions. However, it was not
+until Geneva 1906 that an obligation to search for
+the wounded was imposed. Geneva 1929 made the
+obligation applicable only after a battle. Now the
+requirement is to search “at all times.” The search
+should take place not only after a battle, but during
+the battle as well. Military conditions will determine
+when it is practical to do so. 24,25,27,32,33 Searching for
+the wounded and sick will protect them against
+robbery and ill-treatment and ensure that they are
+cared for in an expedient manner. First aid must be
+rendered to the enemy wounded and sick just as it
+would be to one’s own troops. Hence, medical personnel are likely to be among the first on the scene
+in fulfilling this obligation. Searching for the dead
+will prevent the bodies from being robbed and ensure a timely and dignified burial or cremation.
+Prior to burial or cremation, medical personnel
+must perform a medical examination on the body
+for the purpose of confirming death and establishing identity. 24–27
+Medical personnel may be called upon to enter a
+besieged area in order to deliver medical supplies or
+render medical care to their own nationals or enemy
+nationals. Evacuated wounded and sick may be allowed to pass through enemy lines and return to
+their own side, or they may be made prisoners of war.
+Their status, and the status of medical personnel entering the besieged area, would be decided by local
+arrangement between opposing commanders. 24,25,27
+Caring for the Wounded and Sick
+The primary duty owed to the wounded and sick
+was stated in Geneva 1864 as simply that they shall
+be “taken care of.”11 In 1906 the idea of “respect”
+was added. 42 Finally, in 1929 the primary duty was
+expanded to include “protection” and “humane
+treatment” of the wounded and sick. 47 These four
+principles, that the wounded and sick must be respected, protected, cared for, and treated humanely,
+are at the heart of the Geneva Conventions and are
+repeated throughout the four conventions and the
+two protocols. In the context of the Geneva Conventions, the word “respect” means to spare and
+not to attack, whereas “protect” means to come to
+someone’s defense and to lend help and support. 44
+Thus, it is not enough merely to assume a passive
+Mlitary Medicine in War: The Geneva Conventions Today
+755
+attitude to the injured enemy soldier who is no longer
+fighting; it is mandatory to come to his rescue and
+to give him aid and care as required by his condition.
+How should that care be rendered? It should be
+according to the dictates of medical ethics, and in
+this the conventions offer some specific guidelines.
+The most important guideline is that the medical
+care must be given without any adverse distinction.
+This principle of nondiscrimination follows both
+from medical ethics and is one of the fundamental
+rules of the Red Cross. 66 In all earlier versions of
+the Geneva Conventions, the only adverse distinction specifically mentioned was that based on nationality. 11,42,47 However, World War II showed that
+this by itself was inadequate. Therefore, Geneva
+1949 widened the list of adverse distinctions that
+are forbidden to include those based on sex, race,
+nationality, religion, and political opinions. 24,25 Protocol I adds color, language, social origin, wealth,
+and status by birth to that list. The list is not meant
+to be all inclusive, for the catch-all phrase “any other
+similar criteria” is also mentioned. 32 Any distinction that is made between patients must be based
+on the requirements of the patients. Thus, in addition to distinctions based on differences in the medical conditions of patients, distinctions can be made
+to take into account differences in physical attributes or customs. For example, women should
+receive special consideration, and it would not be a
+breach of rules to give extra blankets to someone
+who is normally accustomed to a tropical climate
+or special food to someone accustomed to a different diet. Any distinction should have a rational and
+humanitarian basis and be determined by what will
+hasten the recovery of the patient.
+Another guideline offered by the conventions is
+that only “urgent medical reasons” can be used to
+justify the priority of treatment provided to the
+wounded and sick. 24,25 However, nowhere does it
+specify what those “urgent medical reasons” are.
+In mass-casualty situations when medical resources
+are constrained, current doctrine dictates that a
+wounded individual with a life-threatening injury
+should be treated before someone with a more minor injury, and it might be necessary to allow an
+individual to die who is so seriously injured that
+his chance of survival is small even with massive
+intervention. Other methods of triage have been
+used at other times and in other situations. No
+single method is dictated by the conventions or the
+protocols. Once again, the dictates of medical ethics must determine the criteria used.
+Protocol I stipulates that any medical procedure
+performed (or omission of a procedure) must meet
+two criteria in order to be justified: (1) it must be
+indicated by the state of health of the patient, and
+(2) it must meet “generally accepted medical standards.”32 The first criterion by itself is not enough.
+Based on this criterion alone the Nazis were able to
+justify the killing of the mentally incompetent and
+chronically ill. However, this type of activity would
+be precluded by the need to also meet medical standards that are generally accepted by the international community. Unfortunately, there is nothing
+specific to which one can refer when trying to determine what international standards are in effect.
+The World Medical Association documents referred
+to earlier are a guide. Certainly one undeniable international standard must be that for any procedure
+to be indicated, it must be for the benefit of the patient, to either improve his health or reduce his suffering. However, there are international standards
+that cannot be universally applied. For instance,
+certain levels of medical training and certain medical techniques or procedures may be considered the
+international norm, yet very poor countries may be
+unable to meet those standards. In acknowledgment
+of this problem, the protocol allows a nation to treat
+the enemy wounded and sick the same as it would
+treat its own nationals who are in no way deprived
+of their liberty (hence, standards that apply only to
+prisoners would be unacceptable). But, there can
+be no doubt that if national standards are used, they
+cannot fall below certain minimum standards in
+order to be in compliance with Geneva 1949 and
+the 1977 Protocols. 45,46
+Establishing and Maintaining Medical Records
+The keeping of medical records, in general, is not
+required by the conventions, except in the case of
+donations of blood and skin. However, Protocol I
+does recommend that, in the case of prisoners of
+war or other detainees, medical personnel should
+keep records and that these records should be available for inspection. 32 The purpose of maintaining
+the medical records is two-fold. The primary purpose as envisioned by the protocol is to prevent
+abuses and to detect breaches of the conventions.
+Obviously this is not a foolproof method for preventing abuses, especially abuses involving omissions that endanger someone’s health. Yet it is a
+useful tool, because the records can be inspected
+without warning by the ICRC or other authorized
+entity. The secondary, yet much more useful, reason for maintaining medical records is to enhance
+Military Medical Ethics, Volume 2
+756
+the provision of medical care. The exact format and
+content of the records is not specified, although, as
+a practical matter, they should be clear and sufficient to accomplish the latter goal.
+The ICRC has established a Central Tracing
+Agency for the purpose of reestablishing contact
+between victims of war and their families. This
+agency gathers and transmits information about
+prisoners of war and those who are wounded, sick,
+or dead, searches for missing persons, delivers messages between families and victims of war, and organizes reunions and repatriations. Information
+about victims of war reaches the Central Tracing
+Agency via national Information Bureaus, which
+every belligerent must set up at the beginning of
+hostilities and during occupations. 26,27 Medical personnel are responsible for recording and forwarding information to their national Information Bureau, which can help in identifying the enemy sick,
+wounded, or dead who may fall into their hands.
+The required information includes name, country,
+serial number, date of birth, and any information
+concerning the individual’s illness, wounds, or
+cause of death. In the event of death, it is also required to send to the national Information Bureau
+any personal documents, money, or articles of intrinsic or sentimental value that the individual possessed. 24,25 In the case of wounded or sick prisoners
+of war or civilian internees, regular updates regarding the state of health of the individuals concerned
+are required. 26,27
+The Extreme Situation: Leaving the Wounded and
+Sick Behind
+Under certain circumstances it may be necessary
+to abandon some of one’s own wounded and sick
+to the enemy. This would be an unusual event, because the wounded and sick almost always are moved
+with the unit holding them. When the event does
+occur, it is most likely to arise in a situation where
+the enemy is advancing rapidly and a medical unit
+has insufficient time and transportation assets to
+move everything and everybody quickly. Whatever
+the cause of abandonment, the Conventions require
+that sufficient medical personnel and material be
+left behind to assist in their care. However, this obligation is not an absolute one, for it is mandatory
+only “as far as military considerations permit.”24
+Leaving medical personnel behind with the
+wounded and sick constitutes a more difficult decision than leaving behind medical supplies. At one
+extreme, it is clear that a medical unit commander
+should leave medical personnel behind with the
+abandoned wounded and sick in his unit if he is
+ordered to do so by a higher headquarters. At the
+other extreme, it is clear that he should not leave
+medical personnel behind if he is certain that the
+enemy will kill them, abuse them, or otherwise prevent them from fulfilling their medical mission.
+However, there are many circumstances where the
+answers are not so clear. For instance, what should
+a commander do when he is concerned that leaving medical personnel behind will leave his unit
+short of help to tend for future casualties? The commentator on the 1929 Geneva Conventions had this
+to say:
+This obligation, natural and necessary as it is, may
+be a heavy charge if, for example, a retreating belligerent is compelled to abandon several groups of
+wounded in turn, leaving medical personnel and
+equipment with them each time. He runs the risk
+in such a case of having no medical personnel or
+equipment left for those of his troops who are the
+last to fall. That cannot be helped. It is his duty to
+provide for present needs without keeping back the
+means of relieving future casualties. If as a result
+he has no more medical personnel or equipment
+for subsequent casualties, he will have to do all he
+can to ensure that they receive relief, even appealing, in such a case to the charity of the inhabitants,
+as he is entitled to do under Article 5. 67
+And yet, circumstances may exist that cause a commander to take a different course. Any decision
+about abandoning wounded and sick must be
+firmly founded on ethical principles. Pictet sets the
+guideline for making this decision when he states,
+If this provision cannot, therefore, be considered
+imperative, it represents nonetheless a clear moral
+obligation which the responsible authority cannot
+evade except in cases of urgent necessity….[This
+provision] is a recommendation, but an urgent and
+forcible one. 44
+Regardless of the decision on leaving medical
+personnel behind, if wounded and sick must be
+abandoned, they should be left with sufficient food
+and medical supplies to ensure their ongoing care,
+they should be clearly marked as protected persons,
+and, if possible, the enemy should be notified of
+their location. Any medical personnel left behind
+must not use their arms against the enemy occupying their location, unless forced to do so in self-defense or defense of the patients, and they must try
+by means of discussion and persuasion to do all they
+can for their patients. Additionally, they must not
+hesitate to care for any newly arrived casualties.
+Mlitary Medicine in War: The Geneva Conventions Today
+757
+Finally, medical personnel may never refuse to care
+for wounded and sick that may have been abandoned by the enemy on the pretext that they were
+abandoned without medical personnel or supplies.
+In Occupied Territories
+Occupying forces have certain obligations in occupied territories that may involve medical personnel.
+These include ensuring that the civilian population
+has adequate food and medical supplies, cooperating with local and national authorities in maintaining hospitals and medical services, and ensuring
+public health and hygiene. 27 Following a military
+engagement there is frequently a breakdown in
+public services and infrastructure. Especially when
+large refugee populations are involved, the lack of
+basic essentials may lead to widespread disease and
+epidemics. It is incumbent upon the invading force
+to be proactive in this regard. Yet it is not solely
+their responsibility. The local healthcare community
+has a role to play, as well. Ideally, the community
+will be able to provide its own services, in which
+case the only obligation of the occupying force
+would be to prevent any hindering of that effort. If
+this is not the case, support may be required. This
+may involve providing advice to local authorities,
+public education, immunization programs, medical supplies, medical support to epidemic areas, and
+new hospital construction. To ensure effectiveness
+and a degree of harmony with the local population,
+due regard must be paid to the habits and customs
+of the civilian community.
+Under certain circumstances it may be necessary
+to requisition civilian hospitals in order to care for
+military wounded and sick. This has always been
+allowed, although the Geneva Conventions provide
+certain safeguards against abuses. In order to legally
+requisition a hospital, it must be used only for the
+care of the military wounded and sick, there must
+be an urgent need, and suitable arrangements must
+be made to ensure that the persons already hospitalized there will receive adequate care and that the
+needs of the civilian population will be met. Furthermore, the requisition can only be temporary; the
+hospital must be returned when the emergency has
+been resolved. It follows that an occupying force
+may not requisition a hospital if it is capable of caring for its own wounded and sick, nor may it, under any circumstances, use a requisitioned hospital
+for any purpose other than the provision of medical care. Medical supplies in a civilian hospital may
+also be requisitioned separate from the hospital.
+Again, there must be an urgent need, the hospital
+patients and civilian population must not be left
+wanting, and the supplies must be replaced as soon
+as possible. 27
+Refraining From Prohibited Acts
+Certain medical procedures are specifically prohibited by the conventions. Geneva 1949 mentions
+torture and biological experiments. 24–27 Protocol I
+adds physical mutilations and removal of tissue or
+organs for transplantation. 32 These acts, along with
+murder and willfully causing great suffering or serious injury, are considered “grave breaches” when
+they are committed against the wounded and sick
+or other protected persons. By international humanitarian law the State must immediately put a
+stop to any violations of this type and punish the
+violators. The violators include not only those who
+actively commit the crimes, but also those who order
+the commission of the crimes by their subordinates
+or who know that a subordinate is committing or
+about to commit crimes without taking every measure possible to prevent them. The State must bring
+violators before its own courts, regardless of their
+nationality, or it may turn them over to another State
+that wishes to prosecute them. 68
+Torture
+Torture in wartime is usually used to extract information from the enemy. However, it may also be
+used to merely punish an individual physically or
+damage him psychologically. Torture may include
+acts of abuse ranging from cruel and degrading
+treatment to physical assaults leading to death.
+Physician participation in torture has occurred
+throughout history. The most recent, glaring examples were revealed in the war crimes trials following World War II. Unfortunately, torture and
+physician participation in it have frequently been
+given legal respectability by governments that
+lacked moral integrity. A physician may participate
+in torture by administering a drug to an individual
+to facilitate interrogation, or by evaluating whether
+a prisoner is physically capable of undergoing torture for purposes of interrogation. A physician may
+participate in torture by wrongly applying psychiatric diagnosis and treatment to fulfill a political
+goal. A physician may even participate in torture
+by using his medical skills to devise new methods
+of torture, even though he is not directly involved
+in administering that torture. Whether or not physician participation in capital punishment represents participation in torture is still an open debate.
+Military Medical Ethics, Volume 2
+758
+Although the law may allow it, many national and
+international medical groups consider such an act
+unethical. 69
+Experimentation
+The prohibition against medical, biological, or
+other scientific experiments arose out of the experience of World War II. In peacetime, scientific experiments involving human subjects are necessary
+for the progress of medicine, provided that the necessary precautions are taken to assure safety and
+complete consent. In wartime it is impossible to be
+certain of complete consent, given freely, of any
+person protected by the Geneva Conventions. The
+mere fact that the individual is under the control of
+his enemy makes that consent very suspect. Therefore, experiments involving enemy prisoners of war,
+enemy wounded and sick, and enemy civilians are
+prohibited. However, this prohibition does not preclude medical personnel from using new methods
+of treatment that are justified on medical grounds
+and used solely with the intention of improving the
+patient’s health. For instance, one might justify giving a new medication that is not yet in general use
+in the hope that it will benefit a patient who would
+otherwise die without it. Where this kind of treatment finally crosses the line and becomes a “medical experiment” is determined by medical ethics.
+Mutilation
+Physical mutilations are prohibited and would
+never seem to be allowed under any circumstances.
+However, the term might also encompass procedures such as amputations, which, under certain
+circumstances, are absolutely essential. Therefore,
+a logical interpretation would be that if the procedure is medically indicated and within generally
+accepted medical standards it is not a “physical
+mutilation” and, therefore, not forbidden.
+Transplantation
+The transplantation of tissue or organs is a relatively modern development. It has become commonplace in peacetime, but in wartime the procedure is
+prohibited when it involves enemy nationals, because the removal of tissue or organs from the donor cannot be justified based on the state of health
+of the donor. In wartime, the benefit to be gained
+by the recipient is not outweighed by the potential
+for abuse of the donor. As with medical experiments, individuals in captivity or otherwise under
+the control of their enemy are assumed to be unable to freely consent to transplantations. Presumably transplantation of organs from cadavers would
+also be prohibited because of the potential for abuse
+of the donor while alive (eg, hastening death to free
+up the organs more quickly), and also because of
+the requirement to ensure that those who have died
+in captivity are honorably buried. 26,27 If, in fact, an
+enemy soldier is in need of a transplant, possible
+solutions might be to find a donor among one’s own
+nationals, or to send the individual, perhaps accompanied by a matching donor of his own nationality,
+back to his own country for the transplant. It should
+be noted that this rule does not disallow the removal
+of diseased organs for therapeutic reasons. Nor does
+it disallow autologous transplants, such as the removal of bone marrow from an individual with the
+intention of reimplanting it back into the same individual as part of a therapeutic procedure.
+Protocol I does allow two exceptions to the prohibition against transplantations. One is blood for
+transfusion and the other is skin for grafting. These
+are extremely logical and useful exceptions to the
+transplantation rules. The donation of these tissues
+can be lifesaving, and the potential for abuse is not
+as great as with the donation of other tissues and
+organs. However, strict rules are mandated in order to prevent abuses. First, the donations must be
+absolutely voluntary; coercion (threats, punishments,
+etc.) and even inducements (promises, rewards, etc.)
+are explicitly prohibited. Second, the donations must
+be for therapeutic purposes only; removal of blood
+or skin for experimental purposes, for instance,
+would be prohibited. Third, the donations must be
+made under conditions consistent with generally
+accepted medical standards and in such a way that
+no harm comes to the donor or recipient; examples
+of generally accepted medical standards for blood
+transfusions would be the performance of certain
+tests on blood before it is transfused, and restrictions on the amount of blood that can be taken from
+an individual. And finally, records must be kept of
+every donation of blood or skin; the purpose of this
+compulsory record keeping is as an additional guarantee against abuses. 32
+Surgery Without Consent
+A well-recognized medical ethical standard, reiterated in Protocol I, is that a patient has the right
+to refuse any surgical procedure, even if it absolutely necessary for his survival and in every other
+way medically justifiable. 32 This requirement must
+be tempered with a certain amount of logic. ObviMlitary Medicine in War: The Geneva Conventions Today
+759
+ously, a surgeon should not feel bound by a refusal
+expressed by a child or by someone whose judgment has been impaired by his injury or illness. A
+gray area may be encountered when someone refuses a procedure but then falls into a coma, or when
+someone claims to speak for someone else in refusing a procedure. Delicate problems of medical ethics may arise for which there are no clear answers. If
+a surgeon decides that he is not ethically bound by
+a refusal and proceeds with an operation, he should
+be absolutely certain that the operation is medically
+justified and within generally accepted medical
+standards. In the event of any refusal, medical personnel should endeavor to obtain a written statement to that effect that is signed or acknowledged
+by the patient. This may not always be possible
+during the chaos created by war, and a written refusal is not mandated. Yet it would seem advisable
+to at least document the refusal or the ignoring of a
+refusal in the patient’s medical record when time
+allows it, if for no other reason than to prevent any
+claim at a later date of a breach of the conventions.
+REFERENCES
+1.
+Pictet J. International humanitarian law: Definition. In: International Dimensions of Humanitarian Law. Geneva:
+Henry Dunant Institute; 1988.
+2.
+Friedman L, ed. The Law of War: A Documentary History. Vol 2. New York: Random House; 1972.
+3.
+Sun Tzu. The Art of War. London: Oxford University Press; 1963.
+4.
+Deuteronomy 20:10–20.
+5.
+Bordwell P. The Law of War Between Belligerents: A History and Commentary. Chicago: Callaghan & Co; 1908.
+6.
+Keen MH. The Laws of War in the Late Middle Ages. London: Routledge & Kegan Paul; 1965.
+7.
+Grotius H. De jure belli ac pacis. In: Scott JB, ed. The Classics of International Law. Oxford: Clarendon Press; 1925.
+8.
+Butler G, MacCoby S. The Development of International Law. London: Longmans Green & Co; 1928.
+9.
+Dunant H. A Memory of Solferino. Geneva: International Committee of the Red Cross; 1986.
+10.
+Resolutions of the Geneva International Conference, 26–29 October 1863. In: Schindler D, Toman J, eds. The
+Laws of Armed Conflicts: A Collection of Conventions, Resolutions and Other Documents. Dordrecht, The Netherlands: Martinus Nijhoff Publishers; 1988.
+11.
+1864 Red Cross Convention for the Amelioration of the Condition of the Wounded in Armies in the Field. In:
+Friedman L, ed. The Law of War: A Documentary History. Vol 2. New York: Random House; 1972.
+CONCLUSION
+The four Geneva Conventions of 1949 and the
+two 1977 Protocols form as complete a system of
+protections for the victims of war as one can expect,
+short of the banning of all forms of warfare. The details and specific provisions within them are changing over time, primarily in response to changes in
+technologies, customs, and methods of warfare, but
+the basic underlying humanitarian principles have
+remained unchanged. Concerning the provision of
+medical care, the focus is on the wounded and sick,
+reducing their suffering and speeding their recovery. All of the protections granted military medical
+personnel and medical equipment are granted solely
+with this intent in mind.
+How medical personnel should behave so as not
+to jeopardize their protection is summarized best
+by the protocols wherein medical ethics are declared
+the guide. Many military medical personnel are not
+well schooled in the military arts and, therefore,
+have only a partial understanding of the multidimensional problems that can be encountered on the
+battlefield. But nearly all are well schooled in medical ethics. If they keep medical ethical principles in
+mind when treating their patients and are familiar
+with their rights and duties as put forth by the law
+of Geneva, they will be more able to cope with the
+battlefield situation in an appropriate, humanitarian fashion.
+Military Medical Ethics, Volume 2
+760
+12.
+Gagnebin B, Gazay M. Encounter With Henry Dunant. Geneva: Librairie de l’Université Georg et Cie; 1963.
+13.
+Boissier P. History of the International Committee of the Red Cross From Solferino to Tsushima. Geneva: Henry Dunant
+Institute; 1985.
+14.
+Pictet J. Development and Principles of International Humanitarian Law. Dordrecht, The Netherlands: Martinus
+Nijhoff Publishers; 1985.
+15.
+Vollmar LC. Development of the laws of war as they pertain to medical units and their personnel. Mil Med.
+1992;157:231–236.
+16.
+Durand A. History of the International Committee of the Red Cross from Sarajevo to Hiroshima. Geneva: Henry Dunant
+Institute; 1984.
+17.
+Draper GIAD. The development of international humanitarian law. In: International Dimensions of Humanitarian
+Law. Geneva: Henry Dunant Institute; 1988.
+18.
+Green LC. Essays on the Modern Law of War. Dobbs Ferry, New York: Transnational Publishers; 1985.
+19.
+US v Greifelt. In: Trials of War Criminals Before the Nuremberg Military Tribunals Under Control Council Law. Vol 4–
+5. Washington, DC: US Government Printing Office; 1950.
+20.
+US v Brandt. In: Trials of War Criminals Before the Nuremberg Military Tribunals Under Control Council Law. Vol 1–
+2. Washington, DC: US Government Printing Office; 1949.
+21.
+US Department of the Army. International Law. Vol 2. Washington, DC: Department of the Army; 1962. Pamphlet 27-161-2.
+22.
+Garner JW. International Law and the World War. Vol 1. London: Longmans Green & Co; 1920.
+23.
+Oppenheim L. International Law: A Treatise. 7th ed. Vol 2. London: Longmans Green & Co; 1952.
+24.
+1949 Geneva Convention I for the Amelioration of the Condition of the Wounded and Sick in Armed Forces in
+the Field. In: Roberts A, Guelff R, eds. Documents on the Laws of War. 2nd ed. Oxford: Clarendon Press; 1989.
+25.
+1949 Geneva Convention II for the Amelioration of the Condition of the Wounded, Sick, and Shipwrecked
+Members of Armed Forces at Sea. In: Roberts A, Guelff R, eds. Documents on the Laws of War. 2nd ed. Oxford:
+Clarendon Press; 1989.
+26.
+1949 Geneva Convention III Relative to the Treatment of Prisoners of War. In: Roberts A, Guelff R, eds. Documents on the Laws of War. 2nd ed. Oxford: Clarendon Press; 1989.
+27.
+1949 Geneva Convention IV Relative to the Protection of Civilian Persons in Time of War. In: Roberts A, Guelff
+R, eds. Documents on the Laws of War. 2nd ed. Oxford: Clarendon Press; 1989.
+28.
+US Department of the Army. The Law of Land Warfare. Washington, DC: Department of the Army; 1956. Field
+Manual 27-10.
+29.
+US Department of the Air Force. International Law—The Conduct of Armed Conflict and Air Operations. Washington, DC: Department of the Air Force; 1976. AF Pamphlet 110-31.
+30.
+US Department of the Navy. Annotated Supplement to the Commander’s Handbook on the Law of Naval Operations.
+Washington, DC: US Department of the Navy; 1989. NWP (REV A) FM 1-10.
+31.
+International Committee of the Red Cross. 1993 Annual Report. Geneva: ICRC; 1993.
+32.
+1977 Geneva Protocol I Additional to the Geneva Conventions of 12 August 1949, and Relating to the Protection of Victims of International Armed Conflicts. In: Roberts A, Guelff R, eds. Documents on the Laws of War. 2nd
+ed. Oxford: Clarendon Press; 1989.
+Mlitary Medicine in War: The Geneva Conventions Today
+761
+33.
+1977 Geneva Protocol II Additional to the Geneva Conventions of 12 August 1949, and Relating to the Protection of Victims of Non-International Armed Conflicts. In: Roberts A, Guelff R, eds. Documents on the Laws of
+War. 2nd ed. Oxford: Clarendon Press; 1989.
+34.
+Dinstein Y. Commentator. Am Univ Law Rev. 1982;31:849–853.
+35.
+Aldrich GH. Guerrilla combatants and prisoner of war status. Am Univ Law Rev. 1982;31:871–882.
+36.
+Aldrich GH. Why the United States of America should ratify Additional Protocol I. In: Delissen AJM, Tanja G,
+eds. Humanitarian Law of Armed Conflict Challenges Ahead. Dordrecht, The Netherlands: Martinus Nijhoff Publishers; 1991.
+37.
+Feith DJ. Protocol I: Moving humanitarian law backwards. Akron Law Rev. 1986;19(4):531–535.
+38.
+Levie HS. Pros and cons of the 1977 Protocol I. Akron Law Rev. 1986;19(4):537–542.
+39.
+Carnahan BM. Additional Protocol I: A military view. Akron Law Rev. 1986;19(4):543–549.
+40.
+McMahon TE. A good treaty. Akron Law Rev. 1986;19(4):551–556.
+41.
+Parks WH. Personal Communication, 1994.
+42.
+1906 Red Cross Convention for the Amelioration of the Condition of the Wounded and Sick in Armies in the
+Field. In: Friedman L, ed. The Law of War: A Documentary History. Vol 2. New York: Random House; 1972.
+43.
+1907 Hague Convention X for the Adaptation to Maritime Warfare of the Principles of the Geneva Convention.
+In: Friedman L, ed. The Law of War: A Documentary History. Vol 2. New York: Random House; 1972.
+44.
+Pictet JS. Commentary: Geneva Convention I for the Amelioration of the Condition of the Wounded and Sick in Armed
+Forces in the Field. Geneva: International Committee of the Red Cross; 1952.
+45.
+Bothe M, Partsch KJ, Solf WA. New Rules for Victims of Armed Conflicts: Commentary on the Two 1977 Protocols
+Additional to the Geneva Conventions of 1949. The Hague: Martinus Nijhoff Publishers; 1982.
+46.
+Sandoz Y, Swinarski C, Zimmermann B. Commentary on the Additional Protocols of 8 June 1977 to the Geneva
+Conventions of 12 August 1949. Geneva: International Committee of the Red Cross; 1987.
+47.
+1929 Red Cross Convention for the Amelioration of the Condition of the Wounded and Sick of Armies in the
+Field. In: Friedman L, ed. The Law of War: A Documentary History. Vol 2. New York: Random House; 1972.
+48.
+Pictet JS. Commentary: Geneva Convention II for the Amelioration of the Condition of the Wounded, Sick and Shipwrecked Members of Armed Forces at Sea. Geneva: International Committee of the Red Cross; 1960.
+49.
+Levie HS. The Code of International Armed Conflict. Vol 2. New York: Oceana Publications; 1986.
+50.
+The World Medical Association. Declaration of Geneva. Adopted by the 2nd General Assembly of the World
+Medical Association, Geneva, Switzerland, September 1948, amended by the 22nd World Medical Assembly,
+Sydney, Australia, August 1968, and the 35th World Medical Assembly, Venice, Italy, October 1983. In: The
+World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical Association;
+1993: Section 17.A.
+51.
+The World Medical Association. International Code of Medical Ethics. Adopted by the 3rd General Assembly of
+the World Medical Association, London, England, October 1949, amended by the 22nd World Medical Assembly, Sydney Australia, August 1968, and the 35th World Medical Assembly, Venice, Italy, October 1983. In: The
+World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical Association;
+1993: Section 17.A.
+Military Medical Ethics, Volume 2
+762
+52.
+The World Medical Association. Regulations in Time of Armed Conflict. Adopted by the 10th World Medical
+Assembly, Havana, Cuba, October 1956, edited by the 11th World Medical Assembly, Istanbul, Turkey, October
+1957, and amended by the 35th World Medical Assembly, Venice, Italy, October 1983. In: The World Medical
+Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical Association; 1993: Section 17. 50.
+53.
+The World Medical Association. Rules Governing the Care of Sick and Wounded, Particularly in Time of Conflict.
+Adopted by the 10th World Medical Assembly, Havana, Cuba, October 1956, edited by the 11th World Medical
+Assembly, Istanbul, Turkey, October 1957, and amended by the 35th World Medical Assembly, Venice, Italy,
+October 1983. In: The World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World
+Medical Association; 1993: Section 17. 50.
+54.
+The World Medical Association. Declaration of Helsinki: Recommendations Guiding Physicians in Biomedical Research Involving Human Subjects. Adopted by the 18th World Medical Assembly, Helsinki, Finland, June 1964,
+and amended by the 29th World Medical Assembly, Tokyo, Japan, October 1975, the 35th World Medical Assembly, Venice, Italy, October 1983, and the 41st World Medical Assembly, Hong Kong, September 1989. In: The
+World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical Association;
+1993: Section 17.C.
+55.
+The World Medical Association. Declaration of Tokyo: Guidelines for Medical Doctors Concerning Torture and Other
+Cruel, Inhuman or Degrading Treatment or Punishment in Relation to Detention and Imprisonment. Adopted by the
+29th World Medical Assembly, Tokyo, Japan, October 1975. In: The World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical Association; 1993: Section 17.F.
+56.
+The World Medical Association. Statement on Physician-Assisted Suicide. Adopted by the 44th World Medical
+Assembly, Marbella, Spain, September 1992. In: The World Medical Association Handbook of Declarations. FerneyVoltaire, France: The World Medical Association; 1993: Section 17.PP.
+57.
+Baccino-Astrada A. Manual on the Rights and Duties of Medical Personnel in Armed Conflicts. Geneva: International Committee of the Red Cross and the League of Red Cross and Red Crescent Societies; 1982.
+58.
+Levie HS. The Code of International Armed Conflict. Vol 1. New York: Oceana Publications; 1986.
+59.
+Levie HS. Protection of War Victims: Protocol I to the 1949 Geneva Conventions. Vol 1. Dobbs Ferry, New York:
+Oceana Publications; 1979.
+60.
+International Committee of the Red Cross. Report on the Work of the Conference of Government Experts on the
+Reaffirmation and Development of International Humanitarian Law Applicable in Armed Conflicts. Geneva: ICRC;
+1971.
+61.
+Swiss Federal Council. Official Records of the Diplomatic Conference on the Reaffirmation and Development of International Humanitarian Law Applicable in Armed Conflicts, Geneva (1974–1977). Vol 1. Bern: Federal Political Department: 1978.
+62.
+US v Levy. CMR. 1968;39:672–682.
+63.
+Levy v Parker. Mil Law Rep. 1973;1:2130–2151.
+64.
+Message from the President of the United States Transmitting the Protocol II Additional to the Geneva Conventions of August 12, 1949, and Relating to the Protection of Victims of Non-International Armed Conflicts, Concluded at Geneva on June 10, 1977. Senate Treaty Document 100-2, US Senate, 100th Congress, 1st Session.
+Washington, DC: US Government Printing Office; 1987.
+65.
+Smith D. New protections for victims of international armed conflicts: the proposed ratification of Protocol II
+by the United States. Mil Law Rev. 1988;120(Spring):59–82.
+66.
+1978 Red Cross Fundamental Rules of International Humanitarian Law Applicable in Armed Conflicts. In:
+Roberts A, Guelff R, eds. Documents on the Laws of War. 2nd ed. Oxford: Clarendon Press; 1989.
+67.
+Des Gouttes P. As quoted by Pictet JS. Commentary: Geneva Convention I for the Amelioration of the Condition of the
+Wounded and Sick in Armed Forces in the Field. Geneva: International Committee of the Red Cross; 1952: 141.
+Mlitary Medicine in War: The Geneva Conventions Today
+763
+Chapter 23: ATTACHMENTS
+INTERNATIONAL GUIDANCE ON HUMANITARIAN CARE
+Resolutions of the Geneva International Conference Geneva, 26–29 October 1863
+Convention for the Amelioration of the Condition of the Wounded in Armies in the Field, Geneva, 22 August 1864
+World Medical Association (WMA) Documents:
+WMA Declaration of Geneva
+WMA International Code of Medical Ethics
+WMA Regulations in Time of Armed Conflict
+WMA Rules Governing the Care of Sick and Wounded, Particularly in Time of Conflict
+WMA Declaration of Helsinki
+WMA Declaration of Tokyo
+WMA Statement on Physician-Assisted Suicide
+1978 Red Cross Fundamental Rules of International Humanitarian Law Applicable In Armed Conflicts
+RESOLUTIONS OF THE GENEVA INTERNATIONAL CONFERENCE
+GENEVA, 26–29 OCTOBER 1863
+The International Conference, desirous of coming to the aid of the wounded should the Military Medical Services
+prove inadequate, adopts the following Resolutions:
+Article 1
+Each country shall have a Committee whose duty it shall be, in time of war and if the need arises, to assist the
+Army Medical Services by every means in its power.
+The Committee shall organize itself in the manner which seems to it most useful and appropriate.
+Article 2
+An unlimited number of Sections may be formed to assist the Committee, which shall be the central directing body.
+Article 3
+Each Committee shall get in touch with the Government of its country, so that its services may be accepted should
+the occasion arise.
+Article 4
+In peacetime, the Committees and Sections shall take steps to ensure their real usefulness in time of war, especially by preparing material relief of all sorts and by seeking to train and instruct voluntary medical personnel.
+Article 5
+In time of war, the Committees of belligerent nations shall supply relief to their respective armies as far as their
+means permit; in particular, they shall organize voluntary personnel and place them on an active footing and, in
+agreement with the military authorities, shall have premises made available for the care of the wounded.
+They may call for assistance upon the Committees of neutral countries.
+Article 6
+On the request or with the consent of the military authorities, Committees may send voluntary medical personnel
+to the battlefield where they shall be placed under military command.
+Article 7
+Voluntary medical personnel attached to armies shall be supplied by the respective Committees with everything
+necessary for their upkeep.
+Article 8
+They shall wear in all countries, as a uniform distinctive sign, a white armlet with a red cross.
+Military Medical Ethics, Volume 2
+764
+Article 9
+The Committees and Sections of different countries may meet in international assemblies to communicate the
+results of their experience and to agree on measures to be taken in the interests of the work.
+Article 10
+The exchange of communications between the Committees of the various countries shall be made for the time
+being through the intermediary of the Geneva Committee.
+Independently of the above Resolutions, the Conference makes the following Recommendations:
+(a)
+that Governments should extend their patronage to Relief Committees which may be formed, and facilitate
+as far as possible the accomplishment of their task;
+(b)
+that in time of war the belligerent nations should proclaim the neutrality of ambulances and military hospitals, and that neutrality should likewise be recognized, fully and absolutely, in respect of official medical
+personnel, voluntary medical personnel, inhabitants of the country who go to the relief of the wounded,
+and the wounded themselves;
+(c)
+that a uniform distinctive sign be recognized for the Medical Corps of all armies, or at least for all persons
+of the same army belonging to this Service; and, that a uniform flag also be adopted in all countries for
+ambulances and hospitals.
+Source: Resolutions of the Geneva International Conference, 26–29 October 1863. In: Schindler D, Toman J, eds. The Laws of Armed
+Conflicts: A Collection of Conventions, Resolutions and Other Documents. Dordrecht, The Netherlands: Martinus Nijhoff Publishers;
+1988: 209–211.
+CONVENTION FOR THE AMELIORATION OF THE
+CONDITION OF THE WOUNDED IN ARMIES IN THE FIELD
+GENEVA, 22 AUGUST 1864
+Article 1
+Ambulances and military hospitals shall be acknowledged to be neuter [sic], and, as such, shall be protected and
+respected by belligerents so long as any sick or wounded may be therein.
+Such neutrality shall cease if the ambulances or hospitals should be held by a military force.
+Article 2
+Persons employed in hospitals and ambulances, comprising the staff for superintendence, medical service, administration, transport of wounded, as well as chaplains, shall participate in the benefit of neutrality, whilst so employed, and so long as there remain any wounded to bring in or to succor.
+Article 3
+The persons designated in the preceding article may, even after occupation by the enemy, continue to fulfill their
+duties in the hospital or ambulance which they serve, or may withdraw in order to rejoin the corps to which they
+belong.
+Under such circumstances, when these persons shall cease from their functions, they shall be delivered by the
+occupying army to the outposts of the enemy.
+Article 4
+As the equipment of military hospitals remain subject to the laws of war, persons attached to such hospitals cannot, in withdrawing, carry away any articles but such as are their private property.
+Under the same circumstances an ambulance shall, on the contrary, retain its equipment.
+Article 5
+Inhabitants of the country who may bring help to the wounded shall be respected, and shall remain free. The
+generals of the belligerent Powers shall make it their care to inform the inhabitants of the appeal addressed to their
+humanity, and of the neutrality which will be the consequence of it.
+Any wounded man entertained and taken care of in a house shall be considered as a protection thereto. Any
+Mlitary Medicine in War: The Geneva Conventions Today
+765
+inhabitant who shall have entertained wounded men in their house shall be exempted from the quartering of troops,
+as well as from a part of the contributions of war which may be imposed.
+Article 6
+Wounded or sick soldiers shall be entertained and taken care of, to whatever nation they may belong.
+Commanders-in-chief shall have the power to deliver immediately to the outposts of the enemy soldiers who have
+been wounded in an engagement, when circumstances permit this to be done, and with the consent of both parties.
+Those who are recognized, after their wounds are healed, as incapable of serving, shall be sent back to their country.
+The others may also be sent back, on condition of not again bearing arms during the continuance of the war.
+Evacuations, together with the persons under whose directions they take place, shall be protected by an absolute
+neutrality.
+Article 7
+A distinctive and uniform flag shall be adopted for hospitals, ambulances and evacuations. It must, on every
+occasion, be accompanied by the national flag. An arm-badge (brassard) shall be allowed for individuals neutralized,
+but the delivery thereof shall be left to military authority.
+The flag and the arm-badge shall bear a red cross on a white ground.
+Article 8
+The details of execution of the present convention shall be regulated by the commanders-in-chief of belligerent
+armies, according to the instructions of their respective governments, and in conformity with the general principles
+laid down in this convention.
+Article 9
+The high contracting Powers have agreed to communicate the present convention to those Governments which
+have not found it convenient to send plenipotentiaries to the International Conference at Geneva, with an invitation
+to accede thereto; the protocol is for that purpose left open.
+Article 10
+The present convention shall be ratified, and the ratifications shall be exchanged at Berne, in four months, or
+sooner, if possible.
+In faith whereof the respective Plenipotentiaries have signed it and have affixed their seals thereto.
+Done at Geneva, the twenty-second day of the month of August of the year one thousand eight hundred and sixty-four.
+Source: 1864 Red Cross Convention for the Amelioration of the Condition of the Wounded in Armies in the Field. In: Friedman L,
+ed. The Law of War: A Documentary History. Vol 1. New York: Random House; 1972: 189–191.
+WORLD MEDICAL ASSOCIATION
+DECLARATION OF GENEVA
+AT THE TIME OF BEING ADMITTED AS A MEMBER OF THE MEDICAL PROFESSION:
+I SOLEMNLY PLEDGE myself to consecrate my life to the service of humanity;
+I WILL GIVE to my teachers the respect and gratitude which is their due;
+I WILL PRACTICE my profession with conscience and dignity;
+THE HEALTH OF MY PATIENT will be my first consideration;
+I WILL RESPECT the secrets which are confided in me, even after the patient has died;
+I WILL MAINTAIN by all means in my power, the honor and the noble traditions of the medical profession;
+MY COLLEAGUES will be my brothers;
+I WILL NOT PERMIT considerations of religion, nationality, race, party politics or social standing to intervene
+between my duty and my patient;
+Military Medical Ethics, Volume 2
+766
+I WILL MAINTAIN the utmost respect for human life from its beginning even under threat and I will not use my
+medical knowledge contrary to the laws of humanity;
+I MAKE THESE PROMISES solemnly, freely and upon my honor.
+Source: The World Medical Association. Declaration of Geneva. Adopted by the 2nd General Assembly of the World Medical Association, Geneva, Switzerland, September 1948, amended by the 22nd World Medical Assembly, Sydney, Australia, August 1968, and
+the 35th World Medical Assembly, Venice, Italy, October 1983. In: The World Medical Association Handbook of Declarations. FerneyVoltaire, France: The World Medical Association; 1993: Section 17.A.
+WORLD MEDICAL ASSOCIATION
+INTERNATIONAL CODE
+OF
+MEDICAL ETHICS
+DUTIES OF PHYSICIANS IN GENERAL
+A PHYSICIAN SHALL always maintain the highest standards of professional conduct.
+A PHYSICIAN SHALL not permit motives of profit to influence the free and independent exercise of professional judgment
+on behalf of patients.
+A PHYSICIAN SHALL, in all types of medical practice, be dedicated to providing competent medical service in full technical
+and moral independence, with compassion and respect for human dignity.
+A PHYSICIAN SHALL deal honestly with patients and colleagues, and strive to expose those physicians deficient in
+character or competence, or who engage in fraud or deception.
+The following practices are deemed to be unethical conduct:
+(a)
+Self advertising by physicians, unless permitted by the laws of the country and the Code of Ethics of the
+National Medical Association.
+(b)
+Paying or receiving any fee or any other consideration solely to procure the referral of a patient or for
+prescribing or referring a patient to any source.
+A PHYSICIAN SHALL respect the rights of patients, of colleagues, and of other health professionals, and shall safeguard
+patient confidences.
+A PHYSICIAN SHALL act only in the patient’s interest when providing medical care which might have the effect of
+weakening the physical and mental condition of the patient.
+A PHYSICIAN SHALL use great caution in divulging discoveries or new techniques or treatment through non-professional
+channels.
+A PHYSICIAN SHALL certify only that which he has personally verified.
+DUTIES OF PHYSICIANS TO THE SICK
+A PHYSICIAN SHALL always bear in mind the obligation of preserving human life.
+A PHYSICIAN SHALL owe his patients complete loyalty and all the resources of his science. Whenever an examination or
+treatment is beyond the physician’s capacity he should summon another physician who has the necessary ability.
+A PHYSICIAN SHALL preserve absolute confidentiality on all he knows about his patient even after the patient has died.
+A PHYSICIAN SHALL give emergency care as a humanitarian duty unless he is assured that others are willing and able to
+give such care.
+DUTIES OF PHYSICIANS TO EACH OTHER
+A PHYSICIAN SHALL behave towards his colleagues as he would have them behave towards him.
+A PHYSICIAN SHALL NOT entice patients from his colleagues.
+A PHYSICIAN SHALL observe the principles of the “Declaration of Geneva” approved by the World Medical Association.
+Source: The World Medical Association. International Code of Medical Ethics. Adopted by the 3rd General Assembly of the World
+Medical Association, London, England, October 1949, amended by the 22nd World Medical Assembly, Sydney Australia, August
+1968, and the 35th World Medical Assembly, Venice, Italy, October 1983. In: The World Medical Association Handbook of Declarations.
+Ferney-Voltaire, France: The World Medical Association; 1993: Section 17.A.
+Mlitary Medicine in War: The Geneva Conventions Today
+767
+WORLD MEDICAL ASSOCIATION
+REGULATIONS IN TIME OF ARMED CONFLICT
+1.
+Medical Ethics in time of armed conflict is identical to medical ethics in time of peace, as established in the
+International Code of Medical Ethics of the World Medical Association. The primary obligation of the physician is his professional duty; in performing his professional duty, the physician’s supreme guide is his
+conscience.
+2.
+The primary task of the medical profession is to preserve health and save life. Hence it is deemed unethical
+for physicians to:
+(a)
+Give advice or perform prophylactic, diagnostic or therapeutic procedures that are not justifiable in
+the patient’s interest.
+(b)
+Weaken the physical or mental strength of a human being without therapeutic justification.
+(c)
+Employ scientific knowledge to imperil health or destroy life.
+3.
+Human experimentation in time of armed conflict is governed by the same code as in time of peace; it is
+strictly forbidden on all persons deprived of their liberty, especially civilian and military prisoners and the
+population of occupied countries.
+4.
+In emergencies, the physician must always give the required care impartially and without consideration of
+sex, race, nationality, religion, political affiliation or any other similar criterion. Such medical assistance
+must be continued for as long as necessary and practicable.
+5.
+Medical confidentially must be preserved by the physician in the practice of his profession.
+6.
+Privileges and facilities afforded the physician must never be used for other than professional purposes.
+Source: The World Medical Association. Regulations in Time of Armed Conflict. Adopted by the 10th World Medical Assembly, Havana, Cuba, October 1956, edited by the 11th World Medical Assembly, Istanbul, Turkey, October 1957, and amended by the 35th
+World Medical Assembly, Venice, Italy, October 1983. In: The World Medical Association Handbook of Declarations. Ferney-Voltaire,
+France: The World Medical Association; 1993: Section 17. 50.
+WORLD MEDICAL ASSOCIATION
+ RULES GOVERNING THE CARE OF SICK AND WOUNDED,
+PARTICULARLY IN TIME OF CONFLICT
+A.
+1.
+Under all circumstances, every person, military or civilian must receive promptly the care he needs without
+consideration of sex, race, nationality, religion, political affiliation or any other similar criterion.
+2.
+Any procedure detrimental to the health, physical or mental integrity of a human being is forbidden unless
+therapeutically justifiable.
+B.
+1.
+In emergencies, physicians and associated medical personnel are required to render immediate service to
+the best of their ability. No distinction shall be made between patients except those justified by medical
+urgency.
+2.
+The members of medical and auxiliary professions must be granted the protection needed to carry out their
+professional activities freely. The assistance necessary should be given to them in fulfilling their responsibilities. Free passage should be granted whenever their assistance is required. They should be afforded
+complete professional independence.
+3.
+The fulfillment of medical duties and responsibilities shall in no circumstances be considered an offence.
+The physician must never be prosecuted for observing professional confidentiality.
+4.
+In fulfilling their professional duties, the medical and auxiliary professions will be identified by the distinctive emblem of a red serpent and staff on a white field. The use of this emblem is governed by special
+regulation.
+Source: The World Medical Association. Rules Governing the Care of Sick and Wounded, Particularly in Time of Conflict. Adopted by the
+10th World Medical Assembly, Havana, Cuba, October 1956, edited by the 11th World Medical Assembly, Istanbul, Turkey, October
+1957, and amended by the 35th World Medical Assembly, Venice, Italy, October 1983. In: The World Medical Association Handbook of
+Declarations. Ferney-Voltaire, France: The World Medical Association; 1993: Section 17. 50.
+Military Medical Ethics, Volume 2
+768
+WORLD MEDICAL ASSOCIATION
+DECLARATION OF HELSINKI
+INTRODUCTION
+It is the mission of the physician to safeguard the health of the people. His or her knowledge and conscience are
+dedicated to the fulfillment of this mission.
+The Declaration of Geneva of the World Medical Association binds the physician with the words, “The health of my
+patient will be my first consideration,” and the International Code of Medical Ethics declares that, “A physician shall
+act only in the patient’s interest when providing medical care which might have the effect of weakening the physical
+and mental condition of the patient.”
+•
+The purpose of biomedical research involving human subjects must be to improve diagnostic, therapeutic
+and prophylactic procedures and the understanding of the etiology and pathogenesis of disease.
+•
+In current medical practice most diagnostic, therapeutic or prophylactic procedures involve hazards. This
+applies especially to biomedical research.
+•
+Medical progress is based on research which ultimately must rest in part on experimentation involving
+human subjects.
+•
+In the field of biomedical research a fundamental distinction must be recognized between medical research
+in which the aim is essentially diagnostic or therapeutic for a patient, and medical research, the essential
+object of which is purely scientific and without implying direct diagnostic or therapeutic value to the person
+subjected to the research.
+•
+Special caution must be exercised in the conduct of research which may affect the environment, and the
+welfare of animals used for research must be respected.
+•
+Because it is essential that the results of laboratory experiments be applied to human beings to further scientific knowledge and to help suffering humanity, the World Medical Association has prepared the following
+recommendations as a guide to every physician in biomedical research involving human subjects. They
+should be kept under review in the future. It must be stressed that the standards as drafted are only a guide
+to physicians all over the world. Physicians are not relieved from criminal, civil and ethical responsibilities.
+I. BASIC PRINCIPLES
+1.
+Biomedical research involving human subjects must conform to generally accepted scientific principles and
+should be based on adequately performed laboratory and animal experimentation and on a thorough knowledge of the scientific literature.
+2.
+The design and performance of each experimental procedure involving human subjects should be clearly
+formulated in an experimental protocol which should be transmitted for consideration, comment and guidance to a specially appointed committee independent of the investigator and the sponsor provided that this
+independent committee is in conformity with the laws and regulations of the country in which the research
+experiment is performed.
+3.
+Biomedical research involving human subjects should be conducted only by scientifically qualified persons
+and under the supervision of a clinically competent medical person. The responsibility for the human subject must always rest with a medically qualified person and never rest on the subject of the research, even
+though the subject has given his or her consent.
+4.
+Biomedical research involving human subjects cannot legitimately be carried out unless the importance of
+the objective is in proportion to the inherent risk to the subject.
+5.
+Every biomedical research project involving human subjects should be preceded by careful assessment of
+predictable risks in comparison with foreseeable benefits to the subject or to others. Concern for the interests of the subject must always prevail over the interests of science and society.
+6.
+The right of the research subject to safeguard his or her integrity must always be respected. Every precaution should be taken to respect the privacy of the subject and to minimize the impact of the study on the
+subject’s physical and mental integrity and on the personality of the subject.
+7.
+Physicians should abstain from engaging in research projects involving human subjects unless they are
+satisfied that the hazards involved are believed to be predictable. Physicians should cease any investigation if the hazards are found to outweigh the potential benefits.
+8.
+In publication of the results of his or her research, the physician is obliged to preserve the accuracy of the
+results. Reports of experimentation not in accordance with the principles laid down in this Declaration
+should not be accepted for publication.
+Mlitary Medicine in War: The Geneva Conventions Today
+769
+9.
+In any research on human beings, each potential subject must be adequately informed of the aims, methods, anticipated benefits and potential hazards of the study and the discomfort it may entail. He or she
+should be informed that he or she is at liberty to abstain from participation in the study and that he or she
+is free to withdraw his or her consent to participation at any time. The physician should then obtain the
+subject’s freely-given informed consent, preferably in writing.
+10.
+When obtaining informed consent for the research project the physician should be particularly cautious if
+the subject is in a dependent relationship to him or her or may consent under duress. In that case the informed consent should be obtained by a physician who is not engaged in the investigation and who is
+completely independent of this official relationship.
+11.
+In case of legal incompetence, informed consent should be obtained from the legal guardian in accordance
+with national legislation. Where physical or mental incapacity makes it impossible to obtain informed consent, or when the subject is a minor, permission from the responsible relative replaces that of the subject in
+accordance with national legislation.
+Whenever the minor child is in fact able to give a consent, the minor’s consent must be obtained in addition
+to the consent of the minor’s legal guardian.
+12.
+The research protocol should always contain a statement of the ethical considerations involved and should
+indicate that the principles enunciated in the present Declaration are complied with.
+II. MEDICAL RESEARCH COMBINED WITH PROFESSIONAL CARE (Clinical research)
+1.
+In the treatment of the sick person, the physician must be free to use a new diagnostic and therapeutic
+measure, if in his or her judgment it offers hope of saving life, reestablishing health or alleviating suffering.
+2.
+The potential benefits, hazards and discomfort of a new method should be weighed against the advantages
+of the best current diagnostic and therapeutic methods.
+3.
+In any medical study, every patient—including those of a control group, if any—should be assured of the
+best proven diagnostic and therapeutic method.
+4.
+The refusal of the patient to participate in a study must never interfere with the physician-patient relationship.
+5.
+If the physician considers it essential not to obtain informed consent, the specific reasons for this proposal
+should be stated in the experimental protocol for transmission to the independent committee.
+6.
+The physician can combine medical research with professional care, the objective being the acquisition of
+new medical knowledge, only to the extent that medical research is justified by its potential diagnostic or
+therapeutic value for the patient.
+III.NON-THERAPEUTIC BIOMEDICAL RESEARCH INVOLVING HUMAN SUBJECTS
+(Non-clinical biomedical research)
+1.
+In the purely scientific application of medical research carried out on a human being, it is the duty of the
+physician to remain the protector of the life and health of that person on whom biomedical research is being
+carried out.
+2.
+The subjects should be volunteers—either healthy persons or patients for whom the experimental design is
+not related to the patient’s illness.
+3.
+The investigator or the investigating team should discontinue the research if in his/her or their judgment it
+may, if continued, be harmful to the individual.
+4.
+In research on man, the interest of science and society should never take precedence over considerations
+related to the well-being of the subject.
+Source: The World Medical Association. Declaration of Helsinki: Recommendations Guiding Physicians in Biomedical Research Involving
+Human Subjects. Adopted by the 18th World Medical Assembly, Helsinki, Finland, June 1964, and amended by the 29th World
+Medical Assembly, Tokyo, Japan, October 1975, the 35th World Medical Assembly, Venice, Italy, October 1983, and the 41st World
+Medical Assembly, Hong Kong, September 1989. In: The World Medical Association Handbook of Declarations. Ferney-Voltaire, France:
+The World Medical Association; 1993: Section 17.C.
+Military Medical Ethics, Volume 2
+770
+WORLD MEDICAL ASSOCIATION
+DECLARATION OF TOKYO
+PREAMBLE
+It is the privilege of the medical doctor to practice medicine in the service of humanity, to preserve and restore bodily
+and mental health without distinction as to persons, to comfort and to ease the suffering of his or her patients. The
+utmost respect for human life is to be maintained even under threat, and no use made of any medical knowledge
+contrary to the laws of humanity.
+For the purpose of this Declaration, torture is defined as the deliberate, systematic or wanton infliction of physical or
+mental suffering by one or more persons acting alone or on the orders of any authority, to force another person to
+yield information, to make a confession, or for any other reason.
+DECLARATION
+1.
+The doctor shall not countenance, condone or participate in the practice of torture or other forms of cruel,
+inhuman or degrading procedures, whatever the offence of which the victim of such procedures is suspected, accused or guilty, and whatever the victim’s beliefs or motives, and in all situations, including
+armed conflict and civil strife.
+2.
+The doctor shall not provide any premises, instruments, substances or knowledge to facilitate the practice
+of torture or other forms of cruel, inhuman or degrading treatment or to diminish the ability of the victim to
+resist such treatment.
+3.
+The doctor shall not be present during any procedure during which torture or other forms of cruel, inhuman or degrading treatment is used or threatened.
+4.
+A doctor must have complete clinical independence in deciding upon the care of a person for whom he or
+she is medically responsible. The doctor’s fundamental role is to alleviate the distress of his or her fellow
+men, and no motive whether personal, collective or political shall prevail against this higher purpose.
+5.
+Where a prisoner refuses nourishment and is considered by the doctor as capable of forming an unimpaired
+and rational judgment concerning the consequences of such a voluntary refusal of nourishment, he or she
+shall not be fed artificially. The decision as to the capacity of the prisoner to form such a judgment should
+be confirmed by at least one other independent doctor. The consequences of the refusal of nourishment
+shall be explained by the doctor to the prisoner.
+6.
+The World Medical Association will support, and should encourage the international community, the national medical associations and fellow doctors to support the doctor and his or her family in the face of
+threats or reprisals resulting from a refusal to condone the use of torture or other forms of cruel, inhuman
+or degrading treatment.
+Source: The World Medical Association. Declaration of Tokyo: Guidelines for Medical Doctors Concerning Torture and Other Cruel, Inhuman or Degrading Treatment or Punishment in Relation to Detention and Imprisonment. Adopted by the 29th World Medical Assembly,
+Tokyo, Japan, October 1975. In: The World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World Medical
+Association; 1993: Section 17.F.
+WORLD MEDICAL ASSOCIATION
+STATEMENT ON PHYSICIAN-ASSISTED SUICIDE
+Instances of physician-assisted suicide have recently become the focus of public attention. These instances involve
+the use of a machine, invented by the physician who instructs the individual in its use. The individual thereby is
+assisted in committing suicide. In other instances the physician has provided medication to the individual with
+information as to the amount of dosage that would be lethal. The individual is thereby provided with the means for
+committing suicide. To be sure, the individuals involved were seriously ill, perhaps even terminally ill, and were
+wracked with pain. Furthermore, the individuals were apparently competent and made their own decision to commit
+suicide. Patients contemplating suicide are frequently expressing the depression that accompanies terminal illness.
+Physician-assisted suicide, like euthanasia, is unethical and must be condemned by the medical profession. Where
+the assistance of the physician is intentionally and deliberately directed at enabling an individual to end his or her
+own life, the physician acts unethically. However the right to decline medical treatment is a basic right of the patient
+and the physician does not act unethically even if respecting such a wish results in the death of the patient.
+Source: The World Medical Association. Statement on Physician-Assisted Suicide. Adopted by the 44th World Medical Assembly,
+Marbella, Spain, September 1992. In: The World Medical Association Handbook of Declarations. Ferney-Voltaire, France: The World
+Medical Association; 1993: Section 17.PP.
+Mlitary Medicine in War: The Geneva Conventions Today
+771
+1978 RED CROSS FUNDAMENTAL RULES
+OF INTERNATIONAL HUMANITARIAN LAW
+APPLICABLE IN ARMED CONFLICTS
+1.
+Persons hors de combat and those who do not take a direct part in hostilities are entitled to respect for their
+lives and physical and moral integrity. They shall in all circumstances be protected and treated humanely
+without any adverse distinction.
+2.
+It is forbidden to kill or injure an enemy who surrenders or who is hors de combat.
+3.
+The wounded and sick shall be collected and cared for by the party to the conflict which has them in its
+power. Protection also covers medical personnel, establishments, transports and materiél. The emblem of
+the red cross (red crescent, red lion and sun) is the sign of such protection and must be respected.
+4.
+Captured combatants and civilians under the authority of an adverse party are entitled to respect for their
+lives, dignity, personal rights and convictions. They shall be protected against all acts of violence and reprisals. They shall have the right to correspond with their families and to receive relief.
+5.
+Everyone shall be entitled to benefit from fundamental judicial guarantees. No one shall be held responsible for an act he has not committed. No one shall be subjected to physical or mental torture, corporal
+punishment or cruel or degrading treatment.
+6.
+Parties to a conflict and members of their armed forces do not have an unlimited choice of methods and
+means of warfare. It is prohibited to employ weapons or methods of warfare of a nature to cause unnecessary losses or excessive suffering.
+7.
+Parties to a conflict shall at all times distinguish between the civilian population and combatants in order to
+spare civilian population and property. Neither the civilian population as such nor civilian persons shall be
+the object of attack. Attacks shall be directed solely against military objectives.
+Source: 1978 Red Cross Fundamental Rules of International Humanitarian Law Applicable in Armed Conflicts. In: Roberts A,
+Guelff R, eds. Documents on the Laws of War. 2nd ed. Oxford: Clarendon Press; 1989: 470.
+Military Medical Ethics, Volume 2
+772

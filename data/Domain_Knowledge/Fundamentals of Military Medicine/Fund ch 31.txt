@@ -1,0 +1,876 @@
+443
+Rehabilitation and Reintegration
+Chapter 31
+REHABILITATION AND 
+REINTEGRATION
+OLUWASEYI GBADE-ALABI, MD,* and PAUL PASQUINA, MD†
+INTRODUCTION
+HISTORY OF REHABILITATION IN THE MILITARY
+RECENT CHALLENGES IN COMBAT CASUALTY REHABILTIATION
+ELEMENTS OF MILITARY REHABILITATION
+Acute Care
+Home Care
+Sports and Recreation
+Nonprofit Organizations
+ROLE OF THE MILITARY MEDICAL OFFICER 
+REHABILITATION TEAM MEMBERS AND ROLES
+GUIDANCE TO THE COMMANDING OFFICER
+SUMMARY
+*Major, Medical Corps, US Army; Chief, Inpatient Physical Medicine and Rehabilitation, Walter Reed National Military Medical Center, Bethesda, 
+Maryland
+†Professor and Chair, Department of Rehabilitation Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland; Chief, Department of Rehabilitation, Walter Reed National Military Medical Center, Bethesda, Maryland
+444
+Fundamentals of Military Medicine
+INTRODUCTION
+Military medical officers (MMOs) must not only 
+recognize the importance of optimizing human performance in preparing service members for deployment 
+and mission success, but they must also be prepared 
+to provide high quality of care for those injured in the 
+line of duty. Combat casualty care and maintaining 
+military readiness are fundamental functions of the 
+Military Healthcare System (MHS) and are uniquely 
+interconnected. Providing life- and limb-saving care 
+on the battlefield directly impacts a unit’s combat effectiveness. Service members who are confident they 
+will receive the best medical care in the event of an 
+injury are far more likely to be willing to put their lives 
+in harm’s way. The same holds true for their families 
+and the American public who support them back 
+home. They trust that if a service member is injured 
+in the line of duty, they will receive state-of-the-art 
+comprehensive care, ranging from life-saving procedures to advanced rehabilitation. MMOs must not 
+only recognize and respect this trust, but be committed to dedicating their professional careers to honor 
+this trust through activities such as life-long learning 
+and skills acquisition; promoting injury prevention 
+and wellness; and improving access and efficiency of 
+care delivery. 
+While significant emphasis in military medicine is 
+centered on acute combat casualty care, saving lives is 
+only the first step to “restoring” life after severe injury. 
+To provide comprehensive care across the spectrum 
+of care within the MHS, the military has generally 
+divided its medical support of combat missions into 
+five levels of care (Table 31-1). 1 Rehabilitation practices 
+typically occur from Role 3 through Role 5.
+This chapter provides an overview of rehabilitative 
+and reintegration practices utilized within the MHS to 
+care for combat casualties. The reader should come to 
+understand the complicated course of recovery that 
+faces the modern military casualty; the terms and 
+definitions commonly used within the field of rehabilitation (Table 31-2); the roles and responsibilities of the 
+specialists who commonly make up the interdisciplinary rehabilitative treatment team; and the role of the 
+MMO in the successful rehabilitation and reintegration 
+of the modern combat casualty.
+TABLE 31-1 
+MILITARY ROLES OF CARE
+Role
+Location
+Medical Assets
+Goals
+Roles 1 and 2
+Mobile medical assets deployed 
+within the military theater of 
+operation
+1. Immediate first-responder 
+care: self-aid, buddy aid, combat lifesaver 
+2. Combat medic/corpsman 
+(trained in combat casualty 
+care)
+1. Resuscitation 
+2. Stabilization 
+3. Coordination of rapid air or 
+ground evacuation to Role 3 
+facility
+Role 3 (combat 
+support 
+hospital)
+Mobile facility; highest level of 
+medical and surgical care available within the military theater 
+of operations
+1. Mobile surgical teams 
+2. Lab 
+3. Radiology
+1. Perform life- and limb-saving 
+interventions 
+2. Further stabilization 
+3. Transfer to a Role 4 facility
+Role 4
+Fixed medical facility outside 
+the continental United States 
+(OCONUS)
+Advanced surgical and medical 
+intensive care interventions
+Further stabilization prior to 
+evacuation to Role 5 for definitive care 
+Role 5
+Fixed medical facility within 
+the continental United States 
+(CONUS)
+1. Interdisciplinary team of 
+medical and surgical specialists
+2. Greater capacity for more protracted and comprehensive care
+1. Provide definitive medical and 
+surgical interventions 
+2. Address behavioral health 
+needs 
+3. Comprehensive rehabilitative 
+care
+445
+Rehabilitation and Reintegration
+TABLE 31-2
+COMMONLY USED REHABILITATION DEFINITIONS
+Term
+Definition
+Activities of 
+daily living 
+(ADLs)
+Activities required for personal care including feeding, dressing, grooming, bathing, and toileting.
+Assistive technology
+Any item, piece of equipment, or product, whether it is acquired commercially, modified, or customized, 
+that is used to increase, maintain, or improve the functional capabilities of individuals with disabilities. 
+Common examples are crutches, prosthetics, orthotics, wheelchairs, hearing aids, canes, magnifiers, 
+communication boards, speech synthesizers, and talking books. 
+Disability
+According to the World Health Organization, the term “disability” relates more to one’s functional status 
+within society than to any specific diagnosis or physical, cognitive, or emotional impairment. The ICF 
+defines disability within a bio-psycho-social model in which disability arises from the interaction of 
+health conditions with contextual factors—environment and personal factors. Therefore, disability is 
+a complex, dynamic, multidimensional state that depends on both an individual’s capacity and their 
+performance within a contextual environment. For example, an individual with an ankle fracture who 
+cannot bear their weight and does not have crutches, a wheelchair, or other means of supporting independent mobility, may be more “disabled” than an individual with bilateral lower limb amputations 
+who is independent in community ambulation using lower limb prosthetics.
+Handicap
+A disadvantage for a given individual, resulting from an impairment or a disability, that limits or prevents the fulfillment of a role that is normal for that individual.
+Impairment
+Problems in body function or alterations in body structure, for example, paralysis or blindness. Impairments may be static or dynamic in a progressive or diminishing manner (eg, cognitive functional impairment may improve over time after a brain injury, or may decline with various forms of dementia).
+Instrumental 
+activities of 
+daily living 
+(IADLs)
+Complex tasks required for independent living in the immediate environment such as care of others 
+in the household, telephone use, meal preparation, house cleaning, laundry, and in some cases use of 
+public transportation.
+Orthotics
+Externally applied devices to restrict movement, enhance function, or protect a body part. Commonly 
+referred to as braces or splints, orthotics are more accurately defined by the body parts they support (eg, 
+knee orthotics, foot orthotics, spine orthotics, wrist-hand orthotics, ankle-foot orthotics).
+Participation
+An individual’s capacity and performance in interacting with society, whether that be within a family, 
+work environment, or community. According to the ICF, participation restrictions are problems that 
+may involve any area of life, for example, facing discrimination in employment, barriers to transportation, or even lack of awareness or access to programs.
+Prosthetics
+An artificial body part, to replace a missing extremity or other body part. Prosthetic limbs are generally 
+composed of a socket (interface between the residual limb and device); joint (knee, elbow, wrist, etc); 
+terminal device (hand, foot); control system; and suspension. Numerous prosthetic devices currently 
+exist. Common devices include microprocessor knees, which have built-in sensors that automatically 
+adjust knee flexion/extension resistance depending on the user’s speed of walking; energy-storing feet, 
+which are composed of deformable materials that, when compressed through weight bearing, recoil to 
+provide simulated “push-off” during walking or running; myoelectric prosthetics, which are externally 
+powered, motorized (robotic-like) upper limb devices controlled by skin sensors that pick up electrical 
+activity from the contraction of the residual limb muscles below them; body-powered prosthetics, which 
+are upper limb prosthetics with cable systems attached to a harness around the user’s shoulders, so that 
+excursion of the cable causes a terminal hand or hook device to open or close.
+Rehabilitation
+Programs or processes for returning an individual to health after an injury, illness, or addiction.
+Rehabilitative 
+medicine
+Field of medicine focused on the evaluation, diagnosis, and management of individuals of all ages with a 
+physical and/or cognitive impairment to maximize recovery and quality of life.
+ICF: International Classification of Functioning, Disability and Health 
+446
+Fundamentals of Military Medicine
+HISTORY OF REHABILITATION IN THE MILITARY
+Although the medical specialty of physical medicine and rehabilitation (PM&R) is relatively young, 
+the principles of rehabilitation date back to ancient 
+Chinese medicine, when physical movement training 
+called “Cong fu” was used to relieve pain, and to 5th 
+century bce Greece, where physicians described an 
+elaborate system of gymnastic exercises for the treatment of disease. 2 In the United States, rehabilitation 
+centers grew significantly during the polio epidemic 
+during the early 1900s, and gained international attention when president Franklin Delano Roosevelt, after 
+suffering from lower limb paralysis as a result of polio, 
+spent time learning how to walk at a unique facility in 
+Warm Springs, Georgia. His personal success inspired 
+him to purchase and expand the facility, which is 
+believed to be the first such place in the country to 
+specifically provide rehabilitative care. 3 
+Military conflict has also provided a catalyst for 
+the advancement for rehabilitative care. This was 
+especially true during World War II, when improved 
+lifesaving medical and surgical care resulted in a 
+significant number of soldiers surviving wounds that 
+would previously have been fatal. Their return home 
+with loss of limb, paralysis, and other physical impairments necessitated more comprehensive rehabilitative 
+care. In response, the US military established the US 
+Army Air Forces Convalescent Training program in 
+1942, which was headed by Dr Howard Rusk (considered the “father of comprehensive rehabilitative care”). 
+These programs began to incorporate individualized 
+physical, neuropsychological, and occupational-social 
+therapies. 4 With the success of these programs and 
+their ability to help severely wounded soldiers return 
+to active participants in society, Congress provided 
+additional funding to the Army for further training 
+and research in the field of PM&R. 
+Following the conflict in Vietnam, “rehabilitative” 
+care was largely considered the function of the Department of Veterans Affairs; however, lessons learned 
+during Operation Iraqi Freedom (OIF), Operation 
+Enduring Freedom (OEF), and Operation New Dawn 
+indicated a continued need for the Department of Defense and MHS to maintain competence and capacity 
+in providing comprehensive rehabilitative care. 
+RECENT CHALLENGES IN COMBAT CASUALTY REHABILTIATION
+Over the past decade, significant advances have 
+been made in the acute resuscitative trauma care 
+of combat casualties, resulting in historically high 
+survival rates. 5,6 Mortality rates have decreased from 
+approximately 24% in the Vietnam conflict to less than 
+20% in OIF/OEF. 7 Survival on the battlefield, however, 
+is just the first step. The MHS must remain committed 
+not just to helping service members “survive” after 
+injury, but also to “thrive” during their recovery and 
+return to active participation in society. These goals 
+have been especially challenging in recent years, 
+especially for combat casualties with complex blastrelated injuries, which are frequently associated with 
+severe physical, emotional, and cognitive impairment. 
+Injuries such as extremity trauma, limb loss, paralysis, 
+traumatic brain injury (TBI), and vision and hearing 
+impairment are frequently associated with blast, and 
+are often complicated by complex pain, infection, and 
+psychological injury, including depression, anxiety, 
+and posttraumatic stress disorder (PTSD). Whether 
+these injuries occur in isolation or in combination, 
+they require not only specialized acute medical, surgical, and behavioral health interventions, but also a 
+well-coordinated and integrated holistic rehabilitation plan. 
+The distinct injury patterns associated with highenergy weaponry and blast are not commonly seen 
+in the civilian medical world; therefore, MMOs must 
+understand the unique challenges they present when 
+caring for today’s wounded warrior. Although a discussion of the various degrees of blast injury (primary, 
+secondary, tertiary, quaternary) and comprehensive 
+polytrauma care is beyond the scope of this chapter, it 
+is important to recognize that because of the advances 
+in body armor, rapid medical support, and improved 
+resuscitation techniques, service members are now 
+surviving wounds that in the past would have been 
+fatal. This has increased the demands for and complexity of the rehabilitative care required by this unique 
+patient population. 8,9 
+ELEMENTS OF MILITARY REHABILITATION
+Rehabilitative efforts are largely accomplished 
+through the work of an interdisciplinary team of specialists, representing a multitude of disciplines and 
+employing an array of interventions, modalities, and 
+assistive technologies to help maximize functional independence and successful reintegration or participation in society. Fundamental to the rehabilitative team 
+are the patient and their family, who help the clinical 
+447
+Rehabilitation and Reintegration
+team establish meaningful short-term and long-term 
+goals, which are incorporated into an individualized 
+treatment plan that accommodates the unique challenges and characteristics of each patient. While these 
+principles are commonly practiced by physicians who 
+specialize in PM&R (physiatrists), as well as other rehabilitation specialties (physical therapy, occupational 
+therapy, etc), all MMOs must be familiar with these 
+concepts and implement them as early and aggressively as possible when caring for combat casualties. 
+It is through rehabilitation and the restoration of 
+functional independence that many individuals regain 
+dignity and even discover personal growth, which 
+can often propel them to discover new meaning and 
+purpose in their lives. Ultimately, rehabilitative efforts 
+are not limited to achieving independence or providing adaptive strategies to promote daily functional 
+activities; these efforts also promote the patients’ highest quality of life, successful reintegration, and active 
+participation in their families and society. 
+Acute Care
+In addition to acute life- and limb-saving surgical 
+and medical interventions, rehabilitation principles 
+must also be applied as early as possible in the care 
+of service members with combat injuries to ensure 
+optimal outcomes. Failure to aggressively initiate 
+comprehensive rehabilitative practices in the acute 
+stage of caring for combat casualties leads to worsening 
+secondary complications and poorer outcomes. The 
+negative consequences of immobility, poor skin care, 
+lack of appropriate bowel and bladder management, 
+and delay in teaching independence in feeding, bathing, dressing, and communicating, may not only lead 
+to multiple setbacks during the recovery process, but 
+also have devastating negative effects on the physical 
+and emotional well-being of service members, especially those with devastating wounds. Furthermore, 
+the appropriate prescription of prosthetics (eg, artificial 
+legs, arms, hands), assistive technology (eg, wheelchairs, communication tools, environmental control 
+devices), and other rehabilitative interventions will 
+likely help decrease pain, reduce anxiety, and promote 
+earlier mobility and independence. Early rehabilitation practices typically start with patient and family 
+education, as well as mitigation practices to reduce 
+the risk of pressure sores, venous thromboses, joint 
+contractures, osteopenia, muscle atrophy, urinary 
+tract infections, bowel dysfunction, and cardiovascular 
+deconditioning. 10,11 
+Immobility during the acute phase of care is likely 
+to lead to multiple secondary complications. Muscle 
+disuse atrophy, osteopenia and osteoporosis, contractures and decubitus ulcers, significant fluid/volume 
+shunting and orthostatic hypotension, decreased respiratory capacity, and increased risk for infection may 
+result from prolonged bed rest and immobility. 12–14 
+(A further description of some of these conditions is 
+provided in Table 31-3.) Promoting early bed mobility, 
+frequent skin pressure reliefs, passive and assistive 
+range-of-motion exercises, and early weight-bearing 
+and ambulation with or without a prosthesis, orthosis, 
+or assistive device can help prevent contractures, bone 
+loss, skin breakdown, and significant muscle atrophy 
+or cardiovascular deconditioning. 
+A comprehensive discussion of all the complications 
+associated with blast trauma is beyond the scope of this 
+chapter, but certain conditions, such as heterotopic ossification, venous thromboembolic events, pain, sleep 
+disturbance, and behavioral health problems warrant 
+recognition by all MMOs because of the frequency 
+of their occurrence as well as their implications for 
+successful rehabilitation and reintegration. Table 31-4 
+provides a brief discussion of these unique complications and methods to mitigate and treat them.
+Home Care
+After discharge from the hospital, the injured service 
+member will transition to outpatient care, either at home 
+or utilizing base lodging associated with the nearest 
+military medical treatment facility. Rehabilitation care 
+continues to play a significant role during this period, 
+as patients continue to recover from their wounds. Outpatient physical and occupational therapists, along with 
+speech language pathologists and neuropsychologists, 
+continue to challenge patients with new therapeutic 
+interventions, such as targeted stretching, strengthening, and conditioning; dexterity skills training; proper 
+utilization of assistive technology; and advanced cognitive and communication skills to achieve new goals 
+for improved independence and higher functioning. 
+Specialized providers in orthotics and prosthetics also 
+refine the design and fit of these devices to maximize 
+individual functional use. Throughout the outpatient 
+rehabilitation process, patient and family education 
+remains critically important not only to help modulate 
+realistic expectations, but also to reinforce independent 
+strategies and therapeutic training at home.
+In-home therapeutic care (eg, nursing, therapies, 
+case management), as well as home modifications, 
+should also be considered for patients with persistent 
+functional impairments. Architectural home modifications, such as enlarging doorways or installing ramps 
+to accommodate wheelchair use, handrails to prevent 
+falls, and benches in showers or elevated toilet seats, 
+are some examples of common modifications. The 
+448
+Fundamentals of Military Medicine
+TABLE 31-3
+COMPLICATIONS ASSOCIATED WITH IMOBILITY
+Complications
+Background
+Assessment/Treatment
+Muscle atrophy
+Muscle loss, also called disuse atrophy, occurs 
+at a rate of 1%–3% per day with prolonged 
+immobility, and is more severe in patients 
+with concurrent spinal cord injury. It affects 
+all skeletal muscle, including the diaphragm, 
+which may lead to hypoventilation and other 
+respiratory concerns.
+Early involvement by the PT/OT and rehabilitation 
+team to assess. Encourage out-of-bed activity, assisted moves from bed to chair, and utilization of 
+support modalities. Minimization of pain and ability 
+for weight-bearing may require consultation with 
+primary surgical/inpatient team.
+Osteopenia/ 
+osteoporosis
+Decreased mechanical and muscle stress on 
+bones causes a decrease in bone formation and 
+an increase in bone reabsorption.
+Radiographic evidence of bone loss, coupled with a 
+bone mineral density scan, can support the diagnosis of osteopenia/osteoporosis. Prevention is 
+preferred; early activity to prevent muscle atrophy 
+can also help prevent osteopenia/osteoporosis due 
+to increased mechanical stress on bones. Supplementation with bisphosphonates, oral calcium, and 
+vitamin D may also help.
+Contractures
+Decreased movement may alter the physical 
+architecture of muscles and connective tissue 
+around joints, leading to arthrogenic or myogenic contractures. These significantly limit 
+range of motion, function, and mobility.
+Frequent range-of-motion activities and functional 
+movements can prevent their formation. Treatment 
+includes heat therapy, passive stretching and rangeof-motion exercise, casting or splinting of limbs, or 
+in extreme cases, surgical intervention.
+Fluid shifts/ 
+orthostatic 
+hypotension
+Passive fluid shift from the lower extremities 
+to the heart increases the preload on the heart, 
+stimulating release of atrial natriuretic peptide 
+and increased net water and salt loss. A lower 
+total body volume causes a reduction in heart 
+load and blood volume (causing secondary 
+cardiomyocyte atrophy). Coupled with an 
+autonomic dysfunction, patients may be more 
+prone to orthostatic hypotension.
+Monitor daily patient fluid volume intake and losses. 
+Encourage out-of-bed activity and upright positioning. Use special care to prevent falls when patients 
+are performing transfers and moving from a supine 
+position.
+Decubitus 
+(pressure) 
+ulcers
+Excessive, unrelieved pressure causes capillary 
+compression and ischemia, which promote 
+skin breakdown and ulceration. This generally occurs in paralyzed, insensate, or cognitively impaired patients. Risk of ulceration 
+is increased with wet or macerated skin and 
+friction injuries. Bony prominences, including 
+at the heels, elbow, sacrum, and occiput, are 
+most at risk while patients are supine; ischial 
+tuberosities are at greater risk with prolonged 
+unprotected seating. 
+Appropriate staging of the ulcer is important because 
+it guides appropriate treatment and prevention 
+procedures. The National Pressure Ulcer Advisory 
+Panel, among others, provides staging and treatment guidelines. Preventing infection is important 
+because pressure ulcers can be a nidus for bacterial 
+colonization. Padding at risk areas is insufficient. 
+Frequent turning while in bed or pressure relief 
+while seating are fundamental to appropriate prevention and care. Specialized beds should be considered for all patients requiring prolonged bedrest.
+PT/OT: physical therapy and occupational therapy
+installment and cost of making such modifications are 
+often provided with support from sources such as the 
+Department of Veterans Affairs grant programs and 
+nonprofit organizations (NPOs). 15 
+Driving rehabilitation and motor vehicle adaptions 
+should also be considered as part of the comprehensive 
+rehabilitation program, because driving independence 
+is also very important for the quality of life of most 
+wounded warriors. For complex injury patients with 
+TBI, driving independence may present significant 
+challenges because it requires complex cognitive effort, 
+while also performing multiple other simultaneous 
+tasks. Because of the inherent risks in driving, driving simulators may be used to help assess a patient’s 
+capabilities, while also providing a meaningful and 
+engaging activity to supplement cognitive rehabilita449
+Rehabilitation and Reintegration
+tion. 16 Demonstration of successful use of a driving 
+simulation platform may then lead to progression to 
+on-road training with greater confidence.
+Sports and Recreation
+Participation in sports and physical activity has 
+also been shown to significantly improve multiple 
+aspects of the patient’s health; in addition to the 
+physical benefits, patient outlook, social interactions, 
+self-perception, and goal-oriented behaviors are also 
+improved. 17 Sports and activity can also help patients 
+cope with the stresses of dealing with their new disabilities. A measure of control over their own health 
+and well-being is gained by actively participating in 
+these activities. Additionally, these activities may 
+boost self-confidence, demonstrate what the patients 
+can still accomplish despite their disability, and improve overall quality of life. 18 Studies of recreational 
+and leisure activities have shown specific reduction 
+in symptoms of PTSD—hyperarousal, avoidance, 
+and perseverance of thoughts surrounding traumatic 
+events. 19 
+Recreational/motivational therapists are particularly well suited to developing safe, interactive experiences for the rehabilitating patient and can provide 
+an important ongoing link between hospital ward 
+care and the transition home. In addition to organizing and executing group and individual sports and 
+recreational activities, these therapists develop strong 
+rapport with their patients and provide psychological 
+support for the recovering combat casualty. 
+Expressive arts can also play an important role in 
+the recovery of the wounded warrior. In addition to 
+the positive effects of engagement with a self-driven 
+task that can provide a level of personal achievement 
+and encourage creative methods of expression, the 
+arts can serve to positively affect the recovery of the 
+patient and serve as a contribution to their community—an effective route of reintegration. 20 There is 
+some evidence that self-expression through art may 
+help patients better cope with symptoms of PTSD, 
+depression, and TBI. 21 
+Nonprofit Organizations 
+In recent years, a multitude of NPOs have mobilized 
+to assist wounded warriors and their families. These 
+organizations offer services ranging from exclusive 
+retreats, recreational outings, and athletic events, to 
+helping retrofit or build custom disability-friendly 
+homes. Some NPOs purchase and customize adaptive 
+vehicles, while others provide much needed assistance 
+with vocational internships, peer mentoring, or coaching. Finally, some NPOs provide financial assistance 
+to families for lodging, travel, or equipment. Not 
+only do these organizations provide direct assistance 
+to wounded veterans, but they also greatly increase 
+public awareness of many of the challenges wounded 
+warriors face when reintegrating back into society after injury. Their impact on the public, public officials, 
+and the media all help boost community support for 
+veterans, and should therefore be generally embraced 
+by the rehabilitation community.
+ROLE OF THE MILITARY MEDICAL OFFICER 
+The MMO is the primary medical resource for the 
+unit commander. The MMO provides recommendations regarding in-garrison medical care and maintenance of a capable and healthy unit; identifies and 
+provides preventative medical care for deploying 
+units based on anticipated and actual medical and 
+environmental threats in the deploying location; 
+supports the training of assigned medical resources; 
+and provides medical care to the members of the 
+unit and their families. In regard to rehabilitation, 
+the MMO is responsible for maximizing the functionality of the unit through effective and wellplanned medical care that accounts for effective pain 
+management, functional therapies, and supportive 
+methods to reintegrate the injured service member 
+back into their community. Rehabilitation specialists represent a wealth of knowledge and expertise; 
+therefore, MMOs must be aware of their presence 
+and experience in order to maximize their mission 
+success.
+REHABILITATION TEAM MEMBERS AND ROLES
+Rehabilitative medicine takes a team approach 
+that starts during the acute phases of combat casualty 
+care, as previously described. Inpatient teams most 
+frequently include physiatry, physical, occupational, 
+and recreational therapists; dietitians; social workers; 
+rehabilitation counselors; and speech language pathologists, case managers, prosthetists, and orthotists. 
+After discharge, patient care continues with outpatient 
+physical and occupational therapy, driving rehabilitation, recreational/motivational therapy, and music/
+art therapy. Continued medical care and follow-up, 
+even after the patient has returned to duty or to their 
+450
+Fundamentals of Military Medicine
+TABLE 31-4
+UNIQUE SECONDARY COMPLICATIONS FROM HIGH-ENERGY TRAUMA 
+Complication
+Functional Assessment
+Treatment
+Heterotopic 
+ossification 
+(HO): the 
+inappropriate 
+growth of bone 
+within soft 
+tissue 
+Most often found in hip, elbow, shoulder, and 
+knee. Up to 80% of traumatic amputations may 
+develop HO in the residual limb. Clinical signs 
+include decreased ROM of the involved limb, 
+erythema, and local swelling. HO may take 
+weeks to be detected by traditional radiograph1; 
+appropriate diagnosis requires the exclusion 
+of other conditions such as infection, deep 
+venous thrombosis, or hematoma. Bone scans 
+and serum alkaline phosphatase levels may aid 
+diagnosis.
+ROM exercises are the principal means of prevention and treatment. NSAIDs have been shown to 
+reduce the incidence of HO by two- to three-fold. 2 
+Another option includes the use of etidronate, 
+which blocks the formation of the bone matrix. 
+Surgical excision of HO is generally advised only 
+for fully mature HO. 3 Early surgical excision may 
+also be successful, although if performed too early, 
+HO is likely to recur, especially without initiating 
+prophylactic measures after excision. 4
+Venous thromboembolic 
+events (VTE): 
+includes deep 
+venous thrombosis (DVT) 
+and pulmonary 
+embolism (PE)
+Symptoms of DVT include swelling, localized 
+pain, erythema, and warmth; symptoms of 
+PE include tachycardia, dyspnea, and chest 
+pain. Diagnosis of VTE may be challenging for 
+patients with impaired consciousness, lack of 
+sensation, or paralysis, and may be aided by a 
+D-dimer blood test or lung ventilation-perfusion scan; confirmatory diagnosis is achieved 
+through duplex ultrasound or computed tomography scan with pulmonary angiography. 
+Treatment of VTE begins with prevention. Typical 
+guidelines call for pharmacological anticoagulation within 72 hours of injury; appropriate agents 
+are low molecular weight heparin or adjusted dose 
+unfractionated heparin. Sequential compressive 
+devices or compression hose may also reduce risk. 
+Surgical placement of an intravena cava filter may 
+also be effective. Ultimately, early mobility and 
+return to regular function are paramount to reducing the risk of VTE formation.
+Behavioral/
+mental health: 
+includes 
+posttraumatic 
+stress disorder, 
+depression, and 
+anxiety
+Symptoms may manifest as sleep disturbance, 
+poor nutrition, decreased interest, and feelings 
+of depression. A variety of questionnaires have 
+been developed to better detect these injuries 
+and diseases. 5,6
+Treatment ranges from counseling to peer support 
+groups, cognitive behavioral therapy, and pharmacological treatments. The behavioral therapy 
+team should be involved early in the care of the 
+patient to identify concerns as soon as possible.
+Delirium: acute 
+mental status 
+change over a 
+period of hours 
+to a few days
+Significant for trauma patients, who may resume 
+consciousness in an unfamiliar hospital setting 
+with little to no recall of events. Causative factors, including urinary tract infection, occult 
+infection, drug interactions, inadequate pain 
+control, dehydration, electrolyte abnormalities, and impaired glycemic control, should be 
+identified. 
+Maintain a consistent treatment team, decorate 
+room with familiar items, and minimize loud 
+noises and bright lights. In acute cases, a 24-hour 
+sitter may be needed to prevent self-harm, such as 
+accidental extubation, inappropriate removal of 
+IV lines, and accidental falls. Use of prophylactic 
+antipsychotic medications for delirium has shown 
+mixed results; these medications, along with 
+physical restraints for agitated patients, should be 
+used as last resort. 7
+Pain
+Recent reports suggest that even with newly 
+published TCCC guidelines, fewer than half of 
+casualties are adequately treated for their pain. 8 
+Multiple sources of pain may exist for a polytrauma patient. For comatose patients, who are 
+unable to express their pain verbally, providers should monitor for surrogate signs of pain, 
+such as tachycardia, tachypnea, hypertension, 
+and facial grimaces.
+Common medications for pain management 
+include NSAIDs, opioids (IV, IO, IM, and oral 
+transmucosal “lollipop” forms), and ketamine. 9 
+Multimodal forms of pain management include 
+adjuvant pharmacological agents, such as antidepressant and anticonvulsive medications, as well 
+as PCA systems and regional blocks with peripheral catheters. Alternative methods include music 
+therapy, self-hypnosis, acupuncture, thermal modalities, and TENS. Emerging evidence supports 
+immersion virtual reality for chronic and acute 
+pain. 10,11
+IM: intramuscular; IO: intraosseous; IV: intravenous; NSAID: nonsteroidal antiinflammatory drug; PCA: patient-controlled analgesia; ROM: 
+range of motion; TCCC: Tactical Combat Casualty Care; TENS: transcutaneous electrical stimulation 
+(Table 31-4 continues)
+451
+Rehabilitation and Reintegration
+(1) Perosky J, Peterson J, Eboda O, Morris M, Wang S, Levi B et al. Early detection of heterotopic ossification using near-infrared optical imaging reveals dynamic turnover and progression of mineralization following Achilles tenotomy and burn injury. J Orthop Res. 
+2014;32(11):1416-1423. (2) Banovac K, Sherman A, Estores I, Banovac F. Prevention and treatment of heterotopic ossification after spinal 
+cord injury. J Spinal Cord Med. 2004;27(4):376–382. (3) Potter BK, Forsberg JA, Davis TA, et al. Heterotopic ossification following combatrelated trauma. J Bone Joint Surg Am. 2010;92(Suppl 2):74–89. (4) Teasell R, Mehta S, Aubut J, et al. A systematic review of the therapeutic 
+interventions for heterotopic ossification after spinal cord injury. Spinal Cord. 2010;48(7):512–521. (5) McHorney CA, Ware JE Jr, Raczek AE. 
+The MOS 36-item short-form health survey (SF-36): II, psychometric and clinical tests of validity in measuring physical and mental health 
+constructs. Med Care. 1993;31(3):247–263. (6) US Department of Veterans Affairs. PTSD: National Center for PTSD: PTSD screening instruments. VA website. https://www.ptsd.va.gov/professional/assessment/screens/index.asp. Accessed June 14, 2018. (7) Friese RS, Diaz-Arrastia 
+R, McBride D, Frankel H, Gentilello LM. Quantity and quality of sleep in the surgical intensive care unit: are our patients sleeping? J Trauma. 
+2007;63(3):1210–1214. (8) Schauer SG, Robinson JB, Mabry RL, Howard JT. Battlefield analgesia: TCCC guidelines are not being followed. 
+J Spec Oper Med. 2015;15(1):85–89. (9) Kotwal R, Butler F, Edgar E, Shackelford S, Bennett D, Bailey J. Saving lives on the battlefield: a Joint 
+Trauma System review of pre-hospital trauma care in combined joint operating area Afghanistan (CJOA-A) executive summary. J Spec Oper 
+Med. 2013;13(1):77–85. (10) Hoffman HG, Richards TL, Coda B, A et al. Modulation of thermal pain-related brain activity with virtual reality: 
+evidence from fMRI. Neuroreport. 2004;15(8):1245–1248. (11) Wiederhold B, Soomro A, Riva G, Wiederhold Md. Future directions: advances 
+and implications of virtual environments designed for pain management. Cyberpsychol Behav Soc Netw. 2014;17(6):414–422.
+ 
+(Table 31-4 continued)
+community, is key to successful reintegration. The 
+various team members who play prominent roles in 
+rehabilitation are listed in Table 31-5.
+After injury, regardless of the severity, the MMO 
+serves as a guide to help prepare the recovering service 
+member to return to duty, reintegrate back into their 
+community, or both. While many team members with 
+important roles contribute significantly to the service 
+member’s recovery (see Table 31-5), it is the MMO who 
+is responsible for coordinating the collective efforts of 
+the team. 
+The MMO must also balance medical care and recovery with the needs of the unit and the goals of the 
+unit commanding officer (CO). If the service member 
+intends to return to duty, the MMO should provide a 
+reasonable timetable for their return. The MMO must 
+make it clear to the CO that continued therapy and 
+rehabilitative activities may be necessary even after the 
+service member has returned to the unit. Continued 
+pain management may also be required, and reasonable expectations of the person’s capabilities should 
+be given to the CO. 
+A unique consideration in military service is the 
+regular participation in physical training (PT). Unlike 
+most civilian occupations, all military members are 
+expected to participate in PT regularly and complete 
+biannual physical fitness testing to demonstrate their 
+continued physical fitness. After injury, the returning 
+service member should be careful in their reintroduction to PT and may require modifications to their 
+training schedules. The MMO serves as a primary 
+liaison between the command staff and service member, balancing the recovery and rehabilitation needs of 
+the patient and encouraging a reasonable timetable for 
+return to duty and personal responsibilities.
+As a physician, the goal is to treat the patient in 
+their entirety. In the civilian world, this often means 
+the inclusion of family, educating and encouraging the 
+active participation of family members in supporting 
+and helping the patient adjust to their new reality as 
+they heal. In the military, particularly in combat units 
+that have deployed together, unit members are often 
+akin to family. With patient permission (whenever 
+possible), unit members should be encouraged to visit 
+the patient and provide another source of support. 
+Additionally, peer support groups with other injured 
+service members can be useful in early resocialization 
+and aid the mental aspect of the healing process.
+GUIDANCE TO THE COMMANDING OFFICER
+The CO, and combat/line staff in general, are tasked 
+with achieving their missions as successfully as possible. While in an ideal world this includes maximal 
+damage to the enemy and no loss of life or limb to their 
+own troops, reality dictates that more often than not, 
+one or more of their soldiers will be injured in the line 
+of duty. The dangers and mishaps of life do not stop at 
+the operation, however; injuries may also occur while 
+in garrison and during training, and even during leave. 
+It is the MMO’s duty to make the CO aware of the 
+possibility of injury, recommend steps to minimize 
+risk of injury and medical problems, and treat those 
+that arise and return the patients to duty as soon as 
+possible. Some injured service members may never be 
+able to return to duty in the same way as before their 
+injury; this must also be communicated to the CO. The 
+MMO should be realistic in recommending times for 
+patient recovery, but also keep in mind the needs of 
+the unit. Even after the service member returns to the 
+unit, further therapy may be needed; the MMO should 
+make those expectations known to the CO as soon as 
+possible, clearly outline the plans for rehabilitation 
+452
+Fundamentals of Military Medicine
+TABLE 31-5 
+MEMBERS OF THE REHABILITATION TEAM
+Team Member
+Role
+Physiatrist
+Board certified in physical medicine and rehabilitation. Physiatrists provide physician leadership to 
+interdisciplinary rehabilitation teams focused on functional restoration, adaptive interventions, goaldirected therapy, and improved quality of life.
+Physical therapist (PT)
+Credentialed providers trained in the evaluation of the patient’s physical limitations. PTs develop and 
+apply therapeutic interventions to enhance mobility and function. PTs are trained in the appropriate 
+use of specialized assistive technology and equipment, such as bedside commodes, crutches, canes, 
+walkers, prosthetics.
+Occupational 
+therapist (OT)
+Credentialed providers trained to assess patients for functional and cognitive deficits, particularly 
+those related to performing ADLs and IADLs. OTs design upper limb prosthetics and orthotics; 
+conduct driving rehabilitation, recreational therapy, and return to vocation training; also work with 
+patients on problem-solving as well as fine-motor skill development.
+Speech language pathologist (SLP)
+Credentialed providers trained in the assessment and treatment of speech and communicative dysfunction and swallowing impairments; therapy sessions include breaking down the elements of speech 
+and cognition, language processing, and listening; also assess need for special communication assistive devices. 
+Certified 
+prosthetist and 
+orthotist (CPO)
+Non-credentialed but certified specialists who fabricate and fit artificial limbs (prosthetics) or braces/
+splints (orthotics). 
+Assistive technology professional (ATP)
+Non-credentialed providers/consultants with specialized certification in the assessment of individuals 
+with disabilities to help identify, fit, train, and modify various assistive devices to support independence and function (eg, manual and motorized wheelchairs; high- or low-tech devices to support 
+visual, hearing, cognitive, or communicative impairments).
+Case manager 
+(CM)
+Credentialed nurses or social workers who coordinate comprehensive care plans for patients receiving 
+services from a variety of providers. Case managers also serve as critical liaisons between the patient 
+and treatment team as well as third parties (eg, insurance companies, healthcare administrators, 
+equipment companies). Frequently knowledgeable about various nonprofit organizations or other 
+veteran service organizations that help service members and families in need.
+Rehabilitation 
+psychologist
+Credentialed providers who provide specialized assessments and counseling to patients and families in 
+support of adjustment to hospitalization and disability. 
+Neuropsychologist 
+Credentialed providers trained in assessing all parameters of cognitive function (eg, attention, memory, 
+problem-solving skills, language skills, executive function) as well as the links between brain injury, 
+brain functioning, and behavior; especially qualified to engage patients in cognitive rehabilitation.
+Vocational 
+rehabilitation 
+specialist
+Noncredentialed providers trained in assessing and counseling patients on return to education or employment; help develop reasonable goals and trouble-shoot potential barriers in the school or workplace.
+Driving rehabilitation 
+specialist
+May be credentialed or non-credentialed. Skilled in training and testing individuals with disabilities in 
+an “on-road” training environment and assessing for appropriate adaptive vehicle mechanisms.
+Recreational/
+motivational 
+specialist
+May be credentialed or non-credentialed. Assist patients and families in applying skills learned in 
+rehabilitation to activities that support personal growth and active community participation; promote 
+development of self-confidence and comfort in social situations both at home and in the community, 
+organize group and individual activities to practice skills and develop strategies to nurture friendships and social networks, and assist patients in finding new areas of interest as well as new ways to 
+pursue old interests through adaptations.
+Music/art therapist
+Frequently non-credentialed but have specialized training in facilitating recovery through the application of music and art modalities. Art of all forms (visual, performance, writing, music, etc) may have a 
+therapeutic effect on many neurological and psychological conditions.
+(Table 31-5 continues)
+453
+Rehabilitation and Reintegration
+Social worker
+Credentialed providers who work with the patient and their family, assisting them in identifying care 
+and transition needs to ensure a smooth and safe discharge; evaluate their support system and home 
+needs; access community resources such as financial entitlements, home care, and transportation; 
+provide information about other types of care. 
+Registered 
+dietitian nutritionist (RDN)
+Credentialed specialists in patient diet and nutrition. Support the care team by diagnosing and prescribing an individualized diet to meet the patient’s needs based on their medical problems and goals. 
+RDNs contribute a critical part in the patient’s recovery and reintegration by supporting a healthy 
+lifestyle and diet.
+ADLs: activities of daily living; IADLs: instrumental activities of daily living
+(Table 31-5 continued)
+REFERENCES
+ 
+1. Clarke JE, Davis PR. Medical evacuation and triage of combat casualties in Helmand Province, Afghanistan: October 
+2010–April 2011. Mil Med. 2012;177(11):1261–1266.
+ 
+2. Atanelov L, Stiens SA, Young MA. History of physical medicine and rehabilitation and its ethical dimensions. AMA 
+J Ethics. 2015;17:568–574.
+ 
+3. Verville RE, Ditunno JF Jr. Franklin Delano Roosevelt, polio, and the Warm Springs experiment: its impact on physical 
+medicine and rehabilitation. PM R. 2013;5(1):3–8.
+ 
+4. Conti AA. Western medical rehabilitation through time: a historical and epistemological review. Sci World J. 2014;Jan:1–5. 
+doi: 10. 1155/2014/432506.
+ 
+5. Gerhardt RT, De Lorenzo RA, Oliver J, Holcomb JB, Pfaff JA. Out-of-hospital combat casualty care in the current war 
+in Iraq. Ann Emerg Med. 2009;53(2):169–174.
+ 
+6. Ling GS, Rhee P, Ecklund JM. Surgical innovations arising from the Iraq and Afghanistan wars. Annu Rev Med. 
+2010;61(1):457–468.
+ 
+7. Reiber GE, McFarland LV, Hubbard S, et al. Service members and veterans with major traumatic limb loss from Vietnam 
+war and OIF/OEF conflicts: Survey methods, participants, and summary findings. J Rehabil Res Dev. 2010;47(4):275–297.
+ 
+8. Scott SG, Belanger HG, Vanderploeg RD, Massengale J, Scholten J. Mechanism-of-injury approach to evaluating patients with blast-related polytrauma. J Am Osteopath Assoc. 2015;106:265–270. 
+and therapy, and convey the possible limitations that 
+might delay return to duty. 
+The MMO should also recommend to the CO that 
+other unit members be encouraged (as operational 
+tempo allows) to visit with injured unit members when 
+possible in order to provide support and encouragement. Keeping an injured member who is healing connected with their unit can be another way of providing 
+motivation in their rehabilitative process and keep 
+them feeling like a part of their squad. 
+SUMMARY
+Rehabilitation plays an important role in the return 
+to duty and social reintegration of service members 
+following injury, particularly blast-related trauma. 
+While acute life- and limb-saving techniques may 
+preserve the life of an individual, it is rehabilitation that preserves the function of that individual. 
+When the entire rehabilitation team is utilized by 
+the well-informed MMO, the chances of successful 
+reintegration as a contributing member of society, 
+including the possible return to duty, are significantly 
+increased. MMOs can take advantage of the resources 
+and structure present in the MHS to maximize the care 
+rendered. They also serve as a unique and important 
+liaison between the patient and their CO. MMOs 
+must be clear and concise in their communication, 
+promote a healthy balance between the mission and 
+individual health and well-being, and always stand 
+as an advocate for their patients. 
+454
+Fundamentals of Military Medicine
+ 
+9. Dismounted Complex Blast Injury Task Force. Dismounted Complex Blast Injury. Fort Sam Houston, TX: DCBI Task 
+Force; June 18, 2011. http://armymedicine.mil/Documents/DCBI-Task-Force-Report-Redacted-Final.pdf. Accessed 
+September 29, 2017.
+ 10. Pezzin LE, Dillingham TR, MacKenzie EJ, Ephraim P, Rossbach P. Use and satisfaction with prosthetic limb devices 
+and related services. Arch Phys Med Rehabil. 2004;85(5):723–729. 
+ 11. McFarland LV, Hubbard Winkler SL, Heinemann AW, Jones M, Esquenazi A. Unilateral upper-limb loss: Satisfaction 
+and prosthetic-device use in veterans and servicemembers from Vietnam and OIF/OEF conflicts. J Rehabil Res Dev. 
+2010;47(4):299–316.
+ 12. Giangregorio L, McCartney N. Bone loss and muscle atrophy in spinal cord injury: epidemiology, fracture prediction, 
+and rehabilitation strategies. J Spinal Cord Med. 2006;29:489–500. 
+ 13. Galeiras Vázquez R, Rascado Sedes P, Mourelo Fariña M, Montoto Marqué A, Ferreiro Velasco M. Respiratory management in the patient with spinal cord injury. Biomed Res Int. 2013;2013:1–12. 
+ 14. Stekelenburg A, Gawlitta D, Bader DL, Oomens CW. Deep tissue injury: how deep is our understanding? Arch Phys 
+Med Rehabil. 2008;89(7):1410–1413.
+ 15. HomeAdvisor.com. Grants for home modifications: 16 resources for homeowners with disabilities. https://www.
+homeadvisor.com/r/grants-for-home-modification/. Accessed June 14, 2018. 
+ 16. Lew HL, Rosen PN, Thomander D, Poole JH. The potential utility of driving simulators in the cognitive rehabilitation 
+of combat-returnees with traumatic brain injury. J Head Trauma Rehabil. 2009;24(1):51–56. 
+ 17. Caddick N, Smith B. The impact of sport and physical activity on the well-being of combat veterans: A systematic 
+review. Psychol Sport Exerc. 2014;15(1):9–18.
+ 18. Laferrier J, Teodorski E, Cooper R. Investigation of the impact of sports, exercise, and recreation participation on 
+psychosocial outcomes in a population of veterans with disabilities: a cross-sectional study. Am J Phys Med Rehabil. 
+2015;94:1026–1034.
+ 19. Vella EJ, Milligan B, Bennett JL. Participation in outdoor recreation program predicts improved psychosocial wellbeing among veterans with post-traumatic stress disorder: a pilot study. Mil Med. 2013;178(3):254–260. 
+ 20. National Initiative for Arts & Health in the Military. Arts, Health and Well-Being Across the Military Continuum. Washington, DC: Americans for the Arts; 2013. http://www.americansforthearts.org/sites/default/files/pdf/2013/by_program/
+legislation_and_policy/art_and_military/ArtsHealthwellbeingWhitePaper.pdf. Accessed September 29, 2017. 
+ 21. Smyth J. Creative, Artistic, and Expressive Therapies for PTSD. Brookline, MA: Foundation for Art and Healing; 2012. 

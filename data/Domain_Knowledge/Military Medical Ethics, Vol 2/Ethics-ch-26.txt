@@ -1,0 +1,1243 @@
+A Look Toward the Future
+831
+Chapter 26
+A LOOK TOWARD THE FUTURE
+THOMAS E. BEAM, MD*; AND EDMUND G. HOWE, MD, JD†
+INTRODUCTION
+FUTURE ISSUES AFFECTING POLICY
+Nonlethal Weapons
+“Bloodless War”
+FUTURE ISSUES AFFECTING INDIVIDUALS
+Telemedicine/Telepresence Surgery
+Pharmacological Optimization for the Battlefield
+Lazarus Project
+CONCLUSION
+*Colonel (Retired), Medical Corps, United States Army; formerly, Director, Borden Institute, Walter Reed Army Medical Center, Washington,
+DC 20307-5001 and Medical Ethics Consultant to The Surgeon General, United States Army; formerly, Director, Operating Room, 28th
+Combat Support Hospital (deployed to Saudi Arabia and Iraq, Persian Gulf War)
+†Formerly Major, Medical Corps, United States Army; currently, Director, Programs in Ethics, Professor of Psychiatry, and Associate Professor of Medicine, Uniformed Services University of the Health Sciences, 4301 Jones Bridge Road, Bethesda, Maryland 20814; and Chair,
+Committee of Department of Defense Ethics Consultants to the Surgeons General
+Military Medical Ethics, Volume 2
+832
+Nothing New Under the Sun. As this somewhat humorous depiction from 1924 shows, telemedicine has been a fascinating application of technology for many decades. This concept is a reasonably accurate depiction of some
+telemedicine applications today. One can only wonder how many of the futuristic concepts explored in this chapter
+will become standard medical practice in the future.
+A Look Toward the Future
+833
+INTRODUCTION
+dia, by enhancing this expectation when it is unrealistic, may be working against the military and
+greater society’s ultimate interest. Yet, because the
+military does and should represent and carry out
+society’s will, society should have as much access
+to updated information through the media as is
+practicable. Thus, there is a present and ever-increasing ethical dilemma in regard to how these
+conflicting interests should be resolved.
+In the second section, we will discuss telemedicine
+and telepresence surgery, the use of drugs to enhance soldier’s performance, and the use of new
+potentially lifesaving techniques not yet fully tested
+to save their lives during combat. The new technologies involving telemedicine raise such issues
+as when these technologies should be employed and
+this in turn involves such questions as how their
+use will affect soldiers’ morale. The use of drugs
+such as short-acting sleep medications is already
+being tested to enhance soldiers’ performance and
+welfare on the battlefield. The use of other drugs
+before combat has not been carried out but as new
+drugs are developed, this may be readdressed. New
+treatments not fully tested are already being considered on “compassionate grounds” for battlefield
+use, but appropriate procedures have not yet been
+developed to protect soldiers optimally from unknown, potential harms of new but not fully tested
+treatments while allowing them to have the benefits from them.
+In this second volume of the Military Medical Ethics textbook, we have examined the historical dilemmas associated with practicing medicine in the
+military. These include some of the travesties that
+can occur when priorities become unbalanced. We
+have looked at some of the current checks and balances in the United States military. In this chapter we
+will look to the future. This chapter will examine several possible future scenarios and attempt to establish for each a starting point for their ethical analysis.
+Physicians in the military will always face ethical issues. As technology continues to improve in
+the future, there will be new challenges. Some of
+the unique issues and ethical dilemmas associated
+with them are evident today. It is likely that there
+will be issues that require new paradigms for conducting ethical analyses. Some examples are methods of warfare designed to reduce human suffering and new technologies developed to enhance the
+health and well-being of the soldier.
+This chapter will be divided into two sections.
+The first will involve policies. The first issue is the
+one just noted above—policies regarding nonlethal
+weaponry. This new technology possibly raises the
+need for a new analytic paradigm because the effects of this weaponry are the opposite of the weaponry usually used. The second issue is policy regarding the media. Here, because new technologies,
+such as precision-targeted bombing, may lead to
+societal expectations of a “bloodless war,” the meFUTURE ISSUES AFFECTING POLICY
+A large organization such as the military faces
+many issues that require policy decisions. Policy
+decisions, and their ethical analyses, are analogous
+to those now being pursued in the rapidly developing field of organizational ethics in civilian medical contexts. In this chapter we will focus on two
+issues requiring policies: (1) nonlethal weapons and
+(2) “bloodless war.”
+Nonlethal Weapons
+The Geneva Conventions were developed in an
+effort to fight wars more “humanely” (see Chapter
+23, Military Medicine in War: The Geneva Conventions Today). Weapons that cause indiscriminate
+and unnecessary suffering are banned. 1,2 The just
+war principle of discrimination requires using the
+least force necessary to accomplish the mission (as
+discussed in Chapter 8, Just War Doctrine and the
+International Law of War). Several new technologies that attempt to limit the lethality of weapons
+are currently being evaluated to attempt to decrease
+the human toll of wars and operations other than
+war. 3 These devices are also being examined for use
+by civilian police forces. 4,5 There are agents that stun
+opponents, using electricity, light, or sounds. Projectiles can be developed that have less kinetic energy or are made of different materials than those
+currently used that cause permanent injury or
+death. There are agents that can immobilize an enemy—such as glues, nets, and foams. Chemical irritants or other chemical or mechanical agents also
+can decrease the enemy’s will to fight. Some of these
+weapons were deployed to Somalia with the US
+Marines who safeguarded the withdrawal of the
+remaining United Nations (UN) peacekeepers. 6,7 Of
+them, the Marines actually used slippery foam to
+attempt to control looters. 8 In civilian contexts just
+the knowledge that these weapons exist and will
+be used more freely than lethal force has reduced
+Military Medical Ethics, Volume 2
+834
+the number of times they are needed (ie, the threat
+of their use can be a deterrent). 9
+Medical ethical decisions are inherent in how
+physicians become involved in developing the technologies discussed above. Physicians could help
+determine thresholds beyond which the weapons
+have a higher likelihood of causing death or permanent injury. 10,11 Physicians could also, by using
+their knowledge of physiology and anatomy, help
+develop more efficient weapons. The core ethical
+question these possibilities pose is whether physicians should participate in developing these weapons. The Geneva Conventions leave this question
+unanswered. Several statements in the Geneva Conventions suggest that physicians should not use
+their medical knowledge for anything other than
+the best medical interests of their patients. 12 However, the Geneva Conventions have been interpreted
+to apply only on the battlefield and to have no legal force concerning weapons development prior
+to war or in a site distant from the battle. 13
+If these newly developed weapons were intended
+to not be lethal, their use would cause less death
+and disability than current methods of warfare. Innumerable persons could benefit. Therefore, ethically, on this ground, it would be beneficial for physicians to help develop this weaponry. Doing so
+could be a further step towards a more humane war.
+From the standpoint of the just war concept of proportionality (using only those weapons whose
+harms are necessary), physicians’ roles in developing these weapons might be not only justifiable but
+also mandatory. As John Courtney Murray states,
+“Force is the measure of power necessary and sufficient to uphold the valid purposes of law and of
+politics. What exceeds this measure is violence
+which destroys the order both of law and of
+politics.”14(p208)
+In addition to benefiting soldiers by not harming them excessively, the value this would further
+is utility (see Chapter 2, Theories of Medical Ethics: The Philosophical Structure). The greatest good
+for the greatest number would be gained by using
+(and developing) less than lethal weapons. From
+the perspective of these two values being furthered,
+doctors participating in this research would be justifiable. Dr. Knut Krieger, a scientist working on
+chemical and biological weapons stated, “if we do
+indeed succeed in creating incapacitating systems
+and are able to substitute incapacitation for death
+it appears to me that next to stopping war, this
+would be an important step forward.”15(p315) Of
+course, the converse argument has also been advanced, namely, scientists’ involvement in developing weapons that are even more lethal can prevent war and therefore produce an overall good.
+Albert Nobel, the inventor of dynamite, said in 1892
+that “on the day that two army corps can mutually
+annihilate each other in a second, all civilized nations will surely recoil with horror and disband their
+troops.”16(p19) However, although this could occur
+in theory, past history would suggest this is wholly
+implausible. The availability of nuclear weapons is,
+perhaps, a case in point.
+The foremost argument against physicians, including military physicians, participating in research to develop weapons is that the physician is
+to use his medical knowledge only for the good of
+his patient. The Hippocratic writings and other codes
+of medical ethics describe this concept. Clearly
+people will suffer, at least temporarily, by having
+these weapons used on them. Thus, although in a
+relative sense, physicians doing this research would
+save lives, in an absolute sense, they are contributing to potential injury and death.
+Some argue that the Hippocratic Oath, which
+proscribes causing suffering,17 is only in force within
+the limited confines of the patient–physician relationship. 13 However, this claim fails to successfully
+negate the promise physicians make to their patients at large when becoming physicians. This
+promise is the major ethical value against physicians participating in developing weapons, including nonlethal weapons.
+This promise gives the physician overarching
+responsibility toward patients in part because the
+greater society allows him exclusive privileges, such
+as dissecting a human cadaver during training.
+(This concept was discussed more fully in Chapter
+1, The Moral Foundations of the Patient–Physician
+Relationship.) How then should these chief conflicting values, saving lives and physicians keeping
+their implicit promise to heal and not harm, be balanced or should they be balanced at all? There is a
+point at which a physician participating in a potentially evil practice becomes unconscionable, even
+if his intentions are to help. For example, society
+expects physicians not to participate in developing
+torture techniques, even though their assistance
+could prevent loss of life. Physicians’ participating
+in torture seems well beyond this point and therefore would be ethically impermissible regardless of
+possible benefit. Use of less than lethal weapons,
+as opposed to the use of torture, may or may not be
+enough of a harmful action that physicians ethically
+shouldn’t participate in developing them.
+Discerning what will maximize the overall good
+is another concern. Currently the use of force, leA Look Toward the Future
+835
+thal or less than lethal, is usually thought to be a
+measure of last resort. Thus it is, or should be, presumed that all measures short of force should be
+exhausted before resorting to force. Yet, if less than
+lethal weapons are readily available, and if their use
+consistently avoids killing or permanently injuring
+people, it may be more likely that they will be
+used. 18 The threshold for use might be relaxed dramatically to allow earlier use of these weapons,
+without attempting to resolve conflict in ways that
+do not use force. Even if these weapons are relatively “safe,” using them could cause suffering and
+more frequent use could actually result in an overall increased net harm to people.
+Physician participation may be proscribed for yet
+another reason. When dose response curves for
+medications being developed are generated, there
+is an endpoint beyond pure therapeutic effectiveness. Safety studies of new drugs demonstrate this.
+When a new drug is evaluated for safety and effectiveness, gradually increasing doses are used to
+identify the point of maximum effect without increasing unwanted effects as well. Because side effects occur with all medications, the point at which
+they are expected to arise must be determined and
+therapeutic doses must remain below this. For less
+than lethal weapons the same concept applies. Physicians could determine the maximum “safe” dose
+of electricity, or sound, or light to cause the optimal desired effect without killing or permanently
+harming the person. By determining this point,
+however, lethal or permanently disabling weapons
+(that exceed the “safe” dose) could be developed
+by using the physician’s data, even though this
+would be contrary to his intention. For example,
+finding a “safe” dose for laser weapons (ie, one that
+will not permanently blind) will determine, concomitantly, the dosage that would be blinding.
+This potential risk is analogous to the one arising
+in physician participation in research “primarily”
+directed at defensive measures against biological
+weapons (discussed in Chapter 18, Medical Ethics
+in Military Biomedical Research). Although the
+physician may intend his data to be used only to
+improve defensive measures, the same data could
+quite effectively be used to improve weapons or
+delivery methods. However, there is a significant
+difference between research developing defensive
+measures against weapons and research actually
+developing those weapons, whether they are intended to be lethal or less than lethal. Research directed toward developing a weapon that would
+only stun an opponent would almost certainly be
+used to develop a weapon capable of killing that
+opponent as well.
+The key ethical question here, taking into account
+all these concerns, is whether military physicians
+doing research on military weapons should be permitted, partially allowed, or absolutely precluded.
+The ethical requirement of any policy allowing
+some participation is to discover what lines, if any,
+can be drawn and enforced. The risk of allowing
+some participation is that this judgment will be
+wrong.
+“Bloodless” War
+Another contemporary policy issue involves the
+current societal desire for a “bloodless” war, one in
+which there are no American casualties. This issue
+has obvious implications for the combat commanders, but it also presents considerable concerns for
+medical planners and decision makers. The concept
+of a “bloodless” war has been around since at least
+the Persian Gulf War (1990–1991). This is in part
+related to the “CNN (Cable News Network) effect,”
+in which societal support for a military action is
+theorized to erode if American casualties become a
+consistent part of the televised news. This may or
+may not, in actuality, be the case. For example, a
+poll performed by the Triangle Institute for Security Studies completed in 1999 showed that the public has a greater tolerance for military casualties
+than was thought. 19 At the very least, however, public sentiment can cause a critical reevaluation of the
+goals of the war and the means used to prosecute
+it. The image of a dead or wounded American soldier is a compelling one. Even the discussion, or
+the image, of body bags can elicit visceral reactions.
+Television is certainly a major force in public policy
+because policy decisions are influenced by public
+reaction. 20
+Society must, of course, decide through its
+elected representatives what the military should do.
+The greater society therefore must have accurate
+information so that the military ultimately can serve
+the society it represents. Still, media coverage may
+evoke overly reactive responses among members of
+society by showing harrowing images of war.
+Society’s response to these images may result in its
+demanding premature termination of military actions that are resulting in loss of military and civilian lives.
+Society might acquire an erroneous expectation
+of no American casualties, and also expect better
+medical care for wounded US soldiers than is possible. If this expectation is not met, public reaction
+may force a premature withdrawal from war. For
+Military Medical Ethics, Volume 2
+836
+example, as discussed previously, if less than lethal
+weapons are developed, society might expect markedly reduced casualties. This could lead to an expectation of almost total protection of American
+soldiers from injuries and death. Analogously, as
+medical technology has improved, the rate of soldiers who die from their wounds after they enter
+the military medical system has decreased. The
+American public, as a result of this improvement,
+may come to expect to a greater extent that any
+wounded soldier, once he gets to medical care, will
+survive his injuries. Dr. Stephen Joseph emphasized
+this perception in a speech to the National Security
+Industrial Association Medical Technology Education Conference in 1996. He said:
+Additionally, there is a growing popular expectation that our military operations should be without casualties. This, in the age of instant global
+video journalism, has significantly raised the expectation for sophisticated casualty care and medical services whenever and wherever casualties may
+occur. 21
+Thus, the same standard that applies to civilian
+emergency rooms (or to military hospital emergency rooms during peacetime) might be applied
+to the battlefield. This ignores the reality of the austere, mobile, and changing combat situation. There
+will be shortages of medical personnel and equipment on the battlefield. The battlefield is fluid. The
+area within or around the medical facility could
+actually become the location of the fighting. Further, which combatant holds combat superiority can
+change rapidly. This fluidity can greatly affect medical facilities’ treatment capabilities as well as their
+ability to evacuate the wounded soldier. It is impossible to provide the same level of medical support
+in any deployed scenario as can be expected in a
+state-of-the-art medical facility, military or civilian.
+Military medical planners and practicing military
+physicians alike struggle with the issue of determining the medical capability that will be deployed
+to the battlefield. The balance between providing
+state-of-the-art care and recognizing the reality of
+logistical and transportation support capabilities
+weighs heavily on all personnel involved in these
+decisions. These ethical decisions will become more
+difficult in the future, because medical technological capabilities will continue to improve, but the
+improvements will likely require increased logistical and transportation assets. The reality of this
+situation is shown in the case study provided in Exhibit 26-1. This also demonstrates a practical application of attempting to use data to guide the decision.
+Further, if deployed medical capabilities become
+more limited, physicians are likely to suffer psychological effects from failing to save wounded soldiers. This agonizing experience contributes to physician “burn out” in any context, and it is likely to
+increase in degree as medical advances continue to
+occur. Physicians could suffer greater adverse psychological effects from increased pressure to practice flawless medicine in a hostile environment. This
+pressure could be accentuated by the presence of
+news reporters with capability for immediate,
+worldwide, and graphic coverage of medical facilities and their patients.
+The chief ethical dilemma this poses is the extent, if any, to which military planners should be
+able to limit reporters’ access to the scene of combat and medical care. Limitations already have been
+imposed because of the compromises to security
+that media coverage can cause, but the news organizations and the public expect, and perhaps should
+expect, almost unlimited and instantaneous coverage of the battlefield when security issues aren’t a
+factor. Then, as discussed, viewers of this news coverage could observe and be critical of any degradation in medical capability, as mentioned in Dr.
+Joseph’s speech. 21
+Planners will also need to balance soldiers’ expectations for state-of-the-art care, and the morale
+effect this has on their performance, with the need
+to be able to deploy and maintain necessary medical
+services in combat areas. Perhaps this is one of the
+most difficult decisions military medical officers
+will face in the future—how to integrate and utilize the remarkable new technologies that are certain to become available while recognizing the limited financial and transportation resources available.
+The next section will examine some examples of
+potential future technologies that may be considered for soldiers.
+FUTURE ISSUES AFFECTING INDIVIDUALS
+The individual soldier is the American military’s
+greatest asset. 22 His risking life and limb is critical
+to protecting society. Society therefore has an affirmative obligation, in turn, to protect all soldiers to
+the degree possible. Therefore it is ethically appropriate to apply advances in technology when they
+A Look Toward the Future
+837
+EXHIBIT 26-1
+A CASE STUDY IN LOGISTICS
+Consider the following scenario, which reflects problems being faced by the Army Medical Department at the
+moment this is written. At the highest levels of the Department of Defense (DoD), emphasis is being placed on
+the rapid deployment of lightweight but powerful combat units that are expected to sustain themselves without outside support for 72 hours. From the medical standpoint, this will mean that logistic constraints placed
+upon the deployment will necessitate an austere medical footprint that, in essence, will be just a semblance of
+medical support found in earlier wars. This problem is compounded by the lack of any air evacuation of
+casualties for up to 72 hours. Such an operational plan is likely to result in mortality and morbidity statistics
+for wounded and sick soldiers that will be greater than recent historical norms.
+As a practical example of this decision-making dilemma, let us assume that a combat operation is to be carried
+out by an infantry company of 250 men with deployed medical capabilities consisting of a physician assistant
+(PA) and four medics, who have minimal medical capabilities other than first aid including initial resuscitation with fluids. The mission is to destroy an enemy position thought to hold a high-ranking enemy leader. At
+the last minute, command logisticians make available an additional C-17 aircraft for the planned operation.
+This airframe can carry either three all-terrain armored fighting vehicles or five humvees carrying the equipment for a forward surgical unit. The line commander argues that the additional combat firepower will ensure
+the rapid defeat of the enemy and consequently fewer American casualties. The medical commander states
+that he needs the additional medical resource to ensure that otherwise minimally treated and unevacuated
+casualties will receive at least some surgical care, preventing unnecessary mortality and morbidity. Who is
+right?
+At first glance we may be able to calculate who is right but only if we know how to assign values to medical
+risks and military necessity. Of course, we will first need reliable estimates of what the added firepower will
+accomplish and how much the forward surgery unit might reduce mortality and morbidity. Such data are of
+the type actually available from the TRADOC (Training and Doctrine Command) warfighting laboratory and
+from AMEDDC&S (Army Medical Department Center and School). The TRADOC scientists predict that the
+added firepower will shorten the battle from 3 days to 2 with a corresponding reduction in casualties from
+25% (first day: 10%, second day: 5%, third day: 10%) to 15% (first day: 10%, second day: 5%). In actual numbers, this will mean 38 casualties of whom 8 (20%) will be killed in action (ie, die within minutes after wounding) and 30 will live long enough to treated by the PA and medics. We can estimate that five (17%—similar to
+the Crimean or American Civil War outcomes for deaths in untreated casualties) of the wounded will die
+during the ensuing 2 days and that 10 will suffer from potential disabling morbidity such as grossly infected
+open comminuted fractures of the legs or invasive abdominal sepsis.
+Now let us estimate the outcome associated with the deployment of a forward surgical unit rather than added
+firepower. There will now be 62 casualties of whom 12 (20%) will be killed, with mortality of the initial survivors being 2 or 3 (5%—similar to recent historical norms). Morbidity among those surviving to be evacuated
+will be proportionately lower, but because of the increased actual number of casualties will be similar to that
+found in the first scenario.
+One can see that there will be a slight survival advantage in terms of a soldier’s risk of being fatally wounded
+if the forward surgical unit is deployed, but this would disappear if the added firepower shortened the battle
+to 1 day. This method of analysis is only as good as the data used to determine the casualty statistics. From the
+practical standpoint, the use of data for deciding what is good is fraught with problems arising from the
+inadequacies in the data fed into the models. Frequently the data will simply not exist and even if data do
+exist, the larger the battle, the smaller will be the probability that the predicted solution will correspond to
+what actually transpires.
+From a deeper perspective, the fundamental problem remains that using data does not allow us to decide
+which of the two moral visions of good should be chosen. In the example given above, the medic’s view of the
+good might be acceptable to the warrior moral intuition of what is good; after all his side wins. But what
+would the warrior’s position be if he were to know that the extra day taken to capture the enemy position
+allowed the high-ranking enemy to escape? Is the increased mortality and morbidity of deploying increased
+combat fighting power rather than surgical support worth the capture of the enemy leader? Who is to decide?
+The simple fact is that the using data is not likely to resolve the ethical conflict.
+(Exhibit 26-1 continues)
+Military Medical Ethics, Volume 2
+838
+can be beneficial to the soldier even when it might
+not be justifiable to apply these advances in civilian contexts. In fact, it may be not only ethically
+justifiable but also mandatory to give them less than
+fully tested treatments under circumstances in
+which soldiers who have been wounded would otherwise die. This is based ethically on the concept of
+compensatory justice. This concept, which will be
+discussed in greater detail in Chapter 27, in this
+context involves a societal decision to confer special benefits on individuals as compensation for
+sacrifices made on its behalf. For the purposes of
+this discussion, these special compensations will represent earlier or greater use of technological advances
+that are likely to benefit soldiers. This is not research,
+it is treatment. It is most ethically comparable to treatments for acquired immunodeficiency syndrome
+(AIDS) or cancer given for compassionate reasons in
+civilian contexts prior to meeting usual approval criteria because otherwise these patients would die. It is
+also related to the use of preventive agents not fully
+tested as discussed in Chapter 12.
+To illustrate this concept we will discuss some
+representative possible technological advances. As
+mentioned previously, the use of these advances
+should be considered only when they seem unequivocally beneficial to the soldier, as when it is
+certain that without them he will die. Even though
+they are not fully tested, they would then be beneficial and, thus, a compensation for the soldier’s
+willingness to give up his life to protect society.
+Telemedicine/Telepresence Surgery
+There have been many recent advances in the use
+of technology for information transfer and use.
+These extend from the simple means of using electronic mail for communication and transferring
+medical information, through remote intervention
+using video consultation, and even to operations
+performed at a distance by a surgeon remotely controlling a robotic surgical arm. There are many ethical and legal issues in this area, both for civilians
+and for the military. We will concentrate here on
+those having particular relevance for the military.
+Telemedicine is already in use within the military,
+as it is in the civilian sector. Distant consultations
+have been accomplished in dermatology, surgery,
+psychiatry, pathology, and internal medicine. 23–25
+There are departments of telemedicine in several
+military medical centers. Issues of credentials and
+scopes of practice are currently being addressed, but
+physicians in the military have encountered these
+issues in many deployment situations, and in these
+contexts their application may be different.
+One policy decision arising is the extent to which
+military medical experts should be present in deployed situations. Consultation through telemedicine
+may be effective in extending some clinical specialists’ ability to remote areas, but there should not be
+an expectation that this is equivalent to having an
+experienced clinician on the scene. This is because
+there are many subtle clues to clinical conditions
+In reality, the line commander will likely make the decision. His ethic will predominate, if for no other reason
+than that the law is on his side—the law gives him the authority to decide. What can the healers do if the
+decision is to go for additional combat firepower in place of medical support? Of course, as individuals, they
+can refuse to serve and possibly be court-martialed (and by doing so possibly assure that medical support is
+even more inadequate). Or they can do their duties as the medical staff officers for the line commander by
+assuring that the highest levels of command have a clear understanding of what the lack of medical support
+will mean.
+COMMENT: As this scenario demonstrates, using data to guide decisions is only helpful in framing the questions to be asked and in helping to decide who is authorized to make the ultimate decision. It may also help
+the person authorized to make the decision to examine the alternatives and the risk/benefit aspects of each.
+Clinical medicine is filled with uncertainty. It is never clear exactly how a patient will respond to the proposed
+treatment. Clinicians must make decisions with incomplete and conflicting data every day. Similarly, military
+missions are fraught with uncertainty. This is particularly true for combat missions where the generally accepted truism is “the plan of operation only lasts up to the ‘line of departure.’” In other words, all plans are
+theoretical and are subject to uncertainties once the battle is engaged. It is evident from this scenario that
+combining two disciplines filled with uncertainty will only accentuate the difficulty in making decisions.
+Methods for examining the decision-making process are discussed in Chapter 27, A Proposed Ethic for Military Medicine.
+Source: Ronald F. Bellamy, MD, FACS, Colonel (Retired), Medical Corps, United States Army; Military Medical Editor,
+Textbooks of Military Medicine, Borden Institute.
+Exhibit 26-1 continued
+A Look Toward the Future
+839
+that do not transfer by pure video and audio transmission. Further, history taking may be made more
+difficult by the impersonal nature of the remote
+presence, although, somewhat surprisingly, this has
+not been as true as may have been expected. These
+“impersonal” approaches may be surprisingly effective, for example, in psychiatry. 26,27 There are also
+some specialties that may be more difficult to practice from a distance (eg, surgery) although others
+may be quite reasonable (radiology or pathology).
+The relative benefit/burden of each procedure in a
+military context must be newly assessed.
+Electronic medical records are another obvious
+use of telemedicine. This could be particularly beneficial for the military, with its frequent deployments as well as providing medical care in remote
+areas. Being able to securely access the full electronic patient record from any medical facility with
+access to the Internet (or equivalent means of transferring information) would facilitate military physicians’ caring for patients. The degree to which
+restrictions should be placed on electronic medical
+records for purposes of confidentiality is unclear.
+Legally, the Health Insurance Portability and Accountability Act (HIPAA) of 1996 is now being applied but it was intended primarily for civilians.
+Ethically, the military must develop policies and
+procedures meeting the requirements of these regulations, if possible, but these may have to be redesigned to meet soldiers’ and the military’s different
+needs. 28 If this is not possible, further legislation
+particularly adapted to meet the military’s unique
+requirements will be necessary.
+Another area currently being explored is that of
+remote telepresence surgery. Using this technology,
+a surgeon in a distant location could actually operate on a patient by using virtual reality controls of
+a robotic surgical arm with surgical instruments. 29
+One of the issues posing ethical concern involves
+tactile feedback to the surgeon. Much of surgery is
+now done by “feel.” Being able to palpate the tissue using telepresence surgery may be difficult currently, but this may be overcome with future developments. Force feedback (ie, the ability of the
+remote surgical instruments to calculate the pressure on tissue, the tissue’s response to that pressure, and then instantaneously transfer that tactile
+data to the hands of the remote surgeon) from the
+remote surgical instruments is also being perfected.
+In 2001, surgeons in New York removed a gallbladder from a patient in Strasbourg, France (Figure 261) using a dedicated transatlantic communications
+cable to transfer the immense amount of data to allow this to be performed safely. 30
+An example of such new ethical difficulties telepresence surgery in the military could pose involves
+those of a battlefield casualty who is operated on
+in an armored vehicle far forward of a traditional
+deployed hospital. Field tests have been performed
+using a wireless link over a 5-kilometer distance and
+were successful. 31
+One problem posed is transmitting the immense
+amount of data with sufficient speed in a manner
+that the transmission cannot be interrupted either
+Fig. 26-1. A patient in France (a) and one member of a team of surgeons in the United States (b). The surgical team
+remotely removed this patient’s gallbladder. The operation was performed using a dedicated trans-Atlantic cable
+and remotely controlled robotic surgical instruments, similar to a standard laparoscopic cholescystectomy performed routinely today. Photographs reproduced with permission from Institut de Recherche contre les Cancers de
+l’Appareil Digestif (IRCAD), Strasbourg, France.
+a
+b
+Military Medical Ethics, Volume 2
+840
+by accident or intentionally by the enemy. The current battlefield uses electronic data gathering and
+sharing to make tactical decisions. These electronic
+mechanisms have limitations in terms of availability of broadband transmission space. It may well
+be difficult for medical use of these transmissions
+because they compete with the military mission requirements. A comparable civilian example might
+be the request for individuals to stay off both regular and cellular phones during an emergency (such
+as the attacks on September 11) to allow firefighters,
+police, and rescue workers full use of those communication networks. Ethical decisions will need
+to be made to determine the degree of certainty the
+electronic link will survive on the battlefield.
+A further concern in making these decisions is
+the moral weight that should be given to the perception of the wounded soldier. In a talk to physicians at Fort Hood, Texas, Colonel James M. Lamiel,
+a physician who had previously been a Cobra attack helicopter pilot, discussed his personal experiences as a casualty after his helicopter was hit by
+enemy fire in Vietnam. 32 He was able to fly himself
+to the nearest Army hospital and was immediately
+operated upon successfully. He feels strongly that
+his outcome would not have been as successful had
+the surgical team been operating from a remote location. His perception of this difficulty, if accurate,
+would exemplify the concern identified previously:
+there might be clinical clues that can only be received, and processes that can only be performed,
+“in person.” Soldiers sharing this belief, whether
+true or not, might become demoralized. For example, soldiers, particularly under the stress of war,
+may find the absence of a surgeon disconcerting.
+They may be fearful of the new technology, or they
+may be overly fearful if the surgeon is not at the
+site of combat. That fear may affect their outcome.
+Pharmacological Optimization for the Battlefield
+Military physicians possibly can enhance soldiers’ capacity to fight effectively during combat
+by using mind-altering drugs. These same medications may also help them by reducing their fear or
+the development of posttraumatic stress disorder. 33
+Both these effects may be what soldiers would want.
+Nonetheless, their use may best be limited or contraindicated for ethical reasons. The analysis of
+when, if at all, these drugs should be used illustrates the overriding principle outlined throughout
+this book: Namely, military physicians should adhere to their traditional medical values, or “be doctors first,” and depart from these values only as
+military combat necessities require this. This is illustrated particularly by the first two of the four
+drug categories considered here. These two categories are: (1) short-acting sleep-inducing medications
+and (2) stimulants.
+The principle noted above would suggest that a
+starting point to answering questions regarding the
+acceptable use of these drugs in the military is to
+ask what uses are permitted in civilian settings because this should be considered as an initial ground
+for comparison. An example here might be medical
+students and residents. Both these drugs could be
+given out routinely to medical students and residents to increase their sleep during the brief opportunities for sleep that they have and to enhance
+their alertness when they are sleep deprived. This
+is not, however, done. Why?
+The analyses below will suggest some likely answers. More important than the answers in this context, however, is the approach we will use. This will
+exemplify the approach that we have suggested is
+optimal for analyzing military medical issues. That
+is, if sleep medications and stimulants are not given
+to doctors in training even though this might benefit both them and their patients, it should be presumed initially that military physicians should not
+give these medications to soldiers unless there is
+some exceptional ground for doing so such that for
+combat reasons, this is necessary. As the analysis
+below will suggest, this may not be the case.
+Sleep-Inducing Medications
+Soldiers often have decreased sleep during combat. 34,35 In part this is due to the nature of war. In
+addition, under combat conditions, the fear and
+anxiety they experience may heighten the activity of
+their central nervous system. As a result, when they
+can sleep, they may not sleep as well. Under these
+conditions, medications that induce sleep would
+seem ideal, especially if they worked rapidly and
+had a short half-life so that soldiers could be awake
+and alert after sleeping for only a few hours.
+Some medications show promise of fulfilling
+these criteria and they are now being tested to help
+determine the extent, if any, to which they would
+be beneficial during combat. The drug temazepam
+or Sonata,® for example, works rapidly and its soporific effect is over after 4 hours. It has few side
+effects and is unlikely to impair soldiers’ functioning once they awaken. 36,37 There may still be ethical
+or medical reasons it should not be used, however.
+First, it may be addicting. Over time, soldiers may
+become psychologically, if not physically, depenA Look Toward the Future
+841
+dent on taking it. They may also build up tolerance
+to the medication and it may lose its effectiveness.
+Even if this does not occur, this medication is
+unlike a vaccine for anthrax or a medication to prevent soldiers from acquiring malaria in that it may
+not be necessary for them to function effectively
+and, moreover, it directly affects the brain. In regard to this latter effect, there should be greater
+concern because these interventions may affect the
+very basis of these persons’ identity. These drugs
+affect the neurocircuitry of soldiers’ brains. Just as
+a single exposure to cocaine may alter the individual’s
+subsequent behavior even though it involves only
+a single instance of altering the brain with a chemical substance, these drugs could have permanent
+effects and alter what soldiers experience in the
+future. They may alter who these soldiers, as it were,
+are. This is more ethically problematic if the use of
+these drugs is made mandatory. Even if they are
+not mandatory, however, in reality their use might
+be as problematic. This is because, in this environment, soldiers might confront strong pressures from
+others to take them because the extent to which they
+are rested may affect not only their own but other
+soldiers’ lives and limbs. Thus, their freedom to choose
+may be compromised due to this environment’s being in this way inherently coercive.
+This concern regarding inherent coercion was
+raised most famously in regard to a research proposal made in Michigan decades ago. 38 Psychosurgery was proposed and accepted by a man then in
+jail who had been convicted of rape. Concerns were
+raised, notwithstanding this prisoner’s willingness
+and, indeed, eagerness to have this surgery, despite
+its potential benefit to others. The first concern was
+that he was not sufficiently free to make this choice
+because it might increase his chances of obtaining
+parole; the second that this surgery could change
+him as a person.
+A sleep medication is, of course, hardly psychosurgery, but this illustrates, regardless, both the
+ethical concerns primarily at stake. They both have
+greater relative moral weight, of course, because
+unlike anthrax vaccine and antimalarial medications, the benefits of these medications to these soldiers and to the military of soldiers taking them is
+substantially less. These medications could, on the
+other hand, enable soldiers to be at slightly less risk
+of being harmed themselves. Compensatory justice
+might, then, be an ethical basis for allowing military physicians to give these drugs to soldiers who
+wanted them during combat even though it might
+be that they would not be made available under
+“analogous circumstances” to doctors in training.
+As we have already noted, soldiers voluntarily
+put themselves in harms way for the greater society. Society accordingly should have an obligation
+to them, in turn, to reduce the degree to which they
+are at undue risk as much as this is possible. 39 However, if used, these medications should only be offered to soldiers who wanted them, as opposed to
+their being mandatory as was the case with anthrax
+vaccine.
+Stimulants
+The next category of medications now also being considered as a “top contender” for use on the
+battlefield is psychostimulants. Again, these should
+be short-acting medications, such as amphetamines
+and Ritalin®. 40,41 These medications would allow
+soldiers to remain more alert. This might protect
+them somewhat from fatigue-induced dangers to
+their lives. By being more alert they also might be
+more effective against the enemy.
+Once again, however, there is a risk of addiction.
+With a new potential drug, modafinil, this risk may
+be reduced, but nonetheless this remains a concern. 42,43 Soldiers might also want to take these drugs
+for their pleasurable effect. In addition, whether
+used in normal or excessive amounts, their use could
+result in adverse symptoms such as restlessness and
+agitation or, in rare cases, in hypervigilance, paranoid feelings, and psychosis. There is also the concern that these medications may affect these soldiers’ minds.
+In some contexts, such as when pilots are flying,
+they may put not only themselves but also others
+at risk more than they would in other contexts. 44 If
+they are less than fully alert, their judgment as pilots may become impaired. This difference may be
+not only morally relevant but of a sufficient magnitude to warrant these soldiers to be able to choose
+to take stimulants despite possible risks to their
+mental health and personal “identity.”
+A factor in this case that may warrant exceptional
+moral weight is that soldiers, such as pilots, may
+not want to take these drugs so much for themselves
+as to take them so that they are less likely to place
+their fellow soldiers at unnecessary risk. Inasmuch
+as avoiding this risk may be exceedingly important
+to them, it may be that their preferences should be
+respected and they should be given this option,
+even if civilian pilots would not, on the ground of
+compensatory justice. However, their having this
+option poses the identical concern to that of sleep
+medications regarding inherent coercion. Their
+choosing to take these drugs would, of course, have
+Military Medical Ethics, Volume 2
+842
+to be voluntary even if limited to situations such as
+pilots who have unique responsibility requiring full
+alertness. Care would have to be taken, then, to insure that subtle coercion was not exerted by command or soldier-passengers potentially at increased
+risk to pressure pilots to take these drugs.
+This kind of risk can arise in a wide variety of
+contexts. An unusual context especially illustrating
+this variation involves astronauts. They sometimes
+are offered the opportunity to serve as subjects of
+research while they are up in satellite missions. As
+with other research participants, they are explicitly
+permitted to choose to drop out of studies at any
+time, which in this context means even if they are
+in the midst of a mission. In reality, however, this
+may be virtually impossible because of implicit
+pressure from three sources: (1) those who decide
+who flies, (2) the public, and (3) their fellow astronauts. The persons who decide which astronauts
+get to fly may not let them fly again. The public, if
+aware of this refusal, might utter an outcry at the
+expenditure of funds, namely millions of dollars
+that the loss of these research results would, in part,
+waste. And fellow astronauts, who remain in the
+research and, thus, continue to undergo equivalent
+risks, may feel betrayed. These risks of inherent
+coercion are great but may not be so great that they
+should prohibit this practice. This example illustrates,
+then, another context in which the benefit to others
+may justify leaving individual patients at risk.
+Returning to the issue of using stimulants for
+combat pilots, there is also a concern that allowing
+these pilots to make choices that could place others
+at relatively greater risk (for instance, by not using
+drugs that could increase the level of alertness of
+the pilot) could bring about a sense of separation
+and distrust between those pilots and the others
+dependent on them. The loss of bonding that could
+result would be deleterious to the military mission.
+This could cause more harm than allowing them to
+take stimulants would.
+Drugs to Decrease Anxiety
+The two classes of medications considered above
+are those considered most seriously as potentially
+benefiting soldiers and enhancing the military’s
+mission. Other classes, however, might be considered, especially if new medications are developed.
+Medications could, for example, decrease soldiers’
+fear during and after battle, or even increase their
+willingness to fight.
+The first of these approaches, reducing soldiers’
+fear, could involve military physicians giving soldiers psychotropic medication before or during
+combat. Drugs now available that could further
+these outcomes vary from benzodiazepines such as
+Valium® to antipsychotic drugs such as the new
+atypical antipsychotic medications. 45,46 The latter are
+much less likely to cause serious side effects. Both
+would have to be given at a low-enough dose that
+soldiers’ combat performance would not be adversely affected. These medications could reduce
+patients’ emotional pain by diminishing their fear.
+This could be done, as stated, both before and during battle. Conceivably, these soldiers could also
+benefit later on. They could experience less crippling aftereffects after battles, such as the symptoms
+of posttraumatic stress disorders (startle responses
+and emotional numbing). Without this fear, they
+might also think and act more effectively. It is also
+possible that they might increase the degree to
+which they subsequently have negative emotional
+outcomes.
+A disadvantage of all the benzodiazepines such
+as Valium® is that they may be addicting. The antipsychotic drugs even in small doses also may pose
+significant risks such as that of tardive dyskinesia—
+irreversible involuntary movements involving especially the mouth and limbs. Perhaps more significantly, benzodiazepines could result in soldiers
+fighting in a different emotional state. These drugs
+can switch off persons’ “normal” personality and
+replace it with another. This is the effect alcohol has
+when it causes inebriation. A related concern is that
+this may bring about state-dependent learning. Studies show that animals—and humans—who learn material in one state, as when their brain is bathed in
+benzodiazepines, may recall this same material later
+only if this same substance is reintroduced. 47
+The ethical ramifications of state-dependent learning are two. First, the use of these fear-reducing
+medications may induce a different identity in soldiers entering combat. One may be an identity in
+which they will much more readily fight. Knowingly taking steps that will alter their personality,
+even if this enhances their fighting skills, may involve using soldiers unacceptably as means to the
+military’s or society’s ends. The specter of altering
+soldiers’ minds in this way to be able to send soldiers into combat in a mind-altered state is perhaps
+unconscionably exploitative. Second, as already
+indicated, the altered states these medications induce may affect them adversely over time. These
+drugs could further these persons developing somewhat different, mutually exclusive “personalities”
+or a proclivity to what is called a dissociative state.
+The degree, if any, to which this could occur is unA Look Toward the Future
+843
+known and perhaps unknowable. If this did occur,
+they normally might act like themselves, but when
+provoked might be more prone to responding with
+excessive aggression. In light of these concerns, it
+may be more reasonable to not use these drugs, even
+to the extent of not using them if and when soldiers
+wanted them. This might be an instance, then, in
+which contrary to the prior examples, the principle
+of compensatory justice as applied to respecting
+soldiers’ autonomy shouldn’t prevail.
+The same drugs, such as Valium,® if used at
+higher dosages, could, however, not only reduce
+soldiers’ fear and anxiety, but also enhance their
+willingness to fight. This is similar to alcohol, which
+temporarily depresses areas of the brain that inhibit
+persons responding solely on the bases of what they
+feel. Thus, they lose their usual judgment and often are unusually aggressive. Alternatively, these
+or other drugs may result in soldiers feeling emotionally more numb. 48 If this occurred, they could
+be less vulnerable to feeling ambivalence over what
+they must do during combat and as a result they
+might carry out their aggressive impulses more
+readily, which could be good in regard to the fulfillment of the mission. Yet, this aggression could
+also go too far. Even if this does not occur, by using
+these drugs to enhance soldiers’ fighting ability,
+military physicians nonetheless would be violating
+these soldiers’ dignity. They would be creating sociopathic behavior with chemicals. This again would
+represent using these soldiers primarily as means
+for military ends.
+The use of these drugs in this manner would be
+ethically problematic also because of other possible
+aftereffects. If, for example, they had acted outside
+their normal moral constraints, this could result in
+their later suffering from crippling guilt over what
+they had done. Or, if this hadn’t occurred, as may
+be much more likely, they still might be harmed by
+having more difficulty “processing” the combat
+experiences they have had so that they could leave
+them behind them and then get on better with their
+lives. How they experience what they have done
+may, in any case, be affected by the outlook of their
+society. When society can appreciate the sacrifice
+soldiers make, soldiers can more easily take pride
+in what they have done and then reintegrate themselves into society. After an unpopular conflict, such
+as the one that occurred in Vietnam, however, this
+may be more difficult.
+This may exemplify, then, another way in which
+military physicians might do more than they have
+in the past. They might, for example, help establish
+greater opportunities for soldiers to continue to be
+able to meet on a regular basis with other soldiers
+as they leave the military and take on civilian careers.
+The above ethical analysis, as all such analyses,
+should then consider alternatives to present practices. In this instance, interpersonal psychological
+interventions also could reduce soldiers’ anticipatory
+anxiety before battle and their fear once it occurred.
+These, even presently, could be offered. Cognitive
+restructuring techniques could help soldiers distinguish adaptive from maladaptive thoughts both
+before and during battle so that if they are maladaptive, they could replace them. 49 As opposed to using
+drugs, this approach would be more beneficial to
+soldiers because they could retain their same identity during combat. The skills they learn could also
+be used afterwards to enhance their everyday lives.
+This process already takes place when soldiers are
+preparing for combat during basic training. This
+learning takes place during military exercises and
+practices and from informal discussions with those
+who have served in combat before. 50,51
+The question remains, however, whether this
+preparation could be improved. State-of-the-art
+cognitive restructuring techniques used to relieve
+patients’ anxiety in civilian contexts could be adapted
+for, and used in, military contexts. Military physicians could play an important role in bringing this
+about. There may be unequivocal ethical reasons
+they should be doing this even now. If it could reduce avoidable harm, the military has still an additional reason for providing soldiers this help. That
+is, the military has implicitly promised soldiers that
+it will do all that it can to prevent their suffering
+unnecessary mortality and morbidity. This intervention, as opposed to using anxiety-relieving drugs,
+should perhaps be available to all on the basis of
+compensatory justice. If they survive during combat, this should reduce their fear and this in turn the
+subsequent risk of psychiatric morbidity.
+Society cannot be reminded too often of the sacrifices soldiers make for the greater society. Society’s
+having this awareness, to the degree this is possible,
+would seem a minimal requirement of compensatory justice. The kind of media attention soldiers
+should always have is exemplified, for instance, by
+the recognition given firefighters who lost their lives
+in the terrorist attacks in New York City on September 11, 2001. When and if society again loses this
+vision, civilians as well as those in the military
+should play an increased role in bringing soldiers’
+sacrifices to society’s attention. This obligation may
+be ethically greater for civilian and military doctors because it represents a preventative medical
+intervention and thus is within their implicit promMilitary Medical Ethics, Volume 2
+844
+ise when becoming doctors to do all they can for
+their patients. In this instance, this involves doctors pursuing initiatives on patients’ behalf. This
+obligation to act politically may not exist when it
+would compete with their providing patient care.
+It is enhanced, however, when they are the only
+ones who could initiate political action, as in this
+case greater societal awareness, more successfully.
+Thus, although compensatory justice should always
+be a goal, how this should be achieved requires a
+balancing of military and soldiers’ needs and benefits. Drugs may not be indicated. Nonetheless, interventions that can reduce this morbidity and ease
+their reintegration into society may, though indicated, still be lacking.
+Lazarus Project
+As mentioned previously, because soldiers risk
+their lives on behalf of the greater society, to help
+compensate them for this risk, it might be not only
+justifiable but also even mandatory to give them
+access to treatments prematurely, though the treatments had not been fully tested, if the treatments
+and the treatments alone had the potential of saving their lives. There are several potential treatments that could benefit soldiers in this way. An
+innovation that has been considered, for example,
+was a newly designed apparatus that could be
+placed on soldiers’ extremities to prevent them from
+dying due to shock after they had been severely
+wounded on the battlefield. An innovation currently being submitted for an institutional review
+board (IRB) review involves a new substance that
+could be applied on the battlefield that would be
+more effective in stopping soldiers’ bleeding.
+Providing less than fully tested innovations such
+as these to soldiers before civilians on the ground
+of compensatory justice is essentially a new ethical
+principle that has not yet been developed or applied. Thus, the theoretical bases for doing this,
+much less the IRB standards for approving such
+innovations on the battlefield, barely have begun
+to be examined.
+For purpose of this discussion, the example used
+to illustrate the kinds of ethical problems these innovations could raise will be the Lazarus Project.
+This project has been sponsored and funded by the
+US Navy since 1996. 52 This example is particularly
+useful as a paradigm for other innovations that
+could be used because it clearly illustrates the complexity of the ethical issues that could be involved.
+The Lazarus project is named for the biblical person whom Jesus raised from the dead (John 11:1–
+44). 53(p419) It is an attempt to prevent soldiers from
+dying on the battlefield so that they could be rescued and brought to medical facilities that could
+give them treatment to enable them to survive. The
+primary goal is to increase the tolerance of organ
+systems to the global ischemia associated with cardiac arrest and hypoperfusion. Because this theoretically could save the lives of soldiers who would
+otherwise die, it could warrant being included in
+combat casualty care.
+Overall combat mortality has changed little since
+World War II. This is because the vast majority of
+those fatally wounded (approximately 90%) die
+before entering the medical system. 54 These are classified as killed in action (KIA). Some of these have
+massive head injuries or overwhelming total body
+injuries, but approximately 50% of KIAs die of exsanguinating hemorrhage. It has been estimated
+that approximately 12% of the total combat dead
+could have survived their hemorrhage if they had
+been able to live until they could receive definitive
+treatment. 55–57 Routine resuscitative procedures are
+of little effect for the blood loss from these massive
+vascular or solid organ injuries.
+Associated with the hypovolemia and resultant
+hypoperfusion of these casualties, is a deficit in the
+supply of ATP ( adenosine 5’-triphosphate, a chemical key to survival) relative to the demand for it.
+This imbalance results in cellular damage, even
+before cardiac arrest, which is accentuated by the
+total loss of perfusion once cardiac arrest occurs. 58
+Once the imbalance between ATP supply and energy demand reaches critical levels, the cell undergoes significant negative changes that cause further
+injury even if effective reperfusion can later be accomplished. (This injury, known as reperfusion injury, involves complex physiologic, cardiovascular,
+metabolic, neuroendocrine, and immunologic responses and is related to oxygen-derived free radicals, cytokines, and other hormones and substances
+developing during ischemia and resuscitation. 59)
+There is debate as to whether any attempt to increase blood flow (and thereby the supply of ATP)
+through standard fluid resuscitation methods is effective. 60 If not, fluid resuscitation could not save
+these soldiers’ lives. There is, however, another
+possibility. This is to attempt to reduce the demand.
+If the need for ATP can be decreased, patients may
+be able to survive these severe but reparable injuries. The Lazarus project would explore ways to
+save lives by decreasing the need for ATP or by actually arresting cellular metabolism (so that there
+is no need at all).
+There are at least two methods that could deA Look Toward the Future
+845
+crease cellular metabolic requirements—hypothermia and chemical agents. Mild hypothermia to protect the brain during and after cardiac arrest is currently being considered and shows some promise
+in both animal models and in humans. 61–64 Hypothermic suspended animation (the “temporary” apparent death of the organism) with cardiac arrest
+has been able to preserve viability of dogs for up to
+2 hours. However, this method requires a large volume of cold solution being injected rapidly into the
+aorta. 65 This is currently impractical on the battlefield due to the large volumes of cold solution required. The other method, which may be more practical on the battlefield, involves chemical agents that
+directly decrease cellular metabolism. This, too,
+would prolong soldiers’ lives until they could receive definitive care. Unfortunately, these agents are
+not currently showing much promise in experimental models.
+Cellular metabolism can be decreased or suspended in two ways: (1) by stabilizing the cell membrane or (2) by decreasing the rate of intracellular
+metabolic processes. Cardiac surgeons have used
+potassium solutions to stop the heart in a relaxed
+state (a condition that uses minimal ATP) when they
+operate using cardiopulmonary bypass machines.
+They also use cold solutions to decrease the metabolic rate in the cells of the heart when they operate. However, by suspending cellular metabolism
+in this way, cells and organs cease to function. For
+the heart, this causes cardiac arrest.
+This is obviously a somewhat radical approach to
+prevent a still more devastating problem. It causes
+“temporary” death of the cells and organs to preclude
+worse cellular damage that would lead to “permanent” death of the organism. The agents used to
+cause suspended animation would need to be introduced before uncontrolled cardiac arrest (caused
+by inadequate ATP supply) occurs. If this uncontrolled cardiac arrest occurs, as discussed earlier,
+further cellular damage is inevitable. Additionally,
+the agent needs to perfuse the cells in all organs
+needing protection, not just the heart. If uncontrolled cardiac arrest occurs, there is no effective
+circulation of the blood and it is impossible for the
+agents to reach and perfuse these cells. Therefore,
+metabolic arrest (“suspended animation”) must be
+induced before uncontrolled cardiac arrest occurs
+from blood loss.
+One paradigmatic ethical issue that arises from
+this example is the decision to proceed from animal studies into clinical studies. This is a key problem in giving untested treatments without informed
+consent even when the soldier will certainly die
+without them. Further, this research is of necessity
+performed in an emergency setting. Informed consent in research performed in an emergency setting
+has prompted the National Institutes of Health
+(NIH) to approve a concept known as “community
+consultation” for emergency protocols. 66 This involves attempting to determine the prevalent opinions concerning an intervention within a community and extrapolating this opinion as a “majority”
+consenting to a research protocol. If the majority of
+the members of a community would be willing to
+accept the risk of a research protocol for its benefit
+to the persons involved, consent is presumed to
+exist for patients in an emergency situation and the
+intervention could be performed without specific
+individual consent. However, the issue of “community consultation” in the military has not been fully
+evaluated (see Chapter 11, Physician-Soldier: A
+Moral Dilemma? and Chapter 19, The Human Volunteer in Military Biomedical Research).
+Giving soldiers earlier or greater access to these
+technological advances may be acceptable under the
+concept of compensatory justice discussed earlier.
+Some increased benefit to soldiers, as stated, may
+be not only ethically justifiable, but optimal. Using
+this example as a paradigm, there would be significant ethical issues involved in employing this potentially beneficial intervention on the battlefield.
+There is the very real danger caused by inducing
+cellular metabolic arrest and cardiac arrest before
+this would naturally occur. Even though the intention is to benefit soldiers, using any treatment before sufficient human data are available is ethically
+problematic because it involves applying the technology before it has been fully evaluated. Therefore, this should occur only in an attempt to save
+individuals who have been wounded and who otherwise would certainly die or have devastating irreversible injuries such as brain damage. This technology would be used only because it offered the
+potential of preventing these outcomes.
+This use would concomitantly provide new data
+regarding these innovations, and this would be a
+second positive outcome. However, this gain would
+be a wholly unintended secondary outcome. This
+secondary gain could make the use of these untested
+treatments exceedingly vulnerable to misuse. If they
+were used for the purpose of gathering data, rather
+than to save lives, this would be unconscionable. It
+would be precluded ethically, for example, under
+the Nuremberg Code. 67
+Even if the research can be performed ethically,
+there are still ethical issues associated with its specific use in combat. The decision to induce metaMilitary Medical Ethics, Volume 2
+846
+bolic arrest will likely be made by a combat medic.
+It is possible that personal status monitors (Figure
+26-2) and telementoring could assist in this process. 68,69 It is also possible that computer-generated
+algorithms could be developed to provide some
+objective criteria for decision making. However, the
+person who is actually on the scene, and who is
+actually inducing death, will be a relatively junior
+and inexperienced member of the healthcare team.
+Actually administering the drug could also be an
+issue. For cerebral protection (the brain is one of
+the most sensitive organs to ischemia), it may be
+helpful to infuse the agent into the brain before it
+perfuses the heart and causes cardiac arrest. This
+would be performed by direct injection into the carotid arteries or possibly by injection into the aortic root through a catheter introduced by way of a
+peripheral artery. These would not be typical tasks
+for the combat medic.
+These issues are all considerable, but if the technology can be perfected and implemented safely, it
+could be another example of the military providing additional compensatory benefits for its personnel. Even if this example of metabolic arrest for resuscitation from severe trauma is not ultimately
+found to be practical, the ethical problems it raises
+represent the kind of problems other future technologies also could pose.
+CONCLUSION
+This chapter has analyzed several issues that will
+or may generate ethical dilemmas in the future.
+Some of these concepts are being applied presently,
+while others may never be applicable. For the purpose of this chapter, the issues discussed here are
+not as important as the processes of ethical analyFig. 26-2. The Personnel Status Monitor is an electronic monitoring system utilizing Global Positioning Satellite technology and telemetry for vital signs monitoring to assist field medics to prioritize, locate, and treat casualties on the
+battlefield. It has been successfully tested in field training exercises since 1997.
+A Look Toward the Future
+847
+sis used to examine them. The processes presented
+here are intended to represent the kind of ethical
+evaluation new technological advances such as
+these will require.
+We have discussed the concept of compensatory
+justice as it applies to offering technological advances to soldiers. It is appropriate for soldiers, and
+others who risk their lives in defense of our society,
+to receive special benefits from a grateful society.
+Because policy decisions in the military affect many
+soldiers’ lives, the process used in making these decisions in the military has far-reaching ethical implications. Soldiers’ interests must be protected to
+the maximum extent possible. Decisions made using input from ethical analysis help ensure this.
+Military medical leaders have sought this input for
+many of the issues discussed in this chapter, and
+this is likely to continue for issues that arise in the
+future.
+Ethical input, however, should extend beyond
+merely protecting soldiers’ interests. For example,
+members of the military live in a “total institution.”
+Thus they may be more vulnerable to coercion than
+civilians. Consequently, their freedom to choose
+must be protected to the maximum extent possible.
+Therefore, it is appropriate to apply a more rigorous ethical analysis when researching and using
+technological advances for soldiers. Providing them
+a more rigorous ethical analysis can also be another
+means of providing compensatory justice. This
+analysis can provide justification for going beyond
+merely protecting soldiers’ rights to establishing
+new ethical concepts not previously posed nor applied. The application of this concept of compensatory justice goes beyond using new technology to
+give soldiers a better chance of surviving on the
+battlefield, as they deserve. It actually allows them
+to enjoy optimal protection in research protocols
+and application of new technologies. Society owes
+its soldiers no less.
+REFERENCES
+1.
+Coupland RM. The effects of weapons: Defining superfluous injury and unnecessary suffering. Med Global
+Survival. 1996;3:A1–A6.
+2.
+Protocol Additional to the Geneva Conventions of 12 August 1949, and relating to the Protection of Victims of
+International Armed Conflicts (Protocol I), 8 June 1977. Part III. Methods and Means of Warfare and Prisoner of
+War Status. Section I: Methods and Means of Warfare. Articles 35, and 36. and Part IV. Civilian Population.
+Section I: General Protection Against Effects of Hostilities. Article 51. Available at: http://www.icrc.org/ihl.nsf.
+Accessed 12 July 2002.
+3.
+US Department of Defense. Policy for Non-Lethal Weapons. Washington, DC: DoD; 9 July 1996. DoD Directive
+3000. 3.
+4.
+Perkins S. Not-so-deadly force: The search for a kinder, gentler knockout punch (development of nonlethal
+weapons for military and civilian use). Sci News, 7 March 1998.
+5.
+Office of the Assistant Secretary of Defense (Public Affairs), Background Briefing Subject: Non-Lethal Weapons, Attributable To: Senior Military Official, Friday, 17 February 1995.
+6.
+Non-lethal weapons: War without death? [transcript of televised program]. Americas Defense Monitor. 27 August 1995.
+7.
+Lean, not-so-mean Marines set for Somalia. Washington Post. 25 February 1995:A22.
+8.
+Policy group urges research in ‘less-lethal’ weaponry. Army Times. 17 July 1995.
+9.
+Less-than-lethal weapons. Technol Rev. Spring 1995:23.
+10.
+Coupland RM. “Non-lethal” weapons: Precipitating a new arms race. Br Med J. 1997;315:72.
+11.
+Murphy MR. Biological effects of non-lethal weapons: Issues and solutions. Paper presented at the Non-Lethal
+Defense III Conference; 25 February 1998; Laurel, Md.
+12.
+Geneva Convention for the Amelioration of the Condition of Wounded, Sick in Armed Forces in the Field. 12
+August 1949. In: US Department of the Army. Treaties Governing Land Warfare. Washington, DC: DA; 7 December 1956. Army Pamphlet 27-1.
+Military Medical Ethics, Volume 2
+848
+13.
+Office of the General Counsel. Potential Legal Issues Pertaining to Request from the ASD (SO/LIC) for Medical
+System Support for DoD Research and Development Initiative on Non-Lethal Weapons. Washington, DC: DoD OGC;
+14 August 1995. Memorandum.
+14.
+Murray JC. Quoted in: Krickus RJ. On the morality of chemical/biological war. Conflict Resolution. 1965;9(2):201–210.
+15.
+Dr. Knut Krieger as quoted in: Reid RW. Tongues of Conscience: Weapons Research and the Scientists’ Dilemma. New York: Walker & Co; 1969.
+16.
+Albert Nobel as quoted in: Reid RW. Tongues of Conscience: Weapons Research and the Scientists’ Dilemma. New
+York: Walker & Co; 1969.
+17.
+Edelstein L. In: Temkin O, Temkin CL, eds, Temkin CL, trans. Ancient Medicine: Selected Papers of Ludwig Edelstein.
+Baltimore, Md: Johns Hopkins Press; 1967.
+18.
+ACLU warns of need to restrict police reliance on pepper spray. Washington Post. 19 June 1995:A6.
+19.
+Feaver PD, Gelpi C. How many deaths are acceptable? A surprising answer. Washington Post. 7 November
+1999:B3.
+20.
+Hawley A. A form of human intercourse? Mil Med. 1997; 162:597–600.
+21.
+Joseph SC. Telemedicine in the military health services system. Defense Issues. 11(62). Available at: http://
+www.defenselink.mil/speeches/1996/s19960711-joseph.html. Accessed 4 July 2002.
+22.
+White TE, Shinseki EK. A Statement on the Posture of the United States Army 2002. Presented to The Committees
+and Subcommittees of the United States Senate and the House of Representatives, Second Session, 107th Congress. February 2002.
+23.
+Gomez E, Poropatich R, Karinch MA, Zajtchuk J. Tertiary telemedicine support during global military humanitarian missions. Telemed J. 1996 Fall; 2(3):201–210.
+24.
+Roine R, Ohinmaa A, Hailey D. Assessing telemedicine: A systematic review of the literature. CMAJ.
+2001;165(6):765–771.
+25.
+Abbott KC, Mann S, DeWitt D, Sales LY, Kennedy S, Poropatich RK. Physician-to-physician consultation via
+electronic mail: The Walter Reed Army Medical Center ask a doc system. Mil Med. 2002 Mar;167(3):200–204.
+26.
+Miller TW, Kraus RF, Kaak O, Sprang R, Burton D. Telemedicine: A child psychiatry case report. Telemed J E
+Health. 2002;8(1):139–141.
+27.
+Psychiatry section. WRAMC telemedicine website. Available at: http://telemedicine.wramc.amedd.army.mil/
+ProjectDocs/R&D/Psychiatry/Index.htm. Accessed 9 July 2002.
+28.
+Captain Frances Stewart, USN. Personal Communication, 8 July 2002.
+29.
+Bowersox JC, Cordts PR, LaPorta AJ. Use of an intuitive telemanipulator system for remote trauma surgery: An
+experimental study. J Am Coll Surg. 1998;186(6):615–621.
+30.
+Marescaux J. Transatlantic robot-assisted telesurgery. Nature. 2001;413:379–380.
+31.
+Satava RM, Jones SB. Military applications of telemedicine and advanced medical technologies. AMEDD J. PB
+8-97-11/12 November/December1997:16–21.
+32.
+Lamiell JM. Paper read at the Texas National Doctor’s Day Program; 29 March 1996; Fort Hood, Tx.
+33.
+Jones FD. Sanctioned use of drugs in combat. In: Pichot P, Berner P, Wolf R, Thau K, eds. Psychiatry: The State of
+the Art. Vol 6. New York: Plenum; 1985: 489–494.
+A Look Toward the Future
+849
+34.
+Hall DP, Jansen JA. Stress and arousal in deployment of a combat support hospital. Mil Med. 1995;160(11):581–
+583.
+35.
+Goh VH, Tong TY, Lim CL, Low EC, Lee LK. Effects of one night of sleep deprivation on hormone profiles and
+performance efficiency. Mil Med. 2001;166(5):427–431.
+36.
+Grabenstein JD, Filby CL, Vauter RA, Harris TR, Wilson JP. Prescribed medication use among troops deploying
+to Somalia: Pharmacoepidemiologic analysis. Mil Med. 1995;160(11):571–577.
+37.
+Casagrande M, Ferrara M, Curcio G, Porcu S. Assessing nighttime vigilance through a three-letter cancellation
+task (3-LCT): Effects of daytime sleep with temazepam or placebo. Physiol Behav. 1999;68(1-2):251–256.
+38.
+Rada RT. Psychosurgery and the psychiatric implications of the Kaimowitz case. Bull Am Acad Psychiatry Law.
+1974;2(2):96–100.
+39.
+Rosenberg E, Caine Y. Survey of Israeli Air Force line commander support for fatigue prevention initiatives.
+Aviat Space Environ Med. 2001;72(4):352–356.
+40.
+Emonson DL, Vanderbeek RD. The use of amphetamines in US Air Force tactical operations during Desert
+Shield and Storm. Aviat Space Environ Med. 1995;66(3):260–263.
+41.
+Caldwell JA, Caldwell JL, Crowley JS, Jones HD. Sustaining helicopter pilot performance with Dexedrine during periods of sleep deprivation. Aviat Space Environ Med. 1995;66(10):930–937.
+42.
+Lyons TJ, French J. Modafinil: The unique properties of a new stimulant. Aviat Space Environ Med. 1991;62(5):432–
+435.
+43.
+Batejat DM, Lagarde DP. Naps and modafinil as countermeasures for the effects of sleep deprivation on cognitive performance. Aviat Space Environ Med. 1999;70(5):493–498.
+44.
+Sicard B, Jouve E, Blin O. Risk propensity assessment in military special operations. Mil Med. 2001;166(10):871–
+874.
+45.
+Jones FD, Johnson AW. Medical and psychiatric treatment policy and practice in Vietnam. J Soc Issues.
+1975;31(4):49–65.
+46.
+Ritchie EC. Psychiatric medications for deployment. Mil Med. 1994;159(10):647–649.
+47.
+Patel JB, Ciofalo VB, Iorio LC. Benzodiazepine blockage of passive-avoidance task in mice: A state-dependent
+phenomenon. Psychopharmacology. 1979;61(1):25–28.
+48.
+Gabriel RA. No More Heroes: Madness and Psychiatry in War. New York: Hill and Wang; 1987.
+49.
+Nardi C, Lichtenberg P, Kaplan Z. Adjustment disorder of conscripts as a military phobia. Mil Med.
+1994;159(9):612–616.
+50.
+Schmidt NB, Staab JP, Trakowski JH, Sammons M. Efficacy of a brief psychosocial treatment for panic disorder
+in an active duty sample: Implications for military readiness. Mil Med. 1997;162(2):123–129.
+51.
+Dobie TG, May JG. Cognitive-behavioral management of motion sickness. Aviat Space Environ Med. 1994;65(10,Pt
+2):C1–C2.
+52.
+Safar P. Suspended Animation: Novel Approaches to Cerebral Resuscitation. Safar Center for Resuscitation
+Research. Available at: http://www.safar.pitt.edu. Accessed 1 June 2002.
+53.
+The NIV Study Bible: New International Version. Grand Rapids: Zondervan Bible Publishers; 1985.
+Military Medical Ethics, Volume 2
+850
+54.
+Bellamy RF. The causes of death in conventional land warfare: Implications for combat casualty care research.
+Mil Med. 1984;149:55–62.
+55.
+Bellamy R, Safar P, Tisherman SA, et al. Suspended animation for delayed resuscitation. Crit Care Med.
+1996;24(2):S24–S47.
+56.
+Bellamy RF. The medical effects of conventional weapons. World J Surg. 1992;16(5):888–892.
+57.
+Department of Military and Emergency Medicine. Evaluation of Wound Data and Munitions Effectiveness Study in
+Vietnam. Final Report. Vols I, III. Bethesda, Md: Uniformed Services University of the Health Sciences; 1970.
+58.
+Jennings RB, Reimer KA, Steenbergen C. Complete global myocardial ischemia in dogs. Crit Care Med.
+1988;16(10):988–996.
+59.
+Alam H, Kim D, Hamilton I, Provido H, Kirkpatrick J. Does resuscitation produce a reperfusion injury? Am
+Surg. 1998;64(2):132–136.
+60.
+Shoemaker WC, Peitzman AB, Bellamy R, et al. Resuscitation from severe hemorrhage. Crit Care Med.
+1996;24(2):S12–S23.
+61.
+Behringer W, Prueckner S, Safar P, et al. Rapid induction of mild cerebral hypothermia by cold aortic flush
+achieves normal recovery in a dog outcome model with 20-minute exsanguination cardiac arrest. Acad Emerg
+Med. 2000;7(12):1341–1348.
+62.
+Holzer M. Mild therapeutic hypothermia to improve the neurologic outcome after cardiac arrest. N Engl J Med.
+2002;346(8):549–556.
+63.
+Bernard SA, Gray TW, Buist MD, et al. Treatment of comatose survivors of out-of-hospital cardiac arrest with
+induced hypothermia. N Engl J Med. 2002;346(8):557–563.
+64.
+Safar PJ, Kochanek PM. Therapeutic hypothermia after cardiac arrest. N Engl J Med. 2002;346(8):612–613.
+65.
+Behringer W, Safar P, Nozari A, et al. Intact survival of 120 min cardiac arrest at 10°C in dogs: Cerebral preservation by cold aortic flush. Crit Care Med. 2001;29(12):SupplA71.
+66.
+Code of Federal Regulations. Title 21. Food and Drugs. Subpart B. Informed consent of Human Subjects. Section 50. 24 Exception from informed consent requirements for emergency research. Approved 2 October 1996.
+Revised 1 April 2000.
+67.
+Trials of War Criminals before the Nuremberg Military Tribunals under Control Council Law No. 10. Vol. 2. Washington, DC: US Government Printing Office; 1949: 181–182. Available at: http://ohsr.od.nih/nuremberg.php3.
+Accessed 30 November 2001.
+68.
+Dimmitt BS. Medical front lines. Retired Officer. November 2001:62–70.
+69.
+Advanced Biomedical Technologies (Diagnostics). Available at: http://www.darpa.mil/dso/trans/pdf/
+Abmt2.pdf. Accessed 2 July 2002.

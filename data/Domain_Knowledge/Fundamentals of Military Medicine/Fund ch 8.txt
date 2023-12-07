@@ -1,0 +1,1539 @@
+123
+The Medical Officer on the Commander’s Staff
+Chapter 8
+THE MEDICAL OFFICER ON THE 
+COMMANDER’S STAFF
+JUSTIN WOODSON, MD, MPH,* and SAMUAL SAUER, MD, MPH†
+INTRODUCTION
+THE STAFF OFFICER
+THE COMMANDER
+CHARACTERISTICS OF AN EFFECTIVE STAFF OFFICER
+DUTIES OF THE COMMAND SURGEON
+DUALITY OF THE MEDICAL OFFICER
+THE COMMANDER’S EXPECTATIONS OF THE MEDICAL OFFICER
+SUMMARY
+ATTACHMENTS
+*Colonel, Medical Corps, US Army; Associate Professor, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+†Colonel (Retired), Medical Corps, US Army
+124
+Fundamentals of Military Medicine
+INTRODUCTION
+The quintessential feature of competent military 
+medical officers is successful integration of their medical leadership within the military line unit. This is crucial for all types of organization, whether it is the air 
+squadron, ship’s company, or ground battalion. Early 
+in the rise of the modern military, medicine struggled 
+with its contextual role in operational units. Military 
+surgeons paved the way in the Napoleonic Wars, and 
+later the Continental military strived to establish the 
+structure and function of the medical elements delivering care to the warfighter. 
+A Civil War era ambrotype of Major Jonathan 
+Letterman (Figure 8-1) demonstrated the successful integration of the command surgeon within his 
+unit. As the Army of the Potomac’s lead surgeon, 
+he stands with General McClellan as he addresses 
+President Lincoln during a briefing on the battlefield 
+at Antietam. Major Letterman’s efforts in overhauling the medical services in the Army of the Potomac 
+at this key turning point in the war, stand out as 
+a benchmark in the evolution of modern military 
+medicine. It was Major Letterman’s service as an advisor, innovator, and medical planner that solidified 
+the importance of the medical officer in successful 
+military operations. Not only was this command–
+staff relationship an intimate one, but it was one of 
+practical importance. Major Letterman understood 
+that in order to be successful in a staff function, he 
+had to garner the support of his commander. With 
+that support, he was able to write medical capability 
+requirements into orders and keep the force ready 
+and prepared to serve effectively in battle. He understood that integration of the medical plan with the 
+battle plan from the very beginning was crucial for 
+mission success. Major Letterman’s efforts marked 
+the beginning of modern military medicine, in which 
+a command surgeon is appointed at every level. 1,2 
+Modern medical officers must understand the role 
+of the command surgeon and its relevance to the 
+unit’s mission. Incoming medical officers should 
+embrace this role when arriving to a new unit to gain 
+the respect and confidence of the commander and 
+the members of the unit whose health is ultimately 
+entrusted to their care.
+THE STAFF OFFICER
+The first task is to understand the structure and 
+function of the command team. Junior medical officers will plug into the commander’s staff and be one 
+of many staff officers. While focusing within a single 
+lane of expertise, staff officers work together to enable 
+the unit to complete the mission successfully. Military 
+staffs are generally organized across predictable lines 
+(Figure 8-2). There are many commonalities that are 
+true across all units in the military, regardless of service 
+or branch. However, the unit’s mission requirements 
+or capability may require specific variations to meet 
+these needs. 
+Effective execution of the military unit commander’s mission requires complex and diligent coordination of direct line functions and support activities. 
+While the commander directly controls maneuver 
+elements to execute an assigned mission, he or she 
+cannot function without combat support and combat 
+service support functions. The commander is provided 
+with a number of officers and noncommissioned officers (NCOs) to coordinate these functions and to 
+prepare the unit for the mission. This personnel group 
+is referred to as the “command staff.” While the commander is responsible for what the unit accomplishes 
+and fails to accomplish, he is highly dependent on the 
+staff to provide sound recommendations. Without a 
+staff, the commander would quickly be overwhelmed 
+and be rendered ineffective by the minute details in the 
+execution of the mission. 3 The staff support the commander’s decision-making process by understanding 
+his intent, understanding the operational environment, 
+and using that information to formulate recommendations, implement the commander’s intent, and direct 
+the unit under the commander’s supervision. Each staff 
+officer and their team has the primary task of advising 
+the commander in their own technical functional areas. 
+Most commonly, staff officers will be delegated decision-making authority along their lines of expertise. 
+This delegation of authority frees commanders from 
+the burden of routine decisions while allowing them 
+to maintain focus on critical tasks. The commander’s 
+staff is divided into basic groups as follows:
+ 
+• coordinating staff
+ 
+• special staff
+ 
+• personal staff
+The Coordinating Staff
+The coordinating staff is the commander’s principal 
+group of advisors who advise, plan, and coordinate 
+actions for the unit. Standard from unit to unit, across 
+military services, and in the joint operational environment, they address common functions required by 
+nearly all types of units. While they may have different 
+names, the functions remain similar. This structure al125
+The Medical Officer on the Commander’s Staff
+Figure 8-1. Jonathan Letterman with General McClellan and the president at Antietam. Photograph by Gardner A. 
+Reproduced from Library of Congress Digital Collections. LC-DIG-cwpb-04352. https://www.loc.gov/item/2018666256/. 
+Accessed November 21, 2018.
+Figure 8-2. The general commander’s staff structure typically includes personal, coordinating, and special staff. This 
+structure may be modified to fit specific missions or units.
+lows a predictable division of labor in functional areas, 
+which has been tested over time. The staff can then efficiently address the normal decision points and informational lines encountered during routine operations. 
+This structure also supports the training of personnel 
+to enable appropriate expertise and experience within 
+specific functional areas. Table 8-1 shows the typical 
+coordinating staff groups and their functions. They are 
+part of the larger staff group, which includes personal 
+and special staff groups (see Figure 8-2).
+Functional areas and corresponding staff offices are 
+relatively standard across units and military services, 
+but can be tailored to the individual unit’s needs. 
+Standard staff sections include Personnel (S-1), Intelligence (S-2), Operations (S-3), Logistics (S-4), Plans 
+and Civil Affairs (S-5), and Communications (S-6). A 
+principal officer is routinely assigned as the chief of 
+each section, which consists of a robust team to aid in 
+accomplishing assigned and identified tasks within 
+that functional area. Sections do not work in isolation 
+and in order for the unit to be successful, they must 
+constantly communicate with each other both informally and in scheduled staff meetings. 
+The Special Staff
+While the coordinating staff group covers the necessary functions to address unit plans and operations, 
+there are often required specialized technical functions 
+that may be assigned to a unit. For example, there may 
+be a need to address air operations and coordination 
+with aviation authorities for the area of operations. 
+In this case, a separate special staff section is established as the air liaison officer section. It functions as 
+a separate staff group, normally headed by an aviator 
+who understands the intricacies of air operations. The 
+nature of the mission dictates the unique structure of 
+each individual unit’s staff. There is no specific array 
+of special staff officers that may be present in any 
+given unit, however a surgeon and a medical section 
+are almost universally authorized depending on the 
+level of command. 3 Additional special staff groups may 
+include safety, transportation, chemical, fire support, 
+liaisons, and many others. 
+126
+Fundamentals of Military Medicine
+TABLE 8-1
+STANDARD COORDINATING STAFF GROUP FUNCTIONS
+Designation*
+Title
+Function
+G1 (S1)
+Personnel
+Addresses all matters concerning human resources both military and civilian 
+including manning, personnel services, personal support, and headquarters 
+management.
+G2 (S2)
+Intelligence
+Gathers and analyzes information on enemy, terrain, weather, and civilian 
+considerations.
+G3 (S3)
+Operations
+Coordinates movement and maneuver war fighting functions for the unit. 
+Also oversees training, plans, and force development.
+G4 (S4)
+Logistics
+Oversees sustainment plans and operations, supply, maintenance, transportation, services, and operational contracts.
+G5 (S5)
+Plans/future operations
+Oversees operations beyond the scope of the current order. This section often 
+works in conjunction with G3 (S3).
+G6 (S6)
+Signal/communications
+Oversees all matters concerning radio and network operations, information 
+services, and spectrum management within the unit’s area of operations.
+*The commander’s staff is designated as “G staff” if commanded by a general or flag officer and as “S staff” if commanded by a lower ranking officer. Additional coordinating staff sections may be assigned based on the type of unit and level of command.
+Source: US Department of the Army. Mission Command: Command and Control of Army Forces. Washington DC: DA; 2003. Field Manual 6-0.
+The function of special staff officers is to coordinate 
+and often assume direct responsibility for their specific 
+technical functions. In most cases, special staff officers 
+will be the only members of the unit with the requisite knowledge or skill set to direct operations in that 
+specific functional area or to advise the commander 
+on decisions within that arena. Special staff officers 
+will normally be granted a wide berth of freedom to 
+operate within their lane of expertise, as long as they 
+maintain the trust of the unit and of the commander. 
+Accordingly, the commander may frequently delegate 
+limited decision-making authority to special staff officers within their own lane, assuming that they closely 
+follow guidance from the command team. Special staff 
+officers routinely coordinate with multiple coordinating staff officers and their functions typically cross lines 
+among core functions such as operations, intelligence, 
+and logistics. Special staff officers normally report to 
+the commander indirectly through one of the coordinating staff officers or through the executive officer 
+(XO) or deputy commander.
+The Personal Staff
+The third staff group bears special consideration. 
+The personal staff have a unique relationship with 
+the commander and work under his or her immediate control. While many personal staff officers have 
+additional special staff functions, they are placed in 
+a position of intimacy with the commander that is 
+established and protected by law and regulation. This 
+gives them a direct line to the commander and allows 
+them to advise the commander directly on potentially 
+sensitive issues without involving the remainder of 
+the coordinating and special staff or subordinate 
+commanders. This relationship provides a degree of 
+confidentiality and a conduit for critical information 
+that in many cases may affect the overall morale of the 
+unit. In other cases, it offers a mechanism by which the 
+commander can solve personal and private problems 
+with individual members of the unit or interactions 
+outside of the unit. 
+The unit surgeon is an example of a personal staff 
+officer who has both a special staff responsibility 
+and also the privilege of a personal staff relationship 
+with the commander. This relationship offers an 
+opportunity to address health concerns within the 
+unit without violating the confidentiality of patients. 
+Other examples of personal staff include the senior 
+enlisted advisor, the chaplain (responsible for the religious support within the unit), and the safety officer 
+(oversees safety programs within the command). The 
+commander places special trust in his personal staff 
+officers as they are in unique positions to enhance 
+his situational awareness about the well-being of his 
+service members.
+127
+The Medical Officer on the Commander’s Staff
+THE COMMANDER
+To truly understand the role of the military staff 
+officer, the reader must also understand the unique 
+role of the commander. Legal and binding guidance 
+provided by the Uniform Code of Military Justice 
+(UCMJ) is unique to military service. 4 The commander’s authority is derived from the UCMJ. 5,6 The 
+commander is charged with a tremendous amount 
+of responsibility that accompanies this authority 
+and is enforced by law. A military medical officer 
+must understand the difference between command 
+authority and general military authority to function 
+effectively. 
+Command Authority
+Command authority derives ultimately from the 
+Constitution, is codified in 10 USC §1644 and the 
+UCMJ, and begins with the president as commander 
+in chief (or National Command Authority). 6,7 Commanders are appointed to specific organizations 
+that are designated as commands and are given 
+command authority within that organization. Staff 
+officers operate under the direction of the commander and on behalf of the commander. They 
+serve as an extension of command authority, which 
+is inherent in the decisions and work performed by 
+the staff. Inherent command authority is present in 
+all military leadership assignments by virtue of the 
+leaders being placed in a position with subordinate 
+units or service members. Command authority establishes the commander as the sole authority under 
+the UCMJ for legal and disciplinary actions under 
+military law. This is the basis for the importance 
+of the commander’s guidance. Every action, every 
+decision, and every plan made by a staff officer must 
+take into account the commander’s guidance, as 
+ultimately it is the commander who is responsible 
+for those decisions or actions.
+General Military Authority
+General military authority also derives from the 
+Constitution, 10 USC §1644 and the UCMJ, and begins 
+with the president as commander in chief (or National 
+Command Authority). 6,7 General military authority 
+is authority extended to all service members to take 
+action and act in the absence of a unit leader or other 
+designated authority. It derives from oaths of office, 
+federal law, rank structure, traditions, and regulations. 
+This authority is delegated to officers and NCOs to 
+preserve good order and discipline.
+Command Responsibility
+The commander cannot delegate responsibility 
+that is inherent in his command, but rather remains 
+responsible for everything that the staff does or fails 
+to do. 3 Moreover, the commander is also responsible 
+for everything that the unit does and everything the 
+unit fails to do. 8 There are myriad statutory and regulatory requirements imposed upon the commander, 
+who is legally (and morally) required to demonstrate 
+integrity, disciplined performance, professional competence, and exemplary conduct. 9 The commander is 
+responsible for training and equipping the unit and for 
+ensuring its readiness for the mission. The commander 
+is responsible for establishing an effective command 
+climate and for attending to the professional development of the members of the command. The take-home 
+message is simply to understand that while commanders do carry the absolute authority within the unit, 
+there is seemingly no limit to their responsibilities. 
+It should be clear that the military medical officer’s 
+role is to make the best possible recommendations in 
+support of the commander’s decisions and to provide 
+the best possible support for the members of the unit 
+within the medical functional area. Doing so requires 
+a thorough understanding of the commander’s intent, 
+consistent communication with the commander, and 
+diligence to the medical officer’s responsibilities as a 
+special and personal staff officer.
+Technical Authority
+While not often clearly delineated in Department 
+of Defense documents and regulations, technical 
+authority is a form of delegated command authority; 
+dependent and intertwined with a command surgeon’s personal licensure. Medical officer technical 
+authority is derived from the aggregation of federal 
+and state law, rules, regulations, other jurisprudence, and policies contributing to the sub-allocation 
+and subdivision of powers that delegate physicians 
+the legitimacy to lawfully control and deliver healthcare within the Department of Defense. It recognizes 
+the command surgeon’s special competencies of 
+accumulated knowledge, skills, attributes, and formal education in medicine. Accordingly, technical 
+authority provides the commander, through the 
+command surgeon, the legal authority to clinically 
+supervise subordinate physicians, advanced practice 
+providers, and para-professional medical personnel. 
+When assigned as a command surgeon, the medical 
+128
+Fundamentals of Military Medicine
+officer becomes accountable for the technical control of all medical activities in the command and 
+is responsible for coordinating healthcare efforts 
+between the command and other medical organizations. These duties include the approval, training, 
+and supervision of all patient care activities as well 
+as establishment and enforcement of the standard 
+of care within the unit, and the critical component 
+of establishing and maintaining quality and safety 
+assurance programs.
+CHARACTERISTICS OF AN EFFECTIVE STAFF OFFICER
+Experience as a staff officer and service in a military 
+unit is a core competency for all military officers. Good 
+staff officers have great influence on success of the 
+mission, as commanders cannot effectively run their 
+units without them. Serving on a command staff is both 
+exhilarating and highly satisfying. Without minimizing the importance and impact of direct one-on-one 
+patient care, there is a unique opportunity in the unit 
+to influence the health of our warfighters on a larger 
+scale through effective mission planning and program 
+management within the unit. Effectively integrating 
+with the staff is vitally important for success in executing the medical mission within the unit. 
+Field Manual 6-0, Commander and Staff Organization and Operations, identifies several routinely recognized and common characteristics found in effective 
+staff officers, such as the following10:
+ 
+• competence
+ 
+• initiative
+ 
+• creativity
+ 
+• flexibility
+ 
+• confidence
+ 
+• loyalty
+ 
+• team player
+ 
+• effective manager
+ 
+• effective communicator
+Striving to incorporate these into a personalized 
+approach to the job will assist team integration and 
+provide added value to the mission.
+Good staff officers will also avoid certain attitudes 
+and behaviors that can undermine their effectiveness or cause outright failure. According to US Army 
+Captain Nate Stratton, there are several ways a staff 
+officer can fail11:
+ 
+• Forget that you’re still a leader.
+ 
+• Treat subordinate units as the enemy.
+ 
+• Treat higher headquarters as the enemy.
+ 
+• Don’t take the time to get to know your organization.
+ 
+• Undermine the Headquarters and Headquarters Company (HHC) chain of command.
+ 
+• Hide behind your desk (where it’s not raining).
+ 
+• Get fat.
+Competence
+First and foremost, staff officers must be competent 
+within their area of expertise and also within the context of military operations. Skills related to service as a 
+staff officer are particularly important. The command 
+surgeon is assumed to be a good doctor, but must also 
+provide value as a good staff officer.
+New medical officers should understand that 
+they are joining a team of professionals who may 
+have upwards of 15 years’ experience as military 
+leaders. Those professionals have trained and have 
+often previously served as staff officers at a variety of 
+command levels and in a variety of missions. Many 
+have operated in complex, challenging, and demanding environments. They are well aware of military 
+operations and are well versed on the methods of 
+staff functions and unit operations. As a member of 
+this team, the medical officer is expected to perform 
+at the same level of competence and can rely on his 
+or her fellow staff officers as effective mentors. This 
+competence extends well beyond clinical medicine 
+and direct patient care. 
+Military medical officers must begin with an understanding of the operational environment, the unit 
+mission, and the way it operates. Beyond understanding the latest diagnosis and treatment for a medical 
+condition, they should also understand the relevant 
+regulatory guidance for the disposition of a soldier 
+with that condition. Medical officers must make 
+informed and consistent recommendations to help 
+commanders decide if a service member can deploy, 
+train, or go to war. These recommendations will affect 
+the careers of individuals and the unit’s readiness for 
+combat. Medical officers must know the reporting 
+requirements for a condition and its impact on the 
+mission. Additionally, they would be expected to have 
+appropriate medical supplies and pharmaceuticals on 
+hand to manage the condition within the aid station if 
+possible, to avoid unnecessary evacuations to higher 
+roles of care. 
+Applying medical skills and knowledge to the mission is an art form that requires development of individual staff officer skills. The ability to integrate military operational awareness with clinical knowledge 
+is a hallmark of the competent medical staff officer.
+129
+The Medical Officer on the Commander’s Staff
+Help the Commander “See” the Battlefield
+Recall that the primary role of the staff officer is to 
+continually provide information to the commander in 
+order to help him visualize his operational environment. The effective staff officer serves as a conduit of 
+information, channeling observations from the subordinate commands and the environment outside the 
+unit to the commander to influence the decisions of 
+the command team appropriately. This requires that 
+the staff officer is informed on policy and regulations 
+within his area of expertise and remains up-to-date 
+on the latest developments outside of the command, 
+particularly at the next higher levels of command. This 
+also implies that the staff officer has positioned himself 
+to be able to “see” outside the command throughout 
+the area of operations. Specifically, the command 
+surgeon must be aware of medical threats in the area 
+of operations.
+Understanding the recognition, treatment, and 
+prevention of diseases and environmental or occupational threats prevalent within the area of operations 
+is critical. Translating that understanding into effective 
+prevention strategies will help ensure that the unit 
+remains combat effective. Maintaining awareness of 
+the medical status of members of the unit is also part 
+of ongoing analysis. The effective medical staff officer 
+will have established a regular forum for communication to the commander and key staff members. It is the 
+staff officer’s job to interpret development of medical 
+events, to develop alternative courses of action, and 
+ultimately to implement a plan to address these threats 
+with the commander’s guidance in mind.
+Initiative 
+ 
+Historical analysis relates different opinions about 
+the role of the staff officer, such as those found in the 
+works of Jomini12 and Clausewitz. 13 Jomini served in 
+the French Army under Napoleon and Clausewitz 
+served in the Prussian Army under Frederick and their 
+writing reveals an enlightening discussion on the role 
+of the staff officer. Inherent in these writings is a difference of opinion about the degree of freedom and 
+initiative that subordinate staff officers should have. 
+The Prussian staff officer was often handicapped 
+by a lack of authority to make independent decisions 
+without the commander’s direct involvement. In 
+contrast, modern US military doctrine has adopted a 
+model more consistent with the Napoleonic (French) 
+model, which allowed freedom for the staff officers to 
+make independent decisions based on the guidance 
+of a superior commander. The staff officer should 
+anticipate the commander’s needs and do the analysis 
+before being asked to do so. 3 Taking the initiative to 
+recognize problems and develop courses of action is a 
+highly valued characteristic of the staff officer today. 
+Many analysts attribute the success of the US military 
+largely to this characteristic, which derives from delegated authority. 
+In military medicine, the awareness of the medical threats is often limited to the command surgeon 
+who must take initiative to address these problems 
+before they come to the attention of the command. The 
+implication is that the effective command surgeon is 
+forward leaning, constantly observing his or her unit, 
+and anticipating opportunities to improve the medical 
+readiness of his or her warfighters. More importantly, 
+the command surgeon must be willing to make a 
+decision that will favorably impact the health of the 
+command without violating the commander’s intent.
+Creativity and Creative Thinking
+In addition to contributing to a common operational 
+picture, it is the commander’s staff’s job to solve the 
+problems encountered by the unit. The individual officer who enjoys the challenge of solving problems will 
+be well suited for this job because military operations 
+are prone to presenting unique problems. “As critical thinkers, staff officers discern truth in situations 
+where direct observation is insufficient, impossible, 
+or impractical.”3 Given the reality of military operations and resource limitations, the staff officer is often 
+faced with the challenge of creating the “impossible 
+solution” which can only come with creative, out-ofthe-box thinking. 
+Medical planners should develop problem solving 
+capability by playing games, participating in simulations, and attending courses and military training that 
+take them out of their comfort zone and expose them to 
+solving problems outside of medicine. It should also be 
+noted that physicians have the potential to make particularly good staff officers because, inherent in their 
+training is an ability to diagnose and solve problems. 
+This includes formal education and demonstrable 
+competency in the scientific method which relies on 
+the systematic observation, measurement, formulation, and testing of solutions to solve problems. The 
+difference is that while most medical problems are 
+algorithmic in nature, most military problems are not. 
+Accordingly, their solutions will require true creativity. 
+Flexibility
+There is no greater truth than the reality that military 
+operations are defined by ambiguity. Constantly changing situations require staff officers to maintain consis130
+Fundamentals of Military Medicine
+tently adaptable minds. Plans serve as starting points; 
+however, changes in the situation must be addressed. 
+Unfortunately, it is quite common for the medical officer to develop a plan to address a particular problem 
+within the unit and fail to recognize the need to change 
+course midstream as the plan begins to fall apart. 
+Effective medical staff officers will be required to 
+manage a high degree of simultaneous workflows and 
+must maintain the flexibility not only to change plans, 
+but also to readjust priorities as the situation evolves. 
+This does not mean that they should not commit to 
+a plan, but rather that they must maintain enough 
+situational awareness to recognize that assumptions 
+regarding a specific plan may well have changed in 
+such a way as to invalidate that plan altogether. 
+Remaining married to a failing plan is a certain 
+way to fail. Communicating those critical points when 
+plans must change to the commander and other key 
+staff is an important part of contributing to a flexible 
+command staff. Plans must be nurtured to fruition with 
+vigilance and purposeful engagement. 
+Confidence
+Staff officers must remain confident in their skills 
+and contributions to the mission. The task is to continually develop creative plans. They must, however, 
+remember that they do not operate in a vacuum. Other 
+creative officers also develop creative plans. Frequently 
+the medical officer’s ideas will not be incorporated 
+into the final plan. The task within the planning cell 
+is not to “win” by having a particular plan selected, 
+but to participate in developing a comprehensive and 
+functional plan. Even in those times when recommendations are declined or disregarded, staff officers must 
+stay confident and continue recognizing problems 
+and providing recommendations for their solutions. 
+Confidence derives from competence which engenders 
+credibility.
+Effective staff officers know their lane, know their 
+staff responsibilities, and maintain a committed effort 
+towards the mission even when in the minority, or 
+knowing that their recommendations are unlikely to be 
+accepted. Doing the “right thing” requires confidence 
+and discipline. 
+Loyalty to the Team
+One of the main challenges for new medical officers 
+coming into a command staff for the first time is to 
+understand the structure of the team and their role 
+on the team. This isn’t quite as simple as it seems, 
+and physicians must recognize that there is a distinct 
+departure from their original environments. Within 
+the medical treatment facility, the center of operations 
+revolves around the patient. Physicians and their input into diagnosis and treatment decisions are center 
+stage. Within the military unit, the center of operations revolves around the mission and focuses on the 
+subordinate maneuver units (eg, the companies within 
+a battalion). 
+Medical staff officers serve in a support role whose 
+primary job is to make life easier for the subordinate 
+units and for the commander. Attachment 8-1 provides 
+a real-world example that illustrates this important 
+point. They are one of many staff officers who must 
+all have a similar outlook on the job. Medical officers 
+should endeavor to garner the trust of their fellow staff 
+officers in order to enable effective collaboration. To this 
+end, it is important to engage in training and planning 
+meetings, routinely communicate with the other staff 
+sections (which requires conscious effort), and socialize with them in order to get to know them and fully 
+integrate into the team. Mastery in understanding the 
+differences between operating in supported versus supporting assignment is key to operational integration.
+Management
+Staff officers are both leaders and managers. Leadership is defined as “influencing people by providing 
+purpose, direction, and motivation. It is the sum of 
+the qualities of intellect, human understanding, moral 
+character to enhance the motivations, cognitions, and 
+behaviors of individuals and groups to accomplish the 
+assigned mission.”14,15
+In contrast, management consists of “controlling 
+a group or a set of entities to accomplish a goal.”16 
+Inherent to staff work is the management of specific 
+programs and initiatives within the mission. Staff officers must effectively monitor and control the programs 
+in their functional areas. Administrative overhead is 
+inherent in the management of a battalion, squadron, 
+or other military unit and the management responsibility falls directly on the shoulders of the staff officers 
+within that unit.
+Despite the need to manage within the unit, staff 
+officers cannot forget that they are leaders above all 
+else. The staff’s primary function is to provide direction to unit members, incorporating the commander’s 
+guidance. While the staff may assist, it is ultimately the 
+commander’s responsibility to inspire and motivate. 
+The commander cannot do so effectively without an 
+effective staff.
+Speak the Language of the Staff Officer
+To be effective, the staff officer must be an effective 
+communicator. 3 Central to the work of the staff officer is intensive written and verbal communication. 
+131
+The Medical Officer on the Commander’s Staff
+Staff officers are expected to routinely brief not only 
+the commander and other senior leaders, but also the 
+unit, individual teams, and individual members of the 
+unit. Common types of briefings include the following: 
+ 
+• information briefings (to provide technical 
+knowledge), 
+ 
+• decision briefings (to provide information that 
+facilitates an answer or decision), and 
+ 
+• mission briefings (to provide detailed instructions and information regarding the conduct 
+and execution of a mission). 
+Medical officers should adopt the common language 
+of the staff officer in order to establish credibility and 
+ensure that communications are effective. Just as effective doctor-patient communication is key to building a therapeutic bond, a medical officer’s ability to 
+communicate effectively is key to success within the 
+command. It is the communicator’s responsibility to 
+adapt their style to ensure that the LISTENER heard 
+and understood the message as it was intended. Every 
+audience is different, and in military units listeners 
+may range from junior enlisted members to senior 
+officers. One thing they all have in common is a standard military vernacular, one which physicians are 
+often not accustomed to hearing. The new command 
+surgeon has a very powerful opportunity during his 
+or her first briefing to either gain or forfeit credibility 
+based on the language, style, and format of the briefing. Therefore, understanding the culture of the unit is 
+vitally important, and using the appropriate language 
+can make the difference between understanding and 
+confusion. 
+Another aspect of the communication challenge is 
+to understand that staff officers in a military unit are 
+accustomed to using specific tools during their planning process. Knowing and using them can greatly 
+facilitate transfer of information. Specifically, briefing 
+formats (Attachments 8-2 and 8-3) report structure, the 
+military decision-making process, military and technical terminology, and other accepted processes could 
+greatly streamline your collaborative efforts for the 
+accomplishment of the mission. Often specific formats 
+are prescribed for various reports and orders and can 
+be found in instructions, regulations, field manuals, 
+and joint publications. You should begin by simply 
+asking the question of your predecessors, mentors, 
+NCOs, or fellow staff officers for the normally accepted 
+formats, procedures, or tools for a given task. Fortunately, with Internet access, it is easy to find answers 
+and get links to the appropriate publications.
+Learning to use these tools effectively takes time 
+and focused effort, and is part of an individual’s 
+professional development as a military medical officer. The Uniformed Services University military 
+medical practice curriculum, professional military 
+education courses, and additional short military 
+courses in planning and staff work are available to 
+those who take the initiative to enhance their capacity 
+as a staff officer. The command surgeons’ capability 
+to ensure quality care is completely dependent on 
+their ability to communicate to the command and 
+the commander.
+DUTIES OF THE COMMAND SURGEON
+A command surgeon is designated at all levels of 
+command. Typically, that includes commands that 
+begin at the battalion or squadron level, and are normally commanded by an Army or Air Force Lieutenant Colonel or Navy Commander (O-5 grade) serving 
+hundreds of service members, and extends upwards to 
+those commanded by general or flag officers serving 
+thousands. The junior medical officer coming directly 
+out of graduate medical education may be assigned as 
+a battalion surgeon or squadron surgeon, or possibly 
+as a deputy surgeon in a larger higher level command. 
+This assignment will likely be exciting, but also intimidating as the new medical officer begins to grasp the 
+breadth of the job. Many are surprised by the number 
+of broad-based responsibilities accompanying the 
+position of command surgeon. Becoming proficient 
+across the full spectrum of responsibilities of the command surgeon position is paramount to success.
+The command surgeon will often directly lead a 
+team of medical personnel, which will range from 
+one or two NCOs or medics/corpsman and possibly a 
+physician assistant to a much larger medical platoon 
+that may include 30 to 40 personnel or more. Resources 
+may include combat medics/corpsmen, preventive 
+medicine NCOs or officers, medical service corps officers, nurses, medical practitioners, psychologists, 
+radiology technicians, or other specialty technicians 
+or providers depending upon the type of command. 
+One of the first tasks upon arriving to the unit is determining available personnel and equipment as well 
+as a general medical capability, which varies among 
+commands and locations. Establishing daily proprietorship of the medical officer’s direct report medical 
+personnel and equipment is paramount to mission 
+accomplishment. 
+New command surgeons should reach out to the 
+command before reporting in to the unit. He or she 
+should contact the commander and senior staff (eg, 
+the executive officer, to whom the command surgeon 
+will likely report), as well as the current or outgoing 
+132
+Fundamentals of Military Medicine
+command surgeon and medical section senior NCO. 
+This begins the process of integrating into a unit and 
+learning about the mission and resources. This conversation will also help to identify key issues ahead 
+of time and what knowledge or skills might be useful 
+to gain before going into the position. Making a good 
+first impression with the command team including 
+the senior enlisted advisor can go a long way towards 
+paving the path for success.
+The command surgeon is responsible for supervising and managing a wide array of functions and 
+services within the command, including the following: 
+ 
+• Advise the commander on the health of the 
+command.
+ 
+• Advise the commander on all aspects of medical interest in the area of operations (AO).
+ 
+• Oversee preventive medicine plans, programs, and recommendations to the commander. 
+ 
+• Develop the Health Service Support (HSS) 
+portion of operation plans (OPLANs) and 
+operation orders (OPORDs).
+ 
+• Deliver healthcare (treatment).
+ 
+• Synchronize HSS efforts with next higher 
+medical authority.
+ 
+• Task organize HSS personnel and units.
+ 
+• Evaluate medical epidemiological data and 
+develop recommendations for the commander.
+ 
+• Provide medical intelligence.
+ 
+• Oversee medical evacuation with air or 
+ground resources in coordination with aeromedical evacuation (AE) or medical evacuation (MEDEVAC) personnel.
+ 
+• Develop local medical policies as needed.
+ 
+• Interpret and implement medical policies 
+from higher organizations.
+ 
+• Supervise, plan, and execute within all medical functional areas.
+These medical functions generally apply to individual service and joint organizations, but are best 
+described in Army doctrine as Health Service Support 
+planning considerations,1 which provides the basis 
+for the command surgeon’s job description. While the 
+level of involvement in each functional area will vary 
+based on the level of command, it is incumbent on the 
+command surgeon to attend to these functional areas, 
+in many cases providing direct services and in other 
+cases simply integrating these considerations into the 
+planning process for the command. The unit’s mission will determine the requirements for the specific 
+situation.
+Clinical Capabilities and Medical Logistics 
+Support in the Unit
+The medical officer is responsible for providing 
+basic medical care for the members of the unit. Patient survival may often depend on availability of the 
+required supplies and equipment being co-located 
+with the patient at the time of need. It should be obvious that medical providers cannot function clinically 
+without equipment and medical supplies. This is described in the context of the health support planning 
+considerations as “clinical capabilities” and requires 
+a medical logistics (MEDLOG) support program. A 
+unique task within the unit is to ensure that there is 
+a steady resupply of medical supplies (class VIII) to 
+sustain the basic medical mission. There is typically 
+no dedicated logistics team taking care of this process 
+in small organizations. Often in the medical treatment 
+facility, medical officers become dependent on what 
+appears to be an invisible process working behind the 
+scene to keep the supply cabinets in the emergency 
+rooms, clinics, wards, or operating suites stocked 
+with the supplies and pharmaceuticals required in 
+the daily delivery of medical care. In the operational 
+environment, these supplies simply will not be available without the daily, routine attention of the medical 
+section to the MEDLOG function. 
+Preventive Medicine and Health Surveillance
+Through the landmark work of pioneering early 
+American patriot physicians John Morgan and Benjamin Rush,17 and 18th century British physicians 
+Richard Brocklesby18 and Sir John Pringle19 and later 
+reinforced by Dr Jonathan Letterman2 in the American 
+Civil War and others, we understand that a critical 
+component of successful military operations is maintaining the health of the force and control of disease 
+within the military camp. Accordingly, a significant 
+effort of the command surgeon is dedicated to preventive medicine and health surveillance. 
+Regulations require the commander of the unit to 
+ensure that his service members maintain medical 
+readiness in the form of periodic health assessments, 
+medical examinations, occupational surveillance, and 
+immunization programs. Responsibility for these requirements naturally falls to the command surgeon. 
+Attention to these programs can occupy a tremendous 
+amount of the command surgeon’s time, who should 
+expect to be asked to brief the commander on a regular 
+and on-demand basis regarding the medical readiness 
+status of the members of his unit. Failure to meet medical readiness standards could render the unit unqualified for deployment. Therefore, the commander will 
+133
+The Medical Officer on the Commander’s Staff
+place command emphasis on ensuring that all medical 
+requirements such as immunizations remain current. 
+And, while delivering the full spectrum of quality healthcare is paramount, particular attention and 
+diligent effort must be made to minimize or eliminate 
+medical, organizational, non-value-added barriers to 
+issues tracked by higher headquarters. Tracked issues 
+signal senior command emphasis, which is a surrogate 
+marker of system or organizational importance and 
+value, such as medical readiness. 
+The command surgeon should utilize the commander’s legal command authority by working 
+carefully with the coordinating staff to incorporate 
+immunizations and other medical readiness programs 
+into the unit’s training schedule on a regular basis to 
+ensure that members of the unit are up-to-date. The 
+command surgeon’s duty is to provide broad, open, 
+available, and flexible technical means to accomplish 
+medical readiness while the unit’s subordinate commanders are responsible for accepting this support. In 
+doing so, it inherently implies that the surgeon’s office 
+is adequately tracking readiness status. Fortunately, 
+well-established service-wide tools are available to 
+unit surgeons to facilitate tracking of medical readiness items.
+Clearly, medical readiness tracking is a critical task 
+for the medical officer (see Chapter 30). Command 
+surgeons should be familiar with and ensure that they 
+and their team have access to these systems including 
+the Medical Readiness Reporting System (MRRS) for the 
+Navy and Marine Corps, the Medical Protection System 
+(MEDPROS) for the Army, and Aeromedical Services 
+Information Management System (ASIMS) for the Air 
+Force. Additional information is available on the Military 
+Health System website at https://health.mil/MilitaryHealth-Topics/Health-Readiness/ImmunizationHealthcare/Immunization-Tracking-Systems.
+Prior to deployments and periodically, the medical 
+officer will be expected to conduct systematic reviews 
+of medical readiness status for the members of the unit. 
+One key nuance for the reader is the term systematic. 
+Often referred to as SRP (soldier readiness program) 
+or PDR (pre-deployment readiness) exercises, these 
+events provide an opportunity to close gaps in readiness but require planning and coordination with the 
+command and staff in order to execute effectively. 
+Members of the unit will be required to attend while 
+medical team personnel review medical records and 
+provide immunizations, hearing exams, eye exams, 
+dental exams, and other medical readiness items as 
+needed. While the medical elements of these programs 
+are dominant, coordination with the S1 (personnel) 
+shop will often include additional legal, financial, and 
+administrative readiness requirements in the process 
+as well. Projecting the timing of the SRP and coordinating with the S3 (operations) to place these events 
+on the training schedule will help to ensure their success and will ultimately save the command surgeon a 
+tremendous amount of frustration.
+Prevention of Stress Casualties
+Doctrine and current situation concerns require 
+mental health services to be provided within the 
+unit. New medical officers are often surprised by the 
+amount of attention required to care for unit members 
+and manage the program. In the operational environment, a combination of factors amplify the already 
+inherent behavioral health challenges that service 
+members carry with them. Some of these factors include the following: 
+ 
+• separation from home and family, 
+ 
+• the stress of the operational combat environment, 
+ 
+• long hours, and 
+ 
+• close living quarters and working environment. 
+The command surgeon is in a unique position, along 
+with the chaplain, to be available to address individual 
+and collective mental health problems within the unit. 
+Command surgeons are expected to have extensive 
+knowledge of behavioral health issues and act as the 
+conduit between command and external behavioral 
+health activities. Accordingly, wise medical officers 
+will seek to expand their behavioral health competencies as commanders will often turn to them to identify 
+morale issues, which may originate from individual 
+mental health conditions. Additionally, in the routine 
+course of healthcare delivery within the units, members 
+may confide in their surgeon regarding the emotional 
+challenges they are facing during the course of a deployment or long stint of training. Attentive medical 
+officers who recognize, diagnose, and treat mental 
+health disorders may be able to make the greatest impacts on individual soldiers by working closely with 
+the command and the chaplain in order to best support 
+affected individuals during difficult times. 
+Unfortunately, it is rare that medical training programs in residencies or medical schools adequately 
+prepare their graduates for psychiatric care. For this 
+reason, the curricula in programs that routinely prepare medical officers for operational assignments (eg, 
+the flight surgeon training programs in the Army, 
+Navy, and Air Force) include significant time addressing psychiatric disposition and management. It can be 
+very helpful if the medical officer thoroughly under134
+Fundamentals of Military Medicine
+stands the dynamics of interpersonal interactions that 
+are likely to result from various personality disorders 
+or psychiatric conditions and can recognize these if 
+they surface within the social dynamics of the unit. 
+When these situations arise, they can often be 
+disproportionately distracting from the mission and 
+medical officers may be the only member of the unit 
+with the background and training to understand the 
+factors contributing to these interpersonal issues. In the 
+role as a personal staff officer, medical officers must be 
+able to appropriately advise the commander in ways 
+that can minimize the distractions and de-escalate 
+situations before they become out of control.
+Medical officers can also anticipate the need to 
+manage routine combat stress reactions to operations 
+in the military environment and should be prepared 
+to provide immediate treatment and referral. At a 
+very minimum it will be incumbent upon the command surgeon to establish a coordinating relationship with combat stress control resources within the 
+area of operations in order to ensure that appropriate 
+services are available for members of the unit when 
+needed. 
+Medical Planning
+Another important role that command surgeons 
+play is as principal medical planner for the commander. While in some units command surgeons may 
+have the luxury of an assigned medical planner, this 
+is not a universally available asset. 
+The specific health support planning responsibilities of the command surgeon are numerous. Figure 
+8-3 shows functional areas that must be considered 
+during medical planning for operations. In the planner 
+role, medical officers will be expected to incorporate 
+functions such as medical intelligence and threat 
+analysis, patient movement, mass casualty planning, 
+and host nation support into operational planning. 
+Other planning and coordination may be required as 
+well, depending on the mission. Integrating these considerations into the operational plan from the earliest 
+phase is critical to mission success as has been observed 
+throughout history in military operations. 
+The Army Medical Department (AMEDD) in the 
+Continental Army during the American War for 
+Independence was born out of the recognition that 
+military mission success was in large part dependent 
+upon medical support. The fighting force needed to 
+understand that if they were injured, systems would 
+be in place to provide for their effective evacuation, 
+Figure 8-3. There are many functional areas comprising 
+health support that must be considered when planning a mission. Although not all functions are relevant for all missions 
+or at all levels of command, using this or a similar graphic 
+or checklist can help ensure nothing is missed.
+Figure 8-4. The joint operational planning process is used 
+in its entirety during deliberate planning, but may be modified by the commander for crisis action (time constrained) 
+planning. Staff sections work through this process using 
+commander’s guidance and available information products. 
+The ultimate goal is to produce an effective military plan or 
+order to accomplish the command’s mission. 
+Reproduced from: US Department of Defense. Joint Planning. Washington, DC: DOD; 2017. Joint Publication 5-0, 
+Figure V-1.
+135
+The Medical Officer on the Commander’s Staff
+treatment, and rehabilitation. A key contribution 
+of Dr Jonathan Letterman to military medicine was 
+his understanding that medical planning had to be 
+incorporated into the commander’s military orders 
+to ensure medical care was provided through every 
+phase of the operation on the battlefield. 
+In the modern military, every operation requires 
+a written or verbal order describing the details for 
+the execution of that mission. The command surgeon 
+is responsible for writing the medical annex to that 
+order, incorporating all of the relevant medical planning considerations. Medical planning and orders 
+production is an art form and skill which takes time to 
+acquire and is not adequately taught in most training 
+programs. During officer indoctrination programs, 
+pre-commissioning programs, military coursework, 
+and at the Uniformed Services University, officers 
+have the opportunity to learn details about the medical planning process and orders production, often 
+practicing medical planning in simulated exercises. 
+However, it is not until medical officers are assigned 
+to the operational unit and integrated into the medical 
+planning process that they discover the complexity and 
+criticality of military planning. 
+The Joint Planning Process and Military DecisionMaking Process (Figure 8-4) are described in publications such as Joint Publication 5-0, Joint Operation 
+Planning and Field Manual 6-0, Commander and Staff 
+Organization and Operations. These references are 
+valuable resources to have on hand when beginning 
+to integrate into the unit’s planning process. 
+Communicating Risk to the Commander
+By this point, many of the intricacies of the surgeon’s role as an advisor to the commander should be 
+clear (see Figure 22-5). Recall that the commander is responsible for all critical decisions in the unit. However, 
+the commander is only as good as the information he 
+or she is provided. Rarely, if ever, is a decision absolute 
+or a problem unambiguous. Frequently, command 
+decisions are complicated by the variety of adverse 
+outcomes possible based on the nature of the operation and specific branching pathways followed in the 
+decision tree. This is called risk and is defined as the 
+product of the probability of a bad outcome occurring 
+and the severity of the expected consequence. 20 
+Risk = Probability × Severity
+The commander is responsible for making the 
+difficult decisions inherent in planning for military 
+operations. This responsibility cannot be delegated. 
+However, it is the responsibility of the commander’s 
+staff to identify risk and to communicate it effectively 
+to the commander to enable him to make the best possible decision. Risk management is an art form and a 
+key component of basic staff work. The medical officer 
+should recognize that the vast majority of communications to the commander are based on identifying risk 
+associated with a given situation, quantifying that risk, 
+and presenting potential courses of action to mitigate 
+that risk (ie, risk controls). The commander should 
+never assume risk that may potentially imperil the 
+unit, its members, or its mission without being properly advised by his staff. 
+Thinking about regular communications with the 
+commander through a risk management framework 
+can help to clarify the correct approach to many problems. Most problems in the conduct of the medical 
+mission within the unit can be thought of as hazards 
+managed by risk controls that are supervised by the 
+commanders, their leaders, or medical personnel. By 
+communicating effectively to the commander, the 
+medical officer shares the burden of difficult decisions 
+not only with commander but also with the entire 
+staff. Collectively this type of collaboration serves to 
+improve the safety and efficiency of all operations 
+within the unit.
+DUALITY OF THE MEDICAL OFFICER
+After discussing the role and responsibilities of the 
+staff officer, and more specifically of the medical staff 
+officer or command surgeon, it should be evident that 
+there is a unique challenge faced by the medical officer 
+in the unit—that of duality—which can be represented 
+on several different levels.
+The Challenge of Maintaining Two Professions
+The medical officer must maintain proficiency both 
+as a medical provider and as an officer and leader. This 
+requires continuing education in professional military 
+skills and leadership as well as in medicine. Physicians 
+new to the military know the challenges of keeping 
+up with the medical literature, but now must add the 
+challenge of keeping up with current developments 
+in the political and military arena. Balancing these 
+requirements can be difficult. It is expected within 
+the unit that medical officers will be good physicians 
+and also good staff officers. Often the former comes 
+relatively easily, while the latter requires a fair amount 
+of effort for new medical officers. 
+New military medical officers often have an inherent belief that the primary function is to provide 
+136
+Fundamentals of Military Medicine
+clinical medical care, which is normal for work in a 
+medical treatment facility. A critical lesson is that in 
+a military unit, only a small fraction of time will be 
+dedicated to clinical medicine, with the remainder 
+of time dedicated to administrative, support, and 
+advisory tasks. New officers must demonstrate constant vigilance toward external agencies attempting 
+to control their time. Command surgeons should not 
+be utilized in other medical activities when full-time 
+application to the unit is necessary to ensure mission 
+accomplishment. These external organizations may 
+benefit from a professionally and cautiously delivered 
+reminder that command surgeons must support their 
+own commander first.
+Conflicts Between Loyalty to the Patient and to the 
+Commander
+The command surgeon may find himself in a position of conflict between his loyalty to the commander 
+and his inherent loyalty to his patients. Chaplains 
+may also face this dilemma in their normal daily activities. In both the medical and spiritual or mental 
+health encounter with an individual member of the 
+unit, a protected relationship is established that is 
+recognized by common and specific law. Physicians 
+enjoy this confidential patient–doctor relationship 
+with anyone with whom they initiate a medical encounter. This confidentiality serves to create a space 
+in which a patient can trust the physician in a unique 
+way. It may lead to the disclosure of very personal 
+information during the routine course of medical 
+care delivery. 
+It is important to remember that confidentiality is 
+not a privilege, and that there are occasions where the 
+patient’s privacy comes into conflict with the public 
+good and the physician must report to appropriate 
+authorities. In the context of the military unit, this 
+means that the commander retains a legal authority to 
+access information which may impact the mission or 
+safety within the unit. The medical officer is therefore 
+obligated to disclose what may otherwise be protected 
+information to the commander, despite constraints 
+such as the Health Insurance Portability and Accountability Act (HIPAA) or general patient confidentiality 
+considerations.
+One common situation that may cause divided loyalty occurs when a member of the unit develops a new 
+diagnosis that is incompatible with continued service 
+in the military. Regulations require the initiation of 
+a process to evaluate that condition with the goal of 
+either reassigning, retraining, or separating that service 
+member from military service. This evaluation occurs 
+through a Medical Evaluation Board (MEB), Physical Evaluation Board (PEB), or military occupational 
+specialty (MOS)/Medical Retention Board (MMRB). In 
+such a case, the command surgeon will be caught in 
+the middle of competing interests. The surgeon must 
+protect the interests of the command (eg, reassigning 
+the service member in order to obtain a fully mission 
+capable replacement), as well as the interests of the 
+patient (eg, maintaining stability and employment 
+while the service member receives therapy), taking into 
+account the potential for long-term health compromising effects of continued military service. 
+The command will have substantial interest in the 
+progress of a service member’s treatment and disposition, particularly if their condition disqualifies them 
+from continued service. Such interest will create innumerable situations in which the confidentiality of the 
+patient–doctor relationship is violated, or at the very 
+minimum challenged. It often takes extreme diligence 
+on the part of the command surgeon to navigate this 
+type of situation while maintaining the mutual respect 
+and confidentiality of both command and patient. The 
+command surgeon is encouraged to approach these 
+challenges to communication in a methodical manner to facilitate the service member’s and command’s 
+understanding of the system’s yet to be recognized 
+but mutually beneficial outcomes to both parties. 
+Outcomes from this process may be simultaneously 
+disappointing but correct.
+The military physician in the role of command 
+surgeon has legal responsibility to the commander to 
+disclose information regarding the service member 
+patient, and to act on behalf of the commander to 
+expedite case processing. Under command authority, 
+the commander has the privilege to access medical 
+information regarding his or her service members’ 
+medical status even though he or she is not a medical 
+provider involved in the patient’s care. Understanding 
+this critical reality in advance can prevent the creation 
+of unnecessary ethical dilemmas in the process of 
+managing similar scenarios. Fortunately, the personal 
+staff officer role, as defined in the United States Code, 
+protects these communications with the commander. 
+Establishing an effective personal staff officer relationship with the commander will serve the medical officer 
+well in these situations.
+Other situations that place the command surgeon 
+into a difficult ethical dilemma may also arise. New 
+medical officers have most likely taken oaths to Hippocrates as a physician (Attachment 8-4), and to the 
+Constitution of the United States as an officer (Attachment 8-5). Managing these situations will require the 
+medical officer to call upon his training as a physician, 
+his understanding of his role as a staff officer, and his 
+best judgment in doing what is right.
+137
+The Medical Officer on the Commander’s Staff
+Line Versus Staff Functions of the Medical Officer
+Yet another aspect of the duality of the medical 
+officer exists within the inherent functions of the command surgeon role that maintains both “line” and 
+“staff” functions. Recall that the commander derives 
+his authority from the president, which is transferred 
+“down the line” to the current level commander and 
+on to the subordinate commanders. Often referred to 
+simply as “the line,” this function is directly involved 
+in the execution of the task for the organization and 
+illustrates the nature of military decision-making 
+authority. Only the commander has the authority 
+to direct actions within the unit. Similarly, clinical 
+medical care is delivered under the authority of the 
+medical officer’s medical license (not the commander’s 
+authority) and can be considered a “line” function. 
+This duality of the medical officer who maintains both 
+“staff” and “line” functions is unique to the medical 
+officer within the command. 
+The command surgeon has both advisory and 
+directive responsibilities hat are in many ways common to all staff officers. However, the sources of the 
+authority in the command surgeon office are exclusive 
+for each of the two functions. As licensed physicians, 
+command surgeons have the authority to direct medical care within the unit. As staff officers, they advise 
+the commander who retains the sole decision-making 
+and implementation authority. 21 The difficulty for the 
+command surgeon is to discern which hat he or she is 
+wearing during the conduct of daily business, and to 
+balance necessary medical authority against the commander’s command authority. This balance will shift 
+based on the level of command. As medical officers are 
+assigned to higher levels of command in their careers, 
+work will typically shift toward the staff function, with 
+less time and attention being given to primary healthcare. This also implies greater emphasis on leadership 
+as the level of command increases.
+The Technical Chain of Command
+Because the medical decision-making authority derives separately from the command authority, and due 
+to the technical nature of the myriad Health Service 
+Support functional areas previously discussed, it is 
+necessary within the context of a military unit for there 
+to be a separate technical supervisory process from 
+the chain of command (as is also necessary in other 
+technically oriented staff officers). As discussed earlier, 
+a surgeon is assigned at all levels of command. This 
+implies that the command surgeon will normally have 
+a senior surgeon assigned to the next higher level of 
+command, as well as having several subordinate medical elements at lower levels of command for which he 
+or she maintains a technical supervisory responsibility 
+(Figure 8-5). While the command surgeon reports to 
+and takes orders only from the commander, the senior 
+surgeon is a source for guidance, mentorship, and technical oversight. Similarly, the command surgeon will 
+endeavor to provide mentorship, training programs, 
+and clinical oversight to those junior medical officers 
+and non-commissioned officers in subordinate units. 
+This hierarchy of medical providers is referred to as 
+the “technical chain of command” and mirrors the 
+chain of command. On occasion, the technical chain 
+of command can place the medical officer in a position 
+of split loyalty or responsibility.
+In the course of daily routine medical operations, 
+the command surgeon is often required to provide direction to subordinate medical elements to accomplish 
+specific objectives, and to gather certain data through 
+reporting. However, the senior command surgeon 
+does not have decision-making authority over the 
+subordinate medical element. Simply stated, surgeons 
+don’t report to surgeons. The subordinate medical element must take orders only from its own commander. 
+Nevertheless, it is incumbent on the command surgeon 
+to follow the technical guidance and direction of the 
+higher level surgeon as much as is possible, without 
+violating the commander’s intent. Differences in orders 
+through the chain of command and guidance from the 
+technical chain of command may potentially conflict 
+with each other. Awareness of this relationship is critical to resolving these conflicts without compromising 
+the mission. The standing advice is to report directly 
+to the unit commander, but work with the technical 
+chain to the extent possible. 
+Figure 8-5. The technical medical staff (surgeon cell) also 
+reports to higher level headquarters to ensure communication of relevant medical information. Directives and guidance may be supplied from higher headquarters down to 
+units as well.
+138
+Fundamentals of Military Medicine
+Learning to balance the requirements through the 
+technical chain and the command chain can be challenging. However, the technical chain of command ensures 
+that for junior physicians, there is always a medical 
+mentor to assist in times of difficulty. Professional 
+mentorship is a key role within the chain of command 
+and good command surgeons will reach out to their 
+subordinate surgeons in the technical chain of command 
+in order to provide professional guidance and assistance 
+when necessary in accomplishing the medical mission. 
+THE COMMANDER’S EXPECTATIONS OF THE MEDICAL OFFICER
+The best way to gain an understanding of the commander’s expectations of the medical officer joining the 
+unit as command surgeon, is simply to ask. Although 
+this may sound incredibly simple, it may come as a 
+surprise how infrequently a new command surgeon, 
+particularly one that is relatively new to the military, 
+makes the effort to sit down with his command team to 
+simply understand what they expect. When notified of 
+the assignment, incoming command surgeons should 
+reach out to the commander, executive officer (the 
+likely reporting chain), and command sergeant major 
+or command master chief to discuss their expectations. 
+This may afford an opportunity to identify problems 
+or challenges early on that may need to be attended 
+to immediately. It will also provide an opportunity 
+to establish a relationship and gain trust, particularly 
+with the commander, to fulfill the role as a personal 
+staff officer. 
+At the Uniformed Services University, former 
+line commanders are often invited to speak with the 
+students about their expectations of their medical 
+officers. In an informal dialogue, they are asked to 
+speak about successes and failures of medical officers 
+with whom they have worked, either as fellow staff 
+officers or as their commander. The commonalities 
+among commanders’ opinions are striking. Simply 
+put, a line commander expects his or her medical officer to understand medicine and attend to medicine, 
+but also to understand officership and integrate with 
+his or her team (the command staff). The commander 
+expects the medical officer to be a doctor, and a good 
+one, but also expects the doctor to be a good officer. 
+And while most commanders will recognize that 
+this may take some time, as many of the skills will be 
+new and underdeveloped, he or she also understands 
+that the medical officer, like the rest of the unit’s staff 
+officers, is intelligent, adaptable, and can learn the 
+language quickly. The expectations can be summarized as follows:
+ 
+• You are my expert on all things medically 
+related.
+ 
+• You are my link to the medical world.
+ 
+• You are a leader – physically fit and morally 
+straight. 
+ 
+• You know the military decision-making process and your role in it.
+ 
+• You are a team player, and always know my 
+soldiers and families come first.
+ 
+• You are willing to do things outside of your 
+lane.
+ 
+• You are flexible and anticipate needs.
+ 
+• You effectively communicate to me – translate 
+the “medical speak” into laymen’s terms and 
+articulate the “so what.”
+ 
+• You bring solutions to problems.
+ 
+• You continue to develop yourself professionally.
+ 
+• You have fun!
+Professional Relationship with the Commander
+Like the chaplains, medical officers hold a special 
+role regarding their relationship to their commanders. 
+A trusted medical officer provides the commander 
+with both personal services (medical care) and professional services. This includes personal psychological 
+support. Depending on the commander’s style, the 
+medical officer will often become a sounding board 
+and confidant as a means of evaluating and reflecting 
+on new ideas and options. Other inquires and interactions will include the commander seeking opinions on 
+specific or general communication techniques including effectiveness, positive and negative impact, and 
+forecasts about leadership outcomes. The commander 
+will seek guidance and expectations about individual 
+and organizational behaviors and responses. Be prepared to provide this support as it may be the medical 
+officer’s most critical responsibility. 
+SUMMARY 
+The command surgeon role is an intricate one. So 
+intricate, that it can in fact be quite overwhelming as 
+the new medical officer attempts in good faith to assimilate the recommendations and model of the good 
+command surgeon. Medical skills, military skills, and 
+leadership are balanced in the effective command 
+surgeon who is truly integrated with his unit as part 
+of the command staff. 
+139
+The Medical Officer on the Commander’s Staff
+Serving as a command staff officer may easily be 
+the highlight of the military medical officer’s career. 
+This role is unique and embodies military service for 
+the physician. It affords the opportunity to positively 
+impact the mission and better the lives of the service 
+members in the unit, while at the same time providing a rich opportunity to develop as a leader and as 
+a physician. By serving as command surgeons, new 
+medical officers join a proud heritage of military 
+medical officers who have preceded them. There will 
+undoubtedly be fond memories of the experiences 
+and relationships acquired in the unit. That history 
+should be honored through personal development 
+as a complete military medical officer, fully prepared 
+to support the commander in accomplishing his/her 
+mission.
+REFERENCES
+ 
+1. US Department of the Army. Army Health System. Washington DC: DA; 2013. Field Manual 4-02:
+ 
+2. Letterman J. Medical recollections of the Army of the Potomac. New York, NY: Appleton; 1866.
+ 
+3. US Department of the Army. Commander and Staff Organization and Operations. Washington DC: DA; 2014. Field Manual 
+6-0, paragraph 2-114. 
+ 
+4. 10 USC §164. Commanders of Combatant Commands: Assignment; Powers and Duties, 1986.
+ 
+5. 10 USC, Chapter 47. Uniform Code of Military Justice. 
+ 
+6. US Department of the Army. Army Command Policy. Washington, DC: DA; 2014. Army Regulation 600 – 20.
+ 
+7. US Department of Defense. Doctrine for the Armed Forces of the United States. Washington DC: DoD; 2013 Incorporating 
+Change 1, 12 July 2017. Joint Publication 1.
+ 
+8. Dunnaback J. Command responsibility: a small unit leader’s perspective. Northwestern Law Review. 2013;108:1385–1422.
+ 
+9. 10 USC §3583. Requirement of Exemplary Conduct, 1997.
+ 10. US Department of the Army. Commander and Staff Organization and Operations. Washington, DC: DA; 2014. Field Manual 
+6-0. 
+ 11. Stratton N. 7 Ways to Fail as a Staff Officer. http://www.themilitaryleader.com/7-ways-to-fail-as-a-staff-officer/. Accessed 26 Mar, 2017. 
+ 12. Jomini A-H. The Art of War. Mendell GH, Craighill WP, trans. Philadelphia, PA: Lippincott; 1862.
+ 13. Von Clausewitz C. On War. Howard M, Paret P, trans. Princeton, NJ: Princeton University Press; 1989.
+ 14. Woodson J. Becoming a battalion surgeon. Lecture presented at: Tzameret Program; April 29, 2015; Hebrew University, 
+Jerusalem.
+ 15. O’Connor F. Military medical practice and leadership program of instruction. Lecture presented at: Uniformed Services 
+University of the Health Sciences Faculty Assembly, 2014; Bethesda, MD.
+ 16. Nayar V. Three differences between managers and leaders. Harvard Business Review Website. https://hbr.org/2013/08/
+tests-of-a-leadership-transiti. Published August 2, 2013. Accessed June 19, 2018.
+ 17. Rush B. Directions for preserving the health of soldiers. Lancaster; 1778. 
+ 18. Brocklesby R. Oeconomical and medical observations in two parts. From the Year 1758 to the Year 1763, Inclusive. London; 
+1764.
+ 19. Pringle J. Observations on the Diseases of the Army: In Camp and Garrison; In 3 Parts; With an Appendix. London: Millar; 
+1753.
+140
+Fundamentals of Military Medicine
+ 20. Risk Management. Washington DC: Air, Land, and Sea application center; 2001. FM 3-100. 12, MCRP 5-12. 1C, NTTP 
+5-03. 5, AFTTP(I) 3-2. 34
+ 21. Sepanic J. The Dilemma over Medical Command and Control [master’s thesis]. Fort Leavenworth, Kansas: United States 
+Army Command and General Staff College; 2008.
+141
+The Medical Officer on the Commander’s Staff
+Attachment 8-1 
+ON LOYALTY AS A STAFF OFFICER
+(Vignette from a young command surgeon)
+Problem 
+As a brand-new battalion surgeon coming out of internship, one of the first challenges I ran into upon assignment to the battalion was a recognition that our unit was NOT medically “ready.” This battalion was designated 
+for rapid deployment and had a continual stream of small-unit downrange deployments. There was a constant 
+command focus on medical readiness, which was a prerequisite for deployment. Despite this focus, I discovered that immunization status was being reported as much higher than it actually was. Medical records review 
+revealed that the reported 98% to 100% compliance rate was in fact as low as 30%!
+ I had to implement new plans and programs to correct this shortfall, which required a tremendous amount 
+of boots-on-the-ground work by our battalion medical section. My team was constantly bombarded by “hey 
+you” from companies, teams, and individuals who needed support in getting the various immunizations and 
+other preventive medicine items addressed. Though this was at my request (be careful what you ask for!) and 
+was supported by the command, it interfered with my ability to do my basic staff work and meet my general 
+command responsibilities.
+Solution 
+Trying to think outside the box, I determined that the best way to solve this problem was to compartmentalize the time involved in the immunization and medical readiness program so that we could maintain focus and 
+improve efficiency across all required tasks. I had to protect time to do my planning and staff work while still 
+maintaining availability to the 350+ members of the battalion who needed my time to meet their pre-deployment 
+requirements. 
+My creative solution was to establish “office hours” for immunizations. Without discussing it with my executive officer (my immediate supervisor), I posted on my door a fairly simple and streamlined set of office hours 
+during which I would make my team exclusively available for immunizations and preventive medicine work. 
+Based on the previously encountered routine workflow and traffic, I believed that this would be both reasonable 
+and effective in meeting the needs of the subordinate units.
+New Problem 
+Immediately I felt better about my task accomplishment. I was more prepared for my briefings and I felt my 
+workflow was more balanced and timely for me and my team (the battalion medical section). However, it wasn’t 
+long before I was summoned by a very unhappy executive officer who had just “heard it” from the commander. 
+While I was reasonably well respected by this time in the command as a supportive “Doc,” the company commanders and by proxy the battalion commander were not just upset, but rather were IRATE about my new office 
+hours. The hours did not conform to the unpredictable pre-deployment training schedules that the subordinate 
+units were forced to live by. I was immediately labeled as “self-serving” and “unsupportive.” 
+I immediately remove my office hours, made an announcement at the next command staff meeting that anybody that needed an immunization or other medical support could come by ANY time during work hours, or 
+after hours with prior coordination. Needless to say my creative solution backfired on me and presented a new 
+challenge of restoring trust with the unit.
+Lesson Learned 
+It is critical to remember that your role is as a supporting character in the cast of the battalion, and that the 
+perception of support is perhaps more important than the reality. Loyalty to the team means, among other things, 
+that you understand your role on the team.
+142
+Fundamentals of Military Medicine
+Attachment 8-2 
+MISSION BRIEFING FORMAT
+ 
+1. SITUATION
+ 
+a. Enemy Forces
+ 
+b. Friendly Forces
+ 
+c. Attachments and Detachments
+ 
+2. MISSION
+ 
+a. Who 
+ 
+b. What 
+ 
+c. When 
+ 
+d. Where 
+ 
+e. Why
+ 
+3. EXECUTION
+ 
+a. Concept of the Operation
+ 
+b. Maneuver
+ 
+c. Fires
+ 
+d. Tasks to Maneuver Units
+ 
+e. Tasks to Combat Support Units
+ 
+f. Coordinating Instructions
+ 
+4. SUSTAINMENT
+ 
+a. General
+ 
+b. Material and Services
+ 
+c. Supply
+ 
+d. Transportation
+ 
+e. Services
+ 
+f. Maintenance
+ 
+g. Medical
+ 
+h. Personnel
+ 
+i. Miscellaneous
+ 
+5. COMMAND AND SIGNAL
+Adapted from: US Army. Ranger Handbook. Fort Benning, Georgia: 
+US Army Infantry School; 2017. TC 3-21-76.
+Attachment 8-3 
+DECISION BRIEFING FORMAT
+INTRODUCTION
+ 
+a. Greeting
+ 
+b. Type and Classification
+ 
+c. Purpose and Scope
+ 
+d. Statement of the problem (mission/
+commander’s intent)
+ 
+e. The recommendation
+MAIN BODY
+ 
+a. Facts (+ and -)
+ 
+b. Assumptions
+COURSES OF ACTION (COA)
+ 
+Discussion of the various options
+ANALYSIS
+ 
+a. Evaluation criteria 
+ 
+b. Advantages and disadvantages of each 
+COA
+COMPARISON
+ 
+Show how the courses of action rate against 
+the evaluation criteria
+CONCLUSION
+ 
+a. Describe why the selected solution is preferred
+ 
+b. Ask for questions
+ 
+c. Restatement of the recommendation for 
+approval/disapproval 
+ 
+d. Request a decision
+Adapted from: US Department of Defense. Joint Planning. Washington DC: DoD; 2017. Joint Publication 5-0.
+143
+The Medical Officer on the Commander’s Staff
+Attachment 8-4
+HIPPOCRATIC OATH, MODERN VERSION1:
+I swear to fulfill, to the best of my ability and judgment, this covenant:
+I will respect the hard-won scientific gains of those physicians in whose steps I walk, and gladly share such 
+knowledge as is mine with those who are to follow.
+I will apply, for the benefit of the sick, all measures which are required, avoiding those twin traps of overtreatment and therapeutic nihilism.
+I will remember that there is art to medicine as well as science, and that warmth, sympathy, and understanding may outweigh the surgeon’s knife or the chemist’s drug.
+I will not be ashamed to say “I know not,” nor will I fail to call in my colleagues when the skills of another 
+are needed for a patient’s recovery.
+I will respect the privacy of my patients, for their problems are not disclosed to me that the world may know. 
+Most especially must I tread with care in matters of life and death. If it is given me to save a life, all thanks. But 
+it may also be within my power to take a life; this awesome responsibility must be faced with great humbleness 
+and awareness of my own frailty. Above all, I must not play at God.
+I will remember that I do not treat a fever chart, a cancerous growth, but a sick human being, whose illness 
+may affect the person’s family and economic stability. My responsibility includes these related problems, if I 
+am to care adequately for the sick.
+I will prevent disease whenever I can, for prevention is preferable to cure.
+I will remember that I remain a member of society, with special obligations to all my fellow human beings, 
+those sound of mind and body as well as the infirm.
+If I do not violate this oath, may I enjoy life and art, respected while I live and remembered with affection 
+thereafter. May I always act so as to preserve the finest traditions of my calling and may I long experience the 
+joy of healing those who seek my help.
+This modern version of the Hippocratic Oath was written in 1964 by Louis Lasagna, Academic Dean of the School of Medicine at Tufts 
+University, and is used in many medical schools today. 2
+REFERENCES
+ 
+1. Lasagna L. A Modern Hippocratic Oath. Tufts University School of Medicine. 1964.
+ 
+2. Miles SH. The Hippocratic Oath and the Ethics of Medicine. 1st ed. New York, NY: Oxford University Press; 2004.
+144
+Fundamentals of Military Medicine
+Attachment 8-5
+THE OATH OF COMMISSIONED OFFICERS 
+I, _____ (state your name), having been appointed a (rank) in the Army of the United States, as indicated 
+above in the grade of _____ do solemnly swear (or affirm) that I will support and defend the Constitution 
+of the United States against all enemies, foreign and domestic, that I will bear true faith and allegiance to 
+the same; that I take this obligation freely, without any mental reservations or purpose of evasion; and 
+that I will well and faithfully discharge the duties of the office upon which I am about to enter; So help 
+me God. 1
+REFERENCE
+ 
+1. 5 USC §3331. Oath of Office. Washington DC, 1966. 

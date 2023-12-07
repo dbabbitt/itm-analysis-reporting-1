@@ -1,0 +1,1418 @@
+603
+Casualty Transport and Evacuation
+Chapter 39
+CASUALTY TRANSPORT AND 
+EVACUATION
+CHETAN U. KHAROD, MD, MPH*; BRENNA M. SHACKELFORD, MD†; and ROBERT L. MABRY, MD‡
+INTRODUCTION
+MILITARY CASUALTY EVACUATION TERMINOLOGY
+EVOLUTION OF MILITARY CASUALTY EVACUATION DOCTRINE
+Larrey and Letterman
+Total War
+World War II
+EVOLUTION OF AEROMEDICAL EVACUATION
+Korea
+Vietnam
+Late 20th Century
+Evacuation Lessons From Iraq and Afghanistan
+EVACUATION IN FUTURE CONFLICTS
+The Operational Environment
+Principles of Evacuation for Future Conflicts
+MODEL FOR CASUALTY CARE CONTINUUM SUCCESS
+SUMMARY
+*Colonel (Retired), US Air Force, Medical Corps, Senior Flight Surgeon; Program Director, Military EMS & Disaster Medicine Fellowship, San Antonio 
+Military Medical Center, JBSA, Fort Sam Houston, Texas
+†Consultant Emergency Physician, New Zealand
+‡Colonel, Medical Corps, US Army; Command Surgeon, Joint Special Operations Command, Fort Bragg, North Carolina
+604
+Fundamentals of Military Medicine
+INTRODUCTION
+Casualty evacuation, a key phase of combat casualty care, has evolved along three intersecting vectors 
+of technology: (1) military weapons and tactics, (2) 
+medical care, and (3) transportation. This chapter 
+discusses the historical evolution of casualty evacuation, including lessons most recently learned in Iraq 
+and Afghanistan. This historical perspective is critical 
+to understanding how current US systems developed 
+and provides insight into how casualty care during 
+evacuation can be improved. It discusses the potential 
+challenges future conflicts may bring and provides a 
+set of principles that can be used by military physicians 
+on future battlefields. This is not an in-depth technical manual discussing the nuances of each individual 
+evacuation platform that can be found on the modern 
+battlefield, nor does it substitute for current medical 
+evacuation field and technical manuals. Rather, the 
+chapter’s goal is to provide a conceptual understanding and a set of principles that will enable military 
+medical providers to deliver the best possible care to 
+their patients during evacuation, from point of injury 
+(POI) to definitive care.
+MILITARY CASUALTY EVACUATION TERMINOLOGY
+To understand the history, evolution, and current 
+state of the science of casualty evacuation and en route 
+care, it is essential to understand the language of this 
+key domain of battlefield medicine. 
+Casualty evacuation (CASEVAC), in a traditional 
+sense, is rapid, unregulated movement of any casualty 
+at any point along the continuum of casualty care 
+from the POI onward. CASEVAC can take place via 
+personnel carries, vehicles, or aircraft available for 
+transport. Regulated movement of these casualties, 
+with the addition of medical personnel on a medically 
+equipped platform, from both POI to dedicated medical care or a medical treatment facility (MTF), or from 
+one MTF to another, is termed medical evacuation 
+(MEDEVAC). Tactical evacuation (TACEVAC) is the 
+overarching term for both CASEVAC and MEDEVAC, 
+and encompasses the full spectrum of transport from 
+a hostile or austere POI to advanced medical care in a 
+secure environment. 
+The term en route care is defined by the twin 
+goals of providing medical treatment and sustaining or 
+improving the patient’s medical condition during the 
+evacuation process. It is not based on the movement 
+platform itself. En route care is a dynamic process 
+with the goal of providing the best care possible for 
+patients, by adjusting for patient condition, threat, 
+and mission constraints by selection of appropriate 
+platforms and personnel to accomplish the medical 
+evacuation mission.
+Much like modern medicine, these terms are continually evolving, now referring more simply to the 
+platform and regulatory status in which a casualty is 
+moved and less to the nature of personnel on board. 
+A variety of patient movement platforms are utilized 
+for evacuation and en route care. Ground transport 
+can be by standard ambulance, tactical vehicle, bus, 
+or any other available medium. Air assets consist of 
+both rotary and fixed-wing aircraft, including assets 
+of the US Army, Air Force, Navy, and more recently, 
+the Marine Corps. 
+Unregulated patients are the injured, typically 
+located at or close to the POI, before they have been 
+assigned a patient movement request (PMR). Regardless of platform, the unregulated status of these 
+patients defines their transport as CASEVAC, and their 
+movement is influenced by tactical factors and by triage status. These patients may or may not receive en 
+route care; if they do, it can vary greatly, from flight 
+medics placing a tourniquet and performing needle 
+decompression to critical care teams performing damage control resuscitation en route. An example of an 
+unregulated patient is a casualty thrown from a vehicle 
+in an improvised explosive device blast, dragged to 
+a casualty collection point, and subsequently transported via another military vehicle immediately to the 
+nearest forward medical care. 
+Once patients receive a PMR, they are termed regulated. PMRs are created by the attending physician 
+at the patient’s location in conjunction with an Air 
+Force aeromedical evacuation liaison team. The PMR 
+is further evaluated and subsequently validated by 
+an aeromedical evacuation control center flight nurse 
+and flight surgeon team, with subsequent preparation 
+for the patient’s airlift and movement requirements. 
+This process requires both time and personnel, which 
+typically means the patient has been stabilized at an 
+MTF prior to movement. Regulated medical evacuation takes into account the availability of air assets, 
+the patient’s clinical status, the nature of the en route 
+care expertise available, and the accepting facility’s 
+space and specific medical capability for the casualty. 
+A casualty with a traumatic amputation of the leg, 
+who has had damage control surgery at a Role 2 MTF 
+and is being transported by Air Force aeromedical 
+evacuation, is an example of a regulated patient. Army 
+MEDEVAC often transports patients in both categories, 
+605
+Casualty Transport and Evacuation
+carrying patients from POI as well as between MTFs 
+when intra-theater transport is necessary. 
+Dynamic en route care capability is now being positioned on what were traditionally considered CASEVAC air platforms. These medical teams are comprised 
+of highly trained critical care physicians, critical care 
+nurses, and advanced medics, bringing a higher level 
+of medical care closer to the POI and adding flexibility 
+in the rapid deployment of aircraft to move patients 
+via unregulated flight.
+EVOLUTION OF MILITARY CASUALTY EVACUATION DOCTRINE
+Organized evacuation of battle casualties is a 
+relatively new advancement in the history of warfare. 
+From the times of Greek hoplites and Roman legions 
+until the 1800s, no systematic method of evacuating 
+battlefield casualties existed. Wounded fighters had to 
+evacuate themselves from the line and dress their own 
+wounds, or depend on other soldiers to provide care. 
+If the battle were won, those who were too wounded 
+to march with the army were often quartered locally or 
+in field hospitals constructed to care for these patients. 
+Over time, the wounded would “triage” themselves 
+by recovering and returning to duty, recovering but 
+remaining unable to serve further, or dying. Wounded 
+on the losing side did not fare as well. The lightly injured were captured and ransomed or sold as slaves; 
+the more seriously injured were killed or left to die. 1
+Larrey and Letterman
+The Napoleonic Wars of the 19th century produced 
+the “father” of modern military medicine and perhaps 
+the greatest military surgeon who ever lived, Dominique Jean Larrey. Larrey was surgeon-in-chief of the 
+Napoleonic armies from the French campaigns in Italy 
+in 1797 to Waterloo in 1815. Larrey’s chief contribution 
+to military medicine was the systematized evacuation 
+of battlefield casualties using a field ambulance. The 
+term “ambulance” comes from the Latin ambulare, 
+meaning “to walk.” As it was used at the time, the 
+term “ambulance” typically meant the field hospital (or 
+the “walking hospital”) that followed the army. Prior 
+to Larrey’s effort, field hospitals were located 3 miles 
+behind the front. The wounded were typically left on 
+the field until after the battle, sometimes receiving no 
+care for 24 hours or more after injury. 2 Larrey, inspired 
+by the speed and mobility of French artillery wagons, 
+developed a system of medical wagons that were both 
+mobile aid stations and evacuation platforms. These 
+ambulance volantes or “flying ambulances” were staffed 
+for, organized to support, and dedicated to the evacuation of the wounded.
+Larrey’s ambulance corps was divided into three divisions of 113 personnel each. Each division was commanded by a chief surgeon and equipped with twelve 
+light carriages and four heavy carriages, with each 
+carriage manned by about seven men. Larrey’s ambulance configuration was both mobile and flexible—different equipment could be carried, and different draft 
+animals (eg, camels in the Egypt campaign) could be 
+used, depending on to the mission and environment. 3 
+Larrey organized the care and evacuation of wounded 
+like any other military operation: with a staff, chain 
+of command, noncommissioned officers, and enlisted 
+men under the leadership of a medical officer. 
+Part of Larrey’s philosophy of rapid evacuation 
+was based on his 24-hour principle of wound management. Previous surgical opinions recommended 
+that amputation be performed in a delayed fashion, 
+and only through gangrenous tissue. Larrey felt that 
+in cases where an extremity could not be salvaged, 
+rapid amputation while the soldier was still in shock, 
+and before infection had set in, not only improved 
+survival but also was more humane, especially during 
+transport. He felt that patient movement on horseback 
+or by wagon with a clean, well-dressed amputation was 
+much more comfortable for the patient, causing less 
+pain and fewer complications, than being transported 
+with a shattered limb. Thus, Larrey was the first to 
+recognize that time to treatment after injury was a key 
+factor in casualty outcomes. His system of forward care 
+on the field followed by rapid evacuation to surgical 
+care in the field hospital formed the basis for modern 
+medical evacuation systems. 2 
+The defeat of Napoleon at Waterloo brought an 
+end to prolonged war in Europe. A worldwide era of 
+unprecedented industrial innovation and economic 
+growth followed, setting the stage for even larger 
+armies to be deployed during the American Civil 
+War. Advances in transportation such as steamboats, 
+locomotives, and railway lines made it possible for 
+large numbers of troops to be moved rapidly in an 
+orderly manner. Food preservation techniques such 
+as canning and dehydration were improved. Weapons 
+technology was enhanced. The smooth-bore musket of 
+Napoleon’s era was notoriously inaccurate; thus, tactics 
+dictated tight formations exchanging volley fire at close 
+range. During the American Civil War, however, the 
+rifled musket firing the 0. 58-caliber minié ball was the 
+principal weapon used by both sides. In contrast to the 
+smooth-bore musket, the rifled musket was accurate 
+up to 500 yards. Unfortunately, military tactics did not 
+take into account the capabilities of these new weapons; 
+606
+Fundamentals of Military Medicine
+American generals on both sides of the Civil War still 
+studied and employed Napoleonic tactics. Maneuvering large, tightly packed, linear formations against 
+fortified positions produced devastating results and 
+caused unprecedented numbers of casualties during 
+Civil War battles. 
+Likewise, military medical leaders in the US Army 
+did not recognize that the nature of warfare had 
+changed from small frontier engagements to warfare 
+on a massive scale. At the outbreak of the war, the 
+Union Army’s medical department was completely 
+unprepared. Physicians were often graduates of 
+unregulated, 2-year medical schools, and few had 
+any training in surgical care or battlefield injuries. 
+Most military leaders did not anticipate a prolonged, 
+large-scale conflict. Additionally, previous campaigns 
+against Indians and the recent Mexican-American 
+War (1846–1848) had resulted in only a few battle 
+casualties. Most campaigns up until that time were 
+short lived, and most deaths were from disease. All 
+US military conflicts from the Revolutionary War to 
+1860 had resulted in slightly more than 23,000 killed 
+in action or wounded, whereas in the Civil War, the 
+Union side alone would ultimately suffer 600,000 killed 
+or wounded. 4 
+The First Battle of Manassas, or Bull Run, in July 
+1861, was the first significant ground battle of the 
+war. The medical evacuation plan was essentially 
+improvised at the regimental level. 5 Wagons to carry 
+the wounded were driven by civilian teamsters, 
+many of whom fled from the field at the first sound 
+of gunfire. As a result, many Union wounded were 
+left on the field and along the roadside for several 
+days until they could be recovered. The ensuing 
+scandal led to the eventual appointment of Major 
+Jonathan Letterman, MD, as the medical director of 
+the Army of the Potomac, and Letterman’s establishment of the Ambulance Corps in August 1862. 6 
+In 1864, Congress approved Letterman’s casualty 
+care plan, with few changes, for adoption by the 
+entire Union Army. 
+Letterman’s plan, like Larrey’s, authorized an 
+ambulance corps controlled by a physician medical 
+director for each army corps. Wagons were dedicated 
+specifically to the mission of evacuating casualties 
+and were under the control of medical officers, not 
+the quartermaster. Medical directors established 
+standards for personnel, equipment, and training. 
+Casualties were treated close to the field, moved to 
+division- or corps-level field hospitals, and then eventually transported to larger fixed facilities in Philadelphia, Baltimore, and Washington, DC. Although still 
+significantly understaffed and strained throughout 
+the war, Letterman’s system of evacuation through 
+echelons of care from the POI, through division and 
+corps field hospitals, to a fixed brick-and-mortar 
+hospital for definitive care and convalescence, would 
+serve as the model for most industrialized nations 
+into the next century.
+Total War
+The advancement of military weapons and technology, combined with nearly 40 years of peace among the 
+major powers, set the stage for the horrific numbers of 
+battlefield casualties during World War I. The absence 
+of a major conflict in the preceding decades meant 
+that tactical and operational concepts that accounted 
+for long-range, rapid-fire precision artillery; machine 
+guns; or improved, breech-loading, bolt-action rifles 
+using modern cartridges and smokeless gunpowder 
+had yet to be understood or developed. These military 
+advances, as well as improvements in communication, 
+organization, and transportation, enabled massive 
+numbers of soldiers, inspired by nationalist fervor, to 
+meet in battle armed with new weapons and unprecedented destructive power. 
+Several medical developments had occurred during 
+the relatively peaceful period between the US Civil 
+War and World War I. Lister’s principles of asepsis 
+were introduced. The individual battle dressing, or 
+field dressing, was developed for issue to individual 
+soldiers. Henry Dunant’s humanitarian-focused Red 
+Cross movement expanded in the United States and 
+Europe. In Britain, the Red Cross partnered with the 
+St John Ambulance Association, a first-aid-focused 
+organization that operated in the major cities teaching first aid concepts to workers in industrial centers 
+and other civilians. World War I was the first major 
+conflict with specially trained “medics” assigned to 
+combat formations who moved about the battlefield 
+rendering aid and evacuating the injured. It was also 
+the first war in which combat deaths outnumbered 
+those from disease.
+The destructive firepower of the first modern 
+industrial war quickly resulted in a stalemate at the 
+front. Trench warfare characterized combat on the 
+Western front as combatants sought protection from 
+the powerful artillery barrages and machine gun fire in 
+trenches and bunkers. These emplacements remained 
+relatively static during the war, and both sides suffered 
+incredible numbers of casualties trying to win the new 
+type of warfare. 
+Casualty care during World War I began at the POI. 
+The wounded soldier performed whatever self-aid he 
+could, or perhaps his comrades would provide initial 
+care. At the company aid post, medics focused on 
+sorting patients (“triage”), bandaging wounds, and 
+607
+Casualty Transport and Evacuation
+splinting any fractures to minimize pain and additional injury during litter transport to the battalion or 
+regimental aid post, located 250 to 500 yards behind 
+the line. Once there, splints and dressings were examined and adjusted if necessary, and morphine and 
+anti-tetanus serum were administered. The patients 
+were wrapped in blankets and given hot drinks to 
+keep them warm. Treatment was noted on a casualty 
+tag attached to the patient. 
+The wounded were then carried by litter to the ambulance dressing station. These stations were located 
+as far forward as safely possible. During the day this 
+was 3,000 to 6,000 yards from the front, located along 
+a road at a relatively protected point such as a building or cellar if possible. If a litter transport more than 
+800 to 1,000 yards from the battalion aid post was 
+required, relay stations might be set up where litter 
+teams handed off patients for the next stage. It was 
+often safer to move ambulance dressing stations farther 
+forward at night and evacuate patients under the cover 
+of darkness, saving a long and often dangerous litter 
+transport during daylight. 
+At the ambulance dressing stations, casualties were 
+re-triaged by medical officers. Casualties in severe 
+shock or those deemed non-transportable were held 
+until they improved or died. From the ambulance 
+dressing stations, casualties requiring further care 
+were evacuated to a field hospital. For the first time in 
+history, large numbers of casualties were transported 
+by motorized ambulance. Ambulances made by Ford, 
+Fiat, Peugeot, and General Motors proved their value 
+in terms of speed and patient comfort under brutal 
+combat conditions. 7,8 Overall, in the American Expeditionary Forces, the time from wounding until the 
+arrival at the first triage point was 5 to 6 hours. 8
+Field hospitals, where surgical care was first 
+available, were located 6 to 8 miles from the front, 
+out of artillery range. Time from injury at the front 
+lines until arrival at the first surgical care varied 
+depending on road conditions, intensity of combat 
+operations, visibility, and similar factors. Personnel 
+at field hospitals would evaluate and triage patients 
+once again. Casualties stayed a few hours to a few 
+days at the field hospital, depending on the nature 
+of their wounds and the level of combat and casualty 
+flow. Cases that could not be returned to duty but 
+who were stable for further transport were moved 
+to evacuation hospitals. Those casualties deemed 
+nontransportable (ie, those who were likely to die 
+during further transport without immediate surgical 
+care) were retained at the field hospital. These cases 
+typically included three classes: open (or “sucking”) 
+chest wounds; perforating abdominal wounds; and 
+severe hemorrhage cases. Casualties requiring neurosurgical care tended to stand transportation better 
+before an operation than after and were typically 
+sent forward. 8 
+Field hospitals were essentially emergency hospitals or more robust dressing/triage stations, and more 
+intensive medical and surgical care was provided at 
+the evacuation hospital. Army Expeditionary Forces 
+evacuation hospitals were typically 1,000-bed facilities located alongside a railway line between 9 and 15 
+miles from the front. Casualties reached the evacuation 
+hospital on average 10 to 16 hours following triage at 
+the field hospital. In addition to serving the wounded 
+who required immediate surgical care before they 
+could be transported further, evacuation hospitals 
+served as relay or clearing stations in the hospitalization and evacuation chain. Patients were transported 
+from evacuation hospitals by train to a system of base 
+hospitals and then on to fixed facilities throughout 
+France and England for definitive care and convalescence. At each stage of the evacuation chain, those 
+who would not survive transport would be held until 
+they improved or died. Those with minor injuries were 
+returned to duty, and those who required further care 
+were sent on through the chain. 9 
+World War II
+The world wars of the 20th century saw the development of the internal combustion engine and motorized 
+ambulances that could carry casualties through “echelons of care.” While the Western front was relatively 
+static in the First World War, World War II was a war 
+of speed and mobility. Armored vehicles, which had 
+emerged in rudimentary forms during World War I, 
+were perfected and integrated into a combined arms 
+strategy using air power, artillery, and infantry. Entire armored and mechanized divisions were fielded. 
+The airplane had advanced significantly during the 
+interwar period and would play a key role in moving 
+men, materiel, and casualties across large distances 
+in both the European and Pacific theaters of war. As 
+surgical care advanced and military aviation developed, large numbers of casualties in World War II were 
+able to receive forward stabilizing surgical care and 
+subsequently be transported to a second hospital by 
+airplane. Blood transfusions, advances in resuscitation 
+science, antibiotics, and improvements in surgical technique revolutionized combat surgery and resulted in 
+a reduction of the hospital case fatality rate in patients 
+with abdominal or visceral wounds from 45% during 
+World War I to 15% in World War II. 10
+Evacuation in World War II operated on similar 
+principles as during World War I. The goals at each 
+stage or echelon of care were to provide only those 
+608
+Fundamentals of Military Medicine
+treatments necessary to save lives and ensure patients 
+were stable for transport to the next level. At each stage, 
+those who could be safely returned to duty were sent 
+back to their units, and those who required further 
+treatment continued through the evacuation chain. 
+Those who could not recuperate within 4 to 6 months 
+in theater were evacuated back to the United States. 
+During the war, fixed-wing aeromedical evacuation 
+became the principal method of transporting patients 
+from forward hospitals to rear area facilities. 
+EVOLUTION OF AEROMEDICAL EVACUATION
+After the invention of the airplane in 1903, militaries around the world began to realize the implications 
+aircraft and aviation would have on warfare. Airplanes 
+would offer unprecedented new opportunities on 
+the battlefield. Likewise, aviation’s implications for 
+combat medicine were not lost on military medical planners. During World War I, several countries 
+experimented with medical evacuation by aircraft, 
+but safety, expense, and limited load capacities did 
+not make casualty transport by aircraft feasible on 
+a large scale until World War II. Large, fixed-wing 
+aircraft functioned in the same role as the casualty 
+trains of World War I. Intra-theater patient movement 
+was accomplished on planes such as the Curtiss C-46 
+Commando or the Douglas C-47 Skytrain, while intertheater transport required larger planes with greater 
+range, such as the Douglas C-54 Skymaster. These 
+planes would move more than one million casualties 
+from forward evacuation hospitals to base hospitals in 
+the rear. 11 In total, more than 1. 34 million patients were 
+aeromedically transported during the war. 12 
+The helicopter was introduced toward the end of 
+World War II. Initially used to rescue the crew of a 
+downed aircraft in the jungles of Burma, the first evacuation of combat casualties under fire by helicopter was 
+done in Manila in 1945, when 75 to 80 soldiers were 
+evacuated one or two at a time. 13 
+Korea
+Helicopter evacuation came to the fore during 
+the Korean War. The Bell H-13 Sioux helicopter, an 
+adaptation of the Bell commercial Model 47 was used 
+to evacuate more than 20,000 casualties. 14 These helicopters were crude as evacuation platforms and lacked 
+advanced navigation or communication capabilities. 
+Because patients were in pods located outside the crew 
+compartment, no medical care could be given during flight. Pilots sometimes received ad hoc medical 
+training from surgeons at the receiving hospitals, but 
+the pilot had to land the helicopter to render any aid.
+Helicopter evacuation in the US Army evolved with 
+a focus on speed of casualty transport to surgical care. 
+For the first time, casualties could be taken from a remote, rugged location near the POI, and transported 
+rapidly to surgical care, bypassing the intermediate 
+stops through echelons of ground-based evacuation. 
+Helicopter evacuation spared patients prolonged litter 
+or ground ambulance transports over rough terrain 
+through hostile territory, preventing much death and 
+suffering.
+Vietnam 
+Military trauma systems built during the Korean 
+and Vietnam eras steadily increased the survival rates 
+of wounded soldiers. Helicopter evacuation underwent significant expansion and growth during the 
+Vietnam era, when dedicated MEDEVAC helicopters 
+were deployed en masse. The Bell UH-1, or “Huey,” 
+was large enough to carry several patients as well as 
+a combat medic who could provide care en route to 
+the hospital. Rapid evacuation to surgical care is often 
+cited as one of the principal reasons for the significant 
+reduction in battlefield mortality during the Vietnam 
+conflict compared to other wars of the 20th century. 
+Helicopter MEDEVAC (referred to as “DUST-OFF” 
+after its motto: “Dedicated, Unhesitating Service to Our 
+Fighting Forces”) epitomizes modern battlefield care 
+whereby an injured soldier can be whisked from the 
+battlefield to surgical care within minutes of wounding. Indeed, the icon of modern battlefield medicine 
+is the MEDEVAC helicopter.
+Late 20th Century
+During the postwar period following Vietnam, US 
+and NATO military planning remained focused on 
+fighting Soviet and Warsaw Pact forces on the plains 
+of Europe. Large-scale, intensive combat with massive numbers of conventional battlefield wounded, as 
+well as casualties from nuclear and chemical warfare, 
+were expected. Combat was expected to be fast paced, 
+highly mobile, and conducted day and night in all 
+weather conditions. 
+MEDEVAC doctrine continued to focus on rapidly 
+clearing the battlefield. Speed, aircraft performance, 
+and communications were key priorities for MEDEVAC commanders. Little, if any, attention was given 
+to the medical care provided by the flight medic. No 
+substantive medical treatment was expected in a fully 
+loaded aircraft carrying multiple casualties staffed 
+609
+Casualty Transport and Evacuation
+with only a single flight medic. From the Vietnam era 
+until 2012, the flight medic was trained only at the basic 
+combat medic level and had no requirement for any 
+hands-on patient care experience during their training. 
+During this period, civilian air ambulance services 
+proliferated. The first one was established in 1970. 
+By 1992, more than 220 helicopter ambulance services were established in the United States. 15 Although 
+initially modeled on the military’s rapid transport 
+model, the emerging civilian model evolved with a 
+“care is critical” philosophy whereby highly trained 
+and skilled providers were matched with specific 
+patients’ medical needs, bringing tertiary level care 
+to the patient during transport. 16 As civilian helicopter 
+emergency medical service (HEMS) evolved to bring 
+resuscitation to the patient, the military model continued to focus on bringing the patient as rapidly as 
+possible to resuscitation. 
+US forces were involved in several small conflicts in 
+the 1980s and 1990s, including operations in Grenada, 
+Iraq, Kuwait, Panama, Somalia, and Kosovo. In all 
+instances, combat operations were short-lived, with 
+relatively few casualties. No trends emerged during 
+these limited conflicts to challenge the Cold War model 
+of evacuation. During the same period, civilian HEMS 
+models became increasingly sophisticated. 
+On October 3, 1993, the most intense conflict involving US forces since the Vietnam War took place 
+in Mogadishu, Somalia. This conflict revealed some 
+hints about the future of what would be called “asymmetric warfare.” The challenges of fighting in an urban 
+environment, such as the vulnerability of helicopters, 
+difficulty of finding landing zones and resulting 
+prolonged care in the field, and delayed evacuation 
+heralded conditions to come during Operation Iraqi 
+Freedom almost a decade later in Fallujah, Sadr City, 
+and other heavily populated urban areas. 17
+Evacuation Lessons From Iraq and Afghanistan
+Iraq
+When US and coalition forces invaded Iraq and Afghanistan following the World Trade Center bombing 
+of September 11, 2001, the military medical evacuation 
+model remained focused on time, or rapidly clearing 
+the battlefield of casualties. Further, US evacuation 
+doctrine was directed toward military combat casualties from the POI to surgical care. It did not anticipate 
+the large numbers of pediatric, medical, and critical 
+care transports that would be encountered in the battlescapes of Iraq and Afghanistan. 
+During the initial maneuver phase of the war, nonstandard CASEVAC vehicles or MEDEVAC ground 
+or air ambulances were often the modes of evacuation 
+to the rear. Casualties entered the evacuation chain 
+at different levels. Sometimes they were transported 
+to an aid station (Role 1) or a brigade support medical company (Role 2), where they were stabilized by 
+non-surgeon medical staff and then transported by 
+MEDEVAC to a forward surgical team (FST). In some 
+instances, casualties were transported directly from 
+the POI to small, mobile FSTs. After surgical stabilization, casualties would be transferred from the FSTs 
+to forward hospitals (Role 3), usually by MEDEVAC 
+helicopters. 
+In the later phase of the war, a large and robust system of Role 3 facilities was established near most populated areas in Iraq. Compared to Afghanistan, Iraq’s 
+road and highway infrastructure was well developed, 
+with significant urban and suburban populations 
+centered along the Tigris and Euphrates river valleys. 
+Medical assets were robust and located near the areas 
+of most military operations. FSTs were consolidated 
+with Role 3 facilities to provide a more robust surgical and critical care capability. Battalion aid stations 
+(Role 1) or brigade support medical companies (Role 
+2) were often bypassed by MEDEVAC because surgical 
+care was often close by. Military medical planners had 
+adopted the “golden hour” concept in Iraq and were 
+able to attain an average evacuation time of 55 minutes 
+for seriously injured casualties. Evacuation times from 
+one battalion aid station in Baghdad ranged from 20 
+minutes to 2 hours during major combat operations, 
+with an average of about 25 minutes. 18
+Challenges during the transfer of postoperative 
+patients aboard MEDEVAC helicopters were noted 
+early in Iraq. A number of cases were described in 
+which patients were stabilized at an FST, transferred 
+to Role 3 by MEDEVAC, and arrived either dead or in 
+extremis. 19 At that time, MEDEVAC helicopters were 
+staffed by a single combat medic credentialed at the 
+Emergency Medical Technician-Basic (EMT-B) level. 
+These medics were not typically qualified to manage 
+patients requiring critical care or advanced resuscitative procedures, such as airway and ventilator management, advanced pharmacology, or blood product 
+administration. It was common for new flight medics 
+to encounter their first seriously injured or ill patient 
+on their first mission in combat. 
+Treatment protocols, documentation, medical direction, and quality improvement processes were not 
+standardized and varied significantly across US Army 
+helicopter evacuation units, nor were these processes 
+integrated with the overall trauma system. This is in 
+contrast to civilian HEMS systems that operate within 
+the United States, the United Kingdom (UK), and 
+most European countries. Current civilian helicopter 
+610
+Fundamentals of Military Medicine
+evacuation platforms are routinely staffed by critical 
+care trained flight paramedics or comparably trained 
+flight nurses, operating under the medical direction 
+of physicians with emergency medical service (EMS) 
+training, and using formalized protocols, standardized patient care documentation, and rigorous quality 
+improvement processes. 20 
+In 2004, the theater trauma director published 
+clinical practice guidelines (CPGs) that directed physicians or nurses trained in critical care to augment 
+postoperative transfers from Role 2 to Role 3. 21 While 
+the CPG provided detailed instructions for critical care 
+transport, no additional personnel were dedicated to 
+this mission by the US military, so the critical care providers would have to come from the transferring Role 
+2 or the receiving Role 3 facility. At the tactical level, 
+this resulted in the difficult decision of either sending 
+a key provider from a small forward team during combat operations, thus degrading the effectiveness of the 
+team; sending a provider from the receiving Role 3 to 
+the pick-up point; or transporting the patient with a 
+minimally trained flight medic. When providers were 
+sent from an FST or combat support hospital, they 
+often lacked any formal in-flight critical care training 
+or experience. A mix of all three techniques were used, 
+and all presented particular logistical and patient care 
+challenges. 22 
+The incidence of poor outcomes during MEDEVAC 
+in Iraq is unknown. No standardized patient care 
+record, chart review, or performance improvement 
+process was in place. Documentation of care during 
+a MEDEVAC flight was not required as part of the 
+medical record, and thus was not subject to review 
+or analysis performed by the Joint Theater Trauma 
+System. 
+Afghanistan
+After major combat operations ended in Iraq in 
+2009, combat and stability operations in Afghanistan 
+became a primary focus of the US and its coalition 
+partners. Afghanistan presented many different challenges than fighting in Iraq. Afghanistan, in contrast 
+to Iraq, is a vast and sparsely populated country with 
+numerous mountain ranges, poor road networks, and 
+primitive infrastructure. Combat forces were widely 
+dispersed. Unlike in Iraq, most medical evacuations to 
+surgical care in Afghanistan could only be conducted 
+by MEDEVAC helicopter (ground transport was not 
+practical nor safe based on lack of infrastructure, 
+distance to receiving facilities, and semipermissive 
+environments). 
+Conditions in Iraq had begun challenging the ColdWar-era legacy MEDEVAC model; in Afghanistan, 
+distance and time magnified the challenges of the 
+asymmetric, nonlinear battlefield. The operational 
+environment caused stress to the legacy MEDEVAC 
+model with (a) increased numbers of postoperative 
+critical care patients being transported from Role 2 to 
+Role 3; (b) unprecedented numbers of civilian transports including pediatric, geriatric, and medical cases 
+similar to those seen in civilian EMS; and (c) massively 
+injured polytrauma patients, who would have died in 
+previous conflicts, being kept alive by tactical combat 
+casualty care, improved protective equipment, and 
+access to early surgery. 
+Gaps in en route critical care capability in Afghanistan were noted as early as 2002. 23 Since then, efforts 
+were made to overcome these institutional gaps 
+by tactical-level providers and commanders on the 
+ground doing the actual day-to-day mission. These 
+ad hoc fixes included mandating licensed medical 
+providers (physicians, physician assistants, nurses) 
+to fly on MEDEVAC platforms; sending flight medics 
+to civilian paramedic training programs between deployments; deploying critical care nurses to augment 
+MEDEVAC crews; using paramedic-trained US Air 
+Force pararescue personnel to perform MEDEVAC; 
+and employing the tiered dispatch of higher capability 
+units such as the British Medical Emergency Response 
+Team (MERT) for the most severely injured patients, 
+particularly in the south and southwest of Afghanistan. 
+Similar to the Army field surgeons’ experience in 
+Iraq,19 the deployed theater trauma director in Afghanistan in 2009 noted a number of anecdotal cases where 
+patients had left a Role 2 facility following surgery 
+and had deteriorated significantly or died en route 
+to the Role 3. While Role 2 to Role 3 flights in Iraq 
+were usually much shorter,22 postoperative transfers 
+in Afghanistan before 2009 often took over an hour to 
+several hours, averaging 1. 5 hours. 24 In January 2009, 
+Secretary of Defense Robert Gates prioritized the need 
+to decrease evacuation times to under 1 hour. More 
+FSTs and medical evacuation assets were deployed, 
+and by December that year, the average evacuation 
+time in Afghanistan had been reduced from 100 to 42 
+minutes. 25 
+The 2004 CPG published in Iraq still recommended 
+that a nurse or physician accompany postoperative 
+patients. However, many FSTs, already small in size, 
+were now being split into two 10-person teams in Afghanistan to achieve the 1-hour standard mandated 
+by Secretary Gates. The smaller FSTs were then even 
+less able to give up a provider to accompany a patient 
+during evacuation. In response to the reports of poor 
+patient outcomes following postoperative transfer by 
+MEDEVAC, the theater trauma director initiated a 
+request for forces for the deployment of critical care 
+611
+Casualty Transport and Evacuation
+nurses to augment the MEDEVAC crews during these 
+flights. These en route critical care nurses arrived in 
+Afghanistan in 2010 without predeployment training 
+or recent flight experience, yet they and subsequent 
+groups were able to perform at high standards. Patient documentation and quality assurance measures 
+were put in place, and the outcomes of postoperative 
+patients improved. 26
+Between December 2008 and October 2009, a US 
+Army National Guard MEDEVAC unit was deployed 
+in southern and eastern Afghanistan with a unique 
+crew: nearly 75% of its flight medics were credentialed 
+and experienced EMT-Paramedics who actively practiced in the United States before deployment. These 
+medics had an average of 9 years’ field experience 
+and extensive training in critical care transport prior 
+to deploying. They brought civilian HEMS protocols, 
+documentation, medical direction, staffing, and process improvement standards to their MEDEVAC unit, 
+effectively adapting their civilian expertise to the military environment in Afghanistan. An analysis of this 
+group’s performance demonstrated a 66% reduction 
+in casualties’ risk of death at 48 hours compared to 
+the standard MEDEVAC units deployed before and 
+after them. 20 
+The MERT, consisting of a large CH-47 Chinook 
+helicopter staffed with a physician, a nurse, two paramedics, and a ground security force, also appeared 
+to improve the survival of the most seriously injured 
+casualties. The MERT was created for use in Iraq for 
+rapid incident response and deployed in southern 
+Afghanistan in 2006. In Afghanistan, the extensive 
+battle area in the UK’s area of responsibility led to 
+the far-forward employment of critical care assets. 
+UK forces leveraged the experience of many of their 
+deployed clinicians in HEMS. Initially, the MERT’s 
+medical component consisted of a general medical 
+officer delivering advanced trauma care. As the fielding of this team evolved, UK forces scaled their MERT 
+response to add physicians as needed, extending the 
+forward care and life-saving interventions they can 
+provide. It is important to note, though, that MERTs 
+were employed only in areas in which air superiority 
+or air supremacy had been established. It would be 
+premature to extrapolate the MERT’s current success 
+to other phases of battle in which air superiority has 
+not been achieved. 27 
+At coalition regional patient evacuation coordination centers, staffed in southwestern Afghanistan 
+around the clock by experienced trauma nurses, the 
+appropriate evacuation platform based on the patients 
+care needs was dispatched. This clinically based dispatch model was aimed at optimizing the patient’s care 
+during transport. The MERT was dispatched for the 
+most severely wounded; US Air Force Pararescue (with 
+two paramedics, call sign PEDRO) were dispatched 
+for advanced life support cases or in nonpermissive 
+environments; and DUSTOFF (with a single EMTB medic) for all others. Even when the PEDRO or 
+DUSTOFF units have a more rapid response, a MERT 
+was dispatched preferentially for the most severe cases 
+so that advanced resuscitation could be started as soon 
+as possible. If a MERT had a 15-minute response time 
+to the POI, for example, and a DUSTOFF unit had 
+a 10-minute response with a 10-minute subsequent 
+flight to Role 2 or 3, the MERT would be dispatched 
+so that resuscitation began in 15 versus 20 minutes. 
+This tiered response system was unique to one region 
+of Afghanistan. 28
+Specialized Teams
+For longer-range transport, beyond the rapid response of a DUSTOFF or MERT unit from the POI, the 
+US Air Force Aeromedical Evacuation system provides 
+fixed-wing movement of regulated casualties with extensively trained aircrew, which can be tasked across 
+the full spectrum of military operations. 29 Traditional 
+aeromedical evacuation teams consist of two flight 
+nurses and three aeromedical evacuation technicians, 
+with specialty training to care for patients on a variety 
+of opportune aircraft, primarily the C-130 Hercules, 
+the C-17 Globemaster, and the KC-135 Stratotanker. 
+In the early 1990s, the US Air Force surgeon general, 
+Lieutenant General P.K. Carlton, had envisioned a 
+critical care air transport team (CCATT) to serve as a 
+mobile intensive care unit, augmenting a traditional 
+aeromedical evacuation mission to provide expert care 
+for critically ill casualties. 
+CCATTs now consist of a critical care physician, a 
+critical care nurse, and a respiratory therapist, capable 
+of caring for a number of ventilated casualties while 
+simultaneously providing ongoing resuscitative interventions in-flight. 30 Combat casualties surviving 
+extensive, multi-system trauma and stabilized in theater via damage control surgery can now be evacuated 
+safely and rapidly to the United States, often within 
+48 to 72 hours of the initial injury. Specialized critical 
+care personnel can also augment CCATTs to support 
+patients with additional requirements, including the 
+use of more advanced ventilation protocols and extracorporeal membrane oxygenation. 
+Special Operations Teams
+The Air Force Special Operations Command (AFSOC) developed its own en route care capabilities 
+to meet special operations forces (SOF) mission sets. 
+612
+Fundamentals of Military Medicine
+The earliest AFSOC en route care specialists were the 
+Special Operations Forces Medical Element (SOFME) 
+teams, comprised of a flight surgeon (typically an 
+internship-trained flight surgeon) and two independent duty medical technicians. 31 These teams had 
+in-garrison base-operating support duties and were 
+on alert at all times for forward taskings. As AFSOC 
+physician assistants (PAs) proved their worth in the 
+SOF medical arena, it became increasingly common for 
+PAs to serve in the SOFME teams in place of the flight 
+surgeon. 32 The SOFME role evolved in the post-9/11 
+world of increasing operations tempo and expanding 
+SOF application in global engagement. The SOFME 
+operational medical pipeline is robust and has come 
+to involve clinical skills (eg, Advanced Trauma Life 
+Support, Prehospital Trauma Life Support, Tactical 
+Combat Casualty Care, aeromedical disposition) and 
+tactical skills (the AFSOC CASEVAC course, field skills 
+training, and small unit tactics). 33 SOFME teams are 
+located on multiple continents and engage in everything from combat CASEVAC to multilateral training 
+with partner nations and humanitarian assistance/
+disaster response.
+The success of the Air Force CCATT and Mobile 
+Forward Surgical Team (MFST; a five-person surgical team able to carry its own gear and walk into a 
+location) led to the next generation of SOF medical 
+support. The advent of the Special Operations Surgical Team (SOST) and Special Operations Critical Care 
+Evacuation Team (SOCCET) changed the landscape 
+of SOF medical support capability. Now, theater SOF 
+teams had far-forward damage control surgical support with embedded intensive care capability. SOST/
+SOCCET personnel are highly trained medical and 
+surgical professionals who must keep their medical 
+skills up to date. 34 In addition, their pipeline training 
+requires awareness of small unit tactics, field skills, 
+and essential SOF field support capability. 
+These teams were initially designed to operate independently as needed, but their field application more 
+often required joint basing in support of ground force 
+SOF operations. SOST/SOCCET teams have worked 
+successfully in many forward settings, ranging from 
+combat support to humanitarian assistance/disaster 
+response. 35 As it became increasingly clear that their 
+predominant use was in support of ground operations, 
+in 2012 the command surgeon of the 24th Special Operations Wing coordinated AFSOC’s plan to place the 
+SOST/SOCCET units under the command of the 720th 
+Special Tactics Group. This strategic move paved the 
+way for major advances in the organization, training, 
+equipping, and application of these mission-critical 
+medical support assets. SOST/SOCCET units based in 
+the continental United States are embedded at civilian 
+trauma centers, a unique feature. 36 As self-contained, 
+geographically separated units, teams live and work 
+at busy civilian trauma centers, honing their critical 
+care and surgical skills. Always on-call, they are able 
+to respond rapidly to the next SOF support mission 
+anywhere in the world. 
+EVACUATION IN FUTURE CONFLICTS
+The Operational Environment
+Cold War-era MEDEVAC doctrine emphasized 
+clearing the battlefield and relieving the fighting troops 
+of the burden of casualty care. In today’s conflicts, the 
+challenge for medical evacuation is to provide state-ofthe-art care to patients; this will likely be true in future 
+asymmetric conflicts as well. Indeed, the aim of current 
+NATO evacuation doctrine is “to provide a standard of 
+medical care which is as close as possible to prevailing 
+peacetime standards, and follows the principles of best 
+medical practice, while acknowledging the operational 
+posture and environment.”37 
+In the foreseeable future, US military operational 
+environments are likely to be much more complex and 
+challenging than the relatively stable settings of the 
+Cold War, where one large, constant, and discernible 
+threat was the focus. Today, threats are numerous, 
+poorly understood, difficult to identify, and unpredictable. Radical Islam, rogue states possessing weapons 
+of mass destruction, regional instability in the Middle 
+East and northern Africa, international criminal activity, a rising China with a culture and history unknown 
+to most in the West, the threat of pandemic disease, 
+environmental and natural disasters, and global economic instability all create a complex environment 
+for military and military medical planners. No longer 
+is rapid evacuation through echelons of care within a 
+defined battle area or front line axiomatic. 
+Armed conflict will likely remain asymmetric because 
+most nations and non-state actors cannot match US and 
+NATO forces in conventional air-land battle. Asymmetric war will be fought in urban areas where enemy forces 
+will attempt to negate the superior technology, mobility, 
+and firepower of the United States and its allies. Civilians 
+will be encountered and will be purposefully put into 
+harm’s way as opposing forces seek not only to burden 
+the medical system, but also to create the appearance of 
+atrocities and civilian deaths as a result of US and allied 
+actions. Intensive military operations in urban environments will create difficulties in evacuation similar to 
+those seen in Mogadishu and Fallujah. 38 
+613
+Casualty Transport and Evacuation
+Evacuation will often be delayed, necessitating 
+prolonged care in the field. Unarmed MEDEVAC 
+helicopters will be vulnerable to small arms fire and 
+rocket-propelled grenades, and landing zones will 
+be limited. Casualties will be carried by hand on litters and moved by nonstandard CASEVAC vehicles 
+to forward aid stations and forward surgical care, 
+or transported outside the city where landing zones 
+can be secured. A newly evolving capability, the US 
+Air Force tactical critical care evacuation team (with 
+an emergency/critical care physician, certified nurse 
+anesthetist, and emergency/critical care nurse) will 
+provide substantial clinical capability, available on a 
+variety of platforms, with minimal staffing and equipment. Future conflicts will certainly require use of this 
+light, life-saving capability.
+Following the withdrawal of combat forces in 
+Afghanistan, political and economic pressures will 
+make another prolonged conflict politically unpopular unless vital interests are directly threatened. 
+Expeditionary operations will likely be the norm. 
+Large, robust, fixed forward medical facilities will 
+not be in place, especially during initial entry operations. Yet state-of-the-art care for US forces will 
+be expected, especially given the low case fatality 
+rates during operations in Iraq and Afghanistan. 
+Combat casualty survival in such an environment 
+will require expert prehospital care and an evacuation chain that emphasizes advanced far-forward 
+damage control resuscitation focused on airway 
+management, resuscitation with blood products, 
+and hemorrhage control. 39 
+Military planners have described “an arc of instability,” extending from the Mediterranean Sea to the Sea 
+of Japan, where future conflicts are most likely to arise. 
+This region encompasses vast geographic areas such 
+as Africa, the Indonesian archipelago, the Indian subcontinent, and the South Pacific. Conducting medical 
+evacuation in these areas poses significant problems, 
+and the golden hour requirement will be difficult to 
+attain. US MEDEVAC doctrine will require a fundamental cultural change that focuses on extending the 
+golden hour by bringing skillful advanced resuscitation to the patient in the manner of civilian HEMS 
+systems or the British MERT. Expeditionary medical 
+support will not have a robust holding capability. Patients will be moved mostly by air, and resuscitation 
+will be ongoing throughout transport. 
+In the event of a large-scale conventional war or a 
+period of intensive conflict in a smaller war, military 
+medical planners may have the option of implementing a “mass casualty” protocol that would return to 
+the Cold War goal of rapidly clearing the battlefield. 
+Evacuation platform staffing, treatment protocols, 
+and patient loads could then be modified according to the tactical situation based on predetermined 
+criteria. 
+Finally, the military medical evacuation systems 
+must take into account domestic and international 
+disaster support. Military forces offer a tremendous 
+resource to governments following disasters. The 
+military’s logistics and communications capabilities, 
+in conjunction with efficient command and control 
+mechanisms and expeditionary medicine expertise, 
+will continue to be called upon during large-scale humanitarian crises. An evacuation system that operates 
+under the local standard of care will be more adept 
+and more easily integrated into the disaster response.
+Principles of Evacuation for Future Conflicts
+Overall System Design
+The key element in providing quality patient care 
+given the available resources is the design of the prehospital care and evacuation system. Evacuation concepts 
+have carried over from war to war, often based in historical precedent, convenience, and military tradition 
+rather than on a deliberate analysis of patient care needs 
+by experts. Evacuation systems in future conflicts will 
+benefit from a systems analysis approach with patient 
+outcomes as the primary driver. Although resources 
+and military exigencies must be accounted for, keeping 
+the wounded casualty at the center of the system design 
+process allows deliberate policy decisions to be made 
+with the focus on optimizing patient care. 
+Medical Direction and Oversight
+Active supervision of the evacuation system by physicians who practice and have expertise in emergency, 
+critical care, and critical care transport medicine is 
+required to optimize patient outcomes. 40 The medical 
+director should have oversight and accountability of 
+all aspects of the system related to patient care. This 
+includes training and clinical supervision of prehospital providers, development and fielding of patient 
+care protocols, selection of medical equipment, and 
+quality assurance processes including chart/case 
+review, research, and process improvement efforts. 
+The medical director must be competent in providing 
+and supervising patient care in the field and should 
+participate in direct patient care in the field on a regular basis. Regular exposures to conditions in the field 
+are the only way to fully understand how the system 
+functions and where improvements need to be made. 40 
+Patients cared for in the evacuation system are the 
+responsibility of the system’s medical director. The 
+614
+Fundamentals of Military Medicine
+non-physician providers in the system are practicing 
+under the license of the medical director; therefore, 
+the medical director should not be subordinate to the 
+commander of the evacuation system but should be 
+free to make decisions and give orders related to the 
+provision of clinical care. He or she must be the final 
+authority over all clinical aspects of the evacuation 
+system. This prehospital specialist, or “prehospitalist,” will change the battlespace not only by applying 
+advanced skills in the administration and oversight 
+of prehospital care systems, but also by bringing to 
+bear specific clinical skills designed for prehospital, 
+austere, and en route care settings. The Department of 
+Defense (DoD) currently trains such “prehospitalists” 
+in a 2-year accredited fellowship based at a Level 1 
+military trauma center.
+Dispatch and Response
+Requests for medical evacuation by US forces require transmission of a “9-line” report (Table 39-1). 
+TABLE 39-1
+STANDARD 9-LINE MEDEVAC REQUEST 
+FORMAT
+Line 1 Location of pick-up site
+Line 2 Radio frequency, call sign, and suffix
+Line 3 Number of patients of precedence 
+(A-Urgent, B-Urgent surgical, C-Priority, DRoutine, E-Convenience)
+Line 4 Special equipment required
+(A-None, B-Hoist, C-Extraction equipment, DVentilator)
+Line 5 Number of patients
+(A-Litter, B-Ambulatory)
+Line 6 Security at pick-up site (in peacetime, number and 
+types of wounds, injuries, illness)
+(A- No Enemy in area, B-Possible enemy in area, 
+C-Enemy in area, D-Enemy in area & armed escort 
+required)
+Line 7 Method of marking site
+(A-Panels, B-Pyrotechnic, C-Smoke, D-None, EOther)
+Line 8 Patient nationality and status
+(A-US Military, B-US Civilian, C-Non-US Military, 
+D-Non-US citizen, E-EPW)
+Line 9 NBC (in peacetime: terrain description at pick-up 
+site)
+(N-Nuclear, B-Biological, C-Chemical)
+EPW: enemy prisoner of war
+The “9-line” focuses mostly on tactical considerations; 
+only two parts deal with patients. Line 3 lists numbers 
+of patients by precedence (urgent, urgent surgical, 
+priority, routine, and convenience) and line 5 lists the 
+number of patients who are on litters and those who 
+are ambulatory. Because the order of clinical precedence of the patients is subjective, “over-triage” is 
+common using this process; providers on the ground 
+often assign a higher priority than is needed. The recent 
+addition of the MIST (mechanism, injury type, signs, 
+and treatment given) report to the 9-line provides 
+injury mechanism data with physiologic data similar 
+to civilian trauma center transport guidelines. 41 While 
+the current American College of Surgeons (ACS) 
+guidelines, which focus on civilian trauma systems, 
+are too extensive for field use by military medics, the 
+methodology proposed by the ACS guidelines should 
+be applied to military trauma, with the development 
+of military-specific criteria. Expanding on the prehospital MIST report concept, future evacuation systems 
+should take into account physiologic, anatomic, and 
+injury mechanism data to more accurately identify 
+patients requiring aggressive forward resuscitation 
+and rapid transport to forward surgical care.
+Medical director involvement is required to ensure not only a well-structured dispatch process, but 
+also dispatch of the appropriate evacuation capability based on patient needs. The patient evacuation 
+coordination center or evacuation dispatch element 
+must be staffed with trained and experienced medical 
+personnel and should be collocated in key command 
+and control communications centers to synchronize 
+military operational, security, and medical evacuation 
+operations. 
+Evacuation Platforms 
+Many vehicles can be used to move casualties. These 
+may be dedicated ground and air ambulances marked 
+with red crosses, staffed with medically trained personnel, and equipped for patient care, or they may 
+be a nonmedical vehicle or aircraft without medical 
+equipment or personnel. The type of vehicle used 
+will depend on availability, weather, terrain, and the 
+type and intensity of combat operations. A thorough 
+mission analysis by military medical planners using 
+the “PACE” methodology should identify a primary, 
+alternate, contingency, and emergency method for 
+evacuation. 
+Ground ambulances are the principal method 
+of moving patients from the forward edge of battle 
+during conventional combat operations. A number 
+of variations, each with different capabilities and 
+patient load capacities, exist. Although a detailed 
+615
+Casualty Transport and Evacuation
+discussion of each type is beyond the scope of this 
+chapter, medical directors and planners should be 
+intimately familiar with each ambulance configuration 
+used in their area of operations. Ground ambulances 
+are most appropriate for short transits on established 
+road networks and across relatively flat, open terrain. Some ground ambulances are capable of limited 
+transit across rugged terrain; however, their use in 
+mountainous, jungle, and heavily forested regions 
+will be limited to established road networks. Weather 
+and illumination conditions may degrade the speed 
+of ground ambulance transport, but generally will not 
+inhibit ground evacuation. 
+In Afghanistan, evacuation by helicopter has 
+emerged as the principal method of transporting 
+patients from the POI to forward surgery and from 
+forward surgery to the combat support hospital. The 
+MEDEVAC helicopter will continue to be the key 
+method of casualty transport during low-intensity and 
+asymmetric conflicts because these types of operations 
+require a wide distribution of forces but a relative 
+centralization of medical assets. In this environment, 
+helicopters will be required to meet current time to 
+surgical care guidelines. MEDEVAC helicopters can be 
+dispatched directly to the POI and are able to retrieve 
+patients from small landing zones or hoist them from 
+the ground while hovering; thus, they are very effective in rugged or heavily forested terrain that may be 
+inaccessible to ground ambulances. Unfortunately, 
+patient care space is limited on helicopters. Noise, 
+cabin lighting, and vibration make patient assessment 
+and treatment difficult. Weather and illumination conditions may inhibit helicopter evacuation. Additionally, operations in urban environments will limit the 
+use of MEDEVAC helicopters because landing zones 
+are difficult to establish and unarmed helicopters are 
+vulnerable to ground fire in dense urban areas.
+Fixed-wing aircraft, such as the C-130 Hercules, 
+are excellent forward evacuation platforms under 
+certain circumstances. They have a large cargo area 
+that provides significantly more workspace, and they 
+travel at nearly twice the speed of helicopters, making them ideal for long-distance evacuation. Medical 
+attendants are able to stand erect and move about. 
+Along with substantially less noise and vibration 
+than in a helicopter, this makes patient care and assessment easier to perform. Most fixed-wing cargo 
+aircraft can readily be converted to carry a large 
+number of litters.
+However, evacuation by fixed-wing aircraft requires access to a suitable runway. Ground or helicopter evacuation is required to transport the patient from 
+a forward treatment facility to the airfield. Requests 
+for fixed-wing evacuation platforms will become more 
+complex and time-consuming because these aircraft 
+will often not be dedicated to forward medical evacuation. Medical crews and equipment, not typically 
+assigned to the aircraft, will need to be assembled. 
+Weather and illumination conditions may limit fixedwing evacuation, but to a lesser degree than helicopter 
+transport. Fixed-wing evacuation, when available, is 
+ideal for moving large numbers of casualties or those 
+requiring intensive critical care over longer distances. 
+When MEDEVAC helicopters are limited in urban 
+warfare, moving casualties by ground to an airstrip 
+outside of the urban area for fixed-wing evacuation 
+may be a viable alternative. 
+Navy en route care has taken a quantum leap forward with the advent of EMS board-certified medical 
+directors; the development of standardized protocols, 
+education, and training; and the evolution of joint en 
+route care CPGs. Sea-basing of casualty collection and 
+treatment, as well as specific en route care training for 
+corpsmen, may revolutionize naval evacuation over 
+vast distances in theaters such as the Pacific Command. 
+Provider Staffing and Capability
+A number of staffing models for both civilian air 
+and ground ambulances exist. For ground ambulance services these include basic life support (BLS), 
+EMT-B level; advanced life support (ALS) providers 
+(paramedics); and in some instances, intermediatelevel providers capable of more advanced airway and 
+vascular access techniques than EMT-Bs, yet lacking 
+the advanced capabilities of paramedics. Most civilian 
+air ambulance systems in the United States (93%) are 
+staffed with two providers, most commonly a flight 
+paramedic and flight nurse (67%). Other configurations include two flight nurses (8%), two flight paramedics (5%), and a single nurse or paramedic (3%). 42 
+There have been no large prospective studies demonstrating an advantage of one staffing model over 
+another. Physicians in North America rarely perform 
+prehospital or field care, although in Europe many 
+ground and air evacuation platforms are routinely 
+staffed by physicians trained to provide prehospital 
+care. 
+Most military ambulances are staffed with at least 
+two military medics, although Army MEDEVAC helicopters have traditionally been staffed with a single 
+combat medic. Combat medics in the US Army are 
+credentialed at the EMT-B level, but they are trained 
+in more advanced techniques such as surgical airways, 
+needle chest decompression, and intravenous as 
+well as intraosseous access. While studies of military 
+ground ambulance staffing models are lacking, several 
+recent retrospective military studies have shown im616
+Fundamentals of Military Medicine
+proved patient outcomes related to helicopter evacuation platform staffed with critical care paramedics20 
+and physicians. 43 
+In addition to unprecedented numbers of civilian 
+transports, operations in Afghanistan have challenged the conventional evacuation platform staffing 
+model for US forces with (a) severely injured casualties with multiple traumatic injuries kept alive by 
+advanced body armor and tactical combat casualty 
+care, many whom would have died in past conflicts, 
+and (b) increased numbers of postoperative cases. 
+This pattern will likely continue in future scenarios. 
+During a conventional conflict, military-age males 
+with traumatic injuries will be the majority of patients 
+transported, whereas in low-intensity and asymmetric 
+conflicts, civilians of all ages as well as medical cases 
+will frequently be transported. 44 Optimizing casualty outcomes in future conflicts requires MEDEVAC 
+crews capable of meeting the needs of the patients 
+transported across the full spectrum of conflict, from 
+counterinsurgency operations to conventional combined arms battles. 
+Evacuation times in combat can be incredibly 
+variable, especially during the initial entry phase 
+of operations. Expeditionary, initial entry, and 
+special operations will therefore require forward 
+medical personnel to accompany the wounded 
+during what may be a prolonged evacuation. These 
+medical assets must be trained, experienced, and 
+competent in forward resuscitative care. Staffing 
+models should be flexible and able to care for all 
+types of patients that may be encountered. Using a 
+tiered system (with separate critical care, ALS, and 
+BLS responses) is feasible in a small geographic 
+area such as described above in southeastern Afghanistan. However, such a tiered system would 
+be difficult to implement across a large geographic 
+area or during initial operations in an immature 
+theater of war. Here, a single efficient and flexible 
+staffing model capable of responding across the full 
+spectrum of patient care needs is key. 
+Although one provider may be adequate for most 
+stable and routine transfers, two providers should 
+be available for any seriously ill or injured patients. 
+Evacuation platform providers should be capable of 
+retrieving a severely injured casualty from the POI 
+and performing stabilizing care (including advanced 
+airway management, hemorrhage control, resuscitation with blood products, chest decompression, and 
+pharmacologic therapy for sedation, pain, blood pressure support, and coagulopathy). Rather than simply 
+transporting the casualty, the goal should be to begin 
+resuscitation on retrieval and continue it until the 
+patient reaches forward surgical care. This same team 
+should be capable of transporting the same patient in 
+the postoperative period to a definitive care hospital, 
+continuing to provide critical care in transit.
+Data and Quality Improvement 
+Military medical providers are dedicated professionals committed to performing quality patient care 
+during medical evacuation in extremely hazardous environments. Such high-quality patient care is expected 
+not only by those in uniform who place themselves in 
+harm’s way, but also by the political leaders, military 
+commanders, and citizens of their respective nations 
+who ask the military to risk life and limb for national 
+defense. Though service members deserve the highest quality of care that can realistically be delivered in 
+a combat setting, functional military systems of data 
+collection, patient care documentation, and quality 
+improvement processes were generally lagging until 
+well into the mid-2010s.
+Incomplete patient care data from the prehospital 
+phase of care is the single greatest challenge to improving military medical care. A growing body of evidence 
+suggests the prehospital phase (including evacuation) 
+is the where the largest number of potentially salvageable deaths occur. 45 Yet fewer than 14% of casualties 
+had any documentation of prehospital care on arrival 
+to a surgical facility in Iraq and Afghanistan, according 
+to a 2011 report. 46 Any effort to improve the quality of 
+care during medical evacuation requires data; competency and quality of care cannot be demonstrated 
+nor improved without data collection and documentation. 47 One cannot improve what one cannot measure, 
+and one cannot measure without data. 48 
+A detailed discussion of data collection systems, 
+patient documentation, and quality improvement 
+methods is beyond this scope of this chapter. However, 
+the following general principles from “Data A–Z” by 
+Mears49 should be mentioned:
+ 
+• For any quality initiative, it is essential that 
+data collection systems be created to measure 
+the fundamental tenets of the EMS system—
+patient care and service delivery.
+ 
+• Data elements must be standardized and 
+uniform, with consistent definitions.
+ 
+• Generating a medical record holds EMS personnel accountable for their critical decisionmaking and patient care. Medical records also 
+allow identification of educational needs and 
+areas of improvement.
+ 
+• Information systems should obtain a large portion 
+of data passively from automated systems such 
+as medical devices (monitors) and computers.
+617
+Casualty Transport and Evacuation
+ 
+• EMS information systems should be strategic 
+and clearly defined. The application of data 
+should enhance patient care, not detract from 
+it. Information systems should drive the EMS 
+system, its service delivery, and its patient 
+care.
+ 
+• Data entry requirements must be balanced 
+with patient care requirements. Extensive 
+demographic data and other elements not 
+immediately related to patient care should 
+be deferred until the patient reaches a fixed 
+facility. 
+ 
+• If a data system is put into place without adequate training and support, the user experience will be negative. A negative user experience at this critical point can be devastating. 
+ 
+• Technology is critical to the success of an 
+information system, but can be damaging 
+if it is applied inappropriately or before it is 
+mature. 49
+The main argument against prehospital data collection by field providers is that it is precluded by the 
+chaotic nature of combat. While this may be true in 
+some major combat operations at certain periods, the US 
+Army’s 75th Ranger Regiment, one of the most heavily 
+engaged combat units of the US forces, has successfully 
+collected patient data on every casualty sustained during 
+operations in Iraq and Afghanistan. This data has been 
+used to continuously improve the quality of the organization’s casualty response system. The 75th Ranger 
+Regiment is also the only unit in the US military that has 
+demonstrated zero potentially preventable deaths in the 
+prehospital setting after more than a decade of combat. 50
+Prehospital and evacuation patient care data must 
+be captured, integrated, and synchronized with the patient’s medical record and the theater trauma system. 
+With accurate evacuation care data, clinical benchmarks can be established, outcomes can be evaluated, 
+and quality improvement initiatives implemented in 
+a continuous cyclical process. 
+MODEL FOR FUTURE CASUALTY CARE CONTINUUM SUCCESS
+To replicate the successful trauma registries and 
+trauma systems used by US civilian trauma centers, 
+forward deployed trauma surgeons developed the 
+Joint Theater Trauma System, which evolved into the 
+Joint Trauma System (JTS), serving the DoD’s global 
+operations. Housed at the US Army Institute of Surgical Research, the JTS is helping to enable a more structured approach to trauma care from POI to definitive 
+care and rehabilitation. Recognizing that trauma care 
+is a continuous and enduring DoD mission, the system 
+was established to improve standards in trauma care 
+across the continuum of care, built on standardized 
+documentation, registry development, outcome analysis, performance improvement, and evidence-based 
+medical practice across the entire continuum. The 
+JTS continues to evolve, and its trauma registry has 
+served as the model for similar registries in partner 
+nation military medical systems. CPGs are published 
+and routinely updated in an effort to optimize care 
+for combat trauma both on the ground and in the air. 
+This system is built to adapt to the current and future 
+political, strategic, and operational needs of the DoD.
+SUMMARY
+Evacuation is a core military medical function. 
+Enhanced en route care is the latest innovation in the 
+history of medical evacuation. The interrelationship 
+between military and civilian medicine in this field is 
+clear: each community has made advances in medical 
+evacuation, and each has adopted advances made by 
+the other. While war has driven many of the current 
+advances in prehospital combat casualty care (junctional tourniquets, hemostatic agents and dressings, 
+telemedicine, and TCCC), civilian emphasis on critical care evacuation, quality assurance, protocols, and 
+proactive medical direction is equally improving the 
+landscape of prehospital military medicine.
+For combat arms commanders, who place a premium on accomplishing the mission, the best possible 
+care of the combat wounded is an absolute priority. In 
+addition to the first-order effect of reducing mortality 
+and morbidity, exceptional medical care and evacuation provide second- and third-order effects as well: 
+combat troops undertake the mission with peace of 
+mind, knowing the medical team is behind them, ready 
+to take care of them and evacuate them to life-saving 
+care each time they protect national interests by going 
+into harm’s way.
+REFERENCES
+ 
+1. Lam DM. Medical evacuation, history, and development—the future in the multinational environment. Paper presented at: Research and Technology Organisation Human Factors and Medicine Specialists Meeting on the Impact of 
+NATO/Multinational Military Missions on Health Care Management; September 4-6, 2000; Kiev, Ukraine.
+618
+Fundamentals of Military Medicine
+ 
+2. Larrey DJ. Memoirs of Military Surgery and Campaigns of the French Armies. Vol I. Hall RH, trans. Baltimore, MD: Joseph 
+Cushing/University Press of Sergeant Hall; 1814: 23.
+ 
+3. Ortiz JM. The revolutionary flying ambulance of Napoleon’s surgeon. US Army Med Dep J. October-December 1998: 
+17-25.
+ 
+4. US Department of Veterans Affairs. America’s wars. http://www.va.gov/opa/publications/factsheets/fs_americas_wars.
+pdf. Published November 2014. Accessed July 17, 2018.
+ 
+5. Deaderick RD. Field Medical Support of the Army of the Potomac at the Battle of Gettysburg [research paper]. Carlisle Barracks, PA: US Army War College; March 1989.
+ 
+6. Greenwood JT. Hammond and Letterman: A Tale of Two Men Who Changed Army Medicine [research paper]. San Antonio, 
+TX: Institute of Land Warfare; 03-1: June 2003. 
+ 
+7. Runyan N. The Greatest Adventure: American Volunteer Ambulance Drivers in the First World War. [research paper]. Corvallis, OR: Oregon State University; 2012. https://ir.library.oregonstate.edu/downloads/2z10wr68s. Accessed August 
+30, 2018.
+ 
+8. Ginn RVN. World War I—the ambulance service. In: Ginn RVN. The History of the US Army Medical Service Corps. Washington, DC: Center of Military History; 1997:chap 2. http://history.amedd.army.mil/booksdocs/HistoryofUSArmyMSC/
+chapter2.html. Accessed February 5, 2015. 9. 
+ 
+9. Ford JH. Field operations. In: Lynch C, ed. The Medical Department in the World War. Section VIII. Washington, DC: 
+Government Printing Office; 1925:838. 
+ 10. Pruitt BA. Combat casualty care and surgical progress. Ann Surg. 2006;243(6):715–729.
+ 11. Donald D, ed. The Complete Encyclopedia of World Aircraft. New York, NY: Barnes & Noble; 1997.
+ 12. Nanney JS. Army Air Forces Medical Services in World War II. Washington, DC: Government Printing Office; 1998: 15. 
+https://archive.org/details/a433168-nsia. Accessed August 30, 2018.
+ 13. Conner R. Medevac from Luzon. Air and Space Magazine. 2010;25(2):62-67.
+ 14. Zimmerman DJ. Battlefield medicine in the Korean War. Defense Media Network. http://www.defensemedianetwork.
+com/stories/battlefield-medicine-in-the-korean-war. Published February 9, 2014. Accessed February 5, 2015.
+ 15. Blumen I. A safety review and risk assessment in air medical transport. In: Air Medical Physician Handbook. 1st ed. Salt 
+Lake City, UT: Air Medical Physician Association; 2002: supplement. 
+ 16. Air Medical Services: Critical Component of Modern Healthcare Systems. Alexandria, VA: MedEvac Foundation International; 2011:5. http://aams.org/publications/air-medical-services-critical-component-modern-healthcare-systems-2011/. 
+Accessed July 17, 2018.
+ 17. Mabry RL, Holcomb JB, Baker AM, et al. United States Army Rangers in Somalia: an analysis of combat casualties on 
+an urban battlefield. J Trauma. 2000;49(3):515–529.
+ 18. Gerhardt RT, Berry JA, Blackbourne LH. An analysis of life saving interventions performed by out of hospital combat 
+medical personnel. J Trauma. 2011;71(1):S109–S113.
+ 19. Beekley AC. United States military surgical response to modern large-scale conflicts: the ongoing evolution of a trauma 
+system. Surg Clin North Am. 2006;86(3):689–709.
+ 20. Mabry RL, Apodaca A, Penrod J. Impact of critical care-trained flight paramedics on casualty survival during helicopter 
+evaluation in the current war in Afghanistan. J Trauma. 2012;73(2 Suppl 1):S32–37.
+619
+Casualty Transport and Evacuation
+ 21. US Department of Defense. Intratheater Transfer and Transport of Level II and III Critical Care Trauma Patients. Joint Theater Trauma System Clinical Practice Guideline, CPG ID: 27. Original release December 18, 2004; update November 
+19, 2008. 
+ 22. Franco YE, DeLorenzo RA, Salyer SW. Emergent interfacility evacuation of critical care patients in combat. Air Med 
+J. 2012:31(4):185–188.
+ 23. Bilski TR, Baker BC, Grove JR, et al. Battlefield casualties treated at Camp Rhino, Afghanistan: lessons learned. J 
+Trauma. 2003;54:814–821.
+ 24. Zoroya G. MEDEVACs for troops to get faster in Afghanistan. USA Today. December 17, 2009. http://truthfortroops.
+blogspot.com/2009/12/medevacs-for-troops-get-faster-in.html. Accessed February 5, 2015.
+ 25. Berry J, Thomas E. A war within. Newsweek. September 20, 2010. Vol. 56, No. 12.
+ 26. Kotwal RS, Butler FK, Edgar EP, Shackelford SA, Bennett DR, Bailey JA. Saving lives on the battlefield: A Joint 
+Trauma System review of pre-hospital trauma care in the CJOA-A. Final report. US Central Command Pre-Hospital 
+Trauma Care Assessment Team. http://www.specialoperationsmedicine.org/documents/TCCC_2016/06%20TCCC%20
+Reference%20Documents/CENTCOM%20Prehospital%20Final%20Report%20130130.pdf. Published January 30, 2013. 
+Accessed July 18, 2018.
+ 27. Bricknell MCM, Johnson AG. Forward medical evacuation. https://military-medicine.com/article/3083-forward-medicalevacuation.html. Updated July 4, 2013. Accessed February 5, 2015.
+ 28. Clarke JE, Davis PR. Medical Evacuation and triage of combat casualties in Helmand Province, Afghanistan: October 
+2010–April 2011. Mil Med. 2012;177(11):1261–1266. 
+ 29. Department of the Air Force. Aeromedical Evacuation Operations Procedures. Washington, DC: USAF; 2014. Air Force 
+Instruction 11-2AE, Volume 3. 
+ 30. Beninati W, Meyer MT, Carter TE. The critical care air transport program. Crit Care Med. 2008;36(7suppl):S370–376.
+ 31. Costa JE. The Casualty Care Interface Between the Air Force Medical Service and Air Force Special Operations Forces [research 
+paper]. Maxwell Air Force Base, AL: Air Command and Staff College, Air University; 2002.
+ 32. Air Force special operations. In: Hughey MJ. Operational Medicine [CD-ROM]. Washington, DC: Department of the 
+Navy, Bureau of Medicine and Surgery; 2001. http://webapp1.dlib.indiana.edu/virtual_disk_library/index.cgi/4931363/
+FID2617/DATA/operationalmed/special%20operations/air%20force%20pararescue%20forces.htm. Accessed February 
+5, 2015.
+ 33. Department of the Air Force. USAF Medical Support of Special Operations Forces. Washington, DC: USAF; 2012. Air Force 
+Tactics, Techniques, and Procedures 3-42. 6.
+ 34. McKenna P. AFSOC team helps shape future of afghan medicine. Hurlburt Warrior. October 28, 2011;5(43):2–4.
+ 35. Griego N. Special tactics medical professionals provide critical care and evaluation. Military News blog. http://militaryonline.blogspot.com/2014/02/special-tactics-medical-professionals.html. Published January 9, 2014. Accessed February 
+5, 2015.
+ 36. Iddins BO. AFSOC component surgeon’s report. J Spec Oper Med. 2010;10(3):67–68.
+ 37. Hartenstein I. Medical evacuation policies in NATO: Allied Joint Doctrine for Medical Evacuation. https://
+stopthemedevacmadness.files.wordpress.com/2012/02/nato-medical-evacuation-policies-in-nato-mp-hfm-157-01.pdf. 
+Published 2008. Accessed July 19, 2018.
+ 38. Chang HT. The Battle of Fallujah: Lessons learned on military operations on urbanized terrain (MOUT) in the 21st 
+century. J Undergrad Res [University of Rochester]. 2007;6(1):31–38.
+620
+Fundamentals of Military Medicine
+ 39. Blackbourne LH, Baer DG, Eastridge BJ, et al. military medical revolution: prehospital combat casualty care. J Trauma 
+Acute Care Surg. 2012;73(6):S372–S377.
+ 40. Pepe PE, Copass MK, Fowler RL, Racht EM. Medical direction of emergency medical systems. In: Cone DC, O’Connor 
+RE, Fowler RL, Hauda MD, Deatley C, eds. Emergency Medical Systems Clinical Practice and Systems Oversight. Vol 2. 
+Dubuque, IA: Kendall Hunt Publishing and National Association of EMS Physicians; 2009:22–52.
+ 41. Rotondo MF, Cribari C, Smith RS, eds. Resources for the Optimal Care of the Injured Patient. Chicago, IL: American College of Surgeons; 2014.
+ 42. Judge T, Thomas SH, Haneky DG. Air medical services. In: Cone DC, O’Connor RE, Fowler RL, Hauda MD, Deatley 
+C, eds. Emergency Medical Systems Clinical Practice and Systems Oversight. Vol 2. Dubuque, IA: Kendall Hunt Publishing 
+and National Association of EMS Physicians; 2009:253–270.
+ 43. Apodaca AN, Morrison JJ, Spott MA, et al. Improvements in the hemodynamic stability of combat casualties during 
+en route care. Shock. 2013;40(1):5–10.
+ 44. Lundy JB, Swift CB, McFarland CC, Mahoney P, Perkins RM, Holcomb JB. A descriptive analysis of patients admitted 
+to the intensive care unit of the 10th Combat Support Hospital deployed in Ibn Sina, Baghdad, Iraq, from October 19, 
+2005, to October 19, 2006. J Intensive Care Med. 2010;25(3):156–162.
+ 45. Eastridge BJ, Mabry RL, Seguin P, et al. Death on the battlefield (2001-2011): Implications for the future of combat 
+casualty care. J Trauma Acute Care Surg. 2012;73(6 Suppl 5):S431–437.
+ 46. Dismounted Complex Blast Injury: Report of the Army Dismounted Complex Blast Injury Task Force. Fort Sam Houston, TX: Office of the Army Surgeon General; 2011:44–47.
+ 47. Gerhardt RT, De Lorenzo RA, Oliver J, et al. Out of hospital combat casualty care in the current war in Iraq. Ann Emerg 
+Med. 2009;53(2):169–174.
+ 48. Eastridge BJ, Mabry RL, Blackbourne LH, Butler FK. We don’t know what we don’t know: prehospital data in combat 
+casualty care. US Army Med Dep J. 2011;Apr-Jun:11–14.
+ 49. Mears G. Data A-Z. In: Cone DC, O’Connor RE, Fowler RL, Hauda MD, Deatley C, eds. Emergency Medical Systems 
+Clinical Practice and Systems Oversight. Vol 3. Dubuque, IA: Kendall Hunt Publishing and National Association of EMS 
+Physicians; 2009:29–41.
+ 50. Kotwal RS, Montgomery HR, Kotwal BM, et al. Eliminating preventable death on the battlefield. Arch Surg. 
+2011;146(12):1350–1358.

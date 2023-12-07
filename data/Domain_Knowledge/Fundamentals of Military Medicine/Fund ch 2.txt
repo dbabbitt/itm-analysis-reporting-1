@@ -1,0 +1,878 @@
+21
+Roles and Responsibilities of the Military Medical Officer
+Chapter 2
+ROLES AND RESPONSIBILITIES OF 
+THE MILITARY MEDICAL OFFICER
+JUSTIN WOODSON, MD, MPH*
+INTRODUCTION
+THE UNIQUE MILITARY ENVIRONMENT
+In Garrison
+In the Field
+Deployment
+Human Performance Optimization and Medical Research
+BEING A MILITARY MEDICAL OFFICER
+The “Vector” Model of the Military Medical Officer
+The Legal Context of Accountability as a Military Medical Officer
+Training and Professional Military Education
+Leadership as a Medical Officer
+MILITARY HEALTHCARE
+FORCE HEALTH PROTECTION AND MEDICAL READINESS
+THE SPECTRUM OF ASSIGNMENTS
+SUMMARY 
+*Colonel, Medical Corps, US Army; Associate Professor, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+22
+Fundamentals of Military Medicine
+INTRODUCTION
+The new military medical officer (MMO) has joined 
+a proud tradition of military medicine. That much becomes evident while reviewing the first chapter of this 
+textbook, on the history of military medicine, which 
+reaches back to long before the US military was even 
+created. A new MMO follows in the footsteps of the 
+likes of Ambroise Paré, Dominique Jean Larrey, John 
+Pringle, Benjamin Rush, Robert Brocklesby, Jonathan 
+Letterman, William Hammond, George Sternberg, 
+and the countless modern military medical officers 
+who have shaped this profession, saved thousands 
+of lives, and improved the lives of thousands more. 
+But unlike these historic figures who forged the way, 
+current MMOs enter into a well-established system 
+of military medicine in which many of the hardfought challenges have already been won. But what 
+makes the military medical system different? What is 
+unique about practicing medicine in the military as 
+compared to the more common pathway of civilian 
+medicine? The purpose of this chapter is to explore 
+those questions, many of which will be amplified 
+in later chapters in this textbook. This chapter will 
+provide a framework for MMOs beginning to think 
+about their new role as a uniformed medical officer 
+in the US Army, Air Force, Navy, Coast Guard, or 
+Public Health Service.
+THE UNIQUE MILITARY ENVIRONMENT 
+The discussion begins with a conversation about the 
+unique aspects of the military environment. Typically, 
+the public associates the military with combat. But the 
+mission of the Department of Defense is much broader 
+than just combat. A new MMO is likely to be placed 
+in supporting units in a variety of environments, including in garrison, in the field, and deployed, each 
+of which presents a unique set of challenges.
+In Garrison
+The garrison is where it begins and where the 
+MMO will spend most of his or her time. This is the 
+permanent positioning of military assets throughout 
+the world. A quick Internet search will reveal the 
+breadth of geographic assignments available. The US 
+military is deployed on a standing basis throughout 
+the world and has military bases not only in the continental United States (CONUS) but also in a large 
+number of countries outside the continental United 
+States (OCONUS). 
+In garrison, permanent structures and buildings, 
+well-established computer networks, and a generally 
+resource-rich context form a familiar setting. Garrison hospitals, established in locations where service 
+members are concentrated, generally function much 
+as civilian hospitals do and are subject to many of 
+the same constraints, including outside accreditation, 
+interaction with the community, insurance billing, 
+medical training programs, and the requisite administrative load. Yet even in garrison there are palpable 
+differences from the civilian environment. While the 
+patient population may look much like it does in a 
+civilian hospital (including children, adult family 
+members, aging retirees, and ill or injured active duty 
+service members), the practice of medicine will often 
+feel less restricted because access to care, financial considerations, and medical insurance are generally not 
+issues. The healthcare team will be mixed, including 
+active duty providers, government employees, and 
+contractors, and each group presents unique leadership challenges.
+For the MMO within this setting (as in all others), 
+leadership is an inherent part of his core responsibilities. Although the medical team will not generally be 
+dealing with the immediate threat of combat, the complexity of the garrison environment makes leadership 
+demanding. As a leader, an MMO is likely to struggle 
+with balancing multiple superimposed missions and 
+external influences while maneuvering through large 
+organizational staffs that often lack cohesion1 and 
+may focus on varying aspects of the mission. Also, 
+medical teams are often recovering from frequent and 
+recent deployments with the inherent accompanying 
+emotional burdens. As their leader, an MMO must 
+be in tune with these challenges while attempting to 
+balance the mission against team members’ personal 
+lives outside the workplace. 
+It is well established that in this context, boredom 
+often leads to poor decision-making, which may result 
+in unwanted injuries or fatalities, from causes including privately owned vehicle accidents, suicide, and 
+recreational mishaps. 2–5 Addressing these hazards 
+must be an ongoing focus for leaders. Additionally, 
+the attention of effective leaders will center on the 
+support and development of their team members as 
+professionals through informal mentorship and formal 
+programs, while also attending to their own personal 
+growth and development. New MMOs must establish 
+themselves as a physician and officer while becoming 
+familiar with general life in the military. 
+The new officer will find a robust support infrastructure in garrison, including physical fitness 
+facilities, recreational facilities, financial counseling, 
+23
+Roles and Responsibilities of the Military Medical Officer
+emotional and spiritual counseling, professional mentorship, and a thriving community of military peers 
+and neighbors to lean on. An assignment in garrison 
+will ultimately prove rewarding as an opportunity to 
+develop a sense of belonging and pride in being part 
+of a longstanding military tradition.
+In the Field
+Often, an MMO assigned to a fixed medical facility will also be attached to an operational unit as a 
+secondary duty. The details of this responsibility 
+vary throughout the different uniformed services and 
+evolve over time. One constant, however, is that training remains a focus for operational units. Any time 
+a military unit trains in the field, it is accompanied 
+by a medical officer. The medical officer is usually 
+integrated into the commander’s staff as a command 
+surgeon, similar to arrangements in the deployed 
+setting. (The details of this role will be discussed in 
+more detail in Chapter 8, The Medical Officer on the 
+Commander’s Staff.) 
+Providing medical support in the field environment 
+serves as a rehearsal for deployments. Undergoing 
+training without the stress of the combat environment 
+will better prepare MMOs for future operational assignments. The MMO must learn to work without the 
+infrastructure typical of the garrison hospital, adjusting to providing care in a resource-constrained setting, 
+a universal feature of military operations. Exploring 
+these pitfalls in the field environment where there is 
+an “escape valve” (typically available in the nearby 
+garrison) will prepare MMOs for missions in which 
+no safety net will be present. 
+New MMOs are encouraged to seek opportunities 
+to join the operational unit in training, which can 
+provide some of the most rewarding experiences of a 
+new military career. Such opportunities may include 
+training outside the Army or Marine Corps garrison, 
+flying on a cross-country mission with the Air Force, 
+or going underway with a seaborne unit in the Navy 
+or Coast Guard. Experiencing life at sea, in the field, 
+or in the air is what truly makes a military medicine 
+career unique. Short field exercises, cruises, or crosscountry flights will require very little preparation; 
+however, longer exercises demand early involvement 
+with the unit and planning. Gaining new skills and 
+new relationships with other service members will 
+also go a long way toward building credibility within 
+those units, particularly when MMOs deploy with the 
+same unit. There is also no better opportunity than 
+participating in the field exercise or training mission to 
+develop leadership skills as an officer and staff member, skills which the junior medical officer will do well 
+to develop early; these skills will pay large dividends 
+throughout a military medicine career.
+Deployment
+A “deployment” refers to any activity in which 
+military personnel and materials are moved from their 
+home station (garrison) to a specified destination, typically overseas (OCONUS), although domestic deployments are not uncommon, particularly in response to 
+natural disaster relief efforts. Deployments come with 
+a wide variety of missions, ranging from security operations in which the primary focus is diplomacy and 
+conflict prevention, to large-scale combat operations, 
+with many types of mission in between (Figure 2-1). 6 
+Because the unit may have a mission that falls anywhere on this spectrum of conflict, and because the 
+location of that deployment may be anywhere in the 
+world (including CONUS), the nature of each experience will be unique. What is nearly universal, however, 
+are long work hours often punctuated by long periods 
+of boredom. Deployments are what military officers 
+train for. It is the challenge of accomplishing the mission with usually limited resources in suboptimal conditions while testing leadership skills, medical skills, 
+military skills, creative thinking, and problem-solving 
+that make deployments rewarding beyond compare. 
+Deployments are essential to developing a full spectrum of leadership and military medicine skills when 
+and where they count the most.
+Deployments consist of four phases, during which 
+the medical officer will play very different roles. 
+During the predeployment phase, the MMO plays 
+a critical role in ensuring all members of the unit are 
+prepared for extended deployment from a medical 
+perspective. During this phase, in addition to evaluating and supporting unit members’ readiness for 
+deployment, the MMO must ensure the medical team 
+is trained and ready for the mission, as well as completing personal preparation. 
+During the deployment phase, while actually on 
+the mission, the MMO’s duties will span a spectrum of 
+responsibilities no civilian medical provider would encounter. The scope of these responsibilities (discussed 
+in more detail in later chapters) ranges from medical 
+treatment to disease prevention to complex medical 
+planning. During deployments, the medical officer is 
+faced with challenges in the patient population (the 
+unit) related to freedom of movement, fatigue, long 
+working hours, threats from hostile action, endemic 
+disease, stress-induced physiologic changes, and 
+general physical and emotional demands related to 
+the specific mission. The MMO’s importance to the 
+commander cannot be understated, and the better 
+24
+Fundamentals of Military Medicine
+Figure 2-1. The conflict continuum.
+Reproduced from: US Department of Defense. Joint Operations. Washington, DC: DoD; 2017. Joint Publication 3-0: VI-2.
+prepared they are, the better they will perform as the 
+principal medical advisor to the unit.
+During the postdeployment phase, the MMO will 
+play a key role in assessing the impact of the deployment on unit members. And finally, during the reintegration phase, the MMO will be a key set of eyes 
+and ears for commanders as they endeavor to ensure 
+unit members successfully overcome postdeployment 
+challenges and rejoin their families and communities. 7 
+Human Performance Optimization and Medical 
+Research
+Whether in garrison, in the field, on a training 
+mission, or deployed in a theater of operations, the 
+demands on the military “patient” are generally amplified over that seen in the civilian occupational setting (although some civilian occupations or sports do 
+present extreme exposures). Accordingly, one of the 
+unique aspects of military medicine is gaining a thorough understanding of environmental and operational 
+challenges and their countermeasures as summarized 
+by the scientific discipline of human performance optimization (HPO). HPO refers to the process of enabling 
+persons to perform with a high level of well-being and 
+resilience and with minimal risk and stress, despite 
+the challenges of the operational environment. This 
+field includes physical fitness, dietary supplements 
+and nutrition, mind and body management, family 
+and relationships, and environmental conditions (eg, 
+heat, cold, altitude, aerospace, water, and extended 
+operations). 8 The MMO is expected to be well-versed 
+in the science of HPO in order to provide counseling 
+to individual service members and commanders and 
+facilitate the successful mission completion, regardless of environment. Accordingly, an entire section of 
+this textbook (chapters 19 through 31) is dedicated to 
+this science. 
+Because the military operates in the worldwide 
+environment, it is also incumbent on the MMO community to continue engaging in medical research and 
+development programs that focus on unique aspects 
+of military medicine. This may include combat 
+trauma management, HPO, human factors systems 
+(eg, aviation, weapons systems, or combat vehicles), 
+and a wide variety of other topics of unique interest to the military. Additionally, military medicine 
+requires global biosurveillance programs that enable 
+worldwide deployment with manageable risk for 
+biological and disease threats, while also helping 
+protect world populations against pandemic and 
+epidemic disease. 9 
+25
+Roles and Responsibilities of the Military Medical Officer
+BEING A MILITARY MEDICAL OFFICER
+“If you are looking for perfect safety, you will do well to sit on a fence and watch the birds; but if you really wish to 
+learn, you must mount a machine and become acquainted with its tricks by actual trial.”
+—Wilbur Wright, from an address to the Western Society of Engineers
+Chicago, IL, September 18, 190110
+While it is possible for any medical provider to practice “medicine in the military,” it is the unique characteristic of the professional MMO to truly integrate 
+all aspects of military medicine and officership into a 
+dedicated practice of “military medicine.” Practicing 
+military medicine requires that the individual develops skills in multiple dimensions. The MMO is a dual 
+professional—both a physician and an officer—and 
+must excel in each role to be successful. The nature 
+of this duality will be further explored in Chapter 8.
+The “Vector” Model of the Military Medical 
+Officer
+Through the years, attempts have been made to 
+summarize the qualities of a good MMO, but most 
+frequently these discussions devolve into a general 
+statement of advice that “you just have to experience 
+it to understand it.” While it is true that experience 
+will elucidate the complexity of the unique role of the 
+MMO, it is helpful to provide a simple visual model 
+that embodies the full spectrum of characteristics of 
+the ideal balanced MMO. 
+The “vector” model of the MMO was first proposed 
+at the Uniformed Services University in the early 1990s 
+by then commandant of students, Colonel Barry Wolcott. An emergency medicine physician by training, 
+Dr Wolcott understood the challenges of developing 
+young medical officers and the value for those officers 
+in providing visualization to help direct their growth. 
+Modified slightly over time, the vector model simply 
+places three primary domains of required skills for the 
+ideal MMO onto the axes of a 3-dimensional graph 
+(Figure 2-2). This graph illustrates the need for the 
+individual to develop military skills, medical skills, 
+and leadership. Effectively developing skills in these 
+three arenas ultimately merges them into collective 
+competencies in operational medicine, physicianship, 
+and officership, which define the dual professional 
+MMO. These terms, as applied in the model, are defined as follows:
+ 
+• Officership is a set of skills that allows one to 
+function effectively as an officer in the military. Underlying officership are principles, 
+practices, and values that guide an officer’s 
+Figure 2-2. The dual professional “vector” model.
+Figure courtesy of: Colonel (Retired) Barry Wolcott, Commandant of Students, Uniformed Services University of the 
+Health Sciences, 1982–1993.
+judgment, decisions, behavior, philosophy, 
+and vision. Inherent in officership is effective 
+leadership.
+ 
+• Physicianship is a set of skills that allows one 
+to function effectively as a physician with skill 
+in the art of healing. A physician is educated, 
+clinically experienced, and licensed to practice 
+medicine.
+ 
+• Operational medicine adds to standard clinical medicine all of the unique challenges of the 
+practicing military provider in the operational 
+environment, many of which may be nonmedical in nature. This includes a combination of both military and medical skills and 
+implies direct and indirect leadership within 
+the context of the military mission. 11
+ 
+• Leadership is influencing people by providing purpose, direction, and motivation. It is 
+the sum of the qualities of intellect, human understanding, and moral character to enhance 
+the motivations, cognitions, and behaviors 
+of individuals and groups for successful accomplishment of the assigned mission. 12
+26
+Fundamentals of Military Medicine
+ 
+• Professionalism is the fundamental core of a 
+medical officer’s values and behavior, including the critical attributes of personal courage, 
+respect, openness, fairness, empathy, selfimprovement, social responsibility, integrity, 
+honor, officership, non-judgment, altruism, 
+and leadership. 12 
+The Legal Context of Accountability as a Military 
+Medical Officer
+Beyond the challenges of duality and environmental 
+and operational variables already discussed, there is 
+also a collection of constraints and requirements that 
+are unique to practicing medicine in the military. 
+The most important of these is the legal context of 
+general military service, which will be discussed in 
+further detail in Chapter 5, Military Law and Ethics. 
+However, it should be made clear that wearing the 
+uniform inherently introduces accountability of the 
+individual to the American public. The military officer 
+is first and foremost a member of the military, meaning that he or she is subject to military law, which is 
+founded in the Uniform Code of Military Justice, the 
+Manual for Courts-Martial, and the military code of 
+conduct. 13 The disciplinary measures applicable to 
+other service members apply equally to the military 
+physician, and because consequences of misconduct 
+can be severe, disciplinary action for such conduct is 
+also potentially severe. 
+Military officers are additionally obligated by law to 
+demonstrate exemplary personal and public conduct 
+(Exhibit 2-1). 14 Unfortunately, more than one new 
+medical officer has become entangled in the legal landscape with the threat of imprisonment or other adverse 
+legal and administrative action based on a failure to 
+EXHIBIT 2-1
+CODE OF CONDUCT FOR MEMBERS OF THE UNITED STATES ARMED FORCES
+I
+I am an American, fighting in the forces which guard my country and our way of life. I am prepared to give my life 
+in their defense.
+II
+I will never surrender of my own free will. If in command, I will never surrender the members of my command 
+while they still have the means to resist.
+III
+If I am captured I will continue to resist by all means available. I will make every effort to escape and aid others to 
+escape. I will accept neither parole nor special favors from the enemy.
+IV
+If I become a prisoner of war, I will keep faith with my fellow prisoners. I will give no information or take part in 
+any action which might be harmful to my comrades. If I am senior, I will take command. If not, I will obey the 
+lawful orders of those appointed over me and will back them up in every way.
+V
+When questioned, should I become a prisoner of war, I am required to give name, rank, service number and date of 
+birth. I will evade answering further questions to the utmost of my ability. I will make no oral or written statements 
+disloyal to my country and its allies or harmful to their cause.
+VI
+I will never forget that I am an American, fighting for freedom, responsible for my actions, and dedicated to the 
+principles which made my country free. I will trust in my God and in the United States of America.
+Reproduced from: 3 CFR, 1954-1958. Code of Conduct for members of the Armed Forces of the United States, 1955. Executive Order 10631. 
+27
+Roles and Responsibilities of the Military Medical Officer
+understand their obligations under military law. Additionally, the system of military law has sometimes 
+presented an ethical conflict in which the medical 
+officer’s obligation to follow lawful orders from the 
+commander and superiors may come into conflict with 
+the Hippocratic principles of medical care. Learning to 
+balance concerns such as patient confidentiality and 
+sometimes competing obligations to the commander 
+can be challenging, but understanding expectations 
+of personal conduct in times of peace and war may 
+prevent troubles down the road. 
+Training and Professional Military Education
+Upon entering military service, the new MMO is 
+normally offered an opportunity to attend initial officer training (eg, the Army’s Basic Officer Leadership 
+Course, the Navy’s Officer Indoctrination School, or 
+the Air Force’s Commissioned Officer Training or 
+equivalent). This training provides an orientation to 
+military customs and courtesies, administrative and 
+legal education, and basic military knowledge and 
+skills. This minimal training is intended to start a career 
+with minimal delay, but by no means is it adequate 
+preparation for a full career in military medicine. To 
+develop officership, the military services provide a 
+series of professional military education (PME) courses 
+strategically placed at different points in the career 
+timeline. 
+While the structure of this PME is different in each 
+service, the intention is the same—to develop general 
+knowledge and capabilities as an officer in the parent 
+service as an individual matures in the ranks. The 
+reality, however, is that medical education and the demands on an individual officer often interfere with or 
+delay this training. In keeping with the earlier discussion about professional development along three axes, 
+it is incumbent upon MMOs to advocate for themselves 
+and seek out opportunities to attend this training at key 
+points in their careers. Doing so will better prepare an 
+MMO to integrate seamlessly into a multidisciplinary 
+team when assigned to a military unit. 
+Additionally, the military offers a wide variety of 
+short courses that focus on specific military skills, 
+which may be relevant depending upon specific career choices and assignments. While it may seem low 
+priority to attend such training while being heavily 
+engaged in early professional medical development 
+(eg, residency, fellowship), failure to receive appropriate PME may delay promotion, and more importantly, 
+result in suboptimal preparation for deployment and 
+integration with operational units.
+MMOs must recognize that they are members of 
+both the profession of arms and of the profession of 
+medicine. Programs such as those offered at the Uniformed Services University of the Health Sciences or 
+in general PME can help jump-start careers in military 
+medicine with an understanding of basic principles, 
+but they are only a starting point. Experience will 
+serve an MMO well; however, true professionals will 
+continue to develop themselves as both officers and 
+physicians through continuing medical education and 
+continuing military education. This further education 
+may take the form of personal reading programs, 
+military short courses, and of course formal medical 
+education such as residency and fellowship. Just as 
+someone cannot expect to be a whole doctor after completing medical school, he or she cannot expect to be a 
+whole officer and leader after attending an introductory military course. Success demands a commitment 
+to professional development as an officer.
+Leadership as a Medical Officer
+Leadership, one of the three pillars of military 
+medical practice, is critical to an MMO’s success. 
+At the Uniformed Services University, leadership is 
+taught through the “PITO” (personal, interpersonal, 
+team, organization) model of leadership, adapted 
+from the US Air Force Academy and using the “four 
+Cs” of leadership (Character, Competency, Context, 
+and Communication). 15 Leadership is a multidimensional process, which is discussed in detail in 
+Chapters 4 and 8. It should be noted that while direct 
+leadership is often required, the MMO must (perhaps 
+uniquely) often provide tangible leadership when 
+not in a position of direct authority. This aspect of 
+medical leadership presents a unique challenge to 
+the medical officer, one that must be mastered in order to most effectively influence the mission and the 
+command. The ability to gather support from below 
+as well as from above, or “leading up,”16 is a critical 
+component of the successful MMO. Leadership in the 
+military is challenged by the diversity of personnel, 
+the spectrum of missions, dynamic operations, and 
+unique environments. A continual thread of personal 
+leadership skills development accompanies the successful MMO’s career. In addition to formal programs 
+of education in leadership, which will only scratch 
+the surface, officers are encouraged to engage in a 
+personal reading program to broaden their perspectives and abilities to influence others to accomplish 
+the mission, regardless of the types of assignments 
+they encounter.
+The military is no better than its people, and the 
+American public has charged the MMO with caring 
+for them. Taking care of his or her soldiers, sailors, 
+airmen, and or marines is paramount. As a leader in 
+28
+Fundamentals of Military Medicine
+the military, the new MMO will also be responsible 
+for a number of junior officers and noncommissioned 
+officers. Accordingly, he or she will serve as both mentor and sometimes commander of these individuals. 
+This requires effective mentorship. It requires extra 
+time in a hectic military setting to submit awards 
+recommendations when deserved, and to spend the 
+extra effort learning how to write effective periodic 
+evaluations, which enhance the promotion prospects 
+of team members. These skills in and of themselves are 
+not taught, but rather obtained through personal education and development, once more highlighting the 
+need for self-directed education as a military officer. 
+New MMOs should seek out those who understand 
+the nuances of evaluation writing, such as the senior 
+enlisted advisor for the command or fellow staff officers with more experience. One of the best ways to 
+gain credibility with subordinates is by reaching out 
+in mentorship to assist them in developing their own 
+careers both in and after the military. 
+Successful military leadership, particularly with 
+increasing rank and position, relies heavily on effective communication. This comes in the form of 
+one-on-one communications that serve to provide 
+specific guidance to individuals, meeting management, written communications, and often large-scale 
+public speaking. Speeches may range from a short set 
+of well-chosen words at a promotion ceremony to a 
+command-wide briefing given to address a problem 
+or provide motivation. In the military, all staff officers 
+are expected to frequently provide briefings to senior 
+officers, commanders, and large assemblies—opportunities to build (or lose) credibility. Briefings often 
+have a formal structure MMOs need to be familiar 
+with. The ability to eloquently deliver a public address is a universal requirement for effective military 
+officers. Young and experienced officers alike are 
+encouraged to build these skills by actively seeking 
+opportunities for public speaking and large group 
+teaching. Speaking skills will enhance their ability 
+to lead and will improve vital skills as an educator 
+(inherent in medical leadership). Military communication skills are further discussed in Chapter 11, 
+Military Communication. 
+MILITARY HEALTHCARE
+At first glance military medical care is very similar to 
+civilian medical care. Residencies and military training 
+hospitals are similar to those in large academic medical 
+centers throughout the country. As discussed earlier, 
+the patient populations can be quite similar to the civilian population, which includes the full spectrum of 
+humanity from fetal care to caring for the aged and dying. Military training hospitals require the same spectrum of full-service clinical capabilities and research 
+programs as are found outside the military. While it 
+may be possible for some MMOs to serve their entire 
+military careers in an academic military medical center, 
+these centers are not where all, or even most, medical 
+care happens in the military. For MMOs who choose 
+(or are selected) to serve outside the academic medical 
+center environment, medical care delivery may take 
+on a very different feel. In the unit, in the field, or on 
+deployment, delivering medical care is integrated with 
+the diverse administrative and leadership tasks that 
+have been discussed thus far in this chapter. 
+MMOs will often be taking care of friends or colleagues who they have relationships with outside 
+of the clinical setting. The unit’s medical officer is 
+implicitly trusted, often to the exclusion of other 
+medical providers, unless he or she loses credibility. 
+Establishing and maintaining a trusting relationship 
+with the patient population in this setting is paramount 
+to success in delivering medical care. MMOs without 
+credibility in the unit will find themselves bored and 
+alone when their patients choose to go elsewhere or 
+simply do not seek treatment. This dynamic highlights 
+the importance of effective communications and 
+leadership, as discussed earlier. To a large degree, 
+while doctrine will provide a specific level of medical capability for the unit, the ability to provide care 
+will be highly dependent upon the medical officer’s 
+diligence in establishing programs and relationships 
+within the unit, and with neighboring and higher level 
+medical units.
+When a member of the unit reaches out for help with 
+a medical or mental health concern, there may not be 
+the benefit of privacy or a robust medical capability as 
+is customary in a medical facility. Learning to do more 
+with less is the rule rather than the exception. However, the goal should be to provide the same standard 
+of medical care in the resource-constrained, remote, or 
+austere environment as would be expected in the academic medical center. Knowing who the more experienced senior physicians and consultants are and how 
+to consult them at all times is paramount, even when a 
+consultation may require a helicopter or telemedicine. 
+MMOs will also need to interact with higher level 
+medical authorities or the medical treatment facility in 
+order to facilitate the unit’s medical mission. This may 
+mean interacting with medical consultants on behalf 
+of a specific patient for clinical concerns or working 
+with other units for the sake of medical logistics or 
+disease and nonbattle injury (DNBI) reporting. Once 
+29
+Roles and Responsibilities of the Military Medical Officer
+again, understanding the MMO’s place in the system 
+will be critical for success.
+Integrating medical practice with the unit’s operational flow is not only critical, but can be very difficult, 
+requiring extensive communication with commanders 
+or key leadership personnel in the unit or across the 
+military installation. Traditionally, “sick call” is held 
+at times convenient to the command. Upon arrival at 
+the unit, the MMO should learn about the systems of 
+scheduling sick call that are currently in place or have 
+worked (or failed) at that location. While it may be 
+convenient to have all of the clinical workflow for the 
+day show up at the same time, this methodology may 
+not work well for the commanders or patients. On the 
+other hand, in some settings distributed scheduling of 
+medical appointments throughout the day may not be 
+conducive to mission accomplishment. These considerations are not often encountered in civilian medicine 
+and require the constant attention of the MMO.
+Once evaluated, military patients are expected to 
+return to duty as soon as possible. A critical role of the 
+MMO is to evaluate the ability of service members to 
+return safely to their regular duties. Given the nature 
+of military operations discussed thus far, it should go 
+without saying that this assessment must be made in 
+the context of the occupational requirements for that 
+individual’s duty. This highlights the importance of 
+participating in the local training to the extent possible 
+in order to gain a personal understanding of the operational context. Throughout history, successful military 
+medicine practitioners have advocated for medical officers to train with their units for this purpose, whether 
+flying with an aviation unit, diving with a diving unit, 
+or practicing on the weapons range with a combat unit. 
+Getting into this habit earlier rather than later will help 
+not only to build a personal military skill set, but more 
+importantly will enhance the ability to communicate 
+and interact effectively with the commanders. Accordingly, when the time comes to advocate for a patient’s 
+healthcare or duty restrictions, the MMO will be in a 
+much better position to make appropriate decisions 
+about patients while minimizing adverse effects on 
+mission accomplishment.
+In the military more than perhaps any other environment, medical care relies on established programs 
+and systems to provide a full range of medical capability. In a theater of operations, systems of medical 
+evacuation and a hierarchical system of medical capabilities are established based on doctrinal principles. 6,17 
+Individuals are assigned throughout those systems to 
+provide direct management and expertise for specific 
+capabilities, which require specific training. The MMO 
+may be expected to attend such training as well as to 
+train others. Understanding who and what they are 
+responsible for will help guide priorities, but MMOs 
+should expect to be placed in positions with direct 
+training responsibilities for hospital corpsmen, combat medics, physician assistants, nurse practitioners, 
+nurses, or other medical personnel. The MMO may 
+conduct formal training programs or simply provide 
+continuing education for medical personnel. Commanders may have interest in developing common 
+medical skills among their nonmedical personnel, 
+in which case the MMO will be asked to supervise 
+broader medical training programs such as the combat lifesaver program, which focuses on immediate 
+combat casualty response for laypersons, or basic life 
+support cardiopulmonary resuscitation programs. 
+Whatever the case, conducting and supervising training will be a key component of any military medical 
+practice.
+The demands of military operations have resulted 
+in remarkable achievements in military medicine 
+throughout history. Recent conflicts have seen the introduction of new approaches and training programs 
+that have resulted in improved survivability on the 
+modern battlefield. 17 Specifically, the Tactical Combat 
+Casualty Care system of emergency medical response, 
+which emphasizes altered priorities of emergency 
+medical delivery in the combat threat environment, 
+now governs the approach to the combat casualty. This 
+program is taught in a variety of venues targeting the 
+full spectrum of military medical providers. Beyond 
+the immediate life-saving response, casualties must 
+be moved through an evacuation system that requires 
+specific expertise in en route care and health service 
+support planning. Later sections in this textbook will 
+address the delivery of healthcare in the tactical environment and operational health service support, both 
+pillars of military medical practice.
+FORCE HEALTH PROTECTION AND MEDICAL READINESS
+Arguably more important than responding to combat trauma or other health-related events is preventing 
+them. Casualty prevention is a key component of what 
+is referred to in the US military healthcare system as 
+force health protection. Force health protection includes a broad spectrum of prevention and protection 
+capabilities, including preventive medicine, health 
+surveillance, combat and operational stress control, 
+preventive dentistry, vision readiness, laboratory 
+services, and veterinary services. 17 The key element 
+of this system, which is somewhat unique to military 
+medicine, is a focus on the population. In contrast, tra30
+Fundamentals of Military Medicine
+ditional medical education and practice places focus on 
+the individual patient. For the MMO, the entire unit is 
+the “patient.” As described in Figure 2-3, MMOs must 
+attend to the individual patient while simultaneously 
+caring for the population. This requires a focus on 
+leadership, public health, preventive medicine principles, and systems-based practice. It typically means 
+integrating with established force health protection 
+systems at the macroscopic level while simultaneously 
+creating effective force health protection systems at 
+the local level.
+An important aspect of force health protection is 
+managing physical standards for military service. 
+Through experience, the military learned it had to 
+evaluate the medical fitness of its members to ensure 
+they were free of medical conditions that could limit 
+their performance in the military operational environment. Current physical standards for induction or 
+continued service in the armed services are published 
+by the Department of Defense18,19 and implemented 
+according to service-specific regulations (eg, Army 
+Regulation 40–501,20 Air Force Instruction 48-123,21 
+and NAVMED P-11722). While new recruits are typically processed in military entrance processing stations 
+across the country, applicants for entrance into officer 
+commissioning programs or special duties often present directly to the MMO for evaluation. Furthermore, 
+service members are subject to separate (and often 
+higher level) physical standards when they apply for 
+special duties (eg, aviation, Airborne, undersea, or 
+special operations). The MMO must be familiar with 
+published physical standards for general and special 
+duty as applicable in their respective service. Specific 
+administrative processing of such applications often 
+permeates the military medical practice of the physician assigned to an operational unit.
+The same physical standards apply when an individual service member becomes ill or injured. In 
+these instances, temporary restrictions to duty may 
+be necessary. Specific systems of communicating such 
+restrictions to the service member’s leadership are in 
+place to prevent misunderstanding. Such “limited 
+duty (LIMDU) chits” or “profiles” reflect the published 
+physical standards for each service and must be mastered by the MMO. In developing appropriate duty 
+restrictions, the MMO effectively protects the service 
+member from further injury while at the same time 
+protecting the unit by eliminating unsafe or ineffective 
+duty performance. 
+Under certain circumstances, such as when a new 
+diagnosis is made or a temporary condition lingers for 
+an extended period of time, the service member may 
+no longer be physically qualified for continued military service under the published physical standards. 
+In these cases, a formal review process is invoked, 
+during which the service member must undergo a 
+medical and physical evaluation board process, and 
+possibly service-specific formal boards, that evaluate 
+the service member’s limitations against their ability 
+to perform their assigned military occupational specialty. Understanding and working with this process 
+is a necessary part of military medicine. Placing individual medical disposition decisions in the context of 
+a thorough understanding of the military environment 
+and the task that the individual service member has 
+to perform further enhances the MMO’s value to the 
+command team.
+In addition to managing individual service members’ conditions and duty disposition, the MMO performs a preventive medicine function to identify and 
+employ countermeasures (carefully coordinated with 
+the command team, as discussed in Chapter 1, History 
+of the Military Medical Officer) for the prevention 
+and control of communicable diseases and endemic, 
+occupational, or environmental threats. 17 History has 
+shown that DNBIs have had a more significant impact 
+on military outcome than combat injuries. Accordingly, a tremendous emphasis has been placed on 
+preventing DNBI. Immunization programs, preventive 
+dentistry, area assessment, and disease monitoring 
+and reporting are important aspects of force health 
+protection. At all levels of medicine in the military, 
+someone is tracking and reporting disease incidence 
+with the intent of identifying trends and epidemics and 
+implementing preventive countermeasures. 
+Figure 2-3. The spectrum of focus for military medicine.
+31
+Roles and Responsibilities of the Military Medical Officer
+Additionally, preventive immunization programs 
+are mandated throughout the military, and compliance with these requirements is routinely reported 
+at the command level. At the local unit level, and 
+occasionally when assigned in a specific staff role 
+at a higher level, the MMO can expect to prepare 
+periodic reports and briefings on DNBI rates and individual medical readiness for the unit. As Benjamin 
+Rush recognized, command authority is necessary 
+to effectively employ countermeasures to prevent 
+disease. 23 But it is the MMO who must identify both 
+the problem and the appropriate corrective action. 
+These and many additional force health protection 
+factors that make military medical practice unique 
+will be further discussed in the second section of 
+this textbook.
+THE SPECTRUM OF ASSIGNMENTS
+While it would be attractive to place a career map on 
+the table to guide the way, it is simply unrealistic to articulate a specific pathway that each new MMO should 
+take. Although attempts to define a career lifecycle 
+for MMOs have been made, the reality is that such 
+structure has never stood the test of time. There are 
+simply too many variables and too many opportunities (in terms of types of assignments) to explore. New 
+officers should talk to as many people as possible to 
+explore what types of missions and assignments may 
+be pursued. With some planning and effort, MMOs 
+can craft their own military medical career.
+In the Army, the first decision is whether to pursue 
+an assignment in a tactical or a nontactical unit. Each 
+has its own rewards and challenges. In a tactical unit, 
+the MMO works closely with combatants, likely as a 
+member of the command and staff team (discussed in 
+detail in Chapter 8). In these units an MMO has the 
+opportunity to function in a truly operational capacity 
+as a member of a multidisciplinary team pursuing a 
+military mission in the unique operational environment. On the other hand, an MMO may choose to focus 
+on nontactical assignments such as academic medicine, 
+or to engage in unique research or challenges in clinical 
+medicine. The choice is personal, but the best advice 
+has been described as sharing time between “white 
+coat” assignments and “muddy boots” assignments. 
+Doing so provides the broadest perspective on Army 
+medicine and best preparation for promotion to the 
+ranks of general officer. Whether or not this aspiration 
+prevails, a diversity of assignments and experiences 
+are waiting, and the full spectrum of opportunities 
+should be explored. 
+In the Navy, a critical decision is whether to pursue 
+assignment in the seagoing Navy or in the Marine 
+Corps. They are very different communities, and each 
+has its own proud traditions. While it is possible to 
+share time between them, most naval medical officers 
+choose to focus on a progression of assignments in one 
+or the other. If the interest is in tactical assignments, 
+the Marine Corps has a wide variety of missions requiring support from highly motivated MMOs. On 
+the other hand, shipboard medicine presents unique 
+opportunities for international travel and expeditionary medicine. Aviation medicine, undersea medicine, 
+and naval special operations are other unique opportunities. 
+In the Air Force, the primary choice is whether to 
+join a flying or a nonflying unit. In either case, the 
+MMO should become a flight surgeon. The Air Force 
+is all about aviation, and understanding aviation medicine is a key component of Air Force medicine. The 
+Air Force is an expeditionary force and also presents 
+its own opportunity for ground-based expeditionary medicine. If the MMO’s passion is to establish 
+medicine in far-reaching places across the globe, this 
+may be the right choice. On the other hand, there is 
+possibly no more rewarding opportunity than to work 
+with the high-performance combat equipment in the 
+world’s largest and most advanced Air Force—equipment that challenges the limits of human performance. 
+Mastering human performance optimization may be 
+the MMO’s passion, and what better place to do it than 
+the US Air Force?
+In the Public Health Service, opportunities are 
+available in a wide variety of assignments. The Indian 
+Health Service will take the MMO to remote locations 
+with resource constraints similar to those of the military deployed setting. There are also roles available 
+supporting the US Coast Guard with opportunities in 
+operational or aviation medicine. Or the choice may 
+be to work in various agency jobs shaping national 
+healthcare policy with an opportunity to impact the 
+health of the entire nation.
+SUMMARY
+Regardless of the type of assignments encountered, 
+a career in military medicine will be exciting and 
+rewarding. Nowhere else will there be the opportunity to engage in such a diverse range of experiences. 
+While frustrations abound in any type of work, the 
+rewards of service in military medicine far outweigh 
+32
+Fundamentals of Military Medicine
+any inconveniences an MMO may encounter. Opportunities to gain new skills through education 
+programs in both military and medical disciplines, 
+unique life experiences, and being a part of the distinguished heritage of the armed services all contribute 
+to the allure of military medicine. Having said that, 
+it should be emphasized that this career is only as 
+good as the individual makes it. MMOs must be their 
+own advocate; they should seek out opportunities 
+to challenge themselves and to experience the full 
+spectrum of military service. MMOs should actively 
+endeavor to fulfill their goals, stay proactive, manage 
+their personal administrative requirements, and seek 
+out the best training opportunities and assignments. 
+Speaking regularly with a senior military mentor and a 
+career manager can help to shape the MMO’s military 
+medicine as desired. 
+The remainder of this textbook is designed to 
+provide exposure to the unique aspects of military 
+medicine introduced in this chapter. Reading and 
+assimilating this knowledge will build a firm foundation for beginning a career as an MMO. However, 
+it is incumbent upon the new MMO to commit to a 
+career-long personal development program in leadership, military skills, and medical skills in order to truly 
+become a dual professional MMO. 
+REFERENCES
+ 
+1. Roginkski J. Operational assessments in the garrison environment. Infantry Magazine. 2015;104(2):26–29.
+ 
+2. US Army Combat Readiness Center. Army statistics and reports, weekly update. https://safety.army.mil/STATISTICS.
+aspx. Accessed June 26, 2017.
+ 
+3. Naval Safety Center. How goes it FY 2016. http://www.public.navy.mil/NAVSAFECEN/Documents/statistics/HowGoesIt.pdf. Published October 27, 2016. Accessed June 26, 2017.
+ 
+4. US Department of the Navy. Occupational safety mishap summary FY 2007 to 2017. http://www.public.navy.mil/
+NAVSAFECEN/Pages/statistics/index.aspx. Updated June 23, 2017. Accessed June 26, 2017.
+ 
+5. Goldberg MS. Updated Death and Injury Rates of U.S. Military Personnel During the Conflicts in Iraq and Afghanistan. 
+Washington, DC: Congressional Budget Office; 2014. Working Paper 2014-08. 
+ 
+6. US Department of Defense. Joint Operations. Washington, DC: DoD; 2017. Joint Publication 3-0.
+ 
+7. Marek LI, Hollingsworth WG, D’Aniello C, et al. Returning Home: What We Know About the Reintegration of Deployed 
+Service Members Into Their Families and Communities. St Paul, MN: National Council on Family Relations; 2012.
+ 
+8. Uniformed Services University Consortium for Health Military Performance. About HPRC. http://hprc-online.org/
+about-us/about-hprc#about-us. Accessed June 26, 2017.
+ 
+9. US Department of Defense. Special report: biosurveillance. https://www.defense.gov/News/Special-Reports/1012_biosurveillance/. Accessed June 26, 2017.
+ 10. Smithsonian Institution, Board of Regents. Annual Report of the Board of Regents of the Smithsonian Institution. Washington, DC: Smithsonian Institution, 1902:134. https://library.si.edu/digital-library/book/annualreportofbo1902smit. 
+Accessed June 15, 2018. 
+ 11. Woodson J. USUHS leadership development program. Lecture presented at: Military Contingency Medicine and 
+Operation Bushmaster; June 27, 2011; Uniformed Services University, Bethesda, MD.
+ 12. Woodson J. Becoming a battalion surgeon. Lecture presented at: Tzameret Program; April 29, 2015; Hebrew University, 
+Jerusalem.
+ 13. 3 CFR, 1954-1958. Code of Conduct for members of the Armed Forces of the United States, 1955. Executive Order 
+10631. 
+ 14. Requirement of exemplary conduct. 10 USC § 3583 (1997).
+33
+Roles and Responsibilities of the Military Medical Officer
+ 15. O’Connor F. Military medical practice and leadership program of instruction. Lecture presented at: Uniformed Services 
+University faculty assembly; November 13, 2014; Bethesda, MD.
+ 16. Useem M. Leading Up: How to Lead Your Boss So You Both Win. 1st ed. New York, NY: Three Rivers Press; 2001.
+ 17. US Department of Defense. Health Service Support. Washington, DC: DoD; 2012. Joint Publication 4-02.
+ 18. US Department of Defense. Physical Standards for Appointment, Enlistment, or Induction. Washington, DC: DoD; 2000. 
+DoD Directive 6130. 3.
+ 19. US Department of Defense. Physical Standards for Appointment, Enlistment, or Induction. Washington, DC: DoD; 2004. 
+DoD Instruction 6130. 4.
+ 20. US Department of the Army. Medical Services. Standards of Medical Fitness. Washington, DC: HQDA; June 14, 2017. Army 
+Regulation 40-501. https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN3801_AR40-501_Web_FINAL.pdf. 
+Accessed June 15, 2018.
+ 21. US Department of the Air Force. Medical Examinations and Standards. Washington, DC: USAF; November 5, 2013. Air 
+Force Instruction 48-123. http://static.e-publishing.af.mil/production/1/af_sg/publication/afi48-123/afi48-123.pdf. Accessed June 15, 2018.
+ 22. US Department of the Navy. Manual of the Medical Department (MANMED). Washington, DC: USN; June 1, 2018. 
+NAVMED P–117. http://www.med.navy.mil/directives/Pages/NAVMEDP-MANMED.aspx. Accessed June 15, 2018.
+ 23. Rush B. Directions for Preserving the Health of Soldiers. Lancaster, PA: John Dunlap; 1778. 
+34
+Fundamentals of Military Medicine

@@ -1,0 +1,1526 @@
+67
+Military Law and Ethics
+Chapter 5
+MILITARY LAW AND ETHICS
+SAMUEL J. SMITH Jr, JD*
+INTRODUCTION
+THE MILITARY JUSTICE SYSTEM 
+OFFENSES UNDER THE UCMJ 
+HOW THE MILITARY JUSTICE SYSTEM WORKS
+COURTS-MARTIAL 
+DISCIPLINARY RULES UNIQUE TO PUBLIC HEALTH SERVICE OFFICERS
+THE FEDERAL TORT CLAIMS ACT AND THE FERES DOCTRINE
+THE DEPARTMENT OF DEFENSE JOINT ETHICS REGULATION
+SUMMARY
+*Colonel (Retired), Judge Advocate General’s Corps, US Army; Deputy General Counsel, Uniformed Services University of the Health Sciences, Bethesda, 
+Maryland 
+68
+Fundamentals of Military Medicine
+INTRODUCTION
+Military service is subject to unique laws, regulations, and policies that limit the rights of military 
+personnel and “regulate aspects of the conduct of 
+members of the military which in the civilian sphere 
+are left unregulated.”1(p750) The US Supreme Court has 
+“long recognized that the military is, by necessity, a 
+specialized society separate from civilian society,”1(p743) 
+which must be ready to fight and win the nation’s 
+wars. In order to accomplish its missions, the military 
+has an absolute need to “foster instinctive obedience, 
+EXHIBIT 5-1
+MILITARY LAW DEFINITIONS 
+Convening authority. Commanders at various levels who are vested with vast authority in the military justice system. 
+Among other responsibilities, convening authorities appoint court-martial panel members (military jurors), decide 
+whether to convene a court-martial, and refer charges within their jurisdiction for trial. In certain cases, convening 
+authorities have the discretionary authority to set aside findings of guilt and punishments after trial. 
+Courts-martial. The military’s three-tiered criminal court system. Generally, minor disciplinary offenses are referred 
+to a summary court-martial; misdemeanor-level criminal offenses are referred to a special court-martial; and felony 
+level criminal offenses are referred to a general court-martial. 
+Defense counsel. A judge advocate who advises and represents a service member accused of an offense under the 
+Uniform Code of Military Justice (UCMJ). An accused service member is entitled to military defense counsel at no 
+expense. A military defense counsel must be certified as competent to perform such duties by the service judge advocate general. Service members may hire civilian counsel at personal expense. 
+Ethics counselor. An attorney designated or appointed to assist in administering a command or agency ethics program 
+and to provide ethics advice to Department of Defense personnel consistent with the Joint Ethics Regulation. 
+Good order and discipline. Generally, a condition or state of readiness that facilitates discipline, duty, and obedience to orders in the armed forces. The term, which is not defined in the Manual for Courts-Martial,1 is entrusted to 
+experienced military personnel to interpret under the circumstances in keeping with military customs and traditions. 2 
+Joint Ethics Regulation. A single source of federal and military ethics standards and ethics guidance for Department of 
+Defense personnel, including direction in the areas of financial and employment disclosure systems, post-employment 
+rules, enforcement, and training.
+Judge advocate. An officer of the Judge Advocate General’s Corps of the Army or Navy, an officer of the Air Force or 
+the Marine Corps who is designated as a judge advocate, or a commissioned officer of the Coast Guard designated 
+for special duty (law). 
+Manual for Courts-Martial. An executive order that implements the UCMJ with procedure, evidentiary rules, guidelines, and resources.
+Nonjudicial punishment. Disciplinary proceedings under Article 15 of the Uniform Code of Military Justice used by 
+commanding officers to address minor offenses.
+Staff judge advocate. A designated service judge advocate who serves as the principal legal advisor for the command. Service regulations vary with respect to seniority and responsibilities. Staff judge advocates have a critical 
+role in advising convening authorities about potential UCMJ violations before, during, and after each court-martial. 
+Trial counsel. A military prosecutor who advises and represents the government in the administration of military 
+justice and enforcement of discipline. A military trial counsel must be certified as competent to perform such duties 
+by the service judge advocate general. 
+Uniform Code of Military Justice. The military’s criminal and disciplinary code. The UCMJ establishes military 
+criminal law and procedure and serves as the foundation for the administration of military discipline and justice.
+(1) Ghiotto A. Back to the future with the Uniform Code of Military Justice: the need to recalibrate the relationship between the military 
+justice system, due process, and good order and discipline. North Dakota Law Rev. 2014;90:485. (2) Parker v Levy, 417 US 733 (1974).
+69
+Military Law and Ethics
+unity, commitment, and esprit de corps.”2 This has led 
+to the development of significant differences between 
+military law and civilian law. 1 Exhibit 5-1 defines key 
+terms used in this chapter.
+The military justice system is the foundational 
+cornerstone of military law and represents the most 
+significant departure from civilian law. A separate 
+system is needed to maintain good order and discipline, which are essential for mission readiness, 
+efficiency, and effectiveness. 3 In recognition of the 
+chain of command’s vital role in leading mission 
+accomplishment, commanders have a central role 
+in the military justice system1: “No question can be 
+left open as to the right to command in the officer, 
+or the duty of obedience in the soldier.”4 Medical 
+officers in all uniformed services must understand 
+that fundamental legal differences apply to them as 
+medical professionals serving in or with the military 
+and become familiar with their critical roles in the 
+military justice system. 
+This chapter will familiarize military medical officers (MMOs) with key concepts and issues involving 
+military justice and administrative and civil law that 
+they will address as military leaders. The chapter begins by examining key aspects of the Uniform Code 
+of Military Justice (UCMJ), which provides the legal 
+foundation for the military justice system and serves as 
+the primary means for maintaining discipline in the US 
+armed forces. The UCMJ serves as a multifaceted military criminal code and a flexible tool for maintaining 
+good order and discipline. Next, a detailed explanation 
+of how the military justice system works, including the 
+roles that MMOs are often called upon to assume in the 
+system, is provided. A brief overview of disciplinary 
+rules unique to US Public Health Service (PHS) officers 
+follows. The chapter then discusses military-unique 
+medical malpractice protections under the Federal Tort 
+Claims Act (FTCA). The chapter ends with a discussion 
+of government ethics laws and requirements specific 
+to those in military service, designed to familiarize 
+MMOs with standards of professionalism they must 
+uphold as leaders. 
+Figure 5-1. Cover of the Manual for Courts-Martial. 
+US Department of Defense. Manual for Courts-Martial, 
+United States. 2016 ed. Washington, DC: DoD; 2016. Reproduced from: http://jsc.defense.gov/Portals/99/Documents/
+MCM2016.pdf?ver=2016-12-08-181411-957].
+THE MILITARY JUSTICE SYSTEM
+Historical Evolution of the UCMJ
+The US court-martial system predates the Constitution, and is thus older than the courts created under 
+the Constitution. 5 The Continental Congress adopted 
+the first American Laws of War in 1775, based largely 
+on the British Articles of War and Naval Articles. 6 
+Separate systems developed over time in the Army, 
+Navy, and Coast Guard, with differences in both law 
+and procedure. In 1948, responding to widespread 
+complaints of systemic unfairness and calls for reform 
+after World War I and World War II, the Senate Armed 
+Services Committee asked the secretary of defense to 
+submit a uniform code of military justice to apply across 
+all military services in the newly created Department 
+of Defense (DoD). 7 
+Exercising its constitutional authority to regulate 
+the armed forces, Congress enacted the UCMJ in 
+1950, bringing all services under one system with 
+enhanced due process protections. 8 Sections in the 
+UCMJ are referred to as “articles,” vestiges of the 
+Articles of War and Naval Articles that served as 
+the code’s historical basis. The UCMJ went into effect in 1951 after the president issued the Manual 
+for Courts-Martial (referred to as the “Manual,” 
+Figure 5-1), an executive order that implements 
+the UCMJ by prescribing procedures (under “Rules 
+for Courts-Martial”), evidentiary rules (“Military 
+Rules of Evidence”), and punishments. 9 The UCMJ 
+and Manual are reviewed annually and have been 
+regularly updated and revised by Congress and the 
+70
+Fundamentals of Military Medicine
+president. 10 The current edition of the Manual includes explanatory materials published by the DoD 
+in conjunction with the Department of Homeland 
+Security, and is supplemented by service regulations.
+ Jurisdiction: Those Covered by the UCMJ
+Jurisdiction is covered in Article 2 of the UCMJ. Active duty military personnel are subject to the UCMJ 
+at all times, even while off duty or in a leave status. 11 
+Other military personnel covered by the UCMJ at all 
+times include cadets, aviation cadets, midshipmen, 
+military prisoners serving a court-martial sentence, 
+and prisoners of war. Reserve personnel are subject 
+to the UCMJ only during active duty service periods 
+and while in federal service on inactive duty training 
+(Exhibit 5-2). 12 National Guard personnel are subject 
+to the UCMJ only while serving in a federalized status; 
+at other times they are subject to state law variations 
+of the UCMJ. 
+Retired personnel of the regular components and 
+members of the Fleet Reserve and Fleet Marine Corps 
+Reserve are subject to the UCMJ. However, retirees 
+from the reserve components are covered only when 
+receiving hospital care from the armed forces. Medically retired service members are also subject to the 
+UCMJ. Courts have long upheld UCMJ jurisdiction for 
+those on the Temporary Disabled Retired List. 13,14 In 
+2015, the Navy Marine Corps Court of Appeals found 
+that jurisdiction also exists for those on the Permanent 
+Disabled Retired List (Exhibit 5-3). 15 
+PHS officers are subject to the UCMJ when assigned 
+to and serving with the armed forces. 16 In this regard, 
+the Public Health Service Act provides that “[o]fficers 
+detailed for duty with the Army, Air Force, Navy, or 
+Coast Guard shall be subject to the laws for the government of the service to which detailed.”17 As a result, 
+except in time of war or declared emergency, the policy 
+of the Department of Health and Human Services is to 
+detail a PHS officer to the armed forces only with that 
+officer’s informed consent and acknowledgment that 
+the UCMJ will apply. 18 
+Given an increasing reliance by the US military 
+on civilian personnel and contractors, it should be 
+noted that certain groups of civilians serving with or 
+accompanying the armed forces in the field in times 
+of war or contingency operations are also subject to 
+the UCMJ. However, under DoD policy, when offenses alleged to have been committed by civilians 
+violate federal laws, the Department of Justice must 
+be notified and offered the opportunity to exercise 
+jurisdiction. 19 The Military Extraterritorial Jurisdiction 
+Act20 confers federal criminal jurisdiction for felony 
+offenses committed abroad by federal employees and 
+contractors supporting DoD missions. Several other 
+groups are potentially subject to UCMJ jurisdiction, 
+including prisoners of war in the custody of the armed 
+forces (consult with your servicing military legal office 
+when questions arise about jurisdiction). 
+EXHIBIT 5-2
+RESERVE JURISDICTION 
+In United States v Phillips,1 Patricia Phillips, a nurse serving as a lieutenant colonel in the Air Force Reserve, was 
+ordered to active duty for 2 weeks of annual training in July 1999. On July 11th, Phillips traveled from her home in 
+Pennsylvania to Wright Patterson Air Force Base in Ohio for the training, checked into visiting officer quarters, and 
+knowingly consumed brownies laced with marijuana. 
+Phillips unsuccessfully tried to get another officer to provide a substitute urine sample for a urinalysis held the following week. The urinalysis detected marijuana usage, and Phillips was later convicted at a general court-martial of 
+making a false official statement (Article 107), wrongful use of marijuana (Article 112a), and conduct unbecoming an 
+officer (Article 133). She was sentenced to 45 days in confinement and dismissal from the service. 
+Phillips argued that jurisdiction was lacking because she consumed the marijuana on July 11th and annual training 
+did not technically start until July 12th. The courts rejected her contention, noting that she traveled on orders, occupied government quarters, and received travel reimbursement on July 11th. 
+(1) United States v Phillips, 58 MJ 217 (CAAF 2003). 
+71
+Military Law and Ethics
+EXHIBIT 5-3
+MEDICALLY RETIRED PERSONNEL 
+The following two cases illustrate UCMJ jurisdiction over medically retired personnel. In 1994, Hospital Corpsman 
+Third Class Walter Stevenson was discharged from the Navy and placed on the Temporary Disabled Retired List 
+(TDRL) following recommendations of a Physical Disability Evaluation Board. Stevenson was awarded a 30% disability rating, which entitled him to receive military retired pay. However, after the Department of Veterans Affairs 
+(VA) found him to be 100% disabled, he waived military pay in order to receive a higher amount from the VA. 
+Three years later, the Naval Criminal Investigative Service identified Stevenson, then living in Tennessee, as a 
+suspect in the rape of a military family member in on-base housing in Hawaii in 1992. Stevenson was convicted 
+at a general court-martial of rape (Article 120) and was sentenced to 3 years of confinement and a dishonorable 
+discharge. The military trial and appellate courts found that the military retained an interest in good order and 
+discipline for those on the TDRL because their disabilities are not permanent and they remain subject to recall. The 
+Supreme Court declined to hear the case. 1 
+Jurisdiction was also upheld in the court-martial of Charles Reynolds, a retired Marine first sergeant on the Permanent Disabled Retired List (PDRL). While on active duty, Reynolds joined a biker gang in violation of Department 
+of Defense instructions. In January 2014, he conspired with two other Marines in the gang to assault a third Marine 
+and participated in the assault. Two days later he was placed on the TDRL and transferred to the Fleet Marine 
+Corps Reserve. Reynolds waived military retired pay in favor of higher payments from the VA. Later that year he 
+physically assaulted his girlfriend. 
+In September 2015, Reynolds was placed on the PDRL, and continued to waive military pay in favor of VA compensation. The secretary of the Navy ordered Reynolds’s apprehension and confinement in late 2015 and authorized the 
+exercise of court-martial jurisdiction over him. He was convicted of failure to obey a lawful general regulation (Article 92), conspiracy to commit assault (Article 80), and assault (Article 128) and sentenced to 270 days in confinement and a bad conduct discharge. In upholding jurisdiction over him, the Navy Marine Corps Court of Appeals 
+relied upon his retired status, entitlement to retired pay, and the fact that he was not exempt from recall to active 
+duty. The court distinguished Reynolds’s retired status from those who are completely discharged from service. 2 
+(1) United States v Stevenson, 53 MJ 257 (CAAF 2000), cert denied 555 US 816 (2008). (2) United States v Reynolds, No. 201600415 (NMCMR 
+2017).
+OFFENSES UNDER THE UCMJ 
+UCMJ offenses (Articles 80–134) can be broadly 
+grouped into three categories: “civilian” offenses, 
+“uniquely military” offenses, and military “catchall” 
+offenses. 
+“Civilian” Offenses
+The UCMJ contains a wide range of “civilian” 
+offenses commonly found in federal and state civilian criminal codes. These offenses include drunken 
+or reckless operation of a vehicle, aircraft, or vessel 
+(Article 111); wrongful use, possession, or distribution of controlled substances (Article 112a); murder 
+(Article 118); rape and sexual assault (Article 120); and 
+larceny (Article 121). Service members can reasonably 
+be expected to understand that such acts are criminal 
+in nature.
+The potential exists for jurisdictional conflict and 
+duplicative investigation and prosecution given that 
+the UCMJ’s “civilian” offenses mirror those in federal 
+and state criminal codes. Although the Constitution21 
+and the UCMJ22 prohibit double jeopardy, courts have 
+interpreted that prohibition to limit only successive 
+prosecutions by the same sovereign government under the “dual sovereignty doctrine.”23,24 Since federal 
+and military authorities fall under the same federal 
+sovereign, both cannot prosecute the same offense. 
+Pursuant to interagency agreements with the Justice 
+Department, most offenses involving DoD and Coast 
+Guard service members on military installations or 
+involving military operations are left to the military 
+to investigate and prosecute. 3 However, matters of national significance are jointly investigated, and allegations of corruption are reserved for federal authorities. 
+States are separate sovereign governments and can 
+prosecute offenses within their jurisdictions regardless 
+of military prosecution, subject to state laws. However, 
+the mere fact that actions occurred within a state does 
+72
+Fundamentals of Military Medicine
+not necessarily confer jurisdiction on the state. In 
+some cases, a state has no jurisdiction over an alleged 
+offense if the act occurred on a military installation or 
+facility that has exclusive federal jurisdiction. In other 
+cases involving uniquely military offenses, there is no 
+applicable state law. Protections against successive 
+prosecutions are also found in military regulations 
+that require high-level approval to prosecute a service 
+member for the same offense previously tried in state 
+courts. 25(ch4) 
+Foreign courts generally have jurisdiction over 
+crimes committed by US service members in other 
+countries. However, the exercise of foreign jurisdiction is often limited by status-of-forces agreements, 
+treaties, or other bilateral agreements with the United 
+States, which normally confer primary jurisdiction on 
+US military authorities. Nonetheless, such agreements 
+can generate intense political discord in the host nation and erode public will, particularly when heinous 
+crimes are committed by US personnel in the host nation involving host nation victims. Such incidents can 
+threaten the stability of an alliance, which could result 
+in a decision by military authorities to turn a service 
+member over to host nation authorities. 26 
+“Uniquely Military” Offenses
+A second subset of UCMJ articles proscribe a number of offenses unique to military service for which 
+there is no civilian equivalent. For example, whereas 
+a civilian employee who misses work may be subject 
+to adverse personnel actions, a service member who 
+misses duty is subject to corrective training, administrative actions, progressive discipline, and even 
+criminal penalties under the UCMJ. Similarly, unlike 
+a civilian employee who does not commit a crime 
+by publicly saying contemptuous things verbally or 
+on social media about the company’s chief executive 
+officer, a commissioned officer who uses contemptuous words against the president, the vice president, 
+Congress, the secretary of defense, the secretary of 
+a military department, the secretary of homeland 
+security, or the governor or legislature of any state, 
+commonwealth, or possession in which he or she is on 
+duty or present faces possible criminal sanctions under 
+the UCMJ. The fact that “uniquely military” offenses 
+may not be obvious to those entering military service 
+is one of the reasons that UCMJ training is required 
+upon a service member’s initial entry into duty and 
+periodically thereafter. 27 
+This category of offenses includes, among others, 
+absence without leave (Article 86); missing movement 
+(Article 87); contempt toward officials (Article 88); 
+disrespect toward a superior commissioned officer 
+(Article 89); assaulting or willfully disobeying a superior commissioned officer (Article 90); insubordinate 
+conduct toward a warrant officer, noncommissioned 
+officer, or petty officer (Article 91); failure to obey an 
+order or regulation and dereliction of duty (Article 92); 
+cruelty and maltreatment (Article 93); mutiny or sedition (Article 94); misbehavior before the enemy (Article 
+99); aiding the enemy (Article 104); misconduct as a 
+prisoner (Article 105); spies (Article 106); espionage 
+(Article 106a); false official statements (Article 107); 
+drunk on duty (Article 112); malingering (Article 115); 
+conduct unbecoming an officer (Article 133); fraternization (Article 134); gambling with a subordinate (Article 
+134); and wearing unauthorized insignia, decoration, 
+badge, ribbon, device, or lapel button (Article 134). 
+Article 92 of the UCMJ merits special examination 
+because it incorporates three broad categories of offenses with clear significance for MMOs. First, Article 
+92 makes it an offense to violate or to fail to obey a lawful general order or regulation. Such orders and regulations are issued by a general court-martial convening 
+authority, general, or flag officers in command, or are 
+published at the service level. Knowledge of these orders and regulations is presumed, and therefore lack of 
+knowledge is not a defense. This prohibition subjects 
+service members to innumerable requirements generally related to standards of conduct and performance 
+of duty. For example, many sections of the Joint Ethics 
+Regulation (JER),28 discussed at the end of this chapter, 
+which exist to preserve the integrity of government 
+operations by setting standards of conduct, are punishable as violations of Article 92. Likewise, participation 
+in extremist organizations violates service regulations 
+and is punishable under Article 92, UCMJ. 29,30
+Second, Article 92 makes violations of lawful orders 
+punishable under the UCMJ. Such orders are issued 
+directly by an individual that the service member has 
+a duty to obey (Exhibit 5-4). This usually occurs within 
+a service member’s chain of command, and could even 
+arise in the context of medical treatment. For example, 
+violation of an order to receive an immunization is 
+subject to punishment under Article 92, UCMJ. 30 
+Finally, Article 92 includes dereliction of duty as 
+an offense, which potentially raises complex issues 
+in the medical context. The offense is described as 
+follows: “A person is derelict in the performance of 
+duties when that person willfully or negligently fails 
+to perform that person’s duties or when that person 
+performs them in a culpably inefficient manner.”3 This 
+means that cases involving medical error potentially 
+violate Article 92. This presents a friction point between 
+professional self-regulation within military medicine 
+and the UCMJ (Exhibit 5-5).
+73
+Military Law and Ethics
+EXHIBIT 5-4
+FAILURE TO OBEY A LAWFUL ORDER 
+In 2010, Lieutenant Colonel Terrence Lakin, an Army doctor with over 17 years of service, refused to deploy for a 
+second tour of duty to Afghanistan due to his belief that then-President Obama was not born in the United States. 
+Although the president had publicly released a copy of his birth certificate, Dr Lakin was unconvinced and felt the 
+orders to deploy were not valid as a consequence. Another Army doctor had to deploy in Lakin’s place with little 
+notice. 
+Dr Lakin, a flight surgeon who formerly served as chief of medicine at the Army’s Pentagon health clinic, ultimately 
+pled guilty at a general court-martial to failing to obey a lawful order to deploy to Afghanistan (Article 92). The doctor who had to deploy in Lakin’s place, and that doctor’s wife, also an Army doctor, testified in sentencing proceedings about the difficulties the unexpected deployment caused them. Dr Lakin apologized, asked to remain in service 
+and pledged to deploy in the sentencing phase of his court-martial. Nonetheless, he was sentenced to 6 months’ 
+imprisonment and dismissal from the service. Dr Lakin lost any military retirement as a result. 1 
+(1) Hemmerly-Brown A. Lakin discharged, sentenced to six months. Army News Service. December 17, 2010. https://www.army.
+mil/article/49601/Lakin_discharged__sentenced_to_six_months/. Accessed November 20, 2017.
+EXHIBIT 5-5
+DERELICTION OF DUTY 
+Army Captain Michael Hamner, an anesthesiologist, pled guilty at a general court-martial in 2001 to false official 
+statements regarding the administration of an antibiotic to a teenage patient who died in his care prior to routine 
+surgery. At the time of the incident, in 1998, Hamner was a 3rd-year resident at the Walter Reed Army Medical 
+Center. 1 Hamner was found guilty of dereliction of duty (Article 92) for improperly administering the antibiotic to a 
+teenage patient and making false statements about the events. Hamner was sentenced to a dishonorable discharge. 2,3
+(1) ABC News. Father seeks justice for daughter’s Army hospital death. ABCnews.go.com. November 22, 2004. http://abcnews.
+go.com/GMA/Health/story?id=272801&page=1. Accessed November 20, 2017. (2) Associated Press. Ex-Walter Reed doctor convicted in fatal malpractice case. Seattle Times. December 15, 2001. http://community.seattletimes.nwsource.com/archive/?date=200
+11215&slug=doctor15m0. Accessed November 20, 2017. (3) United States v Michael G. Hamner, No. 07-166, No. 07-0203/AR, petition 
+for review denied (CAAF June 5, 2007).
+Military “Catchall” Offenses
+The UCMJ includes significant “catchall” offenses 
+not specifically covered elsewhere in the UCMJ 
+through Article 134’s General Article, including all 
+disorders and neglects to the prejudice of (ie, those that 
+cause a reasonably direct and obvious injury to31(p682)) 
+good order and discipline in the armed forces (Article 
+134, Clause 1 [Exhibit 5-6]) all conduct of a nature to 
+bring discredit upon the armed forces (Article 134, 
+Clause 2); and certain state laws made applicable under the Federal Assimilative Crimes Act (Article 134, 
+Clause 3). These broad “catchall” categories may not 
+be used when a more specific offense listed in Articles 
+80 through 132 applies. 
+A detailed discussion of every punitive article is 
+beyond the scope of this chapter. More information can 
+be obtained from local servicing legal offices and the 
+Manual for Courts-Martial, which provides detailed 
+information about each offense in Part IV, including 
+an explanation, a listing of the elements, and reference 
+to any lesser included offenses. 3
+War Crimes 
+The law of armed conflict is established through 
+international treaties and customary international 
+law. The Geneva and Hague Conventions (discussed 
+in Chapter 6, The Law of Armed Conflict and Military 
+Medicine) establish the core of what is commonly 
+referred to as the “law of war.”32 However, it is left to 
+states party to those conventions to investigate and 
+prosecute violations under domestic law. 
+The UCMJ is the primary means by which the US 
+74
+Fundamentals of Military Medicine
+EXHIBIT 5-6
+CONDUCT UNBECOMING AN OFFICER AND CONDUCT PREJUDICIAL TO GOOD ORDER 
+AND DISCIPLINE 
+Howard Levy, a dermatologist from Brooklyn, New York, was drafted during the Vietnam War. His active duty service as an Army captain was delayed until he completed a civilian residency. While serving as the chief of dermatology at the military hospital at Ft Jackson, South Carolina, Levy refused an order to provide a course of instruction 
+for Special Forces medics on dermatologic problems that might be encountered in the course of their counterinsurgency duties. Additionally, Levy publicly stated his opposition to the war, encouraged enlisted personnel not to 
+participate in the war, and urged them to disobey orders, stating in part, “If I were a colored soldier I would refuse 
+to go to Viet Nam and if I were a colored soldier and were sent I would refuse to fight. Special Forces personnel are 
+liars and thieves and killers of peasants and murderers of women and children.”1 
+Levy based his refusal on his view of medical ethics and opposition to the war. He believed that Special Forces 
+medics were primarily soldiers, and therefore any medical instruction he gave them would contribute to the war 
+effort. As a physician, he felt providing this instruction would be unethical behavior. He was convicted of failure to 
+obey a lawful order (Article 90), conduct unbecoming an officer (Article 133), and conduct prejudicial to good order 
+and discipline (Article 134). Levy was sentenced to dismissal from the service, forfeiture of all pay and allowances, 
+and 3 years of confinement at hard labor. Levy challenged the constitutionality of his convictions in federal court, 
+claiming in part that the charges were vague and overbroad, and that the First Amendment protected his speech. 
+Although a federal appeals court ruled in Levy’s favor, the Supreme Court reversed the opinion and reinstated his 
+convictions and sentence.
+(1) Parker v Levy, 417 US 733 (1974).
+prosecutes war crimes. 33 In some cases, such crimes are 
+charged as specific UCMJ offenses, such as murder or 
+rape. In others, suspected offenses are charged as conduct unbecoming an officer, and/or conduct prejudicial 
+to good order and discipline. The federal criminal code 
+can also be assimilated in charging war crimes for acts 
+involving torture, genocide, terrorism, and certain uses 
+of chemical, biological, or nuclear weapons. Those not 
+subject to the UCMJ may be prosecuted under the War 
+Crimes Act,34 the Military Extraterritorial Jurisdiction 
+Act,35 and other applicable sections of the federal 
+criminal code (Exhibit 5-7).
+The United States is not a party to the Rome Statute, 
+a treaty that established the International Criminal 
+Court (ICC), which became a permanent international 
+criminal court in 2002 after ratification of the statute 
+EXHIBIT 5-7
+WAR CRIMES PROSECUTIONS 
+In 2006, four soldiers from the 101st Airborne Division got drunk, left their guard post near Baghdad, entered a 
+nearby home, and raped a 14-year-old girl. One of them, Private First Class Steven Green, then shot and killed the 
+girl, her sister, and her parents in their home and set the girl’s body on fire. Green was discharged from the service 
+before the four were linked to the crime. The other three soldiers were convicted at military courts-martial of rape 
+and murder and sentenced to lengthy sentences under the UCMJ. However, since Green had separated from the 
+service the UCMJ did not apply. Later in 2006, Article 3(a) of the UCMJ was changed to provide jurisdiction over 
+former service members. Instead he was tried and convicted in federal court under the War Crimes Act, a federal 
+law that allowed the former soldier to be charged under federal civilian law. Green was sentenced to life in prison 
+without parole, and a federal appeals court upheld his conviction. 1,2 
+(1) United States v Steven D. Green, 654 F3d 637 (6th Cir 2011). (2) Frederick J. When a soldier murders: Steven Green gets life. Time. 
+May 21, 2009. http://content.time.com/time/nation/article/0,8599,1900389,00.html. Accessed November 20, 2017.
+75
+Military Law and Ethics
+by 120 nations. The ICC was created to investigate and 
+prosecute individuals “only if the State concerned does 
+not, cannot or is unwilling genuinely to do so.”36,37 The 
+court asserts jurisdiction over persons for the crimes 
+of genocide, crimes against humanity, and war crimes. 
+The United States rejects assertions of jurisdiction over 
+US personnel by the ICC, although it maintains observer status and supports certain functions of the ICC. 
+HOW THE MILITARY JUSTICE SYSTEM WORKS
+Command Discretion
+Commanders have prosecutorial discretion under 
+the UCMJ to determine how to handle alleged offenses 
+under their authority. In this respect, commanders are 
+charged with exercising their independent judgment, 
+free from unlawful command influence by more senior 
+commanders directing an outcome. 38 In most cases, the 
+ultimate authority to dispose of more serious offenses, 
+or those involving senior personnel, is withheld to 
+higher level commanders. 3(p401),39 Only commanders 
+with authority to convene courts-martial or administer nonjudicial punishment have authority to finally 
+dispose of allegations. 3 
+Commanders have a wide range of options for dealing with alleged offenses. A basic tenet of the military 
+justice system is to handle alleged offenses “at the lowest appropriate level.”3 The Manual for Courts-Martial 
+lists a number of significant factors for commanders 
+to consider in this regard, “including, to the extent 
+practicable, the nature of the offense, any mitigating 
+or extenuating circumstances, any recommendations 
+made by subordinate commanders, the interests of justice, military exigencies, and the effect of the decision 
+on the military member and the command. The goal 
+should be a disposition that is warranted, appropriate, and fair.”3 The decision must be made with the 
+advice and counsel of a judge advocate, an assigned 
+military lawyer. 
+In most cases, medical commands fall under the 
+ultimate UCMJ authority of a regional or command 
+general court-martial jurisdiction administered by an 
+operational unit commander. Jurisdiction is usually 
+withheld to higher levels of command for allegations 
+involving officers and senior enlisted personnel. Nonetheless, in many cases senior medical commanders 
+are authorized to dispose of offenses. Even if medical 
+commanders are not authorized to handle a case, the 
+rules for court-martial give a service member’s chain of 
+command an opportunity to recommend an appropriate disposition for an alleged offense. This is significant 
+because the chain of command closest to the service 
+member will have the best information to properly 
+characterize the service member’s service record and 
+rehabilitative potential, can best address any impacts 
+of an alleged offense on the mission, and can point to 
+other pertinent information. 
+Reports of UCMJ Violations
+Allegations of UCMJ offenses come from a variety of sources, with varying levels of detail. Some 
+reports originate outside the military, from civilian 
+law enforcement or private citizens. Most allegations, 
+however, rise through the chain of command based 
+on direct observation within the military community. 
+Investigations by military police and military criminal 
+investigators are another frequent source of allegations of wrongdoing. In some cases, military medical 
+personnel may be the first to discover signs of physical 
+or other abuse in the course of their duties and may 
+have an obligation to report the findings. 
+When handling these allegations, as in all situations involving potentially conflicting professional 
+obligations, the MMO should seek guidance. For more 
+information about authorizations or obligations to 
+disclose protected health information for purposes 
+of law enforcement or public health activities, consult with the local Health Insurance Portability and 
+Accountability Act (HIPAA) or privacy compliance 
+office, medical ethics office, or servicing legal office. 
+Documents to consult include the following:
+ 
+• 45 CFR, Part 164. 512(k)(1), Uses and disclosures for which an authorization or opportunity to agree or object is not required; 
+ 
+• DoD Regulation 6025. 18-R, DoD Health Information Privacy Regulation (January 2003); 
+ 
+• DoD Instruction 6490. 08, Command Notification Requirements to Dispel Stigma in Providing 
+Mental Health Care to Service Members (August 
+17, 2011); and
+ 
+• DoD Directive 6400. 06, Domestic Abuse Involving DoD Military and Certain Affiliated Personnel 
+(August 21, 2007).
+Military healthcare providers have special reporting obligations relating to reports of sexual assault 
+received from service members and adult military 
+dependents. 40 In such cases, military healthcare providers must immediately notify designated military 
+sexual assault response coordinators or sexual assault 
+prevention and response victim advocates, who will 
+advise the victim regarding restricted and unrestricted 
+reporting options. Additionally, when restricted 
+76
+Fundamentals of Military Medicine
+reports of sexual assault are first made at a military 
+medical treatment facility, military medical personnel 
+are relieved from state and local mandatory reporting 
+obligations to law enforcement, except when necessary “to prevent or mitigate a serious and imminent 
+threat to the health or safety of an individual.”41 Only 
+unrestricted reports are forwarded for investigation 
+and reported to the chain of command. (However, 
+when MMOs work off-duty for nonmilitary healthcare 
+organizations, state and local requirements do apply 
+and vary by state.) 
+Upon receiving a report alleging a UCMJ violation 
+by a member of the command, a commander must 
+consider the information, circumstances, and any 
+applicable legal requirements before determining the 
+next steps. Information should be obtained from the 
+chain of command and consultation made with the 
+servicing judge advocate. Depending on the allegation, immediate notification may need to be made to 
+military criminal investigators (eg, sexual assault allegations, cases involving possible harm to persons, and 
+those involving damage to or compromise of facilities, 
+equipment, or systems). 
+Even though service members are presumed innocent until proven guilty, protective measures may be 
+required or appropriate pending further investigation 
+and resolution of the allegations. In some cases, in 
+order to safeguard personnel, a commander may need 
+to issue a “cooling off” order requiring that a service 
+member reside in on-base government quarters, limit 
+pass privileges, and/or have no contact with an alleged victim. In other cases, a commander may need 
+to temporarily move a service member’s place of duty 
+in order to avoid possible confrontations. It may be 
+appropriate to temporarily restrict access to weapons 
+and other dangerous materials. In the most extreme 
+cases that present a danger to the service member or 
+others or a possible flight risk, it may be necessary to 
+pursue pretrial confinement. All such cases carry legal 
+significance that could affect the outcome of the case. 
+For example, certain forms of restriction may trigger 
+speedy trial requirements. 42,43 As a result, such measures must only be undertaken after consultation with 
+the servicing judge advocate. 
+Protective measures may also be required or appropriate to protect government facilities, equipment, 
+and information systems as an interim measure while 
+additional facts are obtained. Allegations of a UCMJ 
+violation may compel notification to information security personnel in order to protect information systems 
+and classified information. To safeguard the integrity 
+of government programs, it may be necessary to “flag” 
+the service member and suspend favorable personnel 
+actions while additional information is gathered and 
+considered. Service regulations may require notification through human resources personnel channels to 
+suspend favorable actions involving service members 
+on a promotion list, selected for command, pending a 
+change in duty station, or on retirement orders. 
+Investigations
+The commander has a duty to gather “all reasonably 
+available evidence bearing on guilt or innocence and 
+any evidence relating to aggravation, extenuation, or 
+mitigation.”3 The circumstances will dictate the appropriate means and manner of inquiry or investigation. Commanders should consult with their servicing 
+judge advocate for advice and counsel and to ensure 
+legal compliance. 
+Low-level offenses may warrant no more than a 
+request for information or statements from the service 
+member’s chain of command. More serious offenses 
+should be referred to criminal investigators or investigated under service regulations by an investigating 
+officer (referred to as an “AR 15-6” [Army Regulation 15-6]44 investigation in the Army, a “JAGMAN” 
+[Manual of the Judge Advocate General] investigation in 
+the Navy and Marine Corps,45 a command-directed 
+investigation in the Air Force,46 and administrative 
+investigation in the Coast Guard47). Some allegations 
+require special processing. For example, regarding 
+sexual assault allegations, military criminal investigators will coordinate with sexual assault response 
+coordinators and handle all aspects of investigating 
+the allegations. 40 
+Mental Health Evaluations and Sanity Boards
+MMOs specializing in psychology and psychiatry 
+may be asked to evaluate the mental health of service 
+members under investigation for alleged UCMJ offenses. This usually occurs when a service member 
+accused of an offense is believed to either lack mental 
+responsibility for any offense48 or lack the mental 
+capacity to stand trial. 49 However, given the growing 
+number of traumatic brain injuries and posttraumatic 
+stress disorders experienced by service members since 
+the attacks of September 11, 2001, mental health evaluations may already be underway in connection with 
+fitness for duty and disability evaluations, which run 
+concurrently with military justice proceedings. 
+Sometimes a forensic inquiry into mental responsibility or capacity takes place prior to a commander’s 
+decision to prefer (formally initiate) charges under 
+Rule for Courts-Martial 307 and may lead to a decision 
+not to prefer charges. Usually, however, a court-martial 
+convening authority orders qualified medical person77
+Military Law and Ethics
+nel to conduct a “sanity board” and to prepare detailed 
+findings about the service member’s mental condition 
+after charges have been preferred. 50 Such findings help 
+to inform the commander’s decisions about the case, 
+but do not compel an outcome.
+Administrative Actions
+Based upon the facts and circumstances, a commander may determine that an offense is best dealt 
+with outside the traditional criminal justice context. 
+In some cases, it may be appropriate to take no action 
+based on the results of an inquiry or investigation that 
+fails to establish wrongdoing. In many cases, it may 
+be prudent to handle minor offenses progressively 
+through a range of administrative actions, such as 
+corrective training, counseling, revocation of pass 
+privileges, admonition, censure or reprimand, and 
+bar to reenlistment. 45 
+Letters of concern or caution are occasionally used 
+as a “wake up call” to underscore departure from 
+accepted standards and encourage improvement. Essentially a formalized counseling statement, a letter 
+of concern or caution does not, in and of itself, have 
+long-term consequences. Rather, it is intended to rehabilitate the service member, and it is not permanently 
+filed in official personnel records. 45,51 Nonetheless, the 
+underlying factual basis for the letter may be reflected 
+in performance evaluations. 45,52 
+Letters of reprimand are commonly used to memorialize more serious actions or omissions that reflect 
+poorly on a service member’s “leadership ability, 
+promotion potential, morals, and integrity.”53 Such 
+unfavorable information is considered pertinent to 
+future personnel decisions that may result in selections for positions of public trust and responsibility, 
+leadership positions, and continued service. 
+In some cases, reprimands must be issued for certain 
+actions. For example, in the Army, driving while intoxicated or impaired or refusing to take a breathalyzer 
+test requires an administrative reprimand regardless of 
+any punitive actions. 54 The letter of reprimand process 
+is streamlined, and the standard of proof is preponderance of the evidence. Service members must only be 
+given notice and an opportunity to respond prior to 
+final decisions on imposition and filing. In most cases, 
+administrative reprimands can only be permanently 
+filed in a service member’s official personnel files if 
+directed by a general, a flag officer, or a general courtmartial convening authority. 
+Service members may also be administratively 
+eliminated from military service for a variety of reasons, including misconduct, professional dereliction, 
+unsuitability for service, and conduct unbecoming 
+an officer. 55–57 The government’s standard of proof 
+is lower in such cases than at courts-martial, and the 
+rules of evidence generally do not apply. However, 
+service members retain certain administrative due 
+process rights in these cases, such as the right to present evidence and to be heard when an unfavorable 
+discharge is possible. For example, medical evidence 
+and testimony is often presented when the defense 
+contends that an underlying medical condition caused 
+or contributed to the actions or omissions that led to 
+the administrative elimination action and supports 
+retaining the service member. Additionally, when 
+administrative elimination is warranted, the separation 
+authority must determine whether the service member’s service should be characterized as “honorable,” 
+“under honorable conditions,” or “under other than 
+honorable conditions.” This characterization impacts 
+eligibility for veterans’ benefits, including medical 
+benefits, and may affect the service member’s future 
+employment prospects.
+Nonjudicial Punishment
+Article 15 of the UCMJ offers an opportunity to 
+resolve allegations of minor UCMJ violations through 
+a disciplinary, nonjudicial measure that is more serious than corrective administrative actions but less 
+serious than a court-martial. 3 Governed in part by 
+service regulations, nonjudicial punishment is commonly referred to as an “Article 15” in the Army and 
+Air Force, a “captain’s mast” in the Navy and Coast 
+Guard, and “office hours” in the Marine Corps. It is 
+generally appropriate for offenses that do not carry 
+the possibility of a dishonorable discharge or more 
+than 1 year of confinement. 3 Unless authority has been 
+withheld by a senior commander or by law or service 
+regulation, it falls within a commander’s discretion 
+to determine whether nonjudicial punishment is appropriate in a given case after considering a number of 
+factors, including the nature of the alleged offense, the 
+service member’s record, the need for good order and 
+discipline, and the effect of nonjudicial punishment on 
+the service member and the service member’s record. 
+Once a commander decides to go forward with nonjudicial punishment proceedings, he or she must notify 
+the service member of the intent to proceed, specify 
+the alleged UCMJ violation involved, provide evidence 
+showing that a violation occurred, and inform the service member about their applicable rights, including 
+the right to consult with defense counsel. If the service 
+member demands a trial by court-martial, nonjudicial 
+punishment proceedings must be terminated unless 
+the service member is attached to or embarked on 
+a vessel, in which case they do not have this option. 
+78
+Fundamentals of Military Medicine
+When a service member “turns down” nonjudicial 
+punishment, the commander must decide whether 
+to pursue a court-martial or to handle the situation 
+through other means. A service member’s decision not 
+to demand trial by court-martial reflects a decision to 
+allow the commander to determine guilt or innocence, 
+and if the service member is found guilty, to determine 
+the appropriate punishment. 
+The service member can elect personal appearance at a hearing to present evidence in defense, extenuation, and mitigation both orally and in writing; 
+request and question witnesses; and, in many cases, 
+have a spokesman present. The chain of command is 
+typically present at such hearings. The commander 
+must consider all evidence presented and determine 
+whether the service member committed one or more 
+of the UCMJ violations alleged. 
+Significantly, the standard of proof to be found 
+guilty varies by service for nonjudicial punishment. 58 
+The evidence must establish guilt by a preponderance 
+of evidence (more likely than not) in the Navy, Marine 
+Corps, and Coast Guard. 45,59 In the Army, the evidence 
+must establish guilt beyond a reasonable doubt. 25(para316d4) The Air Force presently has no express standard 
+of proof, but refers commanders to the beyond-areasonable-doubt standard at courts-martial, and 
+suggests that nonjudicial punishment is inadvisable 
+when the evidence fails to meet this standard. 60 If the 
+commander concludes that the service member did 
+not commit an offense according to the service-specific 
+standard, the proceedings are terminated. If the commander concludes that the service member did commit 
+an offense, the service member must be notified of the 
+finding, the punishment imposed, and the right to appeal. This usually occurs at the time of any hearing.
+Depending on the rank of the service member and 
+the rank of the imposing commander, punishments 
+can include extra duty, restriction, bread and water 
+(for junior Navy enlisted personnel on vessels), reprimands, forfeitures of pay (up to half of one month’s 
+pay for 2 months), and reduction in rank for enlisted 
+personnel. 61 Field-grade and higher commanders 
+are authorized to impose greater punishment than 
+company-grade commanders. To incentivize rehabilitation, a commander may suspend any portion 
+of the punishment on the condition that the service 
+member not commit any further violation during the 
+period of suspension. Suspended punishments are 
+automatically remitted upon successful completion 
+of a probationary period. However, further misconduct during the period of suspension empowers 
+the imposing commander to summarily vacate the 
+suspension. 
+Those found guilty have the right to appeal any 
+finding of guilt, the punishment imposed, or both, to 
+the next higher commander. On appeal, a commander 
+can set aside a finding of guilt and reduce the punishment if deemed appropriate. Once final, the record of 
+nonjudicial punishment is filed in the service member’s 
+personnel file in accordance with service regulations, 
+which can have considerable long-term consequences 
+for assignment, promotion, and retention in service. 
+Most MMOs will have significant roles in the nonjudicial punishment process at some point during their 
+service. Some will discover and report offenses, or they 
+may conduct inquiries or investigations into reports 
+of misconduct that serve as the basis for UCMJ action. 
+Those in non-command supervisory positions will be 
+called upon to recommend to command authorities 
+whether nonjudicial punishment proceedings are 
+appropriate for those under their supervisory authority. Others will be called upon to appear in person or 
+by writing at a hearing to provide facts relevant to 
+innocence, guilt, or punishment. A select number in 
+command positions will administer nonjudicial punishment or decide appeals. 
+COURTS-MARTIAL
+Preferral of Charges
+Preferral of charges is the first step in the courtmartial process. It involves a formal, written description 
+of alleged UCMJ violations in a manner required by the 
+Manual for Courts-Martial. Any person subject to the 
+UCMJ can prefer charges, and in so doing must, under 
+oath, state that the signer “has personal knowledge of 
+or has investigated the matters set forth in the charges 
+and specifications and that they are true in fact to the 
+best of that person’s knowledge and belief” (Rule for 
+Courts-Martial 307(b)). 3 In most cases, charges are 
+preferred by a service member’s company level UCMJ 
+commander after reviewing the investigation into the 
+matter and consulting with the servicing judge advocate. Once preferred, charges are served on the accused 
+service member and are immediately forwarded to the 
+next higher commander for forwarding to the summary 
+court-martial convening authority. 
+Levels of Courts-Martial
+Summary courts-martial are at the lowest level. 
+They apply only to enlisted personnel, are heard by 
+one appointed officer rather than a military judge or 
+panel members, have abbreviated procedural and 
+79
+Military Law and Ethics
+evidentiary rules, and do not guarantee the right of 
+the accused to be represented by a defense counsel at 
+the hearing. The maximum punishments are limited to 
+“one month of confinement and other relatively modest punishments.”62 A service member must consent to 
+have a case heard at a summary court martial. Generally, an O5-level commander (lieutenant colonel or 
+equivalent rank) can convene summary courts-martial. 
+Special courts-martial are at the intermediate level, 
+typically used for minor offenses that are generally 
+equivalent to misdemeanors in civilian courts. Special 
+courts-martial can try both officer and enlisted personnel. They include a military judge, defense counsel and 
+military prosecutor, and court martial panel members. 
+The maximum punishments include a bad conduct discharge and 1 year in confinement. Typically, designated 
+commanders at the O6 level (colonel or equivalent rank) 
+are authorized to convene special courts-martial and 
+lower level summary courts-martial. 
+General courts-martial are the military’s felonylevel courts. Like special courts-martial, general courtsmartial include a military judge, defense counsel, 
+military prosecutor, and court martial panel members. 
+There is no sentence limitation at this level and appeal 
+is automatic. General court-martial convening authority is normally reserved to designated general and flag 
+officers, who are also authorized to convene special 
+and summary courts-martial. 
+Article 32 Investigations
+Unless waived by the service member, a preliminary 
+hearing must be held in accordance with Article 32 
+of the UCMJ before a case can be referred to a general court-martial. 63,64 This probable cause hearing, 
+referred to as an Article 32 investigation, provides 
+service members with substantially more rights 
+than the civilian grand jury equivalent. An Article 32 
+investigating officer, often a military lawyer, must 
+impartially hear the evidence and make the following specific determinations: whether there is probable 
+cause to conclude that an offense or offenses have been 
+committed, whether the accused committed it, and 
+whether a court-martial would have jurisdiction over 
+the offense and the accused. The investigating officer 
+is also charged with considering the technical form of 
+the charge and recommending how the charge should 
+be handled (Exhibit 5-8).
+Referral to Court-Martial
+Court-martial convening authorities determine 
+whether charges should be referred to a court-martial, 
+and if so, at which level. Unless authority is withheld 
+by a senior UCMJ convening authority or by law or service regulation, charges can be referred to courts within 
+a convening authority’s level of authority. Otherwise, 
+charges must be forwarded with recommendations to 
+the next higher convening authority for similar determinations. Consultation with victims is also generally 
+required prior to referral. Any decision to refer charges 
+to a special or general court-martial must be informed 
+by advice from the servicing staff judge advocate, a 
+senior military attorney assigned to advise convening 
+authorities on military justice matters. 
+EXHIBIT 5-8
+ARTICLE 32 INVESTIGATIONS 
+In 2007, First Lieutenant Elizabeth Whiteside, an Army nurse, was charged with kidnapping, aggravated assault, 
+assault upon a superior commissioned officer, reckless endangerment, willful discharge of a firearm, communicating a threat, and self-injury in a hostile-fire zone. The charges stemmed from an incident that occurred January 1, 
+2007, at Camp Cropper, Iraq. 1 According to press reports, Whiteside suffered a breakdown and as a result held a 
+senior nurse against her will at gunpoint, threatened other soldiers, fired her weapon into the air, and ultimately 
+shot herself. 2 Later, while undergoing treatment at the Walter Reed Army Medical Center, charges were preferred 
+against her and an Article 32 investigation was conducted. A sanity board concluded that Whiteside lacked mental 
+responsibility for her actions. 3 After reviewing the Article 32 report of investigation and recommendations from the 
+investigating officer and the chain of command at the Walter Reed Army Medical Center, the general court-martial 
+convening authority dismissed all charges without a trial. 1
+(1) Boyce P. Court-martial convening authority dismisses all charges against lieutenant. US Army website. https://www.army.mil/
+article/7209/Court_martial_convening_authority_dismisses_all_charges_against_lieutenant/. Published January 30, 2008. Accessed 
+November 20, 2017. (2) Priest D, Hull A. A patient prosecuted. Washington Post. December 2, 2007:A1. (3) Priest D, Hull A. Leniency 
+suggested for officer who shot herself. Washington Post. December 11, 2007. http://www.washingtonpost.com/wp-dyn/content/
+article/2007/12/10/AR2007121001613.html. Accessed May 11, 2018.
+80
+Fundamentals of Military Medicine
+Referred Cases 
+Once referred to trial at the special or general courtmartial levels, the military judge takes effective control 
+of the case. A substantial pretrial phase precedes any 
+trial. Service members have many rights, including the 
+right to counsel, to demand a speedy trial, to obtain 
+witnesses and other evidence, to request and consult 
+with experts, to litigate constitutional and procedural 
+violations, and to raise motions to suppress evidence 
+and dismiss charges; they also have discovery rights 
+for evidence. At trial, service members also have substantial rights, including the right to challenge the 
+judge and panel members for lack of impartiality, to 
+challenge jurisdiction, to request trial by a military 
+judge alone or trial by court members, to confront 
+witnesses and challenge evidence, to call witnesses 
+and present evidence, to raise defenses, to challenge 
+the sufficiency of the evidence, and to remain silent.
+Convening authorities continue to play important 
+roles while charges are referred. For example, the 
+convening authority must decide whether to accept a 
+service member’s request for discharge in lieu of courtmartial, if offered. Similarly, the convening authority 
+must decide whether to accept any offer for a pretrial 
+agreement, which often involves a sentence limitation 
+in exchange for a guilty plea or trial by military judge 
+alone. Additionally, the convening authority must 
+ensure that court members are properly selected and 
+made available. 
+Roles of Military Medical Officers in Courts-Martial
+MMOs may be appointed to serve as court-martial 
+panel members. 65 In this capacity, the officer essentially 
+serves as a juror. Such duty takes precedence over other 
+duties and any planned leave. MMOs are also commonly called as witnesses at courts-martial. In some cases, 
+they are called to discuss direct observations about a 
+medical condition or injury that may be relevant to guilt, 
+innocence, or punishment. In other cases, as in state 
+and federal courts, they may be asked to testify about 
+statements that a patient made in the course of medical 
+treatment in accordance with Military Rule of Evidence 
+803. 3 When mental responsibility or mental capacity are 
+an issue at trial, qualified experts are called to testify. 
+Post-Trial
+Shortly after trial, if requested by the service member, the convening authority must decide whether to 
+defer any period of confinement. The convening authority’s action must be in writing and must state the 
+reasons why any such request was denied. Similarly, 
+the convening authority must respond in writing to a 
+request by a service member to defer forfeitures of pay 
+and state the basis for the decision. Additionally, the 
+convening authority must also respond to any request 
+to waive forfeitures of pay for a period not to exceed 6 
+months for the support of family member dependents. 
+Once the record of trial has been prepared, it is 
+forwarded to the staff judge advocate for review and 
+advice to the convening authority regarding the proceedings. The staff judge advocate’s formal advice is 
+served on the convicted service member and defense 
+counsel, who have an opportunity to review it for 
+errors and to submit information for the convening 
+authority’s consideration. Crime victims also have the 
+right to submit matters for the convening authority to 
+consider in taking initial action on the findings and 
+EXHIBIT 5-9
+APPELLATE REVIEW 
+In 1985, Commander Donal Billig, formerly a heart surgeon at the Bethesda Naval Medical Center, was charged 
+with negligent homicide, involuntary manslaughter, and dereliction of duty in connection with the deaths of several 
+patients and several other surgeries performed in 1983. Billig joined the Navy in 1982 while in his mid-50s, shortly 
+after being dismissed by a private medical group in Pittsburgh. He had also been forced to leave a medical practice 
+in New Jersey in 1980 after losing his operating privileges. Billig reportedly had not performed heart surgery for 
+several years before joining the Navy, and suffered from poor vision. Dr Billig was found guilty of two counts of 
+Article 119 (involuntary manslaughter), one count of Article 134 (negligent homicide), and 18 counts of Article 92 
+(dereliction of duty). He was sentenced to 4 years’ imprisonment and a dismissal from service. In 1988, the NavyMarine Corps Court of Military Review was not satisfied of guilt beyond a reasonable doubt and threw out his 
+convictions, released him from the confinement facility at Fort Leavenworth, and reinstated him in service with 
+back pay. 1
+(1) United States v Billig, 26 MJ 744 (NMCCMR 1988).
+81
+Military Law and Ethics
+recommendations of the court-martial. The staff judge 
+advocate must file an addendum to the initial advice 
+addressing any legal error alleged.
+Traditionally, convening authorities had broad 
+discretion to disapprove findings of guilt and to approve, disapprove, commute, or suspend the sentence 
+adjudged at trial. However, in 2013, Congress limited 
+that authority. Pursuant to these changes, a convening 
+authority may not dismiss a finding or approve a lesser 
+included offense unless the offense carries a maximum 
+punishment of 2 years’ confinement and the sentence 
+adjudged does not include a punitive discharge or 
+confinement greater than 6 months. No changes are 
+authorized to findings of guilt in cases involving rape 
+and sexual assault. 
+The convening authority’s initial action executes 
+all portions of the sentence except for a dishonorable 
+discharge, bad conduct discharge, dismissal, or death 
+sentence. Appellate review is required in all such cases. 
+Each service has a court of criminal appeals (Exhibit 
+5-9), and subsequent appeals go to the Court of Appeals 
+for the Armed Forces. After that, a service member can 
+petition the Supreme Court to hear the case on a petition 
+for a writ of certiorari, which is rarely granted.
+EXHIBIT 5-10
+US PUBLIC HEALTH SERVICE DISCIPLINE 
+In 2006, Dr Pearson “Trey” Sunderland, a Public Health Service Commissioned Corps officer and researcher at 
+the National Institutes for Mental Health (NIMH), plead guilty to criminal conflict of interest in connection with 
+his research activities. Sunderland had accepted nearly $300,000 as a consultant for a pharmaceutical company 
+affected by his ongoing research activities at NIMH, and provided the company with thousands of samples from 
+his research. He failed to seek approval or disclose the relationship and payments in ethics reports to the agency. 
+Sunderland was sentenced to 2 years of probation, fined $300,000, and ordered to perform 400 hours of community 
+service. 1 Sunderland’s Public Health Service disciplinary hearing was reportedly delayed at the request of the Department of Justice while the criminal case was underway. 2
+(1) Rich E. NIH scientist pleads guilty in accepting $285,000 from Pfizer. Washington Post. December 9, 2006. http://www.washingtonpost.com/wp-dyn/content/article/2007/12/10/AR2007121001613.html. Accessed May 11, 2018. (2) Weiss R. NIH punishments criticized. 
+Washington Post. September 14, 2006. http://www.washingtonpost.com/wp-dyn/content/article/2006/09/13/AR2006091302024.html. 
+Accessed May 11, 2018.
+DISCIPLINARY RULES UNIQUE TO PUBLIC HEALTH SERVICE OFFICERS
+Uniformed PHS officers are subject to administrative discipline, reduction in grade, and separation from 
+service (termination of commission) for misconduct 
+under regulations issued by the Department of Health 
+and Human Services. These regulations cover both active and retired officers. The PHS retains the right to 
+impose administrative discipline even when its officers 
+are subject to the UCMJ (Exhibit 5-10).
+Under PHS personnel instructions,66 misconduct 
+includes violation of the department’s standards of 
+conduct regulations, and any other federal regulation, law, or official government policy, including the 
+following:
+ 
+1. disobedience of the lawful orders of an official superior;
+ 
+2. negligence or carelessness in obeying orders 
+or in performing official duties;
+ 
+3. unauthorized use or consumption of controlled substances or alcohol while on duty, 
+being under the influence of such substances 
+or alcohol while on duty, or illegally possessing, transferring, or ingesting controlled 
+substances at any time; 
+ 
+4. engaging in action or behavior of a dishonorable nature which reflects discredit upon the 
+officer or PHS or both;
+ 
+5. failure to honorably discharge just debts in a 
+timely manner;
+ 
+6. acts of insubordination or use of insulting 
+or defamatory language or gestures disrespectful of, or displaying a contemptuous 
+attitude toward, official superiors or other 
+officers;
+ 
+7. making any public statement that falsely 
+impugns the professional competency or 
+personal character of a superior or another 
+officer;
+ 
+8. waste of public funds or property, or knowingly permitting such waste;
+82
+Fundamentals of Military Medicine
+ 
+9. conviction of a felony;
+ 10. submission of false information in an application for appointment or in any other official 
+document;
+ 11. abusive treatment of subordinate officers, 
+employees, patients, or program beneficiaries, or of members of the public in their 
+dealings with the government; or
+ 12. absence from his or her assigned place of 
+duty without authorized leave. 66
+Like their military counterparts, PHS officers have 
+administrative due process rights when misconduct 
+is alleged, and adverse proceedings may result in 
+disciplinary actions. 66,67 Ultimately, when a board of 
+inquiry finds that misconduct occurred and that the officer’s commission should be terminated as a result, as 
+with military separations, the board must recommend 
+an appropriate characterization of the discharge as 
+“honorable,” “under honorable conditions,” or “under 
+other than honorable conditions.” 
+THE FEDERAL TORT CLAIMS ACT AND THE FERES DOCTRINE
+The overriding need for good order and discipline 
+in the military has also contributed to an important 
+difference between civil law rights and liabilities of 
+service members versus civilians, which is of particular 
+significance for the military and uniformed services 
+medical community: active duty service members 
+cannot sue the federal government, other service members, or civilian government employees for injuries that 
+arise incident to service. 68 This means that active duty 
+uniformed service members cannot sue uniformed 
+service doctors for medical malpractice. 
+The Federal Tort Claims Act and the Military 
+Claims Act
+The United States enjoys sovereign immunity from 
+lawsuits unless it consents to liability. 69 Historically, 
+claims for redress and waivers of sovereign immunity 
+were handled through private bills in Congress, an 
+unpredictable process with uneven results. 68 In 1946, 
+through the FTCA,70 Congress provided a limited 
+waiver of immunity for damages for personal injury, 
+death, or property damage caused by the negligence of 
+federal employees acting within the scope of employment. In FTCA cases, the United States is substituted 
+as a party for the federal employee. Claims must be 
+brought administratively before the agency involved 
+and must follow detailed procedures prior to any 
+lawsuit. Congress shifted adjudication of FTCA claims 
+to the courts. 
+Notably, however, the law only applies in the United States. It also excludes “[a]ny claim arising out of 
+the combatant activities of the military or naval forces, 
+or the Coast Guard, during time of war.”71
+For overseas claims, the Military Claims Act 
+(MCA)72 provides a limited waiver of immunity for 
+those who are not active duty service members. The 
+MCA relies entirely on administrative processes and 
+does not allow lawsuits. As with the FTCA, combatrelated claims are excluded from MCA coverage. 
+The Feres Doctrine
+In 1950 the Supreme Court considered the FTCA’s 
+application in Feres v United States68 and two related 
+cases in which the military was sued for alleged 
+negligence that harmed a service member incident to 
+service. Feres involved claims that negligence led to 
+the death of a service member in a barracks fire. The 
+two companion cases, Jefferson v United States73 and 
+Griggs v United States,74 involved medical malpractice 
+claims. In Jefferson, a former service member who had 
+abdominal surgery while in the Army brought a suit 
+for negligence when, in a subsequent operation after 
+being discharged from service, a large towel marked 
+“Medical Department US Army” was removed from 
+his stomach. Griggs involved a suit brought by the 
+widow of a service member who died after surgery, 
+allegedly due to negligence by military surgeons. The 
+Supreme Court ultimately held that all three cases were 
+barred from going forward, finding that the FTCA does 
+not waive sovereign immunity in such cases. Thus, the 
+Feres doctrine was developed as a judicial exception 
+to the FTCA. 
+The Supreme Court has relied on several rationales 
+in support of the Feres doctrine: the court feared adverse impacts on good order and discipline and unit 
+effectiveness if service members could sue the military 
+or fellow service members for injuries incurred incident to service, involving the judicial branch in military 
+affairs. 75 Additionally, the court noted that the military 
+provides “simple, certain and uniform compensation 
+for injuries or death of those in armed services,” which 
+normally requires no litigation, applies regardless of 
+negligence, and compares “extremely favorably” with 
+civilian workers’ compensation. 68,75 Finally, the court 
+has observed that federal law properly governs the 
+relationship of military personnel with the government 
+and determined it would be unfair and inequitable to 
+apply disparate state tort laws to acts or omissions 
+committed in a state pursuant to military service. 68 
+83
+Military Law and Ethics
+The Feres doctrine has also been applied to bar 
+claims by active duty uniformed PHS officers,76–78 and 
+it extends to the derivative claims of family members, 
+as in the case of the death of a service member due 
+to alleged medical malpractice. Nonetheless, family 
+members and others may still file claims for medical 
+malpractice that they allegedly suffer at the hands of 
+uniformed personnel. 
+The Feres doctrine has been controversial since its 
+inception, but has withstood numerous attempts to 
+eliminate or modify its application. 79–82 Congress 
+has thus far declined to legislatively eliminate the 
+Feres doctrine or to limit its application in medical malpractice cases. The Supreme Court has also 
+refused to overrule Feres or declare that it does not 
+apply in medical malpractice cases. 83 However, the 
+court may reconsider the Feres doctrine in the future in the context of pre-birth cases, because some 
+federal circuit courts of appeals disagree about its 
+application in such cases. 84 Highly publicized cases 
+continue to go before the court for review. In 2011, 
+the Supreme Court denied a writ of certiorari in a 
+well-publicized case in which the widow of an Air 
+Force staff sergeant was barred from pursuing a 
+medical malpractice claim against the Travis Air 
+Force Base Medical Center after her husband was left 
+in a vegetative state and later died after an appendectomy. 83 In 2017, after a monetary settlement was 
+reached, the Supreme Court dismissed a petition for 
+writ of certiorari in a case in which an Army captain 
+having a scheduled caesarean section was given a 
+drug that she was allergic to, causing her unborn 
+child to be deprived of oxygen, which resulted in 
+cerebral palsy. 85,86 
+The Feres doctrine creates challenges for MMOs. In 
+a litigious society, accountability for wrongs is often 
+associated with a court verdict or negotiated settlement and monetary damages. The lack of an available 
+civil law remedy for active duty service members may 
+lead some to conclude that military medical personnel are not held accountable for errors and omissions 
+that cause harm to their fellow service members. This 
+misperception may be exacerbated by the fact that the 
+military’s quality assurance program has statutory 
+protections against disclosure of quality assurance investigations87 and the fact that Privacy Act protections 
+shield personnel matters from public view. This lack 
+of transparency could ultimately lead to additional 
+calls for a legislative “repeal” or judicial modification of the Feres doctrine. Others might increasingly 
+turn to the UCMJ to investigate and adjudicate alleged medical negligence by medical personnel as a 
+dereliction of duty. Military medicine leaders must 
+ensure that medical quality assurance programs88 are 
+faithfully executed and that medical personnel are 
+held accountable. 
+DEPARTMENT OF DEFENSE JOINT ETHICS REGULATION
+Like all federal employees, military personnel must 
+adhere to standards of conduct designed to ensure 
+the integrity of government operations. Moreover, 
+it is DoD policy that “[i]ndividual conduct, official 
+programs and daily activities within DoD shall be accomplished lawfully and ethically . . . .”28(sec84. 3f) From 
+an organizational perspective, ethical failures can significantly derail important programs and acquisitions, 
+and may result in substantial delays and unanticipated 
+expenditures. Investigations and negative publicity 
+may erode public and congressional confidence in 
+agency operations. As noted earlier in this chapter, on 
+an individual level, violations of many JER provisions 
+may be punished under the UCMJ and the federal 
+criminal code. Additional penalties include civil law 
+and administrative actions. Military and uniformed 
+medical officers must familiarize themselves with ethical requirements and principles, ensure compliance 
+with ethics programs, and cultivate an organizational 
+culture of ethical conduct.
+For DoD personnel, comprehensive government 
+ethics guidance is found in the JER. To help DoD 
+personnel better understand and apply ethics rules 
+to particular situations, the JER provides for attorneys appointed as ethics counselors28(sec84. 4b2),89 under 
+programs administered by designated service-level 
+agency ethics officials. In fact, it is DoD policy that 
+when any question exists about the propriety of an 
+activity or action, DoD personnel are to consult with 
+an ethics counselor. 28(para1-212),89 Since ethics counselors 
+represent the agency rather than individual employees, 
+communications are not protected by the attorneyclient privilege. Nonetheless, to incentivize preventive 
+consultations with an ethics counselor, the JER rules 
+out disciplinary action against those who rely on an 
+ethics counselor in good faith, after full disclosure of 
+pertinent facts, unless criminal conduct is involved. 
+MMOs should therefore become familiar with the ethics counselor at their servicing legal office. 
+Fourteen general principles form the basis for the 
+federal standards of conduct and the JER. 90 By becoming familiar with these principles, MMOs will be able 
+to identify potential ethics issues for further resolution. 
+(1) Public service is a public trust, requiring employees to place loyalty to the Constitution, the laws and 
+84
+Fundamentals of Military Medicine
+ethical principles above private gain. 
+(2) Employees shall not hold financial interests that 
+conflict with the conscientious performance of duty. 
+(3) Employees shall not engage in financial transactions using nonpublic Government information or allow the improper use of such information to further 
+any private interest. 
+(4) An employee shall not, except as permitted by 
+subpart B of this part, solicit or accept any gift or 
+other item of monetary value from any person or entity seeking official action from, doing business with, 
+or conducting activities regulated by the employee’s 
+agency, or whose interests may be substantially affected by the performance or nonperformance of the 
+employee’s duties. 
+(5) Employees shall put forth honest effort in the performance of their duties.
+(6) Employees shall not knowingly make unauthorized commitments or promises of any kind purporting to bind the Government. 
+(7) Employees shall not use public office for private 
+gain. 
+(8) Employees shall act impartially and not give preferential treatment to any private organization or individual. 
+(9) Employees shall protect and conserve Federal 
+property and shall not use it for other than authorized activities. 
+(10) Employees shall not engage in outside employment or activities, including seeking or negotiating 
+for employment, that conflict with official Government duties and responsibilities. 
+(11) Employees shall disclose waste, fraud, abuse, 
+and corruption to appropriate authorities. 
+(12) Employees shall satisfy in good faith their obligations as citizens, including all just financial obligations, especially those—such as federal, state, or local 
+taxes—that are imposed by law. 
+(13) Employees shall adhere to all laws and regulations that provide equal opportunity for all Americans regardless of race, color, religion, sex, national 
+origin, age, or handicap.
+(14) Employees shall endeavor to avoid any actions 
+creating the appearance that they are violating the 
+law or the ethical standards set forth in this part. 
+Whether particular circumstances create an appearance that the law or these standards have been violated shall be determined from the perspective of a 
+reasonable person with knowledge of the relevant 
+facts. 90
+A full discussion of the JER and government ethics 
+laws is beyond the scope of this chapter. Nonetheless, 
+certain questions that commonly arise in the context 
+of military medicine deserve mention, including relations with non-federal entities; teaching, writing, and 
+speaking; gifts; and outside employment. 
+Relations with non-federal entities. DoD personnel must not state or imply endorsement of a 
+non-federal entity or its services, products, events, 
+or enterprises. 28(para3-209) However, special rules apply to the Combined Federal Campaign and specific 
+military relief organizations. Additionally, consultation is needed with the servicing ethics counselor 
+before participating in an official capacity with any 
+non-federal entity, including as a speaker, panelist, 
+or award recipient at non-federal entity events and 
+conferences, or as a command representative or liaison 
+to a non-federal entity’s management group. Certain 
+groups have statutory authority for particular support, 
+including the American Registry of Pathology, the 
+Henry M. Jackson Foundation for Military Medicine, 
+and the American Red Cross. 28(para3-212),91 
+Teaching, writing, and speaking. The JER, as well 
+as the Supplemental Standards of Ethical Conduct for 
+Employees of the Department of Defense28(para3-305a),92 
+require DoD personnel to use prominent disclaimers when teaching, writing, or speaking on subjects 
+related to agency matters. Public affairs and security 
+reviews are also required for lectures, speeches, and 
+writings that pertain to military matters, national 
+security issues, or subjects of significant concern to 
+DoD. 28(para305b),93 Any offer of an honorarium in conjunction with teaching, writing, or speaking must be 
+coordinated in advance with an ethics counselor to 
+ascertain whether acceptance is possible. 28(para3-305c) 
+Gifts. The JER and DoD’s Supplemental Standards 
+of Ethical Conduct limit gifts from outside sources and 
+between DoD employees. Generally, DoD personnel 
+may not accept gifts given due to their official position, 
+or given by an entity that does or seeks to do business 
+with the agency. Certain exceptions permit limited 
+gifts such as speaker mementos with little intrinsic 
+value and modest items of food and refreshments. Gifts 
+from subordinates are also normally prohibited, with 
+limited exceptions allowing such gifts for significant 
+life occasions such as weddings, retirement, and departure from the supervisory position. Nonetheless, 
+the JER and DoD’s Supplemental Standards of Ethical 
+Conduct limit the value of gifts that a group of subordinates can make to senior officials. 
+Any offer of travel, lodging, meals, or expenses 
+in an official capacity in relation to participation in 
+a non-federal entity conference or event compels 
+advance consultation with the ethics counselor and 
+requires proper approval by agency heads before acceptance. 94,95 After-the-fact approval is not permitted 
+for gifts of travel. Failure to comply subjects the traveler to possible fines and disciplinary action. 
+Outside employment. DoD’s Supplemental Standards of Ethical Conduct requires prior approval for 
+outside employment and business activities for financial disclosure filers. 92 Furthermore, most commands 
+85
+Military Law and Ethics
+require prior approval for any outside employment. 
+In addition, federal law prohibitions against dual 
+compensation and conflicts of interests bar active duty 
+military personnel and government civilian employees 
+who moonlight as healthcare practitioners from billing Tricare for fees generated from treating Tricare 
+beneficiaries. 96,97
+Many MMOs, and those under their supervision, 
+are required to file financial disclosure forms. The financial disclosure program is an important part of an 
+agency ethics program because it enables supervisors 
+to identify potential conflicts of interests before problems arise. This allows the supervisory chain of command and ethics counselors to fashion any necessary 
+preventive steps to avoid conflicts so that no violations 
+occur. Supervisors must carefully review financial 
+disclosures because they are in the best position to 
+understand each filer’s duties and responsibilities in 
+order to flag potential conflicts of interests. 
+The DoD Standards of Conduct Office regularly updates the Encyclopedia of Ethical Failure,98 a compendium 
+of ethical lapses and failures committed by military 
+and federal officials. While all of the ethical failure 
+summaries provide useful lessons in government ethic 
+laws for MMOs, some cases directly involve military 
+medical personnel or military medicine. In one case, 
+the director of a Navy health clinic repeatedly asked 
+a subordinate for loans, and ultimately only repaid 
+part of a $3,000 loan. A second case involves a civilian 
+physician working at an Army health clinic who improperly obtained medical care, tests, and medication 
+from the clinic. Another case involves a former Army 
+officer who was responsible for procurement of a psychiatric services contract for an Air Force hospital while 
+on active duty, and later, in retirement, improperly 
+represented the same contractor to the government. 
+The Encyclopedia serves as a useful training aid for 
+all government personnel. Ethics counselors at local 
+servicing legal offices can provide more information 
+about government ethics and standards of conduct. 
+SUMMARY
+MMOs in all of the uniformed services must understand the fundamental legal differences that apply to 
+them as medical professionals serving in or with the 
+military and become familiar with their critical roles in 
+the military justice system. An enhanced understanding of key principles of military criminal and administrative law enables MMOs to better appreciate critical 
+military legal systems and programs that maintain 
+good order and discipline, advance military justice, 
+and preserve standards of professionalism and the 
+integrity of government programs. Greater knowledge 
+also facilitates a fuller awareness of the essential roles 
+that MMOs have as leaders in these systems. Finally, 
+a better grasp of military law also provides greater 
+insights into the varied roles that military lawyers play 
+in each system and the enabling advice and services 
+they can provide to MMOs. 
+The military justice system represents the most 
+significant difference between military law and civilian law to develop since the days of the American 
+Revolution. Service members are subject to a separate military justice system in addition to federal, 
+state, and local criminal codes in recognition of 
+the military’s unique mission, and the necessity to 
+maintain good order and discipline throughout the 
+armed forces. As the foundation of the military justice 
+system, the UCMJ serves as both an instrument of 
+justice and as a commander’s disciplinary tool for 
+maintaining good order and discipline. By better 
+understanding the UCMJ and the military justice 
+system as a whole, MMOs will be more effective in 
+their roles when disciplinary infractions and criminal 
+offenses are alleged.
+Administrative law principles and programs also 
+impact the standards of professionalism and fitness 
+for duty for medical personnel serving in the armed 
+forces. An important legal difference in the context of 
+military medicine is the FTCA bar on medical malpractice claims by active duty personnel. Notwithstanding 
+this ban, as stewards of military medical quality assurance programs, MMOs have crucial roles in providing 
+professional oversight and regulation for the military 
+medical profession. 
+The JER and DoD’s Supplemental Standards of Ethical Conduct represent an additional area of departure 
+from civilian norms. As leaders under military ethics 
+programs, MMOs have important responsibilities to 
+administer ethics programs and maintain the integrity 
+of government operations. 
+As the foregoing discussion makes clear, the 
+full extent of military law cannot be described in a 
+single chapter. MMOs must engage in lifelong selfdevelopment, and should include military law topics 
+in individual development plans for themselves and 
+their subordinates. Local legal offices can assist with 
+classes, training aids, materials, and presentations. 
+86
+Fundamentals of Military Medicine
+REFERENCES
+ 
+1. Parker v Levy, 417 US 733 (1974).
+ 
+2. Goldman v Weinberger, 475 US 503 (1986).
+ 
+3. US Department of Defense. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016. http://jsc.
+defense.gov/Portals/99/Documents/MCM2016.pdf?ver=2016-12-08-181411-957. Accessed November 20, 2017.
+ 
+4. In re Grimley, 137 US 147 (1890).
+ 
+5. Winthrop W. Military Law and Precedents. 2nd ed. Washington, DC: Government Printing Office; 1920. http://www.
+loc.gov/rr/frd/Military_Law/ML_precedents.html. Accessed October 18, 2017.
+ 
+6. Morgan EM. The background of the Uniform Code of Military Justice. Vanderbilt Law Rev. 1953;6:179. https://www.
+jagcnet.army.mil/DOCLIBS/MILITARYLAWREVIEW.NSF/20a66345129fe3d885256e5b00571830/84d42b7fc814219785
+256e5b00583750/$FILE/MLR%2027-100-28%2019650401.pdf. Accessed October 18, 2017.
+ 
+7. Larkin FE. Professor Edmund M. Morgan and the drafting of the Uniform Code. Mil Law Rev. 1965;28: 7-8.
+ 
+8. Uniform Code of Military Justice (UCMJ), 10 USC § 801–946 (1950).
+ 
+9. Truman HS. Prescribing the Manual for Courts-Martial, United States. Exec Order no. 10214, February 8, 1951.
+ 10. UCMJ, Article 146. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 11. Solorio v United States, 483 US 435 (1987). 
+ 12. United States v Phillips, 58 MJ 217 (CAAF 2003). 
+ 13. United States v Stevenson, 53 MJ 257 (CAAF 2000), cert denied 555 US 816 (2008). 
+ 14. United States v Bowie, 34 CMR 411 (CMA 1964). 
+ 15. United States v Reynolds, No. 201600415 (NMCMR 2017). http://www.jag.navy.mil/courts/documents/archive/2017/
+REYNOLDS-201600415-UNPUB.pdf. Accessed October 18, 2017. 
+ 16. UCMJ, Article 2(8). Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 17. Public Health Service Act, 42 USC, Chapter 6a, § 215(a) (1944).
+ 18. US Department of Health and Human Services. Non-Departmental Organization Details. Washington, DC: DHHS; 2007. 
+Commissioned Corps Directive CCD 121. 04. https://dcp.psc.gov/ccmis/ccis/documents/CCD121_04.pdf. Accessed 
+November 20, 2017.
+ 19. US Department of Defense. Criminal Jurisdiction Over Civilians Employed by or Accompanying the Armed Forces Outside 
+of the United States, Certain Service Members, and Former Service Members. Washington, DC: DoD; 2005. DoD Instruction 
+5525. 11. 
+ 20. The Military Extraterritorial Jurisdiction Act of 2000. Pub L no. 106-523, 18 USC § 3261.
+ 21. US Constitution, Amendment V.
+ 22. UCMJ, Article 44. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 23. United States v Lanza, 260 US 377 (1922).
+87
+Military Law and Ethics
+ 24. United States v Stokes, 12 MJ 229 (CMA 1982).
+ 25. US Department of the Army. Legal Services: Military Justice. Washington, DC: DA; 2016. Army Regulation 27-10.
+ 26. Soble J. At Okinawa protest, thousands call for removal of US bases. New York Times. June 19, 2016. https://www.
+nytimes.com/2016/06/20/world/asia/japan-okinawa-protest-united-states-military.html. Accessed November 20, 2017. 
+ 27. UCMJ, Article 137. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 28. US Department of Defense. Joint Ethics Regulation. Washington, DC: DoD; 1993. DoD Regulation 5500. 7–R. http://www.
+esd.whs.mil/Portals/54/Documents/DD/issuances/dodm/550007r.pdf. Accessed October 17, 2017.
+ 29. US Department of Defense. Handling Dissident and Protest Activities Among Members of the Armed Forces. Washington, 
+DC: DoD; 2009. DoD Instruction 1325. 06. 
+ 30. US Department of the Army. Personnel–General, Army Command Policy. Washington, DC: 2014. Army Regulation 60020.
+ 31. US Department of the Army. Military Judge’s Benchbook. Washington, DC: DA; 2010: 682. Army Pamphlet 27-9.
+ 32. Solis G. The Law of Armed Conflict, International Humanitarian Law in War. New York, NY: Cambridge University Press; 
+2010: 149.
+ 33. US Department of Defense. Department of Defense Law of War Manual. Washington, DC: DoD; June 2015 (updated December 2016): 1101. https://www.defense.gov/Portals/1/Documents/pubs/DoD%20Law%20of%20War%20Manual%20
+-%20June%202015%20Updated%20Dec%202016.pdf?ver=2016-12-13-172036-190. Accessed November 20, 2017.
+ 34. War Crimes Act, 18 USC § 2441 (2006).
+ 35. The Military Extraterritorial Jurisdiction Act of 2000, 18 USC § 3261-7.
+ 36. International Criminal Court. Understanding the International Criminal Court. The Hague, Netherlands: ICC; 2013: 4, 
+para 9. https://www.icc-cpi.int/iccdocs/PIDS/publications/UICCEng.pdf. Accessed September 2, 2017.
+ 37. International Criminal Court. Rome Statute of the International Criminal Court. The Hague, Netherlands: ICC; 2011: art 
+17. https://www.icc-cpi.int/resource-library/Documents/RS-Eng.pdf. Accessed September 2, 2017.
+ 38. UCMJ, Article 37. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016. 
+ 39. UCMJ, Articles 22–24. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016. 
+ 40. US Department of Defense. Sexual Assault Prevention and Response (SAPR) Program Procedures. Washington, DC: DoD; 
+2013. DoD Instruction 6495. 02.
+ 41. Victims of sexual assault: access to legal assistance and services of Sexual Assault Response Coordinators and Sexual 
+Assault Victim Advocates, 10 USC § 1565b(b) (2011).
+ 42. US Constitution, Amendment VI.
+ 43. UCMJ, Article 10. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 44. US Department of the Army. Procedures for Administrative Investigations and Boards of Officers. Washington, DC: DA; 
+2016. Army Regulation 15-6.
+ 45. US Department of the Navy. Manual of the Judge Advocate General (JAGMAN). Washington, DC: DN, Office of the Judge 
+Advocate General; 2012: Chap 1. JAGINST 5800. 7F.
+88
+Fundamentals of Military Medicine
+ 46. Secretary of the Air Force, Office of the Inspector General, Complaints Resolution Directorate. Commander Directed 
+Investigation (CDI) Guide. Washington, DC: SAF/IGQ; 2016. http://www.af.mil/Portals/1/documents/ig/CDI_Guide_18February-2016.pdf. Access May 11, 2018.
+ 47. US Coast Guard. Administrative Investigations Manual. Washington, DC: USCG; 2007. Commandant Instruction 
+M5830. 1A.
+ 48. UCMJ, Article 50a. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 49. UCMJ, Rule for Courts-Martial 909. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016. 
+ 50. UCMJ, Article 706. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 51. Tan M. Chaplain under fire for comments during training. Army Times. December 10, 2014. http://www.armytimes.
+com/news/your-army/2014/12/10/chaplain-under-fire-for-comments-during-training/. Accessed December 14, 2017.
+ 52. US Department of the Air Force. Unfavorable Information File Program. Washington, DC: USAF; 2014. Air Force Instruction 36-2907.
+ 53. US Department of the Army. Unfavorable Information. Washington, DC: DA: 1986. Army Regulation 600-37.
+ 54. US Department of the Army. Military Police Motor Vehicle Traffic Supervision. Washington, DC: DA: 2006. Army Regulation 190-5. 
+ 55. US Department of the Army. Officer Transfers and Discharges. Washington, DC: DA: 2006. Army Regulation 600-8-24.
+ 56. US Department of the Army. Active Duty Enlisted Separations. Washington, DC: DA: 2016. Army Regulation 635-200.
+ 57. US Department of the Navy. Officer Performance. Washington, DC: DN; 2013. MILPERSMAN 1611-010, NAVPERSCOM 
+June 14, 2013. 
+ 58. Gorski K. Comment: nonjudicial punishment in the military: why a lower burden of proof across all branches is unnecessary. Natl Secur Law J. 1983;2:83.
+ 59. US Coast Guard. Military Justice Manual. Washington, DC: USCG; 2000. Commandant Instruction M5810. 1.
+ 60. US Department of the Air Force. Nonjudicial Punishment. Washington, DC: USAF; 2015. Air Force Instruction 51-202.
+ 61. 28th Bomb Wing Legal Office. Airmen receive Article 15s for their actions. Rapid City Journal. June 5, 2012. http://
+rapidcityjournal.com/news/local/communities/ellsworth/airmen-receive-article-s-for-their-actions/article_81ee70ecaf5e-11e1-8a84-0019bb2963f4.html. Accessed May 10, 2018.
+ 62. Weiss v United States, 510 US 163 (1994).
+ 63. UCMJ, Article 32. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 64. UCMJ, Rule for Courts-Martial 405. Manual for Courts-Martial, United States. 2016 ed. Washington, DC: DoD; 2016.
+ 65. United States v Bartlett, 66 MJ 426 (CAAF July 7, 2008). 
+ 66. US Department of Health and Human Services. Commissioned Corps Personnel Manual. Washington, DC: DHHS; 1983:Pt 
+4, Chap CC46.
+ 67. Agwunobi JO. Continuing ethics and management concerns at the National Institutes of Health and the Public Health 
+Service Commissioned Corps. Testimony Before the Subcommittee on Oversight and Investigations of the House Committee 
+on Energy and Commerce. Washington, DC: Department of Health and Human Services; September 13, 2006. https://
+www.cancer.gov/about-nci/legislative/hearings/2006-john-agwunobi-testimony.pdf. Accessed May 10, 2018. 
+89
+Military Law and Ethics
+ 68. Feres v United States, 340 US 135 (1950).
+ 69. Price v United States, 174 US 373, 375 (1899).
+ 70. 28 USC § 1346(b).
+ 71. 28 USC § 2680(j).
+ 72. 10 USC § 2733.
+ 73. Jefferson v United States, 178 F2d 518 (4th Cir 1949), aff’d Feres v United States, 340 US 135 (1950). 
+ 74. Griggs v United States, 178 F2d 1 (10th Cir 1949), rev’d sub nom Feres v United States, 340 US 135 (1950). 
+ 75. United States v Johnson, 481 US 681, 688 (1987). 
+ 76. Diaz-Romero v Mukasey, 513 F3d 115 (1st Cir 2008).
+ 77. Bowers v United States, 904 F2d 450, 452 (8th Cir 1990).
+ 78. Scheppan v United States, 810 F2d 461, 463 (4th Cir 1987).
+ 79. Hearing Before the Subcommittee on Commercial and Administrative Law of the House Committee on the Judiciary, Carmelo 
+Rodriquez Military Medical Accountability Act of 2009, 111th Cong, 1st Sess (2009). 
+ 80. Hearing Before the Senate Committee on the Judiciary, The Feres Doctrine: An Examination of The Military Exception to the 
+Federal Tort Claims Act, 107th Cong, 2d Sess (2002). 
+ 81. Hearing Before the Subcommittee on Administrative Law and Governmental Relations of the House Committee on the Judiciary, 
+Claims for Negligent Medical Care Provided Members of the Armed Forces, 102nd Cong, 1st Sess. (1991). 
+ 82. Hearing Before the Subcommittee on Courts and Administrative Practice of the Senate Committee on the Judiciary, Medical 
+Malpractice Suits for Armed Services Personnel, 100th Cong, 2d Sess (1988). 
+ 83. Witt v United States, 131 SCt 3058 (June 27, 2011).
+ 84. Wilke T. Military mothers and claims under the Federal Tort Claims Act for injuries that occur pre-birth. Notre Dame 
+Law Rev Online. 2016;91. http://scholarship.law.nd.edu/ndlr_online/vol91/iss3/1. Accessed November 20, 2017.
+ 85. Ortiz v United States, 786 F3d 817 (10th Cir 2015), cert dismissed (2017)(No. 15-488)(case dismissed upon petition by both 
+parties under Rule 46).
+ 86. Kime P. Justice Department offers settlement on Feres case, halting Supreme Court consideration. Military Times. June 
+16, 2016. http://www.militarytimes.com/pay-benefits/military-benefits/health-care/2016/06/16/justice-departmentoffers-settlement-on-feres-case-halting-supreme-court-consideration/. Accessed November 20, 2017.
+ 87. 10 USC § 1102, Confidentiality of medical quality assurance records: qualified immunity for participants. 1986. 
+ 88. US Department of Defense. Medical Quality Assurance (MQA) and Clinical Quality Management in the Military Health 
+System (MHS). Washington, DC: DoD; 2011. DoD Instruction 6025. 13. 
+ 89. 5 CFR, Part 2635. 107(b), Standards of ethical conduct for employees of the executive branch. 
+ 90. 5 CFR Part 2635. 101, Basic obligation of public service. 
+ 91. US Department of Defense. Procedures and Support for NFEs Authorized to Operation on DoD Installations. Washington, 
+DC: DoD; 2008. DoD Instruction 1000. 15.
+90
+Fundamentals of Military Medicine
+ 92. 5 CFR, Part 3601, Supplemental standards of ethical conduct for employees of the Department of Defense. 
+ 93. US Department of Defense. Security and Policy Review of DoD Information for Public Release. Washington, DC: DoD; 2014. 
+DoD Instruction 5230. 29.
+ 94. 31 USC § 1353, Acceptance of travel and related expenses from non-federal sources.
+ 95. 41 CFR, Part 304, Payment of travel expenses from a non-federal source.
+ 96. 5 USC § 5536, Extra pay for extra services prohibited.
+ 97. 32 CFR, Part 199. 6a(3), Tricare-authorized providers.
+ 98. US Department of Defense, Standards of Conduct Office. Encyclopedia of Ethical Failure. Washington, DC: DoD; 2016.

@@ -1,0 +1,2582 @@
+Physician-Soldier: A Moral Dilemma?
+293
+Chapter 11
+PHYSICIAN-SOLDIER: A MORAL
+DILEMMA?
+VICTOR W. SIDEL, MD*; AND BARRY S. LEVY, MD, MPH†
+INTRODUCTION
+FIVE ETHICAL DILEMMAS IN THE ROLE OF “PHYSICIAN-SOLDIER”
+Subordinating the Best Interests of the Patient
+Overriding Patients’ Wishes
+Failing to Provide Care
+Blurring Combatant and Noncombatant Roles
+Preventing Physicians From Acting as Moral Agents Within the Military
+ENHANCING PHYSICIANS’ ABILITY TO SERVE AS MORAL AGENTS
+Restructuring Medical Service in the Military
+Selecting Alternatives to Military Service
+CONCLUSION
+POINT/COUNTERPOINT—A RESPONSE TO DRS. SIDEL AND LEVY.
+EDMUND G. HOWE, MD, JD‡
+THE MORAL OBLIGATION OF UNITED STATES MILITARY MEDICAL
+SERVICE. DOMINICK R. RASCONA, MD, FACP, FCCP§
+*Distinguished University Professor of Social Medicine, Montefiore Medical Center, Albert Einstein College of Medicine, 111 East 210th
+Street, Bronx, New York 10467; Adjunct Professor of Public Health, Weill Medical College of Cornell University, New York; formerly, President, American Public Health Association; President, Physicians for Social Responsibility; and President, International Physicians for the
+Prevention of Nuclear War
+†Adjunct Professor of Community Health, Tufts University School of Medicine, 20 North Main Street, #200, Post Office Box 1230, Sherborn,
+Massachusetts 01770; formerly, President, American Public Health Association; and Executive Director, International Physicians for the
+Prevention of Nuclear War
+‡Formerly Major, Medical Corps, United States Army; currently, Director, Programs in Ethics, Professor of Psychiatry, and Associate Professor of Medicine, Uniformed Services University of the Health Sciences, 4301 Jones Bridge Road, Bethesda, Maryland 20814; and Chair,
+Committee of Department of Defense Ethics Consultants to the Surgeons General
+§Commander, Medical Corps, United States Navy; currently, Assistant Director, Critical Care, Naval Medical Center, Portsmouth, Virginia;
+formerly, General Medical Officer, USS Iowa
+Military Medical Ethics, Volume 1
+294
+Anne-Louis Girodet de Roucy
+Hippocrate refusant les présents d’Artaxerces
+1792
+[Hippocrates refuses the gifts of Artaxerxes]
+This painting was used as the model for a commemorative stone donated in 1855 by the American Medical Association for permanent placement in the Washington Monument being built in the District of Columbia. The stone, given
+in “profound reverence to President Washington,”1 bears the inscription “Vincit Amor Patriae” (Love of Country
+Prevails). It depicts the emissaries of Artaxerxes, the king of Persia, offering gifts to Hippocrates to induce him to
+provide services to Persian soldiers suffering from plague. Hippocrates is said to have responded: “Tell your master
+I am rich enough; honor will not permit me to succor the enemies of Greece.”2(p373) The painting illustrates the tension
+between dedication by a physician to patriotism that may cause him to refuse service to the sick and dedication to
+medical ethics that is generally held to require that medical care be offered to all who require it. Sources: (1) Stacey J.
+The cover. JAMA. 1988;260(28):448. (2) Smith WD, ed. Hippocrates: Pseudoepigraphic Writings. New York: EJ Brill; 1990.
+Image reproduced with permission from Bettmann/CORBIS.
+Physician-Soldier: A Moral Dilemma?
+295
+EDITORS’ NOTE: The following chapter is controversial. The field of ethics is a discipline of logical and philosophical analysis that requires debate. For true debate to occur, opposing viewpoints
+must be advanced forcefully and analyzed rigorously. The editors recognized that examining opposing viewpoints could challenge even our most basic presuppositions and that these challenges
+would cause discomfort. Were we not to include the challenges, we would fail to generate the required thoughtful analysis and debate.
+This chapter challenges the very morality of physicians serving in the armed forces. The editors
+selected Drs. Sidel and Levy to write this chapter because they are known for their strongly held
+opposition to physicians serving as medical officers in the military. We asked them to advance their
+strongest arguments and their most vigorous challenges. They have done so. Their arguments reflect a view of military medicine that is relatively prevalent among civilian physicians and civilian
+medical ethicists and therefore we must understand their position. Drs. Sidel and Levy agreed to
+write this chapter, and to make their best argument, for exactly that purpose—to generate controversy and initiate a critical examination of the issues physicians continue to face in military service
+to their country. They have welcomed the editorial process and have eagerly debated their arguments. This informal dialogue has been very instructive for both parties to the debate.
+The Editor-in-Chief recognized that publishing some of the dialogue would be helpful to our readers in beginning their own analysis of the opposing viewpoints. Dr. Howe, as an ethicist, was invited to respond directly to the ethical arguments Drs. Sidel and Levy advance. His response is
+included as a rebuttal immediately following their text. Dr. Rascona, a physician in the Navy, was
+invited to respond from the perspective of a doctor in uniform. We feel that his essay merits inclusion because it speaks to the motivation of many medical officers, and raises issues that are not
+addressed by either Drs. Sidel and Levy or the rebuttal by Dr. Howe. It is inserted immediately
+following Dr. Howe’s rebuttal. This three-pronged approach to the subject, although not exhaustive
+of all possible views, at least frames the argument for further discussion.
+Although the editors do not agree with the conclusions Drs. Sidel and Levy reach, we do feel that
+there is great value in understanding their position. By exploring their argument we are forced to
+examine our own positions and our reasons for holding them. By reexamining these positions while
+considering their challenges, we achieve a greater clarity of the virtue of our conclusion that physicians must continue to serve in the military. In fact, as Drs. Howe and Rascona conclude, to do
+otherwise would be unethical.
+INTRODUCTION
+The essence of ethical behavior is the ability to
+make an appropriate choice between possible
+courses of action. For a physician engaged in the
+treatment of a patient, the ethical choice is usually
+clear: The action should serve the best interests of
+the patient as both the physician and the patient
+define those interests. In the infrequent instances
+when the patient’s and physician’s perceptions of
+the best interests of the patient differ, it is usually
+expected that the physician will act as the patient
+wishes or, if the physician for some reason cannot
+do so, that the physician will refer the patient to
+another physician.
+In some circumstances in which the physician has
+obligations to others in addition to obligations to
+the patient, a situation known as “mixed agency,”
+the ethical choice may be more complex and thus
+more difficult. There are many examples of mixed
+agency in the practice of civilian medicine. Some of
+these are brought about by the legal requirement to
+report certain medical situations to the appropriate
+agencies, such as reporting a case of hepatitis or
+syphilis to public health authorities or a gunshot
+wound to law enforcement authorities. There are
+also employer requirements imposed on physicians
+practicing occupational medicine or prison medicine, as well as requirements imposed by managed
+care organizations on physicians. Clinical research
+may also lead to mixed agency ethical conflicts. In
+all of these situations of mixed agency ethical conflict
+in civilian practice, however, there are usually ways
+in which physicians can resolve them. If necessary,
+physicians can withdraw from such situations by
+referring patients to other physicians or resigning
+positions that create the conflict situations.
+The overriding ethical principles of medical practice in our view are “concern for the welfare of the
+patient” and “primarily do no harm.” As we unMilitary Medical Ethics, Volume 1
+296
+derstand them, the overriding principles of military
+service are “concern for the effective function of the
+fighting force” and “obedience to the command
+structure.” Although there may be rare exceptions
+to these principles, they have been the fundamental bases of medical practice and military service
+over the centuries. In our view, the ethical principles
+of medicine make medical practice under military
+control fundamentally dysfunctional and unethical.
+Medical practice under these conditions of military
+control may be harmful to the personnel being cared
+for, to the overall mission of the armed forces, and
+to the practice of medicine—not only in the military service but in other settings as well.
+We believe the role of the “physician-soldier” to be
+an inherent moral impossibility because the military
+physician, in an environment of military control, is
+faced with difficult problems of mixed agency that
+include obligations to the “fighting strength” and,
+more broadly, to “national security.” Furthermore,
+these physicians are assigned to specific duties and
+committed for a fixed period to military service, both
+of which preclude options that civilian physicians
+have for resolving role conflict and the dilemmas inherent in those situations. We realize that soldiers have
+a need and a right to medical care; we further acknowledge that the military believes it is the best provider
+of this care. However, we assert that the military cannot provide the best medical care for its soldiers. This,
+in our view, is because the ethical dilemmas associated with a system of medical care under military
+control preclude the ethical provision of that care.
+FIVE ETHICAL DILEMMAS IN THE ROLE OF “PHYSICIAN-SOLDIER”
+In the sections that follow, we describe five ethical dilemmas in the role of “physician-soldier.”
+Some of these dilemmas may occur in the context
+of all-out war in which commanders believe every
+resource must be marshaled literally to survive the
+day. Such an instance may have occurred during
+the opening days of the 1973 Arab-Israeli war when
+Syrian tanks were moving down the hills, headed
+for Israeli towns. However, we feel that (a) such a
+scenario is extremely unlikely for a country such as
+the United States, and (b) to subordinate the rights
+of patients and the responsibilities of physicians to
+prepare for what we feel is such an improbable
+event is unwise and unnecessary. The five ethical
+dilemmas that we will discuss, however, arise because military commanders may not distinguish
+between what is realistically necessary and what
+might be necessary in an unlikely scenario.
+Subordinating the Best Interests of the Patient
+There are a variety of ways in which the military
+directly, as well as indirectly, subordinates the medical best interests of its soldiers. Surely the most
+obvious is that of setting medical priorities for military purposes or performing medical research on
+soldiers without their true informed consent. But
+violating patient confidentiality, as well as failing
+to keep adequate medical records, can also have
+long-term consequences for individual soldiers.
+Setting Medical Priorities for Military Purposes
+The primary role of the military health professional is expressed in the motto of the US Army
+Medical Department: “To conserve the fighting
+strength.”1 This motto is usually understood as requiring adherence to generally accepted medical
+goals, such as emphasis on health maintenance and
+prevention of disease or injury. However, we feel
+that the military aspects of the motto may at times
+subtly, or not so subtly, override the medical aspects: Military health professionals may be required
+to accept different priorities than do their civilian
+colleagues. For example, a faculty member of the
+Academy of Health Sciences at Fort Sam Houston
+in 1988 cited as “the clear objective of all health service support operations” the goal stated in 1866 by
+a veteran of the Army of the Potomac in the US Civil
+War:
+[to] strengthen the hands of the commanding general by keeping his Army in the most vigorous
+health, thus rendering it, in the highest degree, efficient for enduring fatigue and privitation [sic],
+and for fighting. 2(p145)
+Attention to military needs and to patient-centered care may in most instances involve no ethical
+conflict. One might assume that soldiers who will be
+sent to fight must be soldiers who are healthy, and
+therefore the soldier is not disadvantaged by a system that seeks to maintain him as a member of a
+healthy and thus capable fighting force. The tasks
+of providing service to respond to patient’s needs
+and to respond to military needs and orders are
+usually compatible. But when they are not, it is our
+impression that the military physician is usually
+expected to give higher priority to service to the
+military. When these situations arise, we believe
+that the military sometimes subordinates the best
+interests of the patient to the good of the fighting
+Physician-Soldier: A Moral Dilemma?
+297
+possessing what are usually regarded as human
+rights), is that of using them as subjects in medical
+research for military purposes without their free
+and informed consent. The Nuremberg Code, as
+well as accepted practice in the United States, requires the free and informed consent of human subjects. Because they cannot simply “quit their jobs”
+or “file a grievance” with a union, government
+agency, or professional organization, military personnel may not believe that they can truly refuse to
+participate in these experiments. They may feel
+more like a “captive audience” than like “volunteers.” Furthermore, they may not be fully informed
+of the risks for a variety of reasons, including national security. Examples from the more than 50
+years since the Nuremberg Code was promulgated
+include US troops required to be present at atmospheric tests of nuclear weapons in the later 1940s
+and 1950s,6–8 and troops who participated in chemical weapons experiments in the 1950s and 1960s. 9
+(See Chapter 17, The Cold War and Beyond: Covert
+and Deceptive American Medical Experimentation,
+and Chapter 19, The Human Volunteer in Military
+Biomedical Research, for further discussion of various research programs during this period.)
+In 1990, following Iraq’s invasion of Kuwait, the
+Department of Defense (DoD) requested a waiver
+that would permit military use of investigational
+drugs and vaccines without informed consent. The
+Food and Drug Administration (FDA) granted the
+request and issued a new general regulation, Rule
+23(d), which permits drug-by-drug waiver of informed consent by the DoD. Pyridostigmine bromide (PB), a drug approved by the FDA for treatment of myasthenia gravis, was used under such a
+waiver as a “pretreatment” for the effects of nerve
+agents. It is our view that the absence of informed
+consent for use of a drug for purposes unapproved
+by the FDA is unethical except under extraordinary
+circumstances, which we feel were not present in
+this case. Furthermore, in our view there was inadequate evidence that PB would have been effective
+if an agent had been used. 10–13
+Additional threats to free and informed consent
+were posed by the regulations promulgated in 1996
+by the Food and Drug Administration, and the Office for Protection from Research Risks, Department
+of Health and Human Services. These regulations
+permitted the waiver of informed consent from subjects who lack the capacity to give informed consent
+for potentially lifesaving experimental treatment in
+emergency situations, provided that “community
+consultation” is conducted. (An example would be
+a car accident victim in a comatose state for whom
+no next of kin can be quickly located.) The nature
+force or the completion of the mission.
+An example of ethical conflict between military
+needs and patient-centered care arose in the use of
+penicillin for US military personnel in North Africa during World War II, a time when limited
+amounts of penicillin were available. 3 The ethical
+dilemma was clear: Should the limited amount of
+penicillin be used for treatment of serious chest
+wounds or instead for treatment of disease, including venereal disease? The dilemma was often resolved in favor of treatment of disease that would
+respond rapidly and effectively to penicillin rather
+than using the penicillin for soldiers with infection
+of their serious wounds because that choice would
+permit earlier return of a soldier to duty.
+Analyses of articles published in Military Medicine concerning military medical triage describe
+how medical priorities are set for military purposes.
+We are concerned that military physicians when
+making these decisions may put the needs of the
+military inappropriately before the needs of the patient. Military physicians, when writing about triage, generally define a group of casualties termed
+“expectant,” who are to be “made comfortable.”
+Other casualties, termed “the walking wounded”
+by Swan and Swan,4 “can have their wounds dressed
+very quickly, their weapons returned to them, and
+their paths redirected forward rather than rearward.”4(p448) “Triage, of course,” they state, “requires
+difficult decisions and poses ethical and moral dilemmas for the uninitiated.”4(p448) Janousek and colleagues define those in the category “expectant” as
+“patients with injuries requiring extensive treatment
+that exceeds the medical resources available.”5(p333)
+These analyses discuss the dilemmas of triage but
+do not go on to suggest that limited medical resources be allocated on the basis of urgency of medical need rather than on the basis of military priorities. (Nor do these analyses suggest that physicians
+ought to be able to use their own discretion when
+deciding who should be treated within the guidelines of triage, and who should be treated according to the physician’s own sense of what is medically and ethically right for this particular patient.)
+This issue of setting medical priorities according to
+military purposes also raises questions about using military discipline to override patients’ wishes
+in treating soldiers “for their own good,” covered
+in the next section.
+Performing Medical Research on Soldiers
+Without Informed Consent
+Another example of treating soldiers as soldiers,
+rather than as patients (or indeed as human beings
+Military Medical Ethics, Volume 1
+298
+of “community consultation” in a closed institution
+with hierarchical structure, like the armed forces,
+has not yet been fully explored. 14,15
+Violating Patient Confidentiality
+Patient confidentiality may be breached in military medicine in the name of military or national
+security. 16,17 Violation of patient privacy would be
+unacceptable in civilian practice except under circumstances strictly defined by law, but it is generally accepted that a commanding officer can request
+disclosure by the medical officer of all medical information relevant to military performance. The
+commander is free to determine what he believes
+to be soldier behavior that allows him to request
+this information. The medical officer is likewise free
+to determine whether or not he agrees with the commander that this information should be given to the
+commander. Whether or not the medical officer
+agrees with the commander may in large part be
+driven by the degree to which the medical officer
+identifies with the military unit, rather than with
+his patients as individuals. It may also be influenced
+by the medical officer’s perception of what difficulties may follow if he refuses to comply with the
+commander’s request.
+Failing to Keep Adequate Records
+Thus far in this discussion of subordinating the
+best interests of the patient, we have examined the
+setting of medical priorities for military purposes,
+performing medical research without true informed
+consent, and violating patient confidentiality. Of
+these, the first two have the greatest potential for
+long-term medical consequences of an adverse nature. Soldiers who have been treated according to
+military guidelines, or subjected to medical research, may indeed develop problems later in life
+(after separation or retirement from the military)
+that can best be treated by full disclosure of all procedures or agents to which they were exposed. They
+deserve no less than full disclosure. However, the
+military does not always keep adequate or accurate
+records, or even necessarily see the need for such.
+For example, the Presidential Advisory Committee on Gulf War Veterans’ Illnesses was sharply critical of the military’s poor record keeping on immunizations during the Persian Gulf War. 18 The failure
+to maintain adequate records and perform adequate
+follow-up on the 150,000 US troops who received
+anthrax vaccine during the Persian Gulf War is, in
+our opinion, inexcusable. Had the data been appropriately collected, they may have shed light on a
+possible relationship with the symptom complex
+known as Gulf War illnesses and possibly resolved
+current questions about the safety of the anthrax
+vaccine. We believe this situation was an example
+of subordinating data keeping necessary for the
+well-being of individual patients to the military
+mission.
+Overriding Patients’ Wishes
+As we indicated previously, soldiers lack some
+of the protection that their civilian counterparts
+have: the ability to “quit the job” or to appeal for
+help to another organization with power, such as a
+union. In addition, military physicians have more
+coercive capabilities than most of their civilian
+counterparts. The military physician has enormous
+power to override the wishes of individual patients
+“for the patient’s own good.” This powerful paternalism is permitted, and may indeed be fostered,
+both by the power and self-image of the individual
+military physician and by the power and wishes of
+the command structure. (This is an issue quite different from the use of military discipline in support
+of the “fighting force” to override the patient’s
+wishes and at times the patient’s best interest discussed in the previous section.) The power of the
+military medical officer over the patient has enormous potential for clouding the physician’s judgment and, indeed, for corrupting the physician. It
+is our belief that physicians in other “total institutions,” such as prisons and mental hospitals, also
+have the opportunity to substitute their values and
+their judgments for those of the patient and the
+patient’s family.
+Imposing Immunization for the Good of the
+Patient
+This ability of the physician to make decisions
+for the “good of the patient” can best be seen in the
+field of immunization of soldiers. As this is a situation in which the full pressure of the military system
+can be brought to bear on an individual soldier, it
+will be discussed in some detail. The military may
+require immunizations, both to protect the fighting
+force and “for the soldier’s own good.” It is not difficult to see the need for some specific immunizations to protect the fighting force, especially in those
+instances where troops are deploying to an area
+with a known incidence of a specific disease and
+there is an effective, safe, FDA-approved vaccine
+for the disease to which the troops most likely
+Physician-Soldier: A Moral Dilemma?
+299
+would be exposed.
+It is also easy to understand that some vaccinations have a long lead time before they are fully effective and therefore need to be given even if no
+specific deployment is anticipated. This is similar
+to required vaccinations to attend school or to travel
+overseas. Communities have the need and the right
+to protect themselves from the spread of known
+preventable diseases. When immunization is required in civilian public health practice to protect
+others beyond the individuals immunized, as in the
+case of an infectious disease spread from person to
+person, few would argue against immunization for
+community protection. We have no argument with
+that position being taken by the military. But we
+would disagree with the military if it believed immunization for a disease not spread from person to
+person is required to protect the individual simply
+for the good of the fighting force and required the
+individual to be immunized for that reason alone.
+There are other instances in which the need, and
+thus the requirement, for immunization is not clearcut. This can present an ethical dilemma. It is in
+these latter instances that the power to override a
+soldier’s refusal permits the military physician to
+substitute the physician’s (and the military’s) judgment for that of the patient. Furthermore, even if a
+specific immunization may be of benefit to the individual soldier in the short run, we still believe
+that imposing immunizations on soldiers is an unethical practice violating the soldier’s autonomy
+and destructive of good patient care in the long run
+because the soldier is not an active participant in
+decisions relative to his personal healthcare.
+We are particularly concerned about the process
+by which these decisions are made. Because they
+involve the military responding to the possibility
+of a disease exposure, there is great room for error
+in addressing just how possible a given exposure
+scenario might be. An example of a situation in
+which troops were not permitted to refuse a vaccine was the required administration of anthrax
+vaccine. Anthrax has long been considered a potential biological weapon because anthrax spores remain infectious under a wide range of adverse conditions. Anthrax spores are believed to have been
+stockpiled by Iraq and perhaps by other nations as
+well. During the Persian Gulf War (1990–1991) there
+were reports that the Iraqis had developed the necessary stockpiles, had been working on a delivery
+system, and were going to use anthrax as a biological weapon against coalition forces. In December
+1997, despite ongoing public controversy about the
+safety of the anthrax vaccine, the Pentagon announced that all 2. 4 million active duty military
+personnel and reservists would be inoculated
+against anthrax. 19 The vaccine that the Pentagon
+began using was first developed during the 1950s,
+then reformulated in the 1960s, and finally approved by the FDA for general use in 1970. The vaccine had previously seen limited use; the vaccination
+of all military personnel represented a significant
+increase in the numbers of individuals receiving this
+vaccination.
+Unfortunately, the evidence that the current vaccine would be effective in protecting troops against
+airborne infection with anthrax, the pathway that
+would most likely be used by biological weapons,
+was, in our view, questionable. The only published
+human efficacy trial of an anthrax vaccine was a study
+performed 40 years ago that demonstrated protective
+value against cutaneous anthrax; however, there
+were an insufficient number of cases of inhalational
+anthrax to demonstrate efficacy. 20 It would be unethical to conduct a controlled trial that involved purposeful exposure of humans to inhalational anthrax,
+but experiments have been conducted exposing
+monkeys and guinea pigs to inhalational anthrax. 21,22 These trials have yielded contradictory
+results. In fact, in 1994, 3 years before the Department
+of Defense announced its mandatory vaccination
+program, the Senate Veterans’ Affairs Committee
+examined the issue of efficacy and safety of the vaccine and recommended that “the vaccine should be
+considered investigational when used as a protection against biologic warfare.”23 More recent experiments (1998) using rhesus macaques24 have led to
+greater conviction by the military that the vaccine
+may be effective against the strain of anthrax to
+which the macaques were exposed. The difficulty
+lies in the fact that the military has no way of knowing if the strain used on the macaques will be similar to the strain that might be used as a weapon
+against humans. Further complicating the question
+of efficacy is the consideration that new strains of
+anthrax may have been developed specifically to
+defeat the current vaccine. Recombinant DNA
+(deoxyribonucleic acid) technology may be used to
+alter agents that cause illness so that they are no
+longer as susceptible to vaccines or antibiotics. 25
+Even if the vaccine could be demonstrated to
+protect against all strains of anthrax (which is currently not possible), the potential risks of mass administration of anthrax vaccine to military personnel were, in our view, largely unknown. Experience
+with other vaccines that have been used widely after relatively small field trials indicates that unanticipated problems can develop in the course of
+Military Medical Ethics, Volume 1
+300
+massive use of approved drugs or vaccines. (The
+best-known example of such problems was that of
+the “swine flu” vaccine. 26,27) With each additional
+immunization for a possible bioterror threat, the
+likelihood of adverse reactions increases. Furthermore, conduct of immunization programs by the
+military in the past, including its recordkeeping,
+does not inspire confidence. The Presidential Advisory Committee on Gulf War Veterans’ Illnesses,
+which (as already noted) was sharply critical of the
+military’s poor recordkeeping on immunizations
+during the Persian Gulf War, more recently characterized the Pentagon’s efforts to improve its medical
+recordkeeping in Bosnia,28 where it used tick-borne
+encephalitis vaccine, as an “abysmal failure.”18
+As we have noted, the military also failed to
+maintain adequate records or perform adequate
+follow-up of the 150,000 US troops who received
+anthrax vaccine during the Persian Gulf War. Given
+the massive scope and potential risk of this program, the interests of military personnel as well as
+the public would be better served if researchers
+unaffiliated with the Pentagon had been permitted
+to conduct further studies on the vaccine. The later
+analysis by the Institute of Medicine,29 although in
+our view incomplete, supported the decision to use
+the vaccine. Another ethical issue lies in the question of informed consent by troops ordered to take
+a vaccine and whether they have a right to refuse
+without punishment. Several hundred members of
+the US armed forces refused to accept inoculation
+with the mandatory anthrax vaccine and many were
+threatened with punishment. 30 In addition, the US
+military should have encouraged its physicians to
+have accurately and quickly reported any adverse
+reactions to the vaccine, not only to the appropriate authorities, but also to the service personnel who
+may be taking the vaccination, to enable the latter
+to make an informed choice in their own healthcare.
+In summary, we disagree with the military’s requiring administration of a vaccine that may have been
+of questionable efficacy and safety, as we allege in
+the case of the anthrax vaccine, when problems with
+medical recordkeeping may make it impossible to
+track who might have received a “bad” batch of
+vaccine.
+A report by the Subcommittee on National Security, Veterans Affairs and International Relations,
+17 February 2000, criticized the DoD Anthrax Vaccine
+Immunization Program (AVIP). The subcommittee
+found “the AVIP a well-intentioned but overwrought response to the threat of anthrax as a biological weapon.…As a health care effort, the AVIP
+compromises the practice of medicine to achieve
+military objectives.”31(pp1–2)
+Addressing Psychiatric Problems From a Military
+Perspective
+In dealing with work performance by military
+personnel, difficult issues arise, particularly in relation to psychiatric problems that present in combat
+theaters. Is battle fatigue or a severe stress reaction
+simply a normal reaction to an abnormal situation
+to be treated by rest (“three hots and a cot”) and
+prompt return to the battlefield, or are these symptoms of illness that require more treatment? The
+practice of “overevacuation” (the presumed excessive transfer of ill or injured personnel to a safe area
+rather than back to the frontlines of the military
+operation) has been cited as “one of the cardinal
+sins of military medicine.”1(p186) This value judgment
+is presumably based on overevacuation being a service to the patient and a disservice to the fighting
+force, hence the ethical dilemma. We believe the
+military physician must be free to make such decisions in the best interest of the patient.
+Performing Battlefield Triage
+The question that arises in battlefield triage is
+stark: How far can a military physician go in the
+course of making decisions in the best interest of
+the patient? Battlefield triage may be seen by the
+military physician as being “for the soldier’s own
+good.” But when a wounded soldier is in agony,
+with no hope of effective treatment, evacuation, or
+reasonable pain relief, is it ethical for the military
+physician to use large doses of analgesia for the
+“dual purpose” of relieving pain and hastening
+death? Although the “double effect” is well recognized and accepted in medical ethical circles, its use
+in military situations may be ethically questionable.
+Even more troubling is the scenario in which there
+is no way to help the suffering soldier and, furthermore, his cries are likely to give away the position
+of the rest of the unit, thus jeopardizing others. Is it
+ethical for the physician to use large doses of analgesia in such a situation? Although this situation
+may be unlikely, it is an example of the type of dilemma making military medicine difficult. How
+might the physician’s identification with the unit
+affect such decision making? Would the physician
+even be aware of the influence of the well-being of
+others on this decision making? In military practice, however, it is our belief that the medical ofPhysician-Soldier: A Moral Dilemma?
+301
+ficer might assume the authority to make such decisions either to protect the fighting force (as discussed earlier) or “for the soldier’s own good.”32
+Thus far we have presented two ethical dilemmas
+in the role of the physician-soldier: subordinating
+the best interests of the patient and overriding patients’ wishes. In both sets of situations, care has
+been given to patients: the dilemma has been that
+this care may not have been what the patient needed
+or wanted, and the physicians have not necessarily
+been free to fully advise the patients, as these physicians might in a civilian setting, about what might
+be in the patients’ best interests. We will now turn
+to a particularly troublesome area, that of failing to
+provide appropriate care to soldiers in other military units, civilians, and enemy soldiers.
+Failing to Provide Care
+Before we discuss failing to provide care, let us
+briefly recapitulate the more recent history of the
+codification of the role of the physician in combat,
+with both its restrictions and requirements. Beginning in the middle of the 19th century, a series of
+international conventions was negotiated that were
+ultimately codified in a single, formal document in
+Geneva in 1949; together, they are called the Geneva
+Conventions. Agreed to at that time by 60 nations,
+the conventions were declared binding upon all
+nations according to “customary law, the usages
+established among civilized people…the laws of
+humanity, and the dictates of the public conscience.”33 They included: the Convention for the
+Amelioration of the Condition of the Wounded and
+Sick in Armed Forces in the Field; the Convention
+for the Amelioration of the Wounded, Sick, and
+Shipwrecked Members of Armed Forces at Sea; the
+Convention Relative to the Treatment of Prisoners
+of War; and the Convention Relative to the Protection of Civilian Persons in Time of War.
+Under the conventions, medical personnel are
+singled out for certain specific protections by an
+explicit separation of the healing from the wounding roles. Medical personnel and treatment facilities
+are designated as immune from attack, and captured
+medical personnel are to be promptly repatriated.
+In return, specific obligations are required of medical personnel,33,34 as summarized in the following list:
+1.
+Regarded as “noncombatants,” medical
+personnel are forbidden to engage in or be
+parties to acts of war.
+2.
+The wounded and sick soldier and civilian—friend and foe—must be respected,
+protected, treated humanely, and cared for
+by the belligerents.
+3.
+The wounded and sick must not be left
+without medical assistance and the order
+of their treatment must be based on the
+urgency of their medical needs.
+4.
+Medical aid must be dispensed solely on
+medical grounds, “without any adverse
+distinction founded on sex, race, nationality, religion, political opinions, or any other
+similar criteria.”35(p28)
+5.
+Medical personnel shall exercise no physical or moral coercion against protected
+persons (civilians), in particular to obtain
+information from them or from third parties.
+Such duties are imposed clearly, permitting no
+exceptions, and given priority over all other considerations. Thus, the Geneva Conventions formalized the recognition that, although professional expertise merits special privileges, it likewise incurs
+very specific legal and moral obligations. That special role of physicians is now embodied in public
+expectations and in the ethical training of doctors
+in most societies. It is also embedded in the World
+Medical Association’s Declaration of Geneva,36
+which is administered as a “modern Hippocratic
+Oath” to graduating classes at many civilian medical schools.
+How does the military medical community approach that special role of physicians as codified in
+the Geneva Conventions and embodied in public
+expectations? The Geneva Conventions and the Law
+of Land Warfare, which reinforces the Conventions,
+are required elements of instruction for all US military personnel, including healthcare professionals.
+However, unless instructors have as their primary
+goal the indoctrination of medical officers to follow
+the dictates of the Geneva Conventions, the Conventions will likely be taught in the context of the
+overall military mission, leading to the reinterpretation or neglect of the Conventions that can occur
+within a military unit. The ways in which the Geneva
+Conventions are taught (or neglected) will thus influence the self-image and role of the medical officer. It is our opinion that military medical training gives insufficient attention to the requirements
+of the Geneva Conventions and too much attention
+to the coherence and interdependence of the various components and missions of the military force.
+It is not surprising, therefore, that an analysis of
+triage in Military Medicine, previously cited, states:
+Military Medical Ethics, Volume 1
+302
+“[T]raditionally US combat casualty care has been
+directed toward US casualties first, allies second,
+civilians third, and enemy fourth. This is a time for
+reevaluation of ethical and moral principles and a
+reaffirmation that if the most seriously injured casualty is, in fact, an enemy soldier, he goes first.”4(p451)
+We question if such a reevaluation is taking place
+and if medical personnel who have as a primary
+duty the conservation of the fighting strength of
+their own forces would be willing to alter their priorities in this way. This certainly is an indication
+that, indeed, it is an inherent moral impossibility
+to be a physician-soldier, especially when it comes
+to the treatment of those seen as “others.” Following the hierarchy described in the Military Medicine
+article, we will first discuss providing care for other
+US soldiers, continue with treatment of civilians,
+and end with treatment of enemy soldiers.
+Failing to Provide Care to Other Soldiers
+The military physician may become very closely
+identified with the command structure in which the
+physician serves. This happens because the military
+physician who trains or works closely with a unit,
+particularly with an elite unit, over a long period
+of time becomes dependent on the unit, just as the
+unit becomes dependent on the physician. Health
+professionals who are members of military units feel
+“bonded” to “their own” and may feel pressure
+from their commanders and peers to give preference to care for their own troops even if the medical needs of their own troops are less urgent than
+those of others. This was seen among the health
+aides serving with the Green Berets during the IndoChina War. 37 It may then be impossible for the physician to set priorities based solely on medical need.
+Failing to Provide Care to Civilians
+Civilians are increasingly being injured or killed
+during the conduct of contemporary war (Figure 111). In fact, 90% of deaths reported in selected wars
+in the 1990s were among civilians, many of them
+women and children. 38 Civilian homes are also damaged or destroyed, and their occupants are forced
+to move on, becoming “internally displaced persons” who are generally without healthcare. They
+are often in great need of health services, not only
+for war-related injuries and psychological trauma
+but also for ongoing health needs, such as diabetes.
+Except in very special circumstances in which
+military physicians are specifically assigned to provide medical care for civilian populations, however,
+military physicians may not provide such care—
+even for those whose need is greater than for military personnel. Unless the command structure for
+military physicians specifically requires them to
+base priorities for medical care on medical need,
+no matter whose need is involved, care for civilians may have low priority or none at all.
+Failing to Provide Care to Enemy Soldiers
+Despite obligations under the Geneva Conventions to provide care to enemy soldiers (these obligations are discussed in greater detail in Chapter
+23, Military Medicine in War: The Geneva Conventions Today, in the second volume of this two-volume textbook of Military Medical Ethics), there are
+reasons why military medical personnel may be
+unwilling or unable to accede to these obligations.
+For instance, refusal to treat the “enemy” for reasons of “patriotism” or “national security,” may be
+seen by some physicians as so important that these
+supersede the physician’s ethical responsibilities to
+patients. This is not a recent development, nor is it
+restricted to military physicians. In about 400 BC,
+the Great King of Persia, Artaxerxes II, sent emissaries to Hippocrates to ask him, “with the promise of a fee of many talents,” to help in the treatment of Persian soldiers who were dying of the
+plague. Hippocrates is reported to have dismissed
+100%
+80%
+60%
+40%
+20%
+0%
+67%
+90%
+75%
+14%
+WWII
+1990s
+1980s
+WWI
+Percent of All Deaths
+Fig 11-1. Civilian deaths as a percentage of all deaths in
+selected 20th-century wars. Source: Adapted from data
+provided by Ahlstram, C. Casualties of Conflict: Report for
+the Protection of Victims of War. Uppsala, Sweden: Department of Peace and Conflict Research, Uppsala University, 1991. Cited in: Bellamy C. The State of the World’s
+Children 1996. New York: Oxford University Press; 1996.
+Reproduced with permission from Levy BS, Sidel VW,
+eds. War and Public Health. New York: Oxford University
+Press; 1997: 33.
+Physician-Soldier: A Moral Dilemma?
+303
+the emissaries, stating that he would never “put his
+skill at the service of Barbarians who were enemies
+of Greece.”39(p448) Centuries later this sentiment still
+resonated with physicians. Just before the start of
+the US Civil War, the American Medical Association (AMA) selected as the model for a commemorative stone carving for placement in the Washington Monument, then being built in the District of
+Columbia, the painting “Hippocrates Refuses the
+Gifts of Artaxerxes.” The inscription the AMA selected for the stone was “Vincit Amor Patriae” [Love
+of Country Prevails]. 40 These are powerful sentiments, held by both civilian and military physicians,
+and still in existence even with the codification of
+rights and responsibilities in the Geneva Conventions. These sentiments will influence behavior.
+Ethical conflicts arise for military health personnel because they are a part of the armed forces. They
+wear the uniform, they observe the regulations and
+formalities, and they bond with their fellow soldiers.
+Simply put, it is easy for these medical professionals to see themselves as “us” and enemy soldiers as
+“them.” It is true that the Geneva Conventions forbid military services to require that their healthcare
+personnel give preference in care to their own
+troops or deny care to others, even members of the
+“enemy” force in times of war. The Law of Land Warfare41 specifically reinforces this duty of medical
+impartiality. Neither document, however, addresses
+the human tendency to bond and identify with one’s
+“own type” and to turn against those seen as “others.” As long as physicians in the service of the military continue to be part of the military, including
+wearing the uniform, they will be susceptible to this
+human tendency to divide people into “us” and
+“them” rather than into categories of patients needing attention based solely upon their medical needs.
+It is our opinion that military physicians cannot, as
+members of the armed forces, live up to the expectations and responsibilities of the Geneva Conventions.
+Up to this point we have been discussing military physicians and their tendency to subordinate
+the best interests of their patients, to override their
+patients’ wishes, and to fail to provide care to others in accordance with the requirements of the
+Geneva Conventions. All of these dilemmas we believe are directly related to the structure of the military itself, and the placement of the medical services within that structure. We have mentioned the
+powerful bonds that can develop when physicians
+overidentify with the warriors whom they tend to.
+Sometimes this overidentification leads to a blurring of the line between combatant and noncombatant roles.
+Blurring Combatant and Noncombatant Roles
+If one describes a scene of a doctor, weapon in
+hand, it is natural to assume that the doctor is defending self or patients from an imminent or actual
+attack. That may be the most frequent circumstance
+under which doctors take up arms and inflict injury or death upon the enemy. That, however, is not
+the blurring of roles that we will be addressing. When
+we offer the image of the doctor, “weapon in hand,”
+we refer instead to that most troubling of images,
+which is that of the doctor actively participating in
+combat, or perhaps less actively participating but
+nonetheless subverting the aim and intent of medicine. We will begin our discussion first with the
+image that is most abhorrent: that of the doctor as a
+voluntary and active combatant.
+Participating in Combatant Roles
+The Geneva Conventions require strict separation
+of the military and medical care functions, but this
+has not always been the case for these two professions. Perhaps history’s most dramatic attempt to
+meld these conflicting obligations of curing as opposed to killing was made by the Knights Hospitallers
+of St. John of Jerusalem, members of a religious order founded in the 11th century. With a sworn fealty to “our Lords the Sick,” the Knights defended
+their hospitals against “enemies of the Faith,” becoming the first organized military medical officers. They were “warring physicians who could
+strike the enemy mighty blows, and yet later bind
+up the wounds of that same enemy along with those
+of their own comrades.”34(pp1695–1696)
+In the 19th century in the United States there
+were instances in which medical officers were
+clearly combatants without any apparent immediate need to protect those under their medical care.
+In 1861, Bernard J.D. Irwin, an Assistant Surgeon
+in the US Army “voluntarily took command of
+troops and attacked and defeated hostile Indians
+he met on the way”42(p206) at Indian Pass, Arizona.
+He was awarded the Medal of Honor in 1894. In
+1865, Jacob F. Raud, an Assistant Surgeon in the
+210th Pennsylvania Infantry, during the Civil War,
+“[d]iscovering a flank movement by the enemy [at
+Hatcher’s Run, Virginia], appraised the commanding general at great peril, and though a noncombatant voluntarily participated with the troops in repelling this attack.”42(pp184–185) He was awarded the
+Medal of Honor in 1896.
+The most prominent of these medical combatants
+was Leonard Wood, who, as a recent graduate of
+Military Medical Ethics, Volume 1
+304
+the Harvard Medical School and a civilian contract
+surgeon in the US Army in the Southwest in 1886,
+“[v]oluntarily carried dispatches through a region
+infested with hostile Indians, making a journey of
+70 miles in one night and walking 30 miles the next
+day. Also for several weeks, while in close pursuit
+of Geronimo’s band and constantly expecting an
+encounter, commanded a detachment of Infantry,
+which was then without an officer, and to the command of which he was assigned upon his own
+request.”42(p235) Wood was awarded the Medal of
+Honor for his action and, after appointment as a
+Major General in the Regular Army in 1903, was in
+1910 appointed Chief of Staff of the US Army. In
+the case of Leonard Wood, one might say in his defense that he had requested the infantry assignment
+that allowed him to pursue Geronimo, and therefore he was not really a physician during this time.
+Our question, however, is whether it should be ethically permissible for a medical officer to quit his
+medical role for a combatant role either temporarily
+or for a longer period.
+Using Medicine as a Weapon
+It was in the period after the end of World War II
+that the US Army’s Special Forces were instituted,
+with the mission of “winning the hearts and minds”
+of indigenous populations, especially in Vietnam,
+to further the military mission. One of the positions
+in the Special Forces was that of the aidman, trained
+in rudimentary medical skills. Dr. Peter Bourne,
+who had been an Army physician working with the
+Special Forces in Vietnam, wrote that the primary
+task of Special Forces Medics was “to seek and destroy the enemy and only incidentally to take care
+of the medical needs of others on the patrol.”43(p303)
+These Special Forces aidmen were not considered
+protected medical personnel but rather were classified as combatants. Although their primary task
+was as combatants, aidmen also administered medical assistance to their own forces, and could do the
+same for other persons deemed to need assistance.
+The military, by combining combat capabilities with
+medical skills had perverted medical care into a
+“weapon.” These aidmen could offer care to indigenous populations, especially if it served the need
+of the Special Forces mission. We have previously
+discussed the potential hierarchy of medical care
+(first take care of one’s own, then allies, then civilians, then the enemy, without respect to severity of
+wound) that may be followed by military medical
+personnel. Just because these aidmen were not considered medical personnel by the US Army does not
+mean that the indigenous population did not see
+them as medical personnel who could choose to
+help or not. Even though Special Forces aidmen do
+not wear a “Red Cross” or similar medical emblem,
+once the aidman opens the bag and offers medicine,
+he becomes a “helper” in the eyes of the “patient,”
+and this deception is clearly unethical.
+This issue of the role of medicine in the overall
+military mission was at the center of US v Levy, a
+case adjudicated in the military legal system. In
+1967, Howard Levy, a dermatologist drafted into the
+US Army Medical Department as a captain, refused
+to obey an order to train Special Forces Aidmen in
+dermatological skills. He refused specifically on the
+grounds that the Aidmen were being trained predominantly for a combat role and that cross training in medical techniques eroded the distinction
+between combatants and noncombatants. For this
+refusal he was charged with one of the most serious breaches of the Uniform Code of Military Justice: willfully disobeying a lawful order. Tried by a
+general court-martial in 1967, Levy admitted his
+disobedience saying he had acted in accordance
+with his ethical principles. The physicians who testified for the defense, including one of the authors
+of this chapter (VWS), “argued that the political use
+of medicine by the Special Forces jeopardized the
+entire tradition of the noncombatant status of
+medicine.”44(p1346) They agreed with Levy that a physician is responsible for even the secondary ethical
+implications of his acts—that he must not only act
+ethically himself, but also anticipate that those to
+whom he teaches medicine will act ethically as well.
+Levy was given a dishonorable discharge and sentenced to serve 3 years in a military prison. Levy’s
+appeals were not successful. 45 The case of Howard
+Levy sent a message to other military physicians
+that the military organization would define for them
+what was ethical and what was not. This organizational intrusion into the ethics of medicine is yet
+another indication that the physician-soldier is expected to be first and foremost a soldier who obeys
+the orders of superiors, and only secondarily a physician who follows his conscience and his ethics.
+Participating in Militarily Useful Research and
+Development
+It is a blunt and brutal fact of war that weapons
+systems are designed to render the enemy ineffective, generally by causing such destruction, maiming, and killing, or the fear of these, that the enemy
+Physician-Soldier: A Moral Dilemma?
+305
+is unable or unwilling to fight. These offensive systems must, of necessity, take into consideration
+physical and medical facts, such as the amount of
+force necessary to penetrate structures and disable
+or kill their inhabitants. Inside or outside the armed
+forces, some health professionals are involved in
+militarily useful research and development, such
+as work on biological weapons or on the radiation
+effects of nuclear weapons. In such work, it is said
+to have been common practice to concentrate physicians into “principally or primarily defensive operations.”46 But work on weapons and their effects
+can never be exclusively defensive, and at times the
+distinction is quite arbitrary. The question arises
+whether there is a special ethical duty for physicians (because of their medical obligation to “do no
+harm”) to refuse to participate in such work, or
+whether in non–patient-care situations physicians
+simply share the ethical duties of all human beings. 47 It is our contention, again, that physicians
+are always physicians and therefore should adhere
+to their ethical duty to “do no harm.” They should
+be very vigilant about whatever work they may do
+pertaining to weapons systems, and what might
+ultimately be done with the results of their work. If
+they are unable to ascertain the final use of their
+work, we believe the ethically responsible action
+would be to resign from that task.
+Participating in, or Failing to Report, Torture
+In the section on research and development, we
+have alluded to the fact that knowledge of human
+physiology is a part of the development of offensive weapons as well as defensive strategies for
+dealing with such weapons. A more egregious example of the use of medical knowledge is that of
+participating in, or failing to report, torture. It is
+important to remember that physicians have been
+given the privilege by society to learn about the
+human body, including what can be endured or
+what cannot. Using such knowledge to facilitate
+torture is indeed an abhorrent activity.
+We have also noted that physician-soldiers are
+vulnerable to the influence of military organizations, whether that influence is subtle or overt. An
+example of military forces attempting to influence
+medical officers to violate their ethical standards is
+illustrated by evidence from Turkey.
+After legislative changes in the aftermath of the
+1980 military coup, a military school of medicine
+was established for the purpose of training doctors
+solely for the military. In a ceremony at this military school, the head of the junta, addressing the
+soldier students, said: ‘You are first and foremost
+soldiers, and only after that doctors.’ This was evidence that military doctors were expected and
+obliged to give priority to the chain-of-command,
+above and over the medical code of ethics. 48(p77)
+Of even greater concern is the actual participation of physicians in torture, as was the case with
+some military physicians in Uruguay who assisted
+in the systematic use of torture during the military
+dictatorship from 1972 to 1983. 49 Although it is clear
+that Turkey and Uruguay have different procedures
+for military personnel than does the United States,
+the fervor that drove military personnel to perform
+these acts may at times influence practices in other
+nations. There is no legal basis for US armed service commanders to order the use of torture to elicit
+information from enemy prisoners. In fact, an order to perform such actions should be refused by
+the military health professional and the commander
+who ordered it could be charged with issuing an
+illegal order. In order to take such an action, however, the military healthcare professional would
+have to believe that no harm would come to him
+from refusing to obey or from bringing charges
+against the commander, or would need to be willing to suffer the consequences of taking personal
+action. Military physicians would feel freer to pursue the dictates of their conscience if there were a
+better sense of the moral agency of the military
+physician.
+It is less clear that a medical officer who reports
+the torture would not be ostracized or even subjected to military discipline. As with the “informal
+hierarchy” that influences which patients get
+treated first by military physicians, there is also
+likely to be a strong, through informal, sense of “us”
+and “them,” shared by physician and soldier alike.
+By being part of the military unit, these physiciansoldiers are more likely to agree that such a reprehensible action as participating in torture might be
+justified under some circumstances. This tendency
+to overidentify with the unit, its personnel, and its
+mission, is yet another reason why physicians
+should not be a formal part of these military organizations.
+Preventing Physicians From Acting as Moral
+Agents Within the Military
+The case of Captain Howard Levy, the dermatologist who refused to train Special Forces Aidmen,
+Military Medical Ethics, Volume 1
+306
+illustrates that those who adhere to their moral compass and refuse to pervert medicine for the sake of
+the military mission may face sanctions for their
+actions. In the following discussion, the focus will
+be on three areas in which the military interferes
+with physicians as moral agents by: (1) preventing
+physicians’ attempts to protect military personnel;
+(2) preventing physicians from taking moral actions
+in military operations; and (3) preventing physicians from expressing their moral protest. By stifling the ability of physicians to act as moral agents,
+the military increases the likelihood that medicine
+will be used inappropriately.
+Preventing Moral Actions by Physicians in
+Military Operations
+There is considerable literature on “total institutions,” such as prisons and mental hospitals, in
+which the role of the individual to make independent decisions is severely limited. 50 A number of
+specific issues that are related to the health
+professional’s role in the military as a “total institution” have already been discussed. The impact of
+the total institution on medical ethics is particularly
+seen in the field situation. The field commander
+may not understand the perspective or the needs
+of the health professional or may not have time to
+evaluate the ethical dilemma the health professional
+faces. Response to psychiatric conditions may pose
+special problems in the field. The health professional’s
+inability to refuse to obey orders, even when the
+orders conflict with ethical judgments, is an example of the effect of the military institution on
+medical ethics. The Levy case, discussed previously,
+demonstrates the conflict between medical ethics
+and military practice. This effect is obvious in the
+area of preventing moral protest actions by military personnel, especially physicians. It is to this
+area that we will now turn for a rather lengthy discussion of the issues of suppressing moral protest,
+and what it means for the individuals involved, the
+medical profession, the military, and society itself.
+Preventing Moral Protest Actions by Physicians
+When physicians don the military uniform, and
+raise their hand to take the oath of induction into
+the armed forces, they do more than join an organization. They also leave behind their civilian life and
+with it many of the basic rights that they enjoyed
+as civilians. Chief among these rights is that of actively participating in the political process, including the right to publicly protest as members of their
+profession. Medical personnel in the United States
+have, for example, joined protests against the disastrous effects on the civilian population of Iraq
+of the sanctions imposed by the United Nations
+since the end of the Persian Gulf War and the effects
+on the civilian population of Cuba of the sanctions
+imposed by the United States. Like all members of
+the armed forces, military health professionals are
+limited by threat of military discipline in the extent
+to which they can publicly protest what they believe to be unjust or harmful acts. (Military personnel cannot publicly make contemptuous statements
+about the President or other officials, nor can they
+make statements held to be disloyal.) The decision
+in February 2002 by military reserve personnel in
+Israel to refuse assignment to the occupied territories on moral grounds is, in our view, a recent example of a moral action that contravenes military
+policy. 51
+The question we pose is simple: Does a military
+physician have a special responsibility or a special
+right to criticize military practices in medicine or in
+general? Should military medical personnel have had
+the right, as moral agents, to protest the US/NATO
+(North Atlantic Treaty Organization) attack on
+Serbian forces that allegedly led to “collateral damage” to civilians? Should military medical personnel have had the right, as moral agents, to protest
+the US military forces bombing of the Al Shifa pharmaceutical plant in the Sudan, which allegedly provided half the medicines for the North African region?52 We believe that they should have this right of
+moral protest, but we also acknowledge that within
+the military, the sanctions are significant for engaging in protest of acts deemed to be unjust or harmful.
+Just as military personnel cannot publicly protest what they believe to be unjust acts, they are
+also limited in the extent to which they can publicly protest what they believe to be an unjust war.
+The issue of what is a “just war,”53,54 which has been
+debated for over two millennia, is developed more
+fully in Chapter 8, Just War Doctrine and the International Law of War, in this volume. There are generally held to be two elements in a just war: jus ad
+bellum (when is it just to go to war?), and jus in bello
+(what methods may be used in a just war?). Among
+the elements required for jus ad bellum are a just
+grievance and the exhaustion of all means, short of
+war, to settle the grievance. Among the elements
+required for jus in bello are protection of noncombatants and proportionality of force, including
+avoiding (a) use of weapons of mass destruction,
+Physician-Soldier: A Moral Dilemma?
+307
+such as chemical, biological, and nuclear weapons;
+and (b) massive bombing of cities.
+Membership in the armed forces, even in a noncombatant role such as that of a physician, may require self-censorship of public doubts about the
+justness of a war in which the armed forces are engaged. However, many health professionals consider
+themselves pacifists. “Absolute pacifists” oppose
+the use of any force against another human being,
+even in self-defense against direct, personal attack.
+They believe that the use of force can only be ended
+when all humans refuse to use it, and that acceptance
+of one’s own injury or even death is preferable to
+use of force against another. (When a military force
+threatens genocide, as the Nazis attempted in World
+War II, many who might otherwise adopt a pacifist
+or limited pacifist position believe that force may
+be justified. Their shift in position is based on the
+threat to the very survival of the group, a threat that
+to some makes untenable the pacifist argument that
+current failure to resist will lead to future diminution in violence.) More limited forms of pacifism
+hold that the use of certain weapons of mass destruction in war is never justified, no matter how
+great the provocation or how terrible the consequences of failure to use them.
+There is considerable debate whether health professionals, because of a special dedication to preservation of life and health, have a special obligation
+to serve or to refuse to serve in a military effort. That
+position is made more complex by a role as a military noncombatant. Many military forces nonetheless permit health professionals, like other military
+personnel, to claim conscientious objector status. In
+the United States, conscientious objection is defined
+as “[a] firm, fixed and sincere objection to participation in war in any form or the bearing of arms
+because of religious training or belief.”55(p16) Religious training and belief is defined as “[b]elief in
+an external power or being or deeply held moral or
+ethical belief, to which all else is subordinate…and
+which has the power or force to affect moral wellbeing.”55(pp16–17) The person claiming conscientious
+objector status must convince a military hearing
+officer that the objection is sincere. 56 Those who
+oppose war in all forms can be released from military service, as has been discussed in Chapter 9, The
+Soldier and Autonomy, in this volume.
+Physicians who are situational pacifists (ie, they
+have refused to support a specific war effort rather
+than war in general) have great difficulty in the
+military. In a recent and well-publicized example,
+Yolanda Huet-Vaughn, a physician and captain in
+the US Army Medical Service Reserve, refused to
+obey an order for assignment to active duty before
+the beginning of the Persian Gulf War in 1990. In
+her statement, she explained:
+I am refusing orders to be an accomplice in what I
+consider an immoral, inhumane and unconstitutional
+act, namely an offensive military mobilization in
+the Middle East. My oath as a citizen soldier to defend the Constitution, my oath as a physician to
+preserve human life and prevent disease, and my
+responsibility as a human being to the preservation
+of this planet, would be violated if I cooperate…57
+The reasons Huet-Vaughn gave for her action
+were quite different from the reasons given by Levy
+more than two decades earlier. Levy refused to obey
+an order that he believed required him to perform
+a specific act that would violate the Geneva Conventions; Huet-Vaughn refused to obey an order she
+believed required her to support a particular war
+that she felt to be unjust and destructive to the goals
+of medicine and humanity. After Huet-Vaughn’s
+conviction at court-martial for “refusal to obey a lawful order” (to report for transfer to the Persian Gulf),
+she was imprisoned at Fort Leavenworth, Kansas.
+If a health professional considers service in support of a particular war to be unethical on the
+grounds of medical ethics, may or indeed must he
+refuse to serve, even if that objection does not
+qualify for formal conscientious objector status?
+Furthermore, is there an ethical difference if the
+service is required by the society as in a “doctor
+draft,” or if the service obligation has been entered
+into voluntarily to fulfill an obligation in return for
+military support of medical education, training, or
+for other reasons? Is military service indeed a “voluntary obligation” if enlistment, as it is for many
+poor and minority people, is, in part, induced by
+their lack of educational or employment opportunities or, as it is for many health professionals, by
+the cost of education or training that in other societies is provided at public expense? These are difficult questions to answer.
+Although few health professionals are willing or
+able to take an action such as that taken by HuetVaughn, other actions are available to oppose acts
+of war considered unjust, to oppose a specific war,
+or to oppose war in general. Additional issues for
+military medical officers have been raised by the
+advisory opinion of the International Court of Justice (World Court) in 199658 that the use or threat of
+use of nuclear weapons is contrary to international
+law except under extraordinary circumstances. FurMilitary Medical Ethics, Volume 1
+308
+thermore, with the ratification by the United States
+of the Chemical Weapons Convention59 and its coming in force in 1997, there are other concerns for
+military physicians as well. (These concerns are
+addressed by the Federation of American Scientists60 and the Organization for the Prohibition of
+Chemical Weapons. 61) If medical officers in any nation are aware that use or threat of use of nuclear
+weapons, which has been declared contrary to international law by the International Court of Justice, or that use or threat of use of chemical or biological weapons, which is banned by the Chemical
+Weapons Convention and the Biological Weapons
+Convention, remains part of the war plans of the
+armed services they serve, what is their obligation
+under international law? This is a question that
+surely needs to be answered to ensure that military
+physicians are moral agents.
+ENHANCING PHYSICIANS’ ABILITY TO SERVE AS MORAL AGENTS
+We propose that a dialogue begin between the
+military command structure and the military and
+civilian medical communities to address these issues. We believe health professionals have a special ethical responsibility, in view of their obligation to protect the health of their patients and their
+community members, to refuse to support a war
+they believe will cause major destruction to health
+and environment. 62,63 Furthermore, we believe that
+both the military and the civilian society it protects
+will be more ethical if these issues are discussed and
+resolved.
+If, as we believe, the physician cannot act as a
+moral agent within the military, what possible alternatives are there? We propose two that should
+be considered in any dialogue seeking to enhance
+physicians’ ability to function as moral agents in
+both the military and the society it serves. These
+are (1) restructuring military medical service to allow for physicians to be moral agents, or (2) allowing physicians to select alternative service in the
+event of a doctor draft.
+Restructuring Medical Service in the Military
+An important reason for a health professional to
+become or remain a member of the armed forces of
+a nation is to use the position as an opportunity to
+insist on behavior that is consistent with ethical
+values and international humanitarian law. In 1985,
+Colonel Malham Wakin, Professor and Head of the
+Department of Philosophy and Fine Arts at the
+United States Air Force Academy, published an article entitled “Wanted: Moral Values in the Military.”64
+Colonel Wakin, after analyzing the circumstances
+surrounding the killing of at least 175 unarmed Vietnamese prisoners, many of them obviously noncombatants, by American soldiers at My Lai in March
+1968, called for “persons of excellent moral character to serve and lead the profession of arms.”64(p26) We
+applaud and endorse the statement of Colonel Wakin,
+but would amend it to address specifically the needs
+of the medical profession. If the military medical profession were suffused with persons of excellent moral
+character, it is conceivable that the military medical
+profession would exert more influence on the command structure above it to consider not just the tactical considerations of military decisions, but also the
+humanitarian aspects of these decisions.
+If the nature of the roles of those serving in the
+medical services of the armed forces is sufficiently
+changed and if those serving have the strength of
+character to avoid ethical compromise, they can
+make an important contribution to the moral level
+of the military. 65,66 One of the most important responsibilities that medical officers have is to make
+certain that they, other medical personnel, and all
+members of the military do not commit unethical
+acts. (Unfortunately, physicians in the armed forces
+of some nations have participated in or refused to
+report such violations. 67–70) There are other examples
+of contributions to military ethics by health professionals. 71–73 Although these contributions are important, it is our view that extremely limited opportunities exist under a structure of military control of
+the medical system for military health professionals to contribute effectively to military ethics. It is
+possible, but seems to us unlikely, that the structure could be changed sufficiently to permit ethical
+service and ethical contributions by medical officers. If adequate change cannot come from within
+the military, what options are available for these
+services to be provided outside the military? The
+only other option we can identify is that physicians
+treating military personnel remain outside the control and indoctrination of the military.
+Selecting Alternatives to Military Service
+If ethical service in the military by health professionals is, as we assert, impossible, it is time to ponder what alternatives are available to health professionals. These alternatives may take the form of
+overt dissent, of seeking conscientious objector status, or serving in a nonmilitary health organization.
+With civilians now accounting for 90% of those
+Physician-Soldier: A Moral Dilemma?
+309
+killed in war and with threats of the use of weapons of mass destruction continuing, is any form of
+military service appropriate for the ethical health
+professional? We would offer that one response,
+suggested in the late 1930s by John A. Ryle, then
+Regius Professor of Physic at the University of Cambridge, remains relevant today:
+It is everywhere a recognized and humane principle that prevention should be preferred to cure.
+By withholding service from the Armed Forces before and during war, by declining to examine and
+inoculate recruits, by refusing sanitary advice and
+the training and command of ambulances, clearing stations, medical transport, and hospitals, the
+doctors could so cripple the efficiency of the staff
+and aggravate the difficulties of campaign and so
+damage the morale of the troops that war would
+become almost unthinkable. 74(p8)
+We realize that it may be an invalid assumption
+that the war effort of all belligerents would cease if
+no medical support were provided. In addition, refusal to serve is not a viable option for physicians
+in a number of present-day countries in which dissent of this type is not permitted. Nonetheless we
+feel it is important to state this opposition, even if
+others counter that it is naive, because by stating
+this opposition we can foster discussion of these
+ethical dilemmas. Such an effort to encourage dialogue was made during the Vietnam War when
+more than 300 American medical students and
+young physicians applied Ryle’s argument to the
+war in Indochina by signing the following pledge:
+In the name of freedom the US is waging an unjustifiable war in Viet Nam and is causing incalculable
+suffering. It is the goal of the medical profession to
+prevent and relieve human suffering. My effort to
+pursue this goal is meaningless in the context of the
+war. Therefore, I refuse to serve in the Armed Forces
+in Viet Nam; and so that I may exercise my profession with conscience and dignity, I intend to seek
+means to serve my country which are compatible with
+the preservation and enrichment of life. 75(p306)
+Public protests such as these by physicians may
+have played a role in the efforts of civil society in
+the United States to end the war in Vietnam, and
+more generally illustrate the role physicians may
+play in effecting change.
+A physician’s right to refuse to serve in the military at all on a conscientious objector basis is complicated by the status of the physician as a noncombatant. When military service by physicians is required
+through a doctor draft, the physician may not be able
+to avoid the ethical problems caused by mixed agency
+and may not be permitted to resign on a conscientious objector basis. When military service by physicians is voluntary, the so-called noncombatant status
+of health professionals in military service may also
+prevent the volunteer medical officer from resigning
+on a conscientious objector basis when ethical conflict arises—as was the case for Dr. Huet-Vaughn.
+Other health professionals may wish to accept a
+service alternative consistent with an ethical obligation to protect health and prevent illness or to
+care for those wounded or maimed, without simultaneously supporting a war effort. Although opportunities for service in an international corps, such
+as Médecins du Monde or Médecins sans Frontiéres
+(which was awarded the 1999 Nobel Peace Prize),
+are limited, health professionals may have opportunities to work with such organizations. If humankind is to survive, health professionals may need
+to consider new forms of national service and to
+contribute, in a broader sense, to their nation and
+the world. 76,77 We believe that at some point in the
+future (even though it clearly has not been that way
+in the past [Figure 11-2]), the world will truly evolve
+into a “global community” in which individuals as
+well as nations will understand that what people
+have in common is far greater than their areas of
+difference. At that point we believe that a global
+perspective on medical care will help ensure that
+all humans have equal and competent care. Until
+this is achieved, what should the medical community do in a world in which war is an all too commonplace occurrence?
+We believe health professionals have a special responsibility to attempt to prevent injury and death
+to both military personnel and civilians. Therefore,
+they may wish, as individuals and in groups, to help
+prevent war wherever it may occur. The health professional should do so by contributing to public and
+professional understanding of the nature of modern war, the risks of weapons of mass destruction,
+and the nature and effectiveness of alternatives to war.
+CONCLUSION
+In this chapter we have looked at the ethical dilemmas we see as significant barriers to the provision of ethical military healthcare. Specifically, these
+were subordinating the best interests of the patient,
+overriding patients’ wishes, failing to provide care,
+blurring combatant and noncombatant roles, and
+preventing physicians from acting as moral agents
+within the military. This chapter has also explored
+Military Medical Ethics, Volume 1
+310
+b
+a
+Physician-Soldier: A Moral Dilemma?
+311
+Fig. 11-2. This series of figures illustrates the ways in which war has increasingly targeted civilian populations, a topic we believe of major concern to military physicians. (a) War portrayed in the 15th century:
+Battaglia (Battle), Paolo Uccello, circa 1450. The Battle of San Romano was fought in 1432 in a war between
+Florence and Siena. The combatants are on horseback and the painting shows the carnage that resulted to
+the men and to the horses involved; no civilians are shown. Paolo Uccello produced three paintings of the
+Battaglia di San Romano. One hangs in the Uffizi Museum in Florence, one in the National Gallery in
+London, and one in the Louvre in Paris. Image © Archivo Iconografico, S.A./CORBIS, reproduced with
+permission. (b) War portrayed in the 19th century: Assault on the Breach of San Sebastian, Mark Churms.
+The battle was fought in 1813 as part of the Peninsula War. This painting shows care for wounded British
+soldiers; no civilians are shown. “The Storming party, 750 volunteers, … moved off at two in the morning
+on 31 August 1813, and occupied a ruined convent where they remained till half past nine….[for] the
+attack on the breach which could not be entered except in single file under heavy fire. The troops attacked
+in succession, but were struck down by hundreds. … A shell ignited a quantity of powder, and under
+cover of the explosions, the storming party forced its way into the town. San Sebastian was savagely
+sacked and burned, and the … civilians were raped, robbed, and murdered in revenge for the heavy losses
+suffered by the troops. “ (Text by Atlanta Clifford, assistant to the Curator-The Guards Museum)…. Image
+© Mark Churms, reproduced with permission. (c) War portrayed in the 20th century: Guernica, Pablo Picasso,
+1937. On 26 April 1937, 43 German planes bombed the Basque city of Guernica in northern Spain, killing
+more than 20% of its 7,000 residents. The attack marked the beginning of terror bombing of civilian targets
+in the Spanish Civil War, which continued through the bombing in World War II of Warsaw, Rotterdam,
+London, Coventry, Hamburg, Dresden, Osaka, Tokyo, Hiroshima, and Nagasaki, among many other cities. This painting was commissioned by the government of Spain, which asked him to prepare it for
+exhibition at the Spanish pavilion at the 1937 Paris World’s Fair. After the fair closed, the supporters of the
+Spanish government during the Spanish Civil War sent the painting on a tour of cities ending in New York
+City, where the painting spent the years during World War II and after at the Museum of Modern Art and
+is still on its website. After Spain returned to democratic government, the painting was sent back to Spain
+and now hangs in the Reina Sofia Museum in Madrid. Image © Archivo Iconografico, S.A./CORBIS, reproduced with permission. Image © 2003 Estate of Pablo Picasso/Artists Rights Society (ARS), New York,
+reproduced with permission.
+c
+Military Medical Ethics, Volume 1
+312
+In summary, we believe it is morally unacceptable for a physician to serve as both a physician and
+a soldier in the United States military forces, and
+probably in other military forces as well. The ethical dilemmas for military medical personnel analyzed in this chapter and the ethical dilemmas faced
+by health professionals engaged in peacemaking
+and peacekeeping activities outside the military are
+often distorted by the fervor that may accompany
+war and preparation for war. These dilemmas,
+which require dispassionate analysis and action in
+times of peace, are being widely discussed in and
+out of the armed forces. Each military medical officer, in our view, has a duty to participate actively
+in this discussion and to evaluate the ethical conflicts involved in his role.
+what happens when individual physicians seek to
+act in accordance with their ethical beliefs. The military system, large, impersonal, and formidable, dispenses its own version of justice. The imprisonment
+of Captain Levy during the Vietnam War era and
+Captain Huet-Vaughn during the Persian Gulf War
+era both demonstrate the military response to the
+overt expression of physician conscience. If war
+were becoming a thing of the past because nations
+were seeking arbitration to their differences, then
+we might modify our opposition to medical professionals in the military. This, sadly, is not the case.
+We have also proposed that a dialogue be undertaken among military command structures, military
+physicians, and civilian physicians to discuss these
+dilemmas and to develop solutions for them.
+POINT/COUNTERPOINT—A RESPONSE TO DRS. SIDEL AND LEVY
+Acknowledgments
+This chapter is, in part, based on previous chapters and articles: Sidel VW. Aesculapius and Mars.
+The Lancet 1968;966–967; Sidel VW. Quid est amor patriae? PSR Quarterly 1991;1:96–104; Sidel VW.
+Warfare I. Medicine and War. In: Reich WT, ed. Encyclopedia of Bioethics, 2nd Ed. New York: Macmillan,
+1995; 2533–2588; and Sidel VW. The role and ethics of health professionals in war. In: Levy BS, Sidel
+VW, eds. War and Public Health. New York: Oxford University Press; 1997: Chap 18. The authors are
+grateful to Tod Ensign, H. Jack Geiger, John C. Moskop, and Edmund Pellegrino for their suggestions.
+An ethical argument is sound only to the degree
+that it recognizes the strongest arguments against
+it and shows why they are wrong. Sidel and Levy
+add a critical component to this textbook because
+they provide the first of these two requirements.
+They present the strongest arguments that they and
+others have made against several military medical
+practices. 78,79 The task remaining is to show which,
+if any, of their arguments is not valid and why.
+Their contribution, however, goes beyond providing these arguments. In challenging military
+medical practices, they reopen them for discussion.
+This could lead to new practices that are morally
+preferable. This, of course, is one of the major purposes of this textbook—to explore military medical
+ethics and suggest areas for improvement. Just as
+importantly, military physicians may from time-totime ask themselves the same questions Sidel and
+Levy ask or be confronted with these questions by
+others. To maintain their sense of moral integrity,
+they must know how to answer these questions.
+Providing some of these answers will be the
+thrust of this response. To do this most clearly, I
+shall address Sidel and Levy’s arguments in essentially the same order in which they gave them. I
+shall do primarily two things: (1) I shall indicate
+where Sidel and Levy’s arguments go wrong, and
+(2) where they offer challenges that warrant discussion or could result in military medicine caring for
+patients better, or both.
+Rebuttal of Key Points
+In their Introduction, Sidel and Levy state rightly
+that the same kind of conflicts that military doctors
+face exist in civilian contexts as well. They state
+rightly, also, that soldiers have a need and right to
+medical care. As both these comments suggest, they
+do not claim that doctors shouldn’t care for soldiers
+who are wounded during combat. They do claim
+that these doctors should not be members of the
+armed forces, but rather should be neutral care providers. They state that some ways in which medical care in the military is structured is suboptimal
+Physician-Soldier: A Moral Dilemma?
+313
+applied. Correspondingly, whenever military physicians apply these principles, they should be sure
+this is necessary. 81 To do this they must also maintain ongoing communication with line commanders so that if and when it becomes no longer necessary to apply these principles, they can immediately
+reinstitute triage principles that would apply in a
+civilian setting. Optimal structures may be in place
+for exchange of information between the line and
+the military physician. If they are not, they should
+be established.
+Medical Research
+Sidel and Levy wholly misunderstand the basis
+on which soldiers were required to take preventive
+agents to protect themselves from biological and
+chemical weaponry during the Persian Gulf War.
+They contend the use of PB as a pretreatment for
+the effects of nerve agents was unethical because
+of the absence of informed consent and because the
+drug was not approved by the FDA for this purpose. They also contend that the “extraordinary circumstances” necessary to warrant use of the drug
+were not present and furthermore that there was
+inadequate evidence that PB would have been effective. Based on Saddam Hussein’s previous use
+of chemical agents against the Kurds in northern
+Iraq, there was ample reason to believe that he could
+have used this weaponry against coalition forces
+during this war. There was also unequivocal evidence
+that these protective agents would have helped. The
+use of these agents was solely protective. 82
+There are many nonmedical examples of requiring soldiers to use protection against an identified
+threat (for example, chemical protective over garments [CPOG], “flak” jackets, Kevlar helmets),
+some of which have medical complications associated with them (heat injury caused by wearing the
+CPOG or body armor). Although the preventive
+agents required during the Persian Gulf War would
+not fully protect soldiers if biological or chemical
+weaponry were used, they would nonetheless help.
+This belief was based on the best scientific evidence,
+evaluated by the most knowledgeable military and
+civilian authorities at this time.
+(In fact, then, as now, research standards are exceptionally strenuous in the military. Many feel they
+are too strict, because some research, which can be
+done in civilian settings, simply can’t be done in
+the military. For example, military institutional review boards (IRBs) most rigorously question
+whether servicepersons are free from inherently
+and that this results in inferior ethical outcomes.
+They list these. I shall discuss these separately and
+then their overall conclusion that doctors should not
+serve as members of the armed forces.
+Military Medical Triage
+Sidel and Levy accept the underlying principles
+and rationale of military medical triage, namely,
+that if a war would be lost if minimally wounded
+soldiers were not returned to the battle, the military missions must be placed first. Therefore the
+minimally wounded must be treated before those
+more seriously injured for there to be the greatest
+good for the greatest number. This practice must
+be pursued to protect soldiers and, ultimately, this
+country, as well as other countries that would need
+this country’s assistance to protect themselves. (The
+concept of differing models of triage is discussed
+more fully in Chapter 13.) However, they disagree
+with how and when these principles are applied.
+They assert that military physicians are unduly
+vulnerable to identifying with military, as opposed
+to patients’, interests and, thus they could apply
+military medical triage principles too readily.
+Their premise is sound. If military doctors apply
+these principles of triage too readily this would lead
+to those seriously wounded soldiers who are not
+treated first losing their lives unnecessarily. Although
+their premise is sound, their assumption is incorrect. Line officers, who have far greater expertise
+and information than military physicians regarding the needs of the military mission, ultimately
+determine the ethical priorities military physicians
+must follow. If, for example, soldiers are ill but can
+fight, line officers (having been informed by military physicians regarding these soldiers’ health)
+decide whether they still should fight under these
+conditions. 80 This is what should occur. Those who
+are most capable of deciding what is necessary to
+best prevent such horrors as global genocide should
+be the ones to do so. The only other option would
+be to let persons with less expertise, such as physicians, make these decisions.
+Here, despite their misunderstanding of triage,
+is a first example in which their challenge could
+enhance military medical care. For the best and most
+informed decisions to be made by the commander,
+there must be open and forthright communication
+between physicians and commanders. Military physicians must give line commanders information so
+that these commanders then can best decide when
+the military medical triage principles should be
+Military Medical Ethics, Volume 1
+314
+coercive factors so that they can decide without
+pressure whether they want to participate in research. The protective agents soldiers were required
+to take during the Persian Gulf War were not, then,
+given at all for the purpose of research. They were
+given to soldiers to save their lives in spite of the
+fact that they had not been, and could not be, adequately tested for this purpose.)
+Although Sidel and Levy misunderstand why
+soldiers had to take these preventive agents, their
+challenge makes a valid and important point. Because biological and chemical weaponry could be
+used against us, if agents are protective they should
+be used if they could substantially reduce the harm
+these weapons could cause. Still, the potential gains
+will always be uncertain and the risks unknown.
+This will especially be the case as new weaponry
+and protective agents are developed. 83,84
+It is, therefore, of the utmost importance that the
+best scientific data be gathered, continually updated, and assessed by both military and civilian
+experts, as they were during the Persian Gulf War.
+Even with the best scientific knowledge, however,
+the ethical decision of when an agent should be used
+will remain problematic. The persons who should
+decide this should be fully knowledgeable of military needs and realities, unbiased, and representative of the public will. For such a group to be able
+to respond in as timely a manner as may be required, it may be that a new structure to do this is
+needed. To ensure that these scientific judgments
+aren’t inadvertently biased, civilian experts should
+be among those making these assessments, as was
+the case during the Persian Gulf War.
+The one way soldiers’ autonomy can be best respected even under these conditions is to inform
+them fully before they enlist that they may have to
+take some protective agents not adequately tested
+for this use. That they may need to do this is now
+common knowledge, but this could and, perhaps,
+should be done more extensively and explicitly. A
+structural innovation Sidel and Levy encourage
+could be this: When soldiers enlist, they should be
+briefed about this, then tested to help ensure that
+they know they could be required to take protective agents. (This model of testing is now used
+sometimes when persons agree to participate in research. To some, this testing in research represents
+the ethical edge of this field.)
+Sidel and Levy make another valid and important point concerning the “voluntary” nature of
+military service and thus the ability to grant informed consent. They assert rightly that persons
+may gain a great deal by joining the military. They
+may, for example, escape poverty and learn a trade.
+This incentive makes their decision to join the military inherently coercive. Thus, they cannot freely
+choose whether to enter the military and accept
+being required to take these protective agents. This
+kind of problem has occurred before. It occurred,
+for example, when men joined the military just before the US entrance into World War II, when many
+were jobless as a result of the economic depression
+of the 1930s. This concern rightly reflects the importance of protecting those most vulnerable. Thus,
+Sidel and Levy here provide an additional reason
+for informing soldiers that they may have to take
+protective agents prior to their enlisting.
+Sidel and Levy also comment about untested
+treatments and the need for community consultation. Again, they are right. If any treatment is not
+fully tested and is given to soldiers, they are at additional risk. If they would be given this treatment
+on the battlefield but are so stricken that they are
+not competent, these soldiers couldn’t consent.
+There is then a need for others to provide consent
+for them on their behalf, or for community consultation. An aspect of this situation they do not mention, however, is that if these soldiers would otherwise die, these treatments, though not fully tested,
+may save their lives. As with protective agents, these
+treatments would not be given for the purpose of research, but rather for the purpose of treatment.
+Because soldiers risk their lives for the greater
+society, they may deserve special access to these
+treatments on the ground of compensatory justice.
+(See Chapter 26, A Look Toward the Future, and
+Chapter 27, A Proposed Ethic for Military Medicine,
+for a discussion of this concept). The application of
+this principle has, in fact, already begun. Effort is
+now being undertaken to make a new, possibly lifesaving, intervention available to soldiers stricken
+on the battlefield who otherwise would die. The
+structure for doing this is just being developed and
+involves IRBs. Its purpose, however, is not primarily research. Its purpose is to save soldiers’ lives.
+It represents a compassionate, earlier use of a new
+treatment, much like earlier use is now permitted
+for civilian patients who have cancer or acquired
+immunodeficiency syndrome (AIDS). It may be that
+this compassionate use should have been instituted
+long before. Regardless, as Sidel and Levy suggest,
+there must be a structure to maximize the likelihood
+that these untested treatments will be helpful as
+opposed to harmful. The present structure of IRBs
+may or may not suffice.
+Physician-Soldier: A Moral Dilemma?
+315
+Confidentiality
+Sidel and Levy believe that the medical officer
+can decide what patient information is confidential. They also believe that the medical officer may
+be unduly biased in favor of the military. The thrust
+of their concern is valid and important. That military physicians are vulnerable to acquiring such a
+bias is beyond controversy. 85 Military doctors can,
+however, refer requests for confidential medical information to military lawyers. These lawyers can
+then decide what, if any, information is critical to
+meeting mission needs. Sidel and Levy are right
+that military doctors may fail to do this when they
+can and should. This also may be, as they claim,
+because military doctors overidentify with the
+needs of the military or are afraid of taking a stand
+that opposes higher authorities. 86
+This is an instance in which these authors’ appeal for structural change and innovation may be
+particularly sound. This change could require, for
+example, military physicians being required to refer such requests to a third party, such as the military lawyer. It could also allow, time permitting, for
+an appeal. So that the urgency of the request could
+be reasonably assessed, commanding officers requesting such records could be required to indicate
+how soon they need these records, and give the rationale for their urgency.
+Here, however, the military lawyer, like the military physician, may be unduly biased. Thus, there
+may be a need for some check on their decisions,
+such as involving civilians in the process. The risk
+this poses is that these civilians must be fully knowledgeable regarding the military’s genuine needs
+and realities or else the results can be untoward. If
+they are not, their judgments, though well-intentioned, may place soldiers and the world population at greater risk. Civilians having this knowledge
+is, consequently, an absolute limiting factor.
+Failing to Keep Adequate Records
+Sidel and Levy assert that the military’s keeping
+inadequate records during the Persian Gulf War was
+inexcusable. Whether excusable or not, this was a
+mistake. Accordingly, it now has been corrected. 87
+Ironically, one of the reasons adequate records
+weren’t obtained at this time was the fear that this
+record-keeping would fuel the misperception that
+the use of preventive agents was for the purpose of
+research, not treatment. This is, of course, the same
+misperception that Sidel and Levy had. Despite
+their misperception, their challenge on recordkeeping was of value. The lesson for military physicians
+in the future that Sidel and Levy’s challenge initiates is this: To the extent possible, military authorities should do what they know is medically best
+for soldiers, regardless of their fears about how the
+public may respond. In this case, this would have
+meant the military’s keeping optimal records, regardless of how the public and even experts such
+as Sidel and Levy might have viewed this.
+Imposing Immunization for the Good of the
+Patient
+The authors use vaccination of soldiers as an example of overriding patients’ wishes. They agree
+with requiring immunizations in “civilian public
+health practice to protect others beyond the individuals immunized, as in the case of an infectious
+disease spread from person to person.” The intention here is to protect society from the harm of having many members of that society die from the infectious disease. The community has the “need and
+the right to protect [itself] from the spread of known
+preventable diseases.” They also agree that the
+wishes of the individual sometimes have to be subordinated to the needs of the society. Civilian quarantine is an example of subordinating the wishes
+of the individual to the needs of society. Civilian
+physicians in these quarantine situations may need
+to be involved in restricting the rights of individuals by placing the needs of society above the wishes
+of the patient.
+However, they disagree with requiring immunizations for the “good of the fighting force” for diseases “not spread from person to person.” If one
+were to equate the military (the “fighting force”) to
+society, their argument is valid—involuntarily treating an individual for a condition that cannot affect
+society is substantively different from protecting
+society from infectious disease. Soldiers’ not being
+immunized can, however, affect both the military
+and society. It can result in widespread loss of lives
+within both.
+In the military case to which the authors refer
+(anthrax vaccination), the soldiers, the military, and
+society can and should be protected. If the military
+is unable to protect the society because a significant proportion of soldiers were incapacitated by
+illness, the basic function of the armed forces has been
+lost. If, as we agree, the society should be protected,
+the analysis changes dramatically. To protect society,
+it may be necessary for soldiers to take measures to
+Military Medical Ethics, Volume 1
+316
+protect themselves or to increase their effectiveness
+regardless of their individual views. Vaccination to
+protect soldiers from a biologic weapon (inhalation
+anthrax) is an example of society’s appropriately requiring soldiers to take a measure that should help
+protect them during combat.
+Battlefield Psychiatric Triage
+Sidel and Levy believe that when soldiers have
+combat fatigue, military doctors should do what is
+best for soldiers. They could. This would involve
+their sending such soldiers back from the front or
+possibly to the United States. If they did this these
+soldiers would remain alive because they would not
+be reexposed to the risk of dying during combat at
+the front. This is true, however, of every soldier. If
+relieved from combat duty, every soldier would
+then escape harm’s way.
+Their analysis of battlefield psychiatric triage is
+flawed significantly. They ignore the reality that if
+military physicians relieve soldiers who experience
+combat fatigue from further combat duty, there is
+great risk that innumerable other soldiers, consciously or unconsciously, will also develop combat fatigue and, thus, follow suit so that they, too,
+can escape the risk of death. Unless Sidel and Levy
+are willing to accept an enemy’s prevailing as a result of this, they can’t argue logically that military
+physicians should allow this risk. 88,89 Military physicians have no choice but to give these soldiers the
+expectation that they will return to combat. This
+may be extremely difficult psychologically for many
+military doctors because it requires them to be coercive. Their doing this, however, also concomitantly reduces soldiers’ risk of having greater subsequent psychiatric morbidity because of survivor
+guilt. Thus, if these soldiers survive combat, they
+should benefit.
+Military doctors know that if they allow stressed
+soldiers to escape combat there is this extraordinary
+risk of opening up the floodgates to other soldiers
+experiencing combat fatigue. These doctors also
+know that if these soldiers return to duty and survive, their likelihood of developing worse symptoms due to survivor guilt will be reduced. Both of
+these awarenesses may help reduce the traumatizing effect on themselves of their having to coerce
+soldiers in this manner. This shows how military
+careproviders having an answer to Sidel and Levy’s
+arguments may help them retain their sense that
+they are acting with moral integrity. It may also reduce the potential emotional turmoil of their having
+to act in exceptional ways. They, like the soldiers
+they must send back to the front, are also experiencing additional emotional turmoil for the sake of
+society. Having this knowledge may, in fact, rightly
+result in their believing that they are taking not only
+a permissible but also the highest moral road that
+they could take.
+Failing to Provide Care to Others
+Sidel and Levy contend that military doctors
+must be informed of their obligations under international conventions and then meet these obligations. They are right. Prisoners of war (POWs) are,
+for example, no longer enemies but merely humans.
+The Geneva Conventions do not permit military
+physicians to treat their own soldiers first and later
+treat POWs if POWs have more severe injuries. They
+can’t do this even when treating their own soldiers
+first would further their own military’s mission. Yet,
+violating this obligation to treat POWs equally is
+precisely what many military doctors now state
+they would do. 90
+Sidel and Levy also contend that military doctors should treat civilians almost equally. This may
+be ethically warranted, but it is not required of US
+military physicians under international law because
+the United States has not agreed to this aspect of
+the conventions. 91,92 The United States would not
+agree to subscribe to do what in reality it anticipated might prove unfeasible or it might be unwilling to do: to provide sufficient medical resources
+in another land to offer US soldiers, POWs, and civilians equal treatment.
+It could be argued, as Sidel and Levy imply, that
+all should be treated according to their need on the
+ground of justice. This would treat all patients—
+soldiers, POWs, and civilians—equally. This would
+mean, however, that if resources were inadequate
+to treat all these patients’ major medical needs, large
+numbers of injured US soldiers who otherwise
+could be treated would not be. They would remain
+untreated, at least for some time, and possibly experience permanent morbidity or even die. This
+could undermine soldiers’ morale and possibly affect the likelihood of their achieving victory. Their
+morale also could be adversely affected when military physicians treat POWs equally. Among the reasons why military physicians must treat POWs
+equally is the fact that if US soldiers are captured,
+they can only expect enemies to treat them equally
+if they will do this themselves. This rationale does
+not apply to civilians.
+Treating soldiers, POWs, and civilians equally
+could, in addition, undermine the present implicit
+Physician-Soldier: A Moral Dilemma?
+317
+promise made to all soldiers to give them the best
+medical care possible. If the United States agreed
+to this and as a result, US soldiers would be more
+likely to sometimes go without care or without care
+for a longer period of time, this promise made implicitly now would be changed, eliminating this
+value as an important morale concern.
+Sidel and Levy contend (and military doctors
+themselves state90) that although military doctors
+are taught to treat POWs and their own soldiers
+equally, this training knowledge has had inadequate
+effect. Here, then, is another instance in which the
+argument for a new structure that would lead to a
+better ethical result is exceptionally strong. Military
+doctors not treating POWs equally could, for example, be made a criminal offense, resulting in such
+physicians facing court-martial. Further, military
+doctors could be required also to report others who
+do not treat POWs equally, just as civilian doctors
+must report child abuse. This example is not just
+the strongest case Sidel and Levy make for structural change; it is the strongest case for its being
+needed now.
+Using Medicine as a Weapon
+Using the example of Dr. Howard Levy, Sidel and
+Levy declare that military physicians should not use
+their medical skills to exploit civilians in occupied
+territory to win wars by winning over these patients’
+minds and hearts in this way. There is, perhaps,
+widespread ethical agreement among ethicists, if
+not civilians, on this point. 93 Ethicists particularly
+are likely to perceive and be concerned that military physicians not use their medical skills for political purposes to further military goals. This is
+for two main reasons. First, military physicians
+doing this exploits these individuals’ vulnerability
+and risks using them primarily as means to the
+military’s ends. Ethically, using persons in this way
+is generally prohibited. Second, it is implausible
+that their doing this will alter the outcome of a war.
+However, military physicians can treat patients in
+occupied territories as ends in themselves. They could
+treat them, for example, on the basis of their most
+urgent medical needs. This would be not only
+nonexploitative and ethically permissible, but ethically praiseworthy. Still, some winning of these civilians’ hearts could occur. This ground for military
+physicians treating civilians could, then, be misused.
+Here, as Sidel and Levy suggest, a structure might
+be warranted to prevent this. For example, a neutral body could be established to insure that medical care is delivered under these circumstances on
+the basis of patients’ needs as opposed to what
+might be most politically successful in winning over
+the hearts and minds of the people. For instance,
+dramatic treatments such as plastic surgery, which
+was carried out primarily for this political purpose
+during the Vietnam conflict, might be precluded. 94
+Torture
+Sidel and Levy argue that military doctors should
+not only not participate in torture but should be required to report it. They are right. 49,95–97 There are a
+range of such abuses possible. This range includes
+giving succinyl chloride to paralyze prisoners’
+breathing at one extreme and withholding medical
+care or food and water at the other. 98 Some still are
+allowed. During interrogations, for example, water
+may be withheld routinely. Prisoners might be threatened with torture that is actually prohibited, but the
+prisoners wouldn’t know that. The conventions are
+clear. Psychological torture (even by threatening to
+use physical torture) is absolutely prohibited. 96
+What if, however, with the use of torture hundreds of thousands of lives could be saved? This
+might, for example, be the outcome from an airbased anthrax attack. Again, that torture would
+prevent this would be highly speculative. Thus, although the value of saving so many persons’ lives
+is self-evidently important, unless the most exceptional circumstances can be proven to exist, this is
+universally proscribed. At a certain point, if any
+means can be used to save a society, the values to
+be preserved are no longer worth fighting for. For
+this same reason, even if most exceptional and extenuating circumstances can be proven, this may not
+be enough to morally justify any kind of torture. 96
+It may presently be unclear, however, whether
+ethically all such abuses should be absolutely precluded as they have been in the past. According to
+one view, there is no new reason the previous blanket prohibition should be changed. Conversely,
+some may argue that terrorists pose a risk now that
+is unprecedented. Terrorists, for example, are not
+bound by inherent ethical limitations, are dispersed
+globally, and have access to biological and chemical weaponry. Still, the risk may not differ qualitatively, or perhaps even quantitatively, from prior
+risks, such as that posed by the genocidal policies
+of Nazi Germany.
+If torture still should be precluded absolutely,
+this is another instance in which, as Sidel and Levy
+contend, structures could bring about far better
+moral outcomes. As already illustrated most
+strongly in regard to POWs, they could help insure
+Military Medical Ethics, Volume 1
+318
+that physical and mental torture doesn’t occur. Even
+if there is some new ground that could permit the
+use of torture to some degree when it seems certain
+this could save hundreds of thousands of persons’
+lives, new structures still should be necessary to
+insure that the prerequisite extenuating circumstances are met.
+Moral Protest
+Sidel and Levy contend that military doctors
+should be allowed to protest. Military doctors, as
+all soldiers, can and should refuse to carry out illegal or immoral orders. 99,100 This is established in
+military law. Soldiers, unlike civilians, however,
+should also have to sacrifice certain options. If this
+were not the case, the effectiveness of the military
+endeavors could be fundamentally undermined. 101,102
+This could result in catastrophe. Military physicians,
+as all soldiers, can and should express their moral
+convictions, first through official channels. Later, it
+may make sense for them to risk court-martial. 99
+Their ultimate protection lies within civilian courts.
+There are two critical points about which Sidel
+and Levy may be mistaken. First, there is no reason
+military physicians should be allowed to protest
+more than other soldiers. Although they have their
+medical obligations, all persons have personal beliefs that may warrant greater allegiance. Second,
+and built upon this, military physicians, like all
+soldiers, may rightfully be limited in the freedom
+they have to protest for much the same kind of reason military physicians must treat soldiers with
+battle fatigue with three hots and a cot. If soldiers
+were permitted to protest in whatever way and
+whenever they want, once some did, others might
+follow suit in droves. As with combat fatigue, consciously or unconsciously, they might do this for
+secondary gains. This could result in the military’s
+failing and enemies then being able to prevail.
+They cite as an example here the experience of
+Dr. Yolanda Huet-Vaughn. She refused to serve in
+a specific war on the ground that this would violate her moral conscience. 101 Her personal conviction, I believe, was wholly sincere. (In fact, at my
+invitation she addressed the medical students taking their required course in military medical ethics
+at the Uniformed Services University for the Health
+Sciences and discussed with them her views and
+reasons for her refusal.) But the point here that Sidel
+and Levy overlook is that, due to reality-based limitations, it may be that whether or not she was sincere can’t matter. Why? It would no doubt be morally right to allow all those with sincere objections
+to follow their beliefs. Yet, allowing this would open
+the door to all doctors and soldiers who decided
+they wanted to get out of the military to do so, regardless of obligations they have incurred. If the
+military has invested substantial resources in physicians’ education or training, physicians in great
+numbers could, having reaped these benefits, then
+assert that they can no longer serve on the basis of
+their moral conscience. This is a situation in which
+there are limited options. Because there is no way
+of determining who has genuine moral scruples
+from who does not, there are only two options:
+Leave the system open to being exploited or leave
+some soldiers to suffer adverse consequences despite their having genuine moral convictions.
+Still, the kind of structure Sidel and Levy suggest is needed here may play a most important role.
+Military physicians’, as well as soldiers’, right to
+protest publicly and to respond on the basis of their
+moral conscience should be impartially assessed.
+Although civilian courts may do this in time and in
+some cases, this ultimate remedy may be too infrequently offered and difficult to achieve to fairly treat
+military doctors and other soldiers who are protesting. A structure allowing more immediate and accessible impartial review may improve this.
+A perhaps greater problem a new structure may
+help correct is the risk that those military persons
+judging the protesting of military physicians will
+be biased. This is a concern Sidel and Levy raise in
+regard to many contexts that is entirely valid. A
+more impartial body with more civilians to assess
+these cases could be optimal. Yet, this being an improvement presupposes that civilians will indeed
+be more impartial, but this may not at all be the
+case. Civilians denied Huet-Vaughn, for example,
+the right to continue to practice medicine though
+all evidence indicated that she was not only competent but also exceptionally committed to her patients. Civilians’ impartiality may appear to be a
+better solution than it might actually be. Again, both
+military physicians’ and other soldiers’ interests
+may be best met in this regard also by being as fully
+informed as possible, prior to entering the service,
+of the consequences they could confront. As discussed previously, structures might be established
+to insure that this occurs.
+Overview
+Sidel and Levy have compiled a list of what they
+believe are wrongs that have occurred and may continue to occur in military medicine. They believe
+the structures allowing these wrongs should be
+Physician-Soldier: A Moral Dilemma?
+319
+changed. Some of these changes have been made
+already. Others can and should be. Since September 11th, 2001, there are heightened concerns and
+thus ethically, the principles underlying military
+medical practice may or may not be the same.
+Two general principles, however, still prevail.
+First, there are some practices that should still be
+carried out absolutely. Prisoners of war should, for
+example, be treated equally. Captured enemies
+probably should not be physically or mentally tortured to any extent. Otherwise, the notion underlying international conventions that war, though horrible, can be humanized to a limited but significant
+extent, must be discarded. Second, there are some
+compromises that must be made, both by soldiers
+and the citizenry at large. These compromises have
+been and always will be necessary for countries to
+prevail when they fight just wars. An example given
+here is requiring soldiers to take agents to help protect them from the effects of biological and chemical weaponry.
+Making these sacrifices may be painful. An example involving military physicians is their having to endure the pain of giving highly distressed
+soldiers three hots and a cot and sending them back
+to duty where they may die. Military physicians
+should, however, find this pain offset, at least to
+some extent, by the pride they should rightfully feel
+as a result of what they do. The challenges Sidel
+and Levy offer and the responses such as those I
+have offered here are intended to further ethical
+thinking regarding military medicine. In addition,
+it is hoped that this discussion will benefit military
+physicians by giving them a more rational basis for
+feeling this pride. This, again, is a goal of this entire textbook, as well.
+What, then, is to be said of Sidel and Levy’s overall argument that it is unethical for physicians to
+serve in the military as doctors and soldiers at the
+same time? If they are not right, why not, and why,
+in light of their claim, should military physicians
+still feel immense pride?
+This same claim was made and hotly debated a
+century and a half ago when it was proposed that
+neutral volunteer careproviders aid the sick and
+wounded during war. One person speaking for this
+practice stated, “We have in view but one object,
+and that is: the neutrality of ambulances and sanitary personnel of belligerent armies. This is all. We
+ask nothing more than this.”103(p33)
+However, at the International Congress of Geneva
+of August 1864 it was unanimously determined that
+this would not occur. The grounds for this decision
+were, however, ethically, far from compelling. It was
+thought that leaving the care of soldiers of both
+sides to “volunteers not subject to military control”
+would “very possibly lead to incessant practical
+difficulties in field hospital administration” and to
+“disputes and embarrassments with foreigners.”104(p6)
+Are there, then, stronger arguments for or against
+this neutrality now?
+Sidel and Levy’s major basis for wanting neutrality is now, as it was then, that military physicians cannot be sufficiently unbiased because of the
+tendency to identify with the unit and the mission.
+This, too, has been acknowledged by others not only
+in past but recent times. Daniels gives, for instance,
+this example involving a military psychiatrist. He
+asked him about the conflict of sending soldiers
+back to possible death. The psychiatrist said, “‘No,
+you can’t put that in the paper, you must call it arduous duty.’”85(p4)
+Examples involving POWs show unequivocally
+that unethical practices can occur as a result of
+overidentification. Gordon Livingston, a West Point
+graduate who served in Vietnam as a military physician, states, “one night when [wounded Vietcong
+and North Vietnamese were brought to his regimental command post for questioning] I protested to
+my commanding officer that a wounded soldier
+might die if he were not promptly evacuated, I was
+told to ‘just keep him alive for a few minutes so we
+can question him. After that he can die; it doesn’t
+matter to me.’”98(p268) Carter’s findings90 regarding
+the sizable percentage of US physicians in the Persian Gulf War who said they would treat POWs
+unequally suggest a fearful possibility that given
+this same response, they would comply.
+Clearly, physicians must treat soldiers during
+combat. Were they to not do this, this would involve
+society’s violating soldiers’ dignity unconscionably
+because the society would be using and regarding
+soldiers solely as means, not ends. Would, however,
+rendering physicians neutral, as Sidel and Levy
+claim, benefit soldiers and particularly others to the
+extent that this would be preferable? If the kinds of
+unethical practices Sidel and Levy describe are common, as opposed to the exception, it is plausible that
+they are right. Most who have been in the military
+would, however, argue adamantly that this is not
+the case. (See, for example, the response by Navy
+Commander Dominick R. Rascona, himself a physician, that follows this discussion.) They would
+claim that soldiers trust and rely greatly on military physicians because they share both common
+goals and personal sacrifice.
+A study of military psychiatrists supports this.
+Seventy-four percent said that they believed that
+Military Medical Ethics, Volume 1
+320
+limitations regarding confidentiality in the military
+had little or no effect on their ability to treat patients. 105 It is possible these psychiatrists saw little
+or no effect because they, like the psychiatrist interviewed by Daniels, were biased, but the high
+percentage of psychiatrists reporting this lack of
+effect make this possibility less plausible.
+Further, most would claim also that notwithstanding Carter’s findings, military physicians above all
+others insist on giving POWs and civilians in occupied territories optimal care. The example given earlier in which Dr. Livingston refused to follow his
+commander’s instructions is such a case. (Livingston,
+too, has been a guest speaker to the second-year medical students in the Ethics Course each year for the past
+several years at the Uniformed Services University of
+the Health Sciences (USUHS). He has emphasized not
+only that military physicians can serve this unique
+role of enforcing the highest vision of medical practice during combat, but the importance that they do
+so.) I have found that military physicians have been
+the ones to contact me on several occasions, not because they were allied with military interests but to
+gain advice on protecting the interests of their patients.
+These patients have been both allied soldiers as well
+as wounded enemy prisoners of war. For example, I
+recently received a call from a military physician who
+was concerned that Taliban forces now held as prisoners receive equal rights to confidentiality during
+physician interviews as other patients, to respect their
+dignity and the sanctity of the patient–physician relationship as well as benefiting from treatment to the
+maximal degree that they could.
+Dr. Howard Levy, whom Sidel and Levy mention,
+is another example. He objected to the military’s using medical care as a means of pursuing military
+goals. Subsequent to his raising this concern, others have come to recognize the importance of military physicians not exploiting the vulnerability of
+patients in occupied territory for political or military purposes. 93,94
+When physicians serve in the military, they bring
+with them such medical tenets as those in the
+Hippocratic Oath that give highest regard to patient
+interests. Whether the “physician first, soldier second”
+general paradigm presented in the concluding
+chapter of this text is or is not ultimately theoretically justifiable, as a matter of practice this paradigm
+is followed by most military physicians unless they
+encounter the extenuating circumstances requiring
+that priorities be given first to military necessity. With
+the exception of situations involving military necessity, military physicians, in the same manner as HuetVaughn, Livingston, Howard Levy, and even Sidel and
+Levy actually fight for soldiers’ and others’ [civilians
+and POW’s] rights and interests as patients. Military
+physicians are the leading proponents of both the
+highest moral roads and needed ethical change.
+Ultimately the necessity for military physicians
+to be members of their own units is their critical
+role in carrying out the military mission. As discussed throughout this textbook, military physicians must carry out such unusual and personally
+agonizing tasks as military medical triage, treating
+soldiers with combat fatigue with three hots and a
+cot, and insisting they take anthrax vaccinations if
+wars are to be won. Wars must be won if our country (and possibly many or even all others) is to be
+protected from unthinkable outcomes, as the events
+on September 11th most recently illustrated. These
+recent terrorist attacks in the United States reaffirm
+this reality. Enemies may use any and all means to
+harm other nations and persons they wish to destroy. These attacks should remind us that the
+United States and other countries are all vulnerable.
+All countries need the best protection that could
+plausibly be offered.
+This best protection unequivocally requires
+armed forces having military physicians committed to doing what is required to secure victory. Regardless of whom we should protect in the future,
+ourselves or vulnerable persons in other countries,
+to most protect ourselves and others, we need the
+exact opposite of what Sidel and Levy prescribe. As
+opposed to needing neutral physicians, we need
+military physicians who can and do identify as
+closely as possible with the military so that they,
+too, can carry out the vital part they play in meeting the needs of the mission.
+[Edmund G. Howe, MD, JD]
+THE MORAL OBLIGATION OF UNITED STATES MILITARY MEDICAL SERVICE
+The profession of the United States military
+medical officer is one of moral necessity, regardless
+of the exigencies or conflicts such an individual
+must endure. Intrinsic to this argument is an assumption of just war. This extremely important
+point—upon which all others to follow base their
+ethical validity—is a contentious and difficult one.
+Skeptics of United States foreign policy may therefore be unconvinced regarding the ethics of US military medical service. These skeptics will remain
+unconvinced regardless, but countering such criticism is beyond the scope of this essay. (Chapter 8,
+Physician-Soldier: A Moral Dilemma?
+321
+Just War Doctrine and the International Law of War,
+discusses the assumption of just war in detail.)
+The Mandate of the Military Physician
+Military medical service in the United States is
+ethically sound based upon the following simple
+predicate: If American democracy can be shown to
+be ethically sound, so must be the assumption of
+necessary duties taken up in its defense. This would
+include the general notion of military medical service.
+No doubt physicians participating in such service
+can be expected to face ethical difficulties, perhaps
+even true moral hazard—ethical conduct within the
+“total system” of the military may indeed be difficult. But claims that the mere shunning of such service is somehow superior to performing it must be
+shown to lack moral credibility.
+The overriding principle of military service in the
+United States is to support and defend its Constitution, a set of values purporting freedom and dignity
+for all people. These values are generally accepted
+as fundamentally moral, something that all military
+officers, enlisted personnel, and military medical
+personnel must be assumed to know. Regardless of
+the importance of obedience to command structure,
+people do not voluntarily join the US military in
+order to obey orders. They obey lawful orders to
+preserve a society based on the Constitution. Medical personnel may indeed be viewed as integral to
+the capabilities and effectiveness of military power,
+but this military power will exist with them or without them, as it did for the centuries before medicine
+was, in any meaningful way, effective. I submit that
+the vast majority of American military medical officers enter the service with this knowledge and in
+fact dedicate themselves initially to nothing more
+than the desire to minimize harm to their countrymen who will become potential and actual military
+patients.
+Imperative for a Prepared Medical Officer
+Following from the doctrine of just war, if there
+can ever be just and ethical soldiers, it follows that
+there not only can but also must be just and ethical
+military physicians. If soldiers of a just war are to
+be cared for in an optimum manner, then their physicians must meet the same levels of competency
+as their military commanders. Such competency
+cannot be expected from civilians (“amateurs,” to
+quote Madden and Carter in Chapter 10, PhysicianSoldier: A Moral Profession) when it comes to the
+unique contingencies of modern warfare. Anything
+short of such competency should be considered
+egregiously unfair to all soldiers (especially those
+first into battle) whose lives would be unnecessarily lost on the learning curve of an ill-prepared military medical system. Such incompetence should
+therefore be considered unethical and unacceptable.
+Details of how the US military should actually accomplish the legitimate goal of maintaining an ethical permanent military medical officer corps likely
+raises a second set of concerns, but the principle
+that such a corps must exist in some form is logical.
+Sidel and Levy state that all-out war is “extremely unlikely for a country like the United
+States,” (and therefore) “to subordinate the rights
+of patients and the responsibilities of physicians to
+prepare for such an improbable event is unwise and
+unnecessary.” Can such a position be logically countered? The degree of readiness required, desired,
+or attainable during peacetime may be debated, but
+one situation will obtain: either a country will or
+will not be prepared at the time it is threatened or
+attacked.
+Regardless of one’s world view, it should be recognized and understood that warfare, whenever it
+occurs, represents a breakdown of civil society. Although international codes such as those of
+Nuremberg and Geneva may attenuate some of the
+horrors of war, they do nothing to prevent it. When
+the United States or any other purportedly good
+nation goes to war, it must be assumed that no good
+path is being taken, only one that has been decided
+upon as the lesser of evils. When this regrettable
+circumstance obtains, military medical officers, assuming personal risk as well as moral hazard to
+lessen overall harm, act not only ethically but also
+nobly. They answer a call to legitimate duty. Their
+role is simply to lessen harm that will otherwise occur, with or without their participation. The recognition that someone will be called or required to
+answer this call to duty cannot be overemphasized.
+Unless the entire society embraces complete pacifism,
+warfare, and especially defensive warfare, is not an
+optional activity. Physicians will need to act. Society
+should expect them to be prepared and ready.
+The Moral Nature of Military Medicine
+Three chapters of this textbook directly address the
+moral nature of medical practice within the modern
+American military (Chapter 10, Physician-Soldier:
+A Moral Profession; Chapter 11, Physician-Soldier: A
+Moral Dilemma?; and Chapter 12, Mixed Agency
+in Military Medicine: Ethical Roles in Conflict). In
+Chapter 10, Madden and Carter most directly adMilitary Medical Ethics, Volume 1
+322
+dress the moral nature of medical service as a military officer of the United States. My argument, however, proceeds further, to suggest that such service
+is even mandatory. Madden and Carter say, “Without security neither individuals nor their society can
+benefit from the profession of medicine.” If this is
+true, then American medical professionals have not
+only the choice to serve ethically but also the duty
+to do so if they are to truly serve humanity as they
+profess is their ethos. There is a moral imperative
+for such service in modern society. To develop this
+concept, I shall briefly review the central arguments
+of Chapters 10, 11, and 12, which may be viewed
+respectively as justifying, disallowing, and rationalizing or “operation-alizing” the ethical basis of military medicine. I will then discuss legitimate duty.
+Differing Views of the Ethical Basis of Military
+Medicine
+Chapters 10 and 11 actually consider the possibility that medical practice within the United States
+armed forces is inherently unethical. Drs. Sidel and
+Levy come to this conclusion, supporting their argument with interpretations of the manner in which
+a number of specific ethical dilemmas were resolved
+in the United States in the latter part of the 20th
+century. Drs. Madden and Carter provide a direct
+counterpoise. By exploring the inherent ethos of the
+professions of arms and medicine, they find that
+not only are the two not in inherent conflict, but
+that they are in fact very similar. Both are composed
+of healers and protectors nobly seeking to diminish human suffering. Importantly implicit in their
+argument for the inherent morality of military medical service, however, is the prerequisite of just war.
+Their argument cannot, therefore, be applied to all
+military medical officers under all circumstances.
+In Chapter 12, Dr. Howe provides an analysis and
+explication of the nuances and subtleties of mixedagency. Central to his analysis is the legitimization
+of “role-specific ethics.” With some understatement,
+though, he seems to imbue the modern American
+military medical officer with a sense of discretion
+that might be contested by senior leadership and
+policy makers. He appears to conclude that the
+moral integrity of practicing military clinicians is
+preserved because many of the expressed policies
+of the US armed forces are in fact paper tigers, not
+really expected to be followed by its doctors.
+Sidel and Levy claim a contradiction between the
+overriding ethical principles of medical practice and
+military service. Their argument in favor of ethical
+incompatibility identifies the overriding ethical
+principles of military service as “concern for the
+effective function of the fighting force” and “obedience to command structure.” In a narrow sense
+this is true, but obedience to command structure is
+more appropriately considered a logical requisite
+for military effectiveness, just as sterile technique
+is a logical requisite for safe surgical operations.
+However, it should be noted that “obedience to
+command structure” in the sense of “absolute obedience in the armed forces of the United States”
+applies only to lawful orders. “Absolute obedience”
+per se is not an overriding principle of American
+military service. On the contrary, obedience to questionable orders is more likely than not to bring an
+officer trouble, especially if such obedience conflicts
+with international law as found in the Geneva Conventions (for example, wanton destruction or
+breaching human rights of prisoners).
+The Necessity of Military Medicine
+The role of the United States military medical
+officer arises from necessity. One does not require
+a sophisticated understanding of history to acknowledge that the world is neither a naturally fair
+nor abiding place. Political power vacuums and lack
+of good government can lead to the emergence of
+ruthlessness and violence. Despite their own subsequent qualification, Sidel and Levy’s reference to
+a fantasy end to warfare promoted by broad refusal
+of the medical community to “support war efforts”
+must be criticized for its fundamental naiveté. Warfare was waged for century upon century without
+medical support of any meaningful effectiveness.
+History has shown no proclivity toward attenuation or avoidance of war on account of a belligerent’s
+lack of intrinsic medical capability.
+This is not to criticize Sidel’s, Levy’s, or any other
+physician’s work toward the abolition of war—such
+work as citizens and as members of the human family is fitting and commendable. However, the claim
+of an ethical superiority of such work from physicians as physicians must be considered suspect, as
+though any one group could claim ethical superiority. If one were to heed or value one group over
+another, why not the mothers who provide the soldiers and the victims? Or the architects who provide the buildings that are destroyed? The children
+who become parentless? The teenagers who become
+emotionally flat (ie, flat affect) or infected with hatred? Likewise, what of the ethical roles of arms
+manufacturers and their financial backers, both direct and indirect? The suffering of humanity is
+broadly painted by the brush of war; all humans
+Physician-Soldier: A Moral Dilemma?
+323
+are involved regardless of their particular societal
+skills. That the physician has a special rank or sanctified role in the important work of war prevention
+is unconvincing.
+In Chapter 10, Madden and Carter certainly recognize the necessity of military medical service.
+However, their claim that “the physician, as a citizen, has the same rights and obligations to act in
+the defense of society as does any other member of
+society,” appears to be qualified to time of war. Although they clearly defend the lifelong dedication
+to mastering the complex set of skills required by
+the professional soldier (“war simply became too
+complicated for amateurs”), they do not sufficiently
+defend medical military service during peacetime.
+Such service is justified for the same reasons, and
+its fundamental morality must therefore be emphasized. The morality of such service as an assumption of legitimate duty has been insufficiently addressed. The main reason Sidel, Levy, and others
+reach either erroneous or overly broad conclusions
+that would seem to preclude ethical military medical practice, is because they overlook or perhaps
+even reject the virtue of duty.
+The Ethical Nonparticipant: Physicians’
+Dubious Role in Preventing Warfare
+Many authors apparently cite a “special responsibility” of healthcare professionals, physicians in
+particular, to attempt to prevent injury and death.
+The organization Physicians for Social Responsibility, for example, is chartered on the principle that
+physicians should take specific actions to prevent
+nuclear war. Sidel and Levy admit, however, that
+even consummation of their fantasy of global refusal for all military medical service would still not
+likely result in the cessation of war. What condition then (because ethical behavior does require
+some sort of action or specific inaction) is more
+likely to ameliorate the harm of war: a professional
+medical corps that has been thoroughly trained regarding the dilemmas it might face and has been
+given time to reflect and prepare, or an ad hoc muster of civilian physicians haphazardly collected at
+the time of conflict? If medical ethics in general are
+to be viewed as anything beyond the vague negative
+charge to do no harm, is not the most important
+corollary that, given harm, physicians are morally
+compelled to act to minimize it? Given that destruction, killing, and moral hazards associated with
+breaching the autonomous rights of soldiers as patients are going to occur with or without intervention
+by medical officers, is it in any way moral to leave
+whatever medical work there is to be done to unprepared physicians who have no concept of military training, priority, and necessity?
+Viewed another way, assuming there is an ethical superiority among physicians who would consider nonparticipation in military medicine, how
+ethical is their withholding their service from a system so badly in their need? Given the exigency of
+war and assuming that only just wars will be fought,
+such “opting out” in favor of personal moral conscience is, at best, a shirking of legitimate duty. Indeed, if physicians as a group do have any sort of
+“special responsibility” (which is itself a debatable
+issue), and if soldiers are indeed a “disenfranchised
+group,” what ethical basis supports withholding
+care from individuals who arguably need it most?
+Whether or not military medicine can or should
+provide all aspects of the care of soldiers is a large
+issue. Certainly much of this care, especially for
+combat soldiers, must come from within the military. Can the military meet the medical needs of its
+service men and women in an ethical manner? The
+military’s medical school, the Uniformed Services
+University of the Health Sciences, Bethesda, Maryland, was among the first in the nation to institute
+a full semester course devoted to ethics. This course,
+now well over 20 years old, introduces and invites
+discussion over all aspects of medical ethics, especially those related to combat and the breaching of
+human rights. The majority of today’s military
+medical officers, however, are educated in civilian
+universities. One could argue that this majority, which
+has not had the basics of their medical or ethical training within the military, may indeed be another moral
+strength of the system. It is a strength because it ensures that the medical corps of the military reflects
+the diverse values of the society that the military
+serves. I would add that the simple existence of this
+addresses at least one lament of those who criticize
+the honorable and necessary principle of maintaining a uniformed corps of physicians.
+Areas of Concern
+Sidel and Levy of course serve the useful and
+necessary function of reflecting light onto difficult
+and important issues. They point out that many
+ethical conflicts, or “opportunities for moral hazard,” arise between the humanistic values of medicine and the operational requirements of military
+operations. The issues they raise are valid to consider, including the possibility that military medical service is fundamentally immoral. Significant
+consideration is therefore due what I consider Sidel
+Military Medical Ethics, Volume 1
+324
+and Levy’s most legitimate concerns: the ethical issues that may subtend from a military medical
+officer’s tendency toward unit identification and
+those that arise from “voluntary obligation.”
+Unit Identification
+Unit identification is the linchpin of military camaraderie and effectiveness. Such identification is
+supported by all branches of the military and appears to have increased in recent years. The Navy,
+for example, awards physicians serving with surface ships a uniform insignia device very similar to
+the one worn by line surface warfare officers after
+appropriate qualifications are met. One must attempt to distinguish between the normal, natural,
+and healthy identification an individual medical
+officer (MO) can be expected to make with other
+individuals with whom he serves, and the possibly
+dangerous (unethical, according to Sidel and Levy)
+overidentification the MO may develop toward
+these same colleagues or the actual military mission of the unit with which he serves. This must be
+admitted to be a fine distinction. Bonding with individuals with whom one goes into harm’s way and
+upon whose competencies one’s life depends may
+be expected to become strong. The MO, however,
+faces moral hazard when he too thoroughly identifies with either his “band of brothers” or the mission. Sidel and Levy’s “solution,” however, that
+physicians should avoid military service on the
+basis of this moral hazard, is not a solution at all.
+Although correctly identifying that significant
+moral hazard exists within military medical practice, they rather ironically provide an example that
+sufficiently contradicts their conclusion (that military medical service is unethical). Acknowledging
+that “[t]he field commander may not understand
+the perspective or the needs of the health professional or may not have time to evaluate the ethical
+dilemma the health professional faces,” they continue to explain that the “total institutional” nature
+of the military coupled with such an inadequate
+moral assessment by the field commander may result in limiting moral action by subordinate physicians. This is far from being a case against ethical
+military medical service. Even if military medical
+service could be found to be ethically inferior to
+some other ideal, given the grim reality that warfare occurs, the legitimate ethical demand to lessen
+harm requires that this form of service exist. The
+adequate preparation required to fulfill the ethical
+obligation of competency then requires a permanent,
+dedicated, trained, and ready military medical corps.
+Even conscripted soldiers should likely be afforded
+this same degree of respectful treatment; volunteers
+enticed to duty in modern America are arguably so
+entitled with even greater ethical validity.
+Voluntary Obligation
+The ethics of the manner in which individual
+medical officers are recruited and maintained in the
+United States military does not appear to be resolved. This is, in this author’s opinion, a symptom
+of the weak ethics upon which an all-volunteer force
+is based in the first place. Currently, almost all medical officers enter military medical service on some
+sort of scholarship that provides education for a
+delimited time of service. In fact, this is a system of
+indentured servitude because at no time may a military physician choose to “opt out” and repay the
+government in any way other than military service.
+Faced with requisite career steps for advancement
+and promotion, the notion of obedience required
+of all members of the armed forces and discussed
+by Madden and Carter (Chapter 10) cannot be overemphasized. Underappreciation of this essential of
+military service has apparently been overlooked by
+some modern officers who have clashed with their
+leadership regarding legal orders. This is not to say
+that all medical officers are ethically compelled to
+do everything they are ordered to do if, on a caseby-case basis, they feel strongly enough to oppose
+their leaders, especially during peacetime. They
+simply must be prepared to deal with the consequences, including the possibility of jail or dishonorable discharge or both. This is true, however, of
+all military officers. The “special status” ascribed
+to physicians in this capacity is specious. Of note it
+must be recognized that in wartime the “opting out”
+of a physician who is an integral part of a military
+force may significantly detract from the safety and
+well-being of that force and its fighting ability. Such
+behavior during wartime should therefore be expected to be punished severely. Attention to the
+entire matter of the “voluntary obligation” should
+be an area for further study.
+Summary
+Fundamental moral principles centered around
+the fulfillment of legitimate duty refute the main
+conclusion by Sidel and Levy that military medical
+service in the United States in 2002 is inherently
+unethical. I agree with the importance of the issues
+these authors raise, but their conclusion that the
+shunning of such duty is moral is unsound. Their
+Physician-Soldier: A Moral Dilemma?
+325
+contention that apparent conflicts are insurmountable or are, in fact, resolved unethically in modern
+America is equally unsound. This is discussed in
+detail by Dr. Howe.
+Society labels the deaths of soldiers in the endeavor of war as the supreme manifestation of duty,
+honor, and sacrifice. Warfare involves the purposeful destruction of human endeavor, natural resources, and previously healthy, often innocent,
+lives. What is important ethically is that the societal and military ethics tolerating such abhorrent
+behavior be correct and follow those of a just war
+doctrine. The notion that medical ethics may be
+somehow superior to (all) others, including just war
+doctrine, would seem to be at the heart of the problem of the legitimacy of military medicine. Overlooked by a notion of the superiority of medical ethics is the virtue of legitimate duty. If the cause is
+just and the society supports it, then some members of the society will serve as soldiers and some
+doctors will serve as medical officers. It is not a
+question of if; it is only a question of who will subject themselves to the burden of this service.
+[Dominick R. Rascona, MD, FACP, FCCP]
+REFERENCES
+1.
+Bellamy RF. Conserve the fighting strength. Mil Med. 1988;153(4):185–187.
+2.
+Letterman J. Medical Recollections of the Army of the Potomac. New York: D. Appleton; 1866: 100. Quoted by:
+Rubenstein DA. Health service support and the principles of war. Mil Med. 1988;153(3):145–146.
+3.
+Beecher HK. Research and the Individual: Human Studies. Boston: Little, Brown; 1970: 209–210.
+4.
+Swan KG, Swan KG Jr. Triage: The past revisited. Mil Med. 1996;161(8):448–452.
+5.
+Janousek JT, Jackson DE, DeLorenzo RA, Coppola M. Mass casualty triage knowledge of military medical personnel. Mil Med. 1999;164(5):332–335.
+6.
+Bordes PA, Finan JL, Hochstim JR, McFann HH, Schwartz SG. Desert Rock I: A Psychological Study of Troop Reactions to an Atomic Explosion. Washington, DC: Human Resources Research Office, George Washington University. TR-1. February 1953.
+7.
+Desert Rock IV: Reactions of an Armored Infantry Battalion to an Atomic Bomb Maneuver. Washington, DC: Human
+Resources Research Office, George Washington University. TR-2. August 1953.
+8.
+Advisory Committee on Human Radiation Experiments. Final Report. Washington, DC: GPO; 1995.
+9.
+Pechura CM, Rall DM. Veterans at Risk: The Health Effects of Mustard Gas and Lewisite. Washington, DC: National
+Academy Press; 1993.
+10.
+Annas GJ. Changing the consent rules for Desert Storm. N Engl J Med. 1992;326(11):770–773.
+11.
+Annas GJ. Protecting soldiers from friendly fire: The consent requirement for using investigational drugs and
+vaccines in combat. Am J Law Med. 1998;24(2–3):245–260.
+12.
+Howe EG, Martin ED. Treating the troops. Hastings Cent Rep. 1991;21(2):21–24.
+13.
+21 CFR Part 50—Protection of Human Subjects; Section 23—Exception From General Requirements. US Food
+and Drug Administration. 27 January 1981, as amended 21 December 1990. Available at: http://www.fda.gov/
+oc/ohrt/irbs/appendixb.html. Accessed: 7 September 2001.
+14.
+Lamiell JM, Grabenstein JD, Vander Hamm DG. Review of the 1995 Food and Drug Administration/National
+Institutes of Health public forum on informed consent in clinical research conducted in emergency circumstances. Mil Med. 1995;160(12):599–603.
+15.
+Symposium: In case of emergency: No need for consent. Hastings Cent Rep. January–February, 1997.
+16.
+Auster SL. Confidentiality in military medicine. Mil Med. 1985;150(7):341–346.
+Military Medical Ethics, Volume 1
+326
+17.
+Steinfels MO, Levin C, eds. Conference transcript: In the service of the state. The psychiatrist as double agent.
+Hastings Cent Rep. 1978;8(2, Special Supplement): 8.
+18.
+Presidential Advisory Committee on Gulf War Veterans’ Illnesses. 1997. Special Report, 31 October 1997. Available at: http://www.gwvi.ncr.gov/txreport.html #summary. Accessed 6 May 2002.
+19.
+Myers SL. 1997. US armed forces to be vaccinated against anthrax. New York Times. 16 December 1997:A1.
+20.
+Brachman PS, Gold H, Plotkin SA, et al. Field evaluation of a human anthrax vaccine. Am J Public Health.
+1962;56:632–645.
+21.
+Turnbull PCB. Anthrax vaccines: Past, present, and future. Vaccine. 1991;9:533–539.
+22.
+Ivins B, Fellows P, Pitt L, et al. Experimental anthrax vaccines: Efficacy of adjuvants combined with protective
+antigen against an aerosol Bacillus anthracis spore challenge in guinea pigs. Vaccine. 1995;13(18):1779–1784.
+23.
+United States Senate. Is Military Research Hazardous to Veterans’ Health? Lessons Spanning Half a Century. Washington, DC: US GPO; 1994.
+24.
+Ivins BE, Pitt ML, Fellows PF, et al. Comparative efficacy of experimental vaccine candidates against inhalation anthrax in rhesus macaques. Vaccine. 1998;16:1141–1148.
+25.
+Pomerantsev AF, Staritsin NA, Mockov YV, Martinin LI. Expression of cereolysine AB genes in Bacillus anthracis
+vaccine strain ensures protection against experimental hemolytic anthrax infection. Vaccine. 1997;15(17–18):1846–
+1850.
+26.
+Langmuir AD, Bregman DJ, Kurland LT, Nathanson N, Victor M. An epidemiologic and clinical evaluation of
+Guillain-Barré syndrome reported in association with the administration of swine influenza vaccines. Am J
+Epidemiol. 1984;119(6):841–879.
+27.
+Poser CM. Neurological complications of swine influenza vaccination. Acta Neurol Scand. 1982;66(4):413–431.
+28.
+Sloat B, Epstein K. Army misled troops who got vaccine in Bosnia. Plain Dealer (Cleveland, Ohio). 25 January
+1998:1A, 18A.
+29.
+Committee on Health Effects Associated with Exposures during the Gulf War. An Assessment of the Safety of the
+Anthrax Vaccine [electronic resource]: A Letter Report. Washington, DC: Institute of Medicine; 2000.
+30.
+Ginburg Y. Sailors refuse vaccine. Navy Times. 20 April 1998:3.
+31.
+Subcommittee on National Security, Veterans Affairs and International Relations, House Committee on Government Reform. The Department of Defense Anthrax Vaccine Immunization Program: Unproven Force Protection.
+Washington DC: US GPO; 17 February 2000.
+32.
+Swann SW. Euthanasia on the battlefield. Mil Med. 1987;152(11):545–549.
+33.
+Geneva Conventions of 1949. In: Human Rights Documents: Compilation of Documents Pertaining to Human Rights.
+Washington, DC: Government Printing Office, 1983.
+34.
+Vastyan EA. Warfare: I. Medicine and war. In: Reich WT, ed. Encyclopedia of Bioethics. 2nd ed. Vol. 4. New York:
+Macmillan; 1978: 1695–1699.
+35.
+US Department of the Army. Treaties Governing Land Warfare. Washington, DC: DA Pamphlet; 1956. DA PAM 27-1.
+36.
+Declaration of Geneva. World Medical Association Handbook of Declarations. Geneva: World Medical Association; 1997.
+37.
+Bourne PG. Men, Stress, and Vietnam. Boston: Little, Brown; 1970.
+Physician-Soldier: A Moral Dilemma?
+327
+38.
+Garfield RM, Neugut AI. The human consequences of war. In: Levy BS, Sidel VW. War and Public Health. New
+York: Oxford University Press; 1997: 27–38.
+39.
+Plutarch. Lives. Vol. 2. Perin B, trans. Cambridge, Mass: Harvard University Press; 1914.
+40.
+Stacey J. The cover. JAMA. 1988;260(28):448.
+41.
+US Department of the Army. The Law of Land Warfare. Washington, DC: DA; 1956. Field Manual 27-10.
+42.
+US Department of the Army. The Medal of Honor of the United States Army. Washington, DC: Government Printing Office; 1948.
+43.
+Bourne P. As cited in: Liberman R, Gold W, Sidel VW. Medical ethics and the military. New Physician. 1968;17:299–309.
+44.
+Langer E. The court-martial of Captain Levy: Medical ethics v. military law. Science. 1967;56:1346, 1349.
+45.
+Glasser I. Judgment at Fort Jackson: The court-martial of Captain Howard B. Levy. Law Transition Q. 1967;4:123–156.
+46.
+Rosebury T. Medical ethics and biological warfare. Perspect Biol Med. 1963;6:312–323.
+47.
+Sidel VW. Biological weapons research and physicians: Historical and ethical analysis. PSR Q. 1991;1:31–42.
+48.
+Cilasun U. Torture and the participation of doctors. J Med Ethics. 1991;17(suppl):21–22. Cited in Moskop JC. A
+moral analysis of military medicine. Mil Med. 1998;163(2):76–79.
+49.
+Bloche MG. Uruguay’s military physicians: Cogs in a system of state terror. JAMA. 1986;225(20):2788–2793.
+50.
+Goffman E. Asylums: Essays on the Social Situation of Mental Patients and Other Inmates. New York: Doubleday, 1961.
+51.
+Greenberg J. Protesting tactics in West Bank, Israeli reservists refuse to serve. New York Times. 2 February 2002. A1.
+52.
+Vest J. Village Voice. March 16, 1999; 44(10): 55–59.
+53.
+Walzer M. Just and Unjust Wars: A Moral Argument With Historical Illustrations. New York: Basic Books; 1977.
+54.
+Seabury P, Codevilla A. War: Ends and Means. New York: Basic Books; 1989.
+55.
+US Department of the Army. Conscientious Objection. Washington, DC: DA; 15 May 1998. Army Regulation 600-43.
+56.
+Blaustein M, Proctor WC. The active duty conscientious objector: A psychiatric-psychological evaluation. Mil
+Med. 1977:142(8):619–621.
+57.
+Personal statement of Yolanda Huet-Vaughn, MD (a copy of which she gave to Victor Sidel, MD), that she read
+aloud at her court-martial. January 1991.
+58.
+International Court of Justice Communiqué No. 96/3. July 8, 1996. The Hague, Netherlands.
+59.
+Convention on the Prohibition of the Development, Production, Stockpiling and Use of Chemical Weapons
+and on their Destruction (CWC). Available at: http://www.opcw.org. Accessed 28 January 2002.
+60.
+Federation of American Scientists. Available at: http://www.fas.org. Accessed 13 December 2001.
+61.
+Organisation for the Prohibition of Chemical Weapons. Available at: http://www.opcw.org. Accessed 13 December 2001.
+62.
+Sidel VW. Quid est amor patriae? PSR Q. 1991;1:96–104.
+Military Medical Ethics, Volume 1
+328
+63.
+Geiger HJ. Conscience and obligation: Physicians and just war. PSR Q. 1991;1:113–116.
+64.
+Wakin MM. Wanted: Moral virtues in the military. Hastings Cent Rep. 1985;15(5):25–26.
+65.
+Moskop JC. A moral analysis of military medicine. Mil Med. 1998;163(2):76–79.
+66.
+Pellegrino ED. Societal duty and moral complicity: The physician’s dilemma of divided loyalty. Int J Law Psychiatry. 1993;6:371–391.
+67.
+Iacopino V, Heisler M, Pishevar S, Kirschner RH. Physician complicity in misrepresentation and omission of
+evidence of torture in postdetention medical examinations in Turkey. JAMA. 1996;276(5):396–402.
+68.
+British Medical Association. Medicine Betrayed: The Participation of Doctors in Human Rights Abuses. London: Zed
+Books; 1992.
+69.
+Amnesty International. Prescription for Change: Health Professionals and the Exposure of Human Rights Violations.
+London: Amnesty International; 1996.
+70.
+Westermeyer J. Compromise, complicity, and torture [editorial]. JAMA. 1996;276(5):416–417.
+71.
+Farrar JT. Medicine needs a code of ethics. Mil Med. 1986;151(2):130.
+72.
+Carter JH. Military race relations: The responsibility of mental health professionals. Mil Med. 1978;143(11):779–781.
+73.
+Platoni KT. The quest for ethical leadership in military medicine. Mil Med. 1994;159(2):169–171.
+74.
+Ryle JA. Foreword. In: Joules E, ed. The Doctor’s View of War. London: George Allen & Unwin Ltd; 1938: 7–10.
+75.
+Liberman R, Gold W, Sidel VW. Medical ethics and the military. N Physician. 1968;17:299–309.
+76.
+Lown B. Nobel Peace Prize lecture: A prescription for hope. N Engl J Med. 1986;314(15):985–987.
+77.
+Levy BS, Sidel VW. Preventing war and its health consequences: Roles of public health professionals. In: Levy
+BS, Sidel VW, eds. War and Public Health. New York: Oxford University Press; 1997: 388–393.
+78.
+Engelhardt HT. Fear of flying: The psychiatrist’s role in war. Hastings Cent Rep. 1976;6:21.
+79.
+Veatch RM. The psychiatrist’s role in war. In: Case Studies in Medical Ethics. Cambridge, Mass: Harvard University Press; 1977: 245–251.
+80.
+Hopkins JET, Stelling HG, Voorhees TS. The marauders and the microbes: A record of righteous indignation.
+In: Stone JH, ed. Crisis Fleeting. Washington, DC: Office of The Surgeon General, US Department of the Army;1969:
+293–396.
+81.
+Koehler RH, Smith RS, Bacaner T. Triage of American combat casualties: The need for change. Mil Med.
+1994;159(8):541–547.
+82.
+Howe EG, Martin E. The use of investigational drugs without obtaining servicepersons’ consent in the Persian
+Gulf. Hastings Cent Rep. 1991;21:21–24.
+83.
+Nass M. Anthrax vaccine. Model of a response to the biological warfare threat. Infect Dis Clin North Am.
+1999;13(1):187–208.
+84.
+Lane HC, Fauci AS. Bioterrorism on the home front a new challenge for American medicine. JAMA.
+2001;286:2595–2597.
+85.
+Daniels AK. In the service of the state: The psychiatrist as double agent. Hastings Cent Rep. 1978;8(special
+suppl):3–6.
+Physician-Soldier: A Moral Dilemma?
+329
+86.
+Howe EG. Confidentiality in the military. Behav Sci Law. 1989;7(3):317–337.
+87.
+Centers for Disease Control and Prevention. Surveillance for adverse events associated with anthrax vaccination—US Department of Defense, 1998–2000. JAMA. 2000;283:2648–2649.
+88.
+Gerardi SM. The management of battle-fatigued soldiers: an occupational therapy model. Mil Med.
+1996;161(8):483–488.
+89.
+Hazen S, Llewellyn C. Battle fatigue identification and management for military medical students. Mil Med.
+1991;156(6):263–267.
+90.
+Carter BS. Ethical concerns for physicians deployed to Operation Desert Storm. Mil Med. 1994;159(1):55–59.
+91.
+Parks WH. Memorandum for the Surgeon General, Article 10, 1977. Protocols Additional to the Geneva Convention/August 12, 1949:21 July 1983.
+92.
+Agora. The US decision not to ratify protocol I to the Geneva Convention on the protection of war victims. Am
+J Intl Law. 1988;82:784–787.
+93.
+Vastyan EA. Warriors in white: Some questions about the nature and mission of military medicine. Texas Rep
+Biol Med. 1974;32:327–342.
+94.
+Neel S. The medical role in army stability operations. Mil Med. 1967;67:605.
+95.
+Allodi F, Cowgill G. Ethical and psychiatric aspects of torture: A Canadian study. Can J Psychiatry. 1982;27(2):98–102.
+96.
+Drinan RF. The Mobilization of Shame. New Haven, Conn: Yale University Press; 2001: 98.
+97.
+Graessner S, Gurris N, Pross C, eds. Riemer JM, trans. At the Side of Torture Survivors. Baltimore, Md: The Johns
+Hopkins University Press; 2001.
+98.
+Livingston GS. Medicine and the military. In: Visscher MB, ed. Humanitarian Perspectives in Medical Ethics. Buffalo, NY: Prometheus Books; 1972: 268.
+99.
+Livingston GS. Letter from a Vietnam veteran. Saturday Review. 1969;(September 20):22–23.
+100.
+Nightingale EO, Stover E. A question of conscience. Physicians in defense of human rights. JAMA.
+1986;255(20):2794–2797.
+101.
+Cohen C. Conscientious objection. Ethics. 1968;78:269–279.
+102.
+Linn R. Moral judgment in extreme social contexts: soldiers who refuse to fight and physicians who strike. J
+Appl Soc Psychol. 1988;1149–1170.
+103.
+Bowles CS. Report of Charles SP Bowles, Foreign Agent of the United States Sanitary Commission Upon the
+International Congress of Geneva. London: R. Clay, Son & Taylor; 1864.
+104.
+Longmore T. On the Geneva convention of 1864, in relation to the aid afforded by volunteer societies to sick
+and wounded soldiers during the late Franco-German war…1866. Surg Gen Cat. 1866;1(16):1–21.
+105.
+Hayden DL. Should there be a psychotherapist privilege in military court-martials. Mil Law Rev. 1989;123:31–107.
+Military Medical Ethics, Volume 1
+330

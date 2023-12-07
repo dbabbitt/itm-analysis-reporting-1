@@ -1,0 +1,537 @@
+193
+Combined Health Services Support Operations
+Chapter 13
+COMBINED HEALTH SERVICES 
+SUPPORT OPERATIONS
+MARTIN C. BRICKNELL, MD, PhD*
+INTRODUCTION
+WHY COALITIONS OR ALLIANCES?
+HISTORICAL EXAMPLES OF MILITARY MEDICAL COLLABORATION
+PRINCIPLES OF MULTINATIONAL MEDICAL SUPPORT
+MULTINATIONAL INTEGRATED MEDICAL UNITS
+INDIGENOUS FORCES AS PART OF A COALITION
+KEYS TO SUCCESS IN MULTINATIONAL MEDICAL COLLABORATION
+CONCLUSION
+*Lieutenant General, Surgeon General, Headquarters Joint Medical Group, Coltman House, Defence Medical Services (Whittington), Tamworth Road, 
+Lichfield, Staffordshire; Professor of Conflict and Health, Conflict and Health Research Group, King’s Centre for Global Health, Kings College, London, 
+United Kingdom
+194
+Fundamentals of Military Medicine 
+INTRODUCTION
+Future military operations are likely to be conducted in a combined, joint, interagency, or multinational 
+(CJIM) environment. This chapter examines the opportunities and challenges associated with partnering 
+in a CJIM environment to deliver the military medical 
+mission. The chapter opens by considering the strategic purpose of coalitions or alliances and how they 
+enhance efficiency and effectiveness in health service 
+support. The chapter then examines the principles of 
+multinational medical support and the compromises 
+nations must accept if this type of operation is to be 
+successful. The United States and the United Kingdom 
+(UK) have participated in multinational integrated 
+medical units (MIMUs) over the past 2 decades, and 
+lessons learned in these operations will be highlighted in the MIMU section. It is vital to consider 
+efforts in working and partnering with the medical 
+services of indigenous security forces as part of 
+the CJIM environment, which will be introduced 
+in the section on indigenous forces. Health sector 
+capacity building, however, is too big a subject to 
+cover fully here. This chapter will focus on generic 
+organizational learning; readers should consult 
+higher command authorities and legal staff before 
+entering into formal relationships with other nation’s medical services. 
+WHY COALITIONS OR ALLIANCES?
+The international order is defined by the existence 
+of sovereign states with unitary authority within their 
+geographical boundaries. Relationships between sovereign states are determined by international law and 
+states’ obligations within the alliances and agreements 
+they have made in the global arena. It is extremely 
+unlikely that any future conflict will be characterized by a single sovereign nation from the developed 
+world entering a conflict with another single nation. 
+Most developed nations’ security strategies1,2 are underpinned by the treaties and alliances that govern 
+the balance of power among nations. For the United 
+States and the UK, the two primary alliances are the 
+United Nations (UN) and the North Atlantic Treaty 
+Organization (NATO). However, there are many other 
+alliances, often based on regional or technical security 
+cooperation requirements. The ABCA Armies program 
+(United States, Great Britain, Canada, Australia, and 
+New Zealand) was set up in 1947 to optimize interoperability, training, and equipment among the Englishspeaking armies that fought together in World War II. 
+Similar arrangements are in place for other services: 
+the Air and Space Interoperability Council for air 
+forces, AUSCANNZUKUS for navies, and Five Eyes 
+for intelligence. 
+Nations are highly likely to seek international 
+partners when they plan to use military force as an 
+instrument of national power. Thus, nations invest 
+a considerable amount of time and resources in 
+building relationships with their allies to achieve the 
+maximum effectiveness of collaborative action during combat. This enables the mobilization of political 
+opinion, the summative action of military force, and 
+sharing of costs (money and casualties) so that the 
+cumulative effect in mobilizing power against an 
+adversary is synergistic. 
+Effective coalition or alliance collaboration is especially important and effective in military medicine, 
+for the care of military casualties is not dependent on 
+unique differences determined by political boundaries, and most nations have difficulty mobilizing 
+the medical staffing and resources to manage their 
+casualty flow independently. Between nations within 
+long-standing alliances, medical collaboration is 
+likely to focus on interoperability so that both nations can care for casualties of the other nationality, 
+and each can have complete confidence in the other’s 
+competence. These goals are most critical when the 
+total deployment of medical services can be reduced 
+by burden sharing between nations. In areas where 
+developed-world military forces are attempting to 
+have a stabilizing effect, it is likely there will be a 
+medical capability-building requirement. Exhibit 13-1 
+lists examples of current military medical alliances 
+and organizations.
+In addition to collaboration on the organizational 
+design of the medical support system, it is also important to consider the value of clinical information 
+exchange between nations. This includes conventional 
+mechanisms of knowledge exchange such as clinical 
+conferences and publication of results of clinical research. Some alliances have more structured mechanisms such as standardization agreements for clinical 
+practice, clinical equipment, and information exchange 
+between nations. Therefore, it is essential that military 
+medical personnel have the organizational and interpersonal skills to be effective in working with medical 
+personnel from other nations and cultures as part of 
+their contribution to effective coalition and alliance 
+operations.
+195
+Combined Health Services Support Operations
+EXHIBIT 13-1
+CURRENT MILITARY MEDICAL ALLIANCES AND ORGANIZATIONS
+International Committee of Military Medicine. Purpose is to maintain and strengthen the bonds of 
+professional collaboration between members of the armed forces medical services of all states. 
+http://www.cimm-icmm.org/index_en.php 
+North Atlantic Treaty Organization Committee of the Chiefs of Military Medical Services. The senior 
+committee for medical care within NATO. Acts as the central point for the development and coordination of military medical matters and for providing medical advice to the NATO Military Committee. 
+http://www.coemed.org/comeds 
+Confédération Interalliée des Officiers Médicaux de Réserve (Interallied Confederation of Medical Reserve Officers). To contribute positively to the organization and readiness of the military health 
+services of NATO member nations, thereby enhancing their effective function both nationally and 
+internationally. Further, to promote in every possible way the standardization and interoperability of 
+those medical services during peace or war. 
+http://www.ciomr.org/ 
+Asia-Pacific Military Health Exchange. Annual conference for military healthcare professionals from 
+across the Indo-Asia-Pacific region to discuss health topics affecting the region and to collaborate on 
+issues such as disaster response, medical readiness, and improvements in the delivery of healthcare. 
+https://community.apan.org/conf/apmhe/ 
+American British and Canadian Australian Armies (ABCA) Quadripartite Working Group on Health
+Service Support. Working group of health service support representatives of participating armies; 
+principal activity involves the progression of standardization tasks on health service support issues 
+identified and prioritized by armies.
+HISTORICAL EXAMPLES OF MILITARY MEDICAL COLLABORATION
+Almost all military operations of the 20th and 
+early 21st century have been based on coalitions or 
+alliances. This short section will highlight some key 
+observations about the breadth of issues addressed 
+as part of combined medical planning. The military 
+medical histories of both World War I and World War 
+II contain descriptions of the inter-allied coordination 
+mechanisms for medical care of each nation’s casualties. This was especially important on the western 
+front in both wars to ensure both effective dispersion 
+of military casualties in the United Kingdom as the 
+strategic base for the British Armed Forces, and the 
+strategic embarkation of North American casualties 
+(US and Canadian) prior to the long sea journey back 
+to their home nation.
+After World War II, conflict shifted to Asia. Japan 
+became an important strategic hub for allied casualties 
+during the Korean War. The conflict in Vietnam introduced the complexity of medical capacity-building for 
+indigenous security forces and the consideration of 
+using military medicine to help care for civilian casualties of the conflict. In Western Europe during the Cold 
+War, NATO developed sophisticated mechanisms for 
+coordinating the medical evacuation system as part of 
+military planning to counter the threat of invasion by 
+Warsaw Pact forces from the east. Figure 13-1 shows 
+a comparison of command arrangements published in 
+the 1986 NATO Interoperability Handbook.
+The campaign to liberate Kuwait was the biggest 
+military operation of the late 20th century. In addition 
+to the UK and United States, New Zealand, Norway, 
+Romania, Singapore, and Sweden contributed medical units to the coalition. These units were integrated 
+into the medical plan and contributed particularly to 
+the medical treatment of enemy prisoners of war. 3–5
+International peacekeeping efforts in the Balkans 
+during the 1990s were initially conducted under UN 
+command but shifted to NATO control after the Dayton 
+196
+Fundamentals of Military Medicine 
+Figure 13-1. Comparison of NATO medical command arrangements. 
+Reproduced from: NATO Interoperability Handbook. London, UK: British Army; 1986: Figure 4-1. Army Code No. 71376, February 1986. 
+Peace Accord. NATO also acted as the alliance mechanism to command military operations in Kosovo. 
+NATO provided the forum for coordinating medical 
+support arrangements, including coordination with 
+indigenous health systems and international agencies. 6 
+This included the development of MIMUs in Sipovo, 
+Bosnia and Camp Bondsteel in Kosovo. 7 
+The initial phase of Operation Iraqi Freedom, the 
+invasion of Iraq, was a bilateral operation involving 
+the UK and United States. The number of coalition 
+troops from contributing nations varied during the 
+subsequent counter-insurgency campaign. However, 
+the United States provided the leadership framework 
+for the organization of medical support across the 
+theater of operations, including the medical capability 
+program for Iraqi security forces.
+In Afghanistan, NATO and the United States operated alongside each other until it became a unified 
+theater command during 2006 under the UN-mandated 
+International Stabilisation Afghanistan Force (ISAF). 
+Medical support was coordinated at the strategic level 
+by the Allied Command Operations Headquarters in 
+Mons, Belgium. Operational coordination was achieved 
+through multinational medical steering groups for each 
+ISAF region and organized by the NATO Joint Force 
+Command at Brunssum. The medical director and joint 
+medical staff branch at ISAF headquarters in Kabul 
+directed in-theater medical support. 8
+The same type of coordination occurred in the 
+clinical domain. In the First World War, lessons from 
+the medical treatment of casualties were shared at 
+a series of inter-allied medical conferences in 1917, 
+and common clinical treatments were published in 
+a series of collaborative books. 9 During World War 
+II, the UK and United States actively coordinated in 
+medical research. The most prominent example of this 
+collaboration was the introduction of penicillin as the 
+first true antibiotic. 10 This collaboration is currently 
+maintained through a broad series of NATO medical 
+working groups that produce NATO standardization 
+agreements. The research community collaborates 
+through health and medical research groups within 
+197
+Combined Health Services Support Operations
+the NATO Technical Co-operation Council Programme. The shared experience of combat casualty 
+care between the United States and UK in Iraq and 
+Afghanistan has led to fully transparent information 
+exchange between both nations’ joint theater trauma 
+registries.
+PRINCIPLES OF MULTINATIONAL MEDICAL SUPPORT
+Coalitions or alliances exist to increase the collective effort of nations to achieve their aims. The nations 
+involved agree to delegate authority to coalition/alliance commanders for defined purposes and tasks. 
+However, nations are likely to retain a sovereign veto 
+over activities conducted by their forces, including 
+rules of engagement and risk. Thus, nations are likely 
+to nominate a “national contingent commander” who 
+executes this authority within the coalition. Nations 
+retain responsibility for the provision and quality of 
+medical support to their forces even if they have delegated the arrangements for delivery of this medical 
+support to a coalition or other nation. 11
+Multinational medical support aims to provide 
+a solution to the challenges of providing medical 
+support to the CJIM operating environment through 
+collaborative planning, coordinated deployment, and 
+mutually agreed employment of the medical force. 
+This has the potential to provide greater efficiency in 
+the use of medical resources by reducing duplication, 
+and to promote greater effectiveness by making niche 
+specialist national capabilities available to the whole 
+entitled population at risk.
+Multinational medical support is underpinned by 
+formal processes and procedures agreed upon by all 
+nations. NATO has the most sophisticated hierarchy 
+of such agreements, which are formally published 
+as standardization agreements. These agreements 
+are intended to be binding on alliance nations, so 
+medical personnel employed on NATO operations 
+must be familiar with these documents in addition 
+to national medical policies and procedures. ABCA 
+bases its standardization on NATO documentation 
+and has published its own Coalition Health Interoperability Handbook as high-level guidance. 12 The UN 
+also has specific guidance for the medical support 
+arrangements and standards for its peacekeeping 
+operations. 13
+Nations may contribute to multinational medical 
+support in one of four ways14:
+ 
+• Coexistence. Medical capabilities exist concurrently at the same time and in the same place 
+in the military operation. Even at this low 
+level of interaction, it is important to have an 
+agreed-on means of communication between 
+medical units. This situation may occur because the variation in capability, language, 
+and clinical practice is so great that it is not 
+practical for military patients to be shared 
+between facilities. 
+ 
+• Cooperation. Specific arrangements have 
+been made to allow exchange of information 
+between national medical facilities. Also, 
+national contingent commanders may make 
+their medical facilities available to patients 
+from other nations.
+ 
+• Coordination. In these circumstances, national medical facilities have been formally 
+declared as part of the multinational force and 
+therefore the medical staff in the coalition/alliance command chain have specific authority 
+over national medical facilities. This might 
+include the authority to direct the admission 
+of patients to the facility or to move the facility in accordance with the coalition/alliance 
+commander’s plan.
+ 
+• Integration. Nations may agree to combine 
+medical resources into an integrated medical force such that all medical capability of 
+the force is under a unified command. This 
+might be at a task-force level, whereby nations contribute discrete medical forces (eg, an 
+ambulance troop from one nation and medical detachments from other nations under a 
+single command headquarters); or it might 
+be at the level of a MIMU, in which personnel 
+from more than one nation are employed in a 
+single unit.
+The coalition/alliance command system must 
+include a medical staff branch with sufficient medical staff to provide medical advice to the planning 
+process, to coordinate medical operations and 
+evacuation, to collate medical reports, and to provide 
+technical guidance to the military force. The command surgeon/medical director (there is a difference 
+between US and NATO terminology for the same role) 
+must establish the extent of his or her authority over 
+each medical unit in theater. It is likely that Role 1 
+(immediate medical support to battalion or smaller 
+elements) will be a national responsibility, and Role 
+2 and 3 (deployed hospital care) may have a stronger 
+command relationship to the coalition headquarters. 
+Figure 13-2 shows a combined, joint medical evacuation rehearsal of concept drill in Afghanistan.
+198
+Fundamentals of Military Medicine 
+MULTINATIONAL INTEGRATED MEDICAL UNITS
+the UK experience is that the senior clinician (the deployed medical director in UK terminology or deputy 
+commander for clinical services in US Army terminology) has a pivotal role in establishing a collaborative 
+professional forum among the senior clinical staff from 
+each nation. 15 The MMMSG must determine if national 
+personnel are employed as discrete clinical teams or 
+if the clinical teams are to be multinational. The UK 
+experience suggests that it is better to create a single 
+identity for the MIMU by mixing all personnel rather 
+than to risk nations forming national clinical cliques. It 
+is likely that a nation will volunteer to act as lead nation 
+and take responsibility for overall tactical organization 
+of the MIMU. Lead nation responsibility may include 
+coordination of predeployment training, provision of 
+medical equipment, confirmation of credentialing, and 
+development of clinical protocols and procedures. 
+At a minimum, all nations will need to establish a 
+national contingent commander and a national patient 
+liaison officer. It is the UK experience that it is preferable to conduct organizational and clinical training for 
+the whole contingent before deployment if possible. 
+This allows the contingent to get to know each other, to 
+establish professional relationships, and to identify any 
+variations in clinical practice or professional duties that 
+require clarification to ensure effective teamwork. At 
+a personal level, it is vital to recognize the importance 
+of flexibility and open-mindedness when assigned to 
+a multinational medical unit or as part of a coalition 
+medical force. Everyone is the product of their own 
+national culture, but there is not necessarily a single 
+right way to approach clinical care for patients. 
+Some countries have clearly prescribed clinical 
+practice guidelines for the clinical management of 
+defined conditions (Joint Theater Trauma System 
+Clinical Practice Guidelines in the United States 
+and Clinical Guidelines for Operations in the UK). 
+Wherever possible, clinical leaders should negotiate 
+an agreement that clarifies which national guidelines 
+are the authoritative reference for clinical practice in 
+a MIMU. Additionally, there is likely to be variation 
+in the employment of clinical specialists, particularly 
+nurses. For example, the US employs certified registered nurse anesthetists and physician assistants to 
+undertake duties that are the prerogative of registered 
+medical practitioners in many countries. These differences will need to be identified and agreement 
+reached on the scope of practice for these clinicians 
+within the clinical team. 
+Additional variations and issues will need consideration. Trade names for drugs vary among nations, 
+so it is essential that international non-proprietary 
+Because human physiology and pathophysiology 
+are the same regardless of nationality or ethnic background, casualties can receive medical care independent of the national provider. Military medical units 
+may be formed with contributions from more than one 
+nation as MIMUs. These have successfully delivered 
+coalition medical support in many operations, particularly in Afghanistan. In Kandahar, the NATO Role 3 
+facility was successively led by Canada and then the 
+United States, incorporating medical personnel from 
+Canada, the United States, the UK, Australia, Holland, 
+and other countries, from all three service branches of 
+each nation. In Helmand, the UK led the Camp Bastion 
+Role 3 facility, incorporating personnel from the UK, 
+United States, Denmark, Estonia, and other nations.
+Successful operation of a MIMU is dependent on 
+effective leadership and staff coordination from the 
+defense ministry or department down to functional 
+level within the unit itself. The NATO experience has 
+demonstrated the value of a multinational medical 
+management steering group (MMMSG), chaired by 
+the coalition strategic headquarters and attended by 
+representatives from each nation and the in-theater 
+command chain. The MMMSG owns the formal technical agreement that binds each nation to the MIMU and 
+supervises the detailed coordination of the capability 
+requirement, the joint manning document and credentialing arrangements, the financial arrangements, the 
+force generation and rotation arrangements, and the 
+dispute settling mechanism.
+The MMMSG will establish the command arrangements and the contribution of personnel by each nation. 
+In addition to the key role of the commanding officer, 
+Figure 13-2. Combined, joint medical evacuation rehearsal of concept drill, Regional Command South, Kandahar, Afghanistan 2009.
+199
+Combined Health Services Support Operations
+names be used for all prescriptions. International 
+variation in testing and accountability for blood 
+products is likely to require the administration of 
+national blood products to casualties from specific 
+nations if the national blood supply systems can 
+support it (otherwise specific dispensations may be 
+required). Finally, it will be necessary to establish a 
+mechanism for mediation of differences of practice 
+between clinicians in order to ensure that variations 
+in individual clinical practice do not undermine 
+confidence in the multinational medical system. The 
+command team should set up internal team meetings 
+to ensure effective collaboration and accommodate 
+national sensitivities.
+INDIGENOUS SECURITY FORCES AS PART OF A COALITION
+As stated earlier, it is highly likely that local or 
+indigenous security forces will be part of a coalition 
+operation. The mission may involve capacity-building 
+with these forces, including supporting the development of their medical capabilities. Security operations 
+will likely be conducted with indigenous security 
+forces alongside international coalition forces. This 
+type of coalition medical activity is very different 
+from working with established Western partnerships. 
+The international coalition may allow indigenous 
+casualties to be treated by coalition medical units in 
+an emergency, but it is highly unlikely that the local 
+medical capability will be sufficiently competent to 
+treat international casualties. Therefore, it will be 
+necessary to establish collaboration and coordination mechanisms that include the medical services of 
+indigenous security forces. This collaboration can be 
+divided into two types: medical planning and medical 
+capability development.
+The principles of planning for medical arrangements for indigenous security force casualties are no 
+different from those that apply to international coalition forces. A clinical pathway from point of injury to 
+rehabilitation is required, including coordination for 
+medical evacuation from the field and transfer from 
+coalition facilities to indigenous facilities. It is possible 
+that the local medical system is different for the army 
+and police, so arrangements for casualties from these 
+services may vary. Coalition medical staff will need 
+to consider the ethical issues associated with handing over indigenous casualties to medical facilities 
+with lower capabilities and the possibility of worse 
+patient outcomes. This is a matter partially controlled 
+by International Law, Protocol 1, 1977, of the Geneva 
+Convention (see Chapter 6, The Law of Armed Conflict 
+and Military Medicine), as well as by rules of engagement issued by higher headquarters. 
+It is imperative that medical officers become aware 
+of these rules prior to taking up their duties, as well as 
+knowing how to obtain exceptions to them (see the discussion of rules of engagement and ethically driven exceptions in Chapter 5, Military Law and Ethics). There 
+may be value in establishing a formal framework for 
+analyzing ethical issues such as the “four-quadrant” 
+approach (medical implications, patient preferences, 
+quality of life, contextual factors) so that the clinical 
+team has an agreed-upon methodology for examining 
+these issues. 16 Figure 13-3 shows a coalition medical 
+planning meeting in Kandahar in 2010 attended by 
+representatives from the UK, United States, Canada, 
+Afghan army, Afghan public health department, and 
+the US Agency for International Development.
+The subject of indigenous medical capability development for partner security forces is too great to 
+cover fully within this chapter. However, a number 
+of key issues should be considered within the subject 
+of coalition/multinational medical support. Medical 
+capability development must be underpinned by a 
+strategic analysis of the requirement and subsequent 
+plan that includes an assessment of the resources 
+needed to achieve the desired outcomes. Ideally this 
+would be agreed upon by the coalition and include the 
+assignment of international medical forces to the tasks. 
+This plan should cover all of the DOTMLPF (doctrine, 
+organization, training, materiel, leadership, personnel, facilities) domains of a capability solution. Local 
+partners should also agree to the plan, which should 
+be sensitive to local cultural and clinical practices.
+KEYS TO SUCCESS IN MULTINATIONAL MEDICAL COLLABORATION
+The foundations for success are based on the cultural alignment of the collaborating nations. Medical 
+support is underpinned by the provisions of international humanitarian law and the Geneva Conventions, 
+which dictate the ethical behavior of medical personnel 
+during conflict. Medical support should be based on 
+collaborative planning that provides for all casualties 
+of conflict, including international coalition troops, 
+indigenous security forces, civilians, and enemy 
+combatants. The role of medical organizations and 
+personnel in this effort will be determined by coalition 
+agreements and national limitations. The coalition 
+medical leadership team will need to understand these 
+agreements and limitations by seeking information 
+200
+Fundamentals of Military Medicine 
+through formal and informal channels. 
+All members of the coalition medical leadership 
+team need to understand their own and partner nations’ doctrine and clinical practice, including anything 
+covered by international agreements. 17 This requires 
+a significant amount of predeployment preparation. 
+The team will need to invest in developing personal 
+relationships, which requires a substantial amount of 
+time out of the office visiting coalition medical facilities 
+and units. All personnel need to be sensitive to differences in national culture, even if speaking a common 
+language. In the end, leadership success is based on 
+appealing to a sense of collective commitment to caring 
+for patients that transcends national politics.
+CONCLUSION
+Coalitions and alliances are the most likely frameworks for future military operations. These are built 
+from continuous exchange and dialogue among 
+personnel from all the nations involved. It is vital to 
+commit time and resources to enable the development 
+of personal relationships among the multinational 
+personnel, which provide the foundations for success. 
+These relationships range from formal senior-level 
+talks, through information sharing at conferences, 
+practicing interoperability in military exercises, and 
+down to individuals attending education courses 
+in each participating nation. The medical services 
+are ideally positioned to be exemplars in this field 
+because of a strong focus on patients, a culture of 
+knowledge sharing, and having few political or security constraints.
+REFERENCES
+ 
+1. US Department of Defense. Quadrennial Defence Review 2014. Washington, DC: DoD; 2014. http://archive.defense.gov/
+pubs/2014_Quadrennial_Defense_Review.pdf. Accessed June 30, 2017.
+ 
+2. National Security Strategy and Strategic Defence and Security Review 2015. London, England; HMSO; 2015. CM9161. https://
+www.gov.uk/government/uploads/system/uploads/attachment_data/file/555607/2015_Strategic_Defence_and_Secu 
+rity_Review.pdf. Accessed June 30, 2017.
+ 
+3. Dauphinee WE. Stretching the Resources: Medical Support for Canada’s Military Commitment to the Gulf War. http://history.
+amedd.army.mil/booksdocs/AMEDDinODS/AMEDDODS1Dauphinee.pdf. Accessed June 30, 2017.
+ 
+4. Bricknell MCM. The evolution of casualty evacuation in the British Army in the 20th century (Part 3) – 1945 to present. 
+J R Army Med Corps. 2003;149:85–95. doi:10. 1136/jramc-149-01-20.
+ 
+5. Leitch RA. The impact of enemy prisoners of war on medical planning—lessons from Operation Desert Storm. J US 
+Army Med Dep. 1994;Jan-Feb:19–22. http://history.amedd.army.mil/booksdocs/AMEDDinODS/AMEDDODSADSLeitch.
+pdf. Accessed June 30, 2017.
+ 
+6. Thornton R, Cordell RF, Edmonds KE. Humanitarian aid operations in Republica Srpska during Operation Resolute 
+2. J R Army Med Corps. 1997;143:141–145. doi:10. 1136/jramc-143-03-02.
+ 
+7. Jenkins I. The changing world of military health care. J R Army Med Corps. 2004;150:234–238. doi:10. 1136/jramc-150-04-02.
+ 
+8. Bricknell MCM. Reflections on medical aspects of ISAF IX in Afghanistan. J R Army Med Corps. 2007;153:44–51. 
+doi:10. 1136/jramc-153-01-11.
+ 
+9. General Principles Guiding the Treatment of Wounds of War: Conclusions Adopted by the Inter-Allied Surgical Conference Held 
+in Paris, March and May, 1917. London, England: HMSO; 1917.
+Figure 13-3. Medical planning for Operation Hamkari, Kandahar, 
+Afghanistan, 2010. UK, US, Canadian, Afghan army, and Afghan 
+public health representatives are collaborating.
+201
+Combined Health Services Support Operations
+ 10. MacNalty AS, ed. Medical Services in War. The Principal Medical Lessons of the Second World War. London, England: 
+HMSO; 1968.
+ 11. UK Ministry of Defence. Foundations of medical support. In: Allied Joint Medical Support Doctrine. London, England; 
+Ministry of Defence; 2015: Chap 1. AJP 4. 10 (B).
+ 12. Coalition Health Interoperability Handbook. 2nd ed. Ft Sam Houston, TX: Army Medical Department Center and School; 
+2009. Quadripartite Advisory Publication 82.
+ 13. United Nations. Medical Support Manual for United Nations Field Missions. 3rd ed. New York, NY: UN; 2015. http://dag.
+un.org/handle/11176/387299?show=full. Accessed June 30, 2017. 
+ 14. UK Ministry of Defence. Multinationality and medical support structures. In: Allied Joint Medical Support Doctrine. 
+London, England; Ministry of Defence; 2015: Chap 10. AJP 4. 10 (B). 
+ 15. Mahoney PF, Hodgetts TJ, Hicks I. The deployed medical director. J R Army Med Corps. 2011;157(3 Suppl 1):S350–S356.
+ 16. Bernthal EMM, Russell RJ, Draper HJA. A qualitative study of the use of the four quadrant approach to assist ethical 
+decision-making during deployment. J R Army Med Corps. 2014;160:196–202. doi:10. 1136/jramc-2013-000214.
+ 17. Cordell RF. Multinational medical support to operations: challenges, benefits and recommendations for the future. J 
+R Army Med Corps. 2012;158:22–28. doi:10. 1136/jramc-158-01-06.
+202
+Fundamentals of Military Medicine 

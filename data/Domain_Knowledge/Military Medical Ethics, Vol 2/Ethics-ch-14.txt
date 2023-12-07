@@ -1,0 +1,1867 @@
+Nazi Medical Ethics: Ordinary Doctors?
+403
+Chapter 14
+NAZI MEDICAL ETHICS: ORDINARY
+DOCTORS?
+ROBERT N. PROCTOR, PHD*
+INTRODUCTION
+SETTING THE STAGE: PHYSICIANS AND THE RACIAL HYGIENE MOVEMENT
+Emergence of Social Darwinism
+Increasing Anti-Semitism and Evolving Biological Determinism
+Formation of the National Socialist Physicians’ League
+Racial Hygiene in the German Medical Community
+NAZI IMPLEMENTATION OF MEDICAL IDEOLOGY: A CHRONOLOGY
+Controlling Reproduction: The Sterilization Law (1933)
+Controlling Racial “Pollution”: The Nuremberg Laws (1935)
+Eliminating “Defectives”: The Euthanasia Operation (1939–1945)
+Instituting Mass Murder: The Genocide Program (1941)
+NAZI MEDICAL EXPERIMENTS
+QUESTIONS AND INTERPRETATIONS
+CONCLUSION
+ATTACHMENTS: SEMINAL EVENTS IN NAZI MEDICAL ETHICS
+*Currently, Helen and Walter Ferree Professor of the History of Science and Co-Director, Science, Medicine, and Technology in Culture,
+Pennsylvania State University, University Park, Pennsylvania 16802; formerly, Fulbright Senior Fellow and Visiting Scholar, Max-PlanckInstitut für Wissenschaftsgeschichte, Berlin; Senior Scholar-in-Residence, United States Holocaust Research Institute, Holocaust Memorial
+Museum, Washington, DC
+Military Medical Ethics, Volume 2
+404
+Infectious Germs. Among the symbols under the microscope are those for Jews (the Star of David), communists (the hammer and sickle), the British (the pound sterling), and the Americans (the dollar). The poem at the bottom reads:
+With his poison, the Jew destroys
+The sluggish blood of weaker peoples,
+So that a diagnosis arises,
+Of swift degeneration.
+With us, however, the case is different:
+The blood is pure, we are healthy!
+From Der Stürmer, 15 April 1943:1.
+Nazi Medical Ethics: Ordinary Doctors?
+405
+INTRODUCTION
+Doctors were not unaffected by these movements. German medicine became politicized and
+polarized in the years leading up to Nazi seizure of
+power in 1933. Some radical doctors began calling
+for eliminating Jews from German medicine and an
+end to state-financed medical care for the poor. Race
+and disability became increasing topics of conversation, with many doctors calling for the sterilization of the mentally ill or physically handicapped—
+seen as burdens on the German Volk.
+The horror of Nazi medicine must be seen as
+more than merely science or medicine run amok;
+we also have to explore what fueled and shaped
+the various programs that delivered these medical
+depredations. Science-based medicine played an
+important role in creating, justifying, and administering Nazi atrocities, but they must also be seen in
+a larger historical context. Doctors played a vital
+role in the regime, but they could not have done
+these deeds without much broader cultural support,
+and not without ideologic rationales that rendered
+them “necessary evils.”
+It is also necessary to consider what Nazi medicine was not, in order to better understand what it
+was. One of the most common misunderstandings
+concerning the nature and extent of Nazi medical
+crimes holds that the Nazis simply destroyed science. In his opening statement at the Nuremberg
+“Doctor’s Trial” that began in 1946 and ended in
+1947, US chief prosecutor Telford Taylor claimed
+that the Nazi doctors had turned Germany “into an
+infernal combination of a lunatic asylum and a charnel house…[where] neither science, nor industry,
+nor the arts could flourish.”2(p69)
+The problem with this “science vs. fascism” thesis is that it ignores the eagerness with which many
+scientists greeted the regime—and the many areas
+in which science actually flourished under the Nazis (see Exhibit 14-1). Although it may be more comforting to believe that scientists and doctors were
+forced into these heinous behaviors, or were on the
+radical fringe of their professions, the truth is that
+leading institutions of the German medical profession threw their support to the Nazi cause. The persistent myth of the “reluctant physician” therefore
+flies in the face of the best available historical scholarship on the era; it also keeps us from understanding what actually happened in Nazi Germany, and
+what must be learned from it.
+The story of science in general, and medicine in
+particular, under German fascism must therefore be
+more than a narrative of suppression and survival;
+“Only a good person can be a good physician.”1
+—Rudolf Ramm, Germany’s
+foremost medical ethicist, 1942
+Few aspects of recent medical history are as troubling as medicine under National Socialism. Part
+of this has to do with the severity of the ethical
+breach: More than 1,000 people were killed in the
+course of human experiments performed at German
+concentration camps; between 350,000 and 400,000
+were sterilized as “genetic defectives”; another
+200,000 were exterminated in the “euthanasia” operation; and an estimated 6,000,000 Jews perished
+in the “Final Solution,” along with many tens of
+thousands of Sinti and Roma. Part of the shocking
+nature of these events, however, is the willingness
+with which medical practitioners undertook these
+deeds. Nazi medicine represents a low-water mark
+in medical ethics, and, indeed, much of contemporary medical ethics can be seen as a response to the
+abuses of this era. To understand how German
+medicine in the 1930s and 1940s came to epitomize
+medical evil, it is necessary to review what it was
+like prior to 1933, when Hitler took power.
+In the 1920s and early 1930s, German medicine
+was the most advanced of any country in the world.
+More than half of all Nobel prizes had gone to German-speaking scientists, and many of the most advanced medical tools and concepts had been born
+in Germany. German scientists had pioneered pathology, epidemiology, and many aspects of preventive
+medicine; Germans were world leaders in cancer
+research, toxicology, surgery, and social medicine.
+This was also an era of great social unrest in Germany. Germany had lost the First World War, and
+the Allied Powers had required the defeated nation
+to pay hundreds of billions of Reichsmarks in reparations. Communists had established a short-lived
+Munich Soviet Republic in 1918, and between 1922
+and 1924, Germany suffered the worst inflation any
+nation has even known—until a loaf of bread cost a
+wheelbarrow full of cash, and currency was cheaper
+than toilet paper. The economy recovered somewhat
+in the mid 1920s, but the depression (1930–1933)
+threw six million men and women out of work.
+Fringe right-wing movements gained in strength
+throughout this time, as people were desperate to
+find scapegoats for the war, inflation, and joblessness. Jews were blamed, along with overgreedy
+capitalists, foreign opportunists, French and English
+imperialists, and left-wing communist or socialist
+radicals.
+Military Medical Ethics, Volume 2
+406
+it must also tell how and why Nazi ideology promoted certain areas of inquiry and action. The Nazi
+phenomenon cannot simply be dismissed by saying the science was “flawed” or doctors were “politicized”; nor can it even be said that the Nazis simply abandoned ethics. There is an ethic of Nazi
+medical practice—often explicit, sometimes not;
+often cruel, but sometimes not. This is important to
+understand. If the Nazi phenomenon is demonized
+as absolutely alien and otherworldly, with no connection to the present, our ability to understand the
+origins of these medical crimes is forfeited. Only
+by understanding how some physicians came to
+abuse and even murder their patients can one understand the potential within any person for such
+an act. The disconcerting question, after all, is how
+physicians, convinced they were doing good, came
+to commit crimes that today are regarded as the
+embodiment of evil. Why did the Nazi movement
+appeal to doctors? How did Nazi ideals inform the
+practice of medicine, and how did medical concepts
+and practices penetrate Nazi politico-medical practice? What kind of resistance was there, and why
+was it “too little, too late”? What more could have
+been done to stop the translation of Nazi ethical
+ideals into German medical practice? This chapter
+will attempt to answer these questions.
+The well-established fact of medical complicity
+in Nazi crime3–8 is not one that fits well with traditional views of how scientists or other professionals establish and maintain “norms” of conduct. It
+has often been argued over the years that science is
+either inherently democratic (that is, it depends
+upon and contributes to democratic political formations), or, at worst, apolitical. The implication is
+that science grows only on the soil of democracy,
+and that social forces hostile to democracy will be
+hostile to science. Science is supposed to be “objective” and “value-free.” In such a view, the possibility
+that science (or medicine) might actively contribute
+to or co-organize fascist movements is summarily dismissed. Similar prejudices lead us to think of doctors
+as incapable of mass murder. Isn’t the whole purpose
+of medicine to heal, and to “do no harm”? Could physicians really have allowed themselves to be so used
+by the state, to become so infected with racialist ideology that healers became killers?
+In the remaining sections of this chapter, I will
+examine how doctors in Nazi Germany moved to
+destroy an ever increasingly broad array of patients
+judged burdensome to the state or racially inferior.
+Throughout this discussion, I want to emphasize
+three of the most disturbing features of Nazi medical crime. First, there is the fact that many physiEXHIBIT 14-1
+NAZI SCIENTIFIC ACCOMPLISHMENTS
+The V-2 engine is a prime example of the prolific scientific accomplishments during the Nazi regime, but there
+are numerous other examples. German scientists and engineers in the Nazi-era pioneered television,1,2 jetpropelled aircraft (including the ejection seat),3 guided missiles,3 electronic computers (“Z Series” computers
+used the programming language Plankalkül),4 the electron microscope,5 atomic fission,6 new data processing
+technologies,7,8 new pesticides,9 and the world’s first industrial murder factories (including the use of gas
+chambers disguised as showers). The first magnetic tape recording was of a speech by Hitler,10 the V-2 emerged
+from a plan for inter-continental ballistics designed to be able to reach Manhattan,3 and the nerve gases Sarin
+and Tabun were Nazi inventions. 11
+Sources: (1) Burns RW. Television: An International History of the Formative Years. London: The Institution of Electrical Engineers; 1999. (2) Murray BA, Wickham CJ, eds. Framing the Past: The Historiography of German Cinema and Television. Carbondale:
+Southern Illinois University Press; 1992. (3) Neufeld MJ. The Rocket and the Reich: Peenemünde and the Coming of the Ballistic
+Missile Era. New York: Free Press; 1995. (4) Zuse K. The Computer, My Life. Berlin: Springer-Verlag; 1993. (5) Ruska E. Autobiography. In: Nobel Lectures, Physics 1981–1990. Available at: http://www.nobel.se/physics/laureates/1986/ruskaautobio.html. Accessed 3 December 2001. (6) Walker M. Nazi Science: Myth, Truth, and the German Atomic Bomb. New York:
+Plenum; 1995. (7) Luebke D, Milton S. Locating the victim: An overview of census taking, tabulation technology, and persecution in Nazi Germany. IEEE Annals of the History of Computing. 1994;16:25–39. (8) Black E. IBM and the Holocaust: The
+Strategic Alliance Between Nazi Germany and America’s Most Powerful Corporation. New York: Crown; 2001. (9) Dubois JE Jr.
+The Devil’s Chemists. Boston: Beacon; 1952. As cited in: Proctor RN. Nazi War on Cancer. Princeton: Princeton University
+Press; 1999: 104–105, 118. (10) Digital America 2001. US Consumer Electronics Industry Today. Available at http://www.ce.org/
+digitalamerica/history/history8.asp. Accessed 3 December 2001. (11) Borkin J. The Crime and Punishment of IG Farben. New
+York: Free Press; 1978.
+Nazi Medical Ethics: Ordinary Doctors?
+407
+cians were eager to join the party and (eventually)
+to participate in the killing of “lives not worth living.” Second, there is the fact that Nazism informed
+the practice of science—sometimes even “good science” (science that even today must be regarded as
+progressive and unimpeachable). And third, Nazism itself was, if not a “medical movement,” then
+at least a movement that utilized a great deal of
+medical rhetoric, while also exploiting medical talents, medical tools, medical status, and medical intimacy, including the trust implicit in the traditional
+doctor–patient bond.
+Fig. 14-1. “Trends in Marriages, Births, and Deaths for
+the German People, 1871–1930,” from a leading racial
+hygiene journal, depicts the falling German birth rate
+(Geburten) and the effect of World War I on births and
+fatalities (Todesfälle). The bottom line shows the trend in
+marriages (Eheschliessungen). Racial hygienists used such
+charts to argue that healthy Germans were not reproducing fast enough to maintain a growing population. From
+the cover of Volk und Rasse, 8(1933).
+SETTING THE STAGE: PHYSICIANS AND THE RACIAL HYGIENE MOVEMENT
+Science has long held a privileged status in European culture. Science helps explain why things
+are as they are (or are not), including human behavior or worth or capacity to perform. Science can
+be many things, but it has also often been used as a
+source of legitimation or apologetics—to prove
+what people already believe to be true. Science is a
+powerful tool; people therefore look to it for solutions to social problems.
+Emergence of Social Darwinism
+Evolutionary theory, for example, one of the
+greatest triumphs of the human mind, comparable
+to the Copernican revolution, has had some less
+than savory consequences. Darwin’s Origin of Species, published in 1859, allowed scholars to apply
+the principal of natural selection to the science and
+ethics of human society, replacing more egalitarian
+views of human nature. In America, social Darwinists saw in evolution by natural selection a kind of
+scientific guarantee of moral progress, a process by
+which those who survive are those who are most
+fit. German social Darwinists tended to have less
+confidence in the progressive outcome of evolution,
+and sought to increase social progress by limiting
+the breeding of the “unfit.”
+At the end of the 19th century, German social
+Darwinists, fearing a general “degeneration” of the
+human race, set about to establish a new kind of
+hygiene—a racial hygiene (Rassenhygiene)—that
+would turn the attention of physicians away from
+the individual or the environment and towards the
+human genetic constitution. In the eyes of its
+founders (Alfred Ploetz and Wilhelm Schallmayer),
+racial hygiene was supposed to complement personal
+and social hygiene. Racial hygiene would provide
+long-run, preventive medicine for the “German
+germ plasm” by combatting the disproportionate
+breeding of “inferiors,” the celibacy of the upper
+classes, and the threat posed by feminists to the reproductive performance of the family (Figure 14-1).
+Racial hygiene was popular in many different
+parts of the world, and Germany’s early movement
+showed little of the violence the Nazis would later
+give it. As in many other countries, the early German movement was primarily nationalistic and
+meritocratic, more than it was anti-Semitic or Nordic supremacist. Eugenicists worried more about
+the indiscriminate use of birth control (by the “fit”)
+Military Medical Ethics, Volume 2
+408
+and the provision of inexpensive medical care (to
+the “unfit”) than about the breeding of superior
+with inferior races, or many of the other themes we
+associate with the Nazis. Anti-Semitism actually
+played a relatively minor role in early racial hygiene. In fact, for Alfred Ploetz, father of the German movement, Jews were to be classed along with
+the Nordics as one of the superior, “cultured” races
+of the world. 9
+Increasing Anti-Semitism and Evolving Biological Determinism
+By the mid-1920s, however, anti-Semitism was
+becoming a more common theme in the Gesellschaft
+für Rassenhygiene, as the more militant, right-wing,
+faction of racial hygiene began to merge with the
+young National Socialist Party. A lot of people were
+desperate and disillusioned after the war; many
+Germans thought it unfair that England and France
+had captured vast colonial territories throughout the
+world, and people looked to Hitler as a “strong man”
+who would restore German dignity and military
+strength. Racial hygienists also liked the attention
+Hitler and his men were giving to race. Institutional
+links began to grow between Hitler and the racial
+hygiene movement. In 1918, J.F. Lehmann, a conservative anti-Semitic publisher, took over publication of the Archiv für Rassen- und Gesellschaftsbiologie
+(the main racial hygiene journal) and Nazi ideologues began to incorporate biologistic rhetoric into
+their propaganda. Fritz Lenz, Germany’s first Professor of Racial Hygiene (appointed in 1923 to the
+University of Munich) praised Hitler in 1930 as “the
+first politician…who has taken racial hygiene as a
+serious element of state policy.”7(p47,n6) Hitler was also
+beginning to be lauded as the “great doctor of the
+German people.”7(p64) Hitler once called his revolution “the final step in the overcoming of historicism
+and the recognition of purely biological values.”7(p64)
+It is instructive to track the rise of National Socialism against changes in medical views, as the
+timeline in Attachment 14-1 to the chapter demonstrates. This linkage between medicine and politics
+Fig. 14-2. “Selection” (a)(Auslese) and “Counterselection” (b) (Gegenauslese), Darwinian metaphors in the service of
+murder. From SS Leitheft 3, 5 (1939): 18, 19.
+a
+b
+Nazi Medical Ethics: Ordinary Doctors?
+409
+is also seen clearly in biological imagery, which was
+important in Nazi literature in several different
+ways. SS (Schutzstaffel [“protection echelon”]) journals spoke of the need for “selection” to replace
+“counterselection,” borrowing their language directly from the social Darwinian racial hygienists
+(Figure 14-2). Nazi leaders commonly referred to
+National Socialism as “applied biology”; indeed it was
+Fritz Lenz who originally coined this phrase10(p417)
+in the 1931 edition of his widely read textbook on
+human genetics. The Nazi state was itself supposed
+to be organic (biologisch) in two separate senses: in
+its suppression of dissent (the organic body does
+not tolerate one part battling with another), and in
+its emphasis upon “natural” modes of living (the
+healthy, organic body does not tolerate alien bodily
+intruders, such as tobacco or toxic pollutants). Natural modes of living and nature were highly prized
+by Nazi philosophers. Women were not supposed
+to smoke or wear makeup, for example, and legislation was enacted early in the Nazi period to protect endangered species. Hitler did not smoke or
+drink, nor would he allow anyone to do so in his
+presence. Antitobacco activists pointed out that the
+two other fascist leaders of Europe, Franco and
+Mussolini, were also nonsmokers, and that all three
+Allied leaders smoked (Churchill smoked cigars;
+Roosevelt and Stalin enjoyed cigarettes). 11
+Formation of the National Socialist Physicians’
+League
+Given the importance of biology in Nazi discourse, it is not surprising that doctors were among
+those most strongly attracted to the movement. It
+is frightening, however, to see how early and eagerly they joined. In 1929, a number of physicians
+formed the National Socialist Physicians’ League to
+coordinate Nazi medical policy and to purify the
+German medical community by expunging “Jewish Bolshevism” (fed by the perception that most
+Jews were also communists). The organization was
+an immediate success, with nearly 3,000 doctors,
+representing 6% of the entire profession, joining the
+League by January 19337(p65,n10)—that is, before the
+rise of Hitler to power (Figure 14-3). Doctors in fact
+joined the Nazi Party earlier and in greater numbers
+than any other professional group. By 1942, more
+than 38,000 doctors had joined the Party, representing about half of all doctors in the country. 7(p66,n14) In
+1937 doctors were represented in the SS seven times
+more often than was average for the employed male
+population7(p66,n14) and doctors had assumed leading
+positions in German government and universities. 7
+Despite these facts, the myth of the reluctant
+German physician in the service of the Nazi state
+still lingers. One often hears that National Socialists distorted science, that doctors perhaps cooperated more with the regime than they should have,
+but that by 1933 (when Hitler came to power) it was
+too late and scientists had no alternative but to cooperate or flee. There is certainly some truth in this,
+but it misses the more important point that medical scientists were the ones who invented racial
+hygiene in the first place.
+Racial Hygiene in the German Medical Community
+Most of the approximately 20 university institutes for racial hygiene were established at German
+universities before the Nazi rise to power, and by
+1932 racial hygiene had become an orthodox fixture in the German medical community. The major
+expansion in this discipline occurred before Hitler
+Fig. 14-3. Ziel und Weg (Goal and Path), official journal
+of the National Socialist Physicians’ League. The headline in the spring 1933 issue reads: “We Take Command!”
+Military Medical Ethics, Volume 2
+410
+was elected, most of the 15-odd journals of racial
+hygiene, for example, were established long before
+the rise of National Socialism.
+Racial hygiene was also recognized as the primary research goal of two separate institutes of the
+prestigious Kaiser Wilhelm Gesellschaft: the Kaiser
+Wilhelm Institute for Anthropology in Berlin (1927–
+1945), directed by the anthropologist Eugen Fischer,
+and the Kaiser Wilhelm Institute for Genealogy in
+Munich (1919–1945), directed by the psychiatrist
+Ernst Rüdin. Both institutes helped train SS physicians; both helped construct the “genetic registries”
+later used to roundup and deport (for execution)
+Jews and Gypsies. Twin studies—that is, of identical twins raised apart—were among the leading preoccupations of these and other racial institutes, the
+purpose being to sort out the relative influence of
+nature and nurture in human character and institutions. Racial hygienists were convinced that many
+human behaviors are at root genetic—that it is genes
+that ultimately determine whether we are criminal
+or law abiding, sick or healthy, stupid or intelligent.
+The Nazi government recognized the political value
+of such theories: In 1939, Interior Minister Wilhelm
+Frick ordered all twins born in the Reich to be registered with Public Health Offices for purposes of
+genetic research. 12
+Twin studies were seen as providing the scientific
+foundation for the racial hygiene movement, and
+therefore Nazi ideology and policy more generally.
+The evolution of twin research also serves as a forceful example of the deterioration of medical ethics.
+The largest institution in the Reich devoted to the
+study of twins was Otmar von Verschuer’s Institute for Racial Hygiene in Frankfurt. This institute
+had 67 rooms and several laboratories, and was where
+Josef Mengele in the late 1930s did his postdoctoral
+research on the genetics of cleft palate, working
+under Verschuer. Mengele was subsequently appointed an assistant to Verschuer at the Kaiser
+Wilhelm Institute for Anthropology in Berlin, and
+provided “experimental materials” to the Institute
+(including eyes, blood, and other body parts) from
+Auschwitz (up through the ending days of the war)
+as part of a study on the racial specificity of blood
+types funded by the Deutsche Forschungsgemeinschaft
+(German Research Council). This particular line of
+research was a follow-on to the active study of blood
+groups in the 1930s. When Otto Reche founded the
+German Society for Blood Group Research in 1926,
+one of the reasons he gave for this was to see if he
+could find a reliable means of distinguishing Aryans from Jews in the test tube.
+Physicians, in other words, were not simply
+“pawns” in the hands of Nazi officials—not pawns,
+but pioneers. But without a strong state to back
+them, racial hygiene was relatively impotent. It was
+not until 1933 that the programs of the pre-Nazi era
+gained the support of officials willing to move aggressively in this area.
+NAZI IMPLEMENTATION OF MEDICAL IDEOLOGY: THE CHRONOLOGY
+What were the practical results of Nazi racial hygiene? Four main programs—(1) the Sterilization Law
+(1933), (2) the Nuremberg Laws (1935), (3) the euthanasia operation (1939), and (4) the Final Solution
+(1941–1945)—formed the heart of the Nazi program
+of “racial cleansing.” I will deal with each in turn.
+Controlling Reproduction: The Sterilization Law
+(1933)
+On 14 July 1933, the Nazi government passed the
+Law for the Prevention of Genetically Diseased Offspring, or “Sterilization Law” (Attachment 14-2)
+allowing the forcible sterilization of anyone suffering from “genetically-determined” illnesses such as
+feeble-mindedness, schizophrenia, manic-depressive disorder, epilepsy, Huntington’s disease, genetic blindness or deafness, or chronic alcoholism.
+The measure was drawn up after a series of meetings by several of Germany’s leading racial hygienists, including Lenz, Ploetz, Rüdin, SS chief Heinrich
+Himmler, Reich Physicians’ Fuehrer Gerhard
+Wagner, and the industrialist Fritz Thyssen.
+Minimizing Reproduction of “Defectives”
+In 1934, the implementation of the sterilization
+program began with the establishment of 181 Genetic Health Courts and “Appellate Genetic Health
+Courts” throughout Germany to adjudicate the Sterilization Law. The courts were usually attached to
+local civil courts and presided over by a lawyer and
+two doctors, one of whom had to be an expert on
+genetic pathology. Doctors throughout the Reich
+were required to register every case of genetic illness known to them and could be fined 150 RM—a
+hefty sum—for failing to register any such “defective.” Physicians were also required to undergo
+training in “genetic pathology” at one of the numerous racial institutes established throughout the
+country. The German Medical Association founded
+a journal, Der Erbarzt (The Genetic Doctor), to help
+Nazi Medical Ethics: Ordinary Doctors?
+411
+physicians determine who should be sterilized; the
+new journal included a regular column where physicians could write to ask whether a patient with,
+for instance, a club foot or retinoblastoma or a hearing disorder should be sterilized.
+Estimates of the total number of people sterilized in Germany range from 350,000 to 400,000—or
+roughly 50,000 per year. 7(p108,n49,n50) Compared with
+the demands of some racial hygienists this was relatively modest. Lenz, for example, had argued that
+10% to 15% of the entire population was defective
+and ought to be sterilized. 7(p99,n15) In light of such
+proposals, efforts were made to develop rapid sterilization techniques, especially for women, for
+whom the standard tubal ligature could involve a
+hospital stay of more than a week (and involved a
+surprisingly high mortality rate, approaching 1%).
+The most important of these techniques was a nonsurgical procedure involving scarification of the
+fallopian tubes using supercooled carbon dioxide.
+In 1943, the gynecologist Carl Clauberg announced
+to Himmler that, using such a technique and with
+a staff of 10 men, he could sterilize as many as 1,000
+women per day. 13 Experiments were also done on
+sterilization by X-rays, a technique also used in the
+United States at this time.
+It was the United States that provided the most
+important model for Germany’s sterilization legislation. Indiana in 1907 passed the first law permitting forcible sterilization, though at least 465 prisoners had already been sterilized in other parts of
+the country. 7(p97,n8) By the late 1920s approximately
+15,000 individuals had been sterilized in the United
+States—most while incarcerated in prisons or homes
+for the mentally ill. 7(p97,n8) German racial hygienists
+throughout the Weimar period expressed their envy
+of American achievements in this area, warning that
+unless the Germans made progress in this field, the
+United States would become the world’s racial
+leader7(pp97–101) (Figure 14-4). After the war, the Nazi
+sterilization program was never considered to have
+been a criminal program (although the Nazi sterilization experiments were viewed as criminal),
+which is one reason that it was not prosecuted during the Nuremberg Trials. (Another reason was that
+the tribunal looked only at deeds done to non-Germans as being within the purview of the court.) At
+any rate, it would have been difficult to do so, given
+the sterilization laws then in force in many other
+countries.
+Encouraging Reproduction of Desired Traits
+Racial domination and the elimination of the
+weak and unproductive were not the only forms of
+oppression in the Nazi regime. One aspect of Nazi
+ideology that has come under increasing scrutiny
+in recent years is the machismo nature of that ideology. Nazi medical philosophers were quite explicit
+about their feelings on this matter. A 1933 editorial
+by the National Socialists Physicians’ League, for
+example, announced that the National Socialist
+movement was “the most masculine [emphasis
+added] movement”7(pp119–120,n7) to have appeared in
+centuries.
+One of the initial thrusts of Nazi policy was to
+take women out of the workplace and return them
+to the home, where they were to have as many children as possible. Fritz Lenz, for example, had argued that any woman with fewer than 15 babies by
+menopause should be considered “pathological.”
+The government was more modest, pushing what
+it called the “four-child family” ideal. On 16 December 1938, Hitler announced the establishment
+of the “Honor Cross of German Motherhood,” modeled on the Iron Cross and awarded in bronze for
+Fig. 14-4. “Only Genetically Healthy Offspring Ensure
+the Strength of the People.” Top inside [the box] caption
+reads: “We Do Not Stand Alone.” The woman holds a
+baby and the man supports a shield inscribed with
+Germany’s 1933 Law for the Protection of Genetically
+Diseased Offspring (Sterilization Law). The couple stands
+in front of a map of Germany, surrounded by flags of the
+nations that have enacted sterilization legislation. From
+Neues Volk, 1 March 1936:37.
+Military Medical Ethics, Volume 2
+412
+four children, silver for six, and gold for eight (Figure 14-5). After 1938 all public officials (including
+professors) were required to marry or else resign;
+medical journals published the names of unmarried
+or childless colleagues to shame them. At the same
+time that forced sterilization and abortion were instituted for individuals of inferior genetic stock,
+sterilization and abortion for “healthy” German
+women were declared illegal and punishable as a
+“crime against the German body.”7(p122,n20) As one
+might imagine, Jews and others deemed racially
+suspect were exempted from these restrictions. On
+10 November 1938, a Lüneberg court legalized abortion for Jews. A decree of 23 June 1943 allowed abortions for Polish workers, but only if they were not
+judged “racially valuable” (ie, healthy, blue-eyed
+blonds). 14
+Nazi population policy, directed toward what Interior Minister Frick called “the solution to the
+woman question,” was remarkably successful: The
+birth rate jumped from 14. 7/1000 in 1933 to 18/1000
+in 1934,7(p126,n44) representing what demographer
+Friedrich Burgdörfer called an unprecedented
+achievement in world population history and a victory in the “war of births.”7(p126,n44) One other item
+should be noted: the shift from physicians’ predominantly handling the delivery of babies to midwives
+handling this task. Midwifery was viewed as a
+healthier and “more natural” form of giving birth.
+Controlling Racial “Pollution”: The Nuremberg
+Laws (1935)
+In the fall of 1935 Hitler signed into law the socalled “Nuremberg Laws”—excluding Jews from
+most of the rights of citizenship and preventing marriage or sexual relations between Jews and non-Jews.
+As part of this, the “Marital Health Law” required
+couples to submit to medical examination before marriage to see if “racial pollution” might be involved.
+The laws are summarized in Attachment 14-3.
+The Nuremberg Laws were considered public
+health measures, and were administered primarily
+by physicians. In early 1936, for example, when the
+Marital Health Law went into effect, responsibility
+for administering the laws fell to marital counseling centers attached to local public health offices.
+The Nuremberg Laws, along with the Sterilization
+Law, were two of the primary reasons expenditures
+and personnel for public health actually expanded
+under the Nazis.
+I should also note that, as with the Sterilization
+Law, here, too, Germans learned from the Americans. Nazi physicians on more than one occasion
+argued that German racial policies were relatively
+“liberal” compared with how blacks were treated
+in the United States. Evidence for this was usually
+taken from the fact that in several southern states,
+a person with only 1/32 African ancestry was legally
+black (the so-called “drop of blood” rule), whereas
+if someone were 1/8 Jewish in Germany (and for
+many purposes, 1/4 Jewish), that person was legally
+“Aryan” (a one-quarter Jew, for example, could still
+marry a full-blooded German). Nazi physicians
+spent a great deal of time discussing American miscegenation legislation; German medical journals
+reproduced charts showing the states in which
+blacks could or could not marry whites, could or
+could not vote, and so forth (Figure 14-6). 15
+Sadly, there is yet another area where Nazi physicians were able to draw support from their American colleagues. In 1939, Germany’s leading racial
+hygiene journal reported the refusal of the American Medical Association to admit African-American physicians to its membership. Approximately
+5,000 black physicians had petitioned to join the allwhite American body, but were turned down. GerFig. 14-5. Honor Cross of German Motherhood, awarded
+in bronze for four children, silver for six, and gold for
+eight. Hundreds of thousands of these crosses were
+awarded in the 12 years of Nazi rule.
+Nazi Medical Ethics: Ordinary Doctors?
+413
+man physicians only one year before, in 1938, had
+barred Jews from practicing medicine (except on
+other Jews); Nazi racial theorists were thereby able
+to argue that Germany was “not alone” in its efforts to preserve racial purity. 16
+Eliminating “Defectives”: The Euthanasia
+Operation (1939–1945)
+In early October 1939, Hitler issued orders that
+certain doctors be commissioned to grant a “mercy
+death” (Gnadentod) to patients judged incurably sick
+by medical examination. By August 1941, when the
+first phase of the so-called “euthanasia” operation
+was brought to a close, more than 70,000 patients
+from German mental hospitals had been killed in
+an operation that provided the stage rehearsal for
+the subsequent destruction of the Jews, Communists, Gypsies, Slavs, and prisoners of war.
+“Lives Not Worth Living”
+The idea of the destruction of “lives not worth
+living” did not begin with the Nazis, but had been
+discussed in legal and medical literature since the
+end of World War I—and not just in Germany. In
+1935, for example, the French-American Nobel Prize
+winner Alexis Carrel (a pioneer of tissue culture and
+the iron lung) suggested in his book, Man the Unknown, that the criminal and mentally ill should be
+“humanely and economically disposed of in small
+euthanasia institutions supplied with proper gases.”
+Six years later, as German psychiatrists were sending the last of their patients into the gas chambers,
+an article appeared in the Journal of the American
+Psychiatric Association calling for the killing of retarded children, “nature’s mistakes.”17 Journals as
+diverse as American Scholar and the Journal of the
+American Institute of Homeopathy debated the merits of forcible euthanasia—at least until reports of
+wholesale Nazi exterminations began to appear in
+American newspapers in 1941 and 1942. 7(p180)
+The fundamental argument in Germany for forcible
+euthanasia was economic (Figure 14-7 and Figure
+14-8): Euthanasia was justified as a kind of “preemptive triage” to free up beds. This became especially
+important in war time. I want to stress this: Things
+Fig. 14-7. “The Prussian Government Provides Annually
+the Following Funds for: A Normal Schoolchild (125 RM
+[reichsmarks]); a Slow Learner (573 RM); the Educable
+Mentally Ill (950 RM); and Blind or Deaf-Born Schoolchildren (1,500 RM).” This illustration depicts the burden of maintaining the socially unfit. From Volk und Rasse,
+8 (1933):156.
+Fig. 14-6. “How Racial Questions Arise: Black and White
+in America.” Illustration from the popular magazine
+Neues Volk depicting restrictions on the civil rights of
+blacks in the United States. Caption at top reads “How
+Racial Questions Arise: White and Black in America.”
+Map indicates states where:
+•
+Blacks have no voting rights, are not allowed to
+marry whites, and are segregated from whites
+(dark black).
+•
+Blacks face all of the above restrictions with the
+exception of voting rights (darkly spotted).
+•
+Black-white intermarriage is not allowed; blacks
+and whites attend separate schools (dark crosshatched lines).
+•
+Black-white intermarriage is the only restriction
+blacks face (light cross-hatched lines).
+Nazi journals used the example of racial legislation in the United
+States to defend the suppression of civil rights of Jews in Germany. From Neues Volk, 1 March 1936:9.
+Military Medical Ethics, Volume 2
+414
+can occur in war that would not be tolerated in
+peacetime. The onset of the euthanasia operation
+was consciously timed to coincide with the invasion of Poland: The first gassings of mental patients,
+for example, occurred at Posen, in Poland, on October 15, 1939, just 45 days after the invasion of that
+country marking the beginning of World War II.
+Euthanasia as a Continuing Medical Practice
+The first part of the German euthanasia program
+was code-named “T-4,” named after the address of
+its administrative headquarters—Tiergartenstrasse
+4—where decisions were made about who should live
+or die. The figure of 70,000 killed was no accident: In
+the original planning for the T-4 operation, the idea
+was that one in a thousand Germans would be killed.
+For a population of 70 million, that meant 70,000
+people. When that figure was reached in August 1941,
+the gas phase of the operation was ended and euthanasia became part of normal hospital routine. 18–20
+Handicapped infants were thereafter regularly put to
+death; persons requiring long-term psychiatric care
+and judged “incurable” suffered a similar fate. Doctors made the decisions, filled out the forms, issued
+orders for transport to the euthanasia institutions,
+and released the gas into the chambers. There is
+indirect evidence that even some of Germany’s own
+war-wounded were killed late in the war. Euthanasia experts were sent to the front to escort severely
+wounded soldiers back to Germany; some may
+never have reached home alive after “treatment”
+by the death doctors. 21
+The importance of war to the utilization of euthanasia can also be seen in the fact that during
+World War I, half of all German mental patients
+starved to death (45,000 in Prussia alone, according to one estimate7(p178,n5)—they were simply too
+low on the priority list to receive rations. In the Nazi
+period, the starvation of the mentally ill, the homeless, and other “useless eaters” became official state
+policy, after a prolonged propaganda campaign to
+stigmatize the mentally ill and handicapped as having “lives not worth living.” Psychiatrists eventually worried that their aggressive efforts to eliminate Germany’s mental defectives would render
+their own skills useless. Professor Wuth, chief physician for the army, pondered in the midst of the
+war that with so many mental patients being eliminated by euthanasia, “who will wish to study
+psychiatry?”6(p42) The lament is not a moral complaint, but rather a worry that there will be no one
+left to treat.
+One should recall that the euthanasia program
+was planned and administered by leading figures
+in the German medical community. When the first
+experiments to test different gases for killings took
+place in Brandenburg Hospital in January 1940,
+Viktor Brack, head of the operation, emphasized
+that such gassings “should be carried out only by
+physicians.” Brack cited the chilling motto: “The
+needle belongs in the hand of the doctor.” (Prior to
+the gas-chamber phase of the operation, experiments with other forms of killing had been tried,
+including lethal injection and driving patients
+around in a van with the exhaust redirected back
+up into the back of the van. Gas chambers were
+eventually constructed to improve the efficiency of
+this process.)
+It is also important to appreciate the banality of
+the euthanasia operation. In 1941, for example, the
+psychiatric institution at Hadamar celebrated the
+Fig. 14-8. “You are Sharing the Load! A Genetic Defective
+Costs Approximately 50,000 Reichsmarks by the Age of 60.”
+This poster, from an exhibit on racial hygiene produced by
+the Reichsnährstand, illustrates the burden of the mentally
+ill on the healthy German population. From Walter Gross,
+“Drei Jahre rassenpolitische Aufklärungsarbeit,” Volk und
+Rasse, 10 (1935):335.
+Nazi Medical Ethics: Ordinary Doctors?
+415
+cremation of its 10,000th patient in a special ceremony, where everyone in attendance—secretaries,
+nurses, and psychiatrists—received a bottle of beer
+for the occasion. The corpse of a recent victim was
+put on display, on a bed of ice, for the party. 22(p157)
+Instituting Mass Murder: The Genocide
+Program (1941)
+Historians exploring the origins of the Nazi destruction of “lives not worth living” have only recently
+begun to stress the link between the euthanasia
+operation on the one hand, and the “final solution”
+on the other. And yet the two programs were linked
+in both theory and in practice. The most important
+theoretical link was what might be called the
+“medicalization of anti-Semitism,” part of a broader
+effort to reduce a host of real or perceived social
+problems—unemployment, homosexuality, crime,
+deviancy, “antisocial behavior,” and so forth—to
+medical or ideally surgical problems. It is again
+necessary to stress how German racial theorists vilified Jews during this period. Jews were blamed for
+many of Germany’s troubles in the years after World
+War I, and this threat was defined in racial terms.
+Jews were odious, or immoral, or money-hungry
+because of their race, their biology, their genes. In
+the Nazi view of the world, to be Jewish (or Gypsy,
+or homeless) was to be criminal, and criminals were
+born, not made.
+The Jews were also considered a threat through
+the specter of racial intermarriage. A series of laws
+barring Jews from certain kinds of employment and
+movement were followed by measures allowing
+Jewish couples to practice birth control and abortion, while “ideal” German couples were denied
+these options. Then came the Nuremberg Laws,
+which greatly restricted Jews with respect to marriage and civil rights. The cloak of war allowed the
+state to take even more drastic and murderous measures, such as euthanasia. Was there a “slippery
+slope” in Germany at this time? I think not. I think
+it is better to characterize it as a violent push off a
+very steep slope, for these programs were not accidental, and their expansion was a direct consequence of explicit Nazi policies and principles. And
+the war, of course, allowed radical measures to be
+justified as emergency measures.
+Experts did, in fact, debate—and not just privately—what to do about the “Jewish question.”
+During the late 1930s, German scientists proposed
+a number of different solutions. The agronomist
+Hans Hefelmann suggested exporting all Jews to
+Madagascar. Philip Bouhler, head of the Nazi party
+Chancellery, proposed sterilizing all Jews by X-rays.
+Viktor Brack recommended sterilizing the two-tothree million Jews capable of work, who might be
+put to use in Germany’s factories. German medical
+authorities also devoted themselves to this problem. During the early war years, the official journal
+of the German Medical Association (Deutsches
+ƒrzteblatt) published a regular column on “Solving
+the Jewish Question,” reviewing achievements in
+this domain throughout the world.
+The ultimate decision to gas the Jews emerged
+from the fact that the technical apparatus already
+existed for the destruction of the mentally ill. In the
+fall of 1941, with the completion of the bulk of the
+euthanasia operation, the gas chamber equipment at
+psychiatric hospitals was dismantled and shipped
+East, where it was reinstalled at Majdanek, Auschwitz, and Treblinka. The same doctors, technicians,
+and managers often followed the equipment. In this
+sense, there was a continuity in both theory and
+practice between the destruction of the “lives not
+worth living” in Germany’s mental hospitals and
+the destruction of Germany’s ethnic and social minorities. (Notes made by Adolf Eichmann at the
+Wannsee Conference [convened to address the “Final Solution”], and presented as evidence during
+the Nuremberg Tribunal, are presented in Attachment 14-4 to this chapter.)
+NAZI MEDICAL EXPERIMENTS
+Given the effort to destroy entire peoples, the
+pervasiveness of ideals of racial superiority and
+inferiority, and the strength of German experimental
+traditions, it is hardly surprising that physicians
+exploited concentration camp inmates as subjects in
+human experiments. The now-notorious experiments
+chronicled in the postwar Nuremberg trials were carried out for various reasons. At Buchenwald, physicians forced people to drink seawater, to find out
+how long a man might survive without fresh water. At Dachau, Russian prisoners of war were immersed in icy water to see how long a pilot might survive when shot down over the English channel, and
+to find out what kinds of protective gear or rewarming techniques were most effective. Prisoners were
+placed in vacuum chambers, to find out how the human body responds when pilots are forced to bail out
+at high altitudes (Figure 14-9 and Figure 14-10).
+There were many other experiments. At Fort Ney,
+near Strasbourg, 52 prisoners were exposed to phosMilitary Medical Ethics, Volume 2
+416
+gene gas (a chemical warfare agent) in 1943 and 1944
+to test possible antidotes. At Auschwitz, physicians
+experimented with new ways to sterilize or castrate
+people as part of the plan to repopulate Eastern
+Europe with proper Germans. 23 (The idea was that
+these untermenschen [subhumans] could continue to
+work but could not reproduce.) Physicians performed limb and bone transplants on persons with
+no medical need and, in at least one instance, injected prisoners’ eyes with dyes to see if eye color
+could be permanently changed. At Buchenwald,
+Gerhard Rose infected prisoners with spotted fever to test experimental vaccines against the disease; at Dachau, Ernst Grawitz infected prisoners
+with a broad range of pathogens to test homeopathic preparations. Nazi military authorities were
+worried about some of the exotic tropical diseases
+German troops could contract in Africa or Eastern
+Europe; physicians in the camps reasoned that the
+“human materials” at their disposal could be used
+to develop vaccines or remedies. Hundreds of
+people died in these experiments—and many of
+those who survived were forced to live with painful physical or psychological scars.
+I do not want to get into the question of whether
+this was “good science” in a technical sense. Some
+experiments no doubt were, some no doubt were
+not. But judgment of the morality of research practices really should not depend on whether such
+practices were technically insightful. The two issues
+are often conflated. What I would rather focus on
+is the fact that, contrary to postwar apologies, doctors were never forced to perform such experiments.
+Physicians volunteered, hoping to serve their country or advance their careers (or both). In several
+cases, Nazi officials actually had to restrain overzealous physicians from pursuing even more ambitious experiments. 24(p26,n20) The logic governing the
+use of prisoners for terminal human experiments
+was similar to that underlying efforts to eliminate
+“lives not worthy of living.” In the Nazi view of
+the world there were superior and inferior races,
+worthies and unworthies, healthy and diseased. If
+it required the deaths of 20 or even 100 Russian prisFig. 14-10. The brains of experimental victims from the
+Dachau high-altitude experiments were dissected shortly
+after death, as illustrated in this photo submitted as evidence in the Nuremberg “Doctors Trial” (1946–1947).
+Fig. 14-9. A Luftwaffe experiment performed at Dachau
+by SS (Schutzstaffel [“protection echelon”]) physicians
+working in the context of aviation medicine. The subject
+was placed in a vacuum chamber to simulate the effects
+of explosive decompression. Approximately 70 to 80
+people died in the course of the experiment (mostly Soviet and Polish prisoners of war), designed to explore
+the limits of human survivability in such circumstances.
+This photo (and many others) was submitted as evidence
+in the Nuremberg “Doctors Trial” (1946–1947).
+Nazi Medical Ethics: Ordinary Doctors?
+417
+oners to increase the chances of saving one German
+pilot, this was, in the Nazi scale of values, a justified
+investment. Concentration camp inmates were valued
+as slave labor, and when that labor was exhausted
+they were not even worth keeping alive. Their lives
+were without value, and their deaths implied a savings. Doctors acting in such a manner were not
+without values; their values were clear, and they
+acted in accordance with those values (Nordic supremacy, total war demands extreme measures,
+Jews are vermin, and so forth). Attachment 14-5
+summarizes the “Doctors’ Trial” at Nuremberg.
+QUESTIONS AND INTERPRETATIONS
+Most leading German physicians supported the
+Nazis. Why? Physicians commonly boasted that
+their profession had shown its allegiance earlier and
+in greater strength than any other professional
+group. But why?
+First of all, we should recall that the medical profession at this time was quite conservative, in the
+sense of opposing racial and gender equality, supporting German rearmament, opposing socialized
+medicine, opposing civil liberties, and so forth.
+Prior to 1933, the leadership of the profession was
+dominated by the Deutschnationalen—a German
+nationalist party that subsequently threw its support to Hitler. Not all physicians, of course, were
+conservative—nor violently anti-Semitic, as was the
+case with many Nazi medical leaders. The profession was politically polarized after the economic
+collapse in the late 1920s and early 1930s; physicians moved from the center to the Left or (more
+often) to the Right. Socialists and communists, however, were always a minority in the German medical community. By the end of 1932, the Nazi Physicians’ League was twice as large as the Association
+of Socialist Physicians (3,000 vs. 1,500 members).
+In the Reichstag elections leading to the Nazi seizure
+of power, nine physicians were elected to represent
+the Nazi Party; only one physician was elected to
+represent the socialists or communists.
+But why did doctors flock to the Party? I would
+suggest that there was a certain ideological affinity
+between medicine and Nazism in Germany at this
+time. Many physicians were attracted by the importance given to race and health in the Nazi view of
+the world; physicians were intrigued by the effort
+to biologize or medicalize a broad range of social
+problems, including crime, poverty, homosexuality,
+the falling birth rate, the collapse of German imperial strength, and the “Jewish and Gypsy problems.”
+Doctors also liked the attention given to athleticism
+and bodily purity, and their uncompromisingly brutal attitude towards physical and mental disability.
+The Nazis, in turn, were able to exploit both the
+intimacy and the authority of the traditional physician–patient relationship. Crudely put: you could
+do things with doctors that would have been much
+harder without. Doctors served as executioners;
+doctors performed “selections” (of people to be
+killed) in the camps. Himmler recognized the special role of physicians in this regard: on 9 March
+1943, the SS Reichsfuehrer issued an order that
+henceforth only physicians trained in anthropology
+could perform selections at concentration camps. 6(p18)
+Medicine also served as a disguise. In the Buchenwald
+concentration camp, 8,000 Russian prisoners of war
+were executed in the course of supposed “medical
+exams,” using a device disguised as an instrument
+to measure height. A reconstruction of the device is
+on display at the museum established by the East
+Germans among the ruins of the former concentration camp25 (Figure 14-11).
+There is a further element. The rise of the Nazis
+coincides with a period of concern about what was
+widely known as the “crisis” in modern medicine:
+a crisis associated with increasing specialization
+and bureaucratization, a crisis traced alternatively
+to capitalism, Bolshevism, materialism, or any of a
+host of other real or apparent threats to human
+health and well-being. The Nazis promised to restore
+Germany to a more natural (biologische) way of living, a future with “more Goethe, and less Newton.”
+In such a climate, Jews became a convenient
+scapegoat for all that was wrong in modern medicine. This was especially easy because Jews were in
+fact quite prominent in the German medical profession: 60% of Berlin’s physicians, for example, were
+either Jewish or of Jewish ancestry, even though
+Jews were less than 1% of the German population
+as a whole. Opportunistic professionals profited from
+the banishment of their Jewish colleagues.
+Indeed, in a number of important ways the medical profession might even be said to have prospered
+under the Nazis. The medical community grew substantially under the Nazis, despite the forced exclusion of Jews and communists. It may even be true
+that physicians achieved a higher status in the Nazi
+period than any time before or since. During the 12
+years of Nazi rule, for example, the office of Rektor
+(president) at German universities was occupied by
+physicians about half of the time; this contrasts with
+19% for the decade prior to the rise of the Nazis
+Military Medical Ethics, Volume 2
+418
+a
+b
+and 18% for the two decades following the Nazi
+period. Doctors also prospered financially under the
+Nazis. In 1926, lawyers earned an average annual
+salary of 18,000 RM, compared with only 12,000 RM
+for physicians. By 1936 doctors had reversed this,
+and now earned 2,000 RM more than lawyers.
+Biomedical science was not, in other words, simply destroyed by the Nazis—the story is more complex. At the New York Academy of Medicine, or
+Stanford’s Lane Library, or any other major medical library, one can find more than 150 German
+medical journals published continuously through
+the Nazi period, occupying more than 100 meters
+of shelf space. More than two dozen new medical
+journals began publishing during the Nazi period,
+and several of these are still being published today.
+The Nazis suppressed some areas of biomedicine,
+and encouraged others. The Nazis supported extensive research into ecology, public health, cancer,
+nutritional physiology, aviation medicine, occupational health and safety, tobacco and asbestos epidemiology, behavioral genetics, and (of course) racial- and sociobiology. The Nazi government
+funded research on the effects of exposure to X-rays
+Fig. 14-11. Approximately 8,000 Soviet prisoners of war
+were executed in Buchenwald. They were killed according to the order on commissars (Kommissarbefehl) issued
+by the supreme command of the Germany army. These
+executions were carried out by special detachments, such
+as the Kommando 99 in Buchenwald. The execution site
+was the Horse Stable, a brick building 55 meters long,
+next to the Riding Hall where Commandant Koch and
+his wife, Ilse, rode their horses while an SS orchestra
+played military marches. In the Horse Stable a measuring device of the type used in a doctor’s office was put
+on the wall. A narrow slot in the device (a) allowed the
+executioner to shoot the prisoner in the neck from a booth behind the wall (b). Military marches and music drowned
+out the noise of the shots. After the war, the Horse Stable was torn down but the measuring stick and the booth
+behind it were recreated in the pathology lab in the crematorium for visitors to view. Further information is available
+at: http://www.scrapbookpages.com/EasternGermany/Buchenwald/Atrocities.html.
+Nazi Medical Ethics: Ordinary Doctors?
+419
+and heavy metals; and some of the first reliable
+studies of the health effects of asbestos were done
+in this period. The Nazis were among the first to
+initiate health-based bans on smoking in public
+buildings, and possessed the world’s strongest antitobacco movement. 26 Nazi leaders organized unprecedented support for midwifery,27 homeopathy,
+and a number of other areas of heterodox medicine.
+Nazi physicians recognized the importance of a diet
+high in fruit and fiber, and in the early war years
+managed to have a law enacted requiring every
+German bakery to produce whole-grain bread. Nazi
+physicians restricted the use of DDT, and denied
+women tobacco-rationing coupons on the grounds
+that nicotine could harm the fetus. Racial hygiene
+itself was supposed to provide “long-run,” preventive care for the German germ plasm, complementing shorter-term personal and social hygiene.
+CONCLUSION
+Let me simply note in conclusion four points.
+First, it is important to appreciate not just the extent to which the Nazis were able to draw upon the
+imagery and authority of medicine, but also the extent to which Nazi ideology informed the practice
+of medical science. Secondly, physicians were not
+bystanders, or even pawns; many (not all, but not a
+few) helped to construct the racial policies of the
+Nazi state. It is probably as fair to say that Nazi
+racial policy emerged from within the scientific community, as to say that it was imposed upon that community. Thirdly, it is commonly said that the Nazis
+“politicized” science, and that much of what went
+wrong under the Nazis can be traced to this politicization. The argument I’ve made here is that one
+can’t consider the experience of the medical profession in terms of a simple “use and abuse” model
+of science. Among physicians, there were as many
+volunteers as victims; no one had to force physicians to support the regime. Hans Hefelmann testified to this effect in the euthanasia trial at Limburg
+in 1964: “[N]o doctor was ever ordered to participate in the euthanasia program; they came of their
+own volition.”7(p193)
+The Nazis did not have to politicize science; in
+fact, it is probably fair to say that the Nazis “depoliticized science”—in the sense that they destroyed
+the political diversity that had made Weimar medicine and public health the envy of the world (with
+its local outpatient clinics, self-help networks,
+single-payer reimbursement, and similarly progressive programs). Nazism itself was supposed to transcend politics. The German state was to be a
+Volksstaat, not a Parteistaat; National Socialism was
+to be counted a “movement,” not a “party.” The
+Nazis medicalized politics as much as they politicized medicine; racial minorities were ostracized
+and then exterminated, and problems of sexual or
+social deviance (or both) were transformed into
+“surgical problems” in need of surgical solutions.
+Finally, I do not want to leave the impression that
+the horrors of this period can be attributed to anything inherent in science or in medicine, or even in
+“technocracy” or the rule of professional elites. It
+took a powerful state to concentrate and unleash
+the destructive forces within German medicine, and
+without that state, science would have remained
+impotent in this sphere. In the midst of a war engineered by an aggressive, expansionist state, Nazi
+ideologues were able to turn to doctors to carry out
+acts that have come to be regarded as the embodiment of evil.
+Rudolf Ramm, the Nazi medical ethicist whose
+words I cited to begin this chapter, noted in his 1942
+book on medical ethics that physicians will often
+encounter patients who complain of the treatment
+they have received from another doctor. Ramm advised that physicians should always take the side
+of the other doctor, turning a blind eye to whatever
+incompetence or malpractice their colleagues may
+be accused of. Today one hopes that “professional
+ethics” means more than vigilance in the defense
+of the honor of the profession against its critics. Or
+at least that professional honor will always be understood to include a requirement that professionals act in an ethical and socially responsible manner. Elaborating upon this ethic has become the
+painful task of physicians ever since Nuremberg,
+though hopefully we will never be so vain as to
+think the job is finished.
+Military Medical Ethics, Volume 2
+420
+REFERENCES
+1.
+Ramm R. A¨rztliche Rechts- und Standeskunde. Berlin: Walter de Gruyter; 1942: 88–89.
+2.
+Taylor T. Opening statement of the prosecution, 9 December 1946. In: Annas GJ, Grodin MA, eds. The Nazi
+Doctors and the Nuremberg Code. New York: Oxford University Press; 1992.
+3.
+Aly G, Chroust P, Pross C. Cleansing the Fatherland: Nazi Medicine and Racial Hygiene. Baltimore: Johns Hopkins
+University Press; 1994.
+4.
+Lifton RJ. Nazi Doctors. New York: Basic Books; 1986.
+5.
+Kater MH. Doctors Under Hitler. Chapel Hill, NC: University of North Carolina Press; 1989.
+6.
+Müller-Hill B. Murderous Science: Elimination by Scientific Selection of Jews, Gypsies, and Others, Germany 1933–
+1945. New York: Oxford University Press; 1988.
+7.
+Proctor R. Racial Hygiene: Medicine Under the Nazis. Cambridge, Mass: Harvard University Press; 1988.
+8.
+Weindling P. Health, Race, and German Politics Between National Unification and Nazism, 1870–1945. New York:
+Cambridge University Press; 1989.
+9.
+Ploetz A. Die Tüchtigkeit unsrer Rasse und der Schutz der Schwachen. Berlin: Gustav Fischer; 1895.
+10.
+Lenz F. Menschliche Auslese und Rassenhygiene (Eugenik), 3rd ed. Munich: JF Lehmann; 1931.
+11.
+Bauer D. So lebt der Düce. Auf der Wacht. 1937;54:19–20.
+12.
+Deichmann U. Biologen unter Hitler: Vertreibung, Karrieren, Forschung. Frankfurt: Campus Verlag; 1992.
+13.
+Mitscherlich A, Mielke F. Medizin ohne Menschlichkeit. Frankfurt: Fischer; l960.
+14.
+Hamann M. Die Morde an polnischen und sowjetischen Zwangsarbeitern in deutschen Anstalten. In: Aly G,
+Ebbinghaus A, Hamann M, Pfäfflin F, Preissler G, eds. Aussonderung und Tod: Die klinische Hinrichtung der
+Unbrauchbaren. Berlin: Rotbuch Verlag; 1985: 131.
+15.
+Wie Rassenfragen entstehen. Neues Volk, 1 March 1936: 9.
+16.
+Keine Negerärzte in der Amerikanischen Standesorganisation. Archiv für Rassen- und Gesellschaftsbiologie. 1939–
+1940;33:96,276.
+17.
+Kennedy F. The problem of social control of the congenitally defective: Education, sterilization, euthanasia.
+Am J Psychiatry. 1942;99:13–16.
+18.
+Klee E. “Euthanasie” im NS-Staat, die “Vernichtung lebensunwerten Lebens.” Frankfurt: S Fischer Verlag; 1983.
+19.
+Burleigh M. Death and Deliverance: “Euthanasia” in Germany, 1900–1945. Cambridge: Cambridge University Press;
+1995.
+ACKNOWLEDGMENT
+Further details and documentation of my research on medicine during the Nazi era can be found in:
+Proctor RN. Racial Hygiene: Medicine Under the Nazis. Cambridge, Mass: Harvard University Press;
+1988; and Proctor RN. Nazi War on Cancer. Princeton, NJ: Princeton University Press; 1999.
+Nazi Medical Ethics: Ordinary Doctors?
+421
+20.
+Friedlander H. The Origins of Nazi Genocide: From Euthanasia to the Final Solution. Chapel Hill, NC: University of
+North Carolina Press; 1995.
+21.
+Aly G. Medicine against the useless. In: Aly G, Chroust P, Pross C. Cleansing the Fatherland: Nazi Medicine and
+Racial Hygiene. Baltimore: Johns Hopkins University Press; 1994: 22–98.
+22.
+Wertham F. A Sign for Cain. An Exploration of Human Violence. New York: Macmillan; 1966.
+23.
+Baader G. Menschenexperimente. In: Kudlien F, ed. A¨rzte im Nationalsozialismus. Cologne: Kiepenheuer & Witsch;
+1985: 178–180.
+24.
+Annas GJ, Grodin MA, eds. The Nazi Doctors and the Nuremberg Code: Human Rights in Human Experimentation.
+New York: Oxford University Press; 1992.
+25.
+Available at: http://www.scrapbookpages.com/EasternGermany/Buchenwald/Crematorium.html. Accessed
+3 December 2001.
+26.
+Proctor RN. The Nazi war on tobacco: Ideology, evidence, and public health consequences. Bull Hist Med.
+1997;71:435–88.
+27.
+Fallwell L. Birthing the Political Body: Nazi Midwives and National Identity [dissertation]. Pennsylvania State
+University. 2003.
+Military Medical Ethics, Volume 2
+422
+Chapter 14: ATTACHMENTS
+SEMINAL EVENTS IN NAZI MEDICAL ETHICS
+EVENT 1: TIMELINE OF POLITICAL AND MEDICAL EVENTS IN GERMANY, 1918 TO 1945
+Date
+Political Event
+Medical Event
+1918
+11 November: End of World War I, revolutionary
+uprisings of soldiers and workers, the Kaiser resigns. Proclamation of the Republic.
+1919
+Widespread malnutrition, housing shortages, accelerating inflation, and widespread poverty causing
+severe social tensions.
+6–11 January: Bloody suppression of the revolution
+by an alliance of the right wing of the Social Democratic Party under Friedrich Ebert and officers of
+the Army. Founders of the communist Party Rosa
+Luxemburg and Karl Liebknecht are murdered.
+January–February: First session of the National Assembly in Weimar (beginning of the Weimar Republic), social democratic/liberal coalition government,
+Ebert elected president of the Reich.
+28 June: Treaty of Versailles obliges Germany to pay
+high reparations and to yield territories to France
+and Poland; extreme right blames the conditions
+of the treaty on the democratic parties.
+Nazi Party founded.
+1920
+Continuing severe social and political tensions.
+1921
+Continuing severe social and political tensions.
+1922
+24 June: Secretary of State Walther Rathenau assassinated by right wing extremists.
+1923
+9 November: Hitler and officers attempt a coup d’etat
+in Munich; attempt fails and Hitler jailed.
+1924
+After deflation of the Reichsmark, period of relative
+economic and social stability.
+1926
+Widespread famine in Germany, epidemic diseases
+spread; tens of thousands of patients in German mental
+hospitals die of hunger and infectious disease.
+Alfred Grotjahn, social democratic physician and eugenicist,
+accepts first chair for social hygiene at Berlin University.
+The renowned jurist Karl Binding and the psychiatrist
+Alfred Hoche publish their book, “The Sanctioning of
+the Destruction of Life Unworthy of Living,” which
+calls for the killing of the mentally ill and handicapped
+as “burdens to the community.”
+Publication of the standard textbook of eugenics, “The
+Principles of Human Genetics and Racial Hygiene,” by
+Erich Baur, Eugen Fischer, and Fritz Lenz; Hitler bases
+his racist theories in “Mein Kampf” on parts of this
+book.
+First chair for racial hygiene at the University of Munich
+given to the eugenicist Fritz Lenz.
+Period of reforms in the health sector: Foundation of outpatient clinics run by the public health insurance, along
+with counseling centers for sexual and marital problems and clinics for drug addicts. Increase in the number of clinics for infant care, venereal disease and tuberculosis patients. Institutions are predominantly the
+domain of social democratic and communist doctors,
+many of whom are Jewish.
+Otto Reche establishes “German Society for Blood Group
+Research” to find reliable means of distinguishing Aryans from Jews.
+Nazi Medical Ethics: Ordinary Doctors?
+423
+1927
+1929
+Worldwide economic depression, which severely affects Germany; collapse of the state budget, unemployment figures rise to 2 million.
+1930
+September: Sensational rise of votes for the Nazi
+party in the elections for the Reichstag.
+1932
+Over 6 million unemployed, street fights between the
+SA (Sturmabteilung [storm troopers]) and communists in the big cities.
+July: Nazi party wins 38% of the votes in the Reichstag
+election, making it the strongest faction.
+1933
+30 January: President Hindenburg, a former World
+War I general, appoints Hitler chancellor of the
+Reich.
+1 February: Dissolution of the Reichstag.
+27 February: After the burning of the Reichstag, for
+which the communists are falsely blamed, purge
+of political opponents all over the Reich.
+22 March: Establishment of the first concentration
+camp for political opponents in Dachau near Munich.
+1 April: Call for a boycott of all Jewish businesses,
+doctors, and lawyers.
+4 April: “Law for the Restitution of the Civil Servants’ Status” orders the exclusion of “non-Aryans”
+and “enemies of the state” from government employment.
+2 May: Dissolution of the trade unions.
+10 May: Establishment of the Nazi Trade Union “German Work Front” with compulsory membership for
+all working people.
+1 June: Decree for the provision of “marriage loans”
+for young couples. For each newborn child a quarter of the loan is remitted.
+1935
+21 January: Law for the Prevention of Venereal Disease.
+Important achievement of the social hygiene movement.
+11–17 September: Establishment of the Kaiser Wilhelm
+Institute for Anthropology, Human Genetics, and Eugenics in Berlin. Eugen Fischer appointed as director.
+Closing down of many public health institutions, reduction of free health care.
+National Socialist Physicians League formed.
+2 July: Committee of the Prussian State Health Council
+drafts a sterilization law. The law permits voluntary sterilization or sterilization with the consent of a guardian.
+January: Membership in National Socialist Physicians
+League reaches almost 3,000—6% of the entire profession.
+March and April: Purge of Jewish and socialist physicians by SA storm troopers in all state hospitals and
+public health institutions.
+20 April: Decree for admission of doctors to panel practice allows the exclusion of “non-Aryans” and “enemies
+of the state” from panel practice.
+14 July: “Law for the Prevention of Genetically-Diseased
+Offspring” allows compulsory sterilization of anyone
+with hereditary epilepsy, schizophrenia, manic-depressive illness, feeble-mindedness, severe alcoholism, and
+a number of other ailments.
+11 March: Leading racial hygienists Eugen Fischer, Fritz
+Lenz, and Hans F.K. Günther, as well as civil servants
+in the Ministry of the Interior, plan the forcible sterilization of children of French-African occupation soldiers, the so-called Rhineland half-castes.
+Date
+Political Event
+Medical Event
+Military Medical Ethics, Volume 2
+424
+1936
+18 October: Goring is put in charge of the economic
+“4-year plan,” which includes the rearmament of
+Germany. Drastic increase in work norms and productivity.
+1937
+End of year: A propaganda campaign by German
+Work Front reduces the average loss of working
+days due to illness from 23 days in 1933 to approximately 7 days in 1937.
+1938
+9 November: State organized pogrom against Jews
+throughout Germany (Kristallnecht).
+1939
+1 September: Beginning of World War II with the
+German assault on Poland.
+1940
+January: Shooting of mental patients is carried out
+in occupied Poland.
+1941
+22 June: Attack against the Soviet Union. The Special Forces of the SS (Schutzstaffel [protection echelon]) and the Wehrmach begin mass murder of
+Jews, Gypsies, mental patients, beggars and political officers of the Red Army.
+15 September: Nuremberg “Law for the Protection of
+German Blood and German Honor,” establishes criteria for defining Jews, prohibits marriages between Jews
+and “Aryans,” and limits other civil rights of Jews.
+18 October: Corollary to the Sterilization Law prohibits
+marriages between “genetically-diseased” and “healthy”
+people and mandates forcible abortion of fetuses of
+parents with “genetic illnesses” up to the 6th month of
+pregnancy.
+5 February: Decree by the Ministry of the Interior setting up an elaborate genetic registry for all patients in
+mental hospitals.
+November: Psychiatrist Robert Ritter begins working on
+the racial classification of Gypsies in the Reich Health
+Office in Berlin.
+Spring: Sterilization of the Rhineland half-castes is begun on the basis of expert reports from Fischer and
+other racial hygienists.
+30 September: Jewish physicians lose their licenses.
+Law is passed requiring that all twins be registered with
+Public Health Offices for the purpose of genetic research.
+18 August: Ordinance of the Ministry of the Interior
+obliges physicians and midwives to report newborn babies with deformities, marking the beginning of child
+“euthanasia.”
+1 September: Hitler’s Enabling Act for “euthanasia,” the
+“mercy killing” of mental patients, is backdated to this
+date.
+October: Questionnaires are distributed to mental hospitals. Using these questionnaires, leading psychiatrists
+decide which patients are to be granted a “mercy
+death” (ie, killed).
+January: The killing of mental patients using gas begins
+in a number of selected hospitals.
+End of year: Leading psychiatrists, eugenicists, and administrators discuss the issuance of a euthanasia law.
+Date
+Political Event
+Medical Event
+Nazi Medical Ethics: Ordinary Doctors?
+425
+11 December: Germany declares war on the United
+States
+1942
+20 January: Wannsee conference, where SS leaders
+and government officials discuss details of how the
+“final solution of the Jewish question” is to be organized. The deportation and killing of Jews has
+already started.
+16 December: Himmler orders the “final solution of
+the Gypsy question.” Gypsies are deported to
+Auschwitz.
+1943
+3 February: Surrender of the 6th German army in
+Stalingrad. Turn of the war in favor of the Allies.
+1944
+6 June: Allied troops land at Normandy/France.
+1945
+8 May: Surrender of Germany, end of World War II
+in Europe.
+1946 to 1947
+August: Following public protests by Catholic Bishop
+Count von Galen and other priests, the killing of mental patients using gas is stopped, but resumed shortly
+thereafter on a decentralized basis. Initial target of
+70,000 killings already achieved.
+Membership in Nazi Physicians’ League reaches 38,000,
+representing approximately half of all doctors in the
+country.
+January and February: Beginning of “terminal experiments” in low-pressure chambers on prisoners in
+Dachau. Other human experiments are carried out in
+ordinary medical and military institutions.
+15 August: Beginning of cold shock experiments on prisoners in Dachau.
+1 November: Fischer retires as director of the Kaiser
+Wilhelm Institute for Anthropology, Human Genetics,
+and Eugenics. Otmar von Verschuer becomes director.
+30 May: Josef Mengele becomes the camp doctor at
+Auschwitz, where he carries out research under von
+Verschuer’s remote supervision.
+9 March: The neuropathologist Julius Hallervorden reports receiving 697 brains for research from patients
+killed at Brandenburg Hospital.
+Summer and Autumn: Mengele has large quantities of
+body parts sent from Auschwitz to the Kaiser Wilhelm
+Institute for Anthropology, Human Genetics, and Eugenics in Berlin.
+9 December–19 July: Trial of the First US Military Court
+in Nuremberg against 23 physicians, SS officers, and
+administrators responsible for fatal human experiments in concentration camps and research institutes
+as well as for the euthanasia killings (known as the
+Nuremberg Doctors Trial).
+Developed from materials in an exhibit entitled The Value of the Human Being: Medicine in Germany 1918–1945. Berlin: A¨rztekammer
+Berlin; 1991: 48–52, with substantive edit by Dr. Robert Proctor (chapter author).
+Date
+Political Event
+Medical Event
+Military Medical Ethics, Volume 2
+426
+CHAPTER 14: ATTACHMENT
+EVENT 2: THE STERILIZATION LAW
+Law for the Prevention of Genetically Diseased Offspring, July 14, 1933 [summary of the key articles]
+1.
+Anyone who suffers from a genetic disease may be surgically sterilized if, in the judgment of medical science, it can be expected that his descendants will suffer from serious inherited mental or physical defects.
+Anyone who suffers from one of the following to be regarded as inheritably diseased within the meaning of
+this law: congenital feeble-mindedness, schizophrenia, manic-depression, congenital epilepsy, inheritable
+St. Vitus dance [Huntington’s Chorea], hereditary blindness, hereditary deafness, serious inheritable malformations. In addition, anyone suffering from chronic alcoholism may also be sterilized.
+2.
+Anyone who requests sterilization is entitled to it. If he be incapacitated or under a guardian because of low
+state of mental health or not yet 18 years of age, his legal guardian is empowered to make the request. In
+other cases of limited capacity the request must receive the approval of the legal representative. If a person
+be of age and has a nurse, the latter’s consent is required. The request must be accompanied by a certificate
+from a citizen who is accredited by the German Reich stating that the person to be sterilized has been
+informed about the nature and consequence of sterilization.
+3.
+Sterilization may also be recommended by the official physician or the official in charge of a hospital, sanitarium, or prison.
+4.
+The request for sterilization must be presented in writing to, or placed in writing by the Genetic Health
+Court. The request must be certified by a medical document or authenticated in some other way. The
+business office of the court must notify the official physician.
+. . .
+7.
+The proceedings of the Genetic Health Court are secret.
+. . .
+Source: Modified from http://www.mtsu.edu/-baustin/nurmlaw1.html. Accessed 3 December 2001.
+Nazi Medical Ethics: Ordinary Doctors?
+427
+CHAPTER 14: ATTACHMENT
+EVENT 3: THE NUREMBERG LAWS ON CITIZENSHIP AND RACE
+The Nuremberg Laws were three measures drawn up by the Nazi government and signed into law by Hitler in
+1935. The first of these, The Reich Citizenship Law, distinguished between citizens and [mere] residents to exclude Jews
+from citizenship based on race. The second of these, The Law for the Protection of German Blood and German Honor,
+forbade marriage and sexual relations between Jews and non-Jews. The third, The Law for the Protection of the Genetic
+Health of the German People (also known as the Marital Health Law) required couples to submit to medical examination
+before marriage to see if marriage might produce offspring suffering from any of the previously described “genetic
+infirmities” that were grounds for sterilization. Genetic “defectives” could marry if the other “engaged individual”
+was unable to procreate.
+I. The Reich Citizenship Law: 15 September 19351
+Article 1
+1.
+A subject of the State is a person who belongs to the protective union of the German Reich, and who therefore
+has particular obligations towards the Reich.
+2.
+The status of subject is acquired in accordance with the provisions of the Reich and State Law of Citizenship.
+Article 2
+1.
+A citizen of the Reich is that subject only who is of German or kindred blood and who, through his conduct,
+shows that he is both desirous and fit to serve the German people and Reich faithfully.
+2.
+The right to citizenship is acquired by the granting of Reich citizenship papers.
+3.
+Only the citizen of the Reich enjoys full political rights in accordance with the provision of the laws.
+Article 3
+The Reich Minister of the Interior in conjunction with the Deputy of the Fuehrer will issue the necessary
+legal and administrative decrees for carrying out and supplementing this law. Promulgated: 16 September
+1935. In force: 30 September 1935.
+The Reich Citizenship Law: First Regulation (14 November 1935)
+Article 1
+1.
+Until further regulations regarding citizenship papers are issued, all subjects of German or kindred blood,
+who possessed the right to vote in Reichstag elections at the time the Citizenship Law came into effect, shall
+for the time being possess the rights of Reich citizens. The same shall be true of those to whom the Reich
+Minister of the Interior, in conjunction with the Deputy of the Fuehrer, has given preliminary citizenship.
+2.
+The Reich Minister of the Interior, in conjunction with the Deputy of the Fuehrer, can withdraw the preliminary citizenship.
+Article 2
+1.
+The regulations in Article 1 are also valid for Reich subjects of mixed Jewish blood.
+2.
+An individual of mixed Jewish blood is one who is descended from one or two grandparents who were
+racially full Jews, in so far as he or she does not count as a Jew according to Article 5, paragraph 2. One
+grandparent shall be considered as full-blooded if he or she belonged to the Jewish religious community.
+Article 3
+Only the Reich citizen, as bearer of full political rights, exercises the right to vote in political affairs or can
+hold public office. The Reich Minister of the Interior, or any agency empowered by him, can make exceptions during the transition period, with regard to occupation of public office. The affairs of religious organizations will not be affected.
+Article 4
+1.
+A Jew cannot be a citizen of the Reich. He has no right to vote in political affairs and he cannot occupy
+public office.
+Military Medical Ethics, Volume 2
+428
+2.
+Jewish officials will retire as of 31 December 1935. If these officials served at the front in the world war,
+either for Germany or her allies, they will receive in full, until they reach the age limit, the pension to which
+they were entitled according to the salary they last received; they will, however, not advance in seniority.
+After reaching the age limit, their pensions will be calculated anew, according to the salary last received, on
+the basis of which their pension was computed.
+3.
+The affairs of religious organizations will not be affected.
+4.
+The conditions of service of teachers in Jewish public schools remain unchanged until new regulations for
+the Jewish school systems are issued.
+Article 5
+1.
+A Jew is anyone who is descended from at least three grandparents who are racially full Jews. Article 2,
+para. 2, second sentence will apply.
+2.
+A Jew is also one who is descended from two full Jewish parents, if (a) he belonged to the Jewish religious
+community at the time this law was issued, or joined the community later, (b) he was married to a Jewish
+person, at the time the law was issued, or married one subsequently, (c) he is the offspring of a marriage
+with a Jew, in the sense of Section I, which was contracted after the Law for the Protection of German Blood and
+German Honor became effective, (d) he is the offspring of an extramarital relationship with a Jew, according
+to Section I, and will be born out of wedlock after 31 July 1936.
+Article 6
+1.
+Requirements for the pureness of blood as laid down in Reich Law or in orders of the NSDAP and its
+echelons—not covered in Article 5—will not be affected.
+2.
+Any other requirements for the pureness of blood, not covered in Article 5, can be made only by permission
+of the Reich Minister of the Interior and the Deputy Fuehrer. If any such demands have been made, they
+will be void as of 1 January 1936, if they have not been requested by the Reich Minister of the Interior in
+agreement with the Deputy Fuehrer. These requests must be made by the Reich Minister of the Interior.
+Article 7
+The Fuehrer and Reich Chancellor can grant exemptions from the regulations laid down in the law.
+II. Law for the Protection of German Blood and German Honor: 15 September 19352
+Convinced that the purity of German blood is crucial for the survival of the German people, and moved by the will to
+safe-guard the German nation for the future, the Reichstag has resolved the following, unanimously, promulgated
+herewith [summary of Sections 1–7]:
+1.
+Marriages between Jews and nationals of German or kindred blood are forbidden. Marriages performed in
+defiance of this law are void, even if, for the purpose of evading this law, they are concluded abroad. Annulments may be initiated only by the Public Prosecutor.
+2.
+Sexual relations between Jews and Germans or peoples of kindred blood are forbidden.
+3.
+Jews are not permitted to employ female nationals of German or kindred blood in their households.
+4.
+Jews are forbidden to hoist the national flag or to present the colors of the Reich. They are, however, permitted to present the Jewish colors. The exercise of this right is protected by the State.
+5.
+A person who acts contrary to the prohibition of Section 1 will be punished with hard labor. A person who
+acts contrary to the prohibition of Section 2 will be punished with imprisonment or hard labor. A person
+who acts contrary to Section 3 or 4 will be punished with imprisonment up to a year and a fine or with one
+of these other penalties.
+6.
+The Reich Minister of the Interior in agreement with the Deputy of the Fuehrer will issue the legal and
+administrative regulations which are required for the implementation and supplementation of this law.
+7.
+The law will become effective on the day after promulgation, Section 3, however, only on 1 January 1936.
+Nuremberg, the 15th day of September 1935 at the Reich Party Rally of Freedom.
+The Fuehrer and Reich Chancellor:
+Adolph Hitler
+The Reich Minister of the Interior:
+Frick
+The Reich Minister of Justice:
+Dr. Gürtner
+The Deputy of the Fuehrer:
+R. Hess
+Nazi Medical Ethics: Ordinary Doctors?
+429
+III:
+The Law for the Protection of the Genetic Health of the German People: 18 October 19353
+1.
+(1)
+A marriage cannot be completed:
+(a) if one of the engaged suffers from an infectious disease which may result in a significant damage
+to the health of either of the partners or the offspring,
+(b) if one of the engaged is legally mentally disabled (a ward of the state) or has been placed under
+temporary guardianship,
+(c)
+if one of the engaged, even if not legally mentally disabled, suffers from a mental disability which
+renders the marriage undesirable for the population,
+(d) if one of the engaged suffers from an inherited illness as defined by the law for the prevention of
+descendants.
+(2)
+The condition defined in Section 1d does not apply to marriages if the other engaged individual is
+unable to procreate.
+2.
+Prior to their marriage the engaged have to demonstrate via a marriage competency certificate obtained
+from the (district) health office that any restrictions listed in Section 1 do not apply to them.
+3.
+(1)
+A marriage that has been completed even though the restrictions of Section 1 apply is invalid if the
+health office certificate has been obtained, or if the cooperation of the official completing the marriage
+ceremony has been generated by knowingly false statements. The marriage is also invalid if the marriage was completed in other countries for the purpose of avoiding the legal restrictions. A court case
+to invalidate the marriage can only be initiated by the state prosecutor.
+(2)
+The marriage is valid as of the day of its initiation if the conditions leading to the restrictions later no
+longer apply.
+4.
+(1)
+Anyone who illegally engages in a prohibited (see Section 3) marriage will be imprisoned for no less
+than three months. Attempts toward that purpose are also punishable.
+(2)
+A court case against persons competing a prohibited marriage will only be initiated if the marriage has
+been declared invalid.
+5.
+(1)
+The prescriptions of this law are not applicable, if both of the engaged or if the groom are foreign
+nationals.
+(2)
+A court case against a foreign national is only possible on order of the Minister of Justice in cooperation with the Minister of the Interior.
+6.
+The Minister of the Interior can permit exceptions from the restrictions of this law.
+7.
+The Minister of the Interior, in coordination with the Fuehrer and the Minister of Justice will generate
+decrees on methods as well as additional details toward legal and administrative application of the law.
+8.
+(1)
+The law becomes effective the day after its publication
+(2)
+The time point when Section 2 is effective will be determined by the Minister of the Interior. Up to that
+point in time, a marriage competency certificate should be provided only where doubts exist.
+Berlin, 14 November 1935
+Fuehrer and Chancellor
+Adolf Hitler
+Minister of the Interior
+Frick
+Deputy of the Fuehrer R. Hess, Minister Without a Department
+Minister of Justice Dr. Gürtner
+First Decree on the Application of the Marriage Health Law of 29 November 1935
+1.
+Obtainment of a marriage competency certificate is a component of marriage counseling to be obtained
+from the relevant District Health Office (Counseling Office for “Heritance and Racecare”).
+2.
+(1)
+To obtain a marriage competency certificate, the engaged individual must undergo a medical examination by the Health Office in the district where he/she resides or spends extended time. If the engaged
+resides or spends extensive time in a foreign country, he may apply for the medical examination at any
+German Health Office. The Health Office is required to investigate the genetic health condition of the
+engaged.
+(2)
+The engaged is permitted to seek the medical examination by a private practicing physician who has
+been authorized for this purpose by the national medical leader. The result of the medical examination
+is to be documented on a form page that is to be submitted to the relevant Health Office. The Health
+Office is required to base its conclusions on the result of that medical examination.
+Military Medical Ethics, Volume 2
+430
+(3)
+If one of the engaged lives or normally resides in a foreign country, a foreign physician can complete
+the medical examination if that physician’s reliability has been certified by the German Consul of diplomatic representative after consultation with the relevant political leader of the [Nazi Party].
+3.
+Until Section 2 of the law is in force, the marriage competency certificate is only required if the official
+performing the ceremony has reasoned doubts that conditions limiting conditions in line with Section 1 of
+the Marriage Health Law or Section 6 of the First Decree on the Application of the Marriage Health Law for
+the purpose of the protection of German blood and German honor (National Law Publication I S. 1334)
+exist.
+4.
+The marriage competency certificate is generated by the Health Office that is responsible for the medical
+examination of the bride. If that Health Office is not also responsible for the medical examination of the
+groom, the certificate is not to be completed until documentation about the health of the groom is available.
+Sources: (1) Available at: http://www.us-israel.org/jsource/Holocaust/nurmlaw3.html; accessed 27 September 2002. (2) Available
+at: http://www. us-israel.org/jsource/Holocaust/nurmlaw4.html; accessed 27 September 2002. (3) German version provided by
+the United States Holocaust Memorial Museum, Washington, DC. Translation courtesy of Siegfried Streufert, PhD, Professor Emeritus,
+Department of Behavioral Science, College of Medicine, Pennsylvania State University, Hershey, Pennsylvania.
+Nazi Medical Ethics: Ordinary Doctors?
+431
+CHAPTER 14: ATTACHMENT
+EVENT 4: THE WANNSEE PROTOCOL FOR “THE FINAL SOLUTION”
+On 20 January 1942 Reinhard Heydrich, Head of the Reichs Security Main Office (Reichssicherheitshauptamt), chaired
+a meeting of 14 high-ranking civil servants and SS [Schutzstaffel {“protection echelon”}] officers in a mansion in Berlin. As the decision to murder the Europeans Jews had been made earlier, the meeting was concerned with the organization and implementation of “The Final Solution,” the decision to deport the Jews of Europe to the East and to
+murder them. The meeting has become known as the “Wannsee Conference,” because of the street address of the
+mansion. In 1947 the minutes of the conference recorded by Adolf Eichmann were found in the files of the German
+Foreign Office. The document was used at the Nuremberg Tribunal. The following is a reformatted version of the
+English translation.
+Minutes of discussion.
+I.
+The following persons [in addition to Reinhard Heydrich] took part in the discussion about the final solution of
+the Jewish question, which took place in Berlin, am Grossen Wannsee No. 56/58 on 20 January 1942.
+Position/Name
+Organization
+Gauleiter Dr. Meyer
+Reich Ministry for the Occupied Eastern territories
+Reichsamtleiter Dr. Leibbrandt
+Secretary of State Dr. Stuckart
+Reich Ministry for the Interior
+Secretary of State Neumann
+Plenipotentiary for the Four Year Plan
+Secretary of State Dr. Freisler
+Reich Ministry of Justice
+Secretary of State Dr. Bühler
+Office of the Government General
+Under Secretary of State Dr. Luther
+Foreign Office
+SS-Oberführer Klopfer
+Party Chancellery
+Ministerialdirektor Kritzinger
+Reich Chancellery
+SS-Gruppenführer Hofmann
+Race and Settlement Main Office
+SS-Gruppenführer Müller
+Reich Main Security Office
+SS-Obersturmbannführer Eichmann
+SS-Oberführer Dr. Schöngarth, Commander of the Security
+Security Police and SD [sicherheitsdienst {“security
+Police and the SD in the Government General
+office”}]
+SS-Sturmbannführer Dr. Lange, Commander of the Security
+Security Police and SD
+Police and the SD for the General-District Latvia, as deputy
+of the Commander of the Security Police and the SD for the
+Reich Commissariat “Eastland”
+II.
+At the beginning of the discussion Chief of the Security Police and of the SD, SS-Obergruppenführer Heydrich,
+reported that the Reich Marshal had appointed him delegate for the preparations for the final solution of the
+Jewish question in Europe and pointed out that this discussion had been called for the purpose of clarifying fundamental questions. The wish of the Reich Marshal to have a draft sent to him concerning organizational, factual
+and material interests in relation to the final solution of the Jewish question in Europe makes necessary an initial
+common action of all central offices immediately concerned with these questions in order to bring their general
+activities into line. The Reichsführer-SS and the Chief of the German Police (Chief of the Security Police and the
+SD) was entrusted with the official central handling of the final solution of the Jewish question without regard to
+geographic borders. The Chief of the Security Police and the SD then gave a short report of the struggle which has
+been carried on thus far against this enemy, the essential points being the following: (a) the expulsion of the Jews
+from every sphere of life of the German people, and (b) the expulsion of the Jews from the living space of the
+German people.
+Military Medical Ethics, Volume 2
+432
+In carrying out these efforts, an increased and planned acceleration of the emigration of the Jews from Reich
+territory was started, as the only possible present solution. By order of the Reich Marshal, a Reich Central Office
+for Jewish Emigration was set up in January 1939 and the Chief of the Security Police and SD was entrusted with
+the management. Its most important tasks were (a) to make all necessary arrangements for the preparation for an
+increased emigration of the Jews, (b) to direct the flow of emigration, and (c) to speed the procedure of emigration
+in each individual case. The aim of all this was to cleanse German living space of Jews in a legal manner.
+All the offices realized the drawbacks of such enforced accelerated emigration. For the time being they had, however, tolerated it on account of the lack of other possible solutions of the problem. The work concerned with
+emigration was, later on, not only a German problem, but also a problem with which the authorities of the countries to which the flow of emigrants was being directed would have to deal. Financial difficulties, such as the
+demand by various foreign governments for increasing sums of money to be presented at the time of the landing,
+the lack of shipping space, increasing restriction of entry permits, or the cancelling of such, increased extraordinarily the difficulties of emigration. In spite of these difficulties, 537,000 Jews were sent out of the country between the takeover of power and the deadline of 31 October 1941. Of these approximately 360,000 were in Germany proper on 30 January 1933; approximately 147,000 were in Austria (Ostmark [sic]) on 15 March 1939; and
+approximately 30,000 were in the Protectorate of Bohemia and Moravia on 15 March 1939.
+The Jews themselves, or their Jewish political organizations, financed the emigration. In order to avoid impoverished Jews’ remaining behind, the principle was followed that wealthy Jews have to finance the emigration of
+poor Jews; this was arranged by imposing a suitable tax, i.e., an emigration tax, which was used for financial
+arrangements in connection with the emigration of poor Jews and was imposed according to income.
+Apart from the necessary Reichsmark exchange, foreign currency had to presented at the time of landing. In order
+to save foreign exchange held by Germany, the foreign Jewish financial organizations were—with the help of
+Jewish organizations in Germany—made responsible for arranging an adequate amount of foreign currency. Up to
+30 October 1941, these foreign Jews donated a total of around 9,500,000 dollars [sic]. In the meantime the
+Reichsführer-SS and Chief of the German Police had prohibited emigration of Jews due to the dangers of an emigration in wartime and due to the possibilities of the East.
+III.
+Another possible solution of the problem has now taken the place of emigration, i.e. the evacuation of the Jews to
+the East, provided that the Führer gives the appropriate approval in advance. These actions are, however, only to
+be considered provisional, but practical experience is already being collected which is of the greatest importance
+in relation to the future final solution of the Jewish question.
+Approximately 11 million Jews will be involved in the final solution of the European Jewish question, distributed
+as follows [numbers of Jews in parentheses] among the individual countries: Germany proper (131,800); Austria
+(43,700); Eastern territories (420,000); General Government (2,284,000); Bialystok (400,000); Protectorate Bohemia
+and Moravia (74,200); Estonia (“free of Jews”); Latvia (3,500); Lithuania (34,000); Belgium (43,000); Denmark (5,600);
+France/occupied territory (165,000), unoccupied territory (700,000); Greece (69,600); Netherlands (160,800); Norway (1,300); Bulgaria (48,000); England (330,000); Finland (2,300); Ireland (4,000); Italy including Sardinia (58,000);
+Albania (200); Croatia (40,000); Portugal (3,000); Rumania including Bessarabia (342,000); Sweden (8,000); Switzerland (18,000); Serbia (10,000); Slovakia (88,000); Spain (6,000); Turkey (European portion) (55,500); Hungary
+(742,800); USSR [Union of Soviet Socialist Republics] (5,000,000, of which Ukraine has 2,994,684 and White Russia,
+excluding Bialystok, has 446,484).
+The total is over 11,000,000. The number of Jews given here for foreign countries includes, however, only those
+Jews who still adhere to the Jewish faith, since some countries still do not have a definition of the term “Jew”
+according to racial principles. The handling of the problem in the individual countries will meet with difficulties
+due to the attitude and outlook of the people there, especially in Hungary and Rumania. Thus, for example, even
+today the Jew can buy documents in Rumania that will officially prove his foreign citizenship. The influence of the
+Jews in all walks of life in the USSR is well known. Approximately 5 million Jews live in the European part of the
+USSR, in the Asian part scarcely 1/4 million.
+The breakdown of Jews residing in the European part of the USSR according to trades was approximately as
+follows: agriculture (9. 1%); urban workers (14. 8%); in trade (20. 0%); employed by the state (23. 4%); in private
+occupations such as medical profession, press, theater, etc. (32. 7%). Under proper guidance, in the course of the
+final solution the Jews are to be allocated for appropriate labor in the East. Able-bodied Jews, separated according
+to sex, will be taken in large work columns to these areas for work on roads, in the course of which action doubtless a large portion will be eliminated by natural causes.
+The possible final remnant will, since it will undoubtedly consist of the most resistant portion, have to be treated
+accordingly, because it is the product of natural selection and would, if released, act as a the seed of a new Jewish
+Nazi Medical Ethics: Ordinary Doctors?
+433
+revival (see the experience of history.) In the course of the practical execution of the final solution, Europe will be
+combed through from west to east. Germany proper, including the Protectorate of Bohemia and Moravia, will
+have to be handled first due to the housing problem and additional social and political necessities. The evacuated
+Jews will first be sent, group by group, to so-called transit ghettos, from which they will be transported to the East.
+SS-Obergruppenführer Heydrich went on to say that an important prerequisite for the evacuation as such is the
+exact definition of the persons involved. It is not intended to evacuate Jews over 65 years old, but to send them to
+an old-age ghetto—Theresienstadt is being considered for this purpose. In addition to these age groups—of the
+approximately 280,000 Jews in Germany proper and Austria on 31 October 1941, approximately 30% are over 65
+years old—severely wounded veterans and Jews with war decorations (Iron Cross I) will be accepted in the oldage ghettos. With this expedient solution, in one fell swoop many interventions will be prevented. The beginning
+of the individual larger evacuation actions will largely depend on military developments. Regarding the handling
+of the final solution in those European countries occupied and influenced by us, it was proposed that the appropriate expert of the Foreign Office discuss the matter with the responsible official of the Security Police and SD.
+In Slovakia and Croatia the matter is no longer so difficult, since the most substantial problems in this respect have
+already been brought near a solution. In Rumania the government has in the meantime also appointed a commissioner
+for Jewish affairs. In order to settle the question in Hungary, it will soon be necessary to force an adviser for Jewish
+questions onto the Hungarian government. With regard to taking up preparations for dealing with the problem in Italy,
+SS-Obergruppenführer Heydrich considers it opportune to contact the chief of police with a view to these problems. In
+occupied and unoccupied France, the registration of Jews for evacuation will in all probability proceed without great
+difficulty. Under Secretary of State Luther calls attention in this matter to the fact that in some countries, such as the
+Scandinavian states, difficulties will arise if this problem is dealt with thoroughly and that it will therefore be advisable
+to defer actions in these countries. Besides, in view of the small numbers of Jews affected, this deferral will not cause
+any substantial limitation. The Foreign Office sees no great difficulties for southeast and western Europe.
+SS-Gruppenführer Hofmann plans to send an expert to Hungary from the Race and Settlement Main Office for
+general orientation at the time when the Chief of the Security Police and SD takes up the matter there. It was
+decided to assign this expert from the Race and Settlement Main Office, who will not work actively, as an assistant
+to the police attaché.
+IV.
+In the course of the final solution plans, the Nuremberg Laws should provide a certain foundation, in which a
+prerequisite for the absolute solution of the problem is also the solution to the problem of mixed marriages and
+persons of mixed blood. The Chief of the Security Police and the SD discusses the following points, at first theoretically, in regard to a letter from the chief of the Reich chancellery:
+(1) Treatment of Persons of Mixed Blood of the First Degree: Persons of mixed blood of the first degree will, as
+regards the final solution of the Jewish question, be treated as Jews. From this treatment the following exceptions will be made: (a) Persons of mixed blood of the first degree married to persons of German blood if their
+marriage has resulted in children (persons of mixed blood of the second degree). These persons of mixed
+blood of the second degree are to be treated essentially as Germans. (b) Persons of mixed blood of the first
+degree, for whom the highest offices of the Party and State have already issued exemption permits in any
+sphere of life. Each individual case must be examined, and it is not ruled out that the decision may be made to
+the detriment of the person of mixed blood. The prerequisite for any exemption must always be the personal
+merit of the person of mixed blood. (Not the merit of the parent or spouse of German blood.) Persons of mixed
+blood of the first degree who are exempted from evacuation will be sterilized in order to prevent any offspring and to eliminate the problem of persons of mixed blood once and for all. Such sterilization will be
+voluntary. But it is required to remain in the Reich. The sterilized “person of mixed blood” is thereafter free of
+all restrictions to which he was previously subjected.
+(2) Treatment of Persons of Mixed Blood of the Second Degree: Persons of mixed blood of the second degree will
+be treated fundamentally as persons of German blood, with the exception of the following cases, in which the
+persons of mixed blood of the second degree will be considered as Jews: (a) The person of mixed blood of the
+second degree was born of a marriage in which both parents are persons of mixed blood. (b) The person of
+mixed blood of the second degree has a racially especially undesirable appearance that marks him outwardly
+as a Jew. (c) The person of mixed blood of the second degree has a particularly bad police and political record
+that shows that he feels and behaves like a Jew. Also in these cases exemptions should not be made if the
+person of mixed blood of the second degree has married a person of German blood.
+(3) Marriages between Full Jews and Persons of German Blood: Here it must be decided from case to case whether
+the Jewish partner will be evacuated or whether, with regard to the effects of such a step on the German
+relatives, [this mixed marriage] should be sent to an old-age ghetto.
+Military Medical Ethics, Volume 2
+434
+(4) Marriages between Persons of Mixed Blood of the First Degree and Persons of German Blood: (a) Without
+Children—If no children have resulted from the marriage, the person of mixed blood of the first degree will
+be evacuated or sent to an old-age ghetto (same treatment as in the case of marriages between full Jews and
+persons of German blood, point 3.) (b) With Children—If children have resulted from the marriage (persons of
+mixed blood of the second degree), they will, if they are to be treated as Jews, be evacuated or sent to a ghetto
+along with the parent of mixed blood of the first degree. If these children are to be treated as Germans (regular
+cases), they are exempted from evacuation as is therefore the parent of mixed blood of the first degree.
+(5) Marriages between Persons of Mixed Blood of the First Degree and Persons of Mixed Blood of the First Degree
+or Jews: In these marriages (including the children) all members of the family will be treated as Jews and
+therefore be evacuated or sent to an old-age ghetto.
+(6) Marriages between Persons of Mixed Blood of the First Degree and Persons of Mixed Blood of the Second
+Degree: In these marriages both partners will be evacuated or sent to an old-age ghetto without consideration
+of whether the marriage has produced children, since possible children will as a rule have stronger Jewish
+blood than the Jewish person of mixed blood of the second degree.
+SS-Gruppenführer Hofmann advocates the opinion that sterilization will have to be widely used, since the person
+of mixed blood who is given the choice whether he will be evacuated or sterilized would rather undergo sterilization. State Secretary Dr. Stuckart maintains that carrying out in practice of the just mentioned possibilities for
+solving the problem of mixed marriages and persons of mixed blood will create endless administrative work. In
+the second place, as the biological facts cannot be disregarded in any case, State Secretary Dr. Stuckart proposed
+proceeding to forced sterilization. Furthermore, to simplify the problem of mixed marriages possibilities must be
+considered with the goal of the legislator saying something like: “These marriages have been dissolved.”
+With regard to the issue of the effect of the evacuation of Jews on the economy, State Secretary Neumann stated
+that Jews who are working in industries vital to the war effort, provided that no replacements are available, cannot be evacuated. SS-Obergruppenführer Heydrich indicated that these Jews would not be evacuated according to
+the rules he had approved for carrying out the evacuations then underway.
+State Secretary Dr. Bühler stated that the General Government would welcome it if the final solution of this problem could be begun in the General Government, since on the one hand transportation does not play such a large
+role here nor would problems of labor supply hamper this action. Jews must be removed from the territory of the
+General Government as quickly as possible, since it is especially here that the Jew as an epidemic carrier represents an extreme danger and on the other hand he is causing permanent chaos in the economic structure of the
+country through continued black market dealings. Moreover, of the approximately 2 1/2 million Jews concerned,
+the majority is unfit for work. State Secretary Dr. Bühler stated further that the solution to the Jewish question in
+the General Government is the responsibility of the Chief of the Security Police and the SD and that his efforts
+would be supported by the officials of the General Government. He had only one request, to solve the Jewish
+question in this area as quickly as possible.
+In conclusion the different types of possible solutions were discussed, during which discussion both Gauleiter Dr.
+Meyer and State Secretary Dr. Bühler took the position that certain preparatory activities for the final solution
+should be carried out immediately in the territories in question, in which process alarming the populace must be
+avoided. The meeting was closed with the request of the Chief of the Security Police and the SD to the participants
+that they afford him appropriate support during the carrying out of the tasks involved in the solution.
+Source: House of the Wannsee-Conference, Memorial and Educational Site, Grossen Wannsee No. 56/58, Berlin, Germany. Available at http://www. info@ghwk.de. Accessed 19 November 2001.
+Nazi Medical Ethics: Ordinary Doctors?
+435
+CHAPTER 14: ATTACHMENT
+EVENT 5: JUDGMENT AT NUREMBERG
+Overview: The Doctors’ Trial, also known as the “Medical Case,” was tried at the Palace of Justice in postwar
+Nuremberg, Germany; that city was selected for the trial because it was where the Nuremberg Laws had been written. The trial was Case No. 1 of Military Tribunal I and was officially designated “United States of America v. Karl
+Brandt et al.” The prosecutors’ opening remarks were made on 9 December 1946. The trial of the 23 defendants was
+convened 139 times over 8 months, producing 85 witnesses, 1,471 documents, and 11,538 pages of transcript. The
+judgment was delivered on 19 August 1947: 16 guilty and 7 acquitted. Of those found guilty, 7 were sentenced to
+death, 5 were sentenced to life in prison, and the remaining 4 were given lesser sentences. The death sentences (by
+hanging) were carried out on 2 June 1948.
+The Legal Basis of the Trial: The trial was conducted under US military auspices according to the Moscow Declaration on German Atrocities (1 November 1943, signed by Franklin Roosevelt, Winston Churchill, and Josef Stalin),
+Executive Order 9547 (2 May 1945, signed by Harry Truman), and the London Agreement (8 August 1945, signed by
+representatives of the United States, the French Republic, the United Kingdom, and the Union of Soviet Social Republics [the “Four Powers”]). The charter of the International Military Tribunal was drawn up, and Control Council
+Law No. 10 established a uniform legal basis in Germany for the prosecution of war crimes and related offenses. The
+law also established articles for the punishment of persons guilty of war crimes, crimes against peace, and crimes
+against humanity.
+The Counts of the Indictment: The opening statement, delivered by the chief prosecutor, Brigadier General Telford
+Taylor, was delivered 9 December 1946. In it he detailed the medical activities covered by the counts of the indictment: (a) CRIMES COMMITTED IN THE GUISE OF SCIENTIFIC RESEARCH (High-Altitude Experiments; Freezing
+Experiments; Malaria Experiments; Mustard Gas Experiments; Ravensbrueck Experiments Concerning Sulfanilamide
+and Other Drugs [as well as] Bone, Muscle, and Nerve Regeneration and Bone Transplantation; Sea-Water Experiments); (b) EPIDEMIC JAUNDICE; (c) STERILIZATION EXPERIMENTS; (d) TYPHUS (FLECKFIEBER) AND RELATED
+EXPERIMENTS; (e) POISON EXPERIMENTS; (f) INCENDIARY BOMB EXPERIMENTS; and (g) JEWISH SKELETON
+COLLECTION.
+Trial Remarks of Telford Taylor: “I pass now to the facts of the case in hand. There are 23 defendants in the box. All
+but three of them…are doctors. Of the 20 doctors, all but one…held positions in the medical services of the Third
+Reich.”1(p69) “The 20 physicians in the dock range from the leaders of German scientific medicine, with excellent
+international reputations, down to the dregs of the German medical profession. All of them have in common a callous lack of consideration and human regard for, and an unprincipled willingness to abuse their power over, the
+poor, unfortunate, defenseless creatures who have been deprived of their rights by the ruthless and criminal
+government.…The part that each of these 20 physicians and their 3 lay accomplices played in the conspiracy and its
+execution corresponds closely to his professional interests in his place in the hierarchy of the Third Reich….”1(p87)
+The Defendants, the Verdicts, and the Punishments:
+Name
+Position
+Verdict/ Punishment
+Personal physician to Adolf Hitler; Gruppenfuehrer in the SS
+and Major General in the Waffen SS; Reich Commissioner
+for Health and Sanitation; and member of the Reich Research
+Council
+Lieutenant General, Medical Service; Medical Inspector of the
+Army; and Chief of the Medical Services of the Armed Forces
+Chief Surgeon of the Surgical Clinic in Berlin; Surgical Adviser to the Army; and Chief of the Office for Medical Science and Research under the defendant Karl Brandt
+Lieutenant General, Medical Service; Chief of Staff of the Inspectorate of the Medical Service of the Luftwaffe; and Chief
+of the Medical Service of the Luftwaffe
+Gruppenfuehrer in the SS and Major General in the Waffen
+SS; and Chief of the Medical Department of the Waffen SS
+Gruppenfuehrer in the SS and Major General in the Waffen
+SS; personal physician to Reichsfuehrer SS Himmler; Chief
+Surgeon of the Staff of the Reich Physician SS and Police;
+and President of the German Red Cross
+Guilty/Death by hanging
+Guilty/Life in prison
+Acquitted
+Guilty/Life in prison
+Guilty/Life in prison
+Guilty/Death by hanging
+Karl Brandt, MD
+Siegfried Handloser, MD
+Paul Rostock, MD
+Oskar Schroeder, MD
+Karl Genzken, MD
+Karl Gebhardt, MD
+Military Medical Ethics, Volume 2
+436
+Acquitted
+Guilty/Death by hanging
+Guilty/Death by hanging
+Guilty/10 years in prison
+Guilty/Death by hanging
+Guilty/Life in prison
+Acquitted
+Acquitted
+Guilty/Death by hanging
+Guilty/20 years in prison
+Acquitted
+Acquitted
+Guilty/Death by hanging
+Guilty/15 years in prison
+Acquitted
+Guilty/20 years in prison
+Guilty/Life in prison
+Deputy of the Reich Health Leader; and Plenipotentiary for
+Cancer Research in the Reich Research Council
+Colonel in the Allgemeine SS; Personal Administrative officer
+to Reichsfuehrer SS Himmler; and Ministerial Counsellor
+and Chief of the Ministerial office in the Reich Ministry of
+the Interior
+Senior Colonel in the Waffen SS; Chief Hygienist of the Reich
+Physician SS and Police; and Chief of the Hygienic Institute
+of the Waffen SS
+Senior Colonel in the SS; and Chief of the Personal Staff of
+the Reich Physician SS and Police
+Colonel in the SS; Reich Manager of the “Ahnenerbe” Society
+and Director of its Institute for Military Scientific Research;
+and Deputy Chairman of the Managing Board of Directors
+of the Reich Research Council
+Brigadier General, Medical Service of the Air Force; Vice President, Chief of the Department for Tropical Medicine, and
+Professor of the Robert Koch Institute; and Hygienic Adviser
+for Tropical Medicine to the Chief of the medical Service of
+the Luftwaffe
+Director of the Department for Aviation Medicine at the German Experimental Institute for Aviation
+Doctor on the Staff of the Department for Aviation Medicine
+at the German Experimental Institute for Aviation
+Senior Colonel in the SS and Major in the Waffen SS; and Chief
+Administrative Officer in the Chancellery of the Fuehrer of
+the NSDAP [Nationalsocialistische Deutsche Arbeiterpartei {National Socialist German Worker’s Party}]
+Captain, Medical Service of the Air Force; and Chief of the
+Department for Aviation Medicine of the Chief of the Medical Service of the Luftwaffe
+Lieutenant Colonel, Medical Service of the Air Force; and
+Chief of the Institute for Aviation Medicine in Munich
+Doctor of the Staff of the Institute for Aviation Medicine in
+Berlin
+Captain in the Waffen SS; and Chief Doctor of the Buchenwald
+Concentration Camp
+Consulting Physician to the Luftwaffe
+Physician, Specialist in Skin and Venereal Diseases
+Physician at the Ravensbrueck Concentration Camp; and Assistant Physician to the defendant Gebhardt at the Hospital
+at Hohenlychen
+Major in the Waffen SS; and Assistant Physician to the defendant Gebhardt at the Hospital at Hohenlychen
+Name
+Position
+Verdict/ Punishment
+Kurt Blome, MD*
+Rudolf Brandt
+Joachim Mrugowsky, MD
+Helmut Poppendick, MD
+Wolfram Sievers
+Gerhard Rose, MD
+Siegfried Ruff, MD*
+Hans Wolfgang Romberg,
+MD
+Viktor Brack
+Hermann BeckerFreyseng, MD*
+Georg August Weltz, MD
+Konrad Schaefer, MD*
+Waldemar Hoven, MD
+Wilhelm Beiglboeck, MD
+Adolf Pokorny, MD
+Herta Oberheuser, MD
+Fritz Fischer, MD
+*Of these four defendants, three were employed before the Tribunal was convened, and one after, by the US military in a project
+called “Operation Paperclip,” a government program that brought selected German scientists to America to work on research
+during the Cold War. Adapted with permission from Annas GJ, Grodin MA, eds. The Nazi Doctors and the Nuremberg Code: Human
+Rights in Human Experimentation. New York: Oxford University Press; 1992: 4, 63–69, 87, 105–107.

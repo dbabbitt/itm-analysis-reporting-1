@@ -1,0 +1,571 @@
+225
+Health Information Systems
+Chapter 15
+HEALTH INFORMATION SYSTEMS
+MICHAEL J. STONE, MBA, MHA*
+INTRODUCTION
+DEFINITIONS
+Information Systems
+Health Information Systems
+Health Information Technology 
+Telehealth
+RELEVANCE OF INFORMATION SYSTEMS TO MILITARY HEALTHCARE 
+PROVIDERS
+TYPES OF HEALTH INFORMATION SYSTEMS
+PRINCIPLES OF EFFECTIVE MILITARY HEALTH INFORMATION SYSTEM 
+EMPLOYMENT
+Requirements Identification
+Health Information Systems as a Component of a Comprehensive Health Delivery 
+System
+Cyber Security
+Affordability and Sustainability
+Provider and End-User Efficiency
+MILITARY-SPECIFIC HEALTH INFORMATION SYSTEMS REQUIREMENTS
+Interoperable
+Operationally Viable
+Sustainable and Dynamic
+OTHER HEALTH INFORMATION SYSTEMS CONSIDERATIONS FOR MILITARY 
+MEDICAL OFFICERS
+Procurement and Requirements Definition
+Virtual Health Information Systems in Military Operations
+Dependents in a Joint Military Environment
+SUMMARY
+*Lieutenant Colonel, Medical Service Corps, US Air Force; Assistant Professor, Department of Military & Emergency Medicine, Uniformed Services 
+University of the Health Sciences, Bethesda, Maryland
+226
+Fundamentals of Military Medicine
+INTRODUCTION
+keystones of medical operations in theater and at home. 
+HISs play an integral role in military medicine. To 
+maximize their effectiveness, medical officers must accurately identify requirements of HISs and constantly 
+work to improve prevention of disease, non-battle, 
+and combat injuries; to enable diagnosis; to mitigate 
+the effects of these illnesses and injuries; to optimize 
+recovery; and to eliminate waste from healthcare delivery procedures. 
+Just as battlefield information is critical to understanding and managing the tactical and operational 
+environment, medical information is critical for the uniformed medical community to conduct essential medical operations. Whether it is a simple communication 
+system such as a handwritten prescription medication 
+order or a more advanced treatment system such as the 
+proper application of concentrated energy to eradicate 
+cancer cells, health information systems (HISs) are 
+DEFINITIONS
+Information Systems
+An information system (IS) is any mechanism 
+whereby information can be communicated and acted 
+on by one or more actors. For example, a checklist 
+created for the week at the office is a system designed 
+to keep individual and team energies and efforts appropriately focused. Epidemiological data comprises 
+an IS designed to focus the limited resources and 
+expertise of the medical and sanitation community 
+on the key points of disease transmission. The data 
+collected can help researchers discern the origin of a 
+disease outbreak and potential action points to end an 
+infectious epidemic. Finally, the magnetic resonance 
+imaging scanner combines information-gathering tools 
+to enable proper application of medical procedures or 
+resources. ISs are primarily comprised of electronic 
+devices but can either include or be completely fabricated of paper and pencil or handwritten components. 
+Health Information Systems
+HISs span a broad range of data management 
+capabilities from locally developed, field-expedient 
+methods to formal, system-wide electronic tools and 
+databases.
+The health information system provides the underpinnings 
+for decision-making and has four key functions: data generation, compilation, analysis and synthesis, and communication and use. The health information system collects data 
+from the health sector and other relevant sectors, analyses 
+the data and ensures their overall quality, relevance and 
+timeliness, and converts data into information for healthrelated decision-making. 1
+The primary goal of HISs in military medicine is 
+to exploit information to render high-quality health 
+promotion and healthcare delivery at the right time, 
+in the right place, and using the right resources. The 
+combination of resources that comprise HISs in the 
+Department of Defense (DoD) deliver information 
+integral to the provision of effective health promotion 
+and healthcare. They also aggregate information to 
+advance knowledge in disease and injury prevention 
+and management. 
+The DoD uses various health information systems 
+in its effort to provide comprehensive support to the 
+entire community (eg, the TRICARE online patient 
+portal mobile and the Military Health System GENESIS 
+electronic records). The DoD is improving healthcare 
+by investing in new HIS technology, modernizing 
+health record systems, and promoting interoperability 
+among different platforms for improved continuity of 
+care for service members and military beneficiaries. 
+Health Information Technology 
+“The application of information processing involving both computer hardware and software that deals 
+with the storage, retrieval, sharing, and use of healthcare information, data, and knowledge for communication and decision making”2 clearly defines technology. 
+It is a broad concept that deals with knowledge and 
+practical application of tools and systems. 
+For health information technology, “technology” 
+represents computers and communications elements 
+that can be networked to build systems for moving 
+health information. 3 The Defense Health Agency 
+Health Information Technology Office (J6) is tasked 
+with enabling joint, integrated healthcare to the entire 
+DoD community.
+Telehealth 
+Telehealth is a collection of means or methods for enhancing healthcare, public health, and health education 
+delivery and support using telecommunications technologies. 4 The DoD uses telehealth to help ensure the 
+health of service members and other TRICARE beneficiaries by providing access to care for a wider range of 
+medical conditions and geographic locations, including 
+remote areas where service members may be injured. 
+227
+Health Information Systems
+RELEVANCE OF INFORMATION SYSTEMS TO MILITARY HEALTHCARE PROVIDERS
+Effective health promotion and sustainment, as 
+well as healthcare delivery in military operations, 
+hinges on accurate, timely, and complete information regarding patients, potential patients, and their 
+environments. Prevention of injuries, illnesses, and 
+combat wounds and their early detection, mitigation, and comprehensive treatment and management are heavily reliant upon data and information. Examples of ISs for healthcare include tests 
+for coliform bacteria in a water source, lipstick for 
+marking casualties in mass casualty triage, and the 
+most sophisticated imaging technology pinpointing the location of shrapnel. Simple through highly 
+technical resources are employed as components of 
+ISs that are essential means of preserving health and 
+life on the battlefield.
+The impact of these systems is felt from point of 
+injury to home station rehabilitation as patients experience a continuum of effective healthcare without 
+suffering preventable complications, safety violations, or adverse side effects of therapeutic agents. 
+Specifically, data captured at every stage of patient 
+care provides the facts and evidence needed to render care absent adverse drug interactions or other 
+complications that often result from missing data 
+documenting care or medications administered. In 
+addition, patient safety is preserved as the patient 
+makes the journey to return to full health and function thanks to accurate capture of actions taken by 
+medical professionals along the way. Physicians and 
+other caregivers make informed decisions about each 
+step in the patient’s treatment, resulting in positive 
+cumulative effects rather than adverse reactions to 
+the unknown. Without some type of IS, a provider 
+cannot provide adequate care to patients or practice 
+lifesaving preventive medicine that enables military 
+personnel to succeed in their missions. 
+Military providers, similar to all other healthcare 
+providers, require a means of capturing and maintaining information regarding their patients’ health, the 
+risk factors of the environment or military operation, 
+and the ability to share that information with other 
+caregivers and commanders as needed. Military HISs 
+deliver this capability to the provider and enable application of this data resource throughout the military 
+member’s service and beyond. It is imperative that 
+military HISs capture all pertinent information for 
+timely and effective health promotion, health sustainment, and healthcare delivery. This includes preventive medicine information such as immunizations, 
+exposure data, DNA repository information, health 
+status, and dental health status; diagnosis; prescriptions; drug allergies and interactions; imaging data; referral results; vital signs; allergies; and operative risks.
+There are inherent accountability requirements and 
+epidemiology interests that also drive the need for HISs 
+in the military. The DoD is constantly evaluating the 
+requirement for medical services and weighing options, 
+such as having all home station care rendered in civilian 
+networks with providers activated as military operations 
+require, or sustaining the current military medical operations structure. HISs must be fluid and interoperable 
+among facilities of the uniformed and civilian sides of 
+healthcare in the military health system. Additionally, 
+force health protection efforts are heavily influenced by 
+epidemiological data analysis enabled by effective HISs. 
+These factors highlight the relevance of HISs in the military health system and for the military medical provider. 
+TYPES OF HEALTH INFORMATION SYSTEMS
+As mentioned previously, ISs can be as simple as 
+when a nurse used a tube of lipstick to mark the foreheads of patients as being triaged during the attack on 
+Pearl Harbor. This practice remains today when nurses, 
+medics, corpsmen, dentists, or physicians use marking 
+pens for the same purpose in mass casualty events. Numerous types of HISs may be devised or encountered 
+while practicing medicine in a military environment. 
+Triage during military operations or disaster 
+response activities requires an IS to enable the effective and timely care of the ill, injured, or combat 
+wounded. The systems currently employed during 
+triage to document patients’ medical conditions 
+range from grease pencils on laminated cards to land 
+mobile radio systems to barcode scanning technologies. The application of handwritten information 
+is the most basic level of HIS. This type of system 
+requires a standard framework (foreheads, forms, 
+standard terms, etc) and documentation resources 
+(lipstick, grease pencil, marking pen, ballpoint pen, 
+human blood, or other media). The requirement is 
+for a simple system of patient category identification 
+to enable proper medical care. Pen and paper, or 
+other manual system of symbols and tools, comprise 
+this basic form of HIS.
+With the current level of technology, the electronic 
+health record (EHR) serves as the most commonly 
+recognized form of an HIS. The DoD’s EHR has been 
+in development and refinement since at least the early 
+1980s, with fielding of the current AHLTA (Armed 
+Forces Health Longitudinal Technology Application) system from 2003 to 2004. The DoD released the 
+228
+Fundamentals of Military Medicine
+results of its selection of vendor for the next generation joint service EHR in 2016, with continued efforts 
+to standardize health records across the services. The 
+vision for this system is one that would accurately 
+document the health status and healthcare activities 
+of a service member, from point of entry into military 
+service through death, within DoD and Veterans Affairs healthcare systems. This requires interoperable 
+HISs such as the VA’s choice of EHR systems. An 
+EHR is a system that brings in data from human actors (administrators, laboratory technicians, nurses, 
+physician assistants, physicians, dentists, and other 
+healthcare providers), medical devices, and other 
+HISs to form comprehensive health records. Patients 
+and providers may communicate virtually, and it 
+allows the patient to have clear and accurate information that reduces or eliminates medication or procedural errors. It is typically comprised of computer 
+hardware and software capable of assembling, storing, and manipulating data from various sources. The 
+value and impacts of this comprehensive EHR system 
+are compelling. Today, service members can access 
+health and healthcare information accumulated over 
+multiple assignments in the continental United States 
+or abroad. The information follows them into the 
+Veterans Affairs system for care following discharge 
+or for disability adjudication.
+A third example of an HIS is an operating room suite 
+system. The assembly of computer software, computer 
+hardware, and sophisticated medical devices serve as 
+an HIS to specifically support single or multiple surgical events. These include devices monitoring vital 
+signs, streaming video, tools supplying images, devices performing procedures, and devices directing laser 
+or radiant energy safely and with pinpoint accuracy. 
+This form of system brings together a conglomerate 
+of small and large systems for a specific purpose. The 
+contributing systems may include an EHR and even a 
+handwritten triage system. All of them come together 
+in a unique application of resources as a health system 
+with a limited but critical scope and purpose. This complex system of information gathering, analysis, and 
+directed care delivery resembles the system designed 
+to understand, fix, and destroy the enemy on a modern 
+battlefield. The parallels between the utility of timely 
+and precision warfighting and health sustainment and 
+healthcare is apparent. 
+HISs are prevalent in military medicine today 
+and have great implications for medical practice. 
+The basic constructs of the various systems are 
+tailored to function under operational conditions. 
+Whether it is a handwritten system, an electronic 
+record, or a highly specialized suite of devices and 
+applications, the ISs available in military and other 
+medicine environments can be characterized by one 
+of these formats.
+PRINCIPLES OF EFFECTIVE HEALTH INFORMATION SYSTEM EMPLOYMENT
+Requirements Identification
+Identification of process requirements for medical 
+transactions is fundamental. At technology symposia 
+for healthcare providers, vendors present their “silver 
+bullet” systems as the solution to all practice needs. If 
+commercial off-the-shelf HISs are acquired without 
+thorough evaluation for military needs, resources 
+will likely be wasted on a solution without a problem 
+or a partial solution for a much more complex set of 
+problems. The military context presents a unique set of 
+environmental and contextual requirements for health 
+systems. Military medical providers and all HIS users 
+play essential roles in formulating the requirements of 
+a desired system. Considerations include identifying 
+optimal pharmaceuticals, surgical instruments, or intensive care devices, among many other criteria. It is 
+critical for medical providers to identify requirements 
+accurately and look for the problems or bottlenecks 
+in procedures. Requirements drive development of 
+HISs and other resources to address specific problems 
+or needs. If this process is followed closely then the 
+analysis of the current system is more likely to result 
+in system improvements or new system design. These 
+systems should benefit all involved across the entire 
+spectrum of environments in which the IS will be applied now and into the conceivable future. 
+It is in the accurate study of requirements and 
+problem identification that so many projects fall short. 
+Much like medical practitioners who do not complete a 
+comprehensive analysis of the clinical situation before 
+making a diagnosis, ISs are adopted as solutions to a 
+problem when they really only address a symptom 
+and often create more problems of their own.
+Health Information Systems as a Component of a 
+Comprehensive Health Delivery System
+HISs are tools applied in concert with other resources 
+and procedures to resolve a problem. The effectiveness 
+of an HIS depends heavily on the procedures followed 
+in a medical practice. For example, if a forward surgical 
+team has very little time to stabilize a patient, then a bedside ultrasound, though a key to rapid diagnosis, cannot 
+by itself deliver the stable patient. The ultrasound may 
+capture gigabytes of data and provide elaborate reports 
+229
+Health Information Systems
+when the real problem may be that the forward surgical 
+team lacks the means to capture input from multiple 
+devices to pinpoint an effective course of action. 
+Cyber Security
+Cyber security in healthcare is a crucial component of 
+all HISs. The world of networked computers with countless software installations, downloads, uses, and global 
+access presents a dynamic playground for malicious 
+activity. Foreign actors and others wishing mal intent to 
+the United States and partner nations are constantly attacking by means of cyber media. Healthcare provides a 
+soft target for this activity if systems are employed under 
+the naive assumption that healthcare is off limits in warfare. Security against external and internal actors must be 
+a primary consideration for all types of health systems. 
+Current medical devices are also HISs and are not immune from attack because they present entry points to 
+defense ISs residing elsewhere on connected networks. 
+Recent well-publicized events in which hackers 
+have accessed protected personal patient information 
+or held entire hospitals and healthcare systems hostage 
+by denying access to their EHRs illustrates the extreme 
+vulnerability of healthcare as a target for enemies or 
+malicious actors. Proper active intervention and prevention efforts are critical to safeguarding the integrity and 
+availability of information. Military providers practice 
+in an environment where health information accessibility and interoperability must be balanced by adequate 
+safeguards to prevent security breaches and data theft. 
+Affordability and Sustainability
+On analysis of current battlefield operations, there 
+is a requirement for a patient tracking system that 
+actively functions from point of injury or illness 
+through definitive care. One of the key principles for 
+effectively addressing this requirement is employment of an IS that is affordable and technologically 
+viable to implement and sustain in a changing military environment. Myriad techniques or forms of 
+ISs could address these requirements, but realistic 
+design as well as project and operation costs are 
+critical considerations. The system must be operationally viable and affordable while delivering the 
+desired capability and capacity. Unfortunately, the 
+sky is not the limit when it comes to ISs. Resources 
+committed to building and sustaining HISs and 
+health information technology compete with all 
+other medical requirements and even the resources 
+available to the warfighting community. It is critical 
+to employ an IS management expert in the resolution 
+of the budget–function conflict for optimal clinical 
+and technical solutions.
+Provider and End-User Efficiency
+A key complaint about current EHR implementations is that they are very inefficient. Balancing the 
+capabilities that ISs give to the provider, benefit the 
+patient, and meet the needs of the organization or 
+operation is a key principle of effective systems implementation. The drive for accuracy of information and 
+accountability for actions is at the heart of the EHR 
+revolution. Physicians complain that they spend much 
+longer with the EHR than they ever did with patients 
+using a paper chart. They also indicate that the EHR 
+does not improve care. It is focused instead on the 
+information that can be used for better epidemiology 
+and accounting for actions taken, such as medications 
+prescribed or medical history. 5 Streamlining systems 
+and making them more efficient is an important goal 
+for any effective HIS. 
+MILITARY-SPECIFIC HEALTH INFORMATION SYSTEMS REQUIREMENTS
+The military health system operates in fixed facilities, 
+in forward operating mobile facilities, and at battlefield 
+points of injury. Consideration for environmental and 
+other constraints placed on ISs in military operations 
+must be a priority. For example, some military operations 
+are conducted in areas with excess heat and dust levels 
+that require hardened devices and optimized cooling 
+capabilities. In other cases, devices must be hardened 
+against moisture when deployed to regions with extremely wet conditions. Often, power sources in austere 
+environments are unstable, so information technology 
+must be hardened against power surges to prevent damage to sensitive components. In all of these cases there is 
+a requirement for secure communications that drives a 
+need for infrastructure and service provision, which are 
+difficult even under ideal conditions. Given the wide 
+range of operational conditions and variables, a military 
+HIS requires a robust design to ensure success. There 
+are three key requirements that enable the successful 
+deployment of any HIS supporting military medicine.
+Interoperable
+Given joint service and international partner involvement in current and future military operations, 
+the ISs employed to support medical treatment require the capability to easily exchange information. 
+Beyond the challenges of interoperability across the 
+230
+Fundamentals of Military Medicine
+DoD, military HISs may also need to be compatible 
+with those from partner nations, or at least be able to 
+bridge any gaps. 
+In the best case, systems would be interoperable and 
+have data and information sharing functionality across 
+various platforms and technologies. This includes 
+provider notes as well as any images or lab results that 
+are rendered in the course of care from point of injury 
+to home station. In a simpler example, handwritten 
+patient records require the use of weatherproof paper 
+and writing utensils.
+Unfortunately, interoperability is a major unmet 
+requirement. Electronic HISs are not typically interoperable across military facilities, organizations, 
+or services, or even within a single enterprise in the 
+civilian sector. The DoD and the Veterans Administration are working diligently to establish and sustain interoperable systems to ensure well-managed, 
+cradle-to-grave medical care for service members. 
+This is a vital component to meeting the militaryunique mission. The end result would be visibility of 
+all medical actions taken from the start of a service 
+member’s career to their death. This not only enables 
+mission readiness but opens doors to epidemiological 
+research that will shape preventive medical practices 
+of the future. 
+Operationally Viable
+Though much of the work done with systems in 
+military medicine takes place in fixed facilities, military 
+personnel are deployed to austere and remote environments where ISs lack the commonly required support 
+systems. Thus, as modeled by the example of using a 
+tube of lipstick to facilitate communication in patient 
+triage, a system must be able to function despite the 
+lack of typically required resources. 
+There is a finite amount of bandwidth in austere environments, which sometimes may limit data sharing 
+and storage. It is critical that the medical bandwidth 
+requirement is voiced loud and clear while understanding the warfighter mission needs. Balance among 
+competing requirements is essential for all aspects of 
+military operations.
+Modern technology significantly enhances the list of 
+available options. Handheld devices and mobile computing make point of injury care support possible in 
+virtually any location on the globe. This in turn means 
+that patient information can follow the service member 
+back to home station for continuity of care. Of course, 
+the technology must be shielded from or resistant to 
+the elements (heat, moisture, cold, turbulence, etc) as 
+well as the operational hazards such as spills, drops, 
+or bumps. This principle of operational viability highlights the unique requirements of the military health 
+operational environments.
+Sustainable and Dynamic 
+Already a significant challenge even absent the 
+military context, HISs must stand the test of time to 
+be effective. This means the health system must be 
+technologically sustainable and adaptable to changing conditions. The requirement to monitor the care 
+of service members for approximately 60 to 80 years 
+in conjunction with the rapid evolution of technology 
+could prove cost prohibitive. A vital component of 
+achieving a sustainable system is the proactive involvement of medical personnel in ongoing requirements 
+and system development. When ISs are left to administrative personnel to sustain and design, their requirements are prioritized, often at the expense of clinical 
+functionality. Military medical providers should be 
+actively engaged in design and modification of HISs 
+to ensure the integrity and functionality of systems 
+required to effectively support military operations of 
+all kinds. With technology having a lifespan of 2 to 
+4 years, the systems employed must be dynamic in 
+nature, with the primary goal of seamless continuity 
+in care over a lengthy period of time. 
+OTHER HEALTH INFORMATION SYSTEMS 
+CONSIDERATIONS FOR MILITARY MEDICAL OFFICERS
+Military medical officers should be able to identify 
+key components of ISs, assess the relevance of various 
+forms of ISs in military medicine, discuss the challenges of deploying these ISs into austere environments, 
+and look at specific examples and applications of HISs 
+in the military environment.
+Personnel often adapt to the systems the enterprise 
+provides without ever giving input to development 
+or procurement actions. This can lead to the employment of systems that lack the functionality required 
+by clinicians to effectively care for assigned personnel 
+under a broad range of military circumstances and 
+conditions. Positive engagement and participation 
+in HIS development offers a long-range benefit for 
+all military medical providers and patients through 
+system functional improvement. 
+Procurement and Requirements Definition
+The process of acquiring and operationalizing a 
+system in the joint military environment is lengthy 
+and exhaustive. If done with a clear understanding 
+231
+Health Information Systems
+of all requirements, the resulting resource will be an 
+effective instrument for excellent healthcare across the 
+full spectrum of military operations. However, lack of 
+focus on or exclusion of requirements in the procurement process results in wasted time and effort when 
+required patient care delivery needs go unanswered. 
+It is critical that medical professionals make time to 
+participate in procurement of HISs so that clinical 
+operations are adequately considered and addressed.
+Medical professionals often lament delays in implementing new technology that are seemingly caused by 
+cyber security requirements. This is a misconception 
+born of not considering security early in the procurement or development process. The real danger would 
+be to ignore security requirements and sacrifice the 
+availability, security, or integrity of both health and 
+defense information, facilitating exploitation of the resultant security weaknesses. It is imperative that health 
+professionals take a proactive approach to security and 
+seek opportunities for strengthening security through 
+their chain of command, development committees, or 
+other available venues. Security should be built into 
+systems and devices as they are introduced rather 
+than being added through modification or retrofitting 
+later, which causes operational and financial burdens. 
+Specifically, health professionals must consider the 
+information they are handling and recommend system 
+operating procedures that preserve its availability, accessibility, and security while minimally disrupting the 
+flow of patient care. For example, medical personnel 
+can help safeguard systems by supporting and promoting introduction of proximity cards or biometric log-in 
+components to systems that protect information with 
+minimal disruption.
+Virtual Health Information Systems in Military 
+Operations
+With current technologies, the military can exploit 
+connectivity on almost any point around the globe 
+to support patient–provider interactions. This can 
+translate to a soldier or marine on the battlefield, a 
+pilot on the flight line, or a sailor onboard a ship far 
+out to sea getting direct treatment from a specialist 
+back at medical center through video conference on a 
+medic’s handheld device. Telemedicine presents military operations with the ability to take a virtual doctor 
+or nurse into some of the most austere locations with 
+no risk to the medical professional. Better still is the 
+resulting level of care available to service members at 
+the point of injury. Pictures (of dermatological conditions, for example) or digital images (of ultrasounds 
+or x-rays) can be rapidly sent to higher echelons of 
+care for analysis and recommendations for treatment 
+or evacuation. 
+Military medical professionals must continuously 
+think innovatively when it comes to provision of 
+the right care at the right time, and virtual medicine 
+establishes the ability to do so in any place. Security 
+considerations, both generic and specifically targeted 
+to patient protection, are key and should be a point 
+of focus as medical personnel work to improve their 
+reach and influence.
+Dependents in a Joint Military Environment 
+One of the key requirements of any medical system 
+is establishing a pool of skilled providers and a means 
+of maintaining currency in those skill sets. The military 
+relies on health providers to be current in the skills of 
+their specialty when called upon to support operations. 
+The HIS employed in the military has very similar 
+requirements for effectiveness and currency. Family 
+members and other dependents of military personnel 
+provide a population capable of sustaining currency 
+for both the health provider and the HIS through the 
+care provided by military medical professionals. A 
+system that can support cradle-to-grave preventive 
+medicine and healthcare delivery for the extended 
+military family can also do so for military personnel.
+HIS capabilities of continuity of care, interoperability, global access, and virtual medical practice are 
+developed and sustained in peacetime to guarantee 
+availability for operations when events require them. 
+Though care for family members does not typically 
+occur in austere environments, it does provide the 
+context for developing solid practice guidelines that 
+are evidence based and patient focused. This is key 
+to effective medical care delivery regardless of the 
+environment.
+SUMMARY
+From the first instance of military medical care 
+to the present day, HISs have played a vital role 
+in the effective delivery of care. Ultimately, the 
+effective, efficient, timely, and precise protection 
+of human health and the delivery of healthcare is 
+a function of gathering, analyzing, and making 
+critical decisions based on data compiled over time 
+and space. This information matures into knowledge through context, and is refined into wisdom 
+through experience. 
+It is ultimately the responsibility of medical professionals to ensure that patient information is available, 
+accurate, and safeguarded, through diligent use of 
+the tools provided by the DoD. HISs are designed to 
+232
+Fundamentals of Military Medicine
+provide these services and then leveraged to ensure 
+the protection of the community and the military force, 
+and to ensure provision of the best medical care. Skilled 
+healthcare professionals must be actively involved in 
+identifying clinical requirements, and procuring and 
+sustaining available, accurate, and safe HISs. Input by 
+healthcare professionals is vital to the effective employment of these systems. 
+REFERENCES
+ 
+1. World Health Organization. Health Information Systems: Toolkit on Monitoring Health Systems Strengthening. http://
+www.who.int/healthinfo/statistics/toolkit_hss/EN_PDF_Toolkit_HSS_InformationSystems.pdf. Published June 2008. 
+Accessed January 3, 2018.
+ 
+2. Brailer D. The Decade of Health Information Technology: Delivering Consumer-Centric and Information-Rich Healthcare 
+Framework for Strategic Action. Washington, DC: Department of Health and Human Services; 2004. Report to Secretary 
+of Health and Human Services.
+ 
+3. Health information technology. Wikipedia Web site. https://en.wikipedia.org/wiki/Health_information_technology. 
+Updated January 9, 2018. Accessed January 11, 2018.
+ 
+4. What is telehealth? Center for Connected Health Policy, The National Telehealth Policy Resource Center Web site. 
+http://www.cchpca.org/what-is-telehealth. Published 2008. Accessed January 11, 2018.
+ 
+5. Irving, F. Docs say how they really feel about EHRs. Healthcare IT News. November 13, 2014. http://www.healthcareitnews.com/news/docs-say-how-they-really-feel-about-ehrs. Accessed January 11, 2018.

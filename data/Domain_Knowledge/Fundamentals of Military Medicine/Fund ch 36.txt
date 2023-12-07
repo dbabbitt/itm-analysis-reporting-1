@@ -1,0 +1,1163 @@
+555
+Acute Pain Management in the Deployed Environment
+Chapter 36
+ACUTE PAIN MANAGEMENT IN THE 
+DEPLOYED ENVIRONMENT
+CHESTER “TRIP” BUCKENMAIER III, MD*
+INTRODUCTION
+HISTORY OF MILITARY PAIN MANAGEMENT
+PAIN “CHRONIFICATION” AND THE POLYTRAUMA TRIAD
+THE ACUTE PAIN SERVICE
+PAIN MANAGEMENT ON THE MODERN BATTLEFIELD
+Role 1: Immediate First Aid Delivered at the Scene
+Role 2: Forward Surgical Care
+Role 3: Combat Support Hospitals
+Roles 4 and 5: Medical Centers Outside the Theater
+PAIN MEASUREMENT
+CONCLUSION
+*Colonel (Retired), Medical Corps, US Army; Professor of Anesthesiology, Department of Military Emergency Medicine, Uniformed Services University, 
+Rockville, Maryland
+556
+Fundamentals of Military Medicine
+INTRODUCTION
+“What an infinite blessing.”
+—General Thomas Jonathan “Stonewall” Jackson (1824–1863)
+General “Stonewall” Jackson and his Confederate 
+army were in the process of routing the Union army 
+during the Civil War battle of Chancellorsville, Virginia, on May 2, 1863, but he had run out of time and 
+daylight for the attack. The general and his staff were 
+riding in front of Confederate lines, reconnoitering 
+the situation in hopes of pressing an evening attack 
+to break the Union lines, when Confederate sentries 
+mistook the scouting party for the enemy and opened 
+fire with muskets. General Jackson was wounded in 
+the left arm and right hand. He was removed from the 
+battlefield by a horse-drawn field ambulance, receiving 
+whiskey to ease the pain of his wounds. He was taken 
+to the Confederate II Corps field hospital of Dr Hunter 
+McGuire, where more whiskey was provided and 
+morphine administered to further ease the general’s 
+suffering. Early the following morning, Dr McGuire 
+performed a left arm amputation while the general 
+was anesthetized with chloroform. As the effects of the 
+anesthetic took hold, the general was reported to have 
+murmured, “What an infinite blessing.”1
+General Jackson was most likely referring to the 
+“blessing” of battlefield pain relief following his 
+wounding. Contrary to popular cinematic depictions 
+of Civil War medicine that suggested soldiers suffered 
+surgery with little or no analgesia, morphine was in 
+fact widely available and often used to ease the suffering of wounded soldiers. Military physicians during 
+the war were advised to carry morphine and brandy 
+in their pockets as their primary medications for the 
+management of casualties. 2 Then as now, those responsible for providing care to Americans defending 
+this nation have sought innovative ways to ease the 
+suffering of battle casualties. This chapter provides 
+the foundation for the military medical officer (MMO) 
+to successfully implement a pain management strategy for wounded service members in the deployed 
+environment.
+HISTORY OF MILITARY PAIN MANAGEMENT
+The primary active compound in opium was first 
+isolated by the German physicist Friedrich Sertürner 
+in 1806, and the medication was given the name “morphine” after the Greek god Morpheus. The invention 
+of the syringe and hollow needle followed soon after 
+in the 1850s, providing a suitable delivery system for 
+the drug and paving the way for its use as a surgical 
+analgesic. 3 The combination of these two medical 
+advances just prior to the American Civil War was 
+fortuitous in light of the masses of battlefield casualties from this particularly brutal chapter in American 
+military history. Before these advances, wounded 
+soldiers requiring surgery had little hope of avoiding 
+significant suffering under the knife of a surgeon. In 
+the Revolutionary War medical text, Diseases Incident 
+to Armies,4 John Ranby, a prominent English surgeon, 
+is quoted:
+In regard to the wounded, you should act in all respects as if you were entirely unaffected by their 
+groans and complaints; but at the same time I would 
+have you behave with such caution, as not to proceed 
+rashly or cruelly, and be particularly careful to avoid 
+unnecessary pain. 4 
+In short, before the advent of the hypodermic 
+needle and morphine, those wounded in America’s 
+wars could hope for little more than a speedy surgeon willing to avoid unnecessary pain. Prior to the 
+Civil War, anesthesia and analgesia for soldiers was 
+at best rudimentary. The lack of adequate pain control served as a significant impediment to battlefield 
+surgical development; operations were reserved for 
+the direst of circumstances and the surgery was often 
+as deadly as the inciting wound. As General Jackson 
+so eloquently noted, the ability to manage the pain of 
+combat wounds was indeed a blessing. The miracle of 
+analgesia with morphine and other opioid medications 
+was certainly a significant advancement in battlefield 
+surgical management, although this therapy would 
+prove to have a decidedly unhealthy side. Serious 
+consequences associated with chronic opioid use for 
+pain were recognized following the Civil War. In their 
+1928 book, The Opium Problem, Terry and Pellens noted 
+that “following the Civil War the increase in opiate use 
+was so marked among ex-soldiers as to give rise to the 
+term ‘army disease,’ and today in more than one old 
+soldiers’ home are cases of chronic opium intoxication 
+which date from this period.”5 It has been suggested 
+that the widespread use of morphine, during and long 
+after the Civil War, gave rise to the first large-scale 
+drug addiction problem within the United States. 
+Spikes in drug abuse have followed every major US 
+conflict since. 2
+Interestingly, the Civil War provided some classic 
+descriptions of chronic pain conditions, such as “phantom limb pain” and “causalgia” (termed “complex 
+557
+Acute Pain Management in the Deployed Environment
+regional pain syndrome” today). S. Weir Mitchell, a 
+neurologist, insisted his patients had a form of physical 
+illness, manifested by the strange pain behaviors noted 
+above, that seemed to persist long after their wounds 
+had healed. Unfortunately, this viewpoint changed by 
+the 1920s with the development of “specificity theory,” 
+which postulated the experience of pain had to be associated with a specific noxious stimulus. Pain sufferers 
+who did not meet these strict criteria were presumed 
+to be malingerers or drug abusers. 6 At this point, morphine was highly regulated, and chronic pain patients 
+were often limited to psychotherapy or neurosurgical 
+procedures (resection or ablation of nerves) with poor 
+and often debilitating results. 6
+Although attitudes regarding the treatment of 
+acute and chronic pain continued to evolve, morphine 
+remained the gold standard for battlefield analgesia 
+during World War II. Henry K. Beecher, an anesthesiologist in the US Army who served in the North African and Italian campaigns, provided the first wartime 
+clinical investigations specifically on the issue of pain 
+from battlefield wounds. 7 Dr Beecher made several salient observations related to morphine use at the point 
+of battlefield injury, during initial casualty care, and its 
+impact on casualty outcomes. First, Beecher noted that 
+at the point of injury, medics routinely administered 
+morphine prophylactically, versus the administration 
+after an assessment of a casualty’s actual complaint of 
+pain. Beecher noted that this approach might adversely 
+impact casualties as their treatment continued, particularly those who were hypovolemic. He observed 
+that intramuscular injection of morphine in patients 
+with low blood pressure from wounding often failed 
+to decrease pain, prompting additional dosages. 
+When the patient was eventually warmed and normal 
+circulation reestablished at the field hospital, the unabsorbed deposits of morphine in the muscle entered 
+the circulation, resulting in morphine toxicity. Furthermore, while advocating for the more responsible 
+use of morphine on the battlefield, Beecher developed 
+the first concept of multimodal pain management in 
+battlefield casualties by recognizing the importance of 
+regional nerve blocks, proper splinting and bandaging, 
+and emotional care as all being important components 
+of pain management in the wounded. 
+As World War II ended, a young anesthesiologist 
+named John Bonica was struggling to run an anesthesia 
+service at the newly built Madigan Army Hospital in 
+Washington State. Bonica observed a growing number 
+of returning soldiers with healed wounds but baffling 
+“lesionless” chronic pain problems. He was astonished 
+at the general lack of information on the management 
+of these pain conditions either in the literature or from 
+experienced colleagues in other medical specialties. Dr 
+Bonica took it upon himself to read anything he could 
+find on chronic pain and instituted regular meetings 
+with colleagues to discuss the management of pain 
+patients. 8 This postwar experience thoroughly convinced Dr Bonica that complex pain problems required 
+a coordinated, multidisciplinary approach, which 
+later led to his establishment of the first pain clinic at 
+the University of Washington, in 1961. 9 Dr Bonica is 
+further credited with the first comprehensive textbook 
+on pain management, The Management of Pain,10 now 
+in its fourth edition. It would not be an overstatement 
+to suggest that the modern practice of pain medicine 
+was forged in the minds and experience of those caring 
+for American war wounded. 
+Although innovation in battlefield surgery and 
+anesthesia progressed rapidly following World War 
+II, scant attention was afforded casualties with pain 
+on American battlefields beyond the provision of 
+morphine. Prevailing attitudes considered acute pain 
+a natural symptom of wounding that would be alleviated through appropriate management, healing, and 
+rehabilitation. Perhaps this explains why the evolution of pain management on the American battlefield 
+stalled with morphine, a solution from the Civil War. 
+The recognition that acute pain influences the development of chronic pain is a relatively recent concept, and 
+the mechanisms involved in the transition of acute to 
+chronic pain, or “chronification” of pain (see below), 
+remain poorly elucidated. 11 
+At the onset of the conflicts in Afghanistan and Iraq 
+following September 11, 2001, the American military 
+deployed into a 21st century combat casualty care environment almost exclusively with morphine, a 19th 
+century pain management solution. Although morphine maintained its historical reputation for treating 
+combat trauma pain, it proved to be a poor fit given 
+the recent evolution of modern patient evacuation 
+capabilities and treatment doctrine. Previously, common practice had been to hold the wounded for days 
+in theater until they were clinically stable for transport. 
+Patients today are now being held only long enough 
+to be stabilized for transport to the next node, or role, 
+of higher medical treatment capability. During the 
+Vietnam War, the average time from point of injury 
+back to the United States was 45 days, whereas today 
+the average time is only 4 days. 12 The rapid transition 
+of casualties by evacuation aircraft to higher levels of 
+medical capability has been considered a key factor 
+in the historically low died-of-wounds rate, less than 
+10%, established in Iraq and Afghanistan. 12 
+While the improved aeromedical evacuation chain 
+has been a remarkable success, it resulted in unexpected consequences in terms of pain management. 
+Military aircraft used for casualty transport present dif558
+Fundamentals of Military Medicine
+ficult environments for administering pain care. Pain 
+experienced from combat wounds tended to be exacerbated in the loud, vibrating, cramped, and bouncing 
+interior of an aircraft in flight for extended distances 
+(Figure 36-1). Aeromedical personnel, constrained early in the war to morphine for pain management, were 
+significantly challenged by limitations in monitoring 
+capability, space, and equipment. Managing respiratory complications associated with morphine in this 
+environment can be life threatening; therefore, many 
+patients arrived at their destination with inadequate 
+pain control. 13 In 2003, the US Army surgeon general, 
+Lieutenant General James Peake, called for innovative 
+pain solutions to address a number of wounded soldiers reportedly arriving in Landstuhl, Germany, from 
+Iraq and Afghanistan in “agony.” Peake’s directive 
+resulted in the first deployment of medical personnel 
+and equipment with the express mission of improving 
+evacuation pain management. 14 
+For some time prior to September 11, 2001, military 
+anesthesia leaders had been considering an expanded 
+role for regional anesthesia (RA) and local anesthetics 
+on the modern battlefield. Although its utilization 
+in civilian medicine was limited to several academic 
+medical centers, recent RA advances with new needle 
+and peripheral nerve catheter technology, peripheral 
+nerve stimulation, and microprocessor-driven infusion pumps had enhanced the value of RA as a viable 
+battlefield anesthetic and analgesic. Furthermore, 
+the military’s use of RA was expanding for routine 
+surgery in the United States, while military medical 
+missions to underserved regions of the world were 
+recognizing other benefits of RA. Specifically noted 
+were improved patient hemodynamic stability, safety, 
+small logistic and equipment support requirements, 
+and profound perioperative analgesia, especially when 
+continuous peripheral nerve block (CPNB) catheters 
+were utilized. 15 
+Based on the military’s initial experience with RA 
+and a review of casualty data, initial efforts to improve 
+casualty evacuation pain management were centered 
+on bringing advanced RA to the modern battlefield. 
+In a query of wound types in 3,102 casualties from 
+October 2001 to January 2005, 54% were orthopedic 
+extremity wounds recognized as particularly suited 
+for RA and CPNB management. 16 
+In 2003, the first CPNB was placed in an American 
+casualty who had sustained extensive injury to his 
+left calf from a rocket-propelled grenade (Figure 362). Despite intravenous administration of morphine 
+sulfate, 18 mg titrated over 60 minutes, the patient 
+complained of the highest level of pain on a verbal 
+analog scale (10 out of 10) upon arrival at the 21st 
+Combat Support Hospital (CSH) in Balad, Iraq. As 
+part of his operating room anesthetic management, 
+continuous left lumbar plexus and continuous sciatic nerve catheters were placed, reducing his pain to 
+zero, and debridement of the wound was performed 
+under light sedation with the patient spontaneously 
+ventilating. Following this first operation, the patient 
+traveled to Walter Reed Army Medical Center in Washington, DC, via Landstuhl Regional Medical Center 
+(LRMC), Germany, with the majority of his analgesic 
+needs handled through continuous infusions of 0. 2% 
+ropivacaine through the CPNB catheters. The CPNB 
+catheters placed in the Iraq CSH were maintained for 
+16 days and used to establish surgical level blocks for 
+four additional operations. 14 This first experience led, 
+within a few years, to routine use of RA and CPNB 
+in Iraq and Afghanistan in hundreds of casualties. 
+Although a complete description of RA and CPNB 
+use on the battlefield is beyond the scope of this 
+chapter, an excellent resource for understanding RA 
+on the modern battlefield can be found in the Military 
+Figure 36-1. Inside a C-17 Air Force medical evacuation flight 
+from Afghanistan.
+Figure 36-2. Typical wound managed with continuous peripheral nerve blocks at a combat support hospital.
+559
+Acute Pain Management in the Deployed Environment
+Advanced Regional Anesthesia and Analgesia handbook, 
+the first military medical text devoted to the acute pain 
+management of battlefield casualties. 17 
+RA, while transformational for the pain management of extremity wounds, is not appropriate for many 
+other injuries that were left with morphine as the sole 
+analgesic option. However, in the process of fielding 
+RA in the evacuation system, the door was opened for 
+an expanded evaluation of acute pain management 
+across all roles of care. Medical officers from all three 
+uniformed services, spurred by the need to improve 
+pain care for the wounded, ill, and injured, began to 
+work through their inter-service differences to develop 
+a synchronized strategy to address pain management. This was fortunate because the general lack of 
+historical attention to casualty pain management and 
+the overreliance on morphine monotherapy for pain 
+on the battlefield was contributing to later recuperation 
+problems for service members and veterans at home 
+as they continued their rehabilitation and recovery. 18
+PAIN “CHRONIFICATION” AND THE POLYTRAUMA TRIAD
+Although relief of pain and suffering following 
+wounding has always been considered a noble act and 
+ethically sound medical practice, pain has historically 
+been understood to be an acute symptom of wounding 
+or disease that would resolve as the casualty recovered and rehabilitated. Woolf19 proposed that pain be 
+divided into two broad categories: adaptive and maladaptive. Adaptive pain is protective against injury, 
+promotes survival when injury has occurred, and is 
+self-limiting. Maladaptive pain, on the other hand, is a 
+pathologic response by the nervous system to noxious 
+stimuli and is a manifestation of pain as a disease. 
+Only in the past few decades have physicians begun 
+to understand that poorly managed acute pain (adaptive) can have a negative impact on recovery and lead 
+to debilitating chronic pain (maladaptive). Evidence is 
+mounting that endogenous and exogenous factors can 
+influence pain signal descending pathway modulation 
+within the spinal cord and possibly influence “chronification” of acute pain into chronic pain. 20 Individuals 
+who exhibit symptoms consistent with pain chronification develop common brain changes in areas known 
+to manage nociceptive input or pain regulation. It has 
+been suggested that these brain changes represent a 
+pain chronification signature that should be reversible with adequate pain management. 21 However, the 
+myriad influences impacting the chronification of pain 
+remain incompletely and poorly understood. Rollin 
+Gallagher, MD, editor of Pain Medicine, has modeled 
+the chronification of pain as a cycle that begins with 
+acute injury and cascades into a series of pathological central nervous system aberrant changes. These 
+changes can be mutually reinforcing in a vicious circle 
+and lead to the disease process of chronic pain with its 
+attendant physical, psychological, and social disability 
+(Figure 36-3). 
+The impact of pain chronification on a wounded 
+service member’s recovery and rehabilitation is often 
+devastating. Moreover, unlike the obvious disability associated with amputation, broken bones, and 
+wounds that engender public sympathy, the burden 
+of chronic pain is often invisible to the public; those 
+carrying this burden often do so alone with little public or professional empathy. Development of chronic 
+pain can further exacerbate other common wartime 
+injuries such as posttraumatic stress disorder (PTSD) 
+and traumatic brain injury (TBI), which are often described as signature injuries from the recent conflicts. 
+Lew et al22 recently examined the medical records of 
+340 consecutive veterans being treated for polytrauma 
+to determine the incidence of chronic pain, PTSD, and 
+TBI in this population. They noted that 81. 5% of this 
+population complained of chronic pain (compared to 
+68. 2% with PTSD and 66. 8% with TBI). Furthermore, 
+41. 2% of the cohort had all three conditions simultaneously. This group suggested that the association of 
+chronic pain, PTSD, and TBI represents a polytrauma 
+clinical triad, and most patients diagnosed with one 
+condition will have the others in combination. However, although considerable attention and investment 
+has been directed towards PTSD and TBI research and 
+treatment, comparatively little investment has been afforded chronic pain in the same period, even though it 
+is the more common complaint among trauma victims. 
+THE ACUTE PAIN SERVICE
+The fact that opioids have historically served (and 
+continue to serve) in the modern era as a cornerstone 
+of pain management following combat wounds is 
+understandable, because this class of medications has 
+few peers in terms of the speed and intensity of the 
+analgesia produced. As noted earlier, the use of this 
+medication has had a long association with military 
+medicine, and more severely wounded veterans are 
+surviving than at any time in history. Unfortunately, 
+the consequences of opioid monotherapy for pain 
+management is becoming a problem as significant, and 
+in many cases worse, than the pain condition being 
+560
+Fundamentals of Military Medicine
+treated. Beyond the usual acute side effects of nausea, 
+constipation, dependence, and potentially deadly respiratory depression, the use of opioids for protracted 
+periods can lead to a host of other issues. Chronic 
+opioid use has been associated with reductions in sex 
+hormones in men, termed opioid-induced androgen 
+deficiency (OPIAD), that can result in significantly 
+higher levels of depression, fatigue, and sexual dysfunction. 23 Other conditions associated with long-term 
+opioid use include osteoporosis, immune function 
+suppression, and cognitive impairment. 24 
+Obviously these conditions significantly detract 
+from the recovery and rehabilitation of a casualty 
+from combat trauma. Even more disconcerting is the 
+mounting evidence that ongoing use of opioids for 
+pain may paradoxically decrease the threshold for a 
+patient’s tolerance of noxious stimuli. Although the 
+exact mechanism for this phenomenon is incompletely 
+understood, it is likely a combination of both peripheral and central nervous system changes influenced 
+by chronic opioid therapy. 24,25 Mirroring the national 
+opioid misuse and abuse trends, the military has experienced an increase in opioid-related problems that 
+have likely been magnified by the stress associated 
+with the last 18 years of conflict. 26 The medical community’s continued overreliance on opioids as a single 
+approach for managing pain has created an epidemic 
+of prescription medication abuse and diversion within 
+Pathophysiology of Maintenance
+• Radiculopathy
+• Neuroma traction
+• Myofascial sensitization
+• Brain and spinal cord pathology
+ leading to atrophy, reorganization
+Neuropsychopathology of Maintenance
+• Encoded anxiety dysregulation
+• Posttraumatic stress disorder
+• Emotional allodynia
+• Mood disorder
+• Cognitive disorder
+Pathology
+• Muscular atrophy and 
+ weakness
+• Bone loss
+• Immunocompromise
+• Depression
+Disability
+• Less active
+• Kinesophobia
+• Decreased motivation
+• Increased isolation
+• Role loss
+• Sleep disorder
+Acute Injury and Pain
+Neurogenic Inflammation
+• Glial activation
+• Pro-inflammatory cytokines
+• Blood-nerve barrier disruption
+Central Sensitization
+• Neuroplastic changes
+Peripheral Sensitization
+• New Na+ channels cause
+ lower pain threshold
+Chronification: The Chronic Pain Cycle
+Figure 36-3. “Chronification”: the chronic pain cycle.
+Reproduced with permission from: Gallagher RM. Pharmacologic approaches to pain management. In: Ebert M, Kerns R, 
+eds. Behavioral and Psychoparmacologic Pain Management. New York, NY: Cambridge University Press; 2011:139.
+561
+Acute Pain Management in the Deployed Environment
+the United States. In 2009, the rate of deaths due to 
+unintentional drug overdoses surpassed those caused 
+by motor vehicle crashes. 27 
+As evidence has become increasingly unfavorable 
+toward opioid monotherapy on the battlefield, coupled 
+with recent successes in managing complex trauma with 
+CPNB and local anesthetics, the need for a systematic 
+approach to pain for casualty evacuation has become 
+more apparent. While CPNB catheters have clearly demonstrated efficacy in the management of polytrauma 
+pain without the significant side effects associated 
+with opioids, RA techniques and other advanced pain 
+management options require trained medical personnel 
+and logistics support at all roles of care in the evacuation chain. 28 Fortunately, as chronification of acute pain 
+increasingly became considered as a disease process, 
+efforts in both military and civilian medicine began 
+establishing acute pain management infrastructure 
+through establishment of an acute pain service (APS). 
+The APS provides the training, medical logistics, and 
+organizational framework for physicians, nurses, and 
+other support personnel to diagnose and treat acute 
+pain as a pathophysiologic ailment. 29 Most importantly, 
+the APS infrastructure facilitates the use of multimodal 
+analgesia for patients based on their individual problems, within the context of increasingly complex pain 
+issues associated with trauma and the modern perioperative environment. Multimodal analgesia is defined 
+as the use of two or more medications or techniques 
+that produce analgesia by different mechanisms. The 
+advantage of this approach is that the overall analgesia 
+is superior to what would have been achieved using 
+any single drug or procedure (monotherapy), while 
+the unwanted side effects of any one treatment element 
+are minimized because of reduced reliance, and thus a 
+smaller dose, of any one element. 30,31 
+Concurrent with the improvements in managing 
+acute pain through APS establishment in major US 
+hospitals has been the realization that aggressive and 
+effective acute pain management reduces postoperative morbidity. 32 Furthermore, effective control of acute 
+pain reduces the cascade of unwanted physiologic 
+consequences (see Figure 36-3) associated with unmanaged nociception, which adversely impact recovery 
+and rehabilitation and can induce chronic pain. 33,34 
+Persistent postsurgical pain, defined as pain lasting 3 
+to 6 months after surgery, is present in 10% to 50% of 
+surgical patients, and can lead to debilitating chronic 
+pain in 2% to 10% of these patients. 35 
+Despite this alarmingly high incidence, little is 
+generally known or accepted on who is at risk for 
+developing chronic pain following trauma or surgery, or how to effectively manage acute pain to 
+avoid chronification. It is understood that acute pain 
+chronification is a complex problem involving many 
+patient factors in the perioperative and recovery 
+periods that contribute to persistent postsurgical 
+pain and, in some patients, chronic pain. 36 Certainly 
+a patient’s genotype is an important determinant 
+of susceptibility to chronic pain development, but 
+epigenetic modifications of gene expression that are 
+influenced by exposure to toxins, medications, diet, 
+and other physiologic and psychologic stressors can 
+also impact a patient’s unique predisposition to developing chronic pain after trauma or surgery. 37 This 
+emerging understanding of the complexity and importance of effective pain management in a patient’s 
+overall healing, along with the requirement to address 
+the needs of the wounded, ill, and injured from the 
+Afghanistan and Iraq wars, has led to a reemphasis 
+on the management of pain in war casualties on 21st 
+century battlefields. 
+PAIN MANAGEMENT ON THE MODERN BATTLEFIELD
+In 2009, following increasing reports of prescription medication abuse and diversion among the Army 
+wounded assigned to the Warrior Transition Units, 
+as well as continued concerns with the lack of a clear 
+pain management strategy, the Army surgeon general, Lieutenant General Eric Schoomaker, chartered 
+the Tri-Service Pain Management Task Force (PMTF). 
+Its mission was to review military pain management 
+capabilities and practices and develop recommendations for a comprehensive pain management strategy. 
+The resulting PMTF report (2010) outlined over 100 
+recommendations for a pain management strategy 
+that is “holistic, multidisciplinary, and multimodal in 
+its approach, utilizes state of the art/science modalities 
+and technologies, and provides optimal quality of life 
+for soldiers and other patients with acute and chronic 
+pain.”38 This effort has further increased the military 
+health system’s reemphasis on pain management, both 
+acute and chronic, throughout the casualty evacuation 
+chain and within military treatment facilities. 
+Casualty care on the modern battlefield is organized 
+into four roles of care (previously known as levels) 
+that denote increasing medical capability from point 
+of injury back to the United States (see Chapter 14, 
+Introduction to Health Service Support). 39 A discussion of improvements in pain management of casualties from recent conflicts is best described within this 
+framework of the roles of care. 
+562
+Fundamentals of Military Medicine
+Role 1: Immediate First Aid Delivered at the Scene
+Role 1 care is at point of injury and focused on 
+self-aid and buddy aid. One of the most basic and 
+important actions the individual soldier can undertake 
+to reduce the impact of pain and enhance resilience 
+following wounding is through efforts directed at 
+achieving better personal health and fitness prior to 
+deployment (see Chapter 19, The Evolution of Human Performance Optimization and Total Force Fitness). This concept is embodied by the Army Medical 
+Command’s Performance Triad campaign, which 
+is designed to establish healthy lifestyle habits with 
+focus on physical activity, appropriate nutrition, and 
+adequate sleep. 40 Essentially, a healthy person will be 
+better prepared to tolerate the physical and psychological stress associated with acute pain, and thus better 
+able to resist pain chronification. 
+While morphine continues as the primary, gold 
+standard analgesic for combat medics, there have been 
+significant changes to the Role 1 approach to analgesia. 
+One example is the inclusion of a chapter on pain assessment and control (Chapter 30, Basic Medical Skills) 
+in the Special Operations Forces Medical Handbook, 2nd 
+edition, which serves as a primary medical information 
+source for combat medics. 41 This resource provides 
+information on the analgesics taken by medics into 
+battle, along with the “dos” and “don’ts” of analgesic 
+management in this complex and dangerous environment. The primary annual skills sustainment courses 
+for medics and corpsmen still have a heavy focus on 
+morphine as the primary analgesic. However, Tactical 
+Combat Casualty Care (TCCC) guidelines, endorsed 
+by the Department of Defense, offer a much broader 
+range of analgesic options.
+A number of recent developments have occurred 
+in acute pain management of combat casualties far 
+forward on the modern battlefield. One of the more 
+novel approaches, developed by US Special Forces, 
+involved issuing individual first aid kits with combat 
+pill packs to be used in the event of wounding in 
+the combat environment. Essentially, soldiers were 
+instructed to self-administer the medications as soon 
+as practical if painfully wounded and alert enough to 
+open the pack, while remaining in the fight. The packs 
+contained a cyclooxygenase-2-selective nonsteroidal 
+antiinflammatory drug (NSAID), meloxicam 15 mg, 
+and acetaminophen 650 mg, in addition to the antibiotic gatifloxacin. 42 Neither of the pain medications 
+impact platelet function when given as single doses, 
+and therefore do not impede clot formation following 
+wounding. 43,44 With brilliant simplicity, this approach 
+granted the casualty instant access to pain management at the point of injury without reliance on another, 
+likely otherwise occupied, soldier. Additionally, these 
+medications have no clinically relevant impact on cognition, allowing the wounded soldier to “stay in the 
+fight” while still establishing a non-opioid analgesic 
+foundation that can be built upon through the roles 
+of care when the casualty is evacuated. While the pill 
+packs are not currently carried by all soldiers, many 
+combat medics and corpsmen have these medications 
+available to treat battlefield casualties at the point of 
+injury.
+For casualties in pain who are unable to fight and 
+do not require intravenous access, oral transmucosal 
+fentanyl citrate (OTFC), 800 µg transbuccal (a “fentanyl 
+lollipop”), is frequently used by combat medics in the 
+field. 42 Kotwal el al45 studied 22 hemodynamically stable casualties with uncomplicated orthopedic trauma 
+and concluded that OTFC was an effective, rapidacting analgesic alternative for trauma in the combat 
+or austere environment. The ability to administer the 
+medication via the oral mucosa, negating the need for 
+vascular access, is a definitive advantage. One patient 
+in this series did experience hypoventilation, which 
+remains the primary issue of concern for all opioid 
+medications in this environment. Therefore, medics 
+continue to be advised to monitor patients closely 
+following any opioid administration while keeping 
+naloxone readily accessible. 46 The most common side 
+effect associated with this approach, as with other 
+opioid-based methods, is nausea. 47 Although OTFC 
+has demonstrated significant efficacy in managing 
+acute trauma pain, like morphine, the risks associated 
+with opioid medications are not resolved with this 
+delivery method. 
+One of the most interesting developments from 
+the recent conflicts is the use of ketamine as an analgesic alternative to morphine on the battlefield. 
+In the same class of drugs as phencyclidine (PCP), 
+ketamine is termed a dissociative anesthetic and has 
+been described as producing a cataleptic state, amnesia, and intense analgesia without depression of the 
+respiratory rate or blood pressure at low doses. 48,49 
+Additionally, ketamine is a noncompetitive antagonist of the N-methyl-d-aspartate (NMDA) receptor, 
+which is activated by peripheral nociception, leading 
+to hyperexcitability of dorsal root neurons, which 
+is thought to contribute to central sensitization and 
+the chronification of pain. 49,50 The most common 
+side effects associated with ketamine administration 
+are psychedelic emergence phenomena, including 
+feelings of floating, vivid dreams, hallucinations, 
+and delirium. 51,52 These issues can be minimized or 
+eliminated if the infusion dose of ketamine utilized is 
+low (< 2. 5 µg/kg/min) and certainly these issues are 
+not as troublesome as those associated with opioid or 
+563
+Acute Pain Management in the Deployed Environment
+NSAID use. 53 Eastridge et al, in a review of 4,596 Iraq 
+and Afghanistan combat casualties from October 2001 
+to June 2011, identified hemorrhage as responsible for 
+90% of deaths from potentially survivable wounds 
+and recommended “providing a battlefield analgesia 
+option that does not cause respiratory depression or 
+exacerbate hemorrhagic shock.”54 Ketamine has many 
+attributes that fulfill these conditions. 
+The flexibility of ketamine as the principle anesthetic in military situations was demonstrated during 
+the Somalia civil war in 1994 and in north Uganda in 
+1999. The conditions in these conflicts were so austere 
+that patient monitoring during surgery consisted of 
+counting respirations and the heart rate while adjusting the ketamine drip rate based on established parameters every 3 to 5 minutes. This was accomplished 
+with ancillary staff of variable anesthesia training 
+and experience. 55 In the author’s own experience in 
+2009, while deployed as an anesthesiologist at Camp 
+Bastion, Afghanistan, two options were available for 
+providing analgesia during initial trauma assessments: 
+morphine and ketamine. In every case where I was the 
+lead trauma anesthesiologist, I selected ketamine over 
+morphine to provide analgesia due to its consistent 
+analgesic effectiveness without the hemodynamic 
+complications of respiratory depression and hypotension associated with morphine. Ketamine was also 
+extremely useful when a chemical restraint was indicated to prevent patients from injuring themselves, 
+or in support of procedures or imaging studies where 
+a comfortable and motionless patient was desirable. 
+In the recent conflicts, ketamine has been determined 
+to be at least as effective as morphine for providing 
+analgesia at point of injury and during initial evacuation. 56 In a study of 48 healthy volunteers who were 
+asked to perform common military tasks after exposure to morphine 10 mg versus ketamine 25 mg given 
+intramuscularly in the deltoid muscle, ketamine was 
+associated with more reports of side effects (dizziness, 
+poor concentration, or feelings of happiness generally), 
+although performance decrements between the two 
+medications were minimal. 57 Intranasal delivery of 
+ketamine has also been evaluated, removing the need 
+for vascular access. 58 
+These properties of ketamine make it an ideal Role 1 
+analgesic, and recent changes to the TCCC guidelines 
+for pain management now include ketamine for the 
+first time. 59 Ketamine, either 50 mg intramuscular or 
+intranasal, or 20 mg intravenous or intraosseous (administered slowly), is recommended as an additional 
+option to opioid therapy for moderate to severe pain in 
+Role 1 conditions. In a review of 228 Afghanistan casualties evacuated from the battlefield by rotary aircraft 
+from October 2012 to September 2013, the most common analgesic used was ketamine, closely followed 
+by morphine; when two analgesics were employed, 
+ketamine and morphine were most often used. 60 
+Role 2: Forward Surgical Care
+Role 2 facilities provide enhanced resuscitation 
+services compared to Role 1, with the important addition of surgical assets to provide damage control 
+resuscitation and surgery, as well as casualty collection 
+and sorting efforts. These facilities are the first level 
+of care where blood and blood products are available 
+for trauma resuscitation. 61 Analgesic options at this 
+level are similar to Role 1, with the addition of general 
+anesthesia and single injection RA when indicated. 
+An interesting development from the recent conflicts is the use of acupuncture in the management of 
+acute pain and stress issues in the far-forward Role 
+1 and 2 environment. Working in the deployed military environment is stressful and hard on the body, 
+without even considering conditions experienced 
+in actual combat. From wearing 40 pounds of body 
+armor and equipment, to walking or riding in difficult terrain, and being constantly on alert for danger, 
+among many other taxing wartime events, soldiers 
+have plenty of reasons to develop painful conditions. 
+Military healthcare providers have found acupuncture to be a safe and useful therapy in pain and stress 
+management for soldiers on the modern battlefield. 62 
+Acupuncture requires minimal equipment to perform, 
+is associated with minimal (mostly minor) side effects, and has no abuse potential. The increased use 
+of acupuncture, particularly auricular acupuncture, 
+in the care of soldiers has been a unique feature of the 
+medical response to the wars in Iraq and Afghanistan. 
+A battalion aid station serving 500 Seabees deployed to 
+Iraq from September 2006 through March 2007 managed 132 individual patients with acupuncture for a 
+variety of issues, and 80% of these patients required 
+no additional medications such as antiinflammatories 
+or analgesics. 63 These attributes have prompted some 
+medical leaders to suggest acupuncture training and 
+services should be a routine component of the military 
+response to disaster or war. 64 
+Despite published and anecdotal reports of the 
+successful application of acupuncture on the modern 
+battlefield, the general consensus is that an appropriate evidence base to support standard acupuncture 
+care protocols in the military is lacking. 65 This is not 
+to suggest a lack of evidence to support acupuncture in the management of a variety of conditions; 
+rather, there remains a general dearth of experience 
+and system support within the military to develop 
+an understanding of acupuncture’s role in military 
+564
+Fundamentals of Military Medicine
+medicine. This situation is changing as the military 
+seeks non-opioid options for analgesic care in austere conditions. Although acupuncture has been 
+used sporadically throughout the military since the 
+1980s, there has been a major educational and clinical transformation in the use of acupuncture during 
+the past decade. 66 Initial investment into DoD-wide 
+acupuncture training and credentialing has been 
+through the introduction of battlefield acupuncture 
+(BFA), an auricular acupuncture protocol for pain 
+that is taught to all levels of provider within the military. 67 BFA is a series of five auricular points, called 
+cingulate gyrus, thalamus, omega 2, point zero, and 
+shen men (Figure 36-4), in which semipermanent 
+needle studs are placed to reduce pain and stress. 68 
+This program was designed to socialize both patients 
+and providers to the use of acupuncture in military 
+care settings while adding a nonpharmaceutical 
+complementary method for treating pain. Although 
+considerable additional research and experience is 
+needed before acupuncture in the military can be 
+considered routine, it is the most developed integrative medicine approach within the federal medicine 
+system today and will likely be a common approach 
+to managing pain in the future. 
+Role 3: Combat Support Hospitals 
+The goal of both Role 1 and 2 care efforts is the 
+stabilization of the casualty for evacuation to a Role 
+3 facility within the war theater. Role 3 facilities have 
+the major surgical specialties represented, full anesthesia capability, intensive care, diagnostic imaging, 
+laboratory, and blood bank services available. Role 
+3 represents the highest level of care within the war 
+theater and the first opportunity for restorative care, 
+including comprehensive pain management. 
+Perhaps one of the most significant concepts to develop from the recent wars is the realization that effective pain management begins at point of injury, must 
+operate as a continuum throughout the roles of care, 
+extends into the casualty’s evacuation to the United 
+States, continues through rehabilitation in medical 
+centers, and stretches into the rest of their lives. 69 This 
+is a considerable responsibility for any healthcare 
+system, but shirking this effort can, and often does, 
+destroy the quality and productivity of the life that 
+was saved on the battlefield. (This is not to suggest 
+that military healthcare providers have ignored pain 
+and suffering in the past; in fact, pain management has 
+been considered the general responsibility of every 
+healthcare provider. Superficially this approach may 
+appear to be a reasonable, but when everyone is held 
+responsible, no one can be held accountable when pain 
+is an issue for the wounded soldier.) 
+Despite contemporary understanding of the detrimental impact of inadequate pain management 
+on rehabilitation and recovery following trauma or 
+surgery,70 adequate and continuous pain management remains a significant challenge for the military, 
+particularly in the deployed or evacuation environment. Sophisticated management of pain, beyond the 
+application of opioid monotherapy, requires establishment of an APS of dedicated physicians, nurses, 
+and support personnel who are both responsible and 
+accountable for casualty pain management within the 
+CSH. Through a collaboration between US and United 
+Kingdom military medical services, a demonstration 
+APS was established at the Camp Bastion, Afghanistan, 
+CSH in 2009. 71 The British CSH leadership established 
+pain management as a key indicator of care quality at 
+the facility during the project. APS personnel consisted 
+of a physician leader with specialty training in acute 
+pain management and RA, as well as pain nurse champions within each care ward in the hospital. The team 
+was augmented with specialized equipment dedicated 
+Figure 36-4. Battlefield acupuncture auricular points. Points 
+are usually placed in the following order: cingulate gyrus, 
+thalamus, omega 2, point zero, and shen men (CTOPS).
+Photograph courtesy of Richard C. Niemtzow, MD
+565
+Acute Pain Management in the Deployed Environment
+to pain management, including pain infusion pumps, 
+RA catheters and equipment, peripheral nerve stimulators, and a portable ultrasound machine. 
+During this particular demonstration, approximately 455 trauma cases were managed by the CSH trauma 
+team, and the APS physician rounded daily with 
+the team as the pain consultant. Unusual or difficult 
+acute pain cases were managed directly by the APS, 
+although all casualties received a multimodal pain care 
+plan. Table 36-1 outlines the frequency of intravenous 
+and oral analgesic medications that were used in this 
+patient cohort. Of the 71 casualties managed directly 
+by the APS in this project, 51 (71. 8%) received RA as 
+part of their multimodal pain plan. The majority of 
+these patients had traumatic amputations or limb 
+injuries. The average improvement in pain scores (for 
+those able to report), based on the casualties’ recall 
+estimate of their pain at point of injury, was 51. 9% (± 
+31. 2). A general survey of healthcare providers at the 
+CSH during the project period was also performed to 
+evaluate their perceptions of the value of the activity to 
+overall care. 72 The survey consisted of items designed 
+to appraise staff impressions of APS outcomes, complexity of care, decision-making support, and pain 
+management education. Generally the survey revealed 
+considerable enthusiasm for the establishment of the 
+CSH APS. Respondents agreed that soldiers managed 
+by the APS reported reduced levels of pain (64. 8%) 
+and obtained greater relief (73. 9%). The staff generally agreed (73. 5%) that the APS had a positive overall 
+impact on patient outcomes. 
+The Camp Bastion APS also provided opportunities for innovation in dealing with difficult clinical 
+pain situations. For example, ventilator beds within 
+the CSH intensive care unit were limited, and failure 
+to wean patients efficiently from this constrained resource impacted the CSH’s mission readiness. Patients 
+who sustained abdominal wounds were notoriously 
+difficult to remove from the ventilator following a 
+laparotomy due to poor respiratory drive secondary 
+to severe abdominal pain. Epidural catheters infusing 
+local anesthetics are a possibility in these patients, although patient positioning and anticoagulation issues 
+often precluded this option. To overcome this clinical 
+dilemma, APS staff employed a bilateral continuous 
+transversus abdominis plane block to provide sufficient abdominal wall analgesia to allow patients to 
+be weaned off ventilator support faster. This was one 
+of the first descriptions of this technique being used 
+within a war theater for this purpose. 73
+As previously discussed, rapid evacuation of 
+wounded by aircraft has contributed greatly to the 
+increased survival of casualties in recent conflicts. A 
+specific advantage of a functioning APS within the 
+CSH is the ability to prepare patients, from a pain 
+management perspective, for long evacuation flights to 
+medical centers outside the conflict theater. 74 The use 
+of advanced pain control technology on air evacuation 
+flights, such as patient controlled analgesic infusions, 
+CPNBs, and novel analgesic medications, depends 
+on APS efforts at the CSH for the safe application 
+and transfer of these modalities onto the medically 
+austere aircraft environment. APS services must also 
+be established at the receiving facility for appropriate 
+care plan communication and safe management of 
+pain care modalities at the receiving medical center. 
+Recognition of the importance of pain management 
+within the roles of care and evacuation chain has 
+resulted in the establishment of a Joint Theater 
+Trauma System Clinical Practice Guideline on Pain, 
+Anxiety and Delirium, most recently updated in 
+March 2017 (http://jts.amedd.army.mil/assets/docs/
+cpgs/JTS_Clinical_Practice_Guidelines_(CPGs)/
+Pain_Anxiety_Delirium_13_Mar_2017_ID29.pdf). 
+This document provides a doctrinal basis for the need 
+and establishment of an APS in Role 3 and above 
+medical treatment facilities. It also outlines many of 
+TABLE 36-1
+FREQUENCY OF INTRAVENOUS AND ORAL 
+ANALGESIC ADMINISTRATION
+Medication
+No. of 
+Patients
+Frequency (%) 
+of Patients
+Paracetamol (IV)
+66
+93. 0
+Diclofenac (IV)
+59
+83. 1
+Morphine (IV)
+30
+42. 3
+Oramorph SR (PO)
+19
+26. 8
+Codeine (PO)
+5
+7. 0
+Ketamine (IV)
+5
+7. 0
+Ketorolac (IV)
+5
+7. 0
+Ibuprofen (PO)
+4
+5. 6
+Tramadol (PO)
+4
+5. 6
+Acetaminophen (PO)
+1
+1. 4
+Amitriptyline (PO)
+1
+1. 4
+Co-codamol (PO)
+1
+1. 4
+Methocarbamol (PO)
+1
+1. 4
+IV: intravenous
+PO: per os (by mouth)
+Reproduced with permission from: Buckenmaier C III, Mahoney PF, 
+Anton T, Kwon N, Polomano RC. Impact of an acute pain service 
+on pain outcomes with combat-injured soldiers at Camp Bastion, 
+Afghanistan. Pain Med. 2012;13:919–926.
+566
+Fundamentals of Military Medicine
+the innovations in pain care that have been established 
+during current conflicts. Even with the creation of 
+this wartime practice guideline, organization of APS 
+services in current CSH settings remains inconsistent. 
+General medical command understanding and 
+emphasis of the importance of pain management in 
+combat casualty care is required to make this guideline 
+a standard of practice in the next war. 
+Roles 4 and 5: Medical Centers Outside the Theater 
+Role 4 facilities are full-service military hospitals 
+located outside the war theater of operations. LRMC 
+has served as the primary evacuation hospital for 
+both Iraq and Afghanistan and is the current epitome 
+of Role 4 care. The success of new pain technologies 
+established in Role 3 depended on the establishment of 
+an APS presence at LRMC early in the conflicts. During 
+the course of the conflicts, Walter Reed Army Medical 
+Center anesthesiology residents performed monthlong training rotations at the LRMC APS in support 
+of the activity and to gain practical experience in the 
+acute pain management of war casualties. The investment in this training experience by military graduate 
+medical education highlights the importance of the 
+APS activity to casualty management at the critical 
+LRMC casualty evacuation node. 
+Role 5 military medical centers located within the 
+United States represent the final and most capable 
+expression of military medicine. Recovering wounded 
+remain weeks to months in these rehabilitation facilities, undergoing physical and psychological restoration. The APS service and effective management of 
+pain is, again, a key component of care at this level. 
+Collection of actionable patient-reported outcome data 
+in this complex environment becomes even more critical to provide the needed evidence to drive innovation 
+in pain diagnosis and treatment. 
+PAIN MEASUREMENT
+The LRMC APS provided opportunity for some 
+of the only research on casualty pain levels since 
+Beecher’s efforts from World War II. A survey of 110 
+wounded from July 2007 to February 2008 revealed 
+that pain scores in this cohort tended to be high during 
+evacuation flights (>4 on a numeric rating scale), and 
+respondents often failed to receive a 50% reduction 
+in their pain despite recent advances in inflight pain 
+care. 28 Unfortunately, this small survey represents one 
+of the very few attempts to quantify and track casualty 
+pain during the recent years of conflict, representing a 
+missed opportunity to better understand the impact of 
+pain on the recovering casualty. There is a fundamental 
+need for better pain data, collected throughout all roles 
+of care, to enhance the understanding of how pain on 
+the modern battlefield can best be managed to enhance 
+overall patient outcomes. 
+One of the primary findings and recommendations from the PMTF 2010 report was the need for an 
+improved pain assessment tool able to measure pain 
+intensity, mood, stress, biopsychosocial impact, and 
+functional impact across all roles of care. 38 In response, 
+the Defense and Veterans Pain Rating Scale (DVPRS)75 
+was developed and validated to provide a standardized measure for pain in all manner of military treatment facilities (Figure 36-5). The DVPRS scale is unique 
+in its employment of functional language labels for 
+each pain measurement number on the zero-to-ten 
+scale, along with pain faces and colored pain intensity 
+bars to assist patients in rating pain intensity. The use 
+of functional language anchors for each pain intensity 
+number reduces response variability and enhances 
+consistency of the pain question throughout the care 
+system. The addition of questions on the impact of 
+pain on activity, sleep, mood, and stress emphasizes 
+the important biopsychosocial variables that influence 
+the overall pain experience. Adaptation of the DVPRS 
+as the federal pain question standard through all roles 
+of care could standardize pain data and improve understanding of the clinical impact of pain management 
+treatments. The lack of quality, standardized, patientreported outcome data on pain has been a major source 
+of inertia in the development and adoption of novel 
+pain care modalities on the modern battlefield. Pain 
+data of this type will become even more vital if the 
+promise of genomics guiding future medical care is 
+to be realized. 76,77 
+The PMTF also recommended the development 
+of a Pain Assessment Screening Tool and Outcomes 
+Registry (PASTOR) to inform clinical care visits and 
+provide comprehensive data on treatment effectiveness. PASTOR utilizes the Patient-Reported Outcomes Measurement Information System (PROMIS) 
+developed through the National Institutes of Health 
+(NIH). 78 Although a complete discussion of PASTOR 
+is beyond the scope of this chapter, the program leverages computer adaptive technology and validated NIH 
+measurement domains (anxiety, depression, fatigue, 
+sleep impairment, among others) to create a detailed 
+clinician summary report on pain with far more clinically useful information than what is obtained with 
+the standard numeric (0–10) pain rating scale currently 
+used in most clinical situations. Furthermore, this 
+data, along with patient demographic and treatment 
+information, goes into a registry to support process 
+improvement research. 
+567
+Acute Pain Management in the Deployed Environment
+Figure 36-5. Defense and Veterans Pain Rating Scale.
+CONCLUSION
+MMOs have a long history of alleviating acute 
+pain and suffering; it is one of the greatest blessings 
+bestowed on the battlefield. Recent focus has been 
+on alternative strategies for acute pain management 
+specific to the various roles of care, branching out 
+with an expanded armament of medications, as well 
+as nonpharmacologic adjuncts such as RA and acupuncture. The need for the APS system and standardized patient-reported pain outcome data collection 
+cannot be overemphasized as novel medications and 
+568
+Fundamentals of Military Medicine
+technologies continue to be developed for use in the 
+military environment. There is also a developing understanding about the chronification of pain. The APS 
+system provides a vital link between acute pain care 
+and specialty chronic pain services, which is crucial 
+when chronic pain complicates recovery. 
+Acute pain chronification is a complex disease 
+process that defies a single medication or procedural 
+solution. Although development of a system approach 
+to pain through the APS may be challenging in the 
+currently taxed medical environment, the elements 
+for establishing APS services are already inherent 
+to deployed and fixed medical facilities. Command 
+emphasis on pain management is required as a key 
+indicator of patient care quality within all military 
+treatment facilities. This emphasis must be continuously validated through collection of pain care data as 
+patients pass through all roles of care. Investment in 
+this pain care system will establish the infrastructure 
+required to maintain advancements achieved in the 
+present conflicts and stimulate research and innovation in the next conflict. As John Bonica observed in 
+The Management of Pain, “The proper management of 
+pain remains, after all, the most important obligation, 
+the main objective, and the crowning achievement of 
+every physician.”10 In the author’s own experience, few 
+things in life are as personally rewarding as relieving 
+the pain of a wounded soldier. 
+REFERENCES
+ 
+1. Farwell B. Stonewall: A Biography of General Thomas J. Jackson. New York, NY: W.W. Norton & Company; 1992: 492–526.
+ 
+2. Lewy J. The Army disease: drug addiction and the Civil War. War Hist. 2013;21:102–119.
+ 
+3. Brownstein MJ. A brief history of opiates, opioid peptides, and opioid receptors. Proc Natl Acad Sci U S A. 1993;90:5391–
+5393.
+ 
+4. Ranby J. The nature and treatment of gunshot wounds. In: Van Swieten G, eds. The Diseases Incident to Armies. Philadelphia, PA: R. Bell; 1776: 136.
+ 
+5. Terry CE, Pellens M. The Opium Problem. New York, NY: Committee on Drug Addictions and Bureau of Social Hygiene; 
+1928: 69.
+ 
+6. Meldrum ML. A capsule history of pain management. JAMA. 2003;290:2470–2475.
+ 
+7. Beecher HK. Pain in men wounded in battle. Ann Surg. 1946;123:96–105.
+ 
+8. Meldrum ML. Brief history of multidisciplinary management of chronic pain, 1900-2000. In: Schatman ME, Campbell 
+A, eds. Chronic Pain Management: Guidelines for Multidisciplinary Program Development. New York, NY: Informa Healthcare; 2007: 1–13.
+ 
+9. Bonica JJ. Organization and function of a multidisciplinary pain clinic. In: Weisenberg M, Tursky B, eds. Pain. Boston, 
+MA: Springer; 1976: 11–20.
+ 10. Bonica JJ. The Management of Pain. Philadelphia, PA: Lea & Febiger; 1953:593.
+ 11. Apkarian AV, Baliki MN, Farmer MA. Predicting transition to chronic pain. Curr Opin Neurol. 2013;26:360–367.
+ 12. Gawande A. Casualties of war—military care for the wounded from Iraq and Afghanistan. N Engl J Med. 2004;351:2471–
+2475.
+ 13. Air transport of the critically injured patient: controlling pain during transport and flight. In: Buckenmaier CC, Bleckner L, eds. Military Advanced Regional Anesthesia and Analgesia. Washington, DC: Borden Institute; 2008: 113–118.
+ 14. Buckenmaier CC, McKnight GM, Winkley JV, et al. Continuous peripheral nerve block for battlefield anesthesia and 
+evacuation. Reg Anesth Pain Med. 2005;30:202–205.
+ 15. Buckenmaier CC III, Lee EH, Shields CH, Sampson JB, Chiles JH. Regional anesthesia in austere environments. Reg 
+Anesth Pain Med. 2003;28 321–327.
+569
+Acute Pain Management in the Deployed Environment
+ 16. Owens BD, Kragh Jr JF, Wenke JC, Macaitis J, Wade CE, Holcomb JB. Combat wounds in Operation Iraqi Freedom 
+and Operation Enduring Freedom. J Trauma. 2008;64:295–299.
+ 17. Buckenmaier CC 3rd, Bleckner L. Military Advanced Regional Anesthesia and Analgesia. Washington, DC: Borden Institute; 
+2009.
+ 18. Gironda RJ, Clark ME, Massengale JP, Walker RL. Pain among veterans of Operations Enduring Freedom and Iraqi 
+Freedom. Pain Med. 2006;7:339–343.
+ 19. Woolf CJ. Pain: moving from symptom control toward mechanism-specific pharmacologic management. Ann Intern 
+Med. 2004;140:441–451.
+ 20. Ossipov MH, Morimura K, Porreca F. Descending pain modulation and chronification of pain. Curr Opin Support 
+Palliat Care. 2014;8:143–151.
+ 21. May A. Chronic pain may change the structure of the brain. Pain. 2008;137:7–15.
+ 22. Lew HL, Otis JD, Tun C, Kerns RD, Clark ME, Cifu DX. Prevalence of chronic pain, posttraumatic stress disorder, and 
+persistent postconcussive symptoms in OIF/OEF veterans: polytrauma clinical triad. J Rehabil Res Dev. 2009;46:697–702.
+ 23. Rajagopal A, Vassilopoulou-Sellin R, Palmer JL, Kaur G, Bruera E. Symptomatic hypogonadism in male survivors of 
+cancer with chronic exposure to opioids. Cancer. 2004; 00:851–858.
+ 24. Raghavan S, Harvey AD, Humble SR. New opioid side effects and implications for long-term therapy. Trends Anesth 
+Crit Care. 2011;1:18–21.
+ 25. Angst MS, Clark JD. Opioid-induced hyperalgesia: a qualitative systematic review. Anesthesiology. 2006;104:570–587.
+ 26. Sharpe Potter J, Bebarta VS, Marino EN, Ramos RG, Turner BJ. Pain management and opioid risk mitigation in the 
+military. Mil Med. 2014;179:553–558.
+ 27. Weisberg DF, Becker WC, Fiellin DA, Stannard C. Prescription opioid misuse in the United States and the United 
+Kingdom: Cautionary lessons. Int J Drug Policy. 2014;25:1124–1130.
+ 28. Buckenmaier CC III, Rupprecht C, McKnight G, et al. Pain following battlefield injury and evacuation: a survey of 110 
+casualties from the wars in Iraq and Afghanistan. Pain Med. 2009;10:1487–1496.
+ 29. Upp J, Kent M, Tighe PJ. The evolution and practice of acute pain medicine. Pain Med. 2013;14:124–144.
+ 30. Rosero EB, Joshi GP. Preemptive, preventive, multimodal analgesia: what do they really mean? Plast Reconstr Surg. 
+2014;134:85S–93S.
+ 31. American Society of Anesthesiologists Task Force on Acute Pain Management. Practice guidelines for acute pain 
+management in the perioperative setting: an updated report by the American Society of Anesthesiologists Task Force 
+on Acute Pain Management. Anesthesiology. 2012;116:248–273.
+ 32. Ballantyne JC, Carr DB, deFerranti S, et al. The comparative effects of postoperative analgesic therapies on pulmonary 
+outcome: cumulative meta-analyses of randomized, controlled trials. Anesth Analg. 1998;86:598–612.
+ 33. Carr DB, Goudas LC. Acute pain. Lancet. 1999;353:2051-2058.
+ 34. Gilron I, Kehlet H: Prevention of chronic pain after surgery: new insights for future research and patient care. Can J 
+Anaesth. 2014;61:101–111.
+ 35. Kehlet H, Jensen TS, Woolf CJ. Persistent postsurgical pain: risk factors and prevention. Lancet. 2006;367:1618–1625.
+ 36. Wu CL, Raja SN. Treatment of acute postoperative pain. Lancet. 2011:377(9784);2215–2225.
+570
+Fundamentals of Military Medicine
+ 37. Buchheit T, Van de Ven T, Shaw A. Epigenetics and the transition from acute to chronic pain. Pain Med. 2012;13:1474–1490.
+ 38. Pain Management Task Force Final Report, May 2010. Falls Church, VA: Office of the Army Surgeon General; 2010. 
+ 39. Roles of Medical Care (United States). In: Cubano MA, Lenhart MK, Bailey JA, eds. Emergency War Surgery. 4th ed. 
+Fort Sam Houston, TX: Borden Institute; 2013: Chap 2.
+ 40. Deuster PA, Silverman MN. Physical fitness: a pathway to health and resilience. US Army Med Dep J. 2013;24–35.
+ 41. Buckenmaier CC. Basic medical skills: pain assessment and control. In: Farr WD, ed. Special Operations Forces Medical 
+Handbook. 2nd ed. Washington, DC: US Government Printing Office; 2008: 8-33–8-36.
+ 42. Black IH, McManus J. Pain management in current combat operations. Prehosp Emerg Care. 2009;13:223–227.
+ 43. Hinz B, Brune K. Paracetamol and cyclooxygenase inhibition: is there a cause for concern? Ann Rheum Dis. 2012;71:20–25.
+ 44. Rinder HM, Tracey JB, Souhrada M, Wang C, Gagnier RP, Wood CC. Effects of meloxicam on platelet function in 
+healthy adults: a randomized, double-blind, placebo-controlled trial. J Clin Pharmacol. 2002;2:881–886.
+ 45. Kotwal RS, O’Connor KC, Johnson TR, Mosely DS, Meyer DE, Holcomb JB. A novel pain management strategy for 
+combat casualty care. Ann Emerg Med. 2004;44:121–127.
+ 46. US Army. Combat Medic Field Reference. Burlington, MA: Jones & Bartlett Learning; 2005.
+ 47. Wedmore IS, Kotwal RS, McManus JG, et al. Safety and efficacy of oral transmucosal fentanyl citrate for prehospital 
+pain control on the battlefield. J Trauma Acute Care Surg. 2012;73:S490–S495.
+ 48. White PF, Way WL, Trevor AJ. Ketamine—its pharmacology and therapeutic uses. Anesthesiology. 1982;56:119–136.
+ 49. Subramaniam K, Subramaniam B, Steinbrook RA. Ketamine as adjuvant analgesic to opioids: a quantitative and 
+qualitative systematic review. Anesth Analg. 2004;99:482–495.
+ 50. Woolf CJ, Thompson SW. The induction and maintenance of central sensitization is dependent on N-methyl-D-aspartic 
+acid receptor activation; implications for the treatment of post-injury pain hypersensitivity states. Pain. 1991;44:293–299.
+ 51. Haas DA, Harper DG. Ketamine: a review of its pharmacologic properties and use in ambulatory anesthesia. Anesth 
+Prog. 1992;39:61.
+ 52. Green SM, Li J. Ketamine in adults: what emergency physicians need to know about patient selection and emergence 
+reactions. Acad Emerg Med. 2000;7:278–281.
+ 53. Schmid RL, Sandler AN, Katz J. Use and efficacy of low-dose ketamine in the management of acute postoperative 
+pain: a review of current techniques and outcomes. Pain. 1999;82:111–125.
+ 54. Eastridge BJ, Mabry RL, Seguin P, et al. Death on the battlefield (2001-2011): implications for the future of combat 
+casualty care. J Trauma Acute Care Surg. 2012;73:S431–S437.
+ 55. Bonanno FG. Ketamine in war/tropical surgery (a final tribute to the racemic mixture). Injury. 2002;33:323–327.
+ 56. Shackelford SA, Fowler M, Schultz K, et al. Prehospital pain medication use by US Forces in Afghanistan. Mil Med. 
+2015;180:304–309.
+ 57. Gaydos SJ, Kelley AM, Grandizio CM, Athy JR, Walters PL. Comparison of the effects of ketamine and morphine on 
+performance of representative military tasks. J Emerg Med. 2015;48:313–324.
+ 58. Carr DB, Goudas LC, Denman WT, et al. Safety and efficacy of intranasal ketamine for the treatment of breakthrough pain 
+in patients with chronic pain: a randomized, double-blind, placebo-controlled, crossover study. Pain. 2004;108:17–27.
+571
+Acute Pain Management in the Deployed Environment
+ 59. Butler FK, Kotwal RS, Buckenmaier CC 3rd, et al. A triple-option analgesia plan for tactical combat casualty care: 
+TCCC guidelines change 13-04. J Spec Oper Med. 2014;14:13–25.
+ 60. Petz LN, Tyner S, Barnard E, et al. Prehospital and en route analgesic use in the combat setting: a prospectively designed, multicenter, observational study. Mil Med. 2015;180:14–18.
+ 61. Hooper TJ, Nadler R, Badloe J, Butler FK, Glassberg E. Implementation and execution of military forward resuscitation 
+programs. Shock. 2014;41:90–97.
+ 62. Koffman RL. Downrange acupuncture. Med Acupunct. 2011;23:215–218.
+ 63. Spira A. Acupuncture: a useful tool for health care in an operational medicine environment. Mil Med. 2008;173:629–634.
+ 64. Belard JL, Pock AR. Acupuncture and NATO. Med Acupunct. 2011;23:271–273.
+ 65. Edwards E, Louis Belard J, Glowa J, Khalsa P, Weber W, Huntley K. DoD-NCCAM/NIH workshop on acupuncture 
+for treatment of acute pain. J Altern Complement Med. 2013;19:266–279.
+ 66. Pock AR. Acupuncture in the US armed forces: a brief history and review of current educational approaches. Med 
+Acupunct. 2011;23:205–208.
+ 67. Bart-Knauer B, Friedl KE. When will acupuncture become a first-line treatment for acute pain management? Mil Med. 
+2013;178:827–828.
+ 68. King HC, Hickey AH, Connelly C. Auricular acupuncture: a brief introduction for military providers. Mil Med. 
+2013;178:867–874.
+ 69. Gallagher RM, Polomano R. Early, continuous, and restorative pain management in injured soldiers: the challenge 
+ahead. Pain Med. 2006;7:284–286.
+ 70. Joshi GP, Ogunnaike BO. Consequences of inadequate postoperative pain relief and chronic persistent postoperative 
+pain. Anesthesiol Clin North America. 2005;23:21–36.
+ 71. Buckenmaier C III, Mahoney PF, Anton T, Kwon N, Polomano RC. Impact of an acute pain service on pain outcomes 
+with combat-injured soldiers at Camp Bastion, Afghanistan. Pain Med. 2012;13:919–926.
+ 72. Polomano RC, Chisholm E, Anton TM, Kwon N, Mahoney PF, Buckenmaier C III. A survey of military health professionals’ perceptions of an acute pain service at Camp Bastion, Afghanistan. Pain Med. 2012;13:927–936.
+ 73. Allcock E, Spencer E, Frazer R, Applegate G, Buckenmaier C III. Continuous transversus abdominis plane (TAP) block 
+catheters in a combat surgical environment. Pain Med. 2010;11:1426–1429.
+ 74. Baker BC, Buckenmaier C, Narine N, Compeggie ME, Brand GJ, Mongan PD. Battlefield anesthesia: advances in patient 
+care and pain management. Anesthesiol Clin. 2007;25:131–145,x.
+ 75. Buckenmaier CC, Galloway KT, Polomano RC, McDuffie M, Kwon N, Gallagher RM. Preliminary validation of the 
+Defense and Veterans Pain Rating Scale (DVPRS) in a military population. Pain Med. 2013;14:110–123.
+ 76. Auffray C, Chen Z, Hood L. Systems medicine: the future of medical genomics and healthcare. Genome Med. 2009;1:2.
+ 77. McGuire AL, Cho MK, McGuire SE, Caulfield T. Medicine. The future of personal genomics. Science. 2007;317:1687.
+ 78. Cook KF, Buckenmaier C 3rd, Gershon RC. PASTOR/PROMIS pain outcomes system: what does it mean to pain 
+specialists? Pain Manag. 2014;4:277–283.
+572
+Fundamentals of Military Medicine

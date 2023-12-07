@@ -1,0 +1,2677 @@
+157
+Honor, Combat Ethics, and Military Culture
+Chapter 6
+HONOR, COMBAT ETHICS, AND
+MILITARY CULTURE
+FARIS R. KIRKLAND, PHD*
+INTRODUCTION
+HONOR
+Integrity
+Taking Care of Subordinates
+Perversions of Honor
+COMBAT ETHICS
+Restraining Military Personnel From Committing Atrocities
+Enabling Military Personnel to Carry Out Morally Aversive Acts
+Strengthening Resistance to Combat Stress Breakdown
+MILITARY CULTURE: A RESPONSIBILITY OF COMMAND
+Authority, Discipline, and Maladaptive Cultural Practices
+Building Support for Discipline and the Command Structure
+Elements of an Ethically Supportive Military Culture
+CONCLUSION
+*Lieutenant Colonel (Retired), Field Artillery, United States Army; Battalion Executive Officer, 4th Battalion, 42nd Field Artillery (Vietnam, 1967–
+1968); Senior Research Associate, University City Science Center, Philadelphia, Pennsylvania; Guest Scientist, Division of Neuropsychiatry, Walter
+Reed Army Institute of Research, Washington, DC (Dr. Kirkland died 22 February 2000)
+158
+Military Medical Ethics, Volume 1
+SP4 Michael Crook
+Perimeter Patrol
+Vietnam
+This artwork depicts three soldiers working together as a team: one helping another, while the third waits, gun at the
+ready in case the enemy is encountered. This teamwork, whether in a squad, platoon, company, or higher level, is the
+foundation of an effective military. Available at: http://www.army.mil/cmh-pg/art/A&I/Vietnam/p_3_4_67.jpg.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+159
+Honor, Combat Ethics, and Military Culture
+INTRODUCTION
+Military personnel, who function in the midst of
+moral and material chaos, are dependent on an ethically coherent context to enable them to persevere
+in their missions and to protect their sanity and
+character. 1(pp5ff,165ff,198) Further, the foundation of combat effectiveness is cohesion—which develops in a
+climate of integrity, trust, and respect across ranks.
+Trust and respect derive in part from adherence to
+mutually agreed upon definitions of acceptable behavior. While a superficial analysis might suggest
+that ethical considerations are meaningless for organizations dedicated to missions of destruction,
+the opposite is true. A system of credible ethics in
+the culture of an armed force is an essential foundation for its fighting power.
+First a word about culture. Human beings, having fewer preprogrammed behavioral patterns than
+other mammals, need older people to teach them
+how to cope with their environment. Culture is a
+set of behaviors, values, and ways of assessing circumstances passed from an older generation to a
+younger. It provides the young human with a substitute for instincts—a set of responses to enable him
+to deal with many situations. Parents and elders
+often portray the beliefs they teach as absolute virtues, but culture is really nothing more than the
+behaviors and values that worked for members of
+preceding generations.
+Ethical systems are the components of culture
+that people create to guide behavior and facilitate
+human interactions by defining values and actions
+as virtuous or evil. People create ethics to meet practical and psychological needs. Awareness of these
+needs enables them to approach ethics from an active, adaptive, and operational perspective rather
+than from a passive, normative perspective. The
+needs of people in a military culture differ from
+those of their civilian compatriots because in the
+performance of their military duties they often must
+behave in ways that would normally be judged
+immoral by the larger culture.
+An important role of ethics is helping military
+men and women preserve their characters in the
+midst of the ambiguities of war. Fromm defines
+character as the “forms in which human energy is
+canalized [channeled] in the process of assimilation
+and socialization.”2 Shay and Munroe define it as
+“a person’s attachments, ideals and ambitions, and
+the strength and quality of the motivational energy
+that infuses them.”3(pp393–394) Taking these dynamic
+views of character as a point of departure, when I
+mention character in this discussion I will be referring to the abilities to form stable relationships, to
+believe in the efficacy of one’s actions, and to depend on one’s values as guides to behavior. For an
+ethical system to be useful in a military context, it
+has to enable soldiers to persevere in their military
+duties while preserving their characters.
+This chapter is about how people experience
+military life and how they treat each other; it is not
+about abstract ideals, virtues, or codes of conduct.
+It is about the soldier whose duty is to look through
+the sights of his rifle and shoot another human being. Whether he forbears to fire, fires with the intent to miss, or shoots to kill, he must live with the
+emotional consequences for the rest of his life. It is
+about the new lieutenant detailed to inventory the
+receipts from the officers’ club slot machines. The
+club officer shows him four piles of coins, saying,
+“This one is for the club, this one for me, this one for
+you, and this one for the post commander.” What the
+lieutenant does—acquiesces or reports the club officer
+to the provost marshal—has consequences for his
+character and for the service.
+This chapter is about the colonel commanding
+a brigade who is ordered to launch an attack that
+he is certain will lead to the death or wounding
+of more than half of his soldiers and will fail to
+accomplish the mission. Does the colonel disobey
+the order and lose his command—and with it the
+ability to take care of his troops—or does he obey
+and become complicit in the slaughter of his personnel? His character is challenged, as is the character of his superiors, and the ethical climate of the
+armed force.
+This chapter is also about the company commander told by his superior to exchange, on paper,
+personnel and pieces of equipment with other units
+so he will be able to state on his quarterly status
+report that his unit qualifies for a peak readiness
+rating. Such a maneuver seems innocuous, but there
+are consequences. It deprives senior commanders
+of information necessary to act to improve the actual
+readiness of the unit. It potentially puts soldiers in
+jeopardy because the unit will be committed to action in accordance with the readiness rating stated
+on the report. Finally, it approves lying as a form of
+career-enhancing behavior. 4,5
+The contingencies of reinforcement that evolve
+in a military culture determine its members’ behavior. When commanders shape, support, and model
+behavior and values that are realistic and relevant
+160
+Military Medical Ethics, Volume 1
+in the context of the situation their subordinates
+face, they create an ethical system that works. It
+works because it supports the fighting efficiency of
+the organization and the psychological welfare of
+its members.
+This exploration of the complex ways in which
+ethical and psychological factors interact to affect
+fighting power is based largely on research conducted by the Department of Military Psychiatry
+of the Walter Reed Army Institute of Research
+(WRAIR). During the period from 1979 to 1993, the
+various individuals assigned the position of Deputy
+Chief of Staff for Personnel, US Army, tasked
+WRAIR to investigate the effects of the human dimensions of the US Army on the development of
+high performance units and on resistance to combat stress breakdown. This author, a trained psychological researcher and military historian, joined
+the WRAIR team to evaluate many of the issues
+addressed in this chapter. His interpretations are
+informed by his experiences as a line officer from
+1953 to 1973, and by the observations of his military colleagues. The author’s service included duty
+as an artillery forward observer in the closing stages
+of the Korean War, company and battery commander during the interwar years, and battalion
+executive officer and divisional staff officer during
+the Vietnam War. His research is complemented by
+an extensive literature of memoirs, oral histories,
+and archival records.
+There are three sections in this chapter. The first
+is an analysis of honor, the central ethical construct
+that has defined military personnel for centuries.
+The second is an examination of the functions of
+combat ethics—keeping behavior within bounds
+compatible with the values of the larger culture,
+sustaining those who must kill other human beings,
+and protecting the characters of combatants. The
+third section is a discussion of military culture as a
+function of command and the cultural components
+that could comprise an effective ethical system for
+an armed force in the 21st century.
+HONOR
+Honor is a complex concept that has evolved over
+at least 5,000 years and is continuing to evolve at
+the present time. Several components of honor have
+endured through time and are essential to the effectiveness of a military force in the 21st century.
+Two components will be discussed—integrity and
+taking care of subordinates. The third subsection
+will discuss the danger of assertions of honor being perverted to serve dishonorable ends.
+Integrity
+Integrity is the fundamental component of honor.
+In an institutional setting such as the military, the
+term refers to the characteristic of consistently
+choosing and acting in accordance with one’s beliefs and values. To be—and to be perceived as—a
+person of integrity, those guiding beliefs and values must in turn be consistent with the commitments inherent in the institutional role that the individual has accepted. The significance of integrity
+for the military will be explored in the following
+discussion; one conclusion will be unavoidable:
+Integrity is based on a commitment to honesty that
+pervades individual and institutional behavior and
+thought. Honesty is under assault in many spheres
+of American culture—business, government, communications, the academic world, and the armed
+forces. As a result, integrity today often seems to
+be in short supply. This is a matter of particular
+concern in the US Army where consequences of dishonesty can be catastrophic for national interests,
+and fatal for junior personnel. Spin-doctoring, damage control, disinformation, and cover-ups are some
+of the many ways of avoiding confrontation with
+the truth that have been used to support the power
+structure in the armed forces. The terms are new
+but the practice is old. The long delay in acknowledging that American service members were exposed to toxic chemicals during the Persian Gulf
+War is a recent example. 6 During the Vietnam War,
+obligatory body counts, the Hamlet Evaluation System (Exhibit 6-1), and clandestine bombing operations were aspects of a military culture of deceit.
+General Douglas MacArthur’s denial of the presence of Chinese soldiers in Korea in November 1950
+was deceit at the highest level. The failure of subordinate US Army commanders, who knew the
+Chinese were there, to stand up to him constituted
+a chain of dishonesty down to the level of battalion
+command—all of which was acceptable to the military culture of the time. 7
+When a military institution embraces integrity
+as its basic way of doing business, it becomes stronger. Leaders and subordinates can plan and act
+knowing that their view of the situation is accurate.
+They can count on each other to behave in predictable ways. And, perhaps most important in the 21st
+century, they can trust each other to make their force
+an active learning institution—one that is constantly
+161
+Honor, Combat Ethics, and Military Culture
+EXHIBIT 6-1
+THE HAMLET EVALUATION SYSTEM
+In 1967 the staff of the US Military Assistance Command, Vietnam (MACV) developed the Hamlet Evaluation
+System to measure pacification of the Vietnamese population. The objective was to demonstrate that the Americans and the Republic of Vietnam (RVN) were winning the minds and hearts of the Vietnamese population,
+thus eroding the support base of the Vietcong. The results of monthly surveys of pacification were printed by
+a computer as a single digit (1–5, denoting the degree of control by its enemy, the Vietcong) for each hamlet in
+its geographical location on maps of Vietnam. The maps were used by policy makers in South Vietnam, the
+Pentagon, and the White House. The idea had merit, but there were three problems. First, the US district
+advisors responsible for making the surveys of the hamlets did not have the capability (staffing, vehicles,
+security, and knowledge) for making accurate assessments. Second, the district advisors were almost powerless to influence the bases for loyalty to the United States or the Republic of Vietnam. And third, senior officials put pressure on their subordinates to make the surveys show positive progress. The Hamlet Evaluation
+System quickly became degraded from an information system to a device by which officers could impress
+their superiors. The figures were adjusted by every echelon of the advisor hierarchy. Though the system became completely fraudulent, senior military staff and policy makers believed that current systems were effective. Thus it continued to guide decision makers away from providing villagers security from the Vietcong—
+a losing policy—and toward search and destroy operations—another losing policy.
+Sources: (1) Sheehan N. A Bright Shining Lie: John Paul Vann and America in Vietnam. New York: Random House; 1988: 697–
+698, 732. (2) Kinnard D. The War Managers: American Generals Reflect on Vietnam. New York: Da Capo Press; 1991: 107–108. (3)
+Sorley L. Honorable Warrior: General Harold K. Johnson and the Ethics of Command. Lawrence, Kan: The University Press of
+Kansas; 1998: 196, 227–241.
+examining itself and the threats it faces with a view
+to improving its capabilities.
+Integrity and Military Operations
+Integrity is an indispensable part of military culture not because it is virtuous, but because it works.
+It provides a factual foundation for operational coordination. When reconnaissance elements send
+reports that are true, commanders can make plans
+with accurate knowledge of enemy dispositions.
+When progress, casualty, and materiel status reports
+are correct, commanders can take action to strengthen
+subordinate units and can assign them missions that
+are within their capabilities. When adjacent units
+keep each other informed honestly about the opposition they face, each can use its strength appropriately to cover its neighbors’ vulnerabilities. Military organizations in which these conditions obtain
+are more likely to win than those in which decisions
+are based on information that subordinates believe
+their superiors would like to hear.
+Integrity includes putting duty before personal
+interests. Duty means the mission, the needs of
+one’s subordinates, and the efficiency of the unit.
+Sometimes putting duty first can be contrary to
+one’s self-interest. An officer commanding a battery
+of self-propelled howitzers who had felt the lash of
+his colonel’s tongue about keeping all of his equipment operational would be reluctant to report that
+six of his eight weapons had nonoperational power
+rammers. If he tells the truth, he risks getting
+chewed out or even relieved, but he provides his
+colonel and higher echelons of command with information that could lead to a modification to improve the durability of the rammers or procedures
+to keep the weapons operational without the
+rammers.
+The soldier who reports a criminal act risks retaliation by the perpetrator and his friends, but he
+helps to maintain the standards of the organization
+and protects his comrades. Each member of a military service faces conflicts between duty and his
+own interests every day. By choosing the harder
+right he strengthens both his own honor and the
+ethical climate of his unit. But that does not make
+such choices any easier. 8
+A classic example of the effects on military operations when honesty is not part of the culture of
+an armed force is the defeat of the North Vietnamese
+Army and its South Vietnamese auxiliaries (the
+Vietcong) during the Tet offensive of January and February, 1968. The North Vietnamese punished subordinates who reported bad news. Reports of failure or
+of deficiencies in resources were perceived as both
+incompetence and disloyalty. As a result, the high
+162
+Military Medical Ethics, Volume 1
+command received optimistic reports, and used
+these reports to confirm their hopes that their opponent was weakening and that the South Vietnamese
+people were ready to rise against their government.
+The Tet offensive was an all-out effort to defeat
+the US forces, topple the Saigon regime, and win
+the war. It included total commitment of North Vietnamese and Vietcong units on multiple fronts, a
+shift from using terror only against locally hated
+officials to assassination of any persons who might
+be a focus of resistance no matter how popular they
+were, and seizure of local political control by a clandestine Vietcong government.
+The circumstances in South Vietnam in 1968 were
+far from what their reports had led the North Vietnamese government to believe. Their military units
+were defeated everywhere, the assassinations they
+carried out alienated many South Vietnamese
+who had supported them, and the Vietcong infrastructure was rendered politically impotent. UnforEXHIBIT 6-2
+PATTERNS OF DECEIT IN US POLICY MAKERS
+In 1971, when popular opposition to the American war in Vietnam was approaching its apogee, a government
+official with access to the most secret documents on US policy in Vietnam released those documents to the
+New York Times. The Pentagon Papers, as the documents came to be known, make it clear that the US intervention in South Vietnam, which had begun in 1954 when the French were expelled from Vietnam, was motivated
+by fear that the states of the Pacific rim would be taken over by communist regimes. 1 In 1954, the United States
+had been fought to a standstill in Korea by Chinese and North Korean communists. Communist insurgencies
+were flourishing in Malaysia and the Philippines. China and Indonesia were ruled by communist regimes.
+Singapore was on the point of electing a communist government. A communist regime in North Vietnam had
+defeated and expelled the French from Vietnam. The United States was committed to supporting elections to
+determine the government of South Vietnam. Faced with certain defeat, the United States reneged and began
+programs of progressive military and economic support for the South Vietnamese. President Lyndon Johnson
+did not trust the public to understand this purpose of the US intervention, so he espoused justifications, such
+as a need for Vietnamese oil and South Vietnamese requests for US protection against North Vietnamese aggression, that were subsequently demonstrated to be untrue. 2,3 For instance, the notion that the United States
+intervened at the request of the South Vietnamese government was false because that government was an
+American creation, and the Americans assassinated leaders—including Ngo Dinh Diem, the Chief of State, in
+1963, as well as his brother—who did not do as they were told. 4 Likewise, the Tonkin Gulf incident, a North
+Vietnamese attack on US military ships used to get the Congress to give Johnson power to expand the military
+commitment via the Tonkin Gulf Resolution of August 1964, was almost immediately exposed as a fraud. The
+North Vietnamese attack was in direct response to attacks by South Vietnamese forces on North Vietnamese
+coastal installations, guided by US destroyers operating just outside the 3-mile limit. Robert McNamara, the
+US Secretary of Defense, denied any US involvement. 5
+Routinely inflated reports of substantial progress coupled with unending requests for more troops (troop
+strength increased from 185,000 at the end of 1965 to a wartime high of over 500,0004(p536) in 1968) sapped the
+credibility of the senior commanders. With no vital US interest at stake, there was no criterion for progress in
+the war. There was no sense of land captured and held, or of military objectives met. The number of dead
+enemy soldiers became the only available indicator, and it became so important that senior commanders urged
+subordinates to inflate their body counts. 4(p696) When critics totaled the body counts and announced that it
+would appear that there were almost no enemy soldiers left alive, yet they kept on attacking, another fraud
+was revealed. 6 By the time Tet 1968 came along, a substantial portion of Americans were disinclined to believe
+official statements, even though in the case of Tet 1968 the official statements were relatively truthful. As US
+officials praised the progress South Vietnamese forces were making during the withdrawal of US forces between 1970 and 1973, popular disbelief continued, and was ultimately validated by the total and rapid victory
+of North Vietnamese forces in 1975.
+Sources: (1) Sheehan N, Smith H, Kenworthy EW, Butterfield F. The Pentagon Papers: The Secret History of the Vietnam War.
+New York: Bantam; 1971. (2) Hendrickson P. The Living and the Dead: Robert McNamara and the Five Lives of a Lost War. New
+York: Alfred A Knopf; 1996. (3) McMaster HR. Dereliction of Duty: Lyndon Johnson, Robert McNamara, the Joint Chiefs of Staff,
+and the Lies that Led to Vietnam. New York: HarperCollins; 1997. (4) Sheehan N. A Bright Shining Lie: John Paul Vann and
+America in Vietnam. New York: Random House; 1988: 353–371. (5) Andradé D, Conroy K. The secret side of the Tonkin Gulf
+Incident. Naval History. Jul–Aug 1999;13(4):27–32. (6) Kinnard D. The War Managers. New York: Da Capo Press; 1991: 69,72–75.
+163
+Honor, Combat Ethics, and Military Culture
+tunately for the Americans, the deceit that had become endemic in their own government and armed
+forces in the years leading up to Tet 1968 made the
+public skeptical of reports of the American victory
+(Exhibit 6-2).
+Within an armed force, square dealing and honesty foster the growth of the trust that makes cohesion possible. But honesty is not simple. The US
+soldiers who organized the Hamlet Evaluation Survey and the North Vietnamese soldiers who made
+unrealistically optimistic reports were not necessarily dishonorable men. The ethical values embodied
+in both of their military cultures defined reassuring superiors as obligatory behavior. Reassuring
+others is often virtuous, but when it includes imparting false information up the chain of decision
+making, it becomes unethical because it does not
+work. 9 Reassuring others becomes morally virtuous
+when it is based on accurate information—it is the
+basis for the trust from which cohesion emerges.
+Integrity and Cohesion
+There are two kinds of cohesion—horizontal and
+vertical. Horizontal cohesion is the product of bonding among junior military personnel who come
+to believe they can depend on their comrades to
+do their jobs competently, to carry their shares of
+the burdens, and to watch each other’s backs. There
+is no room for deception among the members of a
+rifle squad, a gun section, or the crew of an aircraft.
+Their interdependence involves life and death in
+combat. A team member who shades the truth is a
+menace to his comrades and will find himself extruded (forced out of the group). He may, in fact,
+for administrative reasons remain with his comrades physically, but no one will trust him or confide in him.
+Vertical cohesion is the complex process that links
+primary groups to larger units and ultimately to the
+armed force and the nation. It begins with members of primary groups learning that they can trust
+leaders at the next higher echelon to command competently, to do everything possible to assure their
+success and survival, to not abandon them on the
+battlefield, and to send or lead them on honorable
+missions. Leaders who behave competently, tell the
+truth, keep their word, and take care of their troops
+earn trust and build vertical cohesion. This is not
+easy. Sometimes it may appear to be easier and more
+appropriate to withhold information from subordinates or even lie to them. Leaders who yield to
+this temptation lose their believability and compromise vertical cohesion in their units.
+Integrity and Institutional Self-Examination
+One of the most useful aspects of integrity in an
+armed force is that it makes it possible for its members to look objectively at themselves, their policies, and their performance. For a military organization to maintain its effectiveness during a time
+of rapid technological change it must be receptive
+to factual feedback so that it can stay in an active
+learning posture. Armed forces have a reputation
+for conservatism, for failing to integrate the lessons
+of experience with evolving political and technological developments. There have been two historical exceptions—the Israeli Defence Forces (IDF) and
+the German Wehrmacht of 1933 to December 1941
+(Exhibit 6-3). These forces valued truth in reporting, accepted and made profitable use of bad news,
+and created a climate of support for commanders
+that made them feel sufficiently secure to report
+shortcomings in their units. As a consequence the
+high command and subordinate commanders were
+able to work together realistically to enhance the
+capabilities of their armies. These two armies repeatedly defeated adversaries superior in numbers
+and materiel.
+A third army, that of the United States, may join
+the pre-1942 Wehrmacht and the IDF as an active
+learning organization if former US Army chief of
+staff General Gordon Sullivan’s policies persist.
+Sullivan saw the US Army in the mid-1990s as living and thriving in a state of perpetual change. 10
+Whether the US Army can fulfill General Sullivan’s
+vision depends on the degree to which his successors can integrate integrity into its ways of conducting its business. Integrity has been in short supply
+since the 40-fold expansion of the US Army in World
+War II, but a renaissance is in progress. 11
+The first event in the rebirth of the US Army took
+place in 1970 when the Army War College Study on
+Military Professionalism revealed the extent to which
+integrity had been supplanted by careerism and
+“looking good.”12,13(p116) General Westmoreland found
+these data to be uncongenial, and suppressed the report for 13 years. 14(p112) Suppressing facts that did not
+“look good” reflected the lack of integrity that permeated the military culture since the 1940s. But the
+authors of the Study stood for integrity against the
+culture, and they were the wave of the future.
+In 1979 General Edward C. Meyer became chief
+of staff of the US Army. Meyer was the first chief of
+staff who had not served in World War II. He began
+the process of breaking free from the values that
+had evolved in the 1940s. One of his acts was to tell
+one of the authors of the Study, Walter Ulmer (by
+164
+Military Medical Ethics, Volume 1
+EXHIBIT 6-3
+THE WEHRMACHT OF 1933 TO 1942
+Although there exists a stereotype that Germans, and particularly German soldiers, are compliant and unquestioning in their obedience to orders, the facts since 1813 do not support this view. The defining characteristic of the German Army since the early 19th century was a commitment by each officer to develop, mentor,
+and support his subordinates. 1,2 Junior officers trusted their superiors and knew they could safely ask for help
+and advice; seniors expected their junior leaders to use their initiative and were prepared to back them up. As
+a consequence, during the wars of the 19th and 20th centuries, junior officers were quick to seize and exploit
+opportunities. The Wehrmacht was created in great haste in 1933 (after Hitler became Chancellor) and grew
+rapidly until 1939 when it was committed to the invasion of Poland in September. With a force of 1,250,000
+men and 2,800 small tanks,3(pp19ff,61,90ff) it defeated the 600,000 man Polish Army in 35 days at the modest cost of
+8,082 German dead. 4,5(p120)
+Immediately upon completion of the campaign, the German high command, the Wehrmacht, called on subordinate commanders to criticize the policies, tactics, equipment, training, and organization prescribed by the
+general staff, and the competence, energy, and performance of their own units. The climate of mutual trust
+enabled the officers to give frank and open replies that were the basis for an energetic reformation of the
+German Army. 5(pp130–135),6 This reformation was sufficiently effective to enable the Wehrmacht to defeat the armies
+of France, Great Britain, Belgium, and the Netherlands—with a combined strength 50% greater than the
+Wehrmacht and numerical and qualitative superiority in tanks, artillery, aircraft, and fortifications—in 47 days
+(10 May–25 June 1940) at a cost of just over 27,000 German dead. 7(pp313–314)
+The Wehrmacht went on to conquer Yugoslavia, Greece, and most of Russia in 1 year. It required the combined
+efforts of the Soviet Union, the United States, and the British Empire, with a total population and industrial
+capacity seven-fold that of Germany, to finally defeat an army in which trust and honesty had been its strongest assets. To be sure, other factors vitiated the psychological strength of the Wehrmacht. Most important was
+a political climate pervaded by suspicion. Adolf Hitler did not trust his military leaders, and kept them under
+surveillance. After his army was halted before Moscow in December 1941, Hitler took personal control of the
+armed forces, refused his generals the right to maneuver, and insisted on slavish obedience to hold every inch
+of ground seized. Coupled with the inexorable growth in military strength of its opponents, the German armed
+forces collapsed. 8
+Sources: (1) Nelson JT II. Auftragstaktik: A case for decentralized battle. Parameters. Sept 1987;17(9):22–27. (2) Mathews LJ.
+The overcontrolling leader. Army. Apr 1996;46(4):31–36. (3) Chamberlain P., Doyle HL, Jentx TL. Encyclopedia of German
+Tanks of World War II. New York: Arco; 1978: 19–20, 28–31, 58–61, 90–91. (4) US Department of the Army. Early Campaigns of
+World War II. West Point, NY: US Military Academy; 1951: 1–21. (5) Kennedy RM. The German Campaign in Poland (1939).
+Washington, DC: US Government Printing Office; 1956. Department of the Army Pamphlet 20-255. (6) Murray W. The German response to victory in Poland: A case study in professionalism. Armed Forces & Society. 1980;7(2):285–298. (7) Taylor T.
+The March of Conquest: The German Victories in Western Europe—1940. New York: Simon and Schuster; 1958. (8) Goerlitz W.
+Battershaw B, trans. History of the German General Staff 1657–1945. New York: Praeger; 1959: 406.
+then a lieutenant general commanding III Corps),
+to organize a center for leadership excellence, and
+to report directly to him. He promoted to four-star
+rank several younger officers who had been battalion commanders during the Vietnam War. These
+men initiated a number of reforms (Exhibit 6-4) in
+human dimensions—the ways in which people treat
+each other—some of which gave integrity a chance
+to prosper in the American military culture.
+The reform movement made rapid strides and
+produced the superb army that carried out Operation Just Cause14 and Operation Desert Storm. 15
+General Sullivan carried the movement forward and
+added the dimension of living with change. But interviews this author conducted in the mid-1990s
+indicated that the movement has lost momentum
+as a result of the anxiety generated by downsizing
+and as a result of inadequate funding.
+It is important that integrity thrive. Without it
+honor is a platitude, trust is impossible, and cohesion a chimera. It is a mistake to assume that digitized information exchange can supplant integrity
+in reporting. In the first place, electronic communications often fail, and in the second place, much of
+the information shared by digitized systems is put
+into the systems by humans. Behaving with integrity is not easy; putting duty first is a never-ending
+exercise in moral courage. Because integrity is an
+165
+Honor, Combat Ethics, and Military Culture
+operationally essential value in a military culture,
+it is incumbent on the culture to arrange its contingencies of reinforcement to reward and protect
+those who behave with integrity.
+Because integrity is a totally human dimension
+of military effectiveness, it requires thousands of
+individual decisions each day. Similarly, taking care
+of one’s subordinates requires thousands of decisions. Together these decisions, many of them difficult, constitute the honor of a military institution.
+Taking Care of Subordinates
+The most consistent value expressed in the regulations that have governed the US Army for more
+than 220 years is the obligation of leaders to attend
+to the personal, professional, and familial welfare
+of their subordinates. 16 Taking care of subordinates
+is a crucial component of honor for the same reason that integrity is—it works. The actions a leader
+takes on behalf of his subordinates’ personal welfare build trust, solidify vertical cohesion, and free
+the service member to focus on developing his competence as a soldier. The professional welfare of
+military personnel comprises all aspects of training, military schooling, civilian education, and preparing subordinates for advancement. There is an
+obvious direct connection between subordinates’
+professional welfare and the efficiency of the unit.
+The linkage between the service member, the unit,
+and the family has emerged as crucial to operational
+readiness as the percentage of married soldiers has
+increased rapidly in the professional force. Attention to the welfare of subordinates is not a luxury;
+it is an essential element of military honor. It is part
+of the leader’s obligation to his personnel to keep
+them focused on developing their competence to
+fight and to survive.
+Though the duty of leaders to attend to their subordinates’ welfare has been a part of US Army reguEXHIBIT 6-4
+REFORMS IN THE HUMAN DIMENSIONS OF THE US ARMY
+Many US military leaders pay lip service to the importance of the individual soldier, the soldier’s family, and
+the attitudes soldiers and their families have toward the US Army. Then the same leaders reduce funding of
+programs or withdraw emphasis from behavior that reflects respect for soldiers and their families. General
+Meyer and his reformers enacted a series of changes in these human dimensions between 1979 and 1989 that
+made it safer to tell the truth, to be interested in military matters, and to trust one’s comrades and superiors.
+Training
+National Training Center: Highly realistic force-on-force exercises in which lasers indicate hits by
+individual, crew-served, and vehicle-mounted weapons.
+Individual training: Pictorial soldiers’ manuals suited to self-paced training and to soldiers teaching each
+other.
+Noncommissioned Officer (NCO) Educational System: A series of four progressively more advanced professional schools (Primary Leadership Development Course, Basic Noncommissioned Officer Course, Advanced Noncommissioned Officer Course, and the Sergeant Majors Academy) for aspirants to successive
+NCO grades.
+Unit Manning
+COHORT (COHesion, Organization Readiness, and Training) System: Soldiers stay together through basic
+and advanced training and in the same battalion for the three years of their enlistments.
+Leadership
+Command tours: 18 months for company commanders; 2 years for higher commands.
+Relationships across ranks: Respect, trust, open communications, empowerment of subordinates.
+Competence: Driven by subordinates’ demands for more challenging experiences.
+Family Support
+Army Family Support Command: Organization and coordination of resources for families.
+Family Support Groups: Link unit, soldier, and family in a mutually supportive structure.
+166
+Military Medical Ethics, Volume 1
+lations since the 1770s, it has often been ignored or
+misunderstood. During the 19th century many commanders despised their subordinates. 17 Some commanders were honored because of their indifference
+to casualties. For example, commanders during the
+Civil War often favored subordinates whose units
+had sustained heavy casualties over those who
+spared their troops—irrespective of the tactical
+achievements of the units. The rationale was that if
+a commander could keep his unit fighting in spite
+of casualties, he was an effective leader. This notion continued into World War I during which it was
+reinforced by French and British values. 18 There
+were still some US commanders in World War II and
+Korea who believed in spending lives without a
+backward look. 19
+During the 20th century certain military personnel policies derived from the larger culture were
+adopted in the name of efficiency or fairness. These
+policies were based on ethical considerations but
+were, in fact, deleterious to the welfare of junior
+personnel. Frederick Taylor’s ideas about personnel being interchangeable was the basis for an individual replacement system in World War I in
+which people were treated as spare parts for the
+military machine. 20 Individual equity was the basis
+for the World War II policy of rotating men from
+combat zones on the basis of points they earned as
+individuals for time overseas, wounds, and
+awards. 21 Concern over protecting soldiers from
+combat stress breakdown led to fixed-length tours
+during the Korean War. 22,23(pp49–50) To assure equality
+of opportunity for military professionals command
+tours were limited to 6 months during the Vietnam
+War. 24,25 The ethical foundations of these policies
+were sound in an abstract sense, but all proved
+to be inappropriate for the military situations to
+which they were applied. Individual replacement,
+fixed-length tours, and short command assignments
+damaged the combat competence of units and the
+ability of military personnel to resist combat
+stress. 23(p54),26 Rotating soldiers in and out of units
+on an individual basis kept those units from developing the proficiency and teamwork that would
+have made them effective in protecting the lives
+of their members. Individual replacement and
+rotation policies denied soldiers the social supports
+of prolonged association during and after combat
+with others they knew. These policies were unethical from a military perspective because they did not
+work.
+The reforms initiated in the US Army in the 1980s
+went beyond the traditional concepts of welfare that
+had focused on minimizing subordinates’ distress
+and providing some basic comforts. They included
+a renewed emphasis on helping service members
+to become more effective soldiers, and a comprehensive program to include familial welfare as part
+of command responsibilities. This was a complex
+business. More intensive and realistic training
+strengthened their subordinates’ professional abilities, confidence, and pride; but also increased their
+fatigue, pain, and misery, and put additional strain
+on their relationships with their families. Integrating families with units, and providing support for
+family members, required new skills and sensitivities of leaders. Both of these developments put additional demands on leaders’ integrity and devotion to
+duty. Honorable behavior on the part of the leader
+with respect to taking care of his subordinates involves five principal spheres of action: (1) competent
+leadership, (2) developing subordinates’ competence, (3) administrative and logistical support, (4)
+caring for families, and (5) balancing the mission
+against troops’ welfare.
+Competent Leadership
+The ground force commander’s first obligation
+to his subordinates is to lead them intelligently.
+Honor requires that he be technically competent
+with respect to combat operations such as tactics,
+fire support, and gunnery; to field craft such as camouflage, field fortifications, and stealthy movement;
+to health issues such as field sanitation, first aid,
+protection against vermin, and climatic adaptation;
+and to logistical support such as field messing,
+aerial resupply, and combat evacuation. The competencies required in the US Navy and US Air Force
+differ in specifics, but the principle is the same. The
+leader’s task is to lead his people into the valley of
+the shadow of death and out the other side, having
+accomplished the mission on the way. Honor demands that he spare no effort to become competent,
+and that his superiors spare no effort to develop
+his competence.
+One of the reasons that US ground forces performed poorly in many cases in the wars in Korea
+and Vietnam was that thinking and talking about
+technical military matters were unfashionable in
+many parts of the US Army for several decades following World War II. 7 The author knew many field
+grade officers during the late 1950s and early 1960s
+who prided themselves on avoiding involvement
+with such basic technical topics as the siting of
+machine guns, the effects of weather on the trajectories of artillery shells, and the lubrication and
+adjustment of the mechanical parts of vehicles and
+167
+Honor, Combat Ethics, and Military Culture
+weapons. They were, perhaps, copying the contemporary civilian managerial model of being “generalists,” and leaving the technical details to underlings. Or perhaps they were intimidated by the
+growing complexity of military technique and technology. Whatever the cause for their withdrawing
+from the details of their profession, these same officers were brigade and battalion commanders and
+S-3s (operations and training officers) in Vietnam.
+Knowing little about the technical aspects of their
+profession they were unable to supervise the training and performance of their subordinates. Exhibit
+6-5 summarizes three not atypical cases from the
+author’s experience.
+For a commander of troops in combat to be professionally incompetent is a dishonorable betrayal
+of his subordinates. Similarly, for a senior commander or personnel management official to assign
+an incompetent person to such a command is dishonorable. Troops cannot repose trust and confidence in a leader who does not know what to do,
+so vertical cohesion becomes impossible. The solution is to build an ethic of commitment to one’s subordinate leaders’ success, a solution that demands
+technical and tactical competence at all echelons of
+leadership.
+Developing Subordinates’ Competence
+Developing subordinates’ competence is as much
+a matter of honor as the leader’s own competence.
+Being an effective trainer entails personal exposure
+to risk, uncertainty, and discomfort. As long as war
+is a component of the cultural repertory of a nation
+EXHIBIT 6-5
+EFFECTS OF COMMANDERS’ TECHNICAL INCOMPETENCE
+The following three examples all occurred in Vietnam in the months prior to Tet 1968, and demonstrate the
+critical importance of commanders’ technical knowledge when it comes to mission completion and the safety
+of their troops.
+Example 1: One division artillery commander in Vietnam told a newly arrived field grade officer never to
+allow troops in his battalion to fire shells that landed on friendly troops or villages. Yet this commander,
+whose prior experience in the field artillery consisted of several years in public relations, was oblivious of the
+fact that there was neither the know-how nor the equipment for meteorological data correction in any of the
+battalions under his command, and that all of the battalions in his command had dismantled their topographical survey sections. He was commanding a force that had eliminated two of the most useful techniques for
+controlling the trajectories of artillery shells by making adjustments for the effects of weather and by locating
+the distance and direction from the battery to the target exactly. Fire inevitably fell on friendly forces and
+villages, sometimes with civilian casualties. He was adamant that someone be held responsible, although
+oftentimes no one was at fault. All he understood was that his general did not want friendly fire incidents; he
+had no idea how to prevent them other than to prohibit them. The incidents continued, the commander completed his tour, and was decorated for heroism and for meritorious achievement.
+Example 2: An infantry battalion commander in the same division in Vietnam whose companies were defending a firebase said that, “No one could live through the wall of steel” his troops would put up against anyone
+attacking the base. One night the base was attacked, and air observers reported that all of the infantrymen’s
+fire was going up into the sky, not parallel to the ground where it would hit enemy soldiers. The battalion
+commander had authorized the turn-in of the tripod mounts with their traversing and elevating mechanisms
+for machine guns unaware that they are essential for stable, grazing fire from defensive positions. He had
+believed that doing this would “lighten the load” of his men. His men, firing their weapons from the shoulder
+while crouching in their holes, could only send bullets into the sky. Fortunately the attacking force was few in
+number; otherwise the firebase probably would have been overrun.
+Example 3: An officer commanding an artillery battalion in another division in Vietnam told the author that
+he never used more than one, rather than all, of his 18 guns when firing on the enemy because he feared being
+relieved for hitting a village or friendly troops, and he did not know how to control the fires of more than one
+gun. Infantrymen he supported counted on him to fire his whole battalion at enemy forces, and they died
+because the fires from his battalion did not send fragments flying wherever the enemy troops were hiding.
+The commander completed his tour without arousing criticism.
+168
+Military Medical Ethics, Volume 1
+the honorable path is to train realistically. Training
+for ground combat troops and for crews of ships
+and aircraft must be challenging, grueling, and
+state-dependent. The latter term means that if the
+skills and techniques learned are to be available in
+combat or other crisis, those skills must be acquired
+in an emotional climate similar to combat or crisis.
+Such training is dangerous and expensive, and
+it poses an ethical dilemma. The more realistic the
+training the more likely it is that trainees will be
+injured or killed. Honor requires that commanders
+accept the danger and expense. Cutting corners on
+realism results in diminished practical skill, emotional steadiness, and confidence in battle. An instructor or a leader training his subordinates has to
+be with the trainees and experience the risk and
+discomfort of the training situation. He also is at
+risk because of his responsibility for his troops.
+Accepting responsibility for training risks is yet
+another example of putting duty before personal
+interests.
+Commanders are appropriately held accountable
+for deaths or injuries that occur during training. In
+response they have, again appropriately, sought to
+minimize the likelihood of such accidents. The most
+effective way of obviating training accidents is to
+eliminate gunfire, minimize the use of motor vehicles, never train at night—in short, to water down
+training experiences to the point that they bear no
+resemblance to combat. This is unethical, but if the
+contingencies of reinforcement are such that commanders know that a training casualty will end their
+careers, then it is the senior policy maker, not the training commander, who is guilty of unethical conduct.
+Most commanders use safety officers in any exercise involving gunfire. Safety officers are not to concern themselves with the accuracy, speed, or tactical
+validity of gunfire; they are to focus exclusively on
+seeing that no bullet or shell is fired that will endanger anyone. On the face of it this is a wise and ethical
+measure. However, it has often evolved in practice
+into placing the blame for any mistake made by
+members of the unit undergoing training on the safety
+officer—usually the junior officer in the unit or a junior officer borrowed from another unit. One of the
+most honorable officers known to the author was
+an infantry battalion commander who routinely
+took his troops through live-fire exercises in demanding settings. He declared, “I am the safety officer for
+all live fire.” He could not, of course, perform the
+duties of all the safety officers required for his training programs, but he could and did accept the responsibility. By his example he inspired his subordinate
+leaders to adopt the same ethical posture.
+Administrative and Logistical Support
+The leader’s duty to attend to his subordinates’
+welfare entails administrative and logistical as well
+as combat action. To spare his subordinates anxiety
+in garrison as well as on campaign the ethical commander trains, organizes, and arranges for the supervision of the staff sections that administer pay,
+leave, and personnel actions; that provide lodging,
+food, water, and clothing; that repair and maintain
+equipment; and that treat the sick and injured. Some
+members of support elements often develop subcultural values based on their perception that their
+routines are important in and of themselves, and
+that serving soldiers’ needs is an irritating intrusion. Leaders of administrative and maintenance
+units have the difficult job of making the efficient
+performance of clerical and mechanical jobs a matter of honor. The approach that seems to work best
+is to reward professionalism and competence, to
+give clerks and mechanics ownership of the mission and opportunities to see how their efforts affect the efficiency of their supported units, and to
+devote special attention to their personal, professional, and familial welfare. Commanders of line
+units, for their part, have a duty to insist on firstrate performance by service troops.
+Caring for Families
+One of the most difficult tasks facing leaders and
+commanders is taking care of the families of the
+personnel in their units. Family members with a
+sense of belonging to the unit and a belief that its
+leaders will take care of them as well as the service
+member enhance the efficiency of the unit in three
+ways. First, family members who feel they are part
+of the unit are more willing to share the service
+member’s time and energy with the unit. Second,
+family members who use the resources of the unit
+to help them cope do not distract the service member by making him anxious about his family. Third,
+families who feel supported by the unit are likely
+to take pleasure from the achievements of the unit
+and encourage the service member in his professional activities. A family whose members feel integrated with the unit is a combat multiplier. 27
+Frequently junior personnel marry and the
+couples have children with little understanding of
+child care, household maintenance, and financial
+management. Families that cannot cope can become
+sources of extreme anxiety for service members.
+This anxiety can distract the service member from
+training, and the unit can become the focus for hos169
+Honor, Combat Ethics, and Military Culture
+tility engendered by the stress in the family. When
+a service member deploys for a protracted period,
+particularly to a dangerous situation, the spouse’s
+anxieties can lead to maladaptive behavior. This is
+especially likely when senior command gratuitously withholds information from spouses about
+the purpose and duration of the deployment. When
+a spouse loses control and the service member
+learns about it, he can be overcome with helpless
+anxiety, and become ineffective.
+On the other hand, family members who trust
+the service member’s leaders to take care of him,
+and who have learned to cope on their own and
+with the help of the military, can enhance his effectiveness. Such a family sends the service member
+off to work each day, and off on deployment, feeling confident that the family approves of what he
+is doing and can take care of itself. The ways to generate trust in a family are to open communications,
+to treat the family members with trust and respect,
+and to tell them the truth. Fortunately, these are the
+same values and leadership behavior that build
+morale and cohesion among service members. 27
+Family support groups have proved to be useful to
+both families and units. Preconditions for their success are that they be organized on a democratic basis rather than in accordance with the service members’ ranks, and that the command support their
+EXHIBIT 6-6
+INFORMATION FOR FAMILIES—OPERATION JUST CAUSE
+The deployment for Operation Just Cause, the invasion of Panama in December 1989, was organized under
+conditions of great haste and secrecy to prevent the Panamanian dictator from preparing his defense forces.
+Personnel were told to report to their units, then forbidden contact with their spouses. From initial notification to their landing in Panama by parachute or aircraft took less than 24 hours in some units.
+In one division, headquarters personnel refused to provide spouses any information about their soldiers for 3
+days, even though the media were reporting on the events. Thus the spouses learned what was going on from
+television news broadcasts, rather than from command. Those spouses felt betrayed and alienated from command 3 months later when the units returned.
+In another division the commanding general, assistant division commander, and chief of staff took turns answering spouses’ questions authoritatively. They did not divulge information that might endanger the soldiers, but they told what they could, explained why they had to be reticent on some subjects, and promised
+more complete information as soon as it was safe. They published newsletters daily, they and their spouses
+went to meet with family support groups, and they energized the post administrative services to make themselves available to the spouses. The one battalion from this division was in the heaviest fighting, took the
+worst casualties, and its members trusted their commanders. Though some soldiers left the US Army, those
+who remained had confidence in command and were ready for another deployment.
+Source: Kirkland FR, Ender MG. Analysis of Interview Data from Operation Just Cause. Washington, DC: working paper
+available from Department of Military Psychiatry, Walter Reed Army Institute of Research: June 1991.
+activities with funds, facilities, information, and
+respect. 28 Exhibit 6-6, from the author’s field notes
+from Panama, illustrates two approaches to handling information flow to families.
+There is therefore nothing arcane about the process of looking after families; treating them in an honorable manner with the respect appropriate to members of the military community is usually effective.
+Balancing the Mission Against Troops’ Welfare
+There are times when there are conflicts between
+two actions, both of which are honorable but which
+are incompatible. The following is an example
+known to the author. During a large-scale maneuver in the mid-1980s, a division commander required battalion commanders to justify in writing
+each man who did not participate in the maneuver.
+Brigade commanders imposed yet more stringent requirements in an effort to look the toughest. Battalion
+commanders and their staffs had too many demands
+on them to write the justifications for leaving anyone
+behind, so they took men on a 3-week field exercise with limbs in casts, with injuries that would
+certainly be exacerbated by duty in the field, with
+wives (who also had other children at home) within a
+week of delivering babies, and with completed elimination actions awaiting only discharge orders.
+170
+Military Medical Ethics, Volume 1
+The conflict between the honorable goal of putting duty first conflicted with the honorable goal
+of taking care of the troops. There need not have
+been a conflict. Common sense would have excluded some soldiers from participation. But the
+military culture had two components that overrode
+common sense. The first component was distrust
+of subordinate commanders. 29(pp33,84–90) This led to
+the requirement for a justification in writing.
+The second component is the pervasive “can-do”
+ethic that emerged in the late stages of World War
+II—”The difficult we do immediately, the impossible takes a little longer.” This sort of slogan can
+build morale in service support units (such as US
+Navy rear area construction battalions—where it
+originated), but it does not work with commanders
+of professional combat units. 13(p164) It leads to inadequate resources, crushed morale, and broken careers for the honorable few who stand up and say,
+“That is not possible.”
+In the culture of fear that pervaded the US Army
+after World War II, many career officers became
+progressively more reluctant to resist the imposition of an unreasonable requirement. 12,30,31 The “cando” ethic has led senior commanders to accept without question any requirement that comes out of
+Congress or the Pentagon, and to impose it on the
+units that do the work. The culture of the US Army
+into the 1980s was one in which habitual demand
+overload was the way of life. 29(pp72–74),30 Company
+commanders had the job of deciding which demands to ignore and which to fulfill, because their
+superiors did not have the moral fortitude to set
+priorities and reject requirements that were inappropriate for their subordinate units.
+Returning to our discussion of the division that
+took men with broken limbs to the field, the junior
+personnel in the division knew that soldiers were
+being mistreated. They saw this as proof that their
+senior officers lacked moral courage. They were
+being asked to give their all to build the reputations
+of men who were not sufficiently honorable to use
+common sense. The wrongdoing quickly became
+known throughout the battalions, and the soldiers
+were caught between their professional pride and
+the knowledge that they could not trust their officers to take care of them. Some acted out their resentment during the 3-week exercise in ways that,
+appropriately, embarrassed their commanders. For
+instance, sometimes units would “disappear,”
+sometimes soldiers would stand in the open and
+laugh at their “attackers,” or ignore them. Commanders could do nothing about it at the time and
+later was too late.
+During the exercise one brigade commander
+demonstrated that honor was not dead in the division when he learned from his rear detachment
+commander that one young mother had fallen seriously ill. The colonel sent his helicopter to fetch her
+spouse, a private, from the exercise and send him
+to stay with his wife and look after their children.
+Just as the morally querulous conduct of other officers was known throughout the division, word of
+this colonel’s actions spread rapidly. He earned substantial credibility with junior personnel. However,
+he had to contend with the jealousy of colleagues
+who accused him of posturing to his troops. Thus
+although he had behaved in an honorable manner,
+he was charged with a dishonorable motive by
+many of his peers.
+Perversions of Honor
+There have been examples in the foregoing discussion of honorable and dishonorable behavior. It
+is usually possible to discern which is which. More
+insidious are situations in which the term “honor”
+is used to cloak dishonorable, or at least incompetent, conduct, as the following example demonstrates.
+In July 1915 the French Commander-in-Chief, General Joseph Joffre, was putting pressure on the commander of the British Expeditionary Force, Field
+Marshal Sir John French, to mount an attack toward
+Loos over a broad expanse of flat, open terrain into
+the teeth of well-constructed, heavily armed, and
+forewarned German defenses. General Joffre had a
+fantasy of ending the war with one great offensive.
+He said that the British would find “particularly
+favorable ground” in the vicinity of Loos—an outright lie. Sir John French was afraid that if he did
+not go along with Joffre, the latter would arrange
+through his government to have him dismissed.
+When Joffre could no longer deny the unfavorable
+nature of the ground, he said the attack was vital
+“to the honor … of the Allied cause.”32(p126)
+That the term honor was used in this way says a
+great deal about the perversions of that concept in
+the French and British armies in the first half of the
+20th century. French and British senior officers habitually lied to each other, to their allies, and to their
+subordinates. 32,33(pp82ff,92ff) They falsified reports, took
+council of their own ambitions to the detriment of
+their troops and their cause, dismissed juniors who
+were so unwise as to offer suggestions that proved
+to be correct, and were professionally incompetent
+to a degree that is hard to imagine. 32,33(pp80–109) They
+used “honor” as a bastion behind which to refuse
+171
+Honor, Combat Ethics, and Military Culture
+EXHIBIT 6-7
+IS THE UNIT THE TEAM, OR IS THE OFFICER CORPS THE TEAM?
+This exhibit describes two cases known to the author of leaders who were punished for not being team players.
+Case 1: During the 1970s, the commanding general and command sergeant major of an Army reserve command
+stated that they sought to demonstrate their dissatisfaction with the quality of the Active Army personnel assigned
+to the command. Their motivation remains obscure, but their plan was to summarily eliminate from the service a
+Filipino NCO from the Active Army who had failed in his primary military occupational specialty (MOS) and was
+on a rehabilitation assignment after being retrained as a supply sergeant. The reserve command staff assigned him
+to a combat support company, expecting him to fail in his new specialty and thereby give them a pretext for firing
+him. The company commander immediately had problems with supply. His new sergeant had only instructional
+knowledge of supply procedures and no practical experience. He was also limited in his mastery of the English
+language. He failed inspections, was late with reports, and did not fully understand procedures. The captain complained up the chain of command and was told to work with the sergeant. He did, and was making progress when
+the sergeant major of the reserve command told him to initiate elimination action quickly. If the sergeant had
+enough time in service he would be entitled to a hearing before a board of officers, and those who wanted to fire
+him would have to prepare a case that could withstand cross-examination. If the captain put an elimination dossier
+together quickly the sergeant could be discharged administratively without appeals. The captain said the sergeant
+was performing better and that elimination was inappropriate. The next day the captain received an order from his
+battalion commander to initiate the elimination proceedings. He did as he was told, but in his evaluation of the
+sergeant he used language that made it clear that his performance did not warrant elimination. This stopped the
+general’s manifestly dishonorable project. The general then directed the captain’s battalion and group commanders to relieve him from command, to give him an adverse efficiency report (which effectively ended the captain’s
+military career), and to organize a high-ranking team to conduct a change of command property inventory. The
+team left the captain with a $25,000 report of survey, for which he was held pecuniarily liable. The captain resigned
+from the US Army, his troops believed he was treated shabbily but they had their own investments in the unit, and
+the supply sergeant stayed in the US Army. The entire chain of command, who were dependent on the general for
+good reports, loyally supported the general’s unethical conduct.
+Case 2: In 1967 in Vietnam, a draftee private in a direct support artillery battalion was serving as a fire support team
+chief for a rifle company. He was adjusting artillery and mortar fire for his company—doing the jobs of a lieutenant
+and a staff sergeant—and he was doing well. The infantrymen trusted him. One day he got a letter from a friend at
+home that said his mother, who owned the trailer in which his wife and daughter were living, had thrown the
+young family out and sold the trailer. The friend did not know where the soldier’s wife and little girl were. The
+soldier was distraught. He wanted leave to go find his family and resettle them. His first sergeant sent him to the
+Red Cross, which refused to authorize an emergency leave because no one was in a health crisis. The battalion
+executive officer (XO) learned of the problem and sent the soldier to the chaplain to get authorization for a morale
+leave. The chaplain called the XO and said, “This kid has a serious problem. If we send him home, he may not come
+back. Then whoever authorized his leave will look like an ass, and it isn’t going to be me.” The XO was furious at
+the chaplain for dodging his responsibility, and stormed into the division personnel office and asked the officer in
+charge to cut orders for a 30-day morale leave, which he did. At the end of his 30-day leave, the soldier did not
+return. His superiors questioned the XO’s judgment. A week later the soldier returned. He had found his family,
+gotten them a place to live, and was ready to go back to work adjusting fire for his infantrymen. The soldier, thanks
+to his intelligence and hard work, was able to carry out an officer’s responsibilities—but not when he was obsessed
+with worry about his family. The mission required that he have his mind on his job, so the XO took action to get the
+distraction resolved. The XO got an adverse efficiency report, the chaplain got a favorable report, and the private
+was a sergeant when he came home. There was no observable effect on the unit, but the XO acted honorably in a
+dishonorable culture, and paid the price. Ultimately, in such a climate there will be fewer and fewer honorable
+soldiers. This incident illustrates the danger of acting honorably in a dishonorable culture, and how the nominal
+stewards of moral values can be corrupted by the culture.
+to accept criticism of their actions and as an alternative to knowing what to do.
+Honor is therefore a concept of which military
+personnel in the 21st century must be wary; it has
+been used as a cover for incompetence, failure, and
+atrocities. A commander saying, “We don’t want to
+let anyone know about this, it would tarnish the
+honor of the brigade” really means “If this gets out
+172
+Military Medical Ethics, Volume 1
+I will be relieved, so help me cover it up or I’ll cut
+your throat on your efficiency report.”
+Loyalty is often put forth as one of the key aspects of honor. Correctly construed as taking care
+of one’s subordinates, and of carrying out missions
+faithfully, loyalty is important. But in the US armed
+forces since 1945 it has more often been construed
+as a duty owed by subordinates to superiors—including a duty to cover up their superiors’ mistakes,
+incompetence, and even criminal behavior (Exhibit
+6-7). Failure in this type of “loyalty” marks the individual as “not a team player,” and usually leads
+to a damaging evaluation. 5(pp225ff,294ff),34
+Operationally effective honor rooted in integrity,
+trust, commitment to duty, and care for subordinates is a powerful support for military personnel
+who must perform emotionally aversive acts to accomplish a mission, and who must make difficult
+ethical decisions in the midst of danger, privation,
+and moral chaos. Each honorable act strengthens
+the character of the individual who performs it, and
+strengthens the culture of the unit to which that
+individual belongs. Honor flourishes in a command
+climate that fosters a sense of security, especially
+among leaders. Conversely, threats, statistical measurements, competition, and covering up for superiors create the insecurity that undermines honor. If
+people are sufficiently insecure, they will slip away
+from the honorable course. As Edgar Z. Friedenberg
+(a psychologist who focused on how school faculties colluded to keep adolescents in the social and
+economic classes into which they had been born) put
+it, “All weakness tends to corrupt; impotence corrupts
+absolutely.”35 Trust, respect for subordinates, and
+empowerment, on the other hand, create a sense of
+security, belonging, and willingness to do the honorable thing. American military personnel tend to
+be idealists; it is the job of senior leaders to create a
+culture in which that tendency can blossom into
+ethical and operationally effective behavior. 36
+COMBAT ETHICS
+There are three essential military purposes
+served by an ethical system in combat: (1) restraining military personnel from committing atrocities,
+(2) enabling people to carry out missions that may
+require them to kill and perform other morally aversive acts, and (3) strengthening resistance to combat stress breakdown.
+Restraining Military Personnel From
+Committing Atrocities
+Atrocities are violations by soldiers of the standards of behavior valued in their cultures, consonant with national objectives, and prescribed by
+military regulations. Behavior considered from one
+cultural perspective might be called an atrocity; the
+same behavior in another cultural context could be
+considered a moral duty. I am presenting this as
+both a practical and a moral issue, because to do
+less is to disregard its complexity and do a disservice to the leaders and fighters who have to make
+moral judgments on the field of battle.
+There are three ethical-operational issues to consider: (1) the process of defining an atrocity, (2) the
+dynamics of atrocious behavior, and (3) ways of preventing atrocities.
+National Objectives, Military Culture, and Atrocities
+During the 20th century, definitions of appropriate conduct during wartime have varied radically.
+The objectives of a particular war tend to be the
+primary factors governing definitions of ethical as
+compared to unethical behavior. In World War I,
+German and American views of what constituted
+lawful attacks on merchant vessels, especially by
+submarines, differed so widely that the issue became one of the key factors bringing the United
+States into the war. The US firebombing of
+Dresden and the US use of nuclear weapons
+against two Japanese cities have been the subjects of many years of ethical debate. German
+soldiers were barbarous in their treatment of civilians during the invasion of Russia between
+1941 and 1944, but their conduct was consonant
+with national objectives and Nazi cultural values (Exhibit 6-8). Having no clear war aim was a
+major problem for US military personnel during
+the Vietnam War. They were reduced to adopting
+the killing of North Vietnamese soldiers as the ethical purpose of the war. In the Bosnian conflicts of
+the 1990s, raping the women and killing the men of
+conquered populations were consonant with the
+war aims of all three conflicting parties. Muslims,
+Croatian Roman Catholics, and Serbian Eastern
+Orthodox Christians were committed to the extermination of opposing ethnic groups.
+Another example of behavior defined by Americans as an atrocity was the Japanese treatment of
+American and Filipino soldiers during the Bataan
+Death March (Exhibit 6-9). Americans called this event
+an atrocity. After winning the war they tried the Japa173
+Honor, Combat Ethics, and Military Culture
+EXHIBIT 6-8
+GERMAN ATROCITIES ON THE RUSSIAN FRONT
+As the Russo–German war (1941–1945) became more severe, German soldiers were beset by extraordinarily
+harsh conditions, inadequately equipped and supplied for the terrain and weather in Russia, and faced a
+tenacious and skillful adversary in a war defined as one of survival for Germany. 1(pp21–27) German soldiers had
+their humanity put to a severe test. Ethics, cohesion, and the coercive system in the German Army were corrupted by, and subservient to, a harsh Nazi ideology that demeaned Russians. The result was that German
+soldiers became brutal and rapacious in their treatment of Russian soldiers and civilians. Soldiers of the German Army, not just the SS (Schutzstaffel [protection echelon]), were under orders from the high command to
+kill all guerrillas, saboteurs, political commissars, and Bolshevik agitators; to impose mass punishment on
+villages suspected of harboring guerrillas; to exploit Russian civilians in any way required to support the war
+effort; and to destroy everything in the event that they had to give up ground to the enemy. 1(pp106–141)
+The ethical code under which German soldiers had been trained defined non-Germans as subhuman
+(untermenschen) and maltreatment of them as virtuous. 1(pp133–136) They were authorized and required to be barbarous, and the stress of weather, terrain, privation, and the Russian resistance made them ready to impose
+hardships on the populace in order to alleviate their own. The ethical code promulgated by the Nazi regime
+specified that what we would call atrocities were “what was right” for German soldiers on the Russian front. 2
+Sources: (1) Barton O. The Eastern Front, 1941–45. German Troops and the Barbarization of Warfare. New York: St. Martin’s
+Press, 1986. (2) Browning C. Ordinary Men. New York: HarperCollins; 1992: 2, 55ff, 74–77, 130–131.
+EXHIBIT 6-9
+THE BATAAN DEATH MARCH
+In the late 19th century, Japanese military leaders recognized that their army was “destined” to fight numerically superior enemies—Chinese, Russians, or Americans. They defined fighting to the death as the only honorable behavior. Surrender was the ultimate loss of honor. 1
+In April 1942 an American and Filipino army of 76,000 surrendered to a Japanese force of 43,000. The Americans and Filipinos had surrendered because they were on the verge of death from starvation. Their commanders had brought them into the Bataan Peninsula 3 months earlier having made no preparations for their subsistence.
+Much of the Japanese force in the Philippines was sent on other missions when the Americans surrendered.
+They had few men with which to guard the prisoners, no transport to move them, and barely had enough food
+to feed their own men. The prisoners had to walk 55 miles to the nearest railhead. Already near collapse from
+hunger, they got little food from the Japanese. On the way 12,300 of them died. Some were shot or beaten to
+death when they fell out of the column. 2 Given the Japanese contempt for warriors who surrender, it is remarkable that they provided any resources at all that allowed any of the prisoners to survive.
+Sources: (1) Edgerton RB. Warriors of the Rising Sun. New York: Norton; 1997. (2) Whitman JW. Hell broke loose this morning: The first Philippine Campaign, 1941–42. Command. May 1997;43:18–29.
+nese commander for war crimes and hanged him. 37
+But from the Japanese perspective their treatment
+of their prisoners was ethically correct.
+In the last decade of the 20th century American
+military and political leaders have adopted new
+guidelines for ethical behavior by military personnel. Interviews with American soldiers who fought
+in Panama in 1989 and in Iraq in 1991 indicate that
+hatred of the enemy is no longer a goal of training. 38,39 With a different adversary every few months
+soldiers instead have come to refer to the current
+opponents as “the other side” or “the bad guys.”
+Since the mid-1980s, incapacitation of an adversary’s ability to conduct effective military opera174
+Military Medical Ethics, Volume 1
+tions has replaced annihilation of personnel as the
+principal tactical objective. 10,39(p125),40,41 American
+military personnel are prepared to treat vanquished
+soldiers with compassion and even as allies once
+their capacity to fight has been neutralized. These
+changes do not reflect a new and loftier morality;
+instead they reflect national objectives that foresee
+future amity with the armed force currently under
+attack.
+For example, postwar friendship was an objective of the US invasion of Panama in 1989. 42,43 This
+objective was served by minimizing casualties
+among the opposing forces. To achieve that purpose
+senior commanders imposed narrowly restrictive
+rules of engagement that entailed substantial additional risks for US military personnel. 38 (See Chapter 8, Just War Doctrine and the International Law
+of War for a further discussion of the rules of engagement.) The ethical duty of commanders to protect their troops was subordinated to the national
+objective.
+In the Persian Gulf War in 1991 liberation of Kuwait from Iraqi occupation and elimination of the Iraqi
+capability to conduct offensive operations were the
+stated objectives. (Unstated objectives included protecting oil imports as well as other business interests
+in Kuwait.) To achieve those objectives, US forces targeted military materiel, command and control facilities, and elements of economic and industrial strength.
+Casualties among both military and civilian Iraqi personnel were minimized. 39(pp111ff,314ff)
+Humane treatment of prisoners of war, sparing
+the lives of noncombatants, respect for women, children, and the elderly, and protection of artistic and
+cultural treasures are the usual components of most
+modern military ethics. The values that dominate
+in any set of ethical guidance for the military result
+from a combination of what works in the conduct
+of military operations and the prevailing values in
+the larger society that provides the military personnel. In the final analysis, definitions of morality
+have followed national objectives, and are likely to
+continue to do so.
+Dynamics of Atrocities
+Most soldiers do not want to commit criminal
+acts. However, the definition of criminal acts is culturally determined. The record of history indicates
+that American soldiers are more likely to succor
+conquered peoples than to abuse them. They are not
+imbued with values such as those animating German soldiers toward Russians (see Exhibit 6-8) and
+Japanese soldiers toward those who surrendered
+during World War II (see Exhibit 6-9). Their values
+make it psychologically painful for American soldiers to abuse the enemy. But they have been known
+to get out of control and behave in unethical ways. 44
+There are conditions that can increase the propensity of any soldiers to commit atrocities: physical hardship, psychological desperation, and military inadequacy. In addition, individuals may go
+berserk, or a leader may initiate a chain of events
+leading to barbarous behavior with an overt or implied order. The German soldiers on the Russian
+Front were physically and psychologically desperate, and they were under orders to plunder and kill
+civilians. The Japanese soldiers on Bataan were almost as hungry as their prisoners, and their commanders were under heavy pressure to leave the
+Philippines for other missions. Sometimes the military situation makes it difficult for soldiers not to
+behave outrageously.
+The dynamics of atrocity are complex. A small
+proportion of any population are sociopaths who
+do not have empathy for others and who enjoy killing. However, sociopaths often do not trust others
+and are unreliable. They tend to gravitate toward
+isolated roles, such as snipers. (They can be useful,
+but they complicate cohesion.) Historically, leaders
+who have wanted to induce ordinary soldiers to
+engage in barbarism have deceived them about the
+unethical deeds they were to perform. Having once
+done something they believed to be wrong, they
+would be offered an escape from guilt by being
+praised or accepted into a prestigious group. This
+process alleviates guilt for a short time; to alleviate it
+over the longer term requires that the soldiers continue to validate their initial atrocity by performing
+others and by participating with the group in rituals of justification of their acts. Participants in atrocities need to form strong cohesive bonds with each
+other because they are dependent on each other for
+mutual validation. They reassure each other that their
+behavior demonstrates that they are strong and virtuous and that others are weak. 45(pp208–214)
+Soldiers who have experienced despair, grief, or
+helplessness, and who have weak social supports
+in their units, have an intense need to feel effective.
+They are vulnerable to being recruited to perform
+atrocities. The potentially most dangerous people
+are leaders who feel inadequate and insecure. Their
+sense of helplessness easily turns to hatred and a
+search for someone or some group on whom they
+can take vengeance. Incompetence, insecurity, and
+social isolation increase the likelihood that a leader
+175
+Honor, Combat Ethics, and Military Culture
+will order, or acquiesce in, criminal acts. A classic
+example from the Vietnam War is Second Lieutenant William Calley and his platoon at My Lai in 1968
+(Exhibit 6-10).
+From an operational standpoint, atrocities do not
+work. They usually redound to the disadvantage
+of the side committing them. Bombing of population centers in England and Germany in World War
+II strengthened the resolve of the people being
+bombed in both countries; the Japanese treatment
+of prisoners on Bataan gave rise to the slogan “Remember Bataan!” among Americans; maltreatment
+of one’s prisoners of war in any conflict makes one’s
+adversaries more likely to fight to the death. In war
+any policies or actions that increase the power of
+the adversary or the danger to friendly troops are
+unethical irrespective of whether they are inherently repugnant to national moral values.
+EXHIBIT 6-10
+THE MASSACRE AT MY LAI
+Second Lieutenant William Calley, a man of limited ability,1(pp19–21) was in over his head1(pp26,28) as a platoon
+leader in the Americal Division in Vietnam in 1968. He led a group of men who had experienced the death and
+wounding of their comrades by mines and booby traps for many weeks. They never saw the enemy who was
+killing them, and had no chance to fight back. Calley’s company, battalion, brigade, and divisional commanders did not have a clear idea how to conduct effective operations, and as a consequence were frustrated and
+hostile toward Vietnamese civilians. 1(pp27,33,35)
+Calley received an order that intimated1(pp21,44) that he was to tell his men to “kill every man, woman, child,
+dog, cat” in My Lai, and he made his platoon carry it out. 2 Many of them did not think it was right, and sought
+to avoid, or limit, participating in the slaughter. Calley was adamant, and threatened soldiers who hung back.
+Nonetheless, one shot himself in the foot, at least one other snuck off, and some killed a few Vietnamese, then
+quit. Several were active participants in the slaughter.
+The crew of an American helicopter, commanded by Chief Warrant Officer Hugh C. Thompson, Jr., played a
+role in stopping the massacre. Thompson landed his helicopter in the line of fire between Calley’s soldiers and
+their intended victims, and rescued 11 of them. 3
+Calley’s unit was credited with 128 bodies, some of them infants, but no one raised questions at the time.
+American and Vietnamese investigators found 450 to 500 bodies. The massacre came to public light when a
+helicopter door gunner, Ronald L. Ridenhour, left the US Army and started a letter-writing campaign to Congress. There were so many facts that the military eventually had to address the matter, but Calley was the only
+one who was convicted of criminal action, although four enlisted men were discharged administratively. 4(pp257–
+267) His superiors escaped serious punishment but their careers were terminated. 4(pp257–267)
+Calley took the blame, and thus protected his superiors, but he was part of a command that was in ethical
+collapse. His superiors were guilty of incompetence, of failing to take steps to support the morale and character of the men who were dying because of their incompetence, and of the incomparably cowardly act of suggesting—not ordering—that Calley commit an atrocity. 1 That they knew that they had behaved dishonorably
+became apparent when evidence of their conspiring to cover up the massacre came to light. 4
+Sources: (1) Hersh SM. My Lai 4: A Report on the Massacre and its Aftermath. New York: Random House; 1970. (2) Film,
+Interviews with My Lai Veterans. Washington, DC: SANE. (3) Montgomery D. 30 years later, heroes emerge from shame of My
+Lai massacre. Washington Post. 7 March 1998: A1, A10. (4) Hersh SM. Cover-up: The Army’s Secret Investigation of the Massacre
+at My Lai 4. New York: Random House; 1972.
+Prevention of Atrocities
+It is appropriate that governments and commanders take steps to prevent soldiers from running amok. In an era of instant and comprehensive
+public communications, controlling soldiers’ behavior can become an obsession because their behavior has the potential to embarrass governments.
+Commanders rely on codes of military justice, military police, and summary field courts to compel
+those who wield armed force to do so only in accordance with the values and objectives of the state.
+But coercion has a more limited grasp on the
+soldier’s actions than do his internal value system
+and the mores of his unit. Discipline that is rooted
+in mutual affiliation and trust between leaders and
+subordinates is more reliable and resilient than enforced obedience. 46 The most effective way to assure
+176
+Military Medical Ethics, Volume 1
+that military personnel behave in accordance with
+national policy is for personnel policies, leader behavior, and other aspects of military culture to support vertical cohesion.
+The leader has the primary, though not the only,
+role in defining “what’s right” in a combat situation. 1(pp3ff) His ability to influence his subordinates’
+perceptions of “what’s right,” and his ability to link
+the value systems of small units with those of larger
+units and ultimately with national objectives, depends
+on the degree to which his subordinates perceive
+him as trustworthy. Soldiers need to be secure in
+the belief that their commanders are committed to
+their welfare and success, and will support them
+with every means at their disposal. Trust, rather
+than coercion, codes of conduct, or slogans, offers
+the most powerful means of assuring ethically appropriate behavior by troops in combat. 47,48
+It is instructive and heartening that most soldiers
+who inadvertently commit atrocities are horrified
+and depressed. In cohesive units with an agreed
+upon ethic of “what’s right,” they can confront their
+horror and shame, and get help working through it
+from their comrades and leaders. The primary
+group will support the soldier who strayed from
+“what’s right” in getting back on the path of ethical conduct. In most cases horizontally and vertically cohesive units will impose pressures on even
+sociopathic soldiers to see that they conform to the
+unit’s definitions of “what’s right.”
+Enabling Military Personnel to Carry Out
+Morally Aversive Acts
+Whatever the national objectives may be, all wars
+entail inflicting death and destruction. Most people
+are reluctant to kill. 45(pp1–39) It is the ethical duty of
+military leaders to create a moral and physical climate in which their members can kill designated
+enemies readily and efficiently.
+Killing another human being is the most traumatic experience a soldier encounters. It is more
+stressful than fear of death or injury, and it is the
+experience most likely to entail postcombat psychiatric disorders. 45 The most common protective behavior soldiers have used has been to refrain from
+firing, or fire to miss. S.L.A. Marshall found that in
+World War II fewer than 20% of American soldiers
+fired their weapons in combat. 49(pp50–60,72–74) Though
+Marshall’s data have been challenged,50 Grossman
+has collected evidence that the majority of fighting
+men have avoided firing at enemy soldiers since the
+18th century when firearms were first widely available to armies. 45(pp5–11,19–28)
+The author’s research has led him to conclude
+that three factors are important in enabling American military personnel to kill. The first is confidence
+that they have the skills and the equipment necessary to kill and have a reasonable chance of not being killed in the process. The second is the conviction that they are not alone on the battlefield and
+that their comrades and leaders will not desert
+them. The third is the belief that what they are doing is right. 11,38,51 These factors have psychological,
+practical, and ethical dimensions.
+Confidence in Skills and Equipment
+Training is one key to confidence, and trust is another. Knowing what to do amidst the moral and
+physical chaos of combat helps a fighting man to
+maintain his moral and psychological orientation.
+Realistic, state-dependent training can let a trainee
+experience the danger and fear as well as the practical problems associated with performing his combat
+skills so those skills will be available to him when he
+is swamped by emotions in combat. While training
+can build confidence in many dimensions, including
+the mechanics of killing, American ethics do not permit trainees to experience the emotional effects of killing. Drills in the mechanics, and frequent use of the
+language of killing, however, can desensitize most
+people to the extent that when it becomes necessary,
+they are more likely to be able to kill. 45(pp249–256)
+Trust is the second component of confidence. An
+individual comes to trust another as he experiences
+the other as being worthy of trust. It is essential to
+enable the members of the squads, teams, sections,
+and crews in military organizations to perform the
+grim and dangerous aspects of their jobs, including killing. When a service member kills, the reassurance and approval of comrades and leaders he
+trusts will help him preserve his character. 36,45 To
+develop trust among the members of primary
+groups, it is necessary that they train together, experience stress and danger together, and learn that
+they can count on their comrades to perform competently and to watch their backs. It is easy to recognize trust when it emerges in primary groups;
+military competence becomes the transcendent criterion by which individuals judge each other. Previously salient factors, such as sex, race, religion,
+and ethnicity, fall by the wayside. 28
+Trust in leaders is equally important. Troops in
+combat need leaders who are militarily competent,
+who tell them the truth, who strike a reasonable
+balance between the exigencies of the mission and
+the welfare of their people, and who create a cred177
+Honor, Combat Ethics, and Military Culture
+ible ethical climate in which to accomplish the actions the mission requires. This is a tall order. Most
+junior military personnel are predisposed to trust
+their leaders, and this both eases and complicates
+the leaders’ tasks. Any deviation from subordinates’
+expectations of competent, caring, and ethical behavior disillusions and confuses them. If a leader
+wants to create a high-performing unit, he has to build
+high expectations, then he has to live up to them.
+Military leaders’ every act is scrutinized by those they
+lead, as well as by their superiors and the general
+public in this era of instantaneous communication. If
+a leader pontificates about duty, honor, and country
+when the circumstances of the combat situation entail burning the homes of civilians, making inflated
+reports of success, and no clear-cut war aim, then trust
+evaporates in the resulting ethical chaos.
+Combatants’ Belief That They Are Not Alone on
+the Battlefield
+Because of technological progress in targeting
+and in the lethality of weapons over the past century, military operations have been carried out by
+progressively smaller groups of people operating
+at greater distances from each other. The trend is
+accelerating. Since 1945 bomber crews have fallen
+from ten men to two; warship crews are only a
+fourth as large for a given size of ship. 52–55 On some
+contemporary battlefields an armored infantry
+squad, a tank crew, or the crew of an artillery piece
+EXHIBIT 6-11
+PATHFINDERS IN IRAQ
+The performance of Staff Sergeant Gary Rister’s three-man pathfinder team from 2-17 Cavalry, 101st Air Assault Divisional Reconnaissance Squadron, during the invasion of Iraq in 1991, is a good example of how
+confidence based on trust can counteract isolation on the battlefield. Sergeant Rister’s team had the task of
+setting up an electronic beacon in the Iraqi desert to guide the 101st Air Assault Division’s helicopters. There
+were no friendly elements on the ground or in the air within 20 miles when the team got its beacon working.
+They looked for a hiding place from which they could keep an eye on it. Suddenly they were taken under fire
+by a platoon of about 30 Iraqis in several well-camouflaged bunkers. The three Americans assaulted and seized
+the first bunker that had fired on them, captured the lieutenant in command, and sent him out of the bunker
+carrying a white flag. The rest of the Iraqis fled across the desert. Sergeant Rister’s team had no fire support,
+no air support, no backup, and no radio contact. In reality they were alone on the battlefield, but psychologically they were not isolated. They could have fled, but their comrades were counting on them. They knew how
+to fight, that they could count on each other, and that they belonged to a squadron that would not abandon
+them. With that knowledge, they attacked.
+Source: Taylor TT. Lightning in the Storm: The 101st Air Assault Division in the Gulf War. New York: Hippocrene Books; 1994:
+337–340.
+may not have another friendly element anywhere
+within its field of view. 46(pp16,18)
+A sense of isolation in the midst of danger is demoralizing. The last thing a lonely soldier wants to
+do is attract attention to himself by firing. If soldiers are to kill on a dispersed battlefield they need
+to believe they are part of a group with leaders who
+know where they are and will not abandon them.
+Building this belief is the most important function of
+an armed force in peacetime. Its foundation is trust
+built up through honesty, respect, open communication, and mutual concern among peers and across
+ranks. Many elements of the US armed forces have
+succeeded in creating such a climate (Exhibit 6-11).
+Building the conviction in a soldier that his leaders will not abandon him is an incremental process.
+During peacetime training, junior personnel—and
+junior leaders—observe the behavior of their commanders with respect to professional competence,
+concern for their troops, and ethical integrity.
+Deeds, not words, define the trustworthiness of a
+leader. Leaders can demonstrate their competence
+through their mastery of tactics in training situations, their readiness to come up with innovative
+technical ideas that enhance the capability of equipment or that disrupt the “opposing forces,” and
+their management of schedules so that their troops’
+time and energies are used productively. These are
+the criteria leaders’ superiors should use to evaluate them; they are certainly the criteria subordinates
+will use to judge their worthiness to be obeyed.
+178
+Military Medical Ethics, Volume 1
+Combatants’ Belief That They Are Doing
+“What’s Right”
+Shay has described the destruction of a combatant’s
+character in the moral vacuum created by the military culture in Vietnam. 1(pp5ff,9–21) He pointed out that
+an army is a moral construction; that combatants
+need a credible and appropriate ethical foundation
+to sustain themselves psychologically. In collaboration with their leaders they create ethical systems,
+strive to live up to them, and expect their leaders to
+model them. Betrayal of ethical values by military
+leaders can lead to a state of moral confusion that
+affects performance in combat. Exhibits 6-1, 6-7, and
+6-10 demonstrate how duty and loyalty become
+meaningless concepts, reports are routinely faked,
+and atrocities are more likely in times of moral confusion. Exhibit 6-12 is an example of ethical chaos
+in the culture of a division in which the author
+served in Vietnam in 1968.
+Studies of Germans who committed atrocities
+during World War II indicate that soldiers’ perceptions of “what’s right” are influenced by the military culture. Leaders are the primary channel by
+which soldiers acquire these values. In the case of
+German soldiers in Russia, Hitler, his High Command,
+and most subordinate commanders advocated values that required soldiers to behave in ways Americans perceive to be atrocious. In the case of the US
+division in Exhibit 6-12, senior leaders created frustration and fear in their subordinates because they
+were unable to find their own moral bearings. They
+tacitly encouraged junior soldiers to alleviate their
+EXHIBIT 6-12
+POT-SHOTTING CIVILIANS FROM HELICOPTERS
+A divisional staff officer in Vietnam in 1968 was riding in a helicopter when the door gunners suddenly
+opened fire on civilian workers on a tea plantation. He immediately ordered the gunners to cease fire. The
+aircraft commander was indignant and said that all the crews fired at the workers in that plantation because
+everyone knew the plantation owners paid off the Vietcong. He said that if a worker ran when he was fired at
+it meant he was Vietcong and they would try to kill him. And anyway, it was good practice for the door
+gunners. The staff officer reported this manifestly dishonorable and criminal behavior to the aviation battalion commander—who told him to mind his own business. He then reported it to the division chief of staff—
+who said it was best not to interfere: “The helicopter crews are under a lot of stress, and we count on them.”
+This is an example of a major command (18,000 men) in ethical collapse. The door gunners had approval from
+the officers commanding their helicopter to engage in killing innocent people for fun. The aircraft commanders were mostly 19- to 22-year-old warrant officers whose commanders asked no questions about what the
+gunners fired on. When the issue was placed before senior officers—the aviation battalion commander and the
+divisional chief of staff—they were simply too busy, too tired, and too remote from moral considerations to
+become involved. After all, the targets were “only” Vietnamese, and the gunners usually did not hit anyone.
+feelings of impotence by attacking civilians.
+When there is a moral vacuum in the command
+and the military culture, perceptions of “what’s
+right” emerge among junior personnel seeking to
+create a moral foundation. Ethicists and military
+professionals alike may be horrified at the moral
+relativism inherent in junior personnel in each unit
+working out their own version of “what’s right,”
+and holding their leaders to it. In the author’s view,
+however, it is heartening that unsophisticated junior fighters make spontaneous efforts to construct
+a moral foundation for their participation in the war.
+Definitions of “what’s right” during the war in Vietnam were remarkably consistent across units and
+even across services in spite of the moral confusion
+at the policy and senior command levels. 1,5,56–60 During the invasions of Panama and Iraq, for which the
+general purposes and values were clearly articulated by the commanders-in-chief, units of the
+ground forces embraced definitions of “what’s
+right” that were closely linked to those purposes
+and values. 38,39,61,62
+Strengthening Resistance to Combat Stress
+Breakdown
+The record of American military personnel over
+several wars indicates that they do not want to be
+bullies, they do not want to hurt innocent people,
+and they want to believe they are engaged in an
+honorable war. A credible moral basis for combat
+prevents atrocities, enables soldiers to kill when
+they must, and it also helps them manage their emo179
+Honor, Combat Ethics, and Military Culture
+tions after combat. Such management is essential
+to enable them to remain psychologically combatcapable, and to protect them against posttraumatic
+stress disorder.
+A moral purpose for war is not the same thing as
+a “just war” in the sense that just war theorists use
+the term. (See Chapter 8, Just War Doctrine and the
+International Law of War, for a further discussion
+of just war theory.) For a combatant, the language
+of treaties is remote. What matters to the soldier is
+that the action he is embarked on makes sense and
+is not transparently criminal. A commander who
+fabricates a “just war” rationale for an action the
+real purpose of which is simply advancing national
+interests squanders his credibility.
+On the other hand, there is much that commanders can do that is honorable to support resistance
+to psychological collapse in combat. They can assure that missions are ethically valid and that commanders are committed to the same values as their
+subordinates. They can acknowledge and accept
+soldiers’ emotions during after-action reviews. And
+they can mobilize and validate the actions of chaplains and mental health professionals.
+“What’s Right” and Combat Stress Breakdown
+Combat stress breakdown is collapse of character in the face of fear, guilt, misery, and betrayal of
+“what’s right”—the accepted operational ethics in
+the unit. Personnel suffering acute combat stress
+breakdown exhibit a variety of symptoms—apathy,
+depression, overwhelming anxiety, chronic shivering,
+recklessness, paranoia, acting out, and psychosomatic
+disorders, to name a few of the most common. These
+symptoms not only cause personal distress, they
+impair the sufferers’ ability to perform duties and
+care for themselves. Evidence from World War II
+demonstrated that every person will, at some point,
+undergo breakdown in the face of the stresses of
+combat. 63(pp15–16)
+Untreated, combat stress breakdown becomes
+chronic posttraumatic stress disorder (PTSD). Victims of PTSD suffer from a cluster of symptoms that
+includes startle disorders, nightmares, and flashbacks. 64(pp412,417–420) They also suffer damage to their
+character in the form of inability to trust, love, and
+concentrate. The damage to character has the
+greater disabling impact and social cost. Recovery
+is slow, difficult, dependent on a supportive community, and may never be complete. 1(pp184–195),3
+Unit cohesion has been demonstrated to be the
+most effective way of strengthening personnel
+against combat stress breakdown. 28,65,66 Ethics and
+cohesion are interactive and mutually supporting.
+Together they help military personnel postpone the
+onset of breakdown, lessen its severity, and support
+recovery. 1(pp196–204) This chapter has discussed how
+ethics support military personnel in combat and the
+role of ethics in building cohesion. The most powerful catalyst for breakdown is command betrayal
+of “what’s right.” The reason command betrayal has
+such a disastrous effect on character is that fighting personnel depend for their sanity on the agreed
+definitions of “what’s right,” and they depend for
+their survival on the integrity of their commanders. If their leaders lie to them, or send them on
+missions that require them to do things that are “not
+right,” or abandon them psychologically on the
+battlefield, the slender thread of trust that sustains
+them is broken. 36 If the primary group bonding is
+sufficiently strong, the members of the group may
+survive psychologically by validating each other,
+but vertical cohesion will be destroyed. The members of the squad or other unit will unite against
+higher echelons, and the unit will be lost to command. 28,67 If the primary group is not strongly cohesive, its members will be psychologically adrift,
+and damage to character is probable. 1(p198)
+Ethical and Psychological Support for Morale
+and Character
+When the officially stated purpose of a military
+intervention is at variance with the observable facts,
+commanders are in a quandary. They know their
+troops want to be part of a good war, and the wiser
+ones know that the troops will not believe a false
+rationale. Protection of organizational cohesion and
+the troops’ psyches demand that commanders tell
+the truth as best they can. The principal cause of
+character damage to soldiers was leaders’ betrayal
+of their subordinates’ moral assumptions about
+fairness. 1(pp9–20,169ff)
+In addition to structuring a credible ethical system and communicating honestly with subordinates, there are processes by which commanders can
+help their troops manage their moral and emotional
+ambivalence about carrying out aversive duties. The
+most effective is the after-action review (AAR) that
+has become a component of leadership in some services. Similar to a critical incident debriefing, the
+AAR is a rank-free, open discussion among all of
+the members of small units or command groups
+about a training or combat event. Everyone describes what he perceived and did, and what he
+perceived others as doing. Together, the members
+of the unit learn tactical lessons and refine teamwork.
+180
+Military Medical Ethics, Volume 1
+When the AAR includes emotions as well as actions it offers the individual an opportunity to have
+his feelings validated by his peers and leaders. The
+AAR becomes an ethical forum in which guilt, fear,
+grief, horror, and barbarous acts can be detoxified
+by the approbation of the group, if the group determines that the feelings and actions fall within the
+boundaries of “what’s right.” The AAR also serves
+as an informal court to curb a member whose actions are deemed out of line, and as a legislature to
+revise the definitions of “what’s right” to cover situations not previously considered. These processes
+of developing moral values and applying them to
+validate or condemn actions may be anathema to
+those who are only comfortable with a set of absolute values, but the processes work. They preserve
+the psychological fighting integrity of units, they
+strengthen the individual’s ability to resist combat
+stress disorders, and they stifle tendencies toward
+committing criminal acts.
+Commanders, Chaplains, and Mental Health
+Professionals
+Even in units with strong horizontal and vertical cohesion supported by a coherent and credible
+body of ethics, crises occur in combat and in training that put the members under severe stress. When
+these occur, critical incident debriefings or AARs
+are the most effective way of alleviating psychological trauma. 68 The involvement of chaplains and
+mental health professionals can support command
+in helping soldiers survive crises with their psyches
+intact. Constructive collaboration among these
+agencies has not been common in the past, but when
+it can be achieved each can reinforce the others.
+Prior to the Persian Gulf War, chaplains were
+accepted by line commanders and their troops. They
+were present at brigade and sometimes battalion
+level, and most took an active part in the spiritual
+and familial lives of service members. Unlike the
+chaplains, mental health professionals not only
+were not accepted, they were generally feared. Their
+role was usually perceived as assessing the mental
+states of personnel in processes leading to court
+martial or to administrative elimination. To admit
+to having psychological problems was to end one’s
+career. 61 In professional armed services most of the
+members want to stay in, and they do not want
+mental health professionals finding out things about
+them that could jeopardize their careers.
+Before 1990, psychiatrists, psychologists, social
+workers, and mental health technicians usually
+stayed in hospitals and were seldom known in line
+units. In the mid-1980s, under the leadership of
+General Maxwell Thurman, the Department of the
+Army began a reorganization of medical assets to
+make possible the formation of combat stress control teams. 69 During the Persian Gulf War such
+teams were hastily organized and deployed to the
+theater where they offered their services to forward
+units. They received a skeptical reception in most
+units, but some managed to establish their credibility. When crises arose, several combat stress control teams were helpful in debriefing emotionally
+traumatized personnel and supporting them. 70–72
+Mental health personnel learned to ally themselves
+with chaplains who were already accepted in most
+units. The chaplains helped combat stress control
+teams begin the process of winning trust. Mental
+health personnel are difficult for some commanders and chaplains to tolerate,61,71(p128) but they all have
+a common goal of supporting the psychological
+readiness of the troops they serve.
+MILITARY CULTURE: A RESPONSIBILITY OF COMMAND
+Military culture defines the ways an armed force
+does its business in peacetime and in combat, provides the foundation for relations between ranks,
+and defines the responsibilities of leaders for the
+personal, professional, and familial welfare of their
+personnel. The development of horizontal and vertical cohesion depend on shared cultural and moral
+perceptions. Ethical components of military culture
+are essential to enable fighting personnel to accomplish their missions of killing, to limit their activities to those required to accomplish national objectives, and to help combat personnel survive their
+experiences psychologically. Together these processes define the capacity of an armed force to fight,
+to cohere, and to recover to fight the next campaign.
+It will come as no surprise that the responsibility
+for interpreting, adapting, and transmitting military
+culture lies with command.
+This section is an essay on creating an ethically
+supportive military culture. It has three parts. The
+first is a discussion of authority and discipline and
+how an ethically unsupportive culture undermines
+them. The second is a description of cultural processes
+by which leaders build support for the command
+structure in a post–Cold-War environment. The
+third is a prescriptive set of ethical-cultural elements
+181
+Honor, Combat Ethics, and Military Culture
+for an armed force in the 21st century. Together the
+three parts will define some of the essential behavior commanders need to incorporate if they are to
+build bonds of trust with their subordinates.
+Authority, Discipline, and Maladaptive Cultural
+Practices
+Many military leaders assume that their position
+in the hierarchy gives them authority. But authority, the expectation that a leader’s orders will be
+obeyed, is much more complex. To be sure, positional authority can be effective when stakes are
+modest and stress is minimal. When things get
+tense, people look for someone to show them how
+to cope, and if the nominal leader can do it, his subordinates will be quick to ratify his authority. If he
+cannot, his followers will withdraw authority from
+him and give it to someone who can show them how
+to manage their situation. Leaders have real authority only to the extent that their followers are prepared to grant it to them. 73
+Subordinates confer authority on superiors
+whom they trust and in whose competence they
+have confidence. Professional ignorance is the mortal enemy of military authority. When a person in a
+position of leadership does not know what to do,
+he is embarrassed, and he may often use bluff, lies,
+and undue emphasis on matters he does understand
+to cover his ignorance. Incompetence has sometimes
+become so pervasive that elaborate institutional
+practices have evolved to conceal the ignorance of
+senior personnel and cloak them with some sort of
+mask of authority, irrespective of its substantive
+relevance.
+For example, many service members have undergone inspections such as the US Army’s annual general inspection. The chief of the inspection team
+typically introduced his team with words such as,
+“We are here to see if you can accomplish your mission.” The team then proceeded to conduct a minute
+inspection of the magazines in the dayroom, unit
+punishment records, mess hall accounts, and the
+uniformity of displays of individual field equipment that is never taken to the field. 29(p70),74(pp70–78)
+Usually the inspectors inspected everything that
+had nothing to do with the mission, and nothing
+that had anything to do with the mission. The reason was that the inspectors were not technically
+qualified to inspect matters pertaining to the mission, so they inspected what they did understand,
+and passed judgment on the unit. The concept of
+the inspection is devoid of integrity because it required the members of the inspected units to divert a
+great deal of time to preparing the eyewash the
+inspectors would evaluate instead of preparing to
+perform their actual mission. Everyone from the battalion commander on down knew that the annual
+general inspection was meaningless. 74(pp70–74) Because
+the inspection was fraudulent, but was treated as a
+matter of great moment by command, it undermined
+confidence in the integrity of command.
+Another institutionalized fraud is the unit status report. Its ostensible purpose is to inform senior commanders of the readiness of units so they
+can use the unit appropriately and take action to
+provide the unit with resources it is lacking. But
+when the report was created in the mid-1960s the
+military cultural climate was such that most commanders believed that their careers depended on
+reporting the highest readiness rating irrespective
+of the actual condition of their commands. Commanders felt pressure from all their superiors—who
+would look bad if one of their units reported a low
+readiness condition. 29(pp59ff),74(pp58ff) So, in the weeks
+prior to submission of the reports, middle-rank
+commanders assembled their subordinate commanders and had them transfer, on paper, personnel and equipment so that their records would indicate that every unit was at the highest possible
+state of readiness. Senior commanders were pleased;
+their units looked good, and they did not have to
+make any hard choices about allocation of resources
+or do any work to strengthen units. Such exercises
+in deceit divert time and energy from real missions,
+approve unethical conduct, and demonstrate that—
+from the perspective of senior commanders—honor
+is irrelevant.
+It is easier to criticize procedures than it is to identify the reasons why they have become corrupted.
+Annual general inspections and unit status reports are
+not inherently dishonorable; it is the military culture
+and the psychological climate underlying them that
+are the problems. The primary reason why honor
+can become irrelevant for basically honorable men
+is that many service chiefs fear their civilian masters, and they alleviate their own anxiety by inducing insecurity in their subordinates who induce it
+in their subordinates, and on down the line.
+Building insecurity among subordinates is a system that does not work. It makes it too dangerous
+for leaders to empower subordinates, it stifles innovation, and it breeds fear of action. The result is
+passive, querulous leaders who believe that to avoid
+being fired they must look good and avoid criticism.
+When looking good is mandatory, nobody is will182
+Military Medical Ethics, Volume 1
+ing to take the risks required to be good. This is a
+dangerous atmosphere for institutions in which incompetence can mean death. Leaders in some of the
+services, recognizing the importance of building a
+sense of security among subordinate leaders, are
+struggling to do so. It is a difficult task when insecurity is rampant because of repeated waves of
+downsizing.
+But it is a task of the greatest importance for the
+effectiveness of the armed forces. During the 1950s
+and 1960s the author observed a military culture
+based on looking good, careerism, and lying breed
+a generation of technically incompetent field grade
+and general officers. The inability of these men
+to assess and develop the proficiency of their units
+in combat in Vietnam limited US fighting power
+and led to the disintegration of morale and discipline between 1968 and 1972. 18,25,75 There were
+incidents of junior enlisted soldiers refusing
+missions,18(pp98ff),25(pp45ff) and assassinations of leaders whose incompetence their subordinates believed
+threatened their lives. 1,14,18,25,74,76 Soldiers who killed
+or tried to kill their superiors, and were caught,
+were punished. 14(pp121–122) A military service must
+punish subordinates who attack their superiors, but
+when assassination attempts become relatively frequent, it is the task of the command structure to
+look at itself.
+The US Army did look at itself, at the instigation
+of Lieutenant General William F. Peers, who described to General William C. Westmoreland, then
+Chief of Staff of the Army, the ethical bankruptcy
+of the Army culture as revealed by the perceptions
+of serving officers. The US Army War College Study
+on Military Professionalism,12 discussed earlier, confirmed General Peers’ perceptions, but General
+Westmoreland and other senior generals refused to
+accept the report or act on its findings. 14(pp107–113) The
+senior leaders abandoned their junior leaders to a
+militarily maladaptive, ethically corrupt, and psychologically destructive culture. Senior commanders have the legal standing and the coercive capabilities to impose standards of ethical behavior, such
+as those stated in the Code of Conduct or the lists of
+official values of the Army, Navy, and Air Force, on
+their subordinates. (See Chapter 5, The Profession
+of Arms and the Officer Corps, for a discussion of
+the official values of the services, including the Code
+of Conduct.) But when they presume to impose arbitrary standards in a context of perpetuating a corrupt military culture they lose their moral authority, and few people will take the standards they promulgate seriously and incorporate them into their
+behavior. 47,48
+Military traditionalists insist on unquestioning
+obedience. For them, punishment of misconduct is
+the only way to develop an orderly and efficient
+unit. If “good” behavior is rewarded and “bad”
+behavior is punished, then everyone will hew narrowly to accepted patterns of conduct. Communications with subordinates, respect for them and
+their views, and such emotional issues as ownership of the mission are not considered to be part of
+the equation. The evidence from studies conducted
+by the Walter Reed Army Institute of Research during the 1980s indicates that authoritarianism is not
+ethical because it does not work. It does not work
+because it creates an adversarial relationship between superiors and subordinates, alienates junior
+personnel, and kills vertical cohesion. Members of
+units led by compassionate, competent, candid officers and noncommissioned officers (NCOs) are not
+only more enthusiastic and interested in their military activities, but better disciplined and more proficient as individuals and as team members. Such leadership behavior is ethically valid because it meets the
+psychological needs of individuals as well as institutional needs for order and operational effectiveness.
+Building Support for Discipline and the Command Structure
+When national objectives, the ethical standards
+promulgated by command, the conduct of leaders,
+and soldiers’ sense of “what’s right” are in synchrony, soldiers will endow command with full
+authority and thus vertical cohesion will be strong.
+One need only look at the ineffectiveness of most
+units of the Republic of Vietnam’s Army between
+1965 and 1972 to see how loyalty evaporates and
+combat effectiveness disappears when these moral
+factors are not in synchrony. 77
+In considering how to strengthen respect for discipline and the command structure it will be useful
+to consider four aspects of military culture: (1) the
+nature of discipline, (2) the process of creating an
+ethical framework, (3) intrainstitutional communications, and (4) managing ethical ambiguity.
+The Nature of Discipline
+Discipline is a complex operational and ethical
+concept. At its core it refers to the disposition of
+troops to behave properly. In the US armed services
+the ideal of discipline is achieved when junior personnel intelligently, willingly, cheerfully, and correctly accomplish tasks and missions in the absence
+of orders or supervision.
+183
+Honor, Combat Ethics, and Military Culture
+This is the view of discipline that produced the
+tank crews of the Persian Gulf War, men whose internal drive for proficiency and sense of responsibility to their comrades enabled them to take advantage of the technological superiority of their
+equipment to destroy several Iraqi tanks before
+most of their adversaries could get a round off
+against them. 39(pp261–272) It is the kind of discipline
+that steadied soldiers in Panama conducting “Sand
+Flea” operations against the Panamanian Defense
+Force (PDF). These operations, designed to harass
+and provoke Panamanian soldiers prior to hostilities, pitted small patrols led by sergeants against
+heavily armed and nervous Panamanians. The
+Americans kept their composure and prevailed;
+their discipline was supported by their professional
+confidence, trust in their leaders, and conviction
+that they were doing “what was right.”38,61
+In contrast to the idealized notion of discipline,
+there has been a tendency in many armies to consider that disciplined conduct is a duty owed by
+subordinates to their superiors, a duty the subordinates fail to fulfill at their peril. In this author’s
+opinion, this tendency has dominated the US armed
+forces for most of their history. It had some measure of validity during periods of emergency mobilization when time was short, the number of professional soldiers small, and the bulk of conscripted
+service members would return to the civil sector
+when the war was over. But even then abandoning
+the ideal of discipline was a suboptimal approach.
+Respect for command and authority is not to be
+assumed in a professional armed force. To be sure,
+habits of trust in leaders and of teamwork are important parts of the structure of discipline in such a
+force. But these habits emerge as the consequence
+of prolonged experience between leaders who respect their subordinates and recognize their dependency on them, and followers who respect their
+superiors for their competence and their demonstrated interest in their troops’ welfare. It is not
+habits of obedience or submission to rituals of subordination that create combat-worthy discipline. It
+is the interdependence and trust developed as subordinates experience the integrity, competence, and
+concern of their superiors. 73(p45)
+This said, one cannot neglect the fact that some
+service members violate regulations and their comrades’ views of “what’s right.” Antisocial acts, dishonesty, and behavior that undoes work done by
+good soldiers all diminish trust and cohesion. Commanders have an ethical and pragmatic obligation
+to their good subordinates to punish or get rid of
+the bad ones.
+Creating an Ethical Framework
+One of the ways in which leaders earn respect
+and authority is by structuring an ethical framework in their units that fits the realities of the situation and is psychologically supportive. Structuring ethics requires insight, courage, and sensitivity
+to the concerns of subordinates. For an ethical program to be effective, it must make sense in the eyes
+of subordinates. They are more likely to embrace it
+in a climate of mutual trust and confidence than if
+they are under the threat of court-martial. And they
+will only respect the command structure when its
+values are consonant with observable reality.
+Commanders can strengthen their own authority and the bonds of vertical cohesion by building
+on shared moral values in deriving ethical precepts.
+While it is not realistic to expect commanders to
+solicit overtly their subordinates’ opinions about
+“what’s right,” they can discern their subordinates’
+values through informal discussions with junior
+enlisted personnel and first-line supervisors. This
+is not as difficult as it may appear; effective commanders at all echelons routinely spend a substantial portion of their time listening to their subordinates. Most of the subordinates’ values will be
+consonant with those required by the military
+and political situation. When they are not, the
+commander’s task is to provide training and education. The success of any effort to change soldiers’
+attitudes is a function of the trust the soldiers have
+in the leaders and the US Army. Commanders who
+demonstrate by their policies and behavior that they
+respect their subordinates’ ethical perceptions, and
+that they are competent, trustworthy, and committed to supporting subordinate personnel, have substantial ability to shape the moral attitudes of their
+personnel.
+It is important that commanders share their subordinates’ perceptions of the situation in which they
+are operating. Ethical tenets that enjoin behavior
+that is not realistically possible under a particular
+set of circumstances provide no support, demonstrate that command is not in touch with reality, and
+increase the individual soldier’s sense of alienation
+and despair. 15(pp161,180,209ff) When soldiers lose faith in
+command, their participation in the mission drops
+and their propensity for the full range of acting
+out—alcohol, drugs, desertion—grows.
+Normally the components of such an ethical
+framework will be values readily acceptable to the
+members of the unit. But often the circumstances
+of a conflict dictate special ethics. During the invasion of Panama in 1989 the objective of avoiding
+184
+Military Medical Ethics, Volume 1
+casualties among Panamanian civilian and military
+personnel took precedence over force protection, one
+of the four primary elements of combat power. 78 The
+rules of engagement for that particular military action specified that no American could fire unless
+he was fired upon and could positively identify the
+source of the fire. Commanders required their personnel to concede the first shot to the enemy. 38,61
+These rules imposed dramatically increased danger on the Americans, and heavy responsibility on
+the leaders who had to tell their men to follow them.
+The soldiers did follow the rules, and took pride in
+doing so. Most of them trusted their leaders. Those
+leaders had candidly explained the reasons for the
+restrictive rules of engagement, and the soldiers had
+confidence in their ability to prevail even though
+they had to let the other side get the drop on them.
+Intrainstitutional Communication
+Linking an ethical structure with perceived reality is a matter of honesty and of communication.
+Keeping subordinates informed has been a tenet of
+US military leadership for decades, but one not often implemented. There are always pretexts for
+withholding or distorting information, such as:
+knowledge of the situation would confuse or
+frighten the troops; the troops only have to obey,
+not think; or the troops are too ignorant to understand
+the big picture. These pretexts have more often than
+not covered commanders’ ignorance, mistakes, or
+inability to address effectively the situations before
+them. Exhibit 6-13 summarizes three historical examples of noncommunication by commanders that
+led to military catastrophe.
+Honest, frank communication by commanders
+not only conveys information to the troops, it also
+conveys the commander’s respect and concern for
+them, and lets them know he is aware of the same
+reality they are. Subordinates are more likely to
+embrace ethical tenets from commanders when they
+are confident that their chiefs understand the situations they face. Furthermore, they are much more
+likely to win.
+Command in Ethically Ambiguous Situations
+The military interventions that have followed the
+end of the Cold War have often been characterized
+by imprecise definitions of military missions that
+leave military personnel facing situations that are
+morally ambiguous. Humanitarian objectives, political agendas, international intrigue, criminal activity, and military operations are commingled in
+situations that may place military personnel in danger, or at least in discomfort. Moral ambiguity puts
+stress on military personnel and on the vertical cohesion that links the capabilities of the unit with
+national purposes. Sometimes the vertical cohesion
+developed through the competence and integrity of
+leaders during peacetime is strong enough to see a
+unit through a period of uncertain, changing, and
+ethically confusing missions. But if command fails
+to adhere to a realistic and coherent ethical system,
+cohesion is strained and may even collapse—as it
+did in some units in Vietnam. It is worthwhile to
+review the military culture of the early years of the
+post–Cold-War era from the perspective of command integrity.
+In Panama in 1989 and 1990, soldiers and marines were called upon during Operation Just Cause
+to defeat and subjugate the Panamanian Defense
+Force. They did that within a short period of time,
+and the mission shifted to constabulary work. They
+did that, and the mission shifted to nation building. They accomplished that mission also, even
+training former PDF soldiers to be a national police
+force. The command structure had communicated
+the complex objectives of the invasion of Panama
+clearly and comprehensively. Junior personnel understood that the purpose of the military operation
+was to put an end to the Noriega regime, then to
+help the Panamanians set up a stable democratic
+government. Vertical cohesion held units together
+as they worked successfully to master constantly
+changing missions. But in the months following the
+operation many of the American soldiers and marines realized that the United States had pulled out
+and let the Panamanians fall into economic collapse
+and chaos. They expressed dismay at the lack of moral
+purpose in the US government, and vertical cohesion
+became frayed. 4,61 General Thurman, who was Commander-in-Chief, US Southern Command, before,
+during, and after the invasion, shared his subordinates’ dismay. He felt that he had failed by not putting together a comprehensive, long-term development plan. However, he found no interest among
+other branches of government for such a plan. 4
+The stated purpose of the United Nations Operation Restore Hope, which occurred between 1992
+and 1994, was to avert starvation in Somalia. American forces organized around the 10th Mountain Division accomplished that purpose, and most of the
+combat forces returned home. In October 1993, 4,000
+United Nations personnel remained, of whom about
+600 were combat troops. At this time the President
+of the United States directed the commander of the
+US contingent to seize Mohammed Farah Aidid, the
+185
+Honor, Combat Ethics, and Military Culture
+EXHIBIT 6-13
+POOR INTERNAL COMMUNICATIONS RESULTING IN MILITARY FAILURE
+The following three examples demonstrate the critical importance of internal communications (ie, between
+component units) in a theater of operations.
+Example 1: In 1905 Admiral Zinovi Rozhdestvenski led the Russian Baltic Squadron, a force of eight battleships, six armored cruisers, and 39 supporting vessels, halfway around the world to fight the Japanese fleet in
+the Tsushima Straits between Japan and Korea during the Russo–Japanese War. He did not share his battle
+plans with his subordinate commanders. As the squadron went into action his divisions had no idea what the
+others would do and what their own roles in the battle should be. The Japanese fleet, though inferior in gun
+power and numbers of battleships (four battleships and eight armored cruisers), sank, captured, or forced into
+internment 50 of the 53 Russian ships without losing any of its own. 1–3 Admiral Rozhdestvenski may have felt
+that he did not know how to face the Japanese fleet, or he may have been paralyzed with fear. His failure to
+communicate and act in concert led to a decisive defeat for the Russian Navy.
+Example 2: Lieutenant-General Arthur Percival was commander-in-chief of British air, ground, and sea forces
+in Malaya and Singapore in 1942. The Japanese assaulted Malaya from the sea, fought their way down the
+peninsula and attacked Singapore from the landward side, thereby avoiding much of the British seacoast
+artillery. General Percival refused, as a matter of policy, to communicate information about the Japanese invasion to the civilian officials and population in Singapore. He refused to build defensive positions because “it
+would alarm the inhabitants.” He declined to mobilize civilian labor resources on the island because he feared
+civil unrest. The Japanese with 60,000 soldiers defeated the British, who had 80,000 men plus the entire Malay
+population, good defensive ground, and powerful artillery. 4 General Percival clearly feared the native population, kept them uninformed, and even forbade defensive measures that would reveal the gravity of the situation. The Japanese had a coherent battle plan while the British refused to inform, mobilize, and coordinate
+their superior resources.
+Example 3: In 1935 General Douglas MacArthur accepted responsibility for training and organizing the Philippine Army. The Philippine–American war plan envisaged a surprise Japanese attack by 100,000 men. The
+Philippine–American forces were to withdraw into the Bataan Peninsula and hold out for 6 months until reinforced. Events developed exactly as foreseen except that the Japanese attacked with only 43,000 men. The
+Philippine–American forces conducted a 30-day delaying action to enable MacArthur to build up supplies in
+the Bataan Peninsula and build fortifications. When the field commanders got to Bataan, they found that
+MacArthur had failed to tell them that he had made no provision to feed their troops. After 3 months of
+starvation the 76,000-man Philippine–American forces surrendered to a force half their strength. General
+MacArthur’s failure to communicate concealed his mistake in not moving supplies to Bataan, his ignorance of
+the relative efficiency of the forces engaged, and his failure to dispose his own forces effectively. Though
+voluble about the hardships he faced, he was silent about his own incompetence. 5,6 (The fate of these captives
+was detailed in Exhibit 6-9.)
+Sources: (1) Hough RA. The Fleet That Had to Die. New York: Viking; 1958. (2) Brassey TA. The Naval Annual. Portsmouth,
+UK: J. Griffin & Co.; 1905. (3) Jane FT. Fighting Ships. London, UK: Sampson Low Marston; 1906. (4) McIntyre WD. The Rise
+and Fall of the Singapore Naval Base, 1919–1942. Hamden, Conn: The Shoestring Press/Archon Books; 1979. (5) Whitman JW.
+Bataan: Our Last Ditch. New York: Hippocrene; 1990. (6) Perret G. There’s a War to be Won: The United States Army in World
+War II. New York: Random House; 1991: 47–58.
+most powerful warlord in Somalia.
+A force of 106 Rangers and Special Operations
+men raided Aidid’s headquarters in a section of
+Mogadishu where he had once been mayor. The Secretary of Defense had denied the assault force the armored vehicles it needed, the US Air Force crew assigned to man a gunship was on leave in Italy, there
+was no artillery support, and no contingency plan
+in the event they got into trouble. (The reasons for
+these failures remain classified.) Several thousand
+Somalis trapped the raiding party, shot down three
+of the helicopters that brought them in, and destroyed the raiders’ ground vehicles. The US command took 11 hours to organize a relief force and
+send it the 3 miles from the US base to the raiders’
+defensive position. By the time the American troops
+were extricated, the assault force and the relief force
+had lost 18 dead and 73 wounded. 74(pp156–178),79
+186
+Military Medical Ethics, Volume 1
+Though the troops behaved with courage and
+honor, there were dishonorable failures by senior
+civilian and military leaders: the President for
+changing the mission from humanitarian relief to
+combat after the combat forces had been withdrawn; and the Secretary of Defense for: (a) committing troops to heavy urban combat without armored vehicles, fire support, and numbers adequate
+for the mission; (b) failing to make contingency
+plans; and (c) refusing to cooperate across service
+and branch boundaries. No one was held accountable. The theater commander was promoted to lieutenant general, the task force commander was appointed to head the US Army Special Warfare
+School, and the White House and Department of
+Defense put a special handling classification on
+everything about the operation to protect it from
+inquiries under the Freedom of Information Act. 74
+The Senate conducted an investigation, but the
+White House blocked the release of the report. 74
+There was no coherent ethical system linking the
+President, the military chain of command, and the
+troops who conducted the mission. 74(pp178–190)
+The soldiers on duty in Somalia had faced many
+moral dilemmas. They were tasked with carrying
+out a humanitarian mission in the face of heavily
+armed autonomous groups. Neither the National
+Command Authority nor local commanders could
+decide whether to destroy the combat capability of
+the bandits or to appease them. They decided to attack the bandits a little and to placate them a little—
+which left them armed and angry. Junior soldiers on
+the ground had to make a number of hard moral
+decisions in the face of the unresolved moral dilemmas. 80 They did an outstanding job, but many were
+disillusioned with the incompetent commanders and
+government that sent them in harm’s way and then
+evaded responsibility for the outcome. 74(pp162,180–181)
+From 1992 to 1993 the US Army deployed a mobile
+army surgical hospital (MASH) to Zagreb, Croatia.
+Though only 20% of the resources of the hospital were
+used to treat United Nations troops, the complex and
+internally divided command structure refused to allow the medical staff to treat sick and injured
+Croatians. The official reason was that the hospital
+had to maintain a neutral position. 51(pp82–83) The hospital staff experienced danger, filth, and hunger, but they
+felt that they were not doing nearly as much as they
+could. They were morally outraged to see Croatians
+suffering while they did nothing. Their perceptions
+were that the multiple and overlapping headquarters
+that controlled the activities of the hospital staff were
+more concerned with how they appeared to the media, to each other, and to their superiors than with
+providing medical service to suffering people. Vertical cohesion plummeted because the command structure did not demonstrate integrity. 51(pp80–84)
+In morally chaotic situations, military personnel
+depend on integrity in the chain of command for
+psychological sustenance. Honor requires commanders to provide ethically credible missions,
+competent leadership, adequate resources, and
+compassionate treatment for foreign military and
+civilian personnel. Moral failure at the top can vitiate efforts by intermediate and junior leaders to
+establish ethical coherency in their units.
+Elements of an Ethically Supportive Military Culture
+An ethically supportive military culture is one in
+which in the daily course of events soldiers perceive
+that the institution, as represented by its policies and
+the behavior of its officials, is committed to their
+welfare and success. Such a culture fosters the development of trust. I will discuss four aspects of an ethically supportive military culture that are usually neglected: (1) managing subordinates’ time and energy,
+(2) building a sense of security for subordinate leaders, (3) supporting leaders’ self-maintenance, (4) and
+guiding sexual behavior in gender-integrated units.
+Managing Subordinates’ Time and Energy
+Troops understand that their leaders have missions to accomplish, and that the leaders have to
+balance the effort they ask of their troops against
+the troops’ personal needs—sleep, time with families, and a predictable schedule of events. Many
+leaders who grew up in the traditions of World War
+II put any mission, no matter how trivial, ahead of
+any needs of their subordinates, no matter how significant. While a new respect for junior personnel
+is emerging, there are still tendencies at most echelons toward habitual demand overload. 30 Leaders
+who have the ethical stamina and professional judgment to organize work and assign priorities so that
+the troops get some respite, earn their subordinates’
+trust. As will become apparent, when troops see that
+a leader does not have the moral courage to resist
+the pressure to assign every task a number one priority, they will not trust him in combat.
+In the US armed forces since 1945, the plethora
+of officers and dearth of command positions has led
+to a burgeoning of staffs with insatiable appetites
+for information and for projects through which the
+staff officers can win distinction. 74(pp130ff,299ff) The task
+of providing the information and executing the
+projects falls on the lowest echelons. 25(pp12,64,136) “Do
+187
+Honor, Combat Ethics, and Military Culture
+EXHIBIT 6-14
+WEAK AND INSECURE COMMANDERS
+World War II was generally acclaimed as a “good” war, with evil adversaries (Hitler, Tojo, and Mussolini) and
+clear-cut objectives (survival of the United States and the defeat of evil on a global scale). There has been a
+reluctance to criticize real commanders (in sufficient detail to permit behavioral analysis) who were weak and
+insecure. However, two superb novels, The Caine Mutiny1 and Mister Roberts,2 describe the destructive potential of weak and insecure fictitious commanders in positions of command. Each portrays an officer in command of a naval vessel who is so lacking in competence, confidence, and psychological integrity that he perceives his subordinates as adversaries. To alleviate their own insecurity, Captain Queeg and Captain Morton
+bullied, harassed, and threatened their junior leaders and their crews. To preserve their own integrity, junior
+officers and crewmen united to thwart their commanders but in ways that did not totally compromise the
+mission capabilities of their ships. But the commitment of the crews was less than wholehearted, and in one
+case led to the executive officer relieving his captain.
+Sources: (1) Wouk H. The Caine Mutiny. New York: Dell; 1951. (2) Heggen T. Mister Roberts. New York: Houghton Mifflin; 1946.
+more with less” became the slogan of the 1990s. It
+is the kind of slogan that increases alienation and
+weakens people’s confidence that they will not be
+left to face a superior’s displeasure or be abandoned
+on the battlefield. It indicates that senior commanders lack the courage to say “no,” are afraid to stand
+up for their subordinates, and are unwilling to accept responsibility for assigning priorities.
+The reason that management of time is an important capital issue to military culture is that no
+commander can take charge of it in isolation—he
+needs the support of the military institution as a
+whole. A company commander or the skipper of a
+small warship may do his best to become a competent practitioner of his profession, assign priorities,
+and respect the personal needs of his subordinates.
+But if he is constantly inundated with requirements
+for reports, VIP demonstrations, community activities, fatigue details, and other distracters, his efforts
+to assign priority to the work most relevant to his
+unit’s mission will lead to some senior commanders or staff officers being dissatisfied, and to his
+being relieved. If he is to progress in his career, he
+must often disregard his subordinates’ welfare and
+try to fulfill every requirement. The ethical issue,
+then, is that for a commander to behave in an honorable manner balancing missions and his troops’
+welfare, he needs an honorable chain of command
+above him blocking extraneous requirements before
+they reach him.
+The respect for subordinates that began to emerge
+in the Army and Marine Corps in the 1980s and 1990s
+has had some effect in mitigating demand overload,
+but continuing reductions in strength without a concomitant reduction of missions tends to perpetuate
+it. Thus, smaller forces put heavier demands on senior leaders to stand up for the service members they
+command and to choose the harder right of refusing
+inappropriate missions. In this author’s opinion, unless senior commanders are prepared to resign when
+the government imposes requirements that are out of
+line with capabilities and resources, there can be no
+solid ethical foundation in the armed services. Their
+subordinates will not be able to believe in them, and
+will feel they are being sacrificed to their chiefs’
+cowardliness and ambition.
+Building a Sense of Security for Subordinate Leaders
+Many American commanders have been quick to
+threaten their subordinate leaders, especially in
+combat. A typical peacetime threat is: “You get a
+fence built around your orderly room, I don’t care
+how, or it will reflect on your efficiency report.”
+Wartime threats take the form of, “Accomplish this
+mission or don’t come back alive.”81–83 This sort
+of behavior during World War II was characterized
+as strong, even heroic, leadership. 81,82,84,85 In fact it
+was the opposite. Weak and insecure commanders
+routinely used threats81(p211) (for examples, see Exhibit 6-14), and ordinary commanders resorted to
+threats when they were uncertain about what to
+do. 5(pp230ff,295ff,784ff) Commanders who have strong
+characters do not use threats; when the situation is
+desperate, they say so and ask their troops to do
+their best.
+188
+Military Medical Ethics, Volume 1
+Many citizens who served as enlisted soldiers in
+World War II resented officers’ bullying, harassing,
+or self-serving behavior. When the war was over, these
+citizen-soldiers spoke out. Secretary of War Robert
+Patterson ordered an investigation of their complaints
+by a special board, which issued the Doolittle Report (Exhibit 6-15), addressing these issues.
+The principal effect of the Doolittle Report was
+psychological, in large part because the substantive
+recommendations concerning respect for subordinates and support for leaders were ignored. Career
+officers and NCOs resented even the superficial
+reforms, and felt betrayed by the replacement in
+1951 of the Articles of War with the Uniform Code
+of Military Justice (UCMJ). For instance, subtle differences in language concerning nonjudicial punishment for minor offenses were widely perceived
+as disempowering the company commander and his
+NCOs. 5(p372),86 The author heard numerous junior
+leaders in the US Army of 1948 to 1955 complain
+bitterly of how the senior leadership had left them
+helpless to coerce their troops, when actually the
+changes were superficial. Their attitudes reflected
+EXHIBIT 6-15
+THE DOOLITTLE COMMISSION REPORT
+As a reserve officer, Brigadier General James H. Doolittle was a good choice to look into the postwar criticism
+of the officer corps, as his reserve status gave him distance and insulation from the politics of power. He had
+joined the US Army Air Service as a lieutenant in 1920. During the 1920s and 1930s he was an aviator of
+renown, having set several aviation records, earned a doctorate of science from the Massachusetts Institute of
+Technology, and won the Schneider, Bendix, and Thompson aviation trophies.
+Recalled to active duty in 1940, then-Lieutenant Colonel Doolittle organized and led the first air attack on
+Japan in April 1942, just 4 months after the Japanese surprise attack on Pearl Harbor. He was awarded the
+Medal of Honor and promoted to brigadier general. He commanded the 12th Air Force in the US assault landings in North Africa in November 1942. In 1943 he commanded the Northwest Africa Strategic Air Force for
+the invasions of Sicily and Italy. In 1944 and 1945 he commanded the 8th Air Force conducting the daylight
+bombing attack on Germany. In short, he had over 15 years of military experience and was a commanding
+presence among aviation engineers and policy makers. He knew the military and yet was beyond it by virtue
+of his reserve status.
+The complaints he was to investigate included arrogance and self-indulgence on the part of officers, indifference to and mistreatment of enlisted personnel, the existence of a caste system that gave privileges to officers
+but not to enlisted personnel, and unnecessary regimentation. His commission found the complaints for the
+most part to be well-founded, but applicable to only a few officers. It recommended significant reforms in the
+selection and training of officers and in officer–enlisted relationships. The Army ignored these recommendations but did make cosmetic changes such as eliminating officers’ sabers and prescribing common uniforms
+for officers and enlisted personnel.
+Source: US War Department. The Report of the Secretary of War’s Board on Officer–Enlisted Man Relations. Washington, DC: The
+Infantry Journal Press; 1946.
+the authoritarianism that permeated the military
+culture during World War II; earning security
+through subordinates’ trust was often not an option leaders considered.
+The tradition of threatening subordinates persisted for four decades after World War II because
+officers were used to it, and because many of them
+were insecure. Their insecurity derived from a number of factors. One was that more than 80% of the
+officers in the postwar US Army had not been officers before the war,87 and it is reasonable to infer
+that some were uncertain about their ability to function in the role. Another was rapid technological
+change that some officers feared would outstrip
+their frames of reference. A third was a series of
+force reductions that compromised expectations
+about job security. The consequence was that from
+1945 until the late 1970s many units had commanders who compensated for their insecurities by inducing anxiety in their subordinates. 12,74 Demand
+overload was routine, fear was the predominant
+emotion,74 officers dodged responsibility, and lying
+was obligatory. 12 This authoritarian command climate
+189
+Honor, Combat Ethics, and Military Culture
+was common in units that suffered moral collapse
+in Vietnam between 1969 and 1972. 18,25,75 Vietnam
+was a case study of how authoritarianism, reassuring though it may be to its practitioners in the short
+run, does not work.
+The opposite of authoritarianism and rule by fear
+is a mix of trust, respect, and empowerment of subordinate leaders. The author has interviewed officers in the US Army, US Navy, and US Marine Corps
+who have embraced this kind of leadership behavior. They report that it enormously enhances the
+efficiency and morale of the unit and the gratifications of command. Usually subordinates respond
+to this kind of leadership by committing all of their
+intellectual as well as physical resources to the mission. But it is a risky business. A leader gives up some
+of his power to intimidate his subordinates when he
+trusts and empowers them. He is still responsible
+for mistakes they make, and they are in a position
+to destroy his career if they do not trust him.
+Leaders are most likely to try empowering leadership when they are certain that their superiors are
+on their side and are committed to helping them
+succeed. A confident and secure junior leader is not
+complacent, but he is psychologically able to afford
+to tell the truth, assign priorities, make tactical experiments, let subordinates try their wings, and
+accept responsibility. Though the official line is that
+every officer should behave thus, in reality only
+leaders who trust their superiors to take care of
+them will do it. It takes a psychologically secure
+commander to create a climate in which ethically
+effective leadership can flourish. One authoritarian
+anywhere in the chain of command introduces insecurity, dishonesty, and flight from responsibility
+in the echelons below him.
+Supporting Leader Self-Maintenance
+One facet of the security commanders can provide for their subordinate leaders is moral support
+for their taking care of themselves. One of the
+changes in the culture of the US Army that took hold
+as a result of the Doolittle Report was renewed
+emphasis on the duty of a leader to take care of his
+troops before himself. Unfortunately, the “can do”
+mentality, combined with chronic demand overload
+and the military cultural conviction that anything
+worth doing is worth overdoing, resulted in selfdenial becoming commonplace among leaders.
+Leaders’ health and welfare lost all ethical standing in military culture. Leaders would see that their
+troops got enough sleep, but not themselves; when
+the troops had a training holiday, the leaders would
+work. To be sure, a corrective to their previous selfishness was needed, but this overreaction compromised leaders’ physical and mental health and imperiled the troops the leaders were supposed to be
+caring for.
+Studies by the Walter Reed Army Institute of
+Research in the 1980s and early 1990s have demonstrated decrements in cognitive functioning associated with sleep deprivation. Particularly severe are
+losses in judgment and the ability to sustain cohesion—the characteristics most important for commanders, especially during combat. 88–91 Even during peacetime maneuvers in the 1980s and 1990s,
+“real men” never went to bed, and became almost
+nonfunctional. 74(p30) It did not matter, because it was
+peacetime, and the leaders proved their points
+about their masculinity. Though some units developed sleep plans to assure that key personnel got
+at least 6 to 7 hours sleep during every 24-hour period, in many units the peacetime habits persisted
+into the Persian Gulf War, with potentially lethal
+effects. Those effects remained mostly potential
+because the ground war lasted only 4 days, but by
+the end many leaders were so sleep deprived that
+they were almost comatose. 62 The ability to go without sleep has been a criterion of manliness for more
+than 2,000 years. 92,93 But as the tempo of warfare has
+increased, sleep deprivation has led to military disasters, as shown in Exhibit 6-16.
+Self-maintenance for leaders is an essential part
+of military ethics. It is a delicate part, because it
+requires a balance between the self-indulgence of
+rear echelon officers in the 1940s that the Doolittle
+Report criticized and the self-abnegation of combat leaders of the 1980s and 1990s. A leader’s subordinates are usually ready to accept his need to
+maintain himself so his faculties will be in working
+order. It is up to the leader’s commander to convince him that he supports his subordinate taking
+care of himself. A commander who makes his subordinate leaders afraid to be found asleep will soon
+be the cause of troops dying because his junior leaders’ judgment failed.
+Guiding Sexual Behavior in Gender-Integrated Units
+In almost every culture men have developed
+elaborate systems to exclude women from military
+activities. 94(pp51–54) These systems include chivalry,
+Muslim subjugation of women under religious law,
+18th and 19th century Anglo-Saxon subjugation of
+women under civil law, and, in the past, the US
+190
+Military Medical Ethics, Volume 1
+Army’s tradition of keeping female soldiers from
+combat roles. Though the ostensible moral purpose
+of these systems is to protect women from the horrors of combat (to include the risk of capture and
+rape), the apparent psychological purpose has been
+the protection of men’s sense of masculinity. 94(pp55–56)
+The “chief defining role for men in society has become that of warrior. Masculinity is, in fact, ephemeral, fragile, and dependent on women not being
+the same.”94(p56)
+The reality of military recruiting in the post–
+Cold-War era has been a dwindling number of
+people in the United States in the 18- to 21-year-old
+cohorts with the requisite aptitudes willing to serve
+in technologically complex armed forces. 95 To meet
+their recruiting goals, the services have needed
+women,96 and the ethics of military culture has had
+to accommodate this change. Ethical tenets, even
+those that serve powerful psychological purposes,
+lose standing when they are too widely divorced
+from necessity.
+The progressively expanding role of women in
+the armed forces has brought psychological distress
+to many male military personnel. After at least 4,000
+years of male domination of armed combat, a single
+generation of men has had to bear the psychological weight of an ethical shift that deprives them of
+“a crucial identity which is uniquely theirs, a role
+which has been as male-defining as child-bearing
+has been female-defining.”94(p56) The task of ameliorating their distress while encouraging female soldiers and preserving cohesion falls to the leaders
+of gender-integrated units. The most promising
+ways to support gender integration are those that
+EXHIBIT 6-16
+SLEEP DEPRIVATION AND COMMAND DECISIONS
+The classic example of the impact of sleep deprivation is the Battle of Savo Island in August 1942. Five American and Australian cruisers and six destroyers, all equipped with radar, were guarding the approaches to the
+landing beaches on Guadalcanal. A Japanese force of approximately equal strength, but without radar, attacked at night and sank four cruisers while suffering negligible damage. The American crews, particularly
+the officers, had been at battle stations for several days and nights when it was not necessary, and were totally
+exhausted. 1 The extent of their incapacitation is evident in the behavior of the captain of one Allied cruiser
+who came groggily to the bridge to order his ship to cease firing, believing it was firing on friendly ships. His
+gunnery officer could not convince him that the ships were Japanese, but the captain finally did order firing
+resumed, saying, “Our ships or not, we’ve got to stop them.”2
+Sources: (1) Loxton B. The Shame of Savo: Anatomy of a Naval Disaster. Annapolis, Md: Naval Institute Press; 1994. (2) Lewis
+W. The Battles of Savo Island, 9 August 1942 and the Eastern Solomons, 23–25 August 1942. Washington, DC: Naval Historical
+Center, Department of the Navy; 1994.
+support racial integration—mutual respect, trust,
+and leadership behavior that focuses on military
+competence and the combat mission. This approach
+is ethically valid not because it is in any abstract or
+political sense “good,” but because it meets the
+needs of personal, institutional, and operational
+constituencies—it works.
+There are, however, new ethical, behavioral, and
+psychological problems in gender-integrated units
+that differ from those encountered in racial integration. Among these are sexual abuse, adultery, and
+homosexuality. All of these are punishable under the
+UCMJ or sanctionable under administrative regulations, but the application of both the Code and the
+regulations has been uneven and controversial.
+Sexual Abuse. Sexual abuse in a military setting
+refers primarily to superiors using their broad influence over their subordinates’ lives to force them
+to engage in sexual activities. Sexual abuse can occur
+between peers, but usually there is a power differential between the abuser and the victim. This behavior is the antithesis of honor and is at variance with
+most military personnel’s view of “what’s right.”
+From a practical point of view it is much worse. It
+is manifestly disrespectful of subordinates whether
+they are the direct target of abuse or not. It creates
+a climate of fear and mistrust in the abuser’s unit,
+and it makes the abuser someone who is detested
+rather than respected. These factors destroy vertical cohesion within the abuser’s unit and also compromise the integrity of senior command for allowing such a person to hold a position of trust and
+authority. Rigorous proscription of sexual abuse is
+an essential component of military culture. It meets
+191
+Honor, Combat Ethics, and Military Culture
+the psychological needs of most male and female personnel as well as institutional needs for order.
+Why do abusers engage in behavior that damages their units, demonstrates their untrustworthiness, and often leads to the destruction of their own
+lives and those of their families? Rosen et al, in a
+recent study of sexual abuse in the US Army, found
+that sexual harassment in US Army units is associated with weak peer bonding, poor vertical cohesion, heavy time pressure, low combat readiness,
+and substandard mission capability. 97,98 As the problems become more severe, the incidence of harassment tends to increase. These findings translate, in
+the cultural context used in this discussion, into lack
+of trust in comrades and leaders, poor command
+management of time and priorities, and lack of focus on mission-related activities. In a climate of job
+insecurity, rapid technological and procedural
+change, and seemingly habitual demand overload,
+some personnel will lapse into despair.
+The solution is strengthened social supports,
+empowering leadership, and sensitivity of leaders
+to their subordinates’ as well as the US Army’s sense
+of “what’s right.” In the units in which sexual abuse
+was found to be most likely, personnel received not
+support, but injunctions not to abuse women. They
+were told they had to be respectful of the very
+people whom they perceived as being among the
+causes of their distress. 97,98 Some leaders, usually
+psychologically marginal, will succumb under such
+circumstances and sexually abuse subordinates.
+They are usually punished. But punishment, while
+it removes the people from the institution who were
+nominally the problem, does not solve the underlying systemic problem. The security and confidence senior personnel need if they are to respect,
+trust, and work productively with persons of the
+opposite sex must come from supportive leadership, not from stern admonitions.
+Adultery. While few civilian jurisdictions consider adultery a crime, there are circumstances
+when adultery between service members, or between a service member and the spouse of another
+service member, could compromise good order and
+discipline. The most obvious example is a romantic
+relationship between a leader and a subordinate. The
+leader’s subordinates almost always learn about
+such affairs, and even if the leader did not treat his
+lover with special consideration, the leader’s trustworthiness is compromised.
+When the lovers are one service member and the
+spouse of another of equal rank, the results can be
+bitterness and possible violence. When a service
+member has an affair with the spouse of a member
+of higher or lower rank, the possibilities for abuse
+of power, favoritism, and blackmail are limitless.
+Proscription of such relationships is appropriate
+because it works to protect junior personnel.
+Homosexuality. Homosexuality has been a part
+of human behavior at least since the beginning of
+recorded history, and attitudes toward it have varied. In the US armed forces since the end of World
+War II a triad of medical,99 punitive,100 and administrative regulations101,102 has excluded, eliminated,
+or punished homosexuals. However, silent, nonpracticing (or discrete) homosexuals served enlistments and even careers in the services. Military
+leaders defend exclusionary policies by asserting
+that homosexuals in the military make heterosexual
+men uncomfortable and fearful of being raped, act
+as catalysts for violence by drawing physical attacks
+on themselves, and impair unit cohesion. The US
+Code governing military policy states that the
+“presence in the armed forces of persons who demonstrate a propensity or intent to engage in homosexual acts would create an unacceptable risk to the
+high standards of morale, good order and discipline, and unit cohesion that are the essence of military capability.”103
+As noted earlier, cohesion is a process of affective bonding among the members of small primary
+groups, and across echelons between leaders and
+subordinates. Senior officers have had the courage
+to use, accurately, terms such as love and affection
+to describe the feelings service members in cohesive units have for one another. It is not sexual love,
+but fraternal love. Bonding is based on trust and
+respect earned during prolonged shared experiences characterized by challenge, stress, and group
+achievement. Affection of this kind among members of military units is ethically valid because it
+works; it strengthens each individual’s ability to
+persevere in the face of adversity and to resist combat stress breakdown. But does the presence of homosexuals in military units adversely affect unit
+cohesion?
+The evidence available to date is equivocal. 97,104–107
+It suggests that fraternal bonding can occur in units
+composed of mixed sexes and mixed sexual orientations. It also indicates that such units can be
+fraught with mistrust, cliques, and hostility. The
+mediating factors may not be the sexual orientations
+of the members but the ethical climate and the quality of leadership in the unit. While the nature of the
+ethics and leadership most likely to foster bonding
+are well known, the degree to which they can over192
+Military Medical Ethics, Volume 1
+come centrifugal forces generated by challenges to
+group members’ preexisting belief systems and attitudes toward homosexuality are unknown. Until more
+complete information is available, it is the author’s
+opinion that no definitive ethical statement should be
+made about homosexuality in the armed forces.
+CONCLUSION
+The armed forces are in a rough business, a life
+and death business in which ethics make a difference. If a commander is incompetent, if a patrol
+leader lies, if a medic sells his medications on the
+black market, American soldiers are likely to die.
+The interdependence of members of a technologically complex armed force makes honorable conduct more vital than ever before. For a military person, honesty, integrity, trust, and respect are not
+empty clichés; they describe a way of doing military business that works.
+In professional armed forces, authority is earned
+by demonstrated professional competence and
+dedication to subordinates’ personal, professional,
+and familial welfare. Similarly, ethical values become relevant in supporting psychological readiness. In the post–Cold-War world, the personnel
+who fight in this year’s intervention must be psychologically and physically ready to do it again next
+year. They need ethical systems that adapt to a
+broad range of missions and that facilitate rapid
+recovery from an unpredictable array of morally
+traumatic experiences. Rigid moral codes are not
+useful; they are not sufficiently adaptable to support soldiers in ambiguous situations.
+Everyone involved with national security needs
+a military culture with coherent ethical values to
+play his role effectively. The National Command
+Authority depends on military ethics to assure that
+forces carry out their missions faithfully and without excess. Commanders of units from army to platoon depend on integrity in reporting so they can
+coordinate actions appropriately and allocate assets
+where they are most needed. Individual service
+members depend on situationally realistic ethical
+understandings to sustain them in the midst of
+moral chaos and to enable them to trust their leaders to bring them through their experiences.
+There are many reasons why it is difficult to live
+by ethical principles in a military culture. Telling
+the truth can have unpleasant consequences when
+superiors demand reassuring answers. Military service imposes so many challenges that some people
+feel overwhelmed and conclude that they have no
+choice other than to cover their inadequacies with
+deceit. Others, faced with demand overload that
+none of their superiors has the moral courage to
+control, see two alternatives: lie, or get out. Choosing the harder right is just that—hard.
+It is hard, but not impossible. In spite of a contemporary civilian culture that is contemptuous of
+honor, indifferent to courage, and cynical about ethics, the armed forces of the United States entering
+the 21st century are succeeding in their dogged
+struggle to restore integrity to their culture. They
+are succeeding because senior officers are insisting
+on realistic missions and resources, intermediate
+commanders are finding the courage to set priorities and trust their subordinates, and junior leaders are taking care of their troops and building professionally competent teams. Members at all levels
+have regained a respect for and interest in the details of their profession. In the author’s view, privates and junior enlisted leaders in the 1990s were
+more knowledgeable about their profession than
+were most field grade officers of the 1950s and
+1960s.
+It is important to remember that integrity flourishes in a climate of mutual trust and respect across
+ranks, and withers in a climate of insecurity and
+fear. A man who feels he is trusted will in most situations strive to be worthy; a man who is watched
+will get away with what he can. When a service
+member finds the courage to choose the harder
+right, he strengthens himself and the ethical climate
+in his unit. No ethical act takes place in a vacuum;
+others know about it, and take heart. Each time a
+leader empowers a subordinate he takes a risk, because he is the one responsible. If he is to take the
+risks that will build the confidence and competence
+of his unit, he needs the security of knowing his
+commander is supporting him. Commanders at
+each level are the arbiters of the ethical climate of
+their units. Their courage and integrity in setting
+priorities, caring for their service members and their
+families, and trusting their juniors sets the example
+their subordinates will follow. Thus honor, combat
+ethics, and military culture are the lifeblood of cohesion in the military and therefore of the ability of
+the military to perform its mission.
+193
+Honor, Combat Ethics, and Military Culture
+REFERENCES
+1.
+Shay J. Achilles in Vietnam: Combat Trauma and the Undoing of Character. New York: Simon & Schuster Touchstone; 1995.
+2.
+Fromm E. Man for Himself: An Inquiry Into the Psychology of Ethics. Greenwich, Conn: Fawcett; 1947: 67.
+3.
+Shay J, Munroe J. Group and milieu therapy for veterans with complex posttraumatic stress disorder. In: Saigh
+PA, Brenner JD, eds. Posttraumatic Stress Disorder: A Comprehensive Text. Boston: Allyn & Bacon; 1999: 391–413.
+4.
+Thurman MR Lieutenant General. Vice Chief of Staff, US Army (1983–1987); Commander-in-Chief, Southern
+Command (1989–1990). Seven 4-hour interviews with author, 1993.
+5.
+Hackworth DH. About Face: The Odyssey of an American Warrior. New York: Simon & Schuster; 1989: 59–61.
+6.
+The Gulf War Syndrome: Pentagon now says chemicals may have harmed thousands. Time. 1996;148(28):33–35.
+7.
+Kirkland FR. Soldiers and marines at Chosin Reservoir: Criteria for assignment to combat command. Armed
+Forces Soc. 1995;22(2)257–274.
+8.
+Sorley LM. Doing what’s right: Shaping the army’s professional environment. In: Matthews LJ, Brown DE, eds.
+The Challenge of Military Leadership. Washington, DC: Pergamon-Brassey’s; 1989: 130–134.
+9.
+Mylander M. The Generals. New York: Dial Press; 1974: 211.
+10.
+Sullivan GR. A new force for a new century. Army. 1984;44(5):24–26.
+11.
+Kirkland FR. The gap between leadership policy and practice: A historical perspective. Parameters. 1990;20(3):50–62.
+12.
+US Department of the Army. Study on Military Professionalism. Carlisle Barracks, Pa: US Army War College; 1970.
+13.
+Kinnard D. The War Managers: American Generals Reflect on Vietnam. New York: Da Capo Press; 1991.
+14.
+Kitfield J. Prodigal Soldiers: How a Generation of Officers Born of Vietnam Revolutionized the American Style of War.
+New York: Simon & Schuster; 1995.
+15.
+Dunnigan JF, Macedonia RM. Getting It Right: American Military Reforms After Vietnam to the Persian Gulf and
+Beyond. New York: William Morrow; 1993.
+16.
+US War Department. General Regulations for the Army. Philadelphia, Pa: M Carey & Sons; 1821: 13, 15, 20.
+17.
+Coffman EM. The Old Army: A Portrait of the American Army in Peacetime, 1784–1898. New York: Oxford University Press; 1986: 194–197.
+18.
+Hauser WL. America’s Army in Crisis: A Study in Civil–Military Relations. Baltimore, Md: Johns Hopkins University Press; 1973.
+19.
+Persons BS. Relieved of Command. Manhattan, Kan: Sunflower University Press; 1997: 23.
+20.
+Taylor FW. The Principles of Scientific Management. New York: Harper; 1911.
+21.
+Stouffer SA, Lumsdaine AA, Lumsdaine MH, et al. The American Soldier. Vol. II: Combat and its Aftermath.
+Princeton, NJ: Princeton University Press; 1949: 520–524.
+22.
+Meyer EC, Ancell RM, Mahaffey J. Who Will Lead? Senior Leadership in the United States Army. Westport, Conn:
+Praeger; 1995: 66.
+194
+Military Medical Ethics, Volume 1
+23.
+Ingraham L, Manning FJ. American military psychiatry. In: Gabriel RA. Military Psychiatry: A Comparative Perspective. Westport, Conn: Greenwood; 1986: 25–65.
+24.
+Westmoreland WC. From the army of the ’70s: A flawless performance. Army. 1970;20(10):11, 23–28.
+25.
+Gabriel RA, Savage PL. Crisis in Command: Mismanagement in the Army. New York: Hill & Wang; 1978: 66.
+26.
+Kirkland FR. Postcombat reentry. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War
+Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of the Surgeon General and Borden Institute; 1994: 291–318.
+27.
+Kirkland FR, Katz P. Combat readiness and the Army family. Mil Rev. 1989;69(4):63–74.
+28.
+Marlowe DM, ed. Unit Manning System Field Evaluation. Technical Report No. 5 (ADA207193). Washington, DC:
+Walter Reed Army Institute of Research; September 1987.
+29.
+Bassford C. The Spit-Shine Syndrome: Organizational Irrationality in the American Field Army. Westport, Conn:
+Greenwood Press; 1988.
+30.
+Hawkins JP. Army of Hope, Army of Alienation: The American Army Communities of Cold War Germany. Westport,
+Conn: Praeger; 2000.
+31.
+Richardson WR. Commanding General, US Army Training and Doctrine Command (1983–1986). Personal Communication, 8 October 1997.
+32.
+Clark A. The Donkeys. New York: Universal Publishing; 1965.
+33.
+Dixon NF. On the Psychology of Military Incompetence. London: Cape; 1976.
+34.
+Ruhe WJ. Slow Dance to Pearl Harbor: A Tin Can Ensign in Prewar America. Washington, DC: Brassey’s; 1995: 171–180.
+35.
+Friedenberg EZ. Coming of Age in America: Growth and Acquiescence. New York: Random House; 1965: 47–48.
+36.
+Faith JC. The overcontrolling leader: The issue is trust. Army. 1997;47(6):7–12.
+37.
+Falk RA, Kolko G, Lifton RJ, eds. Crimes of War: A Legal, Political-Documentary, and Psychological Inquiry Into the
+Responsibility of Leaders, Citizens, and Soldiers for Criminal Acts in Wars. New York: Random House; 1971: 141–
+161.
+38.
+Kirkland FR, Ender MG, Gifford RK, Wright KM, Marlowe DM. The human dimension in force projection:
+Discipline under fire. Mil Rev. 1996;76(2):57–64.
+39.
+Scales RH Jr. Certain Victory: The US Army in the Gulf War. Washington, DC: Brassey’s; 1994.
+40.
+Crowell L. The anatomy of Just Cause: The forces involved, the adequacy of intelligence, and its success as a
+joint operation. In: Watson BW, Tsouras PG, eds. Operation Just Cause: The US Intervention in Panama. Boulder,
+Colo: Westview Press; 1991: 67–104.
+41.
+McConnell M. Just Cause: The Real Story of America’s High-Tech Invasion of Panama. New York: St Martin’s Press;
+1991: 31.
+42.
+Flanagan EM. Battle for Panama: Inside Operation Just Cause. Washington, DC: Brassey’s; 1993: 40–41,209–214.
+43.
+Donnelly T, Roth M, Baker C. Operation Just Cause: The Storming of Panama. New York: Lexington Books, 1991:
+98, 358–390.
+44.
+Caputo P. A Rumor of War. New York: Holt Rinehart & Winston; 1977: 106–110.
+195
+Honor, Combat Ethics, and Military Culture
+45.
+Grossman DA. On Killing: The Psychological Cost of Learning to Kill in War and Society. Boston: Little Brown &
+Co; 1995.
+46.
+Sinnreich RH. To stand and fight. Army. 1997;47(7):15–19.
+47.
+Gruner E. What code? Or, no great escapes: The Code of Conduct and other dreams of resistance. Armed Forces
+Soc. 1993;19(4):599–609.
+48.
+Groll-Ya’ari Y. Toward a normative code for the military. Armed Forces Soc. 1986;12(2):457–472.
+49.
+Marshall SLA. Men Against Fire: The Problem of Battle Command in Future War. Gloucester, Mass: Peter Smith; 1978.
+50.
+Smoler F. The secret of soldiers who didn’t shoot. Am Heritage. 1989;40(2):36–45.
+51.
+Kirkland FR, Halverson RR, Bliese PD. Stress and psychological readiness in post-Cold War operations. Parameters. 1996;26(2):79–91.
+52.
+Gunston B, Anderton DA, Cooper B; Batchelor J, illus. Air Power: A Modern Illustrated Military History. New
+York: Exeter Books; 1979: 302.
+53.
+Wegg J. General Dynamics Aircraft and Their Predecessors. Annapolis, Md: Naval Institute Press; 1990: 233–238.
+54.
+Friedman N. US Cruisers: An Illustrated Design History. Annapolis, Md: Naval Institute Press; 1984: 479.
+55.
+Friedman N. US Destroyers: An Illustrated Design History. Annapolis, Md: Naval Institute Press; 1982: 423.
+56.
+Santoli A, ed. Everything We Had: An Oral History of the Vietnam War by Thirty-Three American Soldiers Who
+Fought It. New York: Ballantine Books; 1981: 23ff,57ff,80–81,94,101ff,121ff,136–137,185ff.
+57.
+Lanning ML. The Only War We Had: A Platoon Leader’s Journal of Vietnam. New York: Ivy Books; 1987.
+58.
+McDonough JR. Platoon Leader. New York: Bantam Books; 1985.
+59.
+Estep J. Comanche Six: Company Commander, Vietnam. Novato, Calif: Presidio Press; 1991: 51ff, 64, 91ff, 244.
+60.
+Kelly J. DMZ Diary: A Combat Marine’s Vietnam Memoir. Jefferson, NC: McFarland & Co; 1991: 50ff, 164–165.
+61.
+Kirkland FR, Ender MG. Analysis of Interview Data From Operation Just Cause. Washington, DC: Division of
+Neuropsychiatry, Walter Reed Army Institute of Research; June 1991.
+62.
+Taylor TT. Lightning in the Storm: The 101st Air Assault Division in the Gulf War. New York: Hippocrene Books; 1994.
+63.
+Jones FD. Psychiatric lessons of war. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War
+Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of the Surgeon General and Borden Institute; 1995: 1–33.
+64.
+Jones FD. Chronic post-traumatic stress disorders. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes
+JW, eds. War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of the Surgeon General and
+Borden Institute; 1995: 409–430.
+65.
+Marlowe DH. The human dimension of battle and combat breakdown. In: Gabriel RA, ed. Military Psychiatry: A
+Comparative Perspective. Westport, Conn: Greenwood; 1986: 7–24.
+66.
+Shils EA, Janowitz M. Cohesion and disintegration in the Wehrmacht in World War II. Public Opin Q. 1948;
+12:280–315.
+67.
+Kirkland FR. Assessing COHORT. Army. 1990;40(5):44–50.
+196
+Military Medical Ethics, Volume 1
+68.
+Koshes RJ, Young SA, Stokes JW. Debriefing following combat. In: Jones FD, Sparacino LR, Wilcox VL, Rothberg
+JM, Stokes JW, eds. War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of the Surgeon
+General and Borden Institute; 1995: 271–290.
+69.
+US Department of the Army. Leaders’ Manual for Combat Stress Control. Washington, DC: DA; 1994. Field Manual
+22-52.
+70.
+Belenky G, Martin JA, Marcy SR. After-action critical incident stress debriefings and battle reconstructions
+after combat. In: Martin JA, Sparacino LR, Belenky G, eds. The Gulf War and Mental Health: A Comprehensive
+Guide. Westport, Conn: Praeger; 1996: 105–114.
+71.
+Pecano J, Hickey D. Stress debriefings following death from unexploded ordnance. In: Martin JA, Sparacino
+LR, Belenky G, eds. The Gulf War and Mental Health: A Comprehensive Guide. Westport, Conn: Praeger; 1996: 125–134.
+72.
+Dinneen MP. Rapid interventions after a disaster at sea. In: Martin JA, Sparacino LR, Belenky G, eds. The Gulf
+War and Mental Health: A Comprehensive Guide. Westport, Conn: Praeger; 1996: 135–144.
+73.
+Arendt H. On Violence. New York: Harcourt Brace World; 1970.
+74.
+Hackworth DH. Hazardous Duty: America’s Most Decorated Living Soldier Reports From the Front and Tells It the
+Way It Is. New York: Avon Books; 1996.
+75.
+Cincinnatus [pseud]. Self-Destruction: The Disintegration and Decay of the United States Army During the Vietnam
+Era. New York: Norton; 1981.
+76.
+Atkinson R. The Long Gray Line. Boston: Houghton Mifflin; 1989.
+77.
+Sheehan N. A Bright Shining Lie: John Paul Vann and America in Vietnam. New York: Random House; 1988.
+78.
+US Department of the Army. Fighting Future Wars. New York: Brassey’s; 1994. Field Manual 100-5. Para 2-10 to 2-13.
+79.
+Bowden M, Tobia P. Blackhawk down: An American war story. The Philadelphia Inquirer. November 16–December 14, 1997.
+80.
+Stanton MN. A riot in Wanwaylen: Lessons learned. Army. 1994;44(12):24–30.
+81.
+Luvaas, J. Buna: 19 November 1942–2 January 1943. In: Heller CE, Stofft WA, eds. America’s First Battles, 1776–
+1965. Lawrence, Kan: University of Kansas Press; 1986.
+82.
+Asprey RB. At Belleau Wood. Denton: University of North Texas Press; 1996.
+83.
+Mallonee RC. Mallonee RC II, ed. The Naked Flagpole: Battle for Bataan. From the Diary of Richard C. Mallonee. San
+Rafael, Calif: Presidio Press; 1980.
+84.
+McIntyre WD. The Rise and Fall of the Singapore Naval Base, 1919–1942. Hamden, Conn: The Shoestring Press/
+Archon Books; 1979.
+85.
+US War Department. Report of the Secretary of War’s Board on Officer–Enlisted Man Relations. Washington, DC:
+Bureau of Public Relations; May 1946.
+86.
+Dupuy RE. The Compact History of the United States Army. New York: Hawthorn Books; 1956: 272–273.
+87.
+Weigley RF. History of the United States Army. Bloomington: Indiana University Press; 1984: 599–600.
+88.
+Newhouse PA, Belenky G, Thomas M, Thorne D, Sing H, Fertig J. The effects of d-amphetamine on arousal
+cognition and mood after prolonged total sleep deprivation. Neuropsychopharmacol. 1989;2:153–164.
+197
+Honor, Combat Ethics, and Military Culture
+89.
+McCann UD, Penetar DM, Shaham Y, et al. Sleep deprivation and impaired cognition: Possible role of brain
+catecholamines. Biol Psychiatry. 1992;31(11):1082–1097.
+90.
+Newhouse PA, Penetar D, Fertig J, et al. Stimulant drug effects on performance and behavior after prolonged
+sleep deprivation: A comparison of amphetamine, nicotine, and deprenyl. Mil Psychol. 1992;4:207–233.
+91.
+Manning FJ, Ingraham LH. Continuous operations: Who melts, when and why? Field Artillery J. 1981;49(3):13–18.
+92.
+The Holy Bible, King James version. Matthew 26:38–45.
+93.
+Plato. Symposium. In Hamilton E, Cairns H. Plato: The Collected Dialogues. Joyce M, trans. Princeton, NJ: Princeton
+University Press; 1961.
+94.
+Stiehm JH. Women and the combat exemption. Parameters. 1980;10(2):51–59.
+95.
+Segal DR, Bachman JG, O’Malley PM. Propensity to serve in the US military. Armed Forces Soc. 1999;25(3):407–428.
+96.
+Kitfield J. Front and center. Natl J. 1997;29(43):2124–2129.
+97.
+Rosen LN, Durand DB, Bliese PD, Halverson RR, Rothberg JM, Harrison NL. Cohesion and readiness in gender
+integrated combat service support units: The impact of acceptance of women and gender ratio. Armed Forces
+Soc. 1996;22(4):537–553.
+98.
+Rosen LN, Martin L. Sexual harassment, cohesion, and combat readiness in US Army support units. Armed
+Forces Soc. 1997;24(2):221–244.
+99.
+US Department of the Army. Standards of Medical Fitness. Washington, DC: DA; 1998. Army Regulation 40-501.
+100.
+US Department of the Army. Manual for Courts Martial. Washington, DC: DA; 1969. Miscellaneous Publication 9.
+101.
+US Department of the Army. Enlisted Personnel. Washington, DC: DA; 1996. Army Regulation 635-200, Para 151 to 15-4.
+102.
+US Department of the Army. Regular Army and Army Reserve Component Enlistment Program. Washington, DC:
+DA; 1995. Army Regulation 601-210, Para 4-24(g).
+103.
+Policy concerning homosexuality in the armed forces. General Military Law, Armed Forces,10 USC Sect 654 (2000).
+104.
+Devilbiss NG. Gender integration and unit deployment: A study of GI Joe. Armed Forces Soc. 1985;11:523–552.
+105.
+US Army Research Institute. Women Content in Units Force Development Test (MAXWAC). Alexandria, Va: US
+Army Research Institute; 1972.
+106.
+Finch M. Women in the military. In: Friedland JE, Gilroy G, Little RD, Sellman WS. Professionals on the Front
+Line. Washington, DC: Brasseys; 1996: 246–255.
+107.
+Sarkesian SG, Williams JA, Bryant FB. Soldiers, Society, and National Security. Boulder, Colo: Lyn Rienner;
+1995: 81–84.
+198
+Military Medical Ethics, Volume 1

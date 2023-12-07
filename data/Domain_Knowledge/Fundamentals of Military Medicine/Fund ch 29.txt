@@ -1,0 +1,1148 @@
+415
+Family Readiness
+Chapter 29
+FAMILY READINESS
+ADAM K. SAPERSTEIN, MD*; TERESA COMBS, PhD†; RYAN LANDOLL, PhD‡; and REGINA P. OWEN, DNP§
+INTRODUCTION
+DEFINITIONS
+Family
+Family Readiness
+Familiy Resilience
+COMMON STRESSORS THAT INFLUENCE FAMILY READINESS
+Geographic Separation
+Permanent Change of Station Moves
+Role Conflict
+Career Obstacles
+Families with Dual or Single Military Parents
+IMPACT ON MILITARY CHILDREN
+Young Children
+Adolescent Children
+Children With Special Needs
+STRATEGIES FOR ENHANCING FAMILY READINESS
+Preventive Strategies
+Reactive Strategies 
+FAMILY READINESS—THE ROLE OF THE MILITARY MEDICAL OFFICER 
+Direct Support for Military Families
+Coordinating Care
+Educating Military Unit Leadership
+FAMILY READINESS RESOURCES
+SUMMARY
+*Commander, Medical Corps, US Navy; Associate Professor, Department of Family Medicine, Uniformed Services University of the Health Sciences, 
+Bethesda, Maryland 
+†Assistant Professor, Daniel K. Inouye Graduate School of Nursing, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+‡Major, United States Air Force, Biomedical Sciences Corps and Assistant Professor, Department of Family Medicine, Uniformed Services University 
+of the Health Sciences, Bethesda, Maryland
+§Major, United States Air Force, Medical Corps and Mental Health Clinic OIC, 436 MDG/Dover Air Force Base, Delaware 
+416
+Fundamentals of Military Medicine
+INTRODUCTION
+Consider the phrase “military family.” What does 
+this mean to you? Create a mental image—the people 
+in the family, their ages, genders, where they live, 
+what they do, etc. Now imagine that a service member in that family is about to deploy for 12 months 
+and one or more members of the family has come to 
+you for advice on how to cope with this deployment. 
+What resources would you offer? How would you 
+counsel this family? In what ways would you wish 
+you had counseled them well before they learned of 
+the deployment? Do you have preconceived notions 
+that affect your answers? Assisting families to prepare for challenges is an important role for military 
+healthcare providers. Working to gain that skill is 
+the most important first step in building competence 
+and confidence. This chapter defines family and family readiness, identifies common stressors that can 
+erode family readiness, and shares strategies and 
+resources that are likely to help families improve 
+resilience. 
+DEFINITIONS
+Family
+The definition of family has changed in a variety 
+of ways over time. 1,2 Consequently, the discussion of 
+the topic of family readiness is inherently tied to a 
+consideration and awareness of these varied definitions. Without such an analysis, any effort to provide 
+comprehensive care for military families, including 
+supporting family readiness, would be fruitless. 
+In the United States in 1950, the word “family” 
+would most often refer to a husband, wife, and their 
+children. The use of such a limited definition was based 
+on many factors, including cultural norms and the assumptions and biases of the individual who elected to 
+use it. This brings up a critical point—the only way to 
+understand what someone else means when they say 
+family (or anything else for that matter) is to ask. The 
+greatest two tools a provider has are questions and 
+engaged listening. Helpful questions to keep in mind 
+include, “Who makes up your family?” or “Who is in 
+your family?” These questions are effective because 
+they are open ended and specific, a combination that 
+allows patients to help healthcare providers understand 
+them and their needs. By contrast, a question such as, 
+“Who lives at home with you?” is open-ended but does 
+not specifically ask about a patient’s definition of family. A closed-ended question such as, “How is your wife 
+doing?” is specific but makes assumptions about the 
+marital status of a patient and the gender of a patient’s 
+spouse, both of which may impede providers’ ability 
+to develop rapport, limiting a patient’s opportunity to 
+help providers better understand their situation. 
+When working to learn about someone’s family, 
+consider the following guidance.
+Do:
+ 
+• Ask open-ended questions about who is in 
+their family.
+ 
+• Keep an open mind because the patient’s family may include people (and even pets) that 
+you had not previously considered as being 
+part of a family.
+ 
+• Be aware of and account for personal biases 
+and assumptions about what constitutes a 
+family.
+ 
+• Ask about a patient’s sense of safety (physical 
+as well as emotional) in the context of their 
+family.
+Don’t:
+ 
+• Ask leading questions such as, “Things are 
+going well at home, right?”
+ 
+• Assume you understand the relationship 
+between the patient and members of their 
+family.
+ 
+• Assume that the patient’s outward appearance 
+(affect) correlates to their internal feelings 
+(mood) when talking about their family. 
+Following these recommendations will allow 
+medical officers to provide compassionate and comprehensive care that is tailored to the unique needs of 
+the patient. 
+Family Readiness 
+Military units were once considered to include only 
+the military members of that unit. Over the past decades, the concept of a military unit has changed and 
+now includes the military members and their families. 3 
+This change is a result of the recognition that family 
+factors can have a significant impact on a unit’s ability 
+to achieve its mission and the well-being of the military 
+as an enterprise. 4 Consequently, helping families to better cope with the stressors of military life is important 
+for any military unit. 
+Each of the military services recognizes family 
+readiness as an important goal. It is defined by the 
+417
+Family Readiness
+Department of Defense as “the state of being prepared 
+to effectively navigate the challenges of daily living 
+experienced in the unique context of military service, 
+to include: mobility and financial readiness, mobilization and deployment readiness, and personal and 
+family life readiness.”4 Some challenges are unique to 
+military family life (eg, deployments and permanent 
+changes of duty station) and others are not (eg, having 
+family members with special needs or living remotely 
+from one’s extended family). All have the potential to 
+impact the family, the service member, and the military 
+service. Whether or not the challenges faced by a family are military unique, military healthcare providers 
+play an active role in helping enhance that family’s 
+readiness. At the core of this endeavor is the concept 
+of family resilience. 
+Family Resilience
+Family resilience comprises the ability to withstand 
+and rebound from disruptive life challenges and relies 
+on positive adaptation within the context of substantial 
+adversity. 5 Although resilience was initially viewed as 
+an innate trait, subsequent research has demonstrated 
+this to be incorrect. 6 Resilience is now viewed as a function of the interplay between multiple risk factors and 
+protective processes over time. 7 The following vignette 
+illustrates this concept. 
+A family composed of a husband, wife, and three children 
+ages 11, 7, and 2 are stationed in rural North Carolina. 
+The mother, an active duty service member, deployed to 
+a war zone where she stepped on an improvised explosive 
+device and lost most of her right lower leg. She was medically evacuated to Maryland, where her injuries required a 
+below-the-knee amputation. Her family moved to be with 
+her in Maryland. The two oldest children were enrolled in 
+a new school and the 2-year-old was placed in daycare on 
+base. The husband spends most of each day helping his wife 
+with her recovery while also trying to rent the house in 
+North Carolina, tend to his elderly parents in Alaska, and 
+manage the family’s finances.
+It is easy to identify multiple risk factors that could 
+degrade this family’s resilience, including the following:
+ 
+• decreased time the service member spent with 
+the family during pre-deployment, 
+ 
+• training in the months and weeks preceding 
+deployment,
+ 
+• geographical separation of the family’s active 
+duty service member,
+ 
+• a period of single parenthood during the deployment,
+ 
+• geographic separation from extended family 
+with healthcare needs, 
+ 
+• financial challenges,
+ 
+• changes in school,
+ 
+• loss of friendship support networks, 
+ 
+• possible loss of primary means of income if the 
+service member is separated from the service, 
+ 
+• possible loss in income if the husband was 
+employed before moving to Maryland,
+ 
+• potential change in self-perception of all members of the family, and 
+ 
+• uncertainty concerning the current situation. 
+Just as understanding the factors that could impact 
+a family’s resilience in the midst of a crisis is important in order to care for them, so too is understanding 
+a family’s past experiences coping with stressors. To 
+do this requires: 
+ 
+• identifying the stressors they have faced in 
+the past,
+ 
+• learning how they coped with these stressors,
+ 
+• understanding how they perceive their experience coping with these stressors,
+ 
+• determining what support they received and 
+whether that support was helpful, 
+ 
+• inquiring about how members of the family 
+interacted with each other during these times, 
+and
+ 
+• identifying whether coping with these stressors heightened their sense of vulnerability or 
+enhanced their resilience and family readiness. 
+In the example above, the family is in the midst of 
+a crisis. Ideally, families have the requisite support 
+and skills to build resilience and avert such crises 
+before they develop. The strategies used to achieve 
+this outcome are called “preventive strategies.” Given 
+that not all crises can be averted, we also need strategies that help families cope in the midst of a crisis. 
+These are called “reactive strategies.” In this context, 
+answers to the following questions are likely to help 
+you best care for families and enhance their resilience 
+and readiness:
+ 
+• What are the common factors that affect military family readiness? 
+ 
+• What are the “preventive strategies” known 
+to enhance readiness before a crisis? 
+ 
+• What are the “reactive strategies” known to 
+be effective in the midst of a crisis?
+ 
+• What is the role of the military healthcare 
+provider in implementing these strategies? 
+418
+Fundamentals of Military Medicine
+COMMON STRESSORS THAT INFLUENCE FAMILY READINESS
+Military families are faced with a host of stressors 
+that can challenge the stability and fluidity of the family structure; affect the family’s function and dynamic; 
+create disruptions in the family unit; and potentially 
+compromise the family as a whole. Over time, these 
+stressors can begin to exert a significant toll on the 
+well-being of each family member and the relationships within a military family. 
+The Holmes and Rahe Social Readjustment Rating 
+Scale for adults8 and the Coddington Life Change Unit 
+Value Scale for Children9 serve as helpful references for 
+identifying and understanding stressors. Each identifies life events that are associated with significant stress 
+(eg, death of a family member, marriage, or change 
+in financial state), ranked from most to least stressful. While the order of stressfulness of these events 
+will vary from person to person, having background 
+knowledge about factors that more commonly impact 
+stress, resilience, and readiness can facilitate military 
+healthcare providers’ attunement to the needs of the 
+individual patients and the community they serve. 
+Among the stressors included in these scales, the 
+following are unique to and/or more commonly encountered in military families as compared with their 
+civilian counterparts. 
+Geographic Separation
+Military families may be geographically separated 
+for a variety of reasons. Some of the most common are 
+the following10:
+ 
+• deployment of the active duty service member; 
+ 
+• assignment of the active duty service member 
+to a location where, for a variety of reasons 
+(including the medical needs of a family 
+member), the rest of the family cannot go; or
+ 
+• a family decision to remain in place when the 
+active duty service member is assigned to a 
+new duty station (including marital separations or divorce).
+This geographic separation, especially when prolonged, has a negative impact on family homeostasis, 
+is associated with an increase in marital discord, and 
+is associated with an increase in anxiety in both the 
+service member and the family. 11 Common sources 
+of anxiety for spouses and children include fear that 
+their loved one may not return; fear that their loved 
+one may return with physical and/or mental injuries; 
+worry about an inability to cope in the absence of 
+the service member; and fear that relationships and 
+intimacy will be negatively impacted by the lack of 
+proximity, among others. 12 Among service members 
+who are geographically separated from their family, common sources of anxiety include worry about 
+missing important milestones in their children’s and 
+spouses’ life and guilt that they have left a heavy burden on their spouse. 12 
+When a service member leaves their family for 
+a prolonged period of time, and when they return, 
+family dynamics adjust to that change. Both of these 
+events create stress. While filling the void left by 
+departure of the service member is often assumed to 
+be a negative event and their return a positive one, 
+there are a number of scenarios in which this may 
+not be the case. First, the service member’s interaction with one or more members of the family may be 
+stress-inducing, and their departure may be seen as 
+a positive. Second, the stress of the service member’s 
+geographic separation may result in family member 
+roles and responsibilities being more thoughtfully 
+considered than in the past, resulting in a new family dynamic that members appreciate. Third, family 
+members who are a part of the intentional development of this new dynamic may feel more satisfied 
+due to their participation in its development. Fourth, 
+family members’ new roles often involve greater responsibility and autonomy, enhancing their sense of 
+motivation and satisfaction. 13 
+Family members’ appreciation of the new family dynamic may be misinterpreted to be a lack of 
+appreciation for the returning service member. For 
+those service members who deployed and view 
+themselves as returning heroes, feeling more appreciated by strangers than by family members can be 
+especially painful. Helping all members of the family 
+understand common challenges during reintegration, 
+and working with them to develop effective coping 
+strategies, requires a thoughtful and intentional 
+approach. One helpful resource with an excellent 
+section on reintegration is the Military One Source 
+deployment page (http://www.militaryonesource.
+mil/deployment). 14
+Permanent Change of Station Moves 
+On average, military members move every 2 to 3 
+years. 10,15 These moves are usually to a different state, 
+and sometimes to a different country. Moves by civilian 
+families are (on average) less than 20 times as common16 and are less likely to be followed by subsequent 
+moves in the ensuing years. 
+419
+Family Readiness
+In addition to the increased frequency of moves, 
+military families have far less control over a number 
+of factors related to the move, including the location 
+to which they move, the timing of that move, and the 
+frequency of subsequent moves. Moves are often to 
+locations where the family has not previously lived 
+and where the military member, their spouse, and 
+their children lack social connections. 17 Moves can 
+occur in the middle of the school year, which can 
+be particularly challenging for school-age children 
+because it adds another transition with which they 
+must cope. Curriculum misalignment between their 
+old and new schools can also cause stress because 
+children may be behind (and overwhelmed) or ahead 
+(and bored) when starting in the new school. 17 These 
+factors may in part explain why military families opt 
+to homeschool their children twice as frequently as 
+their civilian counterparts. 18 
+Subsequent moves can occur just 1 year after arrival, 
+bringing into focus the fallacy of the use of the word 
+“permanent” in the term “permanent change of station.” In addition, moves rarely bring a family back to 
+a previous duty station, and even when they do, the 
+community at that duty station has typically changed 
+markedly due to other families’ moves. Another 
+significant difference between civilian and military 
+family moves is that military families are responsible 
+for completing myriad mandated checklists before, 
+during, and after relocation. 
+Frequent permanent change of station moves typically have economic implications beyond the simple 
+costs of the move. While many moving costs are borne 
+by the military service, some are not. These costs may 
+include: new items that cannot be shipped from one’s 
+prior location (eg, household items, food, liquids in 
+open containers), new clothes based on differences in 
+climate, selling vehicles at one’s old duty station and 
+purchasing new vehicles at the new duty station, and 
+loss of money from one’s security deposit if renting, 
+among others. In addition, loss of income earned by civilian family members can be substantial. Perhaps the 
+biggest economic issue related to a permanent change 
+of station move is that of home ownership. While there 
+are some good reasons to consider purchasing a home, 
+military members and their families face a significant 
+disincentive to build equity in the housing market. This 
+disincentive stems from many factors, including lack 
+of control over the timing of a subsequent move and 
+the potential need to sell the house at an inopportune 
+time; the potential need to rent the house at a loss; 
+and perhaps most significantly, the potential loss of 
+a security clearance as a result of an inability to pay 
+one’s debts (including a mortgage). Many military 
+families choose to buy homes and benefit economically 
+from that decision, but the uncertainly of that outcome 
+causes it to remain a significant stressor for military 
+families, even when the outcome is a good one. 
+The stress caused by permanent change of station 
+moves can negatively affect family members and result 
+in physical, social, and psychological disturbances 
+including depression, headaches, and an increased 
+incidence of allergic rhinitis and heart disease. 19,20 
+The stress of a move, as well as the discordant ways 
+in which individual family members may cope, sometimes contributes to interpersonal conflict resulting in 
+frequent arguments and family rancor. Children are 
+impacted as well, and respond to the way their parents 
+talk about and react to the move. 
+Sadly, even when such symptoms are recognized, 
+there are a number of potential barriers to family 
+members’ getting needed medical attention. These 
+hurdles may include:
+ 
+• Transportation. The family may only have one 
+vehicle with them on arrival to their new duty 
+station, which the active duty member uses 
+to get to work, causing difficulty in getting 
+to appointments. 
+ 
+• In-processing. There may be a perception of 
+pressure from the command to prioritize administrative check-in responsibilities before 
+seeking healthcare.
+ 
+• Mental health stigma. Family members may 
+feel uncomfortable about seeking care for 
+mental health concerns.
+ 
+• Medical providers. It may take some time 
+to find a new primary care manager and 
+establish new relationships with healthcare 
+providers. 
+The last issue can be particularly stressful for those 
+with complex and chronic health conditions, including children with special needs, for whom continuity 
+of care and timely access to care can be particularly 
+important. 
+Role Conflict
+American views on roles in families are changing. 
+Traditional views of family included a presumption 
+that the husband served as “breadwinner” and the 
+wife as “homemaker.” More modern views recognize diversity in family composition and respect 
+the value of shared roles and egalitarianism. 21 In a 
+military family context, military members and their 
+spouses may be in situations in which their actual role 
+is not well aligned with the role they believe is their 
+responsibility. This conflict is often related to one’s 
+420
+Fundamentals of Military Medicine
+perceived gender role and can cause internal turmoil 
+and degrade resilience. 
+Men comprise approximately 8% of the total 
+number of military spouses,22 a 3. 5-fold increase over 
+the past 30 years. 22,23 Consequently, there has been a 
+significant increase in the number of stay-at-home 
+husbands and fathers, consistent with the national 
+trend. 15 For a male stay-at-home military spouse with 
+traditional attitudes about gender roles, not being 
+the breadwinner can be difficult. This may be more 
+problematic when living in a military community in 
+which there are relatively few stay-at-home fathers. 
+In addition to the social stigma against the idea of a 
+stay-at-home father, most military spouse support 
+organizations were designed for supporting the needs 
+of women. 22 
+It may be equally challenging for female military 
+spouses who have modern views about their role to 
+cope with not being a breadwinner for the family. This 
+can be exacerbated when living within a larger military 
+community that they perceive to have traditional views 
+of gender roles. 
+The stress associated with incongruity between 
+one’s perceived gender role and one’s actual role is 
+not limited to military spouses. Service members, regardless of sex, also must cope with these challenges, 
+including a potential sense of guilt for not playing a 
+more active role in the care of children. 
+Career Obstacles
+Military spouse employment is a unique stressor 
+that can cause a ripple effect within the family system. 
+For the employed spouse, geographic moves result in 
+their transferring within the same company (if possible) or quitting their job and seeking new employment. This can be far more difficult than it might seem. 
+First, moves are based on the needs of the military and 
+may place the military spouse in a location where their 
+skill set is not in demand. Second, even if their skill 
+set is in demand, competition for open jobs can limit 
+employment opportunities and result in spouses accepting positions at a lower level than the one they left, 
+impeding their career progression. 24 Third, even when 
+offered a new job, the military family with children 
+must find a childcare facility with openings, and the 
+military spouse may have to wait for an opening for a 
+new job. Even when a new job is identified, the military 
+spouse may discover that the cost of childcare at their 
+new location is greater than their income. Due to these 
+and other factors, military spouses are employed less 
+frequently, have lower income, and work fewer hours 
+when compared with their civilian counterparts with 
+similar education levels. 24-26 This can be quite frustrating and negatively impact individual and family 
+resilience and readiness.
+Young military families are particularly susceptible 
+to anxiety and stress related to spouse career obstacles. 
+The junior military member’s income may be inadequate to ensure family financial stability. As a result, 
+dual incomes are often necessary. As noted above, frequent relocations make continuity of employment and 
+career progression difficult. 27 In addition, completing 
+a college degree (something strongly associated with 
+economic success28) can be quite challenging. Although 
+online college programs have made it easier for those 
+who move frequently to complete their degree, spouses 
+who attended brick-and-mortar universities may 
+struggle to find a college or university that accepts the 
+previous credits attained.
+Even those with advanced degrees face challenges. 
+First, there may be a limited number of job opportunities in the vicinity of one’s new duty station. Second, 
+spouses whose professional practice requires state 
+licensure (such as social workers, doctors, nurses, 
+lawyers, and teachers) may find that the governing 
+regulations and professional requirements of the state 
+or country to which they have moved require additional certifications. These additional requirements, 
+in addition to administrative hurdles and costs, may 
+delay a military spouse’s ability to gain employment 
+in their new location. 
+All of these barriers to spouse career development 
+can impact the family as a unit. This may negatively 
+impact the service member’s job performance and 
+career progression, creating an additional hurdle to 
+families trying to develop financial stability. In addition, it is likely to result in decreased family resilience 
+and readiness; decreased sense of self-worth on the 
+part of the spouse29; and increased levels of anxiety 
+in all family members. The issue may contribute to a 
+decision to separate from military service prior to the 
+attainment of military retirement benefits. 25
+Families with Dual or Single Military Parents 
+Families with dual military parents face unique 
+challenges. These can include: 
+ 
+• the need to rely on outside agencies for child 
+care and transportation; 
+ 
+• the possibility of both parents being geographically separated from the family, occasionally 
+at the same time; 
+ 
+• the possibility of parents receiving assignments at different locations, thus forcing a 
+separation of the family unit; and 
+ 
+• conflict that can arise in situations where a de421
+Family Readiness
+sire for career progression comes into conflict 
+with the needs of the family, one’s partner, or 
+a desire to keep the family unit together.
+In the face of these challenges, families typically 
+seek to develop and sustain support structures to buoy 
+them in times of need, but developing such a structure, 
+especially when living a nomadic life, requires effort. 
+Grandparents or other extended family members serve 
+as a potential source for such support, but can face challenges in accessing military services on behalf of the 
+family, particularly if serving as alternative caregivers 
+while parents are deployed. 30 Additionally, frequent 
+relocations can make it difficult for military families to 
+develop and maintain close relationships, which can 
+exacerbate feelings of isolation. Fortunately, fellow 
+military families tend to have an understanding of 
+these challenges and support one another. However, 
+when living in a predominately civilian community, 
+where a military family can be perceived as transient, 
+finding such support can be more challenging. 
+Families with a single military parent face challenges of their own. One of these is the need to balance 
+childcare responsibilities with a responsibility to the 
+military organization. 31 These two responsibilities are 
+inherently intermeshed. Focusing on work responsibilities usually leads to career progression, which 
+improves the ability to care (economically) for children, 
+and may also offer the opportunity to assume positions 
+with greater work hour flexibility. At the same time, 
+having a sense that one’s children are well cared for 
+allows one to focus more effectively at work. Another 
+challenge is coordinating childcare and transportation, 
+including finding care options that are conveniently 
+located and affordable on a single income. 32 Deployments can place extreme hardship on families with a 
+single military parent even if extended family members 
+are available and willing to provide relief. 33,34 These 
+hardships can impact both parents’ and children’s 
+well-being before, during, and after the deployment. 
+IMPACT ON MILITARY CHILDREN
+Children are inherently affected by the realities of 
+military family life. Relocations, deployments, and other factors create stressors that civilian families rarely, 
+if ever, experience. Among the cohort of military children, young children, adolescents, and children with 
+special needs are three subsets that may be especially 
+impacted by the stressors of military life. 
+Young Children 
+Children under 6 years old are especially vulnerable when it comes to geographic separation. Young 
+children are often confused about the cause of their 
+parent’s absence and where they have gone; have 
+challenges with trust; and often have an increase in 
+cognitive, mood, and behavioral problems. 34 On return 
+of the absent parent, young children often demonstrate increased attachment behaviors, developmental 
+regression, and other distressed behavior. 35 With deployment, young children often fear for their parent’s 
+safety. Although they may not fully understand the 
+risks of deployment, the ubiquitous, sensationalized 
+media coverage of today’s military conflicts can exacerbate this sense of fear. 
+Adolescent Children
+For adolescents, geographic separation and relocation are both major stressors. Adolescents, as compared 
+with younger children, have a greater awareness of the 
+risks posed when their parent is deployed, and less 
+comfort sharing fears related to this awareness. This 
+dichotomy can lead to feelings of loss, depression, 
+anxiety, and thoughts of suicide. 36,37 Adolescents may 
+have both concern for their deployed parents and a 
+sense of increased responsibility for family members. 37 
+Relocation can be especially stressful for adolescents 
+because they are in a period of intense identity formation, which can be disrupted by geographic moves. 
+Consequently, adolescents who have experienced a 
+geographic move in the past year have a higher incidence of hyperactivity, mental illness, mood lability, 
+substance use concerns, suicidality, and poor academic performance. 19,38 While this highlights the many 
+short-term challenges faced by adolescents in military 
+families who move, studies demonstrate that multiple 
+moves over time, especially when military families 
+are given the resources to support these moves, may 
+promote resilience and not undermine development. 38
+Children with Special Needs
+Children with special needs may have particular 
+difficulty with the frequent transitions that occur 
+in military families. Consequently, some families 
+elect to stay in one location while the military member takes orders to another location, trading the 
+positives of geographic stability of the non-military 
+spouse and children for the negatives of geographic 
+separation. Those families who move with their 
+military service member must ensure that the new 
+duty station will be able to meet the needs of their 
+422
+Fundamentals of Military Medicine
+child with special needs. The Exceptional Family 
+Member Program (http://efmp.amedd.army.mil)39 
+is a critical program designed to ensure that family members are stationed in locations where their 
+special needs can be met. 
+Even when relocating to a location where their family member’s special needs can be met, families face 
+a number of challenges. First, many family members 
+with special needs have a more difficult time adapting to a new environment. Second, there may be a 
+delay between arrival and initiation of special needs 
+services. Even when those services are initiated, they 
+may be different from those received in the past due 
+to differences in programs and services from state to 
+state. These setbacks can be harmful to the child and 
+create additional stressors for the family. 40 
+STRATEGIES FOR ENHANCING FAMILY READINESS
+When considering various strategies to help families 
+enhance their readiness, it is important to recognize 
+that there is no “one size fits all” approach. What works 
+for one person in a given situation may or may not 
+work for another person in a similar situation, even if 
+those two people are in the same family. The reason is 
+that each individual has their perspective, borne out of 
+their own personal context, defined as the interwoven 
+fabric of one’s unique and diverse life experiences. 41
+The fact that one approach may not work for everyone in a given family can be frustrating, both for 
+the healthcare provider and for family members. The 
+common belief that the family member is not “trying 
+hard enough” if they do not respond well to a strategy 
+that works for others in the family is erroneous. This 
+can compound the distress that patients experience. In 
+addition to being faced with a significant life stressor, 
+they also receive the message that they are not putting forth the effort needed to overcome it. This may 
+cause feelings of worthlessness and shame in addition 
+to what they may already be feeling, most commonly 
+feelings of sadness and being overwhelmed. Explaining to members of a family that each individual copes 
+in their own way and at their own pace normalizes this 
+reality, can facilitate mutual support, and can enhance 
+family readiness. 
+One way to organize approaches to enhancing family readiness is to divide them into preventive strategies (those that enhance family readiness in advance of 
+a stressor) and reactive strategies (those that enhance 
+family readiness in the face of a stressor). 
+Preventive Strategies
+Facilitating Dialogue
+In most cases, the best preventive strategy is to 
+encourage family members to openly talk about anticipated challenges. As a military healthcare provider, 
+starting with open-ended questions that ask about 
+perceived family roles may help identify incongruence 
+between individual family members’ perceptions and 
+help identify anticipated difficulties.
+Often, family members will be hesitant to discuss 
+upcoming stressors, for several reasons. One is the 
+simple fact that these conversations can be difficult 
+and uncomfortable. Another is the potential concern 
+of parents who may feel that talking about a stressor 
+in advance will only increase the anxiety of their children about that stressor. These challenges are further 
+complicated by the fact that for military families, 
+some stressors (such as geographic separation) may 
+be unanticipated. These situations can be highly variable and leave little time to proactively plan informed 
+family discussions. 
+Understanding family members’ reticence to discuss anticipated or upcoming stressors is an important 
+first step toward encouraging positive prevention efforts. Consequently, healthcare providers may need 
+to prompt this discussion, rather than assuming that 
+family members will proactively have conversations 
+with one another in advance. Helping to normalize 
+the discomfort and emphasize the importance of these 
+conversations is key. Additionally, providing developmentally appropriate language for all family members 
+is usually very helpful and may allay anxieties. For 
+example, explaining a deployment using phrases 
+like “mommy’s going to war” or “dad’s got to fight 
+for the country” can be especially anxiety provoking. 
+Instead, an “ask–clarify–ask–answer” approach is 
+recommended in the following four steps: 
+ 
+1. Ask what the family members understand 
+about the upcoming stressor. 
+ 
+2. Clarify their thoughts and concerns about this 
+stressor, using age-appropriate language. 
+ 
+3. Ask what questions they have about this 
+stressor.
+ 
+4. Answer those questions, again using ageappropriate language.
+Managing Uncertainty
+Handling uncertainty can also be difficult. Parents 
+may be hesitant to discuss with children a potential move or deployment that may be canceled or 
+423
+Family Readiness
+changed, sometimes with unexpected time frame 
+shifts. These are regular occurrences in a military 
+community. For example, one family in which the father deployed and who had two young children, decided to create a paper chain that they hung around 
+their living room. Each link in the chain represented 
+one day that their father would be gone and each day 
+they removed one link. One week before the anticipated end of the deployment, the father learned his 
+deployment was being extended by 2 months. The 
+children were devastated. The concept was a noble 
+one—trying to help the children to make sense of 
+the situation and have a better understanding that 
+the deployment was not indefinite. Unfortunately, 
+the discordance between expectations and reality 
+in such a situation can easily push a family into a 
+crisis. How can providers help parents find a balance between offering reassurance without making 
+promises that they may not be able to keep? Some 
+approaches include:
+ 
+• Tell children the season, rather than specific 
+dates the parent may return.
+ 
+• Find an object of consistency—something that 
+always moves with them from house to house, 
+or an object that a parent and child can both 
+share while being geographically separated. 
+ 
+• Find a positive activity to look forward to 
+as a family. Be careful to validate negative 
+emotions and provide opportunity for family members to share concerns. Additionally, it is important to remain sensitive to the 
+uncertainty that may be associated with the 
+anticipated stressor. Identifying smaller but 
+positive activities to engage in and look forward to (eg, writing letters, video chats, and 
+one-on-one time with the parent at home), 
+as opposed to bigger activities may be more 
+effective. 
+Expectation Management
+Frustration within families often arises when there 
+is incongruity between family members’ perceptions of 
+the roles each family member plays and family members’ perceptions of how static or flexible those roles 
+should be. For children and adults alike, divergent 
+views of the roles of family members can be disorienting, especially in the context of geographic moves 
+and geographic separation. As a military healthcare 
+provider, the goal of facilitating a discussion about 
+roles and role flexibility is not to encourage members to 
+conform to a single view, but to help them understand 
+others’ perspectives. 
+In addition, it may be helpful to explain to 
+patients that while consistency in roles can be 
+reassuring, the ability to adapt to change through 
+flexible family roles is often positively adaptive. 
+For example, an adolescent who takes on additional 
+responsibilities during a deployment may initially 
+feel challenged by the need to adapt to a new role, 
+but will often develop pride in their contributions 
+and greater self confidence that helps them adapt 
+to challenges in the future. When the deployed 
+service member returns, however, their adolescent 
+may be conflicted between being happy about their 
+reunion, while struggling with frustration regarding reduction in autonomy and a decreased sense 
+of contribution. Consciously acknowledging this as 
+family is important. Having parents highlight the 
+positive qualities developed and additional responsibilities demonstrated, while also acknowledging 
+the loss of this expanded role, can go a long way to 
+normalizing and mitigating the challenges of this 
+adjustment period. 
+Military healthcare providers should have discussions about family and family roles at a time 
+when families are not in crisis. This offers a great 
+opportunity for the family to anticipate how various stressors may affect each of them. Perhaps most 
+importantly it allows each of them to manage their 
+expectations, thus decreasing stress and enhancing 
+resilience. These same strategies can be very helpful 
+during times of service member reintegration. In addition, the following tips for facilitating reintegration 
+may be helpful:
+ 
+• Have discussions without distractions (television, phones, etc).
+ 
+• Engage in closed-loop communication—state 
+what you understand others to be saying to 
+ensure mutual understanding and demonstrate respect.
+ 
+• Set aside dedicated one-on-one time with each 
+member of the family. 
+Younger children may regress or display behaviors 
+that are developmentally less mature than normal 
+for them in an attempt to cope with challenges. 
+Understanding this behavior as normal can allow a 
+family to respond affirmatively rather than critically. 
+However, given that military challenges such as deployment have been associated with mental health 
+difficulties and developmental delays in children,42 
+it is important for healthcare providers to routinely 
+assess and be aware of these risks. In this way, a 
+strengths-based approach to early intervention can 
+be developed. 
+424
+Fundamentals of Military Medicine
+Psychological First Aid
+Psychological first aid is a concept that that emphasizes meeting basic needs (eg, food, shelter, security) in 
+the midst of a disaster,41 but also offers an opportunity 
+for preventive interventions. Asking individuals what 
+healthy eating and regular physical activity means to 
+them is a respectful way to open the discussion about 
+leading a healthy lifestyle without seeming condescending. In addition, asking patients what they do 
+for stress reduction is recommended. Such questioning 
+facilitates a dialogue regarding various physiological 
+stress reduction mechanisms (eg, deep breathing, progressive muscle relaxation, and mindful meditation) 
+that have been demonstrated to result in decreases in 
+perceived stress reduction as well as cortisol levels. 43,44 
+Reactive Strategies
+When a family is in crisis, consider whether it is 
+feasible for a family to incorporate any of the above 
+preventive strategies. It can be difficult to establish 
+new patterns of behavior during times of crisis. 
+Consequently, developing a clear understanding of 
+family roles and rapport with family members usually becomes the top priority. Next, incorporating 
+psychological first aid is often quite helpful. The eight 
+core actions of psychological first aid are as follows45:
+ 
+1. contact and engagement,
+ 
+2. safety and comfort,
+ 
+3. stabilization,
+ 
+4. information gathering,
+ 
+5. practical assistance,
+ 
+6. connection with social supports,
+ 
+7. information on coping, and 
+ 
+8. linkage with collaborative services.
+In the midst of a crisis, it is critical to ensure that 
+a family’s basic psychological needs are met and 
+that social supports are put in place. This typically 
+requires engagement with other healthcare providers 
+to offer the family the interprofessional and interdisciplinary care they need. Within the Military Health 
+System, most outpatient settings have embedded 
+behavioral health professionals who can connect with 
+TABLE 29-1 
+ONLINE FAMILY READINESS RESOURCES
+Organization
+Website
+Synopsis
+Military Family Resources
+After Deployment
+https://www.afterdeployment.dcoe.
+mil
+Health and wellness resources for the military community.
+Blue Star Families
+https://www.bluestarfam.org
+Resources, programs, and special opportunities for 
+military families.
+Everyone Serves
+https://www.everyoneservesbook.
+com/
+Handbook for family and friends of service members during Pre-Deployment, Deployment and 
+Reintegration
+Military Family Books
+https://www.militaryfamilybooks.
+com
+Books about the military and deployment for all 
+family members.
+Military One Source
+https://www.militaryonesource.mil
+Information on nearly every aspect of military life 
+including deployment, reunion, relationships, 
+grief, spouse employment & education, parenting 
+and childhood services.
+Military.com 
+Military Deployment 
+Center
+https://www.military.com/
+deployment
+Service-specific deployment resources
+National Military Family 
+Association
+www.militaryfamily.org
+A wide range of robust and relevant resources for 
+military families.
+The American Military 
+Partner Association
+www.militarypartners.org
+Resources for partners, spouses, families, and allies 
+of LGBT service members/veterans.
+(Table 29-1 continues)
+425
+Family Readiness
+Military Spouse Resources
+Military Spouse Employment Authority
+https://www.fedshirevets.gov
+Laws regarding military spouse employment benefits.
+Military SOS
+www.militarysos.com
+Support and information resource for military 
+spouses and significant others of all branches, 
+around the world.
+My Career Advancement 
+Account
+https://mycaa.militaryonesource.mil/
+mycaa/
+A $4,000 tuition assistance program provided by the 
+DoD for spouses of service members E1-E5, O1-O2, 
+and W1-W2.
+Pat Tillman Foundation
+www.pattillmanfoundation.org
+Foundation that invests in military veterans and 
+spouses through educational scholarships.
+Military Children’s Resources
+Military Child Education 
+Coalition
+www.militarychild.org
+Tools and resources to ensure quality educational 
+opportunities for all military-connected children 
+affected by mobility, family separation, and transition.
+Military Kids Connect
+www.militarykidsconnect.dcoe.mil
+Online community for military children; includes 
+age-appropriate resources to support children 
+dealing with the unique psychological challenges 
+of military life.
+Mental Health Resources
+Military Crisis Line
+https://www.veteranscrisisline.net
+Confidential help for service members and their 
+families.
+National Child Traumatic 
+Stress Network
+www.nctsn.org
+Resources for parents, teachers, caregivers, and professionals for helping children cope with a wide 
+range of stressors.
+National Suicide Prevention 
+Lifeline
+https://suicidepreventionlifeline.org/
+Confidential suicide prevention hotline available to 
+anyone in suicidal crisis or emotional distress.
+The Soldiers Project
+https://www.thesoldiersproject.org
+Free, confidential psychological services to US 
+military veterans and their loved ones who have 
+served at any time after September 11, 2001.
+Table 29-1 continued
+family members. Additionally, outside resources are 
+available for helping children and families to cope 
+with trauma. A list of suggested resources is available in Table 29-1. For the military medical officer 
+at a remote duty station where there are no on-site 
+mental health professionals, the best option may be 
+to establish a method in advance (such as video chat) 
+to connect a family struggling with a crisis with the 
+care they need. 
+In the midst of and immediately following a crisis, 
+there is likely to be variation in the emotions felt and 
+the speed with which those emotions are processed 
+by different family members. Explaining that this 
+variation is likely to occur and is normal can go a 
+long way toward mitigating frustration and helping 
+families work together and offer mutual support. 
+Encouraging family members to share emotions 
+with each other (without forcing sharing) will usually build resilience. Before starting this process, be 
+mindful that family members may have grown up 
+in an environment in which they never gained comfort with or learned the language needed to express 
+emotions. In this situation, discussing how to discuss 
+emotions is a critical first step. Care should be taken 
+not to unduly categorize reactions as pathologic during and after a crisis event. However, it is important 
+to remain vigilant about early identification of a 
+maladaptive stress response such as suicidal ideation 
+or dissociation.
+FAMILY READINESS—THE ROLE OF THE MILI426
+Fundamentals of Military Medicine
+TARY MEDICAL OFFICER
+As described above, supporting military family 
+readiness is a team endeavor. This team includes the 
+family, members of the active duty member’s command, and members of the healthcare team, among 
+others. Military medical officers can best help by (a) 
+directly supporting military families, (b) coordinating the care delivered when needed, (c) staying up to 
+date regarding evolving professional recommendations, and (d) educating the command about helpful 
+resources for preventive and reactive strategies. 
+Direct Support for Military Families
+Direct support for military families includes much 
+more than ensuring that the military member has 
+been medically evaluated and is fit for duty. It also 
+includes ensuring that the family’s medical needs are 
+addressed and that they understand their care plan. 
+In some situations, the medical officer will be able to 
+care for the family, but in others, they may need to 
+be seen by another provider. Playing an active role 
+in ensuring that family members get the care they 
+need is important. Navigating the healthcare system 
+can be challenging, especially for individuals with 
+limited experience accessing healthcare. Checking in 
+to ensure that the families receive excellent care reassures military members and their families that their 
+well-being is important. This is likely to contribute to 
+family readiness. One simple strategy is to schedule 
+“walk around” time to check in with the members of 
+the unit. During that time, asking specific questions 
+about families’ needs from the healthcare team is 
+recommended. If concerns are mentioned, healthcare 
+providers should investigate the concerns, act when 
+possible, and reach back within 48 hours to provide 
+information or plans of action.
+Coordinating Care 
+As noted above, healthcare providers may not be 
+able to provide all the care required by service members or members of their family. In these situations, the 
+most important first step is to listen. Play close attention to concerns and what has been done to seek help 
+to date. Once it is determined that the healthcare needs 
+exceed the provider’s capability to provide direct care, 
+a plan of action and timeline should be discussed so 
+the service member and their family members know 
+what to expect. 
+The next step will be to engage colleagues to coordinate the care military families need. Excellence in coordinating care depends on relationships—both with 
+the patient and with members of the healthcare team 
+who are in a position to help. To this end, developing relationships with key members of the healthcare 
+team, in advance of crises, is essential. Members of the 
+healthcare team who often play a key role in helping 
+facilitate care include the following:
+ 
+• social workers,
+ 
+• primary care providers and nurses,
+ 
+• mental health providers and nurses,
+ 
+• chaplains, and
+ 
+• referral managers. 
+Educating Military Unit Leadership
+Informing command leadership about the importance of family readiness, how it contributes to mission readiness at the individual and unit levels, and 
+educating them about strategies known to be effective 
+in preventing and managing crises are some of the 
+most important military healthcare provider tasks. 
+When possible, initiate these conversations early in the 
+military assignment and at times when the command 
+leadership has the time to listen. Providing specific 
+personal examples in which preventive strategies to 
+help enhance family resilience and readiness had an 
+impact on command readiness can be a particularly 
+poignant way to convey the point. 
+FAMILY READINESS RESOURCES
+Many resources are available to military families 
+and the military healthcare providers who support 
+them. Because family readiness is not a one-sizefits-all endeavor, it may take some effort to find the 
+most effective resources and techniques to enhance 
+readiness for each family. See Table 29-1 for representative resources designed to strengthen military 
+family readiness.
+SUMMARY
+Family readiness in the context of a military community is influenced by each family’s unique makeup and 
+situation, but there are many common stressors faced 
+by military families that could affect their readiness. 
+427
+Family Readiness
+Both preventive and reactive strategies help support 
+the families’ readiness, and in turn, their units. Just 
+as not all strategies will work for every individual, 
+neither will all approaches work for every command. 
+Understanding a variety of strategies, being comfortable with identifying alternative strategies if one is 
+not effective, and maintaining willingness to work 
+collaboratively with patients to find (through shared 
+decision-making) the best solution will improve and 
+reinforce military family readiness. 
+REFERENCES
+ 
+1. Abbott RK. The Changing Definition of “Family.” Compensation & Benefits Report. 2002;16(6):3–4.
+ 
+2. Clever M, Segal DR. The demographics of military children and families. Future Child. 2013;23(2):13–39.
+ 
+3. Bowles SV, Pollock LD, Moore M, et al. Total force fitness: the military family fitness model. Mil Med. 2015;180(3):246–258.
+ 
+4. U.S. Department of Defense. Military Family Readiness (DoD Instruction 1342. 22). Washington, DC: U.S. Department 
+of Defense. July 3, 2012. Updated April 11, 2017.
+ 
+5. Luthar SS, Cicchetti D, Becker B. The construct of resilience: a critical evaluation and guidelines for future work. Child 
+Dev. 2000;71(3):543–562.
+ 
+6. Anthony EJ. Risk, vulnerability, and resilience: an overview. In: Anthony EJ, Cohler J, eds. The Guilford Psychiatry 
+Series. The Invulnerable Child. New York, NY: Guilford Press; 1987: 3–48.
+ 
+7. Patterson JM. Understanding family resilience. J Clin Psychol. 2002;58(3):233–246.
+ 
+8. Holmes TH, Rahe RH. The social readjustment rating scale. J Psychosom Res. 1967;11(2):213–218.
+ 
+9. Coddington RD. The significance of life events as etiologic factors in the diseases of children. J Psychosom Res. 1972;16:718.
+ 10. Comptroller General of the United States. Longer Time Between Moves Related to Higher Satisfaction and Retention. Washington, DC: US General Accounting Office; 2001. Report to Congress. GAO-01-841 Military Personnel.
+ 11. Asbury ET, Martin D. Military deployment and the spouse left behind. Fam J. 2012;20(1):45–50.
+ 12. Drummet AR, Coleman M, Cable S. Military families under stress: implications for family life education. Fam Relations. 
+2003;52(3):279–287.
+ 13. Ryan RM, Deci EL. Intrinsic and extrinsic motivations: classic definitions and new directions. Contemp Educ Psychol. 
+2000;25(1):54–67.
+ 14. Deployment. Military One Source Web site. http://www.militaryonesource.mil/deployment. Accessed May 22, 2018.
+ 15. Hix WM, Shukiar HJ, Hanley JM, et al. Personnel Turbulence: The Policy Determinants of Permanent Change of Station 
+Moves. Santa Monica, CA: RAND Corporation; 1998.
+ 16. US Department of Commerce, Economic and Statistics Administration. Statistical Abstract of the United States: 2012. 
+131st ed. Washington, DC: US Census Bureau; 2013.
+ 17. Ruff SB, Keim MA. Revolving doors: the impact of multiple school transitions on military children. Prof Couns. 
+2014;4(2):103–113.
+ 18. Anderson JR. ABCs of home schooling. Why more military families are skipping school in favor of this sweeping 
+trend. Military Times. March 14, 2013. 
+ 19. Bowen GL. Family Adaptation to Relocation: An Empirical Analysis of Family Stressors, Adaptive Resources, and Sense of 
+Coherence. Alexandria, VA: US Army Research Institute for the Behavioral and Social Sciences; 1989. ARI Technical 
+Report 856.
+428
+Fundamentals of Military Medicine
+ 20. Matthiesen JK, Tissington PA. The four-factor taxonomy of relocation outcomes. Hum Resource Dev Rev. 2008 7(2):142–
+164.
+ 21. Amato PR, Booth A. Changes in gender role attitudes and perceived marital quality. Am Sociol Rev. 1995;60(1):58–66.
+ 22. Center, Defense Manpower Data. 2015 Demographics: Profile of the Military Community. Washington, DC: Office of the 
+Deputy Assistant Secretary of Defense for Military Community and Family Policy; 2015.
+ 23. Carr C, Orthner DK, Brown III RJ. Living and family patterns in the Air Force. Air Univ Rev. 1980;31(2):75–96.
+ 24. Maury R, Stone B. Military Spouse Employment Report. Institute for Veterans and Military Families; 2014.
+ 25. Cooke TJ, Speirs K. Migration and employment among the civilian spouses of military personnel. Soc Sci Q. 2005;86:343–
+355.
+ 26. Harrell MC, Lim N, Castaneda LW, Golinelli D. Working Around the Military: Challenges to Military Spouse Employment 
+and Education. Santa Monica, CA: RAND National Defense Research Institute; 2004.
+ 27. Castaneda LW, Harrell MC, Varda DM, Hall KC, Beckett MK, Stern S. Deployment Experiences of Guard and Reserve 
+Families: Implications for Support and Retention. Santa Monica, CA: RAND Corporation; 2008. 
+ 28. Pascarella ET, Terenzini PT. How College Affects Students: Findings and Insights from Twenty Years of Research. Vol 2. San 
+Francisco, CA: Jossey-Bass; 2005.
+ 29. Goldsmith AH, Veum JR, Darity W. Unemployment, joblessness, psychological well-being and self-esteem: theory 
+and evidence. J Socio Econ. 1997;26(2):133-158.
+ 30. Bunch SG, Eastman BJ, Moore RR. A profile of grandparents raising grandchildren as a result of parental military 
+deployment. J Hum Behav Soc Environ. 2007;15(4):1–12.
+ 31. Vuga J, Juvan J. Work–family conflict between two greedy institutions—the family and the military. Curr Sociol. 
+2013;61(7):1058–1077. 
+ 32. Kimmel J. Child care costs as a barrier to employment for single and married mothers. Rev Econ Stat. 1998;80(2):287–299.
+ 33. Kelley ML, Doane AN, Pearson MR. Single Military mothers in the new millennium: stresses, supports, and effects of 
+deployment. In: Wadsworth SM, ed. Risk and Resilience in U.S. Military Families. New York, NY: Springer-Verlag New 
+York; 2011:343-363.
+ 34. Kelley ML. Single military parents in the new millennium. In: Castro CA, Adler AB, Britt TW, eds. Military Life: The 
+Psychology of Serving in Peace and Combat. Westport, CT: Praeger Security International; 2006: 93–103.
+ 35. Barker LH, Berry KD. Developmental issues impacting military families with young children during single and multiple deployments. Mil Med. 2009;174(10):1033–1040.
+ 36. Cederbaum JA, Gilreath TD, Benbenishty R, et al. Well-being and suicidal ideation of secondary school students from 
+military families. J Adolesc Health. 2014;54(6):672–677.
+ 37. Milburn NG, Lightfoot M. Adolescents in wartime US military families: a developmental perspective on challenges 
+and resources. Clin Child Fam Psychol Rev. 2013;16(3):266–277.
+ 38. Millegan J, McLay R, Engel C. The effect of geographic moves on mental healthcare utilization in children. J Adolesc 
+Health. 2014;55(2):276–280.
+ 39. Exceptional family member program. US Army Medical Department Web site. http://efmp.amedd.army.mil. Updated 
+September 9, 2015. Accessed May 5, 2018.
+429
+Family Readiness
+ 40. Russo TJ, Fallon MA. Helping military families who have a child with disability cope with stress. Early Child Educ J. 
+2001;29(1):3–8.
+ 41. Saperstein AK, Lilje T, Seibert D. A model for teaching reflective practice. Mil Med. 2015;180(4 Suppl):142–146.
+ 42. Nguyen DR, Ee J, Berry-Caban CS, Hoedebecke K. The effects of military deployment on early child development. 
+US Army Med Dep J. Oct-Dec 2014:81–86.
+ 43. Hoge EA, Guidos BM, Mete M, et al. Effects of mindfulness meditation on occupational functioning and health care 
+utilization in individuals with anxiety. J Psychosom Res. 2017;95:7–11.
+ 44. Phillips KM, Antoni MH, Lechner SC, et al. Stress management intervention reduces serum cortisol and increases 
+relaxation during treatment for nonmetastatic breast cancer. Psychosom Med. 2008;70(9):1044–1049.
+ 45. Network NCTS. Psychological First Aid Field Operations Guide, 2nd Edition. Washington, DC: National Center for PTSD; 
+2006.
+430
+Fundamentals of Military Medicine

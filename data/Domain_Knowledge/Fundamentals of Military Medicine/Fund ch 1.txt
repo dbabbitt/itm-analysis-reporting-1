@@ -1,0 +1,1235 @@
+1
+Environmental Extremes: Heat and Cold
+Section I
+MILITARY LEADERSHIP, SCIENCE, 
+AND ETHICS 
+Section Editors: 
+Melissa Givens, MD, MPH, and Shawn F. Kane, MD
+“White Coat Ceremony,” fall 2018, for the Uniformed Services University of the Health Sciences F. Edward Hebert School 
+of Medicine, in which the class of 2022 is symbolically awarded their white coats while in the uniform of their respective 
+service—Army, Navy, Air Force, or Public Health Service—to signify their admission into the profession of medicine while 
+serving as a professional uniformed officer. Photograph by Tom Balfour, Bio-Medical Photographer (Lead), Multimedia 
+Design Division, Uniformed Services University of the Health Sciences.
+2
+Fundamentals of Military Medicine
+3
+The History of the Military Medical Officer
+Chapter 1
+THE HISTORY OF THE MILITARY 
+MEDICAL OFFICER
+DALE C. SMITH, PhD*
+INTRODUCTION
+EMERGENCE OF THE ROLE OF OFFICER
+MILITARY PHYSICIANS BEFORE BECOMING OFFICERS
+The American Revolution
+Military Medicine in the Early 19th Century
+THE AMERICAN CIVIL WAR: MILITARY MEDICAL OFFICERS IN COMMAND
+THE MODERN MILITARY MEDICAL OFFICER
+The War With Spain
+The Great War
+The Second World War and the Emergence of Medical Specialization
+CONCLUSION
+*Professor of Military Medicine & History, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+4
+Fundamentals of Military Medicine
+INTRODUCTION
+is, one pertaining to performance of a duty or the 
+responsibilities of a post held (an office) on behalf of 
+others. Therefore, this chapter will briefly trace the 
+history of the officer, then the emergence of military 
+medicine as a professional medical activity, and 
+finally the combination of the two in the modern 
+military medical officer. 
+The military medical officer is the person who 
+most often practices the Fundamentals of Military 
+Medicine and so the presumptive primary reader of 
+this book. However, military medical practice antedates the role of military medical officer because 
+the role of officer originated outside the concerns of 
+the military or medicine—it is an official role, that 
+EMERGENCE OF THE ROLE OF OFFICER
+service at sea, Admiral John Byng was dispatched, in 
+1756, to relieve the Mediterranean island of Minorca, 
+which was under threat of French capture. Byng noted 
+he had inadequate forces but was not reinforced. 
+When he arrived he failed to relieve the island, 
+already largely in French hands, and withdrew, in 
+accordance with the Sailing Instructions, to the British 
+base at Gibraltar. The following year he was tried by 
+court martial and found guilty of “failing to do his 
+utmost”; he was then shot in keeping with the 12th 
+Article of War. Although nearly continual debate on 
+the rightness of the execution has occurred since, it 
+set a standard for officer behavior. An officer was one 
+who could be trusted to do their utmost to meet the 
+mission. The import of Byng’s experience was fully 
+appreciated by Voltaire, who in his satire Candide has 
+an English admiral executed, and the phrase pour encourager les autres—to encourage the others—became 
+part of modern motivational rationales. 2 In the early 
+American revolutionary military, it was the Byng 
+court martial standard of officership that motivated 
+The Oxford English Dictionary reports the word officer 
+entered the English language from Old French in the 
+14th century. Two hundred years later, the word was 
+applied to first the Royal Navy and then, in the 17th 
+century, to Royal Army personnel holding the king’s 
+commission, that is, those performing a duty in a post 
+held on behalf of the sovereign. 1 It is not surprising that 
+the association of officership with the navy antedates 
+its association with the army because the navy operated outside the immediate control of the sovereign; 
+therefore, the concept of duty or mission on behalf of 
+the sovereign had to be reinforced for the captain (ie, 
+leader) of a band of the king’s troops at sea in a way 
+it did not for the captain of a band of troops ashore 
+(under direct control of the king and his court officials). 
+Formal guidance on duties was given in official documents, the Articles of War for all officers and the Sailing 
+Instructions for officers of the Royal Navy. 
+However, these documents provided guidance 
+only, as illustrated by the experience of the naval officer John Byng. After 40 years of highly successful 
+TABLE 1-1
+EARLY MILITARY SERVICE ACADEMIES*
+Country 
+Date 
+Name
+United Kingdom 
+1720 
+Royal Military Academy Woolwich
+France 
+1748 
+Ecole du Corps Royal du Génie
+Norway 
+1750 
+Krigsskolen
+France 
+1751 
+Ecole Royale Militaire
+Austria 
+1751 
+Theresianische Militärakdemie
+United Kingdom 
+1801 
+Royal Military College, Sandhurst
+Prussia 
+1801 
+Akademie für junge Offiziere der Infanterie und Kavallerie
+United States 
+1802 
+US Military Academy
+*The early academies taught a special skill, the use of artillery, because aristocrats could not be presumed to know such a technical job. 
+The advantages of specific military education led to general precommissioning academies and then to more advanced schools. But the 
+responsibilities of officers changed dramatically over the course of their careers: leading a group of men so small an officer knew them all 
+by name and could see them when deployed was different from developing plans for a large group on behalf of a senior officer, which 
+was different still from being the senior officer in command of a group numbering thousands. As the services became increasingly larger 
+and technical, the tasks an officer needed to perform changed, and the services began to develop education for the next set of jobs at staff 
+and war colleges. Military professional education thus differs from other types of professional education, being learned in smaller doses 
+throughout a career rather than all in the beginning. 
+5
+The History of the Military Medical Officer
+John Paul Jones to reply with the inspirational “I have 
+not yet begun to fight” and Nathan Hale to regret that 
+he had “but one life to give for my country.”
+The differences in naval and land force officership 
+were further highlighted by the educational systems 
+that underpinned their practice. A military ship was 
+the most complex technology in existence in the early 
+modern world. It was to be conserved if it all possible, 
+the structure even more than the crew. To be trusted 
+with this social investment meant having proved under 
+a competent eye that an individual had mastered the 
+job. The means to this end was called “the school of 
+the ship,” a hands-on apprenticeship in ship handling 
+under various real-world conditions. After certain 
+skills were learned, the midshipman would stand an 
+examination for lieutenant. Time in grade and demonstration of practical knowledge and skill allowed 
+promotion to higher rank, and thus to the initial trust 
+was added the characteristics of ability to perform the 
+mission and faithfulness in meeting the mission. 
+In armies, which spent most of their time in garrison, it was more efficient to bring all cadets together in 
+a school to provide initial training, so national service 
+academies developed for army officer education (Table 
+1-1). Civilian professions were crystalizing in the same 
+era, but none of them aspired to the same level of social 
+responsibility. Although in the last century various 
+commentators have considered the military a profession (see Chapter 3, Officership and the Profession of 
+Arms in the 21st Century), it retains a unique unlimited 
+obligation to accomplish its mission. Consequently, the 
+military physician, by becoming an officer, adds to all 
+other professional responsibilities a commitment to the 
+larger society to fulfill the mission regardless of cost. 3
+MILITARY PHYSICIANS BEFORE BECOMING OFFICERS
+Now, at that time I was very inexperienced because 
+I had not yet seen the treatment of wounds made by 
+the arquebus; it is true that I had read in the first book 
+of Jean de Vigo about wounds in general, chapter 8, 
+that wounds made by firearms are poisoned because 
+of the powder and for their cure he commands that 
+they be cauterized with oil of elderberry to which a 
+little treacle should be added. Not to fail in the use 
+of this burning oil and knowing that such treatment 
+could be extremely painful for the wounded, I wanted to know before I used it how the other surgeons 
+carried out the first dressing; this they did by applying the said oil as nearly boiling as possible to the 
+wounds using tents and setons so I plucked up courage to do likewise. At last I ran out of oil and was 
+constrained to apply a digestive made of egg yolk, oil 
+of roses and turpentine. That night I could not sleep 
+easily thinking that by the default in cautery I would 
+find the wounded to whom I had failed to apply the 
+said oil dead of poisoning; and this made me get up 
+at first light to visit them. Beyond my hopes I found 
+those on whom I had put the digestive dressing feeling little pain from their wounds which were not 
+swollen or inflamed, and having spent quite a restful 
+night. But the others, to whom the said oil had been 
+applied, I found fevered, with great pain and swelling around their wounds. From then I resolved never 
+again so cruelly to burn poor men wounded with arquebus shot. 4(p358) 
+Paré, and the community of military surgeons of 
+which he was a member, were recognized as valuable 
+by the state. As the minister who governed 16th century 
+France, Cardinal Richelieu, noted: “two thousand men 
+leaving a hospital cured and in some sense broken into 
+the profession were far more valuable than even six 
+thousand new recruits.”5 As a result of Paré’s work, the 
+French crown decided to establish military hospitals 
+The care of soldiers by a system of healthcare providers assigned to the military for that purpose dates 
+to the Roman Empire and probably to the Egyptian 
+armies of the Middle Kingdom (1700 bce). There are 
+elements of modern military medicine in various stories of healthcare associated with European armies of 
+the late medieval and Renaissance periods. Arguably 
+the best-known military surgeon of the 16th century 
+was the great French surgeon Ambroise Paré. Paré 
+is famous in medical circles for his care of gunshot 
+wound patients without the use of boiling oil, the reintroduction of ligature for arterial bleeding, and setting 
+a high standard for care of soldiers (Figure 1-1). Paré 
+told the following story in his memoirs of the events 
+he encountered as a young surgeon: 
+Figure 1-1. Ambroise Paré. Colored line engraving by C. 
+Manigaud after E.J.C. Hamman. 
+Image courtesy of the Wellcome Library, London, England. 
+6
+Fundamentals of Military Medicine
+along the frontiers of the kingdom to provide care for 
+wounded soldiers and to train military surgeons to 
+provide such care.
+The 17th century saw the spread and general 
+recognition of the value of patient care provided by 
+military medicine to the emerging standing armies of 
+the era. Physicians outside the military commented 
+on the diseases of soldiers and sailors in studying 
+occupational relationships in disease etiology. The 
+most famous is probably Bernardino Ramazzini, who 
+published De Morbis Artificum Diatriba (Diseases of 
+Workers) in 1700. In the mid-18th century several 
+practitioners became committed to military preventive medicine in one form or another. Perhaps most 
+significant, certainly recognized as exceptional in its 
+ideas by contemporaries, was the 1752 work of Dr 
+John Pringle (Figure 1-2), Observations on the Diseases 
+of the Army in Camp and Garrison, which defined the 
+nature of medical advice for the commander in the 
+field and garrison for future generations. 6 Pringle 
+summarized his purpose in the preface to his Observations as:
+My chief intention here, was to collect materials for 
+tracing the more evident causes of military distempers, in order that whatever depended upon those 
+in command, and was consistent with the Service, 
+might be fairly stated, so as to suggest proper measures either for preventing, or for lessening such 
+causes in any future campaign. 6(ppvi-vii)
+At the same time, James Lind (Figure 1-3) illustrated the importance of preventive medicine issues 
+for medical personnel in the Royal Navy through 
+his classic work on scurvy, as well as his subsequent, less well known treatises on tropical medicine 
+and infectious disease. In 1757 Lind published an 
+underappreciated classic, An Essay on the Most Effectual Means of Preserving the Health of Seamen in the 
+Royal Navy, in which he advocated command responsibility for the health of sailors. 7 Lind discussed the 
+value of military medicine in the Navy as follows:
+To a crew replete in health, what enterprise too dangerous? What achievement too great? Whereas, a 
+sickly ship’s company, impotent and dispirited, have 
+frustrated many a well-concerted expedition, and 
+Figure 1-2. Engraving of Sir John Pringle
+Image courtesy of the National Library of Medicine, Images 
+from the History of Medicine, Bethesda, Maryland. Reproduced from: http://resource.nlm.nih.gov/101426740.
+Figure 1-3. Portrait of James Lind, 1716-1794, physician at 
+Haslar Hospital. Engraving by G. Chalmers after I. Wright. 
+Image courtesy of the Wellcome Library, London, England. 
+7
+The History of the Military Medical Officer
+that bravery, which the enemies of our country have 
+not been able to vanquish, has fallen a sacrifice to the 
+cruel ravage of devouring disease. 7(ppxii-xiii) 
+These works departed from the medical discussion 
+of diseases associated with military life and argued for 
+command of health, a military action or series of actions taken by the commander on advice of the doctor. 
+The American Revolution
+In the United States, the commitment of excellent 
+practitioners to the military needs of the nation predates the nation itself. American military medicine 
+began in the armies of the Revolutionary War with 
+pre-war militia surgeons and other volunteers who 
+supported medical efforts. In the last third of the 18th 
+century, military medicine was not highly regarded by 
+most line officers. This was due, in large measure, to 
+the absence of precision in the advice and treatment 
+offered. There was also a social uncertainty about the 
+role of an essentially middle class profession in what 
+was traditionally an aristocratically led organization. 
+The British traditions, accepted as patterns for the early 
+revolutionary armies, placed surgeons in military units 
+for the care of the injured and ill. 
+At the regimental level there was a hospital, medically managed by the senior surgeon with the aid of 
+other surgeons and enlisted personnel detailed by line 
+units. The detailed enlisted staff had no particular skill 
+or training for the duties and were most often troops 
+the line commander could best do without—the misfits and malcontents. The regimental hospital seldom 
+cared for large numbers of patients except right after 
+battle. In garrison there were expected to be general 
+hospitals, staffed by the superior command, to relieve 
+the regimental hospital during epidemics and to take 
+members of the regiment too ill to deploy when the 
+regiment left garrison. The American militia regiments 
+understood, at least in theory, their need for surgeons 
+and regimental hospitals, but when the war began no 
+larger organization existed to provide general hospitals 
+and the medical supplies necessary to keep the regimental hospitals functional over the course of the campaign.
+Congress acknowledged the need for a larger medical organization to support the forces and in 1775 created the “Hospital,” headed by Dr Benjamin Church 
+of Boston. As director general, Church was responsible 
+for the Hospital Department, which included general 
+hospitals, wherever and whenever established, as well 
+as the surgeons recruited to work in the general hospitals. The Hospital Department was responsible for the 
+acquisition and stockpiling of medical stores to meet 
+the army’s needs. The nature of Church’s responsibility for and control over regimental surgeons was not 
+specified. They continued to work for the colonel of 
+the regiment and to draw supplies from the Hospital 
+Department. They left wounded soldiers at general 
+hospitals when the regiment moved, but frequently 
+they did not cooperate with the general hospitals in 
+staffing and patient distribution issues. The lack of a 
+system, even in law or regulation, was in keeping with 
+the humanitarian focus of military medical practice in 
+the Hospital Department.
+When the Revolutionary War began, leaders of 
+American medicine produced guides and other works 
+for the benefit of both practitioners of medicine and 
+line officers in the new army. Perhaps most impressive 
+was the little book of Benjamin Rush, published in 1778, 
+which provided, according to its title, Directions for 
+Preserving the Health of Soldiers Recommended to . . . the 
+Officers of the United States Army. Rush was emerging 
+as a leader in the medical profession of Philadelphia 
+at the time. He was a member of the medical faculty 
+of the College of Philadelphia (later the University 
+of Pennsylvania) and, perhaps more importantly, a 
+patriot of distinction. A delegate to the Continental 
+Congress, he was one of the five physician signers of 
+the Declaration of Independence in 1776. Rush’s advice 
+in Directions was based in large measure on the work of 
+Pringle and dealt with environmental issues as well as 
+factors of personal hygiene, food, and clothing. What 
+is striking is the recognition both in the title and the 
+contents of the work that responsibility for the health 
+of the force rested in the actions of the line officer 
+rather than the medical practitioner. Doctors could 
+and should provide good advice; the officers would 
+have to implement it for it to be effective. 
+Command attention to medicine was a growing 
+enterprise in the 18th century generally, and in the 
+first regulations of the Continental Line (the formal 
+name for the congressionally supported military in the 
+Revolution), Regulations for the Order and Discipline of 
+the Troops of the United States, prepared by Major General Baron von Steuben (Figure 1-4), inspector general 
+of the army, specific direction was given for efforts to 
+maintain health. These included careful placement of 
+the kitchen and sinks, daily inspection of the tents by a 
+company officer, and the appointment of an “officer of 
+police” to inspect the camp. 8 The Regulations also discussed responsibilities of the regimental commander:
+The preservation of the soldier’s health should be his 
+first and greatest care; and as that depends in great 
+measure on their cleanliness and manner of living, 
+he must have a watchful eye over the officers of companies, that they pay the necessary attention to their 
+men in those respects. 8(p128)
+8
+Fundamentals of Military Medicine
+While the regulations appeared in 1779, they were 
+written contemporaneously with and probably inspired Rush’s Directions for Preserving the Health of 
+Soldiers in 1778 (adoption of the Regulations by Congress and printing by government contract slowed 
+their appearance). 
+Among the physicians serving in the revolutionary army and aboard naval ships, most were simply 
+doing the best they could in a difficult situation. At 
+the operational level, they were most often excluded 
+from discussions of military events; thus, placement 
+of hospitals was rarely a carefully conceived plan and 
+was almost always dictated by space available near 
+the point of need. Patriots in the field, true “minute 
+men” who happened to be physicians, they did not 
+consider themselves and no one considered them 
+military officers, but these early military physicians 
+started and supported a tradition that military medical officers have maintained: “the preservation of the 
+soldier’s health should be [the] . . . first and greatest 
+care. . . .”8(p67)
+Military Medicine in the Early 19th Century
+At the turn of the century, while the young United 
+States was closing down its standing army and medical 
+establishment, European states were transforming the 
+art based on the necessity of a new kind of war—the 
+wars of the French Revolution—with its larger, levee en 
+mass armies and, under Napoleon, a new and vigorous 
+use of combined arms warfare. 
+By the end of the 18th century, both the practicalities 
+of recruiting and retention and the moral philosophy of 
+the Enlightenment had advanced the idea that troops 
+were entitled to care in the field, and almost all armies 
+in Europe had an organized medical service. When, 
+in 1792, European countries decided that the French 
+Revolution had gone too far and invaded to restore the 
+kingdom, the members of the previous French Royal 
+Army felt conflicted: did they stand with France or 
+with the crown? Many stood with France, including 
+a military surgeon named Pierre-François Percy, who 
+was assigned as chief surgeon for the Army of the 
+North. Percy recognized that surgeons assigned to 
+Figure 1-4. (a) Painting of Major General Friedrich Wilhelm 
+Augustus Baron von Steuben by Ralph Earl, 18th-century.
+Image courtesy of Yale University Art Collection. Reproduced 
+from Wikimedia Commons. (b) Steuben FWA. Regulations 
+for the Order and Discipline of the Troops of the United States. 
+Philadelphia, PA: Styner and Cist; 1779. Reproduced from: 
+https://www.loc.gov/resource/rbc0001. 2006batch30726/?sp=8. 
+a
+b
+9
+The History of the Military Medical Officer
+individual units would become ineffective as the larger 
+armies of the Republic took more casualties than previous, smaller royal armies. He developed new medical 
+vehicles to take surgeons forward and advocated for a 
+new type of medical soldier, the brancardier, or dedicated litter bearer, who would work for the surgeon 
+in the field. Napoleon named Percy surgeon-in-chief 
+of the Grande Armee and authorized the expanded 
+recruitment and training of litter bearers in the early 
+19th century. Percy was also an early advocate of 
+rank-immaterial, medically dictated triage. But Percy, 
+with his common sense administrative suggestions, 
+is frequently forgotten because of the success of his 
+younger colleague, Dominic Jean Larrey (Figure 1-5).
+Internationally the most famous military surgeon 
+who ever lived, Larrey is generally credited with 
+systematically and intentionally moving the surgeon 
+forward on the battlefield to care for the wounded as 
+early as possible. He achieved this goal by creating a 
+surgical unit, the “flying ambulance,” which included 
+a group of operating teams, field evacuation personnel, 
+and evacuation vehicles under his consolidated guidance as surgeon to the Guard, Napoleon’s elite field 
+unit. Larrey conceived the idea of the flying ambulance 
+in 1794, when he saw the flying artillery rushing across 
+the battlefield at Mainz. He designed a small wagon on 
+an artillery carriage and, with an assistant and some 
+non-medically trained aides, he took himself forward 
+to aid the wounded in Italy later that year. Larrey was 
+made a baron of the French Empire and a commander 
+in the Legion of Honor, but his military rank remained 
+surgeon major (major in the French army is the highest 
+warrant rank; an O-4 is a commandant). Percy and Larrey achieved innovations because their ideas enjoyed 
+line support from commanders who believed they had 
+an obligation to care for their troops, but they might 
+have been more effective if considered officers and allowed to know the commander’s plan before the battle. 
+In the United States, Congress appointed physicians 
+to the forces, whether regiment, hospital, or ship; they 
+did not hold military rank, could not give orders, and 
+were not entitled to the privileges and courtesies due 
+officers. On the other hand, they were not soldiers or 
+sailors, nor were they civilians, as the first court martial 
+established. Physicians were professionals and thus 
+the social equal of many officers in the egalitarian culture of the new nation; however, traditions inherited 
+from Europe drew a sharp distinction between the 
+aristocratic classes, who led the fight, and those who 
+supported them in the effort (Exhibit 1-1). The medical 
+system in the War of 1812 was essentially that which 
+had been developed in the Revolution and disbanded 
+in the intervening years. In 1817, Surgeon Joseph Lovell 
+called the attention of the commanding general of the 
+Northern Division, Jacob Brown, to the defects of the 
+medical establishment in a comprehensive and innovative report of inspection. 9 
+Following the War of 1812, Congress reorganized 
+both the Army and the Navy but in quite different ways. 
+In 1816, John C. Calhoun began his tenure as secretary of 
+war with the goal of providing the Army in peacetime 
+the structure it would need in war. He selected Major 
+General Jacob Brown as his senior military advisor, and 
+Brown, in turn, brought Lovell’s ideas to the attention 
+of the secretary. In 1818, Calhoun convinced Congress 
+of the value of establishing a permanent Army Medical 
+Department (AMEDD) and a permanent position, the 
+surgeon general of the Army, at its head. Joseph Lovell 
+was appointed as the first surgeon general.
+The Navy was reorganized with three senior line 
+captains serving as commissioners to advise the secretary of war, but the secretaries of the next decade 
+were primarily interested in cost containment. Officer 
+education, on the British model, was still the school of 
+the ship, with midshipmen learning while serving indefinite tenures until they could pass the examination 
+Figure 1-5. Dominic Jean Larrey, a copy of Porträt des Barons 
+Larrey, Erster Chirurg des Feldzuges nach Ägypten by Anne-Louis 
+Girodet-Trioson, 1804. 
+Reproduced from: https://en.wikipedia.org/wiki/File:AnneLouis_Girodet-Trioson_005.jpg. Source: The Yorck Project, 
+2002. 
+10
+Fundamentals of Military Medicine
+EXHIBIT 1-1
+SURGEON HEERMANN AND OPERATIONAL MEDICINE
+The utility of medical officers and the problems of their ambiguous status were demonstrated in squadron deployments against the pirates of the Barbary Coast in the first decade of the 19th century. In 1801, an observation squadron 
+was sent to the Mediterranean, and in 1803 one of its frigates, the Philadelphia, ran aground and was captured by the 
+naval forces of Tripoli. Commodore Edward Preble authorized the ship’s destruction to deny it to the enemy. Stephen 
+Decatur, at that time a lieutenant commanding the Enterprise, was given the task of leading a volunteer raid into the 
+harbor to burn the vessel. He was given the captured ketch Intrepid to infiltrate the harbor. Decatur asked his surgeon, 
+Lewis Heermann, to assist in screening the volunteers, for he wanted no one subject to sudden indisposition among 
+the personnel on this dangerous mission. He further informed Heermann that the surgeon would accompany the 
+expedition until the ketch was about to enter the harbor, and then he would be put aboard the brig Siren for safety. 
+Heermann requested that Decatur reconsider his decision with a tripartite argument that captured the essential features 
+of military medicine and rings through the operational traditions of navy medicine to this very day: “My life, Sir, is 
+not more valuable than that of the other brave officers and men who accompany you;. . . . the presence of a professional man to assist the wounded might save many valuable lives, . . . and will not sailors more regardlessly expose 
+themselves, when they know that professional aid is near at hand? Should you have many wounded, would not some 
+confusion arise, to impair your effective force?”1 The appeal to humanitarianism and the importance of morale were 
+important to Decatur, as they are to any officer, but given the mission and what is known of Stephen Decatur, it must 
+have been the operational thinking that carried the day—the doctor went along.
+1. Pleadwell F. Lewis Heermann. Ann Med Hist. 1923;5:113–145.
+for lieutenancy. Navy medicine would not enjoy a 
+centralized system for another generation. In 1828, 
+the naval committees in Congress were finally asked 
+to reorganize naval medicine. The position of surgeon’s mate was abolished, as was direct commission 
+of surgeons. Under the new law, physicians were 
+recruited and took an examination to be appointed as 
+an assistant surgeon. After 5 years and successful passage of another examination, they were, by seniority, 
+promoted to surgeon when a billet became available. 
+The Navy examination system of 1828 was the first 
+recognition that all military physicians needed certifiable 
+dual competency. The examination of all candidates for 
+entry was medical, serving as an acknowledgment that 
+standards in the young nation’s medical schools had 
+declined in the previous generation. To assure the sailors, and their families and friends, that the nation would 
+adequately care for those who served, a board of senior 
+medical officers examined the medical competency of 
+all who were appointed. The examination for the grade 
+of surgeon included not only medical knowledge but 
+specific naval material on diseases at sea, examination 
+of recruits, and the hygiene of ships. Surgeon Thomas 
+Harris began a course of instruction at the Philadelphia 
+Navy Yard for assistant surgeons on shore duty, in the 
+hope of preparing them for their promotion examination. 
+In the Army, Joseph Lovell’s reform efforts were directed along several lines simultaneously. Significantly, 
+he had to fight to establish control over the department 
+in the face of congressional attempts at detailed management. Congress initially specified a wide variety of 
+duties for Army surgeons, each with a different title and 
+rate of compensation. These included hospital surgeons, 
+hospital surgeon’s mates, post surgeons, and regimental 
+surgeons and surgeon’s mates, as well as the apothecary 
+general and his assistants. In 1821, Congress gave up 
+attempts to specify the composition of the department 
+in detail and created a two-tier system, of surgeons 
+and assistant surgeons, who the surgeon general (with 
+the consent of the secretary of war) could assign as he 
+wished. Like the contemporary naval model, this created a hierarchical system, parallel to the commissioned 
+officer grades. Medical officers were not awarded commissions, but the AMEDD gained a large element of 
+control to respond to changing needs. 
+Lovell was perpetually concerned about the caliber 
+of practitioners in the service. He believed, and the testimony of physicians of the era supports his belief, that 
+the low pay of military physicians militated strongly 
+against retention of the best practitioners. In 1832 
+Lovell instituted, on the Navy model, a mandatory 
+examination of all those desiring to join the AMEDD. 
+The examination lasted 3 days and was conducted by 
+a board of three experienced officers; it covered basic 
+science as well as clinical skills and included both 
+written and oral formats. After 5 years of service, an 
+assistant surgeon was obliged to take an examination 
+for promotion to surgeon. In 1834 the pay of surgeons 
+was tied to that of majors in the line; that of assistant 
+surgeons of 5 years’ service to captains; and that of 
+new assistant surgeons to the pay of lieutenants. This 
+pay structure gave military medical officers relative 
+11
+The History of the Military Medical Officer
+rank; they ranked as lieutenants, captains, and majors, 
+but they were not called lieutenant, captain, or major, 
+and they could not perform the ancillary professional 
+duties of a commissioned officer, such as sitting on a 
+board of inquiry, nor could they issue a legally binding 
+order to a soldier. 
+In 1842 a system of six bureaus was adopted to improve the functioning of the Navy in support of ships 
+at sea. One of the bureaus was the Bureau of Medicine 
+and Surgery, and like the others it had a chief who 
+reported to the secretary of the Navy. The title of surgeon general was consciously not used in 1842 (it was 
+introduced after the Civil War) because it implied more 
+control and authority over the surgeons than the bureau 
+system envisioned (Navy medicine still did not have 
+a system). In August 1846, the secretary of the Navy, 
+George Bancroft, ordered assimilated or relative rank. 
+The surgeons were specifically denied the authority to 
+exercise command, even in hospitals, because Bancroft 
+felt that authority required approval of law. 
+The reason for Bancroft’s action is straightforward: he was trying to improve the effectiveness of 
+ship’s surgeons in war. American ships blockading 
+Mexico were frequently pulled from the line because 
+a large portion of their crews had scurvy. British 
+and French naval observers chastised the American 
+Navy for this preventive medicine failure; in their 
+view scurvy was a completely preventable disease. 
+However, even when surgeons offered what to them 
+were straightforward solutions, line implementation 
+did not always follow. Fortunately, the blockade was 
+short. In the years that followed the Mexican War, the 
+secretary of the Navy gave the chief of the medical 
+bureau additional authorities. Especially important 
+to the status of medical officers was the creation of a 
+technical chain of command and reporting established 
+in 1848. Now the surgeon’s reports would go to the 
+bureau and the ship’s commanding officer could not 
+interfere; this was not authority, but it provided real 
+persuasive power. 
+Figure 1-6. Florence Nightingale checking on her patients and administrating medicine at Scutari Hospital. Colored lithograph by J.A. Benwell. 
+Image courtesy of the Wellcome Library, London, England. 
+12
+Fundamentals of Military Medicine
+In February 1847, Congress passed legislation giving medical officers in the Army true commissions 
+and real as opposed to assimilated rank, in part 
+trying to improve the effectiveness of medical operations in the field. However, the law was not clear on 
+what the new commissions meant. In both services 
+the war had demonstrated that disease was at least 
+as great an enemy as the opposing forces, and there 
+was an increased desire to do something about it. 
+The British army was severely condemned for lack 
+of preparation and preventive medicine efforts in the 
+mid-1850s when it went to war in Crimea (1853–1856). 
+Conditions were so bad that private philanthropy 
+organized by The Times newspaper sent a civilian 
+EXHIBIT 1-2 
+THE RED CROSS AND THE GENEVA CONVENTIONS
+The Christian tradition in Europe has included several attempts at limiting the application of the “just war” doctrine to 
+those engaged in the fighting. Some consider the Knights Hospitaller, who operated infirmaries and escorted pilgrims 
+in the 12th and 13th centuries as a means to protect noncombatants, as the origin of the ideal, but their history is unclear 
+at critical points. In the 16th century various legal scholars argued for the immunity of noncombatants. In 1625 Hugo 
+Grotius published his influential De jure belli ac pacis libri tres (On the Law of War and Peace: Three Books), which argued 
+for strict laws on going to war and conducting wars. Certainly by the 17th century there were also attempts in both 
+Protestant and Catholic nations’ laws of war to protect churches, schools, and hospitals. The first mutually agreedupon protection of hospitals is probably that between British and French military commanders at Aschaffenburg in 
+the War of Austrian Succession (1740–1748). 
+But as war became more industrial and armies composed of more eclectic personnel, humane efforts were harder to 
+preserve. A particularly vicious battle in the Second Italian War for Independence, the Battle of Solferino, was witnessed by a Swiss businessman, Henri Dunant, who wrote up his recollections of the experience in an effort to gain 
+international cooperation to improve the conditions of those caught up in war. Friends in Switzerland helped form 
+an international relief committee in 1863, now named the International Committee of the Red Cross. The Red Cross 
+recognized national committees that various nation states agreed to charter and support. 
+Many of the signatories to the Red Cross idea met again the next year and adopted the Geneva Convention for the 
+Amelioration of the Condition of the Wounded and Sick in Armed Forces in the Field. The limited first Geneva convention provided four protections: (1) immunity from capture and destruction of all establishments for the treatment of 
+wounded and sick soldiers; (2) impartial reception and treatment of all combatants; (3) protection of civilians providing aid to the wounded; and (4) recognition of Red Cross symbol as a means of identifying persons and equipment 
+covered by the agreement.
+At the time, the United States was in the midst of the Civil War and President Lincoln, fearing European involvement 
+in the suppression of the rebellion, did not send a voting representative. Lincoln did send a team of two observers, and 
+subsequently he issued General Order 100, which provided many of the same protections. In 1882, the United States 
+ratified the Geneva Convention and the following year established a Red Cross society, largely due to a campaign led 
+by Clara Barton. 
+Further treaties followed as war changed. The Hague Convention of 1899 applied the protections of 1864 to war at sea, 
+and in 1906 a second Geneva Convention combined the 1864 and 1899 efforts. There were conventions about weapons 
+in 1907 and 1925, motivated primarily by gas warfare, and in 1929 the treaties were expanded to include protections 
+for prisoners of war. After the Second World War the treaties were again modified to reflect the changing conditions 
+of war and expanded in an effort to protect civilian noncombatants while recognizing partisans as troops. Permanent 
+Red Cross staff and the signatory nations to the Geneva Conventions continued to struggle with the concept of humane war as wars of national liberation, both nationalistic anti-colonial efforts and communist-inspired insurgencies, 
+proliferated in the last half of the 20th century.
+In the war trials following the surrender of Japan in World War II, the United States made the argument that nations 
+and their military officers were bound by commonly agreed-upon international law, even if they did not sign the new 
+treaties. Some signatory states of the 1949 Geneva convention have adopted further protocols in the 1970s and early 
+21st century, but the United States has not agreed to all of these provisions (see Chapter 6, The Law of Armed Conflict 
+and Military Medicine). 
+Data source: Gillespie G. A History of the Laws of War: Volume 1, The Customs and Laws of War with Regards to Combatants and Captives. 
+Oxford, United Kingdom: Hart Publishing; 2011.
+13
+The History of the Military Medical Officer
+with official blessing, Florence Nightingale (Figure 
+1-6), to help in the troop hospitals. Supported by 
+William Russell’s dispatches from the theater via 
+the telegraph (the first nearly real-time reporting), 
+Nightingale’s work came to international attention. 
+Eventually her efforts helped shape an educated 
+nursing community, inspired hospital reform, and 
+most importantly, reinforced the well-understood but 
+often ignored command obligation for the health of 
+the soldier and sailor.
+In 1859 Henri Dunant, a traveling Swiss businessman, came across the aftermath of the Battle of Solferino; his description of the experience is one of the 
+classics of humanitarian action on fields of battle, Un 
+Souvenir de Solferino, published at his own expense in 
+1862. It led to a series of meetings in Geneva, which 
+resulted in the International Committee of the Red 
+Cross and a proposed international treaty, called 
+the Geneva Convention, to provide for the care of 
+soldiers and make military medical facilities immune 
+(theoretically off limits to enemy attack) (Exhibit 1-2). 
+Clearly, in the mid-19th century the public showed 
+an increasing concern with the health and care of 
+those who served.
+Figure 1-7. Major Jonathan Letterman as medical director of 
+the Army of the Potomac. 
+Image courtesy of the National Library of Medicine, Images 
+from the History of Medicine, Bethesda, Maryland. Reproduced from: http://resource.nlm.nih.gov/101421695.
+THE AMERICAN CIVIL WAR: MILITARY MEDICAL OFFICERS IN COMMAND
+The lack of a traditional aristocracy and the creation of an education-based officer corps from the 
+US Military Academy underpinned the American 
+innovation of true commissions for Army Medical 
+Corps officers. At various times in the 1850s, the 
+adjutant general, the president, and the Congress 
+made clear the command authority of doctors was 
+restricted to the medical arena, but these directives 
+were enough to fulfill the aspirations of generations 
+of physicians on the battlefield who wished for a 
+medical system. In keeping with the humanitarianism of the age, American officers on both sides of 
+the Civil War understood troop health and care was 
+their responsibility. 
+The US Army sent a team of officers to serve as observers in Crimea. There Richard Delafield, the team’s 
+chair, lent his name to a commission and its widely 
+read report. The American public also heard much 
+about Crimea and Florence Nightingale through the 
+civilian press. Consequently, the Army made many 
+important innovations: various forward hospital and 
+ambulance modifications; significant involvement 
+of nongovernment organizations, especially the US 
+Sanitary Commission; research and education work 
+on the part of the Office of the Surgeon General; and 
+an exceptionally vigorous program of hospital building, all capitalizing on previous ideas and efforts. 
+However, in the history of the military medical officer, these achievements paled in comparison to the 
+impact of the work of Jonathan Letterman, medical 
+director of the Army of the Potomac from 1862 to 
+1864 (Figure 1-7).
+After the first battle of Manassas Junction, President 
+Lincoln named Major General George McClellan, one 
+of the Delafield commissioners, as commander of the 
+Army of the Potomac. McClellan decided to attack 
+the Confederate capital by way of the James River 
+peninsula, but the campaign was not well thought out, 
+and logistics, including medical supply and evacuation, were a disaster. Spring and early summer were 
+a time of sickness, and disease rates exceeded battle 
+casualties, further complicating the medical support. 
+Major Charles Tripler, the medical director at the time 
+and one of the most experienced operational medicine 
+experts in the Army, was unable to systematically 
+bring medical supplies in or patients out of the area 
+of operations. Not surprisingly, he lost the support of 
+his seniors, both medical and line, and was replaced 
+by Major Letterman, who was given license to change 
+the current system. 
+14
+Fundamentals of Military Medicine
+One of Letterman’s first observations was that 
+the problem of patient evacuation was seriously 
+compounded by the failure of teamsters, contracted 
+by the quartermaster to evacuate the field of battle, 
+to perform the job. A new approach was needed. In 
+July 1862, McClellan approved a dedicated (used 
+only for medical purposes) ambulance corps for the 
+Army of the Potomac. Enlisted personnel would be 
+trained to handle litters and move patients under 
+the military chain of command, a noncommissioned 
+officer in the regiments and a company grade officer 
+at brigade, division, and corps levels, and Letterman 
+would command the entire organization. Thus began 
+actual command of regular troops in the field by the 
+medical officer, albeit to perform a medical task; this 
+was the job civilian doctors, or those under warrant, 
+could not do. 
+In the original Army of the Potomac units with ambulance corps, the new system worked very well, but 
+the battle of Antietam revealed other problems related 
+to patient evacuation and medical supply. After the 
+battle, as noted by both the press and Major Letterman, 
+patients were stacked up in some hospitals while others were underused; there were flexible standards of 
+care leading to amputations; and critical medical materials were in short supply. These problems pointed 
+to the following changes proposed by Letterman: The 
+medical director should have command of all field 
+hospitals in the deployed force, and hospitals should be 
+located at the division level rather than the traditional 
+regimental location. Regimental aid posts should be 
+established in conjunction with the ambulance system 
+to facilitate sorting the patients for their move to the 
+hospital. Operating teams needed to be preselected 
+based on skill and experience rather than desire and 
+rank, and there should be mandatory consultation on 
+all amputation decisions. A medical officer should be 
+designated to coordinate further evacuation from the 
+field hospitals and medically appropriate transport 
+arranged to move the wounded back to the general 
+hospitals being built in Washington, Baltimore, and 
+Philadelphia. Finally, medical supplies needed to be 
+controlled centrally and pushed forward as needed 
+rather than stored forward and subject to unnecessary 
+wastage. Major General Ambrose Burnside, selected 
+by President Lincoln to command the army after McClellan was relieved, approved all of Letterman’s suggestions, and a medically commanded field medical 
+system came into existence for the first time. 
+The new system worked brilliantly at Fredericksburg in December 1863, even though Burnside and the 
+Army lost the battle. Encamped before Fredericksburg 
+that winter, the troops had begun to sicken. In discussions with the regimental medical officers, Letterman 
+discovered that their diet was inadequate and living 
+conditions were unsanitary. He took the problem to 
+the new commander, Major General Joseph Hooker, 
+who undertook corrective action and authorized Letterman to establish a formal medical inspectorate to 
+assure the health of the army. The resulting Letterman 
+system was complete: from prevention to echeloned 
+care, the military medical officer had a set of new roles 
+and responsibilities in the deployed force, roles that 
+could be met only by those with military authority. 
+Equally important, the system had been sanctioned 
+by three commanding generals. In 1864, Letterman’s 
+system became required by law in all US field armies 
+for the duration of the war. 
+However, when the war ended in 1865, these measures disappeared from American practice. But the 
+system did not vanish. European powers had sent observers to US battlefields, and the US Army published 
+its medical experiences in the multi-volume Medical 
+and Surgical History of the War of the Rebellion,10 which 
+was widely read and studied in Europe. The Prussian 
+army used Letterman’s system effectively in the wars 
+of German unification, and the French and British 
+adopted parts of it in conjunction with other military 
+medical reforms in the last quarter of the century. All 
+the European armies were using it in World War I, and 
+the AMEDD relearned it from the allies as the United 
+States entered the war in 1917.
+THE MODERN MILITARY MEDICAL OFFICER
+When Florence Nightingale returned to London 
+after the Crimean War, she realized some of the diseases seen in the Near East were not seen (or taught) 
+in England, and military physicians needed enhanced 
+education to serve wherever their duties took them. 
+She called for a military medical school to provide 
+the extra education civilian doctors recruited into 
+the service would need, and in 1860 the British Army 
+Medical School was established. At the same time a 
+similar course of instruction was offered at the Val 
+de Grace Hospital in Paris for deploying French military physicians. Such a school was first proposed by 
+Surgeon General Hammond for the American army 
+during the Civil War, but it was not established until 
+1893, by Surgeon General Sternberg. 
+By the 1890s all these schools were teaching microbiology of camp and tropical diseases, and military 
+medical officers became among the best educated 
+physicians. The new epidemiology (and other sciences) 
+would eventually make medical advice predictable 
+15
+The History of the Military Medical Officer
+and consistent, but it took time for the officer corps 
+to recognize this change. The schools also taught the 
+growing body of military professional material that 
+medical officers needed to understand, especially their 
+unique place in the emerging international laws of war 
+and their functions as staff advisors.
+Military staff work had evolved slowly since the 
+early modern period, but the nature of industrial 
+war accelerated its growth and definition. Largely as 
+a result of the extraordinary Prussian success in the 
+wars of German unification (1866–1871), senior line 
+officers in Europe and the United States were exploring 
+advanced professional military education and its role 
+in the creation of staff officers. At Annapolis a debate 
+arose over the role of engineering officers in the new 
+steam navy, and the reformation of the concept of a 
+naval line officer to include at least junior engineers. 
+A sharp distinction was set between officers of the line 
+and officers of the staff in 1871 legislation; the Navy 
+doctor, as an officer of the staff with relative rank, 
+gained authority to command in medical facilities in 
+the 1880s; and actual as opposed to relative rank was 
+finally awarded to naval surgeons in 1899. 11 In the 
+Army, the School of Application for Infantry and Cavalry was created in 1881 at Ft Leavenworth, patterned 
+after the artillery school at Ft Monroe, to teach young 
+officers to more effectively use their units. 
+The War With Spain
+Unfortunately, these medical and military education 
+efforts did not pay the dividends expected in the next 
+US war. In part this was the result of the 18th-century 
+approach to militia mobilization still in use in 1898. 
+The medical departments and the combat arms units 
+needed to recruit volunteers, and the volunteers, 
+physicians and line officers, were not well informed 
+about modern military applications, medical science, 
+or prevention in the field. In the Spanish-American 
+War, Surgeon General Sternberg sent out a circular on 
+Figure 1-8. (a) Edward L. Munson as a brigadier general at 
+the end of World War I. (b) Title page of Munson’s classic 
+text on the line officer use of medical assets, The Principles of 
+Sanitary Tactics, 1911.
+Image (a) courtesy of the National Library of Medicine, 
+Images from the History of Medicine, Bethesda, Maryland. 
+Reproduced from: http://resource.nlm.nih.gov/101424082. 
+Image (b) reproduced from Internet Archive: https://archive.
+org/details/principlessanit00munsgoog.
+a
+b
+16
+Fundamentals of Military Medicine
+prevention of fecal-oral transmission of typhoid, concluding there should be no typhoid in the Army camps. 
+Therefore, the surgeons did not diagnosis patients as 
+having typhoid, instead describing the patients as having typhomalaria or some other disease. Sternberg was 
+therefore surprised when the newspapers reported an 
+epidemic of typhoid in the training camps. The second 
+problem was similar: line officers had heard about 
+germs but did not really believe something they could 
+not see would make the men sick, and therefore they 
+paid very little attention to advice from the doctors on 
+the relative positioning of latrines and water sources. 
+More Americans died of typhoid fever in US training 
+camps than were killed by the Spanish. 
+After the war, a presidential commission to study 
+the work of the Army in the war, led by retired Brigadier General Granville Dodge and so called the Dodge 
+Commission, concluded that the AMEDD needed a 
+reserve of doctors to call during deployments because 
+civilian physicians, while patriotic and willing, were 
+not prepared to meet the mission. The Dodge Commission also concluded that line officers needed AMEDD 
+education in care of troops during peacetime professional military education to make sure they understood 
+the importance of the medical advice given during 
+deployments. 
+Departments of hygiene were established at the 
+US Military Academy and US Naval Academy, and 
+surgeons assigned to the relatively new Naval War 
+College began to offer lectures on the subject, but 
+the most impressive program was at the Army’s 
+School of Application in Leavenworth, Kansas. Soon 
+renamed the Staff College, the school’s Department 
+of the Care of Troops became the home of Major 
+Edward L. Munson (Figure 1-8), who worked with 
+the line instructional staff to teach line officers about 
+medical readiness and to teach medical officers how 
+to work on a division staff. Recognizing the need to 
+speak to military leaders in terms they understood, 
+Munson called his instruction “sanitary tactics.” He 
+also developed summer encampments for reserve and 
+National Guard medical units to help them prepare 
+for deployed medicine. 
+Figure 1-9. (a) Paul F. Straub as a major on the War College 
+staff. (b) Title page of Straub’s classic text for medical officers, 
+Medical Service in Campaign, 1910.
+Image (a) courtesy of the National Library of Medicine, 
+Images from the History of Medicine, Bethesda, Maryland. 
+Reproduced from: http://resource.nlm.nih.gov/101421695. 
+Image (b) reproduced from Internet Archive: https://archive.
+org/details/medicalservicei01stragoog.
+a
+b
+17
+The History of the Military Medical Officer
+Additionally, the Army Medical School in Washington, DC, reopened in 1901 and started a program 
+of summer encampments for future regular medical 
+officers. The 1909 encampment gave rise to an important professional manual, Medical Service in Campaign: 
+A Handbook for Medical Officers in the Field,12 by Major 
+Paul Straub, a Medal of Honor awardee in the Philippine Campaign who was assigned part time to the 
+War College planning staff (Figure 1-9). Between them, 
+Munson and Straub defined the US Army special staff 
+role for military medical officers and for line officers 
+as part of the new military staff function. As officers 
+trained to understand the military units, roles, and 
+missions, the new members of the medical corps were 
+better prepared to give advice that, in Pringle’s classic 
+phrase, “was consistent with the Service.”
+The same scientific progress that improved preventive medicine advice also changed therapeutic 
+medicine and led to the involvement of more personnel in the healthcare enterprise. In the second half of 
+the 19th century, the hospital became an increasingly 
+common site of care as a result of industrial trauma, 
+urbanization, and the changes in care dictated by the 
+new medical sciences of physiology and microbiology. 
+Military medicine had long used hospitals for custodial 
+care of soldiers and sailors without family to care for 
+them, and even this use of hospitals increased. 
+However, the issue of staffing was by no means 
+clear. The new trained nurse served the civilian community, but the military had a long tradition of enlisted 
+hospital stewards and baymen. These enlisted medical 
+soldiers and sailors were temporary, but militaries 
+around the world made them increasingly dedicated 
+in the last quarter of the century. In the United States, 
+the Army established the Hospital Corps in 1887, and 
+the Navy did so in 1898. The Navy Hospital Corps’ 
+was delayed by the problem of recruiting landsmen 
+for service at sea without adequate sea service to care 
+for themselves in the risky environment. Most medical 
+services had used “nurses” at various times in their 
+hospitals, especially in fixed hospital facilities, but 
+these personnel had various levels of training and 
+commitment. 
+By the 20th century the new scientific nurse training 
+(inspired by Florence Nightingale) was in virtually 
+every Western nation, and military hospitals began to 
+use educated and registered nurses exclusively. The 
+US Army added the Nurse Corps in 1901; the Navy 
+followed in 1908. As other professional groups became 
+important to military medicine, they were added; 
+sometimes, like dentists, as a separate corps, at other 
+times, like pharmacists, as part of a preexisting corps. 
+Physicians continued to hold the command positions 
+because many of these new groups were either civilians on warrants or enlisted. However, like physicians 
+before them, many of these professionals campaigned 
+for commissioned status on the argument they would 
+be more effective as officers.
+In addition to new types of personnel, the nature 
+of the medical profession was being changed by the 
+new sciences, which underpinned a rise in specialized 
+practice. Few practitioners limited their practices to a 
+specialty, but many were gaining a consultation and 
+referral reputation in their locality. Military medical 
+services were generally ambivalent about the civilian 
+specialization efforts because all military medical officers needed to be able to practice in isolation and be 
+fully competent in all aspects of practice. While Army 
+doctrine since Letterman had recognized different 
+levels of skill, the US Army made no effort to codify 
+surgical skill and experience. The US Navy developed 
+a post, supervising surgeon, in its larger hospitals, with 
+the duty to encourage and supervise the education and 
+training of junior officers in the surgical arts. 
+The Great War
+In European services the long tradition of separate 
+communities of physicians and surgeons easily allowed recruitment of surgical consultants to hospitals 
+from civil life in times of need, especially during largescale mobilizations. In the United States, however, 
+as the Army prepared for war in 1916, there was no 
+obvious solution to assure recruitment of medical staff 
+with the required skills. The surgeon general, William 
+Gorgas, was familiar with the academic preventive 
+medicine community, and although he had less personal knowledge of expertise in American surgery, he 
+knew those who did.
+Leaders in American medicine had created the Physicians’ Committee on Preparedness in 1916 to mobilize 
+the medical profession for the possibility of war. William J. Mayo was its chair. The committee encouraged 
+physicians to enroll in the reserve corps and polled 
+county medical societies to build lists of physicians 
+with specialized skills. General Gorgas asked Dr Mayo 
+to come onto active duty and report to the Office of the 
+Surgeon General as his advisor on surgical personnel; 
+unfortunately, the laws on the assignment of officers 
+prevented such an advisory or consulting appointment. The 1916 legislation that created a new reserve 
+component also limited reservists to commissions as a 
+major. For credibility with allied medical departments 
+and as a sign of professional stature, leading physicians 
+in the reserve corps thought they should be colonels. 
+Dr William Mayo and his brother, Dr Charles Mayo, 
+worked in their civilian capacity to get these laws 
+changed, and consequently Major William Mayo was 
+18
+Fundamentals of Military Medicine
+able to report to the Office of the Surgeon General for 
+assignment as a newly promoted colonel. 
+Colonel Mayo, in conjunction with other leaders in 
+American surgery, worked out a system of assigning 
+surgeons from the reserve to deployed hospitals while 
+preserving surgical skill to support the civilian population and wartime industries in the United States. The 
+practical need to be a colonel to get things done in 
+Washington and the importance of parity with allied 
+officers was readily conceded by combatant arms officers. However, the creation of instant reserve corps 
+medical colonels, when a colonelcy took almost 20 
+years to earn in the regular service, line or medical, in 
+addition to the direct commission of medical specialists 
+as field grade officers, led to some resentment among 
+regular officers. In the 15 years following World War 
+I, both the Army and the Navy resisted the use of 
+specialization in regular medical corps officers. Both 
+services expected the specialized medical expertise to 
+be found in the reserve corps and actively encouraged 
+academic medicine’s participation in the reserves, 
+where the abbreviated route to promotion and direct 
+commissions at field grade would be less offensive.
+In Europe during World War I, medical officers 
+worked with both enlisted personnel and nurses in 
+an intense operational environment. Nurses were 
+deployed forward in mobile hospitals and staging 
+facilities despite their ambivalent status as civilians 
+recruited by the Red Cross and attached to the Army. 
+Following a French example, to reduce the time before 
+point-of-wounding care was initiated, first the Marines 
+and later the Army deployed enlisted personnel from 
+ambulance units forward on temporary duty with the 
+combatant units. As a result, World War I was the last 
+war in which a medical officer, Lieutenant Joel Boone, 
+US Navy Medical Corps, was awarded the Medal of 
+Honor, and the first war for a Navy corpsman to receive the medal. 
+Because there were many more enlisted medical 
+personnel than medical officers, and they could be 
+trained in first aid to do almost as much as a physician 
+in the field, the future use of forward medics became 
+a policy norm. Assuring their training and role in a 
+coordinated field care environment became a critical 
+new function of medical officers. The war also witnessed the temporary creation of a new class of medical 
+department officers, the administrative and sanitary 
+corps, consisting of non-physicians with needed skills 
+to contribute in critical areas that did not absolutely 
+require physician participation, such as administration, epidemiology, and logistics. These corps were 
+disbanded after the war, re-created in World War II, 
+and consolidated in the post-World War II period as 
+the Medical Service Corps. 
+Regular medical officers were largely responsible 
+for command and control of the medical system in 
+the theater of operations during the World War I 
+European deployment. Examples of excellence and 
+innovation included Colonel Gilchrest’s deployment 
+of gas decontamination units13 and Colonel Lyster’s 
+development of aviation medical support units. 14 
+However, Major General Merritt Ireland, medical officer of the American Expeditionary Forces (and after 
+1918 the surgeon general), thought the overall level 
+of coordination and communication was subpar and 
+needed to be improved. Because field medicine was the 
+traditional essential competence of the medical officer, 
+Ireland established the Medical Field Service School in 
+1921 to teach basic field skills to new Medical Corps 
+officers. The school also provided a training center for 
+medical units that allowed more experienced officers 
+the opportunity to practice skills of command, control, 
+coordination, and communication in a predeployment 
+situation. 
+The Second World War and the Emergence of 
+Medical Specialization
+During World War II the military medical officer 
+role was similar to that of World War I: the regulars 
+provided command and control while the reserves 
+provided specialists, especially consultants. The vast 
+majority of medical personnel served as providers 
+and had minimum military training, mostly common 
+field skills so they could take care of themselves when 
+deployed. These physicians were officers by courtesy 
+and, although they held military authority, their de 
+facto authority was medical in the medical setting. 
+A change, mostly for generalists, was an increasing 
+number of officers assigned to support the aviation 
+arms of both services. 
+The other significant change in World War II was 
+more difficult for the services and their medical departments to accommodate. The war had proven the 
+absolutely essential nature of specialists as part of 
+the regular AMEDD. After the war all three services 
+established graduate medical education programs that 
+initially depended on the civilian academic community for educators and accreditation; however, these 
+programs slowly developed expertise of their own 
+as officers went through the process and matured as 
+specialists. 
+But career patterns developed for general practitioners were not always adaptable to medical specialist 
+practitioners. In a medical department of general 
+practitioners, all officers were available for all duties 
+commensurate with their rank and years of service, 
+but the new medical departments of the late 1940s had 
+19
+The History of the Military Medical Officer
+to adapt to medical officers with narrower interests. If 
+an officer with 1 year of postgraduate education spent 
+6 to 8 years with the active forces and was assigned 
+as a division surgeon, he would know something of 
+preventive medicine and field hospital utilization 
+for surgical medical and psychiatric patients. But the 
+new specialist major, who had spent 5 of those years 
+in a teaching hospital as a surgical resident, could not 
+be expected to do the same job effectively. The difficulties of providing professional military education 
+and experience during graduate medical education 
+would be made fatally obvious during combat on the 
+Korean peninsula, when young officers without field 
+experience were ineffective in command of battalion 
+medical units.
+Postwar tensions evolved into the so-called Cold 
+War that turned into combat action in Korea in 1950. 
+Because insufficient physician volunteers were available, a doctor draft was instituted, which continued 
+until 1973 (when an all-volunteer force policy was 
+initiated). During the doctor draft all healthy male physicians completing internship were subject to a 2-year 
+service obligation. The obligation could be deferred 
+for residency, but the cost was an increase in obligation. Only about 4% of obligated physicians stayed in 
+the service, and a peculiar force structure developed 
+(a surplus of O-3s and a dearth of senior O-4s and 
+O-5s). In an effort to retain more physicians, a separate 
+promotion board was established in 1960 to promote 
+Medical Corps officers separately from other officers. 
+Higher promotion rates and faster promotion resulted, 
+and retention was slightly improved. However, a perceived lack of rigorous military standards for medical 
+officer promotions damaged the credibility of medical 
+officers among other members of the officer corps. 
+Drafted doctors, who received only abbreviated 
+professional military education before being sent to 
+Korea, and then in the 1960s to Vietnam, reinforced 
+the general perception of their inadequate leadership 
+and professional military skills. In Korea several battalion aid stations were lost to the enemy because of 
+failures in common field skills and leadership on the 
+part of inadequately prepared battalion surgeons. 
+Vietnam witnessed the Levy case, in which a drafted 
+doctor refused to train medics for the Special Forces 
+because (1) he thought they would misuse their medical knowledge (a violation of his medical ethics) and 
+(2) the war was immoral and probably illegal, so the 
+order to train them was not legal, and he should be 
+excused by the Nuremburg precedent that one did 
+not need to obey illegal orders. 15 (Levy was convicted 
+under the Uniform Code of Military Justice, and his 
+conviction was upheld by the Supreme Court on appeal; see Chapter 5, Military Law and Ethics.) 
+The negative perception of medical officers was 
+furthered by the conduct of many field grade specialty 
+providers in hospitals in the United States who failed 
+to get appropriate haircuts and wore the uniform improperly, compromising good order and discipline. 
+These problems declined with the discontinuation of 
+the doctor draft, but some force structure problems 
+persisted because of the rapid promotion of medical 
+officers who did not have commensurate military 
+experience. Frequently the physician was the second 
+most senior officer in the battalion or on the cruiser, 
+and not all specialty training was particularly adaptable to deployed settings. Additionally, professional 
+military education for Medical Corps officers remained 
+an administrative struggle because the medical service 
+benefit for uniformed and then retired service members grew steadily after its introduction in 1956, and 
+physicians were needed to provide care in peacetime.
+The need for providers, especially specialty providers, made gaining professional military education and 
+subsequent staff and command experiences at a junior 
+level increasingly difficult for military medical officers. 
+At the end of the Persian Gulf War, the Army surgeon 
+general introduced a requirement thought radical by 
+most of the AMEDD: that to be considered for the rank 
+of colonel, a physician would need to successfully 
+complete the Officer Advanced Course, a requirement 
+for promotion to captain in the 1950s. The course, since 
+renamed the Captains Career Course, is now mostly 
+online with little required on-site instruction. 
+CONCLUSION
+The military needs physicians to succeed as officers, 
+and there is some evidence that the public and soldiers 
+want physicians to be in charge of medical areas. There 
+is a strong belief that physicians naturally take patient 
+care questions into consideration in making command 
+decisions. However, being a good, or even great, physician will not make someone a good commander; only 
+good officers can command successfully. By the end of 
+the 20th century, the need for officers to command had 
+given rise to corps-immaterial command opportunities 
+in medical units. While medical service and nurse officers have done exceptional jobs in command roles, the 
+21st century has seen a resurgence of Medical Corps 
+command opportunities as military medical officers 
+make the conscious decision to prepare themselves 
+for command by pursuit of professional military education (often online) and seek appropriate positions 
+earlier in their careers. To help combat service support 
+20
+Fundamentals of Military Medicine
+as well as National Guard and reserve officers, the 
+Staff College, renamed Intermediate Level Education, 
+is available at various sites as well as online. Learning 
+to be effective on a staff still requires knowing what is 
+“consistent with the Service.” 
+Medical officers should attend Intermediate Level 
+Education in their second medical utilization tour. 
+They will find they know the medicine, and while all 
+providers are constantly struggling to stay current, 
+the provider with 4 or 5 years of practical experience 
+is no longer concerned that their medical skills are 
+inadequate. Also, at that point it is easiest to take a 
+couple years out of the 60-hour-a-week clinic and 
+serve on a staff or in a command preparation position. Consultants and specialty leaders are available to 
+help with career planning. Good officership, like good 
+medicine, is a deliberate choice and requires more than 
+meeting a minimum requirement; in the words of the 
+Byng court martial, it requires the commitment to “do 
+your utmost.” 
+REFERENCES
+ 
+1. Oxford English Dictionary. Oxford and New York: Oxford University Press; 1971: sv “officer.”
+ 
+2. Royal Naval Museum. Information sheet: John Byng. http://www.royalnavalmuseum.org/info_sheets_john_byng.htm. 
+Accessed August 15, 2017.
+ 
+3. Hackett JW. The Profession of Arms. London, England: Times Publishing Company; 1962: 63. 
+ 
+4. Paré A. Les oeuvres de M. Ambroise Paré conseiller, et premier chirurgien du Roy avec les figures & portraicts tant de l’Anatomie 
+que des instruments de Chirurgie, & de plusieurs Monstres. Paris, France: Gabriel Buon; 1575.
+ 
+5. Internet Archive. Full text of Chirurgiens et blessés à travers l’histoire des origines à la Croix-Rouge. https://archive.
+org/stream/chirurgiensetble00caba/chirurgiensetble00caba_djvu.txt. Accessed June 6, 2017.
+ 
+6. Pringle J. Observations on the Diseases of the Army. London, England: A Millar and D Wilson; 1752.
+ 
+7. Lind J. An Essay on the Most Effectual Means of Preserving the Health of Seamen, in the Royal Navy. London, England: D. 
+Wilson; 1762. https://archive.org/details/essayonmosteffec00lin. Accessed June 6, 2017.
+ 
+8. Steuben FWA. Regulations for the Order and Discipline of the Troops of the United States. Philadelphia, PA: Styner and Cist; 
+1779.
+ 
+9. Craig SC. “Some System of the Nature Here Proposed”: Joseph Lovell’s Remarks on the Sick Report, Northern Department, U.S. 
+Army, 1817, and the Rise of the Modern US Army Medical Department. San Antonio, TX: Borden Institute; 2015.
+ 10. The Medical and Surgical History of the War of the Rebellion. Washington, DC: Government Printing Office; 1870–1888.
+ 11. Laws Relating to the Navy, Annotated. Washington, DC: Government Printing Office; 1922.
+ 12. Straub PF. Medical Service in Campaign: A Handbook for Medical Officers in the Field. Philadelphia, P. Blakiston’s Sons; 
+1910. 
+ 13. Gilchrist HL. A Comparative Study of World War Casualties From Gas and Other Weapons. Edgewood Arsenal, MD: Chemical Warfare School; 1928.
+ 13. Ireland MW. Medical Aspects of Gas Warfare. Vol XIV in: The Medical Department of the United States Army in the World 
+War. Washington, DC: Government Printing Office; 1926.
+ 14. US War Department, Air Service, Division of Military Aeronautics. Air Service Medical. Washington, DC: Government 
+Printing Office; 1919.
+ 15. Parker v Levy, 417 US 733 (1974). https://supreme.justia.com/cases/federal/us/417/733/case.html. Accessed June 6, 2017.

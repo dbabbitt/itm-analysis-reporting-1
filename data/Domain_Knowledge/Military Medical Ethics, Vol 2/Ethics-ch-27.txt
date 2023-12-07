@@ -1,0 +1,1035 @@
+A Proposed Ethic for Military Medicine
+851
+Chapter 27
+A PROPOSED ETHIC FOR MILITARY
+MEDICINE
+THOMAS E. BEAM, MD*; AND EDMUND G. HOWE, MD, JD†
+INTRODUCTION
+A PROPOSED MILITARY MEDICAL ETHIC
+Physician First, Officer Second?
+Limited Exercise of Power
+Compensatory Justice
+THE DECISION-MAKING PROCESS
+Military Medical Ethics Decision-Making Algorithm
+Applying the Military Medical Ethics Decision-Making Algorithm
+Conflicts Between Ethics and the Law: An Algorithm
+CONCLUSION
+*Colonel (Retired), Medical Corps, United States Army; formerly, Director, Borden Institute, Walter Reed Army Medical Center, Washington,
+DC 20307-5001 and Medical Ethics Consultant to The Surgeon General, United States Army; formerly, Director, Operating Room, 28th
+Combat Support Hospital (deployed to Saudi Arabia and Iraq, Persian Gulf War)
+†Formerly Major, Medical Corps, United States Army; currently, Director, Programs in Ethics, Professor of Psychiatry, and Associate Professor of Medicine, Uniformed Services University of the Health Sciences, 4301 Jones Bridge Road, Bethesda, Maryland 20814; and Chair,
+Committee of Department of Defense Ethics Consultants to the Surgeons General
+Military Medical Ethics, Volume 2
+852
+Asclepius the healer, from ancient Greek mythology
+Military medicine is the combination of two ancient professions—medicine and the military. The military medical
+professional more often than not functions primarily as a physician, and only secondarily as a uniformed member of
+the armed forces. When the need arises, however, the two professions merge in the person of the military physician.
+This merging of professions is as old as the professions themselves. Indeed, in Greek mythology, the two sons of
+Asclepius—Machaon and Polidarius—were both healers and warriors. In the US armed forces, military physicians
+are not warriors in the sense of taking up arms to confront the enemy, unless their own lives, or those of their patients, are threatened.
+Art: ©Araldo de Luca/CORBIS. Reproduced with permission.
+A Proposed Ethic for Military Medicine
+853
+INTRODUCTION
+That is, military physicians balance giving absolute
+priority to the principle of military necessity (adopting a military role-specific ethic) with giving moral
+weight to their traditional civilian medical priorities.
+When they do the latter, they give patients’ interests some moral weight even though this conflicts
+with interests that might further military interests.
+However, as we will discuss later in this chapter,
+there is a distinction between military necessity, which
+is absolute, and military interests, which are not.
+Difficulty arises in ascertaining what constitutes
+true military necessity involving medical decisions.
+Making this determination is among the most difficult ethical decisions military physicians and military medical leaders face. This chapter will propose
+a decision-making process that could be used by
+policy makers and military physicians. Understanding this process can help individual physicians accept those situations in which they must place the
+needs of the military over those of their patients.
+Individual physicians can also use the process in
+their own practices when policy or guidance from
+commanders is not clearly stated.
+The preceding chapters have explored ethical
+considerations arising in military medicine. It has
+been emphasized throughout these discussions that
+many of these considerations do not arise in civilian settings. Therefore, directly applying ethical
+principles from civilian medical ethics may not be
+appropriate in military medicine. The basic discrepancy between the two settings involves their goals
+and how these goals can be achieved. In the military, the objective is to defeat the enemy; this often
+involves killing enemy soldiers. When the mission
+of protecting society requires it, all members of the
+military must subordinate other value priorities to
+effect this end of overpowering an enemy by whatever legal and moral means necessary. For military
+physicians, this may involve sacrificing their patients’
+interests when required by the military mission of
+protecting society. Civilian doctors, in contrast, generally can focus on primary medical goals, such as
+trying to save patients’ lives, or halt the spread of
+disease. This same discrepancy in goals underlies
+the core ethical quandary military physicians face,
+which, in one way or another, permeates this book.
+A PROPOSED MILITARY MEDICAL ETHIC
+The tensions between a military doctor’s duties
+to his patients and to the command (and society)
+have been discussed extensively in the previous
+chapters of these volumes. In this final chapter, we
+will offer a proposed military medical ethic and use
+a decision-making algorithm to suggest how physicians and policy makers might best go about balancing these competing values.
+Physician First, Officer Second?
+We propose as a basis for beginning discussion
+that a military physician is primarily a physician
+and in most instances makes decisions on this basis rather than as a military officer. Although this
+statement appears to emphasize the differences between medicine and the military, the instances of
+there being a significant conflict are very rare. In
+general, excellent medical care for soldiers—as patients—is in the best interests of the soldier, the
+physician, and the military. Therefore, in almost all
+situations, the military physician thinks and acts as
+a physician primarily and practices patient-centered
+medicine. Lieutenant General Ronald Blanck,1 The
+Surgeon General of the US Army from 1996 to 2000,
+and others2–4 have advanced this position. The issue of a military physician being a military officer
+usually does not become a factor in his decisions.
+Society generally expects physicians, even physicians in uniform, to place the interests of patients,
+including soldiers, above all other considerations.
+However, society also expects military members to
+sacrifice personal safety and comfort to “protect and
+defend” its interests. Therefore, there are situations
+in which the conflicting obligations (mixed agency)
+become evident. In these situations, the military
+physician will need to balance his duties to his patient with his obligations as a military officer or give
+absolute priority to military needs.
+In situations of military necessity, military physicians must give absolute priority to military needs.
+Therefore, priority will appropriately be given to
+protecting and defending society when society’s
+interests would be significantly sacrificed as a result of not doing so. The United States Code5 allows the Secretary of the Army to direct the medical care of any individual on active duty. He may
+determine that the needs of the Army are so significant that they must override those of the soldierpatient. Policy makers, both medical and tactical,
+and medical leaders advise him on the pertinent
+factors to assist him in making his decision.
+Military Medical Ethics, Volume 2
+854
+The original assumption—that military physicians are doctors first and officers second—may
+seem to be contrary to this legal authority granted
+to the Secretary of the Army. However it is an accurate description of the reality seen in military medicine. The concept that the soldier “belongs” to the
+United States government with medical care routinely being forced upon the soldier is simply not
+the case. Although statutory authority is in place
+to address relatively unusual situations in which
+enforced treatment is required to accomplish the
+military mission, the Secretary of the Army rarely
+mandates medical treatment. Therefore, the physician usually is able to maintain his medical identity and act as if he were a physician in a civilian
+setting by respecting the autonomy of his soldierpatient.
+The decision to override soldiers’ interests (as
+patients) inevitably is, and should be, agonizing and
+should not be exercised without significant, combat-related reasons for doing so. The best approach
+to balancing these social and individual soldierpatient interests is to presume that autonomy of the
+soldier as a patient is the primary force in medical
+decision making but that exceptions can be justified by overarching societal requirements related
+to the military’s mission.
+The concept of a physician acting as a doctor first
+and an officer second also implies that sometimes
+the physician voluntarily limits exercising his
+power because the soldier-patient is uniquely vulnerable to coercion. Exercising power may more
+readily become unethical coercion within military
+medicine than in the voluntary patient–physician
+relationship seen in the civilian community. Thus,
+this power should be more limited, as it has been
+in some other contexts. Miranda-like warnings were
+adopted in the military to protect soldiers from such
+inherent coercion, for example, before they were
+required in the civilian sector.
+Limited Exercise of Power
+In all medical decisions there is a significant imbalance of power within the patient–physician relationship (see Chapter 1, The Moral Foundations
+of the Patient–Physician Relationship: The Essence
+of Medical Ethics). In civilian medicine, this is recognized as one of the reasons the principle of autonomy assumes a primary role in ethical decision
+making. The patient is in a vulnerable position and
+must be protected. This same vulnerability exists
+within the military patient–physician relationship
+but it is accentuated because of unique military
+pressures. The military is a hierarchical organization and its operation is based on the presumption
+of obedience. This is required for its primary mission of protecting society. Orders must be obeyed
+promptly and questioned only in rare cases of almost certain illegality or immorality. Although there
+are procedures for refusing to obey an order,6 circumstances that require a soldier to exercise this
+option are, and should be, extremely rare. However,
+this deference to the authority of superiors makes
+soldiers much more likely to be vulnerable when
+medical decisions regarding them are made. Further, all military physicians are officers, and primarily field grade officers (majors and above). This
+enhances the presumption that their advice will be
+followed. Because it is more difficult for military
+patients to choose, or change, their physician, they
+may feel more obligated to accept the physician’s
+advice.
+The military physician also may be more likely
+than his civilian colleague to become used to exercising his authority. Although civilian physicians
+have obvious symbols of their status and power
+(their “uniform” consists of the white coat and
+stethoscope), the military physician wears his rank
+visibly and his power comes not only from his
+knowledge and training as a physician but also from
+his being commissioned as an officer in the military. In military contexts, his orders, ethically as
+well as legally, are to be obeyed. The subtle difference between military orders and medical ones can
+become blurred and this could lead to an abuse of
+the physician’s power. It is important to remember,
+however, that the military physician does not have
+legal authority to order a soldier-patient to undergo
+treatment. This authority is given to the soldier’s
+commander or, in rare circumstances, the hospital
+commander. The soldier-patient, however, is more
+likely to defer to the authority of any superior officer (including medical officers) and this perception increases his vulnerability.
+Another concern arises because the military physician may overidentify with his military unit.
+(Chapter 13, Medical Ethics on the Battlefield: The
+Crucible of Military Medical Ethics, addresses this
+in greater detail.) This can occur because of the military training and conditioning he receives, particularly if he is a member of an elite unit. 7 This overidentification with the military unit may result in
+his modeling his medical orders on a military model.
+This also can significantly increase the likelihood of
+an abuse of power. The military physician must be
+extremely aware of this possibility and be vigilant
+to prevent this abuse from occurring.
+For these reasons, more restraint should be applied in military medical decision making than in
+A Proposed Ethic for Military Medicine
+855
+the civilian sector. The line of restraint must be
+drawn clearly and, indeed, more closely for the
+military physician than his civilian colleague.
+Compensatory Justice
+Another concept that we believe merits moral
+weight is that of compensatory justice. This concept
+was introduced in Chapter 26, A Look Toward the
+Future, but will be amplified here. Although the
+military has an obligation to fulfill its mission to
+protect society, society has a reciprocal obligation
+to those who have willingly placed themselves in
+harm’s way. One of the ways this could be accomplished is by providing soldiers, in appropriate contexts, “compensatory justice.” Soldiers sacrifice
+much in performing their duty to society. They, of
+course, may die in service to their country. They also
+give up many of the freedoms that American citizens enjoy. These freedoms, ironically, are in many
+cases those that, as soldiers, they may die to preserve (see Chapter 9, The Soldier and Autonomy).
+This loss of freedom is necessary to preserve the
+“good order and discipline” in the armed forces that
+enables the armed forces to accomplish their mission of protecting society. Therefore, society owes
+a great debt of gratitude to its protectors.
+Because of this debt, society should support the
+military’s choosing to compensate its members in
+special ways. This is fair and appropriate. The government provides special pay for those in combat,
+income tax exemptions for portions of their pay, and
+other tangible expressions of gratitude for dangerous service. Individual members of society may
+choose to express their gratitude as well. During
+and after recent conflicts many businesses and individuals have made special benefits available to
+soldiers, including donating free rooms in hotels,
+offering special travel opportunities to resorts or
+tourist attractions, and deferring interest payments
+on purchases made by soldiers.
+Military medicine has opportunities as well to
+compensate its beneficiaries in extra ways. Free access to medical care for soldiers and their families
+and free dental care for soldiers have been benefits
+associated with military service. Some programs,
+such as using DNA (deoxyribonucleic acid) analysis to identify remains of soldiers even after they
+have left active duty, may give special benefits as
+well. In evaluating new technologies and procedures
+(as seen in Chapter 26), policy decision makers also
+can choose to include promising treatments or programs that benefit soldiers and their families. This
+can be justified as special compensation for harms,
+both actual and potential, associated with military
+service. This is the concept of compensatory justice.
+Fig. 27-1. Military medical ethics decision making.
+Is this a case 
+of military 
+necessity?
+No
+High
+Yes
+Low
+No
+Yes
+The soldier's 
+autonomy prevails
+Is there
+benefit to the
+military
+mission?
+How significant
+is any risk 
+to the soldier?
+The needs 
+of the 
+military 
+and its 
+mission 
+must 
+prevail
+THE DECISION–MAKING PROCESS
+As stated before, decisions requiring prioritizing
+the conflicting goals of the military and of medicine can be the most difficult military leaders and
+military physicians face. The following algorithms
+are offered not as the definitive “solution” to these
+dilemmas but as a means for examining the process used to arrive at the decision. As will be seen,
+there are uncertainties and ambiguities inherent in
+all decisions. This is particularly true in those involving both clinical medicine and combat. The
+basic decision often becomes that of determining
+who “gets” to make the decision and once that determination is made, what criteria are the appropriate ones for deciding. There can be a conflict in
+moral views—the military priority of the mission
+as opposed to the medical priority of the individual
+patient.
+Military Medical Ethics Decision-Making
+Algorithm
+Another way to further protect soldiers might be
+to follow loose guidelines of a decision-making algorithm to help determine appropriate use of this
+increased power and to help avoid its misuse. We
+propose a decision matrix for consideration (Figure 27-1). The algorithm as presented here is greatly
+streamlined; one should not assume that complicated decisions could necessarily be made in these
+few steps. However, this simplified version clariMilitary Medical Ethics, Volume 2
+856
+fies a process that may be optimal. Thus it can be
+useful to policy makers and military physicians in
+making optimal moral decisions. We will describe
+the decision-making process using the algorithm
+and give examples of some possible applications.
+Decision Point #1: Assessing Military Necessity
+The first decision point is that of military necessity. This concept has been discussed in previous
+chapters and is briefly reiterated here in this chapter. Simply stated, there are situations in which
+military needs are likely to be absolute. This occurs
+whenever the completion of the mission could be
+significantly affected. As discussed previously, the
+survival of the society is the ultimate end of the
+military profession. Because this goal is absolute,
+the needs of individuals must be considered secondary and ethically can be overridden by military
+necessity. Situations requiring this are not common,
+but they are frequent enough to cause controversy
+and can generate much emotion. Even if military
+necessity exists only in the rarest of situations, determining when it exists requires someone to make
+this judgment. As previously discussed, the Secretary of the Army or his designee has the statutory
+authority to determine if and when this military
+necessity exists.
+In situations of military necessity, soldier autonomy can (and should) be overridden. For example, a soldier can legally be ordered to risk his
+life to attack an enemy’s fortified position if the
+overall mission requires this. Analogously, soldiers
+give up a certain amount of their autonomy in medical decisions as well. Similarly, physicians in the
+military also have their autonomy limited in certain circumstances. Physicians can be ordered to
+treat soldiers, even if soldiers refuse treatment, if
+military necessity is present. The military has this
+right and, due to its mission to protect society, has
+an affirmative obligation to do so.
+Yet, if soldiers are to be placed in harm’s way, a
+just society has an obligation to provide whatever
+protection it can to those soldiers. Society can expect all safe and effective protective measures to be
+used for its sons and daughters serving in the military. It is possible that the soldiers can’t be fully
+informed about all the potential risks they face, but
+education may help soldiers anticipate when their
+autonomy may be overridden on the basis of military necessity. Education may also prevent some of
+the controversies that have occurred recently in situations in which it has been determined that overriding soldiers’ autonomy is necessary.
+To illustrate the strength of the justification underlying military physicians following this principle, they should adhere to it even when soldiers
+are subject to the draft. When military service is
+voluntary, persons can avoid these mandatory measures and the bodily intrusiveness they may bring
+about by not volunteering. If there is a draft, they
+have no choice. Conscription is itself justifiable on
+grounds that are wholly consistent with the foregoing ethical analysis. Its justification lies solely in
+its being necessary for the nation’s survival.
+Decision Point #2: Providing Benefit to the
+Military
+If the situation is not one of military necessity,
+but rather one of merely providing benefit to the
+military, the second algorithm decision point arises.
+In discussing benefit to the military, it is important
+to distinguish that this benefit is not financial or
+some vague organizational benefit. Counting these
+gains as benefit would allow almost any decision
+to be interpreted as beneficial to the military. The
+definition of benefit intended here is instead one
+that truly benefits the mission the military is assigned—to protect and defend the country. Thus,
+the benefit is actually ultimately to society. It must
+be directly beneficial to the accomplishment of the
+mission. If this strict definition of benefit is not satisfied, the military should not override the soldier’s
+right to make his own decision in medical interventions. This is analogous to the harm principle more
+fully discussed in Chapter 9, The Soldier and Autonomy. If there is true benefit to the military, using the strict definition of benefit, the next algorithm
+decision point, looking at the risk to the soldier,
+occurs.
+Decision Point #3: Assessing Risk to the Soldier
+In situations in which there is a true benefit to
+the military as defined above, the risk posed by the
+medical intervention to the soldier must be balanced against that benefit. This is a familiar decision matrix for all clinicians because this is the
+model for medical recommendations used in the
+daily practice of medicine. We maintain that if there
+is high risk to the soldier and if there is no true military necessity, but rather only benefit to the military mission, the soldier’s autonomy in medical
+decisions should not be overridden. This may help
+prevent abuses of power in making these decisions.
+As previously discussed, because there is such a
+power inequality within the military, and because
+A Proposed Ethic for Military Medicine
+857
+soldiers must of necessity give up their autonomy
+in many nonmedical military situations, drawing
+the line on the side of protecting their remaining
+autonomy under these circumstances is ethically not
+only defensible but optimal. In so doing, abuses of
+military physicians’ and commanders’ power may
+be decreased.
+Conversely, if the benefit to the military mission
+is significant and the risk to the soldier is minimal,
+there is a stronger argument to override the soldier’s
+autonomy. The soldier has accepted a certain limitation of his autonomy. He has accepted the mission of protecting his country, even at the risk of
+losing his life. Therefore, it is only consistent that
+he should accept some level of personal risk when
+the benefit to the military is substantial. In this case,
+we believe it is appropriate to override the soldier’s
+autonomy for the benefit of the military mission.
+We recognize that the terms “limited,” “significant,” “high,” and “low” are not absolute. There is
+always a considerable level of uncertainty in these
+policy decisions. This also raises the other obvious
+issue of who has the right to assign these terms both
+now and in the future. Legally, as stated before, the
+Secretary of the Army or his designee, advised by
+his medical and tactical commanders, has this right.
+This raises the additional issue of assigning levels of risk and benefit to decisions whose impact
+will only become clear in the future. As discussed
+in Chapter 12, Ethical Issues in Military Medicine,
+it may be necessary for the commander, informed
+by experts on his staff, to make ethical and legal
+decisions based on his view of the situation, because
+only he has the ultimate overall vision and responsibility for making the decisions that will affect the
+entire situation. The medical officer must participate as one of these experts, and can certainly offer
+a soldier-patient–centered focus, but ultimately
+policy decisions need to be made by the policy
+makers, and in the military this function resides in
+the chain of command. Representatives of the Judge
+Advocate General will also be involved in these
+decisions. The previous discussion reviewed the
+ethical bases for decision making but the relevant
+laws and regulations must always be considered.
+In fact, they usually warrant the most moral weight
+in determining what physicians should do.
+Applying the Military Medical Ethics DecisionMaking Algorithm
+We will now provide some examples and show
+how they can be analyzed using the military medical ethics decision-making algorithm (Figure 27-1).
+The initial examples, which will be examined in
+some detail, involve policy decisions. The individual physician can use them to understand how
+policy decisions are made. They can also help him
+understand the competing loyalties he may feel in
+these situations and, more particularly, that though
+they may cause emotional pain, this does not mean
+they are “wrong.” Other examples from individual
+clinical situations will be mentioned to demonstrate
+the application of the algorithm in the patient–physician relationship.
+Policy Applications
+Three areas of policy applications will be explored in this discussion: (1) acting when military
+necessity prevails; (2) balancing military benefit
+with individual risk; and (3) acting when there is
+minimal military benefit.
+When Military Necessity Prevails. A recent context in which military physicians have had an absolute obligation to place the military’s interests
+first is when prophylactic agents may have been
+needed to protect soldiers from the effects of biological and chemical weaponry. This occurred during the Persian Gulf War (1990–1991). As is discussed
+in Chapter 12 (Mixed Agency in Military Medicine:
+Ethical Roles in Conflict), it was then feared that
+Saddam Hussein, the leader of Iraq and its military,
+might use this weaponry. This fear continued until
+the removal of Hussein from power in 2003.
+The question arose whether the use of protective
+agents determined to have benefit should be mandatory or voluntary. Because this weaponry could
+have been deadly, it was decided that although
+these agents had not been fully tested on humans
+for this battlefield purpose, their use should be
+mandatory. 8 Again, as discussed in Chapter 12, the
+justification for this was military necessity. If soldiers were not protected from chemical and biological agents, many of them would have died had the
+agents been used. 9 The military leaders, both combat and medical, felt that the threat that these agents
+may be used was credible. If inordinate numbers of
+soldiers died or were incapacitated because of their
+exposure to these agents, the battle or even the entire war could have been lost. It was necessary,
+therefore, to require soldiers to use these agents.
+On the algorithm, the first decision point indicates that if it is militarily necessary for the accomplishment of the mission, the proposed intervention may legitimately be required. Obviously, in
+making this decision, the leaders must examine the
+expected risks and benefits of all courses of action
+Military Medical Ethics, Volume 2
+858
+before making a decision. Their intent is to protect
+the fighting force to enable it to accomplish the
+mission.
+Subsequent events bring the ethical conflict
+raised by this question still more sharply into focus. Many service persons after returning from the
+Persian Gulf presented with symptoms that have
+been grouped together, designated as the Gulf War
+illnesses. The etiology of these symptoms remains
+unclear. 10,11 Nonetheless, some persons believe that
+the use of these protective agents and this syndrome
+may be related. The anger some feel highlights the
+reality that when military physicians override soldiers’ autonomy, even on the grounds of military
+necessity, the long-term adverse consequences may
+be considerable.
+More recently, since the terrorist attacks of September 11, 2001, deaths have occurred due to anthrax being sent through the federal mail system.
+This outcome highlights why the use of some of
+these protective agents may be a military necessity.
+One of the authors (EGH) participated in the discussion concerning the ethics of using prophylactic agents, including vaccines against biological
+weaponry, prior to the Persian Gulf War. The decision-making process was very similar to that just
+described for other agents used in the Persian Gulf
+War. Had Saddam Hussein used biological weaponry, many thousands of soldiers could have been
+killed and the war could have been lost. This risk
+could not be allowed. The decision in response to
+this threat now is to attempt to protect all service
+members from anthrax by vaccination. 12
+This policy has been adopted because the risk to
+soldiers from vaccination is minimal and the benefit to the soldier, the military, and society, is felt to
+be significant. 13,14
+This policy is, and should be, continually reevaluated as events and circumstances change. An organization outside the Department of Defense (DoD)
+may be able to examine the policy with more objectivity, or at least may be perceived as more objective.
+To further these ends, the Institute of Medicine, an
+organization clearly independent from the DoD,
+was invited to evaluate the safety and effectiveness
+of the anthrax vaccine. Although the study was
+funded by the military, that did not influence the
+committee. In fact, as Dr. Brian Strom, the chair of
+the committee, asserts: “If [the committee] had a
+bias to begin with, it probably was against the military. I felt we just had to turn over the right stone
+and we’d find a smoking gun out there. But we
+didn’t find it, and we looked hard.”15(p951) Their report, which was made public in 2002, clearly supports the conclusion that the vaccine is safe and effective. Further, it is likely to be effective against
+all strains of anthrax because it targets the toxin and
+not the cell. Independent reviews such as this can
+assist those establishing policy to be certain that the
+interventions will indeed improve the mission capability.
+In civilian contexts, societies requiring persons
+to take such agents or to face criminal sanctions
+generally would be legally impermissible and ethically reprehensible. However, even in the civilian
+context, citizens’ freedom can be curtailed to protect
+the greater population. This occurs, for example,
+when persons in a region need to be quarantined.
+The principle underlying military physicians’ acting on the basis of necessity in military and civilian
+contexts is, in fact, the same. 16 Society has a right to
+require some degree of sacrifice from its citizens to
+protect the health and well-being of other members
+of the society. However, it is likely that a military
+physician will encounter this situation more frequently in his career than would a civilian physician. 17 Military physicians’ obligation to respond on
+the basis of this necessity is absolute in principle.
+However, they still must exercise moral discretion
+when responding. When deciding whether a prophylactic agent should be used, military physicians
+and leaders must assess the relative benefits and
+burdens. 18 The point at which this ratio is sufficiently high that an agent’s use should be made
+mandatory is, of course, an ethical decision.
+All medical decisions involve ethical judgments
+because the benefits must be judged as worth the
+risk and there cannot help but be differing moral
+views on when this point has been reached. This is
+readily apparent in regard to new biological threats
+such as the present threat of smallpox. 19,20 Here, the
+benefits versus burdens are well established clinically. 21 Yet, when, and for whom, this vaccination
+should be reinstituted requires some persons’ judgment. The question whether prophylactic agents
+should be used (and who should decide) becomes
+still more complicated when the military occupies
+a foreign territory. Should citizens in an occupied
+country be offered protection? Should prisoners of
+war be offered protection?22,23 We believe it would be
+optimal for the protection to be offered, but we realize there may be inadequate supplies. Once again,
+the ethical judgment involves prioritizing the needs
+of potential patients with other needs of society.
+Likewise, new biological or chemical weapons
+may be developed by hostile nations. If they are
+developed, efforts must and will be undertaken to
+find prophylactic agents quickly. 24,25 Whether such
+A Proposed Ethic for Military Medicine
+859
+agents, just developed, should be used to protect
+soldiers, despite their being new, is an ethical judgment involving their relative benefits versus burdens. An ethical question that also always will be
+present when supplies are limited is whose needs
+should be prioritized. This is currently being debated in regard to available supplies of anthrax vaccine. To be consistent with the principle of military
+necessity, the vaccine first should be given to all
+those most needed to win the war. Only thereafter
+should the recipient pool be expanded. Who should
+be included in this first group and how far its margins should reach requires, of course, an ethical
+judgment.
+It is critically important for military physicians
+to be aware of this inconsistency (between having
+to adopt a military role-specific ethic due to military necessity on one hand, but still having to exercise moral judgment in implementing this ethic on
+the other) when they apply the algorithm introduced above. When adopting a military role-specific ethic, they must know that though in principle
+their obligation is absolute, in implementing this
+principle they will never be able to avoid applying
+ethical discretion. Therefore, when military physicians seek to use the algorithm we have proposed,
+they should feel wholly justified in acting inflexibly and according to their role-specific military
+ethic if and when this is required by military necessity. However, they should feel justified to do
+this if, and only if, this is militarily required. They
+should remain aware, however, that notwithstanding their total justification in making this choice,
+there are many ethical judgments they cannot avoid
+in its implementation.
+Military Benefit Balanced With Individual Risk.
+An example demonstrating attempts to balance the
+benefits to the military against the risks to the individual is that of epidemiologic studies of human
+immunodeficiency virus (HIV) and acquired immunodeficiency syndrome (AIDS) when the disease
+was first identified. Because homosexual contact
+was a factor in the spread of the infection, it was
+important to assess its prevalence. Yet, homosexuality was, and remains, a ground for discharge from
+the military. 26 If HIV positive soldiers admitted that
+they were homosexual during questioning about
+their risk factors, under normal circumstances they
+would have risked being involuntarily separated
+from the military. The military, on the other hand,
+obtained benefit from ascertaining the true etiology
+of HIV infection. In this instance, the benefit to the
+military, as well as the risk to the soldier from being identified as homosexual, is clear. Several policy
+decisions were made over time to attempt to resolve
+this issue.
+In 1985, Casper Weinberger, then the Secretary
+of Defense, made the decision to allow confidentiality for soldiers who acknowledged their homosexuality during epidemiological studies, but not
+if their homosexuality was discovered under other
+circumstances. 27 Congress expanded this protection
+through legislation in 1986 by precluding not only
+involuntary separation, but also other adverse actions that could negatively influence the soldier’s
+career. 28 This decision regarded the benefit the military obtained from accurate data concerning the
+etiology of HIV infection as being so significant that
+special legal provisions were enacted to attempt to
+minimize the real risk of harm to soldiers. It placed
+less weight on benefits accrued to the military from
+identifying and separating homosexual soldiers as
+long as they were not identifiable by other means
+(ie, as long as they were discreet).
+On the other hand, the protection did not extend
+to security clearances. If soldiers were found to be
+homosexual, even through epidemiological assessment, their security clearances could be denied or
+revoked. 29,30 The apparent rationale for this decision
+seems to be the assessment that homosexual soldiers did represent a higher likelihood of being compromised because of their sexual preferences than
+did heterosexual soldiers. The military perceived
+the benefit from preventing a breach of security as
+outweighing the risk of harm to the soldier.
+Although this assessment of the factors involved
+in this particular decision may not be the only interpretation possible, it serves as a good example
+of policy makers balancing risks and benefits in
+making their decisions. Furthermore, it demonstrates the model of civilian oversight of the military that exists in the United States.
+Minimal Military Benefit. A final policy issue
+that will be analyzed using the decision-making
+algorithm is that of the DNA repository. Using DNA
+technology, the military has been able to identify
+remains of soldiers from previous battles, including the remains of Air Force First Lieutenant
+Michael Blassie as the Unknown Soldier of the Vietnam War. 31 The technique involves the use of DNA
+taken from the remains of an unidentified soldier
+and comparing it with DNA taken from living family members of missing soldiers. It is far superior
+to using other forms of identification, including fingerprints, scars and blemishes, or dental records.
+The DNA used in this technique is found in the
+mitochondria of all cells and is passed within the
+ovum of the mother to her children. 32 If there are
+Military Medical Ethics, Volume 2
+860
+consistent similarities on the mitochondrial DNA
+patterns, the military may be able to identify the
+previously unidentified remains of a soldier. Obviously this requires some element of chance and luck,
+in that there are many soldiers missing in action
+and, although circumstances can narrow the potential matches somewhat, there is still a large pool of
+potential matches. It is also possible that the mother
+and siblings of the soldier may not be available to
+donate cells for DNA testing.
+This uncertainty and, to some degree, the amount
+of DNA to be examined for similarity can be overcome by having actual DNA from the soldier. In
+1992, the Department of Defense established a repository of DNA samples to be used for this purpose with samples of blood and other cells. 33 All
+members of the military, active duty and reserve,
+were required to supply these samples.
+The possible benefit for families is a compelling
+argument in favor of offering this to soldiers. They
+can be spared the horror of wondering if their loved
+one is suffering in a prisoner of war camp somewhere. Families can then proceed through the grieving process as well as finalizing legal and financial
+documents.
+The ability to identify remains is not, however,
+militarily necessary for the mission to succeed.
+However, it may be beneficial to the military to be
+able to identify its dead and to change the status of
+the soldier from missing to deceased. Other soldiers
+may benefit as well from knowing that remains can
+be promptly and accurately identified. It would also
+be beneficial to the soldier to know that his family
+would be spared the uncertainty of not knowing if
+he were dead or a prisoner of war. The military services have established the goal of never having an
+unidentified soldier in future conflicts.
+The next question in the algorithm involves risk
+to the individual. There is a risk that the DNA could
+be used in ways that would harm the person, such
+as potential invasion of privacy. DNA carries unique
+information and this information can be used not
+only for remains identification, but also for prediction of genetic diseases. For example, genetic profiling for career advancement or medical insurance
+are possible harms that could come from the misuse of this information. However, the DNA repository does not analyze the DNA for genetic diseases
+because the samples would be used only for comparison with DNA taken from the unidentified remains of a US service member. 34
+In 1996, the Department of Defense issued a
+policy clarifying four possible uses of the DNA as
+(1) identification of human remains, (2) internal
+quality assurance activities, (3) other activities for
+which the donor or surviving next of kin specifically consents, and (4) court-ordered examination
+for prosecution of serious crimes and only after review by the Department of Defense General Counsel. 35–37 Although safeguards have been established
+to help prevent potential harms, there are still concerns about them as evidenced by several service
+members refusing to have their DNA taken and
+stored. Some of these were even tried by court martial and found guilty of refusing a lawful order. 38
+Depending on the determination of the risk to
+the soldier, it would be possible to decide to require
+soldiers to submit the DNA samples, or to decide
+to make participation in the DNA remains identification program voluntary depending on the weighting of conflicting values. Of course, if there is no
+true benefit to the military mission, the soldier’s
+autonomy should not be overridden.
+In summary, these three areas of policy application—(1) when military necessity prevails, (2) military benefit balanced with individual risk, and (3)
+minimal military benefit—represent the continuum
+along which these different decisions can be made.
+Clinical Examples
+The algorithm can also be applied in the clinical
+setting. Chapter 12 demonstrates this with the discussions of situations that require adopting a military role-specific ethic, situations in which discretion should be applied, and situations in which a
+medical role-specific ethic possibly should be
+adopted. An example of using the algorithm in a
+clinical situation requiring a military role-specific
+ethic because military necessity is absolute is that
+of treating combat stress disorder. In Chapter 12,
+Howe states that a floodgate phenomenon could
+occur if combat stress disorder is treated by evacuation from the theater. This could significantly affect the military’s being able to accomplish its mission. To avoid this likelihood, soldiers with combat
+stress disorder must be returned to duty, even if this
+violates their wishes.
+The example of the alcoholic general (in Case
+Study 12-1), in which the wife revealed to her physician that her husband (a commanding general)
+was an alcoholic, is an example demonstrating a
+high risk to the patient (the wife in this example—
+her marriage and her relationship with the physician) and the expected low level of benefit to the
+military (by having the general’s addiction identified). The risk in this case was judged to be greater
+than the benefit to the military. If the general were
+A Proposed Ethic for Military Medicine
+861
+impaired significantly, or if his level of responsibility were great enough, the opposite decision could
+possibly have been made based on a higher level of
+benefit to the military and this level approaching
+military necessity.
+A possible example of there being essentially no
+benefit to the military is that of the affair (discussed
+in Case Study 12-4) in which the physician wanted
+to report his patient after the patient admitted to
+an adulterous relationship. The physician’s colleagues were convinced that there was a negligible
+benefit to the military in exposing the affair and that,
+if there were no benefit, it should not be reported.
+These clinical examples demonstrate the varying
+application of the algorithm, based on the physician assigning values to the competing goals. This
+is a familiar model to all clinicians, in that assessing risk/benefit ratios is a basis for all clinical decision making. Applying a similar model to ethical
+decision making is a reasonable extension of a basic clinical skill.
+Conflicts Between Ethics and the Law:
+An Algorithm
+Another difficult dilemma arises when law and
+ethics appear to be in conflict. A discussion of the
+legal basis of military medicine was presented in
+detail in Chapter 12, Mixed Agency in Military
+Medicine: Ethical Roles in Conflict. The military
+physician must also have some knowledge of military law and of the law of warfare (as discussed in
+Chapter 8, Just War Doctrine and the International
+Law of War), as well as of those laws applying specifically to medicine (as discussed in Chapter 23,
+Military Medicine in War: The Geneva Conventions
+Today). If a military physician has doubts about the
+legal requirements of military medicine, he should
+consult with others who have more experience with
+these issues, whether they are members of the Judge
+Advocate General Corps or more senior military
+physicians who have dealt with such matters in the
+past. It is essential that individual physicians understand the legally imposed limits on their autonomy required by the military mission when exercising discretion to avoid suboptimal outcomes
+for their soldier-patients, themselves, and the military overall. In some instances, for example, the law
+should warrant great weight; in others, legal requirements may be absent and thus warrant little,
+if any, weight.
+At the same time, the physician needs to be aware
+that decisions made using ethical analysis may not
+be the same as those made using legal analysis.
+When the two differ, the most difficult questions
+regarding discretion may arise. This conflict will be
+explored using another algorithm (Figure 27-2). The
+process involved is similar to that available to all
+soldiers if they are concerned about the legality of
+an order; therefore commanders are familiar with
+this concept. As already stated, these issues are extremely complex. Thus, although the algorithm
+given may help frame the discussion and provide
+some basis for identifying underlying assumptions
+and initially proceeding, no simplified decision
+matrix can “solve” ethical dilemmas.
+Generally a legal analysis generates the same
+conclusion as ethical analysis. Malpractice lawyers
+Fig. 27-2. Conflicts between ethics and the law.
+Do ethical and 
+legal analyses
+agree?
+Yes
+Yes
+Preserve life
+even if
+contrary to
+legal opinion
+Yes
+No
+Yes
+Yes
+Yes
+Exercise
+option to
+refuse
+to obey
+Is this a "life
+or death"
+situation?
+Is there
+disagreement
+among
+lawyers?
+Ethics and
+legal advisors
+meet with
+commander
+and attempt to
+convince him.
+Does ethics
+analysis 
+prevail?
+Can ethics
+advisor abide
+with
+commander's
+decision?
+Is the legal
+disagreement
+resolved to
+agree with
+ethical
+analysis?
+Proceed with the 
+course of action 
+decided upon
+No
+No
+No
+No
+No
+Military Medical Ethics, Volume 2
+862
+thus say rightly that the best protection from lawsuits is to practice good medicine. Practicing good
+clinical medicine is practicing not only legally good
+medicine, but ethically good medicine as well.
+However, the law provides only a “good” minimum
+level of practice (what one must do or must not do
+to prevent lawsuits), whereas ethics provides a
+higher level of practice (what one ought to do). Practicing good ethical medicine would thus not only
+satisfy the legal requirements but also meet a higher
+standard of patient care.
+There is significant moral weight due the law.
+Legal traditions have been developed through a rigorous series of examinations, cross-examinations,
+challenges, and astute judgments. Moreover, the
+law warrants respect even when it conflicts with
+ethics because it represents the best practice for
+deciding policy when persons dissent. Society therefore rightly expects the military, and military physicians, to operate within the constraints of the law.
+However, there are occasions in which the decision
+suggested by the legal advisors may differ from that
+determined by ethical analysis. This occurs in civilian medicine as well and can cause discomfort
+in ethics committees and ethics consultants. In ethics consultations, it is important for legal interpretations to be subject to challenge and discussion.
+The lawyer’s interpretation should not automatically shut down all further discussion.
+Furthermore, lawyers can (and often do) disagree
+on specific interpretations of the law, so an individual lawyer’s interpretation of the law may not
+reflect the only way the law can be applied. It also
+may not be the only law applicable or the most appropriate law for the situation. And in many cases
+the law does not yet exist. Statutes dealing with an
+ethically conflicted situation sometimes have not
+yet been enacted and precedent cases may have not
+yet been adjudicated. When one of the courses of
+action would lead to the death of the patient, it is
+appropriate to continue with actions that preserve
+the patient’s life until all issues are resolved. This
+last point is best illustrated by a case.
+Case Study 27-1 The Inappropriate Surrogate. An
+elderly man with chronic obstructive pulmonary disease
+was admitted to a hospital in another state for increasing
+respiratory distress. While in that hospital, and while he
+had decision-making capacity, he crafted a durable power
+of attorney document, naming his fiancé as the person
+he appointed to make decisions for him, should he be
+unable to do so. His clinical condition continued to worsen
+and he was transferred to a military tertiary medical center. While at the military medical center, he verbally informed the attending physician that he wanted his fiancé
+to participate in medical decision making. He continued
+to deteriorate and was transferred to the Intensive Care
+Unit and was placed on the ventilator after indicating to
+the physician and his fiancé that he wanted a trial of maximum medical therapy. He became incapable of participating in decision making. His wife (their divorce was
+completed except for the judge’s ruling, which was expected within a week) arrived and ordered the ventilator
+discontinued. The fiancé stated that he was still early
+enough in the trial period that he would not want the ventilator removed. The hospital attorney advised that the
+durable power of attorney was only a general one and
+did not grant medical decision making to the fiancé, and
+that the spouse was the legally recognized surrogate even
+though they were estranged and almost divorced. Until
+the divorce became final, the spouse had decision-making authority.
+Comment: This case demonstrates a conflict between
+the hospital attorney’s view and the unanimous opinion of the
+ethics consultants, as well as the healthcare team. If the
+expressed wishes of the spouse were to be followed (which
+was advised by the attorney) this would likely lead to the
+patient’s death. In this case the decision was made to appeal the attorney’s decision and to continue medical treatment until the ethical and legal issues could be resolved.
+For the military physician, this conflict can be
+extremely difficult, but it should not be impossible
+to resolve. The lawyer is the legal advisor to the
+commander and the ethics consultant advises on
+ethics. In situations of disagreement, the commander needs good advice from each; he ultimately
+will make the decision. In the military today, the
+surgeon general of each service has an ethics consultant to help him as he makes decisions that have
+ethical implications. Local commanders (and individual military physicians) can ask this consultant
+or a local ethics committee for assistance when
+making these decisions. Once the commander
+makes his decision, the physician is still, however,
+a moral agent and must choose how to act in light
+of these recommendations. If the physician is morally opposed to the commander’s decision, he
+should inform his commander about his moral dilemma and discuss alternatives. If the situation cannot be resolved, he could request to be relieved from
+the situation, he could resign from the military, or
+he could disobey and suffer the consequences of this
+decision. The physician can also request a review
+and ruling from a higher level in the chain of command. These actions must be carefully considered
+but it will not usually be necessary to proceed to
+this point. Still, military physicians must be willing to act independently of the law if and when this
+seems ethically necessary. In emergency situations
+it may be optimal, for example, to err on the side of
+A Proposed Ethic for Military Medicine
+863
+preserving a patient’s life by not making a decision
+that is likely to shorten a patient’s life when delaying is necessary to allow a more considered decision. This was exemplified in the case just given.
+Another, more obvious, example occurred in Germany during World War II. Laws that were enacted
+were clearly immoral, and could have been disobeyed.
+Disobeying them would have consequences, possibly
+severe ones, but physicians could have accepted this
+in order to obey their consciences. As we have seen in
+earlier chapters, acting in conscience has risks, but this
+is required for persons of moral character. It will also
+raise moral standards in an organization. 39 Conversely,
+physicians who went along with Nazi policies were
+tried and convicted of crimes against humanity. Attempts to defend their actions by claiming that they
+were just following orders were unsuccessful. Particularly in a democratic society such as the United States,
+acting in conscience by challenging immoral laws is
+more likely to change the laws.
+CONCLUSION
+This final chapter reemphasizes the tension underlying mixed agency, or conflicting loyalty, issues.
+Some aspects of these are unique in the military.
+There are extraordinary potential differences between the realities military and civilian physicians
+face. Nonetheless, the ethical priorities both would
+adhere to under the same extreme circumstances are
+the same. The examples of military necessity and
+civilian quarantine for infectious disease are illustrative. Both give highest priority to saving the
+greatest number of lives. In these situations the conflict is between two goals (protecting an individual
+patient’s interests and saving many lives), each of
+which is generally considered morally weighty. However, the military physician is likely to face these issues more frequently than his civilian colleague.
+Civilian physicians have faced mixed agency issues as well. Physicians in sports medicine, penal
+institutions, and other situations in which they are
+employed by an organization experience conflicting loyalties similar to their military colleagues. The
+goals here conflicting with the patient’s best interests, however, are not as clearly warranting of moral
+weight in all of these cases. Mixed agency issues are,
+however, becoming increasingly obvious in medical practice today as managed care models become
+prevalent. In some systems, there are pressures to
+avoid tests or procedures because they are expensive,
+even when they may be beneficial to the patient.
+Several chapters in these volumes have attempted to provide some assistance to military physicians when they are faced with seemingly irreconcilable conflicts. The example in Chapter 12 of
+the submarine crew member who had to close the
+hatch on his fellow sailor in order to save the rest
+of the crew is illustrative. The sailor continued to
+have sorrow many years later over his comrade’s
+death, but he did not feel guilt over his decision to
+close the hatch. This situation is analogous to a military physician’s having to place priority for true
+military necessity over the needs of his patient.
+Once again, however, the conflict exists between
+two goals (service to the military mission of protecting society and service to the individual patient
+or sailor), both of which warrant moral weight.
+As has been emphasized in this chapter, the military physician is a physician first and usually can
+continue to place his patient’s interests first. It is
+the uncommon situation that requires placing priority on military necessity. However, as has been
+seen, these situations can and do arise. If military
+and civilian policy makers and military physicians
+providing care have been able to examine these issues as discussed in these volumes, and are able to
+apply these analyses to specific dilemmas, they may
+be more able to make very difficult decisions and
+justifiably be more able to live with them. The physician who serves in the military is in the best position to study the dilemmas and, by having examined them prior to being in an emergency situation
+(for example, in combat), is best able to attempt to
+resolve them appropriately. We hope this chapter,
+as well as all of the chapters in these two volumes,
+will generate further analysis and can help military
+physicians accomplish their mission in the most
+ethical manner possible.
+REFERENCES
+1.
+Lieutenant General Ronald R. Blanck (Retired), formerly The Surgeon General, US Army. Personal Communication, May 2002.
+2.
+Jeffer EK. Medical units: Who should command? Mil Med. 1990;155:413–417.
+Military Medical Ethics, Volume 2
+864
+3.
+Jeffer EK. Command of military medical units: Grounding the paradigm. Mil Med. 1996;161:346–348.
+4.
+Moore WL Jr, DeDonato DM, Frisina ME. An Ethical Basis for Military Medicine. A working draft of a paper
+proposal. January 1995.
+5.
+United States Code, Title 10. Armed Forces, Subtitle B. Army, Part II. Personnel Chapter 355. Hospitalization,
+Section. 3723. Approved 13 November 1998.
+6.
+Meyer JM, Bill BJ. Operational Law Handbook. Charlottesville, Va: International and Operational Law Department, The Judge Advocate General’s School; 2002.
+7.
+Haritos-Fatouros M. The official torturer: A learning model for obedience to the authority of violence. J Appl
+Soc Psychol. 1998;18(13):1107–1120.
+8.
+Howe EG, Martin E. The use of investigational drugs without obtaining servicepersons’ consent in the Persian
+Gulf. Hastings Cent Rep. 1991;21:21–24.
+9.
+Cieslak TJ, Rowe JR, Kortepeter MG, et al. A field-expedient algorithmic approach to the clinical management
+of chemical and biological casualties. Mil Med. 2000;165(9):659–662.
+10.
+Ferrari R, Russell AS. The problem of Gulf War syndrome. Med Hypotheses. 2001;56(6):697–701.
+11.
+Howe EG. The Gulf War syndrome and the military medic: Whose agent is the physician? In: Zeman A, Emanuel
+LL, eds. Ethical Dilemmas in Neurology. London: WB Saunders Co; 2000: 139–156.
+12.
+Nass M. Anthrax vaccine: Model of a response to the biologic warfare threat. Infect Dis Clin North Am.
+1999;13(1):187–208.
+13.
+Blanck RR. Anthrax vaccination is based on medical evidence. Am J Public Health. 2000;90(8):1326–1327.
+14.
+Surveillance for adverse events associated with anthrax vaccination: US Department of Defense, 1998–2000.
+MMWR Morb Mortal Wkly Rep. 2000;49(16):341–345.
+15.
+Strom B. As cited in: Larkin M. Anthrax vaccine is safe and effective—but needs some improvement, says IOM.
+Lancet. 2002;359:951.
+16.
+Howe EG. Medical ethics: Are they different for the military physician? Mil Med. 1981;146:837–841.
+17.
+Howe EG. Ethical issues regarding mixed agency of military physicians. Soc Sci Med. 1986;23:803–813.
+18.
+Marino MT. Use of surrogate markers for drugs of military importance. Mil Med. 1998;163(11):743–746.
+19.
+Henderson DA, Inglesby TV, Bartlett JG, et al. Smallpox as a biological weapon: Medical and public health
+management. Working Group on Civilian Biodefense. JAMA. 1999;281(22):2127–2137.
+20.
+Mayers DL. Exotic virus infections of military significance: Hemorrhagic fever viruses and pox virus infections. Dermatol Clin. 1999;17(1):29–40.
+21.
+Haim M, Gdalevich M, Mimouni D, Ashkenazi I, Shemer J. Adverse reactions to smallpox vaccine: The Israeli
+Defence Force experience, 1991 to 1996. A comparison with previous surveys. Mil Med. 2000;165(4):287–289.
+22.
+Carter BS. Ethical concerns for physicians deployed to Operation Desert Storm. Mil Med. 1994;159(1):55–59.
+23.
+Longmire AW, Deshmukh N. The medical care of Iraqi enemy prisoners of war. Mil Med. 1991;156(12):645–648.
+24.
+McDonald R, Cao T, Borschel R. Multiplexing for the detection of multiple biowarfare agents shows promise in
+the field. Mil Med. 2001;166(3):237–239.
+A Proposed Ethic for Military Medicine
+865
+25.
+Wiener SL. Strategies for the prevention of a successful biological warfare aerosol attack. Mil Med.
+1996;161(5):251–256.
+26.
+Policy concerning homosexuality in the armed forces. General Military Law, Armed Forces, 10 USC Sect 654
+(2000).
+27.
+The Secretary of Defense. Policy on Identification, Surveillance and Disposition of Military Personnel Affected With
+HTLV-III. Memorandum, 24 October 1985.
+28.
+National Defense Authorization Act for Fiscal Year 1987. Pub L 99-661, Division A, Title 7, 705c(1986). Codified
+in 10 USC 1074.
+29.
+Maze R. Hill, services debate [adverse actions] after confidential interviews. Navy Times. 29 June 1987:3.
+30.
+Howe EG. Ethical aspects of military physicians treating patients with HIV/Part one: The duty to warn. Mil
+Med. 1988;153:7–11.
+31.
+National Museum of Health and Medicine. Exhibits. Available at: http://www.natmedmuse.afip.org/exhibits/dna/identification/identification.html. Accessed 23 May 2002.
+32.
+Holland MM, et al. Mitochondrial DNA sequence analysis of human skeletal remains: Identification of remains
+from the Vietnam War. J Forensic Sci. 1993;38(3):542–553.
+33.
+Repository History. Available at: http://www.afip.org/Departments/oafme/dna/history.htm. Accessed 23 May
+2002.
+34.
+US Department of Defense. Armed Forces Institute of Pathology (AFIP). Washington, DC: DoD; 28 October 1996.
+DoD Directive 5124. 24.
+35.
+Request for Specimen Destruction. Available at: http://www.afip.org/Departments/oafme/dna/
+EarlyDest.htm. Accessed 1 March 2002.
+36.
+DNA Samples. Available at: http://www.uscg.mil/hq/mcpocg/1medical/rcdna01.htm. Accessed 1 March 2002.
+37.
+US Department of Defense. Policy for Implementing Instructions for Early Destruction of Individual Remains Identification Reference Specimen Samples. DoD Policy Memorandum, 4 November 1996.
+38.
+Mayfield v Dalton, 901 F. Supp 300, 303 (D. Hawaii 1995).
+39.
+Wakin MM. Wanted: Moral virtues in the military. Hastings Cent Rep. 1985;15(5):25–26.
+Military Medical Ethics, Volume 2
+866

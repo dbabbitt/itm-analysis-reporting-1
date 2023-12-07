@@ -1,0 +1,165 @@
+TCCC logo.
+Tactical Combat Casualty Care
+Tactical Combat Casualty Care (TCCC or TC3) are the United
+States military guidelines for trauma life support in prehospital
+combat medicine, designed to reduce preventable deaths while
+maintaining operation success. The TCCC guidelines are routinely
+updated and published by the Committee on Tactical Combat
+Casualty Care (CoTCCC), which is part of the Defense
+Committees on Trauma (DCoT) division of the Defense Health
+Agency (DHA).[1] TCCC was designed in the 1990s for the
+Special Operations Command medical community. Originally a
+joint Naval Special Warfare Command and Special Operations
+Medical Research & Development initiative, CoTCCC developed
+combat-appropriate and evidence-based trauma care based on
+injury patterns of previous conflicts. The original TCCC corpus
+was published in a Military Medicine supplement in 1996.[2]
+TCCC has since become a Department of Defense (DoD) course,
+conducted by National Association of Emergency Medical Technicians.[3]
+The CoTCCC was originally established by the United States Special Operations Command in 2002 before
+moving to the Naval Medical Education & Training Command in 2004. The CoTCCC was moved again in
+2007 as a standing subcommittee of the Defense Health Board (DHB). In 2012, the CoTCCC was once
+again moved to the domain of the JTS. In August 2018, the JTS along with CoTCCC were realigned as a
+directorate of the DHA. The CoTCCC now operates as a component of the DCoT. The CoTCCC has 42
+voting members, who are specialized physicians, providers, and enlisted medical specialties from the
+United States Army, Navy, Air Force, Marine Corps, and Coast Guard.[4] The TCCC Working Group is
+larger group operating in conjunction with the CoTCCC consisting of non-voting members from
+throughout the DoD, US government agencies, civilian medical professionals, and partner nations.[5]
+The TCCC guidelines are a set of evidence-based best practice guidelines for battlefield trauma care that
+have been developed over more than 18 years of war. Oversight of the TCCC guidelines is provided by the
+CoTCCC, which continually update them. Current guidelines are available online through the Deployed
+Medicine site, or through the Joint Trauma System site. They are also reproduced by the National
+Association of Emergency Medical Technicians websites, the Journal of Special Operations Medicine, and
+the Special Operations Medical Association.
+The three objectives of TCCC are to provide lifesaving care to the injured combatant, to limit the risk of
+further casualties, and to help the unit achieve mission success.
+Treat injured combatants
+Committee on Tactical Combat Casualty Care
+Trauma care guidelines
+Objectives of the Tactical Combat Casualty Care guidelines
+Care Under Fire training at Moody
+AFB, GA Feb 14 2018
+Tactical combat casualty care
+training at Camp Buehring, Kuwait,
+Feb. 23, 2016.
+MEDEVAC at Tactical combat
+casualty care training, Camp
+Buehring, Kuwait, Feb. 23, 2016.
+Limit the risk of further casualties
+Achieve mission success
+In TCCC prehospital battlefield care is divided into 3 phases:
+CUF is characterized as the care rendered to a casualty while still
+under effective fire. In this case, the first action is to return fire and
+take cover, and should include the casualty remaining engaged if
+able. As an enemy is suppressed, casualties can move or be moved
+to more secure positions. The only medical treatment rendered in
+CUF is stopping life-threatening hemorrhaging (bleeding). TCCC
+actively endorses and recommends the early and immediate use of
+tourniquets to control massive external hemorrhaging of limbs. All
+other treatment should be delayed until the casualty can be moved
+to a more secure and covered position and transitioned to tactical
+field care.[2]
+TFC is care rendered by first responders or prehospital medical
+personnel (primarily medics, corpsman, and pararescuemen) while
+still in the tactical environment.[2] TFC is focused on assessment
+and management using the MARCH acronym.
+Massive hemorrhage is managed through the use of
+tourniquets, hemostatic dressings, junctional devices,
+and pressure dressings.
+The Airway is managed by rapid and aggressive
+opening of the airway to include cricothyroidotomy for
+difficult airways.
+Respirations and breathing is managed by the
+assessment for tension pneumothorax and aggressive
+use of needle decompression devices to relieve tension
+and improve breathing.
+Circulation impairment is assessed and managed
+through the initiation of intravenous access followed up
+by administration of tranexamic acid (TXA) if indicated, and a fluid resuscitation challenge
+using the principles of hypotensive resuscitation. TCCC promotes the early and far forward
+use of blood and blood products if available over the use colloids and discourages the
+administration of crystalloids such as normal saline (sodium chloride).
+Hypothermia prevention is an early and critical intervention to keep a traumatized casualty
+warm regardless of the operational environment.
+Phases of care
+Care Under Fire (CUF)
+Tactical Field Care (TFC)
+Continued assessment and management in TFC includes treating penetrating eye trauma, assessing for
+traumatic brain injury or head injuries, treating burns, splinting fractures, and dressing non-life-threatening
+wounds. TCCC promotes the early and aggressive use of analgesia (pain management) on the battlefield
+through the administration of Ketamine and/or Oral Tranmuccossal Fentanyl for casualties with moderate to
+severe pain. TCCC also promotes the early administration of oral and intravenous or intramuscular
+antibiotics. The remainder of TFC is dedicated is reassessment of injuries and interventions, documentation
+of care, communicating with tactical leadership and evacuation assets. TFC culminates with packaging a
+casualty for evacuation and then evacuating by available air, ground, or maritime assets.
+TACEVAC care encompasses the same assessment and management included in TFC with additional
+focus on advanced procedures that can be initiated when en route to a medical treatment facility. The caveat
+of TACEVAC is the evacuation means and care may or may not be dedicated medical platforms such as a
+MEDEVAC helicopter. TACEVAC can also include the evacuation of casualties on available non-medical
+assets and the provision of care in such circumstances, which is also referred to as CASEVAC or casualty
+evacuation. This is typically a non-medically designated vehicle.[2]
+A significant amount of medical literature attests that TCCC is the most viable and reliable methodology to
+prepare for and manage casualties on the modern battlefield. Most battlefield casualties died of their injuries
+before ever reaching a surgeon. As most pre-medical treatment facility (pre-MTF) deaths are nonsurvivable,
+mitigation strategies to impact outcomes in this population need to be directed toward injury prevention. To
+significantly impact the outcome of combat casualties with potentially survivable (PS) injury, strategies
+must be developed to mitigate hemorrhage and optimize airway management or reduce the time interval
+between the battlefield point of injury and surgical intervention.[6] A command-directed casualty response
+system that trains ALL personnel in Tactical Combat Casualty Care resulted in unprecedented reduction of
+killed-in-action deaths, casualties who died of wounds, and preventable combat death.[7] There are key
+components of a prehospital casualty response system, emphasize the importance of leadership, underscore
+the synergy achieved through collaboration between medical and nonmedical leaders, and provide an
+example to other organizations and communities striving to achieve success in trauma as measured through
+improved casualty survival.[8] The success of the medical improvements during the wars in Iraq and
+Afghanistan have served to maintain the lowest case fatality rate on record.[9]
+1. "Committee on Tactical Combat Casualty Care" (https://jts.amedd.army.mil/index.cfm/commit
+tees/cotccc). Joint Trauma System. 3 July 2019. Retrieved 6 September 2020.
+2. Butler, F. K.; Hagmann, J.; Butler, E. G. (1996-08-01). "Tactical combat casualty care in
+special operations". Military Medicine. 161 Suppl: 3–16. doi:10. 1007/978-3-319-56780-8_1
+(https://doi.org/10. 1007%2F978-3-319-56780-8_1). ISSN 0026-4075 (https://www.worldcat.o
+rg/issn/0026-4075). PMID 8772308 (https://pubmed.ncbi.nlm.nih.gov/8772308).
+3. NAEMT cite (https://web.archive.org/web/20120922140936/http://www.naemt.org/education/
+TCCC/tccc.aspx)
+4. "Committee on Tactical Combat Casualty Care (CoTCCC)" (https://jts.amedd.army.mil/index.
+cfm/committees/cotccc). Joint Trauma System.
+5. "Joint Trauma System" (https://health.mil/Reference-Center/Reports/2017/08/02/Joint-Traum
+a-System). Military Health System.
+Tactical Evacuation Care (TACEVAC)
+Supporting evidence on effectiveness
+References
+6. Eastridge, Brian J.; Mabry, Robert L.; Seguin, Peter; Cantrell, Joyce; Tops, Terrill; Uribe,
+Paul; Mallett, Olga; Zubko, Tamara; Oetjen-Gerdes, Lynne; Rasmussen, Todd E.; Butler,
+Frank K. (December 2012). "Death on the battlefield (2001-2011): implications for the future
+of combat casualty care". The Journal of Trauma and Acute Care Surgery. 73 (6 Suppl 5):
+S431–437. doi:10. 1097/TA. 0b013e3182755dcc (https://doi.org/10. 1097%2FTA. 0b013e3182
+755dcc). ISSN 2163-0763 (https://www.worldcat.org/issn/2163-0763). PMID 23192066 (http
+s://pubmed.ncbi.nlm.nih.gov/23192066).
+7. Kotwal, Russ S.; Montgomery, Harold R.; Kotwal, Bari M.; Champion, Howard R.; Butler,
+Frank K.; Mabry, Robert L.; Cain, Jeffrey S.; Blackbourne, Lorne H.; Mechler, Kathy K.;
+Holcomb, John B. (December 2011). "Eliminating preventable death on the battlefield".
+Archives of Surgery. 146 (12): 1350–1358. doi:10. 1001/archsurg. 2011. 213 (https://doi.org/1
+0. 1001%2Farchsurg. 2011. 213). ISSN 1538-3644 (https://www.worldcat.org/issn/1538-3644).
+PMID 21844425 (https://pubmed.ncbi.nlm.nih.gov/21844425).
+8. Kotwal, Russ S.; Montgomery, Harold R.; Miles, Ethan A.; Conklin, Curtis C.; Hall, Michael
+T.; McChrystal, Stanley A. (June 2017). "Leadership and a casualty response system for
+eliminating preventable death". The Journal of Trauma and Acute Care Surgery. 82 (6S
+Suppl 1): S9–S15. doi:10. 1097/TA. 0000000000001428 (https://doi.org/10. 1097%2FTA. 0000
+000000001428). ISSN 2163-0763 (https://www.worldcat.org/issn/2163-0763).
+PMID 28333833 (https://pubmed.ncbi.nlm.nih.gov/28333833).
+9. Kelly, Joseph F.; Ritenour, Amber E.; McLaughlin, Daniel F.; Bagg, Karen A.; Apodaca, Amy
+N.; Mallak, Craig T.; Pearse, Lisa; Lawnick, Mary M.; Champion, Howard R.; Wade, Charles
+E.; Holcomb, John B. (February 2008). "Injury severity and causes of death from Operation
+Iraqi Freedom and Operation Enduring Freedom: 2003-2004 versus 2006". The Journal of
+Trauma. 64 (2 Suppl): S21–26, discussion S26–27. CiteSeerX 10. 1. 1. 855. 6119 (https://cites
+eerx.ist.psu.edu/viewdoc/summary?doi=10. 1. 1. 855. 6119).
+doi:10. 1097/TA. 0b013e318160b9fb (https://doi.org/10. 1097%2FTA. 0b013e318160b9fb).
+ISSN 1529-8809 (https://www.worldcat.org/issn/1529-8809). PMID 18376168 (https://pubme
+d.ncbi.nlm.nih.gov/18376168).
+Committee on Tactical Combat Casualty Care (https://jts.amedd.army.mil/index.cfm/committe
+es/cotccc)
+Tactical Combat Casualty Care on Deployed Medicine (https://deployedmedicine.com/mark
+et/11)
+Tactical Combat Casualty Care at the National Association of Emergency Medical
+Technicians (http://www.naemt.org/education/naemt-tccc)
+Retrieved from "https://en.wikipedia.org/w/index.php?title=Tactical_Combat_Casualty_Care&oldid=1181962148"
+External links

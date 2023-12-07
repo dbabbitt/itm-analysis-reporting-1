@@ -1,0 +1,1667 @@
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+805
+Chapter 25
+MILITARY HUMANITARIAN
+ASSISTANCE: THE PITFALLS AND
+PROMISE OF GOOD INTENTIONS
+ELSPETH CAMERON RITCHIE, MD*; AND ROBERT L. MOTT, MD, MPH†
+INTRODUCTION
+Types of US Military Humanitarian Missions
+Why Is the US Military Involved in Humanitarian Assistance?
+PEACETIME ENGAGEMENT PROJECTS AND DISASTER RELIEF OPERATIONS
+Peacetime Engagement Projects: The Planned Provision of Care
+The Pitfalls of Peacetime Engagement Projects
+Establishing Quality Peacetime Engagement Projects
+Disaster Relief Operations: Meeting Emergent Needs
+CONFLICT-RELATED CONTINGENCY OPERATIONS
+Aspects of Providing Civilian Medical Care During Contingency Operations
+Balancing Allocation of Medical Resources
+Establishing Mission Priorities and Their Implementation
+Increasing Security in Conflict–Related Contingency Operations
+“TAKING CARE OF” THE CAREGIVERS
+CONCLUSION
+*Lieutenant Colonel, Medical Corps, United States Army; formerly, Executive Officer, 528th Combat Stress Control Unit, Mogadishu, Somalia; formerly, Chief, Forensic Psychiatry, Walter Reed Health Care System, Washington, DC; currently, Program Director, Mental Health
+Policy and Women’s Health Issues, Office of the Secretary of Defense, Health Affairs, Skyline 5, Suite 601, 5111 Leesburg Pike, Falls Church,
+Virginia 22041-3206
+†Major, Medical Corps, United States Army; formerly, Civil-Military Policy Analyst, Medical Humanitarian Assistance Policy and Programs, Office of the Secretary of Defense, The Pentagon, Washington, DC; currently, Deputy Director, General Preventive Medicine Residency, United States Army Center for Health Promotion and Preventive Medicine, Walter Reed Army Institute of Research, Building 503,
+Silver Spring, Maryland 20910-7500
+Military Medical Ethics, Volume 2
+806
+Joseph Hirsch
+Safe
+Cassino, Italy
+A Medical Corpsman comforting two orphans. This sketch, from the Mediterranean Theater of Operations, exemplifies the ideals of humanitarian missions. This chapter highlights some of the pitfalls of these missions, in order to
+avoid tragedy in future situations.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC. Available at: http://
+www.armymedicine.army.mil/history/art/mto.htm.
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+807
+INTRODUCTION
+aid. This chapter outlines basic ethical questions
+encountered in humanitarian operations, namely
+those questions involving who military healthcare
+professionals will treat, what care will be provided,
+and the ramifications of providing that care. Both
+the potential pros and cons of providing medical
+assistance will be presented. The chapter is intended
+to help guide the physician, medical decision planner, and the commander, using case studies to illustrate these dilemmas. Some of the case studies
+are factual; others have been modified to illustrate
+an ethical dilemma. Few absolute answers can be
+given because situations vary depending on resources, need, and the tactical and political situation. Although this chapter raises concerns about
+the conduct of certain humanitarian projects, it
+should not be viewed as an indictment of military
+humanitarian assistance programs.
+Types of US Military Humanitarian Missions
+Humanitarian missions can be divided into two
+broad categories: (1) operations where the primary
+medical goal is the care of civilians and (2) operations where the care of military personnel is the
+focus of military medics (Exhibit 25-1). Each of these
+missions can involve the direct care of civilians even
+though the underlying goals, circumstances, and
+ethical challenges may differ greatly.
+EXHIBIT 25-1
+TYPES OF US MILITARY MEDICAL
+OPERATIONS
+Operations where the primary medical goal is
+the care of civilians
+•
+Peacetime engagement programs (such
+as MEDCAPs [Medical Civic Action Programs])
+•
+Disaster relief
+•
+Dislocated civilian/refugee operations
+•
+Noncombatant evacuation order (NEO)
+operations
+Operations where the primary medical goal is
+the care of military forces
+•
+War/combat operations
+•
+Peacekeeping
+The United States military is routinely deployed
+around the globe to conduct a broad spectrum of missions. These missions range from peacetime engagement or “development” projects at one extreme to
+major theater wartime operations at the other. Within
+each of these missions, military medical professionals may be called on to provide aid to civilians. There
+is a rich history of direct military aid to civilians as
+described in the previous chapter. Given the end of
+the Cold War and the US military’s increasing involvement in military operations other than war (MOOTW),
+the issues inherent in providing medical assistance to
+indigenous populations will become increasingly
+important to commanders and medical planners.
+The benefit of military medical forces providing
+assistance to injured, sick, and wounded civilians
+seems obvious. In many operations, there is a suffering population that is in desperate need of medical assistance. Some of these individuals may have
+been injured, intentionally or not, by US forces.
+Other individuals represent the range of human
+afflictions found in any area that has been lacking
+adequate medical care for a prolonged period.
+But there are potential pitfalls, often not considered, to providing this assistance. Many military
+clinicians increasingly question whether the tenet
+to “first, do no harm” is being followed when the
+United States military provides medical assistance
+to developing countries. It is troubling to ponder
+the possibility that individuals or a population
+might be worse off after receiving American military medical assistance.
+Although there is a long history of militaries providing humanitarian assistance to suffering populations, there is a dearth of international law, policy
+guidance, and doctrine for the types of complex operations that military medical planners and professionals face. Much of the “Law of War,” as codified
+by the Geneva Convention of 1947 and the subsequent
+Protocols, does not apply to contemporary armed conflicts. 1,2 Usually the warring parties are not sovereign
+nations (typical of past conflicts) but ethnic minorities or religious factions fighting within the borders
+of a single country. There is little guidance available
+for the physician or other healthcare professional to
+follow on how to ethically prioritize medical care in
+conflicts in the post–Cold-War era. Different military
+services and different nations often have little, or conflicting, guidance on whom to treat.
+Most American physicians, including those in the
+military, are not aware of the potentially serious
+problems caused by inappropriate humanitarian
+Military Medical Ethics, Volume 2
+808
+Peacetime Engagement Projects and Disaster
+Relief Operations
+Peacetime engagement projects (authorized under
+Title 10 US Code, Section 401) are principally intended as training missions for US military forces
+while also providing nonthreatening engagement
+opportunities with foreign nations. By statute, medical activities authorized by Section 401 are limited
+to the provision of medical care in rural areas of a
+country. These projects are variously referred to as
+Medical Civic Action Programs (MEDCAPs) and
+Medical Readiness Training Exercises (MEDRETEs).
+A number of papers have been written detailing the
+conduct of these activities, the benefits derived, and
+some of the ethical and operational issues encountered. 3–7 Some of these issues will be explored in
+more detail later in this chapter. Disaster relief operations are technically contingency operations.
+However, because the primary goal of these missions is to provide relief to the local population, the
+ethical issues raised are more closely aligned to
+peacetime engagement projects.
+Conflict-Related Contingency Operations
+In international contingency operations the US
+military may, under Title 10 US Code, Section 2551
+(which permits the Department of Defense [DoD]
+to use funds for “other humanitarian purposes
+worldwide”), provide assistance to civilians. US
+military medical assistance to civilians may be central to the mission, as in complex humanitarian
+emergencies, or it may be provided on an as-available basis during more typical military operations.
+Military forces rarely have primary responsibility for the care of civilians, especially in operations
+that fall short of war. Instead, civilian governmental, nongovernmental organizations (NGOs), and
+international organizations (IOs) have the lead for
+both development and relief activities. The United
+States Department of State, the US Agency for International Development (USAID), and various
+United Nations agencies are major providers of
+humanitarian aid. NGOs provide much of the manpower for on-the-ground relief and development
+programs while the military, if present at all, is generally in a supporting role. Some civilian aid organizations have been critical of military involvement
+in humanitarian operations even in a supporting
+role. 8 As an example, Médecins Sans Frontiéres [Doctors Without Borders] (MSF), a well-respected NGO,
+released the following as part of a 9 October 2001
+press statement objecting to US military airdrops
+of humanitarian supplies to civilians in Afghanistan in October of 2001. “Providing aid to vulnerable populations under the sway of armed factions
+in a politically charged climate is always very difficult. Ultimately it rests on demonstrating that the
+motives for helping are purely humanitarian and
+divorced from any ulterior political, military, or religious agenda.…MSF is extremely concerned that
+there are clear risks in associating humanitarian aid
+with military operations. MSF believes strongly that
+for humanitarian aid to be effective, it must not be
+encumbered by political or military motives.”
+Why Is the US Military Involved
+in Humanitarian Assistance?
+The primary missions of a military are to defend
+the homeland and protect national interests abroad.
+Some individuals and organizations in the United
+States as well as other countries assert that the military should not be involved in humanitarian or nation-building activities. They argue that a military
+is an inappropriate provider of humanitarian services and that humanitarian operations negatively
+impact the true military mission—fighting and winning the nation’s wars. 9,10 Why, then, is the US military increasingly called on to provide humanitarian aid? One answer is that nations have a moral
+imperative to assist people in need. In addition,
+these programs provide certain benefits to the
+United States while also benefiting, to some degree,
+the local population of these other countries. Other
+reasons for US military involvement in humanitarian activities include:
+• humanitarian imperative,
+• unique military capabilities,
+• public relations,
+• to legitimize military operations,
+• engagement with a foreign government, and
+• training for US forces.
+Many governments have special nonmilitary
+agencies that are responsible for international disaster response. The Office of Foreign Disaster Assistance (OFDA) under USAID is the lead agency
+for the United States. However, these agencies may
+not be structured to handle massive humanitarian
+requirements without military assistance. Few organizations outside of the military have the capacity to quickly move materiel, establish secure routes
+for aid delivery, develop command and control
+mechanisms, and provide direct assistance. This is
+changing somewhat as civilian aid agencies increase
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+809
+their logistics and communication capacities and as
+contract transportation assets become more available.
+Even if these nonmilitary organizations have the
+necessary resources for these events, there may still
+be political pressure from various groups in the
+United States (for example, those with the same ethnic heritage as the affected group) on the US military to provide assistance as a show of American
+support. The humanitarian imperative also arises
+during combat operations. Military commanders
+and medical professionals often feel a moral obligation to assist the suffering civilian population,
+especially when they have the trained personnel
+and medical equipment readily available.
+Humanitarian operations also benefit the American political process by showing other countries the
+diverse American population working together to
+achieve common goals and thus improving global
+public relations. The deployment of military forces
+to assist with a foreign emergency is a very visible
+show of support for a foreign government and its
+people. In addition, there is the symbolism of a large
+military aircraft with an American flag on its tail
+unloading relief supplies. A photograph of a US
+medic caring for a needy child is equally compelling.
+Healthcare for civilians may be used to legitimize
+Fig 25-1. These three photographs, taken during Operation Uphold Democracy (Haiti, 1994), depict what can
+be characterized as ideal humanitarian operations: a clear
+need for intervention, a genuine welcome from the local
+population, and a sense of doing good things for people
+who need American help. This operation was in direct
+response to increasing numbers of Haitian migrants fleeing the conditions in their country and attempting to
+make the dangerous ocean journey to American shores.
+The United States intervened in Haiti to halt the migrant
+crisis and to complete the lawful change in power that
+should have occurred following the democratic election
+of a new president in Haiti. American forces remained
+in Haiti in the months following the change of power to
+a
+b
+c
+assist in infrastructure development to ensure continued stability in the new democracy. (a) “Haitians run through
+the crowd at the Presidential Palace, Port-au-Prince, Haiti supporting the American involvement in the return of
+President Jean Bertrand Aristide on 15 October 1994.” Image and caption: The DoD Joint Combat Camera Center
+(JCCC), American Forces Information Services, Assistant Secretary of Defense (Public Affairs). US Forces in Haiti,
+Image #220, JCCC Reference: J3107-SCN-94-20766. Combat camera photo by PH1 Robert N. Scoggin, US Navy.
+(b) “Outside the Port-au-Prince Airport, Haitians rally in support of American troops forcing out General Cedras and
+protecting their city’s streets, at Port-au-Prince Airport, Haiti during Operation Uphold Democracy.” Image and
+caption: The DoD Joint Combat Camera Center, American Forces Information Services, Assistant Secretary of Defense (Public Affairs). US Forces in Haiti, Image #276, JCCC Reference: J3107-SPT-94-20196. Combat camera photo by
+A1C Sean Worrell, US Air Force. (c )“‘Sammy,’ a Haitian child injured [the week before] in a grenade attack, arrives at
+the 5th Mobile Army Surgical Hospital (MASH) at Fort Bragg, North Carolina, where he will be reunited with his
+mother.” Image and caption: The DoD Joint Combat Camera Center, American Forces Information Services, Assistant
+Secretary of Defense (Public Affairs). US Forces in Haiti, Image #305, JCCC Reference: J3107-SPT-94-20468. Combat
+camera photo by Spec Brian Gavin, US Army.
+Military Medical Ethics, Volume 2
+810
+a military operation. Traditionally, informally the
+Special Forces medics treat the local populations in
+an attempt to win their “hearts and minds.” This
+grateful population may then, at least theoretically, be
+more likely to aid American interests, for instance by
+providing information about the whereabouts of the
+enemy. There is also the likelihood of damaging publicity and a loss of legitimacy if US medical personnel
+refuse to treat a dying child or an accident victim.
+Medical engagement projects during peacetime
+are also a low-threat means of introducing a foreign nation to the US military. Medical engagement
+projects may be the first contact that a foreign government and military has with American forces and,
+if conducted well, may be a good way to break longstanding negative stereotypes. This is particularly
+true in countries previously aligned with former
+adversaries. Humanitarian deployments are a way
+of sending the message to the local population that
+their government is supported by the United States.
+These populations can then begin to see, in a tangible way, the benefits of a continuing relationship
+with the United States. This also can be a very satisfying experience for US military forces providing
+this assistance (Figure 25-1). Thus a successfully
+conducted humanitarian deployment can be the
+first step in a long-term relationship that improves
+the everyday lives of the local population while
+providing training benefits to the US military. These
+humanitarian projects also provide an opportunity
+to teach and demonstrate key central principles of
+the US military to foreign governments and militaries. These principles include civilian control of
+the military and respect for human rights.
+There are several types of training benefits to
+American military medical forces. The most readily
+apparent benefit comes from the fact that operations
+in developing countries, particularly those in the
+tropics, expose US healthcare professionals to diseases rarely seen in Western hospitals, such as tropical diseases, nutritional deficiencies, and advanced
+cancers. These missions permit medical units to
+practice real-world deployments, work with foreign
+military personnel, and operate in austere environments. Some units have used such deployments as
+a lab to develop new equipment and procedures. 11
+Many National Guard and Reserve medical units
+also deploy on humanitarian missions because the
+missions are considered valuable training and retention tools.
+PEACETIME ENGAGEMENT PROJECTS AND DISASTER RELIEF OPERATIONS
+Peacetime engagement projects and disaster relief operations are inherently different—one is
+planned, the other emergent—but they are discussed together in this chapter because the main
+focus of each is to provide humanitarian assistance
+to a civilian population. This differs from the contingency operations discussed in the next section
+where the main goal of medical assets is to provide
+care to military forces. Many criticisms described
+here are also valid for humanitarian assistance provided by nonmilitary organizations.
+Peacetime Engagement Projects: The Planned
+Provision of Care
+Direct medical engagement projects involve the
+provision of acute medical care to people in rural
+areas of developing countries (Figure 25-2). Many
+of these MEDCAPs focus on primary care where
+several hundred patients are evaluated and treated
+per day for common illnesses and injuries. This is
+sometimes referred to as “tailgate medicine” because
+care is provided out of the back of a truck or within
+a local structure such as a school or small clinic.
+Tailgate MEDCAPs may also include dental care
+and optometry. Other MEDCAPs involve elective
+surgical procedures such as cataract removal or cleft
+palate repair. The common elements of MEDCAPs
+are that they are primarily for the training of US
+military personnel, they are only a few days in duration, and they provide rudimentary care to patients
+in austere environments. Other medical engagement projects include the donation of excess DoD
+medical equipment, preventive medicine programs,
+and training for host nation providers.
+The Pitfalls of Peacetime Engagement Projects
+Despite the putative benefits described above,
+the true value of military “peacetime engagement”
+activities is questioned for many reasons. Much of
+the criticism centers on the quality of the patient–
+physician relationship although there are larger
+programmatic concerns as well as questions about
+the actual training value for US medical personnel.
+These criticisms are summarized in Exhibit 25-2.
+The benefits derived from these missions may be
+offset if they are not carefully planned and executed,
+as the following case study illustrates:
+Case Study 25-1: A MEDCAP Exercise in Rural Africa. A young Army physician was excited about a
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+811
+MEDCAP exercise in rural Africa. “I was finally going to
+travel the world, see tropical diseases that I had only read
+about in textbooks, and provide medical care to people
+who had rarely, if ever, seen a doctor. But during the mission my excitement turned to frustration. I began to question the quality of the care that I was able to provide and
+the long-term benefit to the population. I questioned my
+ability to make a correct diagnosis because of my limited
+expertise and our lack of lab and x-ray services. I also
+began to doubt the training value of the trip. I couldn’t
+EXHIBIT 25-2
+THE PITFALLS OF PEACETIME ENGAGEMENT PROJECTS
+Inability to establish an effective patient–physician relationship
+•
+Lack of knowledge of endemic diseases, may base diagnoses on “Western” medical experience
+•
+Lack of knowledge of, or consideration for, local customs and beliefs
+•
+Questionable patient understanding and compliance
+Constraints on the ability to provide quality diagnostic and medical care
+•
+Lack of diagnostic capabilities
+•
+Nonmedical personnel often provide care
+•
+Inadequate referral, continuity of care, and follow-up
+Inability to provide long-term assistance
+•
+Short-term focus
+•
+Inadequate planning and coordination
+•
+Disrupt local health care systems
+•
+Underlying causes of disease not addressed
+•
+Raise expectations, cause dissatisfaction with local medical resources
+•
+Lack of evaluation
+Questionable training value for US military medical personnel
+•
+Treat more curious people than those with true disease
+•
+Focus on quantity of patients seen instead of quality of care and training
+Fig. 25-2. A Somali refugee camp outside the American compound illustrates the primitive condition of the camps,
+with huts of donated plastic tarps and no running water, electricity, sewage, or other basic necessities. Photograph:
+Courtesy of Lieutenant Colonel Elspeth Cameron Ritchie, MD.
+Military Medical Ethics, Volume 2
+812
+differentiate a malaria case from a viral infection and we
+didn’t have an experienced clinician on the team who
+could teach me how. The exercise commander didn’t really care what we did as long as we kept the patient numbers up. Even if my diagnosis and treatment were correct, I had serious questions about my patients’ ability to
+understand and follow my directions. I later discovered
+that other physicians had had similar experiences.”
+Comment: This young physician had been initially altruistic about his forthcoming MEDCAP, but was disappointed by the actual experience. It is likely that he shared
+his disillusionment with other physicians when he returned
+to his unit. Furthermore, this experience may have had
+long-term adverse consequences on his confidence in
+himself as a physician, and in the value of the mission.
+Better mission planning, combined with more realistic expectations, might have lessened his disillusionment.
+This case study illustrates several dangers: (a) lack of
+knowledge of local diseases, (b) inadequate time to assess a patient, (c) no diagnostic facilities, and (d) poor
+communication with the patients. The problems inherent
+in a compromised patient–physician relationship are
+readily apparent.
+Inability to Establish an Effective Patient–
+Physician Relationship
+The patient–physician relationship is central to
+the delivery of quality medical care. (See Chapter
+1, The Moral Foundations of the Patient–Physician
+Relationship: The Essence of Medical Ethics, for a
+further discussion of this relationship.) In Western
+medicine, the patient trusts that the physician has
+the proper training, experience, resources, and focus to provide the best quality of care possible. If
+the physician is unable to provide appropriate care
+because of inadequate experience or resources, the
+patient expects to be referred to a physician who
+can provide the proper care. Patients also may believe that their physician will be available to continue to care for them if there are problems with a
+prescribed treatment. The physician trusts the patient to provide an accurate history and to follow
+the treatment directions closely.
+During MEDCAPs this “ideal” relationship does
+not, and cannot, exist. Most American-trained physicians are not experienced in diagnosing and treating many of the diseases of the developing world
+such as tropical diseases and nutritional deficiencies. Because of this, they are underqualified to diagnose and treat many of the problems that present
+during a MEDCAP. (This may be changing as more
+healthcare workers are trained in disaster or tropical medicine.) This is particularly true on missions
+where the diagnosis is based solely on a quick history and physical examination without the benefit
+of lab or radiographic services. The following case
+study emphasizes this point:
+Case Study 25-2: Diagnosis of Local Diseases. An
+American military surgeon in Vietnam was asked to see
+a middle-aged man who had high spiking fevers and episodes of generalized rigor. The surgeon evaluated this
+patient as he would have any patient he had seen in his
+years of medical practice. “On examination, I found diffuse tenderness all over but especially in the [lower] abdomen. Although we couldn’t converse—no translator was
+around—I was in no doubt of the diagnosis: a perforated
+appendix. He needs a lap[arotomy]! So we went to the
+OR [operating room] and under general anesthesia I made
+a small right lower quadrant incision and found a normal
+appendix. An internist was available and made the suggestion that maybe the patient had malaria. I had never
+seen a case of malaria…and, of course, that was the right
+diagnosis.”
+Comment: This patient was fortunate that the internist
+on the scene had knowledge of local diseases and could
+readily spot malaria. If at all possible, American healthcare
+professionals in non-American settings should familiarize themselves as much as possible with local diseases,
+and should further seek out the knowledge or experience
+of the local medical establishment whenever possible.
+The issue of “noncredentialed” or even nonmedical personnel providing care must also be addressed. Is it ethical for nonmedical personnel, such
+as Special Forces soldiers, to perform medical procedures on civilians such as starting intravenous
+(IV) fluids, performing minor surgery, or extracting teeth if they are not permitted to do this in the
+United States? Is it right for an enlisted medic to
+practice medicine independently without oversight
+by a licensed medical professional? These activities
+have been justified by the argument that the care
+that they provide is better than no care at all. Yet
+does this betray the trust of the patient if he believes
+a fully trained clinician is providing the care? We
+believe these practices are less than optimal because
+they provide substandard medical care. Furthermore, the local population and officials might reasonably expect that they are receiving “American
+medicine” and may be troubled if they learn that
+this is not the case. Sometimes, however, this may
+be the only care available in an emergency.
+The patient side of the patient–physician relationship is also problematic during MEDCAPs. Language difficulties create obvious communication
+shortfalls. An interpreter, or even the patient, may
+also have difficulty answering a question such as,
+“How much does it hurt?” as the actual acknowledgment of pain may vary between cultures. Many
+people in underserved areas of the developing
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+813
+world are unfamiliar with the basic concepts and
+phrases of Western medicine and may be unwilling or unable to discuss their symptoms in a way
+that the American physician can understand. Cultural differences and variations in medical knowledge and sophistication further complicate communication. Patient expectation of what the physician
+might want to hear can also impede effective diagnosis. Patient understanding, and thus informed
+consent, is often inadequate.
+Compliance with medication, although usually
+unknown, is probably poor. Many of these patients
+may not be familiar with the different classes of
+drugs (analgesics, antiinflammatories, antibiotics,
+and so forth) or the different causes of disease (nutritional, bacterial, viral) and the most appropriate
+treatments for each. Pills may be swapped in favor
+of a different color or size without consideration of
+the actual purpose of the medication. Herbal-based
+local medical practices may exacerbate this, especially if local preparations of a certain color, size,
+or shape are “good” for local ailments. For example,
+a blue antibiotic that is contraindicated for a pregnant woman may be swapped for an orange antiinflammatory. Non-Western patients may also believe
+that if one pill is good then 20 must be better. Common, seemingly harmless medications such as acetaminophen and iron supplements can be fatal if
+taken in these quantities. Conversely, patients may
+only take a portion of their prescribed course of
+medication, stopping when symptoms resolve. The
+remaining medications may be saved for a future
+illness or perhaps for sale. Because the full course
+of medication is necessary to cure the illness, this
+practice could lead to inadequate therapy and the
+development of antibiotic resistance.
+Unrealistic patient expectations can further complicate these already difficult patient–physician interactions. The following example illustrates several of
+these problems, including inadequate assessments,
+medicine swapping, and anger at the healthcare professionals when patients’ needs are not met. The unifying factor was the failure of effective communication.
+Case Study 25-3: “Good Intentions” Left in the Latrine. A small medical team consisting of primary care
+clinicians, nurses, and enlisted medics deployed on a
+medical training exercise in rural Africa. After arriving in
+the village selected for the MEDCAP, the team leader met
+with village elders to gain their support and to ask that
+they “spread the word” that the American healthcare professionals would be seeing patients the next day. The
+team then set up a rudimentary outpatient clinic in the
+local school.
+Early the next morning, the US providers were astonished to find hundreds of people milling around the school
+waiting to be seen. Some of these patients had walked
+for hours to receive care. In order to evaluate as many
+people as possible the team decided to stop taking vital
+signs because it was taking too long. As more patients
+were seen, it became apparent that many of the patients
+were really more curious than actually sick. This was evident when entire families presented with the same vague,
+nonspecific chief complaint. Rapid patient histories and
+examinations were performed with the aid of an interpreter
+but doctor and patient understanding was often questionable. For example, when asked through the interpreter
+how many children she had, a mother responded back
+through the interpreter that her head hurt.
+After brief history and physical examinations the clinicians made diagnoses without the aid of laboratory or
+imaging studies and then prescribed medication. The clinicians felt frustrated by their inability to accurately diagnose the causes of fever and abdominal pain. Only one
+of them had previously seen a case of malaria. Despite
+the fact that most patients were not particularly sick, they
+all nonetheless received some type of medication or a
+vitamin supplement. Multiple types of pills were routinely
+given to a single family, often consisting of antibiotics,
+pain and fever relievers, and vitamins. The pills were given
+to the head of household in small plastic bags with instructions written in English, which he was unlikely to be
+able to read.
+In the midst of the crowd of curious and mildly ill patients were several patients who were genuinely quite ill,
+presenting with advanced or chronic conditions that could
+not be managed by the US providers. One man became
+quite angry when told that his crippling condition was
+beyond the scope of the MEDCAP’s capabilities. During
+a short break, one of the American providers witnessed
+two women trading medication, an antibiotic for an antiinflammatory. When asked about the exchange one
+woman responded that orange tablets have more magical power than the blue. The same provider later noticed
+a scattering of dark pills at the bottom of the school’s open
+pit latrine. The doctors later learned that black was seen
+as the color of death.
+At 1600 the MEDCAP staff had to stop seeing patients
+in order to stay on schedule with the overall military exercise. Several dozen people became angry when they were
+turned away without being seen. A couple of rocks hit
+one of the MEDCAP vehicles as the team drove out of
+the village.
+Comment: This case study typifies “good intentions”
+that didn’t translate into effective medical care. The village elders had certainly done what was asked of them,
+in terms of spreading the word that the American
+healthcare team would be available. There was, however,
+a lack of understanding as to who should be seen by such
+a team, or perhaps there was no lack of understanding,
+only an overriding curiosity. Once the masses had arrived,
+however, there was no effective mechanism for quickly
+sorting through them to locate the most seriously ill, or to
+ensure that everyone was seen, even if only momentarily.
+Nor was there was a mechanism for turning the curious
+Military Medical Ethics, Volume 2
+814
+away. Finally, the healthcare professionals were unable
+to address the difference in cultural experiences of the
+providers vs the patients. The MEDCAP staff thus erred in
+assuming that their directions would or could be followed.
+Constraints on the Ability to Provide Quality
+Diagnostic and Medical Care
+There are programmatic concerns about engagement activities that are larger than the patient–physician relationship. These projects are often of very
+short duration and do not have a lasting impact. 12
+Furthermore, even the short-term impact of a
+project may actually be more negative than positive. In Rwanda, for instance, an NGO hired away
+the few remaining medical staff (most had been
+slaughtered during the genocide) from the struggling governmental health care clinic. 13 In addition,
+a well-resourced and staffed MEDCAP might raise
+the medical expectations of the local population
+causing them to become dissatisfied with the standard of care that the host nation is usually able to
+provide. The donation of a large quantity of medications may seem beneficial but it may be counterproductive if local providers are unsure of its proper
+use or if the free medication competes with a struggling local pharmaceutical market. The local population may also come to believe that their medicine
+is not as good as the “American pills.”
+Inability to Provide Long-Term Assistance
+The attempts to gain the “hearts and minds” may
+also backfire. If Americans are perceived as treating only one clan, the others may be angry. Often
+the treating physicians are not aware of these clan
+affiliations. If the locals come to expect treatment
+and then the treating hospital pulls out or stops
+providing care, resentment may be created. Expectations of continuing treatment and convalescent
+care may be raised. Indeed, the local populations
+may expect “miracles,” or the treatment of conditions for which there is no cure, for example, some
+congenital malformations, some types of blindness,
+some debilitating chronic conditions, or terminal
+illness.
+Another major issue is that acute care MEDCAPs
+often do not address the underlying causes of disease such as insect vectors, contaminated water,
+malnutrition, and poor sanitation and hygiene. 12 It
+may be futile or counterproductive for US military
+healthcare professionals to treat diseases caused by
+poor sanitation and hygiene without also addressing these underlying conditions as well. People may
+be less inclined to make preventive environmental
+or behavioral changes when they know that there
+are curative treatments, even if they are temporary.
+Finally, even if enormous volumes of patients are
+seen, some people may inevitably be turned away.
+Unfortunately, these may be the people who have
+traveled the furthest or waited the longest to receive
+care. It is easy to understand their anger if they do
+not receive care. This may alienate rather than make
+friends of the local population.
+Questionable Training Value for US Military
+Medical Personnel
+A major stated reason for conducting these medical humanitarian peacetime engagement projects is
+to train US military medical personnel to identify
+and treat unfamiliar diseases in austere environments. Unfortunately, many MEDCAPs are not designed for training. Instead they are geared toward
+generating large numbers of patient encounters to
+“show the host nation how much we care.” Time
+consuming diagnostic procedures may be set aside
+in the interest of the patient count. Teaching becomes much less pressing than seeing the hundreds
+of patients waiting outside. The fact that many of
+the “patients” are really reasonably healthy, and
+EXHIBIT 25-3
+NECESSARY ACTIONS FOR A
+SUCCESSFUL MEDICAL
+HUMANITARIAN PROJECT
+•
+Coordinate project planning and implementation with other humanitarian organizations
+•
+Consider and minimize unintended consequences of medical intervention
+•
+Ensure “local ownership” of project to assist with communication, asset allocation,
+and background information necessary
+for successful project
+•
+Provide quality medical services, including diagnostic assets
+•
+Institute and maintain proper continuity
+of care, follow-up, and program evaluation
+•
+Maximize training benefit, when appropriate, for US forces
+•
+Provide necessary assets and training for
+program to be sustainable
+•
+Build local capacity to ensure program
+continuity
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+815
+they may make up a complaint just to see an American physician, makes the training value of many
+MEDCAPs less than ideal. Finally, many of these
+exercises lack any personnel who have experience
+with tropical diseases and this reduces the training
+benefit.
+Establishing Quality Peacetime Engagement
+Programs
+US military medical planners at all levels of responsibility must take a leading role to insure that
+medical engagement projects provide excellent
+training for US forces while still providing quality
+medical care to local populations. Previously, Hood14
+and Luz and colleagues15 described criteria that
+might be useful for planning, executing, and evaluating medical civic action programs. These and
+other criteria are summarized in Exhibit 25-3.
+It should be obvious that a successful and ethical humanitarian mission should be centered on
+high-quality services. Yet as outlined above, problems such as limited resources, inexperienced planners and healthcare professionals, and command
+pressure to “get the numbers up,” all serve to reduce the quality of care provided.
+Physicians should object strongly when quality
+of care is threatened unnecessarily by external factors such as patient counts and political favors. US
+military medical professionals must be trained,
+equipped, and provided the necessary resources to
+correctly diagnose and safely and ethically treat
+diseases that are within the scope of care of the
+project. Predeployment training on the diagnosis
+and management of endemic diseases should be
+mandatory.
+Because the capabilities of the US medical professionals will usually be surpassed at some point
+during an exercise, it is critically important to have
+emergency and referral mechanisms in place before
+the project begins. This requires careful coordination with civilian medical providers and institutions. Project leaders should insist that experienced,
+competent host nation physicians work beside US
+military healthcare professionals on all MEDCAPs.
+Coordination must also be made with officials at
+all levels of the host government as well as with
+local organizations that will likely be affected by
+the project, in order to benefit from their experience and to learn of potential problems that may
+be encountered during the planned project. Furthermore, coordinating the project with individuals and
+agencies within the community will provide that
+community with a sense of ownership of the project
+and lessen problems that may arise. As the following case study illustrates, the limitations of the mission must also be stressed to the local population
+so it doesn’t expect a small rudimentary MEDCAP
+to have the capabilities of a large American hospital.
+Case Study 25-4: Communicating MEDCAP Limitations to a Local Population. A team of military primary care clinicians was conducting a small MEDCAP in
+a remote area, 1 hour by road from the nearest significant medical treatment facility. At midday, the pregnant
+wife of a district official was brought to the MEDCAP site
+hemorrhaging and in obvious distress. Her family had
+brought her to the MEDCAP instead of the local hospital
+because they felt the presence of US physicians would
+guarantee a high standard of care for this critical patient.
+Unfortunately, they did not understand that this MEDCAP
+project was not equipped for this type of emergency. Further, the US healthcare staff had not planned for life and
+death emergencies and thus referral procedures had not
+been established with the host nation providers. Because
+the MEDCAP team lacked the medical resources to care
+for this critical patient, she was sent on to the local hospital by truck, but died en route.
+Comment: Before the arrival of a MEDCAP team, especially in a geographic area that has not experienced
+such an event in the recent past, it is desirable to familiarize local officials with the MEDCAP project and what
+the team will be doing. This might involve showing them
+photographs of the typical visit in order to convey the
+basics of the program: short duration, non–life-threatening situations with generally ambulatory patients. Had the
+family known in advance what the MEDCAP’s team limitations were, the patient could have been taken to a more
+appropriate medical facility, and might have survived. (It
+is possible that in this case the woman’s family might have
+still brought her to the MEDCAP, thinking that “American
+medicine” in any form was preferable to what was available at the nearest local hospital.)
+When planning activities, it is important to consider local capabilities and customs to be certain
+that the patient-care activity or donated technology
+is appropriate. For example, it may be inappropriate for male US providers to examine or even speak
+to female patients. A village may lack the resources
+to operate or maintain a donated x-ray machine. It
+is certainly better to learn about and address these
+issues early in the planning cycle rather than during the mission. The best way to avoid pitfalls is
+through careful and detailed discussions with the
+people who will be receiving the services, if at all
+possible.
+Projects should at least partially bring lasting
+benefit to the area beyond the brief time period of
+the project itself. This may involve installing a water
+pump to provide a supply of clean water in addiMilitary Medical Ethics, Volume 2
+816
+tion to providing acute medical care, or increasing
+the capacity of local medical providers and public
+health officials to address the ongoing needs of the
+population. Equipping a clinic and training local
+medical professionals to use and maintain that
+equipment is an example of a capacity building
+mission that has a lasting benefit to the community.
+Finally, it is critical to consider unintended consequences during project planning and coordination in order to minimize potential problems. A
+“brainstorming” session should be conducted with
+local area experts to try to identify the ways that
+various parties might misinterpret a project and
+how the project might cause harm. Ways to mitigate those issues should then be identified. Discussing plans with local leaders, NGOs, and others will
+help to identify potential problems early. If significant problems cannot be adequately addressed then
+serious consideration should be given to canceling
+the project.
+There are certainly MEDCAPs that do an excellent job of training US medical personnel and providing quality services. The missions organized by
+Joint Task Force-Bravo (JTF-B) in Honduras are one
+example. (Chapter 24, Military Medicine in Humanitarian Missions, describes this in some detail.)
+These missions are well-coordinated with the Honduran medical system in part because Honduran
+physicians are on the JTF-B staff. These individuals
+coordinate medical engagement activities with the
+Honduran Government and local providers. They
+also train and orient US staff members who rotate
+through Honduras on humanitarian missions. The
+ongoing presence of the JTF enhances emergency
+referral, patient follow-up, and continuity of care.
+Unfortunately JTF-B is a somewhat unique organization. Most other countries lack a similar long-term
+presence and that negatively affects their ability to
+plan, coordinate, and execute quality programs.
+Surgically oriented MEDCAPs can also be very
+successful if they are well-planned, equipped,
+staffed, and coordinated. Cleft palate and cataract
+surgery are two procedures that provide long-term
+benefit to their patients while allowing the US surgeons to operate in an austere environment. Longterm relationships with host nation hospitals and
+physicians help guarantee appropriate cases and
+follow-up.
+There are many lessons that US military healthcare
+professionals and planners have learned from their
+past experiences in providing peacetime medical
+humanitarian assistance. Some of these lessons are
+very obvious; others are not. Among these lessons are:
+• Large MEDCAPs that deploy robust ancillary staff and services can do a better job
+than MEDCAPs that deploy small, underresourced teams.
+• Large MEDCAPs tend to be well-planned
+and coordinated; they attract more host
+nation support and direct participation.
+• Small MEDCAPs can provide quality training and services with careful planning and
+coordination.
+• The quality of patient care provided can be
+improved by teaming up with experienced
+local physicians in the outpatient service of a
+district hospital; choosing a hospital that has
+quality diagnostic services, a good mix of interesting cases, and experienced physicians
+who are interested in teaching increases the
+likelihood of a positive outcome for both patient and the healthcare professional.
+• It is unnecessary, and often counterproductive, to advertise that US providers will be
+seeing patients; maintaining a low profile
+will help avoid huge numbers of patients
+and those who are more curious than sick.
+• The educational experience and the quality of care is more important than the number of patients seen; if the MEDCAP commander and the host country understand
+that good training and quality services outweigh the fleeting benefit of a large patient
+count they will be more supportive of fewer
+patients being seen.
+• If an “all-comer” MEDCAP is still mandated, it is best to implement careful triage
+and screening procedures to help insure
+quality patient care and a good training
+experience.
+Dreher and Radoiu16 describe patient triage and
+other procedures that were used on an optometry
+MEDCAPs in Central America to enhance training
+and patient care.
+Disaster Relief Operations: Meeting Emergent
+Needs
+Even though disaster response has been a more
+traditional role for militaries than engagement or
+development activities, there are still pitfalls that
+may be encountered. The main problems include a
+lack of training and organization to properly manage disaster response, and the usual desire to provide the assistance directly rather than improving
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+817
+the capacity of the local population to help themselves. This chapter will only briefly discuss military involvement in disaster relief operations because many of the ethical issues are similar to those
+in peacetime engagements.
+Military medical units are often sent to major
+disasters to help the host nation care for victims and
+prevent the spread of disease. Unfortunately, because of their wartime mission, organization, and
+training the medical units are often ill-prepared for
+disaster relief and occasionally make the situation
+worse.
+A fundamental cause of problems is that deployable medical units are configured to treat injuries
+and illnesses in healthy, young combat troops. The
+medical units are neither staffed nor equipped to
+treat civilian populations that include infants, pregnant women, and the elderly. Standard equipment
+sets are not designed with infants in mind and formularies do not include pediatric formulations and
+medications to treat serious chronic illness. It is not
+uncommon for clinicians in disaster situations to
+be faced with complex acute and chronic diseases
+such as advanced heart disease, uncontrolled diabetes, severe respiratory disease, and complicated
+labor. Most of the smaller deployable hospitals,
+those that are the most likely to deploy to a disaster, are not designed to manage these types of patients, especially in large numbers.
+Another difficulty is that Western-trained military physicians are usually not trained to deal with
+many of the medical and public health issues encountered in underdeveloped countries. Few military clinicians have managed a case of complicated
+malaria or severe malnutrition and few military
+public health professionals have had to deal with a
+deadly outbreak of dysentery or measles. Medical
+and public health interventions that are appropriate for the United States may be counterproductive
+during disasters in developing nations. For example, the use of a reverse osmosis water purification unit (ROWPU) to produce high-quality water
+may be too resource intensive and less effective
+overall than simply pouring chlorine in buckets at
+a water collection point.
+The lack of cultural awareness may also complicate the delivery of quality medical care and public
+health programs. For example, as previously mentioned, certain cultures do not permit male healthcare
+professionals to examine female patients. Disaster
+relief deployments to care for this population would
+require a significant number of female personnel.
+For public health, one common downfall is failing
+to appreciate the sanitation practices of a culture
+and consequently providing latrines that the population refuses to use.
+A final issue is the impact of military medical
+providers on humanitarian organizations and the
+local population. Cooperating with, or accepting
+care from, a military hospital may be viewed as a
+breech of neutrality. This might incite the wrath of
+warring parties that would at a minimum disrupt
+relief efforts and may result in direct physical violence. The failure to gain the trust of local nationals
+can also be a major roadblock for public health programs that often rely on local health workers to
+implement effective community-based interventions. The following case study demonstrates some
+of these issues.
+Case Study 25-5: Adjusting Resource Consumption to the Mission Need. A Western government was
+troubled by news stories showing thousands of people
+dying of diarrhea in an emergency refugee camp. The
+government responded by deploying a mobile military
+hospital to the camp. On arrival, the hospital occupied a
+large piece of ground in order to set up the hospital, quarters for the staff, and a perimeter for security. The hospital staff was soon inundated with hundreds of patients,
+mostly children dying of dehydration. They immediately
+began moving from patient to patient starting IVs and giving antibiotics. They were quickly overwhelmed and they
+soon faced a shortage of IV solution and medication. Many
+of the patients died before the hospital could be resupplied.
+They later learned from an experienced NGO to mainly
+use oral rehydration while reserving IVs for those patients
+who couldn’t drink. They were amazed to see patients
+near death improve dramatically with simple oral hydration. In their after-action report the physicians documented
+that they were frustrated by their lack of preparation for
+this type of emergency.
+Comment: As with Case 25-3 (“Good Intentions” Left
+in the Latrine), the Western staff applied Western medicine in a setting in which the specifics of the situation
+should have been driving the response, rather than past
+practices in a familiar setting. The utilization of large
+amounts of resources (land, water, and so forth) and the
+failure to adapt the treatment to the patient needs or sheer
+numbers, prevented the team from being able to maximize their response to the magnitude of the medical need.
+This example illustrates the resources that the
+hospital consumed and also the inadequate training for military physicians in disaster medicine. An
+official at the Pan American Health Organization
+(PAHO) insists that mobile military hospitals are a
+problem for disaster relief because they arrive after
+the emergency phase, require excessive space and
+resources, and they eventually redeploy leaving no
+Military Medical Ethics, Volume 2
+818
+local medical capacity in their place. 17 It is often
+better to send in teams to help establish a local permanent medical treatment facility that helps with
+the disaster but also stays to treat the local population after the emergency is over.
+Case Study 25-6: Tailoring the Organizational Response to the Local Need. After a devastating hurricane
+in Central America, an appeal was made for international
+assistance. A number of groups in the United States responded to this appeal by collecting large quantities of
+medication and medical supplies to donate to the relief
+effort. The US military was asked to transport many of
+these donations to the disaster area. Unfortunately, the
+labels and instructions on the donated medical supplies
+were written in English, they had not been sorted by type
+of medication before they were sent, and some were close
+to or past their expiration dates. Not wanting to waste a
+potentially valuable resource, the host government felt
+compelled to use scarce medical manpower and resources to sort through the piles of medications, much of
+which could not be used.
+Comment: During a subsequent disaster, American
+relief agencies only accepted cash donations. The funds
+were then used to purchase appropriate medications and
+supplies in the affected country. This insured cultural appropriateness while limiting waste and giving a boost to
+the local economy.
+Not all donations of medical goods have the
+problems described in Case Study 25-6. An example
+of a civilian donation of supplies in which the items
+had been sorted and labeled before shipment to
+Somalia is shown in Figure 25-3. This preliminary
+sorting and labeling made the utilization of these
+supplies more likely.
+Medical care is considered a universal good by
+Fig. 25-3. “Members from Aerial Port Squadrons from Dyess
+Air Force Base, Texas, and Dover Air Force Base, Delaware,
+download medical supplies donated by the people of Milwaukee, Wisconsin, for distribution in Somalia. Pallets were
+then loaded onto waiting C-130 Hercules aircraft.” Image
+and caption: The DoD Joint Combat Camera Center, American Forces Information Services, Assistant Secretary of Defense (Public Affairs). US Forces in Somalia, Image #375.
+Combat camera imagery by Sergeant Kimberly A. Yearyean.
+most people but the inappropriate use of medical
+assets during a disaster may be counterproductive.
+Military medical planners and leaders must be prepared to recognize and resist relief efforts that can
+not accomplish their goals in an appropriate manner.
+CONFLICT-RELATED CONTINGENCY OPERATIONS
+Aspects of Providing Civilian Medical Care
+During Contingency Operations
+This section will focus on operations in which
+military medical forces are primarily structured and
+staffed to provide medical care for the deployed
+force, and thus medical care for the local population is not the focus of the mission. In those instances in which military medical professionals do
+provide treatment to the local population, care must
+be taken to ensure that the realities of a combat zone
+are factored into the decision-making process. Case
+Study 25-7 details such a situation.
+Case Study 25-7: Providing Feasible Medical Care
+to Indigenous Populations in a Combat Zone. In 1967,
+when Americans in Vietnam were increasingly being targeted by enemy soldiers, an American surgeon visited a
+local village to provide medical care. “I was shown a young
+man with bilateral inguinal hernias. They weren’t very
+large and probably were of the direct variety so that they
+offered little risk of incarcerating. Nevertheless I recommended that they be repaired, primarily, I suppose, because it would allow me to practice an operation—a
+McVay repair—that I had learned shortly before entering
+the Army and had not done since. Although the operation
+was usually done in stages because of considerable morbidity, I would do both sides simultaneously because it
+was dangerous driving from the base camp to the village
+and I did not know when I might be able to return to do
+the remaining side if I didn’t do it now. The bilateral repairs were duly performed with much [praise]…from the
+observers. On leaving, I gave instructions that the patient should remain in bed as much as possible. UnfortuMilitary Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+819
+nately, the next 3 weeks were quite busy with our own
+wounded. When I was next able to visit the village, I was
+distressed to see that the young man was sharing a hospital bed with two other patients, both of whom were quite ill.”
+Comment: More than 30 years after this case, the surgeon remains troubled by how oblivious he was to the
+structural limitations of local medical resources at that
+time. His intention had been to do the best he could for
+this patient. The patient sharing a bed with other ill, and
+possibly infected, patients certainly increased the likelihood of postoperative infection for this procedure. In retrospect, it is clear to him that his lack of understanding of
+the circumstances of this young man’s culture and the
+resources available to him might have resulted in a severe infection and even death of this patient. The surgeon can now see that his American background and
+perspective did not mesh well with the day-to-day life of
+the typical Vietnamese patient at that time.
+The areas that are of paramount importance in
+missions in which armed conflict may occur include
+resources, priorities for treatment, and security of
+the healthcare workers and facilities. The term
+“Medical Rules of Engagement (MROE)” is occasionally used to outline the restrictions placed on
+when and who to treat. The analogy to the military
+“Rules of Engagement” (ROE) on when and how to
+respond with weapons is obvious.
+Both the Rules of Engagement and Medical Rules
+of Engagement may change, sometimes quickly and
+unpredictably. Initially, Operation Restore Hope, in
+Somalia, was a humanitarian mission, as well as a
+security operation for military forces, because the
+primary mission was to provide a secure environment for the delivery of humanitarian aid. After US
+service members, NGO aid workers, and other UN
+peacekeepers were killed by Somalis, it was redesignated as a combat mission. As the tactical situation changed, so did the medical requirements. Case
+Study 25-8 illustrates the changing Medical Rules
+of Engagement in Somalia. It also illustrates changing attitudes among both the healthcare professionals and the local population.
+Case Study 25-8: Changing Environments in a
+Medical Assistance Effort. In Somalia, during Operation Restore Hope, the United States military was initially
+generous with medicines and bandages. The doctors and
+other healthcare personnel had few military patients and
+were eager to maintain their medical skills. It was logical
+that medical services would be offered to the local population. The Navy provided MEDCAP (Medical Civic Action Program) services. The US Army’s Special Forces in
+the countryside treated those Somalis that came to their
+aid station. The evacuation hospital treated those civilians that US forces had injured, or whoever presented
+saying that they had been wounded by Americans.
+Increasing numbers of Somalis presented to the hospital, claiming they had been injured by US forces. This
+was clearly the case for some of them who had been shot
+because they were shooting at American troops. Others
+had been shot by other Somalis. As the overall military
+situation began to deteriorate, with foreigners being targeted by members of the warring clans, the situation in
+the hospital deteriorated as well. Some patients stole
+hospital supplies. Other Somalis began to infiltrate through
+the concertina wire from the outside. More and more hospital personnel needed to act as guards, even though few
+medics were experienced in standing guard. The difficulties were further exacerbated by clan structure and the
+fact that clans were irritated by their perception that the
+Americans were not treating their personnel but were
+treating members of rival clans. The altruistic intentions
+left hostile feelings on all sides.
+Comment: The negative turn of events in Somalia was
+beyond the control of the military medical professionals
+who had been deployed to Operation Restore Hope. Indeed, a case could be made that the deployment and its
+consequent difficulties had had sociopolitical factors that
+had not been considered in the decision to send peacekeepers into the country. American forces had arrived with
+sincere and altruistic aspirations to help a definitely needy
+and starving population. Many left angry at Somalis and
+at their own country for what they perceived as a “no win”
+situation into which they had been thrust. In retrospect it
+is apparent that the desire to help a starving population,
+although exceedingly altruistic, was doomed to fail because it had not addressed the reasons for the starvation, and thus had not implemented realistic expectations
+and procedures.
+Few individuals or organizations dispute that the
+US military is capable of providing exceptional
+medical care in austere field environments. Mobile
+field hospitals and hospital ships provide a level of
+care on par with many hospitals in the continental
+United States and Europe. However, the involvement of military forces in conflict-related contingency operations is criticized for various reasons.
+Some nongovernmental organizations, such as
+Médecins Sans Frontiéres ([Doctors Without Borders]
+MSF), maintain that humanitarian aid must be delivered by neutral organizations that provide care
+to all people on the basis of need alone.
+Exhibit 25-4 lists the 10 principle commitments
+that comprise the Code of Conduct from the International Red Cross and Red Crescent Movement
+and NGOs in disaster relief. The code was adopted
+in 1994 by eight of the largest international disaster
+response agencies, and is used by the International
+Red Cross to assess its own relief efforts. Principle
+4 states that “we shall endeavor not to act as instruments of government foreign policy.” Humanitarian organizations assert that militaries are instruMilitary Medical Ethics, Volume 2
+820
+ments of government foreign policy and therefore
+should not be involved in direct humanitarian aid. 18
+They worry that the neutrality of their own organizations may become suspect if they are perceived
+to be working too closely with the military. Because
+the NGOs are not armed, they are especially vulnerable to retaliation. The killings of aid workers
+in Chechnya and East Timor in the 1990s illustrate
+their vulnerability.
+Despite those reservations, it is likely that the
+United States will continue to provide aid to civilians in contingency operations. This section, like the
+previous one, attempts to outline some of the factors
+involved so that decision making is the best possible.
+The variables fall into the following categories:
+• the tactical situation;
+• the relationship of the local civilian population to US armed forces;
+• patient priority;
+• available resources;
+• availability of other medical professionals
+(local, allies, and NGOs);
+• whether US forces caused the injury;
+• the acute vs chronic nature of an illness or
+injury; and
+• the projected length of stay in a deployed
+environment.
+Balancing Allocation of Medical Resources
+There are seldom, if ever, enough resources to
+treat all persons needing medical assistance. During contingency operations, the question of resources is always central. The balance is how to
+provide for one’s own forces, and also provide lifesaving care for the local population. Sometimes the
+most that can be done is to unofficially provide
+some of the most rudimentary basics, as the following case study describes.
+Case Study 25-9: Disobeying Orders—The “Risks”
+Associated With the Desire to Help. During the Korean
+War there were hundreds of thousands of ill, starving,
+and homeless refugees. The American military physicians
+were officially told not to treat the local population, but
+instead to save their medical supplies for the American
+and allied troops.
+At least one physician ignored the order. 19 He set up a
+makeshift hospital in a warehouse. Within a month, he
+had approximately 2,500 patients in the warehouse. Although he could not supply them all with medication, they
+did have shelter and blankets.
+Comment: This physician was able to feel that he had
+made a difference in the plight of these refugees. However, had there been a need for the medical supplies he
+was diverting to the local population, there would have
+been serious repercussions following his decision to disobey the orders he had been given.
+The United States and other sophisticated militaries deploy with advanced medical equipment,
+medicine, and healthcare personnel to treat the deployed force. Medical planners normally plan for
+worst-case scenarios that have fortunately rarely
+occurred in recent conflicts. The resulting excess
+medical capacity is then potentially available to
+treat the many wounded and sick civilians who
+have not been cared for.
+ Military operations orders may specify that
+EXHIBIT 25-4
+CODE OF CONDUCT FOR THE INTERNATIONAL RED CROSS AND RED CRESCENT
+MOVEMENT AND NGOS IN DISASTER RELIEF
+1.
+The humanitarian imperative comes first.
+2.
+Aid is given regardless of the race, creed, or nationality of the recipients and without adverse distinction of any kind. Aid priorities are calculated on the basis of need alone.
+3.
+Aid will not be used to further a particular political or religious standpoint.
+4.
+We shall endeavor not to act as instruments of government foreign policy.
+5.
+We shall respect culture and custom.
+6.
+We shall attempt to build disaster response on local capacities.
+7.
+Ways shall be found to involve programme beneficiaries in the management of relief aid.
+8.
+Relief aid must strive to reduce future vulnerabilities to disaster as well as meeting basic needs.
+9.
+We hold ourselves accountable to both those we seek to assist and those from whom we accept resources.
+10.
+In our information, publicity and advertising activities, we shall recognize disaster victims as dignified human beings, not hopeless objects.
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+821
+medical care be reserved for United States or coalition forces only. However, the guidance may also
+permit the local commander or surgeon to authorize care for other groups, including civilians, as
+the situation allows. The humanitarian imperative
+often dictates that US medical assets be used to provide life, limb, and eyesight saving care to civilians.
+Tactical considerations will be of prime importance to the commander and his medical planner.
+Obviously the ability of US medical professionals
+to treat local populations varies depending on
+whether the environment is friendly or hostile. In
+times of calm, there is usually more flexibility than
+in times of conflict. If plentiful resources are available,
+US military healthcare professionals may be more
+generous than if resources are scarce. Similarly if
+the surgeons have no pending surgery cases, or the
+infectious disease doctors have never seen a case
+of dengue fever before, they may be very interested
+in providing treatment. It is difficult, however, to
+predict just how quickly medical situations might
+arise, as the following case study demonstrates.
+Case Study 25-10: Allocating Medical Resources
+in a Rapidly Changing Military Environment. An American military truck convoy came upon a three-vehicle pileup (vehicles similar to the one shown in Figure 25-4), with
+two dead, three seriously injured, and many others who
+were slightly injured, near Bardera, in the southern portion of Somalia. The Joint Task Force (JTF) Surgeon, located in Kismayu, was asked to send two medevac
+Blackhawks for assistance in transporting the victims to
+Mogadishu. Because the military situation in Kismayu was
+relatively quiet that morning, he dispatched two choppers,
+with pilots and medics. He then went to visit a local NGO.
+When the JTF surgeon returned to his headquarters,
+he learned from the hospital in Mogadishu that the three
+seriously injured traffic accident victims had died during
+the flight. Furthermore, his superior was irate that the
+helicopters were used on a civilian mission as there had
+been heavy fighting in Bardera that day and the commander of the medevac battalion had had to scramble to
+find enough assets to pick up the wounded Marines.
+Comment: In the beginning days of a deployment, supplies may be abundant. If a mass casualty situation occurs, and blood is short for American service members,
+there may be legitimate criticism about “wasting” that
+blood. In the above example, no American lives were lost
+on the mission—but they could have been. All helicopter
+missions have some element of danger. If helicopters and
+crews are dispatched to pick up the victim of a traffic accident, and one of those helicopters crashes, that crew
+and that helicopter will not be available for their primary
+function. Similarly if the hospital beds are all full with local civilians, and an emergency situation develops requiring those beds for US troops, there will be a dilemma.
+The primary mission for the medical professionals is to
+support the US military mission. There is also an implied
+promise of providing the necessary care (even if long-term)
+to these civilian patients once they enter the facility.
+Large medical facilities, especially if land-based,
+require considerable resources themselves—to
+move into place, provide water and electricity, dispose of the waste, and to guard. Deployment of
+hospital ships might be interpreted to mean that
+either large numbers of American casualties are
+expected or that there is a plan to treat the local
+population. A heavy deployment of medical assets
+may also lead to “mission creep,” which refers to a
+broadening of the mission, in part because support
+assets are in place. Although these are usually tactical considerations, these decisions may have ethical implications as well. For example, expectations
+may be raised about more extensive treatment of
+the local populations and then not fulfilled. Thus
+local infrastructure may be hampered in its development. The large facility required may use scarce
+Fig. 25-4. “A truckload of Somali men from the village of
+Maleel arrive at the field used as a landing zone by US
+Marine helicopters delivering sacks of wheat donated by
+the people of Australia. 23 January 1993.” Caption and
+photo: The DoD Joint Combat Camera Center, American
+Forces Information Services, Assistant Secretary of Defense (Public Affairs). US Forces in Somalia, Image #251.
+Combat Camera photo by PHCM Terry C. Mitchell, US
+Navy. In developing countries like Somalia, the shortage of transportation assets results in aging vehicles that
+are often overloaded with passengers. When these vehicles are involved in accidents, the numbers of injured
+and dead may be considerable.
+Military Medical Ethics, Volume 2
+822
+water or occupy the best land. Hospital personnel
+may need to spend shifts guarding the facility rather
+than treating patients. If the hospital has taken on
+care of large numbers of the local population, the
+question of what to do with them if the hospital is
+ordered to redeploy becomes problematic.
+Establishing Mission Priorities and Their
+Implementation
+Medical planners must decide what type of medical assets to deploy. The mix of healthcare professionals should be determined by the prospective mission
+and the priorities of treatment. If only American
+service members and allies will receive medical services, then the mix should concentrate on preventive
+medicine physicians, surgeons, and those who concentrate on treating acute illness or injury. If the
+local population will also receive medical services,
+then the medical assets mix should also include
+pediatricians, maternal health specialists, and specialists in chronic illness. The available time before
+deployment to gather the required personnel may
+also influence the mix of healthcare professionals.
+A priority list needs to be developed by medical
+planners before a deployment. All should realize,
+however, that priorities may change depending on
+the situation. The identified priorities will depend
+both on readily available resources and the prevailing political realities. Some of the issues to be considered before initiating treatment in country include:
+• How to categorize and prioritize patients
+(by age, gender, disease, or some other category?)
+• How to focus treatment plans and options
+(acute treatment or chronic care?)
+• How to ration limited or scarce resources
+(begin or delay treatment of civilians needing these resources?)
+• How to interface with local but limited
+medical resources (begin or refrain from
+beginning treatments that cannot be continued at local facilities?)
+Seldom are the issues simple. The problem becomes more complicated, however, if the patient
+under consideration is not a soldier but rather is a
+criminal who has been wounded by American
+forces, as the following case discusses.
+Case Study 25-11: Mission Priorities and Medical
+Care. A local man was observed dousing a woman with
+gasoline, then setting her on fire. An American soldier,
+witnessing the event, and thinking that he could stop (but
+not kill) the man, shot him in the buttocks. The man was
+admitted to the US military hospital because he had been
+wounded by an American. However, the woman was not
+eligible to be admitted to the American hospital because
+her injuries were not caused by an American. She was
+therefore transported to a local hospital; her outcome was
+not known to the Americans.
+The bullet caused extensive internal damage in the
+man, requiring a series of operations and lengthy convalescent care, at a considerable expense to the US military. While hospitalized, the patient waved his genitalia
+at the nurses and harassed the staff. The entire time he
+was undergoing treatment, the victim’s family maintained
+a watchful presence at the gate, presumably to exact revenge if he survived.
+Comment: This was a very emotionally difficult episode for the hospital staff. They were not allowed to treat
+locals who were dying outside the gates of the hospital,
+except for those injured by US forces. Furthermore, they
+believed the patient’s prior actions were abhorrent and
+they were distressed at the amount of medical resources
+being used to treat him. They were further distressed by
+their knowledge of the general level of disease and suffering in the local population and the thought that the same
+amount of medical resources used outside the gate, rather
+than on this reprehensible patient, might alleviate a considerable amount of that suffering. Their intellectual understanding of the requirement to treat those that Americans
+had wounded did little to lessen their anger in dealing
+with this extremely difficult patient. They questioned if it
+was ethical to spend over $300,000 to treat this patient
+yet ignore dying children right outside the gate.
+The emergent nature of an injury raises another
+question. In most instances, if US military healthcare
+professionals are presented with an “acute life or
+limb” injury the decision is made to treat. If the local civilian patient has a chronic disease where longterm medication may be needed, such as HIV or
+tuberculosis, there is little likelihood of US medical
+treatment. Likewise, if after an operation a patient
+will need dialysis to survive, the surgery may not
+be done, unless the patient can be evacuated for
+long-term care and the US government is willing
+to accept that expense. In fact, even crutches and
+bandages are not usually provided, let alone any
+other forms of long-term convalescent care.
+An exception to this determination to not provide long-term care occurs if US forces inflicted the
+injury, whether in a firefight or motor vehicle accident. If the patient were injured in a hostile action,
+even if not officially guided by the Geneva Convention prisoner of war rules (which cover war between sovereign nations), most would agree that
+the ethical requirement is to treat. Then the patient
+will need guards, to ensure no pilferage or otherMilitary Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+823
+wise more serious disruption. It may be difficult for
+the medical unit to have enough hospital staff to
+provide guards and still be able to perform their
+healthcare mission.
+If the patient presents to a US military medical
+facility, stating that US forces caused his accident
+or injury, it may be difficult to turn that patient away
+even if the healthcare professionals are absolutely
+certain that the accident or injury was not caused
+by US forces. The danger is that this often leads to
+a long line of potential patients, claiming that US
+forces caused their injuries, whether or not that was
+actually the case. There are no existing guidelines
+as to how to make those distinctions.
+In general, those who are working for US forces,
+whether doing laundry, cleaning out buildings, or
+translating, will receive medical treatment. Again
+an issue arises as to how far that treatment extends—to their immediate or extended family members, those who work for US allies, or say they have
+worked for the United States in the past? (This is
+complicated by the fact that US military medical
+facilities do not have the administrative capability
+to verify such an employment relationship.) We do
+not have an answer to this ethical question, other
+than to note that the provision of such treatment
+often depends on the resources available as well as
+the tactical environment.
+These decisions regarding treating the local
+population are further complicated by the fact that
+it is difficult to predict how long US forces will remain in the theater. In the event of an early pullout, patient care will be disrupted unless patients
+are taken with the medical units when they depart.
+This raises questions about American obligation to
+these patients. If these patients are in the midst of
+treatment, it will be difficult, if not impossible, to
+see to the conclusion of the treatment plan. In Somalia, after the attack that left 18 American soldiers
+dead, the United States forces were ordered to rapidly withdraw. Nothing is known of the fate of any
+Somali patients left behind.
+Another potential area of concern is mental
+health treatment. The military traditionally provides little mental health treatment to the local
+population. There are usually so many barriers of
+language and culture that to provide any “counseling” is very difficult. There are situations, however,
+in which military healthcare professionals need to
+intervene in mental health problems in a local population. Even severe mental illness, which responds
+to medication, has cultural overlays. Psychotherapy
+and counseling are even more culture bound. To
+bring a patient out of psychosis or depression with
+medication, then leave that same patient to relapse
+back into illness might actually worsen the patient’s
+overall psychiatric condition.
+For instance, a number of Haitian migrants who
+were interred in Cuba had severe mental illness. It
+is generally not feasible to house patients with severe mental illness alongside medical patients. And
+it is likewise not feasible to simply isolate such patients as that would require considerable additional
+resources to monitor and restrain their behavior.
+The migrants as a group were housed in an old
+Navy brig (Figure 25-5), which had been abandoned
+because it was unfit for sailors. In Cuba, US military psychiatrists treated the Haitian migrants with
+severe mental illness on this “inpatient” ward with
+medications. 20
+A psychiatrist serving in Cuba described an additional dilemma. Migrants who had mental health
+diagnoses were barred from immigration to the
+United States under State Department policy. 20 Immigration authorities asked to see mental health
+records to aid in making immigration decisions.
+This placed him into a considerable ethical dilemma: Should he stop keeping records or should
+he stop seeing patients so his patients had an opportunity to migrate? But, if he helped them circumvent United States law, would that not also be
+illegal or unethical?
+Many NGOs, however, do provide mental health
+Fig. 25-5. US Naval Brig, Guantanamo Bay, Cuba. The
+facility was condemned, but was used to detain migrants
+with mental illness. The psychiatrist was troubled that
+his treatment of the detainees could be used to restrict
+them from immigration to the United States. Photograph:
+Courtesy of Lieutenant Colonel Dermot Cotter, MD.
+Military Medical Ethics, Volume 2
+824
+counseling. There have been numerous attempts to
+provide therapy to the local population in Kosovo.
+Case Study 25-12: Understanding Cultural Needs
+of Patients. A nongovernmental organization started a
+support group for Albanian women who had been raped
+by Serbs. The facilitator attempted to get the young
+women to talk about the rape experience. The women
+would not talk about their experiences, but were eventually willing to discuss their concerns about the lack of
+water and electricity and the coming winter. One of the
+women in the group had been made pregnant by her attacker. She strangled her healthy newborn baby shortly
+after its birth. This shocked the counselors, but the other
+group members seemed to understand.
+Comment: In a Western context, rape victims can generally expect sympathy and reintegration into society even
+if they became pregnant in the attack. In other countries
+there is no such expectation. Indeed, in many countries
+the women become outcasts after such an attack. Raising a child who was fathered in the attack would add to
+their difficulties. The failure to understand the cultural
+context of these women’s experience not only negated
+the therapeutic effectiveness of this effort, but it also
+added to their burden (by having to endure the facilitator’s
+attempts to get them to talk about the unspeakable). Further, such a failure can have a “ripple effect,” impeding
+the implementation of programs that are of benefit.
+Local Albanian and Croatian healthcare professionals have criticized these efforts for the lack of
+cultural sensitivity and unsupervised inappropriate application of Western methods to very different cultures. 21 There are currently attempts to develop guidelines on credentials and training of
+NGO counselors. 22
+Increasing Security in Conflict-Related
+Contingency Operations
+The security of medical supplies and facilities,
+and thus the safety of medical personnel, can not
+be guaranteed in a contingency operation. Although
+US military medical personnel have been relatively
+“safe” in the recent past, other nations have had
+physicians killed and NGOs have had relief workers killed.
+The Geneva Conventions, which govern armed
+conflict between sovereign nations, seek to protect the
+wounded, medical establishments, and medical personnel. The wounded and sick “shall be respected and
+protected in all circumstances.”1(Art 12) “Fixed establishments and mobile medical units of the Medical service may in no circumstances be attacked, but shall at
+all times be respected and protected by the Parties to
+the conflict.”1(Art 19) Medical personnel are protected,
+and if captured, are not considered prisoners of war,
+but detained personnel. 1(Art 24,30)
+Although many countries try to maintain the
+stated considerations of the Geneva Conventions
+for the safety and treatment of the medical mission,
+not all countries abide by these rules. This was certainly the case in World War II where there were
+instances of clearly marked medical facilities being
+attacked. The safety of medical areas becomes more
+tenuous when the warring parties are nonsovereign
+entities (ie, nonsignatories to the Geneva Conventions) and have made no commitment to refrain
+from attacking such installations. In these instances,
+the likelihood increases that the Red Cross or Red
+Crescent emblem may be seen as a distinct target.
+Furthermore, often the security threat comes not
+from any armed group but rather from the local
+population. It can be troubling to healthcare professionals to need to guard supplies such as bandages, medications, and even food, to keep them
+from a potentially needy population. Most medical
+personnel have very little training in setting up
+concertina wire or guarding the perimeter. In many
+instances their familiarity with weapons is limited
+to going to a range for a couple of hours every few
+years. Under the Geneva Conventions, they may
+Fig. 25-6. One of the authors [ECR] in Somalia with the
+528th Combat Stress Control Detachment. From the beginning, medical personnel were alert for the possibility
+of hostile action by the various warring Somali clans.
+When shots rang out, or mortar shells were heard, personnel were instructed to get down below the level of
+the windows, put the ammunition clip in the chamber of
+the sidearm, but not “lock and load.” The Rules of Engagement (ROEs) were continually changing. Photograph: Courtesy of Lieutenant Colonel Elspeth Cameron
+Ritchie, MD.
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+825
+cal staff with the task of safeguarding the supplies,
+even though they have little expertise in this area.
+This inexperience may contribute to a siege-like atmosphere as well as actual pilferage.
+Fig. 25-7. “Division Mental Health: We Decide What’s
+Normal!” This sign, hand-lettered on cardboard and attached to the wall with duct tape (especially versatile in
+austere environments), announces the location of the
+mental health assets of the 10th Mountain Division Mental Health in Somalia. Part of the job of mental health
+was to validate and normalize the feelings of horror and
+sorrow among the military personnel, “normal reactions
+to abnormal situations.” Hence the ironic motto of the
+10th Mountain Division Mental Health (which the 528th
+adopted): “We decide what’s normal.” Photograph: Courtesy of Lieutenant Colonel Elspeth Cameron Ritchie, MD.
+carry weapons for defense of their patients and
+themselves (Figure 25-6). Yet in contingency operations there may be few excess police or combat arms
+soldiers to secure the facilities. That leaves the medi“TAKING CARE OF” THE CAREGIVERS
+It has long been recognized that there is a limit
+to the terrors of war that individuals can experience before these affect them personally and psychologically. Over the years this has been given a
+variety of labels, including battle fatigue and combat exhaustion. A number of programs have been
+instituted to alleviate, as much as possible, this very
+real after-effect of war. Whether it is done through
+after-action reviews, which seek to debrief a group
+that has experienced trauma, or by utilizing combat stress principles, which seek to rest, reassure,
+and return soldiers to their units, the goal is the
+same—to acknowledge the trauma and to provide
+a way to return to function (Figure 25-7).
+Military medical professionals are not exempt
+from the terrors of war and the resulting psychological impact. It is true that the operations this
+chapter has described often do not involve the horrific casualties that one normally associates with
+combat. Nonetheless, there is still the significant
+potential for medical personnel to experience psychological difficulty providing medical care in the
+exceedingly dangerous environments of some of the
+contingency missions, with all the frustration, impotence, and fear that accompanies these missions.
+Although the US military seeks to protect the health
+of the forces, there has been less attention paid to
+assessing the impact of watching people die, while
+powerless to save them because of a lack of resources, the danger involved, or the medical rules
+of engagement. The feelings of terror are compounded if the healthcare professionals also feel
+that they personally are in danger, as often may be
+the case.
+All of these factors—fear, impotence, danger, and
+horrific mass casualties—combined to affect the
+Canadian peacekeeping forces in Rwanda in 1994.
+The task confronting them was of such magnitude
+that they found themselves in a virtual “sea of humanity” (Figure 25-8) in which they were powerless to do much more than witness the unfolding
+events. They were so outnumbered that all they
+could do was watch and “witness the evil” as thousands of people were attacked with machetes. 23
+Several years later one of their generals confirmed that he had developed posttraumatic stress
+disorder (PTSD) with suicidal ideation.
+Dallaire, who commanded the UN mission in
+wartown (sic) Rwanda in 1994, took early retirement last April on medical advice, citing stress and
+nightmares due to Rwanda’s civil war horrors. He
+has publicly acknowledged his battle with posttraumatic stress. He admitted recently he tried at
+least twice to take his own life since he commanded
+the mission, during which his troops were unable
+to prevent the massacre of approximately 800,000
+Hutus and Tutsis. 24
+Dallaire was quoted by the Canadian Broadcasting
+Corporation Radio as having said, in a written statement sent to the National Post [a Canadian daily], that
+[t]here are times when the best medication and
+therapist simply can’t help a soldier suffering from
+this new generation of peacekeeping injury. The
+anger, the rage, the hurt and the cold loneliness that
+Military Medical Ethics, Volume 2
+826
+separate you from your family, friends and society’s
+normal daily routine are so powerful that the option
+of destroying yourself is both real and attractive. 25
+Historically the US military has focused training
+on preparation for actual combat, but recently
+preparation for other operations, to include disaster relief and contingency, has been augmented to
+include physical and emotional aspects. It is this
+latter category, the emotional aspects of deployment
+to a peacetime engagement project or a contingency
+operation, that is increasingly becoming important
+to military medical professionals. The principles of
+battlefield psychiatry are applicable here, but these
+principles need expansion and modification for contingency operations. The basic principles of battlefield treatment for combat stress or battle fatigue
+casualties are: (a) prevention, (b) early intervention
+with those who may be affected, and (c) immediate
+treatment with members who have signs and symptoms. Classically this has been codified in mnemonics such as PIES: proximity, immediacy, expectancy,
+and simplicity. (Jones has discussed these principles
+in detail in two volumes, Military Psychiatry26 and
+War Psychiatry,27 in this textbook series.)
+Modifying these principles of battle psychiatry
+for use with contingency operations is still in development. However, once again the important
+principles are preparation, early intervention, and
+simple treatment. Preparation includes instructing
+medical professionals in basic soldiering skills, to
+ensure that they are comfortable with their weapons, and know how to guard or otherwise secure
+themselves and the medical treatment facilities.
+They need to be given as much information as possible about the potential situation before they deploy. If they will be treating rape and torture victims, or exposed to the sight and smells of mass
+graves, this should be discussed in advance, as a
+form of “stress inoculation.” The importance of the
+mission should be explained so they can clearly
+understand their role in its success. Vertical (up and
+down the chain of command) and horizontal (between peers) communication must continue constantly, so that they are not left to guess (or to spread
+rumors) about the purpose, security, and length of
+the mission. The Medical Rules of Engagement likewise should be discussed, as well as the rationale
+behind them.
+It is especially important that they be given the
+opportunity to freely discuss any serious incidents
+(before, during, and after), especially if they are in
+Fig. 25-8. A Canadian peacekeeper in Rwanda, passing out
+information (a), tending to a sick child in the street (b), and
+visiting a makeshift infirmary for children (c). These three
+photographs demonstrate the magnitude of the task facing
+the Canadian forces in Rwanda. Surrounded by people in
+need of the most basic of services, and unable to adequately
+meet those needs, the peacekeepers found themselves unable to accomplish the mission they had set out to do. These
+photographs do not, however, illustrate the horror of what
+the Canadians saw as they bore witness to the slaughter
+around them, outnumbered and unable to stop it. However, through their efforts with the media, they were able
+to bring the attention of the world to the events in Rwanda.
+Photographs: Courtesy of the Canadian Forces.
+a
+b
+c
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+827
+a particularly distressing situation, such as the
+death of a teammate or a child. Such early intervention strategies are especially important if they
+have witnessed mass carnage. This latter case is an
+instance that these authors believe should mandate
+the opportunity for all personnel to discuss what
+they have experienced. Medical personnel who
+have been deployed on these missions will also
+need preparation for reentering “normal” society,
+which may not understand or care about what they
+have been through. This reentry preparation may
+be done by chaplains or mental health workers, but
+ideally should be initiated by their leaders.
+The US military tries to prepare service members
+for the sights, smells, and sounds of mass carnage,
+and, with after-action reviews, tries to ameliorate
+the impact of those sensory experiences. Nonetheless, there truly is no adequate preparation for the
+sights, smells, and sounds of mass death. Indeed,
+many who have had the experience of seeing the
+unthinkable are forever changed by the event. Furthermore, they are often unable to even adequately
+describe the impact of the experience to those who
+were not there. It is encouraging, however, that relief agencies are also learning of the potential longterm devastating effects to the caregivers. For instance, some of the NGO organizations are now trying to prepare their workers for the experience of
+being taken hostage or tortured,28 which is similar
+in concept to the military’s survival training. If
+preparation for the distressing aspects of the mission is not adequate (there are missions for which
+Fig. 25-9. Photo of signpost pointing the way home (a). It is not uncommon for troops to erect signposts such as this
+one. The posts provide an ironic outlet for feelings of being far from home, and in places that feel distinctly alien.
+Photo of a stretcher (b) with a “patient” made of camel bones, and other bones arrayed around the stretcher with the
+motto of a medevac company: “ANYONE, ANYTIME, ANYWHERE.” This motto was challenged by the dangerous
+environment and the shifting priorities for treatment. Despite the humorous nature of this improvised display, there
+is some reality to the “veterinary medicine” aspect of the display—livestock are sometimes brought to the medical
+personnel as patients. For some indigenous populations, healthy livestock means healthy people. Photographs: Courtesy of Lieutenant Colonel Elspeth Cameron Ritchie, MD.
+a
+b
+Military Medical Ethics, Volume 2
+828
+there can be no adequate preparation), and early
+intervention does not lessen the reaction to the degree necessary for a return to function, then these
+various organizations have a moral obligation to
+take care of the caregivers by providing them with
+effective treatment for their understandable reactions to these experiences.
+It is widely anticipated that for the foreseeable
+future the US military will continue to provide humanitarian medical assistance in the form of peacetime engagement projects, disaster relief operations,
+or conflict-related contingency operations in various locations around the world. Medical planners,
+physicians, and other healthcare professionals need
+to anticipate the opportunities and difficulties of undertaking these missions in dangerous and austere environments. This planning needs to focus not just on
+the logistics of the operation, but also on the personnel aspects as they impact their own forces. Sometimes
+these missions come at a moment’s notice, in which
+case the military medical professionals are airlifted
+from the comfort of their day-to-day routines into the
+midst of circumstances that are simply unimaginable
+for most Americans. In these circumstances, personnel need to have a sense of mission, duty, and home.
+Helping them maintain those contacts with what they
+have left behind, whether through mail, voice links,
+or humor (Figure 25-9) will better enable them to cope
+with the sometimes alien landscapes in which they
+find themselves.
+CONCLUSION
+We have outlined the legislative background, the
+different types of contingency operations, and questions of resources, priorities, and security to allow
+medical personnel in the future to have a better
+sense of what these missions entail. We have also
+highlighted the pitfalls—poor communications,
+unrealistic expectations on both sides, inadequate
+understanding of the local cultures, and not integrating with local resources—in an attempt to avoid
+them. We have emphasized the qualities of successful operations, which as well as avoiding the pitfalls, include sustainability and a focus on public
+health measures. American military medical forces
+should leave these places and peoples better than
+when they came. Otherwise, how can Americans
+ethically justify these interventions?
+Unfortunately, this chapter cannot prepare medical planners or healthcare professionals for all engagements. Contingency operations, especially, always vary in mission, resources, training, logistics,
+and security concerns. However, too often military
+healthcare professionals only grapple with these
+dilemmas when they are literally on the sandy or
+muddy ground, trying to decide whether to send a
+helicopter to a traffic accident or whether to treat a
+wounded man on the doorstep of the hospital. Better training needs to be provided to military healthcare professionals to anticipate the ethical, tactical,
+and logistical issues of treating a local population
+in a dangerous or austere environment.
+Many of the pitfalls that have been discussed in
+this chapter can be avoided in the future if policy
+makers and the planners of these missions examine how and why these problems occur, and initiate
+remedies. The healthcare professionals who are sent
+on these most difficult of missions deserve the best
+support, both logistical and personal, that can be
+provided to them.
+This chapter has emphasized the value of understanding limitations and planning for the unexpected. Even so, neither the danger nor the austere
+conditions may be sufficiently anticipated when
+planning a humanitarian medical mission. The experience of the Americans in Somalia and Haiti or
+the Canadians in Rwanda, who were forced to become passive observers of mass genocide, highlights the perils of any mission, but particularly a
+problematic mission with inadequate protection.
+REFERENCES
+1.
+International Committee of the Red Cross, The Geneva Conventions of 12 August 1949. Geneva 1949.
+2.
+International Committee of the Red Cross, Protocols Additional to The Geneva Conventions of 12 August 1949.
+Geneva 1977.
+3.
+Wittich AC. The medical care system and medical readiness training exercises (MEDRETEs) in Honduras. Mil
+Med. 1989;154(1):19–23.
+4.
+Weisser RJ Jr. The maturing of MEDRETEs. Mil Med. 1993;158(8):573–575.
+Military Humanitarian Assistance: The Pitfalls and Promise of Good Intentions
+829
+5.
+Silverman MA, Barnes D, Zlamal R, et al. Medical readiness training exercise in El Salvador, Central America,
+1996. Mil Med. 1998;163(8):519–523.
+6.
+Aller LF. MEDRETEs [letter comment]. Mil Med. 1994;159(1):A4.
+7.
+Zaijtchuk R. MEDRETEs [letter comment]. Mil Med. 1994;159(1):A4.
+8.
+Médecins Sans Frontières. Lecture given in Switzerland 5 September 2000 by an official representative of Médecins
+Sans Frontières at the International Course on Law of Armed Conflict.
+9.
+Spring B, Spencer J, Anderson JH. Issues 2000: The Candidate’s Briefing Book. #14, National Defense, Restoring
+US Military Strength. Washington, DC: The Heritage Foundation; 1993. Available at: http://www.heritage.org/
+issues/chap14.html. Accessed 29 November 2001.
+10.
+Conetta P. Toward a smaller, more efficient, and more relevant US military. Project on Defense Alternatives. Cambridge, Mass: The Commonwealth Institute; October 2000. Available at: http://www.comw.org/pda/
+0010bm17.html. Accessed 29 November 2001.
+11.
+Waller SG, Ward JB. The HCA battle-lab [letter comment]. Mil Med. 1999;164(7):V.
+12.
+Truman Sharpe, Uniformed Services University of the Health Sciences. From a talk given by T. Sharpe, 2000.
+13.
+Lieutenant Colonel Maureen Fensome [a Canadian physician who served in Rwanda]. Personal Communication, 2001.
+14.
+Hood CH. Humanitarian civic action in Honduras, 1988. Mil Med. 1991;156(6):292–296.
+15.
+Luz GA, De Paw JW, Gaydos JC, Hooper RR, Legters LJ. The role of military medicine in military civic action.
+Mil Med. 1993;158(6):362–366.
+16.
+Dreher RJ, Radoiu M. Eyeglass MEDRETE: Practical considerations (a user’s guide). Mil Med. 1996;161(6):334–
+338.
+17.
+Roundtable discussion, Pan American Health Organization Conference on Hurricane Mitch Response, Dominican Republic, 1999.
+18.
+The partiality of humanitarian assistance: Kosovo in comparative perspective. Toby Porter, December 1999.
+Available at: http://www.jha.ac/articles/a057.htm. Accessed 29 November 2001.
+19.
+Information provided by Dr. John Greenwood, Historian, Office of the Surgeon General, US Army.
+20.
+Dermot Cotter [Army psychiatrist who served in Cuba]. Personal Communication, 2001.
+21.
+Remarks by speakers at the International Society for the Study of Traumatic Stress, ISTSS Conference, December 2000, San Antonio, Texas.
+22.
+Friedman MJ, Warfe PG, Mwiti GK. Mission-related stressors and their consequences among UN peacekeepers
+and civilian field personnel. In: Green B, Friedman M, deJong J, et al, eds. Trauma in War and Peace: Prevention,
+Practice, and Policy. Dordrecht, The Netherlands: Kluwer Academic Publishers; In press.
+23.
+Interview of General Romeo Dallaire by Michael Enright on CBC News Radio, 11 June 2000.
+24.
+Dallaire speaks publicly after being found unconscious in park. CP Wire. 4 July 2000 (Reference 00070401).
+25.
+Romeo Dallaire writes. National Post. 4 July 2000:A16.
+Military Medical Ethics, Volume 2
+830
+26.
+Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, eds. Military Psychiatry: Preparing in Peace for War. In: Textbook
+of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of the Army and Borden
+Institute; 1994.
+27.
+Jones FD, Sparacino LR, Wilcox VL, Rothberg JM, Stokes JW, eds. War Psychiatry. In: Textbook of Military Medicine. Washington, DC: Office of The Surgeon General, US Department of the Army and Borden Institute; 1995.

@@ -1,0 +1,591 @@
+405
+Spiritual Fitness and Performance
+Chapter 28
+SPIRITUAL FITNESS AND 
+PERFORMANCE
+MATTHEW T. STEVENS, MDiv,* and JEFFREY E. RHODES, MDiv, DMin† 
+INTRODUCTION
+DEFINITIONS
+MILITARY HISTORY OF SPIRITUALITY AND RELIGION
+BACKGROUND
+KEY CONCEPTS
+Relationship Between Disease, Religion, and Spirituality
+Spirituality and Disease
+Spirituality and Health and Performance
+Spiritual Care for Service Members and Patients
+ROLE OF THE MILITARY MEDICAL OFFICER 
+Spirituality and the Military Medical Officer 
+Guidance to Commanding Officers
+SUMMARY
+SELECTED RESOURCES
+*Commander, US Navy; Director, Pastoral Care Plans/Ops, Bureau of Medicine and Surgery, Falls Church, Virginia
+†Commander (Retired), US Navy; VA Mental Health and Chaplaincy Department, Durham, North Carolina
+406
+Fundamentals of Military Medicine
+INTRODUCTION
+“Total force fitness” (TFF), as discussed in the opening chapter of this section, includes “spiritual fitness” 
+as an important component and essential to overall 
+fitness. Spiritual fitness (being spiritual) is a broader 
+concept than being religious (practicing one’s organized religion), although the practice of one’s religion 
+or faith may very well be considered an expression of 
+one’s spirituality. The terms “spiritual” or “spirituality” are generally individually focused, contributing 
+to personal identity and meaning, whereas “religion” 
+is often more corporately focused and refers to specific 
+traditions with more defined practices. 
+In the TFF initiative, it was recognized that military 
+members have built-in stressors that affect all areas of 
+their lives, and that eight core domains, including spiritual, needed to be discovered and developed to obtain 
+optimal performance. Spiritual fitness in Department of 
+Defense (DoD) settings may contribute to the development of resiliency in service members, supporting them in 
+routine and rigorous challenges such as arduous training, 
+deployments, and combat tours. 1–3 Included in the TFF 
+effort are attempts to realize the importance of service 
+core values, to understand one’s identity, and to create 
+meaning from situations that are often complex and 
+sometimes life threatening, including health challenges. 
+Service members must be able to apply their service core 
+values, and recognize and appreciate the importance of 
+a spiritually and religiously diverse force. These basic 
+integral components provide the basis for both understanding and developing spiritual fitness in the DoD.
+A 2016 Gallup poll indicates that 89% of Americans 
+believe in God or a universal spirit. 4 Religious or spiritual beliefs and practices are common among patients 
+seeking medical care, and even those who identify 
+themselves as nonreligious often see themselves as 
+being spiritual. 5 Consequently, this subject is relevant 
+to healthcare providers. This chapter will provide a 
+basic introduction to spirituality, review the relationship between spirituality and religion, and discuss 
+whether healthcare providers who are not ordained 
+clergy or chaplains should incorporate spiritual care 
+into their overall holistic healthcare treatment plans. 
+DEFINITIONS
+Many definitions can be offered for spirituality, 
+and agreeing upon a common meaning is challenging 
+because no one single definition will work for or satisfy everyone. Thus, a broad definition is provided as 
+a starting point. Table 28-1 offers some definitions for 
+clarity and consistency. Although spirituality includes 
+various definitions, a broad range of practices, and a 
+plethora of defined spiritual traditions, it is generally 
+considered a process and path toward developing the 
+aspect of the whole self—a basic tenet of TFF—that 
+gives meaning to one’s life (who am I; why am I here; 
+what is my purpose?). The spiritual path seeks to provide a sense of transcendence beyond the self and relationships with others. Spirituality can be experienced 
+intra-personally (as a connectedness within oneself), 
+inter-personally (in the context of others and the natural environment), and trans-personally (referring to a 
+sense of relatedness to the unseen, God, or transcendent 
+power greater than the self and ordinary sources. 6,7
+Koenig and others highlight the impact of spiritual 
+practices on health and demonstrate the breadth and 
+variance of the appreciation of spirituality. 8,9 Some 
+of their key findings from reviewing the literature 
+demonstrate a clear relationship between medicine, 
+religion, and spirituality. These relationships are important to healthcare providers.
+MILITARY HISTORY OF SPIRITUALITY AND RELIGION
+Military chaplaincy traces its roots to September 
+1775, when George Washington instructed Benedict 
+Arnold to “protect & support the free Exercise of the 
+Religion of the Country & the undisturbed Enjoyment of the rights of Conscience in religious Matters 
+within your utmost Influence and Authority.”10 From 
+the earliest days of offering sacramental needs and 
+comfort to military personnel ashore and at sea, to the 
+current practice of providing comprehensive support 
+including personal resilience and wellness, military 
+chaplains have always served the multicultural and 
+religiously pluralistic US military population in balance with their own religious identity. Today military 
+chaplains provide appropriate religious and spiritually 
+based care to military personnel and their families, 
+often partnering with caregiving professionals from 
+other disciplines to ensure optimum support. Beyond 
+providing pastoral care, chaplains also advise military 
+leaders on issues where religion, ethics, and morale 
+may play a role in the decision-making process. Although military chaplains serve as officers in their 
+respective branches of service, they are classified as 
+noncombatants and restricted from participating directly in hostilities. 11 Military chaplains are supervised 
+by their respective service’s (Army, Navy, and Air 
+Force) chief of chaplains. 
+407
+Spiritual Fitness and Performance
+TABLE 28-1
+SELECTED DEFINITIONS OF SPIRITUALITY
+Religion
+Involves beliefs, practices, and rituals related to the transcendent, where the transcendent is God, Allah, 
+HaShem, or a higher power in Western religious traditions, or to Brahman, manifestations of Brahman, 
+Buddha, Dao, or ultimate truth/reality in Eastern traditions. 1
+Spirituality
+A process and a path people use to discover their inner selves and develop their human spirit. 2
+Spirituality
+Propensity to make meaning through a sense of relatedness to dimensions that transcend the self in such a 
+way that it empowers and does not devalue the individual. 3
+Spirituality
+A connection to that which is sacred, the transcendent, which is outside of the self, and yet also within the 
+self—and in Western traditions is called God, Allah, HaShem, or a higher power, and in Eastern traditions 
+may be called Brahman, manifestations of Brahman, Buddha, Dao, or ultimate truth/reality.
+Spiritual 
+practices
+Attendance at religious or spiritual events, meditation, prayer, mindfulness practices, yoga, mantra chanting, spending time alone in nature, recognition of rites of passage, and serving one’s community.
+Spiritual 
+traditions
+Abrahamic examples: Christianity, Islam, Judaism; Eastern examples: Buddhist, Hindu, Zen.
+Religious 
+care
+Helping people maintain their belief systems and organized worship practices. 4
+Spiritual 
+care
+Helping people to identify meaning and purpose in their lives, maintain personal relationships, and transcend a given moment. 4
+(1) Koenig HG. Religion, spirituality, and health: the research and clinical implications. ISRN Psychiatry. 2012:278730. (2) Sweeney PJ, Rhodes 
+JE, Boling B. Spiritual fitness: a key component of total force fitness. J Force Q. 2012;3rd quarter(66):35–41. (3) Reed PG. An emerging paradigm for the investigation of spirituality in nursing. Res Nurs Health. 1992;15(5):349–357. (4) Emblen JD. Religion and spirituality defined 
+according to current use in nursing literature. J Prof Nurs. 1992;8(1):41–47.
+BACKGROUND
+It is important to know that patients admitted 
+to military treatment facilities are routinely asked 
+about religious and spiritual needs or concerns 
+during initial interviews. If the patient answers 
+positively, a consult is automatically generated in 
+the patient’s electronic hospital chart, and a member 
+of the pastoral care team meets with the patient in a 
+timely manner. If the patient does not acknowledge 
+a spiritual need or concern to the nurse during this 
+initial interview, chaplains at each military treatment facility have varying protocols for following 
+up with patients throughout their stay. Chaplains 
+remain sensitive to caring for each patient and their 
+family regardless of spiritual or faith orientation or 
+lack thereof (honoring diversity). The heart of clinical chaplaincy is honoring a person’s belief system 
+and nurturing the capacity to maintain that belief 
+system while receiving medical treatment. The 
+military medical officer (MMO) may need to know 
+when a formal referral is needed. 
+In the early 2010s, the DoD and Department of 
+Veterans Affairs (VA) came together to implement a 
+“learning collaborative” to integrate mental health and 
+chaplain services as a quality improvement effort. 12,13 
+As part of this initiative, teams of chaplains and mental 
+health providers were encouraged to make improvements in six different areas:
+ 
+1. Screening. Improve practices for screening 
+patients for spiritual and mental health 
+issues.
+ 
+2. Referrals. Strengthen or develop clearly 
+articulated processes for referring patients 
+between disciplines.
+ 
+3. Assessment. Develop, improve, and 
+ensure standardized use of multidimensional spiritual and mental health assessments.
+ 
+4. Communication and documentation. Establish regular communication practices as 
+part of integrated care team meetings, and 
+document care and consults.
+ 
+5. Cross-disciplinary training. Champion various multidisciplinary and interdisciplinary 
+training opportunities.
+ 
+6. Role clarification. Develop a formal documentation of how mental health and chaplain 
+services collaborate.
+408
+Fundamentals of Military Medicine
+KEY CONCEPTS
+Different and diverse spiritual traditions encourage 
+social participation and mobilize members in support of the community. The DoD, which depends on 
+social cohesion and support, is particularly interested 
+in this aspect of spiritual fitness. Various forms of 
+social support that arise out of spiritual and religious 
+participation (including the family, unit, and place 
+of worship) can provide powerful protective effects 
+in stressful situations. 14 Additionally, studies point 
+to positive physical and mental health outcomes and 
+better overall coping from practicing one or several 
+religious or spiritual activities. 8,9
+Relationships Among Disease, Religion, and 
+Spirituality 
+Multiple studies demonstrate that practicing one’s 
+religion or spirituality serves a positive role in treating 
+and living with many acute and chronic diseases. 15–30 
+Religious faith also appears to be important to many 
+patients with serious diseases and serves as a positive coping mechanism. Religion generally influences 
+self-care, especially in cases of severe illness; patients 
+frequently practice religion and interact with the 
+transcendent (God) about their disease state. This spiritual interaction may benefit the patient by providing 
+comfort, increasing knowledge about their disease, 
+promoting better treatment adherence, and improving quality of life. 31 Overall, the findings suggest that 
+integrating systematic assessments of spiritual wellbeing into medical care is crucial, given its importance, 
+in particular, to seriously ill patients. Care providers 
+need to pay particular attention to whether the patient 
+frames their identity as either “religious” or “spiritual” 
+because this will influence the care provided. 32 Specifically, patients who describe themselves as spiritual 
+but not religious are likely to seek support, meaning, 
+and purpose, whereas those describing themselves as 
+religious may be more reliant on their trust in a supporting God. 33,34
+Balboni et al32 have developed three models for addressing and understanding the integration between 
+medical concerns of patients and their religious or 
+spiritual identification:
+ 
+1. A generalist specialist model of whole-person 
+care with the basic premise that, in a multidisciplinary, intraprofessional care team, 
+spiritual care is a foundation of whole-person 
+or holistic care.
+ 
+2. An existential functioning model in which 
+the care-provider, in the provision of holistic 
+care to the patient, understands the dynamic 
+relationships among the patient and providers and recognizes emotional, existential, and 
+spiritual concerns. 
+ 
+3. An open, pluralist view that affirms the religious, spiritual, and cultural realities of both 
+the care provider and patient and recognizes 
+the diversity within the healthcare setting. 
+Each of these approaches assumes that spirituality 
+and medicine should be integrated into the care of the 
+patient, and affirms that spirituality must be broadly 
+defined, embracing diverse spiritual, religious, secular, 
+and cultural perspectives. These approaches ensure the 
+spiritual, religious, and cultural concerns of the patient 
+and the care provider/interdisciplinary team are addressed. Additionally, all emphasize the importance of 
+maintaining ethical professional boundaries to protect 
+vulnerable patients from undue influence by religious 
+or nonreligious care providers. 32
+Spirituality and Disease
+A body of evidence15,20,21,28,30,35,36 suggests that certain 
+diseases or medical conditions may improve if the 
+patient is engaged in religious or spiritual practices. 
+These medical conditions range from cancer to headaches to diabetes, and more. Table 28-2 summarizes 
+some of the medical conditions being investigated 
+and the questions about spiritual/religious practices 
+researchers are attempting to answer.
+Spirituality and Health and Performance
+In addition to disease, spirituality appears to have 
+profound effects on well-being, which ultimately impact overall performance in a variety of venues: home, 
+work, and life challenges. Importantly, several authors 
+have studied the relationship between quality of life 
+and spirituality, along with religiosity. Overall, the 
+literature supports the idea that having both a sense of 
+meaning and purpose in life are positively correlated to 
+quality of life. 8,6,9,26,37,38 Likewise, spiritual practices and 
+support from a spiritual community appear to confer 
+benefits and serve as buffers against stress. Of interest 
+is the potential role of spirituality in cognitive function. 
+One study found that persons 60 years or older who 
+engaged in spiritual activities demonstrated better 
+cognitive function than those who did not. 39 Although 
+the exact role of spirituality in overall performance is 
+not well documented, its potential beneficial effects on 
+various mental health attributes and behaviors suggest 
+409
+Spiritual Fitness and Performance
+TABLE 28-2
+MEDICAL CONDITIONS BEING EXPLORED IN CONNECTION WITH SPIRITUAL PRACTICES 
+Condition
+Anticipated Questions
+Cancer
+Do religious and spiritual practices and beliefs increase the quality of life in cancer patients?1
+Heart disease
+Does loss of control of one’s physical state significantly impact purpose and meaning in living?2
+Does spirituality positively influence recovery from surgery?3
+Stroke
+Do changes to brain function after a stroke open a door to the divine?4
+Headaches
+Do techniques such as cognitive-behavioral therapy and relaxation training that take the form of 
+spiritual or religious activities influence the onset and duration of headaches?5
+Does spiritual meditation have a positive effect in mitigating some of the negative impacts of 
+migraines?6
+Other chronic 
+medical conditions
+How does incorporating spirituality into self-management routines impact the health and wellbeing of people with chronic conditions?7
+(1) Thune-Boyle IC, Stygall JA, Keshtgar MR, Newman SP. Do religious/spiritual coping strategies affect illness adjustment in patients 
+with cancer? A systematic review of the literature. Soc Sci Med. 2006;63(1):151–164. (2) Naghi JJ, Philip KJ, Phan A, Cleenewerck L, 
+Schwarz ER. The effects of spirituality and religion on outcomes in patients with chronic heart failure. J Relig Health. 2012;51(4):1124–1136. 
+(3) Mouch CA, Sonnega AJ. Spirituality and recovery from cardiac surgery: a review. J Relig Health. 2012;51(4):1042–1060. (4) Mundle RG. 
+Engaging religious experience in stroke rehabilitation. J Relig Health. 2012;51(3):986–998. (5) Banks JW. The importance of incorporating 
+faith and spirituality issues in the care of patients with chronic daily headache. Curr Pain Headache Rep. 2006;10(1):41–46. (6) Wachholtz 
+AB, Pargament KI. Migraines and meditation: does spirituality matter? J Behav Med. 2008;31(4):351–366. (7) Unantenne N, Warren N, 
+Canaway R, Manderson L. The strength to cope: spirituality and faith in chronic disease. J Relig Health. 2013;52(4):1147–1161.
+it can only help. Table 28-3 summarizes the results of a 
+review by Koenig9 wherein high-quality studies were 
+examined to evaluate associations among religion/
+spirituality and well-being and life satisfaction. 
+Spiritual Care for Service Members and Patients
+Understanding spirituality within the scope of 
+caring for service members and patients deserves 
+consideration. Emblen6 pointed out that nurses who 
+practice together typically have different meanings 
+for spirituality, which can cause difficulties. For some, 
+spiritual care means helping patients with maintaining 
+their religious practices, whereas the intent for others 
+may be to help patients understand meaning in times of 
+pain and uncertainty. Such confusion over conceptual 
+definitions can lead to unmet patient needs due to the 
+omission of spiritual care simply based on definitional 
+challenges. For example, sometimes patients may indicate they have no spiritual need, meaning no religious 
+need (because they are not members of any organized 
+religious group), but such patients may desperately 
+need help working through transcendent and relationship problems arising from their illness. The distinction 
+between religious and spiritual care may be particularly 
+helpful to providers in helping patients obtain care in 
+connection with either religious accommodation or 
+spiritual expression. 6 Exhibit 28-1 lists the basic elements of spiritual care that providers should consider.
+In summarizing the challenges of defining spirituality, particularly within the scope of healthcare, 
+King and Koenig40 conclude that spirituality is a fluid 
+concept without any single, distinct definition, and 
+therefore difficult to measure scientifically in research. 
+However, to help those interested in understanding spirituality, they propose four areas of focus for 
+providers when listening to and caring for patients: 
+TABLE 28-3 
+ASSOCIATION BETWEEN SPIRITUALITY/
+RELIGIOSITY AND MENTAL HEALTH AND 
+HEALTH BEHAVIORS 
+Health Attributes and 
+Lifestyle Behaviors
+Percentage of Studies Showing 
+Positive Correlation
+Well-being
+82%
+Meaning and purpose
+100%
+Hope
+50%
+Optimism
+73%
+Self-esteem
+68%
+Exercise
+76%
+Diet
+70%
+Data source: Koenig HG. Religion, spirituality, and health: a review 
+and update. Adv Mind Body Med. 2015;29(3):19–26.
+410
+Fundamentals of Military Medicine
+EXHIBIT 28-1
+FOUR BASIC SPIRITUAL ELEMENTS 
+TO CONSIDER IN PROVIDER–SERVICE 
+MEMBER/PATIENT RELATIONSHIPS 
+ 
+• Spirit/spirituality (process or sacred journey) 
+ 
+• Spiritual dimension (transcending one’s self; 
+meaning-making)
+ 
+• Spiritual well-being (process of being and 
+self-understanding)
+ 
+• Spiritual needs (deep inner requirements 
+especially in times of distress)
+consider one’s own (1) spiritual beliefs, (2) spiritual 
+practices, (3) sense of awareness of what is going on 
+around the patient, and (4) personal experience. These 
+elements form a whole composite necessary for understanding and appreciating spirituality in patients 
+receiving care for any type of medical treatment.
+ROLE OF THE MILITARY MEDICAL OFFICER 
+Spirituality and the Military Medical Officer
+The MMO, as a care provider, must appreciate the 
+role of spirituality in healthcare as well as understanding how an individual’s spiritual framework may 
+impact health and performance. Specifically, they need 
+to know when to call in a chaplain. Most healthcare 
+providers need additional training in spirituality, 
+first to develop active listening skills and become 
+clear about their own religious or spiritual beliefs and 
+practices, and second to appreciate and address the 
+importance of religion and spirituality in optimizing 
+a service member’s plan for treatment and recovery. 
+The MMO must also develop confidence in addressing 
+the religious and spiritual concerns of their patients, 
+as needed. 41
+A question currently being asked is: should training 
+in spirituality be included as a component of medical 
+education for optimal care of patients? Studies of medical students indicate the majority believe spirituality 
+has a positive impact on patient health (68. 2%), and 
+although many want to address spiritual/religious 
+concerns, nearly 48. 7% report they are unprepared to 
+do so. 42,43 Lack of training on how to integrate religion 
+and spirituality into operational and therapeutic settings results in defaulting to chaplains or religious 
+specialists,44 which may be fine in a military setting 
+where chaplains are certainly trained to do this. Thus, 
+whether spiritual training should be a part of medical 
+school curricula remains a discussion point. Certainly 
+the MMO must be aware of their patient’s needs and 
+know when to call in a person specifically trained in 
+this area. Moreover, all MMOs should acknowledge 
+how their own spiritual and religious beliefs and practices influence the way in which they practice their 
+healthcare profession, whatever that may be. 2
+Guidance to Commanding Officers
+Commanding officers (COs) of military units, medical treatment facilities, and installations must be aware 
+they are responsible for the religious and spiritual care 
+of service members, patients, and staff through the 
+command religious program. Generally, the CO has 
+a team—a military chaplain and their staff—to ensure 
+that religious services and spiritual care are available 
+to and provided for all. However, COs also strongly 
+influence the level of collaboration within and across 
+units and within the entire healthcare team of providers. The MMO must work with the CO to promote the 
+multidisciplinary or interdisciplinary collaboration of 
+their teams with other healthcare providers and various leaders. This model of collaboration is supported 
+by Gordon and Mitchell,45 who conceived of four competency levels in the delivery of spiritually based care: 
+ 
+1. All staff and volunteers who have casual contact with patients and their families should 
+understand that all people have distinguishable spiritual needs.
+ 
+2. All staff and volunteers whose duties require contact with patients and families and 
+caregivers should be aware of spiritual and 
+religious needs and how to identify and respond to them. 
+ 
+3. All staff and volunteers who are members of 
+multi/interdisciplinary care teams need to be 
+trained to assess spiritual/religious needs and 
+develop plans for care.
+ 
+4. All staff and volunteers whose primary 
+responsibility is for the spiritual and religious care of patients, visitors, and staff are 
+expected to manage and facilitate complex 
+religious and spiritual support for patients, 
+families, caregivers, staff, and volunteers. 
+Collaborative competency models place religious 
+and spiritual provision of care squarely in the multidisciplinary community of care providers rather than 
+411
+Spiritual Fitness and Performance
+in the care of the chaplain only. Chaplains do not own 
+religious and spiritual care in DoD or VA settings; 
+rather, the MMO and CO can serve key support roles 
+by viewing this care as a shared collaborative ownership responsibility for all in leadership positions and 
+the healthcare professions. 3
+SUMMARY
+Definitions of spirituality and religion are challenging and diverse, but it is commonly acknowledged 
+that the understanding and practice of spirituality 
+is individually based. In contrast, the understanding 
+and practice of religion is more of an organized—even 
+doctrinal—attempt to connect to others and have an 
+understanding of a transcendent being. The overlap in 
+this area is large, with some practicing spirituality by 
+using a religious framework, and some in organized 
+religion viewing that as their spiritual expression. The 
+literature supporting the health benefits of practicing 
+religion, spirituality, or both, and the role of spirituality and religion in the treatment of common existing 
+chronic diseases, have been discussed. It is becoming 
+increasingly important for all leaders and healthcare 
+providers working in multidisciplinary and interdisciplinary teams to develop active listening skills and 
+remain cognizant of their own religious or spiritual 
+beliefs and practices. MMOs should be attuned to the 
+spiritual concerns of those they care for (as well as 
+their own), and not automatically pass this imperative off to the chaplain on the team. All professionals 
+on an interdisciplinary team “own” the provision of 
+care for the religious and spiritual concerns of their 
+patients. And finally, medical treatment facilities and 
+clinics that promote interdisciplinary models involving chaplains—including multidisciplinary training—
+must promote more holistic care for the patients and 
+their families, which will lead to greater opportunity 
+for religious and spiritual fitness. 
+SELECTED RESOURCES
+ 
+• Chairman of the Joint Chiefs of Staff. Chairman’s Total Force Fitness Framework. Washington, DC: Department of Defense; September 1, 2011. CJCSI 3405. 01. https://www.hprc-online.org/page/total-force-fitness/
+about-total-force-fitness. Accessed June 20, 2018.
+ 
+• The Uniformed Services University’s Human Performance Resource Center has further information on 
+the spiritual domain as part of the TFF effort: http://hprc-online.org/. 
+ 
+• Koenig HG. Religion, spirituality, and health: a review and update. Adv Mind Body Med. 2015;29(3):19–26.
+ 
+• Navy Spiritual Fitness Guide: http://www.navy.mil/docs/SpiritualFitnessGuide.pdf.
+ 
+• Pargament KI, Sweeney PJ. Building spiritual fitness in the Army: an innovative approach to a vital 
+aspect of human development. Am Psychol. 2011;66(1):58-64.
+ 
+• Realwarriors.net’s spiritual fitness in the military: http://www.realwarriors.net/active/treatment/
+spirituality.php.
+ 
+• Sweeney PJ, Rhodes JE, Boling B. Spiritual fitness: a key component of total force fitness. J Force Q. 
+2012;3rd quarter(66):35–41.
+ACKNOWLEDGMENTS
+The authors would like to thank colleagues Jason Nieuwsma, PhD; Robert Julian Irvine, MDiv; and Shelia 
+O’Mara, MDiv, from the VA Mental Health and Chaplaincy Department in Durham, North Carolina, for 
+assistance in reference material and editing. 
+REFERENCES
+ 
+1. Hufford DJ, Fritts MJ, Rhodes JE. Spiritual fitness. Mil Medicine. 2010;175(8 Suppl):73-87. 
+ 
+2. Nieuwsma JA, Jackson GL, DeKraai MB, et al. Collaborating across the Departments of Veterans Affairs and Defense 
+to integrate mental health and chaplaincy services. J Gen Intern Med. 2014;29(Suppl 4):885–894.
+ 
+3. Sweeney PJ, Rhodes JE, Boling B. Spiritual fitness: a key component of total force fitness. J Force Q. 2012;3rd quarter(66):35–41.
+412
+Fundamentals of Military Medicine
+ 
+4. Newport F. Five key findings on religion in the U.S. Gallup Inc website. https://news.gallup.com/poll/200186/fivekey-findings-religion.aspx. Published December 23, 2016. Accessed June 19, 2018.
+ 
+5. Koenig HG. Religion, spirituality, and medicine: research findings and implications for clinical practice. South Med J. 
+2004;97(12):1194–1200.
+ 
+6. Emblen JD. Religion and spirituality defined according to current use in nursing literature. J Prof Nurs. 1992;8(1):41–47.
+ 
+7. Reed PG. An emerging paradigm for the investigation of spirituality in nursing. Res Nurs Health. 1992;15(5):349–357.
+ 
+8. Koenig HG. Religion, spirituality, and health: the research and clinical implications. ISRN Psychiatry. 2012:278730.
+ 
+9. Koenig HG. Religion, spirituality, and health: a review and update. Adv Mind Body Med. 2015;29(3):19–26.
+ 10. Guilday P. The Life and Times of John Carroll, Archbishop of Baltimore, 1735–1815. New York, NY: Encyclopedia Press; 
+1922.
+ 11. Additional Protocol I to the Geneva Conventions of 1949. https://treaties.un.org/doc/publication/unts/volume 1125/
+volume-1125-i-17512-english.pdf. Accessed April 16, 2017.
+ 12. McKay C, Wieck KL. Evaluation of a collaborative care model for hospitalized patients. Nurs Econ. 2014;32(5):248–
+254,267.
+ 13. Schouten LM, Hulscher ME, van Everdingen JJ, Huijsman R, Grol RP. Evidence for the impact of quality improvement 
+collaboratives: systematic review. BMJ. 2008;336(7659):1491–1494. doi: 1410. 1136/bmj. 39570. 749884.BE. Epub 742008 
+Jun 749824.
+ 14. Hobfoll SE. The Ecology of Stress. New York, NY: Hemisphere Publishing; 1988.
+ 15. Banks JW. The importance of incorporating faith and spirituality issues in the care of patients with chronic daily 
+headache. Curr Pain Headache Rep. 2006;10(1):41–46.
+ 16. Gupta PS, Anandarajah G. The role of spirituality in diabetes self-management in an urban, underserved population: 
+a qualitative exploratory study. R I Med J (2013). 2014;97(3):31–35.
+ 17. Gutierrez J, Devia C, Weiss L, et al. Health, community, and spirituality: evaluation of a multicultural faith-based 
+diabetes prevention program. Diabetes Educ. 2014;40(2):214–222.
+ 18. Jim HS, Pustejovsky JE, Park CL, et al. Religion, spirituality, and physical health in cancer patients: A meta-analysis. 
+Cancer. 2015;121(21):3760–3768.
+ 19. Moreira-Almeida A, Koenig HG. Religiousness and spirituality in fibromyalgia and chronic pain patients. Curr Pain 
+Headache Rep. 2008;12(5):327–332.
+ 20. Mouch CA, Sonnega AJ. Spirituality and recovery from cardiac surgery: a review. J Relig Health. 2012;51(4):1042–1060.
+ 21. Mundle RG. Engaging religious experience in stroke rehabilitation. J Relig Health. 2012;51(3):986–998.
+ 22. Namageyo-Funa A, Muilenburg J, Wilson M. The role of religion and spirituality in coping with type 2 diabetes: a 
+qualitative study among Black men. J Relig Health. 2015;54(1):242–252.
+ 23. Park CL, Sherman AC, Jim HS, Salsman JM. Religion/spirituality and health in the context of cancer: Cross-domain 
+integration, unresolved issues, and future directions. Cancer. 2015;121(21):3789–3794.
+ 24. Polzer R, Miles MS. Spirituality and self-management of diabetes in African Americans. J Holist Nurs. 2005;23(2):230–250.
+ 25. Salsman JM, Fitchett G, Merluzzi TV, Sherman AC, Park CL. Religion, spirituality, and health outcomes in cancer: A 
+case for a meta-analytic investigation. Cancer. 2015;121(21):3754–3759.
+413
+Spiritual Fitness and Performance
+ 26. Salsman JM, Pustejovsky JE, Jim HS, et al. A meta-analytic approach to examining the correlation between religion/
+spirituality and mental health in cancer. Cancer. 2015;121(21):3769–3778.
+ 27. Sherman AC, Merluzzi TV, Pustejovsky JE, et al. A meta-analytic review of religious or spiritual involvement and 
+social health among cancer patients. Cancer. 2015;121(21):3779–3788.
+ 28. Unantenne N, Warren N, Canaway R, Manderson L. The strength to cope: spirituality and faith in chronic disease. J 
+Relig Health. 2013;52(4):1147–1161.
+ 29. Vermandere M, Lepeleire JD, Van Mechelen W, Warmenhoven F, Thoonsen B, Aertgeerts B. Spirituality in palliative 
+home care: a framework for the clinician. Support Care Cancer. 2013;21(4):1061–1069.
+ 30. Wachholtz AB, Pargament KI. Migraines and meditation: does spirituality matter? J Behav Med. 2008;31(4):351–366.
+ 31. Stewart WC, Adams MP, Stewart JA, Nelson LA. Review of clinical medicine and religious practice. J Relig Health. 
+2013;52(1):91–106.
+ 32. Balboni MJ, Puchalski CM, Peteet JR. The relationship between medicine, spirituality and religion: three models for 
+integration. J Relig Health. 2014;53(5):1586–1598.
+ 33. Bussing A, Matthiessen PF, Ostermann T. Engagement of patients in religious and spiritual practices: confirmatory 
+results with the SpREUK-P 1. 1 questionnaire as a tool of quality of life research. Health Qual Life Outcomes. 2005;3:53.
+ 34. Bussing A, Ostermann T, Matthiessen PF. Role of religion and spirituality in medical patients: confirmatory results 
+with the SpREUK questionnaire. Health Qual Life Outcomes. 2005;3:10.
+ 35. Thune-Boyle IC, Stygall JA, Keshtgar MR, Newman SP. Do religious/spiritual coping strategies affect illness adjustment in patients with cancer? A systematic review of the literature. Soc Sci Med. 2006;63(1):151–164.
+ 36. Naghi JJ, Philip KJ, Phan A, Cleenewerck L, Schwarz ER. The effects of spirituality and religion on outcomes in patients 
+with chronic heart failure. J Relig Health. 2012;51(4):1124–1136.
+ 37. Pargament KI, Sweeney PJ. Building spiritual fitness in the Army: an innovative approach to a vital aspect of human 
+development. Am Psychol. 2011;66(1):58–64.
+ 38. Yeung D, Martin MT. Spiritual Fitness and Resilience: A Review of Relevant Constructs, Measures, and Links to Well-Being. 
+Santa Monica, CA: RAND Corporation; 2013.
+ 39. Fung AW, Lam LC. Spiritual activity is associated with better cognitive function in old age. East Asian Arch Psychiatry. 
+2013;23(3):102–107.
+ 40. King MB, Koenig HG. Conceptualising spirituality for medical research and health service provision. BMC Health Serv 
+Res. 2009;9:116.
+ 41. Meredith P, Murray J, Wilson T, Mitchell G, Hutch R. Can spirituality be taught to health care professionals? J Relig 
+Health. 2012;51(3):879–889.
+ 42. Lucchetti G, de Oliveira LR, Koenig HG, Leite JR, Lucchetti AL. Medical students, spirituality and religiosity—results 
+from the multicenter study SBRAME. BMC Med Educ. 2013;13:162.
+ 43. Lucchetti G, de Oliveira LR, Leite JR, Lucchetti AL. Medical students and controversial ethical issues: results from the 
+multicenter study SBRAME. BMC Med Educ. 2014;15:85.
+ 44. Elkonin D, Brown O, Naicker S. Religion, spirituality and therapy: implications for training. J Relig Health. 2014;53(1):119–
+134.
+ 45. Gordon T, Mitchell D. A competency model for the assessment and delivery of spiritual care. Palliat Med. 2004;18(7):646–
+651.
+414
+Fundamentals of Military Medicine

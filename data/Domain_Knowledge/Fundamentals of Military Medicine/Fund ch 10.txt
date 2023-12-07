@@ -1,0 +1,887 @@
+153
+Tactical Field Skills for the Military Physician
+Chapter 10
+TACTICAL FIELD SKILLS FOR THE 
+MILITARY PHYSICIAN
+SEAN MULVANEY, MD,* and TONY S. KIM, MD†
+INTRODUCTION
+THE PROBLEM AND NEED FOR TRAINING
+SHOOT
+Weapons Training
+Combatives
+MOVE
+Principles of Navigation
+Driving Military Vehicles
+Convoy Operations
+Personal Equipment and Moving
+COMMUNICATE
+ADDITIONAL OPERATIONAL MEDICAL TRAINING
+Flight Medicine
+Dive Medicine
+Airborne
+Survival, Evasion, Resistance, Escape
+OTHER CONSIDERATIONS
+Military Bearing
+Medical Evacuation and Mass Casualty Planning and Training
+Preventive Medicine
+Operational and Intelligence Briefings
+Time Management
+SUMMARY
+*Colonel (Retired), Medical Corps, US Army; Associate Professor, Department of Military & Emergency Medicine, Uniformed Services University of 
+the Health Sciences, Bethesda, Maryland
+†Colonel, Medical Corps, US Air Force; Assistant Professor, Department of Military & Emergency Medicine, Uniformed Services University of the 
+Health Sciences, Bethesda, Maryland
+154
+Fundamentals of Military Medicine
+INTRODUCTION
+There are two compelling reasons for military physicians to learn and hone the basics of military combat 
+skills. The first is that the physician must never be a 
+liability for the supported unit. The second is that by 
+fundamentally understanding the demands of the 
+unit’s mission-essential tasks, the physician is better 
+able to interpret injury patterns and set reasonable 
+return-to-duty requirements and limitations. In addition, learning these skills establishes a set of shared 
+experiences that facilitate effective communication 
+between physician and patient. 
+At its core, soldiering skills consist of being able to 
+safely and effectively shoot, move, and communicate. 
+Each of these basic tasks has a series of implied tasks. 
+For example, to shoot, one must first know how to 
+safely handle and sight-in (or “zero”) the weapon. 
+To move, one must know how to establish his or 
+her position and navigate. According to the tenets of 
+the Geneva Conventions, medical personnel are not 
+combatants and are entitled to certain protections 
+(so long as they are working exclusively in a medical 
+role and not participating in acts harmful to the enemy). 1–3 However, the vast majority of armed conflicts 
+the United States has engaged in since World War II 
+include combatants that do not adhere to the Geneva 
+Conventions. Thus, the physician cannot assume the 
+protections of Geneva Conventions status and must 
+be prepared to be treated as a combatant. 
+As a rule, units are willing to facilitate teaching their 
+assigned physician combat skills if he or she shows an 
+interest. It is beneficial to the unit to have a physician 
+who is independent and competent in a combat zone; a 
+physician cannot execute the critical medical role if he 
+or she is lost or dead. Deployable medical units have 
+a cadre with the responsibility to teach basic combat 
+skills to their medical providers. In other units, a physician with initiative and persistence will find trained 
+personnel and resources to help. Learning combat 
+skills is experiential; reading it in a book, seeing it on 
+a video, or being told what to do will not suffice. The 
+skills must be performed, and becoming proficient in 
+them takes time, in some cases years. Although these 
+skills may never be used in combat, they are worth 
+learning and will increase the physician’s ability to 
+both care for and relate to patients. Although the easiest time to learn these skills is early in one’s career, it 
+is never too late to begin and it is always appropriate 
+to review and refresh these skills on a regular basis. 
+Vice Admiral Joel Boone is arguably among the best 
+examples of a combat physician. This is his Medal of 
+Honor Citation from World War I:
+For extraordinary heroism, conspicuous gallantry, 
+and intrepidity while serving with the 6th Regiment, 
+U.S. Marines, in actual conflict with the enemy. With 
+absolute disregard for personal safety, ever conscious 
+and mindful of the suffering fallen, Surg. Boone, 
+leaving the shelter of a ravine, went forward onto 
+the open field where there was no protection and despite the extreme enemy fire of all calibers, through 
+a heavy mist of gas, applied dressings and first aid 
+to wounded marines. This occurred southeast of Vierzy, near the cemetery, and on the road south from 
+that town. When the dressings and supplies had been 
+exhausted, he went through a heavy barrage of largecaliber shells, both high explosive and gas, to replenish these supplies, returning quickly with a sidecar 
+load, and administered them in saving the lives of the 
+wounded. A second trip, under the same conditions 
+and for the same purpose, was made by Surg. Boone 
+later that day. 4
+In addition to earning the Medal of Honor, Boone 
+was awarded the Army’s Distinguished Service Cross, 
+multiple Silver Stars, and many other awards, making 
+him among the most decorated military physicians 
+in history. 5 With one of the most remarkable and distinguished careers in the history of the US military, 
+Vice Admiral Boone demonstrated preparedness and 
+readiness that led to courage and success when it really counted. He is an excellent example for all military 
+physicians. 
+THE PROBLEM AND NEED FOR TRAINING
+With the exception of Special Operations units, no 
+service officially requires physicians to become proficient or familiar with any combat skills, and military 
+units often do not place any demands on the physician 
+outside of medical tasks beyond the minimum military 
+requirements. Special Operations units expect their 
+physicians to have (from prior service) or to develop 
+the ability to handle themselves in rapidly changing 
+situations, including combat. Thus, the opportunity 
+for these physicians to regularly train in combat skills 
+with their unit members is expected. In all other units, 
+pursuing training in these skills is the physician’s responsibility; it is often not provided by the unit. 
+As a result, physicians may receive only a half-day 
+of familiarization with a pistol, while the remainder 
+of readiness preparation involves updating medical/
+dental/immunizations requirements; ensuring their 
+security clearance and ISOPREP (isolated personnel 
+155
+Tactical Field Skills for the Military Physician
+report, a secure individual profile on file in case a 
+person must be rescued and their identity verified) is 
+up to date; and making sure various computer-based 
+training is current. These kinds of activities, although 
+important for deployment readiness, do not constitute 
+tactical field skills preparation or adequately prepare 
+the physician for working in a combat environment. 
+The unit may facilitate scheduling combat arms training but not offer extra training such as combatives, land 
+navigation, or small team tactics. 
+Likewise, training as a physician does not include 
+preparation for combat field medicine. Experienced 
+combat-proven medics often know more about saving 
+lives of wounded warfighters in the field than physicians. Medics are experts in Tactical Combat Casualty 
+Care (TCCC),6 and it behooves the military physician to 
+learn and be able to execute these standards as well as 
+Advanced Trauma Life Support or Advanced Cardiac 
+Life Support standards. However, medics will look 
+to the unit physician for medical training, validation, 
+and mentorship. The physician must have an in-depth 
+understanding of TCCC principles and techniques 
+to be able to communicate in a common language 
+and utilize the same treatment algorithms when it is 
+necessary to provide care under fire. Physicians need 
+to train medics in TCCC-recommended medications 
+for pain control and wound prophylaxis; medics have 
+the know-how to administer medications but may 
+not fully understand how they work or when certain 
+medications may be better than another. It is important 
+to practice how to care for casualties out of an aid bag, 
+including in the dark. Practice improves performance 
+not just individually, but also collectively between the 
+tactical physician and medic. 
+SHOOT
+Weapons Training
+In a combat zone, the physician is usually assigned 
+a weapon, most often a pistol (M9) or possibly a rifle 
+(M4). Even under almost all theater-established rules 
+of engagement, medical personnel never lose the right 
+to self-defense according to the Geneva Conventions. 
+Rules of engagement vary with the threat level and 
+phase of combat operations. For example, in the initial 
+assault phase of a combat operation, a soldier may 
+legally shoot any enemy holding a weapon, whereas 
+in the stabilization phase of combat operations, the 
+soldier may have to wait until that same enemy makes 
+a threatening gesture before shots can be fired. By the 
+Geneva Conventions, however, as medical personnel, 
+physicians can shoot only if threatened and there is a 
+need to protect their own life or the life of patients. 7 
+In such cases, deadly force may be used. It is vitally 
+important to understand such rules of engagement 
+within the confines of the Geneva Conventions, and 
+medical personnel must be ready to utilize deadly 
+force when appropriate in order to be a force multiplier for the unit. Physicians should not be the cause 
+of further casualties because of a lack of resolve or 
+understanding of their role in combat.
+There are reasons to be familiar with weapons and 
+shooting other than self-defense and protecting patients. Chances are, firing a weapon is an activity at 
+least some members of the unit do regularly as part of 
+their job, and understanding the forces imparted to the 
+body, both from recoil and from shooting positions, 
+will help the physician more appropriately profile 
+(impose medical duty limitations) to protect these 
+patients while recovering from injury. Shooting also 
+provides first-hand experience with the occupational 
+noise exposure warfighters face, which emphasizes the 
+importance of advocating for the funding and enforcement of appropriate hearing protection. In addition, 
+shooting can be a significant source of occupational 
+lead exposure, especially for personnel who routinely 
+shoot in indoor ranges. The unit physician should 
+track shooting-associated occupational concerns such 
+as proper ventilation in firing ranges, hand-washing 
+immediately after firing range operations, and blood 
+lead level monitoring in populations that routinely fire 
+assigned weapons. In addition, going to the range and 
+firing weapons once or twice a year provides physicians an opportunity to get to know their patients in 
+a nonclinical setting.
+The ideal time to learn how to safely handle and 
+employ firearms is before deployment; during deployment is too late to become comfortable with a weapon. 
+Weapons may be assigned because of an increased 
+threat level, and there is no time to become proficient 
+with a weapon once an assault starts. Hospitals and 
+aid stations are notoriously soft targets that enemies 
+will exploit if given a chance. 
+Physicians should seek weapons training and work 
+through the chain of command to get more time on the 
+firing range. Depending on the military service (Army, 
+Navy, Marines, or Air Force) and the particular type of 
+unit the physician is assigned to (conventional forces 
+vs special operations), the method and ease of obtaining time on the shooting range will differ. However, 
+all physicians should respect and be friendly with unit 
+noncommissioned officers, who can be immensely 
+helpful and have established lines of communication 
+and trust with other units and agencies involved with 
+156
+Fundamentals of Military Medicine
+scheduling training (see Chapter 12, Enlisted Service 
+Members, for a more detailed explanation of the role 
+of the enlisted corps). If the extra training cannot get 
+scheduled or authorized through regular channels, 
+physicians should take the initiative to go to a local 
+shooting range, many of which are within driving 
+distance from most military bases and can provide 
+weapons and training in the fundamentals. Civilian 
+9-mm pistols are similar to those most likely issued 
+to officers during deployments. 
+This chapter is not a resource on weapons safety. 
+However, a few foundational concepts that should be 
+understood by anyone who works around firearms are 
+provided here. Regardless of whether one is a novice 
+or expert with firearms, the following rules must never 
+be modified or broken: 
+ 
+1. Always treat the weapon as if it was loaded, 
+and do not rely on a mechanical safety to keep 
+the weapon safe.
+ 
+2. Never point a weapon at anything other than 
+the intended target.
+ 
+3. Keep fingers off the trigger until ready to 
+shoot.
+ 
+4. Be sure of the target, what is around it, in 
+front of it, and behind it.
+Additionally, every time a firearm is held, the 
+weapon must be inspected: is there a loaded magazine 
+or a round of ammunition in the chamber (the chamber 
+is where the round of ammunition lines up with the 
+barrel for firing)? Physicians must be familiar with 
+this procedure before accepting a weapon. There must 
+be absolute certainty about the status of any weapon 
+being held; a round of ammunition negligently fired 
+can never be taken back, and the consequences can be 
+permanent and tragic. There is never an acceptable 
+excuse for a negligent discharge of a weapon. 
+Although much can be learned about weapons 
+handling and shooting from books and videos, it is 
+a physical skill that must be executed to truly learn 
+it. Dry firing, the act of going through the motions of 
+shooting with a confirmed (and reconfirmed) empty 
+weapon, does not hurt the weapon and is an excellent 
+way to practice employing a firearm (the shot must 
+still be performed in a safe direction). Specifically, 
+dry firing can provide practice grasping the handle, 
+using the weapons sights, establishing a smooth trigger squeeze (trigger “press”), and aiming in different 
+firing positions (prone, sitting, kneeling, firing around 
+barricades). In addition, magazine changes with empty 
+magazines can be practiced. 
+Sighting in or “zeroing” a weapon is the critical 
+process of adjusting the weapon sights (iron sights or 
+optics) so that the fired round impacts the intended 
+target. The initial sight in or “zero” should be at close 
+range (15 m or less for a pistol, 25 m for a rifle). Once 
+the sights are grossly adjusted and there is a consistent shot grouping at close range, the process should 
+be repeated at actual engagement ranges to further 
+fine-tune the sighting (25 m for pistol, 200+ m for rifle). 
+Additionally, shooting should be practiced while 
+wearing assigned protective equipment. Firing a 
+weapon while wearing a helmet and body armor is 
+much different than without: sling length, holster 
+position, and shooting positions will change. Ear and 
+eye protection must also be worn, and eye protection 
+may slightly alter the sight picture and negatively 
+affect accuracy if the user is not looking through the 
+center of the lenses. 
+Physicians should clean their own weapon no matter what their rank or how busy their schedule is; this 
+responsibility should never be delegated. There is 
+much to be learned about a firearm from the cleaning 
+process, and doing so will earn respect from soldiers 
+who see this as a duty that should never be shirked. 
+Combatives
+Combatives (or hand-to-hand fighting) training is 
+widely available on most military bases. Understanding the forces and stress on personnel undergoing combatives training is important for the military physician 
+assigned to a combat unit. The best way to understand 
+the forces involved in combatives training is by firsthand experience. During sparring, a “preposterone 
+effect” can occur, in which the intensity increases to 
+the point where sparring partners end up hurting each 
+other. A military physician who works with combatives instructors is able to effectively collaborate and 
+better protect unit members from unnecessary injury 
+while undergoing this training. A physician does not 
+need to become an expert fighter, but learning the basic 
+skills helps the physician understand possible injuries 
+from combatives, provides a modicum of physical 
+confidence, and can be fun. 
+MOVE
+Principles of Navigation
+It is critical to learn navigation by map and compass even in the global positioning system (GPS) era. 
+This skill is still taught for several reasons, including 
+the possibility of losing GPS access when fighting an 
+enemy with advanced capabilities. For a decade, the 
+Navy had stopped teaching midshipmen celestial 
+157
+Tactical Field Skills for the Military Physician
+navigation, but as of 2016 it is back in the curriculum 
+because of a reasonable assessment of the threat and 
+potential vulnerability of US satellites. 8 Navigating 
+with a map and compass is a basic soldiering skill, 
+is reasonably easy to learn, and provides confidence 
+when moving through rural areas for training or combat. It is a key step for many military schools, such as 
+Ranger training, and in all combat arms training. 
+There are many good books on navigation, both 
+military and civilian. Navigation training does not 
+require any special equipment, and is available at local 
+orienteering or outdoor clubs if efforts to find military 
+training come up short. Physicians should make every 
+effort to participate when their unit conducts this training, including land navigation at night, which can be 
+much more difficult and requires practice. Knowing 
+how to read a contour map is also important; however, 
+it is not as critical as being able to accurately locate 
+oneself on a standard map. 
+Nautical charts and maps use the universal system 
+of latitude and longitude to describe a location on the 
+globe. All maps are based on a model of the earth’s 
+sphere called a “datum,” which incorporates a grid 
+system, called a “projection,” which mathematically 
+transforms the 3-dimensional sphere to a 2-dimensional map. Worldwide, there are many datum choices. Examples of common datums for US maps and charts are 
+WGS-84 or NAD–83. When using coordinate systems 
+such as latitude and longitude, or grid coordinates, 
+it is necessary to know which datum the coordinates 
+are based on. The error of the same coordinates in 
+two different datums can be substantial, on the order 
+of kilometers. 
+A geocoding system founded in 2013, called “What3words,” has assigned three dictionary words to every 
+3 × 3 m2 of the globe. 9 It is a simple way to locate any 
+place on the planet; for example, a square at the foot 
+of the Statue of Liberty is exactly described by the 
+words “planet.inches.most.” Three words are much 
+easier to remember than a 10-character alphanumeric, 
+and much less likely to result in a transcription error. 
+The three words can be translated into a GPS location 
+(and vice versa), as well as driving instructions, with 
+simple, free phone applications. The system is already 
+being used in over 170 countries and its use is growing, 
+especially in the developing world where many existing roads are not named or posted. While not currently 
+used by the US military, it could be especially useful 
+in large refugee camps without street addresses, or 
+in humanitarian aid and disaster response missions. 
+Driving Military Vehicles
+Driver training and getting licensed for driving 
+military vehicles is fairly easy, although physicians are 
+not usually required to get these licenses. However, 
+if the base is located in a cold climate, there may be 
+mandatory cold weather driving and vehicle maintenance training; if overseas, there may be specific 
+driving license testing requirements. Operational units 
+and any military facility with a motor pool (a location 
+where military vehicles are stored and maintained) 
+have procedures for qualifying and licensing military 
+personnel to drive military vehicles. Although guidelines establish priority to receive training, there are 
+always opportunities to receive training by request 
+(a recurring theme for most of the skills described in 
+this chapter, which allow physicians to broaden skill 
+sets and function in multiple capacities to be a force 
+multiplier in combat settings). 
+Convoy Operations
+Medical personnel do not usually run convoy operations but may need to travel with a convoy to other 
+locations within a combat zone. Convoys should not 
+be joined without preparation. All participants must 
+be prepared to respond to an attack, which requires 
+practice. The convoy leader (who may not be the senior 
+person in the convoy) should explain and rehearse the 
+proper immediate response to an improvised explosive 
+device (IED) and other types of ambush. Unit medics 
+and physicians must know exactly where medical 
+gear (litter, burn blanket, other blankets, additional 
+aid bags, etc) is located within the convoy and inspect 
+it prior to moving.
+Convoy participants should also study the route to 
+be taken; note significant terrain features (eg, which 
+side of the big bend in the Tigris River the embassy 
+is on); keep in mind the safest direction to travel in 
+case of separation; and memorize any rendezvous 
+points along the route. Many convoys carry a tracking device that sends a GPS signal to a secure satellite, 
+which can be tracked by secure ground stations. Some 
+of these tracking devices have an emergency switch; 
+all participants should learn how this device works 
+and how to activate any emergency beacon functions. 
+The physician should know the MEDEVAC (medical 
+evacuation) radio frequency, the frequency to the tactical operations center, and how to work the radio in the 
+vehicle (see Communicate, below). Participants should 
+know about any other countermeasures. 
+Passengers should sit in the back seat on the driver’s 
+side in countries that drive on the right side of the 
+road (away from the side of the road where bombs 
+might be buried), and wear proper protective equipment (helmet, body armor, eye protection). Electronic 
+noise-cancelling hearing protection, if available, is also 
+beneficial because even a single unprotected exposure 
+to a very loud sound, such as a roadside IED detona158
+Fundamentals of Military Medicine
+tion, can permanently damage hearing. This equipment blocks loud and harmful sounds, such as gunfire 
+or explosions, while allowing the wearer to hear faint 
+sounds to maintain situational awareness. 
+ 
+Passengers, even if qualified on the weapon, should 
+stay out of the gun turret. Despite how nice it may feel 
+to get fresh air and how exciting it may be to fire such 
+a weapon, this is an unnecessary risk that puts the entire unit in jeopardy. In addition, filling such a combat 
+role when not absolutely necessary jeopardizes one’s 
+Geneva Convention status and may do irreparable 
+harm to the mission due to unfavorable press coverage. 
+When moving around a semi-permissive environment (one in which the host nation has only partial effective control of the territory) in civilian-style vehicles, 
+soldiers should try to blend in as much as possible (eg, 
+if the locals do not wear sunglasses, anyone wearing 
+them would be marked as a foreigner). 
+Personal Equipment and Moving
+The concept of “layering” personal combat equipment must be understood. There are three basic layers 
+of personal equipment:
+ 
+1. The base layer is always worn and consists 
+of the uniform itself; protective equipment 
+(body armor, helmet, eye protection, ear 
+protection, gloves, etc); the Individual First 
+Aid Kit (IFAK), which includes bandaging, 
+tourniquets, analgesics, and antibiotics; 
+critical survival items kept in pockets (map, 
+compass, knife, red-lens LED headlamp, fire 
+starter, etc); and assigned weapon. 
+ 
+2. The second layer is the “combat load,” consisting of items critical to the performance of 
+the mission. It usually consists of ammunition, water, personal radio (if assigned), night 
+optic device (if assigned), and in the case of 
+the unit physician, the aid bag. 
+ 
+3. The final layer is the sustainment load, carried in a rucksack and consisting of items 
+needed for the length of the mission. For a 
+multiday mission, these items include additional water, food, additional ammunition, 
+batteries, climate-appropriate clothing and 
+foul-weather gear, sleeping bag with ground 
+pad, hygiene items, and other items as the 
+mission dictates. 
+The IFAK should be carried at all times in the location specified by the unit’s standard operating procedure. This allows everyone on the convoy to know 
+where to rapidly find the critical first aid supplies if a 
+soldier is wounded. Common practice is to use supplies from the wounded soldier’s IFAK first, and then 
+use supplies from other IFAKs only if needed. 
+If movement occurs in the dark of night, helmetmountable night optic devices (NODs) should be used 
+if available (the term “night vision goggles” should 
+not be used because many common NODs, such as the 
+PVS-14, are monocular and not a goggle). If a NOD 
+is available, the correct mount and bracket to attach 
+the NOD to the assigned helmet must be confirmed 
+and the physician will need to practice with it. In case 
+the physician is the only one uninjured to drive the 
+vehicle, he or she should also practice driving with 
+NODs.
+COMMUNICATE
+Understanding the basics of military communications is a foundational skill that all military members 
+should grasp, including physicians. This skill is needed 
+to call for a MEDEVAC, to call for help, and to talk with 
+the search and rescue aircraft when forced to escape and 
+evade. Communications equipment is often encrypted, 
+so it is important to have a basic understanding of 
+handling cryptologic material. All communications 
+methods can fail, sometimes at critical times, so familiarity with the communications plan that outlines the 
+multiple redundant communications systems is useful. 
+The “PACE” (Primary, Alternate, Contingency, 
+Emergency) mnemonic is often used in military communications plans; for example: 
+ 
+• Primary–VHF (very high frequency) military 
+radio 
+ 
+• Alternate–satellite phone 
+ 
+• Contingency–cell phones 
+ 
+• Emergency–send a runner 
+It is vitally important that all members of a unit, 
+including the physician, be familiar with the plan and 
+know the proper frequencies and numbers necessary 
+to use the equipment. The unit cannot rely on just a 
+few members who are considered responsible for the 
+radio. The unit physician may have to use the radio 
+because the warfighters who are supposed to use it are 
+either incapacitated or actively engaging the enemy. 
+Military radios are called transceivers, which is a 
+combination of a transmitter (which sends signals) and 
+a receiver (which reads incoming signals). Transceivers 
+use different frequencies of electromagnetic waves, and 
+these frequencies are artificially grouped into named 
+bandwidths. The details on the various bandwidths 
+are listed in Exhibit 10-1. 
+159
+Tactical Field Skills for the Military Physician
+EXHIBIT 10-1
+RADIO FREQUENCY TYPES
+ 
+• UHF (ultra high frequency), 300–3,000 MHz. Used for line-of-sight communication with aircraft and for satellite communications. Because of its relatively dense frequency, UHF can carry a relatively large amount of 
+data for a given bandwidth. UHF has good short-range penetration and is good for communications inside 
+buildings and structures; however, it has limited range for most ground-to-ground communications and is 
+rarely used for this purpose. Obstacles on the ground more rapidly attenuate UHF than lower frequencies.
+ 
+• VHF (very high frequency), 30–300 MHz. In the military, VHF is used primarily in ground-to-ground communications, but may be used in military aircraft to communicate with ground-based troops. VHF is the same 
+range used by commercial radio stations. The voice (or data) information is embedded in a carrier frequency 
+by a technique called “frequency modulation,” or FM. As a result, VHF communications are often referred 
+to by the alphanumeric term “Fox Mike” (for FM). Military radios may use a frequency-hopping capability 
+to attempt to foil an enemy from either listening in or using direction-finding equipment to locate the unit. 
+Frequency-hopping radios in communication with each other must be synchronized on the same algorithm 
+(otherwise, communications are impossible); in an emergency, synchronization can be complicated if the user 
+is not familiar with the radio’s operation. Operators should know how to take the radio out of frequency hopping mode and establish communications (“get up”) on the MEDEVAC frequency. VHF is generally useful 
+for line-of-sight communications with a maximum range roughly determined by the height of the antenna, 
+curvature of the earth, and power output, with a common maximum range of 30 miles in clear terrain, and a 
+minimum range of 1 mile or less in dense jungle.
+ 
+• HF (high frequency), 3–30 MHz. Also known as “shortwave radio,” HF used to be a staple of military long-range 
+communications because it has a potential global reach, but it has largely been replaced by satellite communications. When higher-frequency transmissions reach the ionosphere, they keep going (which is why UHF is 
+useful to communicate with satellites). Under the right circumstances, HF waves could be refracted (bent) by 
+the ionosphere back to earth, potentially sending the signal around the world. HF communications are heavily 
+dependent on time of day, frequency, atmospheric and sun spot activity, antenna configuration, and power 
+output of the transmitter. These factors make HF communications less reliable for military communications. 
+However, the vulnerability of satellites to electro-magnetic pulse radiation may bring HF communications 
+back into more common use in the military. Like all communications, HF signals can be encrypted, and they 
+can be sent in dense brief bursts of data. “Burst” transmissions (versus “voice transmissions”) dramatically 
+reduce the time a potential enemy has to use direction-finding equipment.
+“Radio discipline” is exemplified by clear and succinct transmissions, sent only when appropriate. Radio 
+discipline implies using the assigned radio channel (or 
+“net”) only when there is something important to say, 
+and interfering with an ongoing transmission only in 
+an emergency. If a unit is under attack, communication 
+often starts with a phrase such as, “emergency, troops 
+in contact.” This tells everyone on the radio network 
+cease nonemergency communication and prepare to 
+provide assistance. If those listening are unable to help, 
+they remain quiet and off the network while others 
+who are able to assist (eg, a reaction force, close air 
+support, or MEDEVAC personnel) can communicate.
+Radio discipline also means knowing when to use 
+standardized formats, such as calling in MEDEVAC 
+or close air support. Exhibit 10-2 is an example of a 
+standard 9-line MEDEVAC format. A 9-line request 
+card should be carried by all service members in a 
+combat zone to use as reference. Executing the request 
+properly will prevent unnecessary delays that could 
+lead to worsened patient outcomes. Utilizing the “9line” in checklist fashion helps ensure all necessary 
+items, such as hoists, other extraction equipment, or 
+specific medical equipment are requested (memorizing 
+the 9-line MEDEVAC request should not be relied on).
+Cryptologic material encodes and decodes communications. Because radios are designed to talk to each 
+other, they all run the same codes (or “fill”) on any given 
+day. This means the loss or misplacement of cryptologic 
+material renders the entire global US military communications system vulnerable. Mishandling cryptologic 
+materials is a significant mistake with serious and lasting consequences. It is absolutely imperative that lost 
+or suspected loss of cryptologic material is immediately 
+reported to the chain of command. Proper handling of 
+cryptologic material is similar to handling narcotics: 
+they must be kept in an approved safe and exactly 
+accounted for on a permanent record. Most military 
+radios have encryption capability. How to “zero-out” or 
+“dump” (permanently delete) the cryptologic material 
+on the radio to prevent it from falling into enemy hands 
+is another skill the physician should learn. 
+160
+Fundamentals of Military Medicine
+EXHIBIT 10-2
+9-LINE MEDEVAC REQUEST
+Line 1. Location of the pick-up site.
+Line 2. Radio frequency, call sign, and suffix.
+Line 3. Number of patients by precedence.
+A: Urgent
+B: Urgent surgical
+C: Priority
+D: Routine
+E: Convenience
+Line 4. Special equipment required. 
+A: None
+B: Hoist
+C: Extraction equipment
+D: Ventilator
+Line 5. Number of patients.
+A: Litter
+B: Ambulatory
+Line 6. Security at pick-up site.* 
+N: No enemy troops in area
+P: Possible enemy troops in area (approach with caution)
+E: Enemy troops in area (approach with 
+caution)
+X: Enemy troops in area (armed escort 
+required)
+*In peacetime, list instead number and types of wounds, 
+injuries, and illnesses.
+Line 7. Method of marking pick-up site. 
+A: Panels
+B: Pyrotechnic signal
+C: Smoke signal
+D: None
+E: Other
+Line 8. Patient nationality and status. 
+A: US Military
+B: US Civilian
+C: Non-US Military
+D: Non-US Civilian
+E: Enemy Prisoner of War 
+Line 9. NBC contamination.*
+N: Nuclear
+B: Biological
+C: Chemical
+*In peacetime, instead provide terrain description of 
+pick-up site.
+Portable satellite communications may be conducted 
+with an encrypted UHF (ultra-high frequency) radio 
+transceiver and a small directional antenna. The antenna must be pointed roughly at the satellite’s location 
+in space, meaning the antenna is pointed on the correct 
+compass bearing and azimuth (angle above the ground, 
+with 90° pointing straight up and 0° pointing at the 
+horizon). Most communications satellites used by the 
+military are in geosynchronous orbits, meaning they 
+stay in the same part of the sky relative to the earth as 
+it spins. These satellites may only be available during 
+certain time windows. The radio must be on the correctly assigned frequencies for sending and receiving, 
+with the correct cryptologic material fill. With the right 
+frequency, fill, and time period, satellite communications are usually the most reliable form of long-distance 
+communication. “Long-distance” is defined as any 
+distance longer than ground-based VHF radios can 
+reliably communicate. One potential disadvantage of 
+satellite communications is that unless the unit also has 
+a specialized antenna for use on a moving vehicle, the 
+vehicle must stop so that the antenna can be pointed 
+in the correct direction and elevation to communicate. 
+Relying on mobile phones as the primary or only 
+means of communication is a poor plan. Even if it 
+works well in one location on a particular day, it may 
+not work when and where it is needed. When a mobile phone must be used, do not use a personal phone 
+unless it is a true emergency (and part of the PACE 
+plan as described above). A mobile phone may work 
+in one country but fail when the border is crossed into 
+a neighboring country. Country code dialing prefixes 
+for all surrounding countries in the area of operation 
+should be known. Other practical tips that are easy 
+to forget include having the correct plug adapters for 
+charging cables and carrying extra batteries or power 
+supplies to recharge batteries. In many developing 
+countries, mobile phone networks are unreliable during high-use time periods, and dead zones are common 
+and large. If a voice phone call does not go through, 
+sometimes text messages will go through. 
+Satellite phones, however, do not rely on local cellular networks. They directly communicate with a 
+constellation of satellites that provide global coverage. 
+They are a reasonable alternative plan for communications, but must be routinely tested in locations where 
+they may be needed. Satellite phones that have not 
+been tested cannot be relied on; they may work intermittently; and batteries may die at inopportune times. 
+Units should also ensure there is time on the service 
+contract to cover the period of anticipated use plus at 
+least 2 months. No matter the type of communications 
+device being used, if it is not encrypted, users must not 
+talk about, or around, classified topics.
+161
+Tactical Field Skills for the Military Physician
+ADDITIONAL OPERATIONAL MEDICAL TRAINING
+In addition to being a physician assigned to a combat 
+unit or special operations unit, there are unique operational medical billets that include training as a flight 
+surgeon (FS) or a dive medical officer (DMO) in the Army 
+or as an undersea medical officer (UMO) in the Navy. 
+Flight Medicine
+Becoming an FS takes between 6 weeks (Army and 
+Air Force) and 6 months (Navy). The reason the Navy’s 
+program is so much longer is because the Navy FS 
+training program includes actual flight training up to 
+the point of solo flight, while the Army and Air Force 
+programs provide only orientation and familiarization 
+flights, not individual flight training. The term “surgeon” is a holdover from the days when all military 
+physicians were considered “field surgeons.” FSs learn 
+the physiological effects of flight and atmosphere as well 
+as the medical administrative requirements for safely 
+providing medical care to aviation personnel. FSs are 
+required to fly as a crew member a minimum of 4 hours 
+a month while in flight status in order to better understand the patient population and their occupational hazards. Similar to a unit physician assigned to an airborne 
+unit who is expected to have parachuting experience, an 
+FS is expected to understand the nuances of the world 
+of military aviation. FSs also perform medical services 
+for military freefall parachute jumpers and drone pilots.
+A major challenge faced by the FS is balancing the 
+needs and requests of individual aviators with the 
+needs of the team and mission. An FS must maintain 
+confidentiality with individual aviators, but must also 
+have the authority to ground any aviators when their 
+medical condition may compromise flight safety or 
+mission success. This may involve being available to 
+the flying unit at all times for consultation, as well as 
+coordinating medical care with specialists in a timely 
+manner to get the grounded aviator back to flying status as soon as possible. Being part of the team, while 
+maintaining a proper professionalism to make tough 
+calls, can be difficult. These situations can be managed 
+most effectively when the unit’s aviation personnel 
+know and trust their FS as a person and as a physician. 
+This rapport comes most easily if the FS regularly flies 
+with the crew and spends time with the unit, even in 
+non-work situations. The more time an FS spends with 
+the unit, the more trust and respect he or she will earn, 
+and the FS’s ability to effectively care for the unit and 
+enhance mission-readiness will be multiplied. 
+Dive Medicine
+Army DMOs and Navy UMOs are also specialized operational medical billets. Both are trained as 
+military divers, which is academically and physically 
+very rigorous. A DMO is limited to the care of military 
+undersea divers, while the UMO is also responsible for 
+the medical requirements and medical hazards unique 
+to submariners. Training to become a DMO takes 9 
+weeks and is conducted by the Navy. Training to become a UMO takes a total of 22 weeks in three phases. 10 
+Both DMOs and UMOs are experts in the recognition 
+and treatment of diving casualties, including the use 
+of recompression protocols in hyperbaric chambers. 
+Airborne
+Some assignments include an opportunity to attend 
+airborne training. Physicians assigned to an airborne unit 
+are expected to have parachute wings. If they are not already earned, the unit will send the physician to airborne 
+training. Again, this training is a fairly intense shared 
+experience and an opportunity to build rapport, which is 
+critical to earning the unit’s trust and respect, and being 
+an effective unit physician. Experience with parachuting 
+helps a physician understand the unit’s various medical 
+issues and assess its overall health and readiness. 
+Survival, Evasion, Resistance, Escape
+Training in survival, evasion, resistance, and escape 
+(SERE) is vital for military physicians. SERE training 
+teaches vital strategies for staying alive if captured 
+by the enemy. When groups of service members are 
+captured, the captors will exploit the weakest link, and 
+those who have not had SERE training are more likely 
+to succumb. The training is unpleasant at times, but the 
+payoff is more than worth the temporary discomfort. 
+If at all possible, enrollment in SERE training should 
+be pursued by military medical providers. 
+OTHER CONSIDERATIONS
+Military Bearing
+In operational units, active duty service members 
+judge the physician by his or her military bearing and 
+appearance. Despite other qualifications, physicians 
+who do not meet weight standards or wear the uniform 
+properly lose credibility. Simple keys to success include 
+staying physically fit, wearing the uniform correctly, 
+162
+Fundamentals of Military Medicine
+keeping hair in regulation, and learning how to give a 
+crisp salute. These simple actions will pay dividends 
+in training opportunities and building respect. 
+Medical Evacuation and Mass Casualty Planning 
+and Training
+Regardless of whether the physician arrives at a new 
+or established deployment location, there are several 
+critical tasks he or she must accomplish. MEDEVAC 
+plans must be confirmed, clinic supplies must be 
+checked, a mass casualty (MASCAL) plan must be 
+ready, and the casualty collection points must be 
+stocked and ready for use. The physician must never 
+fully rely on anyone else to do these tasks, and should 
+not rest until they are done. 
+Within a week or so of arrival, the physician should 
+insist on a full live rehearsal of the MEDEVAC plan. 
+MASCAL lockers at the casualty collection points should 
+be well stocked with TCCC-approved medical supplies. 
+Well-organized plans to triage, mark, and track casualties, as well as treat multiple casualties at night in foul 
+(or hot) weather is critical. In addition, expansion plans 
+utilizing buildings of opportunity or putting up additional tents must be considered if tactically appropriate.
+Reliably receiving medical supplies in a timely manner can be notoriously difficult in a combat setting, so 
+the physician must understand how medical supplies 
+(Class VIII) are ordered and how long it takes to receive 
+them. A good starting plan is to arrive with enough 
+supplies to last at least twice as long as the typical 
+logistics chain timeframe without resupply. 
+Preventive Medicine
+Field sanitation and preventive medicine are vital 
+to the health and readiness of the unit. The unit physician oversees unit preventive medicine assets and must 
+ensure that adequate preventive medicine measures 
+are in place. He or she is responsible for maintaining 
+acceptable, approved methods of procuring clean water, adequate hand-washing stations, vector control 
+measures, and latrine and shower facilities, both for 
+enhancing unit morale and, more importantly, for 
+controlling disease rates. Throughout history, unit 
+effectiveness has been harmed more by disease and 
+nonbattle injuries than from conflict-inflicted injuries. 
+It is vital for the unit physician perform this role effectively (see Chapters 16 and 40). 
+Operational and Intelligence Briefings
+The physician must understand what the unit’s 
+objective and mission are and where they will take 
+place. To be effective in a combat environment and 
+thus a force multiplier, the physician must understand 
+the mission to anticipate the medical threats to the 
+unit. Thus, the physician should request operational 
+briefings from the operations section of the unit to 
+develop a proper situational awareness. If possible, 
+the physician should see where the troops are living, 
+especially if they are remotely located. Food safety 
+must be assessed (actually a military public health officer responsibility, but the physician has overlapping 
+responsibilities), as well as water safety, sanitation, and 
+force protection measures such as ensuring warfighters 
+are taking proper precautions to protect themselves 
+from vector-borne illnesses (eg, antimalarials). The 
+physician is responsible for performing these tasks 
+without direction from command. The physician is 
+the subject matter expert and must bring any concerns 
+found during these inspections to the unit commander.
+In addition to receiving briefings from operations, the physician should seek a briefing from the 
+intelligence section for information about the enemy 
+situation. Similar to the operational environment, the 
+intelligence environment and threats must be understood by the physician, at least in broad strokes. For 
+example, understanding how realistic it is for chemical, 
+biological, radiological, nuclear, or explosive (CBRNE) 
+weapons to be used by the enemy will greatly enhance 
+the physician’s preparations for what kind of casualties 
+may be expected. The CBRNE threat is real, and it is 
+better to be prepared for the worst scenario. Intelligence 
+personnel will help the physician increase situational 
+awareness within the confines of security clearances. 
+Time Management
+Although physicians should seek combat training 
+as described in this chapter, their primary duty is to 
+be an outstanding physician. The unit physician must 
+be mindful of impressions (eg, if the physician is out 
+of the clinic too often going to the shooting on the 
+range, it may cause resentment from colleagues who 
+may have to cover clinic duties). The unit physician 
+must learn how to balance personal injury risk from 
+combat training activities, time outside the clinic, and 
+maintaining clinical proficiency to perform the primary 
+task as the unit’s medical expert. During training as 
+well as at deployed locations, the physician should 
+be willing to help load pallets, put blast blankets over 
+windows, help fill sand bags, and perform other unit 
+tasks. In this way other unit members will accept the 
+physician as a team member, working toward the same 
+mission goals. This earned respect will pay dividends 
+by the warfighters who will look out for their physician 
+in ways that cannot be easily articulated. 
+163
+Tactical Field Skills for the Military Physician
+SUMMARY
+To be an effective military physician and a force 
+multiplier by supporting the warfighters in the combat 
+unit, medical officers must take the initiative to learn 
+tactical field skills. It is not enough to be a good physician. Military physicians must know the warfighters 
+and their mission, and they must learn to shoot, move, 
+and communicate effectively. Physicians must balance 
+this training with their primary role as the unit medical 
+officer. During deployment, the physician is ultimately 
+responsible for casualties, and even experienced medics will look to them for guidance and leadership, 
+whether or not the physician has tactical experience. 
+At all times, physicians must prepare for and respond 
+to threats to the unit’s health and readiness. To be 
+most effective, they must employ both medical and 
+tactical training. 
+REFERENCES
+ 
+1. Geneva Convention I, articles 24–26.
+ 
+2. Geneva Convention II, article 36.
+ 
+3. Geneva Convention IV, article 20.
+ 
+4. Congressional Medal of Honor Society. Boone, Joel Thompson. http://www.cmohs.org/recipient-detail/2506/boonejoel-thompson.php#. Accessed May 30, 2017.
+ 
+5. The US Navy Memorial. Joel Thompson Boone. http://navylog.navymemorial.org/boone-joel. Accessed May 30, 2017. 
+ 
+6. Committee on Tactical Combat Casualty Care. PHTLS (Prehospital Trauma Life Support), Military. 8th ed. Burlington, 
+MA: Jones & Bartlett Learning; 2016: 655–850.
+ 
+7. Geneva Convention I, article 22. 
+ 
+8. Peterson A. Why Naval Academy students are learning to sail by the stars in the first time in a decade. Washington 
+Post. https://www.washingtonpost.com/news/the-switch/wp/2016/02/17/why-naval-academy-students-are-learningto-sail-by-the-stars-for-the-first-time-in-a-decade/?utm_term=.ebee5a6caea0. Published February 17, 2016. Accessed 
+August 28, 2018.
+ 
+9. what3words website. https://what3words.com. Accessed August 28, 2018. 
+ 10. Navy Medicine Operational Training Center website. http://www.med.navy.mil/sites/nmotc/numi/Pages/default.
+aspx. Accessed August 28, 2018. 
+164
+Fundamentals of Military Medicine

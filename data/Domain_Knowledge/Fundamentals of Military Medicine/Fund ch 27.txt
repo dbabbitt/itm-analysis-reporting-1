@@ -1,0 +1,714 @@
+393
+Musculoskeletal Injury Prevention 
+Chapter 27
+MUSCULOSKELETAL INJURY 
+PREVENTION
+TIMOTHY C. GRIBBIN, MEd*; KATHRYN BEUTLER, BS†; and SARAH J. de la MOTTE, PhD, MPH‡
+INTRODUCTION
+EPIDEMIOLOGY
+CURRENT MITIGATION PROGRAMS
+SMART Centers
+The Sports Medicine Injury Prevention Program
+Developing Efforts
+RISK FACTORS FOR MUSCULOSKELETAL INJURY
+PREVENTION STRATEGIES
+Training Modifications
+Equipment Modifications
+Functional Assessments
+Movement Training
+Components of Successful Injury Prevention Implementation Plans
+MUSCULOSKELETAL INJURY AND THE MILITARY MEDICAL OFFICER 
+Role of the Military Medical Officer
+Guidance to the Commanding Officer
+SUMMARY
+*Research Associate, Injury Prevention Research Laboratory, Consortium for Health and Military Performance, Department of Military and Emergency 
+Medicine, Uniformed Services University, Bethesda, Maryland
+†Research Assistant, Consortium for Health and Military Performance, Department of Military and Emergency Medicine, Uniformed Services University, 
+Bethesda, Maryland
+‡Assistant Professor and Scientific Director, Injury Prevention Research Laboratory, Consortium for Health and Military Performance, Department of 
+Military and Emergency Medicine, Uniformed Services University, Bethesda, Maryland
+394
+Fundamentals of Military Medicine
+INTRODUCTION 
+Musculoskeletal injury (MSK-I) is the number 
+one cause of lost duty days in the US military, posing a threat to readiness and a financial burden 
+on the fighting force. MSK-Is in military members 
+occur during training, recreational and sporting 
+activities, and occupational duties. 1 Many successful interventions have been implemented to reduce 
+the burden of MSK-I in military communities by 
+focusing on surveillance and education, supportive 
+leadership, and training modifications. This chapter 
+outlines the spectrum of MSK-I issues and discusses 
+recommended steps for future prevention of MSK-I 
+in the US military. Importantly, the unique role of 
+the military medical officer (MMO) to help maintain 
+MSK health is discussed. Terms relating to MSK-1 
+are defined in Table 27-1. 
+EPIDEMIOLOGY
+As the largest health problem for US military service members, whether at home or abroad, MSK-I 
+accounts for over 1. 95 million physician visits each 
+year in the Department of Defense. This is nearly three 
+times higher than the utilization for mental disorders, 
+which is the second most common condition. 2 During 
+deployment, nonbattle MSK-Is are the leading cause of 
+air evacuation from theater, and account for 24% of all 
+evacuations; combat injuries account for only 14% of 
+such missions. 3 Furthermore, MSK-Is are the number 
+one reason for lost duty days and contribute to the 
+largest proportion of service-connected disability in 
+the Department of Veterans Affairs. 4,5 Therefore, MSKIs are a burden not only during active duty, but over 
+the entire lifecycle of service members. 
+The vast majority of MSK-Is in the US military are 
+nonbattle-related injuries, commonly occurring during recreational activity, exercise, training, and occupational events. 2 MSK-Is are also a problem during 
+deployments, where approximately one in six service 
+members will sustain a noncombat MSK-I sufficient 
+to degrade or preclude their subsequent ability to 
+perform mission duties. 3 
+MSK-Is are of particular concern in training environments during the beginning of a service member’s 
+career. Up to 27% of male recruits and 57% of female 
+recruits sustain a training-related MSK-I during 
+Army basic combat training (BCT),6 with similar rates 
+across other service branches. These injuries result in 
+expensive medical care, training delays, and training dropouts, which can cost more than $57,000 per 
+discharged recruit. 7,8 For recruits who graduate BCT 
+after sustaining an MSK-I, many are unable to complete their first term of enlistment. From 2007 to 2012, 
+injuries sustained during BCT accounted for nearly 
+82% of all disability-related medical discharges during 
+recruits’ first year of service. 9
+The most commonly diagnosed nonbattle injuries 
+in both training and deployment are overuse injuries 
+of the lower extremity and lumbar spine. 3,10,11 Lower 
+extremity stress fractures are a common overuse injury 
+during initial basic training; prevalence during this 
+training has been reported to be as high as 6. 9% for 
+males and 21% for females. 12 Basic training injuries 
+cause tremendous force attrition: 25% of male recruits 
+who sustain an injury in basic training will proceed to 
+an early medical discharge. 13
+The burden of MSK-I described above is a driving 
+factor in physical training and has been identified as 
+a top priority for program and policy interventions 
+to reduce injury rates. However, knowing that physical training, during entry-level military training and 
+deployment, is a primary cause of MSK-I does not 
+inform program designers and policy makers as to 
+why service members are being injured at such high 
+rates. Identifying risk factors that predispose to these 
+injuries is critical to successfully implement a strategy 
+to reduce the burden of MSK-I.
+CURRENT MITIGATION PROGRAMS
+SMART Centers
+Traditional MSK-I treatments at military sites often 
+consist of 15- to 20-minute booked appointments at 
+orthopedic or primary care clinics. Such visits have 
+two major drawbacks: (1) primary care providers may 
+not have adequate training in the evaluation of and appropriate referral for MSK-I,14 and (2) providers most 
+likely do not have the requisite expertise to complete 
+an MSK-I evaluation in 15 to 20 minutes, let alone create a comprehensive rehabilitation plan. 
+In 2008, Marine Corps Base Camp Lejeune began 
+implementing Sports Medicine and Reconditioning 
+(SMART) Teams at designated MSK-I clinics to (a) 
+expedite return to work or duty, (b) improve healthcare satisfaction, and (c) reduce attrition of active 
+duty service members. These goals must be achieved 
+through targeted improved MSK-I care access, early 
+395
+Musculoskeletal Injury Prevention 
+TABLE 27-1
+KEY DEFINITIONS 
+Term
+Definition
+Intrinsic risk factor
+Aspects inherent to the individual that may predispose him or her to injury. Intrinsic risk factors 
+may include demographic factors (eg, age, sex, education level, income level, marital status, occupation); anatomical characteristics; and physical fitness factors. 
+Extrinsic risk factor
+Conditions imposed on the individual that may cause injury. Extrinsic risk factors may include 
+running mileage, training techniques, footwear and other equipment, load carried, environmental conditions, and leadership.
+Modifiable risk factor
+An aspect of the individual that is within their ability to change, which may also be considered 
+“intrinsic,” or environmental factors that interface with the individual.
+Overtraining
+The point where an individual experiences a decrease and/or a plateauing in performance due to 
+an imbalance in training load relative to recovery capacity.
+Acute injury
+Injury that occurs at a definitive time point and in response to identified, often traumatic factors 
+(eg, anterior cruciate ligament tear).
+Overuse injury
+Injury that occurs at an imprecise time point and in response to cumulative overload rather than 
+a single inciting event (eg, Achilles tendinopathy).
+Functional movement 
+assessment
+A test or series of tests designed to measure an individual’s ability to perform athletic or workrelated physical tasks, such as squatting, lunging, or balancing on one leg. Functional movement assessments typically value movement quality (correct form) over movement quantity 
+(how many reps or how much weight).
+Dynamic balance
+One’s ability to maintain stability as the body moves through space.
+and accurate MSK-I diagnosis, and aggressive reconditioning. Primary care sports medicine-trained 
+physicians, athletic trainers, and physical therapists 
+provide team-based care in an open-bay configuration 
+at the SMART clinics. This configuration allows for a 
+large number of patients to be seen and lends itself to 
+better-coordinated MSK-I care. An additional benefit 
+is a decreased number of required orthopedic consults 
+through early diagnosis and treatment compared 
+with the traditional model. SMART centers have 
+improved access to care and decreased the numbers 
+of service members referred for physical evaluation 
+boards. 14 
+The Sports Medicine Injury Prevention Program
+Between 1997 and 2001, approximately 1,100 
+Marines per year were discharged from basic training due to MSK-I, with females more than twice as 
+likely as males to have an MSK-I-related discharge. 
+Consequently, a program to address the problem 
+was implemented in Marine Corps basic training, 
+the Sports Medicine Injury Prevention (SMIP) program. First initiated at Parris Island in June 2003, 
+SMIP focuses on MSK-I prevention, assessment, and 
+treatment using athletic trainers integrated into the 
+recruit-training environment at the battalion level. 
+The program has since been added at Marine Corps 
+Recruit Depot San Diego and secondary training level 
+sites as well. 
+Central to SMIP’s success is an initiative that has 
+been integrated into the Marine Corps Physical Training Instructor Course, in which drill instructors (who 
+are pivotal in the physical training sessions during 
+recruit training) are informed about injury prevention 
+during entry-level training. SMIP has capitalized on 
+this effort to become a seamless part of the regular 
+training environment. 
+Developing Efforts
+All services are trying to develop approaches to 
+minimize and mitigate MSK-I. Within the Marine 
+Corps, the Force Fitness Instructor initiative is moving 
+forward. Additionally, the Army has the Master Fitness Trainer program and is piloting a holistic health 
+and fitness program, all of which are aimed at limiting 
+MSK-I. The recommendations for implementation are 
+strong, but the science of best practices requires further 
+review, once programs have been implemented.
+396
+Fundamentals of Military Medicine
+RISK FACTORS FOR MUSCULOSKELETAL INJURY
+Over the past few decades, research has consistently established risk factors such as age, sex, race, 
+previous injury history, and poor cardiovascular fitness for MSK-I (Table 27-2). These risk factors have 
+traditionally been categorized into intrinsic and extrinsic risk factors, as defined in Table 27-1. 6,7,15 Intrinsic 
+risk factors include demographics (eg, age, sex, race/
+ethnicity, genetics); anatomical characteristics (eg, 
+knee alignment and arch height); and physical fitness 
+(eg, cardiorespiratory endurance, muscular strength/
+endurance, and flexibility). Extrinsic risk factors 
+may include running mileage, training techniques, 
+footwear and other equipment, load carried, environmental conditions, and leadership. 16 However, MSK-I 
+prevention strategies for training-related injuries have 
+now begun to focus on whether intrinsic and extrinsic 
+risk factors are “modifiable” or “nonmodifiable.” A 
+modifiable risk factor is one that the individual is able 
+to change, which may also be considered intrinsic 
+factors, or extrinsic factors that interface with the individual. Categorization as modifiable or nonmodifiable 
+allows for identifying specific risk factors amenable 
+TABLE 27-2
+INJURY-ASSOCIATED RISK FACTORS BY CATEGORY
+Category
+Risk Factor
+Modifiable (M) or 
+Nonmodifiable (N)
+Demographic
+Age > 24 years
+N
+Caucasian race
+N
+Female gender
+N
+Previous MSK-I
+N
+Tobacco use
+M
+Anatomical
+Genu valgum
+N
+Q-angle > 15 degrees
+N
+Decreased ankle dorsiflexion
+M
+Rear foot hyperpronation
+M
+Arch extremes (pes cavus, pes planus)
+M
+Physical fitness
+Low levels of physical activity before training
+M
+Low aerobic fitness
+M
+Extremes of flexibility
+M
+Low muscular strength and endurance
+M
+Body mass index and body composition extremes
+M
+MSK-I: musculoskeletal injury
+Data source: de la Motte SJ, Oh R. Successful injury prevention interventions. In: Cameron KL, Owens BD, eds. Musculoskeletal Injuries in the Military. New York, NY: Springer New York; 2016: 267–286.
+to change and where MSK-I prevention efforts can 
+be focused. 17,18 
+Although these risk factors have been consistently 
+established in training settings, most are either not easily modifiable or account for only a small percentage 
+of overall injury risk. For example, smoking status is 
+considered to be modifiable, but it can take over one 
+year for a smoker to physiologically recover from its 
+effects after quitting. 19 Thus, current efforts to determine MSK-I risk and implement prevention strategies 
+have shifted toward readily modifiable risk factors in 
+the short term, such as assessing and correcting an 
+individual’s functional movement patterns or movement strategies used to accomplish a task.
+A person’s movement patterns may be key to injury 
+prevention. Thus, primary prevention (prevention of 
+the first injury) and secondary prevention (prevention 
+of recurrent injury) may include optimizing movement patterns, correcting poor quality movement, and 
+improving dynamic balance. Changing movement 
+patterns is essentially improving “movement quality.” Shifting from a quantity mindset (how many 
+397
+Musculoskeletal Injury Prevention 
+push-ups you can do) to a quality mindset (how can 
+you perform a push-up in a biomechanically optimal 
+way) can be challenging, but is vital for the military 
+setting. 20,21 Programs addressing better neuromuscular 
+control and proprioceptive and agility training have 
+been shown to decrease anterior knee pain, stress 
+fracture, and other lower extremity MSK-I incidence 
+during military training. 7,22,23 
+PREVENTION STRATEGIES
+Most MSK-I prevention strategies focus on modifying the training programs, altering equipment used, 
+applying specific anatomical correction techniques, 
+and assessing movements. These are briefly described 
+below.
+Training Modifications
+Careful monitoring of the training environment 
+can help to decrease MSK-I risk. Excessive running 
+volume during training has long been associated with 
+higher rates of MSK-I in military populations,16,24,25 
+and improper training advancement or “doing too 
+much, too fast” is also a common cause of MSK-I 
+overuse injuries in particular. In basic training, up to 
+80% of lower extremity injuries suffered are overuse 
+injuries, and likely attributed to low levels of baseline 
+fitness among recruits, as well as doing too much too 
+quickly. 1 Because many individuals entering military 
+service have low fitness, graduated and interval training interventions have been implemented to increase 
+baseline levels of fitness and prevent the development 
+of overuse MSK-I. 7,16,22,26 Notably, decreasing running 
+mileage by 40% decreased stress fracture incidence 
+across Marine Corps basic training by more than 
+50%,27 with minimal effects on physical fitness test 
+scores (Table 27-3). 16 The reduction in stress fracture 
+rates from reducing running mileage was estimated 
+to save $4. 5 million in direct medical care costs and 
+nearly 15,000 training days per year. 27 
+In addition to total running volume, exercise frequency and duration serve a vital role in managing 
+MSK-I risk during basic training, and likely during all 
+physical training. Above a certain intensity, frequency, 
+and duration of training, injury rates appear to increase 
+markedly, whereas fitness levels change minimally 
+within a certain training load range. 
+Another approach to reducing MSK-I is to standardize the amount of training mileage at the division 
+level. Results from military training studies strongly 
+support standardizing training mileage, volume, and 
+intensity as an effective way to reduce MSK-I. 28,29 The 
+Army Physical Readiness Training (PRT) program 
+for the 9-week BCT was designed to decrease overall 
+formation running mileage, with a gradual increase 
+in distance running. The PRT program standardized basic training warm-ups and physical training, 
+and incorporated new evidence-based calisthenics, 
+dumbbell drills, movement drills, interval training, 
+and flexibility training with a progressive increase in 
+repetitions and intensity. Compared to the traditional 
+Army BCT physical training program, the PRT group 
+had (a) a higher pass rate on first-time administration 
+of the final Army physical fitness test (APFT), (b) fewer 
+APFT failures, and (c) a 52% and 46% decrease in the 
+overuse injury rate in males and females, respectively, 
+without any deleterious effects on run times. This was 
+despite running 54% fewer formation miles (17. 1 miles 
+compared to 37. 2 miles). Furthermore, a significant 
+decrease in time-loss overuse injuries was noted in the 
+PRT group for both males (65. 8%) and females (68. 5%) 
+relative to the traditional program. 29 The PRT is now an 
+established policy (FM-7-2230) to standardize physical 
+training for all soldiers across the Army.
+TABLE 27-3
+STRESS FRACTURE INCIDENCE BY MILEAGE AND RUN TIME
+Marines (n)
+Total Run Distance (km)
+Stress Fracture Incidence (n/100)
+Final 3-Mile Run Times (min)
+1,136
+89
+3. 7
+20. 3
+1,117
+66
+2. 7
+20. 7
+1,097
+53
+1. 7
+20. 9
+Data source: Shaffer RA. Musculoskeletal injury project. Paper presented at: American College of Sports Medicine 43rd Annual Meeting; 
+May 29–June 1, 1996; Cincinnati, OH.
+398
+Fundamentals of Military Medicine
+EXHIBIT 27-1
+GUIDANCE ON RUNNING SHOE 
+SELECTION
+• Replacing shoes. Buy new shoes every 3 to 6 
+months. After 250 to 500 miles of use, a shoe 
+loses 60% of its shock absorption.
+• Cushioning. Shoes should provide cushioning 
+without excessive motion control.
+• Fit. Allow for plenty of “wiggle room” in the toe 
+box. Above all, the shoe should be comfortable.
+• Flexibility. The shoe should allow the foot to 
+move in its normal motion. To test this, squeeze 
+the shoe from the toe and from the heel simultaneously to bow the sole. Check that that sole 
+of shoe flexes easily.
+• Transitioning. Transitioning from a heel-striking gait in a heavily cushioned shoe to a mid or 
+forefoot strike with a more minimalist shoe is 
+a high-risk situation. Transitions should be undertaken slowly and under expert supervision.
+Equipment Modifications
+Although training modifications can significantly 
+reduce the risk of injury, equipment modifications 
+can also be important. Two approaches include footwear and ankle bracing. Footwear is one of the easiest modifications that can be made. There is limited 
+evidence that selecting running shoes based on arch 
+height decreases injury risk in basic training,31 but 
+some evidence suggests that running shoes lose their 
+shock-absorbing capabilities after 250 to 500 miles. 32 
+Service members should be urged to get new running 
+shoes sooner than the previously recommended 400 
+to 600 miles. 33
+A popular trend in runners is barefoot running or 
+wearing minimalist shoes. The theory for this approach 
+is that the runner’s gait is shorter than when wearing 
+traditional running shoes, which leads to a midfoot or 
+forefoot strike, rather than rear-foot strike. Whereas 
+this should theoretically decrease the impact delivered 
+to the shin, knee, and hips, the best evidence to date 
+suggests that injury rates in barefoot and traditional 
+runners are identical, but occur in different anatomic 
+locations. Barefoot runners typically sustain injuries 
+to the foot, ankle, and calf; heel strike runners suffer 
+injuries to the shin, knee, and hip. 34 
+Importantly, a rapid transition from traditional 
+running shoes to barefoot or minimalist shoes places 
+the runner at an increased risk for injury. 35 Like 
+any new motor skill or physical activity, barefoot/
+minimalist running is a learned skill. Changes in 
+running style require strengthening the supporting 
+musculature, changing flexibility patterns of antagonist musculature, and acquiring and mastering new 
+movement patterns. Any transition in running style 
+or shoe type ought to be gradual and careful, and 
+should optimally occur under qualified supervision 
+to minimize injury risk to the individual warfighter. 
+Exhibit 27-1 provides basic guidance on how to select 
+running shoes.
+Ankle bracing is often done to minimize injuries to 
+the ankle. Ankle sprains in the military occur at a rate of 
+almost 35 sprains per 1,000 person-years at risk, which 
+is five times higher than the rate reported in civilian 
+populations. 36 Thus, ankle bracing, which has been 
+shown to effectively prevent ankle injuries in several 
+well-designed studies (especially in those who have 
+had previous ankle sprains),37–39 is a high priority. In 
+particular, there appears to be a significant benefit to 
+prophylactic bracing to prevent ankle injuries during 
+airborne training and operations, particularly in participants with a history of previous ankle injuries. 1,38 
+Functional Assessments
+Rapid and reliable screening procedures have been 
+developed to screen for movement quality, and such 
+screens have been employed in military environments. 
+These screens include the Functional Movement Screen 
+(FMS), the Landing Error Scoring System (LESS), and 
+the Y-Balance Test. Although movement quality assessed by these screens has been shown to be associated with MSK-I risk in athletic populations, its role in 
+MSK-I risk in military populations is questionable. 40–45 
+A meta-analysis of studies that used the FMS showed 
+the screen to have moderate to good specificity, but 
+poor sensitivity. 46 The poor sensitivity indicates that 
+a large percentage are incorrectly classified as “high 
+risk” for MSK-I, despite these individuals remaining 
+injury-free. Although these functional assessments 
+may not be good tools for injury prediction, their 
+ability to quantify movement quality may nonetheless 
+be important. Movement training to improve quality 
+remains a useful way to mitigate injury risk.
+Movement Training
+Recent efforts to implement neuromuscular training 
+programs in the military are underway. The Dynamic 
+Integrated Movement Enhancement (DIME) program 
+was developed from prospectively identified risk 
+factors for lower extremity injury. 47 DIME exercises 
+require approximately 10 minutes and place a large 
+emphasis on proper movement control and alignment 
+399
+Musculoskeletal Injury Prevention 
+TABLE 27-4
+SEVEN STEPS FOR AN EFFECTIVE INJURY PREVENTIVE TRAINING PROGRAM
+Step
+Details
+1. Establish administrative support.
+Gain the support of leadership, and proactively address concerns. Emphasize 
+that implementing a PTP does not detract from the organization’s mission 
+but reduces overall costs while simultaneously improving performance. 
+Highlight how implementing a PTP measurably increases success evaluations. For example, a well-designed PTP would improve physical fitness 
+as measured by the Army Physical Fitness Test and decrease attrition rates 
+caused by injury.
+2. Develop an interdisciplinary implementation team.
+Involve key stakeholders such as program designers, trainers, athletes, 
+coaches, and healthcare providers to identify and suggest possible solutions 
+for all potential logistical issues that could threaten the long-term implementation of the PTP. Decide on objective criteria for achieving high-fidelity 
+implementation.
+3. Identify logistical barriers and solutions.
+Once barriers are identified, work with the interdisciplinary team to incorporate solutions into the design and strategy.
+Time
+Consider the time of day, duration, and frequency of the PTP as well as any 
+opportunity costs due to lost training time.
+Personnel
+Consider the experience and exercise of leaders and instructors and the baseline movement quality and experience of PTP participants.
+Environment
+Be aware of the location in which the PTP will be performed and the equipment that will be available for use.
+Organization
+Consider the current warm-up (or lack of warm-up) endorsed by the organization, and be sure that the program will further, or at least not impede, the 
+organization’s goals.
+4. Develop an evidence-based PTP.
+Be sure that exercises are evidence-based and solve the injury problems of the 
+organization. Finalize exercises only after working with the administration 
+and team to ensure a relationship of trust, collaboration, and participation. 
+Do not simply propose the adoption of a preexisting set of exercises.
+5. Train the trainers and users.
+Before implementation, train the trainers well so they take ownership of the 
+program, feel comfortable with it, and are skilled in executing it. Provide 
+verbal training on the history, efficacy, and design of the PTP. During 
+hands-on training, ensure that trainers can explain the rationale behind each 
+exercise, as well as perform, critique, modify, and teach each movement. 
+Finally, provide materials to reinforce this information, possibly including a 
+handbook of exercises, online videos, and a worksheet of common errors.
+6. Ensure fidelity control.
+Throughout implementation of the PTP, continue to evaluate the trainers’ 
+ability and the group’s execution. Provide positive feedback and key ways to 
+improve in order to foster relationships and commitment with the organization.
+7. Determine exit strategy.
+Once the criteria identified in step 2 are met, begin scaling back support from 
+daily coaching to weekly coaching and then to sporadic visits. Continue to 
+evaluate and improve the design using feedback from the interdisciplinary 
+team. The goal is to create a sustainable and efficient program with longterm implementation and impact.
+PTP: preventive training program
+Data source: Padua DA, Frank B, Donaldson A, et al. Seven Steps for developing and implementing a preventive training program: lessons 
+learned from JUMP-ACL and beyond. Clin Sports Med. 2014;33:615–632.
+400
+Fundamentals of Military Medicine
+during nine dynamic warm-up exercises. This program reinforces the importance of proper technique 
+and performance of exercises.
+Components of Successful Injury Prevention 
+Implementation Plans
+Military units and medical treatment systems have 
+several advantages over civilian and sporting populations: they are able to implement policy changes in the 
+top-down military structure that result in enforced 
+adoption of new practices. However, this can also be a 
+barrier to adoption and maintenance of such programs 
+from the bottom up. Successful evidence-based injury 
+prevention interventions require extensive coordination between different stakeholders and significant 
+changes in policy to ensure both adoption of the 
+intervention or program and continued refining and 
+monitoring to ensure program efficacy. Common barriers to program implementation, adoption, coordination, and maintenance have been formally described 
+by several successful intervention teams. Table 27-4 
+describes seven steps that can be taken for effective 
+prevention programs. 47–49 
+MUSCULOSKELETAL INJURY AND THE MILITARY MEDICAL OFFICER 
+Role of the Military Medical Officer
+The military medical officer (MMO) is in a unique 
+position to help maintain musculoskeletal health, but 
+he or she has responsibility for the health and wellness of a warfighter unit and must first build trust. 
+The MMO should be engaged in supporting primary 
+and secondary injury prevention, human performance 
+optimization, and enhancement of physical and psychological health. MMOs are expected to provide 
+the highest level of prevention and treatment with 
+respect and compassion. They must also be able to 
+effectively communicate and translate medical and 
+scientific knowledge into actionable plans that support 
+ongoing training activities and military operations. 
+Building trust-based relationships is fundamental to 
+this mission.
+The MMO must keep in mind that physical training should be progressive; it should be graduated 
+in a slow, carefully controlled manner (usually not 
+more than a 10 % increase per week). Also, the MMO 
+should advocate for a 7- to 10-day period where 
+movement quality and progression are emphasized 
+over repetition and quantity. For example, rather 
+than having service members (recruits and others) 
+perform the fastest run time possible and the maximum number of sit-ups or push-ups in 90 seconds, 
+they should be allowed to run and do sit-ups and 
+push-ups at their own pace, always emphasizing 
+proper form. 
+The importance of building strong relationships 
+with both the unit members and the diagnostic and rehabilitative medical community cannot be overstated. 
+The MMO must learn, observe, support, and get buyin from senior enlisted leaders. If the MMO believes 
+in these efforts, others will listen, and MSK-I should 
+decrease markedly. Senior enlisted leaders must learn 
+to view injury prevention exercises as critical to maintaining readiness and becoming more resilient, not as 
+a sign of weakness.
+Guidance to the Commanding Officer
+Despite injury prevention successes, MSK-I remains 
+the largest health problem affecting military troops 
+today. 3 So long as the burden of MSK-I remains high, 
+commanders will have questions for MMOs regarding 
+implementation and adoption of emerging prevention 
+and rehabilitation initiatives. The injury prevention 
+principles described above can form the foundation for 
+command recommendations. The MMO should use 
+those principles, accompanied by current statistics in 
+their units and facts from the literature to frame key 
+recommendations to military line leaders. The key 
+principles noted previously include
+ 
+• training modifications (“more is not always 
+better”);
+ 
+• equipment modifications (new gadgets constantly appear on the market, so demand 
+and rely on comprehensive data rather than 
+testimonials or anecdotes); and
+ 
+• functional movement screening (best for use 
+when developing a treatment program, not 
+for predicting injury).
+If no good data are available, and the commander 
+is determined to use a new device or program, contact Uniformed Services University’s CHAMP Injury 
+Prevention Research Laboratory to help design and 
+conduct a study to evaluate risks and benefits of the 
+proposed device or program. More information about 
+injury and injury prevention can be found at the Human Performance Resource Center (hprc-online.org).
+401
+Musculoskeletal Injury Prevention 
+SUMMARY
+Injury prevention in the military has had numerous successes over the years and has benefitted 
+from lessons learned along the way. Despite these 
+successes, however, risk factors for MSK-I-related 
+discharge from basic training stubbornly persists,50 
+and low entry physical fitness levels are still one 
+of the strongest predictors of MSK-I risk during all 
+forms of training. 28,50,51 MSK-I prevention interventions have primarily focused on specific strategies 
+or systems to address the problem, with policy also 
+aiding efforts. Through the use of secondary prevention and system approaches, successfully preventing 
+MSK-I in the military is a known force multiplier. 
+Prevention of overtraining, utilization of ankle 
+bracing, and targeted neuromuscular training have 
+all proven effective in injury prevention in several 
+military populations. Furthermore, the military’s 
+structure can be advantageous in the implementation 
+of any injury-prevention intervention, but leadership 
+support is still needed for successful integration and 
+long-term results. Finally, for behavioral interventions to be sustainable, strategies to encourage voluntary adoption in the target population will likely 
+be necessary.
+REFERENCES
+ 
+1. Bullock SH, Jones BH, Gilchrist J, Marshall SW. Prevention of physical training-related injuries recommendations for the 
+military and other active populations based on expedited systematic reviews. Am J Prev Med. 2010;38(1 Suppl):S156–181.
+ 
+2. Jones BH, Canham-Chervak M, Canada S, Mitchener TA, Moore S. Medical surveillance of injuries in the U.S. military: 
+descriptive epidemiology and recommendations for improvement. Am J Prev Med. 2010;38(1 Suppl):S42–S60.
+ 
+3. Hauret KG, Taylor BJ, Clemmons NS, Block SR, Jones BH. Frequency and causes of nonbattle injuries air evacuated 
+from operations Iraqi Freedom and Enduring Freedom, U.S. Army, 2001-2006. Am J Prev Med. 2010;38(1 Suppl):S94–107.
+ 
+4. US Department of Veterans Affairs. Veterans Benefits Administration Annual Benefits Report Fiscal Year 2015. Washington, 
+DC: VA; 2016. 
+ 
+5. Armed Forces Health Surveillance Center. Absolute and relative morbidity burdens attributable to various illnesses 
+and injuries, U.S. armed forces, 2014. MSMR. 2015;22(4):27–34.
+ 
+6. Jones BH, Knapik JJ. Physical training and exercise-related injuries. Surveillance, research and injury prevention in 
+military populations. Sports Med. 1999;27(2):111–125.
+ 
+7. Molloy JM, Feltwell DN, Scott SJ, Niebuhr DW. Physical training injuries and interventions for military recruits. Mil 
+Med. 2012;177(5):553–558.
+ 
+8. Niebuhr DW, Scott CT, Powers TE, et al. Assessment of recruit motivation and strength study: preaccession physical 
+fitness assessment predicts early attrition. Mil Med. 2008;173(6):555–562.
+ 
+9. Gubata ME, Boivin MR, Cowan DN, et al. Attrition & Morbidity Data for 2012 Accessions Annual Report 2013. Silver 
+Spring, MD: Accession Medical Standards Analysis & Research Activity, Walter Reed Army Institute of Research; 
+2013.
+ 10. Ruscio BA, Jones BH, Bullock SH, et al. A process to identify military injury prevention priorities based on injury type 
+and limited duty days. Am J Prev Med. 2010;38(1 Suppl):S19–33.
+ 11. Patel AA, Hauret KG, Taylor BJ, Jones BH. Non-battle injuries among U.S. Army soldiers deployed to Afghanistan 
+and Iraq, 2001–2013. J Safety Res. 2017;60:29–34.
+ 12. Jones BH, Thacker SB, Gilchrist J, Kimsey CD Jr, Sosin DM. Prevention of lower extremity stress fractures in athletes 
+and soldiers: a systematic review. Epidemiol Rev. 2002;24(2):228–247.
+ 13. Knapik JJ, Sharp MA, Canham-Chervak M, Hauret K, Patton JF, Jones BH. Risk factors for training-related injuries 
+among men and women in basic combat training. Med Sci Sports Exerc. 2001;33(6):946–954.
+402
+Fundamentals of Military Medicine
+ 14. Brawley S, Fairbanks K, Nguyen W, Blivin S, Frantz E. Sports medicine training room clinic model for the military. 
+Mil Med. 2012;177(2):135–138.
+ 15. Altarac M, Gardner JW, Popovich RM, Potter R, Knapik JJ, Jones BH. Cigarette smoking and exercise-related injuries 
+among young men and women. Am J Prev Med. 2000;18(3 Suppl):96–102.
+ 16. Knapik JJ, Hauret KG, Jones BH. Primary prevention of injuries in initial entry training. In: DeKoning B, ed. Recruit 
+Medicine. Washington, DC: Office of The Surgeon General, Department of the Army, Borden Institute; 2006: 125–146.
+ 17. Bahr R, Holme I. Risk factors for sports injuries—a methodological approach. Br J Sports Med. 2003;37(5):384–392.
+ 18. Cameron KL. Commentary: time for a paradigm shift in conceptualizing risk factors in sports injury research. J Athl 
+Train. 2010;45(1):58–60.
+ 19. World Health Organization. Fact sheet about health benefits of smoking cessation. http://www.who.int/tobacco/
+quitting/en_tfi_quitting_fact_sheet.pdf. Accessed June 13, 2016.
+ 20. de la Motte SJ, Gribbin TC, Lisman P, Beutler AI, Deuster P. The interrelationship of common clinical movement screens: 
+establishing population-specific norms in a large cohort of military applicants. J Athl Train. 2016;51(11):897–904.
+ 21. de la Motte SJ, Lisman P, Sabatino M, Beutler AI, O’Connor FG, Deuster PA. The relationship between functional 
+movement, balance deficits, and previous injury history in deploying marine warfighters. J Strength Cond Res. 
+2016;30(6):1619–1625.
+ 22. Brushoj C, Larsen K, Albrecht-Beste E, Nielsen MB, Loye F, Holmich P. Prevention of overuse injuries by a concurrent exercise program in subjects exposed to an increase in training load: a randomized controlled trial of 1020 army 
+recruits. Am J Sports Med. 2008;36(4):663–670.
+ 23. Coppack RJ, Etherington J, Wills AK. The effects of exercise for the prevention of overuse anterior knee pain: a randomized controlled trial. Am J Sports Med. 2011;39(5):940–948.
+ 24. Jones BH, Cowan DN, Tomlinson JP, Robinson JR, Polly DW, Frykman PN. Epidemiology of injuries associated with 
+physical training among young men in the army. Med Sci Sports Exerc. 1993;25(2):197–203.
+ 25. Jones BH, Cowan DN, Knapik JJ. Exercise, training and injuries. Sports Med. 1994;18(3):202–214.
+ 26. Sherrard J, Lenne M, Cassell E, Stokes M, Ozanne-Smith J. Injury prevention during physical activity in the Australian 
+Defence Force. J Sci Med Sport. 2004;7(1):106–117.
+ 27. Shaffer RA. Musculoskeletal injury project. Paper presented at: American College of Sports Medicine 43rd Annual 
+Meeting; May 29–June 1, 1996; Cincinnati, OH.
+ 28. Trank TV, Ryman DH, Minagawa RY, Trone DW, Shaffer RA. Running mileage, movement mileage, and fitness in 
+male U.S. Navy recruits. Med Sci Sports Exerc. 2001;33(6):1033–1038.
+ 29. Knapik JJ, Hauret KG, Arnold S, et al. Injury and fitness outcomes during implementation of physical readiness training. Int J Sports Med. 2003;24(5):372–381.
+ 30. Department of the Army. Army Physical Readiness Training. Washington, DC: HQDA; 2012. FM 7-22.
+ 31. Knapik JJ, Trone DW, Tchandja J, Jones BH. Injury-reduction effectiveness of prescribing running shoes on the basis 
+of foot arch height: summary of military investigations. J Orthop Sports Phys Ther. 2014;44(10):805–812.
+ 32. Cook SD, Kester MA, Brunet ME. Shock absorption characteristics of running shoes. Am J Sports Med. 1985;13(4):248–253.
+ 33. Teyhen DS, Thomas RM, Roberts CC, et al. Awareness and compliance with recommended running shoe guidelines 
+among U.S. Army soldiers. Mil Med. 2010;175(11):847–854.
+403
+Musculoskeletal Injury Prevention 
+ 34. Daoud AI, Geissler GJ, Wang F, Saretsky J, Daoud YA, Lieberman DE. Foot strike and injury rates in endurance runners: a retrospective study. Med Sci Sports Exerc. 2012;44(7):1325–1334.
+ 35. Cauthon DJ, Langer P, Coniglione TC. Minimalist shoe injuries: three case reports. Foot (Edinb). 2013;23(2-3):100–103.
+ 36. Cameron KL, Owens BD, DeBerardino TM. Incidence of ankle sprains among active-duty members of the United 
+States Armed Services from 1998 through 2006. J Athl Train. 2010;45(1):29–38.
+ 37. Schumacher JT Jr, Creedon JF, Pope RW. The effectiveness of the parachutist ankle brace in reducing ankle injuries in 
+an airborne ranger battalion. Mil Med. 2000;165(12):944–948.
+ 38. Knapik JJ, Spiess A, Swedler DI, Grier TL, Darakjy SS, Jones BH. Systematic review of the parachute ankle brace: injury 
+risk reduction and cost effectiveness. Am J Prev Med. 2010;38(1 Suppl):S182–188.
+ 39. Sitler M, Ryan J, Wheeler B, et al. The efficacy of a semirigid ankle stabilizer to reduce acute ankle injuries in basketball. 
+A randomized clinical study at West Point. Am J Sports Med. 1994;22(4):454–461.
+ 40. Kiesel K, Plisky P, Butler R. Functional movement test scores improve following a standardized off-season intervention program in professional football players. Scand J Med Sci Sports. 2011;21:287–292.
+ 41. Padua DA, Marshall SW, Boling MC, Thigpen CA, Garrett WE Jr, Beutler AI. The Landing Error Scoring System (LESS) 
+is a valid and reliable clinical assessment tool of jump-landing biomechanics: The JUMP-ACL study. Am J Sports Med. 
+2009;37(10):1996–2002.
+ 42. Boling MC, Padua DA, Marshall SW, Guskiewicz K, Pyne S, Beutler A. A prospective investigation of biomechanical 
+risk factors for patellofemoral pain syndrome: the Joint Undertaking to Monitor and Prevent ACL Injury (JUMP-ACL) 
+cohort. Am J Sports Med. 2009;37(11):2108–2116.
+ 43. Shaffer SW, Teyhen DS, Lorenson CL, et al. Y-balance test: a reliability study involving multiple raters. Mil Med. 
+2013;178(11):1264–1270.
+ 44. Teyhen DS, Shaffer SW, Lorenson CL, et al. The Functional Movement Screen: a reliability study. J Orthop Sports Phys 
+Ther. 2012;42(6):530–540.
+ 45. Teyhen DS, Shaffer SW, Lorenson CL, et al. Reliability of lower quarter physical performance measures in healthy 
+service members. US Army Med Dep J. 2011(Jul-Sep):37–49.
+ 46. Dorrel BS, Long T, Shaffer S, Myer GD. Evaluation of the Functional Movement Screen as an injury prediction tool 
+among active adult populations: a systematic review and meta-analysis. Sports Health. 2015;7(6):532–537.
+ 47. Padua DA, Frank B, Donaldson A, et al. Seven Steps for developing and implementing a preventive training program: 
+lessons learned from JUMP-ACL and beyond. Clin Sports Med. 2014;33:615–632.
+ 48. Finch CF. No longer lost in translation: the art and science of sports injury prevention implementation research. Br J 
+Sports Med. 2011;45(16):1253–1257.
+ 49. Donaldson A, Finch CF. Applying implementation science to sports injury prevention. Br J Sports Med. 2013;47(8):473–
+475.
+ 50. Swedler DI, Knapik JJ, Williams KW, Grier TL, Jones BH. Risk factors for medical discharge from United States Army 
+Basic Combat Training. Mil Med. 2011;176(10):1104–1110.
+ 51. Trone DW, Cipriani DJ, Raman R, Wingard DL, Shaffer RA, Macera CA. The association of self-reported measures 
+with poor training outcomes among male and female U.S. Navy recruits. Mil Med. 2013;178(1):43–49.
+ 
+404
+Fundamentals of Military Medicine

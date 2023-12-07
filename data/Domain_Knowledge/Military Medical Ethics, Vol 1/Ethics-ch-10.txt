@@ -1,0 +1,1640 @@
+Physician-Soldier: A Moral Profession
+267
+MILITARY MEDICAL ETHICS
+VOLUME I
+SECTION III: THE SYNTHESIS OF MEDICINE AND THE MILITARY
+Section Editor:
+EDMUND G. HOWE, MD, JD
+Director, Programs in Ethics, Uniformed Services University of the Health Sciences
+Chair, Committee of Department of Defense Ethics Consultants to the Surgeons General
+Robert Benney
+Flashlight Surgery
+Saipan
+Doctors performing brain surgery by flashlight during a blackout necessitated by a Japanese air raid. The austerity of
+the surroundings is evident in the lack of medical equipment and supplies.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+Military Medical Ethics, Volume 1
+268
+Physician-Soldier: A Moral Profession
+269
+Chapter 10
+PHYSICIAN-SOLDIER: A MORAL
+PROFESSION
+WILLIAM MADDEN, MD*; AND BRIAN S. CARTER, MD, FAAP†
+INTRODUCTION
+OVERVIEW: THE PROFESSIONS AND SOCIETY
+THE PROFESSION OF MEDICINE
+Ethics in Medicine
+The Roles of the Physician
+The Goals of Medicine in the Presence of Disease and Death
+THE PROFESSION OF ARMS
+Ethics in the Military
+The Roles of the Military Professional
+The Goals of the Military Professional and the Impact of Violence and
+Destruction
+PROFESSIONAL SIMILARITIES BETWEEN MEDICINE AND THE MILITARY
+THE PHYSICIAN-SOLDIER: PROVIDING MEDICAL CARE AND
+CONSERVING LIVES
+Understanding the Principle of Conservation
+The Evolution of Conservation as Metaphor
+Beyond the Metaphor of Conservation
+CONCLUSION
+*Colonel (Retired), Medical Corps, United States Army; formerly, Commander, Medical Element, Joint Task Force Bravo, Soto Cano Air Force
+Base, Comayagua, Honduras (1989); currently, Associate Professor of Clinical Pediatrics, Department of Pediatrics and Steele Memorial
+Children’s Research Center, College of Medicine, University of Arizona, 1501 North Campbell Avenue, Tucson, Arizona 85724
+†Currently Associate Professor, Department of Pediatrics, Vanderbilt University, A-0126 Medical Center North, Nashville, Tennessee 372322370; formerly, Lieutenant Colonel, Medical Corps, United States Army Reserve, Department of Pediatrics, Walter Reed Army Medical
+Center, Washington, DC 20307
+Military Medical Ethics, Volume 1
+270
+John Wehrle
+Dustoff at Tan Son Nhut
+Vietnam, 1966
+Just as the wounded soldier moves along a pathway from injury, to triage, to care, to recovery, military physicians
+need to travel along their own pathway of understanding themselves as both physician and soldier. Available at:
+http://history.amedd.army.mil/art/vietnam_files/dustofftsn.jpg.
+Art: Courtesy of Army Art Collection, US Army Center of Military History, Washington, DC.
+Physician-Soldier: A Moral Profession
+271
+INTRODUCTION
+litical ends of society by enhancing its military capability. Their actions increase their military’s ability to destroy and kill. By having physicians in the
+military, societies ask, even order, physicians to be
+a part of a system whose means is a direct cause of
+an incomprehensible amount of injury, illness, pain,
+suffering, and death.
+Physicians are made a part of that military system in a very formal way. They are sworn in as
+members of the profession of arms, taking the same
+oath as those who lead in combat. They wear the
+same uniform, have the same rank and title system
+as other soldiers, and are given the privileges
+granted by society to the profession of arms. These
+physician-soldiers also take at least rudimentary
+training in basic military skills and are issued a
+weapon when there is a threat to their well-being.
+Despite being declared “noncombatants” by modern rules of war, members of the medical profession have on occasion both killed and been killed
+during battle. Without question, they are in the
+military. Military medical professionals cannot
+separate themselves from the ends and means of
+that force.
+Thus military physicians are members of two
+different professions that appear, at least on initial
+analysis, to be in conflict. The profession of medicine uses the resources of society to relieve pain and
+suffering and to prevent the early death of members of society. The profession of arms uses the collective efforts of individual members of the society
+to benefit society as a whole by threatening or perpetrating violence, with resultant pain, suffering,
+and death of individuals. Their relationships, obligations, and responsibilities appear to be contradictory, even mutually exclusive. How then can one
+be both physician and soldier?
+Parrish1 believes that a physician cannot be a
+soldier because the two professions have a different set of values. We posit, however, that the values are not that different. How can this difference
+of perception be resolved? It can be done by exploring the essence of the professions. That part of the
+discipline of philosophy that studies values, what
+is right or wrong, good or bad, is called ethics. In
+ethical theory one’s moral world is called ethos.
+Thus, if the question of being both physician and
+soldier is to be explored then it is necessary to explore the ethos of the two professions and see if they
+are in fundamental conflict. If the ethical relationship between the two professions is to be developed, it is necessary to first understand the ethos of
+professions themselves.
+The medical profession is asked by society to
+prevent and treat illness and injury, and the pain
+and suffering that they cause. The professional
+oaths of medicine, from antiquity to modern times,
+have prevented medical professionals from being
+agents of death. Professional, civil, and criminal
+sanctions have also been used historically to prevent members of the medical profession from becoming involved in activities that led to the deaths
+of members of their society. Conversely, the profession of arms is tasked with defending members of
+that society by becoming directly involved in activities that lead to the wounding or death of others. How does a physician become a member of a
+profession that can and will use violence to achieve
+goals? How does one become a physician-soldier?
+Parrish notes that,
+[m]aking doctors into soldiers was difficult, maybe
+impossible, because of the value judgments learned
+in our schooling and in our caring for the ill. Making
+doctors of soldiers would probably be easier…. 1(p9)
+Physicians have “gone to war” for thousands of
+years. This is made necessary by the nature of war.
+The “end” or goal of war is to achieve control over
+others, generally for political advantage. The
+“means” or method of achieving this control is violence; violence that results in the wounding and
+death of many. Weapon systems have been perfected to take maximum advantage of human vulnerabilities, whether those be organic (ways to kill
+or maim) or psychic (ways to traumatize and render troops unable to continue the battle). The circumstances or ecology of war also increase the risk
+of disease. Large numbers of people are brought
+together, providing an increased risk of infectious
+diseases. Inadequate and contaminated food and
+water supplies, the stresses of battle, and poor hygiene, to name just a few, all lead to illness and
+death. Travel to faraway locales results in exposure
+to new types of infections, providing an increased
+risk of both acquiring and dying of diseases. Changes
+in sexual behavior and the opportunity for new
+partners results in increases in the incidence of sexually transmitted disease. Thus, both the weaponry
+and the environment of war bring suffering and
+death.
+When injured, ill, or overwhelmed, a soldier can
+no longer contribute to military victory. By treating the wounded and other casualties, military physicians enhance their military’s ability to wage war.
+Thus, military medical professionals serve the poMilitary Medical Ethics, Volume 1
+272
+OVERVIEW: THE PROFESSIONS AND SOCIETY
+for safeguarding and teaching the religious values
+that help form the moral basis for societies. And,
+finally, members of the military profession secure
+the safety and viability of the society in which all
+professions exist.
+Professions exist to serve society, but such service also requires sacrifice. Benefit to the profession,
+or to its individual members, is a secondary effect
+of the profession’s primary function. In return for
+their special status, members of professions are expected to place the needs of society ahead of their
+personal needs. When professionals fail to remember their special place as servants of society, and
+act primarily to benefit themselves as individuals or
+as a group, then they have broken the implied contract that establishes their privileged place in society’s
+structure. In doing so they threaten their special status as professionals, individually or collectively.
+It can be argued that a secondary role of the professions is to serve as a moral example to the rest of
+society. A professional, by fulfilling this obligation,
+reminds citizens of the necessity for each member
+of society, as a citizen of that society, to dedicate
+some portion of his life’s work to the benefit of society as a whole. Citizens’ lives are enhanced by
+membership in society. If they are to accept the benefits, they are morally bound by justice to accept
+the responsibilities of being a citizen. Professionals, acting out their roles, model this behavior.
+Historically, the collective memberships of the
+professions have also seen themselves as responsible for maintaining the personal moral values of
+their members. Proper interpersonal relationships
+were codified by Percival in the first modern medical code. 3 The Uniform Code of Military Justice allows for charges to be brought against military officers, for example, for “conduct unbecoming an
+officer.”4(Art134) Officers have been removed from
+positions of authority because of their failure to
+uphold moral standards. Thus, by acting out their
+professional lives and living as moral members of
+society, professionals and the professions to which
+they belong help form the moral underpinning of
+the societies that they serve.
+The existence and the role of the professions, then,
+is defined by the service that they are to supply to the
+society. This service defines the corporate responsibility of the profession and its discrete, specialized
+body of knowledge. The client of each profession is
+society either as a collective or its individual members. The ethos of each profession is the values that
+define for the profession and the professionals their
+individual and collective rights and responsibilities.
+Profession: a vocation in which a professed knowledge of some department of learning or science is
+used in its application to the affairs of others or in
+the practice of the art founded upon it; applied especially to the three learned professions; divinity,
+law and medicine, also to the military profession. 2
+Modern societies are complex human organizations that exist to benefit their individual members
+through an intricate sharing of risks and benefits,
+rights and responsibilities. Within societies members take on a variety of roles at the same time and
+various roles over the course of their lifetimes. All
+societies have occupational roles that are set apart
+because of their special qualities. Some of these specialized roles are called professions.
+The term professional means more than just doing something for financial compensation. Huntington described three characteristics of professions
+that separate them from vocations: (1) corporateness,
+(2) expertise, and (3) responsibility. These terms define the essential elements of modern professions.
+Like the societies they serve, the professions are
+complex organizations. The classic professions of
+law, medicine, and religion are fundamental professions and provide examples of the essential professional attributes. Their corporateness allows them
+to provide a specific service, essential to the needs
+of society. The American Bar Association, the American Medical Association, and the hierarchical structures of the various religious denominations are
+simply the most visible portion of the complex organizational systems that define the roles of their
+respective professions and the relationships between each of them.
+Every profession has a unique expertise that both
+defines and empowers it. Professions select, educate, and formally accept candidate members. The
+movement of individuals into the professional subculture is in part a rite of passage, a process by
+which the neophytes learn and accept the unique
+culture of their profession. By having generations
+of professionals go through a similar acculturation
+experience, both the profession and society can be
+assured that those values necessary for the functioning of the profession will be maintained.
+Each profession also has a fundamental responsibility to provide society with an essential service.
+The profession of law manages the legal foundations that guide the interactions between members
+of society. Medicine in its broadest role is responsible for the physical and mental health of society.
+Members of the religious profession are responsible
+Physician-Soldier: A Moral Profession
+273
+THE PROFESSION OF MEDICINE
+But first We must speak of man’s rights. Man has
+the right to live. He has the right to bodily integrity
+and to the means necessary for the proper development of life, particularly food, clothing, shelter,
+medical care, rest, and, finally, the necessary social
+services. 5(¶11)
+The profession of medicine is among the oldest
+of the professions. There is archaeological evidence
+of the practice of the healing arts dating back 30,000
+years. The oldest written records of medical practice are from Egypt, dating back to 3500 BC. The first
+physician known by name was Imhotep, who practiced in about 3000 BC. (The Greeks later deified him
+as the god Asklepios, also referred to as Aesculapius.) The first healthcare system was probably
+in Mesopotamia at the time of King Hammurabi,
+about 2000 BC. It was well enough developed to have
+both a fee schedule and malpractice claims. 6 Physicians have been doing what they do for a long time.
+The profession of medicine is composed of an
+organized group of men and women (corporateness),
+with a common, formalized body of knowledge (expertise), dedicated to a common societal role (responsibility). The profession of medicine seeks to help
+individual citizens, and the society as a whole, to
+achieve the physical and mental well-being necessary to contribute to and partake in the benefits of
+society, benefits whose foundation is the basic values of the society.
+Ethics in Medicine
+Today’s physician does not take a formal oath of
+allegiance to society or to the individual patient,
+although once physicians agree to provide care they
+take on a legal and moral duty to do so. However,
+the profession of medicine in the Western world
+does have a formal code of ethics, dating back to
+the Oath of Hippocrates. According to Veatch7 there
+are two ethical principals that are central to the
+Hippocratic tradition.
+First, the physician is to act to benefit his individual patient. This principle is found in numerous codes throughout history, including the Oath
+of Hippocrates,8 Percival’s code (the first modern
+code written in 18th century England),3 and in both
+the Declaration of Geneva (1948)9 and in the World
+Medical Association’s International Code of Medical Ethics (1964). 10 The Hippocratic tradition calls
+for the use of the resources of society, as directed
+by the medical professional, to be used to benefit
+the individual. It is only in this century that the
+physician’s role to society as a whole has been a
+formal part of the Hippocratic tradition. The 1957
+version of the American Medical Association
+(AMA) Principles states: “The honored ideals of the
+medical profession imply that the responsibilities
+of the physician extend not only to the individual,
+but also to society…”11(p3) However, this has been
+deemphasized in the most current version of the
+code, published in 2001: “A physician shall recognize a responsibility to participate in activities contributing to the improvement of the community and
+the betterment of public health.”12(¶VII) The use of
+the resources of society by the physician to benefit
+the individual remains central to the formally stated
+ethical principles of physicians in the United States.
+The second central ethic of the Hippocratic tradition is paternalism. Physicians are seen as being
+best suited to determine what is in their patient’s
+best interests. Dr. Benjamin Rush, signer of the Declaration of Independence and a proponent of the
+demystification of medicine, argued that physicians
+should “yield to them [patients] in matters of little
+consequence, but maintain an inflexible authority
+over them in matters that are essential to life.”13(p65)
+In an essay entitled “On the Duties of Patients to
+Their Physicians,” he further stated: “The obedience
+of a patient, to the prescriptions of his physician
+should be prompt, strict and universal. He should
+never impose his own inclination or judgment to
+the advice of the physician.”13(p65)
+The current “Principles of Medical Ethics” of the
+AMA calls for the physician to respect the rights
+“of patients, colleagues, and other health professionals…”12(¶IV) It also states that “[a] physician
+shall be dedicated to providing competent medical
+care, with compassion and respect for human
+dignity.”12(¶I) This is clearly less paternalistic, but
+these principles still allow the physician the ultimate decision of what he will or will not do. “A
+physician shall, in the provision of appropriate patient care, except in emergencies, be free to choose
+whom to serve, with whom to associate, and the
+environment in which to provide care.”12(¶VI)
+How physicians act out their roles has evolved
+greatly as a result of the combined effects of a changing understanding of the origin of disease and the
+role of science in providing the clinician with effective therapies. For most of human history medicine
+and surgery as they are known today did not exist.
+Safe and effective surgery was not possible until the
+development of anesthesia in the 1840s and the use
+of antisepsis in the 1850s. Safe and effective medicine is a post–World-War-II phenomenon. Lewis
+Military Medical Ethics, Volume 1
+274
+Thomas, writing about his medical education in the
+1930s, states:
+But the purpose of the curriculum was…to teach
+recognition of disease entities, their classification,
+their signs, symptoms and laboratory manifestations, and how to make an accurate diagnosis. The
+treatment of disease was the most minor part of
+the curriculum, almost left out altogether…. 14(p40)
+The Roles of the Physician
+If the foundation of modern medicine is such a
+new phenomenon, then what was the basis of medical practice for 30,000 years? Historically there are
+three fundamental roles that the physician has occupied: (1) physician as priest, (2) physician as philosopher, and (3) physician as scientist. Which role
+is operative has been determined by the understanding of the patients and their physicians on the
+nature of disease.
+For most of the history of mankind the scientific
+foundation of physical and biological phenomenon
+was not known. Man could neither understand nor
+control the world in which he struggled to survive.
+The forces of nature were seen as the power of the
+“unknown.” Disease was understood to be a sign
+of disharmony with magical or transcendental
+forces. Healing was seen as a manifestation of the
+restoration of a harmonious relationship with the
+supernatural. Death was a consequence of the loss
+of the supernatural or spiritual component of man—
+his soul.
+When the cause of illness is supernatural the clinicians’ ability to influence the course of disease
+depends upon specialized knowledge and relationship with the “unknown.” Knowledge gave
+power—the power to heal. There was no objective
+power, no ability to cure. But there was profound
+subjective power, the ability to help patients see
+themselves as better. This power was derived from,
+and dependent upon, the community’s belief in the
+clinician’s abilities. Belief was the foundation of the
+power to heal.
+With the coming of the ancient Greek civilization there developed the concept that the natural
+world was knowable, and controllable, through the
+natural faculties of man—observation, reflection,
+and reason. The possibility of man being able to
+control his destiny through experience and reason,
+not prayer and sacrifice, was critical in the development of all science, including the science of medicine. Empirical science was born, and with it empirical medicine.
+One must attend in medical practice not primarily
+to plausible theories, but to experience combined
+with reason….Now I approve of theorizing also if
+it lays its foundation in facts and deduces its conclusions in concordance with phenomenon. 15(p154)
+Greek medicine saw disease as resulting from
+disharmony within the patient, or between the patient and the natural world. Writing on epilepsy
+Hippocrates said:
+Men regard its nature and cause as divine from ignorance and wonder. But the brain is the cause of
+this disease, as it is the cause of every other great
+disease. 15(p154)
+Empiricism provided a framework for explaining natural phenomenon within the natural order,
+making it accessible to observation and reason. The
+structure allowed it to be organized and written
+down, and thus it could be taught in a systematic
+fashion. Perhaps most importantly, it established a
+framework that allowed for growth and development of the body of knowledge. Health and disease
+controlled by supernatural forces meant that the
+question of their control could not be approached
+directly. The priest-physician could only heal
+through the power of the “unknown.” The empiricist-physician had the potential of learning to deal
+with the problems of injury and illness directly.
+With the development of the scientific method,
+science moved from subjective observation and reasoning to objective experimentation. Objective science provides the means to understand, diagnose,
+and treat disease. At best the physician-priest and
+the physician-philosopher sought healing, that is,
+subjective improvement. The physician as scientist
+seeks to bring about objective cure.
+Historically, then, physicians have operated in
+different ways—as priest, as empiricist, and as scientist—to meet their professional responsibility of
+healer and ultimately curer in their community.
+Although appearing at first view to be distinct and
+noncomplementary, these various modalities must
+merge if clinicians are to fulfill their role. This
+complementary nature derives from the basic essence of medicine as both a science and an art. As
+scientist, the clinician offers the chance for objective treatment and, hopefully, cure to his patients.
+As an empiricist, the clinician seeks to apply objective therapies to the unique physiology of the patient seeking help. And as priest, the clinician seeks
+to understand the psychological and sociological
+context of the particular patient and how it influences the disease process.
+Physician-Soldier: A Moral Profession
+275
+The Goals of Medicine in the Presence of Disease and Death
+These three modalities of the physician fit well
+the three principal goals of the profession of medicine: (1) prevention whenever possible; (2) curative
+treatment when prevention fails; and (3) healing,
+the relief of pain and suffering, when specific treatment will not benefit the patient. Each of these
+goals—prevention, curing, and healing—can only
+be understood and achieved through the combined
+efforts of the physician and patient. The physician
+acts without effect if he does not act in concert with
+the patient. The patient and physician must work
+together to achieve a common understanding, albeit at different levels, of the nature of the patient’s
+concerns, their cause, and accepted modalities of
+effective prevention, treatment, or amelioration.
+The practice of medicine in its broadest sense includes
+the whole relationship of the physician with his
+patient. It is an art, based to an increasing extent on
+the medical sciences, but comprising much that remains outside the realm of any science. The art of
+medicine and the science of medicine are not antagonistic, but supplementary to each other…. 16(p88)
+From the first clinical encounter the doctor-in-themaking is exposed to human secrets that are not available outside of the profession. The young physician
+first stands at the sidelines and then is drawn into
+the inner circle as his knowledge and skills allow.
+This is the physician’s privilege: to be lifted out of
+the dross of common days in order to experience
+such clarity of feelings. The intensity of birth and
+death, pleasure and sorrow as expressed in the lives
+of others has the power to nullify personal boundaries in sudden communion…. 17(p147)
+The sharing of these experiences results in relationships that may be profoundly important for
+both the patient and the practitioner. The central
+role that relationships have in the practice of medicine is shown by their central place in physician’s
+codes from antiquity to the present. The physician
+is first bound to other members of his or her profession:
+To hold him who has taught me this art as equal to
+my parents and to live my life in partnership with
+him, and if he is in need of money to give him a
+share of mine, and to regard his offspring as equal
+to my brothers in male lineage and to teach them
+this art—if they desire to learn it—without fee and
+covenant. 8(p3)
+The very complexity of modern medicine also
+binds them together. Modern medicine is a corporate exercise. No single healthcare professional is
+capable of doing all that is necessary to provide
+healthcare to an individual patient or to a population. The body of knowledge is too great, and the
+technological skills too many and too varied for one
+physician to master. Science-based medicine demands all the efforts of a community of individuals, seen and unseen, acknowledged and not acknowledged, for success. Physicians are also bound
+to their patients by the experiences that they share:
+What I may see or hear in the course of the treatment or even outside of the treatment in regard to
+the life of men, which on no account one must
+spread abroad, I will keep to myself holding such
+things shameful to be spoken about. 8(p3)
+For some physicians the realities of the medical
+professional’s role forces them to distance themselves forever from those whom they seek to serve.
+For others, there develops a profound sense of their
+role that bonds them ever closer to their patient—
+not as family, not as friend, but as doctor.
+No, for me fulfillment comes from the sudden intimacies with total strangers—those moments when
+the human barrier cracks open to revel what is most
+secret and inarticulate. A word can betray the deepest emotion. A look can reflect a world of feeling. Illness strips away superficiality to reveal reality in
+etched detail. The revelation can fuse together disparate lives in unexpected kinship. Is it the fear of
+death, the dreaded pain, the sorrow, or the loss?17(p148)
+Physicians do not create life, but they are involved with the mother in assuring that the creative
+process is successful. Physicians do not determine
+the quality of their patient’s lives, but they have the
+power to greatly influence that quality, both for the
+good and the bad. Lastly, physicians do not kill, but
+they often directly influence both the timing of
+death and the quality of the dying process. Physicians are granted by their knowledge and professional position the power to influence the living and
+dying of those under their care. Such experiences
+can forever change how physicians see themselves
+and the world in which they live and work.
+The profession of medicine, like the other classic
+professions, exists as a society within the society that
+it serves. Its fundamental role is to provide for the
+healthcare needs of the society. In order to accomplish this it must work both with individual patients
+and members of other professions. Historically, the
+Military Medical Ethics, Volume 1
+276
+strongest bond of the physician is not to the society, but to the individual patient. In general, the
+physician decides how the resources of society will
+be used to advance healthcare of individual patients. The physician takes no oath of obedience to
+higher authority. Except in emergencies the physician is allowed to remove himself from the care of
+a patient should he wish to do so. The physician is
+at some risk from the stress of dealing on a regular
+basis with the issues of birth, injury, illness, and
+death. However, the risks to the physician are minimal compared to those of the professional soldier.
+THE PROFESSION OF ARMS
+Profession is the correct word for the calling of the career officer today…. 18(p147)
+Of the four classic professions—law, medicine,
+ministry, and arms—the profession of arms is the
+youngest. Societies have always competed. Indeed,
+the use of violence to achieve political gains predates recorded history. Throughout history men
+have made war their life’s occupation. In general,
+membership in the ruling classes determined who
+would lead in battle. There was no true profession
+of arms as it is defined here. Mercenary armies were
+organized, fought, and were then disbanded. But
+there was no group of citizens, formally educated
+in warfare, who dedicated their lives to ensuring
+the political security of their respective societies.
+Soldiers for pay existed, but not professional soldiers.
+It was not until the beginning of the 19th century that the profession of arms, as it is known today, came into existence in Western culture. It came
+into being when changes in governments, their
+armies, military technology, and the tactics of war
+combined to make a professional officer corps necessary. War simply became too complicated for
+amateurs. 19
+Ethics in the Military
+In the United States the profession of arms, like
+the profession of medicine, is manifested by a group
+of men and women dedicated to a common purpose (corporateness). Through education and training the profession’s members become skilled in the
+art and science of warfare (expertise). Their goal is
+to provide for the security of their client state and
+to provide it with the means to extend its political
+will through the use of threatened or actual violence
+(responsibility). Their dedication to the service of
+their society is shown by their willingness to sacrifice their lives in order to meet their society’s political-military goals. Their willingness to take on
+this burden is formally expressed in the oath that
+they take (Exhibit 10-1, Figure 10-1).
+In taking this oath, military professionals do not
+swear to defend the physical boundaries of their
+country, although that would surely be required
+were they threatened. Instead they promise to support and defend the Constitution of the United
+States—the body of laws that delineate the legal
+structure and moral values upon which the United
+States is based.
+The Declaration of Independence asserted that
+the signatories, as representatives of many other
+colonists, no longer shared the moral values of the
+British government. It further expressed the fundamental values that would define the new nation.
+The Constitution of the United States (including the
+Bill of Rights, and later amendments to the Constitution) further defined and guaranteed those core
+values. The US Constitution is the formal expression of who Americans are as a nation and what
+EXHIBIT 10-1
+THE OATH OF ENLISTMENT/REENLISTMENT INTO THE ARMED FORCES OF
+THE UNITED STATES (REGULAR AND
+RESERVE COMPONENTS)
+[For swearing officer: Repeat each line, then
+allow applicant(s) to repeat.]
+I, (State your full name)
+Do solemnly swear (or affirm)
+That I will Support and Defend
+The Constitution of the United States
+Against all enemies
+Foreign and domestic;
+That I will bear true faith
+And allegiance to the same;
+And that I will obey
+The orders of the President of the United States
+And the orders of the Officers
+Appointed over me,
+According to regulations
+And the Uniform Code of Military Justice.
+So help me God.
+Physician-Soldier: A Moral Profession
+277
+Americans stand for. By acting to protect and defend the Constitution, members of the United States
+military are acting to protect and defend the fundamental values of their society.
+The requirement for absolute obedience to the
+hierarchy that is expressed in the military oath has,
+at times, been held in disdain in the United States
+because of the limits that it places on individual
+freedom of choice and action. However, such a requirement is essential. The profession of arms has
+at its command sufficient force to destroy what it is
+meant to protect. A military profession that does
+not swear allegiance to lawful civil authority is ultimately more of a threat to, than it is a protector
+of, its society.
+The Roles of the Military Professional
+In practice, the duty of the professional soldier
+to protect his society and its fundamental values
+presents the military professional with specific responsibilities. Huntington, in an essay entitled “The
+Military Mind,” defines three distinct roles for the
+professional soldier as a servant of society. He is to
+be: (1) a counselor to his client government, (2) an
+executor for the military requirements of his nation,
+and (3) the spokesman for the military needs resulting from political decisions. These three roles provide the means by which the military professional
+meets his professional responsibility to society. 20(p37)
+The price to society of incompetence or failure
+in each of these roles is high. If the senior military
+professionals fail to adequately counsel their governments, the very existence of their nations may
+be threatened. As the executor of military plans, the
+professional soldier who fails to adequately train,
+supply, and lead his forces, leads them to failure.
+Their individual lives are wasted and the threat to
+the client nation is increased, not decreased. Lastly,
+as spokesman for the military, the soldier must be
+reasoned in his request for the resources of society.
+If they are overzealous in seeking support for military programs, their country may spend itself into
+political decline. Thus, the military professional
+carries a great responsibility whether he performs
+as counselor, executor, or spokesman in military
+security matters.
+The soldier, unlike any other professional, is expected to risk his physical and mental well-being
+or individual freedom when necessary to achieve
+his society’s political goals. He can be wounded,
+killed, or captured. This requirement is clearly
+spelled out in the following excerpts from the Code
+of Conduct for Members of the Armed Forces of the
+United States:
+I am an American, fighting in the forces which
+guard my country and our way of life. I am prepared to give my life in their defense. 21(Art1)
+I will never surrender of my own free will. If in
+command I will never surrender the members of
+my command while they still have the means to
+resist. 21(Art2)
+The Goals of the Military Professional and the
+Impact of Violence and Destruction
+The risk to the soldier is not just to his physical
+health and well-being. The milieu of the profession
+continues the acculturation process of the professional soldier, and may result in an experience—
+the battlefield—that greatly alters his view of the
+world and his role in it.
+Perhaps it should not be written or said, but the
+battlefield can be a place of frightening beauty and
+fierce love…. No other venture reveals as much
+about the condition we call life, the mystery we call
+death…. 22(pw23)
+Many veterans who are honest with themselves will
+admit, I believe, that the experience of communal
+effort in battle…has been the high point of their
+lives…. Despite the horror, the weariness, the
+Fig. 10-1. “Private Rodrigo Vasquez (left) is sworn into the
+US Army by Major General Dennis Cavin as Vasquez’s parents (center) and Secretary of the Army Thomas White (far
+right) watch during a ceremony in the Pentagon on September 4, 2001. Vasquez’s enlistment was part of a press
+briefing conducted by Cavin and White on the Army meeting its recruiting goals. Cavin is the commanding general,
+US Army Recruiting Command. Department of Defense
+photograph by Helene C. Stikkel.
+Military Medical Ethics, Volume 1
+278
+grime, and the hatred, participation with others in
+the chances of battle had its unforgettable side
+which they would not have wanted to have
+missed…. 23(p44)
+In his volume, The Warriors, Reflections on Men in
+Battle,23 Gray listed three enduring appeals of war:
+(1) the delight in seeing, (2) the delight in comradeship, and (3) the delight in destruction. These attractions are a continuation of the acculturation process
+that is necessary if the professional soldier is to survive and succeed in achieving his government’s
+military-political goals.
+Because of the intense, primordial environment
+in which they exist, the elements of seeing, comradeship, and destruction take on the nature of passions. As passions, they draw men to battle and,
+once they are there, lead men to act in ways not otherwise imaginable. These attractions of war are both
+the means of victory and the seeds of destruction
+for men and armies.
+The passion of seeing is a common experience.
+In seeing the unique all are drawn to the subject.
+There is a desire not only to witness, but to live the
+extraordinary. Through first passively, then actively,
+experiencing the new reality, the new, the extraordinary, becomes the ordinary. Humans are truly
+voyeurs, seeking to journey to a different world.
+In war the experience may be so overwhelming
+that there is a risk that the soldier, sailor, airman,
+or Marine may lose contact with his previous reality. During the Vietnam War, American soldiers
+perceived that the world they were then living in
+was so different that it became totally distinct from
+the world they had left behind. Vietnam was “The
+Nam,” the United States was “The World.” They
+had literally been sent out of the world.
+Over time the soldier moves from being an observer to an active participant in the death and destruction of war. There is a good reason to do this.
+The soldier must do so to survive.
+And just as the bodies had become a part of the
+earth on which they rested, so I had passed during
+the battle from being in the war to being part of
+the war. I was no longer an alien in a strange environment. I could no longer draw a distinction between the war and my presence in it. The preceding weeks had prepared me, but the battle itself
+had caused the final metamorphosis. The war had
+become a part of me and I of it. And though my
+recognition of that fact was unnerving, I knew that
+probably within my transition lay the seeds of my
+ultimate survival…. 24(p92)
+The next attraction of war is perhaps best described in the phrase, “this band of brothers.” Professional soldiers promise to die in defense of their
+society. But in reality men do not die for ideals, they
+die for each other.
+Numberless soldiers have died, more or less willingly,
+not for country or honor or religious faith or any other
+abstract good, but because they realized by fleeing
+their posts and rescuing themselves, they would expose their companions to greater danger…. 23(p40)
+This bonding is integral to any profession, but it is
+perhaps most profound in the profession of arms, and
+within distinct segments of the profession, as a result
+of what the members have experienced together.
+These unspeakable experiences bond professional soldiers together in ways that forever change
+the lives of those who survive. Part of the postwar
+experience for some veterans is a feeling that the
+remainder of their life has less validity because it
+can not match up to the experience or intensity of
+war. The relationships that they developed in combat seem to pale those of civilian life. And the losses
+that they experienced in combat are often beyond
+their ability to share with civilians or to reconcile
+with their own good fortune to have survived. The
+note below, left at the Vietnam Memorial, speaks
+for many of them.
+My dear friends, It is good to touch your names,
+your memory, and to visit with you. I’ve struggled
+in your absence. I’ve been so angry that you left
+me. I miss you so much! I’ve looked for you for so
+long. How angry I was to find you here—though I
+knew you would be. I’ve wished so hard that I
+could have saved you. 25
+Now in their civilian lives, they are no longer
+bound together by life-or-death struggles. Instead
+they live the day-to-day realities, fearing, or perhaps knowing, that what they experienced will
+never be duplicated. Thus men are attracted to war,
+not just by what they see and by what they do, but
+by the relationships that develop when men fight
+and die together. War attracts men by the bonds it
+forms, bonds that are literally worth killing for, and
+dying for. The last attraction is the violence that
+leads to all the killing and dying.
+The professional soldier, utilizing those under his
+command, is the actual means that society uses to
+achieve its political goals through the use, or threatened use, of violence. This capacity to commit violence gives the soldier the potential of taking what
+Physician-Soldier: A Moral Profession
+279
+he wants, when he wants, and how he wants. The
+actual use of violence by soldiers can result in the
+breakdown of other societal limits on behavior. It
+is no longer possible, if it ever was, to limit the violence of war to only that which is necessary to
+achieve the specific military mission, and thus
+achieve the political goals. The emotions that arise
+in battle, and the chaos that is integral to combat, assure that the destruction in warfare will, at times, exceed that which is militarily and politically necessary.
+War is, at its very core, the absence of order; and
+the absence of order leads very easily to the absence of morality, unless the leader can preserve
+each of them in its place…. 24(p62)
+Therefore, the power of violence can destroy
+more than just buildings and bodies. It will distort
+and may destroy the moral limits that normally bind
+behavior. In the beginning the soldier may have
+difficulty accepting the level of violence inherent
+to warfare. As time goes on the soldier undergoes a
+necessary metamorphosis, necessary both for individual survival and military success. Violence becomes a way of life and, in a bizarre way, of creating new life. Violence gives the soldier the ability
+not only to see the world anew, but also to make it
+anew. War is about destruction and creation, the life
+and death of both individuals and societies.
+Ground combat is personal….It is a primordial
+struggle….Emotions flow with an intensity unimaginable to the non-participant: fear, hate, passion, desperation. And then—triumph!….The sense
+of relief is identified as pleasure in being alive, and
+life itself is purchased at the cost of someone else’s
+death. Kill or be killed: the emotional result is pleasure at the sight of the enemy dead. Yes, that must
+be the reason for the sensation—a celebration of
+life…. 24(p159)
+Thus men and women are drawn to the profession of arms both by their desire to serve society
+and by the inherent attractions of the ultimate
+means of the profession—war. War, because of its
+tremendous capacity for destruction of property,
+lives, and values places both those who fight it, and
+the society they fight for, at grave risk.
+This, then, is the ethos of the profession of arms. It
+is a society within a society. It exists to serve society
+by protecting its very foundation, the legal and moral
+framework upon which the society is based. Its means
+is the threat of force or the actual use of force in direct
+support of the political aims of the society. The potential power of the profession is so great that absolute obedience is essential if the society is to be protected from that which is supposed to protect it. As a
+result its members swear absolute obedience to the
+political will of society as expressed by its government. As a consequence they can be ordered to use
+violent force in situations where they may personally
+disagree with the political will of their society. In doing so, military professionals risk capture by the enemy, injury, and death. They may also experience
+events that forever change how they see themselves
+and the world in which they live.
+PROFESSIONAL SIMILARITIES BETWEEN MEDICINE AND THE MILITARY
+Thus far these two professions—medicine and
+the military—have been separately discussed in their
+idealized aspects. Medicine seeks to help individuals
+remain healthy, or to restore them to health, or to
+ease their suffering if they cannot be cured. Societies benefit from having healthy citizens. The military
+seeks to protect its society by dissuading others
+from attacking that society, but if this dissuasion
+fails, then the military is allowed, indeed required,
+to unleash its arsenal of violence to protect its society. These are two very different professions, yet societies, if they are to survive, need both of them, just
+as they need laws and moral direction. The physician-soldier bridges these two professions.
+The similarities between these two professions
+are seen in a number of arenas, as summarized in
+Table 10-1. For instance, to be successful, the physician must operate at a variety of levels in a close
+relationship with his patient. This results in a milieu
+that at its core can attract the neophyte physician
+in the same way that the young military professional is attracted to his milieu—war.
+It is not an accident that many words of clinical
+medicine are the words of war. For instance, a war
+is being waged against cancer, diseases attack the
+body, and the physician aggressively uses everything
+in his armamentarium to claim victory for his patient
+over the disease. “We will defeat cancer in our lifetime,” was a long standing pledge of the American
+Cancer Society. Tumors invade tissue. They are destroyed by radiation or chemotherapy. Antibiotics
+kill bacteria. These are not the words of passive
+exercises. They are the words of battle, a battle that
+can result in the death or debilitation of the patient
+if not successfully fought. This vocabulary is appropriate because for many patients and medical
+Military Medical Ethics, Volume 1
+280
+professionals who help them, the perceived ultimate
+responsibility of the practitioner is to defeat death.
+The role of the medical professional results in
+attractions similar to those of the profession of arms.
+This similarity in attractions occurs because the
+milieu of both professions involve the same significant life events: illness, injury, pain, suffering, and
+death. In dealing with these realities the doctor
+undergoes the same kind of acculturation that the
+professional soldier experiences. The physician is
+transformed by similar experiences; sights that
+transform, relationships that bond, and the experiences of birth and death that can change reality for
+both the patient and the physician. These experiences serve as the foundation of the attraction of
+the profession for many.
+There is one arena in which there are few, if any,
+similarities between the professions. With rare exception, the ethics of the medical profession allow
+the physician to escape his world of injury and illness, pain and death. The medical professional can
+practice when, where, and how he wants, limited
+only by the market forces that exist. He cannot be
+ordered to treat a particular patient, nor can he be
+ordered to practice medicine at all. The military
+professional lacks this autonomy. Having examined
+the two professions separately, and then having
+noted their similarities, it is time to address the central theme of our discussion: Is there, then, a fundamental conflict between the two professions and
+their attendant roles, that is, in being both physician and soldier?
+THE PHYSICIAN-SOLDIER: PROVIDING MEDICAL CARE AND CONSERVING LIVES
+The simplest way to answer our question regarding any fundamental conflict between the professions of medicine and the military is to say that the
+question does not exist. As Huntington put it,
+Individuals, such as doctors, who are not competent
+to manage violence but who are members of the
+officer corps are normally distinguished by special
+titles and insignia and are excluded from positions
+of military command. They belong to the officer
+corps in its capacity as an administrative organization of the state, but not in its capacity as a professional body…26(p28)
+In Huntington’s view physicians in the military are
+not really members of the profession of arms. They
+are not warriors. They only function administratively as soldiers. Military issues are peripheral to
+what they do and what is really important in their
+professional lives. The military ethos is seen as alien
+and irrelevant.
+There is support for this position by “the line,”
+those in the combat arms who are trained to do the
+fighting. Doctors are seen as necessary, but peripheral to the mission. As a class, they are known (with
+some justification) for their less than ideal military
+appearance and relaxed view of military relationships and attitudes. This relaxed view is accepted
+because what the warrior wants to be sure of is that
+the physician is competent as a physician. The soldier facing combat understands that his survival may
+depend upon the medical skills, not the military skills,
+of the physician. So the physician becomes “the Doc,”
+accepted, supported, respected in his own way, but
+clearly not part of the brotherhood of arms.
+This approach also is accepted by the physicians.
+Military physicians see themselves in rather individualistic terms, even within their own profession.
+It was easy for military physicians to see themselves
+as professionally responsible for their military patients and their families without being part of the
+world that surrounded them. What the warriors do
+or train to do is germane only insofar as the influence
+that it has on the illnesses and injuries that result.
+This view of physicians in the military is also
+accepted by the international community. Military
+physicians and those under their direct command
+are accorded a special “noncombatant” status. Under the Geneva Conventions such noncombatants
+may not engage in offensive actions, though they
+may defend themselves and their patients if attacked. If captured they are, at least in theory, not
+prisoners. Their status is that of “detained persons.”
+Under international law, physician-soldiers are not
+quite soldiers.
+But just as the professional soldier who spends
+most of his career preparing to go to war may find
+his attitudes change in the reality of war, members
+of the profession of medicine may be forced by circumstance to act as members of the profession of
+arms. They must take on at least some of the ethos
+of the profession of arms if they are to survive,
+mentally and physically. When this occurs the physicians may be forced to face the question: “Is there
+a conflict being both physician and soldier?” The
+answer is no.
+There is nothing in the ethos of the professions of
+medicine and arms that prohibits an individual
+from being a member of both professions. Both
+Physician-Soldier: A Moral Profession
+281
+serve society by providing society with an essential service. They have different ends, yet the ends
+are certainly compatible, even mutually supportive. Without security neither individuals nor their
+society can benefit from the profession of medicine.
+Conversely, physical and mental health allow citizens to both enjoy the fruits of their society and to
+be better equipped to handle threats to its fundamental values. The existence of both professions is
+essential for the stability and development of society. The amount of resources to be spent on each
+can be argued, but not their fundamental importance.
+When comparing the two ethos it is clearly arguable that the military professional potentially risks
+more for less personal benefit than does his medical professional colleague. Soldiers place themselves at significant personal risks in the acting out
+of their professional role. They can be ordered to
+act out their role even when they disagree with their
+superiors. The success or failure of their professional actions and those under them may have a
+direct impact upon the existence of their society.
+Lastly, the attractions of war, the ultimate milieu of
+their profession, may forever alter their view of
+themselves and the world in ways that may make
+it difficult for them to adjust back to normal life.
+The world is a different place for the medical
+professional. Even in this day of HIV infection,
+medical professionals place themselves at little or
+no risk in carrying out their professional roles. They
+can, except in emergencies, refuse to act out their
+professional role, for any reason, without the risk
+of censure. The effect of the success or failure of
+their professional actions rarely extends beyond
+their patients and their families. Like their military
+colleagues, the stress of their professional roles may
+result in their developing perspectives that place them
+at odds with that of the rest of society. However,
+TABLE 10-1
+COMPARISON OF MILITARY AND MEDICAL PROFESSIONS
+Professional
+Concern
+Profession of Arms
+Profession of Medicine
+Who is the client of
+the profession?
+What is the nature
+of the professional–
+client relationship?
+What are the ends
+of the profession?
+What are the means
+of the profession?
+What are the
+obligations of the
+professional?
+The client of the profession of medicine is the individual patient and, through each patient, society
+as a whole.
+Historically the patient has been subservient to the
+medical professional. However, this relationship is
+evolving into one of shared responsibility and authority. Except in the case of emergency, both patients
+and professionals have had the right to accept, reject, or terminate the professional relationship.
+Neither party has the right to dictate to the other.
+The profession of medicine is only one of many
+social agencies, including individual patients, that
+are responsible for assisting individuals and society in achieving their health goals.
+The means of the profession of medicine are science-based technology and the cooperative relationship between the physician and patient.
+Medical professionals can choose the location and
+nature of their practice and to whom to offer their
+skills. Only in the case of medical emergency are
+medical professionals obligated to offer their services.
+The client of the profession of arms is the
+state.
+The profession of arms is subservient to the
+society. It is directed to fulfill this role by
+the command authority of the government,
+and must respond with absolute obedience
+to any lawful commands.
+The profession of arms is responsible for
+assuring the security needs of the society.
+In the United States its fundamental role
+is the defense of the Constitution, the basic principles upon which American society is based.
+The means of the profession of arms are
+violence and the threat of violence on a
+massive scale.
+Military professionals may be ordered to
+sacrifice their physical and mental health
+or their lives in order to achieve the end of
+the profession. They must obey orders
+specifying how, where, and with whom
+they will meet their obligation. They must
+also give similar orders to their subordinates.
+Military Medical Ethics, Volume 1
+282
+rarely, if ever, does this result in the physician having difficulty living a normal, day-to-day existence.
+If there is a conflict, it resides with the means of
+the two professions. Those of the profession of arms
+are designed to produce pain, suffering, and death,
+or at least threaten those events. The means of the
+profession of medicine are designed to relieve or
+delay such events. Can a physician be part of an
+organization that uses violence or the threat of violence to meet its professional responsibilities? The
+answer is yes.
+Societies, like the individuals that form them,
+have the right to self-defense. Without this right
+neither individuals nor their societies can survive.
+The threatened or actual use of force is morally acceptable if the fundamental structure of the society
+is threatened, either directly or indirectly. The use
+of force, be it by individuals or societies, can be (and
+often is) immoral. But the use of force is not, by its
+nature, immoral.
+The physician, as a citizen, has the same rights
+and obligations to act in the defense of society as
+does any other member of society. The physician,
+by serving his society in time of war as a physician,
+is simply meeting his responsibility to defend his
+society with a special (and greatly needed) expertise. He is not violating his professional responsibility to relieve pain and suffering; rather it is being met in a special way. Being both a physician and
+soldier does not detract from the role of the medical professional; it enhances it. Thus there is no fundamental ethical conflict in being both physician
+and soldier. There is, in fact, a basic principle of
+military action that joins the professions together
+in war. The principle is that of conservation of force.
+This principle is sometimes attacked by those who
+do not understand it as it applies to military medicine. Therefore, it will be explored in some detail
+to answer the concerns and criticisms of those who
+would maintain that one cannot be both a physician and a member of the military profession.
+Understanding the Principle of Conservation
+The physician-soldier is challenged during military operations to “conserve the fighting strength”
+of the combat arms units he supports. To meet the
+obligations of his charge, he must involve himself
+in the training, planning, and execution of his unit’s
+specific mission. But what is this principle of conservation? What does it entail? And is it an applicable principle for the physician-soldier in both
+peace and in war? To better understand the principle of conservation of force, it is necessary to look
+at “operational” conservation and “ecological” conservation. Briefly, “operational” conservation revolves around the conservation of the resources of
+a specific group or unit, directed toward a particular goal, whereas “ecological” conservation looks
+at the entire, perhaps even global, environment.
+“Operational” Conservation
+Conservation of military (fighting) strength is
+fundamental to the success of any given military
+operation. The military commander uses the resources entrusted to him—men and materiel—to
+accomplish the assigned mission. As Patton might
+have put it (albeit more forthrightly), “Son, the idea
+is not for you to die for your country, but for you to
+help the other guy die for his.” In the process of
+“helping” the enemy die for his country, the commander must allocate his manpower appropriately.
+You use them up: they’re matériel. And part of being a good officer is knowing how much of them
+you can use up and still get the job done. 27(p141)
+But soldiers are more than just war materiel. They
+are human beings. They are the sons and daughters, mothers and fathers, husbands and wives of
+the society that has sent them to war.
+Family members of soldiers in your command won’t
+remember if you took “X” hill on “X” day in a battle.
+They will remember if their son came home. 28
+These most precious resources are to be spared
+undue loss or waste. They are to be preserved and
+maintained toward an end that typically exceeds
+the immediate goals of victory in battle and returns
+them to their homes. Surely, the military strategist
+employs the principle of conservation when planning military operations.
+The leaders of a nation’s armed forces must at some
+point in their development of military strategy look
+upon manpower as a finite resource. 29(p16)
+Eikenberry explains that in the operational context, a military commander may choose to emphasize the conservation of his manpower for a number of different reasons29(p16):
+• the uncertain nature of the direction of the
+conflict,
+• a calculated poor probability of success,
+Physician-Soldier: A Moral Profession
+283
+• to bide time while building strength,
+• to avoid engagement and exhaust an enemy, and
+• the commander’s sense of compassion and
+the burden of responsibility he grapples
+with in ordering men into battle, which give
+him pause and a desire to avoid loss.
+Similarly, a physician uses principles of “operational conservation” in his daily practice. Examples
+of this include assessing the body’s physical reserve
+in determining how aggressive one can be in treating
+the disease (for example, not removing 90% of the lung
+to eradicate a disease), holding certain antibiotics “in
+reserve,” assessing likelihood of success, using riskto-benefit ratios to determine treatment modalities,
+scheduling drug “holidays” to provide rest and recuperation, and using compassion for the amount of
+suffering inflicted on the patient (“first do no harm”).
+But beyond the operational context of conserving
+strength, the principle of conservation is finding recognition in another and broader area of note that validates its utility for the physician-soldier, that area
+being “ecological” conservation.
+“Ecological” Conservation
+A major ethical theme of global concern in recent decades has been what to do in order to balance the demands of an expanding world population within a finite and oftentimes fragile natural
+environment. The extent to which environmental
+development has occurred (in the name of sustaining human population growth needs) might well
+be considered exploitative. But when the issue is
+critically analyzed, both sides of the dilemma give
+cogent arguments for thoughtful human action.
+Development of the environment to accommodate
+humans with very real and present needs must be
+balanced with the goals of preserving the environment for the future and protecting it from further
+exploitation. What is required to resolve the differences between parties on either side is an informed
+moral approach. This approach develops from the
+recognition of conservation as being applicable to
+both the developers of the environment and those
+who claim to be its conservators. Ideally such an
+approach would emanate from the grassroots populace, that is, it would make sense to everyone. Pursuit of alternative management approaches that
+mutually involve environmentalists and developers would follow. Both the individual citizen and
+the collective society would be morally cognizant
+and obliged to act upon this principle.
+Kidder notes that “conservation…is part and parcel of our very humanity.”30(p205) Many of the actions
+taken as human beings involved in family, community, and institutional life reflect the consensual
+upholding of the value of conservation. Individuals are encouraged to engage in long-range planning, defer immediate gratification, and employ
+rational foresight to effect a better life now for themselves or for generations to come. 30 Not surprisingly,
+those things that become “part and parcel of our
+very humanity” are very often expressed in metaphors in daily speech, as well as throughout written communications.
+The Evolution of Conservation as Metaphor
+In modern medicine, a number of metaphors
+have been used to frame the discussion of healthcare
+issues among professional staffs, the public, and
+policy makers. Two widely recognized metaphors
+in the United States have been the military metaphor, as previously discussed in this chapter, and
+more recently the market metaphor (healthcare systems market products to consumers, physicians become
+providers, and the goals of medicine are directed
+toward a healthy bottom line). These metaphors, although in certain circles facilitating communication
+and depicting a part of what modern medicine is
+about, are necessarily narrowly focused and incomplete. The military metaphor calls forth a maledominated, hierarchal, and intrusive system that
+may focus on short-term tactical goals rather than
+the whole patient or patient’s sense of wellness
+within a broader community. As Annas notes,
+Military thinking concentrates on the physical, sees
+control as central, and encourages the expenditure
+of massive resources to achieve dominance. 31(p745)
+The market metaphor, Annas goes on to explain,
+is similarly flawed. It portrays the ill (and potentially vulnerable) patient as a consumer fully capable of making a rational decision from myriad
+treatment options, motivated by choice, economy,
+and contractual arrangements despite the prevailing corporate control of the marketplace.
+The market metaphor conceals the inherent imperfections of the market and ignores the public nature of many aspects of medicine. 31(p745)
+A third alternative, espoused by Annas, is the
+“ecologic metaphor.” The language of ecology, inMilitary Medical Ethics, Volume 1
+284
+cluding terms such as conservation, applied to
+healthcare could well influence the way medicine
+is discussed and practiced. This metaphor shifts the
+emphasis away from the individual in isolation and
+views him within the whole of his niche or habitat.
+It requires the recognition of limits, a sense of community, and responsibility for something greater
+than oneself—indeed beyond the immediate
+lifespan of any individual. This metaphor emphasizes prevention and public health measures rather
+than heroic yet wasteful interventions at the end of
+life. In matters of resources and technology it
+would, perhaps, lead to the favoring of “sustainable technology over technology we cannot afford
+to provide to all who could benefit from it…”31(p746)
+These ideas, then, frame the principle of conservation as it might be applied in peacetime and
+battlefield medicine. The physician-soldier is both
+aware of and involved in implementing some of
+these ideas, perhaps unwittingly, in his daily practice of medicine. When called to an operational setting and asked to employ the principle of conservation toward the conservation of fighting strength
+he recognizes his goals as minimizing casualty
+losses, and preserving and maintaining human
+life—the essence of “operational” conservation.
+However, in a more global (or strategic) sense, he
+may redirect his typical efforts aimed at individual
+patient well-being toward more broadly aimed
+goals of preserving the integrity of a military unit.
+But this is not substantially different from viewing
+the individual patient and his well-being within the
+context of a community or larger society.
+Similarly, the military professional must be able
+to view the soldiers in his unit as parts of a greater
+whole and recognize that strategic decisions may
+require their interests to become secondary to societal needs. Once again, the two professions are not
+all that dissimilar in their approach to serving the
+greater good.
+In fact, the soldier-patient in battle is synonymous with the civilian-patient in peacetime. Both
+bring to the patient–physician relationship a need
+for help that directs a specific area of the relationship. The patient brings three needs for help: (1)
+one of the patient to himself, (2) another to the physician, and (3) yet another to society and the environment. The physician, whether in the military or
+not, also enters three relationships: (1) one of responsibility to the sick person, (2) another to fighting
+the disease, and (3) yet another to society. Every
+physician, then, holds obligations to these three
+parties and addresses each toward the ends of
+health and well-being. To the patient he gains understanding and renders care to effect cure when
+possible and relief or comfort always. To the disease he directs his learned attention to gain understanding of its pathogenesis and susceptibility to
+treatment as well as its implications for subsequent
+cases. And to society he is obliged to contain, control, and prevent the effects of disease. He is also
+obliged to undertake research and to develop new
+skills to effect this end, and to contribute to the education of others in his profession of service. 32(p74)
+Physicians, whether military or civilian, have
+always struggled with these roles and the conflicts
+they introduce. Although pure Hippocratic medicine stresses the primacy of the duty of the physician to his individual patient, there have always
+been societal needs that supersede those of the patient, for example, reporting or quarantining communicable diseases. Therefore, this concept is not
+all that foreign to physicians.
+Beyond the Metaphor of Conservation
+In the previous discussion of operational conservation and ecological conservation, needs within the
+context of a group or operation (and needs as they
+affect the ecological balance all around us, now and
+in the future) have been examined. But is there a further step to be taken, to understand how one can be
+both physician and soldier? The answer is yes. “Collective” ethics shows how this can be attained.
+Collective Ethics and Conservation
+In matters beyond the individual patient–physician encounter, such as those involving medical
+practices affecting a group of patients, the physician-soldier is perhaps more cognizant of a need
+for some ethical grounding in what Pellegrino and
+Thomasma have termed institutional or collective
+ethics. 32 It may be at this level that individual physician-soldiers have perceptual concerns over the
+prevailing ethic of the Army in armed conflict—its
+request for conservation of fighting strength—towards what many physicians would view as an
+unmerited end. The individual physician-soldier
+who has not fully embraced the principle of conservation cannot understand how conserving the
+lives of wounded men in battle and contributing to
+the more effective use of manpower in pursuing an
+armed conflict may ultimately allow for the conservation of larger numbers of men. This conservation, whether of his own nation’s military units or
+those of the enemy, may bring to an expeditious end
+the immediate battle or the greater war. Should furPhysician-Soldier: A Moral Profession
+285
+ther ends-based justification be necessary, the conservation of the society and its ideals for which it
+has asked him to serve may also bear merit. The
+physician-soldier, as a professional, may, nonetheless, be confounded by an apparent anomaly. This
+anomaly is that his means of service, healing medicine, has a place amidst all of the killing employed
+by the profession of arms as a means of obtaining a
+greater end for the society they both serve. To be
+sure, there is a need for a collective ethic—a prevailing principle—that allows for this apparent dissonance and validates the coexistence of the two
+professions in the same context (war) and their
+embodiment in the same individual.
+There is, as yet, no fully developed ethical theory
+to define the obligations of a group of individuals
+(the team) making decisions which affect the wellbeing of another person, the patient. 32(p245)
+Physician-soldiers may look to the Army Medical Department (AMEDD) or the Army itself for
+evidence of such a collective ethic or for those values that comprise the ethos of the military surgeon.
+In reality, however, there has been no formal ethical theory specific to military physicians. It is the
+responsibility of the individual physician-soldier to
+reflect on how his personal values relate to being a
+physician in the military in war and peace. In particular, the physician-soldier needs to reflect on the
+concept of conservation of force and his response
+and responsibilities to it. The principle of conservation facilitates this “collective” ethic in the following manner:
+• The wounded soldier is both an individual
+and a member of a larger unit.
+• He was wounded while enacting his role
+with expectations of support and relationships of trust with his command, his comrades, and the healthcare system.
+• When he seeks medical attention, he maintains these expectations of the healthcare
+team as much or more so than he does of
+the individual physician who cares for him.
+• Hence, a collective ethic is in place in which
+moral obligations to the soldier in need are
+incurred by virtue of the fact that any specific individual (eg, physician, nurse,
+physician’s assistant, or medic) is a member of the group (the same greater group,
+in fact, the Army) as the patient.
+The moral decision of an individual healthcare team
+member, then, never occurs in isolation. It should
+occur in concert with a greater, prevailing group
+ethic.
+Further delineation of this idea may be drawn
+by comparing the military healthcare system with
+a civilian community hospital. The community hospital, by its very existence within a community,
+declares its availability of resources and mission to
+serve those in need. Some may come to see their
+private physician, but others need urgent or emergent care that they expect the institution to provide,
+even when they do not have a personal physician.
+The wounded soldier-patient does not have, or seek,
+a personal physician. He has urgent needs. He expects the military healthcare system to meet those
+needs in the same way that the community hospital does. In this way that system acts to assume
+those obligations for care that a personal physician
+would and that are consistent with the expressed
+(declared) purposes of the larger institution (the
+AMEDD motto “to conserve fighting strength”).
+The moral obligations of the physician member
+of this healthcare team are substantially different
+than were he in community or private practice engaging in a personal encounter with his patient.
+These differences are necessarily brought about by
+the austere environment of war, a superseding or
+collective group ethic, and the impersonal level of
+relationship between any team member and the
+patient. These differences, however, do not obviate
+the need for the team as well as the physician to
+live up to their moral obligations, just as the private physician and the community hospital both
+fulfill their obligations to the patient and the society at large. A prevailing, and previously disclosed,
+principle of conservation facilitates the meeting of
+these obligations without undue tension for the
+physician-soldier: The healthcare team is directed
+to meet certain specified needs of the soldier-patient and his greater institution, the Army. It is composed of various professional and paraprofessional
+persons held together by a common purpose—to
+heal the wounded and care for the dying. It operates under the principle of conservation (which is
+at the same time patient-centered, physician-directed, and institution-preserving), meeting the
+needs of the immediate patient, the greater unit (the
+Army), and the institution (society) that has placed
+him in harms way. Collective action, the unifying
+concept of all teams, infers an acting together of
+many individual team members. These actions follow decisions made, in advance and at-the-moment,
+by a dynamic process of team member interaction
+determined to enact a foregone end—in the case of
+battlefield medicine, healing, caring, and ultimately
+Military Medical Ethics, Volume 1
+286
+the conservation of force.
+Acting both individually and collectively, personal skills, expertise, and competence effect the
+desired end. Each team member is responsible for
+his actions. But the team itself “shares in this responsibility since it must assure that these actions
+are well carried out by team members to whom they
+are assigned and whether a particular person
+should have been chosen—or rather, entrusted—
+with the task of carrying it out.”32(p257) Hence, the
+usual moral obligations on the part of the individual
+physician are operative. But so, too, are the potentially complicating moral obligations of the team
+as a team per se. This compels the individual team
+members to not only attend to their own ethics of
+conduct, professional integrity, and action but to
+seek a well-grounded (principled) ethic of team action under which they can reasonably and effectively operate.
+Modern medicine today is practiced across
+healthcare disciplines and through complex and
+intricate relationships among generalists, specialists, institutions, and patients. In its practice, an
+effective “relationship” is wielded between the patient and his physician, a healthcare team, and an
+institution (hospital), all of whom have obligations
+“to provide competent, responsive, and personal
+care and to fulfill that obligation by virtue of the
+competence of those”32(p258) employed. So it is for
+the physician-soldier in battlefield medicine who
+acts out of personal, professional, institutional, and
+moral obligation to render effective care for the
+wounded.
+In order that the principle of conservation be
+employed with reason and result, it must ultimately
+be patient-centered and physician-directed. Military
+units are typically directed collectively to achieve
+their mission, the objective of which is greater than
+the well-being of any single individual. Healthcare
+teams, by contrast, must ultimately act individually toward specific patients. But it is the recognized
+and expected role of the military healthcare team
+to act in this way in order to ultimately “conserve
+the fighting strength.” For conservation to be employed toward the care of the wounded by anyone
+other than a physician, specifically a logistical or
+tactical commander, is to risk the inhumane and
+uncaring utilitarian view, as recounted by one observer, of General George Patton in 1943:
+If you have two wounded soldiers—one with a
+gunshot wound of the lung, and the other with an
+arm or leg blown off, you save the s.o.b. with the
+lung wound and let the g.d.s.o.b. with the amputated arm or leg go to hell. He is no g.d. use to us
+anymore!33(p12)
+It is now time to return to the fundamental question of this chapter: How does being a physiciansoldier as a member of a moral profession employ
+the principle of conservation to effect the militarypolitical imperative?
+Conservation and the New Military-Political
+Imperative
+Conservation of force can be seen as an essential
+component of the new military-political imperative—achieve the mission with the lowest possible
+casualty rate. The individual soldier is viewed as
+the most precious resource held by his command.
+Current social pressures and media attention demand
+that casualty burden be minimized in conflicts today. To employ the principle of conservation in a
+patient-centered sense effects a minimum of casualties. When casualties are inevitably encountered,
+patient-centered physician-directed conservation
+sees to their treatment with optimal results.
+Conservation of force allows for the successful
+completion of the military task that would otherwise not be politically acceptable. It must see to the
+emplacement of all necessary resources with concerted effort and intent to render expedient and efficient care to the wounded and dying. Hence, it
+requires thorough preparation of essential personnel, the readiness of their equipment through preventive maintenance, and the minimization of
+waste. While training for, planning, and executing
+the mission of the AMEDD, the physician-soldier
+acts to conserve the precious resources at his disposal.
+Ethically, the overriding duty of the professional
+is to foresee and forestall the risks to which his superior knowledge makes him privy. 34(p338)
+These three phases of the healthcare team’s activity (training, planning, and execution), directed
+by the physician-soldier and guided by the principle of conservation, in many ways parallel those
+of any successful military operation. 35
+Training. The physician-soldier will become involved in training medical personnel at all levels—
+in effect expanding the reach of the healthcare team
+to the level of the soldiers providing “buddy-aid”
+or acting as combat life-savers. Physician Assistants’
+and skilled corpsmen’s specialized talents are developed only with appropriate training and experience. To allow the greatest conservation of life and
+Physician-Soldier: A Moral Profession
+287
+materiel, these “physician-extenders” need the
+guidance of physicians. Depending upon the size
+of the medical unit, education and training may also
+need to be provided to nurses and junior physicians.
+Planning. As planning is essential to the military
+commander to effect a successful military operation,
+so, too, is it essential for the physician-soldier in
+order to effect his mission—the conservation of
+fighting strength. Successful planning must be continuous in order to adapt to the changing demands
+of any system, in peacetime or battle. Certainly the
+many unknowns and variables that affect the flow
+of battle can test even the best medical treatment
+and evacuation plans. But the plan of health service support for battle serves as the framework—
+the common understanding—upon which all the
+changes are made. Without a vision of what is to
+come and how it will be managed, the physiciansoldier leading the health service support team cannot hope for success.
+In planning for each contingency, the physiciansoldier employs the principle of conservation. His
+preparation, combined with training in preplanned
+responses, allows him to offer to his commander
+the best possible health service support for the military operation, be it a limited engagement or an
+extended conflict. He ensures the minimizing of
+waste, perhaps the most readily apparent application of the principle of conservation. Medical supplies, personnel, or other resources (such as chemical decontamination elements and water) that are
+used for one individual clearly are not available to
+be used for another. Evacuation assets, ground or
+air ambulances, holding area and treatment beds,
+and even in-theater hospital beds are all limited in
+availability and must be effectively managed.
+Evacuation routes may be long and return times
+significant, thereby requiring judicious utilization
+by the sending medical unit. Other complexities that
+demand a mind toward conservation include limited communication, resupply, and maintenance
+capabilities at various echelons of health service
+support. The threat of the health service support
+unit coming under fire will similarly require the
+attention of the physician-soldier who is looking out
+for the patients under his charge as well as the integrity of the medical unit.
+The greatest and most precious resource of the
+US fighting force is the individual soldier. Physician-soldiers and the command must take measures
+that allow the conservation of soldiers’ physical and
+mental health, their lives, and their fighting effectiveness. The most apparent acts of conservation,
+then, would include those things that would avoid
+any wasteful or neglectful expenditure of human
+lives, that is, avoidance of excessive casualty rates.
+The soldier whose life is preserved in battle joins
+others who are, in effect, conserved toward an end
+beyond the present conflict—that of returning home
+to the society that has requested their service. The
+obligation of the physician-soldier is simultaneously to the individual life of the wounded soldier, the unit in which he serves, and the society
+for whom he and the soldier-patient both serve.
+These obligations may, or may not, be apparent
+to all parties involved—the physician-soldier, the
+soldier-patient, the command, and the society. They
+are certainly difficult to meet without the proper
+education, training, and planning. Each party
+should know the role of the other and the end to
+which they exist together. And the recognition of a
+guiding principle—the principle of conservation—
+is necessary. This principle obligates the physiciansoldier toward his patients, his unit, and the greater
+society embodied in the fighting force he is supporting. His capabilities as a clinician, health service support planner, and advisor to unit commanders (knowledgeable in field expedient means of
+mass casualty triage and care, logistics, and utilization of medical intelligence) all must be addressed
+prior to deployment, to allow him to efficiently and
+effectively “conserve fighting strength.”
+The second activity in which the physician-soldier employs the principle of conservation and involves himself during both training and planning
+phases is the preservation of human resources available to the command. Preservation presumes an
+extant integrity, and perhaps this, too, should be
+recognized as a responsibility of the physician-soldier: to see to the physical, mental, and emotional
+readiness of soldiers. The predeployment health of
+soldiers, their participation in regular physical
+training, and mental preparedness all may be
+viewed as activities that can be influenced by physician-soldiers with troops in garrison toward the
+end of preserving an effective (well-fit, well-trained,
+and well-equipped) fighting force. The idea that
+preparedness contributes to readiness for combat
+in such a way as to preserve and conserve fighting
+strength has been summarized in this oft-quoted
+training adage: “The more you sweat in training the
+less you bleed in battle.”
+Finally, the third activity, that of the maintenance
+of resources, both men and materiel, available for
+the provision of health service support to the command, is a responsibility best met by the physiciansoldier. He must allocate scarce resources, see to the
+continuing education and readiness of combat medMilitary Medical Ethics, Volume 1
+288
+ics, and ensure the operational integrity of field
+medical equipment. Although perhaps at odds with
+the typical Western Hippocratic advocacy for the
+individual patient when seeking resources for patient
+care,36 the broader considerations of the physiciansoldier in resource allocation reflect an additional
+commitment to a greater body than the individual
+patient (soldier). That greater body is the military
+unit (be it company, battalion, brigade, division, or
+corps), that is, the “fighting strength.” Indeed failure to recognize and respond to this commitment
+may well jeopardize any and every other activity
+that the physician-soldier in combat would choose
+to pursue on behalf of any individual patient. The
+shift in emphasis from the individual soldier-patient
+to the collective unit (or army) is in keeping with
+the deemphasis (some would argue deletion) of individual autonomy that is part of being a soldier belonging to a uniformed military force. Thus, the
+uniqueness of the individual is lost to the uniformity
+of the whole force. Individual autonomy is sacrificed
+to a larger military unit for the purpose of conducting a military operation that requires unit cohesion
+and singleness of purpose rather than competing
+ideas, plans, and means of execution.
+In these three ways—(1) the minimizing of waste,
+(2) the preservation of life, and (3) the maintenance
+of all resources available to him, both materiel and
+human in nature—the physician-soldier employs
+the principle of conservation. He prepares himself
+and those who work with him in the health service
+support units to effectively execute their mission
+of conserving the fighting strength.
+Execution. Perhaps the most difficult role for the
+physician-soldier to adapt to is the execution of his
+mission in the crucible of battle. It is here that the
+profession of arms and the profession of medicine
+truly are joined. It is here, at first blush, that the
+irony of the former profession’s means demands
+and validates the means of the latter to effect the
+same mutually desired end for a society that both
+serve and represent.
+The execution of a patient-centered and physiciandirected principle of conservation requires an adjustment on the part of many physicians. Although
+not strictly at odds with the goals of medicine and
+the provision of care to patients in a global context,
+the provision of care in a combat environment
+makes demands upon the physician-soldier that are
+strange to him should he be accustomed to practicing medicine in the modern high-tech arena of the
+United States. In combat, the physician must accept
+that chaos is both normal and inevitable. He must
+grapple with the realities of limited resources,
+skewed triage categories, and the rarity of masscasualty scenarios relative to the need for austerity
+in providing a medical response. 37 Indeed, accounts
+of casualty management in previously reported
+conflicts suggest that it is the appropriate stabilization at first echelon facilities by medics, aidmen,
+and corpsmen; scrupulous use of evacuation assets;
+and a rethinking of specific health service support
+unit capabilities that will contribute most to effective conservation of the fighting strength. The
+widely proffered line that the mission of the health
+services support team in military operations is
+solely to return as many soldiers to the front as possible has become outdated. It must be reexamined
+in light of current medical and surgical capabilities,
+societal expectations, and even the realities of morbidity data from recent conflicts. Koehler notes that
+greater than 80% of patients requiring second echelon (eg, surgical) care are not returned to duty, but
+are stabilized, treated, and then evacuated. 38
+The final reality that the physician-soldier must
+deal with, which is often found to be most difficult, is
+the frequency of austere conditions in which he must
+try to enact as much good as possible. Indeed both
+the immediate intervention and expected outcome (eg,
+morbidity and mortality) must often be compromised
+relative to either the standard of peacetime practice
+to which he is accustomed or the changing environment in which he finds himself. The effective level of
+care that he is able to provide may change depending
+upon numerous variables: duration of the conflict,
+supplies, casualty load, exhaustion, or even his own
+unit’s security. 37,39 For example, a well-staffed and
+supplied, relatively sophisticated surgical hospital
+may function almost on par with a civilian community hospital (no austere constraints) early in a conflict. Casualty burden may be low, supplies maintained, and staff well-rested. But given a prolonged
+conflict, increased casualty burden, protracted or congested evacuation chain, and diminishing supplies,
+the level of care may of necessity be diminished. This
+would reflect a change in austerity constraints and
+require a phenomenal adjustment on the part of physicians operating under such circumstances. The capacity to do good and the expected outcome of most
+interventions in such a scenario would obviously
+change. This can be a considerable drain on an individual physician-soldier or his health service support
+unit as a whole. The prevailing principle of conservation, while providing direction toward a desired end,
+cannot obviate the moral angst of such a predicament.
+But should the physician-soldier never have contemplated these possibilities and fully explored the
+application of patient-centered, physician-directed
+Physician-Soldier: A Moral Profession
+289
+conservation; should he never have trained, planned,
+and implemented the health service support mission
+guided by this principle, as broadly addressed here,
+he might well be less equipped to deal with the realities of war and its impact on his capabilities in context. This, then, would be of even greater detriment,
+because the effective and efficient use of the physician-soldier toward every level of obligation (patient,
+unit or team, army or command, and even society)
+would diminish and conservation in every facet fail.
+Executing the mission of health service support
+under the principle of conservation, then, facilitates
+the physician-soldier:
+• dealing with the austere constraints of
+battlefield medicine and surgery that affect
+both his capacity for intervention and his
+expected outcomes;
+• balancing individual patient outcomes with
+unit, and army, mission, and societal expectations;
+• managing a changing resource supply and
+distribution situation amidst conflict;
+• triaging effectively to optimize outcomes; and
+• giving some attention to the potential of
+“caring too much” and expecting too much
+of himself given the context in which he
+operates (a moral balm).
+The physician-soldier employing the principle of
+conservation in the mission of health service support is consistent with its use in the combat arms.
+It is likewise consistent with modern metaphors
+used in ethical analysis, as well as to frame the discussion of certain areas of healthcare. Given the
+collective, or team, nature of health service support
+in providing care for combat arms units that represent the larger institution (the Army), it requires
+attention not only from the individual professional
+(eg, physician-soldier) who must act out of integrity, moral discernment, and courage, but also the
+collective team (health service support unit) and
+larger institution, upon whom it is morally incumbent to disclose its operative philosophy to every constituent (the soldier who may also be a future patient).
+The paradigm of conservation, in which the end
+determinant has been troop (fighting) strength, may
+now need reconsideration as minimal casualty burden and lesser health service support, become both
+an operational concern for smaller units engaged
+in widely dispersed areas of operation and a societal (political) concern for those placing military
+units in harm’s way. Conservation may require a
+greater assessment of overall resource allocation
+(both medical personnel and materiel) and even
+become more individually (patient) focused for the
+physician-soldier. 40
+CONCLUSION
+There is no ethical conflict in being both physician and soldier. The ethos of the two professions
+are not contradictory. In addition to the common
+focus on the conservation of force, the two professions, as professions, place a moral demand upon
+the physician-soldier.
+Professions are separated from society by their
+specialized knowledge and the historical perspective of their professional role in society. The profession of arms, perhaps better than any other group,
+understands the consequences to individuals and
+to society of the use of violence to achieve national
+political goals. The profession of medicine likely
+understands the role of health and the consequences
+of the means to achieve it better than any other
+group. Professions have the historical reference to
+see their role in the context of history, not just in
+the immediate case. This knowledge and historical
+perspective gives to the profession the ability and
+the responsibility to give back to the society its
+unique view of the moral consequences of the goals
+of the profession as set by society. Both as members
+of their society and as professionals, physicians and
+soldiers have the responsibility to engage in the
+debates about what society seeks of those who serve
+it. They must do so within the constraints of their
+professional relationship with society. The profession of arms is not the only profession that must
+act to fulfill Huntington’s view of the professional
+roles as counselor, spokesperson, and executor. As
+Parrish notes,
+[t]he question is, “What good is this war?”…Are the
+consequences of not fighting a war worse than fighting one…The trouble is that the people who decide
+to fight wars know the least about what they are really all about. Somebody has to tell them…Somebody
+has to tell them what this war is all about. 1(p9)
+The question of being both physician and soldier
+ultimately is not a question about the ethos of the
+two professions. Rather the question is about the
+ethos of the society and what the societies can order
+members of the professions to do, be they warriors
+or physicians. The responsibility for answering that
+question falls to both the society and the professionals who serve it.
+Military Medical Ethics, Volume 1
+290
+REFERENCES
+1.
+ Parrish JA. 12, 20, & 5: A Doctor’s Year in Vietnam. New York: Doubleday Publishing; 1972.
+2.
+Simpson JA, Weiner ESC. The Oxford English Dictionary. Vol 12. 2nd ed. Oxford: Oxford University Press; 1989.
+3.
+Percival T. Medical Ethics; or a Code of Institutes and Precepts, Adapted to the Professional Conduct of Physicians and
+Surgeons. Manchester, England: S Russell; 1803.
+4.
+Department of Defense. Uniform Code of Military Justice. Washington, DC: DoD; 2000.
+5.
+Pope John XXIII. Pacem in Terris [papal encyclical]. Rome: The Vatican; 11 April 1963. Available at: http://
+www.vatican.va/holy_father/john_xxiii/encyclicals/documents/hf_j-xxiii_enc_11041963_pacem_en.html.
+Accessed 9 October 2001.
+6.
+Sigerist HE. A History of Medicine. Vol 1. New York: Oxford University Press; 1951.
+7.
+Veatch RM. Medical Ethics. 2nd ed. Boston: Jones & Bartlett Publishers; 1997: 6–8.
+8.
+Edelstein L. The Hippocratic Oath: Text, Translation and Interpretation. In: Bulletin of the History of Medicine, Supplement No. 1. Sigerist HE, ed. Baltimore, Md: The Johns Hopkins Press; 1943.
+9.
+World Medical Association. Declaration of Geneva (1948) Physician’s Oath. Adopted by the General Assembly
+of the World Medical Association, Geneva, Switzerland, September 1948 and amended by the 22nd World
+Medical Assembly, Sydney, Australia, August 1968. Available at: http://www.cirp.org/library/ethics/geneva/.
+Accessed 22 October 2001.
+10.
+World Medical Association. International Code of Medical Ethics. Adopted by the 3rd General Assembly of the
+World Medical Association, London, England, October 1949 and amended by the 22nd World Medical Assembly, Sydney, Australia, August 1968, and then the 35th World Medical Assembly, Venice, Italy, October 1983.
+Available at: http://www.wma.net/e/policy/17-a_e.html. Accessed 22 October 2001.
+11.
+American Medical Association. Principles of Medical Ethics. 1957. Available at: http://www.ama-assn.org/
+ama/upload/mm/369/1957_principles.pdf. Accessed 22 October 2001.
+12.
+American Medical Association. Principles of Medical Ethics, June 2001. Available at: http://www.ama-assn.org/
+ama/pub/category/2512.html. Accessed 9 October 2001.
+13.
+Statement by Dr. Benjamin Rush. In: On the Duties of Patient to Their Physicians. As quoted in: Faden RR,
+Beauchamp TL. A History and Theory of Informed Consent. New York: Oxford Press; 1986.
+14.
+Thomas L. The Newest Science. New York: Bantam Books; 1984.
+15.
+Hippocrates. Precepts. In: Great Books of the Western World. Vol. 10. New York: Encyclopedia Britannica; 1952.
+16.
+Peabody FW. The care of the patient [a monograph]. JAMA. 1927;88(March 19):1–88.
+17.
+Radetsky M. Quoted by: Dan BB, Young RK, eds. A Piece of My Mind. New York: Ballantine Books; 1988.
+18.
+Dyer G. War. New York: Crown; 1985.
+19.
+Jones A. The Art of War in the Western World. New York: Oxford; 1987: 253–255.
+20.
+Huntington SP. The military mind: Conservative realism of the professional military ethic. In: War, Morality and
+the Military Profession. Boulder, Colo: Westview Press; 1986.
+21.
+Code of Conduct for Members of the Armed Forces of the United States. 53 Fed Register 10355 (1988).
+Physician-Soldier: A Moral Profession
+291
+22.
+Norman M. Peace and war. Washington, DC: Washington Post Magazine. 17 February 1991:w21–w23.
+23.
+Gray JG. The Warriors, Reflections on Men in Battle. 2nd ed. New York: Perennial Library; 1970.
+24.
+McDonald JR. Platoon Leader. New York: Bantam Books; 1986.
+25.
+From a letter left on the Vietnam Memorial. Cited in: Palmer L. Shrapnel in the Heart: Letters and Remembrances
+From the Vietnam Veterans Memorial. New York: Random House; 1987.
+26.
+Huntington SP. Officership as a profession. In: War, Morality and the Military Profession. Boulder, Colo: Westview
+Press; 1986.
+27.
+Paul Fussel, infantry officer, World War II. Cited in: Dwyer G. War. New York: Crown; 1985.
+28.
+Richard Pearl, Lieutenant Colonel, United States Army, Cobra gunship pilot, Vietnam. Personal Communication, 3 January 1986.
+29.
+Eikenberry KW. Casualty limitation and military doctrine. Army. February 1995: 16, 18.
+30.
+Kidder RM. How Good People Make Tough Choices. New York; William Morrow & Co, Inc; 1995: 202–207.
+31.
+Annas GJ. Reframing the debate on health care reform by replacing our metaphors. N Engl J Med.
+1995;332(11):744–747.
+32.
+Pellegrino ED, Thomasma DC. A Philosophical Basis of Medical Practice. New York: Oxford University Press;
+1981.
+33.
+Churchill ED. Surgeon to Soldiers. Diary and Records of the Surgical Consultant Allied Force Headquarters, World
+War II. Quoted by: Smith AM. The ethos of the military physician. Pharos. 1993;56(4):11–14.
+34.
+Vastyan EA. Warriors in white: Some questions about the nature and mission of military medicine. Tex Rep Biol
+Med. 1974;32(1):327–342.
+35.
+Carter BS. The military physician and conservation of force. Mil Med. 1993;158(6):374–375.
+36.
+Levinsky NG. The doctor’s master. N Engl J Med. 1984;311(24):1573–1575.
+37.
+Dressler DP, Hozid JL. Austere military medical care: A graded response. Mil Med. 1994;159(3):196–201.
+38.
+Koehler RH, Smith RS, Bacaner T. Triage of American combat casualties: The need for change. Mil Med.
+1994;159(8):541–547.
+39.
+Smith AM. The ethos of the military physician. Pharos. 1993;56(4):11–14.
+40.
+Jeffer EK. Medical triage in the post-Cold War era. Mil Med. 1994;159(5):389–391.
+Military Medical Ethics, Volume 1
+292

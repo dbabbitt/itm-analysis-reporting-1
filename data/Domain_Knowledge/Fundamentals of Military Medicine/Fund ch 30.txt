@@ -1,0 +1,838 @@
+431
+Medical Readiness
+Chapter 30
+MEDICAL READINESS
+CHRISTOPHER W. BUNT, MD,* and BONNIE SANCHEZ†
+INTRODUCTION
+ROLE OF THE MILITARY MEDICAL OFFICER
+Predeployment
+Deployment
+Postdeployment 
+GUIDANCE TO THE COMMANDING OFFICER
+SUMMARY
+*Lieutenant Colonel, US Air Force Reserves, Medical Corps; Associate Professor, Department of Family Medicine, Medical University of South Carolina, 
+Charleston, South Carolina
+†Senior Master Sergeant, US Air Force; Air Force District of Washington Functional Manager, Malcolm Grow Medical Clinics and Surgery Center, 
+Joint Base Andrews, Maryland
+432
+Fundamentals of Military Medicine
+INTRODUCTION
+Medical readiness involves a series of assessments 
+to ensure that uniformed service members (USMs) are 
+free of health-related conditions that endanger others 
+or limit their ability to achieve their assigned mission. 
+Medical readiness also refers to the ability of medical 
+units in each service to prepare their medical personnel to provide healthcare to military members at home 
+and abroad. The role of the military medical officer 
+(MMO) is to both support and advise the commanding 
+officer (CO). While the CO is ultimately responsible 
+for military and medical readiness accountability, it 
+is the MMO’s duty to lead the team that will screen, 
+evaluate, and treat members as needed per mission 
+requirements and the CO’s directives. This chapter 
+will examine the physical conditions and procedures 
+essential to medical readiness for the USM. 
+In 2008, the Institute for Healthcare Improvement 
+introduced three critical objectives in healthcare 
+provision. Labeled the “Triple Aim,” the three objectives are (1) better health, (2) better patient care, and 
+(3) lower costs. 1,2 In 2009, the Department of Defense 
+(DoD) added a fourth objective, medical readiness, 
+and renamed the concept the “Quadruple Aim.”3 
+DoD healthcare directives and instructions now must 
+always consider their impact on the Quadruple Aim. 
+Medical readiness is an essential component in the 
+preparation of the USM for deployment. In general, 
+the deployed environment is more taxing to the individual USM and does not have the same medical 
+capabilities as the continental United States (CONUS). 
+This chapter is divided into sections focusing on the 
+aspects of medical readiness that are handled before, 
+during, and after deployment. The term “deployment” 
+encompasses contingency deployments in support 
+of military operations (eg, Operation Enduring Freedom); overseas assignments (outside CONUS); and 
+military operations other than war (eg, humanitarian 
+missions). Multiple areas of readiness overlap, and 
+this chapter presents a framework to assist with information retention. While every aspect of a medical 
+encounter can be essential for the USM’s readiness, 
+this chapter’s focus will be on the military-unique 
+readiness items. Exhibit 30-1 provides a quick reference checklist for the MMO.
+EXHIBIT 30-1
+MILITARY MEDICAL OFFICER QUICK 
+REFERENCE MEDICAL FITNESS CHECKLIST 
+ 
+• Periodic health assessment (PHA) 
+ 
+• Disease surveillance (laboratory testing, eg, 
+HIV, TB)
+ 
+• Routine immunizations
+ 
+• Chemoprophylaxis (eg, anti-malarials)
+ 
+• Dental readiness
+ 
+• Vision readiness
+ 
+• Hearing readiness
+ 
+• Baseline neurocognitive assessment (eg, 
+ANAM) 
+ANAM: Automated Neuropsychological Assessment Metrics
+HIV: human immunodeficiency virus
+TB: tuberculosis
+Adapted from: O’Connor FG, Deuster PA, DeGroot DW, 
+White DW. Medical and environmental fitness. Mil Med. 
+2010;175(8:57):57-64.
+ROLE OF THE MILITARY MEDICAL OFFICER
+Predeployment
+Predeployment includes the period of time from the 
+USM’s entry into military service up through their first 
+deployment. By definition, this period overlaps with 
+the postdeployment period leading up to the USM’s 
+second and subsequent deployments. Reviewing the 
+USM’s medical history and medical record is the first 
+step in determining their individual medical readiness. 
+From this initial review, recommendations are made 
+about next steps, including prevention, evaluation, 
+and treatment.
+Prevention
+The first step in ensuring optimal health for all 
+USMs is preventing illness and disability. Prevention is divided into four discrete areas: (1) screening, 
+(2) immunizations, (3) behavioral modifications, 
+and (4) chemoprophylaxis (prophylactic use of 
+medications to prevent illness). Table 30-1 provides 
+examples of each. Of these areas, immunizations 
+and chemoprophylaxis are currently the most 
+evidence-based. 4
+Screening. Screening is the most comprehensive 
+of the four areas of prevention, and includes mental 
+health history, neuropsychological testing, disease 
+surveillance, dental examinations, annual preventive 
+health assessments (PHAs), and occupation-specific 
+examinations (eg, for aviators).
+433
+Medical Readiness
+TABLE 30-1 
+PREDEPLOYMENT PREVENTION 
+Form of Prevention
+Examples
+Screening
+Mental health history: Patient Health Questionnaire-2 (PHQ-2)
+Neuropsychological testing, eg, baseline TBI screens: Automated Neuropsychological Assessment Metrics (ANAM)
+Disease Surveillance, eg, laboratory testing: USPSTF recommendations, HIV, cholesterol, 
+cancer screening (colon, cervical)
+Dental examinations: at least annual exams and subsequent classification assigned (1–4)
+Preventive Health Assessments (PHA): at least annually.
+Occupation-specific examinations: aviators, Personnel Reliability Program (nuclear weapons 
+handling and support), Presidential Support Program 
+Immunizations
+CDC-required and recommended immunizations (http://www.cdc.gov/vaccines/schedules/)
+Host-nation-specific immunizations, eg, yellow fever for Far East countries
+Behavioral modifications
+Substance use/abuse evaluation
+Exercise habits
+Dietary practices
+Medical therapy compliance
+Chemoprophylaxis
+Anti-malarials
+CDC: Centers for Disease Control and Prevention; HIV: human immunodeficiency virus; TBI: traumatic brain injury; USPSTF: US Preventive Services Task Force
+Mental health history and testing is done during 
+the annual PHA and subsequently with each medical 
+encounter. Given potential impacts on the mission, 
+depression screening is done at the beginning of each 
+encounter. The most frequently used “first-step” method for screening for depression is the Patient Health 
+Questionnaire-2 (PHQ-2). 5 This survey instrument asks 
+the USM to quantify his or her level of (1) anhedonia 
+(lack of interest in activities) and (2) depressed mood 
+over the most recent 2 weeks. Each question is graded 
+on a 4-point Likert scale, with 0 equal to “not at all” and 
+3 corresponding to “nearly every day.” Those patients 
+who have a two question-combined answer score of 3 
+or higher are referred for additional evaluation. 5 
+It is extremely important to detect and treat traumatic brain injury (TBI), including mild-TBI (concussions), 
+yet these injuries remain hard to detect. Screening 
+USMs for TBI involves baseline testing of neurological status during predeployment, and then follow-up 
+testing after actual or possible TBI events. Baseline 
+and post-event testing in the military are performed 
+using tools such as the Automated Neuropsychological Assessment Metrics (ANAM). 6,7 Another option for 
+testing at the point of care (in the field or clinic) after 
+an event is the Military Acute Concussion Evaluation 
+(MACE). 8
+Disease surveillance, including laboratory testing, 
+is most often based on service-specific regulations 
+and DoD instructions. 4 These regulations, in turn, 
+are often based on the recommendations of the US 
+Preventive Services Task Force (USPSTF). The USPSTF 
+makes recommendations after an exhaustive objective 
+review of all available evidence about a diagnostic test, 
+therapeutic procedure, or other treatment. Its recommendation statements fall into one of three categories: 
+recommended, uncertain, or not recommended. 9 
+Other disease surveillance testing currently in place 
+for USMs includes human immunodeficiency virus 
+(HIV), which is recommended every 18 to 24 months 
+in the DoD, and non-fasting lipids (cholesterol), recommended every 5 years. 
+Disease surveillance screening is not limited to laboratory studies, however. Cancer screening is another 
+aspect of prevention, and can include laboratory testing (for cervical and colon cancer) as well as imaging 
+(for breast and colon cancer) or other procedures (for 
+colon cancer). Current recommendations for cervical 
+cancer screening in average-risk women include a 
+cervical Papanicolaou (pap) smear every 3 years in 
+females ages 21 to 29, and either a pap smear every 
+3 years or a high-risk human papillomavirus (HPV) 
+test every 5 years in females ages 30 to 65. The cur434
+Fundamentals of Military Medicine
+rent recommendation for breast cancer screening is 
+that average risk women (those without a first-degree 
+relative family history of breast/ovarian cancer) should 
+be screened with mammography every 2 years starting 
+at age 50. Colon cancer screening recommendations 
+include options for fecal occult blood testing (a laboratory study), computed tomography colonography 
+(radiographic imaging), or colonoscopy (a procedure). 
+The frequency for these tests vary with risk level, findings, age, and ethnicity. 9
+Dental readiness is a key component of medical 
+readiness. All USMs need at least annual dental visits 
+that include an exam and cleaning, and consequently 
+they are grouped into four dental classes: those in 
+class 1 do not require dental treatment for 12 months; 
+those in class 2 require treatment within 12 months; 
+those in class 3 require immediate treatment to avoid 
+a dental emergency; and those in class 4 have not had 
+a dental exam in the past 13 months. Classes 2 through 
+4 require limited mobility and duties due to urgency 
+or gravity of the dental situation, and make the USM 
+not medically ready. 
+The annual PHA is a required screening medical 
+encounter for all USMs. All services rely on the member to report concerns in a pre-encounter survey and 
+the provider to review the member’s responses, previous encounters, and medical record. Screening items 
+include routine vital signs, visual acuity, and memberreported mental and physical health concerns. This is 
+often the only opportunity for the majority of USMs 
+to update their information, specifically capturing 
+any medical encounters from the civilian sector (the 
+military’s electronic medical record does not currently 
+communicate with the civilian side) and new changes 
+to their health. For specific USMs (eg, aviators, age > 
+50) hearing screening may also be done during or in 
+association with the PHA. 4
+Some DoD units have additional requirements 
+for medical readiness. These units include aviation 
+(each medical decision or recommendation must be 
+reviewed and approved by a flight surgeon prior to 
+approving flight status) and those involved in the 
+Presidential Support Program (PSP) and the Personnel 
+Reliability Program (PRP). PSP personnel support the 
+US president and presidential activities. PRP personnel either support activities involving or directly work 
+with nuclear weapons. Given the high stakes involved 
+with these activities, the healthcare of these personnel 
+is monitored closely, with each medical interaction 
+and decision requiring review and evaluation by the 
+PSP/PRP medical team prior to the USM’s return to 
+full duties. 10 
+Immunizations. While immunizations protect the 
+individuals who receive them, immunizations also 
+provide “herd” or community immunity, whereby 
+community members who cannot receive a vaccine 
+(infants, pregnant women, immunocompromised 
+individuals) are still protected from a contagious 
+disease outbreak because critical members are immunized. 11 Immunizations are one of the most significant medical breakthroughs in history, and have 
+helped the developed world eradicate contagious 
+diseases such as polio. The DoD requires all vaccinations recommended by the Centers for Disease 
+Control and Prevention (CDC) for each USM. 12 All 
+of the current recommended immunizations can be 
+found on the CDC website (http://www.cdc.gov/
+vaccines/schedules/). MMOs should be familiar 
+with the various databases used by the DoD to track 
+USMs’ immunizations status (see Data Management, below). 
+Behavioral modification. One of the most important aspects of prevention involves behavior change. 
+Areas of behavior that should be addressed include 
+substance use or abuse (tobacco and alcohol most commonly), poor diet, poor exercise habits, and medical 
+therapy noncompliance. Changing these behaviors 
+by assessing the patient’s willingness to change and 
+then moving forward with specific, achievable goals 
+is a powerful tool that can improve health and medical readiness for that individual and the military unit. 
+Motivational interviewing is an effective technique that 
+MMOs can use in behavior change counseling. This is 
+a collaborative effort (usually initiated as a conversation) between the patient and provider to facilitate 
+behavior change. 13 
+Chemoprophylaxis. Prophylactic use of certain 
+medications can also provide protection against illness and disability. For instance, pregnant USMs 
+will receive prophylactic antibiotics during labor 
+and delivery when they test positive for Group Beta 
+Streptococcus (GBS). The most commonly used chemoprophylaxis method in the USM is anti-malarials. 
+Other examples include taking aspirin for primary 
+prevention of cardiovascular disease (CVD) and colon 
+cancer in adults 50 to 59 with a greater than 10% 10year CVD risk. 
+Evaluation
+If the screening process, or a USM, raises a concern, 
+further evaluation is required. Evaluation can include a 
+focused history, physical examination, and diagnostic 
+testing (laboratory and radiologic imaging). It may 
+also involve referral from a primary care provider to 
+a secondary care (specialist or subspecialist) provider. 
+The MMO must work efficiently and effectively to 
+evaluate any complaint or issue, with a keen focus on 
+patient safety and health while minimizing mission 
+disruptions.
+435
+Medical Readiness
+TABLE 30-2
+SERVICE-SPECIFIC PROFILING BASICS 
+Army
+Temporary or “T” 
+• Definite endpoint with expectation of improving 
+or resolving condition
+• May complete “diagnostic” APFT but no recorded 
+APFT
+• If for less than 7 days, is entered on a “sick call 
+slip,” form DD689 
+• If more than 7 days, entered as e-Profile into 
+MEDPROS as a DLC
+• Does not lead directly to an MEB
+• Recurrent T profiles may warrant a formal FFRE 
+which may lead to MEB
+Permanent or “P”
+• Indefinite endpoint, with no expectation of 
+improvement or resolution to RTD or 1 year has 
+elapsed from date of injury/disease
+• Indicated when soldier has met MRDP for at least 
+one condition
+• Alternate APFT is authorized when any APFT 
+event is medically contraindicated or unsafe
+• Requires approval authority
+• If PULHES 3 or 4, referral to MEB is mandatory
+Navy
+Temporary Limited Duty (TLD)
+• Appropriate for sailors who will likely return to 
+an unrestricted duty status
+• If expected RTD is <30 days, use light duty form, 
+NAVMED 6310-1; may be extended in 30-day 
+increments, max 90 days
+• If expected RTD is > 90 days, documented on 
+LIMDU form, NAVMED 6100/5, and authorize in 
+6-month increments (12-month max)
+• Enlisted: MTF convening authority may authorize 
+up to 12 months of TLD; additional TLD must be 
+approved by Navy Personnel Command (PERS82)
+• Officers: TLD requests must be approved by 
+PERS-82
+• Members referred to PEB for disability adjudication are placed on TLD pending PEB outcome
+Permanent Limited Duty (PLD)
+• Allows USMs to continue on active duty in a limited assignment when there is a need for their skill 
+or experience
+• Each case individually considered, member’s 
+length of service is not controlling factor in PLD 
+decisions
+• Through referral to PEB process and processed on 
+NAVMED form 6100/5
+• Upon USM’s request, PERS-82 may retain an “unfit 
+to continue naval service” member in a PLD status 
+when the retention is in the best interest of the 
+service and consistent with guidance in paragraph 
+6003 of SECNAVINST 1850. 4E
+• PLD will not be approved when retention in PLD 
+status would jeopardize USM’s or other’s health or 
+safety
+Air Force
+Duty-Limiting Condition (DLC)
+• Definite endpoint, resolution expected in 31–365 
+days
+• Completed on AF Form 469 in ASIMS
+• 469 must define duty restrictions including what 
+member cannot do (templates available)
+• 469 must also include applicable FRs (cardio – run 
+or walk, push-ups, sit-ups, abdominal circumference, height, weight)
+• Completed 469 requires commander’s signature
+• Does not lead directly to MEB
+• 365 cumulative days for same condition warrants 
+referral to DAWG at local MTF
+Mobility-Limiting Condition (MLC)
+• Definite or indefinite endpoint 
+• Also completed on AF Form 469 in ASIMS with MR 
+box checked
+• Condition may not improve or resolve 
+• Associated with specific diagnoses 
+• Members are not worldwide qualified and may not 
+PCS or do TDY (see Medical Standards Directory* 
+for a list of current medical standards for retention, 
+flying classes, and special operational duty)
+• Will likely lead directly to MEB (pregnancy is mobility restricting, but does not lead to an MEB)
+*Air Force Medical Service Knowledge Exchange (https://kx.afms.mil)
+APFT: Army Physical Fitness Test
+ASIMS: Aeromedical Services Information 
+Management System
+DAWG: Deployment Availability Working 
+Group
+DLC: duty-limiting condition
+FFRE: fit-for-retention evaluation
+FR: fitness restriction
+LIMDU: limited duty
+MEB: medical evaluation board
+MEDPROS: Medical Protection System
+MLC: mobility-limiting condition
+MR: mobility restriction
+MRDP: medical retention determination point 
+MTF: medical treatment facility
+PCS: permanent change of station
+PEB: physical evaluation board 
+RTD: return to duty
+TDY/TAD: temporary duty
+USM: uniformed service member
+Data sources: (1) Sloan D, Garner K. Cross service communications: writing profiles for an increasingly joint environment. Uniformed Fam 
+Physician. 2015;Winter:29–32. (2) US Department of the Army. Standards of Medical Fitness. Washington, DC: DA; 2011. Army Regulation 
+40-501. (3) US Department of the Air Force. Duty-Limiting Conditions. Washington, DC: DAF; 2013. Air Force Instruction 10-203. (4) US 
+Department of the Air Force. Medical Examinations and Standards. Washington, DC: DAF; 2014. Air Force Instruction 48-123. (5) US Navy 
+Personnel Command. Limited Duty (LIMDU). Washington, DC: DN; 2004. MILPERSMAN 1306-1200. (6) US Navy Bureau of Medicine and 
+Surgery. Medical evaluation boards. In: Manual of the Medical Department. Washington, DC: BUMED; 2005: Chap 18.
+436
+Fundamentals of Military Medicine
+TABLE 30-3
+PHYSICAL PROFILE SERIAL CHART (PULHES) AND HEARING PROFILE
+1
+2
+3
+4
+P: Physical 
+Condition
+Free of any identified organic defect or systemic 
+disease.
+Presence of stable, minimally significant organic 
+defect(s) or systemic 
+diseases(s). Capable of 
+all basic work commensurate with grade and 
+position. May be used to 
+identify minor conditions 
+that might limit some 
+deployments to specific 
+locations.
+Significant defect(s) 
+or disease(s) under 
+good control. 
+Capable of all basic 
+work commensurate with grade and 
+position.
+Organic defect, systemic or infectious disease which requires, or 
+is currently undergoing, a Medical Evaluation Board (MEB) or 
+Initial Review in lieu of Medical 
+Evaluation Board (IRILOMEB) 
+as determined by the Deployment Availability Working 
+Group (DAWG).
+U: Upper 
+Extremities
+Bones, joints, and 
+muscles normal. 
+Able to do handto-hand fighting.
+Slightly limited mobility 
+of joints, mild muscular 
+weakness or other musculoskeletal defects that 
+do not prevent hand-tohand fighting and are 
+compatible with prolonged effort. Capable of 
+all basic work commensurate with grade and 
+position.
+Defect(s) causing 
+moderate interference with function, yet capable 
+of strong effort 
+for short periods. 
+Capable of all basic 
+work commensurate with grade and 
+position.
+Severely compromised strength, 
+range of motion, or general efficiency of the hand, arm, shoulder girdle, or back (includes 
+cervical and thoracic spine) 
+which requires, or is currently 
+undergoing, a Medical Evaluation Board (MEB) or Initial 
+Review in lieu of Medical Evaluation Board (IRILOMEB) as 
+determined by the Deployment 
+Availability Working Group 
+(DAWG).
+L: Lower 
+Extremities
+Bones, muscles, 
+and joints normal. Capable of 
+performing long 
+marches, continuous standing, 
+running, climbing, and digging 
+without limitation.
+Slightly limited mobility 
+of joints, mild muscular 
+weakness, or other musculoskeletal defects that 
+do not prevent moderate marching, climbing, 
+running, digging, or prolonged effort. Capable of 
+all basic work commensurate with grade and 
+position.
+Defect(s) causing 
+moderate interference with function, yet capable 
+of strong effort 
+for short periods. 
+Capable of all basic 
+work commensurate with grade and 
+position.
+Severely compromised strength, 
+range of motion, or efficiency 
+of the feet, legs, pelvic girdle, 
+lower back, or lumbar vertebrae 
+which requires, or is currently 
+undergoing, a Medical Evaluation Board (MEB) or Initial 
+Review in lieu of Medical Evaluation Board (IRILOMEB) as 
+determined by the Deployment 
+Availability Working Group 
+(DAWG).
+H: Hearing (Ears). See Table A3. 2.
+E: Vision 
+(Eyes)
+Minimum vision 
+of 20/200 correctable to 20/20 in 
+each eye.
+Vision correctable to 20/40 
+in one eye and 20/70 in 
+the other, or 20/30 in 
+one eye and 20/200 in 
+the other eye, or 20/20 in 
+one eye and 20/400 in the 
+other eye.
+Vision that is worse 
+than E-2 profile.
+Visual defects worse than E-3 
+which requires, or is currently 
+undergoing, a Medical Evaluation Board (MEB) or Initial 
+Review in lieu of Medical Evaluation Board (IRILOMEB) as 
+determined by the Deployment 
+Availability Working Group 
+(DAWG).
+(Table 30-3 continues)
+437
+Medical Readiness
+S: Psychiatric 
+Stability
+Diagnosis or 
+treatment results 
+in no impairment or potential 
+impairment of 
+duty function, 
+risk to the mission or ability to 
+maintain security 
+clearance.
+World Wide Qualified 
+and diagnosis or treatment results in low risk 
+of impairment or potential impairment that 
+necessitates command 
+consideration of changing or limiting duties.
+World Wide Qualified and diagnosis 
+or treatment results 
+in medium risk 
+due to potential 
+impairment of duty 
+function, risk to the 
+mission or ability to 
+maintain security 
+clearance.
+Diagnosis or treatment resulting in high to extremely high 
+risk to the AF or patient due to 
+potential impairment of duty 
+function, risk to the mission 
+or ability to maintain security 
+clearance which requires, or is 
+currently undergoing, a Medical Evaluation Board (MEB) or 
+Initial Review in lieu of Medical 
+Evaluation Board (IRILOMEB) 
+as determined by the Deployment Availability Working 
+Group (DAWG).
+Acceptable audiometric hearing level for Air Force
+Unaided hearing loss in either ear with no single value greater than:
+Frequency 
+ (Hz)
+500
+1000
+2000
+3000
+4000
+6000
+Comments
+H-1
+25
+25
+25
+35
+45
+45
+Class I and IA, IFCII, IFCIII, Air Force Academy, Ground Based 
+Controller (GBC), and selected career fields as noted in the Officer and Enlisted Classification directories.
+H-2
+35
+35
+35
+45
+55
+-Air Force enlistment, commission, initial Missile Operations Duty 
+(MOD), Survival, Evasion, Resistance, and Escape (SERE), continued Ground Based Controller (GBC), flyers require evaluation 
+for continued flying (see Aircrew waiver guide for details on the 
+evaluation).
+H-3
+Any loss that exceeds the values noted 
+above, but does not qualify for H-4.
+H-3 profile requires evaluation and Major Command waiver for 
+continued flying, and Audiology evaluation for fitness for continued active duty.
+H-4
+Hearing loss sufficient to preclude safe 
+and effective performance of duty, 
+regardless of level of pure tone hearing 
+loss, and despite use of hearing aids.
+This degree of hearing loss is disqualifying for all military duty. 
+These require evaluation for continued service via either Air 
+Reserve Component Fitness for Duty (FFD), Worldwide Duty 
+(WWD) processing, or review by the Deployment Availability 
+Working Group (DAWG) in accordance with Air Force Instruction 10-203 and 41-210 for Initial Review in lieu of Medical Evaluation Board.
+Reproduced from: US Department of the Air Force. Medical Examinations and Standards. Washington, DC: DAF; 2018. Air Force Instruction 
+48-123. Attachment 3, Tables A3. 1 and A3. 2.
+Table 30-3 continued
+438
+Fundamentals of Military Medicine
+EXHIBIT 30-2
+MILITARY MEDICAL OFFICER DEPLOYMENT CONCERNS FOR INDIVIDUAL 
+DEPLOYERS
+Immunization status
+• Review and update all CDC-required immunizations
+• Consider/give: smallpox and anthrax
+• Consider other location-specific immunizations 
+(eg, yellow fever)
+Personal protection
+• Appropriately-sized gas mask
+• Two pairs of corrective lenses and gas mask inserts 
+(if applicable)
+• Consider anti-malarials
+Location-specific occupational health issues
+• Consider climate
+• Consider specific health needs (electrical outlet, 
+refrigeration, etc)
+• Consider medications/immunizations
+Treatment
+Once a condition has been evaluated and diagnosed, treatment is the logical next step. While not all 
+conditions or patient complaints can be diagnosed, 
+the MMO must determine whether there is potential 
+harm for the individual, society, the unit, or the mission. If the possibility of harm exists, treatment must 
+be completed at the recommended interval, and the 
+MMO must be in communication with the member’s 
+CO as well as their own medical CO about the issue. 
+Communication of medically necessary information 
+among all parties facilitates decision-making and is an 
+example of the crucial advisory role the MMO plays 
+for the military CO.
+Physical Profiles and Medical Evaluation Boards
+The main tool for communicating medical limitations for a USM is the physical profile. While each 
+service has unique ways of handling light duty, 
+profiles, and subsequent referrals to medical evaluation boards (MEBs), each requires the MMO to communicate a USM’s medical readiness status to their 
+respective CO (Table 30-2). All services use (to varying 
+degrees) the physical profile serial system to analyze 
+and “grade” the functions of various organs, systems, 
+and integral body parts. This grading system has six 
+factors, designated as “P-U-L-H-E-S,” in which each 
+letter delineates a specific medical area (Table 30-3). 
+All potential restrictions can impact promotion and 
+the mission, and therefore must be used appropriately 
+and judiciously. 
+Physical profiles can convey medically directed and 
+recommended restrictions on duties, mobility status, 
+and fitness participation and testing. Duty activities 
+that are restricted are generally occupation-specific 
+(lifting, carrying, jumping, etc) but can be general in 
+nature because fitness is considered a core USM duty. 
+Duty restrictions are usually attached to conditions 
+that will resolve within 31 to 365 days (eg, ankle sprain, 
+fractured bone). Mobility restrictions can impact deployments, permanent change of station moves, and 
+temporary duty assignments. Mobility restrictions are 
+generally recommended when specific diagnoses are 
+made (eg, cancer, suicidal ideation, diabetes) and the 
+workup of the condition is ongoing. Fitness restrictions can directly impact the USM’s ability to complete 
+required physical fitness testing. Fitness restrictions 
+may occur in conjunction with either a duty or mobility limitation (eg, a postoperative procedure). For each 
+stated restriction in the written profile, the USM’s CO 
+has ultimate authority for determining whether to accept or reject the recommendation. 
+MEBs are convened when a military member is 
+diagnosed with a specific medical condition that could 
+have a permanent or long-term impact on their ability 
+to perform mission or duty requirements. MEBs can 
+be initiated for either duty or mobility limitations, and 
+must be considered with each limitation or recommended restriction. Each service has a separate process and threshold for carrying out an MEB, although 
+each requires that the patient’s primary care manager 
+complete a narrative summary that details all of the 
+current medical issues and delineates their potential 
+mission/duty impact. The USM’s CO is also required 
+to write a letter determining the mission impact of the 
+USM’s condition. The entire package is reviewed by 
+an objective team of multidisciplinary professionals, 
+who render the final decision. The decision results in 
+one of three outcomes for the USM: (1) return to duty 
+without restriction, (2) return to duty with defined 
+restrictions, or (3) separate or medically retire from 
+military service. Table 30-4 lists MEB and physical 
+profile resources for each service.
+Data Management
+The DoD maintains multiple databases that track 
+USM medical readiness. The Air Force currently uses 
+the Aeromedical Services Information Management 
+System (ASIMS), the Army uses the Medical Protection 
+439
+Medical Readiness
+TABLE 30-4
+MEDICAL EVALUATION BOARD AND PHYSICAL PROFILE REFERENCES
+Service
+Document
+URL
+Army
+AR 40-501
+https://armypubs.army.mil/epubs/DR_pubs/DR_a/pdf/web/ARN3801_AR40-501_Web_FINAL.pdf
+Navy
+MANMED, 
+Chapter 18
+https://www.med.navy.mil/directives/Documents/NAVMED%20P-117%20%28MANMED%29/
+MMDChapter18pdf
+SECNAVINST 
+1850. 4E
+http://www.secnav.navy.mil/mra/CORB/Documents/SECNAVINST-1850-4E.PDF
+Air 
+Force
+AFI 10-203
+https://www.afpc.af.mil/Portals/70/documents/06_CAREER%20MANAGEMENT/03_
+Fitness%20Program/Air%20Force%20Instruction%2010-203.pdf?ver=2018-08-22-115744-620
+AFI 48-123
+http://static.e-publishing.af.mil/production/1/af_sg/publication/afi48-123/afi48-123.pdf
+TABLE 30-5
+MEDICAL READINESS DATABASES
+Service
+Database
+Acronym
+URL
+Army
+Medical Protection System
+MEDPROS
+https://medpros.mods.army.mil/MEDPROSNew/
+Navy
+Medical Readiness and Reporting System
+MRRS
+https://mrrs.sscno.nmci.navy.mil/mrrs/
+Air Force
+Aeromedical Services Information Management System
+ASIMS
+https://asims.afms.mil/webapp/Login.aspx
+System (MEDPROS), and the Navy and Marine Corps 
+utilize the Medical Readiness and Reporting System 
+(MRRS). Table 30-5 lists the URL for each. All have 
+the common goal of providing a CO a quick snapshot 
+of the unit’s medical readiness. It is important for the 
+MMO to be facile with entry and review of data in 
+these repositories. 
+Deployment
+Upon receipt of orders for a contingency deployment, the USM’s full record must be evaluated for 
+medical readiness. All of the predeployment requirements listed above must be reviewed and completed 
+in a timely and efficient manner, which will depend 
+on how well the MMO has maintained an appropriate 
+and correct database of information for each member of 
+the unit. Ultimately, the MMO must medically “clear” 
+each individual for deployment. Several key concerns 
+for the MMO once deployment orders have been received are the USM’s immunization status, personal 
+protection, and location-specific occupational health 
+issues (Exhibit 30-2).
+Required immunizations should be updated for 
+each USM before deployment orders arrive, but current requirements for the deployment’s determined 
+area of responsibility (AOR) should be reviewed. Two 
+common immunizations in the current AOR that play 
+a role in deployment preparation are smallpox and 
+anthrax. Each USM must complete screening forms 
+to determine medical eligibility for these immunizations, and the MMO is ultimately responsible for 
+determining whether the member should be issued 
+these critical immunizations predeployment or in the 
+AOR. Additional immunizations may be necessary 
+based on the specific AOR.
+Personal protection is another key component of 
+medical readiness. Anti-malarials are an example of 
+chemoprophylaxis personal protection. In addition, 
+all deploying members must be fitted for and then 
+issued an appropriately sized gas mask prior to their 
+departure for the AOR. This often is completed under 
+the guidance of the MMO or the MMO’s designee. 
+Dovetailing with gas mask fitting, the MMO must 
+ensure that each member who requires vision correction has two pairs of corrective lenses (ie, eyeglasses; 
+contact lenses are not allowed in the AOR) and gas 
+mask inserts with the same prescription.
+The MMO must also consider occupation-specific 
+information about the AOR to enhance environmental medical readiness. While predeployment medical 
+readiness covers many different aspects, specific AORs 
+440
+Fundamentals of Military Medicine
+have unique prevention needs. Targets of prevention may include medications (anti-malarials) and 
+immunizations (yellow fever). A USM’s individual 
+health needs may also play a role. Certain health 
+conditions may limit the USM’s ability to perform 
+(including the need for electrical outlets for medical 
+equipment, refrigeration of medications, etc). Additionally, understanding and preparing for the AOR’s 
+climate can reduce climate-induced morbidity (heat 
+or cold injuries).
+Postdeployment
+Postdeployment time focuses on reunion and readjustment for the USM. While many areas begin to 
+overlap with the subsequent predeployment period, 
+a major focus for the MMO after deployment is the 
+Post-Deployment Health Re-Assessment Program 
+(PDHRA). This program involves a sequenced process 
+including member survey completion and face-to-face 
+encounters immediately and at later intervals after 
+redeployment home. The program’s main goal is determining whether any medical conditions or concerns 
+developed during, or are related to, the deployment. 
+The program also specifically targets significant concerns such as posttraumatic stress disorder (PTSD), 
+TBI, and other environmental exposure issues. With 
+appropriate evaluation, USMs can be rapidly and appropriately referred for further evaluation and treatment of any concerning condition. 14 
+GUIDANCE TO COMMANDING OFFICER
+The MMO should provide regularly scheduled 
+updates about the unit’s medical readiness to the CO. 
+Any deficiencies should be remedied, or at the very 
+least, solutions provided as potential fixes. Expect 
+the CO to demand 100% accountability for all medical readiness items, and anticipate that the CO will 
+prevent USMs from taking leave or holiday time if 
+the requirements are not met. Expectations are best 
+managed with constant communication between the 
+MMO and the CO.
+SUMMARY
+The MMO plays a crucial role in maintaining the 
+medical readiness of each USM. It is imperative that 
+the MMO work closely with the CO to facilitate rapid 
+and efficient screening, evaluation, and treatment of 
+each USM to ensure mission completion. Maintaining 
+knowledge of the service-specific guidelines will enhance the USM’s medical readiness and help the DoD 
+achieve the “Quadruple Aim.”
+REFERENCES
+ 
+1. Institute for Healthcare Improvement. The Triple Aim: Optimizing health, care and cost. Healthc Exec. 2009;24:64–66.
+ 
+2. Berwick DM, Nolan TW, Whittington J. The triple aim: care, health, and cost. Health Aff. 2008;27(3):759–769. doi: 
+10. 1377/hlthaff. 27. 3. 759. PubMed PMID: 18474969.
+ 
+3. Office of the Under Secretary of Defense (Comptroller) Chief Financial Officer. Managing the Military Health System. 
+In: United States Department of Defense Fiscal Year 2015 Budget Request Overview. Washington, DC: DoD; 2014: 5-8. 
+ 
+4. O’Connor FG, Deuster PA, DeGroot DW, White DW. Medical and environmental fitness. Mil Med. 2010;175(8):57–64.
+ 
+5. STABLE National Coordinating Council Resource Toolkit Workgroup. Patient Health Questionnaire-2 (PHQ-2) 
+overview. In: STABLE Resource Toolkit. Washington, DC: US Department of Health and Human Services; 2007. http://
+www.cqaimh.org/pdf/tool_phq2.pdf. Accessed March 8, 2018.
+ 
+6. Kane RL, Roebuck-Spencer T, Short P, Kabat M, Wilken J. Identifying and monitoring cognitive deficits in clinical populations using Automated Neuropsychological Assessment Metrics (ANAM) tests. Arch Clin Neuropsychol. 
+2007;22:115–126. doi: 10. 1016/j.acn. 2006. 10. 006.
+ 
+7. Rice V, Lindsay G, Overby C, et al. Automated Neuropsychological Assessment Metrics (ANAM) Traumatic Brain Injury 
+(TBI): Human Factors Assessment. Aberdeen Proving Ground, MD: Army Research Laboratory; 2011.
+441
+Medical Readiness
+ 
+8. Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury. Military Acute Concussion Evaluation (MACE) pocket card. Defense and Veterans Brain Injury Center: Silver Spring, Maryland; 2012. https://dvbic.
+dcoe.mil/files/resources/DVBIC_Military-Acute-Concussion-Evaluation_Pocket-Card. Accessed January 16, 2018.
+ 
+9. US Preventive Services Task Force. Recommendations for primary care practice. Updated September 2017. http://
+www.uspreventiveservicestaskforce.org/Page/Name/recommendations. Accessed September 28, 2017.
+ 10. US Department of Defense. DoD Nuclear Weapons Personnel Reliability Assurance. Washington, DC: DoD; 2016. DoD 
+Instruction 5210. 42. 
+ 11. US Department of Health and Human Services. Community immunity (“herd immunity”). Vaccines.gov. http://www.
+vaccines.gov/basics/protection/. Updated May 11, 2017. Accessed September 28, 2017.
+ 12. US Centers for Disease Control and Prevention. Immunization schedules. http://www.cdc.gov/vaccines/schedules/. 
+Updated February 6, 2017. Accessed September 28, 2017.
+ 13. Motivational Interviewing Network of Trainers website. http://www.motivationalinterviewing.org/. Published 2017. 
+Accessed September 28, 2017.
+ 14. US Department of Defense Post-Deployment Health Reassessment. DoD Deployment Health Clinical Center website. 
+http://www.pdhealth.mil/dcs/pdhra.asp. Accessed September 29, 2017.
+442
+Fundamentals of Military Medicine

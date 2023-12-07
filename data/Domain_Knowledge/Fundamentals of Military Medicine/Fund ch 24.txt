@@ -1,0 +1,1063 @@
+347
+Environmental Extremes: Space
+Chapter 24
+ENVIRONMENTAL EXTREMES: SPACE
+RICHARD A. SCHEURING, DO, MS*; JOSEF F. SCHMID, MD†; and J.D. POLK, DO‡ 
+INTRODUCTION
+DEFINITIONS
+MILITARY HISTORY 
+MILITARY APPLIED PHYSIOLOGY
+The Space Environment
+Physiologic Effects
+THE MILITARY MEDICAL OFFICER AND HUMAN PERFORMANCE 
+OPTIMIZATION IN SPACE
+Role of the Military Medical Officer
+Guidance to the Commanding Officer
+SUMMARY
+*Colonel, Medical Corps, US Army Reserve; Associate Professor, Military and Emergency Medicine, Uniformed Services University of the Health Sciences, Bethesda, Maryland
+†Major General, Medical Corps, US Air Force Reserve; NASA, Johnson Space Center, Houston, Texas
+‡Chief Medical Officer, NASA Headquarters, Washington, DC
+348
+Fundamentals of Military Medicine
+INTRODUCTION
+The environment outside of Earth’s atmosphere 
+(space) is regarded by some as the future battlefield. 
+Developed nations rely on space-based assets such as 
+satellites to conduct day-to-day business, including 
+communications, navigation, and financial transactions, to name a few. Military use of space for surveillance and reconnaissance has existed for decades. More 
+recently the use of low Earth orbit (LEO) to conduct 
+tactical operations has been proposed. Warfighters on 
+this future battlefield will confront a variety of physiologic and environmental challenges. Knowledge of 
+the challenges that confront service members, and 
+strategies to mitigate against stressors that impact optimal performance, are essential for the military medical 
+officer (MMO). This chapter specifically addresses the 
+environmental challenges of space flight as applied 
+to today’s warfighter, with a focus on enhancing performance in these settings. Specifically discussed are 
+core definitions applied to these stressors, relevant 
+military history and epidemiology, applicable applied physiology, and detailed prevention strategies. 
+Specific guidance is provided to assist the MMO in the 
+identification and prevention of environmental stress 
+as applied to service members.
+DEFINITIONS
+Common terminology related to environmental 
+challenges in space is shown in Tables 24-1 and 24-2. 
+First, basic and specific applied physiologic definitions 
+are provided to assist the MMO in interpreting relevant 
+literature and established military guidance. Next are 
+terms associated with common medical conditions and 
+injuries in this environment. The MMO must have a 
+clear understanding of this terminology in the policy 
+and literature to ultimately optimize service member 
+performance.
+MILITARY HISTORY 
+During World War II, Eugene Sanger of the German Herman Goring Institute developed a theoretical 
+“space bomber” that would be capable of reaching 
+suborbital altitudes to extend its range and deliver a 
+weapons payload to New York City. Years later, the Soviet Union began testing the MiG-105, a military space 
+plane that would make use of “skip-glide” suborbital 
+flight to deliver a payload over long distances. The 
+successful launch of the Soviet Sputnik on October 4, 
+1957, from the Baikonur Cosmodrome in Kazakhstan 
+officially started the Soviet-US space race in public 
+awareness. 
+The US military, with the help of German rocket 
+scientists who came to America after World War 
+II, most notably Wernher von Braun, had spent the 
+previous decade developing intercontinental ballistic 
+missile systems for weapons payloads. Von Braun 
+and colleagues had also envisioned developing a 
+manned space vehicle to support military operations. 
+By late 1957, the US Air Force had incorporated their 
+concepts into its program to develop a hypersonic 
+“space plane” that would achieve speeds in excess of 
+Mach 10 after being dropped from a heavy bomber 
+and igniting rocket engines. The delta-winged Boeing 
+X-20A Dyna-Soar would be capable of landing on a 
+runway after carrying out suborbital military reconnaissance, satellite maintenance, and enemy satellite interdiction. However, it was canceled in 19631 
+when Congress deemed the project lacked a relevant 
+military mission and cost outweighed its benefits as 
+a research platform. Several military space designs 
+followed the Dyna-Soar program, but each failed to 
+achieve its intended goal of supporting a manned 
+space mission. The culmination of these efforts was 
+the US Air Force Manned Orbital Laboratory (MOL) 
+(Figure 24-1). 
+The MOL was announced to the public in 1963 as a 
+general research program designed to “demonstrate 
+the military value of a man in space.”2 Intended to be 
+operational by the early 1970s, the program’s actual 
+purpose was reconnaissance of ground-based Soviet 
+and Chinese military facilities. Astronauts would 
+launch in a modified NASA Gemini spacecraft with the 
+pressurized MOL attached as a single-use laboratory 
+accessible through a hatch. Both would launch on a 
+Titan IIIC booster rocket from Vandenberg Air Force 
+Base in California to a polar orbital inclination (ie, flight 
+orientation over the Earth) with a perigee of 89 nautical miles. Spending up to 40 days in space, astronauts 
+would operate a sophisticated optical system capable 
+of high-resolution still and video images of military 
+targets on the ground, according to plans. During 
+development, however, the MOL rapidly exceeded 
+its budget. Analysis determined that unmanned spy 
+satellites could match or surpass the capabilities of 
+the MOL project. As the Vietnam War drained the 
+nation’s defense budget, the program was canceled 
+in mid-1969. 
+349
+Environmental Extremes: Space
+TABLE 24-1
+GENERAL APPLIED PHYSIOLOGY TERMINOLOGY
+Term 
+Definition
+Armstrong’s line 
+Above an altitude of 18,900 m (63,000 ft) the total atmospheric pressure equals the 
+vapor pressure of water at body temperature, ie, the ambient pressure is 5% that at 
+sea level and the boiling point of water is now 98. 6°F. Clinically, blood and body 
+fluids will “boil.”
+Microgravity (µg) 
+The result of balanced centrifugal and gravitational force vectors of an orbiting 
+vehicle simulating the lack of true gravity. Not synonymous with zero-gravity.
+Suborbital 
+Any flight outside Earth’s atmosphere with a maximum flight speed below the 
+orbital velocity, thereby preventing a vehicle from completing one orbit.
+Low earth orbit (LEO) 
+An orbit around Earth with an altitude between 160 km (99 miles) (orbital period of 
+about 88 minutes) and 2,000 km (1,200 miles) (orbital period of about 127 minutes).
+Geosynchronous earth orbit 
+An Earth orbit located at 35,786 km (22,236 miles) above Earth’s equator, which allows satellites to match Earth’s rotation.
+Solar particle event (SPE) 
+An injection of energetic electrons, protons, alpha particles, and heavier particles into 
+interplanetary space following a highly concentrated, explosive release of energy 
+from the sun.
+Galactic cosmic radiation (GCR) 
+Energy that originates outside the solar system, consisting of ionized atoms ranging 
+from a single proton up to a uranium nucleus.
+Extravehicular activity (EVA) 
+Any activity done by an astronaut outside a spacecraft beyond the Earth’s appreciable atmosphere.
+Extravehicular mobility unit (EMU) 
+An independent anthropomorphic spacesuit that provides environmental protection, mobility, life support, and communications for astronauts performing extravehicular activity in Earth orbit.
+High-performance jet aircraft 
+Jet planes capable of high-g acceleration, velocities approaching or surpassing the 
+speed of sound, and operating altitudes above 9,144 m (30,000 ft) above sea level.
+Hypercapnia 
+A condition of abnormally elevated carbon dioxide (CO2) levels in the blood.
+Hypobaric 
+Characterized by less than normal pressure or weight; applies to gases under less 
+than sea level atmospheric pressure of 14. 7 psi or 760 mm Hg.
+Karman line 
+The boundary between Earth’s atmosphere and the edge of outer space, generally 
+100 km (62. 5 miles) above sea level. The atmosphere at this altitude is too rarified to 
+support aeronautical flight thus vehicles require rocket propulsion for maneuverability.
+Mean sea level barometric pressure 
+Measured as 1 atmosphere (atm), 760 mm Hg, 14. 7 psi, or 101. 3 kPa.
+Perigee 
+Point in orbit nearest to the center of the Earth.
+The military then shifted its interest to unmanned 
+space capabilities with the development of robust 
+satellite systems for reconnaissance and communications. The tactical military utility of these 
+systems was virtually nonexistent, however; most 
+were purely strategic assets. In early 1971, the US 
+Navy Research Laboratory created the Timation 
+(Time-Navigation) Development Plan, based on the 
+Space Surveillance System technology developed 
+earlier in the decade. This capability was the basis 
+for future highly classified navigation systems used 
+in military operations, most notably the global positioning system (GPS). 3 
+In contrast to the military efforts, civilian manned 
+space missions dominated the late 1960s and early to 
+mid-1970s. The six Apollo lunar surface missions fulfilled President John F. Kennedy’s vision of landing a 
+man on the moon and returning him safely to Earth. 
+The Soviets abandoned lunar aspirations for establishing space “stations” capable of sustaining human 
+350
+Fundamentals of Military Medicine
+TABLE 24-2 
+SPACE ALTERATION/ILLNESS/INJURY TERMINOLOGY 
+Term 
+Definition
+Circadian desynchronization 
+Disturbances in the normal sleep cycle that result when external environmental 
+cues conflict with the internal clock.
+Ebullism 
+Formation of water vapor bubbles in the tissues brought on by an extreme reduction 
+in barometric pressure if the body is exposed to pressures above Armstrong’s line.
+Space-adaptation back pain (SABP) 
+Musculoskeletal pain in the lumbar spine region that occurs after initial exposure 
+to µg and persists for 48 to 72 hours.
+Space motion sickness 
+A syndrome ranging in symptom severity that includes nausea, vomiting, global 
+headache, anorexia, and fatigue after initial exposure to µg. A self-limited disorder, the symptoms typically resolve within the first 24 to 48 hours of space flight.
+Figure 24-1. Manned Orbiting Laboratory (MOL), an evolution of the earlier “Blue Gemini” program, which was 
+conceived to be an all-Air Force parallel of NASA’s Gemini 
+efforts. US Air Force photo.
+Reproduced from: http://www.nationalmuseum.af.mil/
+Visit/Museum-Exhibits/Fact-Sheets/Display/Article/195891/
+manned-orbiting-laboratory/.
+by President Richard Nixon in 1972, was built with 
+the understanding that military payloads and crew 
+could be transported into space to support missions 
+for the National Reconnaissance Office (NRO). The 
+space shuttle provided crewed returns from LEO 
+after launching from Kennedy Space Center in 
+Florida. Beginning with the first classified Department of Defense (DoD) payload on STS-4 in 1982, 
+the space shuttle flew nine classified missions for 
+the DoD. 4–6 Eight of these missions were considered 
+“dedicated” military missions, flown by military astronauts. 2–4 The NRO, in conjunction with the US Air 
+Force, built a launch pad at Vandenberg Air Force 
+Base with the intent that the space shuttle or other 
+manned vehicles could be launched to polar orbits 
+for high-orbital inclination, placing the spacecraft 
+orbital path over Russia. 6 
+The military had chosen its first group of space 
+shuttle astronauts, known as manned spaceflight 
+engineers (MSEs), in 1979. From the initial class of 13, 
+only one MSE, Colonel Gary Payton, flew in space, 
+on STS-51C in 1985. This mission deployed an Air 
+Force inertial upper-stage spy satellite as a separate 
+spacecraft from the shuttle payload bay. This permitted the payload to launch from the shuttle (in LEO) 
+to a higher altitude geosynchronous orbit, enabling 
+better visibility of the Earth. From 1985 to 1992, several 
+classified DoD space shuttle missions deployed the 
+Defense Satellite Systems, which included the ability 
+to perform communications, surveillance, reconnaissance, weather and environmental monitoring, and 
+nuclear missile launch detection. 4,6 After the Space 
+Shuttle Challenger accident in January 1986, however, 
+the NRO and Air Force abandoned the manned military space program development at Vandenberg and 
+returned to unmanned satellite deployment missions 
+on Atlas and Titan launch vehicles. 
+presence in space for extended periods of time. After 
+the Apollo missions, the United States developed its 
+own long-duration space station, Skylab, in 1973. The 
+Skylab science missions ranged from 28 to 84 days and 
+provided significant insight into the effects of microgravity (µg) on human physiology. The Apollo-Soyuz 
+mission, the first joint US-Soviet mission in space, 
+followed in 1975. This brief mission represented the 
+beginning of an international collaboration in space 
+that continues today.
+In 1981 NASA began launching the Space Transportation System (STS), or space shuttle, missions. 
+The STS, initially approved as a public space vehicle 
+351
+Environmental Extremes: Space
+By the 1980s, space-based communications, weather 
+satellites, and reconnaissance satellites had matured 
+to add tactical utility to military operations in Central 
+America. During the Persian Gulf War in 1991, GPS navigation satellites provided highly accurate navigation 
+data aiding US and allied military forces in the region. 
+Also, “smart weapons” began appearing in numbers 
+that could make a measurable tactical impact. Cold War 
+strategic systems were also modified to assist tactical 
+forces, beginning a trend that continues today. These 
+systems were refined during the bombing campaign 
+in Kosovo in the late 1990s; in 5 short years the use of 
+precision munitions led to highly accurate weapons that 
+resulted in few nonmilitary casualties. The conflicts in 
+the Middle East in the first decade of the 21st century 
+made use of standardized space-based systems throughout the armed services, leading to unprecedented warfighting capabilities in many theaters of operation.
+In December 2006, Popular Science published an 
+article called “Semper Fly: Marines in Space,” detailing a plan to develop a vehicle that could transport 
+up to 13 marines to a military objective anywhere in 
+the world from the United States in 2 hours via suborbital spaceflight. 7 The Marine Corps envisioned using 
+suborbital space to develop a capability for greater 
+operational speed and flexibility than conventional 
+jets, called Small Unit Space Transport, or “Sustain.” 
+Included in this vision was the ability to deploy forces 
+outside the spacecraft at altitudes considerably above 
+Armstrong’s line (see Table 24-1) to parachute to a 
+ground-based objective. This goal was driven in part 
+by expediency and to circumvent obtaining permission 
+to use sovereign nation airspace, an issue between the 
+United States and nations positioned along the space 
+shuttles’ orbital track back in the early 1980s. 8 While 
+these technical and tactical benefits may be achievable 
+in the near future, careful consideration of the space environment’s effect on human physiology and function 
+must be considered to optimize human performance 
+outside Earth’s atmosphere. 
+MILITARY APPLIED PHYSIOLOGY
+Physiologic adaptation to µg and partial-gravity environments involves the following systems: 
+neurovestibular, cardiovascular, musculoskeletal, 
+immune, neuroophthalmological, hematologic, 
+gynecologic, and behavioral/performance. First, a 
+basic understanding of the space environment is 
+necessary to understand its physiologic impacts 
+on humans. 
+The Space Environment
+A spacecraft orbiting the Earth requires adequate 
+orbital velocity carrying it into space to overcome 
+Earth’s gravitational pull. The resultant vector keeps 
+the vehicle “falling” around the Earth as the planet 
+surface is constantly curving underneath it. The acceleration forces cancel each other out, resulting in 
+µg. Outer space, that is, the environment beyond 
+the Karman line (see Table 24-1), is the most hostile 
+environment humans have ever encountered (Figure 
+24-2). Outside a pressurized vessel, an unprotected 
+person would suffer near instantaneous death from 
+ebullism and anoxia. In the absence of Earth’s protective atmosphere, near +/- 250°F temperature extremes 
+exist between darkness and sunlight. A near vacuum 
+where only a few hydrogen molecules exist, the thermosphere has an ambient pressure of roughly 10-12 mm 
+Hg /3. 2 × 10-2 Pa. Radiation (primarily charged alpha 
+particles liberated by solar flares, ultraviolet radiation, 
+and x-rays) and heavy charged particles from galactic 
+sources are ubiquitous outside the protective layer of 
+the atmosphere and geomagnetosphere. Despite the 
+harsh environment of space, humans have lived and 
+thrived for over 5 decades outside of Earth’s protective shell. Today’s space vehicles orbiting in LEO are 
+designed to maintain a habitable interior with sea-level 
+ambient pressure and gas combinations, temperature 
+and humidity at comfortable levels, and adequate 
+lighting and protection from harmful solar radiation. 
+In addition, nearly instant two-way audiovisual communications support communication with astronauts 
+and ground command and control of the vehicle. 
+Physiologic Effects
+Neurovestibular
+Physiologically, balance and coordination are 
+among the first systems affected in space. In µg, the 
+otoliths are off-loaded, contributing to the temporary 
+loss of spatial orientation and space motion sickness 
+that astronauts experience early on in spaceflight. 9,10 
+All humans are affected to some degree with mild 
+loss of neuromuscular coordination, nausea, and 
+vomiting soon after orbital insertion. Reaction times 
+are initially slowed but quickly adapt to the novel µg 
+environment. 11 Upon return to the 1-g environment, 
+proprioceptive challenges and loss of visual depth 
+perception from spaceflight deconditioning last 48 
+to 72 hours. 
+ On the lunar surface following a 4. 3-day transit 
+from Earth, the Apollo astronauts generally felt “a little 
+352
+Fundamentals of Military Medicine
+wobbly” upon stepping on the moon. They attributed 
+this sensation to the one-sixth Earth gravity environment and aft center of gravity of the lunar extravehicular mobility unit (EMU) rather than neurovestibular 
+dysfunction (Figure 24-3). 12 Coordination seemed to 
+improve steadily during the first couple of hours on the 
+lunar surface. During three of the six lunar landings, 
+Figure 24-2. The edge of space. Fly-around view of the International Space Station (ISS) taken by an STS-119 crewmember 
+after the undocking of the orbiter Discovery. NASA photo 
+ID: S119E010500. 
+Reproduced from: https://images.nasa.gov/detailss119e010500.html.
+Figure 24-3. Apollo 11 crewmember Buzz Aldrin, Jr. Crew 
+members countered the suit aft center of gravity by leaning 
+forward. NASA photo ID: AS11-40-5874.
+Reproduced from: https://images.nasa.gov/detailsas11-40-5874.html.
+blowing lunar dust caused loss of horizontal reference 
+cues, complicating piloting during vehicle descent and 
+resulting in longer descent times and deviation from 
+the proposed landing site. Retrospectively, the Apollo 
+crews stated that spatial disorientation did not play 
+a factor in vehicle control. Whether environmental 
+factors or loss of piloting proficiency played a role is 
+unclear.
+In LEO, correlations between mission length and 
+landings outside (or nearly outside) planned parameters (landing too fast, too slow, or too hard) have been 
+evaluated in operation and simulated environments. 9–11 
+In space missions lasting between 5 and 14 days, the 
+commanders and pilots had minimal perturbation of 
+neurovestibular function. Consequently, neuromuscular motor control to carry out complex landing operations was minimally impacted. 9 Actual landing performance shows much greater variability than simulator 
+performance parameters, but was within the margin 
+of safety for short-duration missions. The implication 
+is that short-duration spaceflight has a minor effect on 
+pilot performance, but longer-duration µg exposures 
+may complicate this dynamic phase of flight.
+Cardiovascular 
+Cardiovascular changes that occur in space are 
+most evident in cephalic fluid shift. On Earth, gravity 
+exerts a downward force to keep blood flowing to the 
+capacitance venous system in the lower body. Cephalad migration of nearly 2 L of intravascular volume 
+occurs within hours of exposure to µg, when the lack 
+of gravity causes blood and body fluid to be redistributed toward the chest and upper body. Astronauts 
+experience nasal congestion, facial plethora, and a dull 
+sense of taste. 13,14 This “puffy face–bird leg” syndrome 
+persists throughout the µg exposure to some degree. 
+Initially the relative increase in cardiac pre-load results 
+in diuresis, and the crew will urinate frequently for 
+the first 24 to 36 hours of spaceflight. The crew then 
+remains euvolemic in µg for the mission duration. As 
+the lower extremities are minimally used for locomotion (the “arms become the legs” in space), there is 
+consequent relative minor atrophy in cardiac muscle 
+size and stroke volume. Heart rate does not change 
+significantly, so cardiac output is naturally reduced 
+up to 15% to 20%.
+To determine the extent of cardiovascular deconditioning in µg and how it might potentially impact 
+physical performance such as extravehicular activity 
+(EVA), researchers have measured on-orbit maximum 
+power outputs and oxygen uptake during exercise 
+(V̇ o2max) in astronauts relative to their preflight baseline 
+measurements. 15 Exercise performance, as measured 
+353
+Environmental Extremes: Space
+by V̇ o2max, is initially reduced in µg. Within the first 
+3 weeks of spaceflight, a pronounced deconditioning 
+effect on aerobic capacity occurs without exercise countermeasures. The reduction in aerobic performance 
+appears to peak at about 3 weeks in-flight, then slowly 
+improves with use of a treadmill and cycle ergometer. 
+The cardiovascular adaptations to µg persist until 
+reintroduction to the Earth’s 1g environment. Changes 
+in the heart muscle, vascular reflexes, and redistribution of body fluids during flight strongly predispose 
+crew to orthostatic hypotension post-landing to varying degrees. Upon return to the 1g Earth environment, 
+the reduced circulating blood volume experienced by 
+the crew in space results in decreased standing blood 
+pressure without adequate commensurate increase in 
+heart rate to maintain cardiac output. This condition, 
+known as orthostatic intolerance, varies in severity but 
+is present to some degree in most returning astronauts. 
+The incidence for short-duration (less than 30 days) 
+and long-duration missions ranges from 20% to 67% 
+of crewmembers. Symptoms range from dizziness 
+and lightheadedness to transient syncope, but usually 
+resolve in 18 to 24 hours after landing. 16
+Musculoskeletal
+Physical performance in space after the initial adaptation period of 24 to 72 hours is minimally impaired 
+from cardiovascular alterations. However, there is 
+potential operational impact from the musculoskeletal changes that occur in µg. Astronauts experience 
+decreased upper body strength and stamina for EVA to 
+some degree, depending on preflight fitness level and 
+inflight training. Typical EVAs range in duration from 
+6 to 8 hours. During this time outside the spacecraft, 
+astronauts manipulate equipment and move along the 
+structure using mostly their hands, upper extremities, 
+and core musculature. Crew members have described 
+the upper body exertion during EVA as moderately 
+physically demanding, depending on the task. 
+The musculoskeletal system undergoes significant 
+adaptation in space in the form of bone and muscle 
+loss due to the absence of gravitational loading. Prior 
+to the use of the advanced resistive exercise device 
+(ARED) on the International Space Station (ISS) in 
+2010, bone density losses of 1% to 2. 4% per month 
+in the lower extremities and spine were measured 
+in astronauts. 17 The skeletal changes and loss of total 
+body calcium have been noted in both humans and 
+animals exposed to µg from 7 to 237 days. Using dual 
+absorptiometry x-ray to measure bone mineral density 
+(BMD), LeBlanc et al determined that BMD losses 
+were specific to weight-bearing bones. Specifically, 
+monthly losses of 1% at the lumbar spine and 1. 5% 
+at the femoral neck have been documented prior 
+to the use of on-orbit resistive exercise training. 18 
+Astronauts returning from long-duration space 
+flight have also demonstrated persistent loss of 
+trabecular bone, despite return of density to preflight 
+baseline levels. 19 Recently, finite element analysis 
+and quantitative computed tomography have been 
+used to assess bone architecture, in contrast to bone 
+density measurements. 20 These methods may be more 
+predictive of future fracture risk post-flight. 
+The potential clinical effects of long-duration space 
+flight on calcium metabolism include the development of kidney stones due to increased urine and 
+fecal calcium, as well as possible post-flight fractures. 
+Fourteen post-flight kidney stones have been reported 
+in short-duration space shuttle astronauts,21 although 
+no in-flight episodes of renal lithiasis have occurred in 
+US astronauts to date. There have been 54 post-flight 
+fractures among US crew members, but aerospace 
+medicine experts attribute none of them to in-flight 
+bone loss. Research continues on the risk of post-flight 
+fracture. 
+Consistent with the skeletal adaptations, muscle 
+morphologic change and fiber loss are evident in 
+space compared to baseline preflight levels. Atrophy 
+of the antigravity muscles (thigh, calf) and decrease 
+in leg strength (approximately 20%–30%), with extensor muscles more affected than flexor muscles, 
+have been measured in short- and long-duration 
+astronauts. Data from rats carried aboard spacecraft 
+showed an increase in the number of type II (fasttwitch) muscle fibers (those that are useful for quick 
+body movements but more prone to fatigue). This 
+effect has been confirmed with muscle biopsy in 
+US astronaut volunteers. 22 Lower extremity muscle 
+strength and size and overall decrease in leg volume 
+and body mass were common prior to the current 
+on-orbit exercise program using the ARED. 
+There are also significant changes to the axial 
+skeleton in µg. Changes in the spine and antigravity 
+muscles associated with µg exposure include lumbar 
+back pain, fatigue, muscle stiffness and soreness, weakness, and atrophy in the core stabilizing muscles. 23–27 
+Between 53% and 68% of astronauts experience some 
+degree of lumbar back pain on orbit, known as spaceadaptation back pain (SABP), ranging from mild to, 
+in 10%, excruciating. 28 In-flight, there is dramatic 
+postural change of the cervical and lumber spine with 
+loss of lordosis from lack of gravity and the stretching 
+of tendons and ligaments. Consequently there is an 
+average increase in on-orbit height by 2 to 6 cm. SABP 
+etiology is unknown but may relate to intervertebral 
+disk and vertebral end-plate changes, thoracolumbar 
+myofascial changes, alterations in the facet joint, and 
+354
+Fundamentals of Military Medicine
+stretching of the anterior longitudinal ligament. SABP 
+peaks in severity by 48 to 72 hours and subsides within 
+the first week on orbit. Interestingly, the occurrence 
+of SABP and post-flight herniated nucleus pulposus 
+(HNP) appear to be inversely related.
+As of this writing, post-flight HNP has occurred in 
+47 US astronauts, with 14 events occurring within the 
+first year of return (Figure 24-4). 26,28 The mechanism of 
+the changes to the annular fibrosis that increases the risk 
+of HNP is not well understood. The condition is equally 
+common among short- and longer-duration crew, suggesting an unknown factor that injures the spine during 
+µg exposure. 26,29 Spacecraft type at landing (eg, space 
+shuttle, Apollo Command Module, Soyuz) does not appear to be a factor in post-landing HNP occurrence. 26,28 
+Many experts speculate there may be a dynamic period 
+of stabilization of the annulus in the first few hours of 
+return to 1g. In space shuttle crew members who were 
+not significantly orthostatic on landing and were able 
+to stand and ambulate, the sudden axial loading may 
+injure the annulus, causing annular tears that predispose the person to HNP. Deconditioned crew returning 
+from long-duration missions on the ISS are generally 
+unable to stand for a couple of hours and subsequently 
+remain supine until their orthostasis subsides. Therefore, maintaining supine position post-flight for a brief 
+period of time may reduce the risk of developing HNP. 
+The possible contribution of loss of the spinal stabilizer 
+muscles (eg, the multifidus) in long-duration astronauts, 
+as assessed by pre- and post-flight magnetic resonance 
+imaging and functional muscle testing, is also being considered in astronauts with clinical symptomatology. 29
+Immune System 
+The immune system has subtle responses to short- 
+and long-duration µg exposure. White blood cell function is impaired. Lymphocyte function is depressed 
+in at least 50% of space crew members. Decreased 
+lymphocyte response to mitogens in cosmonauts after 
+space flight was reported for the first time in the early 
+1970s by Russian immunologists. 30 Among the possible 
+causes of space flight-induced alterations in immune 
+responses are exposure to µg, physical and psychological stress, exposure to radiation, and potentially more as 
+yet undetermined causes. Delayed wound healing has 
+been reported anecdotally. 31 Astronauts have described 
+slowed healing of small skin wounds, up to a couple of 
+weeks for paper cuts on their fingertips. There are also 
+clinical implications from latent virus reactivation such 
+as Epstein-Barr virus (EBV) and herpes simplex. Blood 
+titers have confirmed elevations in EBV and cytomegalovirus in crew, with recrudescence of their lesions. 
+Neuroophthalmological
+In the last decade, NASA has discovered many 
+physiologic changes that have occurred in long- duration spaceflight that were unknown when spaceflight 
+experience was limited to short-duration missions. Recently, changes in the neuroophthalmological system 
+due to increased intracranial pressure (ICP) have been 
+discovered in astronauts performing both short- and 
+long-duration space missions. 14 ICP changes on orbit 
+appear to affect men more than women. It is unknown 
+whether this effect is secondary to the fluid shift, 
+vascular compliance within the cerebral vasculature, 
+increased blood flow to the organs that make cerebral 
+spinal fluid, hampered reabsorption and venous distribution of the cerebral spinal fluid by the arachnoid villi, 
+or elevated ambient CO2 levels. These factors combined 
+may be the source of increased ICP. The recent discovery that lymphatics have a prominent role in cerebral 
+fluid dynamics may clarify the etiology. Whatever the 
+cause, there are differences between space-induced ICP 
+and the terrestrial condition. Whereas patients with 
+pseudotumor cerebri on Earth have headache and are 
+typically female and often overweight, astronauts at 
+risk do not exhibit any of these characteristics on orbit. 
+Although the outcome or end state of vision change 
+may be similar, the mechanism is not related to terrestrial ICP pathology. 
+Good vision is necessary for reading and operational assessment, and the eyes are also the primary 
+organ for position sense on orbit. However, dynamic 
+changes take place in vision over a period of time on 
+orbit. Currently, low-grade papilledema or choroidal 
+Figure 24-4. Number of herniated nucleus pulposus (HNP) 
+events based upon the time following the mission in years.
+Data source: Johnston SL, Campbell M, Scheuring RA, 
+Feiveson A. Increased incidence of herniated nucleus 
+pulposus among US astronauts. Aviat Space Environ Med. 
+2012;81(6):566–574. 
+ 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+Time Post Landing (years)
+Number of HNP Events
+18
+16
+14
+12
+10
+8
+6
+4
+2
+0
+355
+Environmental Extremes: Space
+folds are the manifestation of increased ICP on orbit, 
+leading to one or more diopters of shift in visual 
+acuity, which may be partly secondary to changes in 
+increased ICP and its subsequent impact of the optic 
+nerves. There is also a visual change in smooth pursuit 
+or tracking of an object, known as saccades, in which 
+the eyes have a jerky pursuit of the object progressing 
+through a field of view. This effect may be secondary to loss of practice in using the eyes in tracking in 
+space while simultaneously receiving neurovestibular 
+signals. Saccades may have implications for human 
+factors designs for landing instruments on exploration 
+missions, docking and range finding of vehicles after 
+prolonged space exposure, or target tracking in the 
+military context. 
+Hematologic
+Hematologic changes after short-duration µg 
+exposures were noted on routine blood analysis during space shuttle missions. 32,33A relative reduction in 
+circulating red blood cell mass has been documented, 
+reflected in a 7% to 14% decrease in hematocrit levels 
+relative to preflight baselines. This so-called “space 
+flight anemia” is thought to be due to a sequestration of young erythrocytes by the spleen in a process 
+known as neocytolysis. Despite the reductions in red 
+cell numbers, crew performance does not appear to 
+have been impacted. 
+Gynecologic
+The physiologic effects of short-duration µg exposure on gynecologic function have been documented 
+during space shuttle missions. These reports have 
+confirmed that menstrual efflux and required hygiene 
+measures are similar to those experienced on Earth. 
+Oral contraceptives use for short-duration missions 
+has been encouraged because this method offers the 
+opportunity to reduce the volume of menstrual efflux and the capability to shift the menstrual cycle 
+to avoid menses on orbit, or to totally suppress menstruation. In addition, oral contraceptives can help 
+maintain bone density, particularly in individuals 
+who exercise to the point of reduced estrogen levels and amenorrhea. Conception has apparently 
+not been impaired in female astronauts following 
+short- or long-duration µg exposures; several female 
+astronauts have become pregnant and delivered 
+healthy full-term babies post-flight. 14 
+Behavioral
+Psychological stress, as manifested in crew mood, morale, and circadian rhythm, has occurred to some degree 
+during both short- and long-duration missions. On-orbit 
+environmental factors that contribute to changes in crew 
+morale include temperature, noise, odors, the relatively 
+dry atmosphere, limited dietary choices in early space 
+shuttle missions, and lack of family contact. 25 Symptoms 
+of fatigue and irritability have been well documented, 
+depending in part on the flight plan, including high work 
+load and alterations in normal sleep patterns. 
+To maintain a stable altitude in LEO, a spacecraft 
+needs to maintain a velocity of 17,500 mph. Consequently, “sunrise” and “sunset” occur every 90 minutes. The crew is subjected to fixed 6. 5- to 8-hour sleep 
+periods in an unusual sleep environment where loss 
+of normal proprioceptive cues make falling asleep and 
+maintaining sleep challenging. Head restraints are often 
+needed to keep the head secured to a pillow, and loud 
+background noise (ambient levels are 62–65 dBA) requires 
+noise-cancelling headsets. More recently, the ambient 
+lighting frequencies (blue-green wavelength) and elevation in local CO2 levels have been implicated in insomnia. 
+All these factors have resulted in poor sleep quality 
+and reduced sleep duration. 34 Preliminary analyses 
+indicate sleep on 2-week shuttle missions (n = 44) 
+averages 6 hours per night, significantly less than the 
+8 hours recommended by the Institute of Medicine. 
+Analyses of a small number of ISS participants (n = 10) 
+further indicate that sleep continues to be reduced in 
+space in duration similar to that found during shuttle 
+missions. Also, crew members during ISS missions regularly have schedule shifts to their work/rest schedules 
+to meet operational demands of the mission, such as 
+visiting vehicle operations, EVA, or repair of hardware 
+malfunctions. Taken together, these environmental 
+stressors can lead to circadian desynchronization resulting in sleep loss and daytime fatigue. 34,35 
+THE MILITARY MEDICAL OFFICER AND HUMAN PERFORMANCE OPTIMIZATION IN SPACE
+Role of the Military Medical Officer
+The MMO supporting the space mission will be 
+expected to have strong working knowledge of space 
+physiology and operational space medicine. He or she 
+will serve as subject matter expert providing recommendations to the commander for prevention of space 
+environmental illness or injuries, assist in the diagnosis 
+and treatment of such injuries (utilizing telemedicine), 
+and determine when crew return to duty is appropriate following any sick leave. As in most of military 
+medicine, the best treatment strategy for all potential 
+356
+Fundamentals of Military Medicine
+environmental injuries/illness is primary prevention. 
+Primary prevention is the cornerstone of optimizing 
+human performance in extreme environments, and 
+space operations are no different. Table 24-3 lists 
+evidence-based strategies for specific risk factors or 
+challenges to optimize warfighter performance in the 
+extreme environment of space.
+Human spaceflight provides unique challenges to 
+human performance. Human physiology and function 
+require significant support to adapt to the fluid shifts, 
+neurovestibular dysfunction, musculoskeletal deconditioning, and circadian degradation associated with 
+living in space. Radiation exposure, air quality, ambient pressure and gas component changes, toxicologic 
+exposures, and loss of circadian rhythm control can 
+affect every body system; these effects must be well understood by the MMO. In LEO, astronauts generally do 
+not sustain radiation exposure levels that pose clinical 
+risk for illness or injury. However, once missions extend 
+beyond LEO and the protective shell of the geomagnetosphere and Van Allen belts, radiation effects on health 
+become a major issue. The spacecraft must shield its 
+inhabitants from radiation in these missions. 36 
+Astronauts engaged in EVAs must have medical 
+oversight to prevent decompression sickness as well 
+as monitor for thermal, ocular, and musculoskeletal 
+injury. Isolation, interpersonal stress, and the real 
+threat of death provide further impact to sleep patterns and immune systems. Basic human needs must 
+be met within the constraints posed by living in a 
+relatively small, confined environment, and the MMO 
+will need to understand the effects of the habitable 
+vehicle volume on crew health and performance. 37 
+Countermeasures include nutrition, exercise, medication, and psychological support, along with correction 
+of environmental anomalies. It is therefore imperative 
+that military space operations employ physicians and 
+medics fully trained in space physiology, mission operations, and space biomedical engineering to ensure 
+mission success. 
+Sleep and Rest
+During the on-orbit phase of each mission, a large 
+team of flight controllers— experts in individual 
+engineering areas related to spacecraft control, environmental monitoring, power generation, attitude 
+control, and EVA—will be supporting the crew and 
+vehicle in space from the operations control center, 
+also known as “mission control.”38 Highly detailed 
+and operationally exacting work are hallmarks of 
+space operations both on and off the ground. The 
+space MMO must be cognizant of the impact to 
+operations presented by the mission on the crew in 
+space and the flight control team members on the 
+ground. Physiologic and psychological effects of high 
+work load, fatigue, and sleep deprivation often go 
+unrecognized during mission operations but have the 
+potential to affect crew and flight controller performance. Situational awareness of how medical issues 
+could impact all phases of the space mission, and all 
+operators, both on and above the Earth, should be the 
+goal of the space MMO.
+Preservation of optimal human performance in 
+novel space environments will need to address changes to the circadian rhythm (or the “daily biological 
+internal clock”), which regulates a circadian rhythm 
+of 24. 2 hours a day. Light serves as the strongest external stimulus for maintaining circadian alignment 
+to Earth’s 24-hour day/night cycle. Melatonin, an 
+endogenous hormone secreted by the pineal gland, 
+serves as the biological “darkness” signal. When 
+darkness occurs, melatonin is produced and released 
+into the blood. Melatonin levels are high at night, 
+resulting in decreased alertness and increased sleep 
+inertia. Melatonin levels stay elevated through the 
+night, then fall back to low daytime levels (which are 
+barely detectable). 
+Bright light inhibits the release of melatonin. Even 
+if the pineal gland is “switched on” by the circadian 
+clock, it will not produce melatonin unless the person is 
+in a dark or very dimly lit environment. Light therapy 
+for circadian desynchrony has recently been implemented for astronauts on orbit and mission-control 
+flight operators working the night shifts to maintain 
+alertness. 34 Evidence shows that bright light hastens 
+schedule shifting, improves circadian entrainment, 
+Figure 24-5. Extravehicular activity (EVA) on the International Space Station. S-116 MS Curbeam, Jr, and Fuglesang work 
+on S1 Truss during EVA 1. NASA photo ID: STS116E05983.
+Reproduced from: https://images.nasa.gov/detailss116e05982.html.
+357
+Environmental Extremes: Space
+TABLE 24-3
+TARGETED RISK FACTOR/CHALLENGES AND EVIDENCE-BASED STRATEGIES TO OPTIMIZE 
+PERFORMANCE IN SPACE
+Performance Risk Factor or Challenge 
+Human Performance Optimization Strategy
+Space motion sickness 
+Antiemetic medication; preflight adaptation training; work/rest/hydration
+Circadian desynchrony 
+Light therapy; melatonin; short-acting nonbenzodiazepine hypnotics
+Muscle and bone loss 
+Preflight exercise program and in-flight aerobic and resistive exercise 
+Cardiac deconditioning 
+Preflight exercise program and in-flight aerobic and resistive exercise
+Space adaptation back pain 
+NSAIDs, short-acting muscle relaxants, and spinal mobilization/compression
+Extravehicular activity (EVA) 
+Oxygen pre-breathe; aspirin therapy
+On-orbit urinary retention 
+Judicious use of anticholinergics; frequent voiding early in mission; trained 
+in self-catheterization
+Increased intracranial pressure 
+Maintain cabin Pco2 below 3. 00 mm Hg
+Radiation exposure 
+Monitor daily radiation doses with active and passive dosimeters; high-density 
+polyethylene shielding
+Acute cabin decompression 
+Immediate isolation of leaking element; calculation of rate of leak and remaining time in orbit; oxygen supplementation
+On-orbit visual changes 
+Have several diopter option eyewear available for each crew member
+On-orbit headaches, congestion, confusion 
+NSAIDs, judicious use of oral/topical decongestants; monitor environmental 
+CO2 levels, maintain pressure below 3. 00 mm Hg
+Post-flight orthostatic intolerance 
+Reentry g suit; fluid load prior to pre-deorbit burn; post-landing IV fluids 
+and antiemetics
+Post-flight deconditioning 
+Gradual reintroduction to balance, mobility, strength, and stamina conditioning program
+IV: intravenous; NSAID: nonsteroidal antiinflammatory drug
+and increases alertness and performance. Specific 
+wavelengths optimize light as a countermeasure. Blue 
+wavelengths (440–550 nm) mimic the morning light 
+spectrum, hasten schedule shifting, and increase alertness, whereas red wavelengths (620–730 nm) simulate 
+dusk and enable pre-sleep. 
+Pressure
+EVAs during space missions require medical 
+support (Figure 24-5). At altitudes above 15,240 m 
+(50,000 ft), humans need either a pressure suit or 
+enclosed pressurized cabin to prevent ebullism. 
+For astronauts to operate in a space suit, the suit’s 
+engineers must balance life support requirements 
+with mobility. Ambient pressures greater than 6. 0 
+psi create a stiff, almost inflexible spacesuit or EMU. 
+Therefore, lower pressures are required to improve 
+mobility and reduce crew fatigue. The US EMU 
+is pressurized to 4. 3 psi. The hypobaric environment has the potential to create nitrogen bubbles 
+in the blood and tissues, leading to decompression 
+sickness. To reduce this risk, astronauts perform 
+“pre-breathe” of 100% oxygen for 2 to 4 hours to 
+eliminate nitrogen gas from their tissues. They also 
+take aspirin before beginning pre-breathe to reduce 
+platelet adhesion and subsequent blood clot formation. 13,14 The space MMO will also need to carefully 
+monitor the spacecraft cabin’s repressurization rate 
+after EVA to prevent ear and sinus barotrauma. A 
+generally acceptable repressurization rate is between 
+0. 5 and 0. 7 psi per minute.
+Conditioning
+During spaceflight, the main countermeasure for 
+musculoskeletal and cardiovascular deconditioning is 
+exercise. Astronauts on both short- and long-duration 
+missions benefit from regular physical training. Fitness 
+plans are created by NASA astronaut strength and conditioning rehabilitation specialists. These plans include 
+the use of the CEVIS (cycle ergometer with vibration 
+isolation system, Figure 24-6) and the T2 (Treadmill 2 
+with vibration isolation system, Figure 24-7) for aerobic 
+358
+Fundamentals of Military Medicine
+Figure 24-6. US Army astronaut Colonel (retired) Jeffrey N. 
+Williams, Expedition 13 NASA space station science officer 
+and flight engineer, exercises on the Cycle Ergometer with 
+Vibration Isolation System (CEVIS) in the Destiny laboratory of the International Space Station. NASA photo ID: 
+ISS013E17268.
+Reproduced from: https://images.nasa.gov/detailsiss013e17268.html.
+Figure 24-7. NASA astronaut Sunita Williams, Expedition 32 
+flight engineer, equipped with a bungee harness, exercises on 
+the Combined Operational Load Bearing External Resistance 
+Treadmill (COLBERT) in the Tranquility node of the International Space Station, 2012. NASA photo ID: ISS032E011701.
+Reproduced from: https://images.nasa.gov/detailsiss032e011700.html.
+Figure 24-8. US astronaut Steve Swanson, commander 
+of ISS Expedition 39, performs loading exercises on the 
+Advanced Resistive Exercise Device (ARED) onboard 
+the International Space Station 2014. NASA photo ID: 
+ISS039E011261.
+Reproduced from: https://images.nasa.gov/detailsiss039e011261.html.
+endurance preservation, and the ARED for muscular 
+strength (Figure 24-8). The ISS in-flight physical fitness plan consists of 2. 5 hours per day of aerobic and 
+resistive exercise, 6 days per week, for US astronauts. 
+This aggressive on-orbit conditioning program has 
+been shown to preserve aerobic performance within 
+the range of individual baseline V̇ o2max levels and 
+maintain moderate strength and stamina in most crew 
+members. Flexibility in the extensor muscle groups 
+and proprioception are still challenges faced by crew 
+in space because of engineering constraints in exercise 
+devices and vehicle limitations. 
+Medication
+The MMO must ensure that crew ground-test all 
+medications that could be used in space so that reactions and side effects are known. Of over 60 medications available for crew use in the on-orbit medical kit, 
+the five most used are acetaminophen, nonsteroidal antiinflammatory drugs (NSAIDs), nonbenzodiazepine 
+359
+Environmental Extremes: Space
+hypnotics, antiemetics, and nasal decongestants. Of 
+these, NSAIDs are the most commonly used. 13,14 Conditions such as headache, low-back pain, and minor 
+muscle aches warrant the use of NSAIDs. Melatonin 
+and the newer generation nonbenzodiazepine hypnotics, such as zolpidem or zaleplon, are used to treat 
+insomnia during the initial days of flight and during 
+sleep shifting. These drugs have shorter half-lives 
+than the older generation benzodiazepine hypnotics 
+such as diazepam, temazepam, or triazolam. There 
+has also been concern that the older drugs could 
+sedate crew to a degree that wakefulness and clear 
+cognition would be impaired during an emergency. 
+Many crew members have prescription medications 
+for benign medical conditions that do not preclude 
+flying in space, such as hypertension, hyperlipidemia, 
+hypothyroidism, or osteoarthritis, which require daily 
+medication doses. Angiotensin-converting enzyme 
+inhibitors, statin-class medication, thyroid replacement therapy, decongestants, and NSAIDs have been 
+used for years in space and have been well tolerated. 
+On-Orbit Conditions
+Several on-orbit medical conditions have occurred 
+during NASA missions, and space MMOs must be 
+familiar with them. Astronauts in the µg environment 
+experience medical conditions similar to terrestrial 
+experience, such as skin rashes, nasal congestion, dry 
+eyes, ocular foreign bodies, serous otitis media, and 
+constipation. Conditions that are rather unique to 
+spaceflight include space adaptation syndrome (which 
+includes nausea and vomiting, mild anorexia, fatigue, 
+and insomnia), SABP, and urinary retention. 21,23,39 
+Space motion sickness affects approximately 79% of 
+all crewmembers, with 10% of cases felt to be severe. 
+Approximately 70% of men and 50% of women have 
+described symptoms ranging from a loss of appetite to 
+nausea and vomiting. The time course is variable: onset occurs immediately post-insertion to 24 hours later, 
+peak symptoms occur at 24 to 48 hours, and symptoms resolve at 72 to 96 hours, on average. Etiology is 
+unclear, but contributing factors are thought to be a 
+combination of entering a new motion environment; a 
+sensory mismatch in which the inner ear and nervous 
+system provide signals that do not make sense in µg; 
+and the approximately 2-L cephalad fluid shift that 
+occurs in space. Flight surgeons have encouraged crew 
+to maintain a 1g orientation despite the confusing 
+visual cues created by the weightless environment. 
+Medication has been moderately successful in reducing nausea and vomiting. The crew should be directed 
+to use meclizine 25 mg orally or promethazine 25 
+mg intramuscularly every 6 to 8 hours as needed. 
+Inactivity or sleep, fluids, and gradual increase in 
+activity over 24 to 48 hours restores crew members to 
+preflight status in most cases, without recrudescence 
+of symptoms. 16 
+SABP peaks at 24 to 72 hour post-insertion and is 
+treated with NSAIDs, short-acting muscle relaxers 
+such as low-dose lorazepam, and assuming a fetal 
+position to reduce pain. Urinary retention, although 
+not unique to space flight, has been an issue due to 
+medication side effects and mission activities that 
+prevent bathroom breaks. Bladder distention and 
+impaired detrusor muscle contraction has required inflight catheterization to relieve symptoms or retention. 
+Therefore, the MMO must ensure all crew members 
+are trained in self-urinary-catheterization techniques 
+for both short- and long-duration missions.
+Vehicle launch and landing operations are also part 
+of the MMO’s responsibility as crew flight surgeon. 
+Prior to launch, flight surgeons frequently premedicate 
+non-pilot and commander astronauts with antiemetics 
+to minimize the post-insertion nausea and vomiting 
+associated with space adaptation syndrome. Crews are 
+also advised to use enemas to minimize the need to 
+defecate early on in the mission. Contingency launch 
+operations during the space shuttle era included 
+launch pad abort scenarios such as hypergolic fuel 
+chemical leaks, fire, and explosion. Post-landing operations pose significant medical challenges to the flight 
+surgeon due to the relative dehydration, muscle loss, 
+and neurovestibular and cardiovascular deconditioning astronauts experience in space. Additionally, the 
+potential operational implications of reduced muscle 
+strength and endurance from µg exposure include 
+decreased landing proficiency and impaired vehicle 
+egress capability. The MMO will also need to consider 
+the vehicle landing site characteristics (eg, water vs 
+land), and prepare recovery operations accordingly. 
+Guidance to the Commanding Officer
+Ultimately, the MMO is responsible for supporting 
+the medical mission for the commander and crew. 
+Being aware of individual crew member needs and 
+identifying realistic countermeasures to prevent adverse health effects are essential for success. It is also 
+important to identify resources for learning about new 
+strategies, especially during contingency operations. 
+In this role, the mission commander can expect the 
+MMO to support the following duties:
+ 
+• Critical mission tasks
+ 
+◦ Medical certification of astronauts for 
+ 
+ 
+training and missions
+ 
+◦ Medical care of astronauts and their 
+360
+Fundamentals of Military Medicine
+families
+ 
+◦ Support during medical consultations
+ 
+◦ Military astronaut selection exams
+ 
+• Operational mission tasks
+ 
+◦ Medical support for space missions
+ 
+◦ Oversight of crew and flight controller 
+medical training
+ 
+◦ Medical support to crew members prior to 
+launch
+ 
+◦ Monitoring EVAs
+ 
+◦ Participation in contingency/rescue management during launch and landing.
+ 
+◦ Being part of the flight control team in the 
+mission command center
+REFERENCES
+ 
+1. Dorr RF. X-20 Dyna-Soar Spaceplane was decades ahead of its time. Defense Media Network. https://www.defensemedianetwork.com/stories/what-might-have-been-x-20-dyna-soar/. Published September 3, 2011. Accessed July 18, 
+2018. 
+ 
+2. Air Force to develop Manned Orbiting Laboratory [press release]. Washington, DC: Department of Defense; December 
+10, 1963. http://www.nro.gov/foia/declass/mol/6.pdf. Accessed February 15, 2018. 
+ 
+3. Easton RD, Frazier EF. GPS Declassified: From Smart Bombs to Smartphones. Lincoln, NE: University of Nebraska Press; 
+2013. 
+ 
+4. Hale W. Wings in Orbit: Scientific and Engineering Legacies of the Space Shuttle, 1971–2010. Washington, DC: NASA; 2010. 
+ 
+5. Lane H, Lulla K, Miller J. Select Astronaut Observations and Highlights of Space Shuttle Payloads and Experiments. Washington, DC: NASA; 2011. NASA/TM-2011-216150.
+ 
+6. Cassutt M. Secret space shuttles. Air & Space Magazine. 2009(Aug). http://www.airspacemag.com/space/secret-spaceshuttles-35318554/. Accessed January 19, 2018.
+ 
+7. Axe D. Semper fly: Marines in space. Popular Sci. 2006(Dec). https://www.popsci.com/military-aviation-space/
+article/2006-12/semper-fly-marines-space. Accessed January 19, 2018.
+ 
+8. Reed WD, Norris RW. Military use of the space shuttle. Akron Law Rev. 1980;13(4):665–688.
+ 
+9. Oman CM, Balkwill MD. Horizontal angular VOR, nystagmus dumping, and sensation duration in Spacelab SLS-1 
+crewmembers. J Vestib Res. 1993;3:315–330.
+ 10. Young LR, Oman CM, Merfeld D, et al. Spatial orientation and posture during and following weightlessness: human 
+experiments on Spacelab Life Sciences 1. J Vest Res. 1993;3:231–239.
+ 11. Clement G, Moore ST, Rapha T, Cohen B. Perception of tilt (somatogravic illusion) in response to sustained linear 
+acceleration during space flight. Exp Brain Res. 2001;138:410–418. 
+ 12. Scheuring RA, Davis JR, Polk JD, et al. The Apollo Medical Operations Project: recommendations to improve crew 
+health and performance for future exploration missions and lunar surface operations. Acta Astronaut. 2008;63:980–987.
+SUMMARY
+This chapter on environmental extremes has introduced the MMO to the basics of optimizing human 
+performance in space. Specifically, it discussed the 
+historical relevance of the environment to success in 
+military space operations, the basic applied physiology relevant to understanding the warfighter in the 
+µg environment, and, finally, those evidence-based 
+strategies demonstrated to preserve performance in 
+LEO and partial-gravity planetary environments. The 
+space MMO operates in a unique setting with limited 
+resources, where urgency and proper planning can 
+make the difference between success and failure on 
+the battlefield. It is important to remember that the 
+MMO is present not just to treat the wounded, but 
+also to critically optimize performance and ultimately 
+strengthen the commander’s hand for success. 
+361
+Environmental Extremes: Space
+ 13. Davis JR, Johnson R, Stepanek J, Fogarty JA, eds. Fundamentals of Aerospace Medicine. 4th ed. Philadelphia, PA: Lippincott, Williams & Wilkins; 2008.
+ 14. Barratt M. Principles of Clinical Medicine for Space Flight. New York, NY: Springer; 2008.
+ 15. Moore AD Jr, Downs ME, Lee SM, Feiveson AH, Knudsen P, Ploutz-Snyder L. Peak exercise oxygen uptake during 
+and following long-duration spaceflight. J Appl Physiol. 2014;117(3):231–238.
+ 16. Meck JV, Reyes CJ, Perez SA, Goldberger AL, Ziegler MG. Marked exacerbation of orthostatic intolerance after long- 
+vs. short-duration spaceflight in veteran astronauts. Psychosom Med. 2001;63:865–873. 
+ 17. Konieczynski DD, Truty MJ, Biewener AA. Evaluation of a bone’s in vivo 24-hour loading history for physical exercise 
+compared with background loading. J Orthop Res. 1998;16:29–37.
+ 18. Leblanc AD, Schneider VS, Evans HJ, Engelbretson DA, Krebs JM. Bone mineral loss and recovery after 17 weeks of 
+bed rest. J Bone Miner Res. 1990;5(8):843–850. 
+ 19. Carpenter RD, LeBlanc AD, Evans H, et al. Long-term changes in the density and structure of the human hip and 
+spine after long-duration spaceflight. Acta Astronaut. 2010;76:71–81. 
+ 20. Zysset P, Qin L, Lang T, et al. Clinical use of quantitative computed tomography-based finite element analysis of the 
+hip and spine in the management of osteoporosis in adults: the 2015 ISCD official positions, Part II. J Clin Densitom. 
+2015;18:359–392. 
+ 21. Pietrzyk RA, Jones JA, Sams CF, Whitson PA. Renal stone formation among astronauts. Aviat Space Environ Med. 
+2007;78(4 suppl):A9–13.
+ 22. Baldwin KM, Herrick RE, McCue SA. Substrate oxidation capacity in rodent skeletal muscle: effects of exposure to 
+zero gravity. J Appl Physiol. 1993;75(6):2466–2470.
+ 23. Kertsman EL, Scheuring RA, Barnes MG, Dekorse TB, Saile LG. Space adaptation back pain: a retrospective study. 
+Aviat Space Environ Med. 2012;83(1):1–6.
+ 24. Ryder JW, Scheuring RA, Shackleford L. Musculoskeletal system: intervertebral discs disease. In: Biomedical Results of 
+the Space Shuttle Program. Houston, TX: NASA, Lyndon B. Johnson Space Center; 2013: 257–292.
+ 25. Scheuring RA, Moomaw RC, Johnston SL. Fatigue in US astronauts onboard the international space station: environmental factors, operational impacts and implementation of countermeasures. Aviat Space Environ Med. 2015;86(3):175. 
+ 26. Johnston SL, Campbell M, Scheuring RA, Feiveson A. Increased incidence of herniated nucleus pulposus among US 
+astronauts. Aviat Space Environ Med. 2012;81(6):566–574.
+ 27. Scheuring RA, Mathers CH, Jones JA, Wear ML. Musculoskeletal injuries and minor trauma in space: Incidence and 
+injury mechanisms in US astronauts. Aviat Space Environ Med. 2009;80:117–124. 
+ 28. Feiveson AH, Mendez CM, Somers JT. Assessing the Effect of Spaceflight on the Propensity for Astronauts to Develop Disk 
+Herniation. Houston, TX: NASA; 2015.
+ 29. Bailey JF, Miller SL, Khieu K, et al. From the International Space Station to the clinic: how prolonged unloading may 
+disrupt lumbar spine stability. Spine J. 2018;18:7–14. 
+ 30. Cogoli A. Space flight and the immune system. Vaccine. 1993;11(5):496–503.
+ 31. Sonnenfeld G. The immune system in space and microgravity. Med Sci Sports Exerc. 2002;34(12):2021–2027.
+ 32. Udden MM, Driscoll TB, Leach-Huntoon CS, Alfrey CP. Decreased production of red blood cells in man exposed to 
+microgravity. J Lab Clin Med. 1995;125(4):442–449. 
+362
+Fundamentals of Military Medicine
+ 33. Rice L, Alfrey CP. Modulation of red cell mass by neocytolysis in space and on Earth. Pflugers Arch. 2000;441(2-3 
+Suppl):R91–R94. 
+ 34. Duffy JF, Czeisler CA. Effect of light on human circadian physiology. Sleep Med Clin. 2009;4(2):165–177.
+ 35. Dawson D, Reid K. Fatigue, alcohol and performance impairment. Nature. 1977;388:235. 
+ 36. Epelman S, Hamilton DR. Medical mitigation strategies for acute radiation exposure during spaceflight. Aviat Space 
+Environ Med. 2006;77(2):130–139. 
+ 37. Scheuring RA, Conkin J, Jones JA, Gernhardt ML. Risk assessment of physiological effects of atmospheric composition 
+and pressure in Constellation vehicles. Acta Astronaut. 2008;63:727–739.
+ 38. Murry M, Cox CB. Apollo. New York, NY: Simon and Schuster; 1989. 
+ 39. Thornton WE, Hedge V, Coleman E, Uri JJ, More TP. Changes in leg volume during microgravity simulation. Aviat 
+Space Environ Med. 1992;63:789–794.
