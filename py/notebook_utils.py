@@ -293,6 +293,12 @@ class NotebookUtilities(object):
         return name_similarities_df
     
     
+    def get_alphabet(self, sequence, verbose=False):
+        alphabet_set = set(sequence)
+        
+        return alphabet_set
+
+    
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
         """
         Converts a sequence of strings to a sequence of integers.
@@ -644,6 +650,7 @@ class NotebookUtilities(object):
         import subprocess
         try: subprocess.run([text_editor_path, absolute_path])
         except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
+            
 
     
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
@@ -900,36 +907,56 @@ class NotebookUtilities(object):
         
         # Iterate over each frame_name provided in kwargs
         for frame_name in kwargs:
+            was_successful = False
             
             # Attempt to load the data frame from a pickle file
-            pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(frame_name))
-            print('Attempting to load {}.'.format(osp.abspath(pickle_path)), flush=True)
+            if not was_successful:
+                pickle_path = osp.abspath(osp.join(self.saves_pickle_folder, f'{frame_name}.pkl'))
+                
+                # If the pickle file exists, load it using the load_object function
+                if osp.isfile(pickle_path):
+                    print(f'Attempting to load {pickle_path}.', flush=True)
+                    try:
+                        frame_dict[frame_name] = self.load_object(frame_name)
+                        was_successful = True
+                    except Exception as e:
+                        print(str(e).strip())
+                        was_successful = False
             
             # If the pickle file doesn't exist, check for a CSV file with the same name
-            if not osp.isfile(pickle_path):
-                csv_name = '{}.csv'.format(frame_name)
-                csv_path = osp.join(self.saves_csv_folder, csv_name)
-                print('No pickle exists - attempting to load {}.'.format(osp.abspath(csv_path)), flush=True)
-                
-                # If the CSV file doesn't exist in the saves folder, check for it in the data folder
-                if not osp.isfile(csv_path):
-                    csv_path = osp.join(self.data_csv_folder, csv_name)
-                    print('No csv exists - trying {}.'.format(osp.abspath(csv_path)), flush=True)
-                    
-                    # If the CSV file doesn't exist anywhere, skip loading this data frame
-                    if not osp.isfile(csv_path):
-                        print('No csv exists - just forget it.', flush=True)
-                        frame_dict[frame_name] = None
-                    
-                    # If the CSV file exists in the data folder, load it from there
-                    else: frame_dict[frame_name] = self.load_csv(csv_name=frame_name)
+            if not was_successful:
+                csv_name = f'{frame_name}.csv'
+                csv_path = osp.abspath(osp.join(self.saves_csv_folder, csv_name))
                 
                 # If the CSV file exists in the saves folder, load it from there
-                else: frame_dict[frame_name] = self.load_csv(csv_name=frame_name, folder_path=self.saves_folder)
+                if osp.isfile(csv_path):
+                    print(f'No pickle exists for {frame_name} - attempting to load {csv_path}.', flush=True)
+                    try:
+                        frame_dict[frame_name] = self.load_csv(csv_name=frame_name, folder_path=self.saves_folder)
+                        was_successful = True
+                    except Exception as e:
+                        print(str(e).strip())
+                        was_successful = False
             
-            # If the pickle file exists, load it using the load_object function
-            else: frame_dict[frame_name] = self.load_object(frame_name)
-
+            # If the CSV file doesn't exist in the saves folder, check for it in the data folder
+            if not was_successful:
+                csv_path = osp.abspath(osp.join(self.data_csv_folder, csv_name))
+                
+                # If the CSV file exists in the data folder, load it from there
+                if osp.isfile(csv_path):
+                    print(f'No csv exists for {frame_name} - trying {csv_path}.', flush=True)
+                    try:
+                        frame_dict[frame_name] = self.load_csv(csv_name=frame_name)
+                        was_successful = True
+                    except Exception as e:
+                        print(str(e).strip())
+                        was_successful = False
+            
+            # If the CSV file doesn't exist anywhere, skip loading this data frame
+            if not was_successful:
+                print(f'No csv exists for {frame_name} - just forget it.', flush=True)
+                frame_dict[frame_name] = None
+        
         return frame_dict
     
     

@@ -29,11 +29,11 @@ data/hem_control_dcems/
 # Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
 # push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
 # Git Large File Storage (Git LFS) as part of your workflow.
-*_df.csv
 data/pptx/FAITH-MD PI Meeting_Evaluation.pptx
 saves/csv/frvrs_logs_df.csv
 saves/pkl/all_transactions_itemsets_df.pkl
 saves/pkl/clean_csvs_df.pkl
+saves/pkl/domain_doc_ners_df.pkl
 saves/pkl/frvrs_logs_df.pkl
 saves/pkl/one_hot_encode_df.pkl
 saves/pkl/patient_history_df.pkl
@@ -193,4 +193,5 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
-saves/pkl/domain_doc_ners_df.pkl
+saves/csv/domain_doc_ners_df.csv
+saves/csv/frvrs_logs_df.csv
