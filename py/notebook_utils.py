@@ -1610,7 +1610,7 @@ class NotebookUtilities(object):
         if verbose: print(type(search_regex))
         
         # Create an empty DataFrame to store the filtered rows
-        df = DataFrame([])
+        filtered_df = DataFrame([])
         
         # For each column in columns_list, filter the filterable df and extract the first row that matches the search_regex
         for cn in columns_list:
@@ -1620,10 +1620,12 @@ class NotebookUtilities(object):
                 lambda x: bool(search_regex.search(str(x)))
             )
             
-            # Concatenate the first matching row to the result DataFrame
-            df = concat([df, filterable_df[mask_series].iloc[0:1]], axis='index')
+            # Concatenate the first matching row not already in the result data frame
+            df = filterable_df[mask_series]
+            mask_series = ~df.index.isin(filtered_df.index)
+            if mask_series.any(): filtered_df = concat([filtered_df, df[mask_series].iloc[0:1]], axis='index')
         
-        return df
+        return filtered_df
     
     
     def convert_to_df(self, row_index, row_series, verbose=True):
@@ -1811,7 +1813,7 @@ class NotebookUtilities(object):
             for cn, cv in zip(groupby_columns, bool_tuple): mask_series &= (sample_df[cn] == cv)
             
             # Append a single record from the filtered data frame
-            if sample_df[mask_series].shape[0]: df = concat([df, sample_df[mask_series].sample(1)], axis='index')
+            if mask_series.any(): df = concat([df, sample_df[mask_series].sample(1)], axis='index')
         
         return df
     

@@ -64,7 +64,7 @@ class FRVRSUtilities(object):
         
         # FRVRS log constants
         self.data_logs_folder = osp.join(self.data_folder, 'logs'); os.makedirs(name=self.data_logs_folder, exist_ok=True)
-        self.scene_groupby_columns = ['session_uuid', 'scene_index']
+        self.scene_groupby_columns = ['session_uuid', 'scene_id']
         self.patient_groupby_columns = self.scene_groupby_columns + ['patient_id']
         self.injury_groupby_columns = self.patient_groupby_columns + ['injury_id']
         self.right_ordering_list = ['still', 'waver', 'walker']
@@ -297,7 +297,7 @@ class FRVRSUtilities(object):
             
             # Add the scene type for each run
             actions_list = []
-            for scene_index, scene_df in session_df[mask_series].groupby('scene_index'): actions_list.append(self.get_scene_type(scene_df))
+            for scene_id, scene_df in session_df[mask_series].groupby('scene_id'): actions_list.append(self.get_scene_type(scene_df))
             
             # Get whether the file has only one triage run
             is_a_one_triage_file = bool(actions_list.count('Triage') == 1)
@@ -947,21 +947,7 @@ class FRVRSUtilities(object):
         return wave_command_count
     
     
-    def get_measure_of_right_ordering(self, scene_df, verbose=False):
-        """
-        Calculates a measure of right ordering for patients based on their SORT category and elapsed times.
-        The measure of right ordering is an R-squared adjusted value, where a higher value indicates better right ordering.
-        
-        Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
-        
-        Returns:
-            float: The measure of right ordering for patients.
-        """
-        
-        # Initialize the measure of right ordering to NaN
-        measure_of_right_ordering = np.nan
+    def get_actual_and_ideal_sequences(self, scene_df, verbose=False):
         
         # Group patients by their SORT category and get lists of their elapsed times
         sort_dict = {}
@@ -978,14 +964,36 @@ class FRVRSUtilities(object):
                     action_list.append(self.get_first_patient_interaction(patient_actions_df))
                 
                 # Sort the list of first interactions
-                sort_dict[sort] = sorted(action_list)
+                if verbose: display(sort, action_list)
+                sort_dict[sort] = sorted([action for action in action_list if action is not None])
         
-        # Calculate the R-squared adjusted value as a measure of right ordering
+        # Get the whole ideal and actual sequences
         ideal_sequence = []
         for sort in self.right_ordering_list: ideal_sequence.extend(sort_dict.get(sort, []))
-        
         ideal_sequence = pd.Series(data=ideal_sequence)
         actual_sequence = ideal_sequence.sort_values(ascending=True)
+        
+        return actual_sequence, ideal_sequence, sort_dict
+    
+    
+    def get_measure_of_right_ordering(self, scene_df, verbose=False):
+        """
+        Calculates a measure of right ordering for patients based on their SORT category and elapsed times.
+        The measure of right ordering is an R-squared adjusted value, where a higher value indicates better right ordering.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            float: The measure of right ordering for patients.
+        """
+        
+        # Initialize the measure of right ordering to NaN
+        measure_of_right_ordering = np.nan
+        
+        # Calculate the R-squared adjusted value as a measure of right ordering
+        actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
         X, y = ideal_sequence.values.reshape(-1, 1), actual_sequence.values.reshape(-1, 1)
         if X.shape[0]:
             import statsmodels.api as sm
@@ -1187,7 +1195,7 @@ class FRVRSUtilities(object):
             
             # Check the patient_record_salt field
             mask_series = ~patient_df.patient_record_salt.isnull()
-            if patient_df[mask_series].shape[0]:
+            if mask_series.any():
                 patient_record_salt = patient_df[mask_series].patient_record_salt.iloc[0]
                 is_patient_dead = patient_record_salt.isin(['DEAD', 'EXPECTANT'])
             
@@ -1196,7 +1204,7 @@ class FRVRSUtilities(object):
                 
                 # Check 'patient_engaged_salt' for patient status if 'patient_record_salt' is empty
                 mask_series = ~patient_df.patient_engaged_salt.isnull()
-                if patient_df[mask_series].shape[0]:
+                if mask_series.any():
                     patient_engaged_salt = patient_df[mask_series].patient_engaged_salt.iloc[0]
                     is_patient_dead = patient_engaged_salt.isin(['DEAD', 'EXPECTANT'])
                 
@@ -1234,7 +1242,7 @@ class FRVRSUtilities(object):
             
             # Check the patient_record_sort field
             mask_series = ~patient_df.patient_record_sort.isnull()
-            if patient_df[mask_series].shape[0]:
+            if mask_series.any():
                 patient_record_sort = patient_df[mask_series].patient_record_sort.iloc[0]
                 is_patient_still = (patient_record_sort == 'still')
             
@@ -1243,7 +1251,7 @@ class FRVRSUtilities(object):
                 
                 # Check 'patient_engaged_sort' for patient status if 'patient_record_sort' is empty
                 mask_series = ~patient_df.patient_engaged_sort.isnull()
-                if patient_df[mask_series].shape[0]:
+                if mask_series.any():
                     patient_engaged_sort = patient_df[mask_series].patient_engaged_sort.iloc[0]
                     is_patient_still = (patient_engaged_sort == 'still')
                 
@@ -1259,17 +1267,17 @@ class FRVRSUtilities(object):
         return is_patient_still
     
     
-    def get_max_salt(self, patient_df=None, session_uuid=None, scene_index=None, random_patient_id=None, verbose=False):
+    def get_max_salt(self, patient_df=None, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
         """
         Get the maximum salt value from the patient data frame or load the data if not provided.
         
         If 'patient_df' is not provided, the function loads FRVRS logs for the specified 'session_uuid'
-        and 'scene_index' and selects a random patient from within the scene.
+        and 'scene_id' and selects a random patient from within the scene.
         
         Parameters:
             patient_df (pandas.DataFrame, optional): DataFrame containing patient-specific data with relevant columns.
             session_uuid (str, optional): UUID of the session to load FRVRS logs. Required if 'patient_df' is None.
-            scene_index (int, optional): Index of the scene to load FRVRS logs. Required if 'patient_df' is None.
+            scene_id (int, optional): Index of the scene to load FRVRS logs. Required if 'patient_df' is None.
             random_patient_id (int, optional): Random patient ID to use if 'patient_df' is None. Default is None.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
@@ -1285,7 +1293,7 @@ class FRVRSUtilities(object):
             
             nu = NotebookUtilities(data_folder_path=self.data_folder, saves_folder_path=self.saves_folder)
             frvrs_logs_df = nu.load_object('frvrs_logs_df')
-            scene_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_index == scene_index)
+            scene_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id)
             
             # Get a random patient from within the scene if not provided
             if random_patient_id is None: random_patient_id = random.choice(frvrs_logs_df[scene_mask_series].patient_id.unique())
@@ -1301,7 +1309,7 @@ class FRVRSUtilities(object):
         
         # If verbose is True, print additional information
         if verbose:
-            print(f'max_salt={max_salt}, session_uuid={session_uuid}, scene_index={scene_index}, random_patient_id={random_patient_id}')
+            print(f'max_salt={max_salt}, session_uuid={session_uuid}, scene_id={scene_id}, random_patient_id={random_patient_id}')
             display(patient_df)
         
         # Return a tuple (random_patient_id, max_salt) if 'session_uuid' is provided
@@ -1349,9 +1357,12 @@ class FRVRSUtilities(object):
             bool or np.nan: Returns True if the tag is correct, False if incorrect, or np.nan if data is insufficient.
         """
         
-        # Ensure both 'tag_applied_type' and 'patient_record_salt' have non-null values
-        mask_series = ~patient_df.tag_applied_type.isnull() & ~patient_df.patient_record_salt.isnull()
-        assert patient_df[mask_series].shape[0], "You need to have both a tag_applied_type and a patient_record_salt"
+        # Ensure both 'tag_applied_type' and 'patient_record_salt' each have at least one non-null value
+        mask_series = ~patient_df.tag_applied_type.isnull()
+        tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
+        mask_series = ~patient_df.patient_record_salt.isnull()
+        patient_record_salt_count = patient_df[mask_series].patient_record_salt.unique().shape[0]
+        assert (tag_applied_type_count > 0) and (patient_record_salt_count > 0), "You need to have both a tag_applied_type and a patient_record_salt"
         
         # Get the last applied tag
         last_tag = self.get_last_tag(patient_df)
@@ -1395,7 +1406,7 @@ class FRVRSUtilities(object):
         
         # If there are responder negotiation actions, find the first action tick
         if mask_series.any(): engagement_start = patient_df[mask_series]['action_tick'].min()
-        else: engagement_start = None
+        else: engagement_start = patient_df['action_tick'].min()
         
         # If verbose is True, print additional information
         if verbose:
@@ -1823,6 +1834,107 @@ class FRVRSUtilities(object):
         return bleeding_treated_time
     
     
+    ### Rasch Analysis Scene Functions ###
+    
+    
+    def get_stills_value(self, scene_df, verbose=False):
+        """
+        0=All Stills not visited first, 1=All Stills visited first
+        """
+        actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
+        
+        # Truncate both sequences to the stills length and compare them
+        still_len = len(sort_dict.get('still', []))
+        ideal_sequence = ideal_sequence.tolist()[:still_len]
+        actual_sequence = actual_sequence.tolist()[:still_len]
+        is_stills_visited_first = int(actual_sequence == ideal_sequence)
+        
+        return is_stills_visited_first
+    
+    
+    def get_walkers_value(self, scene_df, verbose=False):
+        """
+        0=All Walkers not visited last, 1=All Walkers visited last
+        """
+        actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
+        
+        # Truncate both sequences to the walkers length and compare them
+        walker_len = len(sort_dict.get('walker', []))
+        ideal_sequence = ideal_sequence.tolist()[-walker_len:]
+        actual_sequence = actual_sequence.tolist()[-walker_len:]
+        is_walkers_visited_last = int(actual_sequence == ideal_sequence)
+        
+        return is_walkers_visited_last
+    
+    
+    def get_wave_value(self, scene_df, verbose=False):
+        """
+        0=No Wave Command issued, 1=Wave Command issued
+        """
+        mask_series = (scene_df.action_type == 'S_A_L_T_WAVE_IF_CAN')
+        is_wave_command_issued = int(scene_df[mask_series].shape[0] > 0)
+        
+        return is_wave_command_issued
+    
+    
+    def get_walk_value(self, scene_df, verbose=False):
+        """
+        0=No Walk Command issued, 1=Walk Command issued
+        """
+        mask_series = (scene_df.action_type == 'S_A_L_T_WALK_IF_CAN')
+        is_walk_command_issued = int(scene_df[mask_series].shape[0] > 0)
+        
+        return is_walk_command_issued
+    
+    
+    ### Rasch Analysis Patient Functions ###
+    
+    
+    def get_treatment_value(self, patient_df, injury_id, verbose=False):
+        """
+        0=No Treatment or Wrong Treatment, 1=Correct Treatment
+        """
+
+        # Get required procedure
+        mask_series = (patient_df.injury_id == injury_id) & ~patient_df.injury_record_required_procedure.isnull()
+        df = patient_df[mask_series]
+        if not df.shape[0]: return np.nan
+        required_procedure = df.injury_record_required_procedure.squeeze()
+
+        # Get first attempt
+        mask_series = (patient_df.injury_id == injury_id) & ~patient_df.injury_treated_required_procedure.isnull()
+        df = patient_df[mask_series]
+        if not df.shape[0]: return 0
+        first_procedure = df.sort_values(['action_tick']).injury_treated_required_procedure.tolist()[0]
+
+        is_injury_treated = int(first_procedure == required_procedure)
+
+        return is_injury_treated
+    
+    
+    def get_tag_value(self, patient_df, verbose=False):
+        """
+        0=No Tag or Wrong Tag, 1=Correct Tag
+        """
+        try:
+            is_tag_correct = self.is_tag_correct(patient_df, verbose=verbose)
+            if np.isnan(is_tag_correct): is_tag_correct = 0
+            else: is_tag_correct = int(is_tag_correct)
+        except: is_tag_correct = 0
+
+        return is_tag_correct
+    
+    
+    def get_pulse_value(self, patient_df, verbose=False):
+        """
+        0=No Pulse Taken, 1=Pulse Taken
+        """
+        mask_series = (patient_df.action_type == 'PULSE_TAKEN')
+        is_pulse_taken = int(patient_df[mask_series].shape[0] > 0)
+        
+        return is_pulse_taken
+    
+    
     ### Plotting Functions ###
     
     
@@ -1848,7 +1960,7 @@ class FRVRSUtilities(object):
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             engagement_start = self.get_first_patient_interaction(patient_df)
             mask_series = (patient_df.action_tick == engagement_start) & ~patient_df.location_id.isnull()
-            if patient_df[mask_series].shape[0]:
+            if mask_series.any():
                 engagement_location = eval(patient_df[mask_series].location_id.tolist()[0])
                 location_tuple = (engagement_location[0], engagement_location[2])
                 engagement_tuple = (patient_id, engagement_start, location_tuple)
@@ -1911,7 +2023,7 @@ class FRVRSUtilities(object):
         ax.legend(loc='best')
         
         # Add title
-        title = f'Order-of-Engagement Map for UUID {scene_df.session_uuid.unique().item()} ({humanize.ordinal(scene_df.scene_index.unique().item()+1)} Scene)'
+        title = f'Order-of-Engagement Map for UUID {scene_df.session_uuid.unique().item()} ({humanize.ordinal(scene_df.scene_id.unique().item()+1)} Scene)'
         ax.set_title(title);
     
     
@@ -2074,9 +2186,9 @@ class FRVRSUtilities(object):
         # Check if the DataFrame is not empty
         if df1.shape[0]:
             
-            # Extract session_uuid and scene_index from the extreme row
+            # Extract session_uuid and scene_id from the extreme row
             session_uuid = df1.session_uuid.squeeze()
-            scene_index = df1.scene_index.squeeze()
+            scene_id = df1.scene_id.squeeze()
             
             # Create NotebookUtilities instance if nu is not provided
             if nu is None:
@@ -2088,10 +2200,10 @@ class FRVRSUtilities(object):
             
             # Load frvrs_logs_df DataFrame
             frvrs_logs_df = nu.load_object('frvrs_logs_df')
-            base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_index == scene_index)
+            base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id)
             
             # Construct the title for the visualization
-            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(scene_index+1)} Scene)'
+            title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(scene_id+1)} Scene)'
             title += f' showing trainee with the {title_str} ('
             if is_ascending: column_value = df1[sorting_column].min()
             else: column_value = df1[sorting_column].max()
@@ -2139,10 +2251,10 @@ class FRVRSUtilities(object):
         # Get a random scene from within the session if not provided
         if random_scene_index is None:
             mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid)
-            random_scene_index = random.choice(self.frvrs_logs_df[mask_series].scene_index.unique())
+            random_scene_index = random.choice(self.frvrs_logs_df[mask_series].scene_id.unique())
         
         # Get the scene mask
-        scene_mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid) & (self.frvrs_logs_df.scene_index == random_scene_index)
+        scene_mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid) & (self.frvrs_logs_df.scene_id == random_scene_index)
         
         # Get the event time and elapsed time of each person engaged
         mask_series = scene_mask_series & self.frvrs_logs_df.action_type.isin([
@@ -2341,10 +2453,10 @@ class FRVRSUtilities(object):
             mask_series = (frvrs_logs_df.session_uuid == random_session_uuid)
             mask_series &= (frvrs_logs_df.action_type.isin(['PLAYER_GAZE']))
             mask_series &= ~frvrs_logs_df.player_gaze_patient_id.isnull()
-            random_scene_index = random.choice(frvrs_logs_df[mask_series].scene_index.unique())
+            random_scene_index = random.choice(frvrs_logs_df[mask_series].scene_id.unique())
         
         # Get the scene mask
-        scene_mask_series = (frvrs_logs_df.session_uuid == random_session_uuid) & (frvrs_logs_df.scene_index == random_scene_index)
+        scene_mask_series = (frvrs_logs_df.session_uuid == random_session_uuid) & (frvrs_logs_df.scene_id == random_scene_index)
         
         # Get the elapsed time of the player gaze
         mask_series = scene_mask_series & (frvrs_logs_df.action_type.isin(['PLAYER_GAZE', 'SESSION_END', 'SESSION_START']))
@@ -2537,27 +2649,27 @@ class FRVRSUtilities(object):
             df: A Pandas DataFrame containing the player action data with its index reset.
         
         Returns:
-            A Pandas DataFrame with the `scene_index` column added.
+            A Pandas DataFrame with the `scene_id` column added.
         """
     
         # Set the whole file to zero first
         df = df.sort_values('action_tick')
-        scene_index = 0
-        df['scene_index'] = scene_index
+        scene_id = 0
+        df['scene_id'] = scene_id
         
         # Delineate runs by the session end below them
         mask_series = (df.action_type == 'SESSION_END')
         lesser_idx = df[mask_series].index.min()
         mask_series &= (df.index > lesser_idx)
-        while df[mask_series].shape[0]:
+        while mask_series.any():
             
             # Find this session end as the bottom
             greater_idx = df[mask_series].index.min()
             
             # Add everything above that to this run
             mask_series = (df.index > lesser_idx) & (df.index <= greater_idx)
-            scene_index += 1
-            df.loc[mask_series, 'scene_index'] = scene_index
+            scene_id += 1
+            df.loc[mask_series, 'scene_id'] = scene_id
             
             # Delineate runs by the session end below them
             lesser_idx = greater_idx
@@ -2569,10 +2681,10 @@ class FRVRSUtilities(object):
         
         # Add everything below that to the last run
         mask_series = (df.index >= lesser_idx)
-        df.loc[mask_series, 'scene_index'] = scene_index
+        df.loc[mask_series, 'scene_id'] = scene_id
         
         # Convert the scene index column to int64
-        df.scene_index = df.scene_index.astype('int64')
+        df.scene_id = df.scene_id.astype('int64')
         
         return df
     
