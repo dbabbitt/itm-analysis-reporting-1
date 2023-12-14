@@ -2043,11 +2043,11 @@ class FRVRSUtilities(object):
             None: The function either displays the plot or saves it to a file.
     
         Note:
-        - This function visualizes player movement based on data in the DataFrame `frvrs_logs_df`.
-        - It can display player positions, locations, and teleportations.
-        - Use `scene_mask` to filter the data for a specific scene.
-        - Set `save_only` to True to save the plot as a PNG file with the specified `title`.
-        - Set `verbose` to True to enable verbose printing.
+            This function visualizes player movement based on data in the DataFrame `frvrs_logs_df`.
+            It can display player positions, locations, and teleportations.
+            Use `scene_mask` to filter the data for a specific scene.
+            Set `save_only` to True to save the plot as a PNG file with the specified `title`.
+            Set `verbose` to True to enable verbose printing.
         """
         
         # Load the notebook utilities if not provided
