@@ -1,0 +1,156 @@
+file_path,nlp_word,nlp_tag,nlp_type,nlp_pofs,is_probe,is_probe_probability
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,mm,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,Hg,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,n%20the%20Battlefield%20J%20Trauma%202012.pdf,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,YES,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,YES,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Prolonged_Casualty_Care_Guidelines_21_Dec_2021_ID91.txt,YES,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Tactical_Combat_Casualty_Care_(TCCC)_Guidelines_for_Medical_Personnel.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Tactical_Combat_Casualty_Care_(TCCC)_Guidelines_for_Medical_Personnel.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Tactical_Combat_Casualty_Care_(TCCC)_Guidelines_for_Medical_Personnel.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/TCCC - Guidelines for Medical Personnel.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/TCCC - Guidelines for Medical Personnel.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/TCCC - Guidelines for Medical Personnel.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/TCCC_Quick_Reference_Guide_2017.txt,-Chin,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/TCCC_Quick_Reference_Guide_2017.txt,-Chin,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/TCCC_Quick_Reference_Guide_2017.txt,Administer,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 1.txt,en,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 12.txt,right,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 21.txt,quote,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 22.txt,right,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,mm,UH,QUANTITY,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,quote,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,Well,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,mm,UH,QUANTITY,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,Hg,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,Hg,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,Hg,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,UH,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 23.txt,right,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 24.txt,mm,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 25.txt,Well,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 27.txt,Oh,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 27.txt,well,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 32.txt,well,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,%,UH,ORG,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,%,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,mm,UH,QUANTITY,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,Oh,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 33.txt,O,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 34.txt,tag,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 36.txt,%,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 36.txt,os,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 38.txt,Hg,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 40.txt,Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 40.txt,os,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 40.txt,okay,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 8.txt,hey,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 9.txt,ah,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 9.txt,-,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Fundamentals of Military Medicine/Fund ch 9.txt,ha,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-01.txt",please,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-02.txt",say,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Please,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-03.txt",Please,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-05.txt",Ay,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-05.txt",yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-06.txt",no,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-07.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-07.txt",Hey,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-07.txt",well,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-07.txt",yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-07.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-07.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-08.txt",Right,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-09.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-09.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-10.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-10.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-10.txt",yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-10.txt",yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-11.txt",Drs,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-11.txt","49,95–97",UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-11.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-11.txt",Drs,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-11.txt",Drs,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 1/Ethics-ch-12.txt",like,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-13.txt",Oh,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-13.txt",yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-13.txt",Please,UH,WORK_OF_ART,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-13.txt",Well,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-13.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-13.txt",Please,UH,WORK_OF_ART,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-15.txt",right,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-15.txt",quote,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-15.txt",Drs,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-15.txt",Drs,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-16.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-16.txt",like,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-16.txt",Cc,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-16.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-16.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-17.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-17.txt",No,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-17.txt",please,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-18.txt",no,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-19.txt",no,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-19.txt",Oh,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-19.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-19.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-19.txt",well,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-20.txt",okay,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-20.txt",Um,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-20.txt",Pike,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-21.txt",T]hose,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-21.txt",Please,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-24.txt",no,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-27.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-27.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-27.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-27.txt",Yes,UH,,INTJ,False,0.0
+"../data/Domain_Knowledge/Military Medical Ethics, Vol 2/Ethics-ch-27.txt",Yes,UH,,INTJ,False,0.0
+../data/Domain_Knowledge/Rules of Engagement/ARN19354_FM 6-27 _C1_FINAL_WEB_v2.txt,like,UH,,INTJ,False,0.0
