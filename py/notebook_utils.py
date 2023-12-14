@@ -9,8 +9,6 @@
 
 from os import listdir as listdir, makedirs as makedirs, path as osp
 from pandas import DataFrame, Series, concat, read_csv, read_html
-try: from pysan.elements import get_alphabet
-except: get_alphabet = lambda sequence: set(sequence)
 from typing import List, Optional
 import matplotlib.pyplot as plt
 import numpy as np
@@ -113,6 +111,11 @@ class NotebookUtilities(object):
         # Various aspect ratios
         self.facebook_aspect_ratio = 1.91
         self.twitter_aspect_ratio = 16/9
+        
+        try:
+            from pysan.elements import get_alphabet
+            self.get_alphabet = get_alphabet
+        except: self.get_alphabet = lambda sequence: set(sequence)
 
     ### String Functions ###
     
@@ -291,12 +294,6 @@ class NotebookUtilities(object):
         
         # Return the resulting data frame
         return name_similarities_df
-    
-    
-    def get_alphabet(self, sequence, verbose=False):
-        alphabet_set = set(sequence)
-        
-        return alphabet_set
 
     
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
@@ -2157,13 +2154,14 @@ class NotebookUtilities(object):
         np_sequence = np.array(sequence)
         
         # Get the unique characters in the sequence and potentially use them to set up the color dictionary
-        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list): alphabet_list = sorted(get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
-        else: alphabet_list = sorted(get_alphabet(sequence+highlighted_ngrams))
+        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list): alphabet_list = sorted(self.get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
+        else: alphabet_list = sorted(self.get_alphabet(sequence+highlighted_ngrams))
         if last_element in alphabet_list:
             alphabet_list.remove(last_element)
             alphabet_list.append(last_element)
         if first_element in alphabet_list: alphabet_list.insert(0, alphabet_list.pop(alphabet_list.index(first_element)))
         if color_dict is None: color_dict = {a: None for a in alphabet_list}
+        else: color_dict = {a: color_dict.get(a) for a in alphabet_list}
         
         # Get the length of the alphabet
         alphabet_len = len(alphabet_list)
@@ -2292,13 +2290,13 @@ class NotebookUtilities(object):
             np_sequence = np.array(sequence)
             
             # Determine the number of unique values in the sequence
-            alphabet_len = len(get_alphabet(sequence))
+            alphabet_len = len(self.get_alphabet(sequence))
             
             # Disable automatic color cycling
             plt.gca().set_prop_cycle(None)
             
             # Get the unique values in the sequence
-            unique_values = get_alphabet(sequence)
+            unique_values = self.get_alphabet(sequence)
             
             for i, value in enumerate(unique_values):
                 
