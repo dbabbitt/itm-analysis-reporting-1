@@ -10,6 +10,7 @@
 from os import listdir as listdir, makedirs as makedirs, path as osp
 from pandas import DataFrame, Series, concat, read_csv, read_html
 from typing import List, Optional
+import math
 import matplotlib.pyplot as plt
 import numpy as np
 import os
@@ -372,6 +373,80 @@ class NotebookUtilities(object):
         ]
     
         return sequences
+    
+    
+    def get_ndistinct_subsequences(self, sequence, verbose=False):
+        """
+        Note:
+            This replaces from pysan import get_ndistinct_subsequences
+        """
+
+        # This implementation works on strings, so parse non-strings to strings
+        if (type(sequence) is not str) or (not all([(len(str(e)) == 1) for e in sequence])):
+            new_sequence, string_to_integer_map = self.convert_strings_to_integers(sequence, alphabet_list=None)
+            sequence = []
+            for e in new_sequence: sequence.append(e)
+        if verbose: print('sequence', sequence)
+
+        # Create an array to store index of last
+        last = [-1 for i in range(256 + 1)] # hard-coded value needs explaining -ojs
+
+        # Length of input string
+        sequence_length = len(sequence)
+
+        # dp[i] is going to store count of discount subsequence of length of i
+        dp = [-2 for i in range(sequence_length + 1)]
+
+        # Empty substring has only one subseqence
+        dp[0] = 1
+
+        # Traverse through all lengths from 1 to n 
+        for i in range(1, sequence_length + 1):
+
+            # Number of subseqence with substring str[0...i-1]
+            dp[i] = 2 * dp[i - 1]
+
+            # If current character has appeared before, then remove all subseqences ending with previous occurrence
+            if last[sequence[i - 1]] != -1: dp[i] = dp[i] - dp[last[sequence[i - 1]]]
+
+            last[sequence[i - 1]] = i - 1
+
+        return dp[sequence_length]
+    
+    
+    def get_turbulence(self, sequence, verbose=False):
+        '''
+        Computes turbulence for a given sequence, based on
+        [Elzinga & Liefbroer's 2007 definition](https://www.researchgate.net/publication/225402919_De-standardization_of_Family-Life_Trajectories_of_Young_Adults_A_Cross-National_Comparison_Using_Sequence_Analysis)
+        which is also implemented in the [TraMineR](http://traminer.unige.ch/doc/seqST.html) sequence analysis library.
+
+        Note:
+            This replaces from pysan import get_turbulence
+        '''
+        import statistics
+        phi = self.get_ndistinct_subsequences(sequence, verbose=verbose)
+        if verbose: print('phi', phi)
+        
+        from pysan.statistics import get_spells
+        state_durations = [value for key, value in get_spells(sequence)]
+        if verbose: print('durations', state_durations)
+        if verbose: print('mean duration', statistics.mean(state_durations))
+        
+        try: variance_of_state_durations = statistics.variance(state_durations)
+        except: variance_of_state_durations = 0.0
+        if verbose: print('variance', variance_of_state_durations)
+        
+        tbar = statistics.mean(state_durations)
+        
+        maximum_state_duration_variance = (len(sequence) - 1) * (1 - tbar) ** 2
+        if verbose: print('smax', maximum_state_duration_variance)
+        
+        top_right = maximum_state_duration_variance + 1
+        bot_right = variance_of_state_durations + 1
+        turbulence = math.log2(phi * (top_right / bot_right))
+        if verbose: print('turbulence', turbulence)
+        
+        return turbulence
     
     
     def get_shape(self, list_of_lists):
@@ -1768,7 +1843,6 @@ class NotebookUtilities(object):
             float: The Euclidean distance between the two points.
         """
         x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
-        import math
         euclidean_distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
     
         return euclidean_distance
