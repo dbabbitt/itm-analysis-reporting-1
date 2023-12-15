@@ -302,7 +302,8 @@ class NotebookUtilities(object):
         
         Parameters:
             sequence: A sequence of strings.
-            alphabet_list: A list of the unique elements of sequence.
+            alphabet_list: A list of the unique elements of sequence,
+                           passed in to stabilize the order.
         
         Returns:
             A sequence of integers.
@@ -317,7 +318,9 @@ class NotebookUtilities(object):
         new_sequence = np.zeros_like(sequence, dtype=int)
         
         for i, string in enumerate(sequence):
-            if string not in string_to_integer_map: string_to_integer_map[string] = alphabet_list.index(string)
+            if string not in string_to_integer_map:
+                if string not in alphabet_list: string_to_integer_map[string] = -1
+                else: string_to_integer_map[string] = alphabet_list.index(string)
             new_sequence[i] = string_to_integer_map[string]
         new_sequence = new_sequence.astype(int)
         
@@ -2133,7 +2136,7 @@ class NotebookUtilities(object):
         
         return ax
     
-    def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', verbose=False):
+    def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
         """
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
         The optional highlighted_ngrams parameter can be one or more n-grams to be outlined in a red box.
@@ -2144,6 +2147,11 @@ class NotebookUtilities(object):
             color_dict: An optional dictionary whose keys are the alphabet list and whose values are
                         a single color format string to allow consistent visualization between calls.
             suptitle: An optional title for the plot.
+            first_element: The element in alphabet_list that will be forced to the beginning if
+                           already in the list. Defaults to SESSION_START.
+            last_element: The element in alphabet_list that will be forced to the end if
+                           already in the list. Defaults to SESSION_END.
+            alphabet_list: A list of strings or integers representing the set of elements in sequence.
             verbose: A boolean indicating whether to print verbose output.
         
         Returns:
@@ -2154,12 +2162,16 @@ class NotebookUtilities(object):
         np_sequence = np.array(sequence)
         
         # Get the unique characters in the sequence and potentially use them to set up the color dictionary
-        if highlighted_ngrams and (type(highlighted_ngrams[0]) is list): alphabet_list = sorted(self.get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
-        else: alphabet_list = sorted(self.get_alphabet(sequence+highlighted_ngrams))
+        if alphabet_list is None:
+            if highlighted_ngrams and (type(highlighted_ngrams[0]) is list):
+                alphabet_list = sorted(self.get_alphabet(sequence+[el for sublist in highlighted_ngrams for el in sublist]))
+            else: alphabet_list = sorted(self.get_alphabet(sequence+highlighted_ngrams))
         if last_element in alphabet_list:
             alphabet_list.remove(last_element)
             alphabet_list.append(last_element)
         if first_element in alphabet_list: alphabet_list.insert(0, alphabet_list.pop(alphabet_list.index(first_element)))
+        
+        # Set up the color dictionary so that its keys consist of the elements in alphabet_list
         if color_dict is None: color_dict = {a: None for a in alphabet_list}
         else: color_dict = {a: color_dict.get(a) for a in alphabet_list}
         
@@ -2167,12 +2179,13 @@ class NotebookUtilities(object):
         alphabet_len = len(alphabet_list)
         
         # Convert the sequence to integers
-        int_sequence, _ = self.convert_strings_to_integers(np_sequence)
+        int_sequence, _ = self.convert_strings_to_integers(np_sequence, alphabet_list=alphabet_list)
         
         # Create a string-to-integer map
         if highlighted_ngrams and (type(highlighted_ngrams[0]) is list):
-            _, string_to_integer_map = self.convert_strings_to_integers(sequence+[el for sublist in highlighted_ngrams for el in sublist])
-        else: _, string_to_integer_map = self.convert_strings_to_integers(sequence+highlighted_ngrams)
+            _, string_to_integer_map = self.convert_strings_to_integers(sequence+[el for sublist in highlighted_ngrams for el in sublist], alphabet_list=alphabet_list)
+        else: _, string_to_integer_map = self.convert_strings_to_integers(sequence+highlighted_ngrams, alphabet_list=alphabet_list)
+        # if verbose: print(string_to_integer_map)
         
         # If the sequence is not already in integer format, convert it
         if (np_sequence.dtype.str not in ['<U21', '<U11']): int_sequence = np_sequence
@@ -2190,41 +2203,54 @@ class NotebookUtilities(object):
         
         # Iterate over the alphabet and plot the points for each character
         for i, value in enumerate(alphabet_list):
-            
-            # Print verbose output if requested
-            if verbose: print(i, value)
+            # if verbose: print(i, value)
             
             # Get the positions of the current character in the sequence
             points = np.where(np_sequence == value, i, np.nan)
-            
-            # Print verbose output if requested
-            if verbose: print(range(len(np_sequence)))
-            if verbose: print(points)
+            # if verbose: print(range(len(np_sequence)))
+            # if verbose: print(points)
             
             # Plot the points
             plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35, color=color_dict[value])
-            if verbose:
-                color_cycle = plt.rcParams['axes.prop_cycle']
-                print('\nPrinting the colors in the color cycle:')
-                for color in color_cycle: print(color)
-                print()
+            # if verbose:
+                # color_cycle = plt.rcParams['axes.prop_cycle']
+                # print('\nPrinting the colors in the color cycle:')
+                # for color in color_cycle: print(color)
+                # print()
         
-        # Set the yticks
-        plt.yticks(range(alphabet_len), [value for value in alphabet_list])
+        # Set the yticks label values
+        plt.yticks(range(alphabet_len), alphabet_list)
+        
+        # Match the label colors with the color cycle and color dictionary
+        from itertools import cycle
+        
+        # Get the color cycle from rcParams
+        prop_cycle = plt.rcParams['axes.prop_cycle']
+        colors = cycle(prop_cycle.by_key()['color'])
+        
+        colors_list = []
+        for key in alphabet_list:
+            value = color_dict[key]
+            
+            # Get the next color in the cycle
+            if (value is None):
+                color = next(colors)
+                colors_list.append(color)
+            
+            else: colors_list.append(value)
+        # if verbose: print(f'colors_list = {colors_list}')
+        
+        # Set the yticks label color
+        for label, color in zip(plt.gca().get_yticklabels(), colors_list): label.set_color(color)
         
         # Set the y limits
         plt.ylim(-1, alphabet_len)
         
         # Highlight any of the n-grams given
         if highlighted_ngrams != []:
-            
-            # Print verbose output if requested
-            if verbose: display(highlighted_ngrams)
+            # if verbose: display(highlighted_ngrams)
             
             def highlight_ngram(ngram):
-                
-                # Print verbose output if requested
-                if verbose: display(ngram)
                 
                 # Get the length of the n-gram
                 n = len(ngram)
@@ -2233,18 +2259,16 @@ class NotebookUtilities(object):
                 match_positions = []
                 for x in range(len(int_sequence) - n + 1):
                     this_ngram = list(int_sequence[x:x + n])
-                    
-                    # Print verbose output if requested
-                    if verbose: print(str(this_ngram), str(ngram))
-                    
                     if str(this_ngram) == str(ngram): match_positions.append(x)
                 
                 # Draw a red box around each match
+                # if verbose: print(f'ngram={ngram}, min(ngram)={min(ngram)}, max(ngram)={max(ngram)}, match_positions={match_positions}')
                 for position in match_positions:
-                    bot = min(ngram) - 0.5
-                    top = max(ngram) + 0.5
+                    bot = min(ngram) - 0.25
+                    top = max(ngram) + 0.25
                     left = position - 0.25
                     right = left + n - 0.5
+                    if verbose: print(f'bot={bot}, top={top}, left={left}, right={right}')
                     
                     line_width = 1
                     plt.plot([left,right], [bot,bot], color='red', linewidth=line_width)
@@ -2260,8 +2284,36 @@ class NotebookUtilities(object):
             else:
                 for ngram in highlighted_ngrams:
                     if type(ngram[0]) is str: highlight_ngram([string_to_integer_map[x] for x in ngram])
+                    elif type(ngram[0]) is int: highlight_ngram(ngram)
+                    else: raise Exception('Invalid data format', ngram)
         
-        if suptitle is not None: fig.suptitle(suptitle, y=1.2)
+        if suptitle is not None:
+            if (alphabet_len <= 6):
+                # from scipy.optimize import curve_fit
+                # import matplotlib.pyplot as plt
+                # import numpy as np
+                # x = np.array([1, 4, 6])
+                # y = np.array([1.95, 1.08, 1.0])
+                # def linear_func(x, m, b): return m * x + b
+                # def exp_decay_func(x, a, b, c): return a * np.exp(-b * x) + c
+                # popt, pcov = curve_fit(linear_func, x, y)
+                # popt, pcov = curve_fit(exp_decay_func, x, y)
+                # m, b = popt
+                # a, b, c = popt
+                # fitted_equation = f'y = {m:.2f}*alphabet_len + {b:.2f}'
+                # fitted_equation = f'y = {a:.2f} * np.exp(-{b:.2f} * alphabet_len) + {c:.2f}'
+                # print(fitted_equation)
+                # plt.plot(x, y, 'o', label='Data points')
+                # plt.plot(x, linear_func(x, *popt), label='Linear line')
+                # plt.plot(x, exp_decay_func(x, *popt), label='Exponential Decay line')
+                # plt.xlabel('x')
+                # plt.ylabel('y')
+                # plt.legend()
+                # plt.show()
+                y = 2.06 * np.exp(-0.75 * alphabet_len) + 0.98
+                if verbose: print(f'alphabet_len={alphabet_len}, y={y}')
+            else: y = 0.95
+            fig.suptitle(suptitle, y=y)
         
         return fig
     
