@@ -801,10 +801,53 @@ class NotebookUtilities(object):
                 
                 # Remove the folder and its contents
                 shutil.rmtree(folder_path)
-
+    
+    
+    def get_top_level_folder_paths(self, folder_path, verbose=False):
+        """
+        Gets all top-level folder paths within a given directory.
+        
+        Parameters:
+            folder_path (str): The path to the directory to scan for top-level folders.
+            verbose (bool, optional): Whether to print debug information about the process. Defaults to False.
+        
+        Returns:
+            list[str]: A list of absolute paths to all top-level folders within the provided directory.
+        
+        Raises:
+            FileNotFoundError: If the provided folder path does not exist.
+            NotADirectoryError: If the provided folder path points to a file or non-existing directory.
+        
+        Notes:
+            This function does not recursively scan for subfolders within the top-level folders.
+            If `verbose` is True, it will print the number of discovered top-level folders.
+        """
+        
+        # Make sure the provided folder exists and is a directory
+        if not os.path.exists(folder_path): raise FileNotFoundError(f'Directory {folder_path} does not exist.')
+        if not os.path.isdir(folder_path): raise NotADirectoryError(f'Path {folder_path} is not a directory.')
+        
+        # Initialize an empty list to store top-level folder paths
+        top_level_folders = []
+        
+        # Iterate through items in the specified folder
+        for item in os.listdir(folder_path):
+            
+            # Construct the full path for each item
+            full_item_path = os.path.join(folder_path, item)
+            
+            # Check if the item is a directory, and if so, add its path to the list
+            if os.path.isdir(full_item_path): top_level_folders.append(full_item_path)
+        
+        # Optionally print information based on the `verbose` flag
+        if verbose: print(f'Found {len(top_level_folders)} top-level folders in {folder_path}.')
+        
+        # Return the list of top-level folder paths
+        return top_level_folders
+    
     
     ### Storage Functions ###
-
+    
     
     def csv_exists(self, csv_name, folder_path=None, verbose=False):
         """
@@ -2209,6 +2252,47 @@ class NotebookUtilities(object):
         ax.set_yticklabels(yticklabels_list)
         
         return ax
+    
+    
+    def plot_sequence_by_scene_tuple(
+        self, scene_tuple, sequence, summary_statistics_df=None, frvrs_logs_df=None, actions_mask_series=None, highlighted_ngrams=[], color_dict={'SESSION_START': 'green', 'SESSION_END': 'red'},
+        verbose=False
+    ):
+        session_uuid = scene_tuple[0]
+        scene_id = scene_tuple[1]
+
+        # Create a plot title with summary statistics
+        if verbose: display(summary_statistics_df)
+        if (summary_statistics_df is None):
+            if self.pickle_exists('summary_statistics_df'): summary_statistics_df = self.load_object('summary_statistics_df')
+            else: raise Exception('You need to provide summary_statistics_df')
+        mask_series = (summary_statistics_df.session_uuid == session_uuid) & (summary_statistics_df.scene_id == scene_id)
+        df = summary_statistics_df[mask_series]
+        entropy = df.sequence_entropy.squeeze()
+        turbulence = df.sequence_turbulence.squeeze()
+        complexity = df.sequence_complexity.squeeze()
+        suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
+
+        # Build a list of the first of each action type
+        if verbose: display(frvrs_logs_df)
+        if (frvrs_logs_df is None):
+            if self.pickle_exists('frvrs_logs_df'): frvrs_logs_df = self.load_object('frvrs_logs_df')
+            else: raise Exception('You need to provide frvrs_logs_df')
+        if (actions_mask_series is None): actions_mask_series = [True] * frvrs_logs_df.shape[0]
+        mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id) & actions_mask_series
+        scene_df = frvrs_logs_df[mask_series].sort_values('action_tick')
+        actions_list = []
+        for row_index, row_series in scene_df.iterrows():
+            action_type = row_series.voice_command_message
+            if pd.notnull(action_type) and (action_type not in actions_list): actions_list.append(action_type)
+            action_type = row_series.action_type
+            if pd.notnull(action_type) and (action_type != 'VOICE_COMMAND') and (action_type not in actions_list): actions_list.append(action_type)
+
+        if verbose: print(sequence)
+        if(sequence): fig = self.plot_sequence(
+            sequence, highlighted_ngrams=highlighted_ngrams, color_dict=color_dict, suptitle=suptitle, alphabet_list=actions_list, verbose=verbose
+        )
+    
     
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
         """

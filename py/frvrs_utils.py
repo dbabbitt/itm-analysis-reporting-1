@@ -287,24 +287,22 @@ class FRVRSUtilities(object):
         bool
             True if the file contains only one triage run, False otherwise.
         """
+        
         # Check if 'is_a_one_triage_file' column exists in the session data frame
         if 'is_a_one_triage_file' in session_df.columns: is_a_one_triage_file = session_df.is_a_one_triage_file.unique().item()
         else:
             
             # Filter out the triage files in this file name
             mask_series = (session_df.scene_type == 'Triage') & (session_df.is_scene_aborted == False)
-            mask_series &= (session_df.file_name == file_name)
-            
-            # Add the scene type for each run
-            actions_list = []
-            for scene_id, scene_df in session_df[mask_series].groupby('scene_id'): actions_list.append(self.get_scene_type(scene_df))
+            if file_name is not None: mask_series &= (session_df.file_name == file_name)
             
             # Get whether the file has only one triage run
-            is_a_one_triage_file = bool(actions_list.count('Triage') == 1)
-        
-        if verbose:
-            print('File name: {}'.format(file_name))
-            print('Is a one triage file: {}'.format(is_a_one_triage_file))
+            triage_scene_count = len(session_df[mask_series].groupby('scene_id').groups)
+            is_a_one_triage_file = bool(triage_scene_count == 1)
+            print(f'verbose={verbose}')
+            print(f'triage_scene_count={triage_scene_count}')
+            display(session_df[mask_series].groupby('scene_id').size())
+            raise
         
         # Return True if the file has only one triage run, False otherwise
         return is_a_one_triage_file
@@ -507,7 +505,11 @@ class FRVRSUtilities(object):
         """
         
         # Check if the scene_type column exists in the scene data frame, and get the unique value if it is
-        if 'scene_type' in scene_df.columns: scene_type = scene_df.scene_type.unique().item()
+        if 'scene_type' in scene_df.columns:
+            scene_types = scene_df.scene_type.unique()
+            if verbose: print(f'scene_types={scene_types}')
+            if scene_types.shape[0] > 1: raise Exception(f'scene_types={scene_types} has more than one entry')
+            else: scene_type = scene_types.item()
         
         else:
             
@@ -515,7 +517,7 @@ class FRVRSUtilities(object):
             scene_type = 'Triage'
             
             # Check if all of the patient IDs in the scene DataFrame contain the string 'mike', and, if so, set the scene type to 'Orientation'
-            if scene_df.patient_id.transform(lambda srs: all(srs.str.lower().str.contains('mike'))): scene_type = 'Orientation'
+            if all(scene_df.patient_id.dropna().transform(lambda srs: srs.str.lower().str.contains('mike'))): scene_type = 'Orientation'
         
         # Return the scene type
         return scene_type
@@ -2676,13 +2678,13 @@ class FRVRSUtilities(object):
             lesser_idx = greater_idx
             mask_series = (df.action_type == 'SESSION_END') & (df.index > lesser_idx)
         
-        # Find the last session start
-        mask_series = (df.action_type == 'SESSION_START')
+        # Find the last session end
+        mask_series = (df.action_type == 'SESSION_END')
         lesser_idx = df[mask_series].index.max()
         
-        # Add everything below that to the last run
-        mask_series = (df.index >= lesser_idx)
-        df.loc[mask_series, 'scene_id'] = scene_id
+        # Add everything below that to the next run
+        mask_series = (df.index > lesser_idx)
+        df.loc[mask_series, 'scene_id'] = scene_id + 1
         
         # Convert the scene index column to int64
         df.scene_id = df.scene_id.astype('int64')
