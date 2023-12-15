@@ -2545,13 +2545,14 @@ class FRVRSUtilities(object):
     ### Pandas Functions ###
     
     
-    def get_statistics(self, describable_df, columns_list):
+    def get_statistics(self, describable_df, columns_list, verbose=False):
         """
         Calculates and returns descriptive statistics for a subset of columns in a Pandas DataFrame.
         
         Parameters:
             describable_df (pandas.DataFrame): The input DataFrame containing the data to analyze.
             columns_list (list): List of column names for which statistics should be calculated.
+            verbose (bool): If True, display debug information.
         
         Returns:
             pandas.DataFrame: A DataFrame containing the descriptive statistics for the specified columns.
