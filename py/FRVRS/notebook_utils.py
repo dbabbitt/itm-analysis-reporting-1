@@ -2270,46 +2270,6 @@ class NotebookUtilities(object):
         return ax
     
     
-    def plot_sequence_by_scene_tuple(
-        self, scene_tuple, sequence, summary_statistics_df=None, frvrs_logs_df=None, actions_mask_series=None, highlighted_ngrams=[], color_dict={'SESSION_START': 'green', 'SESSION_END': 'red'},
-        verbose=False
-    ):
-        session_uuid = scene_tuple[0]
-        scene_id = scene_tuple[1]
-
-        # Create a plot title with summary statistics
-        if verbose: display(summary_statistics_df)
-        if (summary_statistics_df is None):
-            if self.pickle_exists('summary_statistics_df'): summary_statistics_df = self.load_object('summary_statistics_df')
-            else: raise Exception('You need to provide summary_statistics_df')
-        mask_series = (summary_statistics_df.session_uuid == session_uuid) & (summary_statistics_df.scene_id == scene_id)
-        df = summary_statistics_df[mask_series]
-        entropy = df.sequence_entropy.squeeze()
-        turbulence = df.sequence_turbulence.squeeze()
-        complexity = df.sequence_complexity.squeeze()
-        suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
-
-        # Build a list of the first of each action type
-        if verbose: display(frvrs_logs_df)
-        if (frvrs_logs_df is None):
-            if self.pickle_exists('frvrs_logs_df'): frvrs_logs_df = self.load_object('frvrs_logs_df')
-            else: raise Exception('You need to provide frvrs_logs_df')
-        if (actions_mask_series is None): actions_mask_series = [True] * frvrs_logs_df.shape[0]
-        mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id) & actions_mask_series
-        scene_df = frvrs_logs_df[mask_series].sort_values('action_tick')
-        actions_list = []
-        for row_index, row_series in scene_df.iterrows():
-            action_type = row_series.voice_command_message
-            if pd.notnull(action_type) and (action_type not in actions_list): actions_list.append(action_type)
-            action_type = row_series.action_type
-            if pd.notnull(action_type) and (action_type != 'VOICE_COMMAND') and (action_type not in actions_list): actions_list.append(action_type)
-
-        if verbose: print(sequence)
-        if(sequence): fig = self.plot_sequence(
-            sequence, highlighted_ngrams=highlighted_ngrams, color_dict=color_dict, suptitle=suptitle, alphabet_list=actions_list, verbose=verbose
-        )
-    
-    
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
         """
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
