@@ -115,7 +115,8 @@ class NotebookUtilities(object):
 
     ### String Functions ###
     
-    def compute_similarity(self, a: str, b: str) -> float:
+    @staticmethod
+    def compute_similarity(a: str, b: str) -> float:
         """
         Calculates the similarity between two strings.
 
@@ -134,7 +135,8 @@ class NotebookUtilities(object):
     ### List Functions ###
     
     
-    def conjunctify_nouns(self, noun_list=None, and_or='and', verbose=False):
+    @staticmethod
+    def conjunctify_nouns(noun_list=None, and_or='and', verbose=False):
         """
         Concatenates a list of nouns into a grammatically correct string with specified conjunctions.
         
@@ -323,7 +325,8 @@ class NotebookUtilities(object):
         return new_sequence, string_to_integer_map
     
     
-    def count_ngrams(self, actions_list, highlighted_ngrams):
+    @staticmethod
+    def count_ngrams(actions_list, highlighted_ngrams):
         """
         Counts how many times a given sequence of elements occurs in a list.
         
@@ -341,7 +344,8 @@ class NotebookUtilities(object):
         return count
     
     
-    def get_sequences_by_count(self, tg_dict, count=4):
+    @staticmethod
+    def get_sequences_by_count(tg_dict, count=4):
         """
         Get sequences from the input dictionary based on a specific sequence length.
 
@@ -444,7 +448,8 @@ class NotebookUtilities(object):
         return turbulence
     
     
-    def get_shape(self, list_of_lists):
+    @staticmethod
+    def get_shape(list_of_lists):
         """
         Returns the shape of a list of lists, assuming the sublists are all of the same length.
         
@@ -469,7 +474,8 @@ class NotebookUtilities(object):
         return (len(list_of_lists), num_cols)
     
     
-    def split_row_indices_list(self, splitting_indices_list, excluded_indices_list=[]):
+    @staticmethod
+    def split_row_indices_list(splitting_indices_list, excluded_indices_list=[]):
         """
         Splits a list of row indices into a list of lists, where each inner list
         contains a contiguous sequence of indices that are not in the excluded indices list.
@@ -513,7 +519,8 @@ class NotebookUtilities(object):
     ### File Functions ###
     
     
-    def get_function_file_path(self, func):
+    @staticmethod
+    def get_function_file_path(func):
         """
         Returns the relative or absolute file path where the function is stored.
 
@@ -588,7 +595,8 @@ class NotebookUtilities(object):
         return rogue_fns_set
     
     
-    def get_utility_file_functions(self, util_path=None):
+    @staticmethod
+    def get_utility_file_functions(util_path=None):
         """
         Extracts a set of function names already defined in the utility file.
         
@@ -685,7 +693,8 @@ class NotebookUtilities(object):
         return dfs_list
     
     
-    def open_path_in_notepad(self, path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe', verbose=True):
+    @staticmethod
+    def open_path_in_notepad(path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe', verbose=True):
         """
         Open a file in Notepad or a specified text editor.
         
@@ -798,7 +807,8 @@ class NotebookUtilities(object):
                 shutil.rmtree(folder_path)
     
     
-    def get_top_level_folder_paths(self, folder_path, verbose=False):
+    @staticmethod
+    def get_top_level_folder_paths(folder_path, verbose=False):
         """
         Gets all top-level folder paths within a given directory.
         
@@ -921,10 +931,11 @@ class NotebookUtilities(object):
         pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(pickle_name))
 
         return osp.isfile(pickle_path)
-
     
+    
+    @staticmethod
     def attempt_to_pickle(
-        self, df: DataFrame, pickle_path: str, raise_exception: bool = False,
+        df: DataFrame, pickle_path: str, raise_exception: bool = False,
         verbose: bool = True
     ) -> None:
         """
@@ -1137,7 +1148,8 @@ class NotebookUtilities(object):
     ### Module Functions ###
     
     
-    def get_dir_tree(self, module_name, contains_str=None, not_contains_str=None, verbose=False):
+    @staticmethod
+    def get_dir_tree(module_name, contains_str=None, not_contains_str=None, verbose=False):
         """
         Gets a list of all attributes in a given module.
         
@@ -1253,7 +1265,8 @@ class NotebookUtilities(object):
     ### URL and Soup Functions ###
     
     
-    def get_filename_from_url(self, url, verbose=False):
+    @staticmethod
+    def get_filename_from_url(url, verbose=False):
         """
         Extracts the filename from a given URL.
 
@@ -1505,7 +1518,8 @@ class NotebookUtilities(object):
         return row_dict
     
     
-    def get_column_descriptions(self, df, column_list=None, verbose=False):
+    @staticmethod
+    def get_column_descriptions(df, column_list=None, verbose=False):
         """
         Generate a DataFrame containing descriptive statistics for specified columns in a given DataFrame.
     
@@ -1595,7 +1609,8 @@ class NotebookUtilities(object):
         return blank_ranking_df
     
     
-    def get_inf_nan_mask(self, x_list, y_list):
+    @staticmethod
+    def get_inf_nan_mask(x_list, y_list):
         """
         Returns a mask indicating which elements of x_list and y_list are not inf or nan.
         
@@ -1617,9 +1632,10 @@ class NotebookUtilities(object):
         
         # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
         return np.logical_and(x_mask, y_mask)
-
     
-    def modalize_columns(self, df, columns_list, new_column):
+    
+    @staticmethod
+    def modalize_columns(df, columns_list, new_column):
         """
         Create a new column in a DataFrame representing the modal value of specified columns.
         
@@ -1648,9 +1664,10 @@ class NotebookUtilities(object):
         df.loc[mask_series, new_column] = df[mask_series][columns_list].apply(f, axis='columns')
     
         return df
-
     
-    def get_regexed_columns(self, df, search_regex=None, verbose=False):
+    
+    @staticmethod
+    def get_regexed_columns(df, search_regex=None, verbose=False):
         """
         Identify columns in a DataFrame that contain references based on a specified regex pattern.
         
@@ -1687,9 +1704,10 @@ class NotebookUtilities(object):
         columns_list = srs[srs != 0].index.tolist()
 
         return columns_list
-
     
-    def get_regexed_dataframe(self, filterable_df, columns_list, search_regex=None, verbose=False):
+    
+    @staticmethod
+    def get_regexed_dataframe(filterable_df, columns_list, search_regex=None, verbose=False):
         """
         Create a DataFrame that displays an example of what search_regex is finding for each column in columns_list.
         
@@ -1737,7 +1755,8 @@ class NotebookUtilities(object):
         return filtered_df
     
     
-    def convert_to_df(self, row_index, row_series, verbose=True):
+    @staticmethod
+    def convert_to_df(row_index, row_series, verbose=True):
         """
         Convert a row represented as a Pandas Series into a single-row DataFrame.
         
@@ -1839,7 +1858,8 @@ class NotebookUtilities(object):
     ### 3D Point Functions ###
     
     
-    def get_coordinates(self, second_point, first_point=None):
+    @staticmethod
+    def get_coordinates(second_point, first_point=None):
         """
         Get the coordinates of two 3D points.
     
@@ -1902,7 +1922,8 @@ class NotebookUtilities(object):
     ### Sub-sampling Functions ###
     
     
-    def get_minority_combinations(self, sample_df, groupby_columns):
+    @staticmethod
+    def get_minority_combinations(sample_df, groupby_columns):
         """
         Get the minority combinations of a DataFrame.
         
@@ -1926,7 +1947,8 @@ class NotebookUtilities(object):
         return df
     
     
-    def get_random_subdictionary(self, super_dict, n=5):
+    @staticmethod
+    def get_random_subdictionary(super_dict, n=5):
         """
         Extracts a random subdictionary with a specified number of key-value pairs from a given superdictionary.
         
@@ -1959,7 +1981,8 @@ class NotebookUtilities(object):
     ### Plotting Functions ###
     
     
-    def get_color_cycler(self, n):
+    @staticmethod
+    def get_color_cycler(n):
         """
         Generate a color cycler for plotting with a specified number of colors.
         
@@ -2115,7 +2138,8 @@ class NotebookUtilities(object):
         return fig
     
     
-    def plot_line_with_error_bars(self, df, xname, xlabel, xtick_text_fn, yname, ylabel, ytick_text_fn, title):
+    @staticmethod
+    def plot_line_with_error_bars(df, xname, xlabel, xtick_text_fn, yname, ylabel, ytick_text_fn, title):
         """
         Creates a line plot with error bars to visualize the mean and standard deviation of a numerical variable
         grouped by another categorical variable.
@@ -2172,7 +2196,8 @@ class NotebookUtilities(object):
         ax.set_yticklabels(yticklabels_list);
     
     
-    def plot_histogram(self, df, xname, xlabel, xtick_text_fn, title, ylabel=None, xticks_are_temporal=False, ax=None, color=None, bins=100):
+    @staticmethod
+    def plot_histogram(df, xname, xlabel, xtick_text_fn, title, ylabel=None, xticks_are_temporal=False, ax=None, color=None, bins=100):
         """
         Plots a histogram of a DataFrame column.
         
