@@ -115,7 +115,8 @@ class FRVRSUtilities(object):
     ### String Functions ###
     
     
-    def format_timedelta(self, timedelta, minimum_unit='seconds'):
+    @staticmethod
+    def format_timedelta(timedelta, minimum_unit='seconds'):
         """
         Formats a timedelta object to a string.
         
@@ -148,7 +149,8 @@ class FRVRSUtilities(object):
     ### List Functions ###
     
     
-    def replace_consecutive_elements(self, actions_list, element='PATIENT_ENGAGED'):
+    @staticmethod
+    def replace_consecutive_elements(actions_list, element='PATIENT_ENGAGED'):
         """
         Replaces consecutive elements in a list with a count of how many there are in a row.
         
@@ -177,7 +179,8 @@ class FRVRSUtilities(object):
     ### File Functions ###
     
     
-    def get_new_file_name(self, old_file_name):
+    @staticmethod
+    def get_new_file_name(old_file_name):
         """
         Generate a new file name based on the action tick extracted from the old file.
         
@@ -222,7 +225,8 @@ class FRVRSUtilities(object):
     ### Session Functions ###
     
     
-    def get_session_groupby(self, frvrs_logs_df=None, mask_series=None, extra_column=None):
+    @staticmethod
+    def get_session_groupby(frvrs_logs_df=None, mask_series=None, extra_column=None):
         """
         Group the FRVRS logs DataFrame by session UUID, with optional additional grouping by an extra column,
         based on the provided mask and extra column parameters.
@@ -259,7 +263,8 @@ class FRVRSUtilities(object):
         return gb
     
     
-    def get_is_a_one_triage_file(self, session_df, file_name=None, verbose=False):
+    @staticmethod
+    def get_is_a_one_triage_file(session_df, file_name=None, verbose=False):
         """
         Check if a session DataFrame has only one triage run.
 
@@ -298,7 +303,8 @@ class FRVRSUtilities(object):
         return is_a_one_triage_file
     
     
-    def get_file_name(self, session_df, verbose=False):
+    @staticmethod
+    def get_file_name(session_df, verbose=False):
         """
         Retrieve the unique file name associated with the given session DataFrame.
 
@@ -324,7 +330,8 @@ class FRVRSUtilities(object):
         return file_name
     
     
-    def get_logger_version(self, session_df, verbose=False):
+    @staticmethod
+    def get_logger_version(session_df, verbose=False):
         """
         Retrieve the unique logger version associated with the given session DataFrame.
 
@@ -351,7 +358,8 @@ class FRVRSUtilities(object):
         return logger_version
     
     
-    def get_is_duplicate_file(self, session_df, verbose=False):
+    @staticmethod
+    def get_is_duplicate_file(session_df, verbose=False):
         """
         Check if a session DataFrame is a duplicate file, i.e., if there is more than one unique file name for the session UUID.
         
@@ -380,7 +388,8 @@ class FRVRSUtilities(object):
     ### Scene Functions ###
     
     
-    def get_scene_start(self, scene_df, verbose=False):
+    @staticmethod
+    def get_scene_start(scene_df, verbose=False):
         """
         Get the start time of the scene DataFrame run.
         
@@ -406,7 +415,8 @@ class FRVRSUtilities(object):
         return run_start
     
     
-    def get_last_engagement(self, scene_df, verbose=False):
+    @staticmethod
+    def get_last_engagement(scene_df, verbose=False):
         """
         Get the last time a patient was engaged in the given scene DataFrame.
         
@@ -477,7 +487,8 @@ class FRVRSUtilities(object):
         return is_scene_aborted
     
     
-    def get_scene_type(self, scene_df, verbose=False):
+    @staticmethod
+    def get_scene_type(scene_df, verbose=False):
         """
         Gets the type of a scene.
         
@@ -513,7 +524,8 @@ class FRVRSUtilities(object):
         return scene_type
     
     
-    def get_scene_end(self, scene_df, verbose=False):
+    @staticmethod
+    def get_scene_end(scene_df, verbose=False):
         """
         Calculate the end time of a scene based on the maximum elapsed time in the input DataFrame.
         
@@ -567,7 +579,8 @@ class FRVRSUtilities(object):
         return triage_time
     
     
-    def get_patient_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_patient_count(scene_df, verbose=False):
         """
         Calculates the number of unique patient IDs in a given scene DataFrame.
         
@@ -678,7 +691,8 @@ class FRVRSUtilities(object):
         return total_actions
     
     
-    def get_injury_treated_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_injury_treated_count(scene_df, verbose=False):
         """
         Calculates the number of patients who have received injury treatment in a given scene DataFrame.
         
@@ -705,7 +719,8 @@ class FRVRSUtilities(object):
         return injury_treated_count
     
     
-    def get_injury_not_treated_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_injury_not_treated_count(scene_df, verbose=False):
         """
         Get the count of records in a scene DataFrame where injuries were not treated.
         
@@ -732,7 +747,8 @@ class FRVRSUtilities(object):
         return injury_not_treated_count
     
     
-    def get_injury_correctly_treated_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_injury_correctly_treated_count(scene_df, verbose=False):
         """
         Get the count of records in a scene DataFrame where injuries were correctly treated.
         
@@ -769,7 +785,8 @@ class FRVRSUtilities(object):
         return injury_correctly_treated_count
     
     
-    def get_injury_wrongly_treated_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_injury_wrongly_treated_count(scene_df, verbose=False):
         """
         Calculates the number of patients whose injuries have been incorrectly treated in a given scene DataFrame.
         
@@ -804,7 +821,8 @@ class FRVRSUtilities(object):
         return injury_wrongly_treated_count
     
     
-    def get_pulse_taken_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_pulse_taken_count(scene_df, verbose=False):
         """
         Count the number of 'PULSE_TAKEN' actions in the given scene DataFrame.
         
@@ -831,7 +849,8 @@ class FRVRSUtilities(object):
         return pulse_taken_count
     
     
-    def get_teleport_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_teleport_count(scene_df, verbose=False):
         """
         Count the number of 'TELEPORT' actions in the given scene DataFrame.
         
@@ -858,7 +877,8 @@ class FRVRSUtilities(object):
         return teleport_count
     
     
-    def get_voice_capture_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_voice_capture_count(scene_df, verbose=False):
         """
         Calculates the number of "VOICE_CAPTURE" actions in a given scene DataFrame.
         
@@ -885,7 +905,8 @@ class FRVRSUtilities(object):
         return voice_capture_count
     
     
-    def get_walk_command_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_walk_command_count(scene_df, verbose=False):
         """
         Count the number of 'walk to the safe area' voice command events in the given scene DataFrame.
         
@@ -912,7 +933,8 @@ class FRVRSUtilities(object):
         return walk_command_count
     
     
-    def get_wave_command_count(self, scene_df, verbose=False):
+    @staticmethod
+    def get_wave_command_count(scene_df, verbose=False):
         """
         Calculates the number of "wave if you can" voice commands in a given scene DataFrame.
         
@@ -1001,7 +1023,8 @@ class FRVRSUtilities(object):
         return measure_of_right_ordering
     
     
-    def get_first_engagement(self, scene_df, verbose=False):
+    @staticmethod
+    def get_first_engagement(scene_df, verbose=False):
         """
         Get the action tick of the first 'PATIENT_ENGAGED' action in the given scene DataFrame.
         
@@ -1028,7 +1051,8 @@ class FRVRSUtilities(object):
         return first_engagement
     
     
-    def get_first_treatment(self, scene_df, verbose=False):
+    @staticmethod
+    def get_first_treatment(scene_df, verbose=False):
         """
         Get the action tick of the first 'INJURY_TREATED' action in the given scene DataFrame.
         
@@ -1138,7 +1162,8 @@ class FRVRSUtilities(object):
     ### Patient Functions ###
     
     
-    def is_correct_bleeding_tool_applied(self, patient_df, verbose=False):
+    @staticmethod
+    def is_correct_bleeding_tool_applied(patient_df, verbose=False):
         """
         Determines whether the correct bleeding control tool (tourniquet or packing gauze) has been applied to a patient in a given scene DataFrame.
         
@@ -1165,7 +1190,8 @@ class FRVRSUtilities(object):
         return correct_tool_applied
     
     
-    def is_patient_dead(self, patient_df, verbose=False):
+    @staticmethod
+    def is_patient_dead(patient_df, verbose=False):
         """
         Check if the patient is considered dead based on information in the given patient DataFrame.
         
@@ -1212,7 +1238,8 @@ class FRVRSUtilities(object):
         return is_patient_dead
     
     
-    def is_patient_still(self, patient_df, verbose=False):
+    @staticmethod
+    def is_patient_still(patient_df, verbose=False):
         """
         Determines whether a patient is considered still based on the presence of 'still' in their patient_record_sort or patient_engaged_sort fields.
         
@@ -1259,7 +1286,8 @@ class FRVRSUtilities(object):
         return is_patient_still
     
     
-    def get_max_salt(self, patient_df=None, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
+    @staticmethod
+    def get_max_salt(patient_df=None, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
         """
         Get the maximum salt value from the patient data frame or load the data if not provided.
         
@@ -1308,7 +1336,8 @@ class FRVRSUtilities(object):
         else: return max_salt
     
     
-    def get_last_tag(self, patient_df, verbose=False):
+    @staticmethod
+    def get_last_tag(patient_df, verbose=False):
         """
         Retrieves the last tag applied to a patient in a given scene DataFrame.
         
@@ -1437,7 +1466,8 @@ class FRVRSUtilities(object):
         return engagement_end
     
     
-    def is_patient_gazed_at(self, patient_df, verbose=False):
+    @staticmethod
+    def is_patient_gazed_at(patient_df, verbose=False):
         """
         Determine whether the responder gazed at the patient at least once.
         
@@ -1464,7 +1494,8 @@ class FRVRSUtilities(object):
         return gazed_at_patient
     
     
-    def get_wanderings(self, patient_df, verbose=False):
+    @staticmethod
+    def get_wanderings(patient_df, verbose=False):
         """
         Extract the x and z dimensions of patient wanderings from relevant location columns.
         
@@ -1512,7 +1543,8 @@ class FRVRSUtilities(object):
         return x_dim, z_dim
     
     
-    def get_wrapped_label(self, patient_df, wrap_width=20, verbose=False):
+    @staticmethod
+    def get_wrapped_label(patient_df, wrap_width=20, verbose=False):
         """
         Generate a wrapped label based on patient sorting information.
         
@@ -1625,7 +1657,8 @@ class FRVRSUtilities(object):
         return controlled_time
     
     
-    def get_patient_engagement_count(self, patient_df, verbose=False):
+    @staticmethod
+    def get_patient_engagement_count(patient_df, verbose=False):
         """
         Count the number of 'PATIENT_ENGAGED' actions in the patient's data.
         
@@ -1654,7 +1687,8 @@ class FRVRSUtilities(object):
     ### Injury Functions ###
     
     
-    def is_injury_correctly_treated(self, injury_df, verbose=False):
+    @staticmethod
+    def is_injury_correctly_treated(injury_df, verbose=False):
         """
         Determine whether the given injury was correctly treated.
         
@@ -1788,7 +1822,8 @@ class FRVRSUtilities(object):
         return bleeding_treated
     
     
-    def get_injury_correctly_treated_time(self, injury_df, verbose=False):
+    @staticmethod
+    def get_injury_correctly_treated_time(injury_df, verbose=False):
         """
         Determine the action ticks it takes to correctly treat the given injury.
         
@@ -1856,7 +1891,8 @@ class FRVRSUtilities(object):
         return is_walkers_visited_last
     
     
-    def get_wave_value(self, scene_df, verbose=False):
+    @staticmethod
+    def get_wave_value(scene_df, verbose=False):
         """
         0=No Wave Command issued, 1=Wave Command issued
         """
@@ -1866,7 +1902,8 @@ class FRVRSUtilities(object):
         return is_wave_command_issued
     
     
-    def get_walk_value(self, scene_df, verbose=False):
+    @staticmethod
+    def get_walk_value(scene_df, verbose=False):
         """
         0=No Walk Command issued, 1=Walk Command issued
         """
@@ -1879,7 +1916,8 @@ class FRVRSUtilities(object):
     ### Rasch Analysis Patient Functions ###
     
     
-    def get_treatment_value(self, patient_df, injury_id, verbose=False):
+    @staticmethod
+    def get_treatment_value(patient_df, injury_id, verbose=False):
         """
         0=No Treatment or Wrong Treatment, 1=Correct Treatment
         """
@@ -1914,7 +1952,8 @@ class FRVRSUtilities(object):
         return is_tag_correct
     
     
-    def get_pulse_value(self, patient_df, verbose=False):
+    @staticmethod
+    def get_pulse_value(patient_df, verbose=False):
         """
         0=No Pulse Taken, 1=Pulse Taken
         """
@@ -1927,7 +1966,8 @@ class FRVRSUtilities(object):
     ### Pandas Functions ###
     
     
-    def get_statistics(self, describable_df, columns_list, verbose=False):
+    @staticmethod
+    def get_statistics(describable_df, columns_list, verbose=False):
         """
         Calculates and returns descriptive statistics for a subset of columns in a Pandas DataFrame.
         
@@ -2024,7 +2064,8 @@ class FRVRSUtilities(object):
         display(df)
     
     
-    def set_scene_indexes(self, df):
+    @staticmethod
+    def set_scene_indices(df):
         """
         Section off player actions by session start and end. We are finding log entries above the first SESSION_START and below the last SESSION_END.
         
@@ -2072,7 +2113,8 @@ class FRVRSUtilities(object):
         return df
     
     
-    def set_mcivr_metrics_types(self, action_type, df, row_index, row_series):
+    @staticmethod
+    def set_mcivr_metrics_types(action_type, df, row_index, row_series):
         """
         Set the MCI-VR metrics types for a given action type and row series.
     
@@ -2295,7 +2337,7 @@ class FRVRSUtilities(object):
         for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
         
         # Section off player actions by session start and end
-        file_df = self.set_scene_indexes(file_df)
+        file_df = self.set_scene_indices(file_df)
         
         # Append the data frame for the current file to the data frame for the current subdirectory
         sub_directory_df = concat([sub_directory_df, file_df], axis='index')
@@ -2348,7 +2390,8 @@ class FRVRSUtilities(object):
         return frvrs_logs_df
     
     
-    def split_df_by_teleport(self, df, verbose=False):
+    @staticmethod
+    def split_df_by_teleport(df, verbose=False):
         """
         Splits a DataFrame into multiple DataFrames based on teleport locations.
         
@@ -2399,7 +2442,8 @@ class FRVRSUtilities(object):
         return split_dfs
     
     
-    def show_long_runs(self, df, column_name, milliseconds, delta_fn, description, frvrs_logs_df=None):
+    @staticmethod
+    def show_long_runs(df, column_name, milliseconds, delta_fn, description, frvrs_logs_df=None):
         """
         Display files with a specified duration in a given DataFrame.
         
@@ -2463,7 +2507,8 @@ class FRVRSUtilities(object):
                 print(f'{old_file_name} (or {new_file_path})')
     
     
-    def replace_consecutive_rows(self, df, element_column, element_value, time_diff_column='time_diff', consecutive_cutoff=500):
+    @staticmethod
+    def replace_consecutive_rows(df, element_column, element_value, time_diff_column='time_diff', consecutive_cutoff=500):
         """
         Replaces consecutive rows in a list created from the element column with a count of how many there are in a row.
         
