@@ -292,7 +292,7 @@ class NotebookUtilities(object):
         
         # Return the resulting data frame
         return name_similarities_df
-
+    
     
     def convert_strings_to_integers(self, sequence, alphabet_list=None):
         """

@@ -3116,39 +3116,80 @@ class FRVRSUtilities(object):
     
     @staticmethod
     def plot_sequence_by_scene_tuple(
-        scene_tuple, sequence, summary_statistics_df=None, frvrs_logs_df=None, actions_mask_series=None, highlighted_ngrams=[], color_dict={'SESSION_START': 'green', 'SESSION_END': 'red'},
+        scene_tuple,
+        sequence,
+        summary_statistics_df=None,
+        frvrs_logs_df=None,
+        actions_mask_series=None,
+        highlighted_ngrams=[],
+        color_dict={'SESSION_START': 'green', 'SESSION_END': 'red'},
         verbose=False
     ):
-        session_uuid = scene_tuple[0]
-        scene_id = scene_tuple[1]
-
-        # Create a plot title with summary statistics
+        """
+        Plots a given sequence for a specific scene from a VR simulation log.
+        
+        This function visualizes the sequence along with relevant information like the scene's entropy,
+        turbulence, and complexity, while highlighting specific n-grams and coloring different action types.
+        
+        Parameters:
+            scene_tuple (tuple): A tuple containing the session UUID and scene ID of the specific scene.
+            sequence (list): The sequence of actions to be plotted (e.g., a list of action types).
+            summary_statistics_df (pandas.DataFrame, optional): DataFrame containing summary statistics
+                for all scenes. If not provided, tries to load from a pickle file.
+            frvrs_logs_df (pandas.DataFrame, optional): DataFrame containing detailed logs of all VR simulation
+                interactions. If not provided, tries to load from a pickle file.
+            actions_mask_series (pandas.Series, optional): A mask defining which actions to include in the plot.
+                If not provided, all actions are used.
+            highlighted_ngrams (list, optional): A list of n-grams to highlight in the plot.
+            color_dict (dict, optional): A dictionary mapping action types to color values.
+            verbose (bool, optional): Whether to print debug information during execution.
+        
+        Returns:
+            matplotlib.figure.Figure: The figure containing the plot.
+        
+        Raises:
+            Exception: If either `summary_statistics_df` or `frvrs_logs_df` are missing and cannot be loaded from pickle files.
+        """
+        
+        # Extract session_uuid and scene_id from the scene_tuple
+        session_uuid, scene_id = scene_tuple
+        
+        # --- Data preparation ---
+        
+        # 1. Load summary_statistics_df from pickle if not provided
         if verbose: display(summary_statistics_df)
         if (summary_statistics_df is None):
             if nu.pickle_exists('summary_statistics_df'): summary_statistics_df = nu.load_object('summary_statistics_df')
             else: raise Exception('You need to provide summary_statistics_df')
-        mask_series = (summary_statistics_df.session_uuid == session_uuid) & (summary_statistics_df.scene_id == scene_id)
-        df = summary_statistics_df[mask_series]
-        entropy = df.sequence_entropy.squeeze()
-        turbulence = df.sequence_turbulence.squeeze()
-        complexity = df.sequence_complexity.squeeze()
-        suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
-
-        # Build a list of the first of each action type
+        
+        # 2. Get relevant actions from VR logs
         if verbose: display(frvrs_logs_df)
         if (frvrs_logs_df is None):
             if nu.pickle_exists('frvrs_logs_df'): frvrs_logs_df = nu.load_object('frvrs_logs_df')
             else: raise Exception('You need to provide frvrs_logs_df')
+        
+        # Build a data frame of action types
         if (actions_mask_series is None): actions_mask_series = [True] * frvrs_logs_df.shape[0]
         mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id) & actions_mask_series
         scene_df = frvrs_logs_df[mask_series].sort_values('action_tick')
+        
+        # Build a list of the first of each action type
         actions_list = []
         for row_index, row_series in scene_df.iterrows():
             action_type = row_series.voice_command_message
             if pd.notnull(action_type) and (action_type not in actions_list): actions_list.append(action_type)
             action_type = row_series.action_type
             if pd.notnull(action_type) and (action_type != 'VOICE_COMMAND') and (action_type not in actions_list): actions_list.append(action_type)
-
+        
+        # Create a plot title
+        mask_series = (summary_statistics_df.session_uuid == session_uuid) & (summary_statistics_df.scene_id == scene_id)
+        df = summary_statistics_df[mask_series]
+        entropy = df.sequence_entropy.squeeze()
+        turbulence = df.sequence_turbulence.squeeze()
+        complexity = df.sequence_complexity.squeeze()
+        suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
+        
+        # Plot the sequence using nu.plot_sequence if sequence is not empty
         if verbose: print(sequence)
         if(sequence): fig = nu.plot_sequence(
             sequence, highlighted_ngrams=highlighted_ngrams, color_dict=color_dict, suptitle=suptitle, alphabet_list=actions_list, verbose=verbose
