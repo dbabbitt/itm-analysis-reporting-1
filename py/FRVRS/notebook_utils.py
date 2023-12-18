@@ -25,7 +25,7 @@ except:
     except: import pickle
 
 import warnings
-warnings.filterwarnings("ignore")
+warnings.filterwarnings('ignore')
 
 class NotebookUtilities(object):
     """
@@ -210,9 +210,9 @@ class NotebookUtilities(object):
             row_dict['first_item'] = first_item
             row_dict['second_item'] = max_item
             row_dict['first_bytes'] = '-'.join(str(x) for x in bytearray(str(first_item),
-                                                                         encoding=self.encoding_type, errors="replace"))
+                                                                         encoding=self.encoding_type, errors='replace'))
             row_dict['second_bytes'] = '-'.join(str(x) for x in bytearray(str(max_item),
-                                                                          encoding=self.encoding_type, errors="replace"))
+                                                                          encoding=self.encoding_type, errors='replace'))
             row_dict['max_similarity'] = max_similarity
 
             rows_list.append(row_dict)
@@ -248,7 +248,7 @@ class NotebookUtilities(object):
             typos_df = check_for_typos(list(set(df.similar_key).intersection(sd_set)),
                                        list(set(some_dict.keys()).intersection(sd_set)), verbose=False)
             for i, r in typos_df.sort_values(['max_similarity', 'left_item', 'right_item'], ascending=[False, True, True]).iterrows():
-                print(f'some_dict["{r.left_item}"] = some_dict.pop("{r.right_item}")')
+                print(f'some_dict[{r.left_item}] = some_dict.pop({r.right_item})')
         """
         
         # Initialize the time taken for the computation if verbose is True
@@ -414,14 +414,14 @@ class NotebookUtilities(object):
     
     
     def get_turbulence(self, sequence, verbose=False):
-        '''
+        """
         Computes turbulence for a given sequence, based on
         [Elzinga & Liefbroer's 2007 definition](https://www.researchgate.net/publication/225402919_De-standardization_of_Family-Life_Trajectories_of_Young_Adults_A_Cross-National_Comparison_Using_Sequence_Analysis)
         which is also implemented in the [TraMineR](http://traminer.unige.ch/doc/seqST.html) sequence analysis library.
 
         Note:
             This replaces from pysan import get_turbulence
-        '''
+        """
         import statistics
         phi = self.get_ndistinct_subsequences(sequence, verbose=verbose)
         if verbose: print('phi', phi)
@@ -731,6 +731,7 @@ class NotebookUtilities(object):
         except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
             
 
+    
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
         """
         Identifies and reports duplicate function definitions in Jupyter notebooks and suggests how to consolidate them.
@@ -2038,7 +2039,7 @@ class NotebookUtilities(object):
             y_adj (str, optional): The adjective to use for the y-axis variable in the annotations.
                 Default is 'unequal'.
             title (str, optional): The title of the plot. Defaults to
-                '"Wealth inequality is huge in the capitalist societies"'.
+                'Wealth inequality is huge in the capitalist societies'.
             idx_reference (str, optional): The index of the data point to be used as the reference point for
                 the annotations. Default is 'United States'.
             annot_reference (str, optional): The reference text to be used for the annotation of the

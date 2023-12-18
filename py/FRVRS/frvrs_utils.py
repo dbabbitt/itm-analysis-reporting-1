@@ -831,7 +831,7 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The number of "PULSE_TAKEN" actions in the scene DataFrame.
+            int: The number of PULSE_TAKEN actions in the scene DataFrame.
         """
         
         # Create a boolean mask to filter 'PULSE_TAKEN' actions
@@ -859,7 +859,7 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The number of "TELEPORT" actions in the scene DataFrame.
+            int: The number of TELEPORT actions in the scene DataFrame.
         """
     
         # Create a boolean mask to filter actions
@@ -880,14 +880,14 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_voice_capture_count(scene_df, verbose=False):
         """
-        Calculates the number of "VOICE_CAPTURE" actions in a given scene DataFrame.
+        Calculates the number of VOICE_CAPTURE actions in a given scene DataFrame.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The number of "VOICE_CAPTURE" actions in the scene DataFrame.
+            int: The number of VOICE_CAPTURE actions in the scene DataFrame.
         """
         
         # Filter for actions with the type "VOICE_CAPTURE"
@@ -915,7 +915,7 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The number of "walk to the safe area" voice commands in the scene DataFrame.
+            int: The number of walk to the safe area voice commands in the scene DataFrame.
         """
         
         # Filter for voice commands with the message "walk to the safe area"
@@ -936,14 +936,14 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_wave_command_count(scene_df, verbose=False):
         """
-        Calculates the number of "wave if you can" voice commands in a given scene DataFrame.
+        Calculates the number of wave if you can voice commands in a given scene DataFrame.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The number of "wave if you can" voice commands in the scene DataFrame.
+            int: The number of wave if you can voice commands in the scene DataFrame.
         """
         
         # Filter for voice commands with the message "wave if you can"
@@ -962,6 +962,23 @@ class FRVRSUtilities(object):
     
     
     def get_actual_and_ideal_sequences(self, scene_df, verbose=False):
+        """
+        Extracts the actual and ideal sequences of first interactions from a scene dataframe.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing patient interactions with columns, including 'patient_sort' and 'patient_id'.
+            verbose (bool, optional): Whether to print intermediate results for debugging. Defaults to False.
+        
+        Returns:
+            tuple: A tuple of three elements:
+                actual_sequence (pandas.Series): The actual sequence of first interactions, sorted.
+                ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
+                sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
+        
+        Notes:
+            Only SORT categories included in `self.right_ordering_list` are considered.
+            None values in the resulting lists indicate missing interactions.
+        """
         
         # Group patients by their SORT category and get lists of their elapsed times
         sort_dict = {}
@@ -2515,7 +2532,7 @@ class FRVRSUtilities(object):
         Parameters:
             element_column: An element column from which the list of elements is created.
             element_value: The element to replace consecutive occurrences of.
-            time_diff_column: the time diff column to check if the elements are close enough in time to consider "consecutive".
+            time_diff_column: the time diff column to check if the elements are close enough in time to consider consecutive.
             consecutive_cutoff: the number of time units the time diff column must show or less.
         
         Returns:
@@ -3153,8 +3170,6 @@ class FRVRSUtilities(object):
         
         # Extract session_uuid and scene_id from the scene_tuple
         session_uuid, scene_id = scene_tuple
-        
-        # --- Data preparation ---
         
         # 1. Load summary_statistics_df from pickle if not provided
         if verbose: display(summary_statistics_df)
