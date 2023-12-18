@@ -731,7 +731,6 @@ class NotebookUtilities(object):
         except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
             
 
-    
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
         """
         Identifies and reports duplicate function definitions in Jupyter notebooks and suggests how to consolidate them.
