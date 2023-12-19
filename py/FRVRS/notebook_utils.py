@@ -177,6 +177,123 @@ class NotebookUtilities(object):
         
         # Return the conjuncted noun list
         return list_str
+    
+    
+    @staticmethod
+    def count_ngrams(actions_list, highlighted_ngrams):
+        """
+        Counts how many times a given sequence of elements occurs in a list.
+        
+        Parameters:
+            actions_list: A list of elements.
+            highlighted_ngrams: A sequence of elements to count.
+        
+        Returns:
+            The number of times the given sequence of elements occurs in the list.
+        """
+        count = 0
+        for i in range(len(actions_list) - len(highlighted_ngrams) + 1):
+            if (actions_list[i:i + len(highlighted_ngrams)] == highlighted_ngrams): count += 1
+            
+        return count
+    
+    
+    @staticmethod
+    def get_sequences_by_count(tg_dict, count=4):
+        """
+        Get sequences from the input dictionary based on a specific sequence length.
+
+        Parameters:
+            tg_dict (dict): Dictionary containing sequences.
+            count (int, optional): Desired length of sequences to filter. Default is 4.
+
+        Returns:
+            list: List of sequences with the specified length.
+        
+        Raises:
+            AssertionError: If no sequences of the specified length are found in the dictionary.
+        """
+
+        # Count the lengths of sequences in the dictionary to convert the sequence lengths list
+        # into a pandas series to get the value counts of unique sequence lengths
+        value_counts = Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
+        
+        # Filter value counts to show only counts of count to get the desired sequence length of exactly count sequences from the dictionary
+        value_counts_list = value_counts[value_counts == count].index.tolist()
+        assert value_counts_list, f"You don't have exactly {count} sequences of the same length in the dictionary"
+        sequences = [
+            actions_list for actions_list in tg_dict.values() if (len(actions_list) == value_counts_list[0])
+        ]
+    
+        return sequences
+    
+    
+    @staticmethod
+    def get_shape(list_of_lists):
+        """
+        Returns the shape of a list of lists, assuming the sublists are all of the same length.
+        
+        Parameters:
+            list_of_lists: A list of lists.
+        
+        Returns:
+            A tuple representing the shape of the list of lists.
+        """
+        
+        # Check if the list of lists is empty.
+        if not list_of_lists: return ()
+        
+        # Get the length of the first sublist.
+        num_cols = len(list_of_lists[0])
+        
+        # Check if all of the sublists are the same length.
+        for sublist in list_of_lists:
+            if len(sublist) != num_cols: raise ValueError('All of the sublists must be the same length.')
+        
+        # Return a tuple representing the shape of the list of lists.
+        return (len(list_of_lists), num_cols)
+    
+    
+    @staticmethod
+    def split_row_indices_list(splitting_indices_list, excluded_indices_list=[]):
+        """
+        Splits a list of row indices into a list of lists, where each inner list
+        contains a contiguous sequence of indices that are not in the excluded indices list.
+        
+        Parameters:
+            splitting_indices_list: A list of row indices to split.
+            excluded_indices_list: A list of row indices that should be considered excluded.
+                                   Empty by default.
+        
+        Returns:
+            A list of lists, where each inner list contains a contiguous sequence of indices that are not in the excluded indices.
+        """
+        
+        # Initialize the output list
+        split_list = []
+        
+        # Initialize the current list
+        current_list = []
+        
+        # Iterate over the splitting indices list
+        for current_idx in range(int(min(splitting_indices_list)), int(max(splitting_indices_list)) + 1):
+            
+            # Check that the current index is in the splitting indices list and not in the excluded indices list
+            if (current_idx in splitting_indices_list) and (current_idx not in excluded_indices_list):
+                
+                # Add it to the current list
+                current_list.append(current_idx)
+            
+            # Otherwise, if the current list is not empty, add it to the split list and start a new current list
+            else:
+                if current_list: split_list.append(current_list)
+                current_list = []
+            
+        # If the current list is not empty, add it to the split list
+        if current_list: split_list.append(current_list)
+        
+        # Return the split list
+        return split_list
 
 
     def check_4_doubles(self, item_list, verbose=False):
@@ -328,55 +445,6 @@ class NotebookUtilities(object):
         return new_sequence, string_to_integer_map
     
     
-    @staticmethod
-    def count_ngrams(actions_list, highlighted_ngrams):
-        """
-        Counts how many times a given sequence of elements occurs in a list.
-        
-        Parameters:
-            actions_list: A list of elements.
-            highlighted_ngrams: A sequence of elements to count.
-        
-        Returns:
-            The number of times the given sequence of elements occurs in the list.
-        """
-        count = 0
-        for i in range(len(actions_list) - len(highlighted_ngrams) + 1):
-            if (actions_list[i:i + len(highlighted_ngrams)] == highlighted_ngrams): count += 1
-            
-        return count
-    
-    
-    @staticmethod
-    def get_sequences_by_count(tg_dict, count=4):
-        """
-        Get sequences from the input dictionary based on a specific sequence length.
-
-        Parameters:
-            tg_dict (dict): Dictionary containing sequences.
-            count (int, optional): Desired length of sequences to filter. Default is 4.
-
-        Returns:
-            list: List of sequences with the specified length.
-        
-        Raises:
-            AssertionError: If no sequences of the specified length are found in the dictionary.
-        """
-
-        # Count the lengths of sequences in the dictionary to convert the sequence lengths list
-        # into a pandas series to get the value counts of unique sequence lengths
-        value_counts = Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
-        
-        # Filter value counts to show only counts of count to get the desired sequence length of exactly count sequences from the dictionary
-        value_counts_list = value_counts[value_counts == count].index.tolist()
-        assert value_counts_list, f"You don't have exactly {count} sequences of the same length in the dictionary"
-        sequences = [
-            actions_list for actions_list in tg_dict.values() if (len(actions_list) == value_counts_list[0])
-        ]
-    
-        return sequences
-    
-    
     def get_ndistinct_subsequences(self, sequence, verbose=False):
         """
         Note:
@@ -451,74 +519,6 @@ class NotebookUtilities(object):
         return turbulence
     
     
-    @staticmethod
-    def get_shape(list_of_lists):
-        """
-        Returns the shape of a list of lists, assuming the sublists are all of the same length.
-        
-        Parameters:
-            list_of_lists: A list of lists.
-        
-        Returns:
-            A tuple representing the shape of the list of lists.
-        """
-        
-        # Check if the list of lists is empty.
-        if not list_of_lists: return ()
-        
-        # Get the length of the first sublist.
-        num_cols = len(list_of_lists[0])
-        
-        # Check if all of the sublists are the same length.
-        for sublist in list_of_lists:
-            if len(sublist) != num_cols: raise ValueError('All of the sublists must be the same length.')
-        
-        # Return a tuple representing the shape of the list of lists.
-        return (len(list_of_lists), num_cols)
-    
-    
-    @staticmethod
-    def split_row_indices_list(splitting_indices_list, excluded_indices_list=[]):
-        """
-        Splits a list of row indices into a list of lists, where each inner list
-        contains a contiguous sequence of indices that are not in the excluded indices list.
-        
-        Parameters:
-            splitting_indices_list: A list of row indices to split.
-            excluded_indices_list: A list of row indices that should be considered excluded.
-                                   Empty by default.
-        
-        Returns:
-            A list of lists, where each inner list contains a contiguous sequence of indices that are not in the excluded indices.
-        """
-        
-        # Initialize the output list
-        split_list = []
-        
-        # Initialize the current list
-        current_list = []
-        
-        # Iterate over the splitting indices list
-        for current_idx in range(int(min(splitting_indices_list)), int(max(splitting_indices_list)) + 1):
-            
-            # Check that the current index is in the splitting indices list and not in the excluded indices list
-            if (current_idx in splitting_indices_list) and (current_idx not in excluded_indices_list):
-                
-                # Add it to the current list
-                current_list.append(current_idx)
-            
-            # Otherwise, if the current list is not empty, add it to the split list and start a new current list
-            else:
-                if current_list: split_list.append(current_list)
-                current_list = []
-            
-        # If the current list is not empty, add it to the split list
-        if current_list: split_list.append(current_list)
-        
-        # Return the split list
-        return split_list
-    
-    
     ### File Functions ###
     
     
@@ -546,6 +546,131 @@ class NotebookUtilities(object):
 
         # Otherwise, return the relative file path
         else: return osp.relpath(file_path)
+    
+    
+    @staticmethod
+    def get_utility_file_functions(util_path=None):
+        """
+        Extracts a set of function names already defined in the utility file.
+        
+        Parameters:
+            util_path (str, optional): The path to the utility file. Default is '../py/notebook_utils.py'.
+        
+        Returns:
+            set of str: A set containing the names of functions already defined in the utility file.
+        """
+        
+        # Set the utility path if not provided
+        if util_path is None: util_path = '../py/notebook_utils.py'
+        
+        # Compile the regular expression pattern for identifying function definitions
+        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
+        
+        # Read the utility file and extract function names
+        with open(util_path, 'r', encoding='utf-8') as f:
+            
+            # Read the file contents line by line
+            lines_list = f.readlines()
+            
+            # Initialize an empty set to store function names
+            utils_set = set()
+            
+            # Iterate over each line in the file
+            for line in lines_list:
+                
+                # Search for function definitions using the regular expression
+                match_obj = utils_regex.search(line)
+                
+                # If a function definition is found, extract the function name and add it to the set
+                if match_obj:
+                    
+                    # Extract the function name from the match
+                    scraping_util = match_obj.group(1)
+                    utils_set.add(scraping_util)
+        
+        return utils_set
+    
+    
+    @staticmethod
+    def open_path_in_notepad(path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe', verbose=True):
+        """
+        Open a file in Notepad or a specified text editor.
+        
+        Parameters:
+            path_str (str): The path to the file to be opened.
+            home_key (str, optional): The environment variable key for the home directory. Default is 'USERPROFILE'.
+            text_editor_path (str, optional): The path to the text editor executable. Default is Notepad++.
+            verbose (bool, optional): If True, prints debug output. Default is False.
+        
+        Returns:
+            None
+        
+        Notes:
+        The function uses subprocess to run the specified text editor with the provided file path.
+        
+        Example:
+        nu.open_path_in_notepad('C:/example.txt')
+        """
+        
+        # Expand '~' to the home directory in the file path
+        environ_dict = dict(os.environ)
+        if ('~' in path_str):
+            if home_key in environ_dict: path_str = path_str.replace('~', environ_dict[home_key])
+            else: path_str = osp.expanduser(path_str)
+        
+        # Get the absolute path to the file
+        absolute_path = osp.abspath(path_str)
+        if verbose: print(f'Attempting to open {absolute_path}')
+
+        # Open the absolute path to the file in Notepad or the specified text editor
+        # !"{text_editor_path}" "{absolute_path}"
+        import subprocess
+        try: subprocess.run([text_editor_path, absolute_path])
+        except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
+    
+    
+    @staticmethod
+    def get_top_level_folder_paths(folder_path, verbose=False):
+        """
+        Gets all top-level folder paths within a given directory.
+        
+        Parameters:
+            folder_path (str): The path to the directory to scan for top-level folders.
+            verbose (bool, optional): Whether to print debug information about the process. Defaults to False.
+        
+        Returns:
+            list[str]: A list of absolute paths to all top-level folders within the provided directory.
+        
+        Raises:
+            FileNotFoundError: If the provided folder path does not exist.
+            NotADirectoryError: If the provided folder path points to a file or non-existing directory.
+        
+        Notes:
+            This function does not recursively scan for subfolders within the top-level folders.
+            If `verbose` is True, it will print the number of discovered top-level folders.
+        """
+        
+        # Make sure the provided folder exists and is a directory
+        if not os.path.exists(folder_path): raise FileNotFoundError(f'Directory {folder_path} does not exist.')
+        if not os.path.isdir(folder_path): raise NotADirectoryError(f'Path {folder_path} is not a directory.')
+        
+        # Initialize an empty list to store top-level folder paths
+        top_level_folders = []
+        
+        # Iterate through items in the specified folder
+        for item in os.listdir(folder_path):
+            
+            # Construct the full path for each item
+            full_item_path = os.path.join(folder_path, item)
+            
+            # Check if the item is a directory, and if so, add its path to the list
+            if os.path.isdir(full_item_path): top_level_folders.append(full_item_path)
+        
+        # Optionally print information based on the `verbose` flag
+        if verbose: print(f'Found {len(top_level_folders)} top-level folders in {folder_path}.')
+        
+        # Return the list of top-level folder paths
+        return top_level_folders
     
     
     def get_notebook_functions_dictionary(self, github_folder=None):
@@ -596,49 +721,6 @@ class NotebookUtilities(object):
         rogue_fns_set = set([k for k in self.get_notebook_functions_dictionary(github_folder=github_folder).keys()])
         
         return rogue_fns_set
-    
-    
-    @staticmethod
-    def get_utility_file_functions(util_path=None):
-        """
-        Extracts a set of function names already defined in the utility file.
-        
-        Parameters:
-            util_path (str, optional): The path to the utility file. Default is '../py/notebook_utils.py'.
-        
-        Returns:
-            set of str: A set containing the names of functions already defined in the utility file.
-        """
-        
-        # Set the utility path if not provided
-        if util_path is None: util_path = '../py/notebook_utils.py'
-        
-        # Compile the regular expression pattern for identifying function definitions
-        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
-        
-        # Read the utility file and extract function names
-        with open(util_path, 'r', encoding='utf-8') as f:
-            
-            # Read the file contents line by line
-            lines_list = f.readlines()
-            
-            # Initialize an empty set to store function names
-            utils_set = set()
-            
-            # Iterate over each line in the file
-            for line in lines_list:
-                
-                # Search for function definitions using the regular expression
-                match_obj = utils_regex.search(line)
-                
-                # If a function definition is found, extract the function name and add it to the set
-                if match_obj:
-                    
-                    # Extract the function name from the match
-                    scraping_util = match_obj.group(1)
-                    utils_set.add(scraping_util)
-        
-        return utils_set
     
     
     def show_duplicated_util_fns_search_string(self, util_path=None, github_folder=None):
@@ -694,44 +776,6 @@ class NotebookUtilities(object):
         
         # Return the list of DataFrame pickle file names
         return dfs_list
-    
-    
-    @staticmethod
-    def open_path_in_notepad(path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe', verbose=True):
-        """
-        Open a file in Notepad or a specified text editor.
-        
-        Parameters:
-            path_str (str): The path to the file to be opened.
-            home_key (str, optional): The environment variable key for the home directory. Default is 'USERPROFILE'.
-            text_editor_path (str, optional): The path to the text editor executable. Default is Notepad++.
-            verbose (bool, optional): If True, prints debug output. Default is False.
-        
-        Returns:
-            None
-        
-        Notes:
-        The function uses subprocess to run the specified text editor with the provided file path.
-        
-        Example:
-        nu.open_path_in_notepad('C:/example.txt')
-        """
-        
-        # Expand '~' to the home directory in the file path
-        environ_dict = dict(os.environ)
-        if ('~' in path_str):
-            if home_key in environ_dict: path_str = path_str.replace('~', environ_dict[home_key])
-            else: path_str = osp.expanduser(path_str)
-        
-        # Get the absolute path to the file
-        absolute_path = osp.abspath(path_str)
-        if verbose: print(f'Attempting to open {absolute_path}')
-
-        # Open the absolute path to the file in Notepad or the specified text editor
-        # !"{text_editor_path}" "{absolute_path}"
-        import subprocess
-        try: subprocess.run([text_editor_path, absolute_path])
-        except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
             
 
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
@@ -809,51 +853,39 @@ class NotebookUtilities(object):
                 shutil.rmtree(folder_path)
     
     
+    ### Storage Functions ###
+    
+    
     @staticmethod
-    def get_top_level_folder_paths(folder_path, verbose=False):
+    def attempt_to_pickle(
+        df: DataFrame, pickle_path: str, raise_exception: bool = False,
+        verbose: bool = True
+    ) -> None:
         """
-        Gets all top-level folder paths within a given directory.
-        
+        Attempts to pickle a DataFrame to a file.
+
         Parameters:
-            folder_path (str): The path to the directory to scan for top-level folders.
-            verbose (bool, optional): Whether to print debug information about the process. Defaults to False.
+            df (DataFrame): The DataFrame to pickle.
+            pickle_path (str): The path to the pickle file.
+            raise_exception (bool, optional): Whether to raise an exception if the pickle fails. Defaults to False.
+            verbose (bool, optional): Whether to print status messages. Defaults to True.
         
         Returns:
-            list[str]: A list of absolute paths to all top-level folders within the provided directory.
-        
-        Raises:
-            FileNotFoundError: If the provided folder path does not exist.
-            NotADirectoryError: If the provided folder path points to a file or non-existing directory.
-        
-        Notes:
-            This function does not recursively scan for subfolders within the top-level folders.
-            If `verbose` is True, it will print the number of discovered top-level folders.
+            None
         """
-        
-        # Make sure the provided folder exists and is a directory
-        if not os.path.exists(folder_path): raise FileNotFoundError(f'Directory {folder_path} does not exist.')
-        if not os.path.isdir(folder_path): raise NotADirectoryError(f'Path {folder_path} is not a directory.')
-        
-        # Initialize an empty list to store top-level folder paths
-        top_level_folders = []
-        
-        # Iterate through items in the specified folder
-        for item in os.listdir(folder_path):
-            
-            # Construct the full path for each item
-            full_item_path = os.path.join(folder_path, item)
-            
-            # Check if the item is a directory, and if so, add its path to the list
-            if os.path.isdir(full_item_path): top_level_folders.append(full_item_path)
-        
-        # Optionally print information based on the `verbose` flag
-        if verbose: print(f'Found {len(top_level_folders)} top-level folders in {folder_path}.')
-        
-        # Return the list of top-level folder paths
-        return top_level_folders
-    
-    
-    ### Storage Functions ###
+        try:
+            if verbose: print('Pickling to {}'.format(osp.abspath(pickle_path)), flush=True)
+
+            # Protocol 4 is not handled in python 2
+            if sys.version_info.major == 2: df.to_pickle(pickle_path, protocol=2)
+
+            # Pickle protocol must be <= 4
+            elif sys.version_info.major == 3: df.to_pickle(pickle_path, protocol=min(4, pickle.HIGHEST_PROTOCOL))
+
+        except Exception as e:
+            os.remove(pickle_path)
+            if verbose: print(e, ": Couldn't save {:,} cells as a pickle.".format(df.shape[0]*df.shape[1]), flush=True)
+            if raise_exception: raise
     
     
     def csv_exists(self, csv_name, folder_path=None, verbose=False):
@@ -933,38 +965,6 @@ class NotebookUtilities(object):
         pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(pickle_name))
 
         return osp.isfile(pickle_path)
-    
-    
-    @staticmethod
-    def attempt_to_pickle(
-        df: DataFrame, pickle_path: str, raise_exception: bool = False,
-        verbose: bool = True
-    ) -> None:
-        """
-        Attempts to pickle a DataFrame to a file.
-
-        Parameters:
-            df (DataFrame): The DataFrame to pickle.
-            pickle_path (str): The path to the pickle file.
-            raise_exception (bool, optional): Whether to raise an exception if the pickle fails. Defaults to False.
-            verbose (bool, optional): Whether to print status messages. Defaults to True.
-        
-        Returns:
-            None
-        """
-        try:
-            if verbose: print('Pickling to {}'.format(osp.abspath(pickle_path)), flush=True)
-
-            # Protocol 4 is not handled in python 2
-            if sys.version_info.major == 2: df.to_pickle(pickle_path, protocol=2)
-
-            # Pickle protocol must be <= 4
-            elif sys.version_info.major == 3: df.to_pickle(pickle_path, protocol=min(4, pickle.HIGHEST_PROTOCOL))
-
-        except Exception as e:
-            os.remove(pickle_path)
-            if verbose: print(e, ": Couldn't save {:,} cells as a pickle.".format(df.shape[0]*df.shape[1]), flush=True)
-            if raise_exception: raise
 
     
     def load_object(
@@ -1460,66 +1460,6 @@ class NotebookUtilities(object):
     ### Pandas Functions ###
     
     
-    def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
-        """
-        This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened
-        dictionary from it, where keys are made up of the keys/indices of nested dictionaries and lists. The
-        keys are constructed with a key_prefix (which is updated as the function traverses the value_obj) to
-        ensure uniqueness. The flattened dictionary is stored in the row_dict argument, which is updated at
-        each step of the function.
-        
-        Parameters:
-            value_obj (dict, list, scalar value): The object to be flattened into a dictionary.
-            row_dict (dict, optional): The dictionary to store the flattened object.
-            key_prefix (str, optional): The prefix for constructing the keys in the row_dict.
-        
-        Returns:
-            row_dict (dict): The flattened dictionary representation of the value_obj.
-        """
-        
-        # Check if the value is a dictionary
-        if isinstance(value_obj, dict):
-            
-            # Iterate through the dictionary 
-            for k, v, in value_obj.items():
-                
-                # Recursively call get row dictionary with the dictionary key as part of the prefix
-                row_dict = self.get_row_dictionary(
-                    v, row_dict=row_dict, key_prefix=f'{key_prefix}_{k}'
-                )
-                
-        # Check if the value is a list
-        elif isinstance(value_obj, list):
-            
-            # Get the minimum number of digits in the list length
-            list_length = len(value_obj)
-            digits_count = min(len(str(list_length)), 2)
-            
-            # Iterate through the list
-            for i, v in enumerate(value_obj):
-                
-                # Add leading zeros to the index
-                if (i == 0) and (list_length == 1):
-                    i = ''
-                else:
-                    i = str(i).zfill(digits_count)
-                
-                # Recursively call get row dictionary with the list index as part of the prefix
-                row_dict = self.get_row_dictionary(
-                    v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
-                )
-                
-        # If value is neither a dictionary nor a list
-        else:
-            
-            # Add the value to the row dictionary
-            if key_prefix.startswith('_') and (key_prefix[1:] not in row_dict):
-                key_prefix = key_prefix[1:]
-            row_dict[key_prefix] = value_obj
-        
-        return row_dict
-    
-    
     @staticmethod
     def get_column_descriptions(df, column_list=None, verbose=False):
         """
@@ -1780,6 +1720,66 @@ class NotebookUtilities(object):
         return df
     
     
+    def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
+        """
+        This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened
+        dictionary from it, where keys are made up of the keys/indices of nested dictionaries and lists. The
+        keys are constructed with a key_prefix (which is updated as the function traverses the value_obj) to
+        ensure uniqueness. The flattened dictionary is stored in the row_dict argument, which is updated at
+        each step of the function.
+        
+        Parameters:
+            value_obj (dict, list, scalar value): The object to be flattened into a dictionary.
+            row_dict (dict, optional): The dictionary to store the flattened object.
+            key_prefix (str, optional): The prefix for constructing the keys in the row_dict.
+        
+        Returns:
+            row_dict (dict): The flattened dictionary representation of the value_obj.
+        """
+        
+        # Check if the value is a dictionary
+        if isinstance(value_obj, dict):
+            
+            # Iterate through the dictionary 
+            for k, v, in value_obj.items():
+                
+                # Recursively call get row dictionary with the dictionary key as part of the prefix
+                row_dict = self.get_row_dictionary(
+                    v, row_dict=row_dict, key_prefix=f'{key_prefix}_{k}'
+                )
+                
+        # Check if the value is a list
+        elif isinstance(value_obj, list):
+            
+            # Get the minimum number of digits in the list length
+            list_length = len(value_obj)
+            digits_count = min(len(str(list_length)), 2)
+            
+            # Iterate through the list
+            for i, v in enumerate(value_obj):
+                
+                # Add leading zeros to the index
+                if (i == 0) and (list_length == 1):
+                    i = ''
+                else:
+                    i = str(i).zfill(digits_count)
+                
+                # Recursively call get row dictionary with the list index as part of the prefix
+                row_dict = self.get_row_dictionary(
+                    v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
+                )
+                
+        # If value is neither a dictionary nor a list
+        else:
+            
+            # Add the value to the row dictionary
+            if key_prefix.startswith('_') and (key_prefix[1:] not in row_dict):
+                key_prefix = key_prefix[1:]
+            row_dict[key_prefix] = value_obj
+        
+        return row_dict
+    
+    
     ### LLM Functions ###
     
     
@@ -2015,131 +2015,6 @@ class NotebookUtilities(object):
         return color_cycler
     
     
-    def first_order_linear_scatterplot(
-        self, df, xname, yname, xlabel_str='Overall Capitalism (explanatory variable)',
-        ylabel_str='World Bank Gini % (response variable)',
-        x_adj='capitalist', y_adj='unequal', title='"Wealth inequality is huge in the capitalist societies"',
-        idx_reference='United States',
-        annot_reference='most evil', aspect_ratio=None, least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
-        least_y_xytext=(-200, -10),
-        most_y_xytext=(45, 0), reference_xytext=(-75, 25), color_list=None
-    ):
-        """
-        Create a first-order (linear) scatter plot assuming the data frame
-        has an index labeled with strings.
-        
-        Parameters:
-            df (pandas.DataFrame): The data frame to be plotted.
-            xname (str): The name of the x-axis variable.
-            yname (str): The name of the y-axis variable.
-            xlabel_str (str, optional): The label for the x-axis. Defaults to
-                'Overall Capitalism (explanatory variable)'.
-            ylabel_str (str, optional): The label for the y-axis. Defaults to
-                'World Bank Gini % (response variable)'.
-            x_adj (str, optional): The adjective to use for the x-axis variable in the annotations.
-                Default is 'capitalist'.
-            y_adj (str, optional): The adjective to use for the y-axis variable in the annotations.
-                Default is 'unequal'.
-            title (str, optional): The title of the plot. Defaults to
-                'Wealth inequality is huge in the capitalist societies'.
-            idx_reference (str, optional): The index of the data point to be used as the reference point for
-                the annotations. Default is 'United States'.
-            annot_reference (str, optional): The reference text to be used for the annotation of the
-                reference point. Default is 'most evil'.
-            aspect_ratio (float, optional): The aspect ratio of the plot. Default is the Facebook aspect
-                ratio (1.91).
-            least_x_xytext (tuple[float, float], optional): The xytext position for the annotation of the
-                least x-value data point. Default is (40, -10).
-            most_x_xytext (tuple[float, float], optional): The xytext position for the annotation of the
-                most x-value data point. Default is (-150, 55).
-            least_y_xytext (tuple[float, float], optional): The xytext position for the annotation of
-                the least y-value data point. Default is (-200, -10).
-            most_y_xytext (tuple[float, float], optional): The xytext position for the annotation of the
-                most y-value data point. Default is (45, 0).
-            reference_xytext (tuple[float, float], optional): The xytext position for the annotation of
-                the reference point. Default is (-75, 25).
-            color_list (list[str], optional): The list of colors to be used for the scatter plot.
-                Default is None, which will use a default color scheme.
-    
-        Returns:
-            figure(matplotlib.figure.Figure): The figure object for the generated scatter plot.
-        """
-    
-        if aspect_ratio is None: aspect_ratio = self.facebook_aspect_ratio
-        fig_width = 18
-        fig_height = fig_width / aspect_ratio
-        fig = plt.figure(figsize=(fig_width, fig_height))
-        ax = fig.add_subplot(111, autoscale_on=True)
-        line_kws = dict(color='k', zorder=1, alpha=.25)
-    
-        if color_list is None: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
-        else: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2, color=color_list)
-    
-        import seaborn as sns
-        merge_axes_subplot = sns.regplot(x=xname, y=yname, scatter=True, data=df, ax=ax,
-                                         scatter_kws=scatter_kws, line_kws=line_kws)
-    
-        if not xlabel_str.endswith(' (explanatory variable)'): xlabel_str = f'{xlabel_str} (explanatory variable)'
-        xlabel_text = plt.xlabel(xlabel_str)
-    
-        if not ylabel_str.endswith(' (response variable)'): ylabel_str = f'{ylabel_str} (response variable)'
-        ylabel_text = plt.ylabel(ylabel_str)
-    
-        kwargs = dict(textcoords='offset points', ha='left', va='bottom',
-                      bbox=dict(boxstyle='round,pad=0.5', fc='yellow', alpha=0.5),
-                      arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0'))
-        
-        xdata = df[xname].values
-        least_x = xdata.min()
-        most_x = xdata.max()
-        
-        ydata = df[yname].values
-        most_y = ydata.max()
-        least_y = ydata.min()
-        
-        least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
-    
-        for label, x, y in zip(df.index, xdata, ydata):
-            if (x == least_x) and not least_x_tried:
-                annotation = plt.annotate('{} (least {})'.format(label, x_adj),
-                                          xy=(x, y), xytext=least_x_xytext, **kwargs)
-                least_x_tried = True
-            elif (x == most_x) and not most_x_tried:
-                annotation = plt.annotate('{} (most {})'.format(label, x_adj),
-                                          xy=(x, y), xytext=most_x_xytext, **kwargs)
-                most_x_tried = True
-            elif (y == least_y) and not least_y_tried:
-                annotation = plt.annotate('{} (least {})'.format(label, y_adj),
-                                          xy=(x, y), xytext=least_y_xytext, **kwargs)
-                least_y_tried = True
-            elif (y == most_y) and not most_y_tried:
-                annotation = plt.annotate('{} (most {})'.format(label, y_adj),
-                                          xy=(x, y), xytext=most_y_xytext, **kwargs)
-                most_y_tried = True
-            elif (label == idx_reference):
-                annotation = plt.annotate('{} ({})'.format(label, annot_reference),
-                                          xy=(x, y), xytext=reference_xytext, **kwargs)
-    
-        title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
-        
-        # Get r squared value
-        inf_nan_mask = self.get_inf_nan_mask(xdata.tolist(), ydata.tolist())
-        from scipy.stats import pearsonr
-        pearsonr_tuple = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
-        pearson_r = pearsonr_tuple[0]
-        pearsonr_statement = str('%.2f' % pearson_r)
-        coefficient_of_determination_statement = str('%.2f' % pearson_r**2)
-        p_value = pearsonr_tuple[1]
-    
-        if p_value < 0.0001: pvalue_statement = '<0.0001'
-        else: pvalue_statement = '=' + str('%.4f' % p_value)
-    
-        s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
-        text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
-        
-        return fig
-    
-    
     @staticmethod
     def plot_line_with_error_bars(df, xname, xlabel, xtick_text_fn, yname, ylabel, ytick_text_fn, title):
         """
@@ -2270,6 +2145,131 @@ class NotebookUtilities(object):
         ax.set_yticklabels(yticklabels_list)
         
         return ax
+    
+    
+    def first_order_linear_scatterplot(
+        self, df, xname, yname, xlabel_str='Overall Capitalism (explanatory variable)',
+        ylabel_str='World Bank Gini % (response variable)',
+        x_adj='capitalist', y_adj='unequal', title='"Wealth inequality is huge in the capitalist societies"',
+        idx_reference='United States',
+        annot_reference='most evil', aspect_ratio=None, least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
+        least_y_xytext=(-200, -10),
+        most_y_xytext=(45, 0), reference_xytext=(-75, 25), color_list=None
+    ):
+        """
+        Create a first-order (linear) scatter plot assuming the data frame
+        has an index labeled with strings.
+        
+        Parameters:
+            df (pandas.DataFrame): The data frame to be plotted.
+            xname (str): The name of the x-axis variable.
+            yname (str): The name of the y-axis variable.
+            xlabel_str (str, optional): The label for the x-axis. Defaults to
+                'Overall Capitalism (explanatory variable)'.
+            ylabel_str (str, optional): The label for the y-axis. Defaults to
+                'World Bank Gini % (response variable)'.
+            x_adj (str, optional): The adjective to use for the x-axis variable in the annotations.
+                Default is 'capitalist'.
+            y_adj (str, optional): The adjective to use for the y-axis variable in the annotations.
+                Default is 'unequal'.
+            title (str, optional): The title of the plot. Defaults to
+                'Wealth inequality is huge in the capitalist societies'.
+            idx_reference (str, optional): The index of the data point to be used as the reference point for
+                the annotations. Default is 'United States'.
+            annot_reference (str, optional): The reference text to be used for the annotation of the
+                reference point. Default is 'most evil'.
+            aspect_ratio (float, optional): The aspect ratio of the plot. Default is the Facebook aspect
+                ratio (1.91).
+            least_x_xytext (tuple[float, float], optional): The xytext position for the annotation of the
+                least x-value data point. Default is (40, -10).
+            most_x_xytext (tuple[float, float], optional): The xytext position for the annotation of the
+                most x-value data point. Default is (-150, 55).
+            least_y_xytext (tuple[float, float], optional): The xytext position for the annotation of
+                the least y-value data point. Default is (-200, -10).
+            most_y_xytext (tuple[float, float], optional): The xytext position for the annotation of the
+                most y-value data point. Default is (45, 0).
+            reference_xytext (tuple[float, float], optional): The xytext position for the annotation of
+                the reference point. Default is (-75, 25).
+            color_list (list[str], optional): The list of colors to be used for the scatter plot.
+                Default is None, which will use a default color scheme.
+    
+        Returns:
+            figure(matplotlib.figure.Figure): The figure object for the generated scatter plot.
+        """
+    
+        if aspect_ratio is None: aspect_ratio = self.facebook_aspect_ratio
+        fig_width = 18
+        fig_height = fig_width / aspect_ratio
+        fig = plt.figure(figsize=(fig_width, fig_height))
+        ax = fig.add_subplot(111, autoscale_on=True)
+        line_kws = dict(color='k', zorder=1, alpha=.25)
+    
+        if color_list is None: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
+        else: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2, color=color_list)
+    
+        import seaborn as sns
+        merge_axes_subplot = sns.regplot(x=xname, y=yname, scatter=True, data=df, ax=ax,
+                                         scatter_kws=scatter_kws, line_kws=line_kws)
+    
+        if not xlabel_str.endswith(' (explanatory variable)'): xlabel_str = f'{xlabel_str} (explanatory variable)'
+        xlabel_text = plt.xlabel(xlabel_str)
+    
+        if not ylabel_str.endswith(' (response variable)'): ylabel_str = f'{ylabel_str} (response variable)'
+        ylabel_text = plt.ylabel(ylabel_str)
+    
+        kwargs = dict(textcoords='offset points', ha='left', va='bottom',
+                      bbox=dict(boxstyle='round,pad=0.5', fc='yellow', alpha=0.5),
+                      arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0'))
+        
+        xdata = df[xname].values
+        least_x = xdata.min()
+        most_x = xdata.max()
+        
+        ydata = df[yname].values
+        most_y = ydata.max()
+        least_y = ydata.min()
+        
+        least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
+    
+        for label, x, y in zip(df.index, xdata, ydata):
+            if (x == least_x) and not least_x_tried:
+                annotation = plt.annotate('{} (least {})'.format(label, x_adj),
+                                          xy=(x, y), xytext=least_x_xytext, **kwargs)
+                least_x_tried = True
+            elif (x == most_x) and not most_x_tried:
+                annotation = plt.annotate('{} (most {})'.format(label, x_adj),
+                                          xy=(x, y), xytext=most_x_xytext, **kwargs)
+                most_x_tried = True
+            elif (y == least_y) and not least_y_tried:
+                annotation = plt.annotate('{} (least {})'.format(label, y_adj),
+                                          xy=(x, y), xytext=least_y_xytext, **kwargs)
+                least_y_tried = True
+            elif (y == most_y) and not most_y_tried:
+                annotation = plt.annotate('{} (most {})'.format(label, y_adj),
+                                          xy=(x, y), xytext=most_y_xytext, **kwargs)
+                most_y_tried = True
+            elif (label == idx_reference):
+                annotation = plt.annotate('{} ({})'.format(label, annot_reference),
+                                          xy=(x, y), xytext=reference_xytext, **kwargs)
+    
+        title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
+        
+        # Get r squared value
+        inf_nan_mask = self.get_inf_nan_mask(xdata.tolist(), ydata.tolist())
+        from scipy.stats import pearsonr
+        pearsonr_tuple = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
+        pearson_r = pearsonr_tuple[0]
+        pearsonr_statement = str('%.2f' % pearson_r)
+        coefficient_of_determination_statement = str('%.2f' % pearson_r**2)
+        p_value = pearsonr_tuple[1]
+    
+        if p_value < 0.0001: pvalue_statement = '<0.0001'
+        else: pvalue_statement = '=' + str('%.4f' % p_value)
+    
+        s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
+        text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
+        
+        return fig
     
     
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
