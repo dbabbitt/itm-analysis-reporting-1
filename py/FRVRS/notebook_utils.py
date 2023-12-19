@@ -731,7 +731,6 @@ class NotebookUtilities(object):
         except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
             
 
-    
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
         """
         Identifies and reports duplicate function definitions in Jupyter notebooks and suggests how to consolidate them.
@@ -1536,8 +1535,8 @@ class NotebookUtilities(object):
         # If column_list is not provided, use all columns in the DataFrame
         if column_list is None: column_list = df.columns
         
-        # Group columns by data type
-        grouped_columns = df.columns.to_series().groupby(df.dtypes).groups
+        # Convert the CategoricalDtype instances to their string representations, and then group by those strings
+        grouped_columns = df.columns.to_series().groupby(df.dtypes.astype(str)).groups
         
         # Initialize an empty list to store the descriptive statistics rows
         rows_list = []
