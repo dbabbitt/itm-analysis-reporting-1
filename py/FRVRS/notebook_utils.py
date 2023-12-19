@@ -113,22 +113,24 @@ class NotebookUtilities(object):
             self.get_alphabet = get_alphabet
         except: self.get_alphabet = lambda sequence: set(sequence)
 
+    
     ### String Functions ###
+    
     
     @staticmethod
     def compute_similarity(a: str, b: str) -> float:
         """
         Calculates the similarity between two strings.
-
+        
         Parameters:
             a (str): The first string.
             b (str): The second string.
-
+        
         Returns:
             float: The similarity between the two strings, as a float between 0 and 1.
         """
         from difflib import SequenceMatcher
-
+        
         return SequenceMatcher(None, str(a), str(b)).ratio()
     
     
@@ -224,6 +226,7 @@ class NotebookUtilities(object):
             print(t1 - t0, time.ctime(t1))
 
         return item_similarities_df
+
     
     def check_for_typos(
         self, left_list, right_list, rename_dict={'left_item': 'left_item', 'right_item': 'right_item'},
