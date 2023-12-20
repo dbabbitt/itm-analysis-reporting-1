@@ -1577,14 +1577,14 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def modalize_columns(df, columns_list, new_column):
+    def modalize_columns(df, columns_list, new_column_name):
         """
         Create a new column in a DataFrame representing the modal value of specified columns.
         
         Parameters:
             df (pandas.DataFrame): The input DataFrame.
             columns_list (list): The list of column names from which to calculate the modal value.
-            new_column (str): The name of the new column to create.
+            new_column_name (str): The name of the new column to create.
         
         Returns:
             pandas.DataFrame: The modified DataFrame with the new column representing the modal value.
@@ -1593,17 +1593,17 @@ class NotebookUtilities(object):
         # Ensure that all columns are in the data frame
         columns_list = list(set(df.columns).intersection(set(columns_list)))
         
-        # Create a mask series indicating rows with unique values across the specified columns
+        # Create a mask series indicating rows with one unique value across the specified columns
         mask_series = (df[columns_list].apply(Series.nunique, axis='columns') == 1)
         
         # Replace non-unique or missing values with NaN
-        df.loc[~mask_series, new_column] = np.nan
+        df.loc[~mask_series, new_column_name] = np.nan
         
         # Define a function to extract the first valid value in each row
         f = lambda srs: srs[srs.first_valid_index()]
         
         # For rows with identical values in specified columns, set the new column to the modal value
-        df.loc[mask_series, new_column] = df[mask_series][columns_list].apply(f, axis='columns')
+        df.loc[mask_series, new_column_name] = df[mask_series][columns_list].apply(f, axis='columns')
     
         return df
     

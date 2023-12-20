@@ -1,0 +1,63 @@
+﻿COMBAT LIFESAVER
+TACTICAL COMBAT CASUALTY CARE
+Patient Nationality and status (Encrypt this using brevity codes)
+#TCCC-CLS-9
+L-01 25 JAN 20209-LINE MEDEVAC AND MIST PREPARATION
+Location of the pickup site (8-digit grid coordinate)
+Radio frequency, call sign, and suffix
+Numbers of patients by precedence
+A. Urgent
+B. Urgent Surgical
+C. Priority
+D. Routine
+E. Convenience
+Special equipment required
+A. None
+B. Hoist
+C. Extraction equipment
+D. Ventilator
+NOTE: If using 2 or more categories, insert word “break” between each category
+Numbers of patients by type (Encrypt this using brevity codes):
+NOTE: If requesting MEDEVAC for both, insert word “break” between each entry
+L+# = number of Litter patients
+A+# = number of Ambulatory patients
+WARTIME: Security of the pickup site
+N = No enemy troops in the area
+P = Possible enemy troops in the area
+E = Enemy troops in the area, approach with caution
+X = Enemy troops in area, armed escort required
+PEACETIME: Number and type of wound, injury or illness
+Method of marking pickup site
+A = Panels
+B = Pyrotechnic signal
+C = Smoke signal
+D = None
+E = Other
+A = US Military
+B = US Civilian
+C = Non-US Military
+D = Non-US Civilian
+E = Enemy Prisoner (EPW)
+WARTIME: CBRN Contamination (Encrypt this using brevity codes)
+N = Nuclear
+B = Biological
+PEACETIME: Number and type of wound, injury or illness
+LINE 01
+LINE 02
+LINE 03
+LINE 04
+LINE 05
+LINE 06
+LINE 07
+LINE 08
+LINE 09
+C = Chemical
+Prepare a MIST Report
+M
+I
+S
+T
+Mechanism of injury and time of injury (if known)
+Injury or illness
+Symptoms and vital signs
+Treatment given

@@ -199,3 +199,4 @@ data/csv/domain_doc_ners_df.csv
 saves/csv/domain_doc_nlp_words_df.csv
 saves/csv/frvrs_logs_df.csv
 ipynb/Attic.ipynb
+saves/csv/domain_doc_ners_df_old.csv

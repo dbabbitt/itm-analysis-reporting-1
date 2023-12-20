@@ -1,0 +1,1464 @@
+﻿17-13       TACTICAL COMBAT CASUALTY CARE VERSION 5               MAY 17
+DIGITAL VERSION A V AILABLE
+A digital version of this CALL publication is available to view or download from the CALL website:
+http://call.army.mil
+Reproduction of this publication is welcomed and highly encouraged.
+Tactical Combat Casualty Care Handbook, Version 5
+FOLLOW CALL ON SOCIAL MEDIA
+https://twitter.com/USArmy_CALL
+https://www.facebook.com/CenterforArmyLessonsLearnedTACTICAL COMBAT CASUALTY CARE HANDBOOK
+iii
+Foreword
+Tactical Combat Casualty Care (TCCC) has saved hundreds of lives during our nation’s conflicts in Iraq and Afghanistan. Nearly 90 percent of combat fatalities occur before a casualty reaches a medical treatment facility. Therefore, the prehospital phase of care is needed to focus on reducing the number of combat deaths. However, few military physicians have had training in this area and, at the onset of hostilities, most combat medics, corpsmen, and pararescue personnel in the U.S. military have been trained to perform battlefield trauma care through civilian-based trauma courses. These courses are not designed for the prehospital combat environment and do not reflect current practices in the area of prehospital care. TCCC was created to train Soldiers and medical personnel on current best practices for medical treatment from the point of injury to evacuation to Role 3 facilities. The challenge of meeting training needs was met by the voting members of the Committee on Tactical Combat Casualty Care (CoTCCC) and its many liaison members who collectively make up the TCCC Working Group. This group includes trauma surgeons; emergency medicine physicians; internists; family medicine physicians; operational physicians and physician assistants; combat medical educators; trauma researchers; pathologists; combat medical doctrine developers; medical equipment specialists; and combat medics, corpsmen, and pararescue personnel. All the U.S. Armed Services are well-represented in the TCCC Working Group’s committee membership, and 100 percent of the CoTCCC voting members have been to war. The CoTCCC and the TCCC Working Group represent different Services, disciplines, and military experiences, all of which contribute to the single goal of reducing preventable deaths on the battlefield. This type of working group did not exist when the Twin Towers fell. The U.S. Special Operations Command funded the initial group as a research effort. Ownership of the group was then successively assumed by the Naval Operational Medicine Institute, Defense Health Board, and, now, the Joint Trauma System, which is part of the U.S. Army Institute of Surgical Research.
+Iv
+CENTER FOR ARMY LESSONS LEARNED This group took the TCCC guidelines established in 2001 and continually updated them. These updates were based on input from the Joint Trauma System performance improvement trauma teleconferences, published case reports and case series from war zones, breakthroughs in military medical research, and new publications from civilian medical literature on combat trauma. The group processed a continual stream of input from the battlefield throughout the war years and ensured that battlefield trauma care lessons were not only noted, but acted upon. So, they became lessons learned. Through the efforts of this dedicated group of individuals, U.S. forces have had prehospital trauma care guidelines customized for the battlefield and updated continuously based on real-time evaluation of outcomes from ongoing combat operations. This is the first time in the nation’s history this has occurred. The success of the TCCC effort has been well-documented and is a great tribute to all members of the CoTCCC and the TCCC Working Group. The TCCC efforts transcend Service and medical specialty differences; expertly process new information; and develop evidence-based, best-practice guidelines that have completely transformed battlefield trauma care. This TCCC Handbook is dedicated to the CoTCCC and all the valued colleagues in the TCCC Working Group. Our country and its casualties owe you all a profound measure of thanks.
+Frank Butler, MD CAPT (Retired), MC, USN Chairman, Committee on Tactical Combat Casualty Care
+V
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Tactical Combat Casualty Care Handbook
+Table of Contents
+Chapter 1. Tactical Combat Casualty Care Overview 1
+Hemorrahage Control 4
+Airway Management 8
+Breathing Management 19
+Vascular Access 24
+Hypothermia Prevention 40
+Tactical Field Care Basic Management Plan 42
+Chapter 2. Tactical Combat Casualty Care Phases of Care 45
+Chapter 3. Tactical Combat Casualty Care Medical Equipment 53
+Chapter 4. MARCH/PAWS Treatment Algorithms 63
+Chapter 5. Tactical Combat Casualty Care-All Combatants 71
+Chapter 6. Tactical Combat Casualty Care-Medical Provider 79
+Appendix A. Tactical Combat Casualty Care Card 93
+Appendix B. Tactical Combat Casualty Care After Action
+Report97
+Appendix C. Medical Triage Categories 101
+Appendix D. Medical Evacuation Precedence Categories 105
+Appendix E. 9-Line Request With MIST Report 107
+Appendix F. Prolonged Field Care 109
+Appendix G. Drug Reference Guide 111
+Appendix H. Medical Transition Guidelines in a Tactical Environment113
+Appendix I. Medical Planning Functions 115
+Appendix J. Tactical Combat Casualty Care Background 119
+Appendix K. References 121
+vi
+CENTER FOR ARMY LESSONS LEARNED
+Center For Army Lessons Learned
+CALL Director COL Michael F. Pappal
+CALL Analyst CPT Ryan St. Jean
+Contributing Authors MAJ Walter Engle
+Jonathan C. Fruendt, M.D.
+The Secretary of the Army has determined that the publication of this
+periodical is necessary in the transaction of the public business as required by law of the Department.
+Unless otherwise stated, whenever the masculine or feminine gender is
+used, both are intended.
+Note: Any publications (other than CALL publications) referenced in
+this product, such as ARs, ADPs, ADRPs, ATPs, FMs, and TMs, must be obtained through your pinpoint distribution system.
+1
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Chapter 1
+Tactical Combat Casualty Care Overview
+Introduction
+The Tactical Combat Casualty Care (TCCC) concept was developed in 1996 by special operations forces. Tactical Combat Casualty Care guidelines are evidence-based and battlefield-proven to reduce deaths at the point of injury (POI). Department of Defense (DOD) and NATO allies require TCCC training for deploying forces because it combines effective tactics and medicine. TCCC-Medical Provider (TCCC-MP) is training for medical personnel. TCCC-All Combatants (TCCC-AC) is training for first responders and non-medical personnel. TCCC training is performed in three phases: Care under fire (CUF), tactical field care (TFC), and tactical evacuation care (TEC) (for more information, see Chapter 2, Tactical Combat Casualty Care Phases of Care). TCCC teaches first responders to treat casualties in the proper order, treating the most critical situations first. This is done using the acronyms MARCH and PAWS (see below).
+MARCH Acronym
+MARCH (massive hemorrhage, airway, respirations, circulation, head injury/hypothermia) is an acronym used by TCCC-trained individuals to help remember the proper order of treatment. Massive hemorrhage. The number one potentially survivable cause of death at the POI is hemorrhage from a compressible wound or any life-threatening extremity bleed. More than 90 percent of 4,596 combat deaths post 11 September 2001 died of hemorrhage-associated injuries. The hasty application of a Committee on Tactical Combat Casualty Care (CoTCCC)-approved tourniquet is the recommended management for all life-threatening extremity hemorrhages during care under fire (see page 4). It is initially placed over clothing, high and tight. The deliberate application of a tourniquet is addressed when behind cover and during tactical field care to ensure proper hemorrhage control. The tourniquet is placed under clothing 2 to 3 inches above the wound. The application time is written on the tourniquet. Combat gauze is the hemostatic dressing of choice.
+2
+CENTER FOR ARMY LESSONS LEARNED
+Airway.
+A second survivable cause of death at the POI is a non-patent (closed) airway. Airway injuries typically occur from maxillofacial trauma or inhalation burns. A conscious and speaking casualty has a patent open airway. An unconscious casualty who is breathing can benefit from the nasopharyngeal airway (NPA) (see page 8). An unconscious casualty who is not breathing may require a definitive airway such as a surgical cricothyroidotomy (see page 11). In a combat setting, endotracheal intubation is highly difficult, if not impossible. Respirations. The third potentially survivable cause of death on the battlefield is the development of a tension pneumothorax (PTX). Air trapped in the chest cavity begins to displace functional lung tissue and places pressure on the heart, resulting in cardiac arrest. Seal open chest wounds with a vented chest seal, decompress a suspected PTX, and support ventilation/oxygenation, as required. Treat a PTX via needle chest decompression (NCD) using a 14-gauge, 3.25-inch-long needle with a catheter (see page 20). Circulation. Control of bleeding takes precedence over infusing fluids. Only individuals in shock or those who need intravenous (IV) medications need to have IV access established. Use an 18-gauge catheter and saline lock in a field setting. Give tranexamic acid (TXA) as soon as feasible to casualties in or at risk of hemorrhagic shock. Once a saline lock is established, secure it with transparent wound-dressing film. Administer fluids by a second needle and a catheter through the film dressing. When the infusion is complete, withdraw the needle, leaving the saline lock in place. An intraosseous (IO) device is an alternative route for administering fluids when fluid resuscitation is required and an IV access cannot be obtained. Clinical signs of shock on the battlefield are: 1) unconsciousness or altered mental status not due to coexisting traumatic brain injury (TBI) or drug therapy; and/or 2) abnormal radial pulse. Head injury/hypothermia. Hypotension (systolic blood pressure [SBP] under 90) and hypoxia (peripheral capillary oxygen saturation [SpO2] under 90) worsen secondary brain injury. Medical personnel identify mild traumatic brain injury (mTBI) using the Military Acute Concussion Evaluation (MACE) (more information on MACE is available online at https://dvbic.dcoe.mil/material/military-acute-concussion-evaluation-mace-pocket-cards). Non-medical personnel utilize the alert, verbal, pain, unresponsive (A VPU) scale. Hypothermia is a survivable cause of further injury and is defined as a whole-body temperature below 95 F (35 C). Hypothermia, acidosis, and coagulopathy constitute the lethal triad in trauma patients. Hypothermia can occur secondary to blood loss, regardless of the ambient temperature. The Hypothermia Prevention and Management Kit (HPMK) is recommended by the CoTCCC for all casualties.
+3
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+PAWS Acronym
+PAWS (pain, antibiotics, wounds, splinting) is an acronym used by TCCC- trained individuals to help remember additional casualty care issues. As noted in the U.S. Central Command Joint Theater Trauma System publication, Saving Lives on the Battlefield, Part I, 30 January 2013, and Saving Lives on the Battlefield, Part II, 30 May 2014, a survey of military personnel deployed showed that pain management, antibiotics, splinting, and reassessing interventions and additional wounds were often not performed. The PAWS acronym allows personnel to recall these interventions while under duress. Pain. Management of a casualty’s pain helps reduce stress on the mind and body. By managing pain from the POI onward, casualties have reduced incidents of post-traumatic stress disorder (PTSD) at Role 4 care (rehabilitation) and beyond. Pain management reduces patient movement, improves compliance and cooperation, and allows for better casualty transport and outcomes. Antibiotics. The recommended parenteral antibiotics for POI care are ertapenem, 1 gram (gm); or cefotetan, 2 gm. These antibiotics are used to treat multidrug-resistant bacteria. Ertapenem has been designed to be effective against Gram-negative and Gram-positive bacteria. Cefotetan is a second-generation cephalosporin and has a broad spectrum of activity; it has been used to treat bacterial infections of the bone, skin, urinary tract, and lower respiratory tract. Moxifloxacin is a broad-spectrum quinolone antibiotic that can be administered orally. If the casualty can tolerate oral fluids, moxifloxacin, 400 milligrams (mg), can be given instead of ertapenem of cefotetan. All battlefield wounds are considered contaminated. All wounded casualties with penetrating injuries should receive antibiotics. Wounds. Assessing and treating casualties with additional wounds improves morbidity and mortality. Minor scalp lacerations can be the cause of excessive hemorrhage. First responders must address burns, open fractures, facial trauma, amputation dressings, and security of tourniquets. Reassessment of wounds and interventions prior to movement is critical. When preparing the patient for transport, casualties with penetrating trauma to the chest or abdomen should be evacuated on an emergent basis, due to the possibility of internal hemorrhage. Responders should give TXA as soon as feasible to casualties in or at risk of hemorrhagic shock.
+4
+CENTER FOR ARMY LESSONS LEARNED
+Splinting. Medical personnel should address pelvic disruptions and eye injuries. The energy required to cause a lower extremity traumatic amputation (from an improvised explosive device [IED], land mine, etc.) moves upward through the body, potentially causing further bone disruption, hollow organ collapse, or internal bleeding. Responders should use the Combat Ready Clamp (CRoC), the Junctional Emergency Treatment Tool (JETT), or the SAM Junctional Tourniquet to control junctional hemorrhage and stabilize the pelvis. Splinting of fractures can result in significant pain relief and minimize bleeding. In cases of suspected penetrating eye trauma, responders should: 1) perform a rapid field test of visual acuity; 2) tape a rigid shield over the eye to prevent further trauma to the eye; and 3) give moxifloxacin, 400 mg, by mouth as soon as possible to prevent infection inside the eye. Never apply a pressure dressing to an eye with a suspected penetrating injury.
+Tactical Field Care
+Tactical field care is the backbone of TCCC. It is the how-to for utilizing MARCH and PAWS to treat combat casualties. The following information details how to properly execute tasks commonly associated with tactical field care basic management. The tasks are organized in the appropriate order based on MARCH and PAWS.
+Hemorrhage Control
+(Addressed During Care Under Fire and Tactical Field Care Phases.  See Chapter 2, Tactical Combat Casualty Care Phases of Care, Page 45.)
+Combat Application Tourniquet
+Figure 1-1. Combat application tourniquet
+5
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Step 1. During the care under fire phase, place the tourniquet as high on the extremity as possible and over the uniform. This is a hasty tourniquet. (This will be transitioned to a deliberate tourniquet on the skin, 2 inches above the injury in the tactical field care phase.)
+Figure 1-2. Step 1
+Step 2. Route the self-adhering band through the friction adapter buckle. Pull the band tight, removing all slack.
+NOTE: Current TCCC doctrine says utilizing the single slot on a routing buckle is effective. The Combat Application Tourniquet (CAT) Generation 7 (not yet widely fielded) was redesigned with this feature.
+Figure 1-3. Step 2
+6
+CENTER FOR ARMY LESSONS LEARNED
+Step 3. Feed the self-adhering band tight around the extremity and securely fasten it back on itself. No more than three fingers should fit between the band and the injured extremity.
+Figure 1-4. Step 3
+Step 4. Twist the windlass rod until the bleeding stops and the distal pulse has been eliminated.
+Figure 1-5. Step 4
+7
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Step 5. Lock the windlass rod in place with the windlass clip.
+Figure 1-6. Step 5
+Step 6. Grasp the windlass strap, pull tight, and adhere it to the windlass clip.
+Figure 1-7. Step 6
+Step 7. If the tactical situation permits, check for a distal pulse. If a distal pulse is still present, apply a second tourniquet side by side and proximal to the first. Tighten this tourniquet and recheck the distal pulse. Combat Gauze
+1. Place the end of the combat gauze over the dominant hand, index finger. Using this finger, place the combat gauze into the wound, directly at the pulstating artery. Then, begin to pack the wound until it is full of the combat gauze. (See Figure 1-8.) Place any excess combat gauze directly over the wound and apply direct pressure for 3 minutes.
+NOTE: More than one combat gauze may be required to completely fill the wound. If bleeding continues after 3 minutes of pressure, first remove the combat gauze and repeat step 1.
+8
+CENTER FOR ARMY LESSONS LEARNED
+NOTE: Attempt to visualize the bleeding during dressing transition. Look for flowing blood from veins or spurting blood from arteries. Attempt to place the second combat gauze on the source of the bleeding.
+2. Once bleeding is controlled, apply an outer bandage (Ace wrap or emergency dressing) to secure the dressing to the wound.
+Figure 1-8
+Airway Management
+(Addressed During Tactical Field Care and Tactical Evacuation Care Phases.  See Chapter 2, Tactical Combat Casualty Care Phases of Care, Pages 45 and 46.)
+Nasopharyngeal Airway (NPA)
+1. Place the casualty supine with the head in a neutral position. Caution: Do not use the NP A if there is clear fluid (cerebrospinal fluid) coming from the ears or nose. This may indicate a skull fracture.
+2. Lubricate the tube with a water-based lubricant. Caution: Do not use a petroleum-based or non-water-based lubricant. These substances can cause damage to the tissues lining the nasal cavity and pharynx, increasing the risk for infection.
+9
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+3. Insert the NPA:
+• •Push the tip of the nose upward gently.
+• •Position the tube so the bevel of the airway faces toward the septum.
+• •Insert the airway into the nostril and advance it until the flange rests against the nostril.
+Figure 1-9
+Caution: Never force the NP A into the casualty’ s nostril. If resistance is met, pull the tube out and attempt to insert it in the other nostril. Most attempts to insert the NP A should be in the right nostril. If unable to insert into the right nostril, try the left. If inserting in the left nostril, the bevel will not be against the septum.
+Nasopharyngeal Airway Training Skill Sheet
+Objective: To demonstrate the recommended procedure for insertion of an NPA.
+References:
+• •Prehospital Trauma Life Support, Military Eighth Edition, Jones and Bartlett Learning, November 2014
+• •Advanced Trauma Life Support Manual, Ninth Edition, American College of Surgeons, Chicago, IL, September 2012 Evaluation: Students are evaluated as either pass or fail. The instructor verifies the accuracy of the student’s ability to insert an NPA on an airway trainer by means of observing the student’s procedures and technique.
+10
+CENTER FOR ARMY LESSONS LEARNED
+Materials:
+• •Student checklist
+• •Airway simulator
+• •NPA
+• •Surgical lubricant
+Instructor guidelines:
+• •Provide each instructor with a student checklist.
+• •Ensure the student has all student-required materials.
+• •Read the learning objective and the evaluation method to the student.
+• •Explain the grading of the exercise.
+• •Allow students time to extract the information required from the instructor-provided scenario.
+Performance steps:
+• •Assemble and test on all necessary equipment.
+• •Assess the upper airway for visible obstruction.
+• •Open the airway with a chin lift/jaw thrust maneuver.
+• •Verbalize the indications for an NPA (unconscious patient).
+• •Lubricate the NPA with a surgical lubricant.
+• •Insert the airway into the nose at a 90-degree angle to the face. Avoid aiming upwards toward the top of the head. Insert the airway all the way to the flange.
+• •Use a rotary and/or back-and-forth motion to facilitate insertion.
+• •If unable to insert on one side of the nasal passage, take it out and try the other side.
+11
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Table 1-1. NPA Evaluation
+Task Evaluation
+Completed
+1st 2nd 3rd
+Assessed the upper airway for visible obstruction.
+Opened the airway with a chin lift/jaw thrust maneuver.
+− Lubricated the NPA with a surgical lubricant.
+− Inserted the airway into the nose at a 90-degree angle to the face. Avoided aiming upwards toward the top of the head. Inserted all the way to the flange.
+− Used a rotary and/or back-and-forth motion to facilitate insertion.
+− If unable to insert on one side of the nasal passage, took the NPA out and inserted it on the other side.
+− Critical criteria:
+• •Aimed the NPA toward the top of the head during insertion.
+• •Performed the procedure in a manner that was dangerous to the casualty.
+Surgical Cricothyroidotomy
+Necessary equipment: Prefabricated cricothyroidotomy kit. In the event kits are unavailable, an improvised kit should include a cutting instrument (for example, scalpel No. 10 or 15), forceps or tracheal hook, povidone-iodine, endotracheal tube (ETT), 6-millimeter (mm) gloves, 4- by 4-inch gauze, tape, local anesthetic, and materials to inject.
+NOTE: Cricothyroidotomy sets should be prepared prior to the mission. All essential pieces of equipment should be prepared before deployment and packed into a Ziploc bag. Cut the ETT to just above the cuff inflation tube so that the ETT is not protruding 6 inches out of the casualty’s neck.
+12
+CENTER FOR ARMY LESSONS LEARNED
+Figure 1-10. Surgical cricothyroidotomy
+1. Hyperextend the casualty’s neck.
+• •Place the casualty in the supine position.
+• •Place a rolled blanket or poncho under the casualty’s neck or between the shoulder blades so that the airway is straight.
+Warning: Do not hyperextend the casualty’ s neck if a cervical injury is suspected.
+2. Put on medical gloves, available in the patient’s individual first aid kit.
+3. Locate the cricothyroid membrane.
+• •Place a finger of the nondominant hand on the thyroid cartilage (Adam’s apple), and slide the finger down to the cricoid cartilage.
+• •Palpate for the “V” notch of the thyroid cartilage.
+• •Slide the index finger down into the depression between the thyroid and cricoid cartilage.
+Figure 1-11. Cricothyroid membrane anatomy
+13
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+4. Prepare the incision site:
+• •Administer local anesthesia to the incision site if the casualty is conscious.
+• •Prepare the skin over the membrane with an alcohol pad or povidone- iodine.
+5. With a cutting instrument in the dominant hand, make a 1.5-inch vertical incision through the skin over the cricothyroid membrane.
+Caution: Do not cut the cricothyroid membrane with this incision. Also, ensure not to perform a horizontal incision.
+6. Relocate the cricothyroid membrane by touch and sight.
+7. Stabilize the larynx with one hand and make a 1/2-inch transverse incision through the elastic tissue of the cricothyroid membrane.
+NOTE: A rush of air may be felt through the opening.8. Dilate the opening with a hemostat or scalpel handle. Hook the cricothyroid membrane with a prefabricated cricothyroid hook or bent 18-gauge needle.
+9. Grasp and stabilize the cricoid cartilage.10. Insert the ETT through the opening and toward the lungs. Only advance the ETT 2 to 3 inches into the trachea to prevent right main stem bronchus intubation. Inflate the cuff to prevent aspiration.
+11. Secure the tube circumferentially around the patient’s neck to prevent accidental extubation. This can be achieved with tape, tubing, or a prefabricated device in some kits.
+12. Check for air exchange and tube placement:
+• •Air exchange: Listen and feel for air passage through the tube; look for fogging in the tube.
+• •Tube placement: Bilateral chest sounds/rise and fall of the chest confirm proper tube placement.
+• •Unilateral breath sounds/rise and fall of the chest indicate a right main stem bronchus intubation. Withdraw the ETT 1 to 2 inches and reconfirm placement. Ensure not to completely remove the ETT from the casualty’s trachea.
+14
+CENTER FOR ARMY LESSONS LEARNED
+• •Air from the casualty’s mouth indicates the tube is directed toward the mouth. Remove the tube, reinsert, and recheck for air exchange and placement.
+• •Any other problem indicates the tube is not placed correctly. Remove the tube, reinsert, and recheck for air exchange.
+13. Once the tube is correctly placed, begin rescue breathing, if necessary and tactically appropriate:
+• •Connect the tube to a bag valve mask and ventilate the casualty at the rate of 20 breaths per minute.
+• •If a bag valve mask is not available, begin mouth-to-tube resuscitation at 20 breaths per minute.
+14. If the patient is breathing spontaneously, ensure the tube is not obstructed and continually assess the need for assisted breathing.
+15. Apply a sterile dressing. Use either of the following methods:
+• •Make a V-shaped fold in a 4- by 4-inch gauze pad and place it under the edge of the ETT to prevent irritation to the casualty. Tape securely.
+• •Cut two 4- by 4-inch gauze pads half way through and place on opposite sides of the tube. Tape securely.
+Emergency Surgical Airway Using the Cric-Key Training Skill Sheet
+Objective: Demonstrate the procedure for a surgical airway (cricothyroidotomy) using the Cric-Key.
+Reference: No. 0102PP03A Tactical Combat Casualty Care-Military
+Personnel Tactical Field Care No. 1, PowerPoint Presentation from Tactical Combat Casualty Care-Military Personnel Curriculum Update No. 150603.
+Evaluation: Students will be evaluated as either pass or fail. The instructor will verify the accuracy of the student’s ability to perform an emergency surgical cricothyroidotomy using the Cric-Key on an airway trainer by means of observing the student’s procedures and technique.
+Materials:
+• •Student checklist
+• •Surgical cricothyroidotomy simulator
+• •Betadine/alcohol prep pads
+• •No. 10 or No. 15 scalpel
+15
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+• •Cric-Key
+• •5.0 cuffed Melker cricothyroidotomy airway cannula
+• •10 cubic centimeter (cc) syringe
+• •Gauze pads (4 by 4 inches)
+• •Circumferential tie
+• •Ambu bag
+Instructor guidelines:
+• •Provide each instructor with a student checklist.
+• •Ensure the student has all student-required materials.
+• •Read the learning objectives and the evaluation method to the student.
+• •Explain the grading of the exercise.
+Performance steps:
+• •Assemble and test all necessary equipment.
+• •Verbalize that body substance isolation precautions were considered.
+• •Assess the upper airway for visible obstruction.
+• •Identify the cricothyroid membrane between the thyroid and cricoid cartilages. On a buddy, identify to the instructor the location of the top of the thyroid cartilage, the thyroid prominence (on males), the bottom of the thyroid cartilage, the top of the cricoid cartilage, and the cricothyroid membrane.
+• •Identify the site of the skin incision. On a buddy, draw a dotted mid- line from the bottom of the thyroid cartilage to the top of the cricoid cartilage that overlies and bisects the cricothyroid membrane where the skin incision would be made for an actual cricothyrotomy.
+• •Palpate the cricothyroid membrane and (while stabilizing the cartilage) make a vertical incision through the skin (simulate for training) directly over the cricothyroid membrane.
+• •While continuing to stabilize the larynx, use the scalpel to dissect the tissues to expose the cricothyroid membrane.
+• •While continuing to stabilize the larynx, use the scalpel to make a horizontal incision through the cricothyroid membrane.
+16
+CENTER FOR ARMY LESSONS LEARNED
+• •Insert the Cric-Key with the Melker airway cannula into the trachea, directed towards the lungs, until the flange contacts the skin of the neck. Verbalize feeling the tracheal rings with the tip of the Cric-Key during the insertion.
+• •Remove the Cric-Key, leaving the Melker cannula in place.
+• •Inflate the cuff with 10 milliliters (ml) of air.
+• •Check for air exchange and verify placement of the Melker cannula by listening and feeling for air passing in and out of the tube, causing the tube to mist. Look for a bilateral rise and fall of the chest. If the casualty does not breathe spontaneously, connect the Ambu bag to the cuff of the Melker cannula and ventilate. Check for breathing sounds bilaterally.
+• •If the position is correct, secure the tube with cotton tape.
+• •Apply a dressing to further protect the tube and incision site.
+• •Monitor the casualty’s respirations. Ventilate if required.
+Table 1-2. Emergency surgical airway (cricothyroidotomy) using the Cric-Key evaluation
+Task Evaluation
+Completed
+1st 2nd 3rd
+Assessed the upper airway for visible obstruction.
+Correctly identified key surface landmarks on the anterior neck and the cricothyroid membrane on a buddy.
+− Correctly marked the site for the skin incision over the cricothyroid membrane on a buddy.
+− Palpated the cricothyroid membrane and, while stabilizing the cartilage, made a vertical incision through the skin directly over the cricothyroid membrane.
+− 
+17
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Table 1-2. Emergency surgical airway (cricothyroidotomy) using the Cric-Key evaluation (continued)
+Task Evaluation
+Completed
+1st 2nd 3rd
+While continuing to stabilize the larynx, used the scalpel to dissect the tissues to expose the cricothyroid membrane.
+− Used the scalpel to make a horizontal incision through the cricothyroid membrane.
+− Inserted the Cric-Key and Melker cannula through the cricothyroid membrane directed distally toward the lungs until the flange contacted the skin of the neck.
+− Verbalized feeling for tracheal rings while inserting the Cric-Key and Melker cannula.
+− Removed the Cric-Key, leaving the Melker cannula in place.
+− Inflated the cuff of the Melker cannula with 10 ml of air.
+− If the air exchange was adequate, secured the Melker cannula in place.
+− Applied a dressing to further protect the tube and incision site.
+− Monitored the casualty's respirations.
+− 
+18
+CENTER FOR ARMY LESSONS LEARNED
+Critical criteria:
+• •Did not obtain a patent airway with the emergency surgical airway.
+• •Did not correctly identify the location of the cricothyroid membrane.
+• •Performed the procedure in a manner that was dangerous to the casualty.
+
+King Laryngeal Tube (LT) Insertion
+Necessary equipment: King LT, water-based lubricant, and a syringe.
+1. Prepare the casualty:
+• •Place the casualty’s head in the “sniffing” position.
+• •Preoxygenate the casualty if equipment is available.
+2. Prepare the King LT:
+• •Choose the appropriately sized tube.
+• •Test cuff inflation by injecting the proper volume of air into the cuff. Deflate the cuff prior to inserting the tube.
+• •Lubricate the tube with a water-based lubricant.
+Caution: Do not use a petroleum-based or non-water-based lubricant. These substances can cause damage to the tissues lining the nasal cavity and pharynx, increasing the risk for infection.
+3. Insert the King LT.
+• •Hold the tube in the dominant hand. With the nondominant hand, open the casualty’s mouth, and apply a chin lift.
+• •With the King LT rotated laterally 45 to 90 degrees, place the tip into the mouth and advance the tube behind the base of the tongue.
+NOTE: A lateral approach with the chin lift facilitates proper insertion. The tip must remain midline as it enters the posterior pharynx.
+• •Rotate the tube to midline as the tip reaches the posterior pharynx.
+• •Advance the tube until the base of the connector is aligned with the teeth or gums.
+• •Using either an attached pressure gauge or syringe, inflate the cuff to the minimum volume necessary to seal the airway.
+19
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+4. Confirm proper placement of the tube.
+• •Reference marks for the tube are at the proximal end of the tube and should be aligned with the upper teeth.
+• •Confirm proper placement by listening for equal breath sounds during ventilation.
+• •While gently ventilating the casualty, withdraw the tube until ventilation is easy and free flowing, with minimal airway pressure needed.
+NOTE: Initially placing the tube deeper than required and then withdrawing slightly increases the chance of proper insertion, helps ensure a patent airway, and decreases the risk of airway obstruction if the casualty spontaneously ventilates.
+5. Secure the tube with tape.
+Breathing Management
+(Addressed During Tactical Field Care and Tactical Evacuation Care Phases.  See Chapter 2, Tactical Combat Casualty Care Phases of Care, Pages 45 and 46.)
+Penetrating Chest Wounds
+Necessary equipment: Prefabricated chest seal or any airtight material (plastic wrap).
+1. Expose the wound(s):
+• •Cut or unfasten the clothing that covers the wound and expose the casualty’s torso from the umbilicus to the Adam’s apple circumferentially.
+• •Wipe blood/sweat from skin surrounding the wound to increase the occlusive seal’s effectiveness.
+• •Disrupt the wound as little as possible.
+• •Apply an occlusive seal to any penetrating injuries on the torso.
+NOTE: Do not remove clothing stuck to the wound.
+2. Check for an exit wound.
+• •Logroll the casualty and look at the back.
+• •Remove the casualty’s clothing, if necessary.
+20
+CENTER FOR ARMY LESSONS LEARNED
+3. Seal the wound(s), treating each wound as you go. When not using a prefabricated chest seal, cut the dressing’s plastic wrapper on one long and two short sides and remove the dressing.
+• •Apply the inner surface of the wrapper to the wound when the casualty exhales.
+• •Ensure that the covering extends at least 2 inches beyond the edges of the wound.
+• •Seal by applying overlapping strips of tape to all edges of occlusive dressing, forming a complete seal.
+• •Cover all wounds in the same manner, as applicable.
+NOTE: All penetrating chest wounds should be treated as if they are penetrating chest wounds.
+NOTE: In an emergency, any airtight material can be used. The material must be large and durable enough so it is not sucked into the chest cavity.
+4. Place the casualty on the injured side or sitting up.5. Monitor the casualty for increasing respiratory difficulty:
+• •Monitor breathing and the wound seal for continued effectiveness.
+• •Check vital signs.
+• •Observe for signs of shock.
+
+Needle Chest Decompression
+Necessary equipment: Large-bore needle with catheter (10- to 14-gauge, at least 3.25 inches in length) and tape.
+1. Locate the second intercostal space (between the second and third ribs) at the midclavicular line (approximately in line with the nipple) on the affected side of the casualty’s chest (see Figure 1-12). (An acceptable alternative site is located at the fourth or fifth rib space at the anterior axillary line [refer to Figure 1-13]).
+2. Insert a large-bore (10- to 14-gauge) needle/catheter unit.
+• •Place the needle tip on the insertion site (between the second and third intercostal space, midclavicular line).
+• •Lower the proximal end of the needle to permit the tip to enter the skin just above the third rib margin.
+21
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+• •Firmly insert the needle into the skin over the third rib at a 90-degree angle to the chest wall until the pleura has been penetrated, as evidenced by feeling a “pop” as the needle enters the pleural space and a hiss of air escapes from the chest.
+Warning: Proper positioning of the needle is essential to avoid puncturing blood vessels and/or nerves. The needle should not be inserted medial to the nipple line, as this will increase the risk of the needle entering the cardiac box.
+NOTE: If you are using a catheter-over-needle, the catheter should be inserted to the hub. Withdraw the needle along the angle of insertion while holding the catheter still.
+3. Secure the catheter to the chest with tape and monitor the casualty for possible return of symptoms.
+NOTE: Do not occlude the end of the catheter with the tape. Air needs to flow freely through the catheter.
+4. Monitor the patient for signs and symptoms of a recurring tension pneumothorax:
+• •If a tension pneumothorax returns, reassess all interventions (chest seals and needle chest decompressions).
+• •If a chest seal becomes dislodged, replace it.
+• •If a needle chest decompression catheter has become occluded, insert a second catheter in accordance with step 2 of the instructions directly laterally of the first catheter on the mid-clavicular line (primary site) or directly superior of the first catheter on the anterior axillary line (alternate site).
+Figure 1-12. Needle chest compression, needle insertion site
+22
+CENTER FOR ARMY LESSONS LEARNED
+Chest Tube Insertion
+Necessary equipment: Chest tube (catheter 16 to 35 Fr), gloves, one- way valve, scalpel handle with blades (No. 10 or No. 15), Kelly forceps, large hemostat, povidone-iodine, suture material, lidocaine with 1 percent epinephrine for injection, needle, and syringe.
+1. Assess the casualty:
+• •If necessary, open the airway.
+• •Ensure adequate respiration and assist as necessary.
+• •Provide supplemental oxygen, if available.
+• •Connect the casualty to a pulse oximeter, if available.
+2. Prepare the casualty.
+• •Place the casualty in the supine position.
+• •Raise the arm on the affected side above the casualty’s head.
+• •Select the insertion site at the anterior axillary line over the fourth or fifth intercostal space.
+• •Clean the site with povidone-iodine solution.
+• •Put on sterile gloves.
+• •Drape the area.
+• •Liberally infiltrate the area with the 1 or 2 percent lidocaine solution and allow time for medication to take effect if patient symptoms permit.
+3. Insert the tube:
+• •Make a 2-to-3-centimeter (cm) transverse incision over the selected site and extend it down to the intercostal muscles.
+NOTE: The skin incision should be 1 to 2 cm below the intercostal space through which the tube will be placed.
+• •Insert the large forceps through the intercostal muscles in the next intercostal space above the skin incision.
+• •Puncture the parietal pleura with the tip of the forceps and slightly enlarge the hole by opening the clamp 1.5 to 2 cm.
+23
+TACTICAL COMBAT CASUALTY CARE HANDBOOK Caution: Avoid puncturing the lung. Always use the superior margin of the rib to avoid the intercostal nerves and vessels.
+• •Immediately insert a gloved finger in the incision to clear any adhesions, clots, etc.
+• •Grasp the tip of the chest tube with forceps. Insert the tip of the tube into the incision as you withdraw your finger.
+• •Advance the tube until the last side hole is 2.5 to 5 cm inside the chest wall.
+• •Connect the end of the tube to a one-way drainage valve (e.g., Heimlich valve or improvised).
+• •Secure the tube using the suture materials.
+• •Apply an occlusive dressing over the incision site.
+• •Radiograph the chest to confirm placement, if available.
+4. Reassess the casualty.
+• •Check for bilateral breath sounds.
+• •Monitor and record vital signs every 15 minutes.
+5. Document the procedure.
+Figure 1-13. Chest tube insertion site
+24
+CENTER FOR ARMY LESSONS LEARNED
+Vascular Access
+(Addressed During Tactical Field Care and Tactical Evacuation Care Phases.  See Chapter 2, Tactical Combat Casualty Care Phases of Care, Pages 45 and 46.)
+Intraosseous Placement: First Access for Shock and Trauma (FAST1) System
+Necessary equipment: FAST1 System device, 10 cc syringe with normal saline for flush, saline lock, and tape.
+1. Positioning and preparing the site:
+• •Providers should position themselves above the head of the casualty to avoid improper insertion of the device.
+• •Expose the sternum.
+• •Identify the sternal notch (not the xyphoid process).
+2. Place the target patch.
+• •Remove the top half of the backing (“Remove 1”) from the patch.
+• •Place the index finger on the sternal notch, perpendicular to the skin.
+• •Align the locating notch in the target patch with the sternal notch.
+• •Verify that the target zone (circular hole) of the patch is directly over the casualty’s midline, and press firmly on the patch to engage the adhesive and secure the patch.
+• •Remove the remaining backing (“Remove 2”) and secure the patch to the casualty.
+Figure 1-14. FAST1 target patch
+25
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+3. Insert the introducer:
+• •Position yourself over the head of the patient facing toward the patient’s feet.
+• •Remove the cap from the introducer.
+• •Place the bone probe cluster needles in the target zone of the target patch.
+• •Hold the introducer perpendicular to the skin of the casualty.
+• •Pressing straight along the introducer axis, with hand and elbow in line, push with a firm, constant force until a release is heard and felt.
+• •Expose the infusion tube by gently withdrawing the introducer. The stylet supports will fall away.
+Figure 1-15. FAST1 introducer insertion
+Warning: Avoid extreme force or twisting motions.
+4. Connect the infusion tube.
+• •Connect the infusion tube to the right-angle female connector (blue tip).
+• •Flush the catheter with 10 ml of sterile IV solution.
+• •Also may add 2 to 3 ml of 2 percent lidocaine to reduce pain during the infusion.
+• •Attach a saline lock to the remaining Luer lock connector.
+26
+CENTER FOR ARMY LESSONS LEARNED
+Figure 1-16. Secure with protector dome
+5. Place the protector dome directly over the target patch and press firmly to engage the Velcro fastening.
+6. Reinforce with tape.
+FASTResponder
+Precautions:
+• •The FASTResponder is designed to penetrate 6 mm into the manubrium. Qualified professionals should determine any appropriate or necessary exceptions, either inclusions or exclusions, to the criterion for patients 12 years and older.
+• •The proximal tip of the infusion tube contains metal.
+• •The function of the device may be affected by:
+− Compromised skin over the insertion site such as trauma, infection, or burns
+− Fracture of the sternum or vascular injury, which may compromise the integrity of the manubrium or its vascularization
+− Midline sternotomy scars
+27
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 1-17. FASTResponder device
+Warnings:
+• •Safety in patients with very severe osteoporosis has not been proven.
+• •Insertion in sites other than the manubrium may result in ineffective infusion and/or serious injury to the patient.
+• •Reuse of FASTResponder is not recommended due to the potential of cross-contamination, which may lead to serious injury or death. The FASTResponder is unlikely to function after use.
+• •Do not insert finger(s) in the open end of the device due to the potential of a needle stick.
+28
+CENTER FOR ARMY LESSONS LEARNED
+1. Expose the sternum and clean the infusion site.
+NOTE: Maintain aseptic technique throughout the procedure. NOTE: Administer local anesthetic if the patient is conscious and alert.
+Figure 1-18
+2. Remove the adhesive liner with the locking pin.
+Figure 1-19
+3. Align the target foot notch with the patient’s sternal notch, over the midline, and perpendicular to the manubrium.
+Figure 1-20
+29
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+4. Push the FASTResponder down completely to deploy the infusion tube.
+Figure 1-21
+5. Withdraw the FASTResponder straight back while holding down the target foot. The support comes out with the infusion tube. Discard the FASTResponder following local contaminated sharps protocols.
+Figure 1-22
+30
+CENTER FOR ARMY LESSONS LEARNED
+6. Connect the IV line directly to the Luer, and clip the strain relief hook to the target foot. Optional: Confirm placement by aspiration, and flush with fluid to clear.
+Figure 1-23
+7. Optional: Remove the liner from the protective dome and apply the dome over the target foot infusion site.
+Figure 1-24
+31
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+8. FASTResponder removal:
+• •Turn off the source of fluid and disconnect. Pull on the infusion tube to remove it from the patient. Peel off the target foot and dress the site per standard protocol.
+• •Discard the infusion tube and target foot following local contaminated sharps protocols.
+NOTE: Removal should only be performed by a physician or nurse.
+NOTE: Pull the infusion tube using one continuous motion (do not start/ stop) until removal. Pull on the tube, not the Luer connection. It is normal for the tubing to stretch.
+Figure 1-25
+32
+CENTER FOR ARMY LESSONS LEARNED
+Intraosseous Access with the Sternal EZ-IO Needle Set
+The Sternal EZ-IO is used to obtain IO vascular access in adults in whom rapid fluid resuscitation or pharmacological treatment is needed emer gently, and standard IV access is not readily accessible. The sternal EZ-IO needle/driver set is green, and comes in green packaging. It is designed for insertion into the manubrium of the sternum, and should not be used for IO access at any other site. Conversely, the manual EZ-IO needle/driver intended for use on the humerus or tibia is blue, and this needle should never be used on the sternum. The sternal needle also has a depth-limiting “collar” on the catheter, which is not present on the catheter of the limb device.
+Figure 1-26
+If the manubrium is fractured, IO access through it should not be attempted. Fluid follows the path of least resistance. If an IO device is placed in a fractured bone, the fluid would simply extravasate into the surrounding tissue through the fracture site. Contraindications consist of:
+• •Fracture of the manubrium
+• •Previous surgical procedure
+• •Manubrial IO within the past 24 to 48 hours
+• •Infection at the insertion site
+• •Inability to locate landmarks or excessive tissue over the target site
+33
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+1. With proper insertion, the needle tip should lie in the marrow cavity of the manubrium.
+Figure 1-27
+2. Expose the chest and identify the insertion site by palpation. The sternal insertion site is located midline, approximately 1 to 2 cm below the sternal notch. Once the insertion site is identified, clean the area with alcohol or povidone-iodine.
+Figure 1-28
+34
+CENTER FOR ARMY LESSONS LEARNED
+3. Remove tab 1 from the sternal locator. Align the curve at the top of the sternal locator with the suprasternal notch, and adhere the top half of the sternal locator to the patient. Holding the sternal locator in place, pull tab 2 to expose the adhesive on the bottom half of the sternal locator. Press the sternal locator down on the chest to ensure it adheres to the casualty’s skin.
+Figure 1-29
+4. Carefully nick the skin over the insertion site with the provided lancet through the sternal locator. The length of the nick should not exceed 3 mm, which is the width of the finger lancet and the opening in the sternal locator.
+NOTE: It is imperative that the nick reaches all the way down to the sternal bone at the insertion site. Failure to do so could lead to improper or failed placement.
+35
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+5. Keep the casualty still while inserting the needle. Position the sternal needle set at the insertion site with the needle perpendicular to the plane of the manubrium. Gently insert the needle set into the incision until the needle touches bone. Penetrate the bone cortex by rotating clockwise and counterclockwise while applying gentle, steady, downward pressure. Stop insertion when a sudden lack of resistance is felt upon entry into the medullary space. Do not rock or bend the needle set while it is being inserted. Maintain the 90-degree angle.
+NOTE: Use gentle, steady pressure, not excessive force. Allow the catheter tip rotation and gentle downward pressure to provide the penetrating action.
+Figure 1-30
+6. Remove the stylet:
+• •Manually stabilize the hub.
+• •Rotate the stylet counterclockwise, then pull it out.
+Figure 1-31
+36
+CENTER FOR ARMY LESSONS LEARNED
+7. Apply the stabilizer to the catheter hub without removing the sternal locator. Once the stabilizer is in position, prime the EZ-Connect Extension Set with normal saline, attach it to the catheter hub and tighten it firmly. Tightening of the EZ-Connect sets the catheter/stabilizer height into a fixed position. To secure the stabilizer, hold the catheter still while pulling away each of the numbered tabs.
+Figure 1-32
+8. A firmly seated catheter, the ability to administer pressurized fluids without difficulty, and noting the pharmacologic effects of any fluids or medications given are indicators of successful cannulation of the medullary space. Confirm catheter placement:
+• •Firmly seated catheter
+• •Flash of blood or blood on aspiration (may or may not be able to aspirate blood)
+• •Pressurized fluids flow freely
+• •Pharmacologic effects
+Confirmation of catheter placement can be achieved by aspiration. Attach a syringe to the primed extension set, and slowly retract the plunger to withdraw marrow. If marrow is present, the needle has been successfully placed in the medullary space. Blood may also be noted in the hub of the needle when you remove the stylet. Absence of blood or inability to withdraw aspirate at the catheter hub does not mean the insertion was unsuccessful.
+37
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 1-33
+9. Once the catheter placement has been confirmed, the site should be continually re-evaluated for signs of extravasation, fluid leakage, or any other signs that indicate the needle tip is no longer in the medullary space.
+Flush the catheter:
+• •Connect the syringe to primed extension set
+• •Flush with 10 ml normal saline
+• •Multiple flushes may be needed
+• •No flush equals no flow
+10. The intraosseous space is occupied by bone marrow held in place by a thick fibrin network. In order to obtain maximum flow rates, this fibrin mesh must be displaced. This is achieved with a rapid 10 ml flush with normal saline. The initial flush will be met with inherent resistance as the fibrin mesh is being displaced. After the first vigorous flush of normal saline, fluid flow through the IO device should be easy and rapid. Occasionally, more than one flush may be required to obtain maximum flow rates.
+NOTE: No flush, no flow. If this step is omitted, optimal flow rates will not be achieved.
+Figure 1-34
+38
+CENTER FOR ARMY LESSONS LEARNED
+11. Infuse fluids with pressure:
+• •The pressure in the medullary space is about one-third of the casualty’s arterial pressure.
+• •Pressurizing fluids for infusion is required to achieve maximum flow rates.
+Figure 1-35
+12. Sternal EZ-IO removal:
+• •Remove the EZ-Connect extension set and stabilizer.
+• •Attach a Luer lock syringe directly to the hub.
+• •Rotate the syringe clockwise while slowly and gently pulling straight back.
+• •Maintain axial alignment. Do not rock the syringe.
+• •Remove the sternal locator.
+39
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Peripheral Intravascular Access
+Necessary equipment: IV tubing, IV fluids, 18-gauge or larger IV needle with catheter, saline lock, constricting band, antiseptic wipes, gloves, tape, and 2- by 2-inch gauze sponges.
+1. Put on gloves.
+2. Select an appropriate access site on an extremity:
+• •Avoid sites over joints.
+• •Avoid injured extremities.
+• •Avoid extremities with significant wounds proximal to the IV insertion site.
+3. Prepare the site:
+• •Apply the constriction band around the limb, about 2 inches above the puncture site.
+• •Clean the site with antiseptic solution.
+5. Puncture the vein:
+• •Stabilize the skin at the puncture site with the nondominant thumb, pulling the skin downward until taut. Avoid placing the thumb directly over the vein to avoid collapsing.
+• •Position the needle point, bevel up, parallel to the vein, 1/2 inch below the venipuncture site.
+• •Hold the needle at a 20- to 30-degree angle and insert it through the skin.
+• •Move the needle forward about 1/2 inch into the vein.
+• •Confirm the puncture by observing blood in the flash chamber.
+NOTE: A faint give may be felt as the needle enters the vein.
+6. Advance the catheter.
+• •Grasp the hub and advance the needle into the vein up to the hub.
+(NOTE: This prevents back flow of blood from the hub.)
+• •While holding the hub, press lightly on the skin with the fingers of the other hand.
+40
+CENTER FOR ARMY LESSONS LEARNED
+• •Remove the needle from the catheter and secure it in a safe place to avoid accidental needle sticks.
+• •Attach a saline lock, preferably needleless.
+7. Connect the catheter to the IV infusion tubing. An 18-gauge needle will be required, if not using a needleless saline lock.
+• •Begin the infusion.
+• •Observe the site for infiltration of fluids into the surrounding soft tissue.
+8. Secure the catheter and tubing to the skin and dress the site.
+Hypothermia Prevention
+(Addressed During Tactical Field Care and Tactical Evacuation Care Phases.  See Chapter 2, Tactical Combat Casualty Care Phases of Care, Pages 45 and 46.)
+1. Stop bleeding and resuscitate appropriately. Use warm fluids, if available.
+2. Remove any wet clothes and replace with dry clothes, if possible.3. Use the Hypothermia Prevention and Management Kit (HPMK).
+• •Place the casualty on a Blizzard Survival Blanket or heat-reflective shell to maintain body temperature.
+• •Place a Ready-Heat blanket on the casualty’s torso to aid in increasing body temperature. Do not place the Ready-Heat blanket directly on the casualty’s skin, which may cause a burn.
+• •Wrap the Blizzard Survival Blanket or heat-reflective shell around the casualty. If a survival blanket of any kind is not available, then find dry blankets, poncho liners, space blankets, sleeping bags, body bags, or anything that will retain heat and keep the casualty dry.
+41
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 1-37. Heat reflective shell
+Tactical evacuation care phase:
+1. The casualty should remain wrapped in the Blizzard Survival Blanket or Heat-Reflective Shell with Ready-Heat blanket while awaiting evacuation; en route care should be provided.
+2. If these items were not available in the other phases of care, check with evacuation personnel to see if they have them or any other items that can be used to prevent heat loss.
+3. Wrap the casualty in dry blankets and, during helicopter transport, try to keep the wind from open doors from blowing over or under the casualty.
+4. Use a portable fluid warmer on all IO/IV sites and for all liquid medication administered (Hextend, Lactated Ringers, TXA, blood, etc.). Administering cold fluids contributes to the likelihood of the casualty developing hypothermia.
+42
+CENTER FOR ARMY LESSONS LEARNED
+Tactical Field Care Basic Management Plan
+NOTE: Casualties with an altered mental status should be disarmed immediately.
+• •Massive hemorrhage:
+− Assess for an unrecognized hemorrhage and control all sources of bleeding.
+− Use one or more CoTCCC-recommended limb tourniquets, if necessary.
+− Use a CoTCCC-approved hemostatic dressing for compressible hemorrhage not amenable to limb tourniquet use or as an adjunct to tourniquet removal.
+− Immediately apply a CoTCCC-recommended junctional tourniquet if the bleeding site is amenable to use of a junctional tourniquet.
+− Reassess the prior tourniquet application:
+•••*Expose the wound and determine if a tourniquet is needed.
+•••*Replace any limb tourniquet placed over the uniform with one applied directly to the skin, 2 to 3 inches above the wound.
+− Expose and use an indelible marker to clearly mark all tourniquet sites with the time of tourniquet application.
+• •Airway management:
+− Conduct the following for an unconscious casualty without an airway obstruction:
+•••*Chin lift/jaw thrust maneuver.
+•••*NPA.
+•••*Place the casualty in the recovery position (see Figure 1-38).
+Figure 1-38. Recovery position
+43
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+− Conduct the following for a casualty with an airway obstruction or impending airway obstruction:
+•••*Chin lift/jaw thrust maneuver.
+•••*NPA.
+•••*Allow a conscious casualty to assume any position that best protects the airway to include sitting up.
+•••*Place an unconscious casualty in the recovery position.
+•••*If these measures are unsuccessful, refer to a medic immediately. Perform a surgical cricothyroidotomy using one of the following:
+•••••♦CricKey technique.
+•••••♦Bougie-aided open surgical technique.
+•••••♦Standard open surgical technique.
+•••••♦Lidocaine, if the casualty is conscious.
+• •Respirations:
+− For a casualty with progressive respiratory distress and known or suspected torso trauma, consider a tension pneumothorax.
+− All open and/or sucking chest wounds should be treated by:
+•••*Immediately applying a vented chest seal to cover the defect.
+•••*If a vented chest seal is not available, use a non-vented chest seal.
+•••*Burping or temporarily removing the dressing. If this does not relieve the respiratory distress, refer to a medic.
+• •Circulation:
+− Assess the casualty for hemorrhagic shock. If the casualty is not in shock, oral fluids are permissible if the casualty is conscious and can swallow.
+− If the casualty is in shock, refer to a medic.
+44
+CENTER FOR ARMY LESSONS LEARNED
+• •Hypothermia prevention:
+− Minimize casualty environmental exposure and promote heat retention.
+− Keep personal protective gear on, if feasible. Replace wet clothing, if possible. Get the casualty onto an insulated surface as soon as possible.
+− Use CoTCCC-approved hypothermia prevention kit, if available.
+− If a hypothermia prevention kit is not available, then use dry blankets, poncho liners, sleeping bags, or anything that will retain heat and keep the casualty warm and dry.
+• •Pain management:
+− Analgesia on the battlefield should generally be achieved by one of following options:
+•••*If there is mild to moderate pain and/or the casualty is able to fight, give the casualty a TCCC combat wound pill pack (CWPP).
+•••*If there is moderate to severe pain and the casualty is not in shock, refer to a medic.
+• •Antibiotics (recommended for all open combat wounds):
+− If the casualty can swallow, administer 400 mg of moxifloxacin from the CWPP.
+− If the casualty cannot swallow (shock or unconsciousness), refer to a medic.
+• •Wounds:
+− Inspect and dress known wounds.
+− Check for additional wounds (for example, scalp lacerations).
+• •Splinting:
+− If a penetrating eye injury is noted or suspected, conduct the following:
+•••*Cover the eye with a rigid eye shield and not a pressure patch.
+•••*Administer 400 mg moxifloxacin from the CWPP.
+− Splint fractures.
+45
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Chapter 2
+Tactical Combat Casualty Care Phases of Care
+
+Understanding phases of care is important for proper application of Tactical Combat Casualty Care (TCCC) principles. Properly balancing winning the fight, accomplishing the mission, and treating casualties is essential for success tactically as well as medically. This chapter discusses the proper tactics and medicine for each phase of care.
+Phase 1: Care Under Fire (CUF)— Return Fire
+Figure 2-1. Phase 1: CUF
+• •Good tactics: CUF is conducted while tactically engaged. The most effective way to reduce morbidity and mortality is the precise application of combat fires by all personnel. Continue the tactical mission, gain fire superiority, then treat casualties.
+• •Good medicine : Massive hemorrhage. The control of extremity hemorrhage with direct pressure while applying a hasty tourniquet is the primary medical goal during CUF. A tourniquet is the single most important medical intervention rendered at the point of injury (POI).
+Phase 2: Tactical Field Care (TFC)— Move Casualty to
+Cover
+Figure 2-2. Phase 2: TFC
+46
+CENTER FOR ARMY LESSONS LEARNED
+• •Good tactics: When no longer receiving effective enemy fire, the TFC phase is entered, allowing more medical intervention. Disarm the casualty, if the casualty’s mental status is altered or if receiving ketamine or fentanyl. Medical personnel are responsible for activity inside the casualty collection point (CCP) and leadership is responsible for activity outside the CCP. Basic life support (cardiopulmonary resuscitation [CPR]) is typically not performed in combat.
+• •Good medicine:
+− Massive hemorrhage. Convert hasty tourniquets to deliberate tourniquets. Pack wounds with combat gauze. Apply a junctional tourniquet.
+− Airway. Check the airway for patency. Apply a nasopharyngeal airway (NPA) and ventilate with a bag-valve mask (BVM), such as a Cyclone BVM. If the airway shows resistance or evidence of facial trauma, perform a cricothyrotomy.
+− Respirations. Apply a vented chest seal to open entry and exit chest wounds. Treat a tension pneumothorax (PTX) by decompressing the chest at the mid-clavicular line at the second and third intercostal space using a 3.25-inch, 14-gauge angiocatheter and needle chest decompression (NCD).
+− Circulation. Resuscitate with hypovolemic fluid resuscitation through intravenous (IV) access. Intraosseous (IO) access is recommended for rapid fluid delivery and resuscitation.
+− Head injury/hypothermia. Perform a Military Acute Concussion
+Evaluation (MACE) exam or the alert, verbal, pain, unresponsive (A VPU) assessment, and document the findings. Cover the casualty in an HPMK, body bag, or sleeping bag for warmth.
+Phase 3: Tactical Evacuation Care
+Figure 2-3. Phase 3: TEC47TACTICAL COMBAT CASUALTY CARE HANDBOOK
+• •Good tactics: Move the casualty. The term tactical evacuation (TACEV AC), as defined in Joint Publication (JP) 4-02, Health Service Support, 26 July 2012, is medical evacuation (MEDEV AC) (MEDEV AC-dedicated vehicle) and casualty evacuation (CASEV AC) (non-medical vehicle). This phase involves initiating air evacuation with a 9-Line MEDEV AC request and establishing ground ambulance exchange points.
+• •Good medicine: Re-evaluate the casualty and all interventions. Affix a pelvic binder if the injuries are caused by a blast, vehicle rollover, or building collapse. Document all care provided on Department of Defense (DD) Form 1380, Tactical Combat Casualty Care (TCCC) Card, June 2014. The TCCC Card format matches the MIST (mechanism of injury, injuries, signs/symptoms, and treatment) Report for each casualty on the 9-Line MEDEV AC request.
+
+Continuum of Care
+It is important for TCCC-trained individuals to understand the continuum of care. Having an understanding of different facilities in the immediate area can factor into MEDEV AC plans. In accordance with JP 4-02, the following facilities provide higher medical care once the casualty is tactically evacuated. These facilities are referred to as roles, not levels or echelons.
+Role 1
+Figure 2-4. Role 1 facilities
+Role 1 care consists of prehospital medical care to include self-aid, buddy aid, and care provided by a combat medic. The battalion aid station or unit-level medical care facility is a Role 1 facility and provides medical treatment supervised by a physician assistant or physician. Role 1 facilities provide advanced trauma management (damage control resuscitation) and routine sick call. Documentation is completed using the TCCC Card and MIST Report.
+48
+CENTER FOR ARMY LESSONS LEARNED
+• •Advanced trauma management is provided at Role 1 facilities (damage control resuscitation).
+• •Routine sick call is provided in accordance with the U.S. Army Health Services Command Pamphlet 40-7-21, Algorithm-Directed Troop Medical Care (ADTMC), June 1992. ADTMC presents every combat medic, corpsman, or medical technician an algorithm for common ailments and for diseases and non-battle injuries (DNBIs).
+Role 2
+Figure 2-5. Role 2 facilities
+In accordance with JP 4-02, a Role 2 facility provides advanced trauma management and emergency medical treatment, including continuation of resuscitation started at Role 1 care. Capabilities of a Role 2 facility include blood products, limited X-ray, limited laboratory, dental support, combat and operational stress control, preventive medicine, and limited patient hold for 72 hours.
+• •Role 2 NATO care includes damage control surgery. U.S. Armed Forces subscribe to the Role 2 medical treatment facility, providing greater resuscitative capability than what is available at a Role 1 facility. Surgical capability is not mandatory. The Role 2 facility is the transition point from MARCH (massive hemorrhage, airway, respirations, circulation, head injury/hypothermia) treatment and the TCCC Card to the airway, breathing, circulation, disability, exposure (ABCDE) method and DD Form 3019, Resuscitation Record, October 2015.
+• •Role 2 Army facilities have medical assets located in the treatment platoons of medical companies and troops, and include basic and emergency treatment (advanced trauma management). These facilities have the capability to deliver packed red blood cells (liquid), limited X-ray, clinical laboratory, dental support, combat and operational stress control, and preventive medicine.
+49
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+− The medical company brigade support battalion is assigned to modular brigade combat teams, which include the airborne brigade combat team (ABCT), infantry brigade combat team (IBCT), Stryker brigade combat team (SBCT), and the medical troop in the armored cavalry regiment.
+− The medical company area support medical battalion provides direct support to the modular division and support to echelons above brigade units.
+− The forward resuscitative and surgical team (FRST) is assigned to the medical command or medical brigade and attached to the combat support hospital when not operationally employed forward with a medical company. The FRST provides damage control surgery support in the brigade combat team area. This 20-person team provides a rapidly deployable, immediate damage control surgery capability utilizing two orthopedic surgeons, two general surgeons, two nurse anesthetists, two emergency physicians, and emergency room and critical care nurses and technicians. The FRST includes two operating tables for a maximum of 10 cases per day and a total of 30 operations. The supporting medical company must provide logistical support (additional electricity, water, and fuel); security; and X-ray, laboratory, and patient administration support. The FRST is designed to be split, providing maximum flexibility to support operations.
+• •Role 2 Air Force
+− The mobile field surgical team (MFST) consists of a five-person team: general surgeon, orthopedist, anesthetist, emergency medicine physician, and operating room nurse or technician. MFST provides 10 lifesaving or limb-saving procedures in 24 to 48 hours from five backpacks (350-pound total gear), which are designed to augment a Role I facility.
+− The small portable expeditionary aeromedical rapid response (SPEARR) team consists of a 10-person team (includes a five-person MFST and three-person critical care air transportation team), designed to provide surgical support, basic primary care, postoperative critical care, and preventive medicine for the early phase of deployment. The SPEARR team is highly mobile, being able to fit all equipment in a one-palletized trailer.
+50
+CENTER FOR ARMY LESSONS LEARNED
+− The expeditionary medical support (EMEDS) health response team (HRT) is the basic EMEDS capability consisting of 40 personnel. The HRT can stabilize and hold four patients for 24 hours. It provides medical and surgical support for an airbase, providing sick-call, resuscitative surgery, dental care, and limited laboratory and X-ray capabilities. The 25-member staff includes a SPEARR team and can provide for 10 operating room cases with two beds in 24 to 48 hours and four intensive care unit beds and tents transportable on three pallets.
+− EMEDS+10 is the second increment of the EMEDS capability and builds on EMEDS HRT, adding six beds to EMEDS basic. EMEDS+10 provides medical, surgical, and critical care augmentation; laboratory service; additional bioenvironmental engineering; public health; administration; and medical logistics support with a 56-person staff consisting of six tents transported on 14 pallets.
+• •Role 2 Navy
+− A casualty receiving and treatment ship (CRTS) is part of an amphibious ready group (ARG). An ARG typically comprises three ships with surgical capability only on the CRTS. Ships have 176 medical personnel supporting 45 ward beds, four operating rooms (one surgeon, one certified registered nurse anesthetist, one critical-care nurse, one operating room nurse, one general medical officer, and 12 support staff), and 17 intensive care unit beds. A CRTS and fleet surgical team can be augmented with 84 additional personnel to increase capability from one operating room to four. Ships have laboratory, X-ray, frozen blood capabilities, and triage areas for 50 casualties. Doctrinal holding capability is limited to three days.
+− The aircraft carrier battle group includes one operating room, 52 ward beds, and 3 intensive care beds. The staff includes one surgeon and five additional medical officers. Medical assets aboard aircraft carriers are intended for use by the aircraft carrier and its task force. Aircraft carriers are not casualty receiving ships and are not included in medical assets for support to ground forces.
+51
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+− A surgical company (SC) provides surgical care for the Marine Expeditionary Force. The SC provides stabilizing surgical procedures (damage control surgery) with four forward resuscitative surgical systems, four shock trauma platoons, and four en route care teams. An SC has a 20-bed capability for 72 hours, portable digital X-ray, and minimal laboratory and blood-banking capabilities.
+− The forward resuscitative surgical system (FRSS) is an 8-person team (two surgeons, anesthesia, critical care nurse, two operating room technicians, and two corpsmen). The FRSS provides a high mobility resuscitative surgery asset for 18 patients within 48 hours without resupply. The en-route care team is a two-person team consisting of a critical care registered nurse and a corpsman.
+Role 3
+Figure 2-6. Role 3 facilities
+A Role 3 facility (combat support hospital or EMEDS+25) is a medical treatment facility or veterinary facility (for working animals) staffed and equipped to provide care to all categories of patients. Capabilities of a Role 3 facility include burn management; optometry and ophthalmology; pediatrics, obstetrics, and gynecology; dental; preventive medicine; internal medicine and cardiology; maxillofacial surgery and neurosurgery; intensive care beds and nursing; blood-banking service; pathology; infectious disease services; medical nutrition therapy; behavioral health; occupational health; medical logistics; and other medical specialties.
+53
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Chapter 3
+Tactical Combat Casualty Care
+Medical Equipment
+Tactical Combat Casualty Care-All Combatants (TCCC-AC) must be familiar with the Improved First Aid Kit (IFAK)/Joint First Aid Kit (JFAK) as well as other kits commonly seen in the force today. This chapter discusses the equipment in Generation I and II IFAKs and other commonly used rescue equipment: the Warrior Aid and Litter Kit (WALK), Skedco, and for medics and Soldier familiarity, the M9 Medic Bag.
+Improved First Aid Kit/Joint First Aid Kit
+The IFAK Generation I is issued to every Service member at a Central Issue Facility for administering immediate self-aid and buddy aid. Every Service member must be trained in the use of all contents of the IFAK. The IFAK does not contain a needle or angiocatheter for chest needle decompression. All IFAK contents are described in the TCCC-AC training on the National Association of Emergency Medical Technicians (NAEMT) website.
+Figure 3-1. IFAK Generation I
+54
+CENTER FOR ARMY LESSONS LEARNED
+Table 3-1. IFAK Generation I contents
+National Stock No. Item No. Per Kit
+8465-01-531-3647 100 Round Squad Automatic Weapon
+(SAW)/Utility Pouch, MOLLE II1
+6515-01-521-7976 Combat Application Tourniquet 1
+6510-01-460-0849 Bandage Kit, Elastic 1
+6510-01-503-2117 Bandage Gauze, 4 1/2 inch, 100s 1
+6510-00-926-8883 Surgical Adhesive Tape, 2 inch, 6s 1
+6515-01-180-0467 Nasopharyngeal Airway 1
+6515-01-519-9161 Patient Exam Gloves, 100s 4
+6545-01-586-7691 Contents Kit, IFAK Resupply 1
+6545-01-531-3147 Insert (Folding Panels With Cord) 1
+6510-01-562-3325 Dressing, Combat Gauze 1
+
+The Generation II IFAK is issued by the Rapid Fielding Initiative. This IFAK includes two Combat Application Tourniquets, which are stored in pouches that attach to the kit bag. The Generation II IFAK also contains a vented chest seal and eye shield. The Generation II IFAK is similar to the JFAK. Designers added Department of Defense (DD) Form 1380, Tactical
+Combat Casualty Care (TCCC) Card, June 2014, a permanent marker, and strap cutter. The kit weighs 1 pound and contains expendable medical items. The Defense Medical Materiel Program Office is coordinating with the Joint Services on the transition of the IFAK to the JFAK. The U.S. Navy is currently the only Service utilizing needle chest decompression from the JFAK.
+55
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 3-2. IFAK Generation II
+Table 3-2. IFAK Generation II contents
+National Stock No. Item No. Per Kit
+6545-01-584-1582 U.S. Army IFAK 1
+6515-01-521-7976 Combat Application Tourniquet 2
+6510-01-492-2275 Bandage Kit, Elastic 1
+6510-01-503-2117 Bandage, Gauze, 4 1/2 inch, 100s 1
+6510-00-926-8883 Surgical Adhesive Tape, 2 inch, 6s 1
+6515-01-180-0467 Nasopharyngeal Airway 1
+6515-01-519-9161 Patient Exam Gloves, 100s 4
+6510-01-562-3325 Dressing, Combat Gauze 1
+4240-01-570-0319 Strap Cutter, Rescue 1
+6510-01-549-0939 Bolin Chest Seal 1
+6515-01-449-1016 Eye Shield, Fox 1
+7520-00-312-6124 Marker, Tube Type 1
+56
+CENTER FOR ARMY LESSONS LEARNED
+Warrior Aid and Litter Kit
+The WALK (National Stock Number [NSN]: 6545-01-587-1199) offers an option for a vehicle life-saving kit (see Figure 3-3). The WALK allows first-aid treatment and immediate evacuation of one patient in a casualty evacuation (CASEV AC) vehicle and treatment of multiple trauma patients at the point of injury (POI). The total weight of the WALK is 29 pounds, 15 ounces. The system holds the TALON II 90C quad-fold litter and a pocket-system containing medical supplies (see Figure 3-4). The WALK contains a Hypothermia Prevention and Management Kit (HPMK) to help stabilize patients during transport. The WALK also includes the following:
+• •Five pairs Black Talon nitrile trauma gloves
+• •Two nasopharyngeal airways, size 28F with lubricant
+• •One casualty equipment bag
+• •Two HyFin chest seals
+• •Two ARS needle decompression kits, 14 gauge by 3.25 inch
+• •Two combat application tourniquets
+• •Six trauma dressings, 6 inch
+• •Four rolls of S-rolled gauze, 4.5 inch by 4.1 yards
+• •One abdominal emergency trauma dressing
+• •Two SAM Splint IIs
+• •One pair of trauma shears, 7.25 inch
+• •One roll surgical tape, 2 inch
+• •One role multipurpose tape
+• •Six polycarbonate eye shields
+• •One Combat Casualty Reference Card
+• •Two Combat Casualty Cards (Triage)
+• •One aviation panel (Recognition, Orange)
+• •Four tie-down straps (universal litter)
+57
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+The WALK fits into any standard or nonstandard CASEV AC asset and is useful as part of the prepositioning of medical supplies or cache on a forward operating base, casualty collection point, or at a patrol base.
+Figure 3-3. WALK
+58
+CENTER FOR ARMY LESSONS LEARNED
+Figure 3-4. TALON II 90C quad-fold litter
+Sked Basic Rescue System
+The Sked (NSN: 6545-01-537-7904) is a semirigid litter that utilizes a sled design to allow the evacuator to continue returning fire as the casualty is evacuated. It is used for confined space, high angle, or technical rescue and provides patient protection while allowing the litter bearers to have their hands free for weapons and security. The Sked is equipped for horizontal hoisting by helicopter or vertical hoisting in caves or industrial confined spaces. When the patient is packaged, the litter becomes rigid. The Sked is rolled for storage in a backpack, which is included with the system. The Sked litter system is 17 pounds.
+59
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 3-5. Sked
+Figure 3-6. Casualty evacuation using the Sked
+60
+CENTER FOR ARMY LESSONS LEARNED
+M9 Medical Aid Bag
+The M9 Medical Aid Bag (NSN 6545-01-539-6448) is in the Department of Defense inventory. It has been modified to decrease the silhouette of an aid bag and the personnel carrying this product. Due to the variety of aid bags available, the M9 is easily acquired and restocked by military logistics. This bag can be utilized mounted or dismounted.
+Figure 3-7. M9 Medical Aid Bag
+61
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 3-8. M9 Medical Aid Bag interior
+Table 3-3. M9 Medical Aid Bag contents
+National Stock No. Item No. Per
+Kit
+6545-01-572-9964 Medical Equipment Set (MES) Combat Medic1
+4240-01-568-3219 Strap Cutter, Combat 1
+6510-00-926-8884 Surgical Adhesive Tape 1
+6510-00-935-5823 Elastic Bandage, 6 inch by 4.5 yards 4
+6510-01-492-2275 Bandage Kit, Elastic 4
+6510-01-503-2117 Bandage Gauze, 4.1 yards. 4
+6510-01-519-8421 Occlusive Dressings, 5s 1
+6510-01-519-9253 Surgical Sponges, 40s 1
+6510-01-532-8930 Bandage, Elastic, 16 by 12 inches 1
+6510-01-562-3325 Bandage Gauze, Impregnated 6
+6510-01-571-9729 Compress and Bandage 2
+62
+CENTER FOR ARMY LESSONS LEARNED
+Table 3-3. M9 Medical Aid Bag contents (continued)
+National Stock No. Item No. Per
+Kit
+6510-01-573-0300 Chest Seal Dressing 4
+6510-01-587-6579 Burn First Dressing 2
+6515-00-9357138 Bandage Scissors 1
+6515-01-314-6694 Stethoscope Comb, 28-inch 1
+6515-01-449-1016 Rigid Eye Shield, Fox12 4
+6515-01-494-1951 Universal Splint 2
+6515-01-515-0151 Tool Kit Rescue Oropharyngeal Airway 1
+6515-01-5162554 Easy Fit Suction Kit 1
+6515-01-5163120 Easy Suction Catheter 1
+6515-01-519-6764 Surgical Drainage Tubes, 6s 1
+6515-01-521-3082 Pharyngeal Airway, 2s 2
+6515-01-521-5730 Leg Splint 1
+6515-01-5217976 Non-Pneumatic Tourniquet 6
+6515-01-527-8068 Medical Head Lamp 1
+6515-01-529-1187 Nasal Trumpet 3
+6515-01-536-9363 Intraosseous Infusion 2
+6515-01-540-7226 Trauma Leash Shears 2
+6515-01-541-0635 Needle Decompression 2
+6515-01-557-1136 Oximeter Pulse Port 1
+6515-01-573-0692 Cricothyrotomy Set 2
+6515-01-593-4841 Resuscitator, Hand Open 1
+6532-01-524-6932 Survival Blanket 1
+6532-01-525-4062 Heating Blankets, 8s 1
+6545-01-539-6450 Medical Aid Bag 1
+7520-00-312-6124 Marker, Tube Type 1
+8345-01-573-3304 Panel Marker 1
+63
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Chapter 4
+MARCH/PAWS Treatment Algorithms
+This chapter contains flow charts illustrating the proper use of Tactical Combat Casualty Care (TCCC) principles of MARCH/PAWS and best practices for conducting TCCC in a combat environment.
+Figure 4-1
+64
+CENTER FOR ARMY LESSONS LEARNED
+Figure 4-2
+65
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 4-3
+66
+CENTER FOR ARMY LESSONS LEARNED
+Figure 4-4
+67
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 4-5
+68
+CENTER FOR ARMY LESSONS LEARNED
+Figure 4-6
+69
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure 4-7
+71
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Chapter 5
+Tactical Combat Casualty Care-All Combatants
+Tactical Combat Casualty Care-All Combatants Training
+The purpose of this chapter is to discuss training outcomes, provide resources, and aid in the execution of Tactical Combat Casualty Care-All Combatants (TCCC-AC). TCCC-AC is the TCCC course for non-medical personnel. The National Association of Emergency Medical Technicians (NAEMT) TCCC-AC training guidelines are standard for first responder training programs as stated by the Joint Trauma System and the Committee on Tactical Combat Casualty Care (CoTCCC). Medical personnel are the only authorized trainers for TCCC-AC courses. For guidelines, slides, and additional TCCC information, visit NAEMT online at http://www.naemt.org/education/TCCC/guidelines_curriculum or the Defense Health Agency at http://www.health.mil/tccc. TCCC-AC curriculum. The TCCC-AC slides have scenarios, practical exercises, and videos. Instructor guides are available for each slide series.
+• •Conduct the TCCC-AC written pretest.
+• •View and review all slides with students.
+• •Conduct the TCCC-AC written posttest.
+Skill station and practical exercises. The skills listed on the NAEMT website are within the scope of practice for a non-medical Service member .
+The NAEMT website provides documents for these skills, practical exercises incorporating these skills, and an evaluation tool for these skills.
+• •Conduct TCCC-AC skill-set training.
+• •Conduct TCCC-AC skill-set validation testing.
+• •Conduct a practical exercise trauma lane (optional).
+Instructors. TCCC-AC instructors are personnel who successfully complete the Tactical Combat Casualty Care-Medical Provider (TCCC-MP) course. The online NAEMT instructor course takes approximately 6 hours. Upon completion, submit the NAEMT instructor application. An NAEMT TCCC-affiliate faculty member monitors the first TCCC course taught. TCCC-AC instruction is authorized in a 10:1 ratio according to CoTCCC guidelines.
+72
+CENTER FOR ARMY LESSONS LEARNED
+• •The criterion for becoming a military TCCC instructor is being a military medic, medical technician, corpsman, or other medical personnel (officer or enlisted) trained to conduct medicine in the Armed Services.
+• •Medical simulation and training centers are located at various
+Army installations and may have NAEMT TCCC-affiliate faculty designation.
+• •The Defense Medical Readiness and Training Institute also has
+NAEMT TCCC-affiliate faculty staff and offer mobile training team courses, which are listed on the Joint Knowledge Online website at http://jko.jten.mil/.
+Trauma lane. The CoTCCC allows additional lane training for TCCC. A military operations on urbanized terrain (MOUT) or close quarters combat site can be utilized (for example, an office space, boat, ship, or fuselage) that can offer realistic constraints (for example, difficult evacuation) to render care to casualties.
+Tactical Combat Casualty Care-All Combatants Skill Sets
+As of 02 June 2014, the CoTCCC requires TCCC-AC first responders to have specific skill sets to perform the following:
+• •Massive hemorrhage:
+− Apply direct pressure to the hemorrhage.
+− Apply a bandage to the hemorrhage.
+− Apply a pressure dressing to the hemorrhage.
+− Apply a tourniquet to an extremity hemorrhage.
+− Apply combat gauze to the hemorrhage.
+• •Airway:
+− Demonstrate the chin lift/jaw thrust maneuver on a casualty.
+− Insert a nasopharyngeal airway (NPA) to a casualty.
+− Place a casualty in the recovery position.
+− Demonstrate the sit up/lean forward airway position on a casualty.
+• •Respirations: Treat a sucking chest wound with a vented chest seal.
+• •Circulation: Assess a casualty for shock.
+73
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+• •Head injury/hypothermia:
+− Package the casualty with a Hypothermia Prevention and
+Management Kit (HPMK).
+− Treat penetrating eye injuries and demonstrate proper use of a rigid eye shield.
+− Discuss the appropriate administration of oral moxifloxacin.
+• •Casualty movement: Demonstrate effective casualty drags and manual carries.
+• •TCCC medications:
+− Administer oral analgesics (Tylenol, meloxicam) appropriately.
+− Administer oral antibiotics (moxifloxacin) appropriately.
+• •Splinting:
+− Demonstrate effective application of a rigid eye shield.
+− Demonstrate effective limb splinting.
+• •Burns: Manage burns by stopping the burning process and covering the casualty.
+• •Documentation: Correctly complete Department of Defense (DD) Form 1380, Tactical Combat Casualty Care (TCCC) Card, June 2014, for a casualty.
+
+Tactical Combat Casualty Care-All Combatants Guidelines
+Guidelines established by the CoTCCC are posted on the NAEMT website at http://www.naemt.org/education/TCCC/tccc-ac. These recommendations are intended to be guidelines only and are not a substitute for clinical judgment.
+Care Under Fire Basic Management Plan
+• •Return fire and take cover.
+• •Direct or expect the casualty to remain engaged as a combatant, if appropriate.
+• •Direct the casualty to move to cover and apply self-aid, if able.
+• •Try to keep the casualty from sustaining additional wounds.
+74
+CENTER FOR ARMY LESSONS LEARNED
+• •Massive hemorrhage: Stop any life-threatening external hemorrhage, if tactically feasible:
+− Direct the casualty to control the hemorrhage by self-aid, if able.
+− Use a CoTCCC-recommended tourniquet for an extremity hemorrhage.
+− Move the casualty to cover.
+• •Airway management is generally best deferred until the tactical field care (TFC) phase.
+Tactical Field Care Basic Management Plan
+NOTE: Casualties with an altered mental status should be disarmed immediately.
+• •Massive hemorrhage:
+− Assess for an unrecognized hemorrhage and control all sources of bleeding.
+− Use one or more CoTCCC-recommended limb tourniquets, if necessary.
+− Use a CoTCCC-approved hemostatic dressing for compressible hemorrhage not amenable to limb tourniquet use or as an adjunct to tourniquet removal.
+− Immediately apply a CoTCCC-recommended junctional tourniquet if the bleeding site is amenable to use of a junctional tourniquet.
+− Reassess the prior tourniquet application:
+•••*Expose the wound and determine if a tourniquet is needed.
+•••*Replace any limb tourniquet placed over the uniform with one applied directly to the skin, 2 to 3 inches above the wound.
+− Expose and use an indelible marker to clearly mark all tourniquet sites with the time of tourniquet application.
+• •Airway management:
+− Conduct the following for an unconscious casualty without an airway obstruction:
+•••*Chin lift/jaw thrust maneuver.
+75
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+•••*NPA.
+•••*Place the casualty in the recovery position (see Figure 5-1).
+Figure 5-1. Recovery position
+− Conduct the following for a casualty with an airway obstruction or impending airway obstruction:
+•••*Chin lift/jaw thrust maneuver.
+•••*NPA.
+•••*Allow a conscious casualty to assume any position that best protects the airway to include sitting up.
+•••*Place an unconscious casualty in the recovery position.
+•••*If these measures are unsuccessful, refer to a medic immediately. Perform a surgical cricothyroidotomy using one of the following:
+•••••♦CricKey technique.
+•••••♦Bougie-aided open surgical technique.
+•••••♦Standard open surgical technique.
+•••••♦Lidocaine, if the casualty is conscious.
+• •Respirations:
+− For a casualty with progressive respiratory distress and known or suspected torso trauma, consider a tension pneumothorax.
+− All open and/or sucking chest wounds should be treated by:
+•••*Immediately applying a vented chest seal to cover the defect.
+76
+CENTER FOR ARMY LESSONS LEARNED
+•••*If a vented chest seal is not available, use a non-vented chest seal.
+•••*Burping or temporarily removing the dressing. If this does not relieve the respiratory distress, refer to a medic.
+• •Circulation:
+− Assess the casualty for hemorrhagic shock. If the casualty is not in shock, oral fluids are permissible if the casualty is conscious and can swallow.
+− If the casualty is in shock, refer to a medic.
+• •Hypothermia prevention:
+− Minimize casualty environmental exposure and promote heat retention.
+− Keep personal protective gear on, if feasible. Replace wet clothing, if possible. Get the casualty onto an insulated surface as soon as possible.
+− Use CoTCCC-approved hypothermia prevention kit, if available.
+− If a hypothermia prevention kit is not available, then use dry blankets, poncho liners, sleeping bags, or anything that will retain heat and keep the casualty warm and dry.
+• •Pain management: Analgesia on the battlefield should generally be achieved by one of following options:
+− If there is mild to moderate pain and/or the casualty is able to fight, give the casualty a TCCC combat wound pill pack (CWPP).
+− If there is moderate to severe pain and the casualty is not in shock, refer to a medic.
+• •Antibiotics (recommended for all open combat wounds):
+− If the casualty can swallow, administer 400 milligrams (mg) of moxifloxacin from the CWPP.
+− If the casualty cannot swallow (shock or unconsciousness), refer to a medic.
+• •Wounds:
+− Inspect and dress known wounds.
+− Check for additional wounds (for example, scalp lacerations).
+77
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+• •Splinting:
+− If a penetrating eye injury is noted or suspected, conduct the following:
+•••*Cover the eye with a rigid eye shield and not a pressure patch.
+•••*Administer 400 mg moxifloxacin from the CWPP.
+− Splint fractures.
+Tactical Evacuation Care Basic Management Plan
+NOTE: In addition to reassessing the principles of tactical field care (TFC), perform manual carries as needed (Warrior Aid and Litter Kit [WALK] or Sked).
+79
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Chapter 6
+Tactical Combat Casualty Care-Medical Provider
+Tactical Combat Casualty Care-Medical Provider Training
+The purpose of this chapter is to discuss training outcomes, provide resources, and aid in the execution of Tactical Combat Casualty Care-Medical Provider (TCCC-MP). The National Association of Emergency Medical Technicians (NAEMT) TCCC-MP guidelines and training are the standard for enlisted and officer TCCC medical personnel training as stated by the Joint Trauma System and the Committee on Tactical Combat Casualty Care (CoTCCC). Medical personnel are highly encouraged to utilize the NAEMT TCCC-MP courses because they offer a credential sponsored by the American College of Surgeons and 16 continuing education hours. Visit the NAEMT website at http://www.naemt.org/education/TCCC/guidelines_curriculum or the Defense Health Agency website at http://www.health.mil/tccc for guidelines, slides, and additional TCCC information. TCCC-MP curriculum. The TCCC-MP slides have scenarios, practical exercises, and videos. Instructor guides are available for each slide series.
+• •Conduct the TCCC-MP written pretest.
+• •View and review all slides with students.
+• •Conduct the TCCC-MP written posttest.
+Skill station and practical exercises. The skills listed on the NAEMT website are within the scope of practice for a medically trained Service member. Located on the NAEMT site are documents for skills, practical exercises incorporating these skills, and an evaluation tool for each skill.
+• •Conduct TCCC-MP skill-set training.
+• •Conduct TCCC-MP skill-set validation test.
+• •Conduct a practical exercise trauma lane (optional).
+Instructors. TCCC-MP instructors are personnel who successfully complete the TCCC-MP course, complete the 6-hour online NAEMT instructor course, submit the NAEMT instructor application, and have an NAEMT TCCC-affiliate faculty member monitor during the first TCCC course taught. TCCC instruction must be given in a 4:1 ratio according to NAEMT (Prehospital Trauma Life Support) guidelines.
+80
+CENTER FOR ARMY LESSONS LEARNED
+• •The criterion for becoming a military TCCC instructor is being any military medic, medical technician, corpsman, or other medical personnel (officer or enlisted) trained to conduct medicine in the Armed Services.
+• •Medical Simulation and Training Centers are located at various Army installations and may have NAEMT TCCC-affiliate faculty designation.
+• •The Defense Medical Readiness and Training Institute (DMRTI) also has NAEMT TCCC-affiliate faculty staff. DMRTI offers mobile training team courses listed on Joint Knowledge Online website at http://jko.jten.mil/. Trauma lane. CoTCCC allows additional lane training for TCCC. A confined space can be utilized (for example, an office space, boat, ship, or fuselage) that can offer realistic constraints (for example, difficult evacuation) to render care to casualties.
+Tactical Combat Casualty Care-Medical Provider Skill Set
+As of 02 June 2014, the CoTCCC requires TCCC-MP medical enlisted personnel (medics, medical technicians, corpsmen, medical officers, or operating room special operations medics) to have specific skill sets to perform the following (unless otherwise noted):
+• •Massive hemorrhage:
+− Apply direct pressure to the hemorrhage.
+− Apply a bandage to the hemorrhage.
+− Apply a pressure dressing to the hemorrhage.
+− Apply a tourniquet to an extremity hemorrhage.
+− Apply Combat Gauze to the hemorrhage.
+−  Apply a pelvic splint.
+• •Airway:
+− Demonstrate the chin lift/jaw thrust maneuver on a casualty.
+− Insert a nasopharyngeal airway (NPA) to a casualty.
+− Place a casualty in the recovery position.
+− Demonstrate the sit up/lean forward airway position on a casualty.
+81
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+− Demonstrate the insertion of a supraglottic airway.
+− Demonstrate a surgical airway (cricothyroidotomy).
+− Demonstrate endotracheal intubation (medical officers and operating room special operations medics).
+• •Respirations:
+− Treat a sucking chest wound with a chest seal.
+− Demonstrate a needle chest decompression (NCD).
+− Demonstrate insertion of a chest tube (medical officers and operating room special operations medics).
+− Demonstrate oxygen administration.
+• •Circulation:
+− Assess for shock.
+− Initiate an intravenous (IV) access/saline lock.
+− Initiate an intraosseous (IO) access.
+− Demonstrate IV/IO fluid resuscitation.
+− Demonstrate the use of IV/IO analgesics.
+− Demonstrate the use of IV/IO tranexamic acid (TXA).
+− Demonstrate the use of IV/IO antibiotics.
+− Demonstrate the use of IV/IO blood product administration (medical officers and operating room special operations medics).
+• •Head injury/hypothermia:
+− Demonstrate the Hypothermia Prevention and Management Kit (HPMK).
+− Treat penetrating eye injuries:
+•••*Demonstrate the proper use of a rigid eye shield.
+•••*Discuss appropriate administration of oral moxifloxacin.
+• •Casualty movement: Demonstrate effective casualty drags, manual carries, use of a Talon litter (in the Warrior Aid and Litter Kit [WALK]) and Sked stretcher.
+82
+CENTER FOR ARMY LESSONS LEARNED
+• •TCCC medications:
+− Administer oral analgesics (Tylenol, moxifloxacin) appropriately.
+− Administer oral antibiotics appropriately.
+− Administer oral transmucosal fentanyl citrate (OTFC) appropriately.
+− Administer intramuscular (IM) antibiotics appropriately.
+− Administer intranasal (IN), IM, IV, or IO ketamine appropriately.
+− Administer IV or IO morphine appropriately.
+• •Fractures:
+− Demonstrate effective splinting with a rigid eye shield.
+− Demonstrate effective splinting with a pelvic splint.
+− Demonstrate effective limb splinting.
+• •Burns:
+− Manage burns by stopping the burning process and covering the casualty.
+− Cover the burn injuries.
+− Initiate the burn-fluid resuscitation procedures.
+• •Documentation: Correctly complete Department of Defense (DD)
+Form 1380, Tactical Combat Casualty Care (TCCC) Card, June 2014.
+• •Monitoring: Demonstrate the use of mission-appropriate electronic monitoring devices (pulse oximeter, Zoll monitor/defibrillator, Propaqmonitor, etc.).
+83
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Tactical Combat Casualty Care-Medical Provider Guidelines
+As of 11 November 2015, the guidelines established by the CoTCCC are posted on the NAEMT website at http://www.naemt.org/education/TCCC/tccc-ac. These recommendations are intended to be guidelines only and are not a substitute for clinical judgment.
+Care Under Fire Basic Management Plan
+• •Return fire and take cover.
+• •Direct or expect the casualty to remain engaged as a combatant, if appropriate.
+• •Direct the casualty to move to cover and apply self-aid, if able.
+• •Keep the casualty from sustaining additional wounds.
+• •Massive hemorrhage:
+− Stop a life-threatening external hemorrhage, if tactically feasible.
+− Direct the casualty to control the hemorrhage by self-aid, if possible.
+− Use a CoTCCC-recommended tourniquet for an extremity hemorrhage.
+− Move the casualty to cover.
+• •Airway management is generally best deferred until the tactical field care (TFC) phase.
+
+Tactical Field Care Basic Management Plan
+NOTE: Casualties with an altered mental status should be disarmed immediately.
+• •Massive hemorrhage:
+− Assess the casualty for an unrecognized hemorrhage and control all sources of the bleeding.
+− Use one or more CoTCCC-recommended limb tourniquets, if necessary.
+84
+CENTER FOR ARMY LESSONS LEARNED
+− Use a CoTCCC-approved hemostatic dressing for a compressible hemorrhage not amenable to a limb tourniquet use or as an adjunct to tourniquet removal:
+•••*Combat Gauze, Celox Gauze, or ChitoGauze (abdomen or pelvis).
+•••*Special Operations Forces only: XStat sponges (deep, narrow-tract, junctional wounds).
+− Immediately apply a CoTCCC-recommended junctional tourniquet if the bleeding site is amenable to use of a junctional tourniquet.
+− Reassess the prior tourniquet application by doing the following:
+•••*Expose the wound and determine if a tourniquet is needed.
+•••*Replace any limb tourniquet placed over the uniform with one applied directly to the skin, 2 to 3 inches above the wound.
+• •Airway management:
+− For an unconscious casualty without airway obstruction, perform the following:
+•••*Chin lift/jaw thrust maneuver.
+•••*NPA.
+•••*Place the casualty in the recovery position (see Figure 6-1).
+Figure 6-1. Recovery position
+− For a casualty with an airway obstruction or impending airway obstruction, perform the following:
+•••*Chin lift/jaw thrust maneuver.
+•••*NPA.
+85
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+•••*Allow a conscious casualty to assume any position that best protects the airway to include sitting up.
+•••*Place an unconscious casualty in the recovery position.
+• •Respiration:
+− For a casualty with progressive respiratory distress and known or suspected torso trauma, consider a tension pneumothorax and NCD on the side of the injury:
+•••*Remove the plastic cap from the 3.25 inch, 14-gauge needle.
+•••*Insert the needle into the skin over the superior border of the third rib, mid-clavicular line, and direct the needle into the second intercostal space at a 90-degree angle.
+•••*As the needle enters the pleural space, a “pop” will be felt. If a “hiss” of air is heard, ensure that the needle is advanced all the way to the hub.
+•••*Remove the needle, leaving the catheter in place.
+•••*Stabilize the catheter hub to the chest wall with 1/2 inch gauze tape.
+− Each open and/or sucking chest wound is treated by:
+•••*Immediately applying a vented chest seal to cover the defect.
+•••*If a vented chest seal is not available, use a non-vented chest seal.
+•••*If respiratory distress ensues, burp or temporarily remove the dressing. If there is no improvement, consider an NCD.
+• •Circulation:
+− Control of bleeding takes precedence over infusing fluids. Start an 18-gauge IV or saline lock, if indicated.
+− An IO device is an alternative route for administering fluids when fluid resuscitation is required and IV access cannot be obtained.
+− Give 1 gm of TXA as soon as feasible to casualties in or at risk of hemorrhagic shock.
+86
+CENTER FOR ARMY LESSONS LEARNED
+− Clinical signs of shock on the battlefield are (1) unconsciousness or altered mental status not due to coexisting traumatic brain injury (TBI) or drug therapy, and/or (2) abnormal radial pulse. If the casualty is not in shock, oral fluids are permissible if the casualty is conscious and can swallow. If the casualty is in shock, resuscitate with whole blood, freeze-dried plasma, or 500 milliliter (ml) bolus of Hextend. The casualty should then be observed for 30 minutes. If there is insufficient clinical improvement, a second 500 mL bolus of Hextend should then be administered in a similar manner. Do not administer more than 1,000 ml of Hextend.
+− Convert limb tourniquets and junctional tourniquets if the following three criteria are met:
+•••*The casualty is not in shock.
+•••*It is possible to monitor the wound closely for bleeding.
+•••*The tourniquet is not being used to control bleeding from an amputation.
+− Do not attempt to remove a tourniquet if the anticipated evacuation time is less than 2 hours or the casualty is in shock.
+− Resuscitate the casualty frequently until there is a palpable radial pulse, improved mental status, or a systolic blood pressure (SBP) of 90 millimeter of mercury (mmHG) is present. Discontinue fluids when one or more points are achieved.
+− Reassess the casualty every 15 minutes for recurrence of shock. If shock recurs, verify all hemorrhages are under control and repeat fluid resuscitation as above.
+• •Hypothermia prevention:
+− Minimize casualty environmental exposure and promote heat retention.
+− Keep personal protective gear on, if feasible. Replace wet clothing, if possible. Get the casualty onto an insulated surface as soon as possible. Use CoTCCC-approved hypothermia prevention kit, if available. If not available, use dry blankets, poncho liners, sleeping bags, or any heat-retaining item and keep the casualty warm and dry.
+− Warm IV fluids, if possible.
+87
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+− Casualties with both shock and TBI should receive IV or IO fluids until the radial pulse is restored, which corresponds to an SBP of approximately 70 mmHg.
+• •Pain management:
+− Analgesia on the battlefield should generally be achieved by one of the three following options:
+•••*If there is mild to moderate pain and/or the casualty is able to fight, give the casualty the TCCC combat wound pill pack (CWPP).
+•••*If there is moderate to severe pain and the casualty is not in shock, administer 800 micrograms (mcg) of OTFC.
+•••*If there is moderate to severe pain and the casualty is in shock, administer 50 milligrams (mg) of ketamine IM or IN every 30 minutes, as needed, or administer 20 mg of ketamine by slow IV or IO push every 20 minutes, as needed.
+− NOTE: The endpoint control of pain for ketamine is an eye nystagmus. Consider 4 mg of ondansetron (Zofran) by IV , IO, or IM every 8 hours for nausea and vomiting.
+• •Antibiotics: Antibiotics are recommended for all open combat wounds.
+− If the casualty can swallow, administer 400 mg of moxifloxacin, from the combat wound pill pack (CWPP).
+− If the casualty cannot swallow (because of shock or if unconsciousness), administer 1-gram (gm) ertapenem (Invanz) by IV or IM.
+• •Wounds:
+− Inspect and dress known wounds.
+− Check for additional wounds (for example, scalp lacerations).
+• •Splinting:
+− Conduct the following for splinting a penetrating eye trauma:
+•••*Perform a rapid field test of the casualty’s visual acuity.
+•••*Cover the eye with a rigid eye shield and not a pressure patch.
+88
+CENTER FOR ARMY LESSONS LEARNED
+•••*Administer 400 mg moxifloxacin from the CWPP if the casualty can swallow. If the casualty cannot swallow, administer IV or IM antibiotics.
+− For fractures, apply a pelvic splint for lower extremity traumatic amputation, vehicle rollover, or building collapse.
+• •Monitoring: Utilize pulse oximetry as an adjunct to clinical monitoring.
+• •Communication and documentation: Communicate with the casualty and the next higher Role of care. Use the TCCC Casualty Card to record care. The TCCC Card is formatted in the MIST (mechanism of injury, injuries, signs/symptoms, and treatment) Report. The MIST Report is a standardized patient hand-over.
+• •Cardiopulmonary resuscitation (CPR):
+− Battlefield blast or penetrating trauma casualties with no pulse, no respirations, and no other signs of life should not be resuscitated.
+− Casualties with torso trauma or polytrauma and no pulse or respirations should have bilateral NCD performed to confirm or deny pneumothorax prior to discontinuing resuscitation.
+• •Burns:
+− Facial burns should be aggressively monitored for airway status and potential inhalation injury.
+− Estimate total body surface area (TBSA) burned to the nearest 10 percent, utilizing the Rule of Nines. (See Figure 6-2.)
+89
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Rule of Nines
+Estimate the TBSA that has been burned on an adult by using multiples of 9. The percentage of the body involved can be calculated as follows: Head = 9%Chest (front) = 9%Abdomen (front) = 9%Upper/mid/low back and buttocks = 18%Each arm = 9% (front = 4.5%, back = 4.5%)Groin = 1%Each leg = 18% total (front = 9%, back = 9%)
+Figure 6-2. Rule of Nines
+− Cover burned areas with dry, sterile dressings. For burns over 20 percent TBSA, consider placing the casualty into an HPMK, body bag, or alternative.
+− United States Army Institute of Surgical Research Rule of Ten fluid resuscitation (calculate the TBSA of the burns to the nearest 10 percent):
+•••*For burns over 20 percent of TBSA, initiate IV or IO fluids as soon as possible with lactated Ringers (LR), normal saline (NS), or Hextend solution.
+•••*If Hextend solution is used, use no more than 1,000 ml followed by LR or NS, as needed.
+Tactical Evacuation Care Basic Management Plan
+NOTE: In addition to the principles of tactical field care (TFC), consider the following for tactical evacuation care:
+• •Massive hemorrhage: Continually reassess all tourniquets and bandages for bleeding from vehicular vibrations.
+90
+CENTER FOR ARMY LESSONS LEARNED
+• •Airway management: Consider the following for a casualty with a current or impending airway obstruction:
+− Supraglottic airway (King LT, iGel, etc.).
+− Endotracheal intubation (suction, Tube Tamer, bag-valve mask, bougie, GlideScope).
+• •Respirations:
+− Consider a chest tube insertion if the casualty has no improvement and/or if a long transport is anticipated.
+− Administer oxygen when possible for the following types of casualties:
+•••*Low oxygen saturation by pulse oximetry (shock, chest wound, etc.).
+•••*Injuries associated with impaired oxygenation.
+•••*An unconscious casualty.
+•••*A casualty with TBI (maintain oxygen saturation over 90 percent).
+•••*Casualty at altitude (over 5,000 feet above sea level).
+• •Circulation: Continuously reassess IV or IO access for patency and security.
+• •Head injury/hypothermia:
+− Casualties with moderate to severe (penetrating) TBI should be monitored for:
+•••*Decreases in level of consciousness.
+•••*Pupillary dilation.
+•••*SBP over 90 mmHg or mean arterial pressure over 60.
+•••*Oxygen saturation (pulse oximetry) over 90 percent.
+•••*Hypothermia (core temperature under 96 F [35.5 C]).
+•••*Partial pressure of carbon dioxide (if capnography is available, maintained between 35 to 40 mmHg).
+91
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+•••*For a penetrating head trauma, administer antibiotics
+(ertapenam, 1 gm).
+•••*Assume a C-spine injury until cleared.
+− If impending herniation is suspected, take the following actions:
+•••*Administer 250 ml of 3 percent or 5 percent hypertonic saline bolus by IV or IO.
+•••*Elevate the casualty’s head 30 degrees.
+•••*Control pain even in an unconscious patient (no morphine).
+•••*Hyperventilate the casualty (bag-valve mask ventilation rate of 14 to 20).
+− Package the casualty in an HPMK or equivalent Blizzard Survival Blanket, poncho, sleeping bag, etc.
+93
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix A
+Tactical Combat Casualty Care Card
+Figure A-1. TCCC Card (front)
+94
+CENTER FOR ARMY LESSONS LEARNED
+Figure A-2. TCCC Card (back)
+95
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+NOTE: Department of Defense (DD) Form 1380, Tactical Combat Casualty Care (TCCC) Card, June 2014, is displayed in the MIST (mechanism of injury, injuries, signs/symptoms, and treatment) Report format. The MIST Report is the “debrief” or patient handover report for the next Role of care or evacuation platform attendant (flight medic, ground ambulance medic, en route critical care nurse).
+NOTE: Change occurs with metrics. Metrics are created from data. Data must be documented.
+97
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix B
+Tactical Combat Casualty Care
+After Action Report
+The Tactical Combat Casualty Care (TCCC) After Action Report (AAR) is to be completed within 72 hours of the injury occurring by the point of injury (POI) medical team or Role I care and sent to the Department of Defense Trauma Registry (DODTR). The DODTR is the data repository for Department of Defense (DOD) trauma-related injuries. The goal of this registry is to document, in electronic format, information about the demographics, injury-producing incident, diagnosis and treatment, and outcome of injuries sustained by U.S./non-U.S. military and U.S./non-U.S. civilian personnel in wartime and peacetime from the point of wounding to final disposition. The Joint Trauma System (JTS) collects data from Department of Defense (DD) Form 1380, Tactical Combat Casualty Care (TCCC) Card, June 2014; TCCC AARs; and from the Armed Forces Medical Examiner Services (AFMES). Documentation is vital to accumulate data in the DODTR, formerly the Joint Theater Trauma Registry. JTS functions include the following:
+• •JTS Operations: The Data Acquisition division mines medical records to abstract, code, and enter critical trauma data into the DODTR database. The Data Analysis division develops, queries, and provides data from the DODTR in response to requests for information and conducts classified and nonclassified data analysis. The Data Automation division supports information technology for the DODTR and data-related special projects.
+• •Trauma Care Delivery maintains a database of operational and physiologic parameters related to delivery of en route care and has evaluated the validity of the “golden hour” standard for movement of casualties from POI to the first surgical capability. The addition of a military en route care registry (MERCuRY database) captures all ground, air, and ship transport care.
+• •Performance Improvement coordinates improvement activities across the spectrum of trauma care developing Performance Improvement course content and training for combatant command trauma system development.
+98
+CENTER FOR ARMY LESSONS LEARNED
+Figure B-1. TCCC AAR (front)
+99
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Figure B-2. TCCC AAR (back)
+101
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix C
+Medical Triage Categories
+Triage
+Triage will be performed at all levels. Traditional categories of triage are immediate, delayed, minimal, and expectant. To easily remember the order of the categories, use the acronym IDME. No significant treatment should occur in the triage area. Casualties should be rapidly sent to the appropriate treatment area for care. Immediate. This group requires attention within minutes to 2 hours upon arrival to avoid death or major disability. Injuries include airway obstruction or potential compromise, tension pneumothorax, uncontrolled hemorrhage, threatened loss of limb, or multiple extremity amputations. Delayed. This group includes those wounded who are in need of surgery, but whose general condition permits delay in treatment without unduly endangering life, limb, or eyesight. Injuries include blunt or penetrating torso injuries, fractures, soft-tissue injuries, facial fractures without airway compromise, globe injuries, or survivable burns. Minimal. This group has relatively minor injuries (e.g., minor lacerations, abrasions, fractures of small bones, and minor burns) and can effectively care for themselves with minimal medical care. These casualties may also provide manpower to assist with movement or care of the injured. Such casualties may inundate the facility, leading to early commitment and ineffective utilization of resources. It is imperative to secure and strictly control access to the military treatment facility (MTF) immediately upon notification of a mass casualty event. Expectant. This group has injuries that overwhelm current medical resources at the expense of treating salvageable patients. The expectant casualty should not be abandoned, but should be separated from the view of other casualties and intermittently reassessed. These casualties require a staff capable of monitoring and providing comfort measures. Injuries include absent vital signs or signs of life, transcranial gunshot wound, open pelvic injuries with uncontrolled bleeding and Class IV shock, burns without reasonable chance for survival or recovery, or high spinal cord injuries.
+102
+CENTER FOR ARMY LESSONS LEARNED
+Mass Casualty
+A mass casualty (MASCAL) event overwhelms any immediately available medical capabilities to include personnel, supplies, and/or equipment. Effective MASCAL response is founded on the principle of triage, the system of sorting and prioritizing casualties based on the tactical situation, mission, and available resources. Mass Casualty Planning Supplies. Class VIII medical supplies include equipment, drugs, oxygen, dressings, sutures, sterilization capability, blood, etc. Immediate liaison with the logistics system in the MTF and the theater of operation is essential to ensure available and timely resupply. Class VIII boxes should be placed near planned casualty collection points. Personnel. Know the professional capability of personnel. Be prepared to divert casualties to another facility. A response plan should include personnel recall. Capability. Know the number of operating room and intensive care unit beds, holding capacity, and available diagnostic equipment (ultrasound, X-ray, computed tomography [CT] scan, and laboratory tests). Communication is essential among the MASCAL team, litter bearers, higher command, and neighboring facilities. Walking Blood Bank Massively transfused casualties (over 10 units of red blood cell count [RBC] in 24 hours) have a high mortality rate (33 percent) and have the greatest potential to benefit from appropriate transfusion strategies. Retrospective cohort studies of casualties requiring massive transfusions during Operation Enduring Freedom (OEF) and Operation Iraqi Freedom (OIF) demonstrate a significant survival benefit for the massively transfused casualty when RBC, fresh frozen plasma, and platelets are transfused at a 1:1:1 ratio. Fresh whole blood (FWB) is available in austere conditions as a walking blood bank (WBB) program that can be established based on a risk assessment and the potential for casualties. FWB has no loss of clotting factors or platelet activity. FWB risks. There are risks associated with the use of FWB, including increased risk of transfusion-transmitted infections (e.g., human immunodeficiency virus [HIV], hepatitis B and C, syphilis), a period of decreased exercise tolerance in donors (mission effect on casualty’s unit), and an increased risk of clerical errors (ABO typing) due to the potentially chaotic activity during which FWB is requested. Additionally, field conditions are inherently unsanitary and are presumed to increase the risk of bacterial contamination of the blood.
+103
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+WBB planning. Coordination with the area joint blood program officer is required to establish a WBB program. Prescreened donors registered into the WBB program are preferably composed of active duty, active Reserve, active National Guard, and other Department of Defense beneficiaries. Coalition forces will not be utilized routinely because donors and foreign nationals are used as a last resort. Donor FWB must be an ABO type-specific match to the casualty. If not matched, a fatal hemolytic reaction may occur. Type O whole blood is not universal. For more information see the Joint Theater Trauma System clinical practice guideline found online at http://www.usaisr.amedd.army.mil/cpgs/Fresh_Whole_Blood_Transfusion_24_Oct_12.pdf.
+105
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix D
+Medical Evacuation Precedence Categories
+Evacuation Categories
+The more severe casualties (urgent and urgent-surgery precedence casualties) should be evacuated before priority or routine precedence casualties. Every effort should be made to staff and equip non-medical vehicles used for casualty evacuation (CASEV AC) with medical personnel, even if only to move the routine patient precedence category. NOTE: Priority I through IV are NATO terms. NATO Standard Agreement 3204, Aeromedical Evacuation, has deleted the Priority IV category.
+Evacuation Priority
+Priority is established by the treatment element or the senior military medical person. Soldiers are evacuated based on their medical condition, assigned evacuation precedence, and availability of medical evacuation platforms.
+Priority I Urgent is assigned to emergency cases that should be evacuated as soon as possible and within a maximum of 1 hour in order to save life, limb, or eyesight to prevent complications of serious illness or to avoid permanent disability.
+Priority IA Urgent Surgical is assigned to patients who must receive far forward surgical intervention to save life and to stabilize them for further evacuation.
+Priority II Priority is assigned to sick and wounded personnel requiring prompt medical care. This precedence is used when the individual should be evacuated within four hours or his medical condition could deteriorate to such a degree that he will become an urgent precedence, or whose requirements for special treatment are not available locally, or will suffer unnecessary pain or disability.
+Priority III Routine is assigned to sick and wounded personnel requiring evacuation but whose condition is not expected to deteriorate significantly. The sick and wounded in this category should be evacuated within 24 hours.
+Priority IV Convenience is assigned to patients for whom evacuation by medical platform is a matter of medical convenience rather than necessity.
+106
+CENTER FOR ARMY LESSONS LEARNED
+Helicopter Landing Zone
+Aircraft normally approach a tactical landing site without the aid of the search landing light. The inverted “Y” system is used as the primary marking for U.S. Forces. There is no landing zone (LZ) marking for day operations, except smoke. Tactical lighting of the LZ can consist of Chemlights, “beanbag” lights on the ground, or a Chemlight attached to a 550 cord, swung in a circular motion. A lighted inverted “Y” indicates the landing point of the lead helicopter.
+Figure D-1. Inverted “Y” system
+107
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix E
+9-Line Request With MIST Report
+Figure E-1. 9-Line Request with MIST Report
+108
+CENTER FOR ARMY LESSONS LEARNED
+NOTE: The 9-Line Request includes a MIST (mechanism of injury, injuries, signs/symptoms, and treatment) Report. Multiple casualties can be used on a single 9-Line Report, and one casualty is used per MIST Report.
+109
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix F
+Prolonged Field Care
+The NATO definition of prolonged field care (PFC) is field medical care applied beyond “doctrinal planning time lines” in order to decrease patient mortality and morbidity. PFC utilizes limited resources and is sustained until the patient arrives at the next appropriate level of care. For more information see the Special Operations Medical Association website at http://www.specialoperationsMedicine.org/Pages/pfcresources.aspx. Special Operations Command The Special Operations Command (SOCOM) Prolonged Field Care Working Group (PFCWG) emphasizes basic medical skills that, when put together, allow for a more comprehensive approach to critical patient care in an austere setting.
+Prolonged Field Care Capabilities
+There are 10 PFC capabilities:
+• •Monitor the patient to create a useful vital-signs trend.
+• •Resuscitate the patient beyond crystalloid or colloid infusion (blood products).
+• •Ventilate or oxygenate the patient (positive end-expiratory pressure [PEEP], ventilator, supplemental oxygen).
+• •Gain definitive control of the patient’s airway (cricothyrotomy, rapid sequence intubation, and endotracheal tube).
+• •Use sedation or pain control (intravenous [IV] sedation, ketamine, Versed, fentanyl, etc.).
+• •Use physical examination or diagnostic measures (ultrasound, diagnostic peritoneal lavage, laboratory testing).
+• •Provide nursing, hygiene, or comfort measures (wound care and catheterizations).
+• •Perform advanced surgical interventions (chest tube, cricothyrotomy, fasciotomy, amputation).
+• •Perform a telemedicine consult (media to transfer trends, images, lab results).
+110
+CENTER FOR ARMY LESSONS LEARNED
+• •Prepare the patient for flight (basic flight physiology, Joint Enabling Capabilities Command [JECC], Critical Care Air Transport Team [CCATT], flight surgeon).
+Tourniquet Conversion
+The emphasis on hemorrhage control has and will continue to result in the application of tourniquets. As soon as tactically allowable, all tourniquets must be reassessed for conversion. Consider the following guidelines when addressing tourniquet conversion:
+• •Less than two hours after the application is considered safe (attempt conversion).
+• •Two to six hours is likely safe, but the upper safe limit has not been scientifically determined (attempt conversion).
+• •More than six hours requires caution (field conversion not advised).
+111
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix G
+Drug Reference Guide
+Tactical Combat Casualty Care-Medical Provider (TCCC-MP) medications are referenced throughout the TCCC-MP guidelines, skill sets, and algorithms. These medications are described below:
+• •Acetaminophen (Tylenol), 625 milligram (mg) bilayer caplet. Indications are mild to moderate pain in a conscious casualty able to swallow. A typical dose is two tablets every 8 hours. (Available in the Tactical Combat Medical Care Medical Equipment Set [MES].)
+• •Cefotetan, 2 grams (gm), intravenous (IV) antibiotic. Indication is traumatic injury.
+• •Diazepam (Valium), 5 mg/2 milliliter (ml) injection. Indications are rapid sequence induction, current or anticipated seizure activity, or sedative for combative casualty. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+• •Ertapenam (Invanz), 1 gm IV antibiotic. Indication is traumatic injury.
+• •Fentanyl citrate, transmucosal lozenge (oral transmucosal fentanyl citrate [OTFC]), 800 micrograms (mcg). Indications are moderate to severe pain in a conscious casualty able place the lozenge in the mouth. Tape the lozenge to the casualty’s index finger and direct it into the mouth. Advise casualty not bite and/or swallow the lozenge. (Available in the Combat Medic MES.)
+• •Flumazenil (Romazicon), 0.4 mg injection every 15 minutes. Indications are as reversal agent for benzodiazepines (Diazepam [Valium]). (Available in the Tactical Combat Medical Care MES.)
+• •Hetastarch, 500 ml IV bag. Indications are hemorrhage or burns. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+• •Ketamine injection, 10 ml vial. Indications are moderate to severe pain in a conscious or unconscious casualty. Deliver intranasal, 50 mg; or IV; intramuscular (IM); or intraosseous infusion (IO), 20 mg. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+• •Meloxicam, oral tablets, 15 mg. Indications are mild to moderate pain in a conscious casualty able to swallow. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+112
+CENTER FOR ARMY LESSONS LEARNED
+• •Moxifloxicin, 400 mg oral tablet antibiotic. Indications are eye injury or other traumatic injury. Casualty must be conscious and able to swallow. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+• •Naloxone hydrochloride (Narcan), 1 mg/2 ml. Indication is as reversal agent for opioids (OTFC, morphine, heroin, and limited reversal of ketamine). (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+• •Ondansetron (Zofran), oral disintegrating tablets, 4 mg rapid release. Indication is anti-emetic (nausea and vomiting prevention) from opioid administration. (Available in the Combat Medic MES.)
+• •Sodium chloride, 10 ml injection. Indications are IV or IO flush (500 ml or 1,000 ml normal saline is an alternative IV fluid). Three percent sodium chloride is a hypertonic solution for the treatment of increased intracranial pressures. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+• •Tranexamic acid (TXA), 1 gm IV piggyback with 100 ml normal saline, lactated Ringers or Hextend solution. Indications are excessive hemorrhage, given within three hours of injury. TXA is an antifibrinolytic agent. (Available in both the Combat Medic and Tactical Combat Medical Care MES.)
+113
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix H
+Medical Transition Guidelines in a
+Tactical Environment
+The predeployment site survey is the initial contact on the ground made between an element of the incoming and the current unit in theater. The relief in place (RIP) and a transfer of authority (TOA), from the outgoing medical teams to the incoming medical teams, occurs when the entirety of units transition. Done correctly, the RIP and TOA allow the departing team to conduct a handover to the incoming team with minimal interruption. The following are key areas that should be addressed during the RIP and TOA. They may apply to the incoming team, outgoing team, or both.
+• •Transport and evacuation vehicle and equipment training, to include routes, forward operating base regulations, and security coordination.
+• •Medical property accountability and property book transfer.
+• •Theater-unique medical briefings and policies. This may include medical concept of operations, medical rules of engagement, and current trends or projects completed and pending.
+• •Key leader engagements:
+− Medical. Subordinate and higher medical teams, contractor medical teams, forward surgical teams, Special Operations Forces medical teams, partner-nation medical teams, and medical logistics personnel.
+− Operations. Aviation units, personal security detachment medics, contract medical advisors, personnel recovery teams, national security force development teams, nongovernmental agencies, or governmental agencies.
+• •Orientation of forward operating base facilities.
+• •Emergency response plan process and mass casualty plan with review and rehearsal of casualty collection points.
+• •Communications support (Transportation Command Regulating and Command and Control Evaluation System [TRAC2ES], Medical Protection System [MEDPROS], Armed Forces Health Longitudinal Technology Application [AHLTA] Warrior, AHLTA Theater, etc.) and equipment orientation for both unclassified and classified computer networks.
+114
+CENTER FOR ARMY LESSONS LEARNED
+• •Battle rhythm (section, Role I, patient evacuation coordination cell meetings, force protection meeting, medical development, Chief of Staff meeting, Purple Heart committee, etc.).
+• •Orders and reporting processes and requirements (mild traumatic brain injury, epidemiology, death, serious incident report, wake criteria, battle injury tracker, casualty evacuation trends, Tactical Combat Casualty Care after action report, operation orders, fragmentary orders, etc.).
+• •Awards, badges, policy letters, and appointment orders orientation (Purple Hearts, Combat Medic Badge).
+115
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix I
+Medical Planning Functions
+Medical planning and relief in place (RIP)/transfer of authority (T OA) coordination focuses around the following U.S. Army Medical Department (AMEDD) functions:
+• •Medical evacuation (MEDEV AC) and medical regulating entails collecting, sorting, transporting, and providing en-route medical care. Patients are evacuated from the lower level by the higher level of care. The use of dedicated MEDEV AC assets may not be possible. The medical planner must integrate the use of non-medical, nonstandard evacuation assets (casualty evacuation [CASEV AC]) into the MEDEV AC plan. To accomplish the MEDEV AC mission in hostile or denied areas, operational security dictates that the mission airframes used for the extraction of the force are used to transport patients.
+• •Medical regulating is the coordination and control of moving patients to military treatment facilities (MTFs) best able to provide the required specialty care. This system is designed to ensure the efficient and safe movement of patients, identifying those patients awaiting evacuation, locating available beds, and coordinating transportation means for movement. Control of patient evacuation to appropriate hospitals ensures adequate beds are available for current and anticipated needs and moving patients requiring specialized treatment to the appropriate MTF.
+• •Medical treatment consists of those measures necessary to recover, resuscitate, stabilize, and prepare the casualty for evacuation. It also includes routine sick call and care of minor illness or injury. For those units that do not have organic Level I and Level II care capabilities, medical treatment is provided on an area support basis. Entry into immature and austere theaters causes unique challenges for medical coverage.
+− Sick call provides the daily care for routine minor illnesses and injuries, symptomatic care, minor trauma from physical training or day-to-day base operations, and administration. The Algorithm-Directed Troop Medical Care (ADTMC) guide is utilized for sick call. Documentation takes place on Department of Army Form 5181, Screening Note for Acute Medical Care, February 2003. Combat medics are trained to provide care with immediate technical supervision from a physician or physician assistant.
+116
+CENTER FOR ARMY LESSONS LEARNED
+− The combat medic provides Tactical Combat Casualty Care for operational casualties. Physicians and physician assistants assigned to units are trained and equipped to provide advanced trauma management.
+• •Hospitalization is provided at Level III and Level IV care by MTFs staffed and equipped to provide care for all classes of patients by the combat support hospital.
+• •Medical logistics encompasses Class VIII medical supplies and equipment, medical equipment maintenance and repair support, optical fabrication, medicinal gases, and blood and blood products. Medical logistics is managed through the MEDLOG system.
+• •Preventive medicine services reduce the incidence of disease and nonbattle injury. Significant medical intelligence is collected by preventive medicine planners to support the intelligence preparation of the battlefield. They can be a good source of information regarding the medical threat in the area of operations.
+• •Veterinary services provide support for food inspection, food safety and security, surveillance and investigation of zoonotic disease or food and waterborne illness, animal medical and surgical care, and civil-military operations.
+• •Dental services provide operational care to avoid the loss of trained manpower from dental disease or injury.
+• •Combat and operational stress control provides doctrinal guidance for controlling excessive stress in combat and other operational environments. Combat and operational stress control identifies command and leadership responsibilities and consultation, training, and education assistance available for units. Many stressors in a combat situation are due to deliberate enemy actions aimed at killing, wounding, or demoralizing U.S. Soldiers and allies. Other stressors are due to the operational environment. Some of these stressors can be avoided or counteracted by wise command actions. Still, other stressors are due to calculated or miscalculated choice, accepted in order to exert greater stress on the enemy. Sound leadership works to keep stressors within tolerable limits and prepares the troops mentally and physically to endure them. Some of the most potent stressors can be due to personal problems in the unit or on the home front. These, too, must be identified and, when possible, corrected or controlled. Unit needs assessments can help behavioral health providers identify specific stressors in a unit and develop interventions to help unit personnel cope.
+117
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+• •Medical laboratory support consists of limited facilities, equipment, and personnel needed to analyze body tissues and fluids to assist in disease diagnosis and monitoring of therapy. The Special Forces medical sergeant is highly trained in procedures such as microscopy and utilizing point-of-care diagnostic analyzers that enhance the ability to assess illness and injury.
+• •Medical command, control, and intelligence. At all levels of command, a command surgeon is designated. This AMEDD officer is a special staff officer charged with planning for and executing the Army Health System (AHS) mission. At the lower levels of command, this officer may be dual hatted as an AHS unit commander. Further, he may have a small staff section to assist him in planning, coordinating, and synchronizing the AHS effort within the area of operations. Through mission command, the command surgeon may be empowered to act somewhat independently. However, the non-medical commander can retain the authority to make decisions, which he feels are critical. To be successful, mission command requires an environment of trust and mutual understanding, which may be challenging to establish for newly assigned staff members who have not had a previous supporting relationship with the command. The command surgeon is responsible for ensuring that all medical functions are considered and included in running estimates, operation plans, and operation orders. The command surgeon retains technical supervision of all AHS operations. At the higher levels of command, the scope of duties and responsibilities expand to include all subordinate levels of command.
+119
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix J
+Tactical Combat Casualty Care Background
+
+A study by COL Brian J. Eastridge, trauma consultant to the U.S. Army Surgeon General, demonstrated that 87 percent of Operation Iraqi Freedom (OIF) and Operation Enduring Freedom (OEF) combat deaths were prehospital cases. Of these prehospital deaths, 24 percent were potentially preventable, caused by extremity hemorrhage, airway obstruction, junctional bleeding, truncal bleeding, or tension pneumothorax. This means that more than 1,100 combat deaths potentially could have been prevented. Guidance concerning Tactical Combat Casualty Care (TCCC) training in the Services comes from the following sources:
+• •Assistant Secretary of Defense for Health Affairs (ASDHA) Memorandum, 06 August 2009. The Defense Health Board advised the ASDHA that all deploying Service members must receive comprehensive training in TCCC.
+• •Defense Health Board, Combat Trauma Lessons Learned from Military Operations of 2001-2013, 09 March 2015. “The survival rate of Service members injured in combat has significantly improved during the recent decade of military conflict due to advances in trauma care and knowledge gained by medical personnel in the prehospital far forward environment.”
+• •Bureau of Medicine and Surgery (BUMED) Instruction 1510.25, 07 May 2015. “All active duty and Reserve hospital corpsmen, physician assistants, physicians, advanced practice nurses, and nurse generalists shall complete TCCC training (to include the Expeditionary Medicine Web-Based Training, if not already completed) within 180 days prior to each Individual Augmentee or Health Services Augmentation program deployment or every 3 years in order to maintain readiness. Completion of the full course of instruction prior to each deployment will ensure the most up-to-date training is received.”
+• •U.S. Air Force Surgeon General Memorandum 0771, Air Force Surgeon General TCCC Letter, 21 August 2010. “Effective immediately, all applicable Air Force training courses and programs will incorporate the most current TCCC guidelines consistent with their level of knowledge and proficiency instruction related to battlefield medical care.”
+120
+CENTER FOR ARMY LESSONS LEARNED
+• •Department of the Army Memorandum, 08 April 2010. “Recent analysis revealed Soldiers in the ranks of E-5 and above are not adequately trained in TCCC, nor are they familiar with the equipment in the improved first aid kit. ... We are pursuing to improve the effectiveness of TCCC.”
+• •Defense Health Agency Education and Training (DHA E&T) Directorate. A DHA E&T Directorate priority is the standardization of TCCC training within the DOD.
+• •Joint Trauma System (JTS). The mission of the JTS is to improve trauma care delivery and patient outcomes across the continuum of care. The Committee on Tactical Combat Casualty Care (CoTCCC) currently resides in the JTS.
+• •CoTCCC. Publishes and revises evidence-based guidelines, training, slides, and videos. The TCCC-AC and TCCC-MP guidelines are reviewed and updated by CoTCCC members.
+121
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+Appendix K
+References
+Advanced Trauma Life Support Manual, Ninth Edition, American College of Surgeons, Chicago, IL, September 2012.
+Air Force Tactics, Techniques, and Procedures 3-42.71, Expeditionary Medical Support (EMEDS) and Air Force Theater Hospital (AFTH) , 27 August 2014.All Army Activities (ALARACT) 355/2009, “Tactical Combat Casualty Care Card for Point-Of-Injury Documentation,” Office of the Surgeon General of the Army, ALARACT Message Date Time Group 242018Z December 2009.
+Army Regulation 40-68, Clinical Quality Management, 22 May 2009.
+Army Techniques Publication (ATP) 4-02.2, Medical Evacuation, 12 August 2014.ATP 4-02.5, Casualty Care, 10 May 2013.ASDHA Memorandum to Services, “Tactical Combat Casualty Care,” 23 August 2011.
+Assistant Secretary of Defense for Health Affairs (ASDHA), June 14, 2011, referencing the Defense Health Board (DHB) recommendations from August 6, 2009.
+Borden Institute, U.S. Army Medical Department Center and School, Emergency War Surgery, Fourth Edition, Office of The Surgeon General, United States Army, 2013.
+Bureau of Medicine and Surgery (BUMED) Instruction 1510.25, Navy Medicine Tactical Combat Casualty Care Program, 7 May 2015. De La Cruz, J.P., J.J. Reyes, M.I. Ruiz-Moreno, et al. “Differences in the In Vitro Antiplatelet Effect of Dexibuprofen, Ibuprofen, and Flurbiprofen in Human Blood.” Anesthesia Analgesia.  Volume 111, Issue 6, pages 1341- 1346, 2010. Gerhardt, Robert T., Robert L. Mabry, Robert A. De Lorenzo, Frank K. Butler, Chapter 3, “Fundamentals of Combat Casualty Care,” published in Combat Casualty Care: Lessons Learned From OEF and OIF, Office of the Surgeon General, United States Army, 2012.
+122
+CENTER FOR ARMY LESSONS LEARNED
+Harris, M., R. Baba, R. Nahouraii, et al. “Self-Induced Bleeding Diathesis in Soldiers at a FOB in South Eastern Afghanistan.” Military Medicine . V olume 177, Issue 8, pages 928- 929, 2010.
+Joint Publication (JP) 3-28, Defense Support of Civil Authorities, 31 July 2013. JP 4-02, Health Service Support, 26 July 2012.
+Kotwal, Russ S., et al., Saving Lives on the Battlefield: A Joint Trauma System Review of Pre-Hospital Trauma Care in Combined Joint Operating Area-Afghanistan (CJOA-A) , United States Central Command, 30 January 2013.
+Kotwal, Russ S., et al., Saving Lives on the Battlefield Part II — One Year Later: A Joint Theater Trauma System and Joint Trauma System Review of Pre-Hospital Trauma Care in Combined Joint Operating Area-Afghanistan (CJOA-A), United States Central Command Joint Theater Trauma System-Afghanistan, 30 May 2014.
+Kragh, John F. Jr., “Use of Tourniquets and Their Effects on Limb Function in the Modern Combat Environment,” Foot Ankle Clinic, Volume 15, Issue 1, March 2010. National Association of Emergency Medical Technicians (NAEMT) Tactical Combat Casualty Care Guidelines available online at http://www.naemt.org/education/TCCC/guidelines_curriculum.
+NAEMT, PHTLS: Prehospital Trauma Life Support Manual, 6th edition, Mosby Inc., 2006. Prehospital Trauma Life Support, Military Eighth Edition, Jones and Bartlett Learning, November 2014.
+Tactical Combat Casualty Care-Military Personnel Curriculum Update. 0102PP03A Tactical Combat Casualty Care-Military Personnel Tactical Field Care No. 1, PowerPoint Presentation, 150603.
+U.S. Army Training and Doctrine Command (TRADOC), “Assessment of Tactical Combat Casualty Care,” 08 April 2010.
+123
+TACTICAL COMBAT CASUALTY CARE HANDBOOK
+SUBMIT INFORMATION OR REQUEST PUBLICATIONS
+To help you access information efficiently, the Center for Army Lessons Learned (CALL) posts publications and other useful products available for download on the CALL website:
+http://call.army.mil
+PROVIDE LESSONS AND BEST PRACTICES
+OR SUBMIT AN AFTER-ACTION REVIEW (AAR)
+If your unit has identified lessons or best practices or would like to submit an AAR or a request for information (RFI), please contact CALL using the following information:
+Telephone: DSN 552-9569/9533; Commercial 913-684-9569/9533
+Fax: DSN 552-4387; Commercial 913-684-4387
+Mailing Address: Center for Army Lessons Learned
+ATTN: Chief, Analysis Division
+10 Meade Ave., Bldg. 50
+Fort Leavenworth, KS 66027-1350
+REQUEST COPIES OF CALL PUBLICATIONS
+If you would like copies of this publication, please submit your request on the CALL restricted website (CAC login required):
+https://call2.army.mil
+Click on “Request for Publications.” Please fill in all the information, including your unit name and street address. Please include building number and street for military posts.
+NOTE: Some CALL publications are no longer available in print. Digital publications are available by clicking on “Publications by Type” under the “Resources” tab on the CALL restricted website, where you can access and download information. CALL also offers Web-based access to the CALL archives. CALL produces the following publications on a variety of subjects:
+•− Handbooks
+•− Bulletins, Newsletters, and Observation Reports
+•− Special Studies
+•− News From the Front
+•− Training Lessons and Best Practices
+•− Initial Impressions Reports
+
+
+FOLLOW CALL ON SOCIAL MEDIA
+https://twitter.com/USArmy_CALL
+https://www.facebook.com/CenterforArmyLessonsLearned
+CENTER FOR ARMY LESSONS LEARNED
+124
+COMBINED ARMS CENTER (CAC)
+Additional Publications and Resources
+The CAC home page address is: http://usacac.army.mil
+Center for Army Leadership (CAL)
+CAL plans and programs leadership instruction, doctrine, and research. CAL integrates and synchronizes the Professional Military Education Systems and Civilian Education System. Find CAL products at http://usacac.army.mil/cac2/cal.
+Combat Studies Institute (CSI)
+CSI is a military history think tank that produces timely and relevant military history and contemporary operational history. Find CSI products at http://usacac.army.mil/cac2/csi/csipubs.asp.
+Combined Arms Doctrine Directorate (CADD)
+CADD develops, writes, and updates Army doctrine at the corps and division level. Find the doctrinal publications at either the Army Publishing Directorate (APD) at http://www.apd.army.mil or the Central Army Registry (formerly known as the Reimer Digital Library) at http://www.adtdl.army.mil.
+Foreign Military Studies Office (FMSO)
+FMSO is a research and analysis center on Fort Leavenworth under the TRADOC G-2.
+FMSO manages and conducts analytical programs focused on emerging and asymmetric threats, regional military and security developments, and other issues that define evolving operational environments around the world. Find FMSO products at http://fmso.leavenworth.army.mil.
+Military Review (MR)
+MR is a revered journal that provides a forum for original thought and debate on the art and science of land warfare and other issues of current interest to the U.S. Army and the Department of Defense. Find MR at http://usacac.army.mil/cac2/militaryreview.
+TRADOC Intelligence Support Activity (TRISA)
+TRISA is a field agency of the TRADOC G-2 and a tenant organization on Fort Leavenworth. TRISA is responsible for the development of intelligence products to support the policy-making, training, combat development, models, and simulations arenas.
+Capability Development Integration Directorate (CDID)
+CDID conducts analysis, experimentation, and integration to identify future requirements and manage current capabilities that enable the Army, as part of the Joint Force, to exercise Mission Command and to operationalize the Human Dimension. Find CDID at http:// usacac.army.mil/organizations/mccoe/cdid.
+Joint Center for International Security Force Assistance (JCISFA)
+JCISFA’s mission is to capture and analyze security force assistance (SFA) lessons from contemporary operations to advise combatant commands and military departments on appropriate doctrine; practices; and proven tactics, techniques, and procedures (TTP) to prepare for and conduct SFA missions efficiently. JCISFA was created to institutionalize SFA across DOD and serve as the DOD SFA Center of Excellence. Find JCISFA at https://jcisfa.jcs.mil/Public/Index.aspx.
+Support CAC in the exchange of information by telling us about your successes so they may be shared and become Army successes.
+
