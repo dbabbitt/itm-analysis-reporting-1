@@ -570,7 +570,7 @@ class WebScrapingUtilities(object):
         # except NoSuchElementException as e:
             # pass
         except Exception as e:
-            print(f'{e.__class__} error: {str(e).strip()}')
+            print(f'{e.__class__.__name__} error: {str(e).strip()}')
             raise
         
         return youchat_text
