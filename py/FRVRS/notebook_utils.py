@@ -140,6 +140,74 @@ class NotebookUtilities(object):
         return SequenceMatcher(None, str(a), str(b)).ratio()
     
     
+    @staticmethod
+    def get_first_year_element(x):
+        """
+        Extracts the first year element from a given string, potentially containing multiple date or year formats.
+        
+        Parameters:
+            x (str): The input string containing potential year information.
+        
+        Returns:
+            int or float: The extracted first year element, or NaN if no valid year element is found.
+        """
+        
+        # Split the input string using various separators
+        stripped_list = re.split(r'( |/|–|\u2009|-|\[)', str(x), 0)
+        
+        # Remove non-numeric characters from each element in the stripped list
+        stripped_list = [re.sub(r'\D+', '', x) for x in stripped_list]
+        
+        # Filter elements with lengths between 3 and 4, as likely to be years
+        stripped_list = [x for x in stripped_list if (len(x) >= 3) and (len(x) <= 4)]
+        
+        try:
+            
+            # Identify the index of the first numeric element in the stripped list
+            numeric_list = [x.isnumeric() for x in stripped_list]
+            
+            # If a numeric substring is found, extract the first numeric value
+            if True in numeric_list:
+                idx = numeric_list.index(True, 0)
+                first_numeric = int(stripped_list[idx])
+            
+            # If no numeric substring is found, raise an exception
+            else: raise Exception('No numeric year element found')
+        
+        # Handle exceptions and return the first substring if no numeric substring is found
+        except Exception as e:
+            
+            # If there are any substrings, return the first one as the year element
+            if stripped_list: first_numeric = int(stripped_list[0])
+            
+            # If there are no substrings, return NaN
+            else: first_numeric = np.nan
+
+        return first_numeric
+
+    
+    @staticmethod
+    def format_timedelta(time_delta):
+        """
+        Formats a time delta object to a string in the
+        format '0 sec', '30 sec', '1 min', '1:30', '2 min', etc.
+        
+        Parameters:
+          time_delta: A time delta object.
+        
+        Returns:
+          A string in the format '0 sec', '30 sec', '1 min',
+          '1:30', '2 min', etc.
+        """
+        seconds = time_delta.total_seconds()
+        minutes = int(seconds // 60)
+        seconds = int(seconds % 60)
+        
+        if minutes == 0: return f'{seconds} sec'
+        elif seconds > 0: return f'{minutes}:{seconds:02}'
+        else: return f'{minutes} min'
+    
+    
     ### List Functions ###
     
     
@@ -183,6 +251,74 @@ class NotebookUtilities(object):
         
         # Return the conjuncted noun list
         return list_str
+
+    
+    @staticmethod
+    def get_jitter_list(ages_list):
+        """
+        Generates a list of jitter values for plotting age data points with a scattered plot.
+        
+        Parameters:
+            ages_list (list): A list of ages for which jitter values are generated.
+        
+        Returns:
+            list of float: A list of jitter values corresponding to the input ages.
+        """
+        
+        # Initialize an empty list to store jitter values
+        jitter_list = []
+        
+        # Iterate over the list of age groups
+        for splits_list in get_splits_list(ages_list):
+            
+            # If there are multiple ages in a group, calculate jitter values for each age in the group
+            if (len(splits_list) > 1):
+                
+                # Generate jitter values using the cut method and extend the jitter_list
+                jitter_list.extend(
+                    pd.cut(
+                        np.array([min(splits_list) - 0.99, max(splits_list) + 0.99]),
+                        len(splits_list) - 1,
+                        retbins=True
+                    )[1]
+                )
+            
+            # If there is only one age in a group, add that age as the jitter value
+            else: jitter_list.extend(splits_list)
+        
+        # Return the list of jitter values
+        return jitter_list
+
+    
+    @staticmethod
+    def get_splits_list(ages_list):
+        """
+        Divides a list of ages into sublists based on gaps in the age sequence.
+        
+        Parameters:
+            ages_list (list of int or float): A list of ages to be split into sublists.
+    
+        Returns:
+            list of lists of int or float: A list of sublists, each containing consecutive ages.
+        """
+        splits_list = []  # List to store sublists of consecutive ages
+        current_list = []  # Temporary list to store the current consecutive ages
+        previous_age = ages_list[0] - 1  # Initialize with a value lower than the first age
+        
+        # Iterate over the list of ages
+        for age in ages_list:
+            
+            # Check if there is a gap larger than 1 between the current age and the previous age
+            if age - previous_age > 1:
+                splits_list.append(current_list)  # Append the current_list to splits_list
+                current_list = []  # Reset the current_list
+            current_list.append(age)  # Add the current age to the current_list
+            previous_age = age  # Update the previous_age
+        
+        splits_list.append(current_list)  # Append the last current_list to splits_list
+        
+        # Return the list of sublists of ages
+        return splits_list
     
     
     @staticmethod
@@ -525,6 +661,33 @@ class NotebookUtilities(object):
         if verbose: print('turbulence', turbulence)
         
         return turbulence
+    
+    
+    @staticmethod
+    def replace_consecutive_elements(actions_list, element):
+        """
+        Replaces consecutive elements in a list with a count of how many there are in a row.
+        
+        Parameters:
+            list1: A list of elements.
+            element: The element to replace consecutive occurrences of.
+        
+        Returns:
+            A list with the consecutive elements replaced with a count of how many there are in a row.
+        """
+        result = []
+        count = 0
+        for i in range(len(actions_list)):
+            if (actions_list[i] == element): count += 1
+            else:
+                if (count > 0): result.append(f'{element} x{str(count)}')
+                result.append(actions_list[i])
+                count = 0
+        
+        # Handle the last element
+        if (count > 0): result.append(f'{element} x{str(count)}')
+        
+        return(result)
     
     
     ### File Functions ###
@@ -1300,6 +1463,63 @@ class NotebookUtilities(object):
         return file_name
     
     
+    @staticmethod
+    def get_style_column(tag_obj, verbose=False):
+        """
+        Extracts the style column from a given Wikipedia infobox BeautifulSoup'd
+        tag object and returns the style column tag object.
+    
+        Parameters:
+            tag_obj (bs4.element.Tag): The BeautifulSoup tag object to extract the style column from.
+            verbose (bool, optional): If True, display intermediate steps for debugging. Default is False.
+    
+        Returns:
+            bs4.element.Tag: The modified BeautifulSoup tag object representing the style column.
+        """
+        
+        # Display the initial tag object if verbose is True
+        if verbose: display(tag_obj)
+    
+        # Get the parent td tag object
+        tag_obj = get_td_parent(tag_obj, verbose=verbose)
+        if verbose: display(tag_obj)
+    
+        # Traverse the siblings of the table tag object backward until a style column is found
+        from bs4.element import NavigableString
+        while isinstance(tag_obj, NavigableString) or not tag_obj.has_attr('style'):
+            tag_obj = tag_obj.previous_sibling
+            if verbose: display(tag_obj)
+    
+        # Display the text content of the found style column if verbose is True
+        if verbose: display(tag_obj.text.strip())
+        
+        # Return the style column tag object
+        return tag_obj
+
+    
+    @staticmethod
+    def get_td_parent(tag_obj, verbose=False):
+        """
+        Finds and returns the closest ancestor of the given BeautifulSoup tag object that is a 'td' tag.
+    
+        Parameters:
+            tag_obj (bs4.element.Tag): The BeautifulSoup tag object whose 'td' ancestor needs to be found.
+            verbose (bool, optional): If True, display intermediate steps for debugging. Default is False.
+    
+        Returns:
+            bs4.element.Tag: The closest 'td' ancestor tag object.
+        """
+        if verbose: display(tag_obj)
+        
+        # Traverse the parent tags upward until a table cell (<td>) is found
+        while (tag_obj.name != 'td'):
+            tag_obj = tag_obj.parent
+            if verbose: display(tag_obj)
+        
+        # Return the closest 'td' ancestor tag object
+        return tag_obj
+    
+    
     def download_file(self, url, download_dir=None, exist_ok=False, verbose=False):
         """
         Downloads a file from the internet.
@@ -1588,6 +1808,57 @@ class NotebookUtilities(object):
     
     
     @staticmethod
+    def get_statistics(describable_df, columns_list):
+        """
+        Calculates and presents descriptive statistics for a given DataFrame's columns.
+    
+        Parameters:
+            describable_df (pandas.DataFrame): The DataFrame to calculate descriptive statistics for.
+            columns_list (list of str): A list of specific columns to calculate statistics for.
+    
+        Returns:
+            pandas.DataFrame: A DataFrame containing the descriptive statistics for the analyzed columns.
+        """
+    
+        # Compute basic descriptive statistics for the specified columns
+        df = describable_df[columns_list].describe().rename(index={'std': 'SD'})
+        
+        # If the mode is not already included in the statistics, calculate it
+        if ('mode' not in df.index):
+            
+            # Create the mode row dictionary
+            row_dict = {cn: describable_df[cn].mode().tolist()[0] for cn in columns_list}
+            
+            # Convert the row dictionary to a data frame to match the df structure
+            row_df = DataFrame([row_dict], index=['mode'])
+            
+            # Append the row data frame to the df data frame
+            df = concat([df, row_df], axis='index', ignore_index=False)
+        
+        # If the median is not already included in the statistics, calculate it
+        if ('median' not in df.index):
+            
+            # Create the median row dictionary
+            row_dict = {cn: describable_df[cn].median() for cn in columns_list}
+            
+            # Convert the row dictionary to a data frame to match the df structure
+            row_df = DataFrame([row_dict], index=['median'])
+            
+            # Append the row data frame to the df data frame
+            df = concat([df, row_df], axis='index', ignore_index=False)
+        
+        # Define the desired index order for the resulting DataFrame
+        index_list = ['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
+    
+        # Create a boolean mask to select rows with desired index values
+        mask_series = df.index.isin(index_list)
+        df = df[mask_series].reindex(index_list)
+        
+        # Return the filtered DataFrame containing the selected statistics
+        return df
+    
+    
+    @staticmethod
     def modalize_columns(df, columns_list, new_column_name):
         """
         Create a new column in a DataFrame representing the modal value of specified columns.
@@ -1789,6 +2060,31 @@ class NotebookUtilities(object):
             row_dict[key_prefix] = value_obj
         
         return row_dict
+    
+    
+    def show_time_statistics(self, describable_df, columns_list):
+        """
+        Display time-related statistics for specified columns in a DataFrame.
+        
+        Parameters:
+            describable_df (pandas.DataFrame): The DataFrame to calculate descriptive statistics for.
+            columns_list (list of str): A list of specific time-related columns to calculate statistics for.
+    
+        Returns:
+            pandas.DataFrame: A DataFrame containing the descriptive statistics for the analyzed time-related columns.
+        """
+        
+        # Get time-related statistics using the get_statistics method
+        df = self.get_statistics(describable_df, columns_list)
+
+        # Apply a formatting function to convert milliseconds to a formatted timedelta for all elements in the DataFrame
+        df = df.applymap(lambda x: self.format_timedelta(timedelta(milliseconds=int(x))), na_action='ignore').T
+
+        # Format the standard deviation (SD) column to include the plus-minus symbol
+        df.SD = df.SD.map(lambda x: '±' + str(x))
+        
+        # Display the resulting DataFrame
+        display(df)
     
     
     ### LLM Functions ###
@@ -2157,6 +2453,82 @@ class NotebookUtilities(object):
         return ax
     
     
+    @staticmethod
+    def plot_grouped_box_and_whiskers(
+        transformable_df,
+        x_column_name,
+        y_column_name,
+        x_label,
+        y_label,
+        transformer_name='min',
+        is_y_temporal=True
+    ):    
+        """
+        Creates a grouped box plot visualization to compare the distribution of a numerical variable across different groups.
+        
+        Parameters:
+            transformable_df (pandas.DataFrame): DataFrame containing the data to be plotted.
+            x_column_name (str): The name of the categorical variable to group by and column name for the x-axis.
+            y_column_name (str): Column name for the y-axis.
+            x_label (str): Label for the x-axis.
+            y_label (str): Label for the y-axis.
+            transformer_name (str, optional): Name of the transformation applied to the y-axis values before plotting (default: 'min').
+            is_y_temporal (bool, optional): If True, y-axis labels will be formatted as temporal values (default: True).
+        
+        Returns:
+            None: The function plots the graph directly using seaborn and matplotlib.
+        """
+        import seaborn as sns
+        
+        # Get the transformed data frame
+        if transformer_name is None: transformed_df = transformable_df
+        else:
+            groupby_columns = ['session_uuid', 'scene_index']
+            transformed_df = (
+                transformable_df.groupby(groupby_columns)
+                .filter(lambda df: not df[y_column_name].isnull().any())
+                .groupby(groupby_columns)
+                .transform(transformer_name)
+                .reset_index(drop=False)
+                .sort_values(y_column_name)
+            )
+        
+        # Create a figure and subplots
+        fig, ax = plt.subplots(1, 1, figsize=(9, 9))
+        
+        # Create a box plot of the y column grouped by the x column
+        sns.boxplot(
+            x=x_column_name,
+            y=y_column_name,
+            showmeans=True,
+            data=transformed_df,
+            ax=ax
+        )
+        
+        # Rotate the x-axis labels to prevent overlapping
+        plt.xticks(rotation=45)
+        
+        # Label the x- and y-axis
+        ax.set_xlabel(x_label)
+        ax.set_ylabel(y_label)
+        
+        # Humanize y tick labels
+        if is_y_temporal:
+            yticklabels_list = []
+            for text_obj in ax.get_yticklabels():
+                text_obj.set_text(
+                    humanize.precisedelta(
+                        timedelta(milliseconds=text_obj.get_position()[1])
+                    )
+                    .replace(', ', ',\n')
+                    .replace(' and ', ' and\n')
+                )
+                yticklabels_list.append(text_obj)
+            ax.set_yticklabels(yticklabels_list)
+        
+        plt.show()
+    
+    
     def first_order_linear_scatterplot(
         self, df, xname, yname, xlabel_str='Overall Capitalism (explanatory variable)',
         ylabel_str='World Bank Gini % (response variable)',
@@ -2280,6 +2652,158 @@ class NotebookUtilities(object):
         text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
         
         return fig
+    
+    
+    def plot_inauguration_age(
+        self,
+        inauguration_df,
+        groupby_column_name,
+        xname,
+        leader_designation,
+        label_infix,
+        label_suffix,
+        info_df,
+        title_prefix,
+        inaugruation_verb='Inauguration',
+        legend_tuple=None,
+        verbose=False
+    ):
+        """
+        Plot a scatter plot of leaders' ages at inauguration over time, with optional groupings and background shading.
+        
+        Parameters:
+            inauguration_df (pandas.DataFrame): DataFrame containing leadership inauguration data.
+            groupby_column_name (str): Column name for grouping leaders (e.g., country, party).
+            xname (str): The name of the x-axis variable, representing the year of inauguration.
+            leader_designation (str): The designation of the leaders, such as "President" or "Governor".
+            label_infix (str): Text to be inserted in the label between leader designation and groupby_column.
+            label_suffix (str): Text to be appended to the label.
+            info_df (pandas.DataFrame): DataFrame containing additional information about turning years.
+            title_prefix (str): A prefix to add to the plot title.
+            inaugruation_verb (str, optional): The verb to use for inauguration, such as "inauguration" or "swearing-in". Defaults to "Inauguration".
+            legend_tuple (tuple, optional): A tuple specifying the location of the legend, such as (0.02, 0.76). Defaults to None.
+            verbose (bool, optional): Whether to print debug info. Defaults to False.
+        
+        Returns:
+            None: The function plots the graph directly using matplotlib.
+        """
+
+        # Configure the color dictionary
+        color_cycler = self.get_color_cycler(info_df[groupby_column_name].unique().shape[0])
+        face_color_dict = {}
+        for groupby_column, fc_dict in zip(
+            info_df[groupby_column_name].unique(), color_cycler()
+        ):
+            face_color_dict[groupby_column] = fc_dict['color']
+        
+        # Plot and annotate the figure
+        figwidth = 18
+        fig, ax = plt.subplots(figsize=(figwidth, figwidth/self.twitter_aspect_ratio))
+        used_list = []
+        import textwrap
+        for groupby_column, df in inauguration_df.sort_values('office_rank').groupby(
+            groupby_column_name
+        ):
+            if groupby_column[0] in ['A', 'U']: ana = 'an'
+            else: ana = 'a'
+            label = f'{leader_designation.title()} {label_infix} {ana} {groupby_column} {label_suffix}'.strip()
+
+            # Convert the array to a 2-D array with a single row
+            reshape_tuple = (1, -1)
+            color = face_color_dict[groupby_column].reshape(reshape_tuple)
+
+            # Plot and annotate all points from the index
+            for leader_name, row_series in df.iterrows():
+                if groupby_column not in used_list:
+                    used_list.append(groupby_column)
+                    df.plot(
+                        x=xname,
+                        y='age_at_inauguration',
+                        kind='scatter',
+                        ax=ax,
+                        label=label,
+                        color=color
+                    )
+                else:
+                    df.plot(
+                        x=xname,
+                        y='age_at_inauguration',
+                        kind='scatter',
+                        ax=ax,
+                        color=color
+                    )
+                plt.annotate(
+                    textwrap.fill(leader_name, width=10),
+                    (row_series[xname], row_series.age_at_inauguration),
+                    textcoords='offset points',
+                    xytext=(0, -4),
+                    ha='center',
+                    va='top',
+                    fontsize=6
+                )
+
+        # Add 5 years to the height
+        bottom, top = ax.get_ylim()
+        height_tuple = (bottom, top+5)
+        ax.set_ylim(height_tuple)
+        bottom, top = ax.get_ylim()
+        height = top - bottom
+
+        # Get the background shading width
+        left, right = ax.get_xlim()
+        min_shading_width = 9999
+        min_turning_name = ''
+        wrap_width = info_df.turning_name.map(lambda x: len(x)).min()
+        for row_index, row_series in info_df.iterrows():
+            turning_year_begin = max(row_series.turning_year_begin, left)
+            turning_year_end = min(row_series.turning_year_end, right)
+            width = turning_year_end - turning_year_begin
+            if (width > 0) and (width < min_shading_width):
+                min_shading_width = width
+                min_turning_name = row_series.turning_name
+                wrap_width = len(min_turning_name)
+
+        # Add the turning names as background shading
+        from matplotlib.patches import Rectangle
+        for row_index, row_series in info_df.iterrows():
+            turning_year_begin = max(row_series.turning_year_begin, left)
+            turning_year_end = min(row_series.turning_year_end, right)
+            width = turning_year_end - turning_year_begin
+            if (width > 0):
+                groupby_column = row_series[groupby_column_name]
+                turning_name = row_series.turning_name
+                rect = Rectangle(
+                    (turning_year_begin, bottom), width, height, color=face_color_dict[groupby_column],
+                    fill=True, edgecolor=None, alpha=0.1
+                )
+                ax.add_patch(rect)
+                plt.annotate(
+                    textwrap.fill(turning_name, width=wrap_width, break_long_words=False),
+                    (turning_year_begin+(width/2), top), textcoords='offset points', xytext=(0, -6),
+                    ha='center', fontsize=7, va='top', rotation=-90
+                )
+        
+        # Set legend
+        if legend_tuple is None: legend_tuple = (0.02, 0.76)
+        legend_obj = ax.legend(loc=legend_tuple)
+        if verbose:
+            
+            # Get the bounding box of the legend relative to the anchor point
+            bbox_to_anchor = legend_obj.get_bbox_to_anchor()
+            
+            # Print the size and position of the bounding box
+            print(bbox_to_anchor.width, bbox_to_anchor.height, bbox_to_anchor.xmin, bbox_to_anchor.ymin, bbox_to_anchor.xmax, bbox_to_anchor.ymax)
+            
+            # Get the bounding box of the legend
+            bounding_box = legend_obj.get_tightbbox()
+            
+            # Print the size and position of the bounding box
+            print(bounding_box.width, bounding_box.height, bounding_box.xmin, bounding_box.ymin, bounding_box.xmax, bounding_box.ymax)
+        
+        # Set labels
+        ax.set_xlabel(f'Year of {inaugruation_verb}')
+        ax.set_ylabel(f'Age at {inaugruation_verb}')
+        text_obj = ax.set_title(f'{title_prefix} {inaugruation_verb} Age vs Year')
     
     
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
