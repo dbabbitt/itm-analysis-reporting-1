@@ -7,9 +7,11 @@
 
 # Soli Deo gloria
 
+from datetime import timedelta
 from os import listdir as listdir, makedirs as makedirs, path as osp
 from pandas import DataFrame, Series, concat, read_csv, read_html
 from typing import List, Optional
+import humanize
 import math
 import matplotlib.pyplot as plt
 import numpy as np
@@ -19,14 +21,13 @@ import re
 import subprocess
 import sys
 import urllib
+import warnings
 try: import dill as pickle
 except:
     try: import pickle5 as pickle
     except: import pickle
 
-import warnings
 warnings.filterwarnings('ignore')
-
 class NotebookUtilities(object):
     """
     This class implements the core of the utility
@@ -41,7 +42,6 @@ class NotebookUtilities(object):
     """
     
     def __init__(self, data_folder_path=None, saves_folder_path=None, verbose=False):
-        self.verbose = verbose
         self.pip_command_str = f'{sys.executable} -m pip'
         # self.update_modules_list(verbose=verbose)
         
@@ -49,18 +49,14 @@ class NotebookUtilities(object):
         self.github_folder = osp.dirname(osp.abspath(osp.curdir))
         
         # Create the data folder if it doesn't exist
-        if data_folder_path is None:
-            self.data_folder = '../data'
-        else:
-            self.data_folder = data_folder_path
+        if data_folder_path is None: self.data_folder = '../data'
+        else: self.data_folder = data_folder_path
         makedirs(self.data_folder, exist_ok=True)
         if verbose: print('data_folder: {}'.format(osp.abspath(self.data_folder)), flush=True)
         
         # Create the saves folder if it doesn't exist
-        if saves_folder_path is None:
-            self.saves_folder = '../saves'
-        else:
-            self.saves_folder = saves_folder_path
+        if saves_folder_path is None: self.saves_folder = '../saves'
+        else: self.saves_folder = saves_folder_path
         makedirs(self.saves_folder, exist_ok=True)
         if verbose: print('saves_folder: {}'.format(osp.abspath(self.saves_folder)), flush=True)
         
@@ -92,16 +88,26 @@ class NotebookUtilities(object):
         # Ensure the Scripts folder is in PATH
         self.anaconda_folder = osp.dirname(sys.executable)
         self.scripts_folder = osp.join(self.anaconda_folder, 'Scripts')
-        if self.scripts_folder not in sys.path:
-            sys.path.insert(1, self.scripts_folder)
+        if self.scripts_folder not in sys.path: sys.path.insert(1, self.scripts_folder)
 
         # Handy list of the different types of encodings
-        self.encoding_type = ['latin1', 'iso8859-1', 'utf-8'][2]
+        self.encoding_types_list = ['utf-8', 'latin1', 'iso8859-1']
+        self.encoding_type = self.encoding_types_list[0]
+        self.encoding_errors_list = ['ignore', 'replace', 'xmlcharrefreplace']
+        self.encoding_error = self.encoding_errors_list[2]
+        self.decoding_types_list = [
+            'ascii', 'cp037', 'cp437', 'cp863', 'utf_32', 'utf_32_be', 'utf_32_le', 'utf_16',
+            'utf_16_be', 'utf_16_le', 'utf_7', 'utf_8', 'utf_8_sig', 'latin1', 'iso8859-1'
+        ]
+        self.decoding_type = self.decoding_types_list[11]
+        self.decoding_errors_list = self.encoding_errors_list.copy()
+        self.decoding_error = self.decoding_errors_list[2]
         
         # Determine URL from file path
         self.url_regex = re.compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', re.IGNORECASE)
         self.filepath_regex = re.compile(
-            r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])', re.IGNORECASE
+            r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])',
+            re.IGNORECASE
         )
         
         # Various aspect ratios
@@ -213,7 +219,7 @@ class NotebookUtilities(object):
         Raises:
             AssertionError: If no sequences of the specified length are found in the dictionary.
         """
-
+        
         # Count the lengths of sequences in the dictionary to convert the sequence lengths list
         # into a pandas series to get the value counts of unique sequence lengths
         value_counts = Series([len(actions_list) for actions_list in tg_dict.values()]).value_counts()
@@ -294,8 +300,8 @@ class NotebookUtilities(object):
         
         # Return the split list
         return split_list
-
-
+    
+    
     def check_4_doubles(self, item_list, verbose=False):
         """
         Check for similar items in the given list.
@@ -328,10 +334,12 @@ class NotebookUtilities(object):
             row_dict = {}
             row_dict['first_item'] = first_item
             row_dict['second_item'] = max_item
-            row_dict['first_bytes'] = '-'.join(str(x) for x in bytearray(str(first_item),
-                                                                         encoding=self.encoding_type, errors='replace'))
-            row_dict['second_bytes'] = '-'.join(str(x) for x in bytearray(str(max_item),
-                                                                          encoding=self.encoding_type, errors='replace'))
+            row_dict['first_bytes'] = '-'.join(str(x) for x in bytearray(
+                str(first_item), encoding=self.encoding_type, errors='replace'
+            ))
+            row_dict['second_bytes'] = '-'.join(str(x) for x in bytearray(
+                str(max_item), encoding=self.encoding_type, errors='replace'
+            ))
             row_dict['max_similarity'] = max_similarity
 
             rows_list.append(row_dict)
@@ -606,10 +614,10 @@ class NotebookUtilities(object):
             None
         
         Notes:
-        The function uses subprocess to run the specified text editor with the provided file path.
+            The function uses subprocess to run the specified text editor with the provided file path.
         
         Example:
-        nu.open_path_in_notepad('C:/example.txt')
+            nu.open_path_in_notepad('C:/example.txt')
         """
         
         # Expand '~' to the home directory in the file path
@@ -624,9 +632,12 @@ class NotebookUtilities(object):
 
         # Open the absolute path to the file in Notepad or the specified text editor
         # !"{text_editor_path}" "{absolute_path}"
-        import subprocess
-        try: subprocess.run([text_editor_path, absolute_path])
-        except FileNotFoundError as e: subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
+        cmd = [text_editor_path, absolute_path]
+        proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        out, err = proc.communicate()
+        if (proc.returncode != 0):
+            if verbose: print('Open attempt failed: ' + err.decode('utf8'))
+            subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
     
     
     @staticmethod
@@ -863,7 +874,7 @@ class NotebookUtilities(object):
     ) -> None:
         """
         Attempts to pickle a DataFrame to a file.
-
+        
         Parameters:
             df (DataFrame): The DataFrame to pickle.
             pickle_path (str): The path to the pickle file.
@@ -911,7 +922,7 @@ class NotebookUtilities(object):
         
         # Optionally print the absolute path to the CSV file
         if verbose: print(osp.abspath(csv_path), flush=True)
-
+        
         # Check if the CSV file exists
         return osp.isfile(csv_path)
 
@@ -948,10 +959,10 @@ class NotebookUtilities(object):
         
         # Load the CSV file as a pandas DataFrame using the class-specific encoding
         data_frame = read_csv(osp.abspath(csv_path), encoding=self.encoding_type)
-
+        
         return data_frame
 
-
+    
     def pickle_exists(self, pickle_name: str) -> bool:
         """
         Checks if a pickle file exists.
@@ -965,7 +976,7 @@ class NotebookUtilities(object):
         pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(pickle_name))
 
         return osp.isfile(pickle_path)
-
+    
     
     def load_object(
         self, obj_name: str, pickle_path: str = None, download_url: str = None,
@@ -1016,7 +1027,7 @@ class NotebookUtilities(object):
         if verbose: print('Loaded object {} from {}'.format(obj_name, pickle_path), flush=True)
 
         return(object)
-
+    
     
     def load_data_frames(self, **kwargs):
         """
@@ -1165,16 +1176,16 @@ class NotebookUtilities(object):
         Returns:
             list[str]: A list of attributes in the module that match the filtering criteria.
         """
-    
+        
         # Initialize sets for processed attributes and their suffixes
         dirred_set = set([module_name])
         suffix_set = set([module_name])
-    
+        
         # Initialize an unprocessed set of all attributes in the module_name module that don't start with an underscore
         import importlib
         module_obj = importlib.import_module(module_name)
         undirred_set = set([f'module_obj.{fn}' for fn in dir(module_obj) if not fn.startswith('_')])
-    
+        
         # Continue processing until the unprocessed set is empty
         while undirred_set:
     
@@ -1190,15 +1201,15 @@ class NotebookUtilities(object):
                 # Add it to processed and suffix sets
                 dirred_set.add(fn)
                 suffix_set.add(fn_suffix)
-    
+                
                 try:
                     
                     # Evaluate the 'dir()' function for the attribute and update the unprocessed set with its function or submodule
                     dir_list = eval(f'dir({fn})')
-    
+                    
                     # Add all of the submodules of the function or submodule to undirred_set if they haven't been processed yet
                     undirred_set.update([f'{fn}.{fn1}' for fn1 in dir_list if not fn1.startswith('_')])
-    
+                
                 # If there is an error getting the dir() of the function or submodule, just continue to the next iteration
                 except: continue
                 
@@ -1242,13 +1253,13 @@ class NotebookUtilities(object):
     def ensure_module_installed(self, module_name: str, upgrade: bool = False, verbose: bool = True) -> None:
         """
         Checks if a module is installed and installs it if it is not.
-
+        
         Parameters:
             module_name (str): The name of the module to check for.
             upgrade (bool, optional): Whether to upgrade the module if it is already installed.
                 Defaults to False.
             verbose (bool, optional): Whether to print status messages. Defaults to True.
-
+        
         Returns:
             None
         """
@@ -1271,11 +1282,11 @@ class NotebookUtilities(object):
     def get_filename_from_url(url, verbose=False):
         """
         Extracts the filename from a given URL.
-
+        
         Parameters:
             url (str): The URL from which to extract the filename.
             verbose (bool, optional): If True, print additional information (default is False).
-
+        
         Returns:
             str: The extracted filename from the URL.
         """
@@ -1337,13 +1348,13 @@ class NotebookUtilities(object):
         Returns:
             BeautifulSoup: The BeautifulSoup soup object for the given page.
         """
-
+            
         # Check if the page URL or filepath is a URL
         if self.url_regex.fullmatch(page_url_or_filepath):
 
             # If the page URL or filepath is a URL, open it using urllib.request.urlopen()
             with urllib.request.urlopen(page_url_or_filepath) as response: page_html = response.read()
-
+        
         # If the page URL or filepath is not a URL, ensure it exists and open it using open()
         elif self.filepath_regex.fullmatch(page_url_or_filepath):
             assert osp.isfile(page_url_or_filepath), f"{page_url_or_filepath} doesn't exist"
@@ -1361,7 +1372,7 @@ class NotebookUtilities(object):
 
         # Return the page soup object
         return page_soup
-
+    
     
     def get_page_tables(self, tables_url_or_filepath, verbose=True):
         """
@@ -1431,13 +1442,13 @@ class NotebookUtilities(object):
         """
         table_dfs_list = []
         try:
-
+            
             # Get the BeautifulSoup object for the Wikipedia page
             page_soup = self.get_page_soup(tables_url_or_filepath, verbose=verbose)
-
+            
             # Find all the tables on the Wikipedia page
             table_soups_list = page_soup.find_all('table', attrs={'class': 'wikitable'})
-
+            
             # Recursively get the DataFrames for all the tables on the Wikipedia page
             table_dfs_list = []
             for table_soup in table_soups_list: table_dfs_list += self.get_page_tables(str(table_soup), verbose=False)
@@ -1455,22 +1466,47 @@ class NotebookUtilities(object):
 
         # Return the list of DataFrames
         return table_dfs_list
-
+    
     
     ### Pandas Functions ###
+    
+    
+    @staticmethod
+    def get_inf_nan_mask(x_list, y_list):
+        """
+        Returns a mask indicating which elements of x_list and y_list are not inf or nan.
+        
+        Parameters:
+        x_list: A list of numbers.
+        y_list: A list of numbers.
+        
+        Returns:
+        A numpy array of booleans, where True indicates that the corresponding element
+        of x_list and y_list is not inf or nan.
+        """
+        
+        # Check if the input lists are empty.
+        if not x_list or not y_list: return np.array([], dtype=bool)
+        
+        # Create masks indicating which elements of x_list and y_list are not inf or nan.
+        x_mask = np.logical_and(np.logical_not(np.isinf(x_list)), np.logical_not(np.isnan(x_list)))
+        y_mask = np.logical_and(np.logical_not(np.isinf(y_list)), np.logical_not(np.isnan(y_list)))
+        
+        # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
+        return np.logical_and(x_mask, y_mask)
     
     
     @staticmethod
     def get_column_descriptions(df, column_list=None, verbose=False):
         """
         Generate a DataFrame containing descriptive statistics for specified columns in a given DataFrame.
-    
+        
         Parameters:
             df (pandas.DataFrame): The DataFrame to analyze.
             column_list (list of str, optional): A list of specific columns to analyze.
                 If None, all columns will be analyzed. Defaults to None.
             verbose (bool, optional): If True, display intermediate steps for debugging. Default is False.
-    
+        
         Returns:
             pandas.DataFrame: A DataFrame containing the descriptive statistics of the analyzed columns.
         """
@@ -1552,31 +1588,6 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def get_inf_nan_mask(x_list, y_list):
-        """
-        Returns a mask indicating which elements of x_list and y_list are not inf or nan.
-        
-        Parameters:
-        x_list: A list of numbers.
-        y_list: A list of numbers.
-        
-        Returns:
-        A numpy array of booleans, where True indicates that the corresponding element
-        of x_list and y_list is not inf or nan.
-        """
-        
-        # Check if the input lists are empty.
-        if not x_list or not y_list: return np.array([], dtype=bool)
-        
-        # Create masks indicating which elements of x_list and y_list are not inf or nan.
-        x_mask = np.logical_and(np.logical_not(np.isinf(x_list)), np.logical_not(np.isnan(x_list)))
-        y_mask = np.logical_and(np.logical_not(np.isinf(y_list)), np.logical_not(np.isnan(y_list)))
-        
-        # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
-        return np.logical_and(x_mask, y_mask)
-    
-    
-    @staticmethod
     def modalize_columns(df, columns_list, new_column_name):
         """
         Create a new column in a DataFrame representing the modal value of specified columns.
@@ -1644,7 +1655,7 @@ class NotebookUtilities(object):
         
         # Extract column names where the count of occurrences is not zero
         columns_list = srs[srs != 0].index.tolist()
-
+        
         return columns_list
     
     
@@ -1698,7 +1709,7 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def convert_to_df(row_index, row_series, verbose=True):
+    def convert_to_data_frame(row_index, row_series, verbose=True):
         """
         Convert a row represented as a Pandas Series into a single-row DataFrame.
         
@@ -1864,15 +1875,15 @@ class NotebookUtilities(object):
     def get_coordinates(second_point, first_point=None):
         """
         Get the coordinates of two 3D points.
-    
+        
         Parameters:
             second_point (str): The coordinates of the second point as a string.
             first_point (str, optional): The coordinates of the first point as a string. If not provided, the
                 default values (0, 0, 0) will be used.
-    
+        
         Returns:
             tuple of float: The coordinates of the two points.
-    
+        
         """
         if first_point is None:
             x1 = 0.0  # The x-coordinate of the first point
@@ -1907,12 +1918,12 @@ class NotebookUtilities(object):
     def get_absolute_position(self, second_point, first_point=None):
         """
         Calculates the absolute position of a point relative to another point.
-    
+        
         Parameters:
             second_point (tuple): The coordinates of the second point.
             first_point (tuple, optional): The coordinates of the first point. If not specified,
                 the origin is retrieved from get_coordinates.
-    
+        
         Returns:
             tuple: The absolute coordinates of the second point.
         """
@@ -2138,7 +2149,6 @@ class NotebookUtilities(object):
         
         # Humanize y tick labels
         yticklabels_list = []
-        import humanize
         for text_obj in ax.get_yticklabels():
             text_obj.set_text(humanize.intword(int(text_obj.get_position()[1])))
             yticklabels_list.append(text_obj)
@@ -2192,7 +2202,7 @@ class NotebookUtilities(object):
                 the reference point. Default is (-75, 25).
             color_list (list[str], optional): The list of colors to be used for the scatter plot.
                 Default is None, which will use a default color scheme.
-    
+        
         Returns:
             figure(matplotlib.figure.Figure): The figure object for the generated scatter plot.
         """
