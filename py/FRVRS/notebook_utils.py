@@ -153,7 +153,7 @@ class NotebookUtilities(object):
         """
         
         # Split the input string using various separators
-        stripped_list = re.split(r'( |/|–|\u2009|-|\[)', str(x), 0)
+        stripped_list = re.split(r'( |/|\x96|\u2009|-|\[)', str(x), 0)
         
         # Remove non-numeric characters from each element in the stripped list
         stripped_list = [re.sub(r'\D+', '', x) for x in stripped_list]
@@ -2081,7 +2081,7 @@ class NotebookUtilities(object):
         df = df.applymap(lambda x: self.format_timedelta(timedelta(milliseconds=int(x))), na_action='ignore').T
 
         # Format the standard deviation (SD) column to include the plus-minus symbol
-        df.SD = df.SD.map(lambda x: '±' + str(x))
+        df.SD = df.SD.map(lambda x: '\xB1' + str(x))
         
         # Display the resulting DataFrame
         display(df)
@@ -2941,10 +2941,10 @@ class NotebookUtilities(object):
                     if verbose: print(f'bot={bot}, top={top}, left={left}, right={right}')
                     
                     line_width = 1
-                    plt.plot([left,right], [bot,bot], color='red', linewidth=line_width)
-                    plt.plot([left,right], [top,top], color='red', linewidth=line_width)
-                    plt.plot([left,left], [bot,top], color='red', linewidth=line_width)
-                    plt.plot([right,right], [bot,top], color='red', linewidth=line_width)
+                    plt.plot([left,right], [bot,bot], color='grey', linewidth=line_width, alpha=0.5)
+                    plt.plot([left,right], [top,top], color='grey', linewidth=line_width, alpha=0.5)
+                    plt.plot([left,left], [bot,top], color='grey', linewidth=line_width, alpha=0.5)
+                    plt.plot([right,right], [bot,top], color='grey', linewidth=line_width, alpha=0.5)
     
             # check if only one n-gram has been supplied
             if type(highlighted_ngrams[0]) is str: highlight_ngram([string_to_integer_map[x] for x in highlighted_ngrams])
