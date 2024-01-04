@@ -2198,20 +2198,33 @@ class NotebookUtilities(object):
         return x1, x2, y1, y2, z1, z2
     
     
-    def get_euclidean_distance(self, second_point, first_point=None):
+    @staticmethod
+    def get_euclidean_distance(first_point, second_point):
         """
-        Calculates the Euclidean distance between two 3D points.
-    
+        Calculates the Euclidean distance between two 2D or 3D points.
+        
+        Parameters:
+            first_point (tuple): The coordinates of the first point.
+            second_point (tuple): The coordinates of the second point.
+        
         Returns:
             float: The Euclidean distance between the two points.
         """
-        x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
-        euclidean_distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
-    
+        euclidean_distance = np.nan
+        if (len(first_point) == 3) and (len(second_point) == 3):
+            x1, y1, z1 = first_point
+            x2, y2, z2 = second_point
+            euclidean_distance = math.sqrt((x1 - x2)**2 + (y1 - y2)**2 + (z1 - z2)**2)
+        elif (len(first_point) == 2) and (len(second_point) == 2):
+            x1, z1 = first_point
+            x2, z2 = second_point
+            euclidean_distance = math.sqrt((x1 - x2)**2 + (z1 - z2)**2)
+
         return euclidean_distance
     
     
-    def get_absolute_position(self, second_point, first_point=None):
+    @staticmethod
+    def get_absolute_position(second_point, first_point=None):
         """
         Calculates the absolute position of a point relative to another point.
         
@@ -2226,6 +2239,29 @@ class NotebookUtilities(object):
         x1, x2, y1, y2, z1, z2 = self.get_coordinates(second_point, first_point=first_point)
     
         return (round(x1 + x2, 1), round(y1 + y2, 1), round(z1 + z2, 1))
+    
+    
+    def get_nearest_neighbor(self, base_point, neighbors_list):
+        """
+        Gets the point nearest in Euclidean distance between two 2D or 3D points,
+        the base_point and an item from the neighbors_list.
+        
+        Parameters:
+            base_point (tuple): The coordinates of the first point.
+            neighbors_list (list of tuples): A list of coordinates.
+        
+        Returns:
+            tuple: The coordinates of the nearest of the neighbors_list of points.
+        """
+        min_distance = math.inf
+        nearest_neighbor = None
+        for neighbor_point in neighbors_list:
+            distance = self.get_euclidean_distance(base_point, neighbor_point)
+            if distance < min_distance:
+                min_distance = distance
+                nearest_neighbor = neighbor_point
+        
+        return nearest_neighbor
     
     
     ### Sub-sampling Functions ###
@@ -2806,6 +2842,31 @@ class NotebookUtilities(object):
         text_obj = ax.set_title(f'{title_prefix} {inaugruation_verb} Age vs Year')
     
     
+    @staticmethod
+    def get_color_cycled_list(alphabet_list, color_dict, verbose=False):
+        if verbose: print(f'alphabet_list = {alphabet_list}')
+        if verbose: print(f'color_dict = {color_dict}')
+        
+        # Match the colors with the color cycle and color dictionary
+        from itertools import cycle
+        
+        # Get the color cycle from rcParams
+        prop_cycle = plt.rcParams['axes.prop_cycle']
+        colors = cycle(prop_cycle.by_key()['color'])
+        
+        colors_list = []
+        for key in alphabet_list:
+            value = color_dict.get(key)
+            
+            # Get the next color in the cycle if missing from the dictionary
+            if (value is None): value = next(colors)
+            
+            colors_list.append(value)
+        if verbose: print(f'colors_list = {colors_list}')
+        
+        return colors_list
+    
+    
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
         """
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
@@ -2884,7 +2945,7 @@ class NotebookUtilities(object):
             plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35, color=color_dict[value])
             # if verbose:
                 # color_cycle = plt.rcParams['axes.prop_cycle']
-                # print('\nPrinting the colors in the color cycle:')
+                # print('\nPrinting the colors in the rcParams color cycle:')
                 # for color in color_cycle: print(color)
                 # print()
         
@@ -2892,22 +2953,7 @@ class NotebookUtilities(object):
         plt.yticks(range(alphabet_len), alphabet_list)
         
         # Match the label colors with the color cycle and color dictionary
-        from itertools import cycle
-        
-        # Get the color cycle from rcParams
-        prop_cycle = plt.rcParams['axes.prop_cycle']
-        colors = cycle(prop_cycle.by_key()['color'])
-        
-        colors_list = []
-        for key in alphabet_list:
-            value = color_dict[key]
-            
-            # Get the next color in the cycle
-            if (value is None):
-                color = next(colors)
-                colors_list.append(color)
-            
-            else: colors_list.append(value)
+        colors_list = self.get_color_cycled_list(alphabet_list, color_dict, verbose=verbose)
         # if verbose: print(f'colors_list = {colors_list}')
         
         # Set the yticks label color

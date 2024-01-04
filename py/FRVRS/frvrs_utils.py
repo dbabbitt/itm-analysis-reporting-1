@@ -43,18 +43,14 @@ class FRVRSUtilities(object):
         self.verbose = verbose
         
         # Create the data folder if it doesn't exist
-        if data_folder_path is None:
-            self.data_folder = '../data'
-        else:
-            self.data_folder = data_folder_path
+        if data_folder_path is None: self.data_folder = '../data'
+        else: self.data_folder = data_folder_path
         os.makedirs(self.data_folder, exist_ok=True)
         if verbose: print('data_folder: {}'.format(osp.abspath(self.data_folder)), flush=True)
         
         # Create the saves folder if it doesn't exist
-        if saves_folder_path is None:
-            self.saves_folder = '../saves'
-        else:
-            self.saves_folder = saves_folder_path
+        if saves_folder_path is None: self.saves_folder = '../saves'
+        else: self.saves_folder = saves_folder_path
         os.makedirs(self.saves_folder, exist_ok=True)
         if verbose: print('saves_folder: {}'.format(osp.abspath(self.saves_folder)), flush=True)
         
@@ -446,45 +442,14 @@ class FRVRSUtilities(object):
         return last_engagement
     
     
-    def get_is_scene_aborted(self, scene_df, verbose=False):
-        """
-        Gets whether or not a scene is aborted.
+    @staticmethod
+    def get_player_location(scene_df, action_tick, verbose=False):
+        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
+        df = scene_df[mask_series]
+        df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick, x))
+        player_location = eval(df.sort_values('action_delta').iloc[0].location_id)
         
-        Parameters
-        ----------
-        scene_df : pd.DataFrame
-            DataFrame containing data for a specific scene.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
-        
-        Returns
-        -------
-        bool
-            True if the scene is aborted, False otherwise.
-        """
-        
-        # Check if the is_scene_aborted column exists in the scene data frame, and get the unique value if it is
-        if 'is_scene_aborted' in scene_df.columns: is_scene_aborted = scene_df.is_scene_aborted.unique().item()
-        
-        else:
-            
-            # Calculate the time duration between scene start and last engagement
-            scene_start = self.get_scene_start(scene_df, verbose=verbose)
-        
-            # Get the last engagement time
-            last_engagement = self.get_last_engagement(scene_df, verbose=verbose)
-        
-            # Calculate the time difference between the scene start and the last engagement
-            start_to_last_engagement = last_engagement - scene_start
-            
-            # Define the threshold for scene abortion (sixteen minutes)
-            sixteen_minutes = 1_000 * 60 * 16
-            
-            # Determine if the scene is aborted based on the time duration
-            is_scene_aborted = bool(start_to_last_engagement > sixteen_minutes)
-        
-        # Return True if the scene is aborted, False otherwise
-        return is_scene_aborted
+        return player_location
     
     
     @staticmethod
@@ -552,33 +517,6 @@ class FRVRSUtilities(object):
         return run_end
     
     
-    def get_triage_time(self, scene_df, verbose=False):
-        """
-        Calculates the triage time for a scene.
-        
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing scene data.
-        verbose : bool, optional
-            Whether to print verbose output.
-        
-        Returns
-        -------
-        int
-            Triage time in milliseconds.
-        """
-        
-        # Get the scene start and end times
-        time_start = self.get_scene_start(scene_df, verbose=verbose)
-        time_stop = self.get_scene_end(scene_df, verbose=verbose)
-        
-        # Calculate the triage time
-        triage_time = time_stop - time_start
-        
-        return triage_time
-    
-    
     @staticmethod
     def get_patient_count(scene_df, verbose=False):
         """
@@ -602,93 +540,6 @@ class FRVRSUtilities(object):
         
         # Return the calculated patient count
         return patient_count
-    
-    
-    def get_dead_patients(self, scene_df, verbose=False):
-        """
-        Get a list of unique patient IDs corresponding to patients marked as DEAD or EXPECTANT in a scene DataFrame.
-        
-        Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
-        
-        Returns:
-            list: List of unique patient IDs marked as DEAD or EXPECTANT in the scene DataFrame.
-        """
-        
-        # Filter the treat-as-dead columns and combine them into a mask series
-        mask_series = False
-        for column_name in self.salt_columns_list: mask_series |= scene_df[column_name].isin(['DEAD', 'EXPECTANT'])
-        
-        # Extract the list of dead patients from the filtered mask series
-        dead_list = scene_df[mask_series].patient_id.unique().tolist()
-        
-        # If verbose is True, print additional information
-        if verbose:
-            print(f'Dead patients: {dead_list}')
-            display(scene_df)
-        
-        # Return the list of unique patient IDs marked as DEAD or EXPECTANT
-        return dead_list
-    
-    
-    def get_still_patients(self, scene_df, verbose=False):
-        """
-        Get a list of unique patient IDs corresponding to patients marked as 'still' in a scene DataFrame.
-        
-        Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
-        
-        Returns:
-            list: List of unique patient IDs marked as 'still' in the scene DataFrame.
-        """
-        
-        # Filter the '_sort' columns and combine them into a mask series
-        mask_series = False
-        for column_name in self.sort_columns_list: mask_series |= (scene_df[column_name] == 'still')
-        
-        # Extract the list of still patients from the filtered mask series
-        still_list = scene_df[mask_series].patient_id.unique().tolist()
-        
-        # If verbose is True, print additional information
-        if verbose:
-            print(f'List of patients marked as still: {still_list}')
-            display(scene_df)
-        
-        # Return the list of unique patient IDs marked as 'still'
-        return still_list
-    
-    
-    def get_total_actions(self, scene_df, verbose=False):
-        """
-        Calculates the total number of user actions within a given scene DataFrame,
-        including voice commands with specific messages.
-        
-        Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
-        
-        Returns:
-            int: Total number of user actions in the scene DataFrame.
-        """
-        
-        # Create a boolean mask to filter action types
-        mask_series = scene_df.action_type.isin(self.action_types_list)
-        
-        # Include VOICE_COMMAND actions with specific messages in the mask
-        mask_series |= ((scene_df.action_type == 'VOICE_COMMAND') & (scene_df.voice_command_message.isin(self.command_messages_list)))
-        
-        # Count the number of user actions for the current group
-        total_actions = scene_df[mask_series].shape[0]
-        
-        # If verbose is True, print additional information
-        if verbose:
-            print(f'Total number of user actions: {total_actions}')
-            display(scene_df)
-        
-        # Return the total number of user actions
-        return total_actions
     
     
     @staticmethod
@@ -961,6 +812,217 @@ class FRVRSUtilities(object):
         return wave_command_count
     
     
+    @staticmethod
+    def get_first_engagement(scene_df, verbose=False):
+        """
+        Get the action tick of the first 'PATIENT_ENGAGED' action in the given scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: Action tick of the first 'PATIENT_ENGAGED' action in the scene DataFrame.
+        """
+        
+        # Filter for actions with the type "PATIENT_ENGAGED"
+        action_mask_series = (scene_df.action_type == 'PATIENT_ENGAGED')
+        
+        # Get the action tick of the first 'PATIENT_ENGAGED' action
+        first_engagement = scene_df[action_mask_series].action_tick.min()
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'Action tick of the first PATIENT_ENGAGED action: {first_engagement}')
+            display(scene_df)
+        
+        # Return the action tick of the first 'PATIENT_ENGAGED' action
+        return first_engagement
+    
+    
+    @staticmethod
+    def get_first_treatment(scene_df, verbose=False):
+        """
+        Get the action tick of the first 'INJURY_TREATED' action in the given scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: Action tick of the first 'INJURY_TREATED' action in the scene DataFrame.
+        """
+        
+        # Filter for actions with the type "INJURY_TREATED"
+        action_mask_series = (scene_df.action_type == 'INJURY_TREATED')
+        
+        # Get the action tick of the first 'INJURY_TREATED' action
+        first_treatment = scene_df[action_mask_series].action_tick.min()
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'Action tick of the first INJURY_TREATED action: {first_treatment}')
+            display(scene_df)
+        
+        # Return the action tick of the first 'INJURY_TREATED' action
+        return first_treatment
+    
+    
+    def get_is_scene_aborted(self, scene_df, verbose=False):
+        """
+        Gets whether or not a scene is aborted.
+        
+        Parameters
+        ----------
+        scene_df : pd.DataFrame
+            DataFrame containing data for a specific scene.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        bool
+            True if the scene is aborted, False otherwise.
+        """
+        
+        # Check if the is_scene_aborted column exists in the scene data frame, and get the unique value if it is
+        if 'is_scene_aborted' in scene_df.columns: is_scene_aborted = scene_df.is_scene_aborted.unique().item()
+        
+        else:
+            
+            # Calculate the time duration between scene start and last engagement
+            scene_start = self.get_scene_start(scene_df, verbose=verbose)
+        
+            # Get the last engagement time
+            last_engagement = self.get_last_engagement(scene_df, verbose=verbose)
+        
+            # Calculate the time difference between the scene start and the last engagement
+            start_to_last_engagement = last_engagement - scene_start
+            
+            # Define the threshold for scene abortion (sixteen minutes)
+            sixteen_minutes = 1_000 * 60 * 16
+            
+            # Determine if the scene is aborted based on the time duration
+            is_scene_aborted = bool(start_to_last_engagement > sixteen_minutes)
+        
+        # Return True if the scene is aborted, False otherwise
+        return is_scene_aborted
+    
+    
+    def get_triage_time(self, scene_df, verbose=False):
+        """
+        Calculates the triage time for a scene.
+        
+        Parameters
+        ----------
+        scene_df : pandas.DataFrame
+            DataFrame containing scene data.
+        verbose : bool, optional
+            Whether to print verbose output.
+        
+        Returns
+        -------
+        int
+            Triage time in milliseconds.
+        """
+        
+        # Get the scene start and end times
+        time_start = self.get_scene_start(scene_df, verbose=verbose)
+        time_stop = self.get_scene_end(scene_df, verbose=verbose)
+        
+        # Calculate the triage time
+        triage_time = time_stop - time_start
+        
+        return triage_time
+    
+    
+    def get_dead_patients(self, scene_df, verbose=False):
+        """
+        Get a list of unique patient IDs corresponding to patients marked as DEAD or EXPECTANT in a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            list: List of unique patient IDs marked as DEAD or EXPECTANT in the scene DataFrame.
+        """
+        
+        # Filter the treat-as-dead columns and combine them into a mask series
+        mask_series = False
+        for column_name in self.salt_columns_list: mask_series |= scene_df[column_name].isin(['DEAD', 'EXPECTANT'])
+        
+        # Extract the list of dead patients from the filtered mask series
+        dead_list = scene_df[mask_series].patient_id.unique().tolist()
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'Dead patients: {dead_list}')
+            display(scene_df)
+        
+        # Return the list of unique patient IDs marked as DEAD or EXPECTANT
+        return dead_list
+    
+    
+    def get_still_patients(self, scene_df, verbose=False):
+        """
+        Get a list of unique patient IDs corresponding to patients marked as 'still' in a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            list: List of unique patient IDs marked as 'still' in the scene DataFrame.
+        """
+        
+        # Filter the '_sort' columns and combine them into a mask series
+        mask_series = False
+        for column_name in self.sort_columns_list: mask_series |= (scene_df[column_name] == 'still')
+        
+        # Extract the list of still patients from the filtered mask series
+        still_list = scene_df[mask_series].patient_id.unique().tolist()
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'List of patients marked as still: {still_list}')
+            display(scene_df)
+        
+        # Return the list of unique patient IDs marked as 'still'
+        return still_list
+    
+    
+    def get_total_actions(self, scene_df, verbose=False):
+        """
+        Calculates the total number of user actions within a given scene DataFrame,
+        including voice commands with specific messages.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: Total number of user actions in the scene DataFrame.
+        """
+        
+        # Create a boolean mask to filter action types
+        mask_series = scene_df.action_type.isin(self.action_types_list)
+        
+        # Include VOICE_COMMAND actions with specific messages in the mask
+        mask_series |= ((scene_df.action_type == 'VOICE_COMMAND') & (scene_df.voice_command_message.isin(self.command_messages_list)))
+        
+        # Count the number of user actions for the current group
+        total_actions = scene_df[mask_series].shape[0]
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'Total number of user actions: {total_actions}')
+            display(scene_df)
+        
+        # Return the total number of user actions
+        return total_actions
+    
+    
     def get_actual_and_ideal_sequences(self, scene_df, verbose=False):
         """
         Extracts the actual and ideal sequences of first interactions from a scene dataframe.
@@ -1038,62 +1100,6 @@ class FRVRSUtilities(object):
             display(scene_df)
         
         return measure_of_right_ordering
-    
-    
-    @staticmethod
-    def get_first_engagement(scene_df, verbose=False):
-        """
-        Get the action tick of the first 'PATIENT_ENGAGED' action in the given scene DataFrame.
-        
-        Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
-        
-        Returns:
-            int: Action tick of the first 'PATIENT_ENGAGED' action in the scene DataFrame.
-        """
-        
-        # Filter for actions with the type "PATIENT_ENGAGED"
-        action_mask_series = (scene_df.action_type == 'PATIENT_ENGAGED')
-        
-        # Get the action tick of the first 'PATIENT_ENGAGED' action
-        first_engagement = scene_df[action_mask_series].action_tick.min()
-        
-        # If verbose is True, print additional information
-        if verbose:
-            print(f'Action tick of the first PATIENT_ENGAGED action: {first_engagement}')
-            display(scene_df)
-        
-        # Return the action tick of the first 'PATIENT_ENGAGED' action
-        return first_engagement
-    
-    
-    @staticmethod
-    def get_first_treatment(scene_df, verbose=False):
-        """
-        Get the action tick of the first 'INJURY_TREATED' action in the given scene DataFrame.
-        
-        Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
-        
-        Returns:
-            int: Action tick of the first 'INJURY_TREATED' action in the scene DataFrame.
-        """
-        
-        # Filter for actions with the type "INJURY_TREATED"
-        action_mask_series = (scene_df.action_type == 'INJURY_TREATED')
-        
-        # Get the action tick of the first 'INJURY_TREATED' action
-        first_treatment = scene_df[action_mask_series].action_tick.min()
-        
-        # If verbose is True, print additional information
-        if verbose:
-            print(f'Action tick of the first INJURY_TREATED action: {first_treatment}')
-            display(scene_df)
-        
-        # Return the action tick of the first 'INJURY_TREATED' action
-        return first_treatment
     
     
     def get_percent_hemorrhage_controlled(self, scene_df, verbose=False):
@@ -1174,6 +1180,38 @@ class FRVRSUtilities(object):
         
         # Return the time to the last hemorrhage controlled event
         return last_controlled_time
+    
+    
+    def get_engagement_starts_order(self, scene_df, verbose=False):
+        engagement_starts_list = []
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            
+            # Get the cluster ID
+            mask_series = ~patient_df.patient_sort.isnull()
+            if mask_series.any(): patient_sort = patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
+            else: patient_sort = None
+            
+            # Check if the responder even interacted with this patient
+            mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
+            if mask_series.any():
+                
+                # Get the list of engagements as action ticks
+                engagements_list = patient_df[mask_series].action_tick
+                mask_series = patient_df.action_tick.isin(engagements_list) & ~patient_df.location_id.isnull()
+                if mask_series.any():
+                    df = patient_df[mask_series].sort_values('action_tick')
+                    
+                    # Get the first engagement start and location and add them to the starts list
+                    engagement_start = df.iloc[0].action_tick
+                    engagement_location = eval(df.iloc[0].location_id)
+                    location_tuple = (engagement_location[0], engagement_location[2])
+                    engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort)
+                    engagement_starts_list.append(engagement_tuple)
+        
+        # Sort the starts list chronologically
+        engagement_order = sorted(engagement_starts_list, key=lambda x: x[1], reverse=False)
+        
+        return engagement_order
     
     
     ### Patient Functions ###
@@ -1380,6 +1418,26 @@ class FRVRSUtilities(object):
         return last_tag
     
     
+    @staticmethod
+    def get_patient_location(patient_df, action_tick, verbose=False):
+        """
+        Gets the patient location closest to the time of the action tick.
+        
+        Parameters:
+            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
+            action_tick (int): The time in milliseconds to locate the patient during.
+        
+        Returns:
+            tuple: The coordinates of the patient.
+        """
+        mask_series = ~patient_df.location_id.isnull()
+        df = patient_df[mask_series]
+        df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick, x))
+        patient_location = eval(df.sort_values('action_delta').iloc[0].location_id)
+        
+        return patient_location
+    
+    
     def is_tag_correct(self, patient_df, verbose=False):
         """
         Determines whether the last tag applied to a patient in a given scene DataFrame matches the predicted tag based on the patient's record salt.
@@ -1441,12 +1499,12 @@ class FRVRSUtilities(object):
         
         # If there are responder negotiation actions, find the first action tick
         if mask_series.any(): engagement_start = patient_df[mask_series]['action_tick'].min()
-        else: engagement_start = patient_df['action_tick'].min()
+        else: engagement_start = np.nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'First patient interaction: {engagement_start}')
-            display(patient_df)
+            display(patient_df[mask_series].dropna(axis='columns', how='all').T)
         
         # Return the action tick of the first patient interaction or np.nan if no data is available
         return engagement_start
@@ -2564,14 +2622,15 @@ class FRVRSUtilities(object):
     ### Plotting Functions ###
     
     
-    def visualize_order_of_engagement(self, scene_df, verbose=False):
+    def visualize_order_of_engagement(self, scene_df, engagement_order=None, color_dict=None, verbose=False):
         """
         Visualize the order of engagement of patients in a given scene.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            nu (NotebookUtilities, optional): NotebookUtilities instance for color cycling. If not provided,
-                a new instance will be created using data_folder and saves_folder attributes of the class.
+            engagement_order (list of tuples, optional): List of tuples of patient IDs,
+                action ticks, and location coordinates. If not provided, a new list will be
+                created using the patients in scene_df.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
@@ -2582,24 +2641,24 @@ class FRVRSUtilities(object):
         """
         
         # Get the engagement order
-        engagement_starts_list = []
-        for patient_id, patient_df in scene_df.groupby('patient_id'):
-            engagement_start = self.get_first_patient_interaction(patient_df)
-            mask_series = (patient_df.action_tick == engagement_start) & ~patient_df.location_id.isnull()
-            if mask_series.any():
-                engagement_location = eval(patient_df[mask_series].location_id.tolist()[0])
-                location_tuple = (engagement_location[0], engagement_location[2])
-                engagement_tuple = (patient_id, engagement_start, location_tuple)
-                engagement_starts_list.append(engagement_tuple)
-        engagement_order = sorted(engagement_starts_list, key=lambda x: x[1], reverse=False)
+        if engagement_order is None: engagement_order = self.get_engagement_starts_order(scene_df, verbose=verbose)
         
         # Create a figure and add a subplot
         fig, ax = plt.subplots(figsize=(18, 9))
         
-        # Show the positions of patients recorded and engaged at our scene
-        color_cycler = nu.get_color_cycler(scene_df.groupby('patient_id').size().shape[0])
+        # Get the color dictionary
+        if color_dict is None:
+            color_cycler = nu.get_color_cycler(scene_df.groupby('patient_id').size().shape[0])
+            import matplotlib.colors as mcolors
+            color_dict = {et[0]: mcolors.to_hex(fcd['color']) for et, fcd in zip(engagement_order, color_cycler())}
+            if verbose:
+                print('\nPrinting the colors in the color_cycler:')
+                print(color_dict)
+                print()
+        color_dict = {et[0]: color_dict.get(et[0]) for et in engagement_order}
         
-        for engagement_tuple, face_color_dict in zip(engagement_order, color_cycler()):
+        # Show the positions of patients recorded and engaged at our scene
+        for engagement_tuple in engagement_order:
             
             # Get the entire patient history
             patient_id = engagement_tuple[0]
@@ -2613,7 +2672,7 @@ class FRVRSUtilities(object):
             label = self.get_wrapped_label(patient_df)
             
             # Plot the ball and chain
-            face_color = face_color_dict['color']
+            face_color = color_dict[patient_id]
             ax.plot(x_dim, z_dim, color=face_color, alpha=1.0, label=label)
             ax.scatter(x_dim, z_dim, color=face_color, alpha=1.0)
             
@@ -3140,6 +3199,7 @@ class FRVRSUtilities(object):
         actions_mask_series=None,
         highlighted_ngrams=[],
         color_dict={'SESSION_START': 'green', 'SESSION_END': 'red'},
+        suptitle=None,
         verbose=False
     ):
         """
@@ -3159,6 +3219,7 @@ class FRVRSUtilities(object):
                 If not provided, all actions are used.
             highlighted_ngrams (list, optional): A list of n-grams to highlight in the plot.
             color_dict (dict, optional): A dictionary mapping action types to color values.
+            suptitle (str, optional): The title of the plot. If not provided, summary statistics are shown.
             verbose (bool, optional): Whether to print debug information during execution.
         
         Returns:
@@ -3197,12 +3258,13 @@ class FRVRSUtilities(object):
             if pd.notnull(action_type) and (action_type != 'VOICE_COMMAND') and (action_type not in actions_list): actions_list.append(action_type)
         
         # Create a plot title
-        mask_series = (summary_statistics_df.session_uuid == session_uuid) & (summary_statistics_df.scene_id == scene_id)
-        df = summary_statistics_df[mask_series]
-        entropy = df.sequence_entropy.squeeze()
-        turbulence = df.sequence_turbulence.squeeze()
-        complexity = df.sequence_complexity.squeeze()
-        suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
+        if suptitle is None:
+            mask_series = (summary_statistics_df.session_uuid == session_uuid) & (summary_statistics_df.scene_id == scene_id)
+            df = summary_statistics_df[mask_series]
+            entropy = df.sequence_entropy.squeeze()
+            turbulence = df.sequence_turbulence.squeeze()
+            complexity = df.sequence_complexity.squeeze()
+            suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
         
         # Plot the sequence using nu.plot_sequence if sequence is not empty
         if verbose: print(sequence)
