@@ -763,7 +763,10 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def open_path_in_notepad(path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe', verbose=True):
+    def open_path_in_notepad(
+        path_str, home_key='USERPROFILE', text_editor_path=r'C:\Program Files\Notepad++\notepad++.exe',
+        continue_execution=True, verbose=True
+    ):
         """
         Open a file in Notepad or a specified text editor.
         
@@ -771,6 +774,8 @@ class NotebookUtilities(object):
             path_str (str): The path to the file to be opened.
             home_key (str, optional): The environment variable key for the home directory. Default is 'USERPROFILE'.
             text_editor_path (str, optional): The path to the text editor executable. Default is Notepad++.
+            continue_execution (bool, optional): If False, interacts with the subprocess and attempts to open the
+                parent folder in explorer if it gets a bad return code. Default is True.
             verbose (bool, optional): If True, prints debug output. Default is False.
         
         Returns:
@@ -797,10 +802,11 @@ class NotebookUtilities(object):
         # !"{text_editor_path}" "{absolute_path}"
         cmd = [text_editor_path, absolute_path]
         proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
-        out, err = proc.communicate()
-        if (proc.returncode != 0):
-            if verbose: print('Open attempt failed: ' + err.decode('utf8'))
-            subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
+        if not continue_execution:
+            out, err = proc.communicate()
+            if (proc.returncode != 0):
+                if verbose: print('Open attempt failed: ' + err.decode('utf8'))
+                subprocess.run(['explorer.exe', osp.dirname(absolute_path)])
     
     
     @staticmethod
