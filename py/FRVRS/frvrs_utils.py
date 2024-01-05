@@ -2703,7 +2703,14 @@ class FRVRSUtilities(object):
         
         # Add title
         title = f'Order-of-Engagement Map for UUID {scene_df.session_uuid.unique().item()} ({humanize.ordinal(scene_df.scene_id.unique().item()+1)} Scene)'
-        ax.set_title(title);
+        ax.set_title(title)
+        
+        # Save figure to PNG
+        file_path = osp.join(nu.saves_png_folder, re.sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
+        if verbose: print(f'Saving figure to {file_path}')
+        plt.savefig(file_path, bbox_inches='tight')
+        
+        return fig, ax
     
     
     def visualize_player_movement(self, scene_mask, title=None, save_only=False, verbose=False):
@@ -3266,8 +3273,11 @@ class FRVRSUtilities(object):
             complexity = df.sequence_complexity.squeeze()
             suptitle = f'entropy = {entropy:0.2f}, turbulence = {turbulence:0.2f}, complexity = {complexity:0.2f}'
         
-        # Plot the sequence using nu.plot_sequence if sequence is not empty
+        # Plot the sequence using notebook util's plot_sequence if sequence is not empty
         if verbose: print(sequence)
-        if(sequence): fig = nu.plot_sequence(
-            sequence, highlighted_ngrams=highlighted_ngrams, color_dict=color_dict, suptitle=suptitle, alphabet_list=actions_list, verbose=verbose
-        )
+        if(sequence):
+            fig, ax = nu.plot_sequence(
+                sequence, highlighted_ngrams=highlighted_ngrams, color_dict=color_dict, suptitle=suptitle, alphabet_list=actions_list, verbose=verbose
+            )
+            
+            return fig, ax

@@ -67,6 +67,7 @@ class NotebookUtilities(object):
         self.saves_pickle_folder = osp.join(self.saves_folder, 'pkl'); makedirs(name=self.saves_pickle_folder, exist_ok=True)
         self.saves_text_folder = osp.join(self.saves_folder, 'txt'); makedirs(name=self.saves_text_folder, exist_ok=True)
         self.saves_wav_folder = osp.join(self.saves_folder, 'wav'); makedirs(name=self.saves_wav_folder, exist_ok=True)
+        self.saves_png_folder = osp.join(self.saves_folder, 'png'); makedirs(name=self.saves_png_folder, exist_ok=True)
         self.txt_folder = osp.join(self.data_folder, 'txt'); makedirs(self.txt_folder, exist_ok=True)
         
         # Create the model directories
@@ -2892,7 +2893,7 @@ class NotebookUtilities(object):
             verbose: A boolean indicating whether to print verbose output.
         
         Returns:
-            A matplotlib figure object.
+            A matplotlib figure and axes objects.
         """
     
         # Convert the sequence to a NumPy array
@@ -2927,16 +2928,17 @@ class NotebookUtilities(object):
         # If the sequence is not already in integer format, convert it
         if (np_sequence.dtype.str not in ['<U21', '<U11']): int_sequence = np_sequence
         
-        # Create a figure
-        fig = plt.figure(figsize=[len(sequence)*0.3, alphabet_len * 0.3])
+        # Create a figure and axes
+        fig, ax = plt.subplots(figsize=[len(sequence) * 0.3, alphabet_len * 0.3])
         
         # Force the xticks to land on integers only
         xtick_locations = range(len(sequence))
-        xtick_labels = [n+1 for n in xtick_locations]
-        plt.xticks(ticks=xtick_locations, labels=xtick_labels, minor=False)
+        xtick_labels = [n + 1 for n in xtick_locations]
+        ax.set_xticks(ticks=xtick_locations)
+        ax.set_xticklabels(xtick_labels, minor=False)
         
         # Extend the edges of the plot
-        plt.xlim([-0.5, len(sequence)-0.5])
+        ax.set_xlim([-0.5, len(sequence) - 0.5])
         
         # Iterate over the alphabet and plot the points for each character
         for i, value in enumerate(alphabet_list):
@@ -2947,8 +2949,8 @@ class NotebookUtilities(object):
             # if verbose: print(range(len(np_sequence)))
             # if verbose: print(points)
             
-            # Plot the points
-            plt.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35, color=color_dict[value])
+            # Plot the points on the axes
+            ax.scatter(x=range(len(np_sequence)), y=points, marker='s', label=value, s=35, color=color_dict[value])
             # if verbose:
                 # color_cycle = plt.rcParams['axes.prop_cycle']
                 # print('\nPrinting the colors in the rcParams color cycle:')
@@ -2965,8 +2967,8 @@ class NotebookUtilities(object):
         # Set the yticks label color
         for label, color in zip(plt.gca().get_yticklabels(), colors_list): label.set_color(color)
         
-        # Set the y limits
-        plt.ylim(-1, alphabet_len)
+        # Set the y limits on the axes
+        ax.set_ylim(-1, alphabet_len)
         
         # Highlight any of the n-grams given
         if highlighted_ngrams != []:
@@ -3009,6 +3011,7 @@ class NotebookUtilities(object):
                     elif type(ngram[0]) is int: highlight_ngram(ngram)
                     else: raise Exception('Invalid data format', ngram)
         
+        # Set the suptitle on the figure
         if suptitle is not None:
             if (alphabet_len <= 6):
                 # from scipy.optimize import curve_fit
@@ -3036,8 +3039,13 @@ class NotebookUtilities(object):
                 if verbose: print(f'alphabet_len={alphabet_len}, y={y}')
             else: y = 0.95
             fig.suptitle(suptitle, y=y)
+            
+            # Save figure to PNG
+            file_path = osp.join(self.saves_png_folder, re.sub(r'\W+', '_', str(suptitle)).strip('_').lower() + '.png')
+            if verbose: print(f'Saving figure to {file_path}')
+            plt.savefig(file_path, bbox_inches='tight')
         
-        return fig
+        return fig, ax
     
     
     def plot_sequences(self, sequences, gap=True):
