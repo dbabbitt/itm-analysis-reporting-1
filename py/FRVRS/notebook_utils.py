@@ -786,7 +786,7 @@ class NotebookUtilities(object):
             The function uses subprocess to run the specified text editor with the provided file path.
         
         Example:
-            nu.open_path_in_notepad('C:/example.txt')
+            nu.open_path_in_notepad(r'C:/example.txt')
         """
         
         # Expand '~' to the home directory in the file path
