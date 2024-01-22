@@ -1636,11 +1636,14 @@ class FRVRSUtilities(object):
         columns_list = ['patient_demoted_sort', 'patient_engaged_sort', 'patient_record_sort']
         srs = patient_df[columns_list].apply(pd.Series.notnull, axis='columns').sum()
         mask_series = (srs > 0)
-        sort_cns_list = srs[mask_series].index.tolist()[0]
+        if mask_series.any():
+            sort_cns_list = srs[mask_series].index.tolist()[0]
+            sort_type = patient_df[sort_cns_list].dropna().iloc[-1]
+        else: sort_type = 'no SORT info'
         
         # Generate a wrapped label
         patient_id = patient_df.patient_id.unique().item()
-        label = patient_id.replace(' Root', ' (') + patient_df[sort_cns_list].dropna().iloc[-1] + ')'
+        label = patient_id.replace(' Root', ' (') + sort_type + ')'
         
         # Wrap the label to a specified width
         import textwrap
