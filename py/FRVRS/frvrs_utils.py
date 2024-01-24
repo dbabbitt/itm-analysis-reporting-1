@@ -222,17 +222,17 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_session_groupby(frvrs_logs_df=None, mask_series=None, extra_column=None):
+    def get_session_groupby(grouped_df, mask_series=None, extra_column=None):
         """
         Group the FRVRS logs DataFrame by session UUID, with optional additional grouping by an extra column,
         based on the provided mask and extra column parameters.
 
         Parameters
         ----------
-        frvrs_logs_df : pd.DataFrame, optional
-            DataFrame containing the FRVRS logs data, by default None. If None, loads the data from file.
+        grouped_df : pd.DataFrame, optional
+            DataFrame containing the FRVRS logs data.
         mask_series : pd.Series, optional
-            Boolean mask to filter rows of frvrs_logs_df, by default None.
+            Boolean mask to filter rows of grouped_df, by default None.
         extra_column : str, optional
             Additional column for further grouping, by default None.
 
@@ -242,18 +242,15 @@ class FRVRSUtilities(object):
             GroupBy object grouped by session UUID, and, if provided, the extra column.
         """
         
-        # Check if frvrs_logs_df is provided, if not, load it from file
-        if frvrs_logs_df is None: frvrs_logs_df = nu.load_object('frvrs_logs_df')
-        
         # Apply grouping based on the provided parameters
         if (mask_series is None) and (extra_column is None):
-            gb = frvrs_logs_df.sort_values(['action_tick']).groupby(['session_uuid'])
+            gb = grouped_df.sort_values(['action_tick']).groupby(['session_uuid'])
         elif (mask_series is None) and (extra_column is not None):
-            gb = frvrs_logs_df.sort_values(['action_tick']).groupby(['session_uuid', extra_column])
+            gb = grouped_df.sort_values(['action_tick']).groupby(['session_uuid', extra_column])
         elif (mask_series is not None) and (extra_column is None):
-            gb = frvrs_logs_df[mask_series].sort_values(['action_tick']).groupby(['session_uuid'])
+            gb = grouped_df[mask_series].sort_values(['action_tick']).groupby(['session_uuid'])
         elif (mask_series is not None) and (extra_column is not None):
-            gb = frvrs_logs_df[mask_series].sort_values(['action_tick']).groupby(['session_uuid', extra_column])
+            gb = grouped_df[mask_series].sort_values(['action_tick']).groupby(['session_uuid', extra_column])
         
         # Return the grouped data
         return gb
@@ -1342,12 +1339,9 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_max_salt(patient_df=None, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
+    def get_max_salt(patient_df, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
         """
-        Get the maximum salt value from the patient data frame or load the data if not provided.
-        
-        If 'patient_df' is not provided, the function loads FRVRS logs for the specified 'session_uuid'
-        and 'scene_id' and selects a random patient from within the scene.
+        Get the maximum salt value from the patient data frame.
         
         Parameters:
             patient_df (pandas.DataFrame, optional): DataFrame containing patient-specific data with relevant columns.
@@ -1360,20 +1354,6 @@ class FRVRSUtilities(object):
             int or tuple: The maximum salt value for the patient, or a tuple containing the patient ID and maximum salt value if `session_uuid` is provided.
         """
         
-        # If the patient DataFrame is not provided, load the FRVRS logs and select a random patient
-        if patient_df is None:
-            
-            # Load FRVRS logs if patient data frame is not provided
-            frvrs_logs_df = nu.load_object('frvrs_logs_df')
-            scene_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id)
-            
-            # Get a random patient from within the scene if not provided
-            if random_patient_id is None: random_patient_id = random.choice(frvrs_logs_df[scene_mask_series].patient_id.unique())
-        
-            # Get the patient data frame
-            mask_series = scene_mask_series & (frvrs_logs_df.patient_id == random_patient_id)
-            patient_df = frvrs_logs_df[mask_series]
-        
         # Get the max salt value
         mask_series = patient_df.patient_record_salt.isnull()
         try: max_salt = patient_df[~mask_series].patient_record_salt.max()
@@ -1385,7 +1365,9 @@ class FRVRSUtilities(object):
             display(patient_df)
         
         # Return a tuple (random_patient_id, max_salt) if 'session_uuid' is provided
-        if session_uuid is not None: return random_patient_id, max_salt
+        if session_uuid is not None:
+            if random_patient_id is None: random_patient_id = patient_df.groupby('patient_id').groups.keys().item()
+            return random_patient_id, max_salt
         
         # Return the max salt value if 'session_uuid' is None
         else: return max_salt
@@ -2437,7 +2419,7 @@ class FRVRSUtilities(object):
         DataFrame
             A DataFrame containing all the data from the CSV files in the given logs folder.
         """
-        frvrs_logs_df = DataFrame([])
+        logs_df = DataFrame([])
         
         # Iterate over the subdirectories, directories, and files in the logs folder
         if logs_folder is None: logs_folder = self.data_logs_folder
@@ -2453,19 +2435,19 @@ class FRVRSUtilities(object):
                 if file_name.endswith('.csv'): sub_directory_df = self.process_files(sub_directory_df, sub_directory, file_name)
             
             # Append the data frame for the current subdirectory to the main data frame
-            frvrs_logs_df = pd.concat([frvrs_logs_df, sub_directory_df], axis='index')
+            logs_df = pd.concat([logs_df, sub_directory_df], axis='index')
         
         # Convert event time to a datetime
-        if ('event_time' in frvrs_logs_df.columns): frvrs_logs_df['event_time'] = pd.to_datetime(frvrs_logs_df['event_time'], format='mixed')
+        if ('event_time' in logs_df.columns): logs_df['event_time'] = pd.to_datetime(logs_df['event_time'], format='mixed')
         
         # Convert elapsed time to an integer
-        if ('action_tick' in frvrs_logs_df.columns):
-            frvrs_logs_df['action_tick'] = pd.to_numeric(frvrs_logs_df['action_tick'], errors='coerce')
-            frvrs_logs_df['action_tick'] = frvrs_logs_df['action_tick'].astype('int64')
+        if ('action_tick' in logs_df.columns):
+            logs_df['action_tick'] = pd.to_numeric(logs_df['action_tick'], errors='coerce')
+            logs_df['action_tick'] = logs_df['action_tick'].astype('int64')
         
-        frvrs_logs_df = frvrs_logs_df.reset_index(drop=True)
+        logs_df = logs_df.reset_index(drop=True)
         
-        return frvrs_logs_df
+        return logs_df
     
     
     @staticmethod
@@ -2521,7 +2503,7 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def show_long_runs(df, column_name, milliseconds, delta_fn, description, frvrs_logs_df=None):
+    def show_long_runs(df, column_name, milliseconds, delta_fn, description, logs_df):
         """
         Display files with a specified duration in a given DataFrame.
         
@@ -2531,8 +2513,8 @@ class FRVRSUtilities(object):
             milliseconds (int): Threshold duration in milliseconds.
             delta_fn (function): Function to convert milliseconds to a time delta object.
             description (str): Description of the duration, e.g., 'longer' or 'shorter'.
-            frvrs_logs_df (pandas.DataFrame, optional): DataFrame containing additional log data, defaults to None.
-
+            logs_df (pandas.DataFrame, optional): DataFrame containing additional log data, defaults to None.
+        
         Returns:
             None
 
@@ -2550,11 +2532,8 @@ class FRVRSUtilities(object):
         mask_series = (df[column_name] > milliseconds)
         session_uuid_list = df[mask_series].session_uuid.tolist()
         
-        # Load additional log data if not provided
-        if frvrs_logs_df is None: frvrs_logs_df = nu.load_object('frvrs_logs_df')
-        
         # Filter logs based on session UUID
-        mask_series = frvrs_logs_df.session_uuid.isin(session_uuid_list)
+        mask_series = logs_df.session_uuid.isin(session_uuid_list)
         
         # Specify logs folder path
         logs_folder = '../data/logs'
@@ -2562,7 +2541,7 @@ class FRVRSUtilities(object):
         # Process each unique file
         import csv
         from datetime import datetime
-        for old_file_name in frvrs_logs_df[mask_series].file_name.unique():
+        for old_file_name in logs_df[mask_series].file_name.unique():
             old_file_path = osp.join(logs_folder, old_file_name)
             
             # Extract date from the log file
@@ -2716,29 +2695,27 @@ class FRVRSUtilities(object):
         return fig, ax
     
     
-    def visualize_player_movement(self, scene_mask, title=None, save_only=False, verbose=False):
+    def visualize_player_movement(self, logs_df, scene_mask, title=None, save_only=False, verbose=False):
         """
         Visualizes the player movement for the given session mask in a 2D plot.
     
         Parameters:
-            scene_mask (pandas.Series): A boolean mask indicating which rows of the frvrs_logs_df DataFrame belong to the current scene.
+            scene_mask (pandas.Series): A boolean mask indicating which rows of the logs_df DataFrame belong to the current scene.
             title (str, optional): The title of the plot, if saving.
             save_only (bool, optional): Whether to only save the plot to a PNG file and not display it.
-            frvrs_logs_df (pandas.DataFrame, optional): A DataFrame containing the FRVRS logs.
-                If `None`, the DataFrame will be loaded from the disk.
+            logs_df (pandas.DataFrame): A DataFrame containing the FRVRS logs.
             verbose (bool, optional): Whether to print verbose output.
     
         Returns:
             None: The function either displays the plot or saves it to a file.
     
         Note:
-            This function visualizes player movement based on data in the DataFrame `frvrs_logs_df`.
+            This function visualizes player movement based on data in the DataFrame `logs_df`.
             It can display player positions, locations, and teleportations.
             Use `scene_mask` to filter the data for a specific scene.
             Set `save_only` to True to save the plot as a PNG file with the specified `title`.
             Set `verbose` to True to enable verbose printing.
         """
-        frvrs_logs_df = nu.load_object('frvrs_logs_df')
     
         # Check if saving to a file is requested
         if save_only:
@@ -2758,8 +2735,8 @@ class FRVRSUtilities(object):
             fig, ax = plt.subplots(figsize=(18, 9))
             
             # Show the positions of patients recorded and engaged at our time group and session UUID
-            color_cycler = nu.get_color_cycler(frvrs_logs_df[scene_mask].groupby('patient_id').size().shape[0])
-            for (patient_id, patient_df), face_color_dict in zip(frvrs_logs_df[scene_mask].sort_values('action_tick').groupby('patient_id'), color_cycler()):
+            color_cycler = nu.get_color_cycler(logs_df[scene_mask].groupby('patient_id').size().shape[0])
+            for (patient_id, patient_df), face_color_dict in zip(logs_df[scene_mask].sort_values('action_tick').groupby('patient_id'), color_cycler()):
                 
                 # Get all the wanderings
                 x_dim, z_dim = self.get_wanderings(patient_df)
@@ -2785,8 +2762,8 @@ class FRVRSUtilities(object):
             
             # Visualize locations
             x_dim = []; z_dim = []; label = ''
-            mask_series = (frvrs_logs_df.action_type == 'PLAYER_LOCATION') & scene_mask
-            locations_df = frvrs_logs_df[mask_series]
+            mask_series = (logs_df.action_type == 'PLAYER_LOCATION') & scene_mask
+            locations_df = logs_df[mask_series]
             if locations_df.shape[0]:
                 label = 'locations'
                 locations_df = locations_df.sort_values(['action_tick'])
@@ -2802,8 +2779,8 @@ class FRVRSUtilities(object):
             
             # Visualize teleportations
             x_dim = []; z_dim = []; label = ''
-            mask_series = (frvrs_logs_df.action_type == 'TELEPORT') & scene_mask
-            teleports_df = frvrs_logs_df[mask_series]
+            mask_series = (logs_df.action_type == 'TELEPORT') & scene_mask
+            teleports_df = logs_df[mask_series]
             if teleports_df.shape[0]:
                 label = 'teleportations'
                 teleports_df = teleports_df.sort_values(['action_tick'])
@@ -2836,14 +2813,15 @@ class FRVRSUtilities(object):
     
     
     def visualize_extreme_player_movement(
-        self, df, sorting_column, mask_series=None, is_ascending=True, humanize_type='precisedelta',
+        self, logs_df, df, sorting_column, mask_series=None, is_ascending=True, humanize_type='precisedelta',
         title_str='slowest action to control time', verbose=False
     ):
         """
         Get the time group with some edge case and visualize the player movement.
         
         Parameters:
-            df (pd.DataFrame): The input DataFrame containing player movement data.
+            logs_df (pandas.DataFrame): A DataFrame containing the FRVRS logs.
+            df (pandas.DataFrame): The input DataFrame containing player movement data.
             sorting_column (str): The column based on which the DataFrame will be sorted.
             mask_series (pd.Series or None): Optional mask series to filter rows in the DataFrame.
             is_ascending (bool): If True, sort the DataFrame in ascending order; otherwise, in descending order.
@@ -2871,9 +2849,8 @@ class FRVRSUtilities(object):
             session_uuid = df1.session_uuid.squeeze()
             scene_id = df1.scene_id.squeeze()
             
-            # Load frvrs_logs_df DataFrame
-            frvrs_logs_df = nu.load_object('frvrs_logs_df')
-            base_mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id)
+            # Load logs DataFrame
+            base_mask_series = (logs_df.session_uuid == session_uuid) & (logs_df.scene_id == scene_id)
             
             # Construct the title for the visualization
             title = f'Location Map for UUID {session_uuid} ({humanize.ordinal(scene_id+1)} Scene)'
@@ -2891,15 +2868,15 @@ class FRVRSUtilities(object):
                 title += humanize.intword(column_value) + ')'
             
             # Visualize player movement
-            self.visualize_player_movement(base_mask_series, title=title)
+            self.visualize_player_movement(logs_df, base_mask_series, title=title)
     
     
-    def show_timelines(self, frvrs_logs_df=None, random_session_uuid=None, random_scene_index=None, color_cycler=None, verbose=False):
+    def show_timelines(self, logs_df, random_session_uuid=None, random_scene_index=None, color_cycler=None, verbose=False):
         """
         Display timelines for patient engagements in a random session and scene.
         
         Parameters:
-            frvrs_logs_df (pd.DataFrame, optional): DataFrame containing FRVRS logs. If not provided, it will be loaded using NotebookUtilities.
+            logs_df (pd.DataFrame): DataFrame containing FRVRS logs.
             random_session_uuid (str, optional): UUID of the random session. If not provided, a random session will be selected.
             random_scene_index (int, optional): Index of the random scene. If not provided, a random scene within the selected session will be chosen.
             color_cycler (callable, optional): A callable that returns a color for each patient engagement timeline. If not provided, it will be generated.
@@ -2909,26 +2886,23 @@ class FRVRSUtilities(object):
             Tuple of (random_session_uuid, random_scene_index).
         """
         
-        # Load FRVRS logs DataFrame if not provided
-        if frvrs_logs_df is None: frvrs_logs_df = nu.load_object('frvrs_logs_df')
-        
         # Get a random session if not provided
-        if random_session_uuid is None: random_session_uuid = random.choice(self.frvrs_logs_df.session_uuid.unique())
+        if random_session_uuid is None: random_session_uuid = random.choice(logs_df.session_uuid.unique())
         
         # Get a random scene from within the session if not provided
         if random_scene_index is None:
-            mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid)
-            random_scene_index = random.choice(self.frvrs_logs_df[mask_series].scene_id.unique())
+            mask_series = (logs_df.session_uuid == random_session_uuid)
+            random_scene_index = random.choice(logs_df[mask_series].scene_id.unique())
         
         # Get the scene mask
-        scene_mask_series = (self.frvrs_logs_df.session_uuid == random_session_uuid) & (self.frvrs_logs_df.scene_id == random_scene_index)
+        scene_mask_series = (logs_df.session_uuid == random_session_uuid) & (logs_df.scene_id == random_scene_index)
         
         # Get the event time and elapsed time of each person engaged
-        mask_series = scene_mask_series & self.frvrs_logs_df.action_type.isin([
+        mask_series = scene_mask_series & logs_df.action_type.isin([
             'PATIENT_ENGAGED', 'INJURY_TREATED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'
         ])
         columns_list = ['patient_id', 'action_tick']
-        patient_engagements_df = self.frvrs_logs_df[mask_series][columns_list].sort_values(['action_tick'])
+        patient_engagements_df = logs_df[mask_series][columns_list].sort_values(['action_tick'])
         if verbose: display(patient_engagements_df)
         if patient_engagements_df.shape[0]:
             
@@ -2946,11 +2920,11 @@ class FRVRSUtilities(object):
                 hlinelabels_list.append(random_patient_id)
                 
                 # Create the filter for the first scene
-                mask_series = scene_mask_series & (self.frvrs_logs_df.patient_id == random_patient_id)
+                mask_series = scene_mask_series & (logs_df.patient_id == random_patient_id)
                 action_tick = patient_df.action_tick.max()
-                mask_series &= (self.frvrs_logs_df.action_tick <= action_tick)
+                mask_series &= (logs_df.action_tick <= action_tick)
                 
-                df1 = self.frvrs_logs_df[mask_series].sort_values(['action_tick'])
+                df1 = logs_df[mask_series].sort_values(['action_tick'])
                 if verbose: display(df1)
                 if df1.shape[0]:
                     
@@ -3080,13 +3054,13 @@ class FRVRSUtilities(object):
     
     
     def show_gaze_timeline(
-        self, frvrs_logs_df=None, random_session_uuid=None, random_scene_index=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False
+        self, logs_df, random_session_uuid=None, random_scene_index=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False
     ):
         """
         Display a timeline of player gaze events for a random session and scene.
         
         Parameters:
-            frvrs_logs_df (pd.DataFrame): DataFrame containing logs data.
+            logs_df (pandas.DataFrame): DataFrame containing logs data.
             random_session_uuid (str): UUID of the random session. If None, a random session will be selected.
             random_scene_index (int): Index of the random scene. If None, a random scene will be selected within the session.
             consecutive_cutoff (int): Time cutoff for consecutive rows.
@@ -3097,29 +3071,26 @@ class FRVRSUtilities(object):
             tuple: Random session UUID and random scene index.
         """
         
-        # Load frvrs_logs_df if not provided
-        if frvrs_logs_df is None: frvrs_logs_df = nu.load_object('frvrs_logs_df')
-        
         # Get a random session if not provided
         if random_session_uuid is None:
-            mask_series = (frvrs_logs_df.action_type.isin(['PLAYER_GAZE']))
-            mask_series &= ~frvrs_logs_df.player_gaze_patient_id.isnull()
-            random_session_uuid = random.choice(frvrs_logs_df[mask_series].session_uuid.unique())
+            mask_series = (logs_df.action_type.isin(['PLAYER_GAZE']))
+            mask_series &= ~logs_df.player_gaze_patient_id.isnull()
+            random_session_uuid = random.choice(logs_df[mask_series].session_uuid.unique())
         
         # Get a random scene within the session if not provided
         if random_scene_index is None:
-            mask_series = (frvrs_logs_df.session_uuid == random_session_uuid)
-            mask_series &= (frvrs_logs_df.action_type.isin(['PLAYER_GAZE']))
-            mask_series &= ~frvrs_logs_df.player_gaze_patient_id.isnull()
-            random_scene_index = random.choice(frvrs_logs_df[mask_series].scene_id.unique())
+            mask_series = (logs_df.session_uuid == random_session_uuid)
+            mask_series &= (logs_df.action_type.isin(['PLAYER_GAZE']))
+            mask_series &= ~logs_df.player_gaze_patient_id.isnull()
+            random_scene_index = random.choice(logs_df[mask_series].scene_id.unique())
         
         # Get the scene mask
-        scene_mask_series = (frvrs_logs_df.session_uuid == random_session_uuid) & (frvrs_logs_df.scene_id == random_scene_index)
+        scene_mask_series = (logs_df.session_uuid == random_session_uuid) & (logs_df.scene_id == random_scene_index)
         
         # Get the elapsed time of the player gaze
-        mask_series = scene_mask_series & (frvrs_logs_df.action_type.isin(['PLAYER_GAZE', 'SESSION_END', 'SESSION_START']))
+        mask_series = scene_mask_series & (logs_df.action_type.isin(['PLAYER_GAZE', 'SESSION_END', 'SESSION_START']))
         columns_list = ['action_tick', 'patient_id']
-        patient_gazes_df = frvrs_logs_df[mask_series][columns_list].sort_values(['action_tick'])
+        patient_gazes_df = logs_df[mask_series][columns_list].sort_values(['action_tick'])
         patient_gazes_df['time_diff'] = patient_gazes_df.action_tick.diff()
         for patient_id in patient_gazes_df.patient_id.unique():
             patient_gazes_df = self.replace_consecutive_rows(
@@ -3166,7 +3137,7 @@ class FRVRSUtilities(object):
         
         # Annotate the patients who have been gazed at along their timeline
         if patient_color_dict is None:
-            scene_df = frvrs_logs_df[scene_mask_series]
+            scene_df = logs_df[scene_mask_series]
             patient_color_dict = {}
             mask_series = ~scene_df.patient_record_salt.isnull()
             for patient_id, patient_df in scene_df[mask_series].groupby('patient_id'):
@@ -3204,8 +3175,8 @@ class FRVRSUtilities(object):
     def plot_sequence_by_scene_tuple(
         scene_tuple,
         sequence,
+        logs_df,
         summary_statistics_df=None,
-        frvrs_logs_df=None,
         actions_mask_series=None,
         highlighted_ngrams=[],
         color_dict={'SESSION_START': 'green', 'SESSION_END': 'red'},
@@ -3221,10 +3192,10 @@ class FRVRSUtilities(object):
         Parameters:
             scene_tuple (tuple): A tuple containing the session UUID and scene ID of the specific scene.
             sequence (list): The sequence of actions to be plotted (e.g., a list of action types).
+            logs_df (pandas.DataFrame): DataFrame containing detailed logs of all VR simulation
+                interactions.
             summary_statistics_df (pandas.DataFrame, optional): DataFrame containing summary statistics
                 for all scenes. If not provided, tries to load from a pickle file.
-            frvrs_logs_df (pandas.DataFrame, optional): DataFrame containing detailed logs of all VR simulation
-                interactions. If not provided, tries to load from a pickle file.
             actions_mask_series (pandas.Series, optional): A mask defining which actions to include in the plot.
                 If not provided, all actions are used.
             highlighted_ngrams (list, optional): A list of n-grams to highlight in the plot.
@@ -3236,7 +3207,7 @@ class FRVRSUtilities(object):
             matplotlib.figure.Figure: The figure containing the plot.
         
         Raises:
-            Exception: If either `summary_statistics_df` or `frvrs_logs_df` are missing and cannot be loaded from pickle files.
+            Exception: If `summary_statistics_df` is missing and cannot be loaded from pickle files.
         """
         
         # Extract session_uuid and scene_id from the scene_tuple
@@ -3249,15 +3220,12 @@ class FRVRSUtilities(object):
             else: raise Exception('You need to provide summary_statistics_df')
         
         # 2. Get relevant actions from VR logs
-        if verbose: display(frvrs_logs_df)
-        if (frvrs_logs_df is None):
-            if nu.pickle_exists('frvrs_logs_df'): frvrs_logs_df = nu.load_object('frvrs_logs_df')
-            else: raise Exception('You need to provide frvrs_logs_df')
+        if verbose: display(logs_df)
         
         # Build a data frame of action types
-        if (actions_mask_series is None): actions_mask_series = [True] * frvrs_logs_df.shape[0]
-        mask_series = (frvrs_logs_df.session_uuid == session_uuid) & (frvrs_logs_df.scene_id == scene_id) & actions_mask_series
-        scene_df = frvrs_logs_df[mask_series].sort_values('action_tick')
+        if (actions_mask_series is None): actions_mask_series = [True] * logs_df.shape[0]
+        mask_series = (logs_df.session_uuid == session_uuid) & (logs_df.scene_id == scene_id) & actions_mask_series
+        scene_df = logs_df[mask_series].sort_values('action_tick')
         
         # Build a list of the first of each action type
         actions_list = []
