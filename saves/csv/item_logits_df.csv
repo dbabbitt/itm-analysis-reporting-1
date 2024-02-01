@@ -211,22 +211,22 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 0940a9be-3ff5-4739-b04b-a7605c1ffa2f,0,Mike_9 Root,L Calf Laceration,0,1,0,0,0,1,1
 0940a9be-3ff5-4739-b04b-a7605c1ffa2f,0,Mike_9 Root,L Side Puncture,0,1,0,0,1,1,1
 0940a9be-3ff5-4739-b04b-a7605c1ffa2f,0,Mike_9 Root,L Thigh Puncture,0,1,0,0,1,1,1
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gary_4 Root,R Palm Laceration,0,1,1,0,0,1,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gary_5 Root,Asthmatic,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gloria_2 Root,L Shin Amputation,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gloria_8 Root,Ear Bleed,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Helga_0 Root,L Stomach Puncture,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Helga_0 Root,L Thigh Puncture,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_1 Root,R Bicep Puncture,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_1 Root,R Thigh Laceration,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_7 Root,Face Shrapnel,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_7 Root,L Wrist Amputation,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_7 Root,R Bicep Puncture,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_3 Root,R Wrist Amputation,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_6 Root,R Chest Collapse,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_9 Root,L Calf Laceration,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_9 Root,L Side Puncture,0,1,1,0,0,0,0
-0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_9 Root,L Thigh Puncture,0,1,1,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gary_4 Root,R Palm Laceration,0,1,0,0,0,1,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gary_5 Root,Asthmatic,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gloria_2 Root,L Shin Amputation,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Gloria_8 Root,Ear Bleed,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Helga_0 Root,L Stomach Puncture,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Helga_0 Root,L Thigh Puncture,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_1 Root,R Bicep Puncture,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_1 Root,R Thigh Laceration,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_7 Root,Face Shrapnel,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_7 Root,L Wrist Amputation,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Lily_7 Root,R Bicep Puncture,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_3 Root,R Wrist Amputation,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_6 Root,R Chest Collapse,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_9 Root,L Calf Laceration,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_9 Root,L Side Puncture,0,1,0,0,0,0,0
+0950437e-94b0-45bf-8d11-dd446fd0e4a2,0,Mike_9 Root,L Thigh Puncture,0,1,0,0,0,0,0
 09f30ce2-1507-4ef1-84f1-3dfb3e6d9b86,0,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
 09f30ce2-1507-4ef1-84f1-3dfb3e6d9b86,0,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
 09f30ce2-1507-4ef1-84f1-3dfb3e6d9b86,0,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
@@ -561,24 +561,24 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 1563e213-aaa4-4b79-84a1-8f917ea9f7a9,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
 1563e213-aaa4-4b79-84a1-8f917ea9f7a9,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
 1563e213-aaa4-4b79-84a1-8f917ea9f7a9,0,Mike_7 Root,R Calf Laceration,0,1,0,1,0,1,1
-158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,Face Shrapnel,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Chest Collapse,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Stomach Puncture,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Thigh Laceration,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Wrist Amputation,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,R Shin Amputation,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Gary_1 Root,Face Shrapnel,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Gary_3 Root,R Chest Collapse,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Gary_9 Root,Ear Bleed,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Gloria_6 Root,R Calf Shrapnel,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Gloria_8 Root,L Forearm Laceration,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Helga_10 Root,Forehead Scrape,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Lily_2 Root,R Shin Amputation,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Lily_4 Root,L Side Puncture,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Mike_5 Root,R Side Puncture,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Mike_5 Root,R Thigh Laceration,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Mike_7 Root,L Thigh Puncture,0,0,1,0,0,0,0
-158e6365-673b-4030-8b36-6704be5996a2,0,Mike_7 Root,R Calf Laceration,0,0,1,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,Face Shrapnel,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Chest Collapse,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Stomach Puncture,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Thigh Laceration,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,L Wrist Amputation,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Bob_0 Root,R Shin Amputation,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Gary_1 Root,Face Shrapnel,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Gary_3 Root,R Chest Collapse,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Gary_9 Root,Ear Bleed,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Gloria_6 Root,R Calf Shrapnel,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Gloria_8 Root,L Forearm Laceration,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Helga_10 Root,Forehead Scrape,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Lily_2 Root,R Shin Amputation,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Lily_4 Root,L Side Puncture,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Mike_5 Root,R Side Puncture,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Mike_5 Root,R Thigh Laceration,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Mike_7 Root,L Thigh Puncture,0,0,0,0,0,0,0
+158e6365-673b-4030-8b36-6704be5996a2,0,Mike_7 Root,R Calf Laceration,0,0,0,0,0,0,0
 16359508-f91b-4f85-baeb-dade7d574a61,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 16359508-f91b-4f85-baeb-dade7d574a61,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 16359508-f91b-4f85-baeb-dade7d574a61,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -863,24 +863,24 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 22e2c9a3-b93f-4f7f-896a-ca188c78505b,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,0,0
 22e2c9a3-b93f-4f7f-896a-ca188c78505b,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,0
 22e2c9a3-b93f-4f7f-896a-ca188c78505b,0,Mike_7 Root,R Calf Laceration,0,1,0,1,1,1,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,Face Shrapnel,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Chest Collapse,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Stomach Puncture,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Thigh Laceration,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Wrist Amputation,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,R Shin Amputation,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gary_1 Root,Face Shrapnel,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gary_3 Root,R Chest Collapse,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gary_9 Root,Ear Bleed,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gloria_6 Root,R Calf Shrapnel,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gloria_8 Root,L Forearm Laceration,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Helga_10 Root,Forehead Scrape,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Lily_2 Root,R Shin Amputation,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Lily_4 Root,L Side Puncture,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_5 Root,R Side Puncture,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_5 Root,R Thigh Laceration,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_7 Root,L Thigh Puncture,0,1,1,0,0,0,0
-2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_7 Root,R Calf Laceration,0,1,1,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,Face Shrapnel,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Chest Collapse,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Stomach Puncture,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Thigh Laceration,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,L Wrist Amputation,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Bob_0 Root,R Shin Amputation,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gary_1 Root,Face Shrapnel,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gary_3 Root,R Chest Collapse,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gary_9 Root,Ear Bleed,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gloria_6 Root,R Calf Shrapnel,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Gloria_8 Root,L Forearm Laceration,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Helga_10 Root,Forehead Scrape,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Lily_2 Root,R Shin Amputation,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Lily_4 Root,L Side Puncture,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_5 Root,R Side Puncture,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_5 Root,R Thigh Laceration,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_7 Root,L Thigh Puncture,0,1,0,0,0,0,0
+2310f107-d9d2-418e-a2d7-dd7a17924544,0,Mike_7 Root,R Calf Laceration,0,1,0,0,0,0,0
 24205a11-9e21-44b7-a565-985454c90776,0,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 24205a11-9e21-44b7-a565-985454c90776,0,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 24205a11-9e21-44b7-a565-985454c90776,0,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -1643,22 +1643,22 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 43313faf-6031-4433-be70-d5d828f55cff,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
 43313faf-6031-4433-be70-d5d828f55cff,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,0,0,0
 43313faf-6031-4433-be70-d5d828f55cff,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Bob_4 Root,R Palm Laceration,0,1,1,0,0,1,1
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Gary_5 Root,Asthmatic,0,1,1,0,0,1,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Gloria_2 Root,L Shin Amputation,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Gloria_8 Root,Ear Bleed,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Helga_0 Root,L Stomach Puncture,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Helga_0 Root,L Thigh Puncture,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_1 Root,R Bicep Puncture,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_1 Root,R Thigh Laceration,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_7 Root,Face Shrapnel,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_7 Root,L Wrist Amputation,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_7 Root,R Bicep Puncture,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_3 Root,R Wrist Amputation,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_6 Root,R Chest Collapse,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_9 Root,L Calf Laceration,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_9 Root,L Side Puncture,0,1,1,0,0,0,0
-43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_9 Root,L Thigh Puncture,0,1,1,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Bob_4 Root,R Palm Laceration,0,1,0,0,0,1,1
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Gary_5 Root,Asthmatic,0,1,0,0,0,1,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Gloria_2 Root,L Shin Amputation,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Gloria_8 Root,Ear Bleed,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Helga_0 Root,L Stomach Puncture,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Helga_0 Root,L Thigh Puncture,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_1 Root,R Bicep Puncture,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_1 Root,R Thigh Laceration,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_7 Root,Face Shrapnel,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_7 Root,L Wrist Amputation,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Lily_7 Root,R Bicep Puncture,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_3 Root,R Wrist Amputation,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_6 Root,R Chest Collapse,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_9 Root,L Calf Laceration,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_9 Root,L Side Puncture,0,1,0,0,0,0,0
+43ce12a6-e8c6-446c-bc3a-1b8820b9490f,0,Mike_9 Root,L Thigh Puncture,0,1,0,0,0,0,0
 445ceb23-1514-4490-9aa6-f2fc55b5d28e,0,Bob_0 Root,Face Shrapnel,1,1,1,1,0,0,1
 445ceb23-1514-4490-9aa6-f2fc55b5d28e,0,Bob_0 Root,L Chest Collapse,1,1,1,1,0,0,1
 445ceb23-1514-4490-9aa6-f2fc55b5d28e,0,Bob_0 Root,L Stomach Puncture,1,1,1,1,0,0,1
@@ -2809,24 +2809,24 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 75865699-63f9-46de-9adc-6936ad7c7d46,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,1,1
 75865699-63f9-46de-9adc-6936ad7c7d46,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,1,1
 75865699-63f9-46de-9adc-6936ad7c7d46,1,Mike_7 Root,R Calf Laceration,0,1,1,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_9 Root,Ear Bleed,0,1,0,1,0,0,0
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,0
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Lily_2 Root,R Shin Amputation,0,1,0,1,1,1,0
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Lily_4 Root,L Side Puncture,0,1,0,1,1,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_5 Root,R Side Puncture,0,1,0,1,1,0,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,0,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
-75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_7 Root,R Calf Laceration,0,1,0,1,1,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Bob_9 Root,Ear Bleed,1,1,0,1,0,0,0
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Gloria_8 Root,L Forearm Laceration,1,1,0,1,0,0,0
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,0
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Lily_2 Root,R Shin Amputation,1,1,0,1,1,1,0
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Lily_4 Root,L Side Puncture,1,1,0,1,1,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_5 Root,R Side Puncture,1,1,0,1,1,0,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_5 Root,R Thigh Laceration,1,1,0,1,1,0,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_7 Root,L Thigh Puncture,1,1,0,1,1,1,1
+75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,0,Mike_7 Root,R Calf Laceration,1,1,0,1,1,1,1
 77c15654-dbf5-46da-8e84-fe418cdf1c59,0,Bob_0 Root,Face Shrapnel,0,1,1,1,0,0,1
 77c15654-dbf5-46da-8e84-fe418cdf1c59,0,Bob_0 Root,L Chest Collapse,0,1,1,1,0,0,1
 77c15654-dbf5-46da-8e84-fe418cdf1c59,0,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,0,1
@@ -2881,42 +2881,42 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 79426650-c950-40ee-816e-decddddd22e9,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
 79426650-c950-40ee-816e-decddddd22e9,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
 79426650-c950-40ee-816e-decddddd22e9,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gary_3 Root,R Chest Collapse,0,1,0,1,1,0,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Lily_2 Root,R Shin Amputation,0,1,0,1,1,1,1
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Lily_4 Root,L Side Puncture,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,0,0,0
-79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,0
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,R Shin Amputation,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gary_1 Root,Face Shrapnel,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gary_3 Root,R Chest Collapse,0,1,1,1,1,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gary_9 Root,Ear Bleed,0,1,1,1,0,1,0
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gloria_8 Root,L Forearm Laceration,0,1,1,1,1,0,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Helga_10 Root,Forehead Scrape,0,1,1,1,0,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Lily_2 Root,R Shin Amputation,0,1,1,1,1,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Lily_4 Root,L Side Puncture,0,1,1,1,1,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_5 Root,R Side Puncture,0,1,1,1,0,0,0
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,0,0,0
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,1,1
-7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_7 Root,R Calf Laceration,0,1,1,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gary_3 Root,R Chest Collapse,1,1,0,1,1,0,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gary_9 Root,Ear Bleed,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Gloria_8 Root,L Forearm Laceration,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Lily_2 Root,R Shin Amputation,1,1,0,1,1,1,1
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Lily_4 Root,L Side Puncture,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_5 Root,R Side Puncture,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_5 Root,R Thigh Laceration,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_7 Root,L Thigh Puncture,1,1,0,1,0,0,0
+79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,1,Mike_7 Root,R Calf Laceration,1,1,0,1,0,0,0
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,1,0
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,1,0,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Lily_2 Root,R Shin Amputation,0,1,0,1,1,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Lily_4 Root,L Side Puncture,0,1,0,1,1,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
+7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,1,1
 7b239b94-a052-4a1f-929c-123a94426327,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 7b239b94-a052-4a1f-929c-123a94426327,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 7b239b94-a052-4a1f-929c-123a94426327,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -2935,24 +2935,24 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 7b239b94-a052-4a1f-929c-123a94426327,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
 7b239b94-a052-4a1f-929c-123a94426327,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,0,0
 7b239b94-a052-4a1f-929c-123a94426327,1,Mike_7 Root,R Calf Laceration,0,1,0,1,1,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,Face Shrapnel,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Chest Collapse,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Stomach Puncture,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Thigh Laceration,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Wrist Amputation,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,R Shin Amputation,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Gary_1 Root,Face Shrapnel,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Gary_3 Root,R Chest Collapse,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Gary_9 Root,Ear Bleed,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Gloria_6 Root,R Calf Shrapnel,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Gloria_8 Root,L Forearm Laceration,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Helga_10 Root,Forehead Scrape,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Lily_2 Root,R Shin Amputation,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Lily_4 Root,L Side Puncture,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_5 Root,R Side Puncture,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_5 Root,R Thigh Laceration,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_7 Root,L Thigh Puncture,0,0,1,0,0,0,0
-7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_7 Root,R Calf Laceration,0,0,1,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,Face Shrapnel,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Chest Collapse,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Stomach Puncture,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Thigh Laceration,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,L Wrist Amputation,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Bob_0 Root,R Shin Amputation,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Gary_1 Root,Face Shrapnel,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Gary_3 Root,R Chest Collapse,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Gary_9 Root,Ear Bleed,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Gloria_6 Root,R Calf Shrapnel,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Gloria_8 Root,L Forearm Laceration,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Helga_10 Root,Forehead Scrape,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Lily_2 Root,R Shin Amputation,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Lily_4 Root,L Side Puncture,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_5 Root,R Side Puncture,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_5 Root,R Thigh Laceration,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_7 Root,L Thigh Puncture,0,0,0,0,0,0,0
+7c2549d4-97a4-4389-bd03-029396714f59,0,Mike_7 Root,R Calf Laceration,0,0,0,0,0,0,0
 7dacebd5-f16e-4faa-8a00-f738b7d04e3b,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 7dacebd5-f16e-4faa-8a00-f738b7d04e3b,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 7dacebd5-f16e-4faa-8a00-f738b7d04e3b,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -3007,24 +3007,24 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 7e75d331-2643-4271-a67e-af24bff68001,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
 7e75d331-2643-4271-a67e-af24bff68001,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
 7e75d331-2643-4271-a67e-af24bff68001,0,Mike_7 Root,R Calf Laceration,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,0,0
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Lily_2 Root,R Shin Amputation,0,1,0,1,1,0,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Lily_4 Root,L Side Puncture,0,1,0,1,1,0,0
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_5 Root,R Side Puncture,0,1,0,1,1,0,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,0,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,0,1
-7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gary_9 Root,Ear Bleed,1,1,0,1,0,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,0,0
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Gloria_8 Root,L Forearm Laceration,1,1,0,1,0,0,0
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Lily_2 Root,R Shin Amputation,1,1,0,1,1,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Lily_4 Root,L Side Puncture,1,1,0,1,1,0,0
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_5 Root,R Side Puncture,1,1,0,1,1,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_5 Root,R Thigh Laceration,1,1,0,1,1,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_7 Root,L Thigh Puncture,1,1,0,1,1,0,1
+7f15ef99-9299-4306-a4c0-8a7fcd97b76b,1,Mike_7 Root,R Calf Laceration,1,1,0,1,0,0,1
 7f639dc1-fce0-4aa9-b76a-c355894d05ed,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 7f639dc1-fce0-4aa9-b76a-c355894d05ed,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 7f639dc1-fce0-4aa9-b76a-c355894d05ed,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -3307,24 +3307,24 @@ session_uuid,scene_id,patient_id,injury_id,is_stills_visited_first,is_walk_comma
 888de8e3-f293-4564-bc6a-9c1214f5064b,0,Mike_9 Root,L Calf Laceration,0,1,1,0,0,1,1
 888de8e3-f293-4564-bc6a-9c1214f5064b,0,Mike_9 Root,L Side Puncture,0,1,1,0,1,1,1
 888de8e3-f293-4564-bc6a-9c1214f5064b,0,Mike_9 Root,L Thigh Puncture,0,1,1,0,1,1,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,Face Shrapnel,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Chest Collapse,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Stomach Puncture,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Thigh Laceration,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Wrist Amputation,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,R Shin Amputation,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gary_1 Root,Face Shrapnel,1,1,1,1,0,1,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gary_3 Root,R Chest Collapse,1,1,1,1,1,1,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gary_9 Root,Ear Bleed,1,1,1,1,0,0,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gloria_6 Root,R Calf Shrapnel,1,1,1,1,1,0,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gloria_8 Root,L Forearm Laceration,1,1,1,1,0,0,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Helga_10 Root,Forehead Scrape,1,1,1,1,0,0,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Lily_2 Root,R Shin Amputation,1,1,1,1,1,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Lily_4 Root,L Side Puncture,1,1,1,1,1,0,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_5 Root,R Side Puncture,1,1,1,1,0,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_5 Root,R Thigh Laceration,1,1,1,1,1,0,0
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_7 Root,L Thigh Puncture,1,1,1,1,1,0,1
-89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_7 Root,R Calf Laceration,1,1,1,1,0,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,1,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Lily_2 Root,R Shin Amputation,0,1,0,1,1,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Lily_4 Root,L Side Puncture,0,1,0,1,1,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,0,0
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,0,1
+89c48e7e-780f-4f1b-a846-fc0f4fd9841c,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,1
 89ec8f32-0018-48e7-8cad-c86bd73257f2,1,Bob_0 Root,Face Shrapnel,1,1,1,1,0,1,0
 89ec8f32-0018-48e7-8cad-c86bd73257f2,1,Bob_0 Root,L Chest Collapse,1,1,1,1,0,1,0
 89ec8f32-0018-48e7-8cad-c86bd73257f2,1,Bob_0 Root,L Stomach Puncture,1,1,1,1,0,1,0
@@ -3947,24 +3947,24 @@ a9804531-1ed7-4b97-b3c1-96784faf5228,0,Mike_6 Root,R Chest Collapse,0,1,0,0,1,1,
 a9804531-1ed7-4b97-b3c1-96784faf5228,0,Mike_9 Root,L Calf Laceration,0,1,0,0,0,1,1
 a9804531-1ed7-4b97-b3c1-96784faf5228,0,Mike_9 Root,L Side Puncture,0,1,0,0,0,1,1
 a9804531-1ed7-4b97-b3c1-96784faf5228,0,Mike_9 Root,L Thigh Puncture,0,1,0,0,1,1,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,R Shin Amputation,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gary_1 Root,Face Shrapnel,0,1,1,1,0,0,0
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gary_3 Root,R Chest Collapse,0,1,1,1,0,0,0
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gary_9 Root,Ear Bleed,0,1,1,1,0,0,0
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gloria_8 Root,L Forearm Laceration,0,1,1,1,1,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Helga_10 Root,Forehead Scrape,0,1,1,1,0,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Lily_2 Root,R Shin Amputation,0,1,1,1,1,1,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Lily_4 Root,L Side Puncture,0,1,1,1,1,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,0,1
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,0,0
-a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_7 Root,R Calf Laceration,0,1,1,1,1,0,0
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,0,0
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gary_3 Root,R Chest Collapse,0,1,0,1,0,0,0
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,0
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,1,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Lily_2 Root,R Shin Amputation,0,1,0,1,1,1,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Lily_4 Root,L Side Puncture,0,1,0,1,1,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_5 Root,R Side Puncture,0,1,0,1,1,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,0,1
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,0,0
+a98b7327-dfd7-43c2-86e7-b5080ec86806,1,Mike_7 Root,R Calf Laceration,0,1,0,1,1,0,0
 ab1f8cd1-8d65-45da-b087-89b25ff46c66,0,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 ab1f8cd1-8d65-45da-b087-89b25ff46c66,0,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 ab1f8cd1-8d65-45da-b087-89b25ff46c66,0,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -4637,24 +4637,24 @@ cc6ad812-608f-4fc3-bae6-f837aaa056c0,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,1,0
 cc6ad812-608f-4fc3-bae6-f837aaa056c0,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,1,0
 cc6ad812-608f-4fc3-bae6-f837aaa056c0,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,1,0
 cc6ad812-608f-4fc3-bae6-f837aaa056c0,1,Mike_7 Root,R Calf Laceration,0,1,1,1,0,1,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,Face Shrapnel,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Chest Collapse,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,R Shin Amputation,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gary_1 Root,Face Shrapnel,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gary_3 Root,R Chest Collapse,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gary_9 Root,Ear Bleed,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gloria_8 Root,L Forearm Laceration,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Helga_10 Root,Forehead Scrape,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Lily_2 Root,R Shin Amputation,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Lily_4 Root,L Side Puncture,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_5 Root,R Side Puncture,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_5 Root,R Thigh Laceration,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_7 Root,L Thigh Puncture,0,1,1,1,0,0,0
-ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_7 Root,R Calf Laceration,0,1,1,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,Face Shrapnel,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Chest Collapse,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Bob_0 Root,R Shin Amputation,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gary_1 Root,Face Shrapnel,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gary_3 Root,R Chest Collapse,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Lily_2 Root,R Shin Amputation,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Lily_4 Root,L Side Puncture,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,0,0,0
+ccfb5502-64b5-4d1c-9ca3-63f522330041,0,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,0
 ccfca520-5965-40d9-9a19-f0a19d208fdc,0,Bob_0 Root,Face Shrapnel,0,1,1,0,0,0,1
 ccfca520-5965-40d9-9a19-f0a19d208fdc,0,Bob_0 Root,L Chest Collapse,0,1,1,0,0,0,1
 ccfca520-5965-40d9-9a19-f0a19d208fdc,0,Bob_0 Root,L Stomach Puncture,0,1,1,0,0,0,1
@@ -5203,24 +5203,24 @@ dcd4a197-ba73-4d2f-a2aa-8ff3206219b9,1,Mike_5 Root,R Side Puncture,0,1,0,1,1,1,1
 dcd4a197-ba73-4d2f-a2aa-8ff3206219b9,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
 dcd4a197-ba73-4d2f-a2aa-8ff3206219b9,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,0
 dcd4a197-ba73-4d2f-a2aa-8ff3206219b9,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,1,0
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,R Shin Amputation,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gary_1 Root,Face Shrapnel,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gary_3 Root,R Chest Collapse,0,1,1,1,1,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gary_9 Root,Ear Bleed,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,0,0
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gloria_8 Root,L Forearm Laceration,0,1,1,1,1,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Helga_10 Root,Forehead Scrape,0,1,1,1,0,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Lily_2 Root,R Shin Amputation,0,1,1,1,1,1,0
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Lily_4 Root,L Side Puncture,0,1,1,1,1,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,1,1
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,1,0
-dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_7 Root,R Calf Laceration,0,1,1,1,1,1,0
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,0,0
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,1,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Lily_2 Root,R Shin Amputation,0,1,0,1,1,1,0
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Lily_4 Root,L Side Puncture,0,1,0,1,1,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_5 Root,R Side Puncture,0,1,0,1,1,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,0
+dd46bfb4-d2df-4b1c-923f-5f3568a14f29,1,Mike_7 Root,R Calf Laceration,0,1,0,1,1,1,0
 dd601aee-8360-41f2-b89d-c37f3eb2c617,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 dd601aee-8360-41f2-b89d-c37f3eb2c617,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 dd601aee-8360-41f2-b89d-c37f3eb2c617,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -5327,24 +5327,24 @@ dfa09c43-42f4-4cb5-8f74-381744e0d320,0,Mike_5 Root,R Side Puncture,0,1,0,1,1,1,0
 dfa09c43-42f4-4cb5-8f74-381744e0d320,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,0
 dfa09c43-42f4-4cb5-8f74-381744e0d320,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,0,1
 dfa09c43-42f4-4cb5-8f74-381744e0d320,0,Mike_7 Root,R Calf Laceration,0,1,0,1,1,0,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,1,1,1
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Lily_2 Root,R Shin Amputation,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Lily_4 Root,L Side Puncture,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,0,0,0
-dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gary_9 Root,Ear Bleed,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,1,1,1
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Gloria_8 Root,L Forearm Laceration,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Lily_2 Root,R Shin Amputation,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Lily_4 Root,L Side Puncture,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_5 Root,R Side Puncture,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_5 Root,R Thigh Laceration,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_7 Root,L Thigh Puncture,1,1,0,1,0,0,0
+dfd3aa1c-7b73-43a7-80c0-80beeabcd985,1,Mike_7 Root,R Calf Laceration,1,1,0,1,0,0,0
 e072d31f-2592-4c7e-8709-3db1e111240c,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
 e072d31f-2592-4c7e-8709-3db1e111240c,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
 e072d31f-2592-4c7e-8709-3db1e111240c,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
@@ -5489,24 +5489,24 @@ e2e599c8-8e48-487f-9f95-a0a382432ca5,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,1,1
 e2e599c8-8e48-487f-9f95-a0a382432ca5,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,1,1
 e2e599c8-8e48-487f-9f95-a0a382432ca5,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,1,1
 e2e599c8-8e48-487f-9f95-a0a382432ca5,1,Mike_7 Root,R Calf Laceration,0,1,1,1,1,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,1,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,1,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,R Shin Amputation,0,1,1,1,0,1,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_9 Root,Ear Bleed,0,1,1,1,0,0,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gary_1 Root,Face Shrapnel,0,1,1,1,1,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gary_3 Root,R Chest Collapse,0,1,1,1,1,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gloria_8 Root,L Forearm Laceration,0,1,1,1,1,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Helga_10 Root,Forehead Scrape,0,1,1,1,1,0,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Lily_2 Root,R Shin Amputation,0,1,1,1,1,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Lily_4 Root,L Side Puncture,0,1,1,1,1,1,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_5 Root,R Side Puncture,0,1,1,1,0,0,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_5 Root,R Thigh Laceration,0,1,1,1,0,0,0
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,0,1
-e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_7 Root,R Calf Laceration,0,1,1,1,1,0,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Bob_9 Root,Ear Bleed,1,1,0,1,0,0,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gary_1 Root,Face Shrapnel,1,1,0,1,1,1,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,1,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Gloria_8 Root,L Forearm Laceration,1,1,0,1,1,1,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Helga_10 Root,Forehead Scrape,1,1,0,1,1,0,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Lily_2 Root,R Shin Amputation,1,1,0,1,1,1,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Lily_4 Root,L Side Puncture,1,1,0,1,1,1,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_5 Root,R Side Puncture,1,1,0,1,0,0,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_5 Root,R Thigh Laceration,1,1,0,1,0,0,0
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_7 Root,L Thigh Puncture,1,1,0,1,1,0,1
+e353eee2-a630-40cd-b931-a98b12edd9b6,0,Mike_7 Root,R Calf Laceration,1,1,0,1,1,0,1
 e3c2b4c6-d8b7-4b64-8cd0-7ca0e622f9b5,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
 e3c2b4c6-d8b7-4b64-8cd0-7ca0e622f9b5,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
 e3c2b4c6-d8b7-4b64-8cd0-7ca0e622f9b5,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
@@ -5561,24 +5561,24 @@ e662a811-40fd-4bf2-b9df-d2d221d07b4a,1,Mike_5 Root,R Side Puncture,0,1,0,1,1,0,1
 e662a811-40fd-4bf2-b9df-d2d221d07b4a,1,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,0,1
 e662a811-40fd-4bf2-b9df-d2d221d07b4a,1,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
 e662a811-40fd-4bf2-b9df-d2d221d07b4a,1,Mike_7 Root,R Calf Laceration,0,1,0,1,1,1,1
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,Face Shrapnel,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Chest Collapse,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Stomach Puncture,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Thigh Laceration,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Wrist Amputation,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,R Shin Amputation,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Gary_1 Root,Face Shrapnel,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Gary_3 Root,R Chest Collapse,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Gary_9 Root,Ear Bleed,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Gloria_6 Root,R Calf Shrapnel,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Gloria_8 Root,L Forearm Laceration,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Helga_10 Root,Forehead Scrape,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Lily_2 Root,R Shin Amputation,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Lily_4 Root,L Side Puncture,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_5 Root,R Side Puncture,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_5 Root,R Thigh Laceration,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_7 Root,L Thigh Puncture,0,0,1,0,0,0,0
-e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_7 Root,R Calf Laceration,0,0,1,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,Face Shrapnel,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Chest Collapse,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Stomach Puncture,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Thigh Laceration,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,L Wrist Amputation,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Bob_0 Root,R Shin Amputation,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Gary_1 Root,Face Shrapnel,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Gary_3 Root,R Chest Collapse,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Gary_9 Root,Ear Bleed,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Gloria_6 Root,R Calf Shrapnel,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Gloria_8 Root,L Forearm Laceration,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Helga_10 Root,Forehead Scrape,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Lily_2 Root,R Shin Amputation,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Lily_4 Root,L Side Puncture,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_5 Root,R Side Puncture,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_5 Root,R Thigh Laceration,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_7 Root,L Thigh Puncture,0,0,0,0,0,0,0
+e78faf41-7bbd-410b-8750-e4e72b951216,0,Mike_7 Root,R Calf Laceration,0,0,0,0,0,0,0
 e7ea73c9-dc1c-47cc-bb13-996b4069c73e,0,Gary_5 Root,Asthmatic,0,1,0,0,0,1,1
 e7ea73c9-dc1c-47cc-bb13-996b4069c73e,0,Gloria_2 Root,L Shin Amputation,0,1,0,0,1,1,1
 e7ea73c9-dc1c-47cc-bb13-996b4069c73e,0,Gloria_8 Root,Ear Bleed,0,1,0,0,0,0,1
@@ -5739,24 +5739,24 @@ ed079161-e1ea-4682-9abb-d0b1736e3ee5,0,Mike_5 Root,R Side Puncture,0,1,1,1,1,0,1
 ed079161-e1ea-4682-9abb-d0b1736e3ee5,0,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,0,1
 ed079161-e1ea-4682-9abb-d0b1736e3ee5,0,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,0,1
 ed079161-e1ea-4682-9abb-d0b1736e3ee5,0,Mike_7 Root,R Calf Laceration,0,1,1,1,1,0,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,R Shin Amputation,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gary_1 Root,Face Shrapnel,0,1,1,1,0,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gary_3 Root,R Chest Collapse,0,1,1,1,1,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gary_9 Root,Ear Bleed,0,1,1,1,0,0,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,0,0
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gloria_8 Root,L Forearm Laceration,0,1,1,1,1,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Helga_10 Root,Forehead Scrape,0,1,1,1,0,0,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Lily_2 Root,R Shin Amputation,0,1,1,1,1,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Lily_4 Root,L Side Puncture,0,1,1,1,1,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,1,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,0,1
-ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_7 Root,R Calf Laceration,0,1,1,1,1,0,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gary_9 Root,Ear Bleed,1,1,0,1,0,0,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,0,0
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Gloria_8 Root,L Forearm Laceration,1,1,0,1,1,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Lily_2 Root,R Shin Amputation,1,1,0,1,1,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Lily_4 Root,L Side Puncture,1,1,0,1,1,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_5 Root,R Side Puncture,1,1,0,1,1,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_5 Root,R Thigh Laceration,1,1,0,1,1,1,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_7 Root,L Thigh Puncture,1,1,0,1,1,0,1
+ee42b183-00b2-4bb9-89b9-0b38b73e69eb,1,Mike_7 Root,R Calf Laceration,1,1,0,1,1,0,1
 ee694b2c-dad2-4b9a-acc9-4e025e1b299b,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 ee694b2c-dad2-4b9a-acc9-4e025e1b299b,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 ee694b2c-dad2-4b9a-acc9-4e025e1b299b,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -6081,24 +6081,24 @@ f90a6408-2a18-49b4-8a6b-edee48e7e9ed,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,1,1
 f90a6408-2a18-49b4-8a6b-edee48e7e9ed,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,1,1
 f90a6408-2a18-49b4-8a6b-edee48e7e9ed,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,0,1
 f90a6408-2a18-49b4-8a6b-edee48e7e9ed,1,Mike_7 Root,R Calf Laceration,0,1,1,1,0,0,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gary_3 Root,R Chest Collapse,0,1,0,1,1,1,1
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Lily_2 Root,R Shin Amputation,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Lily_4 Root,L Side Puncture,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,0,0,0
-f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_7 Root,R Calf Laceration,0,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gary_9 Root,Ear Bleed,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Gloria_8 Root,L Forearm Laceration,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Lily_2 Root,R Shin Amputation,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Lily_4 Root,L Side Puncture,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_5 Root,R Side Puncture,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_5 Root,R Thigh Laceration,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_7 Root,L Thigh Puncture,1,1,0,1,0,0,0
+f92400e2-63f5-4bb8-95b3-dcf065e17414,0,Mike_7 Root,R Calf Laceration,1,1,0,1,0,0,0
 f9b3d74c-634d-40fc-9183-4c4bad4e7548,0,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
 f9b3d74c-634d-40fc-9183-4c4bad4e7548,0,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
 f9b3d74c-634d-40fc-9183-4c4bad4e7548,0,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
@@ -6133,24 +6133,24 @@ fa155795-d519-45a5-89a4-0ee8c4ea756d,1,Mike_6 Root,R Chest Collapse,0,1,0,1,1,1,
 fa155795-d519-45a5-89a4-0ee8c4ea756d,1,Mike_9 Root,L Calf Laceration,0,1,0,1,0,1,0
 fa155795-d519-45a5-89a4-0ee8c4ea756d,1,Mike_9 Root,L Side Puncture,0,1,0,1,1,1,0
 fa155795-d519-45a5-89a4-0ee8c4ea756d,1,Mike_9 Root,L Thigh Puncture,0,1,0,1,1,1,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Thigh Laceration,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Wrist Amputation,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,R Shin Amputation,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gary_1 Root,Face Shrapnel,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gary_3 Root,R Chest Collapse,0,1,0,1,1,0,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gary_9 Root,Ear Bleed,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gloria_6 Root,R Calf Shrapnel,0,1,0,1,0,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gloria_8 Root,L Forearm Laceration,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Helga_10 Root,Forehead Scrape,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Lily_2 Root,R Shin Amputation,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Lily_4 Root,L Side Puncture,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_5 Root,R Side Puncture,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,0,0,0
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
-fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_7 Root,R Calf Laceration,0,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gary_3 Root,R Chest Collapse,1,1,0,1,1,0,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gary_9 Root,Ear Bleed,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Gloria_8 Root,L Forearm Laceration,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Lily_2 Root,R Shin Amputation,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Lily_4 Root,L Side Puncture,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_5 Root,R Side Puncture,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_5 Root,R Thigh Laceration,1,1,0,1,0,0,0
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_7 Root,L Thigh Puncture,1,1,0,1,1,1,1
+fc2ed173-5990-4461-9a20-ac856bbb946b,0,Mike_7 Root,R Calf Laceration,1,1,0,1,0,1,1
 fd1c7057-2c2d-4dec-9297-92ef0621c15e,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,1,1
 fd1c7057-2c2d-4dec-9297-92ef0621c15e,1,Bob_0 Root,L Chest Collapse,0,1,0,1,0,1,1
 fd1c7057-2c2d-4dec-9297-92ef0621c15e,1,Bob_0 Root,L Stomach Puncture,0,1,0,1,0,1,1
@@ -6207,24 +6207,24 @@ fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,0,Mike_5 Root,R Side Puncture,0,1,0,1,1,1,1
 fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,0,Mike_5 Root,R Thigh Laceration,0,1,0,1,1,1,1
 fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,0,Mike_7 Root,L Thigh Puncture,0,1,0,1,1,1,1
 fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,0,Mike_7 Root,R Calf Laceration,0,1,0,1,1,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,Face Shrapnel,0,1,1,1,0,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Chest Collapse,0,1,1,1,0,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Stomach Puncture,0,1,1,1,0,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Thigh Laceration,0,1,1,1,0,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Wrist Amputation,0,1,1,1,0,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,R Shin Amputation,0,1,1,1,0,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gary_1 Root,Face Shrapnel,0,1,1,1,0,1,0
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gary_3 Root,R Chest Collapse,0,1,1,1,1,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gary_9 Root,Ear Bleed,0,1,1,1,0,1,0
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gloria_6 Root,R Calf Shrapnel,0,1,1,1,0,0,0
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gloria_8 Root,L Forearm Laceration,0,1,1,1,1,1,0
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Helga_10 Root,Forehead Scrape,0,1,1,1,0,0,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Lily_2 Root,R Shin Amputation,0,1,1,1,1,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Lily_4 Root,L Side Puncture,0,1,1,1,1,0,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_5 Root,R Side Puncture,0,1,1,1,1,0,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_5 Root,R Thigh Laceration,0,1,1,1,1,0,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_7 Root,L Thigh Puncture,0,1,1,1,1,1,1
-fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_7 Root,R Calf Laceration,0,1,1,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,Face Shrapnel,1,1,0,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Chest Collapse,1,1,0,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Stomach Puncture,1,1,0,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Thigh Laceration,1,1,0,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,L Wrist Amputation,1,1,0,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Bob_0 Root,R Shin Amputation,1,1,0,1,0,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gary_1 Root,Face Shrapnel,1,1,0,1,0,1,0
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gary_3 Root,R Chest Collapse,1,1,0,1,1,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gary_9 Root,Ear Bleed,1,1,0,1,0,1,0
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gloria_6 Root,R Calf Shrapnel,1,1,0,1,0,0,0
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Gloria_8 Root,L Forearm Laceration,1,1,0,1,1,1,0
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Helga_10 Root,Forehead Scrape,1,1,0,1,0,0,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Lily_2 Root,R Shin Amputation,1,1,0,1,1,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Lily_4 Root,L Side Puncture,1,1,0,1,1,0,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_5 Root,R Side Puncture,1,1,0,1,1,0,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_5 Root,R Thigh Laceration,1,1,0,1,1,0,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_7 Root,L Thigh Puncture,1,1,0,1,1,1,1
+fe2602f0-e9e8-4913-8bf3-806852ce738a,1,Mike_7 Root,R Calf Laceration,1,1,0,1,0,1,1
 ff4c3532-5924-45b6-9a6a-d0d3274b6ef0,1,Military Mike Jungle Burned_0 Root,L Neck Puncture,0,0,0,0,1,1,0
 ff4c3532-5924-45b6-9a6a-d0d3274b6ef0,1,Military Mike Jungle Combat_3_2 Root,R Shin Amputation,0,0,0,0,1,1,1
 ff97fc56-c803-4aa7-b419-35e0ac17d0b3,1,Bob_0 Root,Face Shrapnel,0,1,0,1,0,0,1
