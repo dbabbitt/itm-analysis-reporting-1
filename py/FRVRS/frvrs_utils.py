@@ -8,7 +8,7 @@
 # Soli Deo gloria
 
 from . import nu
-from datetime import timedelta
+from datetime import datetime, timedelta
 from pandas import DataFrame, concat, to_datetime
 import csv
 import humanize
@@ -76,6 +76,35 @@ class FRVRSUtilities(object):
             'walk to the safe area', 'wave if you can', 'are you hurt', 'reveal injury', 'lay down', 'where are you',
             'can you hear', 'anywhere else', 'what is your name', 'hold still', 'sit up/down', 'stand up'
         ]
+        
+        # List of columns that contain only boolean values
+        self.boolean_columns_list = [
+            'injury_record_injury_treated_with_wrong_treatment', 'injury_record_injury_treated',
+            'injury_treated_injury_treated_with_wrong_treatment', 'injury_treated_injury_treated'
+        ]
+        
+        # List of columns that contain patientIDs
+        self.patient_id_columns_list = [
+            'patient_demoted_id', 'patient_record_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
+            's_a_l_t_walked_patient_id', 's_a_l_t_wave_if_can_patient_id', 's_a_l_t_waved_patient_id', 'patient_engaged_id',
+            'pulse_taken_patient_id', 'injury_treated_patient_id', 'tool_applied_patient_id', 'tag_applied_patient_id',
+            'player_gaze_patient_id'
+        ]
+        
+        # List of columns that contain locationIDs
+        self.location_id_columns_list = [
+            'teleport_location', 'patient_demoted_position', 'patient_record_position', 'injury_record_injury_injury_locator',
+            's_a_l_t_walk_if_can_sort_location', 's_a_l_t_walked_sort_location', 's_a_l_t_wave_if_can_sort_location',
+            's_a_l_t_waved_sort_location', 'patient_engaged_position', 'bag_access_location', 'injury_treated_injury_injury_locator',
+            'bag_closed_location', 'tag_discarded_location', 'tool_discarded_location', 'player_location_location',
+            'player_gaze_location'
+        ]
+        
+        # List of columns with injuryIDs
+        self.injury_id_columns_list = ['injury_record_id', 'injury_treated_id']
+        
+        # List of columns with patient SORT designations
+        self.patient_sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
         
         # List of action types that assume 1-to-1 interaction
         self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']
@@ -376,6 +405,16 @@ class FRVRSUtilities(object):
         
         # Return True if the file has duplicate names, False otherwise
         return is_duplicate_file
+    
+    
+    @staticmethod
+    def get_session_file_date(logs_df, uuid, session_df=None, verbose=False):
+        if session_df is None:
+            mask_series = (logs_df.session_uuid == uuid)
+            session_df = logs_df[mask_series]
+        file_date_str = session_df.event_time.min().strftime('%B %d, %Y')
+        
+        return file_date_str
     
     
     ### Scene Functions ###
@@ -1267,7 +1306,7 @@ class FRVRSUtilities(object):
             mask_series = ~patient_df.patient_record_salt.isnull()
             if mask_series.any():
                 patient_record_salt = patient_df[mask_series].patient_record_salt.iloc[0]
-                is_patient_dead = patient_record_salt.isin(['DEAD', 'EXPECTANT'])
+                is_patient_dead = patient_record_salt in ['DEAD', 'EXPECTANT']
             
             # Check the patient_engaged_salt field if patient_record_salt is not available
             else:
@@ -1276,7 +1315,7 @@ class FRVRSUtilities(object):
                 mask_series = ~patient_df.patient_engaged_salt.isnull()
                 if mask_series.any():
                     patient_engaged_salt = patient_df[mask_series].patient_engaged_salt.iloc[0]
-                    is_patient_dead = patient_engaged_salt.isin(['DEAD', 'EXPECTANT'])
+                    is_patient_dead = patient_engaged_salt in ['DEAD', 'EXPECTANT']
                 
                 # If both columns are empty, the result is unknown
                 else: is_patient_dead = np.nan
@@ -2174,7 +2213,7 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def set_mcivr_metrics_types(action_type, df, row_index, row_series):
+    def set_mcivr_metrics_types(action_type, df, row_index, row_series, verbose=False):
         """
         Set the MCI-VR metrics types for a given action type and row series.
     
@@ -2280,15 +2319,22 @@ class FRVRSUtilities(object):
         elif (action_type == 'TELEPORT'): # Teleport
             df.loc[row_index, 'teleport_location'] = row_series[4] # Location
         elif (action_type == 'TOOL_APPLIED'): # ToolApplied
+            if verbose: df.loc[row_index, 'tool_applied_row_shape'] = row_series.shape
             tool_applied_patient_id = row_series[4]
             if ' Root' in tool_applied_patient_id:
                 df.loc[row_index, 'tool_applied_patient_id'] = tool_applied_patient_id # patientId
             df.loc[row_index, 'tool_applied_type'] = row_series[5] # type
             df.loc[row_index, 'tool_applied_attachment_point'] = row_series[6] # attachmentPoint
             df.loc[row_index, 'tool_applied_tool_location'] = row_series[7] # toolLocation
-            df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
-            df.loc[row_index, 'tool_applied_sender'] = row_series[9] # sender
-            df.loc[row_index, 'tool_applied_attach_message'] = row_series[10] # attachMessage
+            
+            # Find the attachMessage and infer if a data column exists from there
+            for attach_message_idx in range(10, 8, -1):
+                if str(row_series[attach_message_idx]).startswith('Applied'): break
+            sender_idx = attach_message_idx - 1
+            if (sender_idx == 9): df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
+            
+            df.loc[row_index, 'tool_applied_sender'] = row_series[sender_idx] # sender
+            df.loc[row_index, 'tool_applied_attach_message'] = row_series[attach_message_idx] # attachMessage
         elif (action_type == 'TOOL_DISCARDED'): # ToolDiscarded
             df.loc[row_index, 'tool_discarded_type'] = row_series[4] # Type
             df.loc[row_index, 'tool_discarded_count'] = row_series[5] # Count
@@ -2324,11 +2370,12 @@ class FRVRSUtilities(object):
         return df
     
     
-    def process_files(self, sub_directory_df, sub_directory, file_name):
+    def process_files(self, sub_directory_df, sub_directory, file_name, verbose=False):
         """
         Process files and update the subdirectory dataframe.
         
-        This function takes a Pandas DataFrame representing the subdirectory and the name of the file to process. It then reads the file, parses it into a DataFrame, and appends the DataFrame to the subdirectory DataFrame.
+        This function takes a Pandas DataFrame representing the subdirectory and the name of the file to process.
+        It then reads the file, parses it into a DataFrame, and appends the DataFrame to the subdirectory DataFrame.
         
         Parameters:
             sub_directory_df (pandas.DataFrame): The DataFrame for the current subdirectory.
@@ -2394,10 +2441,10 @@ class FRVRSUtilities(object):
 
         
         # Set the MCIVR metrics types
-        for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series)
+        for row_index, row_series in file_df.iterrows(): file_df = self.set_mcivr_metrics_types(row_series.action_type, file_df, row_index, row_series, verbose=verbose)
         
         # Section off player actions by session start and end
-        file_df = self.set_scene_indices(file_df)
+        file_df = self.set_scene_indices(file_df.reset_index(drop=True))
         
         # Append the data frame for the current file to the data frame for the current subdirectory
         sub_directory_df = concat([sub_directory_df, file_df], axis='index')
@@ -2405,7 +2452,7 @@ class FRVRSUtilities(object):
         return sub_directory_df
     
     
-    def concatonate_logs(self, logs_folder=None):
+    def concatonate_logs(self, logs_folder=None, verbose=False):
         """
         Concatenates all the CSV files in the given logs folder into a single data frame.
         
@@ -2432,7 +2479,7 @@ class FRVRSUtilities(object):
             for file_name in files_list:
                 
                 # If the file is a CSV file, merge it into the subdirectory data frame
-                if file_name.endswith('.csv'): sub_directory_df = self.process_files(sub_directory_df, sub_directory, file_name)
+                if file_name.endswith('.csv'): sub_directory_df = self.process_files(sub_directory_df, sub_directory, file_name, verbose=verbose)
             
             # Append the data frame for the current subdirectory to the main data frame
             logs_df = pd.concat([logs_df, sub_directory_df], axis='index')
