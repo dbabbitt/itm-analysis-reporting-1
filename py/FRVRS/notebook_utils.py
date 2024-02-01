@@ -2572,6 +2572,35 @@ class NotebookUtilities(object):
         plt.show()
     
     
+    def get_r_squared_value_latex(self, xdata, ydata):
+        inf_nan_mask = self.get_inf_nan_mask(xdata.tolist(), ydata.tolist())
+        from scipy.stats import pearsonr
+        pearson_r, p_value = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
+        pearsonr_statement = str('%.2f' % pearson_r)
+        coefficient_of_determination_statement = str('%.2f' % pearson_r**2)
+        
+        if p_value < 0.0001: pvalue_statement = '<0.0001'
+        else: pvalue_statement = '=' + str('%.4f' % p_value)
+        
+        s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
+        
+        return s_str
+    
+    
+    @staticmethod
+    def get_spearman_rho_value_latex(xdata, ydata):
+        from scipy.stats import spearmanr
+        spearman_corr, p_value = spearmanr(xdata, ydata)
+        rank_correlation_coefficient_statement = str('%.2f' % spearman_corr)
+        
+        if p_value < 0.0001: pvalue_statement = '<0.0001'
+        else: pvalue_statement = '=' + str('%.4f' % p_value)
+        
+        s_str = r'$\rho=' + rank_correlation_coefficient_statement + ',\ p' + pvalue_statement + '$'
+        
+        return s_str
+    
+    
     def first_order_linear_scatterplot(
         self, df, xname, yname, xlabel_str='Overall Capitalism (explanatory variable)',
         ylabel_str='World Bank Gini % (response variable)',
@@ -2654,8 +2683,9 @@ class NotebookUtilities(object):
         most_y = ydata.max()
         least_y = ydata.min()
         
+        # Initialize all variables to False in a single line
         least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
-    
+        
         for label, x, y in zip(df.index, xdata, ydata):
             if (x == least_x) and not least_x_tried:
                 annotation = plt.annotate('{} (least {})'.format(label, x_adj),
@@ -2679,19 +2709,8 @@ class NotebookUtilities(object):
     
         title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
         
-        # Get r squared value
-        inf_nan_mask = self.get_inf_nan_mask(xdata.tolist(), ydata.tolist())
-        from scipy.stats import pearsonr
-        pearsonr_tuple = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
-        pearson_r = pearsonr_tuple[0]
-        pearsonr_statement = str('%.2f' % pearson_r)
-        coefficient_of_determination_statement = str('%.2f' % pearson_r**2)
-        p_value = pearsonr_tuple[1]
-    
-        if p_value < 0.0001: pvalue_statement = '<0.0001'
-        else: pvalue_statement = '=' + str('%.4f' % p_value)
-    
-        s_str = r'$r^2=' + coefficient_of_determination_statement + ',\ p' + pvalue_statement + '$'
+        # Annotate r squared value
+        s_str = self.get_r_squared_value_latex(xdata, ydata)
         text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
         
         return fig
