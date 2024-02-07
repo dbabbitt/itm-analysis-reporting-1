@@ -9,7 +9,7 @@
 
 from . import nu
 from datetime import datetime, timedelta
-from pandas import DataFrame, concat, to_datetime
+from pandas import DataFrame, concat, to_datetime, Series
 import csv
 import humanize
 import matplotlib.pyplot as plt
@@ -19,6 +19,7 @@ import os.path as osp
 import pandas as pd
 import random
 import re
+import statsmodels.api as sm
 
 import warnings
 warnings.filterwarnings('ignore')
@@ -260,7 +261,7 @@ class FRVRSUtilities(object):
         ----------
         grouped_df : pd.DataFrame, optional
             DataFrame containing the FRVRS logs data.
-        mask_series : pd.Series, optional
+        mask_series : Series, optional
             Boolean mask to filter rows of grouped_df, by default None.
         extra_column : str, optional
             Additional column for further grouping, by default None.
@@ -415,6 +416,79 @@ class FRVRSUtilities(object):
         file_date_str = session_df.event_time.min().strftime('%B %d, %Y')
         
         return file_date_str
+    
+    
+    def get_distance_deltas_data_frame(self, logs_df, verbose=False):
+        rows_list = []
+        columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort']
+        import math
+        for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
+            row_dict = {}
+            for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
+            
+            actual_engagement_order = self.get_engagement_starts_order(scene_df, verbose=False)
+            
+            # Get last still engagement and subtract the scene start
+            df = DataFrame(actual_engagement_order, columns=columns_list)
+            mask_series = (df.patient_sort == 'still')
+            last_still_engagement = df[mask_series].engagement_start.max()
+            mask_series = True
+            for cn in self.scene_groupby_columns: mask_series &= (logs_df[cn] == eval(cn))
+            row_dict['last_still_engagement'] = last_still_engagement - self.get_scene_start(logs_df[mask_series])
+            
+            # Actual
+            actual_engagement_distance = sum([
+                math.sqrt(
+                    (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
+                ) for first_tuple, last_tuple in zip(actual_engagement_order[:-1], actual_engagement_order[1:])
+            ])
+            row_dict['actual_engagement_distance'] = actual_engagement_distance
+            
+            # Ideal
+            ideal_engagement_order = self.get_ideal_engagement_order(scene_df, tuples_list=actual_engagement_order, verbose=False)
+            ideal_engagement_distance = sum([
+                math.sqrt(
+                    (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
+                ) for first_tuple, last_tuple in zip(ideal_engagement_order[:-1], ideal_engagement_order[1:])
+            ])
+            row_dict['ideal_engagement_distance'] = ideal_engagement_distance
+            
+            # Calculate the R-squared adjusted value as a measure of ideal ordering
+            X, y = Series([t[1] for t in ideal_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
+            if X.shape[0]:
+                X1 = sm.add_constant(X)
+                try: measure_of_ideal_ordering = sm.OLS(y, X1).fit().rsquared_adj
+                except: measure_of_ideal_ordering = np.nan
+            else: measure_of_ideal_ordering = np.nan
+            row_dict['measure_of_ideal_ordering'] = measure_of_ideal_ordering
+            
+            # Distracted
+            distracted_engagement_order = self.get_distracted_engagement_order(scene_df, tuples_list=actual_engagement_order, verbose=False)
+            distracted_engagement_distance = sum([
+                math.sqrt(
+                    (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
+                ) for first_tuple, last_tuple in zip(distracted_engagement_order[:-1], distracted_engagement_order[1:])
+            ])
+            row_dict['distracted_engagement_distance'] = distracted_engagement_distance
+            
+            # Calculate the R-squared adjusted value as a measure of distracted ordering
+            X, y = Series([t[1] for t in distracted_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
+            if X.shape[0]:
+                X1 = sm.add_constant(X)
+                try: measure_of_distracted_ordering = sm.OLS(y, X1).fit().rsquared_adj
+                except: measure_of_distracted_ordering = np.nan
+            else: measure_of_distracted_ordering = np.nan
+            row_dict['measure_of_distracted_ordering'] = measure_of_distracted_ordering
+            
+            # Calculate the measure of right ordering
+            row_dict['measure_of_right_ordering'] = self.get_measure_of_right_ordering(scene_df, verbose=verbose)
+            
+            row_dict['actual_ideal_delta'] = actual_engagement_distance - ideal_engagement_distance
+            row_dict['actual_distracted_delta'] = actual_engagement_distance - distracted_engagement_distance
+            rows_list.append(row_dict)
+        distance_delta_df = DataFrame(rows_list)
+        
+        return distance_delta_df
     
     
     ### Scene Functions ###
@@ -904,6 +978,43 @@ class FRVRSUtilities(object):
         return first_treatment
     
     
+    def get_ideal_engagement_order(self, scene_df, tuples_list=None, verbose=False):
+        
+        # Create the patient sort tuples list
+        if tuples_list is None: tuples_list = self.get_engagement_starts_order(scene_df, verbose=verbose)
+        
+        # Separate tuples based on cluster ID
+        clusters = nu.get_clusters_dictionary(tuples_list, verbose=verbose)
+        
+        # Get initial player location
+        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
+        if mask_series.any(): player_location = eval(scene_df[mask_series].sort_values('action_tick').iloc[0].location_id)
+        else: player_location = (0.0, 0.0, 0.0)
+        player_location = (player_location[0], player_location[2])
+        
+        # Go from nearest neighbor to nearest neighbor by cluster
+        ideal_engagement_order = []
+        for cluster_id in ['still', 'waver', 'walker']:
+            
+            # Get locations list
+            locations_list = [x[2] for x in clusters.get(cluster_id, [])]
+            
+            # Pop the nearest neighbor off the locations list and add it to the engagement order
+            # Assume no patients are in the exact same spot
+            while locations_list:
+                nearest_neighbor = nu.get_nearest_neighbor(player_location, locations_list)
+                nearest_neighbor = locations_list.pop(locations_list.index(nearest_neighbor))
+                for patient_sort_tuple in clusters[cluster_id]:
+                    if (patient_sort_tuple[2] == nearest_neighbor):
+                        ideal_engagement_order.append(patient_sort_tuple)
+                        break
+                player_location = nearest_neighbor
+            
+        if verbose: print(f'\n\nideal_engagement_order: {ideal_engagement_order}')
+        
+        return ideal_engagement_order
+    
+    
     def get_is_scene_aborted(self, scene_df, verbose=False):
         """
         Gets whether or not a scene is aborted.
@@ -1099,7 +1210,7 @@ class FRVRSUtilities(object):
         # Get the whole ideal and actual sequences
         ideal_sequence = []
         for sort in self.right_ordering_list: ideal_sequence.extend(sort_dict.get(sort, []))
-        ideal_sequence = pd.Series(data=ideal_sequence)
+        ideal_sequence = Series(data=ideal_sequence)
         actual_sequence = ideal_sequence.sort_values(ascending=True)
         
         return actual_sequence, ideal_sequence, sort_dict
@@ -1125,7 +1236,6 @@ class FRVRSUtilities(object):
         actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
         X, y = ideal_sequence.values.reshape(-1, 1), actual_sequence.values.reshape(-1, 1)
         if X.shape[0]:
-            import statsmodels.api as sm
             X1 = sm.add_constant(X)
             try: measure_of_right_ordering = sm.OLS(y, X1).fit().rsquared_adj
             except: measure_of_right_ordering = np.nan
@@ -1219,13 +1329,31 @@ class FRVRSUtilities(object):
     
     
     def get_engagement_starts_order(self, scene_df, verbose=False):
+        """
+        Get the chronological order of engagement starts for each patient in a scene.
+        
+        Parameters:
+            - scene_df (pd.DataFrame): DataFrame containing scene data, including patient IDs, action types,
+              action ticks, location IDs, and patient sorts.
+            - verbose (bool, optional): If True, prints debug information. Default is False.
+        
+        Returns:
+            - engagement_order (list): List of tuples containing engagement information ordered chronologically:
+                - patient_id (int): The ID of the patient.
+                - engagement_start (int): The action tick at which the engagement started.
+                - location_tuple ((int, int)): A tuple representing the (x, z) coordinates of the engagement location.
+                - patient_sort (str or None): The patient's SORT designation, if available.
+        """
         engagement_starts_list = []
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             
-            # Get the cluster ID
+            # Get the cluster ID, if available
             mask_series = ~patient_df.patient_sort.isnull()
-            if mask_series.any(): patient_sort = patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
-            else: patient_sort = None
+            patient_sort = (
+                patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
+                if mask_series.any()
+                else None
+            )
             
             # Check if the responder even interacted with this patient
             mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
@@ -1237,10 +1365,12 @@ class FRVRSUtilities(object):
                 if mask_series.any():
                     df = patient_df[mask_series].sort_values('action_tick')
                     
-                    # Get the first engagement start and location and add them to the starts list
+                    # Get the first engagement start and location
                     engagement_start = df.iloc[0].action_tick
-                    engagement_location = eval(df.iloc[0].location_id)
+                    engagement_location = eval(df.iloc[0].location_id) # Evaluate string to get tuple
                     location_tuple = (engagement_location[0], engagement_location[2])
+                    
+                    # Add engagement information to the list
                     engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort)
                     engagement_starts_list.append(engagement_tuple)
         
@@ -1248,6 +1378,39 @@ class FRVRSUtilities(object):
         engagement_order = sorted(engagement_starts_list, key=lambda x: x[1], reverse=False)
         
         return engagement_order
+    
+    
+    def get_distracted_engagement_order(self, scene_df, tuples_list=None, verbose=False):
+
+        # Create the patient sort tuples list
+        if tuples_list is None: tuples_list = self.get_engagement_starts_order(scene_df, verbose=verbose)
+
+        # Get initial player location
+        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
+        if mask_series.any(): player_location = eval(scene_df[mask_series].sort_values('action_tick').iloc[0].location_id)
+        else: player_location = (0.0, 0.0, 0.0)
+        player_location = (player_location[0], player_location[2])
+
+        # Go from nearest neighbor to nearest neighbor
+        distracted_engagement_order = []
+
+        # Get locations list
+        locations_list = [x[2] for x in tuples_list]
+
+        # Pop the nearest neighbor off the locations list and add it to the engagement order
+        # Assume no patients are in the exact same spot
+        while locations_list:
+            nearest_neighbor = nu.get_nearest_neighbor(player_location, locations_list)
+            nearest_neighbor = locations_list.pop(locations_list.index(nearest_neighbor))
+            for patient_sort_tuple in tuples_list:
+                if (patient_sort_tuple[2] == nearest_neighbor):
+                    distracted_engagement_order.append(patient_sort_tuple)
+                    break
+            player_location = nearest_neighbor
+
+        if verbose: print(f'\n\ndistracted_engagement_order: {distracted_engagement_order}')
+
+        return distracted_engagement_order
     
     
     ### Patient Functions ###
@@ -1655,7 +1818,7 @@ class FRVRSUtilities(object):
         
         # Pick from among the sort columns whichever value is not null and use that in the label
         columns_list = ['patient_demoted_sort', 'patient_engaged_sort', 'patient_record_sort']
-        srs = patient_df[columns_list].apply(pd.Series.notnull, axis='columns').sum()
+        srs = patient_df[columns_list].apply(Series.notnull, axis='columns').sum()
         mask_series = (srs > 0)
         if mask_series.any():
             sort_cns_list = srs[mask_series].index.tolist()[0]
@@ -2626,7 +2789,7 @@ class FRVRSUtilities(object):
             A DataFrame with the rows of consecutive elements replaced with one row where the
             element_value now has appended to it a count of how many rows were deleted plus one.
         """
-        result_df = DataFrame([], columns=df.columns); row_index = 0; row_series = pd.Series([]); count = 0
+        result_df = DataFrame([], columns=df.columns); row_index = 0; row_series = Series([]); count = 0
         for row_index, row_series in df.iterrows():
             column_value = row_series[element_column]
             time_diff = row_series[time_diff_column]
@@ -2870,7 +3033,7 @@ class FRVRSUtilities(object):
             logs_df (pandas.DataFrame): A DataFrame containing the FRVRS logs.
             df (pandas.DataFrame): The input DataFrame containing player movement data.
             sorting_column (str): The column based on which the DataFrame will be sorted.
-            mask_series (pd.Series or None): Optional mask series to filter rows in the DataFrame.
+            mask_series (pandas.Series or None): Optional mask series to filter rows in the DataFrame.
             is_ascending (bool): If True, sort the DataFrame in ascending order; otherwise, in descending order.
             humanize_type (str): The type of humanization to be applied to the time values ('precisedelta', 'percentage', 'intword').
             title_str (str): Additional string to be included in the visualization title.
