@@ -692,6 +692,20 @@ class NotebookUtilities(object):
         return(result)
     
     
+    @staticmethod
+    def get_clusters_dictionary(tuples_list, verbose=False):
+        
+        # Separate tuples based on cluster ID
+        clusters_dict = {}
+        for patient_id, engagement_start, location_tuple, patient_sort in tuples_list:
+            if patient_sort not in clusters_dict: clusters_dict[patient_sort] = []
+            engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort)
+            clusters_dict[patient_sort].append(engagement_tuple)
+        if verbose: print(f'\n\nclusters_dict: {clusters_dict}')
+        
+        return clusters_dict
+    
+    
     ### File Functions ###
     
     
