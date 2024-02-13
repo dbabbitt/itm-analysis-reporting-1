@@ -693,14 +693,14 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def get_clusters_dictionary(tuples_list, verbose=False):
+    def get_clusters_dictionary(tuples_list, tuple_idx=-1, cluster_fn=lambda x: x, verbose=False):
         
-        # Separate tuples based on cluster ID
+        # Separate tuples based on cluster ID (tuple index value)
         clusters_dict = {}
-        for patient_id, engagement_start, location_tuple, patient_sort in tuples_list:
-            if patient_sort not in clusters_dict: clusters_dict[patient_sort] = []
-            engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort)
-            clusters_dict[patient_sort].append(engagement_tuple)
+        for cluster_tuple in tuples_list:
+            cluster_value = cluster_fn(cluster_tuple[tuple_idx])
+            if cluster_value not in clusters_dict: clusters_dict[cluster_value] = []
+            clusters_dict[cluster_value].append(cluster_tuple)
         if verbose: print(f'\n\nclusters_dict: {clusters_dict}')
         
         return clusters_dict
@@ -1770,28 +1770,38 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def get_inf_nan_mask(x_list, y_list):
+    def get_inf_nan_mask(X_train, y_train):
         """
-        Returns a mask indicating which elements of x_list and y_list are not inf or nan.
+        Returns a mask indicating which elements of X_train and y_train are not inf or nan.
         
         Parameters:
-        x_list: A list of numbers.
-        y_list: A list of numbers.
+            X_train: A NumPy array of numbers.
+            y_train: A NumPy array of numbers.
         
         Returns:
-        A numpy array of booleans, where True indicates that the corresponding element
-        of x_list and y_list is not inf or nan.
+            A numpy array of booleans, where True indicates that the corresponding element of X_train
+            and y_train is not inf or nan. This combined mask can be used on both X_train and y_train.
+        
+        Example:
+            inf_nan_mask = nu.get_inf_nan_mask(X_train, y_train)
+            X_train_filtered = X_train[inf_nan_mask]
+            y_train_filtered = y_train[inf_nan_mask]
         """
         
-        # Check if the input lists are empty.
-        if not x_list or not y_list: return np.array([], dtype=bool)
+        # Check if the input lists are empty
+        if (X_train.shape[0] == 0) or (y_train.shape[0] == 0): return np.array([], dtype=bool)
         
-        # Create masks indicating which elements of x_list and y_list are not inf or nan.
-        x_mask = np.logical_and(np.logical_not(np.isinf(x_list)), np.logical_not(np.isnan(x_list)))
-        y_mask = np.logical_and(np.logical_not(np.isinf(y_list)), np.logical_not(np.isnan(y_list)))
+        # Create separate masks for X_train and y_train (np.isfinite checks for both infinity (inf) and NaN values)
+        # X_finite_mask = np.isfinite(X_train)
+        # y_finite_mask = np.isfinite(y_train)
         
-        # Return a mask indicating which elements of both x_list and y_list are not inf or nan.
-        return np.logical_and(x_mask, y_mask)
+        # Combine masks using bitwise AND operation
+        # mask_series = X_finite_mask & y_finite_mask
+        
+        mask_series = pd.concat([y_train, X_train], axis='columns').applymap(pd.notna).all(axis='columns')
+        
+        # Return a mask indicating which elements of both X_train and y_train are not inf or nan
+        return mask_series
     
     
     @staticmethod
@@ -2642,7 +2652,7 @@ class NotebookUtilities(object):
     
     
     def get_r_squared_value_latex(self, xdata, ydata):
-        inf_nan_mask = self.get_inf_nan_mask(xdata.tolist(), ydata.tolist())
+        inf_nan_mask = self.get_inf_nan_mask(xdata, ydata)
         from scipy.stats import pearsonr
         pearson_r, p_value = pearsonr(xdata[inf_nan_mask], ydata[inf_nan_mask])
         pearsonr_statement = str('%.2f' % pearson_r)

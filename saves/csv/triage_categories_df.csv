@@ -1,0 +1,33 @@
+injury_id,implied_priority,injury_severity,injury_required_procedure,acceptable_secondary_procedure,patient_salt,patient_sort,patient_pulse,patient_breath,patient_hearing,patient_mood,patient_pose
+Forehead Scrape,0.0,low,gauzePressure,None,MINIMAL,walker,normal,normal,normal,calm,standing
+Ear Bleed,0.5,low,none,,MINIMAL,still,normal,normal,limited,calm,standing
+R Palm Laceration,1.0,low,gauzePressure,,DELAYED,walker,normal,normal,normal,calm,standing
+R Palm Laceration,1.0,low,gauzePressure,,DELAYED,walker,normal,normal,normal,calm,standing
+Asthmatic,1.5,medium,none,,DELAYED,walker,fast,restricted,normal,upset,kneeling
+L Forearm Laceration,2.0,low,gauzePressure,,DELAYED,walker,normal,normal,normal,upset,sittingGround
+R Forearm Laceration,2.0,low,gauzePressure,,DELAYED,walker,normal,normal,normal,upset,sittingGround
+L Bicep Puncture,2.5,medium,tourniquet,,IMMEDIATE,walker,fast,normal,normal,upset,sittingGround
+R Bicep Puncture,2.5,medium,tourniquet,,IMMEDIATE,walker,fast,normal,normal,upset,sittingGround
+L Shoulder Puncture,3.0,medium,woundpack,,IMMEDIATE,walker,fast,normal,normal,upset,kneeling
+R Shoulder Puncture,3.0,medium,woundpack,,IMMEDIATE,walker,fast,normal,normal,upset,kneeling
+L Calf Shrapnel,5.0,medium,tourniquet,,IMMEDIATE,waver,fast,normal,normal,upset,fetal
+R Calf Shrapnel,5.0,medium,tourniquet,,IMMEDIATE,waver,fast,normal,normal,upset,fetal
+R Calf Laceration,5.5,low,gauzePressure,,DELAYED,waver,normal,normal,normal,calm,fetal
+L Calf Laceration,6.0,low,gauzePressure,,DELAYED,waver,normal,normal,normal,calm,fetal
+L Thigh Laceration,6.0,medium,gauzePressure,,DELAYED,waver,normal,normal,normal,upset,recovery
+R Thigh Laceration,6.0,medium,gauzePressure,,DELAYED,waver,normal,normal,normal,upset,fetal
+R Forearm Laceration,7.0,medium,woundpack,,IMMEDIATE,waver,fast,fast,normal,upset,supine
+L Side Puncture,7.0,medium,woundpack,,IMMEDIATE,waver,fast,fast,normal,upset,fetal
+R Side Puncture,7.0,medium,woundpack,,IMMEDIATE,waver,fast,fast,normal,upset,fetal
+L Stomach Puncture,7.5,high,woundpack,,IMMEDIATE,waver,fast,fast,normal,agony,recovery
+L Stomach Puncture,7.5,high,woundpack,,IMMEDIATE,waver,fast,fast,normal,agony,fetal
+L Wrist Amputation,8.0,high,tourniquet,,IMMEDIATE,waver,fast,fast,normal,agony,sittingGround
+R Wrist Amputation,8.0,high,tourniquet,,IMMEDIATE,waver,fast,fast,normal,agony,sittingGround
+L Thigh Puncture,8.0,medium,tourniquet,,IMMEDIATE,waver,fast,normal,normal,upset,sittingGround
+L Thigh Puncture,8.0,medium,tourniquet,,IMMEDIATE,waver,fast,normal,normal,upset,sittingGround
+L Shin Amputation,9.0,high,tourniquet,,IMMEDIATE,waver,fast,fast,normal,agony,supine
+R Shin Amputation,9.0,high,tourniquet,,IMMEDIATE,waver,fast,fast,normal,agony,supine
+L Chest Collapse,9.5,high,decompress,,IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+R Chest Collapse,9.5,high,decompress,,IMMEDIATE,still,faint,collapsedRight,normal,unresponsive,supine
+Face Shrapnel,10.0,high,airway,None,EXPECTANT,still,faint,restricted,none,unresponsive,supine
+Face Shrapnel,10.0,high,airway,None,DEAD,still,none,none,none,dead,supine

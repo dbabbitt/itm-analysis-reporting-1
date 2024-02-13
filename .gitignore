@@ -12,6 +12,7 @@
 !/ipynb
 !/maintenance
 !/metrics
+!/presentations
 !/ps1
 !/py
 !/saves
@@ -199,3 +200,4 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
+saves/csv/frvrs_logs_df.csv

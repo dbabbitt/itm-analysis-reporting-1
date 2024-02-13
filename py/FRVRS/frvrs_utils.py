@@ -60,7 +60,6 @@ class FRVRSUtilities(object):
         self.scene_groupby_columns = ['session_uuid', 'scene_id']
         self.patient_groupby_columns = self.scene_groupby_columns + ['patient_id']
         self.injury_groupby_columns = self.patient_groupby_columns + ['injury_id']
-        self.right_ordering_list = ['still', 'waver', 'walker']
         
         # List of action types to consider as simulation loggings that can't be directly read by the responder
         self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'S_A_L_T_WAVED']
@@ -77,6 +76,9 @@ class FRVRSUtilities(object):
             'walk to the safe area', 'wave if you can', 'are you hurt', 'reveal injury', 'lay down', 'where are you',
             'can you hear', 'anywhere else', 'what is your name', 'hold still', 'sit up/down', 'stand up'
         ]
+        
+        # List of action types that assume 1-to-1 interaction
+        self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']
         
         # List of columns that contain only boolean values
         self.boolean_columns_list = [
@@ -104,19 +106,51 @@ class FRVRSUtilities(object):
         # List of columns with injuryIDs
         self.injury_id_columns_list = ['injury_record_id', 'injury_treated_id']
         
-        # List of columns with patient SORT designations
-        self.patient_sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
+        # Patient SORT designations
+        self.sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
+        self.patient_sort_order = ['still', 'waver', 'walker']
+        self.sort_category_order = pd.CategoricalDtype(categories=self.patient_sort_order, ordered=True)
         
-        # List of action types that assume 1-to-1 interaction
-        self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']
+        # Patient SALT designations
+        self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
+        self.salt_types = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
+        self.salt_category_order = pd.CategoricalDtype(categories=self.salt_types, ordered=True)
+        
+        # Tag colors
+        self.tag_columns_list = ['tag_selected_type', 'tag_applied_type', 'tag_discarded_type']
+        self.tag_colors = ['black', 'gray', 'red', 'yellow', 'green', 'Not Tagged']
+        self.colors_category_order = pd.CategoricalDtype(categories=self.tag_colors, ordered=True)
+        
+        # Patient pulse designations
+        self.pulse_columns_list = ['patient_demoted_pulse', 'patient_record_pulse', 'patient_engaged_pulse']
+        self.patient_pulse_order = ['none', 'faint', 'fast', 'normal']
+        self.pulse_category_order = pd.CategoricalDtype(categories=self.patient_pulse_order, ordered=True)
+        
+        # Patient breath designations
+        self.breath_columns_list = ['patient_demoted_breath', 'patient_record_breath', 'patient_engaged_breath']
+        self.patient_breath_order = ['none', 'collapsedRight', 'restricted', 'fast', 'normal']
+        self.breath_category_order = pd.CategoricalDtype(categories=self.patient_breath_order, ordered=True)
+        
+        # Patient hearing designations
+        self.hearing_columns_list = ['patient_record_hearing', 'patient_engaged_hearing']
+        self.patient_hearing_order = ['none', 'limited', 'normal']
+        self.hearing_category_order = pd.CategoricalDtype(categories=self.patient_hearing_order, ordered=True)
+        
+        # Patient mood designations
+        self.mood_columns_list = ['patient_demoted_mood', 'patient_record_mood', 'patient_engaged_mood']
+        self.patient_mood_order = ['dead', 'unresponsive', 'agony', 'upset', 'calm']
+        self.mood_category_order = pd.CategoricalDtype(categories=self.patient_mood_order, ordered=True)
+        
+        # Patient pose designations
+        self.pose_columns_list = ['patient_demoted_pose', 'patient_record_pose', 'patient_engaged_pose']
+        self.patient_pose_order = ['supine', 'fetal', 'sittingGround', 'kneeling', 'recovery', 'standing']
+        self.pose_category_order = pd.CategoricalDtype(categories=self.patient_pose_order, ordered=True)
         
         # Delayed is yellow per Nick
         self.salt_to_tag_dict = {'DEAD': 'black', 'EXPECTANT': 'gray', 'IMMEDIATE': 'red', 'DELAYED': 'yellow', 'MINIMAL': 'green'}
         self.sort_to_color_dict = {'still': 'black', 'waver': 'red', 'walker': 'green'}
         
         # Reordered per Ewart so that the display is from left to right as follows: dead, expectant, immediate, delayed, minimal, not tagged
-        self.salt_types = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
-        self.tag_colors = ['black', 'gray', 'red', 'yellow', 'green', 'Not Tagged']
         self.error_table_df = pd.DataFrame([
             {'DEAD': 'Exact', 'EXPECTANT': 'Critical', 'IMMEDIATE': 'Critical', 'DELAYED': 'Critical', 'MINIMAL': 'Critical'},
             {'DEAD': 'Over',  'EXPECTANT': 'Exact',    'IMMEDIATE': 'Critical', 'DELAYED': 'Critical', 'MINIMAL': 'Critical'},
@@ -126,17 +160,39 @@ class FRVRSUtilities(object):
         ], columns=self.salt_types, index=self.tag_colors[:-1])
         
         # Define the custom categorical orders
-        self.colors_category_order = pd.CategoricalDtype(categories=self.tag_colors, ordered=True)
-        self.salt_category_order = pd.CategoricalDtype(categories=self.salt_types, ordered=True)
         self.error_values = ['Exact', 'Critical', 'Over', 'Under']
         self.errors_category_order = pd.CategoricalDtype(categories=self.error_values, ordered=True)
         
         # Hemorrhage control procedures list
         self.hemorrhage_control_procedures_list = ['tourniquet', 'woundpack']
         
-        # Sort and SALT columns
-        self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
-        self.sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
+        # Injury required procedure designations
+        self.required_procedure_columns_list = ['injury_record_required_procedure', 'injury_treated_required_procedure']
+        self.injury_required_procedure_order = ['tourniquet', 'gauzePressure', 'decompress', 'woundpack', 'airway', 'none']
+        self.required_procedure_category_order = pd.CategoricalDtype(categories=self.injury_required_procedure_order, ordered=True)
+        
+        # Injury severity designations
+        self.severity_columns_list = ['injury_record_severity', 'injury_treated_severity']
+        self.injury_severity_order = ['high', 'medium', 'low']
+        self.severity_category_order = pd.CategoricalDtype(categories=self.injury_severity_order, ordered=True)
+        
+        # Injury body region designations
+        self.body_region_columns_list = ['injury_record_body_region', 'injury_treated_body_region']
+        self.injury_body_region_order = ['head', 'neck', 'chest', 'abdomen', 'leftLeg', 'rightLeg', 'rightArm', 'leftArm']
+        self.body_region_category_order = pd.CategoricalDtype(categories=self.injury_body_region_order, ordered=True)
+        
+        # Pulse name designations
+        self.pulse_name_order = ['pulse_none', 'pulse_faint', 'pulse_fast', 'pulse_normal']
+        self.pulse_name_category_order = pd.CategoricalDtype(categories=self.pulse_name_order, ordered=True)
+        
+        # Tool type designations
+        self.tool_type_columns_list = ['tool_hover_type', 'tool_selected_type', 'tool_applied_type', 'tool_discarded_type']
+        self.tool_type_order = ['Tourniquet', 'Gauze_Pack', 'Needle', 'Naso', 'Nasal Airway', 'Gauze_Dressing']
+        self.tool_type_category_order = pd.CategoricalDtype(categories=self.tool_type_order, ordered=True)
+        
+        # Tool data designations
+        self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
+        self.tool_data_category_order = pd.CategoricalDtype(categories=self.tool_data_order, ordered=True)
 
     ### String Functions ###
     
@@ -420,7 +476,7 @@ class FRVRSUtilities(object):
     
     def get_distance_deltas_data_frame(self, logs_df, verbose=False):
         rows_list = []
-        columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort']
+        columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity']
         import math
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
             row_dict = {}
@@ -445,7 +501,7 @@ class FRVRSUtilities(object):
             row_dict['actual_engagement_distance'] = actual_engagement_distance
             
             # Ideal
-            ideal_engagement_order = self.get_ideal_engagement_order(scene_df, tuples_list=actual_engagement_order, verbose=False)
+            ideal_engagement_order = self.get_ideal_engagement_order(scene_df, verbose=False)
             ideal_engagement_distance = sum([
                 math.sqrt(
                     (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
@@ -487,6 +543,10 @@ class FRVRSUtilities(object):
             row_dict['actual_distracted_delta'] = actual_engagement_distance - distracted_engagement_distance
             rows_list.append(row_dict)
         distance_delta_df = DataFrame(rows_list)
+        
+        # Add the adherence to SALT protocol column
+        mask_series = (distance_delta_df.measure_of_right_ordering == 1.0)
+        distance_delta_df['adherence_to_salt'] = mask_series
         
         return distance_delta_df
     
@@ -980,11 +1040,12 @@ class FRVRSUtilities(object):
     
     def get_ideal_engagement_order(self, scene_df, tuples_list=None, verbose=False):
         
-        # Create the patient sort tuples list
-        if tuples_list is None: tuples_list = self.get_engagement_starts_order(scene_df, verbose=verbose)
-        
-        # Separate tuples based on cluster ID
-        clusters = nu.get_clusters_dictionary(tuples_list, verbose=verbose)
+        # Create the patient sort info
+        engagement_starts_df = DataFrame(self.get_engagement_starts_order(scene_df), columns=[
+            'patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity'
+        ])
+        engagement_starts_df.patient_sort = engagement_starts_df.patient_sort.astype(self.sort_category_order)
+        engagement_starts_df.injury_severity = engagement_starts_df.injury_severity.astype(self.severity_category_order)
         
         # Get initial player location
         mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
@@ -992,24 +1053,26 @@ class FRVRSUtilities(object):
         else: player_location = (0.0, 0.0, 0.0)
         player_location = (player_location[0], player_location[2])
         
-        # Go from nearest neighbor to nearest neighbor by cluster
+        # Go from nearest neighbor to nearest neighbor by high severity first, by still/waver/walker, then the rest by still/waver/walker
         ideal_engagement_order = []
-        for cluster_id in ['still', 'waver', 'walker']:
-            
-            # Get locations list
-            locations_list = [x[2] for x in clusters.get(cluster_id, [])]
-            
-            # Pop the nearest neighbor off the locations list and add it to the engagement order
-            # Assume no patients are in the exact same spot
-            while locations_list:
-                nearest_neighbor = nu.get_nearest_neighbor(player_location, locations_list)
-                nearest_neighbor = locations_list.pop(locations_list.index(nearest_neighbor))
-                for patient_sort_tuple in clusters[cluster_id]:
-                    if (patient_sort_tuple[2] == nearest_neighbor):
+        mask_series = (engagement_starts_df.injury_severity == 'high')
+        for gb in [engagement_starts_df[mask_series].groupby('patient_sort'), engagement_starts_df[~mask_series].groupby('patient_sort')]:
+            for patient_sort, patient_sort_df in gb:
+                
+                # Get locations list
+                locations_list = patient_sort_df.location_tuple.tolist()
+                
+                # Pop the nearest neighbor off the locations list and add it to the engagement order
+                # Assume no patients are in the exact same spot
+                while locations_list:
+                    nearest_neighbor = nu.get_nearest_neighbor(player_location, locations_list)
+                    nearest_neighbor = locations_list.pop(locations_list.index(nearest_neighbor))
+                    mask_series = (engagement_starts_df.location_tuple == nearest_neighbor)
+                    if mask_series.any():
+                        patient_sort_tuple = tuple(list(engagement_starts_df[mask_series].T.to_dict(orient='list').values())[0])
                         ideal_engagement_order.append(patient_sort_tuple)
-                        break
-                player_location = nearest_neighbor
-            
+                    player_location = nearest_neighbor
+        
         if verbose: print(f'\n\nideal_engagement_order: {ideal_engagement_order}')
         
         return ideal_engagement_order
@@ -1185,7 +1248,7 @@ class FRVRSUtilities(object):
                 sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
         
         Notes:
-            Only SORT categories included in `self.right_ordering_list` are considered.
+            Only SORT categories included in `self.patient_sort_order` are considered.
             None values in the resulting lists indicate missing interactions.
         """
         
@@ -1193,8 +1256,8 @@ class FRVRSUtilities(object):
         sort_dict = {}
         for sort, patient_sort_df in scene_df.groupby('patient_sort'):
             
-            # Only consider SORT categories included in the right_ordering_list
-            if sort in self.right_ordering_list:
+            # Only consider SORT categories included in the patient_sort_order
+            if sort in self.patient_sort_order:
                 
                 # Loop through the SORT patients to add their first interactions to the action list
                 action_list = []
@@ -1209,7 +1272,7 @@ class FRVRSUtilities(object):
         
         # Get the whole ideal and actual sequences
         ideal_sequence = []
-        for sort in self.right_ordering_list: ideal_sequence.extend(sort_dict.get(sort, []))
+        for sort in self.patient_sort_order: ideal_sequence.extend(sort_dict.get(sort, []))
         ideal_sequence = Series(data=ideal_sequence)
         actual_sequence = ideal_sequence.sort_values(ascending=True)
         
@@ -1328,13 +1391,24 @@ class FRVRSUtilities(object):
         return last_controlled_time
     
     
+    def get_triage_priority_data_frame(self, scene_df, verbose=False):
+        input_features = [
+            'injury_id', 'injury_severity', 'injury_required_procedure', 'patient_salt', 'patient_sort', 'patient_pulse', 'patient_breath',
+            'patient_hearing', 'patient_mood', 'patient_pose'
+            ]
+        columns_list = self.scene_groupby_columns + input_features
+        triage_priority_df = scene_df[columns_list].sort_values(['injury_severity', 'patient_sort'], ascending=[True, True])
+        
+        return triage_priority_df
+    
+    
     def get_engagement_starts_order(self, scene_df, verbose=False):
         """
         Get the chronological order of engagement starts for each patient in a scene.
         
         Parameters:
             - scene_df (pd.DataFrame): DataFrame containing scene data, including patient IDs, action types,
-              action ticks, location IDs, and patient sorts.
+              action ticks, location IDs, patient sorts, and DTR triage priority model predictions.
             - verbose (bool, optional): If True, prints debug information. Default is False.
         
         Returns:
@@ -1343,6 +1417,8 @@ class FRVRSUtilities(object):
                 - engagement_start (int): The action tick at which the engagement started.
                 - location_tuple ((int, int)): A tuple representing the (x, z) coordinates of the engagement location.
                 - patient_sort (str or None): The patient's SORT designation, if available.
+                - dtr_triage_priority_model_prediction (float): The patient's predicted priority
+                - injury_severity (str): The patient's severity
         """
         engagement_starts_list = []
         for patient_id, patient_df in scene_df.groupby('patient_id'):
@@ -1354,6 +1430,17 @@ class FRVRSUtilities(object):
                 if mask_series.any()
                 else None
             )
+            
+            # Get the predicted priority
+            mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
+            predicted_priority = (
+                patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
+                if mask_series.any()
+                else None
+            )
+            
+            # Get the maximum injury severity
+            injury_severity = self.get_maximum_injury_severity(patient_df)
             
             # Check if the responder even interacted with this patient
             mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
@@ -1371,7 +1458,7 @@ class FRVRSUtilities(object):
                     location_tuple = (engagement_location[0], engagement_location[2])
                     
                     # Add engagement information to the list
-                    engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort)
+                    engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort, predicted_priority, injury_severity)
                     engagement_starts_list.append(engagement_tuple)
         
         # Sort the starts list chronologically
@@ -1944,6 +2031,16 @@ class FRVRSUtilities(object):
             display(patient_df)
         
         return engagement_count
+    
+    
+    @staticmethod
+    def get_maximum_injury_severity(patient_df, verbose=False):
+        mask_series = ~patient_df.injury_severity.isnull()
+        
+        # The first of the high/medium/low category
+        maximum_injury_severity = patient_df[mask_series].injury_severity.min()
+        
+        return maximum_injury_severity
     
     
     ### Injury Functions ###
