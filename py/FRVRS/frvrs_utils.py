@@ -1758,6 +1758,24 @@ class FRVRSUtilities(object):
         return is_tag_correct
     
     
+    def is_patient_severly_injured(self, patient_df, verbose=False):
+        """
+        Determines whether the patient has severe injuries.
+        
+        Parameters:
+            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            bool or np.nan: Returns True if the patient has severe injuries, False if the patient has no severe injuries.
+        """
+        is_patient_injured = False
+        for injury_id, injury_df in patient_df.groupby('injury_id'):
+            is_patient_injured = is_patient_injured or self.is_injury_severe(injury_df, verbose=verbose)
+        
+        return is_patient_injured
+    
+    
     def get_first_patient_interaction(self, patient_df, verbose=False):
         """
         Get the action tick of the first patient interaction of a specific type.
