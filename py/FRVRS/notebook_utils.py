@@ -2090,6 +2090,25 @@ class NotebookUtilities(object):
         return df
     
     
+    @staticmethod
+    def one_hot_encode(df, columns):
+        '''
+        One-hot encodes the given columns in the given data frame.
+        
+        Args:
+            df: A data frame.
+            columns: A list of column names to encode.
+        
+        Returns:
+            A data frame with the encoded columns minus the given columns.
+        '''
+        
+        dummies = pd.get_dummies(df[columns], dummy_na=True)
+        df = pd.concat([df, dummies], axis='columns').drop(columns, axis='columns')
+        
+        return df
+    
+    
     def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
         """
         This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened
