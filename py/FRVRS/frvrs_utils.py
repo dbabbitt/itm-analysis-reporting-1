@@ -713,31 +713,29 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_injury_treated_count(scene_df, verbose=False):
+    def get_injury_treatments_count(scene_df, verbose=False):
         """
-        Calculates the number of patients who have received injury treatment in a given scene DataFrame.
+        Calculates the number of records where injury treatment attempts were logged for a given scene.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The number of patients who have received injury treatment.
+            int: The number of records where injury treatment attempts were logged.
         """
         
-        # Filter for patients with injury_treated set to True
+        # Filter for treatments with injury_treated set to True
         mask_series = (scene_df.injury_treated_injury_treated == True)
         
-        # Count the number of patients who have received injury treatment
-        injury_treated_count = scene_df[mask_series].shape[0]
-        
-        # If verbose is True, print additional information
+        # Count the number of treatments
+        injury_treatments_count = scene_df[mask_series].shape[0]
         if verbose:
-            print(f'Number of records where injuries were treated: {injury_treated_count}')
+            print(f'Number of records where injury treatment attempts were logged: {injury_treatments_count}')
             display(scene_df)
         
         # Return the count of records where injuries were treated
-        return injury_treated_count
+        return injury_treatments_count
     
     
     @staticmethod
@@ -787,15 +785,15 @@ class FRVRSUtilities(object):
             the right tool was applied after that.
         """
         
-        # Filter for patients with injury_treated set to True
-        mask_series = (scene_df.injury_treated_injury_treated == True)
-        
-        # Exclude cases where the FRVRS logger incorrectly logs injury_treated_injury_treated_with_wrong_treatment as True
-        # This addresses issues with the FRVRS logger logging multiple tool applications
-        mask_series &= (scene_df.injury_treated_injury_treated_with_wrong_treatment == False)
-        
-        # Count the number of patients whose injuries have been correctly treated
-        injury_correctly_treated_count = scene_df[mask_series].shape[0]
+        # Loop through each injury ID and make a determination if it's treated or not
+        injury_correctly_treated_count = 0
+        for injury_id, injury_df in scene_df.groupby('injury_id'):
+            
+            # Filter for injuries that have been treated and not wrong
+            treated_mask_series = ~injury_df.injury_treated_required_procedure.isnull()
+            treated_mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
+            
+            if injury_df[treated_mask_series].shape[0]: injury_correctly_treated_count += 1
         
         # If verbose is True, print additional information
         if verbose:
@@ -1327,13 +1325,20 @@ class FRVRSUtilities(object):
             float: Percentage of hemorrhage cases successfully controlled.
         """
         
-        # Filter for injuries requiring hemorrhage control procedures
-        mask_series = scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        hemorrhage_count = scene_df[mask_series].shape[0]
+        # Filter for hemorrhage-related injuries that have been recorded or treated
+        base_mask_series = scene_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        if verbose: print(f'Hemorrhage-related injuries that have been recorded or treated: {scene_df[base_mask_series].shape[0]}')
         
-        # Filter for hemorrhage-related injuries that have been treated
-        mask_series = scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        controlled_count = scene_df[mask_series].shape[0]
+        # Filter for injuries requiring hemorrhage control procedures
+        record_mask_series = base_mask_series & scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        if verbose: print(f'Injuries requiring hemorrhage control procedures: {scene_df[record_mask_series].shape[0]}')
+        hemorrhage_count = scene_df[record_mask_series].shape[0]
+        
+        # Filter for hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
+        treated_mask_series = base_mask_series & scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        treated_mask_series &= (scene_df.injury_treated_injury_treated_with_wrong_treatment == False)
+        if verbose: print(f"Hemorrhage-related injuries that have been treated: {scene_df[treated_mask_series].drop_duplicates(subset=['injury_id'], keep='last').shape[0]}")
+        controlled_count = scene_df[treated_mask_series].drop_duplicates(subset=['injury_id'], keep='last').shape[0]
         
         # Calculate the percentage of controlled hemorrhage-related injuries
         try: percent_controlled = 100 * controlled_count / hemorrhage_count
@@ -2126,10 +2131,7 @@ class FRVRSUtilities(object):
         """
         
         # Check if either the injury record or treatment record indicates hemorrhage
-        mask_series = injury_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        
-        # Include injuries treated with hemorrhage control procedures
-        mask_series |= injury_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
         
         # Check if the number of entries indicating hemorrhage control is between 1 and 2
         # (inclusive) to account for both injury_record and injury_treated scenarios
@@ -2141,6 +2143,22 @@ class FRVRSUtilities(object):
             display(injury_df)
         
         return is_hemorrhage
+    
+    
+    def is_injury_severe(self, injury_df, verbose=False):
+        """
+        Determine whether the given injury is severe based on the injury record or treatment record.
+        
+        Parameters:
+            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            bool: True if the injury is severe, False otherwise.
+        """
+        mask_series = (injury_df.injury_severity == 'high')
+        
+        return self.is_injury_hemorrhage(injury_df, verbose=verbose) and bool(injury_df[mask_series].shape[0])
     
     
     def is_bleeding_correctly_treated(self, injury_df, verbose=False):
