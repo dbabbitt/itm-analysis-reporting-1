@@ -1,0 +1,430 @@
+file_name,is_a_one_triage_file,logger_version,is_scene_aborted,session_uuid,session_file_date,responder_name,responder_type,site_name,encounter_layout
+All CSV files renamed by date/03.10.23.0753.csv,True,1.0,False,cf714cd2-2824-4ad2-8d98-3199b1df0bdb,2023-03-10 08:05:00,Cody K,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.10.23.0814.csv,True,1.3,False,040ba585-ccae-45ef-b4bd-a0e35ec222b0,2023-03-10 08:24:00,Mason D,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.10.23.0831.csv,True,1.3,False,40efaf29-70b3-435a-8847-bcd4235720be,2023-03-10 08:48:00,Kyle O,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.10.23.0855.csv,True,1.3,False,50e4351a-3afd-43ff-a65f-f84eaab0d0fd,2023-03-10 09:07:00,Kyle E,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.10.23.0925.csv,True,1.3,False,75865699-63f9-46de-9adc-6936ad7c7d46,2023-03-10 09:39:00,Nick R,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.10.23.1007.csv,True,1.3,False,7e340eb0-fda8-4eea-addc-5f554be907a5,2023-03-10 10:23:00,Mike P,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.10.23.1026.csv,True,1.3,False,1cfebb9a-6000-4742-81be-6103ebe168bc,2023-03-10 10:38:00,John S,Paramedic,West Licking,First 11
+All CSV files renamed by date/03.14.23.0759.csv,True,1.0,False,c8fb0ff7-403a-40d2-8ecb-6537bd4fae16,,,,,
+All CSV files renamed by date/03.14.23.0821.csv,True,1.3,False,fa155795-d519-45a5-89a4-0ee8c4ea756d,2023-03-14 08:21:08,Hendrick S,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.0840.csv,True,1.3,False,8d30008e-c05a-4b2d-8b1c-2e0857985912,2023-03-14 08:40:37,Bea C,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.0914.csv,True,1.3,False,c598ce3a-f613-4d50-8a2f-96cfab35de1c,2023-03-14 09:08:40,Stephanie W,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.0919.csv,True,1.0,False,43ce12a6-e8c6-446c-bc3a-1b8820b9490f,,,,,
+All CSV files renamed by date/03.14.23.0937.csv,True,1.3,False,d8e74818-ecc1-4f24-87aa-5dd9facfe20f,2023-03-14 09:37:51,Scott M,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1006.csv,True,1.3,False,37db3752-51c8-463f-94a5-2196b6854cf6,2023-03-14 10:05:57,Ben D,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1030.csv,True,1.3,False,590bdfe9-828c-4367-a783-75ec19d7b7d0,2023-03-14 10:30:31,Teresa K,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1052.csv,True,1.3,False,37ed31fb-6f8a-4cc0-b80e-ac4138e42405,2023-03-14 10:52:24,Nicholas G,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1117.csv,True,1.3,False,a275e363-d113-4f29-873c-a312f732ae0d,2023-03-14 11:17:09,Drew M,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1154.csv,True,1.3,False,13839608-6085-4a88-a8f2-74af9fd06a05,2023-03-14 11:53:35,Kathia G,M4-SY,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1214.csv,True,1.3,False,30479d0b-79c8-4672-84c2-5bce9ec0972b,,,,,
+All CSV files renamed by date/03.14.23.1219.csv,True,1.3,False,5da6af4d-f3bc-4e05-9c5b-cb7d5aa68e7e,,,,,
+All CSV files renamed by date/03.14.23.1221.csv,True,1.3,False,7f15ef99-9299-4306-a4c0-8a7fcd97b76b,2023-03-14 12:21:13,Halie S,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1247-405F.csv,True,1.0,False,00b2e9d8-c3bb-4d89-92c1-abce5c4a0655,2023-03-14 12:47:06,Abby H,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1247.csv,True,1.3,False,e9a830dc-ee6e-458b-ad43-84ee338a9bd2,,,,,
+All CSV files renamed by date/03.14.23.1306-405F.csv,True,1.3,False,1344120d-5834-4bbf-8f60-383a8752b512,2023-03-14 13:06:33,Elizabeth W,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1306.csv,True,1.0,False,b0bc6f05-879c-4538-b0c0-d91f20b0ac39,,,,,
+All CSV files renamed by date/03.14.23.1322.csv,True,1.3,False,b97662b0-aa86-4317-adae-7bce0e065eb5,2023-03-14 13:22:36,Alex L,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1339.csv,True,1.3,False,fe2602f0-e9e8-4913-8bf3-806852ce738a,2023-03-14 13:39:52,Annie L,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1403.csv,True,1.3,False,1663640c-5a60-4fa6-8bf4-249f41a693a5,2023-03-14 14:03:26,Hanna H,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1427.csv,True,1.3,False,0fb12cf8-dcf5-4110-b090-3b3271e9add6,2023-03-14 14:27:18,Adrianne M,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1447.csv,True,1.3,False,5de8dcc6-c6ab-43e5-9103-85c8d069cf4b,2023-03-14 14:46:13,Cody M,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1448.csv,True,1.3,False,f02dc87e-8f04-4ddd-90fd-74dce1206bd6,2023-03-14 14:48:01,Danny T,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1502.csv,True,1.3,False,a6470837-fcab-4478-bdbf-c27bdc3960ef,2023-03-14 15:02:51,Kyle M,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1535.csv,True,1.3,False,eb641af4-13da-4e13-a5dd-02eb0e7e6c23,2023-03-14 15:34:58,Sarah P,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1554.csv,True,1.3,False,6b704e43-9ef4-4d5c-b39b-40c41648f8d3,2023-03-14 15:53:51,Heather W,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1609.csv,True,1.3,False,2afd4e87-ac2a-4738-9e46-3b19d3385a32,2023-03-14 16:06:43,Aastha D,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/03.14.23.1621.csv,True,1.3,False,fc2ed173-5990-4461-9a20-ac856bbb946b,,,,,
+All CSV files renamed by date/03.14.23.1632.csv,True,1.0,False,d3ad6b20-821b-4821-a289-fe4eab2c940b,,,,,
+All CSV files renamed by date/03.14.23.1642.csv,True,1.0,False,8f02368f-5fc2-4553-a7b3-95b98a38387a,,,,,
+All CSV files renamed by date/03.15.23.0810.csv,True,1.3,False,79b80e8f-b8fe-40e0-86d2-9aa7edc2da59,,,,,
+All CSV files renamed by date/03.15.23.0843.csv,True,1.3,False,b05e5139-6dd4-41d2-adb5-aedfebb028a6,2023-03-15 08:34:49,Sienna W,M4-SY,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.0851.csv,True,1.3,False,b0ff9d39-598b-46b3-b3bc-1be3a791f10c,2023-03-15 08:51:50,Emma C,M4-SY,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.0919.csv,True,1.3,False,0fa439d6-476c-49a5-b478-48e3454974e1,2023-03-15 09:19:38,Henry W,EM-FAC,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.0944.csv,True,1.3,False,bcfe163a-fb5b-43f8-8351-cb71adbfd6af,,,,,
+All CSV files renamed by date/03.15.23.1058.csv,True,1.3,False,71197277-ba36-4a82-9ae0-0016e7756665,2023-03-15 10:58:50,Matt N,Unknown,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1232.csv,True,1.3,False,b3f3b351-c82b-47ef-81b5-0bce3be917f3,2023-03-15 12:32:41,Marie W,EM-RES2,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1240.csv,True,1.3,False,06303b89-128e-4bfb-9e6f-a843da3134f9,2023-03-15 12:33:36,Conor N,EM-RES2,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1255.csv,True,1.3,False,a98b7327-dfd7-43c2-86e7-b5080ec86806,2023-03-15 12:55:52,Saron C,EM-RES1,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1303.csv,True,1.3,False,4bac0722-bc76-4418-88f0-ccbbba469c5a,2023-03-15 13:03:42,Robert R,EM-RES1,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1328.csv,True,1.3,False,61dd1584-76e8-4536-9aeb-15276e646ff4,2023-03-15 13:27:41,Elizabeth H,EM-RES2,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1338.csv,True,1.0,False,f92400e2-63f5-4bb8-95b3-dcf065e17414,,,,,
+All CSV files renamed by date/03.15.23.1349.csv,True,1.3,False,dd601aee-8360-41f2-b89d-c37f3eb2c617,2023-03-15 13:49:31,Abby Z,M4-FM,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1352.csv,True,1.0,False,66cc58aa-8f53-4d06-b129-879fb3b08239,2023-03-15 13:52:47,Trent P,EM-RES1,OSUCOM,First 11
+All CSV files renamed by date/03.15.23.1404.csv,True,1.3,False,43313faf-6031-4433-be70-d5d828f55cff,2023-03-15 14:03:10,Ross B,M4-ATEM,OSUCOM,First 11
+All CSV files renamed by date/04.19.23.0946.csv,True,1.3,False,5ffacacb-a874-43d3-a399-3cb959505047,2023-04-19 09:46:00,Anthony M,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.0958.csv,True,1.3,False,fd1c7057-2c2d-4dec-9297-92ef0621c15e,2023-04-19 09:58:00,Kevin L,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1013.csv,True,1.3,False,f3cbb8a9-8d0c-48f0-ac0c-e379ac4d9411,2023-04-19 10:13:00,Bayden C,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1029.csv,True,1.3,False,f1b2887d-8ed3-499e-8663-0fb9bd909fbc,2023-04-19 10:29:00,Greg H,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1044.csv,True,1.3,False,f3228193-b6dc-41fa-a2ab-1c5085046347,2023-04-19 10:43:00,Andy V,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1057.csv,True,1.3,False,dfd3aa1c-7b73-43a7-80c0-80beeabcd985,,,,,
+All CSV files renamed by date/04.19.23.1109.csv,True,1.3,False,af8ec7e7-e34b-472d-98ea-2a78285c8de8,2023-04-19 11:09:00,Jason W,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1130.csv,False,1.3,False,1df10bfd-0f85-42ff-a873-36dfe05df77b,,,,,
+All CSV files renamed by date/04.19.23.1146.csv,True,1.3,False,d433b532-d35b-4fc6-b9fd-ed2e18e57c28,2023-04-19 11:38:00,Aaron P,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1207.csv,False,1.3,False,3228f729-d512-431a-bb96-d6f9aacb5d00,2023-04-19 12:07:00,Alec S,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1238.csv,True,1.0,False,e1d845d3-9874-449b-83ef-6c649073a868,2023-04-19 12:38:00,Drew G,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1310.csv,True,1.3,False,79426650-c950-40ee-816e-decddddd22e9,2023-04-19 01:10:00,Tom T,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1335.csv,True,1.3,False,34bef815-47b3-4977-91f7-3bb68803387a,2023-04-19 01:35:00,Frederick N,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1353.csv,True,1.3,False,6cc2fd2a-88a9-4ffa-9230-cfab1f206fce,2023-04-19 01:53:00,Anastacio R,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1411.csv,True,1.3,False,b2276063-07ef-40b9-8764-bfb5e064699c,2023-04-19 02:11:00,Josh R,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1432.csv,True,1.0,False,7407aba4-aef4-4012-be6c-a237d225809d,2023-04-19 02:32:00,Matthew C,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.19.23.1450.csv,False,1.3,False,2107820d-d55c-40bb-bb90-6b10c227664c,2023-04-19 02:50:00,Zach T,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.0845.csv,True,1.3,False,b792d8cf-a314-47ba-8da6-6998a8d735c2,2023-04-20 08:44:00,Sean M,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.0850.csv,True,1.3,False,788af03e-aeee-4d53-8c97-f0060df61932,2023-04-20 12:00:00,Dan D,EMT-Basic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.0908.csv,False,1.3,False,60d2041e-9b37-4c13-a73d-906e6ecebd01,2023-04-20 09:08:00,Jason M,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.0924.csv,True,1.3,False,f33f702d-4b79-43d9-b980-42dc10c2b882,2023-04-20 09:24:00,Kyle P,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.0948.csv,True,1.0,False,41f05171-141a-4df6-9d89-334331310c9b,2023-04-20 09:48:00,Ethan G,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1008.csv,True,1.0,False,63b272d4-ae7c-4cc3-8e5b-d474b09a44c2,2023-04-20 10:08:00,Jason M,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1036.csv,True,1.3,False,f7d9738a-35c1-4af0-8e98-5bf3a1cff310,2023-04-20 10:36:00,Justin F,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1106.csv,True,1.3,False,04acc8f2-1e64-47b2-9606-8d661f584aec,2023-04-20 12:00:00,Jim L,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1129.csv,True,1.3,False,48e95cfe-1dd7-4085-9662-c77827980bdd,2023-04-20 11:29:00,Justin W,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1147.csv,True,1.3,False,30d6a023-e0a3-4678-9ef2-6011964d225a,2023-04-20 11:47:00,Andy S,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1159.csv,True,1.3,False,1fb559e8-15c6-463a-bda8-79ca0bfc330f,2023-04-20 11:59:00,Devin P,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1224.csv,True,1.3,False,de04bec3-9503-467c-9c49-675720c4bab0,,,,,
+All CSV files renamed by date/04.20.23.1302.csv,True,1.3,False,fdb4a6d9-72ef-4af7-bdd4-a05ba354a300,2023-04-20 12:00:00,Grant E,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1321.csv,True,1.3,False,20168f93-040c-4290-aa7e-2b197825c9de,2023-04-20 13:21:00,Justin O,EMT-Basic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1337.csv,True,1.3,False,b5a82a5b-e259-4d87-bdb7-94f9cb1ce6ea,2023-04-20 13:37:00,Owen R,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1358.csv,True,1.0,False,dd46bfb4-d2df-4b1c-923f-5f3568a14f29,2023-04-20 13:58:00,Mike K,Paramedic,Madison Twp,First 11
+All CSV files renamed by date/04.20.23.1416.csv,True,1.0,False,2bc11b9d-374b-4ab7-9d87-967931962fe8,2023-04-20 02:16:00,Bryson P,EMT-Basic,Madison Twp,First 11
+All CSV files renamed by date/04.25.23.0934.csv,True,1.3,False,61dba1bb-2326-48f9-968f-9e0e4c867eee,,,,,
+All CSV files renamed by date/04.25.23.0956.csv,True,1.3,False,89ec8f32-0018-48e7-8cad-c86bd73257f2,,,,,
+All CSV files renamed by date/04.25.23.1013.csv,True,1.0,False,16359508-f91b-4f85-baeb-dade7d574a61,,,,,
+All CSV files renamed by date/04.25.23.1031.csv,True,1.3,False,84282ed0-0e63-44e0-8b39-5156e3c868d0,,,,,
+All CSV files renamed by date/04.25.23.1105.csv,True,1.0,False,ee694b2c-dad2-4b9a-acc9-4e025e1b299b,,,,,
+All CSV files renamed by date/04.25.23.1132.csv,True,1.3,False,33f3d2d4-49b4-43cf-80d4-cd7d5993aca4,,,,,
+All CSV files renamed by date/04.25.23.1231.csv,True,1.3,False,dcd4a197-ba73-4d2f-a2aa-8ff3206219b9,,,,,
+All CSV files renamed by date/04.25.23.1254.csv,True,1.0,False,2d511693-6144-45ee-89df-aba0ca629c84,,,,,
+All CSV files renamed by date/04.25.23.1322.csv,True,1.3,False,89f0e2ad-384b-4ef0-ab96-d865521f88ce,,,,,
+All CSV files renamed by date/04.25.23.1342.csv,True,1.0,False,eecb1d19-1d05-4725-9289-eb02d601cdf3,,,,,
+All CSV files renamed by date/04.25.23.1403.csv,True,1.3,False,21b0f09b-03b4-4af8-ac65-11ab1e5458d8,,,,,
+All CSV files renamed by date/11.30.20.0828.csv,True,1.0,False,0950437e-94b0-45bf-8d11-dd446fd0e4a2,,,,,
+All CSV files renamed by date/11.30.22.0740.csv,True,1.3,False,c849bff1-beb3-44ab-bdea-751d75878437,,,,,
+All CSV files renamed by date/11.30.22.0817.csv,True,1.0,False,6e3a5d8b-12c4-4afd-9a2e-619eb5b72b23,,,,,
+All CSV files renamed by date/11.30.22.0832.csv,True,1.0,False,5325cdbf-d627-4aba-b5b4-9a62240d599f,,,,,
+All CSV files renamed by date/11.30.22.0957.csv,True,1.0,False,67f7c9c2-a102-4f31-b22e-2004002e91c8,,,,,
+All CSV files renamed by date/11.30.22.1110.csv,True,1.0,False,2c981992-899d-46b1-b92c-d086e21118db,,,,,
+All CSV files renamed by date/11.30.22.1308.csv,True,1.3,False,054918a7-9634-40fe-8356-2ce0c9cc376f,,,,,
+All CSV files renamed by date/11.30.22.1331.csv,True,1.3,False,31d9c549-d016-4e44-8262-1d51b7adde29,,,,,
+All CSV files renamed by date/11.30.23.1358.csv,True,1.0,False,888de8e3-f293-4564-bc6a-9c1214f5064b,,,,,
+All CSV files renamed by date/12.01.22.0807.csv,True,1.0,False,c090fff8-5f81-40c5-b313-5fb7ce42ab9f,,,,,
+All CSV files renamed by date/12.01.22.0830.csv,True,1.0,False,bd13e705-6cf0-4adc-a628-c605c4ae6a3e,,,,,
+All CSV files renamed by date/12.01.22.1016.csv,True,1.0,False,e7ea73c9-dc1c-47cc-bb13-996b4069c73e,,,,,
+All CSV files renamed by date/12.01.22.1047.csv,True,1.3,False,56c0b2ce-d12c-440a-bcae-3d6163d5e494,,,,,
+All CSV files renamed by date/12.01.22.1236.csv,False,1.3,False,02c225ff-2cb4-4e3e-b111-fbafa3dbec76,,,,,
+All CSV files renamed by date/12.01.22.1245.csv,True,1.0,False,17962d45-8e90-4b50-86e7-77451042aac8,,,,,
+All CSV files renamed by date/12.01.22.1315.csv,True,1.3,False,6037b1d3-eff2-4317-9372-768236fbae91,,,,,
+All CSV files renamed by date/12.01.22.1346.csv,True,1.0,False,2270eaba-f9b5-4f96-8a5e-b69276846474,,,,,
+All CSV files renamed by date/12.01.22.1455.csv,True,1.0,False,0bfe46ef-6644-441e-a903-5445f2ee4fd5,,,,,
+All CSV files renamed by date/12.02.22.1253.csv,False,1.0,False,26cf9b5b-3395-49f1-a3e5-7fefd22b3a6b,,,,,
+All CSV files renamed by date/12.02.22.1403.csv,True,1.0,False,ea7d43f6-a7ed-4bc7-8002-f056ee415082,,,,,
+All CSV files renamed by date/12.02.22.1440.csv,False,1.3,False,ddf26e7a-10f4-4e7f-85d4-f147bea1acb5,,,,,
+All CSV files renamed by date/12.02.22.1450.csv,True,1.3,False,f7b46b02-bc04-42d6-a3aa-abd797948735,,,,,
+All CSV files renamed by date/12.06.22.0811.csv,True,1.0,False,ad39e17f-169a-4062-95af-cd6f194cdace,,,,,
+All CSV files renamed by date/12.06.22.1025.csv,True,1.0,False,72388f54-3a93-445e-b5fa-4a71640965fb,,,,,
+All CSV files renamed by date/12.06.22.1303.csv,True,1.3,False,a935b4f6-2300-41b3-bcd7-14cd70b222ed,,,,,
+All CSV files renamed by date/12.06.22.1331.csv,True,1.0,False,5c2a444a-9c8d-4c65-bef2-c5f47f6b258d,,,,,
+All CSV files renamed by date/12.06.22.1343.csv,False,1.3,False,14678e1f-aa1c-4a67-a31f-65dd3e2238ca,,,,,
+All CSV files renamed by date/12.06.22.1410.csv,True,1.0,False,2e8678fd-fdc4-40c2-8122-09f1e31b8d2a,,,,,
+All CSV files renamed by date/12.06.22.1434.csv,True,1.0,False,3165ffa6-6516-412b-a9c0-52bdecfa75e1,,,,,
+All CSV files renamed by date/12.07.22.0813.csv,False,1.0,False,e77c15e0-d0de-413d-a471-20a285e81387,2022-12-07 08:13:00,Will K,EMT-Basic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.07.22.0840.csv,True,1.0,False,a9804531-1ed7-4b97-b3c1-96784faf5228,2022-12-07 08:40:00,Kali S,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.07.22.1011.csv,True,1.0,False,7fcfbc5e-d5d2-431a-98ab-c3d9375e934e,2022-12-07 10:11:00,Tim A,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.07.22.1031.csv,False,1.0,False,5ebf3067-e1a6-4711-810d-60095452c24c,2022-12-07 10:31:00,J Moore,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.07.22.1231.csv,False,1.0,False,6f1a94ad-99cb-49a6-86f8-145e6c090fae,2022-12-07 12:31:00,Brad F,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.07.22.1249.csv,False,1.0,False,331f875e-eba1-4033-a502-6a888aee4e9c,2022-12-07 12:48:00,Walt S,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.07.22.1315.csv,True,1.0,False,634a2340-066c-4993-a7be-a7ff0481b6b0,2022-12-07 13:15:00,Kami P,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.0820.csv,True,1.3,False,836b793c-3094-49ae-b614-3e9c9ff7e330,2022-12-08 08:20:00,Justin M,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.0842.csv,True,1.0,False,48c426ae-e88c-49bd-8010-37dc7b042c95,2022-12-08 08:42:00,Jesse M,EMT-I,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.1018.csv,True,1.0,False,9a7ff4ee-e75c-490d-86d7-b917c066f9c1,2022-12-08 10:18:00,Jeff H,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.1039.csv,True,1.0,False,de327503-2f08-4562-9543-547cbabd52e1,2022-12-08 10:39:00,Zach W,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.1257.csv,True,1.0,False,62c1d3c9-f9ab-4475-81e4-ccbbaa166c9e,2022-12-08 12:57:00,Jillian B,EMT-Basic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.1325.csv,True,1.0,False,0940a9be-3ff5-4739-b04b-a7605c1ffa2f,2022-12-08 13:25:00,Frank M,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.1448.csv,False,1.3,False,c74476ed-d5ee-4318-86e0-fefebe5e32ee,2022-12-08 14:48:00,Kamryn S,EMT-Basic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.08.22.1508.csv,False,1.3,False,caeb519a-ca9f-45c5-a28b-2c2977194a6a,2022-12-08 15:08:00,Jarrod T,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.09.22.1325.csv,True,1.3,False,4219eddf-b044-43ad-9e01-c0333fc428c5,2022-12-09 13:25:00,Mike R,Paramedic,DCEMS-RND 1,DCEMS 11
+All CSV files renamed by date/12.09.22.1347.csv,True,1.0,False,af2f4603-a819-4d08-bc09-db30a910fc3f,2022-12-09 13:47:00,Mike C,EMT-Basic,DCEMS-RND 1,DCEMS 11
+DCEMS Round 2 only triage sessions/02f6a42e-5211-40ea-8384-824a83ab6760.csv,False,1.0,False,02f6a42e-5211-40ea-8384-824a83ab6760,2023-08-08 09:58:00,Tom C,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/03b398c5-6fc8-459c-9662-ce1e0babe4b1.csv,True,1.0,False,03b398c5-6fc8-459c-9662-ce1e0babe4b1,2023-08-03 02:10:00,Dan D,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/0786a1df-d010-4b1b-a99a-e00df486d479.csv,True,1.3,False,0786a1df-d010-4b1b-a99a-e00df486d479,2023-08-10 08:49:00,Hayden R,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/0b01cf49-87cc-4647-9f29-b8dff39dcd6c.csv,True,1.0,False,0b01cf49-87cc-4647-9f29-b8dff39dcd6c,2023-08-02 08:31:00,Mike C,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/1066671d-2a1d-4744-b66f-e4b48548701f.csv,True,1.3,False,1066671d-2a1d-4744-b66f-e4b48548701f,,,,,
+DCEMS Round 2 only triage sessions/13862ebb-4616-4d09-a725-c34661b6fa9c.csv,True,1.3,False,13862ebb-4616-4d09-a725-c34661b6fa9c,2023-08-10 11:43:00,David C,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/14f8e67c-bdc3-4c9c-9603-70cd51eb2367.csv,True,1.3,False,14f8e67c-bdc3-4c9c-9603-70cd51eb2367,2023-08-10 11:09:00,Paul T,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/1563e213-aaa4-4b79-84a1-8f917ea9f7a9.csv,True,1.3,False,1563e213-aaa4-4b79-84a1-8f917ea9f7a9,2023-08-08 11:51:00,Kyle G,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/1813599d-cfde-45f0-8555-428b57478ebb.csv,True,1.0,False,1813599d-cfde-45f0-8555-428b57478ebb,2023-08-01 02:41:00,Megan T,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/18e1dec6-b780-4e77-a6b9-f608f2483e53.csv,False,1.0,False,18e1dec6-b780-4e77-a6b9-f608f2483e53,2023-08-01 03:01:00,Andrew L,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/20e5782a-d6f7-4361-a590-7e710c176765.csv,True,1.3,False,20e5782a-d6f7-4361-a590-7e710c176765,2023-08-10 12:30:00,Jacob B,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/21526c63-79bb-4c7b-87c2-9e7525d8515f.csv,True,1.3,False,21526c63-79bb-4c7b-87c2-9e7525d8515f,,,,,
+DCEMS Round 2 only triage sessions/21577c78-0085-4962-a363-b88526e3c212.csv,True,1.3,False,21577c78-0085-4962-a363-b88526e3c212,2023-08-08 09:37:00,Scott S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/25de35e0-354f-4785-9738-31c44e37fcbc.csv,True,1.0,False,25de35e0-354f-4785-9738-31c44e37fcbc,2023-08-08 10:15:00,Matt B,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/2703ca93-175b-4351-b0be-c67e23438d8f.csv,True,1.3,False,2703ca93-175b-4351-b0be-c67e23438d8f,,,,,
+DCEMS Round 2 only triage sessions/36ebe99c-dcda-4677-945c-cb05f312d61c.csv,True,1.3,False,36ebe99c-dcda-4677-945c-cb05f312d61c,2023-08-08 01:56:00,Caitlin D,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/37daf3d7-4288-4954-a0bd-ca6872cf1e82.csv,True,1.0,False,37daf3d7-4288-4954-a0bd-ca6872cf1e82,2023-08-10 11:27:00,Tom Mc,EMT-I,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/3e4e23e4-ce9e-44b7-9a1e-6e2923b33123.csv,True,1.3,False,3e4e23e4-ce9e-44b7-9a1e-6e2923b33123,2023-08-08 11:44:00,Jeremiah R,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/44458d4a-3cce-4907-85e3-3db1375ce6bb.csv,False,1.0,False,44458d4a-3cce-4907-85e3-3db1375ce6bb,2023-08-09 12:41:00,Mike R,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/445ceb23-1514-4490-9aa6-f2fc55b5d28e.csv,True,1.0,False,445ceb23-1514-4490-9aa6-f2fc55b5d28e,2023-08-09 08:06:00,Thomas B,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/496ff2bf-605d-4654-b945-dc2b0aaea626.csv,False,1.0,False,496ff2bf-605d-4654-b945-dc2b0aaea626,2023-08-09 10:00:00,John R,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/4a504e80-0232-4978-9a63-7e503e86c5e3.csv,True,1.0,False,4a504e80-0232-4978-9a63-7e503e86c5e3,2023-08-02 01:25:00,Nate E,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/4f66ee10-3104-44ec-8d31-9e1c2b33f36d.csv,True,1.0,False,4f66ee10-3104-44ec-8d31-9e1c2b33f36d,2023-08-01 08:03:00,Seth R,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/54aaf31a-22bc-46f2-a810-8564161bf8d0.csv,True,1.0,False,54aaf31a-22bc-46f2-a810-8564161bf8d0,,,,,
+DCEMS Round 2 only triage sessions/5e1e1072-2244-4473-996d-e2cb337b805b.csv,False,1.0,False,5e1e1072-2244-4473-996d-e2cb337b805b,2023-08-01 10:06:00,Joshua C,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/638950ca-b008-4b14-bd07-933e16e7d8e0.csv,False,1.0,False,638950ca-b008-4b14-bd07-933e16e7d8e0,2023-08-02 09:56:00,Ryan S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/684d04c4-83c1-49b6-b798-ddd431438857.csv,False,1.0,False,684d04c4-83c1-49b6-b798-ddd431438857,2023-08-02 01:02:00,Brian S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/68f0ccd0-ecbc-4b90-b5d1-83d9517995b8.csv,True,1.0,False,68f0ccd0-ecbc-4b90-b5d1-83d9517995b8,2023-08-02 08:11:00,Nate M,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/693461dd-b8f6-4c60-92b6-bd1db0ffcac8.csv,True,1.0,False,693461dd-b8f6-4c60-92b6-bd1db0ffcac8,2023-08-09 10:17:00,Matt W,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/6d681ea4-2632-4ede-a5d6-6e493c5ebd53.csv,True,1.0,False,6d681ea4-2632-4ede-a5d6-6e493c5ebd53,2023-07-27 13:23:00,Jacob R,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/716087c9-37c5-43b8-93ab-18339caefcd2.csv,True,1.3,False,716087c9-37c5-43b8-93ab-18339caefcd2,2023-08-03 12:38:00,Casey S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/71a7d2ce-2dea-4bec-8348-028e74fcd092.csv,True,1.0,False,71a7d2ce-2dea-4bec-8348-028e74fcd092,2023-08-01 07:51:00,Victoria H,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/7c2549d4-97a4-4389-bd03-029396714f59.csv,True,1.3,False,7c2549d4-97a4-4389-bd03-029396714f59,,,,,
+DCEMS Round 2 only triage sessions/84f8db6a-1993-493f-b6cb-609ac3b45107.csv,True,1.0,False,84f8db6a-1993-493f-b6cb-609ac3b45107,2023-08-03 10:12:00,Steve A,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/86c4cdb2-0073-43fb-b60a-dc13fa46a9ca.csv,True,1.3,False,86c4cdb2-0073-43fb-b60a-dc13fa46a9ca,,,,,
+DCEMS Round 2 only triage sessions/8832990e-c81c-45c4-96d5-3ca57a75cbe6.csv,True,1.3,False,8832990e-c81c-45c4-96d5-3ca57a75cbe6,2023-08-08 10:49:00,Randall W,Other HP,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/8ec8afba-8533-4915-898f-5769c1258c61.csv,False,1.3,False,8ec8afba-8533-4915-898f-5769c1258c61,,,,,
+DCEMS Round 2 only triage sessions/8f0e76c0-6ff2-4974-b0f7-3f416e22fa90.csv,True,1.3,False,8f0e76c0-6ff2-4974-b0f7-3f416e22fa90,2023-08-01 09:52:00,Pete H,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/91f31664-43ad-4405-a763-0d58a8afc36a.csv,True,1.0,False,91f31664-43ad-4405-a763-0d58a8afc36a,,,,,
+DCEMS Round 2 only triage sessions/93b9eeb6-e902-4466-a518-a992c61146f8.csv,True,1.3,False,93b9eeb6-e902-4466-a518-a992c61146f8,2023-08-03 10:47:00,Jeremy M,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/983344e9-c2d0-46b5-a8ba-da6e37d04f1d.csv,True,1.0,False,983344e9-c2d0-46b5-a8ba-da6e37d04f1d,2023-08-02 10:12:00,Sam Sk,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/98bad4ce-f31e-40f1-898e-ed38755e0340.csv,False,1.0,False,98bad4ce-f31e-40f1-898e-ed38755e0340,2023-08-02 12:36:00,Tim A,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/a3113d56-505e-40c1-8c39-09baacc82efa.csv,True,1.0,False,a3113d56-505e-40c1-8c39-09baacc82efa,2023-08-08 08:11:00,Ashley D,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Amy R.csv,False,1.3,False,15bb887b-b5ae-49a5-8a23-f2ac7808f11f,2023-07-26 07:48:00,Amy R,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/b51296d5-52e5-40db-8448-91a5d935b661.csv,True,1.3,False,b51296d5-52e5-40db-8448-91a5d935b661,2023-08-10 10:18:00,Adena G,,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/b97bfac8-c52a-4019-8494-1e9ae36df7cf.csv,True,1.3,False,b97bfac8-c52a-4019-8494-1e9ae36df7cf,2023-08-08 02:18:00,Lisa H,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/be877d11-14b3-432c-be4d-b3e0d236f6e1.csv,True,1.0,False,be877d11-14b3-432c-be4d-b3e0d236f6e1,,,,,
+DCEMS Round 2 only triage sessions/c7587083-faff-4bca-b678-ae156bd4a3f0.csv,True,1.3,False,c7587083-faff-4bca-b678-ae156bd4a3f0,2023-08-03 12:18:00,Griffin T,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/ccfb5502-64b5-4d1c-9ca3-63f522330041.csv,True,1.3,False,ccfb5502-64b5-4d1c-9ca3-63f522330041,2023-07-26 02:42:00,Glen K,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/cde3b77f-2e08-4b86-9081-d0faa979cbc8.csv,True,1.3,False,cde3b77f-2e08-4b86-9081-d0faa979cbc8,2023-08-16 11:02:00,Angela U,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Corey G.csv,True,1.0,False,a62cdd57-739f-4f98-b0bd-45e7aced8b73,2023-07-27 01:43:00,Corey G,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Craig D.csv,False,1.3,False,6816890d-3882-41a2-ac2a-e6c4171d2da2,2023-07-25 03:01:00,Craig D,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/d45ac4ce-be32-424b-a50f-fa8007af4fed.csv,True,1.0,False,d45ac4ce-be32-424b-a50f-fa8007af4fed,2023-08-02 01:40:00,Mike S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/dee5a112-91db-43bb-8564-dc4ce4195a88.csv,True,1.0,False,dee5a112-91db-43bb-8564-dc4ce4195a88,2023-08-02 10:29:00,Sam St,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/dfa09c43-42f4-4cb5-8f74-381744e0d320.csv,True,1.0,False,dfa09c43-42f4-4cb5-8f74-381744e0d320,2023-08-09 12:19:00,Walt S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/e4b17764-a999-4733-b455-1968588effc8.csv,True,1.0,False,e4b17764-a999-4733-b455-1968588effc8,2023-08-01 12:29:00,Dana P,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/e8be80d7-4d11-430d-93b7-bc15e1bfb445.csv,True,1.3,False,e8be80d7-4d11-430d-93b7-bc15e1bfb445,2023-08-08 07:54:00,Bryan J,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/ed079161-e1ea-4682-9abb-d0b1736e3ee5.csv,True,1.0,False,ed079161-e1ea-4682-9abb-d0b1736e3ee5,2023-08-03 08:34:00,Adriana S,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Elena S.csv,True,1.0,False,f9b3d74c-634d-40fc-9183-4c4bad4e7548,2023-07-27 02:03:00,Elena S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/f2eb6809-d49f-4c3e-be62-91f1538ed437.csv,True,1.0,False,f2eb6809-d49f-4c3e-be62-91f1538ed437,2023-08-03 09:06:00,Dan J,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/f3447210-99fa-4990-8c1b-747a1e916e79.csv,True,1.0,False,f3447210-99fa-4990-8c1b-747a1e916e79,2023-08-03 09:58:00,Erin R,EMT-Basic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/f5dafd5d-461d-4440-9e3b-1b1c899df9e4.csv,True,1.3,False,f5dafd5d-461d-4440-9e3b-1b1c899df9e4,2023-08-10 10:48:00,Shawn C,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/ffecd29f-ebcd-45d2-9bc1-12adf56cfff8.csv,True,1.3,False,ffecd29f-ebcd-45d2-9bc1-12adf56cfff8,2023-08-08 11:30:00,Jason S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Frank M.csv,True,1.3,False,e1a418bf-114d-4b8e-b0a1-0a0ff144c0aa,2023-07-27 10:49:00,Frank M,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Galen S..csv,True,1.0,False,77c15654-dbf5-46da-8e84-fe418cdf1c59,2023-07-26 10:32:00,Galen S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Heather M.csv,True,1.3,False,401ce554-b556-4a10-88bb-424ed5c22ea8,2023-07-27 01:17:00,Heather M,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Hilary D.csv,True,1.0,False,d58c859d-d4b5-4213-88d7-df5c168fa646,2023-07-25 02:41:00,Hillary D,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Jacob R.csv,False,1.3,False,3cc73a53-22fd-4ce9-8696-6308f544dea2,,,,,
+DCEMS Round 2 only triage sessions/James G.csv,True,1.0,False,d1445846-942b-422f-86ae-8b2a0b6133a8,2023-07-25 12:38:00,James G,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Jeff M.csv,True,1.3,False,17b80e0f-9afe-497f-b3a3-0549c14a4ba9,2023-07-26 09:58:00,Jeff M,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Jesse M.csv,True,1.0,False,d8fe95a5-c1fb-4239-8b42-12d28c35e111,2023-07-25 09:23:00,Jesse M,EMT-I,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Joe F.csv,True,1.0,False,251a4532-ff1f-4182-91ce-4215786a339a,2023-07-25 01:59:00,Joe F,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Josh H.csv,True,1.0,False,83b96c70-e156-4c10-b463-800c5a468ec5,2023-07-27 02:28:00,Josh H,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Kali S..csv,False,1.0,False,18bfbc11-3c60-4c89-94cc-ac8fea028318,2023-07-26 12:28:00,Kali S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Kami P.csv,True,1.0,False,5c5c9f6e-555c-4ae2-a0c0-7e5eb84a92dd,2023-07-26 12:48:00,Kami P,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Kelly F.csv,True,1.3,False,1507bc88-8d4c-4c1c-9291-210f790c96e3,2023-07-25 12:15:00,Kelly F,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Ryan K.csv,True,1.0,False,55dcba1c-2bfc-4028-984d-5c288c8b7265,2023-07-25 08:54:00,Ryan K,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Sam M.csv,True,1.3,False,ec6c5444-8f8b-417d-a840-f1173d3a0296,2023-07-26 01:52:00,Sam M,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Sarah S..csv,True,1.0,False,ccfca520-5965-40d9-9a19-f0a19d208fdc,2023-07-26 10:12:00,Sarah S,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Tony B.csv,True,1.0,False,f807c3e2-6cc7-4670-8488-4dd13431cc15,2023-07-25 10:38:00,Tony B,Paramedic,DCEMS-RND 2,First 11
+DCEMS Round 2 only triage sessions/Will K.csv,True,1.0,False,73df0a9b-795b-41e2-97a0-6079fb7ca739,2023-07-26 08:20:00,Will K,EMT-Basic,DCEMS-RND 2,First 11
+Disaster Day 2022/ARG_1019.csv,True,1.0,False,33b51683-fa6a-4dd3-82e5-de08bcc17c14,,,,,
+Disaster Day 2022/AS_0836.csv,True,1.3,False,6cb3d605-3736-4255-bf3b-92473d9df21e,,,,,
+Disaster Day 2022/AW_0237.csv,True,1.0,False,2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06,,,,,
+Disaster Day 2022/BT_919.csv,True,1.0,False,a437d61b-adad-424f-9714-83382548fda2,,,,,
+Disaster Day 2022/CH_1115.csv,True,1.0,False,09f30ce2-1507-4ef1-84f1-3dfb3e6d9b86,,,,,
+Disaster Day 2022/DG_1251.csv,True,1.3,False,578a0cfc-a256-4002-ba75-4a61d700204e,,,,,
+Disaster Day 2022/EG_1112.csv,False,1.3,False,2930a371-1187-4b98-adfc-19e095637e48,,,,,
+Disaster Day 2022/HU_151.csv,True,1.3,False,e249e6d4-c3d4-4e20-8fab-fa35fd59e871,,,,,
+Disaster Day 2022/IP_236.csv,True,1.3,False,851741c0-56b3-4702-8fd2-c946376840fc,,,,,
+Disaster Day 2022/JD_0147.csv,True,1.3,False,9cd41444-4813-45a8-81d0-a1d068184c8e,,,,,
+Disaster Day 2022/JF_0946.csv,False,1.3,False,433e6561-c9cd-48c8-91a8-0318e656996f,,,,,
+Disaster Day 2022/JS_1016.csv,False,1.3,False,aec5d448-c4e6-4af7-8e36-d258c7bb6f96,,,,,
+Disaster Day 2022/JS_321.csv,True,1.3,False,27c2fa44-ba05-417c-ae95-317b06870dc9,,,,,
+Disaster Day 2022/KF_951.csv,True,1.0,False,b26d61b8-9027-4b16-ba3b-bc337bc6e681,,,,,
+Disaster Day 2022/KS_1212.csv,True,1.0,False,e353eee2-a630-40cd-b931-a98b12edd9b6,,,,,
+Disaster Day 2022/MG_0208.csv,True,1.3,False,9e0f8037-329b-496a-817a-daae83aa941f,,,,,
+Disaster Day 2022/MH_1135.csv,False,1.3,False,991af001-9414-4a2d-8079-0663c4ddb1e4,,,,,
+Disaster Day 2022/ML_903.csv,False,1.0,False,321db911-0ed9-421a-9219-bb02038ac660,,,,,
+Disaster Day 2022/MO_0101.csv,True,1.3,False,b1ebfdc9-6338-4b80-ba76-947f8690bd91,,,,,
+Disaster Day 2022/MT_0950.csv,False,1.3,False,090d0988-3f81-4603-87e2-477538a6750c,,,,,
+Disaster Day 2022/NL_0253.csv,True,1.3,False,d11543fd-7b7f-4883-bd69-afe8128a76f2,,,,,
+Disaster Day 2022/PP_259.csv,True,1.0,False,38b995b3-fb77-4fda-b0b4-21f062ed6a38,,,,,
+Disaster Day 2022/RM_1031.csv,False,1.3,False,26f08763-076e-4531-a6f7-f00232f664bd,,,,,
+Disaster Day 2022/RV_0316.csv,True,1.3,False,1046b7d9-5848-41b5-9438-cf0dc4dc6cbe,,,,,
+Disaster Day 2022/SL_1155.csv,False,1.0,False,a98adcc8-6df3-470d-961d-8248246472ca,,,,,
+Disaster Day 2022/TW_1019.csv,False,1.3,False,0dc94285-ba14-40aa-9745-76504502a5cc,,,,,
+Disaster Day 2022/WB_1230.csv,True,1.0,False,09024025-1320-4891-aefa-a497744ed3e2,,,,,
+Disaster Day 2022/ZG_1056.csv,True,1.0,False,1044049f-c7e0-4a16-98d3-e3826b4b8bfc,,,,,
+Disaster Day 2022/ZS_1000.csv,False,1.3,False,9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13,,,,,
+Double runs removed/22.03.15.0824r.csv,True,1.0,False,fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,,,,,
+Double runs removed/22.03.15.0844r.csv,True,1.0,False,5d916938-e0d3-47ee-8f55-12bf12283ee1,,,,,
+Double runs removed/22.03.15.0848r.csv,True,1.0,False,a40659ab-dfbf-43ab-91cb-72a48a82c426,,,,,
+Double runs removed/22.03.15.0926r.csv,True,1.0,False,86366fd5-be94-43cc-a9e9-7c98609c0a66,,,,,
+Double runs removed/22.03.15.1036r.csv,True,1.0,False,aca8a746-0f72-4c8d-87a5-70d836da8768,,,,,
+Double runs removed/22.03.15.1037r.csv,True,1.0,False,0667e56a-abe6-4097-9a56-33735f4855e2,,,,,
+Double runs removed/22.03.15.1052r.csv,True,1.0,False,c82e4612-4e6f-4834-bc7f-6092327c44fa,,,,,
+Double runs removed/22.03.15.1106r.csv,True,1.0,False,22e2c9a3-b93f-4f7f-896a-ca188c78505b,,,,,
+Double runs removed/22.03.15.1119r.csv,True,1.0,False,4ca5febe-0a4b-4c77-bd3e-6632ae760df1,,,,,
+Double runs removed/22.03.15.1131r.csv,True,1.0,False,677d1c18-f292-4bcb-924d-52f5e762533f,,,,,
+Double runs removed/22.03.15.1315r.csv,True,1.0,False,16373b36-886a-4d0d-9015-474d29d139cc,,,,,
+Double runs removed/22.03.15.1316r.csv,True,1.0,False,9f03c005-21d8-4934-8bb9-7152347726d1,,,,,
+Double runs removed/22.03.16.0844r.csv,True,1.0,False,daca96a3-b61d-4087-9747-cea6fd7e3a43,,,,,
+Double runs removed/22.03.16.0901r.csv,True,1.0,False,ce41d7c3-9e24-4840-865f-3b7f7cd828f7,,,,,
+Double runs removed/22.03.16.0917r.csv,True,1.0,False,67ed9702-0908-454a-8069-7ca4a6f2bee9,,,,,
+Double runs removed/22.03.16.0931r.csv,True,1.0,False,d8c6bf18-14e3-45f2-bfa1-9a904cb4b82b,,,,,
+Double runs removed/22.03.16.0955r.csv,True,1.0,False,75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,,,,,
+Double runs removed/22.03.16.1019r.csv,True,1.0,False,5c720560-85f5-4bb1-9aa5-41207f6259a2,,,,,
+Double runs removed/22.03.16.1039r.csv,True,1.0,False,009b848c-ea64-4f22-bd40-711213a3d327,,,,,
+Double runs removed/22.03.16.1104r.csv,True,1.0,False,0d3e0c62-db52-40f9-9ee8-7fc84a1dcbf2,,,,,
+Double runs removed/22.03.16.1123r.csv,True,1.0,False,24205a11-9e21-44b7-a565-985454c90776,,,,,
+Double runs removed/22.03.16.1141r.csv,True,1.0,False,46c273a6-b8be-46ea-96cd-72903780d43d,,,,,
+Double runs removed/22.03.16.1156r.csv,True,1.0,False,b541f5c9-93fe-4ef3-9fe7-38493b8aa8a8,,,,,
+Double runs removed/22.03.16.1215r.csv,True,1.0,False,0b1d6253-9c4f-43b7-8217-6f0e486aabe7,,,,,
+Double runs removed/22.12.01.1546r.csv,True,1.0,False,91a84c6a-ba27-4116-8644-e5373b3588de,,,,,
+Double runs removed/23.03.03.1321r.csv,True,1.0,False,e8cb6ae0-6d68-410f-88fc-4adf30d8bfac,2023-03-03 01:39:00,Nate B,Paramedic,Union County,First 11
+Double runs removed/23.03.15.1203r.csv,True,1.0,False,a7804ee3-6a1c-4462-957a-17976a540483,2023-03-15 12:20:34,Christian B,EM-RES1,OSUCOM,First 11
+Double runs removed/23.08.03.0755r.csv,True,1.0,False,ab1f8cd1-8d65-45da-b087-89b25ff46c66,2023-08-03 08:08:00,Jeff C,Paramedic,DCEMS-RND 2,First 11
+v.1.0/Clean 06574b6f-ab02-432c-9a65-7b031218a270.csv,False,1.0,False,06574b6f-ab02-432c-9a65-7b031218a270,,,,,
+v.1.0/Clean 0b891add-e0c3-463d-948d-7f491f1d10ef.csv,False,1.0,False,0b891add-e0c3-463d-948d-7f491f1d10ef,,,,,
+v.1.0/Clean 158e6365-673b-4030-8b36-6704be5996a2.csv,True,1.0,False,158e6365-673b-4030-8b36-6704be5996a2,,,,,
+v.1.0/Clean 2310f107-d9d2-418e-a2d7-dd7a17924544.csv,True,1.0,False,2310f107-d9d2-418e-a2d7-dd7a17924544,,,,,
+v.1.0/Clean 274ce308-c366-4829-b9cc-d535b51d16d3.csv,False,1.0,False,274ce308-c366-4829-b9cc-d535b51d16d3,,,,,
+v.1.0/Clean 3878e926-44dc-4ab4-af28-d4293f0d499b.csv,False,1.0,False,3878e926-44dc-4ab4-af28-d4293f0d499b,,,,,
+v.1.0/Clean 46294fe1-e286-4772-8f71-3335a69a8dd2.csv,False,1.0,False,46294fe1-e286-4772-8f71-3335a69a8dd2,,,,,
+v.1.0/Clean 47bb9911-6096-4703-8551-4a0f8cb1063a.csv,True,1.0,False,47bb9911-6096-4703-8551-4a0f8cb1063a,,,,,
+v.1.0/Clean 4a219569-77fc-41c2-8244-42888b25fec3.csv,True,1.0,False,4a219569-77fc-41c2-8244-42888b25fec3,,,,,
+v.1.0/Clean 5254234d-5334-44d0-a97b-d0e098c129a9.csv,True,1.0,False,5254234d-5334-44d0-a97b-d0e098c129a9,,,,,
+v.1.0/Clean 5fa79a8e-a2df-4bb9-b614-f3ce36a5edb0.csv,False,1.0,False,5fa79a8e-a2df-4bb9-b614-f3ce36a5edb0,,,,,
+v.1.0/Clean 724fdf45-3165-43b8-b9ca-dc07102d2886.csv,False,1.0,False,724fdf45-3165-43b8-b9ca-dc07102d2886,,,,,
+v.1.0/Clean 845d87c5-7b8b-4bf3-bfc6-91c74e285243.csv,False,1.0,False,845d87c5-7b8b-4bf3-bfc6-91c74e285243,,,,,
+v.1.0/Clean a2a38d07-04c7-4b02-839e-83dc10e516ba.csv,True,1.0,False,a2a38d07-04c7-4b02-839e-83dc10e516ba,,,,,
+v.1.0/Clean a6b7ff70-3b20-48c6-86e8-744bad19f7d7.csv,True,1.0,False,a6b7ff70-3b20-48c6-86e8-744bad19f7d7,,,,,
+v.1.0/Clean bacbc0b6-5966-4fda-a5dd-c67a3cd9b2c9.csv,True,1.0,False,bacbc0b6-5966-4fda-a5dd-c67a3cd9b2c9,,,,,
+v.1.0/Clean c6a48228-d864-4b20-93dd-8ad0d78d59c0.csv,True,1.0,False,c6a48228-d864-4b20-93dd-8ad0d78d59c0,,,,,
+v.1.0/Clean d2e4a5df-fd46-47d5-923f-089f1ee4e1ec.csv,True,1.0,False,d2e4a5df-fd46-47d5-923f-089f1ee4e1ec,,,,,
+v.1.0/Clean d90f2d85-e91c-4f12-b070-5929d95be1c5.csv,True,1.0,False,d90f2d85-e91c-4f12-b070-5929d95be1c5,,,,,
+v.1.0/Clean db948ce1-783d-4dff-a1f8-2be49570f327.csv,True,1.0,False,db948ce1-783d-4dff-a1f8-2be49570f327,,,,,
+v.1.0/Clean e78faf41-7bbd-410b-8750-e4e72b951216.csv,True,1.0,False,e78faf41-7bbd-410b-8750-e4e72b951216,,,,,
+v.1.0/Clean e9632b3b-77f2-4f62-a778-5d6a4242aa3b.csv,False,1.0,False,e9632b3b-77f2-4f62-a778-5d6a4242aa3b,,,,,
+v.1.0/Clean Marty1.csv,True,1.0,False,e662a811-40fd-4bf2-b9df-d2d221d07b4a,2023-03-03 10:39:00,Brian C,Paramedic,Union County,First 11
+v.1.0/Clean Marty10.csv,True,1.0,False,2aeb2057-cbe2-494c-98a5-fc2bdbef1355,2023-03-07 10:11:00,Don T,TEMS,Union County,First 11
+v.1.0/Clean Marty11.csv,True,1.0,False,33e7d6b6-2868-42e6-8967-d6890efb87a7,2023-03-07 10:25:00,Aaron L,TEMS,Union County,First 11
+v.1.0/Clean Marty12.csv,True,1.0,False,400b6351-6f35-4f5b-98a6-db100a2fefd8,2023-03-07 10:39:00,Doug H,Paramedic,Union County,First 11
+v.1.0/Clean Marty13.csv,True,1.0,False,3f142e7e-1e18-4341-947a-71f2e7f35aa2,2023-03-07 10:57:00,Russell L,Paramedic,Union County,First 11
+v.1.0/Clean Marty14.csv,True,1.0,False,868d644f-b0fa-4ef7-b29e-88bac6fb5740,2023-03-07 11:10:00,Kevin C,Paramedic,Union County,First 11
+v.1.0/Clean Marty16.csv,True,1.0,False,524d5418-62f4-4834-9f1e-47202c30e667,2023-03-07 11:47:00,Steve H,Paramedic,Union County,First 11
+v.1.0/Clean Marty17.csv,True,1.0,False,e2458ea2-71b5-4b84-bbfb-dff0a969c9d2,2023-03-07 12:31:00,Wayne B,Paramedic,Union County,First 11
+v.1.0/Clean Marty18.csv,True,1.0,False,f90a6408-2a18-49b4-8a6b-edee48e7e9ed,,,,,
+v.1.0/Clean Marty2.csv,True,1.0,False,ce1350af-79e6-475b-9c07-802b5ff5ca0a,2023-03-03 10:57:00,Braedon B,Paramedic,Union County,First 11
+v.1.0/Clean Marty20.csv,True,1.0,False,e3c2b4c6-d8b7-4b64-8cd0-7ca0e622f9b5,2023-03-07 01:42:00,Nick A,Paramedic,Union County,First 11
+v.1.0/Clean Marty20.csv,True,1.0,False,e3c2b4c6-d8b7-4b64-8cd0-7ca0e622f9b5,2023-03-07 13:42:00,Nick A,Paramedic,Union County,First 11
+v.1.0/Clean Marty21.csv,True,1.0,False,ee8a8276-1a9c-41fd-a793-a3eb6d337ff7,2023-03-07 01:57:00,Luke S,Paramedic,Union County,First 11
+v.1.0/Clean Marty21.csv,True,1.0,False,ee8a8276-1a9c-41fd-a793-a3eb6d337ff7,2023-03-07 13:57:00,Luke S,Paramedic,Union County,First 11
+v.1.0/Clean Marty22.csv,True,1.0,False,b878d528-37a0-4175-a294-16c4de1fd5eb,2023-03-07 02:22:00,Matt P,Paramedic,Union County,First 11
+v.1.0/Clean Marty22.csv,True,1.0,False,b878d528-37a0-4175-a294-16c4de1fd5eb,2023-03-07 14:22:00,Matt P,Paramedic,Union County,First 11
+v.1.0/Clean Marty23.csv,True,1.0,False,b52e71ec-050f-49e1-b495-7c36f5537544,2023-03-08 10:17:00,Harley J,Nurse,Union County,First 11
+v.1.0/Clean Marty24.csv,True,1.0,False,89c48e7e-780f-4f1b-a846-fc0f4fd9841c,2023-03-08 10:57:00,Travis H,Paramedic,Union County,First 11
+v.1.0/Clean Marty25.csv,True,1.0,False,4ce8ee9f-45ea-42a8-86df-0038c777f040,2023-03-08 11:34:00,Brandon K,Paramedic,Union County,First 11
+v.1.0/Clean Marty3.csv,True,1.0,False,d4f8b28e-a0a3-4969-a156-5bf86e4794ba,2023-03-03 11:12:00,Tony R,Paramedic,Union County,First 11
+v.1.0/Clean Marty4.csv,True,1.0,False,5c8b0274-379c-40ca-b6ff-b846f9e14ad5,2023-03-03 11:31:00,Jonathan H,EMT-Basic,Union County,First 11
+v.1.0/Clean Marty5.csv,True,1.0,False,5dce5abe-7ded-46e7-8d07-b2e2cd76ef55,2023-03-03 11:47:00,Clayton S,Paramedic,Union County,First 11
+v.1.0/Clean Marty6.csv,True,1.0,False,30a49dd8-c08a-4994-a622-57647670b5bb,2023-03-03 12:06:00,Nathan W,Paramedic,Union County,First 11
+v.1.0/Clean Marty7.csv,True,1.0,False,206da802-d38f-4f3a-98e3-44f99481479d,2023-03-03 12:31:00,Robert R,Paramedic,Union County,First 11
+v.1.0/Clean Marty9.csv,True,1.0,False,e2e599c8-8e48-487f-9f95-a0a382432ca5,2023-03-03 01:57:00,Andy M,Paramedic,Union County,First 11
+v.1.0/clean-04882754-51a0-4e5b-9617-b200e3609116.csv,True,1.0,False,04882754-51a0-4e5b-9617-b200e3609116,2023-06-07 10:37:00,Treston E,Paramedic,Franklin Twp,First 11
+v.1.0/clean-0b41cfdc-0891-4d1d-91ea-ac86fa54a34c.csv,True,1.0,False,0b41cfdc-0891-4d1d-91ea-ac86fa54a34c,2023-06-23 11:03:00,Marek M,EMT-Basic,Franklin Twp,First 11
+v.1.0/clean-14a344df-eee2-4fd1-b182-e3cdacd9026c.csv,True,1.0,False,14a344df-eee2-4fd1-b182-e3cdacd9026c,2023-05-31 09:27:00,Steven D,Paramedic,Franklin Twp,First 11
+v.1.0/clean-1e7d274d-f393-4888-9f28-4de53b0260e3.csv,False,1.0,False,1e7d274d-f393-4888-9f28-4de53b0260e3,2023-05-11 11:37:00,Fred H,Paramedic,Plain Twp,First 11
+v.1.0/clean-25309ebf-8ca2-4678-af43-2d4030eb1c5d.csv,True,1.0,False,25309ebf-8ca2-4678-af43-2d4030eb1c5d,2023-05-11 10:10:00,Chris S,Paramedic,Plain Twp,First 11
+v.1.0/clean-2be0000b-9e0b-414f-a540-c495ffc28404.csv,True,1.0,False,2be0000b-9e0b-414f-a540-c495ffc28404,,,,,
+v.1.0/clean-2d920452-cfa3-41f4-95de-36b62a023900.csv,True,1.0,False,2d920452-cfa3-41f4-95de-36b62a023900,2023-06-23 10:48:00,Josh A,Paramedic,Franklin Twp,First 11
+v.1.0/clean-2dd0d21c-1633-47de-848a-317df7ea3180.csv,False,1.0,False,2dd0d21c-1633-47de-848a-317df7ea3180,,,,,
+v.1.0/clean-2df4352b-22b9-4a9f-9c2c-6031978251e1.csv,True,1.0,False,2df4352b-22b9-4a9f-9c2c-6031978251e1,2023-05-10 10:20:00,Joe H,Paramedic,Plain Twp,First 11
+v.1.0/clean-3459b742-650d-4c82-bb7b-db84a843cc66.csv,False,1.0,False,3459b742-650d-4c82-bb7b-db84a843cc66,2023-06-23 10:35:00,Tanner S,Paramedic,Franklin Twp,First 11
+v.1.0/clean-3817ac9f-7150-46de-80aa-1b376f6c8a62.csv,False,1.0,False,3817ac9f-7150-46de-80aa-1b376f6c8a62,,,,,
+v.1.0/clean-39f689fe-757c-4546-9ded-b695808be738.csv,False,1.0,False,39f689fe-757c-4546-9ded-b695808be738,,,,,
+v.1.0/clean-4226ad6c-bb0a-4df0-8c4a-64c312927578.csv,True,1.0,False,4226ad6c-bb0a-4df0-8c4a-64c312927578,2023-05-11 10:54:00,James H,EMT-Basic,Plain Twp,First 11
+v.1.0/clean-446f0cb1-dceb-40f4-8bba-db5c07f67571.csv,False,1.0,False,446f0cb1-dceb-40f4-8bba-db5c07f67571,,,,,
+v.1.0/clean-4727e60f-7e08-4595-b565-b6e80b7a8d87.csv,True,1.0,False,4727e60f-7e08-4595-b565-b6e80b7a8d87,,,,,
+v.1.0/clean-51f8d40c-9550-4ef1-a71c-e030c0a08f29.csv,True,1.0,False,51f8d40c-9550-4ef1-a71c-e030c0a08f29,2023-06-07 10:19:00,Dan G,Paramedic,Franklin Twp,First 11
+v.1.0/clean-52e2653e-2230-4d8a-929b-e2a12dcb56c4.csv,True,1.0,False,52e2653e-2230-4d8a-929b-e2a12dcb56c4,2023-05-09 10:23:00,Josh K,Paramedic,Plain Twp,First 11
+v.1.0/clean-5aca0157-02d0-4409-a4fe-f64d03fd34a1.csv,True,1.0,False,5aca0157-02d0-4409-a4fe-f64d03fd34a1,2023-05-09 08:49:00,Grant E,Paramedic,Plain Twp,First 11
+v.1.0/clean-6774cf2a-7728-4387-8788-934246a1e906.csv,False,1.0,False,6774cf2a-7728-4387-8788-934246a1e906,2023-05-11 09:06:00,Jason B,Paramedic,Plain Twp,First 11
+v.1.0/clean-6d21f440-1c45-4c53-ad64-4edb92a94e25.csv,True,1.0,False,6d21f440-1c45-4c53-ad64-4edb92a94e25,,,,,
+v.1.0/clean-705ac61e-38b7-4b89-8778-4ea58bad18a6.csv,True,1.0,False,705ac61e-38b7-4b89-8778-4ea58bad18a6,,,,,
+v.1.0/clean-741e494b-63ff-4ea2-ad88-657f2276045d.csv,True,1.0,False,741e494b-63ff-4ea2-ad88-657f2276045d,2023-05-10 10:54:00,Nick Y,Paramedic,Plain Twp,First 11
+v.1.0/clean-7994d633-9b4d-475e-8e49-51cb6e4fea4b.csv,False,1.0,False,7994d633-9b4d-475e-8e49-51cb6e4fea4b,,,,,
+v.1.0/clean-7b239b94-a052-4a1f-929c-123a94426327.csv,True,1.0,False,7b239b94-a052-4a1f-929c-123a94426327,2023-05-10 09:30:00,David S,Paramedic,Plain Twp,First 11
+v.1.0/clean-7dacebd5-f16e-4faa-8a00-f738b7d04e3b.csv,True,1.0,False,7dacebd5-f16e-4faa-8a00-f738b7d04e3b,2023-05-09 11:26:00,Todd M,Paramedic,Plain Twp,First 11
+v.1.0/clean-7de52180-d823-4f9e-9003-aeab8139970b.csv,False,1.0,False,7de52180-d823-4f9e-9003-aeab8139970b,2023-06-23 10:06:00,Tommy H,Paramedic,Franklin Twp,First 11
+v.1.0/clean-7e75d331-2643-4271-a67e-af24bff68001.csv,True,1.0,False,7e75d331-2643-4271-a67e-af24bff68001,,,,,
+v.1.0/clean-7f639dc1-fce0-4aa9-b76a-c355894d05ed.csv,True,1.0,False,7f639dc1-fce0-4aa9-b76a-c355894d05ed,2023-06-07 09:50:00,Jake H,Paramedic,Franklin Twp,First 11
+v.1.0/clean-81d7c616-7896-4e0a-9cfc-155590686377.csv,True,1.0,False,81d7c616-7896-4e0a-9cfc-155590686377,2023-06-07 09:20:00,Skyler R,Paramedic,Franklin Twp,First 11
+v.1.0/clean-8581c1f8-a4e8-4245-ac73-2bd671237001.csv,True,1.0,False,8581c1f8-a4e8-4245-ac73-2bd671237001,2023-05-11 10:41:00,Derek C,Paramedic,Plain Twp,First 11
+v.1.0/clean-868cbf3b-f04a-4e1a-a207-95881d529378.csv,True,1.0,False,868cbf3b-f04a-4e1a-a207-95881d529378,2023-05-09 11:07:00,John P,EMT-Basic,Plain Twp,First 11
+v.1.0/clean-8ceb28a3-e268-4930-a1c6-84cac4f6239c.csv,True,1.0,False,8ceb28a3-e268-4930-a1c6-84cac4f6239c,2023-06-07 09:05:00,Kevin M,Paramedic,Franklin Twp,First 11
+v.1.0/clean-8f6097ce-795d-483a-a811-e6a5423bc59d.csv,True,1.0,False,8f6097ce-795d-483a-a811-e6a5423bc59d,2023-05-09 09:11:00,Jim K,Paramedic,Plain Twp,First 11
+v.1.0/clean-9179223d-a6e0-4612-8200-40f30d05c11e.csv,True,1.0,False,9179223d-a6e0-4612-8200-40f30d05c11e,2023-05-31 09:11:00,James N,Paramedic,Franklin Twp,First 11
+v.1.0/clean-926de73a-7764-4409-920e-b2416cb57f9b.csv,True,1.0,False,926de73a-7764-4409-920e-b2416cb57f9b,2023-06-23 11:17:00,Matt B,Paramedic,Franklin Twp,First 11
+v.1.0/clean-93d6665a-9210-4bb9-b084-69d6e7335d04.csv,False,1.0,False,93d6665a-9210-4bb9-b084-69d6e7335d04,,,,,
+v.1.0/clean-95a83c35-3575-461a-9a53-8aa09c8afa62.csv,False,1.0,False,95a83c35-3575-461a-9a53-8aa09c8afa62,,,,,
+v.1.0/clean-97401484-055e-4590-9a11-7d911c42564b.csv,True,1.0,False,97401484-055e-4590-9a11-7d911c42564b,2023-05-31 08:36:00,Mike R,Paramedic,Franklin Twp,First 11
+v.1.0/clean-992d4672-7993-44ba-890c-0d8605ccefdd.csv,True,1.0,False,992d4672-7993-44ba-890c-0d8605ccefdd,2023-05-09 09:38:00,Chris D,Paramedic,Plain Twp,First 11
+v.1.0/clean-9d142377-69d6-4622-958d-a29a6a0a0d21.csv,True,1.0,False,9d142377-69d6-4622-958d-a29a6a0a0d21,2023-05-09 08:35:00,Travis D,Paramedic,Plain Twp,First 11
+v.1.0/clean-9fac5a9d-0f55-4473-9744-f7100561354f.csv,True,1.0,False,9fac5a9d-0f55-4473-9744-f7100561354f,2023-06-07 10:56:00,Scott M,Paramedic,Franklin Twp,First 11
+v.1.0/clean-a0987257-801e-44c5-a1ad-81e0083bfa46.csv,False,1.0,False,a0987257-801e-44c5-a1ad-81e0083bfa46,,,,,
+v.1.0/clean-a118a19a-0126-48ea-9d7b-7762f8e99926.csv,True,1.0,False,a118a19a-0126-48ea-9d7b-7762f8e99926,,,,,
+v.1.0/clean-a1cb9dd5-e62b-4085-99d8-688e0a3856ee.csv,True,1.0,False,a1cb9dd5-e62b-4085-99d8-688e0a3856ee,2023-05-10 11:16:00,Colby R,Paramedic,Plain Twp,First 11
+v.1.0/clean-ad2137d0-d5aa-4a4e-af02-e327993c6d41.csv,True,1.0,False,ad2137d0-d5aa-4a4e-af02-e327993c6d41,,,,,
+v.1.0/clean-b0a0d36e-4fb8-43b7-a966-d730e1130945.csv,True,1.0,False,b0a0d36e-4fb8-43b7-a966-d730e1130945,2023-05-10 11:50:00,Phill R,Paramedic,Plain Twp,First 11
+v.1.0/clean-b440a9ce-e511-43e3-bc20-c9b2bed11005.csv,True,1.0,False,b440a9ce-e511-43e3-bc20-c9b2bed11005,2023-06-07 09:33:00,Nick S,Paramedic,Franklin Twp,First 11
+v.1.0/clean-c12f8355-5a14-4ccc-bde4-d8038cae9220.csv,True,1.0,False,c12f8355-5a14-4ccc-bde4-d8038cae9220,2023-05-11 10:28:00,Joe P,Paramedic,Plain Twp,First 11
+v.1.0/clean-c51a263e-fca1-4d93-929a-2c644cc441c6.csv,True,1.0,False,c51a263e-fca1-4d93-929a-2c644cc441c6,2023-05-31 10:58:00,Eric P,Paramedic,Franklin Twp,First 11
+v.1.0/clean-c993d63e-166e-45fa-9cb3-07908a234428.csv,True,1.0,False,c993d63e-166e-45fa-9cb3-07908a234428,2023-06-07 10:03:00,Eli M,Paramedic,Franklin Twp,First 11
+v.1.0/clean-cc319a3d-a27d-44a2-a594-ff5cecd9ee9a.csv,True,1.0,False,cc319a3d-a27d-44a2-a594-ff5cecd9ee9a,2023-05-11 12:15:00,Scott H,Paramedic,Plain Twp,First 11
+v.1.0/clean-cdc7b0ec-a883-4705-9b55-b618d429808e.csv,True,1.0,False,cdc7b0ec-a883-4705-9b55-b618d429808e,2023-05-09 10:39:00,Kennedy G,EMT-Basic,Plain Twp,First 11
+v.1.0/clean-d06f4054-097a-46ef-a88e-69665bf42389.csv,True,1.0,False,d06f4054-097a-46ef-a88e-69665bf42389,2023-05-10 10:36:00,Nick K,Paramedic,Plain Twp,First 11
+v.1.0/clean-d0e616ae-5458-42c9-a013-55b8f3b51b06.csv,True,1.0,False,d0e616ae-5458-42c9-a013-55b8f3b51b06,2023-05-09 09:23:00,Matt T,Paramedic,Plain Twp,First 11
+v.1.0/clean-d2c676e2-fddc-4872-9a26-b621d6585df9.csv,True,1.0,False,d2c676e2-fddc-4872-9a26-b621d6585df9,2023-05-10 11:31:00,Kevin S,Paramedic,Plain Twp,First 11
+v.1.0/clean-d347b967-5e20-4527-95dd-3a0fdf73af1d.csv,True,1.0,False,d347b967-5e20-4527-95dd-3a0fdf73af1d,2023-05-09 09:56:00,Clinton L,Paramedic,Plain Twp,First 11
+v.1.0/clean-d605640c-fde5-412f-8d33-b9b2744172ab.csv,True,1.0,False,d605640c-fde5-412f-8d33-b9b2744172ab,2023-05-31 10:45:00,Colton B,Paramedic,Franklin Twp,First 11
+v.1.0/clean-d66b46ee-9057-43d6-8108-179b83820a37.csv,False,1.0,False,d66b46ee-9057-43d6-8108-179b83820a37,2023-05-09 10:52:00,Jason M,Paramedic,Plain Twp,First 11
+v.1.0/clean-d81f6dfd-3151-415f-a354-541240e7fbae.csv,True,1.0,False,d81f6dfd-3151-415f-a354-541240e7fbae,2023-05-10 12:15:00,Matt M,EMT-Basic,Plain Twp,First 11
+v.1.0/clean-deecd930-56c6-4679-87d8-7d6627631934.csv,True,1.0,False,deecd930-56c6-4679-87d8-7d6627631934,2023-05-31 10:30:00,Nick M,Paramedic,Franklin Twp,First 11
+v.1.0/clean-e072d31f-2592-4c7e-8709-3db1e111240c.csv,True,1.0,False,e072d31f-2592-4c7e-8709-3db1e111240c,2023-06-07 08:53:00,Corey T,Paramedic,Franklin Twp,First 11
+v.1.0/clean-e0b7bea0-1cf9-42a8-a02c-e8699a962779.csv,True,1.0,False,e0b7bea0-1cf9-42a8-a02c-e8699a962779,2023-06-23 09:51:00,Joe S,Paramedic,Franklin Twp,First 11
+v.1.0/clean-e2ddf563-3583-404c-917a-8eb7bec38471.csv,True,1.0,False,e2ddf563-3583-404c-917a-8eb7bec38471,2023-05-11 09:20:00,Beau Z,Paramedic,Plain Twp,First 11
+v.1.0/clean-e96d123b-455b-4335-9278-988ff9ba8ecf.csv,True,1.0,False,e96d123b-455b-4335-9278-988ff9ba8ecf,2023-05-31 09:57:00,Nick T,Paramedic,Franklin Twp,First 11
+v.1.0/clean-f0a4acff-b70a-4577-a27e-df492cb9638d.csv,True,1.0,False,f0a4acff-b70a-4577-a27e-df492cb9638d,2023-05-31 09:41:00,Elijah S,Paramedic,Franklin Twp,First 11
+v.1.0/clean-f80ef1e8-e0d1-4106-9f18-4024ff911e22.csv,False,1.0,False,f80ef1e8-e0d1-4106-9f18-4024ff911e22,2023-05-31 08:56:00,Kyle C,Paramedic,Franklin Twp,First 11
+v.1.0/clean-ff97fc56-c803-4aa7-b419-35e0ac17d0b3.csv,True,1.0,False,ff97fc56-c803-4aa7-b419-35e0ac17d0b3,2023-05-09 10:08:00,Austin G,Paramedic,Plain Twp,First 11
+v.1.0/clean-max1.csv,True,1.0,False,60d42fe6-f30b-4eab-ba01-644dde714e4d,2023-04-21 12:21:00,Alan Y,Paramedic,Madison Twp,First 11
+v.1.0/clean-max10.csv,True,1.0,False,87efcdf5-9090-4fa5-afac-25c778924e9a,2023-04-21 09:39:00,Jason L,Paramedic,Madison Twp,First 11
+v.1.0/clean-max11.csv,True,1.0,False,f68ce2b4-67dc-4829-89fc-cfe478391148,2023-04-21 09:52:00,Jeremy I,Paramedic,Madison Twp,First 11
+v.1.0/clean-max12.csv,True,1.0,False,3ce991bc-a2d1-46fd-a3a4-d3611e946ed7,2023-04-21 09:13:00,Jon E,Paramedic,Madison Twp,First 11
+v.1.0/clean-max13.csv,True,1.0,False,8b5e760a-1f1a-4a28-bd8f-768bc5f216c6,2023-04-21 11:27:00,Mike B,Paramedic,Madison Twp,First 11
+v.1.0/clean-max14.csv,True,1.0,False,313259a4-162f-44f6-8479-92e4554a1464,2023-04-21 10:55:00,Nick R,Paramedic,Madison Twp,First 11
+v.1.0/clean-max15.csv,True,1.0,False,3bac8365-232a-4be0-a551-c5214b9f0706,2023-04-21 12:40:00,Rashid T,Paramedic,Madison Twp,First 11
+v.1.0/clean-max16.csv,True,1.0,False,cf953248-e6cf-4544-95ce-4843d0f56f10,2023-04-21 10:20:00,Ron G,Paramedic,Madison Twp,First 11
+v.1.0/clean-max17.csv,True,1.0,False,efed5e1c-4427-47df-8e3f-9e4714880169,2023-04-21 12:03:00,Sydney M,EMT-Basic,Madison Twp,First 11
+v.1.0/clean-max2.csv,True,1.0,False,6925e2d8-3f2b-443d-8e59-7bac6684464d,2023-04-21 08:58:00,Alex M,Paramedic,Madison Twp,First 11
+v.1.0/clean-max3.csv,True,1.0,False,6909d3b6-a43a-4d26-8c83-9bd8a5ea569f,2023-04-21 11:52:00,Amber L,Paramedic,Madison Twp,First 11
+v.1.0/clean-max4.csv,True,1.0,False,3435501b-192a-457f-9763-7985f7975784,2023-04-21 11:12:00,Anthony S,Paramedic,Madison Twp,First 11
+v.1.0/clean-max5.csv,True,1.0,False,7a1065f6-1a05-4d2b-bf14-73cafdb9ce4b,2023-04-21 10:42:00,Ben D,Paramedic,Madison Twp,First 11
+v.1.0/clean-max6.csv,True,1.0,False,45118b95-412c-4a2d-9373-8f7da3428ca8,2023-04-21 12:55:00,Brendon S,Paramedic,Madison Twp,First 11
+v.1.0/clean-max7.csv,True,1.0,False,736e625b-bb07-452c-9302-b37bb27cbf43,2023-04-21 08:46:00,Dustin P,Paramedic,Madison Twp,First 11
+v.1.0/clean-max8.csv,True,1.0,False,ee42b183-00b2-4bb9-89b9-0b38b73e69eb,2023-04-21 08:33:00,Howard H,Paramedic,Madison Twp,First 11
+v.1.0/clean-max9.csv,True,1.0,False,cc6ad812-608f-4fc3-bae6-f837aaa056c0,2023-04-21 10:31:00,Issac W,Paramedic,Madison Twp,First 11
+v.1.3/0b630a14-5acd-4e11-99df-8f59d804f807.csv,False,1.3,False,0b630a14-5acd-4e11-99df-8f59d804f807,,,,,
+v.1.3/2a5106e4-984c-42a7-9edd-2fb3e6325d10.csv,False,1.3,False,2a5106e4-984c-42a7-9edd-2fb3e6325d10,,,,,
+v.1.3/2faaa766-35d7-4fff-910c-f7b044bb913b.csv,False,1.3,False,2faaa766-35d7-4fff-910c-f7b044bb913b,,,,,
+v.1.3/384462fc-969c-42cd-944f-726634faba4f.csv,False,1.3,False,384462fc-969c-42cd-944f-726634faba4f,,,,,
+v.1.3/666ce61c-2ebc-40ee-902e-6f6aa42801ad.csv,False,1.3,False,666ce61c-2ebc-40ee-902e-6f6aa42801ad,,,,,
+v.1.3/8b979d02-dbea-4d22-864b-7031425815cb.csv,True,1.3,False,8b979d02-dbea-4d22-864b-7031425815cb,,,,,
+v.1.3/a3d6d913-7755-4e8d-a174-d5e491c4eac7.csv,False,1.3,False,a3d6d913-7755-4e8d-a174-d5e491c4eac7,,,,,
+v.1.3/b06475e0-5ddd-4ff8-ba82-abf5331d6c9c.csv,False,1.3,False,b06475e0-5ddd-4ff8-ba82-abf5331d6c9c,,,,,
+v.1.3/b0f6e371-e548-4e1d-adc1-92891a6ca6ca.csv,True,1.3,False,b0f6e371-e548-4e1d-adc1-92891a6ca6ca,,,,,
+v.1.3/b11f14c2-8de9-4247-9753-1434cb392804.csv,False,1.3,False,b11f14c2-8de9-4247-9753-1434cb392804,,,,,
+v.1.3/d0f826d3-a6db-4a6a-9ceb-5e17e3ff3d17.csv,False,1.3,False,d0f826d3-a6db-4a6a-9ceb-5e17e3ff3d17,,,,,
+v.1.3/d9d58da9-9bdc-41ea-90fe-4c84db4635d9.csv,True,1.3,False,d9d58da9-9bdc-41ea-90fe-4c84db4635d9,,,,,
+v.1.3/ebc4fb38-01c3-4296-b22d-34adf70e0d43.csv,True,1.3,False,ebc4fb38-01c3-4296-b22d-34adf70e0d43,,,,,
+v.1.3/f8b5cbd1-0abe-483b-8b16-956044dc0119.csv,True,1.3,False,f8b5cbd1-0abe-483b-8b16-956044dc0119,,,,,
+v.1.3/fde2c201-36fc-4123-bf42-f1bff1b24969.csv,True,1.3,False,fde2c201-36fc-4123-bf42-f1bff1b24969,,,,,
+v.1.3/ff4c3532-5924-45b6-9a6a-d0d3274b6ef0.csv,True,1.3,False,ff4c3532-5924-45b6-9a6a-d0d3274b6ef0,,,,,
