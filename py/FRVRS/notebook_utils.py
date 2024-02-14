@@ -2867,11 +2867,11 @@ class NotebookUtilities(object):
             if groupby_column[0] in ['A', 'U']: ana = 'an'
             else: ana = 'a'
             label = f'{leader_designation.title()} {label_infix} {ana} {groupby_column} {label_suffix}'.strip()
-
+            
             # Convert the array to a 2-D array with a single row
             reshape_tuple = (1, -1)
             color = face_color_dict[groupby_column].reshape(reshape_tuple)
-
+            
             # Plot and annotate all points from the index
             for leader_name, row_series in df.iterrows():
                 if groupby_column not in used_list:
