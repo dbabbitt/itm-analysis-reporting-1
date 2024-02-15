@@ -1428,43 +1428,38 @@ class FRVRSUtilities(object):
         engagement_starts_list = []
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             
-            # Get the cluster ID, if available
-            mask_series = ~patient_df.patient_sort.isnull()
-            patient_sort = (
-                patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
-                if mask_series.any()
-                else None
-            )
-            
-            # Get the predicted priority
-            mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
-            predicted_priority = (
-                patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
-                if mask_series.any()
-                else None
-            )
-            
-            # Get the maximum injury severity
-            injury_severity = self.get_maximum_injury_severity(patient_df)
-            
             # Check if the responder even interacted with this patient
             mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
             if mask_series.any():
+                df = patient_df[mask_series].sort_values('action_tick')
                 
-                # Get the list of engagements as action ticks
-                engagements_list = patient_df[mask_series].action_tick
-                mask_series = patient_df.action_tick.isin(engagements_list) & ~patient_df.location_id.isnull()
-                if mask_series.any():
-                    df = patient_df[mask_series].sort_values('action_tick')
-                    
-                    # Get the first engagement start and location
-                    engagement_start = df.iloc[0].action_tick
-                    engagement_location = eval(df.iloc[0].location_id) # Evaluate string to get tuple
-                    location_tuple = (engagement_location[0], engagement_location[2])
-                    
-                    # Add engagement information to the list
-                    engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort, predicted_priority, injury_severity)
-                    engagement_starts_list.append(engagement_tuple)
+                # Get the first engagement start and location
+                engagement_start = df.iloc[0].action_tick
+                engagement_location = eval(df.iloc[0].location_id) # Evaluate string to get tuple
+                location_tuple = (engagement_location[0], engagement_location[2])
+                
+                # Get the cluster ID, if available
+                mask_series = ~patient_df.patient_sort.isnull()
+                patient_sort = (
+                    patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
+                    if mask_series.any()
+                    else None
+                )
+                
+                # Get the predicted priority
+                mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
+                predicted_priority = (
+                    patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
+                    if mask_series.any()
+                    else None
+                )
+                
+                # Get the maximum injury severity
+                injury_severity = self.get_maximum_injury_severity(patient_df)
+                
+                # Add engagement information to the list
+                engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort, predicted_priority, injury_severity)
+                engagement_starts_list.append(engagement_tuple)
         
         # Sort the starts list chronologically
         engagement_order = sorted(engagement_starts_list, key=lambda x: x[1], reverse=False)
@@ -1758,7 +1753,7 @@ class FRVRSUtilities(object):
         return is_tag_correct
     
     
-    def is_patient_severly_injured(self, patient_df, verbose=False):
+    def is_patient_severly_hemorrhaging(self, patient_df, verbose=False):
         """
         Determines whether the patient has severe injuries.
         
@@ -2151,9 +2146,8 @@ class FRVRSUtilities(object):
         # Check if either the injury record or treatment record indicates hemorrhage
         mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
         
-        # Check if the number of entries indicating hemorrhage control is between 1 and 2
-        # (inclusive) to account for both injury_record and injury_treated scenarios
-        is_hemorrhage = bool(1 <= injury_df[mask_series].shape[0] <= 2)
+        # Check if the number of log entries indicating hemorrhage control is not zero
+        is_hemorrhage = bool(injury_df[mask_series].shape[0])
         
         # If verbose is True, print additional information
         if verbose:
