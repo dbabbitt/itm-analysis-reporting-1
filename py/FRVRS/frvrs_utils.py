@@ -2679,12 +2679,12 @@ class FRVRSUtilities(object):
         # Construct the full path to the file
         file_path = osp.join(sub_directory, file_name)
         
-        # Attempt to read CSV file with header
+        # Attempt to read CSV file using pandas
         try:
             version_number = '1.0'
             file_df = pd.read_csv(file_path, header=None, index_col=False)
         
-        # If unsuccessful, try reading CSV without header
+        # If unsuccessful, try reading CSV using a reader
         except:
             version_number = '1.3'
             rows_list = []
@@ -2701,7 +2701,7 @@ class FRVRSUtilities(object):
         
         # Find columns containing only version numbers
         VERSION_REGEX = re.compile(r'^\d\.\d$')
-        is_version_there = lambda x: re.match(VERSION_REGEX, str(x)) is not None
+        is_version_there = lambda x: bool(re.match(VERSION_REGEX, str(x)))
         srs = file_df.applymap(is_version_there, na_action='ignore').sum()
         columns_list = srs[srs == file_df.shape[0]].index.tolist()
         
