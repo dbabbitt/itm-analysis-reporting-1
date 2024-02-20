@@ -293,7 +293,7 @@ class NotebookUtilities(object):
 
     
     @staticmethod
-    def get_splits_list(ages_list):
+    def get_splits_list(ages_list, value_difference=1, verbose=False):
         """
         Divides a list of ages into sublists based on gaps in the age sequence.
         
@@ -305,13 +305,13 @@ class NotebookUtilities(object):
         """
         splits_list = []  # List to store sublists of consecutive ages
         current_list = []  # Temporary list to store the current consecutive ages
-        previous_age = ages_list[0] - 1  # Initialize with a value lower than the first age
+        previous_age = ages_list[0] - value_difference  # Initialize with a value lower than the first age
         
         # Iterate over the list of ages
         for age in ages_list:
             
-            # Check if there is a gap larger than 1 between the current age and the previous age
-            if age - previous_age > 1:
+            # Check if there is a gap (larger than value_difference) between the current age and the previous age
+            if age - previous_age > value_difference:
                 splits_list.append(current_list)  # Append the current_list to splits_list
                 current_list = []  # Reset the current_list
             current_list.append(age)  # Add the current age to the current_list
