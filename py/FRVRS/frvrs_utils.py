@@ -2684,7 +2684,7 @@ class FRVRSUtilities(object):
             version_number = '1.0'
             file_df = pd.read_csv(file_path, header=None, index_col=False)
         
-        # If unsuccessful, try reading CSV using a reader
+        # If unsuccessful, try using a reader
         except:
             version_number = '1.3'
             rows_list = []
