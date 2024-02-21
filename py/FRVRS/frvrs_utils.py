@@ -60,6 +60,10 @@ class FRVRSUtilities(object):
         self.scene_groupby_columns = ['session_uuid', 'scene_id']
         self.patient_groupby_columns = self.scene_groupby_columns + ['patient_id']
         self.injury_groupby_columns = self.patient_groupby_columns + ['injury_id']
+        self.modalized_columns = [
+            'patient_id', 'injury_id', 'location_id', 'patient_sort', 'patient_pulse', 'patient_salt', 'patient_hearing', 'patient_breath', 'patient_mood', 'patient_pose', 'injury_severity',
+            'injury_required_procedure', 'injury_body_region', 'tool_type'
+        ]
         
         # List of action types to consider as simulation loggings that can't be directly read by the responder
         self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'S_A_L_T_WAVED']
@@ -2059,6 +2063,13 @@ class FRVRSUtilities(object):
         maximum_injury_severity = patient_df[mask_series].injury_severity.min()
         
         return maximum_injury_severity
+    
+    
+    def is_life_threatened(self, patient_df, verbose=False):
+        is_severity_high = (self.get_maximum_injury_severity(patient_df, verbose=verbose) == 'high')
+        is_patient_hemorrhaging = self.is_patient_hemorrhaging(patient_df, verbose=verbose)
+        
+        return is_severity_high and is_patient_hemorrhaging
     
     
     ### Injury Functions ###
