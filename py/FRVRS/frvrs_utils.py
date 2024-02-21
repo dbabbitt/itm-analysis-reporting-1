@@ -1648,8 +1648,11 @@ class FRVRSUtilities(object):
         """
         
         # Get the max salt value
-        mask_series = patient_df.patient_record_salt.isnull()
-        try: max_salt = patient_df[~mask_series].patient_record_salt.max()
+        # mask_series = patient_df.patient_record_salt.isnull()
+        # try: max_salt = patient_df[~mask_series].patient_record_salt.max()
+        try:
+            mask_series = ~patient_df.patient_salt.isnull()
+            max_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.tolist()[-1]
         except Exception: max_salt = np.nan
         
         # If verbose is True, print additional information
@@ -1757,7 +1760,7 @@ class FRVRSUtilities(object):
         return is_tag_correct
     
     
-    def is_patient_severly_hemorrhaging(self, patient_df, verbose=False):
+    def is_patient_severely_hemorrhaging(self, patient_df, verbose=False):
         """
         Determines whether the patient has severe injuries.
         
