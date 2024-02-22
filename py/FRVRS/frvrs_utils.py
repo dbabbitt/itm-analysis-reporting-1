@@ -2710,7 +2710,7 @@ class FRVRSUtilities(object):
                     rows_list.append({i: v for i, v in enumerate(values_list)})
             file_df = DataFrame(rows_list)
         
-        # Ignore small files and return the unharmed subdirectory DataFrame
+        # Ignore small files and return the subdirectory data frame unharmed
         if (file_df.shape[1] < 16): return sub_directory_df
         
         # Find columns containing only version numbers
