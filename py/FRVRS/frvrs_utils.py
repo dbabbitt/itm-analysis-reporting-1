@@ -1966,7 +1966,7 @@ class FRVRSUtilities(object):
         """
         
         # Create a mask to check if injury record requires hemorrhage control procedures
-        mask_series = patient_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        mask_series = patient_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
         
         # Determine if the patient is hemorrhaging
         is_hemorrhaging = bool(patient_df[mask_series].shape[0])
