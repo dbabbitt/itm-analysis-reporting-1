@@ -414,14 +414,14 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_logger_version(session_df, verbose=False):
+    def get_logger_version(session_df_or_file_path, verbose=False):
         """
         Retrieve the unique logger version associated with the given session DataFrame.
 
         Parameters
         ----------
-        session_df : pd.DataFrame
-            DataFrame containing session data.
+        session_df_or_file_path : pd.DataFrame or str
+            DataFrame containing session data or file path.
         verbose : bool, optional
             Whether to print verbose output, by default False.
 
@@ -431,8 +431,16 @@ class FRVRSUtilities(object):
             The unique logger version associated with the session DataFrame.
         """
         
-        # Extract the unique logger version from the session DataFrame
-        logger_version = session_df.logger_version.unique().item()
+        # Assume there are only two versions
+        if isinstance(session_df_or_file_path, str):
+            with open(session_df_or_file_path, 'r', encoding=nu.encoding_type) as f:
+                file_content = f.read()
+                if ',1.3,' in file_content: logger_version = 1.3
+                else: logger_version = 1.0
+        else:
+            
+            # Extract the unique logger version from the session DataFrame
+            logger_version = session_df_or_file_path.logger_version.unique().item()
         
         # Print verbose output
         if verbose: print('Logger version: {}'.format(logger_version))
@@ -1437,10 +1445,15 @@ class FRVRSUtilities(object):
             if mask_series.any():
                 df = patient_df[mask_series].sort_values('action_tick')
                 
-                # Get the first engagement start and location
-                engagement_start = df.iloc[0].action_tick
-                engagement_location = eval(df.iloc[0].location_id) # Evaluate string to get tuple
-                location_tuple = (engagement_location[0], engagement_location[2])
+                # Get the first engagement start that has a location
+                mask_series = ~df.location_id.isnull()
+                if mask_series.any():
+                    engagement_start = df[mask_series].iloc[0].action_tick
+                    engagement_location = eval(df[mask_series].iloc[0].location_id) # Evaluate string to get tuple
+                    location_tuple = (engagement_location[0], engagement_location[2])
+                else:
+                    engagement_start = df.iloc[0].action_tick
+                    location_tuple = (0.0, 0.0)
                 
                 # Get the cluster ID, if available
                 mask_series = ~patient_df.patient_sort.isnull()
@@ -1451,12 +1464,14 @@ class FRVRSUtilities(object):
                 )
                 
                 # Get the predicted priority
-                mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
-                predicted_priority = (
-                    patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
-                    if mask_series.any()
-                    else None
-                )
+                if 'dtr_triage_priority_model_prediction' in patient_df.columns:
+                    mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
+                    predicted_priority = (
+                        patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
+                        if mask_series.any()
+                        else None
+                    )
+                else: predicted_priority = None
                 
                 # Get the maximum injury severity
                 injury_severity = self.get_maximum_injury_severity(patient_df)
@@ -2690,17 +2705,15 @@ class FRVRSUtilities(object):
             pandas.DataFrame: The updated subdirectory DataFrame.
         """
         
-        # Construct the full path to the file
+        # Construct the full path to the file and get the logger version
         file_path = osp.join(sub_directory, file_name)
+        version_number = self.get_logger_version(file_path, verbose=verbose)
         
         # Attempt to read CSV file using pandas
-        try:
-            version_number = '1.0'
-            file_df = pd.read_csv(file_path, header=None, index_col=False)
+        try: file_df = pd.read_csv(file_path, header=None, index_col=False)
         
         # If unsuccessful, try using a reader
         except:
-            version_number = '1.3'
             rows_list = []
             with open(file_path, 'r') as f:
                 import csv
@@ -2714,22 +2727,22 @@ class FRVRSUtilities(object):
         if (file_df.shape[1] < 16): return sub_directory_df
         
         # Find columns containing only version numbers
-        VERSION_REGEX = re.compile(r'^\d\.\d$')
-        is_version_there = lambda x: bool(re.match(VERSION_REGEX, str(x)))
-        srs = file_df.applymap(is_version_there, na_action='ignore').sum()
-        columns_list = srs[srs == file_df.shape[0]].index.tolist()
+        # VERSION_REGEX = re.compile(r'^\d\.\d$')
+        # is_version_there = lambda x: bool(re.match(VERSION_REGEX, str(x)))
+        # srs = file_df.applymap(is_version_there, na_action='ignore').sum()
+        # columns_list = srs[srs == file_df.shape[0]].index.tolist()
         
         # Remove column 4 and rename all the numbered colums above that
-        if 4 in columns_list:
-            version_number = file_df[4].unique().item()
+        if (version_number == 1.3):
             file_df.drop(4, axis='columns', inplace=True)
             file_df.columns = list(range(file_df.shape[1]))
         
         # Add file name and logger version to the data frame
         file_dir_suffix = osp.abspath(sub_directory).replace(osp.abspath(self.data_logs_folder) + os.sep, '')
         file_df['file_name'] = '/'.join(file_dir_suffix.split(os.sep)) + '/' + file_name
-        if is_version_there(version_number): file_df['logger_version'] = float(version_number)
-        else: file_df['logger_version'] = 1.0
+        # if is_version_there(version_number): file_df['logger_version'] = float(version_number)
+        # else: file_df['logger_version'] = 1.0
+        file_df['logger_version'] = float(version_number)
         
         # Name the global columns
         columns_list = ['action_type', 'action_tick', 'event_time', 'session_uuid']
