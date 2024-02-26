@@ -2991,6 +2991,69 @@ class NotebookUtilities(object):
         return colors_list
     
     
+    @staticmethod
+    def plot_grouped_pie_chart(df, column_name, slice_label, slice_cutoff=None, verbose=False):
+        
+        # Filter non-null values in the specified column
+        mark_series = ~df[column_name].isnull()  # Filter non-null values in the column
+        filtered_values = df[mark_series][column_name]
+        
+        # Count the occurrences of each unique value
+        value_counts = filtered_values.value_counts()
+        
+        # Group values with count equal to cutoff into one slice
+        if slice_cutoff is None: slice_cutoff = value_counts.sum()*0.02
+        grouped_value_counts = value_counts[value_counts > slice_cutoff]
+        other_slice = value_counts[value_counts <= slice_cutoff].sum()
+        if other_slice: grouped_value_counts[slice_label] = other_slice
+        
+        # Plot a pie chart
+        plt.figure(figsize=(8, 8))
+        plt.pie(grouped_value_counts, labels=grouped_value_counts.index, autopct='%1.1f%%', startangle=90)
+        plt.title(f'Distribution of {column_name}')
+        
+        # Return the matplotlib figure object
+        return plt
+    
+    
+    @staticmethod
+    def plot_right_circles(tuples_list, draw_a_two_circle_venn_diagram, verbose=False):
+        plot_count = len(tuples_list)
+        ncols = min(3, plot_count)
+        nrows = max(1, int(math.ceil(plot_count / ncols)))
+        fig, axes = plt.subplots(nrows, ncols, figsize=(12, 4))
+        if verbose: print(type(axes))
+        
+        for i, right_circle_tuple in enumerate(tuples_list):
+            col = (i % 3)
+            if verbose: print(i, col, ncols)
+            if (nrows > 1):
+                row = int(math.floor(i / 3))
+                ax = axes[row, col]
+            elif (plot_count == 1): ax = axes
+            else: ax = axes[col]
+            # import matplotlib
+            # assert type(ax) == matplotlib.axes.Subplot, f"ax is of type {type(ax)}, it should be matplotlib.axes.Subplot"
+            draw_a_two_circle_venn_diagram(right_circle_tuple, ax=ax)
+
+        # Hide the unused axes
+        for i in range(nrows * ncols, plot_count, -1):
+            col = (i - 1) % 3
+            if verbose: print(i, col, ncols)
+            if (nrows > 1):
+                row = (i - 1) // 3
+                ax = axes[row, col]
+            elif (plot_count == 1): ax = axes
+            else: ax = axes[i]
+            ax.axis('off')
+
+        # Adjust spacing between subplots
+        plt.tight_layout()
+        
+        # Return the matplotlib figure object
+        return plt
+    
+    
     def plot_sequence(self, sequence, highlighted_ngrams=[], color_dict=None, suptitle=None, first_element='SESSION_START', last_element='SESSION_END', alphabet_list=None, verbose=False):
         """
         Creates a standard sequence plot where each element corresponds to a position on the y-axis.
