@@ -347,7 +347,7 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_is_a_one_triage_file(session_df, file_name=None, verbose=False):
+    def get_is_a_one_triage_file(session_df, file_name=None, logs_df=None, file_stats_df=None, scene_stats_df=None, verbose=False):
         """
         Check if a session DataFrame has only one triage run.
 
@@ -367,20 +367,36 @@ class FRVRSUtilities(object):
         """
         
         # Check if 'is_a_one_triage_file' column exists in the session data frame
+        needed_set = set(['scene_type', 'is_scene_aborted', 'file_name'])
         if 'is_a_one_triage_file' in session_df.columns: is_a_one_triage_file = session_df.is_a_one_triage_file.unique().item()
-        else:
+        elif not all(map(lambda x: x in session_df.columns, needed_set)):
             
-            # Filter out the triage files in this file name
-            mask_series = (session_df.scene_type == 'Triage') & (session_df.is_scene_aborted == False)
-            if file_name is not None: mask_series &= (session_df.file_name == file_name)
+            # Merge scene_type and is_scene_aborted and file_name into sessions_df
+            logs_columns_set = set(logs_df.columns)
+            file_columns_set = set(file_stats_df.columns)
+            scene_columns_set = set(scene_stats_df.columns)
             
-            # Get whether the file has only one triage run
-            triage_scene_count = len(session_df[mask_series].groupby('scene_id').groups)
-            is_a_one_triage_file = bool(triage_scene_count == 1)
-            if verbose:
-                print(f'triage_scene_count={triage_scene_count}')
-                display(session_df[mask_series].groupby('scene_id').size())
-                raise
+            # Merge in the file stats columns
+            on_columns = sorted(logs_columns_set.intersection(file_columns_set))
+            file_stats_columns = on_columns + sorted(needed_set.difference(scene_columns_set))
+            merge_df = logs_df.merge(file_stats_df[file_stats_columns], on=on_columns)
+
+            # Merge in the scene stats columns
+            on_columns = sorted(logs_columns_set.intersection(scene_columns_set))
+            scene_stats_columns = on_columns + sorted(needed_set.difference(file_columns_set))
+            session_df = merge_df.merge(scene_stats_df[scene_stats_columns], on=on_columns)
+        
+        # Filter out the triage files in this file name
+        mask_series = (session_df.scene_type == 'Triage') & (session_df.is_scene_aborted == False)
+        if file_name is not None: mask_series &= (session_df.file_name == file_name)
+        
+        # Get whether the file has only one triage run
+        triage_scene_count = len(session_df[mask_series].groupby('scene_id').groups)
+        is_a_one_triage_file = bool(triage_scene_count == 1)
+        if verbose:
+            print(f'triage_scene_count={triage_scene_count}')
+            display(session_df[mask_series].groupby('scene_id').size())
+            raise
         
         # Return True if the file has only one triage run, False otherwise
         return is_a_one_triage_file
