@@ -1107,8 +1107,8 @@ class FRVRSUtilities(object):
         
         # Check if the is_scene_aborted column exists in the scene data frame, and get the unique value if it is
         if 'is_scene_aborted' in scene_df.columns: is_scene_aborted = scene_df.is_scene_aborted.unique().item()
-        
-        else:
+        else: is_scene_aborted = False
+        if not is_scene_aborted:
             
             # Calculate the time duration between scene start and last engagement
             scene_start = self.get_scene_start(scene_df, verbose=verbose)
@@ -1342,13 +1342,13 @@ class FRVRSUtilities(object):
         if verbose: print(f'Hemorrhage-related injuries that have been recorded or treated: {scene_df[base_mask_series].shape[0]}')
         
         # Filter for injuries requiring hemorrhage control procedures
-        record_mask_series = base_mask_series & scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        record_mask_series = scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
         if verbose: print(f'Injuries requiring hemorrhage control procedures: {scene_df[record_mask_series].shape[0]}')
         hemorrhage_count = scene_df[record_mask_series].shape[0]
         
         # Filter for hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
-        treated_mask_series = base_mask_series & scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        treated_mask_series &= (scene_df.injury_treated_injury_treated_with_wrong_treatment == False)
+        treated_mask_series = scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        treated_mask_series &= (scene_df.injury_treated_injury_treated_with_wrong_treatment != True)
         if verbose: print(f"Hemorrhage-related injuries that have been treated: {scene_df[treated_mask_series].drop_duplicates(subset=['injury_id'], keep='last').shape[0]}")
         controlled_count = scene_df[treated_mask_series].drop_duplicates(subset=['injury_id'], keep='last').shape[0]
         
@@ -1359,7 +1359,8 @@ class FRVRSUtilities(object):
         # If verbose is True, print additional information
         if verbose:
             print(f'Percentage of hemorrhage controlled: {percent_controlled:.2f}%')
-            display(scene_df)
+            columns_list = ['injury_required_procedure', 'injury_record_required_procedure', 'injury_treated_required_procedure', 'injury_treated_injury_treated_with_wrong_treatment']
+            display(scene_df[columns_list].drop_duplicates())
         
         # Return the percentage of hemorrhage cases controlled
         return percent_controlled
@@ -2483,52 +2484,56 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def set_scene_indices(df):
+    def set_scene_indices(file_df):
         """
         Section off player actions by session start and end. We are finding log entries above the first SESSION_START and below the last SESSION_END.
         
         Parameters:
-            df: A Pandas DataFrame containing the player action data with its index reset.
+            file_df: A Pandas DataFrame containing the player action data with its index reset.
         
         Returns:
-            A Pandas DataFrame with the `scene_id` column added.
+            A Pandas DataFrame with the `scene_id` and `is_scene_aborted` columns added.
         """
     
         # Set the whole file to zero first
-        df = df.sort_values('action_tick')
+        file_df = file_df.sort_values('action_tick')
         scene_id = 0
-        df['scene_id'] = scene_id
+        file_df['scene_id'] = scene_id
+        file_df['is_scene_aborted'] = False
         
         # Delineate runs by the session end below them
-        mask_series = (df.action_type == 'SESSION_END')
-        lesser_idx = df[mask_series].index.min()
-        mask_series &= (df.index > lesser_idx)
+        mask_series = (file_df.action_type == 'SESSION_END')
+        lesser_idx = file_df[mask_series].index.min()
+        mask_series &= (file_df.index > lesser_idx)
         while mask_series.any():
             
             # Find this session end as the bottom
-            greater_idx = df[mask_series].index.min()
+            greater_idx = file_df[mask_series].index.min()
             
             # Add everything above that to this run
-            mask_series = (df.index > lesser_idx) & (df.index <= greater_idx)
+            mask_series = (file_df.index > lesser_idx) & (file_df.index <= greater_idx)
             scene_id += 1
-            df.loc[mask_series, 'scene_id'] = scene_id
+            file_df.loc[mask_series, 'scene_id'] = scene_id
             
             # Delineate runs by the session end below them
             lesser_idx = greater_idx
-            mask_series = (df.action_type == 'SESSION_END') & (df.index > lesser_idx)
+            mask_series = (file_df.action_type == 'SESSION_END') & (file_df.index > lesser_idx)
         
         # Find the last session end
-        mask_series = (df.action_type == 'SESSION_END')
-        lesser_idx = df[mask_series].index.max()
+        mask_series = (file_df.action_type == 'SESSION_END')
+        lesser_idx = file_df[mask_series].index.max()
         
         # Add everything below that to the next run
-        mask_series = (df.index > lesser_idx)
-        df.loc[mask_series, 'scene_id'] = scene_id + 1
+        mask_series = (file_df.index > lesser_idx)
+        file_df.loc[mask_series, 'scene_id'] = scene_id + 1
+        
+        # The session end command signifies the end of the session and anything after that is junk
+        file_df.loc[mask_series, 'is_scene_aborted'] = True
         
         # Convert the scene index column to int64
-        df.scene_id = df.scene_id.astype('int64')
+        file_df.scene_id = file_df.scene_id.astype('int64')
         
-        return df
+        return file_df
     
     
     @staticmethod
