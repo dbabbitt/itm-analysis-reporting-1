@@ -2986,6 +2986,36 @@ class FRVRSUtilities(object):
         return(result_df)
     
     
+    def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], verbose=False):
+        
+        # Get the column sets
+        needed_set = set(['scene_type', 'is_scene_aborted'] + needed_columns)
+        logs_columns_set = set(logs_df.columns)
+        file_columns_set = set(file_stats_df.columns)
+        scene_columns_set = set(scene_stats_df.columns)
+        
+        # If some column's missing from just using the logs dataset...
+        if bool(needed_set.difference(logs_columns_set)):
+            
+            # Merge in the file stats columns (what's still needed from using the scene and logs datasets together)
+            on_columns = sorted(logs_columns_set.intersection(file_columns_set))
+            file_stats_columns = on_columns + sorted(needed_set.difference(logs_columns_set).difference(scene_columns_set))
+            merge_df = logs_df.merge(file_stats_df[file_stats_columns], on=on_columns)
+            
+            # Merge in the scene stats columns (what's still needed from using the file and logs datasets together)
+            on_columns = sorted(logs_columns_set.intersection(scene_columns_set))
+            scene_stats_columns = on_columns + sorted(needed_set.difference(logs_columns_set).difference(file_columns_set))
+            merge_df = merge_df.merge(scene_stats_df[scene_stats_columns], on=on_columns)
+        
+        else: merge_df = logs_df
+        
+        # Get the triage scenes with at least eleven patients in them
+        one_triage_mask = (merge_df.scene_type == 'Triage') & (merge_df.is_scene_aborted == False)
+        elevens_df = merge_df[one_triage_mask].groupby(self.scene_groupby_columns).filter(lambda x: x.patient_id.nunique() >= 11)
+        
+        return elevens_df
+    
+    
     ### Plotting Functions ###
     
     
