@@ -1,11 +1,17 @@
 
 from contextlib import redirect_stdout
 from datetime import timedelta
+from humanize import precisedelta
+from matplotlib import pyplot as plt
 from numpy import nan
-from unittest.mock import patch, MagicMock
+from numpy.random import choice
+from pathlib import Path
+from unittest.mock import MagicMock, Mock, patch
+import matplotlib.pyplot as plt
 import numpy as np
 import os
 import pandas as pd
+import seaborn as sns
 import unittest
 
 # Import the class containing the functions
@@ -14,7 +20,7 @@ sys.path.insert(1, '../py')
 from FRVRS import fu, nu
 
 
-### Patient Functions ###
+### Plotting Functions ###
 
 
 class xxxx(unittest.TestCase):

@@ -1049,6 +1049,7 @@ class TestGetPercentHemorrhageControlled(unittest.TestCase):
 class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
 
     def setUp(self):
+        
         # Create mock data for the scene DataFrame
         self.scene_df = pd.DataFrame({
             "patient_id": [1, 1, 2],
