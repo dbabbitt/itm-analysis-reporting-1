@@ -26,6 +26,7 @@ data/logs/
 saves/rename/
 saves/sessions/
 data/hem_control_dcems/
+saves/notepad_sessions/*.xml
 
 # Ignore big files (GitHub will warn you when pushing files larger than 50 MB. You will not be allowed to
 # push files larger than 100 MB.) Tip: If you regularly push large files to GitHub, consider introducing
@@ -144,7 +145,7 @@ docs/_build/
 # Exclude PyBuilder
 target/
 
-# Exclude Jupyter Notebook
+# Exclude Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # Exclude IPython
