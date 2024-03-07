@@ -2434,6 +2434,42 @@ class NotebookUtilities(object):
     
     
     @staticmethod
+    def color_distance_from(from_color, to_rgb_tuple):
+        from math import sqrt
+        if from_color == 'white':
+            green_diff = 255 - to_rgb_tuple[0]
+            blue_diff = 255 - to_rgb_tuple[1]
+            red_diff = 255 - to_rgb_tuple[2]
+            color_distance = sqrt(green_diff**2 + blue_diff**2 + red_diff**2)
+        elif from_color == 'black':
+            color_distance = sqrt(to_rgb_tuple[0]**2 + to_rgb_tuple[1]**2 + to_rgb_tuple[2]**2)
+        else:
+            import webcolors
+            rbg_tuple = tuple(webcolors.hex_to_rgb(from_color))
+            green_diff = rbg_tuple[0] - to_rgb_tuple[0]
+            blue_diff = rbg_tuple[1] - to_rgb_tuple[1]
+            red_diff = rbg_tuple[2] - to_rgb_tuple[2]
+            color_distance = sqrt(green_diff**2 + blue_diff**2 + red_diff**2)
+
+        return color_distance
+    
+    
+    def get_text_color(self, text_color='white', bar_color_rgb=(0, 0, 0), verbose=False):
+        if bar_color_rgb != (0, 0, 0):
+            text_colors_list = []
+            for color in ['white', '#404040', 'black']:
+                color_tuple = (self.color_distance_from(color, bar_color_rgb), color)
+                text_colors_list.append(color_tuple)
+            if verbose: print(text_colors_list)
+            text_color = sorted(text_colors_list, key=lambda x: x[0])[-1][1]
+            import webcolors
+            try: text_color = webcolors.name_to_hex(text_color)
+            except: pass
+
+        return text_color
+    
+    
+    @staticmethod
     def get_color_cycler(n):
         """
         Generate a color cycler for plotting with a specified number of colors.
