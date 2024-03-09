@@ -92,35 +92,18 @@ class TestIsPatientStill(unittest.TestCase):
         self.assertTrue(np.isnan(result))
 
 class TestGetMaxSalt(unittest.TestCase):
-
+    def setUp(self):
+        self.patient_df = DataFrame({
+            'action_tick': [497423, 357709, 336847, 305828, 874373],
+            'patient_id': ['Gary_3 Root', 'Gary_3 Root', 'Gary_3 Root', 'Gary_3 Root', 'Gary_3 Root'],
+            'patient_salt': ['IMMEDIATE', nan, 'IMMEDIATE', nan, 'IMMEDIATE']
+        })
     def test_max_salt_with_dataframe(self):
-        # Test when providing a DataFrame
-        # Create a sample DataFrame
-        data = {'patient_salt': [1, 2, 3, np.nan, 5],
-                'action_tick': [10, 15, 5, 20, 25]}
-        patient_df = pd.DataFrame(data)
-        
-        # Call the function with the DataFrame
-        result = fu.get_max_salt(patient_df)
-        
-        # Add your assertions here based on the expected result
-        self.assertEqual(result, expected_result)
-
+        result = fu.get_max_salt(self.patient_df)
+        self.assertEqual(result, 'IMMEDIATE')
     def test_max_salt_with_session_uuid(self):
-        # Test when providing a session_uuid
-        # Create a sample DataFrame
-        data = {'patient_salt': [1, 2, 3, np.nan, 5],
-                'action_tick': [10, 15, 5, 20, 25],
-                'patient_id': [1, 1, 2, 2, 3]}
-        patient_df = pd.DataFrame(data)
-
-        # Call the function with session_uuid
-        result = fu.get_max_salt(patient_df, session_uuid='some_uuid')
-
-        # Add your assertions here based on the expected result
-        self.assertEqual(result, expected_result)
-
-    # Add more test cases as needed
+        result = fu.get_max_salt(self.patient_df, session_uuid='some_uuid')
+        self.assertEqual(result, ('Gary_3 Root', 'IMMEDIATE'))
 
 class TestGetLastTag(unittest.TestCase):
 
@@ -389,22 +372,21 @@ class TestGetWrappedLabel(unittest.TestCase):
         self.assertEqual(label, "no SORT info\n456")
 
 class TestIsPatientHemorrhagingFunction(unittest.TestCase):
-
-    def setUp(self):
-        # Create a sample DataFrame for testing
-        self.sample_data = {'injury_required_procedure': ['A', 'B', 'C', 'D', 'E']}
-        self.patient_df = pd.DataFrame(self.sample_data)
-
     def test_patient_hemorrhaging_positive(self):
-        # Test when the patient is hemorrhaging (expected result: True)
-        result = fu.is_patient_hemorrhaging(self.patient_df)
+        patient_df = DataFrame({
+            'action_tick': [305827, 305827, 305827, 693191, 357708],
+            'patient_id': ['Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root'],
+            'injury_required_procedure': ['decompress', nan, 'tourniquet', nan, nan]
+        })
+        result = fu.is_patient_hemorrhaging(patient_df)
         self.assertTrue(result)
-
     def test_patient_hemorrhaging_negative(self):
-        # Test when the patient is not hemorrhaging (expected result: False)
-        non_hemorrhage_data = {'injury_required_procedure': ['X', 'Y', 'Z']}
-        non_hemorrhage_df = pd.DataFrame(non_hemorrhage_data)
-        result = fu.is_patient_hemorrhaging(non_hemorrhage_df)
+        patient_df = DataFrame({
+            'action_tick': [649936, 242804, 659793, 648599, 651913],
+            'patient_id': ['Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root'],
+            'injury_required_procedure': ['gauzePressure', 'gauzePressure', 'gauzePressure', 'gauzePressure', 'gauzePressure']
+        })
+        result = fu.is_patient_hemorrhaging(patient_df)
         self.assertFalse(result)
 
 class TestGetTimeToHemorrhageControl(unittest.TestCase):

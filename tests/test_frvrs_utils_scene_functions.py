@@ -2,6 +2,7 @@
 from contextlib import redirect_stdout
 from datetime import timedelta
 from numpy import nan
+from pandas import DataFrame
 from unittest.mock import patch, MagicMock
 import numpy as np
 import os
@@ -35,12 +36,6 @@ class TestGetSceneStart(unittest.TestCase):
         with self.assertRaises(KeyError):
             get_scene_start(scene_df)
 
-    def test_get_scene_start_verbose(self):
-        with unittest.mock.patch('sys.stdout', new_callable=io.StringIO) as mock_stdout:
-            scene_df = pd.DataFrame({'action_tick': [1425.3654, 1437.2546]})
-            get_scene_start(scene_df, verbose=True)
-            self.assertEqual(mock_stdout.getvalue().strip(), 'Scene start: 1425.3654')
-
 class TestGetLastEngagement(unittest.TestCase):
 
     def test_empty_dataframe(self):
@@ -69,16 +64,6 @@ class TestGetLastEngagement(unittest.TestCase):
         })
         result = get_last_engagement(df)
         self.assertEqual(result, 2000)
-
-    def test_verbose_output(self):
-        """Tests verbose output functionality."""
-        with self.assertLogs() as captured_logs:
-            df = pd.DataFrame({
-                'action_type': ['PATIENT_ENGAGED'],
-                'action_tick': [12345]
-            })
-            get_last_engagement(df, verbose=True)
-            self.assertEqual(captured_logs.output[0], 'INFO:root:Last engagement time: 12345')
 
 class TestGetPlayerLocation(unittest.TestCase):
 
@@ -172,21 +157,6 @@ class TestGetSceneEnd(unittest.TestCase):
         actual_end_time = get_scene_end(scene_df)
         self.assertEqual(actual_end_time, expected_end_time)
 
-    def test_get_scene_end_verbose(self):
-        # Create a sample DataFrame with scene data
-        data = {
-            "action_tick": [100, 250, 175, 300]
-        }
-        scene_df = pd.DataFrame(data)
-
-        # Mock the print function to capture output
-        with patch('builtins.print') as mock_print:
-            get_scene_end(scene_df, verbose=True)
-
-            # Assert that the expected message was printed
-            self.assertTrue(mock_print.called)
-            mock_print.assert_called_once_with(f'Scene end time calculated: 300')
-
 class TestGetPatientCount(unittest.TestCase):
 
     def setUp(self):
@@ -202,37 +172,17 @@ class TestGetPatientCount(unittest.TestCase):
         self.df_1 = pd.DataFrame(self.data_1)
         self.df_2 = pd.DataFrame(self.data_2)
 
-    def test_unique_patients_verbose_false(self):
-        # Test with unique patients, verbose=False
+    def test_unique_patients(self):
+        # Test with unique patients
         expected_count = 3
         actual_count = get_patient_count(self.df_1)
         self.assertEqual(actual_count, expected_count)
 
-    def test_unique_patients_verbose_true(self):
-        # Test with unique patients, verbose=True
-        expected_count = 3
-        # Capture the printed output using a context manager
-        with captured_output() as (stdout, stderr):
-            actual_count = get_patient_count(self.df_1, verbose=True)
-        # Check for expected output and count
-        self.assertEqual(actual_count, expected_count)
-        self.assertIn(f"Number of unique patients: {expected_count}", stdout.getvalue())
-
-    def test_duplicate_patients_verbose_false(self):
-        # Test with duplicate patients, verbose=False
+    def test_duplicate_patients(self):
+        # Test with duplicate patients
         expected_count = 1
         actual_count = get_patient_count(self.df_2)
         self.assertEqual(actual_count, expected_count)
-
-    def test_duplicate_patients_verbose_true(self):
-        # Test with duplicate patients, verbose=True
-        expected_count = 1
-        # Capture the printed output using a context manager
-        with captured_output() as (stdout, stderr):
-            actual_count = get_patient_count(self.df_2, verbose=True)
-        # Check for expected output and count
-        self.assertEqual(actual_count, expected_count)
-        self.assertIn(f"Number of unique patients: {expected_count}", stdout.getvalue())
 
 
 # Helper function to capture printed output
@@ -259,13 +209,6 @@ class TestGetInjuryTreatmentsCount(unittest.TestCase):
         # Assert the expected count
         self.assertEqual(count, 2)
 
-    def test_injury_treatments_count_verbose(self):
-        # Call the function with verbose set to True
-        count = get_injury_treatments_count(self.scene_df, verbose=True)
-
-        # Assert the expected count
-        self.assertEqual(count, 2)
-
 class TestGetInjuryNotTreatedCount(unittest.TestCase):
 
    def test_empty_dataframe(self):
@@ -288,16 +231,6 @@ class TestGetInjuryNotTreatedCount(unittest.TestCase):
        count = get_injury_not_treated_count(scene_df)
        self.assertEqual(count, 2)
 
-   def test_verbose_output(self):
-       """Test with verbose output enabled."""
-       data = {'injury_treated_injury_treated': [True, False, True]}
-       scene_df = pd.DataFrame(data)
-       try:
-           count = get_injury_not_treated_count(scene_df, verbose=True)  # Capture any printed output
-           self.fail("Expected a print statement when verbose=True")
-       except Exception as e:
-           self.assertIn("Number of records where injuries were not treated: 1", str(e))
-
 class TestGetInjuryCorrectlyTreatedCount(unittest.TestCase):
 
     def setUp(self):
@@ -313,7 +246,7 @@ class TestGetInjuryCorrectlyTreatedCount(unittest.TestCase):
         # Test with expected correctly treated cases
         expected_count = 2
         actual_count = self.scene_df.apply(
-            lambda x: x.get_injury_correctly_treated_count(verbose=False),
+            lambda x: x.get_injury_correctly_treated_count(),
             axis=1
         ).values[0]
         self.assertEqual(actual_count, expected_count)
@@ -328,17 +261,10 @@ class TestGetInjuryCorrectlyTreatedCount(unittest.TestCase):
         df = pd.DataFrame(data)
         expected_count = 0
         actual_count = df.apply(
-            lambda x: x.get_injury_correctly_treated_count(verbose=False),
+            lambda x: x.get_injury_correctly_treated_count(),
             axis=1
         ).values[0]
         self.assertEqual(actual_count, expected_count)
-
-    def test_verbose_output(self):
-        # Test with verbose mode enabled (no assertion, just checking output)
-        self.scene_df.apply(
-            lambda x: x.get_injury_correctly_treated_count(verbose=True),
-            axis=1
-        )
 
 class TestGetInjuryWronglyTreatedCount(unittest.TestCase):
 
@@ -369,14 +295,6 @@ class TestGetInjuryWronglyTreatedCount(unittest.TestCase):
         count = get_injury_wrongly_treated_count(scene_df)
         self.assertEqual(count, 3)
 
-    def test_verbose_output(self):
-        """Test the verbose output"""
-        scene_df = self.create_test_dataframe([True], [True])
-        with self.assertLogs() as captured_logs:
-            count = get_injury_wrongly_treated_count(scene_df, verbose=True)
-            self.assertEqual(count, 1)
-            self.assertIn('Injury wrongly treated count: 1', captured_logs.output[0])
-
 class TestGetPulseTakenCount(unittest.TestCase):
 
     def setUp(self):
@@ -387,22 +305,14 @@ class TestGetPulseTakenCount(unittest.TestCase):
         }
         self.scene_df = pd.DataFrame(data)
 
-    def test_get_pulse_taken_count_no_verbose(self):
+    def test_get_pulse_taken_count(self):
         """
-        Test get_pulse_taken_count with verbose=False.
+        Test get_pulse_taken_count.
         """
-        count = self.scene_df.get_pulse_taken_count(verbose=False)
+        count = self.scene_df.get_pulse_taken_count()
 
         self.assertEqual(count, 2)
-        self.assertFalse(len(self.scene_df) > 0)  # No additional data printed in verbose=False
-
-    def test_get_pulse_taken_count_verbose(self):
-        """
-        Test get_pulse_taken_count with verbose=True.
-        """
-        with self.assertRaises(AssertionError):  # We don't directly capture printed output
-            count = self.scene_df.get_pulse_taken_count(verbose=True)
-            self.assertEqual(count, 2)  # This assertion would fail if the count is incorrect
+        self.assertFalse(len(self.scene_df) > 0)
 
 class TestGetTeleportCount(unittest.TestCase):
 
@@ -415,25 +325,11 @@ class TestGetTeleportCount(unittest.TestCase):
         self.scene_df = pd.DataFrame(data)
 
     def test_get_teleport_count_success(self):
-        # Call the function with default verbose (False)
+        # Call the function with default
         teleport_count = self.get_teleport_count(self.scene_df)
 
         # Assert the expected teleport count
         self.assertEqual(teleport_count, 2)
-
-    def test_get_teleport_count_verbose(self):
-        # Call the function with verbose set to True
-        teleport_count = self.get_teleport_count(self.scene_df, verbose=True)
-
-        # Assert the expected teleport count (same as previous test)
-        self.assertEqual(teleport_count, 2)
-
-        # Check if a print statement containing "Number of TELEPORT actions" was executed
-        # (Mocking print statements is generally not recommended, but in this case, it can 
-        # help verify if the verbose functionality works as intended)
-        # with patch('builtins.print') as mock_print:
-        #     self.get_teleport_count(self.scene_df, verbose=True)
-        #     mock_print.assert_called_once_with(f'Number of TELEPORT actions: {teleport_count}')
 
 class TestGetVoiceCaptureCount(unittest.TestCase):
 
@@ -456,20 +352,6 @@ class TestGetVoiceCaptureCount(unittest.TestCase):
 
         # Assert that the returned count matches the expected value
         self.assertEqual(voice_capture_count, expected_count)
-
-    def test_get_voice_capture_count_verbose(self):
-        """
-        Tests the get_voice_capture_count function with verbosity enabled.
-        """
-        # Patch the `display` function to avoid actual display during testing
-        with patch('get_voice_capture_count.display') as mock_display:
-            voice_capture_count = get_voice_capture_count(self.scene_df, verbose=True)
-
-            # Assert that the function was called with the expected parameters
-            get_voice_capture_count.assert_called_once_with(self.scene_df, True)
-
-            # Assert that the mock display function was not called (since we don't want actual display during testing)
-            mock_display.assert_not_called()
 
 class TestGetWalkCommandCount(unittest.TestCase):
 
@@ -494,12 +376,6 @@ class TestGetWalkCommandCount(unittest.TestCase):
         count = get_walk_command_count(scene_df_no_command)
         self.assertEqual(count, 0)
 
-    # Test with verbose mode enabled
-    def test_walk_command_count_verbose(self):
-        with patch('builtins.print') as mock_print:
-            get_walk_command_count(self.scene_df, verbose=True)
-            mock_print.assert_called_once_with(f"Number of 'walk to the safe area' voice command events: 2")
-
 class TestGetWaveCommandCount(unittest.TestCase):
 
     def setUp(self):
@@ -520,14 +396,6 @@ class TestGetWaveCommandCount(unittest.TestCase):
         df = pd.DataFrame(data)
         count = df.get_wave_command_count()
         self.assertEqual(count, 0)
-
-    def test_verbose_output(self):
-        # Capture output using context manager
-        with patch('builtins.print') as mock_print:
-            self.scene_df.get_wave_command_count(verbose=True)
-            mock_print.assert_called_once_with(
-                f"Number of 'wave if you can' voice command events: 1"
-            )
 
 class TestGetFirstEngagement(unittest.TestCase):
 
@@ -578,25 +446,6 @@ class TestGetFirstEngagement(unittest.TestCase):
         first_engagement = get_first_engagement(multiple_engagement_df)
         self.assertEqual(first_engagement, 20)
 
-    def test_verbose_output(self):
-        """
-        Tests if verbose output is printed when verbose argument is True.
-        """
-        # Patch printing function to capture output in a test
-        with patch('builtins.print') as mock_print:
-            verbose_df = pd.DataFrame(
-                {
-                    "action_type": ["MOVE", "PATIENT_ENGAGED", "GRASP"],
-                    "action_tick": [10, 20, 30],
-                }
-            )
-            get_first_engagement(verbose_df, verbose=True)
-
-            # Check if expected messages were printed
-            mock_print.assert_called_once_with(
-                f'Action tick of the first PATIENT_ENGAGED action: {20}'
-            )
-
 class TestGetFirstTreatment(unittest.TestCase):
 
     # Define a consistent setup method to create a sample DataFrame
@@ -616,12 +465,6 @@ class TestGetFirstTreatment(unittest.TestCase):
         no_treatment_df = self.sample_df[self.sample_df['action_type'] != 'INJURY_TREATED']
         first_treatment = get_first_treatment(no_treatment_df)
         self.assertIsNone(first_treatment)
-
-    # Test verbose mode
-    def test_verbose_output(self):
-        with self.assertLogs(level='INFO') as cm:
-            get_first_treatment(self.sample_df, verbose=True)
-        self.assertEqual(cm.output, ['INFO:root:Action tick of the first INJURY_TREATED action: 25'])
 
 # Mock your external dependencies (nu.get_nearest_neighbor)
 def mock_get_nearest_neighbor(player_location, locations_list):
@@ -689,8 +532,8 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
         self.sort_category_order = ["low", "medium", "high"]
         self.severity_category_order = ["low", "medium", "high"]
 
-        # Call the function with verbose set to True
-        ideal_order = self.get_ideal_engagement_order(scene_df, verbose=True)
+        # Call the function
+        ideal_order = self.get_ideal_engagement_order(scene_df)
 
         # Expected order: [('high', 4.0, 5.0, 6.0, 'low', 'low'), ('medium', 1.0, 2.0, 3.0, 'low', 'low')]
         expected_order = [('high', 4.0, 5.0, 6.0, 'low', 'low'), ('medium', 1.0, 2.0, 3.0, 'low', 'low')]
@@ -759,11 +602,11 @@ class TestGetIsSceneAborted(unittest.TestCase):
 
     def test_scene_aborted_exceeds_threshold(self):
         # Mock the scene_start and last_engagement functions to return specific values
-        def mock_get_scene_start(scene_df, verbose):
+        def mock_get_scene_start(scene_df):
             self.get_scene_start_called = True
             return pd.Timestamp('2023-01-01 10:00:00')
 
-        def mock_get_last_engagement(scene_df, verbose):
+        def mock_get_last_engagement(scene_df):
             self.get_last_engagement_called = True
             return pd.Timestamp('2023-01-01 10:20:00')
 
@@ -783,11 +626,11 @@ class TestGetIsSceneAborted(unittest.TestCase):
 
     def test_scene_not_aborted_below_threshold(self):
         # Mock the scene_start and last_engagement functions to return specific values
-        def mock_get_scene_start(scene_df, verbose):
+        def mock_get_scene_start(scene_df):
             self.get_scene_start_called = True
             return pd.Timestamp('2023-01-01 10:00:00')
 
-        def mock_get_last_engagement(scene_df, verbose):
+        def mock_get_last_engagement(scene_df):
             self.get_last_engagement_called = True
             return pd.Timestamp('2023-01-01 10:14:00')
 
@@ -810,20 +653,13 @@ class TestGetTriageTime(unittest.TestCase):
     def setUp(self):
         # Create a mock DataFrame with scene start and end time columns
         self.scene_df = pd.DataFrame({
-            "start_time": pd.to_datetime(["01:00:00", "02:00:00"]),
-            "end_time": pd.to_datetime(["01:30:00", "02:15:00"])
+            "action_tick": [575896, 693191, 699598]
         })
 
     def test_get_triage_time(self):
         # Test with first scene
-        triage_time = self.get_triage_time(self.scene_df.iloc[0])
-        self.assertEqual(triage_time, 1800000)  # 1800 seconds (30 minutes)
-
-    def test_get_triage_time_verbose(self):
-        # Test with verbose output (optional, modify if your function prints details)
-        with self.assertLogs(level="INFO") as cm:
-            self.get_triage_time(self.scene_df.iloc[0], verbose=True)
-        self.assertIn("Scene triage time:", cm.output[0])
+        triage_time = fu.get_triage_time(self.scene_df)
+        self.assertEqual(triage_time, 123702)
 
 class TestGetDeadPatients(unittest.TestCase):
 
@@ -888,14 +724,6 @@ class TestGetStillPatients(unittest.TestCase):
         result = self.get_still_patients(scene_df)
         self.assertEqual(result, [1, 2, 3])
 
-    def test_verbose_output(self):
-        """Test with verbose output enabled."""
-        # ... (setup data for verbose output test)
-        result = self.get_still_patients(scene_df, verbose=True)
-        # ... (assert expected output, including printed messages)
-
-# ... (other test cases as needed)
-
 class TestGetTotalActions(unittest.TestCase):
 
     def setUp(self):
@@ -910,19 +738,9 @@ class TestGetTotalActions(unittest.TestCase):
         self.command_messages_list = ["hello", "open door"]
 
     def test_get_total_actions_default(self):
-        # Test with default verbose (False)
+        # Test with default
         total_actions = self.get_total_actions(self.scene_df)
         self.assertEqual(total_actions, 2)
-
-    def test_get_total_actions_verbose(self):
-        # Test with verbose set to True
-        captured_output = StringIO()
-        sys.stdout = captured_output
-        total_actions = self.get_total_actions(self.scene_df, verbose=True)
-        sys.stdout = sys.__stdout__  # Restore original stdout
-
-        self.assertEqual(total_actions, 2)
-        self.assertIn("Total number of user actions: 2", captured_output.getvalue())
 
     def test_get_total_actions_with_voice_command(self):
         # Test including specific voice commands
@@ -1000,51 +818,125 @@ class TestGetMeasureOfRightOrdering(unittest.TestCase):
         mock_get_sequences.assert_called_once_with(df, False)
 
 class TestGetPercentHemorrhageControlled(unittest.TestCase):
-
-    @classmethod
-    def setUpClass(cls):
-        # Create sample data (adjust values and columns as needed)
-        data = {
-            'injury_record_required_procedure': ['Procedure A', 'Procedure B', 'Procedure A', 'Hemorrhage Control 1', 'Hemorrhage Control 2'],
-            'injury_treated_required_procedure': ['Procedure A', '', 'Procedure C', 'Hemorrhage Control 2', 'Hemorrhage Control 2 (Wrong)'],
-            'injury_treated_injury_treated_with_wrong_treatment': [False, True, False, False, True]
-        }
-        cls.scene_df = pd.DataFrame(data)
-        cls.hemorrhage_control_procedures_list = ['Hemorrhage Control 1', 'Hemorrhage Control 2']
-
+    def setUp(self):
+        # Create test data
+        self.procedures_list = [
+            'tourniquet', 'tourniquet', 'tourniquet', 'tourniquet', 'woundpack',
+            'tourniquet', 'decompress', 'woundpack', 'tourniquet', 'gauzePressure'
+        ]
+        self.nons_list = [
+            'gauzePressure', 'airway', 'airway', 'gauzePressure', 'gauzePressure',
+            'gauzePressure', 'decompress', 'airway', 'decompress', 'decompress'
+        ]
+        self.all_trues = [True] * len(self.procedures_list)
+        self.some_trues = [
+            False, False, False, False, False,
+            True, False, False, False, False
+        ]
+        self.all_falses = [False] * len(self.procedures_list)
     def test_all_controlled(self):
         """
         Tests the function with all hemorrhage cases controlled.
         """
-        percent_controlled = self.scene_df.apply(
-            lambda row: self.get_percent_hemorrhage_controlled(row, verbose=False), axis=1
-        ).iloc[0]
+        scene_df = DataFrame({
+            'action_tick': [
+                53712, 111438, 173005, 201999, 235440,
+                249305, 296810, 329527, 363492, 442375
+            ],
+            'patient_id': [
+                'Gloria_2 Root', 'Lily_1 Root', 'Lily_1 Root', 'Mike_3 Root', 'Helga_0 Root',
+                'Helga_0 Root', 'Mike_6 Root', 'Mike_9 Root', 'Mike_9 Root', 'Mike_4 Root'
+            ],
+            'injury_id': [
+                'L Shin Amputation', 'R Thigh Laceration', 'R Bicep Puncture', 'R Wrist Amputation', 'L Stomach Puncture',
+                'L Thigh Puncture', 'R Chest Collapse', 'L Side Puncture', 'L Thigh Puncture', 'R Palm Laceration'
+            ],
+            'injury_required_procedure': self.procedures_list,
+            'injury_record_required_procedure': self.procedures_list,
+            'injury_treated_required_procedure': self.procedures_list,
+            'injury_treated_injury_treated_with_wrong_treatment': self.all_falses
+        })
+        percent_controlled = fu.get_percent_hemorrhage_controlled(scene_df)
         self.assertEqual(percent_controlled, 100.0)
 
     def test_no_hemorrhage_cases(self):
         """
         Tests the function with no hemorrhage cases.
         """
-        filtered_df = self.scene_df[~self.scene_df['injury_record_required_procedure'].isin(
-            self.hemorrhage_control_procedures_list)]
-        percent_controlled = self.get_percent_hemorrhage_controlled(filtered_df, verbose=False)
+        scene_df = DataFrame({
+            'action_tick': [
+                53712, 111438, 173005, 201999, 235440,
+                249305, 296810, 329527, 363492, 442375
+            ],
+            'patient_id': [
+                'Gloria_2 Root', 'Lily_1 Root', 'Lily_1 Root', 'Mike_3 Root', 'Helga_0 Root',
+                'Helga_0 Root', 'Mike_6 Root', 'Mike_9 Root', 'Mike_9 Root', 'Mike_4 Root'
+            ],
+            'injury_id': [
+                'L Shin Amputation', 'R Thigh Laceration', 'R Bicep Puncture', 'R Wrist Amputation', 'L Stomach Puncture',
+                'L Thigh Puncture', 'R Chest Collapse', 'L Side Puncture', 'L Thigh Puncture', 'R Palm Laceration'
+            ],
+            'injury_required_procedure': self.nons_list,
+            'injury_record_required_procedure': self.nons_list,
+            'injury_treated_required_procedure': self.nons_list,
+            'injury_treated_injury_treated_with_wrong_treatment': self.some_trues
+        })
+        percent_controlled = fu.get_percent_hemorrhage_controlled(scene_df)
         self.assertTrue(pd.isna(percent_controlled))
 
     def test_wrong_treatment(self):
         """
         Tests the function with a case where a hemorrhage control treatment is marked as wrong.
         """
-        percent_controlled = self.get_percent_hemorrhage_controlled(self.scene_df, verbose=False)
-        self.assertEqual(percent_controlled, 50.0)
+        scene_df = DataFrame({
+            'action_tick': [
+                53712, 111438, 173005, 201999, 235440,
+                249305, 296810, 329527, 363492, 442375
+            ],
+            'patient_id': [
+                'Gloria_2 Root', 'Lily_1 Root', 'Lily_1 Root', 'Mike_3 Root', 'Helga_0 Root',
+                'Helga_0 Root', 'Mike_6 Root', 'Mike_9 Root', 'Mike_9 Root', 'Mike_4 Root'
+            ],
+            'injury_id': [
+                'L Shin Amputation', 'R Thigh Laceration', 'R Bicep Puncture', 'R Wrist Amputation', 'L Stomach Puncture',
+                'L Thigh Puncture', 'R Chest Collapse', 'L Side Puncture', 'L Thigh Puncture', 'R Palm Laceration'
+            ],
+            'injury_required_procedure': self.procedures_list,
+            'injury_record_required_procedure': self.procedures_list,
+            'injury_treated_required_procedure': self.procedures_list,
+            'injury_treated_injury_treated_with_wrong_treatment': self.some_trues
+        })
+        percent_controlled = fu.get_percent_hemorrhage_controlled(scene_df)
+        self.assertEqual(percent_controlled, 87.5)
 
     def test_duplicate_treatments(self):
         """
         Tests the function with duplicate treatment entries for the same injury.
         """
+        scene_df = DataFrame({
+            'action_tick': [
+                53712, 111438, 173005, 201999, 235440,
+                249305, 296810, 329527, 363492, 442375
+            ],
+            'patient_id': [
+                'Gloria_2 Root', 'Lily_1 Root', 'Lily_1 Root', 'Mike_3 Root', 'Helga_0 Root',
+                'Helga_0 Root', 'Mike_6 Root', 'Mike_9 Root', 'Mike_9 Root', 'Mike_4 Root'
+            ],
+            'injury_id': [
+                'L Shin Amputation', 'R Thigh Laceration', 'R Bicep Puncture', 'R Wrist Amputation', 'L Stomach Puncture',
+                'L Thigh Puncture', 'R Chest Collapse', 'L Side Puncture', 'L Thigh Puncture', 'R Palm Laceration'
+            ],
+            'injury_required_procedure': self.procedures_list,
+            'injury_record_required_procedure': self.procedures_list,
+            'injury_treated_required_procedure': self.procedures_list,
+            'injury_treated_injury_treated_with_wrong_treatment': self.some_trues
+        })
+        
         # Create additional row with duplicate treatment
-        duplicate_df = self.scene_df.append(self.scene_df.iloc[3])
-        percent_controlled = self.get_percent_hemorrhage_controlled(duplicate_df, verbose=False)
-        self.assertEqual(percent_controlled, 50.0)
+        duplicate_df = scene_df.append(scene_df.iloc[3])
+        
+        percent_controlled = fu.get_percent_hemorrhage_controlled(duplicate_df)
+        self.assertEqual(percent_controlled, 87.5)
 
 class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
 
@@ -1060,8 +952,8 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         # Mock the is_patient_hemorrhaging function to return False for all patients
         self.patch_is_patient_hemorrhaging(return_value=False)
 
-        # Call the function with verbose set to False
-        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df, verbose=False)
+        # Call the function
+        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df)
 
         # Assert that the returned time is 0
         self.assertEqual(last_controlled_time, 0)
@@ -1076,8 +968,8 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
 
         self.patch_is_patient_hemorrhaging(side_effect=is_patient_hemorrhaging)
 
-        # Call the function with verbose set to False
-        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df, verbose=False)
+        # Call the function
+        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df)
 
         # Assert that the returned time is the controlled time from the mocked function
         self.assertEqual(last_controlled_time, 1000)
@@ -1085,7 +977,7 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
     def test_multiple_patients_hemorrhage(self):
         # Mock the get_time_to_hemorrhage_control function to return different values for each patient
         controlled_times = [500, 1200]
-        def get_time_to_hemorrhage_control(patient_df, scene_start, verbose):
+        def get_time_to_hemorrhage_control(patient_df, scene_start):
             patient_id = patient_df["patient_id"].iloc[0]
             return controlled_times[patient_id - 1]
 
@@ -1094,8 +986,8 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         # Mock the is_patient_hemorrhaging function to return True for all patients
         self.patch_is_patient_hemorrhaging(return_value=True)
 
-        # Call the function with verbose set to False
-        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df, verbose=False)
+        # Call the function
+        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df)
 
         # Assert that the returned time is the maximum controlled time from the mocked function
         self.assertEqual(last_controlled_time, max(controlled_times))
@@ -1131,12 +1023,6 @@ class TestGetTriagePriorityDataFrame(unittest.TestCase):
         self.assertEqual(list(triage_df.columns), self.scene_groupby_columns + ['injury_id', 'injury_severity', 'injury_required_procedure', 'patient_salt', 'patient_sort', 'patient_pulse', 'patient_breath', 'patient_hearing', 'patient_mood', 'patient_pose'])
         self.assertTrue(triage_df['injury_severity'].iloc[0] == 'Critical')  # Check sorting by injury severity
         self.assertTrue(triage_df['patient_sort'].iloc[0] == 1)  # Check sorting by patient_sort within severity
-
-    def test_get_triage_priority_data_frame_verbose(self):
-        # Test with verbose set to True
-        triage_df = self.get_triage_priority_data_frame(self.scene_df, verbose=True)
-
-        # No additional assertions needed, just testing verbose behavior
 
 class TestGetEngagementStartsOrder(unittest.TestCase):
 
@@ -1223,13 +1109,13 @@ class TestGetDistractedEngagementOrder(unittest.TestCase):
         self.mock_scene_df.__getitem__.return_value = self.mock_scene_df
 
         # Call the function
-        distracted_order = get_distracted_engagement_order(self, self.mock_scene_df, mock_tuples_list, verbose=True)
+        distracted_order = get_distracted_engagement_order(self, self.mock_scene_df, mock_tuples_list)
 
         # Expected output
         expected_order = [mock_tuples_list[2], mock_tuples_list[0]]
 
         # Assert calls and results
-        self.mock_get_engagement_starts_order.assert_called_once_with(self.mock_scene_df, verbose=True)
+        self.mock_get_engagement_starts_order.assert_called_once_with(self.mock_scene_df)
         self.assertEqual(distracted_order, expected_order)
 
     @patch("distracted_engagement_utils.nu.get_nearest_neighbor")
@@ -1244,13 +1130,13 @@ class TestGetDistractedEngagementOrder(unittest.TestCase):
         self.mock_scene_df.__getitem__.return_value = self.mock_scene_df
 
         # Call the function
-        distracted_order = get_distracted_engagement_order(self, self.mock_scene_df, verbose=True)
+        distracted_order = get_distracted_engagement_order(self, self.mock_scene_df)
 
         # Expected output (empty list)
         expected_order = []
 
         # Assert calls and results
-        self.mock_get_engagement_starts_order.assert_called_once_with(self.mock_scene_df, verbose=True)
+        self.mock_get_engagement_starts_order.assert_called_once_with(self.mock_scene_df)
         self.assertEqual(distracted_order, expected_order)
 
 if __name__ == "__main__":

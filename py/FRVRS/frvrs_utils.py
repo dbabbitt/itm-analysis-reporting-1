@@ -226,8 +226,8 @@ class FRVRSUtilities(object):
             if minutes == 0: formatted_string = f'{seconds} sec'
             elif seconds > 0: formatted_string = f'{minutes}:{seconds:02}'
             else: formatted_string = f'{minutes} min'
-        elif (minimum_unit == 'minutes'):
-            formatted_string = f'{minutes}:{seconds:02}'
+        elif (minimum_unit == 'minutes'): formatted_string = f'{minutes}:{seconds:02}'
+        else: raise ValueError('minimum_unit must be either seconds or minutes.')
         
         return formatted_string
     
@@ -1353,20 +1353,26 @@ class FRVRSUtilities(object):
             float: Percentage of hemorrhage cases successfully controlled.
         """
         
-        # Filter for hemorrhage-related injuries that have been recorded or treated
-        base_mask_series = scene_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        if verbose: print(f'Hemorrhage-related injuries that have been recorded or treated: {scene_df[base_mask_series].shape[0]}')
+        # Loop through each injury, examining its required procedures and wrong treatments
+        procedure_count = 0; hemorrhage_count = 0; controlled_count = 0
+        for (patient_id, injury_id), injury_df in scene_df.groupby(['patient_id', 'injury_id']):
         
-        # Filter for injuries requiring hemorrhage control procedures
-        record_mask_series = scene_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        if verbose: print(f'Injuries requiring hemorrhage control procedures: {scene_df[record_mask_series].shape[0]}')
-        hemorrhage_count = scene_df[record_mask_series].shape[0]
+            # Count any hemorrhage-related injuries that have been recorded or treated
+            mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
+            if mask_series.any(): procedure_count += 1
+            
+            # Count any injuries requiring hemorrhage control procedures
+            mask_series = injury_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+            if mask_series.any(): hemorrhage_count += 1
+            
+            # Count any hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
+            mask_series = injury_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+            mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment != True)
+            if mask_series.any(): controlled_count += 1
         
-        # Filter for hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
-        treated_mask_series = scene_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        treated_mask_series &= (scene_df.injury_treated_injury_treated_with_wrong_treatment != True)
-        if verbose: print(f"Hemorrhage-related injuries that have been treated: {scene_df[treated_mask_series].drop_duplicates(subset=['injury_id'], keep='last').shape[0]}")
-        controlled_count = scene_df[treated_mask_series].drop_duplicates(subset=['injury_id'], keep='last').shape[0]
+        if verbose: print(f'Hemorrhage-related injuries that have been recorded or treated: {procedure_count}')
+        if verbose: print(f'Injuries requiring hemorrhage control procedures: {hemorrhage_count}')
+        if verbose: print(f"Hemorrhage-related injuries that have been treated: {controlled_count}")
         
         # Calculate the percentage of controlled hemorrhage-related injuries
         try: percent_controlled = 100 * controlled_count / hemorrhage_count
@@ -1694,7 +1700,7 @@ class FRVRSUtilities(object):
         
         # Return a tuple (random_patient_id, max_salt) if 'session_uuid' is provided
         if session_uuid is not None:
-            if random_patient_id is None: random_patient_id = patient_df.groupby('patient_id').groups.keys().item()
+            if random_patient_id is None: random_patient_id = list(patient_df.groupby('patient_id').groups.keys())[0]
             return random_patient_id, max_salt
         
         # Return the max salt value if 'session_uuid' is None
@@ -2013,7 +2019,8 @@ class FRVRSUtilities(object):
     
     def get_time_to_hemorrhage_control(self, patient_df, scene_start=None, verbose=False):
         """
-        Calculate the time it takes to control hemorrhage for the patient by getting the injury treatments where the responder is not confused from the bad feedback.
+        Calculate the time it takes to control hemorrhage for the patient by getting the injury treatments
+        where the responder is not confused from the bad feedback.
         
         Parameters:
             patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
@@ -2988,7 +2995,11 @@ class FRVRSUtilities(object):
     def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], verbose=False):
         
         # Get the column sets
-        needed_set = set(['scene_type', 'is_scene_aborted'] + needed_columns)
+        triage_columns = ['scene_type', 'is_scene_aborted']
+        for cn in triage_columns:
+            if not any(map(lambda df: cn in df.columns, [logs_df, file_stats_df, scene_stats_df])):
+                raise ValueError(f'The {cn} column must be in either logs_df, file_stats_df, or scene_stats_df.')
+        needed_set = set(triage_columns + needed_columns)
         logs_columns_set = set(logs_df.columns)
         file_columns_set = set(file_stats_df.columns)
         scene_columns_set = set(scene_stats_df.columns)
@@ -3009,8 +3020,8 @@ class FRVRSUtilities(object):
         else: merge_df = logs_df
         
         # Get the triage scenes with at least eleven patients in them
-        one_triage_mask = (merge_df.scene_type == 'Triage') & (merge_df.is_scene_aborted == False)
-        elevens_df = merge_df[one_triage_mask].groupby(self.scene_groupby_columns).filter(lambda x: x.patient_id.nunique() >= 11)
+        triage_mask = (merge_df.scene_type == 'Triage') & (merge_df.is_scene_aborted == False)
+        elevens_df = merge_df[triage_mask].groupby(self.scene_groupby_columns).filter(lambda x: x.patient_id.nunique() >= 11)
         
         return elevens_df
     

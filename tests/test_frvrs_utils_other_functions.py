@@ -64,39 +64,33 @@ class TestFRVRSResponderInit(unittest.TestCase):
     
     
 class TestFormatTimedelta(unittest.TestCase):
+    
+    def setUp(self):
+        # Test cases with different values and expected outputs
+        self.test_cases = [
+            ('zero seconds', timedelta(seconds=0), '0 sec', '0:00'),
+            ('thirty seconds', timedelta(seconds=30), '30 sec', '0:30'),
+            ('one minute', timedelta(minutes=1, seconds=0), '1 min', '1:00'),
+            ('a minute and a half', timedelta(minutes=1, seconds=30), '1:30', '1:30'),
+            ('two minutes', timedelta(minutes=2, seconds=0), '2 min', '2:00'),
+            ('two and a half minutes', timedelta(minutes=2, seconds=30), '2:30', '2:30'),
+            ('ten minutes', timedelta(minutes=10), '10 min', '10:00'),
+        ]
 
     def test_format_seconds(self):
         """
         Tests formatting timedelta with minimum unit as seconds.
         """
-        # Test cases with different values and expected outputs
-        test_cases = [
-            (timedelta(seconds=0), "0 sec"),
-            (timedelta(seconds=30), "30 sec"),
-            (timedelta(minutes=1), "1 min"),
-            (timedelta(minutes=2, seconds=30), "2:30"),
-            (timedelta(minutes=10), "10 min"),
-        ]
-
-        for delta, expected_string in test_cases:
-            formatted_string = format_timedelta.format_timedelta(delta)
+        for description, delta, expected_string, _ in self.test_cases:
+            formatted_string = fu.format_timedelta(delta)
             self.assertEqual(formatted_string, expected_string)
 
     def test_format_minutes(self):
         """
         Tests formatting timedelta with minimum unit as minutes.
         """
-        # Test cases with different values and expected outputs
-        test_cases = [
-            (timedelta(seconds=0), "0:00"),
-            (timedelta(seconds=30), "0:30"),
-            (timedelta(minutes=1), "1:00"),
-            (timedelta(minutes=2, seconds=30), "2:30"),
-            (timedelta(minutes=10), "10:00"),
-        ]
-
-        for delta, expected_string in test_cases:
-            formatted_string = format_timedelta.format_timedelta(delta, minimum_unit="minutes")
+        for description, delta, _, expected_string in self.test_cases:
+            formatted_string = fu.format_timedelta(delta, minimum_unit="minutes")
             self.assertEqual(formatted_string, expected_string)
 
     def test_invalid_minimum_unit(self):
@@ -104,7 +98,7 @@ class TestFormatTimedelta(unittest.TestCase):
         Tests handling of invalid minimum_unit argument.
         """
         with self.assertRaises(ValueError):
-            format_timedelta.format_timedelta(timedelta(minutes=1), minimum_unit="invalid_unit")
+            fu.format_timedelta(timedelta(minutes=1), minimum_unit="invalid_unit")
 
     
 ### List Functions ###

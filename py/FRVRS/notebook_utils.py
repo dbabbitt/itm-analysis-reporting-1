@@ -1203,18 +1203,16 @@ class NotebookUtilities(object):
                         pickle.dump(object, handle, pickle.HIGHEST_PROTOCOL)
 
         else:
-            try:
-                object = pd.read_pickle(pickle_path)
+            try: object = pd.read_pickle(pickle_path)
             except:
-                with open(pickle_path, 'rb') as handle:
-                    object = pickle.load(handle)
+                with open(pickle_path, 'rb') as handle: object = pickle.load(handle)
 
         if verbose: print('Loaded object {} from {}'.format(obj_name, pickle_path), flush=True)
 
         return(object)
     
     
-    def load_data_frames(self, **kwargs):
+    def load_data_frames(self, verbose=True, **kwargs):
         """
         Loads Pandas DataFrames from pickle or CSV files, potentially switching between folders if necessary.
         
@@ -1237,12 +1235,12 @@ class NotebookUtilities(object):
                 
                 # If the pickle file exists, load it using the load_object function
                 if osp.isfile(pickle_path):
-                    print(f'Attempting to load {pickle_path}.', flush=True)
+                    if verbose: print(f'Attempting to load {pickle_path}.', flush=True)
                     try:
                         frame_dict[frame_name] = self.load_object(frame_name)
                         was_successful = True
                     except Exception as e:
-                        print(str(e).strip())
+                        if verbose: print(str(e).strip())
                         was_successful = False
             
             # If the pickle file doesn't exist, check for a CSV file with the same name
@@ -1252,12 +1250,12 @@ class NotebookUtilities(object):
                 
                 # If the CSV file exists in the saves folder, load it from there
                 if osp.isfile(csv_path):
-                    print(f'No pickle exists for {frame_name} - attempting to load {csv_path}.', flush=True)
+                    if verbose: print(f'No pickle exists for {frame_name} - attempting to load {csv_path}.', flush=True)
                     try:
                         frame_dict[frame_name] = self.load_csv(csv_name=frame_name, folder_path=self.saves_folder)
                         was_successful = True
                     except Exception as e:
-                        print(str(e).strip())
+                        if verbose: print(str(e).strip())
                         was_successful = False
             
             # If the CSV file doesn't exist in the saves folder, check for it in the data folder
@@ -1266,17 +1264,17 @@ class NotebookUtilities(object):
                 
                 # If the CSV file exists in the data folder, load it from there
                 if osp.isfile(csv_path):
-                    print(f'No csv exists for {frame_name} - trying {csv_path}.', flush=True)
+                    if verbose: print(f'No csv exists for {frame_name} - trying {csv_path}.', flush=True)
                     try:
                         frame_dict[frame_name] = self.load_csv(csv_name=frame_name)
                         was_successful = True
                     except Exception as e:
-                        print(str(e).strip())
+                        if verbose: print(str(e).strip())
                         was_successful = False
             
             # If the CSV file doesn't exist anywhere, skip loading this data frame
             if not was_successful:
-                print(f'No csv exists for {frame_name} - just forget it.', flush=True)
+                if verbose: print(f'No csv exists for {frame_name} - just forget it.', flush=True)
                 frame_dict[frame_name] = None
         
         return frame_dict

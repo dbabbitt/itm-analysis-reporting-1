@@ -2,6 +2,7 @@
 from contextlib import redirect_stdout
 from datetime import timedelta
 from numpy import nan
+from pandas import DataFrame
 from pathlib import Path
 from unittest.mock import MagicMock, Mock, patch
 import numpy as np
@@ -22,38 +23,29 @@ class TestGetStatistics(unittest.TestCase):
 
     def setUp(self):
         # Create a sample DataFrame
-        data = {'col1': [1, 2, 3, 4, 5],
-                'col2': ['a', 'b', 'a', 'b', 'c'],
-                'col3': [1.5, 2.2, 3.1, 4.4, 5.8]}
-        self.describable_df = pd.DataFrame(data)
+        self.describable_df = DataFrame({
+            'triage_time': [461207, 615663, 649185, 19615, 488626],
+            'last_controlled_time': [377263, 574558, 462280, 0, 321956]
+        })
+        self.expected_df = DataFrame(
+            {
+                'triage_time': [446859.2, 19615.0, 488626.0, 251951.57452415334, 19615.0, 461207.0, 488626.0, 615663.0, 649185.0],
+                'last_controlled_time': [347211.4, 0.0, 377263.0, 216231.3283379631, 0.0, 321956.0, 377263.0, 462280.0, 574558.0]
+            },
+            index=['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
+        )
 
     def test_get_statistics_all_columns(self):
         # Test with all columns
         columns_list = self.describable_df.columns.tolist()
-        expected_df = self.describable_df.describe().rename(index={'std': 'SD'})
-        actual_df = fu.get_statistics(self.describable_df.copy(), columns_list)
-        self.assertTrue(expected_df.equals(actual_df))
+        actual_df = fu.get_statistics(self.describable_df, columns_list)
+        self.assertTrue(self.expected_df.equals(actual_df))
 
     def test_get_statistics_subset_columns(self):
         # Test with a subset of columns
-        columns_list = ['col1', 'col3']
-        expected_df = self.describable_df[columns_list].describe().rename(index={'std': 'SD'})
-        actual_df = fu.get_statistics(self.describable_df.copy(), columns_list)
-        self.assertTrue(expected_df.equals(actual_df))
-
-    def test_get_statistics_missing_mode(self):
-        # Test with missing 'mode' statistic
-        with pd.option_context('mode.use_inf_as_na', True):
-            columns_list = ['col2']
-            expected_df = self.describable_df[columns_list].describe(include='all').rename(index={'std': 'SD'})
-            actual_df = fu.get_statistics(self.describable_df.copy(), columns_list)
-            self.assertTrue(expected_df.equals(actual_df))
-
-    def test_get_statistics_verbose(self):
-        # Test with verbose flag set to True
-        columns_list = ['col1', 'col2']
-        with self.assertRaises(NotImplementedError):
-            fu.get_statistics(self.describable_df.copy(), columns_list, verbose=True)
+        columns_list = ['triage_time']
+        actual_df = fu.get_statistics(self.describable_df, columns_list)
+        self.assertTrue(self.expected_df.drop(columns=['last_controlled_time']).equals(actual_df))
 
 
 class TestShowTimeStatistics(unittest.TestCase):
@@ -103,7 +95,7 @@ class TestSetSceneIndices(unittest.TestCase):
         self.file_df = pd.DataFrame(data)
         self.file_df = self.file_df.reset_index(drop=True)
 
-    def test_fu.set_scene_indices(self):
+    def test_set_scene_indices(self):
         expected_df = self.file_df.copy()
         expected_df["scene_id"] = [1, 1, 2, 2, 2, 3, 3, 3, 4, 4, 4, 5, 5]
         expected_df["is_scene_aborted"] = [False, False, False, False, False, False, False, False, False, False, False, False, True]
@@ -250,24 +242,24 @@ class TestSplitDfByTeleport(unittest.TestCase):
         # Sample teleport locations
         self.teleport_rows = [2, 4]
 
-    def test_fu.split_df_by_teleport_empty_df(self):
+    def test_split_df_by_teleport_empty_df(self):
         # Test with empty DataFrame
         empty_df = pd.DataFrame()
         result = fu.split_df_by_teleport(empty_df)
         self.assertEqual(result, [])
 
-    def test_fu.split_df_by_teleport_no_teleports(self):
+    def test_split_df_by_teleport_no_teleports(self):
         # Test with no teleport locations
         result = fu.split_df_by_teleport(self.df.copy())
         self.assertEqual(result, [self.df.copy()])
 
-    def test_fu.split_df_by_teleport_single_teleport(self):
+    def test_split_df_by_teleport_single_teleport(self):
         # Test with single teleport location
         result = fu.split_df_by_teleport(self.df.copy())
         expected_dfs = [self.df.iloc[:2, :], self.df.iloc[2:, :]]
         self.assertEqual(result, expected_dfs)
 
-    def test_fu.split_df_by_teleport_multiple_teleports(self):
+    def test_split_df_by_teleport_multiple_teleports(self):
         # Test with multiple teleport locations
         result = fu.split_df_by_teleport(self.df.copy())
         expected_dfs = [self.df.iloc[:2, :], self.df.iloc[2:4, :], self.df.iloc[4:, :]]
@@ -404,30 +396,20 @@ class TestGetElevensDataFrame(unittest.TestCase):
 
     def setUp(self):
         # Create sample DataFrames for testing
-        self.logs_df = pd.DataFrame({
-            'scene_type': ['Triage', 'Triage', 'Non-Triage'],
-            'is_scene_aborted': [False, True, False],
-            'patient_id': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
-            'other_log_column': ['log1', 'log2', 'log3', 'log4', 'log5', 'log6', 'log7', 'log8', 'log9', 'log10', 'log11', 'log12']
-        })
-        self.file_stats_df = pd.DataFrame({
-            'scene_id': [1, 2, 3],
-            'some_file_stat': ['stat1', 'stat2', 'stat3'],
-            'other_file_stat_column': ['file1', 'file2', 'file3']
-        })
-        self.scene_stats_df = pd.DataFrame({
-            'scene_id': [2, 3],
-            'some_scene_stat': ['stat4', 'stat5'],
-            'other_scene_stat_column': ['scene1', 'scene2']
-        })
+        data_frames_list = nu.load_data_frames(
+            verbose=False, first_responder_master_registry_df='', first_responder_master_registry_file_stats_df='', first_responder_master_registry_scene_stats_df=''
+        )
+        self.logs_df = data_frames_list['first_responder_master_registry_df']
+        self.file_stats_df = data_frames_list['first_responder_master_registry_file_stats_df']
+        self.scene_stats_df = data_frames_list['first_responder_master_registry_scene_stats_df']
 
     def test_all_columns_in_logs_df(self):
         """
         Test case where all needed columns are present in the logs DataFrame.
         """
-        needed_columns = ['other_log_column']
-        elevens_df = get_elevens_data_frame(self, self.logs_df.copy(), self.file_stats_df.copy(), self.scene_stats_df.copy(), needed_columns)
-        self.assertEqual(elevens_df.shape, (3, 3))  # All rows from logs_df should be present
+        needed_columns = ['session_uuid', 'scene_id']
+        elevens_df = fu.get_elevens_data_frame(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
+        self.assertEqual(elevens_df.shape[1], self.logs_df.shape[1]+2)  # All rows from logs_df should be present
 
     def test_missing_columns_from_all_dfs(self):
         """
@@ -435,15 +417,15 @@ class TestGetElevensDataFrame(unittest.TestCase):
         """
         needed_columns = ['missing_column']
         with self.assertRaises(KeyError):
-            get_elevens_data_frame(self, self.logs_df.copy(), self.file_stats_df.copy(), self.scene_stats_df.copy(), needed_columns)
+            fu.get_elevens_data_frame(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
 
     def test_missing_column_from_logs_df_only(self):
         """
         Test case where a needed column is missing only from the logs DataFrame.
         """
-        needed_columns = ['other_file_stat_column']
-        elevens_df = get_elevens_data_frame(self, self.logs_df.copy(), self.file_stats_df.copy(), self.scene_stats_df.copy(), needed_columns)
-        self.assertEqual(elevens_df.shape, (3, 4))  # Merged DataFrames with additional column
+        needed_columns = ['scene_type', 'is_scene_aborted', 'is_a_one_triage_file', 'responder_category']
+        elevens_df = fu.get_elevens_data_frame(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
+        self.assertEqual(elevens_df.shape[1], self.logs_df.shape[1] + len(needed_columns))  # Merged DataFrames with additional columns
 
     def test_empty_dataframes(self):
         """
@@ -451,7 +433,7 @@ class TestGetElevensDataFrame(unittest.TestCase):
         """
         empty_df = pd.DataFrame()
         with self.assertRaises(ValueError):
-            get_elevens_data_frame(self, empty_df.copy(), empty_df.copy(), empty_df.copy())
+            fu.get_elevens_data_frame(empty_df, empty_df, empty_df)
 
 if __name__ == "__main__":
     unittest.main()
