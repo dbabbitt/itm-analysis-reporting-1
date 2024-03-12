@@ -1630,7 +1630,7 @@ class NotebookUtilities(object):
             
             # Import necessary libraries and modules
             import sys
-            sys.path.insert(1, '../py')  # Add the '../py' directory to the system path
+            if ('../py' not in sys.path): sys.path.insert(1, '../py')  # Add the '../py' directory to the system path
             from FRVRS import nu
             
             # Example usage of the function
