@@ -12,7 +12,7 @@ import unittest
 
 # Import the class containing the functions
 import sys
-sys.path.insert(1, '../py')
+if ('../py' not in sys.path): sys.path.insert(1, '../py')
 from FRVRS import fu, nu
 
 
@@ -74,8 +74,8 @@ class TestShowTimeStatistics(unittest.TestCase):
 
     def test_show_time_statistics(self):
         # Patch get_statistics and format_timedelta methods with mocks
-        with unittest.mock.patch.object(self, 'show_time_statistics.get_statistics', self.mock_get_statistics), \
-             unittest.mock.patch.object(self, 'show_time_statistics.format_timedelta', self.mock_format_timedelta):
+        with unittest.mock.patch.object(fu, 'show_time_statistics.get_statistics', self.mock_get_statistics), \
+             unittest.mock.patch.object(fu, 'show_time_statistics.format_timedelta', self.mock_format_timedelta):
 
             # Call the function
             self.show_time_statistics(self.describable_df, self.columns_list)
