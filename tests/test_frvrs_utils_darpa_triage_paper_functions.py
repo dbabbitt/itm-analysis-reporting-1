@@ -1,10 +1,8 @@
 
 from datetime import timedelta
-from numpy import nan
-from pandas import DataFrame
+from numpy import nan, isnan
+from pandas import DataFrame, isna
 from unittest.mock import patch
-import numpy as np
-import pandas as pd
 import re
 import unittest
 
@@ -84,7 +82,7 @@ class TestGetElevensDataFrame(unittest.TestCase):
         """
         Test case where all DataFrames are empty.
         """
-        empty_df = pd.DataFrame()
+        empty_df = DataFrame()
         with self.assertRaises(ValueError):
             fu.get_elevens_data_frame(empty_df, empty_df, empty_df)
 
@@ -122,19 +120,19 @@ class TestGetLastTag(unittest.TestCase):
             'tag_applied_type': ['tag1', 'tag2', 'tag3'],
             # Add other relevant columns to create a sample DataFrame
         }
-        patient_df = pd.DataFrame(patient_data)
+        patient_df = DataFrame(patient_data)
         result = fu.get_last_tag(patient_df)
         self.assertEqual(result, 'tag3')
 
     def test_get_last_tag_with_no_tags(self):
         # Test when there are no tags in the DataFrame
         patient_data = {
-            'tag_applied_type': [np.nan, np.nan, np.nan],
+            'tag_applied_type': [nan, nan, nan],
             # Add other relevant columns to create a sample DataFrame
         }
-        patient_df = pd.DataFrame(patient_data)
+        patient_df = DataFrame(patient_data)
         result = fu.get_last_tag(patient_df)
-        self.assertTrue(np.isnan(result))
+        self.assertTrue(isnan(result))
 
 class TestIsPatientHemorrhagingFunction(unittest.TestCase):
     def test_patient_hemorrhaging_positive(self):
@@ -186,8 +184,6 @@ class TestGetTimeToHemorrhageControl(unittest.TestCase):
         # Add assertions based on the expected result
         self.assertEqual(result, expected_result)
 
-    # Add more test cases as needed
-
 
 ### Scene Functions ###
 
@@ -196,7 +192,7 @@ class TestGetTriageTime(unittest.TestCase):
 
     def setUp(self):
         # Create a mock DataFrame with scene start and end time columns
-        self.scene_df = pd.DataFrame({
+        self.scene_df = DataFrame({
             "action_tick": [575896, 693191, 699598]
         })
 
@@ -270,7 +266,7 @@ class TestGetPercentHemorrhageControlled(unittest.TestCase):
             'injury_treated_injury_treated_with_wrong_treatment': self.some_trues
         })
         percent_controlled = fu.get_percent_hemorrhage_controlled(scene_df)
-        self.assertTrue(pd.isna(percent_controlled))
+        self.assertTrue(isna(percent_controlled))
 
     def test_wrong_treatment(self):
         """
@@ -331,7 +327,7 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
     def setUp(self):
         
         # Create mock data for the scene DataFrame
-        self.scene_df = pd.DataFrame({
+        self.scene_df = DataFrame({
             'action_tick': [223819, 223819, 223819, 241120, 256019, 256924, 285654, 289814, 317108, 319906, 321245, 367706, 368149, 568501, 571875],
             'patient_id': [
                 'Lily_4 Root', 'Lily_2 Root', 'Bob_0 Root', 'Gloria_6 Root', nan, nan, 'Lily_2 Root', nan,
