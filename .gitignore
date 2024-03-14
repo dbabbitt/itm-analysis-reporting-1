@@ -52,12 +52,15 @@ saves/pkl/patient_history_df.pkl
 ipynb/Censor_Audio_Files.ipynb
 *secret*
 
-# Exclude PII
-saves/**/first_responder_master_registry_*
-data/xlsx/First_Responder_Master_registry_*.xlsx
+# Exclude PII-sensitive small-batch runs
+**/*DD 405*
+**/*DD ITM 405*
+**/*First Responder Master Registry*
+**/*itm_405*
+**/First_Responder_Master_registry*
+**/first_responder_master_registry*
 data/xlsx/FirstResponder_InjuryTriage_Categories*.xlsx
 data/xlsx/uuid_Master_with_Site_and_Learner_Type*.xlsx
-**/*First Responder Master Registry*.ipynb
 
 # Exclude backups
 *.bak

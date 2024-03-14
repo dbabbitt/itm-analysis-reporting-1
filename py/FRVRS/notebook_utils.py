@@ -917,36 +917,6 @@ class NotebookUtilities(object):
         rogue_fns_set = set([k for k in self.get_notebook_functions_dictionary(github_folder=github_folder).keys()])
         
         return rogue_fns_set
-    
-    
-    def show_duplicated_util_fns_search_string(self, util_path=None, github_folder=None):
-        """
-        Search for duplicate utility function definitions in Jupyter notebooks within a specified GitHub repository folder.
-        The function identifies rogue utility function definitions in Jupyter notebooks and prints a regular expression
-        pattern to search for instances of these definitions. The intention is to replace these calls with the
-        corresponding `nu.` equivalent and remove the duplicates.
-
-        Parameters:
-            util_path (str, optional): The path to the utilities file to check for existing utility function definitions.
-                                       Defaults to `../py/notebook_utils.py`.
-            github_folder (str, optional): The path of the root folder of the GitHub repository containing the notebooks.
-                                           Defaults to the parent directory of the current working directory.
-
-        Returns:
-            None: The function prints the regular expression pattern to identify rogue utility function definitions.
-        """
-
-        # Get a list of rogue functions already in utilities file
-        utils_set = self.get_utility_file_functions(util_path=util_path)
-
-        # Make a set of rogue util functions
-        if github_folder is None: github_folder = self.github_folder
-        rogue_fns_list = [fn for fn in self.get_notebook_functions_dictionary(github_folder=github_folder).keys() if fn in utils_set]
-        
-        if rogue_fns_list:
-            print(f'Search for *.ipynb; file masks in the {github_folder} folder for this pattern:')
-            print('\\s+"def (' + '|'.join(rogue_fns_list) + ')\(')
-            print('Replace each of the calls to these definitions with calls the the nu. equivalent (and delete the definitions).')
 
     
     def list_dfs_in_folder(self, pickle_folder=None):
@@ -3186,7 +3156,7 @@ class NotebookUtilities(object):
         
         # Highlight any of the n-grams given
         if highlighted_ngrams != []:
-            # if verbose: display(highlighted_ngrams)
+            if verbose: display(highlighted_ngrams)
             
             def highlight_ngram(ngram):
                 
@@ -3200,7 +3170,7 @@ class NotebookUtilities(object):
                     if str(this_ngram) == str(ngram): match_positions.append(x)
                 
                 # Draw a red box around each match
-                # if verbose: print(f'ngram={ngram}, min(ngram)={min(ngram)}, max(ngram)={max(ngram)}, match_positions={match_positions}')
+                if verbose: print(f'ngram={ngram}, min(ngram)={min(ngram)}, max(ngram)={max(ngram)}, match_positions={match_positions}')
                 for position in match_positions:
                     bot = min(ngram) - 0.25
                     top = max(ngram) + 0.25

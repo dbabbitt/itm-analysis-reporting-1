@@ -447,11 +447,12 @@ class FRVRSUtilities(object):
             The unique logger version associated with the session DataFrame.
         """
         
-        # Assume there are only two versions
+        # Assume there are only three versions
         if isinstance(session_df_or_file_path, str):
             with open(session_df_or_file_path, 'r', encoding=nu.encoding_type) as f:
                 file_content = f.read()
                 if ',1.3,' in file_content: logger_version = 1.3
+                elif ',1.4,' in file_content: logger_version = 1.4
                 else: logger_version = 1.0
         else:
             
@@ -1746,10 +1747,12 @@ class FRVRSUtilities(object):
         Returns:
             tuple: The coordinates of the patient.
         """
+        patient_location = (0.0, 0.0, 0.0)
         mask_series = ~patient_df.location_id.isnull()
-        df = patient_df[mask_series]
-        df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick, x))
-        patient_location = eval(df.sort_values('action_delta').iloc[0].location_id)
+        if mask_series.any():
+            df = patient_df[mask_series]
+            df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick - x))
+            patient_location = eval(df.sort_values('action_delta').iloc[0].location_id)
         
         return patient_location
     
@@ -2761,7 +2764,7 @@ class FRVRSUtilities(object):
         # columns_list = srs[srs == file_df.shape[0]].index.tolist()
         
         # Remove column 4 and rename all the numbered colums above that
-        if (version_number == 1.3):
+        if (version_number > 1.0):
             file_df.drop(4, axis='columns', inplace=True)
             file_df.columns = list(range(file_df.shape[1]))
         
@@ -2992,7 +2995,7 @@ class FRVRSUtilities(object):
         return(result_df)
     
     
-    def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], verbose=False):
+    def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], minimum_patient_count=11, verbose=False):
         
         # Get the column sets
         triage_columns = ['scene_type', 'is_scene_aborted']
@@ -3021,7 +3024,7 @@ class FRVRSUtilities(object):
         
         # Get the triage scenes with at least eleven patients in them
         triage_mask = (merge_df.scene_type == 'Triage') & (merge_df.is_scene_aborted == False)
-        elevens_df = merge_df[triage_mask].groupby(self.scene_groupby_columns).filter(lambda x: x.patient_id.nunique() >= 11)
+        elevens_df = merge_df[triage_mask].groupby(self.scene_groupby_columns).filter(lambda x: x.patient_id.nunique() >= minimum_patient_count)
         
         return elevens_df
     

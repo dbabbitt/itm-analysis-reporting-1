@@ -150,8 +150,16 @@ class TestGetPatientLocation(unittest.TestCase):
 
     def test_get_patient_location_invalid_input(self):
         # Test the function with invalid input
-        with self.assertRaises(SomeSpecificException):  # Replace with the actual exception your function raises for invalid input
+        with self.assertRaises(TypeError):
             fu.get_patient_location(self.patient_df, 'invalid_input')
+
+    def test_null_location_ids(self):
+        # Test the function with null location_id input and expected output
+        data = {'location_id': [nan, nan, nan],
+                'action_tick': [100, 200, 300]}
+        patient_df = pd.DataFrame(data)
+        result = fu.get_patient_location(patient_df, 250)
+        self.assertEqual(result, (0.0, 0.0, 0.0))
 
 class TestIsTagCorrect(unittest.TestCase):
 
