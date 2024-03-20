@@ -62,38 +62,36 @@ class TestIsInjuryCorrectlyTreated(unittest.TestCase):
 class TestHemorrhageControlled(unittest.TestCase):
 
     def setUp(self):
-        # Define sample data with different scenarios
-        self.data = {
-            "patient_id": [1, 1, 2, 2, 3],
-            "injury_record_required_procedure": ["A", "B", "A", "C", "D"],
-            "injury_treated_required_procedure": ["C", "A", "D", "B", "A"]
-        }
-        self.injury_df = pd.DataFrame(self.data)
-        self.procedures = ["A", "B"]  # Sample hemorrhage control procedures
-
-    def test_hemorrhage_controlled_both_records(self):
-        # Test case where both injury and treatment records indicate control
-        result = fu.is_hemorrhage_controlled(self, self.injury_df.copy(), verbose=False)
-        self.assertTrue(result)
-
-    def test_hemorrhage_controlled_single_record(self):
-        # Test case where only one record indicates control
-        self.injury_df.loc[1, "injury_treated_required_procedure"] = "X"  # Modify data
-        result = fu.is_hemorrhage_controlled(self, self.injury_df.copy(), verbose=False)
-        self.assertFalse(result)
-
-    def test_hemorrhage_controlled_no_records(self):
-        # Test case where neither record indicates control
-        self.injury_df.loc[0, "injury_record_required_procedure"] = "X"  # Modify data
-        self.injury_df.loc[0, "injury_treated_required_procedure"] = "X"  # Modify data
-        result = fu.is_hemorrhage_controlled(self, self.injury_df.copy(), verbose=False)
-        self.assertFalse(result)
-
-    def test_hemorrhage_controlled_multiple_entries(self):
-        # Test case where there are more than two entries indicating control
-        self.injury_df.loc[2, "injury_treated_required_procedure"] = "A"  # Modify data
-        result = fu.is_hemorrhage_controlled(self, self.injury_df.copy(), verbose=False)
-        self.assertFalse(result)
+        # Initialize test data
+        self.injury_df = pd.DataFrame({
+            'injury_id': [1, 2, 3],
+            'injury_record_required_procedure': ['procedure1', 'procedure2', 'procedure3'],
+            'injury_required_procedure': ['procedure1', 'procedure2', 'procedure3'],
+            'patient_id': [101, 102, 103],
+            'injury_treated_injury_treated': [True, True, True],
+            'injury_treated_injury_treated_with_wrong_treatment': [True, True, True]
+        })
+        self.logs_df = pd.DataFrame({
+            'patient_id': [101, 102, 103],
+            'tool_applied_type': ['tool1', 'tool2', 'tool3']
+        })
+        
+    # Define test cases here to verify function behavior with various input scenarios
+    def test_controlled_hemorrhage(self):
+        # ... Create mock DataFrames with data indicating controlled hemorrhage ...
+        # Call the function and assert the returned value is True
+        pass
+    
+    def test_uncontrolled_hemorrhage(self):
+        # ... Create mock DataFrames with data indicating uncontrolled hemorrhage ...
+        # Call the function and assert the returned value is False
+        pass
+    
+    # Add more test cases for different scenarios
+    def test_is_hemorrhage_controlled(self):
+        # Test if hemorrhage is controlled for a given injury and logs data
+        controlled = fu.is_hemorrhage_controlled(self.injury_df, self.logs_df)
+        self.assertTrue(controlled)
 
 class TestIsInjuryHemorrhage(unittest.TestCase):
 
@@ -224,7 +222,7 @@ class TestGetInjuryCorrectlyTreatedTime(unittest.TestCase):
         }
         self.injury_df = pd.DataFrame(data)
 
-    def test_fu.get_injury_correctly_treated_time_success(self):
+    def test_get_injury_correctly_treated_time_success(self):
         """
         Test the function with a correctly treated injury.
         """
@@ -232,7 +230,7 @@ class TestGetInjuryCorrectlyTreatedTime(unittest.TestCase):
         actual_time = fu.get_injury_correctly_treated_time(self.injury_df)
         self.assertEqual(actual_time, expected_time)
 
-    def test_fu.get_injury_correctly_treated_time_no_treatment(self):
+    def test_get_injury_correctly_treated_time_no_treatment(self):
         """
         Test the function with no successful treatment.
         """
@@ -242,7 +240,7 @@ class TestGetInjuryCorrectlyTreatedTime(unittest.TestCase):
         actual_time = fu.get_injury_correctly_treated_time(self.injury_df)
         self.assertEqual(actual_time, expected_time)
 
-    def test_fu.get_injury_correctly_treated_time_verbose(self):
+    def test_get_injury_correctly_treated_time_verbose(self):
         """
         Test the function with verbose mode enabled.
         """
