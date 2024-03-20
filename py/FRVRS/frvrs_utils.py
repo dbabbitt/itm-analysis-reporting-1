@@ -174,6 +174,13 @@ class FRVRSUtilities(object):
         self.required_procedure_columns_list = ['injury_record_required_procedure', 'injury_treated_required_procedure']
         self.injury_required_procedure_order = ['tourniquet', 'gauzePressure', 'decompress', 'woundpack', 'airway', 'none']
         self.required_procedure_category_order = pd.CategoricalDtype(categories=self.injury_required_procedure_order, ordered=True)
+        self.required_procedure_to_tool_type_dict = {
+            'tourniquet': 'Tourniquet',
+            'gauzePressure': 'Gauze_Dressing',
+            'decompress': 'Needle',
+            'airway': 'Nasal Airway',
+            'woundpack': 'Gauze_Pack'
+        }
         
         # Injury severity designations
         self.severity_columns_list = ['injury_record_severity', 'injury_treated_severity']
@@ -193,6 +200,14 @@ class FRVRSUtilities(object):
         self.tool_type_columns_list = ['tool_hover_type', 'tool_selected_type', 'tool_applied_type', 'tool_discarded_type']
         self.tool_type_order = ['Tourniquet', 'Gauze_Pack', 'Needle', 'Naso', 'Nasal Airway', 'Gauze_Dressing']
         self.tool_type_category_order = pd.CategoricalDtype(categories=self.tool_type_order, ordered=True)
+        self.tool_type_to_required_procedure_dict = {
+            'Tourniquet': 'tourniquet',
+            'Gauze_Dressing': 'gauzePressure',
+            'Needle': 'decompress',
+            'Naso': 'airway',
+            'Nasal Airway': 'airway',
+            'Gauze_Pack': 'woundpack'
+        }
         
         # Tool data designations
         self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
@@ -1352,6 +1367,10 @@ class FRVRSUtilities(object):
         
         Returns:
             float: Percentage of hemorrhage cases successfully controlled.
+        
+        Note:
+            The logs have instances of a TOOL_APPLIED but no INJURY_TREATED preceding it. But, we already know the injury
+            that the patient has and the correct tool for every patient because we assigned those ahead of time.
         """
         
         # Loop through each injury, examining its required procedures and wrong treatments
@@ -2145,44 +2164,71 @@ class FRVRSUtilities(object):
         # Add to that mask to identify correctly treated injuries
         mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
         
-        # Return True if there are correctly treated injuries, False otherwise
-        is_correctly_treated = bool(injury_df[mask_series].shape[0])
+        # Return True if there are correctly treated attempts, False otherwise
+        is_correctly_treated = mask_series.any()
         
         # If verbose is True, print additional information
         if verbose:
             print(f'Was the injury correctly treated: {is_correctly_treated}')
-            display(injury_df)
+            print('\n\n')
+            display(injury_df.dropna(axis='columns', how='all').T)
         
         return is_correctly_treated
     
     
-    def is_hemorrhage_controlled(self, injury_df, verbose=False):
+    def is_hemorrhage_controlled(self, injury_df, logs_df, verbose=False):
         """
-        Check if hemorrhage is controlled by identifying whether both an injury record and a treatment record
-        exist for a hemorrhage-related procedure.
-        
+        Determine if hemorrhage is controlled based on injury and log data.
+
         Parameters:
             injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
+            logs_df (pandas.DataFrame): DataFrame containing logs data.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
             bool: True if hemorrhage is controlled, False otherwise.
+        
+        Note:
+            The logs have instances of a TOOL_APPLIED but no INJURY_TREATED preceding it. But, we already know the injury
+            that the patient has and the correct tool for every patient because we assigned those ahead of time.
         """
         
-        # Create a mask to identify rows where either the injury record or treatment record indicates hemorrhage control
-        mask_series = injury_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        # Get the injury ID
+        mask_series = ~injury_df.injury_id.isnull()
+        injury_id = injury_df[mask_series].injury_id.tolist()[0]
         
-        # Check if either an injury record or a treatment record exist for a hemorrhage-related procedure
-        mask_series |= injury_df.injury_treated_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        # Check if an injury record or treatment exists for a hemorrhage-related procedure
+        is_injury_hemorrhage = self.is_injury_hemorrhage(injury_df, verbose=verbose)
+        if verbose: print(f'A hemorrhage-related injury record or treatment exists for {injury_id}: {is_injury_hemorrhage}')
         
-        # Check if there are exactly two entries indicating hemorrhage control
-        # (one for injury_record and one for injury_treated)
-        is_controlled = bool(injury_df[mask_series].shape[0] == 2)
+        # Check if the injury was treated correctly
+        is_correctly_treated = self.is_injury_correctly_treated(injury_df, verbose=verbose)
+        if verbose: print(f'The hemorrhage-related injury ({injury_id}) was treated correctly: {is_correctly_treated}')
+            
+        # Get the entire patient record
+        mask_series = ~injury_df.patient_id.isnull()
+        patient_id = injury_df[mask_series].patient_id.tolist()[0]
+        mask_series = (logs_df.patient_id == patient_id)
+        patient_df = logs_df[mask_series]
         
-        # If verbose is True, print additional information
+        # See if there are any tools applied that are associated with the hemorrhage injuries
+        applied_mask_series = False
+        record_mask_series = injury_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        for required_procedure in injury_df[record_mask_series].injury_record_required_procedure.unique():
+            tool_type = self.required_procedure_to_tool_type_dict[required_procedure]
+            applied_mask_series |= (patient_df.tool_applied_type == tool_type)
+        is_tool_applied_correctly = applied_mask_series.any()
+        if verbose:
+            print(f'A hemorrhage-related TOOL_APPLIED event can be associated with the injury ({injury_id}): {is_tool_applied_correctly}')
+            print('\n\n')
+            display(patient_df[applied_mask_series].dropna(axis='columns', how='all').T)
+        
+        # Compute the is-controlled logic
+        is_controlled = is_injury_hemorrhage and (is_correctly_treated or is_tool_applied_correctly)
         if verbose:
             print(f'Is hemorrhage controlled: {is_controlled}')
-            display(injury_df)
+            print('\n\n')
+            display(injury_df.dropna(axis='columns', how='all').T)
         
         return is_controlled
     
@@ -2203,12 +2249,13 @@ class FRVRSUtilities(object):
         mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
         
         # Check if the number of log entries indicating hemorrhage control is not zero
-        is_hemorrhage = bool(injury_df[mask_series].shape[0])
+        is_hemorrhage = mask_series.any()
         
         # If verbose is True, print additional information
         if verbose:
             print(f'Is the injury a hemorrhage: {is_hemorrhage}')
-            display(injury_df)
+            print('\n\n')
+            display(injury_df.dropna(axis='columns', how='all').T)
         
         return is_hemorrhage
     
