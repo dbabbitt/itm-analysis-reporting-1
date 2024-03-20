@@ -2,9 +2,9 @@
 #!/bin/bash
 # Soli Deo gloria
 
-# You have to manually stop the jupyter server before you run this in a PowerShell window
+# You have to manually stop the jupyter server before you run this in a WSL window
 # if you are deleting the environment before recreating it:
-# Run this in a PowerShell window:
+# Run this in a WSL window:
 # 
 # cd /mnt/c/Users/DaveBabbitt/Documents/GitHub/itm-analysis-reporting/sh; clear; ./create_itm_analysis_reporting_conda_environment.sh
 
