@@ -978,7 +978,7 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         self.patch_get_time_to_hemorrhage_control(return_value=1000)
 
         # Mock the is_patient_hemorrhaging function to return True for the first patient only
-        def is_patient_hemorrhaging(patient_df):
+        def get_is_patient_hemorrhaging(patient_df):
             return patient_df["patient_id"].iloc[0] == 'Lily_4 Root'
 
         self.patch_is_patient_hemorrhaging(side_effect=is_patient_hemorrhaging)

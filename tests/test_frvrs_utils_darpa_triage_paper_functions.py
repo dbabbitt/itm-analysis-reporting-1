@@ -141,7 +141,7 @@ class TestIsPatientHemorrhagingFunction(unittest.TestCase):
             'patient_id': ['Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root'],
             'injury_required_procedure': ['decompress', nan, 'tourniquet', nan, nan]
         })
-        result = fu.is_patient_hemorrhaging(patient_df)
+        result = fu.get_is_patient_hemorrhaging(patient_df)
         self.assertTrue(result)
     def test_patient_hemorrhaging_negative(self):
         patient_df = DataFrame({
@@ -149,7 +149,7 @@ class TestIsPatientHemorrhagingFunction(unittest.TestCase):
             'patient_id': ['Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root'],
             'injury_required_procedure': ['gauzePressure', 'gauzePressure', 'gauzePressure', 'gauzePressure', 'gauzePressure']
         })
-        result = fu.is_patient_hemorrhaging(patient_df)
+        result = fu.get_is_patient_hemorrhaging(patient_df)
         self.assertFalse(result)
 
 class TestGetTimeToHemorrhageControl(unittest.TestCase):
@@ -361,7 +361,7 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         self.patch_get_time_to_hemorrhage_control(return_value=1000)
 
         # Mock the is_patient_hemorrhaging function to return True for the first patient only
-        def is_patient_hemorrhaging(patient_df):
+        def get_is_patient_hemorrhaging(patient_df):
             return patient_df["patient_id"].iloc[0] == 'Lily_4 Root'
 
         self.patch_is_patient_hemorrhaging(side_effect=is_patient_hemorrhaging)
