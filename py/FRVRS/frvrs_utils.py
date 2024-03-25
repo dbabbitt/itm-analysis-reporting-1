@@ -526,7 +526,7 @@ class FRVRSUtilities(object):
             row_dict = {}
             for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
             
-            actual_engagement_order = self.get_engagement_starts_order(scene_df, verbose=False)
+            actual_engagement_order = self.get_actual_engagement_order(scene_df, verbose=False)
             
             # Get last still engagement and subtract the scene start
             df = DataFrame(actual_engagement_order, columns=columns_list)
@@ -1083,7 +1083,7 @@ class FRVRSUtilities(object):
     def get_ideal_engagement_order(self, scene_df, tuples_list=None, verbose=False):
         
         # Create the patient sort info
-        engagement_starts_df = DataFrame(self.get_engagement_starts_order(scene_df), columns=[
+        engagement_starts_df = DataFrame(self.get_actual_engagement_order(scene_df), columns=[
             'patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity'
         ])
         engagement_starts_df.patient_sort = engagement_starts_df.patient_sort.astype(self.sort_category_order)
@@ -1321,6 +1321,40 @@ class FRVRSUtilities(object):
         return actual_sequence, ideal_sequence, sort_dict
     
     
+    def get_measure_of_ordering(self, actual_sequence, ideal_sequence, verbose=False):
+        """
+        Calculate the measure of ordering between actual and ideal sequences using the adjusted R-squared value.
+        
+        Parameters:
+            actual_sequence (array-like): The observed sequence of actions or events.
+            ideal_sequence (array-like): The ideal or expected sequence of actions or events.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            float: The R-squared adjusted value as a measure of ordering.
+                Returns NaN if model fitting fails.
+        """
+        
+        # Initialize the measure of ordering to NaN
+        measure_of_ordering = np.nan
+        
+        # Prepare data for regression model
+        X, y = ideal_sequence.values.reshape(-1, 1), actual_sequence.values.reshape(-1, 1)
+        
+        # Fit regression model and calculate R-squared adjusted if data is present
+        if X.shape[0]:
+            X1 = sm.add_constant(X)  # Add constant for intercept
+            try: measure_of_ordering = sm.OLS(y, X1).fit().rsquared_adj
+            
+            # Handle model fitting exceptions
+            except: measure_of_ordering = np.nan
+        
+        # Print additional information if verbose is True
+        if verbose: print(f'The measure of ordering for patients: {measure_of_ordering}')
+        
+        return measure_of_ordering
+    
+    
     def get_measure_of_right_ordering(self, scene_df, verbose=False):
         """
         Calculates a measure of right ordering for patients based on their SORT category and elapsed times.
@@ -1339,11 +1373,7 @@ class FRVRSUtilities(object):
         
         # Calculate the R-squared adjusted value as a measure of right ordering
         actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
-        X, y = ideal_sequence.values.reshape(-1, 1), actual_sequence.values.reshape(-1, 1)
-        if X.shape[0]:
-            X1 = sm.add_constant(X)
-            try: measure_of_right_ordering = sm.OLS(y, X1).fit().rsquared_adj
-            except: measure_of_right_ordering = np.nan
+        measure_of_right_ordering = fu.get_measure_of_ordering(actual_sequence, ideal_sequence, verbose=verbose)
         
         # If verbose is True, print additional information
         if verbose:
@@ -1374,22 +1404,28 @@ class FRVRSUtilities(object):
         """
         
         # Loop through each injury, examining its required procedures and wrong treatments
-        procedure_count = 0; hemorrhage_count = 0; controlled_count = 0
+        hemorrhage_count = 0; controlled_count = 0
         for patient_id, patient_df in scene_df.groupby('patient_id'):
-            for injury_id, injury_df in patient_df.groupby('injury_id'):
-            
-                # Count any hemorrhage-related injuries that have been recorded or treated
-                mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
-                if mask_series.any(): procedure_count += 1
-                
-                # Count any injuries requiring hemorrhage control procedures
-                mask_series = injury_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
-                if mask_series.any(): hemorrhage_count += 1
-                
-                # Count any hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
-                if self.get_is_hemorrhage_controlled(injury_df, patient_df, verbose=False): controlled_count += 1
+            is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
+            if not is_patient_dead:
+                for injury_id, injury_df in patient_df.groupby('injury_id'):
+                    
+                    # Check if an injury record or treatment exists for a hemorrhage-related procedure
+                    is_injury_hemorrhage = self.get_is_injury_hemorrhage(injury_df, verbose=verbose)
+                    if is_injury_hemorrhage:
+                        
+                        # Count any injuries requiring hemorrhage control procedures
+                        hemorrhage_count += 1
+                        
+                        # Check if the injury was treated correctly
+                        is_correctly_treated = self.get_is_injury_correctly_treated(injury_df, verbose=verbose)
+                        
+                        # See if there are any tools applied that are associated with the hemorrhage injuries
+                        is_tool_applied_correctly = self.get_is_hemorrhage_tool_applied(injury_df, patient_df, verbose=verbose)
+                        
+                        # Count any hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
+                        if is_correctly_treated or is_tool_applied_correctly: controlled_count += 1
         
-        if verbose: print(f'Hemorrhage-related injuries that have been recorded or treated: {procedure_count}')
         if verbose: print(f'Injuries requiring hemorrhage control procedures: {hemorrhage_count}')
         if verbose: print(f"Hemorrhage-related injuries that have been treated: {controlled_count}")
         
@@ -1461,7 +1497,7 @@ class FRVRSUtilities(object):
         return triage_priority_df
     
     
-    def get_engagement_starts_order(self, scene_df, verbose=False):
+    def get_actual_engagement_order(self, scene_df, verbose=False):
         """
         Get the chronological order of engagement starts for each patient in a scene.
         
@@ -1531,7 +1567,7 @@ class FRVRSUtilities(object):
     def get_distracted_engagement_order(self, scene_df, tuples_list=None, verbose=False):
 
         # Create the patient sort tuples list
-        if tuples_list is None: tuples_list = self.get_engagement_starts_order(scene_df, verbose=verbose)
+        if tuples_list is None: tuples_list = self.get_actual_engagement_order(scene_df, verbose=verbose)
 
         # Get initial player location
         mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
@@ -2026,9 +2062,7 @@ class FRVRSUtilities(object):
         
         # Create a mask to check if injury record requires hemorrhage control procedures
         mask_series = patient_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        
-        # Determine if the patient is hemorrhaging
-        is_hemorrhaging = bool(patient_df[mask_series].shape[0])
+        is_hemorrhaging = mask_series.any()
         
         # If verbose is True, print additional information
         if verbose:
@@ -2053,35 +2087,45 @@ class FRVRSUtilities(object):
             int: The time it takes to control hemorrhage for the patient, in action ticks.
         """
         
-        # If scene_start is not provided, determine it using the first patient interaction
-        if scene_start is None: scene_start = self.get_first_patient_interaction(patient_df)
-        
         # Initialize variables to track hemorrhage control time
         controlled_time = 0
-        
-        # Define columns for merging
-        on_columns_list = ['injury_id']
-        merge_columns_list = ['action_tick'] + on_columns_list
-        
-        # Loop through hemorrhage control procedures
-        for control_procedure in self.hemorrhage_control_procedures_list:
+        is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
+        if not is_patient_dead:
             
-            # Identify hemorrhage events for the current procedure
-            mask_series = patient_df.injury_record_required_procedure.isin([control_procedure])
-            hemorrhage_df = patient_df[mask_series][merge_columns_list]
-            if verbose: display(hemorrhage_df)
+            # If scene_start is not provided, determine it using the first patient interaction
+            if scene_start is None: scene_start = self.get_first_patient_interaction(patient_df)
             
-            # Identify controlled hemorrhage events for the current procedure
-            mask_series = patient_df.injury_treated_required_procedure.isin([control_procedure])
-            controlled_df = patient_df[mask_series][merge_columns_list]
-            if verbose: display(controlled_df)
+            # Define columns for merging
+            on_columns_list = ['injury_id']
+            merge_columns_list = ['action_tick'] + on_columns_list
             
-            # Merge hemorrhage and controlled hemorrhage events
-            df = hemorrhage_df.merge(controlled_df, on=on_columns_list, suffixes=('_hemorrhage', '_controlled'))
-            if verbose: display(df)
-            
-            # Update the maximum hemorrhage control time
-            controlled_time = max(controlled_time, df.action_tick_controlled.max() - scene_start)
+            # Loop through hemorrhage control procedures
+            for control_procedure in self.hemorrhage_control_procedures_list:
+                
+                # Identify hemorrhage events for the current procedure
+                mask_series = (patient_df.injury_record_required_procedure == control_procedure)
+                if mask_series.any():
+                    hemorrhage_df = patient_df[mask_series][merge_columns_list]
+                    if verbose: display(hemorrhage_df)
+                    
+                    # Identify controlled hemorrhage events for the current procedure
+                    mask_series = (patient_df.injury_treated_required_procedure == control_procedure)
+                    if not mask_series.any():
+                        tool_type = self.required_procedure_to_tool_type_dict[control_procedure]
+                        mask_series = patient_df.tool_applied_type.isnull() | patient_df.tool_applied_type.map(lambda x: x == tool_type)
+                        controlled_df = patient_df[mask_series]
+                        controlled_df.injury_id.fillna(method='ffill', inplace=True)
+                        controlled_df.injury_id.fillna(method='bfill', inplace=True)
+                        controlled_df = controlled_df[merge_columns_list]
+                    else: controlled_df = patient_df[mask_series][merge_columns_list]
+                    if verbose: display(controlled_df)
+                    
+                    # Merge hemorrhage and controlled hemorrhage events
+                    df = hemorrhage_df.merge(controlled_df, on=on_columns_list, suffixes=('_hemorrhage', '_controlled'))
+                    if verbose: display(df)
+                    
+                    # Update the maximum hemorrhage control time
+                    controlled_time = max(controlled_time, df.action_tick_controlled.max() - scene_start)
         
         # If verbose is True, print additional information
         if verbose:
@@ -2189,8 +2233,6 @@ class FRVRSUtilities(object):
         
         # Check if either the injury record or treatment record indicates hemorrhage
         mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
-        
-        # Check if the number of log entries indicating hemorrhage control is not zero
         is_hemorrhage = mask_series.any()
         
         # If verbose is True, print additional information
@@ -2203,7 +2245,25 @@ class FRVRSUtilities(object):
     
     
     def get_is_hemorrhage_tool_applied(self, injury_df, logs_df, verbose=False):
+        """
+        Checks if a hemorrhage control tool was applied for a given injury.
+        
+        Parameters:
+            injury_df (pandas.DataFrame): DataFrame containing injury data. Must include columns for
+                - patient_id (int): Unique identifier for the patient.
+                - injury_id (int): Unique identifier for the injury. (Optional)
+                - injury_record_required_procedure (str): Required procedure for the injury record.
             
+            logs_df (pandas.DataFrame): DataFrame containing log records. Must include columns for
+                - patient_id (int): Unique identifier for the patient.
+                - tool_applied_type (str): Type of tool applied during the procedure.
+            
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            bool: True if a hemorrhage control tool was applied for the injury, False otherwise.
+        """
+        
         # Get the entire patient record
         mask_series = ~injury_df.patient_id.isnull()
         patient_id = injury_df[mask_series].patient_id.tolist()[0]
@@ -2211,12 +2271,12 @@ class FRVRSUtilities(object):
         patient_df = logs_df[mask_series]
         
         # See if there are any tools applied that are associated with the hemorrhage injuries
-        applied_mask_series = Series([False] * patient_df.shape[0])
+        is_tool_applied_correctly = False
         record_mask_series = injury_df.injury_record_required_procedure.isin(self.hemorrhage_control_procedures_list)
         for required_procedure in injury_df[record_mask_series].injury_record_required_procedure.unique():
             tool_type = self.required_procedure_to_tool_type_dict[required_procedure]
-            applied_mask_series |= (patient_df.tool_applied_type == tool_type)
-        is_tool_applied_correctly = applied_mask_series.any()
+            is_tool_applied_correctly = is_tool_applied_correctly or patient_df.tool_applied_type.map(lambda x: x == tool_type).any()
+        
         if verbose:
             
             # Get the injury ID
@@ -2224,8 +2284,6 @@ class FRVRSUtilities(object):
             injury_id = injury_df[mask_series].injury_id.tolist()[0]
             
             print(f'A hemorrhage-related TOOL_APPLIED event can be associated with the injury ({injury_id}): {is_tool_applied_correctly}')
-            print('\n\n')
-            display(patient_df[applied_mask_series].dropna(axis='columns', how='all').T)
         
         return is_tool_applied_correctly
     
@@ -3109,7 +3167,7 @@ class FRVRSUtilities(object):
         """
         
         # Get the engagement order
-        if engagement_order is None: engagement_order = self.get_engagement_starts_order(scene_df, verbose=verbose)
+        if engagement_order is None: engagement_order = self.get_actual_engagement_order(scene_df, verbose=verbose)
         
         # Create a figure and add a subplot
         fig, ax = plt.subplots(figsize=(18, 9))

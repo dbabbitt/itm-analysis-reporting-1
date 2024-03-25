@@ -542,9 +542,9 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
 
     @patch("your_module.nu.get_nearest_neighbor")  # Replace "your_module" with the actual module name
     def test_ideal_engagement_order_high_severity_first(self, mock_get_nearest_neighbor):
-        # Set up mock data for scene_df, get_engagement_starts_order, and nu.get_nearest_neighbor
+        # Set up mock data for scene_df, get_actual_engagement_order, and nu.get_nearest_neighbor
         scene_df = pd.DataFrame(...)  # Create a DataFrame with appropriate test data
-        self.instance.get_engagement_starts_order = MagicMock(return_value=[...])  # Set up the mock for get_engagement_starts_order
+        self.instance.get_actual_engagement_order = MagicMock(return_value=[...])  # Set up the mock for get_actual_engagement_order
         mock_get_nearest_neighbor.side_effect = [...]  # Set up a sequence of nearest neighbors for testing
 
         # Call the function and make assertions on the result
@@ -1065,26 +1065,26 @@ class TestGetEngagementStartsOrder(unittest.TestCase):
     def test_empty_dataframe(self):
         # Test with an empty scene DataFrame
         empty_df = pd.DataFrame(columns=self.scene_data.keys())
-        engagement_order = self.get_engagement_starts_order(empty_df)
+        engagement_order = self.get_actual_engagement_order(empty_df)
         self.assertEqual(engagement_order, [])
 
     def test_no_responder_interaction(self):
         # Test with a patient with no responder interactions
         patient_df = self.scene_df[self.scene_df["patient_id"] == 2]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         self.assertEqual(engagement_order, [])
 
     def test_single_engagement(self):
         # Test with a single engagement
         patient_df = self.scene_df[self.scene_df["patient_id"] == 3]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         expected_order = [(3, 300, (7, 8, 9), "BLUE", 0.9, "Critical")]
         self.assertEqual(engagement_order, expected_order)
 
     def test_multiple_engagements(self):
         # Test with multiple engagements for a patient
         patient_df = self.scene_df[self.scene_df["patient_id"] == 1]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         expected_order = [
             (1, 200, (1, 2, 3), "RED", None, "Critical"),
             (1, 300, (0.0, 0.0), None, None, "Critical"),
@@ -1096,7 +1096,7 @@ class TestGetEngagementStartsOrder(unittest.TestCase):
         self.scene_data["location_id"][1] = None
         self.scene_df = pd.DataFrame(self.scene_data)
         patient_df = self.scene_df[self.scene_df["patient_id"] == 1]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         expected_order = [
             (1, 100, (0.0, 0.0), None, 0.7, "Critical"),
             (1, 300, (0.0, 0.0), None, None, "Critical"),

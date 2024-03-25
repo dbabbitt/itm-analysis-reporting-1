@@ -61,6 +61,7 @@ ipynb/Censor_Audio_Files.ipynb
 **/first_responder_master_registry*
 data/xlsx/FirstResponder_InjuryTriage_Categories*.xlsx
 data/xlsx/uuid_Master_with_Site_and_Learner_Type*.xlsx
+data/xlsx/~$*.xlsx
 
 # Exclude backups
 *.bak
