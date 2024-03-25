@@ -2,6 +2,7 @@
 from contextlib import redirect_stdout
 from datetime import timedelta
 from numpy import nan
+from pandas import DataFrame, to_datetime, Series
 from unittest.mock import patch, MagicMock
 import numpy as np
 import os
@@ -15,6 +16,33 @@ from FRVRS import fu, nu
 
 
 ### Injury Functions ###
+
+
+
+class TestGetIsHemorrhageToolApplied(unittest.TestCase):
+    """Test class for the get_is_hemorrhage_tool_applied function"""
+    
+    def setUp(self):
+        
+        # Create mock dataframes for testing
+        self.injury_df = DataFrame({
+            'patient_id': ['Gloria_6 Root'],
+            'injury_record_required_procedure': ['tourniquet'],
+        })
+        self.logs_df = DataFrame({
+            'patient_id': ['Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root', 'Gloria_6 Root'],
+            'tool_applied_type': [nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, 'Tourniquet', nan],
+        })
+        
+        # Mock hemorrhage control procedures list and tool type dictionary
+        self.hemorrhage_control_procedures_list = ["Hemorrhage Control A", "Hemorrhage Control B"]
+        self.required_procedure_to_tool_type_dict = {"Hemorrhage Control A": "Hemorrhage Control A"}
+    
+    def test_get_is_hemorrhage_tool_applied(self):
+
+        # Call the function
+        result = fu.get_is_hemorrhage_tool_applied(self.injury_df, self.logs_df)
+        self.assertTrue(result)
 
 
 class TestIsInjuryCorrectlyTreated(unittest.TestCase):
