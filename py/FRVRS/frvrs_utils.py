@@ -1373,7 +1373,7 @@ class FRVRSUtilities(object):
         
         # Calculate the R-squared adjusted value as a measure of right ordering
         actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
-        measure_of_right_ordering = fu.get_measure_of_ordering(actual_sequence, ideal_sequence, verbose=verbose)
+        measure_of_right_ordering = self.get_measure_of_ordering(actual_sequence, ideal_sequence, verbose=verbose)
         
         # If verbose is True, print additional information
         if verbose:
@@ -2952,8 +2952,10 @@ class FRVRSUtilities(object):
         
         # Convert elapsed time to an integer
         if ('action_tick' in logs_df.columns):
-            logs_df['action_tick'] = pd.to_numeric(logs_df['action_tick'], errors='coerce')
-            logs_df['action_tick'] = logs_df['action_tick'].astype('int64')
+            logs_df.action_tick = pd.to_numeric(logs_df.action_tick, errors='coerce')
+            mask_series = ~logs_df.action_tick.isnull()
+            logs_df = logs_df[mask_series]
+            logs_df.action_tick = logs_df.action_tick.astype('int64')
         
         logs_df = logs_df.reset_index(drop=True)
         
