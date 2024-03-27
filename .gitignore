@@ -44,6 +44,7 @@ saves/pkl/clean_csvs_df.pkl
 saves/pkl/domain_doc_ners_df.pkl
 saves/pkl/error_free_subset_df.pkl
 saves/pkl/frvrs_logs_df.pkl
+saves/pkl/metrics_evaluation_open_world_df.pkl
 saves/pkl/one_hot_encode_df.pkl
 saves/pkl/patient_history_df.pkl
 
@@ -213,4 +214,3 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
-saves/pkl/metrics_evaluation_open_world_df.pkl
