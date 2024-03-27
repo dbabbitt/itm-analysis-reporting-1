@@ -2528,7 +2528,7 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def plot_histogram(df, xname, xlabel, xtick_text_fn, title, ylabel=None, xticks_are_temporal=False, ax=None, color=None, bins=100):
+    def plot_histogram(df, xname, xlabel, title, xtick_text_fn=None, ylabel=None, xticks_are_temporal=False, ax=None, color=None, bins=100):
         """
         Plots a histogram of a DataFrame column.
         
@@ -2536,9 +2536,9 @@ class NotebookUtilities(object):
             df: A Pandas DataFrame.
             xname: The name of the column to plot the histogram of.
             xlabel: The label for the x-axis.
-            xtick_text_fn: A function that takes a text object as input and returns a new
-            text object to be used as the tick label.
             title: The title of the plot.
+            xtick_text_fn: A function that takes a text object as input and returns a new
+                text object to be used as the tick label. Defaults to None.
             ylabel: The label for the y-axis.
             ax: A matplotlib axis object. If None, a new figure and axis will be created.
         
@@ -2579,16 +2579,17 @@ class NotebookUtilities(object):
                 ax.set_xticks(major_ticks)
         
         # Humanize x tick labels
-        xticklabels_list = []
-        for text_obj in ax.get_xticklabels():
-            
-            # Call the xtick text function to convert numerical values into minutes and seconds format
-            text_obj.set_text(xtick_text_fn(text_obj))
-            
-            xticklabels_list.append(text_obj)
-        # print(len(xticklabels_list))
-        if (len(xticklabels_list) > 17): ax.set_xticklabels(xticklabels_list, rotation=90)
-        else: ax.set_xticklabels(xticklabels_list)
+        if xtick_text_fn is not None:
+            xticklabels_list = []
+            for text_obj in ax.get_xticklabels():
+                
+                # Call the xtick text function to convert numerical values into minutes and seconds format
+                text_obj.set_text(xtick_text_fn(text_obj))
+                
+                xticklabels_list.append(text_obj)
+            # print(len(xticklabels_list))
+            if (len(xticklabels_list) > 17): ax.set_xticklabels(xticklabels_list, rotation=90)
+            else: ax.set_xticklabels(xticklabels_list)
         
         # Humanize y tick labels
         yticklabels_list = []
