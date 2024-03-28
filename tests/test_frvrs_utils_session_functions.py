@@ -8,7 +8,7 @@ import unittest
 
 # Import the class containing the functions
 import sys
-sys.path.insert(1, '../py')
+if ('../py' not in sys.path): sys.path.insert(1, '../py')
 from FRVRS import fu, nu
 
 
@@ -252,7 +252,7 @@ class TestGetDistanceDeltasDataFrame(unittest.TestCase):
             # Implement your logic to get the measure of right ordering
             return 0.5
 
-        self.get_engagement_starts_order = mock_get_engagement_starts_order
+        self.get_actual_engagement_order = mock_get_engagement_starts_order
         self.get_ideal_engagement_order = mock_get_ideal_engagement_order
         self.get_distracted_engagement_order = mock_get_distracted_engagement_order
         self.get_scene_start = mock_get_scene_start

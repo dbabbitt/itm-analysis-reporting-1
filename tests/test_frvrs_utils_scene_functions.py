@@ -7,11 +7,12 @@ from unittest.mock import patch, MagicMock
 import numpy as np
 import os
 import pandas as pd
+import re
 import unittest
 
 # Import the class containing the functions
 import sys
-sys.path.insert(1, '../py')
+if ('../py' not in sys.path): sys.path.insert(1, '../py')
 from FRVRS import fu, nu
 
 
@@ -541,9 +542,9 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
 
     @patch("your_module.nu.get_nearest_neighbor")  # Replace "your_module" with the actual module name
     def test_ideal_engagement_order_high_severity_first(self, mock_get_nearest_neighbor):
-        # Set up mock data for scene_df, get_engagement_starts_order, and nu.get_nearest_neighbor
+        # Set up mock data for scene_df, get_actual_engagement_order, and nu.get_nearest_neighbor
         scene_df = pd.DataFrame(...)  # Create a DataFrame with appropriate test data
-        self.instance.get_engagement_starts_order = MagicMock(return_value=[...])  # Set up the mock for get_engagement_starts_order
+        self.instance.get_actual_engagement_order = MagicMock(return_value=[...])  # Set up the mock for get_actual_engagement_order
         mock_get_nearest_neighbor.side_effect = [...]  # Set up a sequence of nearest neighbors for testing
 
         # Call the function and make assertions on the result
@@ -944,8 +945,22 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         
         # Create mock data for the scene DataFrame
         self.scene_df = pd.DataFrame({
-            "patient_id": [1, 1, 2],
-            "hemorrhage_control_procedures_list": [["a", "b"], ["c"], ["d", "e"]]
+            'action_tick': [223819, 223819, 223819, 241120, 256019, 256924, 285654, 289814, 317108, 319906, 321245, 367706, 368149, 568501, 571875],
+            'patient_id': [
+                'Lily_4 Root', 'Lily_2 Root', 'Bob_0 Root', 'Gloria_6 Root', nan, nan, 'Lily_2 Root', nan,
+                nan, nan, 'Mike_7 Root', nan, nan, 'Gloria_8 Root', nan
+            ],
+            'injury_required_procedure': ['woundpack', 'tourniquet', 'tourniquet', nan, nan, nan, 'tourniquet', nan, nan, nan, 'tourniquet', nan, nan, nan, nan],
+            'action_type': [
+                'INJURY_RECORD', 'INJURY_RECORD', 'INJURY_RECORD', 'S_A_L_T_WAVE_IF_CAN', 'TOOL_HOVER', 'TOOL_HOVER', 'INJURY_TREATED', 'VOICE_CAPTURE',
+                'TOOL_HOVER', 'TOOL_HOVER', 'INJURY_TREATED', 'TOOL_HOVER', 'TOOL_HOVER', 'S_A_L_T_WALK_IF_CAN', 'TELEPORT'
+            ],
+            'injury_id': [
+                'L Side Puncture', 'R Shin Amputation', 'L Thigh Laceration', nan, nan, nan, 'R Shin Amputation', nan,
+                nan, nan, 'L Thigh Puncture', nan, nan, nan, nan
+            ],
+            'injury_record_required_procedure': ['woundpack', 'tourniquet', 'tourniquet', nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan, nan],
+            'injury_treated_required_procedure': [nan, nan, nan, nan, nan, nan, 'tourniquet', nan, nan, nan, 'tourniquet', nan, nan, nan, nan]
         })
 
     def test_no_hemorrhage(self):
@@ -953,7 +968,7 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         self.patch_is_patient_hemorrhaging(return_value=False)
 
         # Call the function
-        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df)
+        last_controlled_time = fu.get_time_to_last_hemorrhage_controlled(self.scene_df)
 
         # Assert that the returned time is 0
         self.assertEqual(last_controlled_time, 0)
@@ -963,23 +978,23 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         self.patch_get_time_to_hemorrhage_control(return_value=1000)
 
         # Mock the is_patient_hemorrhaging function to return True for the first patient only
-        def is_patient_hemorrhaging(patient_df):
-            return patient_df["patient_id"].iloc[0] == 1
+        def get_is_patient_hemorrhaging(patient_df):
+            return patient_df["patient_id"].iloc[0] == 'Lily_4 Root'
 
         self.patch_is_patient_hemorrhaging(side_effect=is_patient_hemorrhaging)
 
         # Call the function
-        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df)
+        last_controlled_time = fu.get_time_to_last_hemorrhage_controlled(self.scene_df)
 
         # Assert that the returned time is the controlled time from the mocked function
         self.assertEqual(last_controlled_time, 1000)
 
     def test_multiple_patients_hemorrhage(self):
         # Mock the get_time_to_hemorrhage_control function to return different values for each patient
-        controlled_times = [500, 1200]
-        def get_time_to_hemorrhage_control(patient_df, scene_start):
-            patient_id = patient_df["patient_id"].iloc[0]
-            return controlled_times[patient_id - 1]
+        def get_time_to_hemorrhage_control(patient_df, scene_start, verbose=False):
+            mask_series = ~patient_df.patient_id.isnull()
+            patient_id = patient_df[mask_series].patient_id.iloc[0]
+            return int(re.sub(r'\D+', '', patient_id))
 
         self.patch_get_time_to_hemorrhage_control(side_effect=get_time_to_hemorrhage_control)
 
@@ -987,19 +1002,21 @@ class TestGetTimeToLastHemorrhageControlled(unittest.TestCase):
         self.patch_is_patient_hemorrhaging(return_value=True)
 
         # Call the function
-        last_controlled_time = self.get_time_to_last_hemorrhage_controlled(self.scene_df)
+        last_controlled_time = fu.get_time_to_last_hemorrhage_controlled(self.scene_df, verbose=False)
 
         # Assert that the returned time is the maximum controlled time from the mocked function
+        mask_series = ~self.scene_df.patient_id.isnull()
+        controlled_times = [int(re.sub(r'\D+', '', patient_id)) for patient_id in self.scene_df[mask_series].patient_id.unique()]
         self.assertEqual(last_controlled_time, max(controlled_times))
 
     # Helper methods for patching functions
     def patch_is_patient_hemorrhaging(self, **kwargs):
-        patcher = patch.object(self, "is_patient_hemorrhaging", **kwargs)
+        patcher = patch.object(fu, "is_patient_hemorrhaging", **kwargs)
         self.addCleanup(patcher.stop)
         return patcher.start()
 
     def patch_get_time_to_hemorrhage_control(self, **kwargs):
-        patcher = patch.object(self, "get_time_to_hemorrhage_control", **kwargs)
+        patcher = patch.object(fu, "get_time_to_hemorrhage_control", **kwargs)
         self.addCleanup(patcher.stop)
         return patcher.start()
 
@@ -1048,26 +1065,26 @@ class TestGetEngagementStartsOrder(unittest.TestCase):
     def test_empty_dataframe(self):
         # Test with an empty scene DataFrame
         empty_df = pd.DataFrame(columns=self.scene_data.keys())
-        engagement_order = self.get_engagement_starts_order(empty_df)
+        engagement_order = self.get_actual_engagement_order(empty_df)
         self.assertEqual(engagement_order, [])
 
     def test_no_responder_interaction(self):
         # Test with a patient with no responder interactions
         patient_df = self.scene_df[self.scene_df["patient_id"] == 2]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         self.assertEqual(engagement_order, [])
 
     def test_single_engagement(self):
         # Test with a single engagement
         patient_df = self.scene_df[self.scene_df["patient_id"] == 3]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         expected_order = [(3, 300, (7, 8, 9), "BLUE", 0.9, "Critical")]
         self.assertEqual(engagement_order, expected_order)
 
     def test_multiple_engagements(self):
         # Test with multiple engagements for a patient
         patient_df = self.scene_df[self.scene_df["patient_id"] == 1]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         expected_order = [
             (1, 200, (1, 2, 3), "RED", None, "Critical"),
             (1, 300, (0.0, 0.0), None, None, "Critical"),
@@ -1079,7 +1096,7 @@ class TestGetEngagementStartsOrder(unittest.TestCase):
         self.scene_data["location_id"][1] = None
         self.scene_df = pd.DataFrame(self.scene_data)
         patient_df = self.scene_df[self.scene_df["patient_id"] == 1]
-        engagement_order = self.get_engagement_starts_order(patient_df)
+        engagement_order = self.get_actual_engagement_order(patient_df)
         expected_order = [
             (1, 100, (0.0, 0.0), None, 0.7, "Critical"),
             (1, 300, (0.0, 0.0), None, None, "Critical"),

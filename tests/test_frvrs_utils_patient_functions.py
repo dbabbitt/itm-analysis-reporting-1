@@ -7,7 +7,7 @@ import unittest
 
 # Import the class containing the functions
 import sys
-sys.path.insert(1, '../py')
+if ('../py' not in sys.path): sys.path.insert(1, '../py')
 from FRVRS import fu, nu
 
 
@@ -26,7 +26,7 @@ class TestBleedingToolApplication(unittest.TestCase):
     
     def test_correct_tool_applied(self):
         # Test if the function correctly identifies the correct tool applied
-        result = fu.is_correct_bleeding_tool_applied(self.patient_df)
+        result = fu.get_is_correct_bleeding_tool_applied(self.patient_df)
         self.assertTrue(result, "Correct tool should be identified as applied")
     
     def test_incorrect_tool_applied(self):
@@ -35,7 +35,7 @@ class TestBleedingToolApplication(unittest.TestCase):
         self.sample_data['tool_applied_sender'] = ['SomeOtherAction', 'AnotherIncorrectAction']
         self.patient_df = pd.DataFrame(self.sample_data)
         
-        result = fu.is_correct_bleeding_tool_applied(self.patient_df)
+        result = fu.get_is_correct_bleeding_tool_applied(self.patient_df)
         self.assertFalse(result, "Incorrect tool should not be identified as applied")
 
 class TestIsPatientDead(unittest.TestCase):
@@ -45,7 +45,7 @@ class TestIsPatientDead(unittest.TestCase):
         data = {'patient_record_salt': ['DEAD', np.nan],
                 'patient_engaged_salt': [np.nan, np.nan]}
         df = pd.DataFrame(data)
-        result = fu.is_patient_dead(df)
+        result = fu.get_is_patient_dead(df)
         self.assertTrue(result)
 
     def test_patient_alive(self):
@@ -53,7 +53,7 @@ class TestIsPatientDead(unittest.TestCase):
         data = {'patient_record_salt': ['ALIVE', np.nan],
                 'patient_engaged_salt': ['ALIVE', np.nan]}
         df = pd.DataFrame(data)
-        result = fu.is_patient_dead(df)
+        result = fu.get_is_patient_dead(df)
         self.assertFalse(result)
 
     def test_unknown_status(self):
@@ -61,7 +61,7 @@ class TestIsPatientDead(unittest.TestCase):
         data = {'patient_record_salt': [np.nan, np.nan],
                 'patient_engaged_salt': [np.nan, np.nan]}
         df = pd.DataFrame(data)
-        result = fu.is_patient_dead(df)
+        result = fu.get_is_patient_dead(df)
         self.assertTrue(np.isnan(result))
 
 class TestIsPatientStill(unittest.TestCase):
@@ -75,20 +75,20 @@ class TestIsPatientStill(unittest.TestCase):
         self.patient_df = pd.DataFrame(data)
 
     def test_is_patient_still_true(self):
-        result = fu.is_patient_still(self.patient_df)
+        result = fu.get_is_patient_still(self.patient_df)
         self.assertTrue(result)
 
     def test_is_patient_still_false(self):
         # Modify the DataFrame to test for a case where the patient is not still
         self.patient_df['patient_record_sort'] = ['not_still', None, 'not_still', None]
-        result = fu.is_patient_still(self.patient_df)
+        result = fu.get_is_patient_still(self.patient_df)
         self.assertFalse(result)
 
     def test_is_patient_still_unknown(self):
         # Modify the DataFrame to test for a case where the result is unknown
         self.patient_df['patient_record_sort'] = [None, None, None, None]
         self.patient_df['patient_engaged_sort'] = [None, None, None, None]
-        result = fu.is_patient_still(self.patient_df)
+        result = fu.get_is_patient_still(self.patient_df)
         self.assertTrue(np.isnan(result))
 
 class TestGetMaxSalt(unittest.TestCase):
@@ -150,8 +150,16 @@ class TestGetPatientLocation(unittest.TestCase):
 
     def test_get_patient_location_invalid_input(self):
         # Test the function with invalid input
-        with self.assertRaises(SomeSpecificException):  # Replace with the actual exception your function raises for invalid input
+        with self.assertRaises(TypeError):
             fu.get_patient_location(self.patient_df, 'invalid_input')
+
+    def test_null_location_ids(self):
+        # Test the function with null location_id input and expected output
+        data = {'location_id': [nan, nan, nan],
+                'action_tick': [100, 200, 300]}
+        patient_df = pd.DataFrame(data)
+        result = fu.get_patient_location(patient_df, 250)
+        self.assertEqual(result, (0.0, 0.0, 0.0))
 
 class TestIsTagCorrect(unittest.TestCase):
 
@@ -194,7 +202,7 @@ class TestPatientInjuryDetection(unittest.TestCase):
             'injury_id': [1, 1, 2, 2],
             'severity': ['Severe', 'Moderate', 'Mild', 'Severe']
         })
-        result = fu.is_patient_severely_hemorrhaging(patient_df)
+        result = fu.get_is_patient_severely_hemorrhaging(patient_df)
         self.assertTrue(result)
 
     def test_is_patient_severely_hemorrhaging_negative(self):
@@ -204,13 +212,13 @@ class TestPatientInjuryDetection(unittest.TestCase):
             'injury_id': [1, 1, 2, 2],
             'severity': ['Mild', 'Moderate', 'Mild', 'Moderate']
         })
-        result = fu.is_patient_severely_hemorrhaging(patient_df)
+        result = fu.get_is_patient_severely_hemorrhaging(patient_df)
         self.assertFalse(result)
 
     def test_is_patient_severely_hemorrhaging_empty_dataframe(self):
         # Test the function with an empty DataFrame
         patient_df = pd.DataFrame(columns=['injury_id', 'severity'])
-        result = fu.is_patient_severely_hemorrhaging(patient_df)
+        result = fu.get_is_patient_severely_hemorrhaging(patient_df)
         self.assertFalse(result)
 
 class TestGetFirstPatientInteraction(unittest.TestCase):
@@ -292,14 +300,14 @@ class Testfu(unittest.TestCase):
 
     def test_gazed_at_patient(self):
         """Tests if the function correctly identifies gazing at the patient."""
-        result = fu.is_patient_gazed_at(self.df)
+        result = fu.get_is_patient_gazed_at(self.df)
         self.assertTrue(result)
 
     def test_not_gazed_at_patient(self):
         """Tests if the function correctly identifies no gazing."""
         # Modify data to exclude gazing action
         self.df.loc[1, "action_type"] = "PLAYER_MOVE"
-        result = fu.is_patient_gazed_at(self.df)
+        result = fu.get_is_patient_gazed_at(self.df)
         self.assertFalse(result)
 
 
@@ -378,7 +386,7 @@ class TestIsPatientHemorrhagingFunction(unittest.TestCase):
             'patient_id': ['Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root', 'Bob_0 Root'],
             'injury_required_procedure': ['decompress', nan, 'tourniquet', nan, nan]
         })
-        result = fu.is_patient_hemorrhaging(patient_df)
+        result = fu.get_is_patient_hemorrhaging(patient_df)
         self.assertTrue(result)
     def test_patient_hemorrhaging_negative(self):
         patient_df = DataFrame({
@@ -386,7 +394,7 @@ class TestIsPatientHemorrhagingFunction(unittest.TestCase):
             'patient_id': ['Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root', 'Gloria_8 Root'],
             'injury_required_procedure': ['gauzePressure', 'gauzePressure', 'gauzePressure', 'gauzePressure', 'gauzePressure']
         })
-        result = fu.is_patient_hemorrhaging(patient_df)
+        result = fu.get_is_patient_hemorrhaging(patient_df)
         self.assertFalse(result)
 
 class TestGetTimeToHemorrhageControl(unittest.TestCase):
@@ -483,22 +491,22 @@ class TestIsLifeThreatened(unittest.TestCase):
 
     def test_life_threatened_high_severity_hemorrhaging(self):
         # Call the function with data representing high severity and hemorrhaging
-        result = fu.is_life_threatened(self.patient_df_high_severity_hemorrhaging)
+        result = fu.get_is_life_threatened(self.patient_df_high_severity_hemorrhaging)
         self.assertTrue(result)
 
     def test_life_threatened_high_severity_no_hemorrhaging(self):
         # Call the function with data representing high severity and no hemorrhaging
-        result = fu.is_life_threatened(self.patient_df_high_severity_no_hemorrhaging)
+        result = fu.get_is_life_threatened(self.patient_df_high_severity_no_hemorrhaging)
         self.assertFalse(result)
 
     def test_life_threatened_low_severity_hemorrhaging(self):
         # Call the function with data representing low severity and hemorrhaging
-        result = fu.is_life_threatened(self.patient_df_low_severity_hemorrhaging)
+        result = fu.get_is_life_threatened(self.patient_df_low_severity_hemorrhaging)
         self.assertFalse(result)
 
     def test_life_threatened_low_severity_no_hemorrhaging(self):
         # Call the function with data representing low severity and no hemorrhaging
-        result = fu.is_life_threatened(self.patient_df_low_severity_no_hemorrhaging)
+        result = fu.get_is_life_threatened(self.patient_df_low_severity_no_hemorrhaging)
         self.assertFalse(result)
 
 if __name__ == "__main__":

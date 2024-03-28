@@ -16,7 +16,7 @@ import unittest
 
 # Import the class containing the functions
 import sys
-sys.path.insert(1, '../py')
+if ('../py' not in sys.path): sys.path.insert(1, '../py')
 from FRVRS import fu, nu
 
 
@@ -125,7 +125,7 @@ class TestVisualizeExtremePlayerMovement(unittest.TestCase):
 
     def test_empty_dataframe(self):
         # Patch visualize_player_movement
-        with patch.object(self, 'visualize_extreme_player_movement.visualize_player_movement') as mock_visualize:
+        with patch.object(fu, 'visualize_extreme_player_movement.visualize_player_movement') as mock_visualize:
             # Empty DataFrame
             empty_df = pd.DataFrame(columns=['session_uuid', 'scene_id', 'movement_time'])
             fu.visualize_extreme_player_movement(empty_df, self.df, 'movement_time')
@@ -135,7 +135,7 @@ class TestVisualizeExtremePlayerMovement(unittest.TestCase):
     def test_ascending_sort(self):
         # Mock humanize.precisedelta
         humanize.precisedelta.return_value = "1 second"
-        with patch.object(self, 'visualize_extreme_player_movement.visualize_player_movement') as mock_visualize:
+        with patch.object(fu, 'visualize_extreme_player_movement.visualize_player_movement') as mock_visualize:
             fu.visualize_extreme_player_movement(self.logs_df, self.df, 'movement_time', self.mask_series)
             # Assert visualize_player_movement called with expected arguments
             mock_visualize.assert_called_once_with(
@@ -147,7 +147,7 @@ class TestVisualizeExtremePlayerMovement(unittest.TestCase):
     def test_descending_sort(self):
         # Mock humanize.precisedelta
         humanize.precisedelta.return_value = "2 seconds"
-        with patch.object(self, 'visualize_extreme_player_movement') as mock_visualize:
+        with patch.object(fu, 'visualize_extreme_player_movement') as mock_visualize:
             fu.visualize_extreme_player_movement(self.logs_df, self.df, 'movement_time', self.mask_series, is_ascending=False)
             # Assert visualize_player_movement called with expected arguments
             mock_visualize.assert_called_once_with(
@@ -159,7 +159,7 @@ class TestVisualizeExtremePlayerMovement(unittest.TestCase):
     def test_humanize_percentage(self):
         # Mock humanize.intword
         humanize.intword.return_value = "200%"
-        with patch.object(self, 'visualize_extreme_player_movement') as mock_visualize:
+        with patch.object(fu, 'visualize_extreme_player_movement') as mock_visualize:
             fu.visualize_extreme_player_movement(self.logs_df, self.df, 'movement_time', self.mask_series, humanize_type='percentage')
             # Assert mock called with expected title
             self.assertIn("200%", mock_visualize.call_args[1]['title'])

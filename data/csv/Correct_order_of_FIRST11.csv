@@ -1,0 +1,12 @@
+Patient,Injuries,Vitals,SALT,Priority,Required Life Saving Intervention,Group
+Bob_0,Face Shrapnel;Collapsed Chest;Stomach Puncture;Amputations;Thigh Laceration,Pulse absent;Resp. Absent;Responds No,Dead,Still/Life Threat,None,1
+Gary_1,Face Shrapnel,Pulse faint;Resp. none;Responds No,Expectant,Still/Life Threat,None,1
+Lily_2,R Shin Amputation,Pulse Fast;Resp. Fast;Responds;Waves,Immediate,Still/Life Threat,AppliedTourniquet,1
+Gary_3,R Collapsed Chest,Pulse fast;Resp. labored;Responds,Immediate,Still/Life Threat,AppliedDecompNeedle,1
+Lily_4,L Side Puncture,Pulse fast;Resp. Normal;Waves,Immediate,Still/Life Threat,AppliedPackingGauze,1
+Mike_5,R Side Puncture;R Thigh Laceration,Pulse Fast;Resp. Fast;Responds;Waves,Immediate,Still/Life Threat,AppliedPackingGauze;AppliedTourniquet,1
+Gloria_6,Calf Shrapnel,Pulse Normal;Resp. Normal;Responds;Waves,Delayed,Wave,AppliedDressingGauze (optional),2
+Mike_7,L Thigh Puncture;Calf Laceration,Pulse Fast;Resp. Normal;Responds;Waves,Delayed,Still/Life Threat,AppliedTourniquet;AppliedDressingGauze (Optional),1
+Gloria_8,L Forearm Laceration,Pulse normal;Resp. Normal;Responds;Walks;Waves,Minimal,Walk,AppliedDressingGauze (optional),3
+Bob_9,Ear Bleed,Pulse normal;Resp. Normal;Responds?;Walks;Waves,Minimal,Walk,None,3
+Helga_10,Forehead Scrape,Pulse normal;Resp. Normal;Responds;Walks;Waves,Minimal,Walk,None,3

@@ -36,7 +36,7 @@ Format_Json() {
 
 Add_Python_Executable_To_Path() {
     local EnvironmentPath="$1"
-    local ExecutablePath="${EnvironmentPath}/python.exe"
+    local ExecutablePath="${EnvironmentPath}/bin/python"
     local PathArray=(${ExecutablePath//\\/ })
     local PythonFolder=$(IFS='\\'; echo "${PathArray[*]:0:${#PathArray[@]}-1}")
 
