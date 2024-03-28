@@ -706,6 +706,49 @@ class NotebookUtilities(object):
         return clusters_dict
     
     
+    @staticmethod
+    def count_swaps_to_perfect_order(ideal_list, compared_list):
+        """
+        Counts the number of swaps required to make 'compared_list' identical to 'ideal_list'.
+        
+        Parameters:
+            ideal_list (list): The list representing the ideal order.
+            compared_list (list): The list to be compared and modified.
+        
+        Returns:
+            int: The number of swaps required to make 'compared_list' identical to 'ideal_list'.
+        
+        Raises:
+            ValueError: If the lengths of 'ideal_list' and 'compared_list' are not equal.
+        """
+        
+        # Check if lengths of lists are equal
+        if len(ideal_list) != len(compared_list): raise ValueError('Lists must be of equal length')
+        
+        # Create a dictionary mapping elements to their indices in the ideal_list
+        positions = {element: index for index, element in enumerate(ideal_list)}
+        swaps = 0
+        
+        # Iterate through each element in compared_list
+        for i in range(len(compared_list)):
+            
+            # If element in compared_list is not in its correct position in ideal_list
+            if compared_list[i] != ideal_list[i]:
+                
+                # Find the index to swap with
+                index_to_swap = positions[compared_list[i]]
+                
+                # Swap the elements in ideal_list
+                ideal_list[i], ideal_list[index_to_swap] = ideal_list[index_to_swap], ideal_list[i]
+                
+                # Update the positions dictionary
+                positions[ideal_list[i]] = i
+                positions[ideal_list[index_to_swap]] = index_to_swap
+                swaps += 1
+        
+        return swaps
+    
+    
     ### File Functions ###
     
     
