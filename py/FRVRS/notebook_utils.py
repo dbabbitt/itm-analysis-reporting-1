@@ -1410,6 +1410,37 @@ class NotebookUtilities(object):
         return sorted(dirred_set)
     
     
+    @staticmethod
+    def add_staticmethod_decorations(verbose=True):
+        """
+        Find all the non-staticmethod-decorated functions and refactor if needed.
+        """
+        instance_defs_regex = re.compile(r'^    def ([a-z]+[a-z_]+)\(\s*self,\s+(?:[^\)]+)\):', re.MULTILINE)
+        self_regex = re.compile(r'\bself\b')
+        functions_list = []
+        black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
+        this_folder = '../py'
+        if verbose: print()
+        for sub_directory, directories_list, files_list in os.walk(this_folder):
+            if all(map(lambda x: x not in sub_directory, black_list)):
+                for file_name in files_list:
+                    if file_name.endswith('.py'):
+                        file_path = osp.join(sub_directory, file_name)
+                        try:
+                            with open(file_path, 'r', encoding=nu.encoding_type) as f: file_text = f.read()
+                            fn_parts_list = instance_defs_regex.split(file_text)
+                            for fn_name, fn_body in zip(fn_parts_list[1::2], fn_parts_list[2::2]):
+                                if not self_regex.search(fn_body):
+                                    instance_def_regex = re.compile(rf'^    def {fn_name}\(\s*self,\s+(?:[^\)]+)\):', re.MULTILINE)
+                                    match_obj = instance_def_regex.search(file_text)
+                                    if match_obj: replaced_str = match_obj.group()
+                                    else: replaced_str = ''
+                                    replacing_str = '    @staticmethod\n' + replaced_str.replace('self, ', '')
+                                    file_text = file_text.replace(replaced_str, replacing_str)
+                                    with open(file_path, 'w', encoding=nu.encoding_type) as f: print(file_text.rstrip(), file=f)
+                        except Exception as e: print(f'{e.__class__} errror trying to read {file_name}: {str(e).strip()}')
+    
+    
     def update_modules_list(
         self, modules_list: Optional[List[str]] = None, verbose: bool = False
     ) -> None:
@@ -2740,7 +2771,7 @@ class NotebookUtilities(object):
         idx_reference='United States',
         annot_reference='most evil', aspect_ratio=None, least_x_xytext=(40, -10), most_x_xytext=(-150, 55),
         least_y_xytext=(-200, -10),
-        most_y_xytext=(45, 0), reference_xytext=(-75, 25), color_list=None
+        most_y_xytext=(45, 0), reference_xytext=(-75, 25), color_list=None, verbose=False
     ):
         """
         Create a first-order (linear) scatter plot assuming the data frame
@@ -2759,7 +2790,7 @@ class NotebookUtilities(object):
             y_adj (str, optional): The adjective to use for the y-axis variable in the annotations.
                 Default is 'unequal'.
             title (str, optional): The title of the plot. Defaults to
-                '"Wealth inequality is huge in the capitalist societies"'.
+                'Wealth inequality is huge in the capitalist societies'.
             idx_reference (str, optional): The index of the data point to be used as the reference point for
                 the annotations. Default is 'United States'.
             annot_reference (str, optional): The reference text to be used for the annotation of the
@@ -2778,9 +2809,10 @@ class NotebookUtilities(object):
                 the reference point. Default is (-75, 25).
             color_list (list[str], optional): The list of colors to be used for the scatter plot.
                 Default is None, which will use a default color scheme.
+            verbose (bool, optional): Whether to print debug output. Defaults to False.
         
         Returns:
-            figure(matplotlib.figure.Figure): The figure object for the generated scatter plot.
+            tuple: The figure and axis object for the generated scatter plot.
         """
     
         if aspect_ratio is None: aspect_ratio = self.facebook_aspect_ratio
@@ -2803,41 +2835,54 @@ class NotebookUtilities(object):
         if not ylabel_str.endswith(' (response variable)'): ylabel_str = f'{ylabel_str} (response variable)'
         ylabel_text = plt.ylabel(ylabel_str)
     
-        kwargs = dict(textcoords='offset points', ha='left', va='bottom',
-                      bbox=dict(boxstyle='round,pad=0.5', fc='yellow', alpha=0.5),
-                      arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0'))
+        kwargs = dict(
+            textcoords='offset points', ha='left', va='bottom',
+            bbox=dict(boxstyle='round,pad=0.5', fc='yellow', alpha=0.5),
+            arrowprops=dict(arrowstyle='->', connectionstyle='arc3,rad=0')
+        )
         
         xdata = df[xname].values
         least_x = xdata.min()
+        if verbose: print(f'least_x = {least_x}')
         most_x = xdata.max()
+        if verbose: print(f'most_x = {most_x}')
         
         ydata = df[yname].values
         most_y = ydata.max()
+        if verbose: print(f'most_y = {most_y}')
         least_y = ydata.min()
+        if verbose: print(f'least_y = {least_y}')
         
-        # Initialize all variables to False in a single line
-        least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
+        least_x_tried = False
+        most_x_tried = False
+        least_y_tried = False
+        most_y_tried = False
         
         for label, x, y in zip(df.index, xdata, ydata):
             if (x == least_x) and not least_x_tried:
-                annotation = plt.annotate('{} (least {})'.format(label, x_adj),
-                                          xy=(x, y), xytext=least_x_xytext, **kwargs)
+                annotation = plt.annotate(
+                    '{} (least {})'.format(label, x_adj), xy=(x, y), xytext=least_x_xytext, **kwargs
+                )
                 least_x_tried = True
             elif (x == most_x) and not most_x_tried:
-                annotation = plt.annotate('{} (most {})'.format(label, x_adj),
-                                          xy=(x, y), xytext=most_x_xytext, **kwargs)
+                annotation = plt.annotate(
+                    '{} (most {})'.format(label, x_adj), xy=(x, y), xytext=most_x_xytext, **kwargs
+                )
                 most_x_tried = True
             elif (y == least_y) and not least_y_tried:
-                annotation = plt.annotate('{} (least {})'.format(label, y_adj),
-                                          xy=(x, y), xytext=least_y_xytext, **kwargs)
+                annotation = plt.annotate(
+                    '{} (least {})'.format(label, y_adj), xy=(x, y), xytext=least_y_xytext, **kwargs
+                )
                 least_y_tried = True
             elif (y == most_y) and not most_y_tried:
-                annotation = plt.annotate('{} (most {})'.format(label, y_adj),
-                                          xy=(x, y), xytext=most_y_xytext, **kwargs)
+                annotation = plt.annotate(
+                    '{} (most {})'.format(label, y_adj), xy=(x, y), xytext=most_y_xytext, **kwargs
+                )
                 most_y_tried = True
             elif (label == idx_reference):
-                annotation = plt.annotate('{} ({})'.format(label, annot_reference),
-                                          xy=(x, y), xytext=reference_xytext, **kwargs)
+                annotation = plt.annotate(
+                    '{} ({})'.format(label, annot_reference), xy=(x, y), xytext=reference_xytext, **kwargs
+                )
     
         title_obj = fig.suptitle(t=title, x=0.5, y=0.91)
         
@@ -2845,7 +2890,7 @@ class NotebookUtilities(object):
         s_str = self.get_r_squared_value_latex(xdata, ydata)
         text_tuple = ax.text(0.75, 0.9, s_str, alpha=0.5, transform=ax.transAxes, fontsize='x-large')
         
-        return fig
+        return fig, ax
     
     
     def plot_inauguration_age(
@@ -2881,7 +2926,7 @@ class NotebookUtilities(object):
         Returns:
             None: The function plots the graph directly using matplotlib.
         """
-
+        
         # Configure the color dictionary
         color_cycler = self.get_color_cycler(info_df[groupby_column_name].unique().shape[0])
         face_color_dict = {}
@@ -2943,7 +2988,7 @@ class NotebookUtilities(object):
         bottom, top = ax.get_ylim()
         height = top - bottom
 
-        # Get the background shading width
+        # Get the background shading wrap width
         left, right = ax.get_xlim()
         min_shading_width = 9999
         min_turning_name = ''
@@ -2956,7 +3001,7 @@ class NotebookUtilities(object):
                 min_shading_width = width
                 min_turning_name = row_series.turning_name
                 wrap_width = len(min_turning_name)
-
+        
         # Add the turning names as background shading
         from matplotlib.patches import Rectangle
         for row_index, row_series in info_df.iterrows():
