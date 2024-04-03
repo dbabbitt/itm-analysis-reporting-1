@@ -1537,7 +1537,7 @@ class FRVRSUtilities(object):
                 mask_series = ~patient_df.patient_sort.isnull()
                 patient_sort = (
                     patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
-                    if mask_series.any()
+                    if mask_series.any():
                     else None
                 )
                 
@@ -1546,7 +1546,7 @@ class FRVRSUtilities(object):
                     mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
                     predicted_priority = (
                         patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
-                        if mask_series.any()
+                        if mask_series.any():
                         else None
                     )
                 else: predicted_priority = None
