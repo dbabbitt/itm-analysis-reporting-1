@@ -214,3 +214,5 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
+saves/csv/frvrs_logs_df_new.csv
+saves/pkl/frvrs_logs_df_new.pkl
