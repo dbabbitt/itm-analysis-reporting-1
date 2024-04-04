@@ -387,6 +387,7 @@ class FRVRSUtilities(object):
         elif not all(map(lambda x: x in session_df.columns, needed_set)):
             
             # Merge scene_type and is_scene_aborted and file_name into sessions_df
+            assert (logs_df is not None), "You don't have the needed set of scene_type, is_scene_aborted, and file_name columns in your session_df and therefore need to include a logs_df"
             logs_columns_set = set(logs_df.columns)
             file_columns_set = set(file_stats_df.columns)
             scene_columns_set = set(scene_stats_df.columns)
@@ -1537,7 +1538,7 @@ class FRVRSUtilities(object):
                 mask_series = ~patient_df.patient_sort.isnull()
                 patient_sort = (
                     patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
-                    if mask_series.any():
+                    if mask_series.any()
                     else None
                 )
                 
@@ -1546,7 +1547,7 @@ class FRVRSUtilities(object):
                     mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
                     predicted_priority = (
                         patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
-                        if mask_series.any():
+                        if mask_series.any()
                         else None
                     )
                 else: predicted_priority = None
@@ -3113,14 +3114,14 @@ class FRVRSUtilities(object):
         return(result_df)
     
     
-    def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], minimum_patient_count=11, verbose=False):
+    def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], patient_count_filter_fn=None, verbose=False):
         
         # Get the column sets
         triage_columns = ['scene_type', 'is_scene_aborted']
         for cn in triage_columns:
             if not any(map(lambda df: cn in df.columns, [logs_df, file_stats_df, scene_stats_df])):
                 raise ValueError(f'The {cn} column must be in either logs_df, file_stats_df, or scene_stats_df.')
-        needed_set = set(triage_columns + needed_columns)
+        needed_set = set(triage_columns + list(needed_columns))
         logs_columns_set = set(logs_df.columns)
         file_columns_set = set(file_stats_df.columns)
         scene_columns_set = set(scene_stats_df.columns)
@@ -3142,7 +3143,8 @@ class FRVRSUtilities(object):
         
         # Get the triage scenes with at least eleven patients in them
         triage_mask = (merge_df.scene_type == 'Triage') & (merge_df.is_scene_aborted == False)
-        elevens_df = merge_df[triage_mask].groupby(self.scene_groupby_columns).filter(lambda x: x.patient_id.nunique() >= minimum_patient_count)
+        if patient_count_filter_fn is None: patient_count_filter_fn = lambda scene_df: scene_df.patient_id.nunique() >= 11
+        elevens_df = merge_df[triage_mask].groupby(self.scene_groupby_columns).filter(patient_count_filter_fn)
         
         return elevens_df
     
