@@ -661,7 +661,7 @@ class FRVRSUtilities(object):
     def get_player_location(scene_df, action_tick, verbose=False):
         mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
         df = scene_df[mask_series]
-        df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick, x))
+        df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick - x))
         player_location = eval(df.sort_values('action_delta').iloc[0].location_id)
         
         return player_location
