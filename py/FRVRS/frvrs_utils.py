@@ -2551,7 +2551,7 @@ class FRVRSUtilities(object):
         """
         
         # Calculate basic descriptive statistics for time-related columns
-        df = self.get_statistics(describable_df, columns_list)
+        df = nu.get_statistics(describable_df, columns_list)
         
         # Convert time values to timedelta objects and format them using format_timedelta()
         df = df.applymap(
