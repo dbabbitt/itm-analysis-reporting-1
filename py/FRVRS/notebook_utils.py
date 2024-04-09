@@ -707,45 +707,43 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def count_swaps_to_perfect_order(ideal_list, compared_list):
+    def count_swaps_to_perfect_order(ideal_list, compared_list, verbose=False):
         """
-        Counts the number of swaps required to make 'compared_list' identical to 'ideal_list'.
+        Counts the number of swaps required to make compared_list identical to ideal_list
+        without penalizing lists with repeated elements.
         
         Parameters:
             ideal_list (list): The list representing the ideal order.
             compared_list (list): The list to be compared and modified.
         
         Returns:
-            int: The number of swaps required to make 'compared_list' identical to 'ideal_list'.
+            int: The number of swaps required.
         
         Raises:
             ValueError: If the lengths of 'ideal_list' and 'compared_list' are not equal.
         """
         
         # Check if lengths of lists are equal
-        if len(ideal_list) != len(compared_list): raise ValueError('Lists must be of equal length')
-        
-        # Create a dictionary mapping elements to their indices in the ideal_list
-        positions = {element: index for index, element in enumerate(ideal_list)}
+        n = len(ideal_list)
+        if n != len(compared_list): raise ValueError('Lists must be of equal length')
         swaps = 0
         
-        # Iterate through each element in compared_list
-        for i in range(len(compared_list)):
+        # Create a dictionary to store the indices of elements in the ideal_list
+        ideal_indices = {element: i for i, element in enumerate(ideal_list)}
+        
+        # Iterate through the compared list
+        for i in range(n):
             
-            # If element in compared_list is not in its correct position in ideal_list
+            # If the element is not in its correct position
             if compared_list[i] != ideal_list[i]:
                 
-                # Find the index to swap with
-                index_to_swap = positions[compared_list[i]]
-                
-                # Swap the elements in ideal_list
-                ideal_list[i], ideal_list[index_to_swap] = ideal_list[index_to_swap], ideal_list[i]
-                
-                # Update the positions dictionary
-                positions[ideal_list[i]] = i
-                positions[ideal_list[index_to_swap]] = index_to_swap
+                # Find the correct position of the element in ideal_list
+                correct_index = ideal_indices[compared_list[i]]
+    
+                # Swap the elements
+                compared_list[i], compared_list[correct_index] = compared_list[correct_index], compared_list[i]
                 swaps += 1
-        
+    
         return swaps
     
     
