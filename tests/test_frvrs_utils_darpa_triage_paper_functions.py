@@ -34,13 +34,13 @@ class TestGetStatistics(unittest.TestCase):
     def test_get_statistics_all_columns(self):
         # Test with all columns
         columns_list = self.describable_df.columns.tolist()
-        actual_df = fu.get_statistics(self.describable_df, columns_list)
+        actual_df = nu.get_statistics(self.describable_df, columns_list)
         self.assertTrue(self.expected_df.equals(actual_df))
 
     def test_get_statistics_subset_columns(self):
         # Test with a subset of columns
         columns_list = ['triage_time']
-        actual_df = fu.get_statistics(self.describable_df, columns_list)
+        actual_df = nu.get_statistics(self.describable_df, columns_list)
         self.assertTrue(self.expected_df.drop(columns=['last_controlled_time']).equals(actual_df))
 
 class TestGetElevensDataFrame(unittest.TestCase):
