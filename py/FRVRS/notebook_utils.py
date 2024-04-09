@@ -1938,26 +1938,29 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def get_statistics(describable_df, columns_list):
+    def get_statistics(describable_df, columns_list, verbose=False):
         """
-        Calculates and presents descriptive statistics for a given DataFrame's columns.
-    
+        Calculates and returns descriptive statistics for a subset of columns in a Pandas DataFrame.
+        
         Parameters:
             describable_df (pandas.DataFrame): The DataFrame to calculate descriptive statistics for.
             columns_list (list of str): A list of specific columns to calculate statistics for.
-    
+            verbose (bool): If True, display debug information.
+        
         Returns:
             pandas.DataFrame: A DataFrame containing the descriptive statistics for the analyzed columns.
+                The returned DataFrame includes the mean, mode, median, standard deviation (SD),
+                minimum, 25th percentile, 50th percentile (median), 75th percentile, and maximum.
         """
-    
-        # Compute basic descriptive statistics for the specified columns
+        
+        # Calculate basic descriptive statistics for the specified columns
         df = describable_df[columns_list].describe().rename(index={'std': 'SD'})
         
         # If the mode is not already included in the statistics, calculate it
         if ('mode' not in df.index):
             
             # Create the mode row dictionary
-            row_dict = {cn: describable_df[cn].mode().tolist()[0] for cn in columns_list}
+            row_dict = {cn: describable_df[cn].mode().iloc[0] for cn in columns_list}
             
             # Convert the row dictionary to a data frame to match the df structure
             row_df = DataFrame([row_dict], index=['mode'])
@@ -1979,10 +1982,16 @@ class NotebookUtilities(object):
         
         # Define the desired index order for the resulting DataFrame
         index_list = ['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
-    
+        
         # Create a boolean mask to select rows with desired index values
         mask_series = df.index.isin(index_list)
         df = df[mask_series].reindex(index_list)
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'columns_list: {columns_list}')
+            display(describable_df)
+            display(df)
         
         # Return the filtered DataFrame containing the selected statistics
         return df

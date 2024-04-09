@@ -2528,66 +2528,6 @@ class FRVRSUtilities(object):
     ### Pandas Functions ###
     
     
-    @staticmethod
-    def get_statistics(describable_df, columns_list, verbose=False):
-        """
-        Calculates and returns descriptive statistics for a subset of columns in a Pandas DataFrame.
-        
-        Parameters:
-            describable_df (pandas.DataFrame): The input DataFrame containing the data to analyze.
-            columns_list (list): List of column names for which statistics should be calculated.
-            verbose (bool): If True, display debug information.
-        
-        Returns:
-            pandas.DataFrame: A DataFrame containing the descriptive statistics for the specified columns.
-                The returned DataFrame includes the mean, mode, median, standard deviation (SD),
-                minimum, 25th percentile, 50th percentile (median), 75th percentile, and maximum.
-        """
-        
-        # Calculate basic descriptive statistics for the specified columns
-        df = describable_df[columns_list].describe().rename(index={'std': 'SD'})
-        
-        # Check if the 'mode' statistic is present in the DataFrame
-        if ('mode' not in df.index):
-            
-            # Create the mode row dictionary
-            row_dict = {cn: describable_df[cn].mode().iloc[0] for cn in columns_list}
-            
-            # Convert the row dictionary to a data frame to match the df structure
-            row_df = DataFrame([row_dict], index=['mode'])
-            
-            # Append the row data frame to the df data frame
-            df = concat([df, row_df], axis='index', ignore_index=False)
-        
-        # Check if the 'median' statistic is present in the DataFrame
-        if ('median' not in df.index):
-            
-            # Create the median row dictionary
-            row_dict = {cn: describable_df[cn].median() for cn in columns_list}
-            
-            # Convert the row dictionary to a data frame to match the df structure
-            row_df = DataFrame([row_dict], index=['median'])
-            
-            # Append the row data frame to the df data frame
-            df = concat([df, row_df], axis='index', ignore_index=False)
-        
-        # Define a list of desired statistics indices
-        index_list = ['mean', 'mode', 'median', 'SD', 'min', '25%', '50%', '75%', 'max']
-        
-        # Create a filter and reindexed data frame to select only the desired statistics
-        mask_series = df.index.isin(index_list)
-        statistics_df = df[mask_series].reindex(index_list)
-        
-        # If verbose is True, print additional information
-        if verbose:
-            print(f'columns_list: {columns_list}')
-            display(describable_df)
-            display(statistics_df)
-        
-        # Return the filtered DataFrame with the desired statistics
-        return statistics_df
-    
-    
     def show_time_statistics(self, describable_df, columns_list):
         """
         Display summary statistics for time-related data in a readable format.
