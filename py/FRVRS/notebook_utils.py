@@ -3328,7 +3328,7 @@ class NotebookUtilities(object):
         return fig, ax
     
     
-    def plot_sequences(self, sequences, gap=True):
+    def plot_sequences(self, sequences, gap=True, color_dict=None):
         """
         Creates a scatter-style sequence plot for a collection of sequences.
         
@@ -3351,14 +3351,15 @@ class NotebookUtilities(object):
             # Convert the sequence to a NumPy array
             np_sequence = np.array(sequence)
             
-            # Determine the number of unique values in the sequence
-            alphabet_len = len(self.get_alphabet(sequence))
-            
             # Disable automatic color cycling
             plt.gca().set_prop_cycle(None)
             
             # Get the unique values in the sequence
             unique_values = self.get_alphabet(sequence)
+            
+            # Set up the color dictionary so that its keys consist of the elements in unique_values
+            if color_dict is None: color_dict = {a: None for a in unique_values}
+            else: color_dict = {a: color_dict.get(a) for a in unique_values}
             
             for i, value in enumerate(unique_values):
                 
@@ -3370,7 +3371,8 @@ class NotebookUtilities(object):
                         y=points,
                         marker='s',
                         label=value,
-                        s=100
+                        s=100,
+                        color=color_dict[value]
                     )
                 else:
                     points = np.where(np_sequence == value, 1, np.nan)
@@ -3380,7 +3382,8 @@ class NotebookUtilities(object):
                         bottom=[y for x in range(len(points))],
                         width=1,
                         align='edge',
-                        label=value
+                        label=value,
+                        color=color_dict[value]
                     )
         
         # Set the y-axis limits with or without gaps

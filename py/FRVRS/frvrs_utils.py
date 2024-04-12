@@ -1290,9 +1290,11 @@ class FRVRSUtilities(object):
                 ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
                 sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
         
-        Notes:
+        Note:
             Only SORT categories included in `self.patient_sort_order` are considered.
             None values in the resulting lists indicate missing interactions.
+            When the walkers walk too close to the responder they can trigger the PATIENT_ENGAGED action
+            which incorrectly assigns them as a patient that has been seen. 
         """
         
         # Group patients by their SORT category and get lists of their elapsed times
@@ -2547,7 +2549,8 @@ class FRVRSUtilities(object):
         your_instance.show_time_statistics(your_dataframe, ['column1', 'column2'])
         ```
         
-        Note: This function relies on the 'get_statistics' and 'format_timedelta' methods.
+        Note:
+            This function relies on the 'get_statistics' and 'format_timedelta' methods.
         """
         
         # Calculate basic descriptive statistics for time-related columns
@@ -2971,7 +2974,7 @@ class FRVRSUtilities(object):
         Returns:
             None
 
-        Notes:
+        Note:
             This function prints the files with a duration greater than the specified threshold.
         """
         
