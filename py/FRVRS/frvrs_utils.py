@@ -2103,15 +2103,19 @@ class FRVRSUtilities(object):
         return is_hemorrhaging
     
     
-    def get_time_to_hemorrhage_control(self, patient_df, scene_start=None, verbose=False):
+    def get_time_to_hemorrhage_control(self, patient_df, scene_start, verbose=False):
         """
         Calculate the time it takes to control hemorrhage for the patient by getting the injury treatments
         where the responder is not confused from the bad feedback.
         
+        According to the paper we define time to hemorrhage control like this:
+        Duration of time from the scene start time until the time that the last patient who requires life
+        threatening bleeding has been treated with hemorrhage control procedures (when the last
+        tourniquet or wound packing was applied).
+        
         Parameters:
             patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            scene_start (int, optional): The action tick of the first interaction with the patient.
-                Defaults to None, in which case it will be calculated using `get_first_patient_interaction`.
+            scene_start (int): The action tick of the first interaction with the patient.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
@@ -2122,9 +2126,6 @@ class FRVRSUtilities(object):
         controlled_time = 0
         is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
         if not is_patient_dead:
-            
-            # If scene_start is not provided, determine it using the first patient interaction
-            if scene_start is None: scene_start = self.get_first_patient_interaction(patient_df)
             
             # Define columns for merging
             on_columns_list = ['injury_id']
