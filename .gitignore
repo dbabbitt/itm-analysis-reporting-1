@@ -68,6 +68,7 @@ data/xlsx/~$*.xlsx
 
 # Exclude backups
 *.bak
+*.zip
 *_old.pkl
 
 # Exclude Mac, Jupyter, R, and Octave admin files
