@@ -1309,7 +1309,7 @@ class FRVRSUtilities(object):
                 for patient_id in patient_sort_df.patient_id.unique():
                     mask_series = (scene_df.patient_id == patient_id)
                     patient_actions_df = scene_df[mask_series]
-                    action_list.append(self.get_first_patient_interaction(patient_actions_df))
+                    action_list.append(self.get_first_patient_triage(patient_actions_df))
                 
                 # Sort the list of first interactions
                 if verbose: display(sort, action_list)
@@ -1874,6 +1874,34 @@ class FRVRSUtilities(object):
             is_patient_injured = is_patient_injured or self.get_is_injury_severe(injury_df, verbose=verbose)
         
         return is_patient_injured
+    
+    
+    def get_first_patient_triage(self, patient_df, verbose=False):
+        """
+        Get the action tick of the first patient triage of the tool applied or tag applied type.
+        
+        Parameters:
+            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: The action tick of the first responder negotiation action, or None if no such action exists.
+        """
+        
+        # Filter for actions involving responder negotiations
+        mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'TOOL_APPLIED'])
+        
+        # If there are responder negotiation actions, find the first action tick
+        if mask_series.any(): engagement_start = patient_df[mask_series]['action_tick'].min()
+        else: engagement_start = np.nan
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'First patient triage: {engagement_start}')
+            display(patient_df[mask_series].dropna(axis='columns', how='all').T)
+        
+        # Return the action tick of the first patient triage or np.nan if no data is available
+        return engagement_start
     
     
     def get_first_patient_interaction(self, patient_df, verbose=False):
