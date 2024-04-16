@@ -2145,7 +2145,31 @@ class FRVRSUtilities(object):
         # Initialize variables to track hemorrhage control time
         controlled_time = 0
         is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
-        if not is_patient_dead:
+        
+        # Use time to correct triage tag (black of gray) an alternative measure of proper treatment
+        if is_patient_dead:
+            
+                # Get the last SALT value for the patient
+                try:
+                    mask_series = ~patient_df.patient_record_salt.isnull()
+                    salt_srs = patient_df[mask_series].sort_values('action_tick').iloc[-1]
+                    action_tick = salt_srs.action_tick
+                    last_salt = salt_srs.patient_record_salt
+                except Exception: last_salt = None
+            if verbose: print(f'last_salt = {last_salt}')
+            
+            # Get the predicted tag based on the maximum salt value
+            try: predicted_tag = self.salt_to_tag_dict.get(last_salt, None)
+            except Exception: predicted_tag = None
+            if verbose: print(f'predicted_tag = {predicted_tag}')
+            
+            # Update the maximum hemorrhage control time with the time to correct triage tag
+            if predicted_tag in ['black', 'gray']:
+                controlled_time = max(controlled_time, action_tick - scene_start)
+                if verbose: print(f'controlled_time = {controlled_time}')
+        
+        else:
+        # if not is_patient_dead:
             
             # Define columns for merging
             on_columns_list = ['injury_id']
