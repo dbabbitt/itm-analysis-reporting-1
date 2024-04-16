@@ -1489,6 +1489,26 @@ class FRVRSUtilities(object):
         return last_controlled_time
     
     
+    def get_time_to_hemorrhage_control_per_patient(self, scene_df, verbose=False):
+        """
+        According to the paper we define time to hemorrhage control per patient like this:
+        Duration of time from when the patient was first approached by the participant until
+        the time hemorrhage treatment was applied (with a tourniquet or wound packing)
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: The time it takes to control hemorrhage for the scene, per patient, in action ticks.
+        """
+        times_list = [
+            self.get_time_to_hemorrhage_control(patient_df, scene_start=self.get_first_patient_interaction(patient_df)) for _, patient_df in scene_df.groupby('patient_id') if self.get_is_patient_hemorrhaging(patient_df)
+        ]
+        
+        return sum(times_list) / scene_df[~scene_df.patient_id.isnull()].patient_id.nunique()
+    
+    
     def get_triage_priority_data_frame(self, scene_df, verbose=False):
         input_features = [
             'injury_id', 'injury_severity', 'injury_required_procedure', 'patient_salt', 'patient_sort', 'patient_pulse', 'patient_breath',
@@ -1730,7 +1750,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_max_salt(patient_df, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
         """
-        Get the maximum salt value from the patient data frame.
+        Get the last SALT value from the patient data frame.
         
         Parameters:
             patient_df (pandas.DataFrame, optional): DataFrame containing patient-specific data with relevant columns.
@@ -1748,7 +1768,7 @@ class FRVRSUtilities(object):
         # try: max_salt = patient_df[~mask_series].patient_record_salt.max()
         try:
             mask_series = ~patient_df.patient_salt.isnull()
-            max_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.tolist()[-1]
+            max_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.iloc[-1]
         except Exception: max_salt = np.nan
         
         # If verbose is True, print additional information
@@ -1779,8 +1799,8 @@ class FRVRSUtilities(object):
         """
         
         # Get the last tag value
-        mask_series = patient_df.tag_applied_type.isnull()
-        try: last_tag = patient_df[~mask_series].tag_applied_type.iloc[-1]
+        mask_series = ~patient_df.tag_applied_type.isnull()
+        try: last_tag = patient_df[mask_series].sort_values('action_tick').tag_applied_type.iloc[-1]
         except Exception: last_tag = np.nan
         
         # If verbose is True, print additional information
