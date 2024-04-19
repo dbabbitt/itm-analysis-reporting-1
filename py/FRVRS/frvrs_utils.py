@@ -596,6 +596,51 @@ class FRVRSUtilities(object):
         return distance_delta_df
     
     
+    def get_is_tag_correct_data_frame(self, logs_df, groupby_column='responder_category', verbose=False):
+        
+        # Iterate through each patient of each scene of each session of the 11-patient data frame
+        rows_list = []
+        for groupby_value, groupby_df in logs_df.groupby(groupby_column):
+            for (session_uuid, scene_id, patient_id), patient_df in groupby_df.sort_values(['action_tick']).groupby(fu.patient_groupby_columns):
+                
+                # Add the groupby columns and an account of the patient's existence to the row dictionary
+                row_dict = {cn: eval(cn) for cn in fu.patient_groupby_columns}
+                row_dict[groupby_column] = groupby_value
+                row_dict['patient_count'] = 1
+                
+                # Add the TAG_APPLIED tag value for this patient
+                try: last_tag = fu.get_last_tag(patient_df)
+                except Exception: last_tag = np.nan
+                row_dict['last_tag'] = last_tag
+                
+                # Add the PATIENT_RECORD SALT value for this patient
+                try: max_salt = fu.get_max_salt(patient_df)
+                except Exception: max_salt = np.nan
+                row_dict['max_salt'] = max_salt
+                
+                # Add the predicted tag value for this patient based on the SALT value
+                try: predicted_tag = fu.salt_to_tag_dict.get(max_salt, np.nan)
+                except Exception: predicted_tag = np.nan
+                row_dict['predicted_tag'] = predicted_tag
+                
+                # Add if the tagging was correct for this patient, then the row to the list
+                row_dict['is_tag_correct'] = bool(last_tag == predicted_tag)
+                rows_list.append(row_dict)
+        
+        # Create the tag-to-SALT data frame
+        is_tag_correct_df = pd.DataFrame(rows_list)
+        
+        # Convert the tagged, SALT, and predicted tag columns to their custom categorical types
+        is_tag_correct_df.last_tag = is_tag_correct_df.last_tag.astype(fu.colors_category_order)
+        is_tag_correct_df.max_salt = is_tag_correct_df.max_salt.astype(fu.salt_category_order)
+        is_tag_correct_df.predicted_tag = is_tag_correct_df.predicted_tag.astype(fu.colors_category_order)
+        
+        # Sort the data frame based on the custom categorical order
+        is_tag_correct_df = is_tag_correct_df.sort_values('predicted_tag')
+        
+        return is_tag_correct_df
+    
+    
     ### Scene Functions ###
     
     
@@ -659,10 +704,12 @@ class FRVRSUtilities(object):
     
     @staticmethod
     def get_player_location(scene_df, action_tick, verbose=False):
+        player_location = (0.0, 0.0, 0.0)
         mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
-        df = scene_df[mask_series]
-        df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick - x))
-        player_location = eval(df.sort_values('action_delta').iloc[0].location_id)
+        if mask_series.any():
+            df = scene_df[mask_series]
+            df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick - x))
+            player_location = eval(df.sort_values('action_delta').iloc[0].location_id)
         
         return player_location
     
@@ -1139,7 +1186,8 @@ class FRVRSUtilities(object):
         """
         
         # Check if the is_scene_aborted column exists in the scene data frame, and get the unique value if it is
-        if 'is_scene_aborted' in scene_df.columns: is_scene_aborted = scene_df.is_scene_aborted.unique().item()
+        if ('is_scene_aborted' in scene_df.columns) and (scene_df.is_scene_aborted.unique().shape[0] > 0):
+            is_scene_aborted = scene_df.is_scene_aborted.unique().item()
         else: is_scene_aborted = False
         if not is_scene_aborted:
             
@@ -1471,11 +1519,11 @@ class FRVRSUtilities(object):
         # Iterate through patients in the scene
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             
-            # Check if the patient is hemorrhaging
-            if self.get_is_patient_hemorrhaging(patient_df):
+            # Check if the patient is hemorrhaging and not dead
+            if self.get_is_patient_hemorrhaging(patient_df, verbose=verbose) and not self.get_is_patient_dead(patient_df, verbose=verbose):
                 
                 # Get the time to hemorrhage control for the patient
-                controlled_time = self.get_time_to_hemorrhage_control(patient_df, scene_start=scene_start, verbose=verbose)
+                controlled_time = self.get_time_to_hemorrhage_control(patient_df, scene_start=scene_start, use_dead_alternative=False, verbose=verbose)
                 
                 # Update the last controlled time if the current controlled time is greater
                 last_controlled_time = max(controlled_time, last_controlled_time)
@@ -1502,11 +1550,24 @@ class FRVRSUtilities(object):
         Returns:
             int: The time it takes to control hemorrhage for the scene, per patient, in action ticks.
         """
-        times_list = [
-            self.get_time_to_hemorrhage_control(patient_df, scene_start=self.get_first_patient_interaction(patient_df)) for _, patient_df in scene_df.groupby('patient_id') if self.get_is_patient_hemorrhaging(patient_df)
-        ]
         
-        return sum(times_list) / scene_df[~scene_df.patient_id.isnull()].patient_id.nunique()
+        # Iterate through patients in the scene
+        times_list = []
+        patient_count = 0
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            
+            # Check if the patient is hemorrhaging and not dead
+            if self.get_is_patient_hemorrhaging(patient_df, verbose=verbose) and not self.get_is_patient_dead(patient_df, verbose=verbose):
+                
+                action_tick = self.get_time_to_hemorrhage_control(patient_df, scene_start=self.get_first_patient_interaction(patient_df), use_dead_alternative=False)
+                times_list.append(action_tick)
+                patient_count += 1
+        
+        # Calculate the hemorrhage control per patient
+        try: time_to_hemorrhage_control_per_patient = sum(times_list) / patient_count
+        except ZeroDivisionError: time_to_hemorrhage_control_per_patient = np.nan
+        
+        return time_to_hemorrhage_control_per_patient
     
     
     def get_triage_priority_data_frame(self, scene_df, verbose=False):
@@ -1851,7 +1912,7 @@ class FRVRSUtilities(object):
         tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
         mask_series = ~patient_df.patient_record_salt.isnull()
         patient_record_salt_count = patient_df[mask_series].patient_record_salt.unique().shape[0]
-        assert (tag_applied_type_count > 0) and (patient_record_salt_count > 0), "You need to have both a tag_applied_type and a patient_record_salt"
+        if (tag_applied_type_count == 0) or (patient_record_salt_count == 0): return np.nan
         
         # Get the last applied tag
         last_tag = self.get_last_tag(patient_df)
@@ -1909,7 +1970,8 @@ class FRVRSUtilities(object):
         """
         
         # Filter for actions involving responder negotiations
-        mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'TOOL_APPLIED'])
+        # mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'TOOL_APPLIED'])
+        mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'INJURY_TREATED'])
         
         # If there are responder negotiation actions, find the first action tick
         if mask_series.any(): engagement_start = patient_df[mask_series]['action_tick'].min()
@@ -2123,7 +2185,7 @@ class FRVRSUtilities(object):
         return is_hemorrhaging
     
     
-    def get_time_to_hemorrhage_control(self, patient_df, scene_start, verbose=False):
+    def get_time_to_hemorrhage_control(self, patient_df, scene_start, use_dead_alternative=False, verbose=False):
         """
         Calculate the time it takes to control hemorrhage for the patient by getting the injury treatments
         where the responder is not confused from the bad feedback.
@@ -2148,7 +2210,8 @@ class FRVRSUtilities(object):
         
         # Use time to correct triage tag (black of gray) an alternative measure of proper treatment
         if is_patient_dead:
-            
+            if use_dead_alternative:
+                
                 # Get the last SALT value for the patient
                 try:
                     mask_series = ~patient_df.patient_record_salt.isnull()
@@ -2156,20 +2219,19 @@ class FRVRSUtilities(object):
                     action_tick = salt_srs.action_tick
                     last_salt = salt_srs.patient_record_salt
                 except Exception: last_salt = None
-            if verbose: print(f'last_salt = {last_salt}')
-            
-            # Get the predicted tag based on the maximum salt value
-            try: predicted_tag = self.salt_to_tag_dict.get(last_salt, None)
-            except Exception: predicted_tag = None
-            if verbose: print(f'predicted_tag = {predicted_tag}')
-            
-            # Update the maximum hemorrhage control time with the time to correct triage tag
-            if predicted_tag in ['black', 'gray']:
-                controlled_time = max(controlled_time, action_tick - scene_start)
-                if verbose: print(f'controlled_time = {controlled_time}')
+                if verbose: print(f'last_salt = {last_salt}')
+                
+                # Get the predicted tag based on the maximum salt value
+                try: predicted_tag = self.salt_to_tag_dict.get(last_salt, None)
+                except Exception: predicted_tag = None
+                if verbose: print(f'predicted_tag = {predicted_tag}')
+                
+                # Update the maximum hemorrhage control time with the time to correct triage tag
+                if predicted_tag in ['black', 'gray']:
+                    controlled_time = max(controlled_time, action_tick - scene_start)
+                    if verbose: print(f'controlled_time = {controlled_time}')
         
         else:
-        # if not is_patient_dead:
             
             # Define columns for merging
             on_columns_list = ['injury_id']
@@ -3134,10 +3196,10 @@ class FRVRSUtilities(object):
         
         # Get the column sets
         triage_columns = ['scene_type', 'is_scene_aborted']
-        for cn in triage_columns:
+        needed_set = set(triage_columns + list(needed_columns))
+        for cn in needed_set:
             if not any(map(lambda df: cn in df.columns, [logs_df, file_stats_df, scene_stats_df])):
                 raise ValueError(f'The {cn} column must be in either logs_df, file_stats_df, or scene_stats_df.')
-        needed_set = set(triage_columns + list(needed_columns))
         logs_columns_set = set(logs_df.columns)
         file_columns_set = set(file_stats_df.columns)
         scene_columns_set = set(scene_stats_df.columns)
