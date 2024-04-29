@@ -80,7 +80,7 @@ class FRVRSUtilities(object):
         self.command_messages_list = [
             'walk to the safe area', 'wave if you can', 'are you hurt', 'reveal injury', 'lay down', 'where are you',
             'can you hear', 'anywhere else', 'what is your name', 'hold still', 'sit up/down', 'stand up'
-        ] + ['can you breathe', 'modbutton anywhere else', 'modbutton arms', 'modbutton groan', 'modbutton legs', 'modbutton no', 'modbutton yes', 'show me', 'stand', 'walk', 'wave']
+        ] + ['can you breathe', 'show me', 'stand', 'walk', 'wave']
         
         # List of action types that assume 1-to-1 interaction
         self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']
@@ -133,7 +133,7 @@ class FRVRSUtilities(object):
         
         # Patient breath designations
         self.breath_columns_list = ['patient_demoted_breath', 'patient_record_breath', 'patient_engaged_breath', 'patient_checked_breath']
-        self.patient_breath_order = ['none', 'collapsedRight', 'restricted', 'fast', 'normal']
+        self.patient_breath_order = ['none', 'collapsedLeft', 'collapsedRight', 'restricted', 'fast', 'normal']
         self.breath_category_order = pd.CategoricalDtype(categories=self.patient_breath_order, ordered=True)
         
         # Patient hearing designations
