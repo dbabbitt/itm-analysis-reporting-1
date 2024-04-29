@@ -1,52 +1,52 @@
 ID,Group,file_name,session_file_name,session_uuid,time_to_triage_scene,time_to_last_hemorrhage_controlled,time_to_hemorrhage_control_per_patient,mean_percentage_tag_correct,over_triage_error_rate,under_triage_error_rate,critical_triage_error_rate,encounter_layout
-Responder 1,Medical Student,First responder master registry v2.0/22.03.15.0824r.csv,22.03.15.0824r.csv,fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,613228,387864,21513.4,81.81818181818181,0.0,18.2,0.0,First 11
+Responder 1,Medical Student,First responder master registry v2.0/22.03.15.0824r.csv,22.03.15.0824r.csv,fe077b96-8e52-4e1a-8ec7-e5c5f46e65c5,613228,387864,21513.4,90.9090909090909,0.0,9.1,0.0,First 11
 Responder 2,Medical Student,First responder master registry v2.0/22.03.15.0826.csv,22.03.15.0826.csv,6cb3d605-3736-4255-bf3b-92473d9df21e,471611,446910,278510.4,54.54545454545455,12.5,12.5,0.0,First 11
-Responder 3,Medical Student,First responder master registry v2.0/22.03.15.0844r.csv,22.03.15.0844r.csv,5d916938-e0d3-47ee-8f55-12bf12283ee1,411083,231353,10307.0,63.63636363636363,9.1,18.2,9.1,First 11
-Responder 4,EM-Faculty,First responder master registry v2.0/22.03.15.0848r.csv,22.03.15.0848r.csv,a40659ab-dfbf-43ab-91cb-72a48a82c426,438803,342335,40005.2,81.81818181818181,18.2,0.0,0.0,First 11
-Responder 5,Medical Student,First responder master registry v2.0/22.03.15.0926r.csv,22.03.15.0926r.csv,86366fd5-be94-43cc-a9e9-7c98609c0a66,554398,317589,36922.0,54.54545454545455,20.0,20.0,0.0,First 11
-Responder 6,Medical Student,First responder master registry v2.0/22.03.15.0946.csv,22.03.15.0946.csv,9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13,41340,36332,0.0,0.0,0.0,37.5,12.5,First 11
-Responder 7,Medical Student,First responder master registry v2.0/22.03.15.1036r.csv,22.03.15.1036r.csv,aca8a746-0f72-4c8d-87a5-70d836da8768,536218,370823,21033.8,72.72727272727273,9.1,9.1,9.1,First 11
-Responder 8,Medical Student,First responder master registry v2.0/22.03.15.1037r.csv,22.03.15.1037r.csv,0667e56a-abe6-4097-9a56-33735f4855e2,669719,503495,88109.4,63.63636363636363,10.0,10.0,10.0,First 11
-Responder 9,Medical Student,First responder master registry v2.0/22.03.15.1052r.csv,22.03.15.1052r.csv,c82e4612-4e6f-4834-bc7f-6092327c44fa,409201,253159,12444.6,72.72727272727273,0.0,18.2,9.1,First 11
-Responder 10,Medical Student,First responder master registry v2.0/22.03.15.1100.csv,22.03.15.1100.csv,2930a371-1187-4b98-adfc-19e095637e48,461215,287484,17269.4,72.72727272727273,0.0,9.1,18.2,First 11
-Responder 11,Medical Student,First responder master registry v2.0/22.03.15.1106r.csv,22.03.15.1106r.csv,22e2c9a3-b93f-4f7f-896a-ca188c78505b,638276,420145,13249.6,45.45454545454545,0.0,45.5,9.1,First 11
-Responder 12,EM-Faculty,First responder master registry v2.0/22.03.15.1119r.csv,22.03.15.1119r.csv,4ca5febe-0a4b-4c77-bd3e-6632ae760df1,748440,618707,43283.8,63.63636363636363,0.0,36.4,0.0,First 11
-Responder 13,EM-Faculty,First responder master registry v2.0/22.03.15.1131r.csv,22.03.15.1131r.csv,677d1c18-f292-4bcb-924d-52f5e762533f,946700,736822,83625.8,63.63636363636363,9.1,0.0,27.3,First 11
-Responder 14,Medical Student,First responder master registry v2.0/22.03.15.1315r.csv,22.03.15.1315r.csv,16373b36-886a-4d0d-9015-474d29d139cc,569124,384463,78293.2,90.9090909090909,9.1,0.0,0.0,First 11
-Responder 15,Medical Student,First responder master registry v2.0/22.03.15.1316r.csv,22.03.15.1316r.csv,9f03c005-21d8-4934-8bb9-7152347726d1,654825,599744,92442.0,27.272727272727273,9.1,63.6,0.0,First 11
-Responder 16,Medical Student,First responder master registry v2.0/22.03.15.1337.csv,22.03.15.1337.csv,9cd41444-4813-45a8-81d0-a1d068184c8e,460942,346792,9025.2,45.45454545454545,0.0,45.5,9.1,First 11
-Responder 17,Medical Student,First responder master registry v2.0/22.03.15.1339.csv,22.03.15.1339.csv,e249e6d4-c3d4-4e20-8fab-fa35fd59e871,698129,501539,38843.0,81.81818181818181,9.1,9.1,0.0,First 11
-Responder 18,Medical Student,First responder master registry v2.0/22.03.15.1356.csv,22.03.15.1356.csv,9e0f8037-329b-496a-817a-daae83aa941f,537861,516390,68005.0,45.45454545454545,33.3,11.1,0.0,First 11
+Responder 3,Medical Student,First responder master registry v2.0/22.03.15.0844r.csv,22.03.15.0844r.csv,5d916938-e0d3-47ee-8f55-12bf12283ee1,411083,231353,10307.0,72.72727272727273,9.1,9.1,9.1,First 11
+Responder 4,EM-Faculty,First responder master registry v2.0/22.03.15.0848r.csv,22.03.15.0848r.csv,a40659ab-dfbf-43ab-91cb-72a48a82c426,438803,342335,40005.2,72.72727272727273,27.3,0.0,0.0,First 11
+Responder 5,Medical Student,First responder master registry v2.0/22.03.15.0926r.csv,22.03.15.0926r.csv,86366fd5-be94-43cc-a9e9-7c98609c0a66,554398,317589,36922.0,63.63636363636363,20.0,10.0,0.0,First 11
+Responder 6,Medical Student,First responder master registry v2.0/22.03.15.0946.csv,22.03.15.0946.csv,9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13,616771,350390,53475.2,36.36363636363637,0.0,37.5,12.5,First 11
+Responder 7,Medical Student,First responder master registry v2.0/22.03.15.1036r.csv,22.03.15.1036r.csv,aca8a746-0f72-4c8d-87a5-70d836da8768,536218,370823,21033.8,63.63636363636363,18.2,9.1,9.1,First 11
+Responder 8,Medical Student,First responder master registry v2.0/22.03.15.1037r.csv,22.03.15.1037r.csv,0667e56a-abe6-4097-9a56-33735f4855e2,669719,503495,88109.4,72.72727272727273,10.0,0.0,10.0,First 11
+Responder 9,Medical Student,First responder master registry v2.0/22.03.15.1052r.csv,22.03.15.1052r.csv,c82e4612-4e6f-4834-bc7f-6092327c44fa,409201,253159,12444.6,63.63636363636363,9.1,18.2,9.1,First 11
+Responder 10,Medical Student,First responder master registry v2.0/22.03.15.1100.csv,22.03.15.1100.csv,2930a371-1187-4b98-adfc-19e095637e48,461215,287484,17269.4,81.81818181818181,0.0,0.0,18.2,First 11
+Responder 11,Medical Student,First responder master registry v2.0/22.03.15.1106r.csv,22.03.15.1106r.csv,22e2c9a3-b93f-4f7f-896a-ca188c78505b,638276,420145,13249.6,36.36363636363637,9.1,45.5,9.1,First 11
+Responder 12,EM-Faculty,First responder master registry v2.0/22.03.15.1119r.csv,22.03.15.1119r.csv,4ca5febe-0a4b-4c77-bd3e-6632ae760df1,748440,618707,43283.8,72.72727272727273,0.0,27.3,0.0,First 11
+Responder 13,EM-Faculty,First responder master registry v2.0/22.03.15.1131r.csv,22.03.15.1131r.csv,677d1c18-f292-4bcb-924d-52f5e762533f,946700,736822,83625.8,54.54545454545455,18.2,0.0,27.3,First 11
+Responder 14,Medical Student,First responder master registry v2.0/22.03.15.1315r.csv,22.03.15.1315r.csv,16373b36-886a-4d0d-9015-474d29d139cc,569124,384463,78293.2,81.81818181818181,18.2,0.0,0.0,First 11
+Responder 15,Medical Student,First responder master registry v2.0/22.03.15.1316r.csv,22.03.15.1316r.csv,9f03c005-21d8-4934-8bb9-7152347726d1,654825,599744,92442.0,36.36363636363637,9.1,54.5,0.0,First 11
+Responder 16,Medical Student,First responder master registry v2.0/22.03.15.1337.csv,22.03.15.1337.csv,9cd41444-4813-45a8-81d0-a1d068184c8e,460942,346792,9025.2,54.54545454545455,0.0,36.4,9.1,First 11
+Responder 17,Medical Student,First responder master registry v2.0/22.03.15.1339.csv,22.03.15.1339.csv,e249e6d4-c3d4-4e20-8fab-fa35fd59e871,698129,501539,38843.0,72.72727272727273,18.2,9.1,0.0,First 11
+Responder 18,Medical Student,First responder master registry v2.0/22.03.15.1356.csv,22.03.15.1356.csv,9e0f8037-329b-496a-817a-daae83aa941f,537861,516390,68005.0,54.54545454545455,33.3,0.0,0.0,First 11
 Responder 19,Medical Student,First responder master registry v2.0/22.03.15.1427.csv,22.03.15.1427.csv,2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06,481427,436377,223687.0,27.272727272727273,0.0,28.6,28.6,First 11
-Responder 20,Medical Student,First responder master registry v2.0/22.03.15.1445.csv,22.03.15.1445.csv,d11543fd-7b7f-4883-bd69-afe8128a76f2,411487,294022,12415.4,54.54545454545455,18.2,9.1,18.2,First 11
+Responder 20,Medical Student,First responder master registry v2.0/22.03.15.1445.csv,22.03.15.1445.csv,d11543fd-7b7f-4883-bd69-afe8128a76f2,411487,294022,12415.4,63.63636363636363,18.2,0.0,18.2,First 11
 Responder 21,Medical Student,First responder master registry v2.0/22.03.15.1446.csv,22.03.15.1446.csv,38b995b3-fb77-4fda-b0b4-21f062ed6a38,781506,678670,155848.2,27.272727272727273,25.0,25.0,12.5,First 11
-Responder 22,Medical Student,First responder master registry v2.0/22.03.15.1505.csv,22.03.15.1505.csv,1046b7d9-5848-41b5-9438-cf0dc4dc6cbe,552086,301066,13828.6,45.45454545454545,33.3,11.1,0.0,First 11
-Responder 23,Medical Student,First responder master registry v2.0/22.03.15.1508.csv,22.03.15.1508.csv,27c2fa44-ba05-417c-ae95-317b06870dc9,824136,514962,78977.6,72.72727272727273,0.0,27.3,0.0,First 11
-Responder 24,EM Resident,First responder master registry v2.0/22.03.16.0844r.csv,22.03.16.0844.csv,daca96a3-b61d-4087-9747-cea6fd7e3a43,657124,557983,14436.4,81.81818181818181,9.1,9.1,0.0,First 11
-Responder 25,EM Resident,First responder master registry v2.0/22.03.16.0852.csv,22.03.16.0852.csv,321db911-0ed9-421a-9219-bb02038ac660,615663,574558,151695.0,72.72727272727273,18.2,9.1,0.0,First 11
-Responder 26,EM Resident,First responder master registry v2.0/22.03.16.0901r.csv,22.03.16.0901r.csv,ce41d7c3-9e24-4840-865f-3b7f7cd828f7,488626,321956,12405.0,63.63636363636363,27.3,9.1,0.0,First 11
-Responder 27,EM Resident,First responder master registry v2.0/22.03.16.0910.csv,22.03.16.0910.csv,a437d61b-adad-424f-9714-83382548fda2,527634,411249,20593.8,81.81818181818181,9.1,9.1,0.0,First 11
-Responder 28,EM Resident,First responder master registry v2.0/22.03.16.0917r.csv,22.03.16.0917r.csv,67ed9702-0908-454a-8069-7ca4a6f2bee9,323859,170527,6267.2,54.54545454545455,9.1,36.4,0.0,First 11
-Responder 29,EM Resident,First responder master registry v2.0/22.03.16.0931r.csv,22.03.16.0931r.csv,d8c6bf18-14e3-45f2-bfa1-9a904cb4b82b,461207,377263,44746.2,90.9090909090909,0.0,9.1,0.0,First 11
-Responder 30,EM Resident,First responder master registry v2.0/22.03.16.0944.csv,22.03.16.0944.csv,b26d61b8-9027-4b16-ba3b-bc337bc6e681,388061,262792,20844.0,90.9090909090909,0.0,9.1,0.0,First 11
+Responder 22,Medical Student,First responder master registry v2.0/22.03.15.1505.csv,22.03.15.1505.csv,1046b7d9-5848-41b5-9438-cf0dc4dc6cbe,552086,301066,13828.6,54.54545454545455,33.3,0.0,0.0,First 11
+Responder 23,Medical Student,First responder master registry v2.0/22.03.15.1508.csv,22.03.15.1508.csv,27c2fa44-ba05-417c-ae95-317b06870dc9,824136,514962,78977.6,81.81818181818181,0.0,18.2,0.0,First 11
+Responder 24,EM Resident,First responder master registry v2.0/22.03.16.0844r.csv,22.03.16.0844.csv,daca96a3-b61d-4087-9747-cea6fd7e3a43,657124,557983,14436.4,90.9090909090909,9.1,0.0,0.0,First 11
+Responder 25,EM Resident,First responder master registry v2.0/22.03.16.0852.csv,22.03.16.0852.csv,321db911-0ed9-421a-9219-bb02038ac660,615663,574558,151695.0,63.63636363636363,27.3,9.1,0.0,First 11
+Responder 26,EM Resident,First responder master registry v2.0/22.03.16.0901r.csv,22.03.16.0901r.csv,ce41d7c3-9e24-4840-865f-3b7f7cd828f7,488626,321956,12405.0,72.72727272727273,27.3,0.0,0.0,First 11
+Responder 27,EM Resident,First responder master registry v2.0/22.03.16.0910.csv,22.03.16.0910.csv,a437d61b-adad-424f-9714-83382548fda2,527634,411249,20593.8,72.72727272727273,18.2,9.1,0.0,First 11
+Responder 28,EM Resident,First responder master registry v2.0/22.03.16.0917r.csv,22.03.16.0917r.csv,67ed9702-0908-454a-8069-7ca4a6f2bee9,323859,170527,6267.2,63.63636363636363,9.1,27.3,0.0,First 11
+Responder 29,EM Resident,First responder master registry v2.0/22.03.16.0931r.csv,22.03.16.0931r.csv,d8c6bf18-14e3-45f2-bfa1-9a904cb4b82b,461207,377263,44746.2,81.81818181818181,9.1,9.1,0.0,First 11
+Responder 30,EM Resident,First responder master registry v2.0/22.03.16.0944.csv,22.03.16.0944.csv,b26d61b8-9027-4b16-ba3b-bc337bc6e681,388061,262792,20844.0,100.0,0.0,0.0,0.0,First 11
 Responder 31,EM Resident,First responder master registry v2.0/22.03.16.0955r.csv,22.03.16.0955r.csv,75b3227f-2f3c-4fe0-b9b8-9e0fe3baa210,685982,675510,101435.2,63.63636363636363,0.0,12.5,0.0,First 11
-Responder 32,EM Resident,First responder master registry v2.0/22.03.16.1012.csv,22.03.16.1012.csv,33b51683-fa6a-4dd3-82e5-de08bcc17c14,413487,313956,59637.6,45.45454545454545,9.1,27.3,18.2,First 11
+Responder 32,EM Resident,First responder master registry v2.0/22.03.16.1012.csv,22.03.16.1012.csv,33b51683-fa6a-4dd3-82e5-de08bcc17c14,413487,313956,59637.6,54.54545454545455,9.1,18.2,18.2,First 11
 Responder 33,EM Resident,First responder master registry v2.0/22.03.16.1019r.csv,22.03.16.1019r.csv,5c720560-85f5-4bb1-9aa5-41207f6259a2,503603,444171,26812.0,45.45454545454545,25.0,0.0,12.5,First 11
 Responder 34,EM Resident,First responder master registry v2.0/22.03.16.1027.csv,22.03.16.1027.csv,26f08763-076e-4531-a6f7-f00232f664bd,291709,290956,65908.8,54.54545454545455,0.0,12.5,12.5,First 11
-Responder 35,EM Resident,First responder master registry v2.0/22.03.16.1039r.csv,22.03.16.1039r.csv,009b848c-ea64-4f22-bd40-711213a3d327,668415,322897,83673.0,63.63636363636363,18.2,18.2,0.0,First 11
-Responder 36,EM Resident,First responder master registry v2.0/22.03.16.1047.csv,22.03.16.1047.csv,1044049f-c7e0-4a16-98d3-e3826b4b8bfc,520167,371822,56520.4,63.63636363636363,9.1,18.2,9.1,First 11
+Responder 35,EM Resident,First responder master registry v2.0/22.03.16.1039r.csv,22.03.16.1039r.csv,009b848c-ea64-4f22-bd40-711213a3d327,668415,322897,83673.0,72.72727272727273,18.2,9.1,0.0,First 11
+Responder 36,EM Resident,First responder master registry v2.0/22.03.16.1047.csv,22.03.16.1047.csv,1044049f-c7e0-4a16-98d3-e3826b4b8bfc,520167,371822,56520.4,54.54545454545455,18.2,18.2,9.1,First 11
 Responder 37,EM Resident,First responder master registry v2.0/22.03.16.1104r.csv,22.03.16.1104r.csv,0d3e0c62-db52-40f9-9ee8-7fc84a1dcbf2,501693,393141,29854.2,63.63636363636363,27.3,0.0,9.1,First 11
-Responder 38,EM Resident,First responder master registry v2.0/22.03.16.1108.csv,22.03.16.1108.csv,09f30ce2-1507-4ef1-84f1-3dfb3e6d9b86,454873,434341,100523.4,72.72727272727273,10.0,10.0,0.0,First 11
-Responder 39,EM Resident,First responder master registry v2.0/22.03.16.1123r.csv,22.03.16.1123r.csv,24205a11-9e21-44b7-a565-985454c90776,459490,400144,130362.8,63.63636363636363,10.0,10.0,10.0,First 11
-Responder 40,EM Resident,First responder master registry v2.0/22.03.16.1124.csv,22.03.16.1124.csv,991af001-9414-4a2d-8079-0663c4ddb1e4,649185,462280,32394.0,81.81818181818181,10.0,0.0,0.0,First 11
-Responder 41,EM Resident,First responder master registry v2.0/22.03.16.1141r.csv,22.03.16.1141r.csv,46c273a6-b8be-46ea-96cd-72903780d43d,459383,409061,79614.2,81.81818181818181,9.1,0.0,9.1,First 11
-Responder 42,EM Resident,First responder master registry v2.0/22.03.16.1146.csv,22.03.16.1146.csv,a98adcc8-6df3-470d-961d-8248246472ca,524762,373299,35313.0,63.63636363636363,0.0,9.1,27.3,First 11
+Responder 38,EM Resident,First responder master registry v2.0/22.03.16.1108.csv,22.03.16.1108.csv,09f30ce2-1507-4ef1-84f1-3dfb3e6d9b86,454873,434341,100523.4,63.63636363636363,20.0,10.0,0.0,First 11
+Responder 39,EM Resident,First responder master registry v2.0/22.03.16.1123r.csv,22.03.16.1123r.csv,24205a11-9e21-44b7-a565-985454c90776,459490,400144,130362.8,72.72727272727273,10.0,0.0,10.0,First 11
+Responder 40,EM Resident,First responder master registry v2.0/22.03.16.1124.csv,22.03.16.1124.csv,991af001-9414-4a2d-8079-0663c4ddb1e4,649185,462280,32394.0,72.72727272727273,20.0,0.0,0.0,First 11
+Responder 41,EM Resident,First responder master registry v2.0/22.03.16.1141r.csv,22.03.16.1141r.csv,46c273a6-b8be-46ea-96cd-72903780d43d,459383,409061,79614.2,72.72727272727273,18.2,0.0,9.1,First 11
+Responder 42,EM Resident,First responder master registry v2.0/22.03.16.1146.csv,22.03.16.1146.csv,a98adcc8-6df3-470d-961d-8248246472ca,524762,373299,35313.0,54.54545454545455,9.1,9.1,27.3,First 11
 Responder 43,EM Resident,First responder master registry v2.0/22.03.16.1156r.csv,22.03.16.1156r.csv,b541f5c9-93fe-4ef3-9fe7-38493b8aa8a8,486541,305086,34259.8,63.63636363636363,0.0,10.0,20.0,First 11
-Responder 44,EM Resident,First responder master registry v2.0/22.03.16.1204.csv,22.03.16.1204.csv,e353eee2-a630-40cd-b931-a98b12edd9b6,532007,510905,70366.2,81.81818181818181,10.0,0.0,0.0,First 11
+Responder 44,EM Resident,First responder master registry v2.0/22.03.16.1204.csv,22.03.16.1204.csv,e353eee2-a630-40cd-b931-a98b12edd9b6,532007,510905,70366.2,72.72727272727273,20.0,0.0,0.0,First 11
 Responder 45,EM Resident,First responder master registry v2.0/22.03.16.1215r.csv,22.03.16.1215r.csv,0b1d6253-9c4f-43b7-8217-6f0e486aabe7,721147,557553,108786.0,72.72727272727273,10.0,10.0,0.0,First 11
-Responder 46,EM Resident,First responder master registry v2.0/22.03.16.1221.csv,22.03.16.1221.csv,09024025-1320-4891-aefa-a497744ed3e2,534911,406196,48226.0,72.72727272727273,0.0,18.2,9.1,First 11
-Responder 47,EM Resident,First responder master registry v2.0/22.03.16.1239.csv,22.03.16.1239.csv,578a0cfc-a256-4002-ba75-4a61d700204e,719775,562422,40210.8,90.9090909090909,0.0,0.0,9.1,First 11
-Responder 48,EM Resident,First responder master registry v2.0/22.03.16.1253.csv,22.03.16.1253.csv,b1ebfdc9-6338-4b80-ba76-947f8690bd91,440597,380812,28166.0,54.54545454545455,10.0,10.0,20.0,First 11
+Responder 46,EM Resident,First responder master registry v2.0/22.03.16.1221.csv,22.03.16.1221.csv,09024025-1320-4891-aefa-a497744ed3e2,534911,406196,48226.0,81.81818181818181,0.0,9.1,9.1,First 11
+Responder 47,EM Resident,First responder master registry v2.0/22.03.16.1239.csv,22.03.16.1239.csv,578a0cfc-a256-4002-ba75-4a61d700204e,719775,562422,40210.8,81.81818181818181,9.1,0.0,9.1,First 11
+Responder 48,EM Resident,First responder master registry v2.0/22.03.16.1253.csv,22.03.16.1253.csv,b1ebfdc9-6338-4b80-ba76-947f8690bd91,440597,380812,28166.0,45.45454545454545,20.0,10.0,20.0,First 11
 Responder 49,Paramedic,First responder master registry v2.0/23.03.03.1047.csv,23.03.03.1047.csv,ce1350af-79e6-475b-9c07-802b5ff5ca0a,380040,293597,5917.0,81.81818181818181,9.1,9.1,0.0,First 11
 Responder 50,Paramedic,First responder master registry v2.0/23.03.03.1102.csv,23.03.03.1102.csv,d4f8b28e-a0a3-4969-a156-5bf86e4794ba,391842,120798,5625.75,81.81818181818181,9.1,9.1,0.0,First 11
 Responder 51,EMT-Basic,First responder master registry v2.0/23.03.03.1117.csv,23.03.03.1117.csv,5c8b0274-379c-40ca-b6ff-b846f9e14ad5,571230,265461,17474.0,72.72727272727273,9.1,9.1,9.1,First 11
