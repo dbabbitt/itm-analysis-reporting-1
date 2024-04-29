@@ -761,7 +761,7 @@ class TestGetActualAndIdealSequences(unittest.TestCase):
         })
 
     def test_get_actual_and_ideal_sequences(self):
-        actual_sequence, ideal_sequence, sort_dict = fu.get_actual_and_ideal_sequences(self.scene_df)
+        actual_sequence, ideal_sequence, sort_dict = fu.get_actual_and_ideal_patient_sort_sequences(self.scene_df)
         
         # Expected results
         expected_actual_sequence = pd.Series(data=[336847, 346066, 384722, 409276, 438270, 607365], index=[0, 5, 1, 2, 3, 4])
@@ -775,7 +775,7 @@ class TestGetActualAndIdealSequences(unittest.TestCase):
 
 class TestGetMeasureOfRightOrdering(unittest.TestCase):
 
-    @patch('choropleth_utils.get_actual_and_ideal_sequences')  # Patch the dependency
+    @patch('fu.get_actual_and_ideal_patient_sort_sequences')  # Patch the dependency
     def test_empty_dataframe(self, mock_get_sequences):
         # Mock the return values of the dependency
         mock_get_sequences.return_value = pd.Series(), pd.Series(), None
@@ -788,7 +788,7 @@ class TestGetMeasureOfRightOrdering(unittest.TestCase):
         self.assertEqual(measure, np.nan)
         self.assertFalse(mock_get_sequences.called)
 
-    @patch('choropleth_utils.get_actual_and_ideal_sequences')
+    @patch('fu.get_actual_and_ideal_patient_sort_sequences')
     def test_successful_calculation(self, mock_get_sequences):
         # Mock the return values of the dependency
         ideal_sequence = pd.Series([1, 2, 3, 4])
@@ -804,7 +804,7 @@ class TestGetMeasureOfRightOrdering(unittest.TestCase):
         self.assertAlmostEqual(measure, 0.75)  # Assuming some calculated R-squared adjusted value
         mock_get_sequences.assert_called_once_with(df, False)
 
-    @patch('choropleth_utils.get_actual_and_ideal_sequences')
+    @patch('fu.get_actual_and_ideal_patient_sort_sequences')
     def test_exception_handling(self, mock_get_sequences):
         # Mock the dependency to raise an exception
         mock_get_sequences.side_effect = Exception("Error during sequence generation")
