@@ -222,3 +222,4 @@ saves/csv/metrics_evaluation_open_world_df.csv
 saves/csv/metrics_evaluation_open_world_df.csv
 saves/csv/ow_participant_scenes_df.csv
 saves/csv/ow_participants_df.csv
+saves/pkl/ow_participants_df.pkl

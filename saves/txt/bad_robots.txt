@@ -1,0 +1,585 @@
+
+
+
+11 patients in 22.03.15.1505.csv with 45.5% correctly tagged and 9 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Gary_1 Root	Medical Student	1	green	EXPECTANT	gray	False
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Gloria_6 Root	Medical Student	1	red	DELAYED	yellow	False
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Gloria_8 Root	Medical Student	1	green	DELAYED	yellow	False
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Lily_2 Root	Medical Student	1		IMMEDIATE	red	False
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Mike_7 Root	Medical Student	1	red	DELAYED	yellow	False
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Gary_3 Root	Medical Student	1	red	IMMEDIATE	red	True
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Helga_10 Root	Medical Student	1	green	MINIMAL	green	True
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Lily_4 Root	Medical Student	1	red	IMMEDIATE	red	True
+1046b7d9-5848-41b5-9438-cf0dc4dc6cbe	0	Mike_5 Root	Medical Student	1	red	IMMEDIATE	red	True
+
+action_tick	tag_applied_type	patient_id
+64367	red	Mike_5 Root
+136993	gray	Gloria_8 Root
+138357	green	Gloria_8 Root
+141170	gray	Gloria_8 Root
+144346	green	Gloria_8 Root
+175539	green	Helga_10 Root
+218142	gray	Gary_1 Root
+231653	red	Lily_4 Root
+253201	red	Mike_7 Root
+307675	red	Gloria_6 Root
+308621	red	Gloria_6 Root
+387790	red	Gary_3 Root
+408204	red	Bob_0 Root
+422602	black	Bob_0 Root
+517338	black	Gary_1 Root
+519011	black	Gary_1 Root
+520182	black	Gary_1 Root
+520513	black	Gary_1 Root
+521099	black	Gary_1 Root
+526418	green	Gary_1 Root
+
+
+11 patients in 23.07.25.1206.csv with 45.5% correctly tagged and 8 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Gary_9 Root	Paramedic	1		MINIMAL	green	False
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Gloria_8 Root	Paramedic	1		MINIMAL	green	False
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Helga_10 Root	Paramedic	1		MINIMAL	green	False
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Lily_2 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Lily_4 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Mike_5 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Bob_0 Root	Paramedic	1	black	DEAD	black	True
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Gary_1 Root	Paramedic	1	gray	EXPECTANT	gray	True
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Gary_3 Root	Paramedic	1	red	IMMEDIATE	red	True
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Gloria_6 Root	Paramedic	1	yellow	DELAYED	yellow	True
+1507bc88-8d4c-4c1c-9291-210f790c96e3	0	Mike_7 Root	Paramedic	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+97371	gray	Gary_1 Root
+145895	black	Bob_0 Root
+194940	red	Gary_3 Root
+235459	yellow	Gloria_6 Root
+287338	yellow	Lily_4 Root
+339246	yellow	Lily_2 Root
+367622	yellow	Mike_7 Root
+403188	yellow	Mike_5 Root
+
+
+11 patients in 22.03.15.1106r.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Gary_1 Root	Medical Student	1	black	EXPECTANT	gray	False
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Gary_3 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Lily_2 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Lily_4 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Mike_5 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Mike_7 Root	Medical Student	1	green	DELAYED	yellow	False
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Bob_9 Root	Medical Student	1	green	MINIMAL	green	True
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Gloria_6 Root	Medical Student	1	yellow	DELAYED	yellow	True
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Gloria_8 Root	Medical Student	1	yellow	DELAYED	yellow	True
+22e2c9a3-b93f-4f7f-896a-ca188c78505b	0	Helga_10 Root	Medical Student	1	green	MINIMAL	green	True
+
+action_tick	tag_applied_type	patient_id
+230211	black	Bob_0 Root
+246873	red	Gary_1 Root
+373419	gray	Gary_1 Root
+388089	red	Lily_4 Root
+425578	yellow	Lily_4 Root
+446157	yellow	Mike_7 Root
+462100	yellow	Mike_7 Root
+468403	green	Mike_7 Root
+488461	yellow	Gloria_6 Root
+525529	yellow	Gary_3 Root
+532348	red	Gary_3 Root
+559297	yellow	Mike_5 Root
+576416	yellow	Lily_2 Root
+608004	yellow	Gloria_8 Root
+622853	green	Helga_10 Root
+635552	gray	Bob_9 Root
+639039	gray	Bob_9 Root
+640700	green	Bob_9 Root
+680966	yellow	Gary_3 Root
+778355	black	Gary_1 Root
+
+
+11 patients in 22.03.15.1427.csv with 27.3% correctly tagged and 7 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Gary_1 Root	Medical Student	1	black	EXPECTANT	gray	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Gloria_6 Root	Medical Student	1	gray	DELAYED	yellow	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Gloria_8 Root	Medical Student	1		DELAYED	yellow	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Lily_2 Root	Medical Student	1		IMMEDIATE	red	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Lily_4 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Mike_5 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Gary_3 Root	Medical Student	1	red	IMMEDIATE	red	True
+2d26ca7b-1dbb-42e4-9bbf-bf0d131e2e06	0	Mike_7 Root	Medical Student	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+75385	yellow	Mike_7 Root
+77162	yellow	Mike_7 Root
+80197	yellow	Lily_4 Root
+91616	red	Mike_7 Root
+91839	red	Mike_7 Root
+94093	yellow	Gloria_6 Root
+98272	yellow	Mike_7 Root
+101725	yellow	Mike_5 Root
+144085	red	Gary_3 Root
+146505	red	Gary_3 Root
+179921	black	Bob_0 Root
+235227	gray	Gary_1 Root
+255893	black	Gary_1 Root
+462978	gray	Gloria_6 Root
+
+
+11 patients in 23.03.03.1152.csv with 9.1% correctly tagged and 5 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Bob_0 Root	Paramedic	1	gray	DEAD	black	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Gary_3 Root	Paramedic	1	gray	IMMEDIATE	red	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Gary_9 Root	Paramedic	1	red	MINIMAL	green	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Gloria_6 Root	Paramedic	1		DELAYED	yellow	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Gloria_8 Root	Paramedic	1	yellow	MINIMAL	green	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Helga_10 Root	Paramedic	1		MINIMAL	green	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Lily_2 Root	Paramedic	1		IMMEDIATE	red	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Lily_4 Root	Paramedic	1		IMMEDIATE	red	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Mike_5 Root	Paramedic	1		IMMEDIATE	red	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Mike_7 Root	Paramedic	1		DELAYED	yellow	False
+30a49dd8-c08a-4994-a622-57647670b5bb	0	Gary_1 Root	Paramedic	1	gray	EXPECTANT	gray	True
+
+action_tick	tag_applied_type	patient_id
+395501	red	Gary_3 Root
+418092	red	Gary_9 Root
+447083	gray	Gary_1 Root
+493502	gray	Bob_0 Root
+670219	gray	Gary_3 Root
+787292	yellow	Gloria_8 Root
+
+
+11 patients in 22.03.16.1012.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Gary_1 Root	EM Resident	1	black	EXPECTANT	gray	False
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Gary_3 Root	EM Resident	1	gray	IMMEDIATE	red	False
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Gloria_6 Root	EM Resident	1	red	DELAYED	yellow	False
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Gloria_8 Root	EM Resident	1	green	DELAYED	yellow	False
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Lily_2 Root	EM Resident	1	yellow	IMMEDIATE	red	False
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Lily_4 Root	EM Resident	1	yellow	IMMEDIATE	red	False
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Bob_0 Root	EM Resident	1	black	DEAD	black	True
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Bob_9 Root	EM Resident	1	green	MINIMAL	green	True
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Helga_10 Root	EM Resident	1	green	MINIMAL	green	True
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Mike_5 Root	EM Resident	1	red	IMMEDIATE	red	True
+33b51683-fa6a-4dd3-82e5-de08bcc17c14	0	Mike_7 Root	EM Resident	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+69279	gray	Gary_3 Root
+99334	black	Bob_0 Root
+127666	black	Gary_1 Root
+132268	black	Gary_1 Root
+176504	yellow	Lily_2 Root
+201924	red	Mike_5 Root
+241349	yellow	Mike_7 Root
+272020	red	Lily_4 Root
+273882	yellow	Lily_4 Root
+318811	red	Gloria_6 Root
+351687	yellow	Gloria_8 Root
+353307	green	Gloria_8 Root
+366571	green	Helga_10 Root
+383556	green	Bob_9 Root
+
+
+11 patients in 22.03.15.1446.csv with 27.3% correctly tagged and 8 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Gary_1 Root	Medical Student	1	red	EXPECTANT	gray	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Gloria_6 Root	Medical Student	1	red	DELAYED	yellow	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Gloria_8 Root	Medical Student	1		DELAYED	yellow	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Lily_2 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Lily_4 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Mike_5 Root	Medical Student	1	gray	IMMEDIATE	red	False
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Gary_3 Root	Medical Student	1	red	IMMEDIATE	red	True
+38b995b3-fb77-4fda-b0b4-21f062ed6a38	0	Mike_7 Root	Medical Student	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+158178	red	Gary_1 Root
+160395	gray	Gary_1 Root
+161313	green	Gary_1 Root
+162758	gray	Gary_1 Root
+212660	red	Bob_0 Root
+227982	black	Bob_0 Root
+230377	black	Bob_0 Root
+233515	green	Bob_0 Root
+242890	black	Lily_4 Root
+244955	black	Bob_0 Root
+253231	red	Gloria_6 Root
+391057	red	Gary_3 Root
+453734	yellow	Mike_5 Root
+488716	gray	Mike_5 Root
+519129	gray	Mike_5 Root
+554803	yellow	Lily_2 Root
+623250	yellow	Mike_7 Root
+681387	yellow	Lily_4 Root
+717934	red	Gary_1 Root
+
+
+11 patients in 23.08.09.0800.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Gary_3 Root	Paramedic	1	gray	IMMEDIATE	red	False
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Gary_9 Root	Paramedic	1	yellow	MINIMAL	green	False
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Gloria_8 Root	Paramedic	1	yellow	MINIMAL	green	False
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Lily_2 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Lily_4 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Mike_5 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Bob_0 Root	Paramedic	1	black	DEAD	black	True
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Gary_1 Root	Paramedic	1	gray	EXPECTANT	gray	True
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Gloria_6 Root	Paramedic	1	yellow	DELAYED	yellow	True
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Helga_10 Root	Paramedic	1	green	MINIMAL	green	True
+445ceb23-1514-4490-9aa6-f2fc55b5d28e	0	Mike_7 Root	Paramedic	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+61395	gray	Gary_3 Root
+83149	gray	Gary_1 Root
+100839	black	Bob_0 Root
+124276	yellow	Gloria_6 Root
+161033	yellow	Mike_7 Root
+174336	yellow	Lily_2 Root
+223730	yellow	Lily_4 Root
+279244	yellow	Mike_5 Root
+307359	yellow	Gary_9 Root
+337651	yellow	Gloria_8 Root
+351301	green	Helga_10 Root
+
+
+11 patients in 23.05.09.1012.csv with 27.3% correctly tagged and 9 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Gary_1 Root	Paramedic	1	black	EXPECTANT	gray	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Gary_3 Root	Paramedic	1	gray	IMMEDIATE	red	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Gary_9 Root	Paramedic	1	yellow	MINIMAL	green	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Gloria_6 Root	Paramedic	1	red	DELAYED	yellow	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Gloria_8 Root	Paramedic	1	yellow	MINIMAL	green	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Helga_10 Root	Paramedic	1		MINIMAL	green	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Lily_2 Root	Paramedic	1		IMMEDIATE	red	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Mike_7 Root	Paramedic	1	red	DELAYED	yellow	False
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Bob_0 Root	Paramedic	1	black	DEAD	black	True
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Lily_4 Root	Paramedic	1	red	IMMEDIATE	red	True
+52e2653e-2230-4d8a-929b-e2a12dcb56c4	0	Mike_5 Root	Paramedic	1	red	IMMEDIATE	red	True
+
+action_tick	tag_applied_type	patient_id
+313104	gray	Gary_3 Root
+335330	black	Gary_1 Root
+358177	black	Bob_0 Root
+395183	red	Lily_4 Root
+498871	red	Mike_7 Root
+529448	red	Gloria_6 Root
+564232	red	Mike_5 Root
+595634	black	Gary_1 Root
+632778	yellow	Gloria_8 Root
+655337	yellow	Gary_9 Root
+
+
+11 patients in 22.03.16.1019r.csv with 45.5% correctly tagged and 8 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Bob_9 Root	EM Resident	1		MINIMAL	green	False
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Gary_3 Root	EM Resident	1	gray	IMMEDIATE	red	False
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Gloria_6 Root	EM Resident	1	red	DELAYED	yellow	False
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Gloria_8 Root	EM Resident	1		DELAYED	yellow	False
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Helga_10 Root	EM Resident	1		MINIMAL	green	False
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Mike_7 Root	EM Resident	1	red	DELAYED	yellow	False
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Bob_0 Root	EM Resident	1	black	DEAD	black	True
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Gary_1 Root	EM Resident	1	gray	EXPECTANT	gray	True
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Lily_2 Root	EM Resident	1	red	IMMEDIATE	red	True
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Lily_4 Root	EM Resident	1	red	IMMEDIATE	red	True
+5c720560-85f5-4bb1-9aa5-41207f6259a2	0	Mike_5 Root	EM Resident	1	red	IMMEDIATE	red	True
+
+action_tick	tag_applied_type	patient_id
+335010	gray	Gary_3 Root
+335818	gray	Gary_3 Root
+336793	gray	Gary_3 Root
+338599	gray	Gary_3 Root
+360910	red	Gary_3 Root
+362887	gray	Gary_3 Root
+393774	black	Bob_0 Root
+423986	gray	Gary_1 Root
+493660	red	Lily_2 Root
+496222	gray	Lily_2 Root
+507472	red	Lily_2 Root
+560802	red	Mike_7 Root
+592160	red	Lily_4 Root
+599037	gray	Lily_4 Root
+600817	red	Lily_4 Root
+613908	yellow	Mike_7 Root
+615688	green	Mike_7 Root
+620673	red	Mike_7 Root
+649692	green	Gloria_6 Root
+653898	red	Gloria_6 Root
+686479	red	Mike_5 Root
+
+
+11 patients in 23.04.25.1031.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Gary_1 Root	EMT-Basic	1	black	EXPECTANT	gray	False
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Gary_9 Root	EMT-Basic	1	yellow	MINIMAL	green	False
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Gloria_6 Root	EMT-Basic	1	green	DELAYED	yellow	False
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Helga_10 Root	EMT-Basic	1	yellow	MINIMAL	green	False
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Lily_4 Root	EMT-Basic	1	green	IMMEDIATE	red	False
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Mike_7 Root	EMT-Basic	1	red	DELAYED	yellow	False
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Bob_0 Root	EMT-Basic	1	black	DEAD	black	True
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Gary_3 Root	EMT-Basic	1	red	IMMEDIATE	red	True
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Gloria_8 Root	EMT-Basic	1	green	MINIMAL	green	True
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Lily_2 Root	EMT-Basic	1	red	IMMEDIATE	red	True
+84282ed0-0e63-44e0-8b39-5156e3c868d0	0	Mike_5 Root	EMT-Basic	1	red	IMMEDIATE	red	True
+
+action_tick	tag_applied_type	patient_id
+522768	red	Bob_0 Root
+611506	red	Gary_1 Root
+646089	black	Gary_1 Root
+664361	black	Bob_0 Root
+715607	yellow	Gary_9 Root
+762717	red	Gary_3 Root
+794134	red	Lily_2 Root
+823507	red	Mike_5 Root
+863275	red	Mike_7 Root
+903076	green	Gloria_6 Root
+935491	green	Lily_4 Root
+976614	green	Gloria_8 Root
+1021477	yellow	Helga_10 Root
+
+
+11 patients in 22.03.15.0946.csv with 18.2% correctly tagged and 0 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Bob_0 Root	Medical Student	1		DEAD	black	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gary_1 Root	Medical Student	1		EXPECTANT	gray	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gary_3 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gary_3 Root	Medical Student	1	black	IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gloria_6 Root	Medical Student	1	green	DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gloria_6 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gloria_8 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gloria_8 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Lily_2 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Lily_2 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Lily_4 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Mike_5 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Mike_5 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Mike_7 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gary_1 Root	Medical Student	1	gray	EXPECTANT	gray	True
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Lily_4 Root	Medical Student	1	red	IMMEDIATE	red	True
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Mike_7 Root	Medical Student	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+
+
+11 patients in 22.03.15.0946.csv with 18.2% correctly tagged and 8 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Bob_0 Root	Medical Student	1		DEAD	black	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gary_1 Root	Medical Student	1		EXPECTANT	gray	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gary_3 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gary_3 Root	Medical Student	1	black	IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gloria_6 Root	Medical Student	1	green	DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gloria_6 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gloria_8 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Gloria_8 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Lily_2 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Lily_2 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Lily_4 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Mike_5 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Mike_5 Root	Medical Student	1		IMMEDIATE	red	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	0	Mike_7 Root	Medical Student	1		DELAYED	yellow	False
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Gary_1 Root	Medical Student	1	gray	EXPECTANT	gray	True
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Lily_4 Root	Medical Student	1	red	IMMEDIATE	red	True
+9a6d2f32-10fb-40ea-bacc-dd6a7d2f4a13	1	Mike_7 Root	Medical Student	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+286171	black	Gary_3 Root
+288984	black	Gary_3 Root
+311994	black	Bob_0 Root
+397148	gray	Gary_1 Root
+438704	red	Lily_4 Root
+440172	yellow	Lily_4 Root
+454243	red	Lily_4 Root
+479563	yellow	Mike_7 Root
+513648	green	Gloria_6 Root
+557286	red	Mike_5 Root
+558415	yellow	Mike_5 Root
+593332	red	Lily_2 Root
+605498	yellow	Lily_2 Root
+
+
+11 patients in 22.03.15.1337.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Gary_3 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Gloria_8 Root	Medical Student	1	green	DELAYED	yellow	False
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Helga_10 Root	Medical Student	1	gray	MINIMAL	green	False
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Lily_2 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Lily_4 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Mike_5 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Bob_9 Root	Medical Student	1	green	MINIMAL	green	True
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Gary_1 Root	Medical Student	1	gray	EXPECTANT	gray	True
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Gloria_6 Root	Medical Student	1	yellow	DELAYED	yellow	True
+9cd41444-4813-45a8-81d0-a1d068184c8e	0	Mike_7 Root	Medical Student	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+97195	black	Bob_0 Root
+123369	gray	Gary_1 Root
+163308	red	Gary_3 Root
+205717	yellow	Gary_3 Root
+249493	yellow	Lily_2 Root
+268179	yellow	Gloria_6 Root
+304610	yellow	Mike_7 Root
+337298	yellow	Mike_5 Root
+357545	yellow	Lily_4 Root
+409896	green	Gloria_8 Root
+421789	gray	Helga_10 Root
+443566	gray	Bob_9 Root
+446323	green	Bob_9 Root
+
+
+11 patients in 22.03.15.1356.csv with 45.5% correctly tagged and 9 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+9e0f8037-329b-496a-817a-daae83aa941f	0	Bob_0 Root	Medical Student	1	gray	DEAD	black	False
+9e0f8037-329b-496a-817a-daae83aa941f	0	Bob_9 Root	Medical Student	1		MINIMAL	green	False
+9e0f8037-329b-496a-817a-daae83aa941f	0	Gary_1 Root	Medical Student	1	red	EXPECTANT	gray	False
+9e0f8037-329b-496a-817a-daae83aa941f	0	Gloria_8 Root	Medical Student	1	green	DELAYED	yellow	False
+9e0f8037-329b-496a-817a-daae83aa941f	0	Helga_10 Root	Medical Student	1		MINIMAL	green	False
+9e0f8037-329b-496a-817a-daae83aa941f	0	Mike_7 Root	Medical Student	1	red	DELAYED	yellow	False
+9e0f8037-329b-496a-817a-daae83aa941f	0	Gary_3 Root	Medical Student	1	red	IMMEDIATE	red	True
+9e0f8037-329b-496a-817a-daae83aa941f	0	Gloria_6 Root	Medical Student	1	yellow	DELAYED	yellow	True
+9e0f8037-329b-496a-817a-daae83aa941f	0	Lily_2 Root	Medical Student	1	red	IMMEDIATE	red	True
+9e0f8037-329b-496a-817a-daae83aa941f	0	Lily_4 Root	Medical Student	1	red	IMMEDIATE	red	True
+9e0f8037-329b-496a-817a-daae83aa941f	0	Mike_5 Root	Medical Student	1	red	IMMEDIATE	red	True
+
+action_tick	tag_applied_type	patient_id
+75091	red	Gary_3 Root
+126384	gray	Gary_1 Root
+128473	red	Gary_1 Root
+130284	green	Gary_1 Root
+178295	black	Bob_0 Root
+182220	gray	Bob_0 Root
+202155	red	Gary_1 Root
+204217	yellow	Lily_4 Root
+224076	red	Lily_4 Root
+227060	green	Lily_4 Root
+237302	red	Lily_4 Root
+262113	yellow	Gloria_6 Root
+266040	gray	Gloria_6 Root
+272140	yellow	Gloria_6 Root
+295641	red	Lily_2 Root
+340986	red	Mike_7 Root
+374902	red	Mike_5 Root
+417312	yellow	Gloria_8 Root
+419483	green	Gloria_8 Root
+452207	red	Gloria_8 Root
+466046	green	Gloria_8 Root
+
+
+11 patients in 22.03.15.1316r.csv with 27.3% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Gary_1 Root	Medical Student	1	red	EXPECTANT	gray	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Gary_3 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Gloria_6 Root	Medical Student	1	green	DELAYED	yellow	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Gloria_8 Root	Medical Student	1	green	DELAYED	yellow	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Lily_2 Root	Medical Student	1	green	IMMEDIATE	red	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Lily_4 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Mike_5 Root	Medical Student	1	green	IMMEDIATE	red	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Mike_7 Root	Medical Student	1	green	DELAYED	yellow	False
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Bob_9 Root	Medical Student	1	green	MINIMAL	green	True
+9f03c005-21d8-4934-8bb9-7152347726d1	0	Helga_10 Root	Medical Student	1	green	MINIMAL	green	True
+
+action_tick	tag_applied_type	patient_id
+477030	black	Bob_0 Root
+577173	red	Gary_1 Root
+657203	yellow	Gary_3 Root
+714738	green	Mike_5 Root
+805749	green	Mike_7 Root
+811602	green	Lily_2 Root
+846327	green	Gloria_6 Root
+887970	yellow	Lily_4 Root
+914075	green	Gloria_8 Root
+918373	green	Bob_9 Root
+923129	green	Helga_10 Root
+924977	green	Helga_10 Root
+
+
+11 patients in 23.03.14.1310.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Gary_9 Root	Medical Student	1	red	MINIMAL	green	False
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Gloria_6 Root	Medical Student	1	red	DELAYED	yellow	False
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Gloria_8 Root	Medical Student	1	yellow	MINIMAL	green	False
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Lily_2 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Lily_4 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Mike_5 Root	Medical Student	1	yellow	IMMEDIATE	red	False
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Bob_0 Root	Medical Student	1	black	DEAD	black	True
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Gary_1 Root	Medical Student	1	gray	EXPECTANT	gray	True
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Gary_3 Root	Medical Student	1	red	IMMEDIATE	red	True
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Helga_10 Root	Medical Student	1	green	MINIMAL	green	True
+b97662b0-aa86-4317-adae-7bce0e065eb5	0	Mike_7 Root	Medical Student	1	yellow	DELAYED	yellow	True
+
+action_tick	tag_applied_type	patient_id
+435992	red	Gary_3 Root
+466825	black	Bob_0 Root
+496718	gray	Gary_1 Root
+527610	yellow	Lily_4 Root
+557064	yellow	Lily_2 Root
+597534	yellow	Mike_7 Root
+624778	red	Gloria_6 Root
+655337	yellow	Mike_5 Root
+668757	green	Helga_10 Root
+684034	yellow	Gloria_8 Root
+730383	red	Gary_9 Root
+
+
+11 patients in 23.08.08.0748.csv with 45.5% correctly tagged and 11 out of 11 patients logged as having a TAG_APPLIED
+
+session_uuid	scene_id	patient_id	responder_category	patient_count	last_tag	max_salt	predicted_tag	is_tag_correct
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Gary_1 Root	Paramedic	1	black	EXPECTANT	gray	False
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Gary_3 Root	Paramedic	1	gray	IMMEDIATE	red	False
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Gloria_6 Root	Paramedic	1	red	DELAYED	yellow	False
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Gloria_8 Root	Paramedic	1	yellow	MINIMAL	green	False
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Lily_4 Root	Paramedic	1	yellow	IMMEDIATE	red	False
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Mike_7 Root	Paramedic	1	red	DELAYED	yellow	False
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Bob_0 Root	Paramedic	1	black	DEAD	black	True
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Gary_9 Root	Paramedic	1	green	MINIMAL	green	True
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Helga_10 Root	Paramedic	1	green	MINIMAL	green	True
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Lily_2 Root	Paramedic	1	red	IMMEDIATE	red	True
+e8be80d7-4d11-430d-93b7-bc15e1bfb445	0	Mike_5 Root	Paramedic	1	red	IMMEDIATE	red	True
+
+action_tick	tag_applied_type	patient_id
+65995	gray	Gary_3 Root
+84490	black	Bob_0 Root
+115062	yellow	Gloria_6 Root
+120125	red	Gloria_6 Root
+153022	red	Mike_7 Root
+186067	red	Lily_2 Root
+220785	red	Mike_5 Root
+258493	yellow	Lily_4 Root
+274734	black	Gary_1 Root
+288477	green	Gary_9 Root
+329044	green	Helga_10 Root
+354507	yellow	Gloria_8 Root
