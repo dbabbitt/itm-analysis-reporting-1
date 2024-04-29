@@ -75,11 +75,12 @@ class FRVRSUtilities(object):
             'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
         ]
         
-        # List of command messages to consider as user actions
+        # List of command messages to consider as user actions; added Open World commands 20240429
+        self.command_columns_list = ['voice_command_message', 'button_command_message']
         self.command_messages_list = [
             'walk to the safe area', 'wave if you can', 'are you hurt', 'reveal injury', 'lay down', 'where are you',
             'can you hear', 'anywhere else', 'what is your name', 'hold still', 'sit up/down', 'stand up'
-        ]
+        ] + ['can you breathe', 'modbutton anywhere else', 'modbutton arms', 'modbutton groan', 'modbutton legs', 'modbutton no', 'modbutton yes', 'show me', 'stand', 'walk', 'wave']
         
         # List of action types that assume 1-to-1 interaction
         self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']
@@ -95,7 +96,7 @@ class FRVRSUtilities(object):
             'patient_demoted_id', 'patient_record_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
             's_a_l_t_walked_patient_id', 's_a_l_t_wave_if_can_patient_id', 's_a_l_t_waved_patient_id', 'patient_engaged_id',
             'pulse_taken_patient_id', 'injury_treated_patient_id', 'tool_applied_patient_id', 'tag_applied_patient_id',
-            'player_gaze_patient_id'
+            'player_gaze_patient_id', 'patient_checked_id', 'sp_o2_taken_patient_id', 'triage_level_walked_patient_id'
         ]
         
         # List of columns that contain locationIDs
@@ -104,7 +105,7 @@ class FRVRSUtilities(object):
             's_a_l_t_walk_if_can_sort_location', 's_a_l_t_walked_sort_location', 's_a_l_t_wave_if_can_sort_location',
             's_a_l_t_waved_sort_location', 'patient_engaged_position', 'bag_access_location', 'injury_treated_injury_injury_locator',
             'bag_closed_location', 'tag_discarded_location', 'tool_discarded_location', 'player_location_location',
-            'player_gaze_location'
+            'player_gaze_location', 'triage_level_walked_location'
         ]
         
         # List of columns with injuryIDs
@@ -131,7 +132,7 @@ class FRVRSUtilities(object):
         self.pulse_category_order = pd.CategoricalDtype(categories=self.patient_pulse_order, ordered=True)
         
         # Patient breath designations
-        self.breath_columns_list = ['patient_demoted_breath', 'patient_record_breath', 'patient_engaged_breath']
+        self.breath_columns_list = ['patient_demoted_breath', 'patient_record_breath', 'patient_engaged_breath', 'patient_checked_breath']
         self.patient_breath_order = ['none', 'collapsedRight', 'restricted', 'fast', 'normal']
         self.breath_category_order = pd.CategoricalDtype(categories=self.patient_breath_order, ordered=True)
         
@@ -601,25 +602,25 @@ class FRVRSUtilities(object):
         # Iterate through each patient of each scene of each session of the 11-patient data frame
         rows_list = []
         for groupby_value, groupby_df in logs_df.groupby(groupby_column):
-            for (session_uuid, scene_id, patient_id), patient_df in groupby_df.sort_values(['action_tick']).groupby(fu.patient_groupby_columns):
+            for (session_uuid, scene_id, patient_id), patient_df in groupby_df.sort_values(['action_tick']).groupby(self.patient_groupby_columns):
                 
                 # Add the groupby columns and an account of the patient's existence to the row dictionary
-                row_dict = {cn: eval(cn) for cn in fu.patient_groupby_columns}
+                row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, 'patient_id': patient_id}
                 row_dict[groupby_column] = groupby_value
                 row_dict['patient_count'] = 1
                 
                 # Add the TAG_APPLIED tag value for this patient
-                try: last_tag = fu.get_last_tag(patient_df)
+                try: last_tag = self.get_last_tag(patient_df)
                 except Exception: last_tag = np.nan
                 row_dict['last_tag'] = last_tag
                 
                 # Add the PATIENT_RECORD SALT value for this patient
-                try: max_salt = fu.get_max_salt(patient_df)
+                try: max_salt = self.get_max_salt(patient_df)
                 except Exception: max_salt = np.nan
                 row_dict['max_salt'] = max_salt
                 
                 # Add the predicted tag value for this patient based on the SALT value
-                try: predicted_tag = fu.salt_to_tag_dict.get(max_salt, np.nan)
+                try: predicted_tag = self.salt_to_tag_dict.get(max_salt, np.nan)
                 except Exception: predicted_tag = np.nan
                 row_dict['predicted_tag'] = predicted_tag
                 
@@ -631,14 +632,171 @@ class FRVRSUtilities(object):
         is_tag_correct_df = pd.DataFrame(rows_list)
         
         # Convert the tagged, SALT, and predicted tag columns to their custom categorical types
-        is_tag_correct_df.last_tag = is_tag_correct_df.last_tag.astype(fu.colors_category_order)
-        is_tag_correct_df.max_salt = is_tag_correct_df.max_salt.astype(fu.salt_category_order)
-        is_tag_correct_df.predicted_tag = is_tag_correct_df.predicted_tag.astype(fu.colors_category_order)
+        is_tag_correct_df.last_tag = is_tag_correct_df.last_tag.astype(self.colors_category_order)
+        is_tag_correct_df.max_salt = is_tag_correct_df.max_salt.astype(self.salt_category_order)
+        is_tag_correct_df.predicted_tag = is_tag_correct_df.predicted_tag.astype(self.colors_category_order)
         
         # Sort the data frame based on the custom categorical order
         is_tag_correct_df = is_tag_correct_df.sort_values('predicted_tag')
         
         return is_tag_correct_df
+    
+    
+    def get_percentage_tag_correct_data_frame(self, is_tag_correct_df, groupby_column='responder_category', verbose=False):
+        
+        # Get the percentage tag correct counts for each scene for each group
+        rows_list = []
+
+        # Loo[ through each scene and group
+        groupby_columns = ['session_uuid', 'scene_id', groupby_column]
+        for (session_uuid, scene_id, groupby_value), groupby_df in is_tag_correct_df.groupby(groupby_columns):
+            row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, groupby_column: groupby_value}
+            row_dict['percentage_tag_correct'] = 100 * groupby_df.is_tag_correct.sum() / groupby_df.patient_count.sum()
+
+            # Add the row dictionary to the list
+            rows_list.append(row_dict)
+        
+        percentage_tag_correct_df = DataFrame(rows_list)
+        
+        return percentage_tag_correct_df
+    
+    
+    def get_correct_count_by_tag_data_frame(self, tag_to_salt_df, verbose=False):
+        
+        # Non-tagged patients either don't have a SALT designation or a don't log a tagging event; tagged patients have both
+        rows_list = []
+        tagged_mask_series = tag_to_salt_df.last_tag.isnull() | tag_to_salt_df.max_salt.isnull()
+
+        # For the tagged patients, loop through each predicted tag of each scene of each session
+        groupby_columns = ['session_uuid', 'scene_id', 'predicted_tag']
+        for (session_uuid, scene_id, predicted_tag), df in tag_to_salt_df[~tagged_mask_series].groupby(groupby_columns):
+            
+            # Add the logger version, groupby columns, and scene categories to the row dictionary
+            row_dict = {}
+            for cn in groupby_columns: row_dict[cn] = eval(cn)
+            row_dict['is_scene_aborted'] = self.get_is_scene_aborted(df)
+            row_dict['scene_type'] = self.get_scene_type(df)
+
+            # Add the total and correct counts for this predicted tag of this run
+            mask_series = (df.is_tag_correct == True)
+            correct_count = df[mask_series].patient_count.sum()
+            row_dict['correct_count'] = correct_count
+            total_count = df.patient_count.sum()
+            row_dict['total_count'] = total_count
+            
+            # Add percentage that tag is correct
+            try: percentage_tag_correct = 100*correct_count/total_count
+            except Exception: percentage_tag_correct = np.nan
+            row_dict['percentage_tag_correct'] = percentage_tag_correct
+            
+            # Add the row dictionary to the list
+            rows_list.append(row_dict)
+
+        # For the not-tagged patients, just loop through each scene of each session
+        for (session_uuid, scene_id), df in tag_to_salt_df[tagged_mask_series].groupby(self.scene_groupby_columns):
+            
+            # Add the logger version, groupby columns, and scene categories to the row dictionary
+            row_dict = {}
+            for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
+            row_dict['predicted_tag'] = 'Not Tagged'
+            row_dict['is_scene_aborted'] = self.get_is_scene_aborted(df)
+            row_dict['scene_type'] = self.get_scene_type(df)
+
+            # Add the total and correct (0) counts for this run
+            mask_series = (df.is_tag_correct == True)
+            correct_count = df[mask_series].patient_count.sum()
+            row_dict['correct_count'] = correct_count
+            total_count = df.patient_count.sum()
+            row_dict['total_count'] = total_count
+            
+            # Add percentage that tag is correct (also zero)
+            try: percentage_tag_correct = 100*correct_count/total_count
+            except Exception: percentage_tag_correct = np.nan
+            row_dict['percentage_tag_correct'] = percentage_tag_correct
+            
+            # Add the row dictionary to the list
+            rows_list.append(row_dict)
+
+        # Create the correct count data frame
+        correct_count_by_tag_df = pd.DataFrame(rows_list)
+        
+        return correct_count_by_tag_df
+    
+    
+    def get_patient_stats_data_frame(self, logs_df, verbose=False):
+        rows_list = []
+        for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
+            scene_start = self.get_scene_start(scene_df)
+            for cn in ['priority_group', 'patient_sort']:
+                if cn in scene_df.columns:
+                    actual_sequence, ideal_sequence, sort_dict = eval(f'self.get_actual_and_ideal_{cn}_sequences(scene_df)')
+                    unsort_dict = {v1: k for k, v in sort_dict.items() for v1 in v}
+                    if verbose:
+                        print(cn)
+                        display(actual_sequence)
+                        display(ideal_sequence)
+                        print(sort_dict)
+                        print(unsort_dict)
+                    swaps_to_perfect_order_count = nu.count_swaps_to_perfect_order([unsort_dict[i] for i in ideal_sequence], [unsort_dict[a] for a in actual_sequence])
+                    exec(f'swaps_to_perfect_{cn}_order_count = swaps_to_perfect_order_count')
+            for (encounter_layout, patient_id), patient_df in scene_df.groupby(['encounter_layout', 'patient_id']):
+                row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, 'patient_id': patient_id, 'encounter_layout': encounter_layout}
+                for cn in ['priority_group', 'patient_sort']:
+                    if cn in scene_df.columns: row_dict[f'swaps_to_perfect_{cn}_order_count'] = eval(f'swaps_to_perfect_{cn}_order_count')
+                
+                # Get all the FRVRS utils scalar patient values
+                row_dict['first_patient_interaction'] = self.get_first_patient_interaction(patient_df)
+                row_dict['first_patient_triage'] = self.get_first_patient_triage(patient_df)
+                row_dict['is_correct_bleeding_tool_applied'] = self.get_is_correct_bleeding_tool_applied(patient_df)
+                row_dict['is_patient_dead'] = self.get_is_patient_dead(patient_df)
+                row_dict['is_patient_gazed_at'] = self.get_is_patient_gazed_at(patient_df)
+                row_dict['is_patient_severely_hemorrhaging'] = self.get_is_patient_severely_hemorrhaging(patient_df)
+                row_dict['is_patient_still'] = self.get_is_patient_still(patient_df)
+                row_dict['is_tag_correct'] = self.get_is_tag_correct(patient_df)
+                row_dict['last_patient_interaction'] = self.get_last_patient_interaction(patient_df)
+                row_dict['last_tag'] = self.get_last_tag(patient_df)
+                row_dict['max_salt'] = self.get_max_salt(patient_df, session_uuid=session_uuid, scene_id=scene_id, random_patient_id=patient_id)
+                row_dict['maximum_injury_severity'] = self.get_maximum_injury_severity(patient_df)
+                row_dict['patient_engagement_count'] = self.get_patient_engagement_count(patient_df)
+                row_dict['pulse_value'] = self.get_pulse_value(patient_df)
+                row_dict['tag_value'] = self.get_tag_value(patient_df)
+                row_dict['time_to_hemorrhage_control'] = self.get_time_to_hemorrhage_control(patient_df, scene_start)
+                mask_series = ~patient_df.injury_id.isnull()
+                if mask_series.any():
+                    injury_id = patient_df[mask_series].injury_id.iloc[-1]
+                    row_dict['treatment_value'] = self.get_treatment_value(patient_df, injury_id)
+                row_dict['wrapped_label'] = self.get_wrapped_label(patient_df)
+                
+                mask_series = ~patient_df.tag_applied_type.isnull()
+                tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
+                mask_series = ~patient_df.patient_record_salt.isnull()
+                patient_record_salt_count = patient_df[mask_series].patient_record_salt.unique().shape[0]
+                if (tag_applied_type_count > 0) and (patient_record_salt_count > 0): row_dict['tag_correct'] = self.get_is_tag_correct(patient_df)
+                else: row_dict['tag_correct'] = np.nan
+                
+                mask_series = patient_df.action_type.isin(self.action_types_list)
+                row_dict['action_count'] = patient_df[mask_series].shape[0]
+                
+                mask_series = patient_df.action_type.isin(['PATIENT_ENGAGED', 'PULSE_TAKEN'])
+                row_dict['assessment_count'] = patient_df[mask_series].shape[0]
+                
+                mask_series = patient_df.action_type.isin(['INJURY_TREATED'])
+                row_dict['treatment_count'] = patient_df[mask_series].shape[0]
+                
+                mask_series = patient_df.action_type.isin(['TAG_APPLIED'])
+                row_dict['tag_application_count'] = patient_df[mask_series].shape[0]
+                
+                if (row_dict['max_salt'] == 'EXPECTANT'):
+                    mask_series = ~patient_df.injury_treated_required_procedure.isnull() | ~patient_df.tool_applied_type.isnull()
+                    row_dict['treated_expectant'] = {True: 'yes', False: 'no'}[mask_series.any()]
+                else: row_dict['treated_expectant'] = np.nan
+                
+                rows_list.append(row_dict)
+        patient_stats_df = DataFrame(rows_list)
+        patient_stats_df.max_salt = patient_stats_df.max_salt.astype(self.salt_category_order)
+        patient_stats_df.last_tag = patient_stats_df.last_tag.astype(self.colors_category_order)
+        
+        return patient_stats_df
     
     
     ### Scene Functions ###
@@ -1324,7 +1482,7 @@ class FRVRSUtilities(object):
         return total_actions
     
     
-    def get_actual_and_ideal_sequences(self, scene_df, verbose=False):
+    def get_actual_and_ideal_patient_sort_sequences(self, scene_df, verbose=False):
         """
         Extracts the actual and ideal sequences of first interactions from a scene dataframe.
         
@@ -1356,12 +1514,11 @@ class FRVRSUtilities(object):
                 action_list = []
                 for patient_id in patient_sort_df.patient_id.unique():
                     mask_series = (scene_df.patient_id == patient_id)
-                    patient_actions_df = scene_df[mask_series]
-                    action_list.append(self.get_first_patient_triage(patient_actions_df))
+                    if mask_series.any(): action_list.append(self.get_first_patient_interaction(scene_df[mask_series]))
                 
                 # Sort the list of first interactions
                 if verbose: display(sort, action_list)
-                sort_dict[sort] = sorted([action for action in action_list if action is not None])
+                sort_dict[sort] = sorted([action for action in action_list if not pd.isna(action)])
         
         # Get the whole ideal and actual sequences
         ideal_sequence = []
@@ -1423,7 +1580,7 @@ class FRVRSUtilities(object):
         measure_of_right_ordering = np.nan
         
         # Calculate the R-squared adjusted value as a measure of right ordering
-        actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
+        actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
         measure_of_right_ordering = self.get_measure_of_ordering(actual_sequence, ideal_sequence, verbose=verbose)
         
         # If verbose is True, print additional information
@@ -1679,6 +1836,53 @@ class FRVRSUtilities(object):
         if verbose: print(f'\n\ndistracted_engagement_order: {distracted_engagement_order}')
 
         return distracted_engagement_order
+    
+    
+    def get_actual_and_ideal_priority_group_sequences(self, scene_df, verbose=False):
+        """
+        Extracts the actual and ideal sequences of first interactions from a scene dataframe.
+        
+        Parameters:
+            scene_df (pandas.DataFrame): DataFrame containing patient interactions with columns, including 'priority_group' and 'patient_id'.
+            verbose (bool, optional): Whether to print intermediate results for debugging. Defaults to False.
+        
+        Returns:
+            tuple: A tuple of three elements:
+                actual_sequence (pandas.Series): The actual sequence of first interactions, sorted.
+                ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
+                sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
+        
+        Notes:
+            Only SORT categories included in `priority_group_order` are considered.
+            None values in the resulting lists indicate missing interactions.
+        """
+        priority_group_order = [1, 2, 3]
+        
+        # Group patients by their priority group category and get lists of their elapsed times
+        sort_dict = {}
+        for sort, priority_group_df in scene_df.groupby('priority_group'):
+            
+            # Only consider SORT categories included in the priority_group_order
+            if sort in priority_group_order:
+                
+                # Loop through the SORT patients to add their first interactions to the action list
+                action_list = []
+                for patient_id in priority_group_df.patient_id.unique():
+                    mask_series = (scene_df.patient_id == patient_id)
+                    patient_actions_df = scene_df[mask_series]
+                    action_list.append(self.get_first_patient_triage(patient_actions_df))
+                
+                # Sort the list of first interactions
+                if verbose: display(sort, action_list)
+                sort_dict[sort] = sorted([action for action in action_list if action is not nan])
+        
+        # Get the whole ideal and actual sequences
+        ideal_sequence = []
+        for sort in priority_group_order: ideal_sequence.extend(sort_dict.get(sort, []))
+        ideal_sequence = Series(data=ideal_sequence)
+        actual_sequence = ideal_sequence.sort_values(ascending=True)
+        
+        return actual_sequence, ideal_sequence, sort_dict
     
     
     ### Patient Functions ###
@@ -2564,7 +2768,7 @@ class FRVRSUtilities(object):
         """
         0=All Stills not visited first, 1=All Stills visited first
         """
-        actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
+        actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
         
         # Truncate both sequences to the stills length and compare them
         still_len = len(sort_dict.get('still', []))
@@ -2579,7 +2783,7 @@ class FRVRSUtilities(object):
         """
         0=All Walkers not visited last, 1=All Walkers visited last
         """
-        actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_sequences(scene_df, verbose=verbose)
+        actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
         
         # Truncate both sequences to the walkers length and compare them
         walker_len = len(sort_dict.get('walker', []))
@@ -2821,6 +3025,9 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'patient_engaged_hearing'] = row_series[13] # hearing
             df.loc[row_index, 'patient_engaged_mood'] = row_series[14] # mood
             df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
+        elif (action_type == 'BREATHING_CHECKED'):
+            df.loc[row_index, 'patient_checked_breath'] = row_series[4]
+            df.loc[row_index, 'patient_checked_id'] = row_series[5]
         elif (action_type == 'PATIENT_RECORD'): # PatientRecord
             df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
             df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
@@ -2837,22 +3044,41 @@ class FRVRSUtilities(object):
         elif (action_type == 'PULSE_TAKEN'): # PulseTaken
             df.loc[row_index, 'pulse_taken_pulse_name'] = row_series[4] # pulseName
             df.loc[row_index, 'pulse_taken_patient_id'] = row_series[5] # patientId
+        elif (action_type == 'SP_O2_TAKEN'):
+            df.loc[row_index, 'sp_o2_taken_level'] = row_series[4]
+            df.loc[row_index, 'sp_o2_taken_patient_id'] = row_series[5]
         elif (action_type == 'S_A_L_T_WALKED'): # SALTWalked
             df.loc[row_index, 's_a_l_t_walked_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_walked_sort_command_text'] = row_series[5] # sortCommandText
-            df.loc[row_index, 's_a_l_t_walked_patient_id'] = row_series[6] # patientId
+            df.loc[row_index, 's_a_l_t_walked_patient_id'] = row_series[6]
+        elif (action_type == 'TRIAGE_LEVEL_WALKED'):
+            df.loc[row_index, 'triage_level_walked_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_walked_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_walked_patient_id'] = row_series[6]
         elif (action_type == 'S_A_L_T_WALK_IF_CAN'): # SALTWalkIfCan
             df.loc[row_index, 's_a_l_t_walk_if_can_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_walk_if_can_sort_command_text'] = row_series[5] # sortCommandText
             df.loc[row_index, 's_a_l_t_walk_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WALK_IF_CAN'):
+            df.loc[row_index, 'triage_level_walk_if_can_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_walk_if_can_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_walk_if_can_patient_id'] = row_series[6]
         elif (action_type == 'S_A_L_T_WAVED'): # SALTWave
             df.loc[row_index, 's_a_l_t_waved_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_waved_sort_command_text'] = row_series[5] # sortCommandText
             df.loc[row_index, 's_a_l_t_waved_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WAVED'):
+            df.loc[row_index, 'triage_level_waved_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_waved_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_waved_patient_id'] = row_series[6]
         elif (action_type == 'S_A_L_T_WAVE_IF_CAN'): # SALTWaveIfCan
             df.loc[row_index, 's_a_l_t_wave_if_can_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_wave_if_can_sort_command_text'] = row_series[5] # sortCommandText
             df.loc[row_index, 's_a_l_t_wave_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WAVE_IF_CAN'):
+            df.loc[row_index, 'triage_level_wave_if_can_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_wave_if_can_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_wave_if_can_patient_id'] = row_series[6]
         elif (action_type == 'TAG_APPLIED'): # TagApplied
             df.loc[row_index, 'tag_applied_patient_id'] = row_series[4] # patientId
             df.loc[row_index, 'tag_applied_type'] = row_series[5] # type
@@ -2896,6 +3122,8 @@ class FRVRSUtilities(object):
         elif (action_type == 'VOICE_COMMAND'): # VoiceCommand
             df.loc[row_index, 'voice_command_message'] = row_series[4] # Message
             df.loc[row_index, 'voice_command_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'BUTTON_CLICKED'):
+            df.loc[row_index, 'button_command_message'] = row_series[4]
         elif (action_type == 'PLAYER_LOCATION'): # PlayerLocation
             df.loc[row_index, 'player_location_location'] = row_series[4] # Location (x,y,z)
             df.loc[row_index, 'player_location_left_hand_location'] = row_series[5] # Left Hand Location (x,y,z); deactivated in v1.3
@@ -3677,6 +3905,8 @@ class FRVRSUtilities(object):
             ax.set_yticklabels(yticklabels_list);
         
         plt.show()
+        
+        return plt
     
     
     def show_gaze_timeline(

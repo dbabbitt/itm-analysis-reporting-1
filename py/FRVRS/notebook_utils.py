@@ -2712,7 +2712,7 @@ class NotebookUtilities(object):
         # Get the transformed data frame
         if transformer_name is None: transformed_df = transformable_df
         else:
-            groupby_columns = ['session_uuid', 'scene_index']
+            groupby_columns = ['session_uuid', 'scene_id']
             transformed_df = (
                 transformable_df.groupby(groupby_columns)
                 .filter(lambda df: not df[y_column_name].isnull().any())
