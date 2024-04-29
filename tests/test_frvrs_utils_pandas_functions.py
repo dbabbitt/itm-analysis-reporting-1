@@ -396,12 +396,12 @@ class TestGetElevensDataFrame(unittest.TestCase):
 
     def setUp(self):
         # Create sample DataFrames for testing
-        data_frames_list = nu.load_data_frames(
+        data_frames_dict = nu.load_data_frames(
             verbose=False, first_responder_master_registry_df='', first_responder_master_registry_file_stats_df='', first_responder_master_registry_scene_stats_df=''
         )
-        self.logs_df = data_frames_list['first_responder_master_registry_df']
-        self.file_stats_df = data_frames_list['first_responder_master_registry_file_stats_df']
-        self.scene_stats_df = data_frames_list['first_responder_master_registry_scene_stats_df']
+        self.logs_df = data_frames_dict['first_responder_master_registry_df']
+        self.file_stats_df = data_frames_dict['first_responder_master_registry_file_stats_df']
+        self.scene_stats_df = data_frames_dict['first_responder_master_registry_scene_stats_df']
 
     def test_all_columns_in_logs_df(self):
         """
