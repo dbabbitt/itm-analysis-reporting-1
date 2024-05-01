@@ -2243,6 +2243,29 @@ class NotebookUtilities(object):
         display(df)
     
     
+    @staticmethod
+    def get_numeric_columns(df, is_na_dropped=True):
+        from pandas.core.arrays import numeric
+        def is_numeric(value):
+            try:
+                float(value)
+                return not pd.isna(value)
+            except ValueError: pass
+            except TypeError: return False
+            try:
+                int(value)
+                return True
+            except ValueError: return False
+        numeric_columns = []
+        for cn in df.columns:
+            if(numeric.is_integer_dtype(df[cn]) or numeric.is_float_dtype(df[cn]) or df[cn].map(lambda x: is_numeric(x)).all()):
+                numeric_columns.append(cn)
+        if is_na_dropped: numeric_columns = df[numeric_columns].dropna(axis='columns', how='all').columns
+        numeric_columns = sorted(numeric_columns)
+        
+        return numeric_columns
+    
+    
     ### LLM Functions ###
     
     

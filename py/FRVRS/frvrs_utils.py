@@ -3873,6 +3873,7 @@ class FRVRSUtilities(object):
             transformed_df = transformable_df.groupby(groupby_columns).filter(
                 lambda df: not df[y_column_name].isnull().any()
             ).groupby(groupby_columns).transform(transformer_name).reset_index(drop=False).sort_values(y_column_name)
+        transformed_df[y_column_name] = transformed_df[y_column_name].map(lambda x: float(x))
         
         # Create a figure and subplots
         fig, ax = plt.subplots(1, 1, figsize=(9, 9))
