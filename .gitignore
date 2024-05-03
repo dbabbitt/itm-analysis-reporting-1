@@ -12,6 +12,7 @@
 !/ipynb
 !/maintenance
 !/metrics
+!/open_world
 !/presentations
 !/ps1
 !/py
@@ -35,11 +36,15 @@ saves/notepad_sessions/*.xml
 data/csv/domain_doc_ners_df.csv
 data/pptx/FAITH-MD PI Meeting_Evaluation.pptx
 ipynb/Attic.ipynb
+saves/csv/anova20240501_df.csv
 saves/csv/domain_doc_ners_df.csv
 saves/csv/domain_doc_ners_df_old.csv
 saves/csv/domain_doc_nlp_words_df.csv
 saves/csv/frvrs_logs_df.csv
 saves/csv/frvrs_logs_df_new.csv
+saves/csv/metrics_evaluation_open_world_df.csv
+saves/csv/ow_participant_scenes_df.csv
+saves/csv/ow_participants_df.csv
 saves/pkl/all_transactions_itemsets_df.pkl
 saves/pkl/clean_csvs_df.pkl
 saves/pkl/domain_doc_ners_df.pkl
@@ -48,6 +53,7 @@ saves/pkl/frvrs_logs_df.pkl
 saves/pkl/frvrs_logs_df_new.pkl
 saves/pkl/metrics_evaluation_open_world_df.pkl
 saves/pkl/one_hot_encode_df.pkl
+saves/pkl/ow_participants_df.pkl
 saves/pkl/patient_history_df.pkl
 
 # Exclude secrets
@@ -217,10 +223,3 @@ node_modules
 package-lock.json
 package.json
 serverless.yml
-saves/csv/metrics_evaluation_open_world_df.csv
-saves/csv/metrics_evaluation_open_world_df.csv
-saves/csv/metrics_evaluation_open_world_df.csv
-saves/csv/ow_participant_scenes_df.csv
-saves/csv/ow_participants_df.csv
-saves/pkl/ow_participants_df.pkl
-saves/csv/anova20240501_df.csv
