@@ -2964,7 +2964,9 @@ class FRVRSUtilities(object):
     @staticmethod
     def set_mcivr_metrics_types(action_type, df, row_index, row_series, verbose=False):
         """
-        Set the MCI-VR metrics types for a given action type and row series.
+        Ingest all the auxiliary data based on action type out of numbered columns into
+        named columns by setting the MCI-VR metrics types for a given action type and
+        row series.
     
         Parameters:
             action_type: The action type.
