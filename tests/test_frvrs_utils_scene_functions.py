@@ -740,12 +740,12 @@ class TestGetTotalActions(unittest.TestCase):
 
     def test_get_total_actions_default(self):
         # Test with default
-        total_actions = self.get_total_actions(self.scene_df)
+        total_actions = self.get_total_actions_count(self.scene_df)
         self.assertEqual(total_actions, 2)
 
     def test_get_total_actions_with_voice_command(self):
         # Test including specific voice commands
-        total_actions = self.get_total_actions(self.scene_df)
+        total_actions = self.get_total_actions_count(self.scene_df)
         self.assertEqual(total_actions, 3)
 
 class TestGetActualAndIdealSequences(unittest.TestCase):

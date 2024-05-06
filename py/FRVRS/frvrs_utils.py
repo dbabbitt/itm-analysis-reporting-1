@@ -9,20 +9,29 @@
 
 from . import nu
 from datetime import datetime, timedelta
-from pandas import DataFrame, concat, to_datetime, Series
+from numpy import nan, isnan
+from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
+from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, to_numeric
 import csv
 import humanize
+import math
 import matplotlib.pyplot as plt
 import numpy as np
 import os
-import os.path as osp
 import pandas as pd
 import random
 import re
 import statsmodels.api as sm
-
 import warnings
+
 warnings.filterwarnings('ignore')
+
+# Check for presence of 'get_ipython' function (exists in Jupyter)
+try:
+    get_ipython()
+    from IPython.display import display
+except NameError:
+    display = lambda message: print(message)
 
 class FRVRSUtilities(object):
     """
@@ -46,17 +55,17 @@ class FRVRSUtilities(object):
         # Create the data folder if it doesn't exist
         if data_folder_path is None: self.data_folder = '../data'
         else: self.data_folder = data_folder_path
-        os.makedirs(self.data_folder, exist_ok=True)
+        makedirs(self.data_folder, exist_ok=True)
         if verbose: print('data_folder: {}'.format(osp.abspath(self.data_folder)), flush=True)
         
         # Create the saves folder if it doesn't exist
         if saves_folder_path is None: self.saves_folder = '../saves'
         else: self.saves_folder = saves_folder_path
-        os.makedirs(self.saves_folder, exist_ok=True)
+        makedirs(self.saves_folder, exist_ok=True)
         if verbose: print('saves_folder: {}'.format(osp.abspath(self.saves_folder)), flush=True)
         
         # FRVRS log constants
-        self.data_logs_folder = osp.join(self.data_folder, 'logs'); os.makedirs(name=self.data_logs_folder, exist_ok=True)
+        self.data_logs_folder = osp.join(self.data_folder, 'logs'); makedirs(name=self.data_logs_folder, exist_ok=True)
         self.scene_groupby_columns = ['session_uuid', 'scene_id']
         self.patient_groupby_columns = self.scene_groupby_columns + ['patient_id']
         self.injury_groupby_columns = self.patient_groupby_columns + ['injury_id']
@@ -114,12 +123,12 @@ class FRVRSUtilities(object):
         # Patient SORT designations
         self.sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
         self.patient_sort_order = ['still', 'waver', 'walker']
-        self.sort_category_order = pd.CategoricalDtype(categories=self.patient_sort_order, ordered=True)
+        self.sort_category_order = CategoricalDtype(categories=self.patient_sort_order, ordered=True)
         
         # Patient SALT designations
         self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
         self.salt_types = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
-        self.salt_category_order = pd.CategoricalDtype(categories=self.salt_types, ordered=True)
+        self.salt_category_order = CategoricalDtype(categories=self.salt_types, ordered=True)
         
         # Tag colors
         self.tag_columns_list = ['tag_selected_type', 'tag_applied_type', 'tag_discarded_type']
@@ -129,29 +138,29 @@ class FRVRSUtilities(object):
         # Patient pulse designations
         self.pulse_columns_list = ['patient_demoted_pulse', 'patient_record_pulse', 'patient_engaged_pulse']
         self.patient_pulse_order = ['none', 'faint', 'fast', 'normal']
-        self.pulse_category_order = pd.CategoricalDtype(categories=self.patient_pulse_order, ordered=True)
+        self.pulse_category_order = CategoricalDtype(categories=self.patient_pulse_order, ordered=True)
         
         # Patient breath designations
         self.breath_columns_list = ['patient_demoted_breath', 'patient_record_breath', 'patient_engaged_breath', 'patient_checked_breath']
         self.patient_breath_order = ['none', 'collapsedLeft', 'collapsedRight', 'restricted', 'fast', 'normal']
-        self.breath_category_order = pd.CategoricalDtype(categories=self.patient_breath_order, ordered=True)
+        self.breath_category_order = CategoricalDtype(categories=self.patient_breath_order, ordered=True)
         
         # Patient hearing designations
         self.hearing_columns_list = ['patient_record_hearing', 'patient_engaged_hearing']
         self.patient_hearing_order = ['none', 'limited', 'normal']
-        self.hearing_category_order = pd.CategoricalDtype(categories=self.patient_hearing_order, ordered=True)
+        self.hearing_category_order = CategoricalDtype(categories=self.patient_hearing_order, ordered=True)
         
         # Patient mood designations
         self.mood_columns_list = ['patient_demoted_mood', 'patient_record_mood', 'patient_engaged_mood']
         self.patient_mood_order = ['dead', 'unresponsive', 'agony', 'upset', 'calm']
-        self.mood_category_order = pd.CategoricalDtype(categories=self.patient_mood_order, ordered=True)
+        self.mood_category_order = CategoricalDtype(categories=self.patient_mood_order, ordered=True)
         
         # Patient pose designations
         self.pose_columns_list = ['patient_demoted_pose', 'patient_record_pose', 'patient_engaged_pose']
         self.patient_pose_order = ['supine', 'fetal', 'sittingGround', 'kneeling', 'recovery', 'standing']
-        self.pose_category_order = pd.CategoricalDtype(categories=self.patient_pose_order, ordered=True)
+        self.pose_category_order = CategoricalDtype(categories=self.patient_pose_order, ordered=True)
         
-        # Delayed is yellow per Nick
+        # Delayed is yellow per OSU
         self.salt_to_tag_dict = {'DEAD': 'black', 'EXPECTANT': 'gray', 'IMMEDIATE': 'red', 'DELAYED': 'yellow', 'MINIMAL': 'green'}
         self.sort_to_color_dict = {'still': 'black', 'waver': 'red', 'walker': 'green'}
         
@@ -174,7 +183,7 @@ class FRVRSUtilities(object):
         # Injury required procedure designations
         self.required_procedure_columns_list = ['injury_record_required_procedure', 'injury_treated_required_procedure']
         self.injury_required_procedure_order = ['tourniquet', 'gauzePressure', 'decompress', 'woundpack', 'airway', 'none']
-        self.required_procedure_category_order = pd.CategoricalDtype(categories=self.injury_required_procedure_order, ordered=True)
+        self.required_procedure_category_order = CategoricalDtype(categories=self.injury_required_procedure_order, ordered=True)
         self.required_procedure_to_tool_type_dict = {
             'tourniquet': 'Tourniquet',
             'gauzePressure': 'Gauze_Dressing',
@@ -186,21 +195,21 @@ class FRVRSUtilities(object):
         # Injury severity designations
         self.severity_columns_list = ['injury_record_severity', 'injury_treated_severity']
         self.injury_severity_order = ['high', 'medium', 'low']
-        self.severity_category_order = pd.CategoricalDtype(categories=self.injury_severity_order, ordered=True)
+        self.severity_category_order = CategoricalDtype(categories=self.injury_severity_order, ordered=True)
         
         # Injury body region designations
         self.body_region_columns_list = ['injury_record_body_region', 'injury_treated_body_region']
         self.injury_body_region_order = ['head', 'neck', 'chest', 'abdomen', 'leftLeg', 'rightLeg', 'rightArm', 'leftArm']
-        self.body_region_category_order = pd.CategoricalDtype(categories=self.injury_body_region_order, ordered=True)
+        self.body_region_category_order = CategoricalDtype(categories=self.injury_body_region_order, ordered=True)
         
         # Pulse name designations
         self.pulse_name_order = ['pulse_none', 'pulse_faint', 'pulse_fast', 'pulse_normal']
-        self.pulse_name_category_order = pd.CategoricalDtype(categories=self.pulse_name_order, ordered=True)
+        self.pulse_name_category_order = CategoricalDtype(categories=self.pulse_name_order, ordered=True)
         
         # Tool type designations
         self.tool_type_columns_list = ['tool_hover_type', 'tool_selected_type', 'tool_applied_type', 'tool_discarded_type']
         self.tool_type_order = ['Tourniquet', 'Gauze_Pack', 'Needle', 'Naso', 'Nasal Airway', 'Gauze_Dressing']
-        self.tool_type_category_order = pd.CategoricalDtype(categories=self.tool_type_order, ordered=True)
+        self.tool_type_category_order = CategoricalDtype(categories=self.tool_type_order, ordered=True)
         self.tool_type_to_required_procedure_dict = {
             'Tourniquet': 'tourniquet',
             'Gauze_Dressing': 'gauzePressure',
@@ -212,7 +221,7 @@ class FRVRSUtilities(object):
         
         # Tool data designations
         self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
-        self.tool_data_category_order = pd.CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        self.tool_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
 
     ### String Functions ###
     
@@ -453,7 +462,7 @@ class FRVRSUtilities(object):
 
         Parameters
         ----------
-        session_df_or_file_path : pd.DataFrame or str
+        session_df_or_file_path : pandas.DataFrame or str
             DataFrame containing session data or file path.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -523,7 +532,6 @@ class FRVRSUtilities(object):
     def get_distance_deltas_data_frame(self, logs_df, verbose=False):
         rows_list = []
         columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity']
-        import math
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
             row_dict = {}
             for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
@@ -547,46 +555,46 @@ class FRVRSUtilities(object):
             row_dict['actual_engagement_distance'] = actual_engagement_distance
             
             # Ideal
-            ideal_engagement_order = self.get_ideal_engagement_order(scene_df, verbose=False)
-            ideal_engagement_distance = sum([
-                math.sqrt(
-                    (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
-                ) for first_tuple, last_tuple in zip(ideal_engagement_order[:-1], ideal_engagement_order[1:])
-            ])
-            row_dict['ideal_engagement_distance'] = ideal_engagement_distance
+            # ideal_engagement_order = self.get_ideal_engagement_order(scene_df, verbose=False)
+            # ideal_engagement_distance = sum([
+                # math.sqrt(
+                    # (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
+                # ) for first_tuple, last_tuple in zip(ideal_engagement_order[:-1], ideal_engagement_order[1:])
+            # ])
+            # row_dict['ideal_engagement_distance'] = ideal_engagement_distance
             
             # Calculate the R-squared adjusted value as a measure of ideal ordering
-            X, y = Series([t[1] for t in ideal_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
-            if X.shape[0]:
-                X1 = sm.add_constant(X)
-                try: measure_of_ideal_ordering = sm.OLS(y, X1).fit().rsquared_adj
-                except: measure_of_ideal_ordering = np.nan
-            else: measure_of_ideal_ordering = np.nan
-            row_dict['measure_of_ideal_ordering'] = measure_of_ideal_ordering
+            # X, y = Series([t[1] for t in ideal_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
+            # if X.shape[0]:
+                # X1 = sm.add_constant(X)
+                # try: measure_of_ideal_ordering = sm.OLS(y, X1).fit().rsquared_adj
+                # except: measure_of_ideal_ordering = nan
+            # else: measure_of_ideal_ordering = nan
+            # row_dict['measure_of_ideal_ordering'] = measure_of_ideal_ordering
             
             # Distracted
-            distracted_engagement_order = self.get_distracted_engagement_order(scene_df, tuples_list=actual_engagement_order, verbose=False)
-            distracted_engagement_distance = sum([
-                math.sqrt(
-                    (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
-                ) for first_tuple, last_tuple in zip(distracted_engagement_order[:-1], distracted_engagement_order[1:])
-            ])
-            row_dict['distracted_engagement_distance'] = distracted_engagement_distance
+            # distracted_engagement_order = self.get_distracted_engagement_order(scene_df, tuples_list=actual_engagement_order, verbose=False)
+            # distracted_engagement_distance = sum([
+                # math.sqrt(
+                    # (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
+                # ) for first_tuple, last_tuple in zip(distracted_engagement_order[:-1], distracted_engagement_order[1:])
+            # ])
+            # row_dict['distracted_engagement_distance'] = distracted_engagement_distance
             
             # Calculate the R-squared adjusted value as a measure of distracted ordering
-            X, y = Series([t[1] for t in distracted_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
-            if X.shape[0]:
-                X1 = sm.add_constant(X)
-                try: measure_of_distracted_ordering = sm.OLS(y, X1).fit().rsquared_adj
-                except: measure_of_distracted_ordering = np.nan
-            else: measure_of_distracted_ordering = np.nan
-            row_dict['measure_of_distracted_ordering'] = measure_of_distracted_ordering
+            # X, y = Series([t[1] for t in distracted_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
+            # if X.shape[0]:
+                # X1 = sm.add_constant(X)
+                # try: measure_of_distracted_ordering = sm.OLS(y, X1).fit().rsquared_adj
+                # except: measure_of_distracted_ordering = nan
+            # else: measure_of_distracted_ordering = nan
+            # row_dict['measure_of_distracted_ordering'] = measure_of_distracted_ordering
             
             # Calculate the measure of right ordering
             row_dict['measure_of_right_ordering'] = self.get_measure_of_right_ordering(scene_df, verbose=verbose)
             
-            row_dict['actual_ideal_delta'] = actual_engagement_distance - ideal_engagement_distance
-            row_dict['actual_distracted_delta'] = actual_engagement_distance - distracted_engagement_distance
+            # row_dict['actual_ideal_delta'] = actual_engagement_distance - ideal_engagement_distance
+            # row_dict['actual_distracted_delta'] = actual_engagement_distance - distracted_engagement_distance
             rows_list.append(row_dict)
         distance_delta_df = DataFrame(rows_list)
         
@@ -611,17 +619,17 @@ class FRVRSUtilities(object):
                 
                 # Add the TAG_APPLIED tag value for this patient
                 try: last_tag = self.get_last_tag(patient_df)
-                except Exception: last_tag = np.nan
+                except Exception: last_tag = nan
                 row_dict['last_tag'] = last_tag
                 
                 # Add the PATIENT_RECORD SALT value for this patient
                 try: max_salt = self.get_max_salt(patient_df)
-                except Exception: max_salt = np.nan
+                except Exception: max_salt = nan
                 row_dict['max_salt'] = max_salt
                 
                 # Add the predicted tag value for this patient based on the SALT value
-                try: predicted_tag = self.salt_to_tag_dict.get(max_salt, np.nan)
-                except Exception: predicted_tag = np.nan
+                try: predicted_tag = self.salt_to_tag_dict.get(max_salt, nan)
+                except Exception: predicted_tag = nan
                 row_dict['predicted_tag'] = predicted_tag
                 
                 # Add if the tagging was correct for this patient, then the row to the list
@@ -686,7 +694,7 @@ class FRVRSUtilities(object):
             
             # Add percentage that tag is correct
             try: percentage_tag_correct = 100*correct_count/total_count
-            except Exception: percentage_tag_correct = np.nan
+            except Exception: percentage_tag_correct = nan
             row_dict['percentage_tag_correct'] = percentage_tag_correct
             
             # Add the row dictionary to the list
@@ -711,7 +719,7 @@ class FRVRSUtilities(object):
             
             # Add percentage that tag is correct (also zero)
             try: percentage_tag_correct = 100*correct_count/total_count
-            except Exception: percentage_tag_correct = np.nan
+            except Exception: percentage_tag_correct = nan
             row_dict['percentage_tag_correct'] = percentage_tag_correct
             
             # Add the row dictionary to the list
@@ -772,7 +780,7 @@ class FRVRSUtilities(object):
                 mask_series = ~patient_df.patient_record_salt.isnull()
                 patient_record_salt_count = patient_df[mask_series].patient_record_salt.unique().shape[0]
                 if (tag_applied_type_count > 0) and (patient_record_salt_count > 0): row_dict['tag_correct'] = self.get_is_tag_correct(patient_df)
-                else: row_dict['tag_correct'] = np.nan
+                else: row_dict['tag_correct'] = nan
                 
                 mask_series = patient_df.action_type.isin(self.action_types_list)
                 row_dict['action_count'] = patient_df[mask_series].shape[0]
@@ -789,7 +797,7 @@ class FRVRSUtilities(object):
                 if (row_dict['max_salt'] == 'EXPECTANT'):
                     mask_series = ~patient_df.injury_treated_required_procedure.isnull() | ~patient_df.tool_applied_type.isnull()
                     row_dict['treated_expectant'] = {True: 'yes', False: 'no'}[mask_series.any()]
-                else: row_dict['treated_expectant'] = np.nan
+                else: row_dict['treated_expectant'] = nan
                 
                 rows_list.append(row_dict)
         patient_stats_df = DataFrame(rows_list)
@@ -809,7 +817,7 @@ class FRVRSUtilities(object):
         
         Parameters
         ----------
-        scene_df : pd.DataFrame
+        scene_df : pandas.DataFrame
             DataFrame containing data for a specific scene.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -836,7 +844,7 @@ class FRVRSUtilities(object):
         
         Parameters
         ----------
-        scene_df : pd.DataFrame
+        scene_df : pandas.DataFrame
             DataFrame containing scene-specific data.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -879,7 +887,7 @@ class FRVRSUtilities(object):
         
         Parameters
         ----------
-        scene_df : pd.DataFrame
+        scene_df : pandas.DataFrame
             DataFrame containing data for a specific scene.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -1332,7 +1340,7 @@ class FRVRSUtilities(object):
         
         Parameters
         ----------
-        scene_df : pd.DataFrame
+        scene_df : pandas.DataFrame
             DataFrame containing data for a specific scene.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -1451,7 +1459,7 @@ class FRVRSUtilities(object):
         return still_list
     
     
-    def get_total_actions(self, scene_df, verbose=False):
+    def get_total_actions_count(self, scene_df, verbose=False):
         """
         Calculates the total number of user actions within a given scene DataFrame,
         including voice commands with specific messages.
@@ -1471,15 +1479,15 @@ class FRVRSUtilities(object):
         mask_series |= ((scene_df.action_type == 'VOICE_COMMAND') & (scene_df.voice_command_message.isin(self.command_messages_list)))
         
         # Count the number of user actions for the current group
-        total_actions = scene_df[mask_series].shape[0]
+        total_actions_count = scene_df[mask_series].shape[0]
         
         # If verbose is True, print additional information
         if verbose:
-            print(f'Total number of user actions: {total_actions}')
+            print(f'Total number of user actions: {total_actions_count}')
             display(scene_df)
         
         # Return the total number of user actions
-        return total_actions
+        return total_actions_count
     
     
     def get_actual_and_ideal_patient_sort_sequences(self, scene_df, verbose=False):
@@ -1517,8 +1525,8 @@ class FRVRSUtilities(object):
                     if mask_series.any(): action_list.append(self.get_first_patient_interaction(scene_df[mask_series]))
                 
                 # Sort the list of first interactions
-                if verbose: display(sort, action_list)
-                sort_dict[sort] = sorted([action for action in action_list if not pd.isna(action)])
+                if verbose: print(sort, action_list)
+                sort_dict[sort] = sorted([action for action in action_list if not isna(action)])
         
         # Get the whole ideal and actual sequences
         ideal_sequence = []
@@ -1544,7 +1552,7 @@ class FRVRSUtilities(object):
         """
         
         # Initialize the measure of ordering to NaN
-        measure_of_ordering = np.nan
+        measure_of_ordering = nan
         
         # Prepare data for regression model
         X, y = ideal_sequence.values.reshape(-1, 1), actual_sequence.values.reshape(-1, 1)
@@ -1552,10 +1560,10 @@ class FRVRSUtilities(object):
         # Fit regression model and calculate R-squared adjusted if data is present
         if X.shape[0]:
             X1 = sm.add_constant(X)  # Add constant for intercept
-            try: measure_of_ordering = sm.OLS(y, X1).fit().rsquared_adj
             
             # Handle model fitting exceptions
-            except: measure_of_ordering = np.nan
+            try: measure_of_ordering = sm.OLS(y, X1).fit().rsquared_adj
+            except: measure_of_ordering = nan
         
         # Print additional information if verbose is True
         if verbose: print(f'The measure of ordering for patients: {measure_of_ordering}')
@@ -1577,7 +1585,7 @@ class FRVRSUtilities(object):
         """
         
         # Initialize the measure of right ordering to NaN
-        measure_of_right_ordering = np.nan
+        measure_of_right_ordering = nan
         
         # Calculate the R-squared adjusted value as a measure of right ordering
         actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
@@ -1639,7 +1647,7 @@ class FRVRSUtilities(object):
         
         # Calculate the percentage of controlled hemorrhage-related injuries
         try: percent_controlled = 100 * controlled_count / hemorrhage_count
-        except ZeroDivisionError: percent_controlled = np.nan
+        except ZeroDivisionError: percent_controlled = nan
         
         # If verbose is True, print additional information
         if verbose:
@@ -1722,7 +1730,7 @@ class FRVRSUtilities(object):
         
         # Calculate the hemorrhage control per patient
         try: time_to_hemorrhage_control_per_patient = sum(times_list) / patient_count
-        except ZeroDivisionError: time_to_hemorrhage_control_per_patient = np.nan
+        except ZeroDivisionError: time_to_hemorrhage_control_per_patient = nan
         
         return time_to_hemorrhage_control_per_patient
     
@@ -1743,7 +1751,7 @@ class FRVRSUtilities(object):
         Get the chronological order of engagement starts for each patient in a scene.
         
         Parameters:
-            - scene_df (pd.DataFrame): DataFrame containing scene data, including patient IDs, action types,
+            - scene_df (pandas.DataFrame): DataFrame containing scene data, including patient IDs, action types,
               action ticks, location IDs, patient sorts, and DTR triage priority model predictions.
             - verbose (bool, optional): If True, prints debug information. Default is False.
         
@@ -1930,37 +1938,37 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            bool or np.nan: True if the patient is considered dead, False if not, and np.nan if unknown.
+            bool or numpy.nan: True if the patient is considered dead, False if not, and numpy.nan if unknown.
         """
         
         # Handle missing values in both patient_record_salt and patient_engaged_salt
-        if patient_df.patient_record_salt.isnull().all() and patient_df.patient_engaged_salt.isnull().all(): is_patient_dead = np.nan
+        if patient_df.patient_record_salt.isnull().all() and patient_df.patient_engaged_salt.isnull().all(): is_patient_dead = nan
         else:
             
             # Check the patient_record_salt field
             mask_series = ~patient_df.patient_record_salt.isnull()
+            
+            # Check the patient_engaged_salt field if patient_record_salt is not available
             if mask_series.any():
                 patient_record_salt = patient_df[mask_series].patient_record_salt.iloc[0]
                 is_patient_dead = patient_record_salt in ['DEAD', 'EXPECTANT']
-            
-            # Check the patient_engaged_salt field if patient_record_salt is not available
             else:
                 
                 # Check 'patient_engaged_salt' for patient status if 'patient_record_salt' is empty
                 mask_series = ~patient_df.patient_engaged_salt.isnull()
+                
+                # If both columns are empty, the result is unknown
                 if mask_series.any():
                     patient_engaged_salt = patient_df[mask_series].patient_engaged_salt.iloc[0]
                     is_patient_dead = patient_engaged_salt in ['DEAD', 'EXPECTANT']
-                
-                # If both columns are empty, the result is unknown
-                else: is_patient_dead = np.nan
+                else: is_patient_dead = nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'Is patient considered dead: {is_patient_dead}')
             display(patient_df)
         
-        # Return True if the patient is considered dead, False if not, and np.nan if unknown
+        # Return True if the patient is considered dead, False if not, and numpy.nan if unknown
         return is_patient_dead
     
     
@@ -1978,11 +1986,11 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            bool or np.nan: True if the patient is marked as 'still', False if not, and np.nan if unknown.
+            bool or numpy.nan: True if the patient is marked as 'still', False if not, and numpy.nan if unknown.
         """
         
         # Handle missing values in both patient_record_sort and patient_engaged_sort
-        if patient_df.patient_record_sort.isnull().all() and patient_df.patient_engaged_sort.isnull().all(): is_patient_still = np.nan
+        if patient_df.patient_record_sort.isnull().all() and patient_df.patient_engaged_sort.isnull().all(): is_patient_still = nan
         else:
             
             # Check the patient_record_sort field
@@ -2001,14 +2009,14 @@ class FRVRSUtilities(object):
                     is_patient_still = (patient_engaged_sort == 'still')
                 
                 # If both columns are empty, the result is unknown
-                else: is_patient_still = np.nan
+                else: is_patient_still = nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'Is patient considered still: {is_patient_still}')
             display(patient_df)
         
-        # Return True if the patient is marked as 'still', False if not, and np.nan if unknown
+        # Return True if the patient is marked as 'still', False if not, and numpy.nan if unknown
         return is_patient_still
     
     
@@ -2034,7 +2042,7 @@ class FRVRSUtilities(object):
         try:
             mask_series = ~patient_df.patient_salt.isnull()
             max_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.iloc[-1]
-        except Exception: max_salt = np.nan
+        except Exception: max_salt = nan
         
         # If verbose is True, print additional information
         if verbose:
@@ -2060,20 +2068,20 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            str or np.nan: The last tag applied to the patient, or np.nan if no tags have been applied.
+            str or numpy.nan: The last tag applied to the patient, or numpy.nan if no tags have been applied.
         """
         
         # Get the last tag value
         mask_series = ~patient_df.tag_applied_type.isnull()
         try: last_tag = patient_df[mask_series].sort_values('action_tick').tag_applied_type.iloc[-1]
-        except Exception: last_tag = np.nan
+        except Exception: last_tag = nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'Last tag applied: {last_tag}')
             display(patient_df)
         
-        # Return the last tag value or np.nan if no data is available
+        # Return the last tag value or numpy.nan if no data is available
         return last_tag
     
     
@@ -2108,7 +2116,7 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            bool or np.nan: Returns True if the tag is correct, False if incorrect, or np.nan if data is insufficient.
+            bool or numpy.nan: Returns True if the tag is correct, False if incorrect, or numpy.nan if data is insufficient.
         """
         
         # Ensure both 'tag_applied_type' and 'patient_record_salt' each have at least one non-null value
@@ -2116,7 +2124,7 @@ class FRVRSUtilities(object):
         tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
         mask_series = ~patient_df.patient_record_salt.isnull()
         patient_record_salt_count = patient_df[mask_series].patient_record_salt.unique().shape[0]
-        if (tag_applied_type_count == 0) or (patient_record_salt_count == 0): return np.nan
+        if (tag_applied_type_count == 0) or (patient_record_salt_count == 0): return nan
         
         # Get the last applied tag
         last_tag = self.get_last_tag(patient_df)
@@ -2125,12 +2133,12 @@ class FRVRSUtilities(object):
         max_salt = self.get_max_salt(patient_df)
         
         # Get the predicted tag based on the maximum salt value
-        try: predicted_tag = self.salt_to_tag_dict.get(max_salt, np.nan)
-        except Exception: predicted_tag = np.nan
+        try: predicted_tag = self.salt_to_tag_dict.get(max_salt, nan)
+        except Exception: predicted_tag = nan
             
         # Determine if the last applied tag matches the predicted tag
         try: is_tag_correct = bool(last_tag == predicted_tag)
-        except Exception: is_tag_correct = np.nan
+        except Exception: is_tag_correct = nan
         
         # If verbose is True, print additional information
         if verbose:
@@ -2139,7 +2147,7 @@ class FRVRSUtilities(object):
             print(f'Is the tag correct? {is_tag_correct}')
             display(patient_df)
         
-        # Return True if the tag is correct, False if incorrect, or np.nan if data is insufficient
+        # Return True if the tag is correct, False if incorrect, or numpy.nan if data is insufficient
         return is_tag_correct
     
     
@@ -2152,7 +2160,7 @@ class FRVRSUtilities(object):
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            bool or np.nan: Returns True if the patient has severe injuries, False if the patient has no severe injuries.
+            bool or numpy.nan: Returns True if the patient has severe injuries, False if the patient has no severe injuries.
         """
         is_patient_injured = False
         for injury_id, injury_df in patient_df.groupby('injury_id'):
@@ -2179,14 +2187,14 @@ class FRVRSUtilities(object):
         
         # If there are responder negotiation actions, find the first action tick
         if mask_series.any(): engagement_start = patient_df[mask_series]['action_tick'].min()
-        else: engagement_start = np.nan
+        else: engagement_start = nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'First patient triage: {engagement_start}')
             display(patient_df[mask_series].dropna(axis='columns', how='all').T)
         
-        # Return the action tick of the first patient triage or np.nan if no data is available
+        # Return the action tick of the first patient triage or numpy.nan if no data is available
         return engagement_start
     
     
@@ -2207,14 +2215,14 @@ class FRVRSUtilities(object):
         
         # If there are responder negotiation actions, find the first action tick
         if mask_series.any(): engagement_start = patient_df[mask_series]['action_tick'].min()
-        else: engagement_start = np.nan
+        else: engagement_start = nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'First patient interaction: {engagement_start}')
             display(patient_df[mask_series].dropna(axis='columns', how='all').T)
         
-        # Return the action tick of the first patient interaction or np.nan if no data is available
+        # Return the action tick of the first patient interaction or numpy.nan if no data is available
         return engagement_start
     
     
@@ -2245,7 +2253,7 @@ class FRVRSUtilities(object):
             print(f'Action tick of the last patient interaction: {engagement_end}')
             display(patient_df)
         
-        # Return the action tick of the last patient interaction or np.nan if no data is available
+        # Return the action tick of the last patient interaction or numpy.nan if no data is available
         return engagement_end
     
     
@@ -2649,7 +2657,7 @@ class FRVRSUtilities(object):
         
         # Check if an injury record or treatment exists for a hemorrhage-related procedure
         is_injury_hemorrhage = self.get_is_injury_hemorrhage(injury_df, verbose=verbose)
-        if not is_injury_hemorrhage: is_controlled = np.nan
+        if not is_injury_hemorrhage: is_controlled = nan
         else:
             
             # Check if the injury was treated correctly
@@ -2827,7 +2835,7 @@ class FRVRSUtilities(object):
 
         # Get required procedure
         mask_series = (patient_df.injury_id == injury_id) & ~patient_df.injury_record_required_procedure.isnull()
-        if not mask_series.any(): return np.nan
+        if not mask_series.any(): return nan
         df = patient_df[mask_series]
         required_procedure = df.injury_record_required_procedure.squeeze()
 
@@ -2848,7 +2856,7 @@ class FRVRSUtilities(object):
         """
         try:
             is_tag_correct = self.get_is_tag_correct(patient_df, verbose=verbose)
-            if np.isnan(is_tag_correct): is_tag_correct = 0
+            if isnan(is_tag_correct): is_tag_correct = 0
             else: is_tag_correct = int(is_tag_correct)
         except: is_tag_correct = 0
 
@@ -3165,14 +3173,11 @@ class FRVRSUtilities(object):
         file_path = osp.join(sub_directory, file_name)
         version_number = self.get_logger_version(file_path, verbose=verbose)
         
-        # Attempt to read CSV file using pandas
-        try: file_df = pd.read_csv(file_path, header=None, index_col=False)
-        
-        # If unsuccessful, try using a reader
+        # Attempt to read CSV file using pandas; if unsuccessful, try using a reader
+        try: file_df = read_csv(file_path, header=None, index_col=False)
         except:
             rows_list = []
             with open(file_path, 'r') as f:
-                import csv
                 reader = csv.reader(f, delimiter=',', quotechar='"')
                 for values_list in reader:
                     if (values_list[-1] == ''): values_list.pop(-1)
@@ -3182,22 +3187,14 @@ class FRVRSUtilities(object):
         # Ignore small files and return the subdirectory data frame unharmed
         if (file_df.shape[1] < 16): return sub_directory_df
         
-        # Find columns containing only version numbers
-        # VERSION_REGEX = re.compile(r'^\d\.\d$')
-        # is_version_there = lambda x: bool(re.match(VERSION_REGEX, str(x)))
-        # srs = file_df.applymap(is_version_there, na_action='ignore').sum()
-        # columns_list = srs[srs == file_df.shape[0]].index.tolist()
-        
         # Remove column 4 and rename all the numbered colums above that
         if (version_number > 1.0):
             file_df.drop(4, axis='columns', inplace=True)
             file_df.columns = list(range(file_df.shape[1]))
         
         # Add file name and logger version to the data frame
-        file_dir_suffix = osp.abspath(sub_directory).replace(osp.abspath(self.data_logs_folder) + os.sep, '')
-        file_df['file_name'] = '/'.join(file_dir_suffix.split(os.sep)) + '/' + file_name
-        # if is_version_there(version_number): file_df['logger_version'] = float(version_number)
-        # else: file_df['logger_version'] = 1.0
+        file_dir_suffix = osp.abspath(sub_directory).replace(osp.abspath(self.data_logs_folder) + sep, '')
+        file_df['csv_file_subpath'] = '/'.join(file_dir_suffix.split(sep)) + '/' + file_name
         file_df['logger_version'] = float(version_number)
         
         # Name the global columns
@@ -3206,10 +3203,9 @@ class FRVRSUtilities(object):
         
         # Parse the third column as a date column
         if ('event_time' in file_df.columns):
-            if sub_directory.endswith('v.1.0'): file_df['event_time'] = to_datetime(file_df['event_time'], format='%m/%d/%Y %H:%M')
             
             # Attempt to infer the format automatically
-            # else: file_df['event_time'] = to_datetime(file_df['event_time'], format='mixed')
+            if sub_directory.endswith('v.1.0'): file_df['event_time'] = to_datetime(file_df['event_time'], format='%m/%d/%Y %H:%M')
             else: file_df['event_time'] = to_datetime(file_df['event_time'], infer_datetime_format=True)
         
         # Set the MCIVR metrics types
@@ -3242,7 +3238,7 @@ class FRVRSUtilities(object):
         
         # Iterate over the subdirectories, directories, and files in the logs folder
         if logs_folder is None: logs_folder = self.data_logs_folder
-        for sub_directory, directories_list, files_list in os.walk(logs_folder):
+        for sub_directory, directories_list, files_list in walk(logs_folder):
             
             # Create a data frame to store the data for the current subdirectory
             sub_directory_df = DataFrame([])
@@ -3254,14 +3250,14 @@ class FRVRSUtilities(object):
                 if file_name.endswith('.csv'): sub_directory_df = self.process_files(sub_directory_df, sub_directory, file_name, verbose=verbose)
             
             # Append the data frame for the current subdirectory to the main data frame
-            logs_df = pd.concat([logs_df, sub_directory_df], axis='index')
+            logs_df = concat([logs_df, sub_directory_df], axis='index')
         
         # Convert event time to a datetime
-        if ('event_time' in logs_df.columns): logs_df['event_time'] = pd.to_datetime(logs_df['event_time'], format='mixed')
+        if ('event_time' in logs_df.columns): logs_df['event_time'] = to_datetime(logs_df['event_time'], format='mixed')
         
         # Convert elapsed time to an integer
         if ('action_tick' in logs_df.columns):
-            logs_df.action_tick = pd.to_numeric(logs_df.action_tick, errors='coerce')
+            logs_df.action_tick = to_numeric(logs_df.action_tick, errors='coerce')
             mask_series = ~logs_df.action_tick.isnull()
             logs_df = logs_df[mask_series]
             logs_df.action_tick = logs_df.action_tick.astype('int64')

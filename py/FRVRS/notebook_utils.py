@@ -9,8 +9,9 @@
 
 from bs4 import BeautifulSoup as bs
 from datetime import timedelta
-from os import listdir as listdir, makedirs as makedirs, path as osp
-from pandas import DataFrame, Series, concat, read_csv, read_html
+from numpy import nan, isnan
+from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
+from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, read_html
 from typing import List, Optional
 import humanize
 import math
@@ -29,6 +30,14 @@ except:
     except: import pickle
 
 warnings.filterwarnings('ignore')
+
+# Check for presence of 'get_ipython' function (exists in Jupyter)
+try:
+    get_ipython()
+    from IPython.display import display
+except NameError:
+    display = lambda message: print(message)
+
 class NotebookUtilities(object):
     """
     This class implements the core of the utility
@@ -1082,15 +1091,15 @@ class NotebookUtilities(object):
         """
         try:
             if verbose: print('Pickling to {}'.format(osp.abspath(pickle_path)), flush=True)
-
-            # Protocol 4 is not handled in python 2
-            if sys.version_info.major == 2: df.to_pickle(pickle_path, protocol=2)
-
-            # Pickle protocol must be <= 4
-            elif sys.version_info.major == 3: df.to_pickle(pickle_path, protocol=min(4, pickle.HIGHEST_PROTOCOL))
+            if sys.version_info.major == 2:
+                # Protocol 4 is not handled in python 2
+                df.to_pickle(pickle_path, protocol=2)
+            elif sys.version_info.major == 3:
+                # Pickle protocol must be <= 4
+                df.to_pickle(pickle_path, protocol=min(4, pickle.HIGHEST_PROTOCOL))
 
         except Exception as e:
-            os.remove(pickle_path)
+            remove(pickle_path)
             if verbose: print(e, ": Couldn't save {:,} cells as a pickle.".format(df.shape[0]*df.shape[1]), flush=True)
             if raise_exception: raise
     
@@ -1214,7 +1223,7 @@ class NotebookUtilities(object):
                         pickle.dump(object, handle, pickle.HIGHEST_PROTOCOL)
 
         else:
-            try: object = pd.read_pickle(pickle_path)
+            try: object = read_pickle(pickle_path)
             except:
                 with open(pickle_path, 'rb') as handle: object = pickle.load(handle)
 
@@ -1334,8 +1343,6 @@ class NotebookUtilities(object):
 
         """
         for obj_name in kwargs:
-            # if hasattr(kwargs[obj_name], '__call__'):
-            #     raise RuntimeError('Functions cannot be pickled.')
             pickle_path = osp.join(self.saves_pickle_folder, '{}.pkl'.format(obj_name))
             if isinstance(kwargs[obj_name], DataFrame):
                 self.attempt_to_pickle(kwargs[obj_name], pickle_path, raise_exception=False, verbose=verbose)
@@ -2016,7 +2023,7 @@ class NotebookUtilities(object):
         mask_series = (df[columns_list].apply(Series.nunique, axis='columns') == 1)
         
         # Replace non-unique or missing values with NaN
-        df.loc[~mask_series, new_column_name] = np.nan
+        df.loc[~mask_series, new_column_name] = nan
         
         # Define a function to extract the first valid value in each row
         f = lambda srs: srs[srs.first_valid_index()]
@@ -2206,10 +2213,8 @@ class NotebookUtilities(object):
                 row_dict = self.get_row_dictionary(
                     v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
                 )
-                
-        # If value is neither a dictionary nor a list
         else:
-            
+            # If value is neither a dictionary nor a list
             # Add the value to the row dictionary
             if key_prefix.startswith('_') and (key_prefix[1:] not in row_dict):
                 key_prefix = key_prefix[1:]
