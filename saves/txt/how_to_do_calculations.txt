@@ -1,0 +1,251 @@
+
+
+participant_id (Participant ID)
+Steps Needed to do Calculations:
+1. The participant_id and session_uuid are found in both the CSV and the JSON data.
+
+scene_id (Scene ID)
+Steps Needed to do Calculations:
+1. The scene_id is derived from the CSV SESSION_START and SESSION_END entries.
+
+session_uuid (Session UUID)
+Steps Needed to do Calculations:
+1. The participant_id and session_uuid are found in both the CSV and the JSON data.
+
+mean_AD_KDMA_Sim (Average KDMA measurement from simulator probe responses)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the AD_KDMA_Sim column in the participant_data_0420 spreadsheet provided by CACI for that participant.
+3. The AD_KDMA_Sim value is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_AD_KDMA_Text (Average KDMA measurement from text probe responses)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the AD_KDMA_Text column in the participant_data_0420 spreadsheet provided by CACI for that participant.
+3. The AD_KDMA_Text value is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_PropTrust (Average rating on 3-item propensity to trust measure; higher is higher propensity to trust)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the PropTrust column in the participant_data_0420 spreadsheet provided by CACI for that participant.
+3. The PropTrust value is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_ST_KDMA_Sim (Average KDMA measurement from simulator probe responses)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the ST_KDMA_Sim column in the participant_data_0420 spreadsheet provided by CACI for that participant.
+3. The ST_KDMA_Sim value is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_ST_KDMA_Text (Average KDMA measurement from text probe responses)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the ST_KDMA_Text column in the participant_data_0420 spreadsheet provided by CACI for that participant.
+3. The ST_KDMA_Text value is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_YrsMilExp (Average Years serving in a medical role in the military)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the YrsMilExp column in the participant_data_0420 spreadsheet provided by CACI for that participant.
+3. The YrsMilExp value is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_configData_scenarioData_difficulty (Average Config Data Scenario Data Difficulty)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Find the scenarioData dictionary within the configData dictionary of the JSON data for that session and participant.
+3. Inside, you will find three keys: description, difficulty, and name. The difficulty key is semi-continously numeric, and you can average it for whatever grouping you need.
+
+mean_actual_engagement_distance (Average Actual Engagement Distance)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Add the Euclidean distances between the successive engagment locations of a chronologically-ordered list.
+
+mean_first_engagement (Average First Engagement)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for actions with the type "PATIENT_ENGAGED".
+3. Get the action tick of the first 'PATIENT_ENGAGED' action.
+4. Return the action tick of the first 'PATIENT_ENGAGED' action.
+
+mean_first_treatment (Average First Treatment)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for actions with the type "INJURY_TREATED".
+3. Get the action tick of the first 'INJURY_TREATED' action.
+4. Return the action tick of the first 'INJURY_TREATED' action.
+
+mean_injury_correctly_treated_count (Average Injury Correctly Treated Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Loop through each injury ID and make a determination if it's treated or not.
+3. Filter for injuries that have been treated and not wrong.
+4. Return the count of records where injuries were correctly treated.
+
+mean_injury_not_treated_count (Average Injury Not Treated Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Create a boolean mask to filter records where injuries were not treated.
+3. Use the mask to filter the DataFrame and count the number of untreated injuries.
+4. Return the count of records where injuries were not treated.
+
+mean_injury_treatments_count (Average Injury Treatments Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for treatments with injury_treated set to True.
+3. Count the number of treatments.
+4. Return the count of records where injuries were treated.
+
+mean_injury_wrongly_treated_count (Average Injury Wrongly Treated Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for patients with injury_treated set to True.
+3. Include cases where the FRVRS logger incorrectly logs injury_treated_injury_treated_with_wrong_treatment as True.
+4. Count the number of patients whose injuries have been incorrectly treated.
+
+mean_last_engagement (Average Last Engagement)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Get the mask for the PATIENT_ENGAGED actions.
+3. Find the maximum elapsed time among rows satisfying the action mask.
+4. Return the last engagement time.
+
+mean_last_still_engagement (Average Last Still Engagement)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Get the chronological order of engagement starts for each patient in the scene.
+3. Filter out only the still patients.
+4. Get the maximum engagement start from that subset.
+
+mean_measure_of_right_ordering (Average Measure of Right Ordering)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker.
+3. Calculate the R-squared adjusted value as a measure of right ordering.
+
+mean_patient_count (Average Patient Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Count the number of unique patient IDs.
+3. Return the calculated patient count.
+
+mean_percent_hemorrhage_controlled (Average Percent Hemorrhage Controlled)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Loop through each injury, examining its required procedures and wrong treatments.
+3. Check if an injury record or treatment exists for a hemorrhage-related procedure.
+4. Count any injuries requiring hemorrhage control procedures.
+5. Check if the injury was treated correctly.
+6. See if there are any tools applied that are associated with the hemorrhage injuries.
+7. Count any hemorrhage-related injuries that have been treated, and not wrong, and not counted twice.
+8. Calculate the percentage of controlled hemorrhage-related injuries.
+9. Return the percentage of hemorrhage cases controlled.
+
+mean_pulse_taken_count (Average Pulse Taken Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Create a boolean mask to filter 'PULSE_TAKEN' actions.
+3. Use the mask to filter the DataFrame and count the number of 'PULSE_TAKEN' actions.
+4. Return the count of 'PULSE_TAKEN' actions.
+
+mean_stills_value (Average Stills Value)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker.
+3. Truncate both sequences to the head at the stills length and compare them; they both should have all stills.
+4. If they are, output a 1 (All Stills visited first), if not, output a 0 (All Stills not visited first).
+
+mean_teleport_count (Average Teleport Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Create a boolean mask to filter TELEPORT action types.
+3. Count the number of actions.
+
+mean_time_to_hemorrhage_control_per_patient (Average Time to Hemorrhage Control Per Patient)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Iterate through patients in the scene.
+3. Check if the patient is hemorrhaging and not dead.
+4. Calculate the hemorrhage control per patient.
+
+mean_time_to_last_hemorrhage_controlled (Average Time to Last Hemorrhage Controlled)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Get the start time of the scene.
+3. Initialize the last controlled time to 0.
+4. Iterate through patients in the scene.
+5. Check if the patient is hemorrhaging and not dead.
+6. Get the time to hemorrhage control for the patient.
+7. Update the last controlled time if the current controlled time is greater.
+8. Return the time to the last hemorrhage controlled event.
+
+mean_total_actions_count (Average Total Actions Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Create a boolean mask to filter action types that are user-initiated (TELEPORT, S_A_L_T_WALK_IF_CAN, TRIAGE_LEVEL_WALK_IF_CAN, S_A_L_T_WAVE_IF_CAN, TRIAGE_LEVEL_WAVE_IF_CAN, PATIENT_ENGAGED, PULSE_TAKEN, BAG_ACCESS, TOOL_HOVER, TOOL_SELECTED, INJURY_TREATED, TOOL_APPLIED, TAG_SELECTED, TAG_APPLIED, BAG_CLOSED, TAG_DISCARDED, and TOOL_DISCARDED).
+3. Include VOICE_COMMAND actions with specific user-initiated messages in the mask (walk to the safe area, wave if you can, are you hurt, reveal injury, lay down, where are you, can you hear, anywhere else, what is your name, hold still, sit up/down, stand up, can you breathe, show me, stand, walk, and wave).
+4. Count the number of user actions for the current group.
+5. Return the total number of user actions.
+
+mean_triage_time (Average Triage Time)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Get the scene start and end times.
+3. Calculate the triage time.
+
+mean_voice_capture_count (Average Voice Capture Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for actions with the type "VOICE_CAPTURE".
+3. Count the number of "VOICE_CAPTURE" actions.
+4. Return the count of 'VOICE_CAPTURE' actions.
+
+mean_walk_command_count (Average Walk Command Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for voice commands with the message "walk to the safe area".
+3. Count the number of "walk to the safe area" voice commands.
+4. Return the count of 'walk to the safe area' voice command events.
+
+mean_walk_value (Average Walk Value)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Check in the scene if there are any WALK_IF_CAN actions.
+3. If there are, output a 1 (Walk Command issued), if not, output a 0 (No Walk Command issued).
+
+mean_walkers_value (Average Walkers Value)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker.
+3. Truncate both sequences to the tail at the walkers length and compare them; they both should have all walkers.
+4. If they are, output a 1 (All Walkers visited last), if not, output a 0 (All Walkers not visited last).
+
+mean_wave_command_count (Average Wave Command Count)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Filter for voice commands with the message "wave if you can".
+3. Count the number of "wave if you can" voice commands.
+4. Return the count of 'wave if you can' voice command events.
+
+mean_wave_value (Average Wave Value)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Check in the scene if there are any WAVE_IF_CAN actions.
+3. If there are, output a 1 (Wave Command issued), if not, output a 0 (No Wave Command issued).
+
+medical_role (Medical Role)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Use the "MedRole" key from the JSON stats to determine the integer value.
+3. Determine the intersection of JSON stats columns and the columns in your dataframe to merge on (usually participant_id and session_uuid).
+4. Filter only those "merge on" columns and the "MedRole" column on the right side of the merge in order for your dataframe to do a left outer join with the JSON stats dataframe.
+5. Decode the integer value by means of the Labels column in the Metrics_Evaluation_Dataset_organization_for_BBAI spreadsheet provided by CACI and map that to the new column.
+6. Store the results.
+
+encounter_layout (Encounter Layout)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Use the patients lists from the March 25th ITM BBAI Exploratory analysis email.
+3. Loop through each session and scene in the CSV stats dataset.
+4. Loop through each environment and get the patients list for that environment.
+5. Check if all patients are in that scene.
+6. If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column.
+7. Store the results.

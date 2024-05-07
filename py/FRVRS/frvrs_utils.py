@@ -75,12 +75,12 @@ class FRVRSUtilities(object):
         ]
         
         # List of action types to consider as simulation loggings that can't be directly read by the responder
-        self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'S_A_L_T_WAVED']
+        self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED']
         
         # List of action types to consider as user actions
         self.action_types_list = [
-            'TELEPORT', 'S_A_L_T_WALK_IF_CAN', 'S_A_L_T_WAVE_IF_CAN', 'PATIENT_ENGAGED', 'PULSE_TAKEN', 'BAG_ACCESS',
-            'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
+            'TELEPORT', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVE_IF_CAN', 'TRIAGE_LEVEL_WAVE_IF_CAN', 'PATIENT_ENGAGED',
+            'PULSE_TAKEN', 'BAG_ACCESS', 'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
             'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
         ]
         
@@ -529,30 +529,52 @@ class FRVRSUtilities(object):
         return file_date_str
     
     
+    @staticmethod
+    def get_last_still_engagement(actual_engagement_order, verbose=False):
+            
+        # Get the chronological order of engagement starts for each patient in the scene
+        columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity']
+        df = DataFrame(actual_engagement_order, columns=columns_list)
+        
+        # Filter out only the still patients
+        mask_series = (df.patient_sort == 'still')
+        
+        # Get the maximum engagement start from that subset
+        last_still_engagement = df[mask_series].engagement_start.max()
+        
+        return last_still_engagement
+    
+    
+    @staticmethod
+    def get_actual_engagement_distance(actual_engagement_order, verbose=False):
+        
+        # Add the Euclidean distances between the successive engagment locations of a chronologically-ordered list
+        actual_engagement_distance = sum([
+            math.sqrt(
+                (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
+            ) for first_tuple, last_tuple in zip(actual_engagement_order[:-1], actual_engagement_order[1:])
+        ])
+        
+        return actual_engagement_distance
+    
+    
     def get_distance_deltas_data_frame(self, logs_df, verbose=False):
         rows_list = []
-        columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity']
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
             row_dict = {}
             for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
             
+            # Get the chronological order of engagement starts for each patient in the scene
             actual_engagement_order = self.get_actual_engagement_order(scene_df, verbose=False)
             
             # Get last still engagement and subtract the scene start
-            df = DataFrame(actual_engagement_order, columns=columns_list)
-            mask_series = (df.patient_sort == 'still')
-            last_still_engagement = df[mask_series].engagement_start.max()
+            last_still_engagement = self.get_last_still_engagement(actual_engagement_order, verbose=verbose)
             mask_series = True
             for cn in self.scene_groupby_columns: mask_series &= (logs_df[cn] == eval(cn))
             row_dict['last_still_engagement'] = last_still_engagement - self.get_scene_start(logs_df[mask_series])
             
             # Actual
-            actual_engagement_distance = sum([
-                math.sqrt(
-                    (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
-                ) for first_tuple, last_tuple in zip(actual_engagement_order[:-1], actual_engagement_order[1:])
-            ])
-            row_dict['actual_engagement_distance'] = actual_engagement_distance
+            row_dict['actual_engagement_distance'] = self.get_actual_engagement_distance(actual_engagement_order, verbose=verbose)
             
             # Ideal
             # ideal_engagement_order = self.get_ideal_engagement_order(scene_df, verbose=False)
@@ -1139,7 +1161,7 @@ class FRVRSUtilities(object):
             int: The number of TELEPORT actions in the scene DataFrame.
         """
     
-        # Create a boolean mask to filter actions
+        # Create a boolean mask to filter TELEPORT action types
         mask_series = scene_df.action_type.isin(['TELEPORT'])
         
         # Count the number of actions
@@ -1150,7 +1172,6 @@ class FRVRSUtilities(object):
             print(f'Number of TELEPORT actions: {teleport_count}')
             display(scene_df)
         
-        # Return the count of actions
         return teleport_count
     
     
@@ -1472,10 +1493,10 @@ class FRVRSUtilities(object):
             int: Total number of user actions in the scene DataFrame.
         """
         
-        # Create a boolean mask to filter action types
+        # Create a boolean mask to filter action types that are user-initiated (TELEPORT, S_A_L_T_WALK_IF_CAN, TRIAGE_LEVEL_WALK_IF_CAN, S_A_L_T_WAVE_IF_CAN, TRIAGE_LEVEL_WAVE_IF_CAN, PATIENT_ENGAGED, PULSE_TAKEN, BAG_ACCESS, TOOL_HOVER, TOOL_SELECTED, INJURY_TREATED, TOOL_APPLIED, TAG_SELECTED, TAG_APPLIED, BAG_CLOSED, TAG_DISCARDED, and TOOL_DISCARDED)
         mask_series = scene_df.action_type.isin(self.action_types_list)
         
-        # Include VOICE_COMMAND actions with specific messages in the mask
+        # Include VOICE_COMMAND actions with specific user-initiated messages in the mask (walk to the safe area, wave if you can, are you hurt, reveal injury, lay down, where are you, can you hear, anywhere else, what is your name, hold still, sit up/down, stand up, can you breathe, show me, stand, walk, and wave)
         mask_series |= ((scene_df.action_type == 'VOICE_COMMAND') & (scene_df.voice_command_message.isin(self.command_messages_list)))
         
         # Count the number of user actions for the current group
@@ -1583,12 +1604,12 @@ class FRVRSUtilities(object):
         Returns:
             float: The measure of right ordering for patients.
         """
-        
-        # Initialize the measure of right ordering to NaN
         measure_of_right_ordering = nan
         
-        # Calculate the R-squared adjusted value as a measure of right ordering
+        # Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker
         actual_sequence, ideal_sequence, _ = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
+        
+        # Calculate the R-squared adjusted value as a measure of right ordering
         measure_of_right_ordering = self.get_measure_of_ordering(actual_sequence, ideal_sequence, verbose=verbose)
         
         # If verbose is True, print additional information
@@ -2776,12 +2797,16 @@ class FRVRSUtilities(object):
         """
         0=All Stills not visited first, 1=All Stills visited first
         """
+        
+        # Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker
         actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
         
-        # Truncate both sequences to the stills length and compare them
+        # Truncate both sequences to the head at the stills length and compare them; they both should have all stills
         still_len = len(sort_dict.get('still', []))
         ideal_sequence = ideal_sequence.tolist()[:still_len]
         actual_sequence = actual_sequence.tolist()[:still_len]
+        
+        # If they are, output a 1 (All Stills visited first), if not, output a 0 (All Stills not visited first)
         is_stills_visited_first = int(actual_sequence == ideal_sequence)
         
         return is_stills_visited_first
@@ -2791,12 +2816,16 @@ class FRVRSUtilities(object):
         """
         0=All Walkers not visited last, 1=All Walkers visited last
         """
+        
+        # Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker
         actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
         
-        # Truncate both sequences to the walkers length and compare them
+        # Truncate both sequences to the tail at the walkers length and compare them; they both should have all walkers
         walker_len = len(sort_dict.get('walker', []))
         ideal_sequence = ideal_sequence.tolist()[-walker_len:]
         actual_sequence = actual_sequence.tolist()[-walker_len:]
+        
+        # If they are, output a 1 (All Walkers visited last), if not, output a 0 (All Walkers not visited last)
         is_walkers_visited_last = int(actual_sequence == ideal_sequence)
         
         return is_walkers_visited_last
@@ -2807,7 +2836,11 @@ class FRVRSUtilities(object):
         """
         0=No Wave Command issued, 1=Wave Command issued
         """
-        mask_series = (scene_df.action_type == 'S_A_L_T_WAVE_IF_CAN')
+        
+        # Check in the scene if there are any WAVE_IF_CAN actions
+        mask_series = scene_df.action_type.isin(['S_A_L_T_WAVE_IF_CAN', 'TRIAGE_LEVEL_WAVE_IF_CAN'])
+        
+        # If there are, output a 1 (Wave Command issued), if not, output a 0 (No Wave Command issued)
         is_wave_command_issued = int(scene_df[mask_series].shape[0] > 0)
         
         return is_wave_command_issued
@@ -2818,7 +2851,11 @@ class FRVRSUtilities(object):
         """
         0=No Walk Command issued, 1=Walk Command issued
         """
-        mask_series = (scene_df.action_type == 'S_A_L_T_WALK_IF_CAN')
+        
+        # Check in the scene if there are any WALK_IF_CAN actions
+        mask_series = scene_df.action_type.isin(['S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN'])
+        
+        # If there are, output a 1 (Walk Command issued), if not, output a 0 (No Walk Command issued)
         is_walk_command_issued = int(scene_df[mask_series].shape[0] > 0)
         
         return is_walk_command_issued
@@ -4107,3 +4144,77 @@ class FRVRSUtilities(object):
             )
             
             return fig, ax
+    
+    
+    ### Open World Functions ###
+    
+    
+    def add_encounter_layout_column(self, csv_stats_df, json_stats_df, verbose=False):
+        if verbose: print(csv_stats_df.shape)
+        new_column_name = 'encounter_layout'
+        
+        # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
+        desert_patients_list = ['Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root']
+        jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root']
+        submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
+        urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
+        
+        # Loop through each session and scene in the CSV stats dataset
+        for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(self.scene_groupby_columns):
+            if verbose: print(scene_df.patient_id.unique().tolist())
+            
+            # Loop through each environment and get the patients list for that environment
+            for env_str in ['desert', 'jungle', 'submarine', 'urban']:
+                patients_list = eval(f'{env_str}_patients_list')
+                
+                # Check if all patients are in that scene
+                if all(map(lambda patient_id: patient_id in scene_df.patient_id.unique().tolist(), patients_list)):
+                    
+                    # If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column
+                    mask_series = (json_stats_df.session_uuid == session_uuid)
+                    json_stats_df.loc[mask_series, new_column_name] = env_str.title()
+                    
+                    # Store the results
+                    nu.store_objects(metrics_evaluation_open_world_json_stats_df=json_stats_df)
+                    nu.save_data_frames(metrics_evaluation_open_world_json_stats_df=json_stats_df)
+        
+        if verbose: print(json_stats_df.shape) # (43, 3541)
+        if verbose: display(json_stats_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
+    
+    def add_medical_role_column(self, json_stats_df, anova_df, verbose=False):
+        
+        # Use the "MedRole" key from the JSON stats to determine the integer value
+        new_column = 'MedRole'
+        column_name = 'medical_role'
+        if new_column in json_stats_df.columns:
+            
+            # Determine the intersection of JSON stats columns and the columns in your dataframe to merge on (usually participant_id and session_uuid)
+            on_columns = sorted(set(anova_df.columns).intersection(set(json_stats_df.columns)))
+            
+            # Filter only those "merge on" columns and the "MedRole" column on the right side of the merge in order for your dataframe to do a left outer join with the JSON stats dataframe
+            columns_list = on_columns + [new_column]
+            anova_df = anova_df.merge(
+                json_stats_df[columns_list], on=on_columns, how='left'
+            ).rename(columns={new_column: column_name})
+            
+            # Decode the integer value by means of the Labels column in the Metrics_Evaluation_Dataset_organization_for_BBAI spreadsheet provided by CACI and map that to the new column
+            anova_df[column_name] = anova_df[column_name].map(
+                lambda cv: get_value_description('MedRole', cv)
+            ).replace('', nan)
+            
+            # Store the results
+            nu.store_objects(metrics_evaluation_open_world_anova_df=anova_df, verbose=True)
+            nu.save_data_frames(metrics_evaluation_open_world_anova_df=anova_df, verbose=True)
+            
+            if verbose: print(anova_df.shape)
+            if verbose: print(anova_df.columns.tolist())
+            if verbose: display(anova_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
+                'record_count', ascending=False
+            ).head(5))
+    
+    def get_configData_scenarioData_difficulty(self, json_stats_df, anova_df, verbose=False):
+        
+        # Find the scenarioData dictionary within the configData dictionary of the JSON data for that session and participant
+        
+        # Inside, you will find three keys: description, difficulty, and name. The difficulty key is semi-continously numeric, and you can average it for whatever grouping you need
+        pass
