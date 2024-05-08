@@ -2,15 +2,34 @@
 
 participant_id (Participant ID)
 Steps Needed to do Calculations:
-1. The participant_id and session_uuid are found in both the CSV and the JSON data.
+1. The participant_id and session_uuid are found in both the CSV and the JSON data in the "Human_Sim_Metrics_Data 4-12-2024.zip" file provided by CACI.
+
+session_uuid (Session UUID)
+Steps Needed to do Calculations:
+1. The participant_id and session_uuid are found in both the CSV and the JSON data in the "Human_Sim_Metrics_Data 4-12-2024.zip" file provided by CACI.
 
 scene_id (Scene ID)
 Steps Needed to do Calculations:
 1. The scene_id is derived from the CSV SESSION_START and SESSION_END entries.
 
-session_uuid (Session UUID)
+medical_role (Medical Role)
 Steps Needed to do Calculations:
-1. The participant_id and session_uuid are found in both the CSV and the JSON data.
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Use the "MedRole" key from the JSON stats to determine the integer value.
+3. Determine the intersection of JSON stats columns and the columns in your dataframe to merge on (usually participant_id and session_uuid).
+4. Filter only those "merge on" columns and the "MedRole" column on the right side of the merge in order for your dataframe to do a left outer join with the JSON stats dataframe.
+5. Decode the integer value by means of the Labels column in the Metrics_Evaluation_Dataset_organization_for_BBAI spreadsheet provided by CACI and map that to the new column.
+6. Store the results.
+
+encounter_layout (Encounter Layout)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Use the patients lists from the March 25th ITM BBAI Exploratory analysis email.
+3. Loop through each session and scene in the CSV stats dataset.
+4. Loop through each environment and get the patients list for that environment.
+5. Check if all patients are in that scene.
+6. If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column.
+7. Store the results.
 
 mean_AD_KDMA_Sim (Average KDMA measurement from simulator probe responses)
 Steps Needed to do Calculations:
@@ -230,22 +249,3 @@ Steps Needed to do Calculations:
 1. Group your dataset by participant_id, session_uuid, and scene_id.
 2. Check in the scene if there are any WAVE_IF_CAN actions.
 3. If there are, output a 1 (Wave Command issued), if not, output a 0 (No Wave Command issued).
-
-medical_role (Medical Role)
-Steps Needed to do Calculations:
-1. Group your dataset by participant_id, session_uuid, and scene_id.
-2. Use the "MedRole" key from the JSON stats to determine the integer value.
-3. Determine the intersection of JSON stats columns and the columns in your dataframe to merge on (usually participant_id and session_uuid).
-4. Filter only those "merge on" columns and the "MedRole" column on the right side of the merge in order for your dataframe to do a left outer join with the JSON stats dataframe.
-5. Decode the integer value by means of the Labels column in the Metrics_Evaluation_Dataset_organization_for_BBAI spreadsheet provided by CACI and map that to the new column.
-6. Store the results.
-
-encounter_layout (Encounter Layout)
-Steps Needed to do Calculations:
-1. Group your dataset by participant_id, session_uuid, and scene_id.
-2. Use the patients lists from the March 25th ITM BBAI Exploratory analysis email.
-3. Loop through each session and scene in the CSV stats dataset.
-4. Loop through each environment and get the patients list for that environment.
-5. Check if all patients are in that scene.
-6. If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column.
-7. Store the results.
