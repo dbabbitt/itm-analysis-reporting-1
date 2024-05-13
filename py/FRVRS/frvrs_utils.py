@@ -92,7 +92,7 @@ class FRVRSUtilities(object):
         ] + ['can you breathe', 'show me', 'stand', 'walk', 'wave']
         
         # List of action types that assume 1-to-1 interaction
-        self.responder_negotiations_list = ['PULSE_TAKEN', 'PATIENT_ENGAGED', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']
+        self.responder_negotiations_list = ['PULSE_TAKEN', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']#, 'PATIENT_ENGAGED'
         
         # List of columns that contain only boolean values
         self.boolean_columns_list = [
@@ -182,14 +182,25 @@ class FRVRSUtilities(object):
         
         # Injury required procedure designations
         self.required_procedure_columns_list = ['injury_record_required_procedure', 'injury_treated_required_procedure']
-        self.injury_required_procedure_order = ['tourniquet', 'gauzePressure', 'decompress', 'woundpack', 'airway', 'none']
+        self.injury_required_procedure_order = [
+            'tourniquet', 'gauzePressure', 'decompress', 'chestSeal', 'woundpack', 'ivBlood', 'airway', 'epiPen', 'burnDressing', 'splint', 'ivSaline', 'painMeds', 'blanket', 'none'
+        ]
         self.required_procedure_category_order = CategoricalDtype(categories=self.injury_required_procedure_order, ordered=True)
         self.required_procedure_to_tool_type_dict = {
-            'tourniquet': 'Tourniquet',
-            'gauzePressure': 'Gauze_Dressing',
-            'decompress': 'Needle',
             'airway': 'Nasal Airway',
-            'woundpack': 'Gauze_Pack'
+            'blanket': 'Blanket',
+            'burnDressing': 'Burn Dressing',
+            'chestSeal': 'ChestSeal',
+            'decompress': 'Needle',
+            'epiPen': 'EpiPen',
+            'gauzePressure': 'Gauze_Dressing',
+            'ivBlood': 'IV Blood',
+            'ivSaline': 'IV Saline',
+            'none': '',
+            'painMeds': 'Pain Meds',
+            'splint': 'SAM Splint',
+            'tourniquet': 'Tourniquet',
+            'woundpack': 'Gauze_Pack',
         }
         
         # Injury severity designations
@@ -199,7 +210,7 @@ class FRVRSUtilities(object):
         
         # Injury body region designations
         self.body_region_columns_list = ['injury_record_body_region', 'injury_treated_body_region']
-        self.injury_body_region_order = ['head', 'neck', 'chest', 'abdomen', 'leftLeg', 'rightLeg', 'rightArm', 'leftArm']
+        self.injury_body_region_order = ['head', 'neck', 'chest', 'abdomen', 'leftLeg', 'rightLeg', 'rightHand', 'rightArm', 'leftHand', 'leftArm']
         self.body_region_category_order = CategoricalDtype(categories=self.injury_body_region_order, ordered=True)
         
         # Pulse name designations
@@ -208,15 +219,39 @@ class FRVRSUtilities(object):
         
         # Tool type designations
         self.tool_type_columns_list = ['tool_hover_type', 'tool_selected_type', 'tool_applied_type', 'tool_discarded_type']
-        self.tool_type_order = ['Tourniquet', 'Gauze_Pack', 'Needle', 'Naso', 'Nasal Airway', 'Gauze_Dressing']
+        self.tool_type_order = [
+            'Tourniquet', 'Gauze_Pack', 'Hemostatic Gauze', 'ChestSeal', 'Occlusive', 'IV Blood', 'IV_Blood', 'Needle', 'Naso', 'Nasal Airway', 'Burn Dressing', 'Burn_Dressing',
+            'Gauze_Dressing', 'Gauze', 'EpiPen', 'IV Saline', 'IV_Saline', 'Pain Meds', 'Pain_Meds', 'Pulse Oximeter', 'Pulse_Oximeter', 'SAM Splint', 'SAM_Splint', 'Shears',
+            'SurgicalTape', 'Blanket'
+        ]
         self.tool_type_category_order = CategoricalDtype(categories=self.tool_type_order, ordered=True)
         self.tool_type_to_required_procedure_dict = {
-            'Tourniquet': 'tourniquet',
+            'Blanket': 'blanket',
+            'Burn Dressing': 'burnDressing',
+            'Burn_Dressing': 'burnDressing',
+            'ChestSeal': 'chestSeal',
+            'EpiPen': 'epiPen',
+            'Gauze': 'gauzePressure',
             'Gauze_Dressing': 'gauzePressure',
-            'Needle': 'decompress',
-            'Naso': 'airway',
+            'Gauze_Pack': 'woundpack',
+            'Hemostatic Gauze': 'woundpack',
+            'IV Blood': 'ivBlood',
+            'IV Saline': 'ivSaline',
+            'IV_Blood': 'ivBlood',
+            'IV_Saline': 'ivSaline',
             'Nasal Airway': 'airway',
-            'Gauze_Pack': 'woundpack'
+            'Naso': 'airway',
+            'Needle': 'decompress',
+            'Occlusive': 'chestSeal',
+            'Pain Meds': 'painMeds',
+            'Pain_Meds': 'painMeds',
+            'Pulse Oximeter': '',
+            'Pulse_Oximeter': '',
+            'SAM Splint': 'splint',
+            'SAM_Splint': 'splint',
+            'Shears': '',
+            'SurgicalTape': '',
+            'Tourniquet': 'tourniquet',
         }
         
         # Tool data designations
@@ -531,7 +566,26 @@ class FRVRSUtilities(object):
     
     @staticmethod
     def get_last_still_engagement(actual_engagement_order, verbose=False):
-            
+        """
+        A utility method to retrieve the timestamp of the last engagement of still patients.
+
+        Parameters:
+            actual_engagement_order (array_like): A 2D array containing engagement information for patients.
+            verbose (bool, optional): If True, prints debug output. Default is False.
+
+        Returns:
+            last_still_engagement (float): The timestamp of the last engagement of still patients.
+
+        Notes:
+            This method assumes that the input array contains columns in the following order:
+            1. 'patient_id'
+            2. 'engagement_start'
+            3. 'location_tuple'
+            4. 'patient_sort'
+            5. 'predicted_priority'
+            6. 'injury_severity'
+        """
+        
         # Get the chronological order of engagement starts for each patient in the scene
         columns_list = ['patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity']
         df = DataFrame(actual_engagement_order, columns=columns_list)
@@ -546,7 +600,23 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_actual_engagement_distance(actual_engagement_order, verbose=False):
+    def get_actual_engagement_distance(actual_engagement_order, verbose):
+        """
+        Calculate the total distance covered during actual engagements.
+        
+        Parameters:
+            actual_engagement_order (list of tuples):
+                A chronologically-ordered list containing tuples of engagements, 
+                where each tuple contains information about the engagement.
+                The third element of the tuple must be a location tuple.
+            verbose (bool, optional): If True, prints debug information. Default is False.
+        
+        Returns:
+            float: The total Euclidean distance covered during actual engagements.
+        """
+        
+        # Filter out all the non-locations of the non-engaged
+        actual_engagement_order = [engagement_tuple for engagement_tuple in actual_engagement_order if engagement_tuple[2] is not None]
         
         # Add the Euclidean distances between the successive engagment locations of a chronologically-ordered list
         actual_engagement_distance = sum([
@@ -559,64 +629,53 @@ class FRVRSUtilities(object):
     
     
     def get_distance_deltas_data_frame(self, logs_df, verbose=False):
+        """
+        Compute various metrics related to engagement distances and ordering for scenes in logs dataframe.
+        
+        Parameters:
+            logs_df (pandas DataFrame): Dataframe containing logs of engagement scenes.
+            verbose (bool, optional): Verbosity flag for debugging output, by default False.
+        
+        Returns:
+            pandas.DataFrame: DataFrame containing computed metrics for each scene.
+        
+        Notes:
+            This function computes metrics such as patient count, engagement order, last still engagement, actual engagement distance,
+            measure of right ordering, and adherence to SALT protocol for each scene in the logs DataFrame.
+        """
         rows_list = []
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
             row_dict = {}
             for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
             
+            # Get patient_count
+            patient_count = self.get_patient_count(scene_df)
+            row_dict['patient_count'] = patient_count
+            
             # Get the chronological order of engagement starts for each patient in the scene
-            actual_engagement_order = self.get_actual_engagement_order(scene_df, verbose=False)
+            actual_engagement_order = self.get_actual_engagement_order(scene_df, include_noninteracteds=True, verbose=False)
+            assert len(actual_engagement_order) == patient_count, f"There are {patient_count} patients in this scene and only {len(actual_engagement_order)} engagement tuples:\n{scene_df[~scene_df.patient_id.isnull()].patient_id.unique().tolist()}\n{actual_engagement_order}"
+            unengaged_patient_count = 0; engaged_patient_count = 0
+            for engagement_tuple in actual_engagement_order:
+                if engagement_tuple[1] < 0:
+                    column_name = f'unengaged_patient{unengaged_patient_count:0>2}_metadata'
+                    unengaged_patient_count += 1
+                else:
+                    column_name = f'engaged_patient{engaged_patient_count:0>2}_metadata'
+                    engaged_patient_count += 1
+                column_value = '|'.join([str(x) for x in list(engagement_tuple)])
+                if not isna(column_value): row_dict[column_name] = column_value
             
             # Get last still engagement and subtract the scene start
             last_still_engagement = self.get_last_still_engagement(actual_engagement_order, verbose=verbose)
-            mask_series = True
-            for cn in self.scene_groupby_columns: mask_series &= (logs_df[cn] == eval(cn))
-            row_dict['last_still_engagement'] = last_still_engagement - self.get_scene_start(logs_df[mask_series])
+            row_dict['last_still_engagement'] = last_still_engagement - self.get_scene_start(scene_df)
             
             # Actual
             row_dict['actual_engagement_distance'] = self.get_actual_engagement_distance(actual_engagement_order, verbose=verbose)
             
-            # Ideal
-            # ideal_engagement_order = self.get_ideal_engagement_order(scene_df, verbose=False)
-            # ideal_engagement_distance = sum([
-                # math.sqrt(
-                    # (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
-                # ) for first_tuple, last_tuple in zip(ideal_engagement_order[:-1], ideal_engagement_order[1:])
-            # ])
-            # row_dict['ideal_engagement_distance'] = ideal_engagement_distance
-            
-            # Calculate the R-squared adjusted value as a measure of ideal ordering
-            # X, y = Series([t[1] for t in ideal_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
-            # if X.shape[0]:
-                # X1 = sm.add_constant(X)
-                # try: measure_of_ideal_ordering = sm.OLS(y, X1).fit().rsquared_adj
-                # except: measure_of_ideal_ordering = nan
-            # else: measure_of_ideal_ordering = nan
-            # row_dict['measure_of_ideal_ordering'] = measure_of_ideal_ordering
-            
-            # Distracted
-            # distracted_engagement_order = self.get_distracted_engagement_order(scene_df, tuples_list=actual_engagement_order, verbose=False)
-            # distracted_engagement_distance = sum([
-                # math.sqrt(
-                    # (first_tuple[2][0] - last_tuple[2][0])**2 + (first_tuple[2][1] - last_tuple[2][1])**2
-                # ) for first_tuple, last_tuple in zip(distracted_engagement_order[:-1], distracted_engagement_order[1:])
-            # ])
-            # row_dict['distracted_engagement_distance'] = distracted_engagement_distance
-            
-            # Calculate the R-squared adjusted value as a measure of distracted ordering
-            # X, y = Series([t[1] for t in distracted_engagement_order]).values.reshape(-1, 1), Series([t[1] for t in actual_engagement_order]).values.reshape(-1, 1)
-            # if X.shape[0]:
-                # X1 = sm.add_constant(X)
-                # try: measure_of_distracted_ordering = sm.OLS(y, X1).fit().rsquared_adj
-                # except: measure_of_distracted_ordering = nan
-            # else: measure_of_distracted_ordering = nan
-            # row_dict['measure_of_distracted_ordering'] = measure_of_distracted_ordering
-            
             # Calculate the measure of right ordering
             row_dict['measure_of_right_ordering'] = self.get_measure_of_right_ordering(scene_df, verbose=verbose)
             
-            # row_dict['actual_ideal_delta'] = actual_engagement_distance - ideal_engagement_distance
-            # row_dict['actual_distracted_delta'] = actual_engagement_distance - distracted_engagement_distance
             rows_list.append(row_dict)
         distance_delta_df = DataFrame(rows_list)
         
@@ -1031,11 +1090,13 @@ class FRVRSUtilities(object):
             int: The number of patients who have not received injury treatment.
         """
         
-        # Create a boolean mask to filter records where injuries were not treated
-        mask_series = (scene_df.injury_treated_injury_treated == False)
-        
-        # Use the mask to filter the DataFrame and count the number of untreated injuries
-        injury_not_treated_count = scene_df[mask_series].shape[0]
+        # Loop through each injury and make a determination if it's treated or not
+        injury_not_treated_count = 0
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            for injury_id, injury_df in patient_df.groupby('injury_id'):
+                mask_series = (injury_df.action_type == 'INJURY_TREATED')
+                if not mask_series.any():
+                    injury_not_treated_count += 1
         
         # If verbose is True, print additional information
         if verbose:
@@ -1046,8 +1107,7 @@ class FRVRSUtilities(object):
         return injury_not_treated_count
     
     
-    @staticmethod
-    def get_injury_correctly_treated_count(scene_df, verbose=False):
+    def get_injury_correctly_treated_count(self, scene_df, verbose=False):
         """
         Get the count of records in a scene DataFrame where injuries were correctly treated.
         
@@ -1067,13 +1127,10 @@ class FRVRSUtilities(object):
         
         # Loop through each injury ID and make a determination if it's treated or not
         injury_correctly_treated_count = 0
-        for injury_id, injury_df in scene_df.groupby('injury_id'):
-            
-            # Filter for injuries that have been treated and not wrong
-            treated_mask_series = ~injury_df.injury_treated_required_procedure.isnull()
-            treated_mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
-            
-            if injury_df[treated_mask_series].shape[0]: injury_correctly_treated_count += 1
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            for injury_id, injury_df in patient_df.groupby('injury_id'):
+                is_correctly_treated = self.get_is_injury_correctly_treated(injury_df, patient_df, verbose=verbose)
+                if is_correctly_treated: injury_correctly_treated_count += 1
         
         # If verbose is True, print additional information
         if verbose:
@@ -1103,14 +1160,19 @@ class FRVRSUtilities(object):
             the right tool was applied after that.
         """
         
-        # Filter for patients with injury_treated set to True
-        mask_series = (scene_df.injury_treated_injury_treated == True)
+        # Get the count of all the patient injuries
+        all_patient_injuries_count = 0
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            all_patient_injuries_count += patient_df.injury_id.nunique()
         
-        # Include cases where the FRVRS logger incorrectly logs injury_treated_injury_treated_with_wrong_treatment as True
-        mask_series &= (scene_df.injury_treated_injury_treated_with_wrong_treatment == True)
+        # Get the count of all correctly treated injuries
+        correctly_treated_count = self.get_injury_correctly_treated_count(scene_df)
+        
+        # Get the count of all untreated injuries
+        not_treated_count = self.get_injury_not_treated_count(scene_df)
         
         # Count the number of patients whose injuries have been incorrectly treated
-        injury_wrongly_treated_count = scene_df[mask_series].shape[0]
+        injury_wrongly_treated_count = all_patient_injuries_count - correctly_treated_count - not_treated_count
         
         # If verbose is True, print additional information
         if verbose:
@@ -1655,7 +1717,7 @@ class FRVRSUtilities(object):
                         hemorrhage_count += 1
                         
                         # Check if the injury was treated correctly
-                        is_correctly_treated = self.get_is_injury_correctly_treated(injury_df, verbose=verbose)
+                        is_correctly_treated = self.get_is_injury_correctly_treated(injury_df, patient_df, verbose=verbose)
                         
                         # See if there are any tools applied that are associated with the hemorrhage injuries
                         is_tool_applied_correctly = self.get_is_hemorrhage_tool_applied(injury_df, patient_df, verbose=verbose)
@@ -1788,6 +1850,27 @@ class FRVRSUtilities(object):
         engagement_starts_list = []
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             
+            # Get the cluster ID, if available
+            mask_series = ~patient_df.patient_sort.isnull()
+            patient_sort = (
+                patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
+                if mask_series.any()
+                else None
+            )
+            
+            # Get the predicted priority
+            if 'dtr_triage_priority_model_prediction' in patient_df.columns:
+                mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
+                predicted_priority = (
+                    patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
+                    if mask_series.any()
+                    else None
+                )
+            else: predicted_priority = None
+            
+            # Get the maximum injury severity
+            injury_severity = self.get_maximum_injury_severity(patient_df)
+            
             # Check if the responder even interacted with this patient
             mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
             if mask_series.any():
@@ -1803,29 +1886,14 @@ class FRVRSUtilities(object):
                     engagement_start = df.iloc[0].action_tick
                     location_tuple = (0.0, 0.0)
                 
-                # Get the cluster ID, if available
-                mask_series = ~patient_df.patient_sort.isnull()
-                patient_sort = (
-                    patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
-                    if mask_series.any()
-                    else None
-                )
-                
-                # Get the predicted priority
-                if 'dtr_triage_priority_model_prediction' in patient_df.columns:
-                    mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
-                    predicted_priority = (
-                        patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
-                        if mask_series.any()
-                        else None
-                    )
-                else: predicted_priority = None
-                
-                # Get the maximum injury severity
-                injury_severity = self.get_maximum_injury_severity(patient_df)
-                
                 # Add engagement information to the list
                 engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort, predicted_priority, injury_severity)
+                engagement_starts_list.append(engagement_tuple)
+            
+            elif include_noninteracteds:
+                
+                # Add engagement information to the list
+                engagement_tuple = (patient_id, -99999, None, patient_sort, predicted_priority, injury_severity)
                 engagement_starts_list.append(engagement_tuple)
         
         # Sort the starts list chronologically
@@ -2535,9 +2603,32 @@ class FRVRSUtilities(object):
     
     @staticmethod
     def get_maximum_injury_severity(patient_df, verbose=False):
+        """
+        Compute the maximum injury severity from a DataFrame of patient data.
+        
+        Parameters:
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient data, including a column 'injury_severity'
+                which indicates the severity of the injury.
+            verbose (bool, optional): If True, print debug information. Default is False.
+        
+        Returns:
+            maximum_injury_severity (float or None):
+                The maximum severity of injury found in the DataFrame, or None if
+                no valid severity values are present.
+        
+        Notes:
+            This function assumes that the DataFrame contains a column named 'injury_severity'
+            which represents the severity of injuries, with higher values indicating more severe
+            injuries. If 'injury_severity' is missing or contains non-numeric values, this
+            function will return None.
+        """
+        
+        # Filter out rows where injury severity is missing
         mask_series = ~patient_df.injury_severity.isnull()
         
-        # The first of the high/medium/low category
+        # Find the minimum severity among valid values
+        # since higher values indicate more severe injuries
         maximum_injury_severity = patient_df[mask_series].injury_severity.min()
         
         return maximum_injury_severity
@@ -2553,8 +2644,7 @@ class FRVRSUtilities(object):
     ### Injury Functions ###
     
     
-    @staticmethod
-    def get_is_injury_correctly_treated(injury_df, verbose=False):
+    def get_is_injury_correctly_treated(self, injury_df, patient_df=None, verbose=False):
         """
         Determine whether the given injury was correctly treated.
         
@@ -2571,15 +2661,36 @@ class FRVRSUtilities(object):
             remains and another INJURY_TREATED is never logged, even though
             the right tool was applied after that.
         """
-        
-        # Create a mask to identify treated injuries
-        mask_series = (injury_df.injury_treated_injury_treated == True)
-        
-        # Add to that mask to identify correctly treated injuries
-        mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
-        
-        # Return True if there are correctly treated attempts, False otherwise
-        is_correctly_treated = mask_series.any()
+        mask_series = ~injury_df.injury_record_required_procedure.isnull()
+        required_procedure = injury_df[mask_series].injury_record_required_procedure.mode().squeeze()
+        if isinstance(required_procedure, Series):
+            mask_series = ~injury_df.injury_treated_required_procedure.isnull()
+            required_procedure = injury_df[mask_series].injury_treated_required_procedure.mode().squeeze()
+        assert not isinstance(required_procedure, Series), "You have no required procedures"
+        is_correctly_treated = (required_procedure == 'none')
+        if (not is_correctly_treated) and (patient_df is None):
+            
+            # Create a mask to identify treated injuries
+            mask_series = (injury_df.injury_treated_injury_treated == True)
+            
+            # Add to that mask to identify correctly treated injuries
+            mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
+            
+            # Return True if there are correctly treated attempts, False otherwise
+            is_correctly_treated = mask_series.any()
+            
+        elif patient_df is not None:
+            millisecond_threshold = 3
+            mask_series = (injury_df.action_type == 'INJURY_TREATED')
+            action_ticks_list = sorted(injury_df[mask_series].action_tick.unique())
+            for action_tick in action_ticks_list:
+                mask_series = patient_df.action_tick.map(
+                    lambda ts: abs(ts - action_tick) < millisecond_threshold
+                ) & patient_df.action_type.isin(['TOOL_APPLIED'])
+                if mask_series.any():
+                    is_correctly_treated = any(
+                        [(required_procedure == self.tool_type_to_required_procedure_dict.get(tool_type)) for tool_type in patient_df[mask_series].tool_applied_type]
+                    )
         
         # If verbose is True, print additional information
         if verbose:
@@ -4150,7 +4261,25 @@ class FRVRSUtilities(object):
     
     
     def add_encounter_layout_column(self, csv_stats_df, json_stats_df, verbose=False):
-        if verbose: print(csv_stats_df.shape)
+        """
+        Add a new column to the JSON statistics DataFrame indicating the environment of each encounter.
+        
+        Parameters:
+            csv_stats_df (pandas.DataFrame):
+                DataFrame containing statistics from CSV files.
+            json_stats_df (pandas.DataFrame):
+                DataFrame containing statistics from JSON files.
+            verbose (bool, optional):
+                If True, print verbose output, by default False.
+        
+        Returns:
+            None
+        """
+        if verbose: 
+            
+            # Print the shape of the CSV stats DataFrame
+            print(csv_stats_df.shape)
+        
         new_column_name = 'encounter_layout'
         
         # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
@@ -4161,7 +4290,10 @@ class FRVRSUtilities(object):
         
         # Loop through each session and scene in the CSV stats dataset
         for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(self.scene_groupby_columns):
-            if verbose: print(scene_df.patient_id.unique().tolist())
+            if verbose:
+                
+                # Print the unique patient IDs for each scene
+                print(scene_df.patient_id.unique().tolist())
             
             # Loop through each environment and get the patients list for that environment
             for env_str in ['desert', 'jungle', 'submarine', 'urban']:
@@ -4173,15 +4305,31 @@ class FRVRSUtilities(object):
                     # If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column
                     mask_series = (json_stats_df.session_uuid == session_uuid)
                     json_stats_df.loc[mask_series, new_column_name] = env_str.title()
-                    
-                    # Store the results
-                    nu.store_objects(metrics_evaluation_open_world_json_stats_df=json_stats_df)
-                    nu.save_data_frames(metrics_evaluation_open_world_json_stats_df=json_stats_df)
         
-        if verbose: print(json_stats_df.shape) # (43, 3541)
-        if verbose: display(json_stats_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
+        if verbose:
+            
+            # Print the shape of the JSON stats DataFrame
+            print(json_stats_df.shape) # (43, 3541)
+            
+            # Display the count of records for each environment
+            display(json_stats_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
+    
     
     def add_medical_role_column(self, json_stats_df, anova_df, verbose=False):
+        """
+        Add a medical role column to the dataframe by merging with JSON stats.
+        
+        Parameters:
+            json_stats_df (pandas.DataFrame):
+                Dataframe containing JSON statistics.
+            anova_df (pandas.DataFrame):
+                Dataframe to merge with JSON statistics dataframe.
+            verbose (bool, optional):
+                If True, print verbose output, by default False.
+        
+        Returns:
+            None
+        """
         
         # Use the "MedRole" key from the JSON stats to determine the integer value
         new_column = 'MedRole'
@@ -4202,17 +4350,29 @@ class FRVRSUtilities(object):
                 lambda cv: get_value_description('MedRole', cv)
             ).replace('', nan)
             
-            # Store the results
-            nu.store_objects(metrics_evaluation_open_world_anova_df=anova_df, verbose=True)
-            nu.save_data_frames(metrics_evaluation_open_world_anova_df=anova_df, verbose=True)
-            
             if verbose: print(anova_df.shape)
             if verbose: print(anova_df.columns.tolist())
             if verbose: display(anova_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
                 'record_count', ascending=False
             ).head(5))
     
+    
     def get_configData_scenarioData_difficulty(self, json_stats_df, anova_df, verbose=False):
+        """
+        Calculate the average difficulty level from the scenarioData dictionary within the configData dictionary 
+        of the JSON data for a session and participant.
+        
+        Parameters:
+            json_stats_df (pandas.DataFrame):
+                DataFrame containing JSON data for the session and participant.
+            anova_df (pandas.DataFrame):
+                DataFrame containing data for ANOVA analysis.
+            verbose (bool, optional):
+                If True, print debug output. Default is False.
+        
+        Returns:
+            float: The average difficulty level.
+        """
         
         # Find the scenarioData dictionary within the configData dictionary of the JSON data for that session and participant
         

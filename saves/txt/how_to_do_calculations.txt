@@ -4,32 +4,13 @@ participant_id (Participant ID)
 Steps Needed to do Calculations:
 1. The participant_id and session_uuid are found in both the CSV and the JSON data in the "Human_Sim_Metrics_Data 4-12-2024.zip" file provided by CACI.
 
-session_uuid (Session UUID)
-Steps Needed to do Calculations:
-1. The participant_id and session_uuid are found in both the CSV and the JSON data in the "Human_Sim_Metrics_Data 4-12-2024.zip" file provided by CACI.
-
 scene_id (Scene ID)
 Steps Needed to do Calculations:
 1. The scene_id is derived from the CSV SESSION_START and SESSION_END entries.
 
-medical_role (Medical Role)
+session_uuid (Session UUID)
 Steps Needed to do Calculations:
-1. Group your dataset by participant_id, session_uuid, and scene_id.
-2. Use the "MedRole" key from the JSON stats to determine the integer value.
-3. Determine the intersection of JSON stats columns and the columns in your dataframe to merge on (usually participant_id and session_uuid).
-4. Filter only those "merge on" columns and the "MedRole" column on the right side of the merge in order for your dataframe to do a left outer join with the JSON stats dataframe.
-5. Decode the integer value by means of the Labels column in the Metrics_Evaluation_Dataset_organization_for_BBAI spreadsheet provided by CACI and map that to the new column.
-6. Store the results.
-
-encounter_layout (Encounter Layout)
-Steps Needed to do Calculations:
-1. Group your dataset by participant_id, session_uuid, and scene_id.
-2. Use the patients lists from the March 25th ITM BBAI Exploratory analysis email.
-3. Loop through each session and scene in the CSV stats dataset.
-4. Loop through each environment and get the patients list for that environment.
-5. Check if all patients are in that scene.
-6. If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column.
-7. Store the results.
+1. The participant_id and session_uuid are found in both the CSV and the JSON data in the "Human_Sim_Metrics_Data 4-12-2024.zip" file provided by CACI.
 
 mean_AD_KDMA_Sim (Average KDMA measurement from simulator probe responses)
 Steps Needed to do Calculations:
@@ -67,16 +48,11 @@ Steps Needed to do Calculations:
 2. Find the YrsMilExp column in the participant_data_0420 spreadsheet provided by CACI for that participant.
 3. The YrsMilExp value is semi-continously numeric, and you can average it for whatever grouping you need.
 
-mean_configData_scenarioData_difficulty (Average Config Data Scenario Data Difficulty)
-Steps Needed to do Calculations:
-1. Group your dataset by participant_id, session_uuid, and scene_id.
-2. Find the scenarioData dictionary within the configData dictionary of the JSON data for that session and participant.
-3. Inside, you will find three keys: description, difficulty, and name. The difficulty key is semi-continously numeric, and you can average it for whatever grouping you need.
-
 mean_actual_engagement_distance (Average Actual Engagement Distance)
 Steps Needed to do Calculations:
 1. Group your dataset by participant_id, session_uuid, and scene_id.
-2. Add the Euclidean distances between the successive engagment locations of a chronologically-ordered list.
+2. Filter out all the non-locations of the non-engaged.
+3. Add the Euclidean distances between the successive engagment locations of a chronologically-ordered list.
 
 mean_first_engagement (Average First Engagement)
 Steps Needed to do Calculations:
@@ -249,3 +225,126 @@ Steps Needed to do Calculations:
 1. Group your dataset by participant_id, session_uuid, and scene_id.
 2. Check in the scene if there are any WAVE_IF_CAN actions.
 3. If there are, output a 1 (Wave Command issued), if not, output a 0 (No Wave Command issued).
+
+engaged_patient00_metadata (Engaged Patient00 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient01_metadata (Engaged Patient01 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient02_metadata (Engaged Patient02 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient03_metadata (Engaged Patient03 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient04_metadata (Engaged Patient04 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient05_metadata (Engaged Patient05 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient06_metadata (Engaged Patient06 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient07_metadata (Engaged Patient07 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient08_metadata (Engaged Patient08 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient09_metadata (Engaged Patient09 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient10_metadata (Engaged Patient10 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+engaged_patient11_metadata (Engaged Patient11 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient00_metadata (Unengaged Patient00 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient01_metadata (Unengaged Patient01 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient02_metadata (Unengaged Patient02 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient03_metadata (Unengaged Patient03 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient04_metadata (Unengaged Patient04 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient05_metadata (Unengaged Patient05 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient06_metadata (Unengaged Patient06 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient07_metadata (Unengaged Patient07 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient08_metadata (Unengaged Patient08 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient09_metadata (Unengaged Patient09 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient10_metadata (Unengaged Patient10 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient11_metadata (Unengaged Patient11 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient12_metadata (Unengaged Patient12 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+unengaged_patient13_metadata (Unengaged Patient13 Metadata)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+
+medical_role (Medical Role)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Use the "MedRole" key from the JSON stats to determine the integer value.
+3. Determine the intersection of JSON stats columns and the columns in your dataframe to merge on (usually participant_id and session_uuid).
+4. Filter only those "merge on" columns and the "MedRole" column on the right side of the merge in order for your dataframe to do a left outer join with the JSON stats dataframe.
+5. Decode the integer value by means of the Labels column in the Metrics_Evaluation_Dataset_organization_for_BBAI spreadsheet provided by CACI and map that to the new column.
+6. Store the results.
+
+encounter_layout (Encounter Layout)
+Steps Needed to do Calculations:
+1. Group your dataset by participant_id, session_uuid, and scene_id.
+2. Use the patients lists from the March 25th ITM BBAI Exploratory analysis email.
+3. Loop through each session and scene in the CSV stats dataset.
+4. Loop through each environment and get the patients list for that environment.
+5. Check if all patients are in that scene.
+6. If so, find the corresponding session in the JSON stats dataset and add that environment to it as a new column.
+7. Store the results.

@@ -2147,7 +2147,7 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def one_hot_encode(df, columns):
+    def one_hot_encode(df, columns, dummy_na=True):
         '''
         One-hot encodes the given columns in the given data frame.
         
@@ -2159,8 +2159,9 @@ class NotebookUtilities(object):
             A data frame with the encoded columns minus the given columns.
         '''
         
-        dummies = pd.get_dummies(df[columns], dummy_na=True)
-        df = pd.concat([df, dummies], axis='columns').drop(columns, axis='columns')
+        dummies = pd.get_dummies(df[columns], dummy_na=dummy_na)
+        columns_list = sorted(set(dummies.columns).difference(set(df.columns)))
+        df = concat([df, dummies[columns_list]], axis='columns').drop(columns, axis='columns')
         
         return df
     
@@ -2250,25 +2251,52 @@ class NotebookUtilities(object):
     
     @staticmethod
     def get_numeric_columns(df, is_na_dropped=True):
-        from pandas.core.arrays import numeric
-        def is_numeric(value):
-            try:
-                float(value)
-                return not pd.isna(value)
-            except ValueError: pass
-            except TypeError: return False
-            try:
-                int(value)
-                return True
-            except ValueError: return False
-        numeric_columns = []
-        for cn in df.columns:
-            if(numeric.is_integer_dtype(df[cn]) or numeric.is_float_dtype(df[cn]) or df[cn].map(lambda x: is_numeric(x)).all()):
-                numeric_columns.append(cn)
-        if is_na_dropped: numeric_columns = df[numeric_columns].dropna(axis='columns', how='all').columns
-        numeric_columns = sorted(numeric_columns)
+        """
+        Identify numeric columns in a DataFrame.
         
-        return numeric_columns
+        Parameters:
+            df (pandas.DataFrame): The DataFrame to search for numeric columns.
+            is_na_dropped (bool, optional): Whether to drop columns with all NaN values. Default is True.
+        
+        Returns:
+            list: A list of column names containing numeric values.
+        
+        Notes:
+            This function identifies numeric columns by checking if the data in each column
+            can be interpreted as numeric. It checks for integer, floating-point, and numeric-like
+            objects.
+        
+        Examples:
+            import pandas as pd
+            df = pd.DataFrame({'A': [1, 2, 3], 'B': [1.1, 2.2, 3.3], 'C': ['a', 'b', 'c']})
+            nu.get_numeric_columns(df)
+            ['A', 'B']
+        """
+        
+        # Check if pandas is installed and import relevant functions
+        try:
+            from pandas.core.arrays.numeric import is_integer_dtype, is_float_dtype
+            is_integer = lambda srs: is_integer_dtype(srs)
+            is_float = lambda srs: is_float_dtype(srs)
+        except:
+            
+            # Use numpy functions if this version of pandas is not available
+            is_integer = lambda srs: any(map(lambda value: np.issubdtype(type(value), np.integer), srs.tolist()))
+            is_float = lambda srs: any(map(lambda value: np.issubdtype(type(value), np.floating), srs.tolist()))
+
+        # Initialize an empty list to store numeric column names
+        numeric_columns = []
+
+        # Iterate over DataFrame columns to identify numeric columns
+        for cn in df.columns:
+            if is_integer(df[cn]) or is_float(df[cn]):
+                numeric_columns.append(cn)
+
+        # Optionally drop columns with all NaN values
+        if is_na_dropped: numeric_columns = df[numeric_columns].dropna(axis='columns', how='all').columns
+
+        # Sort and return the list of numeric column names
+        return sorted(numeric_columns)
     
     
     ### LLM Functions ###
