@@ -1,8 +1,7 @@
-
 #!/usr/bin/env python
 # Utility Functions to run Jupyter notebooks.
-# Dave Babbitt <dave.babbitt@gmail.com>
-# Author: Dave Babbitt, Data Scientist
+# Dave Babbitt <dave.babbitt@bigbear.ai>
+# Author: Dave Babbitt, Machine Learning Engineer
 # coding: utf-8
 
 # Soli Deo gloria
@@ -11,7 +10,8 @@ from bs4 import BeautifulSoup as bs
 from datetime import timedelta
 from numpy import nan, isnan
 from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
-from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, read_html
+from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, get_dummies, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, read_html
+from re import IGNORECASE, MULTILINE, Pattern, compile, split, sub
 from typing import List, Optional
 import humanize
 import math
@@ -37,6 +37,17 @@ try:
     from IPython.display import display
 except NameError:
     display = lambda message: print(message)
+
+# Check if pandas is installed and import relevant functions
+try:
+    from pandas.core.arrays.numeric import is_integer_dtype, is_float_dtype
+    is_integer = lambda srs: is_integer_dtype(srs)
+    is_float = lambda srs: is_float_dtype(srs)
+except:
+    
+    # Use numpy functions if this version of pandas is not available
+    is_integer = lambda srs: any(map(lambda value: np.issubdtype(type(value), np.integer), srs.tolist()))
+    is_float = lambda srs: any(map(lambda value: np.issubdtype(type(value), np.floating), srs.tolist()))
 
 class NotebookUtilities(object):
     """
@@ -115,10 +126,10 @@ class NotebookUtilities(object):
         self.decoding_error = self.decoding_errors_list[2]
         
         # Determine URL from file path
-        self.url_regex = re.compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', re.IGNORECASE)
-        self.filepath_regex = re.compile(
+        self.url_regex = compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', IGNORECASE)
+        self.filepath_regex = compile(
             r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])',
-            re.IGNORECASE
+            IGNORECASE
         )
         
         # Various aspect ratios
@@ -164,10 +175,10 @@ class NotebookUtilities(object):
         """
         
         # Split the input string using various separators
-        stripped_list = re.split(r'( |/|\x96|\u2009|-|\[)', str(x), 0)
+        stripped_list = split(r'( |/|\x96|\u2009|-|\[)', str(x), 0)
         
         # Remove non-numeric characters from each element in the stripped list
-        stripped_list = [re.sub(r'\D+', '', x) for x in stripped_list]
+        stripped_list = [sub(r'\D+', '', x) for x in stripped_list]
         
         # Filter elements with lengths between 3 and 4, as likely to be years
         stripped_list = [x for x in stripped_list if (len(x) >= 3) and (len(x) <= 4)]
@@ -801,7 +812,7 @@ class NotebookUtilities(object):
         if util_path is None: util_path = '../py/notebook_utils.py'
         
         # Compile the regular expression pattern for identifying function definitions
-        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
+        utils_regex = compile(r'def ([a-z0-9_]+)\(')
         
         # Read the utility file and extract function names
         with open(util_path, 'r', encoding='utf-8') as f:
@@ -897,20 +908,20 @@ class NotebookUtilities(object):
         """
         
         # Make sure the provided folder exists and is a directory
-        if not os.path.exists(folder_path): raise FileNotFoundError(f'Directory {folder_path} does not exist.')
-        if not os.path.isdir(folder_path): raise NotADirectoryError(f'Path {folder_path} is not a directory.')
+        if not osp.exists(folder_path): raise FileNotFoundError(f'Directory {folder_path} does not exist.')
+        if not osp.isdir(folder_path): raise NotADirectoryError(f'Path {folder_path} is not a directory.')
         
         # Initialize an empty list to store top-level folder paths
         top_level_folders = []
         
         # Iterate through items in the specified folder
-        for item in os.listdir(folder_path):
+        for item in listdir(folder_path):
             
             # Construct the full path for each item
-            full_item_path = os.path.join(folder_path, item)
+            full_item_path = osp.join(folder_path, item)
             
             # Check if the item is a directory, and if so, add its path to the list
-            if os.path.isdir(full_item_path): top_level_folders.append(full_item_path)
+            if osp.isdir(full_item_path): top_level_folders.append(full_item_path)
         
         # Optionally print information based on the `verbose` flag
         if verbose: print(f'Found {len(top_level_folders)} top-level folders in {folder_path}.')
@@ -932,11 +943,11 @@ class NotebookUtilities(object):
         Returns:
             dict: The dictionary of function definitions with the count of their occurances.
         """
-        fn_regex = re.compile(r'\s+"def ([a-z0-9_]+)\(')
+        fn_regex = compile(r'\s+"def ([a-z0-9_]+)\(')
         black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
         if github_folder is None: github_folder = self.github_folder
         rogue_fns_dict = {}
-        for sub_directory, directories_list, files_list in os.walk(github_folder):
+        for sub_directory, directories_list, files_list in walk(github_folder):
             if all(map(lambda x: x not in sub_directory, black_list)):
                 for file_name in files_list:
                     if file_name.endswith('.ipynb') and not ('Attic' in file_name):
@@ -1057,13 +1068,13 @@ class NotebookUtilities(object):
         import shutil
         
         # Iterate over all subdirectories within the github_folder
-        for sub_directory, directories_list, files_list in os.walk(github_folder):
+        for sub_directory, directories_list, files_list in walk(github_folder):
             
             # Check if the directory 'ipynb_checkpoints' exists in the current subdirectory
             if '.ipynb_checkpoints' in directories_list:
                 
                 # Construct the full path to the '.ipynb_checkpoints' folder
-                folder_path = os.path.join(sub_directory, '.ipynb_checkpoints')
+                folder_path = osp.join(sub_directory, '.ipynb_checkpoints')
                 
                 # Remove the folder and its contents
                 shutil.rmtree(folder_path)
@@ -1433,13 +1444,13 @@ class NotebookUtilities(object):
         """
         Find all the non-staticmethod-decorated functions and refactor if needed.
         """
-        instance_defs_regex = re.compile(r'^    def ([a-z]+[a-z_]+)\(\s*self,\s+(?:[^\)]+)\):', re.MULTILINE)
-        self_regex = re.compile(r'\bself\b')
+        instance_defs_regex = compile(r'^    def ([a-z]+[a-z_]+)\(\s*self,\s+(?:[^\)]+)\):', MULTILINE)
+        self_regex = compile(r'\bself\b')
         functions_list = []
         black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
         this_folder = '../py'
         if verbose: print()
-        for sub_directory, directories_list, files_list in os.walk(this_folder):
+        for sub_directory, directories_list, files_list in walk(this_folder):
             if all(map(lambda x: x not in sub_directory, black_list)):
                 for file_name in files_list:
                     if file_name.endswith('.py'):
@@ -1449,7 +1460,7 @@ class NotebookUtilities(object):
                             fn_parts_list = instance_defs_regex.split(file_text)
                             for fn_name, fn_body in zip(fn_parts_list[1::2], fn_parts_list[2::2]):
                                 if not self_regex.search(fn_body):
-                                    instance_def_regex = re.compile(rf'^    def {fn_name}\(\s*self,\s+(?:[^\)]+)\):', re.MULTILINE)
+                                    instance_def_regex = compile(rf'^    def {fn_name}\(\s*self,\s+(?:[^\)]+)\):', MULTILINE)
                                     match_obj = instance_def_regex.search(file_text)
                                     if match_obj: replaced_str = match_obj.group()
                                     else: replaced_str = ''
@@ -1773,7 +1784,7 @@ class NotebookUtilities(object):
             It is assumed that the infobox contains no headers which would prefix any duplicate labels
         """
         import wikipedia
-        ascii_regex = re.compile('[^a-z0-9]+')
+        ascii_regex = compile('[^a-z0-9]+')
         rows_list = []
         def clean_text(parent_soup, verbose=False):
             texts_list = []
@@ -1782,7 +1793,7 @@ class NotebookUtilities(object):
             parent_text = ' '.join(texts_list)
             for this, with_that in zip([' )', ' ]', '( ', '[ '], [')', ']', '(', '[']):
                 parent_text = parent_text.replace(this, with_that)
-            parent_text = re.sub(r'[\s\u200b\xa0]+', ' ', parent_text).strip()
+            parent_text = sub(r'[\s\u200b\xa0]+', ' ', parent_text).strip()
             
             return parent_text
         if verbose:
@@ -1845,7 +1856,7 @@ class NotebookUtilities(object):
         # Combine masks using bitwise AND operation
         # mask_series = X_finite_mask & y_finite_mask
         
-        mask_series = pd.concat([y_train, X_train], axis='columns').applymap(pd.notna).all(axis='columns')
+        mask_series = concat([y_train, X_train], axis='columns').applymap(notnull).all(axis='columns')
         
         # Return a mask indicating which elements of both X_train and y_train are not inf or nan
         return mask_series
@@ -1905,7 +1916,7 @@ class NotebookUtilities(object):
                     except Exception: row_dict['count_zeroes'] = np.nan
                     
                     # Check if the column contains any dates
-                    date_series = pd.to_datetime(df[column_name], errors='coerce')
+                    date_series = to_datetime(df[column_name], errors='coerce')
                     null_series = date_series[~date_series.notnull()]
                     row_dict['has_dates'] = (null_series.shape[0] < date_series.shape[0])
                     
@@ -2051,12 +2062,12 @@ class NotebookUtilities(object):
         
         # Ensure that the search_regex is a compiled regular expression object
         assert (
-            isinstance(search_regex, re.Pattern)
+            isinstance(search_regex, Pattern)
         ), "search_regex must be a compiled regular expression."
         
         # If no search_regex is provided, use the default pattern for detecting references
         if search_regex is None:
-            search_regex = re.compile(
+            search_regex = compile(
                 '(Mike|Gary|Helga|Bob|Gloria|Lily)(_(0|1|2|3|4|5|6|7|8|9|10))? Root'
             )
         
@@ -2097,7 +2108,7 @@ class NotebookUtilities(object):
         
         # Set default pattern for detecting references if not provided
         if search_regex is None:
-            search_regex = re.compile(
+            search_regex = compile(
                 '(Mike|Gary|Helga|Bob|Gloria|Lily)(_(0|1|2|3|4|5|6|7|8|9|10))? Root'
             )
         
@@ -2159,7 +2170,7 @@ class NotebookUtilities(object):
             A data frame with the encoded columns minus the given columns.
         '''
         
-        dummies = pd.get_dummies(df[columns], dummy_na=dummy_na)
+        dummies = get_dummies(df[columns], dummy_na=dummy_na)
         columns_list = sorted(set(dummies.columns).difference(set(df.columns)))
         df = concat([df, dummies[columns_list]], axis='columns').drop(columns, axis='columns')
         
@@ -2272,17 +2283,6 @@ class NotebookUtilities(object):
             nu.get_numeric_columns(df)
             ['A', 'B']
         """
-        
-        # Check if pandas is installed and import relevant functions
-        try:
-            from pandas.core.arrays.numeric import is_integer_dtype, is_float_dtype
-            is_integer = lambda srs: is_integer_dtype(srs)
-            is_float = lambda srs: is_float_dtype(srs)
-        except:
-            
-            # Use numpy functions if this version of pandas is not available
-            is_integer = lambda srs: any(map(lambda value: np.issubdtype(type(value), np.integer), srs.tolist()))
-            is_float = lambda srs: any(map(lambda value: np.issubdtype(type(value), np.floating), srs.tolist()))
 
         # Initialize an empty list to store numeric column names
         numeric_columns = []
@@ -3377,7 +3377,7 @@ class NotebookUtilities(object):
             fig.suptitle(suptitle, y=y)
             
             # Save figure to PNG
-            file_path = osp.join(self.saves_png_folder, re.sub(r'\W+', '_', str(suptitle)).strip('_').lower() + '.png')
+            file_path = osp.join(self.saves_png_folder, sub(r'\W+', '_', str(suptitle)).strip('_').lower() + '.png')
             if verbose: print(f'Saving figure to {file_path}')
             plt.savefig(file_path, bbox_inches='tight')
         
