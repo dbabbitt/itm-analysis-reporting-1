@@ -11,7 +11,7 @@ from datetime import timedelta
 from numpy import nan, isnan
 from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
 from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, get_dummies, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, read_html
-from re import IGNORECASE, MULTILINE, Pattern, compile, split, sub
+from re import IGNORECASE, MULTILINE, Pattern, split, sub
 from typing import List, Optional
 import humanize
 import math
@@ -126,8 +126,8 @@ class NotebookUtilities(object):
         self.decoding_error = self.decoding_errors_list[2]
         
         # Determine URL from file path
-        self.url_regex = compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', IGNORECASE)
-        self.filepath_regex = compile(
+        self.url_regex = re.compile(r'\b(https?|file)://[-A-Z0-9+&@#/%?=~_|$!:,.;]*[A-Z0-9+&@#/%=~_|$]', IGNORECASE)
+        self.filepath_regex = re.compile(
             r'\b[c-d]:\\(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F]\\)*(?:[^\\/:*?"<>|\x00-\x1F]{0,254}[^.\\/:*?"<>|\x00-\x1F])',
             IGNORECASE
         )
@@ -812,7 +812,7 @@ class NotebookUtilities(object):
         if util_path is None: util_path = '../py/notebook_utils.py'
         
         # Compile the regular expression pattern for identifying function definitions
-        utils_regex = compile(r'def ([a-z0-9_]+)\(')
+        utils_regex = re.compile(r'def ([a-z0-9_]+)\(')
         
         # Read the utility file and extract function names
         with open(util_path, 'r', encoding='utf-8') as f:
@@ -943,7 +943,7 @@ class NotebookUtilities(object):
         Returns:
             dict: The dictionary of function definitions with the count of their occurances.
         """
-        fn_regex = compile(r'\s+"def ([a-z0-9_]+)\(')
+        fn_regex = re.compile(r'\s+"def ([a-z0-9_]+)\(')
         black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
         if github_folder is None: github_folder = self.github_folder
         rogue_fns_dict = {}
@@ -1444,8 +1444,8 @@ class NotebookUtilities(object):
         """
         Find all the non-staticmethod-decorated functions and refactor if needed.
         """
-        instance_defs_regex = compile(r'^    def ([a-z]+[a-z_]+)\(\s*self,\s+(?:[^\)]+)\):', MULTILINE)
-        self_regex = compile(r'\bself\b')
+        instance_defs_regex = re.compile(r'^    def ([a-z]+[a-z_]+)\(\s*self,\s+(?:[^\)]+)\):', MULTILINE)
+        self_regex = re.compile(r'\bself\b')
         functions_list = []
         black_list = ['.ipynb_checkpoints', '$Recycle.Bin']
         this_folder = '../py'
@@ -1460,7 +1460,7 @@ class NotebookUtilities(object):
                             fn_parts_list = instance_defs_regex.split(file_text)
                             for fn_name, fn_body in zip(fn_parts_list[1::2], fn_parts_list[2::2]):
                                 if not self_regex.search(fn_body):
-                                    instance_def_regex = compile(rf'^    def {fn_name}\(\s*self,\s+(?:[^\)]+)\):', MULTILINE)
+                                    instance_def_regex = re.compile(rf'^    def {fn_name}\(\s*self,\s+(?:[^\)]+)\):', MULTILINE)
                                     match_obj = instance_def_regex.search(file_text)
                                     if match_obj: replaced_str = match_obj.group()
                                     else: replaced_str = ''
@@ -1784,7 +1784,7 @@ class NotebookUtilities(object):
             It is assumed that the infobox contains no headers which would prefix any duplicate labels
         """
         import wikipedia
-        ascii_regex = compile('[^a-z0-9]+')
+        ascii_regex = re.compile('[^a-z0-9]+')
         rows_list = []
         def clean_text(parent_soup, verbose=False):
             texts_list = []
@@ -2067,7 +2067,7 @@ class NotebookUtilities(object):
         
         # If no search_regex is provided, use the default pattern for detecting references
         if search_regex is None:
-            search_regex = compile(
+            search_regex = re.compile(
                 '(Mike|Gary|Helga|Bob|Gloria|Lily)(_(0|1|2|3|4|5|6|7|8|9|10))? Root'
             )
         
@@ -2108,7 +2108,7 @@ class NotebookUtilities(object):
         
         # Set default pattern for detecting references if not provided
         if search_regex is None:
-            search_regex = compile(
+            search_regex = re.compile(
                 '(Mike|Gary|Helga|Bob|Gloria|Lily)(_(0|1|2|3|4|5|6|7|8|9|10))? Root'
             )
         

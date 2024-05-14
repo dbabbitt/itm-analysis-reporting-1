@@ -11,13 +11,14 @@ from datetime import datetime, timedelta
 from numpy import nan, isnan
 from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
 from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, to_numeric
-from re import sub, compile
+from re import sub
 import csv
 import humanize
 import math
 import matplotlib.pyplot as plt
 import numpy as np
 import random
+import re
 import statsmodels.api as sm
 import warnings
 
@@ -80,6 +81,12 @@ class FRVRSUtilities(object):
             'PULSE_TAKEN', 'BAG_ACCESS', 'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
             'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
         ]
+        
+        # According to the PatientEngagementWatcher class in the engagement detection code, this Euclidean distance, if the patient has been looked at, triggers enagement
+        # The engagement detection code spells out the responder etiquette:
+        # 1) if you don't want to trigger a patient walking by, don't look at them, 
+        # 2) if you teleport to someone, you must look at them to trigger engagement
+        patient_lookup_distance = 2.5
         
         # List of command messages to consider as user actions; added Open World commands 20240429
         self.command_columns_list = ['voice_command_message', 'button_command_message']
@@ -1885,9 +1892,8 @@ class FRVRSUtilities(object):
                 engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort, predicted_priority, injury_severity)
                 engagement_starts_list.append(engagement_tuple)
             
+            # Add -99999 for engagement_start if you're including non-interacted-with patients
             elif include_noninteracteds:
-                
-                # Add engagement information to the list
                 engagement_tuple = (patient_id, -99999, None, patient_sort, predicted_priority, injury_severity)
                 engagement_starts_list.append(engagement_tuple)
         
@@ -2499,8 +2505,6 @@ class FRVRSUtilities(object):
         Returns:
             int: The time it takes to control hemorrhage for the patient, in action ticks.
         """
-        
-        # Initialize variables to track hemorrhage control time
         controlled_time = 0
         is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
         
@@ -4138,7 +4142,7 @@ class FRVRSUtilities(object):
             mask_series = ~scene_df.patient_record_salt.isnull()
             for patient_id, patient_df in scene_df[mask_series].groupby('patient_id'):
                 patient_color_dict[patient_id] = self.salt_to_tag_dict[self.get_max_salt(patient_df=patient_df)]
-        consec_regex = compile(r' x\d+$')
+        consec_regex = re.compile(r' x\d+$')
         for annotation_tuple in hlineaction_types_list:
             patient_id, x, y = annotation_tuple
             color = patient_color_dict[consec_regex.sub('', patient_id)]
@@ -4371,3 +4375,165 @@ class FRVRSUtilities(object):
         
         # Inside, you will find three keys: description, difficulty, and name. The difficulty key is semi-continously numeric, and you can average it for whatever grouping you need
         pass
+    
+    
+    def add_prioritize_severity_column(self, merge_df, new_column_name='prioritize_high_injury_severity_patients', verbose=False):
+        """
+        Adds a new column to the DataFrame indicating if a row (patient) has the highest injury severity among engaged patients (engaged_patientXX_injury_severity).
+        
+        Parameters:
+            merge_df (pandas.DataFrame):
+                The DataFrame to add the new column to.
+            new_column_name (str, optional):
+                The name of the new column to be added. Defaults to 'prioritize_high_injury_severity_patients'.
+            verbose (bool, optional):
+                If True, print debug messages. Default is False.
+        
+        Returns:
+            tuple:
+                A tuple containing the modified DataFrame and a list of the newly added columns:
+                - pandas.DataFrame: The modified DataFrame with the new column added.
+                - list: A list containing the name of the newly added column ([new_column_name]).
+        
+        Raises:
+            ValueError:
+                If the new column name already exists in the DataFrame.
+        
+        Notes:
+            - If the specified new_column_name already exists in merge_df, the function does nothing.
+            - The new column will contain 1 for patients with the highest injury severity among the provided injury severity columns, and 0 otherwise.
+        """
+        if new_column_name in merge_df.columns:
+            raise ValueError(f"Column '{new_column_name}' already exists in the DataFrame.")
+        if 'engaged_patient00_injury_severity' not in merge_df.columns:
+            rows_list = []
+            for (session_uuid, scene_id), scene_df in merge_df.groupby(self.scene_groupby_columns):
+                row_dict = {}
+                for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
+                
+                # Get the chronological order of engagement starts for each patient in the scene
+                engagement_starts_list = []
+                for patient_id, patient_df in scene_df.groupby('patient_id'):
+                    
+                    # Get the cluster ID, if available
+                    mask_series = ~patient_df.patient_sort.isnull()
+                    patient_sort = (
+                        patient_df[mask_series].sort_values('action_tick').iloc[-1].patient_sort
+                        if mask_series.any()
+                        else None
+                    )
+                    
+                    # Get the predicted priority
+                    if 'dtr_triage_priority_model_prediction' in patient_df.columns:
+                        mask_series = ~patient_df.dtr_triage_priority_model_prediction.isnull()
+                        predicted_priority = (
+                            patient_df[mask_series].dtr_triage_priority_model_prediction.mean()
+                            if mask_series.any()
+                            else None
+                        )
+                    else: predicted_priority = None
+                    
+                    # Get the maximum injury severity
+                    injury_severity = self.get_maximum_injury_severity(patient_df)
+                    
+                    # Check if the responder even interacted with this patient
+                    mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
+                    if mask_series.any():
+                        df = patient_df[mask_series].sort_values('action_tick')
+                        
+                        # Get the first engagement start that has a location
+                        mask_series = ~df.location_id.isnull()
+                        if mask_series.any():
+                            engagement_start = df[mask_series].iloc[0].action_tick
+                            engagement_location = eval(df[mask_series].iloc[0].location_id) # Evaluate string to get tuple
+                            location_tuple = (engagement_location[0], engagement_location[2])
+                        else:
+                            engagement_start = df.iloc[0].action_tick
+                            location_tuple = (0.0, 0.0)
+                        
+                        # Add engagement information to the list
+                        engagement_tuple = (patient_id, engagement_start, location_tuple, patient_sort, predicted_priority, injury_severity)
+                        engagement_starts_list.append(engagement_tuple)
+                    
+                    # Add -99999 for engagement_start if you're including non-interacted-with patients
+                    else:
+                        engagement_tuple = (patient_id, -99999, None, patient_sort, predicted_priority, injury_severity)
+                        engagement_starts_list.append(engagement_tuple)
+                
+                # Sort the starts list chronologically
+                actual_engagement_order = sorted(engagement_starts_list, key=lambda x: x[1], reverse=False)
+                
+                assert len(actual_engagement_order) == self.get_patient_count(scene_df), f"There are {patient_count} patients in this scene and only {len(actual_engagement_order)} engagement tuples:\n{scene_df[~scene_df.patient_id.isnull()].patient_id.unique().tolist()}\n{actual_engagement_order}"
+                
+                unengaged_patient_count = 0; engaged_patient_count = 0
+                for engagement_tuple in actual_engagement_order:
+                    if engagement_tuple[1] < 0:
+                        column_name = f'unengaged_patient{unengaged_patient_count:0>2}_metadata'
+                        unengaged_patient_count += 1
+                    else:
+                        column_name = f'engaged_patient{engaged_patient_count:0>2}_metadata'
+                        engaged_patient_count += 1
+                    column_value = '|'.join([str(x) for x in list(engagement_tuple)])
+                    if not isna(column_value): row_dict[column_name] = column_value
+                
+                rows_list.append(row_dict)
+            distance_delta_df = DataFrame(rows_list)
+            
+            # Merge the distance delta dataset with the original dataset
+            metadata_columns = sorted([cn for cn in distance_delta_df.columns if cn.endswith('_metadata')])
+            on_columns = sorted(set(merge_df.columns).intersection(set(distance_delta_df.columns)))
+            columns_list = on_columns + metadata_columns
+            assert set(columns_list).issubset(set(distance_delta_df.columns)), "You've lost access to the metadata columns"
+            merge_df = merge_df.merge(distance_delta_df[columns_list], on=on_columns, how='left').drop_duplicates()
+            
+            # Break up the metadata columns into their own columns
+            for cn in metadata_columns:
+                str_prefix = split('_metadata', cn, 0)[0]
+                
+                # Split the pipe-delimited values into a DataFrame
+                split_df = merge_df[cn].str.split('|', expand=True)
+                
+                # Change the column names to reflect the content
+                split_df.columns = [
+                    f'{str_prefix}_patient_id', f'{str_prefix}_engagement_start', f'{str_prefix}_location_tuple', f'{str_prefix}_patient_sort',
+                    f'{str_prefix}_predicted_priority', f'{str_prefix}_injury_severity'
+                ]
+                
+                # Make engagement_start an integer
+                split_df[f'{str_prefix}_engagement_start'] = to_numeric(split_df[f'{str_prefix}_engagement_start'], errors='coerce')
+                
+                # Add the split columns to the original DataFrame
+                merge_df = concat([merge_df, split_df], axis='columns')
+                
+                # Drop the original column and the empty predicted priority column
+                merge_df = merge_df.drop(columns=[cn, f'{str_prefix}_predicted_priority'])
+            
+        # Add the prioritize patients column to the original dataset
+        prioritize_columns = [new_column_name]
+        merge_df[new_column_name] = 0
+        def f(srs):
+            is_maxed = nan  # Using numpy nan for missing values
+            injury_severity_list = []
+            
+            # Loop through columns looking for injury severity columns
+            for column_name, column_value in srs.iteritems():
+                if column_name.endswith('_injury_severity') and not isna(column_value):
+                    injury_severity_list.append(column_value)
+            
+            # Check if any injury severity was found
+            if injury_severity_list:
+                
+                # Check if engaged patient has the maximum severity
+                is_maxed = int(srs.engaged_patient00_injury_severity == max(injury_severity_list))
+            
+            return is_maxed
+        
+        # Apply the function to each row to get the new column added
+        merge_df[new_column_name] = merge_df.apply(f, axis='columns')
+        
+        if verbose:
+            
+            # Display summary table if verbose mode is enabled
+            display(merge_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
+        
+        return merge_df, prioritize_columns
