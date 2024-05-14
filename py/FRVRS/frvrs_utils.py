@@ -1,8 +1,7 @@
-
 #!/usr/bin/env python
 # Utility Functions to manipulate FRVRS logger data.
-# Dave Babbitt <dave.babbitt@gmail.com>
-# Author: Dave Babbitt, Data Scientist
+# Dave Babbitt <dave.babbitt@bigbear.ai>
+# Author: Dave Babbitt, Machine Learning Engineer
 # coding: utf-8
 
 # Soli Deo gloria
@@ -12,15 +11,13 @@ from datetime import datetime, timedelta
 from numpy import nan, isnan
 from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
 from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, to_numeric
+from re import sub, compile
 import csv
 import humanize
 import math
 import matplotlib.pyplot as plt
 import numpy as np
-import os
-import pandas as pd
 import random
-import re
 import statsmodels.api as sm
 import warnings
 
@@ -133,7 +130,7 @@ class FRVRSUtilities(object):
         # Tag colors
         self.tag_columns_list = ['tag_selected_type', 'tag_applied_type', 'tag_discarded_type']
         self.tag_colors = ['black', 'gray', 'red', 'yellow', 'green', 'Not Tagged']
-        self.colors_category_order = pd.CategoricalDtype(categories=self.tag_colors, ordered=True)
+        self.colors_category_order = CategoricalDtype(categories=self.tag_colors, ordered=True)
         
         # Patient pulse designations
         self.pulse_columns_list = ['patient_demoted_pulse', 'patient_record_pulse', 'patient_engaged_pulse']
@@ -165,7 +162,7 @@ class FRVRSUtilities(object):
         self.sort_to_color_dict = {'still': 'black', 'waver': 'red', 'walker': 'green'}
         
         # Reordered per Ewart so that the display is from left to right as follows: dead, expectant, immediate, delayed, minimal, not tagged
-        self.error_table_df = pd.DataFrame([
+        self.error_table_df = DataFrame([
             {'DEAD': 'Exact', 'EXPECTANT': 'Critical', 'IMMEDIATE': 'Critical', 'DELAYED': 'Critical', 'MINIMAL': 'Critical'},
             {'DEAD': 'Over',  'EXPECTANT': 'Exact',    'IMMEDIATE': 'Critical', 'DELAYED': 'Critical', 'MINIMAL': 'Critical'},
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Exact',    'DELAYED': 'Over',     'MINIMAL': 'Over'},
@@ -175,7 +172,7 @@ class FRVRSUtilities(object):
         
         # Define the custom categorical orders
         self.error_values = ['Exact', 'Critical', 'Over', 'Under']
-        self.errors_category_order = pd.CategoricalDtype(categories=self.error_values, ordered=True)
+        self.errors_category_order = CategoricalDtype(categories=self.error_values, ordered=True)
         
         # Hemorrhage control procedures list
         self.hemorrhage_control_procedures_list = ['tourniquet', 'woundpack']
@@ -245,12 +242,12 @@ class FRVRSUtilities(object):
             'Occlusive': 'chestSeal',
             'Pain Meds': 'painMeds',
             'Pain_Meds': 'painMeds',
-            'Pulse Oximeter': '',
-            'Pulse_Oximeter': '',
+            'Pulse Oximeter': 'none',
+            'Pulse_Oximeter': 'none',
             'SAM Splint': 'splint',
             'SAM_Splint': 'splint',
-            'Shears': '',
-            'SurgicalTape': '',
+            'Shears': 'none',
+            'SurgicalTape': 'none',
             'Tourniquet': 'tourniquet',
         }
         
@@ -354,7 +351,6 @@ class FRVRSUtilities(object):
                 break
             
             # Try to parse the date string into a datetime object
-            from datetime import datetime
             try: date_obj = datetime.strptime(date_str, '%m/%d/%Y %H:%M')
             except ValueError: date_obj = datetime.strptime(date_str, '%m/%d/%Y %I:%M:%S %p')
             
@@ -379,7 +375,7 @@ class FRVRSUtilities(object):
 
         Parameters
         ----------
-        grouped_df : pd.DataFrame, optional
+        grouped_df : pandas.DataFrame, optional
             DataFrame containing the FRVRS logs data.
         mask_series : Series, optional
             Boolean mask to filter rows of grouped_df, by default None.
@@ -388,7 +384,7 @@ class FRVRSUtilities(object):
 
         Returns
         -------
-        pd.DataFrameGroupBy
+        pandas.DataFrameGroupBy
             GroupBy object grouped by session UUID, and, if provided, the extra column.
         """
         
@@ -413,7 +409,7 @@ class FRVRSUtilities(object):
 
         Parameters
         ----------
-        session_df : pd.DataFrame
+        session_df : pandas.DataFrame
             DataFrame containing session data for a specific file.
         file_name : str, optional
             The name of the file to be checked, by default None.
@@ -470,7 +466,7 @@ class FRVRSUtilities(object):
 
         Parameters
         ----------
-        session_df : pd.DataFrame
+        session_df : pandas.DataFrame
             DataFrame containing session data.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -534,7 +530,7 @@ class FRVRSUtilities(object):
         
         Parameters
         ----------
-        session_df : pd.DataFrame
+        session_df : pandas.DataFrame
             DataFrame containing session data for a specific session UUID.
         verbose : bool, optional
             Whether to print verbose output, by default False.
@@ -718,7 +714,7 @@ class FRVRSUtilities(object):
                 rows_list.append(row_dict)
         
         # Create the tag-to-SALT data frame
-        is_tag_correct_df = pd.DataFrame(rows_list)
+        is_tag_correct_df = DataFrame(rows_list)
         
         # Convert the tagged, SALT, and predicted tag columns to their custom categorical types
         is_tag_correct_df.last_tag = is_tag_correct_df.last_tag.astype(self.colors_category_order)
@@ -807,7 +803,7 @@ class FRVRSUtilities(object):
             rows_list.append(row_dict)
 
         # Create the correct count data frame
-        correct_count_by_tag_df = pd.DataFrame(rows_list)
+        correct_count_by_tag_df = DataFrame(rows_list)
         
         return correct_count_by_tag_df
     
@@ -1141,8 +1137,7 @@ class FRVRSUtilities(object):
         return injury_correctly_treated_count
     
     
-    @staticmethod
-    def get_injury_wrongly_treated_count(scene_df, verbose=False):
+    def get_injury_wrongly_treated_count(self, scene_df, verbose=False):
         """
         Calculates the number of patients whose injuries have been incorrectly treated in a given scene DataFrame.
         
@@ -1829,7 +1824,7 @@ class FRVRSUtilities(object):
         return triage_priority_df
     
     
-    def get_actual_engagement_order(self, scene_df, verbose=False):
+    def get_actual_engagement_order(self, scene_df, include_noninteracteds=False, verbose=False):
         """
         Get the chronological order of engagement starts for each patient in a scene.
         
@@ -3505,7 +3500,6 @@ class FRVRSUtilities(object):
         
         # Process each unique file
         import csv
-        from datetime import datetime
         for old_file_name in logs_df[mask_series].file_name.unique():
             old_file_path = osp.join(logs_folder, old_file_name)
             
@@ -3688,7 +3682,7 @@ class FRVRSUtilities(object):
         ax.set_title(title)
         
         # Save figure to PNG
-        file_path = osp.join(nu.saves_png_folder, re.sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
+        file_path = osp.join(nu.saves_png_folder, sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
         if verbose: print(f'Saving figure to {file_path}')
         plt.savefig(file_path, bbox_inches='tight')
         
@@ -3720,7 +3714,7 @@ class FRVRSUtilities(object):
         # Check if saving to a file is requested
         if save_only:
             assert title is not None, "To save, you need a title"
-            file_path = osp.join(self.saves_folder, 'png', re.sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
+            file_path = osp.join(self.saves_folder, 'png', sub(r'\W+', '_', str(title)).strip('_').lower() + '.png')
             filter = not osp.exists(file_path)
         else: filter = True
     
@@ -3876,7 +3870,7 @@ class FRVRSUtilities(object):
         Display timelines for patient engagements in a random session and scene.
         
         Parameters:
-            logs_df (pd.DataFrame): DataFrame containing FRVRS logs.
+            logs_df (pandas.DataFrame): DataFrame containing FRVRS logs.
             random_session_uuid (str, optional): UUID of the random session. If not provided, a random session will be selected.
             random_scene_index (int, optional): Index of the random scene. If not provided, a random scene within the selected session will be chosen.
             color_cycler (callable, optional): A callable that returns a color for each patient engagement timeline. If not provided, it will be generated.
@@ -4043,7 +4037,6 @@ class FRVRSUtilities(object):
         # Humanize y tick labels if is_y_temporal is True
         if is_y_temporal:
             yticklabels_list = []
-            from datetime import timedelta
             for text_obj in ax.get_yticklabels():
                 text_obj.set_text(
                     humanize.precisedelta(timedelta(milliseconds=text_obj.get_position()[1])).replace(', ', ',\n').replace(' and ', ' and\n')
@@ -4124,7 +4117,7 @@ class FRVRSUtilities(object):
                 time_diff = row_series.time_diff
                 
                 # Get the player gaze annotation parameters
-                if not pd.isna(patient_id):
+                if not isna(patient_id):
                     annotation_tuple = (patient_id, action_tick, y)
                     hlineaction_types_list.append(annotation_tuple)
         
@@ -4145,7 +4138,7 @@ class FRVRSUtilities(object):
             mask_series = ~scene_df.patient_record_salt.isnull()
             for patient_id, patient_df in scene_df[mask_series].groupby('patient_id'):
                 patient_color_dict[patient_id] = self.salt_to_tag_dict[self.get_max_salt(patient_df=patient_df)]
-        consec_regex = re.compile(r' x\d+$')
+        consec_regex = compile(r' x\d+$')
         for annotation_tuple in hlineaction_types_list:
             patient_id, x, y = annotation_tuple
             color = patient_color_dict[consec_regex.sub('', patient_id)]
@@ -4234,9 +4227,9 @@ class FRVRSUtilities(object):
         actions_list = []
         for row_index, row_series in scene_df.iterrows():
             action_type = row_series.voice_command_message
-            if pd.notnull(action_type) and (action_type not in actions_list): actions_list.append(action_type)
+            if notnull(action_type) and (action_type not in actions_list): actions_list.append(action_type)
             action_type = row_series.action_type
-            if pd.notnull(action_type) and (action_type != 'VOICE_COMMAND') and (action_type not in actions_list): actions_list.append(action_type)
+            if notnull(action_type) and (action_type != 'VOICE_COMMAND') and (action_type not in actions_list): actions_list.append(action_type)
         
         # Create a plot title
         if suptitle is None:
