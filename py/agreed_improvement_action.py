@@ -464,6 +464,12 @@ class FRVRSUtilities(object):
             'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
         ]
         
+        # According to the PatientEngagementWatcher class in the engagement detection code, this Euclidean distance, if the patient has been looked at, triggers enagement
+        # The engagement detection code spells out the responder etiquette:
+        # 1) if you don't want to trigger a patient walking by, don't look at them, 
+        # 2) if you teleport to someone, you must look at them to trigger engagement
+        patient_lookup_distance = 2.5
+        
         if IS_DEBUG: print("List of command messages to consider as user actions; added Open World commands 20240429")
         self.command_columns_list = ['voice_command_message', 'button_command_message']
         self.command_messages_list = [
@@ -2459,6 +2465,21 @@ class FRVRSUtilities(object):
         return logs_df
     
     
+    def add_modal_column(self, new_column_name, df, verbose=False):
+        if (new_column_name not in df.columns):
+            name_parts_list = new_column_name.split('_')
+            if verbose: print("\nModalize into one {' '.join(name_parts_list)} column if possible")
+            df = nu.modalize_columns(df, eval(f"self.{'_'.join(name_parts_list[1:])}_columns_list"), new_column_name)
+            mask_series = ~df[new_column_name].isnull()
+            feature_set = set(df[mask_series][new_column_name].unique())
+            order_set = set(eval(f"self.{new_column_name}_order"))
+            assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{new_column_name}_order"
+            df[new_column_name] = df[new_column_name].astype(eval(f"self.{'_'.join(name_parts_list[1:])}_category_order"))
+        if verbose: print(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
+        
+        return df
+    
+    
     ### Plotting Functions ###
     
     
@@ -2804,109 +2825,21 @@ for (session_uuid, scene_id), scene_df in csv_stats_df[mask_series].groupby(fu.s
     max_scene_id = csv_stats_df[mask_series].scene_id.max()
     assert max_scene_id == scene_id, "You've got junk scenes in strange places"
 
-new_column_name = 'patient_id'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient ID column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.patient_id_columns_list, new_column_name)
-if IS_DEBUG: print(csv_stats_df[new_column_name].nunique()) # 39
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
-    'record_count', ascending=False
-).head(5))
-
-new_column_name = 'injury_id'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one injury ID column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.injury_id_columns_list, new_column_name)
-if IS_DEBUG: print(csv_stats_df[new_column_name].nunique()) # 34
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
-    'record_count', ascending=False
-).head(5))
-
-new_column_name = 'location_id'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one location ID column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.location_id_columns_list, new_column_name)
-if IS_DEBUG: print(csv_stats_df[new_column_name].nunique()) # 9239
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
-    'record_count', ascending=False
-).head(5))
-
-new_column_name = 'patient_sort'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient sort column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.sort_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.sort_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'patient_pulse'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient pulse column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.pulse_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.pulse_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'patient_salt'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient salt column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.salt_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.salt_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'patient_hearing'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient hearing column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.hearing_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.hearing_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'patient_breath'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient breath column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.breath_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.breath_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'patient_mood'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient mood column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.mood_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.mood_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'patient_pose'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one patient pose column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.pose_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.pose_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'injury_severity'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one injury severity column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.severity_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.severity_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'injury_required_procedure'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one injury required_procedure column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.required_procedure_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.required_procedure_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'injury_body_region'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one injury body_region column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.body_region_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.body_region_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
-
-new_column_name = 'tool_type'
-if (new_column_name not in csv_stats_df.columns):
-    if IS_DEBUG: print("\nModalize into one tool type column if possible")
-    csv_stats_df = nu.modalize_columns(csv_stats_df, fu.tool_type_columns_list, new_column_name)
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.tool_type_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
+if IS_DEBUG: print("\nModalize separate columns into one")
+csv_stats_df = fu.add_modal_column('patient_id', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('injury_id', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('location_id', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_sort', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_pulse', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_salt', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_hearing', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_breath', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_mood', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('patient_pose', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('injury_severity', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('injury_required_procedure', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('injury_body_region', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column('tool_type', csv_stats_df, verbose=IS_DEBUG)
 
 new_column_name = 'pulse_taken_pulse_name'
 if (new_column_name in csv_stats_df.columns):
