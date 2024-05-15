@@ -131,8 +131,8 @@ class FRVRSUtilities(object):
         
         # Patient SALT designations
         self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
-        self.salt_types = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
-        self.salt_category_order = CategoricalDtype(categories=self.salt_types, ordered=True)
+        self.patient_salt_order = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
+        self.salt_category_order = CategoricalDtype(categories=self.patient_salt_order, ordered=True)
         
         # Tag colors
         self.tag_columns_list = ['tag_selected_type', 'tag_applied_type', 'tag_discarded_type']
@@ -175,7 +175,7 @@ class FRVRSUtilities(object):
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Exact',    'DELAYED': 'Over',     'MINIMAL': 'Over'},
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Under',    'DELAYED': 'Exact',    'MINIMAL': 'Over'},
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Under',    'DELAYED': 'Under',    'MINIMAL': 'Exact'}
-        ], columns=self.salt_types, index=self.tag_colors[:-1])
+        ], columns=self.patient_salt_order, index=self.tag_colors[:-1])
         
         # Define the custom categorical orders
         self.error_values = ['Exact', 'Critical', 'Over', 'Under']

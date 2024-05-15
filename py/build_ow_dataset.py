@@ -471,8 +471,8 @@ class FRVRSUtilities(object):
         
         if IS_DEBUG: print("Patient SALT designations")
         self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
-        self.salt_types = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
-        self.salt_category_order = CategoricalDtype(categories=self.salt_types, ordered=True)
+        self.patient_salt_order = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
+        self.salt_category_order = CategoricalDtype(categories=self.patient_salt_order, ordered=True)
         
         if IS_DEBUG: print("Patient pulse designations")
         self.pulse_columns_list = ['patient_demoted_pulse', 'patient_record_pulse', 'patient_engaged_pulse']
