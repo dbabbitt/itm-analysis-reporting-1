@@ -533,12 +533,12 @@ class FRVRSUtilities(object):
         
         if IS_DEBUG: print("Patient mood designations")
         self.mood_columns_list = ['patient_demoted_mood', 'patient_record_mood', 'patient_engaged_mood']
-        self.patient_mood_order = ['dead', 'unresponsive', 'agony', 'upset', 'calm']
+        self.patient_mood_order = ['dead', 'unresponsive', 'agony', 'upset', 'calm', 'low', 'normal', 'none']
         self.mood_category_order = CategoricalDtype(categories=self.patient_mood_order, ordered=True)
         
         if IS_DEBUG: print("Patient pose designations")
         self.pose_columns_list = ['patient_demoted_pose', 'patient_record_pose', 'patient_engaged_pose']
-        self.patient_pose_order = ['supine', 'fetal', 'sittingGround', 'kneeling', 'recovery', 'standing']
+        self.patient_pose_order = ['dead', 'supine', 'fetal', 'agony', 'sittingGround', 'kneeling', 'upset', 'standing', 'recovery', 'calm']
         self.pose_category_order = CategoricalDtype(categories=self.patient_pose_order, ordered=True)
         
         # Hemorrhage control procedures list
@@ -2488,13 +2488,16 @@ class FRVRSUtilities(object):
                 
                 # Check if the attribute exists
                 attribute_name = f"{'_'.join(name_parts_list[1:])}_category_order"
+                if not hasattr(self, attribute_name):
+                    attribute_name = f"{'_'.join(name_parts_list)}_category_order"
+                
                 if hasattr(self, attribute_name):
                     df[new_column_name] = df[new_column_name].astype(eval(f"self.{attribute_name}"))
                 else:
                     print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
             else:
                 print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
-        if verbose: print(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
+        if verbose: display(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
         return df
     
@@ -3900,7 +3903,7 @@ for question_number, feature_title, feature_description, analysis_column in zip(
     ]
 ):
     print(f"""
-Based on the results below, add a blurb to the Analysis section given these particular tests to compare {feature_description} with all KDMA measures we investigated: ST_KDMA_Sim (SoarTech simulator probe responses), ST_KDMA_Text (SoarTech text probe responses), AD_KDMA_Sim (ADEPT simulator probe responses), and AD_KDMA_Text (ADEPT text probe responses).
+Based on the results below, add a blurb to the Analysis section given these particular tests to compare {feature_description} with all KDMA measures we investigated: ST_KDMA_Sim (SoarTech simulator probe responses), ST_KDMA_Text (SoarTech text probe responses), AD_KDMA_Sim (ADEPT simulator probe responses), and AD_KDMA_Text (ADEPT text probe responses). ADEPT (AD) probe responses are measuring Moral Desert (MD) – an attribute that assesses to what extent someone prioritizes patients based on the patient’s moral responsibility for the situation. SoarTech (ST) probe responses are measuring Maximization (Max) – an attribute that assesses to what extent someone performs an exhaustive search through choice alternatives prior to deciding (as opposed to satisficing where people search until they find a good enough option).
 
 """)
     
@@ -3938,15 +3941,17 @@ Based on the results below, add a blurb to the Analysis section given these part
         
         print("""\n\nThough the Kruskal-Wallis test is relatively robust to outliers, we have calculated the IQR fence here:""")
         for column_value, df in anova_df.groupby(analysis_column_name):
-            print('\nOutlier test for', labels_dict.get(column_value, f'{column_value} {feature_description}'))
+            statements_list = ['\nOutlier test for ' + labels_dict.get(column_value, f'{column_value} {feature_description}')]
             for cn in kdma_columns:
                 outlier_dict = nu.get_statistics(df, [cn]).to_dict()[cn]
                 mask_series = (df[cn] < outlier_dict['25%']) | (df[cn] > outlier_dict['75%'])
                 if mask_series.any():
-                    print(
+                    statements_list.append(
                         f"For {cn.replace('mean_', '')}, {mask_series.sum():,} out of {df.shape[0]:,} data points are considered potential outliers"
-                        f" (IQR = ({outlier_dict['25%']:.2f}, {outlier_dict['75%']:.2f}))."
+                        + f" (IQR = ({outlier_dict['25%']:.2f}, {outlier_dict['75%']:.2f}))."
                     )
+            if len(statements_list) > 1:
+                print('\n'.join(statements_list))
     
     print(f"""
 

@@ -156,12 +156,12 @@ class FRVRSUtilities(object):
         
         # Patient mood designations
         self.mood_columns_list = ['patient_demoted_mood', 'patient_record_mood', 'patient_engaged_mood']
-        self.patient_mood_order = ['dead', 'unresponsive', 'agony', 'upset', 'calm']
+        self.patient_mood_order = ['dead', 'unresponsive', 'agony', 'upset', 'calm', 'low', 'normal', 'none']
         self.mood_category_order = CategoricalDtype(categories=self.patient_mood_order, ordered=True)
         
         # Patient pose designations
         self.pose_columns_list = ['patient_demoted_pose', 'patient_record_pose', 'patient_engaged_pose']
-        self.patient_pose_order = ['supine', 'fetal', 'sittingGround', 'kneeling', 'recovery', 'standing']
+        self.patient_pose_order = ['dead', 'supine', 'fetal', 'agony', 'sittingGround', 'kneeling', 'upset', 'standing', 'recovery', 'calm']
         self.pose_category_order = CategoricalDtype(categories=self.patient_pose_order, ordered=True)
         
         # Delayed is yellow per OSU
