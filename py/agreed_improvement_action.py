@@ -2371,9 +2371,10 @@ class FRVRSUtilities(object):
         file_path = osp.join(sub_directory, file_name)
         version_number = self.get_logger_version(file_path, verbose=verbose)
         
-        if IS_DEBUG: print("Attempt to read CSV file using pandas; if unsuccessful, try using a reader")
+        if IS_DEBUG: print("Attempting to read CSV file using pandas")
         try: file_df = read_csv(file_path, header=None, index_col=False)
         except:
+            if IS_DEBUG: print("Unsuccessful; using a CSV reader instead")
             rows_list = []
             with open(file_path, 'r') as f:
                 reader = csv.reader(f, delimiter=',', quotechar='"')
@@ -2468,13 +2469,31 @@ class FRVRSUtilities(object):
     def add_modal_column(self, new_column_name, df, verbose=False):
         if (new_column_name not in df.columns):
             name_parts_list = new_column_name.split('_')
-            if verbose: print("\nModalize into one {' '.join(name_parts_list)} column if possible")
-            df = nu.modalize_columns(df, eval(f"self.{'_'.join(name_parts_list[1:])}_columns_list"), new_column_name)
-            mask_series = ~df[new_column_name].isnull()
-            feature_set = set(df[mask_series][new_column_name].unique())
-            order_set = set(eval(f"self.{new_column_name}_order"))
-            assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{new_column_name}_order"
-            df[new_column_name] = df[new_column_name].astype(eval(f"self.{'_'.join(name_parts_list[1:])}_category_order"))
+            if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
+            
+            # Check if the attribute exists
+            attribute_name = f"{'_'.join(name_parts_list[1:])}_columns_list"
+            if not hasattr(self, attribute_name):
+                attribute_name = f"{'_'.join(name_parts_list)}_columns_list"
+
+            df = nu.modalize_columns(df, eval(f"self.{attribute_name}"), new_column_name)
+            
+            # Check if the attribute exists
+            attribute_name = f"{new_column_name}_order"
+            if hasattr(self, attribute_name):
+                mask_series = ~df[new_column_name].isnull()
+                feature_set = set(df[mask_series][new_column_name].unique())
+                order_set = set(eval(f"self.{attribute_name}"))
+                assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{attribute_name}"
+                
+                # Check if the attribute exists
+                attribute_name = f"{'_'.join(name_parts_list[1:])}_category_order"
+                if hasattr(self, attribute_name):
+                    df[new_column_name] = df[new_column_name].astype(eval(f"self.{attribute_name}"))
+                else:
+                    print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+            else:
+                print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
         if verbose: print(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
         
         return df
