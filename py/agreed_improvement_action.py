@@ -458,6 +458,12 @@ class FRVRSUtilities(object):
         self.scene_groupby_columns = ['session_uuid', 'scene_id']
         
         if IS_DEBUG: print("List of action types to consider as user actions")
+        self.known_mcivr_metrics_types = [
+            'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'PULSE_TAKEN', 'SP_O2_TAKEN',
+            'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED', 'S_A_L_T_WAVE_IF_CAN',
+            'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_APPLIED', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_APPLIED', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
+            'VOICE_COMMAND', 'BUTTON_CLICKED', 'PLAYER_LOCATION', 'PLAYER_GAZE', 'SESSION_START', 'SESSION_END'
+        ]
         self.action_types_list = [
             'TELEPORT', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVE_IF_CAN', 'TRIAGE_LEVEL_WAVE_IF_CAN', 'PATIENT_ENGAGED',
             'PULSE_TAKEN', 'BAG_ACCESS', 'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
@@ -2167,8 +2173,7 @@ class FRVRSUtilities(object):
         return file_df
     
     
-    @staticmethod
-    def set_mcivr_metrics_types(action_type, df, row_index, row_series, verbose=False):
+    def set_mcivr_metrics_types(self, action_type, df, row_index, row_series, verbose=False):
         """
         Ingest all the auxiliary data based on action type out of numbered columns into
         named columns by setting the MCI-VR metrics types for a given action type and
@@ -2183,7 +2188,10 @@ class FRVRSUtilities(object):
         Returns:
             The DataFrame containing the MCI-VR metrics with new columns.
         """
-    
+        
+        # List of indexes to delete
+        drop_index_list = []
+        
         # Set the metrics types for each action type
         if (action_type == 'BAG_ACCESS'): # BagAccess
             df.loc[row_index, 'bag_access_location'] = row_series[4] # Location
@@ -2347,7 +2355,14 @@ class FRVRSUtilities(object):
                 print(row_series); raise
             df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
             df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
-    
+        elif (action_type == 'Participant ID'):
+            drop_index_list.append(row_index)
+        elif action_type not in self.known_mcivr_metrics_types:
+            raise Exception(f"{action_type} not in in self.known_mcivr_metrics_types:\n{row_series}")
+        
+        # Delete rows at specified indexes
+        df = df.drop(index=drop_index_list)
+        
         return df
     
     
@@ -2471,14 +2486,14 @@ class FRVRSUtilities(object):
             name_parts_list = new_column_name.split('_')
             if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
             
-            # Check if the attribute exists
+            # Find the columns list attribute
             attribute_name = f"{'_'.join(name_parts_list[1:])}_columns_list"
             if not hasattr(self, attribute_name):
                 attribute_name = f"{'_'.join(name_parts_list)}_columns_list"
 
             df = nu.modalize_columns(df, eval(f"self.{attribute_name}"), new_column_name)
             
-            # Check if the attribute exists
+            # Check if the order attribute exists after trying to find it
             attribute_name = f"{new_column_name}_order"
             if hasattr(self, attribute_name):
                 mask_series = ~df[new_column_name].isnull()
@@ -2486,7 +2501,7 @@ class FRVRSUtilities(object):
                 order_set = set(eval(f"self.{attribute_name}"))
                 assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{attribute_name}"
                 
-                # Check if the attribute exists
+                # Check if the category attribute exists
                 attribute_name = f"{'_'.join(name_parts_list[1:])}_category_order"
                 if not hasattr(self, attribute_name):
                     attribute_name = f"{'_'.join(name_parts_list)}_category_order"
@@ -2494,9 +2509,10 @@ class FRVRSUtilities(object):
                 if hasattr(self, attribute_name):
                     df[new_column_name] = df[new_column_name].astype(eval(f"self.{attribute_name}"))
                 else:
-                    print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+                    if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
             else:
-                print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+                if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+        if verbose: print(df[new_column_name].nunique())
         if verbose: display(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
         return df
@@ -2909,11 +2925,11 @@ if not csv_stats_df[columns_list].applymap(lambda x: '[PERSON]' in str(x), na_ac
     except Exception as e: print(f'{e.__class__.__name__} error in PII masking: {str(e).strip()}')
 
 
-if IS_DEBUG: print("\nGet column and value descriptions")
+if IS_DEBUG: print("\nGet column and value descriptions dataset")
 file_path = osp.join(nu.data_folder, 'xlsx', 'Metrics_Evaluation_Dataset_organization_for_BBAI.xlsx')
 dataset_organization_df = read_excel(file_path)
 
-if IS_DEBUG: print("\nFix the doubled up descriptions")
+# Fix the doubled up descriptions
 mask_series = dataset_organization_df.Labels.map(lambda x: ';' in str(x))
 for row_index, label in dataset_organization_df[mask_series].Labels.items():
     labels_list = split(' *; *', str(label), 0)
@@ -2930,17 +2946,17 @@ new_row = dataset_organization_df.loc[mask_series].copy()
 new_row['Variable'] = 'AD_Del_Omni_Text'
 dataset_organization_df = concat([dataset_organization_df, new_row], ignore_index=True)
 
-if IS_DEBUG: print("\nGet the column value descriptions")
+if IS_DEBUG: print("\nGet the column name description dictionary")
 mask_series = ~dataset_organization_df.Description.isnull()
 df = dataset_organization_df[mask_series]
-value_description_dict = df.set_index('Variable').Description.to_dict()
-new_description_dict = value_description_dict.copy()
-for k, v in value_description_dict.items():
+COLUMN_NAME_DESCRIPTION_DICT = df.set_index('Variable').Description.to_dict()
+new_description_dict = COLUMN_NAME_DESCRIPTION_DICT.copy()
+for k, v in COLUMN_NAME_DESCRIPTION_DICT.items():
     new_description_dict[k] = v
     if (not k.endswith('_Text')):
         new_key_name = f'{k}_Text'
         new_description_dict[new_key_name] = new_description_dict.get(new_key_name, v)
-value_description_dict = new_description_dict.copy()
+COLUMN_NAME_DESCRIPTION_DICT = new_description_dict.copy()
 
 if IS_DEBUG: print("\nCreate the value description function")
 numeric_categories_mask_series = dataset_organization_df.Labels.map(lambda x: '=' in str(x))
@@ -3093,7 +3109,7 @@ if 'MedExp' not in scene_stats_df.columns:
         if mask_series.any():
             if IS_DEBUG: print("The various partipant id columns are inconsistent")
 
-if IS_DEBUG: print('Check if all the patient IDs in any run are some variant of Mike and designate those runs as "Orientation"')
+if IS_DEBUG: print('\nCheck if all the patient IDs in any run are some variant of Mike and designate those runs as "Orientation"')
 new_column_name = 'scene_type'
 if (new_column_name in scene_stats_df.columns): scene_stats_df = scene_stats_df.drop(columns=new_column_name)
 if (new_column_name not in scene_stats_df.columns): scene_stats_df[new_column_name] = 'Triage'
@@ -3106,7 +3122,9 @@ if (column_value not in scene_stats_df.scene_type):
             mask_series = True
             for cn in fu.scene_groupby_columns: mask_series &= (scene_stats_df[cn] == eval(cn))
             scene_stats_df.loc[mask_series, new_column_name] = column_value
-if IS_DEBUG: print(scene_stats_df.groupby(['patient_count', 'is_scene_aborted', new_column_name]).size().to_frame().rename(columns={0: 'record_count'}).sort_values('patient_count', ascending=False))
+    if IS_DEBUG: display(
+        scene_stats_df.groupby([new_column_name]).size().to_frame().rename(columns={0: 'record_count'}).sort_values(new_column_name, ascending=False).head(20)
+    )
 
 new_column_name = 'is_scene_aborted'
 if (new_column_name not in scene_stats_df.columns):
@@ -3145,12 +3163,13 @@ desert_patients_list = ['Open World Marine 1 Female Root', 'Open World Marine 2 
 jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root']
 submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
 urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
+encounter_layouts_list = ['Desert', 'Jungle', 'Submarine', 'Urban']
 for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(fu.scene_groupby_columns):
-    for env_str in ['desert', 'jungle', 'submarine', 'urban']:
-        patients_list = eval(f'{env_str}_patients_list')
+    for env_str in encounter_layouts_list:
+        patients_list = eval(f'{env_str.lower()}_patients_list')
         if all(map(lambda patient_id: patient_id in scene_df.patient_id.unique().tolist(), patients_list)):
             mask_series = (scene_stats_df.session_uuid == session_uuid) & (scene_stats_df.scene_id == scene_id)
-            scene_stats_df.loc[mask_series, new_column_name] = env_str.title()
+            scene_stats_df.loc[mask_series, new_column_name] = env_str
 if IS_DEBUG: print(scene_stats_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
 
 scene_columns_set = set(scene_stats_df.columns)
@@ -3162,11 +3181,34 @@ if drop_columns:
     if IS_DEBUG: print("\nDrop the logs columns already recorded in the scene stats data frames")
     if IS_DEBUG: print(drop_columns)
     csv_stats_df = csv_stats_df.drop(columns=drop_columns)
+
+columns_list = ['encounter_layout', 'scene_type', 'teleport_count']
+if IS_DEBUG: display(
+    scene_stats_df[columns_list].groupby(columns_list, dropna=False).size().to_frame().rename(columns={0: 'record_count'}).sort_values(columns_list, ascending=[False]*len(columns_list))
+)
+
+mask_series = scene_stats_df.encounter_layout.isin(encounter_layouts_list)
+if IS_DEBUG: pre_count = scene_stats_df.shape[0]
+scene_stats_df = scene_stats_df[mask_series]
+if IS_DEBUG: print(f"\nFiltered out {pre_count - scene_stats_df.shape[0]} unnamed encounter layouts")
+
+mask_series = scene_stats_df.scene_type.isin(['Orientation'])
+if IS_DEBUG: pre_count = scene_stats_df.shape[0]
+scene_stats_df = scene_stats_df[~mask_series]
+if IS_DEBUG: print(f"\nFiltered out {pre_count - scene_stats_df.shape[0]} orientation scenes")
+
+mask_series = (scene_stats_df.teleport_count < 1)
+if IS_DEBUG: pre_count = scene_stats_df.shape[0]
+scene_stats_df = scene_stats_df[~mask_series]
+if IS_DEBUG: print(f"\nFiltered out {pre_count - scene_stats_df.shape[0]} scenes with no teleports")
+
 nu.save_data_frames(metrics_evaluation_open_world_scene_stats_df=scene_stats_df, verbose=IS_DEBUG)
 nu.save_data_frames(metrics_evaluation_open_world_csv_stats_df=csv_stats_df, verbose=IS_DEBUG)
 
 
+# load data frames to get a reliable representation
 if IS_DEBUG: print('\nCreate the final dataframe that we should use for analysis')
+
 
 if IS_DEBUG: print("\nColumns to merge the scene stats dataset with the CSV stats on:")
 on_columns = sorted(set(csv_stats_df.columns).intersection(set(scene_stats_df.columns)))
@@ -3304,6 +3346,7 @@ if IS_DEBUG: print(anova_df.groupby(new_column).size().to_frame().rename(columns
 ).head(5))
 
 if IS_DEBUG: print("\nStore the results and show the new data frame columns")
+mean_survey_columns = ['mean_' + cn for cn in survey_columns]
 columns_list = anova_df.columns.tolist()
 nu.save_data_frames(metrics_evaluation_open_world_anova_df=anova_df[columns_list], verbose=IS_DEBUG)
 
@@ -3321,14 +3364,14 @@ def entitle_column_name(column_name):
             The entitled column name.
     
     Notes:
-        - If the column name starts with 'mean_' and the substring after 'mean_' exists in the value_description_dict,
+        - If the column name starts with 'mean_' and the substring after 'mean_' exists in the column name description dictionary,
           the entitled name is obtained from the corresponding value in the dictionary, prepended with 'Average ' if necessary.
         - Otherwise, the column name is split into parts, and each part is processed to ensure proper capitalization and word replacements.
     """
     
-    # Check if the column name starts with 'mean_' and is present in the value_description_dict
-    if column_name.startswith('mean_') and (column_name[5:] in value_description_dict):
-        entitled_name = value_description_dict[column_name[5:]]
+    # Check if the column name starts with 'mean_' and is present in the column name description dictionary
+    if column_name.startswith('mean_') and (column_name[5:] in COLUMN_NAME_DESCRIPTION_DICT):
+        entitled_name = COLUMN_NAME_DESCRIPTION_DICT[column_name[5:]]
         
         # Prepend 'Average ' if the entitled name does not already start with it
         if not entitled_name.startswith('Average '):
@@ -3384,7 +3427,6 @@ function_call_dict = {
     'encounter_layout': 'fu.add_encounter_layout_column', 'medical_role': 'fu.add_medical_role_column',
     'mean_prioritize_high_injury_severity_patients': 'fu.add_prioritize_severity_column'
 }
-mean_survey_columns = ['mean_' + cn for cn in survey_columns]
 engaged_patient_columns_list = []
 file_path = osp.join(nu.saves_text_folder, 'how_to_do_calculations.txt')
 with open(file_path, mode='w', encoding=nu.encoding_type) as f: print('', file=f)
@@ -3432,7 +3474,7 @@ if IS_DEBUG: print(f'Saving to {osp.abspath(file_path)}')
 
 
 if IS_DEBUG: print("\nWrite up the statistical analysis of the ANOVA dataset")
-def compare_columns(anova_df, groupby_column, columns_list, dataset_organization_df):
+def compare_columns(anova_df, groupby_column, columns_list, dataset_organization_df, text_io_wrapper=None):
     """
     Compare columns using linear regression across groups defined by a specified column.
     
@@ -3445,6 +3487,8 @@ def compare_columns(anova_df, groupby_column, columns_list, dataset_organization
             The set of columns to be compared.
         dataset_organization_df (pandas.DataFrame):
             The dataframe containing information about the organization of the dataset.
+        text_io_wrapper (_io.TextIOWrapper, optional):
+            If a text IO wrapper, print the results to the open file, by default None.
     
     Returns:
         None
@@ -3466,11 +3510,11 @@ def compare_columns(anova_df, groupby_column, columns_list, dataset_organization
     if groupby_column in columns_list: columns_list.pop(groupby_column)
     for cn in columns_list: perform_linear_regression(
         cn, ' '.join([w.title() for w in cn.split('_')]), groupby_column, grouped_data, anova_with_dummies_df, dataset_organization_df,
-        save_only=True
+        text_io_wrapper=text_io_wrapper
     )
 
 
-def perform_linear_regression(cn, xname, groupby_column, grouped_data, anova_with_dummies_df, dataset_organization_df, save_only=False):
+def perform_linear_regression(cn, xname, groupby_column, grouped_data, anova_with_dummies_df, dataset_organization_df, text_io_wrapper=None):
     """
     Perform linear regression analysis.
     
@@ -3487,8 +3531,8 @@ def perform_linear_regression(cn, xname, groupby_column, grouped_data, anova_wit
             DataFrame with dummy variables for ANOVA.
         dataset_organization_df (pandas.DataFrame):
             DataFrame containing organizational information about the dataset.
-        save_only (bool, optional):
-            If True, only save the results without printing, by default False.
+        text_io_wrapper (_io.TextIOWrapper, optional):
+            If a text IO wrapper, print the results to the open file, by default None.
     """
     statements_list = []
     
@@ -3519,7 +3563,7 @@ def perform_linear_regression(cn, xname, groupby_column, grouped_data, anova_wit
     
     # Save the results
     if len(statements_list) > 1:
-        print('\n'.join(statements_list))
+        print('\n'.join(statements_list), file=text_io_wrapper)
 
 
 def perform_shapiro_wilk(cn, cn_data, statements_list):
@@ -3880,95 +3924,104 @@ def append_regression_equation(statements_list, dummy_columns_list, dataset_orga
     
     return statements_list
 
+if IS_DEBUG: print("\nWrite up the section prompts")
+old_COLUMN_NAME_DESCRIPTION_DICT = COLUMN_NAME_DESCRIPTION_DICT.copy()
 kdma_columns = [cn for cn in anova_df.columns if 'KDMA' in cn]
-for question_number, feature_title, feature_description, analysis_column in zip(
-    range(1, 13),
-    [
-        'Engagement Order', 'Military Medical Experience', 'Medical Role', 'Untreated Injuries', 'Correctly Treated Injuries',
-        'Total Distance Travelled between Engagements', 'Wave Command Counts',
-        'Walk Command Counts', 'High Injury Severity', 'Pulse Taken Counts',
-        'Hemorrhage Control Time'
-    ],
-    [
-        'responders who prioritize engaging still patients', 'years of military medical experience', 'medical roles', 'count of injuries not treated', 'count of injuries treated correctly',
-        'total distance traveled between patient engagements', 'the number of wave commands (commands to "wave if you can hear me") issued',
-        'the number of walk commands issued (commands to "walk to the safe space if you can")', 'responders who prioritize high-injury-severity patients', 'the number of pulses taken',
-        'time to last hemorrhage controlled'
-    ],
-    [
-        'stills_value', 'YrsMilExp', 'medical_role', 'injury_not_treated_count', 'injury_correctly_treated_count',
-        'actual_engagement_distance', 'wave_command_count',
-        'walk_command_count', 'prioritize_high_injury_severity_patients', 'pulse_taken_count',
-        'time_to_last_hemorrhage_controlled'
-    ]
-):
-    print(f"""
+file_path = osp.join(nu.saves_text_folder, 'add_a_section_prompt.txt')
+with open(file_path, mode='w', encoding=nu.encoding_type) as f: print('', file=f)
+with open(file_path, mode='a', encoding=nu.encoding_type) as f:
+    for question_number, feature_title, feature_description, analysis_column in zip(
+        range(1, 13),
+        [
+            'Engagement Order', 'Military Medical Experience', 'Medical Role', 'Untreated Injuries', 'Correctly Treated Injuries',
+            'Total Distance Travelled between Engagements', 'Wave Command Counts',
+            'Walk Command Counts', 'High Injury Severity', 'Pulse Taken Counts',
+            'Hemorrhage Control Time'
+        ],
+        [
+            'responders who prioritize engaging still patients', 'years of military medical experience', 'medical roles', 'count of injuries not treated', 'count of injuries treated correctly',
+            'total distance traveled between patient engagements', 'the number of wave commands (commands to "wave if you can hear me") issued',
+            'the number of walk commands issued (commands to "walk to the safe space if you can")', 'responders who prioritize high-injury-severity patients', 'the number of pulses taken',
+            'time to last hemorrhage controlled'
+        ],
+        [
+            'stills_value', 'YrsMilExp', 'medical_role', 'injury_not_treated_count', 'injury_correctly_treated_count',
+            'actual_engagement_distance', 'wave_command_count',
+            'walk_command_count', 'prioritize_high_injury_severity_patients', 'pulse_taken_count',
+            'time_to_last_hemorrhage_controlled'
+        ]
+    ):
+        print(f"""
 Based on the results below, add a blurb to the Analysis section given these particular tests to compare {feature_description} with all KDMA measures we investigated: ST_KDMA_Sim (SoarTech simulator probe responses), ST_KDMA_Text (SoarTech text probe responses), AD_KDMA_Sim (ADEPT simulator probe responses), and AD_KDMA_Text (ADEPT text probe responses). ADEPT (AD) probe responses are measuring Moral Desert (MD) – an attribute that assesses to what extent someone prioritizes patients based on the patient’s moral responsibility for the situation. SoarTech (ST) probe responses are measuring Maximization (Max) – an attribute that assesses to what extent someone performs an exhaustive search through choice alternatives prior to deciding (as opposed to satisficing where people search until they find a good enough option).
 
-""")
-    
-    # Calculate Pearson correlation coefficient between the analysis column and each KDMA column
-    if analysis_column not in anova_df.columns:
-        analysis_column_name = f'mean_{analysis_column}'
-    else:
-        analysis_column_name = analysis_column
-    if is_integer(anova_df[analysis_column_name]) or is_float(anova_df[analysis_column_name]):
-        for col in kdma_columns:
-            df = anova_df[[analysis_column_name, col]].dropna()
-            correlation = df[analysis_column_name].corr(df[col])
-            kdma_column_name = col.replace('mean_', '')
-            print(f'Correlation between {analysis_column} and {kdma_column_name}: {correlation:.4f}')
-    
-    if anova_df[analysis_column_name].nunique() < 5:
+""", file=f)
         
-        if analysis_column == 'stills_value':
-            labels_dict = {0: 'All Stills not Visited First', 1: 'All Stills Visited First'}
-        elif analysis_column == 'prioritize_high_injury_severity_patients':
-            labels_dict = {0: 'Highest severity patient not engaged first', 1: 'Highest severity patient engaged first'}
+        # Calculate Pearson correlation coefficient between the analysis column and each KDMA column
+        if analysis_column not in anova_df.columns:
+            analysis_column_name = f'mean_{analysis_column}'
         else:
-            labels_dict = {column_value: f'{column_value} {feature_description}' for column_value, _ in anova_df.groupby(analysis_column_name)}
+            analysis_column_name = analysis_column
+        if is_integer(anova_df[analysis_column_name]) or is_float(anova_df[analysis_column_name]):
+            for col in kdma_columns:
+                df = anova_df[[analysis_column_name, col]].dropna()
+                correlation = df[analysis_column_name].corr(df[col])
+                kdma_column_name = col.replace('mean_', '')
+                print(f'Correlation between {analysis_column} and {kdma_column_name}: {correlation:.4f}', file=f)
         
-        if IS_DEBUG: print("\nThe columns we want to group by:")
-        groupby_columns = [analysis_column_name]
-        if IS_DEBUG: print(groupby_columns)
+        # if IS_DEBUG: print(f"The {analysis_column_name} column has {anova_df[analysis_column_name].nunique()} unique values")
+        if anova_df[analysis_column_name].nunique() < 6:
+            
+            if analysis_column == 'stills_value':
+                labels_dict = {0: 'All Stills not Visited First', 1: 'All Stills Visited First'}
+            elif analysis_column == 'prioritize_high_injury_severity_patients':
+                labels_dict = {0: 'Highest severity patient not engaged first', 1: 'Highest severity patient engaged first'}
+            else:
+                labels_dict = {column_value: f'{column_value} {feature_description}' for column_value, _ in anova_df.groupby(analysis_column_name)}
+            COLUMN_NAME_DESCRIPTION_DICT = old_COLUMN_NAME_DESCRIPTION_DICT.copy()
+            COLUMN_NAME_DESCRIPTION_DICT.update(labels_dict)
+            
+            if IS_DEBUG: print("\nThe columns we want to group by:")
+            groupby_columns = [analysis_column_name]
+            if IS_DEBUG: print(groupby_columns)
+            
+            if IS_DEBUG: print("\nThe numeric columns we want to analyze:")
+            if IS_DEBUG: print(kdma_columns)
+            
+            if IS_DEBUG: print("\nContributing factors:")
+            for groupby_column in groupby_columns:
+                compare_columns(anova_df, groupby_column, kdma_columns, dataset_organization_df, text_io_wrapper=f)
+            
+            print("""\n\nThough the Kruskal-Wallis test is relatively robust to outliers, we have calculated the IQR fence here:""", file=f)
+            for column_value, df in anova_df.groupby(analysis_column_name):
+                statements_list = ['\nOutlier test for ' + labels_dict.get(column_value, f'{column_value} {feature_description}')]
+                for cn in kdma_columns:
+                    outlier_dict = nu.get_statistics(df, [cn]).to_dict()[cn]
+                    mask_series = (df[cn] < outlier_dict['25%']) | (df[cn] > outlier_dict['75%'])
+                    if mask_series.any():
+                        statements_list.append(
+                            f"For {cn.replace('mean_', '')}, {mask_series.sum():,} out of {df.shape[0]:,} data points are considered potential outliers"
+                            + f" (IQR = ({outlier_dict['25%']:.2f}, {outlier_dict['75%']:.2f}))."
+                        )
+                if len(statements_list) > 1:
+                    print('\n'.join(statements_list), file=f)
         
-        if IS_DEBUG: print("\nThe numeric columns we want to analyze:")
-        if IS_DEBUG: print(kdma_columns)
-        
-        if IS_DEBUG: print("\nContributing factors:")
-        for groupby_column in groupby_columns:
-            compare_columns(anova_df, groupby_column, kdma_columns, dataset_organization_df)
-        
-        print("""\n\nThough the Kruskal-Wallis test is relatively robust to outliers, we have calculated the IQR fence here:""")
-        for column_value, df in anova_df.groupby(analysis_column_name):
-            statements_list = ['\nOutlier test for ' + labels_dict.get(column_value, f'{column_value} {feature_description}')]
-            for cn in kdma_columns:
-                outlier_dict = nu.get_statistics(df, [cn]).to_dict()[cn]
-                mask_series = (df[cn] < outlier_dict['25%']) | (df[cn] > outlier_dict['75%'])
-                if mask_series.any():
-                    statements_list.append(
-                        f"For {cn.replace('mean_', '')}, {mask_series.sum():,} out of {df.shape[0]:,} data points are considered potential outliers"
-                        + f" (IQR = ({outlier_dict['25%']:.2f}, {outlier_dict['75%']:.2f}))."
-                    )
-            if len(statements_list) > 1:
-                print('\n'.join(statements_list))
+        print(f"""
     
-    print(f"""
-
     KDMA Values and {feature_title} (Question {question_number})
-
-
+    
+    
     a) Question:
     Is there a correlation between the {feature_description} and KDMA scores?
-
-
+    
+    
     b) Analysis:
-
-
+    
+    
     c) Conclusions:
-
-
+    
+    
     d) Other Questions (one could ask of the data):
-
-
-    e) Possible Confounding Factors:""")
+    
+    
+    e) Possible Confounding Factors:""", file=f)
+COLUMN_NAME_DESCRIPTION_DICT = old_COLUMN_NAME_DESCRIPTION_DICT.copy()

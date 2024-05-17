@@ -76,6 +76,12 @@ class FRVRSUtilities(object):
         self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED']
         
         # List of action types to consider as user actions
+        self.known_mcivr_metrics_types = [
+            'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'PULSE_TAKEN', 'SP_O2_TAKEN',
+            'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED', 'S_A_L_T_WAVE_IF_CAN',
+            'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_APPLIED', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_APPLIED', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
+            'VOICE_COMMAND', 'BUTTON_CLICKED', 'PLAYER_LOCATION', 'PLAYER_GAZE', 'SESSION_START', 'SESSION_END'
+        ]
         self.action_types_list = [
             'TELEPORT', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVE_IF_CAN', 'TRIAGE_LEVEL_WAVE_IF_CAN', 'PATIENT_ENGAGED',
             'PULSE_TAKEN', 'BAG_ACCESS', 'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
@@ -3116,8 +3122,7 @@ class FRVRSUtilities(object):
         return file_df
     
     
-    @staticmethod
-    def set_mcivr_metrics_types(action_type, df, row_index, row_series, verbose=False):
+    def set_mcivr_metrics_types(self, action_type, df, row_index, row_series, verbose=False):
         """
         Ingest all the auxiliary data based on action type out of numbered columns into
         named columns by setting the MCI-VR metrics types for a given action type and
@@ -3132,7 +3137,10 @@ class FRVRSUtilities(object):
         Returns:
             The DataFrame containing the MCI-VR metrics with new columns.
         """
-    
+        
+        # List of indexes to delete
+        drop_index_list = []
+        
         # Set the metrics types for each action type
         if (action_type == 'BAG_ACCESS'): # BagAccess
             df.loc[row_index, 'bag_access_location'] = row_series[4] # Location
@@ -3296,7 +3304,14 @@ class FRVRSUtilities(object):
                 print(row_series); raise
             df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
             df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
-    
+        elif (action_type == 'Participant ID'):
+            drop_index_list.append(row_index)
+        elif action_type not in self.known_mcivr_metrics_types:
+            raise Exception(f"{action_type} not in in self.known_mcivr_metrics_types:\n{row_series}")
+        
+        # Delete rows at specified indexes
+        df = df.drop(index=drop_index_list)
+        
         return df
     
     
@@ -3602,15 +3617,36 @@ class FRVRSUtilities(object):
     def add_modal_column(self, new_column_name, df, verbose=False):
         if (new_column_name not in df.columns):
             name_parts_list = new_column_name.split('_')
-            if verbose: print("\nModalize into one {' '.join(name_parts_list)} column if possible")
-            df = nu.modalize_columns(df, eval(f"self.{'_'.join(name_parts_list[1:])}_columns_list"), new_column_name)
-            mask_series = ~df[new_column_name].isnull()
-            feature_set = set(df[mask_series][new_column_name].unique())
-            order_set = set(eval(f"self.{new_column_name}_order"))
-            assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{new_column_name}_order"
-            df[new_column_name] = df[new_column_name].astype(eval(f"self.{'_'.join(name_parts_list[1:])}_category_order"))
+            if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
+            
+            # Find the columns list attribute
+            attribute_name = f"{'_'.join(name_parts_list[1:])}_columns_list"
+            if not hasattr(self, attribute_name):
+                attribute_name = f"{'_'.join(name_parts_list)}_columns_list"
+
+            df = nu.modalize_columns(df, eval(f"self.{attribute_name}"), new_column_name)
+            
+            # Check if the order attribute exists after trying to find it
+            attribute_name = f"{new_column_name}_order"
+            if hasattr(self, attribute_name):
+                mask_series = ~df[new_column_name].isnull()
+                feature_set = set(df[mask_series][new_column_name].unique())
+                order_set = set(eval(f"self.{attribute_name}"))
+                assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{attribute_name}"
+                
+                # Check if the category attribute exists
+                attribute_name = f"{'_'.join(name_parts_list[1:])}_category_order"
+                if not hasattr(self, attribute_name):
+                    attribute_name = f"{'_'.join(name_parts_list)}_category_order"
+                
+                if hasattr(self, attribute_name):
+                    df[new_column_name] = df[new_column_name].astype(eval(f"self.{attribute_name}"))
+                else:
+                    if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+            else:
+                if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
         if verbose: print(df[new_column_name].nunique())
-        if verbose: display(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
+        if verbose: display(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
         return df
     

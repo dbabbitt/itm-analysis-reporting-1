@@ -20,6 +20,7 @@ import numpy as np
 import os
 import pandas as pd
 import re
+import seaborn as sns
 import subprocess
 import sys
 import urllib
@@ -2763,7 +2764,6 @@ class NotebookUtilities(object):
         Returns:
             None: The function plots the graph directly using seaborn and matplotlib.
         """
-        import seaborn as sns
         
         # Get the transformed data frame
         if transformer_name is None: transformed_df = transformable_df
@@ -2901,8 +2901,6 @@ class NotebookUtilities(object):
     
         if color_list is None: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2)
         else: scatter_kws = dict(s=30, lw=.5, edgecolors='k', zorder=2, color=color_list)
-    
-        import seaborn as sns
         merge_axes_subplot = sns.regplot(x=xname, y=yname, scatter=True, data=df, ax=ax,
                                          scatter_kws=scatter_kws, line_kws=line_kws)
     
