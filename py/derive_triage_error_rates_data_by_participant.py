@@ -1,19 +1,19 @@
 #!/usr/bin/env python
-# Utility Functions to meet the agreed improvement actions.
+# Utility Functions to create triage error rates.
 # Dave Babbitt <dave.babbitt@bigbear.ai>
 # Author: Dave Babbitt, Machine Learning Engineer
 # coding: utf-8
 
 # To run this in windows, open the containing folder into cmd, and type something like:
-# C:\Users\DaveBabbitt\anaconda3\python.exe agreed_improvement_action.py
+# C:\Users\DaveBabbitt\anaconda3\python.exe derive_triage_error_rates_data_by_participant.py
 # To run this in Ubuntu, type something like:
-# clear; cd /mnt/c/Users/DaveBabbitt/Downloads; /home/dbabbitt/anaconda3/envs/itm_analysis_reporting/bin/python agreed_improvement_action.py
+# clear; cd /mnt/c/Users/DaveBabbitt/Downloads; /home/dbabbitt/anaconda3/envs/itm_analysis_reporting/bin/python derive_triage_error_rates_data_by_participant.py
 
-# agreed_improvement_action.py in its attached .zip file creates everything (including the ANOVA aggregation) in the saves folder
+# derive_triage_error_rates_data_by_participant.py in its attached .zip file creates everything (including the ANOVA aggregation) in the saves folder
 # using everything in the data folder using only one .py file.
 
 IS_DEBUG = True
-if IS_DEBUG: print("\nLoad agreed_improvement_action libraries")
+if IS_DEBUG: print("\nLoad derive_triage_error_rates_data_by_participant libraries")
 from numpy import nan, isnan
 from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
 from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, get_dummies, isna, notnull, read_csv, read_excel, to_datetime, to_numeric
@@ -627,187 +627,6 @@ class FRVRSUtilities(object):
         if IS_DEBUG: print("Tool data designations")
         self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
         self.tool_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
-        
-        # MCI-VR metrics types dictionary
-        self.action_type_to_columns = {
-            'BAG_ACCESS': {
-                'bag_access_location': 4,
-            },
-            'BAG_CLOSED': {
-                'bag_closed_location': 4,
-            },
-            'INJURY_RECORD': {
-                'injury_record_id': 4,
-                'injury_record_patient_id': 5,
-                'injury_record_required_procedure': 6,
-                'injury_record_severity': 7,
-                'injury_record_body_region': 8,
-                'injury_record_injury_treated': 9,
-                'injury_record_injury_treated_with_wrong_treatment': 10,
-                'injury_record_injury_injury_locator': 11,
-            },
-            'INJURY_TREATED': {
-                'injury_treated_id': 4,
-                'injury_treated_patient_id': 5,
-                'injury_treated_required_procedure': 6,
-                'injury_treated_severity': 7,
-                'injury_treated_body_region': 8,
-                'injury_treated_injury_treated': 9,
-                'injury_treated_injury_treated_with_wrong_treatment': 10,
-                'injury_treated_injury_injury_locator': 11,
-            },
-            'PATIENT_DEMOTED': {
-                'patient_demoted_health_level': 4,
-                'patient_demoted_health_time_remaining': 5,
-                'patient_demoted_id': 6,
-                'patient_demoted_position': 7,
-                'patient_demoted_rotation': 8,
-                'patient_demoted_salt': 9,
-                'patient_demoted_sort': 10,
-                'patient_demoted_pulse': 11,
-                'patient_demoted_breath': 12,
-                'patient_demoted_hearing': 13,
-                'patient_demoted_mood': 14,
-                'patient_demoted_pose': 15,
-            },
-            'PATIENT_ENGAGED': {
-                'patient_engaged_health_level': 4,
-                'patient_engaged_health_time_remaining': 5,
-                'patient_engaged_id': 6,
-                'patient_engaged_position': 7,
-                'patient_engaged_rotation': 8,
-                'patient_engaged_salt': 9,
-                'patient_engaged_sort': 10,
-                'patient_engaged_pulse': 11,
-                'patient_engaged_breath': 12,
-                'patient_engaged_hearing': 13,
-                'patient_engaged_mood': 14,
-                'patient_engaged_pose': 15,
-            },
-            'BREATHING_CHECKED': {
-                'patient_checked_breath': 4,
-                'patient_checked_id': 5,
-            },
-            'PATIENT_RECORD': {
-                'patient_record_health_level': 4,
-                'patient_record_health_time_remaining': 5,
-                'patient_record_id': 6,
-                'patient_record_position': 7,
-                'patient_record_rotation': 8,
-                'patient_record_salt': 9,
-                'patient_record_sort': 10,
-                'patient_record_pulse': 11,
-                'patient_record_breath': 12,
-                'patient_record_hearing': 13,
-                'patient_record_mood': 14,
-                'patient_record_pose': 15,
-            },
-            'PULSE_TAKEN': {
-                'pulse_taken_pulse_name': 4,
-                'pulse_taken_patient_id': 5,
-            },
-            'SP_O2_TAKEN': {
-                'sp_o2_taken_level': 4,
-                'sp_o2_taken_patient_id': 5,
-            },
-            'S_A_L_T_WALKED': {
-                's_a_l_t_walked_sort_location': 4,
-                's_a_l_t_walked_sort_command_text': 5,
-                's_a_l_t_walked_patient_id': 6,
-            },
-            'TRIAGE_LEVEL_WALKED': {
-                'triage_level_walked_location': 4,
-                'triage_level_walked_command_text': 5,
-                'triage_level_walked_patient_id': 6,
-            },
-            'S_A_L_T_WALK_IF_CAN': {
-                's_a_l_t_walk_if_can_sort_location': 4,
-                's_a_l_t_walk_if_can_sort_command_text': 5,
-                's_a_l_t_walk_if_can_patient_id': 6,
-            },
-            'TRIAGE_LEVEL_WALK_IF_CAN': {
-                'triage_level_walk_if_can_location': 4,
-                'triage_level_walk_if_can_command_text': 5,
-                'triage_level_walk_if_can_patient_id': 6,
-            },
-            'S_A_L_T_WAVED': {
-                's_a_l_t_waved_sort_location': 4,
-                's_a_l_t_waved_sort_command_text': 5,
-                's_a_l_t_waved_patient_id': 6,
-            },
-            'TRIAGE_LEVEL_WAVED': {
-                'triage_level_waved_location': 4,
-                'triage_level_waved_command_text': 5,
-                'triage_level_waved_patient_id': 6,
-            },
-            'S_A_L_T_WAVE_IF_CAN': {
-                's_a_l_t_wave_if_can_sort_location': 4,
-                's_a_l_t_wave_if_can_sort_command_text': 5,
-                's_a_l_t_wave_if_can_patient_id': 6,
-            },
-            'TRIAGE_LEVEL_WAVE_IF_CAN': {
-                'triage_level_wave_if_can_location': 4,
-                'triage_level_wave_if_can_command_text': 5,
-                'triage_level_wave_if_can_patient_id': 6,
-            },
-            'TAG_APPLIED': {
-                'tag_applied_patient_id': 4,
-                'tag_applied_type': 5,
-            },
-            'TAG_DISCARDED': {
-                'tag_discarded_type': 4,
-                'tag_discarded_location': 5,
-            },
-            'TAG_SELECTED': {
-                'tag_selected_type': 4,
-            },
-            'TELEPORT': {
-                'teleport_location': 4,
-            },
-            'TOOL_APPLIED': {
-                'tool_applied_patient_id': 4,
-                'tool_applied_type': 5,
-                'tool_applied_attachment_point': 6,
-                'tool_applied_tool_location': 7,
-                'tool_applied_sender': 8,
-                'tool_applied_attach_message': 9,
-            },
-            'TOOL_DISCARDED': {
-                'tool_discarded_type': 4,
-                'tool_discarded_count': 5,
-                'tool_discarded_location': 6,
-            },
-            'TOOL_HOVER': {
-                'tool_hover_type': 4,
-                'tool_hover_count': 5,
-            },
-            'TOOL_SELECTED': {
-                'tool_selected_type': 4,
-                'tool_selected_count': 5,
-            },
-            'VOICE_CAPTURE': {
-                'voice_capture_message': 4,
-                'voice_capture_command_description': 5,
-            },
-            'VOICE_COMMAND': {
-                'voice_command_message': 4,
-                'voice_command_command_description': 5,
-            },
-            'BUTTON_CLICKED': {
-                'button_command_message': 4,
-            },
-            'PLAYER_LOCATION': {
-                'player_location_location': 4,
-                'player_location_left_hand_location': 5,
-                'player_location_right_hand_location': 6,
-            },
-            'PLAYER_GAZE': {
-                'player_gaze_location': 4,
-                'player_gaze_patient_id': 5,
-                'player_gaze_distance_to_patient': 6,
-                'player_gaze_direction_of_gaze': 7,
-            },
-        }
 
     ### String Functions ###
     
@@ -2369,19 +2188,180 @@ class FRVRSUtilities(object):
         Returns:
             The DataFrame containing the MCI-VR metrics with new columns.
         """
-        if action_type not in self.action_type_to_columns:
-            if (action_type == 'Participant ID'):
-                df = df.drop(index=row_index)
-                return df
+        
+        # List of indexes to delete
+        drop_index_list = []
+        
+        # Set the metrics types for each action type
+        if (action_type == 'BAG_ACCESS'): # BagAccess
+            df.loc[row_index, 'bag_access_location'] = row_series[4] # Location
+        elif (action_type == 'BAG_CLOSED'): # BagClosed
+            df.loc[row_index, 'bag_closed_location'] = row_series[4] # Location
+        elif (action_type == 'INJURY_RECORD'): # InjuryRecord
+            df.loc[row_index, 'injury_record_id'] = row_series[4] # Id
+            df.loc[row_index, 'injury_record_patient_id'] = row_series[5] # patientId
+            df.loc[row_index, 'injury_record_required_procedure'] = row_series[6] # requiredProcedure
+            df.loc[row_index, 'injury_record_severity'] = row_series[7] # severity
+            df.loc[row_index, 'injury_record_body_region'] = row_series[8] # bodyRegion
+            df.loc[row_index, 'injury_record_injury_treated'] = row_series[9] # injuryTreated
+            df.loc[row_index, 'injury_record_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
+            df.loc[row_index, 'injury_record_injury_injury_locator'] = row_series[11] # injuryLocator
+        elif (action_type == 'INJURY_TREATED'): # InjuryTreated
+            df.loc[row_index, 'injury_treated_id'] = row_series[4] # Id
+            df.loc[row_index, 'injury_treated_patient_id'] = row_series[5] # patientId
+            df.loc[row_index, 'injury_treated_required_procedure'] = row_series[6] # requiredProcedure
+            df.loc[row_index, 'injury_treated_severity'] = row_series[7] # severity
+            df.loc[row_index, 'injury_treated_body_region'] = row_series[8] # bodyRegion
+            df.loc[row_index, 'injury_treated_injury_treated'] = row_series[9] # injuryTreated
+            df.loc[row_index, 'injury_treated_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
+            df.loc[row_index, 'injury_treated_injury_injury_locator'] = row_series[11] # injuryLocator
+        elif (action_type == 'PATIENT_DEMOTED'): # PatientDemoted
+            df.loc[row_index, 'patient_demoted_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_demoted_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_demoted_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_demoted_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_demoted_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_demoted_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_demoted_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_demoted_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_demoted_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_demoted_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_demoted_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_demoted_pose'] = row_series[15] # pose
+        elif (action_type == 'PATIENT_ENGAGED'): # PatientEngaged
+            df.loc[row_index, 'patient_engaged_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_engaged_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_engaged_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_engaged_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_engaged_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_engaged_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_engaged_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_engaged_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_engaged_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_engaged_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_engaged_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
+        elif (action_type == 'BREATHING_CHECKED'):
+            df.loc[row_index, 'patient_checked_breath'] = row_series[4]
+            df.loc[row_index, 'patient_checked_id'] = row_series[5]
+        elif (action_type == 'PATIENT_RECORD'): # PatientRecord
+            df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_record_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_record_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_record_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_record_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_record_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_record_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_record_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_record_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_record_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_record_pose'] = row_series[15] # pose
+        elif (action_type == 'PULSE_TAKEN'): # PulseTaken
+            df.loc[row_index, 'pulse_taken_pulse_name'] = row_series[4] # pulseName
+            df.loc[row_index, 'pulse_taken_patient_id'] = row_series[5] # patientId
+        elif (action_type == 'SP_O2_TAKEN'):
+            df.loc[row_index, 'sp_o2_taken_level'] = row_series[4]
+            df.loc[row_index, 'sp_o2_taken_patient_id'] = row_series[5]
+        elif (action_type == 'S_A_L_T_WALKED'): # SALTWalked
+            df.loc[row_index, 's_a_l_t_walked_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_walked_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_walked_patient_id'] = row_series[6]
+        elif (action_type == 'TRIAGE_LEVEL_WALKED'):
+            df.loc[row_index, 'triage_level_walked_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_walked_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_walked_patient_id'] = row_series[6]
+        elif (action_type == 'S_A_L_T_WALK_IF_CAN'): # SALTWalkIfCan
+            df.loc[row_index, 's_a_l_t_walk_if_can_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_walk_if_can_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_walk_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WALK_IF_CAN'):
+            df.loc[row_index, 'triage_level_walk_if_can_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_walk_if_can_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_walk_if_can_patient_id'] = row_series[6]
+        elif (action_type == 'S_A_L_T_WAVED'): # SALTWave
+            df.loc[row_index, 's_a_l_t_waved_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_waved_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_waved_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WAVED'):
+            df.loc[row_index, 'triage_level_waved_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_waved_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_waved_patient_id'] = row_series[6]
+        elif (action_type == 'S_A_L_T_WAVE_IF_CAN'): # SALTWaveIfCan
+            df.loc[row_index, 's_a_l_t_wave_if_can_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_wave_if_can_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_wave_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WAVE_IF_CAN'):
+            df.loc[row_index, 'triage_level_wave_if_can_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_wave_if_can_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_wave_if_can_patient_id'] = row_series[6]
+        elif (action_type == 'TAG_APPLIED'): # TagApplied
+            df.loc[row_index, 'tag_applied_patient_id'] = row_series[4] # patientId
+            df.loc[row_index, 'tag_applied_type'] = row_series[5] # type
+        elif (action_type == 'TAG_DISCARDED'): # TagDiscarded
+            df.loc[row_index, 'tag_discarded_type'] = row_series[4] # Type
+            df.loc[row_index, 'tag_discarded_location'] = row_series[5] # Location
+        elif (action_type == 'TAG_SELECTED'): # TagSelected
+            df.loc[row_index, 'tag_selected_type'] = row_series[4] # Type
+        elif (action_type == 'TELEPORT'): # Teleport
+            df.loc[row_index, 'teleport_location'] = row_series[4] # Location
+        elif (action_type == 'TOOL_APPLIED'): # ToolApplied
+            if verbose: df.loc[row_index, 'tool_applied_row_shape'] = row_series.shape
+            tool_applied_patient_id = row_series[4]
+            if ' Root' in tool_applied_patient_id:
+                df.loc[row_index, 'tool_applied_patient_id'] = tool_applied_patient_id # patientId
+            df.loc[row_index, 'tool_applied_type'] = row_series[5] # type
+            df.loc[row_index, 'tool_applied_attachment_point'] = row_series[6] # attachmentPoint
+            df.loc[row_index, 'tool_applied_tool_location'] = row_series[7] # toolLocation
+            
+            # Find the attachMessage and infer if a data column exists from there
+            for attach_message_idx in range(10, 8, -1):
+                if str(row_series[attach_message_idx]).startswith('Applied'): break
+            sender_idx = attach_message_idx - 1
+            if (sender_idx == 9): df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
+            
+            df.loc[row_index, 'tool_applied_sender'] = row_series[sender_idx] # sender
+            df.loc[row_index, 'tool_applied_attach_message'] = row_series[attach_message_idx] # attachMessage
+        elif (action_type == 'TOOL_DISCARDED'): # ToolDiscarded
+            df.loc[row_index, 'tool_discarded_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_discarded_count'] = row_series[5] # Count
+            df.loc[row_index, 'tool_discarded_location'] = row_series[6] # Location
+        elif (action_type == 'TOOL_HOVER'): # ToolHover
+            df.loc[row_index, 'tool_hover_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_hover_count'] = row_series[5] # Count
+        elif (action_type == 'TOOL_SELECTED'): # ToolSelected
+            df.loc[row_index, 'tool_selected_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_selected_count'] = row_series[5] # Count
+        elif (action_type == 'VOICE_CAPTURE'): # VoiceCapture
+            df.loc[row_index, 'voice_capture_message'] = row_series[4] # Message
+            df.loc[row_index, 'voice_capture_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'VOICE_COMMAND'): # VoiceCommand
+            df.loc[row_index, 'voice_command_message'] = row_series[4] # Message
+            df.loc[row_index, 'voice_command_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'BUTTON_CLICKED'):
+            df.loc[row_index, 'button_command_message'] = row_series[4]
+        elif (action_type == 'PLAYER_LOCATION'): # PlayerLocation
+            df.loc[row_index, 'player_location_location'] = row_series[4] # Location (x,y,z)
+            df.loc[row_index, 'player_location_left_hand_location'] = row_series[5] # Left Hand Location (x,y,z); deactivated in v1.3
+            df.loc[row_index, 'player_location_right_hand_location'] = row_series[6] # Right Hand Location (x,y,z); deactivated in v1.3
+        elif (action_type == 'PLAYER_GAZE'): # PlayerGaze
+            if ' Root' in row_series[4]:
+                df.loc[row_index, 'player_gaze_patient_id'] = row_series[4] # PatientID
+                df.loc[row_index, 'player_gaze_location'] = row_series[5] # Location (x,y,z)
+            elif ' Root' in row_series[5]:
+                df.loc[row_index, 'player_gaze_location'] = row_series[4] # Location (x,y,z)
+                df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # PatientID
             else:
-                raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
+                print(row_series); raise
+            df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
+            df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
+        elif (action_type == 'Participant ID'):
+            drop_index_list.append(row_index)
+        elif action_type not in self.known_mcivr_metrics_types:
+            raise Exception(f"\n\n{action_type} not in in self.known_mcivr_metrics_types:\n{row_series}")
         
-        # Get column names and corresponding indices from the dictionary
-        column_names = list(self.action_type_to_columns[action_type].keys())
-        column_indices = list(self.action_type_to_columns[action_type].values())
-        
-        # Set multiple columns at once using vectorized assignment
-        df.loc[row_index, column_names] = row_series[column_indices]
+        # Delete rows at specified indexes
+        if drop_index_list: df = df.drop(index=drop_index_list)
         
         return df
     
@@ -2498,9 +2478,10 @@ class FRVRSUtilities(object):
         return logs_df
     
     
-    def convert_column_to_categorical(self, column_name, df, verbose=False):
+    def convert_column_to_categorical(self, df, column_name, verbose=False):
         if (column_name in df.columns):
             name_parts_list = column_name.split('_')
+            if verbose: print(f"\nConvert {column_name} column to categorical")
             
             # Find the order attribute
             attribute_name = 'XXXX'
@@ -2529,11 +2510,11 @@ class FRVRSUtilities(object):
                 
                 # Check if the category attribute exists
                 if hasattr(self, attribute_name):
-                    if verbose: print(f"\nConvert {column_name} column to categorical")
                     df[column_name] = df[column_name].astype(eval(f"self.{attribute_name}"))
                 else:
                     if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
-                
+            else:
+                if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
             if verbose: print(df[column_name].nunique())
             if verbose: display(df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
@@ -3240,827 +3221,163 @@ mask_series = (scene_stats_df.teleport_count < 1)
 if IS_DEBUG: pre_count = scene_stats_df.shape[0]
 scene_stats_df = scene_stats_df[~mask_series]
 if IS_DEBUG: print(f"\nFiltered out {pre_count - scene_stats_df.shape[0]} scenes with no teleports")
+if IS_DEBUG: print(sorted([cn for cn in scene_stats_df.columns if 'partici' in cn]))
 
-nu.save_data_frames(metrics_evaluation_open_world_scene_stats_df=scene_stats_df, verbose=IS_DEBUG)
-nu.save_data_frames(metrics_evaluation_open_world_csv_stats_df=csv_stats_df, verbose=IS_DEBUG)
+if IS_DEBUG: print("\nStacked graph for triage errors")
 
+if IS_DEBUG: print(sorted([cn for cn in csv_stats_df.columns if 'partici' in cn]))
 
-# load data frames to get a reliable representation
-if IS_DEBUG: print('\nCreate the final dataframe that we should use for analysis')
-
-
+if IS_DEBUG: print("\nCreate the tag-to-SALT data frame")
 if IS_DEBUG: print("\nColumns to merge the scene stats dataset with the CSV stats on:")
 on_columns = sorted(set(csv_stats_df.columns).intersection(set(scene_stats_df.columns)))
 if IS_DEBUG: print(on_columns)
 
 if IS_DEBUG: print('\nThe scene stats dataset columns we want to have in the merge:')
-metadata_columns = sorted([cn for cn in scene_stats_df.columns if cn.endswith('_metadata')])
 analysis_columns = sorted(set([
     'actual_engagement_distance', 'first_engagement', 'first_treatment', 'injury_correctly_treated_count', 'injury_not_treated_count',
-    'injury_treatments_count', 'injury_wrongly_treated_count', 'last_engagement', 'last_still_engagement', 'measure_of_right_ordering', 'patient_count',
-    'percent_hemorrhage_controlled', 'pulse_taken_count', 'stills_value', 'teleport_count', 'time_to_hemorrhage_control_per_patient',
-    'time_to_last_hemorrhage_controlled', 'total_actions_count', 'triage_time', 'voice_capture_count', 'walk_command_count', 'walk_value', 'walkers_value',
-    'wave_command_count', 'wave_value'
-] + metadata_columns).intersection(set(scene_stats_df.columns)))
-if IS_DEBUG: print(analysis_columns)
+    'injury_treatments_count', 'injury_wrongly_treated_count', 'last_engagement', 'last_still_engagement', 'measure_of_right_ordering',
+    'patient_count', 'percent_hemorrhage_controlled', 'pulse_taken_count', 'stills_value', 'teleport_count',
+    'time_to_hemorrhage_control_per_patient', 'time_to_last_hemorrhage_controlled', 'total_actions_count', 'triage_time',
+    'voice_capture_count', 'walk_command_count', 'walk_value', 'walkers_value', 'wave_command_count', 'wave_value'
+]).intersection(set(scene_stats_df.columns)))
+print(analysis_columns)
 
-if IS_DEBUG: print("\nMerge the scene stats with the CSV stats")
+# Merge the scene stats with the CSV stats
 survey_columns = ['AD_KDMA_Sim', 'AD_KDMA_Text', 'PropTrust', 'ST_KDMA_Sim', 'ST_KDMA_Text', 'YrsMilExp']
 columns_list = on_columns + analysis_columns + survey_columns
 assert set(columns_list).issubset(set(scene_stats_df.columns)), "You've lost access to the analysis columns"
 merge_df = csv_stats_df.merge(scene_stats_df[columns_list], on=on_columns, how='left').drop_duplicates()
 
-if IS_DEBUG: print("\nBreak up the metadata columns into their own columns")
-metadata_columns = sorted([cn for cn in merge_df.columns if cn.endswith('_metadata')])
-for cn in metadata_columns:
-    str_prefix = split('_metadata', cn, 0)[0]
-    
-    # Split the pipe-delimited values into a DataFrame
-    split_df = merge_df[cn].str.split('|', expand=True)
-    
-    # Change the column names to reflect the content
-    split_df.columns = [
-        f'{str_prefix}_patient_id', f'{str_prefix}_engagement_start', f'{str_prefix}_location_tuple', f'{str_prefix}_patient_sort',
-        f'{str_prefix}_predicted_priority', f'{str_prefix}_injury_severity'
-    ]
-    
-    # Make engagement_start an integer
-    # split_df[f'{str_prefix}_engagement_start'] = split_df[f'{str_prefix}_engagement_start'].fillna(0).astype(int)
-    split_df[f'{str_prefix}_engagement_start'] = to_numeric(split_df[f'{str_prefix}_engagement_start'], errors='coerce')
-    
-    # Add the split columns to the original DataFrame
-    merge_df = concat([merge_df, split_df], axis='columns')
-    
-    # Drop the original column
-    merge_df = merge_df.drop(columns=[cn, f'{str_prefix}_predicted_priority'])
+tag_to_salt_df = fu.get_is_tag_correct_data_frame(merge_df, groupby_column='participant_id')
 
-patient_id_columns = sorted([cn for cn in merge_df.columns if cn.endswith('_patient_id')])
-engagement_start_columns = sorted([cn for cn in merge_df.columns if cn.endswith('_engagement_start')])
-location_tuple_columns = sorted([cn for cn in merge_df.columns if cn.endswith('_location_tuple')])
-patient_sort_columns = sorted([cn for cn in merge_df.columns if cn.endswith('_patient_sort')])
-injury_severity_columns = sorted([cn for cn in merge_df.columns if cn.endswith('_injury_severity')])
+# Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
+desert_patients_list = [
+    'Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root'
+]
+jungle_patients_list = [
+    'Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root'
+]
+submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
+urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
+patients_list = desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list
+assert set(patients_list).issubset(
+    set(tag_to_salt_df.patient_id)
+), f"tag_to_salt_df is missing these patients: {set(patients_list).difference(set(tag_to_salt_df.patient_id))}"
+mask_series = tag_to_salt_df.patient_id.isin(patients_list)
+tag_to_salt_df = tag_to_salt_df[mask_series]
 
-new_column_name = 'prioritize_high_injury_severity_patients'
-if new_column_name not in merge_df.columns:
-    if IS_DEBUG: print("\nAdd the prioritize patients columns")
-    prioritize_columns = [new_column_name]
-    merge_df[new_column_name] = 0
-    def f(srs):
-        is_maxed = nan
-        injury_severity_list = []
-        for column_name, column_value in srs.iteritems():
-            if column_name.endswith('_injury_severity') and not isna(column_value):
-                injury_severity_list.append(column_value)
-        if injury_severity_list:
-            is_maxed = int(srs.engaged_patient00_injury_severity == max(injury_severity_list))
-        return is_maxed
-    merge_df[new_column_name] = merge_df.apply(f, axis='columns')
-    if IS_DEBUG: print(merge_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
-
-if IS_DEBUG: print('\nThe merge dataset columns we want to have in the groupby:')
-columns_list = sorted(set(
-    on_columns + survey_columns + analysis_columns + patient_id_columns + engagement_start_columns
-    + location_tuple_columns + patient_sort_columns + injury_severity_columns + prioritize_columns
-).intersection(set(merge_df.columns)))
-if IS_DEBUG: print(columns_list)
-
-assert set(columns_list).issubset(set(merge_df.columns)), "You've lost access to the survey columns"
-if IS_DEBUG: print("\nThe numeric columns we want to take the mean of:")
-df = merge_df[columns_list]
-numeric_columns = sorted(set(nu.get_numeric_columns(df)).difference(set(
-    on_columns + patient_id_columns + location_tuple_columns + patient_sort_columns + injury_severity_columns
-)))
-if IS_DEBUG: print(numeric_columns)
-
-if IS_DEBUG: print("\nThe other columns we do not want to take the mean of:")
-other_columns = sorted(set(df.columns).difference(set(
-    numeric_columns + [
-        'injury_record_patient_id', 'injury_treated_patient_id', 'pulse_taken_patient_id', 'tag_applied_patient_id',
-        'tool_applied_patient_id', 'player_gaze_patient_id', 'triage_level_walk_if_can_patient_id', 'triage_level_walked_patient_id',
-        'triage_level_wave_if_can_patient_id', 'triage_level_waved_patient_id'
-    ]
-)))
-if IS_DEBUG: print(other_columns)
-
-left_df = merge_df[numeric_columns+on_columns].groupby(on_columns).mean().reset_index(drop=False).rename(
-    columns={cn: 'mean_'+cn for cn in numeric_columns}
-).dropna(axis='columns', how='all')
-right_df = merge_df[other_columns].drop_duplicates().dropna(axis='columns', how='all')
-if IS_DEBUG: print("\nColumns to merge the unmeaned half of the merge with the meaned half of the merge on:")
-on_columns = sorted(set(left_df.columns).intersection(set(right_df.columns)))
-if IS_DEBUG: print(on_columns)
-
-if IS_DEBUG: print("\nAggregate the data from the merged datasets and group by participant, session, and scene to get the means of the numeric columns")
-anova_df = left_df.merge(right_df, on=on_columns, how='outer').drop_duplicates()
-assert set(['mean_'+cn for cn in survey_columns]).issubset(set(anova_df.columns)), "You've lost acces to the survey columns (YrsMilExp, et al)"
-for cn in survey_columns: anova_df['mean_'+cn] = anova_df['mean_'+cn].fillna(0)
-assert len(anova_df.groupby(['participant_id', 'scene_id', 'session_uuid']).groups.keys()) == anova_df.shape[0], "You have duplicate rows in anova_df"
-
-if IS_DEBUG: print("\nAdd medical role back in")
-new_column = 'MedRole'
-column_name = 'medical_role'
-if new_column in scene_stats_df.columns:
-    on_columns = sorted(set(anova_df.columns).intersection(set(scene_stats_df.columns)))
+# Add participant id back in
+new_column = 'participant_id'
+if (new_column in scene_stats_df.columns) and (new_column not in tag_to_salt_df.columns):
+    on_columns = sorted(set(tag_to_salt_df.columns).intersection(set(scene_stats_df.columns)).intersection(set(['scene_id', 'session_uuid'])))
+    print(on_columns)
     columns_list = on_columns + [new_column]
-    anova_df = anova_df.merge(
-        scene_stats_df[columns_list], on=on_columns, how='left'
-    ).rename(columns={new_column: column_name})
-    anova_df[column_name] = anova_df[column_name].map(
-        lambda cv: get_value_description('MedRole', cv)
-    ).replace('', nan)
-if IS_DEBUG: print(anova_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
-    'record_count', ascending=False
-).head(5))
+    tag_to_salt_df = tag_to_salt_df.merge(scene_stats_df[columns_list], on=on_columns)
 
-if IS_DEBUG: print("\nAdd the sim environment back in")
-new_column = 'encounter_layout'
-if new_column in scene_stats_df.columns:
-    on_columns = sorted(set(anova_df.columns).intersection(set(scene_stats_df.columns)))
-    columns_list = on_columns + [new_column]
-    anova_df = anova_df.merge(
-        scene_stats_df[columns_list], on=on_columns, how='left'
-    )
-if IS_DEBUG: print(anova_df.groupby(new_column).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
-    'record_count', ascending=False
-).head(5))
+import numpy as np
 
-if IS_DEBUG: print("\nStore the results and show the new data frame columns")
-mean_survey_columns = ['mean_' + cn for cn in survey_columns]
-columns_list = anova_df.columns.tolist()
-nu.save_data_frames(metrics_evaluation_open_world_anova_df=anova_df[columns_list], verbose=IS_DEBUG)
+# Compute error_type, removing "Not Tagged" from consideration
+def f(df):
+    if df.last_tag in fu.error_table_df.index: error_type = fu.error_table_df[fu.error_table_df.index == df.last_tag][df.max_salt].squeeze()
+    else: error_type = np.nan
+    
+    return error_type
+groupby_columns = ['last_tag', 'max_salt', 'participant_id']
+error_types_df = tag_to_salt_df.groupby(groupby_columns).patient_count.sum().to_frame().reset_index(drop=False)
+error_types_df['error_type'] = error_types_df.apply(f, axis='columns')
 
+# Convert the columns to the custom categorical type
+error_types_df['last_tag'] = error_types_df['last_tag'].astype(fu.colors_category_order)
+error_types_df['max_salt'] = error_types_df['max_salt'].astype(fu.salt_category_order)
+error_types_df['error_type'] = error_types_df['error_type'].astype(fu.errors_category_order)
 
-def entitle_column_name(column_name):
-    """
-    Entitles a column name based on specified rules.
-    
-    Parameters:
-        column_name (str):
-            The name of the column to be entitled.
-    
-    Returns:
-        str
-            The entitled column name.
-    
-    Notes:
-        - If the column name starts with 'mean_' and the substring after 'mean_' exists in the column name description dictionary,
-          the entitled name is obtained from the corresponding value in the dictionary, prepended with 'Average ' if necessary.
-        - Otherwise, the column name is split into parts, and each part is processed to ensure proper capitalization and word replacements.
-    """
-    
-    # Check if the column name starts with 'mean_' and is present in the column name description dictionary
-    if column_name.startswith('mean_') and (column_name[5:] in COLUMN_NAME_DESCRIPTION_DICT):
-        entitled_name = COLUMN_NAME_DESCRIPTION_DICT[column_name[5:]]
-        
-        # Prepend 'Average ' if the entitled name does not already start with it
-        if not entitled_name.startswith('Average '):
-            entitled_name = 'Average ' + entitled_name
-    else:
-        new_parts_list = []
-        old_parts_list = [op for op in split('_', column_name, 0) if op]  # Split the column name by underscores
-        for name_part in old_parts_list:
-            
-            # Check if the part contains a capital letter followed by lowercase letters (camelCase)
-            if search('[A-Z][a-z]+', name_part):
-                humps_list = [hp for hp in split('([A-Z][a-z]+)', name_part, 0) if hp]  # Split camelCase parts
-                for i, hump_part in enumerate(humps_list):
-                    
-                    # Capitalize each part if it is all lowercase
-                    if hump_part == hump_part.lower():
-                        humps_list[i] = hump_part.title()
-                    
-                    # Replace specific abbreviations with full words
-                    elif hump_part == 'Sim':
-                        humps_list[i] = 'Simulation'
-                    elif hump_part == 'Yrs':
-                        humps_list[i] = 'Years of'
-                    elif hump_part == 'Mil':
-                        humps_list[i] = 'Military'
-                    elif hump_part == 'Exp':
-                        humps_list[i] = 'Experience'
-                new_parts_list.extend(humps_list)
-            else:
-                
-                # Process parts that are not in camelCase
-                if name_part == name_part.lower():
-                    
-                    # Capitalize if the part is all lowercase and meets certain conditions
-                    if (len(name_part) > 2) and (name_part != 'uuid'):
-                        name_part = name_part.title()
-                    
-                    # Convert certain parts to uppercase
-                    elif name_part not in ['to', 'of', 'per']:
-                        name_part = name_part.upper()
-                new_parts_list.append(name_part)
-        
-        # Replace 'Mean' with 'Average' if it is the first part
-        if new_parts_list[0] == 'Mean':
-            new_parts_list[0] = 'Average'
-        entitled_name = ' '.join(new_parts_list)
-    
-    return entitled_name
+# Sort the DataFrame based on the custom categorical orders
+error_types_df = error_types_df.sort_values(by=groupby_columns+['error_type'])
 
-if IS_DEBUG: print('\nWrite up the steps to do the ANOVA stats columns calculations')
-comment_regex = re.compile('^ *# ([^\r\n]+)', MULTILINE)
-function_call_dict = {
-    'encounter_layout': 'fu.add_encounter_layout_column', 'medical_role': 'fu.add_medical_role_column',
-    'mean_prioritize_high_injury_severity_patients': 'fu.add_prioritize_severity_column'
-}
-engaged_patient_columns_list = []
-file_path = osp.join(nu.saves_text_folder, 'how_to_do_calculations.txt')
-with open(file_path, mode='w', encoding=nu.encoding_type) as f: print('', file=f)
-with open(file_path, mode='a', encoding=nu.encoding_type) as f:
-    for cn in anova_df.columns:
-        if 'engaged_patient' in cn:
-            engaged_patient_columns_list.append(cn)
-            continue
-        print('', file=f)
-        print(f'{cn} ({entitle_column_name(cn)})', file=f)
-        print('Steps Needed to do Calculations:', file=f)
-        comments_list = []
-        if cn in ['participant_id', 'scene_id', 'session_uuid']:
-            if cn == 'scene_id':
-                comments_list.append('The scene_id is derived from the CSV SESSION_START and SESSION_END entries')
-            else:
-                comments_list.append(
-                    f'The {cn} is found in both the CSV and the JSON data in the'
-                    + ' "Human_Sim_Metrics_Data 4-12-2024.zip" file provided by CACI'
-                )
-        else:
-            comments_list.append('Group your dataset by participant_id, session_uuid, and scene_id')
-            if cn in mean_survey_columns:
-                comments_list.extend([
-                    f'Find the {cn.replace("mean_", "")} column in the participant_data_0420 spreadsheet provided by CACI for that participant',
-                    f'The {cn.replace("mean_", "")} value is semi-continously numeric, and you can average it for whatever grouping you need'
-                ])
-            else:
-                if cn in function_call_dict:
-                    function_call = function_call_dict[cn]
-                else:
-                    function_call = cn.replace('mean_', 'fu.get_')
-                source_code = inspect.getsource(eval(function_call))
-                comments_list.extend([comment_str for comment_str in comment_regex.findall(source_code) if comment_str and ('verbose' not in comment_str)])
-        for i, comment_str in enumerate(comments_list):
-            if not comment_str.endswith('.'):
-                comment_str += '.'
-            print(f'{i+1}. {comment_str}', file=f)
-    if engaged_patient_columns_list:
-        print(
-            f'\n\n\nNOTE: All the patients metadata columns ({nu.conjunctify_nouns(engaged_patient_columns_list)}) are byproducts of the production of the prioritize patients columns.',
-            file=f
-        )
-if IS_DEBUG: print(f'Saving to {osp.abspath(file_path)}')
+mask_series = (error_types_df.patient_count > 0)
+error_types_df[mask_series].sort_values('patient_count', ascending=False).head()
 
+# Get triage error rates
+import re
 
-if IS_DEBUG: print("\nWrite up the statistical analysis of the ANOVA dataset")
-def compare_columns(anova_df, groupby_column, columns_list, dataset_organization_df, text_io_wrapper=None):
-    """
-    Compare columns using linear regression across groups defined by a specified column.
-    
-    Parameters:
-        anova_df (pandas.DataFrame):
-            The dataframe containing the data to be analyzed.
-        groupby_column (str):
-            The column used for grouping the data.
-        columns_set (set):
-            The set of columns to be compared.
-        dataset_organization_df (pandas.DataFrame):
-            The dataframe containing information about the organization of the dataset.
-        text_io_wrapper (_io.TextIOWrapper, optional):
-            If a text IO wrapper, print the results to the open file, by default None.
-    
-    Returns:
-        None
-    """
-    
-    # Encode the group-by column into dummy variables
-    dummy_groupby = get_dummies(anova_df[groupby_column], prefix=groupby_column)
-    
-    # Concatenate the dummy variables with the dataframe
-    anova_with_dummies_df = concat([anova_df, dummy_groupby], axis=1)
-    
-    # Add a constant term to the independent variables
-    anova_with_dummies_df['const'] = 1
-    
-    # Group data by groupby columns
-    grouped_data = anova_with_dummies_df.groupby(groupby_column)
-    
-    # Iterate over columns for comparison
-    if groupby_column in columns_list: columns_list.pop(groupby_column)
-    for cn in columns_list: perform_linear_regression(
-        cn, ' '.join([w.title() for w in cn.split('_')]), groupby_column, grouped_data, anova_with_dummies_df, dataset_organization_df,
-        text_io_wrapper=text_io_wrapper
-    )
+rows_list = []
+for participant_id, responder_categories_df in error_types_df.groupby('participant_id'):
+    row_dict = {'participant_id': participant_id}
+    df = responder_categories_df.groupby('error_type').patient_count.sum().reset_index(drop=False)
+    total_patient_count = df.patient_count.sum()
+    error_dict = df.set_index('error_type').patient_count.to_dict()
 
+    over_patient_count = error_dict.get('Over', 0)
+    over_triage_error_rate = 100*over_patient_count/total_patient_count
+    row_dict['over_triage_error_rate'] = round(over_triage_error_rate, 1)
 
-def perform_linear_regression(cn, xname, groupby_column, grouped_data, anova_with_dummies_df, dataset_organization_df, text_io_wrapper=None):
-    """
-    Perform linear regression analysis.
-    
-    Parameters:
-        cn (str):
-            The name of the dependent variable column.
-        xname (str):
-            The name of the independent variable.
-        groupby_column (str):
-            The name of the column used for grouping.
-        grouped_data (pandas.core.groupby.generic.DataFrameGroupBy):
-            Grouped data for the specified groupby_column.
-        anova_with_dummies_df (pandas.DataFrame):
-            DataFrame with dummy variables for ANOVA.
-        dataset_organization_df (pandas.DataFrame):
-            DataFrame containing organizational information about the dataset.
-        text_io_wrapper (_io.TextIOWrapper, optional):
-            If a text IO wrapper, print the results to the open file, by default None.
-    """
-    statements_list = []
-    
-    # Generate regression columns
-    regression_columns = [cn for cn in anova_with_dummies_df.columns if cn.startswith(f'{groupby_column}_')]
-    columns_list = [cn, groupby_column, 'const'] + regression_columns
-    
-    # Filter and drop NaN values from the DataFrame
-    df = anova_with_dummies_df[columns_list].dropna()
-    cn_data = df[cn]
-    statements_list.append(f"\n{cn.replace('mean_', '')} ({entitle_column_name(cn).replace('Average ', '')}) grouped by {groupby_column.replace('mean_', '')} ({entitle_column_name(groupby_column).replace('Average ', '')})")
-    
-    # Perform a test for normality
-    try: statements_list, p_value = perform_shapiro_wilk(cn, cn_data, statements_list)
-    except: statements_list, p_value = perform_shapiro_francia(cn, cn_data, statements_list)
+    under_patient_count = error_dict.get('Under', 0)
+    under_triage_error_rate = 100*under_patient_count/total_patient_count
+    row_dict['under_triage_error_rate'] = round(under_triage_error_rate, 1)
 
-    if grouped_data.ngroups > 1: statements_list, theoretical_quantiles, transformable_df = compare_groups(
-        statements_list, p_value, grouped_data, cn_data, cn, df, groupby_column
+    critical_patient_count = error_dict.get('Critical', 0)
+    critical_triage_error_rate = 100*critical_patient_count/total_patient_count
+    row_dict['critical_triage_error_rate'] = round(critical_triage_error_rate, 1)
+    
+    rows_list.append(row_dict)
+triage_error_rates_df = DataFrame(rows_list)
+
+CATEGORY_DICT = {participant_id: participant_id for participant_id in triage_error_rates_df.participant_id}
+
+suffixing_fn = lambda x: f'{x}-triage Error' if (x in ['Over', 'Under']) else (f'{x} Error' if (x in ['Critical']) else x)
+def show_stacked_horizontal_bar_chart(rates_df, ylabel=''):
+    labels_list = [CATEGORY_DICT[c] for c in FILTERED_CATEGORIES_LIST][::-1]
+    over_values, under_values, critical_values = [], [], []
+    for column_value in FILTERED_CATEGORIES_LIST[::-1]:
+        mask_series = (rates_df.participant_id == column_value)
+        over_values.append(rates_df[mask_series].over_triage_error_rate.squeeze())
+        under_values.append(rates_df[mask_series].under_triage_error_rate.squeeze())
+        critical_values.append(rates_df[mask_series].critical_triage_error_rate.squeeze())
+    
+    # Create a horizontal bar chart for the first set of values
+    over_bar = plt.barh(labels_list, over_values, color='#000000', label=suffixing_fn('Over'))
+    
+    # Create a stacked horizontal bar chart for the second set of values
+    under_bar = plt.barh(labels_list, under_values, color='#717171', label=suffixing_fn('Under'), left=over_values)
+    
+    # Create a stacked horizontal bar chart for the third set of values
+    # The data labels for critical errors should be in white (for better contrast)
+    critical_bar = plt.barh(
+        labels_list, critical_values, color='#bb0000', label=suffixing_fn('Critical'),
+        left=[v1 + v2 for v1, v2 in zip(over_values, under_values)]
     )
     
-    # Perform linear regression
-    results = sm.OLS(cn_data, df[['const'] + regression_columns]).fit()
+    # Annotate the values of each value set inside their respective rectangles
+    for bars, values in zip([over_bar, under_bar, critical_bar], [over_values, under_values, critical_values]):
+        for bar, value in zip(bars, values):
+            if (value >= 1): plt.text(
+                bar.get_x() + bar.get_width()/2, bar.get_y() + bar.get_height()/2, f'{value:.01f}%', va='center', ha='center',
+                color='white', fontsize=6
+            )
+            elif (value > 0): plt.text(
+                bar.get_x() + bar.get_width()/2, bar.get_y() + bar.get_height() + 0.06, f'{value:.01f}%', va='center', ha='center',
+                color='black', fontsize=6
+            )
     
-    # Append the regression equation
-    if not isna(results.params['const']): statements_list = append_regression_equation(
-        statements_list, regression_columns, dataset_organization_df, groupby_column, results, cn
-    )
+    # Set the title, labels, legend, and grid
+    plt.title('Triage Errors')
+    plt.xlabel('Percent (%)')
+    plt.ylabel(ylabel)
+    plt.legend(bbox_to_anchor=(1.4, 0.62), loc='center right')
+    plt.grid(False)
     
-    # Save the results
-    if len(statements_list) > 1:
-        print('\n'.join(statements_list), file=text_io_wrapper)
+    # Display the chart
+    plt.show()
 
+import matplotlib.pyplot as plt
 
-def perform_shapiro_wilk(cn, cn_data, statements_list):
-    """
-    Perform Shapiro-Wilk test for normality.
-    
-    Parameters:
-        cn (str):
-            The name of the dataset being tested.
-        cn_data (array_like):
-            The data to be tested for normality.
-        statements_list (list):
-            A list to which the test results will be appended.
-    
-    Returns:
-        list
-            A list containing the appended test results.
-        float
-            The p-value of the Shapiro-Wilk test.
-    """
-    
-    # Import the Shapiro-Wilk test from SciPy
-    from scipy.stats import shapiro_wilk
-    
-    # Perform Shapiro-Wilk test
-    stat, p_value = shapiro_wilk(cn_data)
-    
-    # Append the test results
-    if not isna(stat): statements_list.append(f'Shapiro-Wilk Test for normality ({cn}): Statistic: {stat:.4f}, p-value: {p_value:.4f}')
-    
-    return statements_list, p_value
+FILTERED_CATEGORIES_LIST = [i for i in range(2024201, 2024228) if i in triage_error_rates_df.participant_id.tolist()]
+show_stacked_horizontal_bar_chart(triage_error_rates_df, ylabel='Participant ID')
 
+from datetime import date
 
-def perform_shapiro_francia(cn, cn_data, statements_list):
-    """
-    Perform Shapiro-Francia test for normality.
+today = date.today()
+for fn in dir():
+    if fn.endswith('_df'):
+        nu.save_data_frames(**{f'{today.year}{today.month:02d}{today.day:02d}participant_id_{fn}': eval(fn)}, verbose=True)
 
-    Parameters
-    ----------
-    cn : str
-        Column name or identifier.
-    cn_data : array_like
-        Input data.
-    statements_list : list
-        List to append the test results.
-
-    Returns
-    -------
-    tuple
-        A tuple containing the updated statements_list and the p-value of the test.
-    """
-
-    # Import necessary function from scipy.stats
-    from scipy.stats import shapiro
-    
-    # Perform Shapiro-Francia test
-    stat, p_value = shapiro(cn_data)
-    
-    # Append the test results
-    if not isna(stat): statements_list.append(f"Shapiro-Francia Test for normality ({cn.replace('mean_', '')}): Statistic: {stat:.4f}, p-value: {p_value:.4f}")
-    
-    return statements_list, p_value
-
-
-def compare_groups(statements_list, p_value, grouped_data, cn_data, cn, anova_with_dummies_df, groupby_column):
-    """
-    Compare groups using either ANOVA or Kruskal-Wallis test depending on the normality assumption.
-    
-    Parameters:
-        statements_list (list):
-            List to which statements about the statistical comparisons are appended.
-        p_value (float):
-            The p-value obtained from normality test.
-        grouped_data (pandas.DataFrame):
-            Data grouped according to the variable of interest.
-        cn_data (pandas.Series):
-            Series containing the counts of each group.
-        cn (int):
-            Total number of observations.
-        anova_with_dummies_df (pandas.DataFrame):
-            Data with dummy variables encoded for ANOVA.
-        groupby_column (str):
-            Column name by which the data is grouped.
-        
-    Returns:
-        statements_list (list):
-            Updated list of statements about the statistical comparisons.
-        theoretical_quantiles (None or array_like):
-            Theoretical quantiles for normality test, if applicable.
-        transformable_df (pandas.DataFrame):
-            Dataframe containing pairwise comparisons if significant difference exists, otherwise empty.
-    """
-    theoretical_quantiles = None; transformable_df = DataFrame([])
-    
-    # Fail to reject the null hypothesis of normality
-    if (p_value >= 0.05): statements_list, theoretical_quantiles, p_value = perform_anova(statements_list, grouped_data, cn_data, cn)
-    
-    # The data does not come from a normal distribution: consider non-parametric tests
-    else: statements_list, p_value = perform_kruskal_wallis(statements_list, grouped_data, anova_with_dummies_df, groupby_column, cn, cn_data)
-    
-    # Test shows a significant difference (p-value < 0.05)
-    if p_value < 0.05: transformable_df, statements_list = compare_the_pairs(
-        anova_with_dummies_df, groupby_column, grouped_data, statements_list, cn_data, cn
-    )
-    
-    return statements_list, theoretical_quantiles, transformable_df
-
-
-def perform_anova(statements_list, grouped_data, cn_data, cn):
-    """
-    Perform one-way ANOVA on grouped data.
-    
-    Parameters:
-        statements_list (list):
-            List to store ANOVA results.
-        grouped_data (iterable):
-            Grouped data to perform ANOVA on.
-        cn_data (numpy.ndarray):
-            Data corresponding to the column 'cn'.
-        cn (str):
-            Column name for which ANOVA is performed.
-    
-    Returns:
-        tuple
-            A tuple containing:
-            - statements_list (list):
-                List of statements with ANOVA results.
-            - theoretical_quantiles (numpy.ndarray):
-                Theoretical quantiles from a standard normal distribution.
-            - p_value (float):
-                p-value from ANOVA.
-    """
-    
-    # Perform ANOVA on values to get F statistic and p-value
-    f_statistic, p_value = f_oneway(*[group[cn] for name, group in grouped_data])
-    
-    # Append the results
-    if not isna(p_value): statements_list.append(f"One-way ANOVA for {cn}: F statistic = {f_statistic:.4f}, p-value = {p_value:.4f}")
-    
-    # Calculate the sum of squares between groups (SS_between)
-    mean_overall = cn_data.mean()  # Mean of all values
-    SS_between = sum(len(group) * (group[cn].mean() - mean_overall)**2 for name, group in grouped_data)
-    
-    # Calculate the total sum of squares (SS_total)
-    SS_total = sum((value - mean_overall)**2 for name, group in grouped_data for value in group[cn])
-    
-    # Compute eta-squared (η²) and append the results
-    try: eta_squared = SS_between / SS_total
-    except: eta_squared = nan
-    if not isna(eta_squared): statements_list.append(f"    η² (effect size) = {eta_squared:.4f}")
-    
-    # Generate theoretical quantiles from a standard normal distribution
-    theoretical_quantiles = norm.ppf(cn_data.rank() / (len(cn_data) + 1))
-    
-    return statements_list, theoretical_quantiles, p_value
-
-
-def perform_kruskal_wallis(statements_list, grouped_data, anova_with_dummies_df, groupby_column, cn, cn_data):
-    """
-    Perform Kruskal-Wallis test on grouped data.
-    
-    Parameters:
-        statements_list (list):
-            List to store the result statements.
-        grouped_data (DataFrameGroupBy):
-            Grouped data to perform the test on.
-        anova_with_dummies_df (pandas.DataFrame):
-            DataFrame used for ANOVA with dummy variables.
-        groupby_column (str):
-            Name of the column used for grouping.
-        cn (str):
-            Column name for the data to perform the test on.
-        cn_data (str):
-            Data for the given column.
-    
-    Returns:
-        tuple
-            A tuple containing the updated statements list and the p-value.
-    """
-    
-    # Perform Kruskal-Wallis test on values
-    kruskal_statistic, p_value = kruskal(*[group[cn] for name, group in grouped_data])
-    
-    # Access additional test details from the result object
-    kruskal_results = kruskal(*[group[cn] for name, group in grouped_data])
-    
-    # Extract chi-squared statistic (equivalent to H statistic)
-    chi_squared = kruskal_results.statistic
-    
-    # Degrees of freedom (number of groups - 1)
-    degrees_of_freedom = len(anova_with_dummies_df[groupby_column].unique()) - 1
-    
-    # Append the complete results
-    statements_list.append(f"Kruskal-Wallis test for {cn.replace('mean_', '')}: H statistic = {kruskal_statistic:.4f}, p-value = {p_value:.4f}")
-    statements_list.append(f"    χ² = {chi_squared:.4f}, df = {degrees_of_freedom}, p-value = {p_value:.4f}")
-    
-    # Epsilon squared calculation
-    epsilon_squared = calculate_epsilon_squared(anova_with_dummies_df, groupby_column, kruskal_results, cn, grouped_data, cn_data)
-    
-    # Append the results
-    if not isna(epsilon_squared): statements_list.append(f"    ε² (effect size) = {epsilon_squared:.4f}")
-    
-    return statements_list, p_value
-
-
-def calculate_epsilon_squared(anova_with_dummies_df, groupby_column, kruskal_results, cn, data_by_env, cn_data):
-    """
-    Calculate epsilon squared (effect size) for a one-way ANOVA or Kruskal-Wallis test.
-    
-    Parameters:
-        anova_with_dummies_df (pandas.DataFrame):
-            Dataframe containing the data for ANOVA with dummy variables.
-        groupby_column (str):
-            Column name to group by in the dataframe.
-        kruskal_results (scipy.stats.KruskalResult):
-            Result object from Kruskal-Wallis test.
-        cn (str):
-            Column name of the response variable.
-        data_by_env (pandas.groupby.DataFrameGroupBy):
-            Grouped data by environment.
-        cn_data (pandas.Series):
-            Series containing response variable data.
-    
-    Returns:
-        float
-            Epsilon squared (effect size) value.
-    
-    Notes:
-        Epsilon squared (ε²) is a measure of the proportion of variance in the dependent variable
-        accounted for by the independent variable in ANOVA or Kruskal-Wallis tests.
-        
-        This function computes epsilon squared based on the formula:
-        ε² = SSbetween / SStotal
-        where SSbetween is the sum of squares between groups and SStotal is the total sum of squares.
-        If calculation of SSbetween fails, SSwithin is computed alternatively.
-    
-    References:
-        - Kruskal, W. H., & Wallis, W. A. (1952). Use of ranks in one-criterion variance analysis. Journal of the American Statistical Association, 47(260), 583-621.
-        - Rosenthal, R., & Rosnow, R. L. (2008). Essentials of behavioral research: Methods and data analysis. McGraw-Hill Education.
-    """
-    
-    # Epsilon squared (effect size)
-    n = len(anova_with_dummies_df)  # Total number of observations
-    k = len(anova_with_dummies_df[groupby_column].unique())  # Number of groups
-    
-    # Calculate manually
-    try:
-        ss_between = kruskal_results.statistic * n / (k * (k - 1))
-        ss_total = kruskal_results.ss  # Access total sum of squares from results
-        epsilon_squared = ss_between / ss_total
-    
-    # Alternative way to calculate sum of squares within groups (SSwithin)
-    except:
-        ss_within = sum([group[cn].var(ddof=0) * len(group) for name, group in data_by_env])
-        
-        # Total sum of squares (SStotal) - using variance of entire data
-        ss_total = cn_data.var(ddof=0) * len(anova_with_dummies_df)
-        
-        # Epsilon squared calculation
-        epsilon_squared = (kruskal_results.statistic * n) / (k * (k - 1) * ss_within / ss_total)
-    
-    return epsilon_squared
-
-
-def compare_the_pairs(anova_with_dummies_df, groupby_column, grouped_data, statements_list, cn_data, cn):
-    """
-    Compare pairs of environments based on a continuous variable.
-
-    Parameters
-    ----------
-    anova_with_dummies_df : DataFrame
-        DataFrame containing the data with dummy variables.
-    groupby_column : str
-        Column name for grouping the data.
-    grouped_data : DataFrameGroupBy
-        Grouped DataFrame based on groupby_column.
-    statements_list : list
-        List to append the comparison statements.
-    cn_data : Series
-        Series containing continuous variable data.
-    cn : str
-        Name of the continuous variable.
-
-    Returns
-    -------
-    DataFrame
-        DataFrame containing transformable data.
-    list
-        Updated list of comparison statements.
-    """
-    transformable_df = DataFrame([])
-    
-    # Compare the pairs
-    mask_series = ~anova_with_dummies_df[groupby_column].isnull()
-    for pair in itertools.combinations(anova_with_dummies_df[mask_series][groupby_column].unique(), 2):
-        env1 = pair[0]; env2 = pair[1]
-        env1_data = grouped_data.get_group(env1)[cn]
-        env2_data = grouped_data.get_group(env2)[cn]
-        t_statistic, p_value = ttest_ind(env1_data, env2_data)
-        if p_value < 0.05: statements_list.append(f"    t-test between {env1} and {env2}: t = {t_statistic:.4f}, p = {p_value:.4f}")
-    
-    # Display a box and whiskers plot
-    mask_series = ~cn_data.isnull()
-    if mask_series.any():
-        transformable_df = anova_with_dummies_df[mask_series]
-    
-    return transformable_df, statements_list
-
-
-def append_regression_equation(statements_list, dummy_columns_list, dataset_organization_df, groupby_column, results, cn):
-    """
-    Append the regression equation to a list of statements.
-    
-    Parameters:
-        statements_list (list):
-            List to which the regression equation statement will be appended.
-        dummy_columns_list (list):
-            List of column names used in the regression equation.
-        dataset_organization_df (DataFrame):
-            DataFrame containing the dataset and its organization.
-        groupby_column (str):
-            Name of the column used for grouping.
-        results (RegressionResults):
-            Result object obtained from regression analysis.
-        cn (str):
-            Name of the dependent variable.
-        
-    Returns:
-        list
-            Updated list of statements.
-    """
-    
-    # Append header for the regression equation
-    statements_list.append("Regression Equation:")
-    
-    # Construct format string for the regression equation
-    format_str = "{} = {:.4f} + " + ' + '.join([f"{{:.4f}} * {dc.replace('mean_', '').replace('.0', '')}" for dc in dummy_columns_list])
-    
-    # Create a mask to filter the dataset for the specified groupby_column
-    mask_series = (dataset_organization_df.Variable == groupby_column.replace('_Text', ''))
-    
-    # Check if the mask has any True values
-    if mask_series.any():
-        equation_dict = {}
-        
-        # Extract and parse key-value pairs from the Labels column
-        for kv in dataset_organization_df[mask_series].Labels:
-            kv_split = split(' *= *', kv, 0)
-            if len(kv_split) == 2: equation_dict[float(kv_split[0])] = sub('[^A-Za-z0-9]+', '_', kv_split[1]).strip('_')
-        
-        # Update format string to replace coefficients with corresponding labels
-        for k, v in equation_dict.items(): format_str = format_str.replace('_' + str(k), '_' + v)
-    
-    # Format and append the regression equation statement
-    statements_list.append(format_str.format(
-        cn.replace('mean_', ''), results.params['const'], *[results.params[dc] for dc in dummy_columns_list]
-    ))
-    
-    return statements_list
-
-if IS_DEBUG: print("\nWrite up the section prompts")
-old_COLUMN_NAME_DESCRIPTION_DICT = COLUMN_NAME_DESCRIPTION_DICT.copy()
-kdma_columns = [cn for cn in anova_df.columns if 'KDMA' in cn]
-file_path = osp.join(nu.saves_text_folder, 'add_a_section_prompt.txt')
-with open(file_path, mode='w', encoding=nu.encoding_type) as f: print('', file=f)
-with open(file_path, mode='a', encoding=nu.encoding_type) as f:
-    for question_number, feature_title, feature_description, analysis_column in zip(
-        range(1, 13),
-        [
-            'Engagement Order', 'Military Medical Experience', 'Medical Role', 'Untreated Injuries', 'Correctly Treated Injuries',
-            'Total Distance Travelled between Engagements', 'Wave Command Counts',
-            'Walk Command Counts', 'High Injury Severity', 'Pulse Taken Counts',
-            'Hemorrhage Control Time'
-        ],
-        [
-            'responders who prioritize engaging still patients', 'years of military medical experience', 'medical roles', 'count of injuries not treated', 'count of injuries treated correctly',
-            'total distance traveled between patient engagements', 'the number of wave commands (commands to "wave if you can hear me") issued',
-            'the number of walk commands issued (commands to "walk to the safe space if you can")', 'responders who prioritize high-injury-severity patients', 'the number of pulses taken',
-            'time to last hemorrhage controlled'
-        ],
-        [
-            'stills_value', 'YrsMilExp', 'medical_role', 'injury_not_treated_count', 'injury_correctly_treated_count',
-            'actual_engagement_distance', 'wave_command_count',
-            'walk_command_count', 'prioritize_high_injury_severity_patients', 'pulse_taken_count',
-            'time_to_last_hemorrhage_controlled'
-        ]
-    ):
-        print(f"""
-Based on the results below, add a blurb to the Analysis section given these particular tests to compare {feature_description} with all KDMA measures we investigated: ST_KDMA_Sim (SoarTech simulator probe responses), ST_KDMA_Text (SoarTech text probe responses), AD_KDMA_Sim (ADEPT simulator probe responses), and AD_KDMA_Text (ADEPT text probe responses). ADEPT (AD) probe responses are measuring Moral Desert (MD) – an attribute that assesses to what extent someone prioritizes patients based on the patient’s moral responsibility for the situation. SoarTech (ST) probe responses are measuring Maximization (Max) – an attribute that assesses to what extent someone performs an exhaustive search through choice alternatives prior to deciding (as opposed to satisficing where people search until they find a good enough option).
-
-""", file=f)
-        
-        # Calculate Pearson correlation coefficient between the analysis column and each KDMA column
-        if analysis_column not in anova_df.columns:
-            analysis_column_name = f'mean_{analysis_column}'
-        else:
-            analysis_column_name = analysis_column
-        if is_integer(anova_df[analysis_column_name]) or is_float(anova_df[analysis_column_name]):
-            for col in kdma_columns:
-                df = anova_df[[analysis_column_name, col]].dropna()
-                correlation = df[analysis_column_name].corr(df[col])
-                kdma_column_name = col.replace('mean_', '')
-                print(f'Correlation between {analysis_column} and {kdma_column_name}: {correlation:.4f}', file=f)
-        
-        # if IS_DEBUG: print(f"The {analysis_column_name} column has {anova_df[analysis_column_name].nunique()} unique values")
-        if anova_df[analysis_column_name].nunique() < 6:
-            
-            if analysis_column == 'stills_value':
-                labels_dict = {0: 'All Stills not Visited First', 1: 'All Stills Visited First'}
-            elif analysis_column == 'prioritize_high_injury_severity_patients':
-                labels_dict = {0: 'Highest severity patient not engaged first', 1: 'Highest severity patient engaged first'}
-            else:
-                labels_dict = {column_value: f'{column_value} {feature_description}' for column_value, _ in anova_df.groupby(analysis_column_name)}
-            COLUMN_NAME_DESCRIPTION_DICT = old_COLUMN_NAME_DESCRIPTION_DICT.copy()
-            COLUMN_NAME_DESCRIPTION_DICT.update(labels_dict)
-            
-            if IS_DEBUG: print("\nThe columns we want to group by:")
-            groupby_columns = [analysis_column_name]
-            if IS_DEBUG: print(groupby_columns)
-            
-            if IS_DEBUG: print("\nThe numeric columns we want to analyze:")
-            if IS_DEBUG: print(kdma_columns)
-            
-            if IS_DEBUG: print("\nContributing factors:")
-            for groupby_column in groupby_columns:
-                compare_columns(anova_df, groupby_column, kdma_columns, dataset_organization_df, text_io_wrapper=f)
-            
-            print("""\n\nThough the Kruskal-Wallis test is relatively robust to outliers, we have calculated the IQR fence here:""", file=f)
-            for column_value, df in anova_df.groupby(analysis_column_name):
-                statements_list = ['\nOutlier test for ' + labels_dict.get(column_value, f'{column_value} {feature_description}')]
-                for cn in kdma_columns:
-                    outlier_dict = nu.get_statistics(df, [cn]).to_dict()[cn]
-                    mask_series = (df[cn] < outlier_dict['25%']) | (df[cn] > outlier_dict['75%'])
-                    if mask_series.any():
-                        statements_list.append(
-                            f"For {cn.replace('mean_', '')}, {mask_series.sum():,} out of {df.shape[0]:,} data points are considered potential outliers"
-                            + f" (IQR = ({outlier_dict['25%']:.2f}, {outlier_dict['75%']:.2f}))."
-                        )
-                if len(statements_list) > 1:
-                    print('\n'.join(statements_list), file=f)
-        
-        print(f"""
-    
-    KDMA Values and {feature_title} (Question {question_number})
-    
-    
-    a) Question:
-    Is there a correlation between the {feature_description} and KDMA scores?
-    
-    
-    b) Analysis:
-    
-    
-    c) Conclusions:
-    
-    
-    d) Other Questions (one could ask of the data):
-    
-    
-    e) Possible Confounding Factors:""", file=f)
-COLUMN_NAME_DESCRIPTION_DICT = old_COLUMN_NAME_DESCRIPTION_DICT.copy()

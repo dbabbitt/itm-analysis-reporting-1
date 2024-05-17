@@ -267,6 +267,187 @@ class FRVRSUtilities(object):
         # Tool data designations
         self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
         self.tool_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        
+        # MCI-VR metrics types dictionary
+        self.action_type_to_columns = {
+            'BAG_ACCESS': {
+                'bag_access_location': 4,
+            },
+            'BAG_CLOSED': {
+                'bag_closed_location': 4,
+            },
+            'INJURY_RECORD': {
+                'injury_record_id': 4,
+                'injury_record_patient_id': 5,
+                'injury_record_required_procedure': 6,
+                'injury_record_severity': 7,
+                'injury_record_body_region': 8,
+                'injury_record_injury_treated': 9,
+                'injury_record_injury_treated_with_wrong_treatment': 10,
+                'injury_record_injury_injury_locator': 11,
+            },
+            'INJURY_TREATED': {
+                'injury_treated_id': 4,
+                'injury_treated_patient_id': 5,
+                'injury_treated_required_procedure': 6,
+                'injury_treated_severity': 7,
+                'injury_treated_body_region': 8,
+                'injury_treated_injury_treated': 9,
+                'injury_treated_injury_treated_with_wrong_treatment': 10,
+                'injury_treated_injury_injury_locator': 11,
+            },
+            'PATIENT_DEMOTED': {
+                'patient_demoted_health_level': 4,
+                'patient_demoted_health_time_remaining': 5,
+                'patient_demoted_id': 6,
+                'patient_demoted_position': 7,
+                'patient_demoted_rotation': 8,
+                'patient_demoted_salt': 9,
+                'patient_demoted_sort': 10,
+                'patient_demoted_pulse': 11,
+                'patient_demoted_breath': 12,
+                'patient_demoted_hearing': 13,
+                'patient_demoted_mood': 14,
+                'patient_demoted_pose': 15,
+            },
+            'PATIENT_ENGAGED': {
+                'patient_engaged_health_level': 4,
+                'patient_engaged_health_time_remaining': 5,
+                'patient_engaged_id': 6,
+                'patient_engaged_position': 7,
+                'patient_engaged_rotation': 8,
+                'patient_engaged_salt': 9,
+                'patient_engaged_sort': 10,
+                'patient_engaged_pulse': 11,
+                'patient_engaged_breath': 12,
+                'patient_engaged_hearing': 13,
+                'patient_engaged_mood': 14,
+                'patient_engaged_pose': 15,
+            },
+            'BREATHING_CHECKED': {
+                'patient_checked_breath': 4,
+                'patient_checked_id': 5,
+            },
+            'PATIENT_RECORD': {
+                'patient_record_health_level': 4,
+                'patient_record_health_time_remaining': 5,
+                'patient_record_id': 6,
+                'patient_record_position': 7,
+                'patient_record_rotation': 8,
+                'patient_record_salt': 9,
+                'patient_record_sort': 10,
+                'patient_record_pulse': 11,
+                'patient_record_breath': 12,
+                'patient_record_hearing': 13,
+                'patient_record_mood': 14,
+                'patient_record_pose': 15,
+            },
+            'PULSE_TAKEN': {
+                'pulse_taken_pulse_name': 4,
+                'pulse_taken_patient_id': 5,
+            },
+            'SP_O2_TAKEN': {
+                'sp_o2_taken_level': 4,
+                'sp_o2_taken_patient_id': 5,
+            },
+            'S_A_L_T_WALKED': {
+                's_a_l_t_walked_sort_location': 4,
+                's_a_l_t_walked_sort_command_text': 5,
+                's_a_l_t_walked_patient_id': 6,
+            },
+            'TRIAGE_LEVEL_WALKED': {
+                'triage_level_walked_location': 4,
+                'triage_level_walked_command_text': 5,
+                'triage_level_walked_patient_id': 6,
+            },
+            'S_A_L_T_WALK_IF_CAN': {
+                's_a_l_t_walk_if_can_sort_location': 4,
+                's_a_l_t_walk_if_can_sort_command_text': 5,
+                's_a_l_t_walk_if_can_patient_id': 6,
+            },
+            'TRIAGE_LEVEL_WALK_IF_CAN': {
+                'triage_level_walk_if_can_location': 4,
+                'triage_level_walk_if_can_command_text': 5,
+                'triage_level_walk_if_can_patient_id': 6,
+            },
+            'S_A_L_T_WAVED': {
+                's_a_l_t_waved_sort_location': 4,
+                's_a_l_t_waved_sort_command_text': 5,
+                's_a_l_t_waved_patient_id': 6,
+            },
+            'TRIAGE_LEVEL_WAVED': {
+                'triage_level_waved_location': 4,
+                'triage_level_waved_command_text': 5,
+                'triage_level_waved_patient_id': 6,
+            },
+            'S_A_L_T_WAVE_IF_CAN': {
+                's_a_l_t_wave_if_can_sort_location': 4,
+                's_a_l_t_wave_if_can_sort_command_text': 5,
+                's_a_l_t_wave_if_can_patient_id': 6,
+            },
+            'TRIAGE_LEVEL_WAVE_IF_CAN': {
+                'triage_level_wave_if_can_location': 4,
+                'triage_level_wave_if_can_command_text': 5,
+                'triage_level_wave_if_can_patient_id': 6,
+            },
+            'TAG_APPLIED': {
+                'tag_applied_patient_id': 4,
+                'tag_applied_type': 5,
+            },
+            'TAG_DISCARDED': {
+                'tag_discarded_type': 4,
+                'tag_discarded_location': 5,
+            },
+            'TAG_SELECTED': {
+                'tag_selected_type': 4,
+            },
+            'TELEPORT': {
+                'teleport_location': 4,
+            },
+            'TOOL_APPLIED': {
+                'tool_applied_patient_id': 4,
+                'tool_applied_type': 5,
+                'tool_applied_attachment_point': 6,
+                'tool_applied_tool_location': 7,
+                'tool_applied_sender': 8,
+                'tool_applied_attach_message': 9,
+            },
+            'TOOL_DISCARDED': {
+                'tool_discarded_type': 4,
+                'tool_discarded_count': 5,
+                'tool_discarded_location': 6,
+            },
+            'TOOL_HOVER': {
+                'tool_hover_type': 4,
+                'tool_hover_count': 5,
+            },
+            'TOOL_SELECTED': {
+                'tool_selected_type': 4,
+                'tool_selected_count': 5,
+            },
+            'VOICE_CAPTURE': {
+                'voice_capture_message': 4,
+                'voice_capture_command_description': 5,
+            },
+            'VOICE_COMMAND': {
+                'voice_command_message': 4,
+                'voice_command_command_description': 5,
+            },
+            'BUTTON_CLICKED': {
+                'button_command_message': 4,
+            },
+            'PLAYER_LOCATION': {
+                'player_location_location': 4,
+                'player_location_left_hand_location': 5,
+                'player_location_right_hand_location': 6,
+            },
+            'PLAYER_GAZE': {
+                'player_gaze_location': 4,
+                'player_gaze_patient_id': 5,
+                'player_gaze_distance_to_patient': 6,
+                'player_gaze_direction_of_gaze': 7,
+            },
+        }
 
     ### String Functions ###
     
@@ -3137,180 +3318,19 @@ class FRVRSUtilities(object):
         Returns:
             The DataFrame containing the MCI-VR metrics with new columns.
         """
-        
-        # List of indexes to delete
-        drop_index_list = []
-        
-        # Set the metrics types for each action type
-        if (action_type == 'BAG_ACCESS'): # BagAccess
-            df.loc[row_index, 'bag_access_location'] = row_series[4] # Location
-        elif (action_type == 'BAG_CLOSED'): # BagClosed
-            df.loc[row_index, 'bag_closed_location'] = row_series[4] # Location
-        elif (action_type == 'INJURY_RECORD'): # InjuryRecord
-            df.loc[row_index, 'injury_record_id'] = row_series[4] # Id
-            df.loc[row_index, 'injury_record_patient_id'] = row_series[5] # patientId
-            df.loc[row_index, 'injury_record_required_procedure'] = row_series[6] # requiredProcedure
-            df.loc[row_index, 'injury_record_severity'] = row_series[7] # severity
-            df.loc[row_index, 'injury_record_body_region'] = row_series[8] # bodyRegion
-            df.loc[row_index, 'injury_record_injury_treated'] = row_series[9] # injuryTreated
-            df.loc[row_index, 'injury_record_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
-            df.loc[row_index, 'injury_record_injury_injury_locator'] = row_series[11] # injuryLocator
-        elif (action_type == 'INJURY_TREATED'): # InjuryTreated
-            df.loc[row_index, 'injury_treated_id'] = row_series[4] # Id
-            df.loc[row_index, 'injury_treated_patient_id'] = row_series[5] # patientId
-            df.loc[row_index, 'injury_treated_required_procedure'] = row_series[6] # requiredProcedure
-            df.loc[row_index, 'injury_treated_severity'] = row_series[7] # severity
-            df.loc[row_index, 'injury_treated_body_region'] = row_series[8] # bodyRegion
-            df.loc[row_index, 'injury_treated_injury_treated'] = row_series[9] # injuryTreated
-            df.loc[row_index, 'injury_treated_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
-            df.loc[row_index, 'injury_treated_injury_injury_locator'] = row_series[11] # injuryLocator
-        elif (action_type == 'PATIENT_DEMOTED'): # PatientDemoted
-            df.loc[row_index, 'patient_demoted_health_level'] = row_series[4] # healthLevel
-            df.loc[row_index, 'patient_demoted_health_time_remaining'] = row_series[5] # healthTimeRemaining
-            df.loc[row_index, 'patient_demoted_id'] = row_series[6] # id
-            df.loc[row_index, 'patient_demoted_position'] = row_series[7] # position
-            df.loc[row_index, 'patient_demoted_rotation'] = row_series[8] # rotation
-            df.loc[row_index, 'patient_demoted_salt'] = row_series[9] # salt
-            df.loc[row_index, 'patient_demoted_sort'] = row_series[10] # sort
-            df.loc[row_index, 'patient_demoted_pulse'] = row_series[11] # pulse
-            df.loc[row_index, 'patient_demoted_breath'] = row_series[12] # breath
-            df.loc[row_index, 'patient_demoted_hearing'] = row_series[13] # hearing
-            df.loc[row_index, 'patient_demoted_mood'] = row_series[14] # mood
-            df.loc[row_index, 'patient_demoted_pose'] = row_series[15] # pose
-        elif (action_type == 'PATIENT_ENGAGED'): # PatientEngaged
-            df.loc[row_index, 'patient_engaged_health_level'] = row_series[4] # healthLevel
-            df.loc[row_index, 'patient_engaged_health_time_remaining'] = row_series[5] # healthTimeRemaining
-            df.loc[row_index, 'patient_engaged_id'] = row_series[6] # id
-            df.loc[row_index, 'patient_engaged_position'] = row_series[7] # position
-            df.loc[row_index, 'patient_engaged_rotation'] = row_series[8] # rotation
-            df.loc[row_index, 'patient_engaged_salt'] = row_series[9] # salt
-            df.loc[row_index, 'patient_engaged_sort'] = row_series[10] # sort
-            df.loc[row_index, 'patient_engaged_pulse'] = row_series[11] # pulse
-            df.loc[row_index, 'patient_engaged_breath'] = row_series[12] # breath
-            df.loc[row_index, 'patient_engaged_hearing'] = row_series[13] # hearing
-            df.loc[row_index, 'patient_engaged_mood'] = row_series[14] # mood
-            df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
-        elif (action_type == 'BREATHING_CHECKED'):
-            df.loc[row_index, 'patient_checked_breath'] = row_series[4]
-            df.loc[row_index, 'patient_checked_id'] = row_series[5]
-        elif (action_type == 'PATIENT_RECORD'): # PatientRecord
-            df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
-            df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
-            df.loc[row_index, 'patient_record_id'] = row_series[6] # id
-            df.loc[row_index, 'patient_record_position'] = row_series[7] # position
-            df.loc[row_index, 'patient_record_rotation'] = row_series[8] # rotation
-            df.loc[row_index, 'patient_record_salt'] = row_series[9] # salt
-            df.loc[row_index, 'patient_record_sort'] = row_series[10] # sort
-            df.loc[row_index, 'patient_record_pulse'] = row_series[11] # pulse
-            df.loc[row_index, 'patient_record_breath'] = row_series[12] # breath
-            df.loc[row_index, 'patient_record_hearing'] = row_series[13] # hearing
-            df.loc[row_index, 'patient_record_mood'] = row_series[14] # mood
-            df.loc[row_index, 'patient_record_pose'] = row_series[15] # pose
-        elif (action_type == 'PULSE_TAKEN'): # PulseTaken
-            df.loc[row_index, 'pulse_taken_pulse_name'] = row_series[4] # pulseName
-            df.loc[row_index, 'pulse_taken_patient_id'] = row_series[5] # patientId
-        elif (action_type == 'SP_O2_TAKEN'):
-            df.loc[row_index, 'sp_o2_taken_level'] = row_series[4]
-            df.loc[row_index, 'sp_o2_taken_patient_id'] = row_series[5]
-        elif (action_type == 'S_A_L_T_WALKED'): # SALTWalked
-            df.loc[row_index, 's_a_l_t_walked_sort_location'] = row_series[4] # sortLocation
-            df.loc[row_index, 's_a_l_t_walked_sort_command_text'] = row_series[5] # sortCommandText
-            df.loc[row_index, 's_a_l_t_walked_patient_id'] = row_series[6]
-        elif (action_type == 'TRIAGE_LEVEL_WALKED'):
-            df.loc[row_index, 'triage_level_walked_location'] = row_series[4]
-            df.loc[row_index, 'triage_level_walked_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_walked_patient_id'] = row_series[6]
-        elif (action_type == 'S_A_L_T_WALK_IF_CAN'): # SALTWalkIfCan
-            df.loc[row_index, 's_a_l_t_walk_if_can_sort_location'] = row_series[4] # sortLocation
-            df.loc[row_index, 's_a_l_t_walk_if_can_sort_command_text'] = row_series[5] # sortCommandText
-            df.loc[row_index, 's_a_l_t_walk_if_can_patient_id'] = row_series[6] # patientId
-        elif (action_type == 'TRIAGE_LEVEL_WALK_IF_CAN'):
-            df.loc[row_index, 'triage_level_walk_if_can_location'] = row_series[4]
-            df.loc[row_index, 'triage_level_walk_if_can_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_walk_if_can_patient_id'] = row_series[6]
-        elif (action_type == 'S_A_L_T_WAVED'): # SALTWave
-            df.loc[row_index, 's_a_l_t_waved_sort_location'] = row_series[4] # sortLocation
-            df.loc[row_index, 's_a_l_t_waved_sort_command_text'] = row_series[5] # sortCommandText
-            df.loc[row_index, 's_a_l_t_waved_patient_id'] = row_series[6] # patientId
-        elif (action_type == 'TRIAGE_LEVEL_WAVED'):
-            df.loc[row_index, 'triage_level_waved_location'] = row_series[4]
-            df.loc[row_index, 'triage_level_waved_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_waved_patient_id'] = row_series[6]
-        elif (action_type == 'S_A_L_T_WAVE_IF_CAN'): # SALTWaveIfCan
-            df.loc[row_index, 's_a_l_t_wave_if_can_sort_location'] = row_series[4] # sortLocation
-            df.loc[row_index, 's_a_l_t_wave_if_can_sort_command_text'] = row_series[5] # sortCommandText
-            df.loc[row_index, 's_a_l_t_wave_if_can_patient_id'] = row_series[6] # patientId
-        elif (action_type == 'TRIAGE_LEVEL_WAVE_IF_CAN'):
-            df.loc[row_index, 'triage_level_wave_if_can_location'] = row_series[4]
-            df.loc[row_index, 'triage_level_wave_if_can_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_wave_if_can_patient_id'] = row_series[6]
-        elif (action_type == 'TAG_APPLIED'): # TagApplied
-            df.loc[row_index, 'tag_applied_patient_id'] = row_series[4] # patientId
-            df.loc[row_index, 'tag_applied_type'] = row_series[5] # type
-        elif (action_type == 'TAG_DISCARDED'): # TagDiscarded
-            df.loc[row_index, 'tag_discarded_type'] = row_series[4] # Type
-            df.loc[row_index, 'tag_discarded_location'] = row_series[5] # Location
-        elif (action_type == 'TAG_SELECTED'): # TagSelected
-            df.loc[row_index, 'tag_selected_type'] = row_series[4] # Type
-        elif (action_type == 'TELEPORT'): # Teleport
-            df.loc[row_index, 'teleport_location'] = row_series[4] # Location
-        elif (action_type == 'TOOL_APPLIED'): # ToolApplied
-            if verbose: df.loc[row_index, 'tool_applied_row_shape'] = row_series.shape
-            tool_applied_patient_id = row_series[4]
-            if ' Root' in tool_applied_patient_id:
-                df.loc[row_index, 'tool_applied_patient_id'] = tool_applied_patient_id # patientId
-            df.loc[row_index, 'tool_applied_type'] = row_series[5] # type
-            df.loc[row_index, 'tool_applied_attachment_point'] = row_series[6] # attachmentPoint
-            df.loc[row_index, 'tool_applied_tool_location'] = row_series[7] # toolLocation
-            
-            # Find the attachMessage and infer if a data column exists from there
-            for attach_message_idx in range(10, 8, -1):
-                if str(row_series[attach_message_idx]).startswith('Applied'): break
-            sender_idx = attach_message_idx - 1
-            if (sender_idx == 9): df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
-            
-            df.loc[row_index, 'tool_applied_sender'] = row_series[sender_idx] # sender
-            df.loc[row_index, 'tool_applied_attach_message'] = row_series[attach_message_idx] # attachMessage
-        elif (action_type == 'TOOL_DISCARDED'): # ToolDiscarded
-            df.loc[row_index, 'tool_discarded_type'] = row_series[4] # Type
-            df.loc[row_index, 'tool_discarded_count'] = row_series[5] # Count
-            df.loc[row_index, 'tool_discarded_location'] = row_series[6] # Location
-        elif (action_type == 'TOOL_HOVER'): # ToolHover
-            df.loc[row_index, 'tool_hover_type'] = row_series[4] # Type
-            df.loc[row_index, 'tool_hover_count'] = row_series[5] # Count
-        elif (action_type == 'TOOL_SELECTED'): # ToolSelected
-            df.loc[row_index, 'tool_selected_type'] = row_series[4] # Type
-            df.loc[row_index, 'tool_selected_count'] = row_series[5] # Count
-        elif (action_type == 'VOICE_CAPTURE'): # VoiceCapture
-            df.loc[row_index, 'voice_capture_message'] = row_series[4] # Message
-            df.loc[row_index, 'voice_capture_command_description'] = row_series[5] # commandDescription
-        elif (action_type == 'VOICE_COMMAND'): # VoiceCommand
-            df.loc[row_index, 'voice_command_message'] = row_series[4] # Message
-            df.loc[row_index, 'voice_command_command_description'] = row_series[5] # commandDescription
-        elif (action_type == 'BUTTON_CLICKED'):
-            df.loc[row_index, 'button_command_message'] = row_series[4]
-        elif (action_type == 'PLAYER_LOCATION'): # PlayerLocation
-            df.loc[row_index, 'player_location_location'] = row_series[4] # Location (x,y,z)
-            df.loc[row_index, 'player_location_left_hand_location'] = row_series[5] # Left Hand Location (x,y,z); deactivated in v1.3
-            df.loc[row_index, 'player_location_right_hand_location'] = row_series[6] # Right Hand Location (x,y,z); deactivated in v1.3
-        elif (action_type == 'PLAYER_GAZE'): # PlayerGaze
-            if ' Root' in row_series[4]:
-                df.loc[row_index, 'player_gaze_patient_id'] = row_series[4] # PatientID
-                df.loc[row_index, 'player_gaze_location'] = row_series[5] # Location (x,y,z)
-            elif ' Root' in row_series[5]:
-                df.loc[row_index, 'player_gaze_location'] = row_series[4] # Location (x,y,z)
-                df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # PatientID
+        if action_type not in self.action_type_to_columns:
+            if (action_type == 'Participant ID'):
+                df = df.drop(index=row_index)
+                return df
             else:
-                print(row_series); raise
-            df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
-            df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
-        elif (action_type == 'Participant ID'):
-            drop_index_list.append(row_index)
-        elif action_type not in self.known_mcivr_metrics_types:
-            raise Exception(f"{action_type} not in in self.known_mcivr_metrics_types:\n{row_series}")
+                raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
         
-        # Delete rows at specified indexes
-        df = df.drop(index=drop_index_list)
+        # Get column names and corresponding indices from the dictionary
+        column_names = list(self.action_type_to_columns[action_type].keys())
+        column_indices = list(self.action_type_to_columns[action_type].values())
+        
+        # Set multiple columns at once using vectorized assignment
+        df.loc[row_index, column_names] = row_series[column_indices]
         
         return df
     
@@ -3335,16 +3355,14 @@ class FRVRSUtilities(object):
         file_path = osp.join(sub_directory, file_name)
         version_number = self.get_logger_version(file_path, verbose=verbose)
         
-        # Attempt to read CSV file using pandas; if unsuccessful, try using a reader
-        try: file_df = read_csv(file_path, header=None, index_col=False)
-        except:
-            rows_list = []
-            with open(file_path, 'r') as f:
-                reader = csv.reader(f, delimiter=',', quotechar='"')
-                for values_list in reader:
-                    if (values_list[-1] == ''): values_list.pop(-1)
-                    rows_list.append({i: v for i, v in enumerate(values_list)})
-            file_df = DataFrame(rows_list)
+        # Read CSV file using a CSV reader
+        rows_list = []
+        with open(file_path, 'r') as f:
+            reader = csv.reader(f, delimiter=',', quotechar='"')
+            for values_list in reader:
+                if (values_list[-1] == ''): values_list.pop(-1)
+                rows_list.append({i: v for i, v in enumerate(values_list)})
+        file_df = DataFrame(rows_list)
         
         # Ignore small files and return the subdirectory data frame unharmed
         if (file_df.shape[1] < 16): return sub_directory_df
@@ -3614,39 +3632,63 @@ class FRVRSUtilities(object):
         return elevens_df
     
     
+    def convert_column_to_categorical(self, column_name, df, verbose=False):
+        if (column_name in df.columns):
+            name_parts_list = column_name.split('_')
+            
+            # Find the order attribute
+            attribute_name = 'XXXX'
+            for i in range(3):
+                if not hasattr(self, attribute_name):
+                    attribute_name = f"{'_'.join(name_parts_list[i:])}_order"
+                else:
+                    break
+        
+            # Check if the order attribute exists
+            if hasattr(self, attribute_name):
+                
+                # Check for missing elements
+                mask_series = ~df[column_name].isnull()
+                feature_set = set(df[mask_series][column_name].unique())
+                order_set = set(eval(f"self.{attribute_name}"))
+                assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{attribute_name}"
+                
+                # Find the category attribute
+                attribute_name = 'XXXX'
+                for i in range(3):                        # tool_applied_data
+                    if not hasattr(self, attribute_name): # tool_data_category_order
+                        attribute_name = f"{'_'.join(name_parts_list[i:])}_category_order"
+                    else:
+                        break
+                
+                # Check if the category attribute exists
+                if hasattr(self, attribute_name):
+                    if verbose: print(f"\nConvert {column_name} column to categorical")
+                    df[column_name] = df[column_name].astype(eval(f"self.{attribute_name}"))
+                else:
+                    if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+                
+            if verbose: print(df[column_name].nunique())
+            if verbose: display(df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
+        
+        return df
+    
+    
     def add_modal_column(self, new_column_name, df, verbose=False):
         if (new_column_name not in df.columns):
             name_parts_list = new_column_name.split('_')
             if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
             
             # Find the columns list attribute
-            attribute_name = f"{'_'.join(name_parts_list[1:])}_columns_list"
-            if not hasattr(self, attribute_name):
-                attribute_name = f"{'_'.join(name_parts_list)}_columns_list"
+            attribute_name = 'XXXX'
+            for i in range(3):
+                if not hasattr(self, attribute_name):
+                    attribute_name = f"{'_'.join(name_parts_list[i:])}_columns_list"
+                else:
+                    break
 
             df = nu.modalize_columns(df, eval(f"self.{attribute_name}"), new_column_name)
-            
-            # Check if the order attribute exists after trying to find it
-            attribute_name = f"{new_column_name}_order"
-            if hasattr(self, attribute_name):
-                mask_series = ~df[new_column_name].isnull()
-                feature_set = set(df[mask_series][new_column_name].unique())
-                order_set = set(eval(f"self.{attribute_name}"))
-                assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{attribute_name}"
-                
-                # Check if the category attribute exists
-                attribute_name = f"{'_'.join(name_parts_list[1:])}_category_order"
-                if not hasattr(self, attribute_name):
-                    attribute_name = f"{'_'.join(name_parts_list)}_category_order"
-                
-                if hasattr(self, attribute_name):
-                    df[new_column_name] = df[new_column_name].astype(eval(f"self.{attribute_name}"))
-                else:
-                    if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
-            else:
-                if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
-        if verbose: print(df[new_column_name].nunique())
-        if verbose: display(df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
+            df = self.convert_column_to_categorical(df, new_column_name, verbose=verbose)
         
         return df
     
