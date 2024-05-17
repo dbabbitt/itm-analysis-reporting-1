@@ -266,7 +266,7 @@ class FRVRSUtilities(object):
         
         # Tool data designations
         self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
-        self.tool_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
         self.action_type_to_columns = {
@@ -3656,7 +3656,7 @@ class FRVRSUtilities(object):
                 # Find the category attribute
                 attribute_name = 'XXXX'
                 for i in range(3):                        # tool_applied_data
-                    if not hasattr(self, attribute_name): # tool_data_category_order
+                    if not hasattr(self, attribute_name): # tool_applied_data_category_order
                         attribute_name = f"{'_'.join(name_parts_list[i:])}_category_order"
                     else:
                         break

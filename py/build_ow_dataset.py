@@ -626,7 +626,7 @@ class FRVRSUtilities(object):
         
         if IS_DEBUG: print("Tool data designations")
         self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
-        self.tool_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
         self.action_type_to_columns = {
@@ -2930,7 +2930,7 @@ if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().renam
 new_column_name = 'tool_applied_data'
 if (new_column_name in csv_stats_df.columns):
     if IS_DEBUG: print(f"\nConvert {new_column_name} column to categorical")
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.tool_data_category_order)
+    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.tool_applied_data_category_order)
 if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
 
 columns_list = ['voice_command_command_description', 'voice_capture_message']
