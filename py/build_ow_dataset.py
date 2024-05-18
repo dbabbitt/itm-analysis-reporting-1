@@ -24,6 +24,7 @@ import inspect
 import itertools
 import json
 import math
+import matplotlib.pyplot as plt
 import numpy as np
 import re
 import statsmodels.api as sm
@@ -456,6 +457,12 @@ class FRVRSUtilities(object):
         if IS_DEBUG: print("FRVRS log constants")
         self.data_logs_folder = osp.join(self.data_folder, 'logs'); makedirs(name=self.data_logs_folder, exist_ok=True)
         self.scene_groupby_columns = ['session_uuid', 'scene_id']
+        self.patient_groupby_columns = self.scene_groupby_columns + ['patient_id']
+        self.injury_groupby_columns = self.patient_groupby_columns + ['injury_id']
+        self.modalized_columns = [
+            'patient_id', 'injury_id', 'location_id', 'patient_sort', 'patient_pulse', 'patient_salt', 'patient_hearing', 'patient_breath', 'patient_mood', 'patient_pose', 'injury_severity',
+            'injury_required_procedure', 'injury_body_region', 'tool_type'
+        ]
         
         if IS_DEBUG: print("List of action types to consider as user actions")
         self.known_mcivr_metrics_types = [
@@ -625,8 +632,11 @@ class FRVRSUtilities(object):
         }
         
         if IS_DEBUG: print("Tool data designations")
-        self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
-        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        self.tool_applied_data_order = [
+            'right_chest', 'left_chest', 'right_underarm', 'left_underarm', 'RightForeArm', 'SplintAttachPointRS',
+            'SplintAttachPointRL', 'LeftForeArm', 'RightArm', 'SplintAttachPointLS', 'SplintAttachPointLL', 'LeftArm', 'PainMedsAttachPoint'
+        ]
+        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_applied_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
         self.action_type_to_columns = {
@@ -978,6 +988,51 @@ class FRVRSUtilities(object):
         distance_delta_df['adherence_to_salt'] = mask_series
         
         return distance_delta_df
+    
+    
+    def get_is_tag_correct_data_frame(self, logs_df, groupby_column='responder_category', verbose=False):
+        
+        # Iterate through each patient of each scene of each session of the 11-patient data frame
+        rows_list = []
+        for groupby_value, groupby_df in logs_df.groupby(groupby_column):
+            for (session_uuid, scene_id, patient_id), patient_df in groupby_df.sort_values(['action_tick']).groupby(self.patient_groupby_columns):
+                
+                # Add the groupby columns and an account of the patient's existence to the row dictionary
+                row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, 'patient_id': patient_id}
+                row_dict[groupby_column] = groupby_value
+                row_dict['patient_count'] = 1
+                
+                # Add the TAG_APPLIED tag value for this patient
+                try: last_tag = self.get_last_tag(patient_df)
+                except Exception: last_tag = nan
+                row_dict['last_tag'] = last_tag
+                
+                # Add the PATIENT_RECORD SALT value for this patient
+                try: max_salt = self.get_max_salt(patient_df)
+                except Exception: max_salt = nan
+                row_dict['max_salt'] = max_salt
+                
+                # Add the predicted tag value for this patient based on the SALT value
+                try: predicted_tag = self.salt_to_tag_dict.get(max_salt, nan)
+                except Exception: predicted_tag = nan
+                row_dict['predicted_tag'] = predicted_tag
+                
+                # Add if the tagging was correct for this patient, then the row to the list
+                row_dict['is_tag_correct'] = bool(last_tag == predicted_tag)
+                rows_list.append(row_dict)
+        
+        # Create the tag-to-SALT data frame
+        is_tag_correct_df = DataFrame(rows_list)
+        
+        # Convert the tagged, SALT, and predicted tag columns to their custom categorical types
+        is_tag_correct_df.last_tag = is_tag_correct_df.last_tag.astype(self.colors_category_order)
+        is_tag_correct_df.max_salt = is_tag_correct_df.max_salt.astype(self.salt_category_order)
+        is_tag_correct_df.predicted_tag = is_tag_correct_df.predicted_tag.astype(self.colors_category_order)
+        
+        # Sort the data frame based on the custom categorical order
+        is_tag_correct_df = is_tag_correct_df.sort_values('predicted_tag')
+        
+        return is_tag_correct_df
     
     
     ### Scene Functions ###
@@ -2373,6 +2428,8 @@ class FRVRSUtilities(object):
             if (action_type == 'Participant ID'):
                 df = df.drop(index=row_index)
                 return df
+            elif (action_type in ['SESSION_START', 'SESSION_END']):
+                return df
             else:
                 raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
         
@@ -2498,8 +2555,9 @@ class FRVRSUtilities(object):
         return logs_df
     
     
-    def convert_column_to_categorical(self, column_name, df, verbose=False):
+    def convert_column_to_categorical(self, df, column_name, verbose=False):
         if (column_name in df.columns):
+            display_results = False
             name_parts_list = column_name.split('_')
             
             # Find the order attribute
@@ -2531,11 +2589,13 @@ class FRVRSUtilities(object):
                 if hasattr(self, attribute_name):
                     if verbose: print(f"\nConvert {column_name} column to categorical")
                     df[column_name] = df[column_name].astype(eval(f"self.{attribute_name}"))
+                    display_results = True
                 else:
                     if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
                 
-            if verbose: print(df[column_name].nunique())
-            if verbose: display(df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
+            if verbose and display_results:
+                print(df[column_name].nunique())
+                display(df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
         return df
     
@@ -2921,17 +2981,17 @@ csv_stats_df = fu.add_modal_column('injury_required_procedure', csv_stats_df, ve
 csv_stats_df = fu.add_modal_column('injury_body_region', csv_stats_df, verbose=IS_DEBUG)
 csv_stats_df = fu.add_modal_column('tool_type', csv_stats_df, verbose=IS_DEBUG)
 
-new_column_name = 'pulse_taken_pulse_name'
-if (new_column_name in csv_stats_df.columns):
-    if IS_DEBUG: print(f"\nConvert {new_column_name} column to categorical")
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.pulse_name_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
+csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'pulse_taken_pulse_name', verbose=IS_DEBUG)
+csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'tool_applied_data', verbose=IS_DEBUG)
 
-new_column_name = 'tool_applied_data'
-if (new_column_name in csv_stats_df.columns):
-    if IS_DEBUG: print(f"\nConvert {new_column_name} column to categorical")
-    csv_stats_df[new_column_name] = csv_stats_df[new_column_name].astype(fu.tool_applied_data_category_order)
-if IS_DEBUG: print(csv_stats_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}))
+# Remove the patients not in our lists
+desert_patients_list = ['Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root']
+jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root']
+submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
+urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
+if IS_DEBUG:
+    mask_series = csv_stats_df.patient_id.isin(desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list)
+    print(csv_stats_df.shape, mask_series.sum(), csv_stats_df[mask_series].shape)
 
 columns_list = ['voice_command_command_description', 'voice_capture_message']
 if not csv_stats_df[columns_list].applymap(lambda x: '[PERSON]' in str(x), na_action='ignore').sum().sum():
@@ -3317,7 +3377,7 @@ if 'MedExp' not in json_stats_df.columns:
             if IS_DEBUG: print("The various partipant id columns are inconsistent")
         nu.save_data_frames(metrics_evaluation_open_world_json_stats_df=json_stats_df, verbose=IS_DEBUG)
 
-if IS_DEBUG: print('Check if all the patient IDs in any run are some variant of Mike and designate those runs as "Orientation"')
+if IS_DEBUG: print('\nCheck if all the patient IDs in any run are some variant of Mike and designate those runs as "Orientation"')
 new_column_name = 'scene_type'
 if (new_column_name in scene_stats_df.columns): scene_stats_df = scene_stats_df.drop(columns=new_column_name)
 if (new_column_name not in scene_stats_df.columns): scene_stats_df[new_column_name] = 'Triage'
@@ -3330,7 +3390,9 @@ if (column_value not in scene_stats_df.scene_type):
             mask_series = True
             for cn in fu.scene_groupby_columns: mask_series &= (scene_stats_df[cn] == eval(cn))
             scene_stats_df.loc[mask_series, new_column_name] = column_value
-if IS_DEBUG: print(scene_stats_df.groupby(['patient_count', 'is_scene_aborted', new_column_name]).size().to_frame().rename(columns={0: 'record_count'}).sort_values('patient_count', ascending=False))
+    if IS_DEBUG: display(
+        scene_stats_df.groupby([new_column_name]).size().to_frame().rename(columns={0: 'record_count'}).sort_values(new_column_name, ascending=False).head(20)
+    )
 
 new_column_name = 'is_scene_aborted'
 if (new_column_name not in scene_stats_df.columns):

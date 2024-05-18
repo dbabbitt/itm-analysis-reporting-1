@@ -265,8 +265,11 @@ class FRVRSUtilities(object):
         }
         
         # Tool data designations
-        self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
-        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        self.tool_applied_data_order = [
+            'right_chest', 'left_chest', 'right_underarm', 'left_underarm', 'RightForeArm', 'SplintAttachPointRS',
+            'SplintAttachPointRL', 'LeftForeArm', 'RightArm', 'SplintAttachPointLS', 'SplintAttachPointLL', 'LeftArm', 'PainMedsAttachPoint'
+        ]
+        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_applied_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
         self.action_type_to_columns = {
@@ -3322,6 +3325,8 @@ class FRVRSUtilities(object):
             if (action_type == 'Participant ID'):
                 df = df.drop(index=row_index)
                 return df
+            elif (action_type in ['SESSION_START', 'SESSION_END']):
+                return df
             else:
                 raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
         
@@ -3632,8 +3637,9 @@ class FRVRSUtilities(object):
         return elevens_df
     
     
-    def convert_column_to_categorical(self, column_name, df, verbose=False):
-        if (column_name in df.columns):
+    def convert_column_to_categorical(self, categorical_df, column_name, verbose=False):
+        if (column_name in categorical_df.columns):
+            display_results = False
             name_parts_list = column_name.split('_')
             
             # Find the order attribute
@@ -3641,6 +3647,7 @@ class FRVRSUtilities(object):
             for i in range(3):
                 if not hasattr(self, attribute_name):
                     attribute_name = f"{'_'.join(name_parts_list[i:])}_order"
+                    if verbose: print(f"Finding {attribute_name} as the order attribute")
                 else:
                     break
         
@@ -3648,34 +3655,37 @@ class FRVRSUtilities(object):
             if hasattr(self, attribute_name):
                 
                 # Check for missing elements
-                mask_series = ~df[column_name].isnull()
-                feature_set = set(df[mask_series][column_name].unique())
+                mask_series = ~categorical_df[column_name].isnull()
+                feature_set = set(categorical_df[mask_series][column_name].unique())
                 order_set = set(eval(f"self.{attribute_name}"))
                 assert feature_set.issubset(order_set), f"You're missing {feature_set.difference(order_set)} from self.{attribute_name}"
                 
                 # Find the category attribute
                 attribute_name = 'XXXX'
-                for i in range(3):                        # tool_applied_data
-                    if not hasattr(self, attribute_name): # tool_applied_data_category_order
+                for i in range(3):
+                    if not hasattr(self, attribute_name):
                         attribute_name = f"{'_'.join(name_parts_list[i:])}_category_order"
+                        if verbose: print(f"Finding {attribute_name} as the category attribute")
                     else:
                         break
                 
                 # Check if the category attribute exists
                 if hasattr(self, attribute_name):
                     if verbose: print(f"\nConvert {column_name} column to categorical")
-                    df[column_name] = df[column_name].astype(eval(f"self.{attribute_name}"))
+                    categorical_df[column_name] = categorical_df[column_name].astype(eval(f"self.{attribute_name}"))
+                    display_results = True
                 else:
                     if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
                 
-            if verbose: print(df[column_name].nunique())
-            if verbose: display(df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
+            if verbose and display_results:
+                print(categorical_df[column_name].nunique())
+                display(categorical_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
-        return df
+        return categorical_df
     
     
-    def add_modal_column(self, new_column_name, df, verbose=False):
-        if (new_column_name not in df.columns):
+    def add_modal_column(self, new_column_name, modal_df, is_categorical=True, verbose=False):
+        if (new_column_name not in modal_df.columns):
             name_parts_list = new_column_name.split('_')
             if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
             
@@ -3687,10 +3697,14 @@ class FRVRSUtilities(object):
                 else:
                     break
 
-            df = nu.modalize_columns(df, eval(f"self.{attribute_name}"), new_column_name)
-            df = self.convert_column_to_categorical(df, new_column_name, verbose=verbose)
+            modal_df = nu.modalize_columns(modal_df, eval(f"self.{attribute_name}"), new_column_name)
+            if is_categorical:
+                modal_df = self.convert_column_to_categorical(modal_df, new_column_name, verbose=verbose)
+            elif verbose:
+                print(modal_df[new_column_name].nunique())
+                display(modal_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
-        return df
+        return modal_df
     
     
     ### Plotting Functions ###

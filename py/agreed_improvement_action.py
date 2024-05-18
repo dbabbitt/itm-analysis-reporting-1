@@ -625,8 +625,8 @@ class FRVRSUtilities(object):
         }
         
         if IS_DEBUG: print("Tool data designations")
-        self.tool_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
-        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_data_order, ordered=True)
+        self.tool_applied_data_order = ['right_chest', 'left_chest', 'right_underarm', 'left_underarm']
+        self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_applied_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
         self.action_type_to_columns = {
