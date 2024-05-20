@@ -3314,14 +3314,176 @@ class FRVRSUtilities(object):
     
         Parameters:
             action_type: The action type.
-            df: The DataFrame containing the MCI-VR metrics.
+            df: The DataFrame containing the MCI-VR metrics with the logger version column removed.
             row_index: The index of the row in the DataFrame to set the metrics for.
             row_series: The row series containing the MCI-VR metrics.
     
         Returns:
             The DataFrame containing the MCI-VR metrics with new columns.
         """
-        if action_type not in self.action_type_to_columns:
+        
+        # Set the metrics types for each action type
+        if (action_type == 'BAG_ACCESS'): # BagAccess
+            df.loc[row_index, 'bag_access_location'] = row_series[4] # Location
+        elif (action_type == 'BAG_CLOSED'): # BagClosed
+            df.loc[row_index, 'bag_closed_location'] = row_series[4] # Location
+        elif (action_type == 'INJURY_RECORD'): # InjuryRecord
+            df.loc[row_index, 'injury_record_id'] = row_series[4] # Id
+            df.loc[row_index, 'injury_record_patient_id'] = row_series[5] # patientId
+            df.loc[row_index, 'injury_record_required_procedure'] = row_series[6] # requiredProcedure
+            df.loc[row_index, 'injury_record_severity'] = row_series[7] # severity
+            df.loc[row_index, 'injury_record_body_region'] = row_series[8] # bodyRegion
+            df.loc[row_index, 'injury_record_injury_treated'] = row_series[9] # injuryTreated
+            df.loc[row_index, 'injury_record_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
+            df.loc[row_index, 'injury_record_injury_injury_locator'] = row_series[11] # injuryLocator
+        elif (action_type == 'INJURY_TREATED'): # InjuryTreated
+            df.loc[row_index, 'injury_treated_id'] = row_series[4] # Id
+            df.loc[row_index, 'injury_treated_patient_id'] = row_series[5] # patientId
+            df.loc[row_index, 'injury_treated_required_procedure'] = row_series[6] # requiredProcedure
+            df.loc[row_index, 'injury_treated_severity'] = row_series[7] # severity
+            df.loc[row_index, 'injury_treated_body_region'] = row_series[8] # bodyRegion
+            df.loc[row_index, 'injury_treated_injury_treated'] = row_series[9] # injuryTreated
+            df.loc[row_index, 'injury_treated_injury_treated_with_wrong_treatment'] = row_series[10] # injuryTreatedWithWrongTreatment
+            df.loc[row_index, 'injury_treated_injury_injury_locator'] = row_series[11] # injuryLocator
+        elif (action_type == 'PATIENT_DEMOTED'): # PatientDemoted
+            df.loc[row_index, 'patient_demoted_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_demoted_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_demoted_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_demoted_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_demoted_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_demoted_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_demoted_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_demoted_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_demoted_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_demoted_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_demoted_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_demoted_pose'] = row_series[15] # pose
+        elif (action_type == 'PATIENT_ENGAGED'): # PatientEngaged
+            df.loc[row_index, 'patient_engaged_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_engaged_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_engaged_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_engaged_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_engaged_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_engaged_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_engaged_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_engaged_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_engaged_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_engaged_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_engaged_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
+        elif (action_type == 'BREATHING_CHECKED'):
+            df.loc[row_index, 'patient_checked_breath'] = row_series[4]
+            df.loc[row_index, 'patient_checked_id'] = row_series[5]
+        elif (action_type == 'PATIENT_RECORD'): # PatientRecord
+            df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
+            df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
+            df.loc[row_index, 'patient_record_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_record_position'] = row_series[7] # position
+            df.loc[row_index, 'patient_record_rotation'] = row_series[8] # rotation
+            df.loc[row_index, 'patient_record_salt'] = row_series[9] # salt
+            df.loc[row_index, 'patient_record_sort'] = row_series[10] # sort
+            df.loc[row_index, 'patient_record_pulse'] = row_series[11] # pulse
+            df.loc[row_index, 'patient_record_breath'] = row_series[12] # breath
+            df.loc[row_index, 'patient_record_hearing'] = row_series[13] # hearing
+            df.loc[row_index, 'patient_record_mood'] = row_series[14] # mood
+            df.loc[row_index, 'patient_record_pose'] = row_series[15] # pose
+        elif (action_type == 'PULSE_TAKEN'): # PulseTaken
+            df.loc[row_index, 'pulse_taken_pulse_name'] = row_series[4] # pulseName
+            df.loc[row_index, 'pulse_taken_patient_id'] = row_series[5] # patientId
+        elif (action_type == 'SP_O2_TAKEN'):
+            df.loc[row_index, 'sp_o2_taken_level'] = row_series[4]
+            df.loc[row_index, 'sp_o2_taken_patient_id'] = row_series[5]
+        elif (action_type == 'S_A_L_T_WALKED'): # SALTWalked
+            df.loc[row_index, 's_a_l_t_walked_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_walked_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_walked_patient_id'] = row_series[6]
+        elif (action_type == 'TRIAGE_LEVEL_WALKED'):
+            df.loc[row_index, 'triage_level_walked_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_walked_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_walked_patient_id'] = row_series[6]
+        elif (action_type == 'S_A_L_T_WALK_IF_CAN'): # SALTWalkIfCan
+            df.loc[row_index, 's_a_l_t_walk_if_can_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_walk_if_can_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_walk_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WALK_IF_CAN'):
+            df.loc[row_index, 'triage_level_walk_if_can_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_walk_if_can_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_walk_if_can_patient_id'] = row_series[6]
+        elif (action_type == 'S_A_L_T_WAVED'): # SALTWave
+            df.loc[row_index, 's_a_l_t_waved_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_waved_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_waved_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WAVED'):
+            df.loc[row_index, 'triage_level_waved_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_waved_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_waved_patient_id'] = row_series[6]
+        elif (action_type == 'S_A_L_T_WAVE_IF_CAN'): # SALTWaveIfCan
+            df.loc[row_index, 's_a_l_t_wave_if_can_sort_location'] = row_series[4] # sortLocation
+            df.loc[row_index, 's_a_l_t_wave_if_can_sort_command_text'] = row_series[5] # sortCommandText
+            df.loc[row_index, 's_a_l_t_wave_if_can_patient_id'] = row_series[6] # patientId
+        elif (action_type == 'TRIAGE_LEVEL_WAVE_IF_CAN'):
+            df.loc[row_index, 'triage_level_wave_if_can_location'] = row_series[4]
+            df.loc[row_index, 'triage_level_wave_if_can_command_text'] = row_series[5]
+            df.loc[row_index, 'triage_level_wave_if_can_patient_id'] = row_series[6]
+        elif (action_type == 'TAG_APPLIED'): # TagApplied
+            df.loc[row_index, 'tag_applied_patient_id'] = row_series[4] # patientId
+            df.loc[row_index, 'tag_applied_type'] = row_series[5] # type
+        elif (action_type == 'TAG_DISCARDED'): # TagDiscarded
+            df.loc[row_index, 'tag_discarded_type'] = row_series[4] # Type
+            df.loc[row_index, 'tag_discarded_location'] = row_series[5] # Location
+        elif (action_type == 'TAG_SELECTED'): # TagSelected
+            df.loc[row_index, 'tag_selected_type'] = row_series[4] # Type
+        elif (action_type == 'TELEPORT'): # Teleport
+            df.loc[row_index, 'teleport_location'] = row_series[4] # Location
+        elif (action_type == 'TOOL_APPLIED'): # ToolApplied
+            if verbose: df.loc[row_index, 'tool_applied_row_shape'] = row_series.shape
+            df.loc[row_index, 'tool_applied_patient_id'] = row_series[4] # patientId
+            df.loc[row_index, 'tool_applied_type'] = row_series[5] # type
+            df.loc[row_index, 'tool_applied_attachment_point'] = row_series[6] # attachmentPoint
+            df.loc[row_index, 'tool_applied_tool_location'] = row_series[7] # toolLocation
+            
+            # Find the attachMessage and infer if a data column exists from there
+            for attach_message_idx in range(10, 8, -1):
+                if str(row_series[attach_message_idx]).startswith('Applied'): break
+            sender_idx = attach_message_idx - 1
+            if (sender_idx == 9): df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
+            
+            df.loc[row_index, 'tool_applied_sender'] = row_series[sender_idx] # sender
+            df.loc[row_index, 'tool_applied_attach_message'] = row_series[attach_message_idx] # attachMessage
+        elif (action_type == 'TOOL_DISCARDED'): # ToolDiscarded
+            df.loc[row_index, 'tool_discarded_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_discarded_count'] = row_series[5] # Count
+            df.loc[row_index, 'tool_discarded_location'] = row_series[6] # Location
+        elif (action_type == 'TOOL_HOVER'): # ToolHover
+            df.loc[row_index, 'tool_hover_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_hover_count'] = row_series[5] # Count
+        elif (action_type == 'TOOL_SELECTED'): # ToolSelected
+            df.loc[row_index, 'tool_selected_type'] = row_series[4] # Type
+            df.loc[row_index, 'tool_selected_count'] = row_series[5] # Count
+        elif (action_type == 'VOICE_CAPTURE'): # VoiceCapture
+            df.loc[row_index, 'voice_capture_message'] = row_series[4] # Message
+            df.loc[row_index, 'voice_capture_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'VOICE_COMMAND'): # VoiceCommand
+            df.loc[row_index, 'voice_command_message'] = row_series[4] # Message
+            df.loc[row_index, 'voice_command_command_description'] = row_series[5] # commandDescription
+        elif (action_type == 'BUTTON_CLICKED'):
+            df.loc[row_index, 'button_command_message'] = row_series[4]
+        elif (action_type == 'PLAYER_LOCATION'): # PlayerLocation
+            df.loc[row_index, 'player_location_location'] = row_series[4] # Location (x,y,z)
+            df.loc[row_index, 'player_location_left_hand_location'] = row_series[5] # Left Hand Location (x,y,z); deactivated in v1.3
+            df.loc[row_index, 'player_location_right_hand_location'] = row_series[6] # Right Hand Location (x,y,z); deactivated in v1.3
+        elif (action_type == 'PLAYER_GAZE'): # PlayerGaze
+            if ' Root' in row_series[4]:
+                df.loc[row_index, 'player_gaze_patient_id'] = row_series[4] # PatientID
+                df.loc[row_index, 'player_gaze_location'] = row_series[5] # Location (x,y,z)
+            elif ' Root' in row_series[5]:
+                df.loc[row_index, 'player_gaze_location'] = row_series[4] # Location (x,y,z)
+                df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # PatientID
+            else:
+                print(row_series); raise
+            df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
+            df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
+        elif action_type not in self.action_type_to_columns:
             if (action_type == 'Participant ID'):
                 df = df.drop(index=row_index)
                 return df
@@ -3329,13 +3491,6 @@ class FRVRSUtilities(object):
                 return df
             else:
                 raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
-        
-        # Get column names and corresponding indices from the dictionary
-        column_names = list(self.action_type_to_columns[action_type].keys())
-        column_indices = list(self.action_type_to_columns[action_type].values())
-        
-        # Set multiple columns at once using vectorized assignment
-        df.loc[row_index, column_names] = row_series[column_indices]
         
         return df
     
@@ -3358,7 +3513,7 @@ class FRVRSUtilities(object):
         
         # Construct the full path to the file and get the logger version
         file_path = osp.join(sub_directory, file_name)
-        version_number = self.get_logger_version(file_path, verbose=verbose)
+        version_number = self.get_logger_version(file_path, verbose=False)
         
         # Read CSV file using a CSV reader
         rows_list = []
