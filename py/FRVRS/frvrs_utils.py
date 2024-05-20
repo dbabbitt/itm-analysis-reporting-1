@@ -3348,7 +3348,7 @@ class FRVRSUtilities(object):
         elif (action_type == 'PATIENT_DEMOTED'): # PatientDemoted
             df.loc[row_index, 'patient_demoted_health_level'] = row_series[4] # healthLevel
             df.loc[row_index, 'patient_demoted_health_time_remaining'] = row_series[5] # healthTimeRemaining
-            df.loc[row_index, 'patient_demoted_patient_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_demoted_patient_id'] = row_series[6] # patientId
             df.loc[row_index, 'patient_demoted_position'] = row_series[7] # position
             df.loc[row_index, 'patient_demoted_rotation'] = row_series[8] # rotation
             df.loc[row_index, 'patient_demoted_salt'] = row_series[9] # salt
@@ -3361,7 +3361,7 @@ class FRVRSUtilities(object):
         elif (action_type == 'PATIENT_ENGAGED'): # PatientEngaged
             df.loc[row_index, 'patient_engaged_health_level'] = row_series[4] # healthLevel
             df.loc[row_index, 'patient_engaged_health_time_remaining'] = row_series[5] # healthTimeRemaining
-            df.loc[row_index, 'patient_engaged_patient_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_engaged_patient_id'] = row_series[6] # patientId
             df.loc[row_index, 'patient_engaged_position'] = row_series[7] # position
             df.loc[row_index, 'patient_engaged_rotation'] = row_series[8] # rotation
             df.loc[row_index, 'patient_engaged_salt'] = row_series[9] # salt
@@ -3373,11 +3373,11 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
         elif (action_type == 'BREATHING_CHECKED'):
             df.loc[row_index, 'patient_checked_breath'] = row_series[4]
-            df.loc[row_index, 'breathing_checked_patient_id'] = row_series[5]
+            df.loc[row_index, 'breathing_checked_patient_id'] = row_series[5] # patientId
         elif (action_type == 'PATIENT_RECORD'): # PatientRecord
             df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
             df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
-            df.loc[row_index, 'patient_record_patient_id'] = row_series[6] # id
+            df.loc[row_index, 'patient_record_patient_id'] = row_series[6] # patientId
             df.loc[row_index, 'patient_record_position'] = row_series[7] # position
             df.loc[row_index, 'patient_record_rotation'] = row_series[8] # rotation
             df.loc[row_index, 'patient_record_salt'] = row_series[9] # salt
@@ -3392,7 +3392,7 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'pulse_taken_patient_id'] = row_series[5] # patientId
         elif (action_type == 'SP_O2_TAKEN'):
             df.loc[row_index, 'sp_o2_taken_level'] = row_series[4]
-            df.loc[row_index, 'sp_o2_taken_patient_id'] = row_series[5]
+            df.loc[row_index, 'sp_o2_taken_patient_id'] = row_series[5] # patientId
         elif (action_type == 'S_A_L_T_WALKED'): # SALTWalked
             df.loc[row_index, 's_a_l_t_walked_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_walked_sort_command_text'] = row_series[5] # sortCommandText
@@ -3400,7 +3400,7 @@ class FRVRSUtilities(object):
         elif (action_type == 'TRIAGE_LEVEL_WALKED'):
             df.loc[row_index, 'triage_level_walked_location'] = row_series[4]
             df.loc[row_index, 'triage_level_walked_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_walked_patient_id'] = row_series[6]
+            df.loc[row_index, 'triage_level_walked_patient_id'] = row_series[6] # patientId
         elif (action_type == 'S_A_L_T_WALK_IF_CAN'): # SALTWalkIfCan
             df.loc[row_index, 's_a_l_t_walk_if_can_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_walk_if_can_sort_command_text'] = row_series[5] # sortCommandText
@@ -3408,7 +3408,7 @@ class FRVRSUtilities(object):
         elif (action_type == 'TRIAGE_LEVEL_WALK_IF_CAN'):
             df.loc[row_index, 'triage_level_walk_if_can_location'] = row_series[4]
             df.loc[row_index, 'triage_level_walk_if_can_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_walk_if_can_patient_id'] = row_series[6]
+            df.loc[row_index, 'triage_level_walk_if_can_patient_id'] = row_series[6] # patientId
         elif (action_type == 'S_A_L_T_WAVED'): # SALTWave
             df.loc[row_index, 's_a_l_t_waved_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_waved_sort_command_text'] = row_series[5] # sortCommandText
@@ -3416,7 +3416,7 @@ class FRVRSUtilities(object):
         elif (action_type == 'TRIAGE_LEVEL_WAVED'):
             df.loc[row_index, 'triage_level_waved_location'] = row_series[4]
             df.loc[row_index, 'triage_level_waved_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_waved_patient_id'] = row_series[6]
+            df.loc[row_index, 'triage_level_waved_patient_id'] = row_series[6] # patientId
         elif (action_type == 'S_A_L_T_WAVE_IF_CAN'): # SALTWaveIfCan
             df.loc[row_index, 's_a_l_t_wave_if_can_sort_location'] = row_series[4] # sortLocation
             df.loc[row_index, 's_a_l_t_wave_if_can_sort_command_text'] = row_series[5] # sortCommandText
@@ -3424,7 +3424,7 @@ class FRVRSUtilities(object):
         elif (action_type == 'TRIAGE_LEVEL_WAVE_IF_CAN'):
             df.loc[row_index, 'triage_level_wave_if_can_location'] = row_series[4]
             df.loc[row_index, 'triage_level_wave_if_can_command_text'] = row_series[5]
-            df.loc[row_index, 'triage_level_wave_if_can_patient_id'] = row_series[6]
+            df.loc[row_index, 'triage_level_wave_if_can_patient_id'] = row_series[6] # patientId
         elif (action_type == 'TAG_APPLIED'): # TagApplied
             df.loc[row_index, 'tag_applied_patient_id'] = row_series[4] # patientId
             df.loc[row_index, 'tag_applied_type'] = row_series[5] # type
@@ -3441,15 +3441,7 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'tool_applied_type'] = row_series[5] # type
             df.loc[row_index, 'tool_applied_attachment_point'] = row_series[6] # attachmentPoint
             df.loc[row_index, 'tool_applied_tool_location'] = row_series[7] # toolLocation
-            
-            # Find the attachMessage and infer if a data column exists from there
-            for attach_message_idx in range(10, 8, -1):
-                if str(row_series[attach_message_idx]).startswith('Applied'): break
-            sender_idx = attach_message_idx - 1
-            if (sender_idx == 9): df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
-            
-            df.loc[row_index, 'tool_applied_sender'] = row_series[sender_idx] # sender
-            df.loc[row_index, 'tool_applied_attach_message'] = row_series[attach_message_idx] # attachMessage
+            df.loc[row_index, 'tool_applied_data'] = row_series[8] # data
         elif (action_type == 'TOOL_DISCARDED'): # ToolDiscarded
             df.loc[row_index, 'tool_discarded_type'] = row_series[4] # Type
             df.loc[row_index, 'tool_discarded_count'] = row_series[5] # Count
@@ -3473,14 +3465,8 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'player_location_left_hand_location'] = row_series[5] # Left Hand Location (x,y,z); deactivated in v1.3
             df.loc[row_index, 'player_location_right_hand_location'] = row_series[6] # Right Hand Location (x,y,z); deactivated in v1.3
         elif (action_type == 'PLAYER_GAZE'): # PlayerGaze
-            if ' Root' in row_series[4]:
-                df.loc[row_index, 'player_gaze_patient_id'] = row_series[4] # PatientID
-                df.loc[row_index, 'player_gaze_location'] = row_series[5] # Location (x,y,z)
-            elif ' Root' in row_series[5]:
-                df.loc[row_index, 'player_gaze_location'] = row_series[4] # Location (x,y,z)
-                df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # PatientID
-            else:
-                print(row_series); raise
+            df.loc[row_index, 'player_gaze_location'] = row_series[4] # Location (x,y,z)
+            df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # patientId
             df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
             df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
         elif action_type not in self.action_type_to_columns:
