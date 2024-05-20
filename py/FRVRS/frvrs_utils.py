@@ -136,7 +136,7 @@ class FRVRSUtilities(object):
         self.sort_category_order = CategoricalDtype(categories=self.patient_sort_order, ordered=True)
         
         # Patient SALT designations
-        self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
+        self.patient_salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
         self.patient_salt_order = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
         self.salt_category_order = CategoricalDtype(categories=self.patient_salt_order, ordered=True)
         
@@ -1692,7 +1692,7 @@ class FRVRSUtilities(object):
         
         # Filter the treat-as-dead columns and combine them into a mask series
         mask_series = False
-        for column_name in self.salt_columns_list: mask_series |= scene_df[column_name].isin(['DEAD', 'EXPECTANT'])
+        for column_name in self.patient_salt_columns_list: mask_series |= scene_df[column_name].isin(['DEAD', 'EXPECTANT'])
         
         # Extract the list of dead patients from the filtered mask series
         dead_list = scene_df[mask_series].patient_id.unique().tolist()

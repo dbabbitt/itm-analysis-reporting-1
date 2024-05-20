@@ -525,7 +525,7 @@ class FRVRSUtilities(object):
         self.sort_category_order = CategoricalDtype(categories=self.patient_sort_order, ordered=True)
         
         if IS_DEBUG: print("Patient SALT designations")
-        self.salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
+        self.patient_salt_columns_list = ['patient_demoted_salt', 'patient_record_salt', 'patient_engaged_salt']
         self.patient_salt_order = ['DEAD', 'EXPECTANT', 'IMMEDIATE', 'DELAYED', 'MINIMAL']
         self.salt_category_order = CategoricalDtype(categories=self.patient_salt_order, ordered=True)
         

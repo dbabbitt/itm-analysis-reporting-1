@@ -664,8 +664,8 @@ class TestGetTriageTime(unittest.TestCase):
 
 class TestGetDeadPatients(unittest.TestCase):
 
-    # Placeholder for the self.salt_columns_list attribute
-    salt_columns_list = ['column1', 'column2']  # Replace with actual column names
+    # Placeholder for the self.patient_salt_columns_list attribute
+    patient_salt_columns_list = ['column1', 'column2']  # Replace with actual column names
 
     def test_single_dead_patient(self):
         scene_df = pd.DataFrame({
