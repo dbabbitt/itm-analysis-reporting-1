@@ -191,7 +191,7 @@ class FRVRSUtilities(object):
         self.hemorrhage_control_procedures_list = ['tourniquet', 'woundpack']
         
         # Injury required procedure designations
-        self.required_procedure_columns_list = ['injury_record_required_procedure', 'injury_treated_required_procedure']
+        self.injury_required_procedure_columns_list = ['injury_record_required_procedure', 'injury_treated_required_procedure']
         self.injury_required_procedure_order = [
             'tourniquet', 'gauzePressure', 'decompress', 'chestSeal', 'woundpack', 'ivBlood', 'airway', 'epiPen', 'burnDressing', 'splint', 'ivSaline', 'painMeds', 'blanket', 'none'
         ]
