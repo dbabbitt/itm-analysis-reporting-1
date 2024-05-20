@@ -501,7 +501,7 @@ class FRVRSUtilities(object):
         
         if IS_DEBUG: print("List of columns that contain patientIDs")
         self.patient_id_columns_list = [
-            'patient_demoted_id', 'patient_record_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
+            'patient_demoted_patient_id', 'patient_record_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
             's_a_l_t_walked_patient_id', 's_a_l_t_wave_if_can_patient_id', 's_a_l_t_waved_patient_id', 'patient_engaged_id',
             'pulse_taken_patient_id', 'injury_treated_patient_id', 'tool_applied_patient_id', 'tag_applied_patient_id',
             'player_gaze_patient_id', 'patient_checked_id', 'sp_o2_taken_patient_id', 'triage_level_walked_patient_id'
@@ -669,7 +669,7 @@ class FRVRSUtilities(object):
             'PATIENT_DEMOTED': {
                 'patient_demoted_health_level': 4,
                 'patient_demoted_health_time_remaining': 5,
-                'patient_demoted_id': 6,
+                'patient_demoted_patient_id': 6,
                 'patient_demoted_position': 7,
                 'patient_demoted_rotation': 8,
                 'patient_demoted_salt': 9,
