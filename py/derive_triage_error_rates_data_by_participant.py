@@ -501,7 +501,7 @@ class FRVRSUtilities(object):
         
         if IS_DEBUG: print("List of columns that contain patientIDs")
         self.patient_id_columns_list = [
-            'patient_demoted_patient_id', 'patient_record_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
+            'patient_demoted_patient_id', 'patient_record_patient_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
             's_a_l_t_walked_patient_id', 's_a_l_t_wave_if_can_patient_id', 's_a_l_t_waved_patient_id', 'patient_engaged_patient_id',
             'pulse_taken_patient_id', 'injury_treated_patient_id', 'tool_applied_patient_id', 'tag_applied_patient_id',
             'player_gaze_patient_id', 'breathing_checked_patient_id', 'sp_o2_taken_patient_id', 'triage_level_walked_patient_id'
@@ -701,7 +701,7 @@ class FRVRSUtilities(object):
             'PATIENT_RECORD': {
                 'patient_record_health_level': 4,
                 'patient_record_health_time_remaining': 5,
-                'patient_record_id': 6,
+                'patient_record_patient_id': 6,
                 'patient_record_position': 7,
                 'patient_record_rotation': 8,
                 'patient_record_salt': 9,
@@ -2977,7 +2977,7 @@ jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Fe
 submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
 urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
 if IS_DEBUG:
-    mask_series = csv_stats_df.patient_record_id.isin(desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list)
+    mask_series = csv_stats_df.patient_record_patient_id.isin(desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list)
     print(csv_stats_df.shape, mask_series.sum(), csv_stats_df[mask_series].shape)
 
 if IS_DEBUG: print("\nModalize separate columns into one")
