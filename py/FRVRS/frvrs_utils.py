@@ -115,7 +115,7 @@ class FRVRSUtilities(object):
             'patient_demoted_patient_id', 'patient_record_id', 'injury_record_patient_id', 's_a_l_t_walk_if_can_patient_id',
             's_a_l_t_walked_patient_id', 's_a_l_t_wave_if_can_patient_id', 's_a_l_t_waved_patient_id', 'patient_engaged_patient_id',
             'pulse_taken_patient_id', 'injury_treated_patient_id', 'tool_applied_patient_id', 'tag_applied_patient_id',
-            'player_gaze_patient_id', 'patient_checked_id', 'sp_o2_taken_patient_id', 'triage_level_walked_patient_id'
+            'player_gaze_patient_id', 'breathing_checked_patient_id', 'sp_o2_taken_patient_id', 'triage_level_walked_patient_id'
         ]
         
         # List of columns that contain locationIDs
@@ -329,7 +329,7 @@ class FRVRSUtilities(object):
             },
             'BREATHING_CHECKED': {
                 'patient_checked_breath': 4,
-                'patient_checked_id': 5,
+                'breathing_checked_patient_id': 5,
             },
             'PATIENT_RECORD': {
                 'patient_record_health_level': 4,
@@ -3373,7 +3373,7 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'patient_engaged_pose'] = row_series[15] # pose
         elif (action_type == 'BREATHING_CHECKED'):
             df.loc[row_index, 'patient_checked_breath'] = row_series[4]
-            df.loc[row_index, 'patient_checked_id'] = row_series[5]
+            df.loc[row_index, 'breathing_checked_patient_id'] = row_series[5]
         elif (action_type == 'PATIENT_RECORD'): # PatientRecord
             df.loc[row_index, 'patient_record_health_level'] = row_series[4] # healthLevel
             df.loc[row_index, 'patient_record_health_time_remaining'] = row_series[5] # healthTimeRemaining
