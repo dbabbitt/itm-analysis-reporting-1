@@ -513,7 +513,7 @@ class FRVRSUtilities(object):
         self.injury_id_columns_list = ['injury_record_id', 'injury_treated_id']
         
         if IS_DEBUG: print("Patient SORT designations")
-        self.sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
+        self.patient_sort_columns_list = ['patient_demoted_sort', 'patient_record_sort', 'patient_engaged_sort']
         self.patient_sort_order = ['still', 'waver', 'walker']
         self.sort_category_order = CategoricalDtype(categories=self.patient_sort_order, ordered=True)
         
@@ -574,7 +574,7 @@ class FRVRSUtilities(object):
         }
         
         if IS_DEBUG: print("Injury severity designations")
-        self.severity_columns_list = ['injury_record_severity', 'injury_treated_severity']
+        self.injury_severity_columns_list = ['injury_record_severity', 'injury_treated_severity']
         self.injury_severity_order = ['high', 'medium', 'low']
         self.severity_category_order = CategoricalDtype(categories=self.injury_severity_order, ordered=True)
         

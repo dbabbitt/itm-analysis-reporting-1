@@ -706,7 +706,7 @@ class TestGetDeadPatients(unittest.TestCase):
 class TestGetStillPatients(unittest.TestCase):
 
     # Placeholder for the actual list of sort columns
-    sort_columns_list = ['column1', 'column2']  # Replace with actual column names
+    patient_sort_columns_list = ['column1', 'column2']  # Replace with actual column names
 
     def test_empty_dataframe(self):
         """Test with an empty DataFrame."""
