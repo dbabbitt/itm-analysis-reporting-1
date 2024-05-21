@@ -1,0 +1,1799 @@
+{
+    "scene": "sim-jungle",
+    "narrative": {
+        "narrativeDescription": "Jungle Eval Scenario Narrative",
+        "narrativeSections": [
+            {
+                "sectionDescription": "Adept Intro",
+                "additionalInfo": "You are a medic on a security patrol on an island jungle. You encounter a serious accident potentially from an IED explosion. You were told that a civilian found what looked like it might be an IED, reported it to authorities, and then against our advice, went back and apparently triggered accidental detonation while taking a closer look. There are two civilian patients, one closer to what looks like the IED materials and one further away on a path.",
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Adept/Jungle Adept Intro"
+                },
+                "screenFadeSettings": {
+                    "fadeFromBlack": true
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": false,
+                    "enableBagAccess": false
+                },
+                "audioVolumeSettings": [
+                    {
+                        "mixer": "narrator",
+                        "changeVolume": "Full"
+                    },
+                    {
+                        "mixer": "voice",
+                        "changeVolume": "Full"
+                    },
+                    {
+                        "mixer": "environment",
+                        "changeVolume": "Mute"
+                    }
+                ],
+                "triggeredOnStart": true
+            },
+            {
+                "sectionDescription": "Start (Click when Intro Narration is complete)",
+                "autoplay": true,
+                "additionalInfo": "Allow actions",
+                "inputBlockingSettings": {
+                    "enableMovement": true,
+                    "enableBagAccess": true
+                },
+                "teleportPointsToActivate": [
+                    "Adept 1"
+                ],
+                "audioVolumeSettings": [
+                    {
+                        "mixer": "environment",
+                        "changeVolume": "Full"
+                    }
+                ]
+            },
+            {
+                "sectionDescription": "Automated section here responding to patient's interest in a patient, then treatment of patient",
+                "automatedEntryPoint": "ApproachPatient",
+                "availableInventory": {
+                    "tourniquetCount": 4,
+                    "pressureBandageCount": 4,
+                    "hemostaticGauzeCount": 4,
+                    "decompressionNeedleCount": 1,
+                    "nasopharyngealAirwayCount": 1,
+                    "splintCount": 4,
+                    "painMedsCount": 4,
+                    "ivBloodCount": 4,
+                    "ivSalineCount": 4,
+                    "burnDressingCount": 10,
+                    "pulseOximeterAvailable": true
+                },
+                "automatedActions": {
+                    "ApproachPatient": [
+                        {
+                            "description": "Approach Civilian 1",
+                            "actionSet": [
+                                {
+                                    "action": "approach",
+                                    "character": "Civilian 1"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Approached Civilian 1; wouldn't leave it alone",
+                                "additionalInfo": "That man just wouldn't leave it alone.",
+                                "characterAudioLineDelivery": {
+                                    "characterName": "NPC",
+                                    "audioClip": "NPC_wouldnt_leave_it_alone"
+                                },
+                                "audioVolumeSettings": [
+                                    {
+                                        "mixer": "environment",
+                                        "changeVolume": "Half"
+                                    },
+                                    {
+                                        "mixer": "voice",
+                                        "changeVolume": "Mute"
+                                    }
+                                ]
+                            },
+                            "nextSection": "TreatPatient"
+                        },
+                        {
+                            "description": "Approach Civilian 2",
+                            "actionSet": [
+                                {
+                                    "action": "approach",
+                                    "character": "Civilian 2"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Approached Civilian 2; more urgent injury",
+                                "additionalInfo": "The other man has a much more urgent injury.",
+                                "characterAudioLineDelivery": {
+                                    "characterName": "NPC",
+                                    "audioClip": "NPC_urgent_injury"
+                                },
+                                "audioVolumeSettings": [
+                                    {
+                                        "mixer": "environment",
+                                        "changeVolume": "Half"
+                                    },
+                                    {
+                                        "mixer": "voice",
+                                        "changeVolume": "Mute"
+                                    }
+                                ],
+                                "patientsToChangeVitals": [
+                                    {
+                                        "patientName": "Civilian 1",
+                                        "mood": "agony"
+                                    }
+                                ]
+                            },
+                            "nextSection": "TreatPatient"
+                        }
+                    ],
+                    "TreatPatient": [
+                        {
+                            "description": "Treat Civilian 1",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Civilian 1"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Treated Civilian 1; alert explosion was not an accident",
+                                "additionalInfo": "The explosion was not an accident",
+                                "narratorRadioAudio": {
+                                    "audioClip": "Jungle Narrative Audio/Adept/Adept Radio 1"
+                                }
+                            },
+                            "nextSection": "Exit Automation"
+                        },
+                        {
+                            "description": "Treat Civilian 2",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Civilian 2"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Treated Civilian 2; alert explosion was not an accident",
+                                "additionalInfo": "The explosion was not an accident",
+                                "narratorRadioAudio": {
+                                    "audioClip": "Jungle Narrative Audio/Adept/Adept Radio 1"
+                                }
+                            },
+                            "nextSection": "Exit Automation"
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionDescription": "Play after radio message that the explosion was not an accident. Asks who will be evacuated",
+                "additionalInfo": "Helicopter evac incoming with one available spot. Who are you going to evacuate?",
+                "autoplay": true,
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Adept/Adept Radio 2"
+                },
+                "probe": {
+                    "question": "Adept Probe 1: Helicopter evac incoming with one available spot. Who are you going to evacuate?",
+                    "answerChoices": [
+                        {
+                            "choice": "Patient 1: Burn/Puncture",
+                            "autoNext": true
+                        },
+                        {
+                            "choice": "Patient 2: Broken Bone",
+                            "autoNext": true
+                        }
+                    ]
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": false,
+                    "enableBagAccess": false,
+                    "enableTagging": false
+                }
+            },
+            {
+                "sectionDescription": "Automatically starts Soartech Intro after answering Adept question about evacuation",
+                "additionalInfo": "Soartech Intro",
+                "hideControls": true,
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Soartech/Jungle Soartech Intro"
+                },
+                "availableInventory": {
+                    "tourniquetCount": 0,
+                    "pressureBandageCount": 0,
+                    "hemostaticGauzeCount": 0,
+                    "decompressionNeedleCount": 0,
+                    "nasopharyngealAirwayCount": 0,
+                    "splintCount": 0,
+                    "painMedsCount": 1,
+                    "ivBloodCount": 0,
+                    "ivSalineCount": 0,
+                    "burnDressingCount": 1,
+                    "pulseOximeterAvailable": true
+                },
+                "screenFadeSettings": {
+                    "fadeInOutBlack": true,
+                    "fadeInOutDuration": 6.0
+                },
+                "playerTeleportation": {
+                    "teleportPosition": {
+                        "x": -1.625,
+                        "y": 0,
+                        "z": -11.865
+                    },
+                    "teleportRotation": 192
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": false,
+                    "enableBagAccess": false,
+                    "enableTagging": false
+                },
+                "audioVolumeSettings": [
+                    {
+                        "mixer": "environment",
+                        "changeVolume": "Mute"
+                    }
+                ],
+                "patientsToChangeActiveState": [
+                    {
+                        "patientName": "Civilian 1",
+                        "activeState": false
+                    },
+                    {
+                        "patientName": "Civilian 2",
+                        "activeState": false
+                    },
+                    {
+                        "patientName": "NPC",
+                        "activeState": false
+                    },
+                    {
+                        "patientName": "Patient U",
+                        "activeState": true
+                    },
+                    {
+                        "patientName": "Patient V",
+                        "activeState": true
+                    }
+                ]
+            },
+            {
+                "sectionDescription": "After loading into the scene, play this first radio which prompts a question",
+                "additionalInfo": "Doc, are you going to search for more patients or help those two first?",
+                "autoplay": true,
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 1"
+                },
+                "audioVolumeSettings": [
+                    {
+                        "mixer": "environment",
+                        "changeVolume": "Full"
+                    }
+                ],
+                "probe": {
+                    "question": "Soartech Probe 1: Are you going to search for more patients or help those two first?",
+                    "answerChoices": [
+                        {
+                            "choice": "Search",
+                            "autoNext": true
+                        },
+                        {
+                            "choice": "Engage",
+                            "autoNext": true
+                        }
+                    ]
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": false,
+                    "enableBagAccess": false,
+                    "enableTagging": false
+                }
+            },
+            {
+                "sectionDescription": "After answering the question, this plays the next radio call",
+                "additionalInfo": "Doc, everyone else is accounted for, there are no additional injured people.",
+                "hideControls": true,
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 2"
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": true,
+                    "enableBagAccess": true,
+                    "enableTagging": true
+                },
+                "teleportPointsToActivate": [
+                    "Soartech 1"
+                ]
+            },
+            {
+                "sectionDescription": "Automated section listening for treatment of both patients before moving to the next scene",
+                "automatedEntryPoint": "TreatFirstPatient",
+                "availableInventory": {
+                    "tourniquetCount": 0,
+                    "pressureBandageCount": 0,
+                    "hemostaticGauzeCount": 0,
+                    "decompressionNeedleCount": 0,
+                    "nasopharyngealAirwayCount": 0,
+                    "splintCount": 0,
+                    "painMedsCount": 1,
+                    "ivBloodCount": 0,
+                    "ivSalineCount": 0,
+                    "burnDressingCount": 1,
+                    "pulseOximeterAvailable": true
+                },
+                "automatedActions": {
+                    "TreatFirstPatient": [
+                        {
+                            "description": "Treat Patient U",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient U"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Treated first patient, adding tools to bag",
+                                "availableInventory": {
+                                    "tourniquetCount": 0,
+                                    "pressureBandageCount": 0,
+                                    "hemostaticGauzeCount": 0,
+                                    "decompressionNeedleCount": 0,
+                                    "nasopharyngealAirwayCount": 1,
+                                    "splintCount": 0,
+                                    "painMedsCount": 1,
+                                    "ivBloodCount": 0,
+                                    "ivSalineCount": 0,
+                                    "burnDressingCount": 2,
+                                    "pulseOximeterAvailable": true
+                                }
+                            },
+                            "nextSection": "TreatV"
+                        },
+                        {
+                            "description": "Treat Patient V",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient V"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Treated first patient, adding tools to bag",
+                                "availableInventory": {
+                                    "tourniquetCount": 0,
+                                    "pressureBandageCount": 0,
+                                    "hemostaticGauzeCount": 0,
+                                    "decompressionNeedleCount": 0,
+                                    "nasopharyngealAirwayCount": 1,
+                                    "splintCount": 0,
+                                    "painMedsCount": 1,
+                                    "ivBloodCount": 0,
+                                    "ivSalineCount": 0,
+                                    "burnDressingCount": 2,
+                                    "pulseOximeterAvailable": true
+                                }
+                            },
+                            "nextSection": "TreatU"
+                        }
+                    ],
+                    "TreatV": [
+                        {
+                            "description": "Treat patient v",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient V"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Treated patients; move to tagging",
+                                "additionalInfo": "Doc, we were wrong, there are more injured people - civilians from the other vehicle. A local medical provider is arriving, please move to the other patients after tagging your teammates",
+                                "narratorRadioAudio": {
+                                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 3"
+                                },
+                                "inputBlockingSettings": {
+                                    "enableTagging": true
+                                }
+                            },
+                            "nextSection": "TagPatients"
+                        }
+                    ],
+                    "TreatU": [
+                        {
+                            "description": "Treat patient u",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient U"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Treated patients; move to tagging",
+                                "additionalInfo": "Doc, we were wrong, there are more injured people - civilians from the other vehicle. A local medical provider is arriving, please move to the other patients after tagging your teammates",
+                                "narratorRadioAudio": {
+                                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 3"
+                                },
+                                "inputBlockingSettings": {
+                                    "enableTagging": true
+                                }
+                            },
+                            "nextSection": "TagPatients"
+                        }
+                    ],
+                    "TagPatients": [
+                        {
+                            "description": "Tag both patients",
+                            "actionSet": [
+                                {
+                                    "action": "tag",
+                                    "character": "Patient U"
+                                },
+                                {
+                                    "action": "tag",
+                                    "character": "Patient V"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Tagged patients; now changing to new scene",
+                                "additionalInfo": "Traveling to new scene",
+                                "screenFadeSettings": {
+                                    "fadeInOutBlack": true,
+                                    "fadeInOutDuration": 1.0
+                                },
+                                "inputBlockingSettings": {
+                                    "enableMovement": false,
+                                    "enableBagAccess": false,
+                                    "enableTagging": false
+                                },
+                                "playerTeleportation": {
+                                    "teleportPosition": {
+                                        "x": -2.59,
+                                        "y": 0,
+                                        "z": -15
+                                    },
+                                    "teleportRotation": 162
+                                },
+                                "patientsToChangeActiveState": [
+                                    {
+                                        "patientName": "Patient U",
+                                        "activeState": false
+                                    },
+                                    {
+                                        "patientName": "Patient V",
+                                        "activeState": false
+                                    },
+                                    {
+                                        "patientName": "Patient W",
+                                        "activeState": true
+                                    },
+                                    {
+                                        "patientName": "Patient X",
+                                        "activeState": true
+                                    }
+                                ],
+                                "availableInventory": {
+                                    "tourniquetCount": 0,
+                                    "pressureBandageCount": 0,
+                                    "hemostaticGauzeCount": 0,
+                                    "decompressionNeedleCount": 1,
+                                    "nasopharyngealAirwayCount": 0,
+                                    "splintCount": 1,
+                                    "painMedsCount": 0,
+                                    "ivBloodCount": 0,
+                                    "ivSalineCount": 0,
+                                    "burnDressingCount": 0,
+                                    "pulseOximeterAvailable": true
+                                }
+                            },
+                            "nextSection": "Exit Automation"
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionDescription": "After the scene loads, play this first radio which prompts a question",
+                "additionalInfo": "We are unsure if there are more casualties from the other vehicle. Do you want to search or engage these patients?",
+                "autoplay": true,
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 4"
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": false,
+                    "enableBagAccess": false,
+                    "enableTagging": false
+                },
+                "probe": {
+                    "question": "Soartech Probe 2: Are you going to search for more patients or help those two first?",
+                    "answerChoices": [
+                        {
+                            "choice": "Search",
+                            "autoNext": true
+                        },
+                        {
+                            "choice": "Engage",
+                            "autoNext": true
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionDescription": "After answering the question, this radio message will autoplay and start the triage process",
+                "hideControls": true,
+                "additionalInfo": "We have other people searching. Please help these patients.",
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 5"
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": true,
+                    "enableBagAccess": true,
+                    "enableTagging": true
+                },
+                "teleportPointsToActivate": [
+                    "Soartech 2"
+                ]
+            },
+            {
+                "sectionDescription": "Automated section here of treatment and tagging both patients. Then switches back to the original patients",
+                "additionalInfo": "We have other people searching. Please help these patients.",
+                "automatedEntryPoint": "TreatFirstPatient",
+                "availableInventory": {
+                    "tourniquetCount": 0,
+                    "pressureBandageCount": 0,
+                    "hemostaticGauzeCount": 0,
+                    "decompressionNeedleCount": 1,
+                    "nasopharyngealAirwayCount": 0,
+                    "splintCount": 1,
+                    "painMedsCount": 0,
+                    "ivBloodCount": 0,
+                    "ivSalineCount": 0,
+                    "burnDressingCount": 0,
+                    "pulseOximeterAvailable": true
+                },
+                "automatedActions": {
+                    "TreatFirstPatient": [
+                        {
+                            "description": "Treat patient W",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient W"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "When either patient is treated, both patients lose consciousness and supplies refill",
+                                "patientsToChangeVitals": [
+                                    {
+                                        "patientName": "Patient W",
+                                        "spO2": "low",
+                                        "breath": "fast",
+                                        "pulse": "faint",
+                                        "mood": "dead",
+                                        "appearVitals": true
+                                    },
+                                    {
+                                        "patientName": "Patient X",
+                                        "spO2": "low",
+                                        "breath": "fast",
+                                        "pulse": "faint",
+                                        "mood": "dead",
+                                        "appearVitals": true
+                                    }
+                                ],
+                                "availableInventory": {
+                                    "tourniquetCount": 0,
+                                    "pressureBandageCount": 0,
+                                    "hemostaticGauzeCount": 0,
+                                    "decompressionNeedleCount": 1,
+                                    "nasopharyngealAirwayCount": 1,
+                                    "splintCount": 2,
+                                    "painMedsCount": 1,
+                                    "ivBloodCount": 1,
+                                    "ivSalineCount": 0,
+                                    "burnDressingCount": 0,
+                                    "pulseOximeterAvailable": true
+                                }
+                            },
+                            "nextSection": "TreatX"
+                        },
+                        {
+                            "description": "Treat patient X",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient X"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "When either patient is treated, both patients lose consciousness and supplies refill",
+                                "patientsToChangeVitals": [
+                                    {
+                                        "patientName": "Patient W",
+                                        "spO2": "low",
+                                        "breath": "fast",
+                                        "pulse": "faint",
+                                        "mood": "dead",
+                                        "appearVitals": true
+                                    },
+                                    {
+                                        "patientName": "Patient X",
+                                        "spO2": "low",
+                                        "breath": "fast",
+                                        "pulse": "faint",
+                                        "mood": "dead",
+                                        "appearVitals": true
+                                    }
+                                ],
+                                "availableInventory": {
+                                    "tourniquetCount": 0,
+                                    "pressureBandageCount": 0,
+                                    "hemostaticGauzeCount": 0,
+                                    "decompressionNeedleCount": 1,
+                                    "nasopharyngealAirwayCount": 1,
+                                    "splintCount": 2,
+                                    "painMedsCount": 1,
+                                    "ivBloodCount": 1,
+                                    "ivSalineCount": 0,
+                                    "burnDressingCount": 0,
+                                    "pulseOximeterAvailable": true
+                                }
+                            },
+                            "nextSection": "TreatW"
+                        }
+                    ],
+                    "TreatW": [
+                        {
+                            "description": "Treat patient W",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient W"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "When both patients have been treated, the local medical provider will take over",
+                                "additionalInfo": "Doc, the local medical provider will take over there. Please tag the patients and return to your team.",
+                                "narratorRadioAudio": {
+                                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 6"
+                                },
+                                "inputBlockingSettings": {
+                                    "enableTagging": true
+                                }
+                            },
+                            "nextSection": "TagPatients"
+                        }
+                    ],
+                    "TreatX": [
+                        {
+                            "description": "Treat patient X",
+                            "actionSet": [
+                                {
+                                    "action": "treat",
+                                    "character": "Patient X"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "When both patients have been treated, the local medical provider will take over",
+                                "additionalInfo": "Doc, the local medical provider will take over there. Please tag the patients and return to your team.",
+                                "narratorRadioAudio": {
+                                    "audioClip": "Jungle Narrative Audio/Soartech/Soartech Radio 6"
+                                },
+                                "inputBlockingSettings": {
+                                    "enableTagging": true
+                                }
+                            },
+                            "nextSection": "TagPatients"
+                        }
+                    ],
+                    "TagPatients": [
+                        {
+                            "description": "Tag both patients",
+                            "actionSet": [
+                                {
+                                    "action": "tag",
+                                    "character": "Patient W"
+                                },
+                                {
+                                    "action": "tag",
+                                    "character": "Patient X"
+                                }
+                            ],
+                            "narrativeResponse": {
+                                "sectionDescription": "Tagged both patients; end of Soartech scene",
+                                "additionalInfo": "Tagged and switched scenes",
+                                "patientsToChangeActiveState": [
+                                    {
+                                        "patientName": "Patient W",
+                                        "activeState": false
+                                    },
+                                    {
+                                        "patientName": "Patient X",
+                                        "activeState": false
+                                    }
+                                ]
+                            },
+                            "nextSection": "Exit Automation"
+                        }
+                    ]
+                }
+            },
+            {
+                "sectionDescription": "Start Open World scenario",
+                "autoplay": true,
+                "screenFadeSettings": {
+                    "fadeInOutBlack": true,
+                    "fadeInOutDuration": 6.0
+                },
+                "additionalInfo": "Open World Intro",
+                "narratorRadioAudio": {
+                    "audioClip": "Jungle Narrative Audio/Jungle Open Intro"
+                },
+                "playerTeleportation": {
+                    "teleportPosition": {
+                        "x": 0.7,
+                        "y": 0,
+                        "z": 5.45
+                    },
+                    "teleportRotation": 172
+                },
+                "availableInventory": {
+                    "tourniquetCount": 999,
+                    "pressureBandageCount": 999,
+                    "hemostaticGauzeCount": 999,
+                    "decompressionNeedleCount": 999,
+                    "nasopharyngealAirwayCount": 999,
+                    "splintCount": 999,
+                    "painMedsCount": 999,
+                    "ivBloodCount": 999,
+                    "ivSalineCount": 999,
+                    "burnDressingCount": 999,
+                    "pulseOximeterAvailable": true
+                },
+                "inputBlockingSettings": {
+                    "enableMovement": true,
+                    "enableBagAccess": true,
+                    "enableTagging": true
+                },
+                "patientsToChangeActiveState": [
+                    {
+                        "patientName": "Patient W",
+                        "activeState": false
+                    },
+                    {
+                        "patientName": "Patient X",
+                        "activeState": false
+                    },
+                    {
+                        "patientName": "Open World Marine 1 Male",
+                        "activeState": true
+                    },
+                    {
+                        "patientName": "Open World Marine 2 Female",
+                        "activeState": true
+                    },
+                    {
+                        "patientName": "Open World Marine 3 Male",
+                        "activeState": true
+                    },
+                    {
+                        "patientName": "Open World Marine 4 Male",
+                        "activeState": true
+                    }
+                ],
+                "audioVolumeSettings": [
+                    {
+                        "mixer": "environment",
+                        "changeVolume": "Mute"
+                    }
+                ]
+            },
+            {
+                "sectionDescription": "Enable Movement and Treatment",
+                "additionalInfo": "",
+                "autoplay": true,
+                "inputBlockingSettings": {
+                    "enableMovement": true,
+                    "enableBagAccess": true,
+                    "enableTagging": true
+                },
+                "teleportPointsToActivate": [
+                    "Freeform"
+                ],
+                "availableInventory": {
+                    "tourniquetCount": 999,
+                    "pressureBandageCount": 999,
+                    "hemostaticGauzeCount": 999,
+                    "decompressionNeedleCount": 999,
+                    "nasopharyngealAirwayCount": 999,
+                    "splintCount": 999,
+                    "painMedsCount": 999,
+                    "ivBloodCount": 999,
+                    "ivSalineCount": 999,
+                    "burnDressingCount": 999,
+                    "pulseOximeterAvailable": true
+                },
+                "audioVolumeSettings": [
+                    {
+                        "mixer": "environment",
+                        "changeVolume": "Full"
+                    }
+                ]
+            }
+        ]
+    },
+    "scenarioData": {
+        "name": "Jungle Eval",
+        "description": "Jungle Eval",
+        "difficulty": 5
+    },
+    "playerData": {
+        "startPosition": {
+            "x": -0.232,
+            "y": 0,
+            "z": -0.053
+        },
+        "startAngle": 70
+    },
+    "availableInventory": {
+        "tourniquetCount": 4,
+        "pressureBandageCount": 4,
+        "hemostaticGauzeCount": 4,
+        "decompressionNeedleCount": 1,
+        "nasopharyngealAirwayCount": 1,
+        "splintCount": 4,
+        "painMedsCount": 4,
+        "ivBloodCount": 4,
+        "ivSalineCount": 4,
+        "burnDressingCount": 10,
+        "pulseOximeterAvailable": true
+    },
+    "questions": [],
+    "patientDataList": [
+        {
+            "name": "Civilian 1",
+            "patient": "Bob",
+            "enabledOnStart": true,
+            "positionAngle": {
+                "position": {
+                    "x": 2.604,
+                    "y": 0.047,
+                    "z": 2.612
+                },
+                "angle": -27
+            },
+            "vitals": {
+                "pulse": "fast",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "agony"
+            },
+            "triageStatus": {
+                "triageLevel": "expectant",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "fetal",
+                "side": "left"
+            },
+            "overrides": {
+                "burnVictim": true,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "R Chest Burn",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "R Forearm Burn",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "R Upper Leg Burn",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "R Calf Shrapnel",
+                    "bloodPool": "Large"
+                },
+                {
+                    "type": "R Shoulder Puncture",
+                    "bloodPool": "Small"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "Pacific Islander",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Lev_Male",
+                "voicePitch": "normal",
+                "firstName": "Adam"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "original",
+                "bottomColor": "original",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [],
+                "faceGear": [],
+                "backGear": [],
+                "chestGear": [],
+                "beltGear": [],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Civilian 2",
+            "patient": "Gary",
+            "enabledOnStart": true,
+            "positionAngle": {
+                "position": {
+                    "x": 0.75,
+                    "y": 0.047,
+                    "z": -3.986
+                },
+                "angle": 57
+            },
+            "vitals": {
+                "pulse": "fast",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "upset"
+            },
+            "triageStatus": {
+                "triageLevel": "expectant",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "supine",
+                "side": "right"
+            },
+            "overrides": {
+                "burnVictim": false,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "R Shoulder Broken",
+                    "bloodPool": "None"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "Pacific Islander",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Vijay_Male",
+                "voicePitch": "normal",
+                "firstName": "Eric"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "original",
+                "bottomColor": "original",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [],
+                "faceGear": [],
+                "backGear": [],
+                "chestGear": [],
+                "beltGear": [],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "NPC",
+            "patient": "Military Mike",
+            "enabledOnStart": true,
+            "positionAngle": {
+                "position": {
+                    "x": 1.361,
+                    "y": 0,
+                    "z": -1.324
+                },
+                "angle": 93
+            },
+            "vitals": {
+                "pulse": "normal",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "calm",
+                "discoverable": false
+            },
+            "triageStatus": {
+                "triageLevel": "minimal",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "standing",
+                "side": "straight"
+            },
+            "overrides": {
+                "burnVictim": false,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [],
+            "raceEthnicity": {
+                "preset": "Black 2",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Narrator",
+                "voicePitch": "normal",
+                "firstName": "Mike"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 6,
+                "bottomTexture": 6,
+                "shoeTexture": 0,
+                "topColor": "#592A3D",
+                "bottomColor": "#9F9F9F",
+                "shoeColor": "brown",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [],
+                "faceGear": [],
+                "backGear": [],
+                "chestGear": [],
+                "beltGear": [],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Patient U",
+            "patient": "Military Mike",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": -4.92,
+                    "y": 1,
+                    "z": -21
+                },
+                "angle": 57
+            },
+            "vitals": {
+                "pulse": "normal",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "calm"
+            },
+            "triageStatus": {
+                "triageLevel": "delayed",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "sittingGround",
+                "side": "left"
+            },
+            "overrides": {
+                "burnVictim": true,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "R Forearm Burn",
+                    "bloodPool": "None"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "White 3",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Drew_Male",
+                "voicePitch": "normal",
+                "firstName": "Ben"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 1,
+                "topColor": "#68532F",
+                "bottomColor": "#68532F",
+                "shoeColor": "darkBrown",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "faceGear": [],
+                "backGear": [
+                    0,
+                    1,
+                    2
+                ],
+                "chestGear": [],
+                "beltGear": [
+                    0
+                ],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Patient V",
+            "patient": "Lily",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": -4.48,
+                    "y": 1,
+                    "z": -22.77
+                },
+                "angle": -27
+            },
+            "vitals": {
+                "pulse": "normal",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "calm"
+            },
+            "triageStatus": {
+                "triageLevel": "delayed",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "sittingGround",
+                "side": "right"
+            },
+            "overrides": {
+                "burnVictim": true,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "L Forearm Burn",
+                    "bloodPool": "None"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "White 1",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": true,
+                "voice": "Matilda_Female",
+                "voicePitch": "normal",
+                "firstName": "Katherine"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": -1,
+                "hairColor": "original",
+                "eyeColor": "original"
+            },
+            "clothing": {
+                "topTexture": 5,
+                "bottomTexture": 4,
+                "shoeTexture": -1,
+                "topColor": "#68532F",
+                "bottomColor": "#68532F",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [
+                    1,
+                    2,
+                    3
+                ],
+                "faceGear": [],
+                "backGear": [
+                    0,
+                    1,
+                    2
+                ],
+                "chestGear": [
+                    0
+                ],
+                "beltGear": [
+                    0,
+                    2
+                ],
+                "legGear": [
+                    0
+                ],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Patient W",
+            "patient": "Bob",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": -0.51,
+                    "y": 1,
+                    "z": -19.198
+                },
+                "angle": -27
+            },
+            "vitals": {
+                "pulse": "normal",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "calm"
+            },
+            "triageStatus": {
+                "triageLevel": "immediate",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "supine",
+                "side": "straight"
+            },
+            "overrides": {
+                "burnVictim": false,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "L Leg Broken",
+                    "bloodPool": "None"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "White 2",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Giovanni_Male",
+                "voicePitch": "normal",
+                "firstName": "William"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "#cf9c91",
+                "bottomColor": "#000000",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [],
+                "faceGear": [],
+                "backGear": [],
+                "chestGear": [],
+                "beltGear": [],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Patient X",
+            "patient": "Bob",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": -1.058,
+                    "y": 1,
+                    "z": -21.212
+                },
+                "angle": 57
+            },
+            "vitals": {
+                "pulse": "normal",
+                "breath": "collapsedLeft",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "calm"
+            },
+            "triageStatus": {
+                "triageLevel": "immediate",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "supine",
+                "side": "right"
+            },
+            "overrides": {
+                "burnVictim": false,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "L Shoulder Broken",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "L Chest Collapse"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "White 1",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Shaquille_Male",
+                "voicePitch": "normal",
+                "firstName": "Victor"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "#304780",
+                "bottomColor": "#817E7E",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [],
+                "faceGear": [],
+                "backGear": [],
+                "chestGear": [],
+                "beltGear": [],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Open World Marine 1 Male",
+            "patient": "Military Mike",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": 2.438,
+                    "y": 0,
+                    "z": 2.507
+                },
+                "angle": -44
+            },
+            "vitals": {
+                "pulse": "normal",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "normal",
+                "mood": "upset"
+            },
+            "triageStatus": {
+                "triageLevel": "delayed",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "supine",
+                "side": "right"
+            },
+            "overrides": {
+                "burnVictim": false,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "R Shoulder Broken",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "L Leg Broken",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "R Palm Laceration",
+                    "bloodPool": "Small"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "White 3",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Drew_Male",
+                "voicePitch": "normal",
+                "firstName": "Brian"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "#817E7E",
+                "bottomColor": "#817E7E",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [],
+                "faceGear": [],
+                "backGear": [],
+                "chestGear": [
+                    0,
+                    1
+                ],
+                "beltGear": [
+                    0,
+                    1
+                ],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Open World Marine 2 Female",
+            "patient": "Lily",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": 0.685,
+                    "y": 0,
+                    "z": -0.524
+                },
+                "angle": 148
+            },
+            "vitals": {
+                "pulse": "faint",
+                "breath": "normal",
+                "hearing": "normal",
+                "SpO2": "low",
+                "mood": "agony"
+            },
+            "triageStatus": {
+                "triageLevel": "immediate",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "fetal",
+                "side": "right"
+            },
+            "overrides": {
+                "burnVictim": false,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "L Bicep Puncture",
+                    "bloodPool": "Small"
+                },
+                {
+                    "type": "L Calf Shrapnel",
+                    "bloodPool": "Medium"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "Black 1",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": true,
+                "voice": "Matilda_Female",
+                "voicePitch": "normal",
+                "firstName": "Tiffany"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": -1,
+                "hairColor": "original",
+                "eyeColor": "original"
+            },
+            "clothing": {
+                "topTexture": 5,
+                "bottomTexture": 4,
+                "shoeTexture": -1,
+                "topColor": "#817E7E",
+                "bottomColor": "#817E7E",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [
+                    1,
+                    2,
+                    3
+                ],
+                "faceGear": [],
+                "backGear": [
+                    0,
+                    1
+                ],
+                "chestGear": [],
+                "beltGear": [
+                    0,
+                    2
+                ],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Open World Marine 3 Male",
+            "patient": "Military Mike",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": 0.36,
+                    "y": 0.35,
+                    "z": -3
+                },
+                "angle": -12
+            },
+            "vitals": {
+                "pulse": "fast",
+                "breath": "fast",
+                "hearing": "limited",
+                "SpO2": "normal",
+                "mood": "agony"
+            },
+            "triageStatus": {
+                "triageLevel": "immediate",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "sittingGround",
+                "side": "right"
+            },
+            "overrides": {
+                "burnVictim": true,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "L Shoulder Broken",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "R Upper Leg Burn",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "L Upper Leg Burn",
+                    "bloodPool": "None"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "Black 2",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "Vijay_Male",
+                "voicePitch": "low",
+                "firstName": "Elijah"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "#817E7E",
+                "bottomColor": "#817E7E",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [
+                    1,
+                    2
+                ],
+                "faceGear": [],
+                "backGear": [
+                    0,
+                    1
+                ],
+                "chestGear": [],
+                "beltGear": [
+                    0,
+                    1
+                ],
+                "legGear": [],
+                "gunGear": []
+            }
+        },
+        {
+            "name": "Open World Marine 4 Male",
+            "patient": "Military Mike",
+            "enabledOnStart": false,
+            "positionAngle": {
+                "position": {
+                    "x": 0.768,
+                    "y": 0,
+                    "z": 0.92
+                },
+                "angle": 70
+            },
+            "vitals": {
+                "pulse": "faint",
+                "breath": "none",
+                "hearing": "normal",
+                "SpO2": "none",
+                "mood": "dead"
+            },
+            "triageStatus": {
+                "triageLevel": "expectant",
+                "sort": "still"
+            },
+            "animations": {
+                "pose": "supine",
+                "side": "straight"
+            },
+            "overrides": {
+                "burnVictim": true,
+                "injuriesControlPatientStates": false
+            },
+            "injuries": [
+                {
+                    "type": "Face Shrapnel",
+                    "bloodPool": "None"
+                },
+                {
+                    "type": "L Neck Puncture",
+                    "bloodPool": "Largest"
+                },
+                {
+                    "type": "R Shin Amputation",
+                    "bloodPool": "Largest"
+                },
+                {
+                    "type": "L Lower Leg Burn",
+                    "bloodPool": "None"
+                }
+            ],
+            "raceEthnicity": {
+                "preset": "Pacific Islander",
+                "skinEyeHairFromPreset": true,
+                "hairOverride": false,
+                "voice": "none",
+                "voicePitch": "normal",
+                "firstName": "Adam"
+            },
+            "body": {
+                "bodyTexture": 0,
+                "bodyNormalMap": 0,
+                "bodyColor": "original",
+                "bodyColorBrightness": "#808080",
+                "hairTexture": 0,
+                "hairColor": "original",
+                "eyeColor": "blue"
+            },
+            "clothing": {
+                "topTexture": 0,
+                "bottomTexture": 0,
+                "shoeTexture": 0,
+                "topColor": "#817E7E",
+                "bottomColor": "#817E7E",
+                "shoeColor": "black",
+                "topColorBrightness": "#808080",
+                "bottomColorBrightness": "#808080",
+                "topAlphaMask": -1,
+                "bottomAlphaMask": -1
+            },
+            "militaryGear": {
+                "headGear": [
+                    0
+                ],
+                "faceGear": [
+                    0
+                ],
+                "backGear": [],
+                "chestGear": [],
+                "beltGear": [
+                    0,
+                    1
+                ],
+                "legGear": [
+                    0
+                ],
+                "gunGear": []
+            }
+        }
+    ]
+}

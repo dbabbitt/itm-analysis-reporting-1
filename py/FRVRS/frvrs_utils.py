@@ -465,6 +465,19 @@ class FRVRSUtilities(object):
         # self.submarine_patients_list += [c + ' Root' for c in self.submarine_patients_list]
         self.urban_patients_list = ['Marine 1 Male', 'Marine 2 Male', 'Marine 3 Male', 'Marine 4 Male', 'Civilian 1 Female']
         # self.urban_patients_list += [c + ' Root' for c in self.urban_patients_list]
+        
+        # TA1 patients as of 1:02 PM 5/21/2024
+        self.ta1_patients_list = [
+            'US Soldier 1', 'Local Soldier 1', 'NPC 1', 'NPC 2', 'NPC 3', 'NPC 4', 'Patient U', 'Patient V', 'Patient W', 'Patient X',
+            'Civilian 1', 'Civilian 2', 'NPC', 'patient U', 'patient V', 'patient W', 'patient X', 'electrician', 'bystander',
+            'Adept Shooter', 'Adept Victim'
+        ]
+        
+        # Scenario initial teleport locations as of 1:29 PM 5/21/2024
+        self.submarine_initial_teleport_location = (0.02, 0, -13.5)
+        self.urban_initial_teleport_location = (13.126, 0, 21.61)
+        self.jungle_initial_teleport_location = (0.7, 0, 5.45)
+        self.desert_initial_teleport_location = (8.131, 0, -28.682)
     
     ### String Functions ###
     
@@ -4794,3 +4807,23 @@ class FRVRSUtilities(object):
             display(merge_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
         
         return merge_df, prioritize_columns
+    
+    
+    @staticmethod
+    def get_action_tick_by_encounter_layout(session_df, encounter_layout=None):
+        if encounter_layout is None:
+            assert 'encounter_layout' in session_df.columns, "You need to supply an encounter_layout column in session_df or as a parameter"
+            mask_series = ~session_df.encounter_layout.isnull()
+            encounter_layout = session_df[mask_series].encounter_layout.value_counts().head(1).index.item()
+        base_point = eval('fu.' + encounter_layout.lower() + '_initial_teleport_location')
+        needed_set = set(['action_type', 'location_id', 'action_tick'])
+        all_set = set(session_df.columns)
+        assert needed_set.issubset(all_set), f"You're missing {needed_set.difference(all_set)} from session_df"
+        mask_series = (session_df.action_type == 'TELEPORT') & ~session_df.location_id.isnull()
+        neighbors_list = [eval(location_id) for location_id in session_df[mask_series].location_id.unique()]
+        nearest_neighbor = nu.get_nearest_neighbor(base_point, neighbors_list)
+        euclidean_distance = nu.get_euclidean_distance(base_point, nearest_neighbor)
+        mask_series = session_df.location_id.isin([str(nearest_neighbor)])
+        action_tick = session_df[mask_series].action_tick.min()
+        
+        return action_tick, euclidean_distance
