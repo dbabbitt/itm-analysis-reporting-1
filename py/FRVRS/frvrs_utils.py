@@ -451,7 +451,21 @@ class FRVRSUtilities(object):
                 'player_gaze_direction_of_gaze': 7,
             },
         }
-
+        
+        # The patients lists from the March 25th ITM BBAI Exploratory analysis email
+        self.desert_patients_list = [
+            'Open World Marine 1 Female', 'Open World Marine 2 Male', 'Open World Civilian 1 Male', 'Open World Civilian 2 Female'
+        ]
+        # self.desert_patients_list += [c + ' Root' for c in self.desert_patients_list]
+        self.jungle_patients_list = [
+            'Open World Marine 1 Male', 'Open World Marine 2 Female', 'Open World Marine 3 Male', 'Open World Marine 4 Male'
+        ]
+        # self.jungle_patients_list += [c + ' Root' for c in self.jungle_patients_list]
+        self.submarine_patients_list = ['Navy Soldier 1 Male', 'Navy Soldier 2 Male', 'Navy Soldier 3 Male', 'Navy Soldier 4 Female']
+        # self.submarine_patients_list += [c + ' Root' for c in self.submarine_patients_list]
+        self.urban_patients_list = ['Marine 1 Male', 'Marine 2 Male', 'Marine 3 Male', 'Marine 4 Male', 'Civilian 1 Female']
+        # self.urban_patients_list += [c + ' Root' for c in self.urban_patients_list]
+    
     ### String Functions ###
     
     
@@ -4527,12 +4541,6 @@ class FRVRSUtilities(object):
             print(csv_stats_df.shape)
         
         new_column_name = 'encounter_layout'
-        
-        # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
-        desert_patients_list = ['Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root']
-        jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root']
-        submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
-        urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
         
         # Loop through each session and scene in the CSV stats dataset
         for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(self.scene_groupby_columns):

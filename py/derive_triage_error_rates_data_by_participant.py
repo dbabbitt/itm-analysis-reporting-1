@@ -818,6 +818,20 @@ class FRVRSUtilities(object):
                 'player_gaze_direction_of_gaze': 7,
             },
         }
+        
+        # The patients lists from the March 25th ITM BBAI Exploratory analysis email
+        self.desert_patients_list = [
+            'Open World Marine 1 Female', 'Open World Marine 2 Male', 'Open World Civilian 1 Male', 'Open World Civilian 2 Female'
+        ]
+        self.desert_patients_list += [c + ' Root' for c in self.desert_patients_list]
+        self.jungle_patients_list = [
+            'Open World Marine 1 Male', 'Open World Marine 2 Female', 'Open World Marine 3 Male', 'Open World Marine 4 Male'
+        ]
+        self.jungle_patients_list += [c + ' Root' for c in self.jungle_patients_list]
+        self.submarine_patients_list = ['Navy Soldier 1 Male', 'Navy Soldier 2 Male', 'Navy Soldier 3 Male', 'Navy Soldier 4 Female']
+        self.submarine_patients_list += [c + ' Root' for c in self.submarine_patients_list]
+        self.urban_patients_list = ['Marine 1 Male', 'Marine 2 Male', 'Marine 3 Male', 'Marine 4 Male', 'Civilian 1 Female']
+        self.urban_patients_list += [c + ' Root' for c in self.urban_patients_list]
 
     ### String Functions ###
     
@@ -2654,10 +2668,6 @@ class FRVRSUtilities(object):
         new_column_name = 'encounter_layout'
         
         # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
-        desert_patients_list = ['Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root']
-        jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root']
-        submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
-        urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
         
         # Loop through each session and scene in the CSV stats dataset
         for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(self.scene_groupby_columns):
@@ -2971,14 +2981,15 @@ for (session_uuid, scene_id), scene_df in csv_stats_df[mask_series].groupby(fu.s
     max_scene_id = csv_stats_df[mask_series].scene_id.max()
     assert max_scene_id == scene_id, "You've got junk scenes in strange places"
 
-# Remove the patients not in our lists
-desert_patients_list = ['Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root']
-jungle_patients_list = ['Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root']
-submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
-urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
-if IS_DEBUG:
-    mask_series = csv_stats_df.patient_record_patient_id.isin(desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list)
-    print(csv_stats_df.shape, mask_series.sum(), csv_stats_df[mask_series].shape)
+# Remove the Unity suffix from all patient_id columns
+# The one without "Root" is the ID that CACI sets for it. Unity
+# then takes the ID and adds "Root" to the end when it
+# creates the hierarchy, so there's less room for human
+# error. They're going to match perfectly.
+for cn in fu.patient_id_columns_list:
+    if cn in csv_stats_df.columns:
+        mask_series = ~csv_stats_df[cn].isnull()
+        csv_stats_df.loc[mask_series, cn] = csv_stats_df[mask_series][cn].map(lambda x: str(x).replace(' Root', ''))
 
 if IS_DEBUG: print("\nModalize separate columns into one")
 csv_stats_df = fu.add_modal_column('patient_id', csv_stats_df, is_categorical=False, verbose=IS_DEBUG)
@@ -2999,7 +3010,12 @@ csv_stats_df = fu.add_modal_column('tool_type', csv_stats_df, verbose=IS_DEBUG)
 csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'pulse_taken_pulse_name', verbose=IS_DEBUG)
 csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'tool_applied_data', verbose=IS_DEBUG)
 
-patients_set = set(desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list)
+# Remove the patients not in our lists
+if IS_DEBUG:
+    mask_series = csv_stats_df.patient_record_patient_id.isin(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
+    print(csv_stats_df.shape, mask_series.sum(), csv_stats_df[mask_series].shape)
+
+patients_set = set(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
 mask_series = ~csv_stats_df.patient_id.isnull()
 assert patients_set.issubset(set(csv_stats_df[mask_series].patient_id)), "Our patients lists are not in the CSVs"
 
@@ -3341,15 +3357,7 @@ merge_df = csv_stats_df.merge(scene_stats_df[columns_list], on=on_columns, how='
 tag_to_salt_df = fu.get_is_tag_correct_data_frame(merge_df, groupby_column='participant_id')
 
 # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
-desert_patients_list = [
-    'Open World Marine 1 Female Root', 'Open World Marine 2 Male Root', 'Open World Civilian 1 Male Root', 'Open World Civilian 2 Female Root'
-]
-jungle_patients_list = [
-    'Open World Marine 1 Male Root', 'Open World Marine 2 Female Root', 'Open World Marine 3 Male Root', 'Open World Marine 4 Male Root'
-]
-submarine_patients_list = ['Navy Soldier 1 Male Root', 'Navy Soldier 2 Male Root', 'Navy Soldier 3 Male Root', 'Navy Soldier 4 Female Root']
-urban_patients_list = ['Marine 1 Male Root', 'Marine 2 Male Root', 'Marine 3 Male Root', 'Marine 4 Male Root', 'Civilian 1 Female Root']
-patients_list = desert_patients_list + jungle_patients_list + submarine_patients_list + urban_patients_list
+patients_list = fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list
 assert set(patients_list).issubset(
     set(tag_to_salt_df.patient_id)
 ), f"tag_to_salt_df is missing these patients: {set(patients_list).difference(set(tag_to_salt_df.patient_id))}"
