@@ -62,7 +62,7 @@ saves/pkl/patient_history_df.pkl
 ipynb/Censor_Audio_Files.ipynb
 *secret*
 
-# Exclude PII-sensitive small-batch runs
+# Exclude time-sensitive small-batch runs
 **/*DD 405*
 **/*DD ITM 405*
 **/*First Responder Master Registry*
@@ -72,6 +72,19 @@ ipynb/Censor_Audio_Files.ipynb
 data/xlsx/FirstResponder_InjuryTriage_Categories*.xlsx
 data/xlsx/uuid_Master_with_Site_and_Learner_Type*.xlsx
 data/xlsx/~$*.xlsx
+saves/csv/*correlations_df.csv
+saves/csv/*description_df.csv
+saves/csv/*json_stats_df.csv
+saves/csv/*truncated_anova_df.csv
+saves/csv/*truncated_csv_stats_df.csv
+saves/csv/*truncated_scene_stats_df.csv
+saves/csv/metrics_evaluation_open_world_anova_df*.csv
+saves/csv/metrics_evaluation_open_world_csv_stats_df*.csv
+saves/csv/metrics_evaluation_open_world_scene_stats_df*.csv
+saves/csv/swaps_walk_wave_df*.csv
+saves/csv/truncated_anova*_df.csv
+saves/png/*correlation_matrix_of_18_analytic_and_kdma_columns.png
+saves/svg/*correlation_matrix_of_18_analytic_and_kdma_columns.svg
 
 # Exclude backups
 *.bak

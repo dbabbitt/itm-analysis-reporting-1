@@ -2535,30 +2535,27 @@ class FRVRSUtilities(object):
     
     def get_last_patient_interaction(self, patient_df, verbose=False):
         """
-        Get the action tick of the last patient interaction of specified types.
+        Get the action tick of the last patient interaction involving responder negotiations.
         
         Parameters:
             patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
             verbose (bool, optional): Whether to print debug information. Defaults to False.
         
         Returns:
-            int: The action tick of the last patient interaction action, or None if no such action exists.
+            int: The action tick of the last responder negotiation action, or numpy.nan if no such action exists.
         """
         
-        # Filter for actions involving patient interactions
-        mask_series = patient_df.action_type.isin(self.action_types_list)
+        # Filter for actions involving responder negotiations
+        mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
         
-        # Include VOICE_COMMAND actions with specific message types
-        mask_series |= ((patient_df.action_type == 'VOICE_COMMAND') & patient_df.voice_command_message.isin(self.command_messages_list))
-        
-        # If there are patient interaction actions, find the last action tick
+        # If there are responder negotiation actions, find the last action tick
         if mask_series.any(): engagement_end = patient_df[mask_series].action_tick.max()
-        else: engagement_end = None
+        else: engagement_end = nan
         
         # If verbose is True, print additional information
         if verbose:
             print(f'Action tick of the last patient interaction: {engagement_end}')
-            display(patient_df)
+            display(patient_df[mask_series].dropna(axis='columns', how='all').T)
         
         # Return the action tick of the last patient interaction or numpy.nan if no data is available
         return engagement_end
@@ -4809,21 +4806,38 @@ class FRVRSUtilities(object):
         return merge_df, prioritize_columns
     
     
-    @staticmethod
-    def get_action_tick_by_encounter_layout(session_df, encounter_layout=None):
+    def get_action_tick_by_encounter_layout(self, session_df, encounter_layout=None, verbose=False):
+        action_tick = nan
+        if verbose: print(f'action_tick = "{action_tick}"')
+        euclidean_distance = nan
+        if verbose: print(f'euclidean_distance = "{euclidean_distance}"')
         if encounter_layout is None:
             assert 'encounter_layout' in session_df.columns, "You need to supply an encounter_layout column in session_df or as a parameter"
             mask_series = ~session_df.encounter_layout.isnull()
-            encounter_layout = session_df[mask_series].encounter_layout.value_counts().head(1).index.item()
-        base_point = eval('fu.' + encounter_layout.lower() + '_initial_teleport_location')
+            if verbose: print(f'mask_series = "{mask_series}"')
+            if mask_series.any():
+                encounter_layout = session_df[mask_series].encounter_layout.value_counts().head(1).index.item()
+                if verbose: print(f'encounter_layout = "{encounter_layout}"')
+        base_point = eval('self.' + encounter_layout.lower() + '_initial_teleport_location')
+        if verbose: print(f'base_point = "{base_point}"')
         needed_set = set(['action_type', 'location_id', 'action_tick'])
+        if verbose: print(f'needed_set = "{needed_set}"')
         all_set = set(session_df.columns)
+        if verbose: print(f'all_set = "{all_set}"')
         assert needed_set.issubset(all_set), f"You're missing {needed_set.difference(all_set)} from session_df"
         mask_series = (session_df.action_type == 'TELEPORT') & ~session_df.location_id.isnull()
-        neighbors_list = [eval(location_id) for location_id in session_df[mask_series].location_id.unique()]
-        nearest_neighbor = nu.get_nearest_neighbor(base_point, neighbors_list)
-        euclidean_distance = nu.get_euclidean_distance(base_point, nearest_neighbor)
-        mask_series = session_df.location_id.isin([str(nearest_neighbor)])
-        action_tick = session_df[mask_series].action_tick.min()
+        if verbose: print(f'mask_series = "{mask_series}"')
+        if mask_series.any():
+            neighbors_list = [eval(location_id) for location_id in session_df[mask_series].location_id.unique()]
+            if verbose: print(f'neighbors_list = "{neighbors_list}"')
+            nearest_neighbor = nu.get_nearest_neighbor(base_point, neighbors_list)
+            if verbose: print(f'nearest_neighbor = "{nearest_neighbor}"')
+            euclidean_distance = nu.get_euclidean_distance(base_point, nearest_neighbor)
+            if verbose: print(f'euclidean_distance = "{euclidean_distance}"')
+            mask_series = session_df.location_id.isin([str(nearest_neighbor)])
+            if verbose: print(f'mask_series = "{mask_series}"')
+            if mask_series.any():
+                action_tick = session_df[mask_series].action_tick.min()
+                if verbose: print(f'action_tick = "{action_tick}"')
         
         return action_tick, euclidean_distance
