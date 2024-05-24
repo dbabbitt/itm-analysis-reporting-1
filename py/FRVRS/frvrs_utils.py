@@ -1032,6 +1032,60 @@ class FRVRSUtilities(object):
         return correct_count_by_tag_df
     
     
+    def get_is_expectant_treated(self, patient_df, verbose=False):
+        """
+        Gets whether or not a patient expected to die before help arrives is treated by the participant.
+        
+        Parameters
+        ----------
+        patient_df : pandas.DataFrame
+            DataFrame containing data for a specific patient.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        bool
+            True if the patient is expected to die before help arrives and was treated by the participant, False otherwise.
+        """
+        is_expectant_treated = False
+        last_salt = self.get_last_salt(patient_df, verbose=verbose)
+        if (last_salt == 'EXPECTANT'):
+            mask_series = ~patient_df.injury_treated_required_procedure.isnull() | ~patient_df.tool_applied_type.isnull()
+            is_expectant_treated = mask_series.any()
+        
+        # Return whether or not the patient is expected to die before help arrives and was treated by the participant
+        return is_expectant_treated
+    
+    
+    def get_is_treating_expectants(self, scene_df, verbose=False):
+        """
+        Gets whether or not a participant is treating patients expected to die before help arrives.
+        
+        Parameters
+        ----------
+        scene_df : pandas.DataFrame
+            DataFrame containing data for a specific scene.
+        verbose : bool, optional
+            Whether to print verbose output, by default False.
+        
+        Returns
+        -------
+        bool
+            True if the participant is treating patients expected to die before help arrives, False otherwise.
+        """
+        
+        # Find the expectant among all patients and stop searching if the participant is found treated one
+        for (session_uuid, scene_id, patient_id), patient_df in scene_df.groupby(self.patient_groupby_columns):
+            is_expectant_treated = self.get_is_expectant_treated(patient_df, verbose=verbose)
+                
+                # Stop searching if the participant is found treating one
+                if is_expectant_treated: return True
+        
+        # Return False assuming the participant is NOT treating patients expected to die before help arrives
+        return False
+    
+    
     def get_patient_stats_data_frame(self, logs_df, verbose=False):
         rows_list = []
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
@@ -1095,10 +1149,7 @@ class FRVRSUtilities(object):
                 mask_series = patient_df.action_type.isin(['TAG_APPLIED'])
                 row_dict['tag_application_count'] = patient_df[mask_series].shape[0]
                 
-                if (row_dict['max_salt'] == 'EXPECTANT'):
-                    mask_series = ~patient_df.injury_treated_required_procedure.isnull() | ~patient_df.tool_applied_type.isnull()
-                    row_dict['treated_expectant'] = {True: 'yes', False: 'no'}[mask_series.any()]
-                else: row_dict['treated_expectant'] = nan
+                row_dict['is_treating_expectants'] = self.get_is_treating_expectants(scene_df)
                 
                 rows_list.append(row_dict)
         patient_stats_df = DataFrame(rows_list)
@@ -2328,6 +2379,34 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
+    def get_last_salt(patient_df, verbose=False):
+        """
+        Get the last SALT value from the patient data frame.
+        
+        Parameters:
+            patient_df (pandas.DataFrame, optional): DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional): Whether to print debug information. Defaults to False.
+        
+        Returns:
+            int: The latest salt value for the patient.
+        """
+        
+        # Get the last salt value
+        try:
+            mask_series = ~patient_df.patient_salt.isnull()
+            last_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.iloc[-1]
+        except Exception: last_salt = nan
+        
+        # If verbose is True, print additional information
+        if verbose:
+            print(f'last_salt={last_salt}')
+            display(patient_df)
+        
+        # Return the last salt value
+        return last_salt
+    
+    
+    @staticmethod
     def get_max_salt(patient_df, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
         """
         Get the last SALT value from the patient data frame.
@@ -2344,12 +2423,7 @@ class FRVRSUtilities(object):
         """
         
         # Get the max salt value
-        # mask_series = patient_df.patient_record_salt.isnull()
-        # try: max_salt = patient_df[~mask_series].patient_record_salt.max()
-        try:
-            mask_series = ~patient_df.patient_salt.isnull()
-            max_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.iloc[-1]
-        except Exception: max_salt = nan
+        max_salt = self.get_last_salt(patient_df, verbose=verbose)
         
         # If verbose is True, print additional information
         if verbose:
