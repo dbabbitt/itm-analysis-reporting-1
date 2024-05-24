@@ -309,7 +309,7 @@ class NotebookUtilities(object):
         return df
     
     
-    def get_row_dictionary(self, value_obj, row_dict={}, key_prefix=''):
+    def get_flattened_dictionary(self, value_obj, row_dict={}, key_prefix=''):
         """
         This function takes a value_obj (either a dictionary, list or scalar value) and creates a flattened
         dictionary from it, where keys are made up of the keys/indices of nested dictionaries and lists. The
@@ -333,7 +333,7 @@ class NotebookUtilities(object):
             for k, v, in value_obj.items():
                 
                 # Recursively call get row dictionary with the dictionary key as part of the prefix
-                row_dict = self.get_row_dictionary(
+                row_dict = self.get_flattened_dictionary(
                     v, row_dict=row_dict, key_prefix=f'{key_prefix}_{k}'
                 )
                 
@@ -354,7 +354,7 @@ class NotebookUtilities(object):
                     i = str(i).zfill(digits_count)
                 
                 # Recursively call get row dictionary with the list index as part of the prefix
-                row_dict = self.get_row_dictionary(
+                row_dict = self.get_flattened_dictionary(
                     v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
                 )
         else:
