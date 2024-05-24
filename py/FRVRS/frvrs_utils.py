@@ -924,12 +924,11 @@ class FRVRSUtilities(object):
                 row_dict['last_tag'] = last_tag
                 
                 # Add the PATIENT_RECORD SALT value for this patient
-                try: max_salt = self.get_max_salt(patient_df)
-                except Exception: max_salt = nan
-                row_dict['max_salt'] = max_salt
+                last_salt = self.get_last_salt(patient_df)
+                row_dict['last_salt'] = last_salt
                 
                 # Add the predicted tag value for this patient based on the SALT value
-                try: predicted_tag = self.salt_to_tag_dict.get(max_salt, nan)
+                try: predicted_tag = self.salt_to_tag_dict.get(last_salt, nan)
                 except Exception: predicted_tag = nan
                 row_dict['predicted_tag'] = predicted_tag
                 
@@ -942,7 +941,7 @@ class FRVRSUtilities(object):
         
         # Convert the tagged, SALT, and predicted tag columns to their custom categorical types
         is_tag_correct_df.last_tag = is_tag_correct_df.last_tag.astype(self.colors_category_order)
-        is_tag_correct_df.max_salt = is_tag_correct_df.max_salt.astype(self.salt_category_order)
+        is_tag_correct_df.last_salt = is_tag_correct_df.last_salt.astype(self.salt_category_order)
         is_tag_correct_df.predicted_tag = is_tag_correct_df.predicted_tag.astype(self.colors_category_order)
         
         # Sort the data frame based on the custom categorical order
@@ -1118,7 +1117,7 @@ class FRVRSUtilities(object):
                 row_dict['is_tag_correct'] = self.get_is_tag_correct(patient_df)
                 row_dict['last_patient_interaction'] = self.get_last_patient_interaction(patient_df)
                 row_dict['last_tag'] = self.get_last_tag(patient_df)
-                row_dict['max_salt'] = self.get_max_salt(patient_df, session_uuid=session_uuid, scene_id=scene_id, random_patient_id=patient_id)
+                row_dict['last_salt'] = self.get_last_salt(patient_df, session_uuid=session_uuid, scene_id=scene_id, random_patient_id=patient_id)
                 row_dict['maximum_injury_severity'] = self.get_maximum_injury_severity(patient_df)
                 row_dict['patient_engagement_count'] = self.get_patient_engagement_count(patient_df)
                 row_dict['pulse_value'] = self.get_pulse_value(patient_df)
@@ -1149,11 +1148,12 @@ class FRVRSUtilities(object):
                 mask_series = patient_df.action_type.isin(['TAG_APPLIED'])
                 row_dict['tag_application_count'] = patient_df[mask_series].shape[0]
                 
-                row_dict['is_treating_expectants'] = self.get_is_treating_expectants(scene_df)
+                is_expectant_treated = fu.get_is_expectant_treated(patient_df, verbose=False)
+                row_dict['is_expectant_treated'] = is_expectant_treated
                 
                 rows_list.append(row_dict)
         patient_stats_df = DataFrame(rows_list)
-        patient_stats_df.max_salt = patient_stats_df.max_salt.astype(self.salt_category_order)
+        patient_stats_df.last_salt = patient_stats_df.last_salt.astype(self.salt_category_order)
         patient_stats_df.last_tag = patient_stats_df.last_tag.astype(self.colors_category_order)
         
         return patient_stats_df
@@ -4625,6 +4625,8 @@ class FRVRSUtilities(object):
             print(csv_stats_df.shape)
         
         new_column_name = 'encounter_layout'
+        
+        # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
         
         # Loop through each session and scene in the CSV stats dataset
         for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(self.scene_groupby_columns):
