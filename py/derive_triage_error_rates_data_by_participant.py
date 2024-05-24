@@ -3074,6 +3074,51 @@ class FRVRSUtilities(object):
             display(merge_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
         
         return merge_df, prioritize_columns
+    
+    
+    @staticmethod
+    def add_triage_error_rate_columns_to_row(groupby_df, row_dict):
+        needed_set = set(['error_type', 'patient_count'])
+        all_set = set(groupby_df.columns)
+        assert needed_set.issubset(all_set), f"groupby_df is missing these columns: {needed_set.difference(all_set)}"
+        
+        df = groupby_df.groupby('error_type').patient_count.sum().reset_index(drop=False)
+        total_patient_count = df.patient_count.sum()
+        error_dict = df.set_index('error_type').patient_count.to_dict()
+        
+        over_patient_count = error_dict.get('Over', 0)
+        try: over_triage_error_rate = round(100*over_patient_count/total_patient_count, 1)
+        except ZeroDivisionError: over_triage_error_rate = nan
+        row_dict['over_triage_error_rate'] = over_triage_error_rate
+        
+        under_patient_count = error_dict.get('Under', 0)
+        try: under_triage_error_rate = round(100*under_patient_count/total_patient_count, 1)
+        except ZeroDivisionError: under_triage_error_rate = nan
+        row_dict['under_triage_error_rate'] = under_triage_error_rate
+        
+        critical_patient_count = error_dict.get('Critical', 0)
+        try: critical_triage_error_rate = round(100*critical_patient_count/total_patient_count, 1)
+        except ZeroDivisionError: critical_triage_error_rate = nan
+        row_dict['critical_triage_error_rate'] = critical_triage_error_rate
+        
+        return row_dict
+    
+    
+    @staticmethod
+    def create_triage_error_rates_data_frame(error_types_df, groupby_columns):
+        if not isinstance(groupby_columns, list): groupby_columns = [groupby_columns]
+        needed_set = set(groupby_columns)
+        all_set = set(groupby_df.columns)
+        assert needed_set.issubset(all_set), f"error_types_df is missing these columns: {needed_set.difference(all_set)}"
+        
+        rows_list = []
+        for groupby_tuple, groupby_df in error_types_df.groupby(groupby_columns):
+            row_dict = {column_name: column_value for column_name, column_value in zip(groupby_columns, groupby_tuple)}
+            row_dict = add_triage_error_rate_columns_to_row(groupby_df, row_dict)
+            rows_list.append(row_dict)
+        triage_error_rates_df = DataFrame(rows_list)
+        
+        return triage_error_rates_df
 
 fu = FRVRSUtilities(
     data_folder_path=osp.abspath('data'),
@@ -3551,28 +3596,7 @@ error_types_df[mask_series].sort_values('patient_count', ascending=False).head()
 
 # Get triage error rates
 import re
-
-rows_list = []
-for participant_id, responder_categories_df in error_types_df.groupby('participant_id'):
-    row_dict = {'participant_id': participant_id}
-    df = responder_categories_df.groupby('error_type').patient_count.sum().reset_index(drop=False)
-    total_patient_count = df.patient_count.sum()
-    error_dict = df.set_index('error_type').patient_count.to_dict()
-
-    over_patient_count = error_dict.get('Over', 0)
-    over_triage_error_rate = 100*over_patient_count/total_patient_count
-    row_dict['over_triage_error_rate'] = round(over_triage_error_rate, 1)
-
-    under_patient_count = error_dict.get('Under', 0)
-    under_triage_error_rate = 100*under_patient_count/total_patient_count
-    row_dict['under_triage_error_rate'] = round(under_triage_error_rate, 1)
-
-    critical_patient_count = error_dict.get('Critical', 0)
-    critical_triage_error_rate = 100*critical_patient_count/total_patient_count
-    row_dict['critical_triage_error_rate'] = round(critical_triage_error_rate, 1)
-    
-    rows_list.append(row_dict)
-triage_error_rates_df = DataFrame(rows_list)
+triage_error_rates_df = fu.create_triage_error_rates_data_frame(error_types_df, groupby_columns=['participant_id'])
 
 CATEGORY_DICT = {participant_id: participant_id for participant_id in triage_error_rates_df.participant_id}
 

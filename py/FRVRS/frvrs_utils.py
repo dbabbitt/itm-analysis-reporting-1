@@ -1077,9 +1077,9 @@ class FRVRSUtilities(object):
         # Find the expectant among all patients and stop searching if the participant is found treated one
         for (session_uuid, scene_id, patient_id), patient_df in scene_df.groupby(self.patient_groupby_columns):
             is_expectant_treated = self.get_is_expectant_treated(patient_df, verbose=verbose)
-                
-                # Stop searching if the participant is found treating one
-                if is_expectant_treated: return True
+            
+            # Stop searching if the participant is found treating one
+            if is_expectant_treated: return True
         
         # Return False assuming the participant is NOT treating patients expected to die before help arrives
         return False
@@ -4917,3 +4917,54 @@ class FRVRSUtilities(object):
                 if verbose: print(f'action_tick = "{action_tick}"')
         
         return action_tick, euclidean_distance
+    
+    
+    @staticmethod
+    def add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=False):
+        needed_set = set(['error_type', 'patient_count'])
+        all_set = set(groupby_df.columns)
+        assert needed_set.issubset(all_set), f"groupby_df is missing these columns: {needed_set.difference(all_set)}"
+        
+        df = groupby_df.groupby('error_type').patient_count.sum().reset_index(drop=False)
+        total_patient_count = df.patient_count.sum()
+        error_dict = df.set_index('error_type').patient_count.to_dict()
+        
+        over_patient_count = error_dict.get('Over', 0)
+        try: over_triage_error_rate = round(100*over_patient_count/total_patient_count, 1)
+        except ZeroDivisionError: over_triage_error_rate = nan
+        row_dict['over_triage_error_rate'] = over_triage_error_rate
+        
+        under_patient_count = error_dict.get('Under', 0)
+        try: under_triage_error_rate = round(100*under_patient_count/total_patient_count, 1)
+        except ZeroDivisionError: under_triage_error_rate = nan
+        row_dict['under_triage_error_rate'] = under_triage_error_rate
+        
+        critical_patient_count = error_dict.get('Critical', 0)
+        try: critical_triage_error_rate = round(100*critical_patient_count/total_patient_count, 1)
+        except ZeroDivisionError: critical_triage_error_rate = nan
+        row_dict['critical_triage_error_rate'] = critical_triage_error_rate
+        
+        if verbose: print(
+            f"over-triage error rate {over_triage_error_rate:.1f}%, under-triage error rate {under_triage_error_rate:.1f}%,"
+            f" critical-triage error rate {critical_triage_error_rate:.1f}%"
+        )
+        
+        return row_dict
+    
+    
+    @staticmethod
+    def create_triage_error_rates_data_frame(error_types_df, groupby_columns, verbose=False):
+        if not isinstance(groupby_columns, list): groupby_columns = [groupby_columns]
+        needed_set = set(groupby_columns)
+        all_set = set(groupby_df.columns)
+        assert needed_set.issubset(all_set), f"error_types_df is missing these columns: {needed_set.difference(all_set)}"
+        
+        rows_list = []
+        for groupby_tuple, groupby_df in error_types_df.groupby(groupby_columns):
+            row_dict = {column_name: column_value for column_name, column_value in zip(groupby_columns, groupby_tuple)}
+            if verbose: print(f"{groupby_tuple}: ", end='')
+            row_dict = add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=verbose)
+            rows_list.append(row_dict)
+        triage_error_rates_df = DataFrame(rows_list)
+        
+        return triage_error_rates_df
