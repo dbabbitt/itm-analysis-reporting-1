@@ -979,6 +979,36 @@ class NotebookUtilities(object):
         rogue_fns_set = set([k for k in self.get_notebook_functions_dictionary(github_folder=github_folder).keys()])
         
         return rogue_fns_set
+    
+    
+    def show_duplicated_util_fns_search_string(self, util_path=None, github_folder=None):
+        """
+        Search for duplicate utility function definitions in Jupyter notebooks within a specified GitHub repository folder.
+        The function identifies rogue utility function definitions in Jupyter notebooks and prints a regular expression
+        pattern to search for instances of these definitions. The intention is to replace these calls with the
+        corresponding `nu.` equivalent and remove the duplicates.
+
+        Parameters:
+            util_path (str, optional): The path to the utilities file to check for existing utility function definitions.
+                                       Defaults to `../py/notebook_utils.py`.
+            github_folder (str, optional): The path of the root folder of the GitHub repository containing the notebooks.
+                                           Defaults to the parent directory of the current working directory.
+
+        Returns:
+            None: The function prints the regular expression pattern to identify rogue utility function definitions.
+        """
+
+        # Get a list of rogue functions already in utilities file
+        utils_set = self.get_utility_file_functions(util_path=util_path)
+
+        # Make a set of rogue util functions
+        if github_folder is None: github_folder = self.github_folder
+        rogue_fns_list = [fn for fn in self.get_notebook_functions_dictionary(github_folder=github_folder).keys() if fn in utils_set]
+        
+        if rogue_fns_list:
+            print(f'Search for *.ipynb; file masks in the {github_folder} folder for this pattern:')
+            print('\\s+"def (' + '|'.join(rogue_fns_list) + ')\(')
+            print('Replace each of the calls to these definitions with calls the the nu. equivalent (and delete the definitions).')
 
     
     def list_dfs_in_folder(self, pickle_folder=None):
@@ -1970,7 +2000,7 @@ class NotebookUtilities(object):
                 minimum, 25th percentile, 50th percentile (median), 75th percentile, and maximum.
         """
         
-        # Calculate basic descriptive statistics for the specified columns
+        # Compute basic descriptive statistics for the specified columns
         df = describable_df[columns_list].describe().rename(index={'std': 'SD'})
         
         # If the mode is not already included in the statistics, calculate it
@@ -3399,6 +3429,7 @@ class NotebookUtilities(object):
         
         # Create a figure with appropriate dimensions
         plt.figure(figsize=[max_sequence_length*0.3,0.3 * len(sequences)])
+        alphabet_cache = {sequence: self.get_alphabet(sequence) for sequence in sequences}
         
         for y, sequence in enumerate(sequences):
             
@@ -3409,16 +3440,16 @@ class NotebookUtilities(object):
             plt.gca().set_prop_cycle(None)
             
             # Get the unique values in the sequence
-            unique_values = self.get_alphabet(sequence)
+            unique_values = alphabet_cache[sequence]
             
             # Set up the color dictionary so that its keys consist of the elements in unique_values
             if color_dict is None: color_dict = {a: None for a in unique_values}
             else: color_dict = {a: color_dict.get(a) for a in unique_values}
             
-            for i, value in enumerate(unique_values):
+            # Plot the value positions as scatter points with labels
+            if gap:
                 
-                # Plot the value positions as scatter points with labels
-                if gap:
+                for i, value in enumerate(unique_values):
                     points = np.where(np_sequence == value, y + 1, np.nan)
                     plt.scatter(
                         x=range(len(np_sequence)),
@@ -3428,7 +3459,9 @@ class NotebookUtilities(object):
                         s=100,
                         color=color_dict[value]
                     )
-                else:
+            else:
+                
+                for i, value in enumerate(unique_values):
                     points = np.where(np_sequence == value, 1, np.nan)
                     plt.bar(
                         range(len(points)),
