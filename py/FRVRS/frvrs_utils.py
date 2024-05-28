@@ -4883,35 +4883,78 @@ class FRVRSUtilities(object):
     
     
     def get_action_tick_by_encounter_layout(self, session_df, encounter_layout=None, verbose=False):
+        """
+        Calculates the action tick and Euclidean distance for the first teleport action closest to the encounter layout's initial teleport location.
+        
+        This function determines the action tick and Euclidean distance from the initial teleport 
+        location to the nearest neighbor location based on the encounter layout provided or found 
+        in the session DataFrame.
+        
+        Parameters:
+            self (object):
+                The instance of the class containing the initial teleport location attributes for each encounter layout.
+            session_df (pandas.DataFrame):
+                DataFrame containing session data, including action types and locations.
+            encounter_layout (str, optional):
+                The encounter layout to use for determining the initial teleport location. If None, 
+                the encounter layout is inferred from the session DataFrame. Default is None.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            tuple
+                A tuple containing two elements:
+                - action_tick (float or nan): The action tick for the first teleport closest to the base point, or nan if not found.
+                - euclidean_distance (float or nan): The Euclidean distance to the first teleport closest to the base point, or nan if not found.
+        
+        Raises:
+            AssertionError
+                If 'encounter_layout' column is missing from session_df when encounter_layout is None.
+                If session_df is missing any of the required columns: 'action_type', 'location_id', 'action_tick'.
+        """
         action_tick = nan
-        if verbose: print(f'action_tick = "{action_tick}"')
         euclidean_distance = nan
-        if verbose: print(f'euclidean_distance = "{euclidean_distance}"')
+        
+        # Determine the encounter layout if not provided
         if encounter_layout is None:
             assert 'encounter_layout' in session_df.columns, "You need to supply an encounter_layout column in session_df or as a parameter"
+            
+            # Create a mask for non-null encounter_layout values
             mask_series = ~session_df.encounter_layout.isnull()
-            if verbose: print(f'mask_series = "{mask_series}"')
+            
+            # If there are any non-null encounter_layout values, use the most frequent one
             if mask_series.any():
                 encounter_layout = session_df[mask_series].encounter_layout.value_counts().head(1).index.item()
                 if verbose: print(f'encounter_layout = "{encounter_layout}"')
+        
+        # Get the base point for the initial teleport location
         base_point = eval('self.' + encounter_layout.lower() + '_initial_teleport_location')
         if verbose: print(f'base_point = "{base_point}"')
-        needed_set = set(['action_type', 'location_id', 'action_tick'])
-        if verbose: print(f'needed_set = "{needed_set}"')
+        
+        # Ensure all needed columns are present in session_df
+        needed_set = {'action_type', 'location_id', 'action_tick'}
         all_set = set(session_df.columns)
         if verbose: print(f'all_set = "{all_set}"')
         assert needed_set.issubset(all_set), f"You're missing {needed_set.difference(all_set)} from session_df"
+        
+        # Create a mask for TELEPORT actions with non-null location_id values
         mask_series = (session_df.action_type == 'TELEPORT') & ~session_df.location_id.isnull()
-        if verbose: print(f'mask_series = "{mask_series}"')
+        
+        # If there are any such actions, proceed to find the nearest neighbor
         if mask_series.any():
             neighbors_list = [eval(location_id) for location_id in session_df[mask_series].location_id.unique()]
             if verbose: print(f'neighbors_list = "{neighbors_list}"')
+            
+            # Get the nearest neighbor to the base point
             nearest_neighbor = nu.get_nearest_neighbor(base_point, neighbors_list)
             if verbose: print(f'nearest_neighbor = "{nearest_neighbor}"')
+            
+            # Calculate the Euclidean distance to the nearest neighbor
             euclidean_distance = nu.get_euclidean_distance(base_point, nearest_neighbor)
             if verbose: print(f'euclidean_distance = "{euclidean_distance}"')
+            
+            # Find the minimum action tick for the nearest neighbor location
             mask_series = session_df.location_id.isin([str(nearest_neighbor)])
-            if verbose: print(f'mask_series = "{mask_series}"')
             if mask_series.any():
                 action_tick = session_df[mask_series].action_tick.min()
                 if verbose: print(f'action_tick = "{action_tick}"')
@@ -4921,24 +4964,58 @@ class FRVRSUtilities(object):
     
     @staticmethod
     def add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=False):
+        """
+        Calculates and adds over-triage, under-triage, and critical-triage error rate columns to a
+        dictionary representing a new row in a triage error rates dataframe being built.
+        
+        This function takes a pandas DataFrame grouped by 'error_type' with a 'patient_count' column,
+        a dictionary to store the results, and an optional verbosity flag. It calculates the error rates
+        as percentages of the total patient count for each error type ('Over', 'Under', 'Critical')
+        and adds them to the dictionary with keys 'over_triage_error_rate', 'under_triage_error_rate',
+        and 'critical_triage_error_rate'. If the total patient count is zero, the error rate is set to NaN.
+        
+        Parameters:
+            groupby_df (pandas.DataFrame):
+                DataFrame with columns 'error_type' and 'patient_count' to calculate error rates from.
+            row_dict (dict):
+                Dictionary to which the dataframe row of calculated error rates will be added.
+            verbose (bool, optional):
+                If True, print the debug information (default is False).
+        
+        Returns:
+            dict
+                The updated row dictionary with the added error rate columns.
+        
+        Raises:
+            AssertionError
+                If the 'groupby_df' is missing any of the required columns ('error_type', 'patient_count').
+        """
+        
+        # Check if required columns are present
         needed_set = set(['error_type', 'patient_count'])
         all_set = set(groupby_df.columns)
         assert needed_set.issubset(all_set), f"groupby_df is missing these columns: {needed_set.difference(all_set)}"
         
+        # Calculate total patient count and error type counts
         df = groupby_df.groupby('error_type').patient_count.sum().reset_index(drop=False)
         total_patient_count = df.patient_count.sum()
+        
+        # Convert the result to a dictionary for easier lookup
         error_dict = df.set_index('error_type').patient_count.to_dict()
         
+        # Calculate over-triage error rate
         over_patient_count = error_dict.get('Over', 0)
         try: over_triage_error_rate = round(100*over_patient_count/total_patient_count, 1)
         except ZeroDivisionError: over_triage_error_rate = nan
         row_dict['over_triage_error_rate'] = over_triage_error_rate
         
+        # Calculate under-triage error rate
         under_patient_count = error_dict.get('Under', 0)
         try: under_triage_error_rate = round(100*under_patient_count/total_patient_count, 1)
         except ZeroDivisionError: under_triage_error_rate = nan
         row_dict['under_triage_error_rate'] = under_triage_error_rate
         
+        # Calculate critical-triage error rate
         critical_patient_count = error_dict.get('Critical', 0)
         try: critical_triage_error_rate = round(100*critical_patient_count/total_patient_count, 1)
         except ZeroDivisionError: critical_triage_error_rate = nan
@@ -4952,19 +5029,56 @@ class FRVRSUtilities(object):
         return row_dict
     
     
-    @staticmethod
-    def create_triage_error_rates_data_frame(error_types_df, groupby_columns, verbose=False):
+    def create_triage_error_rates_data_frame(self, error_types_df, groupby_columns, verbose=False):
+        """
+        Creates a DataFrame containing triage error rates calculated from an error types DataFrame.
+        
+        This function iterates through groups in the `error_types_df` defined by the `groupby_columns`
+        and calculates triage error rates for each group. The calculated rates are then stored in a
+        new DataFrame with columns from `groupby_columns` and additional columns containing the error rates.
+        
+        Parameters:
+            self (object):
+                The instance of the class containing the method. This is used to access class methods related to calculating error rates.
+            error_types_df (pandas.DataFrame):
+                The DataFrame containing error types data.
+            groupby_columns (list or str):
+                Column(s) to group by when calculating triage error rates.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                A new DataFrame containing triage error rates for each group.
+        
+        Raises:
+            AssertionError
+                If any of the columns specified in groupby_columns are not in error_types_df.
+        """
+        
+        # Ensure groupby_columns is a list
         if not isinstance(groupby_columns, list): groupby_columns = [groupby_columns]
+        
+        # Verify groupby columns exist in error_types_df
         needed_set = set(groupby_columns)
-        all_set = set(groupby_df.columns)
+        all_set = set(error_types_df.columns)
         assert needed_set.issubset(all_set), f"error_types_df is missing these columns: {needed_set.difference(all_set)}"
         
+        # Group by the specified columns and process each group
         rows_list = []
+
         for groupby_tuple, groupby_df in error_types_df.groupby(groupby_columns):
+            
+            # Create a row dictionary for the current group
             row_dict = {column_name: column_value for column_name, column_value in zip(groupby_columns, groupby_tuple)}
+        
             if verbose: print(f"{groupby_tuple}: ", end='')
-            row_dict = add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=verbose)
+            
+            # Add error rate columns to the row dictionary
+            row_dict = self.add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=verbose)
             rows_list.append(row_dict)
+        
+        # Create a DataFrame from the list of rows
         triage_error_rates_df = DataFrame(rows_list)
         
         return triage_error_rates_df
