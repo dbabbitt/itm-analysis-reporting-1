@@ -16,3 +16,5 @@ fu = FRVRSUtilities(
     data_folder_path=osp.abspath('../data'),
     saves_folder_path=osp.abspath('../saves')
 )
+
+# print(r'\b(' + '|'.join(dir()) + r')\b')

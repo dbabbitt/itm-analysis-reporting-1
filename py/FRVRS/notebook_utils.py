@@ -3500,3 +3500,5 @@ class NotebookUtilities(object):
         
         # Return the matplotlib figure object
         return plt
+
+# print(r'\b(' + '|'.join(dir()) + r')\b')
