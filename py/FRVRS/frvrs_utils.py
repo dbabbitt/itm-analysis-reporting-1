@@ -6,30 +6,20 @@
 
 # Soli Deo gloria
 
-from . import nu
+from . import (
+    nu, nan, isnan, listdir, makedirs, osp, remove, sep, walk, CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna,
+    notnull, read_csv, read_excel, read_pickle, to_datetime, math, np, re, warnings, display
+)
 from datetime import datetime, timedelta
-from numpy import nan, isnan
-from os import listdir as listdir, makedirs as makedirs, path as osp, remove as remove, sep as sep, walk as walk
-from pandas import CategoricalDtype, DataFrame, Index, NaT, Series, concat, isna, notnull, read_csv, read_excel, read_pickle, to_datetime, to_numeric
+from pandas import to_numeric
 from re import sub
 import csv
 import humanize
-import math
 import matplotlib.pyplot as plt
-import numpy as np
 import random
-import re
 import statsmodels.api as sm
-import warnings
 
 warnings.filterwarnings('ignore')
-
-# Check for presence of 'get_ipython' function (exists in Jupyter)
-try:
-    get_ipython()
-    from IPython.display import display
-except NameError:
-    display = lambda message: print(message)
 
 class FRVRSUtilities(object):
     """
@@ -1127,7 +1117,6 @@ class FRVRSUtilities(object):
                 if mask_series.any():
                     injury_id = patient_df[mask_series].injury_id.iloc[-1]
                     row_dict['treatment_value'] = self.get_treatment_value(patient_df, injury_id)
-                row_dict['wrapped_label'] = self.get_wrapped_label(patient_df)
                 
                 mask_series = ~patient_df.tag_applied_type.isnull()
                 tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
@@ -1137,16 +1126,16 @@ class FRVRSUtilities(object):
                 else: row_dict['tag_correct'] = nan
                 
                 mask_series = patient_df.action_type.isin(self.action_types_list)
-                row_dict['action_count'] = patient_df[mask_series].shape[0]
+                row_dict['action_count'] = mask_series.sum()
                 
                 mask_series = patient_df.action_type.isin(['PATIENT_ENGAGED', 'PULSE_TAKEN'])
-                row_dict['assessment_count'] = patient_df[mask_series].shape[0]
+                row_dict['assessment_count'] = mask_series.sum()
                 
                 mask_series = patient_df.action_type.isin(['INJURY_TREATED'])
-                row_dict['treatment_count'] = patient_df[mask_series].shape[0]
+                row_dict['treatment_count'] = mask_series.sum()
                 
                 mask_series = patient_df.action_type.isin(['TAG_APPLIED'])
-                row_dict['tag_application_count'] = patient_df[mask_series].shape[0]
+                row_dict['tag_application_count'] = mask_series.sum()
                 
                 is_expectant_treated = fu.get_is_expectant_treated(patient_df, verbose=False)
                 row_dict['is_expectant_treated'] = is_expectant_treated
@@ -2057,7 +2046,7 @@ class FRVRSUtilities(object):
     
     def get_time_to_hemorrhage_control_per_patient(self, scene_df, verbose=False):
         """
-        According to the paper we define time to hemorrhage control per patient like this:
+        According to our research papers we define time to hemorrhage control per patient like this:
         Duration of time from when the patient was first approached by the participant until
         the time hemorrhage treatment was applied (with a tourniquet or wound packing)
         
@@ -2067,6 +2056,12 @@ class FRVRSUtilities(object):
         
         Returns:
             int: The time it takes to control hemorrhage for the scene, per patient, in action ticks.
+        
+        Note:
+            If you trim off the action ticks at the beginning of the scene so that the
+            first action tick ends up as the responder engaging the only hemorrhaging,
+            non-dead patient, you will zero out the time_to_hemorrhage_control_per_patient
+            for the scenes.
         """
         
         # Iterate through patients in the scene
@@ -2077,11 +2072,12 @@ class FRVRSUtilities(object):
             # Check if the patient is hemorrhaging and not dead
             if self.get_is_patient_hemorrhaging(patient_df, verbose=verbose) and not self.get_is_patient_dead(patient_df, verbose=verbose):
                 
+                # Count the patient and add its hemorrhage control time to a list for averaging
                 action_tick = self.get_time_to_hemorrhage_control(patient_df, scene_start=self.get_first_patient_interaction(patient_df), use_dead_alternative=False)
                 times_list.append(action_tick)
                 patient_count += 1
         
-        # Calculate the hemorrhage control per patient
+        # Calculate the hemorrhage control per patient by summing the control times and dividing by the patient count
         try: time_to_hemorrhage_control_per_patient = sum(times_list) / patient_count
         except ZeroDivisionError: time_to_hemorrhage_control_per_patient = nan
         
