@@ -149,7 +149,7 @@ class NotebookUtilities(object):
     @staticmethod
     def compute_similarity(a: str, b: str) -> float:
         """
-        Calculates the similarity between two strings.
+        Calculate the similarity between two strings.
         
         Parameters:
             a (str): The first string.
@@ -1549,6 +1549,55 @@ class NotebookUtilities(object):
             self.update_modules_list(verbose=verbose)
     
     
+    @staticmethod
+    def describe_procedure(function_obj, docstring_prefix='The procedure to'):
+        """
+        Generates a step-by-step description of the procedure from a function's comments.
+        
+        This method extracts the comments from the source code of the given function 
+        and prints them as a numbered list. The description is prefixed by a given 
+        docstring prefix and the initial sentence of the function's docstring.
+
+        Parameters:
+            function_obj (callable):
+                The function object whose procedure needs to be described.
+            docstring_prefix (str, optional):
+                A prefix to prepend to the procedure description. Default is 'The procedure to'.
+        
+        Returns:
+            None
+        
+        Notes:
+            The function assumes that comments don't end with punctuation
+            and will ignore comments containing the word 'verbose'.
+        """
+        
+        # Import required libraries
+        import inspect
+        import roman
+        
+        # Extract source code and comments
+        source_code = inspect.getsource(function_obj)
+        
+        # Regex to find comments in the source code
+        comment_regex = re.compile('^ *# ([^\r\n]+)', re.MULTILINE)
+        
+        # Split source code to separate docstring and function body
+        parts_list = re.split('"""', source_code, 0)
+        
+        # Extract and clean the docstring
+        docstring = parts_list[1].strip().split('.')[0]
+        
+        # Print the procedure description prefix with the docstring
+        print(f'{docstring_prefix} {docstring.lower()} is as follows:')
+        
+        # Extract and print comments that describe the procedure, ignoring 'verbose'
+        for i, comment_str in enumerate(
+            [comment_str for comment_str in comment_regex.findall(source_code) if comment_str and ('verbose' not in comment_str)]
+        ):
+            print(f'    {roman.toRoman(i+1).lower()}.', comment_str + '.')
+    
+    
     ### URL and Soup Functions ###
     
     
@@ -1987,7 +2036,7 @@ class NotebookUtilities(object):
     @staticmethod
     def get_statistics(describable_df, columns_list, verbose=False):
         """
-        Calculates and returns descriptive statistics for a subset of columns in a Pandas DataFrame.
+        Calculate and returns descriptive statistics for a subset of columns in a Pandas DataFrame.
         
         Parameters:
             describable_df (pandas.DataFrame): The DataFrame to calculate descriptive statistics for.
@@ -2444,7 +2493,7 @@ class NotebookUtilities(object):
     @staticmethod
     def get_euclidean_distance(first_point, second_point):
         """
-        Calculates the Euclidean distance between two 2D or 3D points.
+        Calculate the Euclidean distance between two 2D or 3D points.
         
         Parameters:
             first_point (tuple): The coordinates of the first point.
@@ -2469,7 +2518,7 @@ class NotebookUtilities(object):
     @staticmethod
     def get_absolute_position(second_point, first_point=None):
         """
-        Calculates the absolute position of a point relative to another point.
+        Calculate the absolute position of a point relative to another point.
         
         Parameters:
             second_point (tuple): The coordinates of the second point.

@@ -1289,7 +1289,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_patient_count(scene_df, verbose=False):
         """
-        Calculates the number of unique patient IDs in a given scene DataFrame.
+        Calculate the number of unique patient IDs in a scene.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data, including 'patient_id' column.
@@ -1314,7 +1314,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_injury_treatments_count(scene_df, verbose=False):
         """
-        Calculates the number of records where injury treatment attempts were logged for a given scene.
+        Calculate the number of records where injury treatment attempts were logged for a given scene.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
@@ -1403,7 +1403,7 @@ class FRVRSUtilities(object):
     
     def get_injury_wrongly_treated_count(self, scene_df, verbose=False):
         """
-        Calculates the number of patients whose injuries have been incorrectly treated in a given scene DataFrame.
+        Calculate the number of patients whose injuries have been incorrectly treated in a scene.
         
         Parameters:
             scene_df (pandas.DataFrame): The DataFrame containing scene data.
@@ -1499,7 +1499,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_voice_capture_count(scene_df, verbose=False):
         """
-        Calculates the number of VOICE_CAPTURE actions in a given scene DataFrame.
+        Calculate the number of VOICE_CAPTURE actions in a scene.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
@@ -1555,7 +1555,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_wave_command_count(scene_df, verbose=False):
         """
-        Calculates the number of wave if you can voice commands in a given scene DataFrame.
+        Calculate the number of wave if you can voice commands in a scene.
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
@@ -1720,7 +1720,7 @@ class FRVRSUtilities(object):
     
     def get_triage_time(self, scene_df, verbose=False):
         """
-        Calculates the triage time for a scene.
+        Calculate the triage time for a scene.
         
         Parameters
         ----------
@@ -1803,7 +1803,7 @@ class FRVRSUtilities(object):
     
     def get_total_actions_count(self, scene_df, verbose=False):
         """
-        Calculates the total number of user actions within a given scene DataFrame,
+        Calculate the total number of user actions within a given scene DataFrame,
         including voice commands with specific messages.
         
         Parameters:
@@ -1915,7 +1915,7 @@ class FRVRSUtilities(object):
     
     def get_measure_of_right_ordering(self, scene_df, verbose=False):
         """
-        Calculates a measure of right ordering for patients based on their SORT category and elapsed times.
+        Calculate a measure of right ordering for patients based on their SORT category and elapsed times.
         The measure of right ordering is an R-squared adjusted value, where a higher value indicates better right ordering.
         
         Parameters:
@@ -1943,7 +1943,7 @@ class FRVRSUtilities(object):
     
     def get_percent_hemorrhage_controlled(self, scene_df, verbose=False):
         """
-        Calculates the percentage of hemorrhage-related injuries that have been controlled in a given scene DataFrame.
+        Calculate the percentage of hemorrhage-related injuries that have been controlled in a scene.
         
         The percentage is based on the count of 'hemorrhage_control_procedures_list' procedures
         recorded in the 'injury_record_required_procedure' column compared to the count of those
@@ -2003,7 +2003,7 @@ class FRVRSUtilities(object):
     
     def get_time_to_last_hemorrhage_controlled(self, scene_df, verbose=False):
         """
-        Calculate the time to the last hemorrhage controlled event for patients in the given scene DataFrame.
+        Calculate the time to the last hemorrhage-controlled event for patients in a scene.
         
         The time is determined based on the 'hemorrhage_control_procedures_list' procedures being treated
         and marked as controlled. The function iterates through patients in the scene to find the maximum
@@ -2017,7 +2017,7 @@ class FRVRSUtilities(object):
             int: The time to the last hemorrhage control action, or 0 if no hemorrhage control actions exist.
         """
         
-        # Get the start time of the scene
+        # Get the start time of the scene (defined as the minimum action tick in the logs delimited by SESSION_ENDs)
         scene_start = self.get_scene_start(scene_df)
         
         # Initialize the last controlled time to 0
@@ -2026,10 +2026,10 @@ class FRVRSUtilities(object):
         # Iterate through patients in the scene
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             
-            # Check if the patient is hemorrhaging and not dead
+            # Check if the patient is hemorrhaging (defined as the injury record requires the hemorrhage control procedures) and not dead
             if self.get_is_patient_hemorrhaging(patient_df, verbose=verbose) and not self.get_is_patient_dead(patient_df, verbose=verbose):
                 
-                # Get the time to hemorrhage control for the patient
+                # Get the time to hemorrhage control for the patient (defined as the maximum action tick of the controlled hemorrhage events)
                 controlled_time = self.get_time_to_hemorrhage_control(patient_df, scene_start=scene_start, use_dead_alternative=False, verbose=verbose)
                 
                 # Update the last controlled time if the current controlled time is greater
@@ -2040,7 +2040,7 @@ class FRVRSUtilities(object):
             print(f'Time to last hemorrhage controlled: {last_controlled_time} milliseconds')
             display(scene_df)
         
-        # Return the time to the last hemorrhage controlled event
+        # Return the time to the last hemorrhage-controlled event
         return last_controlled_time
     
     
@@ -2069,7 +2069,7 @@ class FRVRSUtilities(object):
         patient_count = 0
         for patient_id, patient_df in scene_df.groupby('patient_id'):
             
-            # Check if the patient is hemorrhaging and not dead
+            # Check if the patient is hemorrhaging (defined as the injury record requires the hemorrhage control procedures) and not dead
             if self.get_is_patient_hemorrhaging(patient_df, verbose=verbose) and not self.get_is_patient_dead(patient_df, verbose=verbose):
                 
                 # Count the patient and add its hemorrhage control time to a list for averaging
@@ -2253,7 +2253,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_is_correct_bleeding_tool_applied(patient_df, verbose=False):
         """
-        Determines whether the correct bleeding control tool (tourniquet or packing gauze) has been applied to a patient in a given scene DataFrame.
+        Determines whether the correct bleeding control tool (tourniquet or packing gauze) has been applied to a patient in a scene.
         
         Parameters:
             patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
@@ -2438,7 +2438,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_last_tag(patient_df, verbose=False):
         """
-        Retrieves the last tag applied to a patient in a given scene DataFrame.
+        Retrieves the last tag applied to a patient in a scene.
         
         Parameters:
             patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
@@ -4880,7 +4880,7 @@ class FRVRSUtilities(object):
     
     def get_action_tick_by_encounter_layout(self, session_df, encounter_layout=None, verbose=False):
         """
-        Calculates the action tick and Euclidean distance for the first teleport action closest to the encounter layout's initial teleport location.
+        Calculate the action tick and Euclidean distance for the first teleport action closest to the encounter layout's initial teleport location.
         
         This function determines the action tick and Euclidean distance from the initial teleport 
         location to the nearest neighbor location based on the encounter layout provided or found 
@@ -4961,7 +4961,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=False):
         """
-        Calculates and adds over-triage, under-triage, and critical-triage error rate columns to a
+        Calculate and adds over-triage, under-triage, and critical-triage error rate columns to a
         dictionary representing a new row in a triage error rates dataframe being built.
         
         This function takes a pandas DataFrame grouped by 'error_type' with a 'patient_count' column,
