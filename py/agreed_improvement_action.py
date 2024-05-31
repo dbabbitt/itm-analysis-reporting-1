@@ -3048,7 +3048,7 @@ for dir_name in directories_list:
         df[cn] = df[cn].map({'TRUE': True, 'FALSE': False, 'True': True, 'False': False})
     
     # Convert the nulls into NaNs
-    for cn in df.columns: df[cn] = df[cn].replace(['null', 'nan', 'n'], nan)
+    for cn in df.columns: df[cn] = df[cn].replace(['null', 'nan'], nan)
     
     # Append the data frame for the current subdirectory to the main data frame and break the participant ID loop
     csv_stats_df = concat([csv_stats_df, df], axis='index')
