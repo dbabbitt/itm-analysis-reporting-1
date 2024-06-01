@@ -65,18 +65,20 @@ class FRVRSUtilities(object):
         # List of action types to consider as simulation loggings that can't be directly read by the responder
         self.simulation_actions_list = ['INJURY_RECORD', 'PATIENT_RECORD', 'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED']
         
+        # List of action types that assume 1-to-1 interaction
+        self.responder_negotiations_list = ['PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED']#, 'INJURY_TREATED', 'PATIENT_ENGAGED'
+        
         # List of action types to consider as user actions
         self.known_mcivr_metrics_types = [
-            'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'PULSE_TAKEN', 'SP_O2_TAKEN',
+            'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'SP_O2_TAKEN',
             'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED', 'S_A_L_T_WAVE_IF_CAN',
-            'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_APPLIED', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_APPLIED', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
+            'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
             'VOICE_COMMAND', 'BUTTON_CLICKED', 'PLAYER_LOCATION', 'PLAYER_GAZE', 'SESSION_START', 'SESSION_END'
-        ]
+        ] + self.responder_negotiations_list
         self.action_types_list = [
             'TELEPORT', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVE_IF_CAN', 'TRIAGE_LEVEL_WAVE_IF_CAN', 'PATIENT_ENGAGED',
-            'PULSE_TAKEN', 'BAG_ACCESS', 'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TOOL_APPLIED', 'TAG_SELECTED', 'TAG_APPLIED',
-            'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
-        ]
+            'BAG_ACCESS', 'TOOL_HOVER', 'TOOL_SELECTED', 'INJURY_TREATED', 'TAG_SELECTED', 'BAG_CLOSED', 'TAG_DISCARDED', 'TOOL_DISCARDED'
+        ] + self.responder_negotiations_list
         
         # According to the PatientEngagementWatcher class in the engagement detection code, this Euclidean distance, if the patient has been looked at, triggers enagement
         # The engagement detection code spells out the responder etiquette:
@@ -90,9 +92,6 @@ class FRVRSUtilities(object):
             'walk to the safe area', 'wave if you can', 'are you hurt', 'reveal injury', 'lay down', 'where are you',
             'can you hear', 'anywhere else', 'what is your name', 'hold still', 'sit up/down', 'stand up'
         ] + ['can you breathe', 'show me', 'stand', 'walk', 'wave']
-        
-        # List of action types that assume 1-to-1 interaction
-        self.responder_negotiations_list = ['PULSE_TAKEN', 'INJURY_TREATED', 'TAG_APPLIED', 'TOOL_APPLIED']#, 'PATIENT_ENGAGED'
         
         # List of columns that contain only boolean values
         self.boolean_columns_list = [
@@ -2247,6 +2246,92 @@ class FRVRSUtilities(object):
         return actual_sequence, ideal_sequence, sort_dict
     
     
+    @staticmethod
+    def get_mean_tool_indecision_time(scene_df, verbose=False):
+        """
+        Calculate the time (between first-in-sequence TOOL_HOVER and last-in-sequence TOOL_SELECTED)
+        that responders take to select a tool after hovering over them.
+        
+        This method processes a DataFrame to find periods of indecision when hovering over tools 
+        before selecting one. It calculates the time difference between the first tool hover and 
+        the subsequent tool selection, and returns the mean of these times.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including action types and action ticks.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            float:
+                The mean indecision time users take to select a tool after hovering over them (in the same unit as action_tick).
+        
+        Raises:
+            AssertionError
+                If the required columns ('action_type', 'action_tick') are not present in scene_df.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type', 'action_tick'}
+        all_columns = set(scene_df.columns)
+        if verbose:
+            print(f'all_columns = "{all_columns}"')
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Identify scene_df indices based on TOOL_SELECTED actions
+        scene_df = scene_df.reset_index(drop=True)
+        mask_series = (scene_df.action_type == 'TOOL_SELECTED')
+        tool_selected_indices = scene_df[mask_series].index
+        
+        # Split the DataFrame at TOOL_SELECTED indices
+        split_dfs = nu.split_df_by_iloc(scene_df, tool_selected_indices)
+        
+        # Calculate indecision times for each sub-dataframe
+        indecision_times = []
+        for split_df in split_dfs:
+            mask_series = (split_df.action_type == 'TOOL_HOVER')
+            if mask_series.any():
+                tool_hover_df = split_df[mask_series]
+                
+                # Append time difference between TOOL_SELECTED action and first TOOL_HOVER action to the list
+                time_difference = split_df.action_tick.max() - tool_hover_df.action_tick.min()
+                indecision_times.append(time_difference)
+        
+        # Calculate the mean indecision time
+        mean_tool_indecision_time = np.mean(indecision_times)
+        
+        return mean_tool_indecision_time
+    
+    
+    @staticmethod
+    def get_scene_action_count(scene_df, verbose=False):
+        """
+        Calculate the total count of specific actions performed within a scene DataFrame.
+        
+        This static method counts the occurrences of specific actions in the responder negotiations list
+        within the provided `scene_df`. It achieves this by filtering the DataFrame for rows where the 'action_type' column
+        matches one of the listed actions. The count of these filtered rows represents the total scene action count.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including action types.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of actions (PULSE_TAKEN, TOOL_APPLIED, TAG_APPLIED) in the scene.
+        """
+        
+        # Create a mask to filter for specific action types
+        mask_series = scene_df.action_type.isin(self.responder_negotiations_list)
+        
+        # Calculate scene action count based on the mask
+        scene_action_count = scene_df[mask_series].shape[0]
+        
+        return scene_action_count
+    
+    
     ### Patient Functions ###
     
     
@@ -3688,58 +3773,6 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def split_df_by_teleport(df, verbose=False):
-        """
-        Splits a DataFrame into multiple DataFrames based on teleport locations.
-        
-        Parameters:
-            df (DataFrame): The DataFrame to split.
-            nu (NotebookUtilities): An optional instance of NotebookUtilities.
-            verbose (bool): Whether to print verbose output.
-        
-        Returns:
-            List[DataFrame]: A list of DataFrames, each corresponding to a teleport location.
-        """
-        
-        # Check for teleport locations
-        if verbose:
-            print(teleport_rows, df.index.tolist())
-            raise # Consider removing the 'raise' statement after debugging.
-        
-        # Initialize variables
-        split_dfs = []
-        current_df = DataFrame()
-        
-        # Iterate over rows of the DataFrame
-        for row_index, row_series in df.iterrows():
-            
-            # Check if the current row is a teleport location
-            if row_index in teleport_rows:
-                
-                # If the current DataFrame is not empty, append it to the list of split DataFrames
-                if current_df.shape[0] > 0: split_dfs.append(current_df)
-                
-                # Reset the current DataFrame
-                current_df = DataFrame()
-            
-            # Print verbose output if verbose is True
-            if verbose:
-                print(row_index)
-                display(row_series)
-                display(nu.convert_to_df(row_index, row_series))
-                raise
-            
-            # Append the current row to the current DataFrame
-            current_df = concat([current_df, nu.convert_to_df(row_index, row_series)], axis='index')
-        
-        # If the current DataFrame is not empty, append it to the list of split DataFrames
-        if current_df.shape[0] > 0: split_dfs.append(current_df)
-        
-        # Return the list of split DataFrames
-        return split_dfs
-    
-    
-    @staticmethod
     def show_long_runs(df, column_name, milliseconds, delta_fn, description, logs_df):
         """
         Display files with a specified duration in a given DataFrame.
@@ -4240,8 +4273,8 @@ class FRVRSUtilities(object):
         
         # Get the event time and elapsed time of each person engaged
         mask_series = scene_mask_series & logs_df.action_type.isin([
-            'PATIENT_ENGAGED', 'INJURY_TREATED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'
-        ])
+            'PATIENT_ENGAGED', 'INJURY_TREATED'
+        ] + self.responder_negotiations_list)
         columns_list = ['patient_id', 'action_tick']
         patient_engagements_df = logs_df[mask_series][columns_list].sort_values(['action_tick'])
         if verbose: display(patient_engagements_df)
@@ -4280,7 +4313,7 @@ class FRVRSUtilities(object):
                     for x in df1[mask_series].action_tick: vlinexs_list.append(x)
                     
                     # Get the action type annotation parameters
-                    mask_series = df1.action_type.isin(['INJURY_TREATED', 'PATIENT_ENGAGED', 'PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED'])
+                    mask_series = df1.action_type.isin(['INJURY_TREATED', 'PATIENT_ENGAGED'] + self.responder_negotiations_list)
                     for label, action_type_df in df1[mask_series].groupby('action_type'):
                         for x in action_type_df.action_tick:
                             annotation_tuple = (label.lower().replace('_', ' '), x, y)

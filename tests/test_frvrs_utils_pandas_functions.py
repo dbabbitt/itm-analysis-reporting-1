@@ -245,23 +245,23 @@ class TestSplitDfByTeleport(unittest.TestCase):
     def test_split_df_by_teleport_empty_df(self):
         # Test with empty DataFrame
         empty_df = pd.DataFrame()
-        result = fu.split_df_by_teleport(empty_df)
+        result = fu.split_df_by_indices(empty_df)
         self.assertEqual(result, [])
 
     def test_split_df_by_teleport_no_teleports(self):
         # Test with no teleport locations
-        result = fu.split_df_by_teleport(self.df.copy())
+        result = fu.split_df_by_indices(self.df.copy())
         self.assertEqual(result, [self.df.copy()])
 
     def test_split_df_by_teleport_single_teleport(self):
         # Test with single teleport location
-        result = fu.split_df_by_teleport(self.df.copy())
+        result = fu.split_df_by_indices(self.df.copy())
         expected_dfs = [self.df.iloc[:2, :], self.df.iloc[2:, :]]
         self.assertEqual(result, expected_dfs)
 
     def test_split_df_by_teleport_multiple_teleports(self):
         # Test with multiple teleport locations
-        result = fu.split_df_by_teleport(self.df.copy())
+        result = fu.split_df_by_indices(self.df.copy())
         expected_dfs = [self.df.iloc[:2, :], self.df.iloc[2:4, :], self.df.iloc[4:, :]]
         self.assertEqual(result, expected_dfs)
 

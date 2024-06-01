@@ -292,7 +292,7 @@ class NotebookUtilities(object):
         jitter_list = []
         
         # Iterate over the list of age groups
-        for splits_list in get_splits_list(ages_list):
+        for splits_list in split_list_by_gap(ages_list):
             
             # If there are multiple ages in a group, calculate jitter values for each age in the group
             if (len(splits_list) > 1):
@@ -314,7 +314,7 @@ class NotebookUtilities(object):
 
     
     @staticmethod
-    def get_splits_list(ages_list, value_difference=1, verbose=False):
+    def split_list_by_gap(ages_list, value_difference=1, verbose=False):
         """
         Divides a list of ages into sublists based on gaps in the age sequence.
         
@@ -420,7 +420,7 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def split_row_indices_list(splitting_indices_list, excluded_indices_list=[]):
+    def split_list_by_exclusion(splitting_indices_list, excluded_indices_list=[]):
         """
         Splits a list of row indices into a list of lists, where each inner list
         contains a contiguous sequence of indices that are not in the excluded indices list.
@@ -2377,6 +2377,104 @@ class NotebookUtilities(object):
 
         # Sort and return the list of numeric column names
         return sorted(numeric_columns)
+    
+    
+    @staticmethod
+    def split_df_by_indices(df, indices_list, verbose=False):
+        """
+        Split a DataFrame into a list of smaller DataFrames based on specified
+        row indices.
+        
+        It iterates over the rows of the input DataFrame and accumulates them into
+        sub-DataFrames whenever it encounters a row index that is in the
+        `indices_list`. Once an index is found, the accumulated rows are appended as
+        a separate DataFrame to a list which is returned at the end. The process then
+        continues, accumulating rows again until the next index or the end of the
+        DataFrame is reached.
+        
+        Parameters:
+            df (pandas.DataFrame):
+                The DataFrame to be split.
+            indices_list (pandas.index or list):
+                A list of row indices where the DataFrame should be split.
+            verbose (bool, optional):
+                Whether to print debug output.
+        
+        Returns:
+            list of pandas.DataFrame:
+                A list of DataFrames, each corresponding to a index.
+        """
+        split_dfs = []
+        current_df = DataFrame()
+        
+        # Iterate over the rows of the dataframe
+        for row_index, row_series in df.iterrows():
+            
+            # Check if the current row index is in the indices_list
+            if row_index in indices_list:
+                
+                # Append the current dataframe to the list if it has rows
+                if current_df.shape[0] > 0:
+                    split_dfs.append(current_df)
+                
+                # Reset the current dataframe for the next split
+                current_df = DataFrame()
+            
+            # Print verbose output if enabled
+            if verbose:
+                print(f"Row Index: {row_index}")
+                display(row_series)
+                display(nu.convert_to_df(row_index, row_series))
+                raise Exception("Verbose debugging")
+            
+            # Append the current row to the current DataFrame
+            current_df = concat([current_df, nu.convert_to_df(row_index, row_series)], axis='index')
+        
+        # Append the final dataframe chunk if it has rows
+        if current_df.shape[0] > 0:
+            split_dfs.append(current_df)
+        
+        # Return the list of split DataFrames
+        return split_dfs
+    
+    
+    @staticmethod
+    def split_df_by_iloc(df, indices_list, verbose=False):
+        """
+        Split a DataFrame into a list of smaller DataFrames based on specified
+        iloc indexer start integers.
+        
+        This static method takes a DataFrame (`df`), a list of indices (`indices_list`), and an
+        optional `verbose` flag. It splits the DataFrame into sub-DataFrames based on the provided
+        indices. The split points are defined as the elements of `indices_list` incremented by 1
+        to include the rows up to (but not including) the next index.
+        
+        Parameters:
+            df (pandas.DataFrame):
+                The DataFrame to be split.
+            indices_list (list or array of integers):
+                the iloc indexer start integers to split on.
+            verbose (bool, optional):
+                Whether to print debug output.
+        
+        Returns:
+            List[DataFrame]:
+                A list of DataFrames, the indices of each starting with one of 
+                the elements of indices_list and ending right before the next one.
+        """
+        
+        # Calculate split indices based on index changes before splittable rows
+        split_indices = [0] + list(indices_list[:-1] + 1) + [len(df)]
+        
+        # Gather the sub-dataframes in a list
+        split_dfs = []
+        for i in range(len(split_indices) - 1):
+            start_iloc = split_indices[i]
+            end_iloc = split_indices[i + 1]
+            split_dfs.append(df.iloc[start_iloc:end_iloc])
+        
+        # Return the list of split DataFrames
+        return split_dfs
     
     
     ### LLM Functions ###
