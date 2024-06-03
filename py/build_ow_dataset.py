@@ -3165,10 +3165,10 @@ csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'tool_applied_data
 
 # Remove the patients not in our lists
 if IS_DEBUG:
-    mask_series = csv_stats_df.patient_record_patient_id.isin(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
+    mask_series = csv_stats_df.patient_record_patient_id.isin(fu.ow_patients_list)
     print(csv_stats_df.shape, mask_series.sum(), csv_stats_df[mask_series].shape)
 
-patients_set = set(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
+patients_set = set(fu.ow_patients_list)
 mask_series = ~csv_stats_df.patient_id.isnull()
 assert patients_set.issubset(set(csv_stats_df[mask_series].patient_id)), "Our patients lists are not in the CSVs"
 

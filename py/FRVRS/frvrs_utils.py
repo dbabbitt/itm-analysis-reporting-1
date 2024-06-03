@@ -454,6 +454,7 @@ class FRVRSUtilities(object):
         # self.submarine_patients_list += [c + ' Root' for c in self.submarine_patients_list]
         self.urban_patients_list = ['Marine 1 Male', 'Marine 2 Male', 'Marine 3 Male', 'Marine 4 Male', 'Civilian 1 Female']
         # self.urban_patients_list += [c + ' Root' for c in self.urban_patients_list]
+        self.ow_patients_list = self.desert_patients_list + self.jungle_patients_list + self.submarine_patients_list + self.urban_patients_list
         
         # TA1 patients as of 1:02 PM 5/21/2024
         self.ta1_patients_list = [
@@ -852,6 +853,14 @@ class FRVRSUtilities(object):
             This function computes metrics such as patient count, engagement order, last still engagement, actual engagement distance,
             measure of right ordering, and adherence to SALT protocol for each scene in the logs DataFrame.
         """
+        
+        # Ensure all needed columns are present in logs_df
+        needed_columns = set(self.scene_groupby_columns + ['patient_id', 'action_tick', 'patient_sort', 'injury_severity', 'action_type', 'location_id'])
+        all_columns = set(logs_df.columns)
+        if verbose:
+            print(f'all_columns = "{all_columns}"')
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
+        
         rows_list = []
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
             row_dict = {}
@@ -896,8 +905,44 @@ class FRVRSUtilities(object):
     
     
     def get_is_tag_correct_data_frame(self, logs_df, groupby_column='responder_category', verbose=False):
+        """
+        Create a DataFrame indicating whether tags were applied correctly for patients in each group.
         
-        # Iterate through each patient of each scene of each session of the 11-patient data frame
+        This method iterates through the logs DataFrame, groups data by the specified column,
+        and evaluates if the tag applied to each patient matches the predicted tag based on SALT values.
+        
+        Parameters:
+            logs_df (pandas.DataFrame):
+                DataFrame containing log data of sessions, scenes, and patients.
+            groupby_column (str, optional):
+                Column name to group by when evaluating tag correctness. Default is 'responder_category'.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame:
+                A DataFrame with information about tag correctness for each patient.
+                - session_uuid (str): The session UUID.
+                - scene_id (int): The scene ID.
+                - patient_id (int): The patient ID.
+                - groupby_column (str): The value of the groupby column.
+                - patient_count (int): The number of occurrences for this patient (always 1).
+                - last_tag (object): The last tag applied to the patient (can be NaN).
+                - last_salt (object): The last salt value associated with the patient.
+                - predicted_tag (object): The predicted tag based on the last salt value (can be NaN).
+                - is_tag_correct (bool): Whether the predicted tag matches the last applied tag.
+        
+        Notes:
+            The resulting DataFrame includes the custom categorical types for the tag, SALT, and predicted tag columns,
+            and is sorted based on the custom categorical order of the predicted tag.
+        """
+        
+        # Ensure all needed columns are present in logs_df
+        needed_columns = set([groupby_column, 'action_tick', 'tag_applied_type', 'patient_salt'] + self.patient_groupby_columns)
+        all_columns = set(logs_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
+        
+        # Iterate through groups based on the groupby column
         rows_list = []
         for groupby_value, groupby_df in logs_df.groupby(groupby_column):
             for (session_uuid, scene_id, patient_id), patient_df in groupby_df.sort_values(['action_tick']).groupby(self.patient_groupby_columns):
@@ -907,9 +952,11 @@ class FRVRSUtilities(object):
                 row_dict[groupby_column] = groupby_value
                 row_dict['patient_count'] = 1
                 
-                # Add the TAG_APPLIED tag value for this patient
-                try: last_tag = self.get_last_tag(patient_df)
-                except Exception: last_tag = nan
+                # Get the last tag, salt value, and predicted tag for the patient (handling exceptions)
+                try:
+                    last_tag = self.get_last_tag(patient_df)
+                except Exception:
+                    last_tag = nan
                 row_dict['last_tag'] = last_tag
                 
                 # Add the PATIENT_RECORD SALT value for this patient
@@ -917,15 +964,17 @@ class FRVRSUtilities(object):
                 row_dict['last_salt'] = last_salt
                 
                 # Add the predicted tag value for this patient based on the SALT value
-                try: predicted_tag = self.salt_to_tag_dict.get(last_salt, nan)
-                except Exception: predicted_tag = nan
+                try:
+                    predicted_tag = self.salt_to_tag_dict.get(last_salt, nan)
+                except Exception:
+                    predicted_tag = nan
                 row_dict['predicted_tag'] = predicted_tag
                 
-                # Add if the tagging was correct for this patient, then the row to the list
+                # Add a flag indicating if the tagging was correct
                 row_dict['is_tag_correct'] = bool(last_tag == predicted_tag)
                 rows_list.append(row_dict)
         
-        # Create the tag-to-SALT data frame
+        # Create the tag-to-SALT data frame from the list of row dictionaries
         is_tag_correct_df = DataFrame(rows_list)
         
         # Convert the tagged, SALT, and predicted tag columns to their custom categorical types
@@ -933,7 +982,7 @@ class FRVRSUtilities(object):
         is_tag_correct_df.last_salt = is_tag_correct_df.last_salt.astype(self.salt_category_order)
         is_tag_correct_df.predicted_tag = is_tag_correct_df.predicted_tag.astype(self.colors_category_order)
         
-        # Sort the data frame based on the custom categorical order
+        # Sort the data frame based on the custom categorical order of the predicted tag
         is_tag_correct_df = is_tag_correct_df.sort_values('predicted_tag')
         
         return is_tag_correct_df
@@ -941,11 +990,16 @@ class FRVRSUtilities(object):
     
     def get_percentage_tag_correct_data_frame(self, is_tag_correct_df, groupby_column='responder_category', verbose=False):
         
+        # Ensure all needed columns are present in is_tag_correct_df
+        groupby_columns = ['session_uuid', 'scene_id', groupby_column]
+        needed_columns = set(groupby_columns + ['is_tag_correct', 'patient_count'])
+        all_columns = set(is_tag_correct_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from is_tag_correct_df"
+        
         # Get the percentage tag correct counts for each scene for each group
         rows_list = []
 
-        # Loo[ through each scene and group
-        groupby_columns = ['session_uuid', 'scene_id', groupby_column]
+        # Loop through each scene and group
         for (session_uuid, scene_id, groupby_value), groupby_df in is_tag_correct_df.groupby(groupby_columns):
             row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, groupby_column: groupby_value}
             row_dict['percentage_tag_correct'] = 100 * groupby_df.is_tag_correct.sum() / groupby_df.patient_count.sum()
@@ -1036,6 +1090,12 @@ class FRVRSUtilities(object):
         bool
             True if the patient is expected to die before help arrives and was treated by the participant, False otherwise.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'patient_salt', 'action_tick', 'injury_treated_required_procedure', 'tool_applied_type'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         is_expectant_treated = False
         last_salt = self.get_last_salt(patient_df, verbose=verbose)
         if (last_salt == 'EXPECTANT'):
@@ -1063,6 +1123,11 @@ class FRVRSUtilities(object):
             True if the participant is treating patients expected to die before help arrives, False otherwise.
         """
         
+        # Ensure all needed columns are present in logs_df
+        needed_columns = set(['tool_applied_type', 'action_tick', 'patient_salt', 'injury_treated_required_procedure'])
+        all_columns = set(logs_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
+        
         # Find the expectant among all patients and stop searching if the participant is found treated one
         for (session_uuid, scene_id, patient_id), patient_df in scene_df.groupby(self.patient_groupby_columns):
             is_expectant_treated = self.get_is_expectant_treated(patient_df, verbose=verbose)
@@ -1075,6 +1140,16 @@ class FRVRSUtilities(object):
     
     
     def get_patient_stats_data_frame(self, logs_df, verbose=False):
+        
+        # Ensure all needed columns are present in logs_df
+        needed_columns = set([
+            'injury_severity', 'scene_id', 'tool_applied_sender', 'session_uuid', 'action_tick', 'patient_record_salt', 'tool_applied_type', 'patient_id',
+            'patient_engaged_salt', 'injury_record_required_procedure', 'patient_record_sort', 'injury_required_procedure', 'tag_applied_type', 'injury_treated_required_procedure',
+            'injury_id', 'patient_salt', 'action_type', 'patient_engaged_sort', 'responder_category'
+        ])
+        all_columns = set(logs_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
+        
         rows_list = []
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
             scene_start = self.get_scene_start(scene_df)
@@ -1136,7 +1211,7 @@ class FRVRSUtilities(object):
                 mask_series = patient_df.action_type.isin(['TAG_APPLIED'])
                 row_dict['tag_application_count'] = mask_series.sum()
                 
-                is_expectant_treated = fu.get_is_expectant_treated(patient_df, verbose=False)
+                is_expectant_treated = self.get_is_expectant_treated(patient_df, verbose=False)
                 row_dict['is_expectant_treated'] = is_expectant_treated
                 
                 rows_list.append(row_dict)
@@ -1167,6 +1242,11 @@ class FRVRSUtilities(object):
         float
             The start time of the scene in milliseconds.
         """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_tick'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
         
         # Find the minimum elapsed time to get the scene start time
         run_start = scene_df.action_tick.min()
@@ -1384,6 +1464,14 @@ class FRVRSUtilities(object):
             the right tool was applied after that.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'patient_id', 'injury_id', 'injury_record_required_procedure', 'injury_treated_required_procedure', 
+            'injury_treated_injury_treated', 'injury_treated_injury_treated_with_wrong_treatment', 'tool_applied_type'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Loop through each injury ID and make a determination if it's treated or not
         injury_correctly_treated_count = 0
         for patient_id, patient_df in scene_df.groupby('patient_id'):
@@ -1417,6 +1505,11 @@ class FRVRSUtilities(object):
             remains and another INJURY_TREATED is never logged, even though
             the right tool was applied after that.
         """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set(['injury_severity'])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
         
         # Get the count of all the patient injuries
         all_patient_injuries_count = 0
@@ -1453,6 +1546,11 @@ class FRVRSUtilities(object):
             int: The number of PULSE_TAKEN actions in the scene DataFrame.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Create a boolean mask to filter 'PULSE_TAKEN' actions
         mask_series = scene_df.action_type.isin(['PULSE_TAKEN'])
         
@@ -1480,7 +1578,12 @@ class FRVRSUtilities(object):
         Returns:
             int: The number of TELEPORT actions in the scene DataFrame.
         """
-    
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Create a boolean mask to filter TELEPORT action types
         mask_series = scene_df.action_type.isin(['TELEPORT'])
         
@@ -1734,6 +1837,11 @@ class FRVRSUtilities(object):
             Triage time in milliseconds.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_tick'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Get the scene start and end times
         time_start = self.get_scene_start(scene_df, verbose=verbose)
         time_stop = self.get_scene_end(scene_df, verbose=verbose)
@@ -1852,6 +1960,13 @@ class FRVRSUtilities(object):
             which incorrectly assigns them as a patient that has been seen. 
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'patient_sort', 'patient_id', 'action_type', 'action_tick'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Group patients by their SORT category and get lists of their elapsed times
         sort_dict = {}
         for sort, patient_sort_df in scene_df.groupby('patient_sort'):
@@ -1960,6 +2075,15 @@ class FRVRSUtilities(object):
             that the patient has and the correct tool for every patient because we assigned those ahead of time.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'injury_treated_injury_treated_with_wrong_treatment', 'injury_required_procedure', 'patient_record_salt', 'injury_treated_injury_treated',
+            'action_type', 'injury_treated_required_procedure', 'injury_record_required_procedure', 'patient_id', 'patient_engaged_salt'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+
+        
         # Loop through each injury, examining its required procedures and wrong treatments
         hemorrhage_count = 0; controlled_count = 0
         for patient_id, patient_df in scene_df.groupby('patient_id'):
@@ -2016,6 +2140,15 @@ class FRVRSUtilities(object):
             int: The time to the last hemorrhage control action, or 0 if no hemorrhage control actions exist.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'injury_required_procedure', 'tool_applied_type', 'action_tick', 'patient_record_salt', 'injury_id', 'patient_engaged_salt',
+            'injury_record_required_procedure', 'injury_treated_required_procedure'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+
+        
         # Get the start time of the scene (defined as the minimum action tick in the logs delimited by SESSION_ENDs)
         scene_start = self.get_scene_start(scene_df)
         
@@ -2063,6 +2196,14 @@ class FRVRSUtilities(object):
             for the scenes.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'patient_id', 'patient_record_salt', 'patient_engaged_salt', 'action_tick', 'injury_id', 'injury_record_required_procedure',
+            'injury_treated_required_procedure', 'tool_applied_type', 'action_type'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Iterate through patients in the scene
         times_list = []
         patient_count = 0
@@ -2089,6 +2230,12 @@ class FRVRSUtilities(object):
             'patient_hearing', 'patient_mood', 'patient_pose'
             ]
         columns_list = self.scene_groupby_columns + input_features
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set(columns_list)
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         triage_priority_df = scene_df[columns_list].sort_values(['injury_severity', 'patient_sort'], ascending=[True, True])
         
         return triage_priority_df
@@ -2247,7 +2394,7 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_mean_tool_indecision_time(scene_df, verbose=False):
+    def get_tool_indecision_time(scene_df, verbose=False):
         """
         Calculate the time (between first-in-sequence TOOL_HOVER and last-in-sequence TOOL_SELECTED)
         that responders take to select a tool after hovering over them.
@@ -2303,12 +2450,12 @@ class FRVRSUtilities(object):
         return mean_tool_indecision_time
     
     
-    @staticmethod
-    def get_scene_action_count(scene_df, verbose=False):
+    def get_action_count(self, scene_df, verbose=False):
         """
-        Calculate the total count of specific actions performed within a scene DataFrame.
+        Calculate the total count of the participant's player actions of strictly the PULSE_TAKEN, 
+        TOOL_APPLIED, and TAG_APPLIED action types performed within a scene DataFrame.
         
-        This static method counts the occurrences of specific actions in the responder negotiations list
+        This method counts the occurrences of specific actions in the responder negotiations list
         within the provided `scene_df`. It achieves this by filtering the DataFrame for rows where the 'action_type' column
         matches one of the listed actions. The count of these filtered rows represents the total scene action count.
         
@@ -2323,6 +2470,11 @@ class FRVRSUtilities(object):
                 The total count of actions (PULSE_TAKEN, TOOL_APPLIED, TAG_APPLIED) in the scene.
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Create a mask to filter for specific action types
         mask_series = scene_df.action_type.isin(self.responder_negotiations_list)
         
@@ -2330,6 +2482,162 @@ class FRVRSUtilities(object):
         scene_action_count = scene_df[mask_series].shape[0]
         
         return scene_action_count
+    
+    
+    @staticmethod
+    def get_discarded_count(scene_df, verbose=False):
+        """
+        Calculate the total count of the participant's "indecision metric" of TAG_DISCARDED 
+        and TOOL_DISCARDED action types performed within a scene DataFrame.
+        
+        This static method counts the occurrences of TAG_DISCARDED and TOOL_DISCARDED action 
+        types within the provided `scene_df`. It achieves this by filtering the DataFrame 
+        for rows where the 'action_type' column matches one of the listed discardeds. The 
+        count of these filtered rows represents the total scene discarded count.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including discarded types.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of discardeds (TAG_DISCARDED, TOOL_DISCARDED) in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Create a mask to filter for specific discarded types
+        mask_series = scene_df.action_type.isin(['TAG_DISCARDED', 'TOOL_DISCARDED'])
+        
+        # Calculate discarded count based on the mask
+        discarded_count = scene_df[mask_series].shape[0]
+        
+        return discarded_count
+    
+    
+    @staticmethod
+    def get_patient_injuries_count(scene_df, verbose=False):
+        """
+        Calculate the total count of all the injuries of all the patients within a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including patient and injury IDs.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of patient_injuriess (TAG_DISCARDED, TOOL_DISCARDED) in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'patient_id', 'injury_id'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Get the count of all the patient injuries
+        patient_injuries_count = 0
+        for patient_id, patient_df in scene_df.groupby('patient_id'):
+            patient_injuries_count += patient_df.injury_id.nunique()
+        
+        return patient_injuries_count
+    
+    
+    @staticmethod
+    def get_assessment_count(scene_df, verbose=False):
+        """
+        Calculate the total count of the participant's PATIENT_ENGAGED 
+        and PULSE_TAKEN action types performed within a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including action types.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of assessments (PATIENT_ENGAGED, PULSE_TAKEN) in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Create a mask to filter for specific action types
+        mask_series = scene_df.action_type.isin(['PATIENT_ENGAGED', 'PULSE_TAKEN'])
+        
+        # Calculate assessment count based on the mask
+        assessment_count = scene_df[mask_series].shape[0]
+        
+        return assessment_count
+    
+    
+    @staticmethod
+    def get_treatment_count(scene_df, verbose=False):
+        """
+        Calculate the total count of the participant's INJURY_TREATED action types performed within a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including action types.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of treatments (INJURY_TREATED) in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Create a mask to filter for specific action types
+        mask_series = scene_df.action_type.isin(['INJURY_TREATED'])
+        
+        # Calculate treatment count based on the mask
+        treatment_count = scene_df[mask_series].shape[0]
+        
+        return treatment_count
+    
+    
+    @staticmethod
+    def get_tag_application_count(scene_df, verbose=False):
+        """
+        Calculate the total count of the participant's TAG_APPLIED action types performed within a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including action types.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of tag_applications (TAG_APPLIED) in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Create a mask to filter for specific action types
+        mask_series = scene_df.action_type.isin(['TAG_APPLIED'])
+        
+        # Calculate tag_application count based on the mask
+        tag_application_count = scene_df[mask_series].shape[0]
+        
+        return tag_application_count
     
     
     ### Patient Functions ###
@@ -2347,6 +2655,11 @@ class FRVRSUtilities(object):
         Returns:
             bool: True if the correct bleeding control tool has been applied, False otherwise.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'tool_applied_sender'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         # Filter for actions where a bleeding control tool was applied
         mask_series = patient_df.tool_applied_sender.isin(['AppliedTourniquet', 'AppliedPackingGauze'])
@@ -2379,6 +2692,11 @@ class FRVRSUtilities(object):
         Returns:
             bool or numpy.nan: True if the patient is considered dead, False if not, and numpy.nan if unknown.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'patient_record_salt', 'patient_engaged_salt'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         # Handle missing values in both patient_record_salt and patient_engaged_salt
         if patient_df.patient_record_salt.isnull().all() and patient_df.patient_engaged_salt.isnull().all(): is_patient_dead = nan
@@ -2428,6 +2746,11 @@ class FRVRSUtilities(object):
             bool or numpy.nan: True if the patient is marked as 'still', False if not, and numpy.nan if unknown.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'patient_record_sort', 'patient_engaged_sort'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Handle missing values in both patient_record_sort and patient_engaged_sort
         if patient_df.patient_record_sort.isnull().all() and patient_df.patient_engaged_sort.isnull().all(): is_patient_still = nan
         else:
@@ -2471,6 +2794,11 @@ class FRVRSUtilities(object):
         Returns:
             int: The latest salt value for the patient.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['action_tick', 'patient_salt'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         # Get the last salt value
         try:
@@ -2533,6 +2861,11 @@ class FRVRSUtilities(object):
             str or numpy.nan: The last tag applied to the patient, or numpy.nan if no tags have been applied.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'tag_applied_type', 'action_tick'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Get the last tag value
         mask_series = ~patient_df.tag_applied_type.isnull()
         try: last_tag = patient_df[mask_series].sort_values('action_tick').tag_applied_type.iloc[-1]
@@ -2581,6 +2914,11 @@ class FRVRSUtilities(object):
             bool or numpy.nan: Returns True if the tag is correct, False if incorrect, or numpy.nan if data is insufficient.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'tag_applied_type', 'patient_record_salt', 'action_tick', 'patient_salt'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Ensure both 'tag_applied_type' and 'patient_record_salt' each have at least one non-null value
         mask_series = ~patient_df.tag_applied_type.isnull()
         tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
@@ -2624,6 +2962,12 @@ class FRVRSUtilities(object):
         Returns:
             bool or numpy.nan: Returns True if the patient has severe injuries, False if the patient has no severe injuries.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'injury_id', 'injury_severity', 'injury_required_procedure'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         is_patient_injured = False
         for injury_id, injury_df in patient_df.groupby('injury_id'):
             is_patient_injured = is_patient_injured or self.get_is_injury_severe(injury_df, verbose=verbose)
@@ -2642,6 +2986,11 @@ class FRVRSUtilities(object):
         Returns:
             int: The action tick of the first responder negotiation action, or None if no such action exists.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['action_type', 'action_tick'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         # Filter for actions involving responder negotiations
         # mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'TOOL_APPLIED'])
@@ -2672,6 +3021,11 @@ class FRVRSUtilities(object):
             int: The action tick of the first responder negotiation action, or None if no such action exists.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['action_type', 'action_tick'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Filter for actions involving responder negotiations
         mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
         
@@ -2699,6 +3053,11 @@ class FRVRSUtilities(object):
         Returns:
             int: The action tick of the last responder negotiation action, or numpy.nan if no such action exists.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['action_type', 'action_tick'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         # Filter for actions involving responder negotiations
         mask_series = patient_df.action_type.isin(self.responder_negotiations_list)
@@ -2728,6 +3087,11 @@ class FRVRSUtilities(object):
         Returns:
             bool: True if the responder gazed at the patient at least once, False otherwise.
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = {'action_type'}
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         # Define the mask for the 'PLAYER_GAZE' actions
         mask_series = (patient_df.action_type == 'PLAYER_GAZE')
@@ -2844,6 +3208,11 @@ class FRVRSUtilities(object):
             bool: True if the patient has an injury record indicating hemorrhage, False otherwise.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['injury_required_procedure'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Create a mask to check if injury record requires hemorrhage control procedures
         mask_series = patient_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
         is_hemorrhaging = mask_series.any()
@@ -2874,6 +3243,15 @@ class FRVRSUtilities(object):
         Returns:
             int: The time it takes to control hemorrhage for the patient, in action ticks.
         """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'patient_record_salt', 'patient_engaged_salt', 'action_tick', 'injury_id', 'injury_record_required_procedure',
+            'injury_treated_required_procedure', 'tool_applied_type'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         controlled_time = 0
         is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
         
@@ -2955,6 +3333,11 @@ class FRVRSUtilities(object):
             int: The number of times the patient has been engaged.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['action_type'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Create a mask to filter 'PATIENT_ENGAGED' actions
         mask_series = (patient_df.action_type == 'PATIENT_ENGAGED')
         
@@ -2992,6 +3375,11 @@ class FRVRSUtilities(object):
             function will return None.
         """
         
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['injury_severity'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         # Filter out rows where injury severity is missing
         mask_series = ~patient_df.injury_severity.isnull()
         
@@ -3003,6 +3391,12 @@ class FRVRSUtilities(object):
     
     
     def get_is_life_threatened(self, patient_df, verbose=False):
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['injury_severity', 'injury_required_procedure'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         is_severity_high = (self.get_maximum_injury_severity(patient_df, verbose=verbose) == 'high')
         is_patient_hemorrhaging = self.get_is_patient_hemorrhaging(patient_df, verbose=verbose)
         
@@ -3029,6 +3423,14 @@ class FRVRSUtilities(object):
             remains and another INJURY_TREATED is never logged, even though
             the right tool was applied after that.
         """
+        
+        # Ensure all needed columns are present in injury_df
+        needed_columns = set([
+            'injury_record_required_procedure', 'injury_treated_required_procedure', 'injury_treated_injury_treated', 'injury_treated_injury_treated_with_wrong_treatment', 'action_type'
+        ])
+        all_columns = set(injury_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
+        
         mask_series = ~injury_df.injury_record_required_procedure.isnull()
         required_procedure = injury_df[mask_series].injury_record_required_procedure.mode().squeeze()
         if isinstance(required_procedure, Series):
@@ -3048,6 +3450,14 @@ class FRVRSUtilities(object):
             is_correctly_treated = mask_series.any()
             
         elif patient_df is not None:
+            
+            # Ensure all needed columns are present in patient_df
+            needed_columns = set([
+                'action_tick', 'action_type', 'tool_applied_type'
+            ])
+            all_columns = set(patient_df.columns)
+            assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+            
             millisecond_threshold = 3
             mask_series = (injury_df.action_type == 'INJURY_TREATED')
             action_ticks_list = sorted(injury_df[mask_series].action_tick.unique())
@@ -3081,6 +3491,11 @@ class FRVRSUtilities(object):
             bool: True if the injury is a hemorrhage, False otherwise.
         """
         
+        # Ensure all needed columns are present in injury_df
+        needed_columns = set(['injury_required_procedure'])
+        all_columns = set(injury_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
+        
         # Check if either the injury record or treatment record indicates hemorrhage
         mask_series = injury_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
         is_hemorrhage = mask_series.any()
@@ -3113,6 +3528,20 @@ class FRVRSUtilities(object):
         Returns:
             bool: True if a hemorrhage control tool was applied for the injury, False otherwise.
         """
+        
+        # Ensure all needed columns are present in injury_df
+        needed_columns = set([
+            'patient_id', 'injury_record_required_procedure'
+        ])
+        all_columns = set(injury_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
+        
+        # Ensure all needed columns are present in logs_df
+        needed_columns = set([
+            'patient_id', 'tool_applied_type'
+        ])
+        all_columns = set(logs_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
         
         # Get the entire patient record
         mask_series = ~injury_df.patient_id.isnull()
@@ -3155,6 +3584,21 @@ class FRVRSUtilities(object):
             that the patient has and the correct tool for every patient because we assigned those ahead of time.
         """
         
+        # Ensure all needed columns are present in injury_df
+        needed_columns = set([
+            'injury_treated_required_procedure', 'patient_id', 'action_type', 'injury_treated_injury_treated_with_wrong_treatment', 'injury_required_procedure',
+            'injury_treated_injury_treated', 'injury_record_required_procedure'
+        ])
+        all_columns = set(injury_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
+        
+        # Ensure all needed columns are present in logs_df
+        needed_columns = set([
+            'patient_id', 'tool_applied_type'
+        ])
+        all_columns = set(logs_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
+        
         # Check if an injury record or treatment exists for a hemorrhage-related procedure
         is_injury_hemorrhage = self.get_is_injury_hemorrhage(injury_df, verbose=verbose)
         if not is_injury_hemorrhage: is_controlled = nan
@@ -3190,6 +3634,12 @@ class FRVRSUtilities(object):
         Returns:
             bool: True if the injury is severe, False otherwise.
         """
+        
+        # Ensure all needed columns are present in injury_df
+        needed_columns = set(['injury_required_procedure'])
+        all_columns = set(injury_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
+        
         mask_series = (injury_df.injury_severity == 'high')
         
         return self.get_is_injury_hemorrhage(injury_df, verbose=verbose) and bool(injury_df[mask_series].shape[0])
@@ -3277,6 +3727,11 @@ class FRVRSUtilities(object):
         0=All Stills not visited first, 1=All Stills visited first
         """
         
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'patient_sort', 'patient_id', 'action_type', 'action_tick'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         # Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker
         actual_sequence, ideal_sequence, sort_dict = self.get_actual_and_ideal_patient_sort_sequences(scene_df, verbose=verbose)
         
@@ -3348,6 +3803,11 @@ class FRVRSUtilities(object):
         """
         0=No Treatment or Wrong Treatment, 1=Correct Treatment
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['injury_id', 'injury_record_required_procedure', 'injury_treated_required_procedure', 'action_tick'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
 
         # Get required procedure
         mask_series = (patient_df.injury_id == injury_id) & ~patient_df.injury_record_required_procedure.isnull()
@@ -3370,6 +3830,12 @@ class FRVRSUtilities(object):
         """
         0=No Tag or Wrong Tag, 1=Correct Tag
         """
+        
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['responder_category', 'action_tick', 'tag_applied_type', 'patient_salt'] + self.patient_groupby_columns)
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+        
         try:
             is_tag_correct = self.get_is_tag_correct(patient_df, verbose=verbose)
             if isnan(is_tag_correct): is_tag_correct = 0
@@ -3384,6 +3850,12 @@ class FRVRSUtilities(object):
         """
         0=No Pulse Taken, 1=Pulse Taken
         """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
         mask_series = (patient_df.action_type == 'PULSE_TAKEN')
         is_pulse_taken = int(patient_df[mask_series].shape[0] > 0)
         
@@ -4941,6 +5413,12 @@ class FRVRSUtilities(object):
                 If 'encounter_layout' column is missing from session_df when encounter_layout is None.
                 If session_df is missing any of the required columns: 'action_type', 'location_id', 'action_tick'.
         """
+        
+        # Ensure all needed columns are present in session_df
+        needed_columns = {'action_type', 'location_id', 'action_tick'}
+        all_columns = set(session_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from session_df"
+        
         action_tick = nan
         euclidean_distance = nan
         
@@ -4959,12 +5437,6 @@ class FRVRSUtilities(object):
         # Get the base point for the initial teleport location
         base_point = eval('self.' + encounter_layout.lower() + '_initial_teleport_location')
         if verbose: print(f'base_point = "{base_point}"')
-        
-        # Ensure all needed columns are present in session_df
-        needed_set = {'action_type', 'location_id', 'action_tick'}
-        all_set = set(session_df.columns)
-        if verbose: print(f'all_set = "{all_set}"')
-        assert needed_set.issubset(all_set), f"You're missing {needed_set.difference(all_set)} from session_df"
         
         # Create a mask for TELEPORT actions with non-null location_id values
         mask_series = (session_df.action_type == 'TELEPORT') & ~session_df.location_id.isnull()
@@ -5021,9 +5493,9 @@ class FRVRSUtilities(object):
         """
         
         # Check if required columns are present
-        needed_set = set(['error_type', 'patient_count'])
-        all_set = set(groupby_df.columns)
-        assert needed_set.issubset(all_set), f"groupby_df is missing these columns: {needed_set.difference(all_set)}"
+        needed_columns = set(['error_type', 'patient_count'])
+        all_columns = set(groupby_df.columns)
+        assert needed_columns.issubset(all_columns), f"groupby_df is missing these columns: {needed_columns.difference(all_columns)}"
         
         # Calculate total patient count and error type counts
         df = groupby_df.groupby('error_type').patient_count.sum().reset_index(drop=False)
@@ -5088,10 +5560,11 @@ class FRVRSUtilities(object):
         # Ensure groupby_columns is a list
         if not isinstance(groupby_columns, list): groupby_columns = [groupby_columns]
         
-        # Verify groupby columns exist in error_types_df
-        needed_set = set(groupby_columns)
-        all_set = set(error_types_df.columns)
-        assert needed_set.issubset(all_set), f"error_types_df is missing these columns: {needed_set.difference(all_set)}"
+        # Ensure all needed columns are present in error_types_df
+        needed_columns = set(['patient_count', 'error_type'] + groupby_columns)
+        all_columns = set(error_types_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from error_types_df"
+
         
         # Group by the specified columns and process each group
         rows_list = []

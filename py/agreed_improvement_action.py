@@ -3104,7 +3104,7 @@ for cn in fu.patient_id_columns_list + ['patient_id']:
         csv_stats_df.loc[mask_series, cn] = csv_stats_df[mask_series][cn].map(lambda x: str(x).replace(' Root', ''))
 
 # Remove the patients not in our lists
-mask_series = csv_stats_df.patient_id.isin(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
+mask_series = csv_stats_df.patient_id.isin(fu.ow_patients_list)
 if IS_DEBUG: pre_count = csv_stats_df.shape[0]
 csv_stats_df = csv_stats_df[mask_series]
 if IS_DEBUG: print(f"\nFiltered out {pre_count - csv_stats_df.shape[0]} patients not in the Desert, Jungle, Submarine, or Urban patients lists")

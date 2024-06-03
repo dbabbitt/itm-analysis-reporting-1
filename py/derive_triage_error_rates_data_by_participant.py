@@ -3210,10 +3210,10 @@ csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'tool_applied_data
 
 # Remove the patients not in our lists
 if IS_DEBUG:
-    mask_series = csv_stats_df.patient_record_patient_id.isin(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
+    mask_series = csv_stats_df.patient_record_patient_id.isin(fu.ow_patients_list)
     print(csv_stats_df.shape, mask_series.sum(), csv_stats_df[mask_series].shape)
 
-patients_set = set(fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list)
+patients_set = set(fu.ow_patients_list)
 mask_series = ~csv_stats_df.patient_id.isnull()
 assert patients_set.issubset(set(csv_stats_df[mask_series].patient_id)), "Our patients lists are not in the CSVs"
 
@@ -3556,7 +3556,7 @@ merge_df = csv_stats_df.merge(scene_stats_df[columns_list], on=on_columns, how='
 tag_to_salt_df = fu.get_is_tag_correct_data_frame(merge_df, groupby_column='participant_id')
 
 # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
-patients_list = fu.desert_patients_list + fu.jungle_patients_list + fu.submarine_patients_list + fu.urban_patients_list
+patients_list = fu.ow_patients_list
 assert set(patients_list).issubset(
     set(tag_to_salt_df.patient_id)
 ), f"tag_to_salt_df is missing these patients: {set(patients_list).difference(set(tag_to_salt_df.patient_id))}"
