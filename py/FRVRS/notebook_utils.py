@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python
 # Utility Functions to run Jupyter notebooks.
 # Dave Babbitt <dave.babbitt@bigbear.ai>
@@ -1133,12 +1134,12 @@ class NotebookUtilities(object):
         """
         try:
             if verbose: print('Pickling to {}'.format(osp.abspath(pickle_path)), flush=True)
-            if sys.version_info.major == 2:
-                # Protocol 4 is not handled in python 2
-                df.to_pickle(pickle_path, protocol=2)
-            elif sys.version_info.major == 3:
-                # Pickle protocol must be <= 4
-                df.to_pickle(pickle_path, protocol=min(4, pickle.HIGHEST_PROTOCOL))
+
+            # Protocol 4 is not handled in python 2
+            if sys.version_info.major == 2: df.to_pickle(pickle_path, protocol=2)
+
+            # Pickle protocol must be <= 4
+            elif sys.version_info.major == 3: df.to_pickle(pickle_path, protocol=min(4, pickle.HIGHEST_PROTOCOL))
 
         except Exception as e:
             remove(pickle_path)
@@ -1816,14 +1817,14 @@ class NotebookUtilities(object):
     def get_wiki_tables(self, tables_url_or_filepath, verbose=True):
         """
         Gets a list of DataFrames from Wikipedia tables.
-
+        
         Parameters:
             tables_url_or_filepath: The URL or filepath to the Wikipedia page containing the tables.
             verbose: Whether to print verbose output.
-
+        
         Returns:
             A list of DataFrames containing the data from the Wikipedia tables.
-
+        
         Raises:
             Exception: If there is an error getting the Wikipedia page or the tables from the page.
         """
@@ -1990,7 +1991,7 @@ class NotebookUtilities(object):
                     }
                     
                     # Count unique values in the column
-                    try: row_dict['count_uniques'] = len(df[column_name].unique())
+                    try: row_dict['count_uniques'] = df[column_name].nunique()
                         
                     # Set count of unique values to NaN if an error occurs
                     except Exception: row_dict['count_uniques'] = np.nan
@@ -2311,8 +2312,10 @@ class NotebookUtilities(object):
                 row_dict = self.get_flattened_dictionary(
                     v, row_dict=row_dict, key_prefix=f'{key_prefix}{i}'
                 )
+                
+        # If value is neither a dictionary nor a list
         else:
-            # If value is neither a dictionary nor a list
+            
             # Add the value to the row dictionary
             if key_prefix.startswith('_') and (key_prefix[1:] not in row_dict):
                 key_prefix = key_prefix[1:]
@@ -3024,6 +3027,20 @@ class NotebookUtilities(object):
         return s_str
     
     
+    @staticmethod
+    def get_spearman_rho_value_latex(xdata, ydata):
+        from scipy.stats import spearmanr
+        spearman_corr, p_value = spearmanr(xdata, ydata)
+        rank_correlation_coefficient_statement = str('%.2f' % spearman_corr)
+        
+        if p_value < 0.0001: pvalue_statement = '<0.0001'
+        else: pvalue_statement = '=' + str('%.4f' % p_value)
+        
+        s_str = r'$\rho=' + rank_correlation_coefficient_statement + ',\ p' + pvalue_statement + '$'
+        
+        return s_str
+    
+    
     def first_order_linear_scatterplot(
         self, df, xname, yname, xlabel_str='Overall Capitalism (explanatory variable)',
         ylabel_str='World Bank Gini % (response variable)',
@@ -3115,6 +3132,9 @@ class NotebookUtilities(object):
         most_x_tried = False
         least_y_tried = False
         most_y_tried = False
+        
+        # Initialize all variables to False in a single line
+        least_x_tried = most_x_tried = least_y_tried = most_y_tried = False
         
         for label, x, y in zip(df.index, xdata, ydata):
             if (x == least_x) and not least_x_tried:
