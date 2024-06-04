@@ -3470,7 +3470,7 @@ class NotebookUtilities(object):
         
         # Force the xticks to land on integers only
         xtick_locations = range(len(sequence))
-        xtick_labels = [n + 1 for n in xtick_locations]
+        xtick_labels = [n+1 for n in xtick_locations]
         ax.set_xticks(ticks=xtick_locations)
         ax.set_xticklabels(xtick_labels, minor=False)
         
