@@ -2178,9 +2178,11 @@ class FRVRSUtilities(object):
     
     def get_time_to_hemorrhage_control_per_patient(self, scene_df, verbose=False):
         """
+        Calculate the time to hemorrhage control per patient for the scene.
+        
         According to our research papers we define time to hemorrhage control per patient like this:
         Duration of time from when the patient was first approached by the participant until
-        the time hemorrhage treatment was applied (with a tourniquet or wound packing)
+        the time hemorrhage treatment was applied (with a tourniquet or wound packing).
         
         Parameters:
             scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
@@ -2396,8 +2398,8 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_tool_indecision_time(scene_df, verbose=False):
         """
-        Calculate the time (between first-in-sequence TOOL_HOVER and last-in-sequence TOOL_SELECTED)
-        that responders take to select a tool after hovering over them.
+        Calculate the time (between first-in-sequence TOOL_HOVER and last-in-sequence 
+        TOOL_SELECTED) that responders take to select a tool after hovering over them.
         
         This method processes a DataFrame to find periods of indecision when hovering over tools 
         before selecting one. It calculates the time difference between the first tool hover and 
