@@ -2640,6 +2640,105 @@ class FRVRSUtilities(object):
         return tag_application_count
     
     
+    def get_percent_accurate_tagging(self, scene_df, verbose=False):
+        """
+        Calculate the percentage of correct tagging within a scene DataFrame.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including patient SALT.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The percentage of correct taggings in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set(['participant_id', 'action_tick', 'tag_applied_type', 'patient_salt'] + self.patient_groupby_columns)
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Create the tag-to-SALT data frame
+        tag_to_salt_df = self.get_is_tag_correct_data_frame(scene_df, groupby_column='participant_id')
+        
+        # Create the correct-count-by-tag data frame
+        correct_count_by_tag_df = self.get_percentage_tag_correct_data_frame(tag_to_salt_df, groupby_column='participant_id')
+        
+        # Get the percentage tag correct counts for the scene
+        percent_accurate_tagging = correct_count_by_tag_df.percentage_tag_correct.mean()
+        
+        return percent_accurate_tagging
+    
+    
+    def get_percent_injury_correctly_treated(self, scene_df, verbose=False):
+        """
+        Calculate the percentage of correct injury treatment within a scene.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including patient SALT.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The percentage of correctly treated injuries in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = set([
+            'patient_id', 'injury_id', 'injury_record_required_procedure', 'injury_treated_required_procedure', 
+            'injury_treated_injury_treated', 'injury_treated_injury_treated_with_wrong_treatment', 'tool_applied_type'
+        ])
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Get the count of all the patient injuries for the scene
+        all_patient_injuries_count = self.get_patient_injuries_count(scene_df)
+        
+        # Get the count of all correctly treated injuries for the scene
+        correctly_treated_count = self.get_injury_correctly_treated_count(scene_df)
+        
+        # Compute the percentage of correctly treated injuries for the scene
+        try: percent_injury_correctly_treated = 100 * correctly_treated_count / all_patient_injuries_count
+        
+        # If you get a division-by-zero error, just leave it as NaN
+        except ZeroDivisionError: percent_injury_correctly_treated = nan
+        
+        return percent_injury_correctly_treated
+    
+    
+    def get_treated_expectant_count(self, scene_df, verbose=False):
+        """
+        Calculate the total number of instances where a participant treated a patient expected to die within a scene.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including patient SALT.
+            verbose (bool, optional):
+                If True, prints debug information during processing. Defaults to False.
+        
+        Returns:
+            int:
+                The total count of tag_applications (TAG_APPLIED) in the scene.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'patient_salt', 'action_tick', 'injury_treated_required_procedure', 'tool_applied_type'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Loop through each patient to count the instances where a participant treated a patient expected to die
+        treated_expectant_count = 0
+        for (session_uuid, scene_id, patient_id), patient_df in scene_df.groupby(self.patient_groupby_columns):
+            if self.get_is_expectant_treated(patient_df):
+                treated_expectant_count += 1
+        
+        return treated_expectant_count
+    
+    
     ### Patient Functions ###
     
     

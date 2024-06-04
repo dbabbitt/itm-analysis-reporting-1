@@ -1554,8 +1554,8 @@ class NotebookUtilities(object):
         """
         Generate a step-by-step description of how to perform a function by hand from its comments.
         
-        This static method analyzes the source code comments of a provided function object
-        (`function_obj`) to extract a step-by-step description of the procedure it implements.
+        This static method analyzes the source code comments of a provided function object 
+        `function_obj` to extract a step-by-step description of the procedure it implements. 
         It prints a list containing the formatted description.
         
         Parameters:
@@ -1568,36 +1568,38 @@ class NotebookUtilities(object):
             None
         
         Notes:
-            The function assumes that comments don't end with punctuation
-            and will ignore comments containing the word 'verbose'.
+            The function assumes that the docstring starts with a one-sentence paragraph where 
+            the first word is a verb (in the imperative form, as opposed to the third-person 
+            singular present tense). The function also assumes that comments don't end with 
+            punctuation and will ignore comments containing the word 'verbose'.
         """
         
         # Import required libraries not already imported for the class
         import roman
         
-        # Extract source code and initialize comments list
+        # Extract the source code and initialize the comments list
         source_code = inspect.getsource(function_obj)
         comments_list = []
         
         # Compile regex to find all unprefixed comments in the source code
         comment_regex = re.compile('^ *# ([^\r\n]+)', re.MULTILINE)
         
-        # Split source code to separate docstring and function body
+        # Split the source code to separate docstring and function body
         parts_list = re.split('"""', source_code, 0)
         
         # Clean the docstring part so that only the top one-sentence paragraph is included
         docstring = parts_list[1].strip().split('.')[0]
         
-        # Add description header (with prefix) to the list
+        # Add this description header (with prefix) to the list
         comments_list.append(f'{docstring_prefix} {docstring.lower()} is as follows:')
         
-        # Extract the comments which are not debug statements and add them to the list
+        # Extract the comments which are not debug statements and add them to the list (prefixed with Roman numerals)
         for i, comment_str in enumerate(
             [comment_str for comment_str in comment_regex.findall(source_code) if comment_str and ('verbose' not in comment_str)]
         ):
             comments_list.append(f'    {roman.toRoman(i+1).lower()}. {comment_str}.')
         
-        # If there are any comments, print the procedure description and the list of comments
+        # If there are any comments in the list, print its procedure description and comments on their own lines
         if len(comments_list) > 1:
             print('\n'.join(comments_list))
     
