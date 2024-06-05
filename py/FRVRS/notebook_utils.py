@@ -2334,7 +2334,11 @@ class NotebookUtilities(object):
         """
         
         # Ensure that all columns are in the data frame
-        columns_list = list(set(df.columns).intersection(set(columns_list)))
+        columns_list = sorted(set(df.columns).intersection(set(columns_list)))
+        
+        # Check that there is only one unique column value for all our columns
+        mask_series = (df[columns_list].apply(Series.nunique, axis='columns') <= 1)
+        assert mask_series.all(), f"\n\nYou have more than one {new_column_name} in your columns:\n{df[~mask_series][columns_list]}"
         
         # Create a mask series indicating rows with one unique value across the specified columns
         mask_series = (df[columns_list].apply(Series.nunique, axis='columns') == 1)
