@@ -2776,7 +2776,7 @@ class NotebookUtilities(object):
     
     
     @staticmethod
-    def get_absolute_position(second_point, first_point=None):
+    def get_relative_position(second_point, first_point=None):
         """
         Calculate the absolute position of a point relative to another point.
         
