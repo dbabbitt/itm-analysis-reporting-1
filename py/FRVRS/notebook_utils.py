@@ -1136,7 +1136,7 @@ class NotebookUtilities(object):
 
     def show_dupl_fn_defs_search_string(self, util_path=None, github_folder=None):
         """
-        Identifie and reports duplicate function definitions in Jupyter notebooks and suggests how to consolidate them.
+        Identify and report duplicate function definitions in Jupyter notebooks and suggests how to consolidate them.
         
         Parameters:
             util_path (str, optional): The path to the utility file where refactored functions will be added.
@@ -1886,7 +1886,7 @@ class NotebookUtilities(object):
     @staticmethod
     def get_td_parent(tag_obj, verbose=False):
         """
-        Find and returns the closest ancestor of the given BeautifulSoup tag object that is a 'td' tag.
+        Find and return the closest ancestor of the given BeautifulSoup tag object that is a 'td' tag.
     
         Parameters:
             tag_obj (bs4.element.Tag): The BeautifulSoup tag object whose 'td' ancestor needs to be found.
