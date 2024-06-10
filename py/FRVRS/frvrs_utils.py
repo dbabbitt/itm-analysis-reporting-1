@@ -261,7 +261,7 @@ class FRVRSUtilities(object):
         self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_applied_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
-        self.action_type_to_columns = {
+        self.action_type_to_columns_dict = {
             'BAG_ACCESS': {
                 'bag_access_location': 4,
             },
@@ -3345,13 +3345,13 @@ class FRVRSUtilities(object):
             int: The time it takes to control hemorrhage for the patient, in action ticks.
         """
         
-        # Ensure all needed columns are present in scene_df
+        # Ensure all needed columns are present in patient_df
         needed_columns = set([
             'patient_record_salt', 'patient_engaged_salt', 'action_tick', 'injury_id', 'injury_record_required_procedure',
             'injury_treated_required_procedure', 'tool_applied_type'
         ])
-        all_columns = set(scene_df.columns)
-        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         controlled_time = 0
         is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
@@ -4221,14 +4221,14 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # patientId
             df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
             df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
-        elif action_type not in self.action_type_to_columns:
+        elif action_type not in self.action_type_to_columns_dict:
             if (action_type == 'Participant ID'):
                 df = df.drop(index=row_index)
                 return df
             elif (action_type in ['SESSION_START', 'SESSION_END']):
                 return df
             else:
-                raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
+                raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns_dict:\n{row_series}")
         
         return df
     

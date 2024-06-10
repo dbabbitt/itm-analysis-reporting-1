@@ -639,7 +639,7 @@ class FRVRSUtilities(object):
         self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_applied_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
-        self.action_type_to_columns = {
+        self.action_type_to_columns_dict = {
             'BAG_ACCESS': {
                 'bag_access_location': 4,
             },
@@ -2598,14 +2598,14 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'player_gaze_patient_id'] = row_series[5] # patientId
             df.loc[row_index, 'player_gaze_distance_to_patient'] = row_series[6] # Distance to Patient
             df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
-        elif action_type not in self.action_type_to_columns:
+        elif action_type not in self.action_type_to_columns_dict:
             if (action_type == 'Participant ID'):
                 df = df.drop(index=row_index)
                 return df
             elif (action_type in ['SESSION_START', 'SESSION_END']):
                 return df
             else:
-                raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns:\n{row_series}")
+                raise Exception(f"\n\n{action_type} not found in self.action_type_to_columns_dict:\n{row_series}")
         
         return df
     

@@ -629,7 +629,7 @@ class FRVRSUtilities(object):
         self.tool_applied_data_category_order = CategoricalDtype(categories=self.tool_applied_data_order, ordered=True)
         
         # MCI-VR metrics types dictionary
-        self.action_type_to_columns = {
+        self.action_type_to_columns_dict = {
             'BAG_ACCESS': {
                 'bag_access_location': 4,
             },
