@@ -82,7 +82,7 @@ class TestFormatTimedelta(unittest.TestCase):
         Tests formatting timedelta with minimum unit as seconds.
         """
         for description, delta, expected_string, _ in self.test_cases:
-            formatted_string = fu.format_timedelta(delta)
+            formatted_string = fu.format_timedelta_lambda(delta)
             self.assertEqual(formatted_string, expected_string)
 
     def test_format_minutes(self):
@@ -90,7 +90,7 @@ class TestFormatTimedelta(unittest.TestCase):
         Tests formatting timedelta with minimum unit as minutes.
         """
         for description, delta, _, expected_string in self.test_cases:
-            formatted_string = fu.format_timedelta(delta, minimum_unit="minutes")
+            formatted_string = fu.format_timedelta_lambda(delta, minimum_unit="minutes")
             self.assertEqual(formatted_string, expected_string)
 
     def test_invalid_minimum_unit(self):
@@ -98,7 +98,7 @@ class TestFormatTimedelta(unittest.TestCase):
         Tests handling of invalid minimum_unit argument.
         """
         with self.assertRaises(ValueError):
-            fu.format_timedelta(timedelta(minutes=1), minimum_unit="invalid_unit")
+            fu.format_timedelta_lambda(timedelta(minutes=1), minimum_unit="invalid_unit")
 
     
 ### List Functions ###

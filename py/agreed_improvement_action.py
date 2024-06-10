@@ -961,7 +961,7 @@ class FRVRSUtilities(object):
             row_dict['patient_count'] = patient_count
             
             # Get the chronological order of engagement starts for each patient in the scene
-            actual_engagement_order = self.get_actual_engagement_order(scene_df, include_noninteracteds=True, verbose=False)
+            actual_engagement_order = self.get_order_of_actual_engagement(scene_df, include_noninteracteds=True, verbose=False)
             assert len(actual_engagement_order) == patient_count, f"There are {patient_count} patients in this scene and only {len(actual_engagement_order)} engagement tuples:\n{scene_df[~scene_df.patient_id.isnull()].patient_id.unique().tolist()}\n{actual_engagement_order}"
             unengaged_patient_count = 0; engaged_patient_count = 0
             for engagement_tuple in actual_engagement_order:
@@ -1815,7 +1815,7 @@ class FRVRSUtilities(object):
         return time_to_hemorrhage_control_per_patient
     
     
-    def get_actual_engagement_order(self, scene_df, include_noninteracteds=False, verbose=False):
+    def get_order_of_actual_engagement(self, scene_df, include_noninteracteds=False, verbose=False):
         """
         Get the chronological order of engagement starts for each patient in a scene.
         
@@ -2715,7 +2715,7 @@ class FRVRSUtilities(object):
         return df
     
     
-    def add_modal_column(self, new_column_name, df, verbose=False):
+    def add_modal_column_to_dataframe(self, new_column_name, df, verbose=False):
         if (new_column_name not in df.columns):
             name_parts_list = new_column_name.split('_')
             if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
@@ -2740,7 +2740,7 @@ class FRVRSUtilities(object):
     ### Open World Functions ###
     
     
-    def add_encounter_layout_column(self, csv_stats_df, json_stats_df, verbose=False):
+    def add_encounter_layout_column_to_json_stats(self, csv_stats_df, json_stats_df, verbose=False):
         """
         Add a new column to the JSON statistics DataFrame indicating the environment of each encounter.
         
@@ -2789,7 +2789,7 @@ class FRVRSUtilities(object):
             display(json_stats_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
     
     
-    def add_medical_role_column(self, json_stats_df, anova_df, verbose=False):
+    def add_medical_role_column_to_anova_dataframe(self, json_stats_df, anova_df, verbose=False):
         """
         Add a medical role column to the dataframe by merging with JSON stats.
         
@@ -2854,7 +2854,7 @@ class FRVRSUtilities(object):
         pass
     
     
-    def add_prioritize_severity_column(self, merge_df, new_column_name='prioritize_high_injury_severity_patients', verbose=False):
+    def add_prioritize_severity_column_to_merge_dataframe(self, merge_df, new_column_name='prioritize_high_injury_severity_patients', verbose=False):
         """
         Adds a new column to the DataFrame indicating if a row (patient) has the highest injury severity among engaged patients (engaged_patientXX_injury_severity).
         
@@ -3075,20 +3075,20 @@ for (session_uuid, scene_id), scene_df in csv_stats_df[mask_series].groupby(fu.s
     assert max_scene_id == scene_id, "You've got junk scenes in strange places"
 
 if IS_DEBUG: print("\nModalize separate columns into one")
-csv_stats_df = fu.add_modal_column('patient_id', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('injury_id', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('location_id', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_sort', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_pulse', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_salt', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_hearing', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_breath', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_mood', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('patient_pose', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('injury_severity', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('injury_required_procedure', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('injury_body_region', csv_stats_df, verbose=IS_DEBUG)
-csv_stats_df = fu.add_modal_column('tool_type', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_id', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('injury_id', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('location_id', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_sort', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_pulse', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_salt', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_hearing', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_breath', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_mood', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('patient_pose', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('injury_severity', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('injury_required_procedure', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('injury_body_region', csv_stats_df, verbose=IS_DEBUG)
+csv_stats_df = fu.add_modal_column_to_dataframe('tool_type', csv_stats_df, verbose=IS_DEBUG)
 
 csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'pulse_taken_pulse_name', verbose=IS_DEBUG)
 csv_stats_df = fu.convert_column_to_categorical(csv_stats_df, 'tool_applied_data', verbose=IS_DEBUG)
@@ -3638,8 +3638,8 @@ def entitle_column_name(column_name):
 if IS_DEBUG: print('\nWrite up the steps to do the ANOVA stats columns calculations')
 comment_regex = re.compile('^ *# ([^\r\n]+)', MULTILINE)
 function_call_dict = {
-    'encounter_layout': 'fu.add_encounter_layout_column', 'medical_role': 'fu.add_medical_role_column',
-    'mean_prioritize_high_injury_severity_patients': 'fu.add_prioritize_severity_column'
+    'encounter_layout': 'fu.add_encounter_layout_column_to_json_stats', 'medical_role': 'fu.add_medical_role_column_to_anova_dataframe',
+    'mean_prioritize_high_injury_severity_patients': 'fu.add_prioritize_severity_column_to_merge_dataframe'
 }
 engaged_patient_columns_list = []
 file_path = osp.join(nu.saves_text_folder, 'how_to_do_calculations.txt')

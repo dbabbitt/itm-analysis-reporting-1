@@ -486,7 +486,7 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
         scene_df = pd.DataFrame(columns=['action_type', 'location_id', 'action_tick'])
 
         # Call the function and check the returned value
-        ideal_order = self.get_ideal_engagement_order(scene_df)
+        ideal_order = self.get_order_of_ideal_engagement(scene_df)
 
         self.assertEqual(ideal_order, [])
     
@@ -515,7 +515,7 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
         mock_nu.get_nearest_neighbor.side_effect = lambda x, y: y[0]
 
         # Call the function
-        ideal_order = self.get_ideal_engagement_order(scene_df)
+        ideal_order = self.get_order_of_ideal_engagement(scene_df)
 
         # Assertions
         self.assertEqual(ideal_order, [tuple(mock_get_engagement_starts_order.return_value.iloc[0])])
@@ -534,7 +534,7 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
         self.severity_category_order = ["low", "medium", "high"]
 
         # Call the function
-        ideal_order = self.get_ideal_engagement_order(scene_df)
+        ideal_order = self.get_order_of_ideal_engagement(scene_df)
 
         # Expected order: [('high', 4.0, 5.0, 6.0, 'low', 'low'), ('medium', 1.0, 2.0, 3.0, 'low', 'low')]
         expected_order = [('high', 4.0, 5.0, 6.0, 'low', 'low'), ('medium', 1.0, 2.0, 3.0, 'low', 'low')]
@@ -542,13 +542,13 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
 
     @patch("your_module.nu.get_nearest_neighbor")  # Replace "your_module" with the actual module name
     def test_ideal_engagement_order_high_severity_first(self, mock_get_nearest_neighbor):
-        # Set up mock data for scene_df, get_actual_engagement_order, and nu.get_nearest_neighbor
+        # Set up mock data for scene_df, get_order_of_actual_engagement, and nu.get_nearest_neighbor
         scene_df = pd.DataFrame(...)  # Create a DataFrame with appropriate test data
-        self.instance.get_actual_engagement_order = MagicMock(return_value=[...])  # Set up the mock for get_actual_engagement_order
+        self.instance.get_order_of_actual_engagement = MagicMock(return_value=[...])  # Set up the mock for get_order_of_actual_engagement
         mock_get_nearest_neighbor.side_effect = [...]  # Set up a sequence of nearest neighbors for testing
 
         # Call the function and make assertions on the result
-        ideal_engagement_order = self.instance.get_ideal_engagement_order(scene_df)
+        ideal_engagement_order = self.instance.get_order_of_ideal_engagement(scene_df)
 
         # Assert that patients with high severity are prioritized correctly
         self.assertEqual(ideal_engagement_order[0][5], 'high')  # Assuming 'injury_severity' is at index 5 in the tuple
@@ -568,7 +568,7 @@ class TestGetIdealEngagementOrder(unittest.TestCase):
         mock_nu.get_nearest_neighbor.return_value = None
 
         # Call the function
-        ideal_order = self.get_ideal_engagement_order(scene_df)
+        ideal_order = self.get_order_of_ideal_engagement(scene_df)
 
         # Assertions
         self.assertEqual(ideal_order, [])
@@ -1065,26 +1065,26 @@ class TestGetEngagementStartsOrder(unittest.TestCase):
     def test_empty_dataframe(self):
         # Test with an empty scene DataFrame
         empty_df = pd.DataFrame(columns=self.scene_data.keys())
-        engagement_order = self.get_actual_engagement_order(empty_df)
+        engagement_order = self.get_order_of_actual_engagement(empty_df)
         self.assertEqual(engagement_order, [])
 
     def test_no_responder_interaction(self):
         # Test with a patient with no responder interactions
         patient_df = self.scene_df[self.scene_df["patient_id"] == 2]
-        engagement_order = self.get_actual_engagement_order(patient_df)
+        engagement_order = self.get_order_of_actual_engagement(patient_df)
         self.assertEqual(engagement_order, [])
 
     def test_single_engagement(self):
         # Test with a single engagement
         patient_df = self.scene_df[self.scene_df["patient_id"] == 3]
-        engagement_order = self.get_actual_engagement_order(patient_df)
+        engagement_order = self.get_order_of_actual_engagement(patient_df)
         expected_order = [(3, 300, (7, 8, 9), "BLUE", 0.9, "Critical")]
         self.assertEqual(engagement_order, expected_order)
 
     def test_multiple_engagements(self):
         # Test with multiple engagements for a patient
         patient_df = self.scene_df[self.scene_df["patient_id"] == 1]
-        engagement_order = self.get_actual_engagement_order(patient_df)
+        engagement_order = self.get_order_of_actual_engagement(patient_df)
         expected_order = [
             (1, 200, (1, 2, 3), "RED", None, "Critical"),
             (1, 300, (0.0, 0.0), None, None, "Critical"),
@@ -1096,7 +1096,7 @@ class TestGetEngagementStartsOrder(unittest.TestCase):
         self.scene_data["location_id"][1] = None
         self.scene_df = pd.DataFrame(self.scene_data)
         patient_df = self.scene_df[self.scene_df["patient_id"] == 1]
-        engagement_order = self.get_actual_engagement_order(patient_df)
+        engagement_order = self.get_order_of_actual_engagement(patient_df)
         expected_order = [
             (1, 100, (0.0, 0.0), None, 0.7, "Critical"),
             (1, 300, (0.0, 0.0), None, None, "Critical"),
@@ -1110,7 +1110,7 @@ class TestGetDistractedEngagementOrder(unittest.TestCase):
         self.mock_scene_df = MagicMock()
 
     @patch("distracted_engagement_utils.nu.get_nearest_neighbor")
-    def test_get_distracted_engagement_order_with_tuples_list(self, mock_get_nearest_neighbor):
+    def test_get_order_of_distracted_engagement_with_tuples_list(self, mock_get_nearest_neighbor):
         # Mock data
         mock_tuples_list = [
             (1, 2, (1.0, 2.0)),
@@ -1126,7 +1126,7 @@ class TestGetDistractedEngagementOrder(unittest.TestCase):
         self.mock_scene_df.__getitem__.return_value = self.mock_scene_df
 
         # Call the function
-        distracted_order = get_distracted_engagement_order(self, self.mock_scene_df, mock_tuples_list)
+        distracted_order = get_order_of_distracted_engagement(self, self.mock_scene_df, mock_tuples_list)
 
         # Expected output
         expected_order = [mock_tuples_list[2], mock_tuples_list[0]]
@@ -1136,7 +1136,7 @@ class TestGetDistractedEngagementOrder(unittest.TestCase):
         self.assertEqual(distracted_order, expected_order)
 
     @patch("distracted_engagement_utils.nu.get_nearest_neighbor")
-    def test_get_distracted_engagement_order_no_tuples_list(self, mock_get_nearest_neighbor):
+    def test_get_order_of_distracted_engagement_no_tuples_list(self, mock_get_nearest_neighbor):
         # Mock data
         mock_player_location = (1.0, 2.0)
         mock_nearest_neighbor = (2.0, 3.0)
@@ -1147,7 +1147,7 @@ class TestGetDistractedEngagementOrder(unittest.TestCase):
         self.mock_scene_df.__getitem__.return_value = self.mock_scene_df
 
         # Call the function
-        distracted_order = get_distracted_engagement_order(self, self.mock_scene_df)
+        distracted_order = get_order_of_distracted_engagement(self, self.mock_scene_df)
 
         # Expected output (empty list)
         expected_order = []

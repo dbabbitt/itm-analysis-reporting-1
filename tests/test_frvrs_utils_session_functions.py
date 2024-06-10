@@ -236,11 +236,11 @@ class TestGetDistanceDeltasDataFrame(unittest.TestCase):
             # Implement your logic to return the engagement order
             return [('A', 10), ('B', 20), ('C', 30)]
 
-        def mock_get_ideal_engagement_order(self, df, verbose=False):
+        def mock_get_order_of_ideal_engagement(self, df, verbose=False):
             # Implement your logic to return the ideal order
             return [('C', 30), ('A', 10), ('B', 20)]
 
-        def mock_get_distracted_engagement_order(self, df, tuples_list=None, verbose=False):
+        def mock_get_order_of_distracted_engagement(self, df, tuples_list=None, verbose=False):
             # Implement your logic to return the distracted order
             return [('B', 20), ('A', 10), ('C', 30)]
 
@@ -252,9 +252,9 @@ class TestGetDistanceDeltasDataFrame(unittest.TestCase):
             # Implement your logic to get the measure of right ordering
             return 0.5
 
-        self.get_actual_engagement_order = mock_get_engagement_starts_order
-        self.get_ideal_engagement_order = mock_get_ideal_engagement_order
-        self.get_distracted_engagement_order = mock_get_distracted_engagement_order
+        self.get_order_of_actual_engagement = mock_get_engagement_starts_order
+        self.get_order_of_ideal_engagement = mock_get_order_of_ideal_engagement
+        self.get_order_of_distracted_engagement = mock_get_order_of_distracted_engagement
         self.get_scene_start = mock_get_scene_start
         self.get_measure_of_right_ordering = mock_get_measure_of_right_ordering
 

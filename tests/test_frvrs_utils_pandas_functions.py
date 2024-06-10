@@ -57,7 +57,7 @@ class TestShowTimeStatistics(unittest.TestCase):
         self.describable_df = pd.DataFrame(data)
         self.columns_list = ['date_col', 'time_col']
 
-    # Mock methods for get_statistics and format_timedelta
+    # Mock methods for get_statistics and format_timedelta_lambda
     @staticmethod
     def mock_get_statistics(df, columns):
         # Simulate get_statistics function to return a DataFrame with specific values
@@ -68,14 +68,14 @@ class TestShowTimeStatistics(unittest.TestCase):
                             index=columns)
 
     @staticmethod
-    def mock_format_timedelta(td):
-        # Simulate format_timedelta function to return a formatted string
+    def mock_format_timedelta_lambda(td):
+        # Simulate format_timedelta_lambda function to return a formatted string
         return td.strftime('%H:%M:%S')
 
     def test_show_time_statistics(self):
-        # Patch get_statistics and format_timedelta methods with mocks
+        # Patch get_statistics and format_timedelta_lambda methods with mocks
         with unittest.mock.patch.object(fu, 'show_time_statistics.get_statistics', self.mock_get_statistics), \
-             unittest.mock.patch.object(fu, 'show_time_statistics.format_timedelta', self.mock_format_timedelta):
+             unittest.mock.patch.object(fu, 'show_time_statistics.format_timedelta_lambda', self.mock_format_timedelta_lambda):
 
             # Call the function
             self.show_time_statistics(self.describable_df, self.columns_list)

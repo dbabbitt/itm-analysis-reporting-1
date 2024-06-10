@@ -251,7 +251,8 @@ class NotebookUtilities(object):
         Parameters:
             noun_list (list or str): A list of nouns to be concatenated.
             and_or (str, optional): The conjunction used to join the nouns. Default is 'and'.
-            verbose (bool, optional): If True, prints verbose output. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             str
@@ -537,7 +538,7 @@ class NotebookUtilities(object):
             item_list (list):
                 The list of items to be compared for similarity.
             verbose (bool, optional):
-                If True, print debug information. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame:
@@ -630,7 +631,8 @@ class NotebookUtilities(object):
             right_list (list): List containing items to be compared (right side).
             rename_dict (dict, optional): Dictionary specifying custom column names in the output DataFrame.
                 Default is {'left_item': 'left_item', 'right_item': 'right_item'}.
-            verbose (bool, optional): If True, print the time taken for the computation. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame: DataFrame containing columns: 'left_item', 'right_item', and 'max_similarity'.
@@ -755,7 +757,7 @@ class NotebookUtilities(object):
                 The input sequence to analyze. If not a string, it will be 
                 converted to a string.
             verbose (bool, optional):
-                If True, print debug information. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int
@@ -821,7 +823,7 @@ class NotebookUtilities(object):
             sequence (list):
                 The input sequence for which turbulence is to be computed.
             verbose (bool, optional):
-                If True, print debug information. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             float
@@ -1243,7 +1245,8 @@ class NotebookUtilities(object):
             text_editor_path (str, optional): The path to the text editor executable. Default is Notepad++.
             continue_execution (bool, optional): If False, interacts with the subprocess and attempts to open the
                 parent folder in explorer if it gets a bad return code. Default is True.
-            verbose (bool, optional): If True, prints debug output. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
@@ -1598,7 +1601,7 @@ class NotebookUtilities(object):
             raise_exception (bool, optional):
                 Whether to raise an exception if the pickle fails. Defaults to False.
             verbose (bool, optional):
-                Whether to print debug or status messages. Defaults to True.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
@@ -1647,7 +1650,8 @@ class NotebookUtilities(object):
             csv_name (str): The name of the CSV file (with or without the '.csv' extension).
             folder_path (str, optional): The path to the folder containing the CSV file.
                 If None, uses the default saves_csv_folder specified in the class.
-            verbose (bool, optional): If True, print the absolute path of the CSV file. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             bool: True if the CSV file exists, False otherwise.
@@ -1881,8 +1885,8 @@ class NotebookUtilities(object):
 
         Parameters:
             include_index: Whether to include the index in the CSV files.
-            verbose:
-                Whether to print debug or status messages. Defaults to True.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
             **kwargs: A dictionary of data frames to save. The keys of the dictionary
                       are the names of the CSV files to save the data frames to.
 
@@ -1918,7 +1922,7 @@ class NotebookUtilities(object):
         
         Parameters:
             verbose (bool, optional):
-                Whether to print debug or status messages. Defaults to True.
+                Whether to print debug or status messages. Defaults to False.
             **kwargs (dict):
                 The objects to store. The keys of the dictionary are the names of 
                 the objects, and the values are the objects themselves.
@@ -1968,7 +1972,8 @@ class NotebookUtilities(object):
             contains_str (str, optional): If provided, only print attributes containing this substring (case-insensitive).
             not_contains_str (str, optional): If provided, exclude printing attributes containing this
                 substring (case-insensitive).
-            verbose (bool, optional): If True, print additional information during processing.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             list[str]: A list of attributes in the module that match the filtering criteria.
@@ -2039,7 +2044,7 @@ class NotebookUtilities(object):
             python_folder (str, optional):
                 Relative path to the folder to scan for Python files
             verbose (bool, optional):
-                Whether to print debug or status messages. Defaults to True.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
@@ -2166,7 +2171,7 @@ class NotebookUtilities(object):
                 Whether to update the modules list before checking if the module 
                 is installed. Defaults to False.
             verbose (bool, optional):
-                Whether to print debug or status messages. Defaults to True.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
@@ -2264,7 +2269,7 @@ class NotebookUtilities(object):
                 # If there are any comments in the list, print its procedure description and comments on their own lines
                 if len(comments_list) > 1:
                     comments_list = self.apply_multilevel_numbering(
-                        comments_list, level_map={0: "", 4: "A. ", 8: "1. ", 12: "a) ", 16: "1) ", 20: "i) "}, add_indent_back_in=True
+                        comments_list, level_map={0: "", 4: "I. ", 8: "A. ", 12: "1. ", 16: "i) ", 20: "a) ", 24: "1) "}, add_indent_back_in=True
                     )
                     print('\n'.join(comments_list))
     
@@ -2279,7 +2284,8 @@ class NotebookUtilities(object):
         
         Parameters:
             url (str): The URL from which to extract the filename.
-            verbose (bool, optional): If True, print additional information (default is False).
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             str: The extracted filename from the URL.
@@ -2304,7 +2310,7 @@ class NotebookUtilities(object):
             tag_obj (bs4.element.Tag):
                 The BeautifulSoup tag object to extract the style column from.
             verbose (bool, optional):
-                If True, display intermediate steps for debugging. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             bs4.element.Tag
@@ -2338,7 +2344,8 @@ class NotebookUtilities(object):
     
         Parameters:
             tag_obj (bs4.element.Tag): The BeautifulSoup tag object whose 'td' ancestor needs to be found.
-            verbose (bool, optional): If True, display intermediate steps for debugging. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
     
         Returns:
             bs4.element.Tag: The closest 'td' ancestor tag object.
@@ -2364,7 +2371,8 @@ class NotebookUtilities(object):
                           will be downloaded to the `downloads` subdirectory of the data folder.
             exist_ok: If True, the function will not raise an error if the file
                       already exists.
-            verbose: If True, the function will print progress information to the
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
                      console.
 
         Returns:
@@ -2400,7 +2408,7 @@ class NotebookUtilities(object):
             driver (selenium.webdriver, optional): Whether to get the page source from the Selenium
                 webpage. Defaults to None.
             verbose (bool, optional):
-                Whether to print debug or status messages. Defaults to True.
+                Whether to print debug or status messages. Defaults to False.
 
         Returns:
             BeautifulSoup: The BeautifulSoup soup object for the given page.
@@ -2439,7 +2447,8 @@ class NotebookUtilities(object):
     
         Parameters:
             tables_url_or_filepath (str): The URL or file path of the page containing tables.
-            verbose (bool, optional): If True, print summary information about the retrieved tables, sorted by size. Default is True.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
     
         Returns:
             List[pandas.DataFrame]: A list of DataFrames containing tables from the specified source.
@@ -2484,8 +2493,8 @@ class NotebookUtilities(object):
         
         Parameters:
             tables_url_or_filepath: The URL or filepath to the Wikipedia page containing the tables.
-            verbose:
-                Whether to print debug or status messages. Defaults to True.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             A list of DataFrames containing the data from the Wikipedia tables.
@@ -2534,7 +2543,7 @@ class NotebookUtilities(object):
             page_titles_list (list of str):
                 A list of titles of the Wikipedia pages containing the infoboxes.
             verbose (bool, optional):
-                Whether to print debug or status messages. Defaults to True.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame
@@ -2690,7 +2699,8 @@ class NotebookUtilities(object):
             df (pandas.DataFrame): The DataFrame to analyze.
             analysis_columns (list of str, optional): A list of specific columns to analyze.
                 If None, all columns will be analyzed. Defaults to None.
-            verbose (bool, optional): If True, display intermediate steps for debugging. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame: A DataFrame containing the descriptive statistics of the analyzed columns.
@@ -2781,7 +2791,8 @@ class NotebookUtilities(object):
         Parameters:
             describable_df (pandas.DataFrame): The DataFrame to calculate descriptive statistics for.
             columns_list (list of str): A list of specific columns to calculate statistics for.
-            verbose (bool): If True, display debug information.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame: A DataFrame containing the descriptive statistics for the analyzed columns.
@@ -2878,7 +2889,8 @@ class NotebookUtilities(object):
             df (pandas.DataFrame): The input DataFrame.
             search_regex (re.Pattern, optional): The compiled regular expression pattern for identifying references.
                 If None, a default regex pattern is used to match names followed by '_Root'.
-            verbose (bool, optional): If True, print additional information during processing. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             list: A list of column names that contain references based on the specified regex pattern.
@@ -2919,7 +2931,8 @@ class NotebookUtilities(object):
             columns_list (list of str): The list of column names to investigate for matches.
             search_regex (re.Pattern, optional): The compiled regular expression pattern for identifying matches.
                 If None, the default pattern for detecting references will be used.
-            verbose (bool, optional): If True, print additional information during processing. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame: A DataFrame containing an example row for each column in columns_list that matches the regex pattern.
@@ -2967,7 +2980,7 @@ class NotebookUtilities(object):
             row_index (int): The index to be assigned to the new DataFrame row.
             row_series (pandas.Series): The Pandas Series representing the row's data.
             verbose (bool, optional):
-                Whether to print debug or status messages. Default is True.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame: A single-row DataFrame containing the data from the input Pandas Series.
@@ -4362,7 +4375,7 @@ class NotebookUtilities(object):
             color_dict (dict):
                 A dictionary mapping elements from the alphabet to desired colors.
             verbose (bool, optional):
-                If True, print debug information. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             list of str
@@ -4604,7 +4617,8 @@ class NotebookUtilities(object):
             last_element: The element in alphabet_list that will be forced to the end if
                            already in the list. Defaults to SESSION_END.
             alphabet_list: A list of strings or integers representing the set of elements in sequence.
-            verbose: A boolean indicating whether to print verbose output.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             A matplotlib figure and axes objects.

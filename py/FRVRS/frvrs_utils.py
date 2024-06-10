@@ -27,18 +27,15 @@ class FRVRSUtilities(object):
     functions needed to manipulate FRVRS logger
     data.
     
-    Examples
-    --------
-    
-    import sys
-    import os.path as osp
-    sys.path.insert(1, osp.abspath('../py'))
-    from FRVRS import fu
+    Examples:
+        import sys
+        import os.path as osp
+        sys.path.insert(1, osp.abspath('../py'))
+        from FRVRS import fu
     """
     
     
     def __init__(self, data_folder_path=None, saves_folder_path=None, verbose=False):
-        self.verbose = verbose
         
         # Create the data folder if it doesn't exist
         if data_folder_path is None: self.data_folder = '../data'
@@ -473,7 +470,7 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def format_timedelta(timedelta, minimum_unit='seconds'):
+    def format_timedelta_lambda(timedelta, minimum_unit='seconds'):
         """
         Formats a timedelta object to a string.
         
@@ -541,15 +538,13 @@ class FRVRSUtilities(object):
         """
         Generate a new file name based on the action tick extracted from the old file.
         
-        Parameters
-        ----------
-        old_file_name : str
-            The name of the old log file.
+        Parameters:
+            old_file_name (str):
+                The name of the old log file.
 
-        Returns
-        -------
-        str
-            The new file name with the updated action tick.
+        Returns:
+            str
+                The new file name with the updated action tick.
         """
 
         # Construct the full path of the old file
@@ -587,19 +582,17 @@ class FRVRSUtilities(object):
         Group the FRVRS logs DataFrame by session UUID, with optional additional grouping by an extra column,
         based on the provided mask and extra column parameters.
 
-        Parameters
-        ----------
-        grouped_df : pandas.DataFrame, optional
-            DataFrame containing the FRVRS logs data.
-        mask_series : Series, optional
-            Boolean mask to filter rows of grouped_df, by default None.
-        extra_column : str, optional
-            Additional column for further grouping, by default None.
-
-        Returns
-        -------
-        pandas.DataFrameGroupBy
-            GroupBy object grouped by session UUID, and, if provided, the extra column.
+        Parameters:
+            grouped_df (pandas.DataFrame, optional):
+                DataFrame containing the FRVRS logs data.
+            mask_series (Series, optional):
+                Boolean mask to filter rows of grouped_df, by default None.
+            extra_column (str, optional):
+                Additional column for further grouping, by default None.
+        
+        Returns:
+            pandas.DataFrameGroupBy
+                GroupBy object grouped by session UUID, and, if provided, the extra column.
         """
         
         # Apply grouping based on the provided parameters
@@ -621,19 +614,17 @@ class FRVRSUtilities(object):
         """
         Check if a session DataFrame has only one triage run.
 
-        Parameters
-        ----------
-        session_df : pandas.DataFrame
-            DataFrame containing session data for a specific file.
-        file_name : str, optional
-            The name of the file to be checked, by default None.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
-
-        Returns
-        -------
-        bool
-            True if the file contains only one triage run, False otherwise.
+        Parameters:
+            session_df (pandas.DataFrame):
+                DataFrame containing session data for a specific file.
+            file_name (str, optional):
+                The name of the file to be checked, by default None.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            bool
+                True if the file contains only one triage run, False otherwise.
         """
         
         # Check if 'is_a_one_triage_file' column exists in the session data frame
@@ -677,18 +668,16 @@ class FRVRSUtilities(object):
     def get_file_name(session_df, verbose=False):
         """
         Retrieve the unique file name associated with the given session DataFrame.
-
-        Parameters
-        ----------
-        session_df : pandas.DataFrame
-            DataFrame containing session data.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
-
-        Returns
-        -------
-        str
-            The unique file name associated with the session DataFrame.
+        
+        Parameters:
+            session_df (pandas.DataFrame):
+                DataFrame containing session data.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            str
+                The unique file name associated with the session DataFrame.
         """
         
         # Extract the unique file name from the session DataFrame
@@ -704,18 +693,16 @@ class FRVRSUtilities(object):
     def get_logger_version(session_df_or_file_path, verbose=False):
         """
         Retrieve the unique logger version associated with the given session DataFrame.
-
-        Parameters
-        ----------
-        session_df_or_file_path : pandas.DataFrame or str
-            DataFrame containing session data or file path.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
-
-        Returns
-        -------
-        str
-            The unique logger version associated with the session DataFrame.
+        
+        Parameters:
+            session_df_or_file_path (pandas.DataFrame or str):
+                DataFrame containing session data or file path.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            str
+                The unique logger version associated with the session DataFrame.
         """
         
         # Assume there are only three versions
@@ -742,17 +729,15 @@ class FRVRSUtilities(object):
         """
         Check if a session DataFrame is a duplicate file, i.e., if there is more than one unique file name for the session UUID.
         
-        Parameters
-        ----------
-        session_df : pandas.DataFrame
-            DataFrame containing session data for a specific session UUID.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
+        Parameters:
+            session_df (pandas.DataFrame):
+                DataFrame containing session data for a specific session UUID.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        bool
-            True if the file has duplicate names for the same session UUID, False otherwise.
+        Returns:
+            bool
+                True if the file has duplicate names for the same session UUID, False otherwise.
         """
         
         # Filter all the rows that have more than one unique value in the file_name for the session_uuid
@@ -778,14 +763,16 @@ class FRVRSUtilities(object):
     def get_last_still_engagement(actual_engagement_order, verbose=False):
         """
         A utility method to retrieve the timestamp of the last engagement of still patients.
-
+        
         Parameters:
             actual_engagement_order (array_like): A 2D array containing engagement information for patients.
-            verbose (bool, optional): If True, prints debug output. Default is False.
-
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
         Returns:
-            last_still_engagement (float): The timestamp of the last engagement of still patients.
-
+            last_still_engagement (float)
+                The timestamp of the last engagement of still patients.
+        
         Notes:
             This method assumes that the input array contains columns in the following order:
             1. 'patient_id'
@@ -819,7 +806,8 @@ class FRVRSUtilities(object):
                 A chronologically-ordered list containing tuples of engagements, 
                 where each tuple contains information about the engagement.
                 The third element of the tuple must be a location tuple.
-            verbose (bool, optional): If True, prints debug information. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             float: The total Euclidean distance covered during actual engagements.
@@ -843,11 +831,14 @@ class FRVRSUtilities(object):
         Compute various metrics related to engagement distances and ordering for scenes in logs dataframe.
         
         Parameters:
-            logs_df (pandas DataFrame): Dataframe containing logs of engagement scenes.
-            verbose (bool, optional): Verbosity flag for debugging output, by default False.
+            logs_df (pandas DataFrame):
+                Dataframe containing logs of engagement scenes.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            pandas.DataFrame: DataFrame containing computed metrics for each scene.
+            pandas.DataFrame
+                DataFrame containing computed metrics for each scene.
         
         Notes:
             This function computes metrics such as patient count, engagement order, last still engagement, actual engagement distance,
@@ -871,7 +862,7 @@ class FRVRSUtilities(object):
             row_dict['patient_count'] = patient_count
             
             # Get the chronological order of engagement starts for each patient in the scene
-            actual_engagement_order = self.get_actual_engagement_order(scene_df, include_noninteracteds=True, verbose=False)
+            actual_engagement_order = self.get_order_of_actual_engagement(scene_df, include_noninteracteds=True, verbose=False)
             assert len(actual_engagement_order) == patient_count, f"There are {patient_count} patients in this scene and only {len(actual_engagement_order)} engagement tuples:\n{scene_df[~scene_df.patient_id.isnull()].patient_id.unique().tolist()}\n{actual_engagement_order}"
             unengaged_patient_count = 0; engaged_patient_count = 0
             for engagement_tuple in actual_engagement_order:
@@ -917,7 +908,7 @@ class FRVRSUtilities(object):
             groupby_column (str, optional):
                 Column name to group by when evaluating tag correctness. Default is 'responder_category'.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame:
@@ -1076,19 +1067,17 @@ class FRVRSUtilities(object):
     
     def get_is_expectant_treated(self, patient_df, verbose=False):
         """
-        Gets whether or not a patient expected to die before help arrives is treated by the participant.
+        Determine whether a patient (who was expected to die before help arrives) has been treated by the participant.
         
-        Parameters
-        ----------
-        patient_df : pandas.DataFrame
-            DataFrame containing data for a specific patient.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
+        Parameters:
+            patient_df (pandas.DataFrame):
+                DataFrame containing data for a specific patient.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        bool
-            True if the patient is expected to die before help arrives and was treated by the participant, False otherwise.
+        Returns:
+            bool
+                True if the patient is expected to die before help arrives and was treated by the participant, False otherwise.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -1097,8 +1086,14 @@ class FRVRSUtilities(object):
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         is_expectant_treated = False
+        
+        # Get the last recorded SALT designation for the patient
         last_salt = self.get_last_salt(patient_df, verbose=verbose)
+        
+        # Check if that designation was "EXPECTANT"
         if (last_salt == 'EXPECTANT'):
+            
+            # Check if there were any injuries treated or tools applied
             mask_series = ~patient_df.injury_treated_required_procedure.isnull() | ~patient_df.tool_applied_type.isnull()
             is_expectant_treated = mask_series.any()
         
@@ -1110,17 +1105,15 @@ class FRVRSUtilities(object):
         """
         Gets whether or not a participant is treating patients expected to die before help arrives.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing data for a specific scene.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing data for a specific scene.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        bool
-            True if the participant is treating patients expected to die before help arrives, False otherwise.
+        Returns:
+            bool
+                True if the participant is treating patients expected to die before help arrives, False otherwise.
         """
         
         # Ensure all needed columns are present in logs_df
@@ -1230,17 +1223,15 @@ class FRVRSUtilities(object):
         """
         Get the start time of the scene DataFrame run.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing data for a specific scene.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing data for a specific scene.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        float
-            The start time of the scene in milliseconds.
+        Returns:
+            float
+                The start time of the scene in milliseconds.
         """
         
         # Ensure all needed columns are present in scene_df
@@ -1262,17 +1253,15 @@ class FRVRSUtilities(object):
         """
         Get the last time a patient was engaged in the given scene DataFrame.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing scene-specific data.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene-specific data.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        int
-            Action tick of the last patient engagement in the scene DataFrame, in milliseconds.
+        Returns:
+            int
+                Action tick of the last patient engagement in the scene DataFrame, in milliseconds.
         """
         
         # Get the mask for the PATIENT_ENGAGED actions
@@ -1305,17 +1294,15 @@ class FRVRSUtilities(object):
         """
         Gets the type of a scene.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing data for a specific scene.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
-
-        Returns
-        -------
-        str
-            The type of the scene, e.g., 'Triage', 'Orientation', etc.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing data for a specific scene.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            str
+                The type of the scene, e.g., 'Triage', 'Orientation', etc.
         """
         
         # Check if the scene_type column exists in the scene data frame, and get the unique value if it is
@@ -1342,17 +1329,15 @@ class FRVRSUtilities(object):
         """
         Calculate the end time of a scene based on the maximum elapsed time in the input DataFrame.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            A Pandas DataFrame containing the scene data.
-        verbose : bool, optional
-            Whether to print additional information. Default is False.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                A Pandas DataFrame containing the scene data.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        int
-            End time of the scene calculated as the maximum elapsed time, in milliseconds.
+        Returns:
+            int
+                End time of the scene calculated as the maximum elapsed time, in milliseconds.
         """
         
         # Get the maximum elapsed time in the scene
@@ -1371,11 +1356,14 @@ class FRVRSUtilities(object):
         Calculate the number of unique patient IDs in a scene.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data, including 'patient_id' column.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including 'patient_id' column.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: Number of unique patients in the scene DataFrame.
+            int
+                Number of unique patients in the scene DataFrame.
         """
         
         # Count the number of unique patient IDs
@@ -1396,11 +1384,14 @@ class FRVRSUtilities(object):
         Calculate the number of records where injury treatment attempts were logged for a given scene.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of records where injury treatment attempts were logged.
+            int
+                The number of records where injury treatment attempts were logged.
         """
         
         # Filter for treatments with injury_treated set to True
@@ -1422,11 +1413,14 @@ class FRVRSUtilities(object):
         Get the count of records in a scene DataFrame where injuries were not treated.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of patients who have not received injury treatment.
+            int
+                The number of patients who have not received injury treatment.
         """
         
         # Loop through each injury and make a determination if it's treated or not
@@ -1451,11 +1445,14 @@ class FRVRSUtilities(object):
         Get the count of records in a scene DataFrame where injuries were correctly treated.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: Count of records where injuries were correctly treated in the scene DataFrame.
+            int
+                Count of records where injuries were correctly treated in the scene DataFrame.
         
         Note:
             The FRVRS logger has trouble logging multiple tool applications,
@@ -1493,11 +1490,14 @@ class FRVRSUtilities(object):
         Calculate the number of patients whose injuries have been incorrectly treated in a scene.
         
         Parameters:
-            scene_df (pandas.DataFrame): The DataFrame containing scene data.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                The DataFrame containing scene data.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of patients whose injuries have been incorrectly treated.
+            int
+                The number of patients whose injuries have been incorrectly treated.
         
         Note:
             The FRVRS logger has trouble logging multiple tool applications,
@@ -1539,11 +1539,14 @@ class FRVRSUtilities(object):
         Count the number of 'PULSE_TAKEN' actions in the given scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of PULSE_TAKEN actions in the scene DataFrame.
+            int
+                The number of PULSE_TAKEN actions in the scene DataFrame.
         """
         
         # Ensure all needed columns are present in scene_df
@@ -1572,11 +1575,14 @@ class FRVRSUtilities(object):
         Count the number of 'TELEPORT' actions in the given scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of TELEPORT actions in the scene DataFrame.
+            int
+                The number of TELEPORT actions in the scene DataFrame.
         """
         
         # Ensure all needed columns are present in scene_df
@@ -1604,11 +1610,14 @@ class FRVRSUtilities(object):
         Calculate the number of VOICE_CAPTURE actions in a scene.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of VOICE_CAPTURE actions in the scene DataFrame.
+            int
+                The number of VOICE_CAPTURE actions in the scene DataFrame.
         """
         
         # Filter for actions with the type "VOICE_CAPTURE"
@@ -1632,11 +1641,14 @@ class FRVRSUtilities(object):
         Count the number of 'walk to the safe area' voice command events in the given scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of walk to the safe area voice commands in the scene DataFrame.
+            int
+                The number of walk to the safe area voice commands in the scene DataFrame.
         """
         
         # Filter for voice commands with the message "walk to the safe area"
@@ -1660,11 +1672,14 @@ class FRVRSUtilities(object):
         Calculate the number of wave if you can voice commands in a scene.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of wave if you can voice commands in the scene DataFrame.
+            int
+                The number of wave if you can voice commands in the scene DataFrame.
         """
         
         # Filter for voice commands with the message "wave if you can"
@@ -1688,11 +1703,14 @@ class FRVRSUtilities(object):
         Get the action tick of the first 'PATIENT_ENGAGED' action in the given scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: Action tick of the first 'PATIENT_ENGAGED' action in the scene DataFrame.
+            int
+                Action tick of the first 'PATIENT_ENGAGED' action in the scene DataFrame.
         """
         
         # Filter for actions with the type "PATIENT_ENGAGED"
@@ -1716,11 +1734,14 @@ class FRVRSUtilities(object):
         Get the action tick of the first 'INJURY_TREATED' action in the given scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: Action tick of the first 'INJURY_TREATED' action in the scene DataFrame.
+            int
+                Action tick of the first 'INJURY_TREATED' action in the scene DataFrame.
         """
         
         # Filter for actions with the type "INJURY_TREATED"
@@ -1738,10 +1759,10 @@ class FRVRSUtilities(object):
         return first_treatment
     
     
-    def get_ideal_engagement_order(self, scene_df, tuples_list=None, verbose=False):
+    def get_order_of_ideal_engagement(self, scene_df, tuples_list=None, verbose=False):
         
         # Create the patient sort info
-        engagement_starts_df = DataFrame(self.get_actual_engagement_order(scene_df), columns=[
+        engagement_starts_df = DataFrame(self.get_order_of_actual_engagement(scene_df), columns=[
             'patient_id', 'engagement_start', 'location_tuple', 'patient_sort', 'predicted_priority', 'injury_severity'
         ])
         engagement_starts_df.patient_sort = engagement_starts_df.patient_sort.astype(self.sort_category_order)
@@ -1780,19 +1801,17 @@ class FRVRSUtilities(object):
     
     def get_is_scene_aborted(self, scene_df, verbose=False):
         """
-        Gets whether or not a scene is aborted.
+        Determine whether or not a scene is aborted.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing data for a specific scene.
-        verbose : bool, optional
-            Whether to print verbose output, by default False.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing data for a specific scene.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        bool
-            True if the scene is aborted, False otherwise.
+        Returns:
+            bool
+                True if the scene is aborted, False otherwise.
         """
         
         # Check if the is_scene_aborted column exists in the scene data frame, and get the unique value if it is
@@ -1801,7 +1820,7 @@ class FRVRSUtilities(object):
         else: is_scene_aborted = False
         if not is_scene_aborted:
             
-            # Calculate the time duration between scene start and last engagement
+            # Otherwise, calculate the time duration between scene start and last engagement
             scene_start = self.get_scene_start(scene_df, verbose=verbose)
         
             # Get the last engagement time
@@ -1824,17 +1843,15 @@ class FRVRSUtilities(object):
         """
         Calculate the triage time for a scene.
         
-        Parameters
-        ----------
-        scene_df : pandas.DataFrame
-            DataFrame containing scene data.
-        verbose : bool, optional
-            Whether to print verbose output.
+        Parameters:
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
-        Returns
-        -------
-        int
-            Triage time in milliseconds.
+        Returns:
+            int
+                Triage time in milliseconds.
         """
         
         # Ensure all needed columns are present in scene_df
@@ -1857,11 +1874,14 @@ class FRVRSUtilities(object):
         Get a list of unique patient IDs corresponding to patients marked as DEAD or EXPECTANT in a scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            list: List of unique patient IDs marked as DEAD or EXPECTANT in the scene DataFrame.
+            list
+                List of unique patient IDs marked as DEAD or EXPECTANT in the scene DataFrame.
         """
         
         # Filter the treat-as-dead columns and combine them into a mask series
@@ -1885,11 +1905,14 @@ class FRVRSUtilities(object):
         Get a list of unique patient IDs corresponding to patients marked as 'still' in a scene DataFrame.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            list: List of unique patient IDs marked as 'still' in the scene DataFrame.
+            list
+                List of unique patient IDs marked as 'still' in the scene DataFrame.
         """
         
         # Filter the '_sort' columns and combine them into a mask series
@@ -1914,11 +1937,14 @@ class FRVRSUtilities(object):
         including voice commands with specific messages.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: Total number of user actions in the scene DataFrame.
+            int
+                Total number of user actions in the scene DataFrame.
         """
         
         # Create a boolean mask to filter action types that are user-initiated (TELEPORT, S_A_L_T_WALK_IF_CAN, TRIAGE_LEVEL_WALK_IF_CAN, S_A_L_T_WAVE_IF_CAN, TRIAGE_LEVEL_WAVE_IF_CAN, PATIENT_ENGAGED, PULSE_TAKEN, BAG_ACCESS, TOOL_HOVER, TOOL_SELECTED, INJURY_TREATED, TOOL_APPLIED, TAG_SELECTED, TAG_APPLIED, BAG_CLOSED, TAG_DISCARDED, and TOOL_DISCARDED)
@@ -1944,14 +1970,17 @@ class FRVRSUtilities(object):
         Extracts the actual and ideal sequences of first interactions from a scene dataframe.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing patient interactions with columns, including 'patient_sort' and 'patient_id'.
-            verbose (bool, optional): Whether to print intermediate results for debugging. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing patient interactions with columns, including 'patient_sort' and 'patient_id'.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            tuple: A tuple of three elements:
-                actual_sequence (pandas.Series): The actual sequence of first interactions, sorted.
-                ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
-                sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
+            tuple
+                A tuple of three elements:
+                - actual_sequence (pandas.Series): The actual sequence of first interactions, sorted.
+                - ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
+                - sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
         
         Note:
             Only SORT categories included in `self.patient_sort_order` are considered.
@@ -1998,13 +2027,17 @@ class FRVRSUtilities(object):
         Calculate the measure of ordering between actual and ideal sequences using the adjusted R-squared value.
         
         Parameters:
-            actual_sequence (array-like): The observed sequence of actions or events.
-            ideal_sequence (array-like): The ideal or expected sequence of actions or events.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            actual_sequence (array-like):
+                The observed sequence of actions or events.
+            ideal_sequence (array-like):
+                The ideal or expected sequence of actions or events.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            float: The R-squared adjusted value as a measure of ordering.
-                Returns NaN if model fitting fails.
+            float:
+                The R-squared adjusted value as a measure of ordering. Returns NaN if model fitting 
+                fails.
         """
         
         # Initialize the measure of ordering to NaN
@@ -2033,11 +2066,14 @@ class FRVRSUtilities(object):
         The measure of right ordering is an R-squared adjusted value, where a higher value indicates better right ordering.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            float: The measure of right ordering for patients.
+            float
+                The measure of right ordering for patients.
         """
         measure_of_right_ordering = nan
         
@@ -2064,11 +2100,14 @@ class FRVRSUtilities(object):
         procedures being treated and marked as controlled in the 'injury_treated_required_procedure' column.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            float: Percentage of hemorrhage cases successfully controlled.
+            float
+                Percentage of hemorrhage cases successfully controlled.
         
         Note:
             The logs have instances of a TOOL_APPLIED but no INJURY_TREATED preceding it. But, we already know the injury
@@ -2082,33 +2121,38 @@ class FRVRSUtilities(object):
         ])
         all_columns = set(scene_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
-
         
-        # Loop through each injury, examining its required procedures and wrong treatments
+        # Initialize hemorrhage and controlled counts and loop through each patient in the scene
         hemorrhage_count = 0; controlled_count = 0
         for patient_id, patient_df in scene_df.groupby('patient_id'):
+            
+            # Check if the patient is not dead
             is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
             if not is_patient_dead:
+                
+                # Loop through each injury, examining its required procedures and wrong treatments
                 for injury_id, injury_df in patient_df.groupby('injury_id'):
                     
                     # Check if an injury record or treatment exists for a hemorrhage-related procedure
                     is_injury_hemorrhage = self.get_is_injury_hemorrhage(injury_df, verbose=verbose)
                     if is_injury_hemorrhage:
                         
-                        # Count any injuries requiring hemorrhage control procedures
+                        # Count as hemorrhage any injuries requiring hemorrhage control procedures
                         hemorrhage_count += 1
                         
                         # Check if the injury was treated correctly
                         is_correctly_treated = self.get_is_injury_correctly_treated(injury_df, patient_df, verbose=verbose)
                         
-                        # See if there are any tools applied that are associated with the hemorrhage injuries
+                        # Check if there are any tools applied that are associated with the hemorrhage injuries
                         is_tool_applied_correctly = self.get_is_hemorrhage_tool_applied(injury_df, patient_df, verbose=verbose)
                         
-                        # Count any hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
-                        if is_correctly_treated or is_tool_applied_correctly: controlled_count += 1
+                        # Count as controlled any hemorrhage-related injuries that have been treated, and not wrong, and not counted twice
+                        if is_correctly_treated or is_tool_applied_correctly:
+                            controlled_count += 1
         
-        if verbose: print(f'Injuries requiring hemorrhage control procedures: {hemorrhage_count}')
-        if verbose: print(f"Hemorrhage-related injuries that have been treated: {controlled_count}")
+        if verbose:
+            print(f'Injuries requiring hemorrhage control procedures: {hemorrhage_count}')
+            print(f"Hemorrhage-related injuries that have been treated: {controlled_count}")
         
         # Calculate the percentage of controlled hemorrhage-related injuries
         try: percent_controlled = 100 * controlled_count / hemorrhage_count
@@ -2133,11 +2177,14 @@ class FRVRSUtilities(object):
         time to hemorrhage control.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The time to the last hemorrhage control action, or 0 if no hemorrhage control actions exist.
+            int
+                The time to the last hemorrhage control action, or 0 if no hemorrhage control actions exist.
         """
         
         # Ensure all needed columns are present in scene_df
@@ -2185,11 +2232,14 @@ class FRVRSUtilities(object):
         the time hemorrhage treatment was applied (with a tourniquet or wound packing).
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The time it takes to control hemorrhage for the scene, per patient, in action ticks.
+            int
+                The time it takes to control hemorrhage for the scene, per patient, in action ticks.
         
         Note:
             If you trim off the action ticks at the beginning of the scene so that the
@@ -2243,17 +2293,20 @@ class FRVRSUtilities(object):
         return triage_priority_df
     
     
-    def get_actual_engagement_order(self, scene_df, include_noninteracteds=False, verbose=False):
+    def get_order_of_actual_engagement(self, scene_df, include_noninteracteds=False, verbose=False):
         """
         Get the chronological order of engagement starts for each patient in a scene.
         
         Parameters:
-            - scene_df (pandas.DataFrame): DataFrame containing scene data, including patient IDs, action types,
-              action ticks, location IDs, patient sorts, and DTR triage priority model predictions.
-            - verbose (bool, optional): If True, prints debug information. Default is False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data, including patient IDs, action types, action ticks, 
+                location IDs, patient sorts, and DTR triage priority model predictions.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            - engagement_order (list): List of tuples containing engagement information ordered chronologically:
+            engagement_order (list):
+                List of tuples containing engagement information ordered chronologically:
                 - patient_id (int): The ID of the patient.
                 - engagement_start (int): The action tick at which the engagement started.
                 - location_tuple ((int, int)): A tuple representing the (x, z) coordinates of the engagement location.
@@ -2315,10 +2368,10 @@ class FRVRSUtilities(object):
         return engagement_order
     
     
-    def get_distracted_engagement_order(self, scene_df, tuples_list=None, verbose=False):
+    def get_order_of_distracted_engagement(self, scene_df, tuples_list=None, verbose=False):
 
         # Create the patient sort tuples list
-        if tuples_list is None: tuples_list = self.get_actual_engagement_order(scene_df, verbose=verbose)
+        if tuples_list is None: tuples_list = self.get_order_of_actual_engagement(scene_df, verbose=verbose)
 
         # Get initial player location
         mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
@@ -2353,14 +2406,17 @@ class FRVRSUtilities(object):
         Extracts the actual and ideal sequences of first interactions from a scene dataframe.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing patient interactions with columns, including 'priority_group' and 'patient_id'.
-            verbose (bool, optional): Whether to print intermediate results for debugging. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing patient interactions with columns, including 'priority_group' and 'patient_id'.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            tuple: A tuple of three elements:
-                actual_sequence (pandas.Series): The actual sequence of first interactions, sorted.
-                ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
-                sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
+            tuple
+                A tuple of three elements:
+                - actual_sequence (pandas.Series): The actual sequence of first interactions, sorted.
+                - ideal_sequence (pandas.Series): Series of ideal patient interactions based on SORT categories.
+                - sort_dict (dict): Dictionary containing lists of first interactions for each SORT category.
         
         Notes:
             Only SORT categories included in `priority_group_order` are considered.
@@ -2409,7 +2465,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including action types and action ticks.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             float:
@@ -2465,7 +2521,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including action types.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2501,7 +2557,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including discarded types.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2531,7 +2587,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including patient and injury IDs.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2561,7 +2617,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including action types.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2591,7 +2647,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including action types.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2621,7 +2677,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including action types.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2650,7 +2706,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including patient SALT.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2682,7 +2738,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including patient SALT.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2720,7 +2776,7 @@ class FRVRSUtilities(object):
             scene_df (pandas.DataFrame):
                 DataFrame containing scene data, including patient SALT.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int:
@@ -2747,14 +2803,17 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_is_correct_bleeding_tool_applied(patient_df, verbose=False):
         """
-        Determines whether the correct bleeding control tool (tourniquet or packing gauze) has been applied to a patient in a scene.
+        Determine whether the correct bleeding control tool (tourniquet or packing gauze) has been applied to a patient in a scene.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if the correct bleeding control tool has been applied, False otherwise.
+            bool
+                True if the correct bleeding control tool has been applied, False otherwise.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -2787,11 +2846,14 @@ class FRVRSUtilities(object):
         the result is considered unknown (NaN).
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool or numpy.nan: True if the patient is considered dead, False if not, and numpy.nan if unknown.
+            bool or numpy.nan
+                True if the patient is considered dead, False if not, and numpy.nan if unknown.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -2840,11 +2902,14 @@ class FRVRSUtilities(object):
         the result is considered unknown (NaN).
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool or numpy.nan: True if the patient is marked as 'still', False if not, and numpy.nan if unknown.
+            bool or numpy.nan
+                True if the patient is marked as 'still', False if not, and numpy.nan if unknown.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -2889,11 +2954,14 @@ class FRVRSUtilities(object):
         Get the last SALT value from the patient data frame.
         
         Parameters:
-            patient_df (pandas.DataFrame, optional): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame, optional):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The latest salt value for the patient.
+            int
+                The latest salt value for the patient.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -2922,14 +2990,20 @@ class FRVRSUtilities(object):
         Get the last SALT value from the patient data frame.
         
         Parameters:
-            patient_df (pandas.DataFrame, optional): DataFrame containing patient-specific data with relevant columns.
-            session_uuid (str, optional): UUID of the session to load FRVRS logs. Required if 'patient_df' is None.
-            scene_id (int, optional): Index of the scene to load FRVRS logs. Required if 'patient_df' is None.
-            random_patient_id (int, optional): Random patient ID to use if 'patient_df' is None. Default is None.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame, optional):
+                DataFrame containing patient-specific data with relevant columns.
+            session_uuid (str, optional):
+                UUID of the session to load FRVRS logs. Required if 'patient_df' is None.
+            scene_id (int, optional):
+                Index of the scene to load FRVRS logs. Required if 'patient_df' is None.
+            random_patient_id (int, optional):
+                Random patient ID to use if 'patient_df' is None. Default is None.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int or tuple: The maximum salt value for the patient, or a tuple containing the patient ID and maximum salt value if `session_uuid` is provided.
+            int or tuple
+                The maximum salt value for the patient, or a tuple containing the patient ID and maximum salt value if `session_uuid` is provided.
         """
         
         # Get the max salt value
@@ -2955,11 +3029,14 @@ class FRVRSUtilities(object):
         Retrieves the last tag applied to a patient in a scene.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            str or numpy.nan: The last tag applied to the patient, or numpy.nan if no tags have been applied.
+            str or numpy.nan
+                The last tag applied to the patient, or numpy.nan if no tags have been applied.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -2987,11 +3064,14 @@ class FRVRSUtilities(object):
         Gets the patient location closest to the time of the action tick.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            action_tick (int): The time in milliseconds to locate the patient during.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            action_tick (int):
+                The time in milliseconds to locate the patient during.
         
         Returns:
-            tuple: The coordinates of the patient.
+            tuple
+                The coordinates of the patient.
         """
         patient_location = (0.0, 0.0, 0.0)
         mask_series = ~patient_df.location_id.isnull()
@@ -3008,11 +3088,14 @@ class FRVRSUtilities(object):
         Determines whether the last tag applied to a patient in a given scene DataFrame matches the predicted tag based on the patient's record salt.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool or numpy.nan: Returns True if the tag is correct, False if incorrect, or numpy.nan if data is insufficient.
+            bool or numpy.nan
+                Returns True if the tag is correct, False if incorrect, or numpy.nan if data is insufficient.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3057,11 +3140,14 @@ class FRVRSUtilities(object):
         Determines whether the patient has severe injuries.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool or numpy.nan: Returns True if the patient has severe injuries, False if the patient has no severe injuries.
+            bool or numpy.nan
+                Returns True if the patient has severe injuries, False if the patient has no severe injuries.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3081,11 +3167,14 @@ class FRVRSUtilities(object):
         Get the action tick of the first patient triage of the tool applied or tag applied type.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The action tick of the first responder negotiation action, or None if no such action exists.
+            int
+                The action tick of the first responder negotiation action, or None if no such action exists.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3093,8 +3182,7 @@ class FRVRSUtilities(object):
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
-        # Filter for actions involving responder negotiations
-        # mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'TOOL_APPLIED'])
+        # Filter for actions involving responder negotiations (TAG_APPLIED and INJURY_TREATED)
         mask_series = patient_df.action_type.isin(['TAG_APPLIED', 'INJURY_TREATED'])
         
         # If there are responder negotiation actions, find the first action tick
@@ -3115,11 +3203,14 @@ class FRVRSUtilities(object):
         Get the action tick of the first patient interaction of a specific type.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The action tick of the first responder negotiation action, or None if no such action exists.
+            int
+                The action tick of the first responder negotiation action, or None if no such action exists.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3148,11 +3239,14 @@ class FRVRSUtilities(object):
         Get the action tick of the last patient interaction involving responder negotiations.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The action tick of the last responder negotiation action, or numpy.nan if no such action exists.
+            int
+                The action tick of the last responder negotiation action, or numpy.nan if no such action exists.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3182,11 +3276,14 @@ class FRVRSUtilities(object):
         Determine whether the responder gazed at the patient at least once.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if the responder gazed at the patient at least once, False otherwise.
+            bool
+                True if the responder gazed at the patient at least once, False otherwise.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3215,11 +3312,14 @@ class FRVRSUtilities(object):
         Extract the x and z dimensions of patient wanderings from relevant location columns.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            tuple: Two lists, x_dim and z_dim, representing the x and z coordinates of the patient's wanderings.
+            tuple
+                Two lists, x_dim and z_dim, representing the x and z coordinates of the patient's wanderings.
         """
         
         # Initialize empty lists to store x and z coordinates
@@ -3264,12 +3364,16 @@ class FRVRSUtilities(object):
         Generate a wrapped label based on patient sorting information.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            wrap_width (int, optional): Number of characters with which to wrap the text in the label. Defaults to 20.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            wrap_width (int, optional):
+                Number of characters with which to wrap the text in the label. Defaults to 20.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            str: A wrapped label for the patient based on the available sorting information.
+            str
+                A wrapped label for the patient based on the available sorting information.
         """
         
         # Pick from among the sort columns whichever value is not null and use that in the label
@@ -3302,11 +3406,14 @@ class FRVRSUtilities(object):
         Check if a patient is hemorrhaging based on injury record and required procedures.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if the patient has an injury record indicating hemorrhage, False otherwise.
+            bool
+                True if the patient has an injury record indicating hemorrhage, False otherwise.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3337,12 +3444,16 @@ class FRVRSUtilities(object):
         tourniquet or wound packing was applied).
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            scene_start (int): The action tick of the first interaction with the patient.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            scene_start (int):
+                The action tick of the first interaction with the patient.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The time it takes to control hemorrhage for the patient, in action ticks.
+            int
+                The time it takes to control hemorrhage for the patient, in action ticks.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3427,11 +3538,14 @@ class FRVRSUtilities(object):
         Count the number of 'PATIENT_ENGAGED' actions in the patient's data.
         
         Parameters:
-            patient_df (pandas.DataFrame): DataFrame containing patient-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The number of times the patient has been engaged.
+            int
+                The number of times the patient has been engaged.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -3462,7 +3576,8 @@ class FRVRSUtilities(object):
             patient_df (pandas.DataFrame):
                 DataFrame containing patient data, including a column 'injury_severity'
                 which indicates the severity of the injury.
-            verbose (bool, optional): If True, print debug information. Default is False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             maximum_injury_severity (float or None):
@@ -3492,15 +3607,45 @@ class FRVRSUtilities(object):
     
     
     def get_is_life_threatened(self, patient_df, verbose=False):
+        """
+        Determine whether a patient's life is threatened based on injury severity and hemorrhaging.
+        
+        This function analyzes a pandas DataFrame (`patient_df`) containing patient 
+        information to assess their life-threatening status. It assumes the DataFrame includes 
+        columns for injury severity (`injury_severity`) and whether a hemorrhaging condition 
+        is present (`injury_required_procedure` - assumed to indicate procedures needed for 
+        bleeding control).
+        
+        The function first verifies that the DataFrame contains all required columns using an 
+        assertion. It then calls other functions (assumed to be implemented elsewhere) to 
+        retrieve the maximum injury severity and hemorrhaging status. Finally, it combines 
+        these factors using a logical AND operation to determine the life-threatening 
+        condition.
+        
+        Parameters:
+            patient_df (pandas.DataFrame):
+                DataFrame containing patient data with columns 'injury_severity' and 
+                'injury_required_procedure'.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            bool
+                True if the patient's life is threatened, False otherwise.
+        """
         
         # Ensure all needed columns are present in patient_df
         needed_columns = set(['injury_severity', 'injury_required_procedure'])
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
+        # Determine if the maximum injury severity is 'high'
         is_severity_high = (self.get_maximum_injury_severity(patient_df, verbose=verbose) == 'high')
+        
+        # Determine if the patient is hemorrhaging
         is_patient_hemorrhaging = self.get_is_patient_hemorrhaging(patient_df, verbose=verbose)
         
+        # Return True if both conditions are met, otherwise return False
         return is_severity_high and is_patient_hemorrhaging
     
     
@@ -3512,11 +3657,14 @@ class FRVRSUtilities(object):
         Determine whether the given injury was correctly treated.
         
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if the injury was correctly treated, False otherwise.
+            bool
+                True if the injury was correctly treated, False otherwise.
         
         Note:
             The FRVRS logger has trouble logging multiple tool applications,
@@ -3532,12 +3680,15 @@ class FRVRSUtilities(object):
         all_columns = set(injury_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
         
+        # Get the required procedure for the injury
         mask_series = ~injury_df.injury_record_required_procedure.isnull()
         required_procedure = injury_df[mask_series].injury_record_required_procedure.mode().squeeze()
         if isinstance(required_procedure, Series):
             mask_series = ~injury_df.injury_treated_required_procedure.isnull()
             required_procedure = injury_df[mask_series].injury_treated_required_procedure.mode().squeeze()
-        assert not isinstance(required_procedure, Series), "You have no required procedures"
+        assert not isinstance(required_procedure, Series), "The injury has no required procedures"
+        
+        # Check if the required procedure isn't "none" and the patient_df is None
         is_correctly_treated = (required_procedure == 'none')
         if (not is_correctly_treated) and (patient_df is None):
             
@@ -3547,9 +3698,10 @@ class FRVRSUtilities(object):
             # Add to that mask to identify correctly treated injuries
             mask_series &= (injury_df.injury_treated_injury_treated_with_wrong_treatment == False)
             
-            # Return True if there are correctly treated attempts, False otherwise
+            # is_correctly_treated is True if there are correctly treated attempts, False otherwise
             is_correctly_treated = mask_series.any()
-            
+        
+        # Check if the patient_df isn't None
         elif patient_df is not None:
             
             # Ensure all needed columns are present in patient_df
@@ -3559,6 +3711,7 @@ class FRVRSUtilities(object):
             all_columns = set(patient_df.columns)
             assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
             
+            # Look for a TOOL_APPLIED within 3 milliseconds of an INJURY_TREATED
             millisecond_threshold = 3
             mask_series = (injury_df.action_type == 'INJURY_TREATED')
             action_ticks_list = sorted(injury_df[mask_series].action_tick.unique())
@@ -3566,7 +3719,11 @@ class FRVRSUtilities(object):
                 mask_series = patient_df.action_tick.map(
                     lambda ts: abs(ts - action_tick) < millisecond_threshold
                 ) & patient_df.action_type.isin(['TOOL_APPLIED'])
+                
+                # If you found any, check if it's the correct tool type for our injury
                 if mask_series.any():
+                    
+                    # is_correctly_treated is True if tool applied to our injury was the correct one, False otherwise
                     is_correctly_treated = any(
                         [(required_procedure == self.tool_type_to_required_procedure_dict.get(tool_type)) for tool_type in patient_df[mask_series].tool_applied_type]
                     )
@@ -3585,11 +3742,14 @@ class FRVRSUtilities(object):
         Determine whether the given injury is a hemorrhage based on the injury record or treatment record.
         
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if the injury is a hemorrhage, False otherwise.
+            bool
+                True if the injury is a hemorrhage, False otherwise.
         """
         
         # Ensure all needed columns are present in injury_df
@@ -3612,22 +3772,24 @@ class FRVRSUtilities(object):
     
     def get_is_hemorrhage_tool_applied(self, injury_df, logs_df, verbose=False):
         """
-        Checks if a hemorrhage control tool was applied for a given injury.
+        Check if a hemorrhage control tool was applied for a given injury.
         
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury data. Must include columns for
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury data. Must include columns for
                 - patient_id (int): Unique identifier for the patient.
                 - injury_id (int): Unique identifier for the injury. (Optional)
                 - injury_record_required_procedure (str): Required procedure for the injury record.
-            
-            logs_df (pandas.DataFrame): DataFrame containing log records. Must include columns for
+            logs_df (pandas.DataFrame):
+                DataFrame containing log records. Must include columns for
                 - patient_id (int): Unique identifier for the patient.
                 - tool_applied_type (str): Type of tool applied during the procedure.
-            
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if a hemorrhage control tool was applied for the injury, False otherwise.
+            bool
+                True if a hemorrhage control tool was applied for the injury, False otherwise.
         """
         
         # Ensure all needed columns are present in injury_df
@@ -3657,9 +3819,8 @@ class FRVRSUtilities(object):
             tool_type = self.required_procedure_to_tool_type_dict[required_procedure]
             is_tool_applied_correctly = is_tool_applied_correctly or patient_df.tool_applied_type.map(lambda x: x == tool_type).any()
         
+        # Get the injury ID if verbose
         if verbose:
-            
-            # Get the injury ID
             mask_series = ~injury_df.injury_id.isnull()
             injury_id = injury_df[mask_series].injury_id.tolist()[0]
             
@@ -3673,12 +3834,16 @@ class FRVRSUtilities(object):
         Determine if hemorrhage is controlled based on injury and log data.
 
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
-            logs_df (pandas.DataFrame): DataFrame containing logs data.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury-specific data with relevant columns.
+            logs_df (pandas.DataFrame):
+                DataFrame containing logs data.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if hemorrhage is controlled, False otherwise.
+            bool
+                True if hemorrhage is controlled, False otherwise.
         
         Note:
             The logs have instances of a TOOL_APPLIED but no INJURY_TREATED preceding it. But, we already know the injury
@@ -3729,11 +3894,14 @@ class FRVRSUtilities(object):
         Determine whether the given injury is severe based on the injury record or treatment record.
         
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if the injury is severe, False otherwise.
+            bool
+                True if the injury is severe, False otherwise.
         """
         
         # Ensure all needed columns are present in injury_df
@@ -3751,11 +3919,14 @@ class FRVRSUtilities(object):
         Check if bleeding is correctly treated based on the provided injury DataFrame.
         
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            bool: True if bleeding was correctly treated, False otherwise.
+            bool
+                True if bleeding was correctly treated, False otherwise.
         
         Note:
             The FRVRS logger has trouble logging multiple tool applications,
@@ -3790,11 +3961,14 @@ class FRVRSUtilities(object):
         Determine the action ticks it takes to correctly treat the given injury.
         
         Parameters:
-            injury_df (pandas.DataFrame): DataFrame containing injury-specific data with relevant columns.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            injury_df (pandas.DataFrame):
+                DataFrame containing injury-specific data with relevant columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            int: The time it takes to correctly treat the injury, in action ticks.
+            int
+                The time it takes to correctly treat the injury, in action ticks.
         
         Note:
             The FRVRS logger has trouble logging multiple tool applications,
@@ -3971,8 +4145,10 @@ class FRVRSUtilities(object):
         Display summary statistics for time-related data in a readable format.
         
         Parameters:
-            describable_df (pandas.DataFrame): The DataFrame containing time-related data.
-            columns_list (list): List of column names for which time statistics should be calculated.
+            describable_df (pandas.DataFrame):
+                The DataFrame containing time-related data.
+            columns_list (list):
+                List of column names for which time statistics should be calculated.
         
         This function calculates and displays summary statistics for time-related data,
         including mean, mode, median, and standard deviation (SD), in a human-readable format.
@@ -3986,15 +4162,15 @@ class FRVRSUtilities(object):
         ```
         
         Note:
-            This function relies on the 'get_statistics' and 'format_timedelta' methods.
+            This function relies on the 'get_statistics' and 'format_timedelta_lambda' methods.
         """
         
         # Calculate basic descriptive statistics for time-related columns
         df = nu.get_statistics(describable_df, columns_list)
         
-        # Convert time values to timedelta objects and format them using format_timedelta()
+        # Convert time values to timedelta objects and format them using format_timedelta_lambda()
         df = df.applymap(
-            lambda x: self.format_timedelta(timedelta(milliseconds=int(x))),
+            lambda x: self.format_timedelta_lambda(timedelta(milliseconds=int(x))),
             na_action='ignore'
         ).T
         
@@ -4011,7 +4187,8 @@ class FRVRSUtilities(object):
         Section off player actions by session start and end. We are finding log entries above the first SESSION_START and below the last SESSION_END.
         
         Parameters:
-            file_df: A Pandas DataFrame containing the player action data with its index reset.
+            file_df:
+                A Pandas DataFrame containing the player action data with its index reset.
         
         Returns:
             A Pandas DataFrame with the `scene_id` and `is_scene_aborted` columns added.
@@ -4065,10 +4242,14 @@ class FRVRSUtilities(object):
         row series.
     
         Parameters:
-            action_type: The action type.
-            df: The DataFrame containing the MCI-VR metrics with the logger version column removed.
-            row_index: The index of the row in the DataFrame to set the metrics for.
-            row_series: The row series containing the MCI-VR metrics.
+            action_type:
+                The action type.
+            df:
+                The DataFrame containing the MCI-VR metrics with the logger version column removed.
+            row_index:
+                The index of the row in the DataFrame to set the metrics for.
+            row_series:
+                The row series containing the MCI-VR metrics.
     
         Returns:
             The DataFrame containing the MCI-VR metrics with new columns.
@@ -4241,12 +4422,16 @@ class FRVRSUtilities(object):
         It then reads the file, parses it into a DataFrame, and appends the DataFrame to the subdirectory DataFrame.
         
         Parameters:
-            sub_directory_df (pandas.DataFrame): The DataFrame for the current subdirectory.
-            sub_directory (str): The path of the current subdirectory.
-            file_name (str): The name of the file to process.
+            sub_directory_df (pandas.DataFrame):
+                The DataFrame for the current subdirectory.
+            sub_directory (str):
+                The path of the current subdirectory.
+            file_name (str):
+                The name of the file to process.
         
         Returns:
-            pandas.DataFrame: The updated subdirectory DataFrame.
+            pandas.DataFrame
+                The updated subdirectory DataFrame.
         """
         
         # Construct the full path to the file and get the logger version
@@ -4302,15 +4487,13 @@ class FRVRSUtilities(object):
         """
         Concatenates all the CSV files in the given logs folder into a single data frame.
         
-        Parameters
-        ----------
-        logs_folder : str, optional
-            The path to the folder containing the CSV files. The default value is the data logs folder.
+        Parameters:
+            logs_folder (str, optional):
+                The path to the folder containing the CSV files. The default value is the data logs folder.
         
-        Returns
-        -------
-        DataFrame
-            A DataFrame containing all the data from the CSV files in the given logs folder.
+        Returns:
+            DataFrame
+                A DataFrame containing all the data from the CSV files in the given logs folder.
         """
         logs_df = DataFrame([])
         
@@ -4351,12 +4534,18 @@ class FRVRSUtilities(object):
         Display files with a specified duration in a given DataFrame.
         
         Parameters:
-            df (pandas.DataFrame): DataFrame containing the relevant data.
-            column_name (str): Name of the column in 'df' containing duration information.
-            milliseconds (int): Threshold duration in milliseconds.
-            delta_fn (function): Function to convert milliseconds to a time delta object.
-            description (str): Description of the duration, e.g., 'longer' or 'shorter'.
-            logs_df (pandas.DataFrame, optional): DataFrame containing additional log data, defaults to None.
+            df (pandas.DataFrame):
+                DataFrame containing the relevant data.
+            column_name (str):
+                Name of the column in 'df' containing duration information.
+            milliseconds (int):
+                Threshold duration in milliseconds.
+            delta_fn (function):
+                Function to convert milliseconds to a time delta object.
+            description (str):
+                Description of the duration, e.g., 'longer' or 'shorter'.
+            logs_df (pandas.DataFrame, optional):
+                DataFrame containing additional log data, defaults to None.
         
         Returns:
             None
@@ -4412,10 +4601,14 @@ class FRVRSUtilities(object):
         Replaces consecutive rows in a list created from the element column with a count of how many there are in a row.
         
         Parameters:
-            element_column: An element column from which the list of elements is created.
-            element_value: The element to replace consecutive occurrences of.
-            time_diff_column: the time diff column to check if the elements are close enough in time to consider consecutive.
-            consecutive_cutoff: the number of time units the time diff column must show or less.
+            element_column:
+                An element column from which the list of elements is created.
+            element_value:
+                The element to replace consecutive occurrences of.
+            time_diff_column:
+                the time diff column to check if the elements are close enough in time to consider consecutive.
+            consecutive_cutoff:
+                the number of time units the time diff column must show or less.
         
         Returns:
             A DataFrame with the rows of consecutive elements replaced with one row where the
@@ -4525,26 +4718,68 @@ class FRVRSUtilities(object):
         return categorical_df
     
     
-    def add_modal_column(self, new_column_name, modal_df, is_categorical=True, verbose=False):
-        if (new_column_name not in modal_df.columns):
-            name_parts_list = new_column_name.split('_')
-            if verbose: print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
+    def add_modal_column_to_dataframe(self, new_column_name, modal_df, is_categorical=True, verbose=False):
+        """
+        Add a modal column to a DataFrame.
+        
+        This function checks if a column with the given name exists in the DataFrame. If it 
+        does not exist, it attempts to create it by combining existing columns as specified by 
+        the attribute name. The new column can be optionally converted to a categorical type.
+        
+        Parameters:
+            new_column_name (str):
+                The name of the new column to be added.
+            modal_df (pandas.DataFrame):
+                The DataFrame to which the new column will be added.
+            is_categorical (bool, optional):
+                Whether to convert the new column to a categorical type. Default is True.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                The modified DataFrame with the new modal column (if applicable).
+        """
+        
+        # Check if the new column already exists
+        if new_column_name not in modal_df.columns:
             
-            # Find the columns list attribute
+            # Split the column name for attribute name construction
+            name_parts_list = new_column_name.split('_')
+            
+            # Optional verbose message
+            if verbose:
+                print(f"\nModalize into one {' '.join(name_parts_list)} column if possible")
+            
+            # Initialize the attribute name to search for columns list
             attribute_name = 'XXXX'
+            
+            # Iterate to find the correct attribute name
             for i in range(3):
+                
+                # Check if the attribute exists in the class instance
                 if not hasattr(self, attribute_name):
+                    
+                    # Construct the attribute name by joining parts of the column name
                     attribute_name = f"{'_'.join(name_parts_list[i:])}_columns_list"
+                
+                # Break the loop if the attribute is found
                 else:
                     break
-
+            
+            # Modalize the columns in the dataframe using the found attribute name
             modal_df = nu.modalize_columns(modal_df, eval(f"self.{attribute_name}"), new_column_name)
+            
+            # Handle categorical conversion
             if is_categorical:
                 modal_df = self.convert_column_to_categorical(modal_df, new_column_name, verbose=verbose)
+            
+            # Display a sample of the new column if verbose
             elif verbose:
                 print(modal_df[new_column_name].nunique())
                 display(modal_df.groupby(new_column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
+        # Return the modified dataframe
         return modal_df
     
     
@@ -4556,21 +4791,24 @@ class FRVRSUtilities(object):
         Visualize the order of engagement of patients in a given scene.
         
         Parameters:
-            scene_df (pandas.DataFrame): DataFrame containing scene data with relevant columns.
-            engagement_order (list of tuples, optional): List of tuples of patient IDs,
-                action ticks, and location coordinates. If not provided, a new list will be
-                created using the patients in scene_df.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            scene_df (pandas.DataFrame):
+                DataFrame containing scene data with relevant columns.
+            engagement_order (list of tuples, optional):
+                List of tuples of patient IDs, action ticks, and location coordinates. If not 
+                provided, a new list will be created using the patients in scene_df.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
         
         Raises:
-            ValueError: If nu is not None and not an instance of NotebookUtilities.
+            ValueError:
+                If nu is not None and not an instance of NotebookUtilities.
         """
         
         # Get the engagement order
-        if engagement_order is None: engagement_order = self.get_actual_engagement_order(scene_df, verbose=verbose)
+        if engagement_order is None: engagement_order = self.get_order_of_actual_engagement(scene_df, verbose=verbose)
         
         # Create a figure and add a subplot
         fig, ax = plt.subplots(figsize=(18, 9))
@@ -4647,14 +4885,20 @@ class FRVRSUtilities(object):
         Visualizes the player movement for the given session mask in a 2D plot.
     
         Parameters:
-            scene_mask (pandas.Series): A boolean mask indicating which rows of the logs_df DataFrame belong to the current scene.
-            title (str, optional): The title of the plot, if saving.
-            save_only (bool, optional): Whether to only save the plot to a PNG file and not display it.
-            logs_df (pandas.DataFrame): A DataFrame containing the FRVRS logs.
-            verbose (bool, optional): Whether to print verbose output.
+            scene_mask (pandas.Series):
+                A boolean mask indicating which rows of the logs_df DataFrame belong to the current scene.
+            title (str, optional):
+                The title of the plot, if saving.
+            save_only (bool, optional):
+                Whether to only save the plot to a PNG file and not display it.
+            logs_df (pandas.DataFrame):
+                A DataFrame containing the FRVRS logs.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
     
         Returns:
-            None: The function either displays the plot or saves it to a file.
+            None
+                The function either displays the plot or saves it to a file.
     
         Note:
             This function visualizes player movement based on data in the DataFrame `logs_df`.
@@ -4767,15 +5011,24 @@ class FRVRSUtilities(object):
         Get the time group with some edge case and visualize the player movement.
         
         Parameters:
-            logs_df (pandas.DataFrame): A DataFrame containing the FRVRS logs.
-            df (pandas.DataFrame): The input DataFrame containing player movement data.
-            sorting_column (str): The column based on which the DataFrame will be sorted.
-            mask_series (pandas.Series or None): Optional mask series to filter rows in the DataFrame.
-            is_ascending (bool): If True, sort the DataFrame in ascending order; otherwise, in descending order.
-            humanize_type (str): The type of humanization to be applied to the time values ('precisedelta', 'percentage', 'intword').
-            title_str (str): Additional string to be included in the visualization title.
-            nu (NotebookUtilities or None): An instance of NotebookUtilities or None. If None, a new instance will be created.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            logs_df (pandas.DataFrame):
+                A DataFrame containing the FRVRS logs.
+            df (pandas.DataFrame):
+                The input DataFrame containing player movement data.
+            sorting_column (str):
+                The column based on which the DataFrame will be sorted.
+            mask_series (pandas.Series or None):
+                Optional mask series to filter rows in the DataFrame.
+            is_ascending (bool):
+                If True, sort the DataFrame in ascending order; otherwise, in descending order.
+            humanize_type (str):
+                The type of humanization to be applied to the time values ('precisedelta', 'percentage', 'intword').
+            title_str (str):
+                Additional string to be included in the visualization title.
+            nu (NotebookUtilities or None):
+                An instance of NotebookUtilities or None. If None, a new instance will be created.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
@@ -4823,11 +5076,16 @@ class FRVRSUtilities(object):
         Display timelines for patient engagements in a random session and scene.
         
         Parameters:
-            logs_df (pandas.DataFrame): DataFrame containing FRVRS logs.
-            random_session_uuid (str, optional): UUID of the random session. If not provided, a random session will be selected.
-            random_scene_index (int, optional): Index of the random scene. If not provided, a random scene within the selected session will be chosen.
-            color_cycler (callable, optional): A callable that returns a color for each patient engagement timeline. If not provided, it will be generated.
-            verbose (bool, optional): Whether to print debug information. Defaults to False.
+            logs_df (pandas.DataFrame):
+                DataFrame containing FRVRS logs.
+            random_session_uuid (str, optional):
+                UUID of the random session. If not provided, a random session will be selected.
+            random_scene_index (int, optional):
+                Index of the random scene. If not provided, a random scene within the selected session will be chosen.
+            color_cycler (callable, optional):
+                A callable that returns a color for each patient engagement timeline. If not provided, it will be generated.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             Tuple of (random_session_uuid, random_scene_index).
@@ -4946,13 +5204,20 @@ class FRVRSUtilities(object):
         Plot grouped box and whiskers using seaborn.
         
         Parameters:
-            transformable_df: DataFrame, the data to be plotted.
-            x_column_name: str, the column for x-axis.
-            y_column_name: str, the column for y-axis.
-            x_label: str, label for x-axis.
-            y_label: str, label for y-axis.
-            transformer_name: str, the name of the transformation function (default is 'min').
-            is_y_temporal: bool, if True, humanize y-axis tick labels as temporal values.
+            transformable_df:
+                DataFrame, the data to be plotted.
+            x_column_name:
+                str, the column for x-axis.
+            y_column_name:
+                str, the column for y-axis.
+            x_label:
+                str, label for x-axis.
+            y_label:
+                str, label for y-axis.
+            transformer_name:
+                str, the name of the transformation function (default is 'min').
+            is_y_temporal:
+                bool, if True, humanize y-axis tick labels as temporal values.
         
         Returns:
             None
@@ -5009,15 +5274,22 @@ class FRVRSUtilities(object):
         Display a timeline of player gaze events for a random session and scene.
         
         Parameters:
-            logs_df (pandas.DataFrame): DataFrame containing logs data.
-            random_session_uuid (str): UUID of the random session. If None, a random session will be selected.
-            random_scene_index (int): Index of the random scene. If None, a random scene will be selected within the session.
-            consecutive_cutoff (int): Time cutoff for consecutive rows.
-            patient_color_dict (dict): Dictionary mapping patient IDs to colors.
-            verbose (bool): If True, display additional information.
+            logs_df (pandas.DataFrame):
+                DataFrame containing logs data.
+            random_session_uuid (str):
+                UUID of the random session. If None, a random session will be selected.
+            random_scene_index (int):
+                Index of the random scene. If None, a random scene will be selected within the session.
+            consecutive_cutoff (int):
+                Time cutoff for consecutive rows.
+            patient_color_dict (dict):
+                Dictionary mapping patient IDs to colors.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            tuple: Random session UUID and random scene index.
+            tuple
+                Random session UUID and random scene index.
         """
         
         # Get a random session if not provided
@@ -5139,24 +5411,34 @@ class FRVRSUtilities(object):
         turbulence, and complexity, while highlighting specific n-grams and coloring different action types.
         
         Parameters:
-            scene_tuple (tuple): A tuple containing the session UUID and scene ID of the specific scene.
-            sequence (list): The sequence of actions to be plotted (e.g., a list of action types).
-            logs_df (pandas.DataFrame): DataFrame containing detailed logs of all VR simulation
-                interactions.
-            summary_statistics_df (pandas.DataFrame, optional): DataFrame containing summary statistics
-                for all scenes. If not provided, tries to load from a pickle file.
-            actions_mask_series (pandas.Series, optional): A mask defining which actions to include in the plot.
-                If not provided, all actions are used.
-            highlighted_ngrams (list, optional): A list of n-grams to highlight in the plot.
-            color_dict (dict, optional): A dictionary mapping action types to color values.
-            suptitle (str, optional): The title of the plot. If not provided, summary statistics are shown.
-            verbose (bool, optional): Whether to print debug information during execution.
+            scene_tuple (tuple):
+                A tuple containing the session UUID and scene ID of the specific scene.
+            sequence (list):
+                The sequence of actions to be plotted (e.g., a list of action types).
+            logs_df (pandas.DataFrame):
+                DataFrame containing detailed logs of all VR simulation interactions.
+            summary_statistics_df (pandas.DataFrame, optional):
+                DataFrame containing summary statistics for all scenes. If not provided, tries to 
+                load from a pickle file.
+            actions_mask_series (pandas.Series, optional):
+                A mask defining which actions to include in the plot. If not provided, all actions 
+                are used.
+            highlighted_ngrams (list, optional):
+                A list of n-grams to highlight in the plot.
+            color_dict (dict, optional):
+                A dictionary mapping action types to color values.
+            suptitle (str, optional):
+                The title of the plot. If not provided, summary statistics are shown.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            matplotlib.figure.Figure: The figure containing the plot.
+            matplotlib.figure.Figure:
+                The figure containing the plot.
         
         Raises:
-            Exception: If `summary_statistics_df` is missing and cannot be loaded from pickle files.
+            Exception:
+                If `summary_statistics_df` is missing and cannot be loaded from pickle files.
         """
         
         # Extract session_uuid and scene_id from the scene_tuple
@@ -5206,7 +5488,7 @@ class FRVRSUtilities(object):
     ### Open World Functions ###
     
     
-    def add_encounter_layout_column(self, csv_stats_df, json_stats_df, verbose=False):
+    def add_encounter_layout_column_to_json_stats(self, csv_stats_df, json_stats_df, verbose=False):
         """
         Add a new column to the JSON statistics DataFrame indicating the environment of each encounter.
         
@@ -5216,30 +5498,29 @@ class FRVRSUtilities(object):
             json_stats_df (pandas.DataFrame):
                 DataFrame containing statistics from JSON files.
             verbose (bool, optional):
-                If True, print verbose output, by default False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
         """
-        if verbose: 
-            
-            # Print the shape of the CSV stats DataFrame
+        
+        # Print the shape of the CSV stats DataFrame if verbose
+        if verbose:
             print(csv_stats_df.shape)
         
-        new_column_name = 'encounter_layout'
-        
         # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
+        new_column_name = 'encounter_layout'
         
         # Loop through each session and scene in the CSV stats dataset
         for (session_uuid, scene_id), scene_df in csv_stats_df.groupby(self.scene_groupby_columns):
+            
+            # Print the unique patient IDs for each scene if verbose
             if verbose:
-                
-                # Print the unique patient IDs for each scene
                 print(scene_df.patient_id.unique().tolist())
             
             # Loop through each environment and get the patients list for that environment
             for env_str in ['desert', 'jungle', 'submarine', 'urban']:
-                patients_list = eval(f'{env_str}_patients_list')
+                patients_list = eval(f'self.{env_str}_patients_list')
                 
                 # Check if all patients are in that scene
                 if all(map(lambda patient_id: patient_id in scene_df.patient_id.unique().tolist(), patients_list)):
@@ -5250,14 +5531,16 @@ class FRVRSUtilities(object):
         
         if verbose:
             
-            # Print the shape of the JSON stats DataFrame
+            # Print the shape of the JSON stats DataFrame if verbose
             print(json_stats_df.shape) # (43, 3541)
             
-            # Display the count of records for each environment
+            # Display the count of records for each environment if verbose
             display(json_stats_df.groupby(new_column_name, dropna=False).size().to_frame().rename(columns={0: 'record_count'}))
+        
+        return json_stats_df
     
     
-    def add_medical_role_column(self, json_stats_df, anova_df, verbose=False):
+    def add_medical_role_column_to_anova_dataframe(self, json_stats_df, anova_df, verbose=False):
         """
         Add a medical role column to the dataframe by merging with JSON stats.
         
@@ -5267,7 +5550,7 @@ class FRVRSUtilities(object):
             anova_df (pandas.DataFrame):
                 Dataframe to merge with JSON statistics dataframe.
             verbose (bool, optional):
-                If True, print verbose output, by default False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             None
@@ -5292,11 +5575,14 @@ class FRVRSUtilities(object):
                 lambda cv: get_value_description('MedRole', cv)
             ).replace('', nan)
             
-            if verbose: print(anova_df.shape)
-            if verbose: print(anova_df.columns.tolist())
-            if verbose: display(anova_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
-                'record_count', ascending=False
-            ).head(5))
+            if verbose:
+                print(anova_df.shape)
+                print(anova_df.columns.tolist())
+                display(anova_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values(
+                    'record_count', ascending=False
+                ).head(5))
+        
+        return anova_df
     
     
     def get_configData_scenarioData_difficulty(self, json_stats_df, anova_df, verbose=False):
@@ -5310,10 +5596,11 @@ class FRVRSUtilities(object):
             anova_df (pandas.DataFrame):
                 DataFrame containing data for ANOVA analysis.
             verbose (bool, optional):
-                If True, print debug output. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            float: The average difficulty level.
+            float
+                The average difficulty level.
         """
         
         # Find the scenarioData dictionary within the configData dictionary of the JSON data for that session and participant
@@ -5322,9 +5609,9 @@ class FRVRSUtilities(object):
         pass
     
     
-    def add_prioritize_severity_column(self, merge_df, new_column_name='prioritize_high_injury_severity_patients', verbose=False):
+    def add_prioritize_severity_column_to_merge_dataframe(self, merge_df, new_column_name='prioritize_high_injury_severity_patients', verbose=False):
         """
-        Adds a new column to the DataFrame indicating if a row (patient) has the highest injury severity among engaged patients (engaged_patientXX_injury_severity).
+        Add a new column to the DataFrame indicating if a row (patient) has the highest injury severity among engaged patients (engaged_patientXX_injury_severity).
         
         Parameters:
             merge_df (pandas.DataFrame):
@@ -5332,7 +5619,7 @@ class FRVRSUtilities(object):
             new_column_name (str, optional):
                 The name of the new column to be added. Defaults to 'prioritize_high_injury_severity_patients'.
             verbose (bool, optional):
-                If True, print debug messages. Default is False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             tuple:
@@ -5348,13 +5635,20 @@ class FRVRSUtilities(object):
             - If the specified new_column_name already exists in merge_df, the function does nothing.
             - The new column will contain 1 for patients with the highest injury severity among the provided injury severity columns, and 0 otherwise.
         """
+        
+        # Check if new_column_name already exists
         if new_column_name in merge_df.columns:
-            raise ValueError(f"Column '{new_column_name}' already exists in the DataFrame.")
+            raise ValueError(f"Column '{new_column_name}' already exists in the dataframe.")
+        
+        # Check if engaged_patient00_injury_severity doesn't exist
         if 'engaged_patient00_injury_severity' not in merge_df.columns:
+            
+            # Loop through each scene in the merge dataframe
             rows_list = []
             for (session_uuid, scene_id), scene_df in merge_df.groupby(self.scene_groupby_columns):
-                row_dict = {}
-                for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
+                
+                # Create a row dictionary with the scene groupby columns
+                row_dict = {cn: eval(cn) for cn in self.scene_groupby_columns}
                 
                 # Get the chronological order of engagement starts for each patient in the scene
                 engagement_starts_list = []
@@ -5501,7 +5795,7 @@ class FRVRSUtilities(object):
                 The encounter layout to use for determining the initial teleport location. If None, 
                 the encounter layout is inferred from the session DataFrame. Default is None.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             tuple
@@ -5567,14 +5861,16 @@ class FRVRSUtilities(object):
     @staticmethod
     def add_triage_error_rate_columns_to_row(groupby_df, row_dict, verbose=False):
         """
-        Calculate and adds over-triage, under-triage, and critical-triage error rate columns to a
+        Calculate and add over-triage, under-triage, and critical-triage error rate columns to a
         dictionary representing a new row in a triage error rates dataframe being built.
         
-        This function takes a pandas DataFrame grouped by 'error_type' with a 'patient_count' column,
-        a dictionary to store the results, and an optional verbosity flag. It calculates the error rates
-        as percentages of the total patient count for each error type ('Over', 'Under', 'Critical')
-        and adds them to the dictionary with keys 'over_triage_error_rate', 'under_triage_error_rate',
-        and 'critical_triage_error_rate'. If the total patient count is zero, the error rate is set to NaN.
+        This function takes a pandas DataFrame grouped by 'error_type' with a 'patient_count' 
+        column, a dictionary to store the results, and an optional verbosity flag. It 
+        calculates the error rates as percentages of the total patient count for each error 
+        type ('Over', 'Under', 'Critical') and adds them to the `row_dict` dictionary with keys 
+        'over_triage_error_rate', 'under_triage_error_rate', and 
+        'critical_triage_error_rate'. If the total patient count is zero, the error rate is 
+        set to NaN.
         
         Parameters:
             groupby_df (pandas.DataFrame):
@@ -5582,7 +5878,7 @@ class FRVRSUtilities(object):
             row_dict (dict):
                 Dictionary to which the dataframe row of calculated error rates will be added.
             verbose (bool, optional):
-                If True, print the debug information (default is False).
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             dict
@@ -5647,7 +5943,7 @@ class FRVRSUtilities(object):
             groupby_columns (list or str):
                 Column(s) to group by when calculating triage error rates.
             verbose (bool, optional):
-                If True, prints debug information during processing. Defaults to False.
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
             pandas.DataFrame
