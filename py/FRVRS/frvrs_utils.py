@@ -66,7 +66,7 @@ class FRVRSUtilities(object):
         self.responder_negotiations_list = ['PULSE_TAKEN', 'TAG_APPLIED', 'TOOL_APPLIED']#, 'INJURY_TREATED', 'PATIENT_ENGAGED'
         
         # List of action types to consider as user actions
-        self.known_mcivr_metrics_types = [
+        self.known_mcivr_metrics = [
             'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'SP_O2_TAKEN',
             'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED', 'S_A_L_T_WAVE_IF_CAN',
             'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
@@ -128,8 +128,8 @@ class FRVRSUtilities(object):
         
         # Tag colors
         self.tag_columns_list = ['tag_selected_type', 'tag_applied_type', 'tag_discarded_type']
-        self.tag_colors = ['black', 'gray', 'red', 'yellow', 'green', 'Not Tagged']
-        self.colors_category_order = CategoricalDtype(categories=self.tag_colors, ordered=True)
+        self.tag_color_order = ['black', 'gray', 'red', 'yellow', 'green', 'Not Tagged']
+        self.colors_category_order = CategoricalDtype(categories=self.tag_color_order, ordered=True)
         
         # Patient pulse designations
         self.pulse_columns_list = ['patient_demoted_pulse', 'patient_record_pulse', 'patient_engaged_pulse']
@@ -167,7 +167,7 @@ class FRVRSUtilities(object):
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Exact',    'DELAYED': 'Over',     'MINIMAL': 'Over'},
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Under',    'DELAYED': 'Exact',    'MINIMAL': 'Over'},
             {'DEAD': 'Over',  'EXPECTANT': 'Over',     'IMMEDIATE': 'Under',    'DELAYED': 'Under',    'MINIMAL': 'Exact'}
-        ], columns=self.patient_salt_order, index=self.tag_colors[:-1])
+        ], columns=self.patient_salt_order, index=self.tag_color_order[:-1])
         
         # Define the custom categorical orders
         self.error_values = ['Exact', 'Critical', 'Over', 'Under']
@@ -503,33 +503,6 @@ class FRVRSUtilities(object):
     ### List Functions ###
     
     
-    @staticmethod
-    def replace_consecutive_elements(actions_list, element='PATIENT_ENGAGED'):
-        """
-        Replaces consecutive elements in a list with a count of how many there are in a row.
-        
-        Parameters:
-            actions_list: A list of elements.
-            element: The element to replace consecutive occurrences of.
-        
-        Returns:
-            A list with the consecutive elements replaced with a count of how many there are in a row.
-        """
-        result = []
-        count = 0
-        for i in range(len(actions_list)):
-            if (actions_list[i] == element): count += 1
-            else:
-                if (count > 0): result.append(f'{element} x{str(count)}')
-                result.append(actions_list[i])
-                count = 0
-        
-        # Handle the last element
-        if (count > 0): result.append(f'{element} x{str(count)}')
-        
-        return(result)
-    
-    
     ### File Functions ###
     
     
@@ -705,16 +678,18 @@ class FRVRSUtilities(object):
                 The unique logger version associated with the session DataFrame.
         """
         
-        # Assume there are only three versions
+        # Check if session_df_or_file_path is a string (and therefore a file path)
         if isinstance(session_df_or_file_path, str):
+            
+            # Assume there are only three versions possible to find in the file content
             with open(session_df_or_file_path, 'r', encoding=nu.encoding_type) as f:
                 file_content = f.read()
                 if ',1.3,' in file_content: logger_version = 1.3
                 elif ',1.4,' in file_content: logger_version = 1.4
                 else: logger_version = 1.0
+        
+        # Otherwise, extract the unique logger version from the session dataframe itself
         else:
-            
-            # Extract the unique logger version from the session DataFrame
             logger_version = session_df_or_file_path.logger_version.unique().item()
         
         # Print verbose output
@@ -751,11 +726,53 @@ class FRVRSUtilities(object):
     
     @staticmethod
     def get_session_file_date(logs_df, uuid, session_df=None, verbose=False):
+        """
+        Get the date of the session file based on the earliest event time.
+        
+        This static method retrieves the date of the earliest file (based on the `event_time` 
+        column) associated with a specific session (`uuid`) from a DataFrame (`logs_df`) 
+        containing session logs.
+        
+        The function first checks if a `session_df` is provided. If not, it filters the 
+        `logs_df` to obtain a DataFrame (`session_df`) containing only rows where the 
+        `session_uuid` matches the provided `uuid`. Then, it extracts the minimum `event_time` 
+        from `session_df` and formats it as a human-readable date string using `'%B %d, %Y'` 
+        format specifiers (e.g., "October 26, 2023").
+        
+        Parameters:
+            logs_df (pandas.DataFrame):
+                A DataFrame containing session log data, including columns like `session_uuid` and 
+                `event_time`.
+            uuid (str):
+                The unique identifier for the session.
+            session_df (pandas.DataFrame, optional):
+                A pre-populated DataFrame containing session information (defaults to None). If 
+                provided, this DataFrame should include a column named 'session_uuid' to filter by.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            str
+                A string representing the date of the first event in the session, formatted as 'Month Day, Year'.
+        
+        Raises:
+            ValueError
+                If no session is found for the provided `uuid` in either `logs_df` or `session_df`.
+        """
+        
+        # Check if a pre-populated session dataframe is not provided
         if session_df is None:
+            
+            # Filter the logs dataframe to get the session dataframe
             mask_series = (logs_df.session_uuid == uuid)
+            if not mask_series.any():
+                raise ValueError(f"No session found for uuid: {uuid}")
             session_df = logs_df[mask_series]
+        
+        # Extract and format the date string from the minimum event time
         file_date_str = session_df.event_time.min().strftime('%B %d, %Y')
         
+        # Return the formatted date string
         return file_date_str
     
     
@@ -826,9 +843,9 @@ class FRVRSUtilities(object):
         return actual_engagement_distance
     
     
-    def get_distance_deltas_data_frame(self, logs_df, verbose=False):
+    def get_distance_deltas_dataframe(self, logs_df, verbose=False):
         """
-        Compute various metrics related to engagement distances and ordering for scenes in logs dataframe.
+        Compute various metrics related to engagement distances and ordering for scenes in the logs_df DataFrame.
         
         Parameters:
             logs_df (pandas DataFrame):
@@ -848,44 +865,58 @@ class FRVRSUtilities(object):
         # Ensure all needed columns are present in logs_df
         needed_columns = set(self.scene_groupby_columns + ['patient_id', 'action_tick', 'patient_sort', 'injury_severity', 'action_type', 'location_id'])
         all_columns = set(logs_df.columns)
-        if verbose:
-            print(f'all_columns = "{all_columns}"')
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
         
+        # Loop through each scene in the logs dataframe
         rows_list = []
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
-            row_dict = {}
-            for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
             
-            # Get patient_count
+            # Create a row dictionary to store scene/session information
+            row_dict = {cn: eval(cn) for cn in self.scene_groupby_columns}
+            
+            # Add the patient_count to the row dictionary
             patient_count = self.get_patient_count(scene_df)
             row_dict['patient_count'] = patient_count
             
             # Get the chronological order of engagement starts for each patient in the scene
             actual_engagement_order = self.get_order_of_actual_engagement(scene_df, include_noninteracteds=True, verbose=False)
             assert len(actual_engagement_order) == patient_count, f"There are {patient_count} patients in this scene and only {len(actual_engagement_order)} engagement tuples:\n{scene_df[~scene_df.patient_id.isnull()].patient_id.unique().tolist()}\n{actual_engagement_order}"
+            
+            # Initialize the patient counts and loop through the engagement tuples
             unengaged_patient_count = 0; engaged_patient_count = 0
             for engagement_tuple in actual_engagement_order:
+                
+                # Check if the patient was unengaged
                 if engagement_tuple[1] < 0:
+                    
+                    # If so, create an unengaged_patient column and increase the unengaged_patient_count
                     column_name = f'unengaged_patient{unengaged_patient_count:0>2}_metadata'
                     unengaged_patient_count += 1
+                
                 else:
+                    
+                    # Otherwise, create an engaged_patient column and increase the engaged_patient_count
                     column_name = f'engaged_patient{engaged_patient_count:0>2}_metadata'
                     engaged_patient_count += 1
+                
+                # Add the column to the row dictionary if the tuple wasn't NaN
                 column_value = '|'.join([str(x) for x in list(engagement_tuple)])
                 if not isna(column_value): row_dict[column_name] = column_value
             
-            # Get last still engagement and subtract the scene start
+            # Calculate the last still engagement and subtract the scene start and add that to the row dictionary
             last_still_engagement = self.get_last_still_engagement(actual_engagement_order, verbose=verbose)
             row_dict['last_still_engagement'] = last_still_engagement - self.get_scene_start(scene_df)
             
-            # Actual
+            # Calculate and add the actual engagement distance derived from the order of engagement starts
             row_dict['actual_engagement_distance'] = self.get_actual_engagement_distance(actual_engagement_order, verbose=verbose)
             
-            # Calculate the measure of right ordering
+            # Calculate and add the measure of right ordering
             row_dict['measure_of_right_ordering'] = self.get_measure_of_right_ordering(scene_df, verbose=verbose)
             
+            # Append the row dictionary to the list
             rows_list.append(row_dict)
+        
+        # Create the distance deltas dataframe from the list of row dictionaries
         distance_delta_df = DataFrame(rows_list)
         
         # Add the adherence to SALT protocol column
@@ -895,7 +926,7 @@ class FRVRSUtilities(object):
         return distance_delta_df
     
     
-    def get_is_tag_correct_data_frame(self, logs_df, groupby_column='responder_category', verbose=False):
+    def get_is_tag_correct_dataframe(self, logs_df, groupby_column='responder_category', verbose=False):
         """
         Create a DataFrame indicating whether tags were applied correctly for patients in each group.
         
@@ -936,6 +967,8 @@ class FRVRSUtilities(object):
         # Iterate through groups based on the groupby column
         rows_list = []
         for groupby_value, groupby_df in logs_df.groupby(groupby_column):
+            
+            # Iterate through each session, scene, and patient
             for (session_uuid, scene_id, patient_id), patient_df in groupby_df.sort_values(['action_tick']).groupby(self.patient_groupby_columns):
                 
                 # Add the groupby columns and an account of the patient's existence to the row dictionary
@@ -979,7 +1012,38 @@ class FRVRSUtilities(object):
         return is_tag_correct_df
     
     
-    def get_percentage_tag_correct_data_frame(self, is_tag_correct_df, groupby_column='responder_category', verbose=False):
+    def get_percentage_tag_correct_dataframe(self, is_tag_correct_df, groupby_column='responder_category', verbose=False):
+        """
+        Calculate the percentage of correct tags for each group in each scene.
+        
+        This function analyzes a DataFrame (`is_tag_correct_df`) containing information about 
+        scene tags and responder categories. It calculates the percentage of correctly tagged 
+        scenes for each scene and responder category combination.
+        
+        Parameters:
+            is_tag_correct_df (pandas.DataFrame):
+                A DataFrame containing scene tag information, including columns for 'session_uuid', 
+                'scene_id', 'is_tag_correct' (indicating whether a tag is correct), 'patient_count' 
+                (number of patients involved in the scene), and potentially a custom 'groupby_column' 
+                used for grouping (defaults to 'responder_category').
+            groupby_column (str, optional):
+                The column to group the data by within each scene (defaults to 'responder_category').
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                A DataFrame containing the following columns:
+                - session_uuid: The unique identifier for the session.
+                - scene_id: The unique identifier for the scene within the session.
+                - <groupby_column>: The value of the column used for grouping (e.g., responder category).
+                - percentage_tag_correct: The percentage of tags that were correct for this 
+                scene/group combination (as a float).
+        
+        Raises:
+            AssertionError
+                If the required columns are not present in `is_tag_correct_df`.
+        """
         
         # Ensure all needed columns are present in is_tag_correct_df
         groupby_columns = ['session_uuid', 'scene_id', groupby_column]
@@ -987,79 +1051,126 @@ class FRVRSUtilities(object):
         all_columns = set(is_tag_correct_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from is_tag_correct_df"
         
-        # Get the percentage tag correct counts for each scene for each group
+        # Initialize a list to store rows for the new DataFrame
         rows_list = []
-
-        # Loop through each scene and group
+        
+        # Loop through each combination of session, scene, and group
         for (session_uuid, scene_id, groupby_value), groupby_df in is_tag_correct_df.groupby(groupby_columns):
+            
+            # Initialize dictionary to store row data
             row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, groupby_column: groupby_value}
+            
+            # Calculate the percentage of correct tags for each scene for each group
             row_dict['percentage_tag_correct'] = 100 * groupby_df.is_tag_correct.sum() / groupby_df.patient_count.sum()
-
+            
             # Add the row dictionary to the list
             rows_list.append(row_dict)
         
+        # Convert the list of dictionaries to a DataFrame
         percentage_tag_correct_df = DataFrame(rows_list)
         
         return percentage_tag_correct_df
     
     
-    def get_correct_count_by_tag_data_frame(self, tag_to_salt_df, verbose=False):
+    def get_correct_count_by_tag_dataframe(self, tag_to_salt_df, verbose=False):
+        """
+        Generate a DataFrame containing the correct count by predicted tag, scene, and session 
+        for tagged and not-tagged patients.
         
-        # Non-tagged patients either don't have a SALT designation or a don't log a tagging event; tagged patients have both
+        This function analyzes a DataFrame (`tag_to_salt_df`) containing patient tagging information
+        and generates a new DataFrame that summarizes the number of correctly tagged scenes
+        across different categories. The function differentiates between tagged and non-tagged patients
+        based on the presence of values in the 'last_tag' and 'max_salt' columns.
+        
+        Parameters:
+            tag_to_salt_df (pandas.DataFrame):
+                The DataFrame containing patient tagging data. This DataFrame is expected to have 
+                columns including 'session_uuid', 'scene_id', 'predicted_tag', 'is_tag_correct', and 
+                'patient_count'.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                A DataFrame containing the following columns:
+                - session_uuid: The unique identifier for the session.
+                - scene_id: The unique identifier for the scene within the session.
+                - predicted_tag: The predicted tag for the scene.
+                - is_scene_aborted: Whether the scene was aborted (obtained using 
+                `get_is_scene_aborted`).
+                - scene_type: The type of scene (obtained using `get_scene_type`).
+                - correct_count: The total number of patients correctly tagged for this scene with the 
+                predicted tag.
+                - total_count: The total number of patients involved in the scene.
+                - percentage_tag_correct: The percentage of patients correctly tagged for this scene 
+                (as a float, potentially containing NaN values).
+        """
+        
+        # Initialize an empty list to hold row dictionaries
         rows_list = []
+        
+        # Identify rows with missing tags (non-tagged patients who either don't have a SALT designation or a don't log a tagging event)
         tagged_mask_series = tag_to_salt_df.last_tag.isnull() | tag_to_salt_df.max_salt.isnull()
-
+        
         # For the tagged patients, loop through each predicted tag of each scene of each session
         groupby_columns = ['session_uuid', 'scene_id', 'predicted_tag']
         for (session_uuid, scene_id, predicted_tag), df in tag_to_salt_df[~tagged_mask_series].groupby(groupby_columns):
             
-            # Add the logger version, groupby columns, and scene categories to the row dictionary
-            row_dict = {}
-            for cn in groupby_columns: row_dict[cn] = eval(cn)
+            # Create a row dictionary to store scene/session/tag information
+            row_dict = {cn: eval(cn) for cn in groupby_columns}
+            
+            # Add scene abort status and scene type to the row dictionary
             row_dict['is_scene_aborted'] = self.get_is_scene_aborted(df)
             row_dict['scene_type'] = self.get_scene_type(df)
-
-            # Add the total and correct counts for this predicted tag of this run
+            
+            # Calculate and add correct and total counts for this tag/scene
             mask_series = (df.is_tag_correct == True)
             correct_count = df[mask_series].patient_count.sum()
             row_dict['correct_count'] = correct_count
             total_count = df.patient_count.sum()
             row_dict['total_count'] = total_count
             
-            # Add percentage that tag is correct
-            try: percentage_tag_correct = 100*correct_count/total_count
-            except Exception: percentage_tag_correct = nan
+            # Calculate and add percentage correct (handle potential division by zero)
+            try:
+                percentage_tag_correct = 100 * correct_count / total_count
+            except ZeroDivisionError:
+                percentage_tag_correct = nan
             row_dict['percentage_tag_correct'] = percentage_tag_correct
             
-            # Add the row dictionary to the list
+            # Append the row dictionary to the list
             rows_list.append(row_dict)
-
+        
         # For the not-tagged patients, just loop through each scene of each session
         for (session_uuid, scene_id), df in tag_to_salt_df[tagged_mask_series].groupby(self.scene_groupby_columns):
             
-            # Add the logger version, groupby columns, and scene categories to the row dictionary
-            row_dict = {}
-            for cn in self.scene_groupby_columns: row_dict[cn] = eval(cn)
+            # Create a dictionary to store scene/session information
+            row_dict = {cn: eval(cn) for cn in self.scene_groupby_columns}
+            
+            # Set predicted tag to 'Not Tagged'
             row_dict['predicted_tag'] = 'Not Tagged'
+            
+            # Add scene abort status and scene type to the row dictionary
             row_dict['is_scene_aborted'] = self.get_is_scene_aborted(df)
             row_dict['scene_type'] = self.get_scene_type(df)
-
-            # Add the total and correct (0) counts for this run
+            
+            # Calculate and add correct (0) and total counts for this run
             mask_series = (df.is_tag_correct == True)
             correct_count = df[mask_series].patient_count.sum()
             row_dict['correct_count'] = correct_count
             total_count = df.patient_count.sum()
             row_dict['total_count'] = total_count
             
-            # Add percentage that tag is correct (also zero)
-            try: percentage_tag_correct = 100*correct_count/total_count
-            except Exception: percentage_tag_correct = nan
+            # Calculate and add percentage that tag is correct (also zero)
+            try:
+                percentage_tag_correct = 100 * correct_count / total_count
+            except ZeroDivisionError:
+                percentage_tag_correct = nan
             row_dict['percentage_tag_correct'] = percentage_tag_correct
             
-            # Add the row dictionary to the list
+            # Append the row dictionary to the list
             rows_list.append(row_dict)
-
-        # Create the correct count data frame
+        
+        # Create the correct count data frame from the list of row dictionaries
         correct_count_by_tag_df = DataFrame(rows_list)
         
         return correct_count_by_tag_df
@@ -1103,7 +1214,7 @@ class FRVRSUtilities(object):
     
     def get_is_treating_expectants(self, scene_df, verbose=False):
         """
-        Gets whether or not a participant is treating patients expected to die before help arrives.
+        Determine whether or not a participant is treating patients expected to die before help arrives in the scene DataFrame.
         
         Parameters:
             scene_df (pandas.DataFrame):
@@ -1116,23 +1227,67 @@ class FRVRSUtilities(object):
                 True if the participant is treating patients expected to die before help arrives, False otherwise.
         """
         
-        # Ensure all needed columns are present in logs_df
+        # Ensure all needed columns are present in scene_df
         needed_columns = set(['tool_applied_type', 'action_tick', 'patient_salt', 'injury_treated_required_procedure'])
-        all_columns = set(logs_df.columns)
-        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
         
-        # Find the expectant among all patients and stop searching if the participant is found treated one
+        # Find the expectant among all patients
         for (session_uuid, scene_id, patient_id), patient_df in scene_df.groupby(self.patient_groupby_columns):
             is_expectant_treated = self.get_is_expectant_treated(patient_df, verbose=verbose)
             
-            # Stop searching if the participant is found treating one
+            # Return True if the participant is found treating one
             if is_expectant_treated: return True
         
         # Return False assuming the participant is NOT treating patients expected to die before help arrives
         return False
     
     
-    def get_patient_stats_data_frame(self, logs_df, verbose=False):
+    def get_patient_stats_dataframe(self, logs_df, verbose=False):
+        """
+        Generate a DataFrame of patient statistics from a given DataFrame of logs.
+        
+        This function analyzes a DataFrame (`logs_df`) containing scene log data and generates 
+        a new DataFrame (`patient_stats_df`) that summarizes various patient-centric metrics 
+        for each scene. The function relies on several helper functions (assumed to be defined 
+        elsewhere) to calculate specific metrics such as first/last interactions, tool 
+        application correctness, and treatment values.
+        
+        Parameters:
+            logs_df (pandas.DataFrame):
+                The DataFrame containing log data for patients.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                A DataFrame containing the calculated patient statistics for each scene in the input 
+                DataFrame. The DataFrame may also include additional columns depending on the presence 
+                of specific columns in the input `logs_df`.
+        
+        Notes:
+            It is assumed that the input `logs_df` contains all the necessary columns for the 
+            calculations, including:
+            - 'injury_severity'
+            - 'scene_id'
+            - 'tool_applied_sender'
+            - 'session_uuid'
+            - 'action_tick'
+            - 'patient_record_salt'
+            - 'tool_applied_type'
+            - 'patient_id'
+            - 'patient_engaged_salt'
+            - 'injury_record_required_procedure'
+            - 'patient_record_sort'
+            - 'injury_required_procedure'
+            - 'tag_applied_type'
+            - 'injury_treated_required_procedure'
+            - 'injury_id'
+            - 'patient_salt'
+            - 'action_type'
+            - 'patient_engaged_sort'
+            - 'responder_category'
+        """
         
         # Ensure all needed columns are present in logs_df
         needed_columns = set([
@@ -1143,11 +1298,20 @@ class FRVRSUtilities(object):
         all_columns = set(logs_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from logs_df"
         
+        # Initialize a list to hold the rows of the resulting DataFrame
         rows_list = []
+        
+        # Group by scene and iterate over each group
         for (session_uuid, scene_id), scene_df in logs_df.groupby(self.scene_groupby_columns):
+            
+            # Get the start time of the scene
             scene_start = self.get_scene_start(scene_df)
+            
+            # Iterate over priority group and patient sort
             for cn in ['priority_group', 'patient_sort']:
                 if cn in scene_df.columns:
+                    
+                    # Get actual and ideal sequences
                     actual_sequence, ideal_sequence, sort_dict = eval(f'self.get_actual_and_ideal_{cn}_sequences(scene_df)')
                     unsort_dict = {v1: k for k, v in sort_dict.items() for v1 in v}
                     if verbose:
@@ -1156,12 +1320,20 @@ class FRVRSUtilities(object):
                         display(ideal_sequence)
                         print(sort_dict)
                         print(unsort_dict)
-                    swaps_to_perfect_order_count = nu.count_swaps_to_perfect_order([unsort_dict[i] for i in ideal_sequence], [unsort_dict[a] for a in actual_sequence])
+                    
+                    # Calculate swaps to perfect order for priority_group and patient_sort
+                    swaps_to_perfect_order_count = nu.count_swaps_to_perfect_order(
+                        [unsort_dict[i] for i in ideal_sequence],
+                        [unsort_dict[a] for a in actual_sequence]
+                    )
                     exec(f'swaps_to_perfect_{cn}_order_count = swaps_to_perfect_order_count')
+            
+            # Group by encounter layout and patient id and iterate over each group
             for (encounter_layout, patient_id), patient_df in scene_df.groupby(['encounter_layout', 'patient_id']):
                 row_dict = {'session_uuid': session_uuid, 'scene_id': scene_id, 'patient_id': patient_id, 'encounter_layout': encounter_layout}
                 for cn in ['priority_group', 'patient_sort']:
-                    if cn in scene_df.columns: row_dict[f'swaps_to_perfect_{cn}_order_count'] = eval(f'swaps_to_perfect_{cn}_order_count')
+                    if cn in scene_df.columns:
+                        row_dict[f'swaps_to_perfect_{cn}_order_count'] = eval(f'swaps_to_perfect_{cn}_order_count')
                 
                 # Get all the FRVRS utils scalar patient values
                 row_dict['first_patient_interaction'] = self.get_first_patient_interaction(patient_df)
@@ -1169,7 +1341,7 @@ class FRVRSUtilities(object):
                 row_dict['is_correct_bleeding_tool_applied'] = self.get_is_correct_bleeding_tool_applied(patient_df)
                 row_dict['is_patient_dead'] = self.get_is_patient_dead(patient_df)
                 row_dict['is_patient_gazed_at'] = self.get_is_patient_gazed_at(patient_df)
-                row_dict['is_patient_severely_hemorrhaging'] = self.get_is_patient_severely_hemorrhaging(patient_df)
+                row_dict['is_patient_severely_hemorrhaging'] = self.get_is_patient_severely_injured(patient_df)
                 row_dict['is_patient_still'] = self.get_is_patient_still(patient_df)
                 row_dict['is_tag_correct'] = self.get_is_tag_correct(patient_df)
                 row_dict['last_patient_interaction'] = self.get_last_patient_interaction(patient_df)
@@ -1180,18 +1352,24 @@ class FRVRSUtilities(object):
                 row_dict['pulse_value'] = self.get_pulse_value(patient_df)
                 row_dict['tag_value'] = self.get_tag_value(patient_df)
                 row_dict['time_to_hemorrhage_control'] = self.get_time_to_hemorrhage_control(patient_df, scene_start)
+                
+                # Handle injury treatment value
                 mask_series = ~patient_df.injury_id.isnull()
                 if mask_series.any():
                     injury_id = patient_df[mask_series].injury_id.iloc[-1]
                     row_dict['treatment_value'] = self.get_treatment_value(patient_df, injury_id)
                 
+                # Handle tag correct value
                 mask_series = ~patient_df.tag_applied_type.isnull()
                 tag_applied_type_count = patient_df[mask_series].tag_applied_type.unique().shape[0]
                 mask_series = ~patient_df.patient_record_salt.isnull()
                 patient_record_salt_count = patient_df[mask_series].patient_record_salt.unique().shape[0]
-                if (tag_applied_type_count > 0) and (patient_record_salt_count > 0): row_dict['tag_correct'] = self.get_is_tag_correct(patient_df)
-                else: row_dict['tag_correct'] = nan
+                if (tag_applied_type_count > 0) and (patient_record_salt_count > 0):
+                    row_dict['tag_correct'] = self.get_is_tag_correct(patient_df)
+                else:
+                    row_dict['tag_correct'] = nan
                 
+                # Count various types of actions
                 mask_series = patient_df.action_type.isin(self.action_types_list)
                 row_dict['action_count'] = mask_series.sum()
                 
@@ -1204,14 +1382,19 @@ class FRVRSUtilities(object):
                 mask_series = patient_df.action_type.isin(['TAG_APPLIED'])
                 row_dict['tag_application_count'] = mask_series.sum()
                 
+                # Determine if the patient was expectant and treated
                 is_expectant_treated = self.get_is_expectant_treated(patient_df, verbose=False)
                 row_dict['is_expectant_treated'] = is_expectant_treated
                 
+                # Append the row dictionary to the rows list
                 rows_list.append(row_dict)
+        
+        # Create a DataFrame from the rows list
         patient_stats_df = DataFrame(rows_list)
         patient_stats_df.last_salt = patient_stats_df.last_salt.astype(self.salt_category_order)
         patient_stats_df.last_tag = patient_stats_df.last_tag.astype(self.colors_category_order)
         
+        # Return the patient statistics DataFrame
         return patient_stats_df
     
     
@@ -1278,13 +1461,57 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_player_location(scene_df, action_tick, verbose=False):
+    def get_location_of_player(scene_df, target_tick, verbose=False):
+        """
+        Retrieve the location of a player in a given scene at a specific tick.
+        
+        This function searches a DataFrame (`scene_df`) containing scene information for the 
+        player's location at a given action tick (`target_tick`). It considers only rows where 
+        the action type is 'PLAYER_LOCATION' and both `action_tick` and `location_id` columns 
+        have non-null values.
+        
+        The function first filters the DataFrame to only include relevant rows. It then 
+        calculates the absolute difference between each action tick in the filtered DataFrame 
+        and the provided `target_tick`. Finally, it sorts the filtered DataFrame by this 
+        difference and retrieves the location from the first row (the one with the closest 
+        action tick). The location is evaluated from a string representation (assuming it can 
+        be directly evaluated into a tuple of three floats).
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                A DataFrame containing scene information, including columns for 'action_type', 
+                'action_tick', and 'location_id'.
+            target_tick (int):
+                The action tick at which to retrieve the player's location.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            tuple(float, float, float)
+                A tuple representing the player's location (x, y, z) at the closest action tick before 
+                or at `target_tick`, or (0.0, 0.0, 0.0) if no relevant location is found.
+        """
+        
+        # Initialize player location to default (origin)
         player_location = (0.0, 0.0, 0.0)
-        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
+        
+        # Filter for relevant rows (PLAYER_LOCATION with valid action_tick and location_id)
+        mask_series = (scene_df.action_type == 'PLAYER_LOCATION') & ~scene_df.action_tick.isnull() & ~scene_df.location_id.isnull()
+        
+        # Check if any 'PLAYER_LOCATION' actions exist
         if mask_series.any():
+            
+            # Apply the mask to the dataframe
             df = scene_df[mask_series]
-            df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick - x))
-            player_location = eval(df.sort_values('action_delta').iloc[0].location_id)
+            
+            # Calculate the absolute time difference between action ticks of each row and the target tick
+            df['action_delta'] = df.action_tick.map(lambda x: abs(target_tick - x))
+            
+            # Sort the DataFrame by action_delta (smallest delta = closest action tick) to find the closest action_tick
+            closest_action_row = df.sort_values('action_delta').iloc[0]
+            
+            # Evaluate the location_id string to convert it to a tuple
+            player_location = eval(closest_action_row.location_id)
         
         return player_location
     
@@ -1292,7 +1519,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_scene_type(scene_df, verbose=False):
         """
-        Gets the type of a scene.
+        Get the type of a scene.
         
         Parameters:
             scene_df (pandas.DataFrame):
@@ -1871,7 +2098,7 @@ class FRVRSUtilities(object):
     
     def get_dead_patients(self, scene_df, verbose=False):
         """
-        Get a list of unique patient IDs corresponding to patients marked as DEAD or EXPECTANT in a scene DataFrame.
+        Get a list of unique patient IDs marked as DEAD or EXPECTANT in a scene DataFrame.
         
         Parameters:
             scene_df (pandas.DataFrame):
@@ -1902,7 +2129,7 @@ class FRVRSUtilities(object):
     
     def get_still_patients(self, scene_df, verbose=False):
         """
-        Get a list of unique patient IDs corresponding to patients marked as 'still' in a scene DataFrame.
+        Get a list of unique patient IDs marked as 'still' in a scene DataFrame.
         
         Parameters:
             scene_df (pandas.DataFrame):
@@ -1967,7 +2194,7 @@ class FRVRSUtilities(object):
     
     def get_actual_and_ideal_patient_sort_sequences(self, scene_df, verbose=False):
         """
-        Extracts the actual and ideal sequences of first interactions from a scene dataframe.
+        Extract the actual and ideal patient SORT sequences of first interactions from a scene dataframe.
         
         Parameters:
             scene_df (pandas.DataFrame):
@@ -2276,20 +2503,53 @@ class FRVRSUtilities(object):
         return time_to_hemorrhage_control_per_patient
     
     
-    def get_triage_priority_data_frame(self, scene_df, verbose=False):
+    def get_triage_priority_dataframe(self, scene_df, verbose=False):
+        """
+        Generate a DataFrame that prioritizes patients based on injury severity and sort order for a scene.
+        
+        This function filters and sorts the input DataFrame based on specified columns to 
+        generate a triage priority DataFrame. It ensures that all necessary columns are 
+        present in the input DataFrame and sorts the data by 'injury_severity' and 
+        'patient_sort'.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                A DataFrame containing scene data. This DataFrame is expected to have columns 
+                including those specified in `input_features` and potentially others. See the source 
+                code for a list of expected columns.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                A DataFrame containing triage priority data for the scene, including the specified 
+                scene groupby columns and the defined input features. The DataFrame is sorted by 
+                injury severity (ascending) and patient sort order (ascending).
+        
+        Raises:
+            AssertionError
+                If the input DataFrame is missing required columns.
+        """
+        
+        # Define the input features needed for triage priority
         input_features = [
-            'injury_id', 'injury_severity', 'injury_required_procedure', 'patient_salt', 'patient_sort', 'patient_pulse', 'patient_breath',
-            'patient_hearing', 'patient_mood', 'patient_pose'
-            ]
+            'injury_id', 'injury_severity', 'injury_required_procedure', 'patient_salt', 
+            'patient_sort', 'patient_pulse', 'patient_breath', 'patient_hearing', 'patient_mood', 
+            'patient_pose'
+        ]
+        
+        # Combine scene groupby columns and features into a list of required columns
         columns_list = self.scene_groupby_columns + input_features
         
-        # Ensure all needed columns are present in scene_df
+        # Ensure all required columns are present in scene_df
         needed_columns = set(columns_list)
         all_columns = set(scene_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
         
+        # Filter and sort the dataframe by injury severity and patient sort
         triage_priority_df = scene_df[columns_list].sort_values(['injury_severity', 'patient_sort'], ascending=[True, True])
         
+        # Return the sorted DataFrame
         return triage_priority_df
     
     
@@ -2403,7 +2663,7 @@ class FRVRSUtilities(object):
     
     def get_actual_and_ideal_priority_group_sequences(self, scene_df, verbose=False):
         """
-        Extracts the actual and ideal sequences of first interactions from a scene dataframe.
+        Extract the actual and ideal priority group sequences of first interactions from a scene dataframe.
         
         Parameters:
             scene_df (pandas.DataFrame):
@@ -2491,9 +2751,11 @@ class FRVRSUtilities(object):
         # Split the DataFrame at TOOL_SELECTED indices
         split_dfs = nu.split_df_by_iloc(scene_df, tool_selected_indices)
         
-        # Calculate indecision times for each sub-dataframe
+        # Loop over each split dataframe
         indecision_times = []
         for split_df in split_dfs:
+            
+            # Check for any TOOL_HOVER actions in the split dataframe
             mask_series = (split_df.action_type == 'TOOL_HOVER')
             if mask_series.any():
                 tool_hover_df = split_df[mask_series]
@@ -2718,13 +2980,13 @@ class FRVRSUtilities(object):
         all_columns = set(scene_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
         
-        # Create the tag-to-SALT data frame
-        tag_to_salt_df = self.get_is_tag_correct_data_frame(scene_df, groupby_column='participant_id')
+        # Create the tag-to-SALT data frame using the scene_df
+        tag_to_salt_df = self.get_is_tag_correct_dataframe(scene_df, groupby_column='participant_id')
         
-        # Create the correct-count-by-tag data frame
-        correct_count_by_tag_df = self.get_percentage_tag_correct_data_frame(tag_to_salt_df, groupby_column='participant_id')
+        # Create the correct-count-by-tag data frame using the tag-to-SALT dataframe
+        correct_count_by_tag_df = self.get_percentage_tag_correct_dataframe(tag_to_salt_df, groupby_column='participant_id')
         
-        # Get the percentage tag correct counts for the scene
+        # Get the mean of the percentage_tag_correct column as the percentage percent accurate tagging for the scene
         percent_accurate_tagging = correct_count_by_tag_df.percentage_tag_correct.mean()
         
         return percent_accurate_tagging
@@ -2895,7 +3157,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_is_patient_still(patient_df, verbose=False):
         """
-        Determines whether a patient is considered still based on the presence of 'still' in their patient_record_sort or patient_engaged_sort fields.
+        Determine whether a patient is considered still based on the presence of 'still' in their patient_record_sort or patient_engaged_sort fields.
         
         The function examines the 'patient_record_sort' and 'patient_engaged_sort' columns to
         determine if the patient is categorized as 'still'. If both columns are empty,
@@ -2951,7 +3213,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_last_salt(patient_df, verbose=False):
         """
-        Get the last SALT value from the patient data frame.
+        Get the most recent SALT value from the patient DataFrame.
         
         Parameters:
             patient_df (pandas.DataFrame, optional):
@@ -2969,10 +3231,16 @@ class FRVRSUtilities(object):
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
-        # Get the last salt value
+        # Attempt to assign a legitimate value to last_salt
         try:
+            
+            # Filter out missing patient SALT values
             mask_series = ~patient_df.patient_salt.isnull()
+            
+            # Select the patient SALT with the highest action tick
             last_salt = patient_df[mask_series].sort_values('action_tick').patient_salt.iloc[-1]
+        
+        # If unsuccessful, assign NaN to the last_salt
         except Exception: last_salt = nan
         
         # If verbose is True, print additional information
@@ -2985,48 +3253,48 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_max_salt(patient_df, session_uuid=None, scene_id=None, random_patient_id=None, verbose=False):
+    def get_max_salt(patient_df, verbose=False):
         """
-        Get the last SALT value from the patient data frame.
+        Get the highest order SALT value from the patient DataFrame ('DEAD' > 'EXPECTANT' > 'IMMEDIATE' > 'DELAYED' > 'MINIMAL').
         
         Parameters:
             patient_df (pandas.DataFrame, optional):
                 DataFrame containing patient-specific data with relevant columns.
-            session_uuid (str, optional):
-                UUID of the session to load FRVRS logs. Required if 'patient_df' is None.
-            scene_id (int, optional):
-                Index of the scene to load FRVRS logs. Required if 'patient_df' is None.
-            random_patient_id (int, optional):
-                Random patient ID to use if 'patient_df' is None. Default is None.
             verbose (bool, optional):
                 Whether to print debug or status messages. Defaults to False.
         
         Returns:
             int or tuple
-                The maximum salt value for the patient, or a tuple containing the patient ID and maximum salt value if `session_uuid` is provided.
+                The maximum salt value for the patient.
         """
         
-        # Get the max salt value
-        max_salt = self.get_last_salt(patient_df, verbose=verbose)
+        # Ensure all needed columns are present in patient_df
+        needed_columns = set(['action_tick', 'patient_salt'])
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
+            
+        # Filter out missing patient SALT values
+        mask_series = ~patient_df.patient_salt.isnull()
+        
+        # Create a series of all patient SALTs categorized with the salt_category_order
+        patient_salts_srs = Series(patient_df[mask_series].patient_salt).astype(self.salt_category_order)
+        
+        # Get the minimum value of that series and assign it to max_salt
+        max_salt = patient_salts_srs.min()
         
         # If verbose is True, print additional information
         if verbose:
-            print(f'max_salt={max_salt}, session_uuid={session_uuid}, scene_id={scene_id}, random_patient_id={random_patient_id}')
+            print(f'max_salt={max_salt}')
             display(patient_df)
         
-        # Return a tuple (random_patient_id, max_salt) if 'session_uuid' is provided
-        if session_uuid is not None:
-            if random_patient_id is None: random_patient_id = list(patient_df.groupby('patient_id').groups.keys())[0]
-            return random_patient_id, max_salt
-        
-        # Return the max salt value if 'session_uuid' is None
-        else: return max_salt
+        # Return the max salt value
+        return max_salt
     
     
     @staticmethod
     def get_last_tag(patient_df, verbose=False):
         """
-        Retrieves the last tag applied to a patient in a scene.
+        Retrieve the last tag applied to a patient in a scene.
         
         Parameters:
             patient_df (pandas.DataFrame):
@@ -3059,33 +3327,54 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def get_patient_location(patient_df, action_tick, verbose=False):
+    def get_location_of_patient(patient_df, target_tick, verbose=False):
         """
-        Gets the patient location closest to the time of the action tick.
+        Get the patient location closest to the time of the target action tick.
+        
+        This function searches for the patient's location in `patient_df` that is closest (in 
+        time) to the provided `target_tick`.
         
         Parameters:
             patient_df (pandas.DataFrame):
-                DataFrame containing patient-specific data with relevant columns.
-            action_tick (int):
+                DataFrame containing patient-specific data with relevant columns, including:
+                - location_id: The ID of the patient's location (expected to be a string that can be 
+                evaluated to a tuple).
+                - action_tick (int): The timestamp of an action associated with the patient.
+            target_tick (int):
                 The time in milliseconds to locate the patient during.
         
         Returns:
-            tuple
-                The coordinates of the patient.
+            tuple (float, float, float)
+                The coordinates of the patient's location closest to the `target_tick`. The function 
+                returns (0.0, 0.0, 0.0) if no valid location data is found.
         """
+        
+        # Initialize patient location to default (origin)
         patient_location = (0.0, 0.0, 0.0)
+        
+        # Check if the patient has location data
         mask_series = ~patient_df.location_id.isnull()
         if mask_series.any():
+            
+            # Filter for rows with location data
             df = patient_df[mask_series]
-            df['action_delta'] = df.action_tick.map(lambda x: abs(action_tick - x))
-            patient_location = eval(df.sort_values('action_delta').iloc[0].location_id)
+            
+            # Calculate the absolute time difference between each action_tick and the target_tick
+            df['action_delta'] = df.action_tick.map(lambda x: abs(target_tick - x))
+            
+            # Sort by the calculated time difference (ascending)
+            df_sorted = df.sort_values('action_delta')
+            
+            # Get the location of the patient with the closest action_tick (assuming first row)
+            patient_location = eval(df_sorted.iloc[0].location_id)
         
+        # Return the patient's location coordinates
         return patient_location
     
     
     def get_is_tag_correct(self, patient_df, verbose=False):
         """
-        Determines whether the last tag applied to a patient in a given scene DataFrame matches the predicted tag based on the patient's record salt.
+        Determines whether the last tag applied to a patient in a given scene DataFrame matches the predicted tag based on the patient's record SALT.
         
         Parameters:
             patient_df (pandas.DataFrame):
@@ -3113,10 +3402,10 @@ class FRVRSUtilities(object):
         # Get the last applied tag
         last_tag = self.get_last_tag(patient_df)
         
-        # Get the maximum salt value for the patient
+        # Get the maximum SALT value for the patient
         max_salt = self.get_max_salt(patient_df)
         
-        # Get the predicted tag based on the maximum salt value
+        # Get the predicted tag based on the maximum SALT value
         try: predicted_tag = self.salt_to_tag_dict.get(max_salt, nan)
         except Exception: predicted_tag = nan
             
@@ -3127,7 +3416,7 @@ class FRVRSUtilities(object):
         # If verbose is True, print additional information
         if verbose:
             print(f'Last tag value: {last_tag}')
-            print(f'Predicted tag value based on max salt: {predicted_tag}')
+            print(f'Predicted tag value based on max SALT: {predicted_tag}')
             print(f'Is the tag correct? {is_tag_correct}')
             display(patient_df)
         
@@ -3135,9 +3424,9 @@ class FRVRSUtilities(object):
         return is_tag_correct
     
     
-    def get_is_patient_severely_hemorrhaging(self, patient_df, verbose=False):
+    def get_is_patient_severely_injured(self, patient_df, verbose=False):
         """
-        Determines whether the patient has severe injuries.
+        Determine whether the patient has severe injuries.
         
         Parameters:
             patient_df (pandas.DataFrame):
@@ -3155,9 +3444,18 @@ class FRVRSUtilities(object):
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
+        # Initialize that the patient is not severely injured
         is_patient_injured = False
+        
+        # Loop through each injury
         for injury_id, injury_df in patient_df.groupby('injury_id'):
+            
+            # If the injury is severe, recompute that they are
             is_patient_injured = is_patient_injured or self.get_is_injury_severe(injury_df, verbose=verbose)
+            
+            # If they are severely injured, break out of the loop
+            if is_patient_injured:
+                break
         
         return is_patient_injured
     
@@ -3330,7 +3628,7 @@ class FRVRSUtilities(object):
             'patient_demoted_position', 'patient_engaged_position', 'patient_record_position', 'player_gaze_location'
         ]
         
-        # Create a melt DataFrame by filtering rows with valid location data
+        # Create a melt dataframe by filtering rows with valid location data
         mask_series = False
         for location_cn in location_cns_list: mask_series |= ~patient_df[location_cn].isnull()
         columns_list = ['action_tick'] + location_cns_list
@@ -3421,8 +3719,10 @@ class FRVRSUtilities(object):
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
-        # Create a mask to check if injury record requires hemorrhage control procedures
+        # Create the mask for injury records requiring hemorrhage control procedures
         mask_series = patient_df.injury_required_procedure.isin(self.hemorrhage_control_procedures_list)
+        
+        # Compute whether this patient has any
         is_hemorrhaging = mask_series.any()
         
         # If verbose is True, print additional information
@@ -3436,7 +3736,7 @@ class FRVRSUtilities(object):
     def get_time_to_hemorrhage_control(self, patient_df, scene_start, use_dead_alternative=False, verbose=False):
         """
         Calculate the time it takes to control hemorrhage for the patient by getting the injury treatments
-        where the responder is not confused from the bad feedback.
+        where the responder is not confused from any bad feedback.
         
         According to the paper we define time to hemorrhage control like this:
         Duration of time from the scene start time until the time that the last patient who requires life
@@ -3464,35 +3764,38 @@ class FRVRSUtilities(object):
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
+        # Initialize the controlled time to zero
         controlled_time = 0
+        
+        # Compute if the patient is dead
         is_patient_dead = self.get_is_patient_dead(patient_df, verbose=verbose)
         
-        # Use time to correct triage tag (black of gray) an alternative measure of proper treatment
-        if is_patient_dead:
-            if use_dead_alternative:
-                
-                # Get the last SALT value for the patient
-                try:
-                    mask_series = ~patient_df.patient_record_salt.isnull()
-                    salt_srs = patient_df[mask_series].sort_values('action_tick').iloc[-1]
-                    action_tick = salt_srs.action_tick
-                    last_salt = salt_srs.patient_record_salt
-                except Exception: last_salt = None
-                if verbose: print(f'last_salt = {last_salt}')
-                
-                # Get the predicted tag based on the maximum salt value
-                try: predicted_tag = self.salt_to_tag_dict.get(last_salt, None)
-                except Exception: predicted_tag = None
-                if verbose: print(f'predicted_tag = {predicted_tag}')
-                
-                # Update the maximum hemorrhage control time with the time to correct triage tag
-                if predicted_tag in ['black', 'gray']:
-                    controlled_time = max(controlled_time, action_tick - scene_start)
-                    if verbose: print(f'controlled_time = {controlled_time}')
-        
-        else:
+        # Check if we are using the alternative to ignoring dead patients
+        if use_dead_alternative:
             
-            # Define columns for merging
+            # Get the last SALT value for the patient
+            try:
+                mask_series = ~patient_df.patient_record_salt.isnull()
+                salt_srs = patient_df[mask_series].sort_values('action_tick').iloc[-1]
+                action_tick = salt_srs.action_tick
+                last_salt = salt_srs.patient_record_salt
+            except Exception: last_salt = None
+            if verbose: print(f'last_salt = {last_salt}')
+            
+            # Get the predicted tag based on the maximum salt value
+            try: predicted_tag = self.salt_to_tag_dict.get(last_salt, None)
+            except Exception: predicted_tag = None
+            if verbose: print(f'predicted_tag = {predicted_tag}')
+            
+            # Update the maximum hemorrhage control time with the time to correct triage tag (black of gray) an alternative measure of proper treatment
+            if predicted_tag in ['black', 'gray']:
+                controlled_time = max(controlled_time, action_tick - scene_start)
+                if verbose: print(f'controlled_time = {controlled_time}')
+        
+        # Check if the patient is not dead
+        elif not is_patient_dead:
+            
+            # If not dead, define columns for merging
             on_columns_list = ['injury_id']
             merge_columns_list = ['action_tick'] + on_columns_list
             
@@ -3909,9 +4212,13 @@ class FRVRSUtilities(object):
         all_columns = set(injury_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from injury_df"
         
+        # Filter injury_df for rows with high injury severity
         mask_series = (injury_df.injury_severity == 'high')
         
-        return self.get_is_injury_hemorrhage(injury_df, verbose=verbose) and bool(injury_df[mask_series].shape[0])
+        # Compute the is_injury_severe logic by checking if the injury is a hemorrhage AND if there are any filtered rows
+        is_injury_severe = self.get_is_injury_hemorrhage(injury_df, verbose=verbose) and bool(injury_df[mask_series].shape[0])
+        
+        return is_injury_severe
     
     
     def get_is_bleeding_correctly_treated(self, injury_df, verbose=False):
@@ -3999,7 +4306,7 @@ class FRVRSUtilities(object):
     
     def get_stills_value(self, scene_df, verbose=False):
         """
-        0=All Stills not visited first, 1=All Stills visited first
+        Score a patient with a 0 for All Stills not visited first, or a 1 for All Stills visited first, given a patient DataFrame.
         """
         
         # Ensure all needed columns are present in scene_df
@@ -4023,7 +4330,7 @@ class FRVRSUtilities(object):
     
     def get_walkers_value(self, scene_df, verbose=False):
         """
-        0=All Walkers not visited last, 1=All Walkers visited last
+        Score a patient with a 0 for All Walkers not visited last, or a 1 for All Walkers visited last, given a patient DataFrame.
         """
         
         # Extract the actual and ideal sequences of first interactions from the scene in terms of still/waver/walker
@@ -4043,7 +4350,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_wave_value(scene_df, verbose=False):
         """
-        0=No Wave Command issued, 1=Wave Command issued
+        Score a patient with a 0 for No Wave Command issued, or a 1 for Wave Command issued, given a patient DataFrame.
         """
         
         # Check in the scene if there are any WAVE_IF_CAN actions
@@ -4058,7 +4365,7 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_walk_value(scene_df, verbose=False):
         """
-        0=No Walk Command issued, 1=Walk Command issued
+        Score a patient with a 0 for No Walk Command issued, or a 1 for Walk Command issued, given a patient DataFrame.
         """
         
         # Check in the scene if there are any WALK_IF_CAN actions
@@ -4076,26 +4383,27 @@ class FRVRSUtilities(object):
     @staticmethod
     def get_treatment_value(patient_df, injury_id, verbose=False):
         """
-        0=No Treatment or Wrong Treatment, 1=Correct Treatment
+        Score a patient with a 0 for No Treatment or Wrong Treatment, or a 1 for Correct Treatment, given a patient DataFrame.
         """
         
         # Ensure all needed columns are present in patient_df
         needed_columns = set(['injury_id', 'injury_record_required_procedure', 'injury_treated_required_procedure', 'action_tick'])
         all_columns = set(patient_df.columns)
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
-
+        
         # Get required procedure
         mask_series = (patient_df.injury_id == injury_id) & ~patient_df.injury_record_required_procedure.isnull()
         if not mask_series.any(): return nan
         df = patient_df[mask_series]
         required_procedure = df.injury_record_required_procedure.squeeze()
-
+        
         # Get first attempt
         mask_series = (patient_df.injury_id == injury_id) & ~patient_df.injury_treated_required_procedure.isnull()
         if not mask_series.any(): return 0
         df = patient_df[mask_series]
         first_procedure = df.sort_values(['action_tick']).injury_treated_required_procedure.tolist()[0]
-
+        
+        # If the first attempt was the required procedure, output a 1 (Correct Treatment), if not, output a 0 (No Treatment or Wrong Treatment)
         is_injury_treated = int(first_procedure == required_procedure)
 
         return is_injury_treated
@@ -4103,7 +4411,7 @@ class FRVRSUtilities(object):
     
     def get_tag_value(self, patient_df, verbose=False):
         """
-        0=No Tag or Wrong Tag, 1=Correct Tag
+        Score a patient with a 0 for No Tag or Wrong Tag, or a 1 for Correct Tag, given a patient DataFrame.
         """
         
         # Ensure all needed columns are present in patient_df
@@ -4112,27 +4420,36 @@ class FRVRSUtilities(object):
         assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
         try:
+            
+            # Find out whether a patient's tag is correct
             is_tag_correct = self.get_is_tag_correct(patient_df, verbose=verbose)
+            
+            # If it's NaN, score it as zero
             if isnan(is_tag_correct): is_tag_correct = 0
+            
+            # Otherwise, score it as the integer of the boolean
             else: is_tag_correct = int(is_tag_correct)
         except: is_tag_correct = 0
-
+        
         return is_tag_correct
     
     
     @staticmethod
     def get_pulse_value(patient_df, verbose=False):
         """
-        0=No Pulse Taken, 1=Pulse Taken
+        Score a patient with a 0 for No Pulse Taken or a 1 for Pulse Taken, given a patient DataFrame.
         """
         
-        # Ensure all needed columns are present in scene_df
+        # Ensure all needed columns are present in patient_df
         needed_columns = {'action_type'}
-        all_columns = set(scene_df.columns)
-        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        all_columns = set(patient_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from patient_df"
         
+        # Filter for PULSE_TAKEN action types
         mask_series = (patient_df.action_type == 'PULSE_TAKEN')
-        is_pulse_taken = int(patient_df[mask_series].shape[0] > 0)
+        
+        # Compute the score based on a non-zero count of rows in the filter
+        is_pulse_taken = int(mask_series.any())
         
         return is_pulse_taken
     
@@ -4485,7 +4802,7 @@ class FRVRSUtilities(object):
     
     def concatonate_logs(self, logs_folder=None, verbose=False):
         """
-        Concatenates all the CSV files in the given logs folder into a single data frame.
+        Concatenate all the CSV files in the given logs folder into a single data frame.
         
         Parameters:
             logs_folder (str, optional):
@@ -4516,7 +4833,7 @@ class FRVRSUtilities(object):
         # Convert event time to a datetime
         if ('event_time' in logs_df.columns): logs_df['event_time'] = to_datetime(logs_df['event_time'], format='mixed')
         
-        # Convert elapsed time to an integer
+        # Convert elapsed time (action_tick) to an integer
         if ('action_tick' in logs_df.columns):
             logs_df.action_tick = to_numeric(logs_df.action_tick, errors='coerce')
             mask_series = ~logs_df.action_tick.isnull()
@@ -4595,60 +4912,50 @@ class FRVRSUtilities(object):
                 print(f'{old_file_name} (or {new_file_path})')
     
     
-    @staticmethod
-    def replace_consecutive_rows(df, element_column, element_value, time_diff_column='time_diff', consecutive_cutoff=500):
+    def get_elevens_dataframe(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], filter_lambda=None, verbose=False):
         """
-        Replaces consecutive rows in a list created from the element column with a count of how many there are in a row.
+        Merge and filter a set of DataFrames to create a DataFrame containing triage scenes 
+        with at least eleven patients.
+        
+        This function merges data from logs, file stats, and scene stats DataFrames
+        and filters for triage scenes that have not been aborted and contain at least
+        eleven patients.
         
         Parameters:
-            element_column:
-                An element column from which the list of elements is created.
-            element_value:
-                The element to replace consecutive occurrences of.
-            time_diff_column:
-                the time diff column to check if the elements are close enough in time to consider consecutive.
-            consecutive_cutoff:
-                the number of time units the time diff column must show or less.
+            logs_df (pandas.DataFrame):
+                A DataFrame containing scene log data.
+            file_stats_df (pandas.DataFrame):
+                A DataFrame containing file statistics.
+            scene_stats_df (pandas.DataFrame):
+                A DataFrame containing scene statistics.
+            needed_columns (list of str, optional):
+                Additional columns needed for the output DataFrame. Default is an empty list.
+            filter_lambda (function, optional):
+                A function used to filter scenes based on patient count (defaults to a function that 
+                requires at least eleven unique patient IDs). This function should accept a DataFrame 
+                representing a scene and return True if the scene meets the patient count criteria.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
         
         Returns:
-            A DataFrame with the rows of consecutive elements replaced with one row where the
-            element_value now has appended to it a count of how many rows were deleted plus one.
+            pandas.DataFrame
+                A DataFrame containing information about triage scenes with at least eleven patients. 
+                The DataFrame includes columns specified in `needed_columns` and potentially 
+                additional columns from the input DataFrames.
         """
-        result_df = DataFrame([], columns=df.columns); row_index = 0; row_series = Series([]); count = 0
-        for row_index, row_series in df.iterrows():
-            column_value = row_series[element_column]
-            time_diff = row_series[time_diff_column]
-            if (column_value == element_value) and (time_diff <= consecutive_cutoff):
-                count += 1
-                previous_row_index = row_index
-                previous_row_series = row_series
-            else:
-                result_df.loc[row_index] = row_series
-                if (count > 0):
-                    result_df.loc[previous_row_index] = previous_row_series
-                    result_df.loc[previous_row_index, element_column] = f'{element_value} x{str(count)}'
-                count = 0
         
-        # Handle the last element
-        result_df.loc[row_index] = row_series
-        if (count > 0): result_df.loc[row_index, element_column] = f'{element_value} x{str(count)}'
-        
-        return(result_df)
-    
-    
-    def get_elevens_data_frame(self, logs_df, file_stats_df, scene_stats_df, needed_columns=[], patient_count_filter_fn=None, verbose=False):
-        
-        # Get the column sets
+        # Get the column sets and ensure the columns are in one or more of the input dataframes
         triage_columns = ['scene_type', 'is_scene_aborted']
         needed_set = set(triage_columns + list(needed_columns))
         for cn in needed_set:
             if not any(map(lambda df: cn in df.columns, [logs_df, file_stats_df, scene_stats_df])):
                 raise ValueError(f'The {cn} column must be in either logs_df, file_stats_df, or scene_stats_df.')
+        
         logs_columns_set = set(logs_df.columns)
         file_columns_set = set(file_stats_df.columns)
         scene_columns_set = set(scene_stats_df.columns)
         
-        # If some column's missing from just using the logs dataset...
+        # Check if some columns are missing from just using the logs dataset
         if bool(needed_set.difference(logs_columns_set)):
             
             # Merge in the file stats columns (what's still needed from using the scene and logs datasets together)
@@ -4661,34 +4968,94 @@ class FRVRSUtilities(object):
             scene_stats_columns = on_columns + sorted(needed_set.difference(logs_columns_set).difference(file_columns_set))
             merge_df = merge_df.merge(scene_stats_df[scene_stats_columns], on=on_columns)
         
-        else: merge_df = logs_df
+        # If not, just use the logs_df dataframe
+        else:
+            merge_df = logs_df
         
-        # Get the triage scenes with at least eleven patients in them
-        triage_mask = (merge_df.scene_type == 'Triage') & (merge_df.is_scene_aborted == False)
-        if patient_count_filter_fn is None: patient_count_filter_fn = lambda scene_df: scene_df.patient_id.nunique() >= 11
-        elevens_df = merge_df[triage_mask].groupby(self.scene_groupby_columns).filter(patient_count_filter_fn)
+        # Apply the filter lambda to get scenes with at least eleven patients
+        if filter_lambda is None:
+            filter_lambda = lambda scene_df: (scene_df.patient_id.nunique() >= 11)
+        elevens_df = merge_df.groupby(self.scene_groupby_columns).filter(filter_lambda)
         
         return elevens_df
     
     
     def convert_column_to_categorical(self, categorical_df, column_name, verbose=False):
+        """
+        Convert a specified column in a DataFrame to a categorical type based on predefined 
+        order and category attributes.
+        
+        This function takes a DataFrame (`categorical_df`), a column name (`column_name`), and 
+        an optional verbosity flag (`verbose`). It aims to convert the specified column to a 
+        categorical format if the column exists in the DataFrame.
+        
+        The function first checks if the `column_name` exists in the DataFrame. If it does, it 
+        attempts to find two class attributes:
+            - Order attribute: This attribute should be named following the format 
+            "{column_name_parts[i:]}_order" (e.g., "country_order" for "country" column). It 
+            should contain a list or tuple defining the expected order of categories.
+            - Category attribute: This attribute should be named following the format 
+            "{column_name_parts[i:]}_category_order" (e.g., "country_category_order" for "country" 
+            column). It should contain a data type (e.g., "category") suitable for representing 
+            the categorical data.
+        
+        The function verifies that these attributes exist and that the unique values in the 
+        column are a subset of the allowed values defined in the order attribute. If all 
+        conditions are met, the column is converted to a categorical type using the category 
+        labels retrieved from the class attribute. Optionally, descriptive information about 
+        the conversion can be printed based on the `verbose` flag.
+        
+        Parameters:
+            categorical_df (pandas.DataFrame):
+                The DataFrame containing the column to be converted.
+            column_name (str):
+                The name of the column to convert to categorical format.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            pandas.DataFrame
+                The DataFrame with the specified column converted to a categorical type.
+        
+        Raises:
+            AssertionError
+                If the unique values in the column are not a subset of the allowed values defined in 
+                the order attribute (found using a specific naming convention).
+            AttributeError
+                If the expected class attributes for order or category information are not found.
+        
+        Notes:
+            This function assumes that the class has attributes defining the order and category 
+            order for the columns to be converted.
+        """
+        
+        # Check if the column exists in the DataFrame
         if (column_name in categorical_df.columns):
+            
+            # Initialize flag for displaying results
             display_results = False
+            
+            # Split the column name into parts
             name_parts_list = column_name.split('_')
             
             # Find the order attribute
             attribute_name = 'XXXX'
             for i in range(3):
+                
+                # If the attribute does not exist, construct its name
                 if not hasattr(self, attribute_name):
                     attribute_name = f"{'_'.join(name_parts_list[i:])}_order"
-                    if verbose: print(f"Finding {attribute_name} as the order attribute")
+                    
+                    # If verbose is True, print it
+                    if verbose:
+                        print(f"Finding {attribute_name} as the order attribute")
                 else:
                     break
-        
+            
             # Check if the order attribute exists
             if hasattr(self, attribute_name):
                 
-                # Check for missing elements
+                # Check for missing elements in the column
                 mask_series = ~categorical_df[column_name].isnull()
                 feature_set = set(categorical_df[mask_series][column_name].unique())
                 order_set = set(eval(f"self.{attribute_name}"))
@@ -4697,24 +5064,37 @@ class FRVRSUtilities(object):
                 # Find the category attribute
                 attribute_name = 'XXXX'
                 for i in range(3):
+                    
+                    # If the attribute does not exist, construct its name
                     if not hasattr(self, attribute_name):
                         attribute_name = f"{'_'.join(name_parts_list[i:])}_category_order"
-                        if verbose: print(f"Finding {attribute_name} as the category attribute")
+                        
+                        # Print it if verbose is True
+                        if verbose:
+                            print(f"Finding {attribute_name} as the category attribute")
                     else:
                         break
                 
                 # Check if the category attribute exists
                 if hasattr(self, attribute_name):
-                    if verbose: print(f"\nConvert {column_name} column to categorical")
+                    if verbose:
+                        print(f"\nConvert {column_name} column to categorical")
+                    
+                    # Convert the column to the categorical type defined by the category attribute
                     categorical_df[column_name] = categorical_df[column_name].astype(eval(f"self.{attribute_name}"))
+                    
+                    # Set flag to display results
                     display_results = True
                 else:
-                    if verbose: print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
-                
+                    if verbose:
+                        print(f"AttributeError: 'FRVRSUtilities' object has no attribute '{attribute_name}'")
+            
+            # Display results if verbose is True and display_results flag is set
             if verbose and display_results:
-                print(categorical_df[column_name].nunique())
+                print(f"{column_name} has {categorical_df[column_name].nunique()} unique categories")
                 display(categorical_df.groupby(column_name).size().to_frame().rename(columns={0: 'record_count'}).sort_values('record_count', ascending=False).head(20))
         
+        # Return the modified DataFrame
         return categorical_df
     
     
@@ -5073,7 +5453,7 @@ class FRVRSUtilities(object):
     
     def show_timelines(self, logs_df, random_session_uuid=None, random_scene_index=None, color_cycler=None, verbose=False):
         """
-        Display timelines for patient engagements in a random session and scene.
+        Display timelines for patient engagements in an arbitrary session and scene.
         
         Parameters:
             logs_df (pandas.DataFrame):
@@ -5271,15 +5651,15 @@ class FRVRSUtilities(object):
         self, logs_df, random_session_uuid=None, random_scene_index=None, consecutive_cutoff=600, patient_color_dict=None, verbose=False
     ):
         """
-        Display a timeline of player gaze events for a random session and scene.
+        Display a timeline of player gaze events for an arbitrary session and scene.
         
         Parameters:
             logs_df (pandas.DataFrame):
                 DataFrame containing logs data.
             random_session_uuid (str):
-                UUID of the random session. If None, a random session will be selected.
+                UUID of the arbitrary session. If None, a random session will be selected.
             random_scene_index (int):
-                Index of the random scene. If None, a random scene will be selected within the session.
+                Index of the arbitrary scene. If None, a random scene will be selected within the session.
             consecutive_cutoff (int):
                 Time cutoff for consecutive rows.
             patient_color_dict (dict):
@@ -5289,7 +5669,7 @@ class FRVRSUtilities(object):
         
         Returns:
             tuple
-                Random session UUID and random scene index.
+                Session UUID and scene index.
         """
         
         # Get a random session if not provided
@@ -5305,16 +5685,16 @@ class FRVRSUtilities(object):
             mask_series &= ~logs_df.player_gaze_patient_id.isnull()
             random_scene_index = random.choice(logs_df[mask_series].scene_id.unique())
         
-        # Get the scene mask
+        # Create the scene mask
         scene_mask_series = (logs_df.session_uuid == random_session_uuid) & (logs_df.scene_id == random_scene_index)
         
-        # Get the elapsed time of the player gaze
+        # Calculate the elapsed time of the player gaze
         mask_series = scene_mask_series & (logs_df.action_type.isin(['PLAYER_GAZE', 'SESSION_END', 'SESSION_START']))
         columns_list = ['action_tick', 'patient_id']
         patient_gazes_df = logs_df[mask_series][columns_list].sort_values(['action_tick'])
         patient_gazes_df['time_diff'] = patient_gazes_df.action_tick.diff()
         for patient_id in patient_gazes_df.patient_id.unique():
-            patient_gazes_df = self.replace_consecutive_rows(
+            patient_gazes_df = nu.replace_consecutive_rows(
                 patient_gazes_df, 'patient_id', patient_id, time_diff_column='time_diff', consecutive_cutoff=consecutive_cutoff
             )
         if verbose: display(patient_gazes_df.tail(20))
@@ -5336,6 +5716,7 @@ class FRVRSUtilities(object):
             xmax = patient_gazes_df.action_tick.max(); hlinexmaxs_list.append(xmax);
             if xmax > right_lim: right_lim = xmax
             
+            # Loop over each row of the player gaze dataframe
             for row_index, row_series in patient_gazes_df.iterrows():
                 action_tick = row_series.action_tick
                 patient_id = row_series.patient_id
@@ -5405,7 +5786,7 @@ class FRVRSUtilities(object):
         verbose=False
     ):
         """
-        Plots a given sequence for a specific scene from a VR simulation log.
+        Plot a given sequence for a specific scene.
         
         This function visualizes the sequence along with relevant information like the scene's entropy,
         turbulence, and complexity, while highlighting specific n-grams and coloring different action types.
@@ -5444,21 +5825,21 @@ class FRVRSUtilities(object):
         # Extract session_uuid and scene_id from the scene_tuple
         session_uuid, scene_id = scene_tuple
         
-        # 1. Load summary_statistics_df from pickle if not provided
+        # Load summary_statistics_df from pickle if not provided
         if verbose: display(summary_statistics_df)
         if (summary_statistics_df is None):
             if nu.pickle_exists('summary_statistics_df'): summary_statistics_df = nu.load_object('summary_statistics_df')
             else: raise Exception('You need to provide summary_statistics_df')
         
-        # 2. Get relevant actions from VR logs
+        # Display the logs dataframe if verbose
         if verbose: display(logs_df)
         
-        # Build a data frame of action types
+        # Create the scene history filtered by the action mask series, if provided
         if (actions_mask_series is None): actions_mask_series = [True] * logs_df.shape[0]
         mask_series = (logs_df.session_uuid == session_uuid) & (logs_df.scene_id == scene_id) & actions_mask_series
         scene_df = logs_df[mask_series].sort_values('action_tick')
         
-        # Build a list of the first of each action type
+        # Build the alphabet list of the first of each action type
         actions_list = []
         for row_index, row_series in scene_df.iterrows():
             action_type = row_series.voice_command_message
@@ -5477,7 +5858,7 @@ class FRVRSUtilities(object):
         
         # Plot the sequence using notebook util's plot_sequence if sequence is not empty
         if verbose: print(sequence)
-        if(sequence):
+        if sequence:
             fig, ax = nu.plot_sequence(
                 sequence, highlighted_ngrams=highlighted_ngrams, color_dict=color_dict, suptitle=suptitle, alphabet_list=actions_list, verbose=verbose
             )
@@ -5646,8 +6027,8 @@ class FRVRSUtilities(object):
             # Loop through each scene in the merge dataframe
             rows_list = []
             for (session_uuid, scene_id), scene_df in merge_df.groupby(self.scene_groupby_columns):
-                
-                # Create a row dictionary with the scene groupby columns
+            
+                # Create a dictionary to store scene/session information
                 row_dict = {cn: eval(cn) for cn in self.scene_groupby_columns}
                 
                 # Get the chronological order of engagement starts for each patient in the scene
@@ -5927,17 +6308,17 @@ class FRVRSUtilities(object):
         return row_dict
     
     
-    def create_triage_error_rates_data_frame(self, error_types_df, groupby_columns, verbose=False):
+    def create_triage_error_rates_dataframe(self, error_types_df, groupby_columns, verbose=False):
         """
-        Creates a DataFrame containing triage error rates calculated from an error types DataFrame.
+        Create a DataFrame containing triage error rates calculated from an error types 
+        DataFrame.
         
-        This function iterates through groups in the `error_types_df` defined by the `groupby_columns`
-        and calculates triage error rates for each group. The calculated rates are then stored in a
-        new DataFrame with columns from `groupby_columns` and additional columns containing the error rates.
+        This function iterates through groups in the `error_types_df` defined by the 
+        `groupby_columns` and calculates triage error rates for each group. The calculated 
+        rates are then stored in a new DataFrame with columns from `groupby_columns` and 
+        additional columns containing the error rates.
         
         Parameters:
-            self (object):
-                The instance of the class containing the method. This is used to access class methods related to calculating error rates.
             error_types_df (pandas.DataFrame):
                 The DataFrame containing error types data.
             groupby_columns (list or str):
@@ -5965,7 +6346,6 @@ class FRVRSUtilities(object):
         
         # Group by the specified columns and process each group
         rows_list = []
-
         for groupby_tuple, groupby_df in error_types_df.groupby(groupby_columns):
             
             # Create a row dictionary for the current group

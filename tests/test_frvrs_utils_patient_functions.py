@@ -143,22 +143,22 @@ class TestGetPatientLocation(unittest.TestCase):
                 'action_tick': [100, 200, 300]}
         self.patient_df = pd.DataFrame(data)
 
-    def test_get_patient_location(self):
+    def test_get_location_of_patient(self):
         # Test the function with known input and expected output
-        result = fu.get_patient_location(self.patient_df, 250)
+        result = fu.get_location_of_patient(self.patient_df, 250)
         self.assertEqual(result, (3, 4))
 
-    def test_get_patient_location_invalid_input(self):
+    def test_get_location_of_patient_invalid_input(self):
         # Test the function with invalid input
         with self.assertRaises(TypeError):
-            fu.get_patient_location(self.patient_df, 'invalid_input')
+            fu.get_location_of_patient(self.patient_df, 'invalid_input')
 
     def test_null_location_ids(self):
         # Test the function with null location_id input and expected output
         data = {'location_id': [nan, nan, nan],
                 'action_tick': [100, 200, 300]}
         patient_df = pd.DataFrame(data)
-        result = fu.get_patient_location(patient_df, 250)
+        result = fu.get_location_of_patient(patient_df, 250)
         self.assertEqual(result, (0.0, 0.0, 0.0))
 
 class TestIsTagCorrect(unittest.TestCase):
@@ -202,7 +202,7 @@ class TestPatientInjuryDetection(unittest.TestCase):
             'injury_id': [1, 1, 2, 2],
             'severity': ['Severe', 'Moderate', 'Mild', 'Severe']
         })
-        result = fu.get_is_patient_severely_hemorrhaging(patient_df)
+        result = fu.get_is_patient_severely_injured(patient_df)
         self.assertTrue(result)
 
     def test_is_patient_severely_hemorrhaging_negative(self):
@@ -212,13 +212,13 @@ class TestPatientInjuryDetection(unittest.TestCase):
             'injury_id': [1, 1, 2, 2],
             'severity': ['Mild', 'Moderate', 'Mild', 'Moderate']
         })
-        result = fu.get_is_patient_severely_hemorrhaging(patient_df)
+        result = fu.get_is_patient_severely_injured(patient_df)
         self.assertFalse(result)
 
     def test_is_patient_severely_hemorrhaging_empty_dataframe(self):
         # Test the function with an empty DataFrame
         patient_df = pd.DataFrame(columns=['injury_id', 'severity'])
-        result = fu.get_is_patient_severely_hemorrhaging(patient_df)
+        result = fu.get_is_patient_severely_injured(patient_df)
         self.assertFalse(result)
 
 class TestGetFirstPatientInteraction(unittest.TestCase):

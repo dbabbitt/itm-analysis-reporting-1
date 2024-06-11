@@ -258,9 +258,9 @@ class TestGetDistanceDeltasDataFrame(unittest.TestCase):
         self.get_scene_start = mock_get_scene_start
         self.get_measure_of_right_ordering = mock_get_measure_of_right_ordering
 
-    def test_get_distance_deltas_data_frame(self):
+    def test_get_distance_deltas_dataframe(self):
         # Call the function with the mock functions
-        distance_delta_df = self.get_distance_deltas_data_frame(self.logs_df)
+        distance_delta_df = self.get_distance_deltas_dataframe(self.logs_df)
 
         # Assertions (modify these based on your expected output)
         self.assertEqual(distance_delta_df.shape, (2, 12))

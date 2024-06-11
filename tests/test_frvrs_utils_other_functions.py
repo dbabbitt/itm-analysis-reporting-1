@@ -107,29 +107,29 @@ class TestFormatTimedelta(unittest.TestCase):
 class TestReplaceConsecutiveElements(unittest.TestCase):
     
     def test_empty_list(self):
-        self.assertEqual(fu.replace_consecutive_elements([]), [])
+        self.assertEqual(nu.replace_consecutive_elements([]), [])
     
     def test_no_consecutive_elements(self):
-        self.assertEqual(fu.replace_consecutive_elements([1, 2, 3]), [1, 2, 3])
+        self.assertEqual(nu.replace_consecutive_elements([1, 2, 3]), [1, 2, 3])
     
     def test_consecutive_elements_at_start(self):
-        self.assertEqual(fu.replace_consecutive_elements(['PATIENT_ENGAGED', 'PATIENT_ENGAGED', 2, 3]),
+        self.assertEqual(nu.replace_consecutive_elements(['PATIENT_ENGAGED', 'PATIENT_ENGAGED', 2, 3]),
                          ['PATIENT_ENGAGED x2', 2, 3])
     
     def test_consecutive_elements_in_middle(self):
-        self.assertEqual(fu.replace_consecutive_elements([1, 'PATIENT_ENGAGED', 'PATIENT_ENGAGED', 3, 4]),
+        self.assertEqual(nu.replace_consecutive_elements([1, 'PATIENT_ENGAGED', 'PATIENT_ENGAGED', 3, 4]),
                          [1, 'PATIENT_ENGAGED x2', 3, 4])
     
     def test_consecutive_elements_at_end(self):
-        self.assertEqual(fu.replace_consecutive_elements([1, 2, 'PATIENT_ENGAGED', 'PATIENT_ENGAGED']),
+        self.assertEqual(nu.replace_consecutive_elements([1, 2, 'PATIENT_ENGAGED', 'PATIENT_ENGAGED']),
                          [1, 2, 'PATIENT_ENGAGED x2'])
     
     def test_all_consecutive_elements(self):
-        self.assertEqual(fu.replace_consecutive_elements(['PATIENT_ENGAGED', 'PATIENT_ENGAGED', 'PATIENT_ENGAGED']),
+        self.assertEqual(nu.replace_consecutive_elements(['PATIENT_ENGAGED', 'PATIENT_ENGAGED', 'PATIENT_ENGAGED']),
                          ['PATIENT_ENGAGED x3'])
     
     def test_different_element(self):
-        self.assertEqual(fu.replace_consecutive_elements(['OTHER_ELEMENT', 'OTHER_ELEMENT', 1, 2], element='OTHER_ELEMENT'),
+        self.assertEqual(nu.replace_consecutive_elements(['OTHER_ELEMENT', 'OTHER_ELEMENT', 1, 2], element='OTHER_ELEMENT'),
                          ['OTHER_ELEMENT x2', 1, 2])
     
     

@@ -465,7 +465,7 @@ class FRVRSUtilities(object):
         ]
         
         if IS_DEBUG: print("List of action types to consider as user actions")
-        self.known_mcivr_metrics_types = [
+        self.known_mcivr_metrics = [
             'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'PULSE_TAKEN', 'SP_O2_TAKEN',
             'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED', 'S_A_L_T_WAVE_IF_CAN',
             'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_APPLIED', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_APPLIED', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
@@ -959,7 +959,7 @@ class FRVRSUtilities(object):
         return actual_engagement_distance
     
     
-    def get_distance_deltas_data_frame(self, logs_df, verbose=False):
+    def get_distance_deltas_dataframe(self, logs_df, verbose=False):
         """
         Compute various metrics related to engagement distances and ordering for scenes in logs dataframe.
         
@@ -1017,7 +1017,7 @@ class FRVRSUtilities(object):
         return distance_delta_df
     
     
-    def get_is_tag_correct_data_frame(self, logs_df, groupby_column='responder_category', verbose=False):
+    def get_is_tag_correct_dataframe(self, logs_df, groupby_column='responder_category', verbose=False):
         
         # Iterate through each patient of each scene of each session of the 11-patient data frame
         rows_list = []
@@ -3105,7 +3105,7 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
-    def create_triage_error_rates_data_frame(error_types_df, groupby_columns):
+    def create_triage_error_rates_dataframe(error_types_df, groupby_columns):
         if not isinstance(groupby_columns, list): groupby_columns = [groupby_columns]
         needed_set = set(groupby_columns)
         all_set = set(groupby_df.columns)
@@ -3329,7 +3329,7 @@ def get_value_description(column_name, column_value):
     return value_description
 
 if IS_DEBUG: print("\nCreate the distance delta dataframe")
-distance_delta_df = fu.get_distance_deltas_data_frame(csv_stats_df)
+distance_delta_df = fu.get_distance_deltas_dataframe(csv_stats_df)
 
 if IS_DEBUG: print("\nAdd the agony column")
 if 'has_patient_in_agony' not in distance_delta_df.columns:
@@ -3553,7 +3553,7 @@ columns_list = on_columns + analysis_columns + survey_columns
 assert set(columns_list).issubset(set(scene_stats_df.columns)), "You've lost access to the analysis columns"
 merge_df = csv_stats_df.merge(scene_stats_df[columns_list], on=on_columns, how='left').drop_duplicates()
 
-tag_to_salt_df = fu.get_is_tag_correct_data_frame(merge_df, groupby_column='participant_id')
+tag_to_salt_df = fu.get_is_tag_correct_dataframe(merge_df, groupby_column='participant_id')
 
 # Use the patients lists from the March 25th ITM BBAI Exploratory analysis email
 patients_list = fu.ow_patients_list
@@ -3596,7 +3596,7 @@ error_types_df[mask_series].sort_values('patient_count', ascending=False).head()
 
 # Get triage error rates
 import re
-triage_error_rates_df = fu.create_triage_error_rates_data_frame(error_types_df, groupby_columns=['participant_id'])
+triage_error_rates_df = fu.create_triage_error_rates_dataframe(error_types_df, groupby_columns=['participant_id'])
 
 CATEGORY_DICT = {participant_id: participant_id for participant_id in triage_error_rates_df.participant_id}
 

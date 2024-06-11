@@ -81,7 +81,7 @@ class TestGetPlayerLocation(unittest.TestCase):
         action_tick = 15
         expected_location = (1, 2)
 
-        player_location = get_player_location(self.scene_df, action_tick)
+        player_location = get_location_of_player(self.scene_df, action_tick)
 
         self.assertEqual(player_location, expected_location)
 
@@ -90,7 +90,7 @@ class TestGetPlayerLocation(unittest.TestCase):
         expected_error_message = "no player location found"
 
         with self.assertRaises(ValueError) as cm:
-            get_player_location(self.scene_df, action_tick)
+            get_location_of_player(self.scene_df, action_tick)
 
         self.assertEqual(str(cm.exception), expected_error_message)
 
@@ -1032,9 +1032,9 @@ class TestGetTriagePriorityDataFrame(unittest.TestCase):
         })
         self.scene_groupby_columns = ['scene_id']  # Example groupby column
 
-    def test_get_triage_priority_data_frame(self):
+    def test_get_triage_priority_dataframe(self):
         # Test with default parameters
-        triage_df = self.get_triage_priority_data_frame(self.scene_df)
+        triage_df = self.get_triage_priority_dataframe(self.scene_df)
 
         # Assert expected behavior
         self.assertEqual(list(triage_df.columns), self.scene_groupby_columns + ['injury_id', 'injury_severity', 'injury_required_procedure', 'patient_salt', 'patient_sort', 'patient_pulse', 'patient_breath', 'patient_hearing', 'patient_mood', 'patient_pose'])

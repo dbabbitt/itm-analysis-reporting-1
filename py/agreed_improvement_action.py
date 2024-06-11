@@ -458,7 +458,7 @@ class FRVRSUtilities(object):
         self.scene_groupby_columns = ['session_uuid', 'scene_id']
         
         if IS_DEBUG: print("List of action types to consider as user actions")
-        self.known_mcivr_metrics_types = [
+        self.known_mcivr_metrics = [
             'BAG_ACCESS', 'BAG_CLOSED', 'INJURY_RECORD', 'INJURY_TREATED', 'PATIENT_DEMOTED', 'PATIENT_ENGAGED', 'BREATHING_CHECKED', 'PATIENT_RECORD', 'PULSE_TAKEN', 'SP_O2_TAKEN',
             'S_A_L_T_WALKED', 'TRIAGE_LEVEL_WALKED', 'S_A_L_T_WALK_IF_CAN', 'TRIAGE_LEVEL_WALK_IF_CAN', 'S_A_L_T_WAVED', 'TRIAGE_LEVEL_WAVED', 'S_A_L_T_WAVE_IF_CAN',
             'TRIAGE_LEVEL_WAVE_IF_CAN', 'TAG_APPLIED', 'TAG_DISCARDED', 'TAG_SELECTED', 'TELEPORT', 'TOOL_APPLIED', 'TOOL_DISCARDED', 'TOOL_HOVER', 'TOOL_SELECTED', 'VOICE_CAPTURE',
@@ -936,7 +936,7 @@ class FRVRSUtilities(object):
         return actual_engagement_distance
     
     
-    def get_distance_deltas_data_frame(self, logs_df, verbose=False):
+    def get_distance_deltas_dataframe(self, logs_df, verbose=False):
         """
         Compute various metrics related to engagement distances and ordering for scenes in logs dataframe.
         
@@ -2552,8 +2552,8 @@ class FRVRSUtilities(object):
             df.loc[row_index, 'player_gaze_direction_of_gaze'] = row_series[7] # Direction of Gaze (vector3)
         elif (action_type == 'Participant ID'):
             drop_index_list.append(row_index)
-        elif action_type not in self.known_mcivr_metrics_types:
-            raise Exception(f"\n\n{action_type} not in in self.known_mcivr_metrics_types:\n{row_series}")
+        elif action_type not in self.known_mcivr_metrics:
+            raise Exception(f"\n\n{action_type} not in in self.known_mcivr_metrics:\n{row_series}")
         
         # Delete rows at specified indexes
         df = df.drop(index=drop_index_list)
@@ -3220,7 +3220,7 @@ def get_value_description(column_name, column_value):
     
     return value_description
 if IS_DEBUG: print("\nCreate the distance delta dataframe")
-distance_delta_df = fu.get_distance_deltas_data_frame(csv_stats_df)
+distance_delta_df = fu.get_distance_deltas_dataframe(csv_stats_df)
 
 if IS_DEBUG: print("\nAdd the agony column")
 if 'has_patient_in_agony' not in distance_delta_df.columns:

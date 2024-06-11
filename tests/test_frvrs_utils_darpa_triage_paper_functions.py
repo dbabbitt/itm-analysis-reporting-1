@@ -59,7 +59,7 @@ class TestGetElevensDataFrame(unittest.TestCase):
         Test case where all needed columns are present in the logs DataFrame.
         """
         needed_columns = ['session_uuid', 'scene_id']
-        elevens_df = fu.get_elevens_data_frame(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
+        elevens_df = fu.get_elevens_dataframe(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
         self.assertEqual(elevens_df.shape[1], self.logs_df.shape[1]+2)  # All rows from logs_df should be present
 
     def test_missing_columns_from_all_dfs(self):
@@ -68,14 +68,14 @@ class TestGetElevensDataFrame(unittest.TestCase):
         """
         needed_columns = ['missing_column']
         with self.assertRaises(KeyError):
-            fu.get_elevens_data_frame(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
+            fu.get_elevens_dataframe(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
 
     def test_missing_column_from_logs_df_only(self):
         """
         Test case where a needed column is missing only from the logs DataFrame.
         """
         needed_columns = ['scene_type', 'is_scene_aborted', 'is_a_one_triage_file', 'responder_category']
-        elevens_df = fu.get_elevens_data_frame(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
+        elevens_df = fu.get_elevens_dataframe(self.logs_df, self.file_stats_df, self.scene_stats_df, needed_columns)
         self.assertEqual(elevens_df.shape[1], self.logs_df.shape[1] + len(needed_columns))  # Merged DataFrames with additional columns
 
     def test_empty_dataframes(self):
@@ -84,7 +84,7 @@ class TestGetElevensDataFrame(unittest.TestCase):
         """
         empty_df = DataFrame()
         with self.assertRaises(ValueError):
-            fu.get_elevens_data_frame(empty_df, empty_df, empty_df)
+            fu.get_elevens_dataframe(empty_df, empty_df, empty_df)
 
 
 ### Patient Functions ###

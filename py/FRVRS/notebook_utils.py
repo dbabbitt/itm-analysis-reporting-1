@@ -3260,6 +3260,93 @@ class NotebookUtilities(object):
         return split_dfs
     
     
+    @staticmethod
+    def replace_consecutive_rows(df, element_column, element_value, time_diff_column='time_diff', consecutive_cutoff=500):
+        """
+        Replace consecutive rows in a DataFrame with a single row where the element_value is 
+        appended with a count of consecutive occurrences.
+        
+        This function iterates through a DataFrame and identifies consecutive occurrences of a 
+        specific element based on a designated column value and a time difference threshold. 
+        If consecutive occurrences are found within the time threshold, the function combines 
+        those rows into a single row where the element_value is modified to include a count of 
+        the consecutive elements.
+        
+        Parameters:
+            df (pandas.DataFrame):
+                The DataFrame containing the data to be processed.
+            element_column (str):
+                The name of the column containing the elements to check for consecutive occurrences.
+            element_value (str):
+                The value to identify and count consecutive occurrences of.
+            time_diff_column (str, optional):
+                The name of the column containing the time difference between rows. Defaults to 
+                'time_diff'. Values in this column are used to determine if rows are considered 
+                consecutive based on the `consecutive_cutoff` parameter.
+            consecutive_cutoff (int, optional):
+                The maximum time difference (in time units) to consider rows consecutive. Defaults to 
+                500. Rows with a time difference less than or equal to this value will be considered 
+                consecutive.
+        
+        Returns:
+            pandas.DataFrame
+                A new DataFrame with the rows of consecutive elements replaced with a single row. The 
+                replaced row's element_value will be appended with " x<count>" where "<count>" is the 
+                number of consecutive occurrences.
+        """
+        
+        # Create an empty copy of the dataframe to avoid modifying the original
+        result_df = DataFrame([], columns=df.columns)
+        
+        # Initialize variables to keep track of row index and current row of consecutive elements
+        row_index = 0
+        row_series = Series([])
+        
+        # Initialize a counter for consecutive occurrences
+        count = 0
+        
+        # Iterate over each row in the input DataFrame
+        for row_index, row_series in df.iterrows():
+            
+            # Get the value of the element column for the current row
+            column_value = row_series[element_column]
+            
+            # Get the value of the time_diff column for the current row
+            time_diff = row_series[time_diff_column]
+            
+            # Check if the current element is the target element and within the consecutive cutoff
+            if (column_value == element_value) and (time_diff <= consecutive_cutoff):
+                
+                # If consecutive element found, increment count
+                count += 1
+                
+                # Keep track of the previous row's index and data
+                previous_row_index = row_index
+                previous_row_series = row_series
+                
+            else:
+                
+                # If the element column value or time difference doesn't match, add the current row to the result dataframe
+                result_df.loc[row_index] = row_series
+                
+                # If there were consecutive elements, replace the last consecutive element with a count
+                if count > 0:
+                    result_df.loc[previous_row_index] = previous_row_series
+                    result_df.loc[previous_row_index, element_column] = f'{element_value} x{str(count)}'
+                
+                # Reset the count of consecutive elements
+                count = 0
+        
+        # Handle the last element by adding the last row to the result dataframe
+        result_df.loc[row_index] = row_series
+        
+        # If the last element was part of a consecutive sequence, replace it with a count of how many there were
+        if count > 0:
+            result_df.loc[row_index, element_column] = f'{element_value} x{count}'
+        
+        return result_df
+    
+    
     ### 3D Point Functions ###
     
     
