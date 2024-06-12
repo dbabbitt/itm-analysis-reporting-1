@@ -1461,6 +1461,53 @@ class FRVRSUtilities(object):
     
     
     @staticmethod
+    def get_initial_location_of_player(scene_df, verbose=False):
+        """
+        Retrieve the initial location of a player/responder/participant.
+        
+        This function searches a DataFrame (`scene_df`) containing scene information for the 
+        player's initial location. It considers only rows where the action type is 
+        'PLAYER_LOCATION' and both `action_tick` and `location_id` columns have non-null 
+        values.
+        
+        The function first filters the DataFrame to only include relevant rows. It then sorts 
+        the filtered DataFrame by the action_tick column and retrieves the location from the 
+        first row (the one with the earliest action tick). The location is evaluated from a 
+        string representation and is directly evaluated into a tuple of three floats.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                A DataFrame containing scene information, including columns for 'action_type', 
+                'action_tick', and 'location_id'.
+            target_tick (int):
+                The action tick at which to retrieve the player's location.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            tuple(float, float, float)
+                A tuple representing the player's location (x, y, z) at the earliest action tick in 
+                the scene, or (0.0, 0.0, 0.0) if no relevant location is found.
+        """
+        
+        # Ensure all needed columns are present in scene_df
+        needed_columns = {'action_type', 'action_tick', 'location_id'}
+        all_columns = set(scene_df.columns)
+        assert needed_columns.issubset(all_columns), f"You're missing {needed_columns.difference(all_columns)} from scene_df"
+        
+        # Filter the dataframe to only include PLAYER_LOCATION rows
+        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
+        
+        # If available, sort the filtered dataframe chronologically and retrieve the location from the first row
+        if mask_series.any(): player_location = eval(scene_df[mask_series].sort_values('action_tick').iloc[0].location_id)
+        
+        # If not available, use the default location (origin)
+        else: player_location = (0.0, 0.0, 0.0)
+        
+        return player_location
+    
+    
+    @staticmethod
     def get_location_of_player(scene_df, target_tick, verbose=False):
         """
         Retrieve the location of a player in a given scene at a specific tick.
@@ -1995,10 +2042,8 @@ class FRVRSUtilities(object):
         engagement_starts_df.patient_sort = engagement_starts_df.patient_sort.astype(self.sort_category_order)
         engagement_starts_df.injury_severity = engagement_starts_df.injury_severity.astype(self.severity_category_order)
         
-        # Get initial player location
-        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
-        if mask_series.any(): player_location = eval(scene_df[mask_series].sort_values('action_tick').iloc[0].location_id)
-        else: player_location = (0.0, 0.0, 0.0)
+        # Get initial player location from the first PLAYER_LOCATION action (or default to origin)
+        player_location = self.get_initial_location_of_player(scene_df, verbose=verbose)
         player_location = (player_location[0], player_location[2])
         
         # Go from nearest neighbor to nearest neighbor by high severity first, by still/waver/walker, then the rest by still/waver/walker
@@ -2629,35 +2674,67 @@ class FRVRSUtilities(object):
     
     
     def get_order_of_distracted_engagement(self, scene_df, tuples_list=None, verbose=False):
-
-        # Create the patient sort tuples list
-        if tuples_list is None: tuples_list = self.get_order_of_actual_engagement(scene_df, verbose=verbose)
-
-        # Get initial player location
-        mask_series = (scene_df.action_type == 'PLAYER_LOCATION')
-        if mask_series.any(): player_location = eval(scene_df[mask_series].sort_values('action_tick').iloc[0].location_id)
-        else: player_location = (0.0, 0.0, 0.0)
+        """
+        Calculate the theorectical order of patient engagement based on the participant's 
+        proximity to the player.
+        
+        This function determines the order in which a player engages with different 
+        locations in a scene, starting from the player's initial location and moving 
+        to the nearest neighbor iteratively.
+        
+        Parameters:
+            scene_df (pandas.DataFrame):
+                The scene DataFrame containing the action type and location id.
+            tuples_list (list of tuples, optional):
+                A list of tuples representing engagement orders. Defaults to None, in which 
+                case the function calls `get_order_of_actual_engagement` to generate this list.
+            verbose (bool, optional):
+                Whether to print debug or status messages. Defaults to False.
+        
+        Returns:
+            list
+                A list of tuples representing the order of distracted engagement.
+        """
+        
+        # Create the patient sort tuples list (use actual engagement order if not provided)
+        if tuples_list is None:
+            tuples_list = self.get_order_of_actual_engagement(scene_df, verbose=verbose)
+        
+        # Get initial player location from the first PLAYER_LOCATION action (or default to origin)
+        player_location = self.get_initial_location_of_player(scene_df, verbose=verbose)
+        
+        # Use x and z coordinates for 2D proximity
         player_location = (player_location[0], player_location[2])
-
-        # Go from nearest neighbor to nearest neighbor
+        
+        # Initialize the list for the order of distracted engagement
         distracted_engagement_order = []
-
-        # Get locations list
+        
+        # Extract a list of patient locations from the tuples (using third element as location)
         locations_list = [x[2] for x in tuples_list]
-
-        # Pop the nearest neighbor off the locations list and add it to the engagement order
-        # Assume no patients are in the exact same spot
+        
+        # Iteratively find nearest neighbor and update order until no locations remain
         while locations_list:
+            
+            # Find the nearest neighbor patient location based on the current player location
             nearest_neighbor = nu.get_nearest_neighbor(player_location, locations_list)
+            
+            # Remove the nearest neighbor from the locations list
             nearest_neighbor = locations_list.pop(locations_list.index(nearest_neighbor))
+            
+            # Find the corresponding patient tuple and add it to the engagement order
             for patient_sort_tuple in tuples_list:
-                if (patient_sort_tuple[2] == nearest_neighbor):
+                if patient_sort_tuple[2] == nearest_neighbor:
                     distracted_engagement_order.append(patient_sort_tuple)
                     break
+            
+            # Update player location to the current nearest neighbor for next iteration
             player_location = nearest_neighbor
-
-        if verbose: print(f'\n\ndistracted_engagement_order: {distracted_engagement_order}')
-
+        
+        # If verbose is True, print the distracted engagement order
+        if verbose:
+            print(f'\n\ndistracted_engagement_order: {distracted_engagement_order}')
+        
+        # Return the order of distracted engagement
         return distracted_engagement_order
     
     
@@ -3279,7 +3356,7 @@ class FRVRSUtilities(object):
         # Create a series of all patient SALTs categorized with the salt_category_order
         patient_salts_srs = Series(patient_df[mask_series].patient_salt).astype(self.salt_category_order)
         
-        # Get the minimum value of that series and assign it to max_salt
+        # Get the minimum (by salt_category_order) value of that series and assign it to max_salt
         max_salt = patient_salts_srs.min()
         
         # If verbose is True, print additional information
