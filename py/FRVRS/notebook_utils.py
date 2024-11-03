@@ -1,7 +1,7 @@
 
 #!/usr/bin/env python
 # Utility Functions to run Jupyter notebooks.
-# Dave Babbitt <dave.babbitt@bigbear.ai>
+# Dave Babbitt <dave.babbitt@gmail.com>
 # Author: Dave Babbitt, Machine Learning Engineer
 # coding: utf-8
 
@@ -1707,7 +1707,7 @@ class NotebookUtilities(object):
         return data_frame
 
     
-    def pickle_exists(self, pickle_name: str) -> bool:
+    def pickle_exists(self, pickle_name):
         """
         Check if a pickle file exists.
 
@@ -2684,7 +2684,7 @@ class NotebookUtilities(object):
         if (X_train.shape[0] == 0) or (y_train.shape[0] == 0): return np.array([], dtype=bool)
         
         # Create a mask across the X_train and y_train columns (notnull checking for both inf and NaN values)
-        mask_series = concat([y_train, X_train], axis='columns').applymap(notnull).all(axis='columns')
+        mask_series = concat([DataFrame(y_train), DataFrame(X_train)], axis='columns').applymap(notnull).all(axis='columns')
         
         # Return the mask indicating which elements of both X_train and y_train are not inf or nan
         return mask_series
@@ -3060,7 +3060,8 @@ class NotebookUtilities(object):
                 
                 # Recursively call get row dictionary with the dictionary key as part of the prefix
                 row_dict = self.get_flattened_dictionary(
-                    v, row_dict=row_dict, key_prefix=f'{key_prefix}_{k}'
+                    v, row_dict=row_dict,
+                    key_prefix=f'{key_prefix}{"_" if key_prefix else ""}{k}'
                 )
                 
         # Check if the value is a list
