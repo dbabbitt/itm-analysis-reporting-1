@@ -1,197 +1,29 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1.1"
-   id="svg-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene"
-   width="1464"
-   height="776"
-   viewBox="0 0 1464 776"
-   sodipodi:docname="uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.svg"
-   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96"
-   inkscape:export-filename="C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\saves\png\uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.png">
-  <metadata
-     id="metadata-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1121"
-     id="namedview-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene"
-     showgrid="false"
-     inkscape:zoom="0.87226776"
-     inkscape:cx="732"
-     inkscape:cy="388"
-     inkscape:window-x="-9"
-     inkscape:window-y="611"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="group-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene"
-     inkscape:document-rotation="0" />
-  <g
-     inkscape:groupmode="layer"
-     inkscape:label="Image"
-     id="group-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene">
-    <image
-       sodipodi:absref="C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\saves\png\order_of_engagement_map_for_uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.png"
-       xlink:href="../png/order_of_engagement_map_for_uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.png"
-       sodipodi:insensitive="true"
-       width="1464"
-       height="776"
-       preserveAspectRatio="none"
-       id="image-engagement-map" />
-    <image
-       sodipodi:absref="C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\saves\png\action_sequence_plot.png"
-       xlink:href="../png/action_sequence_plot.png"
-       preserveAspectRatio="none"
-       id="image-action-sequence"
-       x="82.947136"
-       y="416.01001" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-610.1499"
-       y="312.27328"
-       id="text868"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan866"
-         x="-610.1499"
-         y="312.27328">Gary_3 (still)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-617.94287"
-       y="335.47018"
-       id="text868-3"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1014"
-         x="-617.94287"
-         y="335.47018">Mike_7 (waver)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-622.3667"
-       y="358.66708"
-       id="text868-34"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1016"
-         x="-622.3667"
-         y="358.66708">Gloria_6 (waver)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-606.9566"
-       y="381.86398"
-       id="text868-1"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1018"
-         x="-606.9566"
-         y="381.86398">Bob_0 (still)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-613.9585"
-       y="405.06088"
-       id="text868-9"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1022"
-         x="-613.9585"
-         y="405.06088">Lily_4 (waver)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-610.1499"
-       y="428.25778"
-       id="text868-35"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1024"
-         x="-610.1499"
-         y="428.25778">Gary_1 (still)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-620.48193"
-       y="451.45468"
-       id="text868-92"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1026"
-         x="-620.48193"
-         y="451.45468">Gary_9 (walker)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-613.9585"
-       y="497.65158"
-       id="text868-0"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1028"
-         x="-613.9585"
-         y="497.65158">Lily_2 (waver)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-617.94287"
-       y="520.51508"
-       id="text868-7"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1030"
-         x="-617.94287"
-         y="520.51508">Mike_5 (waver)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-624.2417"
-       y="543.3786"
-       id="text868-5"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1032"
-         x="-624.2417"
-         y="543.3786">Gloria_8 (walker)</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="-627.72473"
-       y="566.24207"
-       id="text868-6"
-       transform="rotate(-90)"><tspan
-         sodipodi:role="line"
-         id="tspan1034"
-         x="-627.72473"
-         y="566.24207">Helga_10 (walker)</tspan></text>
-  </g>
-</svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg:svg height="776" id="svg-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene" inkscape:export-filename="C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\saves\png\uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.png" inkscape:export-xdpi="96" inkscape:export-ydpi="96" inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)" sodipodi:docname="uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.svg" version="1.1" viewBox="0 0 1464 776" width="1464" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg:metadata id="metadata-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene">
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<dc:title/>
+</cc:Work>
+</rdf:RDF>
+</svg:metadata>
+<svg:defs id="defs-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene"/>
+<sodipodi:namedview bordercolor="#666666" borderopacity="1" gridtolerance="10" guidetolerance="10" id="namedview-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene" inkscape:current-layer="group-uuid-a62cdd57-739f-4f98-b0bd-45e7aced8b73-1st-scene" inkscape:cx="732" inkscape:cy="388" inkscape:document-rotation="0" inkscape:pageopacity="0" inkscape:pageshadow="2" inkscape:window-height="1121" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-9" inkscape:window-y="611" inkscape:zoom="0.87226776" objecttolerance="10" pagecolor="#ffffff" showgrid="false"/>
+<svg:g id="Image" inkscape:groupmode="layer">
+<svg:image height="776" id="image-engagement-map" preserveAspectRatio="none" sodipodi:absref="C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\saves\png\order_of_engagement_map_for_uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.png" sodipodi:insensitive="true" width="1464" xlink:href="../png/order_of_engagement_map_for_uuid_a62cdd57_739f_4f98_b0bd_45e7aced8b73_1st_scene.png"/>
+<svg:image id="image-action-sequence" preserveAspectRatio="none" sodipodi:absref="C:\Users\DaveBabbitt\Documents\GitHub\itm-analysis-reporting\saves\png\action_sequence_plot.png" x="82.947136" xlink:href="../png/action_sequence_plot.png" y="416.01001"/>
+<svg:text id="text868" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-610.1499" xml:space="preserve" y="312.27328"><svg:tspan id="tspan866" sodipodi:role="line" x="-610.1499" y="312.27328">Gary_3 (still)</svg:tspan></svg:text>
+<svg:text id="text868-3" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-617.94287" xml:space="preserve" y="335.47018"><svg:tspan id="tspan1014" sodipodi:role="line" x="-617.94287" y="335.47018">Mike_7 (waver)</svg:tspan></svg:text>
+<svg:text id="text868-34" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-622.3667" xml:space="preserve" y="358.66708"><svg:tspan id="tspan1016" sodipodi:role="line" x="-622.3667" y="358.66708">Gloria_6 (waver)</svg:tspan></svg:text>
+<svg:text id="text868-1" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-606.9566" xml:space="preserve" y="381.86398"><svg:tspan id="tspan1018" sodipodi:role="line" x="-606.9566" y="381.86398">Bob_0 (still)</svg:tspan></svg:text>
+<svg:text id="text868-9" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-613.9585" xml:space="preserve" y="405.06088"><svg:tspan id="tspan1022" sodipodi:role="line" x="-613.9585" y="405.06088">Lily_4 (waver)</svg:tspan></svg:text>
+<svg:text id="text868-35" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-610.1499" xml:space="preserve" y="428.25778"><svg:tspan id="tspan1024" sodipodi:role="line" x="-610.1499" y="428.25778">Gary_1 (still)</svg:tspan></svg:text>
+<svg:text id="text868-92" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-620.48193" xml:space="preserve" y="451.45468"><svg:tspan id="tspan1026" sodipodi:role="line" x="-620.48193" y="451.45468">Gary_9 (walker)</svg:tspan></svg:text>
+<svg:text id="text868-0" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-613.9585" xml:space="preserve" y="497.65158"><svg:tspan id="tspan1028" sodipodi:role="line" x="-613.9585" y="497.65158">Lily_2 (waver)</svg:tspan></svg:text>
+<svg:text id="text868-7" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-617.94287" xml:space="preserve" y="520.51508"><svg:tspan id="tspan1030" sodipodi:role="line" x="-617.94287" y="520.51508">Mike_5 (waver)</svg:tspan></svg:text>
+<svg:text id="text868-5" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-624.2417" xml:space="preserve" y="543.3786"><svg:tspan id="tspan1032" sodipodi:role="line" x="-624.2417" y="543.3786">Gloria_8 (walker)</svg:tspan></svg:text>
+<svg:text id="text868-6" style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.3333px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" transform="rotate(-90)" x="-627.72473" xml:space="preserve" y="566.24207"><svg:tspan id="tspan1034" sodipodi:role="line" x="-627.72473" y="566.24207">Helga_10 (walker)</svg:tspan></svg:text>
+</svg:g>
+</svg:svg>
