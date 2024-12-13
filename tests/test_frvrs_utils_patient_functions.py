@@ -7,7 +7,7 @@ import unittest
 
 # Import the class containing the functions
 import sys
-if (osp.join('..', 'py') not in sys.path): sys.path.insert(1, osp.join('..', 'py'))
+if (osp.join(os.pardir, 'py') not in sys.path): sys.path.insert(1, osp.join(os.pardir, 'py'))
 from FRVRS import fu, nu
 
 

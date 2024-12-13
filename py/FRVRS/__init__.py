@@ -4,7 +4,7 @@ import os.path as osp
 
 # Define the shared folder path using join for better compatibility
 shared_folder = osp.abspath(osp.join(
-    osp.dirname(__file__), '..', '..', '..', 'share'
+    osp.dirname(__file__), os.pardir, os.pardir, os.pardir, 'share'
 ))
 
 # Add the shared folder to sys.path if it's not already included
@@ -26,10 +26,10 @@ except ImportError as e:
 # Initialize with data and saves folder paths
 nu = NotebookUtilities(
     data_folder_path=osp.abspath(osp.join(
-        osp.dirname(__file__), '..', '..', 'data'
+        osp.dirname(__file__), os.pardir, os.pardir, 'data'
     )),
     saves_folder_path=osp.abspath(osp.join(
-        osp.dirname(__file__), '..', '..', 'saves'
+        osp.dirname(__file__), os.pardir, os.pardir, 'saves'
     ))
 )
 
